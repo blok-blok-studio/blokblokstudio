@@ -51,14 +51,14 @@ function useEarthTexture() {
     canvas.width = 2048;
     canvas.height = 1024;
     const ctx = canvas.getContext('2d')!;
-    // Ocean base - very dark gray so the sphere isn't invisible
-    ctx.fillStyle = '#0a0a0a';
+    // Ocean base
+    ctx.fillStyle = '#080808';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // Landmasses - lighter gray fill with white outline
-    ctx.fillStyle = '#1a1a1a';
-    ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
-    ctx.lineWidth = 2;
+    // Landmasses - clearly visible gray with bright white borders
+    ctx.fillStyle = '#333333';
+    ctx.strokeStyle = '#ffffff';
+    ctx.lineWidth = 3;
 
     for (const continent of continents) {
       ctx.beginPath();
