@@ -5,7 +5,6 @@ import './globals.css';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { OrganizationSchema, WebsiteSchema } from './structured-data';
-import { StarFieldWrapper } from '@/components/StarFieldWrapper';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://blokblokstudio.com'),
@@ -93,7 +92,6 @@ export default async function RootLayout({
         <OrganizationSchema />
         <WebsiteSchema />
         <NextIntlClientProvider messages={messages}>
-          <StarFieldWrapper />
           <Navbar />
           <main className="min-h-screen">{children}</main>
           <Footer />
