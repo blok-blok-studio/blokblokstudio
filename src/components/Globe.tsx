@@ -51,11 +51,14 @@ function useEarthTexture() {
     canvas.width = 2048;
     canvas.height = 1024;
     const ctx = canvas.getContext('2d')!;
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    // Ocean base - very dark gray so the sphere isn't invisible
+    ctx.fillStyle = '#0a0a0a';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
-    ctx.strokeStyle = 'rgba(255, 255, 255, 0.6)';
-    ctx.lineWidth = 2.5;
+    // Landmasses - lighter gray fill with white outline
+    ctx.fillStyle = '#1a1a1a';
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
+    ctx.lineWidth = 2;
 
     for (const continent of continents) {
       ctx.beginPath();
@@ -116,7 +119,7 @@ function GlobeWireframe() {
     <group ref={globeRef}>
       <Sphere args={[2, 64, 64]}>
         {earthTexture ? (
-          <meshBasicMaterial map={earthTexture} transparent opacity={1} side={THREE.FrontSide} />
+          <meshBasicMaterial map={earthTexture} side={THREE.FrontSide} />
         ) : (
           <meshBasicMaterial color="#ffffff" transparent opacity={0.02} />
         )}
