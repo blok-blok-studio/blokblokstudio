@@ -1,9 +1,11 @@
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { HomeHero } from '@/components/HomeHero';
+import { HomeClients } from '@/components/HomeClients';
 import { HomeServices } from '@/components/HomeServices';
 import { HomeProjects } from '@/components/HomeProjects';
+import { HomeTestimonials } from '@/components/HomeTestimonials';
+import { HomeNewsletter } from '@/components/HomeNewsletter';
 import { HomeCTA } from '@/components/HomeCTA';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -18,13 +20,14 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function HomePage() {
-  const t = useTranslations('home');
-
   return (
     <div className="page-transition">
       <HomeHero />
+      <HomeClients />
       <HomeServices />
       <HomeProjects />
+      <HomeTestimonials />
+      <HomeNewsletter />
       <HomeCTA />
     </div>
   );

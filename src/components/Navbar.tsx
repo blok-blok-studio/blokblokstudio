@@ -114,6 +114,7 @@ export function Navbar() {
     { href: '/about', label: t('about') },
     { href: '/services', label: t('services') },
     { href: '/team', label: t('team') },
+    { href: '/blog', label: t('blog') },
     { href: '/contact', label: t('contact') },
   ];
 

@@ -67,6 +67,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AnimatedSection } from './AnimatedSection';
+import Link from 'next/link';
 
 /**
  * ---------------------------------------------------------------------------
@@ -95,15 +96,15 @@ import { AnimatedSection } from './AnimatedSection';
  * ---------------------------------------------------------------------------
  */
 const allProjects = [
-  { id: 1, title: 'Zenith Finance', category: 'web', year: '2025', desc: 'A comprehensive fintech platform redesign with focus on user trust and clarity.' },
-  { id: 2, title: 'Aura Wellness', category: 'brand', year: '2025', desc: 'Complete brand identity for a luxury wellness brand expanding globally.' },
-  { id: 3, title: 'NovaTech App', category: 'app', year: '2024', desc: 'Cross-platform mobile application for next-gen project management.' },
-  { id: 4, title: 'Monolith Records', category: 'web', year: '2024', desc: 'Immersive music label website with audio-reactive visuals.' },
-  { id: 5, title: 'Apex Athletics', category: 'brand', year: '2024', desc: 'Dynamic sports brand identity system with motion design guidelines.' },
-  { id: 6, title: 'Horizon Travel', category: 'marketing', year: '2024', desc: 'Multi-channel digital marketing campaign driving 300% booking increase.' },
-  { id: 7, title: 'Vortex Gaming', category: 'web', year: '2023', desc: 'High-performance esports team website with live stats integration.' },
-  { id: 8, title: 'Luna Cosmetics', category: 'app', year: '2023', desc: 'AR-powered beauty app with virtual try-on and personalized routines.' },
-  { id: 9, title: 'Echo Media', category: 'marketing', year: '2023', desc: 'Full-scale digital presence overhaul and content strategy execution.' },
+  { id: 1, title: 'Zenith Finance', category: 'web', year: '2025', desc: 'A comprehensive fintech platform redesign with focus on user trust and clarity.', slug: 'zenith-finance' },
+  { id: 2, title: 'Aura Wellness', category: 'brand', year: '2025', desc: 'Complete brand identity for a luxury wellness brand expanding globally.', slug: 'aura-wellness' },
+  { id: 3, title: 'NovaTech App', category: 'app', year: '2024', desc: 'Cross-platform mobile application for next-gen project management.', slug: 'novatech-app' },
+  { id: 4, title: 'Monolith Records', category: 'web', year: '2024', desc: 'Immersive music label website with audio-reactive visuals.', slug: 'monolith-records' },
+  { id: 5, title: 'Apex Athletics', category: 'brand', year: '2024', desc: 'Dynamic sports brand identity system with motion design guidelines.', slug: 'apex-athletics' },
+  { id: 6, title: 'Horizon Travel', category: 'marketing', year: '2024', desc: 'Multi-channel digital marketing campaign driving 300% booking increase.', slug: 'horizon-travel' },
+  { id: 7, title: 'Vortex Gaming', category: 'web', year: '2023', desc: 'High-performance esports team website with live stats integration.', slug: 'vortex-gaming' },
+  { id: 8, title: 'Luna Cosmetics', category: 'app', year: '2023', desc: 'AR-powered beauty app with virtual try-on and personalized routines.', slug: 'luna-cosmetics' },
+  { id: 9, title: 'Echo Media', category: 'marketing', year: '2023', desc: 'Full-scale digital presence overhaul and content strategy execution.', slug: 'echo-media' },
 ];
 
 /**
@@ -241,6 +242,7 @@ export function ProjectsContent() {
                 whileHover={{ y: -6 }}
                 className="group cursor-pointer"
               >
+                <Link href={`/projects/${project.slug}`}>
                 <div className="rounded-2xl sm:rounded-3xl overflow-hidden glass-card">
 
                   {/* ----------------------------------------------------
@@ -302,6 +304,7 @@ export function ProjectsContent() {
                     </p>
                   </div>
                 </div>
+                </Link>
               </motion.div>
             ))}
           </AnimatePresence>

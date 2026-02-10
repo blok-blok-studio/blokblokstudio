@@ -5,17 +5,26 @@
     "about": "关于我们",
     "services": "服务",
     "team": "团队",
+    "blog": "Blog",
     "contact": "联系我们"
   },
   "home": {
     "hero_title": "我们构建数字体验",
     "hero_subtitle": "一家打造大胆品牌、精美网站和打动人心的数字产品的创意工作室。",
     "hero_cta": "启动项目",
+    "clients_heading": "Trusted by forward-thinking brands",
     "services_heading": "我们的业务",
     "services_subheading": "我们将策略、设计和技术相结合，创造能够驱动成果的数字体验。",
     "projects_heading": "精选作品",
     "projects_subheading": "创意与目标交汇的项目展示。",
     "projects_cta": "查看所有项目",
+    "testimonials_heading": "What Our Clients Say",
+    "testimonials_subtitle": "Don't just take our word for it — hear from the brands we've helped transform.",
+    "newsletter_heading": "Get Design Insights Weekly",
+    "newsletter_subtitle": "Join 2,000+ founders and creatives getting actionable tips on design, branding, and digital growth every Thursday.",
+    "newsletter_placeholder": "Enter your email",
+    "newsletter_button": "Subscribe",
+    "newsletter_privacy": "No spam, ever. Unsubscribe anytime.",
     "cta_heading": "准备好创造伟大的作品了吗？",
     "cta_subheading": "让我们合作，将您的愿景变为现实。",
     "cta_button": "联系我们"
@@ -101,6 +110,10 @@
     "info_email": "hello@blokblokstudio.com",
     "info_phone": "+1 (555) 000-0000",
     "info_address": "123 Creative Ave, Design District"
+  },
+  "blog": {
+    "title": "Insights & Ideas",
+    "subtitle": "Thoughts on design, technology, and building brands that matter."
   },
   "footer": {
     "tagline": "打造激发灵感的数字体验。",

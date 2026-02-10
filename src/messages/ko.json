@@ -5,17 +5,26 @@
     "about": "회사 소개",
     "services": "서비스",
     "team": "팀",
+    "blog": "Blog",
     "contact": "문의하기"
   },
   "home": {
     "hero_title": "디지털 경험을 구축합니다",
     "hero_subtitle": "대담한 브랜드, 멋진 웹사이트, 사람들의 마음을 움직이는 디지털 제품을 만드는 크리에이티브 스튜디오입니다.",
     "hero_cta": "프로젝트 시작하기",
+    "clients_heading": "Trusted by forward-thinking brands",
     "services_heading": "우리가 하는 일",
     "services_subheading": "전략, 디자인, 기술을 결합하여 성과를 이끌어내는 디지털 경험을 만듭니다.",
     "projects_heading": "선별된 작업",
     "projects_subheading": "창의성과 목적이 만나는 프로젝트 쇼케이스.",
     "projects_cta": "모든 프로젝트 보기",
+    "testimonials_heading": "What Our Clients Say",
+    "testimonials_subtitle": "Don't just take our word for it — hear from the brands we've helped transform.",
+    "newsletter_heading": "Get Design Insights Weekly",
+    "newsletter_subtitle": "Join 2,000+ founders and creatives getting actionable tips on design, branding, and digital growth every Thursday.",
+    "newsletter_placeholder": "Enter your email",
+    "newsletter_button": "Subscribe",
+    "newsletter_privacy": "No spam, ever. Unsubscribe anytime.",
     "cta_heading": "멋진 것을 함께 만들 준비가 되셨나요?",
     "cta_subheading": "협력하여 당신의 비전을 현실로 만들어 봅시다.",
     "cta_button": "문의하기"
@@ -101,6 +110,10 @@
     "info_email": "hello@blokblokstudio.com",
     "info_phone": "+1 (555) 000-0000",
     "info_address": "123 Creative Ave, Design District"
+  },
+  "blog": {
+    "title": "Insights & Ideas",
+    "subtitle": "Thoughts on design, technology, and building brands that matter."
   },
   "footer": {
     "tagline": "영감을 주는 디지털 경험을 만듭니다.",

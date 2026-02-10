@@ -5,17 +5,26 @@
     "about": "私たちについて",
     "services": "サービス",
     "team": "チーム",
+    "blog": "Blog",
     "contact": "お問い合わせ"
   },
   "home": {
     "hero_title": "デジタル体験を構築します",
     "hero_subtitle": "大胆なブランド、美しいウェブサイト、人々の心を動かすデジタルプロダクトを生み出すクリエイティブスタジオです。",
     "hero_cta": "プロジェクトを始める",
+    "clients_heading": "Trusted by forward-thinking brands",
     "services_heading": "私たちの仕事",
     "services_subheading": "戦略、デザイン、テクノロジーを組み合わせて、成果を生み出すデジタル体験を創造します。",
     "projects_heading": "厳選された作品",
     "projects_subheading": "創造性と目的が出会うプロジェクトのショーケース。",
     "projects_cta": "すべてのプロジェクトを見る",
+    "testimonials_heading": "What Our Clients Say",
+    "testimonials_subtitle": "Don't just take our word for it — hear from the brands we've helped transform.",
+    "newsletter_heading": "Get Design Insights Weekly",
+    "newsletter_subtitle": "Join 2,000+ founders and creatives getting actionable tips on design, branding, and digital growth every Thursday.",
+    "newsletter_placeholder": "Enter your email",
+    "newsletter_button": "Subscribe",
+    "newsletter_privacy": "No spam, ever. Unsubscribe anytime.",
     "cta_heading": "素晴らしいものを一緒に作りませんか？",
     "cta_subheading": "コラボレーションを通じて、あなたのビジョンを実現しましょう。",
     "cta_button": "お問い合わせ"
@@ -101,6 +110,10 @@
     "info_email": "hello@blokblokstudio.com",
     "info_phone": "+1 (555) 000-0000",
     "info_address": "123 Creative Ave, Design District"
+  },
+  "blog": {
+    "title": "Insights & Ideas",
+    "subtitle": "Thoughts on design, technology, and building brands that matter."
   },
   "footer": {
     "tagline": "インスピレーションを与えるデジタル体験を創造。",

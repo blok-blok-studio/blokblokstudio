@@ -76,24 +76,28 @@ const featuredProjects = [
     category: 'Web Design',
     color: 'from-gray-900 to-gray-800',
     year: '2025',
+    slug: 'zenith-finance',
   },
   {
     title: 'Aura Wellness',
     category: 'Branding',
     color: 'from-gray-800 to-gray-900',
     year: '2025',
+    slug: 'aura-wellness',
   },
   {
     title: 'NovaTech App',
     category: 'App Development',
     color: 'from-gray-900 to-gray-800',
     year: '2024',
+    slug: 'novatech-app',
   },
   {
     title: 'Monolith Records',
     category: 'Web Design',
     color: 'from-gray-800 to-gray-900',
     year: '2024',
+    slug: 'monolith-records',
   },
 ];
 
@@ -165,6 +169,8 @@ export function HomeProjects() {
           {featuredProjects.map((project, i) => (
             /* AnimatedSection -- scroll-triggered entrance, staggered per card */
             <AnimatedSection key={i} delay={i * 0.1}>
+              {/* Link wraps the card — navigates to /projects/[slug] */}
+              <Link href={`/projects/${project.slug}`}>
               {/* motion.div -- scales up to 1.02x on hover for a subtle "lift" */}
               <motion.div
                 whileHover={{ scale: 1.02 }}
@@ -263,6 +269,7 @@ export function HomeProjects() {
                   </div>
                 </div>
               </motion.div>
+              </Link>
             </AnimatedSection>
           ))}
         </div>

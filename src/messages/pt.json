@@ -5,17 +5,26 @@
     "about": "Sobre Nós",
     "services": "Serviços",
     "team": "Equipe",
+    "blog": "Blog",
     "contact": "Contato"
   },
   "home": {
     "hero_title": "Construímos Experiências Digitais",
     "hero_subtitle": "Um estúdio criativo que desenvolve marcas ousadas, sites deslumbrantes e produtos digitais que movem pessoas.",
     "hero_cta": "Iniciar um Projeto",
+    "clients_heading": "Trusted by forward-thinking brands",
     "services_heading": "O Que Fazemos",
     "services_subheading": "Combinamos estratégia, design e tecnologia para criar experiências digitais que geram resultados.",
     "projects_heading": "Trabalhos Selecionados",
     "projects_subheading": "Uma vitrine de projetos onde a criatividade encontra o propósito.",
     "projects_cta": "Ver Todos os Projetos",
+    "testimonials_heading": "What Our Clients Say",
+    "testimonials_subtitle": "Don't just take our word for it — hear from the brands we've helped transform.",
+    "newsletter_heading": "Get Design Insights Weekly",
+    "newsletter_subtitle": "Join 2,000+ founders and creatives getting actionable tips on design, branding, and digital growth every Thursday.",
+    "newsletter_placeholder": "Enter your email",
+    "newsletter_button": "Subscribe",
+    "newsletter_privacy": "No spam, ever. Unsubscribe anytime.",
     "cta_heading": "Pronto para Construir Algo Incrível?",
     "cta_subheading": "Vamos colaborar e dar vida à sua visão.",
     "cta_button": "Entre em Contato"
@@ -101,6 +110,10 @@
     "info_email": "hello@blokblokstudio.com",
     "info_phone": "+1 (555) 000-0000",
     "info_address": "123 Creative Ave, Design District"
+  },
+  "blog": {
+    "title": "Insights & Ideas",
+    "subtitle": "Thoughts on design, technology, and building brands that matter."
   },
   "footer": {
     "tagline": "Criando experiências digitais que inspiram.",
