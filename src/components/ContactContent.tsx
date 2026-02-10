@@ -1,3 +1,65 @@
+/**
+ * ============================================================================
+ * ContactContent.tsx — Full /contact Page Component
+ * ============================================================================
+ *
+ * PURPOSE:
+ *   Renders the entire Contact page, including:
+ *     1. A page header (title + subtitle)
+ *     2. A contact form (name, email, company, message, submit button)
+ *     3. A sidebar with contact info (email, phone, address) and a map placeholder
+ *     4. A success message shown after form submission
+ *
+ * IMPORTANT — FORM DOES NOT SEND DATA:
+ *   The form's handleSubmit currently just sets `submitted = true` to show
+ *   the success message. It does NOT actually send the form data anywhere.
+ *   You MUST integrate a backend service (API route, email service, etc.)
+ *   to make the form functional. See the handleSubmit function below for
+ *   where to add that logic.
+ *
+ * TRANSLATIONS:
+ *   All user-facing text comes from the "contact" namespace in your
+ *   translation JSON files (e.g., messages/en.json under "contact").
+ *   Keys used:
+ *     - contact.title        → page heading
+ *     - contact.subtitle     → page subheading
+ *     - contact.name         → name field label + placeholder
+ *     - contact.email        → email field label + placeholder
+ *     - contact.company      → company field label + placeholder
+ *     - contact.message      → message field label + placeholder
+ *     - contact.submit       → submit button text
+ *     - contact.success      → success message heading
+ *     - contact.info_title   → sidebar heading ("Contact Info" etc.)
+ *     - contact.info_email   → displayed email address
+ *     - contact.info_phone   → displayed phone number
+ *     - contact.info_address → displayed physical address
+ *
+ * TO EDIT TEXT:
+ *   - Page title/subtitle → edit "contact.title" / "contact.subtitle" in translation files
+ *   - Form labels → edit "contact.name", "contact.email", etc.
+ *   - Contact info → edit "contact.info_email", "contact.info_phone", "contact.info_address"
+ *   - Success message → edit "contact.success"
+ *
+ * TO REPLACE THE MAP PLACEHOLDER:
+ *   The map area at the bottom of the sidebar is currently a styled
+ *   placeholder. Replace the placeholder div with an actual map embed
+ *   (Google Maps iframe, Mapbox component, etc.). See the inline comment
+ *   in the map section below.
+ *
+ * REFERENCED FILES / DEPENDENCIES:
+ *   - ./AnimatedSection   → scroll-triggered reveal animation wrapper
+ *   - next-intl           → i18n translation hook (useTranslations)
+ *   - framer-motion       → animation library (motion for button + success message)
+ *
+ * STYLING:
+ *   - Uses Tailwind CSS utility classes throughout.
+ *   - "glass-card" is a custom utility class for the frosted-glass card look.
+ *   - Responsive breakpoints: sm (640px), md (768px), lg (1024px).
+ *   - Layout: 5-column grid on lg — form takes 3 cols, sidebar takes 2 cols.
+ *
+ * ============================================================================
+ */
+
 'use client';
 
 import { useState } from 'react';
@@ -5,19 +67,74 @@ import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
 import { motion } from 'framer-motion';
 
+/**
+ * ---------------------------------------------------------------------------
+ * ContactContent Component
+ * ---------------------------------------------------------------------------
+ * Main export. Renders the full /contact page layout with form + sidebar.
+ * ---------------------------------------------------------------------------
+ */
 export function ContactContent() {
+  /**
+   * Translation hook — pulls all keys from the "contact" namespace.
+   * To change any displayed text, edit your translation JSON files
+   * (e.g., messages/en.json → "contact": { ... }).
+   */
   const t = useTranslations('contact');
+
+  /**
+   * Submission state — controls whether to show the form or the success message.
+   * Set to `true` after the user clicks Submit.
+   */
   const [submitted, setSubmitted] = useState(false);
 
+  /**
+   * Form submit handler.
+   *
+   * CURRENT BEHAVIOR:
+   *   Prevents default form submission and immediately shows the success
+   *   message. No data is actually sent anywhere.
+   *
+   * TODO — BACKEND INTEGRATION:
+   *   To make this form functional, add your API call here before
+   *   setting `submitted` to true. For example:
+   *
+   *     const handleSubmit = async (e: React.FormEvent) => {
+   *       e.preventDefault();
+   *       const formData = new FormData(e.target as HTMLFormElement);
+   *       await fetch('/api/contact', {
+   *         method: 'POST',
+   *         body: JSON.stringify(Object.fromEntries(formData)),
+   *         headers: { 'Content-Type': 'application/json' },
+   *       });
+   *       setSubmitted(true);
+   *     };
+   *
+   *   You will also need to create the corresponding API route
+   *   (e.g., src/app/api/contact/route.ts) to handle the submission.
+   */
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitted(true);
   };
 
   return (
+    /**
+     * Outer section wrapper.
+     * - pt-24 / sm:pt-32 → top padding (room for the fixed navbar)
+     * - pb-16 / sm:pb-24 → bottom padding
+     * - px-5 / sm:px-6 / lg:px-8 → horizontal padding
+     */
     <section className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-5 sm:px-6 lg:px-8">
+      {/* Max-width container — keeps content centered on wide screens */}
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
+
+        {/* ================================================================
+            SECTION 1: Page Header (Title + Subtitle)
+            ================================================================
+            TO EDIT: Change "contact.title" and "contact.subtitle" in
+            your translation files.
+        */}
         <AnimatedSection className="text-center mb-12 sm:mb-16 lg:mb-20">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6">
             {t('title')}
@@ -27,15 +144,37 @@ export function ContactContent() {
           </p>
         </AnimatedSection>
 
+        {/* ================================================================
+            MAIN LAYOUT: 5-Column Grid
+            ================================================================
+            On desktop (lg+):
+              - Left side (3 cols): Contact form or success message
+              - Right side (2 cols): Sidebar with contact info + map
+            On mobile: stacks vertically (single column).
+        */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 sm:gap-12 lg:gap-16">
-          {/* Contact Form */}
+
+          {/* ==============================================================
+              LEFT COLUMN: Contact Form / Success Message (3 of 5 cols)
+              ==============================================================
+          */}
           <AnimatedSection className="lg:col-span-3">
             {submitted ? (
+              /* --------------------------------------------------------
+                 SUCCESS MESSAGE
+                 --------------------------------------------------------
+                 Shown after the form is submitted. Animates in with
+                 a fade + slight scale-up via framer-motion.
+
+                 TO EDIT: Change "contact.success" in translation files
+                 to update the success heading text.
+              */
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 className="glass-card rounded-2xl sm:rounded-3xl p-8 sm:p-12 text-center"
               >
+                {/* Green checkmark icon */}
                 <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-6">
                   <svg
                     className="w-8 h-8 text-green-400"
@@ -51,11 +190,25 @@ export function ContactContent() {
                     />
                   </svg>
                 </div>
+                {/* Success heading text from translations */}
                 <h3 className="text-2xl font-semibold mb-2">{t('success')}</h3>
               </motion.div>
             ) : (
+              /* --------------------------------------------------------
+                 CONTACT FORM
+                 --------------------------------------------------------
+                 Contains: Name, Email, Company, Message, Submit button.
+                 All labels and placeholders come from translations.
+
+                 NOTE: The form does NOT send data — see handleSubmit above.
+                 You need to add backend integration to make it work.
+              */
               <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+
+                {/* Name + Email fields — side by side on sm+ */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+
+                  {/* Name field (required) */}
                   <div>
                     <label className="block text-sm text-gray-400 mb-2">
                       {t('name')}
@@ -67,6 +220,8 @@ export function ContactContent() {
                       placeholder={t('name')}
                     />
                   </div>
+
+                  {/* Email field (required) */}
                   <div>
                     <label className="block text-sm text-gray-400 mb-2">
                       {t('email')}
@@ -80,6 +235,7 @@ export function ContactContent() {
                   </div>
                 </div>
 
+                {/* Company field (optional — no "required" attribute) */}
                 <div>
                   <label className="block text-sm text-gray-400 mb-2">
                     {t('company')}
@@ -91,6 +247,7 @@ export function ContactContent() {
                   />
                 </div>
 
+                {/* Message textarea (required) */}
                 <div>
                   <label className="block text-sm text-gray-400 mb-2">
                     {t('message')}
@@ -103,6 +260,12 @@ export function ContactContent() {
                   />
                 </div>
 
+                {/*
+                  Submit button.
+                  - whileHover/whileTap: subtle scale animation via framer-motion.
+                  - Button text from translation key "contact.submit".
+                  - On mobile: full width (w-full). On sm+: auto width (sm:w-auto).
+                */}
                 <motion.button
                   type="submit"
                   whileHover={{ scale: 1.02 }}
@@ -115,13 +278,33 @@ export function ContactContent() {
             )}
           </AnimatedSection>
 
-          {/* Contact Info Sidebar */}
+          {/* ==============================================================
+              RIGHT COLUMN: Contact Info Sidebar (2 of 5 cols)
+              ==============================================================
+              Contains:
+                - Contact info heading
+                - Email, Phone, and Address blocks (each with an icon)
+                - A map placeholder at the bottom
+          */}
           <AnimatedSection delay={0.2} className="lg:col-span-2">
             <div className="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 space-y-6 sm:space-y-8">
+
+              {/* Sidebar heading — from "contact.info_title" */}
               <h3 className="text-lg font-semibold">{t('info_title')}</h3>
 
+              {/* Contact info rows (email, phone, address) */}
               <div className="space-y-6">
+
+                {/* --------------------------------------------------
+                    EMAIL ROW
+                    --------------------------------------------------
+                    Icon: envelope/mail SVG
+                    TO EDIT: Change "contact.info_email" in translation files.
+                    The value is used as both the display text and the
+                    mailto: link href.
+                */}
                 <div className="flex items-start gap-4">
+                  {/* Email icon container */}
                   <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center flex-shrink-0">
                     <svg
                       className="w-5 h-5 text-gray-400"
@@ -139,6 +322,7 @@ export function ContactContent() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 mb-1">Email</p>
+                    {/* Clickable mailto link using the translated email address */}
                     <a
                       href={`mailto:${t('info_email')}`}
                       className="text-sm hover:text-white transition-colors"
@@ -148,7 +332,16 @@ export function ContactContent() {
                   </div>
                 </div>
 
+                {/* --------------------------------------------------
+                    PHONE ROW
+                    --------------------------------------------------
+                    Icon: phone SVG
+                    TO EDIT: Change "contact.info_phone" in translation files.
+                    The value is used as both the display text and the
+                    tel: link href.
+                */}
                 <div className="flex items-start gap-4">
+                  {/* Phone icon container */}
                   <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center flex-shrink-0">
                     <svg
                       className="w-5 h-5 text-gray-400"
@@ -166,6 +359,7 @@ export function ContactContent() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 mb-1">Phone</p>
+                    {/* Clickable tel link using the translated phone number */}
                     <a
                       href={`tel:${t('info_phone')}`}
                       className="text-sm hover:text-white transition-colors"
@@ -175,7 +369,15 @@ export function ContactContent() {
                   </div>
                 </div>
 
+                {/* --------------------------------------------------
+                    ADDRESS / LOCATION ROW
+                    --------------------------------------------------
+                    Icon: map pin SVG
+                    TO EDIT: Change "contact.info_address" in translation files.
+                    This is plain text (not a link).
+                */}
                 <div className="flex items-start gap-4">
+                  {/* Location pin icon container */}
                   <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center flex-shrink-0">
                     <svg
                       className="w-5 h-5 text-gray-400"
@@ -204,9 +406,30 @@ export function ContactContent() {
                 </div>
               </div>
 
-              {/* Map placeholder */}
+              {/* ----------------------------------------------------------
+                  MAP PLACEHOLDER
+                  ----------------------------------------------------------
+                  Currently shows a styled placeholder with a map icon.
+                  This does NOT display a real map.
+
+                  TO REPLACE WITH A REAL MAP:
+                    Remove or replace the contents of this div with an
+                    actual map component or iframe. For example:
+
+                    Google Maps embed:
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=YOUR_EMBED_PARAMS"
+                        className="w-full h-full border-0"
+                        allowFullScreen
+                        loading="lazy"
+                      />
+
+                    Or use a library like react-leaflet, @vis.gl/react-google-maps, etc.
+              */}
               <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 overflow-hidden relative">
+                {/* Subtle grid pattern overlay */}
                 <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:20px_20px]" />
+                {/* Centered placeholder icon + "Map" label */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
                     <svg

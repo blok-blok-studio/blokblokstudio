@@ -1,5 +1,37 @@
+/**
+ * ============================================================
+ * GLOBAL STYLES — globals.css
+ * ============================================================
+ * This file contains all global CSS for the site.
+ * Tailwind CSS is imported at the top — all Tailwind classes work automatically.
+ *
+ * SECTIONS:
+ * 1. Tailwind import + theme colors/fonts
+ * 2. Smooth scrolling
+ * 3. Custom scrollbar styling (Chrome/Edge/Safari)
+ * 4. Text selection color
+ * 5. Page transition animation
+ * 6. Magnetic button hover effect
+ * 7. Gradient text utility
+ * 8. Glass morphism card style
+ * 9. Noise texture overlay
+ *
+ * TO EDIT:
+ * - Colors → change values in @theme block below
+ * - Fonts → change --font-sans and --font-display
+ * - Glass card opacity → change rgba values in .glass-card
+ * - Noise intensity → change opacity in .noise-overlay::before
+ * ============================================================
+ */
+
+/* ── TAILWIND CSS IMPORT ──
+   This single import enables all Tailwind utility classes (flex, text-xl, etc.) */
 @import "tailwindcss";
 
+/* ── THEME CONFIGURATION ──
+   Custom color palette and font stack used throughout the site.
+   These map to Tailwind classes like text-gray-400, bg-gray-900, etc.
+   To change the color scheme, edit the hex values below. */
 @theme {
   --color-black: #000000;
   --color-white: #ffffff;
@@ -15,16 +47,21 @@
   --color-gray-900: #171717;
   --color-gray-950: #0a0a0a;
 
+  /* Font stack — Inter is the primary font.
+     To change fonts: update these values AND add the font import/link. */
   --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
   --font-display: "Inter", "Helvetica Neue", Arial, sans-serif;
 }
 
-/* Smooth scrolling */
+/* ── SMOOTH SCROLLING ──
+   Enables smooth scroll when clicking anchor links or "back to top" */
 html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
+/* ── CUSTOM SCROLLBAR ──
+   Thin dark scrollbar matching the site's dark theme.
+   Only works in Chrome, Edge, and Safari (Firefox uses its own). */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -42,13 +79,16 @@ html {
   background: #555;
 }
 
-/* Selection styling */
+/* ── TEXT SELECTION ──
+   When users highlight text, it appears with a white semi-transparent background */
 ::selection {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
 
-/* Page transition base */
+/* ── PAGE TRANSITION ──
+   Applied via className="page-transition" on page wrappers.
+   Creates a subtle fade-in + slide-up effect when navigating between pages. */
 .page-transition {
   animation: fadeInUp 0.6s ease-out;
 }
@@ -64,12 +104,16 @@ html {
   }
 }
 
-/* Magnetic button hover effect */
+/* ── MAGNETIC BUTTON ──
+   Used by the MagneticButton component for smooth follow-cursor effect.
+   The transform is updated via JavaScript; this just handles the transition easing. */
 .magnetic-btn {
   transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-/* Gradient text utility */
+/* ── GRADIENT TEXT ──
+   Creates a white-to-gray gradient on text.
+   Usage: <span className="gradient-text">Your Text</span> */
 .gradient-text {
   background: linear-gradient(135deg, #ffffff 0%, #a3a3a3 100%);
   -webkit-background-clip: text;
@@ -77,14 +121,21 @@ html {
   background-clip: text;
 }
 
-/* Glass morphism card */
+/* ── GLASS CARD ──
+   Semi-transparent frosted glass card effect used throughout the site.
+   Usage: <div className="glass-card">Content</div>
+   To make cards more/less transparent, adjust the rgba alpha values. */
 .glass-card {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);     /* Card background — increase for lighter */
+  backdrop-filter: blur(10px);                 /* Blur intensity behind the card */
+  border: 1px solid rgba(255, 255, 255, 0.08); /* Subtle border — increase for more visible */
 }
 
-/* Noise overlay for texture */
+/* ── NOISE OVERLAY ──
+   Adds a subtle film-grain texture over the entire site for a premium feel.
+   Applied via className="noise-overlay" on the <body>.
+   To adjust intensity: change the opacity value (currently 0.015 = very subtle).
+   To remove: delete "noise-overlay" from <body> className in layout.tsx. */
 .noise-overlay::before {
   content: "";
   position: fixed;

@@ -1,14 +1,77 @@
+/* ==========================================================================
+ * Footer.tsx — Site-Wide Footer
+ * ==========================================================================
+ *
+ * PURPOSE:
+ *   Renders the footer that appears at the bottom of every page. It contains
+ *   four columns: a brand/logo block, quick navigation links, social media
+ *   links, and a newsletter signup form. Below those columns is a bottom bar
+ *   with a copyright notice and a "Back to top" button.
+ *
+ * KEY BEHAVIORS:
+ *   - The newsletter form currently prevents default submission (placeholder).
+ *     You will need to wire up real form handling (API route, third-party
+ *     service, etc.) when ready.
+ *   - The "Back to top" button smoothly scrolls to the top of the page.
+ *
+ * REFERENCED FILES / ASSETS:
+ *   - /public/logo.svg                  -> Footer logo image.
+ *   - Translation namespace "footer"    -> Tagline, section headings,
+ *                                          newsletter labels, copyright text.
+ *                                          Lives in your locale JSON files
+ *                                          (e.g., /messages/en.json -> "footer").
+ *   - Translation namespace "nav"       -> Reuses the same link labels as
+ *                                          the Navbar (home, projects, etc.).
+ *
+ * WHERE TO EDIT TEXT / IMAGES:
+ *   - To change the logo         -> Replace /public/logo.svg or update `src`.
+ *   - To change the tagline      -> Edit "footer.tagline" in locale JSON.
+ *   - To change link labels      -> Edit the "nav" namespace in locale JSON.
+ *   - To add/remove nav links    -> Edit the `links` array below.
+ *   - To update social links     -> Edit the `socials` array below (change
+ *                                    `href` from "#" to your real URLs).
+ *   - To change newsletter text  -> Edit "footer.newsletter_title",
+ *                                    "footer.newsletter_placeholder", and
+ *                                    "footer.newsletter_button" in locale JSON.
+ *   - To change the copyright    -> Edit "footer.copyright" in locale JSON.
+ *                                    The year auto-updates via JS Date.
+ *
+ * ========================================================================== */
+
 'use client';
 
+/* --------------------------------------------------------------------------
+ * Imports
+ * --------------------------------------------------------------------------
+ * Image            -> Next.js optimized image component for the footer logo.
+ * Link             -> Next.js client-side navigation links.
+ * useTranslations  -> next-intl hook to pull translated strings by namespace.
+ * motion           -> Framer Motion for the "Back to top" hover animation.
+ * -------------------------------------------------------------------------- */
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 
 export function Footer() {
+  /* --------------------------------------------------------------------------
+   * Translation Hooks
+   * --------------------------------------------------------------------------
+   * t    -> Pulls from the "footer" namespace (tagline, headings, newsletter).
+   * nav  -> Pulls from the "nav" namespace (reuses same link labels as Navbar).
+   * -------------------------------------------------------------------------- */
   const t = useTranslations('footer');
   const nav = useTranslations('nav');
 
+  /* --------------------------------------------------------------------------
+   * Navigation Links Array
+   * --------------------------------------------------------------------------
+   * Mirrors the same pages as the Navbar. Labels come from the "nav" namespace.
+   *
+   * TO ADD A LINK:  Add a new object, e.g. { href: '/blog', label: nav('blog') }
+   *                 and make sure the "blog" key exists in "nav" in locale JSON.
+   * TO REMOVE:      Delete the corresponding object.
+   * -------------------------------------------------------------------------- */
   const links = [
     { href: '/', label: nav('home') },
     { href: '/projects', label: nav('projects') },
@@ -18,6 +81,18 @@ export function Footer() {
     { href: '/contact', label: nav('contact') },
   ];
 
+  /* --------------------------------------------------------------------------
+   * Social Media Links Array
+   * --------------------------------------------------------------------------
+   * Each entry has a display `label` and an `href`.
+   *
+   * TO UPDATE SOCIAL URLS:
+   *   Replace the "#" placeholder in `href` with your actual profile URLs.
+   *   Example: { label: 'Twitter / X', href: 'https://x.com/yourstudio' }
+   *
+   * TO ADD / REMOVE A SOCIAL:
+   *   Add or delete an object from this array.
+   * -------------------------------------------------------------------------- */
   const socials = [
     { label: 'Twitter / X', href: '#' },
     { label: 'Instagram', href: '#' },
@@ -27,9 +102,28 @@ export function Footer() {
 
   return (
     <footer className="border-t border-white/5 bg-black">
+      {/* Max-width container with responsive padding */}
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
+
+        {/* ==============================================================
+         * FOUR-COLUMN GRID
+         * ==============================================================
+         * Layout: 2 columns on mobile, 4 columns on large (lg) screens.
+         * Columns: Brand | Quick Links | Socials | Newsletter
+         * ============================================================== */}
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-8">
-          {/* Brand */}
+
+          {/* ==============================================================
+           * COLUMN 1: BRAND / LOGO
+           * ==============================================================
+           * Spans 2 columns on mobile / small screens, 1 column on large.
+           * Shows the site logo (links to homepage) and a short tagline.
+           *
+           * TO CHANGE THE LOGO:
+           *   Replace /public/logo.svg or change the `src` prop below.
+           * TO CHANGE THE TAGLINE:
+           *   Edit "footer.tagline" in your locale JSON files.
+           * ============================================================== */}
           <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <Link href="/" className="inline-block mb-4">
               <Image
@@ -45,7 +139,12 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* ==============================================================
+           * COLUMN 2: QUICK LINKS
+           * ==============================================================
+           * A vertical list of internal navigation links.
+           * The heading text comes from "footer.quick_links" in locale JSON.
+           * ============================================================== */}
           <div>
             <h4 className="text-sm font-medium mb-6 text-gray-300">
               {t('quick_links')}
@@ -64,7 +163,14 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Socials */}
+          {/* ==============================================================
+           * COLUMN 3: SOCIAL MEDIA LINKS
+           * ==============================================================
+           * External links that open in a new tab (target="_blank").
+           * The heading text comes from "footer.connect" in locale JSON.
+           *
+           * TO UPDATE URLS: Change `href` values in the `socials` array above.
+           * ============================================================== */}
           <div>
             <h4 className="text-sm font-medium mb-6 text-gray-300">
               {t('connect')}
@@ -85,7 +191,22 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* ==============================================================
+           * COLUMN 4: NEWSLETTER SIGNUP
+           * ==============================================================
+           * Spans 2 columns on mobile, 1 on large screens.
+           * Contains an email input and a submit button.
+           *
+           * IMPORTANT: The form currently does nothing on submit
+           * (e.preventDefault). To make it functional, replace the
+           * onSubmit handler with your real logic (e.g., call an API route
+           * or a third-party email service like Mailchimp / ConvertKit).
+           *
+           * Text comes from locale JSON:
+           *   - "footer.newsletter_title"       -> Heading
+           *   - "footer.newsletter_placeholder"  -> Input placeholder
+           *   - "footer.newsletter_button"        -> Button label
+           * ============================================================== */}
           <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <h4 className="text-sm font-medium mb-4 sm:mb-6 text-gray-300">
               {t('newsletter_title')}
@@ -109,12 +230,24 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
+        {/* ==============================================================
+         * BOTTOM BAR
+         * ==============================================================
+         * Sits below the four-column grid, separated by a thin border.
+         * Left side:  Copyright notice with auto-updating year.
+         * Right side: "Back to top" button that smooth-scrolls to top.
+         *
+         * TO CHANGE COPYRIGHT TEXT:
+         *   Edit "footer.copyright" in your locale JSON files. The company
+         *   name "Blok Blok Studio" is hardcoded below -- change it here
+         *   if the company name changes.
+         * ============================================================== */}
         <div className="mt-10 sm:mt-16 pt-6 sm:pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-600">
             &copy; {new Date().getFullYear()} Blok Blok Studio.{' '}
             {t('copyright')}
           </p>
+          {/* "Back to top" button -- nudges up slightly on hover (whileHover) */}
           <motion.button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             whileHover={{ y: -2 }}
