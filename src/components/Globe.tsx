@@ -1,9 +1,13 @@
 'use client';
 
-import { useRef, useMemo } from 'react';
+import { useRef, useMemo, useEffect, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Line } from '@react-three/drei';
 import * as THREE from 'three';
+import { feature } from 'topojson-client';
+import landData from 'world-atlas/land-50m.json';
+
+// --- Data ---
 
 const clientLocations = [
   { name: 'Berlin', lat: 52.52, lng: 13.405 },
@@ -11,6 +15,11 @@ const clientLocations = [
   { name: 'Minnesota', lat: 46.73, lng: -94.69 },
   { name: 'New Mexico', lat: 34.52, lng: -105.87 },
 ];
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const land = feature(landData as any, (landData as any).objects.land);
+
+// --- Helpers ---
 
 function toVec3(lat: number, lng: number, r: number): [number, number, number] {
   const phi = (90 - lat) * (Math.PI / 180);
@@ -22,32 +31,105 @@ function toVec3(lat: number, lng: number, r: number): [number, number, number] {
   ];
 }
 
+function getPolygons(): number[][][][] {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const g = land.geometry as any;
+  return g.type === 'MultiPolygon' ? g.coordinates : [g.coordinates];
+}
+
+// --- Canvas texture ---
+
+function buildTexture(): THREE.CanvasTexture {
+  const W = 4096;
+  const H = 2048;
+  const canvas = document.createElement('canvas');
+  canvas.width = W;
+  canvas.height = H;
+  const ctx = canvas.getContext('2d')!;
+
+  const toXY = (c: number[]): [number, number] => [
+    ((c[0] + 180) / 360) * W,
+    ((90 - c[1]) / 180) * H,
+  ];
+
+  // Deep dark ocean
+  ctx.fillStyle = '#080808';
+  ctx.fillRect(0, 0, W, H);
+
+  const polygons = getPolygons();
+
+  // Filled landmasses — dark grey, subtle
+  for (const polygon of polygons) {
+    const [exterior, ...holes] = polygon;
+    ctx.beginPath();
+    exterior.forEach((c: number[], i: number) => {
+      const [x, y] = toXY(c);
+      i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    });
+    ctx.closePath();
+    for (const hole of holes) {
+      hole.forEach((c: number[], i: number) => {
+        const [x, y] = toXY(c);
+        i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+      });
+      ctx.closePath();
+    }
+    ctx.fillStyle = '#1a1a1a';
+    ctx.fill('evenodd');
+  }
+
+  // Coastline outlines — the primary visual element
+  ctx.strokeStyle = 'rgba(255, 255, 255, 0.25)';
+  ctx.lineWidth = 1.2;
+  for (const polygon of polygons) {
+    for (const ring of polygon) {
+      ctx.beginPath();
+      ring.forEach((c: number[], i: number) => {
+        const [x, y] = toXY(c);
+        i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+      });
+      ctx.closePath();
+      ctx.stroke();
+    }
+  }
+
+  const tex = new THREE.CanvasTexture(canvas);
+  tex.anisotropy = 16;
+  return tex;
+}
+
+// --- 3D Grid lines ---
+
 function useGridLines() {
   return useMemo(() => {
-    const R = 2.005;
+    const R = 2.002;
     const lines: [number, number, number][][] = [];
-
-    // Latitude circles
-    for (let lat = -60; lat <= 60; lat += 20) {
+    for (let lat = -60; lat <= 60; lat += 30) {
       const pts: [number, number, number][] = [];
       for (let lng = -180; lng <= 180; lng += 2) pts.push(toVec3(lat, lng, R));
       lines.push(pts);
     }
-
-    // Longitude semicircles
-    for (let lng = -180; lng < 180; lng += 20) {
+    for (let lng = -150; lng <= 180; lng += 30) {
       const pts: [number, number, number][] = [];
       for (let lat = -90; lat <= 90; lat += 2) pts.push(toVec3(lat, lng, R));
       lines.push(pts);
     }
-
     return lines;
   }, []);
 }
 
+// --- Scene ---
+
 function EarthGlobe() {
   const groupRef = useRef<THREE.Group>(null);
+  const [texture, setTexture] = useState<THREE.CanvasTexture | null>(null);
   const gridLines = useGridLines();
+
+  useEffect(() => {
+    const tex = buildTexture();
+    setTexture(tex);
+    return () => { tex.dispose(); };
+  }, []);
 
   useFrame(({ clock }) => {
     if (groupRef.current) {
@@ -57,28 +139,46 @@ function EarthGlobe() {
 
   return (
     <group ref={groupRef}>
-      {/* Plain dark sphere */}
+      {/* Globe */}
       <mesh>
-        <sphereGeometry args={[2, 64, 64]} />
-        <meshBasicMaterial color="#0a0a0a" />
+        <sphereGeometry args={[2, 128, 64]} />
+        {texture ? (
+          <meshBasicMaterial map={texture} toneMapped={false} />
+        ) : (
+          <meshBasicMaterial color="#080808" />
+        )}
       </mesh>
 
-      {/* Green grid lines */}
+      {/* Grid lines */}
       {gridLines.map((pts, i) => (
         <Line
           key={`g${i}`}
           points={pts}
-          color="#22c55e"
+          color="#ffffff"
           transparent
-          opacity={0.12}
+          opacity={0.04}
           lineWidth={0.5}
         />
       ))}
 
-      {/* Subtle atmosphere */}
+      {/* Atmosphere */}
       <mesh>
-        <sphereGeometry args={[2.06, 64, 48]} />
-        <meshBasicMaterial color="#22c55e" transparent opacity={0.03} side={THREE.BackSide} />
+        <sphereGeometry args={[2.04, 64, 48]} />
+        <meshBasicMaterial
+          color="#334155"
+          transparent
+          opacity={0.08}
+          side={THREE.BackSide}
+        />
+      </mesh>
+      <mesh>
+        <sphereGeometry args={[2.12, 64, 48]} />
+        <meshBasicMaterial
+          color="#1e293b"
+          transparent
+          opacity={0.04}
+          side={THREE.BackSide}
+        />
       </mesh>
 
       {/* Markers */}
@@ -114,12 +214,14 @@ function Marker({ lat, lng }: { lat: number; lng: number }) {
 
   return (
     <group position={pos}>
+      {/* Bright core */}
       <mesh ref={coreRef}>
-        <sphereGeometry args={[0.035, 16, 16]} />
+        <sphereGeometry args={[0.028, 16, 16]} />
         <meshBasicMaterial color="#4ade80" toneMapped={false} />
       </mesh>
+      {/* Expanding pulse ring */}
       <mesh ref={pulseRef}>
-        <ringGeometry args={[0.04, 0.05, 32]} />
+        <ringGeometry args={[0.03, 0.04, 32]} />
         <meshBasicMaterial
           color="#22c55e"
           transparent
@@ -128,9 +230,10 @@ function Marker({ lat, lng }: { lat: number; lng: number }) {
           toneMapped={false}
         />
       </mesh>
+      {/* Soft glow */}
       <mesh>
-        <sphereGeometry args={[0.08, 16, 16]} />
-        <meshBasicMaterial color="#22c55e" transparent opacity={0.08} toneMapped={false} />
+        <sphereGeometry args={[0.07, 16, 16]} />
+        <meshBasicMaterial color="#22c55e" transparent opacity={0.1} toneMapped={false} />
       </mesh>
     </group>
   );
@@ -163,11 +266,13 @@ function Arc({
       points={points}
       color="#22c55e"
       transparent
-      opacity={0.25}
+      opacity={0.2}
       lineWidth={1.2}
     />
   );
 }
+
+// --- Export ---
 
 export function Globe() {
   return (
