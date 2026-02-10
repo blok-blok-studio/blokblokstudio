@@ -19,7 +19,7 @@ export function HomeHero() {
   const t = useTranslations('home');
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center">
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left: Text content */}
@@ -99,7 +99,7 @@ export function HomeHero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2, delay: 0.5, ease: 'easeOut' }}
-            className="relative h-[500px] lg:h-[600px]"
+            className="relative h-[500px] lg:h-[600px] overflow-visible"
           >
             {/* Glow behind globe */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
