@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import Link from 'next/link';
 import { MagneticButton } from './MagneticButton';
 
@@ -24,14 +25,21 @@ export function HomeHero() {
           </div>
         </motion.div>
 
-        <motion.h1
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.95] mb-6 sm:mb-8"
+          className="mb-6 sm:mb-8"
         >
-          <span className="gradient-text">{t('hero_title')}</span>
-        </motion.h1>
+          <Image
+            src="/logo-hero.png"
+            alt="Blok Blok Studio"
+            width={600}
+            height={150}
+            className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"
+            priority
+          />
+        </motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 30 }}
