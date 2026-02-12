@@ -430,7 +430,10 @@ export function AdminDashboard() {
       const res = await fetch('/api/admin/leads', { headers: headers() });
       if (!res.ok) throw new Error('Unauthorized');
       const data = await res.json();
-      setLeads(data.leads);
+      setLeads(data.leads || []);
+      if (data.warning) {
+        showToast('error', data.warning);
+      }
     } catch {
       showToast('error', 'Failed to fetch leads');
     } finally {
@@ -501,22 +504,40 @@ export function AdminDashboard() {
     if (e) e.preventDefault();
     const pw = password;
     if (!pw) return;
-    const res = await fetch('/api/admin/leads', {
-      headers: { Authorization: `Bearer ${pw}` },
-    });
-    if (res.ok) {
-      setAuthed(true);
-      localStorage.setItem('bb_admin_pw', pw);
-      const data = await res.json();
-      setLeads(data.leads);
-      fetchCampaigns();
-      fetchAccounts();
-      fetchSequences();
-      fetchTemplates();
-      fetchEvents();
-    } else {
-      localStorage.removeItem('bb_admin_pw');
-      if (e) showToast('error', 'Wrong password');
+    try {
+      const res = await fetch('/api/admin/leads', {
+        headers: { Authorization: `Bearer ${pw}` },
+      });
+      if (res.ok) {
+        setAuthed(true);
+        localStorage.setItem('bb_admin_pw', pw);
+        try {
+          const data = await res.json();
+          setLeads(data.leads || []);
+        } catch {
+          // Data parsing failed, still allow login
+        }
+        fetchCampaigns();
+        fetchAccounts();
+        fetchSequences();
+        fetchTemplates();
+        fetchEvents();
+      } else {
+        const data = await res.json().catch(() => ({}));
+        localStorage.removeItem('bb_admin_pw');
+        if (e) {
+          // Show detailed error so user knows what went wrong
+          if (res.status === 500 && data.error?.includes('column')) {
+            showToast('error', 'Database needs migration — run setup-db from browser console');
+          } else if (res.status === 500) {
+            showToast('error', data.error || 'Server error — check ADMIN_PASSWORD in .env');
+          } else {
+            showToast('error', 'Wrong password');
+          }
+        }
+      }
+    } catch {
+      if (e) showToast('error', 'Could not reach server');
     }
   };
 
