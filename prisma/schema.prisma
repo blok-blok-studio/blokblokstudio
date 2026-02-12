@@ -21,13 +21,27 @@ model Lead {
   lastEmailAt  DateTime?
   unsubscribed Boolean  @default(false)
 
+  // Lead pipeline status
+  status       String   @default("new") // new, contacted, replied, interested, booked, not_interested, unsubscribed
+  tags         String?  // JSON array of tag strings
+
+  // Email verification
+  emailVerified Boolean  @default(false)
+  verifyResult  String?  // valid, invalid, risky, catch_all, disposable, unknown
+  verifiedAt    DateTime?
+
+  // Bounce tracking
+  bounceCount  Int      @default(0)
+  lastBounceAt DateTime?
+  bounceType   String?  // hard, soft
+
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
 
 model SendingAccount {
   id          String   @id @default(cuid())
-  label       String   // e.g. "chase@blokblok.com"
+  label       String
   email       String   @unique
   smtpHost    String
   smtpPort    Int      @default(587)
@@ -36,7 +50,7 @@ model SendingAccount {
   dailyLimit  Int      @default(20)
   sentToday   Int      @default(0)
   lastResetAt DateTime @default(now())
-  warmupPhase Int      @default(1) // 1=5/day, 2=15/day, 3=30/day, 4=50/day, 5=100/day
+  warmupPhase Int      @default(1)
   warmupStart DateTime @default(now())
   active      Boolean  @default(true)
   createdAt   DateTime @default(now())
@@ -49,8 +63,9 @@ model SendingLog {
   id        String   @id @default(cuid())
   accountId String
   account   SendingAccount @relation(fields: [accountId], references: [id], onDelete: Cascade)
-  date      String   // YYYY-MM-DD for easy grouping
+  date      String
   sent      Int      @default(0)
+  bounced   Int      @default(0)
   createdAt DateTime @default(now())
 
   @@unique([accountId, date])
@@ -64,8 +79,16 @@ model EmailCampaign {
   totalLeads  Int       @default(0)
   sentAt      DateTime?
   scheduledAt DateTime?
-  leadIds     String?   // JSON array of specific lead IDs, null = all active
-  status      String    @default("draft") // draft, queued, scheduled, sending, sent, failed
+  leadIds     String?
+  status      String    @default("draft")
+
+  // Bounce tracking
+  bounceCount     Int    @default(0)
+  bounceThreshold Int    @default(5) // Auto-pause at this bounce % rate
+
+  // A/B testing variants (JSON array of {subject, body, weight})
+  variants    String?
+
   createdAt   DateTime  @default(now())
 }
 
@@ -83,8 +106,8 @@ model SequenceStep {
   id         String   @id @default(cuid())
   sequenceId String
   sequence   Sequence @relation(fields: [sequenceId], references: [id], onDelete: Cascade)
-  order      Int      // 1, 2, 3...
-  delayDays  Int      // days after previous step (0 for first)
+  order      Int
+  delayDays  Int
   subject    String
   body       String
   createdAt  DateTime @default(now())
@@ -97,9 +120,9 @@ model SequenceEnrollment {
   sequenceId  String
   sequence    Sequence  @relation(fields: [sequenceId], references: [id], onDelete: Cascade)
   leadId      String
-  currentStep Int       @default(0) // which step they're on (0 = not started)
-  nextSendAt  DateTime? // when to send the next step
-  status      String    @default("active") // active, completed, paused, unsubscribed
+  currentStep Int       @default(0)
+  nextSendAt  DateTime?
+  status      String    @default("active")
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
 
@@ -113,4 +136,18 @@ model EmailTemplate {
   body      String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+}
+
+model EmailEvent {
+  id         String   @id @default(cuid())
+  leadId     String
+  campaignId String?
+  accountId  String?
+  type       String   // sent, bounced, opened, clicked, replied, unsubscribed
+  details    String?  // bounce reason, link clicked, etc.
+  createdAt  DateTime @default(now())
+
+  @@index([leadId])
+  @@index([campaignId])
+  @@index([type])
 }

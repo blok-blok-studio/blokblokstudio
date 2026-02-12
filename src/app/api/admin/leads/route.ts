@@ -32,6 +32,53 @@ export async function DELETE(req: NextRequest) {
   }
 }
 
+// PATCH /api/admin/leads — update lead status, tags
+export async function PATCH(req: NextRequest) {
+  const authError = checkAdmin(req);
+  if (authError) return authError;
+
+  try {
+    const { id, ids, status, tags, action } = await req.json();
+
+    // Bulk status update
+    if (ids && Array.isArray(ids) && status) {
+      await prisma.lead.updateMany({
+        where: { id: { in: ids } },
+        data: { status },
+      });
+      return NextResponse.json({ success: true, updated: ids.length });
+    }
+
+    // Single lead update
+    if (id) {
+      const data: Record<string, unknown> = {};
+      if (status) data.status = status;
+      if (tags !== undefined) data.tags = typeof tags === 'string' ? tags : JSON.stringify(tags);
+      if (action === 'addTag' && tags) {
+        const lead = await prisma.lead.findUnique({ where: { id }, select: { tags: true } });
+        const existing: string[] = lead?.tags ? JSON.parse(lead.tags) : [];
+        if (!existing.includes(tags)) {
+          existing.push(tags);
+          data.tags = JSON.stringify(existing);
+        }
+      }
+      if (action === 'removeTag' && tags) {
+        const lead = await prisma.lead.findUnique({ where: { id }, select: { tags: true } });
+        const existing: string[] = lead?.tags ? JSON.parse(lead.tags) : [];
+        data.tags = JSON.stringify(existing.filter(t => t !== tags));
+      }
+
+      await prisma.lead.update({ where: { id }, data });
+      return NextResponse.json({ success: true });
+    }
+
+    return NextResponse.json({ error: 'Missing id or ids' }, { status: 400 });
+  } catch (err) {
+    const errMsg = err instanceof Error ? err.message : String(err);
+    return NextResponse.json({ error: `Update failed: ${errMsg.slice(0, 200)}` }, { status: 400 });
+  }
+}
+
 // POST /api/admin/leads/import — import leads from CSV data
 export async function POST(req: NextRequest) {
   const authError = checkAdmin(req);

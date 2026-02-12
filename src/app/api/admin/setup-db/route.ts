@@ -133,6 +133,45 @@ export async function POST(req: NextRequest) {
     `);
     results.push('EmailTemplate table ready');
 
+    // Add new Lead columns
+    await prisma.$executeRawUnsafe(`ALTER TABLE "Lead" ADD COLUMN IF NOT EXISTS "status" TEXT NOT NULL DEFAULT 'new'`);
+    await prisma.$executeRawUnsafe(`ALTER TABLE "Lead" ADD COLUMN IF NOT EXISTS "tags" TEXT`);
+    await prisma.$executeRawUnsafe(`ALTER TABLE "Lead" ADD COLUMN IF NOT EXISTS "emailVerified" BOOLEAN NOT NULL DEFAULT false`);
+    await prisma.$executeRawUnsafe(`ALTER TABLE "Lead" ADD COLUMN IF NOT EXISTS "verifyResult" TEXT`);
+    await prisma.$executeRawUnsafe(`ALTER TABLE "Lead" ADD COLUMN IF NOT EXISTS "verifiedAt" TIMESTAMP(3)`);
+    await prisma.$executeRawUnsafe(`ALTER TABLE "Lead" ADD COLUMN IF NOT EXISTS "bounceCount" INTEGER NOT NULL DEFAULT 0`);
+    await prisma.$executeRawUnsafe(`ALTER TABLE "Lead" ADD COLUMN IF NOT EXISTS "lastBounceAt" TIMESTAMP(3)`);
+    await prisma.$executeRawUnsafe(`ALTER TABLE "Lead" ADD COLUMN IF NOT EXISTS "bounceType" TEXT`);
+    results.push('Lead columns updated');
+
+    // Add new EmailCampaign columns
+    await prisma.$executeRawUnsafe(`ALTER TABLE "EmailCampaign" ADD COLUMN IF NOT EXISTS "bounceCount" INTEGER NOT NULL DEFAULT 0`);
+    await prisma.$executeRawUnsafe(`ALTER TABLE "EmailCampaign" ADD COLUMN IF NOT EXISTS "bounceThreshold" INTEGER NOT NULL DEFAULT 5`);
+    await prisma.$executeRawUnsafe(`ALTER TABLE "EmailCampaign" ADD COLUMN IF NOT EXISTS "variants" TEXT`);
+    results.push('EmailCampaign bounce/variant columns updated');
+
+    // Add bounced column to SendingLog
+    await prisma.$executeRawUnsafe(`ALTER TABLE "SendingLog" ADD COLUMN IF NOT EXISTS "bounced" INTEGER NOT NULL DEFAULT 0`);
+    results.push('SendingLog bounced column updated');
+
+    // Create EmailEvent table
+    await prisma.$executeRawUnsafe(`
+      CREATE TABLE IF NOT EXISTS "EmailEvent" (
+        "id" TEXT NOT NULL DEFAULT gen_random_uuid()::text,
+        "leadId" TEXT NOT NULL,
+        "campaignId" TEXT,
+        "accountId" TEXT,
+        "type" TEXT NOT NULL,
+        "details" TEXT,
+        "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        CONSTRAINT "EmailEvent_pkey" PRIMARY KEY ("id")
+      )
+    `);
+    await prisma.$executeRawUnsafe(`CREATE INDEX IF NOT EXISTS "EmailEvent_leadId_idx" ON "EmailEvent"("leadId")`);
+    await prisma.$executeRawUnsafe(`CREATE INDEX IF NOT EXISTS "EmailEvent_campaignId_idx" ON "EmailEvent"("campaignId")`);
+    await prisma.$executeRawUnsafe(`CREATE INDEX IF NOT EXISTS "EmailEvent_type_idx" ON "EmailEvent"("type")`);
+    results.push('EmailEvent table ready');
+
     return NextResponse.json({ success: true, results });
   } catch (err) {
     const errMsg = err instanceof Error ? err.message : String(err);

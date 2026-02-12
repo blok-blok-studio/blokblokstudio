@@ -23,6 +23,7 @@ export const WARMUP_PHASES: Record<number, { dailyLimit: number; label: string; 
 
 /**
  * Send an email via SMTP through a specific sending account.
+ * Returns { success, bounced, bounceType } for tracking.
  */
 export async function sendViaSMTP(
   account: SendingAccountData,
@@ -33,6 +34,8 @@ export async function sendViaSMTP(
     text,
     replyTo,
     unsubscribeUrl,
+    leadId,
+    campaignId,
   }: {
     to: string;
     subject: string;
@@ -40,8 +43,10 @@ export async function sendViaSMTP(
     text?: string;
     replyTo?: string;
     unsubscribeUrl?: string;
+    leadId?: string;
+    campaignId?: string;
   }
-): Promise<boolean> {
+): Promise<{ success: boolean; bounced: boolean; bounceType?: string }> {
   const transporter = nodemailer.createTransport({
     host: account.smtpHost,
     port: account.smtpPort,
@@ -68,31 +73,123 @@ export async function sendViaSMTP(
       text: text || undefined,
       headers: mailHeaders,
     });
-    return true;
+
+    // Log successful send event
+    if (leadId) {
+      await logEvent(leadId, 'sent', campaignId, account.id);
+    }
+
+    return { success: true, bounced: false };
   } catch (err) {
-    console.error(`[SMTP] Failed to send via ${account.email} to ${to}:`, err);
-    return false;
+    const errMsg = err instanceof Error ? err.message : String(err);
+    console.error(`[SMTP] Failed to send via ${account.email} to ${to}:`, errMsg);
+
+    // Detect bounce types from SMTP error codes
+    const isBounce = errMsg.includes('550') || errMsg.includes('551') || errMsg.includes('552')
+      || errMsg.includes('553') || errMsg.includes('554') || errMsg.includes('User unknown')
+      || errMsg.includes('does not exist') || errMsg.includes('invalid') || errMsg.includes('rejected');
+
+    const isHardBounce = errMsg.includes('550') || errMsg.includes('551') || errMsg.includes('553')
+      || errMsg.includes('User unknown') || errMsg.includes('does not exist');
+
+    if (isBounce && leadId) {
+      const bounceType = isHardBounce ? 'hard' : 'soft';
+      await logEvent(leadId, 'bounced', campaignId, account.id, `${bounceType}: ${errMsg.slice(0, 200)}`);
+
+      // Update lead bounce info
+      try {
+        await prisma.lead.update({
+          where: { id: leadId },
+          data: {
+            bounceCount: { increment: 1 },
+            lastBounceAt: new Date(),
+            bounceType,
+          },
+        });
+      } catch { /* lead might not exist */ }
+
+      // Update campaign bounce count
+      if (campaignId) {
+        try {
+          await prisma.emailCampaign.update({
+            where: { id: campaignId },
+            data: { bounceCount: { increment: 1 } },
+          });
+        } catch { /* campaign might not exist */ }
+      }
+
+      // Increment bounce count on sending log
+      const today = new Date().toISOString().slice(0, 10);
+      try {
+        await prisma.sendingLog.upsert({
+          where: { accountId_date: { accountId: account.id, date: today } },
+          update: { bounced: { increment: 1 } },
+          create: { accountId: account.id, date: today, sent: 0, bounced: 1 },
+        });
+      } catch { /* ignore */ }
+
+      return { success: false, bounced: true, bounceType };
+    }
+
+    return { success: false, bounced: false };
   }
 }
 
 /**
+ * Log an email event for analytics
+ */
+async function logEvent(
+  leadId: string,
+  type: string,
+  campaignId?: string,
+  accountId?: string,
+  details?: string,
+) {
+  try {
+    await prisma.emailEvent.create({
+      data: { leadId, type, campaignId, accountId, details },
+    });
+  } catch { /* silently fail */ }
+}
+
+/**
+ * Check if a campaign should be auto-paused due to bounces
+ */
+export async function checkBounceThreshold(campaignId: string): Promise<boolean> {
+  try {
+    const campaign = await prisma.emailCampaign.findUnique({ where: { id: campaignId } });
+    if (!campaign || campaign.status !== 'sending') return false;
+
+    const totalSent = campaign.sentTo + campaign.bounceCount;
+    if (totalSent === 0) return false;
+
+    const bounceRate = (campaign.bounceCount / totalSent) * 100;
+    if (bounceRate >= campaign.bounceThreshold) {
+      await prisma.emailCampaign.update({
+        where: { id: campaignId },
+        data: { status: 'paused' },
+      });
+      console.warn(`[BOUNCE] Campaign ${campaignId} auto-paused: ${bounceRate.toFixed(1)}% bounce rate`);
+      return true;
+    }
+  } catch { /* ignore */ }
+  return false;
+}
+
+/**
  * Pick the next available sending account using round-robin.
- * Respects daily limits and warmup phase limits.
- * Resets daily counters if a new day has started.
  */
 export async function getNextAccount(): Promise<SendingAccountData | null> {
   const today = new Date().toISOString().slice(0, 10);
 
-  // Get all active accounts
   const accounts = await prisma.sendingAccount.findMany({
     where: { active: true },
-    orderBy: { sentToday: 'asc' }, // Least-sent-today first (spreads load)
+    orderBy: { sentToday: 'asc' },
   });
 
   if (accounts.length === 0) return null;
 
   for (const account of accounts) {
-    // Reset daily counter if new day
     const lastReset = account.lastResetAt.toISOString().slice(0, 10);
     if (lastReset !== today) {
       await prisma.sendingAccount.update({
@@ -102,7 +199,6 @@ export async function getNextAccount(): Promise<SendingAccountData | null> {
       account.sentToday = 0;
     }
 
-    // Auto-advance warmup phase based on days since start
     const daysSinceStart = Math.floor(
       (Date.now() - account.warmupStart.getTime()) / (1000 * 60 * 60 * 24)
     );
@@ -121,13 +217,12 @@ export async function getNextAccount(): Promise<SendingAccountData | null> {
       account.dailyLimit = WARMUP_PHASES[newPhase].dailyLimit;
     }
 
-    // Check if under daily limit
     if (account.sentToday < account.dailyLimit) {
       return account;
     }
   }
 
-  return null; // All accounts maxed out for today
+  return null;
 }
 
 /**
@@ -157,7 +252,7 @@ export async function getWarmupStats() {
     include: {
       dailyLogs: {
         orderBy: { date: 'desc' },
-        take: 30, // Last 30 days
+        take: 30,
       },
     },
   });
@@ -168,14 +263,16 @@ export async function getWarmupStats() {
     );
     const phase = WARMUP_PHASES[account.warmupPhase] || WARMUP_PHASES[1];
     const totalSent = account.dailyLogs.reduce((sum, log) => sum + log.sent, 0);
+    const totalBounced = account.dailyLogs.reduce((sum, log) => sum + log.bounced, 0);
 
-    // Health score: based on consistency and not exceeding limits
     const recentLogs = account.dailyLogs.slice(0, 7);
     const avgDaily = recentLogs.length > 0
       ? recentLogs.reduce((s, l) => s + l.sent, 0) / recentLogs.length
       : 0;
+    const bounceRate = totalSent > 0 ? (totalBounced / totalSent) * 100 : 0;
     const consistency = recentLogs.length >= 3 ? Math.min(avgDaily / (phase.dailyLimit * 0.5), 1) : 0;
-    const healthScore = Math.round(consistency * 100);
+    const bouncePenalty = Math.max(0, 1 - (bounceRate / 10));
+    const healthScore = Math.round(consistency * bouncePenalty * 100);
 
     return {
       id: account.id,
@@ -187,8 +284,10 @@ export async function getWarmupStats() {
       sentToday: account.sentToday,
       daysSinceStart,
       totalSent,
+      totalBounced,
+      bounceRate: Math.round(bounceRate * 10) / 10,
       healthScore,
-      dailyLogs: account.dailyLogs.map(l => ({ date: l.date, sent: l.sent })),
+      dailyLogs: account.dailyLogs.map(l => ({ date: l.date, sent: l.sent, bounced: l.bounced })),
     };
   });
 }

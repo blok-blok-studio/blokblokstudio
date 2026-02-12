@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { sendCampaignEmail } from '@/lib/email';
 import { buildEmailHtml } from '@/app/api/admin/campaign/route';
-import { getNextAccount, sendViaSMTP, recordSend } from '@/lib/smtp';
+import { getNextAccount, sendViaSMTP, recordSend, checkBounceThreshold } from '@/lib/smtp';
+import { processSpintax, pickVariant } from '@/lib/verify';
 
 /**
  * Cron job — runs daily at 8am UTC.
@@ -43,25 +44,39 @@ export async function GET(req: NextRequest) {
 
     const leads = await prisma.lead.findMany({
       where,
-      select: { id: true, email: true, name: true, field: true, website: true, problem: true },
+      select: { id: true, email: true, name: true, field: true, website: true, problem: true, emailsSent: true },
     });
+
+    // Parse A/B variants if present
+    const variants = campaign.variants ? JSON.parse(campaign.variants) as { subject: string; body: string; weight: number }[] : null;
 
     let sentCount = 0;
     for (const lead of leads) {
-      const html = buildEmailHtml(campaign.body, lead);
-      const subject = campaign.subject
+      // Check bounce threshold mid-campaign
+      const paused = await checkBounceThreshold(campaign.id);
+      if (paused) break;
+
+      // Pick A/B variant or use default
+      const content = variants && variants.length > 0 ? pickVariant(variants) : { subject: campaign.subject, body: campaign.body };
+
+      // Process spintax
+      const rawSubject = processSpintax(content.subject);
+      const rawBody = processSpintax(content.body);
+
+      const html = buildEmailHtml(rawBody, lead);
+      const subject = rawSubject
         .replace(/\{\{name\}\}/g, lead.name)
         .replace(/\{\{email\}\}/g, lead.email)
         .replace(/\{\{field\}\}/g, lead.field)
         .replace(/\{\{website\}\}/g, lead.website || 'N/A')
         .replace(/\{\{problem\}\}/g, lead.problem);
 
-      const ok = await sendWithRotation(lead.email, subject, html, lead.id);
+      const ok = await sendWithRotation(lead.email, subject, html, lead.id, campaign.id);
       if (ok) {
         sentCount++;
         await prisma.lead.update({
           where: { id: lead.id },
-          data: { emailsSent: { increment: 1 }, lastEmailAt: new Date() },
+          data: { emailsSent: { increment: 1 }, lastEmailAt: new Date(), status: lead.emailsSent === 0 ? 'contacted' : undefined },
         });
       }
       await new Promise(r => setTimeout(r, 200));
@@ -120,9 +135,9 @@ export async function GET(req: NextRequest) {
       continue;
     }
 
-    // Personalize and send
-    const html = buildEmailHtml(step.body, lead);
-    const subject = step.subject
+    // Personalize and send (with spintax)
+    const html = buildEmailHtml(processSpintax(step.body), lead);
+    const subject = processSpintax(step.subject)
       .replace(/\{\{name\}\}/g, lead.name)
       .replace(/\{\{email\}\}/g, lead.email)
       .replace(/\{\{field\}\}/g, lead.field)
@@ -170,8 +185,7 @@ export async function GET(req: NextRequest) {
 /**
  * Try SMTP accounts first (with rotation), fall back to Resend.
  */
-async function sendWithRotation(to: string, subject: string, html: string, leadId: string): Promise<boolean> {
-  // Try SMTP account rotation first
+async function sendWithRotation(to: string, subject: string, html: string, leadId: string, campaignId?: string): Promise<boolean> {
   const account = await getNextAccount();
   if (account) {
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || (process.env.VERCEL_URL
@@ -179,17 +193,21 @@ async function sendWithRotation(to: string, subject: string, html: string, leadI
       : 'http://localhost:3000');
     const unsubscribeUrl = `${baseUrl}/api/unsubscribe?id=${leadId}`;
 
-    const ok = await sendViaSMTP(account, {
+    const result = await sendViaSMTP(account, {
       to,
       subject,
       html,
       unsubscribeUrl,
+      leadId,
+      campaignId,
     });
 
-    if (ok) {
+    if (result.success) {
       await recordSend(account.id);
       return true;
     }
+    // If bounced, don't fall back — the email is definitely bad
+    if (result.bounced) return false;
   }
 
   // Fall back to Resend
