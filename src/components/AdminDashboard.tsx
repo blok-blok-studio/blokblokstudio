@@ -14,6 +14,12 @@ interface Lead {
   emailsSent: number;
   lastEmailAt: string | null;
   unsubscribed: boolean;
+  status: string;
+  tags: string | null;
+  emailVerified: boolean;
+  verifyResult: string | null;
+  bounceCount: number;
+  bounceType: string | null;
   createdAt: string;
 }
 
@@ -247,6 +253,8 @@ export function AdminDashboard() {
   // Lead management
   const [searchQuery, setSearchQuery] = useState('');
   const [filterField, setFilterField] = useState('all');
+  const [filterStatus, setFilterStatus] = useState('all');
+  const [filterVerify, setFilterVerify] = useState('all');
   const [selectedLeadIds, setSelectedLeadIds] = useState<Set<string>>(new Set());
   const [expandedLeadId, setExpandedLeadId] = useState<string | null>(null);
 
@@ -495,7 +503,12 @@ export function AdminDashboard() {
       l.field.toLowerCase().includes(searchQuery.toLowerCase()) ||
       l.problem.toLowerCase().includes(searchQuery.toLowerCase());
     const matchField = filterField === 'all' || l.field === filterField;
-    return matchSearch && matchField;
+    const matchStatus = filterStatus === 'all' || (l.status || 'new') === filterStatus;
+    const matchVerify = filterVerify === 'all'
+      || (filterVerify === 'verified' && l.emailVerified && l.verifyResult === 'valid')
+      || (filterVerify === 'unverified' && !l.emailVerified)
+      || (filterVerify === 'invalid' && l.emailVerified && l.verifyResult !== 'valid');
+    return matchSearch && matchField && matchStatus && matchVerify;
   });
 
   // ── Actions ──
@@ -1116,6 +1129,51 @@ export function AdminDashboard() {
                         Email Selected
                       </button>
                       <button
+                        onClick={async () => {
+                          const ids = [...selectedLeadIds];
+                          showToast('success', `Verifying ${ids.length} emails...`);
+                          const res = await fetch('/api/admin/verify', {
+                            method: 'POST',
+                            headers: headers(),
+                            body: JSON.stringify({ leadIds: ids }),
+                          });
+                          const data = await res.json();
+                          if (res.ok) {
+                            showToast('success', data.message);
+                            fetchLeads();
+                          } else {
+                            showToast('error', data.error);
+                          }
+                        }}
+                        className="px-4 py-2 rounded-xl bg-blue-500/10 text-blue-400 text-sm font-medium hover:bg-blue-500/20 transition-all"
+                      >
+                        Verify Emails
+                      </button>
+                      <select
+                        onChange={async (e) => {
+                          const status = e.target.value;
+                          if (!status) return;
+                          const ids = [...selectedLeadIds];
+                          await fetch('/api/admin/leads', {
+                            method: 'PATCH',
+                            headers: headers(),
+                            body: JSON.stringify({ ids, status }),
+                          });
+                          showToast('success', `${ids.length} leads marked as ${status}`);
+                          fetchLeads();
+                          e.target.value = '';
+                        }}
+                        className="px-3 py-2 rounded-xl bg-white/[0.03] border border-white/5 text-sm text-gray-400 focus:outline-none"
+                      >
+                        <option value="">Set Status...</option>
+                        <option value="new">New</option>
+                        <option value="contacted">Contacted</option>
+                        <option value="replied">Replied</option>
+                        <option value="interested">Interested</option>
+                        <option value="booked">Booked</option>
+                        <option value="not_interested">Not Interested</option>
+                      </select>
+                      <button
                         onClick={() => setSelectedLeadIds(new Set())}
                         className="p-2 rounded-lg hover:bg-white/5 text-gray-500 hover:text-white transition-colors"
                       >
@@ -1171,6 +1229,29 @@ export function AdminDashboard() {
                     <IconChevronDown />
                   </div>
                 </div>
+                <select
+                  value={filterStatus}
+                  onChange={e => setFilterStatus(e.target.value)}
+                  className="appearance-none bg-white/[0.03] border border-white/5 rounded-xl px-4 py-2.5 pr-10 text-sm text-gray-300 focus:outline-none focus:border-orange-500/30 transition-all cursor-pointer"
+                >
+                  <option value="all">All Statuses</option>
+                  <option value="new">New</option>
+                  <option value="contacted">Contacted</option>
+                  <option value="replied">Replied</option>
+                  <option value="interested">Interested</option>
+                  <option value="booked">Booked</option>
+                  <option value="not_interested">Not Interested</option>
+                </select>
+                <select
+                  value={filterVerify}
+                  onChange={e => setFilterVerify(e.target.value)}
+                  className="appearance-none bg-white/[0.03] border border-white/5 rounded-xl px-4 py-2.5 pr-10 text-sm text-gray-300 focus:outline-none focus:border-orange-500/30 transition-all cursor-pointer"
+                >
+                  <option value="all">All Emails</option>
+                  <option value="verified">Verified</option>
+                  <option value="unverified">Unverified</option>
+                  <option value="invalid">Invalid/Risky</option>
+                </select>
               </div>
 
               {/* Select all checkbox */}
@@ -1234,6 +1315,27 @@ export function AdminDashboard() {
                           <div className="flex items-center gap-2 flex-wrap">
                             <h3 className="font-semibold text-sm sm:text-base">{lead.name}</h3>
                             <span className="text-[10px] px-2 py-0.5 rounded-full bg-orange-500/10 text-orange-400">{lead.field}</span>
+                            <span className={`text-[10px] px-2 py-0.5 rounded-full ${
+                              (lead.status || 'new') === 'new' ? 'bg-gray-500/10 text-gray-400' :
+                              (lead.status || 'new') === 'contacted' ? 'bg-blue-500/10 text-blue-400' :
+                              (lead.status || 'new') === 'replied' ? 'bg-purple-500/10 text-purple-400' :
+                              (lead.status || 'new') === 'interested' ? 'bg-green-500/10 text-green-400' :
+                              (lead.status || 'new') === 'booked' ? 'bg-emerald-500/10 text-emerald-400' :
+                              (lead.status || 'new') === 'not_interested' ? 'bg-yellow-500/10 text-yellow-400' :
+                              'bg-red-500/10 text-red-400'
+                            }`}>{(lead.status || 'new').replace('_', ' ')}</span>
+                            {lead.emailVerified && (
+                              <span className={`text-[10px] px-2 py-0.5 rounded-full ${
+                                lead.verifyResult === 'valid' ? 'bg-green-500/10 text-green-400' :
+                                lead.verifyResult === 'invalid' ? 'bg-red-500/10 text-red-400' :
+                                lead.verifyResult === 'disposable' ? 'bg-red-500/10 text-red-400' :
+                                lead.verifyResult === 'catch_all' ? 'bg-yellow-500/10 text-yellow-400' :
+                                'bg-yellow-500/10 text-yellow-400'
+                              }`}>{lead.verifyResult === 'catch_all' ? 'catch-all' : lead.verifyResult}</span>
+                            )}
+                            {lead.bounceCount > 0 && (
+                              <span className="text-[10px] px-2 py-0.5 rounded-full bg-red-500/10 text-red-400">{lead.bounceCount} bounce{lead.bounceCount > 1 ? 's' : ''}</span>
+                            )}
                             {lead.unsubscribed && (
                               <span className="text-[10px] px-2 py-0.5 rounded-full bg-red-500/10 text-red-400">Unsubscribed</span>
                             )}
