@@ -7,11 +7,42 @@ export async function GET(req: NextRequest) {
   const authError = checkAdmin(req);
   if (authError) return authError;
 
-  const leads = await prisma.lead.findMany({
-    orderBy: { createdAt: 'desc' },
-  });
-
-  return NextResponse.json({ leads, total: leads.length });
+  try {
+    const leads = await prisma.lead.findMany({
+      orderBy: { createdAt: 'desc' },
+    });
+    return NextResponse.json({ leads, total: leads.length });
+  } catch (err) {
+    // If new schema columns are missing (setup-db not yet run), fall back to basic columns
+    const errMsg = err instanceof Error ? err.message : String(err);
+    if (errMsg.includes('column') || errMsg.includes('does not exist')) {
+      try {
+        const leads = await prisma.lead.findMany({
+          orderBy: { createdAt: 'desc' },
+          select: {
+            id: true, name: true, email: true, field: true, website: true,
+            noWebsite: true, problem: true, emailsSent: true, lastEmailAt: true,
+            unsubscribed: true, createdAt: true, source: true,
+          },
+        });
+        const enriched = leads.map(l => ({
+          ...l, status: 'new', tags: null, emailVerified: false,
+          verifyResult: null, bounceCount: 0, bounceType: null,
+          updatedAt: l.createdAt,
+        }));
+        return NextResponse.json({
+          leads: enriched, total: enriched.length,
+          warning: 'Some columns missing — run setup-db to enable new features',
+        });
+      } catch {
+        // Even basic query failed
+      }
+    }
+    return NextResponse.json(
+      { error: `Failed to fetch leads: ${errMsg.slice(0, 200)}` },
+      { status: 500 }
+    );
+  }
 }
 
 // DELETE /api/admin/leads?id=xxx — delete a lead
