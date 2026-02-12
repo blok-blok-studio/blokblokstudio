@@ -1217,18 +1217,18 @@ export function FunnelContent() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 pt-4">
             {pricingPlans.map((plan, i) => (
               <motion.div key={i} initial="hidden" whileInView="visible" viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }} variants={fadeUp}
-                className={`relative rounded-2xl sm:rounded-3xl p-6 sm:p-8 flex flex-col border ${plan.color} overflow-hidden ${
+                className={`relative rounded-2xl sm:rounded-3xl p-6 sm:p-8 flex flex-col border ${plan.color} ${
                   plan.featured ? 'bg-gradient-to-b from-orange-500/[0.08] to-transparent' : 'bg-white/[0.02]'
                 }`}>
                 {plan.featured && (
                   <>
-                    <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-orange-500 to-transparent" />
-                    <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                      <span className="px-4 py-1 rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-semibold shadow-lg shadow-orange-500/20">
+                    <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-orange-500 to-transparent rounded-t-2xl sm:rounded-t-3xl" />
+                    <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 z-10">
+                      <span className="px-4 py-1.5 rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-semibold shadow-lg shadow-orange-500/20">
                         Most Popular
                       </span>
                     </div>
