@@ -198,7 +198,10 @@ const EMAIL_TEMPLATES = [
 
 // ── Main Component ──
 export function AdminDashboard() {
-  const [password, setPassword] = useState('');
+  const [password, setPassword] = useState(() => {
+    if (typeof window !== 'undefined') return localStorage.getItem('bb_admin_pw') || '';
+    return '';
+  });
   const [authed, setAuthed] = useState(false);
   const [tab, setTab] = useState<Tab>('dashboard');
   const [leads, setLeads] = useState<Lead[]>([]);
@@ -263,20 +266,32 @@ export function AdminDashboard() {
     }
   }, [headers]);
 
-  const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleLogin = async (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    const pw = password;
+    if (!pw) return;
     const res = await fetch('/api/admin/leads', {
-      headers: { Authorization: `Bearer ${password}` },
+      headers: { Authorization: `Bearer ${pw}` },
     });
     if (res.ok) {
       setAuthed(true);
+      localStorage.setItem('bb_admin_pw', pw);
       const data = await res.json();
       setLeads(data.leads);
       fetchCampaigns();
     } else {
-      showToast('error', 'Wrong password');
+      localStorage.removeItem('bb_admin_pw');
+      if (e) showToast('error', 'Wrong password');
     }
   };
+
+  // Auto-login from saved password
+  useEffect(() => {
+    if (!authed && password) {
+      handleLogin();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     if (authed) {
