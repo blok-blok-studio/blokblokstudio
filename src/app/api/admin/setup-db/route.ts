@@ -2,8 +2,17 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { checkAdmin } from '@/lib/admin-auth';
 
-// POST /api/admin/setup-db — one-time migration to create missing tables
+// GET /api/admin/setup-db — one-time migration to create missing tables (browser-friendly)
+export async function GET(req: NextRequest) {
+  return runSetup(req);
+}
+
+// POST /api/admin/setup-db — same, for programmatic use
 export async function POST(req: NextRequest) {
+  return runSetup(req);
+}
+
+async function runSetup(req: NextRequest) {
   const authError = checkAdmin(req);
   if (authError) return authError;
 
