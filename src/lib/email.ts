@@ -6,8 +6,9 @@ function getResend() {
 
 /**
  * Strip HTML tags for plain-text email version (deliverability boost).
+ * Exported so SMTP sends can also generate multipart/alternative emails.
  */
-function htmlToText(html: string): string {
+export function htmlToText(html: string): string {
   return html
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<\/p>/gi, '\n\n')

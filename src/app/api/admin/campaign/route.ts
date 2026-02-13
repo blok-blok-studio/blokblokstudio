@@ -4,6 +4,7 @@ import { checkAdmin } from '@/lib/admin-auth';
 import { sendCampaignEmail } from '@/lib/email';
 import { injectTracking } from '@/lib/tracking';
 import { filterEligibleLeads, checkRateLimit, reportSendSuccess, reportSendError, checkCampaignHealth } from '@/lib/deliverability';
+import { applyStylometricVariation } from '@/lib/stylometry';
 
 /**
  * POST /api/admin/campaign — create & queue a campaign
@@ -99,7 +100,7 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    const html = buildEmailHtml(body, lead);
+    const html = buildEmailHtml(applyStylometricVariation(body, 0.5), lead);
     const trackedHtml = injectTracking(html, lead.id, campaign.id);
     const personalizedSubject = personalizeText(subject, lead);
     const ok = await sendCampaignEmail({ to: lead.email, subject: personalizedSubject, html: trackedHtml, leadId: lead.id });
