@@ -7,6 +7,7 @@ import { getNextAccount, sendViaSMTP, recordSend, checkBounceThreshold } from '@
 import { processSpintax, pickVariant } from '@/lib/verify';
 import { isLeadEligible, checkRateLimit, checkIspRateLimit, checkContentFingerprint, reportSendSuccess, reportSendError, checkCampaignHealth, queueSoftBounceRetry, recordDailySnapshot, getEngagementTier, getHumanizedDelay } from '@/lib/deliverability';
 import { htmlToText } from '@/lib/email';
+import { applyStylometricVariation } from '@/lib/stylometry';
 
 /**
  * Cron job — runs daily at 8am UTC.
@@ -96,9 +97,9 @@ export async function GET(req: NextRequest) {
       // Pick A/B variant or use default
       const content = variants && variants.length > 0 ? pickVariant(variants) : { subject: campaign.subject, body: campaign.body };
 
-      // Process spintax
+      // Process spintax, then apply stylometric variation to defeat ISP LLM detection
       const rawSubject = processSpintax(content.subject);
-      const rawBody = processSpintax(content.body);
+      const rawBody = applyStylometricVariation(processSpintax(content.body), 0.5);
 
       const html = buildEmailHtml(rawBody, lead);
       const subject = rawSubject
@@ -200,8 +201,8 @@ export async function GET(req: NextRequest) {
       continue;
     }
 
-    // Personalize and send (with spintax)
-    const html = buildEmailHtml(processSpintax(step.body), lead);
+    // Personalize and send (with spintax + stylometric variation)
+    const html = buildEmailHtml(applyStylometricVariation(processSpintax(step.body), 0.5), lead);
     const subject = processSpintax(step.subject)
       .replace(/\{\{name\}\}/g, lead.name)
       .replace(/\{\{email\}\}/g, lead.email)

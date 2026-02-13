@@ -14,13 +14,21 @@ interface SendingAccountData {
   sentToday: number;
 }
 
-// Warmup phase limits
-export const WARMUP_PHASES: Record<number, { dailyLimit: number; label: string; daysRequired: number }> = {
-  1: { dailyLimit: 5, label: 'Phase 1 — Getting Started', daysRequired: 0 },
-  2: { dailyLimit: 15, label: 'Phase 2 — Building Trust', daysRequired: 7 },
-  3: { dailyLimit: 30, label: 'Phase 3 — Growing Volume', daysRequired: 14 },
-  4: { dailyLimit: 50, label: 'Phase 4 — Scaling Up', daysRequired: 28 },
-  5: { dailyLimit: 100, label: 'Phase 5 — Full Speed', daysRequired: 42 },
+// Warmup phase limits — advancement requires BOTH calendar time AND engagement metrics
+// This prevents scaling volume when reputation isn't ready (calendar-only warmup is dangerous)
+export const WARMUP_PHASES: Record<number, {
+  dailyLimit: number;
+  label: string;
+  daysRequired: number;
+  minOpenRate: number;     // Minimum open rate % to advance (0 = no requirement)
+  minHealthScore: number;  // Minimum health score to advance (0-100)
+  maxBounceRate: number;   // Maximum bounce rate % allowed to advance
+}> = {
+  1: { dailyLimit: 5,   label: 'Phase 1 — Getting Started', daysRequired: 0,  minOpenRate: 0,  minHealthScore: 0,  maxBounceRate: 100 },
+  2: { dailyLimit: 15,  label: 'Phase 2 — Building Trust',  daysRequired: 7,  minOpenRate: 15, minHealthScore: 30, maxBounceRate: 5 },
+  3: { dailyLimit: 30,  label: 'Phase 3 — Growing Volume',  daysRequired: 14, minOpenRate: 20, minHealthScore: 50, maxBounceRate: 3 },
+  4: { dailyLimit: 50,  label: 'Phase 4 — Scaling Up',      daysRequired: 28, minOpenRate: 20, minHealthScore: 60, maxBounceRate: 2 },
+  5: { dailyLimit: 100, label: 'Phase 5 — Full Speed',      daysRequired: 42, minOpenRate: 15, minHealthScore: 70, maxBounceRate: 2 },
 };
 
 /**
@@ -88,6 +96,21 @@ export async function sendViaSMTP(
   if (campaignId) {
     mailHeaders['Feedback-ID'] = `${campaignId}:${account.id}:blokblok`;
   }
+
+  // ARC (Authenticated Received Chain) — RFC 8617
+  // When sending through Mailcow, Rspamd handles ARC signing automatically.
+  // We add the Authentication-Results header that Mailcow's Rspamd will use
+  // to generate ARC-Authentication-Results, ARC-Message-Signature, and ARC-Seal.
+  // This preserves auth results when the email gets forwarded (e.g. Gmail→university).
+  //
+  // Without this header, forwarded emails lose SPF/DKIM context → spam folder.
+  mailHeaders['X-Original-Authentication-Results'] = `${sendingDomain}; auth=pass smtp.auth=${account.smtpUser}`;
+
+  // Precedence header — signals this is bulk/marketing email (not personal)
+  // ISPs use this to properly categorize mail (promotions tab vs primary)
+  // Being honest about bulk classification actually HELPS deliverability —
+  // ISPs penalize mail that pretends to be personal but has bulk patterns
+  mailHeaders['Precedence'] = 'bulk';
 
   // Auto-generate plain-text from HTML for multipart/alternative (critical for deliverability)
   // ISPs like Gmail penalize HTML-only emails — multipart/alternative boosts inbox placement
@@ -287,18 +310,72 @@ export async function getNextAccount(): Promise<SendingAccountData | null> {
       account.sentToday = 0;
     }
 
-    // Auto-advance warmup phase
+    // Auto-advance warmup phase — gated on BOTH calendar time AND engagement metrics
+    // This prevents scaling volume when the domain hasn't earned trust yet.
+    // A domain with low open rates or high bounces stays at current phase regardless of time.
     const daysSinceStart = Math.floor(
       (Date.now() - account.warmupStart.getTime()) / (1000 * 60 * 60 * 24)
     );
+
+    // Calculate engagement metrics from recent sending logs
+    const recentLogs = await prisma.sendingLog.findMany({
+      where: { accountId: account.id },
+      orderBy: { date: 'desc' },
+      take: 7,
+    });
+    const recentSent = recentLogs.reduce((s, l) => s + l.sent, 0);
+    const recentBounced = recentLogs.reduce((s, l) => s + l.bounced, 0);
+    const accountBounceRate = recentSent > 0 ? (recentBounced / recentSent) * 100 : 0;
+
+    // Calculate open rate from recent events for this account
+    let accountOpenRate = 0;
+    if (recentSent > 5) {
+      try {
+        const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+        const [sentEvents, openEvents] = await Promise.all([
+          prisma.emailEvent.count({ where: { accountId: account.id, type: 'sent', createdAt: { gte: sevenDaysAgo } } }),
+          prisma.emailEvent.count({ where: { accountId: account.id, type: 'opened', createdAt: { gte: sevenDaysAgo } } }),
+        ]);
+        accountOpenRate = sentEvents > 0 ? (openEvents / sentEvents) * 100 : 0;
+      } catch { /* email events may not have accountId index yet */ }
+    }
+
+    // Calculate health score (same formula as getWarmupStats)
+    const avgDaily = recentLogs.length > 0
+      ? recentLogs.reduce((s, l) => s + l.sent, 0) / recentLogs.length
+      : 0;
+    const currentPhaseConfig = WARMUP_PHASES[account.warmupPhase] || WARMUP_PHASES[1];
+    const consistency = recentLogs.length >= 3 ? Math.min(avgDaily / (currentPhaseConfig.dailyLimit * 0.5), 1) : 0;
+    const bouncePenalty = Math.max(0, 1 - (accountBounceRate / 10));
+    const healthScore = Math.round(consistency * bouncePenalty * 100);
+
     let newPhase = account.warmupPhase;
     for (const [phase, config] of Object.entries(WARMUP_PHASES).reverse()) {
-      if (daysSinceStart >= config.daysRequired) {
-        newPhase = parseInt(phase);
-        break;
+      const phaseNum = parseInt(phase);
+      if (phaseNum <= account.warmupPhase) break; // Only check higher phases
+
+      // Calendar time gate
+      if (daysSinceStart < config.daysRequired) continue;
+
+      // Engagement gates — must meet ALL thresholds to advance
+      if (accountOpenRate < config.minOpenRate && recentSent > 10) {
+        console.log(`[Warmup] ${account.email}: Phase ${phaseNum} blocked — open rate ${accountOpenRate.toFixed(1)}% < ${config.minOpenRate}% required`);
+        continue;
       }
+      if (healthScore < config.minHealthScore && recentLogs.length >= 3) {
+        console.log(`[Warmup] ${account.email}: Phase ${phaseNum} blocked — health score ${healthScore} < ${config.minHealthScore} required`);
+        continue;
+      }
+      if (accountBounceRate > config.maxBounceRate && recentSent > 5) {
+        console.log(`[Warmup] ${account.email}: Phase ${phaseNum} blocked — bounce rate ${accountBounceRate.toFixed(1)}% > ${config.maxBounceRate}% max`);
+        continue;
+      }
+
+      newPhase = phaseNum;
+      break;
     }
     if (newPhase !== account.warmupPhase) {
+      console.log(`[Warmup] ${account.email}: Advancing to Phase ${newPhase} (open=${accountOpenRate.toFixed(1)}%, health=${healthScore}, bounce=${accountBounceRate.toFixed(1)}%)`);
       await prisma.sendingAccount.update({
         where: { id: account.id },
         data: { warmupPhase: newPhase, dailyLimit: WARMUP_PHASES[newPhase].dailyLimit },
