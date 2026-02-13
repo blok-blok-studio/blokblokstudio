@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { checkAdmin } from '@/lib/admin-auth';
-import { fullBlacklistScan, getBlacklistHistory, checkDnsHealth, getDelistInfo } from '@/lib/blacklist-monitor';
+import { fullBlacklistScan, getBlacklistHistory, checkDnsHealth, getDelistInfo, resolveIPForDomain } from '@/lib/blacklist-monitor';
 
 /**
  * POST /api/admin/blacklist — comprehensive blacklist + DNS health check
@@ -40,8 +40,41 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Provide a domain or ip' }, { status: 400 });
     }
 
-    const ip = directIp || null;
-    const scan = await fullBlacklistScan(ip || '0.0.0.0', domain || undefined);
+    // Resolve actual IP: use direct IP, or resolve domain's mail/A record IP
+    let ip = directIp || null;
+    if (!ip && domain) {
+      ip = await resolveIPForDomain(domain);
+    }
+
+    if (!ip) {
+      // Domain has no A/MX record — can't check IP blacklists, but still check domain blacklists
+      if (domain) {
+        const scan = await fullBlacklistScan('127.0.0.2', domain);
+        // Only return domain blacklist results (IP results are meaningless with no real IP)
+        const domainOnly = scan.domainResults;
+        const listedOn = domainOnly
+          .filter(r => r.listed)
+          .map(r => ({ blacklist: r.blacklist, type: r.severity, delist: getDelistInfo(r.blacklist) }));
+        return NextResponse.json({
+          domain,
+          ip: null,
+          clean: listedOn.length === 0,
+          score: listedOn.length > 0 ? Math.min(100, listedOn.length * 20) : 0,
+          listedCount: listedOn.length,
+          listedOn,
+          totalChecked: domainOnly.length,
+          criticalListings: listedOn.filter(l => l.type === 'critical').map(l => l.blacklist),
+          highListings: listedOn.filter(l => l.type === 'high').map(l => l.blacklist),
+          ipResults: [],
+          domainResults: scan.domainResults,
+          checkedAt: new Date().toISOString(),
+          warning: `No A/MX record found for ${domain} — only domain blacklists checked (no IP to scan)`,
+        });
+      }
+      return NextResponse.json({ error: 'Could not resolve IP for domain' }, { status: 400 });
+    }
+
+    const scan = await fullBlacklistScan(ip, domain || undefined);
 
     // Build listedOn array from scan results (matches dashboard expected shape)
     const allResults = [...scan.ipResults, ...scan.domainResults];
