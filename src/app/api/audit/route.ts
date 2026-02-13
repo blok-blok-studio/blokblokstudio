@@ -65,6 +65,33 @@ export async function POST(req: NextRequest) {
       },
     });
 
+    // Auto-enroll in designated sequence (if any)
+    try {
+      const autoSeq = await prisma.sequence.findFirst({
+        where: { autoEnroll: true, active: true },
+        include: { steps: { orderBy: { order: 'asc' }, take: 1 } },
+      });
+
+      if (autoSeq && autoSeq.steps.length > 0) {
+        const firstStep = autoSeq.steps[0];
+        const nextSend = new Date(Date.now() + (firstStep.delayDays || 0) * 24 * 60 * 60 * 1000);
+
+        await prisma.sequenceEnrollment.upsert({
+          where: { sequenceId_leadId: { sequenceId: autoSeq.id, leadId: lead.id } },
+          update: {}, // Don't re-enroll if already enrolled
+          create: {
+            sequenceId: autoSeq.id,
+            leadId: lead.id,
+            currentStep: 0,
+            nextSendAt: nextSend,
+            status: 'active',
+          },
+        });
+      }
+    } catch (err) {
+      console.error('[Audit] Auto-enroll failed:', err);
+    }
+
     // Fire notifications in parallel (non-blocking)
     const leadData = {
       name,

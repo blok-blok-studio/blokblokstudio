@@ -1,39 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { sendCampaignEmail } from '@/lib/email';
+import { injectTracking } from '@/lib/tracking';
 import { buildEmailHtml } from '@/app/api/admin/campaign/route';
 import { getNextAccount, sendViaSMTP, recordSend, checkBounceThreshold } from '@/lib/smtp';
 import { processSpintax, pickVariant } from '@/lib/verify';
-
-/**
- * Inject open tracking pixel and wrap links for click tracking.
- */
-function injectTracking(html: string, leadId: string, campaignId?: string): string {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || (process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : 'http://localhost:3000');
-
-  const params = `lid=${encodeURIComponent(leadId)}${campaignId ? `&cid=${encodeURIComponent(campaignId)}` : ''}`;
-
-  // Inject tracking pixel before </body> or at end
-  const pixel = `<img src="${baseUrl}/api/track?t=open&${params}" width="1" height="1" style="display:none" alt="" />`;
-  let tracked = html.includes('</body>')
-    ? html.replace('</body>', `${pixel}</body>`)
-    : html + pixel;
-
-  // Wrap links for click tracking (only http/https links, skip unsubscribe)
-  tracked = tracked.replace(
-    /href="(https?:\/\/[^"]+)"/g,
-    (match, url) => {
-      // Don't track unsubscribe links
-      if (url.includes('/api/unsubscribe') || url.includes('/api/track')) return match;
-      const trackUrl = `${baseUrl}/api/track?t=click&${params}&url=${encodeURIComponent(url)}`;
-      return `href="${trackUrl}"`;
-    }
-  );
-
-  return tracked;
-}
 
 /**
  * Cron job — runs daily at 8am UTC.

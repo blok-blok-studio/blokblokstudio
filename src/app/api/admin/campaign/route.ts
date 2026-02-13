@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { checkAdmin } from '@/lib/admin-auth';
 import { sendCampaignEmail } from '@/lib/email';
+import { injectTracking } from '@/lib/tracking';
 
 /**
  * POST /api/admin/campaign — create & queue a campaign
@@ -60,18 +61,25 @@ export async function POST(req: NextRequest) {
     });
   }
 
-  // Send immediately (all sizes)
+  // Send immediately (all sizes) with tracking injection
   let sentCount = 0;
   for (const lead of leads) {
     const html = buildEmailHtml(body, lead);
+    const trackedHtml = injectTracking(html, lead.id, campaign.id);
     const personalizedSubject = personalizeText(subject, lead);
-    const ok = await sendCampaignEmail({ to: lead.email, subject: personalizedSubject, html, leadId: lead.id });
+    const ok = await sendCampaignEmail({ to: lead.email, subject: personalizedSubject, html: trackedHtml, leadId: lead.id });
     if (ok) {
       sentCount++;
       await prisma.lead.update({
         where: { id: lead.id },
         data: { emailsSent: { increment: 1 }, lastEmailAt: new Date() },
       });
+      // Log sent event for analytics tracking
+      try {
+        await prisma.emailEvent.create({
+          data: { leadId: lead.id, campaignId: campaign.id, type: 'sent' },
+        });
+      } catch { /* table may not exist */ }
     }
   }
 

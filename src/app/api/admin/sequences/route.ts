@@ -33,15 +33,21 @@ export async function POST(req: NextRequest) {
   if (authError) return authError;
 
   try {
-    const { name, steps } = await req.json();
+    const { name, steps, autoEnroll } = await req.json();
 
     if (!name || !Array.isArray(steps) || steps.length === 0) {
       return NextResponse.json({ error: 'Name and at least one step required' }, { status: 400 });
     }
 
+    // If enabling auto-enroll, disable it on all other sequences first
+    if (autoEnroll) {
+      await prisma.sequence.updateMany({ where: { autoEnroll: true }, data: { autoEnroll: false } });
+    }
+
     const sequence = await prisma.sequence.create({
       data: {
         name,
+        autoEnroll: autoEnroll || false,
         steps: {
           create: steps.map((step: { subject: string; body: string; delayDays: number }, i: number) => ({
             order: i + 1,
@@ -83,12 +89,21 @@ export async function PATCH(req: NextRequest) {
   if (authError) return authError;
 
   try {
-    const { id, action, leadIds, active } = await req.json();
+    const { id, action, leadIds, active, autoEnroll } = await req.json();
     if (!id) return NextResponse.json({ error: 'Missing id' }, { status: 400 });
 
     // Toggle active
     if (typeof active === 'boolean') {
       await prisma.sequence.update({ where: { id }, data: { active } });
+      return NextResponse.json({ success: true });
+    }
+
+    // Toggle autoEnroll (only one sequence can auto-enroll at a time)
+    if (typeof autoEnroll === 'boolean') {
+      if (autoEnroll) {
+        await prisma.sequence.updateMany({ where: { autoEnroll: true }, data: { autoEnroll: false } });
+      }
+      await prisma.sequence.update({ where: { id }, data: { autoEnroll } });
       return NextResponse.json({ success: true });
     }
 

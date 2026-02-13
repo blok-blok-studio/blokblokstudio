@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, BarChart, Bar, Legend } from 'recharts';
 
 // ── Types ──
 interface Lead {
@@ -114,6 +115,7 @@ interface SequenceData {
   id: string;
   name: string;
   active: boolean;
+  autoEnroll: boolean;
   steps: { id: string; order: number; delayDays: number; subject: string; body: string }[];
   enrolledCount: number;
   activeCount: number;
@@ -377,6 +379,11 @@ export function AdminDashboard() {
   const [blacklistResult, setBlacklistResult] = useState<{ domain: string; ip: string; clean: boolean; listedOn: { blacklist: string }[]; totalChecked: number } | null>(null);
   const [checkingBlacklist, setCheckingBlacklist] = useState(false);
 
+  // VPS Server Health (IP blacklist monitor)
+  const [vpsIp, setVpsIp] = useState('');
+  const [vpsBlacklistResult, setVpsBlacklistResult] = useState<{ ip: string; clean: boolean; listedOn: { blacklist: string; type: string }[]; totalChecked: number; checkedAt: string } | null>(null);
+  const [checkingVps, setCheckingVps] = useState(false);
+
   // Engagement timeline
   const [timelineLeadId, setTimelineLeadId] = useState<string | null>(null);
   const [timelineEvents, setTimelineEvents] = useState<EmailEvent[]>([]);
@@ -417,6 +424,12 @@ export function AdminDashboard() {
   // Sequence branching
   const [branchSteps, setBranchSteps] = useState<Array<{ id: string; stepOrder: number; subject: string; delayDays: number; branches: Array<{ condition: string; action: string; value?: number }> }>>([]);
   const [branchSequenceId, setBranchSequenceId] = useState<string | null>(null);
+
+  // Analytics charts
+  const [chartRange, setChartRange] = useState<'7d' | '30d' | '90d'>('30d');
+  const [leadsChartData, setLeadsChartData] = useState<{date: string; count: number}[]>([]);
+  const [emailsChartData, setEmailsChartData] = useState<{date: string; sent: number; opened: number; clicked: number; replied: number}[]>([]);
+  const [campaignAnalytics, setCampaignAnalytics] = useState<{id: string; subject: string; sentTo: number; openRate: string; clickRate: string; replyRate: string; bounceRate: string}[]>([]);
 
   const EMAIL_PROVIDERS: Record<string, { label: string; smtpHost: string; smtpPort: number; instructions: string[] }> = {
     'google': {
@@ -499,6 +512,7 @@ export function AdminDashboard() {
   const [showCreateSeq, setShowCreateSeq] = useState(false);
   const [newSeqName, setNewSeqName] = useState('');
   const [newSeqSteps, setNewSeqSteps] = useState([{ subject: '', body: '', delayDays: 0 }]);
+  const [newSeqAutoEnroll, setNewSeqAutoEnroll] = useState(false);
 
   // A/B Testing
   const [abEnabled, setAbEnabled] = useState(false);
@@ -744,6 +758,31 @@ export function AdminDashboard() {
     setCheckingBlacklist(false);
   };
 
+  const checkVpsBlacklist = async (ip: string) => {
+    if (!ip || !/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(ip.trim())) {
+      showToast('error', 'Enter a valid IPv4 address');
+      return;
+    }
+    setCheckingVps(true);
+    try {
+      const res = await fetch('/api/admin/blacklist', {
+        method: 'POST',
+        headers: headers(),
+        body: JSON.stringify({ ip: ip.trim() }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setVpsBlacklistResult(data);
+        if (data.clean) {
+          showToast('success', 'IP is clean — not on any blacklists');
+        } else {
+          showToast('error', `IP is listed on ${data.listedOn.length} blacklist(s)!`);
+        }
+      }
+    } catch { showToast('error', 'VPS blacklist check failed'); }
+    setCheckingVps(false);
+  };
+
   const fetchTimeline = async (leadId: string) => {
     setTimelineLeadId(leadId);
     try {
@@ -895,6 +934,19 @@ export function AdminDashboard() {
     } catch { /* ignore */ }
   }, [headers]);
 
+  const fetchAnalytics = useCallback(async (range = '30d') => {
+    try {
+      const [leadsRes, emailsRes, campaignsRes] = await Promise.all([
+        fetch(`/api/admin/analytics?view=leads&range=${range}`, { headers: headers() }),
+        fetch(`/api/admin/analytics?view=emails&range=${range}`, { headers: headers() }),
+        fetch(`/api/admin/analytics?view=campaigns`, { headers: headers() }),
+      ]);
+      if (leadsRes.ok) { const d = await leadsRes.json(); setLeadsChartData(d.data || []); }
+      if (emailsRes.ok) { const d = await emailsRes.json(); setEmailsChartData(d.data || []); }
+      if (campaignsRes.ok) { const d = await campaignsRes.json(); setCampaignAnalytics(d.campaigns || []); }
+    } catch { /* silently fail */ }
+  }, [headers]);
+
   const saveCurrentView = async () => {
     if (!newViewName.trim()) return;
     const filters = { search: searchQuery, field: filterField, status: filterStatus, verify: filterVerify, list: filterList };
@@ -1023,8 +1075,9 @@ export function AdminDashboard() {
       fetchEvents();
       fetchLists();
       fetchLeadEnrollments();
+      fetchAnalytics();
     }
-  }, [authed, fetchLeads, fetchCampaigns, fetchAccounts, fetchSequences, fetchTemplates, fetchEvents, fetchLists, fetchLeadEnrollments]);
+  }, [authed, fetchLeads, fetchCampaigns, fetchAccounts, fetchSequences, fetchTemplates, fetchEvents, fetchLists, fetchLeadEnrollments, fetchAnalytics]);
 
   // ── Derived data ──
   const activeLeads = leads.filter(l => !l.unsubscribed);
@@ -1603,6 +1656,119 @@ export function AdminDashboard() {
                     <p className="text-xs text-gray-600 mt-1">{stat.sub}</p>
                   </div>
                 ))}
+              </div>
+
+              {/* Leads Over Time */}
+              <div className="rounded-2xl bg-white/[0.02] border border-white/5 p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="font-semibold">Leads Over Time</h3>
+                  <div className="flex gap-1">
+                    {(['7d', '30d', '90d'] as const).map(r => (
+                      <button
+                        key={r}
+                        onClick={() => { setChartRange(r); fetchAnalytics(r); }}
+                        className={`px-3 py-1 rounded-lg text-xs ${chartRange === r ? 'bg-orange-500/20 text-orange-400' : 'bg-white/[0.03] text-gray-500 hover:text-gray-300'}`}
+                      >
+                        {r}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+                {leadsChartData.length > 0 ? (
+                  <ResponsiveContainer width="100%" height={200}>
+                    <LineChart data={leadsChartData}>
+                      <CartesianGrid strokeDasharray="3 3" stroke="#222" />
+                      <XAxis dataKey="date" tick={{ fill: '#666', fontSize: 10 }} tickFormatter={(v: string) => v.slice(5)} />
+                      <YAxis tick={{ fill: '#666', fontSize: 10 }} allowDecimals={false} />
+                      <Tooltip contentStyle={{ background: '#1a1a1a', border: '1px solid #333', borderRadius: 8, color: '#fff' }} />
+                      <Line type="monotone" dataKey="count" stroke="#f97316" strokeWidth={2} dot={false} name="Leads" />
+                    </LineChart>
+                  </ResponsiveContainer>
+                ) : (
+                  <p className="text-sm text-gray-600 text-center py-8">No data yet</p>
+                )}
+              </div>
+
+              {/* Email Activity Over Time */}
+              <div className="rounded-2xl bg-white/[0.02] border border-white/5 p-6">
+                <h3 className="font-semibold mb-4">Email Activity</h3>
+                {emailsChartData.length > 0 ? (
+                  <ResponsiveContainer width="100%" height={200}>
+                    <BarChart data={emailsChartData}>
+                      <CartesianGrid strokeDasharray="3 3" stroke="#222" />
+                      <XAxis dataKey="date" tick={{ fill: '#666', fontSize: 10 }} tickFormatter={(v: string) => v.slice(5)} />
+                      <YAxis tick={{ fill: '#666', fontSize: 10 }} allowDecimals={false} />
+                      <Tooltip contentStyle={{ background: '#1a1a1a', border: '1px solid #333', borderRadius: 8, color: '#fff' }} />
+                      <Legend wrapperStyle={{ color: '#999', fontSize: 12 }} />
+                      <Bar dataKey="sent" fill="#3b82f6" radius={[2,2,0,0]} name="Sent" />
+                      <Bar dataKey="opened" fill="#22c55e" radius={[2,2,0,0]} name="Opened" />
+                      <Bar dataKey="clicked" fill="#a855f7" radius={[2,2,0,0]} name="Clicked" />
+                      <Bar dataKey="replied" fill="#f97316" radius={[2,2,0,0]} name="Replied" />
+                    </BarChart>
+                  </ResponsiveContainer>
+                ) : (
+                  <p className="text-sm text-gray-600 text-center py-8">No email data yet</p>
+                )}
+              </div>
+
+              {/* VPS Server Health — IP Blacklist Monitor */}
+              <div className="rounded-2xl bg-white/[0.02] border border-white/5 p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <div>
+                    <h3 className="font-semibold">Server Health</h3>
+                    <p className="text-xs text-gray-500 mt-0.5">Check if your mail server IP is on any DNS blacklists</p>
+                  </div>
+                  {vpsBlacklistResult && (
+                    <span className={`px-2.5 py-1 rounded-full text-xs font-medium ${vpsBlacklistResult.clean ? 'bg-green-500/10 text-green-400' : 'bg-red-500/10 text-red-400'}`}>
+                      {vpsBlacklistResult.clean ? 'CLEAN' : `LISTED (${vpsBlacklistResult.listedOn.length})`}
+                    </span>
+                  )}
+                </div>
+                <div className="flex gap-2 mb-4">
+                  <input
+                    type="text"
+                    value={vpsIp}
+                    onChange={e => setVpsIp(e.target.value)}
+                    placeholder="Enter VPS IP (e.g. 46.225.131.150)"
+                    className="flex-1 px-3 py-2 rounded-lg bg-white/[0.03] border border-white/5 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-orange-500"
+                    onKeyDown={e => e.key === 'Enter' && checkVpsBlacklist(vpsIp)}
+                  />
+                  <button
+                    onClick={() => checkVpsBlacklist(vpsIp)}
+                    disabled={checkingVps || !vpsIp}
+                    className="px-4 py-2 rounded-lg bg-orange-500/10 text-orange-400 text-sm font-medium hover:bg-orange-500/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                  >
+                    {checkingVps ? 'Checking...' : 'Check IP'}
+                  </button>
+                </div>
+                {vpsBlacklistResult && (
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between text-xs text-gray-500">
+                      <span>IP: {vpsBlacklistResult.ip}</span>
+                      <span>{vpsBlacklistResult.totalChecked} blacklists checked &middot; {new Date(vpsBlacklistResult.checkedAt).toLocaleTimeString()}</span>
+                    </div>
+                    {vpsBlacklistResult.clean ? (
+                      <div className="flex items-center gap-2 p-3 rounded-xl bg-green-500/5 border border-green-500/20">
+                        <span className="w-2.5 h-2.5 rounded-full bg-green-500" />
+                        <span className="text-sm text-green-400">Not listed on any blacklists — your IP is clean</span>
+                      </div>
+                    ) : (
+                      <div className="space-y-1.5">
+                        <div className="flex items-center gap-2 p-3 rounded-xl bg-red-500/5 border border-red-500/20">
+                          <span className="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse" />
+                          <span className="text-sm text-red-400">Listed on {vpsBlacklistResult.listedOn.length} blacklist(s) — consider getting a new VPS IP</span>
+                        </div>
+                        <div className="grid grid-cols-2 gap-1.5">
+                          {vpsBlacklistResult.listedOn.map((bl, i) => (
+                            <div key={i} className="px-3 py-1.5 rounded-lg bg-red-500/5 border border-red-500/10 text-xs text-red-300">
+                              {bl.blacklist}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
               </div>
 
               {/* Lead Pipeline */}
@@ -3970,6 +4136,7 @@ export function AdminDashboard() {
                           </div>
                           <p className="text-xs text-gray-500 mt-0.5">
                             {seq.steps.length} steps &middot; {seq.enrolledCount} enrolled &middot; {seq.activeCount} active &middot; {seq.completedCount} completed
+                            {seq.autoEnroll && <span className="text-green-400 ml-1">&middot; Auto-enrolling new leads</span>}
                           </p>
                         </div>
                         <div className="flex gap-1">
@@ -3985,6 +4152,23 @@ export function AdminDashboard() {
                             className="px-3 py-1.5 rounded-lg text-xs bg-white/[0.03] border border-white/5 text-gray-400 hover:text-white"
                           >
                             {seq.active ? 'Pause' : 'Resume'}
+                          </button>
+                          <button
+                            onClick={async () => {
+                              await fetch('/api/admin/sequences', {
+                                method: 'PATCH',
+                                headers: headers(),
+                                body: JSON.stringify({ id: seq.id, autoEnroll: !seq.autoEnroll }),
+                              });
+                              fetchSequences();
+                            }}
+                            className={`px-3 py-1.5 rounded-lg text-xs ${
+                              seq.autoEnroll
+                                ? 'bg-green-500/10 text-green-400 border border-green-500/20'
+                                : 'bg-white/[0.03] border border-white/5 text-gray-400 hover:text-white'
+                            }`}
+                          >
+                            {seq.autoEnroll ? '\u2605 Auto-Enroll ON' : 'Auto-Enroll'}
                           </button>
                           <button
                             onClick={async () => {
@@ -4040,7 +4224,7 @@ export function AdminDashboard() {
 
               {/* Create sequence modal */}
               {showCreateSeq && (
-                <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4" onClick={() => setShowCreateSeq(false)}>
+                <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4" onClick={() => { setShowCreateSeq(false); setNewSeqAutoEnroll(false); }}>
                   <div className="w-full max-w-2xl bg-[#161616] border border-white/10 rounded-2xl shadow-2xl max-h-[90vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
                     <div className="p-6 border-b border-white/5">
                       <h3 className="font-semibold">Create Email Sequence</h3>
@@ -4052,6 +4236,18 @@ export function AdminDashboard() {
                         onChange={e => setNewSeqName(e.target.value)}
                         className="w-full bg-white/[0.03] border border-white/5 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-orange-500/30"
                       />
+                      <label className="flex items-center gap-3 py-2">
+                        <input
+                          type="checkbox"
+                          checked={newSeqAutoEnroll}
+                          onChange={e => setNewSeqAutoEnroll(e.target.checked)}
+                          className="w-4 h-4 rounded border-white/10 bg-white/[0.03] text-orange-500 focus:ring-orange-500/30"
+                        />
+                        <div>
+                          <span className="text-sm text-gray-300">Auto-enroll new leads</span>
+                          <p className="text-xs text-gray-600">New funnel submissions will automatically join this sequence</p>
+                        </div>
+                      </label>
                       {newSeqSteps.map((step, i) => (
                         <div key={i} className="rounded-xl bg-white/[0.02] border border-white/5 p-4 space-y-3">
                           <div className="flex items-center justify-between">
@@ -4127,13 +4323,14 @@ export function AdminDashboard() {
                           const res = await fetch('/api/admin/sequences', {
                             method: 'POST',
                             headers: headers(),
-                            body: JSON.stringify({ name: newSeqName, steps: newSeqSteps }),
+                            body: JSON.stringify({ name: newSeqName, steps: newSeqSteps, autoEnroll: newSeqAutoEnroll }),
                           });
                           if (res.ok) {
                             showToast('success', 'Sequence created!');
                             setShowCreateSeq(false);
                             setNewSeqName('');
                             setNewSeqSteps([{ subject: '', body: '', delayDays: 0 }]);
+                            setNewSeqAutoEnroll(false);
                             fetchSequences();
                           } else {
                             const data = await res.json();
@@ -4144,7 +4341,7 @@ export function AdminDashboard() {
                       >
                         Create Sequence
                       </button>
-                      <button onClick={() => setShowCreateSeq(false)} className="px-6 py-3 rounded-xl bg-white/[0.03] border border-white/5 text-gray-400">Cancel</button>
+                      <button onClick={() => { setShowCreateSeq(false); setNewSeqAutoEnroll(false); }} className="px-6 py-3 rounded-xl bg-white/[0.03] border border-white/5 text-gray-400">Cancel</button>
                     </div>
                   </div>
                 </div>
@@ -4329,6 +4526,40 @@ export function AdminDashboard() {
                       </div>
                     </div>
                   )}
+                </div>
+              )}
+              {/* Campaign Performance Comparison */}
+              {campaignAnalytics.length > 0 && (
+                <div className="rounded-2xl bg-white/[0.02] border border-white/5 overflow-hidden">
+                  <div className="p-4 border-b border-white/5">
+                    <h3 className="font-semibold">Campaign Performance</h3>
+                  </div>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="bg-white/[0.03] border-b border-white/5">
+                          <th className="px-4 py-3 text-left text-xs text-gray-500 font-medium uppercase tracking-wider">Campaign</th>
+                          <th className="px-4 py-3 text-right text-xs text-gray-500 font-medium uppercase tracking-wider">Sent</th>
+                          <th className="px-4 py-3 text-right text-xs text-gray-500 font-medium uppercase tracking-wider">Open %</th>
+                          <th className="px-4 py-3 text-right text-xs text-gray-500 font-medium uppercase tracking-wider">Click %</th>
+                          <th className="px-4 py-3 text-right text-xs text-gray-500 font-medium uppercase tracking-wider">Reply %</th>
+                          <th className="px-4 py-3 text-right text-xs text-gray-500 font-medium uppercase tracking-wider">Bounce %</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {campaignAnalytics.map(c => (
+                          <tr key={c.id} className="border-b border-white/5 hover:bg-white/[0.02]">
+                            <td className="px-4 py-3 text-gray-200 truncate max-w-[200px]">{c.subject}</td>
+                            <td className="px-4 py-3 text-right text-gray-400">{c.sentTo}</td>
+                            <td className="px-4 py-3 text-right text-blue-400">{c.openRate}%</td>
+                            <td className="px-4 py-3 text-right text-purple-400">{c.clickRate}%</td>
+                            <td className="px-4 py-3 text-right text-orange-400">{c.replyRate}%</td>
+                            <td className="px-4 py-3 text-right text-red-400">{c.bounceRate}%</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               )}
             </div>

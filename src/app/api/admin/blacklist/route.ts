@@ -63,12 +63,14 @@ export async function POST(req: NextRequest) {
   if (authError) return authError;
 
   try {
-    const { domain } = await req.json();
-    if (!domain) {
-      return NextResponse.json({ error: 'Provide a domain' }, { status: 400 });
+    const { domain, ip: directIp } = await req.json();
+
+    if (!domain && !directIp) {
+      return NextResponse.json({ error: 'Provide a domain or ip' }, { status: 400 });
     }
 
-    const ip = await getIPForDomain(domain);
+    // Support direct IP check (for VPS monitoring)
+    const ip = directIp || await getIPForDomain(domain);
     const results: { blacklist: string; listed: boolean; type: string }[] = [];
 
     // Check IP blacklists
@@ -85,27 +87,30 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    // Check domain blacklists
-    const domainChecks = await Promise.allSettled(
-      DOMAIN_BLACKLISTS.map(async bl => ({
-        blacklist: bl,
-        listed: await checkDomainBlacklist(domain, bl),
-        type: 'domain',
-      }))
-    );
-    for (const check of domainChecks) {
-      if (check.status === 'fulfilled') results.push(check.value);
+    // Check domain blacklists (only if domain provided)
+    if (domain) {
+      const domainChecks = await Promise.allSettled(
+        DOMAIN_BLACKLISTS.map(async bl => ({
+          blacklist: bl,
+          listed: await checkDomainBlacklist(domain, bl),
+          type: 'domain',
+        }))
+      );
+      for (const check of domainChecks) {
+        if (check.status === 'fulfilled') results.push(check.value);
+      }
     }
 
     const listedOn = results.filter(r => r.listed);
 
     return NextResponse.json({
-      domain,
+      domain: domain || null,
       ip: ip || 'unknown',
       clean: listedOn.length === 0,
       listedOn,
       totalChecked: results.length,
       results,
+      checkedAt: new Date().toISOString(),
     });
   } catch {
     return NextResponse.json({ error: 'Blacklist check failed' }, { status: 500 });
