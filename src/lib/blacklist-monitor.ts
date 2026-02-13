@@ -982,7 +982,7 @@ export function analyzeSpamScore(subject: string, body: string): {
 
 // ── Utility ──
 
-async function resolveIPForDomain(domain: string): Promise<string | null> {
+export async function resolveIPForDomain(domain: string): Promise<string | null> {
   try {
     const mx = await resolveMx(domain);
     if (mx.length > 0) {
