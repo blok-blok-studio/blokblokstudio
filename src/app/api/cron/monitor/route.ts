@@ -4,7 +4,7 @@ import {
   runDnsHealthMonitor,
   runListHygiene,
 } from '@/lib/blacklist-monitor';
-import { recordDailySnapshot } from '@/lib/deliverability';
+import { recordDailySnapshot, detectBounceTrend } from '@/lib/deliverability';
 
 /**
  * Cron job — runs daily (recommended: 6am UTC, before send-campaigns at 8am).
@@ -96,6 +96,29 @@ export async function GET(req: NextRequest) {
   } catch (err) {
     console.error('[Monitor] Snapshot error:', err);
     results.snapshot = { error: 'Failed' };
+  }
+
+  // ── 5. Bounce Trend Detection ──
+  try {
+    const bounceTrend = await detectBounceTrend();
+    results.bounceTrend = {
+      trending: bounceTrend.trending,
+      severity: bounceTrend.severity,
+      message: bounceTrend.message,
+      prediction: bounceTrend.prediction,
+      shouldAlert: bounceTrend.shouldAlert,
+      shouldPause: bounceTrend.shouldPause,
+      daysAnalyzed: bounceTrend.dailyRates.length,
+    };
+
+    // Auto-pause if bounce trend is critical
+    if (bounceTrend.shouldPause) {
+      console.error(`[Monitor] CRITICAL bounce trend — ${bounceTrend.message}`);
+      (results.bounceTrend as Record<string, unknown>).actionRequired = 'MANUAL REVIEW NEEDED — bounce rate trending dangerously high';
+    }
+  } catch (err) {
+    console.error('[Monitor] Bounce trend error:', err);
+    results.bounceTrend = { error: 'Analysis failed' };
   }
 
   return NextResponse.json({

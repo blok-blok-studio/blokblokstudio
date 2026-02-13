@@ -1,6 +1,7 @@
 import nodemailer from 'nodemailer';
 import { prisma } from './prisma';
 import { decrypt } from './crypto';
+import { htmlToText } from './email';
 
 interface SendingAccountData {
   id: string;
@@ -79,6 +80,10 @@ export async function sendViaSMTP(
     mailHeaders['Feedback-ID'] = `${campaignId}:${account.id}:blokblok`;
   }
 
+  // Auto-generate plain-text from HTML for multipart/alternative (critical for deliverability)
+  // ISPs like Gmail penalize HTML-only emails — multipart/alternative boosts inbox placement
+  const plainText = text || htmlToText(html);
+
   try {
     await transporter.sendMail({
       from: `Blok Blok Studio <${account.email}>`,
@@ -86,7 +91,7 @@ export async function sendViaSMTP(
       replyTo: replyTo || account.email,
       subject,
       html,
-      text: text || undefined,
+      text: plainText,
       headers: mailHeaders,
       date: new Date(),            // Explicit Date header
     });

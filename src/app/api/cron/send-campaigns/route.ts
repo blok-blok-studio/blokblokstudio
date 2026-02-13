@@ -5,7 +5,8 @@ import { injectTracking } from '@/lib/tracking';
 import { buildEmailHtml } from '@/app/api/admin/campaign/route';
 import { getNextAccount, sendViaSMTP, recordSend, checkBounceThreshold } from '@/lib/smtp';
 import { processSpintax, pickVariant } from '@/lib/verify';
-import { isLeadEligible, checkRateLimit, reportSendSuccess, reportSendError, checkCampaignHealth, queueSoftBounceRetry, recordDailySnapshot } from '@/lib/deliverability';
+import { isLeadEligible, checkRateLimit, checkIspRateLimit, checkContentFingerprint, reportSendSuccess, reportSendError, checkCampaignHealth, queueSoftBounceRetry, recordDailySnapshot, getEngagementTier, getEngagementDelay } from '@/lib/deliverability';
+import { htmlToText } from '@/lib/email';
 
 /**
  * Cron job — runs daily at 8am UTC.
@@ -47,7 +48,7 @@ export async function GET(req: NextRequest) {
       where: leadIdList && leadIdList.length > 0
         ? { id: { in: leadIdList }, unsubscribed: false }
         : { unsubscribed: false },
-      select: { id: true, email: true, name: true, field: true, website: true, problem: true, emailsSent: true, verifyResult: true, bounceType: true, bounceCount: true, complainedAt: true },
+      select: { id: true, email: true, name: true, field: true, website: true, problem: true, emailsSent: true, verifyResult: true, bounceType: true, bounceCount: true, complainedAt: true, engagementScore: true, lastEngagedAt: true },
     });
 
     // Filter out ineligible leads (complained, hard-bounced, invalid, disposable, catch-all, role-based)
@@ -65,11 +66,18 @@ export async function GET(req: NextRequest) {
 
     let sentCount = 0;
     for (const lead of validLeads) {
-      // Rate limit check
+      // Global rate limit check
       const rl = checkRateLimit();
       if (!rl.allowed) {
         if (rl.waitMs > 5000) break;
         await new Promise(r => setTimeout(r, rl.waitMs));
+      }
+
+      // Per-ISP rate limit check (Gmail=100/hr, Yahoo=50/hr, etc.)
+      const ispCheck = checkIspRateLimit(lead.email);
+      if (!ispCheck.allowed) {
+        console.log(`[Cron] ISP limit for ${ispCheck.isp} — skipping ${lead.email}, retry next run`);
+        continue; // Skip this lead, don't break the whole campaign
       }
 
       // Check bounce threshold mid-campaign
@@ -100,6 +108,14 @@ export async function GET(req: NextRequest) {
         .replace(/\{\{website\}\}/g, lead.website || 'N/A')
         .replace(/\{\{problem\}\}/g, lead.problem);
 
+      // Content fingerprint check — prevent ISPs from flagging identical template spam
+      const fpCheck = checkContentFingerprint(html);
+      if (!fpCheck.allowed) {
+        console.warn(`[Cron] Template spam guard: ${fpCheck.similarSent} identical sends — ${fpCheck.suggestion}`);
+        // Add extra delay instead of skipping (content will vary with spintax on next iteration)
+        await new Promise(r => setTimeout(r, 5000 + Math.random() * 5000));
+      }
+
       const ok = await sendWithRotation(lead.email, subject, html, lead.id, campaign.id);
       if (ok) {
         sentCount++;
@@ -108,7 +124,15 @@ export async function GET(req: NextRequest) {
           data: { emailsSent: { increment: 1 }, lastEmailAt: new Date(), status: lead.emailsSent === 0 ? 'contacted' : undefined },
         });
       }
-      await new Promise(r => setTimeout(r, 300 + Math.random() * 700));
+
+      // Engagement-based delay: hot leads get sent fast, cold leads get more spacing
+      const tier = getEngagementTier(
+        lead.engagementScore ?? 0,
+        lead.lastEngagedAt,
+        lead.emailsSent
+      );
+      const delay = getEngagementDelay(tier);
+      await new Promise(r => setTimeout(r, delay));
     }
 
     await prisma.emailCampaign.update({
@@ -185,6 +209,18 @@ export async function GET(req: NextRequest) {
       .replace(/\{\{website\}\}/g, lead.website || 'N/A')
       .replace(/\{\{problem\}\}/g, lead.problem);
 
+    // Per-ISP rate limit check for sequence sends
+    const seqIspCheck = checkIspRateLimit(lead.email);
+    if (!seqIspCheck.allowed) {
+      // Reschedule for later instead of skipping
+      const nextRetry = new Date(now.getTime() + 2 * 60 * 60 * 1000); // 2h later
+      await prisma.sequenceEnrollment.update({
+        where: { id: enrollment.id },
+        data: { nextSendAt: nextRetry },
+      });
+      continue;
+    }
+
     const ok = await sendWithRotation(lead.email, subject, html, lead.id);
 
     if (ok) {
@@ -232,7 +268,10 @@ export async function GET(req: NextRequest) {
       }
     }
 
-    await new Promise(r => setTimeout(r, 300 + Math.random() * 700));
+    // Engagement-based delay for sequence sends too
+    const seqTier = getEngagementTier(lead.engagementScore ?? 0, lead.lastEngagedAt, lead.emailsSent);
+    const seqDelay = getEngagementDelay(seqTier);
+    await new Promise(r => setTimeout(r, seqDelay));
   }
 
   if (seqSent > 0) {
