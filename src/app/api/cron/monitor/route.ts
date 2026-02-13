@@ -4,7 +4,7 @@ import {
   runDnsHealthMonitor,
   runListHygiene,
 } from '@/lib/blacklist-monitor';
-import { recordDailySnapshot, detectBounceTrend } from '@/lib/deliverability';
+import { recordDailySnapshot, detectBounceTrend, applyEngagementDecay } from '@/lib/deliverability';
 
 /**
  * Cron job — runs daily (recommended: 6am UTC, before send-campaigns at 8am).
@@ -119,6 +119,18 @@ export async function GET(req: NextRequest) {
   } catch (err) {
     console.error('[Monitor] Bounce trend error:', err);
     results.bounceTrend = { error: 'Analysis failed' };
+  }
+
+  // ── 6. Engagement Decay (penalize disengaged leads) ──
+  try {
+    const decayResult = await applyEngagementDecay();
+    results.engagementDecay = {
+      leadsDecayed: decayResult.decayed,
+      leadsSuppressed: decayResult.suppressed,
+    };
+  } catch (err) {
+    console.error('[Monitor] Engagement decay error:', err);
+    results.engagementDecay = { error: 'Failed' };
   }
 
   return NextResponse.json({

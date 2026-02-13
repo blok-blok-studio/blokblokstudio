@@ -623,11 +623,17 @@ export async function checkCampaignHealth(campaignId: string): Promise<{
   return { shouldPause: false, reason: '', metrics };
 }
 
-// ── Engagement Scoring ──
+// ── Engagement Scoring with Time Decay ──
 
 /**
  * Update a lead's engagement score based on recent activity.
  * Called when opens/clicks/replies are tracked.
+ *
+ * Implements time-decay: scores naturally decline over time.
+ * A lead who opened 6 months ago shouldn't still be "hot."
+ *
+ * Also implements negative scoring: consecutive unopened emails
+ * actively reduce the score (ISPs care about this pattern).
  */
 export async function updateEngagement(leadId: string, eventType: 'opened' | 'clicked' | 'replied'): Promise<void> {
   const weights = { opened: 10, clicked: 25, replied: 50 };
@@ -636,13 +642,23 @@ export async function updateEngagement(leadId: string, eventType: 'opened' | 'cl
   try {
     const lead = await prisma.lead.findUnique({
       where: { id: leadId },
-      select: { engagementScore: true },
+      select: { engagementScore: true, lastEngagedAt: true },
     });
 
     if (!lead) return;
 
-    // Score decays over time but bumps up on new activity, capped at 100
-    const newScore = Math.min(100, Math.max(0, (lead.engagementScore || 0) + weight));
+    // Apply time-decay before adding new engagement
+    // Score loses 5% per week since last engagement (natural decay)
+    let currentScore = lead.engagementScore || 0;
+    if (lead.lastEngagedAt) {
+      const daysSinceEngagement = (Date.now() - new Date(lead.lastEngagedAt).getTime()) / (1000 * 60 * 60 * 24);
+      const weeksSinceEngagement = daysSinceEngagement / 7;
+      const decayFactor = Math.pow(0.95, weeksSinceEngagement); // 5% decay per week
+      currentScore = Math.round(currentScore * decayFactor);
+    }
+
+    // Add new engagement weight
+    const newScore = Math.min(100, Math.max(0, currentScore + weight));
 
     await prisma.lead.update({
       where: { id: leadId },
@@ -654,6 +670,98 @@ export async function updateEngagement(leadId: string, eventType: 'opened' | 'cl
   } catch {
     // Silently fail — engagement tracking shouldn't break sends
   }
+}
+
+/**
+ * Apply negative engagement scoring when an email is sent but not engaged with.
+ * Called by the daily monitor cron to penalize leads who aren't engaging.
+ *
+ * This is critical because ISPs track "send-to-engagement ratio" —
+ * if you keep sending to leads who never open, your IP reputation tanks.
+ */
+export async function applyEngagementDecay(): Promise<{ decayed: number; suppressed: number }> {
+  let decayed = 0;
+  let suppressed = 0;
+
+  try {
+    // Find leads who received emails in the last 7 days but didn't engage
+    const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+
+    const disengagedLeads = await prisma.lead.findMany({
+      where: {
+        lastEmailAt: { gte: sevenDaysAgo },
+        emailsSent: { gte: 2 },
+        OR: [
+          { lastEngagedAt: null },
+          { lastEngagedAt: { lt: sevenDaysAgo } },
+        ],
+        unsubscribed: false,
+        complainedAt: null,
+        bounceType: { not: 'hard' },
+      },
+      select: { id: true, engagementScore: true, emailsSent: true, lastEngagedAt: true },
+      take: 500, // Process in batches
+    });
+
+    for (const lead of disengagedLeads) {
+      // Apply -3 per unopened email cycle (capped at 0)
+      const newScore = Math.max(0, (lead.engagementScore || 0) - 3);
+
+      if (newScore !== lead.engagementScore) {
+        await prisma.lead.update({
+          where: { id: lead.id },
+          data: { engagementScore: newScore },
+        });
+        decayed++;
+      }
+
+      // Auto-suppress if score hits 0 and they've received 5+ emails
+      if (newScore === 0 && lead.emailsSent >= 5) {
+        suppressed++;
+      }
+    }
+  } catch (err) {
+    console.error('[EngagementDecay] Error:', err);
+  }
+
+  return { decayed, suppressed };
+}
+
+// ── Human Send Pattern Simulation ──
+// ISPs detect mechanical sending by analyzing inter-arrival times.
+// Real humans have burst/pause patterns, not uniform spacing.
+
+/**
+ * Generate a human-like delay between sends.
+ * Combines engagement-based delays with natural behavioral patterns:
+ *
+ * 1. Burst mode: Occasional fast batches (like a human clearing their inbox)
+ * 2. Pause mode: Random longer pauses (like reading a response or switching tasks)
+ * 3. Micro-jitter: ±20% randomness on every delay (eliminates mechanical patterns)
+ * 4. Time-of-day awareness: Slightly slower during off-hours
+ */
+export function getHumanizedDelay(engagementTier: EngagementTier, sendIndex: number): number {
+  // Base delay from engagement tier
+  const baseDelay = getEngagementDelay(engagementTier);
+
+  // Every 3-7 sends, simulate a "pause" (human checking something)
+  const burstSize = 3 + Math.floor(Math.random() * 5);
+  const isPause = sendIndex > 0 && sendIndex % burstSize === 0;
+  const pauseMultiplier = isPause ? (2 + Math.random() * 4) : 1; // 2-6x pause
+
+  // Every 15-25 sends, simulate a longer break (human getting coffee, etc.)
+  const breakInterval = 15 + Math.floor(Math.random() * 11);
+  const isBreak = sendIndex > 0 && sendIndex % breakInterval === 0;
+  const breakMs = isBreak ? (10000 + Math.random() * 20000) : 0; // 10-30s break
+
+  // Micro-jitter: ±20% on every delay
+  const jitter = 0.8 + Math.random() * 0.4; // 0.8 to 1.2
+
+  // Time-of-day factor: slightly slower during typical non-business hours UTC
+  const hourUTC = new Date().getUTCHours();
+  const offHoursFactor = (hourUTC < 8 || hourUTC > 20) ? 1.3 : 1.0;
+
+  return Math.round((baseDelay * pauseMultiplier * jitter * offHoursFactor) + breakMs);
 }
 
 // ── Soft Bounce Retry Queue ──

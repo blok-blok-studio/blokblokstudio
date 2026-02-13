@@ -5,7 +5,7 @@ import { injectTracking } from '@/lib/tracking';
 import { buildEmailHtml } from '@/app/api/admin/campaign/route';
 import { getNextAccount, sendViaSMTP, recordSend, checkBounceThreshold } from '@/lib/smtp';
 import { processSpintax, pickVariant } from '@/lib/verify';
-import { isLeadEligible, checkRateLimit, checkIspRateLimit, checkContentFingerprint, reportSendSuccess, reportSendError, checkCampaignHealth, queueSoftBounceRetry, recordDailySnapshot, getEngagementTier, getEngagementDelay } from '@/lib/deliverability';
+import { isLeadEligible, checkRateLimit, checkIspRateLimit, checkContentFingerprint, reportSendSuccess, reportSendError, checkCampaignHealth, queueSoftBounceRetry, recordDailySnapshot, getEngagementTier, getHumanizedDelay } from '@/lib/deliverability';
 import { htmlToText } from '@/lib/email';
 
 /**
@@ -125,13 +125,13 @@ export async function GET(req: NextRequest) {
         });
       }
 
-      // Engagement-based delay: hot leads get sent fast, cold leads get more spacing
+      // Human-like delay: combines engagement tier + burst/pause patterns + jitter
       const tier = getEngagementTier(
         lead.engagementScore ?? 0,
         lead.lastEngagedAt,
         lead.emailsSent
       );
-      const delay = getEngagementDelay(tier);
+      const delay = getHumanizedDelay(tier, sentCount);
       await new Promise(r => setTimeout(r, delay));
     }
 
@@ -268,9 +268,9 @@ export async function GET(req: NextRequest) {
       }
     }
 
-    // Engagement-based delay for sequence sends too
+    // Human-like delay for sequence sends too
     const seqTier = getEngagementTier(lead.engagementScore ?? 0, lead.lastEngagedAt, lead.emailsSent);
-    const seqDelay = getEngagementDelay(seqTier);
+    const seqDelay = getHumanizedDelay(seqTier, seqSent);
     await new Promise(r => setTimeout(r, seqDelay));
   }
 

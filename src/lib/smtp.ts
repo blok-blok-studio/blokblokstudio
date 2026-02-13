@@ -63,10 +63,19 @@ export async function sendViaSMTP(
     connectionTimeout: 10_000,     // 10s connection timeout
     greetingTimeout: 10_000,       // 10s greeting timeout
     socketTimeout: 30_000,         // 30s socket timeout
+    tls: {
+      minVersion: 'TLSv1.2',      // Require TLS 1.2+ (ISP deliverability signal)
+      rejectUnauthorized: false,   // Accept self-signed certs from MTAs
+    },
+    pool: true,                    // Reuse connections (reduces new-connection fingerprinting)
+    maxConnections: 3,             // Don't hammer MX servers
+    maxMessages: 10,               // Messages per connection before reconnecting
   });
 
   // Build RFC-compliant headers — ISPs flag emails missing these
-  const messageId = `<${(leadId || 'msg')}.${Date.now()}.${Math.random().toString(36).slice(2, 8)}@${sendingDomain}>`;
+  // Message-ID format mimics standard MTA patterns (not library-specific)
+  const msgRandom = Array.from({ length: 12 }, () => Math.random().toString(36).charAt(2)).join('');
+  const messageId = `<${msgRandom}.${Date.now().toString(36)}@${sendingDomain}>`;
   const mailHeaders: Record<string, string> = {
     'Message-ID': messageId,
     'MIME-Version': '1.0',
@@ -94,7 +103,10 @@ export async function sendViaSMTP(
       text: plainText,
       headers: mailHeaders,
       date: new Date(),            // Explicit Date header
-    });
+      xMailer: false,              // CRITICAL: suppress X-Mailer header (ISPs fingerprint Nodemailer)
+      priority: 'normal',          // Explicit priority (missing = bot signal)
+      encoding: 'quoted-printable', // More natural than base64 for text emails
+    } as Record<string, unknown>);
 
     // Log successful send event
     if (leadId) {
@@ -106,30 +118,56 @@ export async function sendViaSMTP(
     const errMsg = err instanceof Error ? err.message : String(err);
     console.error(`[SMTP] Failed to send via ${account.email} to ${to}:`, errMsg);
 
-    // Detect bounce types from SMTP error codes (comprehensive detection)
-    const isBounce = /\b(550|551|552|553|554|421|450|451|452)\b/.test(errMsg)
-      || errMsg.includes('User unknown') || errMsg.includes('does not exist')
-      || errMsg.includes('invalid') || errMsg.includes('rejected')
-      || errMsg.includes('mailbox full') || errMsg.includes('over quota')
-      || errMsg.includes('deferred') || errMsg.includes('rate limit')
-      || errMsg.includes('too many') || errMsg.includes('temporarily');
+    // Enhanced bounce detection using SMTP codes + Enhanced Status Codes (RFC 3463)
+    // ISPs return enhanced codes like 5.1.1, 5.7.1 etc. with different meanings:
+    //   5.1.x = Address status (invalid user, bad syntax)
+    //   5.2.x = Mailbox status (full, disabled, moved)
+    //   5.3.x = Mail system problem (system full, not accepting mail)
+    //   5.4.x = Network routing (no route, connection timeout)
+    //   5.5.x = Protocol problem (wrong command, syntax error)
+    //   5.7.x = Security/policy rejection (auth required, blocked by ISP)
 
+    const errLower = errMsg.toLowerCase();
+
+    // Check for enhanced status codes first (more specific)
+    const enhancedCodeMatch = errMsg.match(/\b([245])\.\d+\.\d+\b/);
+    const smtpCodeMatch = errMsg.match(/\b([245]\d{2})\b/);
+    const smtpCode = smtpCodeMatch ? parseInt(smtpCodeMatch[1]) : 0;
+    const enhancedClass = enhancedCodeMatch ? parseInt(enhancedCodeMatch[1]) : 0;
+
+    // ISP policy rejection (5.7.x) = permanent suppress (ISP blocked you)
+    const isPolicyReject = /\b5\.7\.\d+\b/.test(errMsg)
+      || errLower.includes('blocked') || errLower.includes('policy')
+      || errLower.includes('blacklist') || errLower.includes('not allowed')
+      || errLower.includes('access denied') || errLower.includes('spam');
+
+    // Hard bounce: permanent address failures
     const isHardBounce = /\b(550|551|553|554)\b/.test(errMsg)
-      || errMsg.includes('User unknown') || errMsg.includes('does not exist')
-      || errMsg.includes('no such user') || errMsg.includes('mailbox not found');
+      || /\b5\.1\.[1-8]\b/.test(errMsg)           // 5.1.x = invalid address
+      || errLower.includes('user unknown') || errLower.includes('does not exist')
+      || errLower.includes('no such user') || errLower.includes('mailbox not found')
+      || errLower.includes('unknown recipient') || errLower.includes('recipient rejected')
+      || errLower.includes('invalid recipient') || errLower.includes('undeliverable')
+      || errLower.includes('no mailbox') || errLower.includes('user not found');
 
-    // Soft bounces: temporary failures that may succeed on retry
-    const isSoftBounce = !isHardBounce && (
+    // Soft bounce: temporary failures that may succeed on retry
+    const isSoftBounce = !isHardBounce && !isPolicyReject && (
       /\b(421|450|451|452|552)\b/.test(errMsg)
-      || errMsg.includes('mailbox full') || errMsg.includes('over quota')
-      || errMsg.includes('try again') || errMsg.includes('temporarily')
-      || errMsg.includes('deferred') || errMsg.includes('rate limit')
-      || errMsg.includes('too many connections') || errMsg.includes('greylisted')
+      || /\b4\.\d+\.\d+\b/.test(errMsg)           // Any 4.x.x enhanced code
+      || errLower.includes('mailbox full') || errLower.includes('over quota')
+      || errLower.includes('try again') || errLower.includes('temporarily')
+      || errLower.includes('deferred') || errLower.includes('rate limit')
+      || errLower.includes('too many connections') || errLower.includes('greylisted')
+      || errLower.includes('try later') || errLower.includes('service unavailable')
+      || errLower.includes('connection timeout') || errLower.includes('timed out')
     );
 
+    const isBounce = isHardBounce || isSoftBounce || isPolicyReject;
+
     if (isBounce && leadId) {
-      const bounceType = isHardBounce ? 'hard' : isSoftBounce ? 'soft' : 'soft';
-      await logEvent(leadId, 'bounced', campaignId, account.id, `${bounceType}: ${errMsg.slice(0, 200)}`);
+      // Policy rejections are treated as hard bounces (ISP blocked you — don't retry)
+      const bounceType = isHardBounce || isPolicyReject ? 'hard' : 'soft';
+      await logEvent(leadId, 'bounced', campaignId, account.id, `${bounceType}${isPolicyReject ? ' (policy)' : ''}: ${errMsg.slice(0, 200)}`);
 
       // Update lead bounce info
       try {

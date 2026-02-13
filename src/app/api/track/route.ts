@@ -9,22 +9,38 @@ const PIXEL = Buffer.from(
 );
 
 /**
- * GET /api/track?t=open&lid=LEAD_ID&cid=CAMPAIGN_ID
- * Open tracking — returns a 1x1 pixel and logs the open event.
+ * GET /api/track — Universal tracking endpoint.
  *
- * GET /api/track?t=click&lid=LEAD_ID&cid=CAMPAIGN_ID&url=ENCODED_URL
- * Click tracking — logs the click and redirects to the actual URL.
+ * Supports both legacy and stealth parameter formats:
+ *
+ * Legacy:  ?t=open&lid=LEAD_ID&cid=CAMPAIGN_ID
+ * Stealth: ?e=o&r=LEAD_ID&s=CAMPAIGN_ID (rotated param names)
+ *
+ * The stealth format uses rotating parameter names to avoid ISP fingerprinting.
+ * All param name sets from tracking.ts are supported here.
  */
 export async function GET(req: NextRequest) {
   const url = req.nextUrl;
-  const type = url.searchParams.get('t');
-  const leadId = url.searchParams.get('lid');
-  const campaignId = url.searchParams.get('cid');
-  const redirectUrl = url.searchParams.get('url');
+  const params = url.searchParams;
+
+  // Resolve tracking type from any param name set (legacy + 5 stealth sets)
+  const type = params.get('t') || params.get('e') || params.get('a') || params.get('k') || params.get('w') || params.get('n');
+
+  // Resolve lead ID from any param name set
+  const leadId = params.get('lid') || params.get('r') || params.get('u') || params.get('p') || params.get('x') || params.get('h');
+
+  // Resolve campaign ID from any param name set
+  const campaignId = params.get('cid') || params.get('s') || params.get('v') || params.get('q') || params.get('z') || params.get('j');
+
+  // Resolve redirect URL (legacy: 'url', stealth: 'd')
+  const redirectUrl = params.get('url') || params.get('d');
+
+  // Normalize type values (stealth uses short codes)
+  const normalizedType = type === 'o' || type === 'open' ? 'open' : type === 'c' || type === 'click' ? 'click' : type;
 
   // Validate required params
-  if (!type || !leadId) {
-    if (type === 'open') {
+  if (!normalizedType || !leadId) {
+    if (normalizedType === 'open') {
       // Still return pixel even if params are missing
       return new NextResponse(PIXEL, {
         headers: {
@@ -40,7 +56,7 @@ export async function GET(req: NextRequest) {
   const cleanLeadId = leadId.replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 50);
   const cleanCampaignId = campaignId?.replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 50) || null;
 
-  if (type === 'open') {
+  if (normalizedType === 'open') {
     // Log open event (non-blocking — don't slow down pixel response)
     logEvent(cleanLeadId, 'opened', cleanCampaignId).catch(() => {});
 
@@ -54,7 +70,7 @@ export async function GET(req: NextRequest) {
     });
   }
 
-  if (type === 'click') {
+  if (normalizedType === 'click') {
     if (!redirectUrl) {
       return NextResponse.json({ error: 'Missing redirect URL' }, { status: 400 });
     }
