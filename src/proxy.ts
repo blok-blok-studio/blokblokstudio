@@ -8,7 +8,7 @@ import type { NextRequest } from 'next/server';
  * - OWASP Security Headers Best Practices
  * - Google Lighthouse Security Audit
  */
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const response = NextResponse.next();
   const { pathname } = request.nextUrl;
 
