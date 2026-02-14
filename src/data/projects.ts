@@ -86,6 +86,7 @@ export const projectsData: Record<string, ProjectData> = {
     gallery: ['/images/projects/public-affair.png', '/images/projects/public-affair-mobile.png', null],
     nextSlug: 'nanny-and-nest',
     url: 'https://public-affair.com',
+
     mobileImage: '/images/projects/public-affair-mobile.png',
   },
   'nanny-and-nest': {
@@ -98,9 +99,23 @@ export const projectsData: Record<string, ProjectData> = {
     results: 'Membership inquiries increased 150% after launch. The warm, professional design built immediate trust with parents. The streamlined application flow reduced time-to-match and improved both client and caregiver satisfaction scores.',
     heroImage: '/images/projects/nannyandnest.png',
     gallery: ['/images/projects/nannyandnest.png', '/images/projects/nannyandnest-mobile.png', null],
-    nextSlug: 'coach-kofi',
+    nextSlug: 'kds-systems',
     url: 'https://www.nannyandnest.com',
     mobileImage: '/images/projects/nannyandnest-mobile.png',
+  },
+  'kds-systems': {
+    title: 'KDS Systems',
+    category: 'Web Design',
+    year: '2025',
+    desc: 'Modern cloud solutions platform for a managed IT and cloud computing services provider.',
+    challenge: 'KDS Systems Inc. needed a professional digital presence that communicated their expertise in cloud computing, Microsoft Office 365, storage solutions, and hosted applications. The existing site didn\'t convey the scale and reliability of their managed IT services.',
+    solution: 'We designed a sleek, modern website with a dark tech-forward aesthetic, bold green accent colors, and clear service breakdowns. The site features cloud computing, storage, and hosted application sections with visual iconography, consultation booking CTAs, and enterprise-grade trust signals.',
+    results: 'Professional brand presence that positions KDS Systems as a trusted cloud solutions partner. Streamlined consultation booking flow and clear service communication increased qualified leads significantly.',
+    heroImage: '/images/projects/kdssys.png',
+    gallery: ['/images/projects/kdssys.png', '/images/projects/kdssys-mobile.png', null],
+    nextSlug: 'coach-kofi',
+    url: 'https://kdssys.com',
+    mobileImage: '/images/projects/kdssys-mobile.png',
   },
 };
 

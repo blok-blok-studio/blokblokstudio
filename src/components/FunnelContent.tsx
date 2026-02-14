@@ -406,6 +406,7 @@ const projectShowcase = [
   { label: 'The New School', stat: '10x', metric: 'Engagement', image: '/images/projects/military-newschool.png', url: 'military.newschool.edu' },
   { label: 'Public Affair', stat: '95%+', metric: 'Completion Rate', image: '/images/projects/public-affair.png', url: 'public-affair.com' },
   { label: 'Nanny & Nest', stat: '+150%', metric: 'Inquiries', image: '/images/projects/nannyandnest.png', url: 'nannyandnest.com' },
+  { label: 'KDS Systems', stat: '+180%', metric: 'Qualified Leads', image: '/images/projects/kdssys.png', url: 'kdssys.com' },
 ];
 
 const included = [
