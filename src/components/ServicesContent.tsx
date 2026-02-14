@@ -53,6 +53,7 @@
 
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
 import { motion } from 'framer-motion';
@@ -99,7 +100,38 @@ const serviceIcons = [
  * Main export. Renders the full /services page layout.
  * ---------------------------------------------------------------------------
  */
-export function ServicesContent() {
+function FAQAccordionItem({ question, answer }: { question: string; answer: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className={`border border-white/5 rounded-2xl overflow-hidden transition-colors ${open ? 'bg-white/[0.03]' : 'bg-transparent hover:bg-white/[0.02]'}`}>
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between p-5 sm:p-6 text-left gap-4"
+      >
+        <span className="text-sm sm:text-base font-medium">{question}</span>
+        <motion.div
+          animate={{ rotate: open ? 180 : 0 }}
+          transition={{ duration: 0.2 }}
+          className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center flex-shrink-0"
+        >
+          <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </motion.div>
+      </button>
+      <motion.div
+        initial={false}
+        animate={{ height: open ? 'auto' : 0, opacity: open ? 1 : 0 }}
+        transition={{ duration: 0.3 }}
+        className="overflow-hidden"
+      >
+        <p className="px-5 sm:px-6 pb-5 sm:pb-6 text-sm sm:text-base text-gray-400 leading-relaxed">{answer}</p>
+      </motion.div>
+    </div>
+  );
+}
+
+export function ServicesContent({ faqs }: { faqs?: { question: string; answer: string }[] }) {
   /**
    * Translation hook — pulls all keys from the "services" namespace.
    * To change any displayed text, edit your translation JSON files
@@ -277,7 +309,31 @@ export function ServicesContent() {
         </div>
 
         {/* ================================================================
-            SECTION 5: Call-to-Action Button
+            SECTION 5: Frequently Asked Questions
+            ================================================================ */}
+        {faqs && faqs.length > 0 && (
+          <>
+            <AnimatedSection className="text-center mb-10 sm:mb-16">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto">
+                Everything you need to know about working with us
+              </p>
+            </AnimatedSection>
+
+            <div className="max-w-3xl mx-auto mb-16 sm:mb-24 lg:mb-32 space-y-3">
+              {faqs.map((faq, i) => (
+                <AnimatedSection key={i} delay={i * 0.05}>
+                  <FAQAccordionItem question={faq.question} answer={faq.answer} />
+                </AnimatedSection>
+              ))}
+            </div>
+          </>
+        )}
+
+        {/* ================================================================
+            SECTION 6: Call-to-Action Button
             ================================================================
             Links to the /contact page. Wrapped in MagneticButton for a
             playful magnetic hover effect.

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { ProjectsContent } from '@/components/ProjectsContent';
+import { BreadcrumbSchema } from '@/app/structured-data';
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('projects');
@@ -8,12 +9,22 @@ export async function generateMetadata(): Promise<Metadata> {
     title: t('title'),
     description: t('subtitle'),
     alternates: { canonical: '/projects' },
+    openGraph: {
+      title: `${t('title')} | Blok Blok Studio`,
+      description: t('subtitle'),
+      url: 'https://blokblokstudio.com/projects',
+      type: 'website',
+    },
   };
 }
 
 export default function ProjectsPage() {
   return (
     <div className="page-transition">
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: '/' },
+        { name: 'Projects', url: '/projects' },
+      ]} />
       <ProjectsContent />
     </div>
   );

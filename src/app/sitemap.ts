@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { getAllProjectSlugs } from '@/data/projects';
+import { getAllBlogSlugs } from '@/data/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://blokblokstudio.com';
@@ -11,12 +12,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services',
     '/team',
     '/contact',
+    '/blog',
     '/book',
   ];
 
   const legalRoutes = ['/privacy', '/terms', '/cookies', '/data-rights'];
 
   const projectSlugs = getAllProjectSlugs();
+  const blogSlugs = getAllBlogSlugs();
 
   const entries: MetadataRoute.Sitemap = [
     // Main pages
@@ -24,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}${route}`,
       lastModified: new Date(),
       changeFrequency: route === '' ? ('weekly' as const) : ('monthly' as const),
-      priority: route === '' ? 1 : 0.8,
+      priority: route === '' ? 1 : route === '/blog' ? 0.9 : 0.8,
     })),
     // Legal pages
     ...legalRoutes.map((route) => ({
@@ -39,6 +42,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.6,
+    })),
+    // Blog posts
+    ...blogSlugs.map((slug) => ({
+      url: `${baseUrl}/blog/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
     })),
   ];
 
