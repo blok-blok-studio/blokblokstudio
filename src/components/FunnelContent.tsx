@@ -1,8 +1,8 @@
 'use client';
 
-import { motion, useInView } from 'framer-motion';
+import { motion, useInView, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 
 /* ── Animation helpers ── */
 const fadeUp = {
@@ -731,12 +731,149 @@ function FAQItem({ q, a }: { q: string; a: string }) {
   );
 }
 
+/* ── Exit-Intent Popup ── */
+function ExitIntentPopup() {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    const dismissed = sessionStorage.getItem('exit-popup-dismissed');
+    if (dismissed) return;
+
+    let timer: NodeJS.Timeout;
+    const handleMouseLeave = (e: MouseEvent) => {
+      if (e.clientY <= 5) {
+        timer = setTimeout(() => setShow(true), 100);
+      }
+    };
+    document.addEventListener('mouseleave', handleMouseLeave);
+    return () => {
+      document.removeEventListener('mouseleave', handleMouseLeave);
+      clearTimeout(timer);
+    };
+  }, []);
+
+  const dismiss = useCallback(() => {
+    setShow(false);
+    sessionStorage.setItem('exit-popup-dismissed', 'true');
+  }, []);
+
+  return (
+    <AnimatePresence>
+      {show && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className="fixed inset-0 z-[60] flex items-center justify-center p-4"
+          onClick={dismiss}
+        >
+          <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+          <motion.div
+            initial={{ scale: 0.9, y: 20 }}
+            animate={{ scale: 1, y: 0 }}
+            exit={{ scale: 0.9, y: 20 }}
+            onClick={(e) => e.stopPropagation()}
+            className="relative max-w-md w-full bg-gradient-to-br from-gray-900 to-black border border-orange-500/20 rounded-3xl p-8 sm:p-10 text-center"
+          >
+            <button
+              onClick={dismiss}
+              className="absolute top-4 right-4 w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-white transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+            <div className="w-16 h-16 rounded-full bg-orange-500/10 flex items-center justify-center mx-auto mb-6">
+              <svg className="w-8 h-8 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            </div>
+            <h3 className="text-2xl font-bold mb-3">Wait — Don&apos;t Leave Empty-Handed</h3>
+            <p className="text-gray-400 text-sm mb-6 leading-relaxed">
+              Get a free audit of your website. We&apos;ll show you exactly what&apos;s holding you back — no strings attached.
+            </p>
+            <button
+              onClick={() => {
+                dismiss();
+                document.getElementById('audit-form')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="w-full py-3.5 rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white text-sm font-semibold hover:from-orange-600 hover:to-red-600 transition-all"
+            >
+              Get My Free Audit
+            </button>
+            <p className="text-xs text-gray-600 mt-4">Takes 60 seconds. No spam, ever.</p>
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+}
+
+/* ── Social Proof Notification ── */
+function SocialProofToast() {
+  const [visible, setVisible] = useState(false);
+  const [current, setCurrent] = useState(0);
+
+  const notifications = [
+    { name: 'Sarah', location: 'London', action: 'booked a discovery call', time: '2 hours ago' },
+    { name: 'Marcus', location: 'New York', action: 'signed up for an audit', time: '4 hours ago' },
+    { name: 'Yuki', location: 'Tokyo', action: 'started a project', time: '6 hours ago' },
+    { name: 'Elena', location: 'Berlin', action: 'booked a discovery call', time: '8 hours ago' },
+    { name: 'James', location: 'Sydney', action: 'requested a proposal', time: '12 hours ago' },
+  ];
+
+  useEffect(() => {
+    const showTimer = setTimeout(() => {
+      setVisible(true);
+      const interval = setInterval(() => {
+        setVisible(false);
+        setTimeout(() => {
+          setCurrent((c) => (c + 1) % notifications.length);
+          setVisible(true);
+        }, 500);
+      }, 6000);
+      const hideAfter = setTimeout(() => {
+        clearInterval(interval);
+        setVisible(false);
+      }, 30000);
+      return () => { clearInterval(interval); clearTimeout(hideAfter); };
+    }, 8000);
+    return () => clearTimeout(showTimer);
+  }, []);
+
+  const n = notifications[current];
+
+  return (
+    <AnimatePresence>
+      {visible && (
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: -100, opacity: 0 }}
+          transition={{ duration: 0.3 }}
+          className="fixed bottom-6 left-6 z-50 max-w-xs"
+        >
+          <div className="bg-black/90 backdrop-blur-lg border border-white/10 rounded-2xl p-4 flex items-center gap-3 shadow-2xl">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500/20 to-red-500/20 flex items-center justify-center flex-shrink-0">
+              <span className="text-sm font-semibold text-orange-400">{n.name[0]}</span>
+            </div>
+            <div>
+              <p className="text-sm text-white">
+                <strong>{n.name}</strong> from {n.location}
+              </p>
+              <p className="text-xs text-gray-500">{n.action} &middot; {n.time}</p>
+            </div>
+          </div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+}
+
 /* ================================================================
  * MAIN FUNNEL — Highly visual sales page for /book
  * ================================================================ */
 export function FunnelContent() {
   return (
     <div className="page-transition overflow-hidden">
+      <ExitIntentPopup />
+      <SocialProofToast />
 
       {/* ================================================================
        * 1. BANNER — Urgency / announcement bar
@@ -1589,7 +1726,75 @@ export function FunnelContent() {
       </Section>
 
       {/* ================================================================
-       * 17. FAQ & OBJECTION HANDLING
+       * 17. COMPARISON TABLE — DIY vs Freelancer vs Blok Blok
+       * ================================================================ */}
+      <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent" />
+        <div className="max-w-4xl mx-auto relative z-10">
+          <Section>
+            <div className="text-center mb-14 sm:mb-20">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
+                Compare
+              </div>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+                Why Choose Us?
+              </h2>
+              <p className="text-gray-400 mt-4 max-w-lg mx-auto">See how we stack up against the alternatives.</p>
+            </div>
+          </Section>
+
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-white/10">
+                  <th className="text-left py-4 pr-4 text-gray-500 font-normal w-1/4" />
+                  <th className="py-4 px-4 text-center text-gray-400 font-medium">DIY / Templates</th>
+                  <th className="py-4 px-4 text-center text-gray-400 font-medium">Freelancer</th>
+                  <th className="py-4 px-4 text-center font-semibold">
+                    <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Blok Blok Studio</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { feature: 'Custom Design', diy: false, freelancer: true, us: true },
+                  { feature: 'SEO Optimization', diy: false, freelancer: false, us: true },
+                  { feature: 'Mobile-First', diy: false, freelancer: true, us: true },
+                  { feature: 'Conversion Strategy', diy: false, freelancer: false, us: true },
+                  { feature: 'Ongoing Support', diy: false, freelancer: false, us: true },
+                  { feature: 'Brand Strategy', diy: false, freelancer: false, us: true },
+                  { feature: 'Fast Turnaround', diy: true, freelancer: false, us: true },
+                  { feature: 'Scalable Code', diy: false, freelancer: false, us: true },
+                ].map((row, i) => (
+                  <tr key={i} className="border-b border-white/5">
+                    <td className="py-3.5 pr-4 text-gray-300 font-medium">{row.feature}</td>
+                    <td className="py-3.5 px-4 text-center">
+                      {row.diy ? (
+                        <span className="text-yellow-500">~</span>
+                      ) : (
+                        <svg className="w-5 h-5 text-gray-700 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+                      )}
+                    </td>
+                    <td className="py-3.5 px-4 text-center">
+                      {row.freelancer ? (
+                        <svg className="w-5 h-5 text-yellow-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                      ) : (
+                        <svg className="w-5 h-5 text-gray-700 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+                      )}
+                    </td>
+                    <td className="py-3.5 px-4 text-center">
+                      <svg className="w-5 h-5 text-green-400 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
+       * 18. FAQ & OBJECTION HANDLING
        * ================================================================ */}
       <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.01] to-transparent" />
