@@ -13,7 +13,7 @@ import { AnimatedSection } from './AnimatedSection';
  * set USE_REAL_IMAGE to true and it will render the image instead of CSS frames.
  */
 
-const USE_REAL_IMAGE = false;
+const USE_REAL_IMAGE = true;
 const REAL_IMAGE_PATH = '/images/hero-devices.png';
 
 export function DeviceMockup() {
