@@ -93,7 +93,27 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  // verification: { google: 'ADD_YOUR_GOOGLE_VERIFICATION_CODE' },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || '',
+  },
+  alternates: {
+    canonical: 'https://blokblokstudio.com',
+    languages: {
+      'en': 'https://blokblokstudio.com',
+      'es': 'https://blokblokstudio.com',
+      'fr': 'https://blokblokstudio.com',
+      'de': 'https://blokblokstudio.com',
+      'pt': 'https://blokblokstudio.com',
+      'ja': 'https://blokblokstudio.com',
+      'ko': 'https://blokblokstudio.com',
+      'zh': 'https://blokblokstudio.com',
+      'ar': 'https://blokblokstudio.com',
+      'it': 'https://blokblokstudio.com',
+      'nl': 'https://blokblokstudio.com',
+      'ru': 'https://blokblokstudio.com',
+      'x-default': 'https://blokblokstudio.com',
+    },
+  },
 };
 
 /**

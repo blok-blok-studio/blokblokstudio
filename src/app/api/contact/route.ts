@@ -1,15 +1,37 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
+import { rateLimit } from '@/lib/rate-limit';
+
+// SOC 2 compliant rate limiting: 5 submissions per IP per 15 minutes
+const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
 
 /**
  * POST /api/contact — Handle contact form submissions.
  * Creates a new lead from the contact form and sends a Telegram notification.
+ * Rate limited to prevent spam and abuse (SOC 2 requirement).
  */
 export async function POST(req: NextRequest) {
   try {
-    const { name, email, company, message, consent } = await req.json();
+    // Rate limit by IP address
     const forwarded = req.headers.get('x-forwarded-for');
-    const consentIp = forwarded ? forwarded.split(',')[0].trim() : 'unknown';
+    const ip = forwarded ? forwarded.split(',')[0].trim() : 'unknown';
+    const { success, remaining, resetAt } = limiter.check(ip);
+
+    if (!success) {
+      return NextResponse.json(
+        { error: 'Too many requests. Please try again later.' },
+        {
+          status: 429,
+          headers: {
+            'Retry-After': String(Math.ceil((resetAt - Date.now()) / 1000)),
+            'X-RateLimit-Remaining': '0',
+          },
+        }
+      );
+    }
+
+    const { name, email, company, message, consent } = await req.json();
+    const consentIp = ip;
 
     if (!name || !email || !message) {
       return NextResponse.json({ error: 'Name, email, and message are required' }, { status: 400 });
@@ -62,7 +84,14 @@ export async function POST(req: NextRequest) {
       } catch { /* non-critical */ }
     }
 
-    return NextResponse.json({ success: true });
+    return NextResponse.json(
+      { success: true },
+      {
+        headers: {
+          'X-RateLimit-Remaining': String(remaining),
+        },
+      }
+    );
   } catch (err) {
     const errMsg = err instanceof Error ? err.message : String(err);
     return NextResponse.json({ error: `Submission failed: ${errMsg.slice(0, 200)}` }, { status: 500 });

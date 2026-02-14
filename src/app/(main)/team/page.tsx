@@ -8,6 +8,27 @@ export async function generateMetadata(): Promise<Metadata> {
     title: t('title'),
     description: t('subtitle'),
     alternates: { canonical: '/team' },
+    openGraph: {
+      title: `${t('title')} | Blok Blok Studio`,
+      description: t('subtitle'),
+      url: 'https://blokblokstudio.com/team',
+      siteName: 'Blok Blok Studio',
+      type: 'website',
+      images: [
+        {
+          url: '/og-image.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Blok Blok Studio Team',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${t('title')} | Blok Blok Studio`,
+      description: t('subtitle'),
+      images: ['/og-image.jpg'],
+    },
   };
 }
 

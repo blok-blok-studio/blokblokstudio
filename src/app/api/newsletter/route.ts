@@ -1,12 +1,29 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
+import { rateLimit } from '@/lib/rate-limit';
+
+// SOC 2 compliant rate limiting: 3 signups per IP per 15 minutes
+const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 3 });
 
 /**
  * POST /api/newsletter — Handle newsletter signup.
  * Creates a lead with source "newsletter" for email collection.
+ * Rate limited to prevent spam and abuse (SOC 2 requirement).
  */
 export async function POST(req: NextRequest) {
   try {
+    // Rate limit by IP address
+    const forwarded = req.headers.get('x-forwarded-for');
+    const ip = forwarded ? forwarded.split(',')[0].trim() : 'unknown';
+    const { success } = limiter.check(ip);
+
+    if (!success) {
+      return NextResponse.json(
+        { error: 'Too many requests. Please try again later.' },
+        { status: 429 }
+      );
+    }
+
     const { email } = await req.json();
 
     if (!email || typeof email !== 'string') {
