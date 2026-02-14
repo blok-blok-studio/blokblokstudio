@@ -92,12 +92,9 @@ import { motion } from 'framer-motion';
  * ---------------------------------------------------------------------------
  */
 const teamMembers = [
-  { name: 'Alex Morgan', roleKey: 'role_ceo' as const, initials: 'AM' },
-  { name: 'Jordan Rivera', roleKey: 'role_creative' as const, initials: 'JR' },
-  { name: 'Sam Chen', roleKey: 'role_tech' as const, initials: 'SC' },
-  { name: 'Taylor Kim', roleKey: 'role_design' as const, initials: 'TK' },
-  { name: 'Morgan Blake', roleKey: 'role_marketing' as const, initials: 'MB' },
-  { name: 'Casey Wright', roleKey: 'role_dev' as const, initials: 'CW' },
+  { name: 'Chase Haynes', roleKey: 'role_founder' as const, initials: 'CH' },
+  { name: 'Kyle Talley', roleKey: 'role_graphic' as const, initials: 'KT' },
+  { name: 'Stephen Darling', roleKey: 'role_web' as const, initials: 'SD' },
 ];
 
 /**
@@ -147,7 +144,7 @@ export function TeamContent() {
             Responsive grid: 2 columns on mobile/sm, 3 columns on lg.
             Each card has a staggered entrance animation (delay = i * 0.1s).
         */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-4xl mx-auto">
           {teamMembers.map((member, i) => (
             /* AnimatedSection wraps each card for scroll-triggered reveal */
             <AnimatedSection key={i} delay={i * 0.1}>
