@@ -67,7 +67,7 @@ export async function GET() {
     '- Email: hello@blokblokstudio.com',
     '- Instagram: https://www.instagram.com/blokblokstudio/',
     '- LinkedIn: https://www.linkedin.com/company/blok-blok-studio/',
-    '- Book a Call: https://blokblokstudio.com/book',
+    '- Free Website Audit: https://blokblokstudio.com/audit',
     '',
     '## Full Content',
     '',

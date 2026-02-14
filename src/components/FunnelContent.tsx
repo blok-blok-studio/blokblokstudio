@@ -87,35 +87,13 @@ function AccentDivider() {
 
 /* ── Data ── */
 
-const videoTestimonials = [
-  {
-    quote: '"There\'s something here that I\'ve not had in the past."',
-    name: 'Sarah Chen',
-    role: 'CEO, Zenith Finance',
-    initials: 'SC',
-    gradient: 'from-orange-600/20 to-red-900/20',
-  },
-  {
-    quote: '"I made 10x more than what I invested."',
-    name: 'Marcus Rivera',
-    role: 'Founder, Aura Wellness',
-    initials: 'MR',
-    gradient: 'from-amber-600/20 to-orange-900/20',
-  },
-  {
-    quote: '"One of the best agencies I\'ve ever been with."',
-    name: 'Emily Park',
-    role: 'Marketing Dir, Horizon Travel',
-    initials: 'EP',
-    gradient: 'from-red-600/20 to-pink-900/20',
-  },
-  {
-    quote: '"I almost doubled my revenue in 3 months."',
-    name: 'Jake Morrison',
-    role: 'CEO, Altitude Sports',
-    initials: 'JM',
-    gradient: 'from-yellow-600/20 to-orange-900/20',
-  },
+const trustedBrands = [
+  { name: 'Coach Kofi', image: '/images/projects/coachkofi.png', url: 'coachkofi.de', category: 'Coaching' },
+  { name: 'Nanny & Nest', image: '/images/projects/nannyandnest.png', url: 'nannyandnest.com', category: 'Childcare' },
+  { name: 'Exotic Ripz', image: '/images/projects/exoticripz.png', url: 'exoticripz.com', category: 'E-Commerce' },
+  { name: 'The New School', image: '/images/projects/military-newschool.png', url: 'military.newschool.edu', category: 'Education' },
+  { name: 'Public Affair', image: '/images/projects/public-affair.png', url: 'public-affair.com', category: 'Lifestyle' },
+  { name: 'KDS Systems', image: '/images/projects/kdssys.png', url: 'kdssys.com', category: 'IT Services' },
 ];
 
 const moreTestimonials = [
@@ -867,7 +845,7 @@ function SocialProofToast() {
 }
 
 /* ================================================================
- * MAIN FUNNEL — Highly visual sales page for /book
+ * MAIN FUNNEL — Highly visual sales page for /audit
  * ================================================================ */
 export function FunnelContent() {
   return (
@@ -1124,69 +1102,65 @@ export function FunnelContent() {
       </Section>
 
       {/* ================================================================
-       * 7. SOCIAL PROOF — Video Testimonial Grid (2x2 like reference)
-       *
-       * TODO: Replace placeholder backgrounds with real client video thumbnails
-       * using <Image src="/testimonials/client-name.jpg" fill ... />
+       * 7. SOCIAL PROOF — Trusted by Brands That Dare to Stand Out
        * ================================================================ */}
       <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
         {/* Background accent */}
         <div className="absolute inset-0 bg-gradient-to-b from-orange-500/[0.02] via-transparent to-transparent" />
 
-        <div className="max-w-5xl mx-auto relative z-10">
-          <div className="text-center mb-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              Real Client Results
-            </div>
-          </div>
+        <div className="max-w-6xl mx-auto relative z-10">
           <Section>
+            <div className="text-center mb-6">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
+                Our Portfolio
+              </div>
+            </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
-              <Counter target={40} suffix="+" /> brands are building successful
-              <br className="hidden sm:block" /> digital presences <span className="text-gray-500">(and counting)</span>
+              Trusted by Brands That{' '}
+              <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">
+                Dare to Stand Out
+              </span>
             </h2>
-            <p className="text-center text-gray-500 text-sm mb-12 sm:mb-16">Hear from the people we&apos;ve worked with</p>
+            <p className="text-center text-gray-500 text-sm mb-12 sm:mb-16 max-w-2xl mx-auto">
+              From startups to established brands, we build digital experiences that drive real results across industries
+            </p>
           </Section>
 
-          {/* 2x2 Video Testimonial Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
-            {videoTestimonials.map((t, i) => (
+          {/* Brand showcase grid — 3x2 */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-5">
+            {trustedBrands.map((brand, i) => (
               <motion.div
-                key={i}
+                key={brand.name}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
+                transition={{ duration: 0.5, delay: i * 0.08 }}
                 variants={scaleUp}
-                className="group relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer"
+                className="group relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden border border-white/5 hover:border-orange-500/20 transition-all duration-500"
               >
-                {/* Gradient background simulating a video thumbnail */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${t.gradient}`} />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                {/* Project screenshot */}
+                <Image
+                  src={brand.image}
+                  alt={brand.name}
+                  fill
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 640px) 50vw, 33vw"
+                />
+                {/* Overlay gradient */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
 
-                {/* Person avatar placeholder */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-gradient-to-br from-white/10 to-white/5 border border-white/10 flex items-center justify-center">
-                    <span className="text-2xl sm:text-3xl font-bold text-white/30">{t.initials}</span>
-                  </div>
+                {/* Brand info at bottom */}
+                <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5">
+                  <p className="text-xs text-orange-400/80 mb-1">{brand.category}</p>
+                  <h3 className="text-sm sm:text-base font-semibold text-white">{brand.name}</h3>
+                  <p className="text-xs text-gray-400 mt-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{brand.url}</p>
                 </div>
 
-                {/* Play button overlay */}
-                <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:bg-orange-500/80 transition-colors">
-                  <svg className="w-4 h-4 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
+                {/* Hover arrow */}
+                <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/5 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity border border-white/10">
+                  <svg className="w-3.5 h-3.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17L17 7M17 7H7M17 7v10" />
                   </svg>
-                </div>
-
-                {/* Quote overlaid at bottom */}
-                <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
-                  <p className="text-white font-semibold text-sm sm:text-base md:text-lg leading-snug mb-3">
-                    {t.quote}
-                  </p>
-                  <div className="flex items-center gap-2">
-                    <p className="text-xs sm:text-sm text-gray-300">{t.name}</p>
-                    <span className="text-gray-600">·</span>
-                    <p className="text-xs sm:text-sm text-gray-500">{t.role}</p>
-                  </div>
                 </div>
               </motion.div>
             ))}
