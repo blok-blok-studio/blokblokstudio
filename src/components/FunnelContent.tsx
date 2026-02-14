@@ -98,7 +98,7 @@ const trustedBrands = [
 
 const moreTestimonials = [
   {
-    quote: 'They completely changed how our customers experience our brand online. The ROI has been unreal — we saw a 5x return in the first quarter alone.',
+    quote: 'They completely changed how our customers experience our brand online. The ROI has been unreal. We saw a 5x return in the first quarter alone.',
     name: 'David Kim',
     role: 'CTO, NovaPay',
     initials: 'DK',
@@ -428,22 +428,29 @@ const faqs = [
 ];
 
 /* ── CTA Button ── */
+function scrollToAudit() {
+  const el = document.getElementById('audit');
+  if (!el) return;
+  const top = el.getBoundingClientRect().top + window.scrollY + 160;
+  window.scrollTo({ top, behavior: 'smooth' });
+}
+
 function CTAButton({ text = 'Get Your Free Audit', className = '', variant = 'primary' }: { text?: string; className?: string; variant?: 'primary' | 'secondary' }) {
   const base = variant === 'primary'
     ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white hover:from-orange-400 hover:to-red-400 shadow-lg shadow-orange-500/20'
     : 'bg-white/10 text-white hover:bg-white/20 border border-white/10';
   return (
-    <motion.a
-      href="#audit"
+    <motion.button
+      onClick={scrollToAudit}
       whileHover={{ scale: 1.03 }}
       whileTap={{ scale: 0.98 }}
-      className={`inline-flex items-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-full font-semibold text-sm sm:text-base transition-all ${base} ${className}`}
+      className={`inline-flex items-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-full font-semibold text-sm sm:text-base transition-all cursor-pointer ${base} ${className}`}
     >
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
       {text}
-    </motion.a>
+    </motion.button>
   );
 }
 
@@ -608,7 +615,7 @@ function AuditForm() {
             checked={formData.noWebsite}
             onChange={(e) => setFormData({ ...formData, noWebsite: e.target.checked, website: '' })}
           />
-          <span className="text-sm text-gray-400">I don&apos;t have a website yet — <span className="text-orange-400">we&apos;ll take care of that for you</span></span>
+          <span className="text-sm text-gray-400">I don&apos;t have a website yet, <span className="text-orange-400">we&apos;ll take care of that for you</span></span>
         </label>
       </div>
 
@@ -787,20 +794,20 @@ function ExitIntentPopup() {
             <div className="w-16 h-16 rounded-full bg-orange-500/10 flex items-center justify-center mx-auto mb-6">
               <svg className="w-8 h-8 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
             </div>
-            <h3 className="text-2xl font-bold mb-3">Wait — Don&apos;t Leave Empty-Handed</h3>
+            <h3 className="text-2xl font-bold mb-3">Hold On, Don&apos;t Leave Empty-Handed</h3>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-              Get a free audit of your website. We&apos;ll show you exactly what&apos;s holding you back — no strings attached.
+              Get a free audit of your website. We&apos;ll show you exactly what&apos;s holding you back, no strings attached.
             </p>
             <button
               onClick={() => {
                 dismiss();
-                document.getElementById('audit')?.scrollIntoView({ behavior: 'smooth' });
+                scrollToAudit();
               }}
               className="w-full py-3.5 rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white text-sm font-semibold hover:from-orange-600 hover:to-red-600 transition-all"
             >
               Get My Free Audit
             </button>
-            <p className="text-xs text-gray-600 mt-4">Takes 60 seconds. No spam, ever.</p>
+            <p className="text-xs text-gray-600 mt-4">Takes 60 seconds.</p>
           </motion.div>
         </motion.div>
       )}
@@ -936,7 +943,7 @@ export function FunnelContent() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-2 text-xs sm:text-sm">
           <span className="inline-block w-2 h-2 rounded-full bg-orange-400 animate-pulse" />
           <span className="text-gray-300">
-            Limited Availability — Only accepting <strong className="text-orange-400">3 new clients</strong> this month
+            Limited Availability: Only accepting <strong className="text-orange-400">3 new clients</strong> this month
           </span>
         </div>
       </div>
@@ -1033,7 +1040,7 @@ export function FunnelContent() {
             className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10"
           >
             Stop losing customers to a mediocre online presence. We design and develop
-            high-converting websites, brands, and apps — so you can focus on running your business.
+            high-converting websites, brands, and apps so you can focus on running your business.
           </motion.p>
 
           <motion.div
@@ -1120,8 +1127,8 @@ export function FunnelContent() {
                   a chance to make an impression.
                 </p>
                 <p>
-                  We&apos;ve seen businesses struggle with agencies that overpromise and underdeliver —
-                  missed deadlines, bloated costs, and websites that look the same as everyone else&apos;s.
+                  We&apos;ve seen businesses struggle with agencies that overpromise and underdeliver.
+                  Missed deadlines, bloated costs, and websites that look the same as everyone else&apos;s.
                 </p>
                 <p className="text-white font-medium">
                   That&apos;s why we built Blok Blok Studio. We believe every brand deserves a digital
@@ -1222,7 +1229,7 @@ export function FunnelContent() {
           </div>
 
           <div className="text-center mt-10">
-            <CTAButton text="Join These Brands — Get Your Free Audit" />
+            <CTAButton text="Join These Brands, Get Your Free Audit" />
           </div>
         </div>
       </section>
@@ -1343,7 +1350,7 @@ export function FunnelContent() {
                 <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Launch Day</span>
               </h2>
               <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mt-6">
-                A simple, transparent 5-step process designed to get you results — fast.
+                A simple, transparent 5-step process designed to get you results fast.
               </p>
             </div>
           </Section>
@@ -1434,7 +1441,7 @@ export function FunnelContent() {
           </div>
 
           <div className="text-center mt-16">
-            <CTAButton text="Start With Step 1 — Get Your Free Audit" />
+            <CTAButton text="Start With Step 1, Get Your Free Audit" />
           </div>
         </div>
       </section>
@@ -1453,7 +1460,7 @@ export function FunnelContent() {
               End-to-End Digital Solutions
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mt-6">
-              Everything you need under one roof — from brand strategy to final deployment.
+              Everything you need under one roof, from brand strategy to final deployment.
             </p>
           </div>
 
@@ -1559,7 +1566,7 @@ export function FunnelContent() {
           </motion.div>
 
           <div className="text-center mt-12">
-            <CTAButton text="Get All This — Claim Your Free Audit" />
+            <CTAButton text="Get All This, Claim Your Free Audit" />
           </div>
         </div>
       </section>
@@ -1568,7 +1575,7 @@ export function FunnelContent() {
        * 14. FREE AUDIT — Lead capture form
        * Connected to /api/audit → Prisma DB + Email + Telegram notifications
        * ================================================================ */}
-      <section id="audit" className="scroll-mt-32 pt-10 sm:pt-12 lg:pt-14 pb-20 sm:pb-28 lg:pb-36 px-5 sm:px-6 relative overflow-hidden">
+      <section id="audit" className="pt-10 sm:pt-12 lg:pt-14 pb-20 sm:pb-28 lg:pb-36 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-orange-500/[0.03] via-red-500/[0.015] to-transparent" />
         <motion.div
           className="absolute top-1/4 right-0 w-[500px] h-[500px] rounded-full bg-orange-500/[0.03] blur-[120px]"
@@ -1580,14 +1587,14 @@ export function FunnelContent() {
           <Section>
             <div className="text-center mb-8 sm:mb-10">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                100% Free — No Strings Attached
+                100% Free, No Strings Attached
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
                 Get Your Free{' '}
                 <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Website Audit</span>
               </h2>
               <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-                Tell us about your business and we&apos;ll send you a personalized audit with actionable insights — within 24 hours.
+                Tell us about your business and we&apos;ll send you a personalized audit with actionable insights within 24 hours.
               </p>
             </div>
           </Section>
@@ -1872,7 +1879,7 @@ export function FunnelContent() {
                   Your Brand Deserves Better
                 </h2>
                 <p className="text-gray-400 text-base sm:text-lg max-w-lg mx-auto mb-10">
-                  Get a free, personalized audit of your digital presence. No commitment — just actionable insights you can use right away.
+                  Get a free, personalized audit of your digital presence. No commitment, just actionable insights you can use right away.
                 </p>
 
                 <CTAButton text="Get Your Free Audit Now" />

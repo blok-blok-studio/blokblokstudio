@@ -14,7 +14,7 @@ export async function GET() {
 
   // ── Header ──
   sections.push(
-    '# Blok Blok Studio — Full Site Content',
+    '# Blok Blok Studio: Full Site Content',
     '',
     '> Blok Blok Studio is a digital agency based in Berlin, Germany specializing in web design, branding, SEO, and digital strategy for businesses worldwide.',
     '',
@@ -39,10 +39,10 @@ export async function GET() {
     '',
     '## Our Values',
     '',
-    '- **Innovation** — We push boundaries and explore new possibilities in every project.',
-    '- **Excellence** — We hold ourselves to the highest standards of quality and craftsmanship.',
-    '- **Collaboration** — We believe the best work comes from strong partnerships with our clients.',
-    '- **Integrity** — We operate with transparency, honesty, and respect in everything we do.',
+    '- **Innovation**: We push boundaries and explore new possibilities in every project.',
+    '- **Excellence**: We hold ourselves to the highest standards of quality and craftsmanship.',
+    '- **Collaboration**: We believe the best work comes from strong partnerships with our clients.',
+    '- **Integrity**: We operate with transparency, honesty, and respect in everything we do.',
     '',
     '## By the Numbers',
     '',
@@ -59,7 +59,7 @@ export async function GET() {
   sections.push(
     '# Our Team',
     '',
-    '## Chase Haynes — Founder',
+    '## Chase Haynes, Founder',
     '',
     '- Based in: Berlin, Germany',
     '- Studied: Design and Technology at Parsons School of Design',
@@ -67,7 +67,7 @@ export async function GET() {
     '- LinkedIn: https://www.linkedin.com/in/chase-haynes/',
     '- Instagram: https://www.instagram.com/haynes2va/',
     '',
-    '## Kyle Talley — Senior Graphic Designer',
+    '## Kyle Talley, Senior Graphic Designer',
     '',
     '- Based in: Richmond, Virginia, USA',
     '- Studied: Creative Advertising at Virginia Commonwealth University',
@@ -75,7 +75,7 @@ export async function GET() {
     '- LinkedIn: https://www.linkedin.com/in/kylebtalley/',
     '- Instagram: https://www.instagram.com/ta11ey_/',
     '',
-    '## Stephen Darling — Senior Web Designer',
+    '## Stephen Darling, Senior Web Designer',
     '',
     '- Based in: Arlington, Virginia, USA',
     '- Studied: Interactive Design and Computer Science at James Madison University',
@@ -112,18 +112,18 @@ export async function GET() {
     '',
     '## Our Process',
     '',
-    '1. **Discovery** (15-min call) — We dive deep into your goals, audience, and market to build a solid foundation.',
-    '2. **Strategy** (2–3 days) — We craft a tailored roadmap that aligns creative vision with business objectives.',
-    '3. **Design** (1–2 weeks) — We create compelling visuals and intuitive interfaces that captivate users.',
-    '4. **Development** (2–4 weeks) — We build with modern technologies ensuring speed, scalability, and reliability.',
-    '5. **Launch & Optimize** (Ongoing) — We deploy, monitor, and continuously refine to maximize performance.',
+    '1. **Discovery** (15-min call): We dive deep into your goals, audience, and market to build a solid foundation.',
+    '2. **Strategy** (2–3 days): We craft a tailored roadmap that aligns creative vision with business objectives.',
+    '3. **Design** (1–2 weeks): We create compelling visuals and intuitive interfaces that captivate users.',
+    '4. **Development** (2–4 weeks): We build with modern technologies ensuring speed, scalability, and reliability.',
+    '5. **Launch & Optimize** (Ongoing): We deploy, monitor, and continuously refine to maximize performance.',
     '',
     '---',
     ''
   );
 
   // ── Portfolio / Projects ──
-  sections.push('# Portfolio — Case Studies', '');
+  sections.push('# Portfolio: Case Studies', '');
 
   for (const [slug, project] of projectEntries) {
     sections.push(
@@ -153,12 +153,12 @@ export async function GET() {
     '',
     '## What You Get',
     '',
-    '- **Custom Design** — No templates. Every project is designed from scratch for your specific brand and goals.',
-    '- **Lightning-Fast Performance** — Sites built for speed with Core Web Vitals optimization, CDN delivery, and modern frameworks.',
-    '- **SEO-Optimized** — Structured data, meta tags, sitemaps, and technical SEO built into every project from day one.',
-    '- **Mobile-First** — Responsive design that looks and works perfectly on every device.',
-    '- **Conversion-Focused** — Every design decision is driven by data and optimized to turn visitors into customers.',
-    '- **Ongoing Support** — We don\'t disappear after launch. Continuous optimization and support included.',
+    '- **Custom Design**: No templates. Every project is designed from scratch for your specific brand and goals.',
+    '- **Lightning-Fast Performance**: Sites built for speed with Core Web Vitals optimization, CDN delivery, and modern frameworks.',
+    '- **SEO-Optimized**: Structured data, meta tags, sitemaps, and technical SEO built into every project from day one.',
+    '- **Mobile-First**: Responsive design that looks and works perfectly on every device.',
+    '- **Conversion-Focused**: Every design decision is driven by data and optimized to turn visitors into customers.',
+    '- **Ongoing Support**: We don\'t disappear after launch. Continuous optimization and support included.',
     '',
     '## Service Packages',
     '',
@@ -232,7 +232,7 @@ export async function GET() {
     '- **LinkedIn:** https://www.linkedin.com/company/blok-blok-studio/',
     '- **Free Website Audit:** https://blokblokstudio.com/audit',
     '',
-    'Blok Blok Studio — Crafting digital experiences that inspire.',
+    'Blok Blok Studio: Crafting digital experiences that inspire.',
   );
 
   return new NextResponse(sections.join('\n'), {

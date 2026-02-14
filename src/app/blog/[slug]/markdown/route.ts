@@ -14,7 +14,7 @@ export async function GET(
   const post = getBlogPost(slug);
 
   if (!post) {
-    return new NextResponse('# 404 — Post Not Found\n\nThis blog post does not exist.', {
+    return new NextResponse('# 404: Post Not Found\n\nThis blog post does not exist.', {
       status: 404,
       headers: { 'Content-Type': 'text/markdown; charset=utf-8' },
     });
@@ -37,7 +37,7 @@ export async function GET(
     '',
     '---',
     '',
-    '*Published by [Blok Blok Studio](https://blokblokstudio.com) — a digital agency specializing in web design, branding, and SEO.*',
+    '*Published by [Blok Blok Studio](https://blokblokstudio.com), a digital agency specializing in web design, branding, and SEO.*',
   ].join('\n');
 
   return new NextResponse(markdown, {

@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'why-your-website-is-losing-customers',
     title: 'Why Your Website Is Losing Customers (And How to Fix It)',
-    description: 'Most business websites lose 70% of visitors in the first 3 seconds. Here are the top reasons why — and what you can do about it today.',
+    description: 'Most business websites lose 70% of visitors in the first 3 seconds. Here are the top reasons why, and what you can do about it today.',
     date: '2026-02-14',
     readTime: '5 min read',
     category: 'Web Design',
@@ -23,7 +23,7 @@ export const blogPosts: BlogPost[] = [
     gradient: 'from-blue-600 via-indigo-700 to-purple-800',
     icon: '🌐',
     content: `
-Your website has about 3 seconds to make an impression. If it fails, visitors leave — and they rarely come back. Here's what's driving them away and how to fix it.
+Your website has about 3 seconds to make an impression. If it fails, visitors leave, and they rarely come back. Here's what's driving them away and how to fix it.
 
 ## 1. Slow Load Times Kill Conversions
 
@@ -45,7 +45,7 @@ Over 60% of web traffic comes from mobile devices. If your site isn't responsive
 
 ## 4. Weak or Missing CTAs
 
-If visitors can't figure out what to do next, they leave. Every page needs a clear call to action — whether that's booking a call, requesting a quote, or downloading a resource.
+If visitors can't figure out what to do next, they leave. Every page needs a clear call to action, whether that's booking a call, requesting a quote, or downloading a resource.
 
 **The fix:** Use one primary CTA per page. Make it visually prominent with contrasting colors. Use action-oriented language ("Get Your Free Audit" beats "Submit").
 
@@ -53,13 +53,13 @@ If visitors can't figure out what to do next, they leave. Every page needs a cle
 
 People buy from businesses they trust. If your site lacks testimonials, case studies, certifications, or even a real team photo, visitors will hesitate to reach out.
 
-**The fix:** Add social proof throughout your site — not just on a dedicated testimonials page. Show real results, real people, and real numbers.
+**The fix:** Add social proof throughout your site, not just on a dedicated testimonials page. Show real results, real people, and real numbers.
 
 ## Ready to Fix Your Website?
 
 If any of these issues sound familiar, you're not alone. Most business websites suffer from at least two or three of these problems. The good news? They're all fixable.
 
-Book a free audit with our team and we'll show you exactly what's holding your site back — and how to turn it into a growth engine.
+Book a free audit with our team and we'll show you exactly what's holding your site back and how to turn it into a growth engine.
     `.trim(),
   },
   {
@@ -77,41 +77,41 @@ SEO in 2026 is about speed, structure, and user experience. Here's everything yo
 
 ## Technical SEO Foundations
 
-- **HTTPS everywhere** — SSL is table stakes. Google won't rank insecure sites.
-- **Fast Core Web Vitals** — LCP under 2.5s, FID under 100ms, CLS under 0.1.
-- **Mobile-first indexing** — Google indexes mobile versions first. Your mobile site IS your site.
-- **Clean URL structure** — Use descriptive, keyword-rich URLs. Avoid query parameters.
-- **XML sitemap** — Submit to Google Search Console. Keep it updated.
-- **robots.txt** — Block what shouldn't be indexed (admin pages, API routes).
+- **HTTPS everywhere**: SSL is table stakes. Google won't rank insecure sites.
+- **Fast Core Web Vitals**: LCP under 2.5s, FID under 100ms, CLS under 0.1.
+- **Mobile-first indexing**: Google indexes mobile versions first. Your mobile site IS your site.
+- **Clean URL structure**: Use descriptive, keyword-rich URLs. Avoid query parameters.
+- **XML sitemap**: Submit to Google Search Console. Keep it updated.
+- **robots.txt**: Block what shouldn't be indexed (admin pages, API routes).
 
 ## On-Page SEO
 
-- **Unique title tags** — Every page needs a unique, descriptive title under 60 characters.
-- **Meta descriptions** — Compelling descriptions under 155 characters that encourage clicks.
-- **Heading hierarchy** — One H1 per page, logical H2-H6 structure.
-- **Internal linking** — Connect related pages. Use descriptive anchor text.
-- **Image optimization** — Alt text, compressed formats (WebP/AVIF), lazy loading.
+- **Unique title tags**: Every page needs a unique, descriptive title under 60 characters.
+- **Meta descriptions**: Compelling descriptions under 155 characters that encourage clicks.
+- **Heading hierarchy**: One H1 per page, logical H2-H6 structure.
+- **Internal linking**: Connect related pages. Use descriptive anchor text.
+- **Image optimization**: Alt text, compressed formats (WebP/AVIF), lazy loading.
 
 ## Structured Data
 
 Structured data helps Google understand your content and can earn you rich results (FAQ dropdowns, star ratings, breadcrumbs).
 
-- **Organization schema** — Tell Google who you are.
-- **LocalBusiness schema** — Essential for local SEO.
-- **BreadcrumbList schema** — Helps navigation in search results.
-- **FAQPage schema** — Can earn expanded FAQ snippets in search.
-- **Article schema** — For blog posts and news content.
+- **Organization schema**: Tell Google who you are.
+- **LocalBusiness schema**: Essential for local SEO.
+- **BreadcrumbList schema**: Helps navigation in search results.
+- **FAQPage schema**: Can earn expanded FAQ snippets in search.
+- **Article schema**: For blog posts and news content.
 
 ## Content Strategy
 
-- **Target long-tail keywords** — Less competition, higher intent.
-- **Answer real questions** — Use tools like "People Also Ask" for content ideas.
-- **Update old content** — Fresh content ranks better. Review quarterly.
-- **Build topical authority** — Create clusters of related content around your core topics.
+- **Target long-tail keywords**: Less competition, higher intent.
+- **Answer real questions**: Use tools like "People Also Ask" for content ideas.
+- **Update old content**: Fresh content ranks better. Review quarterly.
+- **Build topical authority**: Create clusters of related content around your core topics.
 
 ## The Bottom Line
 
-SEO isn't a one-time project — it's an ongoing practice. But getting the fundamentals right from day one gives you a massive advantage over competitors who treat it as an afterthought.
+SEO isn't a one-time project. It's an ongoing practice. But getting the fundamentals right from day one gives you a massive advantage over competitors who treat it as an afterthought.
     `.trim(),
   },
   {
@@ -131,7 +131,7 @@ Most businesses think branding is just a logo and some colors. But a strong bran
 
 Brand identity is the complete visual and verbal system that represents your business. It includes your logo, color palette, typography, voice, messaging, and the feelings people associate with your name.
 
-Think of the world's most valuable brands. You recognize them instantly — not just by their logo, but by their entire visual language and the way they make you feel.
+Think of the world's most valuable brands. You recognize them instantly, not just by their logo, but by their entire visual language and the way they make you feel.
 
 ## Why It Matters for Growth
 
@@ -139,7 +139,7 @@ Think of the world's most valuable brands. You recognize them instantly — not 
 
 **2. Premium pricing.** Strong brands command higher prices. Customers pay more for perceived quality and emotional connection.
 
-**3. Customer loyalty.** People don't just buy products — they buy into brands. A strong identity creates emotional attachment that competitors can't replicate.
+**3. Customer loyalty.** People don't just buy products, they buy into brands. A strong identity creates emotional attachment that competitors can't replicate.
 
 **4. Marketing efficiency.** When your brand is clear and consistent, every marketing dollar works harder. People remember you. They recognize you. They come back.
 
@@ -152,7 +152,7 @@ Think of the world's most valuable brands. You recognize them instantly — not 
 
 ## The ROI of Branding
 
-Research consistently shows that consistent brand presentation across all platforms increases revenue by up to 23%. That's not a cost — that's an investment with measurable returns.
+Research consistently shows that consistent brand presentation across all platforms increases revenue by up to 23%. That's not a cost. That's an investment with measurable returns.
 
 Ready to build a brand that works as hard as you do? Let's talk about what a brand transformation could look like for your business.
     `.trim(),

@@ -26,7 +26,7 @@ const serviceFaqs = [
   },
   {
     question: 'Can you help with SEO and digital marketing?',
-    answer: 'Absolutely. Every website we build is SEO-optimized from the ground up — fast load times, structured data, semantic HTML, and mobile-first design. We also offer dedicated SEO and content marketing services.',
+    answer: 'Absolutely. Every website we build is SEO-optimized from the ground up with fast load times, structured data, semantic HTML, and mobile-first design. We also offer dedicated SEO and content marketing services.',
   },
 ];
 

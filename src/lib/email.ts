@@ -113,7 +113,7 @@ export async function sendCampaignEmail({
     : 'http://localhost:3000';
   const unsubscribeUrl = `${baseUrl}/api/unsubscribe?id=${leadId}`;
 
-  const text = htmlToText(html) + `\n\n---\nBlok Blok Studio — Digital Agency for Ambitious Brands\nUnsubscribe: ${unsubscribeUrl}`;
+  const text = htmlToText(html) + `\n\n---\nBlok Blok Studio | Digital Agency for Ambitious Brands\nUnsubscribe: ${unsubscribeUrl}`;
 
   try {
     const { error } = await getResend().emails.send({
