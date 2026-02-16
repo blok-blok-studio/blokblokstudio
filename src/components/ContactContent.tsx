@@ -379,24 +379,31 @@ export function ContactContent() {
               <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 overflow-hidden relative">
                 {/* Subtle grid pattern overlay */}
                 <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:20px_20px]" />
-                {/* Centered placeholder icon + "Map" label */}
+                {/* Germany outline with Berlin pin */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <svg
-                      className="w-8 h-8 text-white/15 mx-auto mb-2"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={1.5}
-                        d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
-                      />
-                    </svg>
-                    <p className="text-xs text-white/15">Map</p>
-                  </div>
+                  <svg
+                    viewBox="0 0 400 480"
+                    className="w-[70%] h-[85%]"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    {/* Germany outline */}
+                    <path
+                      d="M200 20 L215 25 L230 22 L248 30 L260 28 L275 35 L290 32 L305 40 L315 55 L320 70 L330 80 L340 95 L345 110 L350 130 L355 145 L360 160 L358 175 L350 190 L345 205 L340 215 L330 225 L325 240 L320 255 L310 265 L300 275 L295 290 L290 305 L285 315 L275 325 L265 340 L255 350 L245 360 L235 365 L225 370 L215 380 L205 390 L195 395 L185 390 L175 385 L165 375 L155 365 L145 355 L135 345 L125 335 L118 320 L112 305 L105 290 L100 275 L95 260 L90 245 L85 230 L80 215 L78 200 L75 185 L72 170 L70 155 L68 140 L72 125 L78 110 L85 95 L92 82 L100 70 L110 58 L120 48 L132 40 L145 35 L158 30 L170 26 L182 23 L192 21 Z"
+                      stroke="rgba(255,255,255,0.12)"
+                      strokeWidth="1.5"
+                      fill="rgba(255,255,255,0.03)"
+                    />
+                    {/* Berlin pin - pulsing dot */}
+                    <circle cx="248" cy="155" r="12" fill="rgba(255,255,255,0.06)">
+                      <animate attributeName="r" values="12;18;12" dur="2s" repeatCount="indefinite" />
+                      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+                    </circle>
+                    <circle cx="248" cy="155" r="5" fill="white" fillOpacity="0.7" />
+                    <circle cx="248" cy="155" r="2.5" fill="white" />
+                    {/* Berlin label */}
+                    <text x="266" y="159" fill="rgba(255,255,255,0.5)" fontSize="13" fontFamily="system-ui, sans-serif" fontWeight="500">Berlin</text>
+                  </svg>
                 </div>
               </div>
             </div>
