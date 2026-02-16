@@ -107,9 +107,7 @@
     "submit": "메시지 보내기",
     "success": "감사합니다! 곧 연락드리겠습니다.",
     "info_title": "연락처 정보",
-    "info_email": "hello@blokblokstudio.com",
-    "info_phone": "+1 (555) 000-0000",
-    "info_address": "123 Creative Ave, Design District"
+    "info_address": "Berlin, DE"
   },
   "footer": {
     "tagline": "영감을 주는 디지털 경험을 만듭니다.",
