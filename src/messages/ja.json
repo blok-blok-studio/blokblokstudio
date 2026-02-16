@@ -107,9 +107,7 @@
     "submit": "メッセージを送信",
     "success": "ありがとうございます！近日中にご連絡いたします。",
     "info_title": "連絡先情報",
-    "info_email": "hello@blokblokstudio.com",
-    "info_phone": "+1 (555) 000-0000",
-    "info_address": "123 Creative Ave, Design District"
+    "info_address": "Berlin, DE"
   },
   "footer": {
     "tagline": "インスピレーションを与えるデジタル体験を創造。",
