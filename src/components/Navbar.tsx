@@ -218,7 +218,7 @@ export function Navbar() {
             <div className="hidden md:block">
               <Link
                 href="/contact"
-                className="px-5 py-2.5 rounded-full border border-white/20 text-sm hover:bg-white hover:text-black transition-all duration-300"
+                className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-gray-100 transition-all duration-300"
               >
                 {t('contact')}
               </Link>
