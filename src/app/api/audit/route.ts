@@ -3,6 +3,7 @@ import { prisma } from '@/lib/prisma';
 import { notifyNewLead } from '@/lib/email';
 import { notifyTelegram } from '@/lib/telegram';
 import { assignToList, AUDIT_LIST } from '@/lib/auto-list';
+import { forwardToEasyReach } from '@/lib/easyreach';
 
 export async function POST(req: NextRequest) {
   try {
@@ -109,6 +110,17 @@ export async function POST(req: NextRequest) {
       notifyNewLead(leadData),
       notifyTelegram(leadData),
     ]);
+
+    // Forward to EasyReach CRM (non-blocking)
+    forwardToEasyReach({
+      source: 'funnel',
+      name,
+      email,
+      field,
+      website: noWebsite ? undefined : (website || undefined),
+      message: problem,
+      consent,
+    }).catch(() => {});
 
     return NextResponse.json({ success: true, id: lead.id });
   } catch (err) {
