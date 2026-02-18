@@ -5,28 +5,28 @@ import { BreadcrumbSchema, FAQSchema } from '@/app/structured-data';
 
 const serviceFaqs = [
   {
-    question: 'How long does a typical web design project take?',
-    answer: 'Most web design projects take 4-8 weeks from kickoff to launch, depending on complexity. We provide a detailed timeline during our discovery call so you know exactly what to expect.',
+    question: 'What is an AI agent ecosystem?',
+    answer: 'An AI agent ecosystem is a network of interconnected AI sub-agents that handle entire business workflows autonomously. For example, a lead comes in, gets scored, receives a personalized email, then a text, then a call — all without human intervention. We build these with human-in-the-loop escalation so you stay in control.',
   },
   {
-    question: 'Do you work with startups or only established businesses?',
-    answer: 'We work with both. Whether you are a startup needing your first brand identity or an established business looking for a website redesign, we tailor our approach to your stage and budget.',
+    question: 'How are your AI solutions different from using ChatGPT or off-the-shelf tools?',
+    answer: 'Off-the-shelf tools are generic. We build custom AI systems tailored to your business logic, integrated directly into your existing tools like your CRM, calendar, and payment systems. No Zapier tax, no duct tape — just purpose-built automation that runs 24/7.',
   },
   {
-    question: 'What technologies do you use for web development?',
-    answer: 'We primarily build with React, Next.js, and TypeScript for performance and SEO. For CMS needs we integrate headless solutions like Sanity or Contentful. Every stack decision is driven by your project requirements.',
+    question: 'Do you build websites or just AI automations?',
+    answer: 'Both. We build custom websites with Next.js and React that are SEO-optimized and conversion-focused from day one. We also handle branding, Google Ads, and Meta Ads. Think of us as your full-stack digital partner.',
   },
   {
-    question: 'Do you offer ongoing support after launch?',
-    answer: 'Yes. We offer monthly maintenance and support packages that include performance monitoring, security updates, content changes, and priority bug fixes to keep your site running at peak performance.',
+    question: 'What does workflow automation look like in practice?',
+    answer: 'It means your CRM, calendar, payments, email, and messaging tools all talk to each other automatically. When a client books a call, the CRM updates, an invoice gets drafted, a Slack notification fires, and a follow-up sequence starts — all without you lifting a finger.',
   },
   {
-    question: 'How much does a website cost?',
-    answer: 'Every project is unique. A simple marketing website starts around $5,000, while more complex web applications or e-commerce builds range higher. We provide a detailed quote after our discovery call.',
+    question: 'Do you offer client dashboards?',
+    answer: 'Yes. We build real-time portals where your clients can see live lead tracking, ad spend, ROAS, and custom KPIs without ever asking you for an update. They are white-labeled to your brand and include automated weekly report emails.',
   },
   {
-    question: 'Can you help with SEO and digital marketing?',
-    answer: 'Absolutely. Every website we build is SEO-optimized from the ground up with fast load times, structured data, semantic HTML, and mobile-first design. We also offer dedicated SEO and content marketing services.',
+    question: 'How much does a project cost and how long does it take?',
+    answer: 'Every project is scoped based on your needs. A website starts around $5,000, while AI agent ecosystems and full automation builds are scoped individually. We provide a detailed timeline and quote after our discovery call.',
   },
 ];
 

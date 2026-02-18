@@ -72,8 +72,8 @@ export async function notifyNewLead(lead: {
               <td style="padding: 12px 0; border-bottom: 1px solid #eee;">${lead.website || '<em>No website yet</em>'}</td>
             </tr>
             <tr>
-              <td style="padding: 12px 0; font-weight: 600; vertical-align: top;">Challenge</td>
-              <td style="padding: 12px 0;">${lead.problem}</td>
+              <td style="padding: 12px 0; font-weight: 600; vertical-align: top;">Audit Details</td>
+              <td style="padding: 12px 0; white-space: pre-line;">${lead.problem}</td>
             </tr>
           </table>
           <p style="margin-top: 24px; color: #666; font-size: 14px;">
