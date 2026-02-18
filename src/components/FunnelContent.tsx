@@ -433,16 +433,13 @@ function CTAButton({ text = 'Get Your Free Business Audit', className = '', vari
 /* ── Business Audit Checklist Items ── */
 const auditChecklist = [
   { key: 'website', label: 'A website', icon: '🌐' },
-  { key: 'crm', label: 'A CRM', icon: '📋' },
   { key: 'email_marketing', label: 'Email marketing', icon: '📧' },
   { key: 'google_ads', label: 'Google Ads', icon: '🔍' },
-  { key: 'meta_ads', label: 'Meta Ads (Facebook / Instagram)', icon: '📱' },
-  { key: 'ai_chatbot', label: 'An AI chatbot or voice agent', icon: '🤖' },
+  { key: 'meta_ads', label: 'Meta Ads', icon: '📱' },
+  { key: 'ai_chatbot', label: 'AI automations', icon: '🤖' },
   { key: 'automation', label: 'Workflow automation', icon: '⚡' },
   { key: 'content_system', label: 'A content repurposing system', icon: '🎬' },
-  { key: 'client_dashboard', label: 'A client-facing dashboard', icon: '📊' },
   { key: 'branding', label: 'A brand identity / guidelines', icon: '🎨' },
-  { key: 'seo', label: 'An SEO strategy', icon: '📈' },
   { key: 'booking', label: 'Automated appointment booking', icon: '📅' },
 ];
 
