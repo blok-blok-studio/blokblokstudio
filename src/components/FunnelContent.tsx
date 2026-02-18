@@ -441,6 +441,7 @@ const auditChecklist = [
   { key: 'content_system', label: 'A content repurposing system', icon: '🎬' },
   { key: 'branding', label: 'A brand identity / guidelines', icon: '🎨' },
   { key: 'booking', label: 'Automated appointment booking', icon: '📅' },
+  { key: 'analytics', label: 'Analytics / tracking', icon: '📊' },
 ];
 
 /* ── Audit Lead Capture Form ── */
