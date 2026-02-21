@@ -43,3 +43,6 @@ next-env.d.ts
 /generated/prisma
 *.db
 *.db-journal
+.env.production
+.env.prod
+.env.local
