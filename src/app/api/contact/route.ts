@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { rateLimit } from '@/lib/rate-limit';
 import { assignToList, CONTACT_LIST } from '@/lib/auto-list';
+import { pushToEasyReach } from '@/lib/easyreach';
 
 // SOC 2 compliant rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -91,6 +92,18 @@ export async function POST(req: NextRequest) {
         });
       } catch { /* non-critical */ }
     }
+
+    // Push to EasyReach CRM (fire-and-forget)
+    try {
+      await pushToEasyReach({
+        source: 'contact',
+        name,
+        email,
+        company,
+        message,
+        consent,
+      });
+    } catch { /* non-critical */ }
 
     return NextResponse.json(
       { success: true },

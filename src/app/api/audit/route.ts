@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { notifyNewLead } from '@/lib/email';
 import { notifyTelegram } from '@/lib/telegram';
 import { assignToList, AUDIT_LIST } from '@/lib/auto-list';
+import { pushToEasyReach } from '@/lib/easyreach';
 
 export async function POST(req: NextRequest) {
   try {
@@ -96,7 +96,6 @@ export async function POST(req: NextRequest) {
       console.error('[Audit] Auto-enroll failed:', err);
     }
 
-    // Fire notifications in parallel (non-blocking)
     const leadData = {
       name,
       email,
@@ -105,9 +104,18 @@ export async function POST(req: NextRequest) {
       problem,
     };
 
+    // Fire Telegram + EasyReach in parallel (non-blocking)
     await Promise.allSettled([
-      notifyNewLead(leadData),
       notifyTelegram(leadData),
+      pushToEasyReach({
+        source: 'funnel',
+        name,
+        email,
+        field,
+        website: noWebsite ? null : (website || null),
+        message: problem,
+        consent,
+      }),
     ]);
 
     return NextResponse.json({ success: true, id: lead.id });
