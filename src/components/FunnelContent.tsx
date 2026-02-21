@@ -295,63 +295,63 @@ function StepIllustration({ step }: { step: string }) {
 
 const benefits = [
   {
-    title: 'Custom Design, Not Templates',
-    desc: 'Every project is designed from scratch to match your unique brand and goals.',
-    icon: '✏️',
-    color: 'from-orange-500/10 to-red-500/5',
+    title: 'AI Agents That Work 24/7',
+    desc: 'Autonomous AI systems that handle leads, follow-ups, and client communication around the clock.',
+    icon: '🤖',
+    color: 'from-green-500/10 to-emerald-500/5',
   },
   {
-    title: 'Lightning-Fast Performance',
-    desc: 'We build with modern frameworks for sites that load in under 2 seconds.',
+    title: 'Workflow Automation',
+    desc: 'Connect your CRM, calendar, and payments into one seamless system — no Zapier tax.',
     icon: '⚡',
     color: 'from-yellow-500/10 to-amber-500/5',
   },
   {
-    title: 'SEO-Optimized From Day One',
-    desc: 'Your site is structured and coded for maximum search engine visibility.',
-    icon: '🔍',
-    color: 'from-green-500/10 to-emerald-500/5',
-  },
-  {
-    title: 'Mobile-First Approach',
-    desc: 'Pixel-perfect experiences across every device, from phones to ultrawide monitors.',
-    icon: '📱',
+    title: 'Custom Websites That Convert',
+    desc: 'Next.js sites built for speed, SEO, and conversion — not cookie-cutter templates.',
+    icon: '🌐',
     color: 'from-blue-500/10 to-cyan-500/5',
   },
   {
-    title: 'Conversion-Focused',
-    desc: 'Strategic layouts and CTAs designed to turn visitors into paying customers.',
-    icon: '🎯',
+    title: 'Ads That Actually Scale',
+    desc: 'Google and Meta campaigns with real targeting, retargeting funnels, and ROAS tracking.',
+    icon: '📈',
+    color: 'from-orange-500/10 to-red-500/5',
+  },
+  {
+    title: 'AI Content Pipelines',
+    desc: 'Turn one video or transcript into 10+ pieces of content across every platform.',
+    icon: '🎬',
     color: 'from-purple-500/10 to-violet-500/5',
   },
   {
-    title: 'Ongoing Support',
-    desc: 'We don\'t disappear after launch. Get continued support whenever you need it.',
-    icon: '🤝',
+    title: 'Real-Time Client Dashboards',
+    desc: 'White-labeled portals so your clients never have to ask for an update again.',
+    icon: '📊',
     color: 'from-pink-500/10 to-rose-500/5',
   },
 ];
 
 const serviceModules = [
   {
-    title: 'Brand Foundation',
-    icon: '🎨',
-    items: ['Logo & Visual Identity', 'Brand Guidelines', 'Color & Typography System', 'Brand Voice & Messaging'],
+    title: 'AI & Automation',
+    icon: '🤖',
+    items: ['AI Agent Ecosystems', 'Conversational AI & Chatbots', 'Workflow Automation', 'AI Content Systems'],
   },
   {
-    title: 'Web Presence',
+    title: 'Web & Brand',
     icon: '🌐',
-    items: ['Custom Website Design', 'Responsive Development', 'CMS Integration', 'Performance Optimization'],
+    items: ['Custom Website Design', 'Brand Identity & Guidelines', 'CMS Integration', 'Performance & SEO'],
   },
   {
-    title: 'Growth Engine',
+    title: 'Paid Advertising',
     icon: '📈',
-    items: ['SEO Strategy & Execution', 'Content Marketing', 'Social Media Strategy', 'Analytics & Reporting'],
+    items: ['Google Search Campaigns', 'Meta (Facebook & Instagram) Ads', 'Retargeting Funnels', 'ROAS Reporting'],
   },
   {
-    title: 'Digital Products',
-    icon: '📱',
-    items: ['Mobile App Development', 'Web Applications', 'E-commerce Solutions', 'API & Integrations'],
+    title: 'Client Systems',
+    icon: '📊',
+    items: ['Real-Time Client Dashboards', 'Lead & Pipeline Tracking', 'Automated Report Emails', 'White-Label Portals'],
   },
 ];
 
@@ -366,42 +366,41 @@ const projectShowcase = [
 
 const included = [
   { item: 'Dedicated project manager', icon: '👤' },
-  { item: 'Unlimited design revisions', icon: '🔄' },
-  { item: 'Mobile-responsive design', icon: '📱' },
-  { item: 'SEO-optimized code', icon: '🔍' },
-  { item: 'Analytics dashboard setup', icon: '📊' },
+  { item: 'Custom AI agent setup', icon: '🤖' },
+  { item: 'Workflow automation build', icon: '⚡' },
+  { item: 'SEO-optimized website', icon: '🔍' },
+  { item: 'Real-time client dashboard', icon: '📊' },
   { item: 'Content management system', icon: '📝' },
   { item: '90-day post-launch support', icon: '🛡️' },
-  { item: 'Performance monitoring', icon: '⚡' },
-  { item: 'SSL & security setup', icon: '🔒' },
-  { item: 'Social media integration', icon: '🔗' },
+  { item: 'Ad campaign setup & management', icon: '📈' },
+  { item: 'Brand identity package', icon: '🎨' },
+  { item: 'AI content repurposing pipeline', icon: '🎬' },
 ];
 
 const auditBenefits = [
-  'Personalized website & brand review',
-  'Conversion optimization tips',
-  'SEO quick-wins you can implement today',
+  'Full review of your current tech stack & tools',
+  'AI automation opportunities you\'re missing',
+  'Website & ad performance breakdown',
   'Competitor analysis snapshot',
-  'Custom recommendations for your industry',
+  'Custom roadmap for your business',
 ];
 
 const idealFor = [
-  { text: 'Startups launching their first digital presence', yes: true },
-  { text: 'Established businesses needing a rebrand', yes: true },
-  { text: 'E-commerce brands looking to increase conversions', yes: true },
-  { text: 'SaaS companies that need a polished product site', yes: true },
-  { text: 'Anyone who needs a generic template site', yes: false },
-  { text: 'Businesses looking for the cheapest option', yes: false },
+  { text: 'Businesses ready to automate and scale with AI', yes: true },
+  { text: 'Agencies that need white-labeled client systems', yes: true },
+  { text: 'Companies spending on ads but not tracking ROAS', yes: true },
+  { text: 'Founders drowning in manual follow-ups and tasks', yes: true },
+  { text: 'Anyone looking for a cheap template fix', yes: false },
+  { text: 'Businesses not ready to invest in real growth', yes: false },
 ];
 
 const faqs = [
-  { q: 'How long does a typical project take?', a: 'Most projects are completed in 3–6 weeks depending on scope. A simple landing page can be done in under a week, while a full brand + website package typically takes 4–6 weeks.' },
-  { q: 'What if I don\'t like the design?', a: 'We offer unlimited design revisions. We work closely with you throughout the process and won\'t move to development until you\'re 100% happy with the design.' },
-  { q: 'Do I need to have my content ready?', a: 'Not necessarily. We can work with rough ideas and help refine your messaging. For an additional fee, we also offer professional copywriting services.' },
-  { q: 'Can I update the website myself after launch?', a: 'Absolutely. We build with user-friendly CMS platforms so you can easily update content, images, and pages without any coding knowledge.' },
-  { q: 'What\'s included in post-launch support?', a: 'Our support includes bug fixes, minor content updates, performance monitoring, security updates, and priority access to our team via email or Slack.' },
+  { q: 'What is a business audit?', a: 'We look at your entire business operation — your website, ads, tools, workflows, and content — and identify where AI, automation, and better systems can save you time and make you money.' },
+  { q: 'How is this different from a website audit?', a: 'A website audit only looks at your site. We look at everything: how you get leads, how you follow up, what tools you\'re using, where you\'re wasting time, and what you\'re leaving on the table.' },
+  { q: 'Do I need to have a website already?', a: 'Nope. We work with businesses at every stage. If you don\'t have a website, that\'s just one of the gaps we\'ll identify and solve for you.' },
+  { q: 'How long does a typical project take?', a: 'It depends on scope. A website takes 3–6 weeks. An AI agent ecosystem or full automation build is scoped individually. We give you a clear timeline after the audit.' },
   { q: 'Do you work with clients outside the US?', a: 'Yes! We work with clients worldwide. Our process is fully remote with regular video check-ins to keep everything on track regardless of timezone.' },
-  { q: 'What if I just want to learn more before committing?', a: 'That\'s exactly what the free audit is for. Fill out the form, get a personalized review of your digital presence, and then decide if you\'d like to take the next step. Zero pressure, zero commitment.' },
+  { q: 'What if I\'m not sure what I need?', a: 'That\'s exactly what the free business audit is for. Tell us what you have, what you don\'t, and what\'s frustrating you. We\'ll do the rest and give you a custom roadmap — no commitment required.' },
 ];
 
 /* ── CTA Button ── */
@@ -412,7 +411,7 @@ function scrollToAudit() {
   window.scrollTo({ top, behavior: 'smooth' });
 }
 
-function CTAButton({ text = 'Get Your Free Audit', className = '', variant = 'primary' }: { text?: string; className?: string; variant?: 'primary' | 'secondary' }) {
+function CTAButton({ text = 'Get Your Free Business Audit', className = '', variant = 'primary' }: { text?: string; className?: string; variant?: 'primary' | 'secondary' }) {
   const base = variant === 'primary'
     ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white hover:from-orange-400 hover:to-red-400 shadow-lg shadow-orange-500/20'
     : 'bg-white/10 text-white hover:bg-white/20 border border-white/10';
@@ -431,6 +430,20 @@ function CTAButton({ text = 'Get Your Free Audit', className = '', variant = 'pr
   );
 }
 
+/* ── Business Audit Checklist Items ── */
+const auditChecklist = [
+  { key: 'website', label: 'A website', icon: '🌐' },
+  { key: 'email_marketing', label: 'Email marketing', icon: '📧' },
+  { key: 'google_ads', label: 'Google Ads', icon: '🔍' },
+  { key: 'meta_ads', label: 'Meta Ads', icon: '📱' },
+  { key: 'ai_chatbot', label: 'AI automations', icon: '🤖' },
+  { key: 'automation', label: 'Workflow automation', icon: '⚡' },
+  { key: 'content_system', label: 'A content repurposing system', icon: '🎬' },
+  { key: 'branding', label: 'A brand identity / guidelines', icon: '🎨' },
+  { key: 'booking', label: 'Automated appointment booking', icon: '📅' },
+  { key: 'analytics', label: 'Analytics / tracking', icon: '📊' },
+];
+
 /* ── Audit Lead Capture Form ── */
 function AuditForm() {
   const [formData, setFormData] = useState({
@@ -442,20 +455,33 @@ function AuditForm() {
     problem: '',
     consent: false,
   });
+  const [checklist, setChecklist] = useState<Record<string, boolean>>({});
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
+
+  const toggleChecklist = (key: string) => {
+    setChecklist((prev) => ({ ...prev, [key]: !prev[key] }));
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
     setError('');
 
+    // Build the "problem" field to include checklist data
+    const hasItems = auditChecklist.filter((item) => checklist[item.key]).map((item) => item.label);
+    const missingItems = auditChecklist.filter((item) => !checklist[item.key]).map((item) => item.label);
+    const checklistSummary = `CURRENTLY HAVE:\n${hasItems.length > 0 ? hasItems.map(i => `  ✓ ${i}`).join('\n') : '  (none selected)'}\n\nDON'T HAVE YET:\n${missingItems.length > 0 ? missingItems.map(i => `  ✗ ${i}`).join('\n') : '  (none)'}\n\nBIGGEST CHALLENGE:\n  ${formData.problem || '(not specified)'}`;
+
     try {
       const res = await fetch('/api/audit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          problem: checklistSummary,
+        }),
       });
 
       if (!res.ok) {
@@ -492,7 +518,7 @@ function AuditForm() {
         </div>
         <h3 className="text-2xl sm:text-3xl font-bold mb-3">You&apos;re In!</h3>
         <p className="text-gray-400 text-base sm:text-lg max-w-md mx-auto mb-2">
-          We&apos;ll send your personalized audit to <strong className="text-white">{formData.email}</strong> within 24 hours.
+          We&apos;ll send your personalized business audit to <strong className="text-white">{formData.email}</strong> within 24 hours.
         </p>
         <p className="text-sm text-gray-500 mb-10">Keep an eye on your inbox (check spam too).</p>
 
@@ -519,8 +545,11 @@ function AuditForm() {
 
   const inputBase = 'w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3.5 text-sm sm:text-base text-white placeholder-gray-500 focus:outline-none focus:border-orange-500/40 focus:bg-white/[0.06] transition-colors';
 
+  const checkedCount = Object.values(checklist).filter(Boolean).length;
+
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleSubmit} className="space-y-5">
+      {/* Name & Email */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label htmlFor="audit-name" className="block text-xs text-gray-400 mb-1.5 ml-1">Your Name</label>
@@ -548,32 +577,32 @@ function AuditForm() {
         </div>
       </div>
 
+      {/* Industry */}
       <div>
         <label htmlFor="audit-field" className="block text-xs text-gray-400 mb-1.5 ml-1">Field of Work / Industry</label>
         <input
           id="audit-field"
           type="text"
           required
-          placeholder="e.g. E-commerce, SaaS, Healthcare, Real Estate..."
+          placeholder="e.g. E-commerce, SaaS, Healthcare, Real Estate, Agency..."
           value={formData.field}
           onChange={(e) => setFormData({ ...formData, field: e.target.value })}
           className={inputBase}
         />
       </div>
 
+      {/* Website URL */}
       <div>
         <label htmlFor="audit-website" className="block text-xs text-gray-400 mb-1.5 ml-1">Current Website URL</label>
-        <div className="relative">
-          <input
-            id="audit-website"
-            type="url"
-            placeholder="https://yourwebsite.com"
-            disabled={formData.noWebsite}
-            value={formData.noWebsite ? '' : formData.website}
-            onChange={(e) => setFormData({ ...formData, website: e.target.value })}
-            className={`${inputBase} ${formData.noWebsite ? 'opacity-40 cursor-not-allowed' : ''}`}
-          />
-        </div>
+        <input
+          id="audit-website"
+          type="url"
+          placeholder="https://yourwebsite.com"
+          disabled={formData.noWebsite}
+          value={formData.noWebsite ? '' : formData.website}
+          onChange={(e) => setFormData({ ...formData, website: e.target.value })}
+          className={`${inputBase} ${formData.noWebsite ? 'opacity-40 cursor-not-allowed' : ''}`}
+        />
         <label className="flex items-center gap-2.5 mt-2.5 ml-1 cursor-pointer group">
           <div className={`w-5 h-5 rounded-md border flex items-center justify-center transition-colors ${
             formData.noWebsite
@@ -592,17 +621,60 @@ function AuditForm() {
             checked={formData.noWebsite}
             onChange={(e) => setFormData({ ...formData, noWebsite: e.target.checked, website: '' })}
           />
-          <span className="text-sm text-gray-400">I don&apos;t have a website yet, <span className="text-orange-400">we&apos;ll take care of that for you</span></span>
+          <span className="text-sm text-gray-400">I don&apos;t have a website yet</span>
         </label>
       </div>
 
+      {/* ── BUSINESS CHECKLIST ── */}
+      <div>
+        <div className="flex items-center justify-between mb-3 ml-1">
+          <label className="block text-xs text-gray-400">Check everything you currently have</label>
+          <span className="text-xs text-gray-600">{checkedCount} / {auditChecklist.length}</span>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          {auditChecklist.map((item) => {
+            const isChecked = !!checklist[item.key];
+            return (
+              <label
+                key={item.key}
+                className={`flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all ${
+                  isChecked
+                    ? 'bg-green-500/[0.08] border border-green-500/20'
+                    : 'bg-white/[0.02] border border-white/5 hover:border-white/10 hover:bg-white/[0.04]'
+                }`}
+              >
+                <div className={`w-5 h-5 rounded-md border flex items-center justify-center flex-shrink-0 transition-colors ${
+                  isChecked
+                    ? 'bg-green-500/20 border-green-500/40'
+                    : 'bg-white/[0.04] border-white/10'
+                }`}>
+                  {isChecked && (
+                    <svg className="w-3 h-3 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                    </svg>
+                  )}
+                </div>
+                <input
+                  type="checkbox"
+                  className="sr-only"
+                  checked={isChecked}
+                  onChange={() => toggleChecklist(item.key)}
+                />
+                <span className="text-lg flex-shrink-0">{item.icon}</span>
+                <span className={`text-xs sm:text-sm ${isChecked ? 'text-green-300' : 'text-gray-400'}`}>{item.label}</span>
+              </label>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Biggest Challenge */}
       <div>
         <label htmlFor="audit-problem" className="block text-xs text-gray-400 mb-1.5 ml-1">What&apos;s your biggest challenge right now?</label>
         <textarea
           id="audit-problem"
-          required
           rows={3}
-          placeholder="e.g. My website doesn't convert visitors, I need a complete rebrand, I'm launching a new product and need a site fast..."
+          placeholder="e.g. I'm doing everything manually, my ads aren't converting, I can't keep up with content creation..."
           value={formData.problem}
           onChange={(e) => setFormData({ ...formData, problem: e.target.value })}
           className={`${inputBase} resize-none`}
@@ -669,7 +741,7 @@ function AuditForm() {
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            Get My Free Audit
+            Get My Free Business Audit
           </>
         )}
       </motion.button>
@@ -785,7 +857,7 @@ export function FunnelContent() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-2 text-xs sm:text-sm">
           <span className="inline-block w-2 h-2 rounded-full bg-orange-400 animate-pulse" />
           <span className="text-gray-300">
-            Free Website Audits: <strong className="text-orange-400">Personalized insights</strong> for your brand, delivered in 24 hours
+            Free Business Audits: <strong className="text-orange-400">AI, automation & growth insights</strong> for your company, delivered in 24 hours
           </span>
         </div>
       </div>
@@ -869,9 +941,9 @@ export function FunnelContent() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6"
           >
-            We Build Digital Experiences That{' '}
+            We Build Systems That{' '}
             <span className="bg-gradient-to-r from-orange-400 via-red-400 to-orange-400 bg-clip-text text-transparent">
-              Drive Revenue
+              Scale Your Business
             </span>
           </motion.h1>
 
@@ -881,8 +953,8 @@ export function FunnelContent() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10"
           >
-            Stop losing customers to a mediocre online presence. We design and develop
-            high-converting websites, brands, and apps so you can focus on running your business.
+            Stop doing everything manually. We build AI agents, automate workflows, run your ads,
+            and create the systems your business needs to grow — so you can focus on what matters.
           </motion.p>
 
           <motion.div
@@ -902,7 +974,7 @@ export function FunnelContent() {
             className="text-xs text-gray-600 mt-6 flex items-center justify-center gap-2"
           >
             <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-            Free audit. No commitment required.
+            Free business audit. No commitment required.
           </motion.p>
         </div>
 
@@ -937,12 +1009,12 @@ export function FunnelContent() {
       <Section className="py-12 sm:py-16 px-5 sm:px-6 text-center">
         <div className="max-w-2xl mx-auto">
           <AccentDivider />
-          <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-orange-400/60 mb-4 mt-4">See what we can build for your brand</p>
+          <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-orange-400/60 mb-4 mt-4">See what we can build for your business</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Ready to Transform Your Digital Presence?
+            Ready to Automate and Scale?
           </h2>
           <p className="text-gray-400 mb-8 max-w-md mx-auto">
-            Join the brands that chose to stand out instead of blend in.
+            Join the businesses that chose to build real systems instead of duct-taping tools together.
           </p>
           <CTAButton />
         </div>
@@ -964,17 +1036,17 @@ export function FunnelContent() {
               </h2>
               <div className="space-y-4 text-gray-400 text-sm sm:text-base leading-relaxed">
                 <p>
-                  Too many talented businesses were stuck with generic template websites that
-                  didn&apos;t reflect their quality. They were losing customers before they even had
-                  a chance to make an impression.
+                  Too many businesses are drowning in manual work. Following up with leads by hand,
+                  copying data between tools, posting content one platform at a time, and running ads
+                  with no real tracking.
                 </p>
                 <p>
-                  We&apos;ve seen businesses struggle with agencies that overpromise and underdeliver.
-                  Missed deadlines, bloated costs, and websites that look the same as everyone else&apos;s.
+                  We&apos;ve seen companies waste thousands on agencies that build pretty websites
+                  but ignore the systems behind them. No automation, no AI, no real growth engine.
                 </p>
                 <p className="text-white font-medium">
-                  That&apos;s why we built Blok Blok Studio. We believe every brand deserves a digital
-                  presence that&apos;s as bold and unique as the people behind it.
+                  That&apos;s why we built Blok Blok Studio. We build the AI agents, automations,
+                  websites, and ad systems that actually scale your business.
                 </p>
               </div>
             </div>
@@ -982,10 +1054,10 @@ export function FunnelContent() {
             {/* Visual problem cards with colored accents */}
             <div className="space-y-4">
               {[
-                { icon: '😤', problem: 'Your website looks like every other template site in your industry', color: 'border-l-red-500/40' },
-                { icon: '📉', problem: 'Visitors leave within seconds because your site doesn\'t build trust', color: 'border-l-orange-500/40' },
-                { icon: '⏰', problem: 'Your last agency missed deadlines and went over budget', color: 'border-l-yellow-500/40' },
-                { icon: '🤷', problem: 'You\'re not sure how to turn website traffic into actual customers', color: 'border-l-amber-500/40' },
+                { icon: '😤', problem: 'You\'re manually following up with every lead and losing half of them', color: 'border-l-red-500/40' },
+                { icon: '📉', problem: 'You\'re spending on ads but can\'t tell what\'s actually working', color: 'border-l-orange-500/40' },
+                { icon: '⏰', problem: 'You\'re copying data between tools and wasting hours every week', color: 'border-l-yellow-500/40' },
+                { icon: '🤷', problem: 'You know AI could help your business but don\'t know where to start', color: 'border-l-amber-500/40' },
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -1071,7 +1143,7 @@ export function FunnelContent() {
           </div>
 
           <div className="text-center mt-10">
-            <CTAButton text="Join These Brands, Get Your Free Audit" />
+            <CTAButton text="Join These Brands, Get Your Free Business Audit" />
           </div>
         </div>
       </section>
@@ -1104,7 +1176,7 @@ export function FunnelContent() {
                 <p className="text-sm font-bold text-red-400/80 uppercase tracking-wider">Before</p>
               </div>
               <ul className="space-y-5 relative z-10">
-                {['Generic template website', 'Slow load times', 'No clear call to action', 'Poor mobile experience', 'Low search rankings', 'Zero brand consistency'].map((item, i) => (
+                {['Manual lead follow-up', 'No AI or automation', 'Disconnected tools everywhere', 'Ads running with no tracking', 'Content created one piece at a time', 'Clients constantly asking for updates'].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-400">
                     <svg className="w-5 h-5 flex-shrink-0 text-red-500/60 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -1127,7 +1199,7 @@ export function FunnelContent() {
                 <p className="text-sm font-bold text-green-400/80 uppercase tracking-wider">After</p>
               </div>
               <ul className="space-y-5 relative z-10">
-                {['Custom design that stands out', 'Sub-2-second load times', 'Strategic CTAs driving conversions', 'Pixel-perfect on every device', 'SEO-optimized for top rankings', 'Cohesive brand everywhere'].map((item, i) => (
+                {['AI agents handling leads 24/7', 'Fully automated workflows', 'All tools connected seamlessly', 'Ads with real ROAS tracking', 'One input → 10 pieces of content', 'Client dashboards with live data'].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-300">
                     <svg className="w-5 h-5 flex-shrink-0 text-green-500/60 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -1283,7 +1355,7 @@ export function FunnelContent() {
           </div>
 
           <div className="text-center mt-16">
-            <CTAButton text="Start With Step 1, Get Your Free Audit" />
+            <CTAButton text="Start With Step 1, Get Your Free Business Audit" />
           </div>
         </div>
       </section>
@@ -1299,10 +1371,10 @@ export function FunnelContent() {
               What We Offer
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              End-to-End Digital Solutions
+              End-to-End Business Systems
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mt-6">
-              Everything you need under one roof, from brand strategy to final deployment.
+              Everything you need under one roof — AI agents, automation, websites, ads, and client systems.
             </p>
           </div>
 
@@ -1408,7 +1480,7 @@ export function FunnelContent() {
           </motion.div>
 
           <div className="text-center mt-12">
-            <CTAButton text="Get All This, Claim Your Free Audit" />
+            <CTAButton text="Get All This, Claim Your Free Business Audit" />
           </div>
         </div>
       </section>
@@ -1433,10 +1505,10 @@ export function FunnelContent() {
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
                 Get Your Free{' '}
-                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Website Audit</span>
+                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Business Audit</span>
               </h2>
               <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-                Tell us about your business and we&apos;ll send you a personalized audit with actionable insights within 24 hours.
+                Tell us what you have, what you don&apos;t, and we&apos;ll send you a custom roadmap with actionable insights within 24 hours.
               </p>
             </div>
           </Section>
@@ -1574,14 +1646,14 @@ export function FunnelContent() {
               </thead>
               <tbody>
                 {[
-                  { feature: 'Custom Design', diy: 'no', freelancer: 'yes', us: 'yes' },
-                  { feature: 'SEO Optimization', diy: 'no', freelancer: 'sometimes', us: 'yes' },
-                  { feature: 'Mobile-First', diy: 'no', freelancer: 'yes', us: 'yes' },
-                  { feature: 'Conversion Strategy', diy: 'no', freelancer: 'sometimes', us: 'yes' },
+                  { feature: 'AI Agent Automation', diy: 'no', freelancer: 'no', us: 'yes' },
+                  { feature: 'Workflow Automation', diy: 'no', freelancer: 'sometimes', us: 'yes' },
+                  { feature: 'Custom Website', diy: 'no', freelancer: 'yes', us: 'yes' },
+                  { feature: 'Paid Ads Management', diy: 'sometimes', freelancer: 'sometimes', us: 'yes' },
+                  { feature: 'Client Dashboards', diy: 'no', freelancer: 'no', us: 'yes' },
+                  { feature: 'AI Content Systems', diy: 'no', freelancer: 'no', us: 'yes' },
+                  { feature: 'Brand Strategy', diy: 'no', freelancer: 'sometimes', us: 'yes' },
                   { feature: 'Ongoing Support', diy: 'no', freelancer: 'no', us: 'yes' },
-                  { feature: 'Brand Strategy', diy: 'no', freelancer: 'no', us: 'yes' },
-                  { feature: 'Fast Turnaround', diy: 'sometimes', freelancer: 'sometimes', us: 'yes' },
-                  { feature: 'Scalable Code', diy: 'no', freelancer: 'sometimes', us: 'yes' },
                 ].map((row, i) => (
                   <tr key={i} className="border-b border-white/5">
                     <td className="py-3.5 pr-4 text-gray-300 font-medium">{row.feature}</td>
@@ -1651,17 +1723,17 @@ export function FunnelContent() {
                   Let&apos;s Go
                 </div>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                  Your Brand Deserves Better
+                  Your Business Deserves Better Systems
                 </h2>
                 <p className="text-gray-400 text-base sm:text-lg max-w-lg mx-auto mb-10">
-                  Get a free, personalized audit of your digital presence. No commitment, just actionable insights you can use right away.
+                  Get a free, personalized audit of your entire business. No commitment, just a custom roadmap you can act on right away.
                 </p>
 
-                <CTAButton text="Get Your Free Audit Now" />
+                <CTAButton text="Get Your Free Business Audit" />
 
                 <p className="text-xs text-gray-600 mt-6 flex items-center justify-center gap-2">
                   <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                  Takes 60 seconds. Delivered to your inbox within 24 hours.
+                  Takes 2 minutes. Delivered to your inbox within 24 hours.
                 </p>
               </div>
             </div>

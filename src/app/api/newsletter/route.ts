@@ -60,6 +60,8 @@ export async function POST(req: NextRequest) {
         pushToEasyReach({ source: 'newsletter', email }),
       ]);
 
+      // Forward to EasyReach CRM (non-blocking)
+
       return NextResponse.json({ success: true });
     }
 
@@ -83,6 +85,7 @@ export async function POST(req: NextRequest) {
       notifyNewsletterSignup(email),
       pushToEasyReach({ source: 'newsletter', email }),
     ]);
+
 
     return NextResponse.json({ success: true });
   } catch (err) {

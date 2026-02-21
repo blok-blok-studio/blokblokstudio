@@ -34,20 +34,23 @@ export function OrganizationSchema() {
       itemListElement: [
         {
           '@type': 'OfferCatalog',
-          name: 'Web Design & Development',
+          name: 'AI & Automation',
           itemListElement: [
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Custom Website Design' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Web Application Development' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'E-Commerce Solutions' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AI Agent Ecosystems' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Conversational AI' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Workflow Automation' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AI Content Systems' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Client Dashboards' } },
           ],
         },
         {
           '@type': 'OfferCatalog',
-          name: 'Branding & Identity',
+          name: 'Creative & Marketing',
           itemListElement: [
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Brand Strategy' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Visual Identity Design' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Brand Guidelines' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Websites' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Branding' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Google Ads' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Meta Ads' } },
           ],
         },
       ],
@@ -128,24 +131,40 @@ export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }
 export function ServiceSchema() {
   const services = [
     {
-      name: 'Web Design & Development',
-      description: 'Custom websites built with modern technologies. Fast, responsive, and conversion-optimized.',
+      name: 'AI Agent Ecosystems',
+      description: 'Interconnected AI sub-agents that run entire business workflows with multi-agent orchestration and human-in-the-loop escalation.',
     },
     {
-      name: 'Brand Identity & Strategy',
-      description: 'Complete brand identity including logo design, visual systems, and brand guidelines.',
+      name: 'Conversational AI',
+      description: 'Chatbots and voice agents that qualify leads nonstop with website AI chat widgets and appointment booking on autopilot.',
     },
     {
-      name: 'Mobile App Development',
-      description: 'Native and cross-platform mobile applications designed for performance and user engagement.',
+      name: 'Workflow Automation',
+      description: 'Connect CRM, calendar, and payments into one seamless system with custom integrations and AI decision logic.',
     },
     {
-      name: 'Digital Marketing & SEO',
-      description: 'Data-driven marketing strategies including SEO, content marketing, and conversion optimization.',
+      name: 'AI Content Systems',
+      description: 'Turn one input into 10 pieces of content with video-to-clips pipelines, blog generation, and cross-platform repurposing.',
     },
     {
-      name: 'UI/UX Design',
-      description: 'User-centered interface design that balances aesthetics with usability and accessibility.',
+      name: 'Client Dashboards',
+      description: 'Real-time portals with live lead tracking, ad spend reporting, and white-labeled KPI widgets.',
+    },
+    {
+      name: 'Websites',
+      description: 'Custom-built, conversion-focused sites with Next.js and React, SEO-optimized and mobile-first.',
+    },
+    {
+      name: 'Branding',
+      description: 'Bold visual identities including logo design, color palettes, typography, and brand guidelines documents.',
+    },
+    {
+      name: 'Google Ads',
+      description: 'Search campaigns for high-intent buyers with keyword strategy, conversion tracking, and monthly optimization.',
+    },
+    {
+      name: 'Meta Ads',
+      description: 'Facebook and Instagram advertising at scale with audience targeting, retargeting funnels, and creative A/B testing.',
     },
   ];
 

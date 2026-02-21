@@ -104,7 +104,6 @@ export async function POST(req: NextRequest) {
         consent,
       });
     } catch { /* non-critical */ }
-
     return NextResponse.json(
       { success: true },
       {
