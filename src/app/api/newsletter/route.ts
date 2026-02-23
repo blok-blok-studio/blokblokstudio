@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { rateLimit } from '@/lib/rate-limit';
+import { runSpamChecks } from '@/lib/spam-guard';
 import { assignToList, NEWSLETTER_LIST } from '@/lib/auto-list';
 import { notifyNewsletterSignup } from '@/lib/telegram';
 import { forwardToEasyReach } from '@/lib/easyreach';
@@ -27,7 +28,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { email } = await req.json();
+    const { email, _hp, _t } = await req.json();
 
     if (!email || typeof email !== 'string') {
       return NextResponse.json({ error: 'Email is required' }, { status: 400 });
@@ -36,6 +37,12 @@ export async function POST(req: NextRequest) {
     // Basic email validation
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return NextResponse.json({ error: 'Invalid email address' }, { status: 400 });
+    }
+
+    // Spam detection
+    const spam = runSpamChecks({ honeypot: _hp, timingToken: _t, email });
+    if (spam.isSpam) {
+      return NextResponse.json({ success: true });
     }
 
     // Check if already subscribed

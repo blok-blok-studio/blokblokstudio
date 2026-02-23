@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { rateLimit } from '@/lib/rate-limit';
+import { runSpamChecks } from '@/lib/spam-guard';
 import { assignToList, CONTACT_LIST } from '@/lib/auto-list';
 import { forwardToEasyReach } from '@/lib/easyreach';
 
@@ -32,11 +33,18 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { name, email, company, message, consent } = await req.json();
+    const { name, email, company, message, consent, _hp, _t } = await req.json();
     const consentIp = ip;
 
     if (!name || !email || !message) {
       return NextResponse.json({ error: 'Name, email, and message are required' }, { status: 400 });
+    }
+
+    // Spam detection
+    const spam = runSpamChecks({ honeypot: _hp, timingToken: _t, name, email, message });
+    if (spam.isSpam) {
+      // Return success to not reveal detection to bots
+      return NextResponse.json({ success: true });
     }
 
     // Create or update the lead

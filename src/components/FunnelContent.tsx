@@ -454,11 +454,13 @@ function AuditForm() {
     noWebsite: false,
     problem: '',
     consent: false,
+    _hp: '',
   });
   const [checklist, setChecklist] = useState<Record<string, boolean>>({});
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
+  const [timingToken] = useState(() => Date.now().toString(36));
 
   const toggleChecklist = (key: string) => {
     setChecklist((prev) => ({ ...prev, [key]: !prev[key] }));
@@ -481,6 +483,7 @@ function AuditForm() {
         body: JSON.stringify({
           ...formData,
           problem: checklistSummary,
+          _t: timingToken,
         }),
       });
 
@@ -549,6 +552,8 @@ function AuditForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
+      {/* Honeypot — hidden from humans, bots fill it */}
+      <input type="text" name="_hp" value={formData._hp || ''} onChange={(e) => setFormData({ ...formData, _hp: e.target.value })} autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
       {/* Name & Email */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>

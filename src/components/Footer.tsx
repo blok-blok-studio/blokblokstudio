@@ -114,15 +114,16 @@ export function Footer() {
 
   const [footerSubscribed, setFooterSubscribed] = useState(false);
   const [footerAlreadySubscribed, setFooterAlreadySubscribed] = useState(false);
+  const [footerTimingToken] = useState(() => Date.now().toString(36));
 
   const handleFooterNewsletter = async (e: React.FormEvent) => {
     e.preventDefault();
     const form = e.target as HTMLFormElement;
-    const email = new FormData(form).get('email');
+    const formData = new FormData(form);
     try {
       const res = await fetch('/api/newsletter', {
         method: 'POST',
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email: formData.get('email'), _hp: formData.get('_hp'), _t: footerTimingToken }),
         headers: { 'Content-Type': 'application/json' },
       });
       if (res.status === 409) {
@@ -282,6 +283,7 @@ export function Footer() {
                   className="flex flex-col sm:flex-row gap-2"
                   onSubmit={handleFooterNewsletter}
                 >
+                  <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
                   <input
                     type="email"
                     name="email"

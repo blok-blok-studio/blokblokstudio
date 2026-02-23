@@ -50,6 +50,7 @@ export function HomeNewsletter() {
   const [submitted, setSubmitted] = useState(false);
   const [alreadySubscribed, setAlreadySubscribed] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [timingToken] = useState(() => Date.now().toString(36));
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -57,10 +58,10 @@ export function HomeNewsletter() {
 
     try {
       const form = e.target as HTMLFormElement;
-      const email = new FormData(form).get('email');
+      const formData = new FormData(form);
       const res = await fetch('/api/newsletter', {
         method: 'POST',
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email: formData.get('email'), _hp: formData.get('_hp'), _t: timingToken }),
         headers: { 'Content-Type': 'application/json' },
       });
 
@@ -148,6 +149,7 @@ export function HomeNewsletter() {
                     onSubmit={handleSubmit}
                     className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
                   >
+                    <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
                     <input
                       type="email"
                       name="email"

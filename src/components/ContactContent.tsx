@@ -89,6 +89,7 @@ export function ContactContent() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
+  const [timingToken] = useState(() => Date.now().toString(36));
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -105,6 +106,8 @@ export function ContactContent() {
           company: formData.get('company'),
           message: formData.get('message'),
           consent: true,
+          _hp: formData.get('_hp'),
+          _t: timingToken,
         }),
         headers: { 'Content-Type': 'application/json' },
       });
@@ -208,6 +211,8 @@ export function ContactContent() {
                  You need to add backend integration to make it work.
               */
               <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+                {/* Honeypot — hidden from humans, bots fill it */}
+                <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
 
                 {/* Name + Email fields — side by side on sm+ */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
