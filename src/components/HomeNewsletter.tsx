@@ -40,9 +40,10 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
+import { Turnstile } from './Turnstile';
 import { motion } from 'framer-motion';
 
 export function HomeNewsletter() {
@@ -51,6 +52,8 @@ export function HomeNewsletter() {
   const [alreadySubscribed, setAlreadySubscribed] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [timingToken] = useState(() => Date.now().toString(36));
+  const [turnstileToken, setTurnstileToken] = useState('');
+  const onTurnstileToken = useCallback((token: string) => setTurnstileToken(token), []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -61,7 +64,7 @@ export function HomeNewsletter() {
       const formData = new FormData(form);
       const res = await fetch('/api/newsletter', {
         method: 'POST',
-        body: JSON.stringify({ email: formData.get('email'), _hp: formData.get('_hp'), _t: timingToken }),
+        body: JSON.stringify({ email: formData.get('email'), _hp: formData.get('_hp'), _t: timingToken, _cf: turnstileToken }),
         headers: { 'Content-Type': 'application/json' },
       });
 
@@ -147,24 +150,28 @@ export function HomeNewsletter() {
                 <>
                   <form
                     onSubmit={handleSubmit}
-                    className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+                    className="flex flex-col gap-3 max-w-md mx-auto"
                   >
                     <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
-                    <input
-                      type="email"
-                      name="email"
-                      required
-                      placeholder={t('newsletter_placeholder')}
-                      className="flex-1 min-w-0 px-5 py-3.5 rounded-full bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors"
-                    />
-                    <motion.button
-                      type="submit"
-                      whileHover={{ scale: 1.02 }}
-                      whileTap={{ scale: 0.98 }}
-                      className="px-6 sm:px-8 py-3.5 rounded-full bg-white text-black text-sm font-medium hover:bg-gray-100 transition-colors whitespace-nowrap"
-                    >
-                      {t('newsletter_button')}
-                    </motion.button>
+                    <div className="flex flex-col sm:flex-row gap-3">
+                      <input
+                        type="email"
+                        name="email"
+                        required
+                        placeholder={t('newsletter_placeholder')}
+                        className="flex-1 min-w-0 px-5 py-3.5 rounded-full bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors"
+                      />
+                      <motion.button
+                        type="submit"
+                        disabled={!turnstileToken}
+                        whileHover={{ scale: 1.02 }}
+                        whileTap={{ scale: 0.98 }}
+                        className="px-6 sm:px-8 py-3.5 rounded-full bg-white text-black text-sm font-medium hover:bg-gray-100 transition-colors whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
+                      >
+                        {t('newsletter_button')}
+                      </motion.button>
+                    </div>
+                    <Turnstile onToken={onTurnstileToken} theme="dark" size="compact" className="mx-auto" />
                   </form>
 
                   {/* Privacy consent note */}

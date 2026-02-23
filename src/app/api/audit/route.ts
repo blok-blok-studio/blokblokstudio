@@ -4,6 +4,7 @@ import { notifyNewLead } from '@/lib/email';
 import { notifyTelegram } from '@/lib/telegram';
 import { rateLimit } from '@/lib/rate-limit';
 import { runSpamChecks } from '@/lib/spam-guard';
+import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, AUDIT_LIST } from '@/lib/auto-list';
 import { forwardToEasyReach } from '@/lib/easyreach';
 
@@ -25,7 +26,7 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
-    const { name, email, field, website, noWebsite, problem, consent, _hp, _t } = body;
+    const { name, email, field, website, noWebsite, problem, consent, _hp, _t, _cf } = body;
 
     // Basic validation
     if (!name || !email || !field || !problem) {
@@ -55,6 +56,12 @@ export async function POST(req: NextRequest) {
     const spam = runSpamChecks({ honeypot: _hp, timingToken: _t, name, email });
     if (spam.isSpam) {
       return NextResponse.json({ success: true, id: 'ok' });
+    }
+
+    // Cloudflare Turnstile verification
+    const turnstileOk = await verifyTurnstile(_cf, ip);
+    if (!turnstileOk) {
+      return NextResponse.json({ success: true, id: 'ok' }); // Silent reject
     }
 
     // Get IP address for GDPR consent tracking

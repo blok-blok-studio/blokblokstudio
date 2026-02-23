@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { rateLimit } from '@/lib/rate-limit';
 import { runSpamChecks } from '@/lib/spam-guard';
+import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, NEWSLETTER_LIST } from '@/lib/auto-list';
 import { notifyNewsletterSignup } from '@/lib/telegram';
 import { forwardToEasyReach } from '@/lib/easyreach';
@@ -28,7 +29,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { email, _hp, _t } = await req.json();
+    const { email, _hp, _t, _cf } = await req.json();
 
     if (!email || typeof email !== 'string') {
       return NextResponse.json({ error: 'Email is required' }, { status: 400 });
@@ -43,6 +44,12 @@ export async function POST(req: NextRequest) {
     const spam = runSpamChecks({ honeypot: _hp, timingToken: _t, email });
     if (spam.isSpam) {
       return NextResponse.json({ success: true });
+    }
+
+    // Cloudflare Turnstile verification
+    const turnstileOk = await verifyTurnstile(_cf, ip);
+    if (!turnstileOk) {
+      return NextResponse.json({ success: true }); // Silent reject
     }
 
     // Check if already subscribed

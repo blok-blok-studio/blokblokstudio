@@ -48,11 +48,12 @@
  * useTranslations  -> next-intl hook to pull translated strings by namespace.
  * motion           -> Framer Motion for the "Back to top" hover animation.
  * -------------------------------------------------------------------------- */
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import { Turnstile } from './Turnstile';
 
 export function Footer() {
   /* --------------------------------------------------------------------------
@@ -115,6 +116,8 @@ export function Footer() {
   const [footerSubscribed, setFooterSubscribed] = useState(false);
   const [footerAlreadySubscribed, setFooterAlreadySubscribed] = useState(false);
   const [footerTimingToken] = useState(() => Date.now().toString(36));
+  const [footerTurnstileToken, setFooterTurnstileToken] = useState('');
+  const onFooterTurnstileToken = useCallback((token: string) => setFooterTurnstileToken(token), []);
 
   const handleFooterNewsletter = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -123,7 +126,7 @@ export function Footer() {
     try {
       const res = await fetch('/api/newsletter', {
         method: 'POST',
-        body: JSON.stringify({ email: formData.get('email'), _hp: formData.get('_hp'), _t: footerTimingToken }),
+        body: JSON.stringify({ email: formData.get('email'), _hp: formData.get('_hp'), _t: footerTimingToken, _cf: footerTurnstileToken }),
         headers: { 'Content-Type': 'application/json' },
       });
       if (res.status === 409) {
@@ -280,23 +283,27 @@ export function Footer() {
             ) : (
               <>
                 <form
-                  className="flex flex-col sm:flex-row gap-2"
+                  className="flex flex-col gap-2"
                   onSubmit={handleFooterNewsletter}
                 >
                   <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
-                  <input
-                    type="email"
-                    name="email"
-                    required
-                    placeholder={t('newsletter_placeholder')}
-                    className="flex-1 min-w-0 px-4 py-2.5 rounded-full bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors"
-                  />
-                  <button
-                    type="submit"
-                    className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-gray-200 transition-colors whitespace-nowrap"
-                  >
-                    {t('newsletter_button')}
-                  </button>
+                  <div className="flex flex-col sm:flex-row gap-2">
+                    <input
+                      type="email"
+                      name="email"
+                      required
+                      placeholder={t('newsletter_placeholder')}
+                      className="flex-1 min-w-0 px-4 py-2.5 rounded-full bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors"
+                    />
+                    <button
+                      type="submit"
+                      disabled={!footerTurnstileToken}
+                      className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-gray-200 transition-colors whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      {t('newsletter_button')}
+                    </button>
+                  </div>
+                  <Turnstile onToken={onFooterTurnstileToken} theme="dark" size="compact" />
                 </form>
                 <p className="text-xs text-gray-600 mt-2">
                   By subscribing, you agree to our{' '}

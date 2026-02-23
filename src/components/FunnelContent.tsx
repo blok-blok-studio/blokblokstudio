@@ -3,6 +3,7 @@
 import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
 import { useState, useRef, useEffect, useCallback } from 'react';
+import { Turnstile } from './Turnstile';
 
 /* ── Animation helpers ── */
 const fadeUp = {
@@ -461,6 +462,8 @@ function AuditForm() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [timingToken] = useState(() => Date.now().toString(36));
+  const [turnstileToken, setTurnstileToken] = useState('');
+  const onTurnstileToken = useCallback((token: string) => setTurnstileToken(token), []);
 
   const toggleChecklist = (key: string) => {
     setChecklist((prev) => ({ ...prev, [key]: !prev[key] }));
@@ -484,6 +487,7 @@ function AuditForm() {
           ...formData,
           problem: checklistSummary,
           _t: timingToken,
+          _cf: turnstileToken,
         }),
       });
 
@@ -717,6 +721,8 @@ function AuditForm() {
         </span>
       </label>
 
+      <Turnstile onToken={onTurnstileToken} theme="dark" className="mb-2" />
+
       {error && (
         <div className="flex items-center gap-2 p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-sm">
           <svg className="w-4 h-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -728,7 +734,7 @@ function AuditForm() {
 
       <motion.button
         type="submit"
-        disabled={submitting}
+        disabled={submitting || !turnstileToken}
         whileHover={{ scale: submitting ? 1 : 1.02 }}
         whileTap={{ scale: submitting ? 1 : 0.98 }}
         className="w-full flex items-center justify-center gap-3 px-8 py-4 sm:py-5 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold text-sm sm:text-base shadow-lg shadow-orange-500/20 hover:from-orange-400 hover:to-red-400 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
