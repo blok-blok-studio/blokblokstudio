@@ -486,14 +486,18 @@ export function PricingContent() {
           <p style={{ fontSize: 14, color: MU, maxWidth: 520, margin: '0 auto 24px', lineHeight: 1.6, fontWeight: 300 }}>
             AI-powered websites, automations, ads, and social media management. Transparent pricing, defined deliverables, no surprises.
           </p>
-          {/* Tabs */}
-          <div style={{ display: 'inline-flex', background: 'rgba(255,255,255,0.03)', border: `1px solid ${BO}`, borderRadius: 12, padding: 3, flexWrap: 'wrap' }}>
+          {/* Tabs — 2-col grid on mobile, inline-flex row on desktop */}
+          <style dangerouslySetInnerHTML={{ __html: `
+            .pricing-tabs-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:rgba(255,255,255,0.03);border:1px solid ${BO};border-radius:12px;padding:3px;width:100%}
+            @media(min-width:768px){.pricing-tabs-grid{display:inline-flex;width:auto}}
+          ` }} />
+          <div className="pricing-tabs-grid">
             {tabs.map((t) => (
               <button
                 key={t.k}
                 onClick={() => { setTab(t.k); setExp(null); }}
                 style={{
-                  padding: '9px 20px', borderRadius: 10, border: 'none', cursor: 'pointer',
+                  padding: '9px 16px', borderRadius: 10, border: 'none', cursor: 'pointer',
                   fontSize: 12, fontWeight: 600, fontFamily: 'inherit', transition: 'all 0.3s',
                   background: tab === t.k ? `linear-gradient(135deg, ${O}, ${OD})` : 'transparent',
                   color: tab === t.k ? '#fff' : FA,
@@ -506,7 +510,7 @@ export function PricingContent() {
         </div>
 
         {/* Cards */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(330px, 1fr))', gap: 16, marginBottom: 40 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(330px, 100%), 1fr))', gap: 16, marginBottom: 40 }}>
           {pkgs.map((pk, i) => {
             const isE = exp === i;
             return (
@@ -611,14 +615,7 @@ export function PricingContent() {
             </h3>
             <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Add to any package, or purchase standalone. Retainer clients get reduced rates. Add-ons include content creation and basic engagement only &mdash; no strategy, reporting, or calendars. For full-service social with strategy, see the Social Management tab.</p>
 
-            {/* Column headers */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr auto auto', gap: 6, padding: '0 14px 8px', borderBottom: '1px solid rgba(255,255,255,0.04)', marginBottom: 8 }}>
-              <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', color: FA }}>Platform</span>
-              <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', color: FA, textAlign: 'right', minWidth: 80 }}>Standalone</span>
-              <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', color: PR, textAlign: 'right', minWidth: 90 }}>With Retainer</span>
-            </div>
-
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
               {([
                 ['Instagram', '$650/mo', '$400/mo', '8 posts + 4 stories + engagement'],
                 ['LinkedIn', '$700/mo', '$425/mo', '8 posts + connection outreach + engagement'],
@@ -628,13 +625,15 @@ export function PricingContent() {
                 ['X / Twitter', '$500/mo', '$300/mo', '12 posts + engagement + monitoring'],
                 ['Pinterest', '$450/mo', '$275/mo', '20 pins/mo + board strategy'],
               ] as const).map(([n, standalone, retainer, d], idx) => (
-                <div key={idx} style={{ display: 'grid', gridTemplateColumns: '1fr auto auto', gap: 6, padding: '10px 14px', borderRadius: 8, background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.025)', alignItems: 'start' }}>
-                  <div>
-                    <div style={{ fontSize: 12, fontWeight: 600, color: '#bbb' }}>{n}</div>
-                    <div style={{ fontSize: 10, color: FA, lineHeight: 1.4, marginTop: 2 }}>{d}</div>
+                <div key={idx} style={{ padding: '12px 14px', borderRadius: 8, background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.025)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 4 }}>
+                    <span style={{ fontSize: 13, fontWeight: 600, color: '#bbb' }}>{n}</span>
+                    <span style={{ fontSize: 13, color: PR, fontWeight: 700, whiteSpace: 'nowrap' }}>{retainer}</span>
                   </div>
-                  <span style={{ fontSize: 12, color: '#888', fontWeight: 600, whiteSpace: 'nowrap', textAlign: 'right', minWidth: 80, textDecoration: 'line-through', opacity: 0.5 }}>{standalone}</span>
-                  <span style={{ fontSize: 12, color: PR, fontWeight: 700, whiteSpace: 'nowrap', textAlign: 'right', minWidth: 90 }}>{retainer}</span>
+                  <div style={{ fontSize: 10, color: FA, lineHeight: 1.4, marginBottom: 4 }}>{d}</div>
+                  <div style={{ fontSize: 10, color: '#666' }}>
+                    Standalone: <span style={{ textDecoration: 'line-through', opacity: 0.6 }}>{standalone}</span>
+                  </div>
                 </div>
               ))}
             </div>
@@ -657,7 +656,7 @@ export function PricingContent() {
               <span style={{ fontSize: 12, fontWeight: 400, color: MU }}>(standalone or add to any social tier)</span>
             </h3>
             <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>YouTube requires a different skill set than social media &mdash; long-form editing, SEO, thumbnails, and channel strategy. These packages can be purchased standalone or added to any social management tier.</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 12 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 12 }}>
               {[
                 {
                   name: 'YouTube Essentials',
@@ -728,7 +727,7 @@ export function PricingContent() {
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>General Add-Ons</h3>
             <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Enhance any package with these services</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 5 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(200px, 100%), 1fr))', gap: 5 }}>
               {([
                 ['Additional Pages', '$400/pg'], ['E-Commerce (Shopify)', '$3,000'],
                 ['AI Voice Agent', '$1,500'], ['Email Sequences', '$900'],
@@ -751,7 +750,7 @@ export function PricingContent() {
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>Development Add-Ons</h3>
             <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Available with any custom build or dev retainer</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 5 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(220px, 100%), 1fr))', gap: 5 }}>
               {([
                 ['API Integration', '$3,000'], ['Payment Processing (Stripe)', '$4,000'],
                 ['User Auth & Roles', '$3,000'], ['Email/SMS Notifications', '$1,500'],
