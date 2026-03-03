@@ -62,9 +62,10 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
+import { Turnstile } from './Turnstile';
 import { motion } from 'framer-motion';
 
 /**
@@ -89,6 +90,9 @@ export function ContactContent() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
+  const [timingToken] = useState(() => Date.now().toString(36));
+  const [turnstileToken, setTurnstileToken] = useState('');
+  const onTurnstileToken = useCallback((token: string) => setTurnstileToken(token), []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -105,6 +109,9 @@ export function ContactContent() {
           company: formData.get('company'),
           message: formData.get('message'),
           consent: true,
+          _hp: formData.get('_hp'),
+          _t: timingToken,
+          _cf: turnstileToken,
         }),
         headers: { 'Content-Type': 'application/json' },
       });
@@ -208,6 +215,8 @@ export function ContactContent() {
                  You need to add backend integration to make it work.
               */
               <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+                {/* Honeypot — hidden from humans, bots fill it */}
+                <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
 
                 {/* Name + Email fields — side by side on sm+ */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
@@ -285,13 +294,15 @@ export function ContactContent() {
                   </label>
                 </div>
 
+                <Turnstile onToken={onTurnstileToken} theme="dark" className="mb-2" />
+
                 {error && (
                   <p className="text-red-400 text-sm">{error}</p>
                 )}
 
                 <motion.button
                   type="submit"
-                  disabled={submitting}
+                  disabled={submitting || !turnstileToken}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="w-full sm:w-auto px-10 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"

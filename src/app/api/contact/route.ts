@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { rateLimit } from '@/lib/rate-limit';
+import { runSpamChecks } from '@/lib/spam-guard';
+import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, CONTACT_LIST } from '@/lib/auto-list';
 import { pushToEasyReach } from '@/lib/easyreach';
 
@@ -32,11 +34,23 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { name, email, company, message, consent } = await req.json();
+    const { name, email, company, message, consent, _hp, _t, _cf } = await req.json();
     const consentIp = ip;
 
     if (!name || !email || !message) {
       return NextResponse.json({ error: 'Name, email, and message are required' }, { status: 400 });
+    }
+
+    // Spam detection
+    const spam = runSpamChecks({ honeypot: _hp, timingToken: _t, name, email, message });
+    if (spam.isSpam) {
+      return NextResponse.json({ success: true });
+    }
+
+    // Cloudflare Turnstile verification
+    const turnstileOk = await verifyTurnstile(_cf, ip);
+    if (!turnstileOk) {
+      return NextResponse.json({ success: true }); // Silent reject
     }
 
     // Create or update the lead

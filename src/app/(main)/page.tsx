@@ -7,6 +7,7 @@ import { HomeServices } from '@/components/HomeServices';
 import { HomeProjects } from '@/components/HomeProjects';
 import { HomeTestimonials } from '@/components/HomeTestimonials';
 import { HomeNewsletter } from '@/components/HomeNewsletter';
+import { HomeAuditCTA } from '@/components/HomeAuditCTA';
 import { HomeCTA } from '@/components/HomeCTA';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -29,6 +30,7 @@ export default function HomePage() {
       <HomeServices />
       <HomeProjects />
       <HomeTestimonials />
+      <HomeAuditCTA />
       <HomeNewsletter />
       <HomeCTA />
     </div>
