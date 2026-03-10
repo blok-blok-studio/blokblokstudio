@@ -491,6 +491,8 @@ function AuditForm() {
   const [step, setStep] = useState(0);
   const [direction, setDirection] = useState(1);
   const [qualified, setQualified] = useState(false);
+  const [disqualified, setDisqualified] = useState(false);
+  const [disqualifyReason, setDisqualifyReason] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [timingToken] = useState(() => Date.now().toString(36));
@@ -532,10 +534,71 @@ function AuditForm() {
     }
   };
 
+  const disqualify = async (reason: string) => {
+    setDisqualifyReason(reason);
+    setDisqualified(true);
+    // Still submit to CRM with [DQ] tag for future outreach
+    try {
+      const budgetLabel = budgetOptions.find(o => o.value === formData.budget)?.label || formData.budget || 'N/A';
+      const authorityLabel = authorityOptions.find(o => o.value === formData.authority)?.label || formData.authority || 'N/A';
+      const needLabel = needOptions.find(o => o.value === formData.need)?.label || formData.need || 'N/A';
+      const bantSummary = [
+        `DISQUALIFIED LEAD [DQ] — ${reason}`,
+        '',
+        `Budget: ${budgetLabel}`,
+        `Authority: ${authorityLabel}`,
+        `Need: ${needLabel}`,
+        `Time to implement: ${formData.timingImplement || 'N/A'}`,
+        `Right time: ${formData.timingRight || 'N/A'}`,
+        `Willing to show up: ${formData.commitment || 'N/A'}`,
+      ].join('\n');
+      await fetch('/api/call', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          field: 'Strategy Lead [DQ]',
+          website: '',
+          noWebsite: true,
+          problem: bantSummary,
+          consent: true,
+          _hp: formData._hp,
+          _t: timingToken,
+          _cf: turnstileToken,
+        }),
+      });
+    } catch {
+      // Silently fail — DQ screen still shows
+    }
+  };
+
   const handleNext = async () => {
     if (!canProceed()) return;
     setDirection(1);
     setError('');
+
+    // ── Disqualification checks ──
+    // Budget: no budget at all
+    if (step === 1 && formData.budget === 'not_ready') {
+      await disqualify('no_budget');
+      return;
+    }
+    // Need: just browsing
+    if (step === 3 && formData.need === 'no') {
+      await disqualify('no_need');
+      return;
+    }
+    // Timing: both questions answered "no"
+    if (step === 4 && formData.timingImplement === 'no' && formData.timingRight === 'no') {
+      await disqualify('bad_timing');
+      return;
+    }
+    // Commitment: won't show up
+    if (step === 5 && formData.commitment === 'no') {
+      await disqualify('no_commitment');
+      return;
+    }
 
     if (step < 5) {
       setStep(step + 1);
@@ -564,7 +627,7 @@ function AuditForm() {
     const tier = score >= 5 ? 'HOT' : score >= 3 ? 'WARM' : 'COLD';
 
     const bantSummary = [
-      `DISCOVERY LEAD [${tier}] (score: ${score}/7)`,
+      `STRATEGY LEAD [${tier}] (score: ${score}/7)`,
       '',
       `Budget: ${budgetLabel}`,
       `Authority: ${authorityLabel}`,
@@ -634,6 +697,65 @@ function AuditForm() {
           Book Your 30-Min Strategy Call
         </a>
         <p className="text-xs text-gray-600 mt-4">Powered by Cal.com — pick a time that works for you</p>
+      </motion.div>
+    );
+  }
+
+  /* ── Disqualified Screen ── */
+  if (disqualified) {
+    const dqMessages: Record<string, { heading: string; message: string }> = {
+      no_budget: {
+        heading: 'No worries — timing is everything.',
+        message: 'It sounds like you\'re not quite ready to invest right now, and that\'s okay. When the time is right, we\'ll be here.',
+      },
+      no_need: {
+        heading: 'Thanks for checking us out.',
+        message: 'It doesn\'t sound like there\'s an urgent need right now — but when something comes up, we\'d love to help.',
+      },
+      bad_timing: {
+        heading: 'The timing isn\'t quite right.',
+        message: 'It sounds like now might not be the best moment to take this on. When things free up, come back and book a call.',
+      },
+      no_commitment: {
+        heading: 'No pressure at all.',
+        message: 'A strategy call only works if you\'re ready to show up. Whenever you\'re ready, the link will be here.',
+      },
+    };
+    const dq = dqMessages[disqualifyReason] || dqMessages.no_budget;
+
+    return (
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="text-center py-12 sm:py-16"
+      >
+        <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-orange-500/10 border border-orange-500/20 flex items-center justify-center">
+          <svg className="w-10 h-10 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h3 className="text-2xl sm:text-3xl font-bold mb-3">{dq.heading}</h3>
+        <p className="text-gray-400 text-base sm:text-lg max-w-md mx-auto mb-8">
+          {dq.message}
+        </p>
+        <div className="space-y-3 max-w-xs mx-auto">
+          <a
+            href="https://www.instagram.com/blokblokstudio/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl bg-white/[0.06] border border-white/10 text-white font-medium text-sm hover:bg-white/[0.1] transition-colors"
+          >
+            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" /></svg>
+            Follow Us on Instagram
+          </a>
+          <a
+            href="/"
+            className="flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl text-gray-500 text-sm hover:text-gray-300 transition-colors"
+          >
+            Back to Homepage
+          </a>
+        </div>
+        <p className="text-xs text-gray-600 mt-8">We saved your info — we&apos;ll only reach out if we think we can help.</p>
       </motion.div>
     );
   }

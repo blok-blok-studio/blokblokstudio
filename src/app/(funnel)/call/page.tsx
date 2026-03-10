@@ -13,10 +13,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/api/og-call',
         width: 1200,
         height: 630,
-        alt: 'Blok Blok Studio: Free Strategy Call',
+        alt: 'Free Strategy Call — Blok Blok Studio',
       },
     ],
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Free Strategy Call | Blok Blok Studio',
     description: 'Book a free 30-minute strategy call with Blok Blok Studio. We\'ll review your operation and build a custom growth plan.',
-    images: ['/og-image.jpg'],
+    images: ['/api/og-call'],
   },
   alternates: { canonical: '/call' },
 };

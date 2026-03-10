@@ -37,7 +37,7 @@ const pkgData: Record<string, Package[]> = {
         { i: 'Design revisions', l: '2 rounds of revisions per page. A \u2018round\u2019 = 1 consolidated set of feedback. Feedback must be submitted within 5 business days of each review. No partial or rolling feedback across multiple emails.' },
         { i: 'Content & copy', l: 'Client provides all written content (headlines, body copy, bios, service descriptions). We handle layout, formatting, and placement. If you need copywriting, it can be added at $200/page.' },
       ],
-      ov: ['Additional pages: $400/page', 'Extra revision round: $300', 'Copywriting: $200/page', 'Additional Q&A (25+): $250/batch', 'Additional automation: $350 each'],
+      ov: ['Additional pages: $500/page', 'Extra revision round: $300', 'Copywriting: $200/page', 'Additional Q&A (25+): $250/batch', 'Additional automation: $350 each'],
       ho: 'Complete upon client sign-off OR after 2 revision rounds. Post-sign-off: $175/hr.',
       bridge: 'Includes 30 days of post-launch monitoring (bug fixes, chatbot checks, CRM health). After day 30, ongoing maintenance, updates, and AI tuning transition to our Maintain & Monitor plan ($1,500/mo) so your systems stay optimized.',
       ideal: 'Startups, solopreneurs, local businesses',
@@ -60,7 +60,7 @@ const pkgData: Record<string, Package[]> = {
         { i: 'Design revisions', l: '3 rounds of revisions per deliverable (website pages, brand assets, ad creatives, and dashboard). A \u2018round\u2019 = 1 consolidated set of feedback submitted within 5 business days.' },
         { i: 'Content & copy', l: 'We write copy for your homepage and services page (1,500 words total). All other page content provided by you. Blog CMS delivered empty \u2014 you or your team creates posts, or add our content package.' },
       ],
-      ov: ['Additional pages: $400/page', 'Extra revision: $300/round', 'Additional ad campaign: $1,500', 'Additional voice script: $750', 'Automations (8+): $350 each', 'Extra landing page: $900', 'Copywriting beyond included: $200/page'],
+      ov: ['Additional pages: $500/page', 'Extra revision: $300/round', 'Additional ad campaign: $1,500', 'Additional voice script: $750', 'Automations (8+): $350 each', 'Extra landing page: $900', 'Copywriting beyond included: $200/page'],
       ho: 'Complete upon sign-off OR 3 revision rounds. Post-sign-off: $175/hr.',
       bridge: 'Includes 30 days post-launch: ad management, AI monitoring, and bug fixes. After day 30, your ads, AI agents, and automations need ongoing optimization to keep performing. We recommend our Growth Engine plan ($3,500/mo) to maintain momentum.',
       ideal: 'Growing businesses scaling with systems',
@@ -83,7 +83,7 @@ const pkgData: Record<string, Package[]> = {
         { i: 'Design revisions', l: '3 rounds of revisions per deliverable across all assets. A \u2018round\u2019 = 1 consolidated set of feedback submitted within 5 business days.' },
         { i: 'Copywriting', l: 'Full professional copywriting for 10 website pages (headlines, body copy, CTAs, meta descriptions). Client provides raw material, notes, or bullet points for remaining pages. Ad copy for all Google and Meta campaigns written and included.' },
       ],
-      ov: ['Additional pages: $400', 'Extra revision: $350/round', 'Additional AI agent: $2,500', 'Additional ad campaign: $1,500', 'Voice script: $750', 'Automations (15+): $400 each', 'Products (20+): $75/product', 'Content after month 1: requires retainer'],
+      ov: ['Additional pages: $500', 'Extra revision: $350/round', 'Additional AI agent: $2,500', 'Additional ad campaign: $1,500', 'Voice script: $750', 'Automations (15+): $400 each', 'Products (20+): $75/product', 'Content after month 1: requires retainer'],
       ho: 'Complete upon sign-off OR 3 rounds. Post-sign-off: $175/hr.',
       bridge: 'Includes 45 days post-launch: full monitoring, ad management, AI tuning, and bug fixes. After day 45, your AI ecosystem, ad campaigns, and content systems need ongoing management to deliver results. We recommend our Full Partnership ($7,500/mo) or Growth Engine ($3,500/mo) based on your needs.',
       ideal: 'Established businesses wanting full AI infrastructure',
@@ -92,8 +92,8 @@ const pkgData: Record<string, Package[]> = {
   socialSetup: [
     {
       name: 'Single Platform Setup',
-      price: 600,
-      disp: '$600',
+      price: 1200,
+      disp: '$1,200',
       tag: 'Get one channel right',
       tl: '3\u20135 days',
       scope: [
@@ -105,15 +105,15 @@ const pkgData: Record<string, Package[]> = {
         { i: 'Launch content (4 posts)', l: '4 ready-to-publish posts: static graphics with captions written. Includes: 1 introduction/welcome post, 1 service or product highlight, 1 social proof or testimonial post, and 1 CTA or engagement post. Graphics sized for the specific platform. Captions include relevant hashtags from your strategy sets.' },
         { i: 'Platform guide (PDF)', l: '1-page PDF tailored to your platform. Covers: best times to post, ideal post frequency, content types that perform best, hashtag usage tips, and engagement best practices. Actionable and specific to your industry.' },
       ],
-      ov: ['Additional platform: $600 each', 'Extra post templates: $100 each', 'Extra launch posts (4+): $60 each', 'Revision round: $175', 'Video content (Reels/Shorts): $175 each'],
+      ov: ['Additional platform: $1,200 each', 'Extra post templates: $100 each', 'Extra launch posts (4+): $60 each', 'Revision round: $175', 'Video content (Reels/Shorts): $175 each'],
       ho: 'Complete upon sign-off OR 1 revision round. Post-delivery changes: $175/hr.',
-      bridge: 'Your profiles are set up and ready to go. To keep them active and growing, add our Social Starter plan ($900/mo) or individual platform management starting at $450/mo.',
+      bridge: 'Your profiles are set up and ready to go. To keep them active and growing, add our Social Starter plan ($1,500/mo) or individual platform management starting at $650/mo.',
       ideal: 'Businesses starting fresh on a platform',
     },
     {
       name: 'Multi-Platform Launch',
-      price: 1500,
-      disp: '$1,500',
+      price: 2000,
+      disp: '$2,000',
       tag: 'Most Popular',
       pop: true,
       tl: '1\u20132 weeks',
@@ -130,13 +130,13 @@ const pkgData: Record<string, Package[]> = {
       ],
       ov: ['Additional platform: $500 each', 'Extra templates: $75 each', 'Extra launch posts (6+): $50 each', 'Revision round: $175', 'Video content: $175 each', 'Additional link-in-bio page: $200'],
       ho: 'Complete upon sign-off OR 2 revision rounds. Post-delivery: $175/hr.',
-      bridge: 'All platforms launch-ready with 30 days of content planned. To keep growing, we recommend our Social Growth plan ($2,000/mo) or per-platform add-ons.',
+      bridge: 'All platforms launch-ready with 30 days of content planned. To keep growing, we recommend our Social Growth plan ($2,500/mo) or per-platform add-ons.',
       ideal: 'Businesses launching or refreshing their social presence',
     },
     {
       name: 'Full Social Rebrand',
-      price: 3000,
-      disp: '$3,000',
+      price: 3500,
+      disp: '$3,500',
       tag: 'Complete overhaul',
       tl: '2\u20133 weeks',
       scope: [
@@ -153,7 +153,7 @@ const pkgData: Record<string, Package[]> = {
       ],
       ov: ['Additional platform: $400 each', 'Extra templates: $60 each', 'Extra launch posts (8+): $45 each', 'Extra video: $175 each', 'Revision round: $250', 'YouTube intro/outro video: $600'],
       ho: 'Complete upon sign-off OR 2 revision rounds. Post-delivery: $175/hr.',
-      bridge: 'Your entire social presence is rebuilt and launch-ready with 60 days of content. To maintain momentum, we recommend Social Domination ($4,000/mo) or Social Growth ($2,000/mo).',
+      bridge: 'Your entire social presence is rebuilt and launch-ready with 60 days of content. To maintain momentum, we recommend Social Domination ($4,500/mo) or Social Growth ($2,500/mo).',
       ideal: 'Established businesses with outdated or inconsistent social presence',
     },
   ],
@@ -173,7 +173,7 @@ const pkgData: Record<string, Package[]> = {
         { i: 'CRM pipeline management', l: 'Monthly review of your GHL pipeline health: stuck leads, stale deals, and automation errors. 3 automation adjustments per month (e.g., updating email copy, changing trigger timing, fixing broken sequences). Contact list hygiene: duplicate flagging and bounce removal (500 contacts/mo max).' },
         { i: 'Support', l: 'Email support only (no phone, no Slack at this tier). 48-hour response time during business days (M\u2013F 9\u20135). Up to 10 support requests per month. Each request = 1 specific ask (not a list of changes). Requests beyond 10 billed at $175/hr.' },
       ],
-      ov: ['Design beyond 2hr: $175/hr', 'New page: $400', 'Strategy call: $250/hr', 'Automations (3+): $250 each', 'Emergency/same-day: +50%'],
+      ov: ['Design beyond 2hr: $175/hr', 'New page: $500', 'Strategy call: $250/hr', 'Automations (3+): $250 each', 'Emergency/same-day: +50%'],
       ex: 'No ad management, no content creation, no new features, no voice agents, no social media. Requires higher tier.',
       ideal: 'Peace of mind after launch',
     },
@@ -223,8 +223,8 @@ const pkgData: Record<string, Package[]> = {
   social: [
     {
       name: 'Social Starter',
-      price: 900,
-      disp: '$900',
+      price: 1500,
+      disp: '$1,500',
       per: '/mo',
       tag: '1\u20132 Platforms',
       com: '3-month minimum',
@@ -243,8 +243,8 @@ const pkgData: Record<string, Package[]> = {
     },
     {
       name: 'Social Growth',
-      price: 2000,
-      disp: '$2,000',
+      price: 2500,
+      disp: '$2,500',
       per: '/mo',
       tag: 'Most Popular',
       pop: true,
@@ -265,8 +265,8 @@ const pkgData: Record<string, Package[]> = {
     },
     {
       name: 'Social Domination',
-      price: 4000,
-      disp: '$4,000',
+      price: 4500,
+      disp: '$4,500',
       per: '/mo',
       tag: 'Full-service social',
       com: '6-month minimum',
@@ -457,18 +457,29 @@ interface Package {
  * Component
  * ────────────────────────────────────────────────────────────── */
 export function PricingContent() {
-  const [tab, setTab] = useState('oneTime');
-  const [exp, setExp] = useState<number | null>(null);
-  const pkgs = pkgData[tab];
+  const [tab, setTab] = useState('launch');
+  const [exp, setExp] = useState<string | null>(null);
 
   const tabs = [
-    { k: 'oneTime', l: 'One-Time Projects' },
-    { k: 'socialSetup', l: 'Social Setup' },
-    { k: 'customBuild', l: 'Custom Builds' },
-    { k: 'monthly', l: 'Marketing Retainers' },
-    { k: 'social', l: 'Social Management' },
-    { k: 'customSupport', l: 'Software Retainers' },
+    { k: 'launch', l: 'Launch' },
+    { k: 'grow', l: 'Grow' },
+    { k: 'build', l: 'Build' },
   ];
+
+  const tabSections: Record<string, { heading: string; key: string }[]> = {
+    launch: [
+      { heading: 'Website & Brand Packages', key: 'oneTime' },
+      { heading: 'Social Media Setup', key: 'socialSetup' },
+    ],
+    grow: [
+      { heading: 'Marketing Retainers', key: 'monthly' },
+      { heading: 'Social Media Management', key: 'social' },
+    ],
+    build: [
+      { heading: 'Custom Software', key: 'customBuild' },
+      { heading: 'Ongoing Support', key: 'customSupport' },
+    ],
+  };
 
   return (
     <div style={{ minHeight: '100vh', background: '#0A0A0F', fontFamily: "'Outfit', system-ui, sans-serif", color: '#E4E4ED', padding: '32px 14px', paddingTop: '120px' }}>
@@ -488,8 +499,7 @@ export function PricingContent() {
           </p>
           {/* Tabs — 2-col grid on mobile, inline-flex row on desktop */}
           <style dangerouslySetInnerHTML={{ __html: `
-            .pricing-tabs-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:rgba(255,255,255,0.03);border:1px solid ${BO};border-radius:12px;padding:3px;width:100%}
-            @media(min-width:768px){.pricing-tabs-grid{display:inline-flex;width:auto}}
+            .pricing-tabs-grid{display:inline-flex;gap:4px;background:rgba(255,255,255,0.03);border:1px solid ${BO};border-radius:12px;padding:3px}
           ` }} />
           <div className="pricing-tabs-grid">
             {tabs.map((t) => (
@@ -509,12 +519,21 @@ export function PricingContent() {
           </div>
         </div>
 
-        {/* Cards */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(330px, 100%), 1fr))', gap: 16, marginBottom: 40 }}>
-          {pkgs.map((pk, i) => {
-            const isE = exp === i;
+        {/* Cards — grouped by sub-section */}
+        {tabSections[tab].map((section) => (
+          <div key={section.key} style={{ marginBottom: 28 }}>
+            {/* Sub-section divider */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 18, marginTop: 8 }}>
+              <div style={{ height: 1, flex: 1, background: 'rgba(255,255,255,0.06)' }} />
+              <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '1.2px', textTransform: 'uppercase', color: OL, whiteSpace: 'nowrap' }}>{section.heading}</span>
+              <div style={{ height: 1, flex: 1, background: 'rgba(255,255,255,0.06)' }} />
+            </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(330px, 100%), 1fr))', gap: 16 }}>
+          {pkgData[section.key].map((pk, i) => {
+            const expKey = `${section.key}-${i}`;
+            const isE = exp === expKey;
             return (
-              <div key={`${tab}-${i}`} style={{
+              <div key={expKey} style={{
                 background: `linear-gradient(165deg, ${pk.pop ? 'rgba(249,115,22,0.035)' : 'rgba(14,14,22,0.95)'} 0%, rgba(10,10,15,0.98) 100%)`,
                 border: pk.pop ? '1.5px solid rgba(249,115,22,0.4)' : `1px solid ${BO}`,
                 borderRadius: 16, padding: '24px 20px', display: 'flex', flexDirection: 'column', position: 'relative',
@@ -547,7 +566,7 @@ export function PricingContent() {
                 </div>
 
                 {/* Expand */}
-                <button onClick={() => setExp(isE ? null : i)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
+                <button onClick={() => setExp(isE ? null : expKey)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
                   <Chev open={isE} /> {isE ? 'Hide' : 'View'} Overages, Boundaries{pk.bridge ? ' & Retainer Bridge' : ''}
                 </button>
                 {isE && (
@@ -605,25 +624,27 @@ export function PricingContent() {
             );
           })}
         </div>
+        </div>
+        ))}
 
         {/* Social Media A La Carte */}
-        {(tab === 'oneTime' || tab === 'monthly') && (
+        {(tab === 'launch' || tab === 'grow') && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
               Social Media Add-Ons{' '}
               <span style={{ fontSize: 12, fontWeight: 400, color: MU }}>(per platform, per month)</span>
             </h3>
-            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Add to any package, or purchase standalone. Retainer clients get reduced rates. Add-ons include content creation and basic engagement only &mdash; no strategy, reporting, or calendars. For full-service social with strategy, see the Social Management tab.</p>
+            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Add to any package, or purchase standalone. Retainer clients get reduced rates. Add-ons include content creation and basic engagement only &mdash; no strategy, reporting, or calendars. For full-service social with strategy, see our Social Media Management packages above.</p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
               {([
-                ['Instagram', '$650/mo', '$400/mo', '8 posts + 4 stories + engagement'],
-                ['LinkedIn', '$700/mo', '$425/mo', '8 posts + connection outreach + engagement'],
-                ['TikTok', '$750/mo', '$450/mo', '8 posts (4 video) + trend monitoring'],
-                ['YouTube Shorts', '$550/mo', '$350/mo', '4 Shorts/mo from existing footage'],
-                ['Facebook', '$550/mo', '$350/mo', '8 posts + community engagement'],
-                ['X / Twitter', '$500/mo', '$300/mo', '12 posts + engagement + monitoring'],
-                ['Pinterest', '$450/mo', '$275/mo', '20 pins/mo + board strategy'],
+                ['Instagram', '$950/mo', '$600/mo', '8 posts + 4 stories + engagement'],
+                ['LinkedIn', '$1,050/mo', '$650/mo', '8 posts + connection outreach + engagement'],
+                ['TikTok', '$1,100/mo', '$700/mo', '8 posts (4 video) + trend monitoring'],
+                ['YouTube Shorts', '$750/mo', '$450/mo', '4 Shorts/mo from existing footage'],
+                ['Facebook', '$750/mo', '$450/mo', '8 posts + community engagement'],
+                ['X / Twitter', '$750/mo', '$450/mo', '12 posts + engagement + monitoring'],
+                ['Pinterest', '$650/mo', '$400/mo', '20 pins/mo + board strategy'],
               ] as const).map(([n, standalone, retainer, d], idx) => (
                 <div key={idx} style={{ padding: '12px 14px', borderRadius: 8, background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.025)' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 4 }}>
@@ -649,7 +670,7 @@ export function PricingContent() {
         )}
 
         {/* YouTube Management - Standalone */}
-        {tab === 'social' && (
+        {tab === 'grow' && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
               YouTube Management{' '}
@@ -660,7 +681,7 @@ export function PricingContent() {
               {[
                 {
                   name: 'YouTube Essentials',
-                  price: '$1,200/mo',
+                  price: '$1,500/mo',
                   items: [
                     '4 videos/mo edited from your raw footage (up to 10 min each)',
                     'Custom thumbnail designed for each video',
@@ -673,7 +694,7 @@ export function PricingContent() {
                 },
                 {
                   name: 'YouTube Growth',
-                  price: '$2,500/mo',
+                  price: '$3,000/mo',
                   pop: true,
                   items: [
                     '8 videos/mo edited (up to 15 min each)',
@@ -716,23 +737,23 @@ export function PricingContent() {
                 <strong style={{ color: OL }}>Overages:</strong> Extra videos beyond monthly limit: $300 each. Extra Shorts: $150 each. Extra thumbnail A/B test: $75. Additional revision round: $175. Video shooting/production: quoted separately. YouTube Ads management: add from Marketing Retainers tab.
               </div>
               <div style={{ padding: '10px 14px', borderRadius: 8, background: 'rgba(52,211,153,0.05)', border: '1px solid rgba(52,211,153,0.12)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
-                <strong style={{ color: PR }}>Bundle with social:</strong> Add YouTube Essentials to any social tier for $1,000/mo (save $200). Add YouTube Growth for $2,200/mo (save $300). 6-month minimum commitment.
+                <strong style={{ color: PR }}>Bundle with social:</strong> Add YouTube Essentials to any social tier for $1,200/mo (save $300). Add YouTube Growth for $2,600/mo (save $400). 6-month minimum commitment.
               </div>
             </div>
           </div>
         )}
 
         {/* General Add-Ons - Marketing */}
-        {tab !== 'customBuild' && tab !== 'customSupport' && (
+        {tab !== 'build' && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>General Add-Ons</h3>
             <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Enhance any package with these services</p>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(200px, 100%), 1fr))', gap: 5 }}>
               {([
-                ['Additional Pages', '$400/pg'], ['E-Commerce (Shopify)', '$3,000'],
-                ['AI Voice Agent', '$1,500'], ['Email Sequences', '$900'],
+                ['Additional Pages', '$500/pg'], ['E-Commerce (Shopify)', '$3,000'],
+                ['AI Voice Agent', '$1,500'], ['Email Sequences', '$1,200'],
                 ['Brand Video (30s)', '$1,800'], ['Pitch Deck', '$1,500'],
-                ['Landing Page', '$1,400'], ['SMS Campaign', '$700'],
+                ['Landing Page', '$1,400'], ['SMS Campaign', '$1,000'],
                 ['CRM Migration', '$1,800'], ['API Integration', '$2,500+'],
                 ['Strategy Session', '$500'], ['Copywriting', '$200/pg'],
               ] as const).map(([n, p], idx) => (
@@ -746,7 +767,7 @@ export function PricingContent() {
         )}
 
         {/* General Add-Ons - Custom Builds */}
-        {(tab === 'customBuild' || tab === 'customSupport') && (
+        {tab === 'build' && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>Development Add-Ons</h3>
             <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Available with any custom build or dev retainer</p>
