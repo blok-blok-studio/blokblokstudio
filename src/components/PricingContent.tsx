@@ -351,6 +351,66 @@ const pkgData: Record<string, Package[]> = {
       ideal: 'SaaS platforms, multi-tenant systems, AI-integrated products, and enterprise tools',
     },
   ],
+  aiAgents: [
+    {
+      name: 'Single Agent Build',
+      price: 5000,
+      disp: '$5,000',
+      tag: 'One powerful agent',
+      tl: '1\u20132 weeks',
+      scope: [
+        { i: 'Custom AI agent (1)', l: 'One purpose-built AI agent designed, trained, and deployed for your business. Choose from: voice agent, email agent, web scraping agent, PDF generation agent, customer support chatbot, lead qualification agent, data processing agent, appointment booking agent, or any custom use case. Agent is tailored to your specific workflows, brand voice, and data sources.' },
+        { i: 'Agent training & configuration', l: 'We configure the agent\u2019s behavior, decision logic, and response patterns based on your requirements. Includes: up to 50 training data points (Q&A pairs, scripts, or example workflows). Custom fallback handling and error responses. Integration with 1 external system (CRM, email, calendar, database, or API).' },
+        { i: 'Testing & deployment', l: 'Full end-to-end testing across all expected use cases. Edge case handling and stress testing. Deployed to your infrastructure or our managed hosting. Includes staging environment for your review before going live.' },
+        { i: 'Documentation & handoff', l: 'Agent behavior documentation: what it does, how it works, and how to update it. Admin guide for modifying responses, updating training data, or pausing the agent. Architecture diagram showing how the agent connects to your systems.' },
+        { i: '30-day support', l: '30 days of post-launch monitoring and bug fixes. Up to 15 training data updates during this period. Performance metrics tracked: response accuracy, completion rate, and error rate. After 30 days, ongoing optimization available via our AI Operations retainer.' },
+      ],
+      ov: ['Additional integration: $1,500', 'Training data beyond 50 items: $500/batch of 50', 'Extra revision round: $350', 'Rush delivery (under 1 week): +40%', 'Agent retraining: $750'],
+      ho: 'Complete upon sign-off OR 2 revision rounds. Agent ownership transfers to you. Post-30-day support: $200/hr or transition to retainer.',
+      bridge: 'Your agent is live and working. To keep it optimized, retrained, and evolving, add our AI Operations retainer or Hourly Bank for ongoing agent management.',
+      ideal: 'Businesses automating one specific workflow',
+    },
+    {
+      name: 'Agent Team',
+      price: 8500,
+      disp: '$8,500',
+      tag: 'Most Popular',
+      pop: true,
+      tl: '2\u20134 weeks',
+      scope: [
+        { i: 'Custom AI agents (3)', l: 'Three interconnected AI agents working as a coordinated system. Example setups: (1) Voice agent answers calls + email agent sends follow-ups + CRM agent updates pipeline. (2) Scraping agent gathers data + processing agent formats reports + email agent distributes them. (3) Chatbot captures leads + qualification agent scores them + booking agent schedules calls. Agents communicate with each other and share data automatically.' },
+        { i: 'Workflow orchestration', l: 'Custom decision tree mapping how agents hand off to each other. Conditional logic: agents take different actions based on data, time of day, lead score, or custom rules. Error handling: if one agent fails, the system notifies you and queues the task for retry. All agent-to-agent communication logged and auditable.' },
+        { i: 'Integrations (3 included)', l: '3 external system integrations across your agent team. Common integrations: GoHighLevel, HubSpot, Salesforce, Google Workspace, Slack, Twilio, Stripe, Shopify, Zapier, Make, or any service with a REST API. Each integration includes: data mapping, authentication, error handling, and retry logic.' },
+        { i: 'Monitoring dashboard', l: 'Real-time dashboard showing all 3 agents\u2019 status, activity, and performance. Metrics tracked: tasks completed, success rate, average response time, errors, and volume trends. Alerts configured for: agent downtime, error spikes, or unusual activity. Accessible via shareable link \u2014 no login required.' },
+        { i: 'Agent training & testing', l: 'Each agent trained on up to 75 data points. Full end-to-end testing of the entire agent workflow (not just individual agents). Load testing for high-volume scenarios. User acceptance testing with your team before go-live.' },
+        { i: '60-day support', l: '60 days of post-launch monitoring, bug fixes, and optimization. Up to 25 training data updates per agent during this period. Bi-weekly performance check-ins (email summary). After 60 days, ongoing management available via retainer.' },
+      ],
+      ov: ['Additional agent: $2,500', 'Additional integration: $1,500', 'Training data beyond 75/agent: $500/batch', 'Extra revision round: $400', 'Rush delivery: +40%'],
+      ho: 'Complete upon sign-off OR 2 revision rounds. All agents and code ownership transfer to you.',
+      bridge: 'Your agent team is live and coordinated. For ongoing optimization, retraining, and new agent additions, we recommend our AI Operations retainer ($5,000/mo).',
+      ideal: 'Businesses automating multi-step workflows end-to-end',
+    },
+    {
+      name: 'AI Operations',
+      price: 15000,
+      disp: '$15,000+',
+      tag: 'Enterprise AI ecosystem',
+      tl: '4\u20138 weeks',
+      scope: [
+        { i: 'Custom AI agents (5+)', l: 'Five or more AI agents designed as a complete operational layer for your business. Covers multiple departments: sales, support, marketing, operations, and data. Every agent purpose-built for your workflows \u2014 no templates, no generic setups. Agent types include any combination of: voice, email, chat, scraping, PDF generation, data processing, scheduling, content creation, lead scoring, and custom use cases.' },
+        { i: 'AI orchestration layer', l: 'Central coordination system that manages all agents. Intelligent routing: tasks automatically assigned to the right agent based on type, priority, and context. Queue management for high-volume scenarios. Agent-to-agent communication with shared memory and context passing. Retry logic, fallback handling, and graceful degradation when agents encounter errors.' },
+        { i: 'Integrations (6 included)', l: '6 external integrations connecting your agent ecosystem to your business tools. Includes complex integrations: multi-step workflows across CRM + email + calendar + payment systems. Webhook listeners for real-time triggers. Data synchronization across platforms with conflict resolution.' },
+        { i: 'Executive AI dashboard', l: 'Comprehensive dashboard showing your entire AI operation. Per-agent metrics: volume, success rate, response time, cost per task. System-wide metrics: total tasks processed, revenue attributed to AI, time saved, and error trends. Automated weekly summary emailed to up to 5 recipients. Custom alerts for critical events.' },
+        { i: 'Security & compliance', l: 'Data encryption for all agent communications. Role-based access control for agent management. Audit logging for every agent action (who, what, when). PII handling protocols configured per your requirements. Data retention policies enforced automatically.' },
+        { i: 'Training & onboarding', l: 'Each agent trained on up to 150 data points. 2-hour training session with your team on how to manage, monitor, and update agents. Runbook documentation for every agent: what it does, how to modify it, and troubleshooting steps. Video walkthrough of the monitoring dashboard.' },
+        { i: '90-day support & optimization', l: '90 days of active monitoring, optimization, and iteration. Weekly performance reviews with recommendations. Up to 50 training updates per agent. Monthly optimization report with ROI analysis. After 90 days, transitions to ongoing AI Operations retainer.' },
+      ],
+      ov: ['Additional agent: $2,500 each', 'Additional integration: $2,000', 'Custom AI model fine-tuning: $5,000', 'On-site training (in-person): $3,000/day', 'Rush delivery: +30%'],
+      ho: 'Delivered in phases (typically 2\u20133 phases). Each phase has defined deliverables and sign-off. All code and agent ownership transfers to you at completion.',
+      bridge: 'Your AI ecosystem is fully operational. To keep it running, optimized, and expanding, we recommend transitioning to an ongoing AI Operations retainer ($5,000/mo) or Active Development retainer ($7,500/mo).',
+      ideal: 'Businesses replacing manual processes with intelligent automation at scale',
+    },
+  ],
   customSupport: [
     {
       name: 'Hourly Bank',
@@ -457,29 +517,18 @@ interface Package {
  * Component
  * ────────────────────────────────────────────────────────────── */
 export function PricingContent() {
-  const [tab, setTab] = useState('launch');
-  const [exp, setExp] = useState<string | null>(null);
+  const [tab, setTab] = useState('aiAgents');
+  const [exp, setExp] = useState<number | null>(null);
 
   const tabs = [
-    { k: 'launch', l: 'Launch' },
-    { k: 'grow', l: 'Grow' },
-    { k: 'build', l: 'Build' },
+    { k: 'aiAgents', l: 'AI Agents' },
+    { k: 'oneTime', l: 'One-Time Projects' },
+    { k: 'socialSetup', l: 'Social Setup' },
+    { k: 'monthly', l: 'Marketing Retainers' },
+    { k: 'social', l: 'Social Management' },
+    { k: 'customBuild', l: 'Custom Builds' },
+    { k: 'customSupport', l: 'Software Retainers' },
   ];
-
-  const tabSections: Record<string, { heading: string; key: string }[]> = {
-    launch: [
-      { heading: 'Website & Brand Packages', key: 'oneTime' },
-      { heading: 'Social Media Setup', key: 'socialSetup' },
-    ],
-    grow: [
-      { heading: 'Marketing Retainers', key: 'monthly' },
-      { heading: 'Social Media Management', key: 'social' },
-    ],
-    build: [
-      { heading: 'Custom Software', key: 'customBuild' },
-      { heading: 'Ongoing Support', key: 'customSupport' },
-    ],
-  };
 
   return (
     <div style={{ minHeight: '100vh', background: '#0A0A0F', fontFamily: "'Outfit', system-ui, sans-serif", color: '#E4E4ED', padding: '32px 14px', paddingTop: '120px' }}>
@@ -499,7 +548,8 @@ export function PricingContent() {
           </p>
           {/* Tabs — 2-col grid on mobile, inline-flex row on desktop */}
           <style dangerouslySetInnerHTML={{ __html: `
-            .pricing-tabs-grid{display:inline-flex;gap:4px;background:rgba(255,255,255,0.03);border:1px solid ${BO};border-radius:12px;padding:3px}
+            .pricing-tabs-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:4px;background:rgba(255,255,255,0.03);border:1px solid ${BO};border-radius:12px;padding:3px}
+            @media(min-width:700px){.pricing-tabs-grid{display:inline-flex}}
           ` }} />
           <div className="pricing-tabs-grid">
             {tabs.map((t) => (
@@ -519,21 +569,12 @@ export function PricingContent() {
           </div>
         </div>
 
-        {/* Cards — grouped by sub-section */}
-        {tabSections[tab].map((section) => (
-          <div key={section.key} style={{ marginBottom: 28 }}>
-            {/* Sub-section divider */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 18, marginTop: 8 }}>
-              <div style={{ height: 1, flex: 1, background: 'rgba(255,255,255,0.06)' }} />
-              <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '1.2px', textTransform: 'uppercase', color: OL, whiteSpace: 'nowrap' }}>{section.heading}</span>
-              <div style={{ height: 1, flex: 1, background: 'rgba(255,255,255,0.06)' }} />
-            </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(330px, 100%), 1fr))', gap: 16 }}>
-          {pkgData[section.key].map((pk, i) => {
-            const expKey = `${section.key}-${i}`;
-            const isE = exp === expKey;
+        {/* Cards */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(330px, 100%), 1fr))', gap: 16, marginBottom: 28 }}>
+          {pkgData[tab].map((pk, i) => {
+            const isE = exp === i;
             return (
-              <div key={expKey} style={{
+              <div key={i} style={{
                 background: `linear-gradient(165deg, ${pk.pop ? 'rgba(249,115,22,0.035)' : 'rgba(14,14,22,0.95)'} 0%, rgba(10,10,15,0.98) 100%)`,
                 border: pk.pop ? '1.5px solid rgba(249,115,22,0.4)' : `1px solid ${BO}`,
                 borderRadius: 16, padding: '24px 20px', display: 'flex', flexDirection: 'column', position: 'relative',
@@ -566,7 +607,7 @@ export function PricingContent() {
                 </div>
 
                 {/* Expand */}
-                <button onClick={() => setExp(isE ? null : expKey)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
+                <button onClick={() => setExp(isE ? null : i)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
                   <Chev open={isE} /> {isE ? 'Hide' : 'View'} Overages, Boundaries{pk.bridge ? ' & Retainer Bridge' : ''}
                 </button>
                 {isE && (
@@ -624,17 +665,15 @@ export function PricingContent() {
             );
           })}
         </div>
-        </div>
-        ))}
 
         {/* Social Media A La Carte */}
-        {(tab === 'launch' || tab === 'grow') && (
+        {(tab === 'socialSetup' || tab === 'social') && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
               Social Media Add-Ons{' '}
               <span style={{ fontSize: 12, fontWeight: 400, color: MU }}>(per platform, per month)</span>
             </h3>
-            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Add to any package, or purchase standalone. Retainer clients get reduced rates. Add-ons include content creation and basic engagement only &mdash; no strategy, reporting, or calendars. For full-service social with strategy, see our Social Media Management packages above.</p>
+            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Add to any package, or purchase standalone. Retainer clients get reduced rates. Add-ons include content creation and basic engagement only &mdash; no strategy, reporting, or calendars. For full-service social with strategy, see our Social Management tab.</p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
               {([
@@ -670,7 +709,7 @@ export function PricingContent() {
         )}
 
         {/* YouTube Management - Standalone */}
-        {tab === 'grow' && (
+        {tab === 'social' && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
               YouTube Management{' '}
@@ -744,7 +783,7 @@ export function PricingContent() {
         )}
 
         {/* General Add-Ons - Marketing */}
-        {tab !== 'build' && (
+        {tab !== 'customBuild' && tab !== 'customSupport' && tab !== 'aiAgents' && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>General Add-Ons</h3>
             <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Enhance any package with these services</p>
@@ -766,8 +805,57 @@ export function PricingContent() {
           </div>
         )}
 
+        {/* AI Agent Types — A La Carte */}
+        {tab === 'aiAgents' && (
+          <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
+            <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
+              AI Agent Types{' '}
+              <span style={{ fontSize: 12, fontWeight: 400, color: MU }}>(individual agents)</span>
+            </h3>
+            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Each agent is custom-built for your business. All agents are $5,000 and include deployment, testing, documentation, and 30-day support. Add API integration to any agent for $3,000.</p>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+              {([
+                ['Voice Agent', 'Answers inbound calls, qualifies leads, books appointments, transfers to humans when needed. Custom scripts and call routing.'],
+                ['Email Agent', 'Reads, categorizes, drafts, and sends emails based on triggers. Handles follow-ups, sequences, and auto-responses with your brand voice.'],
+                ['Web Scraping Agent', 'Extracts structured data from websites on a schedule. Monitors competitors, tracks prices, gathers leads, or pulls research data into your systems.'],
+                ['PDF Generator Agent', 'Auto-generates branded PDFs from your data — proposals, invoices, reports, contracts, or summaries. Triggered by form submissions, CRM events, or schedules.'],
+                ['Customer Support Agent', 'AI chatbot trained on your knowledge base. Handles FAQs, troubleshooting, returns, and escalations. Embedded on your site or connected to live chat.'],
+                ['Lead Qualification Agent', 'Scores and routes inbound leads based on custom criteria. Integrates with your CRM to auto-tag, prioritize, and trigger follow-up sequences.'],
+                ['Appointment Booking Agent', 'Handles scheduling via chat, voice, or SMS. Syncs with Google Calendar, Calendly, or your booking system. Sends reminders and handles rescheduling.'],
+                ['Data Processing Agent', 'Ingests raw data (CSVs, forms, emails, docs), cleans it, transforms it, and pushes structured output to your database, dashboard, or spreadsheet.'],
+                ['Content Generation Agent', 'Creates blog drafts, social captions, product descriptions, or ad copy on demand. Trained on your brand voice, style guide, and past content.'],
+                ['Social Monitoring Agent', 'Tracks brand mentions, competitor activity, and industry trends across social platforms. Sends alerts and compiles daily/weekly digests.'],
+              ] as const).map(([n, d], idx) => (
+                <div key={idx} style={{ padding: '12px 14px', borderRadius: 8, background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.025)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 4 }}>
+                    <span style={{ fontSize: 13, fontWeight: 600, color: '#bbb' }}>{n}</span>
+                    <span style={{ fontSize: 13, color: O, fontWeight: 700, whiteSpace: 'nowrap' }}>$5,000</span>
+                  </div>
+                  <div style={{ fontSize: 10, color: FA, lineHeight: 1.5 }}>{d}</div>
+                </div>
+              ))}
+              <div style={{ padding: '12px 14px', borderRadius: 8, background: 'rgba(249,115,22,0.03)', border: '1px solid rgba(249,115,22,0.15)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 4 }}>
+                  <span style={{ fontSize: 13, fontWeight: 600, color: '#bbb' }}>API Integration</span>
+                  <span style={{ fontSize: 13, color: PR, fontWeight: 700, whiteSpace: 'nowrap' }}>+$3,000</span>
+                </div>
+                <div style={{ fontSize: 10, color: FA, lineHeight: 1.5 }}>Connect any agent to external APIs, third-party services, or custom backends. Includes: authentication, data mapping, error handling, retry logic, and documentation.</div>
+              </div>
+            </div>
+            <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 8 }}>
+              <div style={{ padding: '10px 14px', borderRadius: 8, background: 'rgba(52,211,153,0.05)', border: '1px solid rgba(52,211,153,0.12)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
+                <strong style={{ color: PR }}>Bundle &amp; save:</strong> Individual agents purchased as part of an Agent Team ($8,500) or AI Operations ($15,000+) package include reduced per-agent pricing and shared integrations.
+              </div>
+              <div style={{ padding: '10px 14px', borderRadius: 8, background: OF, border: '1px solid rgba(249,115,22,0.1)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
+                <strong style={{ color: OL }}>Don&apos;t see your use case?</strong> We build custom agents for any workflow. Book a strategy call and we&apos;ll scope it for free.
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* General Add-Ons - Custom Builds */}
-        {tab === 'build' && (
+        {(tab === 'customBuild' || tab === 'customSupport') && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>Development Add-Ons</h3>
             <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Available with any custom build or dev retainer</p>
