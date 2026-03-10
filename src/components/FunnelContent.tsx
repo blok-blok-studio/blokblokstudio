@@ -101,9 +101,9 @@ const trustedBrands = [
 const roadmapSteps = [
   {
     num: '01',
-    title: 'Discovery Call',
-    desc: 'A quick 15-minute call to understand your goals, audience, and vision. We learn about your brand, target customers, and what success looks like.',
-    duration: '15 min',
+    title: 'Strategy Call',
+    desc: 'A quick 30-minute call to understand your goals, audience, and vision. We learn about your brand, target customers, and what success looks like.',
+    duration: '30 min',
   },
   {
     num: '02',
@@ -136,7 +136,7 @@ function StepIllustration({ step }: { step: string }) {
   const shared = 'w-full h-full';
   switch (step) {
     case '01':
-      // Video call / discovery call illustration
+      // Video call / strategy call illustration
       return (
         <svg className={shared} viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg">
           {/* Monitor/Screen */}
@@ -379,11 +379,11 @@ const included = [
 ];
 
 const auditBenefits = [
-  'Full review of your current tech stack & tools',
-  'AI automation opportunities you\'re missing',
-  'Website & ad performance breakdown',
-  'Competitor analysis snapshot',
-  'Custom roadmap for your business',
+  'Personalized growth strategy for your business',
+  'AI & automation opportunities tailored to you',
+  'Clear next steps you can implement immediately',
+  'No pressure, no commitment — just value',
+  'Direct access to our strategy team',
 ];
 
 const idealFor = [
@@ -396,29 +396,29 @@ const idealFor = [
 ];
 
 const faqs = [
-  { q: 'What is a business audit?', a: 'We look at your entire business operation — your website, ads, tools, workflows, and content — and identify where AI, automation, and better systems can save you time and make you money.' },
-  { q: 'How is this different from a website audit?', a: 'A website audit only looks at your site. We look at everything: how you get leads, how you follow up, what tools you\'re using, where you\'re wasting time, and what you\'re leaving on the table.' },
+  { q: 'What happens on the strategy call?', a: 'We look at your entire business operation — your website, ads, tools, workflows, and content — and identify where AI, automation, and better systems can save you time and make you money. It\'s a 30-minute, no-pressure conversation.' },
+  { q: 'Is the call really free?', a: 'Yes, 100% free. No credit card, no hidden fees. We use the call to understand your business and show you what\'s possible. If we\'re a good fit, we\'ll talk next steps — but there\'s zero obligation.' },
   { q: 'Do I need to have a website already?', a: 'Nope. We work with businesses at every stage. If you don\'t have a website, that\'s just one of the gaps we\'ll identify and solve for you.' },
-  { q: 'How long does a typical project take?', a: 'It depends on scope. A website takes 3–6 weeks. An AI agent ecosystem or full automation build is scoped individually. We give you a clear timeline after the audit.' },
+  { q: 'How long does a typical project take?', a: 'It depends on scope. A website takes 3–6 weeks. An AI agent ecosystem or full automation build is scoped individually. We give you a clear timeline after the call.' },
   { q: 'Do you work with clients outside the US?', a: 'Yes! We work with clients worldwide. Our process is fully remote with regular video check-ins to keep everything on track regardless of timezone.' },
-  { q: 'What if I\'m not sure what I need?', a: 'That\'s exactly what the free business audit is for. Tell us what you have, what you don\'t, and what\'s frustrating you. We\'ll do the rest and give you a custom roadmap — no commitment required.' },
+  { q: 'What if I\'m not sure what I need?', a: 'That\'s exactly what the free strategy call is for. Tell us what you have, what you don\'t, and what\'s frustrating you. We\'ll do the rest and give you a custom roadmap — no commitment required.' },
 ];
 
 /* ── CTA Button ── */
-function scrollToAudit() {
-  const el = document.getElementById('audit');
+function scrollToCall() {
+  const el = document.getElementById('call');
   if (!el) return;
   const top = el.getBoundingClientRect().top + window.scrollY - 20;
   window.scrollTo({ top, behavior: 'smooth' });
 }
 
-function CTAButton({ text = 'Get Your Free Business Audit', className = '', variant = 'primary' }: { text?: string; className?: string; variant?: 'primary' | 'secondary' }) {
+function CTAButton({ text = 'Book Your Free Strategy Call', className = '', variant = 'primary' }: { text?: string; className?: string; variant?: 'primary' | 'secondary' }) {
   const base = variant === 'primary'
     ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white hover:from-orange-400 hover:to-red-400 shadow-lg shadow-orange-500/20'
     : 'bg-white/10 text-white hover:bg-white/20 border border-white/10';
   return (
     <motion.button
-      onClick={scrollToAudit}
+      onClick={scrollToCall}
       whileHover={{ scale: 1.03 }}
       whileTap={{ scale: 0.98 }}
       className={`inline-flex items-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-full font-semibold text-sm sm:text-base transition-all cursor-pointer ${base} ${className}`}
@@ -431,61 +431,162 @@ function CTAButton({ text = 'Get Your Free Business Audit', className = '', vari
   );
 }
 
-/* ── Business Audit Checklist Items ── */
-const auditChecklist = [
-  { key: 'website', label: 'A website', icon: '🌐' },
-  { key: 'email_marketing', label: 'Email marketing', icon: '📧' },
-  { key: 'google_ads', label: 'Google Ads', icon: '🔍' },
-  { key: 'meta_ads', label: 'Meta Ads', icon: '📱' },
-  { key: 'ai_chatbot', label: 'AI automations', icon: '🤖' },
-  { key: 'automation', label: 'Workflow automation', icon: '⚡' },
-  { key: 'content_system', label: 'A content repurposing system', icon: '🎬' },
-  { key: 'branding', label: 'A brand identity / guidelines', icon: '🎨' },
-  { key: 'booking', label: 'Automated appointment booking', icon: '📅' },
-  { key: 'analytics', label: 'Analytics / tracking', icon: '📊' },
+/* ── BANT Qualifying Form Options ── */
+const CAL_LINK = 'https://cal.com/chasehaynes/strategy';
+
+const budgetOptions = [
+  { value: 'not_ready', label: "I'm not ready to invest right now" },
+  { value: '1k_3k', label: '$1,000 - $3,000' },
+  { value: '3k_5k', label: '$3,000 - $5,000' },
+  { value: '5k_10k', label: '$5,000 - $10,000' },
+  { value: '10k_plus', label: '$10,000+' },
 ];
 
-/* ── Audit Lead Capture Form ── */
+const authorityOptions = [
+  { value: 'sole', label: "I'm the sole decision-maker" },
+  { value: 'can_bring', label: 'Others are involved, but I can bring them to the call' },
+  { value: 'need_check', label: 'I need to check with my team first' },
+];
+
+const needOptions = [
+  { value: 'yes_now', label: 'Yes - I have a clear need right now' },
+  { value: 'yes_exploring', label: "I think so - I'm exploring options" },
+  { value: 'no', label: 'Not really - just browsing' },
+];
+
+const timingYesNo = [
+  { value: 'yes', label: 'Yes' },
+  { value: 'no', label: 'No' },
+];
+
+/* ── BANT Qualifying Form ── */
+function RadioOption({ value, label, name, selected, onChange }: { value: string; label: string; name: string; selected: boolean; onChange: () => void }) {
+  return (
+    <label
+      className={`flex items-center gap-3 p-4 rounded-xl cursor-pointer transition-all ${
+        selected
+          ? 'bg-orange-500/[0.08] border border-orange-500/30'
+          : 'bg-white/[0.02] border border-white/5 hover:border-white/10 hover:bg-white/[0.04]'
+      }`}
+    >
+      <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition-colors ${
+        selected ? 'border-orange-500' : 'border-white/20'
+      }`}>
+        {selected && <div className="w-2.5 h-2.5 rounded-full bg-orange-500" />}
+      </div>
+      <input
+        type="radio"
+        name={name}
+        value={value}
+        checked={selected}
+        onChange={onChange}
+        className="sr-only"
+      />
+      <span className={`text-sm sm:text-base ${selected ? 'text-orange-300' : 'text-gray-300'}`}>{label}</span>
+    </label>
+  );
+}
+
 function AuditForm() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    field: '',
-    website: '',
-    noWebsite: false,
-    problem: '',
-    consent: false,
-    _hp: '',
-  });
-  const [checklist, setChecklist] = useState<Record<string, boolean>>({});
-  const [submitted, setSubmitted] = useState(false);
+  const [step, setStep] = useState(0);
+  const [direction, setDirection] = useState(1);
+  const [qualified, setQualified] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [timingToken] = useState(() => Date.now().toString(36));
   const [turnstileToken, setTurnstileToken] = useState('');
   const onTurnstileToken = useCallback((token: string) => setTurnstileToken(token), []);
 
-  const toggleChecklist = (key: string) => {
-    setChecklist((prev) => ({ ...prev, [key]: !prev[key] }));
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    budget: '',
+    authority: '',
+    need: '',
+    timingImplement: '',
+    timingRight: '',
+    commitment: '',
+    _hp: '',
+  });
+
+  const totalSteps = 6;
+  const progress = ((step + 1) / totalSteps) * 100;
+  const stepLabels = ['Your Info', 'Investment', 'Decision', 'Goals', 'Timing', 'Confirm'];
+
+  const goBack = () => {
+    if (step > 0) {
+      setDirection(-1);
+      setStep(step - 1);
+    }
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const canProceed = () => {
+    switch (step) {
+      case 0: return formData.name.trim() !== '' && formData.email.trim() !== '' && formData.email.includes('@');
+      case 1: return formData.budget !== '';
+      case 2: return formData.authority !== '';
+      case 3: return formData.need !== '';
+      case 4: return formData.timingImplement !== '' && formData.timingRight !== '';
+      case 5: return formData.commitment !== '';
+      default: return false;
+    }
+  };
+
+  const handleNext = async () => {
+    if (!canProceed()) return;
+    setDirection(1);
+    setError('');
+
+    if (step < 5) {
+      setStep(step + 1);
+    } else {
+      await submitLead();
+    }
+  };
+
+  const submitLead = async () => {
     setSubmitting(true);
     setError('');
 
-    // Build the "problem" field to include checklist data
-    const hasItems = auditChecklist.filter((item) => checklist[item.key]).map((item) => item.label);
-    const missingItems = auditChecklist.filter((item) => !checklist[item.key]).map((item) => item.label);
-    const checklistSummary = `CURRENTLY HAVE:\n${hasItems.length > 0 ? hasItems.map(i => `  ✓ ${i}`).join('\n') : '  (none selected)'}\n\nDON'T HAVE YET:\n${missingItems.length > 0 ? missingItems.map(i => `  ✗ ${i}`).join('\n') : '  (none)'}\n\nBIGGEST CHALLENGE:\n  ${formData.problem || '(not specified)'}`;
+    const budgetLabel = budgetOptions.find(o => o.value === formData.budget)?.label || formData.budget;
+    const authorityLabel = authorityOptions.find(o => o.value === formData.authority)?.label || formData.authority;
+    const needLabel = needOptions.find(o => o.value === formData.need)?.label || formData.need;
+
+    // Score lead quality for CRM prioritization
+    let score = 0;
+    if (formData.budget !== 'not_ready') score++;
+    if (formData.budget === '5k_10k' || formData.budget === '10k_plus') score++;
+    if (formData.authority === 'sole' || formData.authority === 'can_bring') score++;
+    if (formData.need === 'yes_now') score++;
+    if (formData.timingImplement === 'yes') score++;
+    if (formData.timingRight === 'yes') score++;
+    if (formData.commitment === 'yes') score++;
+    const tier = score >= 5 ? 'HOT' : score >= 3 ? 'WARM' : 'COLD';
+
+    const bantSummary = [
+      `DISCOVERY LEAD [${tier}] (score: ${score}/7)`,
+      '',
+      `Budget: ${budgetLabel}`,
+      `Authority: ${authorityLabel}`,
+      `Need: ${needLabel}`,
+      `Time to implement: ${formData.timingImplement === 'yes' ? 'Yes' : 'No'}`,
+      `Right time: ${formData.timingRight === 'yes' ? 'Yes' : 'No'}`,
+      `Willing to show up: ${formData.commitment === 'yes' ? 'Yes' : 'No'}`,
+    ].join('\n');
 
     try {
-      const res = await fetch('/api/audit', {
+      const res = await fetch('/api/call', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          ...formData,
-          problem: checklistSummary,
+          name: formData.name,
+          email: formData.email,
+          field: `Strategy Lead [${tier}]`,
+          website: '',
+          noWebsite: true,
+          problem: bantSummary,
+          consent: true,
+          _hp: formData._hp,
           _t: timingToken,
           _cf: turnstileToken,
         }),
@@ -496,7 +597,7 @@ function AuditForm() {
         throw new Error(data.error || 'Something went wrong');
       }
 
-      setSubmitted(true);
+      setQualified(true);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
     } finally {
@@ -504,14 +605,8 @@ function AuditForm() {
     }
   };
 
-  if (submitted) {
-    const exploreLinks = [
-      { label: 'Our Projects', href: '/projects', icon: '🎨', desc: 'See our latest work' },
-      { label: 'Services', href: '/services', icon: '⚡', desc: 'What we can do for you' },
-      { label: 'Blog', href: '/blog', icon: '📖', desc: 'Tips & insights' },
-      { label: 'Meet the Team', href: '/team', icon: '👋', desc: 'The people behind the work' },
-    ];
-
+  /* ── Completed — Cal.com Booking ── */
+  if (qualified) {
     return (
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
@@ -524,204 +619,136 @@ function AuditForm() {
           </svg>
         </div>
         <h3 className="text-2xl sm:text-3xl font-bold mb-3">You&apos;re In!</h3>
-        <p className="text-gray-400 text-base sm:text-lg max-w-md mx-auto mb-2">
-          We&apos;ll send your personalized business audit to <strong className="text-white">{formData.email}</strong> within 24 hours.
+        <p className="text-gray-400 text-base sm:text-lg max-w-md mx-auto mb-8">
+          Book your free 30-minute strategy call below. We&apos;ll review your business and build a custom growth plan — live on the call.
         </p>
-        <p className="text-sm text-gray-500 mb-10">Keep an eye on your inbox (check spam too).</p>
-
-        {/* Explore the site */}
-        <div className="border-t border-white/10 pt-10">
-          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-6">While you wait, explore our site</p>
-          <div className="grid grid-cols-2 gap-3 max-w-md mx-auto">
-            {exploreLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="group flex flex-col items-center gap-2 p-4 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-orange-500/30 hover:bg-white/[0.06] transition-all"
-              >
-                <span className="text-2xl">{link.icon}</span>
-                <span className="text-sm font-medium text-white group-hover:text-orange-400 transition-colors">{link.label}</span>
-                <span className="text-xs text-gray-500">{link.desc}</span>
-              </a>
-            ))}
-          </div>
-        </div>
+        <a
+          href={CAL_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-3 px-10 py-5 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold text-base shadow-lg shadow-orange-500/20 hover:from-orange-400 hover:to-red-400 transition-all"
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          Book Your 30-Min Strategy Call
+        </a>
+        <p className="text-xs text-gray-600 mt-4">Powered by Cal.com — pick a time that works for you</p>
       </motion.div>
     );
   }
 
+  /* ── Form Steps ── */
   const inputBase = 'w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3.5 text-sm sm:text-base text-white placeholder-gray-500 focus:outline-none focus:border-orange-500/40 focus:bg-white/[0.06] transition-colors';
 
-  const checkedCount = Object.values(checklist).filter(Boolean).length;
-
   return (
-    <form onSubmit={handleSubmit} className="space-y-5">
-      {/* Honeypot — hidden from humans, bots fill it */}
+    <div className="space-y-6">
+      {/* Honeypot */}
       <input type="text" name="_hp" value={formData._hp || ''} onChange={(e) => setFormData({ ...formData, _hp: e.target.value })} autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
-      {/* Name & Email */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div>
-          <label htmlFor="audit-name" className="block text-xs text-gray-400 mb-1.5 ml-1">Your Name</label>
-          <input
-            id="audit-name"
-            type="text"
-            required
-            placeholder="John Smith"
-            value={formData.name}
-            onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-            className={inputBase}
-          />
+
+      {/* Progress bar */}
+      <div className="space-y-2">
+        <div className="flex items-center justify-between text-xs text-gray-500">
+          <span>Step {step + 1} of {totalSteps}</span>
+          <span>{stepLabels[step]}</span>
         </div>
-        <div>
-          <label htmlFor="audit-email" className="block text-xs text-gray-400 mb-1.5 ml-1">Email Address</label>
-          <input
-            id="audit-email"
-            type="email"
-            required
-            placeholder="john@company.com"
-            value={formData.email}
-            onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-            className={inputBase}
+        <div className="h-1 bg-white/5 rounded-full overflow-hidden">
+          <motion.div
+            className="h-full bg-gradient-to-r from-orange-500 to-red-500 rounded-full"
+            initial={{ width: 0 }}
+            animate={{ width: `${progress}%` }}
+            transition={{ duration: 0.4, ease: 'easeOut' }}
           />
         </div>
       </div>
 
-      {/* Industry */}
-      <div>
-        <label htmlFor="audit-field" className="block text-xs text-gray-400 mb-1.5 ml-1">Field of Work / Industry</label>
-        <input
-          id="audit-field"
-          type="text"
-          required
-          placeholder="e.g. E-commerce, SaaS, Healthcare, Real Estate, Agency..."
-          value={formData.field}
-          onChange={(e) => setFormData({ ...formData, field: e.target.value })}
-          className={inputBase}
-        />
-      </div>
-
-      {/* Website URL */}
-      <div>
-        <label htmlFor="audit-website" className="block text-xs text-gray-400 mb-1.5 ml-1">Current Website URL</label>
-        <input
-          id="audit-website"
-          type="url"
-          placeholder="https://yourwebsite.com"
-          disabled={formData.noWebsite}
-          value={formData.noWebsite ? '' : formData.website}
-          onChange={(e) => setFormData({ ...formData, website: e.target.value })}
-          className={`${inputBase} ${formData.noWebsite ? 'opacity-40 cursor-not-allowed' : ''}`}
-        />
-        <label className="flex items-center gap-2.5 mt-2.5 ml-1 cursor-pointer group">
-          <div className={`w-5 h-5 rounded-md border flex items-center justify-center transition-colors ${
-            formData.noWebsite
-              ? 'bg-orange-500/20 border-orange-500/40'
-              : 'bg-white/[0.04] border-white/10 group-hover:border-white/20'
-          }`}>
-            {formData.noWebsite && (
-              <svg className="w-3 h-3 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-              </svg>
-            )}
+      {/* Step content with animation */}
+      <motion.div
+        key={step}
+        initial={{ opacity: 0, x: direction * 30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.3, ease: 'easeOut' }}
+      >
+        {/* Step 0: Name & Email */}
+        {step === 0 && (
+          <div className="space-y-4">
+            <h4 className="text-lg font-semibold mb-1">Let&apos;s start with the basics</h4>
+            <p className="text-sm text-gray-400 mb-4">Tell us who you are so we can personalize your experience.</p>
+            <div>
+              <label htmlFor="call-name" className="block text-xs text-gray-400 mb-1.5 ml-1">Your Name</label>
+              <input id="call-name" type="text" required placeholder="John Smith" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className={inputBase} />
+            </div>
+            <div>
+              <label htmlFor="call-email" className="block text-xs text-gray-400 mb-1.5 ml-1">Email Address</label>
+              <input id="call-email" type="email" required placeholder="john@company.com" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className={inputBase} />
+            </div>
+            <Turnstile onToken={onTurnstileToken} theme="dark" className="mt-2" />
           </div>
-          <input
-            type="checkbox"
-            className="sr-only"
-            checked={formData.noWebsite}
-            onChange={(e) => setFormData({ ...formData, noWebsite: e.target.checked, website: '' })}
-          />
-          <span className="text-sm text-gray-400">I don&apos;t have a website yet</span>
-        </label>
-      </div>
+        )}
 
-      {/* ── BUSINESS CHECKLIST ── */}
-      <div>
-        <div className="flex items-center justify-between mb-3 ml-1">
-          <label className="block text-xs text-gray-400">Check everything you currently have</label>
-          <span className="text-xs text-gray-600">{checkedCount} / {auditChecklist.length}</span>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {auditChecklist.map((item) => {
-            const isChecked = !!checklist[item.key];
-            return (
-              <label
-                key={item.key}
-                className={`flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all ${
-                  isChecked
-                    ? 'bg-green-500/[0.08] border border-green-500/20'
-                    : 'bg-white/[0.02] border border-white/5 hover:border-white/10 hover:bg-white/[0.04]'
-                }`}
-              >
-                <div className={`w-5 h-5 rounded-md border flex items-center justify-center flex-shrink-0 transition-colors ${
-                  isChecked
-                    ? 'bg-green-500/20 border-green-500/40'
-                    : 'bg-white/[0.04] border-white/10'
-                }`}>
-                  {isChecked && (
-                    <svg className="w-3 h-3 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                    </svg>
-                  )}
-                </div>
-                <input
-                  type="checkbox"
-                  className="sr-only"
-                  checked={isChecked}
-                  onChange={() => toggleChecklist(item.key)}
-                />
-                <span className="text-lg flex-shrink-0">{item.icon}</span>
-                <span className={`text-xs sm:text-sm ${isChecked ? 'text-green-300' : 'text-gray-400'}`}>{item.label}</span>
-              </label>
-            );
-          })}
-        </div>
-      </div>
+        {/* Step 1: Budget */}
+        {step === 1 && (
+          <div className="space-y-3">
+            <h4 className="text-lg font-semibold mb-1">What are you willing to invest?</h4>
+            <p className="text-sm text-gray-400 mb-4">This helps us recommend the right package for your goals.</p>
+            {budgetOptions.map((opt) => (
+              <RadioOption key={opt.value} value={opt.value} label={opt.label} name="budget" selected={formData.budget === opt.value} onChange={() => setFormData({ ...formData, budget: opt.value })} />
+            ))}
+          </div>
+        )}
 
-      {/* Biggest Challenge */}
-      <div>
-        <label htmlFor="audit-problem" className="block text-xs text-gray-400 mb-1.5 ml-1">What&apos;s your biggest challenge right now?</label>
-        <textarea
-          id="audit-problem"
-          rows={3}
-          placeholder="e.g. I'm doing everything manually, my ads aren't converting, I can't keep up with content creation..."
-          value={formData.problem}
-          onChange={(e) => setFormData({ ...formData, problem: e.target.value })}
-          className={`${inputBase} resize-none`}
-        />
-      </div>
+        {/* Step 2: Authority */}
+        {step === 2 && (
+          <div className="space-y-3">
+            <h4 className="text-lg font-semibold mb-1">Are you the decision-maker?</h4>
+            <p className="text-sm text-gray-400 mb-4">We want to make sure the right people are on the call.</p>
+            {authorityOptions.map((opt) => (
+              <RadioOption key={opt.value} value={opt.value} label={opt.label} name="authority" selected={formData.authority === opt.value} onChange={() => setFormData({ ...formData, authority: opt.value })} />
+            ))}
+          </div>
+        )}
 
-      {/* GDPR Consent Checkbox */}
-      <label className="flex items-start gap-3 cursor-pointer group">
-        <div className={`w-5 h-5 mt-0.5 rounded-md border flex items-center justify-center flex-shrink-0 transition-colors ${
-          formData.consent
-            ? 'bg-orange-500/20 border-orange-500/40'
-            : 'bg-white/[0.04] border-white/10 group-hover:border-white/20'
-        }`}>
-          {formData.consent && (
-            <svg className="w-3 h-3 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-            </svg>
-          )}
-        </div>
-        <input
-          type="checkbox"
-          className="sr-only"
-          checked={formData.consent}
-          onChange={(e) => setFormData({ ...formData, consent: e.target.checked })}
-        />
-        <span className="text-xs sm:text-sm text-gray-400 leading-relaxed">
-          I agree to the{' '}
-          <a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 underline underline-offset-2">
-            Privacy Policy
-          </a>{' '}
-          and{' '}
-          <a href="/terms" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 underline underline-offset-2">
-            Terms of Service
-          </a>
-        </span>
-      </label>
+        {/* Step 3: Need */}
+        {step === 3 && (
+          <div className="space-y-3">
+            <h4 className="text-lg font-semibold mb-1">Do you have a real need for this?</h4>
+            <p className="text-sm text-gray-400 mb-4">We want to make sure we can actually help you.</p>
+            {needOptions.map((opt) => (
+              <RadioOption key={opt.value} value={opt.value} label={opt.label} name="need" selected={formData.need === opt.value} onChange={() => setFormData({ ...formData, need: opt.value })} />
+            ))}
+          </div>
+        )}
 
-      <Turnstile onToken={onTurnstileToken} theme="dark" className="mb-2" />
+        {/* Step 4: Timing */}
+        {step === 4 && (
+          <div className="space-y-5">
+            <h4 className="text-lg font-semibold mb-1">Let&apos;s talk timing</h4>
+            <p className="text-sm text-gray-400 mb-4">Two quick questions to make sure the timing is right.</p>
+            <div className="space-y-3">
+              <p className="text-sm font-medium text-gray-300">Do you have the time to implement new systems in the next 30-90 days?</p>
+              {timingYesNo.map((opt) => (
+                <RadioOption key={`impl-${opt.value}`} value={opt.value} label={opt.label} name="timingImplement" selected={formData.timingImplement === opt.value} onChange={() => setFormData({ ...formData, timingImplement: opt.value })} />
+              ))}
+            </div>
+            <div className="space-y-3 pt-2">
+              <p className="text-sm font-medium text-gray-300">Is now the right time to invest in growing your business?</p>
+              {timingYesNo.map((opt) => (
+                <RadioOption key={`right-${opt.value}`} value={opt.value} label={opt.label} name="timingRight" selected={formData.timingRight === opt.value} onChange={() => setFormData({ ...formData, timingRight: opt.value })} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Step 5: Commitment */}
+        {step === 5 && (
+          <div className="space-y-3">
+            <h4 className="text-lg font-semibold mb-1">One last thing</h4>
+            <p className="text-sm text-gray-400 mb-4">Are you willing to show up to a 30-minute strategy call?</p>
+            <RadioOption value="yes" label="Yes — let's do it" name="commitment" selected={formData.commitment === 'yes'} onChange={() => setFormData({ ...formData, commitment: 'yes' })} />
+            <RadioOption value="no" label="Not right now" name="commitment" selected={formData.commitment === 'no'} onChange={() => setFormData({ ...formData, commitment: 'no' })} />
+          </div>
+        )}
+      </motion.div>
 
       {error && (
         <div className="flex items-center gap-2 p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-sm">
@@ -732,38 +759,61 @@ function AuditForm() {
         </div>
       )}
 
-      <motion.button
-        type="submit"
-        disabled={submitting || !turnstileToken}
-        whileHover={{ scale: submitting ? 1 : 1.02 }}
-        whileTap={{ scale: submitting ? 1 : 0.98 }}
-        className="w-full flex items-center justify-center gap-3 px-8 py-4 sm:py-5 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold text-sm sm:text-base shadow-lg shadow-orange-500/20 hover:from-orange-400 hover:to-red-400 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
-      >
-        {submitting ? (
-          <>
-            <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+      {/* Navigation buttons */}
+      <div className="flex items-center gap-3">
+        {step > 0 && (
+          <button
+            type="button"
+            onClick={goBack}
+            className="flex items-center gap-2 px-5 py-3.5 rounded-xl bg-white/5 border border-white/10 text-sm text-gray-400 hover:text-white hover:bg-white/10 transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Sending...
-          </>
-        ) : (
-          <>
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            Get My Free Business Audit
-          </>
+            Back
+          </button>
         )}
-      </motion.button>
+        <motion.button
+          type="button"
+          onClick={handleNext}
+          disabled={!canProceed() || submitting}
+          whileHover={{ scale: canProceed() && !submitting ? 1.02 : 1 }}
+          whileTap={{ scale: canProceed() && !submitting ? 0.98 : 1 }}
+          className="flex-1 flex items-center justify-center gap-3 px-8 py-3.5 sm:py-4 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold text-sm sm:text-base shadow-lg shadow-orange-500/20 hover:from-orange-400 hover:to-red-400 transition-all disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+        >
+          {submitting ? (
+            <>
+              <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+              </svg>
+              Submitting...
+            </>
+          ) : step === 5 ? (
+            <>
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              Get My Call Link
+            </>
+          ) : (
+            <>
+              Continue
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </>
+          )}
+        </motion.button>
+      </div>
 
       <p className="text-xs text-gray-600 text-center flex items-center justify-center gap-1.5">
         <svg className="w-3.5 h-3.5 text-green-500/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
         </svg>
-        Your data is protected. Unsubscribe anytime with one click.
+        Your data is protected. We&apos;ll never spam you.
       </p>
-    </form>
+    </div>
   );
 }
 
@@ -868,7 +918,7 @@ export function FunnelContent() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-2 text-xs sm:text-sm">
           <span className="inline-block w-2 h-2 rounded-full bg-orange-400 animate-pulse" />
           <span className="text-gray-300">
-            Free Business Audits: <strong className="text-orange-400">AI, automation & growth insights</strong> for your company, delivered in 24 hours
+            Free Strategy Calls: <strong className="text-orange-400">AI, automation & growth insights</strong> for your company, live in 30 minutes
           </span>
         </div>
       </div>
@@ -883,7 +933,7 @@ export function FunnelContent() {
               { value: 6, suffix: '', label: 'Brands Launched' },
               { value: 6, suffix: '', label: 'Industries Served' },
               { value: 100, suffix: '%', label: 'Custom Built' },
-              { value: 24, suffix: 'h', label: 'Audit Turnaround' },
+              { value: 30, suffix: 'min', label: 'Strategy Call' },
             ].map((stat, i) => (
               <motion.div
                 key={i}
@@ -985,7 +1035,7 @@ export function FunnelContent() {
             className="text-xs text-gray-600 mt-6 flex items-center justify-center gap-2"
           >
             <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-            Free business audit. No commitment required.
+            Free 30-min strategy call. No commitment required.
           </motion.p>
         </div>
 
@@ -1154,7 +1204,7 @@ export function FunnelContent() {
           </div>
 
           <div className="text-center mt-10">
-            <CTAButton text="Join These Brands, Get Your Free Business Audit" />
+            <CTAButton text="Join These Brands, Book Your Free Call" />
           </div>
         </div>
       </section>
@@ -1366,7 +1416,7 @@ export function FunnelContent() {
           </div>
 
           <div className="text-center mt-16">
-            <CTAButton text="Start With Step 1, Get Your Free Business Audit" />
+            <CTAButton text="Start With Step 1, Book Your Free Call" />
           </div>
         </div>
       </section>
@@ -1491,7 +1541,7 @@ export function FunnelContent() {
           </motion.div>
 
           <div className="text-center mt-12">
-            <CTAButton text="Get All This, Claim Your Free Business Audit" />
+            <CTAButton text="Get All This, Book Your Free Call" />
           </div>
         </div>
       </section>
@@ -1500,7 +1550,7 @@ export function FunnelContent() {
        * 14. FREE AUDIT — Lead capture form
        * Connected to /api/audit → Prisma DB + Email + Telegram notifications
        * ================================================================ */}
-      <section id="audit" className="pt-10 sm:pt-12 lg:pt-14 pb-20 sm:pb-28 lg:pb-36 px-5 sm:px-6 relative overflow-hidden">
+      <section id="call" className="pt-10 sm:pt-12 lg:pt-14 pb-20 sm:pb-28 lg:pb-36 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-orange-500/[0.03] via-red-500/[0.015] to-transparent" />
         <motion.div
           className="absolute top-1/4 right-0 w-[500px] h-[500px] rounded-full bg-orange-500/[0.03] blur-[120px]"
@@ -1512,14 +1562,14 @@ export function FunnelContent() {
           <Section>
             <div className="text-center mb-8 sm:mb-10">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                100% Free, No Strings Attached
+                Free 30-Min Strategy Call
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-                Get Your Free{' '}
-                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Business Audit</span>
+                Book Your Free{' '}
+                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Strategy Call</span>
               </h2>
               <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-                Tell us what you have, what you don&apos;t, and we&apos;ll send you a custom roadmap with actionable insights within 24 hours.
+                Answer a few quick questions to see if we&apos;re a good fit. If you qualify, you&apos;ll get a link to book a free 30-minute strategy call.
               </p>
             </div>
           </Section>
@@ -1541,7 +1591,7 @@ export function FunnelContent() {
               className="lg:col-span-2"
             >
               <div className="sticky top-8">
-                <h3 className="text-lg sm:text-xl font-semibold mb-6">What You&apos;ll Get:</h3>
+                <h3 className="text-lg sm:text-xl font-semibold mb-6">What You&apos;ll Get on the Call:</h3>
                 <ul className="space-y-4 mb-8">
                   {auditBenefits.map((benefit, i) => (
                     <motion.li
@@ -1572,7 +1622,7 @@ export function FunnelContent() {
                     <p className="text-sm font-medium text-white">Your data is protected</p>
                   </div>
                   <p className="text-sm text-gray-400 leading-relaxed">
-                    We&apos;ll never share your information. Audits are 100% free with no obligation.
+                    We&apos;ll never share your information. Strategy calls are 100% free with no obligation.
                   </p>
                 </div>
               </div>
@@ -1648,10 +1698,11 @@ export function FunnelContent() {
               <thead>
                 <tr className="border-b border-white/10">
                   <th className="text-left py-4 pr-4 text-gray-500 font-normal w-1/4" />
-                  <th className="py-4 px-4 text-center text-gray-400 font-medium">DIY / Templates</th>
-                  <th className="py-4 px-4 text-center text-gray-400 font-medium">Freelancer</th>
-                  <th className="py-4 px-4 text-center font-semibold">
-                    <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Blok Blok Studio</span>
+                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">DIY / Templates</th>
+                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">Freelancer</th>
+                  <th className="py-4 px-6 text-center font-bold relative">
+                    <div className="absolute inset-x-0 -top-2 bottom-0 bg-gradient-to-b from-orange-500/10 to-transparent rounded-t-2xl border-t-2 border-x border-orange-500/30 border-b-0" />
+                    <span className="relative z-10 bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent text-sm">Blok Blok Studio</span>
                   </th>
                 </tr>
               </thead>
@@ -1666,16 +1717,23 @@ export function FunnelContent() {
                   { feature: 'Brand Strategy', diy: 'no', freelancer: 'sometimes', us: 'yes' },
                   { feature: 'Ongoing Support', diy: 'no', freelancer: 'no', us: 'yes' },
                 ].map((row, i) => (
-                  <tr key={i} className="border-b border-white/5">
-                    <td className="py-3.5 pr-4 text-gray-300 font-medium">{row.feature}</td>
+                  <tr key={i} className="border-b border-white/5 group hover:bg-white/[0.02] transition-colors">
+                    <td className="py-4 pr-4 text-gray-300 font-medium">{row.feature}</td>
                     {([row.diy, row.freelancer, row.us] as string[]).map((val, j) => (
-                      <td key={j} className="py-3.5 px-4 text-center">
+                      <td key={j} className={`py-4 px-4 text-center ${j === 2 ? 'relative' : ''}`}>
+                        {j === 2 && <div className="absolute inset-x-0 inset-y-0 bg-orange-500/[0.04] border-x border-orange-500/10" />}
                         {val === 'yes' ? (
-                          <svg className={`w-5 h-5 mx-auto ${j === 2 ? 'text-green-400' : 'text-yellow-500'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                          j === 2 ? (
+                            <span className="relative z-10 inline-flex items-center justify-center w-7 h-7 rounded-full bg-green-500/15">
+                              <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
+                            </span>
+                          ) : (
+                            <svg className="w-4 h-4 mx-auto text-yellow-600/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
+                          )
                         ) : val === 'sometimes' ? (
-                          <span className="text-yellow-500/70 text-sm">~</span>
+                          <span className="text-yellow-600/50 text-xs font-medium">~</span>
                         ) : (
-                          <svg className="w-5 h-5 text-gray-700 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+                          <svg className="w-4 h-4 text-red-500/30 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
                         )}
                       </td>
                     ))}
@@ -1683,6 +1741,10 @@ export function FunnelContent() {
                 ))}
               </tbody>
             </table>
+            {/* Bottom highlight for Blok Blok column */}
+            <div className="mt-6 text-center">
+              <p className="text-xs text-gray-500">All green, all the time. That&apos;s the difference.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -1698,7 +1760,7 @@ export function FunnelContent() {
               FAQ
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Got Questions?
+              Questions?
             </h2>
             <p className="text-gray-400 mt-4">Everything you need to know before getting started.</p>
           </div>
@@ -1737,14 +1799,14 @@ export function FunnelContent() {
                   Your Business Deserves Better Systems
                 </h2>
                 <p className="text-gray-400 text-base sm:text-lg max-w-lg mx-auto mb-10">
-                  Get a free, personalized audit of your entire business. No commitment, just a custom roadmap you can act on right away.
+                  Book a free 30-minute strategy call with our team. No commitment, just a custom growth plan you can act on right away.
                 </p>
 
-                <CTAButton text="Get Your Free Business Audit" />
+                <CTAButton text="Book Your Free Strategy Call" />
 
                 <p className="text-xs text-gray-600 mt-6 flex items-center justify-center gap-2">
                   <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                  Takes 2 minutes. Delivered to your inbox within 24 hours.
+                  Answer a few questions, then pick a time that works for you.
                 </p>
               </div>
             </div>

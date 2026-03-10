@@ -59,7 +59,7 @@ People buy from businesses they trust. If your site lacks testimonials, case stu
 
 If any of these issues sound familiar, you're not alone. Most business websites suffer from at least two or three of these problems. The good news? They're all fixable.
 
-Book a free audit with our team and we'll show you exactly what's holding your site back and how to turn it into a growth engine.
+Book a free strategy call with our team and we'll show you exactly what's holding your site back and how to turn it into a growth engine.
     `.trim(),
   },
   {

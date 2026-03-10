@@ -26,7 +26,7 @@ const serviceFaqs = [
   },
   {
     question: 'How much does a project cost and how long does it take?',
-    answer: 'Every project is scoped based on your needs. A website starts around $5,000, while AI agent ecosystems and full automation builds are scoped individually. We provide a detailed timeline and quote after our discovery call.',
+    answer: 'Every project is scoped based on your needs. A website starts around $5,000, while AI agent ecosystems and full automation builds are scoped individually. We provide a detailed timeline and quote after our strategy call.',
   },
 ];
 

@@ -112,7 +112,7 @@ export async function GET() {
     '',
     '## Our Process',
     '',
-    '1. **Discovery** (15-min call): We dive deep into your goals, audience, and market to build a solid foundation.',
+    '1. **Discovery** (30-min call): We dive deep into your goals, audience, and market to build a solid foundation.',
     '2. **Strategy** (2–3 days): We craft a tailored roadmap that aligns creative vision with business objectives.',
     '3. **Design** (1–2 weeks): We create compelling visuals and intuitive interfaces that captivate users.',
     '4. **Development** (2–4 weeks): We build with modern technologies ensuring speed, scalability, and reliability.',
@@ -230,7 +230,7 @@ export async function GET() {
     '- **Email:** hello@blokblokstudio.com',
     '- **Instagram:** https://www.instagram.com/blokblokstudio/',
     '- **LinkedIn:** https://www.linkedin.com/company/blok-blok-studio/',
-    '- **Free Website Audit:** https://blokblokstudio.com/audit',
+    '- **Free Strategy Call:** https://blokblokstudio.com/call',
     '',
     'Blok Blok Studio: Crafting digital experiences that inspire.',
   );

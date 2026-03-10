@@ -30,5 +30,5 @@ export async function assignToList(leadId: string, listName: string, listColor: 
 
 /** Predefined list configurations */
 export const NEWSLETTER_LIST = { name: 'Weekly Insights', color: '#3b82f6' };
-export const AUDIT_LIST = { name: 'Audit Leads', color: '#f97316' };
+export const AUDIT_LIST = { name: 'Strategy Call Leads', color: '#f97316' };
 export const CONTACT_LIST = { name: 'Contact Inquiries', color: '#8b5cf6' };

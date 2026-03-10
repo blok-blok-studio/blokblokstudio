@@ -13,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/team',
     '/contact',
     '/blog',
-    '/audit',
+    '/call',
   ];
 
   const legalRoutes = ['/privacy', '/terms', '/cookies', '/data-rights'];

@@ -157,7 +157,7 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
               Want Results Like These?
             </h3>
             <p className="text-gray-400 text-sm sm:text-base mb-6 max-w-md mx-auto">
-              Book a free discovery call and let&apos;s discuss how we can transform your digital presence.
+              Book a free strategy call and let&apos;s discuss how we can transform your digital presence.
             </p>
             <Link
               href="/contact"
