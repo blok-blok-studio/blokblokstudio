@@ -5,7 +5,7 @@ import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, NEWSLETTER_LIST } from '@/lib/auto-list';
 import { notifyNewsletterSignup } from '@/lib/telegram';
-import { forwardToEasyReach } from '@/lib/easyreach';
+import { pushToEasyReach } from '@/lib/easyreach';
 
 // SOC 2 compliant rate limiting: 3 signups per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 3 });
@@ -69,10 +69,12 @@ export async function POST(req: NextRequest) {
 
       // Existing lead (e.g. from audit/contact) subscribing to newsletter for the first time
       await assignToList(existing.id, NEWSLETTER_LIST.name, NEWSLETTER_LIST.color);
-      await notifyNewsletterSignup(email);
+      await Promise.allSettled([
+        notifyNewsletterSignup(email),
+        pushToEasyReach({ source: 'newsletter', email }),
+      ]);
 
       // Forward to EasyReach CRM (non-blocking)
-      forwardToEasyReach({ source: 'newsletter', email, consent: true }).catch(() => {});
 
       return NextResponse.json({ success: true });
     }
@@ -92,11 +94,12 @@ export async function POST(req: NextRequest) {
     // Auto-assign to Weekly Insights list
     await assignToList(lead.id, NEWSLETTER_LIST.name, NEWSLETTER_LIST.color);
 
-    // Notify via Telegram (awaited so Vercel doesn't kill the process before it sends)
-    await notifyNewsletterSignup(email);
+    // Notify via Telegram + EasyReach
+    await Promise.allSettled([
+      notifyNewsletterSignup(email),
+      pushToEasyReach({ source: 'newsletter', email }),
+    ]);
 
-    // Forward to EasyReach CRM (non-blocking)
-    forwardToEasyReach({ source: 'newsletter', email, consent: true }).catch(() => {});
 
     return NextResponse.json({ success: true });
   } catch (err) {

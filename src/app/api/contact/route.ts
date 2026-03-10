@@ -4,7 +4,7 @@ import { rateLimit } from '@/lib/rate-limit';
 import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, CONTACT_LIST } from '@/lib/auto-list';
-import { forwardToEasyReach } from '@/lib/easyreach';
+import { pushToEasyReach } from '@/lib/easyreach';
 
 // SOC 2 compliant rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -107,16 +107,17 @@ export async function POST(req: NextRequest) {
       } catch { /* non-critical */ }
     }
 
-    // Forward to EasyReach CRM (non-blocking)
-    forwardToEasyReach({
-      source: 'contact',
-      name,
-      email,
-      company,
-      message,
-      consent,
-    }).catch(() => {});
-
+    // Push to EasyReach CRM (fire-and-forget)
+    try {
+      await pushToEasyReach({
+        source: 'contact',
+        name,
+        email,
+        company,
+        message,
+        consent,
+      });
+    } catch { /* non-critical */ }
     return NextResponse.json(
       { success: true },
       {
