@@ -373,8 +373,8 @@ const pkgData: Record<string, Package[]> = {
     },
     {
       name: 'Agent Team',
-      price: 15000,
-      disp: '$15,000',
+      price: 8500,
+      disp: '$8,500',
       tag: 'Most Popular',
       pop: true,
       tl: '2\u20134 weeks',
@@ -393,8 +393,8 @@ const pkgData: Record<string, Package[]> = {
     },
     {
       name: 'AI Operations',
-      price: 40000,
-      disp: '$40,000+',
+      price: 15000,
+      disp: '$15,000+',
       tag: 'Enterprise AI ecosystem',
       tl: '4\u20138 weeks',
       scope: [
@@ -412,8 +412,8 @@ const pkgData: Record<string, Package[]> = {
     },
     {
       name: 'Agent Maintenance',
-      price: 2000,
-      disp: '$2,000',
+      price: 1500,
+      disp: '$1,500',
       per: '/mo',
       tag: 'Keep agents running',
       com: '3-month minimum',
@@ -905,7 +905,7 @@ export function PricingContent() {
             </div>
             <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 8 }}>
               <div style={{ padding: '10px 14px', borderRadius: 8, background: 'rgba(52,211,153,0.05)', border: '1px solid rgba(52,211,153,0.12)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
-                <strong style={{ color: PR }}>Bundle &amp; save:</strong> Individual agents purchased as part of an Agent Team ($15,000) or AI Operations ($40,000+) package include reduced per-agent pricing and shared integrations.
+                <strong style={{ color: PR }}>Bundle &amp; save:</strong> Individual agents purchased as part of an Agent Team ($8,500) or AI Operations ($15,000+) package include reduced per-agent pricing and shared integrations.
               </div>
               <div style={{ padding: '10px 14px', borderRadius: 8, background: OF, border: '1px solid rgba(249,115,22,0.1)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
                 <strong style={{ color: OL }}>Don&apos;t see your use case?</strong> We build custom agents for any workflow. Text us or fill out a quick form and we&apos;ll scope it for free.
