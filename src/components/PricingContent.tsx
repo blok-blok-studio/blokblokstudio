@@ -364,11 +364,10 @@ const pkgData: Record<string, Package[]> = {
         { i: 'Testing & deployment', l: 'Full end-to-end testing across all expected use cases. Edge case handling and stress testing. Deployed to your infrastructure or our managed hosting. Includes staging environment for your review before going live.' },
         { i: 'API key security', l: 'All API keys and credentials stored securely using encrypted environment variables \u2014 never hardcoded or exposed in source code. Keys are injected at runtime through your hosting provider\u2019s secrets manager (Vercel, AWS, etc.). Access restricted to the agent\u2019s execution environment only. We never store or retain your API keys after deployment. You maintain full ownership and control of all credentials at all times.' },
         { i: 'Documentation & handoff', l: 'Agent behavior documentation: what it does, how it works, and how to update it. Admin guide for modifying responses, updating training data, or pausing the agent. Architecture diagram showing how the agent connects to your systems.' },
-        { i: '30-day support', l: '30 days of post-launch monitoring and bug fixes. Up to 15 training data updates during this period. Performance metrics tracked: response accuracy, completion rate, and error rate. After 30 days, ongoing optimization available via our AI Operations retainer.' },
       ],
       ov: ['Additional integration: $1,500', 'Training data beyond 50 items: $500/batch of 50', 'Extra revision round: $350', 'Rush delivery (under 1 week): +40%', 'Agent retraining: $750'],
-      ho: 'Payment: 50% deposit to start, 50% due upon completion (Net 7). Complete upon sign-off OR 2 revision rounds. Agent ownership transfers to you. Post-30-day support: $200/hr or transition to retainer.',
-      bridge: 'Your agent is live and working. To keep it optimized, retrained, and evolving, add our AI Operations retainer or Hourly Bank for ongoing agent management.',
+      ho: 'Payment: 50% deposit to start, 50% due upon completion (Net 7). Complete upon sign-off OR 2 revision rounds. Agent ownership transfers to you.',
+      bridge: 'Your agent is live \u2014 to keep it monitored, optimized, and retrained, add our Agent Maintenance ($1,500/mo) or Agent Growth ($3,500/mo) retainer.',
       ideal: 'Businesses automating one specific workflow',
     },
     {
@@ -384,11 +383,10 @@ const pkgData: Record<string, Package[]> = {
         { i: 'Integrations (3 included)', l: '3 external system integrations across your agent team. Common integrations: GoHighLevel, HubSpot, Salesforce, Google Workspace, Slack, Twilio, Stripe, Shopify, Zapier, Make, or any service with a REST API. Each integration includes: data mapping, authentication, error handling, and retry logic.' },
         { i: 'API key security', l: 'All API keys, tokens, and credentials stored using encrypted environment variables and your hosting provider\u2019s secrets manager \u2014 never hardcoded, never in source code, never in logs. Each agent\u2019s credentials are isolated so one agent cannot access another\u2019s keys. We never store or retain your API keys after deployment. You maintain full ownership and control of all credentials at all times.' },
         { i: 'Agent training & testing', l: 'Each agent trained on up to 75 data points. Full end-to-end testing of the entire agent workflow (not just individual agents). Load testing for high-volume scenarios. User acceptance testing with your team before go-live.' },
-        { i: '60-day support', l: '60 days of post-launch monitoring, bug fixes, and optimization. Up to 25 training data updates per agent during this period. Bi-weekly performance check-ins (email summary). After 60 days, ongoing management available via retainer.' },
       ],
       ov: ['Additional agent: $2,500', 'Additional integration: $1,500', 'Training data beyond 75/agent: $500/batch', 'Extra revision round: $400', 'Rush delivery: +40%'],
       ho: 'Payment: 50% deposit to start, 50% due upon completion (Net 7). Complete upon sign-off OR 2 revision rounds. All agents and code ownership transfer to you.',
-      bridge: 'Your agent team is live and coordinated. For ongoing optimization, retraining, and new agent additions, we recommend our AI Operations retainer ($5,000/mo).',
+      bridge: 'Your agent team is live and coordinated. For ongoing optimization, retraining, and new agent additions, add our Agent Growth ($3,500/mo) or Agent Command Center ($7,500/mo) retainer.',
       ideal: 'Businesses automating multi-step workflows end-to-end',
     },
     {
@@ -403,11 +401,10 @@ const pkgData: Record<string, Package[]> = {
         { i: 'Integrations (6 included)', l: '6 external integrations connecting your agent ecosystem to your business tools. Includes complex integrations: multi-step workflows across CRM + email + calendar + payment systems. Webhook listeners for real-time triggers. Data synchronization across platforms with conflict resolution.' },
         { i: 'Security & compliance', l: 'All API keys, tokens, and credentials stored using encrypted environment variables and enterprise-grade secrets management \u2014 never hardcoded, never in source code, never in logs. Each agent\u2019s credentials are fully isolated. Data encryption for all agent communications (in transit and at rest). Role-based access control for agent management. Audit logging for every agent action (who, what, when). PII handling protocols configured per your requirements. Data retention policies enforced automatically. We never store or retain your API keys after deployment \u2014 you maintain full ownership and control.' },
         { i: 'Training & onboarding', l: 'Each agent trained on up to 150 data points. Comprehensive recorded Loom walkthrough series showing your team how to manage, monitor, and update agents. Runbook documentation for every agent: what it does, how to modify it, and troubleshooting steps. All training delivered via recorded video \u2014 your team watches on their own time. Questions answered via text or email within 1 business day.' },
-        { i: '90-day support & optimization', l: '90 days of active monitoring, optimization, and iteration. Weekly performance updates with recommendations delivered via Loom or email. Up to 50 training updates per agent. Monthly optimization report with ROI analysis. After 90 days, transitions to ongoing AI Operations retainer.' },
       ],
       ov: ['Additional agent: $2,500 each', 'Additional integration: $2,000', 'Custom AI model fine-tuning: $5,000', 'Live training call: $250/hr', 'Rush delivery: +30%'],
       ho: 'Payment: 50% deposit to start, 25% at midpoint milestone, 25% due upon completion (Net 7). Delivered in phases (typically 2\u20133 phases). Each phase has defined deliverables and sign-off. All code and agent ownership transfers to you at completion.',
-      bridge: 'Your AI ecosystem is fully operational. To keep it running, optimized, and expanding, we recommend transitioning to an ongoing AI Operations retainer ($5,000/mo) or Active Development retainer ($7,500/mo).',
+      bridge: 'Your AI ecosystem is fully operational. To keep it running, optimized, and expanding, add our Agent Command Center ($7,500/mo) retainer.',
       ideal: 'Businesses replacing manual processes with intelligent automation at scale',
     },
     {
@@ -872,7 +869,7 @@ export function PricingContent() {
               AI Agent Types{' '}
               <span style={{ fontSize: 12, fontWeight: 400, color: MU }}>(individual agents)</span>
             </h3>
-            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Each agent is custom-built for your business. All agents are $5,000 and include deployment, testing, documentation, and 30-day support. Add API integration to any agent for $3,000.</p>
+            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Each agent is custom-built for your business. All agents are $5,000 and include deployment, testing, and documentation. Add API integration to any agent for $3,000. Ongoing monitoring and optimization available via our monthly Agent retainers.</p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
               {([
