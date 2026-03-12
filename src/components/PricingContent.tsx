@@ -586,7 +586,7 @@ export function PricingContent() {
     { k: 'socialSetup', l: 'Social Setup' },
     { k: 'monthly', l: 'Marketing Retainers' },
     { k: 'social', l: 'Social Management' },
-    { k: 'customBuild', l: 'Custom Builds' },
+    { k: 'customBuild', l: 'Software Builds' },
     { k: 'customSupport', l: 'Software Retainers' },
   ];
 
