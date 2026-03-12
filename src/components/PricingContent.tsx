@@ -407,6 +407,8 @@ const pkgData: Record<string, Package[]> = {
       bridge: 'Your AI ecosystem is fully operational. To keep it running, optimized, and expanding, add our Agent Command Center ($7,500/mo) retainer.',
       ideal: 'Businesses replacing manual processes with intelligent automation at scale',
     },
+  ],
+  monthlyAgent: [
     {
       name: 'Agent Maintenance',
       price: 1500,
@@ -579,6 +581,7 @@ export function PricingContent() {
 
   const tabs = [
     { k: 'aiAgents', l: 'AI Agents' },
+    { k: 'monthlyAgent', l: 'Monthly Agent' },
     { k: 'oneTime', l: 'One-Time Projects' },
     { k: 'socialSetup', l: 'Social Setup' },
     { k: 'monthly', l: 'Marketing Retainers' },
@@ -840,7 +843,7 @@ export function PricingContent() {
         )}
 
         {/* General Add-Ons - Marketing */}
-        {tab !== 'customBuild' && tab !== 'customSupport' && tab !== 'aiAgents' && (
+        {tab !== 'customBuild' && tab !== 'customSupport' && tab !== 'aiAgents' && tab !== 'monthlyAgent' && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>General Add-Ons</h3>
             <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Enhance any package with these services</p>
@@ -863,7 +866,7 @@ export function PricingContent() {
         )}
 
         {/* AI Agent Types — A La Carte */}
-        {tab === 'aiAgents' && (
+        {(tab === 'aiAgents' || tab === 'monthlyAgent') && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
               AI Agent Types{' '}
