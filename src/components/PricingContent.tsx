@@ -23,6 +23,24 @@ const WA = '#EF4444';
 const pkgData: Record<string, Package[]> = {
   oneTime: [
     {
+      name: 'Single Page Launch',
+      price: 2000,
+      disp: '$2,000',
+      tag: 'Best for a simple online presence',
+      tl: '2\u20133 weeks',
+      scope: [
+        { i: 'Custom landing page (1 page)', l: 'Fully custom-designed, mobile-responsive single-page website built in Next.js. Includes scroll-based sections: hero, about, services, testimonials, and contact form. Responsive layout for desktop, tablet, and mobile. SEO meta title and description written. SSL certificate and hosting setup on Vercel included.' },
+        { i: 'Brand identity (logo + colors)', l: '2 initial logo concepts presented as mockups. You choose 1 for final refinement. Deliverables: logo files in PNG, SVG, and PDF formats (full color, white, and black versions). 1 primary color palette (5 colors with hex codes) and 1 font pairing (heading + body). No full brand guidelines document at this tier.' },
+        { i: 'Analytics & tracking', l: 'Google Analytics 4 installed and configured. 1 conversion goal set up (e.g., form submission or phone call click). Google Search Console connected. Basic event tracking on CTA buttons.' },
+        { i: 'Design revisions', l: '2 rounds of revisions. A \u2018round\u2019 = 1 consolidated set of feedback. Feedback must be submitted within 5 business days of each review. No partial or rolling feedback across multiple emails.' },
+        { i: 'Content & copy', l: 'Client provides all written content (headlines, body copy, bios, service descriptions). We handle layout, formatting, and placement. If you need copywriting, it can be added at $200/page.' },
+      ],
+      ov: ['Extra revision round: $300', 'Copywriting: $200/page', 'Additional section: $250'],
+      ho: 'Payment: 50% deposit to start, 50% due upon completion (Net 7). Complete upon client sign-off OR after 2 revision rounds. Post-sign-off: $175/hr.',
+      bridge: 'Includes 14 days of post-launch monitoring (bug fixes and minor tweaks). Need more pages or features? Upgrade to our Starter Launch ($4,500) for a full 5-page site with AI chat and CRM setup.',
+      ideal: 'Side projects, personal brands, simple landing pages',
+    },
+    {
       name: 'Starter Launch',
       price: 4500,
       disp: '$4,500',
@@ -630,7 +648,7 @@ export function PricingContent() {
         </div>
 
         {/* Cards */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(330px, 100%), 1fr))', gap: 16, marginBottom: 28 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: `repeat(auto-fit, minmax(min(280px, 100%), 1fr))`, gap: 16, marginBottom: 28 }}>
           {pkgData[tab].map((pk, i) => {
             const isE = exp === i;
             return (
