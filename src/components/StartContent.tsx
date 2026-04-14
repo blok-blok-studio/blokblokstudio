@@ -135,12 +135,45 @@ const projects = [
 ];
 
 const ingredients = [
-  { emoji: '\u{1F3A8}', name: 'Design', desc: 'Visuals that actually stop people from scrolling past you.' },
-  { emoji: '\u{2699}\uFE0F', name: 'Development', desc: 'Fast, clean code that works on every device and ranks on Google.' },
-  { emoji: '\u{1F4B3}', name: 'Payments', desc: 'Stripe, Shopify, whatever you need so people pay you directly on your site.' },
-  { emoji: '\u{1F4C8}', name: 'SEO', desc: 'We build it to rank from day one, whether you need local or global traffic.' },
-  { emoji: '\u{1F916}', name: 'Automation', desc: 'AI agents and workflows that keep working while you sleep.' },
-  { emoji: '\u{1F4E3}', name: 'Conversion', desc: 'Every section of your site is built to turn visitors into paying customers.' },
+  { emoji: '\u{1F3A8}', name: 'Design', desc: 'Whether you run a gym, a restaurant, or a SaaS company, your site should look like you actually care about your brand.' },
+  { emoji: '\u{2699}\uFE0F', name: 'Development', desc: 'Fast, clean code that works on every device and ranks on Google. No matter what industry you are in.' },
+  { emoji: '\u{1F4B3}', name: 'Payments', desc: 'Sell products, book appointments, or take deposits. We set it up so money comes in without you lifting a finger.' },
+  { emoji: '\u{1F4C8}', name: 'SEO', desc: 'People are searching for what you do right now. We make sure they actually find you.' },
+  { emoji: '\u{1F916}', name: 'Automation', desc: 'Auto replies, lead capture, follow ups, booking confirmations. Systems that run your business while you sleep.' },
+  { emoji: '\u{1F4E3}', name: 'Conversion', desc: 'Traffic means nothing if nobody buys. Every page we build is designed to turn visitors into customers.' },
+];
+
+const testimonials = [
+  {
+    quote: 'They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices.',
+    name: 'Luke Satterly',
+    role: 'Personal Trainer, Berlin',
+    project: 'coach-luki',
+  },
+  {
+    quote: 'The design matched my energy perfectly. Consultations went up over 200% after launch and the site basically sells for me now.',
+    name: 'Kofi',
+    role: 'Performance Coach',
+    project: 'coach-kofi',
+  },
+  {
+    quote: 'Our booster pack drops sell out in hours now. The email capture popup alone grew our list by 400% in the first month.',
+    name: 'Exotic Ripz',
+    role: 'Trading Card Community',
+    project: 'exotic-ripz',
+  },
+  {
+    quote: 'Parents need to trust you before they hand over their kids. The site Blok Blok built does that instantly. Membership inquiries jumped 150%.',
+    name: 'Nanny & Nest',
+    role: 'Childcare Agency',
+    project: 'nanny-and-nest',
+  },
+  {
+    quote: 'We needed to look as serious as the enterprise clients we serve. They nailed the tech forward feel and our qualified leads have never been higher.',
+    name: 'KDS Systems',
+    role: 'Cloud & IT Services',
+    project: 'kds-systems',
+  },
 ];
 
 const recipe = [
@@ -151,11 +184,11 @@ const recipe = [
 ];
 
 const halfBaked = [
-  { bad: 'A pretty site that nobody finds', good: 'SEO baked in from day one' },
-  { bad: 'Chasing payments through DMs and invoices', good: 'Stripe checkout so clients just pay on your site' },
-  { bad: '"We\'ll figure out mobile later"', good: 'Mobile first, every single time' },
-  { bad: 'A template that looks like everyone else', good: 'Custom design built around your brand' },
-  { bad: 'Launched and then abandoned', good: 'Ongoing support so your site keeps growing' },
+  { bad: 'A nice looking site that nobody can find on Google', good: 'SEO baked in from day one so customers actually find you' },
+  { bad: 'Chasing payments through DMs, emails, and invoices', good: 'Online payments so clients book and pay right on your site' },
+  { bad: '"We\'ll figure out mobile later"', good: 'Mobile first, because that is where your customers are' },
+  { bad: 'A template that looks like every other business in your industry', good: 'Custom design that makes your brand stand out immediately' },
+  { bad: 'Launched and then abandoned by the agency', good: 'Ongoing support because your business keeps growing and your site should too' },
 ];
 
 export function StartContent() {
@@ -208,7 +241,7 @@ export function StartContent() {
             transition={{ ...springTransition, delay: 0.6 }}
             className="text-base sm:text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8 sm:mb-12 leading-relaxed"
           >
-            We don&apos;t use templates. We don&apos;t cut corners. We bake every project from scratch until it&apos;s golden.
+            Websites, brands, and systems for coaches, shops, agencies, restaurants, and anyone who is tired of looking basic online. All baked from scratch.
           </motion.p>
 
           <motion.div
@@ -279,34 +312,106 @@ export function StartContent() {
         </div>
       </section>
 
-      {/* ── SOCIAL PROOF QUOTE ── */}
-      <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center">
+      {/* ── WHO THIS IS FOR ── */}
+      <section className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
           <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
             transition={bouncySpring}
             variants={popIn}
+            className="text-center mb-10 sm:mb-14"
           >
-            <motion.p
-              className="text-4xl sm:text-5xl mb-6"
-              whileInView={{ rotate: [0, 20, -20, 10, -10, 0] }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3, duration: 0.8 }}
-            >
-              {'\u{1F36A}'}
-            </motion.p>
-            <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-relaxed text-white">
-              We built Coach Luki&apos;s site from scratch. He&apos;s a personal trainer in Berlin and now he books clients directly through his website with zero friction.
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              We bake for everyone {'\u{1F468}\u{200D}\u{1F373}'}
+            </h2>
+            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
+              If you have a business and you need it to look good and work even better online, we are your people.
             </p>
-            <Link
-              href="/projects/coach-luki"
-              className="inline-block mt-6 text-sm text-gray-500 hover:text-white transition-colors"
-            >
-              See the project &rarr;
-            </Link>
           </motion.div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
+            {[
+              { emoji: '\u{1F4AA}', label: 'Personal trainers' },
+              { emoji: '\u{1F37D}\uFE0F', label: 'Restaurants & cafes' },
+              { emoji: '\u{1F6D2}', label: 'E-commerce stores' },
+              { emoji: '\u{1F3E2}', label: 'Agencies & studios' },
+              { emoji: '\u{2696}\uFE0F', label: 'Law firms' },
+              { emoji: '\u{1F3E5}', label: 'Clinics & wellness' },
+              { emoji: '\u{1F3D7}\uFE0F', label: 'Construction & trades' },
+              { emoji: '\u{1F4BB}', label: 'SaaS & tech' },
+              { emoji: '\u{1F393}', label: 'Education' },
+              { emoji: '\u{1F3B5}', label: 'Music & creatives' },
+              { emoji: '\u{1F9D1}\u{200D}\u{1F4BC}', label: 'Freelancers' },
+              { emoji: '\u{1F36A}', label: 'And literally anyone else' },
+            ].map((item, i) => (
+              <motion.div
+                key={item.label}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ ...bouncySpring, delay: i * 0.05 }}
+                variants={bounceUp}
+                whileHover={{ scale: 1.08, transition: { type: 'spring', stiffness: 400, damping: 12 } }}
+                className="rounded-xl sm:rounded-2xl p-4 bg-white/[0.03] border border-white/[0.06] text-center"
+              >
+                <span className="text-2xl sm:text-3xl block mb-2">{item.emoji}</span>
+                <span className="text-xs sm:text-sm text-gray-400">{item.label}</span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── TESTIMONIALS ── */}
+      <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: '-60px' }}
+            transition={bouncySpring}
+            variants={popIn}
+            className="text-center mb-12 sm:mb-16"
+          >
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              Don&apos;t take our word for it {'\u{1F36A}'}
+            </h2>
+            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
+              Here is what our clients have to say after working with us.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            {testimonials.map((t, i) => (
+              <motion.div
+                key={t.name}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, margin: '-40px' }}
+                transition={{ ...bouncySpring, delay: i * 0.1 }}
+                variants={bounceUp}
+                whileHover={{ y: -6, transition: { type: 'spring', stiffness: 300, damping: 15 } }}
+                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06]"
+              >
+                <p className="text-base sm:text-lg text-white leading-relaxed mb-6">
+                  &ldquo;{t.quote}&rdquo;
+                </p>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-sm font-medium text-white">{t.name}</p>
+                    <p className="text-xs text-gray-500">{t.role}</p>
+                  </div>
+                  <Link
+                    href={`/projects/${t.project}`}
+                    className="text-xs text-gray-500 hover:text-white transition-colors"
+                  >
+                    View project &rarr;
+                  </Link>
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 
