@@ -7,8 +7,20 @@ import { useRef, useState, useEffect } from 'react';
 import { FlyingCookies } from './FlyingCookies';
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0 },
+};
+
+const bounceUp = {
+  hidden: { opacity: 0, y: 60, scale: 0.95 },
+  visible: { opacity: 1, y: 0, scale: 1 },
+};
+
+const springTransition = {
+  type: 'spring' as const,
+  stiffness: 100,
+  damping: 12,
+  mass: 0.8,
 };
 
 function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
@@ -121,7 +133,7 @@ const halfBaked = [
 
 export function StartContent() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white" style={{ cursor: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='24' font-size='24'>%F0%9F%8D%AA</text></svg>\") 16 16, auto" }}>
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center justify-center px-5 sm:px-6 lg:px-8 overflow-hidden">
         <FlyingCookies />
@@ -221,8 +233,8 @@ export function StartContent() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              variants={fadeUp}
+              transition={springTransition}
+              variants={bounceUp}
             >
               <div className="text-3xl sm:text-4xl font-bold mb-1">
                 {stat.display !== undefined ? stat.display : <Counter target={stat.value} suffix={stat.suffix} />}
@@ -283,8 +295,9 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
-                variants={fadeUp}
+                transition={{ ...springTransition, delay: i * 0.1 }}
+                variants={bounceUp}
+                whileHover={{ y: -8, scale: 1.03, transition: { type: 'spring', stiffness: 300, damping: 15 } }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors"
               >
                 <span className="text-3xl sm:text-4xl mb-4 block">{item.emoji}</span>
@@ -322,8 +335,8 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-20px' }}
-                transition={{ duration: 0.4, delay: i * 0.08 }}
-                variants={fadeUp}
+                transition={{ ...springTransition, delay: i * 0.1 }}
+                variants={bounceUp}
                 className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4"
               >
                 <div className="rounded-xl sm:rounded-2xl p-4 sm:p-5 bg-red-500/[0.04] border border-red-500/[0.1] flex items-start gap-3">
@@ -366,8 +379,9 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-                variants={fadeUp}
+                transition={{ ...springTransition, delay: i * 0.12 }}
+                variants={bounceUp}
+                whileHover={{ x: 8, transition: { type: 'spring', stiffness: 300, damping: 15 } }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] flex items-start gap-5 sm:gap-6"
               >
                 <span className="text-3xl sm:text-4xl flex-shrink-0">{step.icon}</span>
@@ -410,8 +424,9 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
-                variants={fadeUp}
+                transition={{ ...springTransition, delay: i * 0.1 }}
+                variants={bounceUp}
+                whileHover={{ y: -10, scale: 1.02, transition: { type: 'spring', stiffness: 300, damping: 15 } }}
               >
                 <Link href={`/projects/${project.slug}`} className="block group">
                   <div className="rounded-2xl sm:rounded-3xl overflow-hidden bg-white/[0.03] border border-white/[0.06]">

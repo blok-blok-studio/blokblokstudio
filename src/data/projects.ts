@@ -126,10 +126,10 @@ export const projectsData: Record<string, ProjectData> = {
     solution: 'We designed a conversion-first website where every section drives toward one goal — booking a free consultation. Stripe payment integration lets clients purchase session packages directly with zero friction. Berlin-local SEO was baked in from day one, targeting searches like "personal trainer Berlin" and "vegan fitness coach Berlin".',
     results: 'A fully conversion-optimized personal training site live in Berlin — built, designed and deployed by BlokBlok Studio. Clients can now book and pay directly through the site, eliminating DMs and invoices. Local SEO positioning drives organic traffic from Berlin-based searchers.',
     heroImage: '/images/projects/coachluki.png',
-    gallery: ['/images/projects/coachluki.png', null, null],
+    gallery: ['/images/projects/coachluki.png', '/images/projects/coachluki-mobile.png', null],
     nextSlug: 'coach-kofi',
     url: 'https://coachluki.com',
-    mobileImage: null,
+    mobileImage: '/images/projects/coachluki-mobile.png',
   },
 };
 
