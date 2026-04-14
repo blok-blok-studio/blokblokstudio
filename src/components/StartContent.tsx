@@ -39,7 +39,7 @@ function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
 const projects = [
   {
     title: 'Coach Luki',
-    desc: 'Conversion-focused personal training site with Stripe booking — Berlin.',
+    desc: 'Personal training site with Stripe booking, built to convert in Berlin.',
     image: '/images/projects/coachluki.png',
     slug: 'coach-luki',
     url: 'coachluki.com',
@@ -96,27 +96,27 @@ const projects = [
 ];
 
 const ingredients = [
-  { emoji: '\u{1F3A8}', name: 'Design', desc: 'Bold visuals that stop the scroll and build instant trust.' },
-  { emoji: '\u{2699}\uFE0F', name: 'Development', desc: 'Fast, clean code. SEO-optimized. Mobile-first. No bloat.' },
-  { emoji: '\u{1F4B3}', name: 'Payments', desc: 'Stripe, Shopify, or custom — so clients pay you, not DM you.' },
-  { emoji: '\u{1F4C8}', name: 'SEO', desc: 'Built to rank from day one. Local and global.' },
-  { emoji: '\u{1F916}', name: 'Automation', desc: 'AI agents, workflows, and systems that run while you sleep.' },
-  { emoji: '\u{1F4E3}', name: 'Conversion', desc: 'Every pixel exists to turn visitors into customers.' },
+  { emoji: '\u{1F3A8}', name: 'Design', desc: 'Visuals that actually stop people from scrolling past you.' },
+  { emoji: '\u{2699}\uFE0F', name: 'Development', desc: 'Fast, clean code that works on every device and ranks on Google.' },
+  { emoji: '\u{1F4B3}', name: 'Payments', desc: 'Stripe, Shopify, whatever you need so people pay you directly on your site.' },
+  { emoji: '\u{1F4C8}', name: 'SEO', desc: 'We build it to rank from day one, whether you need local or global traffic.' },
+  { emoji: '\u{1F916}', name: 'Automation', desc: 'AI agents and workflows that keep working while you sleep.' },
+  { emoji: '\u{1F4E3}', name: 'Conversion', desc: 'Every section of your site is built to turn visitors into paying customers.' },
 ];
 
 const recipe = [
-  { step: '01', title: 'Mix the brief', desc: 'A 30-minute call. We learn your goals, your audience, and what "done" looks like.', icon: '\u{1F963}' },
-  { step: '02', title: 'Prep the dough', desc: 'Strategy, wireframes, and a clear proposal. You know exactly what you\'re getting before we start.', icon: '\u{1F4DC}' },
-  { step: '03', title: 'Bake it', desc: 'Design and development, with check-ins along the way. We iterate until it\'s golden.', icon: '\u{1F525}' },
-  { step: '04', title: 'Serve it hot', desc: 'Launch day. Fast, polished, and ready to convert from the first visit.', icon: '\u{1F680}' },
+  { step: '01', title: 'Mix the brief', desc: 'We hop on a 30 minute call and get to know your goals, your audience, and what success actually looks like for you.', icon: '\u{1F963}' },
+  { step: '02', title: 'Prep the dough', desc: 'We put together a strategy, wireframes, and a clear proposal so you know exactly what you\'re getting before we write a single line of code.', icon: '\u{1F4DC}' },
+  { step: '03', title: 'Bake it', desc: 'This is where design and development happen. We check in with you along the way and keep iterating until it\'s golden.', icon: '\u{1F525}' },
+  { step: '04', title: 'Serve it hot', desc: 'Launch day. Your site goes live, fast, polished, and ready to start converting from the very first visit.', icon: '\u{1F680}' },
 ];
 
 const halfBaked = [
-  { bad: 'A pretty site that nobody finds', good: 'SEO-optimized from day one' },
-  { bad: 'DMs and invoices for every sale', good: 'Stripe checkout — zero friction' },
-  { bad: '"We\'ll figure out mobile later"', good: 'Mobile-first, always' },
-  { bad: 'A template that looks like everyone else', good: 'Custom design, built for your brand' },
-  { bad: 'Launched and abandoned', good: 'Ongoing support and iteration' },
+  { bad: 'A pretty site that nobody finds', good: 'SEO baked in from day one' },
+  { bad: 'Chasing payments through DMs and invoices', good: 'Stripe checkout so clients just pay on your site' },
+  { bad: '"We\'ll figure out mobile later"', good: 'Mobile first, every single time' },
+  { bad: 'A template that looks like everyone else', good: 'Custom design built around your brand' },
+  { bad: 'Launched and then abandoned', good: 'Ongoing support so your site keeps growing' },
 ];
 
 export function StartContent() {
@@ -171,15 +171,17 @@ export function StartContent() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
           >
-            <Link
-              href="/call"
+            <a
+              href="https://calendar.app.google/EVCd5JtNnChBdqXn6"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-sm sm:text-base"
             >
-              Get a taste — book a free call
+              Get a taste, book a free call
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
-            </Link>
+            </a>
             <a
               href="#projects"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-white/20 text-white hover:bg-white/5 transition-colors text-sm sm:text-base"
@@ -210,7 +212,7 @@ export function StartContent() {
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
             { value: 7, suffix: '+', label: 'Projects baked' },
-            { value: 100, suffix: '%', label: 'Custom — zero templates' },
+            { value: 100, suffix: '%', label: 'Custom, zero templates' },
             { value: 6, suffix: '+', label: 'Industries served' },
             { value: 0, suffix: '', label: 'Half-baked launches', display: '0' },
           ].map((stat) => (
@@ -243,7 +245,7 @@ export function StartContent() {
           >
             <p className="text-4xl sm:text-5xl mb-6">{'\u{1F36A}'}</p>
             <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-relaxed text-white">
-              We built Coach Luki&apos;s site from scratch — a Berlin personal trainer now booking clients directly through his website with zero friction.
+              We built Coach Luki&apos;s site from scratch. He&apos;s a personal trainer in Berlin and now he books clients directly through his website with zero friction.
             </p>
             <Link
               href="/projects/coach-luki"
@@ -270,7 +272,7 @@ export function StartContent() {
               The ingredients {'\u{1F9C1}'}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Every project gets the full recipe. No missing pieces. No shortcuts.
+              Every project gets the full recipe. Nothing missing, no shortcuts.
             </p>
           </motion.div>
 
@@ -306,7 +308,7 @@ export function StartContent() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              Half-baked vs. fully baked
+              Half baked vs. fully baked
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
               Most agencies give you raw dough and call it done. We don&apos;t.
@@ -353,7 +355,7 @@ export function StartContent() {
               The recipe {'\u{1F4D6}'}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Four steps from idea to launch. No mystery, no surprises.
+              Four steps from idea to launch. No mystery and no surprises.
             </p>
           </motion.div>
 
@@ -397,7 +399,7 @@ export function StartContent() {
               Fresh from the kitchen {'\u{1F373}'}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Real projects. Real clients. Real results. All baked from scratch.
+              Real projects, real clients, real results. All baked from scratch.
             </p>
           </motion.div>
 
@@ -461,17 +463,19 @@ export function StartContent() {
             Ready to cook something up?
           </h2>
           <p className="text-gray-400 text-base sm:text-lg mb-8 sm:mb-10">
-            Free 30-minute strategy call. No pitch, no pressure — just a real conversation about what your business needs.
+            Free 30 minute strategy call. No pitch, no pressure, just a real conversation about what your business needs.
           </p>
-          <Link
-            href="/call"
+          <a
+            href="https://calendar.app.google/EVCd5JtNnChBdqXn6"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-base"
           >
-            Let&apos;s bake — book a free call
+            Let&apos;s bake, book a free call
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
-          </Link>
+          </a>
         </motion.div>
       </section>
     </div>
