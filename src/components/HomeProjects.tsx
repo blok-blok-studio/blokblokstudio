@@ -85,8 +85,8 @@ export function HomeProjects() {
         <AnimatedSection className="mb-4 sm:mb-6">
           <Link href={`/projects/${featuredProjects[0].slug}`}>
             <motion.div
-              whileHover={{ scale: 1.01 }}
-              transition={{ duration: 0.4 }}
+              whileHover={{ scale: 1.02, y: -4 }}
+              transition={{ type: 'spring', stiffness: 300, damping: 15 }}
               className="group relative overflow-hidden rounded-2xl sm:rounded-3xl cursor-pointer"
             >
               <div className="aspect-[16/9] relative bg-gray-900">
@@ -133,8 +133,8 @@ export function HomeProjects() {
             <AnimatedSection key={project.slug} delay={i * 0.1}>
               <Link href={`/projects/${project.slug}`}>
                 <motion.div
-                  whileHover={{ scale: 1.02 }}
-                  transition={{ duration: 0.4 }}
+                  whileHover={{ scale: 1.04, y: -8 }}
+                  transition={{ type: 'spring', stiffness: 300, damping: 12 }}
                   className="group relative overflow-hidden rounded-2xl sm:rounded-3xl cursor-pointer"
                 >
                   <div className="aspect-[4/3] relative bg-gray-900">

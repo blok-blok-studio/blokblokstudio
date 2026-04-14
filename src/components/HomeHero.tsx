@@ -41,9 +41,9 @@ export function HomeHero() {
             To change the status text, edit the string on line 28 below.
             To hide this badge entirely, remove this <motion.div> block. */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          initial={{ opacity: 0, y: 40, scale: 0.9 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ type: 'spring', stiffness: 120, damping: 12, delay: 0.2 }}
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-6 sm:mb-8">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
@@ -59,9 +59,9 @@ export function HomeHero() {
             To swap: replace that file (keep same filename) or change src below.
             Responsive widths: 280px mobile → 400px sm → 500px md → 600px lg */}
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          initial={{ opacity: 0, y: 60, scale: 0.85 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ type: 'spring', stiffness: 100, damping: 10, delay: 0.4 }}
           className="mb-6 sm:mb-8"
         >
           <Image
@@ -78,9 +78,9 @@ export function HomeHero() {
             Pulled from translations: "hero_subtitle" key.
             To edit: go to /src/messages/en.json → home.hero_subtitle */}
         <motion.p
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          transition={{ type: 'spring', stiffness: 120, damping: 14, delay: 0.6 }}
           className="text-base sm:text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8 sm:mb-12 leading-relaxed"
         >
           {t('hero_subtitle')}
@@ -92,9 +92,9 @@ export function HomeHero() {
             Button 2: Outlined → links to /projects
             Text pulled from translations: "hero_cta" and "projects_cta" */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.8 }}
+          initial={{ opacity: 0, y: 30, scale: 0.9 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ type: 'spring', stiffness: 120, damping: 10, delay: 0.8 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
         >
           {/* Primary CTA — "Start a Project" button (white, filled) */}
