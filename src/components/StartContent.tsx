@@ -1,54 +1,34 @@
 'use client';
 
-import { motion, useInView, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRef, useState, useEffect } from 'react';
 import { FlyingCookies } from './FlyingCookies';
 
+const ease = [0.25, 0.46, 0.45, 0.94] as const;
+
 const fadeUp = {
-  hidden: { opacity: 0, y: 50 },
+  hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0 },
 };
 
-const bounceUp = {
-  hidden: { opacity: 0, y: 80, scale: 0.9, rotate: -2 },
-  visible: { opacity: 1, y: 0, scale: 1, rotate: 0 },
-};
-
-const popIn = {
-  hidden: { opacity: 0, scale: 0.6 },
-  visible: { opacity: 1, scale: 1 },
-};
+const bounceUp = fadeUp;
+const popIn = fadeUp;
 
 const slideRight = {
-  hidden: { opacity: 0, x: -60 },
+  hidden: { opacity: 0, x: -24 },
   visible: { opacity: 1, x: 0 },
 };
 
 const slideLeft = {
-  hidden: { opacity: 0, x: 60 },
+  hidden: { opacity: 0, x: 24 },
   visible: { opacity: 1, x: 0 },
 };
 
-const springTransition = {
-  type: 'spring' as const,
-  stiffness: 120,
-  damping: 10,
-  mass: 0.8,
-};
-
-const bouncySpring = {
-  type: 'spring' as const,
-  stiffness: 150,
-  damping: 8,
-  mass: 0.6,
-};
-
-const jiggle = {
-  rotate: [0, -3, 3, -2, 2, 0],
-  transition: { duration: 0.5, ease: 'easeInOut' as const },
-};
+const springTransition = { duration: 0.5, ease };
+const bouncySpring = springTransition;
+const jiggle = {};
 
 function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -75,52 +55,6 @@ function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
   return <span ref={ref}>{count}{suffix}</span>;
 }
 
-function FloatingGlow() {
-  const mouseX = useMotionValue(0);
-  const mouseY = useMotionValue(0);
-  const smoothX = useSpring(mouseX, { stiffness: 50, damping: 30 });
-  const smoothY = useSpring(mouseY, { stiffness: 50, damping: 30 });
-
-  useEffect(() => {
-    const handleMove = (e: MouseEvent) => {
-      mouseX.set(e.clientX);
-      mouseY.set(e.clientY);
-    };
-    window.addEventListener('mousemove', handleMove);
-    return () => window.removeEventListener('mousemove', handleMove);
-  }, [mouseX, mouseY]);
-
-  return (
-    <motion.div
-      className="pointer-events-none fixed inset-0 z-[1]"
-      style={{ background: 'transparent' }}
-    >
-      <motion.div
-        className="absolute w-[400px] h-[400px] rounded-full"
-        style={{
-          x: smoothX,
-          y: smoothY,
-          translateX: '-50%',
-          translateY: '-50%',
-          background: 'radial-gradient(circle, rgba(255,180,50,0.06) 0%, transparent 70%)',
-          filter: 'blur(40px)',
-        }}
-      />
-    </motion.div>
-  );
-}
-
-function ParallaxSection({ children, className = '', offset = 50 }: { children: React.ReactNode; className?: string; offset?: number }) {
-  const ref = useRef(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
-  const y = useTransform(scrollYProgress, [0, 1], [offset, -offset]);
-
-  return (
-    <motion.div ref={ref} style={{ y }} className={className}>
-      {children}
-    </motion.div>
-  );
-}
 
 const projects = [
   {
@@ -241,24 +175,7 @@ const halfBaked = [
 export function StartContent() {
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden" style={{ cursor: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='24' font-size='24'>%F0%9F%8D%AA</text></svg>\") 16 16, auto" }}>
-      <FloatingGlow />
-
-      {/* Animated gradient background blobs */}
-      <div className="fixed inset-0 z-0 pointer-events-none">
-        <motion.div
-          className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full opacity-[0.03]"
-          style={{ background: 'radial-gradient(circle, #f59e0b, transparent 70%)', filter: 'blur(80px)' }}
-          animate={{ x: [0, 100, -50, 0], y: [0, -80, 60, 0], scale: [1, 1.2, 0.9, 1] }}
-          transition={{ duration: 20, repeat: Infinity, ease: 'easeInOut' }}
-        />
-        <motion.div
-          className="absolute bottom-1/3 right-1/4 w-[500px] h-[500px] rounded-full opacity-[0.03]"
-          style={{ background: 'radial-gradient(circle, #ef4444, transparent 70%)', filter: 'blur(80px)' }}
-          animate={{ x: [0, -80, 60, 0], y: [0, 100, -40, 0], scale: [1, 0.9, 1.15, 1] }}
-          transition={{ duration: 25, repeat: Infinity, ease: 'easeInOut' }}
-        />
-      </div>
-
+      
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center justify-center px-5 sm:px-6 lg:px-8 overflow-hidden">
         <FlyingCookies />
@@ -268,16 +185,9 @@ export function StartContent() {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ ...bouncySpring, delay: 0.2 }}
-            whileHover={jiggle}
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-6 sm:mb-8">
-              <motion.span
-                className="text-2xl"
-                animate={{ rotate: [0, 15, -15, 10, -10, 0] }}
-                transition={{ duration: 1.5, delay: 1, repeat: Infinity, repeatDelay: 4 }}
-              >
-                {'\u{1F36A}'}
-              </motion.span>
+              <span className="text-2xl">{'\u{1F36A}'}</span>
               <span className="text-xs text-gray-400 tracking-wide">
                 Fresh out the oven
               </span>
@@ -315,41 +225,23 @@ export function StartContent() {
             transition={{ ...bouncySpring, delay: 0.8 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
           >
-            <motion.a
+            <a
               href="https://calendar.app.google/EVCd5JtNnChBdqXn6"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-medium text-sm sm:text-base"
-              whileHover={{ scale: 1.1, transition: { type: 'spring', stiffness: 400, damping: 10 } }}
-              whileTap={{ scale: 0.92 }}
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-medium text-sm sm:text-base hover:bg-gray-100 transition-colors"
             >
-              <motion.span
-                className="absolute inset-0 rounded-full bg-white"
-                animate={{ boxShadow: ['0 0 0px rgba(255,255,255,0)', '0 0 30px rgba(255,255,255,0.3)', '0 0 0px rgba(255,255,255,0)'] }}
-                transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-              />
-              <span className="relative z-10 flex items-center gap-2">
-                Get a taste, book a free call
-                <motion.svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  animate={{ x: [0, 4, 0] }}
-                  transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </motion.svg>
-              </span>
-            </motion.a>
-            <motion.a
+              Get a taste, book a free call
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+            <a
               href="#projects"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-white/20 text-white hover:bg-white/5 transition-colors text-sm sm:text-base"
-              whileHover={{ scale: 1.08, borderColor: 'rgba(255,255,255,0.4)', transition: { type: 'spring', stiffness: 400, damping: 10 } }}
-              whileTap={{ scale: 0.92 }}
             >
               See what we&apos;ve cooked
-            </motion.a>
+            </a>
           </motion.div>
         </div>
 
@@ -435,13 +327,10 @@ export function StartContent() {
                 viewport={{ once: true }}
                 transition={{ ...bouncySpring, delay: i * 0.05 }}
                 variants={bounceUp}
-                whileHover={{ scale: 1.1, rotate: [0, -3, 3, 0], transition: { type: 'spring', stiffness: 400, damping: 10 } }}
-                whileTap={{ scale: 0.9 }}
                 className="rounded-xl sm:rounded-2xl p-4 bg-white/[0.03] border border-white/[0.06] text-center cursor-default"
               >
                 <motion.span
                   className="text-2xl sm:text-3xl block mb-2"
-                  whileHover={{ scale: 1.3, rotate: 15, transition: { type: 'spring', stiffness: 500, damping: 8 } }}
                 >{item.emoji}</motion.span>
                 <span className="text-xs sm:text-sm text-gray-400">{item.label}</span>
               </motion.div>
@@ -452,7 +341,7 @@ export function StartContent() {
 
       {/* ── TESTIMONIALS ── */}
       <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8 relative">
-        <ParallaxSection className="max-w-5xl mx-auto" offset={30}>
+        <div className="max-w-5xl mx-auto">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -478,7 +367,6 @@ export function StartContent() {
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ ...bouncySpring, delay: i * 0.1 }}
                 variants={bounceUp}
-                whileHover={{ y: -10, scale: 1.03, rotate: i % 2 === 0 ? 1 : -1, transition: { type: 'spring', stiffness: 300, damping: 12 } }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.15] transition-colors"
               >
                 <p className="text-base sm:text-lg text-white leading-relaxed mb-6">
@@ -499,7 +387,7 @@ export function StartContent() {
               </motion.div>
             ))}
           </div>
-        </ParallaxSection>
+        </div>
       </section>
 
       {/* ── INGREDIENTS ── */}
@@ -530,12 +418,10 @@ export function StartContent() {
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ ...springTransition, delay: i * 0.1 }}
                 variants={bounceUp}
-                whileHover={{ y: -8, scale: 1.03, transition: { type: 'spring', stiffness: 300, damping: 15 } }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors"
               >
                 <motion.span
                   className="text-3xl sm:text-4xl mb-4 block"
-                  whileHover={{ rotate: [0, -20, 20, -10, 10, 0], transition: { duration: 0.5 } }}
                 >
                   {item.emoji}
                 </motion.span>
@@ -619,7 +505,6 @@ export function StartContent() {
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ ...springTransition, delay: i * 0.12 }}
                 variants={bounceUp}
-                whileHover={{ x: 8, transition: { type: 'spring', stiffness: 300, damping: 15 } }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] flex items-start gap-5 sm:gap-6"
               >
                 <span className="text-3xl sm:text-4xl flex-shrink-0">{step.icon}</span>
@@ -638,7 +523,7 @@ export function StartContent() {
 
       {/* ── PROJECTS GRID ── */}
       <section id="projects" className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8 relative">
-        <ParallaxSection className="max-w-7xl mx-auto" offset={20}>
+        <div className="max-w-7xl mx-auto">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -664,8 +549,6 @@ export function StartContent() {
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ ...springTransition, delay: i * 0.1 }}
                 variants={bounceUp}
-                whileHover={{ y: -14, scale: 1.04, rotate: i % 3 === 0 ? 1.5 : i % 3 === 1 ? -1.5 : 0, transition: { type: 'spring', stiffness: 300, damping: 12 } }}
-                whileTap={{ scale: 0.97 }}
               >
                 <Link href={`/projects/${project.slug}`} className="block group">
                   <div className="rounded-2xl sm:rounded-3xl overflow-hidden bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.15] transition-colors hover:shadow-lg hover:shadow-white/[0.03]">
@@ -699,7 +582,7 @@ export function StartContent() {
               </motion.div>
             ))}
           </div>
-        </ParallaxSection>
+        </div>
       </section>
 
       {/* ── FINAL CTA ── */}
@@ -712,14 +595,7 @@ export function StartContent() {
           variants={popIn}
           className="max-w-2xl mx-auto text-center"
         >
-          <motion.p
-            className="text-5xl sm:text-6xl mb-6"
-            whileInView={{ rotate: [0, 25, -25, 15, -15, 5, -5, 0], scale: [1, 1.2, 1] }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2, duration: 1 }}
-          >
-            {'\u{1F36A}'}
-          </motion.p>
+          <p className="text-5xl sm:text-6xl mb-6">{'\u{1F36A}'}</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             Ready to cook something up?
           </h2>
@@ -731,8 +607,6 @@ export function StartContent() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-base"
-            whileHover={{ scale: 1.08, transition: { type: 'spring', stiffness: 400, damping: 10 } }}
-            whileTap={{ scale: 0.95 }}
           >
             Let&apos;s bake, book a free call
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -743,22 +617,17 @@ export function StartContent() {
       </section>
 
       {/* ── FLOATING WHATSAPP BUTTON ── */}
-      <motion.a
+      <a
         href="https://wa.me/491627055848?text=Hey%20Blok%20Blok%20Studio%2C%20I%20just%20scanned%20your%20QR%20code%20and%20I%27m%20interested%20in%20working%20together!"
         target="_blank"
         rel="noopener noreferrer"
-        initial={{ opacity: 0, scale: 0, y: 20 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{ delay: 2, type: 'spring', stiffness: 200, damping: 15 }}
-        whileHover={{ scale: 1.15, transition: { type: 'spring', stiffness: 400, damping: 12 } }}
-        whileTap={{ scale: 0.95 }}
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-[#25D366]/30"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-[#25D366]/30 hover:scale-110 transition-transform"
         aria-label="Chat on WhatsApp"
       >
         <svg viewBox="0 0 24 24" fill="white" className="w-7 h-7">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
         </svg>
-      </motion.a>
+      </a>
     </div>
   );
 }

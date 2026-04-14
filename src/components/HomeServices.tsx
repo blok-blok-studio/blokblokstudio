@@ -102,14 +102,14 @@ export function HomeServices() {
               <motion.div
                 key={service.num}
                 layout
-                initial={{ opacity: 0, scale: 0.9, y: 30 }}
-                animate={{ opacity: 1, scale: 1, y: 0 }}
-                exit={{ opacity: 0, scale: 0.9, y: 20 }}
-                transition={{ type: 'spring', stiffness: 120, damping: 12, delay: i * 0.06 }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 20 }}
+                transition={{ duration: 0.4, delay: i * 0.05 }}
               >
                 <motion.div
-                  whileHover={{ y: -12, scale: 1.04 }}
-                  transition={{ type: 'spring', stiffness: 300, damping: 12 }}
+                  whileHover={{ y: -6 }}
+                  transition={{ duration: 0.3 }}
                   className={`relative rounded-2xl sm:rounded-3xl p-[1px] h-full bg-gradient-to-br ${service.gradient} group cursor-pointer`}
                 >
                   <div className="bg-gray-950 rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full">

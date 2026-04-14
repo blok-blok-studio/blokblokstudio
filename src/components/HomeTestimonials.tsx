@@ -121,8 +121,8 @@ export function HomeTestimonials() {
             <AnimatedSection key={i} delay={i * 0.1}>
               {/* Card lifts up 6px on hover */}
               <motion.div
-                whileHover={{ y: -10, scale: 1.03 }}
-                transition={{ type: 'spring', stiffness: 300, damping: 12 }}
+                whileHover={{ y: -6 }}
+                transition={{ duration: 0.3 }}
                 className="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full flex flex-col"
               >
                 {/* Star rating — 5 filled stars */}
