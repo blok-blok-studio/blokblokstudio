@@ -9,6 +9,7 @@ import { HomeTestimonials } from '@/components/HomeTestimonials';
 import { HomeNewsletter } from '@/components/HomeNewsletter';
 import { HomeAuditCTA } from '@/components/HomeAuditCTA';
 import { HomeCTA } from '@/components/HomeCTA';
+import { HomeSocialProof } from '@/components/HomeSocialProof';
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('home');
@@ -30,6 +31,7 @@ export default function HomePage() {
       <HomeServices />
       <HomeProjects />
       <HomeTestimonials />
+      <HomeSocialProof />
       <HomeAuditCTA />
       <HomeNewsletter />
       <HomeCTA />
