@@ -7,20 +7,47 @@ import { useRef, useState, useEffect } from 'react';
 import { FlyingCookies } from './FlyingCookies';
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 40 },
+  hidden: { opacity: 0, y: 50 },
   visible: { opacity: 1, y: 0 },
 };
 
 const bounceUp = {
-  hidden: { opacity: 0, y: 60, scale: 0.95 },
-  visible: { opacity: 1, y: 0, scale: 1 },
+  hidden: { opacity: 0, y: 80, scale: 0.9, rotate: -2 },
+  visible: { opacity: 1, y: 0, scale: 1, rotate: 0 },
+};
+
+const popIn = {
+  hidden: { opacity: 0, scale: 0.6 },
+  visible: { opacity: 1, scale: 1 },
+};
+
+const slideRight = {
+  hidden: { opacity: 0, x: -60 },
+  visible: { opacity: 1, x: 0 },
+};
+
+const slideLeft = {
+  hidden: { opacity: 0, x: 60 },
+  visible: { opacity: 1, x: 0 },
 };
 
 const springTransition = {
   type: 'spring' as const,
-  stiffness: 100,
-  damping: 12,
+  stiffness: 120,
+  damping: 10,
   mass: 0.8,
+};
+
+const bouncySpring = {
+  type: 'spring' as const,
+  stiffness: 150,
+  damping: 8,
+  mass: 0.6,
+};
+
+const jiggle = {
+  rotate: [0, -3, 3, -2, 2, 0],
+  transition: { duration: 0.5, ease: 'easeInOut' as const },
 };
 
 function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
@@ -140,12 +167,19 @@ export function StartContent() {
 
         <div className="relative z-20 max-w-3xl mx-auto text-center">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ ...bouncySpring, delay: 0.2 }}
+            whileHover={jiggle}
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-6 sm:mb-8">
-              <span className="text-2xl">{'\u{1F36A}'}</span>
+              <motion.span
+                className="text-2xl"
+                animate={{ rotate: [0, 15, -15, 10, -10, 0] }}
+                transition={{ duration: 1.5, delay: 1, repeat: Infinity, repeatDelay: 4 }}
+              >
+                {'\u{1F36A}'}
+              </motion.span>
               <span className="text-xs text-gray-400 tracking-wide">
                 Fresh out the oven
               </span>
@@ -153,9 +187,9 @@ export function StartContent() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            initial={{ opacity: 0, y: 60, scale: 0.8 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ ...bouncySpring, delay: 0.4 }}
             className="mb-6 sm:mb-8"
           >
             <Image
@@ -169,18 +203,18 @@ export function StartContent() {
           </motion.div>
 
           <motion.p
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
+            transition={{ ...springTransition, delay: 0.6 }}
             className="text-base sm:text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8 sm:mb-12 leading-relaxed"
           >
             We don&apos;t use templates. We don&apos;t cut corners. We bake every project from scratch until it&apos;s golden.
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
+            initial={{ opacity: 0, y: 30, scale: 0.9 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ ...bouncySpring, delay: 0.8 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
           >
             <a
@@ -252,10 +286,17 @@ export function StartContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6 }}
-            variants={fadeUp}
+            transition={bouncySpring}
+            variants={popIn}
           >
-            <p className="text-4xl sm:text-5xl mb-6">{'\u{1F36A}'}</p>
+            <motion.p
+              className="text-4xl sm:text-5xl mb-6"
+              whileInView={{ rotate: [0, 20, -20, 10, -10, 0] }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3, duration: 0.8 }}
+            >
+              {'\u{1F36A}'}
+            </motion.p>
             <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-relaxed text-white">
               We built Coach Luki&apos;s site from scratch. He&apos;s a personal trainer in Berlin and now he books clients directly through his website with zero friction.
             </p>
@@ -276,8 +317,8 @@ export function StartContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6 }}
-            variants={fadeUp}
+            transition={bouncySpring}
+            variants={popIn}
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
@@ -300,7 +341,12 @@ export function StartContent() {
                 whileHover={{ y: -8, scale: 1.03, transition: { type: 'spring', stiffness: 300, damping: 15 } }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors"
               >
-                <span className="text-3xl sm:text-4xl mb-4 block">{item.emoji}</span>
+                <motion.span
+                  className="text-3xl sm:text-4xl mb-4 block"
+                  whileHover={{ rotate: [0, -20, 20, -10, 10, 0], transition: { duration: 0.5 } }}
+                >
+                  {item.emoji}
+                </motion.span>
                 <h3 className="text-lg font-semibold mb-2">{item.name}</h3>
                 <p className="text-sm text-gray-500 leading-relaxed">{item.desc}</p>
               </motion.div>
@@ -335,8 +381,8 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-20px' }}
-                transition={{ ...springTransition, delay: i * 0.1 }}
-                variants={bounceUp}
+                transition={{ ...bouncySpring, delay: i * 0.12 }}
+                variants={i % 2 === 0 ? slideRight : slideLeft}
                 className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4"
               >
                 <div className="rounded-xl sm:rounded-2xl p-4 sm:p-5 bg-red-500/[0.04] border border-red-500/[0.1] flex items-start gap-3">
@@ -360,8 +406,8 @@ export function StartContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6 }}
-            variants={fadeUp}
+            transition={bouncySpring}
+            variants={popIn}
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
@@ -405,8 +451,8 @@ export function StartContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6 }}
-            variants={fadeUp}
+            transition={bouncySpring}
+            variants={popIn}
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
@@ -469,28 +515,37 @@ export function StartContent() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-60px' }}
-          transition={{ duration: 0.6 }}
-          variants={fadeUp}
+          transition={bouncySpring}
+          variants={popIn}
           className="max-w-2xl mx-auto text-center"
         >
-          <p className="text-5xl sm:text-6xl mb-6">{'\u{1F36A}'}</p>
+          <motion.p
+            className="text-5xl sm:text-6xl mb-6"
+            whileInView={{ rotate: [0, 25, -25, 15, -15, 5, -5, 0], scale: [1, 1.2, 1] }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2, duration: 1 }}
+          >
+            {'\u{1F36A}'}
+          </motion.p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             Ready to cook something up?
           </h2>
           <p className="text-gray-400 text-base sm:text-lg mb-8 sm:mb-10">
             Free 30 minute strategy call. No pitch, no pressure, just a real conversation about what your business needs.
           </p>
-          <a
+          <motion.a
             href="https://calendar.app.google/EVCd5JtNnChBdqXn6"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-base"
+            whileHover={{ scale: 1.08, transition: { type: 'spring', stiffness: 400, damping: 10 } }}
+            whileTap={{ scale: 0.95 }}
           >
             Let&apos;s bake, book a free call
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
-          </a>
+          </motion.a>
         </motion.div>
       </section>
 
