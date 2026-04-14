@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, useInView } from 'framer-motion';
+import { motion, useInView, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRef, useState, useEffect } from 'react';
@@ -73,6 +73,53 @@ function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
   }, [isInView, target]);
 
   return <span ref={ref}>{count}{suffix}</span>;
+}
+
+function FloatingGlow() {
+  const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
+  const smoothX = useSpring(mouseX, { stiffness: 50, damping: 30 });
+  const smoothY = useSpring(mouseY, { stiffness: 50, damping: 30 });
+
+  useEffect(() => {
+    const handleMove = (e: MouseEvent) => {
+      mouseX.set(e.clientX);
+      mouseY.set(e.clientY);
+    };
+    window.addEventListener('mousemove', handleMove);
+    return () => window.removeEventListener('mousemove', handleMove);
+  }, [mouseX, mouseY]);
+
+  return (
+    <motion.div
+      className="pointer-events-none fixed inset-0 z-[1]"
+      style={{ background: 'transparent' }}
+    >
+      <motion.div
+        className="absolute w-[400px] h-[400px] rounded-full"
+        style={{
+          x: smoothX,
+          y: smoothY,
+          translateX: '-50%',
+          translateY: '-50%',
+          background: 'radial-gradient(circle, rgba(255,180,50,0.06) 0%, transparent 70%)',
+          filter: 'blur(40px)',
+        }}
+      />
+    </motion.div>
+  );
+}
+
+function ParallaxSection({ children, className = '', offset = 50 }: { children: React.ReactNode; className?: string; offset?: number }) {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
+  const y = useTransform(scrollYProgress, [0, 1], [offset, -offset]);
+
+  return (
+    <motion.div ref={ref} style={{ y }} className={className}>
+      {children}
+    </motion.div>
+  );
 }
 
 const projects = [
@@ -193,7 +240,25 @@ const halfBaked = [
 
 export function StartContent() {
   return (
-    <div className="min-h-screen bg-black text-white" style={{ cursor: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='24' font-size='24'>%F0%9F%8D%AA</text></svg>\") 16 16, auto" }}>
+    <div className="min-h-screen bg-black text-white overflow-x-hidden" style={{ cursor: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='24' font-size='24'>%F0%9F%8D%AA</text></svg>\") 16 16, auto" }}>
+      <FloatingGlow />
+
+      {/* Animated gradient background blobs */}
+      <div className="fixed inset-0 z-0 pointer-events-none">
+        <motion.div
+          className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full opacity-[0.03]"
+          style={{ background: 'radial-gradient(circle, #f59e0b, transparent 70%)', filter: 'blur(80px)' }}
+          animate={{ x: [0, 100, -50, 0], y: [0, -80, 60, 0], scale: [1, 1.2, 0.9, 1] }}
+          transition={{ duration: 20, repeat: Infinity, ease: 'easeInOut' }}
+        />
+        <motion.div
+          className="absolute bottom-1/3 right-1/4 w-[500px] h-[500px] rounded-full opacity-[0.03]"
+          style={{ background: 'radial-gradient(circle, #ef4444, transparent 70%)', filter: 'blur(80px)' }}
+          animate={{ x: [0, -80, 60, 0], y: [0, 100, -40, 0], scale: [1, 0.9, 1.15, 1] }}
+          transition={{ duration: 25, repeat: Infinity, ease: 'easeInOut' }}
+        />
+      </div>
+
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center justify-center px-5 sm:px-6 lg:px-8 overflow-hidden">
         <FlyingCookies />
@@ -250,23 +315,41 @@ export function StartContent() {
             transition={{ ...bouncySpring, delay: 0.8 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
           >
-            <a
+            <motion.a
               href="https://calendar.app.google/EVCd5JtNnChBdqXn6"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-sm sm:text-base"
+              className="relative inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-medium text-sm sm:text-base"
+              whileHover={{ scale: 1.1, transition: { type: 'spring', stiffness: 400, damping: 10 } }}
+              whileTap={{ scale: 0.92 }}
             >
-              Get a taste, book a free call
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </a>
-            <a
+              <motion.span
+                className="absolute inset-0 rounded-full bg-white"
+                animate={{ boxShadow: ['0 0 0px rgba(255,255,255,0)', '0 0 30px rgba(255,255,255,0.3)', '0 0 0px rgba(255,255,255,0)'] }}
+                transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+              />
+              <span className="relative z-10 flex items-center gap-2">
+                Get a taste, book a free call
+                <motion.svg
+                  className="w-4 h-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  animate={{ x: [0, 4, 0] }}
+                  transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </motion.svg>
+              </span>
+            </motion.a>
+            <motion.a
               href="#projects"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-white/20 text-white hover:bg-white/5 transition-colors text-sm sm:text-base"
+              whileHover={{ scale: 1.08, borderColor: 'rgba(255,255,255,0.4)', transition: { type: 'spring', stiffness: 400, damping: 10 } }}
+              whileTap={{ scale: 0.92 }}
             >
               See what we&apos;ve cooked
-            </a>
+            </motion.a>
           </motion.div>
         </div>
 
@@ -352,10 +435,14 @@ export function StartContent() {
                 viewport={{ once: true }}
                 transition={{ ...bouncySpring, delay: i * 0.05 }}
                 variants={bounceUp}
-                whileHover={{ scale: 1.08, transition: { type: 'spring', stiffness: 400, damping: 12 } }}
-                className="rounded-xl sm:rounded-2xl p-4 bg-white/[0.03] border border-white/[0.06] text-center"
+                whileHover={{ scale: 1.1, rotate: [0, -3, 3, 0], transition: { type: 'spring', stiffness: 400, damping: 10 } }}
+                whileTap={{ scale: 0.9 }}
+                className="rounded-xl sm:rounded-2xl p-4 bg-white/[0.03] border border-white/[0.06] text-center cursor-default"
               >
-                <span className="text-2xl sm:text-3xl block mb-2">{item.emoji}</span>
+                <motion.span
+                  className="text-2xl sm:text-3xl block mb-2"
+                  whileHover={{ scale: 1.3, rotate: 15, transition: { type: 'spring', stiffness: 500, damping: 8 } }}
+                >{item.emoji}</motion.span>
                 <span className="text-xs sm:text-sm text-gray-400">{item.label}</span>
               </motion.div>
             ))}
@@ -364,8 +451,8 @@ export function StartContent() {
       </section>
 
       {/* ── TESTIMONIALS ── */}
-      <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8 relative">
+        <ParallaxSection className="max-w-5xl mx-auto" offset={30}>
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -391,8 +478,8 @@ export function StartContent() {
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ ...bouncySpring, delay: i * 0.1 }}
                 variants={bounceUp}
-                whileHover={{ y: -6, transition: { type: 'spring', stiffness: 300, damping: 15 } }}
-                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06]"
+                whileHover={{ y: -10, scale: 1.03, rotate: i % 2 === 0 ? 1 : -1, transition: { type: 'spring', stiffness: 300, damping: 12 } }}
+                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.15] transition-colors"
               >
                 <p className="text-base sm:text-lg text-white leading-relaxed mb-6">
                   &ldquo;{t.quote}&rdquo;
@@ -412,7 +499,7 @@ export function StartContent() {
               </motion.div>
             ))}
           </div>
-        </div>
+        </ParallaxSection>
       </section>
 
       {/* ── INGREDIENTS ── */}
@@ -550,8 +637,8 @@ export function StartContent() {
       </section>
 
       {/* ── PROJECTS GRID ── */}
-      <section id="projects" className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
+      <section id="projects" className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8 relative">
+        <ParallaxSection className="max-w-7xl mx-auto" offset={20}>
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -577,10 +664,11 @@ export function StartContent() {
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ ...springTransition, delay: i * 0.1 }}
                 variants={bounceUp}
-                whileHover={{ y: -10, scale: 1.02, transition: { type: 'spring', stiffness: 300, damping: 15 } }}
+                whileHover={{ y: -14, scale: 1.04, rotate: i % 3 === 0 ? 1.5 : i % 3 === 1 ? -1.5 : 0, transition: { type: 'spring', stiffness: 300, damping: 12 } }}
+                whileTap={{ scale: 0.97 }}
               >
                 <Link href={`/projects/${project.slug}`} className="block group">
-                  <div className="rounded-2xl sm:rounded-3xl overflow-hidden bg-white/[0.03] border border-white/[0.06]">
+                  <div className="rounded-2xl sm:rounded-3xl overflow-hidden bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.15] transition-colors hover:shadow-lg hover:shadow-white/[0.03]">
                     <div className="aspect-[4/3] relative overflow-hidden bg-gray-900">
                       <Image
                         src={project.image}
@@ -611,7 +699,7 @@ export function StartContent() {
               </motion.div>
             ))}
           </div>
-        </div>
+        </ParallaxSection>
       </section>
 
       {/* ── FINAL CTA ── */}
