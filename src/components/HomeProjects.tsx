@@ -96,7 +96,7 @@ export function HomeProjects() {
                   sizes="(max-width: 768px) 100vw, 1280px"
                   priority
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-500" />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-8 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
                 <div className="flex items-end justify-between">
@@ -141,7 +141,7 @@ export function HomeProjects() {
                       className="object-cover object-top"
                       sizes="(max-width: 640px) 100vw, 640px"
                     />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-500" />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 bg-gradient-to-t from-black/80 via-black/30 to-transparent">
                     <div className="flex items-end justify-between">

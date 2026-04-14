@@ -220,14 +220,9 @@ export function ProjectsContent() {
         <div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
         >
-          <AnimatePresence mode="wait">
             {filtered.map((project) => (
-              <motion.div
+              <div
                 key={project.id}
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.4 }}
                 className="group cursor-pointer hover:-translate-y-2 transition-transform duration-300"
               >
                 <Link href={`/projects/${project.slug}`}>
@@ -262,7 +257,7 @@ export function ProjectsContent() {
                         <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:30px_30px]" />
                       </>
                     )}
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-500" />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
                   </div>
 
                   {/* ----------------------------------------------------
@@ -296,9 +291,8 @@ export function ProjectsContent() {
                   </div>
                 </div>
                 </Link>
-              </motion.div>
+              </div>
             ))}
-          </AnimatePresence>
         </div>
       </div>
     </section>

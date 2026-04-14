@@ -149,7 +149,7 @@ const testimonials = [
     project: 'exotic-ripz',
   },
   {
-    quote: 'Parents need to trust you before they hand over their kids. The site Blok Blok built does that instantly. Membership inquiries jumped 150%.',
+    quote: 'Parents need to trust you before they hand over their kids. The site Blok Blok Studio built does that instantly. Membership inquiries jumped 150%.',
     name: 'Nanny & Nest',
     role: 'Childcare Agency',
     project: 'nanny-and-nest',
@@ -207,7 +207,7 @@ export function StartContent() {
           >
             <Image
               src="/logo-hero.png"
-              alt="Blok Blok Studio"
+              alt="Blok Blok Studio Studio"
               width={600}
               height={150}
               className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"
@@ -481,7 +481,7 @@ export function StartContent() {
                 <div className="p-4 sm:p-5 bg-green-500/[0.06] flex items-start gap-3">
                   <span className="text-green-400 text-base sm:text-lg mt-0.5 flex-shrink-0">{'\u{1F36A}'}</span>
                   <div>
-                    <span className="text-[10px] uppercase tracking-wider text-green-400/60 block mb-1">Blok Blok</span>
+                    <span className="text-[10px] uppercase tracking-wider text-green-400/60 block mb-1">Blok Blok Studio</span>
                     <span className="text-sm sm:text-base text-white">{row.good}</span>
                   </div>
                 </div>
@@ -576,7 +576,7 @@ export function StartContent() {
                         className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
-                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-500" />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
                     </div>
                     <div className="p-4 sm:p-6">
                       <div className="flex items-center gap-3 mb-3">
