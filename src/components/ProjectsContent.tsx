@@ -232,11 +232,11 @@ export function ProjectsContent() {
               <motion.div
                 key={project.id}
                 layout
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 20 }}
-                transition={{ duration: 0.4 }}
-                whileHover={{ y: -6 }}
+                transition={{ type: 'spring', stiffness: 80, damping: 15 }}
+                whileHover={{ y: -8 }}
                 className="group cursor-pointer"
               >
                 <Link href={`/projects/${project.slug}`}>

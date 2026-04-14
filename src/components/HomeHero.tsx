@@ -61,7 +61,7 @@ export function HomeHero() {
         <motion.div
           initial={{ opacity: 0, y: 60, scale: 0.85 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ type: 'spring', stiffness: 100, damping: 10, delay: 0.4 }}
+          transition={{ type: 'spring', stiffness: 80, damping: 14, delay: 0.4 }}
           className="mb-6 sm:mb-8"
         >
           <Image

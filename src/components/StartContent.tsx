@@ -6,29 +6,34 @@ import Link from 'next/link';
 import { useRef, useState, useEffect } from 'react';
 import { FlyingCookies } from './FlyingCookies';
 
-const ease = [0.25, 0.46, 0.45, 0.94] as const;
-
 const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
+  hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0 },
 };
 
-const bounceUp = fadeUp;
-const popIn = fadeUp;
+const bounceUp = {
+  hidden: { opacity: 0, y: 60 },
+  visible: { opacity: 1, y: 0 },
+};
+
+const popIn = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0 },
+};
 
 const slideRight = {
-  hidden: { opacity: 0, x: -24 },
+  hidden: { opacity: 0, x: -40 },
   visible: { opacity: 1, x: 0 },
 };
 
 const slideLeft = {
-  hidden: { opacity: 0, x: 24 },
+  hidden: { opacity: 0, x: 40 },
   visible: { opacity: 1, x: 0 },
 };
 
-const springTransition = { duration: 0.5, ease };
-const bouncySpring = springTransition;
-const jiggle = {};
+const spring = { type: 'spring' as const, stiffness: 80, damping: 15 };
+const springFast = { type: 'spring' as const, stiffness: 120, damping: 14 };
+const springDelay = (i: number) => ({ ...spring, delay: i * 0.08 });
 
 function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -184,7 +189,7 @@ export function StartContent() {
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ ...bouncySpring, delay: 0.2 }}
+            transition={{ ...spring, delay: 0.2 }}
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-6 sm:mb-8">
               <span className="text-2xl">{'\u{1F36A}'}</span>
@@ -197,7 +202,7 @@ export function StartContent() {
           <motion.div
             initial={{ opacity: 0, y: 60, scale: 0.8 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ ...bouncySpring, delay: 0.4 }}
+            transition={{ ...spring, delay: 0.4 }}
             className="mb-6 sm:mb-8"
           >
             <Image
@@ -213,7 +218,7 @@ export function StartContent() {
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ ...springTransition, delay: 0.6 }}
+            transition={{ ...spring, delay: 0.6 }}
             className="text-base sm:text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8 sm:mb-12 leading-relaxed"
           >
             Websites, brands, and systems for coaches, shops, agencies, restaurants, and anyone who is tired of looking basic online. All baked from scratch.
@@ -222,7 +227,7 @@ export function StartContent() {
           <motion.div
             initial={{ opacity: 0, y: 30, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ ...bouncySpring, delay: 0.8 }}
+            transition={{ ...spring, delay: 0.8 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
           >
             <a
@@ -275,7 +280,7 @@ export function StartContent() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={springTransition}
+              transition={spring}
               variants={bounceUp}
             >
               <div className="text-3xl sm:text-4xl font-bold mb-1">
@@ -294,7 +299,7 @@ export function StartContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            transition={bouncySpring}
+            transition={spring}
             variants={popIn}
             className="text-center mb-10 sm:mb-14"
           >
@@ -325,9 +330,10 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                transition={{ ...bouncySpring, delay: i * 0.05 }}
+                transition={{ ...spring, delay: i * 0.05 }}
                 variants={bounceUp}
-                className="rounded-xl sm:rounded-2xl p-4 bg-white/[0.03] border border-white/[0.06] text-center cursor-default"
+                whileHover={{ y: -4 }}
+                className="rounded-xl sm:rounded-2xl p-4 bg-white/[0.03] border border-white/[0.06] text-center cursor-default hover:border-white/[0.15] transition-colors"
               >
                 <motion.span
                   className="text-2xl sm:text-3xl block mb-2"
@@ -346,7 +352,7 @@ export function StartContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            transition={bouncySpring}
+            transition={spring}
             variants={popIn}
             className="text-center mb-12 sm:mb-16"
           >
@@ -365,8 +371,9 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
-                transition={{ ...bouncySpring, delay: i * 0.1 }}
+                transition={{ ...spring, delay: i * 0.1 }}
                 variants={bounceUp}
+                whileHover={{ y: -6 }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.15] transition-colors"
               >
                 <p className="text-base sm:text-lg text-white leading-relaxed mb-6">
@@ -397,7 +404,7 @@ export function StartContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            transition={bouncySpring}
+            transition={spring}
             variants={popIn}
             className="text-center mb-12 sm:mb-16"
           >
@@ -416,8 +423,9 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
-                transition={{ ...springTransition, delay: i * 0.1 }}
+                transition={{ ...spring, delay: i * 0.1 }}
                 variants={bounceUp}
+                whileHover={{ y: -6 }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors"
               >
                 <motion.span
@@ -459,7 +467,7 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-20px' }}
-                transition={{ ...bouncySpring, delay: i * 0.12 }}
+                transition={{ ...spring, delay: i * 0.12 }}
                 variants={i % 2 === 0 ? slideRight : slideLeft}
                 className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4"
               >
@@ -484,7 +492,7 @@ export function StartContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            transition={bouncySpring}
+            transition={spring}
             variants={popIn}
             className="text-center mb-12 sm:mb-16"
           >
@@ -503,9 +511,10 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
-                transition={{ ...springTransition, delay: i * 0.12 }}
+                transition={{ ...spring, delay: i * 0.12 }}
                 variants={bounceUp}
-                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] flex items-start gap-5 sm:gap-6"
+                whileHover={{ x: 6 }}
+                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors flex items-start gap-5 sm:gap-6"
               >
                 <span className="text-3xl sm:text-4xl flex-shrink-0">{step.icon}</span>
                 <div>
@@ -528,7 +537,7 @@ export function StartContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            transition={bouncySpring}
+            transition={spring}
             variants={popIn}
             className="text-center mb-12 sm:mb-16"
           >
@@ -547,8 +556,9 @@ export function StartContent() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
-                transition={{ ...springTransition, delay: i * 0.1 }}
+                transition={{ ...spring, delay: i * 0.1 }}
                 variants={bounceUp}
+                whileHover={{ y: -8 }}
               >
                 <Link href={`/projects/${project.slug}`} className="block group">
                   <div className="rounded-2xl sm:rounded-3xl overflow-hidden bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.15] transition-colors hover:shadow-lg hover:shadow-white/[0.03]">
@@ -591,7 +601,7 @@ export function StartContent() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-60px' }}
-          transition={bouncySpring}
+          transition={spring}
           variants={popIn}
           className="max-w-2xl mx-auto text-center"
         >
