@@ -496,7 +496,7 @@ export function StartContent() {
 
       {/* ── FLOATING WHATSAPP BUTTON ── */}
       <motion.a
-        href="https://wa.me/4915905853033?text=Hey%20BlokBlok%2C%20I%20just%20scanned%20your%20QR%20code%20and%20I%27m%20interested%20in%20working%20together!"
+        href="https://wa.me/491627055848?text=Hey%20BlokBlok%2C%20I%20just%20scanned%20your%20QR%20code%20and%20I%27m%20interested%20in%20working%20together!"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, scale: 0, y: 20 }}
