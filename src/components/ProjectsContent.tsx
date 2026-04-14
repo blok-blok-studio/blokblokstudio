@@ -217,27 +217,18 @@ export function ProjectsContent() {
 
             Grid: 1 col on mobile, 2 on sm, 3 on lg.
         */}
-        <motion.div
-          layout
+        <div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
         >
-          <AnimatePresence mode="popLayout">
+          <AnimatePresence mode="wait">
             {filtered.map((project) => (
-              /**
-               * Individual project card wrapper.
-               * - layout: enables smooth position animation when grid rearranges
-               * - initial/animate/exit: fade + scale animation on enter/leave
-               * - whileHover: lifts card up 6px on hover
-               */
               <motion.div
                 key={project.id}
-                layout
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: 20 }}
-                transition={{ type: 'spring', stiffness: 80, damping: 15 }}
-                whileHover={{ y: -8 }}
-                className="group cursor-pointer"
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.4 }}
+                className="group cursor-pointer hover:-translate-y-2 transition-transform duration-300"
               >
                 <Link href={`/projects/${project.slug}`}>
                 <div className="rounded-2xl sm:rounded-3xl overflow-hidden glass-card">
@@ -262,7 +253,7 @@ export function ProjectsContent() {
                         src={project.image}
                         alt={project.title}
                         fill
-                        className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                        className="object-cover object-top"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
                     ) : (
@@ -308,7 +299,7 @@ export function ProjectsContent() {
               </motion.div>
             ))}
           </AnimatePresence>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

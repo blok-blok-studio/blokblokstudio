@@ -7,32 +7,32 @@ import { useRef, useState, useEffect } from 'react';
 import { FlyingCookies } from './FlyingCookies';
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0 },
-};
-
-const bounceUp = {
   hidden: { opacity: 0, y: 60 },
   visible: { opacity: 1, y: 0 },
 };
 
+const bounceUp = {
+  hidden: { opacity: 0, y: 80 },
+  visible: { opacity: 1, y: 0 },
+};
+
 const popIn = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0, y: 50 },
   visible: { opacity: 1, y: 0 },
 };
 
 const slideRight = {
-  hidden: { opacity: 0, x: -40 },
+  hidden: { opacity: 0, x: -60 },
   visible: { opacity: 1, x: 0 },
 };
 
 const slideLeft = {
-  hidden: { opacity: 0, x: 40 },
+  hidden: { opacity: 0, x: 60 },
   visible: { opacity: 1, x: 0 },
 };
 
-const spring = { type: 'spring' as const, stiffness: 80, damping: 15 };
-const springFast = { type: 'spring' as const, stiffness: 120, damping: 14 };
+const spring = { type: 'spring' as const, stiffness: 70, damping: 13 };
+const springFast = { type: 'spring' as const, stiffness: 100, damping: 13 };
 const springDelay = (i: number) => ({ ...spring, delay: i * 0.08 });
 
 function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
@@ -187,9 +187,9 @@ export function StartContent() {
 
         <div className="relative z-20 max-w-3xl mx-auto text-center">
           <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ ...spring, delay: 0.2 }}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ...springFast, delay: 0.2 }}
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-6 sm:mb-8">
               <span className="text-2xl">{'\u{1F36A}'}</span>
@@ -200,9 +200,9 @@ export function StartContent() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 60, scale: 0.8 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ ...spring, delay: 0.4 }}
+            initial={{ opacity: 0, y: 80 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ...springFast, delay: 0.4 }}
             className="mb-6 sm:mb-8"
           >
             <Image
@@ -216,18 +216,18 @@ export function StartContent() {
           </motion.div>
 
           <motion.p
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ ...spring, delay: 0.6 }}
+            transition={{ ...springFast, delay: 0.6 }}
             className="text-base sm:text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8 sm:mb-12 leading-relaxed"
           >
             Websites, brands, and systems for coaches, shops, agencies, restaurants, and anyone who is tired of looking basic online. All baked from scratch.
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 30, scale: 0.9 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ ...spring, delay: 0.8 }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ...springFast, delay: 0.8 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
           >
             <a

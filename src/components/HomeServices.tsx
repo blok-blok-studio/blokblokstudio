@@ -108,9 +108,7 @@ export function HomeServices() {
                 transition={{ type: 'spring', stiffness: 80, damping: 15, delay: i * 0.06 }}
               >
                 <motion.div
-                  whileHover={{ y: -8 }}
-                  transition={{ type: 'spring', stiffness: 120, damping: 14 }}
-                  className={`relative rounded-2xl sm:rounded-3xl p-[1px] h-full bg-gradient-to-br ${service.gradient} group cursor-pointer`}
+                  className={`relative rounded-2xl sm:rounded-3xl p-[1px] h-full bg-gradient-to-br ${service.gradient} group cursor-pointer hover:-translate-y-2 transition-transform duration-300`}
                 >
                   <div className="bg-gray-950 rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full">
                     {/* Accent bar */}

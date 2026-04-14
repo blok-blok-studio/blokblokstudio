@@ -20,12 +20,12 @@ export function AnimatedSection({
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, y: 50 }}
-      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+      initial={{ opacity: 0, y: 70 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 70 }}
       transition={{
         type: 'spring',
-        stiffness: 80,
-        damping: 15,
+        stiffness: 70,
+        damping: 13,
         delay,
       }}
       className={className}
