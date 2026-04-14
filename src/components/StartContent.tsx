@@ -469,15 +469,21 @@ export function StartContent() {
                 viewport={{ once: true, margin: '-20px' }}
                 transition={{ ...spring, delay: i * 0.12 }}
                 variants={i % 2 === 0 ? slideRight : slideLeft}
-                className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4"
+                className="rounded-xl sm:rounded-2xl overflow-hidden border border-white/[0.06]"
               >
-                <div className="rounded-xl sm:rounded-2xl p-4 sm:p-5 bg-red-500/[0.04] border border-red-500/[0.1] flex items-start gap-3">
-                  <span className="text-red-400 text-lg mt-0.5">{'\u{274C}'}</span>
-                  <span className="text-sm sm:text-base text-gray-400">{row.bad}</span>
+                <div className="p-4 sm:p-5 bg-red-500/[0.06] border-b border-red-500/[0.1] flex items-start gap-3">
+                  <span className="text-red-400 text-base sm:text-lg mt-0.5 flex-shrink-0">{'\u{274C}'}</span>
+                  <div>
+                    <span className="text-[10px] uppercase tracking-wider text-red-400/60 block mb-1">Others</span>
+                    <span className="text-sm sm:text-base text-gray-400">{row.bad}</span>
+                  </div>
                 </div>
-                <div className="rounded-xl sm:rounded-2xl p-4 sm:p-5 bg-green-500/[0.04] border border-green-500/[0.1] flex items-start gap-3">
-                  <span className="text-green-400 text-lg mt-0.5">{'\u{1F36A}'}</span>
-                  <span className="text-sm sm:text-base text-white">{row.good}</span>
+                <div className="p-4 sm:p-5 bg-green-500/[0.06] flex items-start gap-3">
+                  <span className="text-green-400 text-base sm:text-lg mt-0.5 flex-shrink-0">{'\u{1F36A}'}</span>
+                  <div>
+                    <span className="text-[10px] uppercase tracking-wider text-green-400/60 block mb-1">Blok Blok</span>
+                    <span className="text-sm sm:text-base text-white">{row.good}</span>
+                  </div>
                 </div>
               </motion.div>
             ))}
