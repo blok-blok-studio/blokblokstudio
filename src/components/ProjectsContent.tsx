@@ -65,7 +65,6 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { AnimatedSection } from './AnimatedSection';
 import Link from 'next/link';
@@ -195,7 +194,7 @@ export function ProjectsContent() {
             <button
               key={filter.key}
               onClick={() => setActiveFilter(filter.key)}
-              className={`px-4 sm:px-5 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm transition-all duration-300 ${
+              className={`px-4 sm:px-5 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm transition-colors duration-300 ${
                 activeFilter === filter.key
                   ? 'bg-white text-black'                                              /* Active state */
                   : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white border border-white/10' /* Inactive state */
@@ -226,7 +225,7 @@ export function ProjectsContent() {
                 className="group cursor-pointer hover:-translate-y-2 transition-transform duration-300"
               >
                 <Link href={`/projects/${project.slug}`}>
-                <div className="rounded-2xl sm:rounded-3xl overflow-hidden glass-card">
+                <div className="rounded-2xl sm:rounded-3xl overflow-hidden bg-white/[0.03] border border-white/[0.06]">
 
                   {/* ----------------------------------------------------
                       Project Image / Placeholder
@@ -257,7 +256,6 @@ export function ProjectsContent() {
                         <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:30px_30px]" />
                       </>
                     )}
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
                   </div>
 
                   {/* ----------------------------------------------------
