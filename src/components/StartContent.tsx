@@ -95,14 +95,6 @@ const projects = [
     category: 'Web Design',
   },
   {
-    title: 'KDS Systems',
-    desc: 'Modern cloud solutions platform for managed IT services.',
-    image: '/images/projects/kdssys.png',
-    slug: 'kds-systems',
-    url: 'kdssys.com',
-    category: 'Web Design',
-  },
-  {
     title: 'The New School',
     desc: 'Institutional web presence for the Center for Military-Affiliated Students.',
     image: '/images/projects/military-newschool.png',
@@ -153,12 +145,6 @@ const testimonials = [
     name: 'Nanny & Nest',
     role: 'Childcare Agency',
     project: 'nanny-and-nest',
-  },
-  {
-    quote: 'We needed to look as serious as the enterprise clients we serve. They nailed the tech forward feel and our qualified leads have never been higher.',
-    name: 'KDS Systems',
-    role: 'Cloud & IT Services',
-    project: 'kds-systems',
   },
 ];
 
