@@ -25,7 +25,6 @@ import { motion } from 'framer-motion'; // Animation library for fade/slide effe
 import Image from 'next/image'; // Next.js optimized image component
 import Link from 'next/link'; // Next.js client-side navigation
 import { MagneticButton } from './MagneticButton'; // Hover effect wrapper for buttons
-import { FlyingCookies } from './FlyingCookies'; // Cookie animation on page load
 
 export function HomeHero() {
   // Load translations from the "home" section of /src/messages/{locale}.json
@@ -35,7 +34,6 @@ export function HomeHero() {
     // ── HERO SECTION CONTAINER ──
     // Full viewport height, vertically centered content
     <section className="relative min-h-screen flex items-center px-5 sm:px-6 lg:px-8">
-      <FlyingCookies />
       <div className="relative z-10 max-w-4xl mx-auto w-full text-center">
 
         {/* ── STATUS BADGE ──
