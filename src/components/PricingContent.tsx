@@ -548,6 +548,404 @@ const pkgData: Record<string, Package[]> = {
       ideal: 'Growing platforms that ship new features every month',
     },
   ],
+
+  // ─── App Development ──────────────────────────────────────────────
+  appBuild: [
+    {
+      name: 'Launchpad',
+      price: 9500,
+      disp: '$9,500',
+      tag: 'Validate your idea',
+      tl: '4-6 weeks',
+      scope: [
+        { i: 'iOS or Android (your pick) \u2014 React Native', l: 'Single-platform mobile app built in React Native. You choose iOS or Android at kickoff; the other platform can be added later as an extension.' },
+        { i: 'Up to 4 screens designed in Figma', l: 'Full Figma design for up to 4 unique screens (home, detail, profile, and 1 custom). 2 rounds of design revisions. Tablet/iPad layouts not included at this tier.' },
+        { i: 'Up to 3 API integrations', l: 'Auth provider (Apple/Google/email), 1 third-party API of your choice (maps, weather, calendar, etc.), and 1 analytics integration (Mixpanel or PostHog).' },
+        { i: 'Basic authentication', l: 'Email + Apple/Google sign-in. Profile screen with name, avatar, and logout. No multi-tenant, no team accounts, no SSO.' },
+        { i: 'Submit to App Store or Play Store', l: 'One store submission handled end-to-end: screenshots designed, description written, metadata optimized, submitted under your developer account.' },
+        { i: '30-day post-launch warranty', l: 'Bugs reported in the first 30 days after store approval fixed at no charge. Feature requests scoped separately.' },
+        { i: 'Source code + docs handoff', l: 'Full GitHub repo with README, .env.example, deployment instructions, and a 30-min recorded walkthrough.' },
+      ],
+      ov: ['Extra screen: $650', 'Second platform (add iOS or Android): +$4,500', 'Extra API integration: $450', 'Tablet/iPad layouts: +$1,800'],
+      ex: 'No custom backend build (uses your existing APIs or a no-code backend like Supabase). No in-app purchases. No push notifications. No offline-first mode.',
+      bridge: 'After the 30-day warranty, ongoing maintenance transitions to our Keep Alive plan ($1,950/mo) to stay current with iOS/Android updates and store resubmissions.',
+      ideal: 'Founders validating an idea with a focused single-platform MVP',
+    },
+    {
+      name: 'Studio',
+      price: 24500,
+      disp: '$24,500',
+      tag: 'Most Popular',
+      pop: true,
+      tl: '8-12 weeks',
+      scope: [
+        { i: 'iOS + Android cross-platform', l: 'Single React Native (or Flutter on request) codebase building for both iOS and Android. Platform-specific polish where it matters \u2014 iOS haptics, Android Material components.' },
+        { i: 'Up to 10 screens fully designed', l: 'Full Figma design with 10 unique screens including a complete interactive prototype. 3 rounds of revisions per screen batch.' },
+        { i: 'Up to 6 API integrations', l: 'Auth, payments (Stripe or RevenueCat), push notifications (OneSignal or Firebase), analytics (Mixpanel/Amplitude), and 2 custom third-party integrations of your choice.' },
+        { i: 'User accounts + push notifications', l: 'Full signup/login flow, profile screen with edit, password reset, and push notifications wired up \u2014 permission flow + transactional notifications.' },
+        { i: 'Crashlytics + analytics wired in', l: 'Crashlytics (Firebase or Sentry) on both platforms with a crash reporting dashboard. Analytics pipeline with 8 key user events tracked.' },
+        { i: 'Submit to App Store + Play Store', l: 'Both stores submitted end-to-end: designed screenshots, written descriptions, keyword research, and privacy labels for both.' },
+        { i: '60-day post-launch warranty', l: 'Bugs reported within 60 days of store approval fixed free. Includes handling the first OS update after launch if Apple/Google ships a breaking change.' },
+        { i: '1 hour/week Slack support for 30 days', l: 'Shared Slack channel for 30 days post-launch. Up to 1 hour/week of async Q&A, minor tweaks, or handoff questions.' },
+      ],
+      ov: ['Extra screen: $850', 'Custom native module: $175/hr', 'Additional integration: $650', 'Extended warranty (+30 days): $1,200'],
+      ho: 'Full code handoff after launch: GitHub repo, EAS/Fastlane CI config, deployment docs, env template, and a 60-min recorded walkthrough. Your team takes over or we continue on retainer.',
+      bridge: 'Includes 60 days post-launch. Active iteration after that runs on our Momentum plan ($4,800/mo) \u2014 20 engineering hours, feature work, and A/B tests monthly.',
+      ideal: 'Teams launching a polished cross-platform product to real users',
+    },
+    {
+      name: 'Flagship',
+      price: 62000,
+      disp: '$62,000',
+      tag: 'Full product build',
+      tl: '14-18 weeks',
+      scope: [
+        { i: 'iOS + Android + custom Node/Postgres backend', l: 'Full-stack product: React Native app on both platforms plus a custom Node.js backend with Postgres, hosted on your infra (AWS, Railway, or Vercel).' },
+        { i: 'Up to 20 screens with full design system', l: 'Figma design system with reusable components. Up to 20 unique screens fully designed. Unlimited revisions within the agreed scope.' },
+        { i: 'Up to 12 API / third-party integrations', l: 'Stripe, Twilio, Segment, webhooks, etc. 12 third-party integrations of your choice wired in with retry and error handling.' },
+        { i: 'Admin dashboard (web)', l: 'Web-based admin app for content and user management. Role-based access, audit log, and standard CRUD flows for your data models.' },
+        { i: 'Real-time feature', l: '1 real-time feature of your choice: in-app chat, live updates, or webhook-driven push. Built on WebSockets or Pusher/Ably.' },
+        { i: 'Payments + role-based auth', l: 'Stripe or RevenueCat for in-app subscriptions. Role-based auth (user / admin / custom roles) with JWT + refresh tokens.' },
+        { i: 'CI/CD pipeline + staging', l: 'EAS or Fastlane CI/CD for both platforms. Separate staging environment for QA. Auto-deploy to TestFlight/internal on merge.' },
+        { i: 'Submit to App Store + Play Store + ASO kit', l: 'Both stores submitted plus an App Store Optimization starter kit: keyword research, competitor analysis, and 3 variant experiments ready to run.' },
+        { i: '90-day post-launch warranty', l: 'Bugs reported within 90 days of store approval fixed free. Includes 2 discovery workshops to scope the next phase.' },
+      ],
+      ov: ['Extra screen: $1,100', 'Custom native module: $185/hr', 'Additional real-time feature: $6,500', 'Extra discovery workshop: $1,800'],
+      ho: 'Complete handoff: GitHub monorepo, CI/CD config, infra-as-code (Terraform or Pulumi if requested), runbook for deployments and rollbacks, and a 90-min video walkthrough with both mobile and backend teams.',
+      bridge: 'Includes 90 days post-launch. Embedded partnership after that runs on our Partner plan ($10,500/mo) with a dedicated engineer and fractional designer.',
+      ideal: 'Funded startups and brands shipping a full-featured product with a custom backend',
+    },
+  ],
+
+  // ─── App Development — monthly retainers ─────────────────────────
+  appSupport: [
+    {
+      name: 'Keep Alive',
+      price: 1950,
+      disp: '$1,950',
+      per: '/mo',
+      tag: 'Stay healthy & compliant',
+      com: '3-month minimum',
+      scope: [
+        { i: 'Up to 6 engineering hours per month', l: 'Budget for bug triage, small patches, and reactive fixes. Hours do not roll over. Emergency fixes billed against this bank first.' },
+        { i: 'Bug fixes with 24-hr triage SLA', l: 'Critical bugs (app crashes, login broken, payments failing) acknowledged within 24 business hours and fixed within 48-72 hours depending on scope.' },
+        { i: 'iOS + Android OS version updates (annual)', l: 'Annual test + update cycle against each new major iOS and Android release. Required deprecations and permissions changes handled.' },
+        { i: 'Quarterly store resubmissions', l: 'Every 3 months: review store metadata for freshness, update screenshots if needed, and resubmit for Apple/Google algorithm boost.' },
+        { i: 'Crashlytics monitoring + monthly report', l: 'Crashlytics dashboard watched monthly. 1-page health report delivered showing crash-free rate, top issues, and version adoption.' },
+        { i: 'Dependency + security patching', l: 'Monthly sweep of npm/gem dependencies. CVE-level security patches applied immediately. Non-critical upgrades batched quarterly.' },
+        { i: 'Email support, 5-day turnaround', l: 'Non-critical requests via email. 5 business-day turnaround. No Slack, no real-time chat, no phone at this tier.' },
+      ],
+      ov: ['Extra hour: $165/hr', 'Emergency hotfix (weekend/holiday): $450 flat + hours', 'Dedicated feature work: scoped separately'],
+      ex: 'No feature development. No new integrations. No design work. No marketing or ASO services.',
+      ideal: 'Shipped apps that need to stay healthy, compliant, and in the stores',
+    },
+    {
+      name: 'Momentum',
+      price: 4800,
+      disp: '$4,800',
+      per: '/mo',
+      tag: 'Most Popular',
+      pop: true,
+      com: '3-month minimum',
+      scope: [
+        { i: 'Up to 20 engineering hours per month', l: '20 hours for active iteration: feature work, optimizations, A/B tests, analytics work. Everything in Keep Alive is included inside this budget.' },
+        { i: 'Everything in Keep Alive', l: 'Bug fixes, OS updates, store resubmissions, Crashlytics monitoring, dependency patching \u2014 same limits apply, pulled from the 20-hr bank.' },
+        { i: '1-2 small features or 1 medium feature per month', l: 'Shipped each month. Small = under 8 hours (new screen, new tracked event, copy tweaks). Medium = up to 20 hours (new flow, new integration).' },
+        { i: 'Analytics dashboards + monthly insights', l: 'We build and maintain your product analytics dashboards (Mixpanel or Amplitude). Monthly 3-page insights report with user behavior, retention, and conversion trends.' },
+        { i: 'A/B test setup + reporting', l: 'Up to 2 active A/B tests per month. We handle setup, variant implementation, results analysis, and recommendation doc.' },
+        { i: 'Design support (up to 4 hrs/mo)', l: '4 hours of design time per month for new screens or flow updates. Design hours are separate from the 20 engineering hours \u2014 they don\u2019t double-count.' },
+        { i: 'Bi-weekly standup call', l: '30-min bi-weekly video call to review progress, align on priorities, and unblock. Recorded and shared in your Slack channel.' },
+      ],
+      ov: ['Extra hour: $155/hr', 'Additional A/B test: $800 setup', 'Rush feature (under 1 week turnaround): 1.5x hours', 'Additional design hour: $145'],
+      ex: 'No dedicated engineer (shared team with priority access). No backend architecture changes. No marketing services.',
+      ideal: 'Live apps actively iterating based on user data',
+    },
+    {
+      name: 'Partner',
+      price: 10500,
+      disp: '$10,500',
+      per: '/mo',
+      tag: 'Embedded product team',
+      com: '3-month minimum',
+      scope: [
+        { i: 'Dedicated engineer (~80 hrs/mo) + designer (~15 hrs)', l: 'Named senior engineer at ~20 hrs/week + fractional designer at ~4 hrs/week. Same people every month \u2014 they know your codebase.' },
+        { i: 'Everything in Momentum', l: 'All Momentum work continues \u2014 bugs, features, A/B tests, analytics \u2014 inside the expanded budget. No separate billing.' },
+        { i: 'Continuous roadmap delivery', l: 'Quarterly planning sessions with founders to set roadmap. We ship against it and report weekly on progress. Priorities can flex within the quarter.' },
+        { i: 'Custom native modules + platform-specific work', l: 'When cross-platform isn\u2019t enough (e.g., Apple Watch companion, Android widgets, deep iOS integrations), native modules are included.' },
+        { i: 'Backend + infra maintenance', l: 'Your backend and infrastructure included \u2014 patching, scaling, monitoring alerts, cost optimization. Not capped by the 80-hour engineering bank.' },
+        { i: 'Weekly sync + shared Linear/Jira board', l: '30-min weekly video sync + a shared Linear (or Jira) workspace with full ticket visibility. Your team can file tickets directly.' },
+        { i: 'Same-day response SLA, priority Slack', l: 'Slack channel with 2-hour response during business hours. Acknowledgment within same business day for anything non-urgent.' },
+        { i: 'Quarterly strategy session', l: 'Every 3 months: 90-min session covering ASO, growth, architecture review, and technical debt. Delivered as a written memo.' },
+      ],
+      ov: ['Extra hour beyond 95/mo: $145/hr', 'Additional dedicated engineer: +$8,500/mo', 'Additional dedicated designer: +$3,500/mo'],
+      ex: 'Marketing, paid ads, and content services are not included \u2014 see our marketing packages for those.',
+      ideal: 'Teams treating Blok Blok as their embedded product team',
+    },
+  ],
+
+  // ─── Web Development — monthly retainers (web-specific, lighter than marketing) ───
+  webSupport: [
+    {
+      name: 'Site Care',
+      price: 550,
+      disp: '$550',
+      per: '/mo',
+      tag: 'Reliable upkeep',
+      com: '3-month minimum',
+      scope: [
+        { i: '99.9% uptime monitoring', l: 'StatusCake or BetterStack watching your site 24/7. Alerts to us immediately \u2014 you don\u2019t find out the site is down from a customer.' },
+        { i: 'Weekly off-site backups', l: 'Full site + database backed up weekly to off-site storage (not just the hosting provider). 30-day retention.' },
+        { i: 'Security patches + dependency updates', l: 'Monthly patching of WordPress core/plugins (if WP) or npm dependencies (if Next.js). Critical security updates applied within 24 hours.' },
+        { i: 'Up to 4 minor content edits/month', l: 'Text updates, image swaps, link fixes, pricing changes, new testimonials. Each edit = under 15 minutes of work.' },
+        { i: 'SSL + domain health checks', l: 'SSL certificate auto-renewal monitored. Domain expiry warnings 60 days out. DNS health checked quarterly.' },
+        { i: 'Monthly uptime + speed report', l: '1-page monthly report: uptime percentage, average page load times, security events, and any actions taken. Delivered on the 1st.' },
+      ],
+      ov: ['Extra content edit: $45 each', 'Rush request (same day): +$125', 'Hour-long update work: $165/hr'],
+      ex: 'No new pages, no redesigns, no A/B tests, no SEO, no ads. No marketing activity \u2014 see our marketing packages for those.',
+      ideal: 'Launched sites that need reliable upkeep and peace of mind',
+    },
+    {
+      name: 'Site Growth',
+      price: 1600,
+      disp: '$1,600',
+      per: '/mo',
+      tag: 'Most Popular',
+      pop: true,
+      com: '3-month minimum',
+      scope: [
+        { i: 'Everything in Site Care', l: 'Uptime, backups, security, and minor edits included \u2014 same limits, pulled into this plan.' },
+        { i: '1 new page or redesigned section/mo', l: 'Each month we ship one new page (up to 1,000 words + standard design) OR a fully redesigned section of an existing page. Your choice.' },
+        { i: '2 A/B tests per month', l: 'Hero copy, CTA variants, layout tests, or pricing page experiments. Set up, run, analyze, and recommend winner \u2014 all within the month.' },
+        { i: 'Core Web Vitals optimization (quarterly)', l: 'Every 3 months: comprehensive audit against Google\u2019s CWV benchmarks. Image compression, code splitting, and critical-path CSS optimized.' },
+        { i: 'GA4 + Search Console quarterly report', l: 'Every 3 months: 3-page insights report covering organic traffic, top pages, bounce rates, and search query trends. Recommendations included.' },
+        { i: '8 content updates per month', l: 'Beyond the Site Care 4-edit baseline \u2014 up to 8 total content updates each month. Batched weekly on Mondays.' },
+        { i: 'Priority email + Slack, 24-hr response', l: 'Slack channel access for quick questions. 24-hour response on all requests. No real-time for emergencies unless Site Partnership tier.' },
+      ],
+      ov: ['Extra A/B test: $450', 'Additional new page: $850', 'Video/animation work: scoped separately'],
+      ex: 'No full redesigns (scoped as project). No paid ads. No content writing beyond minor edits.',
+      ideal: 'Teams that want the site to keep improving every month',
+    },
+    {
+      name: 'Site Partnership',
+      price: 3800,
+      disp: '$3,800',
+      per: '/mo',
+      tag: 'Embedded web team',
+      com: '3-month minimum',
+      scope: [
+        { i: 'Everything in Site Growth', l: 'Monthly new pages, A/B tests, Web Vitals work, quarterly reports \u2014 plus expanded limits within this plan.' },
+        { i: 'Weekly deploys', l: 'New features, tests, or optimizations shipped every week. Monday is plan day, Thursday is ship day.' },
+        { i: 'Dedicated developer (~25 hrs/mo) + designer (~8 hrs/mo)', l: 'Named developer and designer. Same people every month \u2014 they know your stack and your brand. Hours are a budget; anything you don\u2019t use doesn\u2019t roll over.' },
+        { i: 'Monthly SEO audit + fixes', l: 'Comprehensive SEO audit each month: technical (schema, sitemaps, indexing), on-page (keywords, metas, internal linking), and off-page recommendations. Top 3 fixes executed same month.' },
+        { i: 'CMS content loading (up to 10/mo)', l: 'Up to 10 blog posts or content pages uploaded per month from your copy. Images formatted, meta tags written, internal links suggested. You write \u2014 we publish.' },
+        { i: 'Conversion rate optimization roadmap', l: 'Monthly CRO priorities based on analytics + A/B test results. 3 experiments suggested each month; top 2 shipped.' },
+        { i: 'Same-day Slack, 2-hr response SLA', l: 'Slack channel with 2-hour response during business hours. Same-day acknowledgment on anything non-urgent.' },
+      ],
+      ov: ['Extra hour beyond 33/mo: $155/hr', 'Additional content page load: $45 each beyond 10', 'Rush deploy (same day): +25%'],
+      ex: 'No paid ad management (see marketing packages). No brand redesign (see branding packages). No mobile app work.',
+      ideal: 'Scaling businesses treating Blok Blok as their web team',
+    },
+  ],
+
+  // ─── Marketing — one-time project packages ────────────────────────
+  marketingBuild: [
+    {
+      name: 'Marketing Audit & Roadmap',
+      price: 3500,
+      disp: '$3,500',
+      tag: 'Diagnostic + 90-day plan',
+      tl: '2-3 weeks',
+      scope: [
+        { i: 'Full-funnel audit', l: 'Review of 1 website + up to 3 active channels (ads, SEO, email, social). Every stage of your funnel mapped with bottlenecks identified.' },
+        { i: 'Analytics + attribution review', l: 'GA4, Meta Pixel, UTM hygiene, conversion tracking audit. 10-point fix list with each issue prioritized by impact/effort.' },
+        { i: 'Competitor teardown (3 direct competitors)', l: 'Deep-dive on 3 direct competitors: positioning, offers, ad creative, landing pages, SEO footprint. 6-page comparative analysis delivered as a Notion doc.' },
+        { i: 'ICP + messaging workshop', l: '2 x 60-min live sessions. Outputs: refined value proposition, 3 core message pillars, 1 ideal-customer persona doc.' },
+        { i: '90-day prioritized roadmap', l: '20-30 action items scored with RICE (Reach, Impact, Confidence, Effort). Delivered as a Notion backlog your team can execute or we can run.' },
+        { i: 'Budget allocation model', l: 'Next-quarter budget broken down across paid, organic, and lifecycle with expected ROI ranges based on audit findings.' },
+        { i: '1 strategy presentation (recorded)', l: '60-min live presentation walking through findings and roadmap. Recorded + shared with your team. Notion doc delivered same day.' },
+        { i: '30-min follow-up call', l: '30 days after delivery: check-in call to review what\u2019s been executed and unblock anything.' },
+      ],
+      ov: ['Additional channel audited: $450', 'Additional competitor in teardown: $250 each', 'Extended workshop session (90 min): $400'],
+      ex: 'No execution of the roadmap (that\u2019s the next step). No ad management. No content creation. No creative production.',
+      bridge: 'Audit pairs naturally with our Maintain & Monitor plan ($1,500/mo) to execute the roadmap without rebuilding context. 10% first-month discount if signed within 14 days.',
+      ideal: 'Founders who suspect marketing is leaking money but can\u2019t pinpoint where',
+    },
+    {
+      name: 'Campaign Launchpad',
+      price: 8500,
+      disp: '$8,500',
+      tag: 'Most Popular',
+      pop: true,
+      tl: '4-5 week build + 30-day monitoring',
+      scope: [
+        { i: '1 primary ad platform fully built', l: 'Google, Meta, or TikTok built end-to-end: account structure, pixels, Conversions API, custom audiences, retargeting lists. Clean foundation to scale from.' },
+        { i: '6 ad creatives total', l: '2 static graphics + 2 short-form videos + 2 variant hooks. Shot and edited by our team from your brand assets + 1 product demo video we film remotely if needed.' },
+        { i: '1 dedicated landing page + A/B variant', l: 'Full custom landing page (Webflow, Framer, or Shopify) with copy and design. 1 A/B variant of the hero for conversion testing.' },
+        { i: 'Lead-capture automation (5-email sequence)', l: '5-email welcome or nurture sequence built in Klaviyo, Kit, or HubSpot. Trigger logic, personalization tags, and performance tracking included.' },
+        { i: 'Tracking + dashboard setup', l: 'GA4 + Looker Studio dashboard with daily refreshes. 1 client-facing weekly report delivered Mondays via email.' },
+        { i: '14-day soft launch + 30-day monitoring', l: '2-week soft launch with daily optimization and creative iteration. Then 30 days of active campaign monitoring with weekly adjustments.' },
+        { i: 'Up to $15k managed ad spend', l: 'Ad spend up to $15k covered inside the fee (spend itself is billed separately by the platform). Additional $5k of spend: +$500 to the fee.' },
+        { i: 'Performance review + handoff doc', l: 'End of engagement: 60-min performance review call + 10-page handoff doc with scaling recommendations and creative learnings.' },
+      ],
+      ov: ['Additional ad creative (static): $250', 'Additional ad creative (video): $600', 'Additional landing page variant: $1,500', 'Additional ad platform: $2,500'],
+      ex: 'No organic social content. No long-form SEO content. No influencer management. No PR outreach.',
+      bridge: 'Campaign transitions into our Growth Engine plan ($3,500/mo) to scale winners, expand to a 2nd channel, and iterate creative. 10% first-month discount if signed within 14 days.',
+      ideal: 'Teams with a proven offer ready to drive real acquisition volume',
+    },
+    {
+      name: 'Full Product Launch',
+      price: 20000,
+      disp: '$20,000',
+      tag: 'Coordinated launch push',
+      tl: '6-week runway + launch week ops',
+      scope: [
+        { i: 'Launch strategy + 6-week Gantt', l: 'Full launch plan covering PR, paid, organic, email, influencer, and launch-day ops. Critical path and dependencies mapped. Delivered as a shared timeline.' },
+        { i: 'Positioning + launch narrative', l: 'Hero message, 3 supporting angles, press boilerplate, FAQ, and objection-handling doc. Tested against your ICP before public use.' },
+        { i: '12 ad creatives across 2 platforms', l: 'Meta + Google OR Meta + TikTok. Mix of static, carousel, and short-form video. 4 are UGC-style videos shot by our creators.' },
+        { i: '2 landing pages', l: 'Pre-launch waitlist page (email capture + countdown) + launch-day conversion page (full offer). Both with A/B variants. Built on Webflow/Framer.' },
+        { i: 'Press outreach (25 outlets)', l: '25 targeted outlets/newsletters pitched with a customized angle. 1 embargoed press release written and distributed 1 week pre-launch.' },
+        { i: '3 influencer partnerships (managed end-to-end)', l: 'Sourcing, briefing, contracts, content approvals, and payment. Creator fees are passthrough (not included in the fee).' },
+        { i: 'Email launch sequence', l: 'Waitlist nurture (3 emails pre-launch) + launch-week 6-email campaign. Built for first 50k sends \u2014 any platform (Klaviyo/Kit/Mailchimp/HubSpot).' },
+        { i: 'Product Hunt / community launch prep + war-room', l: 'Community launch strategy, pre-launch hype thread drafted, PH page optimized, and an 8-hour live ops war-room on launch day.' },
+        { i: 'Post-launch teardown report', l: '14 days after launch: cohort, channel, creative, and funnel breakdown. 20-page report with what worked, what didn\u2019t, and what to double down on.' },
+        { i: 'Up to $30k managed launch spend', l: 'Up to $30k of ad spend managed inside the fee. Additional $5k of spend: +$500 to the fee. Spend billed separately by the platform.' },
+      ],
+      ov: ['Additional influencer partnership: $1,200 + creator fees', 'Extra press outlet (26+): $75 each', 'Additional video creative: $600', 'Rush timeline (under 3 weeks): +25%', 'Programmatic SEO module: $6,000'],
+      ex: 'No ongoing content calendar past launch. No long-term community management. No product photography (can be added).',
+      bridge: 'Launch converts into our Full Partnership plan ($7,000/mo) for sustained growth, lifecycle optimization, and the next launch cycle. 10% first-month discount if signed within 14 days.',
+      ideal: 'Brands launching a product, service line, or rebrand who need one coordinated push',
+    },
+  ],
+
+  // ─── Branding Strategy — one-time ─────────────────────────────────
+  brandingBuild: [
+    {
+      name: 'Brand Lite',
+      price: 4000,
+      disp: '$4,000',
+      tag: 'Logo + palette + type',
+      tl: '2-3 weeks',
+      scope: [
+        { i: 'Discovery intake (async)', l: '1 brand questionnaire (20 questions covering audience, tone, references, 3 competitor links). 1 x 45-min kickoff call on Zoom. No in-person workshop at this tier.' },
+        { i: 'Logo exploration (3 concepts)', l: '3 initial logo directions presented as flat vector mockups. You choose 1 for refinement. Wordmark OR icon+wordmark lockup (not both). 2 rounds of revisions.' },
+        { i: 'Final logo files', l: 'PNG, SVG, PDF, and EPS in full color, 1-color black, and 1-color white. Horizontal and stacked lockups delivered.' },
+        { i: 'Color palette (5 colors)', l: 'Primary + 4 supporting colors with HEX, RGB, and CMYK values. Delivered as a 1-page PDF swatch sheet.' },
+        { i: 'Typography pairing', l: '1 heading font + 1 body font (Google Fonts or Adobe Fonts license). Licensing notes included.' },
+        { i: '1-page brand summary PDF', l: 'Logo usage basics (minimum size, clear space), color codes, and typography. Not a full guidelines document.' },
+        { i: 'Favicon + social avatar', l: 'Logo optimized and exported at 16px, 32px, 512px, and 1024px for web and social profile use.' },
+      ],
+      ov: ['Additional logo variation (monogram, submark, etc.): $300', 'Extra revision round: $250', 'Brand photography direction: $800'],
+      ex: 'No brand guidelines document. No stationery. No social templates. No naming or verbal identity work.',
+      bridge: 'Brand Lite paired with Brand Keeper ($1,500/mo) keeps assets consistent as you produce new content.',
+      ideal: 'Solopreneurs and pre-revenue brands who need a clean, usable mark fast',
+    },
+    {
+      name: 'Brand System',
+      price: 12000,
+      disp: '$12,000',
+      tag: 'Most Popular',
+      pop: true,
+      tl: '4-6 weeks',
+      scope: [
+        { i: 'Discovery workshop (remote, 90 min)', l: '1 live working session with founders + up to 3 stakeholders. Outputs: positioning statement, 1 audience persona, 3 brand attributes, moodboard direction selected from 3 we present.' },
+        { i: 'Logo system (4 concepts)', l: '4 initial directions with lifestyle mockups (product, signage, social). 1 selected for refinement. Primary lockup + horizontal + stacked + icon-only mark. 3 rounds of revisions.' },
+        { i: 'Full color system', l: 'Primary (2), secondary (4), and neutrals (3). Accessibility-checked for WCAG AA contrast. HEX / RGB / CMYK / Pantone codes delivered.' },
+        { i: 'Typography hierarchy', l: 'Heading, subheading, body, and caption fonts with exact sizes, weights, and line-heights for web and print.' },
+        { i: 'Brand guidelines PDF (20 pages)', l: 'Logo usage, don\u2019ts, color, type, imagery direction, iconography notes, and tone-of-voice one-pager (3 voice attributes + sample copy).' },
+        { i: 'Launch asset kit', l: '1 business card, 1 letterhead, 1 email signature, 1 pitch deck template (10 slides, Google Slides or Keynote), and 8 social templates (Canva or Figma, editable).' },
+        { i: 'Brand asset library', l: 'Organized Figma file + Google Drive folder structured for handoff to future designers. Everything in one source of truth.' },
+      ],
+      ov: ['Custom icon set (8 icons): $1,200', 'Brand photography art direction + shot list: $800', 'Extra revision round: $400'],
+      ex: 'No naming or verbal identity sprint. No trademark research. No brand book beyond the 20-page guidelines. No video work.',
+      bridge: 'Brand System pairs with Creative Direction ($4,000/mo) to keep producing new branded assets consistently.',
+      ideal: 'Funded startups and scaling businesses who need a complete, defensible brand system',
+    },
+    {
+      name: 'Brand Transformation',
+      price: 28000,
+      disp: '$28,000',
+      tag: 'Full rebrand + naming + strategy',
+      tl: '8-12 weeks',
+      scope: [
+        { i: 'Discovery + strategy sprint', l: '2 x 2-hour remote workshops (positioning, audience, competitive gap). 5 stakeholder interviews (30 min each). Competitive audit of 6 competitors. 1 positioning doc (10-15 pages) with messaging pillars and 3 tested audience personas.' },
+        { i: 'Naming sprint', l: '1 naming workshop, 40+ name candidates generated, filtered to 10, presented with rationale and USPTO preliminary screen (not a legal clearance). 1 final name selected. Domain availability check on .com, .co, .io included.' },
+        { i: 'Verbal identity', l: 'Brand voice framework (4 attributes with "we are / we aren\u2019t" table), tagline, elevator pitch (30s + 60s), and 10 sample copy blocks (hero, about, CTAs, bios).' },
+        { i: 'Visual identity system', l: '5 logo directions with full lifestyle mockups. 1 selected and refined into a complete mark system: primary, secondary, monogram, favicon, and responsive behaviors.' },
+        { i: 'Complete color + type architecture', l: 'Extended palette (primary, secondary, tints, shades), 4-level typography stack, iconography style set (12 icons), and illustration or photography direction.' },
+        { i: 'Brand book (40+ pages)', l: 'Strategy, positioning, voice, logo, color, type, imagery, iconography, motion principles, do\u2019s/don\u2019ts, and application examples. Delivered as PDF + editable Figma source.' },
+        { i: 'Launch asset suite', l: 'Pitch deck (20 slides), stationery trio, 3 email templates, 12 social templates, 1 brand launch announcement graphic kit, and 1 "meet the new [brand]" video storyboard.' },
+        { i: 'Handoff session + 30-day support', l: '1 x 1-hour recorded handoff walkthrough. 30 days of email support for asset questions and small tweaks.' },
+      ],
+      ov: ['Trademark legal opinion via partner attorney: $1,500-$3,000 passthrough', 'Brand launch video production (60s): $3,500', 'Additional naming round: $2,000'],
+      ex: 'No trademark filing (partner attorney referral provided). No video production beyond storyboard. No ongoing execution \u2014 that\u2019s a retainer.',
+      bridge: 'Transformation is typically followed by Embedded Studio ($8,500/mo) to roll out the new identity across every surface over the next 6 months.',
+      ideal: 'Established businesses repositioning, pre-Series A startups, legacy brands needing a ground-up rebuild',
+    },
+  ],
+
+  // ─── Branding Strategy — monthly retainers ────────────────────────
+  brandingSupport: [
+    {
+      name: 'Brand Keeper',
+      price: 1500,
+      disp: '$1,500',
+      per: '/mo',
+      tag: 'Consistent upkeep',
+      com: '3-month minimum',
+      scope: [
+        { i: 'Up to 6 branded assets per month', l: 'Social graphics, email headers, one-off flyers, event graphics, or ad creative using your existing brand system. Delivered in editable Figma or Canva.' },
+        { i: '1 quarterly brand audit (PDF)', l: 'Every 3 months: review live channels (website + 3 social profiles) for consistency drift, outdated assets, and off-brand content. 5-7 page report with prioritized fixes.' },
+        { i: 'Brand asset library maintenance', l: 'Your Figma and Drive kept organized. New assets filed, naming conventions enforced, old versions archived.' },
+        { i: 'Async support', l: '1 Loom or email response per business day. No real-time Slack or weekend coverage at this tier.' },
+        { i: '2 revision rounds per asset', l: 'Consolidated feedback within 3 business days per revision. No rolling feedback.' },
+      ],
+      ov: ['Extra assets (7+): $125 each', 'Rush 48-hr turnaround: +50%', 'Short-form video edit: $300 each'],
+      ex: 'No strategic work, no new brand directions, no copywriting. No social-media management (see social packages).',
+      ideal: 'Brands with an identity in place that need light, consistent upkeep',
+    },
+    {
+      name: 'Creative Direction',
+      price: 4000,
+      disp: '$4,000',
+      per: '/mo',
+      tag: 'Most Popular',
+      pop: true,
+      com: '3-month minimum',
+      scope: [
+        { i: 'Up to 15 branded assets per month', l: 'Social graphics, carousels, ad creative, email campaigns, landing-page sections, pitch-deck updates. All in your brand system.' },
+        { i: 'Monthly creative direction call (60 min)', l: 'Review last month\u2019s output, align on this month\u2019s creative priorities, flag any brand drift. Loom follow-up with recommendations.' },
+        { i: '1 quarterly audit + refresh', l: 'PDF audit every 3 months plus 3 refreshed templates (ad creative, email header, social post) based on what\u2019s working.' },
+        { i: 'Light copywriting (up to 1,000 words/mo)', l: 'On-brand copy for captions, ad variants, or email subject lines. Not long-form content or full web pages.' },
+        { i: 'Asset library + Figma maintenance', l: 'Single source of truth kept tidy. New components added monthly.' },
+        { i: 'Async strategist access', l: 'Direct email/text to your named strategist, M-F 9-5 ET. 4-business-hour response SLA.' },
+        { i: '2 revision rounds per asset', l: 'Feedback consolidated within 3 business days of delivery.' },
+      ],
+      ov: ['Extra assets (16+): $150 each', 'Short-form video edit (under 60s): $300 each', 'Copy beyond 1,000 words: $200/page'],
+      ex: 'No paid ad management. No full rebranding (that\u2019s a project). No dedicated designer \u2014 shared team.',
+      ideal: 'Growing brands that need a creative partner producing regular work plus steering the visual voice',
+    },
+    {
+      name: 'Embedded Studio',
+      price: 8500,
+      disp: '$8,500',
+      per: '/mo',
+      tag: 'Fractional in-house creative',
+      com: '3-month minimum',
+      scope: [
+        { i: 'Up to 40 branded assets per month', l: 'Any mix of social, ads, email, web sections, pitch decks, product graphics, event collateral, or print. Same turnaround as in-house.' },
+        { i: 'Weekly direction + bi-weekly strategy', l: '30-min weekly creative direction call + 60-min bi-weekly strategy session. Active oversight across every surface.' },
+        { i: 'Monthly brand audit + applied refresh', l: 'Every month: audit delivered, then the top 5 fixes are executed the same month. No separate quoting.' },
+        { i: 'Dedicated creative director + designer', l: 'Named 2-person team. Slack access M-F 9-6 (4-hour SLA). Loom walkthroughs on all major deliverables.' },
+        { i: 'Copywriting + voice stewardship', l: 'Up to 3,000 words/mo of on-brand copy. Voice guidelines enforced across all content we touch. 1 voice retraining doc update per quarter.' },
+        { i: 'Brand system evolution', l: 'Minor system updates as you scale \u2014 new templates, adjusted color extensions, new sub-brand marks. Full rebrands still quoted separately at $20k+.' },
+        { i: 'Quarterly campaign concept', l: '1 mini-campaign per quarter: concept, 5 hero assets, rollout plan. Think seasonal launch or product drop.' },
+        { i: '3 revision rounds per asset', l: 'More room than other tiers to iterate until the work is right.' },
+      ],
+      ov: ['Full rebrand: $20k+ separate', 'Brand photography day (direction + vendor management, shoot billed passthrough): $2,500 direction fee', 'Additional embedded designer: +$3,500/mo'],
+      ex: 'No paid ad management. No product / UX design (scoped separately).',
+      ideal: 'Scaling brands treating us as their fractional in-house creative team across every channel',
+    },
+  ],
 };
 
 /* ──────────────────────────────────────────────────────────────
@@ -594,19 +992,66 @@ interface Package {
  * Component
  * ────────────────────────────────────────────────────────────── */
 export function PricingContent() {
-  const [tab, setTab] = useState('aiAgents');
-  const [exp, setExp] = useState<number | null>(null);
+  const [tab, setTab] = useState('web');
+  // Expanded-card id is now "<dataKey>-<index>" so cards across the two
+  // sub-sections (one-time + monthly) don't collide.
+  const [exp, setExp] = useState<string | null>(null);
 
-  const tabs = [
-    { k: 'aiAgents', l: 'AI Agents' },
-    { k: 'monthlyAgent', l: 'Monthly Agent' },
-    { k: 'oneTime', l: 'One-Time Projects' },
-    { k: 'socialSetup', l: 'Social Setup' },
-    { k: 'monthly', l: 'Marketing Retainers' },
-    { k: 'social', l: 'Social Management' },
-    { k: 'customBuild', l: 'Software Builds' },
-    { k: 'customSupport', l: 'Software Retainers' },
+  // Each tab combines a one-time section and a monthly section so visitors
+  // see both options for the same discipline side-by-side.
+  const tabs: { k: string; l: string; sections: { dataKey: keyof typeof pkgData; label: string }[] }[] = [
+    {
+      k: 'web', l: 'Web Development',
+      sections: [
+        { dataKey: 'oneTime', label: 'One-Time Projects' },
+        { dataKey: 'webSupport', label: 'Monthly Retainers' },
+      ],
+    },
+    {
+      k: 'app', l: 'App Development',
+      sections: [
+        { dataKey: 'appBuild', label: 'One-Time Builds' },
+        { dataKey: 'appSupport', label: 'Monthly Retainers' },
+      ],
+    },
+    {
+      k: 'social', l: 'Social Media',
+      sections: [
+        { dataKey: 'socialSetup', label: 'One-Time Setup' },
+        { dataKey: 'social', label: 'Monthly Management' },
+      ],
+    },
+    {
+      k: 'marketing', l: 'Marketing',
+      sections: [
+        { dataKey: 'marketingBuild', label: 'One-Time Projects' },
+        { dataKey: 'monthly', label: 'Monthly Retainers' },
+      ],
+    },
+    {
+      k: 'aiAgents', l: 'AI Agents',
+      sections: [
+        { dataKey: 'aiAgents', label: 'One-Time Build' },
+        { dataKey: 'monthlyAgent', label: 'Monthly Retainer' },
+      ],
+    },
+    {
+      k: 'saas', l: 'Custom SaaS',
+      sections: [
+        { dataKey: 'customBuild', label: 'One-Time Builds' },
+        { dataKey: 'customSupport', label: 'Monthly Retainers' },
+      ],
+    },
+    {
+      k: 'branding', l: 'Branding Strategy',
+      sections: [
+        { dataKey: 'brandingBuild', label: 'One-Time Projects' },
+        { dataKey: 'brandingSupport', label: 'Monthly Retainers' },
+      ],
+    },
   ];
+
+  const activeTab = tabs.find((t) => t.k === tab) ?? tabs[0];
 
   return (
     <div style={{ minHeight: '100vh', background: '#0A0A0F', fontFamily: "'Outfit', system-ui, sans-serif", color: '#E4E4ED', padding: '32px 14px', paddingTop: '120px' }}>
@@ -647,12 +1092,24 @@ export function PricingContent() {
           </div>
         </div>
 
-        {/* Cards */}
-        <div style={{ display: 'grid', gridTemplateColumns: `repeat(auto-fit, minmax(min(280px, 100%), 1fr))`, gap: 16, marginBottom: 28 }}>
-          {pkgData[tab].map((pk, i) => {
-            const isE = exp === i;
+        {/* Cards — two sub-sections per tab: one-time, then monthly */}
+        {activeTab.sections.map((section) => (
+          <div key={section.dataKey} style={{ marginBottom: 28 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 14 }}>
+              <h2 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 18, margin: 0, color: '#E4E4ED', letterSpacing: '-0.3px' }}>
+                {section.label}
+              </h2>
+              <div style={{ flex: 1, height: 1, background: 'rgba(255,255,255,0.06)' }} />
+              <span style={{ fontSize: 10, color: FA, fontWeight: 600, letterSpacing: '1.2px', textTransform: 'uppercase' }}>
+                {pkgData[section.dataKey].length} option{pkgData[section.dataKey].length === 1 ? '' : 's'}
+              </span>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: `repeat(auto-fit, minmax(min(280px, 100%), 1fr))`, gap: 16 }}>
+          {pkgData[section.dataKey].map((pk, i) => {
+            const cardId = `${section.dataKey}-${i}`;
+            const isE = exp === cardId;
             return (
-              <div key={i} style={{
+              <div key={cardId} style={{
                 background: `linear-gradient(165deg, ${pk.pop ? 'rgba(249,115,22,0.035)' : 'rgba(14,14,22,0.95)'} 0%, rgba(10,10,15,0.98) 100%)`,
                 border: pk.pop ? '1.5px solid rgba(249,115,22,0.4)' : `1px solid ${BO}`,
                 borderRadius: 16, padding: '24px 20px', display: 'flex', flexDirection: 'column', position: 'relative',
@@ -685,7 +1142,7 @@ export function PricingContent() {
                 </div>
 
                 {/* Expand */}
-                <button onClick={() => setExp(isE ? null : i)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
+                <button onClick={() => setExp(isE ? null : cardId)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
                   <Chev open={isE} /> {isE ? 'Hide' : 'View'} Overages, Boundaries{pk.bridge ? ' & Retainer Bridge' : ''}
                 </button>
                 {isE && (
@@ -742,10 +1199,12 @@ export function PricingContent() {
               </div>
             );
           })}
-        </div>
+            </div>
+          </div>
+        ))}
 
         {/* Social Media A La Carte */}
-        {(tab === 'socialSetup' || tab === 'social') && (
+        {tab === 'social' && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
               Social Media Add-Ons{' '}
@@ -884,7 +1343,7 @@ export function PricingContent() {
         )}
 
         {/* AI Agent Types — A La Carte */}
-        {(tab === 'aiAgents' || tab === 'monthlyAgent') && (
+        {tab === 'aiAgents' && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
               AI Agent Types{' '}
@@ -933,7 +1392,7 @@ export function PricingContent() {
         )}
 
         {/* General Add-Ons - Custom Builds */}
-        {(tab === 'customBuild' || tab === 'customSupport') && (
+        {tab === 'saas' && (
           <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
             <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>Development Add-Ons</h3>
             <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Available with any custom build or dev retainer</p>

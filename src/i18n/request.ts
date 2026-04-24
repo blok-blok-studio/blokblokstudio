@@ -13,10 +13,11 @@
  * 4. Loads /src/messages/de.json and provides it to all components
  * 5. Components use useTranslations('namespace') to access translated text
  *
- * SUPPORTED LANGUAGES (12 total):
+ * SUPPORTED LANGUAGES (15 total):
  * en (English), es (Spanish), fr (French), de (German),
  * pt (Portuguese), ja (Japanese), ko (Korean), zh (Chinese),
- * ar (Arabic), it (Italian), nl (Dutch), ru (Russian)
+ * ar (Arabic), it (Italian), nl (Dutch), ru (Russian),
+ * pl (Polish), sv (Swedish), tr (Turkish)
  *
  * TO ADD A NEW LANGUAGE:
  * 1. Add the locale code to the supportedLocales array below
@@ -36,7 +37,7 @@ import { headers } from 'next/headers';
 
 /* ── SUPPORTED LANGUAGES ──
    Add new language codes here (must match a file in /src/messages/) */
-const supportedLocales = ['en', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'zh', 'ar', 'it', 'nl', 'ru'] as const;
+const supportedLocales = ['en', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'zh', 'ar', 'it', 'nl', 'ru', 'pl', 'sv', 'tr'] as const;
 type SupportedLocale = (typeof supportedLocales)[number];
 
 /**
