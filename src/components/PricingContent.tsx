@@ -390,8 +390,8 @@ const pkgData: Record<string, Package[]> = {
     },
     {
       name: 'Agent Team',
-      price: 8500,
-      disp: '$8,500',
+      price: 14500,
+      disp: '$14,500',
       tag: 'Most Popular',
       pop: true,
       tl: '2\u20134 weeks',
@@ -409,8 +409,8 @@ const pkgData: Record<string, Package[]> = {
     },
     {
       name: 'AI Operations',
-      price: 15000,
-      disp: '$15,000+',
+      price: 25000,
+      disp: '$25,000+',
       tag: 'Enterprise AI ecosystem',
       tl: '4\u20138 weeks',
       scope: [
