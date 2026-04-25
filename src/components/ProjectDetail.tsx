@@ -159,7 +159,10 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 </h2>
               </div>
 
-              {/* Desktop: real iframe inside a browser-chrome shell */}
+              {/* Desktop: full-page screenshot inside a browser-chrome shell.
+                  Why a screenshot and not an iframe? Most modern sites set
+                  X-Frame-Options or frame-ancestors which refuse the iframe.
+                  thum.io returns a tall full-page PNG we can scroll through. */}
               <div className="hidden sm:block">
                 <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-gray-900 shadow-2xl">
                   <div className="flex items-center gap-2 px-4 py-3 bg-gray-950 border-b border-white/10">
@@ -177,25 +180,31 @@ export function ProjectDetail({ slug }: { slug: string }) {
                       rel="noopener noreferrer"
                       className="text-xs text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"
                     >
-                      Open in new tab
+                      Open live
                       <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
                     </a>
                   </div>
-                  <iframe
-                    src={project.url}
-                    title={`${project.title} live site`}
-                    loading="lazy"
-                    sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
-                    referrerPolicy="no-referrer"
-                    className="w-full h-[700px] bg-white"
-                  />
+                  <div className="h-[700px] overflow-y-auto bg-white scroll-smooth [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={`https://image.thum.io/get/width/1280/maxAge/12/${project.url}`}
+                      alt={`${project.title} live preview`}
+                      className="w-full block"
+                      loading="lazy"
+                      onError={(e) => {
+                        if (project.heroImage) {
+                          (e.currentTarget as HTMLImageElement).src = project.heroImage;
+                        }
+                      }}
+                    />
+                  </div>
                 </div>
                 <p className="text-center text-xs text-gray-600 mt-3">
-                  Some sites block being embedded. If the preview is blank,{' '}
+                  Want the real thing?{' '}
                   <a href={project.url} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white underline underline-offset-2">
-                    open it in a new tab
+                    Open the live site in a new tab
                   </a>.
                 </p>
               </div>
