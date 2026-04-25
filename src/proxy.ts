@@ -12,6 +12,14 @@ export function proxy(request: NextRequest) {
   const response = NextResponse.next();
   const { pathname } = request.nextUrl;
 
+  // Skip the reverse-proxy route entirely. The /api/proxy/[slug] handler
+  // serves third-party HTML and needs to set its own headers — applying
+  // our default CSP (frame-ancestors 'none', etc.) here would block the
+  // iframe from rendering the proxied content on our own pages.
+  if (pathname.startsWith('/api/proxy')) {
+    return response;
+  }
+
   // ── Content Security Policy (CSP) ──
   // Prevents XSS attacks, code injection, and unauthorized resource loading
   const csp = [
