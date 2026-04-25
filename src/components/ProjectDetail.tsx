@@ -154,17 +154,26 @@ export function ProjectDetail({ slug }: { slug: string }) {
                   Live Site
                 </p>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold">
-                  <span className="hidden sm:inline">Scroll through the live site below</span>
+                  <span className="hidden sm:inline">Take a look at the live site</span>
                   <span className="sm:hidden">Take a look</span>
                 </h2>
+                <p className="text-sm text-gray-500 mt-2">
+                  Click anywhere on the preview to open the live, scrollable site.
+                </p>
               </div>
 
-              {/* Desktop: full-page screenshot inside a browser-chrome shell.
-                  Why a screenshot and not an iframe? Most modern sites set
-                  X-Frame-Options or frame-ancestors which refuse the iframe.
-                  thum.io returns a tall full-page PNG we can scroll through. */}
-              <div className="hidden sm:block">
-                <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-gray-900 shadow-2xl">
+              {/* Desktop: project hero screenshot inside a browser-chrome shell,
+                  wrapped in an anchor so the whole thing is clickable.
+                  Iframes and screenshot services are too unreliable (sites
+                  block iframes; free screenshot APIs return placeholders),
+                  so we use the curated heroImage we already have. */}
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden sm:block group"
+              >
+                <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-gray-900 shadow-2xl transition-transform group-hover:scale-[1.005]">
                   <div className="flex items-center gap-2 px-4 py-3 bg-gray-950 border-b border-white/10">
                     <div className="flex gap-1.5">
                       <span className="w-3 h-3 rounded-full bg-red-500/70" />
@@ -174,40 +183,28 @@ export function ProjectDetail({ slug }: { slug: string }) {
                     <div className="flex-1 mx-4 px-3 py-1 rounded-md bg-white/5 border border-white/10 text-xs text-gray-400 truncate font-mono">
                       {project.url.replace(/^https?:\/\//, '')}
                     </div>
-                    <a
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"
-                    >
+                    <span className="text-xs text-gray-400 group-hover:text-white transition-colors flex items-center gap-1.5">
                       Open live
                       <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
-                    </a>
+                    </span>
                   </div>
-                  <div className="h-[700px] overflow-y-auto bg-white scroll-smooth [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={`https://image.thum.io/get/width/1280/maxAge/12/${project.url}`}
-                      alt={`${project.title} live preview`}
-                      className="w-full block"
-                      loading="lazy"
-                      onError={(e) => {
-                        if (project.heroImage) {
-                          (e.currentTarget as HTMLImageElement).src = project.heroImage;
-                        }
-                      }}
-                    />
-                  </div>
+                  {project.heroImage ? (
+                    <div className="relative aspect-[16/10] bg-white">
+                      <Image
+                        src={project.heroImage}
+                        alt={`${project.title} preview`}
+                        fill
+                        className="object-cover object-top"
+                        sizes="(max-width: 1280px) 100vw, 1280px"
+                      />
+                    </div>
+                  ) : (
+                    <div className="aspect-[16/10] bg-gradient-to-br from-gray-100 to-gray-200" />
+                  )}
                 </div>
-                <p className="text-center text-xs text-gray-600 mt-3">
-                  Want the real thing?{' '}
-                  <a href={project.url} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white underline underline-offset-2">
-                    Open the live site in a new tab
-                  </a>.
-                </p>
-              </div>
+              </a>
 
               {/* Mobile: clean CTA card with the mobile screenshot, no iframe */}
               <a
