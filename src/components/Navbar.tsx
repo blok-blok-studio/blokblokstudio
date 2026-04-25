@@ -113,7 +113,6 @@ export function Navbar() {
     { href: '/projects', label: t('projects') },
     { href: '/about', label: t('about') },
     { href: '/services', label: t('services') },
-    { href: '/pricing', label: t('pricing') },
     { href: '/blog', label: 'Blog' },
     { href: '/team', label: t('team') },
     { href: '/contact', label: t('contact') },

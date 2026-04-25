@@ -3,24 +3,24 @@ import { PricingContent } from '@/components/PricingContent';
 import { BreadcrumbSchema } from '@/app/structured-data';
 
 export const metadata: Metadata = {
-  title: 'Pricing & Packages | Blok Blok Studio',
+  title: 'Services & Packages | Blok Blok Studio',
   description:
-    'Transparent pricing for AI-powered websites, automations, ads, and social media management. One-time projects, monthly retainers, custom builds, and social management packages.',
-  alternates: { canonical: '/pricing' },
+    'AI-powered websites, apps, automations, ads, branding, and social media management. Defined deliverables, custom-quoted to your scope.',
+  alternates: { canonical: '/services' },
   openGraph: {
-    title: 'Pricing & Packages | Blok Blok Studio',
+    title: 'Services & Packages | Blok Blok Studio',
     description:
-      'Clear scope, defined deliverables, no surprises. Explore our one-time projects, marketing retainers, social management, and custom build packages.',
-    url: 'https://blokblokstudio.com/pricing',
+      'Clear scope, defined deliverables. Explore our web, app, social, marketing, AI agent, custom SaaS, and branding packages.',
+    url: 'https://blokblokstudio.com/services',
     siteName: 'Blok Blok Studio',
     type: 'website',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Blok Blok Studio Pricing' }],
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Blok Blok Studio Services' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pricing & Packages | Blok Blok Studio',
+    title: 'Services & Packages | Blok Blok Studio',
     description:
-      'Clear scope, defined deliverables, no surprises. Explore our one-time projects, marketing retainers, social management, and custom build packages.',
+      'Clear scope, defined deliverables. Explore our web, app, social, marketing, AI agent, custom SaaS, and branding packages.',
     images: ['/og-image.jpg'],
   },
 };
@@ -31,7 +31,7 @@ export default function PricingPage() {
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },
-          { name: 'Pricing', url: '/pricing' },
+          { name: 'Services', url: '/services' },
         ]}
       />
       <PricingContent />

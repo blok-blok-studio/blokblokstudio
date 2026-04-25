@@ -15,7 +15,6 @@ const PR = '#34D399';
 const MU = '#8888A0';
 const FA = '#555568';
 const BO = 'rgba(255,255,255,0.06)';
-const WA = '#EF4444';
 
 /* ──────────────────────────────────────────────────────────────
  * Package data — every tier, category & line‑item
@@ -1067,7 +1066,7 @@ export function PricingContent() {
             <span style={{ background: `linear-gradient(135deg, ${O}, ${GL})`, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Real Results.</span>
           </h1>
           <p style={{ fontSize: 14, color: MU, maxWidth: 520, margin: '0 auto 24px', lineHeight: 1.6, fontWeight: 300 }}>
-            AI-powered websites, automations, ads, and social media management. Transparent pricing, defined deliverables, no surprises.
+            AI-powered websites, apps, automations, ads, branding, and social media management. Defined deliverables, no surprises &mdash; every engagement is custom-quoted to your scope.
           </p>
           {/* Tabs — 2-col grid on mobile, inline-flex row on desktop */}
           <style dangerouslySetInnerHTML={{ __html: `
@@ -1121,11 +1120,7 @@ export function PricingContent() {
                   </div>
                 )}
                 <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', color: O, marginBottom: 6, opacity: 0.65 }}>{pk.tag}</span>
-                <h2 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 22, margin: '0 0 4px' }}>{pk.name}</h2>
-                <div style={{ display: 'flex', alignItems: 'baseline', gap: 3, marginBottom: 6 }}>
-                  <span style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 34, background: `linear-gradient(135deg, #fff, ${OL})`, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>{pk.disp}</span>
-                  {pk.per && <span style={{ fontSize: 13, color: FA }}>{pk.per}</span>}
-                </div>
+                <h2 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 22, margin: '0 0 12px' }}>{pk.name}</h2>
                 <div style={{ height: 1, background: 'rgba(255,255,255,0.04)', marginBottom: 12 }} />
 
                 {/* Scope */}
@@ -1141,36 +1136,19 @@ export function PricingContent() {
                   ))}
                 </div>
 
-                {/* Expand */}
-                <button onClick={() => setExp(isE ? null : cardId)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
-                  <Chev open={isE} /> {isE ? 'Hide' : 'View'} Overages, Boundaries{pk.bridge ? ' & Retainer Bridge' : ''}
-                </button>
-                {isE && (
-                  <div style={{ marginTop: 10, display: 'flex', flexDirection: 'column', gap: 10 }}>
-                    {/* Overages */}
-                    <div style={{ background: 'rgba(239,68,68,0.04)', border: '1px solid rgba(239,68,68,0.1)', borderRadius: 10, padding: '12px 14px' }}>
-                      <div style={{ fontSize: 10, fontWeight: 700, color: WA, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: 8 }}>OVERAGE RATES</div>
-                      {pk.ov.map((o, j) => (
-                        <div key={j} style={{ fontSize: 11, color: '#b0b0c0', lineHeight: 1.7, paddingLeft: 8, borderLeft: '2px solid rgba(239,68,68,0.15)', marginBottom: 3 }}>{o}</div>
-                      ))}
-                    </div>
-                    {/* Handoff / Exclusions */}
-                    <div style={{ background: OF, border: '1px solid rgba(249,115,22,0.1)', borderRadius: 10, padding: '12px 14px' }}>
-                      <div style={{ fontSize: 10, fontWeight: 700, color: O, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: 6 }}>
-                        {pk.ho ? 'HANDOFF & COMPLETION' : 'EXCLUSIONS'}
-                      </div>
-                      <div style={{ fontSize: 11, color: MU, lineHeight: 1.6 }}>{pk.ho || pk.ex}</div>
-                    </div>
-                    {/* Bridge to Monthly */}
-                    {pk.bridge && (
-                      <div style={{ background: 'rgba(52,211,153,0.05)', border: '1px solid rgba(52,211,153,0.15)', borderRadius: 10, padding: '12px 14px' }}>
-                        <div style={{ fontSize: 10, fontWeight: 700, color: PR, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: 6 }}>
-                          WHAT HAPPENS AFTER LAUNCH
-                        </div>
-                        <div style={{ fontSize: 11, color: MU, lineHeight: 1.6 }}>{pk.bridge}</div>
+                {/* Expand — exclusions only (no pricing/overage details) */}
+                {pk.ex && (
+                  <>
+                    <button onClick={() => setExp(isE ? null : cardId)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
+                      <Chev open={isE} /> {isE ? 'Hide' : 'View'} What\u2019s Not Included
+                    </button>
+                    {isE && (
+                      <div style={{ marginTop: 10, background: OF, border: '1px solid rgba(249,115,22,0.1)', borderRadius: 10, padding: '12px 14px' }}>
+                        <div style={{ fontSize: 10, fontWeight: 700, color: O, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: 6 }}>EXCLUSIONS</div>
+                        <div style={{ fontSize: 11, color: MU, lineHeight: 1.6 }}>{pk.ex}</div>
                       </div>
                     )}
-                  </div>
+                  </>
                 )}
 
                 {/* Meta */}
@@ -1194,7 +1172,7 @@ export function PricingContent() {
                 </div>
 
                 <a href="/contact" style={{ marginTop: 14, width: '100%', padding: '11px', borderRadius: 10, border: 'none', cursor: 'pointer', fontSize: 12, fontWeight: 700, fontFamily: 'inherit', background: pk.pop ? `linear-gradient(135deg, ${O}, ${OD})` : 'rgba(255,255,255,0.04)', color: pk.pop ? '#fff' : '#aaa', boxShadow: pk.pop ? `0 4px 18px ${OG}` : 'none', display: 'block', textAlign: 'center', textDecoration: 'none' }}>
-                  Start This Package {'\u2192'}
+                  Get a Custom Quote {'\u2192'}
                 </a>
               </div>
             );
@@ -1203,224 +1181,17 @@ export function PricingContent() {
           </div>
         ))}
 
-        {/* Social Media A La Carte */}
-        {tab === 'social' && (
-          <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
-            <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
-              Social Media Add-Ons{' '}
-              <span style={{ fontSize: 12, fontWeight: 400, color: MU }}>(per platform, per month)</span>
-            </h3>
-            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Add to any package, or purchase standalone. Retainer clients get reduced rates. Add-ons include content creation and basic engagement only &mdash; no strategy, reporting, or calendars. For full-service social with strategy, see our Social Management tab.</p>
-
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-              {([
-                ['Instagram', '$950/mo', '$600/mo', '8 posts + 4 stories + engagement'],
-                ['LinkedIn', '$1,050/mo', '$650/mo', '8 posts + connection outreach + engagement'],
-                ['TikTok', '$1,100/mo', '$700/mo', '8 posts (4 video) + trend monitoring'],
-                ['YouTube Shorts', '$750/mo', '$450/mo', '4 Shorts/mo from existing footage'],
-                ['Facebook', '$750/mo', '$450/mo', '8 posts + community engagement'],
-                ['X / Twitter', '$750/mo', '$450/mo', '12 posts + engagement + monitoring'],
-                ['Pinterest', '$650/mo', '$400/mo', '20 pins/mo + board strategy'],
-              ] as const).map(([n, standalone, retainer, d], idx) => (
-                <div key={idx} style={{ padding: '12px 14px', borderRadius: 8, background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.025)' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 4 }}>
-                    <span style={{ fontSize: 13, fontWeight: 600, color: '#bbb' }}>{n}</span>
-                    <span style={{ fontSize: 13, color: PR, fontWeight: 700, whiteSpace: 'nowrap' }}>{retainer}</span>
-                  </div>
-                  <div style={{ fontSize: 10, color: FA, lineHeight: 1.4, marginBottom: 4 }}>{d}</div>
-                  <div style={{ fontSize: 10, color: '#666' }}>
-                    Standalone: <span style={{ textDecoration: 'line-through', opacity: 0.6 }}>{standalone}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 8 }}>
-              <div style={{ padding: '10px 14px', borderRadius: 8, background: 'rgba(52,211,153,0.05)', border: '1px solid rgba(52,211,153,0.12)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
-                <strong style={{ color: PR }}>Retainer pricing</strong> applies to clients on any active monthly retainer (Maintain &amp; Monitor, Growth Engine, or Full Partnership). Standalone pricing applies to all other clients.
-              </div>
-              <div style={{ padding: '10px 14px', borderRadius: 8, background: OF, border: '1px solid rgba(249,115,22,0.1)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
-                <strong style={{ color: OL }}>Bundle discount:</strong> 3+ platforms = 10% off total. 5+ platforms = 15% off. All social add-ons require 3-month minimum. Content revisions: 1 round per batch. Additional round: $175.
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* YouTube Management - Standalone */}
-        {tab === 'social' && (
-          <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
-            <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
-              YouTube Management{' '}
-              <span style={{ fontSize: 12, fontWeight: 400, color: MU }}>(standalone or add to any social tier)</span>
-            </h3>
-            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>YouTube requires a different skill set than social media &mdash; long-form editing, SEO, thumbnails, and channel strategy. These packages can be purchased standalone or added to any social management tier.</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 12 }}>
-              {[
-                {
-                  name: 'YouTube Essentials',
-                  price: '$1,500/mo',
-                  items: [
-                    '4 videos/mo edited from your raw footage (up to 10 min each)',
-                    'Custom thumbnail designed for each video',
-                    'SEO-optimized titles, descriptions, and tags',
-                    'Playlist organization and end screen/card setup',
-                    'Monthly analytics report (views, watch time, CTR, subscribers)',
-                    '1 round of revisions per video',
-                  ],
-                  note: 'You provide raw footage (phone, screen recording, interviews). We handle all editing, graphics, and optimization. We do not script or shoot.',
-                },
-                {
-                  name: 'YouTube Growth',
-                  price: '$3,000/mo',
-                  pop: true,
-                  items: [
-                    '8 videos/mo edited (up to 15 min each)',
-                    '2 YouTube Shorts/mo repurposed from long-form content',
-                    'Custom thumbnails with A/B testing (2 options per video)',
-                    'Full SEO: titles, descriptions, tags, chapters, and timestamps',
-                    'Channel strategy: content calendar, topic research, and competitor analysis',
-                    'Community tab management (2 posts/week)',
-                    'Monthly analytics report with growth recommendations',
-                    '1 monthly Loom strategy update',
-                    '2 rounds of revisions per video',
-                  ],
-                  note: 'Includes everything in Essentials plus strategic growth. Best for channels publishing 2x/week that want to grow subscribers and watch time.',
-                },
-              ].map((yt, idx) => (
-                <div key={idx} style={{ padding: '18px 16px', borderRadius: 10, background: yt.pop ? 'rgba(249,115,22,0.03)' : 'rgba(255,255,255,0.01)', border: yt.pop ? '1.5px solid rgba(249,115,22,0.3)' : '1px solid rgba(255,255,255,0.04)', position: 'relative' }}>
-                  {yt.pop && (
-                    <div style={{ position: 'absolute', top: -1, left: '50%', transform: 'translateX(-50%)', background: `linear-gradient(135deg, ${O}, ${OL})`, color: '#fff', fontSize: 8, fontWeight: 800, padding: '2px 10px', borderRadius: '0 0 6px 6px', letterSpacing: '1.2px', textTransform: 'uppercase' }}>RECOMMENDED</div>
-                  )}
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 10 }}>
-                    <span style={{ fontSize: 14, fontWeight: 700, color: '#ddd' }}>{yt.name}</span>
-                    <span style={{ fontSize: 14, color: O, fontWeight: 800 }}>{yt.price}</span>
-                  </div>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 6, marginBottom: 10 }}>
-                    {yt.items.map((item, j) => (
-                      <div key={j} style={{ display: 'flex', gap: 8, fontSize: 11, color: MU, lineHeight: 1.5 }}>
-                        <Check />
-                        <span>{item}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <div style={{ padding: '8px 10px', borderRadius: 6, background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.03)', fontSize: 10, color: FA, lineHeight: 1.5, fontStyle: 'italic' }}>
-                    {yt.note}
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 8 }}>
-              <div style={{ padding: '10px 14px', borderRadius: 8, background: OF, border: '1px solid rgba(249,115,22,0.1)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
-                <strong style={{ color: OL }}>Overages:</strong> Extra videos beyond monthly limit: $300 each. Extra Shorts: $150 each. Extra thumbnail A/B test: $75. Additional revision round: $175. Video shooting/production: quoted separately. YouTube Ads management: add from Marketing Retainers tab.
-              </div>
-              <div style={{ padding: '10px 14px', borderRadius: 8, background: 'rgba(52,211,153,0.05)', border: '1px solid rgba(52,211,153,0.12)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
-                <strong style={{ color: PR }}>Bundle with social:</strong> Add YouTube Essentials to any social tier for $1,200/mo (save $300). Add YouTube Growth for $2,600/mo (save $400). 6-month minimum commitment.
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* General Add-Ons - Marketing */}
-        {tab !== 'customBuild' && tab !== 'customSupport' && tab !== 'aiAgents' && tab !== 'monthlyAgent' && (
-          <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
-            <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>General Add-Ons</h3>
-            <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Enhance any package with these services</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(200px, 100%), 1fr))', gap: 5 }}>
-              {([
-                ['Additional Pages', '$500/pg'], ['E-Commerce (Shopify)', '$3,000'],
-                ['AI Voice Agent', '$1,500'], ['Email Sequences', '$1,200'],
-                ['Brand Video (30s)', '$1,800'], ['Pitch Deck', '$1,500'],
-                ['Landing Page', '$1,400'], ['SMS Campaign', '$1,000'],
-                ['CRM Migration', '$1,800'], ['API Integration', '$2,500+'],
-                ['Strategy Session', '$500'], ['Copywriting', '$200/pg'],
-              ] as const).map(([n, p], idx) => (
-                <div key={idx} style={{ display: 'flex', justifyContent: 'space-between', padding: '9px 11px', borderRadius: 7, background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.025)' }}>
-                  <span style={{ fontSize: 11, color: '#999' }}>{n}</span>
-                  <span style={{ fontSize: 11, color: O, fontWeight: 700, whiteSpace: 'nowrap', marginLeft: 6 }}>{p}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* AI Agent Types — A La Carte */}
-        {tab === 'aiAgents' && (
-          <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
-            <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 4 }}>
-              AI Agent Types{' '}
-              <span style={{ fontSize: 12, fontWeight: 400, color: MU }}>(individual agents)</span>
-            </h3>
-            <p style={{ fontSize: 11, color: FA, marginBottom: 16 }}>Each agent is custom-built for your business. All agents are $5,000 and include deployment, testing, and documentation. Add API integration to any agent for $3,000. Ongoing monitoring and optimization available via our monthly Agent retainers.</p>
-
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-              {([
-                ['Voice Agent', 'Answers inbound calls, qualifies leads, books appointments, transfers to humans when needed. Custom scripts and call routing.'],
-                ['Email Agent', 'Reads, categorizes, drafts, and sends emails based on triggers. Handles follow-ups, sequences, and auto-responses with your brand voice.'],
-                ['Web Scraping Agent', 'Extracts structured data from websites on a schedule. Monitors competitors, tracks prices, gathers leads, or pulls research data into your systems.'],
-                ['PDF Generator Agent', 'Auto-generates branded PDFs from your data — proposals, invoices, reports, contracts, or summaries. Triggered by form submissions, CRM events, or schedules.'],
-                ['Customer Support Agent', 'AI chatbot trained on your knowledge base. Handles FAQs, troubleshooting, returns, and escalations. Embedded on your site or connected to live chat.'],
-                ['Lead Qualification Agent', 'Scores and routes inbound leads based on custom criteria. Integrates with your CRM to auto-tag, prioritize, and trigger follow-up sequences.'],
-                ['Appointment Booking Agent', 'Handles scheduling via chat, voice, or SMS. Syncs with Google Calendar, Calendly, or your booking system. Sends reminders and handles rescheduling.'],
-                ['Data Processing Agent', 'Ingests raw data (CSVs, forms, emails, docs), cleans it, transforms it, and pushes structured output to your database, dashboard, or spreadsheet.'],
-                ['Content Generation Agent', 'Creates blog drafts, social captions, product descriptions, or ad copy on demand. Trained on your brand voice, style guide, and past content.'],
-                ['Social Monitoring Agent', 'Tracks brand mentions, competitor activity, and industry trends across social platforms. Sends alerts and compiles daily/weekly digests.'],
-              ] as const).map(([n, d], idx) => (
-                <div key={idx} style={{ padding: '12px 14px', borderRadius: 8, background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.025)' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 4 }}>
-                    <span style={{ fontSize: 13, fontWeight: 600, color: '#bbb' }}>{n}</span>
-                    <span style={{ fontSize: 13, color: O, fontWeight: 700, whiteSpace: 'nowrap' }}>$5,000</span>
-                  </div>
-                  <div style={{ fontSize: 10, color: FA, lineHeight: 1.5 }}>{d}</div>
-                </div>
-              ))}
-              <div style={{ padding: '12px 14px', borderRadius: 8, background: 'rgba(249,115,22,0.03)', border: '1px solid rgba(249,115,22,0.15)' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 4 }}>
-                  <span style={{ fontSize: 13, fontWeight: 600, color: '#bbb' }}>API Integration</span>
-                  <span style={{ fontSize: 13, color: PR, fontWeight: 700, whiteSpace: 'nowrap' }}>+$3,000</span>
-                </div>
-                <div style={{ fontSize: 10, color: FA, lineHeight: 1.5 }}>Connect any agent to external APIs, third-party services, or custom backends. Includes: authentication, data mapping, error handling, retry logic, and documentation.</div>
-              </div>
-            </div>
-            <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 8 }}>
-              <div style={{ padding: '10px 14px', borderRadius: 8, background: 'rgba(52,211,153,0.05)', border: '1px solid rgba(52,211,153,0.12)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
-                <strong style={{ color: PR }}>Bundle &amp; save:</strong> Individual agents purchased as part of an Agent Team ($8,500) or AI Operations ($15,000+) package include reduced per-agent pricing and shared integrations.
-              </div>
-              <div style={{ padding: '10px 14px', borderRadius: 8, background: OF, border: '1px solid rgba(249,115,22,0.1)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
-                <strong style={{ color: OL }}>Don&apos;t see your use case?</strong> We build custom agents for any workflow. Text us or fill out a quick form and we&apos;ll scope it for free.
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* General Add-Ons - Custom Builds */}
-        {tab === 'saas' && (
-          <div style={{ background: 'rgba(255,255,255,0.015)', border: `1px solid ${BO}`, borderRadius: 14, padding: '22px 18px', marginBottom: 28 }}>
-            <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 17, marginBottom: 2 }}>Development Add-Ons</h3>
-            <p style={{ fontSize: 10, color: FA, marginBottom: 16 }}>Available with any custom build or dev retainer</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(220px, 100%), 1fr))', gap: 5 }}>
-              {([
-                ['API Integration', '$3,000'], ['Payment Processing (Stripe)', '$4,000'],
-                ['User Auth & Roles', '$3,000'], ['Email/SMS Notifications', '$1,500'],
-                ['File Upload System', '$2,000'], ['Search & Filtering', '$2,500'],
-                ['Analytics Dashboard', '$5,000'], ['AI Chat Agent', '$5,000'],
-                ['Mobile App (React Native)', '$30,000'], ['Database Migration', '$5,000'],
-                ['Performance Audit', '$2,000'], ['Security Audit', '$4,000'],
-                ['Third-Party Pen Test Coord.', '$5,000'], ['White-Label / Multi-Tenant', '$15,000'],
-                ['CI/CD Pipeline Setup', '$2,500'], ['Strategy / Consulting', '$300/hr'],
-              ] as const).map(([n, p], idx) => (
-                <div key={idx} style={{ display: 'flex', justifyContent: 'space-between', padding: '9px 11px', borderRadius: 7, background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.025)' }}>
-                  <span style={{ fontSize: 11, color: '#999' }}>{n}</span>
-                  <span style={{ fontSize: 11, color: O, fontWeight: 700, whiteSpace: 'nowrap', marginLeft: 6 }}>{p}</span>
-                </div>
-              ))}
-            </div>
-            <div style={{ marginTop: 12, padding: '10px 14px', borderRadius: 8, background: OF, border: '1px solid rgba(249,115,22,0.1)', fontSize: 11, color: MU, lineHeight: 1.6 }}>
-              <strong style={{ color: OL }}>All pricing is firm.</strong> Exact scope and deliverables are confirmed during the Discovery &amp; Scoping phase ($2,500). Every custom build starts with Discovery to define what&apos;s included at the quoted price.
-            </div>
-          </div>
-        )}
+        {/* Final CTA */}
+        <div style={{ marginTop: 32, padding: '28px 22px', borderRadius: 16, background: `linear-gradient(135deg, rgba(249,115,22,0.06), rgba(251,191,36,0.04))`, border: `1px solid rgba(249,115,22,0.18)`, textAlign: 'center' }}>
+          <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 22, margin: '0 0 8px' }}>Want a custom quote?</h3>
+          <p style={{ fontSize: 13, color: MU, margin: '0 auto 18px', maxWidth: 460, lineHeight: 1.6 }}>Every engagement is scoped and quoted individually. Book a free 15-minute call and we&apos;ll send a tailored proposal within 48 hours.</p>
+          <a href="/call" style={{ display: 'inline-block', padding: '12px 28px', borderRadius: 10, background: `linear-gradient(135deg, ${O}, ${OD})`, color: '#fff', fontSize: 13, fontWeight: 700, textDecoration: 'none', boxShadow: `0 4px 18px ${OG}` }}>
+            Book a Strategy Call {'\u2192'}
+          </a>
+        </div>
 
         <p style={{ textAlign: 'center', fontSize: 9, color: '#2a2a35', marginTop: 24, fontWeight: 300 }}>
-          All prices USD. Ad spend billed separately. | Blok Blok Studio
+          Blok Blok Studio
         </p>
       </div>
     </div>
