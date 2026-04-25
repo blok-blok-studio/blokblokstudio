@@ -142,7 +142,7 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'coach-kofi',
     url: 'https://coachluki.com',
     mobileImage: '/images/projects/coachluki-mobile.png',
-    embeddable: false,
+    embeddable: true,
   },
 };
 
