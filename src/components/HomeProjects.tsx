@@ -102,7 +102,7 @@ export function HomeProjects() {
                 <div className="flex items-end justify-between">
                   <div>
                     <p className="text-xs sm:text-sm text-gray-300 mb-1">
-                      {featuredProjects[0].category} &mdash; {featuredProjects[0].year}
+                      {featuredProjects[0].category} · {featuredProjects[0].year}
                     </p>
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-bold">
                       {featuredProjects[0].title}
@@ -147,7 +147,7 @@ export function HomeProjects() {
                     <div className="flex items-end justify-between">
                       <div>
                         <p className="text-xs text-gray-300 mb-1">
-                          {project.category} &mdash; {project.year}
+                          {project.category} · {project.year}
                         </p>
                         <h3 className="text-lg sm:text-xl font-semibold">
                           {project.title}

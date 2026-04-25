@@ -138,6 +138,107 @@ export function ProjectDetail({ slug }: { slug: string }) {
       </section>
 
       {/* ================================================================
+          SECTION 2.5: Live Site Embed
+          Desktop: live iframe in a browser-chrome window with a scroll prompt.
+          Mobile: a CTA card pointing to the live site (iframes scroll-trap
+          on touch devices and many sites refuse to load in tiny viewports).
+          Some sites set X-Frame-Options or frame-ancestors that block the
+          iframe; the "Open in new tab" link is the fallback.
+          ================================================================ */}
+      {project.url && (
+        <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">
+          <div className="max-w-7xl mx-auto">
+            <AnimatedSection>
+              <div className="text-center mb-4 sm:mb-6">
+                <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider mb-2">
+                  Live Site
+                </p>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold">
+                  <span className="hidden sm:inline">Scroll through the live site below</span>
+                  <span className="sm:hidden">Take a look</span>
+                </h2>
+              </div>
+
+              {/* Desktop: real iframe inside a browser-chrome shell */}
+              <div className="hidden sm:block">
+                <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-gray-900 shadow-2xl">
+                  <div className="flex items-center gap-2 px-4 py-3 bg-gray-950 border-b border-white/10">
+                    <div className="flex gap-1.5">
+                      <span className="w-3 h-3 rounded-full bg-red-500/70" />
+                      <span className="w-3 h-3 rounded-full bg-yellow-500/70" />
+                      <span className="w-3 h-3 rounded-full bg-green-500/70" />
+                    </div>
+                    <div className="flex-1 mx-4 px-3 py-1 rounded-md bg-white/5 border border-white/10 text-xs text-gray-400 truncate font-mono">
+                      {project.url.replace(/^https?:\/\//, '')}
+                    </div>
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"
+                    >
+                      Open in new tab
+                      <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </div>
+                  <iframe
+                    src={project.url}
+                    title={`${project.title} live site`}
+                    loading="lazy"
+                    sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+                    referrerPolicy="no-referrer"
+                    className="w-full h-[700px] bg-white"
+                  />
+                </div>
+                <p className="text-center text-xs text-gray-600 mt-3">
+                  Some sites block being embedded. If the preview is blank,{' '}
+                  <a href={project.url} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white underline underline-offset-2">
+                    open it in a new tab
+                  </a>.
+                </p>
+              </div>
+
+              {/* Mobile: clean CTA card with the mobile screenshot, no iframe */}
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sm:hidden block rounded-2xl overflow-hidden border border-white/10 bg-gray-900 active:scale-[0.99] transition-transform"
+              >
+                {project.mobileImage && (
+                  <div className="relative aspect-[4/5] bg-gray-950">
+                    <Image
+                      src={project.mobileImage}
+                      alt={`${project.title} mobile preview`}
+                      fill
+                      className="object-cover object-top"
+                      sizes="100vw"
+                    />
+                  </div>
+                )}
+                <div className="flex items-center justify-between px-5 py-4 bg-gray-950 border-t border-white/10">
+                  <div className="min-w-0">
+                    <p className="text-[10px] text-gray-500 uppercase tracking-wider">Live site</p>
+                    <p className="text-sm text-white font-mono truncate">
+                      {project.url.replace(/^https?:\/\//, '')}
+                    </p>
+                  </div>
+                  <span className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-2 rounded-full bg-white text-black text-xs font-semibold">
+                    Open
+                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </span>
+                </div>
+              </a>
+            </AnimatedSection>
+          </div>
+        </section>
+      )}
+
+      {/* ================================================================
           SECTION 3: Challenge / Solution / Results
           ================================================================ */}
       <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">

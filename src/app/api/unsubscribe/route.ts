@@ -232,7 +232,7 @@ function htmlPage(title: string, state: string, lead: { id: string; name: string
       </div>
 
       <div class="feedback-section">
-        <p class="small">Help us improve — why are you leaving?</p>
+        <p class="small">Help us improve. Why are you leaving?</p>
         <div class="reasons">
           ${['Too many emails', 'Not relevant to me', 'Never signed up', 'Content not useful', 'Other'].map(reason =>
             `<a href="${baseUrl}/api/unsubscribe?id=${lead.id}&action=feedback&reason=${encodeURIComponent(reason)}" class="reason-btn">${reason}</a>`
@@ -247,7 +247,7 @@ function htmlPage(title: string, state: string, lead: { id: string; name: string
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>${title} — Blok Blok Studio</title>
+  <title>${title} | Blok Blok Studio</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #fff; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; }

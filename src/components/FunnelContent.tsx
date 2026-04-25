@@ -109,19 +109,19 @@ const roadmapSteps = [
     num: '02',
     title: 'Strategy & Proposal',
     desc: 'We build a tailored plan with clear deliverables, timeline, and transparent pricing. You\'ll know exactly what you\'re getting.',
-    duration: '2–3 days',
+    duration: '2 to 3 days',
   },
   {
     num: '03',
     title: 'Design Phase',
     desc: 'Wireframes, mockups, and revisions until the design feels perfect for your brand. We iterate until you love it.',
-    duration: '1–2 weeks',
+    duration: '1 to 2 weeks',
   },
   {
     num: '04',
     title: 'Development & Build',
     desc: 'We bring the design to life with clean, fast code and regular check-ins. You see progress every step of the way.',
-    duration: '2–4 weeks',
+    duration: '2 to 4 weeks',
   },
   {
     num: '05',
@@ -303,13 +303,13 @@ const benefits = [
   },
   {
     title: 'Workflow Automation',
-    desc: 'Connect your CRM, calendar, and payments into one seamless system — no Zapier tax.',
+    desc: 'Connect your CRM, calendar, and payments into one system. No Zapier tax.',
     icon: '⚡',
     color: 'from-yellow-500/10 to-amber-500/5',
   },
   {
     title: 'Custom Websites That Convert',
-    desc: 'Next.js sites built for speed, SEO, and conversion — not cookie-cutter templates.',
+    desc: 'Next.js sites built for speed, SEO, and conversion. Not cookie-cutter templates.',
     icon: '🌐',
     color: 'from-blue-500/10 to-cyan-500/5',
   },
@@ -382,7 +382,7 @@ const auditBenefits = [
   'Personalized growth strategy for your business',
   'AI & automation opportunities tailored to you',
   'Clear next steps you can implement immediately',
-  'No pressure, no commitment — just value',
+  'No pressure, no commitment, just useful insights',
   'Direct access to our strategy team',
 ];
 
@@ -396,12 +396,12 @@ const idealFor = [
 ];
 
 const faqs = [
-  { q: 'What happens on the strategy call?', a: 'We look at your entire business operation — your website, ads, tools, workflows, and content — and identify where AI, automation, and better systems can save you time and make you money. It\'s a 30-minute, no-pressure conversation.' },
-  { q: 'Is the call really free?', a: 'Yes, 100% free. No credit card, no hidden fees. We use the call to understand your business and show you what\'s possible. If we\'re a good fit, we\'ll talk next steps — but there\'s zero obligation.' },
+  { q: 'What happens on the strategy call?', a: 'We look at your business (your website, ads, tools, workflows, and content) and find where AI, automation, and better systems can save you time and make you money. It\'s a 30-minute conversation, no pressure.' },
+  { q: 'Is the call really free?', a: 'Yes, 100% free. No credit card, no hidden fees. We use the call to understand your business and show you what\'s possible. If we\'re a good fit, we\'ll talk next steps. If not, no obligation.' },
   { q: 'Do I need to have a website already?', a: 'Nope. We work with businesses at every stage. If you don\'t have a website, that\'s just one of the gaps we\'ll identify and solve for you.' },
-  { q: 'How long does a typical project take?', a: 'It depends on scope. A website takes 3–6 weeks. An AI agent ecosystem or full automation build is scoped individually. We give you a clear timeline after the call.' },
-  { q: 'Do you work with clients outside the US?', a: 'Yes! We work with clients worldwide. Our process is fully remote with regular video check-ins to keep everything on track regardless of timezone.' },
-  { q: 'What if I\'m not sure what I need?', a: 'That\'s exactly what the free strategy call is for. Tell us what you have, what you don\'t, and what\'s frustrating you. We\'ll do the rest and give you a custom roadmap — no commitment required.' },
+  { q: 'How long does a typical project take?', a: 'It depends on scope. A website takes 3 to 6 weeks. An AI agent ecosystem or full automation build is scoped individually. We give you a clear timeline after the call.' },
+  { q: 'Do you work with clients outside the US?', a: 'Yes. We work with clients worldwide. Our process is fully remote with regular video check-ins to keep everything on track regardless of timezone.' },
+  { q: 'What if I\'m not sure what I need?', a: 'That\'s exactly what the free strategy call is for. Tell us what you have, what you don\'t, and what\'s frustrating you. We\'ll give you a custom roadmap with no commitment required.' },
 ];
 
 /* ── CTA Button ── */
@@ -683,7 +683,7 @@ function AuditForm() {
         </div>
         <h3 className="text-2xl sm:text-3xl font-bold mb-3">You&apos;re In!</h3>
         <p className="text-gray-400 text-base sm:text-lg max-w-md mx-auto mb-8">
-          Book your free 30-minute strategy call below. We&apos;ll review your business and build a custom growth plan — live on the call.
+          Book your free 30-minute strategy call below. We&apos;ll review your business and build a custom growth plan, live on the call.
         </p>
         <a
           href={CAL_LINK}
@@ -696,7 +696,7 @@ function AuditForm() {
           </svg>
           Book Your 30-Min Strategy Call
         </a>
-        <p className="text-xs text-gray-600 mt-4">Powered by Cal.com — pick a time that works for you</p>
+        <p className="text-xs text-gray-600 mt-4">Powered by Cal.com. Pick a time that works for you.</p>
       </motion.div>
     );
   }
@@ -705,12 +705,12 @@ function AuditForm() {
   if (disqualified) {
     const dqMessages: Record<string, { heading: string; message: string }> = {
       no_budget: {
-        heading: 'No worries — timing is everything.',
+        heading: 'No worries. Timing is everything.',
         message: 'It sounds like you\'re not quite ready to invest right now, and that\'s okay. When the time is right, we\'ll be here.',
       },
       no_need: {
         heading: 'Thanks for checking us out.',
-        message: 'It doesn\'t sound like there\'s an urgent need right now — but when something comes up, we\'d love to help.',
+        message: 'It doesn\'t sound like there\'s an urgent need right now. When something comes up, we\'d love to help.',
       },
       bad_timing: {
         heading: 'The timing isn\'t quite right.',
@@ -755,7 +755,7 @@ function AuditForm() {
             Back to Homepage
           </a>
         </div>
-        <p className="text-xs text-gray-600 mt-8">We saved your info — we&apos;ll only reach out if we think we can help.</p>
+        <p className="text-xs text-gray-600 mt-8">We saved your info. We&apos;ll only reach out if we think we can help.</p>
       </motion.div>
     );
   }
@@ -866,7 +866,7 @@ function AuditForm() {
           <div className="space-y-3">
             <h4 className="text-lg font-semibold mb-1">One last thing</h4>
             <p className="text-sm text-gray-400 mb-4">Are you willing to show up to a 30-minute strategy call?</p>
-            <RadioOption value="yes" label="Yes — let's do it" name="commitment" selected={formData.commitment === 'yes'} onChange={() => setFormData({ ...formData, commitment: 'yes' })} />
+            <RadioOption value="yes" label="Yes, let's do it" name="commitment" selected={formData.commitment === 'yes'} onChange={() => setFormData({ ...formData, commitment: 'yes' })} />
             <RadioOption value="no" label="Not right now" name="commitment" selected={formData.commitment === 'no'} onChange={() => setFormData({ ...formData, commitment: 'no' })} />
           </div>
         )}
@@ -1137,7 +1137,7 @@ export function FunnelContent() {
             className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10"
           >
             Stop doing everything manually. We build AI agents, automate workflows, run your ads,
-            and create the systems your business needs to grow — so you can focus on what matters.
+            and create the systems your business needs to grow, so you can focus on what matters.
           </motion.p>
 
           <motion.div
@@ -1557,7 +1557,7 @@ export function FunnelContent() {
               End-to-End Business Systems
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mt-6">
-              Everything you need under one roof — AI agents, automation, websites, ads, and client systems.
+              Everything under one roof: AI agents, automation, websites, ads, and client systems.
             </p>
           </div>
 

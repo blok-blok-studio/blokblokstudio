@@ -62,12 +62,12 @@ export async function sendAuditPdfToProspect(
 <div style="font-family: 'Courier New', monospace; max-width: 600px; margin: 0 auto; padding: 32px; background: #000; color: #ccc;">
   <div style="border-bottom: 2px solid #00ff88; padding-bottom: 16px; margin-bottom: 24px;">
     <h1 style="color: #fff; font-size: 22px; margin: 0;">Your Free Business Audit</h1>
-    <p style="color: #999; margin: 8px 0 0;">Prepared for ${lead.name} &mdash; ${lead.field}</p>
+    <p style="color: #999; margin: 8px 0 0;">Prepared for ${lead.name} · ${lead.field}</p>
   </div>
 
   <p style="line-height: 1.6;">Hey ${firstName},</p>
 
-  <p style="line-height: 1.6;">Thanks for requesting an audit from Blok Blok Studio. I've attached your personalized strategy document &mdash; it covers where you are now, the opportunities I see, and a phased roadmap to get you there.</p>
+  <p style="line-height: 1.6;">Thanks for requesting an audit from Blok Blok Studio. I've attached your personalized strategy document. It covers where you are now, the opportunities I see, and a phased roadmap to get you there.</p>
 
   <p style="line-height: 1.6;">Take a look and let me know what stands out. If you want to talk through any of it, grab a free discovery call:</p>
 
@@ -84,7 +84,7 @@ export async function sendAuditPdfToProspect(
   </div>
 </div>
       `,
-      text: `Hey ${firstName},\n\nThanks for requesting an audit from Blok Blok Studio. I've attached your personalized strategy document — it covers where you are now, the opportunities I see, and a phased roadmap to get you there.\n\nTake a look and let me know what stands out. Book a free discovery call here:\n${DISCOVERY_URL}\n\nTalk soon,\nChase Haynes\nBlok Blok Studio\nblokblokstudio.com`,
+      text: `Hey ${firstName},\n\nThanks for requesting an audit from Blok Blok Studio. I've attached your personalized strategy document. It covers where you are now, the opportunities I see, and a phased roadmap to get you there.\n\nTake a look and let me know what stands out. Book a free discovery call here:\n${DISCOVERY_URL}\n\nTalk soon,\nChase Haynes\nBlok Blok Studio\nblokblokstudio.com`,
       attachments: [
         {
           filename: `${lead.name.replace(/[^a-zA-Z0-9 ]/g, '').replace(/\\s+/g, '-')}-Audit-BlokBlokStudio.pdf`,

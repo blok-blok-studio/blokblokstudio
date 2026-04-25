@@ -54,8 +54,8 @@ export async function POST(req: NextRequest) {
       to: email,
       subject:
         type === 'export'
-          ? 'Your Data Export Request — Blok Blok Studio'
-          : 'Your Data Deletion Request — Blok Blok Studio',
+          ? 'Your Data Export Request | Blok Blok Studio'
+          : 'Your Data Deletion Request | Blok Blok Studio',
       html: `
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 600px; margin: 0 auto; padding: 24px;">
           <h2 style="color: #f97316; margin-bottom: 24px;">
@@ -75,7 +75,7 @@ export async function POST(req: NextRequest) {
           </p>
           <hr style="margin-top: 32px; border: none; border-top: 1px solid #eee;" />
           <p style="font-size: 12px; color: #999; margin-top: 16px;">
-            Blok Blok Studio &mdash; Digital Agency for Ambitious Brands
+            Blok Blok Studio · Digital Agency for Ambitious Brands
           </p>
         </div>
       `,
