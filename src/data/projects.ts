@@ -113,8 +113,11 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'kds-systems',
     url: 'https://exoticripz.com',
     mobileImage: '/images/projects/exoticripz-mobile.png',
-    embeddable: true,
-    useProxy: true,
+    // exoticripz.com sits behind Cloudflare which fingerprints the
+    // proxy's serverless IP and returns a fake DNS error (1001). The
+    // only way around it is a real headless browser; not worth it for
+    // a portfolio embed. Fall back to a scrollable screenshot.
+    embeddable: false,
   },
   'kds-systems': {
     title: 'KDS Systems',
