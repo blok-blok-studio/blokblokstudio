@@ -111,8 +111,12 @@ export function ProjectDetail({ slug }: { slug: string }) {
       </section>
 
       {/* ================================================================
-          SECTION 2: Hero Image (Placeholder)
+          SECTION 2: Hero Image
+          Only render when there is no live preview block — the preview
+          already shows a large screenshot/iframe of the site, so showing
+          the hero image too would just be the same thing twice.
           ================================================================ */}
+      {!(project.url && project.livePreview !== false) && (
       <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">
         <div className="max-w-7xl mx-auto">
           <AnimatedSection delay={0.2}>
@@ -136,6 +140,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
           </AnimatedSection>
         </div>
       </section>
+      )}
 
       {/* ================================================================
           SECTION 2.5: Live Site Embed
