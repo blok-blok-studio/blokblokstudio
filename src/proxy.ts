@@ -24,7 +24,7 @@ export function proxy(request: NextRequest) {
     // frame-src lets the project case-study pages embed each client site
     // in a live iframe. Only sites whose own headers permit blokblokstudio.com
     // will actually render; the rest fall back to a screenshot.
-    "frame-src 'self' https://calendly.com https://cal.com https://coachkofi.de https://public-affair.com https://www.public-affair.com https://nannyandnest.com https://www.nannyandnest.com https://kdssys.com https://www.kdssys.com https://coachluki.com https://www.coachluki.com",
+    "frame-src 'self' https://calendly.com https://cal.com https://coachkofi.de https://www.coachkofi.de https://public-affair.com https://www.public-affair.com https://nannyandnest.com https://www.nannyandnest.com https://kdssys.com https://www.kdssys.com https://coachluki.com https://www.coachluki.com",
     "frame-ancestors 'none'",
     "base-uri 'self'",
     "form-action 'self'",
