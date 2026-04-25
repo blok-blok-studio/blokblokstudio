@@ -201,7 +201,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                   </div>
                   {project.embeddable ? (
                     <iframe
-                      src={project.url}
+                      src={project.useProxy ? `/api/proxy/${slug}` : project.url}
                       title={`${project.title} live site`}
                       loading="lazy"
                       sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-popups-to-escape-sandbox"

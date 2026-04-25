@@ -45,6 +45,13 @@ export interface ProjectData {
    * client sites we can't embed and don't want a screenshot for.
    */
   livePreview?: boolean;
+  /**
+   * When true, the iframe loads through /api/proxy/[slug] instead of
+   * directly hitting project.url. This bypasses X-Frame-Options on
+   * sites we don't control. Cart/login/search may break under proxy
+   * because of cross-origin CORS — this is a visual browsing layer.
+   */
+  useProxy?: boolean;
 }
 
 export const projectsData: Record<string, ProjectData> = {
@@ -106,7 +113,8 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'kds-systems',
     url: 'https://exoticripz.com',
     mobileImage: '/images/projects/exoticripz-mobile.png',
-    embeddable: false,
+    embeddable: true,
+    useProxy: true,
   },
   'kds-systems': {
     title: 'KDS Systems',
@@ -151,8 +159,8 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'coach-luki',
     url: 'https://www.military.newschool.edu',
     mobileImage: '/images/projects/military-newschool-mobile.png',
-    embeddable: false,
-    livePreview: false,
+    embeddable: true,
+    useProxy: true,
   },
 };
 
