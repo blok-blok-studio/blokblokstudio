@@ -21,7 +21,10 @@ export function proxy(request: NextRequest) {
     "img-src 'self' data: blob: https: http:",
     "font-src 'self' https://fonts.gstatic.com data:",
     "connect-src 'self' https://www.google-analytics.com https://vitals.vercel-insights.com https://api.vercel.com",
-    "frame-src 'self' https://calendly.com https://cal.com",
+    // frame-src lets the project case-study pages embed each client site
+    // in a live iframe. Only sites whose own headers permit blokblokstudio.com
+    // will actually render; the rest fall back to a screenshot.
+    "frame-src 'self' https://calendly.com https://cal.com https://coachkofi.de https://public-affair.com https://www.public-affair.com https://nannyandnest.com https://www.nannyandnest.com https://kdssys.com https://www.kdssys.com https://coachluki.com https://www.coachluki.com",
     "frame-ancestors 'none'",
     "base-uri 'self'",
     "form-action 'self'",
