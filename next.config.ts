@@ -12,7 +12,11 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: '/(.*)',
+        // Apply the SOC 2 security headers to everything EXCEPT the
+        // reverse-proxy route. /api/proxy serves third-party HTML inside
+        // an iframe on our own pages; X-Frame-Options: DENY here would
+        // make Chrome refuse to render the proxied content.
+        source: '/((?!api/proxy).*)',
         headers: [
           { key: 'X-Content-Type-Options', value: 'nosniff' },
           { key: 'X-Frame-Options', value: 'DENY' },
