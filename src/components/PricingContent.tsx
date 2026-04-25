@@ -1059,7 +1059,7 @@ export function PricingContent() {
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: 36 }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: OF, border: '1px solid rgba(249,115,22,0.18)', borderRadius: 100, padding: '6px 16px', marginBottom: 18, fontSize: 10, fontWeight: 700, letterSpacing: '1.2px', color: O, textTransform: 'uppercase' }}>
-            BLOK BLOK STUDIO PACKAGES
+            PACKAGES
           </div>
           <h1 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 'clamp(26px, 4.5vw, 46px)', lineHeight: 1.08, margin: '0 0 12px', letterSpacing: '-1px', background: 'linear-gradient(135deg, #fff, #999)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
             Clear Scope.{' '}
