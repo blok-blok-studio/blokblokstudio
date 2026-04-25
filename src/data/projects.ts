@@ -36,6 +36,12 @@ export interface ProjectData {
    * their security headers. Falls back to a screenshot when false.
    */
   embeddable?: boolean;
+  /**
+   * Set to false to suppress the entire live-preview section on the
+   * project case-study page (no iframe, no screenshot). Useful for
+   * client sites we can't embed and don't want a screenshot for.
+   */
+  livePreview?: boolean;
 }
 
 export const projectsData: Record<string, ProjectData> = {
@@ -83,6 +89,7 @@ export const projectsData: Record<string, ProjectData> = {
     url: 'https://www.military.newschool.edu',
     mobileImage: '/images/projects/military-newschool-mobile.png',
     embeddable: false,
+    livePreview: false,
   },
   'public-affair': {
     title: 'Public Affair',

@@ -145,7 +145,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
           Some sites set X-Frame-Options or frame-ancestors that block the
           iframe; the "Open in new tab" link is the fallback.
           ================================================================ */}
-      {project.url && (
+      {project.url && project.livePreview !== false && (
         <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">
           <div className="max-w-7xl mx-auto">
             <AnimatedSection>
