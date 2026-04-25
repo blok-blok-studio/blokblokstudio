@@ -154,21 +154,23 @@ export function ProjectDetail({ slug }: { slug: string }) {
                   Live Site
                 </p>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold">
-                  <span className="hidden sm:inline">Scroll through the live site below</span>
+                  <span className="hidden sm:inline">
+                    {project.embeddable ? 'Click and scroll the live site below' : 'Scroll through the live site below'}
+                  </span>
                   <span className="sm:hidden">Take a look</span>
                 </h2>
                 <p className="hidden sm:block text-sm text-gray-500 mt-2">
-                  This is a full-page snapshot. Scroll inside the window, or open the live site in a new tab.
+                  {project.embeddable
+                    ? "Click links and navigate just like you're on the real site, or open it in a new tab."
+                    : 'This is a full-page snapshot. Scroll inside the window, or open the live site in a new tab.'}
                 </p>
               </div>
 
-              {/* Desktop: full-page screenshot from Microlink inside a
-                  browser-chrome shell, wrapped in a scrollable container so
-                  visitors can scroll the entire page. We use Microlink
-                  because most live sites block iframes via X-Frame-Options
-                  or frame-ancestors. The "Open live" link goes to the real
-                  interactive site for anyone who wants to click around.
-                  heroImage is the fallback if Microlink fails. */}
+              {/* Desktop: live interactive iframe when the site allows
+                  embedding (no X-Frame-Options or frame-ancestors). When
+                  the site blocks embedding, fall back to a full-page
+                  screenshot from Microlink in a scrollable container.
+                  The flag is set per project in /src/data/projects.ts. */}
               <div className="hidden sm:block">
                 <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-gray-900 shadow-2xl">
                   <div className="flex items-center gap-2 px-4 py-3 bg-gray-950 border-b border-white/10">
@@ -192,20 +194,31 @@ export function ProjectDetail({ slug }: { slug: string }) {
                       </svg>
                     </a>
                   </div>
-                  <div className="h-[700px] overflow-y-auto bg-white scroll-smooth [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={`https://api.microlink.io/?url=${encodeURIComponent(project.url)}&screenshot=true&fullPage=true&meta=false&embed=screenshot.url&type=jpeg&waitUntil=networkidle0`}
-                      alt={`${project.title} live preview`}
-                      className="w-full block"
+                  {project.embeddable ? (
+                    <iframe
+                      src={project.url}
+                      title={`${project.title} live site`}
                       loading="lazy"
-                      onError={(e) => {
-                        if (project.heroImage) {
-                          (e.currentTarget as HTMLImageElement).src = project.heroImage;
-                        }
-                      }}
+                      sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-popups-to-escape-sandbox"
+                      referrerPolicy="no-referrer"
+                      className="w-full h-[700px] bg-white block"
                     />
-                  </div>
+                  ) : (
+                    <div className="h-[700px] overflow-y-auto bg-white scroll-smooth [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={`https://api.microlink.io/?url=${encodeURIComponent(project.url)}&screenshot=true&fullPage=true&meta=false&embed=screenshot.url&type=jpeg&waitUntil=networkidle0`}
+                        alt={`${project.title} live preview`}
+                        className="w-full block"
+                        loading="lazy"
+                        onError={(e) => {
+                          if (project.heroImage) {
+                            (e.currentTarget as HTMLImageElement).src = project.heroImage;
+                          }
+                        }}
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
 

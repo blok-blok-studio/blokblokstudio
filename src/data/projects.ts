@@ -29,6 +29,13 @@ export interface ProjectData {
   nextSlug: string | null;
   url?: string;
   mobileImage?: string | null;
+  /**
+   * True if the live site allows being embedded in an iframe (no
+   * X-Frame-Options DENY/SAMEORIGIN, no restrictive frame-ancestors).
+   * Verified by a HEAD request — re-check whenever a client changes
+   * their security headers. Falls back to a screenshot when false.
+   */
+  embeddable?: boolean;
 }
 
 export const projectsData: Record<string, ProjectData> = {
@@ -45,6 +52,7 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'exotic-ripz',
     url: 'https://coachkofi.de',
     mobileImage: '/images/projects/coachkofi-mobile.png',
+    embeddable: true,
   },
   'exotic-ripz': {
     title: 'Exotic Ripz',
@@ -59,6 +67,7 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'military-newschool',
     url: 'https://exoticripz.com',
     mobileImage: '/images/projects/exoticripz-mobile.png',
+    embeddable: false,
   },
   'military-newschool': {
     title: 'The New School: Military Center',
@@ -73,6 +82,7 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'public-affair',
     url: 'https://www.military.newschool.edu',
     mobileImage: '/images/projects/military-newschool-mobile.png',
+    embeddable: false,
   },
   'public-affair': {
     title: 'Public Affair',
@@ -86,8 +96,8 @@ export const projectsData: Record<string, ProjectData> = {
     gallery: ['/images/projects/public-affair.png', '/images/projects/public-affair-mobile.png', null],
     nextSlug: 'nanny-and-nest',
     url: 'https://public-affair.com',
-
     mobileImage: '/images/projects/public-affair-mobile.png',
+    embeddable: true,
   },
   'nanny-and-nest': {
     title: 'Nanny & Nest',
@@ -102,6 +112,7 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'kds-systems',
     url: 'https://www.nannyandnest.com',
     mobileImage: '/images/projects/nannyandnest-mobile.png',
+    embeddable: true,
   },
   'kds-systems': {
     title: 'KDS Systems',
@@ -116,6 +127,7 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'coach-luki',
     url: 'https://kdssys.com',
     mobileImage: '/images/projects/kdssys-mobile.png',
+    embeddable: true,
   },
   'coach-luki': {
     title: 'Coach Luki',
@@ -130,6 +142,7 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'coach-kofi',
     url: 'https://coachluki.com',
     mobileImage: '/images/projects/coachluki-mobile.png',
+    embeddable: false,
   },
 };
 
