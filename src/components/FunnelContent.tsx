@@ -89,12 +89,13 @@ function AccentDivider() {
 /* ── Data ── */
 
 const trustedBrands = [
+  { name: 'Coach Luki', image: '/images/projects/coachluki.png', url: 'coachluki.com', category: 'Fitness' },
   { name: 'Coach Kofi', image: '/images/projects/coachkofi.png', url: 'coachkofi.de', category: 'Coaching' },
   { name: 'Nanny & Nest', image: '/images/projects/nannyandnest.png', url: 'nannyandnest.com', category: 'Childcare' },
   { name: 'Exotic Ripz', image: '/images/projects/exoticripz.png', url: 'exoticripz.com', category: 'E-Commerce' },
-  { name: 'The New School', image: '/images/projects/military-newschool.png', url: 'military.newschool.edu', category: 'Education' },
-  { name: 'Public Affair', image: '/images/projects/public-affair.png', url: 'public-affair.com', category: 'Lifestyle' },
   { name: 'KDS Systems', image: '/images/projects/kdssys.png', url: 'kdssys.com', category: 'IT Services' },
+  { name: 'Public Affair', image: '/images/projects/public-affair.png', url: 'public-affair.com', category: 'Lifestyle' },
+  { name: 'The New School', image: '/images/projects/military-newschool.png', url: 'military.newschool.edu', category: 'Education' },
 ];
 
 
@@ -357,12 +358,13 @@ const serviceModules = [
 ];
 
 const projectShowcase = [
+  { label: 'Coach Luki', stat: 'Berlin', metric: 'Local SEO', image: '/images/projects/coachluki.png', url: 'coachluki.com' },
   { label: 'Coach Kofi', stat: '+200%', metric: 'Consultations', image: '/images/projects/coachkofi.png', url: 'coachkofi.de' },
-  { label: 'Exotic Ripz', stat: '+400%', metric: 'Email Growth', image: '/images/projects/exoticripz.png', url: 'exoticripz.com' },
-  { label: 'The New School', stat: '10x', metric: 'Engagement', image: '/images/projects/military-newschool.png', url: 'military.newschool.edu' },
-  { label: 'Public Affair', stat: '95%+', metric: 'Completion Rate', image: '/images/projects/public-affair.png', url: 'public-affair.com' },
   { label: 'Nanny & Nest', stat: '+150%', metric: 'Inquiries', image: '/images/projects/nannyandnest.png', url: 'nannyandnest.com' },
+  { label: 'Exotic Ripz', stat: '+400%', metric: 'Email Growth', image: '/images/projects/exoticripz.png', url: 'exoticripz.com' },
   { label: 'KDS Systems', stat: '+180%', metric: 'Qualified Leads', image: '/images/projects/kdssys.png', url: 'kdssys.com' },
+  { label: 'Public Affair', stat: '95%+', metric: 'Completion Rate', image: '/images/projects/public-affair.png', url: 'public-affair.com' },
+  { label: 'The New School', stat: '10x', metric: 'Engagement', image: '/images/projects/military-newschool.png', url: 'military.newschool.edu' },
 ];
 
 const included = [

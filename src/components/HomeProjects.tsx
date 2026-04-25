@@ -8,6 +8,14 @@ import { motion } from 'framer-motion';
 
 const featuredProjects = [
   {
+    title: 'Coach Luki',
+    category: 'Web Design',
+    year: '2025',
+    slug: 'coach-luki',
+    image: '/images/projects/coachluki.png',
+    url: 'https://coachluki.com',
+  },
+  {
     title: 'Coach Kofi',
     category: 'Web Design',
     year: '2025',
@@ -32,20 +40,12 @@ const featuredProjects = [
     url: 'https://exoticripz.com',
   },
   {
-    title: 'The New School',
+    title: 'KDS Systems',
     category: 'Web Design',
-    year: '2024',
-    slug: 'military-newschool',
-    image: '/images/projects/military-newschool.png',
-    url: 'https://www.military.newschool.edu',
-  },
-  {
-    title: 'Public Affair',
-    category: 'Branding',
-    year: '2024',
-    slug: 'public-affair',
-    image: '/images/projects/public-affair.png',
-    url: 'https://public-affair.com',
+    year: '2025',
+    slug: 'kds-systems',
+    image: '/images/projects/kdssys.png',
+    url: 'https://kdssys.com',
   },
 ];
 
