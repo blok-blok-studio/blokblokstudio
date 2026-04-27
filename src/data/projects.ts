@@ -113,11 +113,12 @@ export const projectsData: Record<string, ProjectData> = {
     nextSlug: 'kds-systems',
     url: 'https://exoticripz.com',
     mobileImage: '/images/projects/exoticripz-mobile.png',
-    // exoticripz.com sits behind Cloudflare which fingerprints the
-    // proxy's serverless IP and returns a fake DNS error (1001). The
-    // only way around it is a real headless browser; not worth it for
-    // a portfolio embed. Fall back to a scrollable screenshot.
+    // Site origin is currently returning Cloudflare 1001 (origin DNS
+    // dead) so the iframe and screenshot would both show errors. Keep
+    // the case study but skip the live preview block. Re-enable when
+    // the site is back up.
     embeddable: false,
+    livePreview: false,
   },
   'kds-systems': {
     title: 'KDS Systems',
