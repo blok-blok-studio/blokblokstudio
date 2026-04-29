@@ -12,7 +12,7 @@ const featuredProjects = [
     category: 'Web Design',
     year: '2025',
     slug: 'coach-luki',
-    image: '/images/projects/coachluki.png',
+    image: '/images/projects/coachluki.jpg',
     url: 'https://coachluki.com',
   },
   {
@@ -20,7 +20,7 @@ const featuredProjects = [
     category: 'Web Design',
     year: '2025',
     slug: 'coach-kofi',
-    image: '/images/projects/coachkofi.png',
+    image: '/images/projects/coachkofi.webp',
     url: 'https://coachkofi.de',
   },
   {
@@ -28,7 +28,7 @@ const featuredProjects = [
     category: 'Web Design',
     year: '2025',
     slug: 'nanny-and-nest',
-    image: '/images/projects/nannyandnest.png',
+    image: '/images/projects/nannyandnest.webp',
     url: 'https://www.nannyandnest.com',
   },
   {
@@ -36,7 +36,7 @@ const featuredProjects = [
     category: 'E-Commerce',
     year: '2025',
     slug: 'exotic-ripz',
-    image: '/images/projects/exoticripz.png',
+    image: '/images/projects/exoticripz.jpg',
     url: 'https://exoticripz.com',
   },
   {
@@ -44,7 +44,7 @@ const featuredProjects = [
     category: 'Web Design',
     year: '2025',
     slug: 'kds-systems',
-    image: '/images/projects/kdssys.png',
+    image: '/images/projects/kdssys.webp',
     url: 'https://kdssys.com',
   },
 ];

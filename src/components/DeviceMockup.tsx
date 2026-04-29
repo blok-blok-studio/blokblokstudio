@@ -79,7 +79,7 @@ export function DeviceMockup() {
                   {/* Screen */}
                   <div className="aspect-[3/4] relative bg-gray-950">
                     <Image
-                      src="/images/projects/nannyandnest.png"
+                      src="/images/projects/nannyandnest.webp"
                       alt="Nanny & Nest on iPad"
                       fill
                       className="object-cover object-top"
@@ -106,7 +106,7 @@ export function DeviceMockup() {
                   {/* Screen content */}
                   <div className="aspect-[16/10] relative bg-gray-950">
                     <Image
-                      src="/images/projects/coachkofi.png"
+                      src="/images/projects/coachkofi.webp"
                       alt="Coach Kofi website on MacBook"
                       fill
                       className="object-cover object-top"
@@ -139,7 +139,7 @@ export function DeviceMockup() {
                   {/* Screen */}
                   <div className="aspect-[9/19] relative bg-gray-950">
                     <Image
-                      src="/images/projects/coachkofi-mobile.png"
+                      src="/images/projects/coachkofi-mobile.webp"
                       alt="Coach Kofi mobile on iPhone"
                       fill
                       className="object-cover object-top"

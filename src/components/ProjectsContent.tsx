@@ -96,13 +96,13 @@ import Link from 'next/link';
  * ---------------------------------------------------------------------------
  */
 const allProjects = [
-  { id: 1, title: 'Coach Luki', category: 'web', year: '2025', desc: 'Conversion-focused personal training website for Berlin\'s leading vegan personal trainer.', slug: 'coach-luki', image: '/images/projects/coachluki.png' },
-  { id: 2, title: 'Coach Kofi', category: 'web', year: '2025', desc: 'High-performance personal brand and coaching platform with bold visual identity.', slug: 'coach-kofi', image: '/images/projects/coachkofi.png' },
-  { id: 3, title: 'Nanny & Nest', category: 'web', year: '2025', desc: 'Warm, trust-focused membership platform for a premium childcare and home assistance agency.', slug: 'nanny-and-nest', image: '/images/projects/nannyandnest.png' },
-  { id: 4, title: 'Exotic Ripz', category: 'web', year: '2025', desc: 'Vibrant e-commerce platform for a collectible trading card community brand.', slug: 'exotic-ripz', image: '/images/projects/exoticripz.png' },
-  { id: 5, title: 'KDS Systems', category: 'web', year: '2025', desc: 'Modern cloud solutions platform for a managed IT and cloud computing services provider.', slug: 'kds-systems', image: '/images/projects/kdssys.png' },
-  { id: 6, title: 'Public Affair', category: 'brand', year: '2024', desc: 'Sophisticated brand identity and web experience for a premium lifestyle brand.', slug: 'public-affair', image: '/images/projects/public-affair.png' },
-  { id: 7, title: 'The New School', category: 'web', year: '2024', desc: 'Institutional web presence for The New School\'s Center for Military-Affiliated Students.', slug: 'military-newschool', image: '/images/projects/military-newschool.png' },
+  { id: 1, title: 'Coach Luki', category: 'web', year: '2025', desc: 'Conversion-focused personal training website for Berlin\'s leading vegan personal trainer.', slug: 'coach-luki', image: '/images/projects/coachluki.jpg' },
+  { id: 2, title: 'Coach Kofi', category: 'web', year: '2025', desc: 'High-performance personal brand and coaching platform with bold visual identity.', slug: 'coach-kofi', image: '/images/projects/coachkofi.webp' },
+  { id: 3, title: 'Nanny & Nest', category: 'web', year: '2025', desc: 'Warm, trust-focused membership platform for a premium childcare and home assistance agency.', slug: 'nanny-and-nest', image: '/images/projects/nannyandnest.webp' },
+  { id: 4, title: 'Exotic Ripz', category: 'web', year: '2025', desc: 'Vibrant e-commerce platform for a collectible trading card community brand.', slug: 'exotic-ripz', image: '/images/projects/exoticripz.jpg' },
+  { id: 5, title: 'KDS Systems', category: 'web', year: '2025', desc: 'Modern cloud solutions platform for a managed IT and cloud computing services provider.', slug: 'kds-systems', image: '/images/projects/kdssys.webp' },
+  { id: 6, title: 'Public Affair', category: 'brand', year: '2024', desc: 'Sophisticated brand identity and web experience for a premium lifestyle brand.', slug: 'public-affair', image: '/images/projects/public-affair.webp' },
+  { id: 7, title: 'The New School', category: 'web', year: '2024', desc: 'Institutional web presence for The New School\'s Center for Military-Affiliated Students.', slug: 'military-newschool', image: '/images/projects/military-newschool.webp' },
 ];
 
 /**

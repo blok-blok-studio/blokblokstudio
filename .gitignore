@@ -46,3 +46,6 @@ next-env.d.ts
 .env.production
 .env.prod
 .env.local
+
+# Original full-size project screenshots (backed up, not deployed)
+.assets-originals/

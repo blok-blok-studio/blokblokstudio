@@ -65,7 +65,7 @@ const projects = [
   {
     title: 'Coach Luki',
     desc: 'Personal training site with Stripe booking, built to convert in Berlin.',
-    image: '/images/projects/coachluki.png',
+    image: '/images/projects/coachluki.jpg',
     slug: 'coach-luki',
     url: 'coachluki.com',
     category: 'Web Design',
@@ -73,7 +73,7 @@ const projects = [
   {
     title: 'Coach Kofi',
     desc: 'Bold personal brand and coaching platform with real-time booking.',
-    image: '/images/projects/coachkofi.png',
+    image: '/images/projects/coachkofi.webp',
     slug: 'coach-kofi',
     url: 'coachkofi.de',
     category: 'Web Design',
@@ -81,7 +81,7 @@ const projects = [
   {
     title: 'Exotic Ripz',
     desc: 'E-commerce storefront for a collectible trading card community.',
-    image: '/images/projects/exoticripz.png',
+    image: '/images/projects/exoticripz.jpg',
     slug: 'exotic-ripz',
     url: 'exoticripz.com',
     category: 'E-Commerce',
@@ -89,7 +89,7 @@ const projects = [
   {
     title: 'Nanny & Nest',
     desc: 'Trust-focused membership platform for a premium childcare agency.',
-    image: '/images/projects/nannyandnest.png',
+    image: '/images/projects/nannyandnest.webp',
     slug: 'nanny-and-nest',
     url: 'nannyandnest.com',
     category: 'Web Design',
@@ -97,7 +97,7 @@ const projects = [
   {
     title: 'The New School',
     desc: 'Institutional web presence for the Center for Military-Affiliated Students.',
-    image: '/images/projects/military-newschool.png',
+    image: '/images/projects/military-newschool.webp',
     slug: 'military-newschool',
     url: 'military.newschool.edu',
     category: 'Web Design',
@@ -105,7 +105,7 @@ const projects = [
   {
     title: 'Public Affair',
     desc: 'Sophisticated brand identity and web experience for a premium lifestyle brand.',
-    image: '/images/projects/public-affair.png',
+    image: '/images/projects/public-affair.webp',
     slug: 'public-affair',
     url: 'public-affair.com',
     category: 'Branding',
