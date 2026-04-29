@@ -36,24 +36,32 @@ import { CookieConsent } from '@/components/CookieConsent';
 export const metadata: Metadata = {
   metadataBase: new URL('https://blokblokstudio.com'),
   title: {
-    default: 'Blok Blok Studio | Creative Digital Agency',
+    default: 'Blok Blok Studio | AI Agency & Web Design Studio in Berlin',
     template: '%s | Blok Blok Studio',
   },
   description:
-    'Blok Blok Studio is a creative digital agency crafting bold brands, stunning websites, and digital products that move people. Web design, branding, app development, and digital marketing.',
+    'Blok Blok Studio is a Berlin-based digital agency building AI agents, voice assistants, automation systems, and custom Next.js websites for ambitious brands worldwide. Premium AI and web design — never templates.',
   keywords: [
-    'digital agency',
-    'web design',
-    'branding',
-    'app development',
-    'creative studio',
-    'UI/UX design',
-    'digital marketing',
+    'AI agency Berlin',
+    'AI agents',
+    'AI chatbot development',
+    'AI voice agent',
+    'workflow automation',
+    'Berlin web design',
+    'custom Next.js websites',
+    'digital agency Berlin',
+    'conversational AI',
+    'web design Germany',
+    'branding studio',
+    'Google Ads Berlin',
+    'Meta Ads agency',
+    'AI content systems',
     'Blok Blok Studio',
   ],
-  authors: [{ name: 'Blok Blok Studio' }],
+  authors: [{ name: 'Blok Blok Studio', url: 'https://blokblokstudio.com' }],
   creator: 'Blok Blok Studio',
   publisher: 'Blok Blok Studio',
+  category: 'Digital Agency',
   formatDetection: {
     email: false,
     address: false,
@@ -64,24 +72,24 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://blokblokstudio.com',
     siteName: 'Blok Blok Studio',
-    title: 'Blok Blok Studio | Creative Digital Agency',
+    title: 'Blok Blok Studio | AI Agency & Web Design Studio in Berlin',
     description:
-      'A creative digital agency crafting bold brands, stunning websites, and digital products that move people.',
+      'Berlin-based agency building AI agents, voice assistants, automations, and custom Next.js websites for clients worldwide.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/logo-hero.png',
         width: 1200,
         height: 630,
-        alt: 'Blok Blok Studio',
+        alt: 'Blok Blok Studio — AI agency and web design studio in Berlin',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blok Blok Studio | Creative Digital Agency',
+    title: 'Blok Blok Studio | AI Agency & Web Design Studio in Berlin',
     description:
-      'A creative digital agency crafting bold brands, stunning websites, and digital products that move people.',
-    images: ['/og-image.jpg'],
+      'Berlin-based agency building AI agents, voice assistants, automations, and custom Next.js websites for clients worldwide.',
+    images: ['/logo-hero.png'],
   },
   robots: {
     index: true,
@@ -97,23 +105,22 @@ export const metadata: Metadata = {
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || '',
   },
+  // hreflang: locale switching is handled by next-intl without distinct URLs,
+  // so we only declare the canonical English page and an x-default fallback.
+  // Pointing every language at the same URL was confusing search engines.
   alternates: {
     canonical: 'https://blokblokstudio.com',
     languages: {
-      'en': 'https://blokblokstudio.com',
-      'es': 'https://blokblokstudio.com',
-      'fr': 'https://blokblokstudio.com',
-      'de': 'https://blokblokstudio.com',
-      'pt': 'https://blokblokstudio.com',
-      'ja': 'https://blokblokstudio.com',
-      'ko': 'https://blokblokstudio.com',
-      'zh': 'https://blokblokstudio.com',
-      'ar': 'https://blokblokstudio.com',
-      'it': 'https://blokblokstudio.com',
-      'nl': 'https://blokblokstudio.com',
-      'ru': 'https://blokblokstudio.com',
+      en: 'https://blokblokstudio.com',
       'x-default': 'https://blokblokstudio.com',
     },
+  },
+  other: {
+    // Geographic targeting signals for search engines and AI crawlers
+    'geo.region': 'DE-BE',
+    'geo.placename': 'Berlin',
+    'geo.position': '52.5200;13.4050',
+    ICBM: '52.5200, 13.4050',
   },
 };
 

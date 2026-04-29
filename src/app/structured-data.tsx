@@ -197,24 +197,69 @@ export function ServiceSchema() {
 export function LocalBusinessSchema() {
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': ['LocalBusiness', 'ProfessionalService'],
+    '@id': 'https://blokblokstudio.com/#organization',
     name: 'Blok Blok Studio',
-    image: 'https://blokblokstudio.com/og-image.jpg',
+    alternateName: 'BlokBlok Studio',
+    description:
+      'Berlin-based digital agency building AI agents, voice assistants, workflow automation, and custom Next.js websites for ambitious brands worldwide.',
+    image: 'https://blokblokstudio.com/logo-hero.png',
+    logo: 'https://blokblokstudio.com/logo.svg',
     url: 'https://blokblokstudio.com',
     email: 'hello@blokblokstudio.com',
+    foundingDate: '2024',
+    founder: {
+      '@type': 'Person',
+      name: 'Chase Haynes',
+      jobTitle: 'Founder',
+      alumniOf: 'Parsons School of Design',
+    },
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Berlin',
+      addressRegion: 'Berlin',
       addressCountry: 'DE',
     },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 52.52,
+      longitude: 13.405,
+    },
+    areaServed: [
+      { '@type': 'Country', name: 'Germany' },
+      { '@type': 'Country', name: 'United States' },
+      { '@type': 'Country', name: 'United Kingdom' },
+      { '@type': 'Country', name: 'Netherlands' },
+      { '@type': 'Country', name: 'France' },
+      { '@type': 'Place', name: 'Worldwide' },
+    ],
+    knowsLanguage: ['English', 'German', 'French', 'Spanish'],
+    knowsAbout: [
+      'AI Agents',
+      'Conversational AI',
+      'Voice Agents',
+      'Workflow Automation',
+      'Web Design',
+      'Next.js Development',
+      'Branding',
+      'Google Ads',
+      'Meta Ads',
+      'SEO',
+    ],
     priceRange: '$$',
+    currenciesAccepted: 'USD, EUR',
+    paymentAccepted: 'Credit Card, Bank Transfer, Stripe',
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
       opens: '09:00',
       closes: '18:00',
     },
-    numberOfEmployees: '3',
+    numberOfEmployees: { '@type': 'QuantitativeValue', value: 3 },
+    sameAs: [
+      'https://www.instagram.com/blokblokstudio/',
+      'https://www.linkedin.com/company/blok-blok-studio/',
+    ],
   };
 
   return (
