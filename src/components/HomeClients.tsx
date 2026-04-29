@@ -34,6 +34,7 @@
 
 import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
+import { motion } from 'framer-motion';
 
 /**
  * ---------------------------------------------------------------------------
@@ -73,36 +74,29 @@ export function HomeClients() {
           </p>
         </AnimatedSection>
 
-        {/* Logo grid — 3 cols on mobile, 6 on sm+ */}
+        {/* Marquee — continuously scrolling client names. Doubled-up so the
+            tail seamlessly meets the head and the loop is invisible. Edge
+            fades on either side prevent hard clipping. */}
         <AnimatedSection delay={0.1}>
-          <div className="grid grid-cols-3 sm:grid-cols-5 gap-6 sm:gap-8 items-center">
-            {clients.map((client, i) => (
-              /**
-               * Individual client logo slot.
-               * Currently renders a placeholder box with the company name.
-               *
-               * TO REPLACE WITH A REAL LOGO:
-               *   Set `logo` in the clients array, then this will render:
-               *   <Image src={client.logo} alt={client.name} ... />
-               *   For now, it shows a text placeholder.
-               */
-              <div
-                key={i}
-                className="flex items-center justify-center h-12 sm:h-16 opacity-30 hover:opacity-60 transition-opacity duration-300"
-              >
-                {client.logo ? (
-                  /* Real logo — uncomment and import Image from next/image when ready */
-                  <span className="text-xs sm:text-sm text-gray-400 font-medium">
-                    {client.name}
-                  </span>
-                ) : (
-                  /* Placeholder — shows company name in muted text */
-                  <span className="text-xs sm:text-sm text-gray-500 font-medium tracking-wide">
-                    {client.name}
-                  </span>
-                )}
-              </div>
-            ))}
+          <div className="relative overflow-hidden">
+            {/* Soft edge fades */}
+            <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-r from-black to-transparent z-10" />
+            <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-black to-transparent z-10" />
+
+            <motion.div
+              className="flex gap-12 sm:gap-20 whitespace-nowrap"
+              animate={{ x: ['0%', '-50%'] }}
+              transition={{ duration: 40, repeat: Infinity, ease: 'linear' }}
+            >
+              {[...clients, ...clients].map((client, i) => (
+                <span
+                  key={`${client.name}-${i}`}
+                  className="text-base sm:text-xl md:text-2xl text-gray-500 font-medium tracking-wide opacity-50 hover:opacity-100 transition-opacity duration-300 shrink-0"
+                >
+                  {client.name}
+                </span>
+              ))}
+            </motion.div>
           </div>
         </AnimatedSection>
       </div>

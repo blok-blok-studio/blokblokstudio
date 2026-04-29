@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { AmbientBackdrop } from '@/components/AmbientBackdrop';
 
 export default function MainLayout({
   children,
@@ -8,6 +9,7 @@ export default function MainLayout({
 }) {
   return (
     <>
+      <AmbientBackdrop />
       <Navbar />
       <main className="min-h-screen">{children}</main>
       <Footer />
