@@ -2,7 +2,6 @@ import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 import { HomeHero } from '@/components/HomeHero';
-import { SectionDivider } from '@/components/SectionDivider';
 
 // Above-the-fold components stay synchronous so the hero paints immediately.
 // Everything below the fold lazy-loads to keep the initial JS bundle small —
@@ -37,11 +36,8 @@ export default function HomePage() {
       <DeviceMockup />
       <HomeClients />
       <HomeStats />
-      <SectionDivider />
       <HomeServices />
-      <SectionDivider />
       <HomeProjects />
-      <SectionDivider />
       <HomeTestimonials />
       <HomeAuditCTA />
       <HomeNewsletter />

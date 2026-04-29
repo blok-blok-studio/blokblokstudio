@@ -49,7 +49,7 @@ const STATS = [
 
 export function HomeStats() {
   return (
-    <section className="py-12 sm:py-16 px-5 sm:px-6 lg:px-8 border-y border-white/[0.06]">
+    <section className="py-12 sm:py-16 px-5 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
         {STATS.map((stat, i) => (
           <AnimatedSection key={stat.label} delay={i * 0.08}>
