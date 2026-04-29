@@ -278,10 +278,11 @@ export function ProjectsContent() {
                       {/* Year */}
                       <span className="text-xs text-gray-500">{project.year}</span>
                     </div>
-                    {/* Project title */}
-                    <h3 className="text-lg font-semibold mb-2 group-hover:text-white transition-colors">
+                    {/* Project title — h2 keeps a clean H1 → H2 outline under
+                        the page header. Don't skip levels. */}
+                    <h2 className="text-lg font-semibold mb-2 group-hover:text-white transition-colors">
                       {project.title}
-                    </h3>
+                    </h2>
                     {/* Project description */}
                     <p className="text-sm text-gray-500 leading-relaxed">
                       {project.desc}

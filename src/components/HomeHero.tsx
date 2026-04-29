@@ -66,13 +66,27 @@ export function HomeHero() {
         >
           <Image
             src="/logo-hero.png"
-            alt="Blok Blok Studio"
+            alt="Blok Blok Studio — AI agency and web design studio in Berlin"
             width={600}
             height={150}
             className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"
             priority
           />
         </motion.div>
+
+        {/* ── HERO H1 (SEO) ──
+            Visible H1 carrying the page's primary keywords. Critical for both
+            classic SEO (one H1 per page, descriptive) and AI search engines
+            that parse the H1 to summarize what the page is about.
+            Pulled from translations: "hero_title" key. */}
+        <motion.h1
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ type: 'spring', stiffness: 80, damping: 13, delay: 0.5 }}
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-white tracking-tight mb-4 sm:mb-6"
+        >
+          {t('hero_title')}
+        </motion.h1>
 
         {/* ── SUBTITLE TEXT ──
             Pulled from translations: "hero_subtitle" key.

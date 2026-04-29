@@ -201,8 +201,8 @@ export function ContactContent() {
                     />
                   </svg>
                 </div>
-                {/* Success heading text from translations */}
-                <h3 className="text-2xl font-semibold mb-2">{t('success')}</h3>
+                {/* Success heading — h2 to keep a clean H1 → H2 outline */}
+                <h2 className="text-2xl font-semibold mb-2">{t('success')}</h2>
               </motion.div>
             ) : (
               /* --------------------------------------------------------
@@ -324,8 +324,9 @@ export function ContactContent() {
           <AnimatedSection delay={0.2} className="lg:col-span-2">
             <div className="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 space-y-6 sm:space-y-8">
 
-              {/* Sidebar heading — from "contact.info_title" */}
-              <h3 className="text-lg font-semibold">{t('info_title')}</h3>
+              {/* Sidebar heading — h2 keeps the heading outline contiguous
+                  under the page H1 (don't skip levels). */}
+              <h2 className="text-lg font-semibold">{t('info_title')}</h2>
 
               {/* Contact info rows */}
               <div className="space-y-6">

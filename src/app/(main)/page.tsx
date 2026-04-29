@@ -13,7 +13,8 @@ import { HomeCTA } from '@/components/HomeCTA';
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('home');
   return {
-    title: 'Blok Blok Studio | Creative Digital Agency',
+    // null lets the root layout's default title apply (Berlin / AI keywords)
+    title: null,
     description: t('hero_subtitle'),
     alternates: {
       canonical: '/',
