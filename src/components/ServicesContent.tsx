@@ -133,6 +133,10 @@ const SHOW_CREATIVE_SECTION = LIVE_VISIBLE_SERVICE_INDICES === null ||
 // When the filter is reduced to a single category, hide the section heading
 // (a "Creative & Marketing" header above just one card looks odd).
 const SHOW_SECTION_HEADINGS = LIVE_VISIBLE_SERVICE_INDICES === null;
+// When only one card is visible, render it centered in a single column
+// instead of a multi-column grid so it doesn't sit alone in the top-left.
+const SINGLE_CARD_MODE =
+  LIVE_VISIBLE_SERVICE_INDICES !== null && LIVE_VISIBLE_SERVICE_INDICES.length === 1;
 const isVisible = (i: number) =>
   LIVE_VISIBLE_SERVICE_INDICES === null || LIVE_VISIBLE_SERVICE_INDICES.includes(i);
 
@@ -153,50 +157,63 @@ export function ServicesContent({ faqs }: { faqs?: { question: string; answer: s
           </p>
         </AnimatedSection>
 
-        {/* AI & Automation Section, Services 1-5 */}
-        {SHOW_AI_SECTION && (
+        {/* Single-card centered layout (active when LIVE_VISIBLE_SERVICE_INDICES has 1 item) */}
+        {SINGLE_CARD_MODE ? (
+          <div className="flex justify-center mb-16 sm:mb-24 lg:mb-32">
+            <div className="w-full max-w-md">
+              {LIVE_VISIBLE_SERVICE_INDICES!.map((index) => (
+                <ServiceCard key={index} index={index} t={(key) => t(key as 'title')} />
+              ))}
+            </div>
+          </div>
+        ) : (
           <>
-            {SHOW_SECTION_HEADINGS && (
-              <AnimatedSection className="mb-6 sm:mb-8">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
-                  {t('section_ai_title')}
-                </h2>
-                <div className="w-16 h-0.5 bg-green-400/60 rounded-full" />
-              </AnimatedSection>
+            {/* AI & Automation Section, Services 1-5 */}
+            {SHOW_AI_SECTION && (
+              <>
+                {SHOW_SECTION_HEADINGS && (
+                  <AnimatedSection className="mb-6 sm:mb-8">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
+                      {t('section_ai_title')}
+                    </h2>
+                    <div className="w-16 h-0.5 bg-green-400/60 rounded-full" />
+                  </AnimatedSection>
+                )}
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12">
+                  {isVisible(0) && <ServiceCard index={0} t={(key) => t(key as 'title')} />}
+                  {isVisible(1) && <ServiceCard index={1} t={(key) => t(key as 'title')} />}
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-16 sm:mb-24 lg:mb-32">
+                  {isVisible(2) && <ServiceCard index={2} t={(key) => t(key as 'title')} />}
+                  {isVisible(3) && <ServiceCard index={3} t={(key) => t(key as 'title')} />}
+                  {isVisible(4) && <ServiceCard index={4} t={(key) => t(key as 'title')} />}
+                </div>
+              </>
             )}
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12">
-              {isVisible(0) && <ServiceCard index={0} t={(key) => t(key as 'title')} />}
-              {isVisible(1) && <ServiceCard index={1} t={(key) => t(key as 'title')} />}
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-16 sm:mb-24 lg:mb-32">
-              {isVisible(2) && <ServiceCard index={2} t={(key) => t(key as 'title')} />}
-              {isVisible(3) && <ServiceCard index={3} t={(key) => t(key as 'title')} />}
-              {isVisible(4) && <ServiceCard index={4} t={(key) => t(key as 'title')} />}
-            </div>
-          </>
-        )}
+            {/* Creative & Marketing Section, Services 6-9 */}
+            {SHOW_CREATIVE_SECTION && (
+              <>
+                {SHOW_SECTION_HEADINGS && (
+                  <AnimatedSection className="mb-6 sm:mb-8">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
+                      {t('section_creative_title')}
+                    </h2>
+                    <div className="w-16 h-0.5 bg-blue-400/60 rounded-full" />
+                  </AnimatedSection>
+                )}
 
-        {/* Creative & Marketing Section, Services 6-9 */}
-        {SHOW_CREATIVE_SECTION && (
-          <>
-            {SHOW_SECTION_HEADINGS && (
-              <AnimatedSection className="mb-6 sm:mb-8">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
-                  {t('section_creative_title')}
-                </h2>
-                <div className="w-16 h-0.5 bg-blue-400/60 rounded-full" />
-              </AnimatedSection>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12">
+                  {isVisible(5) && <ServiceCard index={5} t={(key) => t(key as 'title')} />}
+                  {isVisible(6) && <ServiceCard index={6} t={(key) => t(key as 'title')} />}
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-16 sm:mb-24 lg:mb-32">
+                  {isVisible(7) && <ServiceCard index={7} t={(key) => t(key as 'title')} />}
+                  {isVisible(8) && <ServiceCard index={8} t={(key) => t(key as 'title')} />}
+                </div>
+              </>
             )}
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12">
-              {isVisible(5) && <ServiceCard index={5} t={(key) => t(key as 'title')} />}
-              {isVisible(6) && <ServiceCard index={6} t={(key) => t(key as 'title')} />}
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-16 sm:mb-24 lg:mb-32">
-              {isVisible(7) && <ServiceCard index={7} t={(key) => t(key as 'title')} />}
-              {isVisible(8) && <ServiceCard index={8} t={(key) => t(key as 'title')} />}
-            </div>
           </>
         )}
 

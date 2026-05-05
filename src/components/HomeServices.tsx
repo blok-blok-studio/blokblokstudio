@@ -103,7 +103,11 @@ export function HomeServices() {
         {/* ── Service Cards Grid ── */}
         <motion.div
           layout
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
+          className={
+            visibleIndices.length === 1
+              ? 'flex justify-center'
+              : 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6'
+          }
         >
           <AnimatePresence mode="popLayout">
             {services.map((service, i) => (
@@ -114,6 +118,7 @@ export function HomeServices() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 20 }}
                 transition={{ type: 'spring', stiffness: 80, damping: 15, delay: i * 0.06 }}
+                className={services.length === 1 ? 'w-full max-w-md' : ''}
               >
                 <motion.div
                   className={`relative rounded-2xl sm:rounded-3xl p-[1px] h-full bg-gradient-to-br ${service.gradient} group cursor-pointer hover:-translate-y-2 transition-transform duration-300`}
