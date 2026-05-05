@@ -4,7 +4,7 @@ import { projectsData } from '@/data/projects';
 
 /**
  * GET /llms-full.txt
- * Full-content version — entire site content for AI models to consume in one request.
+ * Full-content version, entire site content for AI models to consume in one request.
  * Includes: about, team, services, projects (full case studies), funnel, and blog posts.
  */
 export async function GET() {
@@ -16,7 +16,7 @@ export async function GET() {
   sections.push(
     '# Blok Blok Studio: Full Site Content',
     '',
-    '> Blok Blok Studio is a digital agency based in Berlin, Germany specializing in web design, branding, SEO, and digital strategy for businesses worldwide.',
+    '> Blok Blok Studio is a web design studio based in Berlin, Germany specializing in custom Next.js websites for businesses worldwide.',
     '',
     'Website: https://blokblokstudio.com',
     'Email: hello@blokblokstudio.com',
@@ -90,19 +90,10 @@ export async function GET() {
   sections.push(
     '# Services',
     '',
-    'End-to-end digital solutions tailored to elevate your brand and drive growth.',
+    'Custom website design and development tailored to elevate your brand.',
     '',
     '## Web Design & Development',
     'Custom websites that are visually stunning, lightning-fast, and optimized for conversion. Built with modern frameworks like Next.js for maximum performance and SEO.',
-    '',
-    '## Brand Identity',
-    'Distinctive brand systems that tell your story and create lasting impressions. Logo design, visual identity, color palettes, typography, and brand guidelines.',
-    '',
-    '## App Development',
-    'Native and cross-platform applications built for performance and user delight.',
-    '',
-    '## Digital Marketing',
-    'Data-driven strategies that amplify your reach and maximize ROI.',
     '',
     '## UI/UX Design',
     'User-centered design that transforms complex problems into intuitive experiences. Wireframing, prototyping, and design systems.',
@@ -162,17 +153,8 @@ export async function GET() {
     '',
     '## Service Packages',
     '',
-    '### Brand Foundation',
-    'Logo design, visual identity system, brand guidelines, and brand strategy.',
-    '',
     '### Web Presence',
     'Custom website design and development, SEO setup, and performance optimization.',
-    '',
-    '### Growth Engine',
-    'Digital marketing strategy, content creation, analytics setup, and conversion optimization.',
-    '',
-    '### Digital Products',
-    'App design and development, SaaS interfaces, and interactive digital experiences.',
     '',
     '## Client Testimonials',
     '',

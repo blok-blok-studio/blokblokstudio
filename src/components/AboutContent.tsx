@@ -192,7 +192,7 @@ export function AboutContent() {
         </AnimatedSection>
 
         {/* ==================================================================
-         * 2. VISUAL HERO — Abstract creative composition
+         * 2. VISUAL HERO, Abstract creative composition
          * ================================================================== */}
         <AnimatedSection delay={0.2} className="mb-14 sm:mb-20 lg:mb-24">
           <div className="aspect-[16/9] sm:aspect-[21/9] rounded-2xl sm:rounded-3xl bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 relative overflow-hidden">

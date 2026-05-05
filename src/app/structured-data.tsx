@@ -109,7 +109,7 @@ export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }
 }
 
 export function ServiceSchema() {
-  // Live-site service list — only website design exposed publicly. The
+  // Live-site service list, only website design exposed publicly. The
   // remaining services remain in source history for future re-enable.
   const services = [
     {

@@ -1,5 +1,5 @@
 /* ==========================================================================
- * DataRightsContent.tsx — GDPR Data Subject Rights Page
+ * DataRightsContent.tsx, GDPR Data Subject Rights Page
  * ==========================================================================
  *
  * PURPOSE:
@@ -127,7 +127,7 @@ function DataRightsHandler() {
             </motion.div>
           )}
 
-          {/* Form — shown when idle, loading, error, or expired */}
+          {/* Form, shown when idle, loading, error, or expired */}
           {(status === 'idle' || status === 'loading' || status === 'error' || status === 'expired') && (
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Email Input */}

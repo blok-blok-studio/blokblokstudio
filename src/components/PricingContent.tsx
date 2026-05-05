@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 /* ──────────────────────────────────────────────────────────────
- * Color tokens (inline — matches the brand orange system)
+ * Color tokens (inline, matches the brand orange system)
  * ────────────────────────────────────────────────────────────── */
 const O = '#F97316';
 const OL = '#FB923C';
@@ -17,7 +17,7 @@ const FA = '#555568';
 const BO = 'rgba(255,255,255,0.06)';
 
 /* ──────────────────────────────────────────────────────────────
- * Package data — every tier, category & line‑item
+ * Package data, every tier, category & line‑item
  * ────────────────────────────────────────────────────────────── */
 const pkgData: Record<string, Package[]> = {
   oneTime: [
@@ -616,7 +616,7 @@ const pkgData: Record<string, Package[]> = {
     },
   ],
 
-  // ─── App Development — monthly retainers ─────────────────────────
+  // ─── App Development, monthly retainers ─────────────────────────
   appSupport: [
     {
       name: 'Keep Alive',
@@ -682,7 +682,7 @@ const pkgData: Record<string, Package[]> = {
     },
   ],
 
-  // ─── Web Development — monthly retainers (web-specific, lighter than marketing) ───
+  // ─── Web Development, monthly retainers (web-specific, lighter than marketing) ───
   webSupport: [
     {
       name: 'Site Care',
@@ -746,7 +746,7 @@ const pkgData: Record<string, Package[]> = {
     },
   ],
 
-  // ─── Marketing — one-time project packages ────────────────────────
+  // ─── Marketing, one-time project packages ────────────────────────
   marketingBuild: [
     {
       name: 'Marketing Audit & Roadmap',
@@ -816,7 +816,7 @@ const pkgData: Record<string, Package[]> = {
     },
   ],
 
-  // ─── Branding Strategy — one-time ─────────────────────────────────
+  // ─── Branding Strategy, one-time ─────────────────────────────────
   brandingBuild: [
     {
       name: 'Brand Lite',
@@ -882,7 +882,7 @@ const pkgData: Record<string, Package[]> = {
     },
   ],
 
-  // ─── Branding Strategy — monthly retainers ────────────────────────
+  // ─── Branding Strategy, monthly retainers ────────────────────────
   brandingSupport: [
     {
       name: 'Brand Keeper',
@@ -1068,7 +1068,7 @@ export function PricingContent() {
           <p style={{ fontSize: 14, color: MU, maxWidth: 520, margin: '0 auto 24px', lineHeight: 1.6, fontWeight: 300 }}>
             AI-powered websites, apps, automations, ads, branding, and social media management. Every engagement is custom-quoted to your scope, with deliverables written down so we both know what we&apos;re building.
           </p>
-          {/* Tabs — 2-col grid on mobile, inline-flex row on desktop */}
+          {/* Tabs, 2-col grid on mobile, inline-flex row on desktop */}
           <style dangerouslySetInnerHTML={{ __html: `
             .pricing-tabs-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:4px;background:rgba(255,255,255,0.03);border:1px solid ${BO};border-radius:12px;padding:3px}
             @media(min-width:700px){.pricing-tabs-grid{display:inline-flex}}
@@ -1091,7 +1091,7 @@ export function PricingContent() {
           </div>
         </div>
 
-        {/* Cards — two sub-sections per tab: one-time, then monthly */}
+        {/* Cards, two sub-sections per tab: one-time, then monthly */}
         {activeTab.sections.map((section) => (
           <div key={section.dataKey} style={{ marginBottom: 28 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 14 }}>
@@ -1136,7 +1136,7 @@ export function PricingContent() {
                   ))}
                 </div>
 
-                {/* Expand — exclusions only (no pricing/overage details) */}
+                {/* Expand, exclusions only (no pricing/overage details) */}
                 {pk.ex && (
                   <>
                     <button onClick={() => setExp(isE ? null : cardId)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>

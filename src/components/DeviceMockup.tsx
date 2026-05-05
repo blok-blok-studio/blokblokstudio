@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { AnimatedSection } from './AnimatedSection';
 
 /**
- * DeviceMockup — Showcases project screenshots inside CSS device frames
+ * DeviceMockup, Showcases project screenshots inside CSS device frames
  * (MacBook, iPad Pro, iPhone Pro Max). Displayed on homepage between
  * hero and clients sections.
  *

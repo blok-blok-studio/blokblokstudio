@@ -1,6 +1,6 @@
 /**
  * ============================================================
- * ROOT LAYOUT — app/layout.tsx
+ * ROOT LAYOUT, app/layout.tsx
  * ============================================================
  * This is the top-level layout that wraps EVERY page on the site.
  * It includes: HTML head (favicon, manifest), global CSS, Navbar,
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     template: '%s | Blok Blok Studio',
   },
   description:
-    'Blok Blok Studio is a Berlin-based web design studio building custom Next.js websites for ambitious brands worldwide. Premium, conversion-focused web design — never templates.',
+    'Blok Blok Studio is a Berlin-based web design studio building custom Next.js websites for ambitious brands worldwide. Premium, conversion-focused web design, never templates.',
   keywords: [
     'Berlin web design',
     'web design Berlin',
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
         url: '/logo-hero.png',
         width: 1200,
         height: 630,
-        alt: 'Blok Blok Studio — web design studio in Berlin',
+        alt: 'Blok Blok Studio, web design studio in Berlin',
       },
     ],
   },
@@ -117,7 +117,7 @@ export const metadata: Metadata = {
 };
 
 /**
- * Root layout — minimal shell shared by ALL routes.
+ * Root layout, minimal shell shared by ALL routes.
  * Navbar/Footer are added by (main)/layout.tsx for main site pages.
  * The (funnel) route group gets NO Navbar/Footer.
  */

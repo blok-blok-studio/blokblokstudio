@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * ProjectDetail.tsx — Individual Project Case Study Page
+ * ProjectDetail.tsx, Individual Project Case Study Page
  * ============================================================================
  *
  * PURPOSE:
@@ -97,7 +97,7 @@ function ScaledLiveIframe({
  * ProjectDetail Component
  * ---------------------------------------------------------------------------
  * Props:
- *   slug — URL slug matching a key in projectsData
+ *   slug, URL slug matching a key in projectsData
  * ---------------------------------------------------------------------------
  */
 export function ProjectDetail({ slug }: { slug: string }) {
@@ -168,7 +168,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
 
       {/* ================================================================
           SECTION 2: Hero Image
-          Only render when there is no live preview block — the preview
+          Only render when there is no live preview block, the preview
           already shows a large screenshot/iframe of the site, so showing
           the hero image too would just be the same thing twice.
           ================================================================ */}

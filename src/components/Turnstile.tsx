@@ -30,7 +30,7 @@ interface TurnstileProps {
 }
 
 /**
- * Cloudflare Turnstile widget — invisible CAPTCHA alternative.
+ * Cloudflare Turnstile widget, invisible CAPTCHA alternative.
  * Loads the Turnstile script (render=explicit) and renders the widget.
  * Calls `onToken` when verification succeeds.
  */
@@ -50,7 +50,7 @@ export function Turnstile({ onToken, theme = 'dark', size = 'normal', className 
       sitekey: siteKey,
       callback: (token: string) => onTokenRef.current(token),
       'error-callback': () => {
-        // Silently ignore errors — form still works via other spam checks
+        // Silently ignore errors, form still works via other spam checks
       },
       'expired-callback': () => {
         // Token expired, reset to get a new one

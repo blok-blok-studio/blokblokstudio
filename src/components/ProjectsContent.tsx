@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * ProjectsContent.tsx — Full /projects Page Component
+ * ProjectsContent.tsx, Full /projects Page Component
  * ============================================================================
  *
  * PURPOSE:
@@ -41,7 +41,7 @@
  *     in your translation files (e.g., messages/en.json).
  *   - Filter button labels → edit "projects.filter_*" keys.
  *   - Project titles/descriptions → edit the `allProjects` array below
- *     (these are NOT translated — they are hardcoded English strings).
+ *     (these are NOT translated, they are hardcoded English strings).
  *
  * TO ADD A NEW FILTER CATEGORY:
  *   1. Add a new entry to the `filters` array in the component.
@@ -115,14 +115,14 @@ const allProjects = [
  */
 export function ProjectsContent() {
   /**
-   * Translation hook — pulls all keys from the "projects" namespace.
+   * Translation hook, pulls all keys from the "projects" namespace.
    * To change any displayed text, edit your translation JSON files
    * (e.g., messages/en.json → "projects": { ... }).
    */
   const t = useTranslations('projects');
 
   /**
-   * Active filter state — defaults to "all" (show every project).
+   * Active filter state, defaults to "all" (show every project).
    * Updated when the user clicks a filter button.
    */
   const [activeFilter, setActiveFilter] = useState('all');
@@ -160,7 +160,7 @@ export function ProjectsContent() {
      * - px-5 / sm:px-6 / lg:px-8 → horizontal padding
      */
     <section className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-5 sm:px-6 lg:px-8">
-      {/* Max-width container — keeps content centered on wide screens */}
+      {/* Max-width container, keeps content centered on wide screens */}
       <div className="max-w-7xl mx-auto">
 
         {/* ================================================================
@@ -278,7 +278,7 @@ export function ProjectsContent() {
                       {/* Year */}
                       <span className="text-xs text-gray-500">{project.year}</span>
                     </div>
-                    {/* Project title — h2 keeps a clean H1 → H2 outline under
+                    {/* Project title, h2 keeps a clean H1 → H2 outline under
                         the page header. Don't skip levels. */}
                     <h2 className="text-lg font-semibold mb-2 group-hover:text-white transition-colors">
                       {project.title}

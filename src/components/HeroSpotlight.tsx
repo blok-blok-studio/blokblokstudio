@@ -5,7 +5,7 @@ import { useEffect, useRef } from 'react';
 /**
  * Mouse-tracked radial glow for hero sections. Listens to pointermove inside
  * the parent and updates two CSS custom props (--mx, --my) which drive a
- * subtle warm spotlight gradient. No re-renders — pure CSS variables on the
+ * subtle warm spotlight gradient. No re-renders, pure CSS variables on the
  * element, so it's cheap even on long pages.
  *
  * Usage: drop this inside any relatively-positioned hero section. It'll

@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/'],
       },
       {
-        // AI crawlers — full crawl allowed for AI search positioning.
+        // AI crawlers, full crawl allowed for AI search positioning.
         // Major LLM/AI-search bots: OpenAI, Anthropic, Google AI, Perplexity,
         // Cohere, Common Crawl, You.com, Apple Intelligence, Amazon, ByteDance,
         // Meta AI, Diffbot, DuckDuckGo's AI assistant.

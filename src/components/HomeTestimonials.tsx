@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * HomeTestimonials.tsx — Client Testimonials Section (Homepage)
+ * HomeTestimonials.tsx, Client Testimonials Section (Homepage)
  * ============================================================================
  *
  * PURPOSE:
@@ -123,7 +123,7 @@ export function HomeTestimonials() {
               <motion.div
                 className="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full flex flex-col hover:-translate-y-2 transition-transform duration-300"
               >
-                {/* Star rating — 5 filled stars */}
+                {/* Star rating, 5 filled stars */}
                 <div className="flex gap-1 mb-4 sm:mb-6">
                   {[...Array(5)].map((_, j) => (
                     <svg
@@ -142,10 +142,10 @@ export function HomeTestimonials() {
                   &ldquo;{testimonial.quote}&rdquo;
                 </p>
 
-                {/* Client info — avatar + name + role */}
+                {/* Client info, avatar + name + role */}
                 <div className="flex items-center gap-3">
                   {/*
-                    Avatar placeholder — circle with initials.
+                    Avatar placeholder, circle with initials.
 
                     TO REPLACE WITH REAL PHOTO:
                       Add `photo` field to testimonial object, then:

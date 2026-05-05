@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * HomeNewsletter.tsx — Newsletter Signup Section (Homepage)
+ * HomeNewsletter.tsx, Newsletter Signup Section (Homepage)
  * ============================================================================
  *
  * PURPOSE:
@@ -20,7 +20,7 @@
  *   Currently the form does NOT send data anywhere (e.preventDefault).
  *   Shows a success message after "submitting".
  *
- *   TODO — BACKEND INTEGRATION:
+ *   TODO, BACKEND INTEGRATION:
  *     Replace the handleSubmit logic with a real API call to your
  *     email service (Mailchimp, ConvertKit, Resend, etc.).
  *     See the handleSubmit function below for where to add that.
@@ -88,7 +88,7 @@ export function HomeNewsletter() {
           {/* Glass card container with animated background blobs */}
           <div className="relative overflow-hidden rounded-2xl sm:rounded-[2.5rem] bg-gradient-to-br from-white/[0.05] to-white/[0.02] border border-white/5 p-8 sm:p-12 md:p-16 text-center">
 
-            {/* Animated background blob — top right */}
+            {/* Animated background blob, top right */}
             <motion.div
               className="absolute top-0 right-0 w-40 sm:w-64 h-40 sm:h-64 rounded-full bg-white/[0.02] blur-3xl"
               animate={{
@@ -98,7 +98,7 @@ export function HomeNewsletter() {
               transition={{ duration: 8, repeat: Infinity }}
             />
 
-            {/* Animated background blob — bottom left */}
+            {/* Animated background blob, bottom left */}
             <motion.div
               className="absolute bottom-0 left-0 w-48 h-48 rounded-full bg-white/[0.015] blur-3xl"
               animate={{
@@ -108,7 +108,7 @@ export function HomeNewsletter() {
               transition={{ duration: 10, repeat: Infinity }}
             />
 
-            {/* Content — positioned above the blobs */}
+            {/* Content, positioned above the blobs */}
             <div className="relative z-10">
 
               {/* Mail icon */}

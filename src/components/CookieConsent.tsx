@@ -100,7 +100,7 @@ export function CookieConsent() {
                   <h3 className="text-white font-semibold mb-4">Cookie Preferences</h3>
 
                   <div className="space-y-3 mb-5">
-                    {/* Essential — always on */}
+                    {/* Essential, always on */}
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">
                       <div>
                         <p className="text-white text-sm font-medium">Essential</p>

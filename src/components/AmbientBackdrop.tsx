@@ -5,12 +5,12 @@ import { motion } from 'framer-motion';
 /**
  * Site-wide animated backdrop. Lives behind every (main) page as a fixed,
  * pointer-events-none layer composed of:
- *   - Three softly drifting gradient blobs (orange / red / blue) — adds depth
+ *   - Three softly drifting gradient blobs (orange / red / blue), adds depth
  *     and signals "alive" without competing with content
- *   - A faint grid overlay — gives the dark canvas a subtle architectural feel
+ *   - A faint grid overlay, gives the dark canvas a subtle architectural feel
  *   - The body's noise-overlay class still rides on top via globals.css
  *
- * This is the "backdrop" referenced from the coachluki.com aesthetic — instead
+ * This is the "backdrop" referenced from the coachluki.com aesthetic, instead
  * of full-bleed photography (which we don't have), we layer atmosphere on
  * the dark canvas to keep the brand feel without going flat.
  *
@@ -22,7 +22,7 @@ export function AmbientBackdrop() {
       aria-hidden="true"
       className="fixed inset-0 -z-10 overflow-hidden pointer-events-none"
     >
-      {/* Drifting orange blob — top left */}
+      {/* Drifting orange blob, top left */}
       <motion.div
         className="absolute -top-1/4 -left-1/4 w-[800px] h-[800px] rounded-full bg-orange-500/[0.05] blur-[140px]"
         animate={{
@@ -34,7 +34,7 @@ export function AmbientBackdrop() {
         transition={{ duration: 18, repeat: Infinity, ease: 'easeInOut' }}
       />
 
-      {/* Drifting red/pink blob — bottom right */}
+      {/* Drifting red/pink blob, bottom right */}
       <motion.div
         className="absolute -bottom-1/4 -right-1/4 w-[700px] h-[700px] rounded-full bg-red-500/[0.04] blur-[130px]"
         animate={{
@@ -46,7 +46,7 @@ export function AmbientBackdrop() {
         transition={{ duration: 22, repeat: Infinity, ease: 'easeInOut', delay: 2 }}
       />
 
-      {/* Drifting cool-tone blob — center */}
+      {/* Drifting cool-tone blob, center */}
       <motion.div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-blue-500/[0.025] blur-[120px]"
         animate={{
@@ -56,7 +56,7 @@ export function AmbientBackdrop() {
         transition={{ duration: 26, repeat: Infinity, ease: 'easeInOut', delay: 4 }}
       />
 
-      {/* Architectural grid — extremely faint white lines for depth */}
+      {/* Architectural grid, extremely faint white lines for depth */}
       <div
         className="absolute inset-0 opacity-[0.025]"
         style={{

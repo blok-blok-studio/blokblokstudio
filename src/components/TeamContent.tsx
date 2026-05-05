@@ -61,7 +61,7 @@ export function TeamContent() {
           </p>
         </AnimatedSection>
 
-        {/* Team Members — Codex-style Bio Cards */}
+        {/* Team Members, Codex-style Bio Cards */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {teamMembers.map((member, i) => (
             <AnimatedSection key={i} delay={i * 0.15}>
@@ -85,7 +85,7 @@ export function TeamContent() {
                       </p>
                     </div>
 
-                    {/* Code Block — JSON-style bio */}
+                    {/* Code Block, JSON-style bio */}
                     <div className="font-mono text-sm flex-1">
                       {/* Opening brace */}
                       <p className="text-white/80 mb-4">{'{'}</p>

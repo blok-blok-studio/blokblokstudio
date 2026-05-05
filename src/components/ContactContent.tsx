@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * ContactContent.tsx — Full /contact Page Component
+ * ContactContent.tsx, Full /contact Page Component
  * ============================================================================
  *
  * PURPOSE:
@@ -10,7 +10,7 @@
  *     3. A sidebar with contact info (email, phone, address) and a map placeholder
  *     4. A success message shown after form submission
  *
- * IMPORTANT — FORM DOES NOT SEND DATA:
+ * IMPORTANT, FORM DOES NOT SEND DATA:
  *   The form's handleSubmit currently just sets `submitted = true` to show
  *   the success message. It does NOT actually send the form data anywhere.
  *   You MUST integrate a backend service (API route, email service, etc.)
@@ -55,7 +55,7 @@
  *   - Uses Tailwind CSS utility classes throughout.
  *   - "glass-card" is a custom utility class for the frosted-glass card look.
  *   - Responsive breakpoints: sm (640px), md (768px), lg (1024px).
- *   - Layout: 5-column grid on lg — form takes 3 cols, sidebar takes 2 cols.
+ *   - Layout: 5-column grid on lg, form takes 3 cols, sidebar takes 2 cols.
  *
  * ============================================================================
  */
@@ -77,14 +77,14 @@ import { motion } from 'framer-motion';
  */
 export function ContactContent() {
   /**
-   * Translation hook — pulls all keys from the "contact" namespace.
+   * Translation hook, pulls all keys from the "contact" namespace.
    * To change any displayed text, edit your translation JSON files
    * (e.g., messages/en.json → "contact": { ... }).
    */
   const t = useTranslations('contact');
 
   /**
-   * Submission state — controls whether to show the form or the success message.
+   * Submission state, controls whether to show the form or the success message.
    * Set to `true` after the user clicks Submit.
    */
   const [submitted, setSubmitted] = useState(false);
@@ -137,7 +137,7 @@ export function ContactContent() {
      * - px-5 / sm:px-6 / lg:px-8 → horizontal padding
      */
     <section className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-5 sm:px-6 lg:px-8">
-      {/* Max-width container — keeps content centered on wide screens */}
+      {/* Max-width container, keeps content centered on wide screens */}
       <div className="max-w-7xl mx-auto">
 
         {/* ================================================================
@@ -201,7 +201,7 @@ export function ContactContent() {
                     />
                   </svg>
                 </div>
-                {/* Success heading — h2 to keep a clean H1 → H2 outline */}
+                {/* Success heading, h2 to keep a clean H1 → H2 outline */}
                 <h2 className="text-2xl font-semibold mb-2">{t('success')}</h2>
               </motion.div>
             ) : (
@@ -211,14 +211,14 @@ export function ContactContent() {
                  Contains: Name, Email, Company, Message, Submit button.
                  All labels and placeholders come from translations.
 
-                 NOTE: The form does NOT send data — see handleSubmit above.
+                 NOTE: The form does NOT send data, see handleSubmit above.
                  You need to add backend integration to make it work.
               */
               <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
-                {/* Honeypot — hidden from humans, bots fill it */}
+                {/* Honeypot, hidden from humans, bots fill it */}
                 <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
 
-                {/* Name + Email fields — side by side on sm+ */}
+                {/* Name + Email fields, side by side on sm+ */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
 
                   {/* Name field (required) */}
@@ -324,7 +324,7 @@ export function ContactContent() {
           <AnimatedSection delay={0.2} className="lg:col-span-2">
             <div className="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 space-y-6 sm:space-y-8">
 
-              {/* Sidebar heading — h2 keeps the heading outline contiguous
+              {/* Sidebar heading, h2 keeps the heading outline contiguous
                   under the page H1 (don't skip levels). */}
               <h2 className="text-lg font-semibold">{t('info_title')}</h2>
 

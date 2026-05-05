@@ -1,5 +1,5 @@
 /* ==========================================================================
- * UnsubscribeContent.tsx — One-Click Unsubscribe Page
+ * UnsubscribeContent.tsx, One-Click Unsubscribe Page
  * ==========================================================================
  *
  * PURPOSE:

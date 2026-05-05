@@ -81,7 +81,7 @@ export function HomeProjects() {
           </Link>
         </AnimatedSection>
 
-        {/* Featured project — large hero card */}
+        {/* Featured project, large hero card */}
         <AnimatedSection className="mb-4 sm:mb-6">
           <Link href={`/projects/${featuredProjects[0].slug}`}>
             <motion.div

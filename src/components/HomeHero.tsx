@@ -35,7 +35,7 @@ export function HomeHero() {
     // ── HERO SECTION CONTAINER ──
     // Full viewport height, vertically centered content
     <section className="relative min-h-screen flex items-center px-5 sm:px-6 lg:px-8 overflow-hidden">
-      {/* Radial glow that tracks the cursor — purely decorative, sits below content */}
+      {/* Radial glow that tracks the cursor, purely decorative, sits below content */}
       <HeroSpotlight />
 
       <div className="relative z-10 max-w-4xl mx-auto w-full text-center">
@@ -70,7 +70,7 @@ export function HomeHero() {
         >
           <Image
             src="/logo-hero.png"
-            alt="Blok Blok Studio — web design studio in Berlin"
+            alt="Blok Blok Studio, web design studio in Berlin"
             width={600}
             height={150}
             className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"
@@ -115,7 +115,7 @@ export function HomeHero() {
           transition={{ type: 'spring', stiffness: 80, damping: 13, delay: 0.8 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
         >
-          {/* Primary CTA — "Start a Project" button (white, filled) */}
+          {/* Primary CTA, "Start a Project" button (white, filled) */}
           <MagneticButton as="div">
             <Link
               href="/contact"
@@ -139,7 +139,7 @@ export function HomeHero() {
             </Link>
           </MagneticButton>
 
-          {/* Secondary CTA — "View All Projects" button (outlined) */}
+          {/* Secondary CTA, "View All Projects" button (outlined) */}
           <MagneticButton as="div">
             <Link
               href="/projects"

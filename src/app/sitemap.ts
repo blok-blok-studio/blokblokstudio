@@ -5,17 +5,17 @@ import { getAllBlogSlugs } from '@/data/blog';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://blokblokstudio.com';
 
+  // Live-site routes — pricing/start/call funnel pages are intentionally
+  // omitted while the site is positioned as web-design-only.
   const mainRoutes = [
     '',
     '/projects',
     '/about',
     '/services',
-    '/pricing',
     '/faq',
     '/team',
     '/contact',
     '/blog',
-    '/call',
   ];
 
   const legalRoutes = ['/privacy', '/terms', '/cookies', '/data-rights'];

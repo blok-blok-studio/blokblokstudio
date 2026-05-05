@@ -12,15 +12,15 @@ import { MagneticButton } from './MagneticButton';
  * Order matches service index (0-based).
  */
 const serviceAccents = [
-  '#4ade80', // AI Agent Ecosystems — green
-  '#60a5fa', // Conversational AI — blue
-  '#fb923c', // Workflow Automation — orange
-  '#a78bfa', // AI Content Systems — purple
-  '#f87171', // Client Dashboards — red/coral
-  '#60a5fa', // Websites — blue
-  '#c084fc', // Branding — purple/magenta
-  '#fb923c', // Google Ads — orange
-  '#f87171', // Meta Ads — red/coral
+  '#4ade80', // AI Agent Ecosystems, green
+  '#60a5fa', // Conversational AI, blue
+  '#fb923c', // Workflow Automation, orange
+  '#a78bfa', // AI Content Systems, purple
+  '#f87171', // Client Dashboards, red/coral
+  '#60a5fa', // Websites, blue
+  '#c084fc', // Branding, purple/magenta
+  '#fb923c', // Google Ads, orange
+  '#f87171', // Meta Ads, red/coral
 ];
 
 /**
@@ -123,7 +123,7 @@ function ServiceCard({ index, t }: { index: number; t: (key: string) => string }
   );
 }
 
-// Live-site visibility filter — keeps the full services/sections code below
+// Live-site visibility filter, keeps the full services/sections code below
 // intact, but only renders the listed indices. Set to null to show all 9.
 const LIVE_VISIBLE_SERVICE_INDICES: number[] | null = [5]; // 5 = Websites
 const SHOW_AI_SECTION = LIVE_VISIBLE_SERVICE_INDICES === null ||
@@ -153,7 +153,7 @@ export function ServicesContent({ faqs }: { faqs?: { question: string; answer: s
           </p>
         </AnimatedSection>
 
-        {/* AI & Automation Section — Services 1-5 */}
+        {/* AI & Automation Section, Services 1-5 */}
         {SHOW_AI_SECTION && (
           <>
             {SHOW_SECTION_HEADINGS && (
@@ -177,7 +177,7 @@ export function ServicesContent({ faqs }: { faqs?: { question: string; answer: s
           </>
         )}
 
-        {/* Creative & Marketing Section — Services 6-9 */}
+        {/* Creative & Marketing Section, Services 6-9 */}
         {SHOW_CREATIVE_SECTION && (
           <>
             {SHOW_SECTION_HEADINGS && (

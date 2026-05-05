@@ -193,7 +193,7 @@ export function StartContent() {
           >
             <Image
               src="/logo-hero.png"
-              alt="Blok Blok Studio — custom websites, brands, and AI systems baked in Berlin"
+              alt="Blok Blok Studio, custom websites, brands, and AI systems baked in Berlin"
               width={600}
               height={150}
               className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"
@@ -207,7 +207,7 @@ export function StartContent() {
             transition={{ ...springFast, delay: 0.5 }}
             className="text-2xl sm:text-3xl md:text-4xl font-light text-white tracking-tight mb-4 sm:mb-6"
           >
-            Custom Websites, Brands & AI Systems — Baked in Berlin
+            Custom Websites, Brands & AI Systems, Baked in Berlin
           </motion.h1>
 
           <motion.p

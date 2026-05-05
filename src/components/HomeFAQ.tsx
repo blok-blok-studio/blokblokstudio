@@ -20,7 +20,7 @@ interface FAQItem {
 export function HomeFAQ() {
   const t = useTranslations('faq');
   const allItems = (t.raw('items') as FAQItem[]) || [];
-  // Live-site filter — hides FAQ entries that describe AI / voice agent /
+  // Live-site filter, hides FAQ entries that describe AI / voice agent /
   // automation services. Keeps the entries in the JSON for future re-enable.
   const HIDE_AI_FAQ = true;
   const aiKeywords = /\b(ai|chatbot|voice agent|automation|agent)\b/i;

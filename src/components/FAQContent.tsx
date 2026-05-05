@@ -14,7 +14,7 @@ interface FAQItem {
 
 const CATEGORIES = ['pricing', 'process', 'capabilities', 'trust'] as const;
 
-// Live-site filter — hides FAQ entries about AI / voice agents / automation
+// Live-site filter, hides FAQ entries about AI / voice agents / automation
 // while keeping them in the JSON for future re-enable.
 const HIDE_AI_FAQ = true;
 const aiKeywords = /\b(ai|chatbot|voice agent|automation|agent)\b/i;

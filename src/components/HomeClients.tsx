@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * HomeClients.tsx — "Trusted By" Client Logo Bar (Homepage)
+ * HomeClients.tsx, "Trusted By" Client Logo Bar (Homepage)
  * ============================================================================
  *
  * PURPOSE:
@@ -14,7 +14,7 @@
  *
  * TO ADD REAL CLIENT LOGOS:
  *   1. Place logo images in /public/images/clients/ (e.g., client-1.svg)
- *   2. Update the `clients` array below — change `logo` from null to the path
+ *   2. Update the `clients` array below, change `logo` from null to the path
  *   3. The component will render an <Image> instead of the placeholder box
  *
  * STYLING:
@@ -63,18 +63,18 @@ export function HomeClients() {
   const t = useTranslations('home');
 
   return (
-    /* Section wrapper — subtle top/bottom padding, centered */
+    /* Section wrapper, subtle top/bottom padding, centered */
     <section className="py-12 sm:py-16 lg:py-20 px-5 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
 
-        {/* Section heading — small, uppercase, centered */}
+        {/* Section heading, small, uppercase, centered */}
         <AnimatedSection className="text-center mb-8 sm:mb-12">
           <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-gray-500">
             {t('clients_heading')}
           </p>
         </AnimatedSection>
 
-        {/* Marquee — continuously scrolling client names. Doubled-up so the
+        {/* Marquee, continuously scrolling client names. Doubled-up so the
             tail seamlessly meets the head and the loop is invisible. Edge
             fades on either side prevent hard clipping. */}
         <AnimatedSection delay={0.1}>

@@ -545,7 +545,7 @@ function AuditForm() {
       const authorityLabel = authorityOptions.find(o => o.value === formData.authority)?.label || formData.authority || 'N/A';
       const needLabel = needOptions.find(o => o.value === formData.need)?.label || formData.need || 'N/A';
       const bantSummary = [
-        `DISQUALIFIED LEAD [DQ] — ${reason}`,
+        `DISQUALIFIED LEAD [DQ], ${reason}`,
         '',
         `Budget: ${budgetLabel}`,
         `Authority: ${authorityLabel}`,
@@ -571,7 +571,7 @@ function AuditForm() {
         }),
       });
     } catch {
-      // Silently fail — DQ screen still shows
+      // Silently fail, DQ screen still shows
     }
   };
 
@@ -670,7 +670,7 @@ function AuditForm() {
     }
   };
 
-  /* ── Completed — Cal.com Booking ── */
+  /* ── Completed, Cal.com Booking ── */
   if (qualified) {
     return (
       <motion.div
@@ -978,7 +978,7 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 
 
 /* ================================================================
- * PITCH VIDEO — Click-to-play video with poster overlay
+ * PITCH VIDEO, Click-to-play video with poster overlay
  * ================================================================ */
 function PitchVideo() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -1006,7 +1006,7 @@ function PitchVideo() {
         onEnded={() => setIsPlaying(false)}
       />
 
-      {/* Play overlay — hides once playing */}
+      {/* Play overlay, hides once playing */}
       {!isPlaying && (
         <div
           className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 cursor-pointer bg-black/40"
@@ -1029,14 +1029,14 @@ function PitchVideo() {
 }
 
 /* ================================================================
- * MAIN FUNNEL — Highly visual sales page for /audit
+ * MAIN FUNNEL, Highly visual sales page for /audit
  * ================================================================ */
 export function FunnelContent() {
   return (
     <div className="page-transition overflow-hidden">
 
       {/* ================================================================
-       * 1. BANNER — Urgency / announcement bar
+       * 1. BANNER, Urgency / announcement bar
        * ================================================================ */}
       <div className="bg-gradient-to-r from-orange-500/10 via-red-500/5 to-orange-500/10 border-b border-orange-500/10">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-2 text-xs sm:text-sm">
@@ -1048,7 +1048,7 @@ export function FunnelContent() {
       </div>
 
       {/* ================================================================
-       * 2. SOCIAL PROOF BAR — Stats with visual accents
+       * 2. SOCIAL PROOF BAR, Stats with visual accents
        * ================================================================ */}
       <Section className="py-6 sm:py-8 px-5 border-b border-white/5">
         <div className="max-w-5xl mx-auto">
@@ -1078,7 +1078,7 @@ export function FunnelContent() {
       </Section>
 
       {/* ================================================================
-       * 3. HERO — Bold headline with visual background
+       * 3. HERO, Bold headline with visual background
        * ================================================================ */}
       <section className="relative pt-8 sm:pt-10 lg:pt-12 pb-16 sm:pb-20 lg:pb-24 px-5 sm:px-6 text-center overflow-hidden">
         {/* Animated background orbs */}
@@ -1180,7 +1180,7 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * 4. VIDEO SALES LETTER — Pitch video
+       * 4. VIDEO SALES LETTER, Pitch video
        * ================================================================ */}
       <Section className="py-8 sm:py-12 px-5 sm:px-6">
         <div className="max-w-4xl mx-auto">
@@ -1189,7 +1189,7 @@ export function FunnelContent() {
       </Section>
 
       {/* ================================================================
-       * 5. CTA — Mid-page call to action
+       * 5. CTA, Mid-page call to action
        * ================================================================ */}
       <Section className="py-12 sm:py-16 px-5 sm:px-6 text-center">
         <div className="max-w-2xl mx-auto">
@@ -1206,7 +1206,7 @@ export function FunnelContent() {
       </Section>
 
       {/* ================================================================
-       * 6. STORY + PROBLEM — Visual narrative section
+       * 6. STORY + PROBLEM, Visual narrative section
        * ================================================================ */}
       <Section className="py-20 sm:py-28 lg:py-36 px-5 sm:px-6">
         <div className="max-w-5xl mx-auto">
@@ -1263,7 +1263,7 @@ export function FunnelContent() {
       </Section>
 
       {/* ================================================================
-       * 7. SOCIAL PROOF — Trusted by Brands That Dare to Stand Out
+       * 7. SOCIAL PROOF, Trusted by Brands That Dare to Stand Out
        * ================================================================ */}
       <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
         {/* Background accent */}
@@ -1287,7 +1287,7 @@ export function FunnelContent() {
             </p>
           </Section>
 
-          {/* Brand showcase grid — 3x2 */}
+          {/* Brand showcase grid, 3x2 */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-5">
             {trustedBrands.map((brand, i) => (
               <motion.div
@@ -1334,7 +1334,7 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * 8. TRANSFORMATION — Visual before/after
+       * 8. TRANSFORMATION, Visual before/after
        * ================================================================ */}
       <Section className="py-20 sm:py-28 lg:py-36 px-5 sm:px-6">
         <div className="max-w-5xl mx-auto">
@@ -1399,7 +1399,7 @@ export function FunnelContent() {
       </Section>
 
       {/* ================================================================
-       * 9. BENEFITS — Visual cards with colored gradients
+       * 9. BENEFITS, Visual cards with colored gradients
        * ================================================================ */}
       <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.01] to-transparent" />
@@ -1434,7 +1434,7 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * 10. ROADMAP — Alternating zigzag layout with SVG illustrations
+       * 10. ROADMAP, Alternating zigzag layout with SVG illustrations
        * ================================================================ */}
       <section className="py-20 sm:py-28 lg:py-36 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.015] to-transparent" />
@@ -1456,7 +1456,7 @@ export function FunnelContent() {
 
           {/* Timeline with alternating steps */}
           <div className="relative">
-            {/* Center vertical timeline line — hidden on mobile */}
+            {/* Center vertical timeline line, hidden on mobile */}
             <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px -translate-x-1/2">
               <div className="h-full bg-gradient-to-b from-orange-500/30 via-orange-500/10 to-transparent" />
             </div>
@@ -1479,14 +1479,14 @@ export function FunnelContent() {
                     variants={fadeUp}
                     className="relative"
                   >
-                    {/* Step number circle on timeline — desktop (centered) */}
+                    {/* Step number circle on timeline, desktop (centered) */}
                     <div className="hidden lg:flex absolute left-1/2 top-8 -translate-x-1/2 z-20">
                       <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center shadow-lg shadow-orange-500/20 border-4 border-black">
                         <span className="text-sm font-bold text-white">{step.num}</span>
                       </div>
                     </div>
 
-                    {/* Step number circle — mobile (left side) */}
+                    {/* Step number circle, mobile (left side) */}
                     <div className="lg:hidden absolute left-0 top-0 z-20">
                       <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center shadow-lg shadow-orange-500/20 border-[3px] border-black">
                         <span className="text-xs font-bold text-white">{step.num}</span>
@@ -1546,7 +1546,7 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * 11. SERVICE MODULAR BREAKDOWN — Visual module cards
+       * 11. SERVICE MODULAR BREAKDOWN, Visual module cards
        * ================================================================ */}
       <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.015] to-transparent" />
@@ -1588,7 +1588,7 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * 12. SOCIAL PROOF — Project showcase with visual stats
+       * 12. SOCIAL PROOF, Project showcase with visual stats
        *
        * TODO: Replace gradient backgrounds with real project screenshots.
        * Use <Image src="/projects/name.jpg" fill className="object-cover" />
@@ -1639,7 +1639,7 @@ export function FunnelContent() {
       </Section>
 
       {/* ================================================================
-       * 13. WHAT'S INCLUDED — Visual checklist with icons
+       * 13. WHAT'S INCLUDED, Visual checklist with icons
        * ================================================================ */}
       <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-orange-500/[0.02] via-transparent to-transparent" />
@@ -1671,7 +1671,7 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * 14. FREE AUDIT — Lead capture form
+       * 14. FREE AUDIT, Lead capture form
        * Connected to /api/audit → Prisma DB + Email + Telegram notifications
        * ================================================================ */}
       <section id="call" className="pt-10 sm:pt-12 lg:pt-14 pb-20 sm:pb-28 lg:pb-36 px-5 sm:px-6 relative overflow-hidden">
@@ -1699,7 +1699,7 @@ export function FunnelContent() {
           </Section>
 
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-14">
-            {/* Form — takes 3 columns */}
+            {/* Form, takes 3 columns */}
             <motion.div
               initial="hidden" whileInView="visible" viewport={{ once: true }}
               transition={{ duration: 0.5 }} variants={fadeUp}
@@ -1708,7 +1708,7 @@ export function FunnelContent() {
               <AuditForm />
             </motion.div>
 
-            {/* Benefits sidebar — takes 2 columns */}
+            {/* Benefits sidebar, takes 2 columns */}
             <motion.div
               initial="hidden" whileInView="visible" viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.15 }} variants={fadeUp}
@@ -1756,7 +1756,7 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * 15. WHO IT'S FOR — Visual comparison
+       * 15. WHO IT'S FOR, Visual comparison
        * ================================================================ */}
       <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.01] to-transparent" />
@@ -1800,7 +1800,7 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * 17. COMPARISON TABLE — DIY vs Freelancer vs Blok Blok
+       * 17. COMPARISON TABLE, DIY vs Freelancer vs Blok Blok
        * ================================================================ */}
       <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent" />
@@ -1896,7 +1896,7 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * FINAL CTA — Get Your Free Audit
+       * FINAL CTA, Get Your Free Audit
        * ================================================================ */}
       <section className="py-20 sm:py-28 lg:py-36 px-5 sm:px-6">
         <Section>
