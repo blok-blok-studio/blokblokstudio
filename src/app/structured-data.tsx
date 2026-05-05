@@ -6,7 +6,7 @@ export function OrganizationSchema() {
     url: 'https://blokblokstudio.com',
     logo: 'https://blokblokstudio.com/logo.png',
     description:
-      'A creative digital agency crafting bold brands, stunning websites, and digital products that move people.',
+      'A creative web design studio crafting custom, conversion-focused websites for ambitious brands.',
     foundingDate: '2024',
     contactPoint: {
       '@type': 'ContactPoint',
@@ -30,29 +30,9 @@ export function OrganizationSchema() {
     priceRange: '$$',
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'Digital Services',
+      name: 'Web Design Services',
       itemListElement: [
-        {
-          '@type': 'OfferCatalog',
-          name: 'AI & Automation',
-          itemListElement: [
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AI Agent Ecosystems' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Conversational AI' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Workflow Automation' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AI Content Systems' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Client Dashboards' } },
-          ],
-        },
-        {
-          '@type': 'OfferCatalog',
-          name: 'Creative & Marketing',
-          itemListElement: [
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Websites' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Branding' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Google Ads' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Meta Ads' } },
-          ],
-        },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Websites' } },
       ],
     },
   };
@@ -129,42 +109,12 @@ export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }
 }
 
 export function ServiceSchema() {
+  // Live-site service list — only website design exposed publicly. The
+  // remaining services remain in source history for future re-enable.
   const services = [
-    {
-      name: 'AI Agent Ecosystems',
-      description: 'Interconnected AI sub-agents that run entire business workflows with multi-agent orchestration and human-in-the-loop escalation.',
-    },
-    {
-      name: 'Conversational AI',
-      description: 'Chatbots and voice agents that qualify leads nonstop with website AI chat widgets and appointment booking on autopilot.',
-    },
-    {
-      name: 'Workflow Automation',
-      description: 'Connect CRM, calendar, and payments into one seamless system with custom integrations and AI decision logic.',
-    },
-    {
-      name: 'AI Content Systems',
-      description: 'Turn one input into 10 pieces of content with video-to-clips pipelines, blog generation, and cross-platform repurposing.',
-    },
-    {
-      name: 'Client Dashboards',
-      description: 'Real-time portals with live lead tracking, ad spend reporting, and white-labeled KPI widgets.',
-    },
     {
       name: 'Websites',
       description: 'Custom-built, conversion-focused sites with Next.js and React, SEO-optimized and mobile-first.',
-    },
-    {
-      name: 'Branding',
-      description: 'Bold visual identities including logo design, color palettes, typography, and brand guidelines documents.',
-    },
-    {
-      name: 'Google Ads',
-      description: 'Search campaigns for high-intent buyers with keyword strategy, conversion tracking, and monthly optimization.',
-    },
-    {
-      name: 'Meta Ads',
-      description: 'Facebook and Instagram advertising at scale with audience targeting, retargeting funnels, and creative A/B testing.',
     },
   ];
 
@@ -202,7 +152,7 @@ export function LocalBusinessSchema() {
     name: 'Blok Blok Studio',
     alternateName: 'BlokBlok Studio',
     description:
-      'Berlin-based digital agency building AI agents, voice assistants, workflow automation, and custom Next.js websites for ambitious brands worldwide.',
+      'Berlin-based web design studio building custom Next.js websites for ambitious brands worldwide.',
     image: 'https://blokblokstudio.com/logo-hero.png',
     logo: 'https://blokblokstudio.com/logo.svg',
     url: 'https://blokblokstudio.com',
@@ -235,15 +185,8 @@ export function LocalBusinessSchema() {
     ],
     knowsLanguage: ['English', 'German', 'French', 'Spanish'],
     knowsAbout: [
-      'AI Agents',
-      'Conversational AI',
-      'Voice Agents',
-      'Workflow Automation',
       'Web Design',
       'Next.js Development',
-      'Branding',
-      'Google Ads',
-      'Meta Ads',
       'SEO',
     ],
     priceRange: '$$',

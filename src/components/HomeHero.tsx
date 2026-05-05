@@ -70,7 +70,7 @@ export function HomeHero() {
         >
           <Image
             src="/logo-hero.png"
-            alt="Blok Blok Studio — AI agency and web design studio in Berlin"
+            alt="Blok Blok Studio — web design studio in Berlin"
             width={600}
             height={150}
             className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"

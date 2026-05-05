@@ -5,12 +5,12 @@ import { BreadcrumbSchema } from '@/app/structured-data';
 export const metadata: Metadata = {
   title: 'Services & Packages | Blok Blok Studio',
   description:
-    'AI-powered websites, apps, automations, ads, branding, and social media management. Defined deliverables, custom-quoted to your scope.',
+    'Custom website design and development packages. Defined deliverables, custom-quoted to your scope.',
   alternates: { canonical: '/services' },
   openGraph: {
     title: 'Services & Packages | Blok Blok Studio',
     description:
-      'Clear scope, defined deliverables. Explore our web, app, social, marketing, AI agent, custom SaaS, and branding packages.',
+      'Clear scope, defined deliverables. Custom website design and development packages.',
     url: 'https://blokblokstudio.com/services',
     siteName: 'Blok Blok Studio',
     type: 'website',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Services & Packages | Blok Blok Studio',
     description:
-      'Clear scope, defined deliverables. Explore our web, app, social, marketing, AI agent, custom SaaS, and branding packages.',
+      'Clear scope, defined deliverables. Custom website design and development packages.',
     images: ['/og-image.jpg'],
   },
 };

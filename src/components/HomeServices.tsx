@@ -33,13 +33,21 @@ const categoryMap: Record<TabKey, number[]> = {
   creative: [6, 7, 8, 9],
 };
 
+// Live-site visibility filter. Set to null to disable filtering (shows all
+// services and tabs). When set to a list, only those service numbers render
+// and the AI/Creative tabs are hidden. The other services and tabs remain in
+// code for future re-enable.
+const LIVE_VISIBLE_SERVICES: number[] | null = [6];
+
 export function HomeServices() {
   const t = useTranslations('home');
   const st = useTranslations('services');
   const [activeTab, setActiveTab] = useState<TabKey>('all');
 
   /** Build the cards to show based on active tab */
-  const visibleIndices = categoryMap[activeTab];
+  const visibleIndices = (LIVE_VISIBLE_SERVICES ?? categoryMap[activeTab]).filter(
+    (n) => LIVE_VISIBLE_SERVICES?.includes(n) ?? true
+  );
 
   const services = visibleIndices.map((num) => ({
     num,
@@ -66,8 +74,8 @@ export function HomeServices() {
           </p>
         </AnimatedSection>
 
-        {/* ── Tabs ── */}
-        <div className="flex justify-center mb-10 sm:mb-12">
+        {/* ── Tabs ── (hidden when LIVE_VISIBLE_SERVICES filter is active) */}
+        <div className={`flex justify-center mb-10 sm:mb-12 ${LIVE_VISIBLE_SERVICES ? 'hidden' : ''}`}>
           <div className="inline-flex gap-2 p-1.5 rounded-2xl bg-white/5 border border-white/10">
             {tabs.map((tab) => (
               <button

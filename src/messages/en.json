@@ -14,8 +14,8 @@
     "data_rights": "Your Data Rights"
   },
   "faq": {
-    "meta_title": "FAQ — AI Agency & Web Design Studio in Berlin",
-    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio — a Berlin-based digital agency serving clients worldwide.",
+    "meta_title": "FAQ — Web Design Studio in Berlin",
+    "meta_description": "Answers about pricing, timelines, custom websites, and working with Blok Blok Studio — a Berlin-based web design studio serving clients worldwide.",
     "hero_eyebrow": "Frequently Asked Questions",
     "hero_title": "Everything you wanted to ask",
     "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 30-minute call.",
@@ -100,12 +100,12 @@
     ]
   },
   "home": {
-    "hero_title": "AI Agency & Web Design Studio in Berlin",
-    "hero_subtitle": "We build AI agents, voice assistants, automation systems, and custom Next.js websites for ambitious brands worldwide. Premium AI and web design — never templates.",
+    "hero_title": "Web Design Studio in Berlin",
+    "hero_subtitle": "We design and build custom Next.js websites for ambitious brands worldwide. Premium, conversion-focused web design — never templates.",
     "hero_cta": "Start a Project",
     "clients_heading": "Trusted by forward-thinking brands",
     "services_heading": "What We Do",
-    "services_subheading": "We combine strategy, design, and technology to create digital experiences that drive results.",
+    "services_subheading": "We combine strategy, design, and modern web technology to craft sites that drive results.",
     "projects_heading": "Selected Work",
     "projects_subheading": "A showcase of projects where creativity meets purpose.",
     "projects_cta": "View All Projects",
@@ -160,7 +160,7 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",
+    "subtitle": "Custom website design and development that drives real business growth.",
     "section_ai_title": "AI & Automation",
     "section_creative_title": "Creative & Marketing",
     "service_1_title": "AI Agent Ecosystems",

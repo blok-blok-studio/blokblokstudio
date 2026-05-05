@@ -14,9 +14,17 @@ interface FAQItem {
 
 const CATEGORIES = ['pricing', 'process', 'capabilities', 'trust'] as const;
 
+// Live-site filter — hides FAQ entries about AI / voice agents / automation
+// while keeping them in the JSON for future re-enable.
+const HIDE_AI_FAQ = true;
+const aiKeywords = /\b(ai|chatbot|voice agent|automation|agent)\b/i;
+
 export function FAQContent() {
   const t = useTranslations('faq');
-  const items = (t.raw('items') as FAQItem[]) || [];
+  const allItems = (t.raw('items') as FAQItem[]) || [];
+  const items = HIDE_AI_FAQ
+    ? allItems.filter((item) => !aiKeywords.test(item.question) && !aiKeywords.test(item.answer))
+    : allItems;
   const [activeCategory, setActiveCategory] = useState<string | 'all'>('all');
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 

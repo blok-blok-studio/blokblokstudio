@@ -36,26 +36,18 @@ import { CookieConsent } from '@/components/CookieConsent';
 export const metadata: Metadata = {
   metadataBase: new URL('https://blokblokstudio.com'),
   title: {
-    default: 'Blok Blok Studio | AI Agency & Web Design Studio in Berlin',
+    default: 'Blok Blok Studio | Web Design Studio in Berlin',
     template: '%s | Blok Blok Studio',
   },
   description:
-    'Blok Blok Studio is a Berlin-based digital agency building AI agents, voice assistants, automation systems, and custom Next.js websites for ambitious brands worldwide. Premium AI and web design — never templates.',
+    'Blok Blok Studio is a Berlin-based web design studio building custom Next.js websites for ambitious brands worldwide. Premium, conversion-focused web design — never templates.',
   keywords: [
-    'AI agency Berlin',
-    'AI agents',
-    'AI chatbot development',
-    'AI voice agent',
-    'workflow automation',
     'Berlin web design',
+    'web design Berlin',
     'custom Next.js websites',
-    'digital agency Berlin',
-    'conversational AI',
+    'web design studio',
     'web design Germany',
-    'branding studio',
-    'Google Ads Berlin',
-    'Meta Ads agency',
-    'AI content systems',
+    'website design agency',
     'Blok Blok Studio',
   ],
   authors: [{ name: 'Blok Blok Studio', url: 'https://blokblokstudio.com' }],
@@ -72,23 +64,23 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://blokblokstudio.com',
     siteName: 'Blok Blok Studio',
-    title: 'Blok Blok Studio | AI Agency & Web Design Studio in Berlin',
+    title: 'Blok Blok Studio | Web Design Studio in Berlin',
     description:
-      'Berlin-based agency building AI agents, voice assistants, automations, and custom Next.js websites for clients worldwide.',
+      'Berlin-based web design studio building custom Next.js websites for clients worldwide.',
     images: [
       {
         url: '/logo-hero.png',
         width: 1200,
         height: 630,
-        alt: 'Blok Blok Studio — AI agency and web design studio in Berlin',
+        alt: 'Blok Blok Studio — web design studio in Berlin',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blok Blok Studio | AI Agency & Web Design Studio in Berlin',
+    title: 'Blok Blok Studio | Web Design Studio in Berlin',
     description:
-      'Berlin-based agency building AI agents, voice assistants, automations, and custom Next.js websites for clients worldwide.',
+      'Berlin-based web design studio building custom Next.js websites for clients worldwide.',
     images: ['/logo-hero.png'],
   },
   robots: {
