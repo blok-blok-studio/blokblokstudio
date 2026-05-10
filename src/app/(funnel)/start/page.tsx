@@ -2,14 +2,14 @@ import type { Metadata } from 'next';
 import { StartContent } from '@/components/StartContent';
 
 export const metadata: Metadata = {
-  title: 'Start Here | Blok Blok Studio',
+  title: "Let's grab coffee | Blok Blok Studio",
   description:
-    'See what Blok Blok Studio builds. Real projects, real results. Book a free strategy call today.',
+    "I'm Chase. I run Blok Blok Studio, a Berlin creative agency. Websites, ads, social media, and AI systems. First coffee's on me.",
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Start Here | Blok Blok Studio',
+    title: "Let's grab coffee | Blok Blok Studio",
     description:
-      'See what Blok Blok Studio builds. Real projects, real results. Book a free strategy call today.',
+      "I'm Chase. I run Blok Blok Studio, a Berlin creative agency. Websites, ads, social media, and AI systems. First coffee's on me.",
     url: 'https://blokblokstudio.com/start',
     siteName: 'Blok Blok Studio',
     type: 'website',
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Start Here | Blok Blok Studio',
+    title: "Let's grab coffee | Blok Blok Studio",
     description:
-      'See what Blok Blok Studio builds. Real projects, real results.',
+      "Berlin creative agency. Websites, ads, social, AI. First coffee's on me.",
     images: ['/og-image.jpg'],
   },
   alternates: { canonical: '/start' },
