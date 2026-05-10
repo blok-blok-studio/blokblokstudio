@@ -412,9 +412,9 @@ export function StartContent() {
                 viewport={{ once: true, margin: '-20px' }}
                 transition={{ ...spring, delay: i * 0.12 }}
                 variants={i % 2 === 0 ? slideRight : slideLeft}
-                className="rounded-xl sm:rounded-2xl overflow-hidden border border-white/[0.06]"
+                className="grid grid-cols-2 rounded-xl sm:rounded-2xl overflow-hidden border border-white/[0.06]"
               >
-                <div className="p-4 sm:p-5 bg-red-500/[0.06] border-b border-red-500/[0.1] flex items-start gap-3">
+                <div className="p-4 sm:p-5 bg-red-500/[0.06] border-r border-red-500/[0.1] flex items-start gap-3">
                   <span className="text-red-400 text-base sm:text-lg mt-0.5 flex-shrink-0">{'\u{274C}'}</span>
                   <div>
                     <span className="text-[10px] uppercase tracking-wider text-red-400/60 block mb-1">Others</span>
