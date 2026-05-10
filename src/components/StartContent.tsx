@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -32,6 +33,8 @@ const slideLeft = {
 const spring = { type: 'spring' as const, stiffness: 70, damping: 13 };
 const springFast = { type: 'spring' as const, stiffness: 100, damping: 13 };
 
+// Project titles, descriptions, and category labels are kept untranslated:
+// they're proper nouns / brand context that read better in English everywhere.
 const projects = [
   {
     title: 'Coach Luki',
@@ -83,29 +86,7 @@ const projects = [
   },
 ];
 
-const services = [
-  {
-    emoji: '\u{1F310}',
-    name: 'Websites',
-    desc: 'Custom sites that look as good as your work actually is. Fast, mobile-first, and built to turn visitors into paying customers.',
-  },
-  {
-    emoji: '\u{1F4E3}',
-    name: 'Ads',
-    desc: 'Meta and Google ads aimed at the people already searching for what you do. No vanity metrics, just bookings and sales.',
-  },
-  {
-    emoji: '\u{1F4F1}',
-    name: 'Social media',
-    desc: 'Content and profiles that match the quality of your real-world work, so the first impression online stops hurting you.',
-  },
-  {
-    emoji: '\u{1F916}',
-    name: 'AI systems',
-    desc: 'Auto replies, lead capture, follow ups, bookings. Systems that handle the boring stuff so you can keep doing what you do best.',
-  },
-];
-
+// Testimonials are direct client quotes — left in their original English.
 const testimonials = [
   {
     quote: 'They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices.',
@@ -133,37 +114,53 @@ const testimonials = [
   },
 ];
 
-const process = [
-  { step: '01', title: 'Coffee', desc: 'We meet for 30 minutes. I learn your business, your goals, and what you are tired of dealing with online. First one is on me.', icon: '\u{2615}' },
-  { step: '02', title: 'Plan', desc: 'I send back a clear strategy and proposal. You see exactly what you are getting, what it costs, and when it ships before we start.', icon: '\u{1F4DC}' },
-  { step: '03', title: 'Build', desc: 'Design, development, ads, social, AI. Whatever you need. You stay in the loop the whole way and we iterate until it is right.', icon: '\u{1F6E0}️' },
-  { step: '04', title: 'Launch', desc: 'It goes live, polished and fast. Then I stick around to keep it growing instead of disappearing the day after launch.', icon: '\u{1F680}' },
+const audienceEmojis = [
+  '\u{1F4AA}',
+  '\u{1F37D}️',
+  '\u{1F6D2}',
+  '\u{1F3E2}',
+  '\u{2696}️',
+  '\u{1F3E5}',
+  '\u{1F3D7}️',
+  '\u{1F4BB}',
+  '\u{1F393}',
+  '\u{1F3B5}',
+  '\u{1F9D1}\u{200D}\u{1F4BC}',
+  '\u{2615}',
 ];
 
-const compare = [
-  { bad: 'A nice looking site that nobody can find on Google', good: 'SEO built in so the right customers actually find you' },
-  { bad: 'Chasing payments through DMs, emails, and invoices', good: 'Online booking and payments so clients pay on your site' },
-  { bad: '"We will figure out mobile later"', good: 'Mobile first, because that is where your customers are' },
-  { bad: 'A template that looks like every other business in your industry', good: 'Custom design that makes your brand stand out immediately' },
-  { bad: 'Launched and then abandoned by the agency', good: 'Ongoing support, because your business keeps growing' },
-];
+const audienceKeys = [
+  'audience_trainers',
+  'audience_restaurants',
+  'audience_ecommerce',
+  'audience_agencies',
+  'audience_law',
+  'audience_clinics',
+  'audience_construction',
+  'audience_saas',
+  'audience_education',
+  'audience_music',
+  'audience_freelancers',
+  'audience_other',
+] as const;
 
-const audience = [
-  { emoji: '\u{1F4AA}', label: 'Personal trainers' },
-  { emoji: '\u{1F37D}️', label: 'Restaurants & cafes' },
-  { emoji: '\u{1F6D2}', label: 'E-commerce stores' },
-  { emoji: '\u{1F3E2}', label: 'Agencies & studios' },
-  { emoji: '\u{2696}️', label: 'Law firms' },
-  { emoji: '\u{1F3E5}', label: 'Clinics & wellness' },
-  { emoji: '\u{1F3D7}️', label: 'Construction & trades' },
-  { emoji: '\u{1F4BB}', label: 'SaaS & tech' },
-  { emoji: '\u{1F393}', label: 'Education' },
-  { emoji: '\u{1F3B5}', label: 'Music & creatives' },
-  { emoji: '\u{1F9D1}\u{200D}\u{1F4BC}', label: 'Freelancers' },
-  { emoji: '\u{2615}', label: 'Anyone else' },
-];
+const serviceConfigs = [
+  { key: 'websites', emoji: '\u{1F310}' },
+  { key: 'ads', emoji: '\u{1F4E3}' },
+  { key: 'social', emoji: '\u{1F4F1}' },
+  { key: 'ai', emoji: '\u{1F916}' },
+] as const;
+
+const processConfigs = [
+  { num: '01', icon: '\u{2615}' },
+  { num: '02', icon: '\u{1F4DC}' },
+  { num: '03', icon: '\u{1F6E0}️' },
+  { num: '04', icon: '\u{1F680}' },
+] as const;
 
 export function StartContent() {
+  const t = useTranslations('start');
+
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
 
@@ -178,7 +175,7 @@ export function StartContent() {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-6 sm:mb-8">
               <span className="text-2xl">{'\u{2709}️'}</span>
               <span className="text-xs text-gray-400 tracking-wide">
-                You opened the letter
+                {t('hero_badge')}
               </span>
             </div>
           </motion.div>
@@ -191,7 +188,7 @@ export function StartContent() {
           >
             <Image
               src="/logo-hero.png"
-              alt="Blok Blok Studio, a Berlin creative agency"
+              alt="Blok Blok Studio"
               width={600}
               height={150}
               className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"
@@ -205,7 +202,7 @@ export function StartContent() {
             transition={{ ...springFast, delay: 0.5 }}
             className="text-2xl sm:text-3xl md:text-4xl font-light text-white tracking-tight mb-4 sm:mb-6"
           >
-            The next move is coffee.
+            {t('hero_title')}
           </motion.h1>
 
           <motion.p
@@ -214,7 +211,7 @@ export function StartContent() {
             transition={{ ...springFast, delay: 0.6 }}
             className="text-base sm:text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8 sm:mb-12 leading-relaxed"
           >
-            Pick a time below. First one is on me. No pitch, no pressure, just a real conversation about your business.
+            {t('hero_subtitle')}
           </motion.p>
 
           <motion.div
@@ -229,7 +226,7 @@ export function StartContent() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-medium text-sm sm:text-base hover:bg-gray-100 transition-colors"
             >
-              Book a coffee
+              {t('hero_cta_primary')}
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -238,7 +235,7 @@ export function StartContent() {
               href="#projects"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-white/20 text-white hover:bg-white/5 transition-colors text-sm sm:text-base"
             >
-              See recent work
+              {t('hero_cta_secondary')}
             </a>
           </motion.div>
         </div>
@@ -270,7 +267,7 @@ export function StartContent() {
             variants={fadeUp}
             className="text-2xl sm:text-3xl md:text-4xl font-light leading-relaxed text-white"
           >
-            Most great Berlin businesses do better work than they get credit for online.
+            {t('hook_line1')}
           </motion.p>
           <motion.p
             initial="hidden"
@@ -280,7 +277,7 @@ export function StartContent() {
             variants={fadeUp}
             className="text-lg sm:text-xl text-gray-400 mt-6 leading-relaxed"
           >
-            That is where I come in. I fix the online presence and put you in front of the right customers.
+            {t('hook_line2')}
           </motion.p>
         </div>
       </section>
@@ -295,12 +292,12 @@ export function StartContent() {
             transition={spring}
             variants={popIn}
           >
-            <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">The pitch</p>
+            <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">{t('pitch_label')}</p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-              I&apos;m Chase. I run Blok Blok Studio.
+              {t('pitch_title')}
             </h2>
             <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
-              A Berlin creative agency. I build websites, run ads, manage social media, and set up AI systems for businesses that are good at what they do and tired of being a secret.
+              {t('pitch_body')}
             </p>
           </motion.div>
         </div>
@@ -318,17 +315,17 @@ export function StartContent() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              What I actually do
+              {t('services_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Four things, done well, that work together.
+              {t('services_subtitle')}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-            {services.map((item, i) => (
+            {serviceConfigs.map((s, i) => (
               <motion.div
-                key={item.name}
+                key={s.key}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
@@ -337,9 +334,9 @@ export function StartContent() {
                 whileHover={{ y: -6 }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors"
               >
-                <span className="text-3xl sm:text-4xl mb-4 block">{item.emoji}</span>
-                <h3 className="text-lg sm:text-xl font-semibold mb-2">{item.name}</h3>
-                <p className="text-sm sm:text-base text-gray-400 leading-relaxed">{item.desc}</p>
+                <span className="text-3xl sm:text-4xl mb-4 block">{s.emoji}</span>
+                <h3 className="text-lg sm:text-xl font-semibold mb-2">{t(`service_${s.key}_name`)}</h3>
+                <p className="text-sm sm:text-base text-gray-400 leading-relaxed">{t(`service_${s.key}_desc`)}</p>
               </motion.div>
             ))}
           </div>
@@ -358,16 +355,16 @@ export function StartContent() {
             className="text-center mb-10 sm:mb-14"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              Who I work with
+              {t('audience_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Berlin businesses that are good at what they do and tired of being a secret.
+              {t('audience_subtitle')}
             </p>
           </motion.div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
-            {audience.map((item, i) => (
+            {audienceKeys.map((k, i) => (
               <motion.div
-                key={item.label}
+                key={k}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
@@ -376,8 +373,8 @@ export function StartContent() {
                 whileHover={{ y: -4 }}
                 className="rounded-xl sm:rounded-2xl p-4 bg-white/[0.03] border border-white/[0.06] text-center cursor-default hover:border-white/[0.15] transition-colors"
               >
-                <span className="text-2xl sm:text-3xl block mb-2">{item.emoji}</span>
-                <span className="text-xs sm:text-sm text-gray-400">{item.label}</span>
+                <span className="text-2xl sm:text-3xl block mb-2">{audienceEmojis[i]}</span>
+                <span className="text-xs sm:text-sm text-gray-400">{t(k)}</span>
               </motion.div>
             ))}
           </div>
@@ -396,17 +393,17 @@ export function StartContent() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              What you usually get vs. what I do
+              {t('compare_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Most agencies hand over a website and disappear. I don&apos;t.
+              {t('compare_subtitle')}
             </p>
           </motion.div>
 
           <div className="space-y-3 sm:space-y-4">
-            {compare.map((row, i) => (
+            {[1, 2, 3, 4, 5].map((n, i) => (
               <motion.div
-                key={i}
+                key={n}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-20px' }}
@@ -417,15 +414,15 @@ export function StartContent() {
                 <div className="p-4 sm:p-5 bg-red-500/[0.06] border-b sm:border-b-0 sm:border-r border-red-500/[0.1] flex items-start gap-3">
                   <span className="text-red-400 text-base sm:text-lg mt-0.5 flex-shrink-0">{'\u{274C}'}</span>
                   <div>
-                    <span className="text-[10px] uppercase tracking-wider text-red-400/60 block mb-1">Others</span>
-                    <span className="text-sm sm:text-base text-gray-400">{row.bad}</span>
+                    <span className="text-[10px] uppercase tracking-wider text-red-400/60 block mb-1">{t('compare_label_others')}</span>
+                    <span className="text-sm sm:text-base text-gray-400">{t(`compare_${n}_bad`)}</span>
                   </div>
                 </div>
                 <div className="p-4 sm:p-5 bg-green-500/[0.06] flex items-start gap-3">
                   <span className="text-green-400 text-base sm:text-lg mt-0.5 flex-shrink-0">{'\u{2705}'}</span>
                   <div>
-                    <span className="text-[10px] uppercase tracking-wider text-green-400/60 block mb-1">Me</span>
-                    <span className="text-sm sm:text-base text-white">{row.good}</span>
+                    <span className="text-[10px] uppercase tracking-wider text-green-400/60 block mb-1">{t('compare_label_me')}</span>
+                    <span className="text-sm sm:text-base text-white">{t(`compare_${n}_good`)}</span>
                   </div>
                 </div>
               </motion.div>
@@ -446,17 +443,17 @@ export function StartContent() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              How it works
+              {t('process_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Four steps from coffee to launch. No mystery.
+              {t('process_subtitle')}
             </p>
           </motion.div>
 
           <div className="space-y-4 sm:space-y-6">
-            {process.map((step, i) => (
+            {processConfigs.map((p, i) => (
               <motion.div
-                key={step.step}
+                key={p.num}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
@@ -465,13 +462,13 @@ export function StartContent() {
                 whileHover={{ x: 6 }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors flex items-start gap-5 sm:gap-6"
               >
-                <span className="text-3xl sm:text-4xl flex-shrink-0">{step.icon}</span>
+                <span className="text-3xl sm:text-4xl flex-shrink-0">{p.icon}</span>
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-xs text-gray-600 font-mono">{step.step}</span>
-                    <h3 className="text-lg sm:text-xl font-semibold">{step.title}</h3>
+                    <span className="text-xs text-gray-600 font-mono">{p.num}</span>
+                    <h3 className="text-lg sm:text-xl font-semibold">{t(`process_${i + 1}_title`)}</h3>
                   </div>
-                  <p className="text-sm sm:text-base text-gray-400 leading-relaxed">{step.desc}</p>
+                  <p className="text-sm sm:text-base text-gray-400 leading-relaxed">{t(`process_${i + 1}_desc`)}</p>
                 </div>
               </motion.div>
             ))}
@@ -491,10 +488,10 @@ export function StartContent() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              Recent work
+              {t('projects_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Real projects, real clients, real results.
+              {t('projects_subtitle')}
             </p>
           </motion.div>
 
@@ -556,17 +553,17 @@ export function StartContent() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              In their words
+              {t('testimonials_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              What clients say after working with me.
+              {t('testimonials_subtitle')}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-            {testimonials.map((t, i) => (
+            {testimonials.map((tst, i) => (
               <motion.div
-                key={t.name}
+                key={tst.name}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
@@ -576,18 +573,18 @@ export function StartContent() {
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.15] transition-colors"
               >
                 <p className="text-base sm:text-lg text-white leading-relaxed mb-6">
-                  &ldquo;{t.quote}&rdquo;
+                  &ldquo;{tst.quote}&rdquo;
                 </p>
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm font-medium text-white">{t.name}</p>
-                    <p className="text-xs text-gray-500">{t.role}</p>
+                    <p className="text-sm font-medium text-white">{tst.name}</p>
+                    <p className="text-xs text-gray-500">{tst.role}</p>
                   </div>
                   <Link
-                    href={`/projects/${t.project}`}
+                    href={`/projects/${tst.project}`}
                     className="text-xs text-gray-500 hover:text-white transition-colors"
                   >
-                    View project &rarr;
+                    {t('testimonial_view_project')} &rarr;
                   </Link>
                 </div>
               </motion.div>
@@ -608,10 +605,10 @@ export function StartContent() {
         >
           <p className="text-5xl sm:text-6xl mb-6">{'\u{2615}'}</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight">
-            Now that you&apos;ve opened the letter, the next move is coffee.
+            {t('cta_title')}
           </h2>
           <p className="text-gray-400 text-base sm:text-lg mb-8 sm:mb-10">
-            Pick a time. First one is on me.
+            {t('cta_subtitle')}
           </p>
           <motion.a
             href="https://calendar.app.google/EVCd5JtNnChBdqXn6"
@@ -619,7 +616,7 @@ export function StartContent() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-base"
           >
-            Book a coffee
+            {t('cta_button')}
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
@@ -627,7 +624,7 @@ export function StartContent() {
 
           <div className="mt-14 sm:mt-16 pt-10 border-t border-white/[0.06]">
             <p className="text-sm text-gray-300">Chase Haynes</p>
-            <p className="text-xs text-gray-500 mt-1">Founder, Blok Blok Studio</p>
+            <p className="text-xs text-gray-500 mt-1">{t('cta_signoff_role')}</p>
           </div>
         </motion.div>
       </section>
@@ -638,7 +635,7 @@ export function StartContent() {
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-[#25D366]/30 hover:scale-110 transition-transform"
-        aria-label="Chat on WhatsApp"
+        aria-label={t('whatsapp_aria')}
       >
         <svg viewBox="0 0 24 24" fill="white" className="w-7 h-7">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
