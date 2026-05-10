@@ -8,8 +8,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const description = t('meta_description');
   const twitterDescription = t('meta_twitter_description');
 
+  // `absolute` opts out of the root layout's "%s | Blok Blok Studio"
+  // template, since our translated meta_title strings already include the
+  // brand suffix (otherwise we'd render "X | Blok Blok Studio | Blok Blok Studio").
   return {
-    title,
+    title: { absolute: title },
     description,
     robots: { index: true, follow: true },
     openGraph: {
