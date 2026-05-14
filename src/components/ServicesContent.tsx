@@ -254,10 +254,10 @@ export function ServicesContent({ faqs }: { faqs?: { question: string; answer: s
           <>
             <AnimatedSection className="text-center mb-10 sm:mb-16">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
-                Frequently Asked Questions
+                {t('faq_title')}
               </h2>
               <p className="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto">
-                Everything you need to know about working with us
+                {t('faq_subtitle')}
               </p>
             </AnimatedSection>
 
@@ -278,7 +278,7 @@ export function ServicesContent({ faqs }: { faqs?: { question: string; answer: s
               href="/contact"
               className="inline-flex items-center gap-2 sm:gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-full bg-white text-black font-medium text-base sm:text-lg hover:bg-gray-100 transition-colors"
             >
-              Start Your Project
+              {t('cta_button')}
               <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>

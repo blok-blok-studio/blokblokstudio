@@ -79,9 +79,8 @@ export function Footer() {
     { href: '/projects', label: nav('projects') },
     { href: '/about', label: nav('about') },
     { href: '/services', label: nav('services') },
-    { href: '/blog', label: 'Blog' },
+    { href: '/blog', label: nav('blog') },
     { href: '/faq', label: nav('faq') },
-    { href: '/team', label: nav('team') },
     { href: '/contact', label: nav('contact') },
   ];
 

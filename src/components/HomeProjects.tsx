@@ -7,50 +7,16 @@ import { AnimatedSection } from './AnimatedSection';
 import { motion } from 'framer-motion';
 
 const featuredProjects = [
-  {
-    title: 'Coach Luki',
-    category: 'Web Design',
-    year: '2025',
-    slug: 'coach-luki',
-    image: '/images/projects/coachluki.jpg',
-    url: 'https://coachluki.com',
-  },
-  {
-    title: 'Coach Kofi',
-    category: 'Web Design',
-    year: '2025',
-    slug: 'coach-kofi',
-    image: '/images/projects/coachkofi.webp',
-    url: 'https://coachkofi.de',
-  },
-  {
-    title: 'Nanny & Nest',
-    category: 'Web Design',
-    year: '2025',
-    slug: 'nanny-and-nest',
-    image: '/images/projects/nannyandnest.webp',
-    url: 'https://www.nannyandnest.com',
-  },
-  {
-    title: 'Exotic Ripz',
-    category: 'E-Commerce',
-    year: '2025',
-    slug: 'exotic-ripz',
-    image: '/images/projects/exoticripz.jpg',
-    url: 'https://exoticripz.com',
-  },
-  {
-    title: 'KDS Systems',
-    category: 'Web Design',
-    year: '2025',
-    slug: 'kds-systems',
-    image: '/images/projects/kdssys.webp',
-    url: 'https://kdssys.com',
-  },
+  { slug: 'coach-luki', year: '2025', image: '/images/projects/coachluki.jpg', url: 'https://coachluki.com' },
+  { slug: 'coach-kofi', year: '2025', image: '/images/projects/coachkofi.webp', url: 'https://coachkofi.de' },
+  { slug: 'nanny-and-nest', year: '2025', image: '/images/projects/nannyandnest.webp', url: 'https://www.nannyandnest.com' },
+  { slug: 'exotic-ripz', year: '2025', image: '/images/projects/exoticripz.jpg', url: 'https://exoticripz.com' },
+  { slug: 'kds-systems', year: '2025', image: '/images/projects/kdssys.webp', url: 'https://kdssys.com' },
 ];
 
 export function HomeProjects() {
   const t = useTranslations('home');
+  const projT = useTranslations('projects_data');
 
   return (
     <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8">
@@ -90,7 +56,7 @@ export function HomeProjects() {
               <div className="aspect-[16/9] relative bg-gray-900">
                 <Image
                   src={featuredProjects[0].image}
-                  alt={featuredProjects[0].title}
+                  alt={projT(`${featuredProjects[0].slug}.title` as 'placeholder')}
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 768px) 100vw, 1280px"
@@ -102,10 +68,10 @@ export function HomeProjects() {
                 <div className="flex items-end justify-between">
                   <div>
                     <p className="text-xs sm:text-sm text-gray-300 mb-1">
-                      {featuredProjects[0].category} · {featuredProjects[0].year}
+                      {projT(`${featuredProjects[0].slug}.category` as 'placeholder')} · {featuredProjects[0].year}
                     </p>
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-bold">
-                      {featuredProjects[0].title}
+                      {projT(`${featuredProjects[0].slug}.title` as 'placeholder')}
                     </h3>
                     <p className="text-xs sm:text-sm text-gray-400 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
                       {featuredProjects[0].url}
@@ -127,7 +93,10 @@ export function HomeProjects() {
 
         {/* 2x2 grid of remaining projects */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-          {featuredProjects.slice(1).map((project, i) => (
+          {featuredProjects.slice(1).map((project, i) => {
+            const title = projT(`${project.slug}.title` as 'placeholder');
+            const category = projT(`${project.slug}.category` as 'placeholder');
+            return (
             <AnimatedSection key={project.slug} delay={i * 0.1}>
               <Link href={`/projects/${project.slug}`}>
                 <motion.div
@@ -136,7 +105,7 @@ export function HomeProjects() {
                   <div className="aspect-[4/3] relative bg-gray-900">
                     <Image
                       src={project.image}
-                      alt={project.title}
+                      alt={title}
                       fill
                       className="object-cover object-top"
                       sizes="(max-width: 640px) 100vw, 640px"
@@ -147,10 +116,10 @@ export function HomeProjects() {
                     <div className="flex items-end justify-between">
                       <div>
                         <p className="text-xs text-gray-300 mb-1">
-                          {project.category} · {project.year}
+                          {category} · {project.year}
                         </p>
                         <h3 className="text-lg sm:text-xl font-semibold">
-                          {project.title}
+                          {title}
                         </h3>
                       </div>
                       <motion.div
@@ -166,7 +135,7 @@ export function HomeProjects() {
                 </motion.div>
               </Link>
             </AnimatedSection>
-          ))}
+          );})}
         </div>
       </div>
     </section>

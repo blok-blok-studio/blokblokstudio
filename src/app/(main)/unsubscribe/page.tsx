@@ -1,11 +1,15 @@
 import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import { UnsubscribeContent } from '@/components/UnsubscribeContent';
 
-export const metadata: Metadata = {
-  title: 'Unsubscribe | Blok Blok Studio',
-  description: 'Unsubscribe from our emails',
-  robots: { index: false, follow: false },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations('unsubscribe');
+  return {
+    title: `${t('meta_title')} | Blok Blok Studio`,
+    description: t('meta_description'),
+    robots: { index: false, follow: false },
+  };
+}
 
 export default function UnsubscribePage() {
   return (

@@ -287,9 +287,9 @@ export function ContactContent() {
                     className="mt-1 h-4 w-4 rounded border-white/20 bg-white/5 text-white accent-white cursor-pointer"
                   />
                   <label htmlFor="consent" className="text-sm text-gray-400 leading-relaxed cursor-pointer">
-                    I agree to the processing of my personal data as described in the{' '}
+                    {t('consent_text')}{' '}
                     <a href="/privacy" target="_blank" className="text-white hover:text-white/80 underline transition-colors">
-                      Privacy Policy
+                      {t('privacy_policy_link')}
                     </a>.
                   </label>
                 </div>
@@ -307,7 +307,7 @@ export function ContactContent() {
                   whileTap={{ scale: 0.98 }}
                   className="w-full sm:w-auto px-10 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {submitting ? 'Sending...' : t('submit')}
+                  {submitting ? t('submitting') : t('submit')}
                 </motion.button>
               </form>
             )}
@@ -362,7 +362,7 @@ export function ContactContent() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500 mb-1">Location</p>
+                    <p className="text-sm text-gray-500 mb-1">{t('info_location_label')}</p>
                     <p className="text-sm">{t('info_address')}</p>
                   </div>
                 </div>

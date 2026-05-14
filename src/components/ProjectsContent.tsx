@@ -96,13 +96,13 @@ import Link from 'next/link';
  * ---------------------------------------------------------------------------
  */
 const allProjects = [
-  { id: 1, title: 'Coach Luki', category: 'web', year: '2025', desc: 'Conversion-focused personal training website for Berlin\'s leading vegan personal trainer.', slug: 'coach-luki', image: '/images/projects/coachluki.jpg' },
-  { id: 2, title: 'Coach Kofi', category: 'web', year: '2025', desc: 'High-performance personal brand and coaching platform with bold visual identity.', slug: 'coach-kofi', image: '/images/projects/coachkofi.webp' },
-  { id: 3, title: 'Nanny & Nest', category: 'web', year: '2025', desc: 'Warm, trust-focused membership platform for a premium childcare and home assistance agency.', slug: 'nanny-and-nest', image: '/images/projects/nannyandnest.webp' },
-  { id: 4, title: 'Exotic Ripz', category: 'web', year: '2025', desc: 'Vibrant e-commerce platform for a collectible trading card community brand.', slug: 'exotic-ripz', image: '/images/projects/exoticripz.jpg' },
-  { id: 5, title: 'KDS Systems', category: 'web', year: '2025', desc: 'Modern cloud solutions platform for a managed IT and cloud computing services provider.', slug: 'kds-systems', image: '/images/projects/kdssys.webp' },
-  { id: 6, title: 'Public Affair', category: 'brand', year: '2024', desc: 'Sophisticated brand identity and web experience for a premium lifestyle brand.', slug: 'public-affair', image: '/images/projects/public-affair.webp' },
-  { id: 7, title: 'The New School', category: 'web', year: '2024', desc: 'Institutional web presence for The New School\'s Center for Military-Affiliated Students.', slug: 'military-newschool', image: '/images/projects/military-newschool.webp' },
+  { id: 1, slug: 'coach-luki', filterKey: 'web', year: '2025', image: '/images/projects/coachluki.jpg' },
+  { id: 2, slug: 'coach-kofi', filterKey: 'web', year: '2025', image: '/images/projects/coachkofi.webp' },
+  { id: 3, slug: 'nanny-and-nest', filterKey: 'web', year: '2025', image: '/images/projects/nannyandnest.webp' },
+  { id: 4, slug: 'exotic-ripz', filterKey: 'web', year: '2025', image: '/images/projects/exoticripz.jpg' },
+  { id: 5, slug: 'kds-systems', filterKey: 'web', year: '2025', image: '/images/projects/kdssys.webp' },
+  { id: 6, slug: 'public-affair', filterKey: 'brand', year: '2024', image: '/images/projects/public-affair.webp' },
+  { id: 7, slug: 'military-newschool', filterKey: 'web', year: '2024', image: '/images/projects/military-newschool.webp' },
 ];
 
 /**
@@ -120,6 +120,7 @@ export function ProjectsContent() {
    * (e.g., messages/en.json → "projects": { ... }).
    */
   const t = useTranslations('projects');
+  const projT = useTranslations('projects_data');
 
   /**
    * Active filter state, defaults to "all" (show every project).
@@ -150,7 +151,7 @@ export function ProjectsContent() {
   const filtered =
     activeFilter === 'all'
       ? allProjects
-      : allProjects.filter((p) => p.category === activeFilter);
+      : allProjects.filter((p) => p.filterKey === activeFilter);
 
   return (
     /**
@@ -219,33 +220,22 @@ export function ProjectsContent() {
         <div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
         >
-            {filtered.map((project) => (
+            {filtered.map((project) => {
+              const title = projT(`${project.slug}.title` as 'placeholder');
+              const desc = projT(`${project.slug}.desc` as 'placeholder');
+              const category = projT(`${project.slug}.category` as 'placeholder');
+              return (
               <div
                 key={project.id}
                 className="group cursor-pointer hover:-translate-y-2 transition-transform duration-300"
               >
                 <Link href={`/projects/${project.slug}`}>
                 <div className="rounded-2xl sm:rounded-3xl overflow-hidden bg-white/[0.03] border border-white/[0.06]">
-
-                  {/* ----------------------------------------------------
-                      Project Image / Placeholder
-                      ----------------------------------------------------
-                      Currently shows a gradient placeholder with a subtle
-                      grid pattern and a centered image icon.
-
-                      TO REPLACE WITH A REAL IMAGE:
-                        Remove this entire div and replace it with:
-                        <div className="aspect-[4/3] relative overflow-hidden">
-                          <Image src={project.image} alt={project.title} fill className="object-cover" />
-                        </div>
-                        Make sure to add an `image` field to each project
-                        in the allProjects array and import Image from next/image.
-                  */}
                   <div className="aspect-[4/3] relative overflow-hidden bg-gray-900">
                     {project.image ? (
                       <Image
                         src={project.image}
-                        alt={project.title}
+                        alt={title}
                         fill
                         className="object-cover object-top"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -258,40 +248,25 @@ export function ProjectsContent() {
                     )}
                   </div>
 
-                  {/* ----------------------------------------------------
-                      Project Card Text Content
-                      ----------------------------------------------------
-                      Shows category tag, year, title, and description.
-
-                      TO EDIT: Modify the corresponding project object in
-                      the allProjects array above.
-                  */}
                   <div className="p-4 sm:p-6">
-                    {/* Category + Year metadata row */}
                     <div className="flex items-center gap-3 mb-3">
-                      {/* Category label (uppercase) */}
                       <span className="text-xs text-gray-500 uppercase tracking-wider">
-                        {project.category}
+                        {category}
                       </span>
-                      {/* Small dot separator */}
                       <span className="w-1 h-1 rounded-full bg-gray-600" />
-                      {/* Year */}
                       <span className="text-xs text-gray-500">{project.year}</span>
                     </div>
-                    {/* Project title, h2 keeps a clean H1 → H2 outline under
-                        the page header. Don't skip levels. */}
                     <h2 className="text-lg font-semibold mb-2 group-hover:text-white transition-colors">
-                      {project.title}
+                      {title}
                     </h2>
-                    {/* Project description */}
                     <p className="text-sm text-gray-500 leading-relaxed">
-                      {project.desc}
+                      {desc}
                     </p>
                   </div>
                 </div>
                 </Link>
               </div>
-            ))}
+            );})}
         </div>
       </div>
     </section>

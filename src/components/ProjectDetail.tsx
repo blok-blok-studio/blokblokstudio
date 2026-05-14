@@ -35,6 +35,7 @@ import { AnimatedSection } from './AnimatedSection';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { projectsData } from '@/data/projects';
 
 /**
@@ -102,19 +103,30 @@ function ScaledLiveIframe({
  */
 export function ProjectDetail({ slug }: { slug: string }) {
   const project = projectsData[slug];
+  const t = useTranslations('project_detail');
+  const projT = useTranslations('projects_data');
 
   if (!project) {
     return (
       <section className="pt-32 pb-24 px-5 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl font-bold mb-4">Project Not Found</h1>
+        <h1 className="text-4xl font-bold mb-4">{t('not_found_title')}</h1>
         <Link href="/projects" className="text-gray-400 hover:text-white transition-colors">
-          &larr; Back to Projects
+          &larr; {t('back_to_projects')}
         </Link>
       </section>
     );
   }
 
   const nextProject = project.nextSlug ? projectsData[project.nextSlug] : null;
+  const title = projT(`${slug}.title` as 'placeholder');
+  const desc = projT(`${slug}.desc` as 'placeholder');
+  const category = projT(`${slug}.category` as 'placeholder');
+  const challenge = projT(`${slug}.challenge` as 'placeholder');
+  const solution = projT(`${slug}.solution` as 'placeholder');
+  const results = projT(`${slug}.results` as 'placeholder');
+  const nextTitle = nextProject && project.nextSlug
+    ? projT(`${project.nextSlug}.title` as 'placeholder')
+    : '';
 
   return (
     <div>
@@ -131,23 +143,23 @@ export function ProjectDetail({ slug }: { slug: string }) {
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17l-4-4m0 0l4-4m-4 4h18" />
               </svg>
-              Back to Projects
+              {t('back_to_projects')}
             </Link>
 
             <div className="flex items-center gap-3 mb-4 sm:mb-6">
               <span className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider">
-                {project.category}
+                {category}
               </span>
               <span className="w-1 h-1 rounded-full bg-gray-600" />
               <span className="text-xs sm:text-sm text-gray-500">{project.year}</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6">
-              {project.title}
+              {title}
             </h1>
 
             <p className="text-gray-400 text-base sm:text-lg md:text-xl max-w-3xl mb-6">
-              {project.desc}
+              {desc}
             </p>
             {project.url && (
               <a
@@ -156,7 +168,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-sm"
               >
-                Visit Live Site
+                {t('visit_live_site')}
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
@@ -180,7 +192,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
               {project.heroImage ? (
                 <Image
                   src={project.heroImage}
-                  alt={project.title}
+                  alt={title}
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 768px) 100vw, 1280px"
@@ -212,18 +224,16 @@ export function ProjectDetail({ slug }: { slug: string }) {
             <AnimatedSection>
               <div className="text-center mb-4 sm:mb-6">
                 <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider mb-2">
-                  Live Site
+                  {t('live_site')}
                 </p>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold">
                   <span className="hidden sm:inline">
-                    {project.embeddable ? 'Click and scroll the live site below' : 'Scroll through the live site below'}
+                    {project.embeddable ? t('preview_heading_embeddable') : t('preview_heading_screenshot')}
                   </span>
-                  <span className="sm:hidden">Take a look</span>
+                  <span className="sm:hidden">{t('take_a_look')}</span>
                 </h2>
                 <p className="hidden sm:block text-sm text-gray-500 mt-2">
-                  {project.embeddable
-                    ? "Click links and navigate just like you're on the real site, or open it in a new tab."
-                    : 'This is a full-page snapshot. Scroll inside the window, or open the live site in a new tab.'}
+                  {project.embeddable ? t('preview_subtext_embeddable') : t('preview_subtext_screenshot')}
                 </p>
               </div>
 
@@ -249,7 +259,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                       rel="noopener noreferrer"
                       className="text-xs text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"
                     >
-                      Open live
+                      {t('open_live')}
                       <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
@@ -258,14 +268,14 @@ export function ProjectDetail({ slug }: { slug: string }) {
                   {project.embeddable ? (
                     <ScaledLiveIframe
                       src={project.useProxy ? `/api/proxy/${slug}` : project.url}
-                      title={`${project.title} live site`}
+                      title={`${title} ${t('live_site')}`}
                     />
                   ) : (
                     <div className="h-[700px] overflow-y-auto bg-white scroll-smooth [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={`https://api.microlink.io/?url=${encodeURIComponent(project.url)}&screenshot=true&fullPage=true&meta=false&embed=screenshot.url&type=jpeg&waitUntil=networkidle0`}
-                        alt={`${project.title} live preview`}
+                        alt={title}
                         className="w-full block"
                         loading="lazy"
                         onError={(e) => {
@@ -290,7 +300,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                   <div className="relative aspect-[4/5] bg-gray-950">
                     <Image
                       src={project.mobileImage}
-                      alt={`${project.title} mobile preview`}
+                      alt={title}
                       fill
                       className="object-cover object-top"
                       sizes="100vw"
@@ -299,13 +309,13 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 )}
                 <div className="flex items-center justify-between px-5 py-4 bg-gray-950 border-t border-white/10">
                   <div className="min-w-0">
-                    <p className="text-[10px] text-gray-500 uppercase tracking-wider">Live site</p>
+                    <p className="text-[10px] text-gray-500 uppercase tracking-wider">{t('live_site')}</p>
                     <p className="text-sm text-white font-mono truncate">
                       {project.url.replace(/^https?:\/\//, '')}
                     </p>
                   </div>
                   <span className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-2 rounded-full bg-white text-black text-xs font-semibold">
-                    Open
+                    {t('open')}
                     <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
@@ -324,9 +334,9 @@ export function ProjectDetail({ slug }: { slug: string }) {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
             {[
-              { label: 'The Challenge', text: project.challenge },
-              { label: 'Our Solution', text: project.solution },
-              { label: 'The Results', text: project.results },
+              { label: t('challenge'), text: challenge },
+              { label: t('solution'), text: solution },
+              { label: t('results'), text: results },
             ].map((section, i) => (
               <AnimatedSection key={i} delay={i * 0.1}>
                 <div className="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full">
@@ -352,7 +362,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
       <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">
         <div className="max-w-7xl mx-auto">
           <AnimatedSection className="mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold">Project Gallery</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold">{t('gallery_title')}</h2>
           </AnimatedSection>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {project.gallery.filter(img => img !== null).map((img, i) => (
@@ -360,7 +370,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 <div className="aspect-[4/3] rounded-2xl sm:rounded-3xl relative overflow-hidden bg-gray-900">
                   <Image
                     src={img}
-                    alt={`${project.title} gallery ${i + 1}`}
+                    alt={`${title} ${i + 1}`}
                     fill
                     className="object-cover object-top"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -383,10 +393,10 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 <div className="glass-card rounded-2xl sm:rounded-3xl p-8 sm:p-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                   <div>
                     <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider mb-2">
-                      Next Project
+                      {t('next_project')}
                     </p>
                     <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold group-hover:text-white transition-colors">
-                      {nextProject.title}
+                      {nextTitle}
                     </h3>
                   </div>
                   <motion.div

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { getTranslations } from 'next-intl/server';
 import { getBlogPost, getAllBlogSlugs } from '@/data/blog';
 import { BlogPostContent } from '@/components/BlogPostContent';
 import { BreadcrumbSchema } from '@/app/structured-data';
@@ -16,14 +17,17 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getBlogPost(slug);
   if (!post) return { title: 'Post Not Found' };
+  const t = await getTranslations('blog');
+  const title = t(`posts.${post.slug}.title` as 'posts');
+  const description = t(`posts.${post.slug}.description` as 'posts');
 
   return {
-    title: post.title,
-    description: post.description,
+    title,
+    description,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
-      title: `${post.title} | Blok Blok Studio`,
-      description: post.description,
+      title: `${title} | Blok Blok Studio`,
+      description,
       url: `https://blokblokstudio.com/blog/${post.slug}`,
       type: 'article',
       publishedTime: post.date,
@@ -32,8 +36,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.title,
-      description: post.description,
+      title,
+      description,
       images: [post.image],
     },
   };
@@ -48,11 +52,14 @@ export default async function BlogPostPage({
   const post = getBlogPost(slug);
   if (!post) notFound();
 
+  const t = await getTranslations('blog');
+  const title = t(`posts.${post.slug}.title` as 'posts');
+  const description = t(`posts.${post.slug}.description` as 'posts');
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: post.title,
-    description: post.description,
+    headline: title,
+    description,
     image: `https://blokblokstudio.com${post.image}`,
     datePublished: post.date,
     author: {
@@ -73,7 +80,7 @@ export default async function BlogPostPage({
         items={[
           { name: 'Home', url: '/' },
           { name: 'Blog', url: '/blog' },
-          { name: post.title, url: `/blog/${post.slug}` },
+          { name: title, url: `/blog/${post.slug}` },
         ]}
       />
       <script

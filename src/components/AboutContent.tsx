@@ -216,29 +216,29 @@ export function AboutContent() {
                 {/* Design card */}
                 <div className="absolute top-[15%] left-[8%] sm:left-[12%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform -rotate-6 hover:rotate-0 transition-transform duration-500">
                   <span className="text-2xl sm:text-3xl mr-2">🎨</span>
-                  <span className="text-xs sm:text-sm font-medium text-white/60">Design</span>
+                  <span className="text-xs sm:text-sm font-medium text-white/60">{t('discipline_design')}</span>
                 </div>
                 {/* Development card */}
                 <div className="absolute top-[20%] right-[5%] sm:right-[10%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform rotate-3 hover:rotate-0 transition-transform duration-500">
                   <span className="text-2xl sm:text-3xl mr-2">⚡</span>
-                  <span className="text-xs sm:text-sm font-medium text-white/60">Development</span>
+                  <span className="text-xs sm:text-sm font-medium text-white/60">{t('discipline_development')}</span>
                 </div>
                 {/* Strategy card */}
                 <div className="absolute bottom-[18%] left-[12%] sm:left-[18%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform rotate-3 hover:rotate-0 transition-transform duration-500">
                   <span className="text-2xl sm:text-3xl mr-2">📈</span>
-                  <span className="text-xs sm:text-sm font-medium text-white/60">Strategy</span>
+                  <span className="text-xs sm:text-sm font-medium text-white/60">{t('discipline_strategy')}</span>
                 </div>
                 {/* Branding card */}
                 <div className="absolute bottom-[22%] right-[8%] sm:right-[15%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform -rotate-3 hover:rotate-0 transition-transform duration-500">
                   <span className="text-2xl sm:text-3xl mr-2">✨</span>
-                  <span className="text-xs sm:text-sm font-medium text-white/60">Branding</span>
+                  <span className="text-xs sm:text-sm font-medium text-white/60">{t('discipline_branding')}</span>
                 </div>
 
                 {/* Center tagline */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center px-4">
                     <p className="text-lg sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-orange-400 via-white to-purple-400 bg-clip-text text-transparent">
-                      We build brands that stand out
+                      {t('hero_tagline')}
                     </p>
                   </div>
                 </div>
