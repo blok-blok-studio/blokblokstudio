@@ -1,10 +1,9 @@
 'use client';
 
-import { motion, useInView } from 'framer-motion';
+import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRef, useState, useEffect } from 'react';
-import { FlyingCookies } from './FlyingCookies';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 60 },
@@ -33,34 +32,9 @@ const slideLeft = {
 
 const spring = { type: 'spring' as const, stiffness: 70, damping: 13 };
 const springFast = { type: 'spring' as const, stiffness: 100, damping: 13 };
-const springDelay = (i: number) => ({ ...spring, delay: i * 0.08 });
 
-function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
-  const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true });
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    if (!isInView) return;
-    let start = 0;
-    const duration = 2000;
-    const step = target / (duration / 16);
-    const timer = setInterval(() => {
-      start += step;
-      if (start >= target) {
-        setCount(target);
-        clearInterval(timer);
-      } else {
-        setCount(Math.floor(start));
-      }
-    }, 16);
-    return () => clearInterval(timer);
-  }, [isInView, target]);
-
-  return <span ref={ref}>{count}{suffix}</span>;
-}
-
-
+// Project titles, descriptions, and category labels are kept untranslated:
+// they're proper nouns / brand context that read better in English everywhere.
 const projects = [
   {
     title: 'Coach Luki',
@@ -112,15 +86,7 @@ const projects = [
   },
 ];
 
-const ingredients = [
-  { emoji: '\u{1F3A8}', name: 'Design', desc: 'Whether you run a gym, a restaurant, or a SaaS company, your site should look like you actually care about your brand.' },
-  { emoji: '\u{2699}\uFE0F', name: 'Development', desc: 'Fast, clean code that works on every device and ranks on Google. No matter what industry you are in.' },
-  { emoji: '\u{1F4B3}', name: 'Payments', desc: 'Sell products, book appointments, or take deposits. We set it up so money comes in without you lifting a finger.' },
-  { emoji: '\u{1F4C8}', name: 'SEO', desc: 'People are searching for what you do right now. We make sure they actually find you.' },
-  { emoji: '\u{1F916}', name: 'Automation', desc: 'Auto replies, lead capture, follow ups, booking confirmations. Systems that run your business while you sleep.' },
-  { emoji: '\u{1F4E3}', name: 'Conversion', desc: 'Traffic means nothing if nobody buys. Every page we build is designed to turn visitors into customers.' },
-];
-
+// Testimonials are direct client quotes — left in their original English.
 const testimonials = [
   {
     quote: 'They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices.',
@@ -148,29 +114,58 @@ const testimonials = [
   },
 ];
 
-const recipe = [
-  { step: '01', title: 'Mix the brief', desc: 'We hop on a 30 minute call and get to know your goals, your audience, and what success actually looks like for you.', icon: '\u{1F963}' },
-  { step: '02', title: 'Prep the dough', desc: 'We put together a strategy, wireframes, and a clear proposal so you know exactly what you\'re getting before we write a single line of code.', icon: '\u{1F4DC}' },
-  { step: '03', title: 'Bake it', desc: 'This is where design and development happen. We check in with you along the way and keep iterating until it\'s golden.', icon: '\u{1F525}' },
-  { step: '04', title: 'Serve it hot', desc: 'Launch day. Your site goes live, fast, polished, and ready to start converting from the very first visit.', icon: '\u{1F680}' },
+const audienceEmojis = [
+  '\u{1F4AA}',
+  '\u{1F37D}️',
+  '\u{1F6D2}',
+  '\u{1F3E2}',
+  '\u{2696}️',
+  '\u{1F3E5}',
+  '\u{1F3D7}️',
+  '\u{1F4BB}',
+  '\u{1F393}',
+  '\u{1F3B5}',
+  '\u{1F9D1}\u{200D}\u{1F4BC}',
+  '\u{2615}',
 ];
 
-const halfBaked = [
-  { bad: 'A nice looking site that nobody can find on Google', good: 'SEO baked in from day one so customers actually find you' },
-  { bad: 'Chasing payments through DMs, emails, and invoices', good: 'Online payments so clients book and pay right on your site' },
-  { bad: '"We\'ll figure out mobile later"', good: 'Mobile first, because that is where your customers are' },
-  { bad: 'A template that looks like every other business in your industry', good: 'Custom design that makes your brand stand out immediately' },
-  { bad: 'Launched and then abandoned by the agency', good: 'Ongoing support because your business keeps growing and your site should too' },
-];
+const audienceKeys = [
+  'audience_trainers',
+  'audience_restaurants',
+  'audience_ecommerce',
+  'audience_agencies',
+  'audience_law',
+  'audience_clinics',
+  'audience_construction',
+  'audience_saas',
+  'audience_education',
+  'audience_music',
+  'audience_freelancers',
+  'audience_other',
+] as const;
+
+const serviceConfigs = [
+  { key: 'websites', emoji: '\u{1F310}' },
+  { key: 'ads', emoji: '\u{1F4E3}' },
+  { key: 'social', emoji: '\u{1F4F1}' },
+  { key: 'ai', emoji: '\u{1F916}' },
+] as const;
+
+const processConfigs = [
+  { num: '01', icon: '\u{2615}' },
+  { num: '02', icon: '\u{1F4DC}' },
+  { num: '03', icon: '\u{1F6E0}️' },
+  { num: '04', icon: '\u{1F680}' },
+] as const;
 
 export function StartContent() {
+  const t = useTranslations('start');
+
   return (
-    <div className="min-h-screen bg-black text-white overflow-x-hidden" style={{ cursor: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='24' font-size='24'>%F0%9F%8D%AA</text></svg>\") 16 16, auto" }}>
-      
+    <div className="min-h-screen bg-black text-white overflow-x-hidden">
+
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center justify-center px-5 sm:px-6 lg:px-8 overflow-hidden">
-        <FlyingCookies />
-
         <div className="relative z-20 max-w-3xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -178,9 +173,9 @@ export function StartContent() {
             transition={{ ...springFast, delay: 0.2 }}
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-6 sm:mb-8">
-              <span className="text-2xl">{'\u{1F36A}'}</span>
+              <span className="text-2xl">{'\u{2709}️'}</span>
               <span className="text-xs text-gray-400 tracking-wide">
-                Fresh out the oven
+                {t('hero_badge')}
               </span>
             </div>
           </motion.div>
@@ -193,7 +188,7 @@ export function StartContent() {
           >
             <Image
               src="/logo-hero.png"
-              alt="Blok Blok Studio, custom websites, brands, and AI systems baked in Berlin"
+              alt="Blok Blok Studio"
               width={600}
               height={150}
               className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"
@@ -207,7 +202,7 @@ export function StartContent() {
             transition={{ ...springFast, delay: 0.5 }}
             className="text-2xl sm:text-3xl md:text-4xl font-light text-white tracking-tight mb-4 sm:mb-6"
           >
-            Custom Websites, Brands & AI Systems, Baked in Berlin
+            {t('hero_title')}
           </motion.h1>
 
           <motion.p
@@ -216,7 +211,7 @@ export function StartContent() {
             transition={{ ...springFast, delay: 0.6 }}
             className="text-base sm:text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8 sm:mb-12 leading-relaxed"
           >
-            Websites, brands, and systems for coaches, shops, agencies, restaurants, and anyone who is tired of looking basic online. All baked from scratch.
+            {t('hero_subtitle')}
           </motion.p>
 
           <motion.div
@@ -231,7 +226,7 @@ export function StartContent() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-medium text-sm sm:text-base hover:bg-gray-100 transition-colors"
             >
-              Get a taste, book a free call
+              {t('hero_cta_primary')}
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -240,7 +235,7 @@ export function StartContent() {
               href="#projects"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-white/20 text-white hover:bg-white/5 transition-colors text-sm sm:text-base"
             >
-              See what we&apos;ve cooked
+              {t('hero_cta_secondary')}
             </a>
           </motion.div>
         </div>
@@ -261,33 +256,94 @@ export function StartContent() {
         </motion.div>
       </section>
 
-      {/* ── STATS BAR ── */}
-      <section className="py-12 sm:py-16 px-5 sm:px-6 lg:px-8 border-y border-white/[0.06]">
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          {[
-            { value: 7, suffix: '+', label: 'Projects baked' },
-            { value: 100, suffix: '%', label: 'Custom, zero templates' },
-            { value: 6, suffix: '+', label: 'Industries served' },
-            { value: 0, suffix: '', label: 'Half-baked launches', display: '0' },
-          ].map((stat) => (
-            <motion.div
-              key={stat.label}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              transition={spring}
-              variants={bounceUp}
-            >
-              <div className="text-3xl sm:text-4xl font-bold mb-1">
-                {stat.display !== undefined ? stat.display : <Counter target={stat.value} suffix={stat.suffix} />}
-              </div>
-              <div className="text-xs sm:text-sm text-gray-500">{stat.label}</div>
-            </motion.div>
-          ))}
+      {/* ── HOOK ── */}
+      <section className="py-20 sm:py-32 px-5 sm:px-6 lg:px-8 border-t border-white/[0.06]">
+        <div className="max-w-3xl mx-auto text-center">
+          <motion.p
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: '-60px' }}
+            transition={spring}
+            variants={fadeUp}
+            className="text-2xl sm:text-3xl md:text-4xl font-light leading-relaxed text-white"
+          >
+            {t('hook_line1')}
+          </motion.p>
+          <motion.p
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: '-60px' }}
+            transition={{ ...spring, delay: 0.15 }}
+            variants={fadeUp}
+            className="text-lg sm:text-xl text-gray-400 mt-6 leading-relaxed"
+          >
+            {t('hook_line2')}
+          </motion.p>
         </div>
       </section>
 
-      {/* ── WHO THIS IS FOR ── */}
+      {/* ── PITCH ── */}
+      <section className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8 border-t border-white/[0.06]">
+        <div className="max-w-3xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: '-60px' }}
+            transition={spring}
+            variants={popIn}
+          >
+            <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">{t('pitch_label')}</p>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+              {t('pitch_title')}
+            </h2>
+            <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
+              {t('pitch_body')}
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ── SERVICES ── */}
+      <section className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: '-60px' }}
+            transition={spring}
+            variants={popIn}
+            className="text-center mb-12 sm:mb-16"
+          >
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              {t('services_title')}
+            </h2>
+            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
+              {t('services_subtitle')}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            {serviceConfigs.map((s, i) => (
+              <motion.div
+                key={s.key}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, margin: '-40px' }}
+                transition={{ ...spring, delay: i * 0.1 }}
+                variants={bounceUp}
+                whileHover={{ y: -6 }}
+                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors"
+              >
+                <span className="text-3xl sm:text-4xl mb-4 block">{s.emoji}</span>
+                <h3 className="text-lg sm:text-xl font-semibold mb-2">{t(`service_${s.key}_name`)}</h3>
+                <p className="text-sm sm:text-base text-gray-400 leading-relaxed">{t(`service_${s.key}_desc`)}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── WHO IT'S FOR ── */}
       <section className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <motion.div
@@ -299,29 +355,16 @@ export function StartContent() {
             className="text-center mb-10 sm:mb-14"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              We bake for everyone {'\u{1F468}\u{200D}\u{1F373}'}
+              {t('audience_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              If you have a business and you need it to look good and work even better online, we are your people.
+              {t('audience_subtitle')}
             </p>
           </motion.div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
-            {[
-              { emoji: '\u{1F4AA}', label: 'Personal trainers' },
-              { emoji: '\u{1F37D}\uFE0F', label: 'Restaurants & cafes' },
-              { emoji: '\u{1F6D2}', label: 'E-commerce stores' },
-              { emoji: '\u{1F3E2}', label: 'Agencies & studios' },
-              { emoji: '\u{2696}\uFE0F', label: 'Law firms' },
-              { emoji: '\u{1F3E5}', label: 'Clinics & wellness' },
-              { emoji: '\u{1F3D7}\uFE0F', label: 'Construction & trades' },
-              { emoji: '\u{1F4BB}', label: 'SaaS & tech' },
-              { emoji: '\u{1F393}', label: 'Education' },
-              { emoji: '\u{1F3B5}', label: 'Music & creatives' },
-              { emoji: '\u{1F9D1}\u{200D}\u{1F4BC}', label: 'Freelancers' },
-              { emoji: '\u{1F36A}', label: 'And literally anyone else' },
-            ].map((item, i) => (
+            {audienceKeys.map((k, i) => (
               <motion.div
-                key={item.label}
+                key={k}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
@@ -330,113 +373,15 @@ export function StartContent() {
                 whileHover={{ y: -4 }}
                 className="rounded-xl sm:rounded-2xl p-4 bg-white/[0.03] border border-white/[0.06] text-center cursor-default hover:border-white/[0.15] transition-colors"
               >
-                <motion.span
-                  className="text-2xl sm:text-3xl block mb-2"
-                >{item.emoji}</motion.span>
-                <span className="text-xs sm:text-sm text-gray-400">{item.label}</span>
+                <span className="text-2xl sm:text-3xl block mb-2">{audienceEmojis[i]}</span>
+                <span className="text-xs sm:text-sm text-gray-400">{t(k)}</span>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ── TESTIMONIALS ── */}
-      <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8 relative">
-        <div className="max-w-5xl mx-auto">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: '-60px' }}
-            transition={spring}
-            variants={popIn}
-            className="text-center mb-12 sm:mb-16"
-          >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              Don&apos;t take our word for it {'\u{1F36A}'}
-            </h2>
-            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Here is what our clients have to say after working with us.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-            {testimonials.map((t, i) => (
-              <motion.div
-                key={t.name}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: '-40px' }}
-                transition={{ ...spring, delay: i * 0.1 }}
-                variants={bounceUp}
-                whileHover={{ y: -6 }}
-                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.15] transition-colors"
-              >
-                <p className="text-base sm:text-lg text-white leading-relaxed mb-6">
-                  &ldquo;{t.quote}&rdquo;
-                </p>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-sm font-medium text-white">{t.name}</p>
-                    <p className="text-xs text-gray-500">{t.role}</p>
-                  </div>
-                  <Link
-                    href={`/projects/${t.project}`}
-                    className="text-xs text-gray-500 hover:text-white transition-colors"
-                  >
-                    View project &rarr;
-                  </Link>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── INGREDIENTS ── */}
-      <section className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: '-60px' }}
-            transition={spring}
-            variants={popIn}
-            className="text-center mb-12 sm:mb-16"
-          >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              The ingredients {'\u{1F9C1}'}
-            </h2>
-            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Every project gets the full recipe. Nothing missing, no shortcuts.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {ingredients.map((item, i) => (
-              <motion.div
-                key={item.name}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: '-40px' }}
-                transition={{ ...spring, delay: i * 0.1 }}
-                variants={bounceUp}
-                whileHover={{ y: -6 }}
-                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors"
-              >
-                <motion.span
-                  className="text-3xl sm:text-4xl mb-4 block"
-                >
-                  {item.emoji}
-                </motion.span>
-                <h3 className="text-lg font-semibold mb-2">{item.name}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed">{item.desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── HALF-BAKED vs FULLY BAKED ── */}
+      {/* ── COMPARE ── */}
       <section className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <motion.div
@@ -448,36 +393,36 @@ export function StartContent() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              Half baked vs. fully baked
+              {t('compare_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Most agencies give you raw dough and call it done. We don&apos;t.
+              {t('compare_subtitle')}
             </p>
           </motion.div>
 
           <div className="space-y-3 sm:space-y-4">
-            {halfBaked.map((row, i) => (
+            {[1, 2, 3, 4, 5].map((n, i) => (
               <motion.div
-                key={i}
+                key={n}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-20px' }}
                 transition={{ ...spring, delay: i * 0.12 }}
                 variants={i % 2 === 0 ? slideRight : slideLeft}
-                className="rounded-xl sm:rounded-2xl overflow-hidden border border-white/[0.06]"
+                className="grid grid-cols-1 sm:grid-cols-2 rounded-xl sm:rounded-2xl overflow-hidden border border-white/[0.06]"
               >
-                <div className="p-4 sm:p-5 bg-red-500/[0.06] border-b border-red-500/[0.1] flex items-start gap-3">
+                <div className="p-4 sm:p-5 bg-red-500/[0.06] border-b sm:border-b-0 sm:border-r border-red-500/[0.1] flex items-start gap-3">
                   <span className="text-red-400 text-base sm:text-lg mt-0.5 flex-shrink-0">{'\u{274C}'}</span>
                   <div>
-                    <span className="text-[10px] uppercase tracking-wider text-red-400/60 block mb-1">Others</span>
-                    <span className="text-sm sm:text-base text-gray-400">{row.bad}</span>
+                    <span className="text-[10px] uppercase tracking-wider text-red-400/60 block mb-1">{t('compare_label_others')}</span>
+                    <span className="text-sm sm:text-base text-gray-400">{t(`compare_${n}_bad`)}</span>
                   </div>
                 </div>
                 <div className="p-4 sm:p-5 bg-green-500/[0.06] flex items-start gap-3">
-                  <span className="text-green-400 text-base sm:text-lg mt-0.5 flex-shrink-0">{'\u{1F36A}'}</span>
+                  <span className="text-green-400 text-base sm:text-lg mt-0.5 flex-shrink-0">{'\u{2705}'}</span>
                   <div>
-                    <span className="text-[10px] uppercase tracking-wider text-green-400/60 block mb-1">Blok Blok Studio</span>
-                    <span className="text-sm sm:text-base text-white">{row.good}</span>
+                    <span className="text-[10px] uppercase tracking-wider text-green-400/60 block mb-1">{t('compare_label_me')}</span>
+                    <span className="text-sm sm:text-base text-white">{t(`compare_${n}_good`)}</span>
                   </div>
                 </div>
               </motion.div>
@@ -486,7 +431,7 @@ export function StartContent() {
         </div>
       </section>
 
-      {/* ── THE RECIPE (PROCESS) ── */}
+      {/* ── PROCESS ── */}
       <section className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <motion.div
@@ -498,17 +443,17 @@ export function StartContent() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              The recipe {'\u{1F4D6}'}
+              {t('process_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Four steps from idea to launch. No mystery and no surprises.
+              {t('process_subtitle')}
             </p>
           </motion.div>
 
           <div className="space-y-4 sm:space-y-6">
-            {recipe.map((step, i) => (
+            {processConfigs.map((p, i) => (
               <motion.div
-                key={step.step}
+                key={p.num}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-40px' }}
@@ -517,13 +462,13 @@ export function StartContent() {
                 whileHover={{ x: 6 }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-colors flex items-start gap-5 sm:gap-6"
               >
-                <span className="text-3xl sm:text-4xl flex-shrink-0">{step.icon}</span>
+                <span className="text-3xl sm:text-4xl flex-shrink-0">{p.icon}</span>
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-xs text-gray-600 font-mono">{step.step}</span>
-                    <h3 className="text-lg sm:text-xl font-semibold">{step.title}</h3>
+                    <span className="text-xs text-gray-600 font-mono">{p.num}</span>
+                    <h3 className="text-lg sm:text-xl font-semibold">{t(`process_${i + 1}_title`)}</h3>
                   </div>
-                  <p className="text-sm sm:text-base text-gray-400 leading-relaxed">{step.desc}</p>
+                  <p className="text-sm sm:text-base text-gray-400 leading-relaxed">{t(`process_${i + 1}_desc`)}</p>
                 </div>
               </motion.div>
             ))}
@@ -531,7 +476,7 @@ export function StartContent() {
         </div>
       </section>
 
-      {/* ── PROJECTS GRID ── */}
+      {/* ── PROJECTS ── */}
       <section id="projects" className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8 relative">
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -543,10 +488,10 @@ export function StartContent() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              Fresh from the kitchen {'\u{1F373}'}
+              {t('projects_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-              Real projects, real clients, real results. All baked from scratch.
+              {t('projects_subtitle')}
             </p>
           </motion.div>
 
@@ -596,8 +541,60 @@ export function StartContent() {
         </div>
       </section>
 
-      {/* ── FINAL CTA ── */}
-      <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8">
+      {/* ── TESTIMONIALS ── */}
+      <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8 relative">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: '-60px' }}
+            transition={spring}
+            variants={popIn}
+            className="text-center mb-12 sm:mb-16"
+          >
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              {t('testimonials_title')}
+            </h2>
+            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
+              {t('testimonials_subtitle')}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            {testimonials.map((tst, i) => (
+              <motion.div
+                key={tst.name}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, margin: '-40px' }}
+                transition={{ ...spring, delay: i * 0.1 }}
+                variants={bounceUp}
+                whileHover={{ y: -6 }}
+                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.15] transition-colors"
+              >
+                <p className="text-base sm:text-lg text-white leading-relaxed mb-6">
+                  &ldquo;{tst.quote}&rdquo;
+                </p>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-sm font-medium text-white">{tst.name}</p>
+                    <p className="text-xs text-gray-500">{tst.role}</p>
+                  </div>
+                  <Link
+                    href={`/projects/${tst.project}`}
+                    className="text-xs text-gray-500 hover:text-white transition-colors"
+                  >
+                    {t('testimonial_view_project')} &rarr;
+                  </Link>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FINAL CTA + SIGN-OFF ── */}
+      <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8 border-t border-white/[0.06]">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -606,12 +603,12 @@ export function StartContent() {
           variants={popIn}
           className="max-w-2xl mx-auto text-center"
         >
-          <p className="text-5xl sm:text-6xl mb-6">{'\u{1F36A}'}</p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Ready to cook something up?
+          <p className="text-5xl sm:text-6xl mb-6">{'\u{2615}'}</p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight">
+            {t('cta_title')}
           </h2>
           <p className="text-gray-400 text-base sm:text-lg mb-8 sm:mb-10">
-            Free 30 minute strategy call. No pitch, no pressure, just a real conversation about what your business needs.
+            {t('cta_subtitle')}
           </p>
           <motion.a
             href="https://calendar.app.google/EVCd5JtNnChBdqXn6"
@@ -619,21 +616,26 @@ export function StartContent() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-base"
           >
-            Let&apos;s bake, book a free call
+            {t('cta_button')}
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </motion.a>
+
+          <div className="mt-14 sm:mt-16 pt-10 border-t border-white/[0.06]">
+            <p className="text-sm text-gray-300">Chase Haynes</p>
+            <p className="text-xs text-gray-500 mt-1">{t('cta_signoff_role')}</p>
+          </div>
         </motion.div>
       </section>
 
       {/* ── FLOATING WHATSAPP BUTTON ── */}
       <a
-        href="https://wa.me/491627055848?text=Hey%20Blok%20Blok%20Studio%2C%20I%20just%20scanned%20your%20QR%20code%20and%20I%27m%20interested%20in%20working%20together!"
+        href="https://wa.me/491627055848?text=Hey%20Chase%2C%20I%20just%20scanned%20your%20card%20and%20I%27d%20like%20to%20grab%20coffee."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-[#25D366]/30 hover:scale-110 transition-transform"
-        aria-label="Chat on WhatsApp"
+        aria-label={t('whatsapp_aria')}
       >
         <svg viewBox="0 0 24 24" fill="white" className="w-7 h-7">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />

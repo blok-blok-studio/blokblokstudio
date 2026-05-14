@@ -36,29 +36,37 @@ import { getRequestConfig } from 'next-intl/server';
 import { headers } from 'next/headers';
 
 /* ── SUPPORTED LANGUAGES ──
-   Add new language codes here (must match a file in /src/messages/) */
-const supportedLocales = ['en', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'zh', 'ar', 'it', 'nl', 'ru', 'pl', 'sv', 'tr'] as const;
+   Add new language codes here (must match a file in /src/messages/).
+   Note: zh = Simplified Mandarin (mainland China), zh-TW = Traditional (Taiwan).
+   The parser checks the full Accept-Language tag first (so zh-TW wins), then
+   falls back to the base language code. */
+const supportedLocales = ['en', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'zh', 'zh-TW', 'ar', 'it', 'nl', 'ru', 'pl', 'sv', 'tr'] as const;
 type SupportedLocale = (typeof supportedLocales)[number];
+
+const supportedLowercase = supportedLocales.map((l) => l.toLowerCase());
 
 /**
  * Parses the browser's Accept-Language header to find the best match.
- * Example input: "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
- * Returns: 'de' (if supported) or 'en' (default fallback)
+ * Example input: "zh-TW,zh;q=0.9,en;q=0.7" → 'zh-TW'.
+ * Example input: "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7" → 'de'.
+ * Returns: a supported locale, or 'en' as default fallback.
  */
 function parseAcceptLanguage(acceptLanguage: string): SupportedLocale {
   // Split header into individual language preferences with quality scores
   const languages = acceptLanguage
     .split(',')
     .map((lang) => {
-      const [locale, q] = lang.trim().split(';q=');
-      return { locale: locale.trim().split('-')[0].toLowerCase(), q: q ? parseFloat(q) : 1 };
+      const [tag, q] = lang.trim().split(';q=');
+      return { tag: tag.trim().toLowerCase(), q: q ? parseFloat(q) : 1 };
     })
     .sort((a, b) => b.q - a.q); // Sort by preference (highest first)
 
-  // Find the first language that we support
-  for (const { locale } of languages) {
-    if (supportedLocales.includes(locale as SupportedLocale)) {
-      return locale as SupportedLocale;
+  // For each preference, try the full tag (zh-tw) before the base (zh)
+  for (const { tag } of languages) {
+    const candidates = [tag, tag.split('-')[0]];
+    for (const candidate of candidates) {
+      const idx = supportedLowercase.indexOf(candidate);
+      if (idx !== -1) return supportedLocales[idx];
     }
   }
 
