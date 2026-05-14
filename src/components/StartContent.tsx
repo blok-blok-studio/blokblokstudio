@@ -158,6 +158,165 @@ const processConfigs = [
   { num: '04', icon: '\u{1F680}' },
 ] as const;
 
+// Service tiers — category and tier names are kept in English (product names / menu).
+const serviceCatalog = [
+  {
+    category: 'Web Development',
+    icon: '\u{1F310}',
+    groups: [
+      {
+        label: 'One-Time Builds',
+        items: [
+          { icon: '\u{1F4C4}', name: 'Single Page Launch' },
+          { icon: '\u{1F680}', name: 'Starter Launch' },
+          { icon: '\u{1F4C8}', name: 'Growth Accelerator' },
+          { icon: '\u{1F451}', name: 'Total Domination' },
+        ],
+      },
+      {
+        label: 'Monthly Retainers',
+        items: [
+          { icon: '\u{1F6E0}️', name: 'Site Care' },
+          { icon: '\u{1F331}', name: 'Site Growth' },
+          { icon: '\u{1F91D}', name: 'Site Partnership' },
+        ],
+      },
+    ],
+  },
+  {
+    category: 'App Development',
+    icon: '\u{1F4F1}',
+    groups: [
+      {
+        label: 'One-Time Builds',
+        items: [
+          { icon: '\u{1F680}', name: 'Launchpad' },
+          { icon: '\u{1F3AC}', name: 'Studio' },
+          { icon: '\u{1F3C6}', name: 'Flagship' },
+        ],
+      },
+      {
+        label: 'Monthly Retainers',
+        items: [
+          { icon: '\u{1F493}', name: 'Keep Alive' },
+          { icon: '\u{26A1}', name: 'Momentum' },
+          { icon: '\u{1F91D}', name: 'Partner' },
+        ],
+      },
+    ],
+  },
+  {
+    category: 'Social Media',
+    icon: '\u{1F4F8}',
+    groups: [
+      {
+        label: 'One-Time Setup',
+        items: [
+          { icon: '\u{1F4F2}', name: 'Single Platform Setup' },
+          { icon: '\u{1F310}', name: 'Multi-Platform Launch' },
+          { icon: '\u{2728}', name: 'Full Social Rebrand' },
+        ],
+      },
+      {
+        label: 'Monthly Management',
+        items: [
+          { icon: '\u{1F331}', name: 'Social Starter' },
+          { icon: '\u{1F4C8}', name: 'Social Growth' },
+          { icon: '\u{1F451}', name: 'Social Domination' },
+        ],
+      },
+    ],
+  },
+  {
+    category: 'Marketing',
+    icon: '\u{1F4E3}',
+    groups: [
+      {
+        label: 'One-Time Projects',
+        items: [
+          { icon: '\u{1F5FA}️', name: 'Marketing Audit & Roadmap' },
+          { icon: '\u{1F3AF}', name: 'Campaign Launchpad' },
+          { icon: '\u{1F680}', name: 'Full Product Launch' },
+        ],
+      },
+      {
+        label: 'Monthly Retainers',
+        items: [
+          { icon: '\u{1F441}️', name: 'Maintain & Monitor' },
+          { icon: '\u{2699}️', name: 'Growth Engine' },
+          { icon: '\u{1F91D}', name: 'Full Partnership' },
+        ],
+      },
+    ],
+  },
+  {
+    category: 'AI Agents',
+    icon: '\u{1F916}',
+    groups: [
+      {
+        label: 'One-Time Build',
+        items: [
+          { icon: '\u{1F9E0}', name: 'Single Agent Build' },
+          { icon: '\u{1F465}', name: 'Agent Team' },
+          { icon: '\u{1F5A5}️', name: 'AI Operations' },
+        ],
+      },
+      {
+        label: 'Monthly Retainer',
+        items: [
+          { icon: '\u{1F527}', name: 'Agent Maintenance' },
+          { icon: '\u{1F4C8}', name: 'Agent Growth' },
+          { icon: '\u{1F39B}️', name: 'Agent Command Center' },
+        ],
+      },
+    ],
+  },
+  {
+    category: 'Custom SaaS',
+    icon: '\u{1F4BB}',
+    groups: [
+      {
+        label: 'One-Time Builds',
+        items: [
+          { icon: '\u{1F50D}', name: 'Discovery & Scoping' },
+          { icon: '\u{1F3D7}️', name: 'Standard Build' },
+          { icon: '\u{1F3E2}', name: 'Enterprise Build' },
+        ],
+      },
+      {
+        label: 'Monthly Retainers',
+        items: [
+          { icon: '\u{1F4BB}', name: 'Dev Support' },
+          { icon: '\u{1F4B0}', name: 'Hourly Bank' },
+          { icon: '\u{26A1}', name: 'Active Development' },
+        ],
+      },
+    ],
+  },
+  {
+    category: 'Branding Strategy',
+    icon: '\u{1F3A8}',
+    groups: [
+      {
+        label: 'One-Time Projects',
+        items: [
+          { icon: '\u{270F}️', name: 'Brand Lite' },
+          { icon: '\u{1F9E9}', name: 'Brand System' },
+          { icon: '\u{1F98B}', name: 'Brand Transformation' },
+        ],
+      },
+      {
+        label: 'Monthly Retainers',
+        items: [
+          { icon: '\u{1F6E1}️', name: 'Brand Keeper' },
+          { icon: '\u{1F3AD}', name: 'Creative Direction' },
+          { icon: '\u{1F3DB}️', name: 'Embedded Studio' },
+        ],
+      },
+    ],
+  },
+];
+
 export function StartContent() {
   const t = useTranslations('start');
 
@@ -337,6 +496,70 @@ export function StartContent() {
                 <span className="text-3xl sm:text-4xl mb-4 block">{s.emoji}</span>
                 <h3 className="text-lg sm:text-xl font-semibold mb-2">{t(`service_${s.key}_name`)}</h3>
                 <p className="text-sm sm:text-base text-gray-400 leading-relaxed">{t(`service_${s.key}_desc`)}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FULL SERVICE CATALOG ── */}
+      <section className="py-16 sm:py-24 px-5 sm:px-6 lg:px-8 border-t border-white/[0.06]">
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: '-60px' }}
+            transition={spring}
+            variants={popIn}
+            className="text-center mb-12 sm:mb-16"
+          >
+            <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">{t('catalog_eyebrow')}</p>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              {t('catalog_title')}
+            </h2>
+            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
+              {t('catalog_subtitle')}
+            </p>
+          </motion.div>
+
+          <div className="space-y-10 sm:space-y-14">
+            {serviceCatalog.map((cat, ci) => (
+              <motion.div
+                key={cat.category}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, margin: '-40px' }}
+                transition={{ ...spring, delay: ci * 0.08 }}
+                variants={fadeUp}
+              >
+                <div className="flex items-center gap-3 mb-5 sm:mb-6">
+                  <span className="text-2xl sm:text-3xl">{cat.icon}</span>
+                  <h3 className="text-xl sm:text-2xl font-semibold">{cat.category}</h3>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+                  {cat.groups.map((group) => (
+                    <div
+                      key={group.label}
+                      className="rounded-2xl sm:rounded-3xl p-5 sm:p-6 bg-white/[0.03] border border-white/[0.06]"
+                    >
+                      <p className="text-[10px] sm:text-xs uppercase tracking-widest text-gray-500 mb-4">
+                        {group.label}
+                      </p>
+                      <ul className="space-y-3">
+                        {group.items.map((item) => (
+                          <li
+                            key={item.name}
+                            className="flex items-center gap-3 text-sm sm:text-base text-gray-200"
+                          >
+                            <span className="text-xl sm:text-2xl flex-shrink-0">{item.icon}</span>
+                            <span>{item.name}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
               </motion.div>
             ))}
           </div>
