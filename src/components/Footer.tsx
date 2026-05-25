@@ -96,6 +96,7 @@ export function Footer() {
     { href: '/terms', label: nav('terms') },
     { href: '/cookies', label: nav('cookies') },
     { href: '/data-rights', label: nav('data_rights') },
+    { href: '/accessibility', label: nav('accessibility') },
   ];
 
   /* --------------------------------------------------------------------------
