@@ -47,6 +47,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 export function Navbar() {
   /* --------------------------------------------------------------------------
@@ -113,7 +114,7 @@ export function Navbar() {
     { href: '/projects', label: t('projects') },
     { href: '/about', label: t('about') },
     { href: '/services', label: t('services') },
-    { href: '/blog', label: 'Blog' },
+    { href: '/blog', label: t('blog') },
     { href: '/team', label: t('team') },
     { href: '/contact', label: t('contact') },
   ];
@@ -215,7 +216,8 @@ export function Navbar() {
              *   Update the "contact" key inside the "nav" namespace of your
              *   locale JSON, or replace {t('contact')} with static text.
              * ============================================================== */}
-            <div className="hidden md:block">
+            <div className="hidden md:flex items-center gap-3">
+              <LanguageSwitcher variant="compact" />
               <Link
                 href="/contact"
                 className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-gray-100 transition-all duration-300"
@@ -304,6 +306,15 @@ export function Navbar() {
                   </Link>
                 </motion.div>
               ))}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 20 }}
+                transition={{ delay: links.length * 0.1, duration: 0.3 }}
+                className="mt-4"
+              >
+                <LanguageSwitcher variant="wide" />
+              </motion.div>
             </div>
           </motion.div>
         )}

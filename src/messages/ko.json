@@ -7,11 +7,101 @@
     "pricing": "요금",
     "team": "팀",
     "contact": "문의하기",
+    "blog": "블로그",
     "faq": "FAQ",
+    "language": "언어",
     "privacy": "개인정보 보호정책",
     "terms": "이용 약관",
     "cookies": "쿠키 정책",
     "data_rights": "데이터 권리"
+  },
+  "faq": {
+    "meta_title": "FAQ — AI Agency & Web Design Studio in Berlin",
+    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio — a Berlin-based digital agency serving clients worldwide.",
+    "hero_eyebrow": "Frequently Asked Questions",
+    "hero_title": "Everything you wanted to ask",
+    "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 30-minute call.",
+    "category_pricing": "Pricing & Investment",
+    "category_process": "Process & Timeline",
+    "category_capabilities": "Services & Capabilities",
+    "category_trust": "Working with Blok Blok Studio",
+    "cta_heading": "Still have questions?",
+    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure — just answers.",
+    "cta_button": "Book Your Free Call",
+    "see_all_questions": "모든 질문 보기",
+    "filter_all": "전체",
+    "items": [
+      {
+        "category": "pricing",
+        "question": "How much does a custom website cost?",
+        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one — never templates."
+      },
+      {
+        "category": "pricing",
+        "question": "How much does an AI chatbot cost to build?",
+        "answer": "An AI chatbot trained on 100+ Q&A pairs and embedded site-wide is included in our $18,000 Conversational AI suite, which also covers a voice agent, SMS automations, and a full content pipeline. As a standalone add-on to a website tier, an AI chatbot starts at $2,500. All bots integrate with your CRM and capture leads 24/7."
+      },
+      {
+        "category": "pricing",
+        "question": "How much does an AI voice agent cost per month?",
+        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human — all in natural conversational language."
+      },
+      {
+        "category": "pricing",
+        "question": "Do you offer monthly retainers or just project work?",
+        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth — Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
+      },
+      {
+        "category": "process",
+        "question": "How long does it take to build a custom website?",
+        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast — most agencies take 2 to 3 times longer."
+      },
+      {
+        "category": "process",
+        "question": "How long does it take to deploy an AI agent?",
+        "answer": "A standard AI chatbot trained on your existing FAQs is live in 7 to 10 business days. A voice agent with a custom call script takes 10 to 14 days. A full multi-agent ecosystem with CRM, calendar, and payment integrations takes 4 to 8 weeks depending on complexity. We start with a discovery call, then a paid scoping document, then build."
+      },
+      {
+        "category": "process",
+        "question": "What does the design and build process look like?",
+        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone — no live status meetings unless you want one."
+      },
+      {
+        "category": "capabilities",
+        "question": "What's the difference between an AI chatbot and an AI voice agent?",
+        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps — it answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
+      },
+      {
+        "category": "capabilities",
+        "question": "Can your AI agents integrate with HubSpot, Salesforce, or GoHighLevel?",
+        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector — no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
+      },
+      {
+        "category": "capabilities",
+        "question": "Do you build websites in Next.js, WordPress, or Webflow?",
+        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow — those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
+      },
+      {
+        "category": "capabilities",
+        "question": "Do you write the website copy, or do I provide it?",
+        "answer": "Either works. Most clients provide raw notes or bullet points and we shape them into final copy. Full professional copywriting is included at our $18,000 tier and available as a $200/page add-on at any other tier. Ad copy for Google and Meta campaigns is always written by us when we manage the ads."
+      },
+      {
+        "category": "trust",
+        "question": "Where is Blok Blok Studio located, and do you work internationally?",
+        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text — we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
+      },
+      {
+        "category": "trust",
+        "question": "Do I own my website code and AI agent configurations?",
+        "answer": "Yes, completely. On project completion you receive full ownership of the code, design files, AI prompts, and automation configurations. The site is deployed to your own Vercel account under your billing. The CRM, ad accounts, and domains stay in your name from day one. We never lock clients into our systems."
+      },
+      {
+        "category": "trust",
+        "question": "Will my site be mobile-responsive and SEO-optimized?",
+        "answer": "Yes, both are non-negotiable in every build. Mobile-first responsive design is tested at 375px, 768px, 1024px, and 1440px. Every page ships with meta titles, descriptions, schema markup, alt text, and a sitemap submitted to Google. We target Lighthouse scores of 90+ for performance and 95+ for accessibility before launch."
+      }
+    ]
   },
   "home": {
     "hero_title": "디지털 경험을 구축합니다",
@@ -30,6 +120,9 @@
     "newsletter_placeholder": "Enter your email",
     "newsletter_button": "Subscribe",
     "newsletter_privacy": "No spam, ever. Unsubscribe anytime.",
+    "newsletter_subscribed": "구독 완료!",
+    "newsletter_already_subscribed": "이미 구독 중입니다",
+    "newsletter_consent": "구독하시면 <link>개인정보 처리방침</link>에 동의하는 것입니다. 언제든지 구독을 취소할 수 있습니다.",
     "tab_all": "전체",
     "tab_ai": "AI & 자동화",
     "tab_creative": "크리에이티브 & 마케팅",
@@ -171,92 +264,6 @@
     "info_title": "연락처 정보",
     "info_address": "Berlin, DE"
   },
-  "faq": {
-    "meta_title": "FAQ — AI Agency & Web Design Studio in Berlin",
-    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio — a Berlin-based digital agency serving clients worldwide.",
-    "hero_eyebrow": "Frequently Asked Questions",
-    "hero_title": "Everything you wanted to ask",
-    "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 30-minute call.",
-    "category_pricing": "Pricing & Investment",
-    "category_process": "Process & Timeline",
-    "category_capabilities": "Services & Capabilities",
-    "category_trust": "Working with Blok Blok Studio",
-    "cta_heading": "Still have questions?",
-    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure — just answers.",
-    "cta_button": "Book Your Free Call",
-    "items": [
-      {
-        "category": "pricing",
-        "question": "How much does a custom website cost?",
-        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one — never templates."
-      },
-      {
-        "category": "pricing",
-        "question": "How much does an AI chatbot cost to build?",
-        "answer": "An AI chatbot trained on 100+ Q&A pairs and embedded site-wide is included in our $18,000 Conversational AI suite, which also covers a voice agent, SMS automations, and a full content pipeline. As a standalone add-on to a website tier, an AI chatbot starts at $2,500. All bots integrate with your CRM and capture leads 24/7."
-      },
-      {
-        "category": "pricing",
-        "question": "How much does an AI voice agent cost per month?",
-        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human — all in natural conversational language."
-      },
-      {
-        "category": "pricing",
-        "question": "Do you offer monthly retainers or just project work?",
-        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth — Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
-      },
-      {
-        "category": "process",
-        "question": "How long does it take to build a custom website?",
-        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast — most agencies take 2 to 3 times longer."
-      },
-      {
-        "category": "process",
-        "question": "How long does it take to deploy an AI agent?",
-        "answer": "A standard AI chatbot trained on your existing FAQs is live in 7 to 10 business days. A voice agent with a custom call script takes 10 to 14 days. A full multi-agent ecosystem with CRM, calendar, and payment integrations takes 4 to 8 weeks depending on complexity. We start with a discovery call, then a paid scoping document, then build."
-      },
-      {
-        "category": "process",
-        "question": "What does the design and build process look like?",
-        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone — no live status meetings unless you want one."
-      },
-      {
-        "category": "capabilities",
-        "question": "What's the difference between an AI chatbot and an AI voice agent?",
-        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps — it answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
-      },
-      {
-        "category": "capabilities",
-        "question": "Can your AI agents integrate with HubSpot, Salesforce, or GoHighLevel?",
-        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector — no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
-      },
-      {
-        "category": "capabilities",
-        "question": "Do you build websites in Next.js, WordPress, or Webflow?",
-        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow — those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
-      },
-      {
-        "category": "capabilities",
-        "question": "Do you write the website copy, or do I provide it?",
-        "answer": "Either works. Most clients provide raw notes or bullet points and we shape them into final copy. Full professional copywriting is included at our $18,000 tier and available as a $200/page add-on at any other tier. Ad copy for Google and Meta campaigns is always written by us when we manage the ads."
-      },
-      {
-        "category": "trust",
-        "question": "Where is Blok Blok Studio located, and do you work internationally?",
-        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text — we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
-      },
-      {
-        "category": "trust",
-        "question": "Do I own my website code and AI agent configurations?",
-        "answer": "Yes, completely. On project completion you receive full ownership of the code, design files, AI prompts, and automation configurations. The site is deployed to your own Vercel account under your billing. The CRM, ad accounts, and domains stay in your name from day one. We never lock clients into our systems."
-      },
-      {
-        "category": "trust",
-        "question": "Will my site be mobile-responsive and SEO-optimized?",
-        "answer": "Yes, both are non-negotiable in every build. Mobile-first responsive design is tested at 375px, 768px, 1024px, and 1440px. Every page ships with meta titles, descriptions, schema markup, alt text, and a sitemap submitted to Google. We target Lighthouse scores of 90+ for performance and 95+ for accessibility before launch."
-      }
-    ]
-  },
   "footer": {
     "tagline": "영감을 주는 디지털 경험을 만듭니다.",
     "quick_links": "빠른 링크",
@@ -264,6 +271,10 @@
     "newsletter_title": "최신 소식 받기",
     "newsletter_placeholder": "이메일을 입력하세요",
     "newsletter_button": "구독하기",
+    "newsletter_subscribed": "구독 완료!",
+    "newsletter_already_subscribed": "이미 구독 중입니다",
+    "newsletter_consent": "구독하시면 <link>개인정보 처리방침</link>에 동의하는 것입니다. 언제든지 구독을 취소할 수 있습니다.",
+    "back_to_top": "위로 가기",
     "copyright": "All rights reserved.",
     "legal": "법적 정보"
   },
@@ -277,6 +288,18 @@
     "cookie_policy": "쿠키 정책",
     "accept": "수락",
     "decline": "거부",
+    "reject_all": "모두 거부",
+    "accept_all": "모두 동의",
+    "manage_preferences": "기본 설정 관리",
+    "preferences_title": "쿠키 환경설정",
+    "essential_title": "필수",
+    "essential_desc": "웹사이트 작동에 필요합니다. 비활성화할 수 없습니다.",
+    "analytics_title": "분석",
+    "analytics_desc": "방문자가 웹사이트와 어떻게 상호작용하는지 이해하는 데 도움이 됩니다.",
+    "marketing_title": "마케팅",
+    "marketing_desc": "관련 광고를 제공하고 캠페인을 추적하는 데 사용됩니다.",
+    "back": "뒤로",
+    "save_preferences": "환경설정 저장",
     "data_rights_title": "데이터 권리",
     "data_rights_subtitle": "GDPR에 따라 귀하는 당사 시스템에서 개인 데이터에 액세스하거나 내보내거나 영구적으로 삭제할 권리가 있습니다.",
     "data_rights_description": "GDPR 데이터 권리 행사",
@@ -452,5 +475,14 @@
     "cta_button": "커피 잡기",
     "cta_signoff_role": "Blok Blok Studio 대표",
     "whatsapp_aria": "WhatsApp에서 대화하기"
+  },
+  "errors": {
+    "title": "문제가 발생했습니다",
+    "message": "예기치 않은 오류가 발생했습니다. 다시 시도하거나 문제가 지속되면 문의해 주세요.",
+    "try_again": "다시 시도",
+    "back_home": "홈으로 돌아가기",
+    "not_found_title": "페이지를 찾을 수 없습니다",
+    "not_found_message": "찾으시는 페이지가 존재하지 않거나 이동되었습니다. 다시 제 자리로 안내해 드릴게요.",
+    "contact_us": "문의하기"
   }
 }

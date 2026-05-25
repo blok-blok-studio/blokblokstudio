@@ -69,7 +69,7 @@ export function FAQContent() {
                 : 'border-white/15 text-gray-400 hover:text-white hover:border-white/30'
             }`}
           >
-            All
+            {t('filter_all')}
           </button>
           {CATEGORIES.map((cat) => (
             <button

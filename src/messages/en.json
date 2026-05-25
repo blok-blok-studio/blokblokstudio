@@ -7,7 +7,9 @@
     "pricing": "Pricing",
     "team": "Team",
     "contact": "Contact",
+    "blog": "Blog",
     "faq": "FAQ",
+    "language": "Language",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Policy",
@@ -26,6 +28,8 @@
     "cta_heading": "Still have questions?",
     "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure, just answers.",
     "cta_button": "Book Your Free Call",
+    "see_all_questions": "See all questions",
+    "filter_all": "All",
     "items": [
       {
         "category": "pricing",
@@ -116,6 +120,9 @@
     "newsletter_placeholder": "Enter your email",
     "newsletter_button": "Subscribe",
     "newsletter_privacy": "No spam, ever. Unsubscribe anytime.",
+    "newsletter_subscribed": "You're subscribed!",
+    "newsletter_already_subscribed": "You are already subscribed",
+    "newsletter_consent": "By subscribing, you agree to our <link>Privacy Policy</link>. Unsubscribe anytime.",
     "tab_all": "All",
     "tab_ai": "AI & Automation",
     "tab_creative": "Creative & Marketing",
@@ -264,6 +271,10 @@
     "newsletter_title": "Stay in the Loop",
     "newsletter_placeholder": "Enter your email",
     "newsletter_button": "Subscribe",
+    "newsletter_subscribed": "Subscribed!",
+    "newsletter_already_subscribed": "You are already subscribed",
+    "newsletter_consent": "By subscribing, you agree to our <link>Privacy Policy</link>. Unsubscribe anytime.",
+    "back_to_top": "Back to top",
     "copyright": "All rights reserved.",
     "legal": "Legal"
   },
@@ -277,6 +288,18 @@
     "cookie_policy": "Cookie Policy",
     "accept": "Accept",
     "decline": "Decline",
+    "reject_all": "Reject All",
+    "accept_all": "Accept All",
+    "manage_preferences": "Manage Preferences",
+    "preferences_title": "Cookie Preferences",
+    "essential_title": "Essential",
+    "essential_desc": "Required for the website to function. Cannot be disabled.",
+    "analytics_title": "Analytics",
+    "analytics_desc": "Help us understand how visitors interact with our website.",
+    "marketing_title": "Marketing",
+    "marketing_desc": "Used to deliver relevant advertisements and track campaigns.",
+    "back": "Back",
+    "save_preferences": "Save Preferences",
     "data_rights_title": "Your Data Rights",
     "data_rights_subtitle": "Under GDPR, you have the right to access, export, or permanently delete your personal data from our systems.",
     "data_rights_description": "Exercise your GDPR data rights",
@@ -452,5 +475,14 @@
     "cta_button": "Book a coffee",
     "cta_signoff_role": "Founder, Blok Blok Studio",
     "whatsapp_aria": "Chat on WhatsApp"
+  },
+  "errors": {
+    "title": "Something Went Wrong",
+    "message": "An unexpected error occurred. Please try again or contact us if the problem persists.",
+    "try_again": "Try Again",
+    "back_home": "Back to Home",
+    "not_found_title": "Page Not Found",
+    "not_found_message": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
+    "contact_us": "Contact Us"
   }
 }

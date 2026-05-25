@@ -139,7 +139,7 @@ export function HomeNewsletter() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={alreadySubscribed ? 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' : 'M5 13l4 4L19 7'} />
                   </svg>
                   <span className="text-sm sm:text-base font-medium">
-                    {alreadySubscribed ? 'You are already subscribed' : "You're subscribed!"}
+                    {alreadySubscribed ? t('newsletter_already_subscribed') : t('newsletter_subscribed')}
                   </span>
                 </motion.div>
               ) : (
@@ -176,10 +176,13 @@ export function HomeNewsletter() {
 
                   {/* Privacy consent note */}
                   <p className="text-xs text-gray-500 mt-4">
-                    By subscribing, you agree to our{' '}
-                    <a href="/privacy" className="text-gray-400 hover:text-white underline transition-colors">
-                      Privacy Policy
-                    </a>. Unsubscribe anytime.
+                    {t.rich('newsletter_consent', {
+                      link: (chunks) => (
+                        <a href="/privacy" className="text-gray-400 hover:text-white underline transition-colors">
+                          {chunks}
+                        </a>
+                      ),
+                    })}
                   </p>
                 </>
               )}

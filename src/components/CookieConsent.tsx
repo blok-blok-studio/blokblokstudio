@@ -78,33 +78,33 @@ export function CookieConsent() {
                       onClick={handleRejectAll}
                       className="flex-1 sm:flex-none px-5 py-2.5 rounded-xl border border-white/10 text-white hover:bg-white/5 transition-colors text-sm font-medium"
                     >
-                      Reject All
+                      {t('reject_all')}
                     </button>
                     <button
                       onClick={() => setShowPreferences(true)}
                       className="flex-1 sm:flex-none px-5 py-2.5 rounded-xl border border-white/10 text-white hover:bg-white/5 transition-colors text-sm font-medium"
                     >
-                      Manage Preferences
+                      {t('manage_preferences')}
                     </button>
                     <button
                       onClick={handleAcceptAll}
                       className="flex-1 sm:flex-none px-5 py-2.5 rounded-xl bg-white text-black hover:bg-white/90 transition-colors text-sm font-medium"
                     >
-                      Accept All
+                      {t('accept_all')}
                     </button>
                   </div>
                 </>
               ) : (
                 /* ── Expanded view: category toggles ── */
                 <>
-                  <h3 className="text-white font-semibold mb-4">Cookie Preferences</h3>
+                  <h3 className="text-white font-semibold mb-4">{t('preferences_title')}</h3>
 
                   <div className="space-y-3 mb-5">
                     {/* Essential, always on */}
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">
                       <div>
-                        <p className="text-white text-sm font-medium">Essential</p>
-                        <p className="text-gray-500 text-xs mt-0.5">Required for the website to function. Cannot be disabled.</p>
+                        <p className="text-white text-sm font-medium">{t('essential_title')}</p>
+                        <p className="text-gray-500 text-xs mt-0.5">{t('essential_desc')}</p>
                       </div>
                       <div className="w-10 h-6 bg-white/20 rounded-full relative cursor-not-allowed">
                         <div className="absolute top-1 right-1 w-4 h-4 bg-white rounded-full" />
@@ -114,8 +114,8 @@ export function CookieConsent() {
                     {/* Analytics */}
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">
                       <div>
-                        <p className="text-white text-sm font-medium">Analytics</p>
-                        <p className="text-gray-500 text-xs mt-0.5">Help us understand how visitors interact with our website.</p>
+                        <p className="text-white text-sm font-medium">{t('analytics_title')}</p>
+                        <p className="text-gray-500 text-xs mt-0.5">{t('analytics_desc')}</p>
                       </div>
                       <button
                         onClick={() => setPreferences(p => ({ ...p, analytics: !p.analytics }))}
@@ -128,8 +128,8 @@ export function CookieConsent() {
                     {/* Marketing */}
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">
                       <div>
-                        <p className="text-white text-sm font-medium">Marketing</p>
-                        <p className="text-gray-500 text-xs mt-0.5">Used to deliver relevant advertisements and track campaigns.</p>
+                        <p className="text-white text-sm font-medium">{t('marketing_title')}</p>
+                        <p className="text-gray-500 text-xs mt-0.5">{t('marketing_desc')}</p>
                       </div>
                       <button
                         onClick={() => setPreferences(p => ({ ...p, marketing: !p.marketing }))}
@@ -145,13 +145,13 @@ export function CookieConsent() {
                       onClick={() => setShowPreferences(false)}
                       className="flex-1 sm:flex-none px-5 py-2.5 rounded-xl border border-white/10 text-white hover:bg-white/5 transition-colors text-sm font-medium"
                     >
-                      Back
+                      {t('back')}
                     </button>
                     <button
                       onClick={handleSavePreferences}
                       className="flex-1 sm:flex-none px-5 py-2.5 rounded-xl bg-white text-black hover:bg-white/90 transition-colors text-sm font-medium"
                     >
-                      Save Preferences
+                      {t('save_preferences')}
                     </button>
                   </div>
                 </>

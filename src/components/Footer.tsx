@@ -79,7 +79,7 @@ export function Footer() {
     { href: '/projects', label: nav('projects') },
     { href: '/about', label: nav('about') },
     { href: '/services', label: nav('services') },
-    { href: '/blog', label: 'Blog' },
+    { href: '/blog', label: nav('blog') },
     { href: '/faq', label: nav('faq') },
     { href: '/team', label: nav('team') },
     { href: '/contact', label: nav('contact') },
@@ -279,7 +279,7 @@ export function Footer() {
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={footerAlreadySubscribed ? 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' : 'M5 13l4 4L19 7'} />
                 </svg>
-                {footerAlreadySubscribed ? 'You are already subscribed' : 'Subscribed!'}
+                {footerAlreadySubscribed ? t('newsletter_already_subscribed') : t('newsletter_subscribed')}
               </p>
             ) : (
               <>
@@ -307,10 +307,13 @@ export function Footer() {
                   <Turnstile onToken={onFooterTurnstileToken} theme="dark" size="compact" />
                 </form>
                 <p className="text-xs text-gray-600 mt-2">
-                  By subscribing, you agree to our{' '}
-                  <Link href="/privacy" className="text-gray-500 hover:text-white underline transition-colors">
-                    Privacy Policy
-                  </Link>. Unsubscribe anytime.
+                  {t.rich('newsletter_consent', {
+                    link: (chunks) => (
+                      <Link href="/privacy" className="text-gray-500 hover:text-white underline transition-colors">
+                        {chunks}
+                      </Link>
+                    ),
+                  })}
                 </p>
               </>
             )}
@@ -340,7 +343,7 @@ export function Footer() {
             whileHover={{ y: -2 }}
             className="text-xs text-gray-600 hover:text-white transition-colors"
           >
-            Back to top &uarr;
+            {t('back_to_top')} &uarr;
           </motion.button>
         </div>
       </div>
