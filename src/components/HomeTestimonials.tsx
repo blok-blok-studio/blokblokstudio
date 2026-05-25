@@ -162,7 +162,7 @@ export function HomeTestimonials() {
                     {/* Client name */}
                     <p className="text-sm font-medium">{testimonial.name}</p>
                     {/* Client role + company */}
-                    <p className="text-xs text-gray-500">{testimonial.role}</p>
+                    <p className="text-xs text-gray-400">{testimonial.role}</p>
                   </div>
                 </div>
               </motion.div>

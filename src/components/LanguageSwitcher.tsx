@@ -116,21 +116,27 @@ export function LanguageSwitcher({ variant = 'compact' }: Props) {
             {supportedLocales.map((code) => {
               const label = localeLabels[code];
               const active = code === currentLocale;
+              const isRtl = code === 'ar';
               return (
                 <li key={code}>
+                  {/* lang + dir attrs let screen readers switch pronunciation
+                      and bidi rendering for each locale's native name. */}
                   <button
                     type="button"
                     role="option"
                     aria-selected={active}
+                    aria-current={active ? 'true' : undefined}
+                    lang={code}
+                    dir={isRtl ? 'rtl' : 'ltr'}
                     onClick={() => handleSelect(code)}
                     className={`
                       w-full flex items-center justify-between px-4 py-2.5 text-sm text-left
                       transition-colors duration-150
-                      ${active ? 'text-white bg-white/10' : 'text-gray-400 hover:text-white hover:bg-white/5'}
+                      ${active ? 'text-white bg-white/10' : 'text-gray-300 hover:text-white hover:bg-white/5'}
                     `}
                   >
                     <span className="tracking-wide">{label.nativeName}</span>
-                    <span className="text-[10px] uppercase text-gray-500 ml-3">{label.code}</span>
+                    <span className="text-[10px] uppercase text-gray-400 ml-3">{label.code}</span>
                   </button>
                 </li>
               );

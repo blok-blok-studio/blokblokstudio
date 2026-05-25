@@ -64,6 +64,7 @@ export function Footer() {
    * -------------------------------------------------------------------------- */
   const t = useTranslations('footer');
   const nav = useTranslations('nav');
+  const a11y = useTranslations('a11y');
 
   /* --------------------------------------------------------------------------
    * Navigation Links Array
@@ -174,7 +175,7 @@ export function Footer() {
                 className="h-8 w-auto"
               />
             </Link>
-            <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
+            <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               {t('tagline')}
             </p>
           </div>
@@ -194,7 +195,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-500 hover:text-white transition-colors duration-300"
+                    className="text-sm text-gray-400 hover:text-white transition-colors duration-300"
                   >
                     {link.label}
                   </Link>
@@ -220,9 +221,10 @@ export function Footer() {
                 <li key={social.label}>
                   <a
                     href={social.href}
-                    className="text-sm text-gray-500 hover:text-white transition-colors duration-300"
+                    className="text-sm text-gray-400 hover:text-white transition-colors duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`${social.label} (opens in new tab)`}
                   >
                     {social.label}
                   </a>
@@ -245,7 +247,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-500 hover:text-white transition-colors duration-300"
+                    className="text-sm text-gray-400 hover:text-white transition-colors duration-300"
                   >
                     {link.label}
                   </Link>
@@ -275,8 +277,12 @@ export function Footer() {
               {t('newsletter_title')}
             </h4>
             {footerSubscribed || footerAlreadySubscribed ? (
-              <p className={`text-sm flex items-center gap-1.5 ${footerAlreadySubscribed ? 'text-yellow-400' : 'text-green-400'}`}>
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <p
+                role="status"
+                aria-live="polite"
+                className={`text-sm flex items-center gap-1.5 ${footerAlreadySubscribed ? 'text-yellow-400' : 'text-green-400'}`}
+              >
+                <svg aria-hidden="true" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={footerAlreadySubscribed ? 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' : 'M5 13l4 4L19 7'} />
                 </svg>
                 {footerAlreadySubscribed ? t('newsletter_already_subscribed') : t('newsletter_subscribed')}
@@ -286,15 +292,21 @@ export function Footer() {
                 <form
                   className="flex flex-col gap-2"
                   onSubmit={handleFooterNewsletter}
+                  aria-label={t('newsletter_title')}
                 >
                   <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
                   <div className="flex flex-col sm:flex-row gap-2">
+                    <label htmlFor="footer-newsletter-email" className="sr-only">
+                      {a11y('email_label')}
+                    </label>
                     <input
+                      id="footer-newsletter-email"
                       type="email"
                       name="email"
                       required
+                      autoComplete="email"
                       placeholder={t('newsletter_placeholder')}
-                      className="flex-1 min-w-0 px-4 py-2.5 rounded-full bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors"
+                      className="flex-1 min-w-0 px-4 py-2.5 rounded-full bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors"
                     />
                     <button
                       type="submit"
@@ -306,10 +318,10 @@ export function Footer() {
                   </div>
                   <Turnstile onToken={onFooterTurnstileToken} theme="dark" size="compact" />
                 </form>
-                <p className="text-xs text-gray-600 mt-2">
+                <p className="text-xs text-gray-400 mt-2">
                   {t.rich('newsletter_consent', {
                     link: (chunks) => (
-                      <Link href="/privacy" className="text-gray-500 hover:text-white underline transition-colors">
+                      <Link href="/privacy" className="text-white hover:text-gray-200 underline transition-colors">
                         {chunks}
                       </Link>
                     ),
@@ -333,7 +345,7 @@ export function Footer() {
          *   if the company name changes.
          * ============================================================== */}
         <div className="mt-10 sm:mt-16 pt-6 sm:pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-gray-600">
+          <p className="text-xs text-gray-400">
             &copy; {new Date().getFullYear()} Blok Blok Studio.{' '}
             {t('copyright')}
           </p>
@@ -341,7 +353,7 @@ export function Footer() {
           <motion.button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             whileHover={{ y: -2 }}
-            className="text-xs text-gray-600 hover:text-white transition-colors"
+            className="text-xs text-gray-400 hover:text-white transition-colors"
           >
             {t('back_to_top')} &uarr;
           </motion.button>

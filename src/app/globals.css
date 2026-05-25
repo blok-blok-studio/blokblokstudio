@@ -59,6 +59,45 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ── ACCESSIBILITY: FOCUS-VISIBLE ──
+   WCAG 2.4.7 requires a visible focus indicator for keyboard navigation.
+   We use :focus-visible so the ring only appears for keyboard users — mouse
+   clicks don't get the ring (less visual noise). Targets every interactive
+   element so we don't need per-component focus styles.
+   The white ring + dark offset reads cleanly on the site's black background. */
+:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+/* Buttons that already have a rounded shape should keep their shape on focus */
+button:focus-visible,
+a:focus-visible {
+  outline-offset: 3px;
+}
+/* Suppress the default focus ring for mouse interactions only */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── ACCESSIBILITY: REDUCED MOTION ──
+   WCAG 2.3.3. When users set "Reduce motion" in their OS, neutralize the
+   site's animations. Framer Motion's MotionConfig respects this preference,
+   but we also override CSS animations/transitions here as a backstop. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 /* ── CUSTOM SCROLLBAR ──
    Thin dark scrollbar matching the site's dark theme.
    Only works in Chrome, Edge, and Safari (Firefox uses its own). */

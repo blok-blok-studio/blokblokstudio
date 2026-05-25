@@ -36,7 +36,7 @@ export function HomeFAQ() {
     <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         <AnimatedSection className="text-center mb-10 sm:mb-14">
-          <span className="inline-block text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">
+          <span className="inline-block text-xs uppercase tracking-[0.2em] text-gray-400 mb-3">
             {t('hero_eyebrow')}
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight">

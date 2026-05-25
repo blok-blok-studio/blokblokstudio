@@ -484,5 +484,15 @@
     "not_found_title": "페이지를 찾을 수 없습니다",
     "not_found_message": "찾으시는 페이지가 존재하지 않거나 이동되었습니다. 다시 제 자리로 안내해 드릴게요.",
     "contact_us": "문의하기"
+  },
+  "a11y": {
+    "skip_to_main": "본문으로 건너뛰기",
+    "main_navigation": "주 탐색",
+    "open_menu": "메뉴 열기",
+    "close_menu": "메뉴 닫기",
+    "email_label": "이메일 주소",
+    "cookie_dialog": "쿠키 동의",
+    "cookie_preferences_dialog": "쿠키 환경설정",
+    "error_announcement": "오류"
   }
 }

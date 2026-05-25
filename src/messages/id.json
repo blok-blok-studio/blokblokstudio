@@ -484,5 +484,15 @@
     "not_found_title": "Halaman tidak ditemukan",
     "not_found_message": "Halaman yang Anda cari tidak ada atau telah dipindahkan. Mari kembali ke jalur yang benar.",
     "contact_us": "Hubungi kami"
+  },
+  "a11y": {
+    "skip_to_main": "Lewati ke konten utama",
+    "main_navigation": "Navigasi utama",
+    "open_menu": "Buka menu",
+    "close_menu": "Tutup menu",
+    "email_label": "Alamat email",
+    "cookie_dialog": "Persetujuan cookie",
+    "cookie_preferences_dialog": "Preferensi cookie",
+    "error_announcement": "Kesalahan"
   }
 }

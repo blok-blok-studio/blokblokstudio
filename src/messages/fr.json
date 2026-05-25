@@ -484,5 +484,15 @@
     "not_found_title": "Page introuvable",
     "not_found_message": "La page que vous recherchez n'existe pas ou a été déplacée. Remettons-vous sur la bonne voie.",
     "contact_us": "Nous contacter"
+  },
+  "a11y": {
+    "skip_to_main": "Aller au contenu principal",
+    "main_navigation": "Navigation principale",
+    "open_menu": "Ouvrir le menu",
+    "close_menu": "Fermer le menu",
+    "email_label": "Adresse e-mail",
+    "cookie_dialog": "Consentement aux cookies",
+    "cookie_preferences_dialog": "Préférences de cookies",
+    "error_announcement": "Erreur"
   }
 }

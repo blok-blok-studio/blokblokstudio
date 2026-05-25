@@ -484,5 +484,15 @@
     "not_found_title": "Pagina non trovata",
     "not_found_message": "La pagina che stai cercando non esiste o è stata spostata. Ti rimettiamo sulla strada giusta.",
     "contact_us": "Contattaci"
+  },
+  "a11y": {
+    "skip_to_main": "Vai al contenuto principale",
+    "main_navigation": "Navigazione principale",
+    "open_menu": "Apri menu",
+    "close_menu": "Chiudi menu",
+    "email_label": "Indirizzo email",
+    "cookie_dialog": "Consenso ai cookie",
+    "cookie_preferences_dialog": "Preferenze cookie",
+    "error_announcement": "Errore"
   }
 }

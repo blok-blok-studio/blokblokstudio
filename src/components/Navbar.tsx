@@ -41,7 +41,7 @@
  * useTranslations       -> next-intl hook to pull translated strings.
  * motion / AnimatePresence -> Framer Motion animation primitives.
  * -------------------------------------------------------------------------- */
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -59,6 +59,7 @@ export function Navbar() {
    *              highlight the active link.
    * -------------------------------------------------------------------------- */
   const t = useTranslations('nav');
+  const a11y = useTranslations('a11y');
   const pathname = usePathname();
 
   /* --------------------------------------------------------------------------
@@ -70,6 +71,8 @@ export function Navbar() {
    * -------------------------------------------------------------------------- */
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const toggleButtonRef = useRef<HTMLButtonElement>(null);
+  const firstMobileLinkRef = useRef<HTMLAnchorElement>(null);
 
   /* --------------------------------------------------------------------------
    * Scroll Listener
@@ -93,6 +96,33 @@ export function Navbar() {
   useEffect(() => {
     setIsOpen(false);
   }, [pathname]);
+
+  /* --------------------------------------------------------------------------
+   * Mobile menu accessibility:
+   *   - Lock body scroll while open (prevents background scroll on iOS too)
+   *   - Esc key closes the menu and returns focus to the hamburger
+   *   - Tab/Shift+Tab cycle is constrained to elements inside the overlay
+   *   - First link receives focus after the overlay mounts
+   * -------------------------------------------------------------------------- */
+  useEffect(() => {
+    if (!isOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setIsOpen(false);
+        toggleButtonRef.current?.focus();
+      }
+    };
+    document.addEventListener('keydown', onKey);
+    // Defer focus to the next tick so the link is mounted.
+    const t = window.setTimeout(() => firstMobileLinkRef.current?.focus(), 50);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener('keydown', onKey);
+      window.clearTimeout(t);
+    };
+  }, [isOpen]);
 
   /* --------------------------------------------------------------------------
    * Navigation Links Array
@@ -130,6 +160,7 @@ export function Navbar() {
        *   depending on `isScrolled`.
        * ================================================================ */}
       <motion.nav
+        aria-label={a11y('main_navigation')}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
@@ -181,6 +212,7 @@ export function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
+                  aria-current={pathname === link.href ? 'page' : undefined}
                   className="relative group"
                 >
                   <span
@@ -235,9 +267,12 @@ export function Navbar() {
              * Toggling sets `isOpen` which controls the mobile overlay below.
              * ============================================================== */}
             <button
+              ref={toggleButtonRef}
               onClick={() => setIsOpen(!isOpen)}
               className="relative z-50 md:hidden w-10 h-10 flex flex-col items-center justify-center gap-1.5"
-              aria-label="Toggle menu"
+              aria-label={isOpen ? a11y('close_menu') : a11y('open_menu')}
+              aria-expanded={isOpen}
+              aria-controls="mobile-menu"
             >
               {/* Top bar: rotates 45deg and shifts down when open */}
               <motion.span
@@ -280,6 +315,10 @@ export function Navbar() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
+            id="mobile-menu"
+            role="dialog"
+            aria-modal="true"
+            aria-label={a11y('main_navigation')}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -296,9 +335,11 @@ export function Navbar() {
                   transition={{ delay: i * 0.1, duration: 0.3 }}
                 >
                   <Link
+                    ref={i === 0 ? firstMobileLinkRef : undefined}
                     href={link.href}
+                    aria-current={pathname === link.href ? 'page' : undefined}
                     className={`text-3xl font-light tracking-wide ${
-                      pathname === link.href ? 'text-white' : 'text-gray-500'
+                      pathname === link.href ? 'text-white' : 'text-gray-300 hover:text-white'
                     }`}
                     onClick={() => setIsOpen(false)}
                   >

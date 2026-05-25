@@ -57,7 +57,7 @@ export function HomeStats() {
               <div className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight mb-1.5 bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
                 <Counter target={stat.value} suffix={stat.suffix} />
               </div>
-              <div className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider">
+              <div className="text-xs sm:text-sm text-gray-400 uppercase tracking-wider">
                 {stat.label}
               </div>
             </motion.div>

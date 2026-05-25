@@ -48,6 +48,7 @@ import { motion } from 'framer-motion';
 
 export function HomeNewsletter() {
   const t = useTranslations('home');
+  const a11y = useTranslations('a11y');
   const [submitted, setSubmitted] = useState(false);
   const [alreadySubscribed, setAlreadySubscribed] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -129,13 +130,17 @@ export function HomeNewsletter() {
               </p>
 
               {submitted || alreadySubscribed ? (
-                /* ── SUCCESS / ALREADY SUBSCRIBED STATE ── */
+                /* ── SUCCESS / ALREADY SUBSCRIBED STATE ──
+                   role="status" + aria-live so screen readers announce the
+                   confirmation without needing focus to move. */
                 <motion.div
+                  role="status"
+                  aria-live="polite"
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
                   className={`flex items-center justify-center gap-2 ${alreadySubscribed ? 'text-yellow-400' : 'text-green-400'}`}
                 >
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg aria-hidden="true" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={alreadySubscribed ? 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' : 'M5 13l4 4L19 7'} />
                   </svg>
                   <span className="text-sm sm:text-base font-medium">
@@ -151,15 +156,21 @@ export function HomeNewsletter() {
                   <form
                     onSubmit={handleSubmit}
                     className="flex flex-col gap-3 max-w-md mx-auto"
+                    aria-label={t('newsletter_heading')}
                   >
                     <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
                     <div className="flex flex-col sm:flex-row gap-3">
+                      <label htmlFor="home-newsletter-email" className="sr-only">
+                        {a11y('email_label')}
+                      </label>
                       <input
+                        id="home-newsletter-email"
                         type="email"
                         name="email"
                         required
+                        autoComplete="email"
                         placeholder={t('newsletter_placeholder')}
-                        className="flex-1 min-w-0 px-5 py-3.5 rounded-full bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors"
+                        className="flex-1 min-w-0 px-5 py-3.5 rounded-full bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors"
                       />
                       <motion.button
                         type="submit"
@@ -175,10 +186,10 @@ export function HomeNewsletter() {
                   </form>
 
                   {/* Privacy consent note */}
-                  <p className="text-xs text-gray-500 mt-4">
+                  <p className="text-xs text-gray-400 mt-4">
                     {t.rich('newsletter_consent', {
                       link: (chunks) => (
-                        <a href="/privacy" className="text-gray-400 hover:text-white underline transition-colors">
+                        <a href="/privacy" className="text-white hover:text-gray-200 underline transition-colors">
                           {chunks}
                         </a>
                       ),

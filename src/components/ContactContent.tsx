@@ -214,7 +214,7 @@ export function ContactContent() {
                  NOTE: The form does NOT send data, see handleSubmit above.
                  You need to add backend integration to make it work.
               */
-              <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6" noValidate>
                 {/* Honeypot, hidden from humans, bots fill it */}
                 <input type="text" name="_hp" autoComplete="off" tabIndex={-1} aria-hidden="true" className="absolute opacity-0 h-0 w-0 pointer-events-none" />
 
@@ -223,28 +223,36 @@ export function ContactContent() {
 
                   {/* Name field (required) */}
                   <div>
-                    <label className="block text-sm text-gray-400 mb-2">
-                      {t('name')}
+                    <label htmlFor="contact-name" className="block text-sm text-gray-300 mb-2">
+                      {t('name')} <span aria-hidden="true" className="text-red-400">*</span>
                     </label>
                     <input
+                      id="contact-name"
                       type="text"
                       name="name"
                       required
-                      className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 text-sm sm:text-base text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors"
+                      autoComplete="name"
+                      aria-required="true"
+                      aria-invalid={!!error}
+                      className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 text-sm sm:text-base text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors"
                       placeholder={t('name')}
                     />
                   </div>
 
                   {/* Email field (required) */}
                   <div>
-                    <label className="block text-sm text-gray-400 mb-2">
-                      {t('email')}
+                    <label htmlFor="contact-email" className="block text-sm text-gray-300 mb-2">
+                      {t('email')} <span aria-hidden="true" className="text-red-400">*</span>
                     </label>
                     <input
+                      id="contact-email"
                       type="email"
                       name="email"
                       required
-                      className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 text-sm sm:text-base text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors"
+                      autoComplete="email"
+                      aria-required="true"
+                      aria-invalid={!!error}
+                      className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 text-sm sm:text-base text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors"
                       placeholder={t('email')}
                     />
                   </div>
@@ -252,27 +260,33 @@ export function ContactContent() {
 
                 {/* Company field (optional) */}
                 <div>
-                  <label className="block text-sm text-gray-400 mb-2">
+                  <label htmlFor="contact-company" className="block text-sm text-gray-300 mb-2">
                     {t('company')}
                   </label>
                   <input
+                    id="contact-company"
                     type="text"
                     name="company"
-                    className="w-full px-5 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors"
+                    autoComplete="organization"
+                    className="w-full px-5 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors"
                     placeholder={t('company')}
                   />
                 </div>
 
                 {/* Message textarea (required) */}
                 <div>
-                  <label className="block text-sm text-gray-400 mb-2">
-                    {t('message')}
+                  <label htmlFor="contact-message" className="block text-sm text-gray-300 mb-2">
+                    {t('message')} <span aria-hidden="true" className="text-red-400">*</span>
                   </label>
                   <textarea
+                    id="contact-message"
                     name="message"
                     required
                     rows={6}
-                    className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 text-sm sm:text-base text-white placeholder:text-gray-600 focus:outline-none focus:border-white/30 transition-colors resize-none"
+                    aria-required="true"
+                    aria-invalid={!!error}
+                    aria-describedby={error ? 'contact-form-error' : undefined}
+                    className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 text-sm sm:text-base text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors resize-none"
                     placeholder={t('message')}
                   />
                 </div>
@@ -297,7 +311,14 @@ export function ContactContent() {
                 <Turnstile onToken={onTurnstileToken} theme="dark" className="mb-2" />
 
                 {error && (
-                  <p className="text-red-400 text-sm">{error}</p>
+                  <p
+                    id="contact-form-error"
+                    role="alert"
+                    aria-live="assertive"
+                    className="text-red-400 text-sm"
+                  >
+                    {error}
+                  </p>
                 )}
 
                 <motion.button

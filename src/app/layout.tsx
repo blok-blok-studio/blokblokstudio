@@ -121,6 +121,11 @@ export const metadata: Metadata = {
  * Navbar/Footer are added by (main)/layout.tsx for main site pages.
  * The (funnel) route group gets NO Navbar/Footer.
  */
+// Right-to-left locales. Arabic is the only RTL language in our current
+// 19-locale lineup; this list exists so we can extend it (Hebrew, Persian, etc.)
+// without revisiting the layout logic.
+const RTL_LOCALES = new Set(['ar']);
+
 export default async function RootLayout({
   children,
 }: {
@@ -128,9 +133,10 @@ export default async function RootLayout({
 }) {
   const locale = await getLocale();
   const messages = await getMessages();
+  const dir = RTL_LOCALES.has(locale) ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale} className="dark">
+    <html lang={locale} dir={dir} className="dark">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" sizes="any" />

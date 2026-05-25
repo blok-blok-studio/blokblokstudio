@@ -484,5 +484,15 @@
     "not_found_title": "Sayfa bulunamadı",
     "not_found_message": "Aradığınız sayfa mevcut değil veya taşındı. Sizi tekrar yola koyalım.",
     "contact_us": "Bize ulaşın"
+  },
+  "a11y": {
+    "skip_to_main": "Ana içeriğe atla",
+    "main_navigation": "Ana gezinme",
+    "open_menu": "Menüyü aç",
+    "close_menu": "Menüyü kapat",
+    "email_label": "E-posta adresi",
+    "cookie_dialog": "Çerez onayı",
+    "cookie_preferences_dialog": "Çerez tercihleri",
+    "error_announcement": "Hata"
   }
 }

@@ -13,7 +13,7 @@ export function HomeSocialProof() {
           </p>
           <Link
             href="/projects/coach-luki"
-            className="inline-block mt-6 text-sm text-gray-500 hover:text-white transition-colors"
+            className="inline-block mt-6 text-sm text-gray-400 hover:text-white transition-colors"
           >
             See the project →
           </Link>

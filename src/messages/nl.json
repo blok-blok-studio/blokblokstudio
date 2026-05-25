@@ -484,5 +484,15 @@
     "not_found_title": "Pagina niet gevonden",
     "not_found_message": "De pagina die je zoekt bestaat niet of is verplaatst. Laten we je weer op weg helpen.",
     "contact_us": "Contact opnemen"
+  },
+  "a11y": {
+    "skip_to_main": "Ga naar de hoofdinhoud",
+    "main_navigation": "Hoofdnavigatie",
+    "open_menu": "Menu openen",
+    "close_menu": "Menu sluiten",
+    "email_label": "E-mailadres",
+    "cookie_dialog": "Cookie-toestemming",
+    "cookie_preferences_dialog": "Cookie-voorkeuren",
+    "error_announcement": "Fout"
   }
 }

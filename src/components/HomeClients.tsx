@@ -69,7 +69,7 @@ export function HomeClients() {
 
         {/* Section heading, small, uppercase, centered */}
         <AnimatedSection className="text-center mb-8 sm:mb-12">
-          <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-gray-500">
+          <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-gray-400">
             {t('clients_heading')}
           </p>
         </AnimatedSection>

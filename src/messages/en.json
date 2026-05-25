@@ -484,5 +484,15 @@
     "not_found_title": "Page Not Found",
     "not_found_message": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
     "contact_us": "Contact Us"
+  },
+  "a11y": {
+    "skip_to_main": "Skip to main content",
+    "main_navigation": "Main navigation",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "email_label": "Email address",
+    "cookie_dialog": "Cookie consent",
+    "cookie_preferences_dialog": "Cookie preferences",
+    "error_announcement": "Error"
   }
 }

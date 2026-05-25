@@ -19,6 +19,7 @@ const DEFAULT_PREFERENCES: CookiePreferences = {
 
 export function CookieConsent() {
   const t = useTranslations('gdpr');
+  const a11y = useTranslations('a11y');
   const [showBanner, setShowBanner] = useState(false);
   const [showPreferences, setShowPreferences] = useState(false);
   const [preferences, setPreferences] = useState<CookiePreferences>(DEFAULT_PREFERENCES);
@@ -51,6 +52,9 @@ export function CookieConsent() {
     <AnimatePresence>
       {showBanner && (
         <motion.div
+          role="dialog"
+          aria-modal="false"
+          aria-label={showPreferences ? a11y('cookie_preferences_dialog') : a11y('cookie_dialog')}
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
@@ -100,42 +104,63 @@ export function CookieConsent() {
                   <h3 className="text-white font-semibold mb-4">{t('preferences_title')}</h3>
 
                   <div className="space-y-3 mb-5">
-                    {/* Essential, always on */}
+                    {/* Essential — always on, conveyed as a disabled switch so
+                        screen readers announce its state (and why it can't be
+                        unchecked). */}
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">
                       <div>
-                        <p className="text-white text-sm font-medium">{t('essential_title')}</p>
-                        <p className="text-gray-500 text-xs mt-0.5">{t('essential_desc')}</p>
+                        <p id="cookie-essential-label" className="text-white text-sm font-medium">{t('essential_title')}</p>
+                        <p id="cookie-essential-desc" className="text-gray-400 text-xs mt-0.5">{t('essential_desc')}</p>
                       </div>
-                      <div className="w-10 h-6 bg-white/20 rounded-full relative cursor-not-allowed">
-                        <div className="absolute top-1 right-1 w-4 h-4 bg-white rounded-full" />
-                      </div>
+                      <button
+                        type="button"
+                        role="switch"
+                        aria-checked="true"
+                        aria-disabled="true"
+                        aria-labelledby="cookie-essential-label"
+                        aria-describedby="cookie-essential-desc"
+                        tabIndex={-1}
+                        className="w-10 h-6 bg-white/20 rounded-full relative cursor-not-allowed"
+                      >
+                        <span className="absolute top-1 right-1 w-4 h-4 bg-white rounded-full" />
+                      </button>
                     </div>
 
                     {/* Analytics */}
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">
                       <div>
-                        <p className="text-white text-sm font-medium">{t('analytics_title')}</p>
-                        <p className="text-gray-500 text-xs mt-0.5">{t('analytics_desc')}</p>
+                        <p id="cookie-analytics-label" className="text-white text-sm font-medium">{t('analytics_title')}</p>
+                        <p id="cookie-analytics-desc" className="text-gray-400 text-xs mt-0.5">{t('analytics_desc')}</p>
                       </div>
                       <button
+                        type="button"
+                        role="switch"
+                        aria-checked={preferences.analytics}
+                        aria-labelledby="cookie-analytics-label"
+                        aria-describedby="cookie-analytics-desc"
                         onClick={() => setPreferences(p => ({ ...p, analytics: !p.analytics }))}
                         className={`w-10 h-6 rounded-full relative transition-colors ${preferences.analytics ? 'bg-white/30' : 'bg-white/10'}`}
                       >
-                        <div className={`absolute top-1 w-4 h-4 rounded-full transition-all ${preferences.analytics ? 'right-1 bg-white' : 'left-1 bg-gray-500'}`} />
+                        <span className={`absolute top-1 w-4 h-4 rounded-full transition-all ${preferences.analytics ? 'right-1 bg-white' : 'left-1 bg-gray-400'}`} />
                       </button>
                     </div>
 
                     {/* Marketing */}
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">
                       <div>
-                        <p className="text-white text-sm font-medium">{t('marketing_title')}</p>
-                        <p className="text-gray-500 text-xs mt-0.5">{t('marketing_desc')}</p>
+                        <p id="cookie-marketing-label" className="text-white text-sm font-medium">{t('marketing_title')}</p>
+                        <p id="cookie-marketing-desc" className="text-gray-400 text-xs mt-0.5">{t('marketing_desc')}</p>
                       </div>
                       <button
+                        type="button"
+                        role="switch"
+                        aria-checked={preferences.marketing}
+                        aria-labelledby="cookie-marketing-label"
+                        aria-describedby="cookie-marketing-desc"
                         onClick={() => setPreferences(p => ({ ...p, marketing: !p.marketing }))}
                         className={`w-10 h-6 rounded-full relative transition-colors ${preferences.marketing ? 'bg-white/30' : 'bg-white/10'}`}
                       >
-                        <div className={`absolute top-1 w-4 h-4 rounded-full transition-all ${preferences.marketing ? 'right-1 bg-white' : 'left-1 bg-gray-500'}`} />
+                        <span className={`absolute top-1 w-4 h-4 rounded-full transition-all ${preferences.marketing ? 'right-1 bg-white' : 'left-1 bg-gray-400'}`} />
                       </button>
                     </div>
                   </div>
