@@ -1,9 +1,20 @@
 /**
- * Human-readable labels for the locales declared in /src/i18n/request.ts.
+ * Locale registry shared between the server-only i18n config (which reads
+ * cookies / Accept-Language) and client components like LanguageSwitcher.
+ * This file MUST stay client-safe — no `next/headers`, no `cookies()`.
+ *
  * `nativeName` is what gets shown inside the dropdown so a Vietnamese visitor
  * sees "Tiếng Việt" rather than "Vietnamese" — easier to recognize at a glance.
  */
-import type { SupportedLocale } from './request';
+
+/* ── SUPPORTED LANGUAGES ──
+   Order here is the order shown in the LanguageSwitcher dropdown. Note:
+   zh = Simplified Mandarin (mainland China), zh-TW = Traditional (Taiwan). */
+export const supportedLocales = [
+  'en', 'de', 'es', 'fr', 'pt', 'it', 'nl', 'sv', 'pl', 'tr', 'ru',
+  'ar', 'hi', 'zh', 'zh-TW', 'ja', 'ko', 'vi', 'th', 'id',
+] as const;
+export type SupportedLocale = (typeof supportedLocales)[number];
 
 export type LocaleLabel = {
   code: SupportedLocale;

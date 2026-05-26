@@ -188,9 +188,9 @@ export function Footer() {
            * The heading text comes from "footer.quick_links" in locale JSON.
            * ============================================================== */}
           <div>
-            <h4 className="text-sm font-medium mb-6 text-gray-300">
+            <h3 className="text-sm font-medium mb-6 text-gray-300">
               {t('quick_links')}
-            </h4>
+            </h3>
             <ul className="space-y-3">
               {links.map((link) => (
                 <li key={link.href}>
@@ -214,9 +214,9 @@ export function Footer() {
            * TO UPDATE URLS: Change `href` values in the `socials` array above.
            * ============================================================== */}
           <div>
-            <h4 className="text-sm font-medium mb-6 text-gray-300">
+            <h3 className="text-sm font-medium mb-6 text-gray-300">
               {t('connect')}
-            </h4>
+            </h3>
             <ul className="space-y-3">
               {socials.map((social) => (
                 <li key={social.label}>
@@ -240,9 +240,9 @@ export function Footer() {
            * GDPR-required legal pages (Privacy, Terms, Cookies, Data Rights).
            * ============================================================== */}
           <div>
-            <h4 className="text-sm font-medium mb-6 text-gray-300">
+            <h3 className="text-sm font-medium mb-6 text-gray-300">
               {t('legal')}
-            </h4>
+            </h3>
             <ul className="space-y-3">
               {legalLinks.map((link) => (
                 <li key={link.href}>
@@ -274,9 +274,9 @@ export function Footer() {
            *   - "footer.newsletter_button"        -> Button label
            * ============================================================== */}
           <div className="col-span-2 sm:col-span-2 lg:col-span-1">
-            <h4 className="text-sm font-medium mb-4 sm:mb-6 text-gray-300">
+            <h3 className="text-sm font-medium mb-4 sm:mb-6 text-gray-300">
               {t('newsletter_title')}
-            </h4>
+            </h3>
             {footerSubscribed || footerAlreadySubscribed ? (
               <p
                 role="status"

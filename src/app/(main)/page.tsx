@@ -20,8 +20,8 @@ const HomeCTA = dynamic(() => import('@/components/HomeCTA').then((m) => ({ defa
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('home');
   return {
-    // null lets the root layout's default title apply (Berlin / AI keywords)
-    title: null,
+    // Omit `title` entirely so the root layout's default applies. Setting
+    // `title: null` strips the <title> tag instead (Lighthouse flagged this).
     description: t('hero_subtitle'),
     alternates: {
       canonical: '/',

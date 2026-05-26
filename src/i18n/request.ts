@@ -33,17 +33,13 @@
 
 import { getRequestConfig } from 'next-intl/server';
 import { headers, cookies } from 'next/headers';
+import { supportedLocales, type SupportedLocale } from './locales';
 
-/* ── SUPPORTED LANGUAGES ──
-   Order here is the order shown in the dropdown. Note: zh = Simplified
-   Mandarin (mainland China), zh-TW = Traditional (Taiwan). The parser
-   checks the full Accept-Language tag first (so zh-TW wins), then falls
-   back to the base language code. */
-export const supportedLocales = [
-  'en', 'de', 'es', 'fr', 'pt', 'it', 'nl', 'sv', 'pl', 'tr', 'ru',
-  'ar', 'hi', 'zh', 'zh-TW', 'ja', 'ko', 'vi', 'th', 'id',
-] as const;
-export type SupportedLocale = (typeof supportedLocales)[number];
+// Re-export so existing `from '@/i18n/request'` imports keep working without
+// pulling next/headers into client bundles. New code should import from
+// '@/i18n/locales' directly.
+export { supportedLocales };
+export type { SupportedLocale };
 
 /* Cookie name used to persist a manual language selection. When this cookie
    is set (by the LanguageSwitcher), it overrides Accept-Language. */

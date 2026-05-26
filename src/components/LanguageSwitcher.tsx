@@ -24,8 +24,7 @@ import { useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { setLocale } from '@/app/actions/locale';
-import { localeLabels } from '@/i18n/locales';
-import { supportedLocales, type SupportedLocale } from '@/i18n/request';
+import { localeLabels, supportedLocales, type SupportedLocale } from '@/i18n/locales';
 
 type Props = {
   /** "compact" (icon-only chevron) for desktop nav, "wide" for mobile overlay. */
