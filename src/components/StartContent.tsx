@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 60 },
@@ -322,6 +323,14 @@ export function StartContent() {
 
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
+
+      {/* ── LANGUAGE SWITCHER ──
+          The (funnel) layout has no Navbar, so the switcher floats here.
+          Auto-detection (OS / Accept-Language) still runs server-side on
+          first visit; this lets visitors override their detected language. */}
+      <div className="fixed top-4 right-4 sm:top-6 sm:right-6 z-50">
+        <LanguageSwitcher variant="compact" />
+      </div>
 
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center justify-center px-5 sm:px-6 lg:px-8 overflow-hidden">
