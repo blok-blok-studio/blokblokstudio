@@ -4,8 +4,7 @@ import { rateLimit } from '@/lib/rate-limit';
 import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, NEWSLETTER_LIST } from '@/lib/auto-list';
-import { notifyNewsletterSignup } from '@/lib/telegram';
-import { pushToEasyReach } from '@/lib/easyreach';
+import { pushNewsletterToTracker } from '@/lib/tracker';
 
 // SOC 2 compliant rate limiting: 3 signups per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 3 });
@@ -69,12 +68,7 @@ export async function POST(req: NextRequest) {
 
       // Existing lead (e.g. from audit/contact) subscribing to newsletter for the first time
       await assignToList(existing.id, NEWSLETTER_LIST.name, NEWSLETTER_LIST.color);
-      await Promise.allSettled([
-        notifyNewsletterSignup(email),
-        pushToEasyReach({ source: 'newsletter', email }),
-      ]);
-
-      // Forward to EasyReach CRM (non-blocking)
+      await pushNewsletterToTracker(email);
 
       return NextResponse.json({ success: true });
     }
@@ -94,12 +88,8 @@ export async function POST(req: NextRequest) {
     // Auto-assign to Weekly Insights list
     await assignToList(lead.id, NEWSLETTER_LIST.name, NEWSLETTER_LIST.color);
 
-    // Notify via Telegram + EasyReach
-    await Promise.allSettled([
-      notifyNewsletterSignup(email),
-      pushToEasyReach({ source: 'newsletter', email }),
-    ]);
-
+    // Forward to the client job tracker subscriber list (non-blocking)
+    await pushNewsletterToTracker(email);
 
     return NextResponse.json({ success: true });
   } catch (err) {

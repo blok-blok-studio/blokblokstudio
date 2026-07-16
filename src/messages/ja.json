@@ -380,7 +380,6 @@
     "third_parties_title": "第三者サービス",
     "third_parties_intro": "当社は、以下の第三者サービスを使用して事業を運営しています：",
     "third_party_resend": "Resend — メール送信用",
-    "third_party_telegram": "Telegram — 社内チーム通知用（氏名とメールのみ）",
     "third_parties_note": "これらのサービスは、機能に必要な最小限のデータのみを受け取ります。",
     "retention_title": "データ保持",
     "retention_content": "当社は、サービス提供およびビジネス関係の維持に必要な期間、お客様の個人データを保持します。データ権利ページからいつでもデータの削除をリクエストできます。",

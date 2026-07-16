@@ -135,10 +135,6 @@ export function PrivacyContent() {
                 <span className="text-white/40 mt-1">•</span>
                 <span><strong className="text-white">Resend:</strong> For email delivery and communication</span>
               </li>
-              <li className="flex items-start gap-3">
-                <span className="text-white/40 mt-1">•</span>
-                <span><strong className="text-white">Telegram:</strong> For internal notifications about new inquiries</span>
-              </li>
             </ul>
             <p className="text-gray-400 leading-relaxed mt-4">
               These services are GDPR-compliant and process your data according to their own privacy policies.

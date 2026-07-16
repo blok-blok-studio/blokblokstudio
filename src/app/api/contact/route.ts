@@ -4,14 +4,14 @@ import { rateLimit } from '@/lib/rate-limit';
 import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, CONTACT_LIST } from '@/lib/auto-list';
-import { pushToEasyReach } from '@/lib/easyreach';
+import { pushLeadToTracker } from '@/lib/tracker';
 
 // SOC 2 compliant rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
 
 /**
  * POST /api/contact — Handle contact form submissions.
- * Creates a new lead from the contact form and sends a Telegram notification.
+ * Creates a new lead from the contact form and pushes it to the client job tracker.
  * Rate limited to prevent spam and abuse (SOC 2 requirement).
  */
 export async function POST(req: NextRequest) {
@@ -93,31 +93,14 @@ export async function POST(req: NextRequest) {
     // Auto-assign to Contact Inquiries list
     await assignToList(leadId, CONTACT_LIST.name, CONTACT_LIST.color);
 
-    // Send Telegram notification if configured
-    const botToken = process.env.TELEGRAM_BOT_TOKEN;
-    const chatId = process.env.TELEGRAM_CHAT_ID;
-    if (botToken && chatId && botToken !== 'YOUR_BOT_TOKEN_HERE') {
-      try {
-        const text = `New Contact Form Submission\n\nName: ${name}\nEmail: ${email}\nCompany: ${company || 'N/A'}\nMessage: ${message.slice(0, 500)}`;
-        await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ chat_id: chatId, text, parse_mode: 'HTML' }),
-        });
-      } catch { /* non-critical */ }
-    }
-
-    // Push to EasyReach CRM (fire-and-forget)
-    try {
-      await pushToEasyReach({
-        source: 'contact',
-        name,
-        email,
-        company,
-        message,
-        consent,
-      });
-    } catch { /* non-critical */ }
+    // Push to the client job tracker as a PROSPECT (fire-and-forget)
+    await pushLeadToTracker({
+      source: 'contact',
+      name,
+      email,
+      business: company || undefined,
+      summary: message,
+    });
     return NextResponse.json(
       { success: true },
       {

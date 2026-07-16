@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { notifyTelegram } from '@/lib/telegram';
 import { rateLimit } from '@/lib/rate-limit';
 import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, AUDIT_LIST } from '@/lib/auto-list';
-import { pushToEasyReach } from '@/lib/easyreach';
+import { pushLeadToTracker } from '@/lib/tracker';
 
 // Rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -126,28 +125,15 @@ export async function POST(req: NextRequest) {
       console.error('[Audit] Auto-enroll failed:', err);
     }
 
-    const leadData = {
+    // Push to the client job tracker as a PROSPECT (non-blocking)
+    await pushLeadToTracker({
+      source: 'funnel',
       name,
       email,
-      field,
-      website: noWebsite ? null : (website || null),
-      problem,
       business: business || undefined,
-    };
-
-    // Fire Telegram + EasyReach in parallel (non-blocking)
-    await Promise.allSettled([
-      notifyTelegram(leadData),
-      pushToEasyReach({
-        source: 'funnel',
-        name,
-        email,
-        field,
-        website: noWebsite ? null : (website || null),
-        message: problem,
-        consent,
-      }),
-    ]);
+      website: noWebsite ? null : (website || null),
+      summary: problem,
+    });
 
     return NextResponse.json({ success: true, id: lead.id });
   } catch (err) {

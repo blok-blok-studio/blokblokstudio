@@ -380,7 +380,6 @@
     "third_parties_title": "Third-Party Services",
     "third_parties_intro": "We use the following third-party services to operate our business:",
     "third_party_resend": "Resend, for sending email communications",
-    "third_party_telegram": "Telegram, for internal team notifications (limited to name and email)",
     "third_parties_note": "These services only receive the minimum data necessary for their functionality.",
     "retention_title": "Data Retention",
     "retention_content": "We retain your personal data for as long as necessary to provide our services and maintain our business relationship. You can request deletion of your data at any time through our Data Rights page.",
