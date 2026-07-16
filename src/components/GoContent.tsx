@@ -76,6 +76,7 @@ export function GoContent() {
   const router = useRouter();
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', business: '', service: '', _hp: '' });
   const [consent, setConsent] = useState(false);
+  const [emailOptIn, setEmailOptIn] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [timingToken] = useState(() => Date.now().toString(36));
@@ -130,6 +131,7 @@ export function GoContent() {
           noWebsite: true,
           problem: summary,
           consent: true,
+          emailOptIn,
           source: 'ads',
           _hp: formData._hp,
           _t: timingToken,
@@ -320,6 +322,19 @@ export function GoContent() {
               I agree to the{' '}
               <Link href="/privacy" target="_blank" className="text-gray-300 underline hover:text-white">Privacy Policy</Link>{' '}
               and consent to being contacted about my inquiry.
+            </span>
+          </label>
+
+          <label className="flex items-start gap-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={emailOptIn}
+              onChange={(e) => setEmailOptIn(e.target.checked)}
+              className="mt-0.5 h-4 w-4 rounded border-white/20 bg-white/5 accent-orange-500"
+            />
+            <span className="text-xs text-gray-500 leading-relaxed">
+              Yes, send me practical growth tips and occasional offers by email. Unsubscribe anytime.{' '}
+              <span className="text-gray-600">(optional)</span>
             </span>
           </label>
 

@@ -53,6 +53,9 @@ model Lead {
   consentGiven     Boolean   @default(false)
   consentTimestamp  DateTime?
   consentIp        String?
+  // Separate GDPR consent for marketing/outreach emails (never bundled
+  // with the inquiry-contact consent above)
+  marketingConsent Boolean   @default(false)
   unsubscribeToken String    @unique @default(uuid())
 
   createdAt DateTime @default(now())

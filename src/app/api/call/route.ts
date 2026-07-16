@@ -3,8 +3,8 @@ import { prisma } from '@/lib/prisma';
 import { rateLimit } from '@/lib/rate-limit';
 import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
-import { assignToList, AUDIT_LIST } from '@/lib/auto-list';
-import { pushLeadToTracker } from '@/lib/tracker';
+import { assignToList, AUDIT_LIST, NEWSLETTER_LIST } from '@/lib/auto-list';
+import { pushLeadToTracker, pushNewsletterToTracker } from '@/lib/tracker';
 
 // Rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -24,8 +24,9 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
-    const { name, email, field, website, noWebsite, problem, consent, _hp, _t, _cf, business, phone, source } = body;
+    const { name, email, field, website, noWebsite, problem, consent, _hp, _t, _cf, business, phone, source, emailOptIn } = body;
     const leadSource: 'funnel' | 'ads' = source === 'ads' ? 'ads' : 'funnel';
+    const marketingOptIn = emailOptIn === true;
 
     // Basic validation
     if (!name || !email || !field || !problem) {
@@ -81,6 +82,9 @@ export async function POST(req: NextRequest) {
         consentGiven: true,
         consentTimestamp: new Date(),
         consentIp,
+        // Only ever grant marketing consent here, never silently revoke —
+        // withdrawal goes through the unsubscribe flow
+        ...(marketingOptIn ? { marketingConsent: true } : {}),
       },
       create: {
         name,
@@ -93,11 +97,23 @@ export async function POST(req: NextRequest) {
         consentGiven: true,
         consentTimestamp: new Date(),
         consentIp,
+        marketingConsent: marketingOptIn,
       },
     });
 
     // Auto-assign to Audit Leads list
     await assignToList(lead.id, AUDIT_LIST.name, AUDIT_LIST.color);
+
+    // Explicit marketing opt-in: enroll in the newsletter list here and in
+    // the tracker's subscriber list (both non-blocking for the response)
+    if (marketingOptIn) {
+      try {
+        await assignToList(lead.id, NEWSLETTER_LIST.name, NEWSLETTER_LIST.color);
+      } catch (err) {
+        console.error('[Call] Newsletter list assign failed:', err);
+      }
+      await pushNewsletterToTracker(email);
+    }
 
     // Auto-enroll in designated sequence (if any)
     try {
@@ -134,7 +150,7 @@ export async function POST(req: NextRequest) {
       phone: phone || undefined,
       business: business || undefined,
       website: noWebsite ? null : (website || null),
-      summary: problem,
+      summary: marketingOptIn ? `${problem}\nEmail marketing opt-in: yes` : problem,
     });
 
     return NextResponse.json({ success: true, id: lead.id });
