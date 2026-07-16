@@ -29,6 +29,19 @@ export function CookieConsent() {
     if (!consent) {
       setShowBanner(true);
     }
+    // GDPR Art. 7(3): withdrawing consent must be as easy as giving it —
+    // footer "Cookie Settings" links reopen this banner in preferences view
+    // with the visitor's saved choices preloaded.
+    const reopen = () => {
+      try {
+        const saved = localStorage.getItem('cookie-consent');
+        if (saved) setPreferences(JSON.parse(saved));
+      } catch { /* fall back to defaults */ }
+      setShowPreferences(true);
+      setShowBanner(true);
+    };
+    window.addEventListener('open-cookie-settings', reopen);
+    return () => window.removeEventListener('open-cookie-settings', reopen);
   }, []);
 
   const saveAndClose = (prefs: CookiePreferences) => {

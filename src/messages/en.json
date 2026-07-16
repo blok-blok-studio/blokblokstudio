@@ -304,7 +304,7 @@
     "newsletter_title": "Stay in the Loop",
     "newsletter_placeholder": "Enter your email",
     "newsletter_button": "Subscribe",
-    "newsletter_subscribed": "Subscribed!",
+    "newsletter_subscribed": "Check your inbox to confirm!",
     "newsletter_already_subscribed": "You are already subscribed",
     "newsletter_consent": "By subscribing, you agree to our <link>Privacy Policy</link>. Unsubscribe anytime.",
     "back_to_top": "Back to top",
@@ -362,7 +362,7 @@
   "privacy": {
     "title": "Privacy Policy",
     "description": "How Blok Blok Studio collects, uses, and protects your personal data",
-    "last_updated": "Last Updated: February 2026",
+    "last_updated": "Last Updated: July 16, 2026",
     "intro_title": "Introduction",
     "intro_content": "At Blok Blok Studio, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.",
     "data_collection_title": "What Data We Collect",
@@ -411,12 +411,18 @@
     "transfers_resend": "Resend: Our email delivery provider may process data in the United States. Transfers are covered by Standard Contractual Clauses (SCCs).",
     "transfers_note": "We only transfer data to countries or organizations that provide an adequate level of protection or where appropriate safeguards (such as SCCs or binding corporate rules) are in place.",
     "authority_title": "Supervisory Authority",
-    "authority_content": "If you believe that our processing of your personal data violates the GDPR, you have the right to lodge a complaint with a supervisory authority in the EU member state of your habitual residence, place of work, or place of the alleged infringement. You may also contact us first so we can try to resolve the issue directly."
+    "authority_content": "If you believe that our processing of your personal data violates the GDPR, you have the right to lodge a complaint with a supervisory authority in the EU member state of your habitual residence, place of work, or place of the alleged infringement. You may also contact us first so we can try to resolve the issue directly.",
+    "third_party_vercel": "Vercel — website and application hosting (USA; data protection frameworks and SCCs apply)",
+    "third_party_slack": "Slack — internal notifications about new inquiries to our team (limited to name, email, phone, and business type)",
+    "third_party_turnstile": "Cloudflare Turnstile — spam protection on our forms (processes your IP address)",
+    "third_party_cal": "Cal.com — appointment scheduling when you book a call with us",
+    "third_party_meta": "Meta (Facebook/Instagram) — advertising measurement, only with your marketing-cookie consent. With that consent we may also transmit your email address and phone number in hashed (pseudonymized) form to measure ad conversions.",
+    "third_party_google": "Google — advertising measurement (Google Ads), only with your marketing-cookie consent"
   },
   "terms": {
     "title": "Terms of Service",
     "description": "Terms and conditions for using Blok Blok Studio services",
-    "last_updated": "Last Updated: February 2026",
+    "last_updated": "Last Updated: July 16, 2026",
     "acceptance_title": "Acceptance of Terms",
     "acceptance_content": "By accessing and using this website, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services.",
     "services_title": "Services",
@@ -443,7 +449,7 @@
   "cookies": {
     "title": "Cookie Policy",
     "description": "How Blok Blok Studio uses cookies and similar technologies",
-    "last_updated": "Last Updated: February 2026",
+    "last_updated": "Last Updated: July 16, 2026",
     "intro_title": "What Are Cookies",
     "intro_content": "Cookies are small text files stored on your device when you visit a website. They help websites remember your preferences and improve your browsing experience.",
     "our_use_title": "Our Use of Cookies",

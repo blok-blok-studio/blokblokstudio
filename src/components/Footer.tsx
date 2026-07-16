@@ -64,6 +64,7 @@ export function Footer() {
    * -------------------------------------------------------------------------- */
   const t = useTranslations('footer');
   const nav = useTranslations('nav');
+  const gdpr = useTranslations('gdpr');
   const a11y = useTranslations('a11y');
 
   /* --------------------------------------------------------------------------
@@ -255,6 +256,15 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <button
+                  type="button"
+                  onClick={() => window.dispatchEvent(new Event('open-cookie-settings'))}
+                  className="text-sm text-gray-400 hover:text-white transition-colors duration-300"
+                >
+                  {gdpr('manage_preferences')}
+                </button>
+              </li>
             </ul>
           </div>
 

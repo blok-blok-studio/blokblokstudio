@@ -3,9 +3,11 @@ import { prisma } from '@/lib/prisma';
 import { rateLimit } from '@/lib/rate-limit';
 import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
-import { assignToList, AUDIT_LIST, NEWSLETTER_LIST } from '@/lib/auto-list';
-import { pushLeadToTracker, pushNewsletterToTracker } from '@/lib/tracker';
+import { assignToList, AUDIT_LIST } from '@/lib/auto-list';
+import { pushLeadToTracker } from '@/lib/tracker';
 import { sendMetaLeadEvent } from '@/lib/meta-capi';
+import { sendMarketingConfirmEmail } from '@/lib/email';
+import { randomUUID } from 'crypto';
 
 // Rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -105,15 +107,15 @@ export async function POST(req: NextRequest) {
     // Auto-assign to Audit Leads list
     await assignToList(lead.id, AUDIT_LIST.name, AUDIT_LIST.color);
 
-    // Explicit marketing opt-in: enroll in the newsletter list here and in
-    // the tracker's subscriber list (both non-blocking for the response)
-    if (marketingOptIn) {
-      try {
-        await assignToList(lead.id, NEWSLETTER_LIST.name, NEWSLETTER_LIST.color);
-      } catch (err) {
-        console.error('[Call] Newsletter list assign failed:', err);
+    // Explicit marketing opt-in: double opt-in (UWG §7). The subscription
+    // only activates when the confirmation link is clicked — see
+    // /api/newsletter/confirm, which does the list + tracker enrollment.
+    if (marketingOptIn && !lead.marketingConsentConfirmed) {
+      const confirmToken = lead.marketingConfirmToken || randomUUID();
+      if (!lead.marketingConfirmToken) {
+        await prisma.lead.update({ where: { id: lead.id }, data: { marketingConfirmToken: confirmToken } });
       }
-      await pushNewsletterToTracker(email);
+      await sendMarketingConfirmEmail(email, name, confirmToken);
     }
 
     // Auto-enroll in designated sequence (if any)

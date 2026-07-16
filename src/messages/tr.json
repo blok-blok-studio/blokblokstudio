@@ -304,7 +304,7 @@
     "newsletter_title": "Stay in the Loop",
     "newsletter_placeholder": "Enter your email",
     "newsletter_button": "Subscribe",
-    "newsletter_subscribed": "Abone olundu!",
+    "newsletter_subscribed": "E-postanızdan onaylayın!",
     "newsletter_already_subscribed": "Zaten abonesiniz",
     "newsletter_consent": "Abone olarak <link>Gizlilik Politikamızı</link> kabul edersiniz. İstediğiniz zaman abonelikten çıkabilirsiniz.",
     "back_to_top": "Yukarı dön",
@@ -362,7 +362,7 @@
   "privacy": {
     "title": "Privacy Policy",
     "description": "How Blok Blok Studio collects, uses, and protects your personal data",
-    "last_updated": "Last Updated: February 2026",
+    "last_updated": "Last Updated: July 16, 2026",
     "intro_title": "Introduction",
     "intro_content": "At Blok Blok Studio, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.",
     "data_collection_title": "What Data We Collect",
@@ -401,7 +401,7 @@
   "terms": {
     "title": "Terms of Service",
     "description": "Terms and conditions for using Blok Blok Studio services",
-    "last_updated": "Last Updated: February 2026",
+    "last_updated": "Last Updated: July 16, 2026",
     "acceptance_title": "Acceptance of Terms",
     "acceptance_content": "By accessing and using this website, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services.",
     "services_title": "Services",
@@ -420,7 +420,7 @@
   "cookies": {
     "title": "Cookie Policy",
     "description": "How Blok Blok Studio uses cookies and similar technologies",
-    "last_updated": "Last Updated: February 2026",
+    "last_updated": "Last Updated: July 16, 2026",
     "intro_title": "What Are Cookies",
     "intro_content": "Cookies are small text files stored on your device when you visit a website. They help websites remember your preferences and improve your browsing experience.",
     "our_use_title": "Our Use of Cookies",

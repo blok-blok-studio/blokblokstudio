@@ -54,8 +54,12 @@ model Lead {
   consentTimestamp  DateTime?
   consentIp        String?
   // Separate GDPR consent for marketing/outreach emails (never bundled
-  // with the inquiry-contact consent above)
-  marketingConsent Boolean   @default(false)
+  // with the inquiry-contact consent above). Double opt-in: consent is
+  // only actionable once confirmed via the emailed link (UWG §7 proof).
+  marketingConsent            Boolean   @default(false)
+  marketingConsentConfirmed   Boolean   @default(false)
+  marketingConsentConfirmedAt DateTime?
+  marketingConfirmToken       String?   @unique
   unsubscribeToken String    @unique @default(uuid())
 
   createdAt DateTime @default(now())

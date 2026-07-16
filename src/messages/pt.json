@@ -304,7 +304,7 @@
     "newsletter_title": "Fique por Dentro",
     "newsletter_placeholder": "Digite seu email",
     "newsletter_button": "Inscrever-se",
-    "newsletter_subscribed": "Inscrito!",
+    "newsletter_subscribed": "Confirme no seu e-mail!",
     "newsletter_already_subscribed": "Você já está inscrito",
     "newsletter_consent": "Ao se inscrever, você concorda com a nossa <link>Política de Privacidade</link>. Cancele a qualquer momento.",
     "back_to_top": "Voltar ao topo",
@@ -362,7 +362,7 @@
   "privacy": {
     "title": "Política de Privacidade",
     "description": "Como o Blok Blok Studio coleta, usa e protege seus dados pessoais",
-    "last_updated": "Última Atualização: February 2026",
+    "last_updated": "Última Atualização: July 16, 2026",
     "intro_title": "Introdução",
     "intro_content": "No Blok Blok Studio, levamos sua privacidade a sério. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações quando você visita nosso site ou usa nossos serviços.",
     "data_collection_title": "Quais Dados Coletamos",
@@ -401,7 +401,7 @@
   "terms": {
     "title": "Termos de Serviço",
     "description": "Termos e condições para usar os serviços do Blok Blok Studio",
-    "last_updated": "Última Atualização: February 2026",
+    "last_updated": "Última Atualização: July 16, 2026",
     "acceptance_title": "Aceitação dos Termos",
     "acceptance_content": "Ao acessar e usar este site, você aceita e concorda em estar vinculado a estes Termos de Serviço. Se você não concordar com estes termos, por favor, não use nosso site ou serviços.",
     "services_title": "Serviços",
@@ -420,7 +420,7 @@
   "cookies": {
     "title": "Política de Cookies",
     "description": "Como o Blok Blok Studio usa cookies e tecnologias similares",
-    "last_updated": "Última Atualização: February 2026",
+    "last_updated": "Última Atualização: July 16, 2026",
     "intro_title": "O Que São Cookies",
     "intro_content": "Cookies são pequenos arquivos de texto armazenados em seu dispositivo quando você visita um site. Eles ajudam os sites a lembrar suas preferências e melhorar sua experiência de navegação.",
     "our_use_title": "Nosso Uso de Cookies",

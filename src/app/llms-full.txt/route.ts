@@ -75,13 +75,6 @@ export async function GET() {
     '- LinkedIn: https://www.linkedin.com/in/kylebtalley/',
     '- Instagram: https://www.instagram.com/ta11ey_/',
     '',
-    '## Stephen Darling, Senior Web Designer',
-    '',
-    '- Based in: Arlington, Virginia, USA',
-    '- Studied: Interactive Design and Computer Science at James Madison University',
-    '- Enjoys: Movies, Film Photography, Cooking',
-    '- Instagram: https://www.instagram.com/stephen.darling/',
-    '',
     '---',
     ''
   );

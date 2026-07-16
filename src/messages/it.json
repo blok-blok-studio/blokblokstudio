@@ -304,7 +304,7 @@
     "newsletter_title": "Resta Aggiornato",
     "newsletter_placeholder": "Inserisci la tua email",
     "newsletter_button": "Iscriviti",
-    "newsletter_subscribed": "Iscritto!",
+    "newsletter_subscribed": "Conferma via e-mail!",
     "newsletter_already_subscribed": "Sei già iscritto",
     "newsletter_consent": "Iscrivendoti, accetti la nostra <link>Informativa sulla Privacy</link>. Disiscriviti in qualsiasi momento.",
     "back_to_top": "Torna su",
@@ -362,7 +362,7 @@
   "privacy": {
     "title": "Informativa sulla Privacy",
     "description": "Come Blok Blok Studio raccoglie, utilizza e protegge i tuoi dati personali",
-    "last_updated": "Ultimo Aggiornamento: February 2026",
+    "last_updated": "Ultimo Aggiornamento: July 16, 2026",
     "intro_title": "Introduzione",
     "intro_content": "In Blok Blok Studio, prendiamo sul serio la tua privacy. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando visiti il nostro sito web o utilizzi i nostri servizi.",
     "data_collection_title": "Quali Dati Raccogliamo",
@@ -401,7 +401,7 @@
   "terms": {
     "title": "Termini di Servizio",
     "description": "Termini e condizioni per l'utilizzo dei servizi di Blok Blok Studio",
-    "last_updated": "Ultimo Aggiornamento: February 2026",
+    "last_updated": "Ultimo Aggiornamento: July 16, 2026",
     "acceptance_title": "Accettazione dei Termini",
     "acceptance_content": "Accedendo e utilizzando questo sito web, accetti e acconsenti a essere vincolato da questi Termini di Servizio. Se non sei d'accordo con questi termini, ti preghiamo di non utilizzare il nostro sito web o i nostri servizi.",
     "services_title": "Servizi",
@@ -420,7 +420,7 @@
   "cookies": {
     "title": "Politica sui Cookie",
     "description": "Come Blok Blok Studio utilizza i cookie e tecnologie simili",
-    "last_updated": "Ultimo Aggiornamento: February 2026",
+    "last_updated": "Ultimo Aggiornamento: July 16, 2026",
     "intro_title": "Cosa Sono i Cookie",
     "intro_content": "I cookie sono piccoli file di testo memorizzati sul tuo dispositivo quando visiti un sito web. Aiutano i siti web a ricordare le tue preferenze e migliorare la tua esperienza di navigazione.",
     "our_use_title": "Il Nostro Utilizzo dei Cookie",

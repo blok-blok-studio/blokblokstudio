@@ -304,7 +304,7 @@
     "newsletter_title": "Restez Informé",
     "newsletter_placeholder": "Entrez votre email",
     "newsletter_button": "S'abonner",
-    "newsletter_subscribed": "Inscrit !",
+    "newsletter_subscribed": "Confirmez via votre e-mail !",
     "newsletter_already_subscribed": "Vous êtes déjà inscrit",
     "newsletter_consent": "En vous inscrivant, vous acceptez notre <link>Politique de Confidentialité</link>. Désabonnement à tout moment.",
     "back_to_top": "Retour en haut",
@@ -362,7 +362,7 @@
   "privacy": {
     "title": "Politique de Confidentialité",
     "description": "Comment Blok Blok Studio collecte, utilise et protège vos données personnelles",
-    "last_updated": "Dernière Mise à Jour : February 2026",
+    "last_updated": "Dernière Mise à Jour : July 16, 2026",
     "intro_title": "Introduction",
     "intro_content": "Chez Blok Blok Studio, nous prenons votre vie privée au sérieux. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web ou utilisez nos services.",
     "data_collection_title": "Quelles Données Nous Collectons",
@@ -401,7 +401,7 @@
   "terms": {
     "title": "Conditions d'Utilisation",
     "description": "Conditions générales d'utilisation des services de Blok Blok Studio",
-    "last_updated": "Dernière Mise à Jour : February 2026",
+    "last_updated": "Dernière Mise à Jour : July 16, 2026",
     "acceptance_title": "Acceptation des Conditions",
     "acceptance_content": "En accédant et en utilisant ce site web, vous acceptez d'être lié par ces Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre site web ou nos services.",
     "services_title": "Services",
@@ -420,7 +420,7 @@
   "cookies": {
     "title": "Politique de Cookies",
     "description": "Comment Blok Blok Studio utilise les cookies et technologies similaires",
-    "last_updated": "Dernière Mise à Jour : February 2026",
+    "last_updated": "Dernière Mise à Jour : July 16, 2026",
     "intro_title": "Que Sont les Cookies",
     "intro_content": "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez un site web. Ils aident les sites web à mémoriser vos préférences et à améliorer votre expérience de navigation.",
     "our_use_title": "Notre Utilisation des Cookies",

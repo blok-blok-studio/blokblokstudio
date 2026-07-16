@@ -304,7 +304,7 @@
     "newsletter_title": "Bleiben Sie Informiert",
     "newsletter_placeholder": "E-Mail eingeben",
     "newsletter_button": "Abonnieren",
-    "newsletter_subscribed": "Angemeldet!",
+    "newsletter_subscribed": "Bitte bestätigen Sie per E-Mail!",
     "newsletter_already_subscribed": "Du bist bereits angemeldet",
     "newsletter_consent": "Mit deiner Anmeldung stimmst du unserer <link>Datenschutzerklärung</link> zu. Jederzeit abbestellbar.",
     "back_to_top": "Nach oben",
@@ -362,7 +362,7 @@
   "privacy": {
     "title": "Datenschutzerklärung",
     "description": "Wie Blok Blok Studio Ihre personenbezogenen Daten sammelt, verwendet und schützt",
-    "last_updated": "Letzte Aktualisierung: February 2026",
+    "last_updated": "Letzte Aktualisierung: July 16, 2026",
     "intro_title": "Einführung",
     "intro_content": "Bei Blok Blok Studio nehmen wir Ihre Privatsphäre ernst. Diese Datenschutzerklärung erklärt, wie wir Ihre Informationen sammeln, verwenden, offenlegen und schützen, wenn Sie unsere Website besuchen oder unsere Dienste nutzen.",
     "data_collection_title": "Welche Daten Wir Sammeln",
@@ -411,12 +411,18 @@
     "transfers_resend": "Resend: Unser E-Mail-Versanddienstleister verarbeitet Daten möglicherweise in den USA. Die Übermittlung ist durch Standardvertragsklauseln (SCCs) abgesichert.",
     "transfers_note": "Wir übermitteln Daten nur in Länder oder an Organisationen, die ein angemessenes Schutzniveau bieten oder bei denen geeignete Garantien (wie SCCs oder verbindliche interne Datenschutzvorschriften) bestehen.",
     "authority_title": "Aufsichtsbehörde",
-    "authority_content": "Wenn Sie der Ansicht sind, dass unsere Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt, haben Sie das Recht, sich bei einer Aufsichtsbehörde in dem EU-Mitgliedstaat Ihres gewöhnlichen Aufenthalts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu beschweren. Sie können sich auch zuerst an uns wenden, damit wir das Anliegen direkt klären können."
+    "authority_content": "Wenn Sie der Ansicht sind, dass unsere Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt, haben Sie das Recht, sich bei einer Aufsichtsbehörde in dem EU-Mitgliedstaat Ihres gewöhnlichen Aufenthalts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu beschweren. Sie können sich auch zuerst an uns wenden, damit wir das Anliegen direkt klären können.",
+    "third_party_vercel": "Vercel — Hosting unserer Website und Anwendungen (USA; Datenschutzrahmen und Standardvertragsklauseln finden Anwendung)",
+    "third_party_slack": "Slack — interne Benachrichtigungen über neue Anfragen an unser Team (beschränkt auf Name, E-Mail, Telefon und Branche)",
+    "third_party_turnstile": "Cloudflare Turnstile — Spam-Schutz für unsere Formulare (verarbeitet Ihre IP-Adresse)",
+    "third_party_cal": "Cal.com — Terminbuchung, wenn Sie einen Call mit uns vereinbaren",
+    "third_party_meta": "Meta (Facebook/Instagram) — Werbemessung, nur mit Ihrer Einwilligung in Marketing-Cookies. Mit dieser Einwilligung übermitteln wir ggf. auch Ihre E-Mail-Adresse und Telefonnummer in gehashter (pseudonymisierter) Form zur Messung von Anzeigen-Conversions.",
+    "third_party_google": "Google — Werbemessung (Google Ads), nur mit Ihrer Einwilligung in Marketing-Cookies"
   },
   "terms": {
     "title": "Nutzungsbedingungen",
     "description": "Allgemeine Geschäftsbedingungen für die Nutzung der Dienste von Blok Blok Studio",
-    "last_updated": "Letzte Aktualisierung: February 2026",
+    "last_updated": "Letzte Aktualisierung: July 16, 2026",
     "acceptance_title": "Annahme der Bedingungen",
     "acceptance_content": "Durch den Zugriff auf und die Nutzung dieser Website akzeptieren Sie diese Nutzungsbedingungen und verpflichten sich, an sie gebunden zu sein. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie bitte nicht unsere Website oder Dienste.",
     "services_title": "Dienstleistungen",
@@ -443,7 +449,7 @@
   "cookies": {
     "title": "Cookie-Richtlinie",
     "description": "Wie Blok Blok Studio Cookies und ähnliche Technologien verwendet",
-    "last_updated": "Letzte Aktualisierung: February 2026",
+    "last_updated": "Letzte Aktualisierung: July 16, 2026",
     "intro_title": "Was Sind Cookies",
     "intro_content": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, wenn Sie eine Website besuchen. Sie helfen Websites, sich an Ihre Einstellungen zu erinnern und Ihr Surferlebnis zu verbessern.",
     "our_use_title": "Unsere Verwendung von Cookies",

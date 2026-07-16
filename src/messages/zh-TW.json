@@ -304,7 +304,7 @@
     "newsletter_title": "訂閱動態",
     "newsletter_placeholder": "輸入您的郵箱",
     "newsletter_button": "訂閱",
-    "newsletter_subscribed": "已訂閱！",
+    "newsletter_subscribed": "請查收郵件確認!",
     "newsletter_already_subscribed": "您已訂閱",
     "newsletter_consent": "訂閱即表示您同意我們的<link>隱私政策</link>。可隨時取消訂閱。",
     "back_to_top": "回到頂部",
@@ -362,7 +362,7 @@
   "privacy": {
     "title": "隱私政策",
     "description": "Blok Blok Studio如何收集、使用和保護您的個人資料",
-    "last_updated": "最後更新：February 2026",
+    "last_updated": "最後更新：July 16, 2026",
     "intro_title": "簡介",
     "intro_content": "在Blok Blok Studio，我們非常重視您的隱私。本隱私政策解釋了當您訪問我們的網站或使用我們的服務時，我們如何收集、使用、披露和保護您的資訊。",
     "data_collection_title": "我們收集哪些資料",
@@ -401,7 +401,7 @@
   "terms": {
     "title": "服務條款",
     "description": "使用Blok Blok Studio服務的條款和條件",
-    "last_updated": "最後更新：February 2026",
+    "last_updated": "最後更新：July 16, 2026",
     "acceptance_title": "接受條款",
     "acceptance_content": "通過訪問和使用本網站，您接受並同意受這些服務條款的約束。如果您不同意這些條款，請不要使用我們的網站或服務。",
     "services_title": "服務",
@@ -420,7 +420,7 @@
   "cookies": {
     "title": "Cookie政策",
     "description": "Blok Blok Studio如何使用Cookie和類似技術",
-    "last_updated": "最後更新：February 2026",
+    "last_updated": "最後更新：July 16, 2026",
     "intro_title": "什麼是Cookie",
     "intro_content": "Cookie是您訪問網站時儲存在您裝置上的小型文本檔案。它們幫助網站記住您的偏好並改善您的瀏覽體驗。",
     "our_use_title": "我們對Cookie的使用",

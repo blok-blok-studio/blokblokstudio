@@ -83,7 +83,17 @@ export function PrivacyContent() {
         <AnimatedSection delay={0.25} className="mb-8 sm:mb-12">
           <Card title={t('third_parties_title')}>
             <p className="text-gray-400 leading-relaxed mb-4">{t('third_parties_intro')}</p>
-            <Bullets items={[t('third_party_resend')]} />
+            <Bullets
+              items={[
+                t('third_party_resend'),
+                t('third_party_vercel'),
+                t('third_party_slack'),
+                t('third_party_turnstile'),
+                t('third_party_cal'),
+                t('third_party_meta'),
+                t('third_party_google'),
+              ]}
+            />
             <p className="text-gray-400 leading-relaxed mt-4">{t('third_parties_note')}</p>
             <p className="text-gray-400 leading-relaxed mt-4">{t('third_party_pixels')}</p>
           </Card>

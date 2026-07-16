@@ -28,7 +28,6 @@ export async function GET() {
     '',
     '- **Chase Haynes**, Founder. Based in Berlin, Germany. Studied Design and Technology at Parsons School of Design.',
     '- **Kyle Talley**, Senior Graphic Designer. Based in Richmond, Virginia, USA. Studied Creative Advertising at Virginia Commonwealth University.',
-    '- **Stephen Darling**, Senior Web Designer. Based in Arlington, Virginia, USA. Studied Interactive Design and Computer Science at James Madison University.',
     '',
     '## Services',
     '',

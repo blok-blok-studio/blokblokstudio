@@ -139,3 +139,54 @@ export async function sendCampaignEmail({
     return false;
   }
 }
+
+/**
+ * Double opt-in confirmation for marketing emails (UWG §7 / GDPR proof).
+ * The subscription only becomes active when the recipient clicks the link.
+ */
+export async function sendMarketingConfirmEmail(to: string, name: string, token: string) {
+  const from = process.env.EMAIL_FROM || 'onboarding@resend.dev';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://blokblokstudio.com');
+  const confirmUrl = `${baseUrl}/api/newsletter/confirm?token=${token}`;
+
+  const html = `
+    <div style="font-family: -apple-system, sans-serif; max-width: 560px; margin: 0 auto; padding: 32px 24px;">
+      <h2 style="color: #f97316; margin-bottom: 8px;">Blok Blok Studio</h2>
+      <h1 style="font-size: 22px; margin: 0 0 16px;">Please confirm your subscription</h1>
+      <p style="color: #444; line-height: 1.6;">
+        Hi ${name || 'there'}, you asked to receive growth tips and occasional offers from Blok Blok Studio.
+        Click the button below to confirm — you won't receive marketing emails until you do.
+      </p>
+      <p style="color: #666; font-size: 13px; line-height: 1.6;">
+        Bitte bestätigen Sie Ihre Anmeldung: Klicken Sie auf den Button, um E-Mails von Blok Blok Studio
+        zu erhalten. Ohne Bestätigung senden wir Ihnen keine Marketing-E-Mails.
+      </p>
+      <p style="margin: 28px 0;">
+        <a href="${confirmUrl}"
+           style="background: #111; color: #fff; text-decoration: none; padding: 14px 32px; border-radius: 999px; font-weight: 600; display: inline-block;">
+          Confirm subscription / Anmeldung bestätigen
+        </a>
+      </p>
+      <p style="color: #999; font-size: 12px; line-height: 1.6;">
+        If you didn't request this, just ignore this email and nothing will be sent.<br/>
+        Falls Sie das nicht angefordert haben, ignorieren Sie diese E-Mail einfach.
+      </p>
+      <p style="color: #bbb; font-size: 11px; margin-top: 24px;">
+        Blok Blok Studio LLC · hello@blokblokstudio.com
+      </p>
+    </div>`;
+
+  try {
+    const { error } = await getResend().emails.send({
+      from: `Blok Blok Studio <${from}>`,
+      to,
+      subject: 'Please confirm your subscription / Bitte Anmeldung bestätigen',
+      html,
+      text: htmlToText(html) + `\n\nConfirm: ${confirmUrl}`,
+    });
+    if (error) console.error('[Email] Confirm email failed:', error);
+  } catch (err) {
+    console.error('[Email] Confirm email error:', err);
+  }
+}

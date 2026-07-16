@@ -304,7 +304,7 @@
     "newsletter_title": "Blijf op de Hoogte",
     "newsletter_placeholder": "Vul je e-mail in",
     "newsletter_button": "Abonneren",
-    "newsletter_subscribed": "Aangemeld!",
+    "newsletter_subscribed": "Bevestig via uw e-mail!",
     "newsletter_already_subscribed": "Je bent al aangemeld",
     "newsletter_consent": "Door je aan te melden, ga je akkoord met ons <link>Privacybeleid</link>. Op elk moment afmelden.",
     "back_to_top": "Naar boven",
@@ -362,7 +362,7 @@
   "privacy": {
     "title": "Privacyverklaring",
     "description": "Hoe Blok Blok Studio uw persoonlijke gegevens verzamelt, gebruikt en beschermt",
-    "last_updated": "Laatst Bijgewerkt: February 2026",
+    "last_updated": "Laatst Bijgewerkt: July 16, 2026",
     "intro_title": "Inleiding",
     "intro_content": "Bij Blok Blok Studio nemen we uw privacy serieus. Deze Privacyverklaring legt uit hoe we uw informatie verzamelen, gebruiken, openbaar maken en beschermen wanneer u onze website bezoekt of onze diensten gebruikt.",
     "data_collection_title": "Welke Gegevens We Verzamelen",
@@ -401,7 +401,7 @@
   "terms": {
     "title": "Servicevoorwaarden",
     "description": "Voorwaarden voor het gebruik van diensten van Blok Blok Studio",
-    "last_updated": "Laatst Bijgewerkt: February 2026",
+    "last_updated": "Laatst Bijgewerkt: July 16, 2026",
     "acceptance_title": "Acceptatie van Voorwaarden",
     "acceptance_content": "Door toegang te krijgen tot en gebruik te maken van deze website, accepteert u deze Servicevoorwaarden en stemt u ermee in eraan gebonden te zijn. Als u niet akkoord gaat met deze voorwaarden, gebruik dan onze website of diensten niet.",
     "services_title": "Diensten",
@@ -420,7 +420,7 @@
   "cookies": {
     "title": "Cookiebeleid",
     "description": "Hoe Blok Blok Studio cookies en vergelijkbare technologieën gebruikt",
-    "last_updated": "Laatst Bijgewerkt: February 2026",
+    "last_updated": "Laatst Bijgewerkt: July 16, 2026",
     "intro_title": "Wat Zijn Cookies",
     "intro_content": "Cookies zijn kleine tekstbestanden die op uw apparaat worden opgeslagen wanneer u een website bezoekt. Ze helpen websites uw voorkeuren te onthouden en uw browse-ervaring te verbeteren.",
     "our_use_title": "Ons Gebruik van Cookies",

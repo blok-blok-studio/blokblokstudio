@@ -4,7 +4,8 @@ import { rateLimit } from '@/lib/rate-limit';
 import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, NEWSLETTER_LIST } from '@/lib/auto-list';
-import { pushNewsletterToTracker } from '@/lib/tracker';
+import { sendMarketingConfirmEmail } from '@/lib/email';
+import { randomUUID } from 'crypto';
 
 // SOC 2 compliant rate limiting: 3 signups per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 3 });
@@ -66,11 +67,15 @@ export async function POST(req: NextRequest) {
         }
       }
 
-      // Existing lead (e.g. from audit/contact) subscribing to newsletter for the first time
-      await assignToList(existing.id, NEWSLETTER_LIST.name, NEWSLETTER_LIST.color);
-      await pushNewsletterToTracker(email);
+      // Existing lead subscribing for the first time: double opt-in.
+      // Enrollment happens in /api/newsletter/confirm once they click.
+      const confirmToken = existing.marketingConfirmToken || randomUUID();
+      if (!existing.marketingConfirmToken) {
+        await prisma.lead.update({ where: { id: existing.id }, data: { marketingConfirmToken: confirmToken, marketingConsent: true } });
+      }
+      await sendMarketingConfirmEmail(email, existing.name, confirmToken);
 
-      return NextResponse.json({ success: true });
+      return NextResponse.json({ success: true, confirm: true });
     }
 
     const lead = await prisma.lead.create({
@@ -82,16 +87,16 @@ export async function POST(req: NextRequest) {
         source: 'newsletter',
         consentGiven: true,
         consentTimestamp: new Date(),
+        marketingConsent: true,
+        marketingConfirmToken: randomUUID(),
       },
     });
 
-    // Auto-assign to Weekly Insights list
-    await assignToList(lead.id, NEWSLETTER_LIST.name, NEWSLETTER_LIST.color);
+    // Double opt-in: list + tracker enrollment happen only after the
+    // confirmation link is clicked (/api/newsletter/confirm)
+    await sendMarketingConfirmEmail(email, lead.name, lead.marketingConfirmToken!);
 
-    // Forward to the client job tracker subscriber list (non-blocking)
-    await pushNewsletterToTracker(email);
-
-    return NextResponse.json({ success: true });
+    return NextResponse.json({ success: true, confirm: true });
   } catch (err) {
     const errMsg = err instanceof Error ? err.message : String(err);
     return NextResponse.json({ error: `Signup failed: ${errMsg.slice(0, 200)}` }, { status: 500 });

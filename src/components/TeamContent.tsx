@@ -32,17 +32,6 @@ const teamMembers = [
       instagram: 'https://www.instagram.com/ta11ey_/',
     },
   },
-  {
-    name: 'Stephen Darling',
-    roleKey: 'role_web' as const,
-    location: 'Arlington, Virginia, USA',
-    studied: ['Interactive Design and Computer Science', 'James Madison University'],
-    enjoys: ['Movies', 'Film Photography', 'Cooking'],
-    socials: {
-      linkedin: '',
-      instagram: 'https://www.instagram.com/stephen.darling/',
-    },
-  },
 ];
 
 export function TeamContent() {
@@ -62,7 +51,7 @@ export function TeamContent() {
         </AnimatedSection>
 
         {/* Team Members, Codex-style Bio Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
           {teamMembers.map((member, i) => (
             <AnimatedSection key={i} delay={i * 0.15}>
               <motion.div

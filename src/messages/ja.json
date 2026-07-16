@@ -304,7 +304,7 @@
     "newsletter_title": "最新情報をお届け",
     "newsletter_placeholder": "メールアドレスを入力",
     "newsletter_button": "登録する",
-    "newsletter_subscribed": "登録完了!",
+    "newsletter_subscribed": "メールで確認してください!",
     "newsletter_already_subscribed": "すでに登録されています",
     "newsletter_consent": "登録することで、<link>プライバシーポリシー</link>に同意したものとみなされます。いつでも配信停止できます。",
     "back_to_top": "トップへ戻る",
@@ -362,7 +362,7 @@
   "privacy": {
     "title": "プライバシーポリシー",
     "description": "Blok Blok Studioが個人データをどのように収集、使用、保護するか",
-    "last_updated": "最終更新：February 2026",
+    "last_updated": "最終更新：July 16, 2026",
     "intro_title": "はじめに",
     "intro_content": "Blok Blok Studioでは、お客様のプライバシーを真剣に考えています。このプライバシーポリシーは、お客様が当社のウェブサイトにアクセスまたはサービスを利用する際に、当社がどのように情報を収集、使用、開示、保護するかを説明しています。",
     "data_collection_title": "収集するデータ",
@@ -401,7 +401,7 @@
   "terms": {
     "title": "利用規約",
     "description": "Blok Blok Studioサービス利用のための規約と条件",
-    "last_updated": "最終更新：February 2026",
+    "last_updated": "最終更新：July 16, 2026",
     "acceptance_title": "規約の承認",
     "acceptance_content": "このウェブサイトにアクセスして使用することにより、お客様はこれらの利用規約に拘束されることを承諾し同意します。これらの規約に同意されない場合は、当社のウェブサイトまたはサービスを使用しないでください。",
     "services_title": "サービス",
@@ -420,7 +420,7 @@
   "cookies": {
     "title": "クッキーポリシー",
     "description": "Blok Blok Studioがクッキーおよび類似技術をどのように使用するか",
-    "last_updated": "最終更新：February 2026",
+    "last_updated": "最終更新：July 16, 2026",
     "intro_title": "クッキーとは",
     "intro_content": "クッキーは、ウェブサイトにアクセスしたときにデバイスに保存される小さなテキストファイルです。ウェブサイトがお客様の設定を記憶し、ブラウジング体験を向上させるのに役立ちます。",
     "our_use_title": "当社のクッキーの使用",
