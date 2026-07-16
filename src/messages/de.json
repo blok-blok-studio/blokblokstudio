@@ -396,7 +396,22 @@
     "your_rights_cta": "Üben Sie Ihre Rechte auf unserer",
     "your_rights_link": "Seite Datenrechte aus",
     "contact_title": "Kontaktieren Sie Uns",
-    "contact_content": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder zur Handhabung Ihrer Daten haben, kontaktieren Sie uns unter:"
+    "contact_content": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder zur Handhabung Ihrer Daten haben, kontaktieren Sie uns unter:",
+    "data_item_phone": "Telefonnummer",
+    "third_party_pixels": "Werbe-Pixel (Meta, Google) laden wir nur, wenn Sie Marketing-Cookies in unserem Einwilligungsbanner ausdrücklich akzeptieren; andernfalls kommen keine Tracking-Cookies oder Analysedienste zum Einsatz.",
+    "legal_basis_title": "Rechtsgrundlagen der Verarbeitung",
+    "legal_basis_intro": "Nach Artikel 6 DSGVO verarbeiten wir Ihre personenbezogenen Daten auf Grundlage der folgenden Rechtsgrundlagen:",
+    "legal_basis_consent": "Einwilligung (Art. 6 Abs. 1 lit. a): Wenn Sie unseren Newsletter abonnieren oder ein Kontaktformular mit ausdrücklicher Einwilligung absenden",
+    "legal_basis_contract": "Vertragserfüllung (Art. 6 Abs. 1 lit. b): Wenn die Verarbeitung zur Erfüllung eines Dienstleistungsvertrags mit Ihnen erforderlich ist",
+    "legal_basis_interest": "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f): Für interne Analysen, die Verbesserung unserer Dienstleistungen und den Schutz der Sicherheit unserer Website",
+    "legal_basis_withdraw": "Sie können Ihre Einwilligung jederzeit widerrufen, ohne dass die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung berührt wird.",
+    "transfers_title": "Internationale Datenübermittlung",
+    "transfers_intro": "Einige unserer Drittanbieter verarbeiten Ihre Daten möglicherweise außerhalb des Europäischen Wirtschaftsraums (EWR). In diesen Fällen stellen wir geeignete Garantien sicher:",
+    "transfers_vercel": "Vercel: Unser Hosting-Anbieter verarbeitet Daten möglicherweise in den USA. Vercel hält die geltenden Datenschutzrahmen ein.",
+    "transfers_resend": "Resend: Unser E-Mail-Versanddienstleister verarbeitet Daten möglicherweise in den USA. Die Übermittlung ist durch Standardvertragsklauseln (SCCs) abgesichert.",
+    "transfers_note": "Wir übermitteln Daten nur in Länder oder an Organisationen, die ein angemessenes Schutzniveau bieten oder bei denen geeignete Garantien (wie SCCs oder verbindliche interne Datenschutzvorschriften) bestehen.",
+    "authority_title": "Aufsichtsbehörde",
+    "authority_content": "Wenn Sie der Ansicht sind, dass unsere Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt, haben Sie das Recht, sich bei einer Aufsichtsbehörde in dem EU-Mitgliedstaat Ihres gewöhnlichen Aufenthalts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu beschweren. Sie können sich auch zuerst an uns wenden, damit wir das Anliegen direkt klären können."
   },
   "terms": {
     "title": "Nutzungsbedingungen",
@@ -415,7 +430,15 @@
     "governing_law_title": "Anwendbares Recht",
     "governing_law_content": "Diese Bedingungen unterliegen den geltenden Gesetzen und werden in Übereinstimmung mit diesen ausgelegt. Streitigkeiten werden durch gutgläubige Verhandlungen gelöst, bevor formelle rechtliche Schritte eingeleitet werden.",
     "changes_title": "Änderungen der Bedingungen",
-    "changes_content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen werden auf dieser Seite mit einem aktualisierten Datum veröffentlicht. Die fortgesetzte Nutzung unserer Website nach Änderungen stellt die Annahme der überarbeiteten Bedingungen dar."
+    "changes_content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen werden auf dieser Seite mit einem aktualisierten Datum veröffentlicht. Die fortgesetzte Nutzung unserer Website nach Änderungen stellt die Annahme der überarbeiteten Bedingungen dar.",
+    "dispute_title": "Streitbeilegung",
+    "dispute_intro": "Bei Streitigkeiten aus diesen Bedingungen bitten wir Sie, uns zunächst zu kontaktieren, um eine gütliche Einigung zu erzielen. Kommt eine informelle Lösung nicht zustande, gilt folgendes Verfahren:",
+    "dispute_informal": "Informelle Beilegung: Kontaktieren Sie uns unter hello@blokblokstudio.com. Wir bemühen uns, die Angelegenheit innerhalb von 30 Tagen zu klären.",
+    "dispute_formal": "Förmliches Verfahren: Scheitert die informelle Beilegung, werden Streitigkeiten vor den zuständigen Gerichten in Deutschland entschieden.",
+    "dispute_eu": "EU-Verbraucher: Als Verbraucher in der EU können Sie auch die Plattform zur Online-Streitbeilegung der Europäischen Kommission nutzen.",
+    "severability_title": "Salvatorische Klausel",
+    "severability_content": "Sollte eine Bestimmung dieser Nutzungsbedingungen von einem zuständigen Gericht für ungültig, rechtswidrig oder nicht durchsetzbar erklärt werden, bleiben die übrigen Bestimmungen in vollem Umfang wirksam. Die ungültige oder nicht durchsetzbare Bestimmung wird nur so weit wie nötig angepasst, um sie wirksam und durchsetzbar zu machen und dabei die ursprüngliche Absicht der Parteien zu wahren.",
+    "changes_contact": "Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie uns bitte unter"
   },
   "cookies": {
     "title": "Cookie-Richtlinie",
@@ -430,7 +453,21 @@
     "control_title": "Verwaltung von Cookies",
     "control_content": "Sie können Cookies über Ihre Browsereinstellungen steuern. Die meisten Browser ermöglichen es Ihnen, Cookies zu blockieren oder zu löschen. Beachten Sie, dass das Löschen von localStorage Ihre Cookie-Einwilligungspräferenz zurücksetzt.",
     "updates_title": "Richtlinienaktualisierungen",
-    "updates_content": "Falls wir in Zukunft Analyse- oder Tracking-Technologien einsetzen, werden wir diese Richtlinie aktualisieren und Sie über unser Cookie-Einwilligungsbanner informieren, bevor ein Tracking stattfindet."
+    "updates_content": "Falls wir in Zukunft Analyse- oder Tracking-Technologien einsetzen, werden wir diese Richtlinie aktualisieren und Sie über unser Cookie-Einwilligungsbanner informieren, bevor ein Tracking stattfindet.",
+    "storage_title": "Cookie- und Speicherdetails",
+    "storage_intro": "Nachfolgend finden Sie eine vollständige Liste der auf dieser Website verwendeten Cookies und Local-Storage-Einträge:",
+    "table_name": "Name",
+    "table_type": "Typ",
+    "table_purpose": "Zweck",
+    "table_category": "Kategorie",
+    "table_duration": "Dauer",
+    "storage_consent_purpose": "Speichert Ihre Cookie-Einstellungen (notwendig, Analyse, Marketing)",
+    "storage_country_purpose": "Speichert Ihr Land (abgeleitet aus Ihrer IP-Region), damit das Einwilligungsverhalten dem lokalen Recht folgt",
+    "storage_locale_purpose": "Speichert Ihre gewählte Sprache",
+    "cat_essential": "Notwendig",
+    "dur_persistent": "Dauerhaft",
+    "dur_30d": "30 Tage",
+    "storage_note": "Sie können Ihre Cookie-Einstellungen jederzeit über das Cookie-Banner verwalten. Zum Zurücksetzen löschen Sie den localStorage Ihres Browsers."
   },
   "start": {
     "meta_title": "Lass uns einen Kaffee trinken | Blok Blok Studio",

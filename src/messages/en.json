@@ -396,7 +396,22 @@
     "your_rights_cta": "Exercise your rights on our",
     "your_rights_link": "Data Rights page",
     "contact_title": "Contact Us",
-    "contact_content": "If you have questions about this Privacy Policy or how we handle your data, contact us at:"
+    "contact_content": "If you have questions about this Privacy Policy or how we handle your data, contact us at:",
+    "data_item_phone": "Phone number",
+    "third_party_pixels": "We only load advertising pixels (Meta, Google) if you explicitly accept marketing cookies in our consent banner; otherwise no tracking cookies or analytics services are used.",
+    "legal_basis_title": "Legal Basis for Processing",
+    "legal_basis_intro": "Under Article 6 of the GDPR, we process your personal data based on the following legal grounds:",
+    "legal_basis_consent": "Consent (Art. 6(1)(a)): When you subscribe to our newsletter or submit a contact form with explicit consent",
+    "legal_basis_contract": "Contractual Necessity (Art. 6(1)(b)): When processing is necessary to fulfill a service agreement with you",
+    "legal_basis_interest": "Legitimate Interest (Art. 6(1)(f)): For internal analytics, improving our services, and protecting the security of our website",
+    "legal_basis_withdraw": "You may withdraw your consent at any time without affecting the lawfulness of processing carried out before withdrawal.",
+    "transfers_title": "International Data Transfers",
+    "transfers_intro": "Some of our third-party service providers may process your data outside the European Economic Area (EEA). When this occurs, we ensure appropriate safeguards are in place:",
+    "transfers_vercel": "Vercel: Our hosting provider may process data in the United States. Vercel complies with applicable data protection frameworks.",
+    "transfers_resend": "Resend: Our email delivery provider may process data in the United States. Transfers are covered by Standard Contractual Clauses (SCCs).",
+    "transfers_note": "We only transfer data to countries or organizations that provide an adequate level of protection or where appropriate safeguards (such as SCCs or binding corporate rules) are in place.",
+    "authority_title": "Supervisory Authority",
+    "authority_content": "If you believe that our processing of your personal data violates the GDPR, you have the right to lodge a complaint with a supervisory authority in the EU member state of your habitual residence, place of work, or place of the alleged infringement. You may also contact us first so we can try to resolve the issue directly."
   },
   "terms": {
     "title": "Terms of Service",
@@ -415,7 +430,15 @@
     "governing_law_title": "Governing Law",
     "governing_law_content": "These terms are governed by and construed in accordance with applicable laws. Any disputes shall be resolved through good-faith negotiation before pursuing formal legal action.",
     "changes_title": "Changes to Terms",
-    "changes_content": "We reserve the right to modify these terms at any time. Changes will be posted on this page with an updated date. Continued use of our website after changes constitutes acceptance of the revised terms."
+    "changes_content": "We reserve the right to modify these terms at any time. Changes will be posted on this page with an updated date. Continued use of our website after changes constitutes acceptance of the revised terms.",
+    "dispute_title": "Dispute Resolution",
+    "dispute_intro": "In the event of a dispute arising from these terms, we encourage you to contact us first to seek an amicable resolution. If a resolution cannot be reached informally, the following process applies:",
+    "dispute_informal": "Informal Resolution: Contact us at hello@blokblokstudio.com. We will attempt to resolve the matter within 30 days.",
+    "dispute_formal": "Formal Proceedings: If informal resolution fails, disputes will be resolved through the competent courts of Germany.",
+    "dispute_eu": "EU Consumers: If you are a consumer in the EU, you may also use the European Commission's Online Dispute Resolution platform.",
+    "severability_title": "Severability",
+    "severability_content": "If any provision of these Terms of Service is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, the remaining provisions shall continue in full force and effect. The invalid or unenforceable provision will be modified to the minimum extent necessary to make it valid and enforceable while preserving the original intent of the parties.",
+    "changes_contact": "If you have any questions about these Terms of Service, please contact us at"
   },
   "cookies": {
     "title": "Cookie Policy",
@@ -430,7 +453,21 @@
     "control_title": "Managing Cookies",
     "control_content": "You can control cookies through your browser settings. Most browsers allow you to block or delete cookies. Note that clearing localStorage will reset your cookie consent preference.",
     "updates_title": "Policy Updates",
-    "updates_content": "If we begin using analytics or tracking technologies in the future, we will update this policy and notify you through our cookie consent banner before any tracking occurs."
+    "updates_content": "If we begin using analytics or tracking technologies in the future, we will update this policy and notify you through our cookie consent banner before any tracking occurs.",
+    "storage_title": "Cookie & Storage Details",
+    "storage_intro": "Below is a complete list of cookies and local storage items used on this website:",
+    "table_name": "Name",
+    "table_type": "Type",
+    "table_purpose": "Purpose",
+    "table_category": "Category",
+    "table_duration": "Duration",
+    "storage_consent_purpose": "Stores your cookie preferences (essential, analytics, marketing)",
+    "storage_country_purpose": "Remembers your country (derived from your IP region) so consent behavior follows local law",
+    "storage_locale_purpose": "Stores your chosen language",
+    "cat_essential": "Essential",
+    "dur_persistent": "Persistent",
+    "dur_30d": "30 days",
+    "storage_note": "You can manage your cookie preferences at any time using the cookie banner. To reset preferences, clear your browser's localStorage."
   },
   "start": {
     "meta_title": "Let's grab coffee | Blok Blok Studio",

@@ -92,9 +92,33 @@ export default getRequestConfig(async () => {
 
   const locale: SupportedLocale = fromCookie ?? parseAcceptLanguage(acceptLanguage);
 
-  return {
-    locale,
-    // Dynamically imports the matching translation file (e.g., /src/messages/de.json)
-    messages: (await import(`../messages/${locale}.json`)).default,
-  };
+  // English is deep-merged underneath every locale so a key that hasn't
+  // been translated yet falls back to English instead of rendering a raw
+  // key path.
+  const en = (await import('../messages/en.json')).default;
+  const messages =
+    locale === 'en'
+      ? en
+      : deepMerge(en as unknown as Messages, (await import(`../messages/${locale}.json`)).default as unknown as Messages);
+
+  return { locale, messages };
 });
+
+type Messages = { [key: string]: unknown };
+
+function deepMerge(base: Messages, override: Messages): Messages {
+  const out: Messages = { ...base };
+  for (const [key, value] of Object.entries(override)) {
+    const existing = out[key];
+    // Arrays (e.g. faq.items) are replaced wholesale by the locale's version
+    if (
+      value && typeof value === 'object' && !Array.isArray(value) &&
+      existing && typeof existing === 'object' && !Array.isArray(existing)
+    ) {
+      out[key] = deepMerge(existing as Messages, value as Messages);
+    } else {
+      out[key] = value;
+    }
+  }
+  return out;
+}

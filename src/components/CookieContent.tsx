@@ -1,23 +1,7 @@
 /* ==========================================================================
- * CookieContent.tsx
- * ==========================================================================
- *
- * Cookie Policy Page -- Full page content
- *
- * This component renders the Cookie Policy page. Blok Blok Studio uses
- * minimal cookies (localStorage for consent preferences only), so this
- * policy is intentionally brief and transparent.
- *
- * Sections:
- *   1. Hero (title + last updated date)
- *   2. What Are Cookies
- *   3. Our Use of Cookies (localStorage only, no tracking)
- *   4. Third-Party Cookies (none currently)
- *   5. Managing Cookies
- *   6. Policy Updates
- *
- * All user-facing strings are pulled from the "cookies" translation namespace
- * via next-intl.
+ * CookieContent.tsx — Cookie Policy page.
+ * Fully localized: every user-facing string comes from the "cookies"
+ * translation namespace (with English fallback for untranslated keys).
  * ========================================================================== */
 
 'use client';
@@ -25,177 +9,117 @@
 import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
 
+function Card({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8">
+      <h2 className="text-2xl font-bold mb-4">{title}</h2>
+      {children}
+    </div>
+  );
+}
+
 export function CookieContent() {
   const t = useTranslations('cookies');
+
+  const storageRows = [
+    {
+      name: 'cookie-consent',
+      type: 'localStorage',
+      purpose: t('storage_consent_purpose'),
+      category: t('cat_essential'),
+      duration: t('dur_persistent'),
+    },
+    {
+      name: 'NEXT_LOCALE',
+      type: 'Cookie',
+      purpose: t('storage_locale_purpose'),
+      category: t('cat_essential'),
+      duration: t('dur_persistent'),
+    },
+    {
+      name: 'bb_country',
+      type: 'Cookie',
+      purpose: t('storage_country_purpose'),
+      category: t('cat_essential'),
+      duration: t('dur_30d'),
+    },
+  ];
 
   return (
     <section className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-5 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-
-        {/* ==================================================================
-         * 1. HERO SECTION
-         * ================================================================== */}
+        {/* Hero */}
         <AnimatedSection className="text-center mb-12 sm:mb-16">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6">
-            Cookie Policy
-          </h1>
-          <p className="text-gray-400 text-sm sm:text-base">
-            Last updated: February 13, 2026
-          </p>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6">{t('title')}</h1>
+          <p className="text-gray-400 text-sm sm:text-base">{t('last_updated')}</p>
         </AnimatedSection>
 
-        {/* ==================================================================
-         * 2. WHAT ARE COOKIES
-         * ================================================================== */}
+        {/* What are cookies */}
         <AnimatedSection delay={0.1} className="mb-8 sm:mb-12">
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8">
-            <h2 className="text-2xl font-bold mb-4">What Are Cookies</h2>
-            <p className="text-gray-400 leading-relaxed">
-              Cookies are small text files that are stored on your device when you visit a website. They are
-              widely used to make websites work more efficiently and provide information to website owners.
-              Cookies can be "session" cookies (deleted when you close your browser) or "persistent" cookies
-              (remain on your device for a set period).
-            </p>
-          </div>
+          <Card title={t('intro_title')}>
+            <p className="text-gray-400 leading-relaxed">{t('intro_content')}</p>
+          </Card>
         </AnimatedSection>
 
-        {/* ==================================================================
-         * 3. OUR USE OF COOKIES
-         * ================================================================== */}
+        {/* Our use of cookies */}
         <AnimatedSection delay={0.15} className="mb-8 sm:mb-12">
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8">
-            <h2 className="text-2xl font-bold mb-4">Our Use of Cookies</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              Blok Blok Studio takes a privacy-first approach. We use minimal cookies and tracking on our website:
-            </p>
-            <ul className="space-y-3 text-gray-400">
-              <li className="flex items-start gap-3">
-                <span className="text-white/40 mt-1">&bull;</span>
-                <span><strong className="text-white">Cookie Consent Preference:</strong> We use localStorage to remember your cookie preferences (essential, analytics, marketing categories). This is essential for complying with GDPR and respecting your choice.</span>
-              </li>
-            </ul>
-            <p className="text-gray-400 leading-relaxed mt-4">
-              <strong className="text-white">We do not use:</strong>
-            </p>
-            <ul className="space-y-2 text-gray-400 mt-2">
-              <li className="flex items-start gap-3">
-                <span className="text-white/40 mt-1">&bull;</span>
-                <span>Analytics or tracking cookies (e.g., Google Analytics)</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-white/40 mt-1">&bull;</span>
-                <span>Advertising cookies</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-white/40 mt-1">&bull;</span>
-                <span>Third-party tracking scripts</span>
-              </li>
-            </ul>
-          </div>
+          <Card title={t('our_use_title')}>
+            <p className="text-gray-400 leading-relaxed">{t('our_use_content')}</p>
+          </Card>
         </AnimatedSection>
 
-        {/* ==================================================================
-         * 3b. COOKIE / STORAGE TABLE
-         * ================================================================== */}
-        <AnimatedSection delay={0.17} className="mb-8 sm:mb-12">
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8">
-            <h2 className="text-2xl font-bold mb-4">Cookie &amp; Storage Details</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              Below is a complete list of cookies and local storage items used on this website:
-            </p>
+        {/* Storage details table */}
+        <AnimatedSection delay={0.2} className="mb-8 sm:mb-12">
+          <Card title={t('storage_title')}>
+            <p className="text-gray-400 leading-relaxed mb-4">{t('storage_intro')}</p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm text-left">
                 <thead>
                   <tr className="border-b border-white/10">
-                    <th className="text-white font-medium py-3 pr-4">Name</th>
-                    <th className="text-white font-medium py-3 pr-4">Type</th>
-                    <th className="text-white font-medium py-3 pr-4">Purpose</th>
-                    <th className="text-white font-medium py-3 pr-4">Category</th>
-                    <th className="text-white font-medium py-3">Duration</th>
+                    <th className="text-white font-medium py-3 pr-4">{t('table_name')}</th>
+                    <th className="text-white font-medium py-3 pr-4">{t('table_type')}</th>
+                    <th className="text-white font-medium py-3 pr-4">{t('table_purpose')}</th>
+                    <th className="text-white font-medium py-3 pr-4">{t('table_category')}</th>
+                    <th className="text-white font-medium py-3">{t('table_duration')}</th>
                   </tr>
                 </thead>
                 <tbody className="text-gray-400">
-                  <tr className="border-b border-white/5">
-                    <td className="py-3 pr-4 font-mono text-xs text-gray-300">cookie-consent</td>
-                    <td className="py-3 pr-4">localStorage</td>
-                    <td className="py-3 pr-4">Stores your cookie preferences (essential, analytics, marketing)</td>
-                    <td className="py-3 pr-4">Essential</td>
-                    <td className="py-3">Persistent</td>
-                  </tr>
+                  {storageRows.map((row) => (
+                    <tr key={row.name} className="border-b border-white/5">
+                      <td className="py-3 pr-4 font-mono text-xs text-gray-300">{row.name}</td>
+                      <td className="py-3 pr-4">{row.type}</td>
+                      <td className="py-3 pr-4">{row.purpose}</td>
+                      <td className="py-3 pr-4">{row.category}</td>
+                      <td className="py-3">{row.duration}</td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
-            <p className="text-gray-500 text-xs mt-4">
-              You can manage your cookie preferences at any time using the cookie banner. To reset preferences, clear your browser&apos;s localStorage.
-            </p>
-          </div>
+            <p className="text-gray-500 text-xs mt-4">{t('storage_note')}</p>
+          </Card>
         </AnimatedSection>
 
-        {/* ==================================================================
-         * 4. THIRD-PARTY COOKIES
-         * ================================================================== */}
-        <AnimatedSection delay={0.2} className="mb-8 sm:mb-12">
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8">
-            <h2 className="text-2xl font-bold mb-4">Third-Party Cookies</h2>
-            <p className="text-gray-400 leading-relaxed">
-              If you accept marketing cookies in our consent banner, we load Meta (Facebook) and Google
-              advertising pixels to measure the performance of our ad campaigns. If you decline, no
-              third-party cookies are set when you visit our website. You can change your choice at any
-              time by clearing your browser&apos;s localStorage for this site.
-            </p>
-          </div>
-        </AnimatedSection>
-
-        {/* ==================================================================
-         * 5. MANAGING COOKIES
-         * ================================================================== */}
+        {/* Third-party cookies */}
         <AnimatedSection delay={0.25} className="mb-8 sm:mb-12">
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8">
-            <h2 className="text-2xl font-bold mb-4">Managing Cookies</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              You have full control over cookies on your device:
-            </p>
-            <ul className="space-y-3 text-gray-400">
-              <li className="flex items-start gap-3">
-                <span className="text-white/40 mt-1">•</span>
-                <span><strong className="text-white">Browser Settings:</strong> Most web browsers allow you to control cookies through their settings. You can set your browser to refuse cookies or delete cookies that have already been set.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-white/40 mt-1">•</span>
-                <span><strong className="text-white">Our Cookie Banner:</strong> You can accept or decline cookies through the banner that appears on your first visit to our site.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-white/40 mt-1">•</span>
-                <span><strong className="text-white">Change Your Preference:</strong> Clear your browser's localStorage to reset your cookie consent preference.</span>
-              </li>
-            </ul>
-            <p className="text-gray-400 leading-relaxed mt-4">
-              Please note that blocking or deleting cookies may impact your experience on our website, though
-              given our minimal use of cookies, the impact should be negligible.
-            </p>
-          </div>
+          <Card title={t('third_party_title')}>
+            <p className="text-gray-400 leading-relaxed">{t('third_party_content')}</p>
+          </Card>
         </AnimatedSection>
 
-        {/* ==================================================================
-         * 6. POLICY UPDATES
-         * ================================================================== */}
-        <AnimatedSection delay={0.3}>
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8">
-            <h2 className="text-2xl font-bold mb-4">Policy Updates</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              We may update this Cookie Policy from time to time to reflect changes in our practices or for
-              legal or regulatory reasons. When we make changes, we will update the "Last updated" date at
-              the top of this page.
-            </p>
-            <p className="text-gray-400 leading-relaxed">
-              If you have questions about our use of cookies, please contact us at{' '}
-              <a href="mailto:hello@blokblokstudio.com" className="text-white hover:text-white/80 underline transition-colors">
-                hello@blokblokstudio.com
-              </a>
-            </p>
-          </div>
+        {/* Managing cookies */}
+        <AnimatedSection delay={0.3} className="mb-8 sm:mb-12">
+          <Card title={t('control_title')}>
+            <p className="text-gray-400 leading-relaxed">{t('control_content')}</p>
+          </Card>
         </AnimatedSection>
 
+        {/* Policy updates */}
+        <AnimatedSection delay={0.35}>
+          <Card title={t('updates_title')}>
+            <p className="text-gray-400 leading-relaxed">{t('updates_content')}</p>
+          </Card>
+        </AnimatedSection>
       </div>
     </section>
   );
