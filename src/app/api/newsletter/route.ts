@@ -98,7 +98,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true, confirm: true });
   } catch (err) {
-    const errMsg = err instanceof Error ? err.message : String(err);
-    return NextResponse.json({ error: `Signup failed: ${errMsg.slice(0, 200)}` }, { status: 500 });
+    console.error('[Newsletter] Signup failed:', err);
+    return NextResponse.json({ error: 'Signup failed. Please try again.' }, { status: 500 });
   }
 }

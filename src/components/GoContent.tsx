@@ -206,8 +206,8 @@ export function GoContent() {
         </p>
 
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
-          {/* ── Left: pitch ── */}
-          <div>
+          {/* ── Left column: hero ── */}
+          <div className="lg:col-start-1">
             <AnimatedSection>
               <p className="inline-block text-[11px] sm:text-xs uppercase tracking-[0.2em] text-orange-400/80 border border-orange-500/20 bg-orange-500/[0.06] rounded-full px-3 py-1 mb-5">
                 Free growth plan for your business
@@ -224,11 +224,28 @@ export function GoContent() {
               </p>
             </AnimatedSection>
 
-            {/* Mobile: form comes right after the headline */}
-            <div className="lg:hidden mb-10" ref={formRef}>
-              <LeadFormCard />
-            </div>
+          </div>
 
+          {/* ── Form: after the headline on mobile, sticky right column on desktop ── */}
+          <div ref={formRef} className="lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:sticky lg:top-10">
+            <LeadFormCard
+              formData={formData}
+              setFormData={setFormData}
+              consent={consent}
+              setConsent={setConsent}
+              emailOptIn={emailOptIn}
+              setEmailOptIn={setEmailOptIn}
+              submitting={submitting}
+              error={error}
+              canSubmit={canSubmit}
+              inputBase={inputBase}
+              onTurnstileToken={onTurnstileToken}
+              handleSubmit={handleSubmit}
+            />
+          </div>
+
+          {/* ── Left column: proof + steps ── */}
+          <div className="lg:col-start-1">
             <AnimatedSection delay={0.1}>
               <div className="grid grid-cols-3 gap-3 mb-10">
                 {PROOF_STATS.map((s) => (
@@ -281,10 +298,6 @@ export function GoContent() {
             </div>
           </div>
 
-          {/* ── Right: form (desktop, sticky) ── */}
-          <div className="hidden lg:block lg:sticky lg:top-10">
-            <LeadFormCard />
-          </div>
         </div>
 
         <LandingFooter />
@@ -292,7 +305,26 @@ export function GoContent() {
     </div>
   );
 
-  function LeadFormCard() {
+}
+
+interface LeadFormProps {
+  formData: { name: string; email: string; phone: string; business: string; service: string; _hp: string };
+  setFormData: (d: LeadFormProps['formData']) => void;
+  consent: boolean;
+  setConsent: (v: boolean) => void;
+  emailOptIn: boolean;
+  setEmailOptIn: (v: boolean) => void;
+  submitting: boolean;
+  error: string;
+  canSubmit: boolean;
+  inputBase: string;
+  onTurnstileToken: (token: string) => void;
+  handleSubmit: (e: React.FormEvent) => void;
+}
+
+// Module scope on purpose: defining this inside GoContent would recreate the
+// component type on every keystroke, remounting the form and dropping focus.
+function LeadFormCard({ formData, setFormData, consent, setConsent, emailOptIn, setEmailOptIn, submitting, error, canSubmit, inputBase, onTurnstileToken, handleSubmit }: LeadFormProps) {
     return (
       <div className="rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur p-6 sm:p-8 shadow-2xl shadow-black/40">
         <h2 className="text-xl sm:text-2xl font-bold mb-1.5">Get your free growth plan</h2>
@@ -407,5 +439,5 @@ export function GoContent() {
         </form>
       </div>
     );
-  }
+
 }

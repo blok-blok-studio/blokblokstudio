@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Services & Packages | Blok Blok Studio',
   description:
     'Custom website design and development packages. Defined deliverables, custom-quoted to your scope.',
-  alternates: { canonical: '/services' },
+  robots: { index: false, follow: false },
   openGraph: {
     title: 'Services & Packages | Blok Blok Studio',
     description:

@@ -37,7 +37,7 @@ export async function GET(
     '',
     '---',
     '',
-    '*Published by [Blok Blok Studio](https://blokblokstudio.com), a digital agency specializing in web design, branding, and SEO.*',
+    '*Published by [Blok Blok Studio](https://blokblokstudio.com), a creative agency in Berlin building websites, ads, social media, and AI systems for service businesses.*',
   ].join('\n');
 
   return new NextResponse(markdown, {
@@ -45,6 +45,9 @@ export async function GET(
     headers: {
       'Content-Type': 'text/markdown; charset=utf-8',
       'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+      // AI-agent endpoint: keep crawlable, never indexed as duplicate content
+      'X-Robots-Tag': 'noindex',
+      'Link': `<https://blokblokstudio.com/blog/${slug}>; rel="canonical"`,
     },
   });
 }

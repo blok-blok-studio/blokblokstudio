@@ -123,9 +123,12 @@ export function Footer() {
   const [footerTimingToken] = useState(() => Date.now().toString(36));
   const [footerTurnstileToken, setFooterTurnstileToken] = useState('');
   const onFooterTurnstileToken = useCallback((token: string) => setFooterTurnstileToken(token), []);
+  const [footerSubmitting, setFooterSubmitting] = useState(false);
 
   const handleFooterNewsletter = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (footerSubmitting) return;
+    setFooterSubmitting(true);
     const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
     try {
@@ -136,11 +139,13 @@ export function Footer() {
       });
       if (res.status === 409) {
         setFooterAlreadySubscribed(true);
-      } else {
+      } else if (res.ok) {
         setFooterSubscribed(true);
       }
     } catch {
-      setFooterSubscribed(true);
+      // network failure: leave the form usable for a retry
+    } finally {
+      setFooterSubmitting(false);
     }
   };
 

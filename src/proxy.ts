@@ -32,7 +32,7 @@ export function proxy(request: NextRequest) {
   // Prevents XSS attacks, code injection, and unauthorized resource loading
   const csp = [
     "default-src 'self'",
-    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net",
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://challenges.cloudflare.com",
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "img-src 'self' data: blob: https: http:",
     "font-src 'self' https://fonts.gstatic.com data:",
@@ -40,7 +40,7 @@ export function proxy(request: NextRequest) {
     // frame-src lets the project case-study pages embed each client site
     // in a live iframe. Only sites whose own headers permit blokblokstudio.com
     // will actually render; the rest fall back to a screenshot.
-    "frame-src 'self' https://calendly.com https://cal.com https://coachkofi.de https://www.coachkofi.de https://public-affair.com https://www.public-affair.com https://nannyandnest.com https://www.nannyandnest.com https://kdssys.com https://www.kdssys.com https://coachluki.com https://www.coachluki.com",
+    "frame-src 'self' https://challenges.cloudflare.com https://calendly.com https://cal.com https://coachkofi.de https://www.coachkofi.de https://public-affair.com https://www.public-affair.com https://nannyandnest.com https://www.nannyandnest.com https://kdssys.com https://www.kdssys.com https://coachluki.com https://www.coachluki.com",
     "frame-ancestors 'none'",
     "base-uri 'self'",
     "form-action 'self'",

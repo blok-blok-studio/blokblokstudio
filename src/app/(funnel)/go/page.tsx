@@ -8,7 +8,6 @@ export const metadata: Metadata = {
   description:
     'Websites, ads, and AI systems that bring in customers on autopilot. Tell us what you need and get a free growth plan for your business.',
   robots: { index: false, follow: false },
-  alternates: { canonical: '/go' },
   openGraph: {
     title: 'Get Your Free Growth Plan | Blok Blok Studio',
     description: 'Websites, ads, and AI systems that bring in customers on autopilot.',

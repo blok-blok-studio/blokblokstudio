@@ -28,11 +28,13 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
-import Script from 'next/script';
 import './globals.css';
 import { OrganizationSchema, WebsiteSchema, LocalBusinessSchema, ServiceSchema } from './structured-data';
+import { Inter } from 'next/font/google';
 import { CookieConsent } from '@/components/CookieConsent';
 import { AdsPixels } from '@/components/AdsPixels';
+
+const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://blokblokstudio.com'),
@@ -70,7 +72,7 @@ export const metadata: Metadata = {
       'Berlin-based web design studio building custom Next.js websites for clients worldwide.',
     images: [
       {
-        url: '/logo-hero.png',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Blok Blok Studio, web design studio in Berlin',
@@ -82,7 +84,7 @@ export const metadata: Metadata = {
     title: 'Blok Blok Studio | Web Design Studio in Berlin',
     description:
       'Berlin-based web design studio building custom Next.js websites for clients worldwide.',
-    images: ['/logo-hero.png'],
+    images: ['/og-image.jpg'],
   },
   robots: {
     index: true,
@@ -123,7 +125,7 @@ export const metadata: Metadata = {
  * The (funnel) route group gets NO Navbar/Footer.
  */
 // Right-to-left locales. Arabic is the only RTL language in our current
-// 19-locale lineup; this list exists so we can extend it (Hebrew, Persian, etc.)
+// 20-locale lineup; this list exists so we can extend it (Hebrew, Persian, etc.)
 // without revisiting the layout logic.
 const RTL_LOCALES = new Set(['ar']);
 
@@ -139,31 +141,11 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={dir} className="dark">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="llms" href="/llms.txt" type="text/plain" title="LLM Content" />
-        {/* Meta Pixel */}
-        <Script id="meta-pixel" strategy="afterInteractive">{`
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '791118270702001');
-          fbq('track', 'PageView');
-        `}</Script>
       </head>
-      <body className="bg-black text-white antialiased font-sans noise-overlay">
-        <noscript>
-          <img height="1" width="1" style={{ display: 'none' }}
-            src="https://www.facebook.com/tr?id=791118270702001&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
+      <body className={`${inter.variable} bg-black text-white antialiased font-sans noise-overlay`}>
         <OrganizationSchema />
         <WebsiteSchema />
         <LocalBusinessSchema />

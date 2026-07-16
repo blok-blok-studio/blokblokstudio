@@ -109,7 +109,7 @@ export function ContactContent() {
           company: formData.get('company'),
           phone: formData.get('phone'),
           message: formData.get('message'),
-          consent: true,
+          consent: formData.get('consent') === 'on',
           _hp: formData.get('_hp'),
           _t: timingToken,
           _cf: turnstileToken,

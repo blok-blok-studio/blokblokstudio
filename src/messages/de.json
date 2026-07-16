@@ -107,7 +107,7 @@
   },
   "home": {
     "hero_title": "Wir Bauen Digitale Erlebnisse",
-    "hero_subtitle": "Ein kreatives Studio, das mutige Marken, beeindruckende Websites und digitale Produkte erschafft, die Menschen bewegen.",
+    "hero_subtitle": "Wir entwerfen und entwickeln maßgeschneiderte Next.js-Websites für ambitionierte Marken weltweit. Premium-Webdesign mit Fokus auf Conversion, niemals Templates.",
     "hero_cta": "Projekt Starten",
     "clients_heading": "Trusted by forward-thinking brands",
     "services_heading": "Was Wir Tun",
@@ -134,7 +134,11 @@
     "audit_button": "Kostenloses Gespräch buchen",
     "cta_heading": "Bereit, Etwas Großartiges zu Bauen?",
     "cta_subheading": "Lassen Sie uns zusammenarbeiten und Ihre Vision zum Leben erwecken.",
-    "cta_button": "Kontaktieren Sie Uns"
+    "cta_button": "Kontaktieren Sie Uns",
+    "stats_projects": "Projekte geliefert",
+    "stats_brands": "Marken betreut",
+    "stats_industries": "Branchen",
+    "stats_custom": "Individuell, keine Templates"
   },
   "projects": {
     "title": "Unsere Projekte",

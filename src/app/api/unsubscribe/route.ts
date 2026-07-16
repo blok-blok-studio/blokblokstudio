@@ -33,65 +33,9 @@ export async function GET(req: NextRequest) {
     });
   }
 
-  // Handle action from the form
-  if (action === 'unsubscribe') {
-    try {
-      const unsubbed = await prisma.lead.update({
-        where: { id },
-        data: { unsubscribed: true, status: 'unsubscribed' },
-      });
-      await pushUnsubscribeToTracker(unsubbed.email);
-      // Log event
-      try {
-        await prisma.emailEvent.create({
-          data: { leadId: id, type: 'unsubscribed', details: 'Manual unsubscribe via page' },
-        });
-      } catch { /* ignore */ }
-    } catch { /* already unsubscribed or not found */ }
-
-    return new NextResponse(htmlPage('Unsubscribed', 'unsubscribed', null), {
-      status: 200,
-      headers: { 'Content-Type': 'text/html' },
-    });
-  }
-
-  if (action === 'reduce') {
-    // Mark lead with a tag to reduce frequency
-    try {
-      const lead = await prisma.lead.findUnique({ where: { id }, select: { tags: true } });
-      const tags: string[] = lead?.tags ? (() => { try { return JSON.parse(lead.tags); } catch { return []; } })() : [];
-      if (!tags.includes('low-frequency')) tags.push('low-frequency');
-      await prisma.lead.update({
-        where: { id },
-        data: { tags: JSON.stringify(tags) },
-      });
-    } catch { /* ignore */ }
-
-    return new NextResponse(htmlPage('Preferences Updated', 'reduced', null), {
-      status: 200,
-      headers: { 'Content-Type': 'text/html' },
-    });
-  }
-
-  // Feedback submission
-  if (action === 'feedback') {
-    const reason = req.nextUrl.searchParams.get('reason') || 'No reason given';
-    try {
-      const unsubbed = await prisma.lead.update({
-        where: { id },
-        data: { unsubscribed: true, status: 'unsubscribed' },
-      });
-      await pushUnsubscribeToTracker(unsubbed.email);
-      await prisma.emailEvent.create({
-        data: { leadId: id, type: 'unsubscribed', details: `Reason: ${reason.slice(0, 200)}` },
-      });
-    } catch { /* ignore */ }
-
-    return new NextResponse(htmlPage('Thank You', 'feedback', null), {
-      status: 200,
-      headers: { 'Content-Type': 'text/html' },
-    });
-  }
+  // State changes happen via POST only (the options page renders POST
+  // forms). GET with an action param — e.g. an email scanner prefetching an
+  // old-style link — just shows the options page and mutates nothing.
 
   // Default: show the unsubscribe options page
   try {
@@ -114,8 +58,44 @@ export async function GET(req: NextRequest) {
  * 2. One-click unsubscribe via List-Unsubscribe-Post header (?id=xxx)
  */
 export async function POST(req: NextRequest) {
-  // Check for legacy id-based one-click unsubscribe (List-Unsubscribe-Post header)
   const id = req.nextUrl.searchParams.get('id');
+
+  // Browser form submissions from the branded page (state changes moved
+  // from GET to POST so email link-scanners can't trigger them)
+  const formAction = req.nextUrl.searchParams.get('action');
+  if (id && formAction && req.nextUrl.searchParams.get('form') === '1') {
+    if (formAction === 'unsubscribe' || formAction === 'feedback') {
+      try {
+        const unsubbed = await prisma.lead.update({
+          where: { id },
+          data: { unsubscribed: true, status: 'unsubscribed' },
+        });
+        await pushUnsubscribeToTracker(unsubbed.email);
+        const reason = req.nextUrl.searchParams.get('reason');
+        await prisma.emailEvent.create({
+          data: { leadId: id, type: 'unsubscribed', details: reason ? `Reason: ${reason.slice(0, 200)}` : 'Manual unsubscribe via page' },
+        }).catch(() => {});
+      } catch { /* already unsubscribed or not found */ }
+      return new NextResponse(htmlPage(formAction === 'feedback' ? 'Thank You' : 'Unsubscribed', formAction === 'feedback' ? 'feedback' : 'unsubscribed', null), {
+        status: 200,
+        headers: { 'Content-Type': 'text/html' },
+      });
+    }
+    if (formAction === 'reduce') {
+      try {
+        const lead = await prisma.lead.findUnique({ where: { id }, select: { tags: true } });
+        const tags: string[] = lead?.tags ? (() => { try { return JSON.parse(lead.tags); } catch { return []; } })() : [];
+        if (!tags.includes('reduced-frequency')) tags.push('reduced-frequency');
+        await prisma.lead.update({ where: { id }, data: { tags: JSON.stringify(tags) } });
+      } catch { /* ignore */ }
+      return new NextResponse(htmlPage('Preferences Updated', 'reduced', null), {
+        status: 200,
+        headers: { 'Content-Type': 'text/html' },
+      });
+    }
+  }
+
+  // Check for legacy id-based one-click unsubscribe (List-Unsubscribe-Post header)
   if (id) {
     try {
       const unsubbed = await prisma.lead.update({
@@ -219,28 +199,28 @@ function htmlPage(title: string, state: string, lead: { id: string; name: string
       <p>How would you like to manage your email preferences?</p>
 
       <div class="options">
-        <a href="${baseUrl}/api/unsubscribe?id=${lead.id}&action=reduce" class="option option-reduce">
+        <form method="POST" action="${baseUrl}/api/unsubscribe?id=${lead.id}&action=reduce&form=1" style="margin:0"><button type="submit" class="option option-reduce" style="width:100%;border:0;cursor:pointer;font:inherit;text-align:inherit">
           <div class="option-icon">&#128229;</div>
           <div>
             <strong>Reduce Frequency</strong>
             <span>Get fewer emails from us</span>
           </div>
-        </a>
+        </button></form>
 
-        <a href="${baseUrl}/api/unsubscribe?id=${lead.id}&action=unsubscribe" class="option option-unsub">
+        <form method="POST" action="${baseUrl}/api/unsubscribe?id=${lead.id}&action=unsubscribe&form=1" style="margin:0"><button type="submit" class="option option-unsub" style="width:100%;border:0;cursor:pointer;font:inherit;text-align:inherit">
           <div class="option-icon">&#128683;</div>
           <div>
             <strong>Unsubscribe Completely</strong>
             <span>Stop all emails</span>
           </div>
-        </a>
+        </button></form>
       </div>
 
       <div class="feedback-section">
         <p class="small">Help us improve. Why are you leaving?</p>
         <div class="reasons">
           ${['Too many emails', 'Not relevant to me', 'Never signed up', 'Content not useful', 'Other'].map(reason =>
-            `<a href="${baseUrl}/api/unsubscribe?id=${lead.id}&action=feedback&reason=${encodeURIComponent(reason)}" class="reason-btn">${reason}</a>`
+            `<form method="POST" action="${baseUrl}/api/unsubscribe?id=${lead.id}&action=feedback&reason=${encodeURIComponent(reason)}&form=1" style="display:inline;margin:0"><button type="submit" class="reason-btn" style="border:0;cursor:pointer;font:inherit">${reason}</button></form>`
           ).join('\n          ')}
         </div>
       </div>

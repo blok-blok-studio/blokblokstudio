@@ -41,6 +41,11 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Name, email, and message are required' }, { status: 400 });
     }
 
+    // GDPR: consent must actually be given, never assumed
+    if (consent !== true) {
+      return NextResponse.json({ error: 'Consent is required' }, { status: 400 });
+    }
+
     // Spam detection
     const spam = runSpamChecks({ honeypot: _hp, timingToken: _t, name, email, message });
     if (spam.isSpam) {
@@ -111,7 +116,7 @@ export async function POST(req: NextRequest) {
       }
     );
   } catch (err) {
-    const errMsg = err instanceof Error ? err.message : String(err);
-    return NextResponse.json({ error: `Submission failed: ${errMsg.slice(0, 200)}` }, { status: 500 });
+    console.error('[Contact] Submission failed:', err);
+    return NextResponse.json({ error: 'Submission failed. Please try again.' }, { status: 500 });
   }
 }

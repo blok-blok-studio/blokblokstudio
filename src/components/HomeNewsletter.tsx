@@ -51,6 +51,7 @@ export function HomeNewsletter() {
   const a11y = useTranslations('a11y');
   const [submitted, setSubmitted] = useState(false);
   const [alreadySubscribed, setAlreadySubscribed] = useState(false);
+  const [error, setError] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [timingToken] = useState(() => Date.now().toString(36));
   const [turnstileToken, setTurnstileToken] = useState('');
@@ -71,11 +72,14 @@ export function HomeNewsletter() {
 
       if (res.status === 409) {
         setAlreadySubscribed(true);
-      } else {
+      } else if (res.ok) {
         setSubmitted(true);
+      } else {
+        const data = await res.json().catch(() => null);
+        setError(data?.error || 'Something went wrong. Please try again.');
       }
     } catch {
-      setSubmitted(true);
+      setError('Something went wrong. Please try again.');
     } finally {
       setSubmitting(false);
     }
@@ -183,6 +187,7 @@ export function HomeNewsletter() {
                       </motion.button>
                     </div>
                     <Turnstile onToken={onTurnstileToken} theme="dark" size="compact" className="mx-auto" />
+                    {error && <p className="text-red-400 text-sm text-center">{error}</p>}
                   </form>
 
                   {/* Privacy consent note */}

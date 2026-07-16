@@ -57,8 +57,18 @@ export function GoThanksContent({ platform = 'all' }: { platform?: 'meta' | 'goo
   useEffect(() => {
     if (fired.current) return;
     fired.current = true;
+    // Only count real submissions: the /go form stamps this key right
+    // before redirecting. Direct visits/refreshes fire nothing.
+    let submitted = false;
+    try {
+      submitted = !!sessionStorage.getItem('bb-lead-event-id');
+    } catch { /* private mode: err on not firing */ }
+    if (!submitted) return;
     if (platform === 'meta' || platform === 'all') fireMeta();
     if (platform === 'google' || platform === 'all') fireGoogle();
+    try {
+      sessionStorage.removeItem('bb-lead-event-id');
+    } catch { /* ignore */ }
   }, [platform]);
 
   return (

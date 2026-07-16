@@ -492,6 +492,7 @@ function RadioOption({ value, label, name, selected, onChange }: { value: string
 
 function AuditForm() {
   const [step, setStep] = useState(0);
+  const [consent, setConsent] = useState(false);
   const [direction, setDirection] = useState(1);
   const [qualified, setQualified] = useState(false);
   const [disqualified, setDisqualified] = useState(false);
@@ -529,7 +530,7 @@ function AuditForm() {
 
   const canProceed = () => {
     switch (step) {
-      case 0: return formData.name.trim() !== '' && formData.email.trim() !== '' && formData.email.includes('@') && formData.business.trim() !== '';
+      case 0: return formData.name.trim() !== '' && formData.email.trim() !== '' && formData.email.includes('@') && formData.business.trim() !== '' && consent;
       case 1: return formData.budget !== '';
       case 2: return formData.authority !== '';
       case 3: return formData.need !== '';
@@ -570,7 +571,7 @@ function AuditForm() {
           website: '',
           noWebsite: true,
           problem: bantSummary,
-          consent: true,
+          consent,
           _hp: formData._hp,
           _t: timingToken,
           _cf: turnstileToken,
@@ -659,7 +660,7 @@ function AuditForm() {
           website: '',
           noWebsite: true,
           problem: bantSummary,
-          consent: true,
+          consent,
           _hp: formData._hp,
           _t: timingToken,
           _cf: turnstileToken,
@@ -823,6 +824,18 @@ function AuditForm() {
               <label htmlFor="call-business" className="block text-xs text-gray-400 mb-1.5 ml-1">What type of business do you run?</label>
               <BusinessPicker value={formData.business} onChange={(val) => setFormData({ ...formData, business: val })} inputBase={inputBase} />
             </div>
+            <label className="flex items-start gap-3 cursor-pointer pt-1">
+              <input
+                type="checkbox"
+                checked={consent}
+                onChange={(e) => setConsent(e.target.checked)}
+                className="mt-0.5 h-4 w-4 rounded border-white/20 bg-white/5 accent-orange-500"
+                required
+              />
+              <span className="text-xs text-gray-500 leading-relaxed">
+                I agree to the <a href="/privacy" target="_blank" className="text-gray-300 underline hover:text-white">Privacy Policy</a> and consent to being contacted about my inquiry.
+              </span>
+            </label>
             <Turnstile onToken={onTurnstileToken} theme="dark" className="mt-2" />
           </div>
         )}
@@ -1212,9 +1225,9 @@ export function FunnelContent() {
         <div className="max-w-2xl mx-auto">
           <AccentDivider />
           <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-orange-400/60 mb-4 mt-4">See what we can build for your business</p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             Ready to Automate and Scale?
-          </h2>
+          </h1>
           <p className="text-gray-400 mb-8 max-w-md mx-auto">
             Join the businesses that chose to build real systems instead of duct-taping tools together.
           </p>

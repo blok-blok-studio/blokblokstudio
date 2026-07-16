@@ -15,6 +15,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
+import { rateLimit } from '@/lib/rate-limit';
 import { generateVerificationToken } from '@/lib/gdpr-tokens';
 import { Resend } from 'resend';
 
@@ -22,11 +23,20 @@ function getResend() {
   return new Resend(process.env.RESEND_API_KEY);
 }
 
+const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 3 });
+
 export async function POST(req: NextRequest) {
   try {
+    // Rate limit: public endpoint that triggers emails to arbitrary inboxes
+    const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
+    const { success: rateLimitOk } = limiter.check(ip);
+    if (!rateLimitOk) {
+      return NextResponse.json({ error: 'Too many requests. Please try again later.' }, { status: 429 });
+    }
+
     const { email, type } = await req.json();
 
-    if (!email || !type || !['export', 'delete'].includes(type)) {
+    if (!email || typeof email !== 'string' || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !type || !['export', 'delete'].includes(type)) {
       return NextResponse.json({ error: 'Invalid request' }, { status: 400 });
     }
 
@@ -43,7 +53,7 @@ export async function POST(req: NextRequest) {
 
     // Generate a time-limited verification token
     const token = generateVerificationToken(email);
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://tryblokblokstudio.com';
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://blokblokstudio.com';
     const verifyUrl = `${baseUrl}/api/gdpr/${type}?token=${token}`;
 
     // Send verification email

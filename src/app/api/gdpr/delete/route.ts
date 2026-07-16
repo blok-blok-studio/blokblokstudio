@@ -18,7 +18,7 @@ import { prisma } from '@/lib/prisma';
 import { verifyToken } from '@/lib/gdpr-tokens';
 
 export async function GET(req: NextRequest) {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://tryblokblokstudio.com';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://blokblokstudio.com';
 
   try {
     const token = req.nextUrl.searchParams.get('token');

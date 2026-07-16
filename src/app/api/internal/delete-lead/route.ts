@@ -1,5 +1,5 @@
 /**
- * POST /api/internal/delete-lead — Internal API for EasyReach to sync lead deletions.
+ * POST /api/internal/delete-lead — Internal API for authorized systems to sync lead deletions.
  * Protected by shared secret (INTERNAL_API_SECRET).
  */
 import { NextRequest, NextResponse } from 'next/server';
@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
     await prisma.leadListMember.deleteMany({ where: { leadId: existing.id } });
     await prisma.lead.delete({ where: { email } });
 
-    console.log(`[Internal] Deleted lead ${email} (synced from EasyReach)`);
+    console.log(`[Internal] Deleted lead ${email} (synced via internal API)`);
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error('[Internal] Delete lead error:', err);

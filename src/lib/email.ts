@@ -108,9 +108,9 @@ export async function sendCampaignEmail({
 }) {
   const from = process.env.EMAIL_FROM || 'onboarding@resend.dev';
   const replyTo = process.env.NOTIFICATION_EMAIL || from;
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : 'http://localhost:3000';
+  const baseUrl =
+    process.env.NEXT_PUBLIC_BASE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
   const unsubscribeUrl = `${baseUrl}/api/unsubscribe?id=${leadId}`;
 
   const text = htmlToText(html) + `\n\n---\nBlok Blok Studio | Digital Agency for Ambitious Brands\nUnsubscribe: ${unsubscribeUrl}`;

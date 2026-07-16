@@ -134,7 +134,11 @@
     "audit_button": "Book Your Free Call",
     "cta_heading": "Ready to Build Something Great?",
     "cta_subheading": "Let's collaborate and bring your vision to life.",
-    "cta_button": "Get in Touch"
+    "cta_button": "Get in Touch",
+    "stats_projects": "Projects shipped",
+    "stats_brands": "Brands served",
+    "stats_industries": "Industries",
+    "stats_custom": "Custom, no templates"
   },
   "projects": {
     "title": "Our Projects",

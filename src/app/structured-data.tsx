@@ -51,11 +51,6 @@ export function WebsiteSchema() {
     '@type': 'WebSite',
     name: 'Blok Blok Studio',
     url: 'https://blokblokstudio.com',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: 'https://blokblokstudio.com/projects?q={search_term_string}',
-      'query-input': 'required name=search_term_string',
-    },
   };
 
   return (
@@ -183,7 +178,7 @@ export function LocalBusinessSchema() {
       { '@type': 'Country', name: 'France' },
       { '@type': 'Place', name: 'Worldwide' },
     ],
-    knowsLanguage: ['English', 'German', 'French', 'Spanish'],
+    knowsLanguage: ['English', 'German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese', 'Polish', 'Russian', 'Swedish', 'Turkish', 'Arabic', 'Hindi', 'Indonesian', 'Japanese', 'Korean', 'Thai', 'Vietnamese', 'Chinese'],
     knowsAbout: [
       'Web Design',
       'Next.js Development',

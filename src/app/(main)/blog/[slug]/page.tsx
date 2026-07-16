@@ -62,6 +62,8 @@ export default async function BlogPostPage({
     description,
     image: `https://blokblokstudio.com${post.image}`,
     datePublished: post.date,
+    dateModified: post.date,
+    mainEntityOfPage: `https://blokblokstudio.com/blog/${post.slug}`,
     author: {
       '@type': 'Organization',
       name: 'Blok Blok Studio',

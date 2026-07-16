@@ -49,8 +49,8 @@
 
   /* Font stack — Inter is the primary font.
      To change fonts: update these values AND add the font import/link. */
-  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
-  --font-display: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-sans: var(--font-inter, "Inter"), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-inter, "Inter"), "Helvetica Neue", Arial, sans-serif;
 }
 
 /* ── SMOOTH SCROLLING ──

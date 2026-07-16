@@ -461,9 +461,9 @@ export function StartContent() {
             variants={popIn}
           >
             <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">{t('pitch_label')}</p>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
               {t('pitch_title')}
-            </h2>
+            </h1>
             <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
               {t('pitch_body')}
             </p>
