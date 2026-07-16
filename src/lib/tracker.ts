@@ -9,9 +9,10 @@ const TRACKER_URL = process.env.TRACKER_WEBHOOK_URL;
 const TRACKER_SECRET = process.env.TRACKER_WEBHOOK_SECRET;
 
 interface TrackerLead {
-  source: 'funnel' | 'contact';
+  source: 'funnel' | 'contact' | 'ads';
   name: string;
   email: string;
+  phone?: string;
   business?: string;
   website?: string | null;
   summary?: string;

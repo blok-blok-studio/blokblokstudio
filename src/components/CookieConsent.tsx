@@ -33,6 +33,7 @@ export function CookieConsent() {
 
   const saveAndClose = (prefs: CookiePreferences) => {
     localStorage.setItem('cookie-consent', JSON.stringify(prefs));
+    window.dispatchEvent(new CustomEvent('cookie-consent-changed', { detail: prefs }));
     setShowBanner(false);
   };
 

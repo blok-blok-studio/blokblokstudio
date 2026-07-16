@@ -32,6 +32,7 @@ import Script from 'next/script';
 import './globals.css';
 import { OrganizationSchema, WebsiteSchema, LocalBusinessSchema, ServiceSchema } from './structured-data';
 import { CookieConsent } from '@/components/CookieConsent';
+import { AdsPixels } from '@/components/AdsPixels';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://blokblokstudio.com'),
@@ -170,6 +171,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
           <CookieConsent />
+          <AdsPixels />
         </NextIntlClientProvider>
       </body>
     </html>

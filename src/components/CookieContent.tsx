@@ -138,9 +138,10 @@ export function CookieContent() {
           <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8">
             <h2 className="text-2xl font-bold mb-4">Third-Party Cookies</h2>
             <p className="text-gray-400 leading-relaxed">
-              We do not currently use any third-party cookies on our website. If this changes in the future,
-              we will update this policy and provide clear information about any third-party services and their
-              cookie usage.
+              If you accept marketing cookies in our consent banner, we load Meta (Facebook) and Google
+              advertising pixels to measure the performance of our ad campaigns. If you decline, no
+              third-party cookies are set when you visit our website. You can change your choice at any
+              time by clearing your browser&apos;s localStorage for this site.
             </p>
           </div>
         </AnimatedSection>

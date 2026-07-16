@@ -24,7 +24,8 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
-    const { name, email, field, website, noWebsite, problem, consent, _hp, _t, _cf, business } = body;
+    const { name, email, field, website, noWebsite, problem, consent, _hp, _t, _cf, business, phone, source } = body;
+    const leadSource: 'funnel' | 'ads' = source === 'ads' ? 'ads' : 'funnel';
 
     // Basic validation
     if (!name || !email || !field || !problem) {
@@ -88,7 +89,7 @@ export async function POST(req: NextRequest) {
         website: noWebsite ? null : (website || null),
         noWebsite: !!noWebsite,
         problem,
-        source: 'funnel',
+        source: leadSource,
         consentGiven: true,
         consentTimestamp: new Date(),
         consentIp,
@@ -127,9 +128,10 @@ export async function POST(req: NextRequest) {
 
     // Push to the client job tracker as a PROSPECT (non-blocking)
     await pushLeadToTracker({
-      source: 'funnel',
+      source: leadSource,
       name,
       email,
+      phone: phone || undefined,
       business: business || undefined,
       website: noWebsite ? null : (website || null),
       summary: problem,

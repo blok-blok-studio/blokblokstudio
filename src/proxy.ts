@@ -24,11 +24,11 @@ export function proxy(request: NextRequest) {
   // Prevents XSS attacks, code injection, and unauthorized resource loading
   const csp = [
     "default-src 'self'",
-    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com",
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net",
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "img-src 'self' data: blob: https: http:",
     "font-src 'self' https://fonts.gstatic.com data:",
-    "connect-src 'self' https://www.google-analytics.com https://vitals.vercel-insights.com https://api.vercel.com",
+    "connect-src 'self' https://www.google-analytics.com https://vitals.vercel-insights.com https://api.vercel.com https://www.facebook.com https://www.googleadservices.com https://googleads.g.doubleclick.net",
     // frame-src lets the project case-study pages embed each client site
     // in a live iframe. Only sites whose own headers permit blokblokstudio.com
     // will actually render; the rest fall back to a screenshot.

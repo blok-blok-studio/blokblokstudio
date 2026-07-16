@@ -138,7 +138,8 @@ export function PrivacyContent() {
             </ul>
             <p className="text-gray-400 leading-relaxed mt-4">
               These services are GDPR-compliant and process your data according to their own privacy policies.
-              We do not use tracking cookies or analytics services.
+              We only load advertising pixels (Meta, Google) if you explicitly accept marketing cookies in
+              our consent banner; otherwise no tracking cookies or analytics services are used.
             </p>
           </div>
         </AnimatedSection>
