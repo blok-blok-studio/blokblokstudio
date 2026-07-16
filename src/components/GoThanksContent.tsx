@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { AnimatedSection } from './AnimatedSection';
+import { LandingFooter } from './LandingFooter';
 
 /**
  * Thank-you / conversion pages for the /go ad funnel.
@@ -29,7 +30,17 @@ const NEXT_STEPS = [
 ];
 
 function fireMeta() {
-  window.fbq?.('track', 'Lead');
+  // Same event id the server sent via the Conversions API — Meta
+  // deduplicates the pair into one Lead
+  let eventId = '';
+  try {
+    eventId = sessionStorage.getItem('bb-lead-event-id') || '';
+  } catch { /* private mode */ }
+  if (eventId) {
+    window.fbq?.('track', 'Lead', {}, { eventID: eventId });
+  } else {
+    window.fbq?.('track', 'Lead');
+  }
 }
 
 function fireGoogle() {
@@ -108,6 +119,8 @@ export function GoThanksContent({ platform = 'all' }: { platform?: 'meta' | 'goo
             ))}
           </div>
         </AnimatedSection>
+
+        <LandingFooter />
       </div>
     </div>
   );

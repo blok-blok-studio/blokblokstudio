@@ -35,7 +35,10 @@ function hasMarketingConsent(): boolean {
 }
 
 function loadMetaPixel(id: string) {
-  if (window.fbq) return;
+  if (window.fbq) {
+    window.fbq('consent', 'grant');
+    return;
+  }
   const fbq: ((...args: unknown[]) => void) & { queue?: unknown[]; loaded?: boolean; version?: string; callMethod?: unknown; push?: unknown } =
     function (...args: unknown[]) {
       // Queue calls until the script loads and replaces this stub
@@ -50,22 +53,61 @@ function loadMetaPixel(id: string) {
   s.async = true;
   s.src = 'https://connect.facebook.net/en_US/fbevents.js';
   document.head.appendChild(s);
+  // Explicit consent signal before init (Meta consent API)
+  window.fbq('consent', 'grant');
   window.fbq('init', id);
   window.fbq('track', 'PageView');
 }
 
 function loadGoogleTag(id: string) {
-  if (window.gtag) return;
+  if (window.gtag) {
+    grantGoogleConsent();
+    return;
+  }
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function (...args: unknown[]) {
-    window.dataLayer!.push(args);
+  // gtag.js requires the raw `arguments` object on the dataLayer — pushing
+  // a plain array silently breaks command processing
+  window.gtag = function () {
+    // eslint-disable-next-line prefer-rest-params
+    window.dataLayer!.push(arguments);
   };
+  // Consent Mode v2: defaults MUST be set before config. Required for
+  // EU-targeted Google Ads (EU User Consent Policy) — includes the v2
+  // signals ad_user_data and ad_personalization.
+  window.gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    wait_for_update: 500,
+  });
   const s = document.createElement('script');
   s.async = true;
   s.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
   document.head.appendChild(s);
   window.gtag('js', new Date());
   window.gtag('config', id);
+  grantGoogleConsent();
+}
+
+function grantGoogleConsent() {
+  window.gtag?.('consent', 'update', {
+    ad_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted',
+    analytics_storage: 'granted',
+  });
+}
+
+/** Consent withdrawn after pixels loaded: signal both platforms. */
+function revokeConsent() {
+  window.fbq?.('consent', 'revoke');
+  window.gtag?.('consent', 'update', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+  });
 }
 
 export function AdsPixels() {
@@ -75,7 +117,11 @@ export function AdsPixels() {
     if (hasMarketingConsent()) setConsented(true);
     const onChange = (e: Event) => {
       const detail = (e as CustomEvent).detail as { marketing?: boolean } | undefined;
-      if (detail?.marketing) setConsented(true);
+      if (detail?.marketing) {
+        setConsented(true);
+      } else {
+        revokeConsent();
+      }
     };
     window.addEventListener('cookie-consent-changed', onChange);
     return () => window.removeEventListener('cookie-consent-changed', onChange);

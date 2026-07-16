@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { AnimatedSection } from './AnimatedSection';
 import { Turnstile } from './Turnstile';
 import { BusinessPicker } from './BusinessPicker';
+import { LandingFooter } from './LandingFooter';
 
 /**
  * /go — dedicated landing page for Meta + Google ad traffic.
@@ -18,7 +19,7 @@ import { BusinessPicker } from './BusinessPicker';
 const SERVICES = ['Website', 'Google / Meta Ads', 'Social Media', 'AI & Automation', 'Not sure yet'];
 
 const PROOF_STATS = [
-  { value: '200%+', label: 'more consultations after launch' },
+  { value: '200%+', label: 'client consultations after launch (Coach Kofi)' },
   { value: '<7 days', label: 'from kickoff to first deliverable' },
   { value: '100%', label: 'custom-built, no templates' },
 ];
@@ -52,6 +53,25 @@ function collectAttribution(): string {
     return parts.join(' | ');
   } catch {
     return '';
+  }
+}
+
+/** Read a cookie value (for Meta's _fbp browser id). */
+function getCookie(name: string): string {
+  try {
+    return document.cookie.split('; ').find((c) => c.startsWith(name + '='))?.split('=')[1] || '';
+  } catch {
+    return '';
+  }
+}
+
+/** Marketing-cookie consent state — gates server-side ad tracking (CAPI). */
+function hasAdsConsent(): boolean {
+  try {
+    const raw = localStorage.getItem('cookie-consent');
+    return raw ? JSON.parse(raw).marketing === true : false;
+  } catch {
+    return false;
   }
 }
 
@@ -107,6 +127,14 @@ export function GoContent() {
     setSubmitting(true);
     setError('');
 
+    // Shared browser/server event id so Meta deduplicates the pixel Lead
+    // (thank-you page) against the Conversions API Lead (server)
+    const eventId = crypto.randomUUID();
+    try {
+      sessionStorage.setItem('bb-lead-event-id', eventId);
+    } catch { /* private mode — pixel event just won't carry the id */ }
+    const fbclid = new URLSearchParams(window.location.search).get('fbclid') || undefined;
+
     const summary = [
       'AD LEAD',
       '',
@@ -133,6 +161,10 @@ export function GoContent() {
           consent: true,
           emailOptIn,
           source: 'ads',
+          _eid: eventId,
+          _fbclid: fbclid,
+          _fbp: getCookie('_fbp') || undefined,
+          adsConsent: hasAdsConsent(),
           _hp: formData._hp,
           _t: timingToken,
           _cf: turnstileToken,
@@ -243,6 +275,8 @@ export function GoContent() {
             <LeadFormCard />
           </div>
         </div>
+
+        <LandingFooter />
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, AUDIT_LIST, NEWSLETTER_LIST } from '@/lib/auto-list';
 import { pushLeadToTracker, pushNewsletterToTracker } from '@/lib/tracker';
+import { sendMetaLeadEvent } from '@/lib/meta-capi';
 
 // Rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -24,7 +25,7 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
-    const { name, email, field, website, noWebsite, problem, consent, _hp, _t, _cf, business, phone, source, emailOptIn } = body;
+    const { name, email, field, website, noWebsite, problem, consent, _hp, _t, _cf, business, phone, source, emailOptIn, _eid, _fbclid, _fbp, adsConsent } = body;
     const leadSource: 'funnel' | 'ads' = source === 'ads' ? 'ads' : 'funnel';
     const marketingOptIn = emailOptIn === true;
 
@@ -152,6 +153,22 @@ export async function POST(req: NextRequest) {
       website: noWebsite ? null : (website || null),
       summary: marketingOptIn ? `${problem}\nEmail marketing opt-in: yes` : problem,
     });
+
+    // Server-side Meta Lead event (Conversions API) — only with the
+    // visitor's marketing consent, deduped against the browser pixel via
+    // the shared event id. No-op unless the CAPI env vars are set.
+    if (adsConsent === true && typeof _eid === 'string' && _eid) {
+      await sendMetaLeadEvent({
+        eventId: _eid,
+        email,
+        phone: typeof phone === 'string' ? phone : undefined,
+        sourceUrl: 'https://blokblokstudio.com/go',
+        clientIp: consentIp !== 'unknown' ? consentIp : undefined,
+        userAgent: req.headers.get('user-agent') || undefined,
+        fbclid: typeof _fbclid === 'string' ? _fbclid : undefined,
+        fbp: typeof _fbp === 'string' ? _fbp : undefined,
+      });
+    }
 
     return NextResponse.json({ success: true, id: lead.id });
   } catch (err) {
