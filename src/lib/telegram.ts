@@ -16,6 +16,7 @@ export async function notifyTelegram(lead: {
   field: string;
   website: string | null;
   problem: string;
+  business?: string;
 }) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
@@ -25,17 +26,23 @@ export async function notifyTelegram(lead: {
     return;
   }
 
-  const message = [
+  const lines = [
     '🔥 New Lead from Funnel!',
     '',
     `👤 Name: ${lead.name}`,
     `📧 Email: ${lead.email}`,
     `💼 Industry: ${lead.field}`,
+  ];
+  if (lead.business) lines.push(`🏢 Business Type: ${lead.business}`);
+  lines.push(
     `🌐 Website: ${lead.website || 'No website yet'}`,
-    `❓ Challenge: ${lead.problem}`,
+    '',
+    `📋 BANT Summary:`,
+    lead.problem,
     '',
     `📅 ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })}`,
-  ].join('\n');
+  );
+  const message = lines.join('\n');
 
   try {
     const res = await fetch(

@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
-    const { name, email, field, website, noWebsite, problem, consent, _hp, _t, _cf } = body;
+    const { name, email, field, website, noWebsite, problem, consent, _hp, _t, _cf, business } = body;
 
     // Basic validation
     if (!name || !email || !field || !problem) {
@@ -132,6 +132,7 @@ export async function POST(req: NextRequest) {
       field,
       website: noWebsite ? null : (website || null),
       problem,
+      business: business || undefined,
     };
 
     // Fire Telegram + EasyReach in parallel (non-blocking)

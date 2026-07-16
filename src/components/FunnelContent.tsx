@@ -433,6 +433,90 @@ function CTAButton({ text = 'Book Your Free Strategy Call', className = '', vari
   );
 }
 
+/* ── Business type presets ── */
+const businessTypes = [
+  'Coaching / Consulting',
+  'E-Commerce / Online Store',
+  'SaaS / Software',
+  'Agency / Marketing',
+  'Real Estate',
+  'Healthcare / Medical',
+  'Legal / Law Firm',
+  'Financial Services',
+  'Education / Training',
+  'Restaurant / Food & Beverage',
+  'Fitness / Wellness',
+  'Construction / Trades',
+  'Beauty / Salon / Spa',
+  'Content Creator / Influencer',
+  'Retail / Brick & Mortar',
+  'Professional Services',
+  'Nonprofit',
+  'Automotive',
+  'Travel / Hospitality',
+  'Other',
+];
+
+function BusinessPicker({ value, onChange, inputBase }: { value: string; onChange: (val: string) => void; inputBase: string }) {
+  const [query, setQuery] = useState('');
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  const filtered = query
+    ? businessTypes.filter(t => t.toLowerCase().includes(query.toLowerCase()))
+    : businessTypes;
+
+  // Close on outside click
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    }
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative">
+      <input
+        id="call-business"
+        type="text"
+        required
+        placeholder="Search or select your industry..."
+        value={value || query}
+        onChange={(e) => {
+          const v = e.target.value;
+          setQuery(v);
+          onChange('');
+          setOpen(true);
+        }}
+        onFocus={() => setOpen(true)}
+        className={inputBase}
+        autoComplete="off"
+      />
+      {open && filtered.length > 0 && (
+        <div className="absolute z-30 left-0 right-0 mt-1.5 max-h-52 overflow-y-auto rounded-xl bg-[#1a1a1a] border border-white/10 shadow-xl shadow-black/40">
+          {filtered.map((type) => (
+            <button
+              key={type}
+              type="button"
+              onClick={() => {
+                onChange(type);
+                setQuery('');
+                setOpen(false);
+              }}
+              className={`w-full text-left px-4 py-2.5 text-sm transition-colors hover:bg-orange-500/10 hover:text-orange-300 ${
+                value === type ? 'text-orange-400 bg-orange-500/[0.06]' : 'text-gray-300'
+              }`}
+            >
+              {type}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 /* ── BANT Qualifying Form Options ── */
 const CAL_LINK = 'https://cal.com/chasehaynes/strategy';
 
@@ -504,6 +588,7 @@ function AuditForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    business: '',
     budget: '',
     authority: '',
     need: '',
@@ -526,7 +611,7 @@ function AuditForm() {
 
   const canProceed = () => {
     switch (step) {
-      case 0: return formData.name.trim() !== '' && formData.email.trim() !== '' && formData.email.includes('@');
+      case 0: return formData.name.trim() !== '' && formData.email.trim() !== '' && formData.email.includes('@') && formData.business.trim() !== '';
       case 1: return formData.budget !== '';
       case 2: return formData.authority !== '';
       case 3: return formData.need !== '';
@@ -547,6 +632,7 @@ function AuditForm() {
       const bantSummary = [
         `DISQUALIFIED LEAD [DQ], ${reason}`,
         '',
+        `Business: ${formData.business || 'N/A'}`,
         `Budget: ${budgetLabel}`,
         `Authority: ${authorityLabel}`,
         `Need: ${needLabel}`,
@@ -561,6 +647,7 @@ function AuditForm() {
           name: formData.name,
           email: formData.email,
           field: 'Strategy Lead [DQ]',
+          business: formData.business,
           website: '',
           noWebsite: true,
           problem: bantSummary,
@@ -631,6 +718,7 @@ function AuditForm() {
     const bantSummary = [
       `STRATEGY LEAD [${tier}] (score: ${score}/7)`,
       '',
+      `Business: ${formData.business}`,
       `Budget: ${budgetLabel}`,
       `Authority: ${authorityLabel}`,
       `Need: ${needLabel}`,
@@ -647,6 +735,7 @@ function AuditForm() {
           name: formData.name,
           email: formData.email,
           field: `Strategy Lead [${tier}]`,
+          business: formData.business,
           website: '',
           noWebsite: true,
           problem: bantSummary,
@@ -805,6 +894,10 @@ function AuditForm() {
             <div>
               <label htmlFor="call-email" className="block text-xs text-gray-400 mb-1.5 ml-1">Email Address</label>
               <input id="call-email" type="email" required placeholder="john@company.com" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className={inputBase} />
+            </div>
+            <div>
+              <label htmlFor="call-business" className="block text-xs text-gray-400 mb-1.5 ml-1">What type of business do you run?</label>
+              <BusinessPicker value={formData.business} onChange={(val) => setFormData({ ...formData, business: val })} inputBase={inputBase} />
             </div>
             <Turnstile onToken={onTurnstileToken} theme="dark" className="mt-2" />
           </div>
