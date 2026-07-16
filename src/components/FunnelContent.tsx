@@ -1,6 +1,7 @@
 'use client';
 
 import { motion, useInView } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { Turnstile } from './Turnstile';
@@ -89,49 +90,19 @@ function AccentDivider() {
 
 /* ── Data ── */
 
+// Brand names and URLs are proper nouns / addresses — not translated.
 const trustedBrands = [
-  { name: 'Coach Luki', image: '/images/projects/coachluki.jpg', url: 'coachluki.com', category: 'Fitness' },
-  { name: 'Coach Kofi', image: '/images/projects/coachkofi.webp', url: 'coachkofi.de', category: 'Coaching' },
-  { name: 'Nanny & Nest', image: '/images/projects/nannyandnest.webp', url: 'nannyandnest.com', category: 'Childcare' },
-  { name: 'Exotic Ripz', image: '/images/projects/exoticripz.jpg', url: 'exoticripz.com', category: 'E-Commerce' },
-  { name: 'KDS Systems', image: '/images/projects/kdssys.webp', url: 'kdssys.com', category: 'IT Services' },
-  { name: 'Public Affair', image: '/images/projects/public-affair.webp', url: 'public-affair.com', category: 'Lifestyle' },
-  { name: 'The New School', image: '/images/projects/military-newschool.webp', url: 'military.newschool.edu', category: 'Education' },
+  { name: 'Coach Luki', image: '/images/projects/coachluki.jpg', url: 'coachluki.com', categoryKey: 'category_fitness' },
+  { name: 'Coach Kofi', image: '/images/projects/coachkofi.webp', url: 'coachkofi.de', categoryKey: 'category_coaching' },
+  { name: 'Nanny & Nest', image: '/images/projects/nannyandnest.webp', url: 'nannyandnest.com', categoryKey: 'category_childcare' },
+  { name: 'Exotic Ripz', image: '/images/projects/exoticripz.jpg', url: 'exoticripz.com', categoryKey: 'category_ecommerce' },
+  { name: 'KDS Systems', image: '/images/projects/kdssys.webp', url: 'kdssys.com', categoryKey: 'category_it' },
+  { name: 'Public Affair', image: '/images/projects/public-affair.webp', url: 'public-affair.com', categoryKey: 'category_lifestyle' },
+  { name: 'The New School', image: '/images/projects/military-newschool.webp', url: 'military.newschool.edu', categoryKey: 'category_education' },
 ];
 
-
-const roadmapSteps = [
-  {
-    num: '01',
-    title: 'Strategy Call',
-    desc: 'A quick 30-minute call to understand your goals, audience, and vision. We learn about your brand, target customers, and what success looks like.',
-    duration: '30 min',
-  },
-  {
-    num: '02',
-    title: 'Strategy & Proposal',
-    desc: 'We build a tailored plan with clear deliverables, timeline, and transparent pricing. You\'ll know exactly what you\'re getting.',
-    duration: '2 to 3 days',
-  },
-  {
-    num: '03',
-    title: 'Design Phase',
-    desc: 'Wireframes, mockups, and revisions until the design feels perfect for your brand. We iterate until you love it.',
-    duration: '1 to 2 weeks',
-  },
-  {
-    num: '04',
-    title: 'Development & Build',
-    desc: 'We bring the design to life with clean, fast code and regular check-ins. You see progress every step of the way.',
-    duration: '2 to 4 weeks',
-  },
-  {
-    num: '05',
-    title: 'Launch & Support',
-    desc: 'We launch your project and provide ongoing support to ensure long-term success. Your growth is our mission.',
-    duration: 'Ongoing',
-  },
-];
+// Copy lives in the `call` namespace: step_{n}_title / step_{n}_desc / step_{n}_duration
+const roadmapStepNums = ['01', '02', '03', '04', '05'];
 
 /* ── SVG Illustrations for roadmap steps ── */
 function StepIllustration({ step }: { step: string }) {
@@ -296,115 +267,42 @@ function StepIllustration({ step }: { step: string }) {
   }
 }
 
-const benefits = [
-  {
-    title: 'AI Agents That Work 24/7',
-    desc: 'Autonomous AI systems that handle leads, follow-ups, and client communication around the clock.',
-    icon: '🤖',
-    color: 'from-green-500/10 to-emerald-500/5',
-  },
-  {
-    title: 'Workflow Automation',
-    desc: 'Connect your CRM, calendar, and payments into one system. No Zapier tax.',
-    icon: '⚡',
-    color: 'from-yellow-500/10 to-amber-500/5',
-  },
-  {
-    title: 'Custom Websites That Convert',
-    desc: 'Next.js sites built for speed, SEO, and conversion. Not cookie-cutter templates.',
-    icon: '🌐',
-    color: 'from-blue-500/10 to-cyan-500/5',
-  },
-  {
-    title: 'Ads That Actually Scale',
-    desc: 'Google and Meta campaigns with real targeting, retargeting funnels, and ROAS tracking.',
-    icon: '📈',
-    color: 'from-orange-500/10 to-red-500/5',
-  },
-  {
-    title: 'AI Content Pipelines',
-    desc: 'Turn one video or transcript into 10+ pieces of content across every platform.',
-    icon: '🎬',
-    color: 'from-purple-500/10 to-violet-500/5',
-  },
-  {
-    title: 'Real-Time Client Dashboards',
-    desc: 'White-labeled portals so your clients never have to ask for an update again.',
-    icon: '📊',
-    color: 'from-pink-500/10 to-rose-500/5',
-  },
+// Copy lives in the `call` namespace: benefit_{n}_title / benefit_{n}_desc
+const benefitCards = [
+  { icon: '🤖', color: 'from-green-500/10 to-emerald-500/5' },
+  { icon: '⚡', color: 'from-yellow-500/10 to-amber-500/5' },
+  { icon: '🌐', color: 'from-blue-500/10 to-cyan-500/5' },
+  { icon: '📈', color: 'from-orange-500/10 to-red-500/5' },
+  { icon: '🎬', color: 'from-purple-500/10 to-violet-500/5' },
+  { icon: '📊', color: 'from-pink-500/10 to-rose-500/5' },
 ];
 
-const serviceModules = [
-  {
-    title: 'AI & Automation',
-    icon: '🤖',
-    items: ['AI Agent Ecosystems', 'Conversational AI & Chatbots', 'Workflow Automation', 'AI Content Systems'],
-  },
-  {
-    title: 'Web & Brand',
-    icon: '🌐',
-    items: ['Custom Website Design', 'Brand Identity & Guidelines', 'CMS Integration', 'Performance & SEO'],
-  },
-  {
-    title: 'Paid Advertising',
-    icon: '📈',
-    items: ['Google Search Campaigns', 'Meta (Facebook & Instagram) Ads', 'Retargeting Funnels', 'ROAS Reporting'],
-  },
-  {
-    title: 'Client Systems',
-    icon: '📊',
-    items: ['Real-Time Client Dashboards', 'Lead & Pipeline Tracking', 'Automated Report Emails', 'White-Label Portals'],
-  },
-];
+// Copy lives in the `call` namespace: module_{n}_title / module_{n}_item_{m}
+const serviceModuleIcons = ['🤖', '🌐', '📈', '📊'];
 
+// Stats ('+200%' etc.) and 'Berlin' are figures / proper nouns — not translated.
+// Metric captions live in the `call` namespace: showcase_{n}_metric
 const projectShowcase = [
-  { label: 'Coach Luki', stat: 'Berlin', metric: 'Local SEO', image: '/images/projects/coachluki.jpg', url: 'coachluki.com' },
-  { label: 'Coach Kofi', stat: '+200%', metric: 'Consultations', image: '/images/projects/coachkofi.webp', url: 'coachkofi.de' },
-  { label: 'Nanny & Nest', stat: '+150%', metric: 'Inquiries', image: '/images/projects/nannyandnest.webp', url: 'nannyandnest.com' },
-  { label: 'Exotic Ripz', stat: '+400%', metric: 'Email Growth', image: '/images/projects/exoticripz.jpg', url: 'exoticripz.com' },
-  { label: 'KDS Systems', stat: '+180%', metric: 'Qualified Leads', image: '/images/projects/kdssys.webp', url: 'kdssys.com' },
-  { label: 'Public Affair', stat: '95%+', metric: 'Completion Rate', image: '/images/projects/public-affair.webp', url: 'public-affair.com' },
-  { label: 'The New School', stat: '10x', metric: 'Engagement', image: '/images/projects/military-newschool.webp', url: 'military.newschool.edu' },
+  { label: 'Coach Luki', stat: 'Berlin', image: '/images/projects/coachluki.jpg', url: 'coachluki.com' },
+  { label: 'Coach Kofi', stat: '+200%', image: '/images/projects/coachkofi.webp', url: 'coachkofi.de' },
+  { label: 'Nanny & Nest', stat: '+150%', image: '/images/projects/nannyandnest.webp', url: 'nannyandnest.com' },
+  { label: 'Exotic Ripz', stat: '+400%', image: '/images/projects/exoticripz.jpg', url: 'exoticripz.com' },
+  { label: 'KDS Systems', stat: '+180%', image: '/images/projects/kdssys.webp', url: 'kdssys.com' },
+  { label: 'Public Affair', stat: '95%+', image: '/images/projects/public-affair.webp', url: 'public-affair.com' },
+  { label: 'The New School', stat: '10x', image: '/images/projects/military-newschool.webp', url: 'military.newschool.edu' },
 ];
 
-const included = [
-  { item: 'Dedicated project manager', icon: '👤' },
-  { item: 'Custom AI agent setup', icon: '🤖' },
-  { item: 'Workflow automation build', icon: '⚡' },
-  { item: 'SEO-optimized website', icon: '🔍' },
-  { item: 'Real-time client dashboard', icon: '📊' },
-  { item: 'Content management system', icon: '📝' },
-  { item: '90-day post-launch support', icon: '🛡️' },
-  { item: 'Ad campaign setup & management', icon: '📈' },
-  { item: 'Brand identity package', icon: '🎨' },
-  { item: 'AI content repurposing pipeline', icon: '🎬' },
-];
+// Copy lives in the `call` namespace: included_{n}
+const includedIcons = ['👤', '🤖', '⚡', '🔍', '📊', '📝', '🛡️', '📈', '🎨', '🎬'];
 
-const auditBenefits = [
-  'Personalized growth strategy for your business',
-  'AI & automation opportunities tailored to you',
-  'Clear next steps you can implement immediately',
-  'No pressure, no commitment, just useful insights',
-  'Direct access to our strategy team',
-];
-
+// Copy lives in the `call` namespace: whofor_{n}
 const idealFor = [
-  { text: 'Businesses ready to automate and scale with AI', yes: true },
-  { text: 'Agencies that need white-labeled client systems', yes: true },
-  { text: 'Companies spending on ads but not tracking ROAS', yes: true },
-  { text: 'Founders drowning in manual follow-ups and tasks', yes: true },
-  { text: 'Anyone looking for a cheap template fix', yes: false },
-  { text: 'Businesses not ready to invest in real growth', yes: false },
-];
-
-const faqs = [
-  { q: 'What happens on the strategy call?', a: 'We look at your business (your website, ads, tools, workflows, and content) and find where AI, automation, and better systems can save you time and make you money. It\'s a 30-minute conversation, no pressure.' },
-  { q: 'Is the call really free?', a: 'Yes, 100% free. No credit card, no hidden fees. We use the call to understand your business and show you what\'s possible. If we\'re a good fit, we\'ll talk next steps. If not, no obligation.' },
-  { q: 'Do I need to have a website already?', a: 'Nope. We work with businesses at every stage. If you don\'t have a website, that\'s just one of the gaps we\'ll identify and solve for you.' },
-  { q: 'How long does a typical project take?', a: 'It depends on scope. A website takes 3 to 6 weeks. An AI agent ecosystem or full automation build is scoped individually. We give you a clear timeline after the call.' },
-  { q: 'Do you work with clients outside the US?', a: 'Yes. We work with clients worldwide. Our process is fully remote with regular video check-ins to keep everything on track regardless of timezone.' },
-  { q: 'What if I\'m not sure what I need?', a: 'That\'s exactly what the free strategy call is for. Tell us what you have, what you don\'t, and what\'s frustrating you. We\'ll give you a custom roadmap with no commitment required.' },
+  { yes: true },
+  { yes: true },
+  { yes: true },
+  { yes: true },
+  { yes: false },
+  { yes: false },
 ];
 
 /* ── CTA Button ── */
@@ -415,7 +313,9 @@ function scrollToCall() {
   window.scrollTo({ top, behavior: 'smooth' });
 }
 
-function CTAButton({ text = 'Book Your Free Strategy Call', className = '', variant = 'primary' }: { text?: string; className?: string; variant?: 'primary' | 'secondary' }) {
+function CTAButton({ text, className = '', variant = 'primary' }: { text?: string; className?: string; variant?: 'primary' | 'secondary' }) {
+  const t = useTranslations('call');
+  const label = text ?? t('cta_book_call');
   const base = variant === 'primary'
     ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white hover:from-orange-400 hover:to-red-400 shadow-lg shadow-orange-500/20'
     : 'bg-white/10 text-white hover:bg-white/20 border border-white/10';
@@ -429,37 +329,40 @@ function CTAButton({ text = 'Book Your Free Strategy Call', className = '', vari
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
-      {text}
+      {label}
     </motion.button>
   );
 }
 
 /* ── BANT Qualifying Form Options ── */
-const CAL_LINK = 'https://cal.com/chasehaynes/strategy';
+const CAL_LINK = 'https://calendar.app.google/frvo4DLJAJYG2HLWA';
 
+// `label` holds the translation key (call namespace); `crm` is the English
+// label embedded in the BANT summary sent to the API — internal CRM text
+// that must stay English regardless of the visitor's locale.
 const budgetOptions = [
-  { value: 'not_ready', label: "I'm not ready to invest right now" },
-  { value: '1k_3k', label: '$1,000 - $3,000' },
-  { value: '3k_5k', label: '$3,000 - $5,000' },
-  { value: '5k_10k', label: '$5,000 - $10,000' },
-  { value: '10k_plus', label: '$10,000+' },
+  { value: 'not_ready', label: 'budget_not_ready', crm: "I'm not ready to invest right now" },
+  { value: '1k_3k', label: 'budget_1k_3k', crm: '$1,000 - $3,000' },
+  { value: '3k_5k', label: 'budget_3k_5k', crm: '$3,000 - $5,000' },
+  { value: '5k_10k', label: 'budget_5k_10k', crm: '$5,000 - $10,000' },
+  { value: '10k_plus', label: 'budget_10k_plus', crm: '$10,000+' },
 ];
 
 const authorityOptions = [
-  { value: 'sole', label: "I'm the sole decision-maker" },
-  { value: 'can_bring', label: 'Others are involved, but I can bring them to the call' },
-  { value: 'need_check', label: 'I need to check with my team first' },
+  { value: 'sole', label: 'authority_sole', crm: "I'm the sole decision-maker" },
+  { value: 'can_bring', label: 'authority_can_bring', crm: 'Others are involved, but I can bring them to the call' },
+  { value: 'need_check', label: 'authority_need_check', crm: 'I need to check with my team first' },
 ];
 
 const needOptions = [
-  { value: 'yes_now', label: 'Yes - I have a clear need right now' },
-  { value: 'yes_exploring', label: "I think so - I'm exploring options" },
-  { value: 'no', label: 'Not really - just browsing' },
+  { value: 'yes_now', label: 'need_yes_now', crm: 'Yes - I have a clear need right now' },
+  { value: 'yes_exploring', label: 'need_yes_exploring', crm: "I think so - I'm exploring options" },
+  { value: 'no', label: 'need_no', crm: 'Not really - just browsing' },
 ];
 
 const timingYesNo = [
-  { value: 'yes', label: 'Yes' },
-  { value: 'no', label: 'No' },
+  { value: 'yes', label: 'timing_yes' },
+  { value: 'no', label: 'timing_no' },
 ];
 
 /* ── BANT Qualifying Form ── */
@@ -491,6 +394,7 @@ function RadioOption({ value, label, name, selected, onChange }: { value: string
 }
 
 function AuditForm() {
+  const t = useTranslations('call');
   const [step, setStep] = useState(0);
   const [consent, setConsent] = useState(false);
   const [direction, setDirection] = useState(1);
@@ -519,7 +423,14 @@ function AuditForm() {
 
   const totalSteps = 6;
   const progress = ((step + 1) / totalSteps) * 100;
-  const stepLabels = ['Your Info', 'Investment', 'Decision', 'Goals', 'Timing', 'Confirm'];
+  const stepLabels = [
+    t('step_label_info'),
+    t('step_label_investment'),
+    t('step_label_decision'),
+    t('step_label_goals'),
+    t('step_label_timing'),
+    t('step_label_confirm'),
+  ];
 
   const goBack = () => {
     if (step > 0) {
@@ -545,9 +456,10 @@ function AuditForm() {
     setDisqualified(true);
     // Still submit to CRM with [DQ] tag for future outreach
     try {
-      const budgetLabel = budgetOptions.find(o => o.value === formData.budget)?.label || formData.budget || 'N/A';
-      const authorityLabel = authorityOptions.find(o => o.value === formData.authority)?.label || formData.authority || 'N/A';
-      const needLabel = needOptions.find(o => o.value === formData.need)?.label || formData.need || 'N/A';
+      // English CRM labels — the BANT summary sent to the API stays English.
+      const budgetLabel = budgetOptions.find(o => o.value === formData.budget)?.crm || formData.budget || 'N/A';
+      const authorityLabel = authorityOptions.find(o => o.value === formData.authority)?.crm || formData.authority || 'N/A';
+      const needLabel = needOptions.find(o => o.value === formData.need)?.crm || formData.need || 'N/A';
       const bantSummary = [
         `DISQUALIFIED LEAD [DQ], ${reason}`,
         '',
@@ -620,9 +532,10 @@ function AuditForm() {
     setSubmitting(true);
     setError('');
 
-    const budgetLabel = budgetOptions.find(o => o.value === formData.budget)?.label || formData.budget;
-    const authorityLabel = authorityOptions.find(o => o.value === formData.authority)?.label || formData.authority;
-    const needLabel = needOptions.find(o => o.value === formData.need)?.label || formData.need;
+    // English CRM labels — the BANT summary sent to the API stays English.
+    const budgetLabel = budgetOptions.find(o => o.value === formData.budget)?.crm || formData.budget;
+    const authorityLabel = authorityOptions.find(o => o.value === formData.authority)?.crm || formData.authority;
+    const needLabel = needOptions.find(o => o.value === formData.need)?.crm || formData.need;
 
     // Score lead quality for CRM prioritization
     let score = 0;
@@ -669,12 +582,12 @@ function AuditForm() {
 
       if (!res.ok) {
         const data = await res.json();
-        throw new Error(data.error || 'Something went wrong');
+        throw new Error(data.error || t('error_fallback'));
       }
 
       setQualified(true);
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
+      setError(err instanceof Error ? err.message : t('error_generic'));
     } finally {
       setSubmitting(false);
     }
@@ -693,9 +606,9 @@ function AuditForm() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-2xl sm:text-3xl font-bold mb-3">You&apos;re In!</h3>
+        <h3 className="text-2xl sm:text-3xl font-bold mb-3">{t('qualified_title')}</h3>
         <p className="text-gray-400 text-base sm:text-lg max-w-md mx-auto mb-8">
-          Book your free 30-minute strategy call below. We&apos;ll review your business and build a custom growth plan, live on the call.
+          {t('qualified_subtitle')}
         </p>
         <a
           href={CAL_LINK}
@@ -706,34 +619,21 @@ function AuditForm() {
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
-          Book Your 30-Min Strategy Call
+          {t('qualified_button')}
         </a>
-        <p className="text-xs text-gray-600 mt-4">Powered by Cal.com. Pick a time that works for you.</p>
+        <p className="text-xs text-gray-600 mt-4">{t('qualified_note')}</p>
       </motion.div>
     );
   }
 
   /* ── Disqualified Screen ── */
   if (disqualified) {
-    const dqMessages: Record<string, { heading: string; message: string }> = {
-      no_budget: {
-        heading: 'No worries. Timing is everything.',
-        message: 'It sounds like you\'re not quite ready to invest right now, and that\'s okay. When the time is right, we\'ll be here.',
-      },
-      no_need: {
-        heading: 'Thanks for checking us out.',
-        message: 'It doesn\'t sound like there\'s an urgent need right now. When something comes up, we\'d love to help.',
-      },
-      bad_timing: {
-        heading: 'The timing isn\'t quite right.',
-        message: 'It sounds like now might not be the best moment to take this on. When things free up, come back and book a call.',
-      },
-      no_commitment: {
-        heading: 'No pressure at all.',
-        message: 'A strategy call only works if you\'re ready to show up. Whenever you\'re ready, the link will be here.',
-      },
+    const dqReasons = ['no_budget', 'no_need', 'bad_timing', 'no_commitment'];
+    const dqReason = dqReasons.includes(disqualifyReason) ? disqualifyReason : 'no_budget';
+    const dq = {
+      heading: t(`dq_${dqReason}_heading`),
+      message: t(`dq_${dqReason}_message`),
     };
-    const dq = dqMessages[disqualifyReason] || dqMessages.no_budget;
 
     return (
       <motion.div
@@ -758,16 +658,16 @@ function AuditForm() {
             className="flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl bg-white/[0.06] border border-white/10 text-white font-medium text-sm hover:bg-white/[0.1] transition-colors"
           >
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" /></svg>
-            Follow Us on Instagram
+            {t('dq_instagram')}
           </a>
           <a
             href="/"
             className="flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl text-gray-500 text-sm hover:text-gray-300 transition-colors"
           >
-            Back to Homepage
+            {t('dq_back_home')}
           </a>
         </div>
-        <p className="text-xs text-gray-600 mt-8">We saved your info. We&apos;ll only reach out if we think we can help.</p>
+        <p className="text-xs text-gray-600 mt-8">{t('dq_note')}</p>
       </motion.div>
     );
   }
@@ -783,7 +683,7 @@ function AuditForm() {
       {/* Progress bar */}
       <div className="space-y-2">
         <div className="flex items-center justify-between text-xs text-gray-500">
-          <span>Step {step + 1} of {totalSteps}</span>
+          <span>{t('form_progress', { current: step + 1, total: totalSteps })}</span>
           <span>{stepLabels[step]}</span>
         </div>
         <div className="h-1 bg-white/5 rounded-full overflow-hidden">
@@ -806,22 +706,22 @@ function AuditForm() {
         {/* Step 0: Name & Email */}
         {step === 0 && (
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold mb-1">Let&apos;s start with the basics</h4>
-            <p className="text-sm text-gray-400 mb-4">Tell us who you are so we can personalize your experience.</p>
+            <h4 className="text-lg font-semibold mb-1">{t('form_basics_title')}</h4>
+            <p className="text-sm text-gray-400 mb-4">{t('form_basics_subtitle')}</p>
             <div>
-              <label htmlFor="call-name" className="block text-xs text-gray-400 mb-1.5 ml-1">Your Name</label>
-              <input id="call-name" type="text" required placeholder="John Smith" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className={inputBase} />
+              <label htmlFor="call-name" className="block text-xs text-gray-400 mb-1.5 ml-1">{t('form_name_label')}</label>
+              <input id="call-name" type="text" required placeholder={t('form_name_placeholder')} value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className={inputBase} />
             </div>
             <div>
-              <label htmlFor="call-email" className="block text-xs text-gray-400 mb-1.5 ml-1">Email Address</label>
-              <input id="call-email" type="email" required placeholder="john@company.com" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className={inputBase} />
+              <label htmlFor="call-email" className="block text-xs text-gray-400 mb-1.5 ml-1">{t('form_email_label')}</label>
+              <input id="call-email" type="email" required placeholder={t('form_email_placeholder')} value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className={inputBase} />
             </div>
             <div>
-              <label htmlFor="call-phone" className="block text-xs text-gray-400 mb-1.5 ml-1">Phone / WhatsApp <span className="text-gray-600">(optional, for faster response)</span></label>
-              <input id="call-phone" type="tel" placeholder="+49 160 1234567" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className={inputBase} autoComplete="tel" />
+              <label htmlFor="call-phone" className="block text-xs text-gray-400 mb-1.5 ml-1">{t('form_phone_label')} <span className="text-gray-600">{t('form_phone_optional')}</span></label>
+              <input id="call-phone" type="tel" placeholder={t('form_phone_placeholder')} value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className={inputBase} autoComplete="tel" />
             </div>
             <div>
-              <label htmlFor="call-business" className="block text-xs text-gray-400 mb-1.5 ml-1">What type of business do you run?</label>
+              <label htmlFor="call-business" className="block text-xs text-gray-400 mb-1.5 ml-1">{t('form_business_label')}</label>
               <BusinessPicker value={formData.business} onChange={(val) => setFormData({ ...formData, business: val })} inputBase={inputBase} />
             </div>
             <label className="flex items-start gap-3 cursor-pointer pt-1">
@@ -833,7 +733,13 @@ function AuditForm() {
                 required
               />
               <span className="text-xs text-gray-500 leading-relaxed">
-                I agree to the <a href="/privacy" target="_blank" className="text-gray-300 underline hover:text-white">Privacy Policy</a> and consent to being contacted about my inquiry.
+                {t.rich('consent_label', {
+                  link: (chunks) => (
+                    <a href="/privacy" target="_blank" className="text-gray-300 underline hover:text-white">
+                      {chunks}
+                    </a>
+                  ),
+                })}
               </span>
             </label>
             <Turnstile onToken={onTurnstileToken} theme="dark" className="mt-2" />
@@ -843,10 +749,10 @@ function AuditForm() {
         {/* Step 1: Budget */}
         {step === 1 && (
           <div className="space-y-3">
-            <h4 className="text-lg font-semibold mb-1">What are you willing to invest?</h4>
-            <p className="text-sm text-gray-400 mb-4">This helps us recommend the right package for your goals.</p>
+            <h4 className="text-lg font-semibold mb-1">{t('form_budget_title')}</h4>
+            <p className="text-sm text-gray-400 mb-4">{t('form_budget_subtitle')}</p>
             {budgetOptions.map((opt) => (
-              <RadioOption key={opt.value} value={opt.value} label={opt.label} name="budget" selected={formData.budget === opt.value} onChange={() => setFormData({ ...formData, budget: opt.value })} />
+              <RadioOption key={opt.value} value={opt.value} label={t(opt.label)} name="budget" selected={formData.budget === opt.value} onChange={() => setFormData({ ...formData, budget: opt.value })} />
             ))}
           </div>
         )}
@@ -854,10 +760,10 @@ function AuditForm() {
         {/* Step 2: Authority */}
         {step === 2 && (
           <div className="space-y-3">
-            <h4 className="text-lg font-semibold mb-1">Are you the decision-maker?</h4>
-            <p className="text-sm text-gray-400 mb-4">We want to make sure the right people are on the call.</p>
+            <h4 className="text-lg font-semibold mb-1">{t('form_authority_title')}</h4>
+            <p className="text-sm text-gray-400 mb-4">{t('form_authority_subtitle')}</p>
             {authorityOptions.map((opt) => (
-              <RadioOption key={opt.value} value={opt.value} label={opt.label} name="authority" selected={formData.authority === opt.value} onChange={() => setFormData({ ...formData, authority: opt.value })} />
+              <RadioOption key={opt.value} value={opt.value} label={t(opt.label)} name="authority" selected={formData.authority === opt.value} onChange={() => setFormData({ ...formData, authority: opt.value })} />
             ))}
           </div>
         )}
@@ -865,10 +771,10 @@ function AuditForm() {
         {/* Step 3: Need */}
         {step === 3 && (
           <div className="space-y-3">
-            <h4 className="text-lg font-semibold mb-1">Do you have a real need for this?</h4>
-            <p className="text-sm text-gray-400 mb-4">We want to make sure we can actually help you.</p>
+            <h4 className="text-lg font-semibold mb-1">{t('form_need_title')}</h4>
+            <p className="text-sm text-gray-400 mb-4">{t('form_need_subtitle')}</p>
             {needOptions.map((opt) => (
-              <RadioOption key={opt.value} value={opt.value} label={opt.label} name="need" selected={formData.need === opt.value} onChange={() => setFormData({ ...formData, need: opt.value })} />
+              <RadioOption key={opt.value} value={opt.value} label={t(opt.label)} name="need" selected={formData.need === opt.value} onChange={() => setFormData({ ...formData, need: opt.value })} />
             ))}
           </div>
         )}
@@ -876,18 +782,18 @@ function AuditForm() {
         {/* Step 4: Timing */}
         {step === 4 && (
           <div className="space-y-5">
-            <h4 className="text-lg font-semibold mb-1">Let&apos;s talk timing</h4>
-            <p className="text-sm text-gray-400 mb-4">Two quick questions to make sure the timing is right.</p>
+            <h4 className="text-lg font-semibold mb-1">{t('form_timing_title')}</h4>
+            <p className="text-sm text-gray-400 mb-4">{t('form_timing_subtitle')}</p>
             <div className="space-y-3">
-              <p className="text-sm font-medium text-gray-300">Do you have the time to implement new systems in the next 30-90 days?</p>
+              <p className="text-sm font-medium text-gray-300">{t('form_timing_q1')}</p>
               {timingYesNo.map((opt) => (
-                <RadioOption key={`impl-${opt.value}`} value={opt.value} label={opt.label} name="timingImplement" selected={formData.timingImplement === opt.value} onChange={() => setFormData({ ...formData, timingImplement: opt.value })} />
+                <RadioOption key={`impl-${opt.value}`} value={opt.value} label={t(opt.label)} name="timingImplement" selected={formData.timingImplement === opt.value} onChange={() => setFormData({ ...formData, timingImplement: opt.value })} />
               ))}
             </div>
             <div className="space-y-3 pt-2">
-              <p className="text-sm font-medium text-gray-300">Is now the right time to invest in growing your business?</p>
+              <p className="text-sm font-medium text-gray-300">{t('form_timing_q2')}</p>
               {timingYesNo.map((opt) => (
-                <RadioOption key={`right-${opt.value}`} value={opt.value} label={opt.label} name="timingRight" selected={formData.timingRight === opt.value} onChange={() => setFormData({ ...formData, timingRight: opt.value })} />
+                <RadioOption key={`right-${opt.value}`} value={opt.value} label={t(opt.label)} name="timingRight" selected={formData.timingRight === opt.value} onChange={() => setFormData({ ...formData, timingRight: opt.value })} />
               ))}
             </div>
           </div>
@@ -896,10 +802,10 @@ function AuditForm() {
         {/* Step 5: Commitment */}
         {step === 5 && (
           <div className="space-y-3">
-            <h4 className="text-lg font-semibold mb-1">One last thing</h4>
-            <p className="text-sm text-gray-400 mb-4">Are you willing to show up to a 30-minute strategy call?</p>
-            <RadioOption value="yes" label="Yes, let's do it" name="commitment" selected={formData.commitment === 'yes'} onChange={() => setFormData({ ...formData, commitment: 'yes' })} />
-            <RadioOption value="no" label="Not right now" name="commitment" selected={formData.commitment === 'no'} onChange={() => setFormData({ ...formData, commitment: 'no' })} />
+            <h4 className="text-lg font-semibold mb-1">{t('form_commit_title')}</h4>
+            <p className="text-sm text-gray-400 mb-4">{t('form_commit_subtitle')}</p>
+            <RadioOption value="yes" label={t('commit_yes')} name="commitment" selected={formData.commitment === 'yes'} onChange={() => setFormData({ ...formData, commitment: 'yes' })} />
+            <RadioOption value="no" label={t('commit_no')} name="commitment" selected={formData.commitment === 'no'} onChange={() => setFormData({ ...formData, commitment: 'no' })} />
           </div>
         )}
       </motion.div>
@@ -924,7 +830,7 @@ function AuditForm() {
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Back
+            {t('button_back')}
           </button>
         )}
         <motion.button
@@ -941,18 +847,18 @@ function AuditForm() {
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
               </svg>
-              Submitting...
+              {t('button_submitting')}
             </>
           ) : step === 5 ? (
             <>
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              Get My Call Link
+              {t('button_get_link')}
             </>
           ) : (
             <>
-              Continue
+              {t('button_continue')}
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
@@ -965,7 +871,7 @@ function AuditForm() {
         <svg className="w-3.5 h-3.5 text-green-500/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
         </svg>
-        Your data is protected. We&apos;ll never spam you.
+        {t('form_privacy_note')}
       </p>
     </div>
   );
@@ -1011,6 +917,7 @@ function FAQItem({ q, a }: { q: string; a: string }) {
  * PITCH VIDEO, Click-to-play video with poster overlay
  * ================================================================ */
 function PitchVideo() {
+  const t = useTranslations('call');
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -1050,8 +957,8 @@ function PitchVideo() {
               <path d="M8 5v14l11-7z" />
             </svg>
           </motion.div>
-          <p className="text-sm sm:text-base text-white/80 font-medium">Watch how we help brands grow</p>
-          <p className="text-xs text-white/40">1 min watch</p>
+          <p className="text-sm sm:text-base text-white/80 font-medium">{t('video_watch')}</p>
+          <p className="text-xs text-white/40">{t('video_duration')}</p>
         </div>
       )}
     </div>
@@ -1062,6 +969,8 @@ function PitchVideo() {
  * MAIN FUNNEL, Highly visual sales page for /audit
  * ================================================================ */
 export function FunnelContent() {
+  const t = useTranslations('call');
+
   return (
     <div className="page-transition overflow-hidden">
 
@@ -1072,7 +981,9 @@ export function FunnelContent() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-2 text-xs sm:text-sm">
           <span className="inline-block w-2 h-2 rounded-full bg-orange-400 animate-pulse" />
           <span className="text-gray-300">
-            Free Strategy Calls: <strong className="text-orange-400">AI, automation & growth insights</strong> for your company, live in 30 minutes
+            {t.rich('banner', {
+              strong: (chunks) => <strong className="text-orange-400">{chunks}</strong>,
+            })}
           </span>
         </div>
       </div>
@@ -1084,10 +995,10 @@ export function FunnelContent() {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 text-center">
             {[
-              { value: 6, suffix: '', label: 'Brands Launched' },
-              { value: 6, suffix: '', label: 'Industries Served' },
-              { value: 100, suffix: '%', label: 'Custom Built' },
-              { value: 30, suffix: 'min', label: 'Strategy Call' },
+              { value: 6, suffix: '', label: t('stat_brands') },
+              { value: 6, suffix: '', label: t('stat_industries') },
+              { value: 100, suffix: '%', label: t('stat_custom') },
+              { value: 30, suffix: t('stat_min'), label: t('stat_call') },
             ].map((stat, i) => (
               <motion.div
                 key={i}
@@ -1147,7 +1058,7 @@ export function FunnelContent() {
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs sm:text-sm mb-8"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
-            Digital Agency for Ambitious Brands
+            {t('hero_badge')}
           </motion.div>
 
           <motion.h1
@@ -1156,10 +1067,13 @@ export function FunnelContent() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6"
           >
-            We Build Systems That{' '}
-            <span className="bg-gradient-to-r from-orange-400 via-red-400 to-orange-400 bg-clip-text text-transparent">
-              Scale Your Business
-            </span>
+            {t.rich('hero_title', {
+              gradient: (chunks) => (
+                <span className="bg-gradient-to-r from-orange-400 via-red-400 to-orange-400 bg-clip-text text-transparent">
+                  {chunks}
+                </span>
+              ),
+            })}
           </motion.h1>
 
           <motion.p
@@ -1168,8 +1082,7 @@ export function FunnelContent() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10"
           >
-            Stop doing everything manually. We build AI agents, automate workflows, run your ads,
-            and create the systems your business needs to grow, so you can focus on what matters.
+            {t('hero_subtitle')}
           </motion.p>
 
           <motion.div
@@ -1179,7 +1092,7 @@ export function FunnelContent() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <CTAButton />
-            <CTAButton text="See Our Work" variant="secondary" />
+            <CTAButton text={t('cta_see_work')} variant="secondary" />
           </motion.div>
 
           <motion.p
@@ -1189,7 +1102,7 @@ export function FunnelContent() {
             className="text-xs text-gray-600 mt-6 flex items-center justify-center gap-2"
           >
             <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-            Free 30-min strategy call. No commitment required.
+            {t('hero_note')}
           </motion.p>
         </div>
 
@@ -1224,12 +1137,12 @@ export function FunnelContent() {
       <Section className="py-12 sm:py-16 px-5 sm:px-6 text-center">
         <div className="max-w-2xl mx-auto">
           <AccentDivider />
-          <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-orange-400/60 mb-4 mt-4">See what we can build for your business</p>
+          <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-orange-400/60 mb-4 mt-4">{t('midcta_eyebrow')}</p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Ready to Automate and Scale?
+            {t('midcta_title')}
           </h1>
           <p className="text-gray-400 mb-8 max-w-md mx-auto">
-            Join the businesses that chose to build real systems instead of duct-taping tools together.
+            {t('midcta_subtitle')}
           </p>
           <CTAButton />
         </div>
@@ -1243,25 +1156,24 @@ export function FunnelContent() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                Our Story
+                {t('story_badge')}
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                We Started Because We Saw a{' '}
-                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Problem</span>
+                {t.rich('story_title', {
+                  gradient: (chunks) => (
+                    <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">{chunks}</span>
+                  ),
+                })}
               </h2>
               <div className="space-y-4 text-gray-400 text-sm sm:text-base leading-relaxed">
                 <p>
-                  Too many businesses are drowning in manual work. Following up with leads by hand,
-                  copying data between tools, posting content one platform at a time, and running ads
-                  with no real tracking.
+                  {t('story_p1')}
                 </p>
                 <p>
-                  We&apos;ve seen companies waste thousands on agencies that build pretty websites
-                  but ignore the systems behind them. No automation, no AI, no real growth engine.
+                  {t('story_p2')}
                 </p>
                 <p className="text-white font-medium">
-                  That&apos;s why we built Blok Blok Studio. We build the AI agents, automations,
-                  websites, and ad systems that actually scale your business.
+                  {t('story_p3')}
                 </p>
               </div>
             </div>
@@ -1269,10 +1181,10 @@ export function FunnelContent() {
             {/* Visual problem cards with colored accents */}
             <div className="space-y-4">
               {[
-                { icon: '😤', problem: 'You\'re manually following up with every lead and losing half of them', color: 'border-l-red-500/40' },
-                { icon: '📉', problem: 'You\'re spending on ads but can\'t tell what\'s actually working', color: 'border-l-orange-500/40' },
-                { icon: '⏰', problem: 'You\'re copying data between tools and wasting hours every week', color: 'border-l-yellow-500/40' },
-                { icon: '🤷', problem: 'You know AI could help your business but don\'t know where to start', color: 'border-l-amber-500/40' },
+                { icon: '😤', problem: t('problem_1'), color: 'border-l-red-500/40' },
+                { icon: '📉', problem: t('problem_2'), color: 'border-l-orange-500/40' },
+                { icon: '⏰', problem: t('problem_3'), color: 'border-l-yellow-500/40' },
+                { icon: '🤷', problem: t('problem_4'), color: 'border-l-amber-500/40' },
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -1303,17 +1215,20 @@ export function FunnelContent() {
           <Section>
             <div className="text-center mb-6">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                Our Portfolio
+                {t('portfolio_badge')}
               </div>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
-              Trusted by Brands That{' '}
-              <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">
-                Dare to Stand Out
-              </span>
+              {t.rich('portfolio_title', {
+                gradient: (chunks) => (
+                  <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">
+                    {chunks}
+                  </span>
+                ),
+              })}
             </h2>
             <p className="text-center text-gray-500 text-sm mb-12 sm:mb-16 max-w-2xl mx-auto">
-              From startups to established brands, we build digital experiences that drive real results across industries
+              {t('portfolio_subtitle')}
             </p>
           </Section>
 
@@ -1342,7 +1257,7 @@ export function FunnelContent() {
 
                 {/* Brand info at bottom */}
                 <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5">
-                  <p className="text-xs text-orange-400/80 mb-1">{brand.category}</p>
+                  <p className="text-xs text-orange-400/80 mb-1">{t(brand.categoryKey)}</p>
                   <h3 className="text-sm sm:text-base font-semibold text-white">{brand.name}</h3>
                   <p className="text-xs text-gray-400 mt-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{brand.url}</p>
                 </div>
@@ -1358,7 +1273,7 @@ export function FunnelContent() {
           </div>
 
           <div className="text-center mt-10">
-            <CTAButton text="Join These Brands, Book Your Free Call" />
+            <CTAButton text={t('cta_join_brands')} />
           </div>
         </div>
       </section>
@@ -1370,11 +1285,14 @@ export function FunnelContent() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-14 sm:mb-20">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              The Transformation
+              {t('transform_badge')}
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              From Invisible to{' '}
-              <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Unforgettable</span>
+              {t.rich('transform_title', {
+                gradient: (chunks) => (
+                  <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">{chunks}</span>
+                ),
+              })}
             </h2>
           </div>
 
@@ -1388,10 +1306,10 @@ export function FunnelContent() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-red-500/5 rounded-full blur-3xl" />
               <div className="flex items-center gap-3 mb-8 relative z-10">
                 <div className="w-4 h-4 rounded-full bg-red-500/60 shadow-lg shadow-red-500/20" />
-                <p className="text-sm font-bold text-red-400/80 uppercase tracking-wider">Before</p>
+                <p className="text-sm font-bold text-red-400/80 uppercase tracking-wider">{t('before_label')}</p>
               </div>
               <ul className="space-y-5 relative z-10">
-                {['Manual lead follow-up', 'No AI or automation', 'Disconnected tools everywhere', 'Ads running with no tracking', 'Content created one piece at a time', 'Clients constantly asking for updates'].map((item, i) => (
+                {[1, 2, 3, 4, 5, 6].map((n) => t(`before_${n}`)).map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-400">
                     <svg className="w-5 h-5 flex-shrink-0 text-red-500/60 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -1411,10 +1329,10 @@ export function FunnelContent() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/5 rounded-full blur-3xl" />
               <div className="flex items-center gap-3 mb-8 relative z-10">
                 <div className="w-4 h-4 rounded-full bg-green-500/60 shadow-lg shadow-green-500/20" />
-                <p className="text-sm font-bold text-green-400/80 uppercase tracking-wider">After</p>
+                <p className="text-sm font-bold text-green-400/80 uppercase tracking-wider">{t('after_label')}</p>
               </div>
               <ul className="space-y-5 relative z-10">
-                {['AI agents handling leads 24/7', 'Fully automated workflows', 'All tools connected seamlessly', 'Ads with real ROAS tracking', 'One input → 10 pieces of content', 'Client dashboards with live data'].map((item, i) => (
+                {[1, 2, 3, 4, 5, 6].map((n) => t(`after_${n}`)).map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-300">
                     <svg className="w-5 h-5 flex-shrink-0 text-green-500/60 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -1436,10 +1354,10 @@ export function FunnelContent() {
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-14 sm:mb-20">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              Why Choose Us
+              {t('benefits_badge')}
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Built Different. Built Better.
+              {t('benefits_title')}
             </h2>
           </div>
 
@@ -1447,7 +1365,7 @@ export function FunnelContent() {
             initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5"
           >
-            {benefits.map((b, i) => (
+            {benefitCards.map((b, i) => (
               <motion.div
                 key={i}
                 variants={fadeUp}
@@ -1455,8 +1373,8 @@ export function FunnelContent() {
                 className={`relative rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-gradient-to-br ${b.color} border border-white/5 overflow-hidden group hover:border-white/10 transition-colors`}
               >
                 <span className="text-3xl sm:text-4xl mb-5 block">{b.icon}</span>
-                <h3 className="text-base sm:text-lg font-semibold mb-2">{b.title}</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">{b.desc}</p>
+                <h3 className="text-base sm:text-lg font-semibold mb-2">{t(`benefit_${i + 1}_title`)}</h3>
+                <p className="text-sm text-gray-400 leading-relaxed">{t(`benefit_${i + 1}_desc`)}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -1472,14 +1390,17 @@ export function FunnelContent() {
           <Section>
             <div className="text-center mb-14 sm:mb-20">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                Our Process
+                {t('roadmap_badge')}
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-                From First Call to{' '}
-                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Launch Day</span>
+                {t.rich('roadmap_title', {
+                  gradient: (chunks) => (
+                    <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">{chunks}</span>
+                  ),
+                })}
               </h2>
               <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mt-6">
-                A simple, transparent 5-step process designed to get you results fast.
+                {t('roadmap_subtitle')}
               </p>
             </div>
           </Section>
@@ -1497,7 +1418,7 @@ export function FunnelContent() {
             </div>
 
             <div className="space-y-12 lg:space-y-20">
-              {roadmapSteps.map((step, i) => {
+              {roadmapStepNums.map((num, i) => {
                 const isEven = i % 2 === 0;
                 return (
                   <motion.div
@@ -1512,14 +1433,14 @@ export function FunnelContent() {
                     {/* Step number circle on timeline, desktop (centered) */}
                     <div className="hidden lg:flex absolute left-1/2 top-8 -translate-x-1/2 z-20">
                       <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center shadow-lg shadow-orange-500/20 border-4 border-black">
-                        <span className="text-sm font-bold text-white">{step.num}</span>
+                        <span className="text-sm font-bold text-white">{num}</span>
                       </div>
                     </div>
 
                     {/* Step number circle, mobile (left side) */}
                     <div className="lg:hidden absolute left-0 top-0 z-20">
                       <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center shadow-lg shadow-orange-500/20 border-[3px] border-black">
-                        <span className="text-xs font-bold text-white">{step.num}</span>
+                        <span className="text-xs font-bold text-white">{num}</span>
                       </div>
                     </div>
 
@@ -1536,31 +1457,31 @@ export function FunnelContent() {
                           className="relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden bg-gradient-to-br from-white/[0.02] to-white/[0.005] border border-white/5 p-6 flex items-center justify-center group hover:border-orange-500/10 transition-colors"
                         >
                           <div className="absolute inset-0 bg-gradient-to-br from-orange-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                          <StepIllustration step={step.num} />
+                          <StepIllustration step={num} />
                         </motion.div>
                       </div>
 
                       {/* Text side */}
                       <div className={`${isEven ? 'lg:order-2 lg:pl-12' : 'lg:order-1 lg:pr-12 lg:text-right'}`}>
                         <div className={`flex items-center gap-3 mb-3 flex-wrap ${isEven ? '' : 'lg:justify-end'}`}>
-                          <span className="text-xs font-bold text-orange-400/70 uppercase tracking-wider">Step {step.num}</span>
-                          <span className="text-xs px-3 py-1 rounded-full bg-orange-500/10 text-orange-400/60 border border-orange-500/10">{step.duration}</span>
+                          <span className="text-xs font-bold text-orange-400/70 uppercase tracking-wider">{t('step_label', { num })}</span>
+                          <span className="text-xs px-3 py-1 rounded-full bg-orange-500/10 text-orange-400/60 border border-orange-500/10">{t(`step_${i + 1}_duration`)}</span>
                         </div>
-                        <h3 className="text-2xl sm:text-3xl font-bold mb-4">{step.title}</h3>
-                        <p className="text-base text-gray-400 leading-relaxed max-w-md">{step.desc}</p>
+                        <h3 className="text-2xl sm:text-3xl font-bold mb-4">{t(`step_${i + 1}_title`)}</h3>
+                        <p className="text-base text-gray-400 leading-relaxed max-w-md">{t(`step_${i + 1}_desc`)}</p>
                       </div>
                     </div>
 
                     {/* Mobile: Stacked layout with left offset */}
                     <div className="lg:hidden pl-14">
                       <div className="flex items-center gap-3 mb-3 flex-wrap">
-                        <span className="text-xs font-bold text-orange-400/70 uppercase tracking-wider">Step {step.num}</span>
-                        <span className="text-xs px-3 py-1 rounded-full bg-orange-500/10 text-orange-400/60 border border-orange-500/10">{step.duration}</span>
+                        <span className="text-xs font-bold text-orange-400/70 uppercase tracking-wider">{t('step_label', { num })}</span>
+                        <span className="text-xs px-3 py-1 rounded-full bg-orange-500/10 text-orange-400/60 border border-orange-500/10">{t(`step_${i + 1}_duration`)}</span>
                       </div>
-                      <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-                      <p className="text-sm text-gray-400 leading-relaxed mb-5">{step.desc}</p>
+                      <h3 className="text-xl font-bold mb-3">{t(`step_${i + 1}_title`)}</h3>
+                      <p className="text-sm text-gray-400 leading-relaxed mb-5">{t(`step_${i + 1}_desc`)}</p>
                       <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-white/[0.02] to-white/[0.005] border border-white/5 p-4 flex items-center justify-center">
-                        <StepIllustration step={step.num} />
+                        <StepIllustration step={num} />
                       </div>
                     </div>
                   </motion.div>
@@ -1570,7 +1491,7 @@ export function FunnelContent() {
           </div>
 
           <div className="text-center mt-16">
-            <CTAButton text="Start With Step 1, Book Your Free Call" />
+            <CTAButton text={t('cta_start_step1')} />
           </div>
         </div>
       </section>
@@ -1583,31 +1504,31 @@ export function FunnelContent() {
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-14 sm:mb-20">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              What We Offer
+              {t('modules_badge')}
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              End-to-End Business Systems
+              {t('modules_title')}
             </h2>
             <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mt-6">
-              Everything under one roof: AI agents, automation, websites, ads, and client systems.
+              {t('modules_subtitle')}
             </p>
           </div>
 
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
-            {serviceModules.map((mod, i) => (
+            {serviceModuleIcons.map((icon, i) => (
               <motion.div key={i} variants={fadeUp} transition={{ duration: 0.5 }}
                 className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.02] border border-white/5 hover:border-orange-500/10 transition-colors">
                 <div className="flex items-center gap-3 mb-6">
-                  <span className="text-2xl">{mod.icon}</span>
-                  <h3 className="text-lg sm:text-xl font-semibold">{mod.title}</h3>
+                  <span className="text-2xl">{icon}</span>
+                  <h3 className="text-lg sm:text-xl font-semibold">{t(`module_${i + 1}_title`)}</h3>
                 </div>
                 <ul className="space-y-3">
-                  {mod.items.map((item, j) => (
+                  {[1, 2, 3, 4].map((j) => (
                     <li key={j} className="flex items-center gap-3 text-sm sm:text-base text-gray-400">
                       <svg className="w-4 h-4 flex-shrink-0 text-orange-500/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
-                      {item}
+                      {t(`module_${i + 1}_item_${j}`)}
                     </li>
                   ))}
                 </ul>
@@ -1627,10 +1548,10 @@ export function FunnelContent() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14 sm:mb-20">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              Our Work
+              {t('work_badge')}
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Real Results, Real Projects
+              {t('work_title')}
             </h2>
           </div>
 
@@ -1658,7 +1579,7 @@ export function FunnelContent() {
                   <p className="text-xs text-gray-400 mb-1">{project.label}</p>
                   <div className="flex items-baseline gap-2">
                     <span className="text-2xl sm:text-3xl font-bold text-white">{project.stat}</span>
-                    <span className="text-sm text-gray-400">{project.metric}</span>
+                    <span className="text-sm text-gray-400">{t(`showcase_${i + 1}_metric`)}</span>
                   </div>
                   <p className="text-xs text-gray-500 mt-1">{project.url}</p>
                 </div>
@@ -1676,26 +1597,26 @@ export function FunnelContent() {
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-14 sm:mb-20">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              Everything You Get
+              {t('included_badge')}
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              What&apos;s Included
+              {t('included_title')}
             </h2>
           </div>
 
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}
             className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 max-w-3xl mx-auto">
-            {included.map((item, i) => (
+            {includedIcons.map((icon, i) => (
               <motion.div key={i} variants={fadeUp} transition={{ duration: 0.4 }}
                 className="flex items-center gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-orange-500/10 transition-colors">
-                <span className="text-xl flex-shrink-0">{item.icon}</span>
-                <span className="text-sm sm:text-base text-gray-300">{item.item}</span>
+                <span className="text-xl flex-shrink-0">{icon}</span>
+                <span className="text-sm sm:text-base text-gray-300">{t(`included_${i + 1}`)}</span>
               </motion.div>
             ))}
           </motion.div>
 
           <div className="text-center mt-12">
-            <CTAButton text="Get All This, Book Your Free Call" />
+            <CTAButton text={t('cta_get_all')} />
           </div>
         </div>
       </section>
@@ -1716,14 +1637,17 @@ export function FunnelContent() {
           <Section>
             <div className="text-center mb-8 sm:mb-10">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                Free 30-Min Strategy Call
+                {t('call_badge')}
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-                Book Your Free{' '}
-                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Strategy Call</span>
+                {t.rich('call_title', {
+                  gradient: (chunks) => (
+                    <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">{chunks}</span>
+                  ),
+                })}
               </h2>
               <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-                Answer a few quick questions to see if we&apos;re a good fit. If you qualify, you&apos;ll get a link to book a free 30-minute strategy call.
+                {t('call_subtitle')}
               </p>
             </div>
           </Section>
@@ -1745,9 +1669,9 @@ export function FunnelContent() {
               className="lg:col-span-2"
             >
               <div className="sticky top-8">
-                <h3 className="text-lg sm:text-xl font-semibold mb-6">What You&apos;ll Get on the Call:</h3>
+                <h3 className="text-lg sm:text-xl font-semibold mb-6">{t('sidebar_title')}</h3>
                 <ul className="space-y-4 mb-8">
-                  {auditBenefits.map((benefit, i) => (
+                  {[1, 2, 3, 4, 5].map((n) => t(`sidebar_benefit_${n}`)).map((benefit, i) => (
                     <motion.li
                       key={i}
                       initial="hidden" whileInView="visible" viewport={{ once: true }}
@@ -1773,10 +1697,10 @@ export function FunnelContent() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                       </svg>
                     </div>
-                    <p className="text-sm font-medium text-white">Your data is protected</p>
+                    <p className="text-sm font-medium text-white">{t('trust_title')}</p>
                   </div>
                   <p className="text-sm text-gray-400 leading-relaxed">
-                    We&apos;ll never share your information. Strategy calls are 100% free with no obligation.
+                    {t('trust_body')}
                   </p>
                 </div>
               </div>
@@ -1793,10 +1717,10 @@ export function FunnelContent() {
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-14 sm:mb-20">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              Is This For You?
+              {t('whofor_badge')}
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Who We Work With
+              {t('whofor_title')}
             </h2>
           </div>
 
@@ -1820,7 +1744,7 @@ export function FunnelContent() {
                     </div>
                   )}
                   <span className={`text-sm sm:text-base ${item.yes ? 'text-gray-300' : 'text-gray-500'}`}>
-                    {item.text}
+                    {t(`whofor_${i + 1}`)}
                   </span>
                 </motion.div>
               ))}
@@ -1838,12 +1762,12 @@ export function FunnelContent() {
           <Section>
             <div className="text-center mb-14 sm:mb-20">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                Compare
+                {t('compare_badge')}
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-                Why Choose Us?
+                {t('compare_title')}
               </h2>
-              <p className="text-gray-400 mt-4 max-w-lg mx-auto">See how we stack up against the alternatives.</p>
+              <p className="text-gray-400 mt-4 max-w-lg mx-auto">{t('compare_subtitle')}</p>
             </div>
           </Section>
 
@@ -1852,8 +1776,8 @@ export function FunnelContent() {
               <thead>
                 <tr className="border-b border-white/10">
                   <th className="text-left py-4 pr-4 text-gray-500 font-normal w-1/4" />
-                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">DIY / Templates</th>
-                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">Freelancer</th>
+                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">{t('compare_col_diy')}</th>
+                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">{t('compare_col_freelancer')}</th>
                   <th className="py-4 px-6 text-center font-bold relative">
                     <div className="absolute inset-x-0 -top-2 bottom-0 bg-gradient-to-b from-orange-500/10 to-transparent rounded-t-2xl border-t-2 border-x border-orange-500/30 border-b-0" />
                     <span className="relative z-10 bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent text-sm">Blok Blok Studio</span>
@@ -1862,14 +1786,14 @@ export function FunnelContent() {
               </thead>
               <tbody>
                 {[
-                  { feature: 'AI Agent Automation', diy: 'no', freelancer: 'no', us: 'yes' },
-                  { feature: 'Workflow Automation', diy: 'no', freelancer: 'sometimes', us: 'yes' },
-                  { feature: 'Custom Website', diy: 'no', freelancer: 'yes', us: 'yes' },
-                  { feature: 'Paid Ads Management', diy: 'sometimes', freelancer: 'sometimes', us: 'yes' },
-                  { feature: 'Client Dashboards', diy: 'no', freelancer: 'no', us: 'yes' },
-                  { feature: 'AI Content Systems', diy: 'no', freelancer: 'no', us: 'yes' },
-                  { feature: 'Brand Strategy', diy: 'no', freelancer: 'sometimes', us: 'yes' },
-                  { feature: 'Ongoing Support', diy: 'no', freelancer: 'no', us: 'yes' },
+                  { feature: t('compare_row_1'), diy: 'no', freelancer: 'no', us: 'yes' },
+                  { feature: t('compare_row_2'), diy: 'no', freelancer: 'sometimes', us: 'yes' },
+                  { feature: t('compare_row_3'), diy: 'no', freelancer: 'yes', us: 'yes' },
+                  { feature: t('compare_row_4'), diy: 'sometimes', freelancer: 'sometimes', us: 'yes' },
+                  { feature: t('compare_row_5'), diy: 'no', freelancer: 'no', us: 'yes' },
+                  { feature: t('compare_row_6'), diy: 'no', freelancer: 'no', us: 'yes' },
+                  { feature: t('compare_row_7'), diy: 'no', freelancer: 'sometimes', us: 'yes' },
+                  { feature: t('compare_row_8'), diy: 'no', freelancer: 'no', us: 'yes' },
                 ].map((row, i) => (
                   <tr key={i} className="border-b border-white/5 group hover:bg-white/[0.02] transition-colors">
                     <td className="py-4 pr-4 text-gray-300 font-medium">{row.feature}</td>
@@ -1897,7 +1821,7 @@ export function FunnelContent() {
             </table>
             {/* Bottom highlight for Blok Blok column */}
             <div className="mt-6 text-center">
-              <p className="text-xs text-gray-500">All green, all the time. That&apos;s the difference.</p>
+              <p className="text-xs text-gray-500">{t('compare_footnote')}</p>
             </div>
           </div>
         </div>
@@ -1911,16 +1835,16 @@ export function FunnelContent() {
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="text-center mb-14 sm:mb-20">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              FAQ
+              {t('faq_badge')}
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Questions?
+              {t('faq_title')}
             </h2>
-            <p className="text-gray-400 mt-4">Everything you need to know before getting started.</p>
+            <p className="text-gray-400 mt-4">{t('faq_subtitle')}</p>
           </div>
 
-          {faqs.map((faq, i) => (
-            <FAQItem key={i} q={faq.q} a={faq.a} />
+          {[1, 2, 3, 4, 5, 6].map((n) => (
+            <FAQItem key={n} q={t(`faq_${n}_q`)} a={t(`faq_${n}_a`)} />
           ))}
         </div>
       </section>
@@ -1947,20 +1871,20 @@ export function FunnelContent() {
 
               <div className="relative z-10">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                  Let&apos;s Go
+                  {t('final_badge')}
                 </div>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                  Your Business Deserves Better Systems
+                  {t('final_title')}
                 </h2>
                 <p className="text-gray-400 text-base sm:text-lg max-w-lg mx-auto mb-10">
-                  Book a free 30-minute strategy call with our team. No commitment, just a custom growth plan you can act on right away.
+                  {t('final_subtitle')}
                 </p>
 
-                <CTAButton text="Book Your Free Strategy Call" />
+                <CTAButton text={t('cta_book_call')} />
 
                 <p className="text-xs text-gray-600 mt-6 flex items-center justify-center gap-2">
                   <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                  Answer a few questions, then pick a time that works for you.
+                  {t('final_footnote')}
                 </p>
               </div>
             </div>
@@ -1971,7 +1895,7 @@ export function FunnelContent() {
       {/* ── Minimal footer ── */}
       <footer className="py-8 px-5 text-center border-t border-white/5">
         <p className="text-xs text-gray-600">
-          &copy; {new Date().getFullYear()} Blok Blok Studio. All rights reserved.
+          {t('footer_copyright', { year: new Date().getFullYear() })}
         </p>
       </footer>
     </div>

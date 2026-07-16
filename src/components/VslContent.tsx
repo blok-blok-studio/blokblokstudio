@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { AnimatedSection } from './AnimatedSection';
+import { LeadForm } from './LeadForm';
 import { LandingFooter } from './LandingFooter';
 
 /**
@@ -16,7 +16,6 @@ import { LandingFooter } from './LandingFooter';
 // (script: docs/vsl-script.md). Until then the /call pitch video runs here
 // so the page converts from day one.
 const VIDEO_URL = process.env.NEXT_PUBLIC_VSL_VIDEO_URL || '/videos/pitch.mp4';
-const INTRO_CALL_LINK = 'https://cal.com/chasehaynes/discovery';
 
 export function VslContent() {
   return (
@@ -65,18 +64,11 @@ export function VslContent() {
           </div>
         </AnimatedSection>
 
+        {/* Lead capture directly under the video: with no live call volume
+            yet, a 30-second form converts cold traffic far better than
+            sending it to an empty calendar. We book the call in the reply. */}
         <AnimatedSection delay={0.15}>
-          <motion.a
-            href={INTRO_CALL_LINK}
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            className="inline-block w-full sm:w-auto px-12 py-4 rounded-full bg-white text-black font-semibold text-sm sm:text-base hover:bg-gray-100 transition-colors"
-          >
-            Book my free intro call
-          </motion.a>
-          <p className="mt-4 text-xs text-gray-600">
-            15 minutes. No pitch. You keep the growth plan either way.
-          </p>
+          <LeadForm fieldTag="VSL Lead" />
         </AnimatedSection>
 
         <LandingFooter />

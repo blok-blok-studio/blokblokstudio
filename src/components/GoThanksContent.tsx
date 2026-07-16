@@ -15,7 +15,7 @@ import { LandingFooter } from './LandingFooter';
  * Events only exist if the visitor consented to marketing cookies (AdsPixels).
  */
 
-const INTRO_CALL_LINK = 'https://cal.com/chasehaynes/discovery';
+const INTRO_CALL_LINK = 'https://calendar.app.google/frvo4DLJAJYG2HLWA';
 const WHATSAPP_LINK =
   'https://wa.me/491627055848?text=Hey%20Chase%2C%20I%20just%20sent%20a%20growth%20plan%20request%20on%20your%20site.';
 

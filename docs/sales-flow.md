@@ -17,13 +17,13 @@ CONVERSION PAGE (auto-routed by click source)
       │   fbclid / utm_source=meta   → /go/thanks/meta    (fires Meta "Lead")
       │   gclid  / utm_source=google → /go/thanks/google  (fires Google conversion)
       │   direct / unknown           → /go/thanks         (fires both, guarded)
-      │  primary CTA: book 15-min intro call (cal.com/chasehaynes/discovery)
+      │  primary CTA: book 15-min intro call (the Google Calendar booking page)
       │  secondary: WhatsApp for instant contact
       ▼
 INTRO CALL — the SETTER call (15 min, discovery)
       │  qualify, build trust, book the strategy call
       ▼
-STRATEGY CALL — the CLOSER call (cal.com/chasehaynes/strategy)
+STRATEGY CALL — the CLOSER call (the Google Calendar booking page)
       │  present growth plan, scope, price → close
       ▼
 Client onboarding (/onboard flow → tracker)
@@ -50,8 +50,8 @@ ads traffic skips the long form because every field of friction costs paid leads
 
 | Role | Call | Length | Job |
 |---|---|---|---|
-| Setter | Intro / discovery (`cal.com/chasehaynes/discovery`) | 15 min | Qualify, build rapport, book the strategy call on the spot |
-| Closer | Strategy (`cal.com/chasehaynes/strategy`) | 30–45 min | Present the growth plan, handle objections, close |
+| Setter | Intro / discovery (`the Google Calendar booking page`) | 15 min | Qualify, build rapport, book the strategy call on the spot |
+| Closer | Strategy (`the Google Calendar booking page`) | 30–45 min | Present the growth plan, handle objections, close |
 
 Solo mode: same person, two calls. The split still matters — never sell on the intro call.
 
