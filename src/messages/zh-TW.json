@@ -289,6 +289,7 @@
     "name": "您的姓名",
     "email": "您的郵箱",
     "company": "公司",
+    "phone": "電話 / WhatsApp(選填)",
     "message": "請告訴我們您的專案",
     "submit": "傳送訊息",
     "success": "謝謝！我們會盡快與您聯絡。",

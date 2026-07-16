@@ -16,6 +16,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
+import { pushUnsubscribeToTracker } from '@/lib/tracker';
 
 /**
  * GET /api/unsubscribe?id=xxx — branded unsubscribe page with options.
@@ -35,10 +36,11 @@ export async function GET(req: NextRequest) {
   // Handle action from the form
   if (action === 'unsubscribe') {
     try {
-      await prisma.lead.update({
+      const unsubbed = await prisma.lead.update({
         where: { id },
         data: { unsubscribed: true, status: 'unsubscribed' },
       });
+      await pushUnsubscribeToTracker(unsubbed.email);
       // Log event
       try {
         await prisma.emailEvent.create({
@@ -75,10 +77,11 @@ export async function GET(req: NextRequest) {
   if (action === 'feedback') {
     const reason = req.nextUrl.searchParams.get('reason') || 'No reason given';
     try {
-      await prisma.lead.update({
+      const unsubbed = await prisma.lead.update({
         where: { id },
         data: { unsubscribed: true, status: 'unsubscribed' },
       });
+      await pushUnsubscribeToTracker(unsubbed.email);
       await prisma.emailEvent.create({
         data: { leadId: id, type: 'unsubscribed', details: `Reason: ${reason.slice(0, 200)}` },
       });
@@ -115,10 +118,11 @@ export async function POST(req: NextRequest) {
   const id = req.nextUrl.searchParams.get('id');
   if (id) {
     try {
-      await prisma.lead.update({
+      const unsubbed = await prisma.lead.update({
         where: { id },
         data: { unsubscribed: true, status: 'unsubscribed' },
       });
+      await pushUnsubscribeToTracker(unsubbed.email);
       await prisma.emailEvent.create({
         data: { leadId: id, type: 'unsubscribed', details: 'One-click unsubscribe header' },
       });
@@ -155,6 +159,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Mark as unsubscribed
+    await pushUnsubscribeToTracker(lead.email);
     await prisma.lead.update({
       where: { id: lead.id },
       data: { unsubscribed: true, status: 'unsubscribed' },

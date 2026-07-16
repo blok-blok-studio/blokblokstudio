@@ -107,6 +107,7 @@ export function ContactContent() {
           name: formData.get('name'),
           email: formData.get('email'),
           company: formData.get('company'),
+          phone: formData.get('phone'),
           message: formData.get('message'),
           consent: true,
           _hp: formData.get('_hp'),
@@ -270,6 +271,21 @@ export function ContactContent() {
                     autoComplete="organization"
                     className="w-full px-5 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors"
                     placeholder={t('company')}
+                  />
+                </div>
+
+                {/* Phone field (optional) */}
+                <div>
+                  <label htmlFor="contact-phone" className="block text-sm text-gray-300 mb-2">
+                    {t('phone')}
+                  </label>
+                  <input
+                    id="contact-phone"
+                    type="tel"
+                    name="phone"
+                    autoComplete="tel"
+                    className="w-full px-5 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors"
+                    placeholder={t('phone')}
                   />
                 </div>
 

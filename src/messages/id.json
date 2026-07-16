@@ -289,6 +289,7 @@
     "name": "Nama Anda",
     "email": "Email Anda",
     "company": "Perusahaan",
+    "phone": "Telepon / WhatsApp (opsional)",
     "message": "Ceritakan tentang proyek Anda",
     "submit": "Kirim Pesan",
     "success": "Terima kasih! Kami akan segera menghubungi Anda.",

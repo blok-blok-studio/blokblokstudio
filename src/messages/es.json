@@ -289,6 +289,7 @@
     "name": "Tu Nombre",
     "email": "Tu Email",
     "company": "Empresa",
+    "phone": "Teléfono / WhatsApp (opcional)",
     "message": "Cuéntanos sobre tu proyecto",
     "submit": "Enviar Mensaje",
     "success": "¡Gracias! Te responderemos pronto.",

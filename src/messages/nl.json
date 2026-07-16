@@ -289,6 +289,7 @@
     "name": "Je Naam",
     "email": "Je E-mail",
     "company": "Bedrijf",
+    "phone": "Telefoon / WhatsApp (optioneel)",
     "message": "Vertel ons over je project",
     "submit": "Bericht Versturen",
     "success": "Bedankt! We nemen snel contact met je op.",

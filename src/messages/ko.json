@@ -289,6 +289,7 @@
     "name": "이름",
     "email": "이메일",
     "company": "회사",
+    "phone": "전화 / WhatsApp (선택)",
     "message": "프로젝트에 대해 알려주세요",
     "submit": "메시지 보내기",
     "success": "감사합니다! 곧 연락드리겠습니다.",

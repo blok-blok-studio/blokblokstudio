@@ -46,6 +46,32 @@ export async function pushLeadToTracker(lead: TrackerLead): Promise<void> {
   }
 }
 
+/** Mirror a site unsubscribe into the tracker's subscriber list so the
+ *  outreach list never contains someone who already opted out. */
+export async function pushUnsubscribeToTracker(email: string): Promise<void> {
+  if (!TRACKER_URL || !TRACKER_SECRET) {
+    console.warn('[Tracker] Webhook not configured, skipping');
+    return;
+  }
+
+  try {
+    const res = await fetch(`${TRACKER_URL}/api/newsletter/unsubscribe`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Webhook-Secret': TRACKER_SECRET,
+      },
+      body: JSON.stringify({ email }),
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!res.ok) {
+      console.error('[Tracker] Unsubscribe sync failed:', res.status, await res.text());
+    }
+  } catch (error) {
+    console.error('[Tracker] Unsubscribe sync error:', error);
+  }
+}
+
 export async function pushNewsletterToTracker(email: string): Promise<void> {
   if (!TRACKER_URL) {
     console.warn('[Tracker] Webhook not configured, skipping');

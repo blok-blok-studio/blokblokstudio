@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { name, email, company, message, consent, _hp, _t, _cf } = await req.json();
+    const { name, email, company, phone, message, consent, _hp, _t, _cf } = await req.json();
     const consentIp = ip;
 
     if (!name || !email || !message) {
@@ -99,6 +99,7 @@ export async function POST(req: NextRequest) {
       name,
       email,
       business: company || undefined,
+      phone: typeof phone === 'string' && phone.trim() ? phone.trim() : undefined,
       summary: message,
     });
     return NextResponse.json(

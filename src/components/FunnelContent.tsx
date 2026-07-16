@@ -505,6 +505,7 @@ function AuditForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     business: '',
     budget: '',
     authority: '',
@@ -565,6 +566,7 @@ function AuditForm() {
           email: formData.email,
           field: 'Strategy Lead [DQ]',
           business: formData.business,
+          phone: formData.phone || undefined,
           website: '',
           noWebsite: true,
           problem: bantSummary,
@@ -653,6 +655,7 @@ function AuditForm() {
           email: formData.email,
           field: `Strategy Lead [${tier}]`,
           business: formData.business,
+          phone: formData.phone || undefined,
           website: '',
           noWebsite: true,
           problem: bantSummary,
@@ -811,6 +814,10 @@ function AuditForm() {
             <div>
               <label htmlFor="call-email" className="block text-xs text-gray-400 mb-1.5 ml-1">Email Address</label>
               <input id="call-email" type="email" required placeholder="john@company.com" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className={inputBase} />
+            </div>
+            <div>
+              <label htmlFor="call-phone" className="block text-xs text-gray-400 mb-1.5 ml-1">Phone / WhatsApp <span className="text-gray-600">(optional, for faster response)</span></label>
+              <input id="call-phone" type="tel" placeholder="+49 160 1234567" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className={inputBase} autoComplete="tel" />
             </div>
             <div>
               <label htmlFor="call-business" className="block text-xs text-gray-400 mb-1.5 ml-1">What type of business do you run?</label>
