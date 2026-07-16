@@ -431,8 +431,92 @@ function CTAButton({ text = 'Book Your Free Strategy Call', className = '', vari
   );
 }
 
+/* ── Business type presets ── */
+const businessTypes = [
+  'Coaching / Consulting',
+  'E-Commerce / Online Store',
+  'SaaS / Software',
+  'Agency / Marketing',
+  'Real Estate',
+  'Healthcare / Medical',
+  'Legal / Law Firm',
+  'Financial Services',
+  'Education / Training',
+  'Restaurant / Food & Beverage',
+  'Fitness / Wellness',
+  'Construction / Trades',
+  'Beauty / Salon / Spa',
+  'Content Creator / Influencer',
+  'Retail / Brick & Mortar',
+  'Professional Services',
+  'Nonprofit',
+  'Automotive',
+  'Travel / Hospitality',
+  'Other',
+];
+
+function BusinessPicker({ value, onChange, inputBase }: { value: string; onChange: (val: string) => void; inputBase: string }) {
+  const [query, setQuery] = useState('');
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  const filtered = query
+    ? businessTypes.filter(t => t.toLowerCase().includes(query.toLowerCase()))
+    : businessTypes;
+
+  // Close on outside click
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    }
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative">
+      <input
+        id="call-business"
+        type="text"
+        required
+        placeholder="Search or select your industry..."
+        value={value || query}
+        onChange={(e) => {
+          const v = e.target.value;
+          setQuery(v);
+          onChange('');
+          setOpen(true);
+        }}
+        onFocus={() => setOpen(true)}
+        className={inputBase}
+        autoComplete="off"
+      />
+      {open && filtered.length > 0 && (
+        <div className="absolute z-30 left-0 right-0 mt-1.5 max-h-52 overflow-y-auto rounded-xl bg-[#1a1a1a] border border-white/10 shadow-xl shadow-black/40">
+          {filtered.map((type) => (
+            <button
+              key={type}
+              type="button"
+              onClick={() => {
+                onChange(type);
+                setQuery('');
+                setOpen(false);
+              }}
+              className={`w-full text-left px-4 py-2.5 text-sm transition-colors hover:bg-orange-500/10 hover:text-orange-300 ${
+                value === type ? 'text-orange-400 bg-orange-500/[0.06]' : 'text-gray-300'
+              }`}
+            >
+              {type}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 /* ── BANT Qualifying Form Options ── */
-const CAL_LINK = 'https://cal.com/chasehaynes/strategy';
+const GOOGLE_CAL_LINK = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2v3xRsZStR2Wtk8dr_F8kwEq4WGWu0FM548fk45LXMHonM5FwIUFHmuTTp0Ph6eVpcM1ZeM2PC?gv=true';
 
 const budgetOptions = [
   { value: 'not_ready', label: "I'm not ready to invest right now" },
@@ -491,6 +575,7 @@ function AuditForm() {
   const [step, setStep] = useState(0);
   const [direction, setDirection] = useState(1);
   const [qualified, setQualified] = useState(false);
+  const [leadTier, setLeadTier] = useState('');
   const [disqualified, setDisqualified] = useState(false);
   const [disqualifyReason, setDisqualifyReason] = useState('');
   const [submitting, setSubmitting] = useState(false);
@@ -502,6 +587,7 @@ function AuditForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    business: '',
     budget: '',
     authority: '',
     need: '',
@@ -513,7 +599,7 @@ function AuditForm() {
 
   const totalSteps = 6;
   const progress = ((step + 1) / totalSteps) * 100;
-  const stepLabels = ['Your Info', 'Investment', 'Decision', 'Goals', 'Timing', 'Confirm'];
+  const stepLabels = ['Your Info', 'Investment', 'Decision', 'Need', 'Timing', 'Confirm'];
 
   const goBack = () => {
     if (step > 0) {
@@ -524,7 +610,7 @@ function AuditForm() {
 
   const canProceed = () => {
     switch (step) {
-      case 0: return formData.name.trim() !== '' && formData.email.trim() !== '' && formData.email.includes('@');
+      case 0: return formData.name.trim() !== '' && formData.email.trim() !== '' && formData.email.includes('@') && formData.business.trim() !== '';
       case 1: return formData.budget !== '';
       case 2: return formData.authority !== '';
       case 3: return formData.need !== '';
@@ -545,6 +631,7 @@ function AuditForm() {
       const bantSummary = [
         `DISQUALIFIED LEAD [DQ] — ${reason}`,
         '',
+        `Business: ${formData.business || 'N/A'}`,
         `Budget: ${budgetLabel}`,
         `Authority: ${authorityLabel}`,
         `Need: ${needLabel}`,
@@ -559,6 +646,7 @@ function AuditForm() {
           name: formData.name,
           email: formData.email,
           field: 'Strategy Lead [DQ]',
+          business: formData.business,
           website: '',
           noWebsite: true,
           problem: bantSummary,
@@ -582,6 +670,11 @@ function AuditForm() {
     // Budget: no budget at all
     if (step === 1 && formData.budget === 'not_ready') {
       await disqualify('no_budget');
+      return;
+    }
+    // Authority: can't make the decision
+    if (step === 2 && formData.authority === 'need_check') {
+      await disqualify('no_authority');
       return;
     }
     // Need: just browsing
@@ -629,6 +722,7 @@ function AuditForm() {
     const bantSummary = [
       `STRATEGY LEAD [${tier}] (score: ${score}/7)`,
       '',
+      `Business: ${formData.business}`,
       `Budget: ${budgetLabel}`,
       `Authority: ${authorityLabel}`,
       `Need: ${needLabel}`,
@@ -645,6 +739,7 @@ function AuditForm() {
           name: formData.name,
           email: formData.email,
           field: `Strategy Lead [${tier}]`,
+          business: formData.business,
           website: '',
           noWebsite: true,
           problem: bantSummary,
@@ -660,6 +755,7 @@ function AuditForm() {
         throw new Error(data.error || 'Something went wrong');
       }
 
+      setLeadTier(tier);
       setQualified(true);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
@@ -668,8 +764,49 @@ function AuditForm() {
     }
   };
 
-  /* ── Completed — Cal.com Booking ── */
+  /* ── Completed — HOT/WARM get calendar, COLD gets nurture ── */
   if (qualified) {
+    // COLD leads (score < 3) — nurture path instead of calendar
+    if (leadTier === 'COLD') {
+      return (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="text-center py-12 sm:py-16"
+        >
+          <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-orange-500/10 border border-orange-500/20 flex items-center justify-center">
+            <svg className="w-10 h-10 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 className="text-2xl sm:text-3xl font-bold mb-3">Thanks, {formData.name.split(' ')[0]}!</h3>
+          <p className="text-gray-400 text-base sm:text-lg max-w-md mx-auto mb-8">
+            We&apos;ve saved your info. Based on your answers, we think the best next step is to check out some of our work first — so you can see exactly what we build before jumping on a call.
+          </p>
+          <div className="space-y-3 max-w-xs mx-auto">
+            <a
+              href="/"
+              className="flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold text-sm shadow-lg shadow-orange-500/20 hover:from-orange-400 hover:to-red-400 transition-all"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
+              See Our Work &amp; Case Studies
+            </a>
+            <a
+              href="https://www.instagram.com/blokblokstudio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl bg-white/[0.06] border border-white/10 text-white font-medium text-sm hover:bg-white/[0.1] transition-colors"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" /></svg>
+              Follow Us on Instagram
+            </a>
+          </div>
+          <p className="text-xs text-gray-600 mt-8">When you&apos;re ready to move forward, come back and we&apos;ll get you on the calendar.</p>
+        </motion.div>
+      );
+    }
+
+    // HOT/WARM leads — get the calendar
     return (
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
@@ -681,22 +818,23 @@ function AuditForm() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-2xl sm:text-3xl font-bold mb-3">You&apos;re In!</h3>
+        <h3 className="text-2xl sm:text-3xl font-bold mb-3">You&apos;re In, {formData.name.split(' ')[0]}!</h3>
         <p className="text-gray-400 text-base sm:text-lg max-w-md mx-auto mb-8">
           Book your free 30-minute strategy call below. We&apos;ll review your business and build a custom growth plan — live on the call.
         </p>
-        <a
-          href={CAL_LINK}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 px-10 py-5 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold text-base shadow-lg shadow-orange-500/20 hover:from-orange-400 hover:to-red-400 transition-all"
-        >
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-          </svg>
-          Book Your 30-Min Strategy Call
-        </a>
-        <p className="text-xs text-gray-600 mt-4">Powered by Cal.com — pick a time that works for you</p>
+        <div className="w-full max-w-2xl mx-auto rounded-2xl overflow-hidden border border-white/10 bg-white relative" style={{ minHeight: '900px' }}>
+          <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-white z-0">
+            <div className="w-10 h-10 border-4 border-gray-200 border-t-orange-500 rounded-full animate-spin" />
+            <p className="text-gray-400 text-sm">Loading calendar...</p>
+          </div>
+          <iframe
+            src={GOOGLE_CAL_LINK}
+            title="Book a Strategy Call"
+            className="w-full border-0 relative z-10 bg-white"
+            style={{ height: '900px' }}
+          />
+        </div>
+        <p className="text-xs text-gray-600 mt-4">Pick a time that works for you — powered by Google Calendar</p>
       </motion.div>
     );
   }
@@ -715,6 +853,10 @@ function AuditForm() {
       bad_timing: {
         heading: 'The timing isn\'t quite right.',
         message: 'It sounds like now might not be the best moment to take this on. When things free up, come back and book a call.',
+      },
+      no_authority: {
+        heading: 'Bring the decision-maker.',
+        message: 'Our strategy calls work best when the person who can say "yes" is on the call. Come back with them and we\'ll make it count.',
       },
       no_commitment: {
         heading: 'No pressure at all.',
@@ -791,11 +933,11 @@ function AuditForm() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.3, ease: 'easeOut' }}
       >
-        {/* Step 0: Name & Email */}
+        {/* Step 0: Name, Email & Business */}
         {step === 0 && (
           <div className="space-y-4">
             <h4 className="text-lg font-semibold mb-1">Let&apos;s start with the basics</h4>
-            <p className="text-sm text-gray-400 mb-4">Tell us who you are so we can personalize your experience.</p>
+            <p className="text-sm text-gray-400 mb-4">Tell us who you are and what you do so we can prep for your call.</p>
             <div>
               <label htmlFor="call-name" className="block text-xs text-gray-400 mb-1.5 ml-1">Your Name</label>
               <input id="call-name" type="text" required placeholder="John Smith" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className={inputBase} />
@@ -803,6 +945,10 @@ function AuditForm() {
             <div>
               <label htmlFor="call-email" className="block text-xs text-gray-400 mb-1.5 ml-1">Email Address</label>
               <input id="call-email" type="email" required placeholder="john@company.com" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className={inputBase} />
+            </div>
+            <div>
+              <label htmlFor="call-business" className="block text-xs text-gray-400 mb-1.5 ml-1">What type of business do you run?</label>
+              <BusinessPicker value={formData.business} onChange={(val) => setFormData({ ...formData, business: val })} inputBase={inputBase} />
             </div>
             <Turnstile onToken={onTurnstileToken} theme="dark" className="mt-2" />
           </div>
@@ -1027,14 +1173,15 @@ function PitchVideo() {
 }
 
 /* ================================================================
- * MAIN FUNNEL — Highly visual sales page for /audit
+ * MAIN FUNNEL — VSL (Video Sales Letter) layout
+ * Structure: Banner → Hero → VSL Video → Stats → BANT Form → Brands → Before/After → FAQ → Final CTA
  * ================================================================ */
 export function FunnelContent() {
   return (
     <div className="page-transition overflow-hidden">
 
       {/* ================================================================
-       * 1. BANNER — Urgency / announcement bar
+       * 1. BANNER — Urgency bar
        * ================================================================ */}
       <div className="bg-gradient-to-r from-orange-500/10 via-red-500/5 to-orange-500/10 border-b border-orange-500/10">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-2 text-xs sm:text-sm">
@@ -1046,10 +1193,94 @@ export function FunnelContent() {
       </div>
 
       {/* ================================================================
-       * 2. SOCIAL PROOF BAR — Stats with visual accents
+       * 2. HERO — Tight, punchy, drives to video
        * ================================================================ */}
-      <Section className="py-6 sm:py-8 px-5 border-b border-white/5">
+      <section className="relative pt-10 sm:pt-14 lg:pt-16 pb-8 sm:pb-10 px-5 sm:px-6 text-center overflow-hidden">
+        <motion.div
+          className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full bg-orange-500/[0.04] blur-[120px]"
+          animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0.6, 0.3] }}
+          transition={{ duration: 8, repeat: Infinity }}
+        />
+        <motion.div
+          className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-red-500/[0.03] blur-[100px]"
+          animate={{ scale: [1.2, 1, 1.2], opacity: [0.2, 0.5, 0.2] }}
+          transition={{ duration: 10, repeat: Infinity, delay: 2 }}
+        />
+
+        <div className="relative z-10 max-w-4xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="mb-6"
+          >
+            <Image
+              src="/logo.svg"
+              alt="Blok Blok Studio"
+              width={240}
+              height={75}
+              className="h-12 sm:h-14 lg:h-16 w-auto mx-auto"
+              priority
+            />
+          </motion.div>
+
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-4"
+          >
+            Stop Doing Everything Manually.{' '}
+            <span className="bg-gradient-to-r from-orange-400 via-red-400 to-orange-400 bg-clip-text text-transparent">
+              Let Us Build the System.
+            </span>
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-gray-400 text-base sm:text-lg max-w-xl mx-auto mb-6"
+          >
+            Watch the short video below to see how we help businesses automate, scale, and grow — then book your free strategy call.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="text-xs text-gray-600 flex items-center justify-center gap-2"
+          >
+            <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+            Free 30-min strategy call. No commitment required.
+          </motion.p>
+        </div>
+      </section>
+
+      {/* ================================================================
+       * 3. VSL VIDEO — The star of the page
+       * ================================================================ */}
+      <Section className="py-4 sm:py-6 px-5 sm:px-6">
         <div className="max-w-5xl mx-auto">
+          <PitchVideo />
+          <div className="flex items-center justify-center gap-6 mt-6 text-xs text-gray-500">
+            <span className="flex items-center gap-1.5">
+              <svg className="w-3.5 h-3.5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              1 min watch
+            </span>
+            <span className="flex items-center gap-1.5">
+              <svg className="w-3.5 h-3.5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+              No fluff, just results
+            </span>
+          </div>
+        </div>
+      </Section>
+
+      {/* ================================================================
+       * 4. SOCIAL PROOF STATS — Quick credibility
+       * ================================================================ */}
+      <Section className="py-8 sm:py-10 px-5 border-y border-white/5">
+        <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 text-center">
             {[
               { value: 6, suffix: '', label: 'Brands Launched' },
@@ -1076,603 +1307,9 @@ export function FunnelContent() {
       </Section>
 
       {/* ================================================================
-       * 3. HERO — Bold headline with visual background
+       * 5. BANT FORM + CALENDAR — Primary conversion point (moved up)
        * ================================================================ */}
-      <section className="relative pt-8 sm:pt-10 lg:pt-12 pb-16 sm:pb-20 lg:pb-24 px-5 sm:px-6 text-center overflow-hidden">
-        {/* Animated background orbs */}
-        <motion.div
-          className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full bg-orange-500/[0.04] blur-[120px]"
-          animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0.6, 0.3] }}
-          transition={{ duration: 8, repeat: Infinity }}
-        />
-        <motion.div
-          className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-red-500/[0.03] blur-[100px]"
-          animate={{ scale: [1.2, 1, 1.2], opacity: [0.2, 0.5, 0.2] }}
-          transition={{ duration: 10, repeat: Infinity, delay: 2 }}
-        />
-
-        <div className="relative z-10 max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="mb-8"
-          >
-            <Image
-              src="/logo.svg"
-              alt="Blok Blok Studio"
-              width={240}
-              height={75}
-              className="h-14 sm:h-16 lg:h-20 w-auto mx-auto"
-              priority
-            />
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs sm:text-sm mb-8"
-          >
-            <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
-            Digital Agency for Ambitious Brands
-          </motion.div>
-
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6"
-          >
-            We Build Systems That{' '}
-            <span className="bg-gradient-to-r from-orange-400 via-red-400 to-orange-400 bg-clip-text text-transparent">
-              Scale Your Business
-            </span>
-          </motion.h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10"
-          >
-            Stop doing everything manually. We build AI agents, automate workflows, run your ads,
-            and create the systems your business needs to grow — so you can focus on what matters.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
-          >
-            <CTAButton />
-            <CTAButton text="See Our Work" variant="secondary" />
-          </motion.div>
-
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
-            className="text-xs text-gray-600 mt-6 flex items-center justify-center gap-2"
-          >
-            <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-            Free 30-min strategy call. No commitment required.
-          </motion.p>
-        </div>
-
-        {/* Scroll indicator */}
-        <motion.div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          <div className="w-6 h-10 rounded-full border-2 border-white/10 flex items-start justify-center p-1.5">
-            <motion.div
-              className="w-1.5 h-1.5 rounded-full bg-orange-400"
-              animate={{ y: [0, 12, 0] }}
-              transition={{ duration: 2, repeat: Infinity }}
-            />
-          </div>
-        </motion.div>
-      </section>
-
-      {/* ================================================================
-       * 4. VIDEO SALES LETTER — Pitch video
-       * ================================================================ */}
-      <Section className="py-8 sm:py-12 px-5 sm:px-6">
-        <div className="max-w-4xl mx-auto">
-          <PitchVideo />
-        </div>
-      </Section>
-
-      {/* ================================================================
-       * 5. CTA — Mid-page call to action
-       * ================================================================ */}
-      <Section className="py-12 sm:py-16 px-5 sm:px-6 text-center">
-        <div className="max-w-2xl mx-auto">
-          <AccentDivider />
-          <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-orange-400/60 mb-4 mt-4">See what we can build for your business</p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Ready to Automate and Scale?
-          </h2>
-          <p className="text-gray-400 mb-8 max-w-md mx-auto">
-            Join the businesses that chose to build real systems instead of duct-taping tools together.
-          </p>
-          <CTAButton />
-        </div>
-      </Section>
-
-      {/* ================================================================
-       * 6. STORY + PROBLEM — Visual narrative section
-       * ================================================================ */}
-      <Section className="py-20 sm:py-28 lg:py-36 px-5 sm:px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                Our Story
-              </div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                We Started Because We Saw a{' '}
-                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Problem</span>
-              </h2>
-              <div className="space-y-4 text-gray-400 text-sm sm:text-base leading-relaxed">
-                <p>
-                  Too many businesses are drowning in manual work. Following up with leads by hand,
-                  copying data between tools, posting content one platform at a time, and running ads
-                  with no real tracking.
-                </p>
-                <p>
-                  We&apos;ve seen companies waste thousands on agencies that build pretty websites
-                  but ignore the systems behind them. No automation, no AI, no real growth engine.
-                </p>
-                <p className="text-white font-medium">
-                  That&apos;s why we built Blok Blok Studio. We build the AI agents, automations,
-                  websites, and ad systems that actually scale your business.
-                </p>
-              </div>
-            </div>
-
-            {/* Visual problem cards with colored accents */}
-            <div className="space-y-4">
-              {[
-                { icon: '😤', problem: 'You\'re manually following up with every lead and losing half of them', color: 'border-l-red-500/40' },
-                { icon: '📉', problem: 'You\'re spending on ads but can\'t tell what\'s actually working', color: 'border-l-orange-500/40' },
-                { icon: '⏰', problem: 'You\'re copying data between tools and wasting hours every week', color: 'border-l-yellow-500/40' },
-                { icon: '🤷', problem: 'You know AI could help your business but don\'t know where to start', color: 'border-l-amber-500/40' },
-              ].map((item, i) => (
-                <motion.div
-                  key={i}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.1 }}
-                  variants={fadeUp}
-                  className={`bg-white/[0.03] border border-white/5 border-l-4 ${item.color} rounded-xl sm:rounded-2xl p-5 sm:p-6 flex items-start gap-4 hover:bg-white/[0.05] transition-colors`}
-                >
-                  <span className="text-2xl sm:text-3xl flex-shrink-0">{item.icon}</span>
-                  <p className="text-sm sm:text-base text-gray-300">{item.problem}</p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </Section>
-
-      {/* ================================================================
-       * 7. SOCIAL PROOF — Trusted by Brands That Dare to Stand Out
-       * ================================================================ */}
-      <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
-        {/* Background accent */}
-        <div className="absolute inset-0 bg-gradient-to-b from-orange-500/[0.02] via-transparent to-transparent" />
-
-        <div className="max-w-6xl mx-auto relative z-10">
-          <Section>
-            <div className="text-center mb-6">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                Our Portfolio
-              </div>
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
-              Trusted by Brands That{' '}
-              <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">
-                Dare to Stand Out
-              </span>
-            </h2>
-            <p className="text-center text-gray-500 text-sm mb-12 sm:mb-16 max-w-2xl mx-auto">
-              From startups to established brands, we build digital experiences that drive real results across industries
-            </p>
-          </Section>
-
-          {/* Brand showcase grid — 3x2 */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-5">
-            {trustedBrands.map((brand, i) => (
-              <motion.div
-                key={brand.name}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
-                variants={scaleUp}
-                className="group relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden border border-white/5 hover:border-orange-500/20 transition-all duration-500"
-              >
-                {/* Project screenshot */}
-                <Image
-                  src={brand.image}
-                  alt={brand.name}
-                  fill
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
-                  sizes="(max-width: 640px) 50vw, 33vw"
-                />
-                {/* Overlay gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
-
-                {/* Brand info at bottom */}
-                <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5">
-                  <p className="text-xs text-orange-400/80 mb-1">{brand.category}</p>
-                  <h3 className="text-sm sm:text-base font-semibold text-white">{brand.name}</h3>
-                  <p className="text-xs text-gray-400 mt-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{brand.url}</p>
-                </div>
-
-                {/* Hover arrow */}
-                <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/5 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity border border-white/10">
-                  <svg className="w-3.5 h-3.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17L17 7M17 7H7M17 7v10" />
-                  </svg>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-
-          <div className="text-center mt-10">
-            <CTAButton text="Join These Brands, Book Your Free Call" />
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================
-       * 8. TRANSFORMATION — Visual before/after
-       * ================================================================ */}
-      <Section className="py-20 sm:py-28 lg:py-36 px-5 sm:px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14 sm:mb-20">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              The Transformation
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              From Invisible to{' '}
-              <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Unforgettable</span>
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-            {/* Before */}
-            <motion.div
-              initial="hidden" whileInView="visible" viewport={{ once: true }}
-              variants={fadeUp} transition={{ duration: 0.5 }}
-              className="relative rounded-2xl sm:rounded-3xl p-8 sm:p-10 bg-gradient-to-br from-red-500/[0.06] to-transparent border border-red-500/10 overflow-hidden"
-            >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-red-500/5 rounded-full blur-3xl" />
-              <div className="flex items-center gap-3 mb-8 relative z-10">
-                <div className="w-4 h-4 rounded-full bg-red-500/60 shadow-lg shadow-red-500/20" />
-                <p className="text-sm font-bold text-red-400/80 uppercase tracking-wider">Before</p>
-              </div>
-              <ul className="space-y-5 relative z-10">
-                {['Manual lead follow-up', 'No AI or automation', 'Disconnected tools everywhere', 'Ads running with no tracking', 'Content created one piece at a time', 'Clients constantly asking for updates'].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-400">
-                    <svg className="w-5 h-5 flex-shrink-0 text-red-500/60 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-
-            {/* After */}
-            <motion.div
-              initial="hidden" whileInView="visible" viewport={{ once: true }}
-              variants={fadeUp} transition={{ duration: 0.5, delay: 0.15 }}
-              className="relative rounded-2xl sm:rounded-3xl p-8 sm:p-10 bg-gradient-to-br from-green-500/[0.06] to-transparent border border-green-500/10 overflow-hidden"
-            >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/5 rounded-full blur-3xl" />
-              <div className="flex items-center gap-3 mb-8 relative z-10">
-                <div className="w-4 h-4 rounded-full bg-green-500/60 shadow-lg shadow-green-500/20" />
-                <p className="text-sm font-bold text-green-400/80 uppercase tracking-wider">After</p>
-              </div>
-              <ul className="space-y-5 relative z-10">
-                {['AI agents handling leads 24/7', 'Fully automated workflows', 'All tools connected seamlessly', 'Ads with real ROAS tracking', 'One input → 10 pieces of content', 'Client dashboards with live data'].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-300">
-                    <svg className="w-5 h-5 flex-shrink-0 text-green-500/60 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-          </div>
-        </div>
-      </Section>
-
-      {/* ================================================================
-       * 9. BENEFITS — Visual cards with colored gradients
-       * ================================================================ */}
-      <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.01] to-transparent" />
-        <div className="max-w-5xl mx-auto relative z-10">
-          <div className="text-center mb-14 sm:mb-20">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              Why Choose Us
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Built Different. Built Better.
-            </h2>
-          </div>
-
-          <motion.div
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5"
-          >
-            {benefits.map((b, i) => (
-              <motion.div
-                key={i}
-                variants={fadeUp}
-                transition={{ duration: 0.5 }}
-                className={`relative rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-gradient-to-br ${b.color} border border-white/5 overflow-hidden group hover:border-white/10 transition-colors`}
-              >
-                <span className="text-3xl sm:text-4xl mb-5 block">{b.icon}</span>
-                <h3 className="text-base sm:text-lg font-semibold mb-2">{b.title}</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">{b.desc}</p>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
-
-      {/* ================================================================
-       * 10. ROADMAP — Alternating zigzag layout with SVG illustrations
-       * ================================================================ */}
-      <section className="py-20 sm:py-28 lg:py-36 px-5 sm:px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.015] to-transparent" />
-        <div className="max-w-6xl mx-auto relative z-10">
-          <Section>
-            <div className="text-center mb-14 sm:mb-20">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                Our Process
-              </div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-                From First Call to{' '}
-                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Launch Day</span>
-              </h2>
-              <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mt-6">
-                A simple, transparent 5-step process designed to get you results fast.
-              </p>
-            </div>
-          </Section>
-
-          {/* Timeline with alternating steps */}
-          <div className="relative">
-            {/* Center vertical timeline line — hidden on mobile */}
-            <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px -translate-x-1/2">
-              <div className="h-full bg-gradient-to-b from-orange-500/30 via-orange-500/10 to-transparent" />
-            </div>
-
-            {/* Mobile left-side timeline line */}
-            <div className="lg:hidden absolute left-5 top-0 bottom-0 w-px">
-              <div className="h-full bg-gradient-to-b from-orange-500/30 via-orange-500/10 to-transparent" />
-            </div>
-
-            <div className="space-y-12 lg:space-y-20">
-              {roadmapSteps.map((step, i) => {
-                const isEven = i % 2 === 0;
-                return (
-                  <motion.div
-                    key={i}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6, delay: 0.1 }}
-                    variants={fadeUp}
-                    className="relative"
-                  >
-                    {/* Step number circle on timeline — desktop (centered) */}
-                    <div className="hidden lg:flex absolute left-1/2 top-8 -translate-x-1/2 z-20">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center shadow-lg shadow-orange-500/20 border-4 border-black">
-                        <span className="text-sm font-bold text-white">{step.num}</span>
-                      </div>
-                    </div>
-
-                    {/* Step number circle — mobile (left side) */}
-                    <div className="lg:hidden absolute left-0 top-0 z-20">
-                      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center shadow-lg shadow-orange-500/20 border-[3px] border-black">
-                        <span className="text-xs font-bold text-white">{step.num}</span>
-                      </div>
-                    </div>
-
-                    {/* Desktop: Alternating layout */}
-                    <div className={`hidden lg:grid lg:grid-cols-2 lg:gap-16 items-center ${isEven ? '' : ''}`}>
-                      {/* Illustration side */}
-                      <div className={`${isEven ? 'lg:order-1 lg:pr-12' : 'lg:order-2 lg:pl-12'}`}>
-                        <motion.div
-                          initial="hidden"
-                          whileInView="visible"
-                          viewport={{ once: true }}
-                          transition={{ duration: 0.6, delay: 0.2 }}
-                          variants={scaleUp}
-                          className="relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden bg-gradient-to-br from-white/[0.02] to-white/[0.005] border border-white/5 p-6 flex items-center justify-center group hover:border-orange-500/10 transition-colors"
-                        >
-                          <div className="absolute inset-0 bg-gradient-to-br from-orange-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                          <StepIllustration step={step.num} />
-                        </motion.div>
-                      </div>
-
-                      {/* Text side */}
-                      <div className={`${isEven ? 'lg:order-2 lg:pl-12' : 'lg:order-1 lg:pr-12 lg:text-right'}`}>
-                        <div className={`flex items-center gap-3 mb-3 flex-wrap ${isEven ? '' : 'lg:justify-end'}`}>
-                          <span className="text-xs font-bold text-orange-400/70 uppercase tracking-wider">Step {step.num}</span>
-                          <span className="text-xs px-3 py-1 rounded-full bg-orange-500/10 text-orange-400/60 border border-orange-500/10">{step.duration}</span>
-                        </div>
-                        <h3 className="text-2xl sm:text-3xl font-bold mb-4">{step.title}</h3>
-                        <p className="text-base text-gray-400 leading-relaxed max-w-md">{step.desc}</p>
-                      </div>
-                    </div>
-
-                    {/* Mobile: Stacked layout with left offset */}
-                    <div className="lg:hidden pl-14">
-                      <div className="flex items-center gap-3 mb-3 flex-wrap">
-                        <span className="text-xs font-bold text-orange-400/70 uppercase tracking-wider">Step {step.num}</span>
-                        <span className="text-xs px-3 py-1 rounded-full bg-orange-500/10 text-orange-400/60 border border-orange-500/10">{step.duration}</span>
-                      </div>
-                      <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-                      <p className="text-sm text-gray-400 leading-relaxed mb-5">{step.desc}</p>
-                      <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-white/[0.02] to-white/[0.005] border border-white/5 p-4 flex items-center justify-center">
-                        <StepIllustration step={step.num} />
-                      </div>
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </div>
-          </div>
-
-          <div className="text-center mt-16">
-            <CTAButton text="Start With Step 1, Book Your Free Call" />
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================
-       * 11. SERVICE MODULAR BREAKDOWN — Visual module cards
-       * ================================================================ */}
-      <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.015] to-transparent" />
-        <div className="max-w-5xl mx-auto relative z-10">
-          <div className="text-center mb-14 sm:mb-20">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              What We Offer
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              End-to-End Business Systems
-            </h2>
-            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mt-6">
-              Everything you need under one roof — AI agents, automation, websites, ads, and client systems.
-            </p>
-          </div>
-
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
-            {serviceModules.map((mod, i) => (
-              <motion.div key={i} variants={fadeUp} transition={{ duration: 0.5 }}
-                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.02] border border-white/5 hover:border-orange-500/10 transition-colors">
-                <div className="flex items-center gap-3 mb-6">
-                  <span className="text-2xl">{mod.icon}</span>
-                  <h3 className="text-lg sm:text-xl font-semibold">{mod.title}</h3>
-                </div>
-                <ul className="space-y-3">
-                  {mod.items.map((item, j) => (
-                    <li key={j} className="flex items-center gap-3 text-sm sm:text-base text-gray-400">
-                      <svg className="w-4 h-4 flex-shrink-0 text-orange-500/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
-
-      {/* ================================================================
-       * 12. SOCIAL PROOF — Project showcase with visual stats
-       *
-       * TODO: Replace gradient backgrounds with real project screenshots.
-       * Use <Image src="/projects/name.jpg" fill className="object-cover" />
-       * ================================================================ */}
-      <Section className="py-20 sm:py-28 lg:py-36 px-5 sm:px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-14 sm:mb-20">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              Our Work
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Real Results, Real Projects
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-            {projectShowcase.map((project, i) => (
-              <motion.div
-                key={i}
-                initial="hidden" whileInView="visible" viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
-                variants={scaleUp}
-                className="group relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer"
-              >
-                {/* Real project screenshot */}
-                <Image
-                  src={project.image}
-                  alt={project.label}
-                  fill
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-
-                {/* Stats overlay at bottom */}
-                <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
-                  <p className="text-xs text-gray-400 mb-1">{project.label}</p>
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-2xl sm:text-3xl font-bold text-white">{project.stat}</span>
-                    <span className="text-sm text-gray-400">{project.metric}</span>
-                  </div>
-                  <p className="text-xs text-gray-500 mt-1">{project.url}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </Section>
-
-      {/* ================================================================
-       * 13. WHAT'S INCLUDED — Visual checklist with icons
-       * ================================================================ */}
-      <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-orange-500/[0.02] via-transparent to-transparent" />
-        <div className="max-w-4xl mx-auto relative z-10">
-          <div className="text-center mb-14 sm:mb-20">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              Everything You Get
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              What&apos;s Included
-            </h2>
-          </div>
-
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 max-w-3xl mx-auto">
-            {included.map((item, i) => (
-              <motion.div key={i} variants={fadeUp} transition={{ duration: 0.4 }}
-                className="flex items-center gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-orange-500/10 transition-colors">
-                <span className="text-xl flex-shrink-0">{item.icon}</span>
-                <span className="text-sm sm:text-base text-gray-300">{item.item}</span>
-              </motion.div>
-            ))}
-          </motion.div>
-
-          <div className="text-center mt-12">
-            <CTAButton text="Get All This, Book Your Free Call" />
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================
-       * 14. FREE AUDIT — Lead capture form
-       * Connected to /api/audit → Prisma DB + Email + Telegram notifications
-       * ================================================================ */}
-      <section id="call" className="pt-10 sm:pt-12 lg:pt-14 pb-20 sm:pb-28 lg:pb-36 px-5 sm:px-6 relative overflow-hidden">
+      <section id="call" className="pt-12 sm:pt-16 lg:pt-20 pb-16 sm:pb-20 lg:pb-24 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-orange-500/[0.03] via-red-500/[0.015] to-transparent" />
         <motion.div
           className="absolute top-1/4 right-0 w-[500px] h-[500px] rounded-full bg-orange-500/[0.03] blur-[120px]"
@@ -1691,7 +1328,7 @@ export function FunnelContent() {
                 <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Strategy Call</span>
               </h2>
               <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-                Answer a few quick questions to see if we&apos;re a good fit. If you qualify, you&apos;ll get a link to book a free 30-minute strategy call.
+                Answer a few quick questions to see if we&apos;re a good fit. If you qualify, you&apos;ll book your call right here.
               </p>
             </div>
           </Section>
@@ -1754,133 +1391,127 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * 15. WHO IT'S FOR — Visual comparison
+       * 6. SOCIAL PROOF — Brand showcase
        * ================================================================ */}
-      <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.01] to-transparent" />
-        <div className="max-w-4xl mx-auto relative z-10">
-          <div className="text-center mb-14 sm:mb-20">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              Is This For You?
-            </div>
+      <section className="py-16 sm:py-20 px-5 sm:px-6 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-orange-500/[0.02] via-transparent to-transparent" />
+
+        <div className="max-w-6xl mx-auto relative z-10">
+          <Section>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
+              Trusted by Brands That{' '}
+              <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">
+                Dare to Stand Out
+              </span>
+            </h2>
+            <p className="text-center text-gray-500 text-sm mb-10 sm:mb-14 max-w-2xl mx-auto">
+              From startups to established brands, we build digital experiences that drive real results
+            </p>
+          </Section>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-5">
+            {trustedBrands.map((brand, i) => (
+              <motion.div
+                key={brand.name}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.08 }}
+                variants={scaleUp}
+                className="group relative aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden border border-white/5 hover:border-orange-500/20 transition-all duration-500"
+              >
+                <Image
+                  src={brand.image}
+                  alt={brand.name}
+                  fill
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 640px) 50vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
+                <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5">
+                  <p className="text-xs text-orange-400/80 mb-1">{brand.category}</p>
+                  <h3 className="text-sm sm:text-base font-semibold text-white">{brand.name}</h3>
+                  <p className="text-xs text-gray-400 mt-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{brand.url}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <CTAButton text="Join These Brands, Book Your Free Call" />
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
+       * 7. TRANSFORMATION — Before / After
+       * ================================================================ */}
+      <Section className="py-16 sm:py-20 px-5 sm:px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-10 sm:mb-14">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Who We Work With
+              From Invisible to{' '}
+              <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Unforgettable</span>
             </h2>
           </div>
 
-          <div className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 bg-white/[0.02] border border-white/5">
-            <div className="space-y-3">
-              {idealFor.map((item, i) => (
-                <motion.div key={i} initial="hidden" whileInView="visible" viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: i * 0.08 }} variants={fadeUp}
-                  className={`flex items-center gap-4 p-3 sm:p-4 rounded-xl ${item.yes ? 'bg-green-500/[0.03] border border-green-500/5' : 'bg-red-500/[0.03] border border-red-500/5'}`}>
-                  {item.yes ? (
-                    <div className="w-8 h-8 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0">
-                      <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                  ) : (
-                    <div className="w-8 h-8 rounded-full bg-red-500/10 flex items-center justify-center flex-shrink-0">
-                      <svg className="w-4 h-4 text-red-500/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </div>
-                  )}
-                  <span className={`text-sm sm:text-base ${item.yes ? 'text-gray-300' : 'text-gray-500'}`}>
-                    {item.text}
-                  </span>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================
-       * 17. COMPARISON TABLE — DIY vs Freelancer vs Blok Blok
-       * ================================================================ */}
-      <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent" />
-        <div className="max-w-4xl mx-auto relative z-10">
-          <Section>
-            <div className="text-center mb-14 sm:mb-20">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                Compare
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+            {/* Before */}
+            <motion.div
+              initial="hidden" whileInView="visible" viewport={{ once: true }}
+              variants={fadeUp} transition={{ duration: 0.5 }}
+              className="relative rounded-2xl sm:rounded-3xl p-8 sm:p-10 bg-gradient-to-br from-red-500/[0.06] to-transparent border border-red-500/10 overflow-hidden"
+            >
+              <div className="absolute top-0 right-0 w-32 h-32 bg-red-500/5 rounded-full blur-3xl" />
+              <div className="flex items-center gap-3 mb-8 relative z-10">
+                <div className="w-4 h-4 rounded-full bg-red-500/60 shadow-lg shadow-red-500/20" />
+                <p className="text-sm font-bold text-red-400/80 uppercase tracking-wider">Before</p>
               </div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-                Why Choose Us?
-              </h2>
-              <p className="text-gray-400 mt-4 max-w-lg mx-auto">See how we stack up against the alternatives.</p>
-            </div>
-          </Section>
-
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-white/10">
-                  <th className="text-left py-4 pr-4 text-gray-500 font-normal w-1/4" />
-                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">DIY / Templates</th>
-                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">Freelancer</th>
-                  <th className="py-4 px-6 text-center font-bold relative">
-                    <div className="absolute inset-x-0 -top-2 bottom-0 bg-gradient-to-b from-orange-500/10 to-transparent rounded-t-2xl border-t-2 border-x border-orange-500/30 border-b-0" />
-                    <span className="relative z-10 bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent text-sm">Blok Blok Studio</span>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  { feature: 'AI Agent Automation', diy: 'no', freelancer: 'no', us: 'yes' },
-                  { feature: 'Workflow Automation', diy: 'no', freelancer: 'sometimes', us: 'yes' },
-                  { feature: 'Custom Website', diy: 'no', freelancer: 'yes', us: 'yes' },
-                  { feature: 'Paid Ads Management', diy: 'sometimes', freelancer: 'sometimes', us: 'yes' },
-                  { feature: 'Client Dashboards', diy: 'no', freelancer: 'no', us: 'yes' },
-                  { feature: 'AI Content Systems', diy: 'no', freelancer: 'no', us: 'yes' },
-                  { feature: 'Brand Strategy', diy: 'no', freelancer: 'sometimes', us: 'yes' },
-                  { feature: 'Ongoing Support', diy: 'no', freelancer: 'no', us: 'yes' },
-                ].map((row, i) => (
-                  <tr key={i} className="border-b border-white/5 group hover:bg-white/[0.02] transition-colors">
-                    <td className="py-4 pr-4 text-gray-300 font-medium">{row.feature}</td>
-                    {([row.diy, row.freelancer, row.us] as string[]).map((val, j) => (
-                      <td key={j} className={`py-4 px-4 text-center ${j === 2 ? 'relative' : ''}`}>
-                        {j === 2 && <div className="absolute inset-x-0 inset-y-0 bg-orange-500/[0.04] border-x border-orange-500/10" />}
-                        {val === 'yes' ? (
-                          j === 2 ? (
-                            <span className="relative z-10 inline-flex items-center justify-center w-7 h-7 rounded-full bg-green-500/15">
-                              <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
-                            </span>
-                          ) : (
-                            <svg className="w-4 h-4 mx-auto text-yellow-600/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
-                          )
-                        ) : val === 'sometimes' ? (
-                          <span className="text-yellow-600/50 text-xs font-medium">~</span>
-                        ) : (
-                          <svg className="w-4 h-4 text-red-500/30 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
-                        )}
-                      </td>
-                    ))}
-                  </tr>
+              <ul className="space-y-5 relative z-10">
+                {['Manual lead follow-up', 'No AI or automation', 'Disconnected tools everywhere', 'Ads running with no tracking', 'Content created one piece at a time', 'Clients constantly asking for updates'].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-400">
+                    <svg className="w-5 h-5 flex-shrink-0 text-red-500/60 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    {item}
+                  </li>
                 ))}
-              </tbody>
-            </table>
-            {/* Bottom highlight for Blok Blok column */}
-            <div className="mt-6 text-center">
-              <p className="text-xs text-gray-500">All green, all the time. That&apos;s the difference.</p>
-            </div>
+              </ul>
+            </motion.div>
+
+            {/* After */}
+            <motion.div
+              initial="hidden" whileInView="visible" viewport={{ once: true }}
+              variants={fadeUp} transition={{ duration: 0.5, delay: 0.15 }}
+              className="relative rounded-2xl sm:rounded-3xl p-8 sm:p-10 bg-gradient-to-br from-green-500/[0.06] to-transparent border border-green-500/10 overflow-hidden"
+            >
+              <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/5 rounded-full blur-3xl" />
+              <div className="flex items-center gap-3 mb-8 relative z-10">
+                <div className="w-4 h-4 rounded-full bg-green-500/60 shadow-lg shadow-green-500/20" />
+                <p className="text-sm font-bold text-green-400/80 uppercase tracking-wider">After</p>
+              </div>
+              <ul className="space-y-5 relative z-10">
+                {['AI agents handling leads 24/7', 'Fully automated workflows', 'All tools connected seamlessly', 'Ads with real ROAS tracking', 'One input → 10 pieces of content', 'Client dashboards with live data'].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-300">
+                    <svg className="w-5 h-5 flex-shrink-0 text-green-500/60 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
           </div>
         </div>
-      </section>
+      </Section>
 
       {/* ================================================================
-       * 18. FAQ & OBJECTION HANDLING
+       * 8. FAQ
        * ================================================================ */}
-      <section className="py-20 sm:py-28 px-5 sm:px-6 relative overflow-hidden">
+      <section className="py-16 sm:py-20 px-5 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-500/[0.01] to-transparent" />
         <div className="max-w-3xl mx-auto relative z-10">
-          <div className="text-center mb-14 sm:mb-20">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-              FAQ
-            </div>
+          <div className="text-center mb-10 sm:mb-14">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
               Questions?
             </h2>
@@ -1894,29 +1525,20 @@ export function FunnelContent() {
       </section>
 
       {/* ================================================================
-       * FINAL CTA — Get Your Free Audit
+       * 9. FINAL CTA
        * ================================================================ */}
-      <section className="py-20 sm:py-28 lg:py-36 px-5 sm:px-6">
+      <section className="py-16 sm:py-20 lg:py-28 px-5 sm:px-6">
         <Section>
           <div className="max-w-3xl mx-auto text-center">
             <div className="relative overflow-hidden rounded-2xl sm:rounded-[2.5rem] p-10 sm:p-14 md:p-20 border border-orange-500/10">
-              {/* Rich gradient background */}
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/[0.08] via-red-500/[0.04] to-transparent" />
               <motion.div
                 className="absolute top-0 right-0 w-80 h-80 rounded-full bg-orange-500/[0.05] blur-[100px]"
                 animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0.6, 0.3] }}
                 transition={{ duration: 8, repeat: Infinity }}
               />
-              <motion.div
-                className="absolute bottom-0 left-0 w-60 h-60 rounded-full bg-red-500/[0.03] blur-[80px]"
-                animate={{ scale: [1.2, 1, 1.2], opacity: [0.2, 0.5, 0.2] }}
-                transition={{ duration: 10, repeat: Infinity }}
-              />
 
               <div className="relative z-10">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs mb-6">
-                  Let&apos;s Go
-                </div>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
                   Your Business Deserves Better Systems
                 </h2>

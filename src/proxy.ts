@@ -21,7 +21,7 @@ export function proxy(request: NextRequest) {
     "img-src 'self' data: blob: https: http:",
     "font-src 'self' https://fonts.gstatic.com data:",
     "connect-src 'self' https://www.google-analytics.com https://vitals.vercel-insights.com https://api.vercel.com",
-    "frame-src 'self' https://calendly.com https://cal.com",
+    "frame-src 'self' https://calendly.com https://cal.com https://calendar.google.com https://calendar.app.google",
     "frame-ancestors 'none'",
     "base-uri 'self'",
     "form-action 'self'",

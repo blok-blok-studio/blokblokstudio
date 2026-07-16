@@ -5,7 +5,14 @@
       "name": "dev",
       "runtimeExecutable": "npx",
       "runtimeArgs": ["next", "dev"],
-      "port": 3000
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "tracker-dev",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /Users/chasehaynes/Documents/GitHub/client-job-tracker && npx next dev -p 3001"],
+      "port": 3001
     }
   ]
 }
