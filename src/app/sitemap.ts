@@ -19,7 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/call',
   ];
 
-  const legalRoutes = ['/privacy', '/terms', '/cookies', '/data-rights'];
+  const legalRoutes = ['/privacy', '/terms', '/cookies', '/data-rights', '/impressum'];
 
   const projectSlugs = getAllProjectSlugs();
   const blogSlugs = getAllBlogSlugs();

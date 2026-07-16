@@ -20,6 +20,14 @@ export function proxy(request: NextRequest) {
     return response;
   }
 
+  // Expose the visitor's country (set by Vercel's edge) to the client so
+  // consent behavior can follow the local privacy regime: opt-in for
+  // EEA/UK/CH, opt-out elsewhere (e.g. US ad traffic).
+  const country = request.headers.get('x-vercel-ip-country') || '';
+  if (country && request.cookies.get('bb_country')?.value !== country) {
+    response.cookies.set('bb_country', country, { path: '/', maxAge: 60 * 60 * 24 * 30, sameSite: 'lax' });
+  }
+
   // ── Content Security Policy (CSP) ──
   // Prevents XSS attacks, code injection, and unauthorized resource loading
   const csp = [

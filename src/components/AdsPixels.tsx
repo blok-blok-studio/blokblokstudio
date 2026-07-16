@@ -24,11 +24,35 @@ declare global {
   }
 }
 
-function hasMarketingConsent(): boolean {
+// Jurisdictions requiring prior opt-in consent for ad cookies (GDPR/UK
+// GDPR/Swiss FADP). Everywhere else (e.g. US) runs opt-out: pixels load
+// unless the visitor has explicitly declined in the banner.
+const OPT_IN_COUNTRIES = new Set([
+  'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR',
+  'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK',
+  'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH',
+]);
+
+function getCountry(): string {
+  try {
+    return document.cookie.split('; ').find((c) => c.startsWith('bb_country='))?.split('=')[1] || '';
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * Whether pixels may load right now:
+ *  - explicit banner choice always wins (accept → yes, decline → no)
+ *  - no choice yet: opt-in regimes wait for the banner; opt-out regimes
+ *    (known non-EEA country) load immediately
+ */
+function mayTrack(): boolean {
   try {
     const raw = localStorage.getItem('cookie-consent');
-    if (!raw) return false;
-    return JSON.parse(raw).marketing === true;
+    if (raw) return JSON.parse(raw).marketing === true;
+    const country = getCountry();
+    return country !== '' && !OPT_IN_COUNTRIES.has(country);
   } catch {
     return false;
   }
@@ -114,7 +138,7 @@ export function AdsPixels() {
   const [consented, setConsented] = useState(false);
 
   useEffect(() => {
-    if (hasMarketingConsent()) setConsented(true);
+    if (mayTrack()) setConsented(true);
     const onChange = (e: Event) => {
       const detail = (e as CustomEvent).detail as { marketing?: boolean } | undefined;
       if (detail?.marketing) {

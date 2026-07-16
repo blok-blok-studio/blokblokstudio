@@ -65,11 +65,22 @@ function getCookie(name: string): string {
   }
 }
 
-/** Marketing-cookie consent state — gates server-side ad tracking (CAPI). */
+// Opt-in jurisdictions (GDPR/UK/CH) — everywhere else runs opt-out,
+// mirroring the AdsPixels loader
+const OPT_IN_COUNTRIES = new Set([
+  'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR',
+  'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK',
+  'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH',
+]);
+
+/** Ad-tracking consent state — gates the server-side Meta CAPI event.
+ *  Explicit banner choice wins; with no choice, non-EEA visitors are opt-out. */
 function hasAdsConsent(): boolean {
   try {
     const raw = localStorage.getItem('cookie-consent');
-    return raw ? JSON.parse(raw).marketing === true : false;
+    if (raw) return JSON.parse(raw).marketing === true;
+    const country = getCookie('bb_country');
+    return country !== '' && !OPT_IN_COUNTRIES.has(country);
   } catch {
     return false;
   }

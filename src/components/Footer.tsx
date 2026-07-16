@@ -95,6 +95,7 @@ export function Footer() {
     { href: '/privacy', label: nav('privacy') },
     { href: '/terms', label: nav('terms') },
     { href: '/cookies', label: nav('cookies') },
+    { href: '/impressum', label: nav('impressum') },
     { href: '/data-rights', label: nav('data_rights') },
     { href: '/accessibility', label: nav('accessibility') },
   ];

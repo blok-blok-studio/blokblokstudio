@@ -20,6 +20,8 @@ export function LandingFooter() {
         <Link href="/terms" className="hover:text-gray-400 transition-colors">Terms of Service</Link>
         <span className="mx-2">&middot;</span>
         <Link href="/cookies" className="hover:text-gray-400 transition-colors">Cookie Policy</Link>
+        <span className="mx-2">&middot;</span>
+        <Link href="/impressum" className="hover:text-gray-400 transition-colors">Impressum</Link>
       </p>
       <p className="text-[11px] text-gray-700 mt-3">
         &copy; {new Date().getFullYear()} Blok Blok Studio. All rights reserved.
