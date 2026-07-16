@@ -166,6 +166,36 @@
     "stats_years": "Years of Experience",
     "stats_awards": "Industries Served"
   },
+  "blog": {
+    "meta_title": "Blog: Insights on Web Design, Branding & SEO",
+    "meta_description": "Expert insights on web design, branding, SEO, and digital marketing from Blok Blok Studio. Actionable tips to grow your online presence.",
+    "og_alt": "Blok Blok Studio Blog",
+    "list_title": "Insights",
+    "list_subtitle": "Expert tips on web design, branding, SEO, and growing your digital presence.",
+    "read_time": "{minutes} min read",
+    "read_article": "Read article",
+    "back_to_blog": "Back to Blog",
+    "cta_title": "Want Results Like These?",
+    "cta_subtitle": "Book a free strategy call and let's discuss how we can transform your digital presence.",
+    "cta_button": "Get Started",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Why Your Website Is Losing Customers (And How to Fix It)",
+        "description": "Most business websites lose 70% of visitors in the first 3 seconds. Here are the top reasons why, and what you can do about it today.",
+        "category": "Web Design"
+      },
+      "seo-checklist-2026": {
+        "title": "The Ultimate SEO Checklist for 2026",
+        "description": "A comprehensive guide to the SEO fundamentals every business website needs to rank on Google in 2026. Structured data, Core Web Vitals, and more.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Why Brand Identity Is the Best Investment You'll Make",
+        "description": "Your brand is more than a logo. A strong brand identity builds trust, commands premium pricing, and turns customers into advocates.",
+        "category": "Branding"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "Custom website design and development that drives real business growth.",

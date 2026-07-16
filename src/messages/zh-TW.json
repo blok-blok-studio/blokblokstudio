@@ -166,6 +166,36 @@
     "stats_years": "行業經驗",
     "stats_awards": "服務行業"
   },
+  "blog": {
+    "meta_title": "部落格：網頁設計、品牌與 SEO 洞察",
+    "meta_description": "Blok Blok Studio 提供網頁設計、品牌塑造、SEO 與數位行銷的專業洞察。助您提升線上影響力的實用建議。",
+    "og_alt": "Blok Blok Studio 部落格",
+    "list_title": "洞察",
+    "list_subtitle": "關於網頁設計、品牌塑造、SEO 及提升數位影響力的專業建議。",
+    "read_time": "閱讀約 {minutes} 分鐘",
+    "read_article": "閱讀文章",
+    "back_to_blog": "返回部落格",
+    "cta_title": "想要這樣的成果嗎？",
+    "cta_subtitle": "預約免費策略諮詢，聊聊我們如何幫您煥新數位形象。",
+    "cta_button": "立即開始",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "為什麼您的網站正在流失客戶（以及如何解決）",
+        "description": "大多數企業網站在前 3 秒內流失 70% 的訪客。這裡是主要原因，以及您今天就能採取的對策。",
+        "category": "網頁設計"
+      },
+      "seo-checklist-2026": {
+        "title": "2026 年終極 SEO 檢查清單",
+        "description": "一份全面指南，涵蓋每個企業網站在 2026 年獲得 Google 排名所需的 SEO 基礎：結構化資料、Core Web Vitals 等。",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "為什麼品牌識別是您最值得的投資",
+        "description": "您的品牌不只是一個標誌。強大的品牌識別能建立信任、支撐溢價，並讓客戶成為擁護者。",
+        "category": "品牌塑造"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

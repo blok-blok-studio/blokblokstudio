@@ -166,6 +166,36 @@
     "stats_years": "Years of Experience",
     "stats_awards": "Industries Served"
   },
+  "blog": {
+    "meta_title": "Blog: wiedza o web designie, brandingu i SEO",
+    "meta_description": "Eksperckie porady o web designie, brandingu, SEO i marketingu cyfrowym od Blok Blok Studio. Praktyczne wskazówki, jak rozwijać obecność online.",
+    "og_alt": "Blog Blok Blok Studio",
+    "list_title": "Wiedza",
+    "list_subtitle": "Eksperckie porady o web designie, brandingu, SEO i rozwijaniu obecności cyfrowej.",
+    "read_time": "{minutes} min czytania",
+    "read_article": "Czytaj artykuł",
+    "back_to_blog": "Powrót do bloga",
+    "cta_title": "Chcesz takich rezultatów?",
+    "cta_subtitle": "Umów bezpłatną rozmowę strategiczną i porozmawiajmy o tym, jak przekształcić Twoją obecność cyfrową.",
+    "cta_button": "Zacznij teraz",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Dlaczego Twoja strona traci klientów (i jak to naprawić)",
+        "description": "Większość firmowych stron traci 70% odwiedzających w ciągu pierwszych 3 sekund. Oto najczęstsze przyczyny i co możesz z tym zrobić już dziś.",
+        "category": "Web design"
+      },
+      "seo-checklist-2026": {
+        "title": "Kompletna checklista SEO na 2026 rok",
+        "description": "Kompleksowy przewodnik po podstawach SEO, których potrzebuje każda firmowa strona, aby rankować w Google w 2026 roku. Dane strukturalne, Core Web Vitals i więcej.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Dlaczego tożsamość marki to najlepsza inwestycja, jaką zrobisz",
+        "description": "Twoja marka to więcej niż logo. Silna tożsamość marki buduje zaufanie, uzasadnia wyższe ceny i zamienia klientów w ambasadorów.",
+        "category": "Branding"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

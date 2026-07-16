@@ -166,6 +166,36 @@
     "stats_years": "Năm kinh nghiệm",
     "stats_awards": "Ngành phục vụ"
   },
+  "blog": {
+    "meta_title": "Blog: Góc nhìn về thiết kế web, thương hiệu & SEO",
+    "meta_description": "Góc nhìn chuyên gia về thiết kế web, thương hiệu, SEO và marketing số từ Blok Blok Studio. Mẹo thực tế để phát triển sự hiện diện trực tuyến của bạn.",
+    "og_alt": "Blog Blok Blok Studio",
+    "list_title": "Góc nhìn",
+    "list_subtitle": "Mẹo chuyên gia về thiết kế web, thương hiệu, SEO và phát triển sự hiện diện số của bạn.",
+    "read_time": "Đọc trong {minutes} phút",
+    "read_article": "Đọc bài viết",
+    "back_to_blog": "Quay lại Blog",
+    "cta_title": "Bạn muốn có kết quả như thế này?",
+    "cta_subtitle": "Đặt lịch tư vấn chiến lược miễn phí và cùng thảo luận cách chuyển đổi sự hiện diện số của bạn.",
+    "cta_button": "Bắt đầu",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Vì sao website của bạn đang mất khách hàng (và cách khắc phục)",
+        "description": "Hầu hết website doanh nghiệp mất 70% khách truy cập trong 3 giây đầu tiên. Đây là những lý do chính và điều bạn có thể làm ngay hôm nay.",
+        "category": "Thiết kế web"
+      },
+      "seo-checklist-2026": {
+        "title": "Checklist SEO toàn diện cho năm 2026",
+        "description": "Hướng dẫn đầy đủ về các nền tảng SEO mà mọi website doanh nghiệp cần để xếp hạng trên Google năm 2026. Dữ liệu có cấu trúc, Core Web Vitals và hơn thế nữa.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Vì sao bản sắc thương hiệu là khoản đầu tư tốt nhất của bạn",
+        "description": "Thương hiệu của bạn không chỉ là logo. Bản sắc thương hiệu mạnh xây dựng niềm tin, giữ vững mức giá cao cấp và biến khách hàng thành người ủng hộ.",
+        "category": "Thương hiệu"
+      }
+    }
+  },
   "services": {
     "title": "Dịch vụ của chúng tôi",
     "subtitle": "Thiết kế và phát triển website tùy chỉnh thúc đẩy tăng trưởng kinh doanh thực sự.",

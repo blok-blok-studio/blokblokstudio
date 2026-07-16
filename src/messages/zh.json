@@ -166,6 +166,36 @@
     "stats_years": "行业经验",
     "stats_awards": "服务行业"
   },
+  "blog": {
+    "meta_title": "博客：网页设计、品牌与 SEO 洞察",
+    "meta_description": "Blok Blok Studio 关于网页设计、品牌塑造、SEO 和数字营销的专业洞察。助您提升线上影响力的实用建议。",
+    "og_alt": "Blok Blok Studio 博客",
+    "list_title": "洞察",
+    "list_subtitle": "关于网页设计、品牌塑造、SEO 及提升数字影响力的专业建议。",
+    "read_time": "阅读约 {minutes} 分钟",
+    "read_article": "阅读文章",
+    "back_to_blog": "返回博客",
+    "cta_title": "想要这样的成果吗？",
+    "cta_subtitle": "预约免费策略咨询，聊聊我们如何帮您焕新数字形象。",
+    "cta_button": "立即开始",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "为什么您的网站在流失客户（以及如何解决）",
+        "description": "大多数企业网站在前 3 秒内流失 70% 的访客。这里是主要原因，以及您今天就能采取的对策。",
+        "category": "网页设计"
+      },
+      "seo-checklist-2026": {
+        "title": "2026 年终极 SEO 清单",
+        "description": "一份全面指南，涵盖每个企业网站在 2026 年获得 Google 排名所需的 SEO 基础：结构化数据、Core Web Vitals 等。",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "为什么品牌识别是您最值得的投资",
+        "description": "您的品牌不只是一个标志。强大的品牌识别能建立信任、支撑溢价，并让客户成为拥护者。",
+        "category": "品牌塑造"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

@@ -166,6 +166,36 @@
     "stats_years": "경력 연수",
     "stats_awards": "서비스 산업"
   },
+  "blog": {
+    "meta_title": "블로그: 웹 디자인·브랜딩·SEO 인사이트",
+    "meta_description": "Blok Blok Studio가 전하는 웹 디자인, 브랜딩, SEO, 디지털 마케팅 전문 인사이트. 온라인 입지를 키우는 실전 팁.",
+    "og_alt": "Blok Blok Studio 블로그",
+    "list_title": "인사이트",
+    "list_subtitle": "웹 디자인, 브랜딩, SEO, 디지털 입지 성장을 위한 전문가 팁.",
+    "read_time": "{minutes}분 소요",
+    "read_article": "기사 읽기",
+    "back_to_blog": "블로그로 돌아가기",
+    "cta_title": "이런 성과를 원하시나요?",
+    "cta_subtitle": "무료 전략 상담을 예약하고 디지털 입지를 어떻게 혁신할 수 있을지 이야기해 보세요.",
+    "cta_button": "시작하기",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "웹사이트가 고객을 놓치는 이유 (그리고 해결 방법)",
+        "description": "대부분의 비즈니스 웹사이트는 처음 3초 안에 방문자의 70%를 잃습니다. 주요 원인과 오늘 바로 할 수 있는 대처법을 알아보세요.",
+        "category": "웹 디자인"
+      },
+      "seo-checklist-2026": {
+        "title": "2026년 완벽 SEO 체크리스트",
+        "description": "2026년 Google 상위 노출에 필요한 SEO 기본기를 총정리한 가이드. 구조화 데이터, Core Web Vitals 등.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "브랜드 아이덴티티가 최고의 투자인 이유",
+        "description": "브랜드는 로고 그 이상입니다. 강력한 브랜드 아이덴티티는 신뢰를 쌓고, 프리미엄 가격을 뒷받침하며, 고객을 지지자로 만듭니다.",
+        "category": "브랜딩"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

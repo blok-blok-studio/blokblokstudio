@@ -166,6 +166,36 @@
     "stats_years": "Años de Experiencia",
     "stats_awards": "Industrias Atendidas"
   },
+  "blog": {
+    "meta_title": "Blog: ideas sobre diseño web, branding y SEO",
+    "meta_description": "Ideas expertas sobre diseño web, branding, SEO y marketing digital de Blok Blok Studio. Consejos prácticos para hacer crecer su presencia online.",
+    "og_alt": "Blog de Blok Blok Studio",
+    "list_title": "Ideas",
+    "list_subtitle": "Consejos expertos sobre diseño web, branding, SEO y crecimiento de su presencia digital.",
+    "read_time": "{minutes} min de lectura",
+    "read_article": "Leer artículo",
+    "back_to_blog": "Volver al blog",
+    "cta_title": "¿Quiere resultados como estos?",
+    "cta_subtitle": "Reserve una llamada estratégica gratuita y hablemos de cómo transformar su presencia digital.",
+    "cta_button": "Empezar",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Por qué su sitio web pierde clientes (y cómo solucionarlo)",
+        "description": "La mayoría de los sitios web pierden el 70 % de los visitantes en los primeros 3 segundos. Estas son las principales razones y qué puede hacer hoy al respecto.",
+        "category": "Diseño web"
+      },
+      "seo-checklist-2026": {
+        "title": "La checklist SEO definitiva para 2026",
+        "description": "Una guía completa de los fundamentos SEO que todo sitio web empresarial necesita para posicionarse en Google en 2026. Datos estructurados, Core Web Vitals y más.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Por qué la identidad de marca es la mejor inversión que hará",
+        "description": "Su marca es más que un logotipo. Una identidad de marca sólida genera confianza, justifica precios premium y convierte a los clientes en embajadores.",
+        "category": "Branding"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

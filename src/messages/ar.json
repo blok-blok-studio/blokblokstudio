@@ -166,6 +166,36 @@
     "stats_years": "سنوات من الخبرة",
     "stats_awards": "قطاعات مخدومة"
   },
+  "blog": {
+    "meta_title": "المدونة: رؤى في تصميم المواقع والهوية التجارية وتحسين محركات البحث",
+    "meta_description": "رؤى خبراء في تصميم المواقع والهوية التجارية وSEO والتسويق الرقمي من Blok Blok Studio. نصائح عملية لتنمية حضورك على الإنترنت.",
+    "og_alt": "مدونة Blok Blok Studio",
+    "list_title": "رؤى",
+    "list_subtitle": "نصائح خبراء في تصميم المواقع والهوية التجارية وSEO وتنمية حضورك الرقمي.",
+    "read_time": "{minutes} دقائق قراءة",
+    "read_article": "اقرأ المقال",
+    "back_to_blog": "العودة إلى المدونة",
+    "cta_title": "هل تريد نتائج مثل هذه؟",
+    "cta_subtitle": "احجز مكالمة استراتيجية مجانية ولنتحدث عن كيفية تحويل حضورك الرقمي.",
+    "cta_button": "ابدأ الآن",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "لماذا يخسر موقعك العملاء (وكيف تصلح ذلك)",
+        "description": "تخسر معظم مواقع الأعمال 70% من الزوار في أول 3 ثوانٍ. إليك أهم الأسباب وما يمكنك فعله اليوم.",
+        "category": "تصميم المواقع"
+      },
+      "seo-checklist-2026": {
+        "title": "قائمة SEO الشاملة لعام 2026",
+        "description": "دليل شامل لأساسيات SEO التي يحتاجها كل موقع أعمال للتصدر في جوجل عام 2026. البيانات المنظمة وCore Web Vitals والمزيد.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "لماذا الهوية التجارية أفضل استثمار ستقوم به",
+        "description": "علامتك التجارية أكثر من مجرد شعار. الهوية التجارية القوية تبني الثقة وتبرر الأسعار المميزة وتحوّل العملاء إلى سفراء.",
+        "category": "الهوية التجارية"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

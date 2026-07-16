@@ -166,6 +166,36 @@
     "stats_years": "Anni di Esperienza",
     "stats_awards": "Settori Serviti"
   },
+  "blog": {
+    "meta_title": "Blog: approfondimenti su web design, branding e SEO",
+    "meta_description": "Approfondimenti di esperti su web design, branding, SEO e marketing digitale da Blok Blok Studio. Consigli pratici per far crescere la vostra presenza online.",
+    "og_alt": "Blog di Blok Blok Studio",
+    "list_title": "Approfondimenti",
+    "list_subtitle": "Consigli di esperti su web design, branding, SEO e crescita della vostra presenza digitale.",
+    "read_time": "{minutes} min di lettura",
+    "read_article": "Leggi l’articolo",
+    "back_to_blog": "Torna al blog",
+    "cta_title": "Volete risultati come questi?",
+    "cta_subtitle": "Prenotate una call strategica gratuita e parliamo di come trasformare la vostra presenza digitale.",
+    "cta_button": "Inizia ora",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Perché il vostro sito web perde clienti (e come rimediare)",
+        "description": "La maggior parte dei siti aziendali perde il 70% dei visitatori nei primi 3 secondi. Ecco i motivi principali e cosa potete fare oggi stesso.",
+        "category": "Web design"
+      },
+      "seo-checklist-2026": {
+        "title": "La checklist SEO definitiva per il 2026",
+        "description": "Una guida completa ai fondamenti SEO di cui ogni sito aziendale ha bisogno per posizionarsi su Google nel 2026. Dati strutturati, Core Web Vitals e altro.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Perché l’identità di marca è il miglior investimento che farete",
+        "description": "Il vostro brand è più di un logo. Una forte identità di marca crea fiducia, giustifica prezzi premium e trasforma i clienti in ambasciatori.",
+        "category": "Branding"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

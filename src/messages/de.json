@@ -166,6 +166,36 @@
     "stats_years": "Jahre Erfahrung",
     "stats_awards": "Bediente Branchen"
   },
+  "blog": {
+    "meta_title": "Blog: Insights zu Webdesign, Branding & SEO",
+    "meta_description": "Expertenwissen zu Webdesign, Branding, SEO und digitalem Marketing von Blok Blok Studio. Umsetzbare Tipps für Ihre Online-Präsenz.",
+    "og_alt": "Blok Blok Studio Blog",
+    "list_title": "Insights",
+    "list_subtitle": "Experten-Tipps zu Webdesign, Branding, SEO und dem Ausbau Ihrer digitalen Präsenz.",
+    "read_time": "{minutes} Min. Lesezeit",
+    "read_article": "Artikel lesen",
+    "back_to_blog": "Zurück zum Blog",
+    "cta_title": "Wollen Sie solche Ergebnisse?",
+    "cta_subtitle": "Buchen Sie ein kostenloses Strategiegespräch und lassen Sie uns besprechen, wie wir Ihre digitale Präsenz transformieren.",
+    "cta_button": "Jetzt starten",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Warum Ihre Website Kunden verliert (und wie Sie das ändern)",
+        "description": "Die meisten Unternehmenswebsites verlieren 70 % der Besucher in den ersten 3 Sekunden. Hier sind die häufigsten Gründe und was Sie heute dagegen tun können.",
+        "category": "Webdesign"
+      },
+      "seo-checklist-2026": {
+        "title": "Die ultimative SEO-Checkliste für 2026",
+        "description": "Ein umfassender Leitfaden zu den SEO-Grundlagen, die jede Unternehmenswebsite braucht, um 2026 bei Google zu ranken. Strukturierte Daten, Core Web Vitals und mehr.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Warum Markenidentität die beste Investition ist, die Sie tätigen werden",
+        "description": "Ihre Marke ist mehr als ein Logo. Eine starke Markenidentität schafft Vertrauen, rechtfertigt Premium-Preise und macht Kunden zu Fürsprechern.",
+        "category": "Branding"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

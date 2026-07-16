@@ -166,6 +166,36 @@
     "stats_years": "Jaar Ervaring",
     "stats_awards": "Sectoren Bediend"
   },
+  "blog": {
+    "meta_title": "Blog: inzichten over webdesign, branding en SEO",
+    "meta_description": "Expertinzichten over webdesign, branding, SEO en digitale marketing van Blok Blok Studio. Praktische tips om uw online aanwezigheid te laten groeien.",
+    "og_alt": "Blok Blok Studio Blog",
+    "list_title": "Inzichten",
+    "list_subtitle": "Experttips over webdesign, branding, SEO en het laten groeien van uw digitale aanwezigheid.",
+    "read_time": "{minutes} min leestijd",
+    "read_article": "Artikel lezen",
+    "back_to_blog": "Terug naar blog",
+    "cta_title": "Wilt u ook zulke resultaten?",
+    "cta_subtitle": "Boek een gratis strategiegesprek en laten we bespreken hoe we uw digitale aanwezigheid kunnen transformeren.",
+    "cta_button": "Aan de slag",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Waarom uw website klanten verliest (en hoe u dat oplost)",
+        "description": "De meeste bedrijfswebsites verliezen 70% van de bezoekers in de eerste 3 seconden. Dit zijn de belangrijkste redenen en wat u er vandaag aan kunt doen.",
+        "category": "Webdesign"
+      },
+      "seo-checklist-2026": {
+        "title": "De ultieme SEO-checklist voor 2026",
+        "description": "Een complete gids met de SEO-basics die elke bedrijfswebsite nodig heeft om in 2026 te ranken op Google. Gestructureerde data, Core Web Vitals en meer.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Waarom merkidentiteit de beste investering is die u zult doen",
+        "description": "Uw merk is meer dan een logo. Een sterke merkidentiteit bouwt vertrouwen op, rechtvaardigt premium prijzen en maakt van klanten ambassadeurs.",
+        "category": "Branding"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

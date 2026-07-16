@@ -166,6 +166,36 @@
     "stats_years": "Years of Experience",
     "stats_awards": "Industries Served"
   },
+  "blog": {
+    "meta_title": "Blog: Web tasarımı, marka ve SEO üzerine içgörüler",
+    "meta_description": "Blok Blok Studio’dan web tasarımı, marka kimliği, SEO ve dijital pazarlama üzerine uzman içgörüleri. Online varlığınızı büyütmek için uygulanabilir ipuçları.",
+    "og_alt": "Blok Blok Studio Blog",
+    "list_title": "İçgörüler",
+    "list_subtitle": "Web tasarımı, marka kimliği, SEO ve dijital varlığınızı büyütme üzerine uzman ipuçları.",
+    "read_time": "{minutes} dk okuma",
+    "read_article": "Makaleyi oku",
+    "back_to_blog": "Bloga geri dön",
+    "cta_title": "Böyle sonuçlar ister misiniz?",
+    "cta_subtitle": "Ücretsiz bir strateji görüşmesi ayarlayın; dijital varlığınızı nasıl dönüştürebileceğimizi konuşalım.",
+    "cta_button": "Başlayın",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Web siteniz neden müşteri kaybediyor (ve nasıl düzeltilir)",
+        "description": "Çoğu işletme web sitesi, ziyaretçilerin %70’ini ilk 3 saniyede kaybeder. İşte en önemli nedenler ve bugün yapabilecekleriniz.",
+        "category": "Web Tasarımı"
+      },
+      "seo-checklist-2026": {
+        "title": "2026 için En Kapsamlı SEO Kontrol Listesi",
+        "description": "2026’da Google’da sıralanmak isteyen her işletme web sitesinin ihtiyaç duyduğu SEO temellerine dair kapsamlı bir rehber. Yapılandırılmış veri, Core Web Vitals ve daha fazlası.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Marka kimliği neden yapacağınız en iyi yatırımdır",
+        "description": "Markanız bir logodan fazlasıdır. Güçlü bir marka kimliği güven oluşturur, premium fiyatları haklı çıkarır ve müşterileri savunuculara dönüştürür.",
+        "category": "Marka"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

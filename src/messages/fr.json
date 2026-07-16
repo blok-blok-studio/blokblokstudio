@@ -166,6 +166,36 @@
     "stats_years": "Ans d'Expérience",
     "stats_awards": "Industries Desservies"
   },
+  "blog": {
+    "meta_title": "Blog : conseils en design web, branding et SEO",
+    "meta_description": "Conseils d’experts en design web, branding, SEO et marketing digital par Blok Blok Studio. Des astuces concrètes pour développer votre présence en ligne.",
+    "og_alt": "Blog de Blok Blok Studio",
+    "list_title": "Insights",
+    "list_subtitle": "Conseils d’experts en design web, branding, SEO et développement de votre présence digitale.",
+    "read_time": "{minutes} min de lecture",
+    "read_article": "Lire l’article",
+    "back_to_blog": "Retour au blog",
+    "cta_title": "Vous voulez des résultats comme ceux-ci ?",
+    "cta_subtitle": "Réservez un appel stratégique gratuit et discutons de la façon de transformer votre présence digitale.",
+    "cta_button": "Commencer",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Pourquoi votre site web perd des clients (et comment y remédier)",
+        "description": "La plupart des sites web perdent 70 % de leurs visiteurs dans les 3 premières secondes. Voici les principales raisons et ce que vous pouvez faire dès aujourd’hui.",
+        "category": "Design web"
+      },
+      "seo-checklist-2026": {
+        "title": "La checklist SEO ultime pour 2026",
+        "description": "Un guide complet des fondamentaux SEO dont chaque site d’entreprise a besoin pour se positionner sur Google en 2026. Données structurées, Core Web Vitals et plus encore.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Pourquoi l’identité de marque est le meilleur investissement que vous ferez",
+        "description": "Votre marque est bien plus qu’un logo. Une identité de marque forte inspire confiance, justifie des prix premium et transforme vos clients en ambassadeurs.",
+        "category": "Branding"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

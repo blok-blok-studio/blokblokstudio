@@ -3,6 +3,7 @@
 import type { BlogPost } from '@/data/blog';
 import { AnimatedSection } from './AnimatedSection';
 import Link from 'next/link';
+import { useTranslations, useLocale } from 'next-intl';
 
 function MarkdownRenderer({ content }: { content: string }) {
   const lines = content.split('\n');
@@ -43,18 +44,22 @@ function MarkdownRenderer({ content }: { content: string }) {
         </li>
       );
     } else if (line.startsWith('**') && line.endsWith('**')) {
-      elements.push(
-        <p key={i} className="text-white font-semibold mt-4 mb-2">
-          {line.slice(2, -2)}
-        </p>
-      );
-    } else if (line.startsWith('**The fix:**')) {
-      elements.push(
-        <p key={i} className="text-gray-400 leading-relaxed mb-4">
-          <strong className="text-white">The fix: </strong>
-          {line.replace('**The fix:**', '').trim()}
-        </p>
-      );
+      // Inline bold-prefix pattern (e.g., "**Lead-in:** rest of line")
+      const m = line.match(/^\*\*([^*]+):\*\*(.*)$/);
+      if (m) {
+        elements.push(
+          <p key={i} className="text-gray-400 leading-relaxed mb-4">
+            <strong className="text-white">{m[1]}: </strong>
+            {m[2].trim()}
+          </p>
+        );
+      } else {
+        elements.push(
+          <p key={i} className="text-white font-semibold mt-4 mb-2">
+            {line.slice(2, -2)}
+          </p>
+        );
+      }
     } else if (line.startsWith('**')) {
       // Bold paragraph
       const cleaned = line.replace(/\*\*/g, '');
@@ -80,6 +85,14 @@ function MarkdownRenderer({ content }: { content: string }) {
 }
 
 export function BlogPostContent({ post }: { post: BlogPost }) {
+  const t = useTranslations('blog');
+  const locale = useLocale();
+  const title = t(`posts.${post.slug}.title` as 'posts');
+  const description = t(`posts.${post.slug}.description` as 'posts');
+  const category = t(`posts.${post.slug}.category` as 'posts');
+  const readTimeMinutes = parseInt(post.readTime, 10) || 5;
+  const readTime = t('read_time', { minutes: readTimeMinutes });
+
   return (
     <section className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-5 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
@@ -92,7 +105,7 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
             </svg>
-            Back to Blog
+            {t('back_to_blog')}
           </Link>
         </AnimatedSection>
 
@@ -100,25 +113,25 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
         <AnimatedSection className="mb-8 sm:mb-12">
           <div className="flex items-center gap-3 text-sm text-gray-500 mb-4">
             <span className="px-3 py-1 rounded-full bg-white/5 text-xs font-medium text-gray-300">
-              {post.category}
+              {category}
             </span>
             <time dateTime={post.date}>
-              {new Date(post.date).toLocaleDateString('en-US', {
+              {new Date(post.date).toLocaleDateString(locale, {
                 month: 'long',
                 day: 'numeric',
                 year: 'numeric',
               })}
             </time>
             <span>&middot;</span>
-            <span>{post.readTime}</span>
+            <span>{readTime}</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
-            {post.title}
+            {title}
           </h1>
 
           <p className="text-gray-400 text-lg leading-relaxed">
-            {post.description}
+            {description}
           </p>
         </AnimatedSection>
 
@@ -154,16 +167,16 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
         <AnimatedSection delay={0.2} className="mt-14 sm:mt-20">
           <div className="bg-white/5 border border-white/10 rounded-2xl sm:rounded-3xl p-8 sm:p-10 text-center">
             <h3 className="text-xl sm:text-2xl font-bold mb-3">
-              Want Results Like These?
+              {t('cta_title')}
             </h3>
             <p className="text-gray-400 text-sm sm:text-base mb-6 max-w-md mx-auto">
-              Book a free strategy call and let&apos;s discuss how we can transform your digital presence.
+              {t('cta_subtitle')}
             </p>
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-white text-black font-medium text-sm hover:bg-gray-100 transition-colors"
             >
-              Get Started
+              {t('cta_button')}
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>

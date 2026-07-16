@@ -166,6 +166,36 @@
     "stats_years": "Tahun Pengalaman",
     "stats_awards": "Industri Dilayani"
   },
+  "blog": {
+    "meta_title": "Blog: Wawasan Desain Web, Branding & SEO",
+    "meta_description": "Wawasan ahli tentang desain web, branding, SEO, dan pemasaran digital dari Blok Blok Studio. Tips praktis untuk menumbuhkan kehadiran online Anda.",
+    "og_alt": "Blog Blok Blok Studio",
+    "list_title": "Wawasan",
+    "list_subtitle": "Tips ahli tentang desain web, branding, SEO, dan menumbuhkan kehadiran digital Anda.",
+    "read_time": "{minutes} menit baca",
+    "read_article": "Baca artikel",
+    "back_to_blog": "Kembali ke Blog",
+    "cta_title": "Ingin Hasil Seperti Ini?",
+    "cta_subtitle": "Jadwalkan panggilan strategi gratis dan mari diskusikan cara mentransformasi kehadiran digital Anda.",
+    "cta_button": "Mulai",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Mengapa Situs Web Anda Kehilangan Pelanggan (dan Cara Memperbaikinya)",
+        "description": "Sebagian besar situs web bisnis kehilangan 70% pengunjung dalam 3 detik pertama. Berikut alasan utamanya dan apa yang bisa Anda lakukan hari ini.",
+        "category": "Desain Web"
+      },
+      "seo-checklist-2026": {
+        "title": "Checklist SEO Terlengkap untuk 2026",
+        "description": "Panduan lengkap dasar-dasar SEO yang dibutuhkan setiap situs web bisnis untuk peringkat di Google pada 2026. Data terstruktur, Core Web Vitals, dan lainnya.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Mengapa Identitas Merek Adalah Investasi Terbaik Anda",
+        "description": "Merek Anda lebih dari sekadar logo. Identitas merek yang kuat membangun kepercayaan, mendukung harga premium, dan mengubah pelanggan menjadi pendukung setia.",
+        "category": "Branding"
+      }
+    }
+  },
   "services": {
     "title": "Layanan Kami",
     "subtitle": "Desain dan pengembangan situs web kustom yang mendorong pertumbuhan bisnis nyata.",

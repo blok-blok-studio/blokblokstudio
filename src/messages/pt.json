@@ -166,6 +166,36 @@
     "stats_years": "Anos de Experiência",
     "stats_awards": "Setores Atendidos"
   },
+  "blog": {
+    "meta_title": "Blog: insights sobre web design, branding e SEO",
+    "meta_description": "Insights de especialistas sobre web design, branding, SEO e marketing digital da Blok Blok Studio. Dicas práticas para fazer crescer a sua presença online.",
+    "og_alt": "Blog da Blok Blok Studio",
+    "list_title": "Insights",
+    "list_subtitle": "Dicas de especialistas sobre web design, branding, SEO e crescimento da sua presença digital.",
+    "read_time": "{minutes} min de leitura",
+    "read_article": "Ler artigo",
+    "back_to_blog": "Voltar ao blog",
+    "cta_title": "Quer resultados como estes?",
+    "cta_subtitle": "Agende uma chamada estratégica gratuita e vamos conversar sobre como transformar a sua presença digital.",
+    "cta_button": "Começar",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Por que o seu site está perdendo clientes (e como resolver)",
+        "description": "A maioria dos sites empresariais perde 70% dos visitantes nos primeiros 3 segundos. Estas são as principais razões e o que você pode fazer hoje.",
+        "category": "Web design"
+      },
+      "seo-checklist-2026": {
+        "title": "A checklist de SEO definitiva para 2026",
+        "description": "Um guia completo dos fundamentos de SEO que todo site empresarial precisa para ranquear no Google em 2026. Dados estruturados, Core Web Vitals e mais.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Por que a identidade de marca é o melhor investimento que você fará",
+        "description": "A sua marca é mais do que um logotipo. Uma identidade de marca forte gera confiança, sustenta preços premium e transforma clientes em defensores.",
+        "category": "Branding"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

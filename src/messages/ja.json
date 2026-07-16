@@ -166,6 +166,36 @@
     "stats_years": "経験年数",
     "stats_awards": "対応業界"
   },
+  "blog": {
+    "meta_title": "ブログ：ウェブデザイン・ブランディング・SEOの知見",
+    "meta_description": "Blok Blok Studioがウェブデザイン、ブランディング、SEO、デジタルマーケティングの専門知識をお届け。オンラインプレゼンスを高める実践的なヒント。",
+    "og_alt": "Blok Blok Studio ブログ",
+    "list_title": "インサイト",
+    "list_subtitle": "ウェブデザイン、ブランディング、SEO、デジタルプレゼンス向上のための専門的なヒント。",
+    "read_time": "読了時間 {minutes} 分",
+    "read_article": "記事を読む",
+    "back_to_blog": "ブログ一覧へ戻る",
+    "cta_title": "このような成果をお求めですか？",
+    "cta_subtitle": "無料の戦略相談をご予約ください。デジタルプレゼンスの変革についてご一緒に考えましょう。",
+    "cta_button": "始める",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "あなたのウェブサイトが顧客を逃している理由（と解決策）",
+        "description": "ビジネスサイトの多くは最初の3秒で訪問者の70%を失っています。主な原因と、今日からできる対策をご紹介します。",
+        "category": "ウェブデザイン"
+      },
+      "seo-checklist-2026": {
+        "title": "2026年版 究極のSEOチェックリスト",
+        "description": "2026年にGoogleで上位表示されるためにすべてのビジネスサイトに必要なSEOの基本を網羅したガイド。構造化データ、Core Web Vitalsなど。",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "ブランドアイデンティティが最高の投資である理由",
+        "description": "ブランドはロゴだけではありません。強いブランドアイデンティティは信頼を築き、プレミアム価格を可能にし、顧客をファンに変えます。",
+        "category": "ブランディング"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",

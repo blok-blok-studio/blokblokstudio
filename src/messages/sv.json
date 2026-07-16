@@ -166,6 +166,36 @@
     "stats_years": "Years of Experience",
     "stats_awards": "Industries Served"
   },
+  "blog": {
+    "meta_title": "Blogg: insikter om webbdesign, varumärke och SEO",
+    "meta_description": "Expertinsikter om webbdesign, varumärkesbyggande, SEO och digital marknadsföring från Blok Blok Studio. Konkreta tips för att växa din närvaro online.",
+    "og_alt": "Blok Blok Studios blogg",
+    "list_title": "Insikter",
+    "list_subtitle": "Experttips om webbdesign, varumärkesbyggande, SEO och hur du växer din digitala närvaro.",
+    "read_time": "{minutes} min läsning",
+    "read_article": "Läs artikeln",
+    "back_to_blog": "Tillbaka till bloggen",
+    "cta_title": "Vill du ha sådana här resultat?",
+    "cta_subtitle": "Boka ett kostnadsfritt strategisamtal så pratar vi om hur vi kan transformera din digitala närvaro.",
+    "cta_button": "Kom igång",
+    "posts": {
+      "why-your-website-is-losing-customers": {
+        "title": "Därför tappar din webbplats kunder (och så åtgärdar du det)",
+        "description": "De flesta företagswebbplatser tappar 70 % av besökarna inom de första 3 sekunderna. Här är de vanligaste orsakerna och vad du kan göra åt det idag.",
+        "category": "Webbdesign"
+      },
+      "seo-checklist-2026": {
+        "title": "Den ultimata SEO-checklistan för 2026",
+        "description": "En komplett guide till de SEO-grunder varje företagswebbplats behöver för att ranka på Google 2026. Strukturerad data, Core Web Vitals och mer.",
+        "category": "SEO"
+      },
+      "brand-identity-investment": {
+        "title": "Därför är varumärkesidentitet den bästa investeringen du gör",
+        "description": "Ditt varumärke är mer än en logotyp. En stark varumärkesidentitet bygger förtroende, motiverar premiumpriser och gör kunder till ambassadörer.",
+        "category": "Varumärke"
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",
