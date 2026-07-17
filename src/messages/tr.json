@@ -18,8 +18,8 @@
     "accessibility": "Erişilebilirlik"
   },
   "faq": {
-    "meta_title": "FAQ — AI Agency & Web Design Studio in Berlin",
-    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio — a Berlin-based digital agency serving clients worldwide.",
+    "meta_title": "FAQ | AI Agency & Web Design Studio in Berlin",
+    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio, a Berlin-based digital agency serving clients worldwide.",
     "hero_eyebrow": "Frequently Asked Questions",
     "hero_title": "Everything you wanted to ask",
     "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 30-minute call.",
@@ -28,7 +28,7 @@
     "category_capabilities": "Services & Capabilities",
     "category_trust": "Working with Blok Blok Studio",
     "cta_heading": "Still have questions?",
-    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure — just answers.",
+    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure, just answers.",
     "cta_button": "Book Your Free Call",
     "see_all_questions": "Tüm soruları gör",
     "filter_all": "Tümü",
@@ -36,7 +36,7 @@
       {
         "category": "pricing",
         "question": "How much does a custom website cost?",
-        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one — never templates."
+        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one, never templates."
       },
       {
         "category": "pricing",
@@ -46,17 +46,17 @@
       {
         "category": "pricing",
         "question": "How much does an AI voice agent cost per month?",
-        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human — all in natural conversational language."
+        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human, all in natural conversational language."
       },
       {
         "category": "pricing",
         "question": "Do you offer monthly retainers or just project work?",
-        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth — Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
+        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth: Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
       },
       {
         "category": "process",
         "question": "How long does it take to build a custom website?",
-        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast — most agencies take 2 to 3 times longer."
+        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast, most agencies take 2 to 3 times longer."
       },
       {
         "category": "process",
@@ -66,22 +66,22 @@
       {
         "category": "process",
         "question": "What does the design and build process look like?",
-        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone — no live status meetings unless you want one."
+        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone, no live status meetings unless you want one."
       },
       {
         "category": "capabilities",
         "question": "What's the difference between an AI chatbot and an AI voice agent?",
-        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps — it answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
+        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps. It answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
       },
       {
         "category": "capabilities",
         "question": "Can your AI agents integrate with HubSpot, Salesforce, or GoHighLevel?",
-        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector — no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
+        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector, no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
       },
       {
         "category": "capabilities",
         "question": "Do you build websites in Next.js, WordPress, or Webflow?",
-        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow — those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
+        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow, those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
       },
       {
         "category": "capabilities",
@@ -91,7 +91,7 @@
       {
         "category": "trust",
         "question": "Where is Blok Blok Studio located, and do you work internationally?",
-        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text — we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
+        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text, we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
       },
       {
         "category": "trust",
@@ -128,7 +128,7 @@
     "tab_all": "All",
     "tab_ai": "AI & Automation",
     "tab_creative": "Creative & Marketing",
-    "audit_badge": "Free — 30 minutes",
+    "audit_badge": "Free: 30 minutes",
     "audit_heading": "Not Sure What Your Business Needs?",
     "audit_subheading": "Book a free strategy call. We'll review your business and show you exactly where the biggest opportunities are.",
     "audit_button": "Book Your Free Call",
@@ -381,18 +381,18 @@
     "use_item_legal": "Comply with legal obligations",
     "third_parties_title": "Third-Party Services",
     "third_parties_intro": "We use the following third-party services to operate our business:",
-    "third_party_resend": "Resend — for sending email communications",
+    "third_party_resend": "Resend: for sending email communications",
     "third_parties_note": "These services only receive the minimum data necessary for their functionality.",
     "retention_title": "Data Retention",
     "retention_content": "We retain your personal data for as long as necessary to provide our services and maintain our business relationship. You can request deletion of your data at any time through our Data Rights page.",
     "your_rights_title": "Your Rights (GDPR)",
     "your_rights_intro": "Under the General Data Protection Regulation, you have the right to:",
-    "right_access": "Access — Request a copy of all personal data we hold about you",
-    "right_correct": "Rectification — Request correction of inaccurate data",
-    "right_delete": "Erasure — Request permanent deletion of your data",
-    "right_object": "Object — Object to processing of your data",
-    "right_export": "Portability — Export your data in a machine-readable format",
-    "right_withdraw": "Withdraw Consent — Withdraw your consent at any time",
+    "right_access": "Access: Request a copy of all personal data we hold about you",
+    "right_correct": "Rectification: Request correction of inaccurate data",
+    "right_delete": "Erasure: Request permanent deletion of your data",
+    "right_object": "Object: Object to processing of your data",
+    "right_export": "Portability: Export your data in a machine-readable format",
+    "right_withdraw": "Withdraw Consent: Withdraw your consent at any time",
     "your_rights_cta": "Exercise your rights on our",
     "your_rights_link": "Data Rights page",
     "contact_title": "Contact Us",
@@ -482,11 +482,11 @@
     "compare_2_bad": "DM, e-posta ve fatura ile ödemelerin peşinden koşmak",
     "compare_2_good": "Müşterilerin doğrudan sitende ödediği online rezervasyon ve ödeme",
     "compare_3_bad": "\"Mobili sonra hallederiz\"",
-    "compare_3_good": "Önce mobil — çünkü müşterilerin orada",
+    "compare_3_good": "Önce mobil: çünkü müşterilerin orada",
     "compare_4_bad": "Sektördeki herkesin sitesine benzeyen bir şablon",
     "compare_4_good": "Markanı anında öne çıkaran özel tasarım",
     "compare_5_bad": "Yayına alıp ardından seni ortada bırakan ajans",
-    "compare_5_good": "Sürekli destek — çünkü işin büyümeye devam ediyor",
+    "compare_5_good": "Sürekli destek: çünkü işin büyümeye devam ediyor",
     "process_title": "Nasıl çalışıyor",
     "process_subtitle": "Kahveden lansmana dört adım. Sürpriz yok.",
     "process_1_title": "Kahve",
@@ -494,7 +494,7 @@
     "process_2_title": "Plan",
     "process_2_desc": "Sana net bir strateji ve teklif gönderiyorum. Tam olarak ne aldığını, fiyatını ve teslim süresini başlamadan önce görüyorsun.",
     "process_3_title": "Yapım",
-    "process_3_desc": "Tasarım, geliştirme, reklam, sosyal, AI — neye ihtiyacın varsa. Süreç boyunca bilgilendiriliyorsun ve doğru oluncaya kadar üzerinde çalışıyoruz.",
+    "process_3_desc": "Tasarım, geliştirme, reklam, sosyal, AI: neye ihtiyacın varsa. Süreç boyunca bilgilendiriliyorsun ve doğru oluncaya kadar üzerinde çalışıyoruz.",
     "process_4_title": "Lansman",
     "process_4_desc": "Yayına alınıyor: rafine ve hızlı. Sonra ben de yanında kalıp büyümeye devam etmesini sağlıyorum, ertesi gün ortadan kaybolmuyorum.",
     "projects_title": "Son işler",

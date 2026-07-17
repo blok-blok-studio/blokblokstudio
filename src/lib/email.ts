@@ -156,7 +156,7 @@ export async function sendMarketingConfirmEmail(to: string, name: string, token:
       <h1 style="font-size: 22px; margin: 0 0 16px;">Please confirm your subscription</h1>
       <p style="color: #444; line-height: 1.6;">
         Hi ${name || 'there'}, you asked to receive growth tips and occasional offers from Blok Blok Studio.
-        Click the button below to confirm — you won't receive marketing emails until you do.
+        Click the button below to confirm. You won't receive marketing emails until you do.
       </p>
       <p style="color: #666; font-size: 13px; line-height: 1.6;">
         Bitte bestätigen Sie Ihre Anmeldung: Klicken Sie auf den Button, um E-Mails von Blok Blok Studio

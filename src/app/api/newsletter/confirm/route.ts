@@ -54,6 +54,6 @@ export async function GET(req: NextRequest) {
 
   return page(
     "You're subscribed!",
-    'Your subscription is confirmed — you can unsubscribe anytime with one click in any email. / Ihre Anmeldung ist bestätigt. Sie können sich jederzeit mit einem Klick wieder abmelden.'
+    'Your subscription is confirmed. You can unsubscribe anytime with one click in any email. / Ihre Anmeldung ist bestätigt. Sie können sich jederzeit mit einem Klick wieder abmelden.'
   );
 }

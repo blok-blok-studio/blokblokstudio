@@ -19,7 +19,7 @@
   },
   "faq": {
     "meta_title": "FAQ, Studio Desain Web di Berlin",
-    "meta_description": "Jawaban tentang harga, jadwal, situs web kustom, dan bekerja dengan Blok Blok Studio — studio desain web berbasis Berlin yang melayani klien di seluruh dunia.",
+    "meta_description": "Jawaban tentang harga, jadwal, situs web kustom, dan bekerja dengan Blok Blok Studio, studio desain web berbasis Berlin yang melayani klien di seluruh dunia.",
     "hero_eyebrow": "Pertanyaan yang Sering Diajukan",
     "hero_title": "Semua yang ingin Anda tanyakan",
     "hero_subtitle": "Jawaban jujur tentang cara kami bekerja, apa yang kami kenakan, dan apa yang kami bangun. Jika Anda tidak melihat pertanyaan Anda, pesan panggilan strategi gratis 30 menit.",
@@ -36,7 +36,7 @@
       {
         "category": "pricing",
         "question": "Berapa biaya situs web kustom?",
-        "answer": "Situs web kustom di Blok Blok Studio mulai dari $2.000 untuk satu landing page dan naik hingga $9.500 untuk situs 10 halaman dengan CMS, branding, dan SEO on-page. Harga bergantung pada jumlah halaman, animasi kustom, integrasi AI, dan kebutuhan copywriting. Setiap situs dibangun di Next.js, di-host di Vercel, dan dioptimalkan SEO sejak hari pertama — tidak pernah template."
+        "answer": "Situs web kustom di Blok Blok Studio mulai dari $2.000 untuk satu landing page dan naik hingga $9.500 untuk situs 10 halaman dengan CMS, branding, dan SEO on-page. Harga bergantung pada jumlah halaman, animasi kustom, integrasi AI, dan kebutuhan copywriting. Setiap situs dibangun di Next.js, di-host di Vercel, dan dioptimalkan SEO sejak hari pertama, tidak pernah template."
       },
       {
         "category": "pricing",
@@ -46,7 +46,7 @@
       {
         "category": "pricing",
         "question": "Berapa biaya AI voice agent per bulan?",
-        "answer": "Penyiapan AI voice agent kami mulai dari $2.500 sekali bayar, dengan 500 menit suara termasuk untuk bulan pertama. Menit selanjutnya ditagih dengan tarif telepon standar dan digabungkan ke retainer bulanan. Agen menjawab panggilan, mengkualifikasi prospek, memesan janji, dan meneruskan panggilan mendesak ke manusia — semuanya dalam bahasa percakapan alami."
+        "answer": "Penyiapan AI voice agent kami mulai dari $2.500 sekali bayar, dengan 500 menit suara termasuk untuk bulan pertama. Menit selanjutnya ditagih dengan tarif telepon standar dan digabungkan ke retainer bulanan. Agen menjawab panggilan, mengkualifikasi prospek, memesan janji, dan meneruskan panggilan mendesak ke manusia, semuanya dalam bahasa percakapan alami."
       },
       {
         "category": "pricing",
@@ -56,7 +56,7 @@
       {
         "category": "process",
         "question": "Berapa lama waktu yang dibutuhkan untuk membangun situs web kustom?",
-        "answer": "Landing page tunggal biasanya diluncurkan dalam 2 hingga 3 minggu. Situs 5 halaman membutuhkan 4 hingga 6 minggu. Situs 10 halaman dengan CMS dan integrasi AI membutuhkan 8 hingga 12 minggu. Jadwal bergantung pada seberapa cepat Anda memberikan konten, masukan merek, dan persetujuan. Kami bergerak cepat — kebanyakan agensi membutuhkan 2 hingga 3 kali lebih lama."
+        "answer": "Landing page tunggal biasanya diluncurkan dalam 2 hingga 3 minggu. Situs 5 halaman membutuhkan 4 hingga 6 minggu. Situs 10 halaman dengan CMS dan integrasi AI membutuhkan 8 hingga 12 minggu. Jadwal bergantung pada seberapa cepat Anda memberikan konten, masukan merek, dan persetujuan. Kami bergerak cepat, kebanyakan agensi membutuhkan 2 hingga 3 kali lebih lama."
       },
       {
         "category": "process",
@@ -66,22 +66,22 @@
       {
         "category": "process",
         "question": "Seperti apa proses desain dan pembangunan?",
-        "answer": "Lima fase: Penemuan (tujuan dan audiens Anda), Strategi (peta jalan yang disesuaikan), Desain (konsep visual dan prototipe), Pengembangan (kode modern, performant), dan Peluncuran & Optimasi (terapkan, pantau, perhalus). Anda mendapatkan pembaruan mingguan dan walkthrough Loom di setiap tonggak — tanpa rapat status langsung kecuali Anda menginginkannya."
+        "answer": "Lima fase: Penemuan (tujuan dan audiens Anda), Strategi (peta jalan yang disesuaikan), Desain (konsep visual dan prototipe), Pengembangan (kode modern, performant), dan Peluncuran & Optimasi (terapkan, pantau, perhalus). Anda mendapatkan pembaruan mingguan dan walkthrough Loom di setiap tonggak, tanpa rapat status langsung kecuali Anda menginginkannya."
       },
       {
         "category": "capabilities",
         "question": "Apa perbedaan antara chatbot AI dan voice agent AI?",
-        "answer": "Chatbot AI berbasis teks dan hidup di situs web atau aplikasi pesan Anda — ia menjawab FAQ, memesan janji, dan menangkap prospek melalui obrolan. AI voice agent menjawab panggilan telepon nyata dalam bahasa lisan alami. Voice agent paling baik untuk penjualan masuk, dukungan setelah jam kerja, dan konfirmasi janji. Banyak bisnis menjalankan keduanya untuk cakupan penuh."
+        "answer": "Chatbot AI berbasis teks dan hidup di situs web atau aplikasi pesan Anda, ia menjawab FAQ, memesan janji, dan menangkap prospek melalui obrolan. AI voice agent menjawab panggilan telepon nyata dalam bahasa lisan alami. Voice agent paling baik untuk penjualan masuk, dukungan setelah jam kerja, dan konfirmasi janji. Banyak bisnis menjalankan keduanya untuk cakupan penuh."
       },
       {
         "category": "capabilities",
         "question": "Bisakah agen AI Anda terintegrasi dengan HubSpot, Salesforce, atau GoHighLevel?",
-        "answer": "Ya. Agen AI dan otomatisasi kami terintegrasi secara native dengan HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, dan Calendly. Untuk CRM dan alat tanpa integrasi yang ada, kami membangun konektor kustom — tanpa pajak perantara Zapier. Data Anda tetap di sistem Anda; kami hanya membuat mereka berbicara satu sama lain."
+        "answer": "Ya. Agen AI dan otomatisasi kami terintegrasi secara native dengan HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, dan Calendly. Untuk CRM dan alat tanpa integrasi yang ada, kami membangun konektor kustom, tanpa pajak perantara Zapier. Data Anda tetap di sistem Anda; kami hanya membuat mereka berbicara satu sama lain."
       },
       {
         "category": "capabilities",
         "question": "Apakah Anda membangun situs web di Next.js, WordPress, atau Webflow?",
-        "answer": "Kami membangun secara eksklusif di Next.js dengan TypeScript, Tailwind CSS, dan Framer Motion. Situs di-host di Vercel untuk waktu muat sub-detik dan pengiriman edge global. Kami tidak membangun di WordPress, Wix, Squarespace, atau Webflow — platform tersebut tidak dapat memberikan kinerja, animasi kustom, atau integrasi AI yang dibutuhkan klien kami."
+        "answer": "Kami membangun secara eksklusif di Next.js dengan TypeScript, Tailwind CSS, dan Framer Motion. Situs di-host di Vercel untuk waktu muat sub-detik dan pengiriman edge global. Kami tidak membangun di WordPress, Wix, Squarespace, atau Webflow, platform tersebut tidak dapat memberikan kinerja, animasi kustom, atau integrasi AI yang dibutuhkan klien kami."
       },
       {
         "category": "capabilities",
@@ -91,7 +91,7 @@
       {
         "category": "trust",
         "question": "Di mana Blok Blok Studio berada, dan apakah Anda bekerja secara internasional?",
-        "answer": "Studio kami berbasis di Berlin, Jerman. Kami bekerja dengan klien di Amerika Serikat, Inggris, Belanda, Prancis, Spanyol, dan di seluruh UE. Komunikasi bersifat asinkron melalui Loom, email, dan teks — kami mengakomodasi setiap zona waktu. Faktur dan kontrak tersedia dalam USD atau EUR tergantung preferensi Anda."
+        "answer": "Studio kami berbasis di Berlin, Jerman. Kami bekerja dengan klien di Amerika Serikat, Inggris, Belanda, Prancis, Spanyol, dan di seluruh UE. Komunikasi bersifat asinkron melalui Loom, email, dan teks, kami mengakomodasi setiap zona waktu. Faktur dan kontrak tersedia dalam USD atau EUR tergantung preferensi Anda."
       },
       {
         "category": "trust",
@@ -107,7 +107,7 @@
   },
   "home": {
     "hero_title": "Studio Desain Web di Berlin",
-    "hero_subtitle": "Kami merancang dan membangun situs web Next.js kustom untuk merek ambisius di seluruh dunia. Desain web premium, fokus konversi — tidak pernah template.",
+    "hero_subtitle": "Kami merancang dan membangun situs web Next.js kustom untuk merek ambisius di seluruh dunia. Desain web premium, fokus konversi, tidak pernah template.",
     "hero_cta": "Mulai Proyek",
     "clients_heading": "Dipercaya oleh merek-merek visioner",
     "services_heading": "Apa yang Kami Lakukan",
@@ -438,7 +438,7 @@
     "meta_twitter_description": "Agensi kreatif Berlin. Situs web, iklan, sosial, AI. Kopi pertama gratis dari saya.",
     "hero_badge": "Anda membuka surat itu",
     "hero_title": "Langkah selanjutnya adalah kopi.",
-    "hero_subtitle": "Pilih waktu di bawah. Yang pertama gratis dari saya. Tanpa penawaran, tanpa tekanan — hanya percakapan nyata tentang bisnis Anda.",
+    "hero_subtitle": "Pilih waktu di bawah. Yang pertama gratis dari saya. Tanpa penawaran, tanpa tekanan, hanya percakapan nyata tentang bisnis Anda.",
     "hero_cta_primary": "Pesan kopi",
     "hero_cta_secondary": "Lihat karya terbaru",
     "hook_line1": "Sebagian besar bisnis hebat di Berlin melakukan pekerjaan yang lebih baik daripada yang mereka dapatkan kreditnya online.",

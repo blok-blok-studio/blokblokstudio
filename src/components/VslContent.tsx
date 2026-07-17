@@ -31,8 +31,8 @@ export function VslContent() {
 
         <AnimatedSection>
           <h1 className="text-2xl sm:text-4xl font-bold leading-tight mb-3">
-            Where your business is quietly losing customers
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300"> — and how to fix it</span>
+            Where your business is quietly losing customers{' '}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300"> (and how to fix it)</span>
           </h1>
           <p className="text-gray-500 text-sm sm:text-base mb-8">
             3 minutes. Then decide if a free growth plan is worth 15 more.
@@ -58,7 +58,7 @@ export function VslContent() {
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
-                <p className="text-gray-400 text-sm">Video coming soon — the plan is already real.</p>
+                <p className="text-gray-400 text-sm">Video coming soon. The plan is already real.</p>
               </div>
             )}
           </div>

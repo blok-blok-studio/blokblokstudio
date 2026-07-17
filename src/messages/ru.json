@@ -18,8 +18,8 @@
     "accessibility": "Доступность"
   },
   "faq": {
-    "meta_title": "FAQ — AI Agency & Web Design Studio in Berlin",
-    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio — a Berlin-based digital agency serving clients worldwide.",
+    "meta_title": "FAQ | AI Agency & Web Design Studio in Berlin",
+    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio, a Berlin-based digital agency serving clients worldwide.",
     "hero_eyebrow": "Frequently Asked Questions",
     "hero_title": "Everything you wanted to ask",
     "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 30-minute call.",
@@ -28,7 +28,7 @@
     "category_capabilities": "Services & Capabilities",
     "category_trust": "Working with Blok Blok Studio",
     "cta_heading": "Still have questions?",
-    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure — just answers.",
+    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure, just answers.",
     "cta_button": "Book Your Free Call",
     "see_all_questions": "Смотреть все вопросы",
     "filter_all": "Все",
@@ -36,7 +36,7 @@
       {
         "category": "pricing",
         "question": "How much does a custom website cost?",
-        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one — never templates."
+        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one, never templates."
       },
       {
         "category": "pricing",
@@ -46,17 +46,17 @@
       {
         "category": "pricing",
         "question": "How much does an AI voice agent cost per month?",
-        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human — all in natural conversational language."
+        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human, all in natural conversational language."
       },
       {
         "category": "pricing",
         "question": "Do you offer monthly retainers or just project work?",
-        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth — Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
+        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth: Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
       },
       {
         "category": "process",
         "question": "How long does it take to build a custom website?",
-        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast — most agencies take 2 to 3 times longer."
+        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast, most agencies take 2 to 3 times longer."
       },
       {
         "category": "process",
@@ -66,22 +66,22 @@
       {
         "category": "process",
         "question": "What does the design and build process look like?",
-        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone — no live status meetings unless you want one."
+        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone, no live status meetings unless you want one."
       },
       {
         "category": "capabilities",
         "question": "What's the difference between an AI chatbot and an AI voice agent?",
-        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps — it answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
+        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps. It answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
       },
       {
         "category": "capabilities",
         "question": "Can your AI agents integrate with HubSpot, Salesforce, or GoHighLevel?",
-        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector — no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
+        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector, no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
       },
       {
         "category": "capabilities",
         "question": "Do you build websites in Next.js, WordPress, or Webflow?",
-        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow — those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
+        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow, those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
       },
       {
         "category": "capabilities",
@@ -91,7 +91,7 @@
       {
         "category": "trust",
         "question": "Where is Blok Blok Studio located, and do you work internationally?",
-        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text — we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
+        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text, we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
       },
       {
         "category": "trust",
@@ -128,7 +128,7 @@
     "tab_all": "Все",
     "tab_ai": "ИИ и автоматизация",
     "tab_creative": "Креатив и маркетинг",
-    "audit_badge": "Бесплатно — 30 минут",
+    "audit_badge": "Бесплатно: 30 минут",
     "audit_heading": "Не уверены, что нужно вашему бизнесу?",
     "audit_subheading": "Запишитесь на бесплатный стратегический звонок. Мы проанализируем ваш бизнес и покажем, где находятся самые большие возможности.",
     "audit_button": "Записаться на бесплатный звонок",
@@ -148,7 +148,7 @@
   },
   "about": {
     "title": "О нас",
-    "subtitle": "Мы — коллектив дизайнеров, разработчиков и стратегов, увлечённых созданием значимого цифрового опыта.",
+    "subtitle": "Мы: коллектив дизайнеров, разработчиков и стратегов, увлечённых созданием значимого цифрового опыта.",
     "mission_title": "Наша миссия",
     "mission_text": "Укреплять бренды с помощью инновационных цифровых решений, которые связывают, вовлекают и вдохновляют аудиторию по всему миру.",
     "vision_title": "Наше видение",
@@ -191,8 +191,8 @@
         "category": "SEO"
       },
       "brand-identity-investment": {
-        "title": "Почему айдентика бренда — лучшая инвестиция",
-        "description": "Ваш бренд — это больше, чем логотип. Сильная айдентика укрепляет доверие, оправдывает премиальные цены и превращает клиентов в амбассадоров.",
+        "title": "Почему айдентика бренда: лучшая инвестиция",
+        "description": "Ваш бренд: это больше, чем логотип. Сильная айдентика укрепляет доверие, оправдывает премиальные цены и превращает клиентов в амбассадоров.",
         "category": "Брендинг"
       }
     }
@@ -381,18 +381,18 @@
     "use_item_legal": "Соблюдения юридических обязательств",
     "third_parties_title": "Сторонние сервисы",
     "third_parties_intro": "Мы используем следующие сторонние сервисы для ведения нашего бизнеса:",
-    "third_party_resend": "Resend — для отправки электронных писем",
+    "third_party_resend": "Resend: для отправки электронных писем",
     "third_parties_note": "Эти сервисы получают только минимальные данные, необходимые для их функционирования.",
     "retention_title": "Хранение данных",
     "retention_content": "Мы храним ваши персональные данные столько, сколько необходимо для предоставления наших услуг и поддержания деловых отношений. Вы можете запросить удаление ваших данных в любое время через нашу страницу Прав на данные.",
     "your_rights_title": "Ваши права (GDPR)",
     "your_rights_intro": "Согласно Общему регламенту по защите данных, вы имеете право на:",
-    "right_access": "Доступ — запросить копию всех персональных данных, которые мы храним о вас",
-    "right_correct": "Исправление — запросить исправление неточных данных",
-    "right_delete": "Удаление — запросить навсегда удалить ваши данные",
-    "right_object": "Возражение — возразить против обработки ваших данных",
-    "right_export": "Переносимость — экспортировать ваши данные в машиночитаемом формате",
-    "right_withdraw": "Отзыв согласия — отозвать ваше согласие в любое время",
+    "right_access": "Доступ: запросить копию всех персональных данных, которые мы храним о вас",
+    "right_correct": "Исправление: запросить исправление неточных данных",
+    "right_delete": "Удаление: запросить навсегда удалить ваши данные",
+    "right_object": "Возражение: возразить против обработки ваших данных",
+    "right_export": "Переносимость: экспортировать ваши данные в машиночитаемом формате",
+    "right_withdraw": "Отзыв согласия: отозвать ваше согласие в любое время",
     "your_rights_cta": "Воспользуйтесь своими правами на нашей",
     "your_rights_link": "странице Прав на данные",
     "contact_title": "Свяжитесь с нами",
@@ -422,7 +422,7 @@
     "description": "Как Blok Blok Studio использует файлы cookie и аналогичные технологии",
     "last_updated": "Последнее обновление: July 16, 2026",
     "intro_title": "Что такое Cookie",
-    "intro_content": "Cookie — это небольшие текстовые файлы, которые сохраняются на вашем устройстве при посещении веб-сайта. Они помогают веб-сайтам запоминать ваши предпочтения и улучшать ваш опыт просмотра.",
+    "intro_content": "Cookie: это небольшие текстовые файлы, которые сохраняются на вашем устройстве при посещении веб-сайта. Они помогают веб-сайтам запоминать ваши предпочтения и улучшать ваш опыт просмотра.",
     "our_use_title": "Наше использование Cookie",
     "our_use_content": "Мы придерживаемся принципа приоритета конфиденциальности. По умолчанию мы используем только localStorage (механизм хранения браузера), чтобы запомнить ваш выбор согласия на cookie. Дополнительные рекламные пиксели загружаются только если вы принимаете маркетинговые cookie.",
     "third_party_title": "Сторонние Cookie",
@@ -434,18 +434,18 @@
   },
   "start": {
     "meta_title": "Выпьем кофе | Blok Blok Studio",
-    "meta_description": "Я Чейз. Веду Blok Blok Studio — креативное агентство в Берлине. Сайты, реклама, соцсети, AI-системы. Первая чашка — за мной.",
-    "meta_twitter_description": "Креативное агентство в Берлине. Сайты, реклама, соцсети, AI. Первая чашка — за мной.",
+    "meta_description": "Я Чейз. Веду Blok Blok Studio, креативное агентство в Берлине. Сайты, реклама, соцсети, AI-системы. Первая чашка, за мной.",
+    "meta_twitter_description": "Креативное агентство в Берлине. Сайты, реклама, соцсети, AI. Первая чашка, за мной.",
     "hero_badge": "Ты открыл письмо",
-    "hero_title": "Следующий шаг — кофе.",
-    "hero_subtitle": "Выбери время ниже. Первая чашка — за мной. Без питча, без давления, просто живой разговор о твоём бизнесе.",
+    "hero_title": "Следующий шаг: кофе.",
+    "hero_subtitle": "Выбери время ниже. Первая чашка, за мной. Без питча, без давления, просто живой разговор о твоём бизнесе.",
     "hero_cta_primary": "Назначить кофе",
     "hero_cta_secondary": "Посмотреть последние работы",
     "hook_line1": "Большинство сильных берлинских компаний делают работу гораздо лучше, чем она выглядит онлайн.",
     "hook_line2": "Здесь появляюсь я. Привожу твоё онлайн-присутствие в порядок и выводу тебя к нужным клиентам.",
     "pitch_label": "Питч",
     "pitch_title": "Я Чейз. Веду Blok Blok Studio.",
-    "pitch_body": "Креативное агентство в Берлине. Делаю сайты, веду рекламу, занимаюсь соцсетями и настраиваю AI-системы — для тех, кто хорошо делает своё дело и устал быть тайной.",
+    "pitch_body": "Креативное агентство в Берлине. Делаю сайты, веду рекламу, занимаюсь соцсетями и настраиваю AI-системы, для тех, кто хорошо делает своё дело и устал быть тайной.",
     "services_title": "Чем я реально занимаюсь",
     "services_subtitle": "Четыре вещи, сделаны как надо, работают вместе.",
     "catalog_eyebrow": "Всё меню",
@@ -454,7 +454,7 @@
     "service_websites_name": "Сайты",
     "service_websites_desc": "Сайты на заказ, не уступающие качеству твоей реальной работы. Быстрые, mobile-first, заточены превращать посетителей в платящих клиентов.",
     "service_ads_name": "Реклама",
-    "service_ads_desc": "Реклама в Meta и Google, нацеленная на тех, кто уже ищет именно то, что ты делаешь. Без витринных метрик — только бронирования и продажи.",
+    "service_ads_desc": "Реклама в Meta и Google, нацеленная на тех, кто уже ищет именно то, что ты делаешь. Без витринных метрик, только бронирования и продажи.",
     "service_social_name": "Соцсети",
     "service_social_desc": "Контент и профили на уровне твоей реальной работы, чтобы первое впечатление онлайн перестало работать против тебя.",
     "service_ai_name": "AI-системы",
@@ -474,36 +474,36 @@
     "audience_freelancers": "Фрилансеры",
     "audience_other": "И все остальные",
     "compare_title": "Что обычно получают vs. что делаю я",
-    "compare_subtitle": "Большинство агентств отдают сайт и пропадают. Я — нет.",
+    "compare_subtitle": "Большинство агентств отдают сайт и пропадают. Я, нет.",
     "compare_label_others": "Другие",
     "compare_label_me": "Я",
     "compare_1_bad": "Красивый сайт, который никто не находит в Google",
-    "compare_1_good": "SEO встроено сразу — нужные клиенты тебя реально находят",
+    "compare_1_good": "SEO встроено сразу: нужные клиенты тебя реально находят",
     "compare_2_bad": "Гонять оплаты в DM, на почте и в инвойсах",
     "compare_2_good": "Онлайн-бронирование и оплата прямо на сайте",
     "compare_3_bad": "«С мобайлом разберёмся потом»",
-    "compare_3_good": "Сначала мобайл — твои клиенты именно там",
+    "compare_3_good": "Сначала мобайл: твои клиенты именно там",
     "compare_4_bad": "Шаблон, как у любого другого в твоей нише",
     "compare_4_good": "Кастомный дизайн, на котором бренд сразу выделяется",
-    "compare_5_bad": "Запустили и забили — типичная агентская история",
+    "compare_5_bad": "Запустили и забили: типичная агентская история",
     "compare_5_good": "Постоянная поддержка, потому что бизнес продолжает расти",
     "process_title": "Как мы работаем",
     "process_subtitle": "Четыре шага от кофе до запуска. Без секретов.",
     "process_1_title": "Кофе",
-    "process_1_desc": "Встречаемся на 30 минут. Узнаю про бизнес, цели и что больше всего достаёт онлайн. Первая чашка — за мной.",
+    "process_1_desc": "Встречаемся на 30 минут. Узнаю про бизнес, цели и что больше всего достаёт онлайн. Первая чашка, за мной.",
     "process_2_title": "План",
     "process_2_desc": "Возвращаюсь с чёткой стратегией и предложением. До старта ты знаешь, что получишь, во что обойдётся и когда будет готово.",
     "process_3_title": "Сборка",
-    "process_3_desc": "Дизайн, разработка, реклама, соцсети, AI — что нужно. Ты в курсе на каждом шаге, шлифуем до тех пор, пока не станет правильно.",
+    "process_3_desc": "Дизайн, разработка, реклама, соцсети, AI: что нужно. Ты в курсе на каждом шаге, шлифуем до тех пор, пока не станет правильно.",
     "process_4_title": "Запуск",
-    "process_4_desc": "Выходим в прод — отполированно и быстро. И я остаюсь рядом, чтобы продолжать растить, а не пропадать на следующий день.",
+    "process_4_desc": "Выходим в прод: отполированно и быстро. И я остаюсь рядом, чтобы продолжать растить, а не пропадать на следующий день.",
     "projects_title": "Последние работы",
     "projects_subtitle": "Реальные проекты, реальные клиенты, реальные результаты.",
     "testimonials_title": "Их словами",
     "testimonials_subtitle": "Что клиенты говорят после работы со мной.",
     "testimonial_view_project": "Открыть проект",
-    "cta_title": "Раз письмо открыто — следующий шаг кофе.",
-    "cta_subtitle": "Выбери время. Первая — за мной.",
+    "cta_title": "Раз письмо открыто: следующий шаг кофе.",
+    "cta_subtitle": "Выбери время. Первая, за мной.",
     "cta_button": "Назначить кофе",
     "cta_signoff_role": "Основатель Blok Blok Studio",
     "whatsapp_aria": "Написать в WhatsApp"

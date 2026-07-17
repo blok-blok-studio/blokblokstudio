@@ -18,8 +18,8 @@
     "accessibility": "Barrierefreiheit"
   },
   "faq": {
-    "meta_title": "FAQ — AI Agency & Web Design Studio in Berlin",
-    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio — a Berlin-based digital agency serving clients worldwide.",
+    "meta_title": "FAQ | AI Agency & Web Design Studio in Berlin",
+    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio, a Berlin-based digital agency serving clients worldwide.",
     "hero_eyebrow": "Frequently Asked Questions",
     "hero_title": "Everything you wanted to ask",
     "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 30-minute call.",
@@ -28,7 +28,7 @@
     "category_capabilities": "Services & Capabilities",
     "category_trust": "Working with Blok Blok Studio",
     "cta_heading": "Still have questions?",
-    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure — just answers.",
+    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure, just answers.",
     "cta_button": "Book Your Free Call",
     "see_all_questions": "Alle Fragen anzeigen",
     "filter_all": "Alle",
@@ -36,7 +36,7 @@
       {
         "category": "pricing",
         "question": "How much does a custom website cost?",
-        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one — never templates."
+        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one, never templates."
       },
       {
         "category": "pricing",
@@ -46,17 +46,17 @@
       {
         "category": "pricing",
         "question": "How much does an AI voice agent cost per month?",
-        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human — all in natural conversational language."
+        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human, all in natural conversational language."
       },
       {
         "category": "pricing",
         "question": "Do you offer monthly retainers or just project work?",
-        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth — Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
+        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth: Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
       },
       {
         "category": "process",
         "question": "How long does it take to build a custom website?",
-        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast — most agencies take 2 to 3 times longer."
+        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast, most agencies take 2 to 3 times longer."
       },
       {
         "category": "process",
@@ -66,22 +66,22 @@
       {
         "category": "process",
         "question": "What does the design and build process look like?",
-        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone — no live status meetings unless you want one."
+        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone, no live status meetings unless you want one."
       },
       {
         "category": "capabilities",
         "question": "What's the difference between an AI chatbot and an AI voice agent?",
-        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps — it answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
+        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps. It answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
       },
       {
         "category": "capabilities",
         "question": "Can your AI agents integrate with HubSpot, Salesforce, or GoHighLevel?",
-        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector — no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
+        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector, no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
       },
       {
         "category": "capabilities",
         "question": "Do you build websites in Next.js, WordPress, or Webflow?",
-        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow — those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
+        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow, those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
       },
       {
         "category": "capabilities",
@@ -91,7 +91,7 @@
       {
         "category": "trust",
         "question": "Where is Blok Blok Studio located, and do you work internationally?",
-        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text — we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
+        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text, we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
       },
       {
         "category": "trust",
@@ -128,7 +128,7 @@
     "tab_all": "Alle",
     "tab_ai": "KI & Automatisierung",
     "tab_creative": "Kreativ & Marketing",
-    "audit_badge": "Kostenlos — 30 Minuten",
+    "audit_badge": "Kostenlos: 30 Minuten",
     "audit_heading": "Nicht sicher, was Ihr Unternehmen braucht?",
     "audit_subheading": "Buchen Sie ein kostenloses Strategiegespräch. Wir überprüfen Ihr Unternehmen und zeigen Ihnen, wo die größten Chancen liegen.",
     "audit_button": "Kostenloses Gespräch buchen",
@@ -154,7 +154,7 @@
     "title": "Über Uns",
     "subtitle": "Wir sind ein Kollektiv aus Designern, Entwicklern und Strategen, die leidenschaftlich bedeutungsvolle digitale Erlebnisse schaffen.",
     "mission_title": "Unsere Mission",
-    "mission_text": "Marken mit innovativen digitalen Lösungen zu stärken, die ihre Zielgruppen weltweit verbinden, einbinden und inspirieren.",
+    "mission_text": "Ambitionierten Marken die Websites, Systeme und Kampagnen zu geben, die ihnen wirklich Kunden bringen.",
     "vision_title": "Unsere Vision",
     "vision_text": "Der kreative Partner der Wahl für Marken zu sein, die es wagen, in der digitalen Landschaft aufzufallen.",
     "values_title": "Unsere Werte",
@@ -221,7 +221,7 @@
     "service_2_bullet_4": "FAQ handling and lead qualification",
     "service_2_bullet_5": "Natural language, not robotic",
     "service_3_title": "Workflow Automation",
-    "service_3_subtitle": "Connect every tool into one seamless system",
+    "service_3_subtitle": "Alle Tools zu einem System verbinden, das von selbst läuft",
     "service_3_bullet_1": "CRM, calendar, and payments linked",
     "service_3_bullet_2": "Custom integrations (no Zapier tax)",
     "service_3_bullet_3": "AI decision logic in the loop",
@@ -385,18 +385,18 @@
     "use_item_legal": "Gesetzliche Verpflichtungen zu erfüllen",
     "third_parties_title": "Drittanbieterdienste",
     "third_parties_intro": "Wir verwenden die folgenden Drittanbieterdienste, um unser Geschäft zu betreiben:",
-    "third_party_resend": "Resend — für den Versand von E-Mail-Kommunikationen",
+    "third_party_resend": "Resend: für den Versand von E-Mail-Kommunikationen",
     "third_parties_note": "Diese Dienste erhalten nur die für ihre Funktionalität erforderlichen Mindestdaten.",
     "retention_title": "Datenspeicherung",
     "retention_content": "Wir bewahren Ihre personenbezogenen Daten so lange auf, wie es erforderlich ist, um unsere Dienste bereitzustellen und unsere Geschäftsbeziehung aufrechtzuerhalten. Sie können jederzeit über unsere Seite Datenrechte die Löschung Ihrer Daten beantragen.",
     "your_rights_title": "Ihre Rechte (DSGVO)",
     "your_rights_intro": "Gemäß der Datenschutz-Grundverordnung haben Sie das Recht auf:",
-    "right_access": "Zugang — Beantragen Sie eine Kopie aller personenbezogenen Daten, die wir über Sie haben",
-    "right_correct": "Berichtigung — Beantragen Sie die Korrektur ungenauer Daten",
-    "right_delete": "Löschung — Beantragen Sie die dauerhafte Löschung Ihrer Daten",
-    "right_object": "Widerspruch — Widersprechen Sie der Verarbeitung Ihrer Daten",
-    "right_export": "Portabilität — Exportieren Sie Ihre Daten in einem maschinenlesbaren Format",
-    "right_withdraw": "Einwilligung Widerrufen — Widerrufen Sie Ihre Einwilligung jederzeit",
+    "right_access": "Zugang: Beantragen Sie eine Kopie aller personenbezogenen Daten, die wir über Sie haben",
+    "right_correct": "Berichtigung: Beantragen Sie die Korrektur ungenauer Daten",
+    "right_delete": "Löschung: Beantragen Sie die dauerhafte Löschung Ihrer Daten",
+    "right_object": "Widerspruch: Widersprechen Sie der Verarbeitung Ihrer Daten",
+    "right_export": "Portabilität: Exportieren Sie Ihre Daten in einem maschinenlesbaren Format",
+    "right_withdraw": "Einwilligung Widerrufen: Widerrufen Sie Ihre Einwilligung jederzeit",
     "your_rights_cta": "Üben Sie Ihre Rechte auf unserer",
     "your_rights_link": "Seite Datenrechte aus",
     "contact_title": "Kontaktieren Sie Uns",
@@ -416,12 +416,12 @@
     "transfers_note": "Wir übermitteln Daten nur in Länder oder an Organisationen, die ein angemessenes Schutzniveau bieten oder bei denen geeignete Garantien (wie SCCs oder verbindliche interne Datenschutzvorschriften) bestehen.",
     "authority_title": "Aufsichtsbehörde",
     "authority_content": "Wenn Sie der Ansicht sind, dass unsere Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt, haben Sie das Recht, sich bei einer Aufsichtsbehörde in dem EU-Mitgliedstaat Ihres gewöhnlichen Aufenthalts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu beschweren. Sie können sich auch zuerst an uns wenden, damit wir das Anliegen direkt klären können.",
-    "third_party_vercel": "Vercel — Hosting unserer Website und Anwendungen (USA; Datenschutzrahmen und Standardvertragsklauseln finden Anwendung)",
-    "third_party_slack": "Slack — interne Benachrichtigungen über neue Anfragen an unser Team (beschränkt auf Name, E-Mail, Telefon und Branche)",
-    "third_party_turnstile": "Cloudflare Turnstile — Spam-Schutz für unsere Formulare (verarbeitet Ihre IP-Adresse)",
-    "third_party_cal": "Cal.com — Terminbuchung, wenn Sie einen Call mit uns vereinbaren",
-    "third_party_meta": "Meta (Facebook/Instagram) — Werbemessung, nur mit Ihrer Einwilligung in Marketing-Cookies. Mit dieser Einwilligung übermitteln wir ggf. auch Ihre E-Mail-Adresse und Telefonnummer in gehashter (pseudonymisierter) Form zur Messung von Anzeigen-Conversions.",
-    "third_party_google": "Google — Werbemessung (Google Ads), nur mit Ihrer Einwilligung in Marketing-Cookies"
+    "third_party_vercel": "Vercel: Hosting unserer Website und Anwendungen (USA; Datenschutzrahmen und Standardvertragsklauseln finden Anwendung)",
+    "third_party_slack": "Slack: interne Benachrichtigungen über neue Anfragen an unser Team (beschränkt auf Name, E-Mail, Telefon und Branche)",
+    "third_party_turnstile": "Cloudflare Turnstile: Spam-Schutz für unsere Formulare (verarbeitet Ihre IP-Adresse)",
+    "third_party_cal": "Cal.com, Terminbuchung, wenn Sie einen Call mit uns vereinbaren",
+    "third_party_meta": "Meta (Facebook/Instagram): Werbemessung, nur mit Ihrer Einwilligung in Marketing-Cookies. Mit dieser Einwilligung übermitteln wir ggf. auch Ihre E-Mail-Adresse und Telefonnummer in gehashter (pseudonymisierter) Form zur Messung von Anzeigen-Conversions.",
+    "third_party_google": "Google: Werbemessung (Google Ads), nur mit Ihrer Einwilligung in Marketing-Cookies"
   },
   "terms": {
     "title": "Nutzungsbedingungen",
@@ -492,7 +492,7 @@
     "hook_line2": "Genau da komme ich ins Spiel. Ich bringe deinen Online-Auftritt in Form und stelle dich den richtigen Kunden vor.",
     "pitch_label": "Der Pitch",
     "pitch_title": "Ich bin Chase. Ich leite Blok Blok Studio.",
-    "pitch_body": "Eine Berliner Kreativagentur. Ich baue Websites, schalte Ads, kümmere mich um Social Media und richte KI-Systeme ein – für Unternehmen, die gute Arbeit machen und es leid sind, ein Geheimtipp zu bleiben.",
+    "pitch_body": "Eine Berliner Kreativagentur. Ich baue Websites, schalte Ads, kümmere mich um Social Media und richte KI-Systeme ein, für Unternehmen, die gute Arbeit machen und es leid sind, ein Geheimtipp zu bleiben.",
     "services_title": "Was ich wirklich mache",
     "services_subtitle": "Vier Dinge, sauber gemacht, die zusammen funktionieren.",
     "catalog_eyebrow": "Alles auf der Karte",
@@ -539,7 +539,7 @@
     "process_1_title": "Kaffee",
     "process_1_desc": "Wir treffen uns für 30 Minuten. Ich lerne dein Business kennen, deine Ziele und was dich online aktuell nervt. Der erste geht auf mich.",
     "process_2_title": "Plan",
-    "process_2_desc": "Ich schicke dir eine klare Strategie und ein Angebot zurück. Du siehst genau, was du bekommst, was es kostet und wann es fertig ist – bevor wir loslegen.",
+    "process_2_desc": "Ich schicke dir eine klare Strategie und ein Angebot zurück. Du siehst genau, was du bekommst, was es kostet und wann es fertig ist, bevor wir loslegen.",
     "process_3_title": "Bauen",
     "process_3_desc": "Design, Entwicklung, Ads, Social, KI. Was auch immer du brauchst. Du bleibst die ganze Zeit eingebunden, und wir feilen, bis es passt.",
     "process_4_title": "Launch",
@@ -583,11 +583,11 @@
     "conformance_intro": "Die Web Content Accessibility Guidelines (WCAG) definieren Anforderungen für Designer und Entwickler, um die Barrierefreiheit für Menschen mit Behinderungen zu verbessern. Sie definieren drei Konformitätsstufen: Stufe A, Stufe AA und Stufe AAA.",
     "conformance_status": "<strong>blokblokstudio.com ist teilweise konform mit WCAG 2.2, Stufe AA.</strong> „Teilweise konform“ bedeutet, dass einige Teile der Inhalte nicht vollständig dem Standard für Barrierefreiheit entsprechen. Einzelheiten finden Sie im Abschnitt zu den bekannten Einschränkungen weiter unten.",
     "standards_title": "Standards und Gesetze, die wir befolgen",
-    "standard_wcag": "<strong>WCAG 2.2 Stufe AA</strong> — der internationale Referenzstandard für Barrierefreiheit im Web, gepflegt vom W3C.",
-    "standard_en301549": "<strong>EN 301 549</strong> — die harmonisierte europäische Norm für die Barrierefreiheit von IKT, die dem European Accessibility Act zugrunde liegt.",
-    "standard_eaa": "<strong>EU European Accessibility Act (Richtlinie 2019/882)</strong> — anwendbar auf verbraucherorientierte digitale Dienstleistungen in der EU seit dem 28. Juni 2025.",
-    "standard_ada": "<strong>US Americans with Disabilities Act (ADA), Title III</strong> — Pflichten zur Barrierefreiheit für öffentlich zugängliche kommerzielle Websites in den Vereinigten Staaten.",
-    "standard_508": "<strong>Section 508 des US Rehabilitation Act</strong> — Anforderungen für US-Bundesbehörden und deren Auftragnehmer, die wir als Grundlage für behördennahe Projekte behandeln.",
+    "standard_wcag": "<strong>WCAG 2.2 Stufe AA</strong>, der internationale Referenzstandard für Barrierefreiheit im Web, gepflegt vom W3C.",
+    "standard_en301549": "<strong>EN 301 549</strong>, die harmonisierte europäische Norm für die Barrierefreiheit von IKT, die dem European Accessibility Act zugrunde liegt.",
+    "standard_eaa": "<strong>EU European Accessibility Act (Richtlinie 2019/882)</strong>, anwendbar auf verbraucherorientierte digitale Dienstleistungen in der EU seit dem 28. Juni 2025.",
+    "standard_ada": "<strong>US Americans with Disabilities Act (ADA), Title III</strong>, Pflichten zur Barrierefreiheit für öffentlich zugängliche kommerzielle Websites in den Vereinigten Staaten.",
+    "standard_508": "<strong>Section 508 des US Rehabilitation Act</strong>, Anforderungen für US-Bundesbehörden und deren Auftragnehmer, die wir als Grundlage für behördennahe Projekte behandeln.",
     "measures_title": "Maßnahmen, die wir ergreifen",
     "measures_intro": "Barrierefreiheit ist Teil unserer Design- und Entwicklungspraxis und kein einmaliges Audit. Konkret auf dieser Website:",
     "measure_landmarks": "Semantische HTML-Landmarken (<code>main</code>, <code>nav</code>, <code>header</code>, <code>footer</code>) auf jeder Seite.",
@@ -602,18 +602,18 @@
     "measure_languages": "Die Website ist in 19 Sprachen verfügbar, damit Menschen, die kein Englisch sprechen, sie in der Sprache nutzen können, in der sie denken.",
     "limitations_title": "Bekannte Einschränkungen",
     "limitations_intro": "Trotz unserer Bemühungen sind einige Inhalte dieser Website möglicherweise noch nicht vollständig barrierefrei. Bekannte Probleme, an deren Behebung wir arbeiten:",
-    "limitation_third_party": "<strong>Eingebettete Inhalte von Drittanbietern</strong> — das Cloudflare-Turnstile-CAPTCHA und das Cal.com-Buchungs-iframe übernehmen ihr Barrierefreiheitsverhalten vom jeweiligen Anbieter. Wir verfolgen den Konformitätsstatus gemeinsam mit jedem Anbieter.",
-    "limitation_motion": "<strong>Dekorative Animationen</strong> — Hintergrundanimationen werden deaktiviert, wenn <code>prefers-reduced-motion</code> gesetzt ist; eine kleine Zahl von Cursor-Mikrointeraktionen kann jedoch weiterhin abgespielt werden.",
-    "limitation_language": "<strong>Sprache dieser Erklärung</strong> — die maßgebliche Fassung dieser Erklärung wird derzeit auf Englisch gepflegt. Die Website selbst ist in 19 Sprachen lokalisiert.",
+    "limitation_third_party": "<strong>Eingebettete Inhalte von Drittanbietern</strong>, das Cloudflare-Turnstile-CAPTCHA und das Cal.com-Buchungs-iframe übernehmen ihr Barrierefreiheitsverhalten vom jeweiligen Anbieter. Wir verfolgen den Konformitätsstatus gemeinsam mit jedem Anbieter.",
+    "limitation_motion": "<strong>Dekorative Animationen</strong>, Hintergrundanimationen werden deaktiviert, wenn <code>prefers-reduced-motion</code> gesetzt ist; eine kleine Zahl von Cursor-Mikrointeraktionen kann jedoch weiterhin abgespielt werden.",
+    "limitation_language": "<strong>Sprache dieser Erklärung</strong>, die maßgebliche Fassung dieser Erklärung wird derzeit auf Englisch gepflegt. Die Website selbst ist in 19 Sprachen lokalisiert.",
     "feedback_title": "Feedback und Kontakt",
     "feedback_intro": "Wenn Sie auf blokblokstudio.com auf eine Barriere stoßen oder Informationen dieser Website in einem alternativen Format benötigen, kontaktieren Sie uns bitte. Wir bemühen uns, auf Feedback zur Barrierefreiheit innerhalb von <strong>fünf Werktagen</strong> zu antworten.",
     "feedback_email": "<strong>E-Mail:</strong> <link>hello@blokblokstudio.com</link>",
-    "feedback_form": "<strong>Webformular:</strong> <link>Kontaktseite</link> — bitte erwähnen Sie „Barrierefreiheit“ in Ihrer Nachricht.",
+    "feedback_form": "<strong>Webformular:</strong> <link>Kontaktseite</link>, bitte erwähnen Sie „Barrierefreiheit“ in Ihrer Nachricht.",
     "enforcement_title": "Durchsetzungsverfahren",
     "enforcement_intro": "Blok Blok Studio ist in Deutschland registriert. Wenn Sie mit unserer Antwort auf Ihr Feedback zur Barrierefreiheit nicht zufrieden sind, können Sie sich an die für Sie zuständige Durchsetzungsstelle wenden:",
-    "enforcement_eu": "<strong>Europäische Union</strong> — die Marktüberwachungsbehörde des EU-Mitgliedstaats, in dem Sie sich befinden. Der European Accessibility Act benennt in jedem Mitgliedstaat eine nationale Behörde.",
-    "enforcement_germany": "<strong>Deutschland</strong> — die Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
-    "enforcement_us": "<strong>Vereinigte Staaten</strong> — die Civil Rights Division des US-Justizministeriums für ADA-Beschwerden; das US Access Board für Section 508.",
+    "enforcement_eu": "<strong>Europäische Union</strong>, die Marktüberwachungsbehörde des EU-Mitgliedstaats, in dem Sie sich befinden. Der European Accessibility Act benennt in jedem Mitgliedstaat eine nationale Behörde.",
+    "enforcement_germany": "<strong>Deutschland</strong>, die Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
+    "enforcement_us": "<strong>Vereinigte Staaten</strong>, die Civil Rights Division des US-Justizministeriums für ADA-Beschwerden; das US Access Board für Section 508.",
     "preparation_title": "Wie diese Erklärung erstellt wurde",
     "preparation_content": "Diese Erklärung wurde am {date} auf Grundlage einer Selbstbewertung der Website anhand von WCAG 2.2 AA erstellt. Die Bewertung kombinierte eine automatisierte Prüfung der Live-Website mit einer manuellen Prüfung des Quellcodes (semantische Struktur, Tastaturnavigation, Fokusmanagement, ARIA-Verwendung, Farbkontrast, Umgang mit Animationen und Schreibrichtung der Sprachen). Nach jedem wesentlichen Release prüfen wir die Website erneut."
   },
@@ -626,7 +626,7 @@
     "stat_min": "min",
     "hero_badge": "Digitalagentur für ambitionierte Marken",
     "hero_title": "Wir bauen Systeme, die <gradient>Ihr Business skalieren</gradient>",
-    "hero_subtitle": "Schluss mit manueller Arbeit. Wir entwickeln KI-Agenten, automatisieren Workflows, betreuen Ihre Anzeigen und bauen die Systeme, die Ihr Unternehmen zum Wachsen braucht – damit Sie sich auf das Wesentliche konzentrieren können.",
+    "hero_subtitle": "Schluss mit manueller Arbeit. Wir entwickeln KI-Agenten, automatisieren Workflows, betreuen Ihre Anzeigen und bauen die Systeme, die Ihr Unternehmen zum Wachsen braucht, damit Sie sich auf das Wesentliche konzentrieren können.",
     "cta_book_call": "Kostenloses Strategiegespräch buchen",
     "cta_see_work": "Unsere Arbeit ansehen",
     "hero_note": "Kostenloses 30-minütiges Strategiegespräch. Völlig unverbindlich.",
@@ -647,7 +647,7 @@
     "portfolio_badge": "Unser Portfolio",
     "portfolio_title": "Marken, die <gradient>herausstechen wollen</gradient>, vertrauen uns",
     "portfolio_subtitle": "Von Start-ups bis zu etablierten Marken: Wir schaffen digitale Erlebnisse, die branchenübergreifend echte Ergebnisse liefern",
-    "cta_join_brands": "Werden Sie Teil dieser Marken – buchen Sie Ihr kostenloses Gespräch",
+    "cta_join_brands": "Werden Sie Teil dieser Marken, buchen Sie Ihr kostenloses Gespräch",
     "category_fitness": "Fitness",
     "category_coaching": "Coaching",
     "category_childcare": "Kinderbetreuung",
@@ -667,7 +667,7 @@
     "before_6": "Kunden fragen ständig nach Updates",
     "after_1": "KI-Agenten betreuen Leads rund um die Uhr",
     "after_2": "Vollautomatisierte Workflows",
-    "after_3": "Alle Tools nahtlos verbunden",
+    "after_3": "Alle Ihre Tools arbeiten zusammen",
     "after_4": "Anzeigen mit echtem ROAS-Tracking",
     "after_5": "Ein Input → 10 Content-Stücke",
     "after_6": "Kunden-Dashboards mit Live-Daten",
@@ -704,7 +704,7 @@
     "step_5_title": "Launch & Support",
     "step_5_desc": "Wir launchen Ihr Projekt und bieten laufenden Support für langfristigen Erfolg. Ihr Wachstum ist unsere Mission.",
     "step_5_duration": "Fortlaufend",
-    "cta_start_step1": "Starten Sie mit Schritt 1 – buchen Sie Ihr kostenloses Gespräch",
+    "cta_start_step1": "Starten Sie mit Schritt 1, buchen Sie Ihr kostenloses Gespräch",
     "modules_badge": "Was wir anbieten",
     "modules_title": "End-to-End-Business-Systeme",
     "modules_subtitle": "Alles unter einem Dach: KI-Agenten, Automatisierung, Websites, Anzeigen und Kundensysteme.",
@@ -749,7 +749,7 @@
     "included_8": "Einrichtung & Verwaltung von Werbekampagnen",
     "included_9": "Markenidentitäts-Paket",
     "included_10": "KI-Pipeline zur Content-Wiederverwertung",
-    "cta_get_all": "Sichern Sie sich all das – buchen Sie Ihr kostenloses Gespräch",
+    "cta_get_all": "Sichern Sie sich all das, buchen Sie Ihr kostenloses Gespräch",
     "call_badge": "Kostenloses 30-Min.-Strategiegespräch",
     "call_title": "Buchen Sie Ihr kostenloses <gradient>Strategiegespräch</gradient>",
     "call_subtitle": "Beantworten Sie ein paar kurze Fragen, um zu sehen, ob wir zusammenpassen. Wenn Sie sich qualifizieren, erhalten Sie einen Link, um ein kostenloses 30-minütiges Strategiegespräch zu buchen.",
@@ -835,9 +835,9 @@
     "authority_need_check": "Ich muss das zuerst mit meinem Team klären",
     "form_need_title": "Haben Sie einen echten Bedarf dafür?",
     "form_need_subtitle": "Wir möchten sicherstellen, dass wir Ihnen wirklich helfen können.",
-    "need_yes_now": "Ja – ich habe aktuell einen klaren Bedarf",
-    "need_yes_exploring": "Ich denke schon – ich prüfe gerade meine Optionen",
-    "need_no": "Eigentlich nicht – ich schaue mich nur um",
+    "need_yes_now": "Ja, ich habe aktuell einen klaren Bedarf",
+    "need_yes_exploring": "Ich denke schon, ich prüfe gerade meine Optionen",
+    "need_no": "Eigentlich nicht, ich schaue mich nur um",
     "form_timing_title": "Sprechen wir über das Timing",
     "form_timing_subtitle": "Zwei kurze Fragen, um sicherzugehen, dass der Zeitpunkt stimmt.",
     "form_timing_q1": "Haben Sie in den nächsten 30-90 Tagen Zeit, neue Systeme einzuführen?",
@@ -860,7 +860,7 @@
     "qualified_button": "30-Min.-Strategiegespräch buchen",
     "qualified_note": "Bereitgestellt über Cal.com. Wählen Sie einen Termin, der Ihnen passt.",
     "dq_no_budget_heading": "Kein Problem. Timing ist alles.",
-    "dq_no_budget_message": "Es klingt, als wären Sie im Moment noch nicht bereit zu investieren – und das ist völlig in Ordnung. Wenn der richtige Zeitpunkt gekommen ist, sind wir für Sie da.",
+    "dq_no_budget_message": "Es klingt, als wären Sie im Moment noch nicht bereit zu investieren, und das ist völlig in Ordnung. Wenn der richtige Zeitpunkt gekommen ist, sind wir für Sie da.",
     "dq_no_need_heading": "Danke, dass Sie bei uns vorbeigeschaut haben.",
     "dq_no_need_message": "Es klingt nicht so, als gäbe es im Moment einen dringenden Bedarf. Wenn sich etwas ergibt, helfen wir Ihnen gerne.",
     "dq_bad_timing_heading": "Der Zeitpunkt passt gerade nicht ganz.",
