@@ -190,3 +190,54 @@ export async function sendMarketingConfirmEmail(to: string, name: string, token:
     console.error('[Email] Confirm email error:', err);
   }
 }
+
+/**
+ * Instant acknowledgment to every new funnel/ad lead. Speed to lead is the
+ * single biggest conversion lever: this lands in their inbox seconds after
+ * the form, sounds like a person, and hands them the booking link so hot
+ * leads can self-schedule before we even call.
+ */
+export async function sendLeadAckEmail(to: string, name: string) {
+  const from = process.env.EMAIL_FROM || 'onboarding@resend.dev';
+  const replyTo = process.env.NOTIFICATION_EMAIL || from;
+  const bookingLink = 'https://calendar.app.google/frvo4DLJAJYG2HLWA';
+  const whatsapp = 'https://wa.me/491627055848';
+  const firstName = (name || '').trim().split(' ')[0] || 'there';
+
+  const html = `
+    <div style="font-family: -apple-system, sans-serif; max-width: 560px; margin: 0 auto; padding: 32px 24px; color: #222;">
+      <p style="line-height: 1.7;">Hey ${firstName},</p>
+      <p style="line-height: 1.7;">
+        Your request just landed. I'm going to put eyes on your website, your ads, and how
+        you follow up with leads, and pull together the three fastest ways to get you more customers.
+      </p>
+      <p style="line-height: 1.7;">
+        The quickest way to get your plan is a 15 minute call. Grab whatever time works:
+      </p>
+      <p style="margin: 24px 0;">
+        <a href="${bookingLink}"
+           style="background: #111; color: #fff; text-decoration: none; padding: 14px 32px; border-radius: 999px; font-weight: 600; display: inline-block;">
+          Pick a time (15 min, free)
+        </a>
+      </p>
+      <p style="line-height: 1.7;">
+        Prefer chat? <a href="${whatsapp}" style="color: #111;">Message me on WhatsApp</a> or just reply to this email.
+        Either way, you get the plan and it's yours to keep, whether we end up working together or not.
+      </p>
+      <p style="line-height: 1.7;">Talk soon,<br/>Chase<br/><span style="color: #888;">Blok Blok Studio, Berlin</span></p>
+    </div>`;
+
+  try {
+    const { error } = await getResend().emails.send({
+      from: `Chase at Blok Blok Studio <${from}>`,
+      to,
+      replyTo,
+      subject: `${firstName}, got your request. Here's the fast lane`,
+      html,
+      text: htmlToText(html),
+    });
+    if (error) console.error('[Email] Lead ack failed:', error);
+  } catch (err) {
+    console.error('[Email] Lead ack error:', err);
+  }
+}

@@ -32,6 +32,21 @@ const TESTIMONIALS = [
   },
 ];
 
+const OBJECTIONS = [
+  {
+    q: 'What does it cost?',
+    a: 'The call and the plan are free. The plan itself comes with real prices for each fix, so you know exactly what anything would cost before you commit to it.',
+  },
+  {
+    q: 'Is this for my kind of business?',
+    a: 'Trainers, restaurants, law firms, shops, coaches, agencies. If your customers find you online, this works. If we honestly cannot help, we say so on the call.',
+  },
+  {
+    q: 'What happens after I submit?',
+    a: 'You get an email within the hour with a booking link. On the 15 minute call we walk your business together. Then you get the plan. No pitch deck, no pressure.',
+  },
+];
+
 const STEPS = [
   { n: '1', title: 'Tell us what you need', desc: 'Fill out the form. Takes 30 seconds.' },
   { n: '2', title: 'Free 15-minute intro call', desc: 'We look at your business and map the fastest wins. No pitch, no pressure.' },
@@ -119,6 +134,20 @@ export function GoContent() {
                       <span className="text-white font-medium">{t.name}</span> &middot; {t.role}
                     </figcaption>
                   </figure>
+                ))}
+              </div>
+            </AnimatedSection>
+
+            <AnimatedSection delay={0.25}>
+              <div className="mt-10 space-y-3">
+                {OBJECTIONS.map((o) => (
+                  <details key={o.q} className="group rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+                    <summary className="cursor-pointer text-sm font-medium text-white list-none flex items-center justify-between">
+                      {o.q}
+                      <span className="text-gray-500 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="mt-2 text-sm text-gray-500 leading-relaxed">{o.a}</p>
+                  </details>
                 ))}
               </div>
             </AnimatedSection>

@@ -5,6 +5,7 @@ import { runSpamChecks } from '@/lib/spam-guard';
 import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, CONTACT_LIST } from '@/lib/auto-list';
 import { pushLeadToTracker } from '@/lib/tracker';
+import { sendLeadAckEmail } from '@/lib/email';
 
 // SOC 2 compliant rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -97,6 +98,9 @@ export async function POST(req: NextRequest) {
 
     // Auto-assign to Contact Inquiries list
     await assignToList(leadId, CONTACT_LIST.name, CONTACT_LIST.color);
+
+    // Speed to lead: instant acknowledgment with the booking link (non-blocking)
+    sendLeadAckEmail(email, name).catch(() => {});
 
     // Push to the client job tracker as a PROSPECT (fire-and-forget)
     await pushLeadToTracker({

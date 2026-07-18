@@ -165,8 +165,20 @@ export function LeadForm({ fieldTag = 'Ad Lead' }: { fieldTag?: string }) {
 
   return (
     <div className="rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur p-6 sm:p-8 shadow-2xl shadow-black/40 text-left">
-      <h2 className="text-xl sm:text-2xl font-bold mb-1.5">Get your free growth plan</h2>
-      <p className="text-gray-500 text-sm mb-6">30 seconds. No commitment. We reply the same day.</p>
+      <h2 className="text-xl sm:text-2xl font-bold mb-1.5">Get your free Growth Plan</h2>
+      <p className="text-gray-500 text-sm mb-4">30 seconds to request. We reply within the hour during business hours.</p>
+      <ul className="mb-6 space-y-1.5">
+        {[
+          'A teardown of your website, ads, and follow-up',
+          'Your 3 fastest wins, priced, with expected returns',
+          'Yours to keep, whether we work together or not',
+        ].map((item) => (
+          <li key={item} className="flex items-start gap-2 text-xs text-gray-400">
+            <span className="text-orange-400 mt-0.5">&#10003;</span>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Honeypot */}
