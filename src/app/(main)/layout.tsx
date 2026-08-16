@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { AmbientBackdrop } from '@/components/AmbientBackdrop';
+import { ChatButtons } from '@/components/ChatButtons';
 
 export default async function MainLayout({
   children,
@@ -25,6 +26,7 @@ export default async function MainLayout({
         {children}
       </main>
       <Footer />
+      <ChatButtons />
     </>
   );
 }
