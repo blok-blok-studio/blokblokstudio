@@ -34,11 +34,23 @@ export function ChatButtons() {
 
   return (
     <div className="fixed bottom-5 right-5 z-40 flex flex-col items-end gap-3">
-      {/* WeChat ID card */}
+      {/* WeChat card: QR to scan, ID as fallback */}
       {WECHAT_ID && wechatOpen && (
-        <div className="rounded-2xl border border-white/10 bg-gray-950 shadow-2xl p-4 w-60">
-          <p className="text-xs uppercase tracking-wide text-gray-400 mb-1">WeChat</p>
-          <p className="text-sm text-white font-medium mb-3 break-all">{WECHAT_ID}</p>
+        <div className="rounded-2xl border border-white/10 bg-gray-950 shadow-2xl p-4 w-64">
+          <p className="text-xs uppercase tracking-wide text-gray-400 mb-2">WeChat</p>
+          {/* QR stays on a white tile so scanners read it on the dark card */}
+          <div className="rounded-xl bg-white p-2 mb-3">
+            {/* eslint-disable-next-line @next/next/no-img-element -- static QR, no optimization needed */}
+            <img
+              src="/images/wechat-qr.png"
+              alt="WeChat QR code for Chase Haynes, scan in WeChat to add"
+              width={600}
+              height={800}
+              className="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <p className="text-xs text-gray-400 mb-3 text-center">Scan in WeChat to add us</p>
           <button
             onClick={copyWechat}
             className="w-full px-3 py-2 rounded-full bg-white text-black text-xs font-medium hover:bg-gray-100 transition-colors"
