@@ -30,11 +30,17 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 import './globals.css';
 import { OrganizationSchema, WebsiteSchema, LocalBusinessSchema, ServiceSchema } from './structured-data';
-import { Inter } from 'next/font/google';
+import { Fraunces, Archivo } from 'next/font/google';
 import { CookieConsent } from '@/components/CookieConsent';
 import { AdsPixels } from '@/components/AdsPixels';
 
-const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-fraunces',
+  axes: ['opsz'],
+});
+const archivo = Archivo({ subsets: ['latin'], display: 'swap', variable: '--font-archivo' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://blokblokstudio.com'),
@@ -139,13 +145,13 @@ export default async function RootLayout({
   const dir = RTL_LOCALES.has(locale) ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale} dir={dir} className="dark">
+    <html lang={locale} dir={dir}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="llms" href="/llms.txt" type="text/plain" title="LLM Content" />
       </head>
-      <body className={`${inter.variable} bg-black text-white antialiased font-sans noise-overlay`}>
+      <body className={`${fraunces.variable} ${archivo.variable} bg-paper text-ink antialiased font-sans`}>
         <OrganizationSchema />
         <WebsiteSchema />
         <LocalBusinessSchema />

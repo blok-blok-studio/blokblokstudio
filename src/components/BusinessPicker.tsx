@@ -63,7 +63,7 @@ export function BusinessPicker({ value, onChange, inputBase, id = 'call-business
         autoComplete="off"
       />
       {open && filtered.length > 0 && (
-        <div className="absolute z-30 left-0 right-0 mt-1.5 max-h-52 overflow-y-auto rounded-xl bg-[#1a1a1a] border border-white/10 shadow-xl shadow-black/40">
+        <div className="absolute z-30 left-0 right-0 mt-1.5 max-h-52 overflow-y-auto rounded-xl bg-gray-900 border border-white/15 shadow-xl">
           {filtered.map((type) => (
             <button
               key={type}

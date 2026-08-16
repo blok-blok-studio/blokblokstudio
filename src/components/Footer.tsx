@@ -176,9 +176,9 @@ export function Footer() {
           <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <Link href="/" className="inline-block mb-4">
               <Image
-                src="/logo.svg"
+                src="/logo-black.svg"
                 alt="Blok Blok Studio"
-                width={120}
+                width={40}
                 height={40}
                 className="h-8 w-auto"
               />
@@ -297,7 +297,7 @@ export function Footer() {
               <p
                 role="status"
                 aria-live="polite"
-                className={`text-sm flex items-center gap-1.5 ${footerAlreadySubscribed ? 'text-yellow-400' : 'text-green-400'}`}
+                className={`text-sm flex items-center gap-1.5 ${footerAlreadySubscribed ? 'text-amber-700' : 'text-green-700'}`}
               >
                 <svg aria-hidden="true" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={footerAlreadySubscribed ? 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' : 'M5 13l4 4L19 7'} />
@@ -323,17 +323,17 @@ export function Footer() {
                       required
                       autoComplete="email"
                       placeholder={t('newsletter_placeholder')}
-                      className="flex-1 min-w-0 px-4 py-2.5 rounded-full bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors"
+                      className="flex-1 min-w-0 px-4 py-2.5 bg-white/5 border border-white/10 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:border-white/30 transition-colors"
                     />
                     <button
                       type="submit"
                       disabled={!footerTurnstileToken}
-                      className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-gray-200 transition-colors whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
+                      className="px-5 py-2.5 bg-white text-black text-sm font-medium hover:bg-gray-200 transition-colors whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       {t('newsletter_button')}
                     </button>
                   </div>
-                  <Turnstile onToken={onFooterTurnstileToken} theme="dark" size="compact" />
+                  <Turnstile onToken={onFooterTurnstileToken} theme="light" size="compact" />
                 </form>
                 <p className="text-xs text-gray-400 mt-2">
                   {t.rich('newsletter_consent', {
