@@ -1573,16 +1573,16 @@ export function FunnelContent() {
                   className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/55 to-transparent" />
 
                 {/* Stats overlay at bottom */}
                 <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
-                  <p className="text-xs text-gray-400 mb-1">{project.label}</p>
+                  <p className="text-xs text-gray-300 mb-1">{project.label}</p>
                   <div className="flex items-baseline gap-2">
                     <span className="text-2xl sm:text-3xl font-bold text-white">{project.stat}</span>
-                    <span className="text-sm text-gray-400">{t(`showcase_${i + 1}_metric`)}</span>
+                    <span className="text-sm text-gray-300">{t(`showcase_${i + 1}_metric`)}</span>
                   </div>
-                  <p className="text-xs text-gray-500 mt-1">{project.url}</p>
+                  <p className="text-xs text-gray-400 mt-1">{project.url}</p>
                 </div>
               </motion.div>
             ))}
