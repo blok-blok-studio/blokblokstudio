@@ -16,7 +16,7 @@ const WHATSAPP_LINK =
   'https://wa.me/491627055848?text=Hey%20Chase%2C%20I%20found%20you%20through%20blokblokstudio.com.';
 
 // Set to the studio's WeChat ID to enable the WeChat button.
-const WECHAT_ID = '';
+const WECHAT_ID = 'wxid_9bo8w9aatuud12';
 
 export function ChatButtons() {
   const [wechatOpen, setWechatOpen] = useState(false);
