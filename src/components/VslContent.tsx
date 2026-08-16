@@ -75,7 +75,7 @@ export function VslContent() {
             desktop so the cards read large. Links open in a new tab so
             this page (and its form) stays open. */}
         <AnimatedSection delay={0.2}>
-          <div className="mt-4 sm:mt-6 lg:-mx-32 text-left">
+          <div className="mt-4 sm:mt-6 relative left-1/2 -translate-x-1/2 w-screen max-w-7xl px-5 sm:px-8 text-left">
             <p className="text-xs font-semibold tracking-wider text-gray-500 uppercase text-center mb-6">
               The work, and the numbers
             </p>
@@ -101,7 +101,7 @@ export function VslContent() {
                 },
                 {
                   name: 'Exotic Ripz', where: 'E-commerce, US',
-                  proof: '$191k in trading card sales, 1,790 orders on the Shopify store we built.',
+                  proof: '$191k in trading card sales, 1,790 orders on the Shopify store we built. The owners have since taken the store down.',
                   href: '/projects/exotic-ripz', label: 'View case study',
                   image: '/images/projects/exoticripz-card.webp',
                 },

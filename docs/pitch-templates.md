@@ -56,11 +56,18 @@ Every template already has the right tracked link baked in. All links open the s
 >
 > Quick intro: we're Blok Blok Studio, a team of 4 (Berlin, LA, Virginia) running since 2024. We don't just build websites. We build the ecosystem around them: marketing, SEO, social, and automations like AI receptionists and auto-texting. One client, a DFW plumber, did $50k+ gross in his first 5 months on our system.
 >
-> Here's a 3-minute breakdown of how we think about it: https://www.blokblokstudio.com/vsl?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
+> Behind the scenes, every build also comes with the stuff you'd otherwise have to chase down yourself: contact forms wired to a database so you're collecting emails for newsletters from day one, SEO plus the newly emerging agentic SEO so you show up in searches and AI answers, and a site that actually sounds like your brand. The point is to free up your time so you can focus on your business.
+>
+> Here's a 3-minute breakdown of how we think about it, with the client results on the same page: https://www.blokblokstudio.com/vsl?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
 >
 > The fastest way forward is a quick call so I can learn your business and send pricing that actually fits: https://calendar.app.google/Vk72posRYTuj6KHs8
 >
-> If it's easier, just reply with: what services you offer, where you're located, your biggest struggle right now, and your growth goal. I'll shoot pricing over from there.
+> If it's easier, just reply to these four and I'll shoot pricing over from there:
+>
+> 1. What services does your business provide?
+> 2. Where are you located?
+> 3. What struggles are you facing right now?
+> 4. What's your growth goal for the business?
 >
 > Excited to hear more about your business!
 >
@@ -110,7 +117,7 @@ Cold email rules: plain text only, no images, no signature banner, this one link
 >
 > 4. Mind and Body Retreats, a US wellness company. This one is still in progress: https://mindandbodyretreats.vercel.app/
 >
-> 5. Exotic Ripz, a Shopify build where I also handled the shipping setup on the backend. Together we generated over $190k in Pokemon card sales (screenshot attached). The site is offline now since we handed it back to them to maintain.
+> 5. Exotic Ripz, a Shopify build where I also handled the shipping setup on the backend. Together we generated over $191k in Pokemon card sales (screenshot attached). We handed the store back to the owners to maintain and they've since taken the site down, so the case study is the best place to see it: https://www.blokblokstudio.com/projects/exotic-ripz?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
 
 Attach `docs/assets/exotic-ripz-proof.png` for point 5 (cropped Shopify dashboard: $191,042 total sales, 1.79K orders, Apr-Oct 2025). It's the only attachment this template needs; the video testimonials are linked, not attached.
 >

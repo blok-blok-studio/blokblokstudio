@@ -133,16 +133,13 @@ export const projectsData: Record<string, ProjectData> = {
     desc: 'Vibrant e-commerce platform for a collectible trading card community brand.',
     challenge: 'Exotic Ripz needed an e-commerce store that captured the excitement and energy of the collectible trading card community. They needed a platform that could handle booster packs, new releases, restocks, and community engagement across Discord, Twitch, and social media.',
     solution: 'We built a full-featured Shopify storefront with bold animated branding, integrated Discord community links, multi-platform social presence (Discord, YouTube, Twitch, TikTok, Instagram, X, Threads), smart product categorization, and conversion-optimized popups for email capture.',
-    results: 'Launched a thriving online store with active community engagement. Email list grew 400% in the first month through smart discount capture. Booster pack drops consistently sell out within hours of release.',
+    results: 'Over $191,000 in trading card sales across 1,790 orders on the store we built and shipped, with the shipping backend configured end to end. Email list grew 400% in the first month through smart discount capture, and booster pack drops consistently sold out within hours of release. The store was handed back to the owners to maintain, and they have since taken the site down, so there is no live link to share.',
     heroImage: '/images/projects/exoticripz.jpg',
     gallery: ['/images/projects/exoticripz.jpg', '/images/projects/exoticripz-mobile.jpg', null],
     nextSlug: 'kds-systems',
-    url: 'https://exoticripz.com',
+    // No url: the owners took the site down after we handed it back to
+    // them to maintain, so there is nothing live to link or preview.
     mobileImage: '/images/projects/exoticripz-mobile.jpg',
-    // Site origin is currently returning Cloudflare 1001 (origin DNS
-    // dead) so the iframe and screenshot would both show errors. Keep
-    // the case study but skip the live preview block. Re-enable when
-    // the site is back up.
     embeddable: false,
     livePreview: false,
   },
