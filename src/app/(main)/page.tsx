@@ -11,6 +11,7 @@ const HomeClients = dynamic(() => import('@/components/HomeClients').then((m) =>
 const HomeStats = dynamic(() => import('@/components/HomeStats').then((m) => ({ default: m.HomeStats })));
 const HomeServices = dynamic(() => import('@/components/HomeServices').then((m) => ({ default: m.HomeServices })));
 const HomeProjects = dynamic(() => import('@/components/HomeProjects').then((m) => ({ default: m.HomeProjects })));
+const HomeCaseStudies = dynamic(() => import('@/components/HomeCaseStudies').then((m) => ({ default: m.HomeCaseStudies })));
 const HomeTestimonials = dynamic(() => import('@/components/HomeTestimonials').then((m) => ({ default: m.HomeTestimonials })));
 const HomeNewsletter = dynamic(() => import('@/components/HomeNewsletter').then((m) => ({ default: m.HomeNewsletter })));
 const HomeAuditCTA = dynamic(() => import('@/components/HomeAuditCTA').then((m) => ({ default: m.HomeAuditCTA })));
@@ -38,6 +39,7 @@ export default function HomePage() {
       <HomeStats />
       <HomeServices />
       <HomeProjects />
+      <HomeCaseStudies />
       <HomeTestimonials />
       <HomeAuditCTA />
       <HomeNewsletter />
