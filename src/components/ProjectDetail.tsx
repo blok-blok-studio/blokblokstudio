@@ -347,6 +347,33 @@ export function ProjectDetail({ slug }: { slug: string }) {
       </section>
 
       {/* ================================================================
+          SECTION 3.5: Client Video Testimonial
+          ================================================================ */}
+      {project.testimonialVideo && (
+        <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">
+          <div className="max-w-3xl mx-auto">
+            <AnimatedSection className="mb-8 sm:mb-12 text-center">
+              <h2 className="text-2xl sm:text-3xl font-bold">Hear It From the Client</h2>
+              {project.testimonialName && (
+                <p className="text-sm text-gray-500 mt-2">{project.testimonialName}</p>
+              )}
+            </AnimatedSection>
+            <AnimatedSection>
+              <video
+                controls
+                preload="none"
+                playsInline
+                poster={project.testimonialPoster}
+                className="w-full rounded-2xl sm:rounded-3xl bg-gray-900"
+              >
+                <source src={project.testimonialVideo} type="video/mp4" />
+              </video>
+            </AnimatedSection>
+          </div>
+        </section>
+      )}
+
+      {/* ================================================================
           SECTION 4: Gallery Grid (Placeholders)
           ================================================================ */}
       <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">

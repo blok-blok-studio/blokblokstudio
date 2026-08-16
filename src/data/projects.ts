@@ -52,6 +52,11 @@ export interface ProjectData {
    * because of cross-origin CORS — this is a visual browsing layer.
    */
   useProxy?: boolean;
+  /** Client video testimonial (mp4 in public/videos/) with poster frame. */
+  testimonialVideo?: string;
+  testimonialPoster?: string;
+  /** Who is speaking in the testimonial, shown as the section caption. */
+  testimonialName?: string;
 }
 
 export const projectsData: Record<string, ProjectData> = {
@@ -69,6 +74,9 @@ export const projectsData: Record<string, ProjectData> = {
     url: 'https://coachluki.com',
     mobileImage: '/images/projects/coachluki-mobile.jpg',
     embeddable: true,
+    testimonialVideo: '/videos/testimonial-luki.mp4',
+    testimonialPoster: '/videos/testimonial-luki-poster.jpg',
+    testimonialName: 'Luke Satterly, Coach Luki',
   },
   'coach-kofi': {
     title: 'Coach Kofi',
@@ -84,6 +92,9 @@ export const projectsData: Record<string, ProjectData> = {
     url: 'https://coachkofi.de',
     mobileImage: '/images/projects/coachkofi-mobile.webp',
     embeddable: true,
+    testimonialVideo: '/videos/testimonial-kofi.mp4',
+    testimonialPoster: '/videos/testimonial-kofi-poster.jpg',
+    testimonialName: 'Coach Kofi',
   },
   'nanny-and-nest': {
     title: 'Nanny & Nest',

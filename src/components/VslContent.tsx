@@ -71,6 +71,37 @@ export function VslContent() {
           <LeadForm fieldTag="VSL Lead" />
         </AnimatedSection>
 
+        {/* Client proof under the form: real faces saying it worked. No
+            links out — the page keeps its one exit (the form above). */}
+        <AnimatedSection delay={0.2}>
+          <div className="mt-14 sm:mt-20 text-left">
+            <p className="text-xs font-semibold tracking-wider text-gray-500 uppercase text-center mb-6">
+              Clients, in their own words
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+              {[
+                { src: '/videos/testimonial-kofi.mp4', poster: '/videos/testimonial-kofi-poster.jpg', name: 'Coach Kofi', sub: 'Nike athlete, Berlin' },
+                { src: '/videos/testimonial-luki.mp4', poster: '/videos/testimonial-luki-poster.jpg', name: 'Luke Satterly', sub: 'Coach Luki, Berlin' },
+              ].map(t => (
+                <div key={t.name}>
+                  <video
+                    controls
+                    playsInline
+                    preload="none"
+                    poster={t.poster}
+                    className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-black"
+                  >
+                    <source src={t.src} type="video/mp4" />
+                  </video>
+                  <p className="mt-2 text-sm text-gray-400">
+                    {t.name} <span className="text-gray-600">· {t.sub}</span>
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </AnimatedSection>
+
         <LandingFooter />
       </div>
     </div>

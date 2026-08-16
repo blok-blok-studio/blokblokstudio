@@ -91,9 +91,9 @@ Cold email rules: plain text only, no images, no signature banner, this one link
 >
 > Here's some of our work with clients in the US and Germany:
 >
-> 1. Kofi Boateng, a certified Nike athlete here in Berlin: https://www.coachkofi.de/ (video testimonial attached)
+> 1. Kofi Boateng, a certified Nike athlete here in Berlin: https://www.coachkofi.de/ (his video testimonial is on our case study: https://www.blokblokstudio.com/projects/coach-kofi?utm_source=warm-email&utm_medium=email&utm_campaign=pitch)
 >
-> 2. Coach Luki, a Berlin trainer whose site we built for his coaching business: https://coachluki.com/ (video testimonial attached)
+> 2. Coach Luki, a Berlin trainer whose site we built for his coaching business: https://coachluki.com/ (his video testimonial: https://www.blokblokstudio.com/projects/coach-luki?utm_source=warm-email&utm_medium=email&utm_campaign=pitch)
 >
 > 3. Bronco Plumbing, Dallas-Fort Worth. Colton started his company 5 months ago, and between his plumbing work and our online system he's generated $50k+ in gross revenue in his first 5 months: https://www.broncoplumbingdfw.com/
 >
