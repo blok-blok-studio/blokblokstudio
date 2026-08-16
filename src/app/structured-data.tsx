@@ -3,8 +3,8 @@ export function OrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': ['Organization', 'ProfessionalService'],
     name: 'Blok Blok Studio',
-    url: 'https://blokblokstudio.com',
-    logo: 'https://blokblokstudio.com/logo.png',
+    url: 'https://www.blokblokstudio.com',
+    logo: 'https://www.blokblokstudio.com/logo.png',
     description:
       'A creative web design studio crafting custom, conversion-focused websites for ambitious brands.',
     foundingDate: '2024',
@@ -50,7 +50,7 @@ export function WebsiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Blok Blok Studio',
-    url: 'https://blokblokstudio.com',
+    url: 'https://www.blokblokstudio.com',
   };
 
   return (
@@ -69,7 +69,7 @@ export function BreadcrumbSchema({ items }: { items: { name: string; url: string
       '@type': 'ListItem',
       position: i + 1,
       name: item.name,
-      item: `https://blokblokstudio.com${item.url}`,
+      item: `https://www.blokblokstudio.com${item.url}`,
     })),
   };
 
@@ -120,7 +120,7 @@ export function ServiceSchema() {
     provider: {
       '@type': 'Organization',
       name: 'Blok Blok Studio',
-      url: 'https://blokblokstudio.com',
+      url: 'https://www.blokblokstudio.com',
     },
     description: service.description,
     areaServed: 'Worldwide',
@@ -143,14 +143,14 @@ export function LocalBusinessSchema() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': ['LocalBusiness', 'ProfessionalService'],
-    '@id': 'https://blokblokstudio.com/#organization',
+    '@id': 'https://www.blokblokstudio.com/#organization',
     name: 'Blok Blok Studio',
     alternateName: 'BlokBlok Studio',
     description:
       'Berlin-based web design studio building custom Next.js websites for ambitious brands worldwide.',
-    image: 'https://blokblokstudio.com/logo-hero.png',
-    logo: 'https://blokblokstudio.com/logo.svg',
-    url: 'https://blokblokstudio.com',
+    image: 'https://www.blokblokstudio.com/logo-hero.png',
+    logo: 'https://www.blokblokstudio.com/logo.svg',
+    url: 'https://www.blokblokstudio.com',
     email: 'hello@blokblokstudio.com',
     foundingDate: '2024',
     founder: {

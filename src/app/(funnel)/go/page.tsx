@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Get Your Free Growth Plan | Blok Blok Studio',
     description: 'Websites, ads, and AI systems that bring in customers on autopilot.',
-    url: 'https://blokblokstudio.com/go',
+    url: 'https://www.blokblokstudio.com/go',
     siteName: 'Blok Blok Studio',
     type: 'website',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Blok Blok Studio' }],

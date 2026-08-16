@@ -29,7 +29,7 @@ export async function GET(
     `**Category:** ${post.category}  `,
     `**Read Time:** ${post.readTime}  `,
     `**Author:** Blok Blok Studio  `,
-    `**URL:** https://blokblokstudio.com/blog/${post.slug}`,
+    `**URL:** https://www.blokblokstudio.com/blog/${post.slug}`,
     '',
     '---',
     '',
@@ -37,7 +37,7 @@ export async function GET(
     '',
     '---',
     '',
-    '*Published by [Blok Blok Studio](https://blokblokstudio.com), a creative agency in Berlin building websites, ads, social media, and AI systems for service businesses.*',
+    '*Published by [Blok Blok Studio](https://www.blokblokstudio.com), a creative agency in Berlin building websites, ads, social media, and AI systems for service businesses.*',
   ].join('\n');
 
   return new NextResponse(markdown, {
@@ -47,7 +47,7 @@ export async function GET(
       'Cache-Control': 'public, max-age=86400, s-maxage=86400',
       // AI-agent endpoint: keep crawlable, never indexed as duplicate content
       'X-Robots-Tag': 'noindex',
-      'Link': `<https://blokblokstudio.com/blog/${slug}>; rel="canonical"`,
+      'Link': `<https://www.blokblokstudio.com/blog/${slug}>; rel="canonical"`,
     },
   });
 }

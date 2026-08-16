@@ -28,7 +28,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${title} | Blok Blok Studio`,
       description,
-      url: `https://blokblokstudio.com/blog/${post.slug}`,
+      url: `https://www.blokblokstudio.com/blog/${post.slug}`,
       type: 'article',
       publishedTime: post.date,
       authors: ['Blok Blok Studio'],
@@ -60,19 +60,19 @@ export default async function BlogPostPage({
     '@type': 'Article',
     headline: title,
     description,
-    image: `https://blokblokstudio.com${post.image}`,
+    image: `https://www.blokblokstudio.com${post.image}`,
     datePublished: post.date,
     dateModified: post.date,
-    mainEntityOfPage: `https://blokblokstudio.com/blog/${post.slug}`,
+    mainEntityOfPage: `https://www.blokblokstudio.com/blog/${post.slug}`,
     author: {
       '@type': 'Organization',
       name: 'Blok Blok Studio',
-      url: 'https://blokblokstudio.com',
+      url: 'https://www.blokblokstudio.com',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Blok Blok Studio',
-      logo: { '@type': 'ImageObject', url: 'https://blokblokstudio.com/logo.png' },
+      logo: { '@type': 'ImageObject', url: 'https://www.blokblokstudio.com/logo.png' },
     },
   };
 

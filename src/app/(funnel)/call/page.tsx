@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Strategy Call | Blok Blok Studio',
     description: 'Book a free 30-minute strategy call with Blok Blok Studio. We\'ll review your entire operation (AI, automation, website, ads, and workflows) and build a custom growth plan, live on the call.',
-    url: 'https://blokblokstudio.com/call',
+    url: 'https://www.blokblokstudio.com/call',
     siteName: 'Blok Blok Studio',
     type: 'website',
     images: [

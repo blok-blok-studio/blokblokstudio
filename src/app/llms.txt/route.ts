@@ -49,27 +49,27 @@ export async function GET() {
     '',
     ...projectEntries.map(
       ([slug, project]) =>
-        `- [${project.title}](https://blokblokstudio.com/projects/${slug}) (${project.category}, ${project.year}): ${project.desc}`
+        `- [${project.title}](https://www.blokblokstudio.com/projects/${slug}) (${project.category}, ${project.year}): ${project.desc}`
     ),
     '',
     '## Blog Posts',
     '',
     ...blogPosts.map(
       (post) =>
-        `- [${post.title}](https://blokblokstudio.com/blog/${post.slug}/markdown): ${post.description}`
+        `- [${post.title}](https://www.blokblokstudio.com/blog/${post.slug}/markdown): ${post.description}`
     ),
     '',
     '## Contact',
     '',
-    '- Website: https://blokblokstudio.com',
+    '- Website: https://www.blokblokstudio.com',
     '- Email: hello@blokblokstudio.com',
     '- Instagram: https://www.instagram.com/blokblokstudio/',
     '- LinkedIn: https://www.linkedin.com/company/blok-blok-studio/',
-    '- Free Strategy Call: https://blokblokstudio.com/call',
+    '- Free Strategy Call: https://www.blokblokstudio.com/call',
     '',
     '## Full Content',
     '',
-    'For the complete content of all pages, projects, and blog posts in one file, see [/llms-full.txt](https://blokblokstudio.com/llms-full.txt)',
+    'For the complete content of all pages, projects, and blog posts in one file, see [/llms-full.txt](https://www.blokblokstudio.com/llms-full.txt)',
   ].join('\n');
 
   return new NextResponse(content, {

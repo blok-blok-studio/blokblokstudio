@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: 'Services | Blok Blok Studio',
     description:
       'Custom website design and development. Defined deliverables, custom-quoted to your scope.',
-    url: 'https://blokblokstudio.com/services',
+    url: 'https://www.blokblokstudio.com/services',
     siteName: 'Blok Blok Studio',
     type: 'website',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Blok Blok Studio Services' }],

@@ -37,7 +37,7 @@ import { AdsPixels } from '@/components/AdsPixels';
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://blokblokstudio.com'),
+  metadataBase: new URL('https://www.blokblokstudio.com'),
   title: {
     default: 'Blok Blok Studio | Web Design Studio in Berlin',
     template: '%s | Blok Blok Studio',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     'website design agency',
     'Blok Blok Studio',
   ],
-  authors: [{ name: 'Blok Blok Studio', url: 'https://blokblokstudio.com' }],
+  authors: [{ name: 'Blok Blok Studio', url: 'https://www.blokblokstudio.com' }],
   creator: 'Blok Blok Studio',
   publisher: 'Blok Blok Studio',
   category: 'Digital Agency',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://blokblokstudio.com',
+    url: 'https://www.blokblokstudio.com',
     siteName: 'Blok Blok Studio',
     title: 'Blok Blok Studio | Web Design Studio in Berlin',
     description:
@@ -104,10 +104,10 @@ export const metadata: Metadata = {
   // so we only declare the canonical English page and an x-default fallback.
   // Pointing every language at the same URL was confusing search engines.
   alternates: {
-    canonical: 'https://blokblokstudio.com',
+    canonical: 'https://www.blokblokstudio.com',
     languages: {
-      en: 'https://blokblokstudio.com',
-      'x-default': 'https://blokblokstudio.com',
+      en: 'https://www.blokblokstudio.com',
+      'x-default': 'https://www.blokblokstudio.com',
     },
   },
   other: {

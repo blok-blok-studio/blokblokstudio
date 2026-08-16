@@ -40,6 +40,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/'],
       },
     ],
-    sitemap: 'https://blokblokstudio.com/sitemap.xml',
+    sitemap: 'https://www.blokblokstudio.com/sitemap.xml',
   };
 }

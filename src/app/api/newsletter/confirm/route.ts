@@ -18,7 +18,7 @@ function page(title: string, body: string) {
 <p style="color:#f97316;font-weight:700;letter-spacing:.1em;font-size:13px">BLOK BLOK STUDIO</p>
 <h1 style="font-size:26px;margin:8px 0 12px">${title}</h1>
 <p style="color:#9ca3af;line-height:1.6">${body}</p>
-<a href="https://blokblokstudio.com" style="display:inline-block;margin-top:24px;color:#fff;border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:10px 24px;text-decoration:none;font-size:14px">blokblokstudio.com</a>
+<a href="https://www.blokblokstudio.com" style="display:inline-block;margin-top:24px;color:#fff;border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:10px 24px;text-decoration:none;font-size:14px">blokblokstudio.com</a>
 </div></body></html>`,
     { headers: { 'Content-Type': 'text/html' } }
   );

@@ -53,7 +53,7 @@ export async function POST(req: NextRequest) {
 
     // Generate a time-limited verification token
     const token = generateVerificationToken(email);
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://blokblokstudio.com';
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.blokblokstudio.com';
     const verifyUrl = `${baseUrl}/api/gdpr/${type}?token=${token}`;
 
     // Send verification email

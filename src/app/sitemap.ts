@@ -3,7 +3,7 @@ import { getAllProjectSlugs } from '@/data/projects';
 import { blogPosts } from '@/data/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://blokblokstudio.com';
+  const baseUrl = 'https://www.blokblokstudio.com';
 
   // Live-site routes. /pricing is intentionally omitted while the site is
   // positioned as web-design-only.

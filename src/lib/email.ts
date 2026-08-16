@@ -147,7 +147,7 @@ export async function sendCampaignEmail({
 export async function sendMarketingConfirmEmail(to: string, name: string, token: string) {
   const from = process.env.EMAIL_FROM || 'onboarding@resend.dev';
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://blokblokstudio.com');
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://www.blokblokstudio.com');
   const confirmUrl = `${baseUrl}/api/newsletter/confirm?token=${token}`;
 
   const html = `
