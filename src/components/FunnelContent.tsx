@@ -338,7 +338,7 @@ function CTAButton({ text, className = '', variant = 'primary' }: { text?: strin
 }
 
 /* ── BANT Qualifying Form Options ── */
-const CAL_LINK = 'https://calendar.app.google/frvo4DLJAJYG2HLWA';
+const CAL_LINK = 'https://calendar.app.google/oAcFYPRKYB9b4J1c7';
 
 // `label` holds the translation key (call namespace); `crm` is the English
 // label embedded in the BANT summary sent to the API — internal CRM text

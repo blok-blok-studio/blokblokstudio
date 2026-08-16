@@ -200,7 +200,7 @@ export async function sendMarketingConfirmEmail(to: string, name: string, token:
 export async function sendLeadAckEmail(to: string, name: string) {
   const from = process.env.EMAIL_FROM || 'onboarding@resend.dev';
   const replyTo = process.env.NOTIFICATION_EMAIL || from;
-  const bookingLink = 'https://calendar.app.google/frvo4DLJAJYG2HLWA';
+  const bookingLink = 'https://calendar.app.google/oAcFYPRKYB9b4J1c7';
   const whatsapp = 'https://wa.me/491627055848';
   const firstName = (name || '').trim().split(' ')[0] || 'there';
 
