@@ -25,6 +25,17 @@ Every template already has the right tracked link baked in. All links open the s
 | Cold email | `https://www.blokblokstudio.com/vsl?utm_source=cold-email&utm_medium=email&utm_campaign=pitch` |
 | Booking call (all channels) | `https://calendar.app.google/Vk72posRYTuj6KHs8` |
 
+## Client quick reference (proof to drop into any pitch)
+
+| Client | Live site | Case study | Proof |
+|---|---|---|---|
+| Kofi Boateng (Coach Kofi) | https://www.coachkofi.de/ | https://www.blokblokstudio.com/projects/coach-kofi | Video testimonial on the case study page |
+| Coach Luki (Luke Satterly) | https://coachluki.com/ | https://www.blokblokstudio.com/projects/coach-luki | Video testimonial on the case study page |
+| Bronco Plumbing DFW | https://www.broncoplumbingdfw.com/ | https://www.blokblokstudio.com/projects/bronco-plumbing | $50k+ gross in 5 months, 5.0 stars / 52 Google reviews, avg Google position 5.2 (`docs/assets/bronco-search-proof.png`) |
+| Mind and Body Retreats | https://mindandbodyretreats.vercel.app/ | none yet | Site in progress, launch Aug 2026 |
+| Exotic Ripz | offline (handed back to client) | https://www.blokblokstudio.com/projects/exotic-ripz | `docs/assets/exotic-ripz-proof.png` ($191k sales, 1.79K orders) |
+| Nanny & Nest | https://www.nannyandnest.com | https://www.blokblokstudio.com/projects/nanny-and-nest | Membership inquiries +150% after launch |
+
 ---
 
 ## Template 1: Phone default (text / DM / WhatsApp)
@@ -95,11 +106,13 @@ Cold email rules: plain text only, no images, no signature banner, this one link
 >
 > 2. Coach Luki, a Berlin trainer whose site we built for his coaching business: https://coachluki.com/ (his video testimonial: https://www.blokblokstudio.com/projects/coach-luki?utm_source=warm-email&utm_medium=email&utm_campaign=pitch)
 >
-> 3. Bronco Plumbing, Dallas-Fort Worth. Colton started his company 5 months ago, and between his plumbing work and our online system he's generated $50k+ in gross revenue in his first 5 months: https://www.broncoplumbingdfw.com/
+> 3. Bronco Plumbing, Dallas-Fort Worth. Colton started his company 5 months ago, and between his plumbing work and our online system he's generated $50k+ in gross revenue in his first 5 months, with a 5.0-star rating across 52 Google reviews: https://www.broncoplumbingdfw.com/ (full case study: https://www.blokblokstudio.com/projects/bronco-plumbing?utm_source=warm-email&utm_medium=email&utm_campaign=pitch)
 >
 > 4. Mind and Body Retreats, a US wellness company. This one is still in progress: https://mindandbodyretreats.vercel.app/
 >
 > 5. Exotic Ripz, a Shopify build where I also handled the shipping setup on the backend. Together we generated over $190k in Pokemon card sales (screenshot attached). The site is offline now since we handed it back to them to maintain.
+
+Attach `docs/assets/exotic-ripz-proof.png` for point 5 (cropped Shopify dashboard: $191,042 total sales, 1.79K orders, Apr-Oct 2025). It's the only attachment this template needs; the video testimonials are linked, not attached.
 >
 > Every client build includes contact forms with a database for collecting newsletter emails, SEO plus the newly emerging agentic SEO, and a site that fits your brand voice. That's just the start of the list. The point is to free up your time so you can focus on your business.
 >

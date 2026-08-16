@@ -269,7 +269,9 @@ export function LeadForm({ fieldTag = 'Ad Lead' }: { fieldTag?: string }) {
           </span>
         </label>
 
-        <Turnstile onToken={onTurnstileToken} size="normal" className="pt-1" />
+        {/* max-w-full + overflow-hidden: the widget iframe is a fixed 300px wide,
+            which otherwise forces horizontal page scroll on sub-360px screens */}
+        <Turnstile onToken={onTurnstileToken} size="normal" className="pt-1 max-w-full overflow-hidden" />
 
         {error && <p className="text-red-400 text-sm">{error}</p>}
 

@@ -1772,15 +1772,15 @@ export function FunnelContent() {
           </Section>
 
           <div className="overflow-x-auto">
-            <table className="w-full text-sm">
+            <table className="w-full text-xs sm:text-sm">
               <thead>
                 <tr className="border-b border-white/10">
-                  <th className="text-left py-4 pr-4 text-gray-500 font-normal w-1/4" />
-                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">{t('compare_col_diy')}</th>
-                  <th className="py-4 px-4 text-center text-gray-500 font-medium text-xs uppercase tracking-wider">{t('compare_col_freelancer')}</th>
-                  <th className="py-4 px-6 text-center font-bold relative">
+                  <th className="text-left py-4 pr-2 sm:pr-4 text-gray-500 font-normal w-1/4" />
+                  <th className="py-4 px-1 sm:px-4 text-center text-gray-500 font-medium text-[10px] sm:text-xs uppercase tracking-wider">{t('compare_col_diy')}</th>
+                  <th className="py-4 px-1 sm:px-4 text-center text-gray-500 font-medium text-[10px] sm:text-xs uppercase tracking-wider">{t('compare_col_freelancer')}</th>
+                  <th className="py-4 px-2 sm:px-6 text-center font-bold relative">
                     <div className="absolute inset-x-0 -top-2 bottom-0 bg-gradient-to-b from-orange-500/10 to-transparent rounded-t-2xl border-t-2 border-x border-orange-500/30 border-b-0" />
-                    <span className="relative z-10 bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent text-sm">Blok Blok Studio</span>
+                    <span className="relative z-10 bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent text-xs sm:text-sm">Blok Blok Studio</span>
                   </th>
                 </tr>
               </thead>
@@ -1796,9 +1796,9 @@ export function FunnelContent() {
                   { feature: t('compare_row_8'), diy: 'no', freelancer: 'no', us: 'yes' },
                 ].map((row, i) => (
                   <tr key={i} className="border-b border-white/5 group hover:bg-white/[0.02] transition-colors">
-                    <td className="py-4 pr-4 text-gray-300 font-medium">{row.feature}</td>
+                    <td className="py-4 pr-2 sm:pr-4 text-gray-300 font-medium">{row.feature}</td>
                     {([row.diy, row.freelancer, row.us] as string[]).map((val, j) => (
-                      <td key={j} className={`py-4 px-4 text-center ${j === 2 ? 'relative' : ''}`}>
+                      <td key={j} className={`py-4 px-1 sm:px-4 text-center ${j === 2 ? 'relative' : ''}`}>
                         {j === 2 && <div className="absolute inset-x-0 inset-y-0 bg-orange-500/[0.04] border-x border-orange-500/10" />}
                         {val === 'yes' ? (
                           j === 2 ? (

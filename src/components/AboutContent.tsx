@@ -214,22 +214,22 @@ export function AboutContent() {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative w-full max-w-2xl h-full">
                 {/* Design card */}
-                <div className="absolute top-[15%] left-[8%] sm:left-[12%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform -rotate-6 hover:rotate-0 transition-transform duration-500">
+                <div className="hidden min-[360px]:block absolute top-[15%] left-[8%] sm:left-[12%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform -rotate-6 hover:rotate-0 transition-transform duration-500">
                   <span className="text-2xl sm:text-3xl mr-2">🎨</span>
                   <span className="text-xs sm:text-sm font-medium text-white/60">Design</span>
                 </div>
                 {/* Development card */}
-                <div className="absolute top-[20%] right-[5%] sm:right-[10%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                <div className="hidden min-[360px]:block absolute top-[20%] right-[5%] sm:right-[10%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform rotate-3 hover:rotate-0 transition-transform duration-500">
                   <span className="text-2xl sm:text-3xl mr-2">⚡</span>
                   <span className="text-xs sm:text-sm font-medium text-white/60">Development</span>
                 </div>
                 {/* Strategy card */}
-                <div className="absolute bottom-[18%] left-[12%] sm:left-[18%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                <div className="hidden min-[360px]:block absolute bottom-[18%] left-[12%] sm:left-[18%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform rotate-3 hover:rotate-0 transition-transform duration-500">
                   <span className="text-2xl sm:text-3xl mr-2">📈</span>
                   <span className="text-xs sm:text-sm font-medium text-white/60">Strategy</span>
                 </div>
                 {/* Branding card */}
-                <div className="absolute bottom-[22%] right-[8%] sm:right-[15%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform -rotate-3 hover:rotate-0 transition-transform duration-500">
+                <div className="hidden min-[360px]:block absolute bottom-[22%] right-[8%] sm:right-[15%] px-4 py-3 sm:px-6 sm:py-4 rounded-2xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm transform -rotate-3 hover:rotate-0 transition-transform duration-500">
                   <span className="text-2xl sm:text-3xl mr-2">✨</span>
                   <span className="text-xs sm:text-sm font-medium text-white/60">Branding</span>
                 </div>

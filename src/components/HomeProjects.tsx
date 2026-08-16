@@ -98,7 +98,9 @@ export function HomeProjects() {
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
               </div>
-              <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-8 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+              {/* Caption sits below the image on mobile (overlaying busy
+                  screenshots made the text unreadable), overlays on sm+. */}
+              <div className="p-4 sm:p-8 bg-white/[0.03] sm:bg-transparent sm:absolute sm:bottom-0 sm:left-0 sm:right-0 sm:bg-gradient-to-t sm:from-black/80 sm:via-black/40 sm:to-transparent">
                 <div className="flex items-end justify-between">
                   <div>
                     <p className="text-xs sm:text-sm text-gray-300 mb-1">
@@ -143,7 +145,7 @@ export function HomeProjects() {
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
                   </div>
-                  <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 bg-gradient-to-t from-black/80 via-black/30 to-transparent">
+                  <div className="p-4 sm:p-6 bg-white/[0.03] sm:bg-transparent sm:absolute sm:bottom-0 sm:left-0 sm:right-0 sm:bg-gradient-to-t sm:from-black/80 sm:via-black/30 sm:to-transparent">
                     <div className="flex items-end justify-between">
                       <div>
                         <p className="text-xs text-gray-300 mb-1">

@@ -72,7 +72,7 @@ export function GoContent() {
 
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           {/* ── Left column: hero ── */}
-          <div className="lg:col-start-1">
+          <div className="min-w-0 lg:col-start-1">
             <AnimatedSection>
               <p className="inline-block text-[11px] sm:text-xs uppercase tracking-[0.2em] text-orange-400/80 border border-orange-500/20 bg-orange-500/[0.06] rounded-full px-3 py-1 mb-5">
                 Free growth plan &middot; 15 minutes &middot; yours to keep
@@ -92,12 +92,12 @@ export function GoContent() {
           </div>
 
           {/* ── Form: after the headline on mobile, sticky right column on desktop ── */}
-          <div ref={formRef} className="lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:sticky lg:top-10">
+          <div ref={formRef} className="min-w-0 lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:sticky lg:top-10">
             <LeadForm fieldTag="Ad Lead" />
           </div>
 
           {/* ── Left column: proof + steps ── */}
-          <div className="lg:col-start-1">
+          <div className="min-w-0 lg:col-start-1">
             <AnimatedSection delay={0.1}>
               <div className="grid grid-cols-3 gap-3 mb-10">
                 {PROOF_STATS.map((s) => (
