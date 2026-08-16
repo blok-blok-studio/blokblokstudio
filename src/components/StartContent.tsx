@@ -62,6 +62,14 @@ const projects = [
     category: 'E-Commerce',
   },
   {
+    title: 'Nanny & Nest',
+    desc: 'Trust-focused membership platform for a premium childcare agency.',
+    image: '/images/projects/nannyandnest.webp',
+    slug: 'nanny-and-nest',
+    url: 'nannyandnest.com',
+    category: 'Web Design',
+  },
+  {
     title: 'The New School',
     desc: 'Institutional web presence for the Center for Military-Affiliated Students.',
     image: '/images/projects/military-newschool.webp',
@@ -98,6 +106,12 @@ const testimonials = [
     name: 'Exotic Ripz',
     role: 'Trading Card Community',
     project: 'exotic-ripz',
+  },
+  {
+    quote: 'Parents need to trust you before they hand over their kids. The site Blok Blok Studio built does that instantly. Membership inquiries jumped 150%.',
+    name: 'Nanny & Nest',
+    role: 'Childcare Agency',
+    project: 'nanny-and-nest',
   },
 ];
 
@@ -341,7 +355,7 @@ export function StartContent() {
             className="mb-6 sm:mb-8"
           >
             <Image
-              src="/logo-hero-black.svg"
+              src="/logo-hero.png"
               alt="Blok Blok Studio"
               width={600}
               height={150}

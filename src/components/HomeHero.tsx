@@ -1,86 +1,173 @@
 /**
  * ============================================================
- * HOME HERO SECTION — editorial redesign
+ * HOME HERO SECTION
  * ============================================================
- * Left-aligned typeset hero: oversized serif H1 (the SEO headline),
- * a short standfirst, and two plain CTAs. The wordmark now lives in
- * the navbar, so the hero carries type instead of a logo image.
+ * This is the first thing visitors see on the homepage.
+ * It displays the main logo, tagline, and call-to-action buttons.
+ *
+ * KEY FILES:
+ * - Logo image: /public/logo-hero.png (wordmark with subhead)
+ * - Text content: /src/messages/en.json → "home" section
+ * - Animations: Framer Motion (fade-in + slide-up on load)
  *
  * TO EDIT:
- * - Headline → "hero_title" in /src/messages/en.json
- * - Standfirst → "hero_subtitle" in /src/messages/en.json
- * - CTA labels → "hero_cta" / "projects_cta" in /src/messages/en.json
+ * - Change hero subtitle text → edit "hero_subtitle" in /src/messages/en.json
+ * - Change CTA button text → edit "hero_cta" in /src/messages/en.json
+ * - Change hero logo → replace /public/logo-hero.png
+ * - Change "Available for new projects" → edit the text on line 28 below
  * ============================================================
  */
 
 'use client';
 
-import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
+import { useTranslations } from 'next-intl'; // Loads translated text from /src/messages/
+import { motion } from 'framer-motion'; // Animation library for fade/slide effects
+import Image from 'next/image'; // Next.js optimized image component
+import Link from 'next/link'; // Next.js client-side navigation
+import { MagneticButton } from './MagneticButton'; // Hover effect wrapper for buttons
+import { HeroSpotlight } from './HeroSpotlight'; // Mouse-tracked radial glow
 
 export function HomeHero() {
+  // Load translations from the "home" section of /src/messages/{locale}.json
   const t = useTranslations('home');
 
   return (
-    <section className="relative px-5 sm:px-6 lg:px-8 pt-36 sm:pt-44 lg:pt-52 pb-16 sm:pb-24">
-      <div className="max-w-6xl mx-auto w-full">
-        {/* Kicker: studio, city, availability in one quiet line */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="section-label mb-6 sm:mb-8"
-        >
-          Berlin&nbsp;&nbsp;·&nbsp;&nbsp;Taking on new projects
-        </motion.p>
+    // ── HERO SECTION CONTAINER ──
+    // Full viewport height, vertically centered content
+    <section className="relative min-h-screen flex items-center px-5 sm:px-6 lg:px-8 overflow-hidden">
+      {/* Radial glow that tracks the cursor, purely decorative, sits below content */}
+      <HeroSpotlight />
 
-        {/* SEO H1: primary keywords, set large in the serif display face */}
-        <motion.h1
-          initial={{ opacity: 0, y: 24 }}
+      <div className="relative z-10 max-w-4xl mx-auto w-full text-center">
+
+        {/* ── STATUS BADGE ──
+            Green pulsing dot with "Available for new projects" text.
+            To change the status text, edit the string on line 28 below.
+            To hide this badge entirely, remove this <motion.div> block. */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2, ease: 'easeOut' }}
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-ink tracking-tight leading-[1.02] mb-8 sm:mb-10 max-w-4xl"
+          transition={{ type: 'spring', stiffness: 80, damping: 13, delay: 0.2 }}
+        >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-6 sm:mb-8">
+            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+            <span className="text-xs text-gray-400 tracking-wide">
+              Available for new projects
+            </span>
+          </div>
+        </motion.div>
+
+        {/* ── HERO LOGO / WORDMARK ──
+            Displays the main logo with subheadline.
+            IMAGE: /public/logo-hero.png
+            To swap: replace that file (keep same filename) or change src below.
+            Responsive widths: 280px mobile → 400px sm → 500px md → 600px lg */}
+        <motion.div
+          initial={{ opacity: 0, y: 80 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ type: 'spring', stiffness: 70, damping: 13, delay: 0.4 }}
+          className="mb-6 sm:mb-8"
+        >
+          <Image
+            src="/logo-hero.png"
+            alt="Blok Blok Studio, web design studio in Berlin"
+            width={600}
+            height={150}
+            className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"
+            priority
+          />
+        </motion.div>
+
+        {/* ── HERO H1 (SEO) ──
+            Visible H1 carrying the page's primary keywords. Critical for both
+            classic SEO (one H1 per page, descriptive) and AI search engines
+            that parse the H1 to summarize what the page is about.
+            Pulled from translations: "hero_title" key. */}
+        <motion.h1
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ type: 'spring', stiffness: 80, damping: 13, delay: 0.5 }}
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-white tracking-tight mb-4 sm:mb-6"
         >
           {t('hero_title')}
         </motion.h1>
 
-        {/* Standfirst */}
+        {/* ── SUBTITLE TEXT ──
+            Pulled from translations: "hero_subtitle" key.
+            To edit: go to /src/messages/en.json → home.hero_subtitle */}
         <motion.p
-          initial={{ opacity: 0, y: 16 }}
+          initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.35, ease: 'easeOut' }}
-          className="text-lg sm:text-xl text-gray-400 max-w-xl leading-relaxed mb-10 sm:mb-12"
+          transition={{ type: 'spring', stiffness: 80, damping: 13, delay: 0.6 }}
+          className="text-base sm:text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8 sm:mb-12 leading-relaxed"
         >
           {t('hero_subtitle')}
         </motion.p>
 
-        {/* CTAs: one solid rectangular button, one underlined text link */}
+        {/* ── CTA BUTTONS ──
+            Two buttons side by side (stacked on mobile).
+            Button 1: White filled → links to /contact
+            Button 2: Outlined → links to /projects
+            Text pulled from translations: "hero_cta" and "projects_cta" */}
         <motion.div
-          initial={{ opacity: 0, y: 16 }}
+          initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.5, ease: 'easeOut' }}
-          className="flex flex-col sm:flex-row items-start sm:items-center gap-5 sm:gap-8"
+          transition={{ type: 'spring', stiffness: 80, damping: 13, delay: 0.8 }}
+          className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
         >
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-3 px-7 py-4 bg-ink text-paper font-medium hover:bg-gray-100 transition-colors text-sm sm:text-base"
-          >
-            {t('hero_cta')}
-            <span aria-hidden="true">&rarr;</span>
-          </Link>
+          {/* Primary CTA, "Start a Project" button (white, filled) */}
+          <MagneticButton as="div">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-sm sm:text-base"
+            >
+              {t('hero_cta')}
+              {/* Arrow icon next to button text */}
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </Link>
+          </MagneticButton>
 
-          <Link
-            href="/projects"
-            className="inline-flex items-center gap-2 text-ink underline underline-offset-8 decoration-1 decoration-gray-700 hover:decoration-ink transition-colors text-sm sm:text-base"
-          >
-            {t('projects_cta')}
-          </Link>
+          {/* Secondary CTA, "View All Projects" button (outlined) */}
+          <MagneticButton as="div">
+            <Link
+              href="/projects"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-white/20 text-white hover:bg-white/5 transition-colors text-sm sm:text-base"
+            >
+              {t('projects_cta')}
+            </Link>
+          </MagneticButton>
         </motion.div>
       </div>
 
-      {/* Hairline closing the hero, magazine style */}
-      <div className="max-w-6xl mx-auto editorial-rule mt-16 sm:mt-24" />
+      {/* ── SCROLL INDICATOR ──
+          Animated bouncing pill at the bottom of the hero.
+          Appears after 1.5s delay. Remove this block to hide it. */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5 }}
+        className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2"
+      >
+        <motion.div
+          animate={{ y: [0, 8, 0] }}
+          transition={{ duration: 2, repeat: Infinity }}
+          className="w-6 h-10 rounded-full border border-white/20 flex items-start justify-center p-2"
+        >
+          <motion.div className="w-1 h-2 bg-white/60 rounded-full" />
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

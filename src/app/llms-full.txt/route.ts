@@ -153,7 +153,7 @@ export async function GET() {
     '',
     '- **Luke Satterly** (Personal Trainer, Berlin): "They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices."',
     '- **Coach Kofi** (Fitness Coach, Berlin): "The design matched my energy perfectly. Consultations went up over 200% after launch and the site basically sells for me now."',
-    '- **Bronco Plumbing** (Home Services, Dallas-Fort Worth): Lead-generating website and growth system; $50k+ gross revenue in the first 5 months, 5.0-star rating across 52 Google reviews.',
+    '- **Nanny & Nest** (Childcare Services): Full brand and website build, live client.',
     '',
     '## Comparison: DIY vs Freelancer vs Blok Blok Studio',
     '',

@@ -52,13 +52,11 @@ import { motion } from 'framer-motion';
  * ---------------------------------------------------------------------------
  */
 const clients = [
-  { name: 'Coach Luki', logo: null },
-  { name: 'Bronco Plumbing', logo: null },
   { name: 'Coach Kofi', logo: null },
   { name: 'Exotic Ripz', logo: null },
   { name: 'The New School', logo: null },
   { name: 'Public Affair', logo: null },
-  { name: 'KDS Systems', logo: null },
+  { name: 'Nanny & Nest', logo: null },
 ];
 
 export function HomeClients() {

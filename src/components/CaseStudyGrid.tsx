@@ -70,7 +70,7 @@ export function CaseStudyGrid() {
                 href={c.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="shrink-0 text-sm text-accent-text hover:text-ink underline underline-offset-4"
+                className="shrink-0 text-sm text-orange-400 hover:text-orange-300 underline underline-offset-4"
               >
                 {c.label}
               </a>

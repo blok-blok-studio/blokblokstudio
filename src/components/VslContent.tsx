@@ -21,14 +21,14 @@ const VIDEO_URL = process.env.NEXT_PUBLIC_VSL_VIDEO_URL || '/videos/pitch.mp4';
 
 export function VslContent() {
   return (
-    <div className="min-h-screen bg-paper text-white">
+    <div className="min-h-screen bg-[#0a0a0a] text-white">
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[500px] rounded-full bg-orange-500/[0.07] blur-3xl" />
       </div>
 
       <div className="relative max-w-3xl mx-auto px-5 sm:px-6 pt-10 sm:pt-16 pb-20 text-center">
         <Image
-          src="/logo-black.svg"
+          src="/logo.svg"
           alt="Blok Blok Studio"
           width={48}
           height={48}
@@ -46,7 +46,7 @@ export function VslContent() {
         </AnimatedSection>
 
         <AnimatedSection delay={0.1}>
-          <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-ink shadow-2xl mb-8">
+          <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-black shadow-2xl shadow-black/50 mb-8">
             {VIDEO_URL ? (
               <video
                 controls

@@ -58,7 +58,7 @@ export function GoContent() {
   const scrollToForm = () => formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
   return (
-    <div className="min-h-screen bg-paper text-white">
+    <div className="min-h-screen bg-[#0a0a0a] text-white">
       {/* Ambient glow */}
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[500px] rounded-full bg-orange-500/[0.07] blur-3xl" />

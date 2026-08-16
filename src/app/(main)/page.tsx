@@ -6,6 +6,7 @@ import { HomeHero } from '@/components/HomeHero';
 // Above-the-fold components stay synchronous so the hero paints immediately.
 // Everything below the fold lazy-loads to keep the initial JS bundle small —
 // the user sees the hero in the first frame instead of waiting on hydrate.
+const DeviceMockup = dynamic(() => import('@/components/DeviceMockup').then((m) => ({ default: m.DeviceMockup })));
 const HomeClients = dynamic(() => import('@/components/HomeClients').then((m) => ({ default: m.HomeClients })));
 const HomeStats = dynamic(() => import('@/components/HomeStats').then((m) => ({ default: m.HomeStats })));
 const HomeServices = dynamic(() => import('@/components/HomeServices').then((m) => ({ default: m.HomeServices })));
@@ -33,6 +34,7 @@ export default function HomePage() {
   return (
     <div className="page-transition">
       <HomeHero />
+      <DeviceMockup />
       <HomeClients />
       <HomeStats />
       <HomeServices />

@@ -10,15 +10,10 @@ import { useEffect, useState } from 'react';
  *
  *   NEXT_PUBLIC_META_PIXEL_ID   — Meta (Facebook/Instagram) Pixel ID
  *   NEXT_PUBLIC_GOOGLE_ADS_ID   — Google tag ID (AW-XXXXXXXXXX)
- *   NEXT_PUBLIC_GA_ID           — GA4 measurement ID (G-XXXXXXXXXX)
- *
- * GA4 defaults to the studio's own property so analytics work without a
- * Vercel env change; the env var still overrides it.
  */
 
 const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-61T84KHDRL';
 
 declare global {
   interface Window {
@@ -88,41 +83,34 @@ function loadMetaPixel(id: string) {
   window.fbq('track', 'PageView');
 }
 
-// Measurement/conversion ids already passed to gtag('config', ...), so a
-// consent re-grant doesn't double-configure and a late-loading second
-// product (Ads vs GA4) still gets configured on the shared gtag.js.
-const configuredGoogleIds = new Set<string>();
-
-function loadGoogleTag(ids: string[]) {
-  if (!window.gtag) {
-    window.dataLayer = window.dataLayer || [];
-    // gtag.js requires the raw `arguments` object on the dataLayer — pushing
-    // a plain array silently breaks command processing
-    window.gtag = function () {
-      // eslint-disable-next-line prefer-rest-params
-      window.dataLayer!.push(arguments);
-    };
-    // Consent Mode v2: defaults MUST be set before config. Required for
-    // EU-targeted Google Ads (EU User Consent Policy) — includes the v2
-    // signals ad_user_data and ad_personalization.
-    window.gtag('consent', 'default', {
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied',
-      analytics_storage: 'denied',
-      wait_for_update: 500,
-    });
-    const s = document.createElement('script');
-    s.async = true;
-    s.src = `https://www.googletagmanager.com/gtag/js?id=${ids[0]}`;
-    document.head.appendChild(s);
-    window.gtag('js', new Date());
+function loadGoogleTag(id: string) {
+  if (window.gtag) {
+    grantGoogleConsent();
+    return;
   }
-  for (const id of ids) {
-    if (configuredGoogleIds.has(id)) continue;
-    configuredGoogleIds.add(id);
-    window.gtag('config', id);
-  }
+  window.dataLayer = window.dataLayer || [];
+  // gtag.js requires the raw `arguments` object on the dataLayer — pushing
+  // a plain array silently breaks command processing
+  window.gtag = function () {
+    // eslint-disable-next-line prefer-rest-params
+    window.dataLayer!.push(arguments);
+  };
+  // Consent Mode v2: defaults MUST be set before config. Required for
+  // EU-targeted Google Ads (EU User Consent Policy) — includes the v2
+  // signals ad_user_data and ad_personalization.
+  window.gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    wait_for_update: 500,
+  });
+  const s = document.createElement('script');
+  s.async = true;
+  s.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
+  document.head.appendChild(s);
+  window.gtag('js', new Date());
+  window.gtag('config', id);
   grantGoogleConsent();
 }
 
@@ -166,8 +154,7 @@ export function AdsPixels() {
   useEffect(() => {
     if (!consented) return;
     if (META_PIXEL_ID) loadMetaPixel(META_PIXEL_ID);
-    const googleIds = [GOOGLE_ADS_ID, GA_ID].filter(Boolean) as string[];
-    if (googleIds.length) loadGoogleTag(googleIds);
+    if (GOOGLE_ADS_ID) loadGoogleTag(GOOGLE_ADS_ID);
   }, [consented]);
 
   return null;

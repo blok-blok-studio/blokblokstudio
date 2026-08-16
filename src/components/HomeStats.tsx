@@ -57,7 +57,7 @@ export function HomeStats() {
         {STATS.map((stat, i) => (
           <AnimatedSection key={t(stat.labelKey)} delay={i * 0.08}>
             <motion.div whileHover={{ y: -4 }} transition={{ type: 'spring', stiffness: 300, damping: 20 }}>
-              <div className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl md:text-5xl font-light tracking-tight mb-1.5 text-ink">
+              <div className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight mb-1.5 bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
                 <Counter target={stat.value} suffix={stat.suffix} />
               </div>
               <div className="text-xs sm:text-sm text-gray-400 uppercase tracking-wider">

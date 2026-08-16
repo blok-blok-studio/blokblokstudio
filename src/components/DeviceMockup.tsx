@@ -79,8 +79,8 @@ export function DeviceMockup() {
                   {/* Screen */}
                   <div className="aspect-[3/4] relative bg-gray-950">
                     <Image
-                      src="/images/projects/bronco.webp"
-                      alt="Bronco Plumbing on iPad"
+                      src="/images/projects/nannyandnest.webp"
+                      alt="Nanny & Nest on iPad"
                       fill
                       className="object-cover object-top"
                       sizes="280px"
