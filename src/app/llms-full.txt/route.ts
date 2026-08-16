@@ -209,6 +209,7 @@ export async function GET() {
     status: 200,
     headers: {
       'Content-Type': 'text/plain; charset=utf-8',
+      'X-Robots-Tag': 'noindex',
       'Cache-Control': 'public, max-age=86400, s-maxage=86400',
     },
   });
