@@ -1252,8 +1252,9 @@ export function FunnelContent() {
                   className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 640px) 50vw, 33vw"
                 />
-                {/* Overlay gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
+                {/* Overlay gradient — heavy at the bottom so captions stay
+                    readable over light website screenshots */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent group-hover:from-black/95 transition-colors duration-500" />
 
                 {/* Brand info at bottom */}
                 <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5">
@@ -1572,7 +1573,7 @@ export function FunnelContent() {
                   className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
 
                 {/* Stats overlay at bottom */}
                 <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">

@@ -1140,7 +1140,7 @@ export function PricingContent() {
                 {pk.ex && (
                   <>
                     <button onClick={() => setExp(isE ? null : cardId)} style={{ marginTop: 14, width: '100%', padding: '8px', borderRadius: 8, cursor: 'pointer', fontSize: 11, fontWeight: 600, fontFamily: 'inherit', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.04)', color: MU, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
-                      <Chev open={isE} /> {isE ? 'Hide' : 'View'} What\u2019s Not Included
+                      <Chev open={isE} /> {isE ? 'Hide' : 'View'} What&rsquo;s Not Included
                     </button>
                     {isE && (
                       <div style={{ marginTop: 10, background: OF, border: '1px solid rgba(249,115,22,0.1)', borderRadius: 10, padding: '12px 14px' }}>

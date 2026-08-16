@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { AnimatedSection } from './AnimatedSection';
 import { LeadForm } from './LeadForm';
 import { LandingFooter } from './LandingFooter';
@@ -25,9 +26,13 @@ export function VslContent() {
       </div>
 
       <div className="relative max-w-3xl mx-auto px-5 sm:px-6 pt-10 sm:pt-16 pb-20 text-center">
-        <p className="text-sm font-semibold tracking-wide text-gray-400 mb-8 sm:mb-10">
-          BLOK BLOK <span className="text-orange-400">STUDIO</span>
-        </p>
+        <Image
+          src="/logo.svg"
+          alt="Blok Blok Studio"
+          width={48}
+          height={48}
+          className="mx-auto mb-8 sm:mb-10"
+        />
 
         <AnimatedSection>
           <h1 className="text-2xl sm:text-4xl font-bold leading-tight mb-3">
