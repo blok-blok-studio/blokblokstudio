@@ -69,6 +69,10 @@ function thanksDestination(): string {
   try {
     const p = new URLSearchParams(window.location.search);
     const src = (p.get('utm_source') || '').toLowerCase();
+    // Organic pitch links (docs/pitch-templates.md) checked first: the IG
+    // in-app browser can append fbclid to organic links, and these leads
+    // must never fire ad conversion pixels.
+    if (['dm', 'text', 'cold-email', 'warm-email'].includes(src)) return '/go/thanks?src=organic';
     if (p.get('fbclid') || ['meta', 'facebook', 'instagram', 'fb', 'ig'].includes(src)) return '/go/thanks/meta';
     if (p.get('gclid') || p.get('wbraid') || p.get('gbraid') || src === 'google') return '/go/thanks/google';
     return '/go/thanks';

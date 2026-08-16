@@ -12,6 +12,7 @@ import { LandingFooter } from './LandingFooter';
  *   /go/thanks/meta    — Meta traffic  → fires fbq('track', 'Lead')
  *   /go/thanks/google  — Google traffic → fires the Google Ads conversion
  *   /go/thanks         — direct/unknown → fires both (each is a no-op if absent)
+ *   /go/thanks?src=organic — organic pitch links → fires nothing
  * Events only exist if the visitor consented to marketing cookies (AdsPixels).
  */
 
@@ -64,6 +65,15 @@ export function GoThanksContent({ platform = 'all' }: { platform?: 'meta' | 'goo
       submitted = !!sessionStorage.getItem('bb-lead-event-id');
     } catch { /* private mode: err on not firing */ }
     if (!submitted) return;
+    // Leads from organic pitch links (?src=organic, set by the form's
+    // redirect) are real submissions but not ad conversions: skip pixels
+    // so paid-ads data stays clean.
+    try {
+      if (new URLSearchParams(window.location.search).get('src') === 'organic') {
+        sessionStorage.removeItem('bb-lead-event-id');
+        return;
+      }
+    } catch { /* ignore */ }
     if (platform === 'meta' || platform === 'all') fireMeta();
     if (platform === 'google' || platform === 'all') fireGoogle();
     try {
