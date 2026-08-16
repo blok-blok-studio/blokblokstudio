@@ -74,10 +74,10 @@ const testimonials = [
     initials: 'CK',
   },
   {
-    quote: 'Working with this team was an absolute pleasure. They understood our brand instantly and delivered a website that builds trust with families from the first click.',
-    name: 'Nanny & Nest Team',
-    role: 'Nanny & Nest',
-    initials: 'NN',
+    quote: 'They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices.',
+    name: 'Luke Satterly',
+    role: 'Personal Trainer, Berlin',
+    initials: 'LS',
   },
   {
     quote: 'The e-commerce store they built for us is incredible. Our booster pack drops sell out in hours and the community engagement through the site has been amazing.',

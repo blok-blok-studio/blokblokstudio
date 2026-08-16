@@ -94,7 +94,7 @@ function AccentDivider() {
 const trustedBrands = [
   { name: 'Coach Luki', image: '/images/projects/coachluki.jpg', url: 'coachluki.com', categoryKey: 'category_fitness' },
   { name: 'Coach Kofi', image: '/images/projects/coachkofi.webp', url: 'coachkofi.de', categoryKey: 'category_coaching' },
-  { name: 'Nanny & Nest', image: '/images/projects/nannyandnest.webp', url: 'nannyandnest.com', categoryKey: 'category_childcare' },
+  { name: 'Bronco Plumbing', image: '/images/projects/bronco.webp', url: 'broncoplumbingdfw.com', categoryKey: 'category_trades' },
   { name: 'Exotic Ripz', image: '/images/projects/exoticripz.jpg', url: 'exoticripz.com', categoryKey: 'category_ecommerce' },
   { name: 'KDS Systems', image: '/images/projects/kdssys.webp', url: 'kdssys.com', categoryKey: 'category_it' },
   { name: 'Public Affair', image: '/images/projects/public-affair.webp', url: 'public-affair.com', categoryKey: 'category_lifestyle' },
@@ -285,7 +285,7 @@ const serviceModuleIcons = ['🤖', '🌐', '📈', '📊'];
 const projectShowcase = [
   { label: 'Coach Luki', stat: 'Berlin', image: '/images/projects/coachluki.jpg', url: 'coachluki.com' },
   { label: 'Coach Kofi', stat: '+200%', image: '/images/projects/coachkofi.webp', url: 'coachkofi.de' },
-  { label: 'Nanny & Nest', stat: '+150%', image: '/images/projects/nannyandnest.webp', url: 'nannyandnest.com' },
+  { label: 'Bronco Plumbing', stat: '$50k', image: '/images/projects/bronco.webp', url: 'broncoplumbingdfw.com' },
   { label: 'Exotic Ripz', stat: '+400%', image: '/images/projects/exoticripz.jpg', url: 'exoticripz.com' },
   { label: 'KDS Systems', stat: '+180%', image: '/images/projects/kdssys.webp', url: 'kdssys.com' },
   { label: 'Public Affair', stat: '95%+', image: '/images/projects/public-affair.webp', url: 'public-affair.com' },

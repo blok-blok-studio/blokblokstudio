@@ -16,20 +16,20 @@ const featuredProjects = [
     url: 'https://coachluki.com',
   },
   {
+    title: 'Bronco Plumbing',
+    category: 'Web Design',
+    year: '2026',
+    slug: 'bronco-plumbing',
+    image: '/images/projects/bronco.webp',
+    url: 'https://www.broncoplumbingdfw.com',
+  },
+  {
     title: 'Coach Kofi',
     category: 'Web Design',
     year: '2025',
     slug: 'coach-kofi',
     image: '/images/projects/coachkofi.webp',
     url: 'https://coachkofi.de',
-  },
-  {
-    title: 'Nanny & Nest',
-    category: 'Web Design',
-    year: '2025',
-    slug: 'nanny-and-nest',
-    image: '/images/projects/nannyandnest.webp',
-    url: 'https://www.nannyandnest.com',
   },
   {
     title: 'Exotic Ripz',
