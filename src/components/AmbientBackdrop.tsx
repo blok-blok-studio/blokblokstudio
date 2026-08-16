@@ -56,16 +56,6 @@ export function AmbientBackdrop() {
         transition={{ duration: 26, repeat: Infinity, ease: 'easeInOut', delay: 4 }}
       />
 
-      {/* Architectural grid, extremely faint white lines for depth */}
-      <div
-        className="absolute inset-0 opacity-[0.025]"
-        style={{
-          backgroundImage:
-            'linear-gradient(to right, white 1px, transparent 1px), linear-gradient(to bottom, white 1px, transparent 1px)',
-          backgroundSize: '64px 64px',
-        }}
-      />
-
       {/* Vignette to keep the page edges from feeling exposed */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,transparent_55%,rgba(0,0,0,0.6)_100%)]" />
     </div>
