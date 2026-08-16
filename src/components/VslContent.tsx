@@ -107,6 +107,43 @@ export function VslContent() {
           </div>
         </AnimatedSection>
 
+        {/* Portfolio proof: the clients from the pitch email, with live
+            links and the numbers. Links open in a new tab so this page
+            (and its form) stays open. */}
+        <AnimatedSection delay={0.25}>
+          <div className="mt-14 sm:mt-20 text-left">
+            <p className="text-xs font-semibold tracking-wider text-gray-500 uppercase text-center mb-6">
+              The work behind the pitch
+            </p>
+            <div className="space-y-3">
+              {[
+                { name: 'Bronco Plumbing', where: 'Dallas-Fort Worth', proof: '$50k+ gross revenue in his first 5 months. 5.0 stars across 52 Google reviews.', href: 'https://www.broncoplumbingdfw.com', label: 'broncoplumbingdfw.com' },
+                { name: 'Exotic Ripz', where: 'E-commerce, US', proof: '$191k in trading card sales, 1,790 orders on the Shopify store we built.', href: '/projects/exotic-ripz', label: 'View case study' },
+                { name: 'Coach Kofi', where: 'Nike athlete, Berlin', proof: 'Consultation requests up 200% after launch.', href: 'https://www.coachkofi.de', label: 'coachkofi.de' },
+                { name: 'Coach Luki', where: 'Personal trainer, Berlin', proof: 'Bookings and payments straight through the site. No DMs, no invoices.', href: 'https://coachluki.com', label: 'coachluki.com' },
+                { name: 'Mind and Body Retreats', where: 'Wellness, US', proof: 'Full brand identity and website. Launching 2026.', href: 'https://mindandbodyretreats.vercel.app', label: 'Preview the build' },
+              ].map(c => (
+                <div key={c.name} className="rounded-xl sm:rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-4 sm:flex sm:items-center sm:justify-between sm:gap-6">
+                  <div>
+                    <p className="text-sm font-semibold text-white">
+                      {c.name} <span className="font-normal text-gray-600">· {c.where}</span>
+                    </p>
+                    <p className="text-sm text-gray-400 mt-0.5">{c.proof}</p>
+                  </div>
+                  <a
+                    href={c.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-2 sm:mt-0 shrink-0 text-sm text-orange-400 hover:text-orange-300 underline underline-offset-4"
+                  >
+                    {c.label}
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </AnimatedSection>
+
         <LandingFooter />
       </div>
     </div>
