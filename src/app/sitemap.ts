@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { getAllProjectSlugs } from '@/data/projects';
 import { blogPosts } from '@/data/blog';
+import { getAllSpecialtySlugs } from '@/data/specialties';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.blokblokstudio.com';
@@ -42,6 +43,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: SITE_UPDATED,
       changeFrequency: 'monthly' as const,
       priority: 0.3,
+    })),
+    // Commercial specialty pages (webdesign-berlin, plumber-website-design, ...)
+    ...getAllSpecialtySlugs().map((slug) => ({
+      url: `${baseUrl}/${slug}`,
+      lastModified: new Date('2026-08-16'),
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
     })),
     // Individual project pages
     ...projectSlugs.map((slug) => ({

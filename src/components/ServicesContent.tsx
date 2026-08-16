@@ -271,6 +271,29 @@ export function ServicesContent({ faqs }: { faqs?: { question: string; answer: s
           </>
         )}
 
+        {/* Who we build for: internal links to the specialty landing pages */}
+        <AnimatedSection className="mb-16 sm:mb-24">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-center">
+            Who we build for
+          </h2>
+          <p className="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto text-center mb-10">
+            Every industry converts differently. These are the playbooks we run, with the client numbers to back them up.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            {[
+              { href: '/plumber-website-design', title: 'Plumbers & home services', desc: '$50k in 5 months for a first-year plumbing company' },
+              { href: '/personal-trainer-website-design', title: 'Coaches & trainers', desc: 'Bookings and Stripe payments straight through the site' },
+              { href: '/ecommerce-website-design', title: 'E-commerce & Shopify', desc: '$191k in sales across 1,790 orders' },
+              { href: '/webdesign-berlin', title: 'Webdesign Berlin (Deutsch)', desc: 'Individuelle Websites fuer Berliner Unternehmen' },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="glass-card rounded-2xl p-6 hover:bg-white/[0.05] transition-colors group">
+                <h3 className="font-semibold mb-1 group-hover:text-white transition-colors">{item.title}</h3>
+                <p className="text-sm text-gray-400">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </AnimatedSection>
+
         {/* CTA */}
         <AnimatedSection className="text-center">
           <MagneticButton as="div">
