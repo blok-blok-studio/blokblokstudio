@@ -165,9 +165,20 @@ export function AdsPixels() {
 
   useEffect(() => {
     if (!consented) return;
-    if (META_PIXEL_ID) loadMetaPixel(META_PIXEL_ID);
-    const googleIds = [GOOGLE_ADS_ID, GA_ID].filter(Boolean) as string[];
-    if (googleIds.length) loadGoogleTag(googleIds);
+    // Defer pixel loading until the main thread is idle so ~330 KiB of
+    // third-party JS stops competing with hydration during page load
+    // (Lighthouse TBT). PageView still fires within a few seconds.
+    const load = () => {
+      if (META_PIXEL_ID) loadMetaPixel(META_PIXEL_ID);
+      const googleIds = [GOOGLE_ADS_ID, GA_ID].filter(Boolean) as string[];
+      if (googleIds.length) loadGoogleTag(googleIds);
+    };
+    if (typeof window.requestIdleCallback === 'function') {
+      const id = window.requestIdleCallback(load, { timeout: 4000 });
+      return () => window.cancelIdleCallback(id);
+    }
+    const t = window.setTimeout(load, 2500);
+    return () => window.clearTimeout(t);
   }, [consented]);
 
   return null;

@@ -43,6 +43,43 @@ const nextConfig: NextConfig = {
     ];
   },
 
+  // 301s for URLs from the previous site iteration that Google still
+  // remembers (Search Console "Not found (404)" report, Aug 2026). The
+  // old template used portfolio-details/, blog-details/, careers/,
+  // knowledge-base*, product/, shop, and a de-de/ URL prefix — none of
+  // which exist on the current site. Specific mappings first, then
+  // pattern catch-alls to the closest live page.
+  async redirects() {
+    return [
+      // Old de-de locale prefix: strip it, then the remaining path hits
+      // the rules below on the second hop (locale now comes via cookie).
+      { source: '/de-de/:path*', destination: '/:path*', permanent: true },
+      { source: '/de-de', destination: '/', permanent: true },
+
+      // Old portfolio slugs with a known new home
+      { source: '/portfolio-details/the-new-school-website-design', destination: '/projects/military-newschool', permanent: true },
+      { source: '/portfolio-details/exotic-ripz', destination: '/projects/exotic-ripz', permanent: true },
+      { source: '/portfolio-details/public-affair', destination: '/projects/public-affair', permanent: true },
+      { source: '/portfolio-details/:slug*', destination: '/projects', permanent: true },
+      { source: '/our-projects', destination: '/projects', permanent: true },
+      { source: '/projects/nanny-and-nest', destination: '/projects', permanent: true },
+
+      // Old blog structure
+      { source: '/blog-details/:slug*', destination: '/blog', permanent: true },
+      { source: '/blogs', destination: '/blog', permanent: true },
+
+      // Old team, careers, knowledge base, shop, misc
+      { source: '/team-details/:slug*', destination: '/team', permanent: true },
+      { source: '/careers/:slug*', destination: '/about', permanent: true },
+      { source: '/careers', destination: '/about', permanent: true },
+      { source: '/knowledge-base-categories/:slug*', destination: '/faq', permanent: true },
+      { source: '/knowledge-base-details/:slug*', destination: '/faq', permanent: true },
+      { source: '/product/:slug*', destination: '/services', permanent: true },
+      { source: '/shop', destination: '/services', permanent: true },
+      { source: '/request-a-demo', destination: '/contact', permanent: true },
+    ];
+  },
+
   trailingSlash: false,
   poweredByHeader: false,
 };

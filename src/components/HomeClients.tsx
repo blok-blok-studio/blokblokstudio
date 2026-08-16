@@ -34,7 +34,6 @@
 
 import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
-import { motion } from 'framer-motion';
 
 /**
  * ---------------------------------------------------------------------------
@@ -85,11 +84,7 @@ export function HomeClients() {
             <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-r from-black to-transparent z-10" />
             <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-black to-transparent z-10" />
 
-            <motion.div
-              className="flex gap-12 sm:gap-20 whitespace-nowrap"
-              animate={{ x: ['0%', '-50%'] }}
-              transition={{ duration: 40, repeat: Infinity, ease: 'linear' }}
-            >
+            <div className="marquee-track flex gap-12 sm:gap-20 whitespace-nowrap">
               {[...clients, ...clients].map((client, i) => (
                 <span
                   key={`${client.name}-${i}`}
@@ -98,7 +93,7 @@ export function HomeClients() {
                   {client.name}
                 </span>
               ))}
-            </motion.div>
+            </div>
           </div>
         </AnimatedSection>
       </div>
