@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import { GoThanksContent } from '@/components/GoThanksContent';
+import { ThanksContent } from '@/components/ThanksContent';
 
 // Google Ads conversion page. Conversion action in Google Ads:
-// page view of /go/thanks/google (or the gtag conversion event fired here
+// page view of /vsl/thanks/google (or the gtag conversion event fired here
 // when NEXT_PUBLIC_GOOGLE_ADS_CONVERSION is set).
 export const metadata: Metadata = {
   title: 'One More Step | Blok Blok Studio',
@@ -11,5 +11,5 @@ export const metadata: Metadata = {
 };
 
 export default function GoThanksGooglePage() {
-  return <GoThanksContent platform="google" />;
+  return <ThanksContent platform="google" />;
 }

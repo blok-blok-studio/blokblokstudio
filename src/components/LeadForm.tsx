@@ -62,8 +62,8 @@ function hasAdsConsent(): boolean {
 
 /**
  * Pick the platform-specific thank-you page so each ad platform gets one
- * clean conversion URL: Meta clicks → /go/thanks/meta, Google clicks →
- * /go/thanks/google, anything else → /go/thanks (fires both, guarded).
+ * clean conversion URL: Meta clicks → /vsl/thanks/meta, Google clicks →
+ * /vsl/thanks/google, anything else → /vsl/thanks (fires both, guarded).
  */
 function thanksDestination(): string {
   try {
@@ -72,12 +72,12 @@ function thanksDestination(): string {
     // Organic pitch links (docs/pitch-templates.md) checked first: the IG
     // in-app browser can append fbclid to organic links, and these leads
     // must never fire ad conversion pixels.
-    if (['dm', 'text', 'cold-email', 'warm-email'].includes(src)) return '/go/thanks?src=organic';
-    if (p.get('fbclid') || ['meta', 'facebook', 'instagram', 'fb', 'ig'].includes(src)) return '/go/thanks/meta';
-    if (p.get('gclid') || p.get('wbraid') || p.get('gbraid') || src === 'google') return '/go/thanks/google';
-    return '/go/thanks';
+    if (['dm', 'text', 'cold-email', 'warm-email'].includes(src)) return '/vsl/thanks?src=organic';
+    if (p.get('fbclid') || ['meta', 'facebook', 'instagram', 'fb', 'ig'].includes(src)) return '/vsl/thanks/meta';
+    if (p.get('gclid') || p.get('wbraid') || p.get('gbraid') || src === 'google') return '/vsl/thanks/google';
+    return '/vsl/thanks';
   } catch {
-    return '/go/thanks';
+    return '/vsl/thanks';
   }
 }
 
@@ -118,6 +118,12 @@ export function LeadForm({ fieldTag = 'Ad Lead' }: { fieldTag?: string }) {
     const eventId = crypto.randomUUID();
     try {
       sessionStorage.setItem('bb-lead-event-id', eventId);
+      // For Google Enhanced Conversions on the thank-you page: gtag hashes
+      // these client-side; cleared right after the conversion fires.
+      sessionStorage.setItem('bb-lead-email', formData.email.trim().toLowerCase());
+      if (formData.phone) {
+        sessionStorage.setItem('bb-lead-phone', formData.phone.replace(/[^0-9+]/g, ''));
+      }
     } catch { /* private mode — pixel event just won't carry the id */ }
     const fbclid = new URLSearchParams(window.location.search).get('fbclid') || undefined;
 

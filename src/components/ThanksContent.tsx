@@ -6,13 +6,13 @@ import { AnimatedSection } from './AnimatedSection';
 import { LandingFooter } from './LandingFooter';
 
 /**
- * Thank-you / conversion pages for the /vsl ad funnel (routes live under /go/thanks for pixel-destination stability).
+ * Thank-you / conversion pages for the /vsl ad funnel.
  * The form routes each lead to a platform-specific URL so every ad platform
  * gets ONE clean conversion signal and campaign setup is a plain page-view rule:
- *   /go/thanks/meta    — Meta traffic  → fires fbq('track', 'Lead')
- *   /go/thanks/google  — Google traffic → fires the Google Ads conversion
- *   /go/thanks         — direct/unknown → fires both (each is a no-op if absent)
- *   /go/thanks?src=organic — organic pitch links → fires nothing
+ *   /vsl/thanks/meta    — Meta traffic  → fires fbq('track', 'Lead')
+ *   /vsl/thanks/google  — Google traffic → fires the Google Ads conversion
+ *   /vsl/thanks         — direct/unknown → fires both (each is a no-op if absent)
+ *   /vsl/thanks?src=organic — organic pitch links → fires nothing
  * Events only exist if the visitor consented to marketing cookies (AdsPixels).
  */
 
@@ -45,6 +45,19 @@ function fireMeta() {
 }
 
 function fireGoogle() {
+  // Enhanced Conversions for Leads: hand gtag the user-provided email and
+  // phone (stamped by the lead form) — gtag hashes them client-side before
+  // sending, which lifts attribution accuracy on Safari/iOS traffic.
+  try {
+    const email = sessionStorage.getItem('bb-lead-email') || '';
+    const phone = sessionStorage.getItem('bb-lead-phone') || '';
+    if (email || phone) {
+      window.gtag?.('set', 'user_data', {
+        ...(email ? { email } : {}),
+        ...(phone ? { phone_number: phone } : {}),
+      });
+    }
+  } catch { /* private mode */ }
   if (GOOGLE_CONVERSION) {
     window.gtag?.('event', 'conversion', { send_to: GOOGLE_CONVERSION });
   } else {
@@ -52,7 +65,7 @@ function fireGoogle() {
   }
 }
 
-export function GoThanksContent({ platform = 'all' }: { platform?: 'meta' | 'google' | 'all' }) {
+export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'google' | 'all' }) {
   const fired = useRef(false);
 
   useEffect(() => {
@@ -71,6 +84,8 @@ export function GoThanksContent({ platform = 'all' }: { platform?: 'meta' | 'goo
     try {
       if (new URLSearchParams(window.location.search).get('src') === 'organic') {
         sessionStorage.removeItem('bb-lead-event-id');
+        sessionStorage.removeItem('bb-lead-email');
+        sessionStorage.removeItem('bb-lead-phone');
         return;
       }
     } catch { /* ignore */ }
@@ -78,6 +93,8 @@ export function GoThanksContent({ platform = 'all' }: { platform?: 'meta' | 'goo
     if (platform === 'google' || platform === 'all') fireGoogle();
     try {
       sessionStorage.removeItem('bb-lead-event-id');
+      sessionStorage.removeItem('bb-lead-email');
+      sessionStorage.removeItem('bb-lead-phone');
     } catch { /* ignore */ }
   }, [platform]);
 

@@ -121,7 +121,7 @@ function loadGoogleTag(ids: string[]) {
   for (const id of ids) {
     if (configuredGoogleIds.has(id)) continue;
     configuredGoogleIds.add(id);
-    window.gtag('config', id);
+    window.gtag('config', id, { allow_enhanced_conversions: true });
   }
   grantGoogleConsent();
 }

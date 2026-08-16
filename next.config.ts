@@ -51,12 +51,6 @@ const nextConfig: NextConfig = {
   // pattern catch-alls to the closest live page.
   async redirects() {
     return [
-      // /go retired in favor of /vsl (Aug 2026): the VSL page carries the
-      // video, testimonials, and numbers before the same lead form. Exact
-      // match only — /go/thanks/* conversion pages must stay reachable
-      // (Meta/Google pixels + the GA4 generate_lead key event fire there).
-      // Query strings (utm_*, fbclid, gclid) are preserved automatically.
-      { source: '/go', destination: '/vsl', permanent: true },
 
       // Old de-de locale prefix: strip it, then the remaining path hits
       // the rules below on the second hop (locale now comes via cookie).
