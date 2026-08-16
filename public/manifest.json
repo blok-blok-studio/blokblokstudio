@@ -1,7 +1,7 @@
 {
   "name": "Blok Blok Studio",
   "short_name": "BlokBlok",
-  "description": "Creative Digital Agency - crafting bold brands, stunning websites, and digital products that move people.",
+  "description": "Web design studio in Berlin. Custom-coded websites that win customers.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
@@ -11,6 +11,11 @@
       "src": "/favicon.ico",
       "sizes": "any",
       "type": "image/x-icon"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     }
   ]
 }

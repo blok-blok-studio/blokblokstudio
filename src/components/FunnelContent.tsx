@@ -268,17 +268,20 @@ function StepIllustration({ step }: { step: string }) {
 }
 
 // Copy lives in the `call` namespace: benefit_{n}_title / benefit_{n}_desc
+// KSK/live-site scope (2026-08): websites only — icons match the web-only copy.
 const benefitCards = [
-  { icon: '🤖', color: 'from-green-500/10 to-emerald-500/5' },
+  { icon: '🎨', color: 'from-green-500/10 to-emerald-500/5' },
   { icon: '⚡', color: 'from-yellow-500/10 to-amber-500/5' },
-  { icon: '🌐', color: 'from-blue-500/10 to-cyan-500/5' },
-  { icon: '📈', color: 'from-orange-500/10 to-red-500/5' },
-  { icon: '🎬', color: 'from-purple-500/10 to-violet-500/5' },
-  { icon: '📊', color: 'from-pink-500/10 to-rose-500/5' },
+  { icon: '🔍', color: 'from-blue-500/10 to-cyan-500/5' },
+  { icon: '📅', color: 'from-orange-500/10 to-red-500/5' },
+  { icon: '🛒', color: 'from-purple-500/10 to-violet-500/5' },
+  { icon: '📝', color: 'from-pink-500/10 to-rose-500/5' },
 ];
 
 // Copy lives in the `call` namespace: module_{n}_title / module_{n}_item_{m}
-const serviceModuleIcons = ['🤖', '🌐', '📈', '📊'];
+// Websites-only scope: render just module 2 (Web & Brand). Modules 1/3/4
+// (AI, ads, client systems) stay in the translation files for later.
+const serviceModules = [{ icon: '🌐', n: 2 }];
 
 // Stats ('+200%' etc.) and 'Berlin' are figures / proper nouns — not translated.
 // Metric captions live in the `call` namespace: showcase_{n}_metric
@@ -293,7 +296,7 @@ const projectShowcase = [
 ];
 
 // Copy lives in the `call` namespace: included_{n}
-const includedIcons = ['👤', '🤖', '⚡', '🔍', '📊', '📝', '🛡️', '📈', '🎨', '🎬'];
+const includedIcons = ['👤', '📅', '⚡', '🔍', '📊', '📝', '🛡️', '📈', '🎨', '✅'];
 
 // Copy lives in the `call` namespace: whofor_{n}
 const idealFor = [
@@ -1516,12 +1519,12 @@ export function FunnelContent() {
           </div>
 
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
-            {serviceModuleIcons.map((icon, i) => (
-              <motion.div key={i} variants={fadeUp} transition={{ duration: 0.5 }}
-                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.02] border border-white/5 hover:border-orange-500/10 transition-colors">
+            {serviceModules.map((m) => (
+              <motion.div key={m.n} variants={fadeUp} transition={{ duration: 0.5 }}
+                className="rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-white/[0.02] border border-white/5 hover:border-orange-500/10 transition-colors sm:col-span-2 sm:max-w-lg sm:mx-auto sm:w-full">
                 <div className="flex items-center gap-3 mb-6">
-                  <span className="text-2xl">{icon}</span>
-                  <h3 className="text-lg sm:text-xl font-semibold">{t(`module_${i + 1}_title`)}</h3>
+                  <span className="text-2xl">{m.icon}</span>
+                  <h3 className="text-lg sm:text-xl font-semibold">{t(`module_${m.n}_title`)}</h3>
                 </div>
                 <ul className="space-y-3">
                   {[1, 2, 3, 4].map((j) => (
@@ -1529,7 +1532,7 @@ export function FunnelContent() {
                       <svg className="w-4 h-4 flex-shrink-0 text-orange-500/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
-                      {t(`module_${i + 1}_item_${j}`)}
+                      {t(`module_${m.n}_item_${j}`)}
                     </li>
                   ))}
                 </ul>

@@ -131,11 +131,10 @@ const audienceKeys = [
   'audience_other',
 ] as const;
 
+// KSK/live-site scope (2026-08): websites only. The ads/social/ai entries
+// stay in the translation files for later re-enable.
 const serviceConfigs = [
   { key: 'websites', emoji: '\u{1F310}' },
-  { key: 'ads', emoji: '\u{1F4E3}' },
-  { key: 'social', emoji: '\u{1F4F1}' },
-  { key: 'ai', emoji: '\u{1F916}' },
 ] as const;
 
 const processConfigs = [
@@ -163,141 +162,9 @@ const serviceCatalog = [
       {
         label: 'Monthly Retainers',
         items: [
-          { icon: '\u{1F6E0}️', name: 'Site Care' },
+          { icon: '\u{1F6E0}\uFE0F', name: 'Site Care' },
           { icon: '\u{1F331}', name: 'Site Growth' },
           { icon: '\u{1F91D}', name: 'Site Partnership' },
-        ],
-      },
-    ],
-  },
-  {
-    category: 'App Development',
-    icon: '\u{1F4F1}',
-    groups: [
-      {
-        label: 'One-Time Builds',
-        items: [
-          { icon: '\u{1F680}', name: 'Launchpad' },
-          { icon: '\u{1F3AC}', name: 'Studio' },
-          { icon: '\u{1F3C6}', name: 'Flagship' },
-        ],
-      },
-      {
-        label: 'Monthly Retainers',
-        items: [
-          { icon: '\u{1F493}', name: 'Keep Alive' },
-          { icon: '\u{26A1}', name: 'Momentum' },
-          { icon: '\u{1F91D}', name: 'Partner' },
-        ],
-      },
-    ],
-  },
-  {
-    category: 'Social Media',
-    icon: '\u{1F4F8}',
-    groups: [
-      {
-        label: 'One-Time Setup',
-        items: [
-          { icon: '\u{1F4F2}', name: 'Single Platform Setup' },
-          { icon: '\u{1F310}', name: 'Multi-Platform Launch' },
-          { icon: '\u{2728}', name: 'Full Social Rebrand' },
-        ],
-      },
-      {
-        label: 'Monthly Management',
-        items: [
-          { icon: '\u{1F331}', name: 'Social Starter' },
-          { icon: '\u{1F4C8}', name: 'Social Growth' },
-          { icon: '\u{1F451}', name: 'Social Domination' },
-        ],
-      },
-    ],
-  },
-  {
-    category: 'Marketing',
-    icon: '\u{1F4E3}',
-    groups: [
-      {
-        label: 'One-Time Projects',
-        items: [
-          { icon: '\u{1F5FA}️', name: 'Marketing Audit & Roadmap' },
-          { icon: '\u{1F3AF}', name: 'Campaign Launchpad' },
-          { icon: '\u{1F680}', name: 'Full Product Launch' },
-        ],
-      },
-      {
-        label: 'Monthly Retainers',
-        items: [
-          { icon: '\u{1F441}️', name: 'Maintain & Monitor' },
-          { icon: '\u{2699}️', name: 'Growth Engine' },
-          { icon: '\u{1F91D}', name: 'Full Partnership' },
-        ],
-      },
-    ],
-  },
-  {
-    category: 'AI Agents',
-    icon: '\u{1F916}',
-    groups: [
-      {
-        label: 'One-Time Build',
-        items: [
-          { icon: '\u{1F9E0}', name: 'Single Agent Build' },
-          { icon: '\u{1F465}', name: 'Agent Team' },
-          { icon: '\u{1F5A5}️', name: 'AI Operations' },
-        ],
-      },
-      {
-        label: 'Monthly Retainer',
-        items: [
-          { icon: '\u{1F527}', name: 'Agent Maintenance' },
-          { icon: '\u{1F4C8}', name: 'Agent Growth' },
-          { icon: '\u{1F39B}️', name: 'Agent Command Center' },
-        ],
-      },
-    ],
-  },
-  {
-    category: 'Custom SaaS',
-    icon: '\u{1F4BB}',
-    groups: [
-      {
-        label: 'One-Time Builds',
-        items: [
-          { icon: '\u{1F50D}', name: 'Discovery & Scoping' },
-          { icon: '\u{1F3D7}️', name: 'Standard Build' },
-          { icon: '\u{1F3E2}', name: 'Enterprise Build' },
-        ],
-      },
-      {
-        label: 'Monthly Retainers',
-        items: [
-          { icon: '\u{1F4BB}', name: 'Dev Support' },
-          { icon: '\u{1F4B0}', name: 'Hourly Bank' },
-          { icon: '\u{26A1}', name: 'Active Development' },
-        ],
-      },
-    ],
-  },
-  {
-    category: 'Branding Strategy',
-    icon: '\u{1F3A8}',
-    groups: [
-      {
-        label: 'One-Time Projects',
-        items: [
-          { icon: '\u{270F}️', name: 'Brand Lite' },
-          { icon: '\u{1F9E9}', name: 'Brand System' },
-          { icon: '\u{1F98B}', name: 'Brand Transformation' },
-        ],
-      },
-      {
-        label: 'Monthly Retainers',
-        items: [
-          { icon: '\u{1F6E1}️', name: 'Brand Keeper' },
-          { icon: '\u{1F3AD}', name: 'Creative Direction' },
-          { icon: '\u{1F3DB}️', name: 'Embedded Studio' },
         ],
       },
     ],

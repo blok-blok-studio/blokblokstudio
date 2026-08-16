@@ -15,7 +15,7 @@ import { BusinessPicker } from './BusinessPicker';
  * page's leads are distinguishable ("Ad Lead" vs "VSL Lead").
  */
 
-const SERVICES = ['Website', 'Google / Meta Ads', 'Social Media', 'AI & Automation', 'Not sure yet'];
+const SERVICES = ['New website', 'Website redesign', 'Online shop', 'Landing page', 'Not sure yet'];
 
 /** Collect ad attribution from the URL so the sales team sees exactly which ad produced the lead. */
 function collectAttribution(): string {
