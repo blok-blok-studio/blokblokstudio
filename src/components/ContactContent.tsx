@@ -324,7 +324,7 @@ export function ContactContent() {
                   </label>
                 </div>
 
-                <Turnstile onToken={onTurnstileToken} theme="dark" className="mb-2" />
+                <Turnstile onToken={onTurnstileToken} theme="light" className="mb-2" />
 
                 {error && (
                   <p

@@ -1,10 +1,16 @@
 'use client';
 
+/**
+ * Homepage "Selected Work" — editorial redesign.
+ * One large featured project, then a 2x2 grid. Captions sit below the
+ * image (magazine style), with a results line where we have real numbers.
+ * Lineup and order mirror src/data/projects.ts.
+ */
+
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { AnimatedSection } from './AnimatedSection';
-import { motion } from 'framer-motion';
 
 const featuredProjects = [
   {
@@ -13,7 +19,15 @@ const featuredProjects = [
     year: '2025',
     slug: 'coach-luki',
     image: '/images/projects/coachluki.jpg',
-    url: 'https://coachluki.com',
+    stat: 'Booking and Stripe payments, built to convert',
+  },
+  {
+    title: 'Bronco Plumbing',
+    category: 'Web Design',
+    year: '2026',
+    slug: 'bronco-plumbing',
+    image: '/images/projects/bronco.webp',
+    stat: '$50k revenue in the first 5 months',
   },
   {
     title: 'Coach Kofi',
@@ -21,15 +35,7 @@ const featuredProjects = [
     year: '2025',
     slug: 'coach-kofi',
     image: '/images/projects/coachkofi.webp',
-    url: 'https://coachkofi.de',
-  },
-  {
-    title: 'Nanny & Nest',
-    category: 'Web Design',
-    year: '2025',
-    slug: 'nanny-and-nest',
-    image: '/images/projects/nannyandnest.webp',
-    url: 'https://www.nannyandnest.com',
+    stat: 'Consultation requests up 200%',
   },
   {
     title: 'Exotic Ripz',
@@ -37,7 +43,7 @@ const featuredProjects = [
     year: '2025',
     slug: 'exotic-ripz',
     image: '/images/projects/exoticripz.jpg',
-    url: 'https://exoticripz.com',
+    stat: '$191k in sales across 1,790 orders',
   },
   {
     title: 'KDS Systems',
@@ -45,9 +51,32 @@ const featuredProjects = [
     year: '2025',
     slug: 'kds-systems',
     image: '/images/projects/kdssys.webp',
-    url: 'https://kdssys.com',
+    stat: 'Managed IT, repositioned and relaunched',
   },
 ];
+
+/* Shared caption block under each project image */
+function ProjectCaption({
+  project,
+  large = false,
+}: {
+  project: (typeof featuredProjects)[number];
+  large?: boolean;
+}) {
+  return (
+    <div className="pt-4 sm:pt-5">
+      <div className="flex items-baseline justify-between gap-4">
+        <h3 className={`${large ? 'text-2xl sm:text-3xl' : 'text-xl sm:text-2xl'} font-light text-ink`}>
+          {project.title}
+        </h3>
+        <p className="text-xs text-gray-500 whitespace-nowrap">
+          {project.category} · {project.year}
+        </p>
+      </div>
+      <p className="text-sm text-gray-400 mt-1">{project.stat}</p>
+    </div>
+  );
+}
 
 export function HomeProjects() {
   const t = useTranslations('home');
@@ -55,117 +84,56 @@ export function HomeProjects() {
   return (
     <section className="py-16 sm:py-24 lg:py-32 px-5 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Section Header */}
-        <AnimatedSection className="flex flex-col md:flex-row items-start md:items-end justify-between mb-10 sm:mb-16 gap-4 sm:gap-6">
-          <div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4">
-              {t('projects_heading')}
-            </h2>
-            <p className="text-gray-400 text-base sm:text-lg max-w-xl">
-              {t('projects_subheading')}
-            </p>
-          </div>
-          <Link
-            href="/projects"
-            className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors group"
-          >
-            {t('projects_cta')}
-            <svg
-              className="w-4 h-4 group-hover:translate-x-1 transition-transform"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+        {/* Section header: numbered label, serif heading, plain text link */}
+        <AnimatedSection className="mb-10 sm:mb-16">
+          <div className="editorial-rule pt-6 sm:pt-8 flex flex-col md:flex-row items-start md:items-end justify-between gap-4 sm:gap-6">
+            <div>
+              <p className="section-label mb-3">02</p>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight">
+                {t('projects_heading')}
+              </h2>
+            </div>
+            <Link
+              href="/projects"
+              className="text-sm text-ink underline underline-offset-8 decoration-1 decoration-gray-700 hover:decoration-ink transition-colors"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
+              {t('projects_cta')}
+            </Link>
+          </div>
         </AnimatedSection>
 
-        {/* Featured project, large hero card */}
-        <AnimatedSection className="mb-4 sm:mb-6">
-          <Link href={`/projects/${featuredProjects[0].slug}`}>
-            <motion.div
-              className="group relative overflow-hidden rounded-2xl sm:rounded-3xl cursor-pointer hover:-translate-y-2 transition-transform duration-300"
-            >
-              <div className="aspect-[16/9] relative bg-gray-900">
-                <Image
-                  src={featuredProjects[0].image}
-                  alt={featuredProjects[0].title}
-                  fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 768px) 100vw, 1280px"
-                  priority
-                />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
-              </div>
-              {/* Caption sits below the image on mobile (overlaying busy
-                  screenshots made the text unreadable), overlays on sm+. */}
-              <div className="p-4 sm:p-8 bg-white/[0.03] sm:bg-transparent sm:absolute sm:bottom-0 sm:left-0 sm:right-0 sm:bg-gradient-to-t sm:from-black/80 sm:via-black/40 sm:to-transparent">
-                <div className="flex items-end justify-between">
-                  <div>
-                    <p className="text-xs sm:text-sm text-gray-300 mb-1">
-                      {featuredProjects[0].category} · {featuredProjects[0].year}
-                    </p>
-                    <h3 className="text-xl sm:text-2xl md:text-3xl font-bold">
-                      {featuredProjects[0].title}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-gray-400 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                      {featuredProjects[0].url}
-                    </p>
-                  </div>
-                  <motion.div
-                    className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-white/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/5 backdrop-blur-sm"
-                    whileHover={{ scale: 1.1 }}
-                  >
-                    <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17L17 7M17 7H7M17 7v10" />
-                    </svg>
-                  </motion.div>
-                </div>
-              </div>
-            </motion.div>
+        {/* Featured project */}
+        <AnimatedSection className="mb-12 sm:mb-16">
+          <Link href={`/projects/${featuredProjects[0].slug}`} className="group block">
+            <div className="aspect-[16/9] relative bg-gray-950 border border-white/10 overflow-hidden">
+              <Image
+                src={featuredProjects[0].image}
+                alt={featuredProjects[0].title}
+                fill
+                className="object-cover object-top transition-transform duration-700 group-hover:scale-[1.02]"
+                sizes="(max-width: 768px) 100vw, 1280px"
+                priority
+              />
+            </div>
+            <ProjectCaption project={featuredProjects[0]} large />
           </Link>
         </AnimatedSection>
 
         {/* 2x2 grid of remaining projects */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-12 sm:gap-y-16">
           {featuredProjects.slice(1).map((project, i) => (
-            <AnimatedSection key={project.slug} delay={i * 0.1}>
-              <Link href={`/projects/${project.slug}`}>
-                <motion.div
-                  className="group relative overflow-hidden rounded-2xl sm:rounded-3xl cursor-pointer hover:-translate-y-2 transition-transform duration-300"
-                >
-                  <div className="aspect-[4/3] relative bg-gray-900">
-                    <Image
-                      src={project.image}
-                      alt={project.title}
-                      fill
-                      className="object-cover object-top"
-                      sizes="(max-width: 640px) 100vw, 640px"
-                    />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500" />
-                  </div>
-                  <div className="p-4 sm:p-6 bg-white/[0.03] sm:bg-transparent sm:absolute sm:bottom-0 sm:left-0 sm:right-0 sm:bg-gradient-to-t sm:from-black/80 sm:via-black/30 sm:to-transparent">
-                    <div className="flex items-end justify-between">
-                      <div>
-                        <p className="text-xs text-gray-300 mb-1">
-                          {project.category} · {project.year}
-                        </p>
-                        <h3 className="text-lg sm:text-xl font-semibold">
-                          {project.title}
-                        </h3>
-                      </div>
-                      <motion.div
-                        className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/5 backdrop-blur-sm"
-                        whileHover={{ scale: 1.1 }}
-                      >
-                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17L17 7M17 7H7M17 7v10" />
-                        </svg>
-                      </motion.div>
-                    </div>
-                  </div>
-                </motion.div>
+            <AnimatedSection key={project.slug} delay={i * 0.08}>
+              <Link href={`/projects/${project.slug}`} className="group block">
+                <div className="aspect-[4/3] relative bg-gray-950 border border-white/10 overflow-hidden">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover object-top transition-transform duration-700 group-hover:scale-[1.02]"
+                    sizes="(max-width: 640px) 100vw, 640px"
+                  />
+                </div>
+                <ProjectCaption project={project} />
               </Link>
             </AnimatedSection>
           ))}

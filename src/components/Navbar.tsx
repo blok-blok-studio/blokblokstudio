@@ -187,11 +187,11 @@ export function Navbar() {
              * ============================================================== */}
             <Link href="/" className="relative z-50">
               <Image
-                src="/logo.svg"
+                src="/wordmark-black.svg"
                 alt="Blok Blok Studio"
-                width={120}
+                width={160}
                 height={40}
-                className="h-8 sm:h-10 w-auto"
+                className="h-5 sm:h-6 w-auto"
                 priority
               />
             </Link>
@@ -252,7 +252,7 @@ export function Navbar() {
               <LanguageSwitcher variant="compact" />
               <Link
                 href="/contact"
-                className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-gray-100 transition-all duration-300"
+                className="px-5 py-2.5 bg-ink text-paper text-sm font-medium hover:bg-gray-100 transition-all duration-300"
               >
                 {t('contact')}
               </Link>

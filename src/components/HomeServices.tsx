@@ -65,13 +65,16 @@ export function HomeServices() {
       <div className="max-w-7xl mx-auto">
 
         {/* ── Heading ── */}
-        <AnimatedSection className="text-center mb-10 sm:mb-14 lg:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">
-            {t('services_heading')}
-          </h2>
-          <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-            {t('services_subheading')}
-          </p>
+        <AnimatedSection className="mb-10 sm:mb-14 lg:mb-16">
+          <div className="editorial-rule pt-6 sm:pt-8">
+            <p className="section-label mb-3">01</p>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight mb-4 sm:mb-6">
+              {t('services_heading')}
+            </h2>
+            <p className="text-gray-400 text-base sm:text-lg max-w-2xl">
+              {t('services_subheading')}
+            </p>
+          </div>
         </AnimatedSection>
 
         {/* ── Tabs ── (hidden when LIVE_VISIBLE_SERVICES filter is active) */}
@@ -120,40 +123,30 @@ export function HomeServices() {
                 transition={{ type: 'spring', stiffness: 80, damping: 15, delay: i * 0.06 }}
                 className={services.length === 1 ? 'w-full max-w-md' : ''}
               >
-                <motion.div
-                  className={`relative rounded-2xl sm:rounded-3xl p-[1px] h-full bg-gradient-to-br ${service.gradient} group cursor-pointer hover:-translate-y-2 transition-transform duration-300`}
-                >
-                  <div className="bg-gray-950 rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full">
-                    {/* Accent bar */}
-                    <div
-                      className="w-10 h-1 rounded-full mb-5"
-                      style={{ backgroundColor: service.accent }}
-                    />
+                <div className="border border-white/15 bg-white/[0.02] p-6 sm:p-8 h-full">
+                  {/* Accent bar: brand orange for every service */}
+                  <div className="w-10 h-0.5 mb-5 bg-accent" />
 
-                    {/* Title */}
-                    <h3 className="text-lg sm:text-xl font-bold tracking-wide uppercase mb-1.5 group-hover:text-white transition-colors">
-                      {service.title}
-                    </h3>
+                  {/* Title */}
+                  <h3 className="text-xl sm:text-2xl font-light mb-1.5">
+                    {service.title}
+                  </h3>
 
-                    {/* Subtitle */}
-                    <p className="text-gray-400 text-xs sm:text-sm italic mb-5">
-                      {service.subtitle}
-                    </p>
+                  {/* Subtitle */}
+                  <p className="text-gray-400 text-xs sm:text-sm italic mb-5">
+                    {service.subtitle}
+                  </p>
 
-                    {/* Bullets (first 3) */}
-                    <ul className="space-y-2">
-                      {service.bullets.map((bullet, j) => (
-                        <li key={j} className="flex items-start gap-2.5 text-xs sm:text-sm text-gray-300 group-hover:text-gray-200 transition-colors">
-                          <span
-                            className="w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0"
-                            style={{ backgroundColor: service.accent }}
-                          />
-                          {bullet}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </motion.div>
+                  {/* Bullets (first 3) */}
+                  <ul className="space-y-2.5">
+                    {service.bullets.map((bullet, j) => (
+                      <li key={j} className="flex items-start gap-2.5 text-xs sm:text-sm text-gray-300">
+                        <span className="w-1 h-1 rounded-full bg-ink mt-1.5 flex-shrink-0" />
+                        {bullet}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </motion.div>
             ))}
           </AnimatePresence>
