@@ -6,7 +6,7 @@ import { AnimatedSection } from './AnimatedSection';
 import { LandingFooter } from './LandingFooter';
 
 /**
- * Thank-you / conversion pages for the /go ad funnel.
+ * Thank-you / conversion pages for the /vsl ad funnel (routes live under /go/thanks for pixel-destination stability).
  * The form routes each lead to a platform-specific URL so every ad platform
  * gets ONE clean conversion signal and campaign setup is a plain page-view rule:
  *   /go/thanks/meta    — Meta traffic  → fires fbq('track', 'Lead')
@@ -58,7 +58,7 @@ export function GoThanksContent({ platform = 'all' }: { platform?: 'meta' | 'goo
   useEffect(() => {
     if (fired.current) return;
     fired.current = true;
-    // Only count real submissions: the /go form stamps this key right
+    // Only count real submissions: the funnel lead form stamps this key right
     // before redirecting. Direct visits/refreshes fire nothing.
     let submitted = false;
     try {

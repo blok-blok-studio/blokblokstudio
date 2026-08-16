@@ -8,7 +8,7 @@ import { Turnstile } from './Turnstile';
 import { BusinessPicker } from './BusinessPicker';
 
 /**
- * Shared ad-funnel lead form: /go renders it beside the pitch, /vsl under
+ * Ad-funnel lead form, rendered on /vsl under
  * the video. Owns capture state, ad attribution, consent gating, spam
  * protection, Meta CAPI event id, and the platform-specific thank-you
  * redirect. `fieldTag` labels the lead in the site DB + tracker so each

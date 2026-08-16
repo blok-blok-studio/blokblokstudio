@@ -98,7 +98,7 @@ Solo mode: same person, two calls. The split still matters — never sell on the
    (broad + retargeting once the pixel has data).
 3. **Creative:** 3–5 variants; lead with the client results ("200% more consultations").
    Video/reel format outperforms static for service businesses.
-4. **URL template:** `https://blokblokstudio.com/go?utm_source=meta&utm_medium=paid&utm_campaign={{campaign.name}}&utm_content={{ad.name}}`
+4. **URL template:** `https://www.blokblokstudio.com/vsl?utm_source=meta&utm_medium=paid&utm_campaign={{campaign.name}}&utm_content={{ad.name}}`
    (fbclid is appended automatically; the form captures everything into the tracker notes).
 5. **Budget:** start €30–50/day, judge nothing before 50 conversions or 2 weeks.
 
