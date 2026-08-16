@@ -69,17 +69,10 @@ export function VslContent() {
           </div>
         </AnimatedSection>
 
-        {/* Lead capture directly under the video: with no live call volume
-            yet, a 30-second form converts cold traffic far better than
-            sending it to an empty calendar. We book the call in the reply. */}
-        <AnimatedSection delay={0.15}>
-          <LeadForm fieldTag="VSL Lead" />
-        </AnimatedSection>
-
-        {/* Client proof under the form: real faces saying it worked. No
-            links out — the page keeps its one exit (the form above). */}
+        {/* Portfolio first, per Chase: prospects see the client results and
+            testimonials right under the video, then hit the form. */}
         <AnimatedSection delay={0.2}>
-          <div className="mt-14 sm:mt-20 text-left">
+          <div className="mt-4 sm:mt-6 text-left">
             <p className="text-xs font-semibold tracking-wider text-gray-500 uppercase text-center mb-6">
               Clients, in their own words
             </p>
@@ -141,6 +134,14 @@ export function VslContent() {
                 </div>
               ))}
             </div>
+          </div>
+        </AnimatedSection>
+
+        {/* Lead capture after the proof: they've seen the video, the
+            testimonials, and the numbers — now the 30-second ask. */}
+        <AnimatedSection delay={0.3}>
+          <div className="mt-14 sm:mt-20">
+            <LeadForm fieldTag="VSL Lead" />
           </div>
         </AnimatedSection>
 
