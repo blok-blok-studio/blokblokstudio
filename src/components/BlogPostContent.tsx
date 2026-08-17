@@ -5,6 +5,49 @@ import { AnimatedSection } from './AnimatedSection';
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 
+const LINK_CLASS =
+  'text-orange-500 underline underline-offset-2 hover:text-orange-400 break-words';
+
+// Renders [text](url), **bold**, and bare http(s) URLs inside a line of text.
+function renderInline(text: string): React.ReactNode {
+  const parts: React.ReactNode[] = [];
+  const pattern =
+    /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|\*\*([^*]+)\*\*|(https?:\/\/[^\s)]+)/g;
+  let last = 0;
+  let key = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > last) parts.push(text.slice(last, match.index));
+    if (match[1]) {
+      parts.push(
+        <a key={key++} href={match[2]} target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+          {match[1]}
+        </a>
+      );
+    } else if (match[3]) {
+      parts.push(
+        <strong key={key++} className="text-white">
+          {match[3]}
+        </strong>
+      );
+    } else {
+      // Bare URL: keep trailing punctuation out of the link target
+      const raw = match[4];
+      const trimmed = raw.replace(/[.,;:]+$/, '');
+      parts.push(
+        <a key={key++} href={trimmed} target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+          {trimmed}
+        </a>
+      );
+      if (trimmed.length < raw.length) parts.push(raw.slice(trimmed.length));
+    }
+    last = pattern.lastIndex;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts.length === 1 ? parts[0] : parts;
+}
+
 function MarkdownRenderer({ content }: { content: string }) {
   const lines = content.split('\n');
   const elements: React.ReactNode[] = [];
@@ -32,7 +75,7 @@ function MarkdownRenderer({ content }: { content: string }) {
         elements.push(
           <li key={i} className="flex items-start gap-3 text-gray-400 leading-relaxed">
             <span className="text-white/40 mt-1">&bull;</span>
-            <span><strong className="text-white">{match[1]}</strong>{match[2]}</span>
+            <span><strong className="text-white">{match[1]}</strong>{renderInline(match[2])}</span>
           </li>
         );
       }
@@ -40,7 +83,7 @@ function MarkdownRenderer({ content }: { content: string }) {
       elements.push(
         <li key={i} className="flex items-start gap-3 text-gray-400 leading-relaxed">
           <span className="text-white/40 mt-1">&bull;</span>
-          <span>{line.slice(2)}</span>
+          <span>{renderInline(line.slice(2))}</span>
         </li>
       );
     } else if (line.startsWith('**') && line.endsWith('**')) {
@@ -50,7 +93,7 @@ function MarkdownRenderer({ content }: { content: string }) {
         elements.push(
           <p key={i} className="text-gray-400 leading-relaxed mb-4">
             <strong className="text-white">{m[1]}: </strong>
-            {m[2].trim()}
+            {renderInline(m[2].trim())}
           </p>
         );
       } else {
@@ -73,7 +116,7 @@ function MarkdownRenderer({ content }: { content: string }) {
     } else {
       elements.push(
         <p key={i} className="text-gray-400 leading-relaxed mb-4">
-          {line}
+          {renderInline(line)}
         </p>
       );
     }
