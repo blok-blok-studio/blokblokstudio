@@ -73,6 +73,18 @@ export async function POST(req: NextRequest) {
       req.headers.get('x-real-ip') ||
       'unknown';
 
+    // Repeat submissions keep their history: the new summary goes on top,
+    // earlier ones stay below it with the date they came in, so service
+    // picks and attribution from a lead's first visit are never lost.
+    const existing = await prisma.lead.findUnique({ where: { email }, select: { problem: true, consentTimestamp: true } });
+    let mergedProblem = problem;
+    if (existing?.problem && existing.problem !== problem) {
+      const when = existing.consentTimestamp
+        ? existing.consentTimestamp.toISOString().slice(0, 10)
+        : 'earlier';
+      mergedProblem = `${problem}\n\n--- Previous submission (${when}) ---\n${existing.problem}`;
+    }
+
     // Upsert — if same email submits again, update their info
     const lead = await prisma.lead.upsert({
       where: { email },
@@ -81,7 +93,7 @@ export async function POST(req: NextRequest) {
         field,
         website: noWebsite ? null : (website || null),
         noWebsite: !!noWebsite,
-        problem,
+        problem: mergedProblem,
         consentGiven: true,
         consentTimestamp: new Date(),
         consentIp,
