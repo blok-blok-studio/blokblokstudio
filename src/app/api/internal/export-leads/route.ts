@@ -20,6 +20,12 @@ export async function GET(req: NextRequest) {
   const secret =
     req.headers.get('x-internal-secret') || req.nextUrl.searchParams.get('key');
   if (!secret || secret !== process.env.INTERNAL_API_SECRET) {
+    // TEMP diagnostic (lengths only, never values): runtime env mismatch hunt
+    console.warn('[export-leads] auth failed', {
+      gotLen: secret?.length ?? 0,
+      envLen: (process.env.INTERNAL_API_SECRET || '').length,
+      envSet: process.env.INTERNAL_API_SECRET !== undefined,
+    });
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
