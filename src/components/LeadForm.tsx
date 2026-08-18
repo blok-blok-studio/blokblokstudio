@@ -81,7 +81,17 @@ function thanksDestination(): string {
   }
 }
 
-export function LeadForm({ fieldTag = 'Ad Lead' }: { fieldTag?: string }) {
+export function LeadForm({
+  fieldTag = 'Ad Lead',
+  ctaLabel = 'Get my free growth plan',
+  calendarUrl,
+}: {
+  fieldTag?: string;
+  ctaLabel?: string;
+  // When set, a successful submit opens this booking calendar in a new tab
+  // (on top of the usual thank-you redirect, so conversions still fire).
+  calendarUrl?: string;
+}) {
   const router = useRouter();
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', business: '', service: '', _hp: '' });
   const [consent, setConsent] = useState(false);
@@ -112,6 +122,16 @@ export function LeadForm({ fieldTag = 'Ad Lead' }: { fieldTag?: string }) {
     if (!canSubmit || submitting) return;
     setSubmitting(true);
     setError('');
+
+    // Open the tab now, while we're still inside the click gesture, so
+    // popup blockers allow it; it gets pointed at the calendar once the
+    // lead saves (and closed if the save fails).
+    let calWindow: Window | null = null;
+    if (calendarUrl) {
+      try {
+        calWindow = window.open('about:blank', '_blank');
+      } catch { /* blocked — thank-you page still offers booking */ }
+    }
 
     // Shared browser/server event id so Meta deduplicates the pixel Lead
     // (thank-you page) against the Conversions API Lead (server)
@@ -166,8 +186,13 @@ export function LeadForm({ fieldTag = 'Ad Lead' }: { fieldTag?: string }) {
         const data = await res.json();
         throw new Error(data.error || 'Something went wrong');
       }
+      if (calendarUrl) {
+        if (calWindow) calWindow.location.href = calendarUrl;
+        else window.open(calendarUrl, '_blank');
+      }
       router.push(thanksDestination());
     } catch (err) {
+      calWindow?.close();
       setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
       setSubmitting(false);
     }
@@ -286,13 +311,13 @@ export function LeadForm({ fieldTag = 'Ad Lead' }: { fieldTag?: string }) {
           disabled={!canSubmit || submitting}
           whileHover={{ scale: canSubmit && !submitting ? 1.02 : 1 }}
           whileTap={{ scale: canSubmit && !submitting ? 0.98 : 1 }}
-          className={`w-full py-4 rounded-full font-semibold text-sm transition-colors ${
+          className={`w-full py-4 rounded-full font-semibold text-sm transition-all duration-300 ${
             canSubmit && !submitting
-              ? 'bg-white text-black hover:bg-gray-100'
+              ? 'bg-gradient-to-r from-orange-500 to-amber-400 text-black shadow-lg shadow-orange-500/40 hover:shadow-orange-500/60'
               : 'bg-white/10 text-gray-500 cursor-not-allowed'
           }`}
         >
-          {submitting ? 'Sending...' : 'Get my free growth plan'}
+          {submitting ? 'Sending...' : ctaLabel}
         </motion.button>
 
         <p className="text-center text-[11px] text-gray-600">
