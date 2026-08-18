@@ -93,7 +93,11 @@ export function LeadForm({
   calendarUrl?: string;
 }) {
   const router = useRouter();
-  const [formData, setFormData] = useState({ name: '', email: '', phone: '', business: '', service: '', _hp: '' });
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', business: '', _hp: '' });
+  const [services, setServices] = useState<string[]>([]);
+
+  const toggleService = (s: string) =>
+    setServices((prev) => (prev.includes(s) ? prev.filter((x) => x !== s) : [...prev, s]));
   const [consent, setConsent] = useState(false);
   const [emailOptIn, setEmailOptIn] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -114,7 +118,7 @@ export function LeadForm({
     formData.name.trim() !== '' &&
     formData.email.includes('@') &&
     formData.business.trim() !== '' &&
-    formData.service !== '' &&
+    services.length > 0 &&
     consent;
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -150,7 +154,7 @@ export function LeadForm({
     const summary = [
       fieldTag.toUpperCase(),
       '',
-      `Service interest: ${formData.service}`,
+      `Service interest: ${services.join(', ')}`,
       formData.phone ? `Phone: ${formData.phone}` : null,
       attribution.current ? `Attribution: ${attribution.current}` : null,
     ]
@@ -253,15 +257,18 @@ export function LeadForm({
         </div>
 
         <div>
-          <p className="block text-xs text-gray-400 mb-2 ml-1">What do you need help with?</p>
+          <p className="block text-xs text-gray-400 mb-2 ml-1">
+            What do you need help with? <span className="text-gray-600">(pick all that apply)</span>
+          </p>
           <div className="flex flex-wrap gap-2">
             {SERVICES.map((s) => (
               <button
                 key={s}
                 type="button"
-                onClick={() => setFormData({ ...formData, service: s })}
+                aria-pressed={services.includes(s)}
+                onClick={() => toggleService(s)}
                 className={`px-3.5 py-2 rounded-full text-xs sm:text-sm border transition-colors ${
-                  formData.service === s
+                  services.includes(s)
                     ? 'border-orange-500/60 bg-orange-500/15 text-orange-300'
                     : 'border-white/10 bg-white/[0.03] text-gray-400 hover:border-white/25'
                 }`}
