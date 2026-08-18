@@ -6,7 +6,7 @@ import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, AUDIT_LIST } from '@/lib/auto-list';
 import { pushLeadToTracker } from '@/lib/tracker';
 import { sendMetaLeadEvent } from '@/lib/meta-capi';
-import { sendMarketingConfirmEmail, sendLeadAckEmail } from '@/lib/email';
+import { sendMarketingConfirmEmail, sendLeadAckEmail, notifyNewLead } from '@/lib/email';
 import { randomUUID } from 'crypto';
 
 // Rate limiting: 5 submissions per IP per 15 minutes
@@ -122,6 +122,16 @@ export async function POST(req: NextRequest) {
     // Speed to lead: instant acknowledgment with the booking link so hot
     // leads can self-schedule while we're being notified (non-blocking)
     sendLeadAckEmail(email, name).catch(() => {});
+
+    // Instant alert to NOTIFICATION_EMAIL with everything the lead
+    // submitted: services, phone, attribution (in problem) plus business
+    notifyNewLead({
+      name,
+      email,
+      field,
+      website: noWebsite ? null : (website || null),
+      problem: business ? `Business: ${business}\n${problem}` : problem,
+    }).catch(() => {});
 
     // Explicit marketing opt-in: double opt-in (UWG §7). The subscription
     // only activates when the confirmation link is clicked — see
