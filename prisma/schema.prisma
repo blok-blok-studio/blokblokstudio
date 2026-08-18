@@ -15,6 +15,8 @@ model Lead {
   website   String?
   noWebsite Boolean  @default(false)
   problem   String
+  phone     String?
+  business  String?
   source    String   @default("funnel")
 
   emailsSent   Int      @default(0)

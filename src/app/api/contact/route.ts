@@ -87,6 +87,8 @@ export async function POST(req: NextRequest) {
           field: company || 'Unknown',
           website: company || null,
           problem: message,
+          phone: typeof phone === 'string' && phone.trim() ? phone.trim() : null,
+          business: company || null,
           source: 'contact',
           consentGiven: consent === true,
           consentTimestamp: new Date(),
