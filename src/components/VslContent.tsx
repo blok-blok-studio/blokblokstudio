@@ -25,23 +25,23 @@ const BOOKING_URL = 'https://calendar.app.google/HeP9bUhWaKfosQF26';
 const SPECIALTIES = [
   {
     title: 'SEO',
-    desc: 'Rank where your customers actually search. On-page, technical, and local, done properly.',
+    desc: 'Rank where your customers actually search. On-page, technical, and local, done properly.',
   },
   {
     title: 'Agentic SEO',
-    desc: 'People ask ChatGPT and AI assistants for recommendations now. We structure your site so the AI cites you.',
+    desc: 'People ask ChatGPT and AI assistants for recommendations now. We structure your site so the AI cites you.',
   },
   {
     title: 'Newsletters',
-    desc: 'An email list you own. Automated follow-up that turns one-time visitors into repeat customers.',
+    desc: 'An email list you own. Automated follow-up that turns one-time visitors into repeat customers.',
   },
   {
     title: 'Conversion-First Design',
-    desc: 'Every page is built to a goal: booked calls, orders, payments. Pretty is the baseline, converting is the job.',
+    desc: 'Every page is built to a goal: booked calls, orders, payments. Pretty is the baseline, converting is the job.',
   },
   {
     title: 'Tracking & Analytics',
-    desc: 'You see exactly which channel produced every lead, so you spend where it works and cut what does not.',
+    desc: 'You see exactly which channel produced every lead, so you spend where it works and cut what does not.',
   },
 ];
 
@@ -51,7 +51,7 @@ function SectionHeading({ kicker, title }: { kicker?: string; title: string }) {
       {kicker && (
         <p className="text-xs font-semibold tracking-[0.2em] text-orange-400/70 uppercase mb-2">{kicker}</p>
       )}
-      <h2 className="text-2xl sm:text-3xl font-bold">{title}</h2>
+      <h2 className="text-2xl sm:text-3xl font-bold text-balance">{title}</h2>
     </div>
   );
 }
@@ -73,12 +73,12 @@ export function VslContent() {
         />
 
         <AnimatedSection>
-          <h1 className="text-2xl sm:text-4xl font-bold leading-tight mb-3">
+          <h1 className="text-2xl sm:text-4xl font-bold leading-tight mb-3 text-balance">
             Where your business is quietly losing customers{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300"> (and how to fix it)</span>
           </h1>
-          <p className="text-gray-500 text-sm sm:text-base mb-8">
-            Watch the video, then decide if a free growth plan is worth 15 minutes.
+          <p className="text-gray-500 text-sm sm:text-base mb-8 text-pretty">
+            Watch the video, then decide if a free growth plan is worth 15&nbsp;minutes.
           </p>
         </AnimatedSection>
 
@@ -108,8 +108,8 @@ export function VslContent() {
                 </div>
               )}
             </div>
-            <p className="text-gray-500 text-sm mt-4">
-              Chase Haynes, founder of Blok Blok Studio. You talk to the person who builds your site, not an account manager.
+            <p className="text-gray-500 text-sm mt-4 text-pretty">
+              Chase Haynes, founder of Blok Blok Studio. You talk to the person who builds your site, not an account&nbsp;manager.
             </p>
           </div>
         </AnimatedSection>
@@ -139,7 +139,7 @@ export function VslContent() {
                   }`}
                 >
                   <p className="text-base font-semibold text-white mb-1">{s.title}</p>
-                  <p className="text-sm text-gray-400 leading-relaxed">{s.desc}</p>
+                  <p className="text-sm text-gray-400 leading-relaxed text-pretty">{s.desc}</p>
                 </div>
               ))}
             </div>

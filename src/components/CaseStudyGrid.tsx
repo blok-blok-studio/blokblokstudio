@@ -75,7 +75,7 @@ export function CaseStudyGrid() {
                 {c.label}
               </a>
             </div>
-            <p className="text-sm text-gray-400 mt-1.5">{c.proof}</p>
+            <p className="text-sm text-gray-400 mt-1.5 text-pretty">{c.proof}</p>
           </div>
         </div>
       ))}

@@ -205,7 +205,7 @@ export function LeadForm({
   return (
     <div className="rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur p-6 sm:p-8 shadow-2xl shadow-black/40 text-left">
       <h2 className="text-xl sm:text-2xl font-bold mb-1.5">Get your free Growth Plan</h2>
-      <p className="text-gray-500 text-sm mb-4">30 seconds to request. We reply within the hour during business hours.</p>
+      <p className="text-gray-500 text-sm mb-4 text-pretty">30 seconds to request. We reply within the hour during business&nbsp;hours.</p>
       <ul className="mb-6 space-y-1.5">
         {[
           'A teardown of your website, ads, and follow-up',
@@ -214,7 +214,7 @@ export function LeadForm({
         ].map((item) => (
           <li key={item} className="flex items-start gap-2 text-xs text-gray-400">
             <span className="text-orange-400 mt-0.5">&#10003;</span>
-            <span>{item}</span>
+            <span className="text-pretty">{item}</span>
           </li>
         ))}
       </ul>
@@ -287,7 +287,7 @@ export function LeadForm({
             className="mt-0.5 h-4 w-4 rounded border-white/20 bg-white/5 accent-orange-500"
             required
           />
-          <span className="text-xs text-gray-500 leading-relaxed">
+          <span className="text-xs text-gray-500 leading-relaxed text-pretty">
             I agree to the{' '}
             <Link href="/privacy" target="_blank" className="text-gray-300 underline hover:text-white">Privacy Policy</Link>{' '}
             and consent to being contacted about my inquiry.
@@ -301,8 +301,8 @@ export function LeadForm({
             onChange={(e) => setEmailOptIn(e.target.checked)}
             className="mt-0.5 h-4 w-4 rounded border-white/20 bg-white/5 accent-orange-500"
           />
-          <span className="text-xs text-gray-500 leading-relaxed">
-            Yes, send me practical growth tips and occasional offers by email. Unsubscribe anytime.{' '}
+          <span className="text-xs text-gray-500 leading-relaxed text-pretty">
+            Yes, send me practical growth tips and occasional offers by email. Unsubscribe&nbsp;anytime.{' '}
             <span className="text-gray-600">(optional)</span>
           </span>
         </label>
@@ -327,11 +327,11 @@ export function LeadForm({
           {submitting ? 'Sending...' : ctaLabel}
         </motion.button>
 
-        <p className="text-center text-[11px] text-gray-600">
-          No spam. No obligation. You keep the plan either way.
+        <p className="text-center text-[11px] text-gray-600 text-pretty">
+          No spam. No obligation. You keep the plan either&nbsp;way.
         </p>
-        <p className="text-center text-[11px] text-gray-600">
-          Trusted by Berlin businesses like Coach Kofi (+200% consultations after launch).
+        <p className="text-center text-[11px] text-gray-600 text-pretty">
+          Trusted by Berlin businesses like Coach Kofi (+200% consultations after&nbsp;launch).
         </p>
       </form>
     </div>
