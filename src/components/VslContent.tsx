@@ -7,21 +7,16 @@ import { LeadForm } from './LeadForm';
 import { LandingFooter } from './LandingFooter';
 
 /**
- * /vsl — video sales letter page. Flow: intro video → Meet the Founder →
- * Meet Our Clients (case-study grid) → What We Do → "Interested? Let's
- * talk." lead form. Submitting the form opens the booking calendar in a
- * new tab and still routes through the platform thank-you pages so ad
- * conversions keep firing. Script + production guide in docs/vsl-script.md.
+ * /vsl — video sales letter page. Flow: Meet the Founder (the page's one
+ * video slot) → Meet Our Clients (case-study grid) → What We Do →
+ * "Interested? Let's talk." lead form. Submitting the form opens the
+ * booking calendar in a new tab and still routes through the platform
+ * thank-you pages so ad conversions keep firing.
  */
 
-// Dedicated VSL recording goes in NEXT_PUBLIC_VSL_VIDEO_URL once produced
-// (script: docs/vsl-script.md). Until then the /call pitch video runs here
-// so the page converts from day one.
-const VIDEO_URL = process.env.NEXT_PUBLIC_VSL_VIDEO_URL || '/videos/pitch.mp4';
-
-// Founder video: drop the file in public/videos and set
+// The page's single video: drop the file in public/videos and set
 // NEXT_PUBLIC_FOUNDER_VIDEO_URL (e.g. /videos/founder.mp4). Until then the
-// section shows a poster-style placeholder so the page ships now.
+// slot shows a poster-style placeholder so the page ships now.
 const FOUNDER_VIDEO_URL = process.env.NEXT_PUBLIC_FOUNDER_VIDEO_URL || '';
 
 // Booking calendar the form opens after a successful submit.
@@ -83,38 +78,13 @@ export function VslContent() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300"> (and how to fix it)</span>
           </h1>
           <p className="text-gray-500 text-sm sm:text-base mb-8">
-            3 minutes. Then decide if a free growth plan is worth 15 more.
+            Watch the video, then decide if a free growth plan is worth 15 minutes.
           </p>
         </AnimatedSection>
 
+        {/* Meet the Founder: the page's one video slot */}
         <AnimatedSection delay={0.1}>
-          <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-black shadow-2xl shadow-black/50 mb-8">
-            {VIDEO_URL ? (
-              <video
-                controls
-                playsInline
-                preload="metadata"
-                poster="/videos/pitch-poster.jpg"
-                className="w-full aspect-video"
-              >
-                <source src={VIDEO_URL} type="video/mp4" />
-              </video>
-            ) : (
-              <div className="w-full aspect-video flex flex-col items-center justify-center bg-gradient-to-br from-gray-950 via-gray-900 to-orange-950/30">
-                <div className="w-16 h-16 rounded-full bg-white/10 border border-white/20 flex items-center justify-center mb-4">
-                  <svg className="w-7 h-7 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </div>
-                <p className="text-gray-400 text-sm">Video coming soon. The plan is already real.</p>
-              </div>
-            )}
-          </div>
-        </AnimatedSection>
-
-        {/* Meet the Founder */}
-        <AnimatedSection delay={0.15}>
-          <div className="mt-14 sm:mt-20">
+          <div className="mt-2 sm:mt-4">
             <SectionHeading kicker="Who you'll work with" title="Meet the Founder" />
             <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-black shadow-2xl shadow-black/50">
               {FOUNDER_VIDEO_URL ? (
