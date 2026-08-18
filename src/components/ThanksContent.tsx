@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
 import { AnimatedSection } from './AnimatedSection';
 import { LandingFooter } from './LandingFooter';
 
@@ -17,6 +16,10 @@ import { LandingFooter } from './LandingFooter';
  */
 
 const INTRO_CALL_LINK = 'https://calendar.app.google/HeP9bUhWaKfosQF26';
+// Same schedule as INTRO_CALL_LINK, in Google's embeddable form (?gv=true)
+// so booking happens right here instead of on calendar.google.com.
+const INTRO_CALL_EMBED =
+  'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2v3xRsZStR2Wtk8dr_F8kwEq4WGWu0FM548fk45LXMHonM5FwIUFHmuTTp0Ph6eVpcM1ZeM2PC?gv=true';
 const WHATSAPP_LINK =
   'https://wa.me/491627055848?text=Hey%20Chase%2C%20I%20just%20sent%20a%20growth%20plan%20request%20on%20your%20site.';
 
@@ -123,20 +126,24 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
         </AnimatedSection>
 
         <AnimatedSection delay={0.1}>
-          <motion.a
-            href={INTRO_CALL_LINK}
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            className="inline-block w-full sm:w-auto px-10 py-4 rounded-full bg-white text-black font-semibold text-sm sm:text-base hover:bg-gray-100 transition-colors"
-          >
-            Book my free intro call
-          </motion.a>
-          <p className="mt-4 text-xs text-gray-600">
-            Prefer chat?{' '}
+          <div className="rounded-3xl overflow-hidden border border-white/10 bg-white shadow-2xl shadow-black/40">
+            <iframe
+              src={INTRO_CALL_EMBED}
+              title="Book your free intro call"
+              className="w-full h-[640px] sm:h-[700px] border-0"
+              loading="eager"
+            />
+          </div>
+          <p className="mt-4 text-xs text-gray-600 text-pretty">
+            Calendar not loading?{' '}
+            <a href={INTRO_CALL_LINK} target="_blank" rel="noopener noreferrer" className="text-gray-400 underline hover:text-white">
+              Open it directly
+            </a>
+            . Prefer chat?{' '}
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-gray-400 underline hover:text-white">
               Message us on WhatsApp
             </a>{' '}
-            and we&apos;ll reply within minutes.
+            and we&apos;ll reply within&nbsp;minutes.
           </p>
         </AnimatedSection>
 

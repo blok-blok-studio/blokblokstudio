@@ -84,13 +84,9 @@ function thanksDestination(): string {
 export function LeadForm({
   fieldTag = 'Ad Lead',
   ctaLabel = 'Get my free growth plan',
-  calendarUrl,
 }: {
   fieldTag?: string;
   ctaLabel?: string;
-  // When set, a successful submit opens this booking calendar in a new tab
-  // (on top of the usual thank-you redirect, so conversions still fire).
-  calendarUrl?: string;
 }) {
   const router = useRouter();
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', business: '', _hp: '' });
@@ -126,16 +122,6 @@ export function LeadForm({
     if (!canSubmit || submitting) return;
     setSubmitting(true);
     setError('');
-
-    // Open the tab now, while we're still inside the click gesture, so
-    // popup blockers allow it; it gets pointed at the calendar once the
-    // lead saves (and closed if the save fails).
-    let calWindow: Window | null = null;
-    if (calendarUrl) {
-      try {
-        calWindow = window.open('about:blank', '_blank');
-      } catch { /* blocked — thank-you page still offers booking */ }
-    }
 
     // Shared browser/server event id so Meta deduplicates the pixel Lead
     // (thank-you page) against the Conversions API Lead (server)
@@ -190,13 +176,10 @@ export function LeadForm({
         const data = await res.json();
         throw new Error(data.error || 'Something went wrong');
       }
-      if (calendarUrl) {
-        if (calWindow) calWindow.location.href = calendarUrl;
-        else window.open(calendarUrl, '_blank');
-      }
+      // The thank-you page embeds the booking calendar, so the visitor
+      // picks a time without ever leaving the site.
       router.push(thanksDestination());
     } catch (err) {
-      calWindow?.close();
       setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
       setSubmitting(false);
     }

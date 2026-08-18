@@ -9,18 +9,15 @@ import { LandingFooter } from './LandingFooter';
 /**
  * /vsl — video sales letter page. Flow: Meet the Founder (the page's one
  * video slot) → Meet Our Clients (case-study grid) → What We Do →
- * "Interested? Let's talk." lead form. Submitting the form opens the
- * booking calendar in a new tab and still routes through the platform
- * thank-you pages so ad conversions keep firing.
+ * "Interested? Let's talk." lead form. Submitting routes through the
+ * platform thank-you pages (ad conversions fire there), where the booking
+ * calendar is embedded so visitors never leave the site.
  */
 
 // The page's single video: drop the file in public/videos and set
 // NEXT_PUBLIC_FOUNDER_VIDEO_URL (e.g. /videos/founder.mp4). Until then the
 // slot shows a poster-style placeholder so the page ships now.
 const FOUNDER_VIDEO_URL = process.env.NEXT_PUBLIC_FOUNDER_VIDEO_URL || '';
-
-// Booking calendar the form opens after a successful submit.
-const BOOKING_URL = 'https://calendar.app.google/HeP9bUhWaKfosQF26';
 
 const SPECIALTIES = [
   {
@@ -154,7 +151,7 @@ export function VslContent() {
             <div className="text-center">
               <SectionHeading kicker="One quick form, then pick a time" title="Interested? Let's talk." />
             </div>
-            <LeadForm fieldTag="VSL Lead" ctaLabel="Let's talk" calendarUrl={BOOKING_URL} />
+            <LeadForm fieldTag="VSL Lead" ctaLabel="Let's talk" />
           </div>
         </AnimatedSection>
 
