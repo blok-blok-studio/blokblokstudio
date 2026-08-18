@@ -52,6 +52,10 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
 
+      // Retired /start landing page — /vsl is the funnel now. Query strings
+      // (UTMs) carry through automatically.
+      { source: '/start', destination: '/vsl', permanent: true },
+
       // Old de-de locale prefix: strip it, then the remaining path hits
       // the rules below on the second hop (locale now comes via cookie).
       { source: '/de-de/:path*', destination: '/:path*', permanent: true },

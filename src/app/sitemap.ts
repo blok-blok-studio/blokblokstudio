@@ -18,7 +18,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contact',
     '/blog',
     '/call',
-    '/start',
     '/accessibility',
   ];
 
