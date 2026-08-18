@@ -242,7 +242,7 @@ export function StartContent() {
             className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
           >
             <a
-              href="https://calendar.app.google/oAcFYPRKYB9b4J1c7"
+              href="https://calendar.app.google/HeP9bUhWaKfosQF26"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-medium text-sm sm:text-base hover:bg-gray-100 transition-colors"
@@ -696,7 +696,7 @@ export function StartContent() {
             {t('cta_subtitle')}
           </p>
           <motion.a
-            href="https://calendar.app.google/oAcFYPRKYB9b4J1c7"
+            href="https://calendar.app.google/HeP9bUhWaKfosQF26"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-base"

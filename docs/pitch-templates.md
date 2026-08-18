@@ -23,7 +23,7 @@ Every template already has the right tracked link baked in. All links open the s
 | Phone (text/DM) | `https://www.blokblokstudio.com/vsl?utm_source=dm&utm_medium=social&utm_campaign=pitch` |
 | Warm email | `https://www.blokblokstudio.com/vsl?utm_source=warm-email&utm_medium=email&utm_campaign=pitch` |
 | Cold email | `https://www.blokblokstudio.com/vsl?utm_source=cold-email&utm_medium=email&utm_campaign=pitch` |
-| Booking call (all channels) | `https://calendar.app.google/oAcFYPRKYB9b4J1c7` |
+| Booking call (all channels) | `https://calendar.app.google/HeP9bUhWaKfosQF26` |
 
 ## Client quick reference (proof to drop into any pitch)
 
@@ -44,7 +44,7 @@ Every template already has the right tracked link baked in. All links open the s
 >
 > Here's a 3-minute breakdown of how it works: https://www.blokblokstudio.com/vsl?utm_source=dm&utm_medium=social&utm_campaign=pitch
 >
-> If it clicks, grab a time here and I'll put together a plan for your business: https://calendar.app.google/oAcFYPRKYB9b4J1c7
+> If it clicks, grab a time here and I'll put together a plan for your business: https://calendar.app.google/HeP9bUhWaKfosQF26
 
 ---
 
@@ -60,7 +60,7 @@ Every template already has the right tracked link baked in. All links open the s
 >
 > Here's a 3-minute breakdown of how we think about it, with the client results on the same page: https://www.blokblokstudio.com/vsl?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
 >
-> The fastest way forward is a quick call so I can learn your business and send pricing that actually fits: https://calendar.app.google/oAcFYPRKYB9b4J1c7
+> The fastest way forward is a quick call so I can learn your business and send pricing that actually fits: https://calendar.app.google/HeP9bUhWaKfosQF26
 >
 > If it's easier, just reply to these four and I'll shoot pricing over from there:
 >
@@ -126,7 +126,7 @@ Attach `docs/assets/exotic-ripz-proof.png` for point 5 (cropped Shopify dashboar
 > Here's our site: https://www.blokblokstudio.com/?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
 > And a 3-minute video on how we approach all this: https://www.blokblokstudio.com/vsl?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
 >
-> To get a better understanding of your business I'd love to schedule a call. Here's my calendar: https://calendar.app.google/oAcFYPRKYB9b4J1c7
+> To get a better understanding of your business I'd love to schedule a call. Here's my calendar: https://calendar.app.google/HeP9bUhWaKfosQF26
 >
 > In the meantime, a few questions so I know your business better:
 >
