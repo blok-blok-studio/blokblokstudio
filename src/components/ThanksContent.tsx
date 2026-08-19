@@ -21,7 +21,7 @@ const INTRO_CALL_LINK = 'https://calendar.app.google/HeP9bUhWaKfosQF26';
 const INTRO_CALL_EMBED =
   'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2v3xRsZStR2Wtk8dr_F8kwEq4WGWu0FM548fk45LXMHonM5FwIUFHmuTTp0Ph6eVpcM1ZeM2PC?gv=true';
 const WHATSAPP_LINK =
-  'https://wa.me/491627055848?text=Hey%20Chase%2C%20I%20just%20sent%20a%20growth%20plan%20request%20on%20your%20site.';
+  'https://wa.me/491627055848?text=Hey%20Chase%2C%20I%20just%20sent%20a%20call%20request%20on%20your%20site.';
 
 // Optional: exact Google Ads conversion action ("AW-XXXXXXX/AbCdEfGh").
 // Without it we fire the generic generate_lead event instead.
@@ -29,7 +29,7 @@ const GOOGLE_CONVERSION = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION;
 
 const NEXT_STEPS = [
   { n: '1', title: 'Book your intro call below', desc: '15 minutes. We learn about your business and what you need.' },
-  { n: '2', title: 'We build your growth plan', desc: 'You get a concrete plan on the follow-up strategy call: scope, timeline, price.' },
+  { n: '2', title: 'We break it all down on the call', desc: 'Where you are losing customers, what to fix first, scope, timeline, price.' },
   { n: '3', title: 'We build, you grow', desc: 'Website, ads, social, AI systems. Done for you, live fast.' },
 ];
 
@@ -120,8 +120,8 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">You&apos;re in. One more step.</h1>
           <p className="text-gray-400 text-base sm:text-lg leading-relaxed mb-10">
-            Your request is with us. Lock in your free 15-minute intro call now, the leads who book right away
-            get their growth plan first.
+            Your request is with us. Lock in your free 15-minute intro call now, the earliest slots go to
+            whoever books first.
           </p>
         </AnimatedSection>
 

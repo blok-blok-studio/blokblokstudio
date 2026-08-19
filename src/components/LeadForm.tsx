@@ -15,7 +15,7 @@ import { BusinessPicker } from './BusinessPicker';
  * page's leads are distinguishable ("Ad Lead" vs "VSL Lead").
  */
 
-const SERVICES = ['New website', 'Website redesign', 'Online shop', 'Landing page', 'Not sure yet'];
+const SERVICES = ['New website', 'Website redesign', 'Online shop', 'Landing page', 'Google Ads', 'Meta Ads', 'Not sure yet'];
 
 /** Collect ad attribution from the URL so the sales team sees exactly which ad produced the lead. */
 function collectAttribution(): string {
@@ -83,7 +83,7 @@ function thanksDestination(): string {
 
 export function LeadForm({
   fieldTag = 'Ad Lead',
-  ctaLabel = 'Get my free growth plan',
+  ctaLabel = 'Book my call',
 }: {
   fieldTag?: string;
   ctaLabel?: string;
@@ -187,13 +187,13 @@ export function LeadForm({
 
   return (
     <div className="rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur p-6 sm:p-8 shadow-2xl shadow-black/40 text-left">
-      <h2 className="text-xl sm:text-2xl font-bold mb-1.5">Get your free Growth Plan</h2>
+      <h2 className="text-xl sm:text-2xl font-bold mb-1.5">Let&apos;s break it down on a call</h2>
       <p className="text-gray-500 text-sm mb-4 text-pretty">30 seconds to request. We reply within the hour during business&nbsp;hours.</p>
       <ul className="mb-6 space-y-1.5">
         {[
-          'A teardown of your website, ads, and follow-up',
-          'Your 3 fastest wins, priced, with expected returns',
-          'Yours to keep, whether we work together or not',
+          'We go through your website, ads, and follow-up together',
+          'You leave knowing your fastest wins and what they cost',
+          'Straight answers, no pressure, no obligation',
         ].map((item) => (
           <li key={item} className="flex items-start gap-2 text-xs text-gray-400">
             <span className="text-orange-400 mt-0.5">&#10003;</span>
@@ -311,7 +311,7 @@ export function LeadForm({
         </motion.button>
 
         <p className="text-center text-[11px] text-gray-600 text-pretty">
-          No spam. No obligation. You keep the plan either&nbsp;way.
+          No spam. No obligation. Just a real&nbsp;conversation.
         </p>
         <p className="text-center text-[11px] text-gray-600 text-pretty">
           Trusted by Berlin businesses like Coach Kofi (+200% consultations after&nbsp;launch).

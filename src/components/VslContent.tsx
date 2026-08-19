@@ -29,6 +29,14 @@ const SPECIALTIES = [
     desc: 'People ask ChatGPT and AI assistants for recommendations now. We structure your site so the AI cites you.',
   },
   {
+    title: 'Google Ads',
+    desc: 'Show up the moment someone searches for what you sell. Campaigns built and managed for booked jobs, not vanity clicks.',
+  },
+  {
+    title: 'Meta Ads',
+    desc: 'Facebook and Instagram campaigns that put your offer in front of the right people before your competitors do.',
+  },
+  {
     title: 'Newsletters',
     desc: 'An email list you own. Automated follow-up that turns one-time visitors into repeat customers.',
   },
@@ -75,7 +83,7 @@ export function VslContent() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300"> (and how to fix it)</span>
           </h1>
           <p className="text-gray-500 text-sm sm:text-base mb-8 text-pretty">
-            Watch the video, then decide if a free growth plan is worth 15&nbsp;minutes.
+            Watch the video, then book a call. We&apos;ll break down exactly where you&apos;re losing customers and how to fix&nbsp;it.
           </p>
         </AnimatedSection>
 
