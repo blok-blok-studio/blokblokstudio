@@ -40,6 +40,16 @@ const nextConfig: NextConfig = {
           { key: 'Cache-Control', value: 'no-store, no-cache, must-revalidate' },
         ],
       },
+      {
+        // Videos and their posters are the heaviest thing we serve. Files in
+        // public/ otherwise go out with max-age=0, so every repeat visit
+        // re-validates a multi-megabyte file. Thirty days, and give a replaced
+        // file a new name (founder-v2.mp4) so nobody is served a stale cut.
+        source: '/videos/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=2592000' },
+        ],
+      },
     ];
   },
 

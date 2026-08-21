@@ -14,10 +14,10 @@ import { LandingFooter } from './LandingFooter';
  * calendar is embedded so visitors never leave the site.
  */
 
-// The page's single video: drop the file in public/videos and set
-// NEXT_PUBLIC_FOUNDER_VIDEO_URL (e.g. /videos/founder.mp4). Until then the
-// slot shows a poster-style placeholder so the page ships now.
-const FOUNDER_VIDEO_URL = process.env.NEXT_PUBLIC_FOUNDER_VIDEO_URL || '';
+// The page's single video, committed at public/videos/founder.mp4.
+// NEXT_PUBLIC_FOUNDER_VIDEO_URL overrides it (e.g. to serve from a CDN);
+// empty string falls back to the poster-style placeholder.
+const FOUNDER_VIDEO_URL = process.env.NEXT_PUBLIC_FOUNDER_VIDEO_URL ?? '/videos/founder.mp4';
 
 const SPECIALTIES = [
   {
@@ -97,7 +97,7 @@ export function VslContent() {
                   controls
                   playsInline
                   preload="metadata"
-                  poster="/videos/founder-poster.jpg"
+                  poster="/videos/founder-poster.webp"
                   className="w-full aspect-video"
                 >
                   <source src={FOUNDER_VIDEO_URL} type="video/mp4" />
