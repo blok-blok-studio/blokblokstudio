@@ -11,17 +11,28 @@ interface TurnstileResult {
 }
 
 /**
- * Verify a Turnstile token server-side.
- * Returns true if valid, false if invalid or missing secret key.
+ * 'ok'          — verified, or Turnstile isn't configured on this deployment
+ * 'spam'        — Cloudflare actively rejected the token; drop the submission
+ * 'unverified'  — no token reached us, or Cloudflare was unreachable. The
+ *                 widget can fail for reasons that have nothing to do with the
+ *                 visitor (script blocker, offline, a domain missing from the
+ *                 widget's allow-list), so callers let these through on the
+ *                 honeypot/timing/rate-limit checks rather than silently
+ *                 binning a lead we paid for.
  */
-export async function verifyTurnstile(token: string | undefined | null, ip?: string): Promise<boolean> {
+export type TurnstileVerdict = 'ok' | 'spam' | 'unverified';
+
+export async function verifyTurnstile(
+  token: string | undefined | null,
+  ip?: string
+): Promise<TurnstileVerdict> {
   const secret = process.env.TURNSTILE_SECRET_KEY;
 
-  // If Turnstile is not configured, allow through (graceful degradation)
-  if (!secret) return true;
+  // Turnstile not configured on this deployment — graceful degradation
+  if (!secret) return 'ok';
 
-  // No token provided = failed verification
-  if (!token) return false;
+  // The widget never produced a token, so there is nothing to check
+  if (!token) return 'unverified';
 
   try {
     const res = await fetch(VERIFY_URL, {
@@ -32,12 +43,15 @@ export async function verifyTurnstile(token: string | undefined | null, ip?: str
         response: token,
         ...(ip ? { remoteip: ip } : {}),
       }),
+      signal: AbortSignal.timeout(5000),
     });
 
     const data: TurnstileResult = await res.json();
-    return data.success;
+    if (data.success) return 'ok';
+    console.warn('[Turnstile] Token rejected:', data['error-codes']?.join(',') || 'unknown');
+    return 'spam';
   } catch {
-    // Network error — allow through to avoid blocking legitimate users
-    return true;
+    // Cloudflare unreachable — don't block a real submission on our outage
+    return 'unverified';
   }
 }

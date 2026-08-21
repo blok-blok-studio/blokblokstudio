@@ -36,7 +36,7 @@ export function proxy(request: NextRequest) {
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "img-src 'self' data: blob: https: http:",
     "font-src 'self' https://fonts.gstatic.com data:",
-    "connect-src 'self' https://www.google-analytics.com https://vitals.vercel-insights.com https://api.vercel.com https://www.facebook.com https://www.googleadservices.com https://googleads.g.doubleclick.net",
+    "connect-src 'self' https://www.google-analytics.com https://vitals.vercel-insights.com https://api.vercel.com https://www.facebook.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://challenges.cloudflare.com",
     // frame-src lets the project case-study pages embed each client site
     // in a live iframe. Only sites whose own headers permit blokblokstudio.com
     // will actually render; the rest fall back to a screenshot.

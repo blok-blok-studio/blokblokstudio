@@ -61,10 +61,16 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: true, id: 'ok' });
     }
 
-    // Cloudflare Turnstile verification
-    const turnstileOk = await verifyTurnstile(_cf, ip);
-    if (!turnstileOk) {
+    // Cloudflare Turnstile. Only an actively rejected token counts as spam —
+    // a missing token means the widget never loaded, and failing closed there
+    // would bin real leads invisibly. Those fall back to the honeypot, timing,
+    // and rate-limit checks above.
+    const turnstile = await verifyTurnstile(_cf, ip);
+    if (turnstile === 'spam') {
       return NextResponse.json({ success: true, id: 'ok' }); // Silent reject
+    }
+    if (turnstile === 'unverified' && process.env.TURNSTILE_SECRET_KEY) {
+      console.warn('[Turnstile] Lead accepted without verification (widget did not load)');
     }
 
     // Get IP address for GDPR consent tracking
