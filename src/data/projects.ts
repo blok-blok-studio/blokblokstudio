@@ -74,8 +74,8 @@ export const projectsData: Record<string, ProjectData> = {
     url: 'https://coachluki.com',
     mobileImage: '/images/projects/coachluki-mobile.jpg',
     embeddable: true,
-    testimonialVideo: '/videos/testimonial-luki.mp4',
-    testimonialPoster: '/videos/testimonial-luki-poster.jpg',
+    testimonialVideo: '/videos/testimonial-luki-v2.mp4',
+    testimonialPoster: '/videos/testimonial-luki-v2-poster.webp',
     testimonialName: 'Luke Satterly, Coach Luki',
   },
   'bronco-plumbing': {
@@ -107,8 +107,8 @@ export const projectsData: Record<string, ProjectData> = {
     url: 'https://coachkofi.de',
     mobileImage: '/images/projects/coachkofi-mobile.webp',
     embeddable: true,
-    testimonialVideo: '/videos/testimonial-kofi.mp4',
-    testimonialPoster: '/videos/testimonial-kofi-poster.jpg',
+    testimonialVideo: '/videos/testimonial-kofi-v2.mp4',
+    testimonialPoster: '/videos/testimonial-kofi-v2-poster.webp',
     testimonialName: 'Coach Kofi',
   },
   'exotic-ripz': {

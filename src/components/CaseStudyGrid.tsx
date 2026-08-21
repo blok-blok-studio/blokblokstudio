@@ -15,13 +15,13 @@ const CASES = [
     name: 'Coach Kofi', where: 'Nike athlete, Berlin',
     proof: 'Consultation requests up 200% after launch.',
     href: 'https://www.coachkofi.de', label: 'coachkofi.de',
-    video: '/videos/testimonial-kofi.mp4', poster: '/videos/testimonial-kofi-poster.jpg',
+    video: '/videos/testimonial-kofi-v2.mp4', poster: '/videos/testimonial-kofi-v2-poster.webp',
   },
   {
     name: 'Coach Luki', where: 'Personal trainer, Berlin',
     proof: 'Bookings and payments straight through the site. No DMs, no invoices.',
     href: 'https://coachluki.com', label: 'coachluki.com',
-    video: '/videos/testimonial-luki.mp4', poster: '/videos/testimonial-luki-poster.jpg',
+    video: '/videos/testimonial-luki-v2.mp4', poster: '/videos/testimonial-luki-v2-poster.webp',
   },
   {
     name: 'Bronco Plumbing', where: 'Dallas-Fort Worth',
