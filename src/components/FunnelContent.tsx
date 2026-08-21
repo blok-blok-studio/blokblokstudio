@@ -938,8 +938,8 @@ function PitchVideo() {
       <video
         ref={videoRef}
         className="absolute inset-0 w-full h-full object-cover"
-        src="/videos/pitch.mp4"
-        poster="/videos/pitch-poster.jpg"
+        src="/videos/pitch-v2.mp4"
+        poster="/videos/pitch-v2-poster.webp"
         playsInline
         controls={isPlaying}
         preload="metadata"
