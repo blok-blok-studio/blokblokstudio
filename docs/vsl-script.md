@@ -122,5 +122,5 @@ the Slack lead alert firing + calendar booking. Pattern interrupt at 1:40: cut t
 
 ```
 Retargeting ad (60s cut) ─→ /start (full VSL + one button) ─→ cal.com discovery (setter)
-Cold ad ─→ /go form ─→ /go/thanks ─→ booking     ← VSL also linked in follow-up email 1
+Cold ad ─→ /start quiz ─→ /start/thanks ─→ booking     ← VSL also linked in follow-up email 1
 ```

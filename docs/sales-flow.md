@@ -1,6 +1,6 @@
 # Paid Ads → Sales Flow Playbook
 
-The complete flow from ad click to closed deal. Built July 2026.
+The complete flow from ad click to closed deal. Built July 2026. Funnel reshaped to quiz-first 22 Aug 2026.
 
 ## The funnel map
 
@@ -8,16 +8,17 @@ The complete flow from ad click to closed deal. Built July 2026.
 Meta / Google ad
       │
       ▼
-/go  (landing page: lead form — name, email, phone, business, service)
+/start  (quiz-first landing page: 5 steps — business, needs, budget, timeline, then contact)
       │  POST /api/call (source: "ads", UTM + click IDs captured)
       │       ├── saved to site DB (Lead, source "ads")
       │       └── pushed to Client Job Tracker → PROSPECT client + 🔥 Slack alert
       ▼
 CONVERSION PAGE (auto-routed by click source)
-      │   fbclid / utm_source=meta   → /go/thanks/meta    (fires Meta "Lead")
-      │   gclid  / utm_source=google → /go/thanks/google  (fires Google conversion)
-      │   direct / unknown           → /go/thanks         (fires both, guarded)
-      │  primary CTA: book 15-min intro call (the Google Calendar booking page)
+      │   fbclid / utm_source=meta   → /start/thanks/meta    (fires Meta "Lead")
+      │   gclid  / utm_source=google → /start/thanks/google  (fires Google conversion)
+      │   direct / unknown           → /start/thanks         (fires both, guarded)
+      │  the quiz answers render here as a written plan (src/lib/quiz-plan.ts)
+      │  primary CTA: book 15-min intro call (embedded Google Calendar)
       │  secondary: WhatsApp for instant contact
       ▼
 INTRO CALL — the SETTER call (15 min, discovery)
@@ -29,8 +30,12 @@ STRATEGY CALL — the CLOSER call (the Google Calendar booking page)
 Client onboarding (/onboard flow → tracker)
 ```
 
-Organic traffic runs the same play through `/call` (the BANT self-qualification funnel) —
-ads traffic skips the long form because every field of friction costs paid leads.
+Organic traffic runs the same play through `/start`, tagged with `utm_source=dm`,
+`warm-email` or `cold-email` (see `docs/pitch-templates.md`) so those leads land on
+`/start/thanks?src=organic` and fire no ad pixels.
+
+`/call`, the old BANT self-qualification funnel, was retired on 22 Aug 2026 and 301s to
+`/start`. `/vsl` was the same page under its previous name and 301s there too.
 
 ## Why this shape (research-backed)
 
@@ -38,7 +43,7 @@ ads traffic skips the long form because every field of friction costs paid leads
   30–45% cheaper leads but 35–55% worse qualified-lead conversion. When a bad lead costs a
   sales call, quality wins.
 - **The thank-you page is the conversion event.** Both Meta and Google optimize toward
-  `/go/thanks` views — cleanest signal, no code changes needed per campaign.
+  `/start/thanks` views — cleanest signal, no code changes needed per campaign.
 - **Speed to lead is the biggest lever:** leads contacted within 5 minutes convert at
   multiples of leads contacted hours later. The tracker fires a Slack alert the second a
   lead arrives — act on it.
@@ -93,7 +98,7 @@ Solo mode: same person, two calls. The split still matters — never sell on the
    event_id with the browser pixel) with hashed email/phone for match quality — this is what
    keeps attribution alive through iOS/ad-blocker signal loss.
 2. **Campaign:** Sales objective (website conversions), conversion event = **Lead**
-   (fires on `/go/thanks/meta`; you can also add a custom conversion on that URL).
+   (fires on `/start/thanks/meta`; you can also add a custom conversion on that URL).
    One campaign → Advantage+ placements → 1–2 ad sets max
    (broad + retargeting once the pixel has data).
 3. **Creative:** 3–5 variants; lead with the client results ("200% more consultations").
@@ -107,14 +112,14 @@ Solo mode: same person, two calls. The split still matters — never sell on the
 0. **Consent Mode v2 is built in:** the tag boots with all four consent signals defaulted to
    `denied` and updates to `granted` on cookie-banner acceptance — required by Google's EU
    User Consent Policy for any EU-targeted campaign.
-1. **Google tag:** create conversion action "Lead" (page view of `/go/thanks/google`) →
+1. **Google tag:** create conversion action "Lead" (page view of `/start/thanks/google`) →
    set `NEXT_PUBLIC_GOOGLE_ADS_ID` (AW-…) on the site's Vercel project. Optional:
    set `NEXT_PUBLIC_GOOGLE_ADS_CONVERSION` (AW-…/label) to fire the exact conversion
    event instead of relying on the page-view rule.
 2. **Campaign:** Search, exact/phrase keywords with buying intent: "webdesign agentur berlin",
    "website erstellen lassen berlin", "google ads agentur berlin", "ki automatisierung agentur".
    Skip Performance Max until Search proves the offer.
-3. **Ads → `/go`** with `?utm_source=google&utm_medium=cpc&utm_campaign=...` (gclid auto-appends).
+3. **Ads → `/start`** with `?utm_source=google&utm_medium=cpc&utm_campaign=...` (gclid auto-appends).
 4. **Negative keywords from day one:** kostenlos, job, praktikum, kurs, selber machen.
 
 ## Metrics that matter (weekly)
@@ -138,4 +143,4 @@ kill the campaigns/ads that produce leads who never book.
 - Slack alert: fires from the tracker intake route via `SLACK_WEBHOOK_URL`
 - Pixels: `src/components/AdsPixels.tsx`, consent-gated, env-driven, no-op until IDs are set
 - Conversion events: `src/components/GoThanksContent.tsx` (platform prop per page)
-- `/go` + all `/go/thanks*` pages are `noindex` and excluded from the sitemap on purpose
+- `/start` + all `/start/thanks*` pages are `noindex` and excluded from the sitemap on purpose

@@ -156,11 +156,29 @@ export function LocalBusinessSchema() {
     url: 'https://www.blokblokstudio.com',
     email: 'hello@blokblokstudio.com',
     foundingDate: '2024',
+    // Detail from the founder video's transcript (src/data/video-transcripts.ts).
+    // It was E-E-A-T signal sitting in an audio file where nothing could read
+    // it. Keep the two in agreement if the video is ever re-cut.
     founder: {
       '@type': 'Person',
       name: 'Chase Haynes',
       jobTitle: 'Founder',
-      alumniOf: 'Parsons School of Design',
+      alumniOf: {
+        '@type': 'CollegeOrUniversity',
+        name: 'Parsons School of Design',
+      },
+      hasCredential: {
+        '@type': 'EducationalOccupationalCredential',
+        credentialCategory: 'degree',
+        name: 'Bachelor of Fine Arts, Design and Technology',
+      },
+      birthPlace: { '@type': 'Place', name: 'San Diego, California' },
+      homeLocation: { '@type': 'Place', name: 'Berlin, Germany' },
+      knowsAbout: ['Web Design', 'Next.js Development', 'Conversion Optimization', 'SEO'],
+      sameAs: [
+        'https://www.linkedin.com/in/chase-haynes/',
+        'https://www.instagram.com/haynes2va/',
+      ],
     },
     address: {
       '@type': 'PostalAddress',
@@ -196,7 +214,9 @@ export function LocalBusinessSchema() {
       opens: '09:00',
       closes: '18:00',
     },
-    numberOfEmployees: { '@type': 'QuantitativeValue', value: 3 },
+    // Four, per the founder video: Chase, creative director (Virginia),
+    // marketing strategist (L.A.), full stack dev (Berlin).
+    numberOfEmployees: { '@type': 'QuantitativeValue', value: 4 },
     sameAs: [
       'https://www.instagram.com/blokblokstudio/',
       'https://www.linkedin.com/company/blok-blok-studio/',
