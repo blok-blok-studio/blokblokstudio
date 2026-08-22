@@ -144,7 +144,45 @@ export async function sendCampaignEmail({
  * Double opt-in confirmation for marketing emails (UWG §7 / GDPR proof).
  * The subscription only becomes active when the recipient clicks the link.
  */
-export async function sendMarketingConfirmEmail(to: string, name: string, token: string) {
+/**
+ * Double opt-in confirmation. Returns whether it actually left the building,
+ * because a swallowed failure here is invisible in the worst way: the visitor
+ * sees success, the lead is saved, and nobody ever learns the confirmation
+ * never arrived. Since consent is only lawful once that link is clicked, a
+ * silently lost email is a subscriber silently lost.
+ *
+ * One language, chosen by the caller. It used to send both at once, subject
+ * line included, which meant every reader got half an email they could not
+ * read.
+ */
+const CONFIRM_COPY = {
+  en: {
+    subject: 'Please confirm your subscription',
+    heading: 'Please confirm your subscription',
+    body: (name: string) =>
+      `Hi ${name || 'there'}, you asked to receive growth tips and occasional offers from Blok Blok Studio. Click the button below to confirm. You won't receive marketing emails until you do.`,
+    button: 'Confirm subscription',
+    ignore: "If you didn't request this, just ignore this email and nothing will be sent.",
+    confirmLabel: 'Confirm',
+  },
+  de: {
+    subject: 'Bitte bestätigen Sie Ihre Anmeldung',
+    heading: 'Bitte bestätigen Sie Ihre Anmeldung',
+    body: (name: string) =>
+      `Hallo ${name || 'zusammen'}, Sie möchten Wachstumstipps und gelegentliche Angebote von Blok Blok Studio erhalten. Klicken Sie auf den Button, um dies zu bestätigen. Bis dahin senden wir Ihnen keine Marketing-E-Mails.`,
+    button: 'Anmeldung bestätigen',
+    ignore: 'Falls Sie das nicht angefordert haben, ignorieren Sie diese E-Mail einfach. Es wird nichts gesendet.',
+    confirmLabel: 'Bestätigen',
+  },
+} as const;
+
+export async function sendMarketingConfirmEmail(
+  to: string,
+  name: string,
+  token: string,
+  lang: 'en' | 'de' = 'en'
+): Promise<boolean> {
+  const t = CONFIRM_COPY[lang];
   const from = process.env.EMAIL_FROM || 'onboarding@resend.dev';
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ||
     (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://www.blokblokstudio.com');
@@ -153,25 +191,15 @@ export async function sendMarketingConfirmEmail(to: string, name: string, token:
   const html = `
     <div style="font-family: -apple-system, sans-serif; max-width: 560px; margin: 0 auto; padding: 32px 24px;">
       <h2 style="color: #f97316; margin-bottom: 8px;">Blok Blok Studio</h2>
-      <h1 style="font-size: 22px; margin: 0 0 16px;">Please confirm your subscription</h1>
-      <p style="color: #444; line-height: 1.6;">
-        Hi ${name || 'there'}, you asked to receive growth tips and occasional offers from Blok Blok Studio.
-        Click the button below to confirm. You won't receive marketing emails until you do.
-      </p>
-      <p style="color: #666; font-size: 13px; line-height: 1.6;">
-        Bitte bestätigen Sie Ihre Anmeldung: Klicken Sie auf den Button, um E-Mails von Blok Blok Studio
-        zu erhalten. Ohne Bestätigung senden wir Ihnen keine Marketing-E-Mails.
-      </p>
+      <h1 style="font-size: 22px; margin: 0 0 16px;">${t.heading}</h1>
+      <p style="color: #444; line-height: 1.6;">${t.body(name)}</p>
       <p style="margin: 28px 0;">
         <a href="${confirmUrl}"
            style="background: #111; color: #fff; text-decoration: none; padding: 14px 32px; border-radius: 999px; font-weight: 600; display: inline-block;">
-          Confirm subscription / Anmeldung bestätigen
+          ${t.button}
         </a>
       </p>
-      <p style="color: #999; font-size: 12px; line-height: 1.6;">
-        If you didn't request this, just ignore this email and nothing will be sent.<br/>
-        Falls Sie das nicht angefordert haben, ignorieren Sie diese E-Mail einfach.
-      </p>
+      <p style="color: #999; font-size: 12px; line-height: 1.6;">${t.ignore}</p>
       <p style="color: #bbb; font-size: 11px; margin-top: 24px;">
         Blok Blok Studio LLC · blokblokstudio.com
       </p>
@@ -181,13 +209,42 @@ export async function sendMarketingConfirmEmail(to: string, name: string, token:
     const { error } = await getResend().emails.send({
       from: `Blok Blok Studio <${from}>`,
       to,
-      subject: 'Please confirm your subscription / Bitte Anmeldung bestätigen',
+      subject: t.subject,
       html,
-      text: htmlToText(html) + `\n\nConfirm: ${confirmUrl}`,
+      text: htmlToText(html) + `\n\n${t.confirmLabel}: ${confirmUrl}`,
     });
-    if (error) console.error('[Email] Confirm email failed:', error);
+    if (error) {
+      console.error('[Email] Confirm email failed:', error);
+      return false;
+    }
+    return true;
   } catch (err) {
     console.error('[Email] Confirm email error:', err);
+    return false;
+  }
+}
+
+/**
+ * Tells us when a confirmation could not be delivered, so the subscriber can
+ * be followed up by hand instead of disappearing quietly. Sent to a different
+ * address than the one that just failed, so a recipient-specific problem does
+ * not take the warning down with it.
+ */
+export async function notifyConfirmEmailFailed(subscriberEmail: string) {
+  const to = process.env.NOTIFICATION_EMAIL;
+  if (!to) return;
+  const from = process.env.EMAIL_FROM || 'onboarding@resend.dev';
+  try {
+    await getResend().emails.send({
+      from: `Blok Blok Studio <${from}>`,
+      to,
+      subject: `Confirmation email failed: ${subscriberEmail}`,
+      html: `<p>The double opt-in confirmation to <strong>${subscriberEmail}</strong> did not send.</p>
+             <p>They ticked the marketing box, so they are expecting it, but they cannot be emailed
+             marketing until they confirm. Worth reaching out by hand.</p>`,
+    });
+  } catch (err) {
+    console.error('[Email] Could not report confirm failure:', err);
   }
 }
 

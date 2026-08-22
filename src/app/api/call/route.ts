@@ -6,7 +6,7 @@ import { verifyTurnstile } from '@/lib/turnstile';
 import { assignToList, AUDIT_LIST } from '@/lib/auto-list';
 import { pushLeadToTracker } from '@/lib/tracker';
 import { sendMetaLeadEvent } from '@/lib/meta-capi';
-import { sendMarketingConfirmEmail, sendLeadAckEmail, notifyNewLead } from '@/lib/email';
+import { sendMarketingConfirmEmail, sendLeadAckEmail, notifyNewLead, notifyConfirmEmailFailed } from '@/lib/email';
 import { randomUUID } from 'crypto';
 import { marketingConsentRecord } from '@/data/consent-text';
 
@@ -169,7 +169,18 @@ export async function POST(req: NextRequest) {
       if (!lead.marketingConfirmToken) {
         await prisma.lead.update({ where: { id: lead.id }, data: { marketingConfirmToken: confirmToken } });
       }
-      await sendMarketingConfirmEmail(email, name, confirmToken);
+      // Answer in the language they were reading the site in. The link is
+      // opened from a mail client with no page context to inherit.
+      const lang = req.cookies.get('NEXT_LOCALE')?.value?.toLowerCase().startsWith('de')
+        ? 'de'
+        : 'en';
+      const confirmSent = await sendMarketingConfirmEmail(email, name, confirmToken, lang);
+      if (!confirmSent) {
+        // Not fatal to the lead, which is already saved, but it does mean a
+        // subscriber who will never confirm unless somebody notices.
+        console.error('[Audit] Confirmation email did not send for', email);
+        notifyConfirmEmailFailed(email).catch(() => {});
+      }
     }
 
     // Auto-enroll in designated sequence (if any)
