@@ -1,3 +1,5 @@
+import { videoUrls, type SiteVideo } from '@/data/videos';
+
 export function OrganizationSchema() {
   const schema = {
     '@context': 'https://schema.org',
@@ -199,6 +201,52 @@ export function LocalBusinessSchema() {
       'https://www.linkedin.com/company/blok-blok-studio/',
     ],
   };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+/**
+ * VideoObject markup for the videos the site hosts itself.
+ *
+ * Crawlers and AI assistants never download an mp4, so an unmarked <video>
+ * tag tells them nothing. This is what makes the video eligible for video
+ * results and gives an LLM something quotable when someone asks what a
+ * client said about us. Metadata comes from src/data/videos.ts so the schema,
+ * the sitemap, and /llms.txt cannot drift apart.
+ */
+export function VideoSchema({ videos }: { videos: SiteVideo[] }) {
+  const schema = videos.map((v) => {
+    const { contentUrl, thumbnailUrl, pageUrl } = videoUrls(v);
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'VideoObject',
+      '@id': `${pageUrl}#video-${v.id}`,
+      name: v.name,
+      description: v.description,
+      thumbnailUrl,
+      contentUrl,
+      uploadDate: v.uploadDate,
+      duration: v.duration,
+      encodingFormat: 'video/mp4',
+      inLanguage: 'en',
+      isFamilyFriendly: true,
+      // Self-hosted: the page is where it plays, there is no separate player.
+      embedUrl: pageUrl,
+      publisher: {
+        '@type': 'Organization',
+        name: 'Blok Blok Studio',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://www.blokblokstudio.com/logo.png',
+        },
+      },
+    };
+  });
 
   return (
     <script

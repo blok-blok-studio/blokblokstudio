@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { FunnelContent } from '@/components/FunnelContent';
+import { VideoSchema } from '@/app/structured-data';
+import { SITE_VIDEOS } from '@/data/videos';
 
 export const metadata: Metadata = {
   title: 'Free Strategy Call | Blok Blok Studio',
@@ -30,5 +32,10 @@ export const metadata: Metadata = {
 };
 
 export default function AuditPage() {
-  return <FunnelContent />;
+  return (
+    <>
+      <VideoSchema videos={[SITE_VIDEOS.pitch]} />
+      <FunnelContent />
+    </>
+  );
 }

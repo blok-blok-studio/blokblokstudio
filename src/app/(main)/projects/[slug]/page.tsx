@@ -23,6 +23,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ProjectDetail } from '@/components/ProjectDetail';
 import { projectsData, getAllProjectSlugs } from '@/data/projects';
+import { VideoSchema } from '@/app/structured-data';
+import { videoForProject } from '@/data/videos';
 
 /**
  * Generate static paths for all projects at build time.
@@ -69,8 +71,14 @@ export default async function ProjectPage({
   // Real 404 for unknown slugs instead of a soft-404 page
   if (!projectsData[slug]) notFound();
 
+  // Two of the case studies carry a client testimonial video. This page is
+  // that video's canonical home, so the VideoObject markup lives here rather
+  // than on the homepage grid that also plays it.
+  const video = videoForProject(slug);
+
   return (
     <div className="page-transition">
+      {video && <VideoSchema videos={[video]} />}
       <ProjectDetail slug={slug} />
     </div>
   );

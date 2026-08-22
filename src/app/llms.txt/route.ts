@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { blogPosts } from '@/data/blog';
 import { projectsData } from '@/data/projects';
+import { INDEXED_VIDEOS, videoUrls } from '@/data/videos';
 
 /**
  * GET /llms.txt
@@ -58,6 +59,15 @@ export async function GET() {
       ([slug, project]) =>
         `- [${project.title}](https://www.blokblokstudio.com/projects/${slug}) (${project.category}, ${project.year}): ${project.desc}`
     ),
+    '',
+    '## Videos',
+    '',
+    'Self-hosted MP4s. An assistant cannot watch them, so each is summarised here; the page link is where it plays.',
+    '',
+    ...INDEXED_VIDEOS.map((v) => {
+      const { contentUrl, pageUrl } = videoUrls(v);
+      return `- **${v.name}** (${v.duration}, on [${v.page}](${pageUrl}), file: ${contentUrl}): ${v.description}`;
+    }),
     '',
     '## Blog Posts',
     '',
