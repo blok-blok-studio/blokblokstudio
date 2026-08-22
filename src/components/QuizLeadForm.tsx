@@ -49,7 +49,9 @@ const SERVICES = [
  * wants Google Ads to pick from "Under €2k, landing page or a small refresh"
  * quotes them for work they did not ask for, in the wrong units.
  */
-const MARKETING_SERVICES = ['Google Ads', 'Meta Ads', 'Social media'];
+const AD_SERVICES = ['Google Ads', 'Meta Ads'];
+const SOCIAL_SERVICES = ['Social media'];
+const MARKETING_SERVICES = [...AD_SERVICES, ...SOCIAL_SERVICES];
 
 // The real tiers, so the answer doubles as a price check and nobody books a
 // call expecting a number that was never on offer. "Under €5k" is kept as an
@@ -63,18 +65,33 @@ const BUDGETS_BUILD = [
   { value: '€20k+', hint: 'Online shop, or something larger' },
 ];
 
-// Monthly, and stated as monthly in the value itself so the tracker entry is
-// unambiguous next to a project figure.
+// All monthly, and stated as monthly in the value itself so a tracker entry
+// is never mistaken for a project figure.
 //
-// Anchored on the real social model: €500 per channel per month to manage
-// (bio, messages, comments, posting and scheduling) plus €200 per video,
-// multiplied by however many channels. The bands are wide enough to also
-// cover paid ads, where the number is spend plus management.
-const BUDGETS_MONTHLY = [
+// Three sets, because the number being asked for is a different number.
+// Social is a service fee: €500 per channel per month to manage, plus €200
+// per video, times the channel count. Paid ads is spend, on which the fee is
+// 15% plus a one-off setup — so the useful question there is the spend, not
+// the fee. Mixed gets the wider bands.
+const BUDGETS_SOCIAL = [
   { value: 'Around €500 / month', hint: 'One channel, managed' },
   { value: '€1,000 – €2,000 / month', hint: 'One channel with regular video, or two channels' },
   { value: '€2,000 – €4,000 / month', hint: 'Two or three channels with video' },
-  { value: '€4,000+ / month', hint: 'Several channels, or channels plus paid ads' },
+  { value: '€4,000+ / month', hint: 'Several channels, video-heavy' },
+];
+
+const BUDGETS_ADS = [
+  { value: 'Under €1,000 / month ad spend', hint: 'Testing the water' },
+  { value: '€1,000 – €3,000 / month ad spend', hint: 'One platform, run properly' },
+  { value: '€3,000 – €10,000 / month ad spend', hint: 'Both platforms, or scaling one' },
+  { value: '€10,000+ / month ad spend', hint: 'Serious volume' },
+];
+
+const BUDGETS_MONTHLY = [
+  { value: 'Under €1,000 / month', hint: 'Getting started' },
+  { value: '€1,000 – €3,000 / month', hint: 'One channel or platform, run properly' },
+  { value: '€3,000 – €6,000 / month', hint: 'Several running together' },
+  { value: '€6,000+ / month', hint: 'Scaling hard' },
 ];
 
 const TIMELINES = [
@@ -201,7 +218,15 @@ export function QuizLeadForm({
   // does not know yet should see the project framing, not a monthly one.
   const monthlyOnly =
     services.length > 0 && services.every((x) => MARKETING_SERVICES.includes(x));
-  const budgets = monthlyOnly ? BUDGETS_MONTHLY : BUDGETS_BUILD;
+  const adsOnly = monthlyOnly && services.every((x) => AD_SERVICES.includes(x));
+  const socialOnly = monthlyOnly && services.every((x) => SOCIAL_SERVICES.includes(x));
+  const budgets = !monthlyOnly
+    ? BUDGETS_BUILD
+    : adsOnly
+      ? BUDGETS_ADS
+      : socialOnly
+        ? BUDGETS_SOCIAL
+        : BUDGETS_MONTHLY;
 
   const inputBase =
     'w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3.5 text-sm sm:text-base text-white placeholder-gray-500 focus:outline-none focus:border-orange-500/40 focus:bg-white/[0.06] transition-colors';
@@ -311,10 +336,16 @@ export function QuizLeadForm({
       canAdvance: services.length > 0,
     },
     {
-      question: monthlyOnly ? "What's your monthly budget?" : "What's your budget for this project?",
-      sub: monthlyOnly
-        ? 'Roughly what you would put behind it each month, including ad spend. A ballpark is fine.'
-        : 'A rough idea is fine. It just tells us what to suggest.',
+      question: adsOnly
+        ? "What could you spend on ads each month?"
+        : monthlyOnly
+          ? "What's your monthly budget?"
+          : "What's your budget for this project?",
+      sub: adsOnly
+        ? 'Just the ad spend. Our management is 15% of it, plus a one-off setup. A ballpark is fine.'
+        : monthlyOnly
+          ? 'Roughly what you would put behind it each month. A ballpark is fine.'
+          : 'A rough idea is fine. It just tells us what to suggest.',
       body: (
         <div role="radiogroup" aria-label="Budget" className="space-y-2.5">
           {budgets.map((o) => (
