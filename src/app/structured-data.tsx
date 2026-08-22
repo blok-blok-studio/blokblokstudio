@@ -206,7 +206,9 @@ export function LocalBusinessSchema() {
       'SEO',
     ],
     priceRange: '$$',
-    currenciesAccepted: 'USD, EUR',
+    // Everything is quoted in euros. Dollar figures elsewhere on the site
+    // are US clients' results, not our prices.
+    currenciesAccepted: 'EUR',
     paymentAccepted: 'Credit Card, Bank Transfer, Stripe',
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
