@@ -160,7 +160,7 @@ export function AccessibilityContent() {
                   strong,
                   link: (chunks) => (
                     <a
-                      href="mailto:hello@blokblokstudio.com?subject=Accessibility%20feedback"
+                      href="/contact"
                       className="text-white underline hover:text-gray-200 transition-colors"
                     >
                       {chunks}

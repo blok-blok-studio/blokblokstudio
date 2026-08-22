@@ -356,7 +356,7 @@
     "success_title": "Você foi Descadastrado",
     "success_message": "Você foi removido com sucesso da nossa lista de emails.",
     "error_title": "Algo Deu Errado",
-    "error_message": "Não conseguimos processar sua solicitação. O link pode ser inválido ou expirado. Entre em contato conosco em hello@blokblokstudio.com para obter ajuda.",
+    "error_message": "Não conseguimos processar sua solicitação. O link pode ser inválido ou expirado. Entre em contato conosco em blokblokstudio.com/contact para obter ajuda.",
     "back_home": "Voltar ao Início"
   },
   "privacy": {

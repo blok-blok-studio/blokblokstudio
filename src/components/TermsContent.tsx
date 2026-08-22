@@ -82,10 +82,10 @@ export function TermsContent() {
             <p className="text-gray-400 leading-relaxed">
               {t('changes_contact')}{' '}
               <a
-                href="mailto:hello@blokblokstudio.com"
+                href="/contact"
                 className="text-white hover:text-white/80 underline transition-colors"
               >
-                hello@blokblokstudio.com
+                blokblokstudio.com/contact
               </a>
             </p>
           </Card>

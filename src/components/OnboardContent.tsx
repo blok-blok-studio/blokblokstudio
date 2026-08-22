@@ -916,9 +916,9 @@ export function OnboardContent({ token }: { token: string }) {
           <h1 className="text-2xl font-semibold text-white mb-2">Link Unavailable</h1>
           <p className="text-gray-400">{errorMessage}</p>
           <p className="text-sm text-gray-600 mt-4">
-            If you think this is a mistake, please contact us at{' '}
-            <a href="mailto:hello@blokblokstudio.com" className="text-white hover:underline">
-              hello@blokblokstudio.com
+            If you think this is a mistake, please get in touch through{' '}
+            <a href="/contact" className="text-white hover:underline">
+              our contact page
             </a>
           </p>
         </div>

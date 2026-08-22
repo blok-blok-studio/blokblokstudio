@@ -356,7 +356,7 @@
     "success_title": "Vous Êtes Désinscrit",
     "success_message": "Vous avez été retiré avec succès de notre liste de diffusion.",
     "error_title": "Une Erreur S'est Produite",
-    "error_message": "Nous n'avons pas pu traiter votre demande. Le lien peut être invalide ou expiré. Contactez-nous à hello@blokblokstudio.com pour obtenir de l'aide.",
+    "error_message": "Nous n'avons pas pu traiter votre demande. Le lien peut être invalide ou expiré. Contactez-nous à blokblokstudio.com/contact pour obtenir de l'aide.",
     "back_home": "Retour à l'Accueil"
   },
   "privacy": {

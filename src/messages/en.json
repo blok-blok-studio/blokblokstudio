@@ -360,7 +360,7 @@
     "success_title": "You're Unsubscribed",
     "success_message": "You've been successfully removed from our email list.",
     "error_title": "Something Went Wrong",
-    "error_message": "We couldn't process your request. The link may be invalid or expired. Contact us at hello@blokblokstudio.com for help.",
+    "error_message": "We couldn't process your request. The link may be invalid or expired. Contact us at blokblokstudio.com/contact for help.",
     "back_home": "Back to Home"
   },
   "privacy": {
@@ -446,7 +446,7 @@
     "changes_content": "We reserve the right to modify these terms at any time. Changes will be posted on this page with an updated date. Continued use of our website after changes constitutes acceptance of the revised terms.",
     "dispute_title": "Dispute Resolution",
     "dispute_intro": "In the event of a dispute arising from these terms, we encourage you to contact us first to seek an amicable resolution. If a resolution cannot be reached informally, the following process applies:",
-    "dispute_informal": "Informal Resolution: Contact us at hello@blokblokstudio.com. We will attempt to resolve the matter within 30 days.",
+    "dispute_informal": "Informal Resolution: Contact us at blokblokstudio.com/contact. We will attempt to resolve the matter within 30 days.",
     "dispute_formal": "Formal Proceedings: If informal resolution fails, disputes will be resolved through the competent courts of Germany.",
     "dispute_eu": "EU Consumers: If you are a consumer in the EU, you may also use the European Commission's Online Dispute Resolution platform.",
     "severability_title": "Severability",
@@ -610,7 +610,7 @@
     "limitation_language": "<strong>Statement language</strong>, this statement is currently maintained in English only. The site itself is localized into 19 languages.",
     "feedback_title": "Feedback and contact",
     "feedback_intro": "If you encounter an accessibility barrier on blokblokstudio.com, or need information from this site in an alternative format, please contact us. We aim to respond to accessibility feedback within <strong>five business days</strong>.",
-    "feedback_email": "<strong>Email:</strong> <link>hello@blokblokstudio.com</link>",
+    "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>Web form:</strong> <link>Contact page</link>, please mention “accessibility” in your message.",
     "enforcement_title": "Enforcement procedure",
     "enforcement_intro": "Blok Blok Studio is registered in Germany. If you are not satisfied with our response to your accessibility feedback, you can escalate under your local enforcement framework:",

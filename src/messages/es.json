@@ -356,7 +356,7 @@
     "success_title": "Te Has Dado de Baja",
     "success_message": "Has sido eliminado exitosamente de nuestra lista de correo.",
     "error_title": "Algo Salió Mal",
-    "error_message": "No pudimos procesar tu solicitud. El enlace puede ser inválido o haber expirado. Contáctanos en hello@blokblokstudio.com para obtener ayuda.",
+    "error_message": "No pudimos procesar tu solicitud. El enlace puede ser inválido o haber expirado. Contáctanos en blokblokstudio.com/contact para obtener ayuda.",
     "back_home": "Volver al Inicio"
   },
   "privacy": {

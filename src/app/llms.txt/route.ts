@@ -81,7 +81,7 @@ export async function GET() {
     '## Contact',
     '',
     '- Website: https://www.blokblokstudio.com',
-    '- Email: hello@blokblokstudio.com',
+    '- Contact form: https://www.blokblokstudio.com/contact',
     '- Instagram: https://www.instagram.com/blokblokstudio/',
     '- LinkedIn: https://www.linkedin.com/company/blok-blok-studio/',
     '- Free Strategy Call: https://www.blokblokstudio.com/contact',

@@ -356,7 +356,7 @@
     "success_title": "Bạn đã hủy đăng ký",
     "success_message": "Bạn đã được gỡ khỏi danh sách email của chúng tôi.",
     "error_title": "Đã có lỗi xảy ra",
-    "error_message": "Chúng tôi không thể xử lý yêu cầu. Liên kết có thể không hợp lệ hoặc đã hết hạn. Liên hệ hello@blokblokstudio.com để được trợ giúp.",
+    "error_message": "Chúng tôi không thể xử lý yêu cầu. Liên kết có thể không hợp lệ hoặc đã hết hạn. Liên hệ blokblokstudio.com/contact để được trợ giúp.",
     "back_home": "Về trang chủ"
   },
   "privacy": {

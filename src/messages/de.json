@@ -360,7 +360,7 @@
     "success_title": "Sie Sind Abgemeldet",
     "success_message": "Sie wurden erfolgreich von unserer E-Mail-Liste entfernt.",
     "error_title": "Etwas Ist Schief Gelaufen",
-    "error_message": "Wir konnten Ihre Anfrage nicht bearbeiten. Der Link ist möglicherweise ungültig oder abgelaufen. Kontaktieren Sie uns unter hello@blokblokstudio.com für Hilfe.",
+    "error_message": "Wir konnten Ihre Anfrage nicht bearbeiten. Der Link ist möglicherweise ungültig oder abgelaufen. Kontaktieren Sie uns unter blokblokstudio.com/contact für Hilfe.",
     "back_home": "Zurück zur Startseite"
   },
   "privacy": {
@@ -446,7 +446,7 @@
     "changes_content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen werden auf dieser Seite mit einem aktualisierten Datum veröffentlicht. Die fortgesetzte Nutzung unserer Website nach Änderungen stellt die Annahme der überarbeiteten Bedingungen dar.",
     "dispute_title": "Streitbeilegung",
     "dispute_intro": "Bei Streitigkeiten aus diesen Bedingungen bitten wir Sie, uns zunächst zu kontaktieren, um eine gütliche Einigung zu erzielen. Kommt eine informelle Lösung nicht zustande, gilt folgendes Verfahren:",
-    "dispute_informal": "Informelle Beilegung: Kontaktieren Sie uns unter hello@blokblokstudio.com. Wir bemühen uns, die Angelegenheit innerhalb von 30 Tagen zu klären.",
+    "dispute_informal": "Informelle Beilegung: Kontaktieren Sie uns unter blokblokstudio.com/contact. Wir bemühen uns, die Angelegenheit innerhalb von 30 Tagen zu klären.",
     "dispute_formal": "Förmliches Verfahren: Scheitert die informelle Beilegung, werden Streitigkeiten vor den zuständigen Gerichten in Deutschland entschieden.",
     "dispute_eu": "EU-Verbraucher: Als Verbraucher in der EU können Sie auch die Plattform zur Online-Streitbeilegung der Europäischen Kommission nutzen.",
     "severability_title": "Salvatorische Klausel",
@@ -610,7 +610,7 @@
     "limitation_language": "<strong>Sprache dieser Erklärung</strong>, die maßgebliche Fassung dieser Erklärung wird derzeit auf Englisch gepflegt. Die Website selbst ist in 19 Sprachen lokalisiert.",
     "feedback_title": "Feedback und Kontakt",
     "feedback_intro": "Wenn Sie auf blokblokstudio.com auf eine Barriere stoßen oder Informationen dieser Website in einem alternativen Format benötigen, kontaktieren Sie uns bitte. Wir bemühen uns, auf Feedback zur Barrierefreiheit innerhalb von <strong>fünf Werktagen</strong> zu antworten.",
-    "feedback_email": "<strong>E-Mail:</strong> <link>hello@blokblokstudio.com</link>",
+    "feedback_email": "<strong>E-Mail:</strong> <link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>Webformular:</strong> <link>Kontaktseite</link>, bitte erwähnen Sie „Barrierefreiheit“ in Ihrer Nachricht.",
     "enforcement_title": "Durchsetzungsverfahren",
     "enforcement_intro": "Blok Blok Studio ist in Deutschland registriert. Wenn Sie mit unserer Antwort auf Ihr Feedback zur Barrierefreiheit nicht zufrieden sind, können Sie sich an die für Sie zuständige Durchsetzungsstelle wenden:",

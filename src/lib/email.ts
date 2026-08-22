@@ -173,7 +173,7 @@ export async function sendMarketingConfirmEmail(to: string, name: string, token:
         Falls Sie das nicht angefordert haben, ignorieren Sie diese E-Mail einfach.
       </p>
       <p style="color: #bbb; font-size: 11px; margin-top: 24px;">
-        Blok Blok Studio LLC · hello@blokblokstudio.com
+        Blok Blok Studio LLC · blokblokstudio.com
       </p>
     </div>`;
 

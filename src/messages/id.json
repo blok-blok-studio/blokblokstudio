@@ -356,7 +356,7 @@
     "success_title": "Anda Telah Berhenti Berlangganan",
     "success_message": "Anda telah berhasil dihapus dari daftar email kami.",
     "error_title": "Terjadi Kesalahan",
-    "error_message": "Kami tidak dapat memproses permintaan Anda. Tautan mungkin tidak valid atau kedaluwarsa. Hubungi kami di hello@blokblokstudio.com untuk bantuan.",
+    "error_message": "Kami tidak dapat memproses permintaan Anda. Tautan mungkin tidak valid atau kedaluwarsa. Hubungi kami di blokblokstudio.com/contact untuk bantuan.",
     "back_home": "Kembali ke beranda"
   },
   "privacy": {

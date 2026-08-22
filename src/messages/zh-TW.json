@@ -356,7 +356,7 @@
     "success_title": "取消訂閱成功",
     "success_message": "您已成功從我們的郵件列表中刪除。",
     "error_title": "出了點問題",
-    "error_message": "我們無法處理您的請求。連結可能無效或已過期。請通過hello@blokblokstudio.com與我們聯絡尋求幫助。",
+    "error_message": "我們無法處理您的請求。連結可能無效或已過期。請通過blokblokstudio.com/contact與我們聯絡尋求幫助。",
     "back_home": "返回首頁"
   },
   "privacy": {

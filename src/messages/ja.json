@@ -356,7 +356,7 @@
     "success_title": "登録解除されました",
     "success_message": "メールリストから正常に削除されました。",
     "error_title": "問題が発生しました",
-    "error_message": "リクエストを処理できませんでした。リンクが無効または期限切れの可能性があります。hello@blokblokstudio.comまでお問い合わせください。",
+    "error_message": "リクエストを処理できませんでした。リンクが無効または期限切れの可能性があります。blokblokstudio.com/contactまでお問い合わせください。",
     "back_home": "ホームに戻る"
   },
   "privacy": {

@@ -14,7 +14,7 @@ export function OrganizationSchema() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'hello@blokblokstudio.com',
+      url: 'https://www.blokblokstudio.com/contact',
       availableLanguage: ['English', 'German', 'French', 'Spanish'],
     },
     sameAs: [
@@ -154,7 +154,6 @@ export function LocalBusinessSchema() {
     image: 'https://www.blokblokstudio.com/logo-hero.png',
     logo: 'https://www.blokblokstudio.com/logo.svg',
     url: 'https://www.blokblokstudio.com',
-    email: 'hello@blokblokstudio.com',
     foundingDate: '2024',
     // Detail from the founder video's transcript (src/data/video-transcripts.ts).
     // It was E-E-A-T signal sitting in an audio file where nothing could read

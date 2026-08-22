@@ -10,8 +10,8 @@ export function LandingFooter() {
     <footer className="mt-16 pt-8 border-t border-white/[0.06] text-center">
       <p className="text-xs text-gray-600 mb-3">
         Blok Blok Studio &middot; Berlin, Germany &middot;{' '}
-        <a href="mailto:hello@blokblokstudio.com" className="hover:text-gray-400 transition-colors">
-          hello@blokblokstudio.com
+        <a href="/contact" className="hover:text-gray-400 transition-colors">
+          Contact
         </a>
       </p>
       <p className="text-xs text-gray-600">

@@ -162,8 +162,8 @@ export function PrivacyContent() {
           <Card title={t('contact_title')}>
             <p className="text-gray-400 leading-relaxed mb-4">{t('contact_content')}</p>
             <p className="text-white">
-              <a href="mailto:hello@blokblokstudio.com" className="hover:text-white/80 transition-colors">
-                hello@blokblokstudio.com
+              <a href="/contact" className="hover:text-white/80 transition-colors">
+                blokblokstudio.com/contact
               </a>
             </p>
           </Card>

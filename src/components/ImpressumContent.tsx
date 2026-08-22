@@ -100,8 +100,11 @@ export function ImpressumContent() {
             <Section title={c.contact_title}>
               <p>
                 {c.email_label}:{' '}
-                <a href="mailto:hello@blokblokstudio.com" className="text-white underline hover:text-gray-300">
-                  hello@blokblokstudio.com
+                {/* No address here until one is chosen. §5 TMG requires an
+                    email in the Impressum, so this is a known gap, not a
+                    design decision — see the note in the commit. */}
+                <a href="/contact" className="text-white underline hover:text-gray-300">
+                  blokblokstudio.com/contact
                 </a>
                 <br />
                 {c.phone_label}: +49 162 7055848

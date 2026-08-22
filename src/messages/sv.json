@@ -356,7 +356,7 @@
     "success_title": "You're Unsubscribed",
     "success_message": "You've been successfully removed from our email list.",
     "error_title": "Something Went Wrong",
-    "error_message": "We couldn't process your request. The link may be invalid or expired. Contact us at hello@blokblokstudio.com for help.",
+    "error_message": "We couldn't process your request. The link may be invalid or expired. Contact us at blokblokstudio.com/contact for help.",
     "back_home": "Back to Home"
   },
   "privacy": {
