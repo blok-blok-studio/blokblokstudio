@@ -65,11 +65,16 @@ const BUDGETS_BUILD = [
 
 // Monthly, and stated as monthly in the value itself so the tracker entry is
 // unambiguous next to a project figure.
+//
+// Anchored on the real social model: €500 per channel per month to manage
+// (bio, messages, comments, posting and scheduling) plus €200 per video,
+// multiplied by however many channels. The bands are wide enough to also
+// cover paid ads, where the number is spend plus management.
 const BUDGETS_MONTHLY = [
-  { value: 'Under €500 / month', hint: 'Testing one channel' },
-  { value: '€500 – €1,500 / month', hint: 'One channel, run properly' },
-  { value: '€1,500 – €5,000 / month', hint: 'Several channels together' },
-  { value: '€5,000+ / month', hint: 'Scaling hard' },
+  { value: 'Around €500 / month', hint: 'One channel, managed' },
+  { value: '€1,000 – €2,000 / month', hint: 'One channel with regular video, or two channels' },
+  { value: '€2,000 – €4,000 / month', hint: 'Two or three channels with video' },
+  { value: '€4,000+ / month', hint: 'Several channels, or channels plus paid ads' },
 ];
 
 const TIMELINES = [
