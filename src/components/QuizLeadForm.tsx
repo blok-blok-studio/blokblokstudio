@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { Turnstile } from './Turnstile';
 import { BUSINESS_TYPES } from '@/data/business-types';
-import { COUNTRIES, flagFor, DEFAULT_COUNTRY, countryByIso, toDialable } from '@/data/country-codes';
+import { COUNTRIES, flagFor, DEFAULT_COUNTRY, toDialable } from '@/data/country-codes';
 import { MARKETING_CONSENT } from '@/data/consent-text';
 import {
   collectAttribution,
@@ -180,6 +180,12 @@ export function QuizLeadForm({
   const [budget, setBudget] = useState('');
   const [timeline, setTimeline] = useState('');
   const [contact, setContact] = useState({ name: '', email: '', phone: '', _hp: '' });
+  // Fixed to Germany rather than read from the geo cookie. That cookie is
+  // Vercel's IP lookup, and IP geolocation is wrong often enough to matter:
+  // mobile carriers and VPNs routinely place a Berlin visitor in another
+  // country. A German studio guessing German is right more often than a
+  // lookup that was confidently showing +31 to someone in Berlin, and it is
+  // one tap to change.
   const [dialIso, setDialIso] = useState(DEFAULT_COUNTRY);
 
   const [consent, setConsent] = useState(false);
@@ -194,8 +200,6 @@ export function QuizLeadForm({
 
   useEffect(() => {
     attribution.current = collectAttribution();
-    const geo = getCookie('bb_country');
-    if (geo && countryByIso(geo)) setDialIso(geo.toUpperCase());
   }, []);
 
   // Move focus to the new question so the step change is announced rather
@@ -501,7 +505,7 @@ export function QuizLeadForm({
                   >
                     {COUNTRIES.map((c) => (
                       <option key={c.iso} value={c.iso} className="bg-[#1a1a1a] text-white">
-                        {flagFor(c.iso)} +{c.dial} {c.name}
+                        {flagFor(c.iso)} +{c.dial} {c.iso}
                       </option>
                     ))}
                   </select>
