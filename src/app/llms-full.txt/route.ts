@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import { blogPosts } from '@/data/blog';
 import { projectsData } from '@/data/projects';
+import { INDEXED_VIDEOS, type SiteVideoKey } from '@/data/videos';
+import { VIDEO_TRANSCRIPTS } from '@/data/video-transcripts';
 
 /**
  * GET /llms-full.txt
@@ -155,6 +157,18 @@ export async function GET() {
     '- **Coach Kofi** (Fitness Coach, Berlin): "The design matched my energy perfectly. Consultations went up over 200% after launch and the site basically sells for me now."',
     '- **Bronco Plumbing** (Home Services, Dallas-Fort Worth): Lead-generating website and growth system; $50k+ gross revenue in the first 5 months, 5.0-star rating across 52 Google reviews.',
     '',
+    '# Video Transcripts',
+    '',
+    'Full transcripts of the videos on the site, so their content is readable without playing them. Produced with local speech recognition and lightly edited for punctuation.',
+    '',
+    ...INDEXED_VIDEOS.flatMap((v) => [
+      `## ${v.name}`,
+      '',
+      `Runs ${v.duration}, plays at https://www.blokblokstudio.com${v.page}.`,
+      '',
+      VIDEO_TRANSCRIPTS[v.id as SiteVideoKey],
+      '',
+    ]),
     '## Comparison: DIY vs Freelancer vs Blok Blok Studio',
     '',
     '| Feature | DIY / Template | Freelancer | Blok Blok Studio |',

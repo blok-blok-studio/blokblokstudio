@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { Turnstile } from './Turnstile';
+import { VideoTranscript } from './VideoTranscript';
 import { BusinessPicker } from './BusinessPicker';
 
 /* ── Animation helpers ── */
@@ -933,38 +934,49 @@ function PitchVideo() {
   }, []);
 
   return (
-    <div className="relative aspect-video rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10">
-      {/* Video element (always mounted for preloading poster) */}
-      <video
-        ref={videoRef}
-        className="absolute inset-0 w-full h-full object-cover"
-        src="/videos/pitch-v2.mp4"
-        poster="/videos/pitch-v2-poster.webp"
-        playsInline
-        controls={isPlaying}
-        preload="metadata"
-        onEnded={() => setIsPlaying(false)}
-      />
-
-      {/* Play overlay, hides once playing */}
-      {!isPlaying && (
-        <div
-          className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 cursor-pointer bg-black/40"
-          onClick={handlePlay}
+    <>
+      <div className="relative aspect-video rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10">
+        {/* Video element (always mounted for preloading poster) */}
+        <video
+          ref={videoRef}
+          className="absolute inset-0 w-full h-full object-cover"
+          src="/videos/pitch-v2.mp4"
+          poster="/videos/pitch-v2-poster.webp"
+          playsInline
+          controls={isPlaying}
+          preload="metadata"
+          onEnded={() => setIsPlaying(false)}
         >
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center shadow-2xl shadow-orange-500/30"
+          <track
+            kind="captions"
+            src="/videos/pitch-v2.en.vtt"
+            srcLang="en"
+            label="English"
+            default
+          />
+        </video>
+
+        {/* Play overlay, hides once playing */}
+        {!isPlaying && (
+          <div
+            className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 cursor-pointer bg-black/40"
+            onClick={handlePlay}
           >
-            <svg className="w-8 h-8 sm:w-10 sm:h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </motion.div>
-          <p className="text-sm sm:text-base text-white/80 font-medium">{t('video_watch')}</p>
-          <p className="text-xs text-white/40">{t('video_duration')}</p>
-        </div>
-      )}
-    </div>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center shadow-2xl shadow-orange-500/30"
+            >
+              <svg className="w-8 h-8 sm:w-10 sm:h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </motion.div>
+            <p className="text-sm sm:text-base text-white/80 font-medium">{t('video_watch')}</p>
+            <p className="text-xs text-white/40">{t('video_duration')}</p>
+          </div>
+        )}
+      </div>
+      <VideoTranscript video="pitch" speaker="Chase Haynes, founder" />
+    </>
   );
 }
 

@@ -1,4 +1,5 @@
-import { videoUrls, type SiteVideo } from '@/data/videos';
+import { videoUrls, type SiteVideo, type SiteVideoKey } from '@/data/videos';
+import { transcriptAsPlainText } from '@/data/video-transcripts';
 
 export function OrganizationSchema() {
   const schema = {
@@ -221,7 +222,8 @@ export function LocalBusinessSchema() {
  */
 export function VideoSchema({ videos }: { videos: SiteVideo[] }) {
   const schema = videos.map((v) => {
-    const { contentUrl, thumbnailUrl, pageUrl } = videoUrls(v);
+    const { contentUrl, thumbnailUrl, captionUrl, pageUrl } = videoUrls(v);
+    const transcript = transcriptAsPlainText(v.id as SiteVideoKey);
     return {
       '@context': 'https://schema.org',
       '@type': 'VideoObject',
@@ -235,6 +237,10 @@ export function VideoSchema({ videos }: { videos: SiteVideo[] }) {
       encodingFormat: 'video/mp4',
       inLanguage: 'en',
       isFamilyFriendly: true,
+      // The whole point of the exercise: nothing else on the page tells a
+      // crawler or an assistant what is actually said in the video.
+      transcript,
+      caption: captionUrl,
       // Self-hosted: the page is where it plays, there is no separate player.
       embedUrl: pageUrl,
       publisher: {

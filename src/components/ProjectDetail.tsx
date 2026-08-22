@@ -35,6 +35,8 @@ import { AnimatedSection } from './AnimatedSection';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
+import { videoForProject, type SiteVideoKey } from '@/data/videos';
+import { VideoTranscript } from './VideoTranscript';
 import { projectsData } from '@/data/projects';
 
 /**
@@ -102,6 +104,11 @@ function ScaledLiveIframe({
  */
 export function ProjectDetail({ slug }: { slug: string }) {
   const project = projectsData[slug];
+  // Caption track lives in videos.ts, which is the source of truth for
+  // everything the video SEO layer reads.
+  const testimonialVideoMeta = videoForProject(slug);
+  const testimonialCaptions = testimonialVideoMeta?.captions;
+  const testimonialKey = testimonialVideoMeta?.id as SiteVideoKey | undefined;
 
   if (!project) {
     return (
@@ -367,7 +374,22 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 className="w-full rounded-2xl sm:rounded-3xl bg-gray-900"
               >
                 <source src={project.testimonialVideo} type="video/mp4" />
+                {testimonialCaptions && (
+                  <track
+                    kind="captions"
+                    src={testimonialCaptions}
+                    srcLang="en"
+                    label="English"
+                    default
+                  />
+                )}
               </video>
+              {testimonialKey && (
+                <VideoTranscript
+                  video={testimonialKey}
+                  speaker={project.testimonialName}
+                />
+              )}
             </AnimatedSection>
           </div>
         </section>

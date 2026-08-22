@@ -23,6 +23,8 @@ export interface SiteVideo {
   description: string;
   src: string;
   poster: string;
+  /** WebVTT caption track sitting beside the mp4. */
+  captions: string;
   /** ISO 8601, e.g. PT2M15S — what schema.org VideoObject wants. */
   duration: string;
   /** Same length in whole seconds — what a video sitemap wants instead. */
@@ -43,6 +45,7 @@ export const SITE_VIDEOS = {
       'Chase Haynes, founder of Blok Blok Studio, explains what the free 30-minute strategy call covers: a review of your website, ads, and follow-up, and a plan for the fastest wins. Filmed to camera.',
     src: '/videos/pitch-v2.mp4',
     poster: '/videos/pitch-v2-poster.webp',
+    captions: '/videos/pitch-v2.en.vtt',
     duration: 'PT58S',
     seconds: 58,
     uploadDate: '2026-08-22',
@@ -55,6 +58,7 @@ export const SITE_VIDEOS = {
       'Video testimonial from Coach Kofi, a Nike athlete and personal trainer in Berlin, filmed at his gym. Blok Blok Studio built coachkofi.de; consultation requests rose 200% after launch.',
     src: '/videos/testimonial-kofi-v2.mp4',
     poster: '/videos/testimonial-kofi-v2-poster.webp',
+    captions: '/videos/testimonial-kofi-v2.en.vtt',
     duration: 'PT46S',
     seconds: 46,
     uploadDate: '2026-08-22',
@@ -67,6 +71,7 @@ export const SITE_VIDEOS = {
       'Video testimonial from Coach Luki, a personal trainer in Berlin. Blok Blok Studio built coachluki.com, which takes his bookings and payments directly on the site instead of through DMs and manual invoices.',
     src: '/videos/testimonial-luki-v2.mp4',
     poster: '/videos/testimonial-luki-v2-poster.webp',
+    captions: '/videos/testimonial-luki-v2.en.vtt',
     duration: 'PT2M15S',
     seconds: 135,
     uploadDate: '2026-08-22',
@@ -79,6 +84,7 @@ export const SITE_VIDEOS = {
       'Chase Haynes walks through where service businesses quietly lose customers online and how Blok Blok Studio fixes it, screen-recorded over the studio site.',
     src: '/videos/founder-v2.mp4',
     poster: '/videos/founder-v2-poster.webp',
+    captions: '/videos/founder-v2.en.vtt',
     duration: 'PT1M14S',
     seconds: 74,
     uploadDate: '2026-08-22',
@@ -93,6 +99,7 @@ export function videoUrls(v: SiteVideo) {
   return {
     contentUrl: `${BASE}${v.src}`,
     thumbnailUrl: `${BASE}${v.poster}`,
+    captionUrl: `${BASE}${v.captions}`,
     pageUrl: `${BASE}${v.page}`,
   };
 }

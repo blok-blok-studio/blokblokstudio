@@ -5,6 +5,7 @@ import { AnimatedSection } from './AnimatedSection';
 import { CaseStudyGrid } from './CaseStudyGrid';
 import { LeadForm } from './LeadForm';
 import { LandingFooter } from './LandingFooter';
+import { VideoTranscript } from './VideoTranscript';
 
 /**
  * /vsl — video sales letter page. Flow: Meet the Founder (the page's one
@@ -101,6 +102,13 @@ export function VslContent() {
                   className="w-full aspect-video"
                 >
                   <source src={FOUNDER_VIDEO_URL} type="video/mp4" />
+                  <track
+                    kind="captions"
+                    src="/videos/founder-v2.en.vtt"
+                    srcLang="en"
+                    label="English"
+                    default
+                  />
                 </video>
               ) : (
                 <div className="w-full aspect-video flex flex-col items-center justify-center bg-gradient-to-br from-gray-950 via-gray-900 to-orange-950/30">
@@ -113,6 +121,7 @@ export function VslContent() {
                 </div>
               )}
             </div>
+            <VideoTranscript video="founder" speaker="Chase Haynes, founder" />
             <p className="text-gray-500 text-sm mt-4 text-pretty">
               Chase Haynes, founder of Blok Blok Studio. You talk to the person who builds your site, not an account&nbsp;manager.
             </p>

@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { SITE_VIDEOS } from '@/data/videos';
 
 /**
  * 2x2 client case-study grid, shared by /vsl and the homepage. Top row:
@@ -15,13 +16,13 @@ const CASES = [
     name: 'Coach Kofi', where: 'Nike athlete, Berlin',
     proof: 'Consultation requests up 200% after launch.',
     href: 'https://www.coachkofi.de', label: 'coachkofi.de',
-    video: '/videos/testimonial-kofi-v2.mp4', poster: '/videos/testimonial-kofi-v2-poster.webp',
+    video: SITE_VIDEOS.kofi.src, poster: SITE_VIDEOS.kofi.poster, captions: SITE_VIDEOS.kofi.captions,
   },
   {
     name: 'Coach Luki', where: 'Personal trainer, Berlin',
     proof: 'Bookings and payments straight through the site. No DMs, no invoices.',
     href: 'https://coachluki.com', label: 'coachluki.com',
-    video: '/videos/testimonial-luki-v2.mp4', poster: '/videos/testimonial-luki-v2-poster.webp',
+    video: SITE_VIDEOS.luki.src, poster: SITE_VIDEOS.luki.poster, captions: SITE_VIDEOS.luki.captions,
   },
   {
     name: 'Bronco Plumbing', where: 'Dallas-Fort Worth',
@@ -51,6 +52,13 @@ export function CaseStudyGrid() {
               className="w-full aspect-video object-cover bg-black"
             >
               <source src={c.video} type="video/mp4" />
+              <track
+                kind="captions"
+                src={c.captions}
+                srcLang="en"
+                label="English"
+                default
+              />
             </video>
           ) : (
             <Image
