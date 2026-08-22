@@ -1,8 +1,9 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { AnimatedSection } from './AnimatedSection';
 import { LandingFooter } from './LandingFooter';
+import { readAnswers, clearAnswers, buildPlan, type Plan } from '@/lib/quiz-plan';
 
 /**
  * Thank-you / conversion pages for the /start ad funnel.
@@ -70,6 +71,18 @@ function fireGoogle() {
 
 export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'google' | 'all' }) {
   const fired = useRef(false);
+  // The plan is the payoff for answering the quiz. Read on mount rather than
+  // during render so the server and first client paint agree; a direct visit
+  // or private mode simply leaves it null and the generic copy stands.
+  const [plan, setPlan] = useState<Plan | null>(null);
+
+  useEffect(() => {
+    const answers = readAnswers();
+    if (answers) {
+      setPlan(buildPlan(answers));
+      clearAnswers();
+    }
+  }, []);
 
   useEffect(() => {
     if (fired.current) return;
@@ -118,12 +131,47 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-4">You&apos;re in. One more step.</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-4">
+            {plan ? plan.headline : "You're in. One more step."}
+          </h1>
           <p className="text-gray-400 text-base sm:text-lg leading-relaxed mb-10">
-            Your request is with us. Lock in your free 15-minute intro call now, the earliest slots go to
-            whoever books first.
+            {plan
+              ? plan.diagnosis
+              : 'Your request is with us. Lock in your free 15-minute intro call now, the earliest slots go to whoever books first.'}
           </p>
         </AnimatedSection>
+
+        {plan && (
+          <AnimatedSection delay={0.05} className="mb-12 text-left">
+            <div className="rounded-3xl border border-orange-500/20 bg-orange-500/[0.04] p-6 sm:p-8">
+              <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70 mb-5">Your plan</p>
+              <div className="space-y-5">
+                {plan.items.map((item) => (
+                  <div key={item.title} className="flex items-start gap-4">
+                    <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-orange-400" />
+                    <div>
+                      <p className="text-white font-medium">{item.title}</p>
+                      <p className="text-gray-400 text-sm leading-relaxed text-pretty">{item.detail}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 pt-6 border-t border-white/10 space-y-3">
+                <p className="text-sm text-gray-400 text-pretty">
+                  <span className="text-gray-500">Timing. </span>
+                  {plan.timing}
+                </p>
+                <p className="text-sm text-gray-400 text-pretty">
+                  <span className="text-gray-500">Budget. </span>
+                  {plan.budgetNote}
+                </p>
+              </div>
+            </div>
+            <p className="mt-4 text-center text-sm text-gray-500 text-pretty">
+              Book the call below and we will go through this properly, with real numbers.
+            </p>
+          </AnimatedSection>
+        )}
 
         <AnimatedSection delay={0.1}>
           <div className="rounded-3xl overflow-hidden border border-white/10 bg-white shadow-2xl shadow-black/40">

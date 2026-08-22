@@ -13,6 +13,7 @@ import {
   thanksDestination,
   stashConversionIds,
 } from '@/lib/lead-capture';
+import { stashAnswers } from '@/lib/quiz-plan';
 
 /**
  * Stepped qualifying quiz under the video on /start.
@@ -144,6 +145,10 @@ export function QuizLeadForm({
     setError('');
 
     const eventId = stashConversionIds(contact.email, contact.phone);
+    // The thank-you page reads these back and turns them into the plan. That
+    // plan is the reason anyone answered five questions, so it has to survive
+    // the redirect.
+    stashAnswers({ name: contact.name, business, services, budget, timeline });
     const fbclid = new URLSearchParams(window.location.search).get('fbclid') || undefined;
 
     const summary = [

@@ -8,11 +8,16 @@ import { LandingFooter } from './LandingFooter';
 import { VideoTranscript } from './VideoTranscript';
 
 /**
- * /start — video sales letter page. Flow: Meet the Founder (the page's one
- * video slot) → Meet Our Clients (case-study grid) → What We Do →
- * "Interested? Let's talk." lead form. Submitting routes through the
- * platform thank-you pages (ad conversions fire there), where the booking
- * calendar is embedded so visitors never leave the site.
+ * /start — quiz-first landing page. Flow: the qualifying quiz (the whole
+ * ask) → Meet the Founder video → Meet Our Clients (case-study grid) →
+ * What We Do. Submitting routes through the platform thank-you pages, where
+ * the ad conversions fire and the quiz answers become a written plan with
+ * the booking calendar under it.
+ *
+ * The quiz sits above the video deliberately: the answers are what produce
+ * the plan, so asking for them first means the pitch is personalised by the
+ * time anyone reaches it. The proof below is for whoever wants convincing
+ * before they answer.
  */
 
 // The page's single video, committed at public/videos/founder-v2.mp4.
@@ -84,13 +89,21 @@ export function VslContent() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300"> (and how to fix it)</span>
           </h1>
           <p className="text-gray-500 text-sm sm:text-base mb-8 text-pretty">
-            Watch the video, then book a call. We&apos;ll break down exactly where you&apos;re losing customers and how to fix&nbsp;it.
+            Answer five quick questions and we&apos;ll show you where to start. Takes about a&nbsp;minute.
           </p>
+        </AnimatedSection>
+
+        {/* The quiz leads. Answering it is the whole ask on this page: the
+            answers build the plan shown on the thank-you page, and the
+            qualifying questions land before anyone is asked for an email.
+            Everything below is proof for whoever wants it first. */}
+        <AnimatedSection delay={0.05}>
+          <QuizLeadForm fieldTag="Start Lead" ctaLabel="Show me my plan" />
         </AnimatedSection>
 
         {/* Meet the Founder: the page's one video slot */}
         <AnimatedSection delay={0.1}>
-          <div className="mt-2 sm:mt-4">
+          <div className="mt-14 sm:mt-20">
             <SectionHeading kicker="Who you'll work with" title="Meet the Founder" />
             <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-black shadow-2xl shadow-black/50">
               {FOUNDER_VIDEO_URL ? (
@@ -157,18 +170,6 @@ export function VslContent() {
                 </div>
               ))}
             </div>
-          </div>
-        </AnimatedSection>
-
-        {/* Lead capture after the proof: they've seen the videos, the
-            clients, and the numbers — now the 30-second ask. Submitting
-            opens the booking calendar in a new tab. */}
-        <AnimatedSection delay={0.3}>
-          <div className="mt-14 sm:mt-20">
-            <div className="text-center">
-              <SectionHeading kicker="One quick form, then pick a time" title="Interested? Let's talk." />
-            </div>
-            <QuizLeadForm fieldTag="Start Lead" ctaLabel="Book my call" />
           </div>
         </AnimatedSection>
 
