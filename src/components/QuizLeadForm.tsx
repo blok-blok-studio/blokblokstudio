@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { Turnstile } from './Turnstile';
 import { BUSINESS_TYPES } from '@/data/business-types';
 import { COUNTRIES, flagFor, DEFAULT_COUNTRY, countryByIso, toDialable } from '@/data/country-codes';
+import { MARKETING_CONSENT } from '@/data/consent-text';
 import {
   collectAttribution,
   getCookie,
@@ -475,9 +476,7 @@ export function QuizLeadForm({
                   className="mt-0.5 h-4 w-4 rounded border-white/20 bg-white/5 accent-orange-500"
                 />
                 <span className="text-xs text-gray-500 leading-relaxed text-pretty">
-                  Yes, Blok Blok Studio can email me practical growth tips and occasional
-                  offers. We&apos;ll send one email to confirm, and you are only subscribed once
-                  you click the link in it. Unsubscribe&nbsp;anytime.{' '}
+                  {MARKETING_CONSENT.text}{' '}
                   <span className="text-gray-600">(optional)</span>
                 </span>
               </label>
