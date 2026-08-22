@@ -51,11 +51,16 @@ const SERVICES = [
  */
 const MARKETING_SERVICES = ['Google Ads', 'Meta Ads', 'Social media'];
 
+// The real tiers, so the answer doubles as a price check and nobody books a
+// call expecting a number that was never on offer. "Under €5k" is kept as an
+// option deliberately: it is below where builds start, and it is better to
+// know that from the form than forty minutes into a call.
 const BUDGETS_BUILD = [
-  { value: 'Under €2k', hint: 'Landing page or a small refresh' },
-  { value: '€2k – €5k', hint: 'Most multi-page sites start here' },
-  { value: '€5k – €10k', hint: 'Larger build, shop, or site plus ads' },
-  { value: '€10k+', hint: 'Full build with ongoing growth work' },
+  { value: 'Under €5k', hint: 'Below where our builds start' },
+  { value: 'Around €5k', hint: 'One-page site' },
+  { value: 'Around €10k', hint: 'Four to five pages' },
+  { value: 'Around €15k', hint: 'Around fifteen pages' },
+  { value: '€20k+', hint: 'Online shop, or something larger' },
 ];
 
 // Monthly, and stated as monthly in the value itself so the tracker entry is
