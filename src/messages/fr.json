@@ -433,80 +433,169 @@
     "updates_content": "Si nous commençons à utiliser des analyses ou des technologies de suivi à l'avenir, nous mettrons à jour cette politique et vous informerons via notre bannière de consentement aux cookies avant tout suivi."
   },
   "start": {
-    "meta_title": "On prend un café ? | Blok Blok Studio",
-    "meta_description": "Je suis Chase. Je dirige Blok Blok Studio, une agence créative berlinoise. Sites, pubs, réseaux sociaux et systèmes IA. Le premier café est pour moi.",
-    "meta_twitter_description": "Agence créative berlinoise. Sites, pubs, social, IA. Le premier café est pour moi.",
-    "hero_badge": "Tu as ouvert la lettre",
-    "hero_title": "L'étape suivante, c'est un café.",
-    "hero_subtitle": "Choisis un créneau ci-dessous. Le premier est pour moi. Pas de pitch, pas de pression, juste une vraie discussion sur ton activité.",
-    "hero_cta_primary": "Réserver un café",
-    "hero_cta_secondary": "Voir les projets récents",
-    "hook_line1": "La plupart des belles entreprises berlinoises font un meilleur travail qu'on ne le voit en ligne.",
-    "hook_line2": "C'est là que j'interviens. Je remets ta présence en ligne d'aplomb et je te place devant les bons clients.",
-    "pitch_label": "Le pitch",
-    "pitch_title": "Je m'appelle Chase. Je dirige Blok Blok Studio.",
-    "pitch_body": "Une agence créative berlinoise. Je crée des sites, je gère des publicités, j'anime les réseaux sociaux et je mets en place des systèmes IA pour des entreprises qui font du bon boulot et en ont assez de rester un secret.",
-    "services_title": "Ce que je fais vraiment",
-    "services_subtitle": "Quatre choses, bien faites, qui fonctionnent ensemble.",
-    "catalog_eyebrow": "Tout au menu",
-    "catalog_title": "La liste complète des services",
-    "catalog_subtitle": "Choisis ta voie. On règle la taille autour d'un café.",
-    "service_websites_name": "Sites web",
-    "service_websites_desc": "Des sites sur mesure aussi soignés que ton vrai travail. Rapides, mobile-first, conçus pour transformer les visiteurs en clients payants.",
-    "service_ads_name": "Publicités",
-    "service_ads_desc": "Des pubs Meta et Google ciblées sur les gens qui cherchent déjà ce que tu fais. Pas de métriques creuses, juste des réservations et des ventes.",
-    "service_social_name": "Réseaux sociaux",
-    "service_social_desc": "Contenus et profils à la hauteur de la qualité de ton vrai travail, pour que la première impression en ligne arrête de te desservir.",
-    "service_ai_name": "Systèmes IA",
-    "service_ai_desc": "Réponses auto, capture de leads, relances, réservations. Des systèmes qui s'occupent de l'ennuyeux pour que tu fasses ce que tu fais le mieux.",
-    "audience_title": "Avec qui je travaille",
-    "audience_subtitle": "Des entreprises berlinoises qui font du bon travail et en ont assez de rester un secret.",
-    "audience_trainers": "Coachs sportifs",
-    "audience_restaurants": "Restaurants & cafés",
-    "audience_ecommerce": "Boutiques en ligne",
-    "audience_agencies": "Agences & studios",
-    "audience_law": "Cabinets d'avocats",
-    "audience_clinics": "Cliniques & bien-être",
-    "audience_construction": "BTP & artisanat",
-    "audience_saas": "SaaS & tech",
-    "audience_education": "Éducation",
-    "audience_music": "Musique & créatifs",
-    "audience_freelancers": "Indépendants",
-    "audience_other": "N'importe qui d'autre",
-    "compare_title": "Ce que tu reçois d'habitude vs. ce que je fais",
-    "compare_subtitle": "La plupart des agences livrent un site et disparaissent. Pas moi.",
-    "compare_label_others": "Les autres",
-    "compare_label_me": "Moi",
-    "compare_1_bad": "Un beau site que personne ne trouve sur Google",
-    "compare_1_good": "Du SEO intégré pour que les bons clients te trouvent vraiment",
-    "compare_2_bad": "Courir après les paiements par DM, e-mails et factures",
-    "compare_2_good": "Réservation et paiement en ligne pour que les clients paient sur ton site",
-    "compare_3_bad": "\"Le mobile, on verra plus tard\"",
-    "compare_3_good": "Mobile d'abord, parce que c'est là que sont tes clients",
-    "compare_4_bad": "Un template qui ressemble à toutes les autres entreprises de ton secteur",
-    "compare_4_good": "Un design sur mesure qui fait sortir ta marque du lot tout de suite",
-    "compare_5_bad": "Lancé puis abandonné par l'agence",
-    "compare_5_good": "Un suivi continu, parce que ton activité continue de grandir",
-    "process_title": "Comment ça se passe",
-    "process_subtitle": "Quatre étapes, du café au lancement. Aucun mystère.",
-    "process_1_title": "Café",
-    "process_1_desc": "On se voit 30 minutes. Je découvre ton activité, tes objectifs et ce qui te lasse en ligne. Le premier est pour moi.",
-    "process_2_title": "Plan",
-    "process_2_desc": "Je te renvoie une stratégie claire et une proposition. Tu vois exactement ce que tu obtiens, combien ça coûte et quand c'est livré, avant qu'on commence.",
-    "process_3_title": "Construction",
-    "process_3_desc": "Design, développement, pubs, réseaux, IA. Ce qu'il te faut. Tu es dans la boucle tout du long, on itère jusqu'à ce que ce soit nickel.",
-    "process_4_title": "Lancement",
-    "process_4_desc": "Ça part en ligne, propre et rapide. Et je reste pour que ça continue à grandir au lieu de disparaître le lendemain.",
-    "projects_title": "Travaux récents",
-    "projects_subtitle": "De vrais projets, de vrais clients, de vrais résultats.",
-    "testimonials_title": "Dans leurs mots",
-    "testimonials_subtitle": "Ce que disent les clients après avoir bossé avec moi.",
-    "testimonial_view_project": "Voir le projet",
-    "cta_title": "Maintenant que tu as ouvert la lettre, l'étape suivante c'est un café.",
-    "cta_subtitle": "Choisis un créneau. Le premier est pour moi.",
-    "cta_button": "Réserver un café",
-    "cta_signoff_role": "Fondateur, Blok Blok Studio",
-    "whatsapp_aria": "Discuter sur WhatsApp"
+    "headline_a": "Là où votre entreprise perd des clients sans le voir",
+    "headline_b": " (et comment y remédier)",
+    "sub": "Répondez à cinq questions rapides et nous vous montrerons ce que nous corrigerions en premier. Ensuite vous choisissez un créneau. Une minute suffit.",
+    "proof": "Studio de design web à Berlin. Les demandes de consultation de Coach Kofi ont augmenté de 200% après le lancement. Un plombier en première année a réalisé 50 000 $ de chiffre en cinq mois.",
+    "progress": "Question {current} sur {total}",
+    "continue": "Continuer",
+    "back": "Retour",
+    "no_spam": "Pas de spam. Sans engagement.",
+    "q_business": "Quel type d'activité exercez-vous ?",
+    "q_business_sub": "Choisissez le plus proche.",
+    "q_services": "De quoi avez-vous besoin ?",
+    "q_services_sub": "Plusieurs choix possibles.",
+    "q_budget_project": "Quel est votre budget pour ce projet ?",
+    "q_budget_project_sub": "Une idée approximative suffit. Cela nous dit simplement quoi proposer.",
+    "q_budget_ads": "Combien pourriez-vous investir en publicité chaque mois ?",
+    "q_budget_ads_sub": "Uniquement le budget publicitaire. Notre gestion représente 15% de ce montant, plus une mise en place unique. Un ordre de grandeur suffit.",
+    "q_budget_monthly": "Quel est votre budget mensuel ?",
+    "q_budget_monthly_sub": "Environ ce que vous y consacreriez chaque mois. Un ordre de grandeur suffit.",
+    "q_timeline": "Quand souhaitez-vous commencer ?",
+    "q_contact": "Dernière étape. Comment vous joindre ?",
+    "q_contact_sub": "Ensuite vous choisissez un créneau. Nous répondons sous une heure aux heures ouvrées.",
+    "label_name": "Votre nom",
+    "label_email": "Adresse e-mail",
+    "label_phone": "Tél. / WhatsApp",
+    "label_phone_note": "(facultatif, pour une réponse plus rapide)",
+    "label_country": "Indicatif du pays",
+    "placeholder_name": "Jean Dupont",
+    "placeholder_email": "jean@entreprise.fr",
+    "placeholder_phone": "6 12 34 56 78",
+    "well_call": "Nous appellerons le {number}",
+    "consent_pre": "J'accepte la",
+    "consent_link": "Politique de confidentialité",
+    "consent_post": "et consens à être contacté au sujet de ma demande.",
+    "optional": "(facultatif)",
+    "cta": "Réserver mon appel",
+    "sending": "Envoi...",
+    "error_generic": "Une erreur est survenue. Veuillez réessayer.",
+    "business": {
+      "coaching_consulting": "Coaching / Conseil",
+      "e_commerce_online_store": "E-Commerce / Boutique en ligne",
+      "saas_software": "SaaS / Logiciel",
+      "agency_marketing": "Agence / Marketing",
+      "real_estate": "Immobilier",
+      "healthcare_medical": "Santé / Médical",
+      "legal_law_firm": "Juridique / Cabinet d'avocats",
+      "financial_services": "Services financiers",
+      "education_training": "Éducation / Formation",
+      "restaurant_food_beverage": "Restauration / Alimentation",
+      "fitness_wellness": "Fitness / Bien-être",
+      "construction_trades": "Construction / Artisanat",
+      "beauty_salon_spa": "Beauté / Salon / Spa",
+      "content_creator_influencer": "Créateur de contenu / Influenceur",
+      "retail_brick_mortar": "Commerce / Boutique physique",
+      "professional_services": "Services professionnels",
+      "nonprofit": "Association",
+      "automotive": "Automobile",
+      "travel_hospitality": "Voyage / Hôtellerie",
+      "other": "Autre"
+    },
+    "services": {
+      "new_website": "Nouveau site",
+      "website_redesign": "Refonte du site",
+      "e_commerce": "E-commerce",
+      "landing_page": "Landing page",
+      "google_ads": "Google Ads",
+      "meta_ads": "Meta Ads",
+      "social_media": "Réseaux sociaux",
+      "not_sure_yet": "Je ne sais pas encore"
+    },
+    "timeline": {
+      "0": {
+        "label": "Dès que possible",
+        "hint": "Prêt à démarrer"
+      },
+      "1": {
+        "label": "Sous un mois",
+        "hint": "Ça doit avancer bientôt"
+      },
+      "2": {
+        "label": "Un à trois mois",
+        "hint": "Prévu, sans urgence"
+      },
+      "3": {
+        "label": "Je me renseigne",
+        "hint": "Je regarde les options"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "Moins de 5 000 €",
+        "hint": "En dessous de notre seuil"
+      },
+      "1": {
+        "label": "Environ 5 000 €",
+        "hint": "Site une page"
+      },
+      "2": {
+        "label": "Environ 10 000 €",
+        "hint": "Quatre à cinq pages"
+      },
+      "3": {
+        "label": "Environ 15 000 €",
+        "hint": "Une quinzaine de pages"
+      },
+      "4": {
+        "label": "20 000 €+",
+        "hint": "E-commerce ou plus grand"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "Environ 500 € / mois",
+        "hint": "Un canal, géré"
+      },
+      "1": {
+        "label": "1 000 – 2 000 € / mois",
+        "hint": "Un canal avec vidéo régulière, ou deux canaux"
+      },
+      "2": {
+        "label": "2 000 – 4 000 € / mois",
+        "hint": "Deux ou trois canaux avec vidéo"
+      },
+      "3": {
+        "label": "4 000 €+ / mois",
+        "hint": "Plusieurs canaux, beaucoup de vidéo"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "Moins de 1 000 € / mois de budget pub",
+        "hint": "Premiers tests"
+      },
+      "1": {
+        "label": "1 000 – 3 000 € / mois de budget pub",
+        "hint": "Une plateforme, bien gérée"
+      },
+      "2": {
+        "label": "3 000 – 10 000 € / mois de budget pub",
+        "hint": "Les deux plateformes, ou en montée"
+      },
+      "3": {
+        "label": "10 000 €+ / mois de budget pub",
+        "hint": "Gros volume"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "Moins de 1 000 € / mois",
+        "hint": "Pour démarrer"
+      },
+      "1": {
+        "label": "1 000 – 3 000 € / mois",
+        "hint": "Un canal ou une plateforme, bien géré"
+      },
+      "2": {
+        "label": "3 000 – 6 000 € / mois",
+        "hint": "Plusieurs en parallèle"
+      },
+      "3": {
+        "label": "6 000 €+ / mois",
+        "hint": "Forte montée en charge"
+      }
+    }
   },
   "errors": {
     "title": "Une erreur s'est produite",

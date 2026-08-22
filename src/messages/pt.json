@@ -433,80 +433,169 @@
     "updates_content": "Se começarmos a usar análises ou tecnologias de rastreamento no futuro, atualizaremos esta política e notificaremos você através do nosso banner de consentimento de cookies antes que qualquer rastreamento ocorra."
   },
   "start": {
-    "meta_title": "Vamos tomar um café | Blok Blok Studio",
-    "meta_description": "Sou o Chase. Dirijo a Blok Blok Studio, uma agência criativa de Berlim. Sites, anúncios, redes sociais e sistemas de IA. O primeiro café é por minha conta.",
-    "meta_twitter_description": "Agência criativa em Berlim. Sites, anúncios, redes, IA. O primeiro café é por minha conta.",
-    "hero_badge": "Você abriu a carta",
-    "hero_title": "O próximo passo é um café.",
-    "hero_subtitle": "Escolha um horário abaixo. O primeiro é por minha conta. Sem pitch, sem pressão, apenas uma conversa real sobre o seu negócio.",
-    "hero_cta_primary": "Marcar um café",
-    "hero_cta_secondary": "Ver trabalhos recentes",
-    "hook_line1": "A maioria dos bons negócios de Berlim faz um trabalho melhor do que o que aparece online.",
-    "hook_line2": "É aí que eu entro. Arrumo a sua presença online e te coloco na frente dos clientes certos.",
-    "pitch_label": "O pitch",
-    "pitch_title": "Sou o Chase. Dirijo a Blok Blok Studio.",
-    "pitch_body": "Uma agência criativa de Berlim. Construo sites, gerencio anúncios, cuido das redes sociais e monto sistemas de IA para negócios que fazem bem o que fazem e estão cansados de ser um segredo.",
-    "services_title": "O que eu realmente faço",
-    "services_subtitle": "Quatro coisas, bem feitas, que funcionam juntas.",
-    "catalog_eyebrow": "Tudo no menu",
-    "catalog_title": "A lista completa de serviços",
-    "catalog_subtitle": "Escolhe a faixa. O tamanho a gente fecha tomando café.",
-    "service_websites_name": "Sites",
-    "service_websites_desc": "Sites sob medida com a mesma qualidade do seu trabalho real. Rápidos, mobile-first e feitos para transformar visitantes em clientes pagantes.",
-    "service_ads_name": "Anúncios",
-    "service_ads_desc": "Anúncios no Meta e no Google direcionados às pessoas que já estão procurando o que você faz. Sem métricas de vaidade, só reservas e vendas.",
-    "service_social_name": "Redes sociais",
-    "service_social_desc": "Conteúdo e perfis no nível da qualidade do seu trabalho real, para que a primeira impressão online pare de te atrapalhar.",
-    "service_ai_name": "Sistemas de IA",
-    "service_ai_desc": "Respostas automáticas, captura de leads, follow-ups, reservas. Sistemas que cuidam do chato para você seguir fazendo o que faz de melhor.",
-    "audience_title": "Com quem eu trabalho",
-    "audience_subtitle": "Negócios de Berlim que fazem bem o que fazem e estão cansados de ser um segredo.",
-    "audience_trainers": "Personal trainers",
-    "audience_restaurants": "Restaurantes e cafés",
-    "audience_ecommerce": "Lojas online",
-    "audience_agencies": "Agências e estúdios",
-    "audience_law": "Escritórios de advocacia",
-    "audience_clinics": "Clínicas e bem-estar",
-    "audience_construction": "Construção e ofícios",
-    "audience_saas": "SaaS e tecnologia",
-    "audience_education": "Educação",
-    "audience_music": "Música e criativos",
-    "audience_freelancers": "Freelancers",
-    "audience_other": "Qualquer outro",
-    "compare_title": "O que você costuma receber vs. o que eu faço",
-    "compare_subtitle": "A maioria das agências entrega um site e some. Eu não.",
-    "compare_label_others": "Outros",
-    "compare_label_me": "Eu",
-    "compare_1_bad": "Um site bonito que ninguém acha no Google",
-    "compare_1_good": "SEO embutido para que os clientes certos realmente te encontrem",
-    "compare_2_bad": "Correr atrás de pagamentos por DM, e-mails e faturas",
-    "compare_2_good": "Reservas e pagamentos online para clientes pagarem no seu site",
-    "compare_3_bad": "\"O mobile a gente vê depois\"",
-    "compare_3_good": "Mobile primeiro, porque é onde estão seus clientes",
-    "compare_4_bad": "Um template igual a qualquer outro negócio do seu setor",
-    "compare_4_good": "Design sob medida que faz a sua marca se destacar de cara",
-    "compare_5_bad": "Lançado e depois abandonado pela agência",
-    "compare_5_good": "Suporte contínuo, porque o seu negócio continua crescendo",
-    "process_title": "Como funciona",
-    "process_subtitle": "Quatro passos do café ao lançamento. Sem mistério.",
-    "process_1_title": "Café",
-    "process_1_desc": "A gente se encontra por 30 minutos. Conheço o seu negócio, seus objetivos e o que está te cansando online. O primeiro é por minha conta.",
-    "process_2_title": "Plano",
-    "process_2_desc": "Te devolvo uma estratégia clara e uma proposta. Você vê exatamente o que recebe, quanto custa e quando entrega antes da gente começar.",
-    "process_3_title": "Construir",
-    "process_3_desc": "Design, desenvolvimento, anúncios, social, IA. O que você precisar. Você fica por dentro o tempo todo e a gente itera até ficar certo.",
-    "process_4_title": "Lançamento",
-    "process_4_desc": "Vai ao ar, polido e rápido. Aí eu fico por perto para continuar fazendo crescer, em vez de sumir no dia seguinte.",
-    "projects_title": "Trabalhos recentes",
-    "projects_subtitle": "Projetos reais, clientes reais, resultados reais.",
-    "testimonials_title": "Nas palavras deles",
-    "testimonials_subtitle": "O que os clientes dizem depois de trabalhar comigo.",
-    "testimonial_view_project": "Ver projeto",
-    "cta_title": "Agora que você abriu a carta, o próximo passo é um café.",
-    "cta_subtitle": "Escolha um horário. O primeiro é por minha conta.",
-    "cta_button": "Marcar um café",
-    "cta_signoff_role": "Fundador, Blok Blok Studio",
-    "whatsapp_aria": "Conversar no WhatsApp"
+    "headline_a": "Onde o seu negócio perde clientes sem perceber",
+    "headline_b": " (e como resolver)",
+    "sub": "Responda a cinco perguntas rápidas e mostramos o que corrigiríamos primeiro. Depois escolhe um horário. Demora cerca de um minuto.",
+    "proof": "Estúdio de web design em Berlim. Os pedidos de consulta do Coach Kofi subiram 200% após o lançamento. Um canalizador no primeiro ano faturou 50.000 $ brutos em cinco meses.",
+    "progress": "Pergunta {current} de {total}",
+    "continue": "Continuar",
+    "back": "Voltar",
+    "no_spam": "Sem spam. Sem compromisso.",
+    "q_business": "Que tipo de negócio tem?",
+    "q_business_sub": "Escolha o mais próximo.",
+    "q_services": "Em que precisa de ajuda?",
+    "q_services_sub": "Selecione tudo o que se aplica.",
+    "q_budget_project": "Qual é o seu orçamento para este projeto?",
+    "q_budget_project_sub": "Uma ideia aproximada chega. Serve apenas para sabermos o que propor.",
+    "q_budget_ads": "Quanto poderia investir em publicidade por mês?",
+    "q_budget_ads_sub": "Apenas o investimento em anúncios. A nossa gestão é 15% desse valor, mais uma configuração inicial. Uma estimativa chega.",
+    "q_budget_monthly": "Qual é o seu orçamento mensal?",
+    "q_budget_monthly_sub": "Aproximadamente o que investiria por mês. Uma estimativa chega.",
+    "q_timeline": "Quando quer começar?",
+    "q_contact": "Último passo. Como o contactamos?",
+    "q_contact_sub": "Depois escolhe um horário. Respondemos dentro de uma hora em horário de expediente.",
+    "label_name": "O seu nome",
+    "label_email": "Endereço de email",
+    "label_phone": "Tel. / WhatsApp",
+    "label_phone_note": "(opcional, para resposta mais rápida)",
+    "label_country": "Indicativo do país",
+    "placeholder_name": "João Silva",
+    "placeholder_email": "joao@empresa.pt",
+    "placeholder_phone": "912 345 678",
+    "well_call": "Ligamos para {number}",
+    "consent_pre": "Aceito a",
+    "consent_link": "Política de Privacidade",
+    "consent_post": "e consinto ser contactado sobre o meu pedido.",
+    "optional": "(opcional)",
+    "cta": "Marcar a minha chamada",
+    "sending": "A enviar...",
+    "error_generic": "Algo correu mal. Tente novamente.",
+    "business": {
+      "coaching_consulting": "Coaching / Consultoria",
+      "e_commerce_online_store": "E-Commerce / Loja online",
+      "saas_software": "SaaS / Software",
+      "agency_marketing": "Agência / Marketing",
+      "real_estate": "Imobiliário",
+      "healthcare_medical": "Saúde / Medicina",
+      "legal_law_firm": "Jurídico / Escritório de advogados",
+      "financial_services": "Serviços financeiros",
+      "education_training": "Educação / Formação",
+      "restaurant_food_beverage": "Restauração / Alimentação",
+      "fitness_wellness": "Fitness / Bem-estar",
+      "construction_trades": "Construção / Ofícios",
+      "beauty_salon_spa": "Beleza / Salão / Spa",
+      "content_creator_influencer": "Criador de conteúdo / Influencer",
+      "retail_brick_mortar": "Retalho / Loja física",
+      "professional_services": "Serviços profissionais",
+      "nonprofit": "Sem fins lucrativos",
+      "automotive": "Automóvel",
+      "travel_hospitality": "Viagens / Hotelaria",
+      "other": "Outro"
+    },
+    "services": {
+      "new_website": "Site novo",
+      "website_redesign": "Redesign do site",
+      "e_commerce": "E-commerce",
+      "landing_page": "Landing page",
+      "google_ads": "Google Ads",
+      "meta_ads": "Meta Ads",
+      "social_media": "Redes sociais",
+      "not_sure_yet": "Ainda não sei"
+    },
+    "timeline": {
+      "0": {
+        "label": "O mais rápido possível",
+        "hint": "Pronto para começar"
+      },
+      "1": {
+        "label": "Dentro de um mês",
+        "hint": "Quero avançar em breve"
+      },
+      "2": {
+        "label": "Um a três meses",
+        "hint": "Planeado, sem urgência"
+      },
+      "3": {
+        "label": "Só a explorar",
+        "hint": "A ver as opções"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "Menos de 5.000 €",
+        "hint": "Abaixo do nosso ponto de partida"
+      },
+      "1": {
+        "label": "Cerca de 5.000 €",
+        "hint": "Site de uma página"
+      },
+      "2": {
+        "label": "Cerca de 10.000 €",
+        "hint": "Quatro a cinco páginas"
+      },
+      "3": {
+        "label": "Cerca de 15.000 €",
+        "hint": "Cerca de quinze páginas"
+      },
+      "4": {
+        "label": "20.000 €+",
+        "hint": "E-commerce ou algo maior"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "Cerca de 500 € / mês",
+        "hint": "Um canal, gerido"
+      },
+      "1": {
+        "label": "1.000 – 2.000 € / mês",
+        "hint": "Um canal com vídeo regular, ou dois canais"
+      },
+      "2": {
+        "label": "2.000 – 4.000 € / mês",
+        "hint": "Dois ou três canais com vídeo"
+      },
+      "3": {
+        "label": "4.000 €+ / mês",
+        "hint": "Vários canais, muito vídeo"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "Menos de 1.000 € / mês em anúncios",
+        "hint": "Primeiros testes"
+      },
+      "1": {
+        "label": "1.000 – 3.000 € / mês em anúncios",
+        "hint": "Uma plataforma, bem gerida"
+      },
+      "2": {
+        "label": "3.000 – 10.000 € / mês em anúncios",
+        "hint": "Ambas as plataformas, ou a escalar uma"
+      },
+      "3": {
+        "label": "10.000 €+ / mês em anúncios",
+        "hint": "Volume elevado"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "Menos de 1.000 € / mês",
+        "hint": "A começar"
+      },
+      "1": {
+        "label": "1.000 – 3.000 € / mês",
+        "hint": "Um canal ou plataforma, bem gerido"
+      },
+      "2": {
+        "label": "3.000 – 6.000 € / mês",
+        "hint": "Vários em paralelo"
+      },
+      "3": {
+        "label": "6.000 €+ / mês",
+        "hint": "A escalar com força"
+      }
+    }
   },
   "errors": {
     "title": "Algo deu errado",
