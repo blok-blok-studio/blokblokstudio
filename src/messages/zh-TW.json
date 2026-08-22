@@ -516,15 +516,5 @@
     "not_found_title": "找不到頁面",
     "not_found_message": "您要找的頁面不存在或已被移動。讓我們帶您回到正軌。",
     "contact_us": "聯絡我們"
-  },
-  "a11y": {
-    "skip_to_main": "跳到主要內容",
-    "main_navigation": "主導覽",
-    "open_menu": "開啟選單",
-    "close_menu": "關閉選單",
-    "email_label": "電子郵件地址",
-    "cookie_dialog": "Cookie 同意",
-    "cookie_preferences_dialog": "Cookie 偏好設定",
-    "error_announcement": "錯誤"
   }
 }

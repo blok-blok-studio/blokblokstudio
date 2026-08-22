@@ -516,15 +516,5 @@
     "not_found_title": "Sidan hittades inte",
     "not_found_message": "Sidan du letar efter finns inte eller har flyttats. Låt oss få dig tillbaka på rätt spår.",
     "contact_us": "Kontakta oss"
-  },
-  "a11y": {
-    "skip_to_main": "Hoppa till huvudinnehållet",
-    "main_navigation": "Huvudnavigering",
-    "open_menu": "Öppna meny",
-    "close_menu": "Stäng meny",
-    "email_label": "E-postadress",
-    "cookie_dialog": "Cookie-samtycke",
-    "cookie_preferences_dialog": "Cookie-inställningar",
-    "error_announcement": "Fel"
   }
 }

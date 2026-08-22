@@ -516,15 +516,5 @@
     "not_found_title": "ไม่พบหน้าเว็บ",
     "not_found_message": "ไม่พบหน้าเว็บที่คุณกำลังค้นหา หรือถูกย้ายแล้ว มาเริ่มต้นใหม่กันเถอะ",
     "contact_us": "ติดต่อเรา"
-  },
-  "a11y": {
-    "skip_to_main": "ข้ามไปยังเนื้อหาหลัก",
-    "main_navigation": "การนำทางหลัก",
-    "open_menu": "เปิดเมนู",
-    "close_menu": "ปิดเมนู",
-    "email_label": "ที่อยู่อีเมล",
-    "cookie_dialog": "ยินยอมคุกกี้",
-    "cookie_preferences_dialog": "การตั้งค่าคุกกี้",
-    "error_announcement": "ข้อผิดพลาด"
   }
 }

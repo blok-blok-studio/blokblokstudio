@@ -516,15 +516,5 @@
     "not_found_title": "Página não encontrada",
     "not_found_message": "A página que você procura não existe ou foi movida. Vamos colocá-lo de volta no caminho.",
     "contact_us": "Contato"
-  },
-  "a11y": {
-    "skip_to_main": "Ir para o conteúdo principal",
-    "main_navigation": "Navegação principal",
-    "open_menu": "Abrir menu",
-    "close_menu": "Fechar menu",
-    "email_label": "Endereço de e-mail",
-    "cookie_dialog": "Consentimento de cookies",
-    "cookie_preferences_dialog": "Preferências de cookies",
-    "error_announcement": "Erro"
   }
 }

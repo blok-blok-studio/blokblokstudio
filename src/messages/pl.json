@@ -516,15 +516,5 @@
     "not_found_title": "Strona nie znaleziona",
     "not_found_message": "Strona, której szukasz, nie istnieje lub została przeniesiona. Wróćmy na właściwą drogę.",
     "contact_us": "Skontaktuj się"
-  },
-  "a11y": {
-    "skip_to_main": "Przejdź do głównej treści",
-    "main_navigation": "Nawigacja główna",
-    "open_menu": "Otwórz menu",
-    "close_menu": "Zamknij menu",
-    "email_label": "Adres e-mail",
-    "cookie_dialog": "Zgoda na pliki cookie",
-    "cookie_preferences_dialog": "Preferencje plików cookie",
-    "error_announcement": "Błąd"
   }
 }

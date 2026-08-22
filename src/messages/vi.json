@@ -516,15 +516,5 @@
     "not_found_title": "Không tìm thấy trang",
     "not_found_message": "Trang bạn đang tìm không tồn tại hoặc đã bị di chuyển. Hãy đưa bạn trở lại đúng hướng.",
     "contact_us": "Liên hệ"
-  },
-  "a11y": {
-    "skip_to_main": "Đến nội dung chính",
-    "main_navigation": "Điều hướng chính",
-    "open_menu": "Mở menu",
-    "close_menu": "Đóng menu",
-    "email_label": "Địa chỉ email",
-    "cookie_dialog": "Đồng ý cookie",
-    "cookie_preferences_dialog": "Tùy chọn cookie",
-    "error_announcement": "Lỗi"
   }
 }

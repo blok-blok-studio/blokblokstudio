@@ -516,15 +516,5 @@
     "not_found_title": "الصفحة غير موجودة",
     "not_found_message": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها. دعنا نعيدك إلى المسار الصحيح.",
     "contact_us": "اتصل بنا"
-  },
-  "a11y": {
-    "skip_to_main": "تخطَّ إلى المحتوى الرئيسي",
-    "main_navigation": "التنقل الرئيسي",
-    "open_menu": "فتح القائمة",
-    "close_menu": "إغلاق القائمة",
-    "email_label": "عنوان البريد الإلكتروني",
-    "cookie_dialog": "موافقة ملفات تعريف الارتباط",
-    "cookie_preferences_dialog": "تفضيلات ملفات تعريف الارتباط",
-    "error_announcement": "خطأ"
   }
 }
