@@ -42,11 +42,29 @@ const SERVICES = [
   'Not sure yet',
 ];
 
-const BUDGETS = [
+/**
+ * Which answers in question 2 are something we build once, and which are
+ * something we run every month. The budget question has to follow, because a
+ * site is a project fee and ads are a monthly spend: asking someone who only
+ * wants Google Ads to pick from "Under €2k, landing page or a small refresh"
+ * quotes them for work they did not ask for, in the wrong units.
+ */
+const MARKETING_SERVICES = ['Google Ads', 'Meta Ads', 'Social media'];
+
+const BUDGETS_BUILD = [
   { value: 'Under €2k', hint: 'Landing page or a small refresh' },
   { value: '€2k – €5k', hint: 'Most multi-page sites start here' },
   { value: '€5k – €10k', hint: 'Larger build, shop, or site plus ads' },
   { value: '€10k+', hint: 'Full build with ongoing growth work' },
+];
+
+// Monthly, and stated as monthly in the value itself so the tracker entry is
+// unambiguous next to a project figure.
+const BUDGETS_MONTHLY = [
+  { value: 'Under €500 / month', hint: 'Testing one channel' },
+  { value: '€500 – €1,500 / month', hint: 'One channel, run properly' },
+  { value: '€1,500 – €5,000 / month', hint: 'Several channels together' },
+  { value: '€5,000+ / month', hint: 'Scaling hard' },
 ];
 
 const TIMELINES = [
@@ -167,6 +185,14 @@ export function QuizLeadForm({
   const toggleService = (s: string) =>
     setServices((prev) => (prev.includes(s) ? prev.filter((x) => x !== s) : [...prev, s]));
 
+  // Every pick has to be ongoing work before this becomes a monthly-spend
+  // conversation. Tested against "every" rather than "no build work picked",
+  // because "Not sure yet" is not a build service either and someone who
+  // does not know yet should see the project framing, not a monthly one.
+  const monthlyOnly =
+    services.length > 0 && services.every((x) => MARKETING_SERVICES.includes(x));
+  const budgets = monthlyOnly ? BUDGETS_MONTHLY : BUDGETS_BUILD;
+
   const inputBase =
     'w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3.5 text-sm sm:text-base text-white placeholder-gray-500 focus:outline-none focus:border-orange-500/40 focus:bg-white/[0.06] transition-colors';
 
@@ -275,11 +301,13 @@ export function QuizLeadForm({
       canAdvance: services.length > 0,
     },
     {
-      question: "What's your budget for this project?",
-      sub: 'A rough idea is fine. It just tells us what to suggest.',
+      question: monthlyOnly ? "What's your monthly budget?" : "What's your budget for this project?",
+      sub: monthlyOnly
+        ? 'Roughly what you would put behind it each month, including ad spend. A ballpark is fine.'
+        : 'A rough idea is fine. It just tells us what to suggest.',
       body: (
         <div role="radiogroup" aria-label="Budget" className="space-y-2.5">
-          {BUDGETS.map((o) => (
+          {budgets.map((o) => (
             <ChoiceCard
               key={o.value}
               label={o.value}
