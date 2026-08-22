@@ -433,80 +433,169 @@
     "updates_content": "如果我們將來開始使用分析或跟蹤技術，我們將更新此政策，並在任何跟蹤發生之前通過我們的Cookie同意橫幅通知您。"
   },
   "start": {
-    "meta_title": "一起喝杯咖啡 | Blok Blok Studio",
-    "meta_description": "我是 Chase。我經營 Blok Blok Studio,一家位於柏林的創意工作室。網站、廣告、社交媒體、AI 系統。第一杯咖啡我請。",
-    "meta_twitter_description": "柏林的創意工作室。網站、廣告、社交、AI。第一杯咖啡我請。",
-    "hero_badge": "你打開了那封信",
-    "hero_title": "下一步,一杯咖啡。",
-    "hero_subtitle": "在下面挑個時間。第一杯我請。沒有套路、沒有壓力,只是一次關於你生意的真誠對話。",
-    "hero_cta_primary": "約杯咖啡",
-    "hero_cta_secondary": "看看最近的專案",
-    "hook_line1": "柏林大多數好生意的真實水平,遠遠超過他們在網路上呈現出來的樣子。",
-    "hook_line2": "這就是我登場的地方。我把你的線上形象修整好,把你推到對的客戶面前。",
-    "pitch_label": "一句話",
-    "pitch_title": "我是 Chase,我經營 Blok Blok Studio。",
-    "pitch_body": "一家柏林的創意工作室。我做網站、跑廣告、運營社交媒體、搭建 AI 系統, , 專門服務那些手藝過硬,卻苦於沒人知道的生意人。",
-    "services_title": "我真正做的事",
-    "services_subtitle": "四件事,做紮實,彼此配合。",
-    "catalog_eyebrow": "菜單上的一切",
-    "catalog_title": "完整服務清單",
-    "catalog_subtitle": "選好方向,大小喝咖啡時再定。",
-    "service_websites_name": "網站",
-    "service_websites_desc": "和你真實工作一樣靠譜的定製網站。快速、移動優先、為把訪客轉成付費客戶而設計。",
-    "service_ads_name": "廣告",
-    "service_ads_desc": "對準正在搜尋你這門生意的人投放的 Meta、Google 廣告。不要虛榮指標,只要預約和成交。",
-    "service_social_name": "社交媒體",
-    "service_social_desc": "和你真實工作品質相匹配的內容與賬號,讓線上第一印象不再拖你後腿。",
-    "service_ai_name": "AI 系統",
-    "service_ai_desc": "自動回覆、線索收集、跟進、預約。把無聊的事交給系統,把你最擅長的事留給自己。",
-    "audience_title": "我服務的人",
-    "audience_subtitle": "手藝過硬卻苦於沒人知道的柏林生意人。",
-    "audience_trainers": "私人教練",
-    "audience_restaurants": "餐廳與咖啡館",
-    "audience_ecommerce": "電商店鋪",
-    "audience_agencies": "代理與工作室",
-    "audience_law": "律師事務所",
-    "audience_clinics": "診所與健康館",
-    "audience_construction": "建築與手藝",
-    "audience_saas": "SaaS 與科技",
-    "audience_education": "教育",
-    "audience_music": "音樂與創作者",
-    "audience_freelancers": "自由職業者",
-    "audience_other": "其他任何人",
-    "compare_title": "你通常拿到的 vs. 我能做到的",
-    "compare_subtitle": "很多代理交完網站就消失了。我不會。",
-    "compare_label_others": "其他人",
-    "compare_label_me": "我",
-    "compare_1_bad": "好看但 Google 上沒人能找到的網站",
-    "compare_1_good": "SEO 從一開始就內建,真正讓對的客戶找得到你",
-    "compare_2_bad": "靠 DM、郵件、發票追著收錢",
-    "compare_2_good": "線上預約與付款,客戶直接在你的網站完成支付",
-    "compare_3_bad": "\"移動端我們以後再說\"",
-    "compare_3_good": "移動優先,因為你的客戶都在那",
-    "compare_4_bad": "和同行長得一模一樣的模板",
-    "compare_4_good": "定製設計,讓你的品牌一眼就跳出來",
-    "compare_5_bad": "上線之後就被代理放著不管",
-    "compare_5_good": "持續支援,因為你的生意還在長大",
-    "process_title": "整個流程",
-    "process_subtitle": "從咖啡到上線,四步。沒有黑箱。",
-    "process_1_title": "咖啡",
-    "process_1_desc": "我們見 30 分鐘。我瞭解你的生意、目標,以及你目前在線上最受不了的部分。第一杯我請。",
-    "process_2_title": "方案",
-    "process_2_desc": "我把清晰的策略和報價回給你。開始之前你就知道交付什麼、要多少錢、什麼時候上線。",
-    "process_3_title": "動手",
-    "process_3_desc": "設計、開發、廣告、社交、AI, , 你需要什麼就做什麼。全程同步、反覆打磨,直到對勁為止。",
-    "process_4_title": "上線",
-    "process_4_desc": "乾淨利落地上線。然後我繼續陪著,讓它持續長大,而不是上線第二天就消失。",
-    "projects_title": "近期作品",
-    "projects_subtitle": "真實專案、真實客戶、真實結果。",
-    "testimonials_title": "他們怎麼說",
-    "testimonials_subtitle": "和我合作之後客戶寫的。",
-    "testimonial_view_project": "檢視專案",
-    "cta_title": "既然你已經打開了這封信,下一步就是一杯咖啡。",
-    "cta_subtitle": "挑個時間。第一杯我請。",
-    "cta_button": "約杯咖啡",
-    "cta_signoff_role": "創始人,Blok Blok Studio",
-    "whatsapp_aria": "在 WhatsApp 上聊"
+    "headline_a": "您的業務正在悄悄流失客戶的地方",
+    "headline_b": "（以及如何解決）",
+    "sub": "回答五個簡單問題，我們會告訴您應該先解決什麼，接著您選擇一個時間。大約一分鐘。",
+    "proof": "柏林網頁設計工作室。Coach Kofi 上線後諮詢量成長 200%。一家開業第一年的水電公司五個月內達成 5 萬美元營收。",
+    "progress": "問題 {current} / {total}",
+    "continue": "繼續",
+    "back": "返回",
+    "no_spam": "無垃圾訊息。無任何義務。",
+    "q_business": "您經營什麼類型的業務？",
+    "q_business_sub": "選擇最接近的一項。",
+    "q_services": "您需要哪方面的協助？",
+    "q_services_sub": "可複選。",
+    "q_budget_project": "這個專案的預算是多少？",
+    "q_budget_project_sub": "大致範圍即可，只是幫助我們判斷該提出什麼方案。",
+    "q_budget_ads": "每月可以在廣告上投入多少？",
+    "q_budget_ads_sub": "僅指廣告費。我們的管理費為其 15%，另加一次性設定費。大致數字即可。",
+    "q_budget_monthly": "您的月度預算是多少？",
+    "q_budget_monthly_sub": "大約每月願意投入的金額。估算即可。",
+    "q_timeline": "您希望多快開始？",
+    "q_contact": "最後一步。我們如何聯絡您？",
+    "q_contact_sub": "之後您可以選擇時間。上班時間內我們會在一小時內回覆。",
+    "label_name": "您的姓名",
+    "label_email": "電子郵件",
+    "label_phone": "電話 / WhatsApp",
+    "label_phone_note": "（選填，以便更快回覆）",
+    "label_country": "國碼",
+    "placeholder_name": "陳小明",
+    "placeholder_email": "chen@company.tw",
+    "placeholder_phone": "912 345 678",
+    "well_call": "我們將致電 {number}",
+    "consent_pre": "我同意",
+    "consent_link": "隱私權政策",
+    "consent_post": "並同意就我的諮詢接受聯繫。",
+    "optional": "（選填）",
+    "cta": "預約通話",
+    "sending": "傳送中...",
+    "error_generic": "發生問題，請再試一次。",
+    "business": {
+      "coaching_consulting": "教練 / 顧問",
+      "e_commerce_online_store": "電商 / 網路商店",
+      "saas_software": "SaaS / 軟體",
+      "agency_marketing": "代理商 / 行銷",
+      "real_estate": "房地產",
+      "healthcare_medical": "醫療保健",
+      "legal_law_firm": "法律 / 律師事務所",
+      "financial_services": "金融服務",
+      "education_training": "教育 / 培訓",
+      "restaurant_food_beverage": "餐飲 / 食品",
+      "fitness_wellness": "健身 / 養生",
+      "construction_trades": "建築 / 工程",
+      "beauty_salon_spa": "美容 / 沙龍 / SPA",
+      "content_creator_influencer": "內容創作者 / 網紅",
+      "retail_brick_mortar": "零售 / 實體店",
+      "professional_services": "專業服務",
+      "nonprofit": "非營利組織",
+      "automotive": "汽車",
+      "travel_hospitality": "旅遊 / 飯店",
+      "other": "其他"
+    },
+    "services": {
+      "new_website": "全新網站",
+      "website_redesign": "網站改版",
+      "e_commerce": "電商",
+      "landing_page": "到達頁",
+      "google_ads": "Google 廣告",
+      "meta_ads": "Meta 廣告",
+      "social_media": "社群媒體",
+      "not_sure_yet": "還不確定"
+    },
+    "timeline": {
+      "0": {
+        "label": "盡快",
+        "hint": "隨時可以開始"
+      },
+      "1": {
+        "label": "一個月內",
+        "hint": "希望盡快推進"
+      },
+      "2": {
+        "label": "一到三個月",
+        "hint": "已有規劃，不急"
+      },
+      "3": {
+        "label": "只是了解一下",
+        "hint": "正在比較方案"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "低於 5,000 歐元",
+        "hint": "低於我們的起始價"
+      },
+      "1": {
+        "label": "約 5,000 歐元",
+        "hint": "單頁網站"
+      },
+      "2": {
+        "label": "約 10,000 歐元",
+        "hint": "四到五個頁面"
+      },
+      "3": {
+        "label": "約 15,000 歐元",
+        "hint": "約十五個頁面"
+      },
+      "4": {
+        "label": "20,000 歐元以上",
+        "hint": "電商或更大規模"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "每月約 500 歐元",
+        "hint": "一個頻道，代營運"
+      },
+      "1": {
+        "label": "每月 1,000–2,000 歐元",
+        "hint": "一個頻道含定期影片，或兩個頻道"
+      },
+      "2": {
+        "label": "每月 2,000–4,000 歐元",
+        "hint": "兩到三個頻道含影片"
+      },
+      "3": {
+        "label": "每月 4,000 歐元以上",
+        "hint": "多個頻道，以影片為主"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "每月廣告費低於 1,000 歐元",
+        "hint": "初步測試"
+      },
+      "1": {
+        "label": "每月廣告費 1,000–3,000 歐元",
+        "hint": "認真經營一個平台"
+      },
+      "2": {
+        "label": "每月廣告費 3,000–10,000 歐元",
+        "hint": "兩個平台，或擴大其中一個"
+      },
+      "3": {
+        "label": "每月廣告費 10,000 歐元以上",
+        "hint": "大規模投放"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "每月低於 1,000 歐元",
+        "hint": "剛起步"
+      },
+      "1": {
+        "label": "每月 1,000–3,000 歐元",
+        "hint": "認真經營一個頻道或平台"
+      },
+      "2": {
+        "label": "每月 3,000–6,000 歐元",
+        "hint": "多項並行"
+      },
+      "3": {
+        "label": "每月 6,000 歐元以上",
+        "hint": "大力擴張"
+      }
+    }
   },
   "errors": {
     "title": "出錯了",

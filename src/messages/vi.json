@@ -433,80 +433,169 @@
     "updates_content": "Nếu chúng tôi bắt đầu sử dụng công nghệ phân tích hoặc theo dõi trong tương lai, chúng tôi sẽ cập nhật chính sách và thông báo qua banner đồng ý cookie trước khi mọi việc theo dõi diễn ra."
   },
   "start": {
-    "meta_title": "Gặp nhau bên cà phê | Blok Blok Studio",
-    "meta_description": "Tôi là Chase. Tôi điều hành Blok Blok Studio, một agency sáng tạo tại Berlin. Website, quảng cáo, mạng xã hội và hệ thống AI. Ly cà phê đầu tiên là của tôi.",
-    "meta_twitter_description": "Agency sáng tạo Berlin. Website, quảng cáo, social, AI. Ly cà phê đầu tiên là của tôi.",
-    "hero_badge": "Bạn đã mở thư",
-    "hero_title": "Bước tiếp theo là cà phê.",
-    "hero_subtitle": "Chọn thời gian bên dưới. Ly đầu là của tôi. Không chào hàng, không áp lực, chỉ một cuộc trò chuyện thực sự về doanh nghiệp của bạn.",
-    "hero_cta_primary": "Đặt lịch cà phê",
-    "hero_cta_secondary": "Xem dự án gần đây",
-    "hook_line1": "Hầu hết các doanh nghiệp Berlin tuyệt vời đều làm tốt hơn những gì họ được biết đến trên mạng.",
-    "hook_line2": "Đó là lúc tôi xuất hiện. Tôi sửa hiện diện trực tuyến và đưa bạn đến trước mặt khách hàng phù hợp.",
-    "pitch_label": "Lời giới thiệu",
-    "pitch_title": "Tôi là Chase. Tôi điều hành Blok Blok Studio.",
-    "pitch_body": "Một agency sáng tạo tại Berlin. Tôi xây website, chạy quảng cáo, quản lý mạng xã hội và thiết lập hệ thống AI cho những doanh nghiệp làm tốt việc của họ nhưng mệt mỏi vì bị giấu kín.",
-    "services_title": "Tôi thực sự làm gì",
-    "services_subtitle": "Bốn việc, làm tốt, phối hợp với nhau.",
-    "catalog_eyebrow": "Mọi thứ trong thực đơn",
-    "catalog_title": "Danh sách dịch vụ đầy đủ",
-    "catalog_subtitle": "Chọn hướng bạn cần. Chúng ta sẽ xác định quy mô bên cà phê.",
-    "service_websites_name": "Website",
-    "service_websites_desc": "Site tùy chỉnh trông xứng đáng với công việc của bạn. Nhanh, ưu tiên di động, và được xây để biến khách truy cập thành khách hàng trả tiền.",
-    "service_ads_name": "Quảng cáo",
-    "service_ads_desc": "Quảng cáo Meta và Google nhắm vào những người đã tìm kiếm điều bạn làm. Không chỉ số phù phiếm, chỉ booking và doanh số.",
-    "service_social_name": "Mạng xã hội",
-    "service_social_desc": "Nội dung và profile xứng tầm chất lượng công việc thực của bạn, để ấn tượng đầu tiên trực tuyến không còn làm hại bạn.",
-    "service_ai_name": "Hệ thống AI",
-    "service_ai_desc": "Trả lời tự động, bắt lead, follow up, đặt lịch. Hệ thống xử lý việc nhàm chán để bạn tiếp tục làm điều mình giỏi nhất.",
-    "audience_title": "Tôi làm việc với ai",
-    "audience_subtitle": "Các doanh nghiệp Berlin làm tốt việc của mình nhưng mệt mỏi vì bị giấu kín.",
-    "audience_trainers": "Huấn luyện viên cá nhân",
-    "audience_restaurants": "Nhà hàng & quán cà phê",
-    "audience_ecommerce": "Cửa hàng e-commerce",
-    "audience_agencies": "Agency & studio",
-    "audience_law": "Văn phòng luật",
-    "audience_clinics": "Phòng khám & wellness",
-    "audience_construction": "Xây dựng & nghề thủ công",
-    "audience_saas": "SaaS & công nghệ",
-    "audience_education": "Giáo dục",
-    "audience_music": "Âm nhạc & sáng tạo",
-    "audience_freelancers": "Freelancer",
-    "audience_other": "Bất kỳ ai khác",
-    "compare_title": "Cái bạn thường nhận được vs. cái tôi làm",
-    "compare_subtitle": "Hầu hết agency giao website rồi biến mất. Tôi thì không.",
-    "compare_label_others": "Người khác",
-    "compare_label_me": "Tôi",
-    "compare_1_bad": "Một site đẹp nhưng không ai tìm thấy trên Google",
-    "compare_1_good": "SEO tích hợp để đúng khách hàng thực sự tìm thấy bạn",
-    "compare_2_bad": "Đòi thanh toán qua DM, email và hóa đơn",
-    "compare_2_good": "Đặt lịch và thanh toán online để khách trả tiền ngay trên site",
-    "compare_3_bad": "\"Chúng ta sẽ tính mobile sau\"",
-    "compare_3_good": "Mobile-first, vì đó là nơi khách hàng của bạn",
-    "compare_4_bad": "Một template trông giống mọi doanh nghiệp khác trong ngành",
-    "compare_4_good": "Thiết kế tùy chỉnh khiến thương hiệu nổi bật ngay lập tức",
-    "compare_5_bad": "Ra mắt rồi bị agency bỏ rơi",
-    "compare_5_good": "Hỗ trợ liên tục, vì doanh nghiệp của bạn tiếp tục phát triển",
-    "process_title": "Cách thức hoạt động",
-    "process_subtitle": "Bốn bước từ cà phê đến ra mắt. Không bí ẩn.",
-    "process_1_title": "Cà phê",
-    "process_1_desc": "Chúng ta gặp nhau 30 phút. Tôi tìm hiểu doanh nghiệp, mục tiêu và những gì bạn mệt mỏi với online. Ly đầu là của tôi.",
-    "process_2_title": "Kế hoạch",
-    "process_2_desc": "Tôi gửi lại chiến lược và đề xuất rõ ràng. Bạn thấy chính xác mình nhận được gì, chi phí bao nhiêu và khi nào ra mắt trước khi bắt đầu.",
-    "process_3_title": "Xây dựng",
-    "process_3_desc": "Thiết kế, phát triển, quảng cáo, social, AI. Bất cứ gì bạn cần. Bạn theo sát suốt quá trình và chúng ta lặp lại cho đến khi đúng.",
-    "process_4_title": "Ra mắt",
-    "process_4_desc": "Lên sóng, hoàn thiện và nhanh. Rồi tôi ở lại để tiếp tục phát triển thay vì biến mất ngày sau ra mắt.",
-    "projects_title": "Tác phẩm gần đây",
-    "projects_subtitle": "Dự án thật, khách hàng thật, kết quả thật.",
-    "testimonials_title": "Họ nói gì",
-    "testimonials_subtitle": "Khách hàng nói gì sau khi làm việc với tôi.",
-    "testimonial_view_project": "Xem dự án",
-    "cta_title": "Giờ bạn đã mở thư, bước tiếp theo là cà phê.",
-    "cta_subtitle": "Chọn thời gian. Ly đầu là của tôi.",
-    "cta_button": "Đặt lịch cà phê",
-    "cta_signoff_role": "Nhà sáng lập, Blok Blok Studio",
-    "whatsapp_aria": "Chat trên WhatsApp"
+    "headline_a": "Nơi doanh nghiệp của bạn âm thầm mất khách hàng",
+    "headline_b": " (và cách khắc phục)",
+    "sub": "Trả lời năm câu hỏi nhanh và chúng tôi sẽ chỉ ra điều cần sửa trước tiên. Sau đó bạn chọn giờ hẹn. Mất khoảng một phút.",
+    "proof": "Studio thiết kế web tại Berlin. Yêu cầu tư vấn của Coach Kofi tăng 200% sau khi ra mắt. Một thợ ống nước năm đầu tiên đạt doanh thu 50.000 $ trong năm tháng.",
+    "progress": "Câu hỏi {current} / {total}",
+    "continue": "Tiếp tục",
+    "back": "Quay lại",
+    "no_spam": "Không spam. Không ràng buộc.",
+    "q_business": "Bạn kinh doanh lĩnh vực nào?",
+    "q_business_sub": "Chọn mục gần nhất.",
+    "q_services": "Bạn cần hỗ trợ điều gì?",
+    "q_services_sub": "Chọn tất cả những mục phù hợp.",
+    "q_budget_project": "Ngân sách của bạn cho dự án này là bao nhiêu?",
+    "q_budget_project_sub": "Con số ước chừng là đủ. Nó chỉ giúp chúng tôi biết nên đề xuất gì.",
+    "q_budget_ads": "Mỗi tháng bạn có thể chi bao nhiêu cho quảng cáo?",
+    "q_budget_ads_sub": "Chỉ tính chi phí quảng cáo. Phí quản lý của chúng tôi là 15% khoản đó, cộng phí thiết lập một lần. Ước chừng là đủ.",
+    "q_budget_monthly": "Ngân sách hàng tháng của bạn là bao nhiêu?",
+    "q_budget_monthly_sub": "Khoảng bao nhiêu bạn sẽ đầu tư mỗi tháng. Ước chừng là đủ.",
+    "q_timeline": "Bạn muốn bắt đầu sớm thế nào?",
+    "q_contact": "Bước cuối. Chúng tôi liên hệ với bạn thế nào?",
+    "q_contact_sub": "Sau đó bạn chọn giờ hẹn. Chúng tôi phản hồi trong vòng một giờ trong giờ làm việc.",
+    "label_name": "Tên của bạn",
+    "label_email": "Địa chỉ email",
+    "label_phone": "ĐT / WhatsApp",
+    "label_phone_note": "(không bắt buộc, để phản hồi nhanh hơn)",
+    "label_country": "Mã vùng quốc gia",
+    "placeholder_name": "Nguyễn Văn A",
+    "placeholder_email": "an@congty.vn",
+    "placeholder_phone": "912 345 678",
+    "well_call": "Chúng tôi sẽ gọi {number}",
+    "consent_pre": "Tôi đồng ý với",
+    "consent_link": "Chính sách bảo mật",
+    "consent_post": "và đồng ý được liên hệ về yêu cầu của mình.",
+    "optional": "(không bắt buộc)",
+    "cta": "Đặt lịch gọi",
+    "sending": "Đang gửi...",
+    "error_generic": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "business": {
+      "coaching_consulting": "Huấn luyện / Tư vấn",
+      "e_commerce_online_store": "Thương mại điện tử / Cửa hàng online",
+      "saas_software": "SaaS / Phần mềm",
+      "agency_marketing": "Agency / Marketing",
+      "real_estate": "Bất động sản",
+      "healthcare_medical": "Y tế / Sức khỏe",
+      "legal_law_firm": "Pháp lý / Văn phòng luật",
+      "financial_services": "Dịch vụ tài chính",
+      "education_training": "Giáo dục / Đào tạo",
+      "restaurant_food_beverage": "Nhà hàng / Thực phẩm",
+      "fitness_wellness": "Thể hình / Chăm sóc sức khỏe",
+      "construction_trades": "Xây dựng / Thi công",
+      "beauty_salon_spa": "Làm đẹp / Salon / Spa",
+      "content_creator_influencer": "Nhà sáng tạo nội dung / Influencer",
+      "retail_brick_mortar": "Bán lẻ / Cửa hàng truyền thống",
+      "professional_services": "Dịch vụ chuyên nghiệp",
+      "nonprofit": "Phi lợi nhuận",
+      "automotive": "Ô tô",
+      "travel_hospitality": "Du lịch / Khách sạn",
+      "other": "Khác"
+    },
+    "services": {
+      "new_website": "Website mới",
+      "website_redesign": "Thiết kế lại website",
+      "e_commerce": "Thương mại điện tử",
+      "landing_page": "Trang đích",
+      "google_ads": "Google Ads",
+      "meta_ads": "Meta Ads",
+      "social_media": "Mạng xã hội",
+      "not_sure_yet": "Chưa chắc chắn"
+    },
+    "timeline": {
+      "0": {
+        "label": "Càng sớm càng tốt",
+        "hint": "Sẵn sàng bắt đầu"
+      },
+      "1": {
+        "label": "Trong vòng một tháng",
+        "hint": "Muốn triển khai sớm"
+      },
+      "2": {
+        "label": "Một đến ba tháng",
+        "hint": "Đã lên kế hoạch, không gấp"
+      },
+      "3": {
+        "label": "Chỉ đang tìm hiểu",
+        "hint": "Đang xem các lựa chọn"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "Dưới 5.000 €",
+        "hint": "Thấp hơn mức khởi điểm của chúng tôi"
+      },
+      "1": {
+        "label": "Khoảng 5.000 €",
+        "hint": "Website một trang"
+      },
+      "2": {
+        "label": "Khoảng 10.000 €",
+        "hint": "Bốn đến năm trang"
+      },
+      "3": {
+        "label": "Khoảng 15.000 €",
+        "hint": "Khoảng mười lăm trang"
+      },
+      "4": {
+        "label": "20.000 €+",
+        "hint": "Thương mại điện tử hoặc lớn hơn"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "Khoảng 500 € / tháng",
+        "hint": "Một kênh, có quản lý"
+      },
+      "1": {
+        "label": "1.000 – 2.000 € / tháng",
+        "hint": "Một kênh có video đều đặn, hoặc hai kênh"
+      },
+      "2": {
+        "label": "2.000 – 4.000 € / tháng",
+        "hint": "Hai đến ba kênh có video"
+      },
+      "3": {
+        "label": "4.000 €+ / tháng",
+        "hint": "Nhiều kênh, tập trung video"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "Dưới 1.000 € / tháng chi phí quảng cáo",
+        "hint": "Thử nghiệm ban đầu"
+      },
+      "1": {
+        "label": "1.000 – 3.000 € / tháng chi phí quảng cáo",
+        "hint": "Một nền tảng, vận hành bài bản"
+      },
+      "2": {
+        "label": "3.000 – 10.000 € / tháng chi phí quảng cáo",
+        "hint": "Cả hai nền tảng, hoặc mở rộng một"
+      },
+      "3": {
+        "label": "10.000 €+ / tháng chi phí quảng cáo",
+        "hint": "Quy mô lớn"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "Dưới 1.000 € / tháng",
+        "hint": "Mới bắt đầu"
+      },
+      "1": {
+        "label": "1.000 – 3.000 € / tháng",
+        "hint": "Một kênh hoặc nền tảng, vận hành bài bản"
+      },
+      "2": {
+        "label": "3.000 – 6.000 € / tháng",
+        "hint": "Nhiều thứ song song"
+      },
+      "3": {
+        "label": "6.000 €+ / tháng",
+        "hint": "Mở rộng mạnh"
+      }
+    }
   },
   "errors": {
     "title": "Đã xảy ra lỗi",

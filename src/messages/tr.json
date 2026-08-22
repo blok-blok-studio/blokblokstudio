@@ -433,80 +433,169 @@
     "updates_content": "If we begin using analytics or tracking technologies in the future, we will update this policy and notify you through our cookie consent banner before any tracking occurs."
   },
   "start": {
-    "meta_title": "Bir kahve içelim | Blok Blok Studio",
-    "meta_description": "Ben Chase. Berlin merkezli bir yaratıcı ajans olan Blok Blok Studio'yu yönetiyorum. Web siteleri, reklamlar, sosyal medya ve AI sistemleri. İlk kahve benden.",
-    "meta_twitter_description": "Berlin merkezli yaratıcı ajans. Web, reklam, sosyal, AI. İlk kahve benden.",
-    "hero_badge": "Mektubu açtın",
-    "hero_title": "Bir sonraki adım: kahve.",
-    "hero_subtitle": "Aşağıdan bir saat seç. İlki benden. Pitch yok, baskı yok, sadece işin hakkında gerçek bir sohbet.",
-    "hero_cta_primary": "Kahve ayarla",
-    "hero_cta_secondary": "Son işlere bak",
-    "hook_line1": "Berlin'in iyi işletmelerinin çoğu, internette gözüktüğünden çok daha iyi iş çıkarıyor.",
-    "hook_line2": "İşte burada ben devreye giriyorum. Online görünürlüğünü düzeltiyor, doğru müşterilerin önüne çıkarıyorum.",
-    "pitch_label": "Pitch",
-    "pitch_title": "Ben Chase. Blok Blok Studio'yu yönetiyorum.",
-    "pitch_body": "Berlin merkezli bir yaratıcı ajans. Yaptığı işte iyi olan ama bir sır gibi kalmaktan bıkmış işletmeler için web siteleri kuruyor, reklamlar yönetiyor, sosyal medya ile ilgileniyor ve AI sistemleri kuruyorum.",
-    "services_title": "Aslında ne yapıyorum",
-    "services_subtitle": "İyi yapılmış, birlikte çalışan dört şey.",
-    "catalog_eyebrow": "Menüdeki her şey",
-    "catalog_title": "Tam hizmet listesi",
-    "catalog_subtitle": "Hangi yönü istediğini seç. Boyutu kahve eşliğinde konuşuruz.",
-    "service_websites_name": "Web siteleri",
-    "service_websites_desc": "İşinin gerçek kalitesi kadar iyi görünen, sana özel siteler. Hızlı, mobile-first, ziyaretçileri ödeyen müşterilere dönüştürmek için kurulmuş.",
-    "service_ads_name": "Reklamlar",
-    "service_ads_desc": "Tam da yaptığın şeyi arayan kişilere yönelik Meta ve Google reklamları. Boş metrikler yok; sadece rezervasyon ve satış.",
-    "service_social_name": "Sosyal medya",
-    "service_social_desc": "Gerçek işinin kalitesine uygun içerik ve profiller. İlk izlenim artık aleyhine çalışmasın.",
-    "service_ai_name": "AI sistemleri",
-    "service_ai_desc": "Otomatik yanıtlar, lead toplama, takipler, rezervasyonlar. Sıkıcı işleri üstlenen sistemler, böylece sen en iyi yaptığın şeye odaklanabilirsin.",
-    "audience_title": "Kimlerle çalışıyorum",
-    "audience_subtitle": "İşinde iyi olan ve sır gibi kalmaktan bıkmış Berlinli işletmeler.",
-    "audience_trainers": "Kişisel antrenörler",
-    "audience_restaurants": "Restoranlar ve kafeler",
-    "audience_ecommerce": "E-ticaret mağazaları",
-    "audience_agencies": "Ajanslar ve stüdyolar",
-    "audience_law": "Hukuk büroları",
-    "audience_clinics": "Klinikler ve wellness",
-    "audience_construction": "İnşaat ve zanaat",
-    "audience_saas": "SaaS ve teknoloji",
-    "audience_education": "Eğitim",
-    "audience_music": "Müzik ve kreatifler",
-    "audience_freelancers": "Serbest çalışanlar",
-    "audience_other": "Diğer herkes",
-    "compare_title": "Genelde aldığın vs. benim yaptığım",
-    "compare_subtitle": "Çoğu ajans bir site teslim eder, sonra ortadan kaybolur. Ben kaybolmuyorum.",
-    "compare_label_others": "Diğerleri",
-    "compare_label_me": "Ben",
-    "compare_1_bad": "Google'da kimsenin bulamadığı şirin bir site",
-    "compare_1_good": "SEO en başından dahil; doğru müşteriler seni gerçekten buluyor",
-    "compare_2_bad": "DM, e-posta ve fatura ile ödemelerin peşinden koşmak",
-    "compare_2_good": "Müşterilerin doğrudan sitende ödediği online rezervasyon ve ödeme",
-    "compare_3_bad": "\"Mobili sonra hallederiz\"",
-    "compare_3_good": "Önce mobil: çünkü müşterilerin orada",
-    "compare_4_bad": "Sektördeki herkesin sitesine benzeyen bir şablon",
-    "compare_4_good": "Markanı anında öne çıkaran özel tasarım",
-    "compare_5_bad": "Yayına alıp ardından seni ortada bırakan ajans",
-    "compare_5_good": "Sürekli destek: çünkü işin büyümeye devam ediyor",
-    "process_title": "Nasıl çalışıyor",
-    "process_subtitle": "Kahveden lansmana dört adım. Sürpriz yok.",
-    "process_1_title": "Kahve",
-    "process_1_desc": "30 dakika buluşuyoruz. İşini, hedeflerini ve online'da seni en çok yoran şeyleri öğreniyorum. İlki benden.",
-    "process_2_title": "Plan",
-    "process_2_desc": "Sana net bir strateji ve teklif gönderiyorum. Tam olarak ne aldığını, fiyatını ve teslim süresini başlamadan önce görüyorsun.",
-    "process_3_title": "Yapım",
-    "process_3_desc": "Tasarım, geliştirme, reklam, sosyal, AI: neye ihtiyacın varsa. Süreç boyunca bilgilendiriliyorsun ve doğru oluncaya kadar üzerinde çalışıyoruz.",
-    "process_4_title": "Lansman",
-    "process_4_desc": "Yayına alınıyor: rafine ve hızlı. Sonra ben de yanında kalıp büyümeye devam etmesini sağlıyorum, ertesi gün ortadan kaybolmuyorum.",
-    "projects_title": "Son işler",
-    "projects_subtitle": "Gerçek projeler, gerçek müşteriler, gerçek sonuçlar.",
-    "testimonials_title": "Onların ağzından",
-    "testimonials_subtitle": "Müşterilerin benimle çalıştıktan sonra ne dediği.",
-    "testimonial_view_project": "Projeyi gör",
-    "cta_title": "Mektubu açtığına göre, sıradaki adım kahve.",
-    "cta_subtitle": "Bir saat seç. İlki benden.",
-    "cta_button": "Kahve ayarla",
-    "cta_signoff_role": "Kurucu, Blok Blok Studio",
-    "whatsapp_aria": "WhatsApp'ta sohbet et"
+    "headline_a": "İşletmenizin sessizce müşteri kaybettiği yer",
+    "headline_b": " (ve nasıl düzeltilir)",
+    "sub": "Beş kısa soruyu yanıtlayın, önce neyi düzelteceğimizi gösterelim. Ardından bir saat seçin. Yaklaşık bir dakika sürer.",
+    "proof": "Berlin merkezli web tasarım stüdyosu. Coach Kofi'nin danışmanlık talepleri lansmandan sonra %200 arttı. İlk yılındaki bir tesisatçı beş ayda 50.000 $ ciro yaptı.",
+    "progress": "Soru {current} / {total}",
+    "continue": "Devam",
+    "back": "Geri",
+    "no_spam": "Spam yok. Yükümlülük yok.",
+    "q_business": "Ne tür bir işletmeniz var?",
+    "q_business_sub": "En yakın olanı seçin.",
+    "q_services": "Hangi konuda desteğe ihtiyacınız var?",
+    "q_services_sub": "Uygun olanların hepsini seçin.",
+    "q_budget_project": "Bu proje için bütçeniz nedir?",
+    "q_budget_project_sub": "Kabaca bir fikir yeterli. Sadece ne önereceğimizi belirler.",
+    "q_budget_ads": "Aylık reklam için ne kadar ayırabilirsiniz?",
+    "q_budget_ads_sub": "Sadece reklam harcaması. Yönetim ücretimiz bunun %15'i, artı bir defalık kurulum. Yaklaşık bir rakam yeterli.",
+    "q_budget_monthly": "Aylık bütçeniz nedir?",
+    "q_budget_monthly_sub": "Her ay ayırabileceğiniz yaklaşık tutar. Tahmini bir rakam yeterli.",
+    "q_timeline": "Ne kadar sürede başlamak istiyorsunuz?",
+    "q_contact": "Son adım. Size nasıl ulaşalım?",
+    "q_contact_sub": "Ardından bir saat seçersiniz. Mesai saatlerinde bir saat içinde yanıt veriyoruz.",
+    "label_name": "Adınız",
+    "label_email": "E-posta adresi",
+    "label_phone": "Tel. / WhatsApp",
+    "label_phone_note": "(isteğe bağlı, daha hızlı yanıt için)",
+    "label_country": "Ülke kodu",
+    "placeholder_name": "Ahmet Yılmaz",
+    "placeholder_email": "ahmet@sirket.com",
+    "placeholder_phone": "532 123 45 67",
+    "well_call": "{number} numarasını arayacağız",
+    "consent_pre": "Kabul ediyorum:",
+    "consent_link": "Gizlilik Politikası",
+    "consent_post": "ve talebimle ilgili benimle iletişime geçilmesine izin veriyorum.",
+    "optional": "(isteğe bağlı)",
+    "cta": "Görüşmemi ayırt",
+    "sending": "Gönderiliyor...",
+    "error_generic": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "business": {
+      "coaching_consulting": "Koçluk / Danışmanlık",
+      "e_commerce_online_store": "E-Ticaret / Online mağaza",
+      "saas_software": "SaaS / Yazılım",
+      "agency_marketing": "Ajans / Pazarlama",
+      "real_estate": "Gayrimenkul",
+      "healthcare_medical": "Sağlık / Tıp",
+      "legal_law_firm": "Hukuk / Avukatlık",
+      "financial_services": "Finansal hizmetler",
+      "education_training": "Eğitim / Kurs",
+      "restaurant_food_beverage": "Restoran / Gıda",
+      "fitness_wellness": "Fitness / Sağlıklı yaşam",
+      "construction_trades": "İnşaat / Zanaat",
+      "beauty_salon_spa": "Güzellik / Salon / Spa",
+      "content_creator_influencer": "İçerik üreticisi / Influencer",
+      "retail_brick_mortar": "Perakende / Fiziksel mağaza",
+      "professional_services": "Profesyonel hizmetler",
+      "nonprofit": "Kâr amacı gütmeyen",
+      "automotive": "Otomotiv",
+      "travel_hospitality": "Seyahat / Konaklama",
+      "other": "Diğer"
+    },
+    "services": {
+      "new_website": "Yeni web sitesi",
+      "website_redesign": "Web sitesi yenileme",
+      "e_commerce": "E-ticaret",
+      "landing_page": "Landing page",
+      "google_ads": "Google Ads",
+      "meta_ads": "Meta Ads",
+      "social_media": "Sosyal medya",
+      "not_sure_yet": "Henüz emin değilim"
+    },
+    "timeline": {
+      "0": {
+        "label": "En kısa sürede",
+        "hint": "Başlamaya hazır"
+      },
+      "1": {
+        "label": "Bir ay içinde",
+        "hint": "Yakında harekete geçmek istiyorum"
+      },
+      "2": {
+        "label": "Bir ila üç ay",
+        "hint": "Planlı, acil değil"
+      },
+      "3": {
+        "label": "Sadece bakıyorum",
+        "hint": "Seçenekleri değerlendiriyorum"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "5.000 € altı",
+        "hint": "Başlangıç noktamızın altında"
+      },
+      "1": {
+        "label": "Yaklaşık 5.000 €",
+        "hint": "Tek sayfalık site"
+      },
+      "2": {
+        "label": "Yaklaşık 10.000 €",
+        "hint": "Dört ila beş sayfa"
+      },
+      "3": {
+        "label": "Yaklaşık 15.000 €",
+        "hint": "Yaklaşık on beş sayfa"
+      },
+      "4": {
+        "label": "20.000 €+",
+        "hint": "E-ticaret veya daha büyüğü"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "Yaklaşık 500 € / ay",
+        "hint": "Bir kanal, yönetimli"
+      },
+      "1": {
+        "label": "1.000 – 2.000 € / ay",
+        "hint": "Düzenli videolu bir kanal veya iki kanal"
+      },
+      "2": {
+        "label": "2.000 – 4.000 € / ay",
+        "hint": "Videolu iki veya üç kanal"
+      },
+      "3": {
+        "label": "4.000 €+ / ay",
+        "hint": "Birden fazla kanal, video ağırlıklı"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "Ayda 1.000 € altı reklam harcaması",
+        "hint": "İlk denemeler"
+      },
+      "1": {
+        "label": "Ayda 1.000 – 3.000 € reklam harcaması",
+        "hint": "Tek platform, düzgün yönetilen"
+      },
+      "2": {
+        "label": "Ayda 3.000 – 10.000 € reklam harcaması",
+        "hint": "Her iki platform veya birini büyütmek"
+      },
+      "3": {
+        "label": "Ayda 10.000 €+ reklam harcaması",
+        "hint": "Ciddi hacim"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "Ayda 1.000 € altı",
+        "hint": "Başlangıç"
+      },
+      "1": {
+        "label": "Ayda 1.000 – 3.000 €",
+        "hint": "Tek kanal veya platform, düzgün yönetilen"
+      },
+      "2": {
+        "label": "Ayda 3.000 – 6.000 €",
+        "hint": "Birkaçı birlikte"
+      },
+      "3": {
+        "label": "Ayda 6.000 €+",
+        "hint": "Hızlı büyüme"
+      }
+    }
   },
   "errors": {
     "title": "Bir şeyler ters gitti",

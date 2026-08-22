@@ -433,80 +433,169 @@
     "updates_content": "If we begin using analytics or tracking technologies in the future, we will update this policy and notify you through our cookie consent banner before any tracking occurs."
   },
   "start": {
-    "meta_title": "Vi tar en kaffe | Blok Blok Studio",
-    "meta_description": "Jag heter Chase. Jag driver Blok Blok Studio, en kreativ byrå i Berlin. Webb, annonser, sociala medier och AI-system. Första kaffet bjuder jag på.",
-    "meta_twitter_description": "Kreativ byrå i Berlin. Webb, annonser, social, AI. Första kaffet bjuder jag på.",
-    "hero_badge": "Du öppnade brevet",
-    "hero_title": "Nästa steg är en kaffe.",
-    "hero_subtitle": "Välj en tid nedan. Första kaffet bjuder jag på. Ingen pitch, ingen press, bara ett ärligt samtal om ditt företag.",
-    "hero_cta_primary": "Boka en kaffe",
-    "hero_cta_secondary": "Se senaste arbetena",
-    "hook_line1": "De flesta riktigt bra Berlinföretag gör bättre jobb än vad det syns online.",
-    "hook_line2": "Det är där jag kommer in. Jag fixar din digitala närvaro och ställer dig framför rätt kunder.",
-    "pitch_label": "Pitchen",
-    "pitch_title": "Jag heter Chase. Jag driver Blok Blok Studio.",
-    "pitch_body": "En kreativ byrå i Berlin. Jag bygger webbplatser, kör annonser, sköter sociala medier och sätter upp AI-system för företag som är bra på vad de gör och tröttnat på att vara en hemlighet.",
-    "services_title": "Vad jag faktiskt gör",
-    "services_subtitle": "Fyra saker, gjorda med omsorg, som funkar tillsammans.",
-    "catalog_eyebrow": "Hela menyn",
-    "catalog_title": "Den fullständiga tjänstelistan",
-    "catalog_subtitle": "Välj banan. Storleken bestämmer vi över en kaffe.",
-    "service_websites_name": "Webbplatser",
-    "service_websites_desc": "Skräddarsydda sajter som ser lika bra ut som ditt riktiga jobb. Snabba, mobile-first och byggda för att förvandla besökare till betalande kunder.",
-    "service_ads_name": "Annonser",
-    "service_ads_desc": "Meta- och Google-annonser som riktas till dem som redan söker det du gör. Inga fåfänga mätvärden, bara bokningar och försäljning.",
-    "service_social_name": "Sociala medier",
-    "service_social_desc": "Innehåll och profiler i samma klass som ditt riktiga jobb, så att första intrycket online slutar jobba emot dig.",
-    "service_ai_name": "AI-system",
-    "service_ai_desc": "Auto-svar, leadinsamling, uppföljningar, bokningar. System som tar hand om det tråkiga, så att du kan göra det du är bäst på.",
-    "audience_title": "Vilka jag jobbar med",
-    "audience_subtitle": "Berlinföretag som är bra på vad de gör och tröttnat på att vara en hemlighet.",
-    "audience_trainers": "Personliga tränare",
-    "audience_restaurants": "Restauranger & caféer",
-    "audience_ecommerce": "Webbutiker",
-    "audience_agencies": "Byråer & studios",
-    "audience_law": "Advokatbyråer",
-    "audience_clinics": "Kliniker & wellness",
-    "audience_construction": "Bygg & hantverk",
-    "audience_saas": "SaaS & tech",
-    "audience_education": "Utbildning",
-    "audience_music": "Musik & kreatörer",
-    "audience_freelancers": "Frilansare",
-    "audience_other": "Vem som helst annan",
-    "compare_title": "Det du brukar få vs. det jag gör",
-    "compare_subtitle": "De flesta byråer levererar en sajt och försvinner. Inte jag.",
-    "compare_label_others": "Andra",
-    "compare_label_me": "Jag",
-    "compare_1_bad": "En snygg sajt som ingen hittar på Google",
-    "compare_1_good": "SEO inbyggt så att rätt kunder verkligen hittar dig",
-    "compare_2_bad": "Jaga betalningar via DM, mejl och fakturor",
-    "compare_2_good": "Onlinebokning och betalning så att kunder betalar direkt på din sajt",
-    "compare_3_bad": "\"Mobilen löser vi sen\"",
-    "compare_3_good": "Mobile first, för det är där dina kunder finns",
-    "compare_4_bad": "En mall som ser likadan ut som alla andra i din bransch",
-    "compare_4_good": "Specialdesign som gör att ditt varumärke sticker ut direkt",
-    "compare_5_bad": "Lanserat och sedan övergivet av byrån",
-    "compare_5_good": "Löpande support, för ditt företag fortsätter växa",
-    "process_title": "Så funkar det",
-    "process_subtitle": "Fyra steg från kaffe till lansering. Inget mysterium.",
-    "process_1_title": "Kaffe",
-    "process_1_desc": "Vi ses i 30 minuter. Jag lär mig ditt företag, dina mål och vad du tröttnat på online. Första bjuder jag på.",
-    "process_2_title": "Plan",
-    "process_2_desc": "Jag återkommer med en tydlig strategi och offert. Du ser exakt vad du får, vad det kostar och när det levereras innan vi sätter igång.",
-    "process_3_title": "Bygga",
-    "process_3_desc": "Design, utveckling, annonser, social, AI: vad du nu behöver. Du är med hela vägen och vi finjusterar tills det sitter.",
-    "process_4_title": "Lansering",
-    "process_4_desc": "Allt går live, polerat och snabbt. Sen stannar jag kvar för att hålla det växande, istället för att försvinna dagen efter.",
-    "projects_title": "Senaste arbetena",
-    "projects_subtitle": "Riktiga projekt, riktiga kunder, riktiga resultat.",
-    "testimonials_title": "Med deras egna ord",
-    "testimonials_subtitle": "Vad kunder säger efter att ha jobbat med mig.",
-    "testimonial_view_project": "Se projektet",
-    "cta_title": "Nu när du öppnat brevet är nästa steg en kaffe.",
-    "cta_subtitle": "Välj en tid. Första bjuder jag på.",
-    "cta_button": "Boka en kaffe",
-    "cta_signoff_role": "Grundare, Blok Blok Studio",
-    "whatsapp_aria": "Chatta på WhatsApp"
+    "headline_a": "Där ditt företag tyst tappar kunder",
+    "headline_b": " (och hur du fixar det)",
+    "sub": "Svara på fem snabba frågor så visar vi vad vi skulle åtgärda först. Sedan väljer du en tid. Tar ungefär en minut.",
+    "proof": "Webbdesignstudio i Berlin. Coach Kofis konsultationsförfrågningar ökade 200% efter lanseringen. En rörmokare på sitt första år omsatte 50 000 $ på fem månader.",
+    "progress": "Fråga {current} av {total}",
+    "continue": "Fortsätt",
+    "back": "Tillbaka",
+    "no_spam": "Ingen spam. Inga förpliktelser.",
+    "q_business": "Vilken typ av verksamhet driver du?",
+    "q_business_sub": "Välj det som stämmer bäst.",
+    "q_services": "Vad behöver du hjälp med?",
+    "q_services_sub": "Välj allt som passar.",
+    "q_budget_project": "Vilken budget har du för det här projektet?",
+    "q_budget_project_sub": "En ungefärlig siffra räcker. Den säger oss bara vad vi ska föreslå.",
+    "q_budget_ads": "Vad skulle du kunna lägga på annonser per månad?",
+    "q_budget_ads_sub": "Bara annonsbudgeten. Vår förvaltning är 15% av den, plus en engångsuppsättning. En uppskattning räcker.",
+    "q_budget_monthly": "Vad är din månadsbudget?",
+    "q_budget_monthly_sub": "Ungefär vad du skulle lägga varje månad. En uppskattning räcker.",
+    "q_timeline": "Hur snart vill du börja?",
+    "q_contact": "Sista steget. Hur når vi dig?",
+    "q_contact_sub": "Sedan väljer du en tid. Vi svarar inom en timme under kontorstid.",
+    "label_name": "Ditt namn",
+    "label_email": "E-postadress",
+    "label_phone": "Tel. / WhatsApp",
+    "label_phone_note": "(valfritt, för snabbare svar)",
+    "label_country": "Landsnummer",
+    "placeholder_name": "Anna Andersson",
+    "placeholder_email": "anna@foretag.se",
+    "placeholder_phone": "70 123 45 67",
+    "well_call": "Vi ringer {number}",
+    "consent_pre": "Jag godkänner",
+    "consent_link": "integritetspolicyn",
+    "consent_post": "och samtycker till att bli kontaktad om min förfrågan.",
+    "optional": "(valfritt)",
+    "cta": "Boka mitt samtal",
+    "sending": "Skickar...",
+    "error_generic": "Något gick fel. Försök igen.",
+    "business": {
+      "coaching_consulting": "Coaching / Rådgivning",
+      "e_commerce_online_store": "E-handel / Webbshop",
+      "saas_software": "SaaS / Mjukvara",
+      "agency_marketing": "Byrå / Marknadsföring",
+      "real_estate": "Fastigheter",
+      "healthcare_medical": "Hälsa / Sjukvård",
+      "legal_law_firm": "Juridik / Advokatbyrå",
+      "financial_services": "Finansiella tjänster",
+      "education_training": "Utbildning / Kurser",
+      "restaurant_food_beverage": "Restaurang / Livsmedel",
+      "fitness_wellness": "Träning / Hälsa",
+      "construction_trades": "Bygg / Hantverk",
+      "beauty_salon_spa": "Skönhet / Salong / Spa",
+      "content_creator_influencer": "Innehållsskapare / Influencer",
+      "retail_brick_mortar": "Detaljhandel / Fysisk butik",
+      "professional_services": "Professionella tjänster",
+      "nonprofit": "Ideell organisation",
+      "automotive": "Fordon",
+      "travel_hospitality": "Resor / Hotell",
+      "other": "Annat"
+    },
+    "services": {
+      "new_website": "Ny webbplats",
+      "website_redesign": "Omdesign av webbplats",
+      "e_commerce": "E-handel",
+      "landing_page": "Landningssida",
+      "google_ads": "Google Ads",
+      "meta_ads": "Meta Ads",
+      "social_media": "Sociala medier",
+      "not_sure_yet": "Vet inte än"
+    },
+    "timeline": {
+      "0": {
+        "label": "Så snart som möjligt",
+        "hint": "Redo att börja"
+      },
+      "1": {
+        "label": "Inom en månad",
+        "hint": "Vill komma igång snart"
+      },
+      "2": {
+        "label": "En till tre månader",
+        "hint": "Planerat, inte brådskande"
+      },
+      "3": {
+        "label": "Bara och tittar",
+        "hint": "Undersöker alternativ"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "Under 5 000 €",
+        "hint": "Under där vi börjar"
+      },
+      "1": {
+        "label": "Cirka 5 000 €",
+        "hint": "Ensidig webbplats"
+      },
+      "2": {
+        "label": "Cirka 10 000 €",
+        "hint": "Fyra till fem sidor"
+      },
+      "3": {
+        "label": "Cirka 15 000 €",
+        "hint": "Ungefär femton sidor"
+      },
+      "4": {
+        "label": "20 000 €+",
+        "hint": "E-handel eller större"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "Cirka 500 € / månad",
+        "hint": "En kanal, skött"
+      },
+      "1": {
+        "label": "1 000 – 2 000 € / månad",
+        "hint": "En kanal med regelbunden video, eller två kanaler"
+      },
+      "2": {
+        "label": "2 000 – 4 000 € / månad",
+        "hint": "Två eller tre kanaler med video"
+      },
+      "3": {
+        "label": "4 000 €+ / månad",
+        "hint": "Flera kanaler, videotungt"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "Under 1 000 € / månad i annonsbudget",
+        "hint": "Första testerna"
+      },
+      "1": {
+        "label": "1 000 – 3 000 € / månad i annonsbudget",
+        "hint": "En plattform, ordentligt skött"
+      },
+      "2": {
+        "label": "3 000 – 10 000 € / månad i annonsbudget",
+        "hint": "Båda plattformarna, eller skala en"
+      },
+      "3": {
+        "label": "10 000 €+ / månad i annonsbudget",
+        "hint": "Stora volymer"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "Under 1 000 € / månad",
+        "hint": "Kommer igång"
+      },
+      "1": {
+        "label": "1 000 – 3 000 € / månad",
+        "hint": "En kanal eller plattform, ordentligt skött"
+      },
+      "2": {
+        "label": "3 000 – 6 000 € / månad",
+        "hint": "Flera parallellt"
+      },
+      "3": {
+        "label": "6 000 €+ / månad",
+        "hint": "Skalar hårt"
+      }
+    }
   },
   "errors": {
     "title": "Något gick fel",

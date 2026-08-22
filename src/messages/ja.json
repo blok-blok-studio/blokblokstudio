@@ -433,80 +433,169 @@
     "updates_content": "将来的に分析やトラッキング技術の使用を開始する場合は、このポリシーを更新し、トラッキングが発生する前にクッキー同意バナーを通じてお知らせします。"
   },
   "start": {
-    "meta_title": "コーヒーでも一緒に | Blok Blok Studio",
-    "meta_description": "Chase です。ベルリンを拠点にしたクリエイティブエージェンシー、Blok Blok Studio を運営しています。ウェブ制作、広告運用、SNS運用、AIシステム導入。最初の一杯はおごります。",
-    "meta_twitter_description": "ベルリンのクリエイティブエージェンシー。ウェブ、広告、SNS、AI。最初の一杯はおごります。",
-    "hero_badge": "手紙を開いてくれましたね",
-    "hero_title": "次の一歩は、一杯のコーヒー。",
-    "hero_subtitle": "下から時間を選んでください。最初の一杯はこちらから。売り込みなし、プレッシャーなし、ただあなたのビジネスについて率直に話す時間です。",
-    "hero_cta_primary": "コーヒーを予約する",
-    "hero_cta_secondary": "最近の仕事を見る",
-    "hook_line1": "ベルリンの良いビジネスのほとんどは、ネット上で受けている評価以上の仕事をしています。",
-    "hook_line2": "そこで僕の出番です。オンラインでの見え方を整えて、本当に来てほしいお客さんの前に押し出します。",
-    "pitch_label": "ピッチ",
-    "pitch_title": "Chase です。Blok Blok Studio を運営しています。",
-    "pitch_body": "ベルリンのクリエイティブエージェンシーです。仕事に自信があるのにオンラインでは知られていない事業者のために、ウェブサイト制作、広告運用、SNS 運用、AI システム導入までお手伝いします。",
-    "services_title": "本当にやっていること",
-    "services_subtitle": "丁寧に作った4つのサービス、組み合わせて機能します。",
-    "catalog_eyebrow": "メニューの全て",
-    "catalog_title": "サービスの全ラインナップ",
-    "catalog_subtitle": "やりたい方向を選んでください。サイズはコーヒーを飲みながら決めましょう。",
-    "service_websites_name": "ウェブサイト",
-    "service_websites_desc": "実物の仕事のクオリティに見合うカスタムサイト。高速、モバイル最優先、訪問者を実際に支払う顧客に変える設計です。",
-    "service_ads_name": "広告",
-    "service_ads_desc": "Meta と Google で、すでにあなたのサービスを探している人たちに届く広告。見栄えだけの数字ではなく、予約と売上のための運用です。",
-    "service_social_name": "SNS 運用",
-    "service_social_desc": "実際の仕事と同じ品質のコンテンツとプロフィール。最初の印象がマイナスにならないように整えます。",
-    "service_ai_name": "AI システム",
-    "service_ai_desc": "自動返信、リード獲得、フォローアップ、予約。退屈な作業を自動化して、あなたが得意なことに集中できるようにします。",
-    "audience_title": "一緒に仕事する相手",
-    "audience_subtitle": "仕事は確かなのに、オンラインでは隠れたままになっているベルリンの事業者。",
-    "audience_trainers": "パーソナルトレーナー",
-    "audience_restaurants": "レストラン・カフェ",
-    "audience_ecommerce": "EC ストア",
-    "audience_agencies": "エージェンシー・スタジオ",
-    "audience_law": "法律事務所",
-    "audience_clinics": "クリニック・ウェルネス",
-    "audience_construction": "建設・職人",
-    "audience_saas": "SaaS・テック",
-    "audience_education": "教育",
-    "audience_music": "音楽・クリエイター",
-    "audience_freelancers": "フリーランス",
-    "audience_other": "それ以外のあなたも",
-    "compare_title": "よくあるパターン vs 僕がやること",
-    "compare_subtitle": "多くのエージェンシーはサイトを納品して姿を消します。僕は違います。",
-    "compare_label_others": "他社",
-    "compare_label_me": "僕",
-    "compare_1_bad": "見た目はいいけど Google で誰も見つけられないサイト",
-    "compare_1_good": "最初から SEO を組み込み、本当に来てほしいお客さんが見つけられる状態に",
-    "compare_2_bad": "DM・メール・請求書で支払いを追いかける日々",
-    "compare_2_good": "オンライン予約と決済で、お客さんがあなたのサイトで支払いを完結",
-    "compare_3_bad": "「モバイルは後でなんとかしよう」",
-    "compare_3_good": "モバイル最優先。お客さんはそこにいます",
-    "compare_4_bad": "業界の他社と見分けがつかないテンプレート",
-    "compare_4_good": "ブランドが一目で際立つカスタムデザイン",
-    "compare_5_bad": "公開後に放り投げてくるエージェンシー",
-    "compare_5_good": "事業の成長に合わせて続く継続サポート",
-    "process_title": "進め方",
-    "process_subtitle": "コーヒーから公開まで、4ステップ。秘密はありません。",
-    "process_1_title": "コーヒー",
-    "process_1_desc": "30分お話しします。あなたの事業と目標、オンラインで困っていることを伺います。最初の一杯はこちらから。",
-    "process_2_title": "プラン",
-    "process_2_desc": "明確な戦略と提案書をお返しします。何を、いくらで、いつまでにやるのかを着手前にすべてお見せします。",
-    "process_3_title": "制作",
-    "process_3_desc": "デザイン、開発、広告、SNS、AI。必要なものを。途中経過を共有しつつ、納得いくまで一緒に磨きます。",
-    "process_4_title": "公開",
-    "process_4_desc": "整った形で素早く公開。公開翌日に消えるのではなく、その後も成長を続けられるよう一緒に伴走します。",
-    "projects_title": "最近の仕事",
-    "projects_subtitle": "実在の案件、実在のクライアント、実在の成果。",
-    "testimonials_title": "お客さんの声",
-    "testimonials_subtitle": "一緒に仕事した後にいただいたコメント。",
-    "testimonial_view_project": "プロジェクトを見る",
-    "cta_title": "手紙を開いてくれた今、次の一歩はコーヒーです。",
-    "cta_subtitle": "時間を選んでください。最初の一杯はこちらから。",
-    "cta_button": "コーヒーを予約する",
-    "cta_signoff_role": "Blok Blok Studio 代表",
-    "whatsapp_aria": "WhatsApp でチャット"
+    "headline_a": "あなたのビジネスが気づかないうちに顧客を失っている場所",
+    "headline_b": "（とその直し方）",
+    "sub": "5つの簡単な質問に答えていただければ、まず何を直すべきかをお見せします。その後、ご都合の良い時間をお選びください。1分ほどで終わります。",
+    "proof": "ベルリンのウェブデザインスタジオ。Coach Kofi様は公開後、相談依頼が200%増加。開業1年目の配管業者様は5か月で5万ドルの売上を達成しました。",
+    "progress": "質問 {current} / {total}",
+    "continue": "次へ",
+    "back": "戻る",
+    "no_spam": "迷惑メールなし。義務もありません。",
+    "q_business": "どのような事業をされていますか？",
+    "q_business_sub": "最も近いものをお選びください。",
+    "q_services": "どのようなことでお困りですか？",
+    "q_services_sub": "当てはまるものをすべてお選びください。",
+    "q_budget_project": "このプロジェクトのご予算は？",
+    "q_budget_project_sub": "おおよそで構いません。ご提案内容の目安にするだけです。",
+    "q_budget_ads": "広告費として毎月いくらお使いになれますか？",
+    "q_budget_ads_sub": "広告費のみで結構です。当方の運用費はその15%と初期設定費用です。おおよそで構いません。",
+    "q_budget_monthly": "月々のご予算は？",
+    "q_budget_monthly_sub": "毎月かけられるおおよその金額です。概算で構いません。",
+    "q_timeline": "いつ頃から始めたいですか？",
+    "q_contact": "最後のステップです。ご連絡先を教えてください。",
+    "q_contact_sub": "その後、ご都合の良い時間をお選びいただけます。営業時間内は1時間以内にご返信します。",
+    "label_name": "お名前",
+    "label_email": "メールアドレス",
+    "label_phone": "電話 / WhatsApp",
+    "label_phone_note": "（任意・より早いご返信のため）",
+    "label_country": "国番号",
+    "placeholder_name": "山田 太郎",
+    "placeholder_email": "yamada@company.co.jp",
+    "placeholder_phone": "90 1234 5678",
+    "well_call": "{number} にご連絡します",
+    "consent_pre": "",
+    "consent_link": "プライバシーポリシー",
+    "consent_post": "に同意し、お問い合わせについて連絡を受けることを承諾します。",
+    "optional": "（任意）",
+    "cta": "相談を予約する",
+    "sending": "送信中...",
+    "error_generic": "問題が発生しました。もう一度お試しください。",
+    "business": {
+      "coaching_consulting": "コーチング / コンサルティング",
+      "e_commerce_online_store": "EC / オンラインストア",
+      "saas_software": "SaaS / ソフトウェア",
+      "agency_marketing": "代理店 / マーケティング",
+      "real_estate": "不動産",
+      "healthcare_medical": "ヘルスケア / 医療",
+      "legal_law_firm": "法律 / 法律事務所",
+      "financial_services": "金融サービス",
+      "education_training": "教育 / 研修",
+      "restaurant_food_beverage": "飲食 / 食品",
+      "fitness_wellness": "フィットネス / ウェルネス",
+      "construction_trades": "建設 / 職人",
+      "beauty_salon_spa": "美容 / サロン / スパ",
+      "content_creator_influencer": "コンテンツクリエイター / インフルエンサー",
+      "retail_brick_mortar": "小売 / 実店舗",
+      "professional_services": "専門サービス",
+      "nonprofit": "非営利団体",
+      "automotive": "自動車",
+      "travel_hospitality": "旅行 / ホスピタリティ",
+      "other": "その他"
+    },
+    "services": {
+      "new_website": "新規サイト制作",
+      "website_redesign": "サイトリニューアル",
+      "e_commerce": "EC",
+      "landing_page": "ランディングページ",
+      "google_ads": "Google 広告",
+      "meta_ads": "Meta 広告",
+      "social_media": "SNS",
+      "not_sure_yet": "まだ決めていない"
+    },
+    "timeline": {
+      "0": {
+        "label": "できるだけ早く",
+        "hint": "すぐ始められます"
+      },
+      "1": {
+        "label": "1か月以内",
+        "hint": "早めに動かしたい"
+      },
+      "2": {
+        "label": "1〜3か月",
+        "hint": "予定はあるが急ぎではない"
+      },
+      "3": {
+        "label": "情報収集中",
+        "hint": "選択肢を検討中"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "5,000ユーロ未満",
+        "hint": "当方の最低ラインを下回ります"
+      },
+      "1": {
+        "label": "5,000ユーロ程度",
+        "hint": "1ページのサイト"
+      },
+      "2": {
+        "label": "10,000ユーロ程度",
+        "hint": "4〜5ページ"
+      },
+      "3": {
+        "label": "15,000ユーロ程度",
+        "hint": "15ページ程度"
+      },
+      "4": {
+        "label": "20,000ユーロ以上",
+        "hint": "ECまたはそれ以上の規模"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "月額500ユーロ程度",
+        "hint": "1チャンネル運用"
+      },
+      "1": {
+        "label": "月額1,000〜2,000ユーロ",
+        "hint": "動画付き1チャンネル、または2チャンネル"
+      },
+      "2": {
+        "label": "月額2,000〜4,000ユーロ",
+        "hint": "動画付き2〜3チャンネル"
+      },
+      "3": {
+        "label": "月額4,000ユーロ以上",
+        "hint": "複数チャンネル、動画中心"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "月額広告費1,000ユーロ未満",
+        "hint": "お試し段階"
+      },
+      "1": {
+        "label": "月額広告費1,000〜3,000ユーロ",
+        "hint": "1媒体をしっかり運用"
+      },
+      "2": {
+        "label": "月額広告費3,000〜10,000ユーロ",
+        "hint": "両媒体、または1媒体を拡大"
+      },
+      "3": {
+        "label": "月額広告費10,000ユーロ以上",
+        "hint": "大規模運用"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "月額1,000ユーロ未満",
+        "hint": "これから始める"
+      },
+      "1": {
+        "label": "月額1,000〜3,000ユーロ",
+        "hint": "1チャンネルまたは1媒体をしっかり運用"
+      },
+      "2": {
+        "label": "月額3,000〜6,000ユーロ",
+        "hint": "複数を並行"
+      },
+      "3": {
+        "label": "月額6,000ユーロ以上",
+        "hint": "本格的に拡大"
+      }
+    }
   },
   "errors": {
     "title": "問題が発生しました",

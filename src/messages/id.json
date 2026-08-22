@@ -433,80 +433,169 @@
     "updates_content": "Jika kami mulai menggunakan teknologi analitik atau pelacakan di masa depan, kami akan memperbarui kebijakan ini dan memberi tahu Anda melalui banner persetujuan cookie kami sebelum pelacakan apa pun terjadi."
   },
   "start": {
-    "meta_title": "Mari minum kopi | Blok Blok Studio",
-    "meta_description": "Saya Chase. Saya menjalankan Blok Blok Studio, agensi kreatif Berlin. Situs web, iklan, media sosial, dan sistem AI. Kopi pertama gratis dari saya.",
-    "meta_twitter_description": "Agensi kreatif Berlin. Situs web, iklan, sosial, AI. Kopi pertama gratis dari saya.",
-    "hero_badge": "Anda membuka surat itu",
-    "hero_title": "Langkah selanjutnya adalah kopi.",
-    "hero_subtitle": "Pilih waktu di bawah. Yang pertama gratis dari saya. Tanpa penawaran, tanpa tekanan, hanya percakapan nyata tentang bisnis Anda.",
-    "hero_cta_primary": "Pesan kopi",
-    "hero_cta_secondary": "Lihat karya terbaru",
-    "hook_line1": "Sebagian besar bisnis hebat di Berlin melakukan pekerjaan yang lebih baik daripada yang mereka dapatkan kreditnya online.",
-    "hook_line2": "Di situlah saya masuk. Saya memperbaiki kehadiran online dan menempatkan Anda di depan pelanggan yang tepat.",
-    "pitch_label": "Pitch",
-    "pitch_title": "Saya Chase. Saya menjalankan Blok Blok Studio.",
-    "pitch_body": "Agensi kreatif Berlin. Saya membangun situs web, menjalankan iklan, mengelola media sosial, dan menyiapkan sistem AI untuk bisnis yang pandai dalam pekerjaannya dan lelah menjadi rahasia.",
-    "services_title": "Apa yang sebenarnya saya lakukan",
-    "services_subtitle": "Empat hal, dilakukan dengan baik, yang bekerja bersama.",
-    "catalog_eyebrow": "Semua di menu",
-    "catalog_title": "Daftar layanan lengkap",
-    "catalog_subtitle": "Pilih jalur yang Anda butuhkan. Kami akan menentukan ukurannya saat minum kopi.",
-    "service_websites_name": "Situs Web",
-    "service_websites_desc": "Situs kustom yang terlihat sebagus pekerjaan Anda yang sebenarnya. Cepat, mobile-first, dan dibangun untuk mengubah pengunjung menjadi pelanggan yang membayar.",
-    "service_ads_name": "Iklan",
-    "service_ads_desc": "Iklan Meta dan Google ditujukan untuk orang-orang yang sudah mencari apa yang Anda lakukan. Bukan metrik kesombongan, hanya pemesanan dan penjualan.",
-    "service_social_name": "Media sosial",
-    "service_social_desc": "Konten dan profil yang sesuai dengan kualitas pekerjaan dunia nyata Anda, sehingga kesan pertama online berhenti menyakiti Anda.",
-    "service_ai_name": "Sistem AI",
-    "service_ai_desc": "Balasan otomatis, penangkapan prospek, tindak lanjut, pemesanan. Sistem yang menangani hal-hal membosankan sehingga Anda dapat terus melakukan yang terbaik.",
-    "audience_title": "Dengan siapa saya bekerja",
-    "audience_subtitle": "Bisnis Berlin yang pandai dalam pekerjaannya dan lelah menjadi rahasia.",
-    "audience_trainers": "Pelatih pribadi",
-    "audience_restaurants": "Restoran & kafe",
-    "audience_ecommerce": "Toko e-commerce",
-    "audience_agencies": "Agensi & studio",
-    "audience_law": "Firma hukum",
-    "audience_clinics": "Klinik & wellness",
-    "audience_construction": "Konstruksi & perdagangan",
-    "audience_saas": "SaaS & teknologi",
-    "audience_education": "Pendidikan",
-    "audience_music": "Musik & kreatif",
-    "audience_freelancers": "Freelancer",
-    "audience_other": "Siapa pun yang lain",
-    "compare_title": "Apa yang biasanya Anda dapatkan vs. apa yang saya lakukan",
-    "compare_subtitle": "Kebanyakan agensi menyerahkan situs web dan menghilang. Saya tidak.",
-    "compare_label_others": "Lainnya",
-    "compare_label_me": "Saya",
-    "compare_1_bad": "Situs yang terlihat bagus yang tidak dapat ditemukan siapa pun di Google",
-    "compare_1_good": "SEO terintegrasi sehingga pelanggan yang tepat benar-benar menemukan Anda",
-    "compare_2_bad": "Mengejar pembayaran melalui DM, email, dan faktur",
-    "compare_2_good": "Pemesanan dan pembayaran online sehingga klien membayar di situs Anda",
-    "compare_3_bad": "\"Kami akan memikirkan mobile nanti\"",
-    "compare_3_good": "Mobile-first, karena di situlah pelanggan Anda",
-    "compare_4_bad": "Template yang terlihat seperti setiap bisnis lain di industri Anda",
-    "compare_4_good": "Desain kustom yang membuat merek Anda menonjol langsung",
-    "compare_5_bad": "Diluncurkan dan kemudian ditinggalkan oleh agensi",
-    "compare_5_good": "Dukungan berkelanjutan, karena bisnis Anda terus berkembang",
-    "process_title": "Cara kerjanya",
-    "process_subtitle": "Empat langkah dari kopi ke peluncuran. Tidak ada misteri.",
-    "process_1_title": "Kopi",
-    "process_1_desc": "Kita bertemu selama 30 menit. Saya mempelajari bisnis Anda, tujuan Anda, dan apa yang Anda lelah hadapi secara online. Yang pertama gratis dari saya.",
-    "process_2_title": "Rencana",
-    "process_2_desc": "Saya mengirim kembali strategi dan proposal yang jelas. Anda melihat dengan tepat apa yang Anda dapatkan, berapa biayanya, dan kapan akan dikirim sebelum kita mulai.",
-    "process_3_title": "Bangun",
-    "process_3_desc": "Desain, pengembangan, iklan, sosial, AI. Apa pun yang Anda butuhkan. Anda tetap dalam loop sepanjang jalan dan kami beriterasi sampai benar.",
-    "process_4_title": "Peluncuran",
-    "process_4_desc": "Itu menjadi langsung, dipoles dan cepat. Lalu saya tetap di sekitar untuk terus mengembangkannya alih-alih menghilang sehari setelah peluncuran.",
-    "projects_title": "Karya terbaru",
-    "projects_subtitle": "Proyek nyata, klien nyata, hasil nyata.",
-    "testimonials_title": "Dalam kata-kata mereka",
-    "testimonials_subtitle": "Apa yang dikatakan klien setelah bekerja dengan saya.",
-    "testimonial_view_project": "Lihat proyek",
-    "cta_title": "Sekarang setelah Anda membuka surat itu, langkah selanjutnya adalah kopi.",
-    "cta_subtitle": "Pilih waktu. Yang pertama gratis dari saya.",
-    "cta_button": "Pesan kopi",
-    "cta_signoff_role": "Pendiri, Blok Blok Studio",
-    "whatsapp_aria": "Chat di WhatsApp"
+    "headline_a": "Di mana bisnis Anda diam-diam kehilangan pelanggan",
+    "headline_b": " (dan cara memperbaikinya)",
+    "sub": "Jawab lima pertanyaan singkat dan kami tunjukkan apa yang akan kami perbaiki lebih dulu. Setelah itu Anda pilih waktunya. Sekitar satu menit.",
+    "proof": "Studio desain web di Berlin. Permintaan konsultasi Coach Kofi naik 200% setelah peluncuran. Seorang tukang ledeng di tahun pertamanya membukukan omzet 50.000 $ dalam lima bulan.",
+    "progress": "Pertanyaan {current} dari {total}",
+    "continue": "Lanjut",
+    "back": "Kembali",
+    "no_spam": "Tanpa spam. Tanpa kewajiban.",
+    "q_business": "Jenis bisnis apa yang Anda jalankan?",
+    "q_business_sub": "Pilih yang paling mendekati.",
+    "q_services": "Anda butuh bantuan untuk apa?",
+    "q_services_sub": "Pilih semua yang sesuai.",
+    "q_budget_project": "Berapa anggaran Anda untuk proyek ini?",
+    "q_budget_project_sub": "Perkiraan kasar sudah cukup. Itu hanya memberi tahu kami apa yang perlu diusulkan.",
+    "q_budget_ads": "Berapa yang bisa Anda keluarkan untuk iklan per bulan?",
+    "q_budget_ads_sub": "Hanya biaya iklannya. Pengelolaan kami 15% dari itu, ditambah biaya setup sekali. Perkiraan sudah cukup.",
+    "q_budget_monthly": "Berapa anggaran bulanan Anda?",
+    "q_budget_monthly_sub": "Kira-kira berapa yang akan Anda keluarkan tiap bulan. Perkiraan sudah cukup.",
+    "q_timeline": "Seberapa cepat Anda ingin mulai?",
+    "q_contact": "Langkah terakhir. Bagaimana kami menghubungi Anda?",
+    "q_contact_sub": "Setelah itu Anda pilih waktunya. Kami membalas dalam satu jam pada jam kerja.",
+    "label_name": "Nama Anda",
+    "label_email": "Alamat email",
+    "label_phone": "Telp. / WhatsApp",
+    "label_phone_note": "(opsional, agar kami bisa membalas lebih cepat)",
+    "label_country": "Kode negara",
+    "placeholder_name": "Budi Santoso",
+    "placeholder_email": "budi@perusahaan.co.id",
+    "placeholder_phone": "812 3456 7890",
+    "well_call": "Kami akan menghubungi {number}",
+    "consent_pre": "Saya menyetujui",
+    "consent_link": "Kebijakan Privasi",
+    "consent_post": "dan bersedia dihubungi terkait pertanyaan saya.",
+    "optional": "(opsional)",
+    "cta": "Pesan panggilan saya",
+    "sending": "Mengirim...",
+    "error_generic": "Terjadi kesalahan. Silakan coba lagi.",
+    "business": {
+      "coaching_consulting": "Coaching / Konsultan",
+      "e_commerce_online_store": "E-Commerce / Toko online",
+      "saas_software": "SaaS / Perangkat lunak",
+      "agency_marketing": "Agensi / Pemasaran",
+      "real_estate": "Properti",
+      "healthcare_medical": "Kesehatan / Medis",
+      "legal_law_firm": "Hukum / Kantor hukum",
+      "financial_services": "Jasa keuangan",
+      "education_training": "Pendidikan / Pelatihan",
+      "restaurant_food_beverage": "Restoran / Makanan",
+      "fitness_wellness": "Kebugaran / Wellness",
+      "construction_trades": "Konstruksi / Pertukangan",
+      "beauty_salon_spa": "Kecantikan / Salon / Spa",
+      "content_creator_influencer": "Kreator konten / Influencer",
+      "retail_brick_mortar": "Ritel / Toko fisik",
+      "professional_services": "Jasa profesional",
+      "nonprofit": "Nirlaba",
+      "automotive": "Otomotif",
+      "travel_hospitality": "Perjalanan / Perhotelan",
+      "other": "Lainnya"
+    },
+    "services": {
+      "new_website": "Website baru",
+      "website_redesign": "Desain ulang website",
+      "e_commerce": "E-commerce",
+      "landing_page": "Landing page",
+      "google_ads": "Google Ads",
+      "meta_ads": "Meta Ads",
+      "social_media": "Media sosial",
+      "not_sure_yet": "Belum yakin"
+    },
+    "timeline": {
+      "0": {
+        "label": "Secepat mungkin",
+        "hint": "Siap mulai sekarang"
+      },
+      "1": {
+        "label": "Dalam satu bulan",
+        "hint": "Ingin segera jalan"
+      },
+      "2": {
+        "label": "Satu sampai tiga bulan",
+        "hint": "Sudah direncanakan, tidak mendesak"
+      },
+      "3": {
+        "label": "Sekadar melihat-lihat",
+        "hint": "Sedang membandingkan pilihan"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "Di bawah €5.000",
+        "hint": "Di bawah titik awal kami"
+      },
+      "1": {
+        "label": "Sekitar €5.000",
+        "hint": "Situs satu halaman"
+      },
+      "2": {
+        "label": "Sekitar €10.000",
+        "hint": "Empat sampai lima halaman"
+      },
+      "3": {
+        "label": "Sekitar €15.000",
+        "hint": "Sekitar lima belas halaman"
+      },
+      "4": {
+        "label": "€20.000+",
+        "hint": "E-commerce atau lebih besar"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "Sekitar €500 / bulan",
+        "hint": "Satu kanal, dikelola"
+      },
+      "1": {
+        "label": "€1.000 – €2.000 / bulan",
+        "hint": "Satu kanal dengan video rutin, atau dua kanal"
+      },
+      "2": {
+        "label": "€2.000 – €4.000 / bulan",
+        "hint": "Dua atau tiga kanal dengan video"
+      },
+      "3": {
+        "label": "€4.000+ / bulan",
+        "hint": "Beberapa kanal, banyak video"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "Di bawah €1.000 / bulan biaya iklan",
+        "hint": "Uji coba awal"
+      },
+      "1": {
+        "label": "€1.000 – €3.000 / bulan biaya iklan",
+        "hint": "Satu platform, dikelola dengan benar"
+      },
+      "2": {
+        "label": "€3.000 – €10.000 / bulan biaya iklan",
+        "hint": "Kedua platform, atau menskalakan satu"
+      },
+      "3": {
+        "label": "€10.000+ / bulan biaya iklan",
+        "hint": "Volume besar"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "Di bawah €1.000 / bulan",
+        "hint": "Baru mulai"
+      },
+      "1": {
+        "label": "€1.000 – €3.000 / bulan",
+        "hint": "Satu kanal atau platform, dikelola dengan benar"
+      },
+      "2": {
+        "label": "€3.000 – €6.000 / bulan",
+        "hint": "Beberapa berjalan bersamaan"
+      },
+      "3": {
+        "label": "€6.000+ / bulan",
+        "hint": "Menskalakan besar-besaran"
+      }
+    }
   },
   "errors": {
     "title": "Terjadi kesalahan",

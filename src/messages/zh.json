@@ -433,80 +433,169 @@
     "updates_content": "如果我们将来开始使用分析或跟踪技术，我们将更新此政策，并在任何跟踪发生之前通过我们的Cookie同意横幅通知您。"
   },
   "start": {
-    "meta_title": "一起喝杯咖啡 | Blok Blok Studio",
-    "meta_description": "我是 Chase。我经营 Blok Blok Studio,一家位于柏林的创意工作室。网站、广告、社交媒体、AI 系统。第一杯咖啡我请。",
-    "meta_twitter_description": "柏林的创意工作室。网站、广告、社交、AI。第一杯咖啡我请。",
-    "hero_badge": "你打开了那封信",
-    "hero_title": "下一步,一杯咖啡。",
-    "hero_subtitle": "在下面挑个时间。第一杯我请。没有套路、没有压力,只是一次关于你生意的真诚对话。",
-    "hero_cta_primary": "约杯咖啡",
-    "hero_cta_secondary": "看看最近的项目",
-    "hook_line1": "柏林大多数好生意的真实水平,远远超过他们在网络上呈现出来的样子。",
-    "hook_line2": "这就是我登场的地方。我把你的线上形象修整好,把你推到对的客户面前。",
-    "pitch_label": "一句话",
-    "pitch_title": "我是 Chase,我经营 Blok Blok Studio。",
-    "pitch_body": "一家柏林的创意工作室。我做网站、跑广告、运营社交媒体、搭建 AI 系统, , 专门服务那些手艺过硬,却苦于没人知道的生意人。",
-    "services_title": "我真正做的事",
-    "services_subtitle": "四件事,做扎实,彼此配合。",
-    "catalog_eyebrow": "菜单上的一切",
-    "catalog_title": "完整服务清单",
-    "catalog_subtitle": "选好方向,大小喝咖啡时再定。",
-    "service_websites_name": "网站",
-    "service_websites_desc": "和你真实工作一样靠谱的定制网站。快速、移动优先、为把访客转成付费客户而设计。",
-    "service_ads_name": "广告",
-    "service_ads_desc": "对准正在搜索你这门生意的人投放的 Meta、Google 广告。不要虚荣指标,只要预约和成交。",
-    "service_social_name": "社交媒体",
-    "service_social_desc": "和你真实工作品质相匹配的内容与账号,让线上第一印象不再拖你后腿。",
-    "service_ai_name": "AI 系统",
-    "service_ai_desc": "自动回复、线索收集、跟进、预约。把无聊的事交给系统,把你最擅长的事留给自己。",
-    "audience_title": "我服务的人",
-    "audience_subtitle": "手艺过硬却苦于没人知道的柏林生意人。",
-    "audience_trainers": "私人教练",
-    "audience_restaurants": "餐厅与咖啡馆",
-    "audience_ecommerce": "电商店铺",
-    "audience_agencies": "代理与工作室",
-    "audience_law": "律师事务所",
-    "audience_clinics": "诊所与健康馆",
-    "audience_construction": "建筑与手艺",
-    "audience_saas": "SaaS 与科技",
-    "audience_education": "教育",
-    "audience_music": "音乐与创作者",
-    "audience_freelancers": "自由职业者",
-    "audience_other": "其他任何人",
-    "compare_title": "你通常拿到的 vs. 我能做到的",
-    "compare_subtitle": "很多代理交完网站就消失了。我不会。",
-    "compare_label_others": "其他人",
-    "compare_label_me": "我",
-    "compare_1_bad": "好看但 Google 上没人能找到的网站",
-    "compare_1_good": "SEO 从一开始就内建,真正让对的客户找得到你",
-    "compare_2_bad": "靠 DM、邮件、发票追着收钱",
-    "compare_2_good": "线上预约与付款,客户直接在你的网站完成支付",
-    "compare_3_bad": "\"移动端我们以后再说\"",
-    "compare_3_good": "移动优先,因为你的客户都在那",
-    "compare_4_bad": "和同行长得一模一样的模板",
-    "compare_4_good": "定制设计,让你的品牌一眼就跳出来",
-    "compare_5_bad": "上线之后就被代理放着不管",
-    "compare_5_good": "持续支持,因为你的生意还在长大",
-    "process_title": "整个流程",
-    "process_subtitle": "从咖啡到上线,四步。没有黑箱。",
-    "process_1_title": "咖啡",
-    "process_1_desc": "我们见 30 分钟。我了解你的生意、目标,以及你目前在线上最受不了的部分。第一杯我请。",
-    "process_2_title": "方案",
-    "process_2_desc": "我把清晰的策略和报价回给你。开始之前你就知道交付什么、要多少钱、什么时候上线。",
-    "process_3_title": "动手",
-    "process_3_desc": "设计、开发、广告、社交、AI, , 你需要什么就做什么。全程同步、反复打磨,直到对劲为止。",
-    "process_4_title": "上线",
-    "process_4_desc": "干净利落地上线。然后我继续陪着,让它持续长大,而不是上线第二天就消失。",
-    "projects_title": "近期作品",
-    "projects_subtitle": "真实项目、真实客户、真实结果。",
-    "testimonials_title": "他们怎么说",
-    "testimonials_subtitle": "和我合作之后客户写的。",
-    "testimonial_view_project": "查看项目",
-    "cta_title": "既然你已经打开了这封信,下一步就是一杯咖啡。",
-    "cta_subtitle": "挑个时间。第一杯我请。",
-    "cta_button": "约杯咖啡",
-    "cta_signoff_role": "创始人,Blok Blok Studio",
-    "whatsapp_aria": "在 WhatsApp 上聊"
+    "headline_a": "您的业务正在悄悄流失客户的地方",
+    "headline_b": "（以及如何解决）",
+    "sub": "回答五个简单问题，我们会告诉您应该先解决什么，然后您选择一个时间。大约一分钟。",
+    "proof": "柏林网页设计工作室。Coach Kofi 上线后咨询量增长 200%。一家开业第一年的管道公司五个月内实现 5 万美元营收。",
+    "progress": "问题 {current} / {total}",
+    "continue": "继续",
+    "back": "返回",
+    "no_spam": "无垃圾信息。无任何义务。",
+    "q_business": "您经营什么类型的业务？",
+    "q_business_sub": "选择最接近的一项。",
+    "q_services": "您需要哪方面的帮助？",
+    "q_services_sub": "可多选。",
+    "q_budget_project": "这个项目的预算是多少？",
+    "q_budget_project_sub": "大致范围即可，只是帮助我们判断该提出什么方案。",
+    "q_budget_ads": "每月可以在广告上投入多少？",
+    "q_budget_ads_sub": "仅指广告费。我们的管理费为其 15%，另加一次性设置费。大致数字即可。",
+    "q_budget_monthly": "您的月度预算是多少？",
+    "q_budget_monthly_sub": "大约每月愿意投入的金额。估算即可。",
+    "q_timeline": "您希望多快开始？",
+    "q_contact": "最后一步。我们如何联系您？",
+    "q_contact_sub": "之后您可以选择时间。工作时间内我们会在一小时内回复。",
+    "label_name": "您的姓名",
+    "label_email": "电子邮箱",
+    "label_phone": "电话 / WhatsApp",
+    "label_phone_note": "（选填，以便更快回复）",
+    "label_country": "国家区号",
+    "placeholder_name": "张伟",
+    "placeholder_email": "zhang@company.cn",
+    "placeholder_phone": "138 1234 5678",
+    "well_call": "我们将致电 {number}",
+    "consent_pre": "我同意",
+    "consent_link": "隐私政策",
+    "consent_post": "并同意就我的咨询接受联系。",
+    "optional": "（选填）",
+    "cta": "预约通话",
+    "sending": "发送中...",
+    "error_generic": "出了点问题，请重试。",
+    "business": {
+      "coaching_consulting": "教练 / 咨询",
+      "e_commerce_online_store": "电商 / 网店",
+      "saas_software": "SaaS / 软件",
+      "agency_marketing": "代理机构 / 营销",
+      "real_estate": "房地产",
+      "healthcare_medical": "医疗健康",
+      "legal_law_firm": "法律 / 律师事务所",
+      "financial_services": "金融服务",
+      "education_training": "教育 / 培训",
+      "restaurant_food_beverage": "餐饮 / 食品",
+      "fitness_wellness": "健身 / 养生",
+      "construction_trades": "建筑 / 工程",
+      "beauty_salon_spa": "美容 / 沙龙 / 水疗",
+      "content_creator_influencer": "内容创作者 / 网红",
+      "retail_brick_mortar": "零售 / 实体店",
+      "professional_services": "专业服务",
+      "nonprofit": "非营利组织",
+      "automotive": "汽车",
+      "travel_hospitality": "旅游 / 酒店",
+      "other": "其他"
+    },
+    "services": {
+      "new_website": "全新网站",
+      "website_redesign": "网站改版",
+      "e_commerce": "电商",
+      "landing_page": "落地页",
+      "google_ads": "Google 广告",
+      "meta_ads": "Meta 广告",
+      "social_media": "社交媒体",
+      "not_sure_yet": "还不确定"
+    },
+    "timeline": {
+      "0": {
+        "label": "尽快",
+        "hint": "随时可以开始"
+      },
+      "1": {
+        "label": "一个月内",
+        "hint": "希望尽快推进"
+      },
+      "2": {
+        "label": "一到三个月",
+        "hint": "已有计划，不急"
+      },
+      "3": {
+        "label": "只是了解一下",
+        "hint": "正在比较方案"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "低于 5,000 欧元",
+        "hint": "低于我们的起步价"
+      },
+      "1": {
+        "label": "约 5,000 欧元",
+        "hint": "单页网站"
+      },
+      "2": {
+        "label": "约 10,000 欧元",
+        "hint": "四到五个页面"
+      },
+      "3": {
+        "label": "约 15,000 欧元",
+        "hint": "约十五个页面"
+      },
+      "4": {
+        "label": "20,000 欧元以上",
+        "hint": "电商或更大规模"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "每月约 500 欧元",
+        "hint": "一个渠道，代运营"
+      },
+      "1": {
+        "label": "每月 1,000–2,000 欧元",
+        "hint": "一个渠道含定期视频，或两个渠道"
+      },
+      "2": {
+        "label": "每月 2,000–4,000 欧元",
+        "hint": "两到三个渠道含视频"
+      },
+      "3": {
+        "label": "每月 4,000 欧元以上",
+        "hint": "多个渠道，视频为主"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "每月广告费低于 1,000 欧元",
+        "hint": "初步测试"
+      },
+      "1": {
+        "label": "每月广告费 1,000–3,000 欧元",
+        "hint": "认真运营一个平台"
+      },
+      "2": {
+        "label": "每月广告费 3,000–10,000 欧元",
+        "hint": "两个平台，或扩大其中一个"
+      },
+      "3": {
+        "label": "每月广告费 10,000 欧元以上",
+        "hint": "大规模投放"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "每月低于 1,000 欧元",
+        "hint": "刚起步"
+      },
+      "1": {
+        "label": "每月 1,000–3,000 欧元",
+        "hint": "认真运营一个渠道或平台"
+      },
+      "2": {
+        "label": "每月 3,000–6,000 欧元",
+        "hint": "多项并行"
+      },
+      "3": {
+        "label": "每月 6,000 欧元以上",
+        "hint": "大力扩张"
+      }
+    }
   },
   "errors": {
     "title": "出错了",
