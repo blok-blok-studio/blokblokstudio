@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import { AnimatedSection } from './AnimatedSection';
 import { LandingFooter } from './LandingFooter';
 import { readAnswers, clearAnswers, buildPlan, type Plan } from '@/lib/quiz-plan';
+import { FounderVideo } from './FounderVideo';
+import { CaseStudyGrid } from './CaseStudyGrid';
 
 /**
  * Thank-you / conversion pages for the /start ad funnel.
@@ -195,7 +197,33 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
           </p>
         </AnimatedSection>
 
-        <AnimatedSection delay={0.2} className="mt-14 text-left">
+        {/* Proof sits under the calendar, not above it. Someone who already
+            wants a time should not have to scroll past the pitch to reach the
+            embed; someone still deciding gets the founder and the numbers
+            right here. */}
+        <AnimatedSection delay={0.15} className="mt-16 text-left">
+          <div className="text-center mb-6 sm:mb-8">
+            <p className="text-xs font-semibold tracking-[0.2em] text-orange-400/70 uppercase mb-2">
+              Who you&apos;ll be talking to
+            </p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-balance">Meet the Founder</h2>
+          </div>
+          <FounderVideo />
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.2} className="mt-16">
+          <div className="relative left-1/2 -translate-x-1/2 w-screen max-w-7xl px-5 sm:px-8 text-left">
+            <div className="text-center mb-6 sm:mb-8">
+              <p className="text-xs font-semibold tracking-[0.2em] text-orange-400/70 uppercase mb-2">
+                The work, and the numbers
+              </p>
+              <h2 className="text-2xl sm:text-3xl font-bold text-balance">Meet Our Clients</h2>
+            </div>
+            <CaseStudyGrid />
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.25} className="mt-16 text-left">
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 sm:p-8 space-y-5">
             <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70">What happens next</p>
             {NEXT_STEPS.map((s) => (
