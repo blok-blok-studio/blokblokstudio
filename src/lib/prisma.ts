@@ -6,6 +6,18 @@ const globalForPrisma = globalThis as unknown as { prisma: InstanceType<typeof P
 function createClient() {
   const connectionString = process.env.DATABASE_URL;
   if (!connectionString) throw new Error('DATABASE_URL is not set');
+
+  // Two shapes of URL both have to work. postgres://...@db.prisma.io:5432 is
+  // a real TCP connection and needs the pg adapter. prisma+postgres://... is
+  // Prisma's own HTTPS transport, which the adapter cannot parse at all — it
+  // has no host, user or password in it — so that one goes to the default
+  // client via accelerateUrl. Branching here means the connection string can be swapped in
+  // Vercel without a code change, which matters when one of them stops
+  // authenticating.
+  if (connectionString.startsWith('prisma+postgres://')) {
+    return new PrismaClient({ accelerateUrl: connectionString });
+  }
+
   const adapter = new PrismaPg({ connectionString });
   return new PrismaClient({ adapter });
 }
