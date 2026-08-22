@@ -34,7 +34,7 @@ import { stashAnswers } from '@/lib/quiz-plan';
 const SERVICES = [
   'New website',
   'Website redesign',
-  'Online shop',
+  'E-commerce',
   'Landing page',
   'Google Ads',
   'Meta Ads',
@@ -62,7 +62,7 @@ const BUDGETS_BUILD = [
   { value: 'Around €5k', hint: 'One-page site' },
   { value: 'Around €10k', hint: 'Four to five pages' },
   { value: 'Around €15k', hint: 'Around fifteen pages' },
-  { value: '€20k+', hint: 'Online shop, or something larger' },
+  { value: '€20k+', hint: 'E-commerce, or something larger' },
 ];
 
 // All monthly, and stated as monthly in the value itself so a tracker entry

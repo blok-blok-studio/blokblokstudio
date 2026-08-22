@@ -77,7 +77,7 @@ const WORK: Record<string, PlanItem> = {
     detail:
       'We keep the pages already pulling their weight, fix the ones leaking visitors, and move the whole thing onto a stack that loads fast.',
   },
-  'Online shop': {
+  'E-commerce': {
     title: 'A storefront that closes',
     detail:
       'Product pages, checkout, and payments wired so people actually finish rather than abandon halfway.',
@@ -109,7 +109,7 @@ function defaultWork(business: string): PlanItem[] {
   const b = business.toLowerCase();
   const site = WORK['New website'];
   if (b.includes('commerce') || b.includes('retail') || b.includes('shop')) {
-    return [WORK['Online shop'], WORK['Meta Ads']];
+    return [WORK['E-commerce'], WORK['Meta Ads']];
   }
   if (b.includes('coach') || b.includes('fitness') || b.includes('wellness') || b.includes('beauty')) {
     return [
