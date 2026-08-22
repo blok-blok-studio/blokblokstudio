@@ -141,7 +141,18 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={dir} className="dark">
       <head>
+        {/* Google reads the favicon on its own slow schedule and renders it
+            on a light circle. The mark is white, so it needs to carry its own
+            dark background or it disappears there — and on a dark surface a
+            transparent one disappears the other way. These are opaque.
+            PNG sizes are declared explicitly because Google documents a 48px
+            multiple as the requirement and reading them out of an .ico is
+            left to its discretion. */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/icon-48.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/icon-96.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="llms" href="/llms.txt" type="text/plain" title="LLM Content" />
       </head>
