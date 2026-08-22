@@ -3,12 +3,12 @@
 import Image from 'next/image';
 import { AnimatedSection } from './AnimatedSection';
 import { CaseStudyGrid } from './CaseStudyGrid';
-import { LeadForm } from './LeadForm';
+import { QuizLeadForm } from './QuizLeadForm';
 import { LandingFooter } from './LandingFooter';
 import { VideoTranscript } from './VideoTranscript';
 
 /**
- * /vsl — video sales letter page. Flow: Meet the Founder (the page's one
+ * /start — video sales letter page. Flow: Meet the Founder (the page's one
  * video slot) → Meet Our Clients (case-study grid) → What We Do →
  * "Interested? Let's talk." lead form. Submitting routes through the
  * platform thank-you pages (ad conversions fire there), where the booking
@@ -168,7 +168,7 @@ export function VslContent() {
             <div className="text-center">
               <SectionHeading kicker="One quick form, then pick a time" title="Interested? Let's talk." />
             </div>
-            <LeadForm fieldTag="VSL Lead" ctaLabel="Let's talk" />
+            <QuizLeadForm fieldTag="Start Lead" ctaLabel="Book my call" />
           </div>
         </AnimatedSection>
 

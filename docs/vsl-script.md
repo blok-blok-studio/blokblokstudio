@@ -5,7 +5,7 @@ burned-in captions (67%+ watch muted on mobile), pattern interrupt every 20–30
 ONE call to action. Shot list assumes iPhone + good light is enough; b-roll from
 existing client sites and the tracker dashboard.
 
-**Where it runs:** `/vsl` page (video + one button), retargeting ads (cut-down 60s
+**Where it runs:** `/start` page (video + one button), retargeting ads (cut-down 60s
 version), and the follow-up email to leads who didn't book.
 
 ---
@@ -102,7 +102,7 @@ the Slack lead alert firing + calendar booking. Pattern interrupt at 1:40: cut t
 
 ## PRODUCTION NOTES (2026 standards)
 
-- **Length:** 3:30–4:00 for the /vsl page. Cut a 60s version (Hook → 1 proof → CTA)
+- **Length:** 3:30–4:00 for the /start page. Cut a 60s version (Hook → 1 proof → CTA)
   for retargeting ads and a 30s vertical for social.
 - **Captions:** burned-in, high-contrast. Mandatory — most mobile viewers are muted.
 - **First frame:** your face mid-gesture + hook text overlay (thumbnails/autoplay
@@ -121,6 +121,6 @@ the Slack lead alert firing + calendar booking. Pattern interrupt at 1:40: cut t
 ## WHERE IT PLUGS INTO THE FUNNEL
 
 ```
-Retargeting ad (60s cut) ─→ /vsl (full VSL + one button) ─→ cal.com discovery (setter)
+Retargeting ad (60s cut) ─→ /start (full VSL + one button) ─→ cal.com discovery (setter)
 Cold ad ─→ /go form ─→ /go/thanks ─→ booking     ← VSL also linked in follow-up email 1
 ```

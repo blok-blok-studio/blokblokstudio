@@ -1185,7 +1185,7 @@ export function PricingContent() {
         <div style={{ marginTop: 32, padding: '28px 22px', borderRadius: 16, background: `linear-gradient(135deg, rgba(249,115,22,0.06), rgba(251,191,36,0.04))`, border: `1px solid rgba(249,115,22,0.18)`, textAlign: 'center' }}>
           <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 22, margin: '0 0 8px' }}>Want a custom quote?</h3>
           <p style={{ fontSize: 13, color: MU, margin: '0 auto 18px', maxWidth: 460, lineHeight: 1.6 }}>Every engagement is scoped and quoted individually. Book a free 15-minute call and we&apos;ll send a tailored proposal within 48 hours.</p>
-          <a href="/call" style={{ display: 'inline-block', padding: '12px 28px', borderRadius: 10, background: `linear-gradient(135deg, ${O}, ${OD})`, color: '#fff', fontSize: 13, fontWeight: 700, textDecoration: 'none', boxShadow: `0 4px 18px ${OG}` }}>
+          <a href="/start" style={{ display: 'inline-block', padding: '12px 28px', borderRadius: 10, background: `linear-gradient(135deg, ${O}, ${OD})`, color: '#fff', fontSize: 13, fontWeight: 700, textDecoration: 'none', boxShadow: `0 4px 18px ${OG}` }}>
             Book a Strategy Call {'\u2192'}
           </a>
         </div>

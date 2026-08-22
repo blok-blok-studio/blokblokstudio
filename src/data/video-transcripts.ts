@@ -20,16 +20,6 @@
 import type { SiteVideoKey } from './videos';
 
 export const VIDEO_TRANSCRIPTS: Record<SiteVideoKey, string> = {
-  pitch: `Chase Haynes here, and I've helped people make over $250,000, and it is your turn next. I want you on that yacht. I want you on that beach. I want you out of the rat race. I want you to build a business so dang well that you can't even believe it.
-
-I am here for you. You found me somehow — on Instagram, through LinkedIn, through my website. Wherever you came from, I don't know you, but I want to get to know you.
-
-Scroll through this funnel. Free fact: this is what we call a funnel page. A funnel page is what helps people generate leads, and then converts, and then gets a sale, right? So go through this funnel page, listen to this video, read everything about me and what I've done and how I can help you.
-
-At the bottom, there's a form. Fill that out. I'll have your information. I'll do a free audit for your website, and if you don't have a website, we'll book a call and we'll talk about it, and where you are and how you can move forward.
-
-I'm here for you. I'm here to help you. Let's get it started. Chase out. Have a good one.`,
-
   kofi: `I've been working with Chase for my website now, and it turned out completely insane. Gave me that Apple logo, Apple design. The things pop up really nicely. The website has a smooth finish.
 
 I personally like one pages. We decided on that. Communication with him is really easy. He's a good man, man. Very determined.

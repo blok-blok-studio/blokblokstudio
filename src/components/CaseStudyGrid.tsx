@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { SITE_VIDEOS } from '@/data/videos';
 
 /**
- * 2x2 client case-study grid, shared by /vsl and the homepage. Top row:
+ * 2x2 client case-study grid, shared by /start and the homepage. Top row:
  * Kofi + Luki video testimonials. Bottom row: Bronco (site hero) and
  * Exotic Ripz (Shopify sales proof; the owners took the store down, so
  * the case study is the link). Name + URL + the numbers under each.

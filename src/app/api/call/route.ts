@@ -200,7 +200,7 @@ export async function POST(req: NextRequest) {
         eventId: _eid,
         email,
         phone: typeof phone === 'string' ? phone : undefined,
-        sourceUrl: 'https://www.blokblokstudio.com/vsl',
+        sourceUrl: 'https://www.blokblokstudio.com/start',
         clientIp: consentIp !== 'unknown' ? consentIp : undefined,
         userAgent: req.headers.get('user-agent') || undefined,
         fbclid: typeof _fbclid === 'string' ? _fbclid : undefined,

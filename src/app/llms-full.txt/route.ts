@@ -214,7 +214,7 @@ export async function GET() {
     '- **Email:** hello@blokblokstudio.com',
     '- **Instagram:** https://www.instagram.com/blokblokstudio/',
     '- **LinkedIn:** https://www.linkedin.com/company/blok-blok-studio/',
-    '- **Free Strategy Call:** https://www.blokblokstudio.com/call',
+    '- **Free Strategy Call:** https://www.blokblokstudio.com/contact',
     '',
     'Blok Blok Studio: Crafting digital experiences that inspire.',
   );

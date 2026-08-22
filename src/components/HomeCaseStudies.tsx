@@ -5,7 +5,7 @@ import { CaseStudyGrid } from './CaseStudyGrid';
 
 /**
  * Homepage wrapper for the shared 2x2 case-study grid (same grid as
- * /vsl): testimonial videos on top, Bronco + Exotic Ripz results below.
+ * /start): testimonial videos on top, Bronco + Exotic Ripz results below.
  */
 export function HomeCaseStudies() {
   return (

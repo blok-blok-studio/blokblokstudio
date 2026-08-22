@@ -5,13 +5,13 @@ import { AnimatedSection } from './AnimatedSection';
 import { LandingFooter } from './LandingFooter';
 
 /**
- * Thank-you / conversion pages for the /vsl ad funnel.
+ * Thank-you / conversion pages for the /start ad funnel.
  * The form routes each lead to a platform-specific URL so every ad platform
  * gets ONE clean conversion signal and campaign setup is a plain page-view rule:
- *   /vsl/thanks/meta    — Meta traffic  → fires fbq('track', 'Lead')
- *   /vsl/thanks/google  — Google traffic → fires the Google Ads conversion
- *   /vsl/thanks         — direct/unknown → fires both (each is a no-op if absent)
- *   /vsl/thanks?src=organic — organic pitch links → fires nothing
+ *   /start/thanks/meta    — Meta traffic  → fires fbq('track', 'Lead')
+ *   /start/thanks/google  — Google traffic → fires the Google Ads conversion
+ *   /start/thanks         — direct/unknown → fires both (each is a no-op if absent)
+ *   /start/thanks?src=organic — organic pitch links → fires nothing
  * Events only exist if the visitor consented to marketing cookies (AdsPixels).
  */
 

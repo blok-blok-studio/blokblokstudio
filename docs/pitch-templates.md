@@ -20,9 +20,9 @@ Every template already has the right tracked link baked in. All links open the s
 
 | Channel | Link |
 |---|---|
-| Phone (text/DM) | `https://www.blokblokstudio.com/vsl?utm_source=dm&utm_medium=social&utm_campaign=pitch` |
-| Warm email | `https://www.blokblokstudio.com/vsl?utm_source=warm-email&utm_medium=email&utm_campaign=pitch` |
-| Cold email | `https://www.blokblokstudio.com/vsl?utm_source=cold-email&utm_medium=email&utm_campaign=pitch` |
+| Phone (text/DM) | `https://www.blokblokstudio.com/start?utm_source=dm&utm_medium=social&utm_campaign=pitch` |
+| Warm email | `https://www.blokblokstudio.com/start?utm_source=warm-email&utm_medium=email&utm_campaign=pitch` |
+| Cold email | `https://www.blokblokstudio.com/start?utm_source=cold-email&utm_medium=email&utm_campaign=pitch` |
 | Booking call (all channels) | `https://calendar.app.google/HeP9bUhWaKfosQF26` |
 
 ## Client quick reference (proof to drop into any pitch)
@@ -42,7 +42,7 @@ Every template already has the right tracked link baked in. All links open the s
 
 > Hey [name]! Good to hear from you. Short version: we build websites plus the whole system around them (marketing, SEO, automations like AI receptionists and auto-texting) so the site actually brings in customers instead of just sitting there.
 >
-> Here's a 3-minute breakdown of how it works: https://www.blokblokstudio.com/vsl?utm_source=dm&utm_medium=social&utm_campaign=pitch
+> Here's a 3-minute breakdown of how it works: https://www.blokblokstudio.com/start?utm_source=dm&utm_medium=social&utm_campaign=pitch
 >
 > If it clicks, grab a time here and I'll put together a plan for your business: https://calendar.app.google/HeP9bUhWaKfosQF26
 
@@ -58,7 +58,7 @@ Every template already has the right tracked link baked in. All links open the s
 >
 > Behind the scenes, every build also comes with the stuff you'd otherwise have to chase down yourself: contact forms wired to a database so you're collecting emails for newsletters from day one, SEO plus the newly emerging agentic SEO so you show up in searches and AI answers, and a site that actually sounds like your brand. The point is to free up your time so you can focus on your business.
 >
-> Here's a 3-minute breakdown of how we think about it, with the client results on the same page: https://www.blokblokstudio.com/vsl?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
+> Here's a 3-minute breakdown of how we think about it, with the client results on the same page: https://www.blokblokstudio.com/start?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
 >
 > The fastest way forward is a quick call so I can learn your business and send pricing that actually fits: https://calendar.app.google/HeP9bUhWaKfosQF26
 >
@@ -86,7 +86,7 @@ Subject line options: "quick idea for [business name]" / "[their city] + [their 
 >
 > We're Blok Blok Studio. We build websites and the marketing systems around them for service businesses. One of our clients, a Dallas plumber, did $50k+ in gross revenue in his first 5 months with the system we built him.
 >
-> I put together a 3-minute video showing where most service businesses lose customers online and how we fix it: https://www.blokblokstudio.com/vsl?utm_source=cold-email&utm_medium=email&utm_campaign=pitch
+> I put together a 3-minute video showing where most service businesses lose customers online and how we fix it: https://www.blokblokstudio.com/start?utm_source=cold-email&utm_medium=email&utm_campaign=pitch
 >
 > Worth a look? If it makes sense, my calendar is in there too.
 >
@@ -124,7 +124,7 @@ Attach `docs/assets/exotic-ripz-proof.png` for point 5 (cropped Shopify dashboar
 > Every client build includes contact forms with a database for collecting newsletter emails, SEO plus the newly emerging agentic SEO, and a site that fits your brand voice. That's just the start of the list. The point is to free up your time so you can focus on your business.
 >
 > Here's our site: https://www.blokblokstudio.com/?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
-> And a 3-minute video on how we approach all this: https://www.blokblokstudio.com/vsl?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
+> And a 3-minute video on how we approach all this: https://www.blokblokstudio.com/start?utm_source=warm-email&utm_medium=email&utm_campaign=pitch
 >
 > To get a better understanding of your business I'd love to schedule a call. Here's my calendar: https://calendar.app.google/HeP9bUhWaKfosQF26
 >
@@ -153,8 +153,8 @@ Attach `docs/assets/exotic-ripz-proof.png` for point 5 (cropped Shopify dashboar
 
 ## Swapping in the real VSL video
 
-The page currently plays the stand-in pitch video. When the dedicated VSL is recorded (script: `docs/vsl-script.md`):
+The page plays the founder video recorded 22 Aug 2026 (script: `docs/vsl-script.md`). To swap in a new cut:
 
-1. Drop the file at `public/videos/vsl.mp4` (H.264 MP4, keep it under ~50 MB; compress if needed).
-2. Set `NEXT_PUBLIC_VSL_VIDEO_URL=/videos/vsl.mp4` in Vercel env vars (Production) and redeploy.
+1. Drop the file at `public/videos/founder-v3.mp4` — a NEW filename, because `/videos/*` carries a 30 day cache-control and reusing a name strands anyone who already visited on the old cut. Encode H.264 High / 8-bit yuv420p / Level 4.0, faststart, audio normalised to -16 LUFS.
+2. Update `src/data/videos.ts` (`src`, `poster`, `captions`, `duration`, `seconds`, `uploadDate`) and re-cut the transcript in `src/data/video-transcripts.ts`.
 3. Nothing else changes: same page, same links, same tracking.

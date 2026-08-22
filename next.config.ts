@@ -62,6 +62,16 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
 
+      // /vsl became /start, and /call was retired into it. Both had live
+      // traffic pointed at them: /vsl is the URL sitting in already-sent DMs
+      // and cold emails and in the Meta Ads URL template, and /call was
+      // indexed. These keep every one of those links landing somewhere.
+      // The thanks/* paths are ad-platform conversion URLs, so they redirect
+      // with their suffix intact rather than collapsing to the parent.
+      { source: '/vsl', destination: '/start', permanent: true },
+      { source: '/vsl/thanks/:path*', destination: '/start/thanks/:path*', permanent: true },
+      { source: '/call', destination: '/start', permanent: true },
+
       // Old de-de locale prefix: strip it, then the remaining path hits
       // the rules below on the second hop (locale now comes via cookie).
       { source: '/de-de/:path*', destination: '/:path*', permanent: true },

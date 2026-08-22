@@ -38,19 +38,6 @@ export interface SiteVideo {
 const BASE = 'https://www.blokblokstudio.com';
 
 export const SITE_VIDEOS = {
-  pitch: {
-    id: 'pitch',
-    name: 'What happens on a Blok Blok Studio strategy call',
-    description:
-      'Chase Haynes, founder of Blok Blok Studio, explains what the free 30-minute strategy call covers: a review of your website, ads, and follow-up, and a plan for the fastest wins. Filmed to camera.',
-    src: '/videos/pitch-v2.mp4',
-    poster: '/videos/pitch-v2-poster.webp',
-    captions: '/videos/pitch-v2.en.vtt',
-    duration: 'PT58S',
-    seconds: 58,
-    uploadDate: '2026-08-22',
-    page: '/call',
-  },
   kofi: {
     id: 'kofi',
     name: 'Coach Kofi on working with Blok Blok Studio',
@@ -88,7 +75,7 @@ export const SITE_VIDEOS = {
     duration: 'PT1M14S',
     seconds: 74,
     uploadDate: '2026-08-22',
-    page: '/vsl',
+    page: '/start',
   },
 } as const satisfies Record<string, SiteVideo>;
 
@@ -107,19 +94,18 @@ export function videoUrls(v: SiteVideo) {
 /**
  * Videos that belong in sitemap.xml and /llms.txt.
  *
- * The founder video is deliberately absent: /vsl is a paid-traffic landing
+ * The founder video is deliberately absent: /start is a paid-traffic landing
  * page marked noindex, so advertising its video to crawlers would contradict
  * the page's own directive.
  */
 export const INDEXED_VIDEOS: SiteVideo[] = [
-  SITE_VIDEOS.pitch,
   SITE_VIDEOS.kofi,
   SITE_VIDEOS.luki,
 ];
 
 /**
  * The testimonials also appear in the case-study grid on the homepage and on
- * /vsl. VideoObject is emitted only here, on the project page named by
+ * /start. VideoObject is emitted only here, on the project page named by
  * `page`, so one video resolves to one canonical URL rather than three pages
  * each claiming the same recording.
  */
