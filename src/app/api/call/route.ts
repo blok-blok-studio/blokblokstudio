@@ -9,6 +9,7 @@ import { sendMetaLeadEvent } from '@/lib/meta-capi';
 import { sendMarketingConfirmEmail, sendLeadAckEmail, notifyNewLead, notifyConfirmEmailFailed } from '@/lib/email';
 import { randomUUID } from 'crypto';
 import { marketingConsentRecord } from '@/data/consent-text';
+import { pickLang } from '@/lib/pick-lang';
 
 // Rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -169,11 +170,9 @@ export async function POST(req: NextRequest) {
       if (!lead.marketingConfirmToken) {
         await prisma.lead.update({ where: { id: lead.id }, data: { marketingConfirmToken: confirmToken } });
       }
-      // Answer in the language they were reading the site in. The link is
-      // opened from a mail client with no page context to inherit.
-      const lang = req.cookies.get('NEXT_LOCALE')?.value?.toLowerCase().startsWith('de')
-        ? 'de'
-        : 'en';
+      // Their language switcher choice if they made one, otherwise what their
+      // browser asks for, which follows their OS language setting.
+      const lang = pickLang(req);
       const confirmSent = await sendMarketingConfirmEmail(email, name, confirmToken, lang);
       if (!confirmSent) {
         // Not fatal to the lead, which is already saved, but it does mean a

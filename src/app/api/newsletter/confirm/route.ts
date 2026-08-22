@@ -9,22 +9,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { assignToList, NEWSLETTER_LIST } from '@/lib/auto-list';
 import { pushNewsletterToTracker } from '@/lib/tracker';
-
-/**
- * Which language to answer in.
- *
- * This link is opened from an email client, so there is no page context to
- * inherit: read the locale cookie the language switcher sets, and fall back
- * to what the browser asks for. Only English and German are offered, matching
- * the languages the legal copy actually exists in.
- */
-function pickLang(req: NextRequest): 'en' | 'de' {
-  const cookie = req.cookies.get('NEXT_LOCALE')?.value?.toLowerCase();
-  if (cookie?.startsWith('de')) return 'de';
-  if (cookie) return 'en';
-  const header = req.headers.get('accept-language')?.toLowerCase() ?? '';
-  return header.startsWith('de') || header.includes(',de') ? 'de' : 'en';
-}
+import { pickLang } from '@/lib/pick-lang';
 
 function page(title: string, body: string, lang: 'en' | 'de' = 'en') {
   return new NextResponse(
