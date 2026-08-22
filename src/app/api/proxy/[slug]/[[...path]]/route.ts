@@ -65,6 +65,15 @@ export async function GET(
 
   const targetBase = new URL(project.url);
   const targetUrl = new URL(path.join('/'), targetBase);
+
+  // The slug is allowlisted, but the path is not: URL resolution treats a
+  // leading "//" as protocol-relative, so a path of "//evil.com" resolves
+  // away from the base entirely and this becomes an open proxy. Assert the
+  // origin survived rather than reasoning about what the router can emit.
+  if (targetUrl.origin !== targetBase.origin) {
+    return new NextResponse('Bad request', { status: 400 });
+  }
+
   targetUrl.search = request.nextUrl.search;
 
   // Send a full set of browser-like headers. Some upstreams (notably

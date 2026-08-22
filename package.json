@@ -7,7 +7,9 @@
     "build": "prisma generate && next build",
     "postinstall": "prisma generate",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "migrate:new": "prisma migrate dev --create-only",
+    "migrate:status": "prisma migrate status"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.4.0",
@@ -24,7 +26,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.2.2",
-"@types/react": "^19.2.13",
+    "@types/react": "^19.2.13",
     "autoprefixer": "^10.4.24",
     "eslint": "^10.0.0",
     "postcss": "^8.5.6",
