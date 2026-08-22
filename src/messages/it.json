@@ -134,7 +134,11 @@
     "audit_button": "Prenota la tua chiamata gratuita",
     "cta_heading": "Pronti a Costruire Qualcosa di Grande?",
     "cta_subheading": "Collaboriamo insieme per dare vita alla tua visione.",
-    "cta_button": "Contattaci"
+    "cta_button": "Contattaci",
+    "stats_projects": "Progetti consegnati",
+    "stats_brands": "Brand serviti",
+    "stats_industries": "Settori",
+    "stats_custom": "Su misura, nessun template"
   },
   "projects": {
     "title": "I Nostri Progetti",

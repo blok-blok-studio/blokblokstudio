@@ -134,7 +134,11 @@
     "audit_button": "Pesan Panggilan Gratis Anda",
     "cta_heading": "Siap Membangun Sesuatu yang Hebat?",
     "cta_subheading": "Mari berkolaborasi dan mewujudkan visi Anda.",
-    "cta_button": "Hubungi Kami"
+    "cta_button": "Hubungi Kami",
+    "stats_projects": "Proyek yang diselesaikan",
+    "stats_brands": "Merek yang dilayani",
+    "stats_industries": "Industri",
+    "stats_custom": "Kustom, tanpa template"
   },
   "projects": {
     "title": "Proyek Kami",

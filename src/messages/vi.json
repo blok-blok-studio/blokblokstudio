@@ -134,7 +134,11 @@
     "audit_button": "Đặt lịch gọi miễn phí",
     "cta_heading": "Sẵn sàng xây dựng điều tuyệt vời?",
     "cta_subheading": "Hãy hợp tác và biến tầm nhìn của bạn thành hiện thực.",
-    "cta_button": "Liên hệ ngay"
+    "cta_button": "Liên hệ ngay",
+    "stats_projects": "Dự án đã bàn giao",
+    "stats_brands": "Thương hiệu đã phục vụ",
+    "stats_industries": "Lĩnh vực",
+    "stats_custom": "Thiết kế riêng, không dùng mẫu"
   },
   "projects": {
     "title": "Dự án của chúng tôi",

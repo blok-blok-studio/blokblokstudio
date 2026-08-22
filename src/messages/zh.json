@@ -134,7 +134,11 @@
     "audit_button": "预约免费通话",
     "cta_heading": "准备好创造伟大的作品了吗？",
     "cta_subheading": "让我们合作，将您的愿景变为现实。",
-    "cta_button": "联系我们"
+    "cta_button": "联系我们",
+    "stats_projects": "已交付项目",
+    "stats_brands": "服务过的品牌",
+    "stats_industries": "行业",
+    "stats_custom": "全定制，无模板"
   },
   "projects": {
     "title": "我们的项目",

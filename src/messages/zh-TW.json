@@ -134,7 +134,11 @@
     "audit_button": "預約免費通話",
     "cta_heading": "準備好創造偉大的作品了嗎？",
     "cta_subheading": "讓我們合作，將您的願景變為現實。",
-    "cta_button": "聯絡我們"
+    "cta_button": "聯絡我們",
+    "stats_projects": "已交付專案",
+    "stats_brands": "服務過的品牌",
+    "stats_industries": "產業",
+    "stats_custom": "全客製化，無範本"
   },
   "projects": {
     "title": "我們的專案",

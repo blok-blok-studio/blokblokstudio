@@ -134,7 +134,11 @@
     "audit_button": "Agendar chamada gratuita",
     "cta_heading": "Pronto para Construir Algo Incrível?",
     "cta_subheading": "Vamos colaborar e dar vida à sua visão.",
-    "cta_button": "Entre em Contato"
+    "cta_button": "Entre em Contato",
+    "stats_projects": "Projetos entregues",
+    "stats_brands": "Marcas atendidas",
+    "stats_industries": "Setores",
+    "stats_custom": "Feito à medida, sem templates"
   },
   "projects": {
     "title": "Nossos Projetos",

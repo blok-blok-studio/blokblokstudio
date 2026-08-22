@@ -134,7 +134,11 @@
     "audit_button": "احجز مكالمتك المجانية",
     "cta_heading": "مستعد لبناء شيء عظيم؟",
     "cta_subheading": "دعنا نتعاون ونحول رؤيتك إلى واقع.",
-    "cta_button": "تواصل معنا"
+    "cta_button": "تواصل معنا",
+    "stats_projects": "مشاريع مُنجزة",
+    "stats_brands": "علامات تجارية خدمناها",
+    "stats_industries": "قطاعات",
+    "stats_custom": "مخصص بالكامل، بدون قوالب"
   },
   "projects": {
     "title": "مشاريعنا",

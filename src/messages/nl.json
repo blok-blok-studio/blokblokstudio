@@ -134,7 +134,11 @@
     "audit_button": "Gratis gesprek boeken",
     "cta_heading": "Klaar om Iets Groots te Bouwen?",
     "cta_subheading": "Laten we samenwerken en jouw visie tot leven brengen.",
-    "cta_button": "Neem Contact Op"
+    "cta_button": "Neem Contact Op",
+    "stats_projects": "Opgeleverde projecten",
+    "stats_brands": "Merken bediend",
+    "stats_industries": "Branches",
+    "stats_custom": "Maatwerk, geen templates"
   },
   "projects": {
     "title": "Onze Projecten",
