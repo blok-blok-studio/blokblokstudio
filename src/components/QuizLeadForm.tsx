@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { Turnstile } from './Turnstile';
 import { BUSINESS_TYPES } from '@/data/business-types';
+import { COUNTRIES, flagFor, DEFAULT_COUNTRY, countryByIso, toDialable } from '@/data/country-codes';
 import {
   collectAttribution,
   getCookie,
@@ -36,6 +37,7 @@ const SERVICES = [
   'Landing page',
   'Google Ads',
   'Meta Ads',
+  'Social media',
   'Not sure yet',
 ];
 
@@ -48,9 +50,9 @@ const BUDGETS = [
 
 const TIMELINES = [
   { value: 'As soon as possible', hint: 'Ready to start now' },
-  { value: 'Within a month', hint: 'Planning it in' },
-  { value: 'One to three months', hint: 'On the roadmap' },
-  { value: 'Just exploring', hint: 'Gathering options' },
+  { value: 'Within a month', hint: 'Getting it moving soon' },
+  { value: 'One to three months', hint: 'Planned, but not urgent' },
+  { value: 'Just exploring', hint: 'Seeing what is out there' },
 ];
 
 const TOTAL_STEPS = 5;
@@ -81,14 +83,14 @@ function ChoiceCard({
       role={multi ? 'checkbox' : 'radio'}
       aria-checked={selected}
       onClick={onSelect}
-      className={`group flex w-full items-center gap-3 rounded-xl border px-4 py-3.5 text-left transition-colors ${
+      className={`group flex w-full items-center gap-2.5 rounded-xl border px-3 py-3 sm:px-4 sm:py-3.5 text-left transition-colors ${
         selected
           ? 'border-orange-500/60 bg-orange-500/15'
           : 'border-white/10 bg-white/[0.03] hover:border-white/25'
       }`}
     >
       <span className="min-w-0 flex-1">
-        <span className={`block text-sm font-medium ${selected ? 'text-white' : 'text-gray-200'}`}>
+        <span className={`block text-xs sm:text-sm font-medium leading-snug ${selected ? 'text-white' : 'text-gray-200'}`}>
           {label}
         </span>
         {hint && <span className="mt-0.5 block text-xs text-gray-500">{hint}</span>}
@@ -132,6 +134,7 @@ export function QuizLeadForm({
   const [budget, setBudget] = useState('');
   const [timeline, setTimeline] = useState('');
   const [contact, setContact] = useState({ name: '', email: '', phone: '', _hp: '' });
+  const [dialIso, setDialIso] = useState(DEFAULT_COUNTRY);
 
   const [consent, setConsent] = useState(false);
   const [emailOptIn, setEmailOptIn] = useState(false);
@@ -145,6 +148,8 @@ export function QuizLeadForm({
 
   useEffect(() => {
     attribution.current = collectAttribution();
+    const geo = getCookie('bb_country');
+    if (geo && countryByIso(geo)) setDialIso(geo.toUpperCase());
   }, []);
 
   // Move focus to the new question so the step change is announced rather
@@ -173,7 +178,8 @@ export function QuizLeadForm({
     setSubmitting(true);
     setError('');
 
-    const eventId = stashConversionIds(contact.email, contact.phone);
+    const phone = toDialable(dialIso, contact.phone);
+    const eventId = stashConversionIds(contact.email, phone);
     // The thank-you page reads these back and turns them into the plan. That
     // plan is the reason anyone answered five questions, so it has to survive
     // the redirect.
@@ -186,7 +192,7 @@ export function QuizLeadForm({
       `Service interest: ${services.join(', ') || 'not specified'}`,
       `Budget: ${budget || 'not specified'}`,
       `Timeline: ${timeline || 'not specified'}`,
-      contact.phone ? `Phone: ${contact.phone}` : null,
+      phone ? `Phone: ${phone}` : null,
       attribution.current ? `Attribution: ${attribution.current}` : null,
     ]
       .filter(Boolean)
@@ -199,7 +205,7 @@ export function QuizLeadForm({
         body: JSON.stringify({
           name: contact.name,
           email: contact.email,
-          phone: contact.phone || undefined,
+          phone: phone || undefined,
           field: fieldTag,
           business,
           website: '',
@@ -233,7 +239,7 @@ export function QuizLeadForm({
       question: 'What type of business do you run?',
       sub: 'Pick the closest one.',
       body: (
-        <div role="radiogroup" aria-label="Business type" className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+        <div role="radiogroup" aria-label="Business type" className="grid grid-cols-2 gap-2 sm:gap-2.5">
           {BUSINESS_TYPES.map((b) => (
             <ChoiceCard
               key={b}
@@ -253,7 +259,7 @@ export function QuizLeadForm({
       question: 'What do you need help with?',
       sub: 'Pick all that apply.',
       body: (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+        <div className="grid grid-cols-2 gap-2 sm:gap-2.5">
           {SERVICES.map((s) => (
             <ChoiceCard
               key={s}
@@ -269,7 +275,7 @@ export function QuizLeadForm({
     },
     {
       question: "What's your budget for this project?",
-      sub: 'Rough band is fine. It tells us what to propose.',
+      sub: 'A rough idea is fine. It just tells us what to suggest.',
       body: (
         <div role="radiogroup" aria-label="Budget" className="space-y-2.5">
           {BUDGETS.map((o) => (
@@ -407,15 +413,41 @@ export function QuizLeadForm({
                   Phone / WhatsApp{' '}
                   <span className="text-gray-600">(optional, for faster response)</span>
                 </label>
-                <input
-                  id="quiz-phone"
-                  type="tel"
-                  placeholder="+49 160 1234567"
-                  value={contact.phone}
-                  onChange={(e) => setContact({ ...contact, phone: e.target.value })}
-                  className={inputBase}
-                  autoComplete="tel"
-                />
+                <div className="flex gap-2">
+                  {/* Native select on purpose: on a phone this opens the OS
+                      picker, which beats any custom dropdown for scrolling a
+                      long list with a thumb. */}
+                  <label htmlFor="quiz-dial" className="sr-only">
+                    Country dialling code
+                  </label>
+                  <select
+                    id="quiz-dial"
+                    value={dialIso}
+                    onChange={(e) => setDialIso(e.target.value)}
+                    className="w-[5.5rem] sm:w-[8rem] flex-shrink-0 rounded-xl border border-white/10 bg-white/[0.04] px-2 py-3.5 text-xs sm:text-sm text-white focus:border-orange-500/40 focus:outline-none"
+                  >
+                    {COUNTRIES.map((c) => (
+                      <option key={c.iso} value={c.iso} className="bg-[#1a1a1a] text-white">
+                        {flagFor(c.iso)} +{c.dial} {c.name}
+                      </option>
+                    ))}
+                  </select>
+                  <input
+                    id="quiz-phone"
+                    type="tel"
+                    inputMode="tel"
+                    placeholder="160 1234567"
+                    value={contact.phone}
+                    onChange={(e) => setContact({ ...contact, phone: e.target.value })}
+                    className={`${inputBase} min-w-0`}
+                    autoComplete="tel-national"
+                  />
+                </div>
+                {contact.phone.trim() && (
+                  <p className="mt-1.5 ml-1 text-[11px] text-gray-600">
+                    We&apos;ll call {toDialable(dialIso, contact.phone)}
+                  </p>
+                )}
               </div>
 
               <label className="flex items-start gap-3 cursor-pointer pt-1">

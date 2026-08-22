@@ -31,8 +31,8 @@ const WHATSAPP_LINK =
 const GOOGLE_CONVERSION = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION;
 
 const NEXT_STEPS = [
-  { n: '1', title: 'Book your intro call below', desc: '15 minutes. We learn about your business and what you need.' },
-  { n: '2', title: 'We break it all down on the call', desc: 'Where you are losing customers, what to fix first, scope, timeline, price.' },
+  { n: '1', title: 'Pick your time above', desc: 'A short call so we can learn about your business and what you need.' },
+  { n: '2', title: 'We break it all down on the call', desc: 'Where you are losing customers, what to fix first, and what it takes to do it.' },
   { n: '3', title: 'We build, you grow', desc: 'Website, ads, social, AI systems. Done for you, live fast.' },
 ];
 
@@ -143,39 +143,7 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
           </p>
         </AnimatedSection>
 
-        {plan && (
-          <AnimatedSection delay={0.05} className="mb-12 text-left">
-            <div className="rounded-3xl border border-orange-500/20 bg-orange-500/[0.04] p-6 sm:p-8">
-              <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70 mb-5">What we&apos;ll cover on the call</p>
-              <div className="space-y-5">
-                {plan.items.map((item) => (
-                  <div key={item.title} className="flex items-start gap-4">
-                    <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-orange-400" />
-                    <div>
-                      <p className="text-white font-medium">{item.title}</p>
-                      <p className="text-gray-400 text-sm leading-relaxed text-pretty">{item.detail}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-6 pt-6 border-t border-white/10 space-y-3">
-                <p className="text-sm text-gray-400 text-pretty">
-                  <span className="text-gray-500">Timing. </span>
-                  {plan.timing}
-                </p>
-                <p className="text-sm text-gray-400 text-pretty">
-                  <span className="text-gray-500">Budget. </span>
-                  {plan.budgetNote}
-                </p>
-              </div>
-            </div>
-            <p className="mt-4 text-center text-sm text-gray-500 text-pretty">
-              Pick a time below and we&apos;ll go through this properly, with real numbers.
-            </p>
-          </AnimatedSection>
-        )}
-
-        <AnimatedSection delay={0.1}>
+        <AnimatedSection delay={0.05}>
           <div className="rounded-3xl overflow-hidden border border-white/10 bg-white shadow-2xl shadow-black/40">
             <iframe
               src={INTRO_CALL_EMBED}
@@ -197,33 +165,33 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
           </p>
         </AnimatedSection>
 
+        {plan && (
+          <AnimatedSection delay={0.1} className="mt-12 text-left">
+            <div className="rounded-3xl border border-orange-500/20 bg-orange-500/[0.04] p-6 sm:p-8">
+              <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70 mb-5">What we&apos;ll cover on the call</p>
+              <div className="space-y-5">
+                {plan.items.map((item) => (
+                  <div key={item.title} className="flex items-start gap-4">
+                    <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-orange-400" />
+                    <div>
+                      <p className="text-white font-medium">{item.title}</p>
+                      <p className="text-gray-400 text-sm leading-relaxed text-pretty">{item.detail}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <p className="mt-4 text-center text-sm text-gray-500 text-pretty">
+              We&apos;ll go through all of it properly on the call, scope and cost included.
+            </p>
+          </AnimatedSection>
+        )}
+
         {/* Proof sits under the calendar, not above it. Someone who already
             wants a time should not have to scroll past the pitch to reach the
             embed; someone still deciding gets the founder and the numbers
             right here. */}
         <AnimatedSection delay={0.15} className="mt-16 text-left">
-          <div className="text-center mb-6 sm:mb-8">
-            <p className="text-xs font-semibold tracking-[0.2em] text-orange-400/70 uppercase mb-2">
-              Who you&apos;ll be talking to
-            </p>
-            <h2 className="text-2xl sm:text-3xl font-bold text-balance">Meet the Founder</h2>
-          </div>
-          <FounderVideo />
-        </AnimatedSection>
-
-        <AnimatedSection delay={0.2} className="mt-16">
-          <div className="relative left-1/2 -translate-x-1/2 w-screen max-w-7xl px-5 sm:px-8 text-left">
-            <div className="text-center mb-6 sm:mb-8">
-              <p className="text-xs font-semibold tracking-[0.2em] text-orange-400/70 uppercase mb-2">
-                The work, and the numbers
-              </p>
-              <h2 className="text-2xl sm:text-3xl font-bold text-balance">Meet Our Clients</h2>
-            </div>
-            <CaseStudyGrid />
-          </div>
-        </AnimatedSection>
-
-        <AnimatedSection delay={0.25} className="mt-16 text-left">
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 sm:p-8 space-y-5">
             <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70">What happens next</p>
             {NEXT_STEPS.map((s) => (
@@ -237,6 +205,49 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
                 </div>
               </div>
             ))}
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.2} className="mt-16 text-left">
+          <div className="text-center mb-6 sm:mb-8">
+            <p className="text-xs font-semibold tracking-[0.2em] text-orange-400/70 uppercase mb-2">
+              Who you&apos;ll be talking to
+            </p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-balance">Meet the Founder</h2>
+          </div>
+          <FounderVideo />
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.25} className="mt-16">
+          <div className="relative left-1/2 -translate-x-1/2 w-screen max-w-7xl px-5 sm:px-8 text-left">
+            <div className="text-center mb-6 sm:mb-8">
+              <p className="text-xs font-semibold tracking-[0.2em] text-orange-400/70 uppercase mb-2">
+                The work, and the numbers
+              </p>
+              <h2 className="text-2xl sm:text-3xl font-bold text-balance">Meet Our Clients</h2>
+            </div>
+            <CaseStudyGrid />
+          </div>
+        </AnimatedSection>
+
+
+        {/* The funnel layout has no navbar, so this is the only way out of
+            the page that is not the back button. It sits after the case
+            studies on purpose: by then they have a reason to look around. */}
+        <AnimatedSection delay={0.3} className="mt-16">
+          <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 text-center">
+            <h2 className="text-xl sm:text-2xl font-bold mb-2 text-balance">
+              Want to see more of the work?
+            </h2>
+            <p className="text-gray-500 text-sm mb-6 text-pretty">
+              The full portfolio, the team, and how we build is all on the main&nbsp;site.
+            </p>
+            <a
+              href="/"
+              className="inline-block rounded-full bg-gradient-to-r from-orange-500 to-amber-400 px-7 py-3.5 text-sm font-semibold text-black shadow-lg shadow-orange-500/40 transition-shadow hover:shadow-orange-500/60"
+            >
+              Visit blokblokstudio.com
+            </a>
           </div>
         </AnimatedSection>
 

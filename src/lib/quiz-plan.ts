@@ -10,9 +10,10 @@
  * Nothing here is a deliverable. The offer is a call, and this is the agenda
  * for it, so the copy must never imply a document is on its way.
  *
- * Every timeline here matches the published ones on /pricing and in llms.txt.
- * Nothing in this file should promise something the studio has not already
- * said in public.
+ * Deliberately carries no week counts, page counts or price bands. Those are
+ * the call's job: a number on a screen before anyone has explained the scope
+ * either anchors the client wrongly or reads as a quote. Keep this to what
+ * would be worked through, never how long it takes or what it costs.
  */
 
 export interface QuizAnswers {
@@ -32,8 +33,6 @@ export interface Plan {
   headline: string;
   diagnosis: string;
   items: PlanItem[];
-  timing: string;
-  budgetNote: string;
 }
 
 const STORAGE_KEY = 'bb-quiz-answers';
@@ -81,7 +80,7 @@ const WORK: Record<string, PlanItem> = {
   'Online shop': {
     title: 'A storefront that closes',
     detail:
-      'Product pages, checkout, and payments wired so people finish. The last shop we built did 191k in sales across 1,790 orders.',
+      'Product pages, checkout, and payments wired so people actually finish rather than abandon halfway.',
   },
   'Landing page': {
     title: 'One page, one offer',
@@ -97,6 +96,11 @@ const WORK: Record<string, PlanItem> = {
     title: 'Get in front of them first',
     detail:
       'Facebook and Instagram campaigns that put the offer in front of the right people before a competitor does.',
+  },
+  'Social media': {
+    title: 'Social that points somewhere',
+    detail:
+      'Clips, captions and posts cut from footage you already have, built to move people to the site rather than just fill a feed.',
   },
 };
 
@@ -123,52 +127,11 @@ function defaultWork(business: string): PlanItem[] {
       {
         title: 'Local search and reviews',
         detail:
-          'Rank where your customers actually look, with live Google reviews on the page. A first-year plumbing client cleared 50k gross in five months.',
+          'Rank where your customers actually look, with live Google reviews on the page.',
       },
     ];
   }
   return [site, WORK['Landing page']];
-}
-
-/**
- * Timelines lifted from the published ones. Do not invent faster numbers here.
- *
- * Reads the resolved plan rather than the raw picks: someone who answered
- * "not sure yet" still gets recommended work, and quoting five-page-site
- * timelines under a shop recommendation reads as boilerplate.
- */
-function timingFor(items: PlanItem[], timeline: string): string {
-  const titles = items.map((i) => i.title);
-  const wantsShop = titles.includes(WORK['Online shop'].title);
-  const onlyLanding = titles.length === 1 && titles[0] === WORK['Landing page'].title;
-
-  let build: string;
-  if (onlyLanding) build = 'A single landing page typically launches in 2 to 3 weeks.';
-  else if (wantsShop) build = 'A shop build usually runs 8 to 12 weeks depending on catalogue size.';
-  else build = 'A 5-page site typically launches in 4 to 6 weeks, a 10-page site with a CMS in 8 to 12.';
-
-  if (timeline === 'As soon as possible') {
-    return `${build} You said as soon as possible, so we will talk about what can start this week on the call.`;
-  }
-  if (timeline === 'Just exploring') {
-    return `${build} No rush on your side, so the call is about giving you real numbers to weigh up.`;
-  }
-  return build;
-}
-
-function budgetNoteFor(budget: string): string {
-  switch (budget) {
-    case 'Under €2k':
-      return 'At that level we would point you at a single landing page done properly rather than a thin multi-page site. We will be straight with you on the call about what fits.';
-    case '€2k – €5k':
-      return 'That covers most multi-page builds. We will scope it against what you actually need rather than padding it out.';
-    case '€5k – €10k':
-      return 'Enough for a full build plus either a shop or a first ad campaign running alongside it.';
-    case '€10k+':
-      return 'Enough to build and then keep growing it: site, ads, tracking, and ongoing work against the numbers.';
-    default:
-      return 'We quote against scope, so the call is where we put a real number on it.';
-  }
 }
 
 export function buildPlan(a: QuizAnswers): Plan {
@@ -184,11 +147,5 @@ export function buildPlan(a: QuizAnswers): Plan {
     ? `Based on what you told us about ${industry}, this is what we would work through with you on the call.`
     : `You said you are not sure yet, which is a normal place to start. For ${industry}, this is usually where the money is, so it is where we would begin on the call.`;
 
-  return {
-    headline,
-    diagnosis,
-    items: resolved,
-    timing: timingFor(resolved, a.timeline),
-    budgetNote: budgetNoteFor(a.budget),
-  };
+  return { headline, diagnosis, items: resolved };
 }
