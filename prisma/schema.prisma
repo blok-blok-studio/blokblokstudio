@@ -62,6 +62,14 @@ model Lead {
   marketingConsentConfirmed   Boolean   @default(false)
   marketingConsentConfirmedAt DateTime?
   marketingConfirmToken       String?   @unique
+  // Art. 7(1) evidence for the opt-in itself, not just its confirmation:
+  // when the box was ticked, from where, and the exact sentence agreed to.
+  // Storing the wording is the point — if the checkbox copy is ever
+  // reworded, the earlier text is the only proof of what a given person
+  // actually agreed to.
+  marketingConsentAt          DateTime?
+  marketingConsentIp          String?
+  marketingConsentText        String?
   unsubscribeToken String    @unique @default(uuid())
 
   createdAt DateTime @default(now())

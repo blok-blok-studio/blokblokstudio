@@ -8,6 +8,7 @@ import { pushLeadToTracker } from '@/lib/tracker';
 import { sendMetaLeadEvent } from '@/lib/meta-capi';
 import { sendMarketingConfirmEmail, sendLeadAckEmail, notifyNewLead } from '@/lib/email';
 import { randomUUID } from 'crypto';
+import { marketingConsentRecord } from '@/data/consent-text';
 
 // Rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -106,8 +107,18 @@ export async function POST(req: NextRequest) {
         consentTimestamp: new Date(),
         consentIp,
         // Only ever grant marketing consent here, never silently revoke —
-        // withdrawal goes through the unsubscribe flow
-        ...(marketingOptIn ? { marketingConsent: true } : {}),
+        // withdrawal goes through the unsubscribe flow. The evidence trio is
+        // written from server-side values: the wording comes from our own
+        // constant, not the request body, because consent evidence a client
+        // can set is not evidence.
+        ...(marketingOptIn
+          ? {
+              marketingConsent: true,
+              marketingConsentAt: new Date(),
+              marketingConsentIp: consentIp,
+              marketingConsentText: marketingConsentRecord(),
+            }
+          : {}),
       },
       create: {
         name,
@@ -123,6 +134,13 @@ export async function POST(req: NextRequest) {
         consentTimestamp: new Date(),
         consentIp,
         marketingConsent: marketingOptIn,
+        ...(marketingOptIn
+          ? {
+              marketingConsentAt: new Date(),
+              marketingConsentIp: consentIp,
+              marketingConsentText: marketingConsentRecord(),
+            }
+          : {}),
       },
     });
 
