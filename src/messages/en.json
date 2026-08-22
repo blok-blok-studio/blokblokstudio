@@ -483,80 +483,169 @@
     "storage_note": "You can manage your cookie preferences at any time using the cookie banner. To reset preferences, clear your browser's localStorage."
   },
   "start": {
-    "meta_title": "Let's grab coffee | Blok Blok Studio",
-    "meta_description": "I'm Chase. I run Blok Blok Studio, a Berlin web design studio. Custom-coded websites that win customers. First coffee's on me.",
-    "meta_twitter_description": "Berlin web design studio. Custom-coded websites that win customers. First coffee's on me.",
-    "hero_badge": "You opened the letter",
-    "hero_title": "The next move is coffee.",
-    "hero_subtitle": "Pick a time below. First one is on me. No pitch, no pressure, just a real conversation about your business.",
-    "hero_cta_primary": "Book a coffee",
-    "hero_cta_secondary": "See recent work",
-    "hook_line1": "Most great Berlin businesses do better work than they get credit for online.",
-    "hook_line2": "That is where I come in. I fix the online presence and put you in front of the right customers.",
-    "pitch_label": "The pitch",
-    "pitch_title": "I'm Chase. I run Blok Blok Studio.",
-    "pitch_body": "A Berlin web design studio. I design and build custom-coded websites that load fast, rank on Google, and turn visitors into customers. One person, direct contact, no agency waiting line.",
-    "services_title": "What I actually do",
-    "services_subtitle": "Four things, done well, that work together.",
-    "catalog_eyebrow": "Everything on the menu",
-    "catalog_title": "The full service list",
-    "catalog_subtitle": "Pick the lane you need. We'll sort the size over coffee.",
-    "service_websites_name": "Websites",
-    "service_websites_desc": "Custom sites that look as good as your work actually is. Fast, mobile-first, and built to turn visitors into paying customers.",
-    "service_ads_name": "Ads",
-    "service_ads_desc": "Meta and Google ads aimed at the people already searching for what you do. No vanity metrics, just bookings and sales.",
-    "service_social_name": "Social media",
-    "service_social_desc": "Content and profiles that match the quality of your real-world work, so the first impression online stops hurting you.",
-    "service_ai_name": "AI systems",
-    "service_ai_desc": "Auto replies, lead capture, follow ups, bookings. Systems that handle the boring stuff so you can keep doing what you do best.",
-    "audience_title": "Who I work with",
-    "audience_subtitle": "Berlin businesses that are good at what they do and tired of being a secret.",
-    "audience_trainers": "Personal trainers",
-    "audience_restaurants": "Restaurants & cafes",
-    "audience_ecommerce": "E-commerce stores",
-    "audience_agencies": "Agencies & studios",
-    "audience_law": "Law firms",
-    "audience_clinics": "Clinics & wellness",
-    "audience_construction": "Construction & trades",
-    "audience_saas": "SaaS & tech",
-    "audience_education": "Education",
-    "audience_music": "Music & creatives",
-    "audience_freelancers": "Freelancers",
-    "audience_other": "Anyone else",
-    "compare_title": "What you usually get vs. what I do",
-    "compare_subtitle": "Most agencies hand over a website and disappear. I don't.",
-    "compare_label_others": "Others",
-    "compare_label_me": "Me",
-    "compare_1_bad": "A nice looking site that nobody can find on Google",
-    "compare_1_good": "SEO built in so the right customers actually find you",
-    "compare_2_bad": "Chasing payments through DMs, emails, and invoices",
-    "compare_2_good": "Online booking and payments so clients pay on your site",
-    "compare_3_bad": "\"We will figure out mobile later\"",
-    "compare_3_good": "Mobile first, because that is where your customers are",
-    "compare_4_bad": "A template that looks like every other business in your industry",
-    "compare_4_good": "Custom design that makes your brand stand out immediately",
-    "compare_5_bad": "Launched and then abandoned by the agency",
-    "compare_5_good": "Ongoing support, because your business keeps growing",
-    "process_title": "How it works",
-    "process_subtitle": "Four steps from coffee to launch. No mystery.",
-    "process_1_title": "Coffee",
-    "process_1_desc": "We meet for 30 minutes. I learn your business, your goals, and what you are tired of dealing with online. First one is on me.",
-    "process_2_title": "Plan",
-    "process_2_desc": "I send back a clear strategy and proposal. You see exactly what you are getting, what it costs, and when it ships before we start.",
-    "process_3_title": "Build",
-    "process_3_desc": "Design and development, start to finish. You stay in the loop the whole way.",
-    "process_4_title": "Launch",
-    "process_4_desc": "It goes live, polished and fast. Then I stick around to keep it growing instead of disappearing the day after launch.",
-    "projects_title": "Recent work",
-    "projects_subtitle": "Real projects, real clients, real results.",
-    "testimonials_title": "In their words",
-    "testimonials_subtitle": "What clients say after working with me.",
-    "testimonial_view_project": "View project",
-    "cta_title": "Now that you've opened the letter, the next move is coffee.",
-    "cta_subtitle": "Pick a time. First one is on me.",
-    "cta_button": "Book a coffee",
-    "cta_signoff_role": "Founder, Blok Blok Studio",
-    "whatsapp_aria": "Chat on WhatsApp"
+    "headline_a": "Where your business is quietly losing customers",
+    "headline_b": " (and how to fix it)",
+    "sub": "Answer five quick questions and we'll show you what we'd fix first, then you pick a time. Takes about a minute.",
+    "proof": "Berlin web design studio. Coach Kofi's consultations rose 200% after launch. A first-year plumbing client cleared $50k gross in five months.",
+    "progress": "Question {current} of {total}",
+    "continue": "Continue",
+    "back": "Back",
+    "no_spam": "No spam. No obligation.",
+    "q_business": "What type of business do you run?",
+    "q_business_sub": "Pick the closest one.",
+    "q_services": "What do you need help with?",
+    "q_services_sub": "Pick all that apply.",
+    "q_budget_project": "What's your budget for this project?",
+    "q_budget_project_sub": "A rough idea is fine. It just tells us what to suggest.",
+    "q_budget_ads": "What could you spend on ads each month?",
+    "q_budget_ads_sub": "Just the ad spend. Our management is 15% of it, plus a one-off setup. A ballpark is fine.",
+    "q_budget_monthly": "What's your monthly budget?",
+    "q_budget_monthly_sub": "Roughly what you would put behind it each month. A ballpark is fine.",
+    "q_timeline": "How soon do you want to start?",
+    "q_contact": "Last step. How do we reach you?",
+    "q_contact_sub": "Then you pick a time. We reply within the hour during business hours.",
+    "label_name": "Your Name",
+    "label_email": "Email Address",
+    "label_phone": "Tel. / WhatsApp",
+    "label_phone_note": "(optional, for faster response)",
+    "label_country": "Country dialling code",
+    "placeholder_name": "John Smith",
+    "placeholder_email": "john@company.com",
+    "placeholder_phone": "160 1234567",
+    "well_call": "We'll call {number}",
+    "consent_pre": "I agree to the",
+    "consent_link": "Privacy Policy",
+    "consent_post": "and consent to being contacted about my inquiry.",
+    "optional": "(optional)",
+    "cta": "Book my call",
+    "sending": "Sending...",
+    "error_generic": "Something went wrong. Please try again.",
+    "business": {
+      "coaching_consulting": "Coaching / Consulting",
+      "e_commerce_online_store": "E-Commerce / Online Store",
+      "saas_software": "SaaS / Software",
+      "agency_marketing": "Agency / Marketing",
+      "real_estate": "Real Estate",
+      "healthcare_medical": "Healthcare / Medical",
+      "legal_law_firm": "Legal / Law Firm",
+      "financial_services": "Financial Services",
+      "education_training": "Education / Training",
+      "restaurant_food_beverage": "Restaurant / Food & Beverage",
+      "fitness_wellness": "Fitness / Wellness",
+      "construction_trades": "Construction / Trades",
+      "beauty_salon_spa": "Beauty / Salon / Spa",
+      "content_creator_influencer": "Content Creator / Influencer",
+      "retail_brick_mortar": "Retail / Brick & Mortar",
+      "professional_services": "Professional Services",
+      "nonprofit": "Nonprofit",
+      "automotive": "Automotive",
+      "travel_hospitality": "Travel / Hospitality",
+      "other": "Other"
+    },
+    "services": {
+      "new_website": "New website",
+      "website_redesign": "Website redesign",
+      "e_commerce": "E-commerce",
+      "landing_page": "Landing page",
+      "google_ads": "Google Ads",
+      "meta_ads": "Meta Ads",
+      "social_media": "Social media",
+      "not_sure_yet": "Not sure yet"
+    },
+    "timeline": {
+      "0": {
+        "label": "As soon as possible",
+        "hint": "Ready to start now"
+      },
+      "1": {
+        "label": "Within a month",
+        "hint": "Getting it moving soon"
+      },
+      "2": {
+        "label": "One to three months",
+        "hint": "Planned, but not urgent"
+      },
+      "3": {
+        "label": "Just exploring",
+        "hint": "Seeing what is out there"
+      }
+    },
+    "budget_build": {
+      "0": {
+        "label": "Under €5k",
+        "hint": "Below where our builds start"
+      },
+      "1": {
+        "label": "Around €5k",
+        "hint": "One-page site"
+      },
+      "2": {
+        "label": "Around €10k",
+        "hint": "Four to five pages"
+      },
+      "3": {
+        "label": "Around €15k",
+        "hint": "Around fifteen pages"
+      },
+      "4": {
+        "label": "€20k+",
+        "hint": "E-commerce, or something larger"
+      }
+    },
+    "budget_social": {
+      "0": {
+        "label": "Around €500 / month",
+        "hint": "One channel, managed"
+      },
+      "1": {
+        "label": "€1,000 – €2,000 / month",
+        "hint": "One channel with regular video, or two channels"
+      },
+      "2": {
+        "label": "€2,000 – €4,000 / month",
+        "hint": "Two or three channels with video"
+      },
+      "3": {
+        "label": "€4,000+ / month",
+        "hint": "Several channels, video-heavy"
+      }
+    },
+    "budget_ads": {
+      "0": {
+        "label": "Under €1,000 / month ad spend",
+        "hint": "Testing the water"
+      },
+      "1": {
+        "label": "€1,000 – €3,000 / month ad spend",
+        "hint": "One platform, run properly"
+      },
+      "2": {
+        "label": "€3,000 – €10,000 / month ad spend",
+        "hint": "Both platforms, or scaling one"
+      },
+      "3": {
+        "label": "€10,000+ / month ad spend",
+        "hint": "Serious volume"
+      }
+    },
+    "budget_monthly": {
+      "0": {
+        "label": "Under €1,000 / month",
+        "hint": "Getting started"
+      },
+      "1": {
+        "label": "€1,000 – €3,000 / month",
+        "hint": "One channel or platform, run properly"
+      },
+      "2": {
+        "label": "€3,000 – €6,000 / month",
+        "hint": "Several running together"
+      },
+      "3": {
+        "label": "€6,000+ / month",
+        "hint": "Scaling hard"
+      }
+    }
   },
   "errors": {
     "title": "Something Went Wrong",

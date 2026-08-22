@@ -81,6 +81,12 @@ export async function POST(req: NextRequest) {
       req.headers.get('x-real-ip') ||
       'unknown';
 
+    // Their language switcher choice if they made one, otherwise what their
+    // browser asks for, which follows their OS language setting. Derived here
+    // rather than taken from the body: this decides which consent wording is
+    // recorded as evidence, and a client must not get to choose that.
+    const lang = pickLang(req);
+
     // Repeat submissions keep their history: the new summary goes on top,
     // earlier ones stay below it with the date they came in, so service
     // picks and attribution from a lead's first visit are never lost.
@@ -117,7 +123,7 @@ export async function POST(req: NextRequest) {
               marketingConsent: true,
               marketingConsentAt: new Date(),
               marketingConsentIp: consentIp,
-              marketingConsentText: marketingConsentRecord(),
+              marketingConsentText: marketingConsentRecord(lang),
             }
           : {}),
       },
@@ -139,7 +145,7 @@ export async function POST(req: NextRequest) {
           ? {
               marketingConsentAt: new Date(),
               marketingConsentIp: consentIp,
-              marketingConsentText: marketingConsentRecord(),
+              marketingConsentText: marketingConsentRecord(lang),
             }
           : {}),
       },
@@ -172,7 +178,6 @@ export async function POST(req: NextRequest) {
       }
       // Their language switcher choice if they made one, otherwise what their
       // browser asks for, which follows their OS language setting.
-      const lang = pickLang(req);
       const confirmSent = await sendMarketingConfirmEmail(email, name, confirmToken, lang);
       if (!confirmSent) {
         // Not fatal to the lead, which is already saved, but it does mean a

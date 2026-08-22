@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
 import { QuizLeadForm } from './QuizLeadForm';
 import { LandingFooter } from './LandingFooter';
@@ -20,6 +21,8 @@ import { LandingFooter } from './LandingFooter';
  * do it.
  */
 export function StartContent() {
+  const t = useTranslations('start');
+
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
@@ -37,20 +40,18 @@ export function StartContent() {
 
         <AnimatedSection>
           <h1 className="text-2xl sm:text-4xl font-bold leading-tight mb-3 text-balance">
-            Where your business is quietly losing customers{' '}
+            {t('headline_a')}{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300">
-              {' '}
-              (and how to fix it)
+              {t('headline_b')}
             </span>
           </h1>
           <p className="text-gray-500 text-sm sm:text-base mb-8 text-pretty">
-            Answer five quick questions and we&apos;ll show you what we&apos;d fix first, then you
-            pick a time. Takes about a&nbsp;minute.
+            {t('sub')}
           </p>
         </AnimatedSection>
 
         <AnimatedSection delay={0.05}>
-          <QuizLeadForm fieldTag="Start Lead" ctaLabel="Book my call" />
+          <QuizLeadForm fieldTag="Start Lead" />
         </AnimatedSection>
 
         {/* One line, not a section. Enough to answer "who are these people"
@@ -58,8 +59,7 @@ export function StartContent() {
             instead of something to do. */}
         <AnimatedSection delay={0.1}>
           <p className="mt-6 text-xs text-gray-600 text-pretty">
-            Berlin web design studio. Coach Kofi&apos;s consultations rose 200% after launch. A
-            first-year plumbing client cleared $50k gross in five&nbsp;months.
+            {t('proof')}
           </p>
         </AnimatedSection>
 

@@ -1,13 +1,14 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { Turnstile } from './Turnstile';
 import { BUSINESS_TYPES } from '@/data/business-types';
 import { COUNTRIES, flagFor, DEFAULT_COUNTRY, toDialable } from '@/data/country-codes';
-import { MARKETING_CONSENT } from '@/data/consent-text';
+import { marketingConsentText } from '@/data/consent-text';
 import {
   collectAttribution,
   getCookie,
@@ -51,6 +52,11 @@ const SERVICES = [
  */
 const AD_SERVICES = ['Google Ads', 'Meta Ads'];
 const SOCIAL_SERVICES = ['Social media'];
+/** English values are what gets stored and looked up; labels come from the
+ *  translation files keyed by these ids, so switching language never changes
+ *  what lands in the database. */
+const slugOf = (v: string) => v.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+
 const MARKETING_SERVICES = [...AD_SERVICES, ...SOCIAL_SERVICES];
 
 // The real tiers, so the answer doubles as a price check and nobody books a
@@ -164,13 +170,10 @@ function ChoiceCard({
   );
 }
 
-export function QuizLeadForm({
-  fieldTag = 'Start Lead',
-  ctaLabel = 'Book my call',
-}: {
-  fieldTag?: string;
-  ctaLabel?: string;
-}) {
+export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string }) {
+  const t = useTranslations('start');
+  const locale = useLocale();
+  const consentLang = locale.toLowerCase().startsWith('de') ? 'de' : 'en';
   const router = useRouter();
   const [step, setStep] = useState(0);
   const [direction, setDirection] = useState(1);
@@ -231,6 +234,13 @@ export function QuizLeadForm({
       : socialOnly
         ? BUDGETS_SOCIAL
         : BUDGETS_MONTHLY;
+  const budgetKey = !monthlyOnly
+    ? 'budget_build'
+    : adsOnly
+      ? 'budget_ads'
+      : socialOnly
+        ? 'budget_social'
+        : 'budget_monthly';
 
   const inputBase =
     'w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3.5 text-sm sm:text-base text-white placeholder-gray-500 focus:outline-none focus:border-orange-500/40 focus:bg-white/[0.06] transition-colors';
@@ -295,21 +305,21 @@ export function QuizLeadForm({
       }
       router.push(thanksDestination());
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
+      setError(err instanceof Error ? err.message : t('error_generic'));
       setSubmitting(false);
     }
   };
 
   const steps = [
     {
-      question: 'What type of business do you run?',
-      sub: 'Pick the closest one.',
+      question: t('q_business'),
+      sub: t('q_business_sub'),
       body: (
         <div role="radiogroup" aria-label="Business type" className="grid grid-cols-2 gap-2 sm:gap-2.5">
           {BUSINESS_TYPES.map((b) => (
             <ChoiceCard
               key={b}
-              label={b}
+              label={t(`business.${slugOf(b)}`)}
               selected={business === b}
               onSelect={() => {
                 setBusiness(b);
@@ -322,14 +332,14 @@ export function QuizLeadForm({
       canAdvance: business.trim() !== '',
     },
     {
-      question: 'What do you need help with?',
-      sub: 'Pick all that apply.',
+      question: t('q_services'),
+      sub: t('q_services_sub'),
       body: (
         <div className="grid grid-cols-2 gap-2 sm:gap-2.5">
           {SERVICES.map((s) => (
             <ChoiceCard
               key={s}
-              label={s}
+              label={t(`services.${slugOf(s)}`)}
               multi
               selected={services.includes(s)}
               onSelect={() => toggleService(s)}
@@ -341,22 +351,22 @@ export function QuizLeadForm({
     },
     {
       question: adsOnly
-        ? "What could you spend on ads each month?"
+        ? t('q_budget_ads')
         : monthlyOnly
-          ? "What's your monthly budget?"
-          : "What's your budget for this project?",
+          ? t('q_budget_monthly')
+          : t('q_budget_project'),
       sub: adsOnly
-        ? 'Just the ad spend. Our management is 15% of it, plus a one-off setup. A ballpark is fine.'
+        ? t('q_budget_ads_sub')
         : monthlyOnly
-          ? 'Roughly what you would put behind it each month. A ballpark is fine.'
-          : 'A rough idea is fine. It just tells us what to suggest.',
+          ? t('q_budget_monthly_sub')
+          : t('q_budget_project_sub'),
       body: (
         <div role="radiogroup" aria-label="Budget" className="space-y-2.5">
-          {budgets.map((o) => (
+          {budgets.map((o, i) => (
             <ChoiceCard
               key={o.value}
-              label={o.value}
-              hint={o.hint}
+              label={t(`${budgetKey}.${i}.label`)}
+              hint={t(`${budgetKey}.${i}.hint`)}
               selected={budget === o.value}
               onSelect={() => {
                 setBudget(o.value);
@@ -369,14 +379,14 @@ export function QuizLeadForm({
       canAdvance: budget !== '',
     },
     {
-      question: 'How soon do you want to start?',
+      question: t('q_timeline'),
       body: (
         <div role="radiogroup" aria-label="Timeline" className="space-y-2.5">
-          {TIMELINES.map((o) => (
+          {TIMELINES.map((o, i) => (
             <ChoiceCard
               key={o.value}
-              label={o.value}
-              hint={o.hint}
+              label={t(`timeline.${i}.label`)}
+              hint={t(`timeline.${i}.hint`)}
               selected={timeline === o.value}
               onSelect={() => {
                 setTimeline(o.value);
@@ -389,8 +399,8 @@ export function QuizLeadForm({
       canAdvance: timeline !== '',
     },
     {
-      question: 'Last step. How do we reach you?',
-      sub: 'Then you pick a time. We reply within the hour during business hours.',
+      question: t('q_contact'),
+      sub: t('q_contact_sub'),
       body: null, // the final step renders the real <form> below
       canAdvance: canSubmit,
     },
@@ -414,7 +424,7 @@ export function QuizLeadForm({
           ))}
         </div>
         <span className="text-[11px] uppercase tracking-[0.15em] text-gray-500">
-          Question {step + 1} of {TOTAL_STEPS}
+          {t('progress', { current: step + 1, total: TOTAL_STEPS })}
         </span>
       </div>
 
@@ -452,13 +462,13 @@ export function QuizLeadForm({
 
               <div>
                 <label htmlFor="quiz-name" className="block text-xs text-gray-400 mb-1.5 ml-1">
-                  Your Name
+                  {t('label_name')}
                 </label>
                 <input
                   id="quiz-name"
                   type="text"
                   required
-                  placeholder="John Smith"
+                  placeholder={t('placeholder_name')}
                   value={contact.name}
                   onChange={(e) => setContact({ ...contact, name: e.target.value })}
                   className={inputBase}
@@ -468,13 +478,13 @@ export function QuizLeadForm({
 
               <div>
                 <label htmlFor="quiz-email" className="block text-xs text-gray-400 mb-1.5 ml-1">
-                  Email Address
+                  {t('label_email')}
                 </label>
                 <input
                   id="quiz-email"
                   type="email"
                   required
-                  placeholder="john@company.com"
+                  placeholder={t('placeholder_email')}
                   value={contact.email}
                   onChange={(e) => setContact({ ...contact, email: e.target.value })}
                   className={inputBase}
@@ -487,15 +497,15 @@ export function QuizLeadForm({
                   {/* Tel. is the German abbreviation and reads correctly to an
                       English speaker too, which matters on a page that is not
                       translated. */}
-                  Tel. / WhatsApp{' '}
-                  <span className="text-gray-600">(optional, for faster response)</span>
+                  {t('label_phone')}{' '}
+                  <span className="text-gray-600">{t('label_phone_note')}</span>
                 </label>
                 <div className="flex gap-2">
                   {/* Native select on purpose: on a phone this opens the OS
                       picker, which beats any custom dropdown for scrolling a
                       long list with a thumb. */}
                   <label htmlFor="quiz-dial" className="sr-only">
-                    Country dialling code
+                    {t('label_country')}
                   </label>
                   <select
                     id="quiz-dial"
@@ -513,7 +523,7 @@ export function QuizLeadForm({
                     id="quiz-phone"
                     type="tel"
                     inputMode="tel"
-                    placeholder="160 1234567"
+                    placeholder={t('placeholder_phone')}
                     value={contact.phone}
                     onChange={(e) => setContact({ ...contact, phone: e.target.value })}
                     className={`${inputBase} min-w-0`}
@@ -522,7 +532,7 @@ export function QuizLeadForm({
                 </div>
                 {contact.phone.trim() && (
                   <p className="mt-1.5 ml-1 text-[11px] text-gray-600">
-                    We&apos;ll call {toDialable(dialIso, contact.phone)}
+                    {t('well_call', { number: toDialable(dialIso, contact.phone) })}
                   </p>
                 )}
               </div>
@@ -536,11 +546,11 @@ export function QuizLeadForm({
                   required
                 />
                 <span className="text-xs text-gray-500 leading-relaxed text-pretty">
-                  I agree to the{' '}
+                  {t('consent_pre')}{' '}
                   <Link href="/privacy" target="_blank" className="text-gray-300 underline hover:text-white">
-                    Privacy Policy
+                    {t('consent_link')}
                   </Link>{' '}
-                  and consent to being contacted about my inquiry.
+                  {t('consent_post')}
                 </span>
               </label>
 
@@ -552,8 +562,8 @@ export function QuizLeadForm({
                   className="mt-0.5 h-4 w-4 rounded border-white/20 bg-white/5 accent-orange-500"
                 />
                 <span className="text-xs text-gray-500 leading-relaxed text-pretty">
-                  {MARKETING_CONSENT.text}{' '}
-                  <span className="text-gray-600">(optional)</span>
+                  {marketingConsentText(consentLang)}{' '}
+                  <span className="text-gray-600">{t('optional')}</span>
                 </span>
               </label>
 
@@ -574,7 +584,7 @@ export function QuizLeadForm({
                     : 'bg-white/10 text-gray-500 cursor-not-allowed'
                 }`}
               >
-                {submitting ? 'Sending...' : ctaLabel}
+                {submitting ? t('sending') : t('cta')}
               </motion.button>
             </form>
           ) : (
@@ -590,7 +600,7 @@ export function QuizLeadForm({
                     : 'bg-white/10 text-gray-500 cursor-not-allowed'
                 }`}
               >
-                Continue
+                {t('continue')}
               </button>
             </>
           )}
@@ -604,12 +614,12 @@ export function QuizLeadForm({
             onClick={() => go(step - 1)}
             className="text-xs text-gray-500 hover:text-gray-300 transition-colors"
           >
-            &larr; Back
+            &larr; {t('back')}
           </button>
         ) : (
           <span />
         )}
-        <p className="text-[11px] text-gray-600">No spam. No obligation.</p>
+        <p className="text-[11px] text-gray-600">{t('no_spam')}</p>
       </div>
     </div>
   );
