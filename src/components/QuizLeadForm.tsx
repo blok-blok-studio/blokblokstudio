@@ -480,7 +480,10 @@ export function QuizLeadForm({
 
               <div>
                 <label htmlFor="quiz-phone" className="block text-xs text-gray-400 mb-1.5 ml-1">
-                  Phone / WhatsApp{' '}
+                  {/* Tel. is the German abbreviation and reads correctly to an
+                      English speaker too, which matters on a page that is not
+                      translated. */}
+                  Tel. / WhatsApp{' '}
                   <span className="text-gray-600">(optional, for faster response)</span>
                 </label>
                 <div className="flex gap-2">
