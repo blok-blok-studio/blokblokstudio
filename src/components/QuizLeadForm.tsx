@@ -475,8 +475,10 @@ export function QuizLeadForm({
                   className="mt-0.5 h-4 w-4 rounded border-white/20 bg-white/5 accent-orange-500"
                 />
                 <span className="text-xs text-gray-500 leading-relaxed text-pretty">
-                  Yes, send me practical growth tips and occasional offers by email.
-                  Unsubscribe&nbsp;anytime. <span className="text-gray-600">(optional)</span>
+                  Yes, Blok Blok Studio can email me practical growth tips and occasional
+                  offers. We&apos;ll send one email to confirm, and you are only subscribed once
+                  you click the link in it. Unsubscribe&nbsp;anytime.{' '}
+                  <span className="text-gray-600">(optional)</span>
                 </span>
               </label>
 

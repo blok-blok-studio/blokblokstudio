@@ -63,6 +63,8 @@ export function PrivacyContent() {
                 t('data_item_industry'),
                 t('data_item_website'),
                 t('data_item_problem'),
+                t('data_item_budget'),
+                t('data_item_marketing_consent'),
                 t('data_item_ip'),
               ]}
             />
@@ -76,6 +78,7 @@ export function PrivacyContent() {
             <Bullets
               items={[t('use_item_respond'), t('use_item_marketing'), t('use_item_improve'), t('use_item_legal')]}
             />
+            <p className="text-gray-400 leading-relaxed mt-4">{t('marketing_double_optin')}</p>
           </Card>
         </AnimatedSection>
 

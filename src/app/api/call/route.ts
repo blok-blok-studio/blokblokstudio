@@ -189,7 +189,14 @@ export async function POST(req: NextRequest) {
       phone: phone || undefined,
       business: business || undefined,
       website: noWebsite ? null : (website || null),
-      summary: marketingOptIn ? `${problem}\nEmail marketing opt-in: yes` : problem,
+      // Deliberately not "opt-in: yes". At this point they have ticked the
+      // box but not clicked the confirmation link, so they are not yet a
+      // lawful marketing contact. Saying so in the tracker keeps anyone from
+      // adding them to a campaign off the back of this note. The tracker's
+      // subscriber list is populated separately, on confirmation.
+      summary: marketingOptIn
+        ? `${problem}\nEmail marketing: opt-in requested, awaiting double opt-in confirmation`
+        : problem,
     });
 
     // Server-side Meta Lead event (Conversions API) — only with the

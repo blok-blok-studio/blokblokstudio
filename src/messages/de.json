@@ -376,6 +376,8 @@
     "data_item_industry": "Branche / Arbeitsbereich",
     "data_item_website": "Website-URL (optional)",
     "data_item_problem": "Projektdetails und Herausforderungen",
+    "data_item_budget": "Budgetrahmen und gewünschter Zeitraum (sofern im Anfrageformular angegeben)",
+    "data_item_marketing_consent": "Ob Sie das optionale Kästchen für Marketing-E-Mails angehakt haben und wann Sie dies bestätigt haben",
     "data_item_ip": "IP-Adresse (nur zur Einwilligungsüberprüfung)",
     "data_use_title": "Wie Wir Ihre Daten Verwenden",
     "data_use_intro": "Wir verwenden die von uns gesammelten Informationen, um:",
@@ -421,7 +423,8 @@
     "third_party_turnstile": "Cloudflare Turnstile: Spam-Schutz für unsere Formulare (verarbeitet Ihre IP-Adresse)",
     "third_party_cal": "Cal.com, Terminbuchung, wenn Sie einen Call mit uns vereinbaren",
     "third_party_meta": "Meta (Facebook/Instagram): Werbemessung, nur mit Ihrer Einwilligung in Marketing-Cookies. Mit dieser Einwilligung übermitteln wir ggf. auch Ihre E-Mail-Adresse und Telefonnummer in gehashter (pseudonymisierter) Form zur Messung von Anzeigen-Conversions.",
-    "third_party_google": "Google: Werbemessung (Google Ads), nur mit Ihrer Einwilligung in Marketing-Cookies"
+    "third_party_google": "Google: Werbemessung (Google Ads), nur mit Ihrer Einwilligung in Marketing-Cookies",
+    "marketing_double_optin": "Marketing-E-Mails erfolgen im Double-Opt-in-Verfahren. Das Anhaken des optionalen Kästchens allein genügt nicht: Wir senden eine Bestätigungs-E-Mail, und erst mit dem Klick auf den darin enthaltenen Link werden Sie in die Liste aufgenommen. Bis dahin erhalten Sie keine Werbung. Sie können Ihre Einwilligung jederzeit über den Abmeldelink in jeder E-Mail widerrufen; der Widerruf wirkt sofort."
   },
   "terms": {
     "title": "Nutzungsbedingungen",

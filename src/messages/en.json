@@ -376,6 +376,8 @@
     "data_item_industry": "Industry / field of work",
     "data_item_website": "Website URL (optional)",
     "data_item_problem": "Project details and challenges",
+    "data_item_budget": "Budget range and desired timeline (when you tell us on the enquiry form)",
+    "data_item_marketing_consent": "Whether you ticked the optional marketing-email box, and when you confirmed it",
     "data_item_ip": "IP address (for consent verification only)",
     "data_use_title": "How We Use Your Data",
     "data_use_intro": "We use the information we collect to:",
@@ -421,7 +423,8 @@
     "third_party_turnstile": "Cloudflare Turnstile: spam protection on our forms (processes your IP address)",
     "third_party_cal": "Cal.com, appointment scheduling when you book a call with us",
     "third_party_meta": "Meta (Facebook/Instagram): advertising measurement, only with your marketing-cookie consent. With that consent we may also transmit your email address and phone number in hashed (pseudonymized) form to measure ad conversions.",
-    "third_party_google": "Google: advertising measurement (Google Ads), only with your marketing-cookie consent"
+    "third_party_google": "Google: advertising measurement (Google Ads), only with your marketing-cookie consent",
+    "marketing_double_optin": "Marketing emails use double opt-in. Ticking the optional box on a form is not enough on its own: we send a confirmation email, and you are only added to the list once you click the link in it. Until then we do not send you marketing. You can withdraw at any time using the unsubscribe link in any email, which takes effect immediately."
   },
   "terms": {
     "title": "Terms of Service",
