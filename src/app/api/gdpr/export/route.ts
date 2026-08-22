@@ -30,7 +30,7 @@ export async function GET(req: NextRequest) {
     if (!valid || !email) {
       return new NextResponse(
         '<html><body style="font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; background: #000; color: #fff;"><div style="text-align: center;"><h1>Link Expired</h1><p style="color: #999;">This verification link has expired. Please submit a new request from the Data Rights page.</p></div></body></html>',
-        { status: 401, headers: { 'Content-Type': 'text/html' } }
+        { status: 401, headers: { 'Content-Type': 'text/html; charset=utf-8' } }
       );
     }
 

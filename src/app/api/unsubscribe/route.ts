@@ -29,7 +29,7 @@ export async function GET(req: NextRequest) {
   if (!id) {
     return new NextResponse(htmlPage('Invalid Link', 'invalid', null), {
       status: 400,
-      headers: { 'Content-Type': 'text/html' },
+      headers: { 'Content-Type': 'text/html; charset=utf-8' },
     });
   }
 
@@ -42,12 +42,12 @@ export async function GET(req: NextRequest) {
     const lead = await prisma.lead.findUnique({ where: { id }, select: { name: true, email: true } });
     return new NextResponse(htmlPage('Email Preferences', 'options', lead ? { id, name: lead.name, email: lead.email } : { id, name: '', email: '' }), {
       status: 200,
-      headers: { 'Content-Type': 'text/html' },
+      headers: { 'Content-Type': 'text/html; charset=utf-8' },
     });
   } catch {
     return new NextResponse(htmlPage('Email Preferences', 'options', { id, name: '', email: '' }), {
       status: 200,
-      headers: { 'Content-Type': 'text/html' },
+      headers: { 'Content-Type': 'text/html; charset=utf-8' },
     });
   }
 }
@@ -78,7 +78,7 @@ export async function POST(req: NextRequest) {
       } catch { /* already unsubscribed or not found */ }
       return new NextResponse(htmlPage(formAction === 'feedback' ? 'Thank You' : 'Unsubscribed', formAction === 'feedback' ? 'feedback' : 'unsubscribed', null), {
         status: 200,
-        headers: { 'Content-Type': 'text/html' },
+        headers: { 'Content-Type': 'text/html; charset=utf-8' },
       });
     }
     if (formAction === 'reduce') {
@@ -90,7 +90,7 @@ export async function POST(req: NextRequest) {
       } catch { /* ignore */ }
       return new NextResponse(htmlPage('Preferences Updated', 'reduced', null), {
         status: 200,
-        headers: { 'Content-Type': 'text/html' },
+        headers: { 'Content-Type': 'text/html; charset=utf-8' },
       });
     }
   }
