@@ -1,11 +1,14 @@
 /**
- * Turns the quiz answers into the plan shown on the thank-you page.
+ * Turns the quiz answers into the call agenda shown on the thank-you page.
  *
  * This is the pitch. The quiz is not just lead capture: the reason someone
  * answers five questions is to get something back, and what they get back is
  * a specific read on their situation instead of a generic "thanks, we'll be
  * in touch". It runs client-side off the answers the form stashed, so it
  * costs nothing and works before any human has looked at the lead.
+ *
+ * Nothing here is a deliverable. The offer is a call, and this is the agenda
+ * for it, so the copy must never imply a document is on its way.
  *
  * Every timeline here matches the published ones on /pricing and in llms.txt.
  * Nothing in this file should promise something the studio has not already
@@ -178,8 +181,8 @@ export function buildPlan(a: QuizAnswers): Plan {
 
   const industry = a.business && a.business !== 'Other' ? a.business.toLowerCase() : 'your line of work';
   const diagnosis = picked.length
-    ? `Based on what you told us about ${industry}, these are the pieces we would put in front of you first.`
-    : `You said you are not sure yet, which is a normal place to start. For ${industry}, this is usually where the money is.`;
+    ? `Based on what you told us about ${industry}, this is what we would work through with you on the call.`
+    : `You said you are not sure yet, which is a normal place to start. For ${industry}, this is usually where the money is, so it is where we would begin on the call.`;
 
   return {
     headline,

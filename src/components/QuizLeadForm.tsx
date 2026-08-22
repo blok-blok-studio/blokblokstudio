@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { Turnstile } from './Turnstile';
-import { BusinessPicker } from './BusinessPicker';
+import { BUSINESS_TYPES } from '@/data/business-types';
 import {
   collectAttribution,
   getCookie,
@@ -55,35 +55,64 @@ const TIMELINES = [
 
 const TOTAL_STEPS = 5;
 
-/** Single-select card list. Picking auto-advances, which is what makes it feel like a quiz. */
-function CardChoice({
-  options,
+/**
+ * One answer, rendered as a card with its state showing on the right.
+ *
+ * Everything is on screen at once on purpose: a dropdown hides the options
+ * until you ask for them, which makes a quiz feel like a form. A radio dot
+ * means one answer, a check means several.
+ */
+function ChoiceCard({
+  label,
+  hint,
   selected,
-  onPick,
+  multi,
+  onSelect,
 }: {
-  options: { value: string; hint: string }[];
-  selected: string;
-  onPick: (v: string) => void;
+  label: string;
+  hint?: string;
+  selected: boolean;
+  multi?: boolean;
+  onSelect: () => void;
 }) {
   return (
-    <div className="space-y-2.5">
-      {options.map((o) => (
-        <button
-          key={o.value}
-          type="button"
-          aria-pressed={selected === o.value}
-          onClick={() => onPick(o.value)}
-          className={`w-full rounded-xl border px-4 py-3.5 text-left transition-colors ${
-            selected === o.value
-              ? 'border-orange-500/60 bg-orange-500/15'
-              : 'border-white/10 bg-white/[0.03] hover:border-white/25'
-          }`}
-        >
-          <span className="block text-sm sm:text-base font-medium text-white">{o.value}</span>
-          <span className="block text-xs text-gray-500 mt-0.5">{o.hint}</span>
-        </button>
-      ))}
-    </div>
+    <button
+      type="button"
+      role={multi ? 'checkbox' : 'radio'}
+      aria-checked={selected}
+      onClick={onSelect}
+      className={`group flex w-full items-center gap-3 rounded-xl border px-4 py-3.5 text-left transition-colors ${
+        selected
+          ? 'border-orange-500/60 bg-orange-500/15'
+          : 'border-white/10 bg-white/[0.03] hover:border-white/25'
+      }`}
+    >
+      <span className="min-w-0 flex-1">
+        <span className={`block text-sm font-medium ${selected ? 'text-white' : 'text-gray-200'}`}>
+          {label}
+        </span>
+        {hint && <span className="mt-0.5 block text-xs text-gray-500">{hint}</span>}
+      </span>
+      <span
+        aria-hidden="true"
+        className={`flex h-5 w-5 flex-shrink-0 items-center justify-center border transition-colors ${
+          multi ? 'rounded-md' : 'rounded-full'
+        } ${
+          selected
+            ? 'border-orange-400 bg-orange-400'
+            : 'border-white/25 bg-transparent group-hover:border-white/40'
+        }`}
+      >
+        {selected &&
+          (multi ? (
+            <svg className="h-3 w-3 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          ) : (
+            <span className="h-2 w-2 rounded-full bg-black" />
+          ))}
+      </span>
+    </button>
   );
 }
 
@@ -202,8 +231,21 @@ export function QuizLeadForm({
   const steps = [
     {
       question: 'What type of business do you run?',
+      sub: 'Pick the closest one.',
       body: (
-        <BusinessPicker id="quiz-business" value={business} onChange={setBusiness} inputBase={inputBase} />
+        <div role="radiogroup" aria-label="Business type" className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+          {BUSINESS_TYPES.map((b) => (
+            <ChoiceCard
+              key={b}
+              label={b}
+              selected={business === b}
+              onSelect={() => {
+                setBusiness(b);
+                setTimeout(() => go(1), 180);
+              }}
+            />
+          ))}
+        </div>
       ),
       canAdvance: business.trim() !== '',
     },
@@ -211,21 +253,15 @@ export function QuizLeadForm({
       question: 'What do you need help with?',
       sub: 'Pick all that apply.',
       body: (
-        <div className="flex flex-wrap gap-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
           {SERVICES.map((s) => (
-            <button
+            <ChoiceCard
               key={s}
-              type="button"
-              aria-pressed={services.includes(s)}
-              onClick={() => toggleService(s)}
-              className={`px-3.5 py-2 rounded-full text-xs sm:text-sm border transition-colors ${
-                services.includes(s)
-                  ? 'border-orange-500/60 bg-orange-500/15 text-orange-300'
-                  : 'border-white/10 bg-white/[0.03] text-gray-400 hover:border-white/25'
-              }`}
-            >
-              {s}
-            </button>
+              label={s}
+              multi
+              selected={services.includes(s)}
+              onSelect={() => toggleService(s)}
+            />
           ))}
         </div>
       ),
@@ -235,34 +271,46 @@ export function QuizLeadForm({
       question: "What's your budget for this project?",
       sub: 'Rough band is fine. It tells us what to propose.',
       body: (
-        <CardChoice
-          options={BUDGETS}
-          selected={budget}
-          onPick={(v) => {
-            setBudget(v);
-            setTimeout(() => go(3), 180);
-          }}
-        />
+        <div role="radiogroup" aria-label="Budget" className="space-y-2.5">
+          {BUDGETS.map((o) => (
+            <ChoiceCard
+              key={o.value}
+              label={o.value}
+              hint={o.hint}
+              selected={budget === o.value}
+              onSelect={() => {
+                setBudget(o.value);
+                setTimeout(() => go(3), 180);
+              }}
+            />
+          ))}
+        </div>
       ),
       canAdvance: budget !== '',
     },
     {
       question: 'How soon do you want to start?',
       body: (
-        <CardChoice
-          options={TIMELINES}
-          selected={timeline}
-          onPick={(v) => {
-            setTimeline(v);
-            setTimeout(() => go(4), 180);
-          }}
-        />
+        <div role="radiogroup" aria-label="Timeline" className="space-y-2.5">
+          {TIMELINES.map((o) => (
+            <ChoiceCard
+              key={o.value}
+              label={o.value}
+              hint={o.hint}
+              selected={timeline === o.value}
+              onSelect={() => {
+                setTimeline(o.value);
+                setTimeout(() => go(4), 180);
+              }}
+            />
+          ))}
+        </div>
       ),
       canAdvance: timeline !== '',
     },
     {
-      question: 'Where should we send the plan?',
-      sub: 'We reply within the hour during business hours.',
+      question: 'Last step. How do we reach you?',
+      sub: 'Then you pick a time. We reply within the hour during business hours.',
       body: null, // the final step renders the real <form> below
       canAdvance: canSubmit,
     },

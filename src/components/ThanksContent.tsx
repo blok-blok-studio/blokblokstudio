@@ -144,7 +144,7 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
         {plan && (
           <AnimatedSection delay={0.05} className="mb-12 text-left">
             <div className="rounded-3xl border border-orange-500/20 bg-orange-500/[0.04] p-6 sm:p-8">
-              <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70 mb-5">Your plan</p>
+              <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70 mb-5">What we&apos;ll cover on the call</p>
               <div className="space-y-5">
                 {plan.items.map((item) => (
                   <div key={item.title} className="flex items-start gap-4">
@@ -168,7 +168,7 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
               </div>
             </div>
             <p className="mt-4 text-center text-sm text-gray-500 text-pretty">
-              Book the call below and we will go through this properly, with real numbers.
+              Pick a time below and we&apos;ll go through this properly, with real numbers.
             </p>
           </AnimatedSection>
         )}

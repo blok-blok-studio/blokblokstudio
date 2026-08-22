@@ -260,7 +260,7 @@ export function VideoSchema({ videos }: { videos: SiteVideo[] }) {
       // The whole point of the exercise: nothing else on the page tells a
       // crawler or an assistant what is actually said in the video.
       transcript,
-      caption: captionUrl,
+      ...(captionUrl ? { caption: captionUrl } : {}),
       // Self-hosted: the page is where it plays, there is no separate player.
       embedUrl: pageUrl,
       publisher: {

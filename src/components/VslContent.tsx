@@ -89,7 +89,7 @@ export function VslContent() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300"> (and how to fix it)</span>
           </h1>
           <p className="text-gray-500 text-sm sm:text-base mb-8 text-pretty">
-            Answer five quick questions and we&apos;ll show you where to start. Takes about a&nbsp;minute.
+            Answer five quick questions, then book a call. Takes about a&nbsp;minute.
           </p>
         </AnimatedSection>
 
@@ -98,7 +98,7 @@ export function VslContent() {
             qualifying questions land before anyone is asked for an email.
             Everything below is proof for whoever wants it first. */}
         <AnimatedSection delay={0.05}>
-          <QuizLeadForm fieldTag="Start Lead" ctaLabel="Show me my plan" />
+          <QuizLeadForm fieldTag="Start Lead" ctaLabel="Book my call" />
         </AnimatedSection>
 
         {/* Meet the Founder: the page's one video slot */}
@@ -114,14 +114,10 @@ export function VslContent() {
                   poster="/videos/founder-v2-poster.webp"
                   className="w-full aspect-video"
                 >
+                  {/* No <track>: this cut has its subtitles burned in from
+                      CapCut, so a caption track would double them on screen.
+                      The transcript below still carries the text. */}
                   <source src={FOUNDER_VIDEO_URL} type="video/mp4" />
-                  <track
-                    kind="captions"
-                    src="/videos/founder-v2.en.vtt"
-                    srcLang="en"
-                    label="English"
-                    default
-                  />
                 </video>
               ) : (
                 <div className="w-full aspect-video flex flex-col items-center justify-center bg-gradient-to-br from-gray-950 via-gray-900 to-orange-950/30">

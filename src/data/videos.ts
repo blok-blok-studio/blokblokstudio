@@ -23,8 +23,9 @@ export interface SiteVideo {
   description: string;
   src: string;
   poster: string;
-  /** WebVTT caption track sitting beside the mp4. */
-  captions: string;
+  /** WebVTT caption track sitting beside the mp4. Omitted when the cut has
+   *  its subtitles burned in, since a track would double them on screen. */
+  captions?: string;
   /** ISO 8601, e.g. PT2M15S — what schema.org VideoObject wants. */
   duration: string;
   /** Same length in whole seconds — what a video sitemap wants instead. */
@@ -71,7 +72,7 @@ export const SITE_VIDEOS = {
       'Chase Haynes walks through where service businesses quietly lose customers online and how Blok Blok Studio fixes it, screen-recorded over the studio site.',
     src: '/videos/founder-v2.mp4',
     poster: '/videos/founder-v2-poster.webp',
-    captions: '/videos/founder-v2.en.vtt',
+    // Subtitles are burned into this cut (CapCut), so no caption track.
     duration: 'PT1M14S',
     seconds: 74,
     uploadDate: '2026-08-22',
@@ -86,7 +87,7 @@ export function videoUrls(v: SiteVideo) {
   return {
     contentUrl: `${BASE}${v.src}`,
     thumbnailUrl: `${BASE}${v.poster}`,
-    captionUrl: `${BASE}${v.captions}`,
+    captionUrl: v.captions ? `${BASE}${v.captions}` : undefined,
     pageUrl: `${BASE}${v.page}`,
   };
 }
