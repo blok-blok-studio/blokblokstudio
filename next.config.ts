@@ -68,6 +68,11 @@ const nextConfig: NextConfig = {
       // indexed. These keep every one of those links landing somewhere.
       // The thanks/* paths are ad-platform conversion URLs, so they redirect
       // with their suffix intact rather than collapsing to the parent.
+      // Next serves the homepage at /index as well as /. It self-canonicals
+      // correctly, so it was never harmful, but it is a second URL for one
+      // page and shows up in Search Console as a duplicate. Collapse it.
+      { source: '/index', destination: '/', permanent: true },
+
       { source: '/vsl', destination: '/start', permanent: true },
       { source: '/vsl/thanks/:path*', destination: '/start/thanks/:path*', permanent: true },
       { source: '/call', destination: '/start', permanent: true },

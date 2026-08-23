@@ -93,13 +93,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     })),
-    // LLM discovery files
-    {
-      url: `${baseUrl}/llms.txt`,
-      lastModified: SITE_UPDATED,
-      changeFrequency: 'weekly' as const,
-      priority: 0.4,
-    },
+    // llms.txt is deliberately NOT listed. A sitemap is a list of pages we
+    // want indexed, and it is text/plain, so Google crawls it and then files
+    // it under "Crawled - currently not indexed" forever, which buries real
+    // problems in the Search Console report. Like robots.txt, it is found at
+    // its well-known root path; it does not need a sitemap entry.
   ];
 
   return entries;
