@@ -609,5 +609,92 @@
     "not_found_title": "ページが見つかりません",
     "not_found_message": "お探しのページは存在しないか、移動されました。元に戻りましょう。",
     "contact_us": "お問い合わせ"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "{name}さん、まずはここから始めます",
+    "headline": "まずはここから始めます",
+    "headline_fallback": "受け付けました。あと一歩です。",
+    "diagnosis_known": "{industry}について伺った内容をもとに、通話ではこの点を一緒に整理します。",
+    "diagnosis_unsure": "まだお決まりでないとのことですが、それはごく自然な出発点です。{industry}では通常ここに収益の余地があるため、通話ではそこから始めます。",
+    "industry_fallback": "お客様の分野",
+    "sub_fallback": "ご依頼を承りました。無料15分の初回通話を今すぐご予約ください。早い時間帯は先着順です。",
+    "cover_label": "通話で扱う内容",
+    "cover_note": "範囲も費用も含めて、通話できちんとご説明します。",
+    "calendar_title": "無料の初回通話を予約する",
+    "calendar_fallback": "カレンダーが表示されませんか？",
+    "calendar_open": "直接開く",
+    "calendar_chat": "チャットがよろしいですか？",
+    "calendar_whatsapp": "WhatsAppでご連絡ください",
+    "calendar_reply": "数分以内にご返信します。",
+    "next_label": "この後の流れ",
+    "next_1_title": "上の時間から選んでください",
+    "next_1_desc": "事業内容とご要望を伺うための短い通話です。",
+    "next_2_title": "通話ですべて分解してご説明します",
+    "next_2_desc": "どこで顧客を失っているか、まず何を直すべきか、そのために何が必要か。",
+    "next_3_title": "私たちが作り、御社が伸びる",
+    "next_3_desc": "ウェブサイト、広告、SNS、AIシステム。すべてお任せで、素早く公開します。",
+    "founder_kicker": "お話しする相手",
+    "founder_title": "創業者の紹介",
+    "clients_kicker": "実績と数字",
+    "clients_title": "導入企業",
+    "cta_title": "もっと事例をご覧になりますか？",
+    "cta_sub": "全ポートフォリオ、チーム、制作の進め方はすべてメインサイトに掲載しています。",
+    "cta_button": "blokblokstudio.com を見る",
+    "work": {
+      "site": {
+        "title": "ひとつの目的のために作るサイト",
+        "detail": "テンプレートではなく、Next.jsによる完全オーダーメイド。各ページが、通話予約・注文・決済のいずれかひとつの行動に向かうよう設計します。"
+      },
+      "redesign": {
+        "title": "すでに機能している部分の上に作り直す",
+        "detail": "成果の出ているページは残し、離脱の起きているページを直し、全体を高速に読み込む構成へ移します。"
+      },
+      "shop": {
+        "title": "きちんと売れる店舗",
+        "detail": "商品ページ、カート、決済を、途中離脱ではなく最後まで進んでもらえる形で構築します。"
+      },
+      "landing": {
+        "title": "1ページ、1オファー",
+        "detail": "最も早く作れるものです。ひとつの読者層に向けた1ページに、成果が見えるよう計測を組み込みます。"
+      },
+      "search_ads": {
+        "title": "購入意欲が生まれた瞬間に表示する",
+        "detail": "クリック数ではなく受注を基準に構築・運用する広告。検索では、すでに欲しいものが決まっています。"
+      },
+      "social_ads": {
+        "title": "競合より先に届ける",
+        "detail": "競合より先に、適切な相手へオファーを届けるFacebook・Instagram広告。"
+      },
+      "social": {
+        "title": "行き先のあるSNS運用",
+        "detail": "すでにある素材から切り出したクリップ・字幕・投稿。フィードを埋めるのではなく、サイトへ誘導するために作ります。"
+      },
+      "booking": {
+        "title": "サイト上での予約と決済",
+        "detail": "お客様がDMなしで時間を選び、決済まで完了。Coach LukiとCoach Kofiのために構築したのがまさにこれです。"
+      },
+      "local_seo": {
+        "title": "ローカル検索とレビュー",
+        "detail": "お客様が実際に探す場所で上位に表示し、最新のGoogleレビューをページに掲載します。"
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "お問い合わせ",
+    "footer_privacy": "プライバシーポリシー",
+    "footer_terms": "利用規約",
+    "footer_cookies": "Cookieポリシー",
+    "footer_impressum": "運営者情報",
+    "read_transcript": "文字起こしを読む",
+    "loading": "読み込み中",
+    "select_language": "言語を選択",
+    "wechat_scan": "WeChatでスキャンして追加してください",
+    "wechat_qr_alt": "Chase HaynesのWeChat QRコード、スキャンして追加",
+    "wechat_copy": "WeChat IDをコピー",
+    "wechat_copied": "コピーしました",
+    "wechat_open": "WeChatでご連絡ください",
+    "wechat_close": "WeChat連絡先カードを閉じる",
+    "whatsapp_aria": "WhatsAppでチャットする（新しいタブで開きます）"
   }
 }

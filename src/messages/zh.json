@@ -609,5 +609,92 @@
     "not_found_title": "页面未找到",
     "not_found_message": "您要查找的页面不存在或已被移动。让我们带您回到正轨。",
     "contact_us": "联系我们"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "{name}，我们会从这里开始",
+    "headline": "我们会从这里开始",
+    "headline_fallback": "已收到。还差一步。",
+    "diagnosis_known": "根据您介绍的{industry}情况，这是我们会在通话中和您一起梳理的内容。",
+    "diagnosis_unsure": "您说还不确定，这是非常正常的起点。在{industry}领域，收益通常就在这里，所以通话时我们会从这里入手。",
+    "industry_fallback": "您所在的行业",
+    "sub_fallback": "我们已收到您的请求。现在预约免费的 15 分钟沟通；最早的时段先到先得。",
+    "cover_label": "通话中会谈什么",
+    "cover_note": "我们会在通话中把所有事情讲清楚，包括范围和费用。",
+    "calendar_title": "预约免费的初次沟通",
+    "calendar_fallback": "日历打不开？",
+    "calendar_open": "直接打开",
+    "calendar_chat": "更想用文字沟通？",
+    "calendar_whatsapp": "在 WhatsApp 上联系我们",
+    "calendar_reply": "我们会在几分钟内回复。",
+    "next_label": "接下来会发生什么",
+    "next_1_title": "在上方选择时间",
+    "next_1_desc": "一次简短的通话，让我们了解您的业务和需求。",
+    "next_2_title": "我们在通话中逐项拆解",
+    "next_2_desc": "您在哪里流失客户、先修哪里、以及需要什么才能做到。",
+    "next_3_title": "我们来做，您来增长",
+    "next_3_desc": "网站、广告、社交媒体、AI 系统。交给我们，快速上线。",
+    "founder_kicker": "您将和谁沟通",
+    "founder_title": "认识创始人",
+    "clients_kicker": "作品与数据",
+    "clients_title": "我们的客户",
+    "cta_title": "想看更多案例吗？",
+    "cta_sub": "完整作品集、团队以及我们的做法都在主站上。",
+    "cta_button": "访问 blokblokstudio.com",
+    "work": {
+      "site": {
+        "title": "为单一目标而建的网站",
+        "detail": "定制 Next.js 开发，而非模板。每个页面都指向一个动作：预约通话、下单或付款。"
+      },
+      "redesign": {
+        "title": "在已经有效的基础上重建",
+        "detail": "保留已经带来成效的页面，修好流失访客的页面，并把整体迁移到加载更快的技术栈。"
+      },
+      "shop": {
+        "title": "能真正成交的店铺",
+        "detail": "商品页、结算与支付的搭建方式，是让人真正完成购买，而不是中途放弃。"
+      },
+      "landing": {
+        "title": "一个页面，一个报价",
+        "detail": "我们能最快做出来的东西。面向单一人群的一个页面，接好转化追踪，让您看到回报。"
+      },
+      "search_ads": {
+        "title": "在有购买意图的那一刻出现",
+        "detail": "以成交而非点击为目标搭建和投放的广告。在搜索里，人们已经知道自己要什么。"
+      },
+      "social_ads": {
+        "title": "抢在他们之前出现",
+        "detail": "Facebook 与 Instagram 广告，在竞争对手之前把您的报价送到合适的人面前。"
+      },
+      "social": {
+        "title": "能带来去处的社交内容",
+        "detail": "用您已有的素材剪出的短片、字幕和帖子，目的是把人带到网站，而不只是填满信息流。"
+      },
+      "booking": {
+        "title": "在网站上直接预约与付款",
+        "detail": "客户自己选时间并完成付款，一条私信都不用。这正是我们为 Coach Luki 和 Coach Kofi 做的。"
+      },
+      "local_seo": {
+        "title": "本地搜索与评价",
+        "detail": "在客户真正会看的位置获得排名，并在页面上展示最新的 Google 评价。"
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "联系我们",
+    "footer_privacy": "隐私政策",
+    "footer_terms": "服务条款",
+    "footer_cookies": "Cookie 政策",
+    "footer_impressum": "法律声明",
+    "read_transcript": "阅读文字记录",
+    "loading": "加载中",
+    "select_language": "选择语言",
+    "wechat_scan": "在微信中扫码添加我们",
+    "wechat_qr_alt": "Chase Haynes 的微信二维码，扫码添加",
+    "wechat_copy": "复制微信号",
+    "wechat_copied": "已复制",
+    "wechat_open": "通过微信联系我们",
+    "wechat_close": "关闭微信联系卡片",
+    "whatsapp_aria": "在 WhatsApp 上与我们联系（在新标签页打开）"
   }
 }

@@ -609,5 +609,92 @@
     "not_found_title": "Không tìm thấy trang",
     "not_found_message": "Trang bạn đang tìm không tồn tại hoặc đã bị di chuyển. Hãy đưa bạn trở lại đúng hướng.",
     "contact_us": "Liên hệ"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "{name} ơi, đây là nơi chúng tôi sẽ bắt đầu",
+    "headline": "Đây là nơi chúng tôi sẽ bắt đầu",
+    "headline_fallback": "Đã nhận. Còn một bước nữa.",
+    "diagnosis_known": "Dựa trên những gì bạn chia sẻ về {industry}, đây là những phần chúng tôi sẽ cùng bạn xử lý trong cuộc gọi.",
+    "diagnosis_unsure": "Bạn nói chưa chắc chắn, và đó là điểm khởi đầu hoàn toàn bình thường. Với {industry}, tiền thường nằm ở đây, nên đó là chỗ chúng tôi sẽ bắt đầu trong cuộc gọi.",
+    "industry_fallback": "lĩnh vực của bạn",
+    "sub_fallback": "Chúng tôi đã nhận yêu cầu của bạn. Đặt ngay cuộc gọi 15 phút miễn phí; khung giờ sớm nhất dành cho ai đặt trước.",
+    "cover_label": "Chúng ta sẽ bàn gì trong cuộc gọi",
+    "cover_note": "Chúng tôi sẽ đi qua tất cả một cách đầy đủ trong cuộc gọi, gồm cả phạm vi và chi phí.",
+    "calendar_title": "Đặt cuộc gọi làm quen miễn phí",
+    "calendar_fallback": "Lịch không tải được?",
+    "calendar_open": "Mở trực tiếp",
+    "calendar_chat": "Bạn thích nhắn tin hơn?",
+    "calendar_whatsapp": "Nhắn cho chúng tôi trên WhatsApp",
+    "calendar_reply": "và chúng tôi phản hồi trong vài phút.",
+    "next_label": "Tiếp theo là gì",
+    "next_1_title": "Chọn giờ của bạn ở trên",
+    "next_1_desc": "Một cuộc gọi ngắn để chúng tôi hiểu doanh nghiệp và nhu cầu của bạn.",
+    "next_2_title": "Chúng tôi phân tích mọi thứ trong cuộc gọi",
+    "next_2_desc": "Bạn đang mất khách ở đâu, cần sửa gì trước và cần những gì để làm được.",
+    "next_3_title": "Chúng tôi xây, bạn tăng trưởng",
+    "next_3_desc": "Website, quảng cáo, mạng xã hội, hệ thống AI. Chúng tôi làm giúp bạn, lên sóng nhanh.",
+    "founder_kicker": "Bạn sẽ nói chuyện với ai",
+    "founder_title": "Gặp nhà sáng lập",
+    "clients_kicker": "Công việc và những con số",
+    "clients_title": "Khách hàng của chúng tôi",
+    "cta_title": "Muốn xem thêm dự án?",
+    "cta_sub": "Toàn bộ portfolio, đội ngũ và cách chúng tôi làm việc đều có trên trang chính.",
+    "cta_button": "Truy cập blokblokstudio.com",
+    "work": {
+      "site": {
+        "title": "Một website cho một mục tiêu duy nhất",
+        "detail": "Phát triển Next.js theo yêu cầu, không phải mẫu có sẵn. Mỗi trang đều hướng tới một hành động: đặt lịch gọi, đặt hàng hoặc thanh toán."
+      },
+      "redesign": {
+        "title": "Xây tiếp trên những gì đã hiệu quả",
+        "detail": "Chúng tôi giữ những trang đang mang lại kết quả, sửa những trang làm mất khách và chuyển toàn bộ sang nền tảng tải nhanh."
+      },
+      "shop": {
+        "title": "Cửa hàng thực sự chốt đơn",
+        "detail": "Trang sản phẩm, thanh toán và cổng thanh toán được dựng để khách hoàn tất thay vì bỏ giữa chừng."
+      },
+      "landing": {
+        "title": "Một trang, một lời chào hàng",
+        "detail": "Thứ chúng tôi làm nhanh nhất. Một trang duy nhất cho một nhóm khách, có gắn đo lường để bạn thấy nó mang lại gì."
+      },
+      "search_ads": {
+        "title": "Xuất hiện đúng lúc có nhu cầu",
+        "detail": "Chiến dịch xây và vận hành theo đơn hàng chốt được, không phải theo lượt nhấp. Trên tìm kiếm, người ta đã biết mình muốn gì."
+      },
+      "social_ads": {
+        "title": "Đến trước đối thủ",
+        "detail": "Chiến dịch Facebook và Instagram đưa lời chào hàng của bạn tới đúng người trước khi đối thủ làm điều đó."
+      },
+      "social": {
+        "title": "Mạng xã hội dẫn tới đâu đó",
+        "detail": "Clip, phụ đề và bài đăng cắt từ tư liệu bạn đã có, làm ra để đưa người xem về website chứ không chỉ lấp đầy bảng tin."
+      },
+      "booking": {
+        "title": "Đặt lịch và thanh toán ngay trên website",
+        "detail": "Khách tự chọn giờ và thanh toán mà không cần một tin nhắn nào. Đây đúng là thứ chúng tôi đã làm cho Coach Luki và Coach Kofi."
+      },
+      "local_seo": {
+        "title": "Tìm kiếm địa phương và đánh giá",
+        "detail": "Hiển thị ở nơi khách hàng thực sự tìm, kèm đánh giá Google mới nhất ngay trên trang."
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "Liên hệ",
+    "footer_privacy": "Chính sách bảo mật",
+    "footer_terms": "Điều khoản dịch vụ",
+    "footer_cookies": "Chính sách cookie",
+    "footer_impressum": "Thông tin pháp lý",
+    "read_transcript": "Đọc bản ghi",
+    "loading": "Đang tải",
+    "select_language": "Chọn ngôn ngữ",
+    "wechat_scan": "Quét trên WeChat để thêm chúng tôi",
+    "wechat_qr_alt": "Mã QR WeChat của Chase Haynes, quét để thêm",
+    "wechat_copy": "Sao chép ID WeChat",
+    "wechat_copied": "Đã sao chép",
+    "wechat_open": "Liên hệ chúng tôi trên WeChat",
+    "wechat_close": "Đóng thẻ liên hệ WeChat",
+    "whatsapp_aria": "Nhắn tin cho chúng tôi trên WhatsApp (mở tab mới)"
   }
 }

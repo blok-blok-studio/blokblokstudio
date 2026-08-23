@@ -609,5 +609,92 @@
     "not_found_title": "Sayfa bulunamadı",
     "not_found_message": "Aradığınız sayfa mevcut değil veya taşındı. Sizi tekrar yola koyalım.",
     "contact_us": "Bize ulaşın"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "İşte buradan başlardık, {name}",
+    "headline": "İşte buradan başlardık",
+    "headline_fallback": "Aldık. Bir adım kaldı.",
+    "diagnosis_known": "{industry} hakkında bize anlattıklarınıza göre, görüşmede sizinle bunları ele alırdık.",
+    "diagnosis_unsure": "Henüz emin değilsiniz, bu da gayet normal bir başlangıç noktası. {industry} alanında para genelde burada olur, o yüzden görüşmede oradan başlardık.",
+    "industry_fallback": "sektörünüz",
+    "sub_fallback": "Talebinizi aldık. Ücretsiz 15 dakikalık ilk görüşmenizi hemen ayırtın; en erken saatler ilk ayırtana gider.",
+    "cover_label": "Görüşmede neleri ele alacağız",
+    "cover_note": "Görüşmede her şeyi kapsam ve maliyet dahil düzgünce ele alacağız.",
+    "calendar_title": "Ücretsiz tanışma görüşmenizi ayırtın",
+    "calendar_fallback": "Takvim yüklenmiyor mu?",
+    "calendar_open": "Doğrudan açın",
+    "calendar_chat": "Yazmayı mı tercih edersiniz?",
+    "calendar_whatsapp": "Bize WhatsApp'tan yazın",
+    "calendar_reply": "dakikalar içinde yanıt veriyoruz.",
+    "next_label": "Sırada ne var",
+    "next_1_title": "Yukarıdan saatinizi seçin",
+    "next_1_desc": "İşinizi ve ihtiyacınızı tanımamız için kısa bir görüşme.",
+    "next_2_title": "Görüşmede her şeyi tek tek açıyoruz",
+    "next_2_desc": "Nerede müşteri kaybettiğinizi, önce neyi düzeltmek gerektiğini ve bunun neye mal olacağını.",
+    "next_3_title": "Biz kuruyoruz, siz büyüyorsunuz",
+    "next_3_desc": "Web sitesi, reklamlar, sosyal medya, yapay zekâ sistemleri. Sizin için yapılır, hızla yayına girer.",
+    "founder_kicker": "Kiminle konuşacaksınız",
+    "founder_title": "Kurucuyla tanışın",
+    "clients_kicker": "İşler ve rakamlar",
+    "clients_title": "Müşterilerimiz",
+    "cta_title": "Daha fazla iş görmek ister misiniz?",
+    "cta_sub": "Tüm portföy, ekip ve nasıl çalıştığımız ana sitede.",
+    "cta_button": "blokblokstudio.com'u ziyaret edin",
+    "work": {
+      "site": {
+        "title": "Tek bir işe göre kurulmuş bir site",
+        "detail": "Şablon değil, size özel Next.js geliştirme. Her sayfa tek bir eyleme yönlendirir: ayrılmış bir görüşme, bir sipariş ya da bir ödeme."
+      },
+      "redesign": {
+        "title": "Zaten işleyenin üzerine kurmak",
+        "detail": "Hâlihazırda iş gören sayfaları tutar, ziyaretçi kaybettirenleri düzeltir ve tüm yapıyı hızlı yüklenen bir altyapıya taşırız."
+      },
+      "shop": {
+        "title": "Satışı kapatan bir mağaza",
+        "detail": "Ürün sayfaları, ödeme adımı ve tahsilat, insanlar yarıda bırakmak yerine işlemi tamamlasın diye kurulur."
+      },
+      "landing": {
+        "title": "Tek sayfa, tek teklif",
+        "detail": "En hızlı kurduğumuz şey. Tek bir kitleye yönelik tek bir sayfa, ne getirdiğini görebilmeniz için ölçümlemesi bağlı."
+      },
+      "search_ads": {
+        "title": "Niyet anında orada olmak",
+        "detail": "Tıklamaya değil, alınan işe göre kurulan ve yönetilen kampanyalar. Aramada insanlar ne istediğini zaten bilir."
+      },
+      "social_ads": {
+        "title": "Onlardan önce görünmek",
+        "detail": "Teklifinizi bir rakip yapmadan önce doğru kişilerin önüne koyan Facebook ve Instagram kampanyaları."
+      },
+      "social": {
+        "title": "Bir yere götüren sosyal medya",
+        "detail": "Elinizde zaten olan görüntülerden çıkarılan klipler, altyazılar ve gönderiler; akışı doldurmak yerine insanları siteye taşımak için."
+      },
+      "booking": {
+        "title": "Sitede randevu ve ödeme",
+        "detail": "Müşteriler saat seçer ve tek bir mesaj bile atmadan öder. Coach Luki ve Coach Kofi için tam olarak bunu kurduk."
+      },
+      "local_seo": {
+        "title": "Yerel arama ve değerlendirmeler",
+        "detail": "Müşterilerinizin gerçekten baktığı yerde görünmek, sayfada güncel Google değerlendirmeleriyle."
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "İletişim",
+    "footer_privacy": "Gizlilik Politikası",
+    "footer_terms": "Kullanım Koşulları",
+    "footer_cookies": "Çerez Politikası",
+    "footer_impressum": "Künye",
+    "read_transcript": "Metni oku",
+    "loading": "Yükleniyor",
+    "select_language": "Dil seçin",
+    "wechat_scan": "Bizi eklemek için WeChat'te tarayın",
+    "wechat_qr_alt": "Chase Haynes'in WeChat QR kodu, eklemek için tarayın",
+    "wechat_copy": "WeChat kimliğini kopyala",
+    "wechat_copied": "Kopyalandı",
+    "wechat_open": "WeChat'ten bize ulaşın",
+    "wechat_close": "WeChat iletişim kartını kapat",
+    "whatsapp_aria": "WhatsApp'tan bize yazın (yeni sekmede açılır)"
   }
 }

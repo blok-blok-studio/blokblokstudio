@@ -609,5 +609,92 @@
     "not_found_title": "페이지를 찾을 수 없습니다",
     "not_found_message": "찾으시는 페이지가 존재하지 않거나 이동되었습니다. 다시 제 자리로 안내해 드릴게요.",
     "contact_us": "문의하기"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "{name}님, 여기서부터 시작하겠습니다",
+    "headline": "여기서부터 시작하겠습니다",
+    "headline_fallback": "접수했습니다. 한 단계 남았습니다.",
+    "diagnosis_known": "{industry}에 대해 말씀해 주신 내용을 바탕으로, 통화에서 이 부분을 함께 짚어보겠습니다.",
+    "diagnosis_unsure": "아직 확실하지 않다고 하셨는데, 아주 자연스러운 출발점입니다. {industry}에서는 보통 여기에 수익이 있어서, 통화에서 그 지점부터 시작하겠습니다.",
+    "industry_fallback": "고객님의 분야",
+    "sub_fallback": "요청 접수했습니다. 무료 15분 상담을 지금 예약하세요. 빠른 시간대는 먼저 예약하신 분께 배정됩니다.",
+    "cover_label": "통화에서 다룰 내용",
+    "cover_note": "범위와 비용까지 포함해 통화에서 제대로 짚어드리겠습니다.",
+    "calendar_title": "무료 첫 상담 예약하기",
+    "calendar_fallback": "캘린더가 안 열리나요?",
+    "calendar_open": "바로 열기",
+    "calendar_chat": "채팅이 편하신가요?",
+    "calendar_whatsapp": "WhatsApp으로 메시지 보내기",
+    "calendar_reply": "몇 분 안에 답변드립니다.",
+    "next_label": "다음 순서",
+    "next_1_title": "위에서 시간을 선택하세요",
+    "next_1_desc": "비즈니스와 필요하신 부분을 파악하기 위한 짧은 통화입니다.",
+    "next_2_title": "통화에서 전부 분해해 설명드립니다",
+    "next_2_desc": "어디서 고객을 잃고 있는지, 무엇부터 고쳐야 하는지, 그러려면 무엇이 필요한지.",
+    "next_3_title": "저희가 만들고, 고객님이 성장합니다",
+    "next_3_desc": "웹사이트, 광고, 소셜, AI 시스템. 저희가 맡아 빠르게 오픈합니다.",
+    "founder_kicker": "누구와 이야기하게 되는지",
+    "founder_title": "창업자 소개",
+    "clients_kicker": "작업과 숫자",
+    "clients_title": "고객사",
+    "cta_title": "더 많은 작업이 궁금하신가요?",
+    "cta_sub": "전체 포트폴리오, 팀, 작업 방식은 모두 메인 사이트에 있습니다.",
+    "cta_button": "blokblokstudio.com 방문하기",
+    "work": {
+      "site": {
+        "title": "하나의 목표를 위해 만든 사이트",
+        "detail": "템플릿이 아닌 맞춤 Next.js 개발. 모든 페이지가 예약된 상담, 주문, 결제 중 하나의 행동으로 이어지도록 설계합니다."
+      },
+      "redesign": {
+        "title": "이미 잘 되는 것 위에 다시 세우기",
+        "detail": "성과가 나는 페이지는 유지하고, 방문자가 빠져나가는 페이지는 고치고, 전체를 빠르게 로드되는 구조로 옮깁니다."
+      },
+      "shop": {
+        "title": "실제로 구매까지 가는 스토어",
+        "detail": "상품 페이지, 결제 과정, 결제 수단을 중간에 이탈하지 않고 끝까지 마치도록 구성합니다."
+      },
+      "landing": {
+        "title": "한 페이지, 하나의 제안",
+        "detail": "가장 빠르게 만드는 결과물입니다. 하나의 대상을 겨냥한 한 페이지에 측정을 연결해 성과가 보이게 합니다."
+      },
+      "search_ads": {
+        "title": "구매 의도가 생긴 순간에 노출되기",
+        "detail": "클릭이 아니라 성사된 일감을 기준으로 만들고 운영하는 캠페인. 검색에서는 이미 원하는 것이 정해져 있습니다."
+      },
+      "social_ads": {
+        "title": "경쟁사보다 먼저 닿기",
+        "detail": "경쟁사보다 먼저 적합한 사람들에게 제안을 노출하는 페이스북·인스타그램 캠페인."
+      },
+      "social": {
+        "title": "어딘가로 이어지는 소셜",
+        "detail": "이미 가지고 계신 영상에서 잘라낸 클립, 자막, 게시물. 피드를 채우는 것이 아니라 사이트로 사람을 옮기기 위해 만듭니다."
+      },
+      "booking": {
+        "title": "사이트에서 바로 예약과 결제",
+        "detail": "고객이 DM 한 번 없이 시간을 고르고 결제합니다. Coach Luki와 Coach Kofi를 위해 만든 것이 정확히 이것입니다."
+      },
+      "local_seo": {
+        "title": "로컬 검색과 리뷰",
+        "detail": "고객이 실제로 찾아보는 곳에서 노출되고, 최신 구글 리뷰를 페이지에 함께 보여줍니다."
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "문의하기",
+    "footer_privacy": "개인정보 처리방침",
+    "footer_terms": "이용약관",
+    "footer_cookies": "쿠키 정책",
+    "footer_impressum": "사업자 정보",
+    "read_transcript": "전문 읽기",
+    "loading": "불러오는 중",
+    "select_language": "언어 선택",
+    "wechat_scan": "WeChat에서 스캔해 추가하세요",
+    "wechat_qr_alt": "Chase Haynes의 WeChat QR 코드, 스캔해 추가",
+    "wechat_copy": "WeChat ID 복사",
+    "wechat_copied": "복사됨",
+    "wechat_open": "WeChat으로 문의하기",
+    "wechat_close": "WeChat 연락처 카드 닫기",
+    "whatsapp_aria": "WhatsApp으로 채팅하기 (새 탭에서 열림)"
   }
 }

@@ -609,5 +609,92 @@
     "not_found_title": "Sidan hittades inte",
     "not_found_message": "Sidan du letar efter finns inte eller har flyttats. Låt oss få dig tillbaka på rätt spår.",
     "contact_us": "Kontakta oss"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "Här skulle vi börja, {name}",
+    "headline": "Här skulle vi börja",
+    "headline_fallback": "Du är inne. Ett steg kvar.",
+    "diagnosis_known": "Utifrån vad du berättade om {industry} är det här vi skulle gå igenom med dig på samtalet.",
+    "diagnosis_unsure": "Du är inte säker än, och det är en helt normal utgångspunkt. Inom {industry} ligger pengarna oftast här, så det är där vi skulle börja på samtalet.",
+    "industry_fallback": "din bransch",
+    "sub_fallback": "Vi har din förfrågan. Boka ditt kostnadsfria 15-minuterssamtal nu; de tidigaste tiderna går till den som bokar först.",
+    "cover_label": "Vad vi går igenom på samtalet",
+    "cover_note": "Vi går igenom allt ordentligt på samtalet, omfattning och kostnad inkluderat.",
+    "calendar_title": "Boka ditt kostnadsfria introsamtal",
+    "calendar_fallback": "Laddar inte kalendern?",
+    "calendar_open": "Öppna den direkt",
+    "calendar_chat": "Föredrar du att skriva?",
+    "calendar_whatsapp": "Skriv till oss på WhatsApp",
+    "calendar_reply": "så svarar vi inom några minuter.",
+    "next_label": "Vad som händer sedan",
+    "next_1_title": "Välj din tid ovan",
+    "next_1_desc": "Ett kort samtal så vi lär känna din verksamhet och vad du behöver.",
+    "next_2_title": "Vi bryter ner allt på samtalet",
+    "next_2_desc": "Var du tappar kunder, vad som ska åtgärdas först och vad det kräver.",
+    "next_3_title": "Vi bygger, du växer",
+    "next_3_desc": "Webbplats, annonser, sociala medier, AI-system. Gjort åt dig, snabbt i drift.",
+    "founder_kicker": "Vem du kommer att prata med",
+    "founder_title": "Möt grundaren",
+    "clients_kicker": "Arbetet och siffrorna",
+    "clients_title": "Våra kunder",
+    "cta_title": "Vill du se mer av arbetet?",
+    "cta_sub": "Hela portföljen, teamet och hur vi bygger finns på huvudsajten.",
+    "cta_button": "Besök blokblokstudio.com",
+    "work": {
+      "site": {
+        "title": "En sajt byggd för en uppgift",
+        "detail": "Skräddarsydd Next.js, inte en mall. Varje sida pekar mot en enda handling, vare sig det är ett bokat samtal, en order eller en betalning."
+      },
+      "redesign": {
+        "title": "Bygg vidare på det som redan fungerar",
+        "detail": "Vi behåller sidorna som redan levererar, lagar de som läcker besökare och flyttar helheten till en stack som laddar snabbt."
+      },
+      "shop": {
+        "title": "En butik som stänger affären",
+        "detail": "Produktsidor, kassa och betalningar byggda så att folk faktiskt slutför i stället för att hoppa av halvvägs."
+      },
+      "landing": {
+        "title": "En sida, ett erbjudande",
+        "detail": "Det snabbaste vi bygger. En enda sida riktad mot en målgrupp, med spårning kopplad så du ser vad den ger."
+      },
+      "search_ads": {
+        "title": "Synas i avsiktsögonblicket",
+        "detail": "Kampanjer byggda och styrda mot bokade jobb, inte klick. I sök vet folk redan vad de vill ha."
+      },
+      "social_ads": {
+        "title": "Komma före dem",
+        "detail": "Facebook- och Instagram-kampanjer som placerar erbjudandet framför rätt personer innan en konkurrent gör det."
+      },
+      "social": {
+        "title": "Social som leder någonstans",
+        "detail": "Klipp, undertexter och inlägg klippta ur material du redan har, byggda för att föra folk till sajten i stället för att bara fylla ett flöde."
+      },
+      "booking": {
+        "title": "Bokning och betalning på sajten",
+        "detail": "Kunder väljer en tid och betalar utan ett enda DM. Precis det byggde vi åt Coach Luki och Coach Kofi."
+      },
+      "local_seo": {
+        "title": "Lokal sökning och omdömen",
+        "detail": "Ranka där dina kunder faktiskt tittar, med aktuella Google-omdömen på sidan."
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "Kontakt",
+    "footer_privacy": "Integritetspolicy",
+    "footer_terms": "Användarvillkor",
+    "footer_cookies": "Cookiepolicy",
+    "footer_impressum": "Impressum",
+    "read_transcript": "Läs transkriptionen",
+    "loading": "Laddar",
+    "select_language": "Välj språk",
+    "wechat_scan": "Skanna i WeChat för att lägga till oss",
+    "wechat_qr_alt": "WeChat QR-kod för Chase Haynes, skanna för att lägga till",
+    "wechat_copy": "Kopiera WeChat-ID",
+    "wechat_copied": "Kopierad",
+    "wechat_open": "Kontakta oss på WeChat",
+    "wechat_close": "Stäng WeChat-kontaktkortet",
+    "whatsapp_aria": "Chatta med oss på WhatsApp (öppnas i ny flik)"
   }
 }

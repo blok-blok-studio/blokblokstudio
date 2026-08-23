@@ -609,5 +609,92 @@
     "not_found_title": "找不到頁面",
     "not_found_message": "您要找的頁面不存在或已被移動。讓我們帶您回到正軌。",
     "contact_us": "聯絡我們"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "{name}，我們會從這裡開始",
+    "headline": "我們會從這裡開始",
+    "headline_fallback": "已收到。還差一步。",
+    "diagnosis_known": "根據您介紹的{industry}情況，這是我們會在通話中和您一起梳理的內容。",
+    "diagnosis_unsure": "您說還不確定，這是非常正常的起點。在{industry}領域，收益通常就在這裡，所以通話時我們會從這裡著手。",
+    "industry_fallback": "您所在的產業",
+    "sub_fallback": "我們已收到您的需求。現在預約免費的 15 分鐘諮詢；最早的時段先到先得。",
+    "cover_label": "通話中會談什麼",
+    "cover_note": "我們會在通話中把所有事情講清楚，包含範圍與費用。",
+    "calendar_title": "預約免費的初次諮詢",
+    "calendar_fallback": "日曆打不開？",
+    "calendar_open": "直接開啟",
+    "calendar_chat": "更想用文字溝通？",
+    "calendar_whatsapp": "在 WhatsApp 上聯絡我們",
+    "calendar_reply": "我們會在幾分鐘內回覆。",
+    "next_label": "接下來會發生什麼",
+    "next_1_title": "在上方選擇時間",
+    "next_1_desc": "一通簡短的通話，讓我們了解您的業務與需求。",
+    "next_2_title": "我們在通話中逐項拆解",
+    "next_2_desc": "您在哪裡流失客戶、先修哪裡，以及需要什麼才能做到。",
+    "next_3_title": "我們來做，您來成長",
+    "next_3_desc": "網站、廣告、社群、AI 系統。交給我們，快速上線。",
+    "founder_kicker": "您將和誰溝通",
+    "founder_title": "認識創辦人",
+    "clients_kicker": "作品與數據",
+    "clients_title": "我們的客戶",
+    "cta_title": "想看更多案例嗎？",
+    "cta_sub": "完整作品集、團隊以及我們的做法都在主站上。",
+    "cta_button": "造訪 blokblokstudio.com",
+    "work": {
+      "site": {
+        "title": "為單一目標而建的網站",
+        "detail": "客製化 Next.js 開發，而非範本。每個頁面都指向一個動作：預約通話、下單或付款。"
+      },
+      "redesign": {
+        "title": "在已經有效的基礎上重建",
+        "detail": "保留已經帶來成效的頁面，修好流失訪客的頁面，並把整體遷移到載入更快的技術架構。"
+      },
+      "shop": {
+        "title": "能真正成交的商店",
+        "detail": "商品頁、結帳與付款的建置方式，是讓人真正完成購買，而不是中途放棄。"
+      },
+      "landing": {
+        "title": "一個頁面，一個方案",
+        "detail": "我們能最快做出來的東西。針對單一客群的一個頁面，接上追蹤，讓您看到回報。"
+      },
+      "search_ads": {
+        "title": "在有購買意圖的那一刻出現",
+        "detail": "以成交而非點擊為目標建置與投放的廣告。在搜尋裡，人們已經知道自己要什麼。"
+      },
+      "social_ads": {
+        "title": "搶在他們之前出現",
+        "detail": "Facebook 與 Instagram 廣告，在競爭對手之前把您的方案送到合適的人面前。"
+      },
+      "social": {
+        "title": "能帶來去處的社群內容",
+        "detail": "用您既有的素材剪出的短片、字幕與貼文，目的是把人帶到網站，而不只是填滿動態。"
+      },
+      "booking": {
+        "title": "在網站上直接預約與付款",
+        "detail": "客戶自己選時間並完成付款，一則私訊都不用。這正是我們為 Coach Luki 和 Coach Kofi 做的。"
+      },
+      "local_seo": {
+        "title": "在地搜尋與評論",
+        "detail": "在客戶真正會看的位置取得排名，並在頁面上顯示最新的 Google 評論。"
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "聯絡我們",
+    "footer_privacy": "隱私權政策",
+    "footer_terms": "服務條款",
+    "footer_cookies": "Cookie 政策",
+    "footer_impressum": "法律聲明",
+    "read_transcript": "閱讀逐字稿",
+    "loading": "載入中",
+    "select_language": "選擇語言",
+    "wechat_scan": "在微信中掃碼加我們",
+    "wechat_qr_alt": "Chase Haynes 的微信 QR 碼，掃碼加入",
+    "wechat_copy": "複製微信 ID",
+    "wechat_copied": "已複製",
+    "wechat_open": "透過微信聯絡我們",
+    "wechat_close": "關閉微信聯絡卡片",
+    "whatsapp_aria": "在 WhatsApp 上與我們聯絡（在新分頁開啟）"
   }
 }

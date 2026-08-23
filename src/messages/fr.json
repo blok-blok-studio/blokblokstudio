@@ -609,5 +609,92 @@
     "not_found_title": "Page introuvable",
     "not_found_message": "La page que vous recherchez n'existe pas ou a été déplacée. Remettons-vous sur la bonne voie.",
     "contact_us": "Nous contacter"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "Voici par où nous commencerions, {name}",
+    "headline": "Voici par où nous commencerions",
+    "headline_fallback": "C'est noté. Encore une étape.",
+    "diagnosis_known": "D'après ce que vous nous avez dit sur {industry}, voici ce que nous travaillerions avec vous pendant l'appel.",
+    "diagnosis_unsure": "Vous n'êtes pas encore sûr, et c'est un point de départ tout à fait normal. Pour {industry}, c'est généralement là que se trouve l'argent, donc c'est par là que nous commencerions.",
+    "industry_fallback": "votre secteur",
+    "sub_fallback": "Nous avons votre demande. Réservez maintenant votre appel de 15 minutes gratuit ; les premiers créneaux partent en premier.",
+    "cover_label": "Ce que nous verrons pendant l'appel",
+    "cover_note": "Nous passerons tout en revue correctement pendant l'appel, périmètre et budget compris.",
+    "calendar_title": "Réservez votre appel découverte gratuit",
+    "calendar_fallback": "Le calendrier ne charge pas ?",
+    "calendar_open": "L'ouvrir directement",
+    "calendar_chat": "Vous préférez écrire ?",
+    "calendar_whatsapp": "Écrivez-nous sur WhatsApp",
+    "calendar_reply": "et nous répondons en quelques minutes.",
+    "next_label": "La suite",
+    "next_1_title": "Choisissez votre créneau ci-dessus",
+    "next_1_desc": "Un court appel pour comprendre votre activité et vos besoins.",
+    "next_2_title": "Nous décortiquons tout pendant l'appel",
+    "next_2_desc": "Où vous perdez des clients, quoi corriger en premier et ce que cela demande.",
+    "next_3_title": "Nous construisons, vous grandissez",
+    "next_3_desc": "Site, publicité, réseaux, systèmes IA. Réalisé pour vous, en ligne rapidement.",
+    "founder_kicker": "Avec qui vous allez parler",
+    "founder_title": "Rencontrez le fondateur",
+    "clients_kicker": "Le travail et les chiffres",
+    "clients_title": "Nos clients",
+    "cta_title": "Envie de voir plus de projets ?",
+    "cta_sub": "Le portfolio complet, l'équipe et notre façon de travailler sont sur le site principal.",
+    "cta_button": "Visiter blokblokstudio.com",
+    "work": {
+      "site": {
+        "title": "Un site avec un seul objectif",
+        "detail": "Développement Next.js sur mesure, pas un template. Chaque page mène à une seule action : un appel réservé, une commande ou un paiement."
+      },
+      "redesign": {
+        "title": "Reconstruire sur ce qui fonctionne déjà",
+        "detail": "Nous gardons les pages qui performent, corrigeons celles qui perdent des visiteurs et déplaçons l'ensemble sur une base qui charge vite."
+      },
+      "shop": {
+        "title": "Une boutique qui conclut",
+        "detail": "Fiches produit, tunnel et paiements conçus pour que les gens aillent au bout au lieu d'abandonner en route."
+      },
+      "landing": {
+        "title": "Une page, une offre",
+        "detail": "Ce que nous construisons le plus vite. Une seule page pour une audience, avec le tracking connecté pour voir ce qu'elle rapporte."
+      },
+      "search_ads": {
+        "title": "Être là au moment de l'intention",
+        "detail": "Des campagnes construites et pilotées sur les missions signées, pas sur les clics. En recherche, les gens savent déjà ce qu'ils veulent."
+      },
+      "social_ads": {
+        "title": "Arriver avant eux",
+        "detail": "Des campagnes Facebook et Instagram qui placent votre offre devant les bonnes personnes avant un concurrent."
+      },
+      "social": {
+        "title": "Du social qui mène quelque part",
+        "detail": "Clips, sous-titres et publications tirés de vos rushes existants, pensés pour amener les gens sur le site plutôt que remplir un fil."
+      },
+      "booking": {
+        "title": "Réservation et paiement sur le site",
+        "detail": "Les clients choisissent un créneau et paient sans un seul message. C'est exactement ce que nous avons construit pour Coach Luki et Coach Kofi."
+      },
+      "local_seo": {
+        "title": "Recherche locale et avis",
+        "detail": "Être visible là où vos clients cherchent vraiment, avec les avis Google à jour sur la page."
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "Contact",
+    "footer_privacy": "Politique de confidentialité",
+    "footer_terms": "Conditions d'utilisation",
+    "footer_cookies": "Politique de cookies",
+    "footer_impressum": "Mentions légales",
+    "read_transcript": "Lire la transcription",
+    "loading": "Chargement",
+    "select_language": "Choisir la langue",
+    "wechat_scan": "Scannez dans WeChat pour nous ajouter",
+    "wechat_qr_alt": "QR code WeChat de Chase Haynes, à scanner pour ajouter",
+    "wechat_copy": "Copier l'identifiant WeChat",
+    "wechat_copied": "Copié",
+    "wechat_open": "Nous contacter sur WeChat",
+    "wechat_close": "Fermer la carte de contact WeChat",
+    "whatsapp_aria": "Discutez avec nous sur WhatsApp (ouvre un nouvel onglet)"
   }
 }

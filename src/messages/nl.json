@@ -609,5 +609,92 @@
     "not_found_title": "Pagina niet gevonden",
     "not_found_message": "De pagina die je zoekt bestaat niet of is verplaatst. Laten we je weer op weg helpen.",
     "contact_us": "Contact opnemen"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "Hier zouden we beginnen, {name}",
+    "headline": "Hier zouden we beginnen",
+    "headline_fallback": "Je staat erop. Nog één stap.",
+    "diagnosis_known": "Op basis van wat je ons over {industry} vertelde, is dit wat we in het gesprek met je zouden doornemen.",
+    "diagnosis_unsure": "Je weet het nog niet zeker, en dat is een heel normaal startpunt. Bij {industry} zit het geld meestal hier, dus daar zouden we in het gesprek beginnen.",
+    "industry_fallback": "jouw vakgebied",
+    "sub_fallback": "We hebben je aanvraag. Zet nu je gratis gesprek van 15 minuten vast; de vroegste momenten gaan naar wie het eerst boekt.",
+    "cover_label": "Wat we in het gesprek behandelen",
+    "cover_note": "We nemen alles rustig door in het gesprek, inclusief omvang en kosten.",
+    "calendar_title": "Boek je gratis kennismakingsgesprek",
+    "calendar_fallback": "Laadt de agenda niet?",
+    "calendar_open": "Direct openen",
+    "calendar_chat": "Liever chatten?",
+    "calendar_whatsapp": "Stuur ons een bericht op WhatsApp",
+    "calendar_reply": "en we reageren binnen enkele minuten.",
+    "next_label": "Hoe het verdergaat",
+    "next_1_title": "Kies hierboven je tijd",
+    "next_1_desc": "Een kort gesprek zodat we je bedrijf en je wensen leren kennen.",
+    "next_2_title": "We pakken alles uit in het gesprek",
+    "next_2_desc": "Waar je klanten verliest, wat je eerst moet oplossen en wat daarvoor nodig is.",
+    "next_3_title": "Wij bouwen, jij groeit",
+    "next_3_desc": "Website, advertenties, social, AI-systemen. Voor je gedaan, snel live.",
+    "founder_kicker": "Met wie je gaat spreken",
+    "founder_title": "Maak kennis met de oprichter",
+    "clients_kicker": "Het werk en de cijfers",
+    "clients_title": "Onze klanten",
+    "cta_title": "Meer werk zien?",
+    "cta_sub": "Het volledige portfolio, het team en hoe we bouwen staan op de hoofdsite.",
+    "cta_button": "Bezoek blokblokstudio.com",
+    "work": {
+      "site": {
+        "title": "Een site met één doel",
+        "detail": "Maatwerk Next.js, geen template. Elke pagina wijst naar één actie: een geboekt gesprek, een bestelling of een betaling."
+      },
+      "redesign": {
+        "title": "Bouwen op wat al werkt",
+        "detail": "We houden de pagina's die al presteren, repareren de pagina's waar bezoekers weglekken en zetten het geheel op een stack die snel laadt."
+      },
+      "shop": {
+        "title": "Een winkel die afrondt",
+        "detail": "Productpagina's, checkout en betalingen zo opgezet dat mensen echt afronden in plaats van halverwege afhaken."
+      },
+      "landing": {
+        "title": "Eén pagina, één aanbod",
+        "detail": "Het snelste wat we bouwen. Eén pagina voor één doelgroep, met tracking eraan zodat je ziet wat het oplevert."
+      },
+      "search_ads": {
+        "title": "Er zijn op het moment van intentie",
+        "detail": "Campagnes gebouwd en gestuurd op geboekte opdrachten, niet op klikken. In zoekopdrachten weten mensen al wat ze willen."
+      },
+      "social_ads": {
+        "title": "Eerder in beeld dan zij",
+        "detail": "Facebook- en Instagram-campagnes die je aanbod voor de juiste mensen krijgen voordat een concurrent dat doet."
+      },
+      "social": {
+        "title": "Social dat ergens heen leidt",
+        "detail": "Clips, ondertitels en posts uit materiaal dat je al hebt, gemaakt om mensen naar de site te brengen in plaats van een feed te vullen."
+      },
+      "booking": {
+        "title": "Boeken en betalen op de site zelf",
+        "detail": "Klanten kiezen een moment en betalen zonder één DM. Precies dit bouwden we voor Coach Luki en Coach Kofi."
+      },
+      "local_seo": {
+        "title": "Lokale vindbaarheid en reviews",
+        "detail": "Scoren waar je klanten echt zoeken, met actuele Google-reviews op de pagina."
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "Contact",
+    "footer_privacy": "Privacybeleid",
+    "footer_terms": "Algemene voorwaarden",
+    "footer_cookies": "Cookiebeleid",
+    "footer_impressum": "Colofon",
+    "read_transcript": "Transcript lezen",
+    "loading": "Laden",
+    "select_language": "Taal kiezen",
+    "wechat_scan": "Scan in WeChat om ons toe te voegen",
+    "wechat_qr_alt": "WeChat QR-code van Chase Haynes, scan om toe te voegen",
+    "wechat_copy": "WeChat-ID kopiëren",
+    "wechat_copied": "Gekopieerd",
+    "wechat_open": "Neem contact op via WeChat",
+    "wechat_close": "WeChat-contactkaart sluiten",
+    "whatsapp_aria": "Chat met ons op WhatsApp (opent in nieuw tabblad)"
   }
 }

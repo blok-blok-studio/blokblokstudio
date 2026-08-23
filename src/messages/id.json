@@ -609,5 +609,92 @@
     "not_found_title": "Halaman tidak ditemukan",
     "not_found_message": "Halaman yang Anda cari tidak ada atau telah dipindahkan. Mari kembali ke jalur yang benar.",
     "contact_us": "Hubungi kami"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "{name}, di sinilah kami akan mulai",
+    "headline": "Di sinilah kami akan mulai",
+    "headline_fallback": "Sudah masuk. Tinggal satu langkah.",
+    "diagnosis_known": "Berdasarkan yang Anda ceritakan tentang {industry}, inilah yang akan kami bahas bersama Anda saat panggilan.",
+    "diagnosis_unsure": "Anda bilang belum yakin, dan itu titik awal yang sangat wajar. Di {industry}, uangnya biasanya ada di sini, jadi dari situlah kami akan mulai saat panggilan.",
+    "industry_fallback": "bidang Anda",
+    "sub_fallback": "Permintaan Anda sudah kami terima. Pesan panggilan 15 menit gratis sekarang; slot paling awal untuk yang memesan lebih dulu.",
+    "cover_label": "Yang akan kita bahas saat panggilan",
+    "cover_note": "Kami akan membahas semuanya dengan tuntas saat panggilan, termasuk cakupan dan biaya.",
+    "calendar_title": "Pesan panggilan perkenalan gratis",
+    "calendar_fallback": "Kalender tidak memuat?",
+    "calendar_open": "Buka langsung",
+    "calendar_chat": "Lebih suka chat?",
+    "calendar_whatsapp": "Kirim pesan lewat WhatsApp",
+    "calendar_reply": "dan kami balas dalam hitungan menit.",
+    "next_label": "Apa yang terjadi selanjutnya",
+    "next_1_title": "Pilih waktu Anda di atas",
+    "next_1_desc": "Panggilan singkat agar kami mengenal bisnis dan kebutuhan Anda.",
+    "next_2_title": "Kami uraikan semuanya saat panggilan",
+    "next_2_desc": "Di mana Anda kehilangan pelanggan, apa yang harus dibenahi lebih dulu, dan apa yang dibutuhkan untuk itu.",
+    "next_3_title": "Kami membangun, Anda bertumbuh",
+    "next_3_desc": "Situs, iklan, media sosial, sistem AI. Dikerjakan untuk Anda, cepat tayang.",
+    "founder_kicker": "Dengan siapa Anda akan berbicara",
+    "founder_title": "Kenali pendirinya",
+    "clients_kicker": "Karya dan angkanya",
+    "clients_title": "Klien kami",
+    "cta_title": "Ingin melihat lebih banyak karya?",
+    "cta_sub": "Portofolio lengkap, tim, dan cara kami bekerja semuanya ada di situs utama.",
+    "cta_button": "Kunjungi blokblokstudio.com",
+    "work": {
+      "site": {
+        "title": "Situs yang dibangun untuk satu tujuan",
+        "detail": "Pengembangan Next.js khusus, bukan template. Setiap halaman mengarah ke satu tindakan: panggilan yang dipesan, pesanan, atau pembayaran."
+      },
+      "redesign": {
+        "title": "Membangun di atas yang sudah berhasil",
+        "detail": "Kami pertahankan halaman yang sudah memberi hasil, perbaiki yang membuat pengunjung pergi, dan pindahkan semuanya ke fondasi yang memuat cepat."
+      },
+      "shop": {
+        "title": "Toko yang benar-benar menutup penjualan",
+        "detail": "Halaman produk, checkout, dan pembayaran disusun agar orang menyelesaikan, bukan berhenti di tengah jalan."
+      },
+      "landing": {
+        "title": "Satu halaman, satu penawaran",
+        "detail": "Yang paling cepat kami buat. Satu halaman untuk satu audiens, dengan pelacakan terpasang agar Anda melihat hasilnya."
+      },
+      "search_ads": {
+        "title": "Hadir di saat niat muncul",
+        "detail": "Kampanye yang dibangun dan dikelola untuk pekerjaan yang masuk, bukan klik. Di pencarian, orang sudah tahu apa yang mereka mau."
+      },
+      "social_ads": {
+        "title": "Tiba lebih dulu dari mereka",
+        "detail": "Kampanye Facebook dan Instagram yang menempatkan penawaran Anda di depan orang yang tepat sebelum pesaing melakukannya."
+      },
+      "social": {
+        "title": "Media sosial yang mengarah ke suatu tempat",
+        "detail": "Klip, teks, dan unggahan dari materi yang sudah Anda punya, dibuat untuk membawa orang ke situs, bukan sekadar mengisi linimasa."
+      },
+      "booking": {
+        "title": "Pemesanan dan pembayaran di situs",
+        "detail": "Klien memilih waktu dan membayar tanpa satu pun DM. Persis inilah yang kami bangun untuk Coach Luki dan Coach Kofi."
+      },
+      "local_seo": {
+        "title": "Pencarian lokal dan ulasan",
+        "detail": "Muncul di tempat pelanggan Anda benar-benar mencari, dengan ulasan Google terbaru di halaman."
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "Kontak",
+    "footer_privacy": "Kebijakan Privasi",
+    "footer_terms": "Ketentuan Layanan",
+    "footer_cookies": "Kebijakan Cookie",
+    "footer_impressum": "Informasi hukum",
+    "read_transcript": "Baca transkrip",
+    "loading": "Memuat",
+    "select_language": "Pilih bahasa",
+    "wechat_scan": "Pindai di WeChat untuk menambahkan kami",
+    "wechat_qr_alt": "Kode QR WeChat Chase Haynes, pindai untuk menambahkan",
+    "wechat_copy": "Salin ID WeChat",
+    "wechat_copied": "Disalin",
+    "wechat_open": "Hubungi kami di WeChat",
+    "wechat_close": "Tutup kartu kontak WeChat",
+    "whatsapp_aria": "Chat dengan kami di WhatsApp (buka di tab baru)"
   }
 }

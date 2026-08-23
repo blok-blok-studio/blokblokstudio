@@ -609,5 +609,92 @@
     "not_found_title": "Pagina non trovata",
     "not_found_message": "La pagina che stai cercando non esiste o è stata spostata. Ti rimettiamo sulla strada giusta.",
     "contact_us": "Contattaci"
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "Ecco da dove partiremmo, {name}",
+    "headline": "Ecco da dove partiremmo",
+    "headline_fallback": "Ci siamo. Manca un passaggio.",
+    "diagnosis_known": "In base a quello che ci hai raccontato su {industry}, questo è ciò che affronteremmo con te in chiamata.",
+    "diagnosis_unsure": "Dici di non saperlo ancora, ed è un punto di partenza del tutto normale. Per {industry} di solito è qui che stanno i soldi, quindi è da lì che partiremmo in chiamata.",
+    "industry_fallback": "il tuo settore",
+    "sub_fallback": "Abbiamo la tua richiesta. Prenota ora la tua chiamata gratuita di 15 minuti; gli orari migliori vanno a chi prenota prima.",
+    "cover_label": "Cosa vedremo in chiamata",
+    "cover_note": "In chiamata affronteremo tutto per bene, ambito e costi compresi.",
+    "calendar_title": "Prenota la tua chiamata conoscitiva gratuita",
+    "calendar_fallback": "Il calendario non si carica?",
+    "calendar_open": "Aprilo direttamente",
+    "calendar_chat": "Preferisci scrivere?",
+    "calendar_whatsapp": "Scrivici su WhatsApp",
+    "calendar_reply": "e rispondiamo in pochi minuti.",
+    "next_label": "Cosa succede dopo",
+    "next_1_title": "Scegli il tuo orario qui sopra",
+    "next_1_desc": "Una chiamata breve per conoscere la tua attività e ciò che ti serve.",
+    "next_2_title": "Analizziamo tutto in chiamata",
+    "next_2_desc": "Dove stai perdendo clienti, cosa sistemare per primo e cosa serve per farlo.",
+    "next_3_title": "Noi costruiamo, tu cresci",
+    "next_3_desc": "Sito, advertising, social, sistemi AI. Fatto da noi, online in fretta.",
+    "founder_kicker": "Con chi parlerai",
+    "founder_title": "Conosci il fondatore",
+    "clients_kicker": "Il lavoro e i numeri",
+    "clients_title": "I nostri clienti",
+    "cta_title": "Vuoi vedere altri lavori?",
+    "cta_sub": "Il portfolio completo, il team e il nostro metodo sono tutti sul sito principale.",
+    "cta_button": "Visita blokblokstudio.com",
+    "work": {
+      "site": {
+        "title": "Un sito con un obiettivo solo",
+        "detail": "Sviluppo Next.js su misura, non un template. Ogni pagina punta a una singola azione: una chiamata prenotata, un ordine o un pagamento."
+      },
+      "redesign": {
+        "title": "Ricostruire su ciò che già funziona",
+        "detail": "Teniamo le pagine che rendono, sistemiamo quelle che perdono visitatori e portiamo tutto su una base che carica veloce."
+      },
+      "shop": {
+        "title": "Un negozio che chiude",
+        "detail": "Schede prodotto, checkout e pagamenti costruiti perché le persone arrivino in fondo invece di abbandonare a metà."
+      },
+      "landing": {
+        "title": "Una pagina, un'offerta",
+        "detail": "La cosa più rapida che costruiamo. Una sola pagina per un pubblico, con il tracciamento collegato per vedere cosa rende."
+      },
+      "search_ads": {
+        "title": "Esserci nel momento dell'intenzione",
+        "detail": "Campagne costruite e gestite sui lavori acquisiti, non sui clic. Nella ricerca le persone sanno già cosa vogliono."
+      },
+      "social_ads": {
+        "title": "Arrivare prima di loro",
+        "detail": "Campagne Facebook e Instagram che mettono la tua offerta davanti alle persone giuste prima di un concorrente."
+      },
+      "social": {
+        "title": "Social che porta da qualche parte",
+        "detail": "Clip, sottotitoli e post ricavati da materiale che hai già, pensati per portare le persone sul sito invece di riempire un feed."
+      },
+      "booking": {
+        "title": "Prenotazione e pagamento sul sito",
+        "detail": "I clienti scelgono un orario e pagano senza un solo messaggio. È esattamente quello che abbiamo costruito per Coach Luki e Coach Kofi."
+      },
+      "local_seo": {
+        "title": "Ricerca locale e recensioni",
+        "detail": "Posizionarti dove i tuoi clienti cercano davvero, con le recensioni Google aggiornate in pagina."
+      }
+    }
+  },
+  "ui": {
+    "footer_contact": "Contatti",
+    "footer_privacy": "Informativa sulla privacy",
+    "footer_terms": "Termini di servizio",
+    "footer_cookies": "Informativa sui cookie",
+    "footer_impressum": "Note legali",
+    "read_transcript": "Leggi la trascrizione",
+    "loading": "Caricamento",
+    "select_language": "Seleziona la lingua",
+    "wechat_scan": "Scansiona su WeChat per aggiungerci",
+    "wechat_qr_alt": "Codice QR WeChat di Chase Haynes, scansiona per aggiungere",
+    "wechat_copy": "Copia ID WeChat",
+    "wechat_copied": "Copiato",
+    "wechat_open": "Contattaci su WeChat",
+    "wechat_close": "Chiudi la scheda contatto WeChat",
+    "whatsapp_aria": "Scrivici su WhatsApp (si apre in una nuova scheda)"
   }
 }
