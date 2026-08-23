@@ -15,8 +15,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { verifyToken } from '@/lib/gdpr-tokens';
+import { pickLang } from '@/lib/pick-lang';
+
+const EXPIRED_COPY = {
+  en: { title: 'Link Expired', body: 'This verification link has expired. Please submit a new request from the Data Rights page.' },
+  de: { title: 'Link abgelaufen', body: 'Dieser Bestätigungslink ist abgelaufen. Bitte stellen Sie über die Seite "Ihre Datenrechte" eine neue Anfrage.' },
+} as const;
 
 export async function GET(req: NextRequest) {
+  const lang = pickLang(req);
+  const expired = EXPIRED_COPY[lang];
   try {
     const token = req.nextUrl.searchParams.get('token');
 
@@ -29,7 +37,7 @@ export async function GET(req: NextRequest) {
 
     if (!valid || !email) {
       return new NextResponse(
-        '<html><body style="font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; background: #000; color: #fff;"><div style="text-align: center;"><h1>Link Expired</h1><p style="color: #999;">This verification link has expired. Please submit a new request from the Data Rights page.</p></div></body></html>',
+        `<html lang="${lang}"><head><meta charset="utf-8"></head><body style="font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; background: #000; color: #fff;"><div style="text-align: center;"><h1>${expired.title}</h1><p style="color: #999;">${expired.body}</p></div></body></html>`,
         { status: 401, headers: { 'Content-Type': 'text/html; charset=utf-8' } }
       );
     }

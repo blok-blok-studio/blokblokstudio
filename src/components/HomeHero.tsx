@@ -34,6 +34,7 @@ import { MagneticButton } from './MagneticButton'; // Hover effect wrapper for b
 import { HeroSpotlight } from './HeroSpotlight'; // Mouse-tracked radial glow
 
 export function HomeHero() {
+  const tu = useTranslations('ui');
   // Load translations from the "home" section of /src/messages/{locale}.json
   const t = useTranslations('home');
 
@@ -52,7 +53,7 @@ export function HomeHero() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 mb-6 sm:mb-8">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-xs text-gray-400 tracking-wide">
-              Available for new projects
+              {tu('available')}
             </span>
           </div>
         </div>

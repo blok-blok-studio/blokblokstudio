@@ -185,6 +185,7 @@ const UNSUB_COPY = {
     reduce_sub: 'Get fewer emails from us',
     unsub_cta: 'Unsubscribe Completely',
     unsub_sub: 'Stop all emails',
+    mistake: 'If this was a mistake, just reply to any of our previous emails and we\u2019ll re-subscribe you.',
     feedback_prompt: '${c.feedback_prompt}',
     reasons: ['Too many emails', 'Not relevant to me', 'Never signed up', 'Content not useful', 'Other'],
   },
@@ -203,6 +204,7 @@ const UNSUB_COPY = {
     reduce_sub: 'Weniger E-Mails von uns erhalten',
     unsub_cta: 'Vollständig abmelden',
     unsub_sub: 'Keine E-Mails mehr',
+    mistake: 'Falls das ein Versehen war, antworten Sie einfach auf eine unserer früheren E-Mails und wir melden Sie wieder an.',
     feedback_prompt: 'Helfen Sie uns besser zu werden. Warum gehen Sie?',
     reasons: ['Zu viele E-Mails', 'Für mich nicht relevant', 'Nie angemeldet', 'Inhalte nicht nützlich', 'Sonstiges'],
   },
@@ -218,48 +220,48 @@ function htmlPage(state: string, lead: { id: string; name: string; email: string
   if (state === 'invalid') {
     content = `
       <div class="icon">&#10060;</div>
-      <h1>Invalid Link</h1>
-      <p>This unsubscribe link is not valid or has expired.</p>
+      <h1>${c.invalid_title}</h1>
+      <p>${c.invalid_body}</p>
     `;
   } else if (state === 'unsubscribed') {
     content = `
       <div class="icon">&#9989;</div>
-      <h1>You&rsquo;ve Been Unsubscribed</h1>
-      <p>You will no longer receive emails from us. We&rsquo;re sorry to see you go.</p>
-      <p class="small">If this was a mistake, just reply to any of our previous emails and we&rsquo;ll re-subscribe you.</p>
+      <h1>${c.done_title}</h1>
+      <p>${c.done_body}</p>
+      <p class="small">${c.mistake}</p>
     `;
   } else if (state === 'reduced') {
     content = `
       <div class="icon">&#128230;</div>
-      <h1>Email Frequency Reduced</h1>
-      <p>We&rsquo;ve updated your preferences. You&rsquo;ll hear from us less often.</p>
+      <h1>${c.reduced_title}</h1>
+      <p>${c.reduced_body}</p>
     `;
   } else if (state === 'feedback') {
     content = `
       <div class="icon">&#128591;</div>
-      <h1>Thank You for Your Feedback</h1>
-      <p>You&rsquo;ve been unsubscribed. Your feedback helps us improve.</p>
+      <h1>${c.feedback_title}</h1>
+      <p>${c.feedback_body}</p>
     `;
   } else if (state === 'options' && lead) {
     content = `
-      <h1>Email Preferences</h1>
+      <h1>${c.options_title}</h1>
       ${lead.email ? `<p class="email-badge">${lead.email}</p>` : ''}
-      <p>How would you like to manage your email preferences?</p>
+      <p>${c.options_body}</p>
 
       <div class="options">
         <form method="POST" action="${baseUrl}/api/unsubscribe?id=${lead.id}&action=reduce&form=1" style="margin:0"><button type="submit" class="option option-reduce" style="width:100%;border:0;cursor:pointer;font:inherit;text-align:inherit">
           <div class="option-icon">&#128229;</div>
           <div>
-            <strong>Reduce Frequency</strong>
-            <span>Get fewer emails from us</span>
+            <strong>${c.reduce_cta}</strong>
+            <span>${c.reduce_sub}</span>
           </div>
         </button></form>
 
         <form method="POST" action="${baseUrl}/api/unsubscribe?id=${lead.id}&action=unsubscribe&form=1" style="margin:0"><button type="submit" class="option option-unsub" style="width:100%;border:0;cursor:pointer;font:inherit;text-align:inherit">
           <div class="option-icon">&#128683;</div>
           <div>
-            <strong>Unsubscribe Completely</strong>
-            <span>Stop all emails</span>
+            <strong>${c.unsub_cta}</strong>
+            <span>${c.unsub_sub}</span>
           </div>
         </button></form>
       </div>

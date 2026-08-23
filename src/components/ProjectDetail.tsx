@@ -221,7 +221,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
             <AnimatedSection>
               <div className="text-center mb-4 sm:mb-6">
                 <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider mb-2">
-                  Live Site
+                  {t('proj_live')}
                 </p>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold">
                   <span className="hidden sm:inline">
@@ -308,7 +308,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 )}
                 <div className="flex items-center justify-between px-5 py-4 bg-gray-950 border-t border-white/10">
                   <div className="min-w-0">
-                    <p className="text-[10px] text-gray-500 uppercase tracking-wider">Live site</p>
+                    <p className="text-[10px] text-gray-500 uppercase tracking-wider">{t('proj_live_lower')}</p>
                     <p className="text-sm text-white font-mono truncate">
                       {project.url.replace(/^https?:\/\//, '')}
                     </p>

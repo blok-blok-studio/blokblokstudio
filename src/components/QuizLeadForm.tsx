@@ -315,7 +315,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
       question: t('q_business'),
       sub: t('q_business_sub'),
       body: (
-        <div role="radiogroup" aria-label="Business type" className="grid grid-cols-2 gap-2 sm:gap-2.5">
+        <div role="radiogroup" aria-label={t('q_business')} className="grid grid-cols-2 gap-2 sm:gap-2.5">
           {BUSINESS_TYPES.map((b) => (
             <ChoiceCard
               key={b}
@@ -361,7 +361,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
           ? t('q_budget_monthly_sub')
           : t('q_budget_project_sub'),
       body: (
-        <div role="radiogroup" aria-label="Budget" className="space-y-2.5">
+        <div role="radiogroup" aria-label={t('q_budget_project')} className="space-y-2.5">
           {budgets.map((o, i) => (
             <ChoiceCard
               key={o.value}
@@ -381,7 +381,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
     {
       question: t('q_timeline'),
       body: (
-        <div role="radiogroup" aria-label="Timeline" className="space-y-2.5">
+        <div role="radiogroup" aria-label={t('q_timeline')} className="space-y-2.5">
           {TIMELINES.map((o, i) => (
             <ChoiceCard
               key={o.value}

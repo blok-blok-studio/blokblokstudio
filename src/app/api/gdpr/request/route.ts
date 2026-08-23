@@ -18,12 +18,41 @@ import { prisma } from '@/lib/prisma';
 import { rateLimit } from '@/lib/rate-limit';
 import { generateVerificationToken } from '@/lib/gdpr-tokens';
 import { Resend } from 'resend';
+import { pickLang } from '@/lib/pick-lang';
 
 function getResend() {
   return new Resend(process.env.RESEND_API_KEY);
 }
 
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 3 });
+
+
+/**
+ * Data-rights emails, in the language the request came from. Someone
+ * exercising a GDPR right should not have to read English to understand what
+ * they are confirming, and the confirmation is the step that actually erases
+ * their data.
+ */
+const GDPR_COPY = {
+  en: {
+    subject: (exp: boolean) => (exp ? 'Your Data Export Request | Blok Blok Studio' : 'Your Data Deletion Request | Blok Blok Studio'),
+    heading: (exp: boolean) => (exp ? 'Data Export Request' : 'Data Deletion Request'),
+    intro: (exp: boolean) => `You requested to ${exp ? 'export' : 'permanently delete'} your personal data from Blok Blok Studio.`,
+    expires: 'Click the button below to confirm. This link expires in <strong>15 minutes</strong>.',
+    button: (exp: boolean) => (exp ? 'Confirm Export' : 'Confirm Deletion'),
+    ignore: 'If you didn\u2019t make this request, you can safely ignore this email. No changes will be made.',
+    footer: 'Blok Blok Studio \u00b7 Digital Agency for Ambitious Brands',
+  },
+  de: {
+    subject: (exp: boolean) => (exp ? 'Ihre Anfrage zum Datenexport | Blok Blok Studio' : 'Ihre Anfrage zur Datenlöschung | Blok Blok Studio'),
+    heading: (exp: boolean) => (exp ? 'Anfrage zum Datenexport' : 'Anfrage zur Datenlöschung'),
+    intro: (exp: boolean) => `Sie haben angefragt, Ihre personenbezogenen Daten bei Blok Blok Studio ${exp ? 'zu exportieren' : 'dauerhaft löschen zu lassen'}.`,
+    expires: 'Klicken Sie zur Bestätigung auf den Button. Dieser Link läuft in <strong>15 Minuten</strong> ab.',
+    button: (exp: boolean) => (exp ? 'Export bestätigen' : 'Löschung bestätigen'),
+    ignore: 'Falls Sie diese Anfrage nicht gestellt haben, können Sie diese E-Mail ignorieren. Es wird nichts geändert.',
+    footer: 'Blok Blok Studio \u00b7 Digitalagentur für ambitionierte Marken',
+  },
+} as const;
 
 export async function POST(req: NextRequest) {
   try {
@@ -58,35 +87,24 @@ export async function POST(req: NextRequest) {
 
     // Send verification email
     const from = process.env.EMAIL_FROM || 'onboarding@resend.dev';
+    const g = GDPR_COPY[pickLang(req)];
+    const isExport = type === 'export';
 
     await getResend().emails.send({
       from: `Blok Blok Studio <${from}>`,
       to: email,
-      subject:
-        type === 'export'
-          ? 'Your Data Export Request | Blok Blok Studio'
-          : 'Your Data Deletion Request | Blok Blok Studio',
+      subject: g.subject(isExport),
       html: `
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 600px; margin: 0 auto; padding: 24px;">
-          <h2 style="color: #f97316; margin-bottom: 24px;">
-            ${type === 'export' ? 'Data Export Request' : 'Data Deletion Request'}
-          </h2>
-          <p style="margin-bottom: 16px; color: #333;">
-            You requested to ${type === 'export' ? 'export' : 'permanently delete'} your personal data from Blok Blok Studio.
-          </p>
-          <p style="margin-bottom: 24px; color: #333;">
-            Click the button below to confirm. This link expires in <strong>15 minutes</strong>.
-          </p>
+          <h2 style="color: #f97316; margin-bottom: 24px;">${g.heading(isExport)}</h2>
+          <p style="margin-bottom: 16px; color: #333;">${g.intro(isExport)}</p>
+          <p style="margin-bottom: 24px; color: #333;">${g.expires}</p>
           <a href="${verifyUrl}" style="display: inline-block; padding: 14px 32px; background: #f97316; color: white; text-decoration: none; border-radius: 9999px; font-weight: 600; font-size: 14px;">
-            Confirm ${type === 'export' ? 'Export' : 'Deletion'}
+            ${g.button(isExport)}
           </a>
-          <p style="margin-top: 32px; color: #999; font-size: 13px;">
-            If you didn&rsquo;t make this request, you can safely ignore this email. No changes will be made.
-          </p>
+          <p style="margin-top: 32px; color: #999; font-size: 13px;">${g.ignore}</p>
           <hr style="margin-top: 32px; border: none; border-top: 1px solid #eee;" />
-          <p style="font-size: 12px; color: #999; margin-top: 16px;">
-            Blok Blok Studio · Digital Agency for Ambitious Brands
-          </p>
+          <p style="font-size: 12px; color: #999; margin-top: 16px;">${g.footer}</p>
         </div>
       `,
     });

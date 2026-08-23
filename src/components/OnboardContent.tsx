@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -195,6 +196,7 @@ function PhoneInput({
 }: {
   label: string; value: string; onChange: (v: string) => void;
 }) {
+  const t = useTranslations('onboard');
   // Parse existing value to extract country code and number
   const parsePhone = (val: string) => {
     for (const cc of COUNTRY_CODES) {
@@ -241,7 +243,7 @@ function PhoneInput({
           type="tel"
           value={number}
           onChange={(e) => handleNumberChange(e.target.value)}
-          placeholder="Phone number"
+          placeholder={t('ph_phone')}
           maxLength={30}
           autoComplete="tel-national"
           className="flex-1 min-w-0 bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-white/30 transition-colors"
@@ -347,6 +349,7 @@ function StepContacts({
   contacts: Contact[];
   setContacts: (c: Contact[]) => void;
 }) {
+  const t = useTranslations('onboard');
   const update = (i: number, field: keyof Contact, value: string | boolean) => {
     const next = [...contacts];
     next[i] = { ...next[i], [field]: value };
@@ -365,8 +368,8 @@ function StepContacts({
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-semibold text-white mb-1">Team Contacts</h2>
-        <p className="text-sm text-gray-400">Who should we reach out to on your team?</p>
+        <h2 className="text-xl font-semibold text-white mb-1">{t('contacts')}</h2>
+        <p className="text-sm text-gray-400">{t('contacts_sub')}</p>
       </div>
 
       {contacts.map((contact, i) => (
@@ -375,7 +378,7 @@ function StepContacts({
             <div className="flex items-center gap-2">
               {contact.isPrimary && (
                 <span className="text-xs bg-white/10 text-white px-2 py-0.5 rounded-full">
-                  Primary
+                  {t('primary')}
                 </span>
               )}
               <span className="text-sm text-gray-400">Contact {i + 1}</span>
@@ -386,7 +389,7 @@ function StepContacts({
                 onClick={() => remove(i)}
                 className="text-gray-600 hover:text-red-400 transition-colors text-sm"
               >
-                Remove
+                {t('remove')}
               </button>
             )}
           </div>
@@ -404,7 +407,7 @@ function StepContacts({
               label="Role / Title"
               value={contact.role}
               onChange={(v) => update(i, 'role', v)}
-              placeholder="e.g. CEO, Marketing Director"
+              placeholder={t('ph_role')}
               maxLength={100}
             />
             <Input
@@ -430,7 +433,7 @@ function StepContacts({
         className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"
       >
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" /></svg>
-        Add another contact
+        {t('add_contact')}
       </button>
     </div>
   );
@@ -442,6 +445,7 @@ function StepCredentials({
   credentials: Credential[];
   setCredentials: (c: Credential[]) => void;
 }) {
+  const t = useTranslations('onboard');
   const update = (i: number, field: keyof Credential, value: string) => {
     const next = [...credentials];
     next[i] = { ...next[i], [field]: value };
@@ -458,13 +462,13 @@ function StepCredentials({
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-semibold text-white mb-1">Account Access</h2>
+        <h2 className="text-xl font-semibold text-white mb-1">{t('access')}</h2>
         <p className="text-sm text-gray-400">
-          Share credentials for the platforms you&apos;d like us to manage.
+          {t('access_sub')}
         </p>
         <div className="flex items-center gap-2 mt-3 text-xs text-gray-500">
           <svg className="w-4 h-4 text-green-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
-          Your credentials are encrypted with AES-256
+          {t('encrypted')}
         </div>
       </div>
 
@@ -478,7 +482,7 @@ function StepCredentials({
                 onClick={() => remove(i)}
                 className="text-gray-600 hover:text-red-400 transition-colors text-sm"
               >
-                Remove
+                {t('remove')}
               </button>
             )}
           </div>
@@ -511,14 +515,14 @@ function StepCredentials({
             label="URL (optional)"
             value={cred.url}
             onChange={(v) => update(i, 'url', v)}
-            placeholder="e.g. https://your-site.com/wp-admin"
+            placeholder={t('ph_url')}
             maxLength={500}
           />
           <Textarea
             label="Notes (optional)"
             value={cred.notes}
             onChange={(v) => update(i, 'notes', v)}
-            placeholder="e.g. 2FA enabled, use authenticator app"
+            placeholder={t('ph_2fa')}
             maxLength={1000}
             rows={2}
           />
@@ -531,7 +535,7 @@ function StepCredentials({
         className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"
       >
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" /></svg>
-        Add another account
+        {t('add_account')}
       </button>
     </div>
   );
@@ -543,6 +547,7 @@ function StepSocials({
   socialLinks: SocialLink[];
   setSocialLinks: (s: SocialLink[]) => void;
 }) {
+  const t = useTranslations('onboard');
   const update = (i: number, field: keyof SocialLink, value: string) => {
     const next = [...socialLinks];
     next[i] = { ...next[i], [field]: value };
@@ -559,9 +564,9 @@ function StepSocials({
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-semibold text-white mb-1">Social Profiles</h2>
+        <h2 className="text-xl font-semibold text-white mb-1">{t('social')}</h2>
         <p className="text-sm text-gray-400">
-          Link your social media accounts so we can manage and grow your presence.
+          {t('social_sub')}
         </p>
       </div>
 
@@ -575,7 +580,7 @@ function StepSocials({
                 onClick={() => remove(i)}
                 className="text-gray-600 hover:text-red-400 transition-colors text-sm"
               >
-                Remove
+                {t('remove')}
               </button>
             )}
           </div>
@@ -591,7 +596,7 @@ function StepSocials({
               label="URL"
               value={link.url}
               onChange={(v) => update(i, 'url', v)}
-              placeholder="https://..."
+              placeholder={t('ph_link')}
               maxLength={500}
             />
           </div>
@@ -604,7 +609,7 @@ function StepSocials({
         className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"
       >
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" /></svg>
-        Add another profile
+        {t('add_profile')}
       </button>
     </div>
   );
@@ -616,11 +621,12 @@ function StepDetails({
   formData: FormData;
   setFormData: (fn: (prev: FormData) => FormData) => void;
 }) {
+  const t = useTranslations('onboard');
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-semibold text-white mb-1">Project Details</h2>
-        <p className="text-sm text-gray-400">Help us tailor our workflow to yours.</p>
+        <h2 className="text-xl font-semibold text-white mb-1">{t('details')}</h2>
+        <p className="text-sm text-gray-400">{t('details_sub')}</p>
       </div>
 
       <Select
@@ -628,7 +634,7 @@ function StepDetails({
         value={formData.timezone}
         onChange={(v) => setFormData((prev) => ({ ...prev, timezone: v }))}
         options={COMMON_TIMEZONES}
-        placeholder="Select your timezone..."
+        placeholder={t('ph_timezone')}
       />
 
       <div>
@@ -636,11 +642,11 @@ function StepDetails({
           label="Telegram Chat ID (optional)"
           value={formData.telegramChatId}
           onChange={(v) => setFormData((prev) => ({ ...prev, telegramChatId: v }))}
-          placeholder="e.g. 123456789"
+          placeholder={t('ph_telegram')}
           maxLength={30}
         />
         <p className="text-xs text-gray-600 mt-1">
-          Message @blokblok_bot on Telegram to get your ID
+          {t('telegram_hint')}
         </p>
       </div>
 
@@ -648,7 +654,7 @@ function StepDetails({
         label="Notes / Special Instructions"
         value={formData.notes}
         onChange={(v) => setFormData((prev) => ({ ...prev, notes: v }))}
-        placeholder="Anything we should know about your project, preferences, or workflow..."
+        placeholder={t('ph_notes')}
         maxLength={5000}
       />
 
@@ -656,7 +662,7 @@ function StepDetails({
         label="Brand Guidelines"
         value={formData.brandGuidelines}
         onChange={(v) => setFormData((prev) => ({ ...prev, brandGuidelines: v }))}
-        placeholder="Logo usage, brand colors, fonts, tone of voice, do's and don'ts..."
+        placeholder={t('ph_brand')}
         maxLength={10000}
         rows={6}
       />
@@ -670,6 +676,7 @@ function StepReview({
   formData: FormData;
   goToStep: (step: number) => void;
 }) {
+  const t = useTranslations('onboard');
   const filledContacts = formData.contacts.filter((c) => c.name.trim());
   const filledCredentials = formData.credentials.filter((c) => c.platform && c.username);
   const filledSocials = formData.socialLinks.filter((s) => s.platform || s.url);
@@ -677,14 +684,14 @@ function StepReview({
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-semibold text-white mb-1">Review & Submit</h2>
+        <h2 className="text-xl font-semibold text-white mb-1">{t('review')}</h2>
         <p className="text-sm text-gray-400">
-          Double-check everything before submitting. You can go back to edit any section.
+          {t('review_sub')}
         </p>
       </div>
 
       {/* Contacts */}
-      <ReviewSection title="Team Contacts" onEdit={() => goToStep(0)} count={filledContacts.length}>
+      <ReviewSection title={t('contacts')} onEdit={() => goToStep(0)} count={filledContacts.length}>
         {filledContacts.map((c, i) => (
           <div key={i} className="text-sm space-y-0.5">
             <p className="text-white font-medium">
@@ -699,7 +706,7 @@ function StepReview({
       </ReviewSection>
 
       {/* Credentials */}
-      <ReviewSection title="Account Access" onEdit={() => goToStep(1)} count={filledCredentials.length}>
+      <ReviewSection title={t('access')} onEdit={() => goToStep(1)} count={filledCredentials.length}>
         {filledCredentials.map((c, i) => (
           <div key={i} className="text-sm space-y-0.5">
             <p className="text-white font-medium">{c.platform}</p>
@@ -710,7 +717,7 @@ function StepReview({
       </ReviewSection>
 
       {/* Socials */}
-      <ReviewSection title="Social Profiles" onEdit={() => goToStep(2)} count={filledSocials.length}>
+      <ReviewSection title={t('social')} onEdit={() => goToStep(2)} count={filledSocials.length}>
         {filledSocials.map((s, i) => (
           <div key={i} className="text-sm">
             <span className="text-white">{s.platform}</span>
@@ -720,23 +727,23 @@ function StepReview({
       </ReviewSection>
 
       {/* Details */}
-      <ReviewSection title="Project Details" onEdit={() => goToStep(3)}>
+      <ReviewSection title={t('details')} onEdit={() => goToStep(3)}>
         <div className="text-sm space-y-1">
           {formData.timezone && (
-            <p><span className="text-gray-500">Timezone:</span> <span className="text-gray-300">{formData.timezone}</span></p>
+            <p><span className="text-gray-500">{t('f_timezone')}</span> <span className="text-gray-300">{formData.timezone}</span></p>
           )}
           {formData.telegramChatId && (
-            <p><span className="text-gray-500">Telegram ID:</span> <span className="text-gray-300">{formData.telegramChatId}</span></p>
+            <p><span className="text-gray-500">{t('f_telegram')}</span> <span className="text-gray-300">{formData.telegramChatId}</span></p>
           )}
           {formData.notes && (
             <div>
-              <p className="text-gray-500 mb-0.5">Notes:</p>
+              <p className="text-gray-500 mb-0.5">{t('f_notes')}</p>
               <p className="text-gray-300 whitespace-pre-wrap">{formData.notes}</p>
             </div>
           )}
           {formData.brandGuidelines && (
             <div>
-              <p className="text-gray-500 mb-0.5">Brand Guidelines:</p>
+              <p className="text-gray-500 mb-0.5">{t('f_brand')}</p>
               <p className="text-gray-300 whitespace-pre-wrap">{formData.brandGuidelines}</p>
             </div>
           )}
@@ -754,6 +761,7 @@ function ReviewSection({
   count?: number;
   children: React.ReactNode;
 }) {
+  const t = useTranslations('onboard');
   return (
     <div className="glass-card rounded-2xl p-5">
       <div className="flex items-center justify-between mb-3">
@@ -777,6 +785,7 @@ function ReviewSection({
 // ── Main Component ─────────────────────────────────────────────────────────
 
 export function OnboardContent({ token }: { token: string }) {
+  const t = useTranslations('onboard');
   const [status, setStatus] = useState<'loading' | 'ready' | 'error' | 'submitted'>('loading');
   const [clientName, setClientName] = useState('');
   const [clientCompany, setClientCompany] = useState('');
@@ -899,7 +908,7 @@ export function OnboardContent({ token }: { token: string }) {
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
           <div className="w-8 h-8 border-2 border-white/20 border-t-white rounded-full animate-spin" />
-          <p className="text-gray-400 text-sm">Loading your onboarding...</p>
+          <p className="text-gray-400 text-sm">{t('loading')}</p>
         </div>
       </div>
     );
@@ -913,7 +922,7 @@ export function OnboardContent({ token }: { token: string }) {
           <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-white/5 flex items-center justify-center">
             <svg className="w-8 h-8 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" /></svg>
           </div>
-          <h1 className="text-2xl font-semibold text-white mb-2">Link Unavailable</h1>
+          <h1 className="text-2xl font-semibold text-white mb-2">{t('unavailable')}</h1>
           <p className="text-gray-400">{errorMessage}</p>
           <p className="text-sm text-gray-600 mt-4">
             If you think this is a mistake, please get in touch through{' '}
@@ -938,7 +947,7 @@ export function OnboardContent({ token }: { token: string }) {
           <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-green-500/10 flex items-center justify-center">
             <svg className="w-8 h-8 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
           </div>
-          <h1 className="text-2xl font-semibold text-white mb-2">You&apos;re All Set!</h1>
+          <h1 className="text-2xl font-semibold text-white mb-2">{t('done')}</h1>
           <p className="text-gray-400 mb-8">
             Thanks{clientName ? `, ${clientName}` : ''}! Your onboarding is complete. We&apos;ll review everything and be in touch shortly.
           </p>
@@ -946,16 +955,16 @@ export function OnboardContent({ token }: { token: string }) {
           {/* Stripe CTA placeholder */}
           <div className="glass-card rounded-2xl p-6">
             <p className="text-sm text-gray-400 mb-4">
-              Want to set up your payment method so we can get started right away?
+              {t('done_sub')}
             </p>
             <button
               type="button"
               disabled
               className="w-full bg-white text-black font-medium py-3 px-6 rounded-xl opacity-50 cursor-not-allowed"
             >
-              Set Up Payment Method
+              {t('pay_cta')}
             </button>
-            <p className="text-xs text-gray-600 mt-2">Coming soon</p>
+            <p className="text-xs text-gray-600 mt-2">{t('coming_soon')}</p>
           </div>
         </motion.div>
       </div>
@@ -972,13 +981,13 @@ export function OnboardContent({ token }: { token: string }) {
           animate={{ opacity: 1, y: 0 }}
           className="mb-10"
         >
-          <p className="text-sm text-gray-500 mb-2 uppercase tracking-wider">Client Onboarding</p>
+          <p className="text-sm text-gray-500 mb-2 uppercase tracking-wider">{t('title')}</p>
           <h1 className="text-3xl sm:text-4xl font-semibold text-white mb-2">
             Welcome{clientName ? `, ${clientName}` : ''}
             {clientCompany ? <span className="text-gray-400 text-2xl sm:text-3xl"> from {clientCompany}</span> : ''}
           </h1>
           <p className="text-gray-400">
-            Let&apos;s get everything set up so we can hit the ground running.
+            {t('sub')}
           </p>
         </motion.div>
 
@@ -1058,7 +1067,7 @@ export function OnboardContent({ token }: { token: string }) {
               {submitting ? (
                 <>
                   <div className="w-4 h-4 border-2 border-black/20 border-t-black rounded-full animate-spin" />
-                  Submitting...
+                  {t('submitting')}
                 </>
               ) : (
                 'Submit'

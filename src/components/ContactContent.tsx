@@ -76,6 +76,7 @@ import { motion } from 'framer-motion';
  * ---------------------------------------------------------------------------
  */
 export function ContactContent() {
+  const tu = useTranslations('ui');
   /**
    * Translation hook, pulls all keys from the "contact" namespace.
    * To change any displayed text, edit your translation JSON files
@@ -319,7 +320,7 @@ export function ContactContent() {
                   <label htmlFor="consent" className="text-sm text-gray-400 leading-relaxed cursor-pointer">
                     I agree to the processing of my personal data as described in the{' '}
                     <a href="/privacy" target="_blank" className="text-white hover:text-white/80 underline transition-colors">
-                      Privacy Policy
+                      {tu('footer_privacy')}
                     </a>.
                   </label>
                 </div>
@@ -399,7 +400,7 @@ export function ContactContent() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500 mb-1">Location</p>
+                    <p className="text-sm text-gray-500 mb-1">{tu('contact_location')}</p>
                     <p className="text-sm">{t('info_address')}</p>
                   </div>
                 </div>

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 /* ──────────────────────────────────────────────────────────────
  * Color tokens (inline, matches the brand orange system)
@@ -991,6 +992,7 @@ interface Package {
  * Component
  * ────────────────────────────────────────────────────────────── */
 export function PricingContent() {
+  const t = useTranslations('pricing');
   const [tab, setTab] = useState('web');
   // Expanded-card id is now "<dataKey>-<index>" so cards across the two
   // sub-sections (one-time + monthly) don't collide.
@@ -1116,7 +1118,7 @@ export function PricingContent() {
               }}>
                 {pk.pop && (
                   <div style={{ position: 'absolute', top: -1, left: '50%', transform: 'translateX(-50%)', background: `linear-gradient(135deg, ${O}, ${OL})`, color: '#fff', fontSize: 9, fontWeight: 800, padding: '3px 14px', borderRadius: '0 0 8px 8px', letterSpacing: '1.5px', textTransform: 'uppercase' }}>
-                    MOST POPULAR
+                    {t('popular')}
                   </div>
                 )}
                 <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', color: O, marginBottom: 6, opacity: 0.65 }}>{pk.tag}</span>
@@ -1144,7 +1146,7 @@ export function PricingContent() {
                     </button>
                     {isE && (
                       <div style={{ marginTop: 10, background: OF, border: '1px solid rgba(249,115,22,0.1)', borderRadius: 10, padding: '12px 14px' }}>
-                        <div style={{ fontSize: 10, fontWeight: 700, color: O, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: 6 }}>EXCLUSIONS</div>
+                        <div style={{ fontSize: 10, fontWeight: 700, color: O, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: 6 }}>{t('exclusions')}</div>
                         <div style={{ fontSize: 11, color: MU, lineHeight: 1.6 }}>{pk.ex}</div>
                       </div>
                     )}
@@ -1155,18 +1157,18 @@ export function PricingContent() {
                 <div style={{ marginTop: 14, padding: '10px 0 0', borderTop: '1px solid rgba(255,255,255,0.03)' }}>
                   {pk.tl && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
-                      <span style={{ fontSize: 10, color: FA }}>Timeline</span>
+                      <span style={{ fontSize: 10, color: FA }}>{t('timeline')}</span>
                       <span style={{ fontSize: 11, color: MU, fontWeight: 600 }}>{pk.tl}</span>
                     </div>
                   )}
                   {pk.com && (
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
-                      <span style={{ fontSize: 10, color: FA }}>Commitment</span>
+                      <span style={{ fontSize: 10, color: FA }}>{t('commitment')}</span>
                       <span style={{ fontSize: 11, color: MU, fontWeight: 600 }}>{pk.com}</span>
                     </div>
                   )}
                   <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <span style={{ fontSize: 10, color: FA }}>Ideal for</span>
+                    <span style={{ fontSize: 10, color: FA }}>{t('ideal_for')}</span>
                     <span style={{ fontSize: 10, color: '#666', textAlign: 'right', maxWidth: '62%' }}>{pk.ideal}</span>
                   </div>
                 </div>
@@ -1183,7 +1185,7 @@ export function PricingContent() {
 
         {/* Final CTA */}
         <div style={{ marginTop: 32, padding: '28px 22px', borderRadius: 16, background: `linear-gradient(135deg, rgba(249,115,22,0.06), rgba(251,191,36,0.04))`, border: `1px solid rgba(249,115,22,0.18)`, textAlign: 'center' }}>
-          <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 22, margin: '0 0 8px' }}>Want a custom quote?</h3>
+          <h3 style={{ fontFamily: "'Syne'", fontWeight: 800, fontSize: 22, margin: '0 0 8px' }}>{t('custom_quote')}</h3>
           <p style={{ fontSize: 13, color: MU, margin: '0 auto 18px', maxWidth: 460, lineHeight: 1.6 }}>Every engagement is scoped and quoted individually. Book a free 15-minute call and we&apos;ll send a tailored proposal within 48 hours.</p>
           <a href="/start" style={{ display: 'inline-block', padding: '12px 28px', borderRadius: 10, background: `linear-gradient(135deg, ${O}, ${OD})`, color: '#fff', fontSize: 13, fontWeight: 700, textDecoration: 'none', boxShadow: `0 4px 18px ${OG}` }}>
             Book a Strategy Call {'\u2192'}
