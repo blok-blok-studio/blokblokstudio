@@ -698,5 +698,75 @@
     "enforcement_us": "<strong>Vereinigte Staaten</strong>, die Civil Rights Division des US-Justizministeriums für ADA-Beschwerden; das US Access Board für Section 508.",
     "preparation_title": "Wie diese Erklärung erstellt wurde",
     "preparation_content": "Diese Erklärung wurde am {date} auf Grundlage einer Selbstbewertung der Website anhand von WCAG 2.2 AA erstellt. Die Bewertung kombinierte eine automatisierte Prüfung der Live-Website mit einer manuellen Prüfung des Quellcodes (semantische Struktur, Tastaturnavigation, Fokusmanagement, ARIA-Verwendung, Farbkontrast, Umgang mit Animationen und Schreibrichtung der Sprachen). Nach jedem wesentlichen Release prüfen wir die Website erneut."
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "Hier würden wir anfangen, {name}",
+    "headline": "Hier würden wir anfangen",
+    "headline_fallback": "Sie sind dabei. Nur noch ein Schritt.",
+    "diagnosis_known": "Auf Basis dessen, was Sie uns über {industry} erzählt haben, würden wir das im Gespräch mit Ihnen durchgehen.",
+    "diagnosis_unsure": "Sie sind sich noch nicht sicher, und das ist ein völlig normaler Ausgangspunkt. Für {industry} liegt hier meist das Geld, also würden wir im Gespräch genau dort beginnen.",
+    "industry_fallback": "Ihre Branche",
+    "sub_fallback": "Ihre Anfrage ist bei uns. Sichern Sie sich jetzt Ihr kostenloses 15-minütiges Erstgespräch; die frühesten Termine gehen an die Schnellsten.",
+    "cover_label": "Was wir im Gespräch besprechen",
+    "cover_note": "Wir gehen im Gespräch alles in Ruhe durch, inklusive Umfang und Kosten.",
+    "calendar_title": "Buchen Sie Ihr kostenloses Erstgespräch",
+    "calendar_fallback": "Kalender lädt nicht?",
+    "calendar_open": "Direkt öffnen",
+    "calendar_chat": "Lieber schreiben?",
+    "calendar_whatsapp": "Schreiben Sie uns auf WhatsApp",
+    "calendar_reply": "und wir antworten innerhalb von Minuten.",
+    "next_label": "Wie es weitergeht",
+    "next_1_title": "Termin oben auswählen",
+    "next_1_desc": "Ein kurzes Gespräch, damit wir Ihr Unternehmen und Ihren Bedarf kennenlernen.",
+    "next_2_title": "Wir gehen im Gespräch alles durch",
+    "next_2_desc": "Wo Sie Kunden verlieren, was zuerst zu beheben ist und was dafür nötig ist.",
+    "next_3_title": "Wir bauen, Sie wachsen",
+    "next_3_desc": "Website, Ads, Social, KI-Systeme. Für Sie umgesetzt, schnell live.",
+    "founder_kicker": "Mit wem Sie sprechen",
+    "founder_title": "Lernen Sie den Gründer kennen",
+    "clients_kicker": "Die Arbeit und die Zahlen",
+    "clients_title": "Unsere Kunden",
+    "cta_title": "Mehr von unserer Arbeit sehen?",
+    "cta_sub": "Das vollständige Portfolio, das Team und unsere Arbeitsweise finden Sie auf der Hauptseite.",
+    "cta_button": "blokblokstudio.com besuchen",
+    "work": {
+      "site": {
+        "title": "Eine Website mit einer klaren Aufgabe",
+        "detail": "Individuelle Next.js-Entwicklung, keine Vorlage. Jede Seite führt zu einer einzigen Handlung, sei es ein gebuchtes Gespräch, eine Bestellung oder eine Zahlung."
+      },
+      "redesign": {
+        "title": "Auf dem aufbauen, was bereits funktioniert",
+        "detail": "Wir behalten die Seiten, die schon liefern, reparieren die, an denen Besucher verloren gehen, und bringen alles auf eine Basis, die schnell lädt."
+      },
+      "shop": {
+        "title": "Ein Shop, der abschließt",
+        "detail": "Produktseiten, Checkout und Zahlungen so aufgebaut, dass Menschen tatsächlich abschließen statt auf halbem Weg abzubrechen."
+      },
+      "landing": {
+        "title": "Eine Seite, ein Angebot",
+        "detail": "Das Schnellste, was wir bauen. Eine einzige Seite für eine Zielgruppe, mit angebundenem Tracking, damit Sie sehen, was sie einbringt."
+      },
+      "search_ads": {
+        "title": "Da sein, wenn die Absicht da ist",
+        "detail": "Kampagnen, die auf gebuchte Aufträge ausgerichtet sind, nicht auf Klicks. In der Suche wissen die Leute bereits, was sie wollen."
+      },
+      "social_ads": {
+        "title": "Vor dem Wettbewerb sichtbar sein",
+        "detail": "Facebook- und Instagram-Kampagnen, die Ihr Angebot den richtigen Leuten zeigen, bevor es ein Mitbewerber tut."
+      },
+      "social": {
+        "title": "Social, das irgendwohin führt",
+        "detail": "Clips, Untertitel und Posts aus Material, das Sie bereits haben, gebaut um Menschen auf die Website zu bringen statt nur einen Feed zu füllen."
+      },
+      "booking": {
+        "title": "Buchung und Zahlung direkt auf der Website",
+        "detail": "Kunden wählen einen Termin und zahlen, ganz ohne DMs. Genau das haben wir für Coach Luki und Coach Kofi gebaut."
+      },
+      "local_seo": {
+        "title": "Lokale Suche und Bewertungen",
+        "detail": "Dort ranken, wo Ihre Kunden tatsächlich suchen, mit aktuellen Google-Bewertungen auf der Seite."
+      }
+    }
   }
 }

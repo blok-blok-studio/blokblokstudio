@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
 import { LandingFooter } from './LandingFooter';
 import { readAnswers, clearAnswers, buildPlan, type Plan } from '@/lib/quiz-plan';
@@ -29,12 +30,6 @@ const WHATSAPP_LINK =
 // Optional: exact Google Ads conversion action ("AW-XXXXXXX/AbCdEfGh").
 // Without it we fire the generic generate_lead event instead.
 const GOOGLE_CONVERSION = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION;
-
-const NEXT_STEPS = [
-  { n: '1', title: 'Pick your time above', desc: 'A short call so we can learn about your business and what you need.' },
-  { n: '2', title: 'We break it all down on the call', desc: 'Where you are losing customers, what to fix first, and what it takes to do it.' },
-  { n: '3', title: 'We build, you grow', desc: 'Website, ads, social, AI systems. Done for you, live fast.' },
-];
 
 function fireMeta() {
   // Same event id the server sent via the Conversions API — Meta
@@ -72,7 +67,13 @@ function fireGoogle() {
 }
 
 export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'google' | 'all' }) {
+  const t = useTranslations('thanks');
   const fired = useRef(false);
+  const NEXT_STEPS = [
+    { n: '1', title: t('next_1_title'), desc: t('next_1_desc') },
+    { n: '2', title: t('next_2_title'), desc: t('next_2_desc') },
+    { n: '3', title: t('next_3_title'), desc: t('next_3_desc') },
+  ];
   // The plan is the payoff for answering the quiz. Read on mount rather than
   // during render so the server and first client paint agree; a direct visit
   // or private mode simply leaves it null and the generic copy stands.
@@ -124,7 +125,7 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
 
       <div className="relative max-w-2xl mx-auto px-5 sm:px-6 pt-16 sm:pt-24 pb-20 text-center">
         <p className="text-sm font-semibold tracking-wide text-gray-400 mb-12">
-          BLOK BLOK <span className="text-orange-400">STUDIO</span>
+          {t('brand')} <span className="text-orange-400">STUDIO</span>
         </p>
 
         <AnimatedSection>
@@ -134,12 +135,18 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
             </svg>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">
-            {plan ? plan.headline : "You're in. One more step."}
+            {plan
+              ? plan.firstName
+                ? t('headline_named', { name: plan.firstName })
+                : t('headline')
+              : t('headline_fallback')}
           </h1>
           <p className="text-gray-400 text-base sm:text-lg leading-relaxed mb-10">
             {plan
-              ? plan.diagnosis
-              : 'Your request is with us. Lock in your free 15-minute intro call now, the earliest slots go to whoever books first.'}
+              ? t(plan.knewWhatTheyWanted ? 'diagnosis_known' : 'diagnosis_unsure', {
+                  industry: plan.industry ? plan.industry.toLowerCase() : t('industry_fallback'),
+                })
+              : t('sub_fallback')}
           </p>
         </AnimatedSection>
 
@@ -147,42 +154,44 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
           <div className="rounded-3xl overflow-hidden border border-white/10 bg-white shadow-2xl shadow-black/40">
             <iframe
               src={INTRO_CALL_EMBED}
-              title="Book your free intro call"
+              title={t('calendar_title')}
               className="w-full h-[640px] sm:h-[700px] border-0"
               loading="eager"
             />
           </div>
           <p className="mt-4 text-xs text-gray-600 text-pretty">
-            Calendar not loading?{' '}
+            {t('calendar_fallback')}{' '}
             <a href={INTRO_CALL_LINK} target="_blank" rel="noopener noreferrer" className="text-gray-400 underline hover:text-white">
-              Open it directly
+              {t('calendar_open')}
             </a>
-            . Prefer chat?{' '}
+            . {t('calendar_chat')}{' '}
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-gray-400 underline hover:text-white">
-              Message us on WhatsApp
+              {t('calendar_whatsapp')}
             </a>{' '}
-            and we&apos;ll reply within&nbsp;minutes.
+            {t('calendar_reply')}
           </p>
         </AnimatedSection>
 
         {plan && (
           <AnimatedSection delay={0.1} className="mt-12 text-left">
             <div className="rounded-3xl border border-orange-500/20 bg-orange-500/[0.04] p-6 sm:p-8">
-              <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70 mb-5">What we&apos;ll cover on the call</p>
+              <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70 mb-5">{t('cover_label')}</p>
               <div className="space-y-5">
-                {plan.items.map((item) => (
-                  <div key={item.title} className="flex items-start gap-4">
+                {plan.items.map((key) => (
+                  <div key={key} className="flex items-start gap-4">
                     <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-orange-400" />
                     <div>
-                      <p className="text-white font-medium">{item.title}</p>
-                      <p className="text-gray-400 text-sm leading-relaxed text-pretty">{item.detail}</p>
+                      <p className="text-white font-medium">{t(`work.${key}.title`)}</p>
+                      <p className="text-gray-400 text-sm leading-relaxed text-pretty">
+                        {t(`work.${key}.detail`)}
+                      </p>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
             <p className="mt-4 text-center text-sm text-gray-500 text-pretty">
-              We&apos;ll go through all of it properly on the call, scope and cost included.
+              {t('cover_note')}
             </p>
           </AnimatedSection>
         )}
@@ -193,7 +202,7 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
             right here. */}
         <AnimatedSection delay={0.15} className="mt-16 text-left">
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 sm:p-8 space-y-5">
-            <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70">What happens next</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-orange-400/70">{t('next_label')}</p>
             {NEXT_STEPS.map((s) => (
               <div key={s.n} className="flex items-start gap-4">
                 <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500/10 border border-orange-500/30 text-orange-400 text-sm font-bold flex items-center justify-center">
@@ -211,9 +220,9 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
         <AnimatedSection delay={0.2} className="mt-16 text-left">
           <div className="text-center mb-6 sm:mb-8">
             <p className="text-xs font-semibold tracking-[0.2em] text-orange-400/70 uppercase mb-2">
-              Who you&apos;ll be talking to
+              {t('founder_kicker')}
             </p>
-            <h2 className="text-2xl sm:text-3xl font-bold text-balance">Meet the Founder</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-balance">{t('founder_title')}</h2>
           </div>
           <FounderVideo />
         </AnimatedSection>
@@ -222,9 +231,9 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
           <div className="relative left-1/2 -translate-x-1/2 w-screen max-w-7xl px-5 sm:px-8 text-left">
             <div className="text-center mb-6 sm:mb-8">
               <p className="text-xs font-semibold tracking-[0.2em] text-orange-400/70 uppercase mb-2">
-                The work, and the numbers
+                {t('clients_kicker')}
               </p>
-              <h2 className="text-2xl sm:text-3xl font-bold text-balance">Meet Our Clients</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-balance">{t('clients_title')}</h2>
             </div>
             <CaseStudyGrid />
           </div>
@@ -237,16 +246,16 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
         <AnimatedSection delay={0.3} className="mt-16">
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 text-center">
             <h2 className="text-xl sm:text-2xl font-bold mb-2 text-balance">
-              Want to see more of the work?
+              {t('cta_title')}
             </h2>
             <p className="text-gray-500 text-sm mb-6 text-pretty">
-              The full portfolio, the team, and how we build is all on the main&nbsp;site.
+              {t('cta_sub')}
             </p>
             <a
               href="/"
               className="inline-block rounded-full bg-gradient-to-r from-orange-500 to-amber-400 px-7 py-3.5 text-sm font-semibold text-black shadow-lg shadow-orange-500/40 transition-shadow hover:shadow-orange-500/60"
             >
-              Visit blokblokstudio.com
+              {t('cta_button')}
             </a>
           </div>
         </AnimatedSection>

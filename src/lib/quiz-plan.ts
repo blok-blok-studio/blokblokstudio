@@ -24,15 +24,15 @@ export interface QuizAnswers {
   timeline: string;
 }
 
-export interface PlanItem {
-  title: string;
-  detail: string;
-}
-
 export interface Plan {
-  headline: string;
-  diagnosis: string;
-  items: PlanItem[];
+  /** Empty when they gave no name; the component picks a greeting without one. */
+  firstName: string;
+  /** Their business type, or empty for "Other". Translated at render time. */
+  industry: string;
+  /** False when they answered "Not sure yet", which changes the framing. */
+  knewWhatTheyWanted: boolean;
+  /** Keys into thanks.work.* — the pieces of work to talk through. */
+  items: string[];
 }
 
 const STORAGE_KEY = 'bb-quiz-answers';
@@ -65,73 +65,36 @@ export function clearAnswers(): void {
   }
 }
 
-/** What each service choice actually means as a piece of work. */
-const WORK: Record<string, PlanItem> = {
-  'New website': {
-    title: 'A site built for one job',
-    detail:
-      'Custom Next.js build, not a template. Every page points at a single action, whether that is a booked call, an order, or a payment.',
-  },
-  'Website redesign': {
-    title: 'Rebuild on what already works',
-    detail:
-      'We keep the pages already pulling their weight, fix the ones leaking visitors, and move the whole thing onto a stack that loads fast.',
-  },
-  'E-commerce': {
-    title: 'A storefront that closes',
-    detail:
-      'Product pages, checkout, and payments wired so people actually finish rather than abandon halfway.',
-  },
-  'Landing page': {
-    title: 'One page, one offer',
-    detail:
-      'The fastest thing we build. A single page aimed at one audience, with the tracking attached so you can see what it returns.',
-  },
-  'Google Ads': {
-    title: 'Show up at the moment of intent',
-    detail:
-      'Campaigns built and managed against booked jobs, not clicks. Search is where people already know what they want.',
-  },
-  'Meta Ads': {
-    title: 'Get in front of them first',
-    detail:
-      'Facebook and Instagram campaigns that put the offer in front of the right people before a competitor does.',
-  },
-  'Social media': {
-    title: 'Social that points somewhere',
-    detail:
-      'Clips, captions and posts cut from footage you already have, built to move people to the site rather than just fill a feed.',
-  },
+/**
+ * Which piece of work each answer implies, as a translation key rather than a
+ * sentence. The copy lives in the message files under `thanks.work.*` so the
+ * agenda reads in the same language as the quiz that produced it; returning
+ * English here would have left a German visitor with a German quiz and an
+ * English plan.
+ */
+const WORK: Record<string, string> = {
+  'New website': 'site',
+  'Website redesign': 'redesign',
+  'E-commerce': 'shop',
+  'Landing page': 'landing',
+  'Google Ads': 'search_ads',
+  'Meta Ads': 'social_ads',
+  'Social media': 'social',
 };
 
 /** Fallback when someone picks "Not sure yet", keyed loosely off their industry. */
-function defaultWork(business: string): PlanItem[] {
+function defaultWork(business: string): string[] {
   const b = business.toLowerCase();
-  const site = WORK['New website'];
   if (b.includes('commerce') || b.includes('retail') || b.includes('shop')) {
-    return [WORK['E-commerce'], WORK['Meta Ads']];
+    return ['shop', 'social_ads'];
   }
   if (b.includes('coach') || b.includes('fitness') || b.includes('wellness') || b.includes('beauty')) {
-    return [
-      site,
-      {
-        title: 'Booking and payment on the site',
-        detail:
-          'Clients pick a slot and pay without a single DM. This is exactly what we built for Coach Luki and Coach Kofi.',
-      },
-    ];
+    return ['site', 'booking'];
   }
   if (b.includes('trade') || b.includes('construction') || b.includes('automotive') || b.includes('legal') || b.includes('medical')) {
-    return [
-      site,
-      {
-        title: 'Local search and reviews',
-        detail:
-          'Rank where your customers actually look, with live Google reviews on the page.',
-      },
-    ];
+    return ['site', 'local_seo'];
   }
-  return [site, WORK['Landing page']];
+  return ['site', 'landing'];
 }
 
 export function buildPlan(a: QuizAnswers): Plan {
@@ -139,13 +102,10 @@ export function buildPlan(a: QuizAnswers): Plan {
   const chosen = picked.map((s) => WORK[s]).filter(Boolean).slice(0, 4);
   const resolved = chosen.length ? chosen : defaultWork(a.business);
 
-  const first = a.name.trim().split(/\s+/)[0];
-  const headline = first ? `Here is where we would start, ${first}` : 'Here is where we would start';
-
-  const industry = a.business && a.business !== 'Other' ? a.business.toLowerCase() : 'your line of work';
-  const diagnosis = picked.length
-    ? `Based on what you told us about ${industry}, this is what we would work through with you on the call.`
-    : `You said you are not sure yet, which is a normal place to start. For ${industry}, this is usually where the money is, so it is where we would begin on the call.`;
-
-  return { headline, diagnosis, items: resolved };
+  return {
+    firstName: a.name.trim().split(/\s+/)[0] || '',
+    industry: a.business && a.business !== 'Other' ? a.business : '',
+    knewWhatTheyWanted: picked.length > 0,
+    items: resolved,
+  };
 }

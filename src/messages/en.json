@@ -698,5 +698,75 @@
     "enforcement_us": "<strong>United States</strong>, the US Department of Justice Civil Rights Division for ADA complaints; the US Access Board for Section 508.",
     "preparation_title": "How this statement was prepared",
     "preparation_content": "This statement was prepared on {date} via a self-evaluation of the site against WCAG 2.2 AA. The evaluation combined an automated review of the live site with a manual review of the codebase (semantic structure, keyboard navigation, focus management, ARIA usage, color contrast, motion handling, and locale direction). We re-review the site after every significant release."
+  },
+  "thanks": {
+    "brand": "BLOK BLOK",
+    "headline_named": "Here is where we would start, {name}",
+    "headline": "Here is where we would start",
+    "headline_fallback": "You're in. One more step.",
+    "diagnosis_known": "Based on what you told us about {industry}, this is what we would work through with you on the call.",
+    "diagnosis_unsure": "You said you are not sure yet, which is a normal place to start. For {industry}, this is usually where the money is, so it is where we would begin on the call.",
+    "industry_fallback": "your line of work",
+    "sub_fallback": "Your request is with us. Lock in your free 15-minute intro call now, the earliest slots go to whoever books first.",
+    "cover_label": "What we'll cover on the call",
+    "cover_note": "We'll go through all of it properly on the call, scope and cost included.",
+    "calendar_title": "Book your free intro call",
+    "calendar_fallback": "Calendar not loading?",
+    "calendar_open": "Open it directly",
+    "calendar_chat": "Prefer chat?",
+    "calendar_whatsapp": "Message us on WhatsApp",
+    "calendar_reply": "and we'll reply within minutes.",
+    "next_label": "What happens next",
+    "next_1_title": "Pick your time above",
+    "next_1_desc": "A short call so we can learn about your business and what you need.",
+    "next_2_title": "We break it all down on the call",
+    "next_2_desc": "Where you are losing customers, what to fix first, and what it takes to do it.",
+    "next_3_title": "We build, you grow",
+    "next_3_desc": "Website, ads, social, AI systems. Done for you, live fast.",
+    "founder_kicker": "Who you'll be talking to",
+    "founder_title": "Meet the Founder",
+    "clients_kicker": "The work, and the numbers",
+    "clients_title": "Meet Our Clients",
+    "cta_title": "Want to see more of the work?",
+    "cta_sub": "The full portfolio, the team, and how we build is all on the main site.",
+    "cta_button": "Visit blokblokstudio.com",
+    "work": {
+      "site": {
+        "title": "A site built for one job",
+        "detail": "Custom Next.js build, not a template. Every page points at a single action, whether that is a booked call, an order, or a payment."
+      },
+      "redesign": {
+        "title": "Rebuild on what already works",
+        "detail": "We keep the pages already pulling their weight, fix the ones leaking visitors, and move the whole thing onto a stack that loads fast."
+      },
+      "shop": {
+        "title": "A storefront that closes",
+        "detail": "Product pages, checkout, and payments wired so people actually finish rather than abandon halfway."
+      },
+      "landing": {
+        "title": "One page, one offer",
+        "detail": "The fastest thing we build. A single page aimed at one audience, with the tracking attached so you can see what it returns."
+      },
+      "search_ads": {
+        "title": "Show up at the moment of intent",
+        "detail": "Campaigns built and managed against booked jobs, not clicks. Search is where people already know what they want."
+      },
+      "social_ads": {
+        "title": "Get in front of them first",
+        "detail": "Facebook and Instagram campaigns that put the offer in front of the right people before a competitor does."
+      },
+      "social": {
+        "title": "Social that points somewhere",
+        "detail": "Clips, captions and posts cut from footage you already have, built to move people to the site rather than just fill a feed."
+      },
+      "booking": {
+        "title": "Booking and payment on the site",
+        "detail": "Clients pick a slot and pay without a single DM. This is exactly what we built for Coach Luki and Coach Kofi."
+      },
+      "local_seo": {
+        "title": "Local search and reviews",
+        "detail": "Rank where your customers actually look, with live Google reviews on the page."
+      }
+    }
   }
 }
