@@ -254,34 +254,61 @@ export async function notifyConfirmEmailFailed(subscriberEmail: string) {
  * the form, sounds like a person, and hands them the booking link so hot
  * leads can self-schedule before we even call.
  */
-export async function sendLeadAckEmail(to: string, name: string) {
+/**
+ * Speed-to-lead acknowledgement, in the language they filled the form in.
+ * Sent from Chase personally with a reply-to that reaches him, because the
+ * point is that it reads like a person rather than a receipt.
+ */
+const ACK_COPY = {
+  en: {
+    subject: (n: string) => `${n}, got your request. Here's the fast lane`,
+    greeting: (n: string) => `Hey ${n},`,
+    p1: "Your request just landed. I'm going to put eyes on your website, your ads, and how you follow up with leads, and pull together the three fastest ways to get you more customers.",
+    p2: 'The quickest way to get your plan is a 15 minute call. Grab whatever time works:',
+    button: 'Pick a time (15 min, free)',
+    p3_pre: 'Prefer chat?',
+    p3_link: 'Message me on WhatsApp',
+    p3_post: "or just reply to this email. Either way, you get the plan and it's yours to keep, whether we end up working together or not.",
+    signoff: 'Talk soon,',
+    location: 'Blok Blok Studio, Berlin',
+  },
+  de: {
+    subject: (n: string) => `${n}, Ihre Anfrage ist da. Hier der schnellste Weg`,
+    greeting: (n: string) => `Hallo ${n},`,
+    p1: 'Ihre Anfrage ist gerade eingegangen. Ich schaue mir Ihre Website, Ihre Anzeigen und Ihre Nachfassprozesse an und stelle die drei schnellsten Wege zusammen, wie Sie mehr Kunden gewinnen.',
+    p2: 'Am schnellsten bekommen Sie Ihren Plan in einem 15-minütigen Gespräch. Suchen Sie sich einfach einen Termin aus:',
+    button: 'Termin wählen (15 Min., kostenlos)',
+    p3_pre: 'Lieber schreiben?',
+    p3_link: 'Schreiben Sie mir auf WhatsApp',
+    p3_post: 'oder antworten Sie einfach auf diese E-Mail. So oder so bekommen Sie den Plan und dürfen ihn behalten, ganz gleich ob wir am Ende zusammenarbeiten.',
+    signoff: 'Bis bald,',
+    location: 'Blok Blok Studio, Berlin',
+  },
+} as const;
+
+export async function sendLeadAckEmail(to: string, name: string, lang: 'en' | 'de' = 'en') {
+  const c = ACK_COPY[lang];
   const from = process.env.EMAIL_FROM || 'onboarding@resend.dev';
   const replyTo = process.env.NOTIFICATION_EMAIL || from;
   const bookingLink = 'https://calendar.app.google/HeP9bUhWaKfosQF26';
   const whatsapp = 'https://wa.me/491627055848';
-  const firstName = (name || '').trim().split(' ')[0] || 'there';
+  const firstName = (name || '').trim().split(' ')[0] || (lang === 'de' ? 'zusammen' : 'there');
 
   const html = `
     <div style="font-family: -apple-system, sans-serif; max-width: 560px; margin: 0 auto; padding: 32px 24px; color: #222;">
-      <p style="line-height: 1.7;">Hey ${firstName},</p>
-      <p style="line-height: 1.7;">
-        Your request just landed. I'm going to put eyes on your website, your ads, and how
-        you follow up with leads, and pull together the three fastest ways to get you more customers.
-      </p>
-      <p style="line-height: 1.7;">
-        The quickest way to get your plan is a 15 minute call. Grab whatever time works:
-      </p>
+      <p style="line-height: 1.7;">${c.greeting(firstName)}</p>
+      <p style="line-height: 1.7;">${c.p1}</p>
+      <p style="line-height: 1.7;">${c.p2}</p>
       <p style="margin: 24px 0;">
         <a href="${bookingLink}"
            style="background: #111; color: #fff; text-decoration: none; padding: 14px 32px; border-radius: 999px; font-weight: 600; display: inline-block;">
-          Pick a time (15 min, free)
+          ${c.button}
         </a>
       </p>
       <p style="line-height: 1.7;">
-        Prefer chat? <a href="${whatsapp}" style="color: #111;">Message me on WhatsApp</a> or just reply to this email.
-        Either way, you get the plan and it's yours to keep, whether we end up working together or not.
+        ${c.p3_pre} <a href="${whatsapp}" style="color: #111;">${c.p3_link}</a> ${c.p3_post}
       </p>
-      <p style="line-height: 1.7;">Talk soon,<br/>Chase<br/><span style="color: #888;">Blok Blok Studio, Berlin</span></p>
+      <p style="line-height: 1.7;">${c.signoff}<br/>Chase<br/><span style="color: #888;">${c.location}</span></p>
     </div>`;
 
   try {
@@ -289,7 +316,7 @@ export async function sendLeadAckEmail(to: string, name: string) {
       from: `Chase at Blok Blok Studio <${from}>`,
       to,
       replyTo,
-      subject: `${firstName}, got your request. Here's the fast lane`,
+      subject: c.subject(firstName),
       html,
       text: htmlToText(html),
     });

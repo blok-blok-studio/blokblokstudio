@@ -784,6 +784,23 @@
     "wechat_copied": "Kopiert",
     "wechat_open": "Kontaktieren Sie uns über WeChat",
     "wechat_close": "WeChat-Kontaktkarte schließen",
-    "whatsapp_aria": "Schreiben Sie uns auf WhatsApp (öffnet in neuem Tab)"
+    "whatsapp_aria": "Schreiben Sie uns auf WhatsApp (öffnet in neuem Tab)",
+    "proj_not_found": "Projekt nicht gefunden",
+    "proj_back": "Zurück zu den Projekten",
+    "proj_visit": "Live-Website besuchen",
+    "proj_live": "Live-Website",
+    "proj_take_look": "Ansehen",
+    "proj_open_live": "Live öffnen",
+    "proj_live_lower": "Live-Website",
+    "proj_testimonial": "Das sagt der Kunde",
+    "proj_gallery": "Projektgalerie",
+    "proj_next": "Nächstes Projekt",
+    "cases_kicker": "Die Arbeit und die Zahlen",
+    "cases_sub": "Kunden vor der Kamera, Umsatz belegt. So sieht die Zusammenarbeit mit uns wirklich aus.",
+    "cases_view": "Fallstudie ansehen",
+    "mockup_all": "Projekte von Blok Blok Studio auf MacBook, iPad und iPhone",
+    "mockup_bronco": "Bronco Plumbing auf dem iPad",
+    "mockup_kofi_desktop": "Website von Coach Kofi auf dem MacBook",
+    "mockup_kofi_mobile": "Coach Kofi mobil auf dem iPhone"
   }
 }

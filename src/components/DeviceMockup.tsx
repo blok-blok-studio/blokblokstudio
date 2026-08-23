@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { AnimatedSection } from './AnimatedSection';
+import { useTranslations } from 'next-intl';
 
 /**
  * DeviceMockup, Showcases project screenshots inside CSS device frames
@@ -17,6 +18,7 @@ const USE_REAL_IMAGE = true;
 const REAL_IMAGE_PATH = '/images/hero-devices.png';
 
 export function DeviceMockup() {
+  const t = useTranslations('ui');
   if (USE_REAL_IMAGE) {
     return (
       <section className="py-8 sm:py-12 lg:py-16 px-5 sm:px-6 lg:px-8 overflow-hidden">
@@ -30,7 +32,7 @@ export function DeviceMockup() {
             >
               <Image
                 src={REAL_IMAGE_PATH}
-                alt="Blok Blok Studio projects on MacBook, iPad, and iPhone"
+                alt={t('mockup_all')}
                 width={1400}
                 height={800}
                 className="w-full h-auto"
@@ -80,7 +82,7 @@ export function DeviceMockup() {
                   <div className="aspect-[3/4] relative bg-gray-950">
                     <Image
                       src="/images/projects/bronco.webp"
-                      alt="Bronco Plumbing on iPad"
+                      alt={t('mockup_bronco')}
                       fill
                       className="object-cover object-top"
                       sizes="280px"
@@ -107,7 +109,7 @@ export function DeviceMockup() {
                   <div className="aspect-[16/10] relative bg-gray-950">
                     <Image
                       src="/images/projects/coachkofi.webp"
-                      alt="Coach Kofi website on MacBook"
+                      alt={t('mockup_kofi_desktop')}
                       fill
                       className="object-cover object-top"
                       sizes="(max-width: 640px) 100vw, 680px"
@@ -140,7 +142,7 @@ export function DeviceMockup() {
                   <div className="aspect-[9/19] relative bg-gray-950">
                     <Image
                       src="/images/projects/coachkofi-mobile.webp"
-                      alt="Coach Kofi mobile on iPhone"
+                      alt={t('mockup_kofi_mobile')}
                       fill
                       className="object-cover object-top"
                       sizes="130px"

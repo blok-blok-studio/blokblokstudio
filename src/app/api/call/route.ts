@@ -156,7 +156,7 @@ export async function POST(req: NextRequest) {
 
     // Speed to lead: instant acknowledgment with the booking link so hot
     // leads can self-schedule while we're being notified (non-blocking)
-    sendLeadAckEmail(email, name).catch(() => {});
+    sendLeadAckEmail(email, name, lang).catch(() => {});
 
     // Instant alert to NOTIFICATION_EMAIL with everything the lead
     // submitted: services, phone, attribution (in problem) plus business

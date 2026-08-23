@@ -17,6 +17,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { pushUnsubscribeToTracker } from '@/lib/tracker';
+import { pickLang } from '@/lib/pick-lang';
 
 /**
  * GET /api/unsubscribe?id=xxx — branded unsubscribe page with options.
@@ -27,7 +28,7 @@ export async function GET(req: NextRequest) {
   const action = req.nextUrl.searchParams.get('action');
 
   if (!id) {
-    return new NextResponse(htmlPage('Invalid Link', 'invalid', null), {
+    return new NextResponse(htmlPage('invalid', null, pickLang(req)), {
       status: 400,
       headers: { 'Content-Type': 'text/html; charset=utf-8' },
     });
@@ -40,12 +41,12 @@ export async function GET(req: NextRequest) {
   // Default: show the unsubscribe options page
   try {
     const lead = await prisma.lead.findUnique({ where: { id }, select: { name: true, email: true } });
-    return new NextResponse(htmlPage('Email Preferences', 'options', lead ? { id, name: lead.name, email: lead.email } : { id, name: '', email: '' }), {
+    return new NextResponse(htmlPage('options', lead ? { id, name: lead.name, email: lead.email } : { id, name: '', email: '' }, pickLang(req)), {
       status: 200,
       headers: { 'Content-Type': 'text/html; charset=utf-8' },
     });
   } catch {
-    return new NextResponse(htmlPage('Email Preferences', 'options', { id, name: '', email: '' }), {
+    return new NextResponse(htmlPage('options', { id, name: '', email: '' }, pickLang(req)), {
       status: 200,
       headers: { 'Content-Type': 'text/html; charset=utf-8' },
     });
@@ -76,7 +77,7 @@ export async function POST(req: NextRequest) {
           data: { leadId: id, type: 'unsubscribed', details: reason ? `Reason: ${reason.slice(0, 200)}` : 'Manual unsubscribe via page' },
         }).catch(() => {});
       } catch { /* already unsubscribed or not found */ }
-      return new NextResponse(htmlPage(formAction === 'feedback' ? 'Thank You' : 'Unsubscribed', formAction === 'feedback' ? 'feedback' : 'unsubscribed', null), {
+      return new NextResponse(htmlPage(formAction === 'feedback' ? 'feedback' : 'unsubscribed', null, pickLang(req)), {
         status: 200,
         headers: { 'Content-Type': 'text/html; charset=utf-8' },
       });
@@ -88,7 +89,7 @@ export async function POST(req: NextRequest) {
         if (!tags.includes('reduced-frequency')) tags.push('reduced-frequency');
         await prisma.lead.update({ where: { id }, data: { tags: JSON.stringify(tags) } });
       } catch { /* ignore */ }
-      return new NextResponse(htmlPage('Preferences Updated', 'reduced', null), {
+      return new NextResponse(htmlPage('reduced', null, pickLang(req)), {
         status: 200,
         headers: { 'Content-Type': 'text/html; charset=utf-8' },
       });
@@ -162,7 +163,54 @@ export async function POST(req: NextRequest) {
   }
 }
 
-function htmlPage(title: string, state: string, lead: { id: string; name: string; email: string } | null): string {
+
+/**
+ * One-click unsubscribe has to work for whoever opens it, and they opened it
+ * from an email client with no page context. Language comes from the locale
+ * cookie if they ever set one, otherwise their browser, which follows the OS.
+ */
+const UNSUB_COPY = {
+  en: {
+    invalid_title: 'Invalid Link',
+    invalid_body: 'This unsubscribe link is not valid or has expired.',
+    done_title: 'You\u2019ve Been Unsubscribed',
+    done_body: 'You will no longer receive emails from us. We\u2019re sorry to see you go.',
+    reduced_title: 'Email Frequency Reduced',
+    reduced_body: 'We\u2019ve updated your preferences. You\u2019ll hear from us less often.',
+    feedback_title: 'Thank You for Your Feedback',
+    feedback_body: 'You\u2019ve been unsubscribed. Your feedback helps us improve.',
+    options_title: 'Email Preferences',
+    options_body: 'How would you like to manage your email preferences?',
+    reduce_cta: 'Reduce Frequency',
+    reduce_sub: 'Get fewer emails from us',
+    unsub_cta: 'Unsubscribe Completely',
+    unsub_sub: 'Stop all emails',
+    feedback_prompt: '${c.feedback_prompt}',
+    reasons: ['Too many emails', 'Not relevant to me', 'Never signed up', 'Content not useful', 'Other'],
+  },
+  de: {
+    invalid_title: 'Ungültiger Link',
+    invalid_body: 'Dieser Abmeldelink ist ungültig oder abgelaufen.',
+    done_title: 'Sie wurden abgemeldet',
+    done_body: 'Sie erhalten keine E-Mails mehr von uns. Schade, dass Sie gehen.',
+    reduced_title: 'E-Mail-Häufigkeit reduziert',
+    reduced_body: 'Wir haben Ihre Einstellungen aktualisiert. Sie hören seltener von uns.',
+    feedback_title: 'Danke für Ihr Feedback',
+    feedback_body: 'Sie wurden abgemeldet. Ihr Feedback hilft uns, besser zu werden.',
+    options_title: 'E-Mail-Einstellungen',
+    options_body: 'Wie möchten Sie Ihre E-Mail-Einstellungen verwalten?',
+    reduce_cta: 'Seltener senden',
+    reduce_sub: 'Weniger E-Mails von uns erhalten',
+    unsub_cta: 'Vollständig abmelden',
+    unsub_sub: 'Keine E-Mails mehr',
+    feedback_prompt: 'Helfen Sie uns besser zu werden. Warum gehen Sie?',
+    reasons: ['Zu viele E-Mails', 'Für mich nicht relevant', 'Nie angemeldet', 'Inhalte nicht nützlich', 'Sonstiges'],
+  },
+} as const;
+
+function htmlPage(state: string, lead: { id: string; name: string; email: string } | null, lang: 'en' | 'de' = 'en'): string {
+  const c = UNSUB_COPY[lang];
+  const title = c[`${state === 'options' ? 'options' : state === 'reduced' ? 'reduced' : state === 'feedback' ? 'feedback' : state === 'unsubscribed' ? 'done' : 'invalid'}_title` as keyof typeof c] as string;
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || '';
 
   let content = '';
@@ -217,9 +265,9 @@ function htmlPage(title: string, state: string, lead: { id: string; name: string
       </div>
 
       <div class="feedback-section">
-        <p class="small">Help us improve. Why are you leaving?</p>
+        <p class="small">${c.feedback_prompt}</p>
         <div class="reasons">
-          ${['Too many emails', 'Not relevant to me', 'Never signed up', 'Content not useful', 'Other'].map(reason =>
+          ${c.reasons.map(reason =>
             `<form method="POST" action="${baseUrl}/api/unsubscribe?id=${lead.id}&action=feedback&reason=${encodeURIComponent(reason)}&form=1" style="display:inline;margin:0"><button type="submit" class="reason-btn" style="border:0;cursor:pointer;font:inherit">${reason}</button></form>`
           ).join('\n          ')}
         </div>
@@ -228,7 +276,7 @@ function htmlPage(title: string, state: string, lead: { id: string; name: string
   }
 
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="${lang}">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

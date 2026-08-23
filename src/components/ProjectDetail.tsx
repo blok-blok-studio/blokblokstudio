@@ -38,6 +38,7 @@ import Image from 'next/image';
 import { videoForProject, type SiteVideoKey } from '@/data/videos';
 import { VideoTranscript } from './VideoTranscript';
 import { projectsData } from '@/data/projects';
+import { useTranslations } from 'next-intl';
 
 /**
  * The iframe is rendered at a fixed "desktop" viewport width and then
@@ -103,6 +104,7 @@ function ScaledLiveIframe({
  * ---------------------------------------------------------------------------
  */
 export function ProjectDetail({ slug }: { slug: string }) {
+  const t = useTranslations('ui');
   const project = projectsData[slug];
   // Caption track lives in videos.ts, which is the source of truth for
   // everything the video SEO layer reads.
@@ -113,9 +115,9 @@ export function ProjectDetail({ slug }: { slug: string }) {
   if (!project) {
     return (
       <section className="pt-32 pb-24 px-5 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl font-bold mb-4">Project Not Found</h1>
+        <h1 className="text-4xl font-bold mb-4">{t('proj_not_found')}</h1>
         <Link href="/projects" className="text-gray-400 hover:text-white transition-colors">
-          &larr; Back to Projects
+          &larr; {t('proj_back')}
         </Link>
       </section>
     );
@@ -138,7 +140,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17l-4-4m0 0l4-4m-4 4h18" />
               </svg>
-              Back to Projects
+              {t('proj_back')}
             </Link>
 
             <div className="flex items-center gap-3 mb-4 sm:mb-6">
@@ -163,7 +165,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-sm"
               >
-                Visit Live Site
+                {t('proj_visit')}
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
@@ -225,7 +227,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                   <span className="hidden sm:inline">
                     {project.embeddable ? 'Click and scroll the live site below' : 'Scroll through the live site below'}
                   </span>
-                  <span className="sm:hidden">Take a look</span>
+                  <span className="sm:hidden">{t('proj_take_look')}</span>
                 </h2>
                 <p className="hidden sm:block text-sm text-gray-500 mt-2">
                   {project.embeddable
@@ -256,7 +258,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                       rel="noopener noreferrer"
                       className="text-xs text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"
                     >
-                      Open live
+                      {t('proj_open_live')}
                       <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
@@ -360,7 +362,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
         <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">
           <div className="max-w-3xl mx-auto">
             <AnimatedSection className="mb-8 sm:mb-12 text-center">
-              <h2 className="text-2xl sm:text-3xl font-bold">Hear It From the Client</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold">{t('proj_testimonial')}</h2>
               {project.testimonialName && (
                 <p className="text-sm text-gray-500 mt-2">{project.testimonialName}</p>
               )}
@@ -401,7 +403,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
       <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">
         <div className="max-w-7xl mx-auto">
           <AnimatedSection className="mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold">Project Gallery</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold">{t('proj_gallery')}</h2>
           </AnimatedSection>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {project.gallery.filter(img => img !== null).map((img, i) => (
@@ -432,7 +434,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 <div className="glass-card rounded-2xl sm:rounded-3xl p-8 sm:p-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                   <div>
                     <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider mb-2">
-                      Next Project
+                      {t('proj_next')}
                     </p>
                     <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold group-hover:text-white transition-colors">
                       {nextProject.title}
