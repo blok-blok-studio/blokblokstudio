@@ -778,5 +778,14 @@
     "ph_telegram": "例：123456789",
     "ph_notes": "プロジェクトやご希望、進め方について知っておくべきことがあればご記入ください...",
     "ph_brand": "ロゴの使い方、ブランドカラー、フォント、トーン、してよいこと・避けたいこと..."
+  },
+  "a11y": {
+    "skip_to_main": "メインコンテンツへスキップ",
+    "main_navigation": "メインナビゲーション",
+    "open_menu": "メニューを開く",
+    "close_menu": "メニューを閉じる",
+    "email_label": "メールアドレス",
+    "cookie_dialog": "Cookie の同意",
+    "cookie_preferences_dialog": "Cookie の設定"
   }
 }

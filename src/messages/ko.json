@@ -778,5 +778,14 @@
     "ph_telegram": "예: 123456789",
     "ph_notes": "프로젝트나 선호 사항, 일하시는 방식에 대해 저희가 알아야 할 내용...",
     "ph_brand": "로고 사용법, 브랜드 컬러, 서체, 톤앤매너, 지켜야 할 것과 피할 것..."
+  },
+  "a11y": {
+    "skip_to_main": "본문으로 건너뛰기",
+    "main_navigation": "주요 탐색",
+    "open_menu": "메뉴 열기",
+    "close_menu": "메뉴 닫기",
+    "email_label": "이메일 주소",
+    "cookie_dialog": "쿠키 동의",
+    "cookie_preferences_dialog": "쿠키 설정"
   }
 }

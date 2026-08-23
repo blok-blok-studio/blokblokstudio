@@ -778,5 +778,14 @@
     "ph_telegram": "例如：123456789",
     "ph_notes": "关于项目、偏好或工作方式，任何我们该知道的事...",
     "ph_brand": "logo 用法、品牌色、字体、语气风格、可以做和不要做的..."
+  },
+  "a11y": {
+    "skip_to_main": "跳到主要内容",
+    "main_navigation": "主导航",
+    "open_menu": "打开菜单",
+    "close_menu": "关闭菜单",
+    "email_label": "电子邮件地址",
+    "cookie_dialog": "Cookie 同意",
+    "cookie_preferences_dialog": "Cookie 设置"
   }
 }

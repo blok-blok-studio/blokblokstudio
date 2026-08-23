@@ -778,5 +778,14 @@
     "ph_telegram": "örn. 123456789",
     "ph_notes": "Projeniz, tercihleriniz veya çalışma şekliniz hakkında bilmemiz gereken her şey...",
     "ph_brand": "Logo kullanımı, marka renkleri, yazı tipleri, ses tonu, yapılması ve yapılmaması gerekenler..."
+  },
+  "a11y": {
+    "skip_to_main": "Ana içeriğe geç",
+    "main_navigation": "Ana gezinme",
+    "open_menu": "Menüyü aç",
+    "close_menu": "Menüyü kapat",
+    "email_label": "E-posta adresi",
+    "cookie_dialog": "Çerez onayı",
+    "cookie_preferences_dialog": "Çerez tercihleri"
   }
 }

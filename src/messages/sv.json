@@ -778,5 +778,14 @@
     "ph_telegram": "t.ex. 123456789",
     "ph_notes": "Allt vi bör veta om ert projekt, era önskemål eller hur ni jobbar...",
     "ph_brand": "Logotypanvändning, varumärkesfärger, typsnitt, tonalitet, gör och gör inte..."
+  },
+  "a11y": {
+    "skip_to_main": "Hoppa till huvudinnehållet",
+    "main_navigation": "Huvudnavigering",
+    "open_menu": "Öppna menyn",
+    "close_menu": "Stäng menyn",
+    "email_label": "E-postadress",
+    "cookie_dialog": "Cookiesamtycke",
+    "cookie_preferences_dialog": "Cookieinställningar"
   }
 }

@@ -867,5 +867,14 @@
     "commitment": "Commitment",
     "ideal_for": "Ideal for",
     "custom_quote": "Want a custom quote?"
+  },
+  "a11y": {
+    "skip_to_main": "Skip to main content",
+    "main_navigation": "Main navigation",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "email_label": "Email address",
+    "cookie_dialog": "Cookie consent",
+    "cookie_preferences_dialog": "Cookie preferences"
   }
 }

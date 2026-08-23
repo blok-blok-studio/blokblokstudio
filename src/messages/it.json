@@ -778,5 +778,14 @@
     "ph_telegram": "es. 123456789",
     "ph_notes": "Qualsiasi cosa dovremmo sapere sul tuo progetto, sulle tue preferenze o sul tuo modo di lavorare...",
     "ph_brand": "Uso del logo, colori del brand, font, tono di voce, cosa fare e cosa evitare..."
+  },
+  "a11y": {
+    "skip_to_main": "Vai al contenuto principale",
+    "main_navigation": "Navigazione principale",
+    "open_menu": "Apri il menu",
+    "close_menu": "Chiudi il menu",
+    "email_label": "Indirizzo email",
+    "cookie_dialog": "Consenso ai cookie",
+    "cookie_preferences_dialog": "Preferenze cookie"
   }
 }

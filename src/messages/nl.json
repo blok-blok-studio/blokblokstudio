@@ -778,5 +778,14 @@
     "ph_telegram": "bijv. 123456789",
     "ph_notes": "Alles wat we moeten weten over je project, voorkeuren of werkwijze...",
     "ph_brand": "Logogebruik, merkkleuren, lettertypes, tone of voice, do's en don'ts..."
+  },
+  "a11y": {
+    "skip_to_main": "Naar hoofdinhoud",
+    "main_navigation": "Hoofdnavigatie",
+    "open_menu": "Menu openen",
+    "close_menu": "Menu sluiten",
+    "email_label": "E-mailadres",
+    "cookie_dialog": "Cookietoestemming",
+    "cookie_preferences_dialog": "Cookievoorkeuren"
   }
 }

@@ -778,5 +778,14 @@
     "ph_telegram": "vd. 123456789",
     "ph_notes": "Bất cứ điều gì chúng tôi nên biết về dự án, sở thích hoặc cách bạn làm việc...",
     "ph_brand": "Cách dùng logo, màu thương hiệu, phông chữ, giọng điệu, nên và không nên..."
+  },
+  "a11y": {
+    "skip_to_main": "Chuyển đến nội dung chính",
+    "main_navigation": "Điều hướng chính",
+    "open_menu": "Mở menu",
+    "close_menu": "Đóng menu",
+    "email_label": "Địa chỉ email",
+    "cookie_dialog": "Chấp thuận cookie",
+    "cookie_preferences_dialog": "Tùy chọn cookie"
   }
 }

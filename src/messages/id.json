@@ -778,5 +778,14 @@
     "ph_telegram": "mis. 123456789",
     "ph_notes": "Apa pun yang perlu kami tahu tentang proyek, preferensi, atau cara kerja Anda...",
     "ph_brand": "Penggunaan logo, warna merek, jenis huruf, gaya bahasa, yang boleh dan tidak boleh..."
+  },
+  "a11y": {
+    "skip_to_main": "Lompat ke konten utama",
+    "main_navigation": "Navigasi utama",
+    "open_menu": "Buka menu",
+    "close_menu": "Tutup menu",
+    "email_label": "Alamat email",
+    "cookie_dialog": "Persetujuan cookie",
+    "cookie_preferences_dialog": "Preferensi cookie"
   }
 }
