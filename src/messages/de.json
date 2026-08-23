@@ -768,5 +768,22 @@
         "detail": "Dort ranken, wo Ihre Kunden tatsächlich suchen, mit aktuellen Google-Bewertungen auf der Seite."
       }
     }
+  },
+  "ui": {
+    "footer_contact": "Kontakt",
+    "footer_privacy": "Datenschutzerklärung",
+    "footer_terms": "AGB",
+    "footer_cookies": "Cookie-Richtlinie",
+    "footer_impressum": "Impressum",
+    "read_transcript": "Transkript lesen",
+    "loading": "Wird geladen",
+    "select_language": "Sprache auswählen",
+    "wechat_scan": "In WeChat scannen, um uns hinzuzufügen",
+    "wechat_qr_alt": "WeChat-QR-Code von Chase Haynes, zum Hinzufügen scannen",
+    "wechat_copy": "WeChat-ID kopieren",
+    "wechat_copied": "Kopiert",
+    "wechat_open": "Kontaktieren Sie uns über WeChat",
+    "wechat_close": "WeChat-Kontaktkarte schließen",
+    "whatsapp_aria": "Schreiben Sie uns auf WhatsApp (öffnet in neuem Tab)"
   }
 }

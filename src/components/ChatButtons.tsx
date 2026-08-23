@@ -11,6 +11,7 @@
  */
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 const WHATSAPP_LINK =
   'https://wa.me/491627055848?text=Hey%20Chase%2C%20I%20found%20you%20through%20blokblokstudio.com.';
@@ -19,6 +20,7 @@ const WHATSAPP_LINK =
 const WECHAT_ID = 'wxid_9bo8w9aatuud12';
 
 export function ChatButtons() {
+  const t = useTranslations('ui');
   const [wechatOpen, setWechatOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
@@ -43,19 +45,19 @@ export function ChatButtons() {
             {/* eslint-disable-next-line @next/next/no-img-element -- static QR, no optimization needed */}
             <img
               src="/images/wechat-qr.png"
-              alt="WeChat QR code for Chase Haynes, scan in WeChat to add"
+              alt={t('wechat_qr_alt')}
               width={600}
               height={800}
               className="w-full h-auto"
               loading="lazy"
             />
           </div>
-          <p className="text-xs text-gray-400 mb-3 text-center">Scan in WeChat to add us</p>
+          <p className="text-xs text-gray-400 mb-3 text-center">{t('wechat_scan')}</p>
           <button
             onClick={copyWechat}
             className="w-full px-3 py-2 rounded-full bg-white text-black text-xs font-medium hover:bg-gray-100 transition-colors"
           >
-            {copied ? 'Copied' : 'Copy WeChat ID'}
+            {copied ? t('wechat_copied') : t('wechat_copy')}
           </button>
         </div>
       )}
@@ -64,7 +66,7 @@ export function ChatButtons() {
       {WECHAT_ID && (
         <button
           onClick={() => setWechatOpen((v) => !v)}
-          aria-label={wechatOpen ? 'Close WeChat contact card' : 'Contact us on WeChat'}
+          aria-label={wechatOpen ? t('wechat_close') : t('wechat_open')}
           aria-expanded={wechatOpen}
           className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#07C160] flex items-center justify-center shadow-lg shadow-[#07C160]/25 hover:scale-105 transition-transform cursor-pointer"
         >
@@ -80,7 +82,7 @@ export function ChatButtons() {
         href={WHATSAPP_LINK}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with us on WhatsApp (opens in new tab)"
+        aria-label={t('whatsapp_aria')}
         className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg shadow-[#25D366]/25 hover:scale-105 transition-transform"
       >
         <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">

@@ -6,7 +6,9 @@
  * previous page until the bundle resolves. With it, they get an instant
  * acknowledgement of the click.
  */
+import { useTranslations } from 'next-intl';
 export default function Loading() {
+  const t = useTranslations('ui');
   return (
     <div className="min-h-screen flex items-center justify-center bg-black">
       <div className="flex flex-col items-center gap-4">
@@ -14,7 +16,7 @@ export default function Loading() {
           <div className="absolute inset-0 rounded-full border-2 border-white/10" />
           <div className="absolute inset-0 rounded-full border-2 border-t-white border-r-white/40 border-b-transparent border-l-transparent animate-spin" />
         </div>
-        <span className="text-xs uppercase tracking-[0.2em] text-gray-500">Loading</span>
+        <span className="text-xs uppercase tracking-[0.2em] text-gray-500">{t('loading')}</span>
       </div>
     </div>
   );

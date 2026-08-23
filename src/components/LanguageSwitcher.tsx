@@ -25,6 +25,7 @@ import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { setLocale } from '@/app/actions/locale';
 import { localeLabels, supportedLocales, type SupportedLocale } from '@/i18n/locales';
+import { useTranslations } from 'next-intl';
 
 type Props = {
   /** "compact" (icon-only chevron) for desktop nav, "wide" for mobile overlay. */
@@ -32,6 +33,7 @@ type Props = {
 };
 
 export function LanguageSwitcher({ variant = 'compact' }: Props) {
+  const t = useTranslations('ui');
   const currentLocale = useLocale() as SupportedLocale;
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
@@ -79,7 +81,7 @@ export function LanguageSwitcher({ variant = 'compact' }: Props) {
         disabled={isPending}
         aria-haspopup="listbox"
         aria-expanded={isOpen}
-        aria-label="Select language"
+        aria-label={t('select_language')}
         className={`
           flex items-center gap-2 rounded-full border border-white/10
           bg-white/5 backdrop-blur-md transition-all duration-200

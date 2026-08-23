@@ -768,5 +768,22 @@
         "detail": "Rank where your customers actually look, with live Google reviews on the page."
       }
     }
+  },
+  "ui": {
+    "footer_contact": "Contact",
+    "footer_privacy": "Privacy Policy",
+    "footer_terms": "Terms of Service",
+    "footer_cookies": "Cookie Policy",
+    "footer_impressum": "Impressum",
+    "read_transcript": "Read the transcript",
+    "loading": "Loading",
+    "select_language": "Select language",
+    "wechat_scan": "Scan in WeChat to add us",
+    "wechat_qr_alt": "WeChat QR code for Chase Haynes, scan in WeChat to add",
+    "wechat_copy": "Copy WeChat ID",
+    "wechat_copied": "Copied",
+    "wechat_open": "Contact us on WeChat",
+    "wechat_close": "Close WeChat contact card",
+    "whatsapp_aria": "Chat with us on WhatsApp (opens in new tab)"
   }
 }

@@ -1,5 +1,6 @@
 import { VIDEO_TRANSCRIPTS } from '@/data/video-transcripts';
 import type { SiteVideoKey } from '@/data/videos';
+import { useTranslations } from 'next-intl';
 
 /**
  * Collapsible transcript printed under a video.
@@ -17,6 +18,7 @@ export function VideoTranscript({
   video: SiteVideoKey;
   speaker?: string;
 }) {
+  const t = useTranslations('ui');
   const paragraphs = VIDEO_TRANSCRIPTS[video].split('\n\n');
 
   return (
@@ -32,7 +34,7 @@ export function VideoTranscript({
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
-          Read the transcript
+          {t('read_transcript')}
         </span>
       </summary>
       <div className="px-4 pb-4 pt-1 text-left">
