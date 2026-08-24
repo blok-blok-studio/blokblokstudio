@@ -12,6 +12,9 @@ Copy-paste system for pitching Blok Blok Studio. The rule is simple: two default
 - Deliberate cold outreach session → **Template 3**
 - They literally asked for portfolio / work examples → **Template 4**
 
+**After a call that did not close:**
+- They need time to think, talk to a partner, or come back later → **Template 5**
+
 Every template already has the right tracked link baked in. All links open the same VSL page; the tag just tells the lead database which channel sent them, so you can see later which channel actually produces.
 
 **Do not** use `instagram`, `ig`, `meta`, or `fb` as a UTM source value anywhere. The thank-you page treats those as paid Meta traffic and fires the ads conversion pixel, which pollutes the paid-ads data.
@@ -24,6 +27,9 @@ Every template already has the right tracked link baked in. All links open the s
 | Warm email | `https://www.blokblokstudio.com/start?utm_source=warm-email&utm_medium=email&utm_campaign=pitch` |
 | Cold email | `https://www.blokblokstudio.com/start?utm_source=cold-email&utm_medium=email&utm_campaign=pitch` |
 | Booking call (all channels) | `https://calendar.app.google/HeP9bUhWaKfosQF26` |
+| Post-call follow-up (email) | `https://www.blokblokstudio.com/start?utm_source=warm-email&utm_medium=email&utm_campaign=post-call` |
+| Post-call follow-up (text/DM) | `https://www.blokblokstudio.com/start?utm_source=text&utm_medium=social&utm_campaign=post-call` |
+| Post-call pitch page (per prospect) | `https://www.blokblokstudio.com/pitch/<slug>` |
 
 ## Client quick reference (proof to drop into any pitch)
 
@@ -142,6 +148,85 @@ Attach `docs/assets/exotic-ripz-proof.png` for point 5 (cropped Shopify dashboar
 > Sincerely,
 > Chase Haynes
 > Blok Blok Studio
+
+---
+
+## Template 5: Post-call follow-up (they need more time)
+
+Use this when the call went fine but they did not sign: "let me think about it", "I need to talk to my partner", "check back after the holidays". Send 5A the same day, while the call is still fresh. Send 5B instead if the whole relationship has been on text. Send 5C once, a week or so later, and then stop. For a bigger deal, or one that has to get past a partner who was not on the call, send the pitch page instead (5D).
+
+The link is the same page, tagged `utm_campaign=post-call` so these show up separately in the lead database from cold pitches:
+
+| Use | Link |
+|---|---|
+| Post-call email | `https://www.blokblokstudio.com/start?utm_source=warm-email&utm_medium=email&utm_campaign=post-call` |
+| Post-call text / DM | `https://www.blokblokstudio.com/start?utm_source=text&utm_medium=social&utm_campaign=post-call` |
+
+### 5A: Email recap (send within a few hours of the call)
+
+Subject: "recap + numbers from our call, [business name]"
+
+> Hi [name],
+>
+> Good talking today. Take the time you need. So you have everything in one place while you think it over, here is the short version of what we covered.
+>
+> **What you told me:** [one or two lines in their words. e.g. "Phone is quiet in the off season, your site does not show up for 'emergency plumber Fort Worth', and you are doing the follow-up texts by hand."]
+>
+> **What we would build:** [3 to 5 bullets, specific to them. e.g. new site with the service pages that actually get searched, Google Business Profile cleaned up and posting, contact form wired to a database so the leads stop living in your inbox, auto-texting so nobody waits on a callback.]
+>
+> **Investment:** [package name and price you quoted on the call], [timeline you quoted]. That number holds through [date, usually 2 to 4 weeks out].
+>
+> **Closest thing we have done to your business:** [pick one from the client table]. Colton at Bronco Plumbing started 5 months ago and has done $50k+ gross on this system, at 5.0 stars across 52 Google reviews: https://www.blokblokstudio.com/projects/bronco-plumbing?utm_source=warm-email&utm_medium=email&utm_campaign=post-call
+>
+> If you want to send this to a partner or a spouse, this page covers the whole thing in about 3 minutes better than I can in an email: https://www.blokblokstudio.com/start?utm_source=warm-email&utm_medium=email&utm_campaign=post-call
+>
+> Anything you want me to price differently or pull out of scope, just say the word and I will send a revised version.
+>
+> Chase Haynes
+> Blok Blok Studio
+
+### 5B: Text / DM version (short, same day)
+
+> Hey [name], good talking today. No rush at all. Quick recap so it is all in one place: [one line of what we would build] at [price], [timeline], and that price holds through [date].
+>
+> If you want to show someone else, this covers it in 3 min: https://www.blokblokstudio.com/start?utm_source=text&utm_medium=social&utm_campaign=post-call
+>
+> Any questions in the meantime just text me.
+
+### 5C: The bump (7 to 10 days later, once)
+
+> Hey [name], checking in on the [project] we talked about. Still happy to hold [price] if you want to move, and just as happy to hear it is not the right time. Either answer works, I just do not want to keep bugging you.
+
+Or, when they gave you a real date to come back on:
+
+> Hey [name], you mentioned circling back after [their event / month]. That is this week, so here I am. Want me to send the plan over again or is this one on hold?
+
+### 5D: The pitch page (when a text or an email is not enough)
+
+For a bigger deal, or when the person on the call has to sell it internally to a partner, send a page instead of a wall of text: `https://www.blokblokstudio.com/pitch/<their-slug>`.
+
+It is the same recap as 5A, laid out properly: our logo in the header, chase@blokblokstudio.com as the contact, their name at the top, a video if you have one, the scope, screenshots or drafts, the case studies, the price with the hold-through date, and the Book a time / Email / WhatsApp buttons at the bottom. It is noindex and linked from nowhere, so only the person you send it to will ever see it.
+
+**To get one built, hand over:**
+
+1. Business name, the first name of who you talked to, and the date of the call.
+2. What they said their problem is. Bullet points, their words, not polished.
+3. What we would build, and what it costs (price, timeline, and the date the price holds through).
+4. Any video: a Loom, a walkthrough, a draft screen recording. Drop the file in `public/pitch/<slug>/` or send the link.
+5. Any images: draft screens, competitor screenshots, proof shots. Same folder. They get converted to WebP.
+6. Any links you want on the page.
+
+A live one is at `/pitch/maison-arca` (Maison Arca, the Shopify rebuild quoted 24 August 2026), built from the PDF proposal. The content lives in `src/data/pitches.ts` (the `example` entry is the format reference), the page renders it, assets sit in `public/pitch/<slug>/`. Delete the entry once the deal closes or dies, and never put anything confidential in it, because the repo is public.
+
+Send it with the 5A email or the 5B text, swapping the /start link for the pitch link.
+
+### Rules for this template
+
+1. Recap in their words, not yours. The point is that they can forward it to a partner without you on the call.
+2. Always put a date on the price. "This number holds through [date]" gives them a reason to decide without you chasing them.
+3. Never attach a full proposal PDF here. One page, one link, one number.
+4. Two follow-ups total: 5A then 5C. If 5C gets nothing, move them to the newsletter and leave it alone.
+5. If they tell you no, reply once, thank them, and ask what they went with. That answer is worth more than the deal was.
 
 ---
 
