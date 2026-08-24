@@ -66,7 +66,8 @@ export function thanksDestination(): string {
     // Organic pitch links (docs/pitch-templates.md) checked first: the IG
     // in-app browser can append fbclid to organic links, and these leads
     // must never fire ad conversion pixels.
-    if (['dm', 'text', 'cold-email', 'warm-email'].includes(src)) return '/start/thanks?src=organic';
+    if (['dm', 'text', 'cold-email', 'warm-email', 'pitch'].includes(src))
+      return '/start/thanks?src=organic';
     if (p.get('fbclid') || ['meta', 'facebook', 'instagram', 'fb', 'ig'].includes(src)) return '/start/thanks/meta';
     if (p.get('gclid') || p.get('wbraid') || p.get('gbraid') || src === 'google') return '/start/thanks/google';
     return '/start/thanks';

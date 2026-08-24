@@ -4,6 +4,7 @@ import {
   PITCH_CALENDAR_URL,
   PITCH_CONTACT_EMAIL,
   PITCH_CONTACT_NAME,
+  PITCH_SITE_URL,
   PITCH_WHATSAPP_URL,
   type PitchBlock,
   type PitchData,
@@ -25,7 +26,11 @@ import {
  */
 
 function Kicker({ children }: { children: React.ReactNode }) {
-  return <p className="text-xs uppercase tracking-[0.2em] text-orange-400 mb-4">{children}</p>;
+  return (
+    <p className="text-xs uppercase tracking-[0.14em] sm:tracking-[0.2em] text-orange-400 mb-4">
+      {children}
+    </p>
+  );
 }
 
 function Heading({ children }: { children: React.ReactNode }) {
@@ -107,7 +112,7 @@ function Block({ block }: { block: PitchBlock }) {
           {block.intro && <Intro>{block.intro}</Intro>}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
             {block.items.map((item) => (
-              <div key={item.title} className="glass-card rounded-2xl p-6 sm:p-7">
+              <div key={item.title} className="glass-card rounded-2xl p-5 sm:p-7">
                 <div className="w-8 h-1 rounded-full bg-orange-500 mb-4" />
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">{item.desc}</p>
@@ -124,7 +129,7 @@ function Block({ block }: { block: PitchBlock }) {
           {block.heading && <Heading>{block.heading}</Heading>}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {block.items.map((s) => (
-              <div key={s.label} className="glass-card rounded-2xl p-6">
+              <div key={s.label} className="glass-card rounded-2xl p-5 sm:p-6">
                 <p className="text-2xl sm:text-3xl font-light tracking-tight mb-2 text-balance">
                   {s.value}
                 </p>
@@ -163,7 +168,7 @@ function Block({ block }: { block: PitchBlock }) {
                     href={v.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 mt-3 text-sm text-white underline underline-offset-4 decoration-white/30 hover:decoration-white transition-colors"
+                    className="inline-flex items-center gap-2 mt-2 py-2 text-sm text-white underline underline-offset-4 decoration-white/30 hover:decoration-white transition-colors"
                   >
                     {v.linkLabel ?? 'Visit the site'}
                     <ArrowIcon />
@@ -213,7 +218,7 @@ function Block({ block }: { block: PitchBlock }) {
             {block.items.map((p) => (
               <div
                 key={p.name}
-                className="rounded-3xl border border-orange-500/20 bg-orange-500/[0.04] p-7 sm:p-9"
+                className="rounded-3xl border border-orange-500/20 bg-orange-500/[0.04] p-6 sm:p-9"
               >
                 <h3 className="text-xl sm:text-2xl font-bold mb-1">{p.name}</h3>
                 <p className="text-orange-300 font-medium mb-4">{p.result}</p>
@@ -222,7 +227,7 @@ function Block({ block }: { block: PitchBlock }) {
                   href={p.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-white underline underline-offset-4 decoration-white/30 hover:decoration-white transition-colors"
+                  className="inline-flex items-center gap-2 py-2 -my-2 text-sm text-white underline underline-offset-4 decoration-white/30 hover:decoration-white transition-colors"
                 >
                   {p.linkLabel ?? 'Take a look'}
                   <ArrowIcon />
@@ -243,7 +248,7 @@ function Block({ block }: { block: PitchBlock }) {
             {block.rows.map((row) => (
               <div
                 key={row.when}
-                className="glass-card rounded-2xl p-5 sm:p-6 grid grid-cols-1 sm:grid-cols-[6.5rem_1fr_auto] gap-2 sm:gap-6 sm:items-baseline"
+                className="glass-card rounded-2xl p-5 sm:p-6 grid grid-cols-1 sm:grid-cols-[6.5rem_1fr_auto] gap-1.5 sm:gap-6 sm:items-baseline"
               >
                 <p className="text-orange-400 text-sm font-medium tracking-wide">{row.when}</p>
                 <p className="text-gray-200 text-base leading-relaxed">{row.what}</p>
@@ -262,7 +267,7 @@ function Block({ block }: { block: PitchBlock }) {
         <>
           {block.kicker && <Kicker>{block.kicker}</Kicker>}
           {block.heading && <Heading>{block.heading}</Heading>}
-          <div className="glass-card rounded-3xl p-7 sm:p-9">
+          <div className="glass-card rounded-3xl p-6 sm:p-9">
             <div className="flex flex-wrap items-baseline gap-x-6 gap-y-2 mb-2">
               <p className="text-4xl sm:text-5xl font-light tracking-tight">{block.price}</p>
               {block.timeline && (
@@ -287,13 +292,13 @@ function Block({ block }: { block: PitchBlock }) {
                 {block.schedule.map((row) => (
                   <div
                     key={row.when}
-                    className="py-3.5 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1"
+                    className="py-3.5 flex items-baseline justify-between gap-4"
                   >
-                    <div className="min-w-0">
+                    <div className="min-w-0 flex-1">
                       <p className="text-sm font-medium text-gray-200">{row.when}</p>
                       {row.what && <p className="text-sm text-gray-500">{row.what}</p>}
                     </div>
-                    <p className="text-base text-white tabular-nums">{row.pay}</p>
+                    <p className="shrink-0 text-base text-white tabular-nums">{row.pay}</p>
                   </div>
                 ))}
               </div>
@@ -346,12 +351,13 @@ export function PitchContent({ data }: { data: PitchData }) {
   const mailto = `mailto:${PITCH_CONTACT_EMAIL}?subject=${encodeURIComponent(
     `Re: ${data.business}`
   )}`;
+  const hasInvestment = data.blocks.some((b) => b.type === 'investment');
 
   return (
-    <div className="pb-20 sm:pb-28 px-5 sm:px-6 lg:px-8">
+    <div className="pb-28 sm:pb-28 px-5 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         {/* ── Header: logo left, who it is for and how to reach us right ── */}
-        <header className="flex flex-wrap items-center justify-between gap-4 py-7 sm:py-9 border-b border-white/10">
+        <header className="flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-4 py-6 sm:py-9 border-b border-white/10">
           <a href="https://www.blokblokstudio.com" className="flex items-center gap-3">
             <Image
               src="/logo.svg"
@@ -365,7 +371,7 @@ export function PitchContent({ data }: { data: PitchData }) {
               Blok Blok Studio
             </span>
           </a>
-          <div className="text-right">
+          <div className="text-left sm:text-right">
             <p className="text-xs text-gray-500">Prepared for {data.business}</p>
             <a
               href={mailto}
@@ -388,24 +394,35 @@ export function PitchContent({ data }: { data: PitchData }) {
           <p className="text-gray-400 text-base sm:text-lg leading-relaxed max-w-2xl">
             {data.intro}
           </p>
+          {hasInvestment && (
+            <a
+              href="#investment"
+              className="sm:hidden inline-flex items-center gap-2 mt-6 py-2 text-sm text-white underline underline-offset-4 decoration-white/30"
+            >
+              Skip to the numbers
+              <ArrowIcon />
+            </a>
+          )}
         </AnimatedSection>
 
         {/* ── Body ── */}
         {data.blocks.map((block, i) => (
-          <AnimatedSection key={`${block.type}-${i}`} delay={0.1} className="mt-16 sm:mt-24">
-            <Block block={block} />
+          <AnimatedSection key={`${block.type}-${i}`} delay={0.1} className="mt-14 sm:mt-24">
+            <div id={block.type === 'investment' ? 'investment' : undefined} className="scroll-mt-6">
+              <Block block={block} />
+            </div>
           </AnimatedSection>
         ))}
 
         {/* ── Close ── */}
-        <AnimatedSection delay={0.1} className="mt-16 sm:mt-24">
-          <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-7 sm:p-10 text-center">
+        <AnimatedSection delay={0.1} className="mt-14 sm:mt-24">
+          <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 sm:p-10 text-left sm:text-center">
             <h2 className="text-2xl sm:text-3xl font-bold mb-4">Whenever you are ready</h2>
-            <p className="text-gray-400 text-base leading-relaxed max-w-xl mx-auto mb-8">
+            <p className="text-gray-400 text-base leading-relaxed max-w-xl mx-auto mb-8 text-pretty">
               {data.closing ??
                 'Take the time you need. When you want to talk it through, or if anything here should be priced differently, I am one message away.'}
             </p>
-            <div className="flex flex-wrap justify-center gap-3">
+            <div className="flex flex-wrap sm:justify-center gap-3">
               <a
                 href={calendarUrl}
                 target="_blank"
@@ -429,7 +446,18 @@ export function PitchContent({ data }: { data: PitchData }) {
                 WhatsApp
               </a>
             </div>
-            <p className="text-sm text-gray-500 mt-8">
+            <p className="text-sm text-gray-400 mt-8">
+              Want to see more of our work?{' '}
+              <a
+                href={PITCH_SITE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white underline underline-offset-4 decoration-white/30 hover:decoration-white transition-colors"
+              >
+                blokblokstudio.com
+              </a>
+            </p>
+            <p className="text-sm text-gray-500 mt-3">
               {PITCH_CONTACT_NAME} · Blok Blok Studio ·{' '}
               <a
                 href={mailto}
@@ -440,6 +468,26 @@ export function PitchContent({ data }: { data: PitchData }) {
             </p>
           </div>
         </AnimatedSection>
+      </div>
+
+      {/* ── Phones only: the two actions stay reachable on a page this long ── */}
+      <div className="sm:hidden fixed bottom-0 inset-x-0 z-40 border-t border-white/10 bg-black/85 backdrop-blur-md px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]">
+        <div className="flex gap-2">
+          <a
+            href={calendarUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 text-center px-4 py-3 rounded-full bg-white text-black text-sm font-medium"
+          >
+            Book a time
+          </a>
+          <a
+            href={mailto}
+            className="flex-1 text-center px-4 py-3 rounded-full border border-white/20 text-white text-sm font-medium"
+          >
+            Email {PITCH_CONTACT_NAME.split(' ')[0]}
+          </a>
+        </div>
       </div>
     </div>
   );

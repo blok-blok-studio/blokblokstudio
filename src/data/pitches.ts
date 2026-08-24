@@ -189,6 +189,10 @@ export const PITCH_CONTACT_EMAIL = 'chase@blokblokstudio.com';
 export const PITCH_CONTACT_NAME = 'Chase Haynes';
 export const PITCH_CALENDAR_URL = 'https://calendar.app.google/HeP9bUhWaKfosQF26';
 export const PITCH_WHATSAPP_URL = 'https://wa.me/491627055848';
+/** Our own site, offered at the foot of every pitch. Tagged `pitch`, which
+ *  lead-capture.ts treats as organic so these never fire an ad pixel. */
+export const PITCH_SITE_URL =
+  'https://www.blokblokstudio.com/?utm_source=pitch&utm_medium=pitch-page&utm_campaign=post-call';
 
 /**
  * Live pitches, keyed by slug. `example` is the format reference: copy it,
