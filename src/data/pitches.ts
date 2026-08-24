@@ -46,6 +46,9 @@ export interface PitchVideo {
   title?: string;
   /** Sits under the player. */
   note?: string;
+  /** The live site the video is about, so they can go and look for themselves. */
+  href?: string;
+  linkLabel?: string;
 }
 
 export interface PitchProof {
@@ -524,12 +527,16 @@ export const PITCHES: Record<string, PitchData> = {
             poster: '/videos/testimonial-luki-v2-poster.webp',
             title: 'Coach Luki, Berlin',
             note: 'Bookings and payments taken straight through the site. No messages, no invoices.',
+            href: 'https://coachluki.com/',
+            linkLabel: 'coachluki.com',
           },
           {
             src: '/videos/testimonial-kofi-v2.mp4',
             poster: '/videos/testimonial-kofi-v2-poster.webp',
             title: 'Coach Kofi, Berlin',
             note: 'Consultation requests up 200% after launch.',
+            href: 'https://www.coachkofi.de/',
+            linkLabel: 'coachkofi.de',
           },
         ],
       },

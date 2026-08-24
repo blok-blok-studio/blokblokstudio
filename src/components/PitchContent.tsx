@@ -158,6 +158,17 @@ function Block({ block }: { block: PitchBlock }) {
                 </div>
                 {v.title && <p className="font-medium mt-4">{v.title}</p>}
                 {v.note && <p className="text-gray-500 text-sm mt-1 text-pretty">{v.note}</p>}
+                {v.href && (
+                  <a
+                    href={v.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 mt-3 text-sm text-white underline underline-offset-4 decoration-white/30 hover:decoration-white transition-colors"
+                  >
+                    {v.linkLabel ?? 'Visit the site'}
+                    <ArrowIcon />
+                  </a>
+                )}
               </div>
             ))}
           </div>
