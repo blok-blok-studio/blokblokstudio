@@ -310,12 +310,6 @@ function Block({ block }: { block: PitchBlock }) {
               </p>
             )}
 
-            {block.holdUntil && (
-              <p className="text-sm text-gray-300 border-t border-white/10 pt-5 mt-6">
-                This price holds through{' '}
-                <span className="text-white font-medium">{block.holdUntil}</span>.
-              </p>
-            )}
           </div>
           {block.note && <p className="text-sm text-gray-400 mt-6 max-w-2xl leading-relaxed">{block.note}</p>}
         </>

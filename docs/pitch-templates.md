@@ -174,7 +174,7 @@ Subject: "recap + numbers from our call, [business name]"
 >
 > **What we would build:** [3 to 5 bullets, specific to them. e.g. new site with the service pages that actually get searched, Google Business Profile cleaned up and posting, contact form wired to a database so the leads stop living in your inbox, auto-texting so nobody waits on a callback.]
 >
-> **Investment:** [package name and price you quoted on the call], [timeline you quoted]. That number holds through [date, usually 2 to 4 weeks out].
+> **Investment:** [package name and price you quoted on the call], [timeline you quoted]. That price stands, there is no deadline on it.
 >
 > **Closest thing we have done to your business:** [pick one from the client table]. Colton at Bronco Plumbing started 5 months ago and has done $50k+ gross on this system, at 5.0 stars across 52 Google reviews: https://www.blokblokstudio.com/projects/bronco-plumbing?utm_source=warm-email&utm_medium=email&utm_campaign=post-call
 >
@@ -187,7 +187,7 @@ Subject: "recap + numbers from our call, [business name]"
 
 ### 5B: Text / DM version (short, same day)
 
-> Hey [name], good talking today. No rush at all. Quick recap so it is all in one place: [one line of what we would build] at [price], [timeline], and that price holds through [date].
+> Hey [name], good talking today. No rush at all. Quick recap so it is all in one place: [one line of what we would build] at [price], [timeline]. No deadline on the price, take your time.
 >
 > If you want to show someone else, this covers it in 3 min: https://www.blokblokstudio.com/start?utm_source=text&utm_medium=social&utm_campaign=post-call
 >
@@ -205,13 +205,13 @@ Or, when they gave you a real date to come back on:
 
 For a bigger deal, or when the person on the call has to sell it internally to a partner, send a page instead of a wall of text: `https://www.blokblokstudio.com/pitch/<their-slug>`.
 
-It is the same recap as 5A, laid out properly: our logo in the header, chase@blokblokstudio.com as the contact, their name at the top, a video if you have one, the scope, screenshots or drafts, the case studies, the price with the hold-through date, and the Book a time / Email / WhatsApp buttons at the bottom. It is noindex and linked from nowhere, so only the person you send it to will ever see it.
+It is the same recap as 5A, laid out properly: our logo in the header, chase@blokblokstudio.com as the contact, their name at the top, a video if you have one, the scope, screenshots or drafts, the case studies, the price, and the Book a time / Email / WhatsApp buttons at the bottom. It is noindex and linked from nowhere, so only the person you send it to will ever see it.
 
 **To get one built, hand over:**
 
 1. Business name, the first name of who you talked to, and the date of the call.
 2. What they said their problem is. Bullet points, their words, not polished.
-3. What we would build, and what it costs (price, timeline, and the date the price holds through).
+3. What we would build, and what it costs (price and timeline).
 4. Any video: a Loom, a walkthrough, a draft screen recording. Drop the file in `public/pitch/<slug>/` or send the link.
 5. Any images: draft screens, competitor screenshots, proof shots. Same folder. They get converted to WebP.
 6. Any links you want on the page.
@@ -223,7 +223,7 @@ Send it with the 5A email or the 5B text, swapping the /start link for the pitch
 ### Rules for this template
 
 1. Recap in their words, not yours. The point is that they can forward it to a partner without you on the call.
-2. Always put a date on the price. "This number holds through [date]" gives them a reason to decide without you chasing them.
+2. Never put a deadline on the price. Our quotes do not expire, and an invented cut-off date is the first thing a serious buyer sees through.
 3. Never attach a full proposal PDF here. One page, one link, one number.
 4. Two follow-ups total: 5A then 5C. If 5C gets nothing, move them to the newsletter and leave it alone.
 5. If they tell you no, reply once, thank them, and ask what they went with. That answer is worth more than the deal was.

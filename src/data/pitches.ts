@@ -137,10 +137,10 @@ export interface PitchInvestmentBlock {
   priceLabel?: string;
   /** e.g. "6 weeks from kickoff" */
   timeline?: string;
+  /** There is deliberately no expiry field. Our quoted price stands until we
+   *  change it, so a pitch never carries a deadline on the number. */
   includes?: string[];
   excludes?: string[];
-  /** Plain date the quote holds until, e.g. "September 15, 2026". */
-  holdUntil?: string;
   /** Payment schedule, one row per instalment. */
   schedule?: { when: string; what?: string; pay: string }[];
   /** Anything that needs saying under the table. */
@@ -258,7 +258,6 @@ export const PITCHES: Record<string, PitchData> = {
         heading: 'The investment',
         price: '$10,000',
         timeline: '4 to 6 weeks from kickoff',
-        holdUntil: 'September 15, 2026',
         includes: [
           'Design and build of the full site',
           'Service and location pages, written by us',
