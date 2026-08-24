@@ -5,6 +5,7 @@ import {
   PITCH_CONTACT_EMAIL,
   PITCH_CONTACT_NAME,
   PITCH_SITE_URL,
+  PITCH_TESTIMONIALS,
   PITCH_WHATSAPP_URL,
   type PitchBlock,
   type PitchData,
@@ -347,6 +348,13 @@ export function PitchContent({ data }: { data: PitchData }) {
   )}`;
   const hasInvestment = data.blocks.some((b) => b.type === 'investment');
 
+  // Every pitch carries the client testimonials, whether or not it asked for
+  // them. If a pitch has already placed one itself, it is not repeated here.
+  const placedVideos = new Set(
+    data.blocks.flatMap((b) => (b.type === 'videos' ? b.items.map((v) => v.src) : []))
+  );
+  const testimonials = PITCH_TESTIMONIALS.filter((v) => !placedVideos.has(v.src));
+
   return (
     <div className="pb-28 sm:pb-28 px-5 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
@@ -407,6 +415,20 @@ export function PitchContent({ data }: { data: PitchData }) {
             </div>
           </AnimatedSection>
         ))}
+
+        {/* ── Testimonials, on every pitch ── */}
+        {testimonials.length > 0 && (
+          <AnimatedSection delay={0.1} className="mt-14 sm:mt-24">
+            <Block
+              block={{
+                type: 'videos',
+                heading: 'Our clients, in their own words',
+                intro: 'Filmed at their own places of work, unscripted.',
+                items: testimonials,
+              }}
+            />
+          </AnimatedSection>
+        )}
 
         {/* ── Close ── */}
         <AnimatedSection delay={0.1} className="mt-14 sm:mt-24">

@@ -205,14 +205,14 @@ Or, when they gave you a real date to come back on:
 
 For a bigger deal, or when the person on the call has to sell it internally to a partner, send a page instead of a wall of text: `https://www.blokblokstudio.com/pitch/<their-slug>`.
 
-It is the same recap as 5A, laid out properly: our logo in the header, chase@blokblokstudio.com as the contact, their name at the top, a video if you have one, the scope, screenshots or drafts, the case studies, the price, and the Book a time / Email / WhatsApp buttons at the bottom. It is noindex and linked from nowhere, so only the person you send it to will ever see it.
+It is the same recap as 5A, laid out properly: our logo in the header, chase@blokblokstudio.com as the contact, their name at the top, a video if you have one, the scope, screenshots or drafts, the case studies, the price, and the Book a time / Email / WhatsApp buttons at the bottom. The Luki and Kofi testimonial videos are on every pitch page automatically, with a link to each of their live sites underneath, so you never have to remember to add them. It is noindex and linked from nowhere, so only the person you send it to will ever see it.
 
 **To get one built, hand over:**
 
 1. Business name, the first name of who you talked to, and the date of the call.
 2. What they said their problem is. Bullet points, their words, not polished.
 3. What we would build, and what it costs (price and timeline).
-4. Any video: a Loom, a walkthrough, a draft screen recording. Drop the file in `public/pitch/<slug>/` or send the link.
+4. Any video of your own: a Loom, a walkthrough, a draft screen recording. Drop the file in `public/pitch/<slug>/` or send the link. The client testimonials are already there, this is for anything extra.
 5. Any images: draft screens, competitor screenshots, proof shots. Same folder. They get converted to WebP.
 6. Any links you want on the page.
 

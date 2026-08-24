@@ -191,6 +191,32 @@ export const PITCH_CALENDAR_URL = 'https://calendar.app.google/HeP9bUhWaKfosQF26
 export const PITCH_WHATSAPP_URL = 'https://wa.me/491627055848';
 /** Our own site, offered at the foot of every pitch. Tagged `pitch`, which
  *  lead-capture.ts treats as organic so these never fire an ad pixel. */
+/**
+ * The client testimonials, filmed at their own places of work. Every pitch
+ * carries these: a prospect deciding on a five-figure build wants to hear it
+ * from someone who paid us, not from us. PitchContent renders them near the
+ * foot of the page automatically, so no pitch has to remember to include
+ * them, and it skips any a pitch has already placed itself.
+ */
+export const PITCH_TESTIMONIALS: PitchVideo[] = [
+  {
+    src: '/videos/testimonial-luki-v2.mp4',
+    poster: '/videos/testimonial-luki-v2-poster.webp',
+    title: 'Coach Luki, Berlin',
+    note: 'Bookings and payments taken straight through the site. No messages, no invoices.',
+    href: 'https://coachluki.com/',
+    linkLabel: 'coachluki.com',
+  },
+  {
+    src: '/videos/testimonial-kofi-v2.mp4',
+    poster: '/videos/testimonial-kofi-v2-poster.webp',
+    title: 'Coach Kofi, Berlin',
+    note: 'Consultation requests up 200% after launch.',
+    href: 'https://www.coachkofi.de/',
+    linkLabel: 'coachkofi.de',
+  },
+];
+
 export const PITCH_SITE_URL =
   'https://www.blokblokstudio.com/?utm_source=pitch&utm_medium=pitch-page&utm_campaign=post-call';
 
@@ -518,29 +544,6 @@ export const PITCHES: Record<string, PitchData> = {
           { value: '$191,042', label: 'Total sales, April to October 2025' },
           { value: '1,790', label: 'Orders in the same period' },
           { value: '7 months', label: 'From launch to that figure' },
-        ],
-      },
-      {
-        type: 'videos',
-        heading: 'Two of our clients, in their own words',
-        intro: 'Both filmed at their own places of work, unscripted.',
-        items: [
-          {
-            src: '/videos/testimonial-luki-v2.mp4',
-            poster: '/videos/testimonial-luki-v2-poster.webp',
-            title: 'Coach Luki, Berlin',
-            note: 'Bookings and payments taken straight through the site. No messages, no invoices.',
-            href: 'https://coachluki.com/',
-            linkLabel: 'coachluki.com',
-          },
-          {
-            src: '/videos/testimonial-kofi-v2.mp4',
-            poster: '/videos/testimonial-kofi-v2-poster.webp',
-            title: 'Coach Kofi, Berlin',
-            note: 'Consultation requests up 200% after launch.',
-            href: 'https://www.coachkofi.de/',
-            linkLabel: 'coachkofi.de',
-          },
         ],
       },
       {
