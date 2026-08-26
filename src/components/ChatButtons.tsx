@@ -16,8 +16,11 @@ import { useTranslations } from 'next-intl';
 const WHATSAPP_LINK =
   'https://wa.me/491627055848?text=Hey%20Chase%2C%20I%20found%20you%20through%20blokblokstudio.com.';
 
-// Set to the studio's WeChat ID to enable the WeChat button.
-const WECHAT_ID = 'wxid_9bo8w9aatuud12';
+// Set to the studio's WeChat ID to enable the WeChat button. This must be the
+// custom WeChat ID, never the system-assigned `wxid_...` one: that is an
+// internal handle nobody can search for, so the copy button would hand
+// visitors a string that finds nothing.
+const WECHAT_ID = 'chasehaynes';
 
 export function ChatButtons() {
   const t = useTranslations('ui');
