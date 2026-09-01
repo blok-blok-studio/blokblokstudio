@@ -46,7 +46,7 @@ export function HomeAuditCTA() {
 
               <MagneticButton as="div">
                 <Link
-                  href="/start"
+                  href="/start?s=web"
                   className="inline-flex items-center gap-2 sm:gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-full bg-gradient-to-r from-orange-500 to-orange-600 text-white font-medium text-base sm:text-lg hover:from-orange-400 hover:to-orange-500 transition-all shadow-lg shadow-orange-500/25"
                 >
                   {t('audit_button')}

@@ -1,0 +1,35 @@
+{
+  "redirects": [
+    {
+      "source": "/start",
+      "destination": "https://chasehaynes.com",
+      "permanent": false,
+      "missing": [
+        {
+          "type": "query",
+          "key": "utm_source"
+        },
+        {
+          "type": "query",
+          "key": "gclid"
+        },
+        {
+          "type": "query",
+          "key": "wbraid"
+        },
+        {
+          "type": "query",
+          "key": "gbraid"
+        },
+        {
+          "type": "query",
+          "key": "fbclid"
+        },
+        {
+          "type": "query",
+          "key": "s"
+        }
+      ]
+    }
+  ]
+}
