@@ -62,20 +62,42 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
 
+      // The printed business card carries a QR for a bare /start, and /start
+      // is the quiz funnel. A QR scan arrives with no query string; every
+      // other route into the quiz carries one (utm_source on ads, DMs and
+      // pitch emails; gclid/wbraid/gbraid/fbclid on ad clicks; ?s=web on our
+      // own buttons). So a bare /start is the card, and it goes to Chase's
+      // personal site. 307, not 308, so phones never cache it if this changes.
+      {
+        source: '/start',
+        destination: 'https://chasehaynes.com',
+        permanent: false,
+        missing: [
+          { type: 'query', key: 'utm_source' },
+          { type: 'query', key: 'gclid' },
+          { type: 'query', key: 'wbraid' },
+          { type: 'query', key: 'gbraid' },
+          { type: 'query', key: 'fbclid' },
+          { type: 'query', key: 's' },
+        ],
+      },
+
       // /vsl became /start, and /call was retired into it. Both had live
       // traffic pointed at them: /vsl is the URL sitting in already-sent DMs
       // and cold emails and in the Meta Ads URL template, and /call was
       // indexed. These keep every one of those links landing somewhere.
       // The thanks/* paths are ad-platform conversion URLs, so they redirect
       // with their suffix intact rather than collapsing to the parent.
+      // Both carry ?s=web so they land on the quiz and not on the business
+      // card redirect above.
       // Next serves the homepage at /index as well as /. It self-canonicals
       // correctly, so it was never harmful, but it is a second URL for one
       // page and shows up in Search Console as a duplicate. Collapse it.
       { source: '/index', destination: '/', permanent: true },
 
-      { source: '/vsl', destination: '/start', permanent: true },
+      { source: '/vsl', destination: '/start?s=web', permanent: true },
       { source: '/vsl/thanks/:path*', destination: '/start/thanks/:path*', permanent: true },
-      { source: '/call', destination: '/start', permanent: true },
+      { source: '/call', destination: '/start?s=web', permanent: true },
 
       // Old de-de locale prefix: strip it, then the remaining path hits
       // the rules below on the second hop (locale now comes via cookie).

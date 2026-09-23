@@ -35,7 +35,12 @@ Organic traffic runs the same play through `/start`, tagged with `utm_source=dm`
 `/start/thanks?src=organic` and fire no ad pixels.
 
 `/call`, the old BANT self-qualification funnel, was retired on 22 Aug 2026 and 301s to
-`/start`. `/vsl` was the same page under its previous name and 301s there too.
+`/start?s=web`. `/vsl` was the same page under its previous name and 301s there too.
+
+A bare `/start` with no query string at all is the printed business card (its QR encodes
+that URL) and 307s to chasehaynes.com. Every link into the quiz must carry a query string:
+ads and pitch links already carry `utm_source` or a click ID, and our own buttons use
+`?s=web`. The rule lives in `next.config.ts` `redirects()`.
 
 ## Why this shape (research-backed)
 
