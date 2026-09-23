@@ -128,6 +128,15 @@ const nextConfig: NextConfig = {
     ];
   },
 
+  // /quiz is the clean, shareable slug for the quiz funnel. A rewrite, not a
+  // redirect, so the address bar stays on /quiz and any utm/click-id query
+  // string on it is preserved for attribution and thank-you routing. Redirects
+  // are matched on the incoming path only, so the bare-/start business card
+  // rule above never sees this request.
+  async rewrites() {
+    return [{ source: '/quiz', destination: '/start' }];
+  },
+
   trailingSlash: false,
   poweredByHeader: false,
 };

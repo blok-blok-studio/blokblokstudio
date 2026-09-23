@@ -40,7 +40,8 @@ Organic traffic runs the same play through `/start`, tagged with `utm_source=dm`
 A bare `/start` with no query string at all is the printed business card (its QR encodes
 that URL) and 307s to chasehaynes.com. Every link into the quiz must carry a query string:
 ads and pitch links already carry `utm_source` or a click ID, and our own buttons use
-`?s=web`. The rule lives in `next.config.ts` `redirects()`.
+`?s=web`. The rule lives in `next.config.ts` `redirects()`. For a clean link with no
+query string, `/quiz` rewrites to the same page and keeps whatever query string it carries.
 
 ## Why this shape (research-backed)
 
