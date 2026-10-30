@@ -37,7 +37,7 @@ export interface ClientCity {
 }
 
 export const clientCities: ClientCity[] = [
-  { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: [{ name: 'Coach Luki', url: 'https://coachluki.com' }, { name: 'Coach Kofi', url: 'https://coachkofi.de' }], team: [{ name: 'Chase Haynes', title: 'Founder', company: 'Blok Blok Studio' }], studio: true, tag: 'HQ' },
+  { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: [{ name: 'Coach Luki', url: 'https://coachluki.com' }, { name: 'Coach Kofi', url: 'https://coachkofi.de' }], team: [{ name: 'Chase Haynes', title: 'Founder', company: 'Blok Blok Studio' }, { name: 'Yahya Ibrahim', title: 'Full Stack Developer', company: 'Blok Blok Studio' }], studio: true, tag: 'HQ' },
   { city: 'Richmond', region: 'Virginia', country: 'United States', lat: 37.54, lng: -77.44, clients: [{ name: 'Exotic Ripz', url: 'https://web.archive.org/web/20250328034035/https://exoticripz.com/', archived: true }], team: [{ name: 'Kyle Talley', title: 'Creative Director', company: 'Blok Blok Studio' }], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
   { city: 'Los Angeles', region: 'California', country: 'United States', lat: 34.05, lng: -118.24, clients: [], team: [{ name: 'Bridget Perdomo', title: 'Marketing Strategist', company: 'Blok Blok Studio' }], studio: true, labelAnchor: 'left' },
   { city: 'Multan', region: 'Punjab', country: 'Pakistan', lat: 30.2, lng: 71.47, clients: [], team: [{ name: 'Ayan Khan', title: 'Video Editor', company: 'Blok Blok Studio' }], studio: true },
