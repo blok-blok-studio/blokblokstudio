@@ -33,14 +33,14 @@ import { stashAnswers } from '@/lib/quiz-plan';
  * along in the summary that reaches the tracker.
  */
 
+// Website options only (Chase, 2026-10-30): the studio sells one package, the
+// site build with hosting and care. Ads and social are no longer offered here;
+// the monthly-budget branches below stay in place for when they come back.
 const SERVICES = [
   'New website',
   'Website redesign',
   'E-commerce',
   'Landing page',
-  'Google Ads',
-  'Meta Ads',
-  'Social media',
   'Not sure yet',
 ];
 
