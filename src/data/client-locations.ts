@@ -12,9 +12,12 @@ export interface ClientLink {
   archived?: boolean;
 }
 
+export type TeamRoleKey = 'role_founder' | 'role_creative' | 'role_marketing' | 'role_fullstack' | 'role_video';
+
 export interface TeamMember {
   name: string;
-  title: string;
+  /** Key in the `team` translation namespace. */
+  title: TeamRoleKey;
   company?: string;
 }
 
@@ -37,10 +40,10 @@ export interface ClientCity {
 }
 
 export const clientCities: ClientCity[] = [
-  { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: [{ name: 'Coach Luki', url: 'https://coachluki.com' }, { name: 'Coach Kofi', url: 'https://coachkofi.de' }], team: [{ name: 'Chase Haynes', title: 'Founder', company: 'Blok Blok Studio' }, { name: 'Yahya Ibrahim', title: 'Full Stack Developer', company: 'Blok Blok Studio' }], studio: true, tag: 'HQ' },
-  { city: 'Richmond', region: 'Virginia', country: 'United States', lat: 37.54, lng: -77.44, clients: [{ name: 'Exotic Ripz', url: 'https://web.archive.org/web/20250328034035/https://exoticripz.com/', archived: true }], team: [{ name: 'Kyle Talley', title: 'Creative Director', company: 'Blok Blok Studio' }], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
-  { city: 'Los Angeles', region: 'California', country: 'United States', lat: 34.05, lng: -118.24, clients: [], team: [{ name: 'Bridget Perdomo', title: 'Marketing Strategist', company: 'Blok Blok Studio' }], studio: true, labelAnchor: 'left' },
-  { city: 'Multan', region: 'Punjab', country: 'Pakistan', lat: 30.2, lng: 71.47, clients: [], team: [{ name: 'Ayan Khan', title: 'Video Editor', company: 'Blok Blok Studio' }], studio: true },
+  { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: [{ name: 'Coach Luki', url: 'https://coachluki.com' }, { name: 'Coach Kofi', url: 'https://coachkofi.de' }], team: [{ name: 'Chase Haynes', title: 'role_founder', company: 'Blok Blok Studio' }, { name: 'Yahya Ibrahim', title: 'role_fullstack', company: 'Blok Blok Studio' }], studio: true, tag: 'HQ' },
+  { city: 'Richmond', region: 'Virginia', country: 'United States', lat: 37.54, lng: -77.44, clients: [{ name: 'Exotic Ripz', url: 'https://web.archive.org/web/20250328034035/https://exoticripz.com/', archived: true }], team: [{ name: 'Kyle Talley', title: 'role_creative', company: 'Blok Blok Studio' }], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
+  { city: 'Los Angeles', region: 'California', country: 'United States', lat: 34.05, lng: -118.24, clients: [], team: [{ name: 'Bridget Perdomo', title: 'role_marketing', company: 'Blok Blok Studio' }], studio: true, labelAnchor: 'left' },
+  { city: 'Multan', region: 'Punjab', country: 'Pakistan', lat: 30.2, lng: 71.47, clients: [], team: [{ name: 'Ayan Khan', title: 'role_video', company: 'Blok Blok Studio' }], studio: true },
   { city: 'Dallas', region: 'Texas', country: 'United States', lat: 32.78, lng: -96.8, clients: [{ name: 'Bronco Plumbing', url: 'https://www.broncoplumbingdfw.com' }, { name: 'Nanny & Nest', url: 'https://web.archive.org/web/20260617191024/https://www.nannyandnest.com/', archived: true }], labelAnchor: 'right' },
   { city: 'Fort Worth', region: 'Texas', country: 'United States', lat: 32.75, lng: -97.33, clients: [{ name: 'Real Texas Properties', url: 'https://heidiehaynes.com' }], labelAnchor: 'left', labelMaxAlt: 1.6 },
   { city: 'New York', region: 'New York', country: 'United States', lat: 40.71, lng: -74.0, clients: [{ name: 'The New School', url: 'https://www.military.newschool.edu' }], labelAnchor: 'top' },

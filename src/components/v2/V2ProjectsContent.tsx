@@ -25,6 +25,7 @@ const RESULT_KEY: Record<string, string> = {
   'public-affair': 'v2_result_public_affair',
   'military-newschool': 'v2_result_military_newschool',
 };
+const CAT_KEY: Record<string, 'cat_web' | 'cat_ecom' | 'cat_brand'> = { 'Web Design': 'cat_web', 'E-Commerce': 'cat_ecom', Branding: 'cat_brand' };
 const CATS = [
   { id: 'all', key: 'filter_all' },
   { id: 'Web Design', key: 'cat_web' },
@@ -85,7 +86,7 @@ export function V2ProjectsContent() {
                     <div className="mt-5 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-baseline">
                       <h3 className="font-display text-xl font-semibold tracking-tight text-white sm:text-2xl">{p.title}</h3>
                       <span className="text-[11px] uppercase tracking-[0.18em] text-gray-500">
-                        {p.category} · {p.year}
+                        {CAT_KEY[p.category] ? t(CAT_KEY[p.category]) : p.category} · {p.year}
                       </span>
                     </div>
                     <p className="mt-2 max-w-xl text-sm leading-relaxed text-gray-400">

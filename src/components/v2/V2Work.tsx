@@ -17,6 +17,8 @@ const FEATURED = [
 
 export async function V2Work() {
   const t = await getTranslations('home');
+  const tp = await getTranslations('projects');
+  const CAT_KEY: Record<string, 'cat_web' | 'cat_ecom' | 'cat_brand'> = { 'Web Design': 'cat_web', 'E-Commerce': 'cat_ecom', Branding: 'cat_brand' };
   return (
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
@@ -52,7 +54,7 @@ export async function V2Work() {
                       {p.title}
                     </h3>
                     <span className="text-[11px] uppercase tracking-[0.18em] text-gray-500">
-                      {p.category} · {p.year}
+                      {CAT_KEY[p.category] ? tp(CAT_KEY[p.category]) : p.category} · {p.year}
                     </span>
                   </div>
                   <p className="mt-2 max-w-xl text-sm leading-relaxed text-gray-400">{t(f.key)}</p>

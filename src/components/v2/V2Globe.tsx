@@ -65,6 +65,7 @@ function withAlpha(rgb: string, a: number): string {
 
 export function V2Globe() {
   const t = useTranslations('home');
+  const tt = useTranslations('team');
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const boxRef = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(0);
@@ -197,8 +198,8 @@ export function V2Globe() {
         });
         inner.appendChild(wrap);
       };
-      group('Team', (c.team ?? []).map((m) => [m.name, m.title, ...(m.company ? [m.company] : [])]), 'var(--bb-team)');
-      group('Clients', c.clients.map((cl) => [cl.name]), 'var(--bb-client)');
+      group(t('v2_globe_team'), (c.team ?? []).map((m) => [m.name, tt(m.title), ...(m.company ? [m.company] : [])]), 'var(--bb-team)');
+      group(t('v2_globe_clients'), c.clients.map((cl) => [cl.name]), 'var(--bb-client)');
       // City under the names
       title.style.cssText = `${font}margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.1);font-size:11px;line-height:1;letter-spacing:.02em;color:rgba(255,255,255,.6);white-space:nowrap;`;
       inner.appendChild(title);
@@ -208,7 +209,7 @@ export function V2Globe() {
     }
     outer.appendChild(inner);
     return outer;
-  }, []);
+  }, [t, tt]);
 
   const flyTo = useCallback((c: ClientCity) => {
     const g = globeRef.current;
@@ -328,7 +329,7 @@ export function V2Globe() {
       names.length
         ? `<div style="margin-top:4px;letter-spacing:0;text-transform:none"><span style="font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color}">${label}</span><br/><span style="color:#d1d5db">${names.join(' · ')}</span></div>`
         : '';
-    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:12px;white-space:nowrap">${c.city}${line('Team', (c.team ?? []).map((m: TeamMember) => `${m.name}, ${m.title}`), 'var(--bb-team)')}${line('Clients', c.clients.map((cl: ClientLink) => cl.name), 'var(--bb-client)')}</div>`;
+    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:12px;white-space:nowrap">${c.city}${line(t('v2_globe_team'), (c.team ?? []).map((m: TeamMember) => `${m.name}, ${tt(m.title)}`), 'var(--bb-team)')}${line(t('v2_globe_clients'), c.clients.map((cl: ClientLink) => cl.name), 'var(--bb-client)')}</div>`;
   };
 
   return (
@@ -416,7 +417,7 @@ export function V2Globe() {
                                     <span className="mt-0.5 block text-sm text-gray-400">
                                       {c.team!.map((m) => (
                                         <span key={m.name} className="block">
-                                          {m.name}, {m.title}
+                                          {m.name}, {tt(m.title)}
                                         </span>
                                       ))}
                                     </span>
@@ -437,7 +438,7 @@ export function V2Globe() {
                                           ) : (
                                             cl.name
                                           )}
-                                          {cl.archived && <span className="text-[10px] uppercase tracking-[0.12em] text-gray-500">archive</span>}
+                                          {cl.archived && <span className="text-[10px] uppercase tracking-[0.12em] text-gray-500">{t('v2_archive')}</span>}
                                           {j < c.clients.length - 1 && <span className="text-gray-600">·</span>}
                                         </span>
                                       ))}
@@ -476,7 +477,7 @@ export function V2Globe() {
             />
             {webgl === false && (
               <div className="absolute inset-0 flex items-center justify-center p-10 text-center text-[11px] uppercase tracking-[0.2em] text-gray-500">
-                WebGL is off in this browser. The cities are listed beside.
+                {t('v2_globe_nowebgl')}
               </div>
             )}
             {webgl && size > 0 && (

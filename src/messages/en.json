@@ -230,7 +230,12 @@
     "v2_proof_4_value": "$3B+",
     "v2_proof_4_label": "Annual revenue of our largest client, Philippine Airlines",
     "v2_result_public_affair": "A premium age-gated entry that 95% of visitors complete.",
-    "v2_result_military_newschool": "A digital home that speaks to military-affiliated students."
+    "v2_result_military_newschool": "A digital home that speaks to military-affiliated students.",
+    "v2_archive": "archive",
+    "v2_globe_nowebgl": "WebGL is off in this browser. The cities are listed beside.",
+    "v2_quote_1_role": "Coach Luki, Berlin",
+    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_3_role": "Trading card store"
   },
   "projects": {
     "title": "Our Projects",

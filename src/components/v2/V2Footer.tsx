@@ -86,8 +86,9 @@ export async function V2Footer() {
             <p className={colHead}>{t('v2_loc_label')}</p>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>Berlin</li>
-              <li>Virginia</li>
+              <li>Richmond</li>
               <li>Los Angeles</li>
+              <li>Multan</li>
             </ul>
           </div>
           <div>

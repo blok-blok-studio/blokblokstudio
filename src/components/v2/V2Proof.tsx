@@ -9,19 +9,19 @@ const QUOTES = [
     quote:
       'They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices.',
     name: 'Luke Satterly',
-    role: 'Coach Luki, Berlin',
+    role: 'v2_quote_1_role',
   },
   {
     quote:
       'Blok Blok Studio transformed my online presence completely. The bold design perfectly captures my coaching philosophy and the results have been incredible.',
     name: 'Kofi',
-    role: 'Coach Kofi',
+    role: 'v2_quote_2_role',
   },
   {
     quote:
       'The e-commerce store they built for us is incredible. Our booster pack drops sell out in hours and the community engagement through the site has been amazing.',
     name: 'Exotic Ripz',
-    role: 'Trading card store',
+    role: 'v2_quote_3_role',
   },
 ];
 
@@ -59,7 +59,7 @@ export async function V2Proof() {
                 &ldquo;{q.quote}&rdquo;
               </blockquote>
               <p className="mt-6 text-[11px] uppercase tracking-[0.18em] text-gray-500">
-                {q.name} · {q.role}
+                {q.name} · {t(q.role as 'v2_quote_1_role')}
               </p>
             </li>
           ))}
