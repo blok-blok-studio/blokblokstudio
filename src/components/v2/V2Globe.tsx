@@ -41,11 +41,12 @@ function resolveColor(value: string, fallback: string): string {
   return out || fallback;
 }
 
-function readPalette(): { team: string; client: string } {
+function readPalette(): { team: string; client: string; accent: string } {
   const cs = getComputedStyle(document.documentElement);
   return {
-    team: resolveColor(cs.getPropertyValue('--bb-primary').trim(), 'rgb(37, 97, 216)'),
-    client: resolveColor(cs.getPropertyValue('--bb-client').trim(), 'rgb(120, 125, 200)'),
+    team: resolveColor(cs.getPropertyValue('--bb-team').trim(), 'rgb(255, 255, 255)'),
+    client: resolveColor(cs.getPropertyValue('--bb-client').trim(), 'rgb(37, 97, 216)'),
+    accent: resolveColor(cs.getPropertyValue('--bb-primary').trim(), 'rgb(37, 97, 216)'),
   };
 }
 
@@ -62,7 +63,7 @@ export function V2Globe() {
   const [size, setSize] = useState(0);
   const [webgl, setWebgl] = useState<boolean | null>(null);
   const [countries, setCountries] = useState<Feature[]>([]);
-  const [colors, setColors] = useState({ team: 'rgb(37, 97, 216)', client: 'rgb(120, 125, 200)' });
+  const [colors, setColors] = useState({ team: 'rgb(255, 255, 255)', client: 'rgb(37, 97, 216)', accent: 'rgb(37, 97, 216)' });
   const [active, setActive] = useState<number | null>(null);
   const [ready, setReady] = useState(false);
   const [alt, setAlt] = useState(2.1);
@@ -104,6 +105,7 @@ export function V2Globe() {
     [berlin],
   );
 
+  const zoomScale = Math.min(1, Math.max(0.22, alt / 2.1));
   const colorOf = useCallback((d: object) => ((d as ClientCity).studio ? colors.team : colors.client), [colors]);
 
   const visibleLabels = useMemo(
@@ -211,7 +213,7 @@ export function V2Globe() {
             <p className="mt-4 text-sm text-gray-500">{t('v2_globe_sub')}</p>
             <div className="mt-6 flex items-center gap-6 text-[11px] uppercase tracking-[0.18em] text-gray-400">
               <span className="flex items-center gap-2">
-                <span className="h-2.5 w-2.5 rounded-full bg-orange-500" />
+                <span className="h-2.5 w-2.5 rounded-full" style={{ background: 'var(--bb-team)' }} />
                 {t('v2_globe_team')}
               </span>
               <span className="flex items-center gap-2">
@@ -233,7 +235,7 @@ export function V2Globe() {
                       <span
                         aria-hidden="true"
                         className={`mt-1 h-2 w-2 self-center rounded-full transition-transform ${on ? 'scale-125' : 'opacity-70 group-hover:opacity-100'}`}
-                        style={{ background: c.studio ? 'var(--bb-primary)' : 'var(--bb-client)' }}
+                        style={{ background: c.studio ? 'var(--bb-team)' : 'var(--bb-client)' }}
                       />
                       <span>
                         <span className={`block text-base ${on ? 'text-white' : 'text-gray-200'}`}>
@@ -248,7 +250,7 @@ export function V2Globe() {
                       </span>
                       <span
                         className="text-[11px] uppercase tracking-[0.18em]"
-                        style={{ color: c.studio ? 'var(--bb-primary)' : 'var(--bb-client)' }}
+                        style={{ color: c.studio ? 'var(--bb-team)' : 'var(--bb-client)' }}
                       >
                         {c.studio ? t('v2_globe_team') : t('v2_globe_clients')}
                       </span>
@@ -294,7 +296,7 @@ export function V2Globe() {
                   waitForGlobeReady={false}
                   globeMaterial={material}
                   showAtmosphere
-                  atmosphereColor={colors.team}
+                  atmosphereColor={colors.accent}
                   atmosphereAltitude={0.16}
                   hexPolygonsData={countries}
                   hexPolygonResolution={3}
@@ -307,7 +309,7 @@ export function V2Globe() {
                   pointLng="lng"
                   pointColor={colorOf}
                   pointAltitude={0.02}
-                  pointRadius={(d: object) => ((d as ClientCity).studio ? 1.3 : 1.1)}
+                  pointRadius={(d: object) => ((d as ClientCity).studio ? 1.3 : 1.1) * zoomScale}
                   pointLabel={tooltip}
                   onPointClick={(d: object) => {
                     const c = d as ClientCity;
@@ -317,13 +319,13 @@ export function V2Globe() {
                   ringLat="lat"
                   ringLng="lng"
                   ringColor={(d: object) => (tt: number) => withAlpha(colorOf(d), Math.max(0, 1 - tt))}
-                  ringMaxRadius={(d: object) => ((d as ClientCity).studio ? 5 : 4)}
+                  ringMaxRadius={(d: object) => ((d as ClientCity).studio ? 5 : 4) * zoomScale}
                   ringPropagationSpeed={1.4}
                   ringRepeatPeriod={1400}
                   arcsData={arcs}
                   arcColor={() => [withAlpha(colors.team, 0.9), withAlpha(colors.client, 0.9)]}
                   arcAltitudeAutoScale={0.4}
-                  arcStroke={0.45}
+                  arcStroke={0.45 * Math.max(0.5, zoomScale)}
                   arcDashLength={0.45}
                   arcDashGap={0.6}
                   arcDashAnimateTime={3200}
