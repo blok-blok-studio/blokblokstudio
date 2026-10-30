@@ -52,6 +52,7 @@ export function V2Globe() {
   const [accent, setAccent] = useState('#2561d8');
   const [active, setActive] = useState<number | null>(null);
   const [ready, setReady] = useState(false);
+  const [alt, setAlt] = useState(2.1);
 
   // Environment: WebGL, accent colour (and palette changes), container size.
   useEffect(() => {
@@ -90,6 +91,26 @@ export function V2Globe() {
     [berlin],
   );
 
+  const visibleLabels = useMemo(
+    () => clientCities.filter((c) => c.labelMaxAlt === undefined || alt < c.labelMaxAlt),
+    [alt],
+  );
+
+  // Screen-space label: fixed pixel size, anchored to one side of the marker.
+  const makeLabel = useCallback((d: object) => {
+    const c = d as ClientCity;
+    const el = document.createElement('div');
+    el.textContent = c.city;
+    const anchor = c.labelAnchor ?? 'right';
+    const shift =
+      anchor === 'left' ? 'translate(calc(-100% - 10px), -50%)'
+      : anchor === 'top' ? 'translate(-50%, calc(-100% - 10px))'
+      : anchor === 'bottom' ? 'translate(-50%, 10px)'
+      : 'translate(10px, -50%)';
+    el.style.cssText = `position:absolute;transform:${shift};font-family:var(--font-inter),Inter,sans-serif;font-size:12px;line-height:1;letter-spacing:.02em;color:rgba(255,255,255,.92);text-shadow:0 1px 6px rgba(0,0,0,.9);white-space:nowrap;pointer-events:none;transition:opacity .3s;`;
+    return el;
+  }, []);
+
   const flyTo = useCallback((c: ClientCity) => {
     const g = globeRef.current;
     if (!g) return;
@@ -123,10 +144,15 @@ export function V2Globe() {
         // the default framing. Globe radius is 100 in globe.gl units.
         controls.enableZoom = true;
         controls.zoomSpeed = 0.6;
-        controls.minDistance = 140;
+        controls.minDistance = 160;
         controls.maxDistance = 340;
         controls.enablePan = false;
         g.pointOfView({ lat: 32, lng: -30, altitude: 2.1 }, 0);
+        // Track camera altitude (rounded) so dense labels can hide when far out.
+        controls.addEventListener('change', () => {
+          const a = g.pointOfView().altitude;
+          setAlt((prev) => (Math.abs(prev - a) > 0.05 ? a : prev));
+        });
         setReady(true);
       } else if (tries > 200) {
         window.clearInterval(id);
@@ -263,15 +289,15 @@ export function V2Globe() {
                   arcDashLength={0.45}
                   arcDashGap={0.6}
                   arcDashAnimateTime={3200}
-                  labelsData={clientCities}
-                  labelLat="lat"
-                  labelLng="lng"
-                  labelText="city"
-                  labelSize={1.4}
-                  labelDotRadius={0}
-                  labelAltitude={0.014}
-                  labelColor={() => 'rgba(255,255,255,0.85)'}
-                  labelResolution={3}
+                  htmlElementsData={visibleLabels}
+                  htmlLat="lat"
+                  htmlLng="lng"
+                  htmlAltitude={0.012}
+                  htmlElement={makeLabel}
+                  htmlElementVisibilityModifier={(el: HTMLElement, visible: boolean) => {
+                    el.style.opacity = visible ? '1' : '0';
+                  }}
+                  htmlTransitionDuration={0}
                 />
               </div>
             )}
