@@ -78,7 +78,7 @@ export function V2Globe() {
 
   // Dark matte sphere, no texture.
   const material = useMemo(
-    () => new MeshPhongMaterial({ color: '#0c0c0c', emissive: '#050505', shininess: 4 }),
+    () => new MeshPhongMaterial({ color: '#000000', emissive: '#000000', specular: '#050505', shininess: 2 }),
     [],
   );
 
@@ -231,6 +231,11 @@ export function V2Globe() {
             onMouseEnter={pause}
             onMouseLeave={resume}
             className="order-1 relative mx-auto aspect-square w-full max-w-[720px] lg:order-2"
+            style={{
+              // Circular fade so the square canvas never reads as a box, at any zoom.
+              WebkitMaskImage: 'radial-gradient(circle closest-side, #000 70%, transparent 100%)',
+              maskImage: 'radial-gradient(circle closest-side, #000 70%, transparent 100%)',
+            }}
           >
             {/* Placeholder ring until the scene is ready */}
             <div
