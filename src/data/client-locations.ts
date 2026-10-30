@@ -27,7 +27,7 @@ export const clientCities: ClientCity[] = [
   { city: 'Richmond', region: 'Virginia', country: 'United States', lat: 37.54, lng: -77.44, clients: ['Exotic Ripz'], team: ['Kyle Talley, Creative Director'], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
   { city: 'Los Angeles', region: 'California', country: 'United States', lat: 34.05, lng: -118.24, clients: [], studio: true, labelAnchor: 'left' },
   { city: 'Karachi', country: 'Pakistan', lat: 24.86, lng: 67.01, clients: [], team: ['Ayan Khan, Video Editor'], studio: true },
-  { city: 'Dallas', region: 'Texas', country: 'United States', lat: 32.78, lng: -96.8, clients: ['Bronco Plumbing'], labelAnchor: 'right' },
+  { city: 'Dallas', region: 'Texas', country: 'United States', lat: 32.78, lng: -96.8, clients: ['Bronco Plumbing', 'Nanny & Nest'], labelAnchor: 'right' },
   { city: 'Fort Worth', region: 'Texas', country: 'United States', lat: 32.75, lng: -97.33, clients: ['Real Texas Properties'], labelAnchor: 'left', labelMaxAlt: 1.6 },
   { city: 'New York', region: 'New York', country: 'United States', lat: 40.71, lng: -74.0, clients: ['The New School'], labelAnchor: 'top' },
   { city: 'Washington, DC', country: 'United States', lat: 38.9, lng: -77.04, clients: ['Mind and Body Retreats'], labelAnchor: 'right' },
