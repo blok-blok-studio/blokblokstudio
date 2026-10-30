@@ -348,83 +348,109 @@ export function V2Globe() {
             <ul className="mt-10 divide-y divide-white/10 border-y border-white/10">
               {clientCities.map((c, i) => {
                 const on = active === i;
+                const teamCount = c.team?.length ?? 0;
+                const clientCount = c.clients.length;
                 return (
                   <li key={c.city}>
-                    <div
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => pick(i, c)}
-                      onKeyDown={(e) => {
-                        if (e.key === 'Enter' || e.key === ' ') {
-                          e.preventDefault();
-                          pick(i, c);
-                        }
-                      }}
-                      aria-pressed={on}
-                      className="group grid w-full cursor-pointer grid-cols-[1.25rem_1fr] items-start gap-4 py-5 text-left transition-colors hover:text-white"
+                    {/* Header: city is the headline. Click opens the row and flies the globe. */}
+                    <button
+                      type="button"
+                      onClick={() => (on ? setActive(null) : pick(i, c))}
+                      aria-expanded={on}
+                      className="group grid w-full grid-cols-[1.25rem_1fr_auto] items-center gap-4 py-4 text-left"
                     >
                       <span
                         aria-hidden="true"
-                        className={`mt-2.5 h-2 w-2 rounded-full transition-transform ${on ? 'scale-125' : 'opacity-70 group-hover:opacity-100'}`}
+                        className={`h-2 w-2 rounded-full transition-transform ${on ? 'scale-125' : 'opacity-70 group-hover:opacity-100'}`}
                         style={{ background: c.studio ? 'var(--bb-team)' : 'var(--bb-client)' }}
                       />
                       <span className="min-w-0">
-                        {c.team && c.team.length > 0 && (
-                          <span className="block">
-                            <span className="block text-[10px] uppercase tracking-[0.2em]" style={{ color: 'var(--bb-team)' }}>
-                              {t('v2_globe_team')}
-                            </span>
-                            {c.team.map((m) => (
-                              <span key={m.name} className="mt-1.5 block">
-                                <span className={`block text-lg leading-tight ${on ? 'text-white' : 'text-gray-100'}`}>{m.name}</span>
-                                <span className="block text-sm text-gray-400">{m.title}</span>
-                                {m.company && (
-                                  <span className="block text-[11px] uppercase tracking-[0.16em] text-gray-500">{m.company}</span>
-                                )}
-                              </span>
-                            ))}
-                          </span>
-                        )}
-                        {c.clients.length > 0 && (
-                          <span className={`block ${c.team?.length ? 'mt-4' : ''}`}>
-                            <span className="block text-[10px] uppercase tracking-[0.2em]" style={{ color: 'var(--bb-client)' }}>
-                              {t('v2_globe_clients')}
-                            </span>
-                            {c.clients.map((cl) => (
-                              <span key={cl.name} className={`mt-1.5 block text-lg leading-tight ${on ? 'text-white' : 'text-gray-100'}`}>
-                                {cl.url ? (
-                                  <a
-                                    href={cl.url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    onClick={(e) => e.stopPropagation()}
-                                    className="underline decoration-white/20 underline-offset-4 transition-colors hover:decoration-white"
-                                  >
-                                    {cl.name}
-                                  </a>
-                                ) : (
-                                  cl.name
-                                )}
-                                {cl.archived && <span className="ml-2 text-[10px] uppercase tracking-[0.12em] text-gray-500">archive</span>}
-                              </span>
-                            ))}
-                          </span>
-                        )}
-                        {!c.team?.length && !c.clients.length && (
-                          <span className={`block text-lg ${on ? 'text-white' : 'text-gray-100'}`}>Blok Blok Studio</span>
-                        )}
-                        <span className="mt-4 block text-sm text-gray-500">
+                        <span className={`block text-lg leading-tight ${on ? 'text-white' : 'text-gray-100'}`}>
                           {c.city}
-                          {c.region ? `, ${c.region}` : ''}
+                          {c.region ? <span className="text-gray-400">, {c.region}</span> : null}
                           {c.tag && (
                             <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
                               {c.tag}
                             </span>
                           )}
-                          <span className="ml-2 text-[11px] uppercase tracking-[0.18em] text-gray-600">{c.country}</span>
+                        </span>
+                        <span className="mt-0.5 flex flex-wrap items-center gap-x-3 text-[11px] uppercase tracking-[0.16em] text-gray-500">
+                          <span>{c.country}</span>
+                          {teamCount > 0 && (
+                            <span className="flex items-center gap-1.5">
+                              <span className="h-1.5 w-1.5 rounded-full" style={{ background: 'var(--bb-team)' }} />
+                              {teamCount} {t('v2_globe_team')}
+                            </span>
+                          )}
+                          {clientCount > 0 && (
+                            <span className="flex items-center gap-1.5">
+                              <span className="h-1.5 w-1.5 rounded-full" style={{ background: 'var(--bb-client)' }} />
+                              {clientCount} {clientCount === 1 ? t('v2_globe_client_one') : t('v2_globe_clients')}
+                            </span>
+                          )}
                         </span>
                       </span>
-                      <span aria-hidden="true" />
+                      <span
+                        aria-hidden="true"
+                        className={`text-gray-500 transition-transform duration-300 ${on ? 'rotate-180 text-white' : ''}`}
+                      >
+                        ▾
+                      </span>
+                    </button>
+
+                    {/* Body: team then clients, animated open/closed. */}
+                    <div
+                      className={`grid transition-[grid-template-rows] duration-300 ease-out ${on ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}
+                    >
+                      <div className="overflow-hidden">
+                        <div className="grid grid-cols-[1.25rem_1fr] gap-4 pb-5">
+                          <span />
+                          <div className="min-w-0">
+                            {teamCount > 0 && (
+                              <div>
+                                <p className="text-[10px] uppercase tracking-[0.2em]" style={{ color: 'var(--bb-team)' }}>
+                                  {t('v2_globe_team')}
+                                </p>
+                                {c.team!.map((m) => (
+                                  <div key={m.name} className="mt-1.5">
+                                    <p className="text-base leading-tight text-white">{m.name}</p>
+                                    <p className="text-sm text-gray-400">{m.title}</p>
+                                    {m.company && (
+                                      <p className="text-[11px] uppercase tracking-[0.16em] text-gray-500">{m.company}</p>
+                                    )}
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                            {clientCount > 0 && (
+                              <div className={teamCount ? 'mt-4' : ''}>
+                                <p className="text-[10px] uppercase tracking-[0.2em]" style={{ color: 'var(--bb-client)' }}>
+                                  {t('v2_globe_clients')}
+                                </p>
+                                {c.clients.map((cl) => (
+                                  <p key={cl.name} className="mt-1.5 text-base leading-tight text-white">
+                                    {cl.url ? (
+                                      <a
+                                        href={cl.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="underline decoration-white/20 underline-offset-4 transition-colors hover:decoration-white"
+                                      >
+                                        {cl.name}
+                                      </a>
+                                    ) : (
+                                      cl.name
+                                    )}
+                                    {cl.archived && (
+                                      <span className="ml-2 text-[10px] uppercase tracking-[0.12em] text-gray-500">archive</span>
+                                    )}
+                                  </p>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </li>
                 );
