@@ -153,7 +153,7 @@ export function ContactContent() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold leading-[1.02] tracking-[-0.02em] mb-6">
             {t('title')}
           </h1>
-          <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
+          <p className="max-w-2xl text-lg text-gray-400">
             {t('subtitle')}
           </p>
         </AnimatedSection>
