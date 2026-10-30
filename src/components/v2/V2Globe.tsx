@@ -108,9 +108,13 @@ export function V2Globe() {
   const zoomScale = Math.min(1, Math.max(0.06, Math.pow(alt / 2.1, 1.6)));
   const colorOf = useCallback((d: object) => ((d as ClientCity).studio ? colors.team : colors.client), [colors]);
 
+  const expanded = alt < 1.15;
   const visibleLabels = useMemo(
-    () => clientCities.filter((c) => c.labelMaxAlt === undefined || alt < c.labelMaxAlt),
-    [alt],
+    () =>
+      clientCities
+        .filter((c) => c.labelMaxAlt === undefined || alt < c.labelMaxAlt)
+        .map((c) => ({ ...c, expanded })),
+    [alt, expanded],
   );
 
   // Screen-space label: fixed pixel size, anchored to one side of the marker.
@@ -118,24 +122,40 @@ export function V2Globe() {
   // element's transform every frame), so the anchor offset lives on an inner
   // span the renderer never touches.
   const makeLabel = useCallback((d: object) => {
-    const c = d as ClientCity;
+    const c = d as ClientCity & { expanded?: boolean };
     const outer = document.createElement('div');
     outer.style.pointerEvents = 'none';
-    const inner = document.createElement('span');
-    inner.textContent = c.city;
-    if (c.tag) {
-      const badge = document.createElement('span');
-      badge.textContent = c.tag;
-      badge.style.cssText = 'margin-left:6px;padding:2px 5px;border-radius:4px;font-size:9px;font-weight:600;letter-spacing:.12em;vertical-align:1px;color:#000;background:var(--bb-primary);';
-      inner.appendChild(badge);
-    }
+    const inner = document.createElement('div');
     const anchor = c.labelAnchor ?? 'right';
     const shift =
       anchor === 'left' ? 'translate(calc(-100% - 12px), -50%)'
       : anchor === 'top' ? 'translate(-50%, calc(-100% - 12px))'
       : anchor === 'bottom' ? 'translate(-50%, 12px)'
       : 'translate(12px, -50%)';
-    inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};font-family:var(--font-inter),Inter,sans-serif;font-size:12px;line-height:1;letter-spacing:.02em;color:rgba(255,255,255,.92);text-shadow:0 1px 6px rgba(0,0,0,.9);white-space:nowrap;`;
+    const font = 'font-family:var(--font-inter),Inter,sans-serif;';
+    const title = document.createElement('div');
+    title.textContent = c.city + (c.region ? `, ${c.region}` : '');
+    title.style.cssText = `${font}font-size:12px;line-height:1;letter-spacing:.02em;color:#fff;white-space:nowrap;`;
+    if (c.tag) {
+      const badge = document.createElement('span');
+      badge.textContent = c.tag;
+      badge.style.cssText = 'margin-left:6px;padding:2px 5px;border-radius:4px;font-size:9px;font-weight:600;letter-spacing:.12em;vertical-align:1px;color:#000;background:var(--bb-primary);';
+      title.appendChild(badge);
+    }
+    inner.appendChild(title);
+    if (c.expanded) {
+      // Zoomed in: the label becomes a card listing who is here.
+      const who = [...(c.team ?? []), ...c.clients];
+      if (who.length) {
+        const list = document.createElement('div');
+        list.style.cssText = `${font}margin-top:6px;font-size:11px;line-height:1.5;color:rgba(255,255,255,.75);white-space:nowrap;`;
+        list.innerHTML = who.map((w) => `<div>${w}</div>`).join('');
+        inner.appendChild(list);
+      }
+      inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};padding:8px 10px;border-radius:8px;background:rgba(0,0,0,.82);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(4px);transition:opacity .3s;`;
+    } else {
+      inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};text-shadow:0 1px 6px rgba(0,0,0,.9);transition:opacity .3s;`;
+    }
     outer.appendChild(inner);
     return outer;
   }, []);
@@ -145,7 +165,7 @@ export function V2Globe() {
     if (!g) return;
     const controls = g.controls();
     controls.autoRotate = false;
-    g.pointOfView({ lat: c.lat, lng: c.lng, altitude: 1.9 }, 1200);
+    g.pointOfView({ lat: c.lat, lng: c.lng, altitude: 0.9 }, 1400);
   }, []);
 
   const pick = (i: number, c: ClientCity) => {
