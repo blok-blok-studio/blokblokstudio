@@ -400,7 +400,11 @@ export function V2Globe() {
                                   </span>
                                   {g.id === 'team' ? (
                                     <span className="mt-0.5 block text-sm text-gray-400">
-                                      {c.team!.map((m) => `${m.name}, ${m.title}`).join(' · ')}
+                                      {c.team!.map((m) => (
+                                        <span key={m.name} className="block">
+                                          {m.name}, {m.title}
+                                        </span>
+                                      ))}
                                     </span>
                                   ) : (
                                     <span className="mt-0.5 flex flex-wrap items-baseline gap-x-2 text-sm text-gray-400">
