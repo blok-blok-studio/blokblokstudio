@@ -67,6 +67,7 @@ export function V2Globe() {
   const [active, setActive] = useState<number | null>(null);
   const [ready, setReady] = useState(false);
   const [alt, setAlt] = useState(2.1);
+  const [pov, setPov] = useState<{ lat: number; lng: number }>({ lat: 32, lng: -30 });
 
   // Environment: WebGL, accent colour (and palette changes), container size.
   useEffect(() => {
@@ -108,13 +109,29 @@ export function V2Globe() {
   const zoomScale = Math.min(1, Math.max(0.06, Math.pow(alt / 2.1, 1.6)));
   const colorOf = useCallback((d: object) => ((d as ClientCity).studio ? colors.team : colors.client), [colors]);
 
-  const expanded = alt < 1.15;
+  // When zoomed in, only the city nearest the centre of view expands into a card.
+  const focusCity = useMemo(() => {
+    if (alt >= 1.15) return null;
+    const rad = Math.PI / 180;
+    let best: ClientCity | null = null;
+    let bestD = Infinity;
+    for (const c of clientCities) {
+      const dLat = (c.lat - pov.lat) * rad;
+      const dLng = (c.lng - pov.lng) * rad;
+      const d = Math.hypot(dLat, dLng * Math.cos(pov.lat * rad));
+      if (d < bestD) {
+        bestD = d;
+        best = c;
+      }
+    }
+    return best;
+  }, [alt, pov]);
   const visibleLabels = useMemo(
     () =>
       clientCities
-        .filter((c) => c.labelMaxAlt === undefined || alt < c.labelMaxAlt)
-        .map((c) => ({ ...c, expanded })),
-    [alt, expanded],
+        .filter((c) => c.labelMaxAlt === undefined || alt < c.labelMaxAlt || c === focusCity)
+        .map((c) => ({ ...c, expanded: c === focusCity })),
+    [alt, focusCity],
   );
 
   // Screen-space label: fixed pixel size, anchored to one side of the marker.
@@ -199,8 +216,11 @@ export function V2Globe() {
         g.pointOfView({ lat: 32, lng: -30, altitude: 2.1 }, 0);
         // Track camera altitude (rounded) so dense labels can hide when far out.
         controls.addEventListener('change', () => {
-          const a = g.pointOfView().altitude;
-          setAlt((prev) => (Math.abs(prev - a) > 0.05 ? a : prev));
+          const v = g.pointOfView();
+          setAlt((prev) => (Math.abs(prev - v.altitude) > 0.05 ? v.altitude : prev));
+          setPov((prev) =>
+            Math.abs(prev.lat - v.lat) > 0.5 || Math.abs(prev.lng - v.lng) > 0.5 ? { lat: v.lat, lng: v.lng } : prev,
+          );
         });
         setReady(true);
       } else if (tries > 200) {
