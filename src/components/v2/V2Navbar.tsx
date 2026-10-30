@@ -83,7 +83,7 @@ export function V2Navbar() {
               <LanguageSwitcher />
             </div>
             <Link
-              href="/contact"
+              href="/quiz"
               className="hidden rounded-full bg-orange-500 px-5 py-2.5 font-mono text-[12px] uppercase tracking-[0.14em] text-(--bb-on-primary) transition-colors hover:bg-orange-400 md:inline-flex"
             >
               {t('v2_cta')}
@@ -133,7 +133,7 @@ export function V2Navbar() {
         <div className="flex items-center justify-between gap-4">
           <LanguageSwitcher />
           <Link
-            href="/contact"
+            href="/quiz"
             className="rounded-full bg-orange-500 px-6 py-3 font-mono text-[12px] uppercase tracking-[0.14em] text-(--bb-on-primary)"
           >
             {t('v2_cta')}

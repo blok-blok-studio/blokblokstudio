@@ -35,6 +35,7 @@ export async function V2Footer() {
     { href: 'https://www.linkedin.com/company/blok-blok-studio/', label: 'LinkedIn' },
   ];
   const contacts = [
+    { href: '/quiz', label: t('v2_quiz_link'), external: false },
     { href: '/contact', label: t('v2_email'), external: false },
     { href: WHATSAPP_URL, label: t('v2_whatsapp'), external: true },
     { href: BOOKING_URL, label: t('v2_book'), external: true },

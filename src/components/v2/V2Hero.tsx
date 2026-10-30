@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
 /**
@@ -65,7 +66,7 @@ export async function V2Hero() {
 
       {/* Scrim + wordmark */}
       <div className="pointer-events-none absolute inset-0 bg-black/55" />
-      <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
+      <div className="absolute inset-0 flex flex-col items-center justify-center px-6 pb-6 text-center">
         <Image
           src="/wordmark-stacked.svg"
           alt="Blok Blok"
@@ -80,6 +81,14 @@ export async function V2Hero() {
         >
           {t('v2_tagline')}
         </h1>
+        <Link
+          href="/quiz"
+          className="hero-enter mt-8 inline-flex items-center gap-3 rounded-full bg-orange-500 px-6 py-3 font-mono text-[12px] uppercase tracking-[0.14em] text-(--bb-on-primary) transition-colors hover:bg-orange-400"
+          style={{ animationDelay: '0.45s' }}
+        >
+          {t('v2_hero_cta')}
+          <span aria-hidden="true">→</span>
+        </Link>
       </div>
 
       <div className="absolute inset-x-0 bottom-5 flex items-end justify-between px-5 font-mono text-[11px] uppercase tracking-[0.2em] text-gray-300 sm:px-8 lg:px-12">

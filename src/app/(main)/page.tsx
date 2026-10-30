@@ -4,6 +4,7 @@ import { V2Hero } from '@/components/v2/V2Hero';
 import { V2Manifesto } from '@/components/v2/V2Manifesto';
 import { V2Services } from '@/components/v2/V2Services';
 import { V2Work } from '@/components/v2/V2Work';
+import { V2Quiz } from '@/components/v2/V2Quiz';
 import { V2Proof } from '@/components/v2/V2Proof';
 import { V2Clients } from '@/components/v2/V2Clients';
 
@@ -25,6 +26,7 @@ export default function HomePage() {
       <V2Hero />
       <V2Manifesto />
       <V2Services />
+      <V2Quiz />
       <V2Work />
       <V2Proof />
       <V2Clients />
