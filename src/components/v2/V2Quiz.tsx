@@ -21,7 +21,7 @@ export async function V2Quiz() {
           </h2>
           <p className="mt-6 max-w-lg text-base text-gray-400">{t('v2_quiz_sub')}</p>
           <Link
-            href="/quiz"
+            href="/quiz" target="_blank" rel="noopener noreferrer"
             className="mt-10 inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-4 text-[12px] uppercase tracking-[0.14em] text-(--bb-on-primary) transition-colors hover:bg-orange-400"
           >
             {t('v2_quiz_cta')}

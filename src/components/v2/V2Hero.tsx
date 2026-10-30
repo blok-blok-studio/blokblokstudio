@@ -93,7 +93,7 @@ export async function V2Hero() {
         </p>
         <div className="hero-enter mt-9 flex flex-wrap items-center justify-center gap-3" style={{ animationDelay: '0.45s' }}>
           <Link
-            href="/quiz"
+            href="/quiz" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400"
           >
             {t('v2_hero_cta')}

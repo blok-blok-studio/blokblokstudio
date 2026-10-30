@@ -75,7 +75,7 @@ export async function V2AboutContent() {
               {t('v2_team_link')}
             </Link>
           </div>
-          <Link href="/quiz" className="inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400">
+          <Link href="/quiz" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400">
             {t('v2_cta')} <span aria-hidden="true">→</span>
           </Link>
         </div>

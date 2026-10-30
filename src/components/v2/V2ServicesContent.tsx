@@ -56,7 +56,7 @@ export async function V2ServicesContent() {
       <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
         <div className="mx-auto flex max-w-[1600px] flex-wrap items-center justify-between gap-6 rounded-3xl border border-white/10 p-8 sm:p-12">
           <p className="font-display text-2xl font-semibold text-white sm:text-3xl">{ts('v2_cta_label')}</p>
-          <Link href="/quiz" className="inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400">
+          <Link href="/quiz" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400">
             {ts('v2_cta')} <span aria-hidden="true">→</span>
           </Link>
         </div>
