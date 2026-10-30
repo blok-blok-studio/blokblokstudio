@@ -182,6 +182,7 @@ export function V2Globe() {
     if (!c.expanded) inner.appendChild(title);
     if (c.expanded) {
       // Zoomed in: the label becomes a card listing who is here.
+      // Rows are [text, href?] pairs; a client row with a URL becomes a link.
       const group = (label: string, rows: string[][], color: string) => {
         if (!rows.length) return;
         const wrap = document.createElement('div');
@@ -192,16 +193,34 @@ export function V2Globe() {
         wrap.appendChild(head);
         rows.forEach((lines) => {
           lines.forEach((text, i) => {
-            const row = document.createElement('div');
+            const isLink = i === 0 && lines.length === 2 && lines[1].startsWith('http');
+            if (i === 1 && lines[1].startsWith('http')) return; // href slot, not a text line
+            const row = document.createElement(isLink ? 'a' : 'div');
             row.textContent = text;
-            row.style.cssText = i === 0 ? 'font-size:12px;color:#fff;' : i === 1 ? 'color:rgba(255,255,255,.7);' : 'font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);';
+            if (isLink) {
+              const a = row as HTMLAnchorElement;
+              a.href = lines[1];
+              a.target = '_blank';
+              a.rel = 'noopener noreferrer';
+              a.style.cssText = 'display:block;font-size:12px;color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,.3);text-underline-offset:3px;cursor:pointer;';
+              a.addEventListener('mouseenter', () => { a.style.textDecorationColor = '#fff'; });
+              a.addEventListener('mouseleave', () => { a.style.textDecorationColor = 'rgba(255,255,255,.3)'; });
+            } else {
+              row.style.cssText = i === 0 ? 'font-size:12px;color:#fff;' : i === 1 ? 'color:rgba(255,255,255,.7);' : 'font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);';
+            }
             wrap.appendChild(row);
           });
         });
         inner.appendChild(wrap);
       };
       group(t('v2_globe_team'), (c.team ?? []).map((m) => [m.name, tt(m.title), ...(m.company ? [m.company] : [])]), 'var(--bb-team)');
-      group(t('v2_globe_clients'), c.clients.map((cl) => [cl.name]), 'var(--bb-client)');
+      group(t('v2_globe_clients'), c.clients.map((cl) => (cl.url ? [cl.name, cl.url] : [cl.name])), 'var(--bb-client)');
+      // The expanded card is interactive: links are clickable and a press on
+      // the card must not start a globe drag.
+      outer.style.pointerEvents = 'auto';
+      inner.style.pointerEvents = 'auto';
+      inner.addEventListener('pointerdown', (e) => e.stopPropagation());
+      inner.addEventListener('wheel', (e) => e.stopPropagation());
       // City under the names
       title.style.cssText = `${font}margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.1);font-size:11px;line-height:1;letter-spacing:.02em;color:rgba(255,255,255,.6);white-space:nowrap;`;
       inner.appendChild(title);
