@@ -2,9 +2,11 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
 /**
- * V2Services — everything the studio does, in three oversized groups.
- * Service titles and one-liners come from the existing `services`
- * namespace (already translated in all 20 locales).
+ * V2Services — every service, broken down, in columns.
+ * Three groups; each group is a labelled row with its services laid out
+ * three to a row. Each service shows its title, one-liner and bullets at
+ * reading size, no display type. Copy comes from the `services` namespace,
+ * already translated in all 20 locales.
  */
 const GROUPS = [
   { n: 1, services: [6, 7] },
@@ -12,8 +14,9 @@ const GROUPS = [
   { n: 3, services: [1, 2, 3, 4, 5] },
 ] as const;
 
-type ServiceKey = `service_${1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9}_title`;
-type ServiceSub = `service_${1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9}_subtitle`;
+type Idx = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+type Bullet = 1 | 2 | 3 | 4 | 5;
+const BULLETS: Bullet[] = [1, 2, 3, 4, 5];
 
 export async function V2Services() {
   const t = await getTranslations('home');
@@ -28,38 +31,41 @@ export async function V2Services() {
           </Link>
         </div>
         <p className="mb-16 max-w-xl text-base text-gray-400">{t('v2_services_sub')}</p>
-        <ul>
+
+        <div className="divide-y divide-white/10">
           {GROUPS.map((g) => (
-            <li key={g.n} className="border-b border-white/10 py-10 first:pt-0 sm:py-14">
-              <div className="grid gap-8 md:grid-cols-[4rem_1fr] md:items-start">
-                <span className="font-mono text-xs text-orange-500">0{g.n}</span>
-                <div>
-                  <Link
-                    href="/services"
-                    className="block text-[2.25rem] font-semibold leading-[0.95] tracking-[-0.04em] text-white transition-colors hover:text-orange-500 sm:text-[3.5rem] md:text-[4.5rem] lg:text-[5.5rem]"
-                  >
-                    {t(`v2_group_${g.n}`)}
-                  </Link>
-                  <p className="mt-4 max-w-md text-sm text-gray-400">{t(`v2_group_${g.n}_detail`)}</p>
-                  <ul className="mt-8 grid gap-x-10 gap-y-5 sm:grid-cols-2 lg:grid-cols-3">
-                    {g.services.map((s) => (
-                      <li key={s} className="border-l border-white/15 pl-4">
-                        <Link href="/services" className="group block">
-                          <span className="block text-base font-medium text-white group-hover:text-orange-400 sm:text-lg">
-                            {ts(`service_${s}_title` as ServiceKey)}
-                          </span>
-                          <span className="mt-1 block text-sm text-gray-500">
-                            {ts(`service_${s}_subtitle` as ServiceSub)}
-                          </span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+            <div key={g.n} className="grid gap-8 py-12 first:pt-0 last:pb-0 lg:grid-cols-[16rem_1fr] lg:gap-16">
+              <div>
+                <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-orange-500">0{g.n}</p>
+                <h3 className="mt-3 text-xl font-medium tracking-tight text-white sm:text-2xl">
+                  {t(`v2_group_${g.n}`)}
+                </h3>
+                <p className="mt-2 max-w-xs text-sm text-gray-500">{t(`v2_group_${g.n}_detail`)}</p>
               </div>
-            </li>
+
+              <ul className="grid gap-x-10 gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
+                {g.services.map((s) => (
+                  <li key={s}>
+                    <Link href="/services" className="group block">
+                      <h4 className="text-base font-medium text-white transition-colors group-hover:text-orange-400">
+                        {ts(`service_${s as Idx}_title`)}
+                      </h4>
+                      <p className="mt-1 text-sm text-gray-500">{ts(`service_${s as Idx}_subtitle`)}</p>
+                      <ul className="mt-4 space-y-1.5">
+                        {BULLETS.map((b) => (
+                          <li key={b} className="flex gap-3 text-sm leading-relaxed text-gray-400">
+                            <span aria-hidden="true" className="mt-[0.7em] h-px w-3 shrink-0 bg-orange-500/70" />
+                            {ts(`service_${s as Idx}_bullet_${b}`)}
+                          </li>
+                        ))}
+                      </ul>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
   );
