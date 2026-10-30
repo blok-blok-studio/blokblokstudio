@@ -210,8 +210,8 @@
     "v2_hero_cta": "Projekt starten",
     "v2_quiz_link": "Quiz starten",
     "v2_globe_label": "Wo unsere Kunden sind",
-    "v2_globe_title": "Ein Team in Berlin, Virginia, Los Angeles und Pakistan. Kunden auf der ganzen Welt.",
-    "v2_globe_sub": "Ziehen zum Drehen, scrollen oder pinchen zum Zoomen, oder eine Stadt wählen.",
+    "v2_globe_title": "Gebaut in Berlin. Vertraut von Dallas bis Manila.",
+    "v2_globe_sub": "{clients} Marken in {cities} Städten auf {continents} Kontinenten, mit einem Team in vier Zeitzonen. Dein Projekt läuft weiter, während du schläfst.",
     "v2_globe_studio": "Studio",
     "v2_globe_clients": "Kunden",
     "v2_globe_team": "Team",
@@ -225,7 +225,8 @@
     "v2_hosting_bullet_2": "SSL, Backups und Uptime-Monitoring",
     "v2_hosting_bullet_3": "Sicherheits- und Abhängigkeits-Updates",
     "v2_hosting_bullet_4": "Speed-Tuning und Core Web Vitals Checks",
-    "v2_hosting_bullet_5": "Inhaltsänderungen und Support, wenn du sie brauchst"
+    "v2_hosting_bullet_5": "Inhaltsänderungen und Support, wenn du sie brauchst",
+    "v2_globe_hint": "Ziehen zum Drehen, scrollen oder pinchen zum Zoomen, oder eine Stadt wählen."
   },
   "projects": {
     "title": "Unsere Projekte",

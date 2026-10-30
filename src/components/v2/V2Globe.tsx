@@ -18,6 +18,13 @@ import { clientCities, type ClientCity, type ClientLink, type TeamMember } from 
 
 const Globe = dynamic(() => import('react-globe.gl'), { ssr: false });
 
+const CONTINENT: Record<string, string> = {
+  Germany: 'Europe',
+  'United States': 'North America',
+  Pakistan: 'Asia',
+  Philippines: 'Asia',
+};
+
 type Feature = { type: string; properties: Record<string, unknown>; geometry: unknown };
 
 function hasWebGL(): boolean {
@@ -335,7 +342,14 @@ export function V2Globe() {
             <h2 className="max-w-xl text-3xl font-display font-bold leading-[1.05] tracking-[-0.02em] text-white sm:text-4xl lg:text-5xl">
               {t('v2_globe_title')}
             </h2>
-            <p className="mt-4 text-sm text-gray-500">{t('v2_globe_sub')}</p>
+            <p className="mt-5 max-w-lg text-base text-gray-300">
+              {t('v2_globe_sub', {
+                clients: clientCities.reduce((n, c) => n + c.clients.length, 0),
+                cities: clientCities.filter((c) => c.clients.length).length,
+                continents: new Set(clientCities.filter((c) => c.clients.length).map((c) => CONTINENT[c.country] ?? c.country)).size,
+              })}
+            </p>
+            <p className="mt-3 text-sm text-gray-500">{t('v2_globe_hint')}</p>
             <div className="mt-6 flex items-center gap-6 text-[11px] uppercase tracking-[0.18em] text-gray-400">
               <span className="flex items-center gap-2">
                 <span className="h-2.5 w-2.5 rounded-full" style={{ background: 'var(--bb-team)' }} />
