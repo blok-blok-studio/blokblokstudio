@@ -105,7 +105,7 @@ export function V2Globe() {
     [berlin],
   );
 
-  const zoomScale = Math.min(1, Math.max(0.08, alt / 2.1));
+  const zoomScale = Math.min(1, Math.max(0.06, Math.pow(alt / 2.1, 1.6)));
   const colorOf = useCallback((d: object) => ((d as ClientCity).studio ? colors.team : colors.client), [colors]);
 
   const visibleLabels = useMemo(
@@ -173,7 +173,7 @@ export function V2Globe() {
         // the default framing. Globe radius is 100 in globe.gl units.
         controls.enableZoom = true;
         controls.zoomSpeed = 0.6;
-        controls.minDistance = 125;
+        controls.minDistance = 150;
         controls.maxDistance = 340;
         controls.enablePan = false;
         g.pointOfView({ lat: 32, lng: -30, altitude: 2.1 }, 0);
