@@ -617,11 +617,11 @@
     "q_services": "Wobei brauchen Sie Unterstützung?",
     "q_services_sub": "Mehrfachauswahl möglich.",
     "q_budget_project": "Welches Budget haben Sie für dieses Projekt?",
-    "q_budget_project_sub": "Eine ungefähre Vorstellung genügt. Sie sagt uns nur, was wir vorschlagen sollten.",
+    "q_budget_project_sub": "Ein grober Rahmen reicht. Er bestimmt nur, was wir vorschlagen. Euro-Beträge sind umgerechnete Richtwerte, Angebote stellen wir in USD.",
     "q_budget_ads": "Was könnten Sie monatlich für Werbung ausgeben?",
-    "q_budget_ads_sub": "Nur das Werbebudget. Unsere Betreuung kostet 15% davon, plus eine einmalige Einrichtung. Ein Richtwert genügt.",
+    "q_budget_ads_sub": "Nur das Werbebudget. Unsere Betreuung kostet 15 % davon plus eine einmalige Einrichtung. Euro-Beträge sind umgerechnete Richtwerte.",
     "q_budget_monthly": "Wie hoch ist Ihr monatliches Budget?",
-    "q_budget_monthly_sub": "Ungefähr das, was Sie monatlich investieren würden. Ein Richtwert genügt.",
+    "q_budget_monthly_sub": "Ungefähr das, was du monatlich einsetzen würdest. Euro-Beträge sind umgerechnete Richtwerte, Angebote stellen wir in USD.",
     "q_timeline": "Wie schnell möchten Sie starten?",
     "q_contact": "Letzter Schritt. Wie erreichen wir Sie?",
     "q_contact_sub": "Danach wählen Sie einen Termin. Wir antworten innerhalb einer Stunde zu Geschäftszeiten.",
@@ -693,78 +693,78 @@
     },
     "budget_build": {
       "0": {
-        "label": "Unter 5.000 €",
-        "hint": "Unterhalb unseres Einstiegs"
+        "label": "Unter {amount}",
+        "hint": "Unterhalb unseres Einstiegspreises"
       },
       "1": {
-        "label": "Rund 5.000 €",
-        "hint": "Onepager"
+        "label": "Rund {amount}",
+        "hint": "Website mit fünf Seiten"
       },
       "2": {
-        "label": "Rund 10.000 €",
-        "hint": "Vier bis fünf Seiten"
+        "label": "Rund {amount}",
+        "hint": "Zehn Seiten"
       },
       "3": {
-        "label": "Rund 15.000 €",
-        "hint": "Etwa fünfzehn Seiten"
+        "label": "Rund {amount}",
+        "hint": "Fünfzehn Seiten oder mehr"
       },
       "4": {
-        "label": "20.000 €+",
-        "hint": "E-Commerce oder größer"
+        "label": "{amount}+",
+        "hint": "E-Commerce oder etwas Größeres"
       }
     },
     "budget_social": {
       "0": {
-        "label": "Rund 500 € / Monat",
+        "label": "Rund {amount} / Monat",
         "hint": "Ein Kanal, betreut"
       },
       "1": {
-        "label": "1.000 – 2.000 € / Monat",
+        "label": "{from} – {to} / Monat",
         "hint": "Ein Kanal mit regelmäßigem Video, oder zwei Kanäle"
       },
       "2": {
-        "label": "2.000 – 4.000 € / Monat",
-        "hint": "Zwei bis drei Kanäle mit Video"
+        "label": "{from} – {to} / Monat",
+        "hint": "Zwei oder drei Kanäle mit Video"
       },
       "3": {
-        "label": "4.000 €+ / Monat",
-        "hint": "Mehrere Kanäle, videolastig"
+        "label": "{amount}+ / Monat",
+        "hint": "Mehrere Kanäle, viel Video"
       }
     },
     "budget_ads": {
       "0": {
-        "label": "Unter 1.000 € / Monat Werbebudget",
-        "hint": "Erste Tests"
+        "label": "Unter {amount} / Monat Werbebudget",
+        "hint": "Erst mal testen"
       },
       "1": {
-        "label": "1.000 – 3.000 € / Monat Werbebudget",
-        "hint": "Eine Plattform, sauber betrieben"
+        "label": "{from} – {to} / Monat Werbebudget",
+        "hint": "Eine Plattform, sauber aufgesetzt"
       },
       "2": {
-        "label": "3.000 – 10.000 € / Monat Werbebudget",
+        "label": "{from} – {to} / Monat Werbebudget",
         "hint": "Beide Plattformen, oder eine skalieren"
       },
       "3": {
-        "label": "10.000 €+ / Monat Werbebudget",
-        "hint": "Hohes Volumen"
+        "label": "{amount}+ / Monat Werbebudget",
+        "hint": "Ernsthaftes Volumen"
       }
     },
     "budget_monthly": {
       "0": {
-        "label": "Unter 1.000 € / Monat",
-        "hint": "Erste Schritte"
+        "label": "Unter {amount} / Monat",
+        "hint": "Zum Einstieg"
       },
       "1": {
-        "label": "1.000 – 3.000 € / Monat",
-        "hint": "Ein Kanal oder eine Plattform, sauber betrieben"
+        "label": "{from} – {to} / Monat",
+        "hint": "Ein Kanal oder eine Plattform, sauber aufgesetzt"
       },
       "2": {
-        "label": "3.000 – 6.000 € / Monat",
+        "label": "{from} – {to} / Monat",
         "hint": "Mehrere parallel"
       },
       "3": {
-        "label": "6.000 €+ / Monat",
-        "hint": "Starke Skalierung"
+        "label": "{amount}+ / Monat",
+        "hint": "Voll auf Wachstum"
       }
     }
   },

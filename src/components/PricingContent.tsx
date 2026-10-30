@@ -42,8 +42,8 @@ const pkgData: Record<string, Package[]> = {
     },
     {
       name: 'Starter Launch',
-      price: 4500,
-      disp: '$4,500',
+      price: 6500,
+      disp: '$6,500',
       tag: 'Best for new businesses',
       tl: '4 to 6 weeks',
       scope: [
@@ -62,8 +62,8 @@ const pkgData: Record<string, Package[]> = {
     },
     {
       name: 'Growth Accelerator',
-      price: 9500,
-      disp: '$9,500',
+      price: 12000,
+      disp: '$12,000',
       tag: 'Most Popular',
       pop: true,
       tl: '6 to 8 weeks',

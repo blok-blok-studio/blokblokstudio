@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { Turnstile } from './Turnstile';
+import { formatMoney } from '@/data/pricing';
 import { BUSINESS_TYPES } from '@/data/business-types';
 import { COUNTRIES, flagFor, DEFAULT_COUNTRY, toDialable } from '@/data/country-codes';
 import { marketingConsentText } from '@/data/consent-text';
@@ -59,45 +60,41 @@ const slugOf = (v: string) => v.toLowerCase().replace(/[^a-z0-9]+/g, '_').replac
 
 const MARKETING_SERVICES = [...AD_SERVICES, ...SOCIAL_SERVICES];
 
-// The real tiers, so the answer doubles as a price check and nobody books a
-// call expecting a number that was never on offer. "Under €5k" is kept as an
-// option deliberately: it is below where builds start, and it is better to
-// know that from the form than forty minutes into a call.
-const BUDGETS_BUILD = [
-  { value: 'Under €5k', hint: 'Below where our builds start' },
-  { value: 'Around €5k', hint: 'One-page site' },
-  { value: 'Around €10k', hint: 'Four to five pages' },
-  { value: 'Around €15k', hint: 'Around fifteen pages' },
-  { value: '€20k+', hint: 'E-commerce, or something larger' },
+// The real tiers in USD (src/data/pricing.ts), so the answer doubles as a
+// price check and nobody books a call expecting a number that was never on
+// offer. `value` is the English USD string that lands in the tracker; the
+// label shown is built per locale with converted amounts.
+type BudgetOption = { value: string; usd: number; to?: number };
+const BUDGETS_BUILD: BudgetOption[] = [
+  { value: 'Under $6,500', usd: 6500 },
+  { value: 'Around $6,500', usd: 6500 },
+  { value: 'Around $12,000', usd: 12000 },
+  { value: 'Around $18,000', usd: 18000 },
+  { value: '$25,000+', usd: 25000 },
 ];
 
 // All monthly, and stated as monthly in the value itself so a tracker entry
-// is never mistaken for a project figure.
-//
-// Three sets, because the number being asked for is a different number.
-// Social is a service fee: €500 per channel per month to manage, plus €200
-// per video, times the channel count. Paid ads is spend, on which the fee is
-// 15% plus a one-off setup — so the useful question there is the spend, not
-// the fee. Mixed gets the wider bands.
-const BUDGETS_SOCIAL = [
-  { value: 'Around €500 / month', hint: 'One channel, managed' },
-  { value: '€1,000 – €2,000 / month', hint: 'One channel with regular video, or two channels' },
-  { value: '€2,000 – €4,000 / month', hint: 'Two or three channels with video' },
-  { value: '€4,000+ / month', hint: 'Several channels, video-heavy' },
+// is never mistaken for a project figure. Social is a service fee, paid ads
+// is spend (our fee is 15% of it plus setup), mixed gets the wider bands.
+const BUDGETS_SOCIAL: BudgetOption[] = [
+  { value: 'Around $500 / month', usd: 500 },
+  { value: '$1,000 – $2,000 / month', usd: 1000, to: 2000 },
+  { value: '$2,000 – $4,000 / month', usd: 2000, to: 4000 },
+  { value: '$4,000+ / month', usd: 4000 },
 ];
 
-const BUDGETS_ADS = [
-  { value: 'Under €1,000 / month ad spend', hint: 'Testing the water' },
-  { value: '€1,000 – €3,000 / month ad spend', hint: 'One platform, run properly' },
-  { value: '€3,000 – €10,000 / month ad spend', hint: 'Both platforms, or scaling one' },
-  { value: '€10,000+ / month ad spend', hint: 'Serious volume' },
+const BUDGETS_ADS: BudgetOption[] = [
+  { value: 'Under $1,000 / month ad spend', usd: 1000 },
+  { value: '$1,000 – $3,000 / month ad spend', usd: 1000, to: 3000 },
+  { value: '$3,000 – $10,000 / month ad spend', usd: 3000, to: 10000 },
+  { value: '$10,000+ / month ad spend', usd: 10000 },
 ];
 
-const BUDGETS_MONTHLY = [
-  { value: 'Under €1,000 / month', hint: 'Getting started' },
-  { value: '€1,000 – €3,000 / month', hint: 'One channel or platform, run properly' },
-  { value: '€3,000 – €6,000 / month', hint: 'Several running together' },
-  { value: '€6,000+ / month', hint: 'Scaling hard' },
+const BUDGETS_MONTHLY: BudgetOption[] = [
+  { value: 'Under $1,000 / month', usd: 1000 },
+  { value: '$1,000 – $3,000 / month', usd: 1000, to: 3000 },
+  { value: '$3,000 – $6,000 / month', usd: 3000, to: 6000 },
+  { value: '$6,000+ / month', usd: 6000 },
 ];
 
 const TIMELINES = [
@@ -365,7 +362,11 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
           {budgets.map((o, i) => (
             <ChoiceCard
               key={o.value}
-              label={t(`${budgetKey}.${i}.label`)}
+              label={t(`${budgetKey}.${i}.label`, {
+                amount: formatMoney(o.usd, locale),
+                from: formatMoney(o.usd, locale),
+                to: formatMoney(o.to ?? o.usd, locale),
+              })}
               hint={t(`${budgetKey}.${i}.hint`)}
               selected={budget === o.value}
               onSelect={() => {
