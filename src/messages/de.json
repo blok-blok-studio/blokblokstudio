@@ -191,7 +191,7 @@
     "v2_open_menu": "Menü öffnen",
     "v2_close_menu": "Menü schließen",
     "v2_rights": "Alle Rechte vorbehalten.",
-    "v2_services_sub": "Alles, was wir für Kunden bauen und betreiben, in drei Gruppen. Ein Studio, ein Ansprechpartner.",
+    "v2_services_sub": "Zwei Dinge, richtig gemacht. Wir bauen die Seite und halten sie am Laufen.",
     "v2_group_1": "Websites und Marke",
     "v2_group_1_detail": "Design und Umsetzung, dazu die passende Identität.",
     "v2_group_2": "Bezahltes Wachstum",
@@ -218,7 +218,14 @@
     "v2_headline": "Marken bauen, blok für blok.",
     "v2_see_work": "Unsere Arbeiten",
     "v2_globe_client_one": "Kunde",
-    "v2_globe_cities": "Städte"
+    "v2_globe_cities": "Städte",
+    "v2_hosting_title": "Hosting und Betreuung",
+    "v2_hosting_subtitle": "Schnell, überwacht, aktuell gehalten",
+    "v2_hosting_bullet_1": "Managed Hosting auf Vercel mit globalem CDN",
+    "v2_hosting_bullet_2": "SSL, Backups und Uptime-Monitoring",
+    "v2_hosting_bullet_3": "Sicherheits- und Abhängigkeits-Updates",
+    "v2_hosting_bullet_4": "Speed-Tuning und Core Web Vitals Checks",
+    "v2_hosting_bullet_5": "Inhaltsänderungen und Support, wenn du sie brauchst"
   },
   "projects": {
     "title": "Unsere Projekte",

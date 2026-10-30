@@ -125,7 +125,7 @@ function ServiceCard({ index, t }: { index: number; t: (key: string) => string }
 
 // Live-site visibility filter, keeps the full services/sections code below
 // intact, but only renders the listed indices. Set to null to show all 9.
-const LIVE_VISIBLE_SERVICE_INDICES = null as number[] | null; // redesign/v2: show all nine services
+const LIVE_VISIBLE_SERVICE_INDICES = [5] as number[] | null; // 5 = Websites (Chase: websites + hosting only for now)
 const SHOW_AI_SECTION = LIVE_VISIBLE_SERVICE_INDICES === null ||
   LIVE_VISIBLE_SERVICE_INDICES.some((i) => i <= 4);
 const SHOW_CREATIVE_SECTION = LIVE_VISIBLE_SERVICE_INDICES === null ||

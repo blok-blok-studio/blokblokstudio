@@ -191,7 +191,7 @@
     "v2_open_menu": "Open menu",
     "v2_close_menu": "Close menu",
     "v2_rights": "All rights reserved.",
-    "v2_services_sub": "Everything we build and run for clients, in three groups. One studio, one point of contact.",
+    "v2_services_sub": "Two things, done properly. We build the site, then we keep it running.",
     "v2_group_1": "Websites and brand",
     "v2_group_1_detail": "Design and build, then the identity that goes with it.",
     "v2_group_2": "Paid growth",
@@ -218,7 +218,14 @@
     "v2_headline": "Building brands, blok by blok.",
     "v2_see_work": "See our work",
     "v2_globe_client_one": "Client",
-    "v2_globe_cities": "cities"
+    "v2_globe_cities": "cities",
+    "v2_hosting_title": "Hosting and care",
+    "v2_hosting_subtitle": "Fast, monitored, kept up to date",
+    "v2_hosting_bullet_1": "Managed hosting on Vercel with a global CDN",
+    "v2_hosting_bullet_2": "SSL, backups and uptime monitoring",
+    "v2_hosting_bullet_3": "Security and dependency updates",
+    "v2_hosting_bullet_4": "Speed tuning and Core Web Vitals checks",
+    "v2_hosting_bullet_5": "Content changes and support when you need them"
   },
   "projects": {
     "title": "Our Projects",
