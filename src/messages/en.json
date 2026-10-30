@@ -191,7 +191,7 @@
     "v2_open_menu": "Open menu",
     "v2_close_menu": "Close menu",
     "v2_rights": "All rights reserved.",
-    "v2_services_sub": "Two things, done properly. We build the site, then we keep it running.",
+    "v2_services_sub": "One package, done properly. We design and build the site, then host it and keep it running.",
     "v2_group_1": "Websites and brand",
     "v2_group_1_detail": "Design and build, then the identity that goes with it.",
     "v2_group_2": "Paid growth",
@@ -239,7 +239,11 @@
     "v2_quote_1_text": "$50,000 in gross revenue in the first five months, a 5.0-star rating across 52 Google reviews, and an average Google position of 5.2 for his search terms.",
     "v2_quote_2_text": "Blok Blok Studio transformed my online presence completely. The bold design perfectly captures my coaching philosophy and the results have been incredible.",
     "v2_quote_3_text": "The e-commerce store they built for us is incredible. Our booster pack drops sell out in hours and the community engagement through the site has been amazing.",
-    "v2_quote_1_kind": "Results"
+    "v2_quote_1_kind": "Results",
+    "v2_offer_title": "Websites, built and hosted",
+    "v2_offer_subtitle": "Custom build, conversion focused, with hosting and care included",
+    "v2_offer_build_label": "The build",
+    "v2_offer_care_label": "Hosting and care, included"
   },
   "projects": {
     "title": "Our Projects",
@@ -392,7 +396,7 @@
     "step_5_title": "Launch & Optimize",
     "step_5_desc": "We deploy, monitor, and continuously refine to maximize performance.",
     "v2_label": "Services",
-    "v2_intro": "Two things, done properly. We build the site, then we keep it running.",
+    "v2_intro": "One package, done properly. We design and build the site, then host it and keep it running.",
     "v2_process_label": "How a project runs",
     "v2_cta_label": "Not sure which you need?",
     "v2_cta": "Take the 1-minute quiz"

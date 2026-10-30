@@ -8,10 +8,12 @@ const BULLETS: Bullet[] = [1, 2, 3, 4, 5];
 export async function V2ServicesContent() {
   const ts = await getTranslations('services');
   const th = await getTranslations('home');
-  const offers = [
-    { n: '01', title: ts('service_6_title'), subtitle: ts('service_6_subtitle'), bullets: BULLETS.map((b) => ts(`service_6_bullet_${b}`)) },
-    { n: '02', title: th('v2_hosting_title'), subtitle: th('v2_hosting_subtitle'), bullets: BULLETS.map((b) => th(`v2_hosting_bullet_${b}`)) },
-  ];
+  const title = th('v2_offer_title');
+  const subtitle = th('v2_offer_subtitle');
+  const buildLabel = th('v2_offer_build_label');
+  const careLabel = th('v2_offer_care_label');
+  const build = BULLETS.map((b) => ts(`service_6_bullet_${b}`));
+  const care = BULLETS.map((b) => th(`v2_hosting_bullet_${b}`));
   const steps = BULLETS.map((n) => ({ n, title: ts(`step_${n}_title`), desc: ts(`step_${n}_desc`) }));
   const label = 'text-[11px] uppercase tracking-[0.2em] text-gray-500';
   return (
@@ -19,22 +21,35 @@ export async function V2ServicesContent() {
       <V2PageHero label={ts('v2_label')} title={ts('title')} intro={ts('v2_intro')} />
 
       <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
-        <div className="mx-auto grid max-w-[1600px] gap-6 md:grid-cols-2">
-          {offers.map((o) => (
-            <div key={o.n} className="rounded-3xl border border-white/10 p-8 sm:p-10">
-              <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{o.n}</p>
-              <h2 className="mt-4 font-display text-3xl font-semibold tracking-tight text-white sm:text-4xl">{o.title}</h2>
-              <p className="mt-2 text-base text-gray-400">{o.subtitle}</p>
-              <ul className="mt-8 space-y-2.5">
-                {o.bullets.map((b) => (
-                  <li key={b} className="flex gap-3 text-sm leading-relaxed text-gray-300">
-                    <span aria-hidden="true" className="mt-[0.6em] h-1.5 w-1.5 shrink-0 rounded-full bg-orange-500" />
-                    {b}
-                  </li>
-                ))}
-              </ul>
+        <div className="mx-auto max-w-[1600px]">
+        <div className="rounded-3xl border border-white/10 p-8 sm:p-10 lg:p-14">
+            <h2 className="font-display text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">{title}</h2>
+            <p className="mt-3 max-w-2xl text-base text-gray-400">{subtitle}</p>
+            <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-16">
+              <div>
+                <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{buildLabel}</p>
+                <ul className="mt-5 space-y-2.5">
+                  {build.map((b) => (
+                    <li key={b} className="flex gap-3 text-sm leading-relaxed text-gray-300">
+                      <span aria-hidden="true" className="mt-[0.6em] h-1.5 w-1.5 shrink-0 rounded-full bg-orange-500" />
+                      {b}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{careLabel}</p>
+                <ul className="mt-5 space-y-2.5">
+                  {care.map((b) => (
+                    <li key={b} className="flex gap-3 text-sm leading-relaxed text-gray-300">
+                      <span aria-hidden="true" className="mt-[0.6em] h-1.5 w-1.5 shrink-0 rounded-full bg-orange-500" />
+                      {b}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
