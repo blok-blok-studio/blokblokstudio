@@ -306,8 +306,8 @@ export function V2Globe() {
                   pointLat="lat"
                   pointLng="lng"
                   pointColor={colorOf}
-                  pointAltitude={0.012}
-                  pointRadius={(d: object) => ((d as ClientCity).studio ? 0.8 : 0.6)}
+                  pointAltitude={0.02}
+                  pointRadius={(d: object) => ((d as ClientCity).studio ? 1.3 : 1.1)}
                   pointLabel={tooltip}
                   onPointClick={(d: object) => {
                     const c = d as ClientCity;
@@ -317,7 +317,7 @@ export function V2Globe() {
                   ringLat="lat"
                   ringLng="lng"
                   ringColor={(d: object) => (tt: number) => withAlpha(colorOf(d), Math.max(0, 1 - tt))}
-                  ringMaxRadius={(d: object) => ((d as ClientCity).studio ? 4 : 3)}
+                  ringMaxRadius={(d: object) => ((d as ClientCity).studio ? 5 : 4)}
                   ringPropagationSpeed={1.4}
                   ringRepeatPeriod={1400}
                   arcsData={arcs}
