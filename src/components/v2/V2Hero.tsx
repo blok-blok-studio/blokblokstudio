@@ -43,7 +43,7 @@ export async function V2Hero() {
   return (
     <section className="relative w-full overflow-hidden bg-black">
       {/* Mosaic */}
-      <div aria-hidden="true" className="grid grid-cols-3 md:grid-cols-6">
+      <div aria-hidden="true" className="grid grid-cols-3 opacity-80 md:grid-cols-6">
         {TILES.map((tile, i) => {
           const delay = { animationDelay: `${(i % 6) * 0.06 + Math.floor(i / 6) * 0.1}s` };
           if (tile.kind === 'image') {
@@ -64,8 +64,11 @@ export async function V2Hero() {
         })}
       </div>
 
-      {/* Scrim + wordmark */}
-      <div className="pointer-events-none absolute inset-0 bg-black/55" />
+      {/* Scrim: flat darkening, a band behind the nav, and a pool behind the wordmark */}
+      <div className="pointer-events-none absolute inset-0 bg-black/60" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/90 via-black/50 to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_55%_60%_at_50%_50%,rgba(0,0,0,0.85)_0%,rgba(0,0,0,0.45)_45%,transparent_75%)]" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/90 to-transparent" />
       <div className="absolute inset-0 flex flex-col items-center justify-center px-6 pb-6 text-center">
         <Image
           src="/wordmark-stacked.svg"
@@ -76,7 +79,7 @@ export async function V2Hero() {
           className="hero-enter w-[58vw] max-w-[480px] drop-shadow-[0_8px_40px_rgba(0,0,0,0.6)] md:w-[30vw]"
         />
         <h1
-          className="hero-enter mt-8 font-mono text-[11px] uppercase tracking-[0.3em] text-gray-200 sm:text-xs"
+          className="hero-enter mt-8 font-mono text-[11px] uppercase tracking-[0.3em] text-white sm:text-xs"
           style={{ animationDelay: '0.3s' }}
         >
           {t('v2_tagline')}
@@ -91,7 +94,7 @@ export async function V2Hero() {
         </Link>
       </div>
 
-      <div className="absolute inset-x-0 bottom-5 flex items-end justify-between px-5 font-mono text-[11px] uppercase tracking-[0.2em] text-gray-300 sm:px-8 lg:px-12">
+      <div className="absolute inset-x-0 bottom-5 flex items-end justify-between px-5 font-mono text-[11px] uppercase tracking-[0.2em] text-white sm:px-8 lg:px-12">
         <span className="flex items-center gap-3">
           <span className="block h-8 w-px overflow-hidden bg-white/30">
             <span className="scroll-bob block h-full w-full bg-orange-500" />

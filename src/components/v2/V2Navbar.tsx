@@ -57,19 +57,19 @@ export function V2Navbar() {
       >
         <nav
           aria-label="Primary"
-          className="mx-auto flex h-16 max-w-[1600px] items-center justify-between px-5 sm:px-8 lg:px-12"
+          className="relative mx-auto flex h-16 max-w-[1600px] items-center justify-between px-5 sm:px-8 lg:px-12"
         >
           <Link href="/" aria-label="Blok Blok Studio" className="flex items-center">
             <Image src="/logo.svg" alt="" width={28} height={28} priority />
           </Link>
 
-          <ul className="hidden items-center gap-8 md:flex">
+          <ul className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-8 md:flex">
             {links.map((l) => (
               <li key={l.href}>
                 <Link
                   href={l.href}
-                  className={`font-mono text-[12px] uppercase tracking-[0.18em] transition-colors hover:text-white ${
-                    isActive(l.href) ? 'text-white' : 'text-gray-400'
+                  className={`font-mono text-[12px] uppercase tracking-[0.18em] transition-colors hover:text-white [text-shadow:0_1px_12px_rgba(0,0,0,0.9)] ${
+                    isActive(l.href) ? 'text-white' : 'text-gray-200'
                   }`}
                 >
                   {l.label}
