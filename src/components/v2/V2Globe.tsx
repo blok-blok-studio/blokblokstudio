@@ -171,13 +171,23 @@ export function V2Globe() {
     inner.appendChild(title);
     if (c.expanded) {
       // Zoomed in: the label becomes a card listing who is here.
-      const who = [...(c.team ?? []), ...c.clients];
-      if (who.length) {
-        const list = document.createElement('div');
-        list.style.cssText = `${font}margin-top:6px;font-size:11px;line-height:1.5;color:rgba(255,255,255,.75);white-space:nowrap;`;
-        list.innerHTML = who.map((w) => `<div>${w}</div>`).join('');
-        inner.appendChild(list);
-      }
+      const group = (label: string, names: string[], color: string) => {
+        if (!names.length) return;
+        const wrap = document.createElement('div');
+        wrap.style.cssText = `${font}margin-top:6px;font-size:11px;line-height:1.5;color:rgba(255,255,255,.78);white-space:nowrap;`;
+        const head = document.createElement('div');
+        head.textContent = label;
+        head.style.cssText = `font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color};margin-bottom:1px;`;
+        wrap.appendChild(head);
+        names.forEach((n) => {
+          const row = document.createElement('div');
+          row.textContent = n;
+          wrap.appendChild(row);
+        });
+        inner.appendChild(wrap);
+      };
+      group('Team', c.team ?? [], 'var(--bb-team)');
+      group('Clients', c.clients, 'var(--bb-client)');
       inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};padding:8px 10px;border-radius:8px;background:rgba(0,0,0,.82);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(4px);transition:opacity .3s;`;
     } else {
       inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};text-shadow:0 1px 6px rgba(0,0,0,.9);transition:opacity .3s;`;
@@ -300,8 +310,11 @@ export function V2Globe() {
 
   const tooltip = (d: object) => {
     const c = d as ClientCity;
-    const who = [...(c.team ?? []), ...c.clients].join(' · ');
-    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${who ? `<div style="margin-top:4px;color:#9ca3af;letter-spacing:0;text-transform:none;font-family:inherit">${who}</div>` : ''}</div>`;
+    const line = (label: string, names: string[], color: string) =>
+      names.length
+        ? `<div style="margin-top:4px;letter-spacing:0;text-transform:none"><span style="font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color}">${label}</span><br/><span style="color:#d1d5db">${names.join(' · ')}</span></div>`
+        : '';
+    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${line('Team', c.team ?? [], 'var(--bb-team)')}${line('Clients', c.clients, 'var(--bb-client)')}</div>`;
   };
 
   return (
@@ -355,15 +368,25 @@ export function V2Globe() {
                             {c.country}
                           </span>
                         </span>
-                        <span className="mt-0.5 block text-sm text-gray-500">
-                          {[...(c.team ?? []), ...c.clients].join(' · ') || t('v2_globe_studio')}
-                        </span>
+                        {c.team && c.team.length > 0 && (
+                          <span className="mt-1 flex items-baseline gap-2 text-sm text-gray-400">
+                            <span className="h-1.5 w-1.5 shrink-0 translate-y-[-1px] rounded-full" style={{ background: 'var(--bb-team)' }} />
+                            {c.team.join(' · ')}
+                          </span>
+                        )}
+                        {c.clients.length > 0 && (
+                          <span className="mt-1 flex items-baseline gap-2 text-sm text-gray-400">
+                            <span className="h-1.5 w-1.5 shrink-0 translate-y-[-1px] rounded-full" style={{ background: 'var(--bb-client)' }} />
+                            {c.clients.join(' · ')}
+                          </span>
+                        )}
+                        {!c.team?.length && !c.clients.length && (
+                          <span className="mt-1 block text-sm text-gray-500">{t('v2_globe_studio')}</span>
+                        )}
                       </span>
-                      <span
-                        className="text-[11px] uppercase tracking-[0.18em]"
-                        style={{ color: c.studio ? 'var(--bb-team)' : 'var(--bb-client)' }}
-                      >
-                        {c.studio ? t('v2_globe_team') : t('v2_globe_clients')}
+                      <span className="flex flex-col items-end gap-1 text-[11px] uppercase tracking-[0.18em]">
+                        {c.studio && <span style={{ color: 'var(--bb-team)' }}>{t('v2_globe_team')}</span>}
+                        {c.clients.length > 0 && <span style={{ color: 'var(--bb-client)' }}>{t('v2_globe_clients')}</span>}
                       </span>
                     </button>
                   </li>
