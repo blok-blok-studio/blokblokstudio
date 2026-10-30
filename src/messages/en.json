@@ -951,7 +951,7 @@
     "proj_live_click": "Click and scroll the live site below",
     "proj_live_scroll": "Scroll through the live site below",
     "proj_live_hint_embed": "Click links and navigate just like you're on the real site, or open it in a new tab.",
-    "proj_live_hint_scroll": "Scroll to explore, or open the site in a new tab."
+    "proj_live_hint_scroll": "This is a full-page snapshot. Scroll inside the window, or open the live site in a new tab."
   },
   "onboard": {
     "title": "Client Onboarding",
