@@ -369,22 +369,16 @@ export function ContactContent() {
                   under the page H1 (don't skip levels). */}
               <h2 className="text-lg font-semibold">{t('info_title')}</h2>
 
-              {/* Where we are: real studio locations from the globe data, no fake map. */}
+              {/* Where we are: studio cities only. Everything funnels through Blok Blok Studio. */}
               <div>
                 <p className="text-[11px] uppercase tracking-[0.2em] text-gray-500">{tu('contact_location')}</p>
-                <ul className="mt-4 divide-y divide-white/10">
-                  {clientCities.filter((c) => c.studio).map((c) => (
-                    <li key={c.city} className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 py-3 text-sm">
-                      <span className="text-white">
-                        {c.city}
-                        {c.region ? <span className="text-gray-400">, {c.region}</span> : null}
-                        {c.tag && (
-                          <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
-                            {c.tag}
-                          </span>
-                        )}
-                      </span>
-                      <span className="text-gray-500">{c.team?.map((m) => m.name).join(' · ')}</span>
+                <p className="mt-3 text-base text-white">Blok Blok Studio</p>
+                <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm text-gray-400">
+                  {clientCities.filter((c) => c.studio).map((c, i, arr) => (
+                    <li key={c.city}>
+                      {c.city}
+                      {c.tag ? ` (${c.tag})` : ''}
+                      {i < arr.length - 1 ? ' ·' : ''}
                     </li>
                   ))}
                 </ul>
