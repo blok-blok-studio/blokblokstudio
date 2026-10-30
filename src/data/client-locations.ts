@@ -48,7 +48,7 @@ export const clientCities: ClientCity[] = [
   { city: 'Fort Worth', region: 'Texas', country: 'United States', lat: 32.75, lng: -97.33, clients: [{ name: 'Real Texas Properties', url: 'https://heidiehaynes.com' }], labelAnchor: 'left', labelMaxAlt: 1.6 },
   { city: 'New York', region: 'New York', country: 'United States', lat: 40.71, lng: -74.0, clients: [{ name: 'The New School', url: 'https://www.military.newschool.edu' }], labelAnchor: 'top' },
   { city: 'Washington, DC', country: 'United States', lat: 38.9, lng: -77.04, clients: [{ name: 'Mind and Body Retreats', url: 'https://www.mindandbodyretreatsco.com' }], labelAnchor: 'right' },
-  { city: 'Salt Lake City', region: 'Utah', country: 'United States', lat: 40.76, lng: -111.89, clients: [{ name: 'Grant Parkhurst Photography' } /* site down (503), no Wayback capture */] },
+  { city: 'Salt Lake City', region: 'Utah', country: 'United States', lat: 40.76, lng: -111.89, clients: [{ name: 'Grant Parkhurst Photography', url: '/projects/grant-parkhurst' } /* public domain moved off our hosting; our case study shows the build */] },
   { city: 'Minneapolis', region: 'Minnesota', country: 'United States', lat: 44.98, lng: -93.27, clients: [{ name: 'KDS Systems', url: 'https://kdssys.com' }], labelAnchor: 'top' },
   { city: 'Albuquerque', region: 'New Mexico', country: 'United States', lat: 35.08, lng: -106.65, clients: [{ name: 'Public Affair', url: 'https://public-affair.com' }], labelAnchor: 'bottom' },
   { city: 'Manila', country: 'Philippines', lat: 14.6, lng: 120.98, clients: [{ name: 'Philippine Airlines', url: 'https://www.philippineairlines.com' }] },

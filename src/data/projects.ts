@@ -174,6 +174,19 @@ export const projectsData: Record<string, ProjectData> = {
     embeddable: true,
     useProxy: true,
   },
+  'grant-parkhurst': {
+    title: 'Grant Parkhurst Photography',
+    category: 'Web Design',
+    year: '2026',
+    desc: 'Portfolio site and self-serve client photo portal for a Salt Lake City photographer.',
+    challenge: 'Grant Parkhurst shoots portraits, events and film in Salt Lake City. He needed one place that showed the work at its natural proportions, listed the towns he covers, took bookings, and let him hand finished galleries to clients without emailing download links around.',
+    solution: 'We built a photography-first site where no photograph is cropped, with service cards, album covers that stay level across a row, a coverage section and a booking flow. Behind it sits a client portal at /portal: Grant signs in, creates galleries, uploads to his own photo store and shares them, and clients view and download their sets.',
+    results: 'The site and the portal went live in August and September 2026, with Grant managing his own galleries from day one. The public domain has since moved off our hosting, so there is no live link here; the screenshots show the site as we shipped it.',
+    heroImage: '/images/projects/grantparkhurst.webp',
+    gallery: [],
+    nextSlug: 'coach-luki',
+    livePreview: false,
+  },
 };
 
 /**

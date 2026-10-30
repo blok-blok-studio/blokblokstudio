@@ -50,4 +50,10 @@ export const projectsDe: Record<string, ProjectCopy> = {
     solution: 'Wir haben eine klare, professionelle Seite innerhalb des Ökosystems der New School gestaltet, mit überzeugender Fotografie, klarer Informationsarchitektur und barrierefreien Inhalten, die Studierende mit Militärbezug in eine Gemeinschaft aus Forschenden, Künstlern und Designern einladen.',
     results: 'Das Center hat jetzt einen starken digitalen Auftritt, der seine Mission wirksam vermittelt. Mehr Interesse von Studieninteressierten mit Militärbezug und ein leichterer Zugang zu Unterstützungsprogrammen und Services.',
   },
+  'grant-parkhurst': {
+    desc: 'Portfolio-Website und Self-Service-Kundenportal für einen Fotografen aus Salt Lake City.',
+    challenge: 'Grant Parkhurst fotografiert Porträts, Events und auf Film in Salt Lake City. Er brauchte einen Ort, der die Arbeiten in ihren natürlichen Proportionen zeigt, die Orte nennt, die er abdeckt, Buchungen annimmt und ihm erlaubt, fertige Galerien an Kunden zu übergeben, ohne Download-Links per Mail zu verschicken.',
+    solution: 'Wir haben eine Website gebaut, auf der kein Foto beschnitten wird: Service-Karten, Album-Cover, die in der Reihe auf einer Linie bleiben, ein Bereich für die abgedeckten Orte und ein Buchungsablauf. Dahinter ein Kundenportal unter /portal: Grant meldet sich an, legt Galerien an, lädt in seinen eigenen Fotospeicher hoch und teilt sie; Kunden sehen und laden ihre Sets herunter.',
+    results: 'Website und Portal gingen im August und September 2026 live, Grant verwaltet seine Galerien seit dem ersten Tag selbst. Die öffentliche Domain läuft inzwischen nicht mehr über unser Hosting, daher gibt es hier keinen Live-Link; die Screenshots zeigen die Seite, wie wir sie ausgeliefert haben.',
+  },
 };

@@ -15,6 +15,7 @@ const IMAGES: Record<string, string> = {
   'kds-systems': '/images/projects/kdssys.webp',
   'public-affair': '/images/projects/public-affair.webp',
   'military-newschool': '/images/projects/military-newschool.webp',
+  'grant-parkhurst': '/images/projects/grantparkhurst.webp',
 };
 const RESULT_KEY: Record<string, string> = {
   'coach-luki': 'v2_result_coach_luki',
@@ -24,6 +25,7 @@ const RESULT_KEY: Record<string, string> = {
   'kds-systems': 'v2_result_kds_systems',
   'public-affair': 'v2_result_public_affair',
   'military-newschool': 'v2_result_military_newschool',
+  'grant-parkhurst': 'v2_result_grant_parkhurst',
 };
 const CAT_KEY: Record<string, 'cat_web' | 'cat_ecom' | 'cat_brand'> = { 'Web Design': 'cat_web', 'E-Commerce': 'cat_ecom', Branding: 'cat_brand' };
 const CATS = [
