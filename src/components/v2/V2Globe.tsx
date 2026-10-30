@@ -29,17 +29,30 @@ function hasWebGL(): boolean {
   }
 }
 
-function readAccent(): string {
-  const v = getComputedStyle(document.documentElement).getPropertyValue('--bb-primary').trim();
-  return v || '#2561d8';
+/** Resolve any CSS colour value (including color-mix) to an rgb() string. */
+function resolveColor(value: string, fallback: string): string {
+  if (!value) return fallback;
+  const el = document.createElement('span');
+  el.style.color = value;
+  el.style.display = 'none';
+  document.body.appendChild(el);
+  const out = getComputedStyle(el).color;
+  el.remove();
+  return out || fallback;
 }
 
-function withAlpha(hex: string, a: number): string {
-  const h = hex.replace('#', '');
-  const full = h.length === 3 ? h.split('').map((c) => c + c).join('') : h;
-  const n = parseInt(full, 16);
-  if (Number.isNaN(n)) return `rgba(37,97,216,${a})`;
-  return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`;
+function readPalette(): { team: string; client: string } {
+  const cs = getComputedStyle(document.documentElement);
+  return {
+    team: resolveColor(cs.getPropertyValue('--bb-primary').trim(), 'rgb(37, 97, 216)'),
+    client: resolveColor(cs.getPropertyValue('--bb-client').trim(), 'rgb(120, 125, 200)'),
+  };
+}
+
+function withAlpha(rgb: string, a: number): string {
+  const m = rgb.match(/(\d+)[,\s]+(\d+)[,\s]+(\d+)/);
+  if (!m) return `rgba(37,97,216,${a})`;
+  return `rgba(${m[1]},${m[2]},${m[3]},${a})`;
 }
 
 export function V2Globe() {
@@ -49,7 +62,7 @@ export function V2Globe() {
   const [size, setSize] = useState(0);
   const [webgl, setWebgl] = useState<boolean | null>(null);
   const [countries, setCountries] = useState<Feature[]>([]);
-  const [accent, setAccent] = useState('#2561d8');
+  const [colors, setColors] = useState({ team: 'rgb(37, 97, 216)', client: 'rgb(120, 125, 200)' });
   const [active, setActive] = useState<number | null>(null);
   const [ready, setReady] = useState(false);
   const [alt, setAlt] = useState(2.1);
@@ -57,8 +70,8 @@ export function V2Globe() {
   // Environment: WebGL, accent colour (and palette changes), container size.
   useEffect(() => {
     setWebgl(hasWebGL());
-    setAccent(readAccent());
-    const obs = new MutationObserver(() => setAccent(readAccent()));
+    setColors(readPalette());
+    const obs = new MutationObserver(() => setColors(readPalette()));
     obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-palette'] });
     const box = boxRef.current;
     const ro = new ResizeObserver(([e]) => setSize(Math.round(e.contentRect.width)));
@@ -90,6 +103,8 @@ export function V2Globe() {
         .map((c) => ({ startLat: berlin.lat, startLng: berlin.lng, endLat: c.lat, endLng: c.lng })),
     [berlin],
   );
+
+  const colorOf = useCallback((d: object) => ((d as ClientCity).studio ? colors.team : colors.client), [colors]);
 
   const visibleLabels = useMemo(
     () => clientCities.filter((c) => c.labelMaxAlt === undefined || alt < c.labelMaxAlt),
@@ -194,6 +209,16 @@ export function V2Globe() {
               {t('v2_globe_title')}
             </h2>
             <p className="mt-4 text-sm text-gray-500">{t('v2_globe_sub')}</p>
+            <div className="mt-6 flex items-center gap-6 text-[11px] uppercase tracking-[0.18em] text-gray-400">
+              <span className="flex items-center gap-2">
+                <span className="h-2.5 w-2.5 rounded-full bg-orange-500" />
+                {t('v2_globe_team')}
+              </span>
+              <span className="flex items-center gap-2">
+                <span className="h-2.5 w-2.5 rounded-full" style={{ background: 'var(--bb-client)' }} />
+                {t('v2_globe_clients')}
+              </span>
+            </div>
             <ul className="mt-10 divide-y divide-white/10 border-y border-white/10">
               {clientCities.map((c, i) => {
                 const on = active === i;
@@ -207,9 +232,8 @@ export function V2Globe() {
                     >
                       <span
                         aria-hidden="true"
-                        className={`mt-1 h-2 w-2 self-center rounded-full transition-transform ${
-                          on ? 'scale-125 bg-orange-500' : 'bg-orange-500/60 group-hover:bg-orange-500'
-                        }`}
+                        className={`mt-1 h-2 w-2 self-center rounded-full transition-transform ${on ? 'scale-125' : 'opacity-70 group-hover:opacity-100'}`}
+                        style={{ background: c.studio ? 'var(--bb-primary)' : 'var(--bb-client)' }}
                       />
                       <span>
                         <span className={`block text-base ${on ? 'text-white' : 'text-gray-200'}`}>
@@ -222,7 +246,10 @@ export function V2Globe() {
                           {[...(c.team ?? []), ...c.clients].join(' · ') || t('v2_globe_studio')}
                         </span>
                       </span>
-                      <span className="text-[11px] uppercase tracking-[0.18em] text-gray-600">
+                      <span
+                        className="text-[11px] uppercase tracking-[0.18em]"
+                        style={{ color: c.studio ? 'var(--bb-primary)' : 'var(--bb-client)' }}
+                      >
                         {c.studio ? t('v2_globe_team') : t('v2_globe_clients')}
                       </span>
                     </button>
@@ -267,7 +294,7 @@ export function V2Globe() {
                   waitForGlobeReady={false}
                   globeMaterial={material}
                   showAtmosphere
-                  atmosphereColor={accent}
+                  atmosphereColor={colors.team}
                   atmosphereAltitude={0.16}
                   hexPolygonsData={countries}
                   hexPolygonResolution={3}
@@ -278,7 +305,7 @@ export function V2Globe() {
                   pointsData={clientCities}
                   pointLat="lat"
                   pointLng="lng"
-                  pointColor={() => accent}
+                  pointColor={colorOf}
                   pointAltitude={0.012}
                   pointRadius={(d: object) => ((d as ClientCity).studio ? 0.8 : 0.6)}
                   pointLabel={tooltip}
@@ -289,12 +316,12 @@ export function V2Globe() {
                   ringsData={clientCities}
                   ringLat="lat"
                   ringLng="lng"
-                  ringColor={() => (tt: number) => withAlpha(accent, Math.max(0, 1 - tt))}
+                  ringColor={(d: object) => (tt: number) => withAlpha(colorOf(d), Math.max(0, 1 - tt))}
                   ringMaxRadius={(d: object) => ((d as ClientCity).studio ? 4 : 3)}
                   ringPropagationSpeed={1.4}
                   ringRepeatPeriod={1400}
                   arcsData={arcs}
-                  arcColor={() => [withAlpha(accent, 0.9), withAlpha(accent, 0.15)]}
+                  arcColor={() => [withAlpha(colors.team, 0.9), withAlpha(colors.client, 0.9)]}
                   arcAltitudeAutoScale={0.4}
                   arcStroke={0.45}
                   arcDashLength={0.45}

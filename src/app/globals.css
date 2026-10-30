@@ -77,6 +77,7 @@ html[data-palette="blue"] {
   --bb-tint-300: color-mix(in srgb, #2561d8 55%, white);
   --bb-dark-950: color-mix(in srgb, #020887 55%, black);
   --bb-gray-300: #dddddd;                                  /* Gray */
+  --bb-client: color-mix(in srgb, #020887 62%, white);     /* Blue 2 tint, for client markers */
 }
 html[data-palette="green"] {
   --bb-primary: #a5cf4f;                                   /* Lime */
@@ -85,6 +86,7 @@ html[data-palette="green"] {
   --bb-tint-300: color-mix(in srgb, #a5cf4f 70%, white);
   --bb-dark-950: #173320;                                  /* Terminal */
   --bb-gray-300: #d4d4d4;
+  --bb-client: #0f8743;                                    /* Turf, for client markers */
 }
 html[data-palette="current"] {
   --bb-on-primary: #ffffff;
@@ -95,6 +97,7 @@ html[data-palette="current"] {
   --bb-tint-300: #fdba74;
   --bb-dark-950: #431407;
   --bb-gray-300: #d4d4d4;
+  --bb-client: #fdba74;
 }
 
 @theme inline {
