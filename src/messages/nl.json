@@ -734,9 +734,2139 @@
     "popular": "MEEST GEKOZEN",
     "exclusions": "NIET INBEGREPEN",
     "timeline": "Doorlooptijd",
-    "commitment": "Verbintenis",
+    "commitment": "Looptijd",
     "ideal_for": "Ideaal voor",
-    "custom_quote": "Liever een offerte op maat?"
+    "custom_quote": "Liever een offerte op maat?",
+    "hero_title_a": "Wat je krijgt,",
+    "hero_title_em": "zwart op wit.",
+    "hero_sub": "AI-gedreven websites, apps, automatiseringen, advertenties, branding en social media management. Elk traject krijgt een offerte op maat van jouw scope, met de deliverables op papier, zodat we allebei precies weten wat we bouwen.",
+    "tabs": {
+      "web": "Webontwikkeling",
+      "app": "App-ontwikkeling",
+      "social": "Social Media",
+      "marketing": "Marketing",
+      "aiAgents": "AI Agents",
+      "saas": "Custom SaaS",
+      "branding": "Merkstrategie"
+    },
+    "sections": {
+      "oneTime": "Eenmalige projecten",
+      "webSupport": "Maandelijkse retainers",
+      "appBuild": "Eenmalige builds",
+      "appSupport": "Maandelijkse retainers",
+      "socialSetup": "Eenmalige setup",
+      "social": "Maandelijks beheer",
+      "marketingBuild": "Eenmalige projecten",
+      "monthly": "Maandelijkse retainers",
+      "aiAgents": "Eenmalige build",
+      "monthlyAgent": "Maandelijkse retainer",
+      "customBuild": "Eenmalige builds",
+      "customSupport": "Maandelijkse retainers",
+      "brandingBuild": "Eenmalige projecten",
+      "brandingSupport": "Maandelijkse retainers"
+    },
+    "hide": "Verbergen",
+    "view": "Bekijken",
+    "not_included": "Wat niet is inbegrepen",
+    "cta_sub": "Elk traject wordt afzonderlijk gescoped en geoffreerd. Plan een gratis gesprek van 15 minuten en je ontvangt binnen 48 uur een voorstel op maat.",
+    "cta_button": "Plan een strategiegesprek",
+    "pkg": {
+      "oneTime": [
+        {
+          "name": "Onepager Launch",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "Ideaal voor een eenvoudige online aanwezigheid",
+          "tl": "2 tot 3 weken",
+          "scope": [
+            {
+              "i": "Custom landingspagina (1 pagina)",
+              "l": "Volledig op maat ontworpen, mobielvriendelijke onepager gebouwd in Next.js. Inclusief scrollsecties: hero, over ons, diensten, testimonials en contactformulier. Responsive lay-out voor desktop, tablet en mobiel. SEO-metatitel en -beschrijving geschreven. SSL-certificaat en hosting op Vercel inbegrepen."
+            },
+            {
+              "i": "Merkidentiteit (logo + kleuren)",
+              "l": "2 eerste logoconcepten gepresenteerd als mockups. Jij kiest er 1 voor de definitieve uitwerking. Deliverables: logobestanden in PNG, SVG en PDF (full colour, wit en zwart). 1 primair kleurenpalet (5 kleuren met hexcodes) en 1 lettertypecombinatie (koppen + lopende tekst). Geen volledig brandguidelines-document op dit niveau."
+            },
+            {
+              "i": "Analytics & tracking",
+              "l": "Google Analytics 4 geïnstalleerd en geconfigureerd. 1 conversiedoel ingesteld (bijv. formulierinzending of klik op telefoonnummer). Google Search Console gekoppeld. Basis-eventtracking op CTA-knoppen."
+            },
+            {
+              "i": "Designrevisies",
+              "l": "2 revisierondes. Een 'ronde' = 1 gebundelde set feedback. Feedback moet binnen 5 werkdagen na elke review worden aangeleverd. Geen gedeeltelijke of druppelsgewijze feedback verspreid over meerdere e-mails."
+            },
+            {
+              "i": "Content & tekst",
+              "l": "De klant levert alle teksten aan (koppen, lopende tekst, bio's, dienstbeschrijvingen). Wij verzorgen lay-out, opmaak en plaatsing. Heb je copywriting nodig? Dat kan erbij voor $200/pagina."
+            }
+          ],
+          "ov": [
+            "Extra revisieronde: $300",
+            "Copywriting: $200/pagina",
+            "Extra sectie: $250"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord van de klant OF na 2 revisierondes. Na akkoord: $175/uur.",
+          "bridge": "Inclusief 14 dagen monitoring na livegang (bugfixes en kleine aanpassingen). Meer pagina's of functies nodig? Upgrade naar onze Starter Launch ($4,500) voor een complete site van 5 pagina's met AI-chat en CRM-setup.",
+          "ideal": "Zijprojecten, personal brands, eenvoudige landingspagina's"
+        },
+        {
+          "name": "Starter Launch",
+          "price": 6500,
+          "disp": "$6,500",
+          "tag": "Ideaal voor nieuwe bedrijven",
+          "tl": "4 tot 6 weken",
+          "scope": [
+            {
+              "i": "Custom website (5 pagina's)",
+              "l": "Volledig op maat ontworpen, mobielvriendelijke website gebouwd in Next.js. Inclusief: Home, Over ons, Diensten, Contact en 1 extra pagina naar keuze. Elke pagina heeft een responsive lay-out voor desktop, tablet en mobiel. SEO-metatitels en -beschrijvingen geschreven voor alle 5 pagina's. SSL-certificaat en hosting op Vercel inbegrepen."
+            },
+            {
+              "i": "Merkidentiteit (logo + kleuren)",
+              "l": "2 eerste logoconcepten gepresenteerd als mockups. Jij kiest er 1 voor de definitieve uitwerking. Deliverables: logobestanden in PNG, SVG en PDF (full colour, wit en zwart). 1 primair kleurenpalet (5 kleuren met hexcodes) en 1 lettertypecombinatie (koppen + lopende tekst). Geen volledig brandguidelines-document op dit niveau."
+            },
+            {
+              "i": "AI-chatwidget",
+              "l": "1 AI-chatbot ingebouwd op je website. Getraind op 25 vraag-en-antwoordparen die jij aanlevert (bijv. prijzen, openingstijden, diensten). Inclusief leadformulier dat aanvragen doorstuurt naar je CRM. Basisbegroeting en fallback-antwoord geconfigureerd."
+            },
+            {
+              "i": "CRM-setup (GoHighLevel)",
+              "l": "1 salespipeline met 5 fases (bijv. Nieuwe lead → Contact gehad → Voorstel verstuurd → Gewonnen → Verloren). 5 automatiseringsreeksen (bijv. e-mailmelding bij nieuwe lead, opvolgherinnering, afspraakbevestiging, sms-terugbelbericht bij gemiste oproep, welkomstmail). Contactimport vanuit CSV indien aangeleverd (max. 500 contacten)."
+            },
+            {
+              "i": "Analytics & tracking",
+              "l": "Google Analytics 4 geïnstalleerd en geconfigureerd. 1 conversiedoel ingesteld (bijv. formulierinzending, klik op telefoonnummer of chatbotinteractie). Google Search Console gekoppeld. Basis-eventtracking op CTA-knoppen."
+            },
+            {
+              "i": "Designrevisies",
+              "l": "2 revisierondes per pagina. Een 'ronde' = 1 gebundelde set feedback. Feedback moet binnen 5 werkdagen na elke review worden aangeleverd. Geen gedeeltelijke of druppelsgewijze feedback verspreid over meerdere e-mails."
+            },
+            {
+              "i": "Content & tekst",
+              "l": "De klant levert alle teksten aan (koppen, lopende tekst, bio's, dienstbeschrijvingen). Wij verzorgen lay-out, opmaak en plaatsing. Heb je copywriting nodig? Dat kan erbij voor $200/pagina."
+            }
+          ],
+          "ov": [
+            "Extra pagina's: $500/pagina",
+            "Extra revisieronde: $300",
+            "Copywriting: $200/pagina",
+            "Extra Q&A (25+): $250/batch",
+            "Extra automatisering: $350 per stuk"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord van de klant OF na 2 revisierondes. Na akkoord: $175/uur.",
+          "bridge": "Inclusief 30 dagen monitoring na livegang (bugfixes, chatbotcontroles, CRM-gezondheid). Na dag 30 gaan onderhoud, updates en AI-tuning over naar ons Onderhoud & Monitoring-plan ($1,500/mnd), zodat je systemen optimaal blijven draaien.",
+          "ideal": "Startups, zelfstandigen, lokale bedrijven"
+        },
+        {
+          "name": "Groeiversneller",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "tl": "6 tot 8 weken",
+          "scope": [
+            {
+              "i": "Custom website (10 pagina's + CMS)",
+              "l": "10 volledig ontworpen, mobielvriendelijke pagina's gebouwd in Next.js met geïntegreerd CMS (blog of portfolio). Inclusief: Home, Over ons, Diensten (3 subpagina's), Blog, Contact en 2 extra pagina's. 3 custom scroll- of hoveranimaties. On-page SEO voor alle pagina's (metatitels, beschrijvingen, alt-tags, schema markup). SSL, hosting op Vercel en sitemap-indiening bij Google inbegrepen."
+            },
+            {
+              "i": "Merkidentiteit (volledige richtlijnen)",
+              "l": "3 eerste logoconcepten gepresenteerd als lifestyle-mockups. 1 geselecteerd voor de definitieve uitwerking. Volledige brandguidelines-PDF (10 pagina's) met: regels voor logogebruik, minimale afmetingen, vrije ruimte, kleurenpalet (primair + secundair, hex/RGB/CMYK), typografiesysteem (kop, subkop en broodtekst met groottes) en tone-of-voice-notities. 5 gebrande social media-posttemplates geleverd in Canva of Figma (bewerkbaar)."
+            },
+            {
+              "i": "AI-chatbot",
+              "l": "1 AI-chatbot getraind op 50 Q&A-paren. Inclusief afsprakenintegratie (gekoppeld aan je Google Agenda of Calendly). Leadcapture met automatische CRM-invoer. Eigen begroeting, fallback-antwoorden en berichten buiten kantooruren geconfigureerd. Chatbot ingebouwd op 3 pagina's van je website."
+            },
+            {
+              "i": "AI-voice-agent",
+              "l": "1 inkomende AI-voice-agent die oproepen beantwoordt, leads kwalificeert en afspraken inplant. 1 custom belscript geschreven en geconfigureerd. 500 spraakminuten inbegrepen voor de eerste maand. Gespreksopnames opgeslagen in je CRM. Inclusief basisdoorschakeling (doorverbinden naar jou als de AI er niet uitkomt)."
+            },
+            {
+              "i": "Workflowautomatisering (8 in totaal)",
+              "l": "8 automatiseringen gebouwd in GoHighLevel. Voorbeelden: melding bij nieuwe lead (e-mail + sms), herinneringsreeks voor afspraken (24 uur + 1 uur vooraf), sms-terugbelbericht bij gemiste oproep, opvolging na afspraak, reviewverzoek na de dienst, heractivering bij verlaten formulier, verjaardags-/jubileummail en triggers bij pipelinefasewijziging. Elke automatisering bevat tot 5 stappen."
+            },
+            {
+              "i": "Google Ads-setup",
+              "l": "1 Google Search-campagne met 3 advertentiegroepen (gericht op verschillende zoekwoordthema's). Zoekwoordonderzoek en lijst met negatieve zoekwoorden inbegrepen. 6 advertentievarianten geschreven (2 per advertentiegroep). 1 speciale landingspagina ontworpen, gebouwd en gekoppeld met conversietracking. Google Ads-conversietracking en Google Tag Manager geconfigureerd. Advertentiebudget wordt apart gefactureerd en door jou rechtstreeks aan Google betaald."
+            },
+            {
+              "i": "Klantdashboard",
+              "l": "1 realtime dashboard gebouwd in GHL of Google Looker Studio. Tot 6 widgets: websiteverkeer, aantal leads, pipelinewaarde, conversiepercentage, advertentieprestaties en chatbotinteracties. Dashboard werkt automatisch bij en is bereikbaar via een deelbare link."
+            },
+            {
+              "i": "Designrevisies",
+              "l": "3 revisierondes per deliverable (websitepagina's, merkmaterialen, advertentiecreatives en dashboard). Een 'ronde' = 1 gebundelde set feedback, aangeleverd binnen 5 werkdagen."
+            },
+            {
+              "i": "Content & tekst",
+              "l": "Wij schrijven de teksten voor je homepage en dienstenpagina (1.500 woorden in totaal). Alle overige paginateksten lever jij aan. Het blog-CMS wordt leeg opgeleverd, zodat jij of je team posts kan schrijven, of voeg ons contentpakket toe."
+            }
+          ],
+          "ov": [
+            "Extra pagina's: $500/pagina",
+            "Extra revisie: $300/ronde",
+            "Extra advertentiecampagne: $1,500",
+            "Extra voicescript: $750",
+            "Automatiseringen (8+): $350 per stuk",
+            "Extra landingspagina: $900",
+            "Copywriting boven inbegrepen: $200/pagina"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 3 revisierondes. Na akkoord: $175/uur.",
+          "bridge": "Inclusief 30 dagen na livegang: advertentiebeheer, AI-monitoring en bugfixes. Na dag 30 hebben je advertenties, AI-agents en automatiseringen doorlopende optimalisatie nodig om te blijven presteren. We raden ons Groeimotor-plan ($3,500/mnd) aan om het momentum vast te houden.",
+          "ideal": "Groeiende bedrijven die opschalen met systemen"
+        },
+        {
+          "name": "Totale Dominantie",
+          "price": 18000,
+          "disp": "$18,000+",
+          "tag": "Enterprise-niveau",
+          "tl": "8 tot 12 weken",
+          "scope": [
+            {
+              "i": "Premium website (15 pagina's + e-commerce)",
+              "l": "15 volledig ontworpen pagina's gebouwd in Next.js met headless CMS (Sanity of Contentful). 6 custom animaties (parallax-scrolling, hovereffecten, paginatransities, micro-interacties). Klaar voor e-commerce: 20 productpagina's met Shopify- of Stripe-integratie, winkelwagen en checkout. Inclusief blog, kenniscentrum of casestudysectie. Volledige on-page SEO, schema markup, Open Graph-tags, XML-sitemap en robots.txt. SSL, Vercel-hosting en CDN-optimalisatie inbegrepen."
+            },
+            {
+              "i": "Compleet merksysteem",
+              "l": "5 eerste logoconcepten met lifestyle-mockups. 1 geselecteerd voor volledige uitwerking. Compleet brandguidelines-document (20 pagina's): logogebruik, vrije ruimte, minimale afmetingen, primaire en secundaire kleurenpaletten, typografiehiërarchie, fotografiestijlgids, iconenstijl, richtlijnen voor merkstem en tone of voice. Huisstijlontwerp: visitekaartje, briefpapier en e-mailhandtekening. Pitchdeck-template (15 slides, bewerkbaar in Google Slides of Keynote). 10 gebrande social media-templates (Canva of Figma, bewerkbaar)."
+            },
+            {
+              "i": "AI-agent-ecosysteem (3 agents)",
+              "l": "3 onderling verbonden AI-agents die als één systeem werken. Voorbeeldopzet: Agent 1 vangt leads op via de chatbot en scoort ze (hot/warm/koud). Agent 2 stuurt gepersonaliseerde e-mailreeksen op basis van de score. Agent 3 start sms-opvolging voor hot leads. 1 custom beslisboom die het volledige leadtraject in kaart brengt. Alle agents gekoppeld aan je GHL-CRM met automatische contacttagging en pipelinebeweging."
+            },
+            {
+              "i": "Conversational AI-suite",
+              "l": "1 AI-chatbot getraind op 100 Q&A-paren, ingebouwd op de hele site. Inclusief afspraken boeken, leadcapture, FAQ-afhandeling en berichten buiten kantooruren. 1 AI-voice-agent met 2 custom belscripts (bijv. inkomende sales + afspraakbevestiging). 1.000 spraakminuten inbegrepen voor de eerste maand. Gespreksopnames opgeslagen in het CRM. 5 sms-automatiseringsreeksen (bijv. afspraakherinneringen, opvolging na gesprek, reviewverzoek, heractivering, promotiebericht)."
+            },
+            {
+              "i": "Workflowautomatisering (15 in totaal)",
+              "l": "15 automatiseringen over je CRM, betaalsysteem en agenda. Voorbeelden: leadnurturing-reeksen, factuurherinneringen, betalingsbevestiging, onboardingworkflows, reviewverzoeken, win-backcampagnes, interne teammeldingen, pipelinefase-automatiseringen en verjaardags-/mijlpaalmails. Elke automatisering bevat tot 7 stappen met voorwaardelijke logica."
+            },
+            {
+              "i": "Google + Meta Ads (volledige setup)",
+              "l": "1 Google Search-campagne met 5 advertentiegroepen en 10 advertentievarianten. Volledig zoekwoordonderzoek met lijsten van negatieve zoekwoorden. 1 Meta-campagne (Facebook/Instagram) met 3 advertentiesets gericht op verschillende doelgroepen. Retargetingpixel geïnstalleerd op je website voor zowel Google als Meta. 2 speciale landingspagina's ontworpen, gebouwd en geoptimaliseerd voor conversie. Alle conversietracking geconfigureerd via Google Tag Manager. Advertentiecreatives ontworpen (6 statische afbeeldingen + 2 carrouseladvertenties). Advertentiebudget apart gefactureerd. Je betaalt Google en Meta rechtstreeks."
+            },
+            {
+              "i": "AI-contentsysteem",
+              "l": "Volledige contentpipeline ingericht: video-naar-clips-workflow (upload een lange video, AI genereert social clips), blogpost-generatietemplate met AI-ondersteuning en social media-planning in Buffer of Later. Eerste maand content geproduceerd en gepubliceerd: 4 blogposts (tot 1.000 woorden elk, SEO-geoptimaliseerd) en 12 social media-posts (graphics + captions). Contentkalender-template meegeleverd voor doorlopend gebruik."
+            },
+            {
+              "i": "Directiedashboard",
+              "l": "1 uitgebreid dashboard in GHL of Google Looker Studio. 10 widgets: websiteverkeer, leadpipeline, conversiepercentage, Google Ads-prestaties (CPC, CTR, ROAS), Meta Ads-prestaties, chatbotinteracties, belvolume voice-agent, open-/klikratio's e-mail, omzetattributie en wekelijkse trendgrafieken. Geautomatiseerde wekelijkse samenvattingsmail naar 3 ontvangers."
+            },
+            {
+              "i": "Designrevisies",
+              "l": "3 revisierondes per deliverable voor alle materialen. Een 'ronde' = 1 gebundelde set feedback, aangeleverd binnen 5 werkdagen."
+            },
+            {
+              "i": "Copywriting",
+              "l": "Volledige professionele copywriting voor 10 websitepagina's (koppen, lopende tekst, CTA's, metabeschrijvingen). De klant levert ruw materiaal, notities of bullets voor de overige pagina's. Advertentieteksten voor alle Google- en Meta-campagnes geschreven en inbegrepen."
+            }
+          ],
+          "ov": [
+            "Extra pagina's: $500",
+            "Extra revisie: $350/ronde",
+            "Extra AI-agent: $2,500",
+            "Extra advertentiecampagne: $1,500",
+            "Voicescript: $750",
+            "Automatiseringen (15+): $400 per stuk",
+            "Producten (20+): $75/product",
+            "Content na maand 1: vereist een retainer"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 25% bij de tussentijdse mijlpaal, 25% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 3 rondes. Na akkoord: $175/uur.",
+          "bridge": "Inclusief 45 dagen na livegang: volledige monitoring, advertentiebeheer, AI-tuning en bugfixes. Na dag 45 hebben je AI-ecosysteem, advertentiecampagnes en contentsystemen doorlopend beheer nodig om resultaat te blijven leveren. We raden ons Volledig Partnerschap ($7,500/mnd) of Groeimotor ($3,500/mnd) aan, afhankelijk van je behoeften.",
+          "ideal": "Gevestigde bedrijven die een complete AI-infrastructuur willen"
+        }
+      ],
+      "socialSetup": [
+        {
+          "name": "Eén Platform Setup",
+          "price": 1200,
+          "disp": "$1,200",
+          "tag": "Zet één kanaal goed neer",
+          "tl": "3 tot 5 dagen",
+          "scope": [
+            {
+              "i": "Platformkeuze",
+              "l": "1 platform naar keuze: Instagram, LinkedIn, Facebook, TikTok, YouTube, X (Twitter) of Pinterest. We zetten het vanaf nul op of pakken je bestaande profiel volledig aan."
+            },
+            {
+              "i": "Profieloptimalisatie",
+              "l": "Bio geschreven en afgestemd op het platform (tot 150 tekens voor IG, tot 2.000 voor LinkedIn, enz.). Profielfoto bijgesneden en geoptimaliseerd voor het platform. Omslagfoto of banner op maat ontworpen in je huisstijl. Uitgelichte secties, highlights of vastgepinde posts ingesteld (waar van toepassing). Contactgegevens, websitelink, CTA-knoppen en categorie-/branchetags ingesteld."
+            },
+            {
+              "i": "Visuele identiteitsmaterialen",
+              "l": "1 custom profielfoto (gebrande initialen, portret-overlay of logomerk) op maat voor het platform. 1 custom omslagfoto of banner ontworpen in je merkkleuren en boodschap. Alle bestanden geleverd als PNG en in bewerkbaar formaat (Canva of Figma). 1 revisieronde op visuele materialen."
+            },
+            {
+              "i": "Contenttemplates (3)",
+              "l": "3 gebrande, herbruikbare posttemplates ontworpen in Canva of Figma. Inclusief: 1 quote-/tiptemplate, 1 promotie-/diensttemplate en 1 engagementtemplate (vraag, poll of CTA). Elke template gebruikt je merkkleuren, lettertypes en logo. Volledig bewerkbaar, zodat je team tekst en beelden zelf kan wisselen."
+            },
+            {
+              "i": "Hashtag- & zoekwoordstrategie",
+              "l": "Platformspecifiek hashtag- of zoekwoordonderzoek op basis van je branche en doelgroep. 3 hashtag-/zoekwoordsets geleverd (bijv. 1 set voor groot bereik, 1 nicheset, 1 gebrande set). Elke set bevat 15 tot 30 hashtags of zoekwoorden. Geleverd als deelbaar document met gebruiksinstructies."
+            },
+            {
+              "i": "Lanceringscontent (4 posts)",
+              "l": "4 kant-en-klare posts: statische graphics met geschreven captions. Inclusief: 1 introductie-/welkomstpost, 1 dienst- of productuitlichting, 1 social proof- of testimonialpost en 1 CTA- of engagementpost. Graphics op maat voor het specifieke platform. Captions bevatten relevante hashtags uit je strategiesets."
+            },
+            {
+              "i": "Platformgids (PDF)",
+              "l": "PDF van 1 pagina, afgestemd op jouw platform. Behandelt: beste posttijden, ideale postfrequentie, contenttypes die het best presteren, tips voor hashtaggebruik en best practices voor engagement. Concreet en specifiek voor jouw branche."
+            }
+          ],
+          "ov": [
+            "Extra platform: $1,200 per stuk",
+            "Extra posttemplates: $100 per stuk",
+            "Extra lanceringsposts (4+): $60 per stuk",
+            "Revisieronde: $175",
+            "Videocontent (Reels/Shorts): $175 per stuk"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 1 revisieronde. Wijzigingen na oplevering: $175/uur.",
+          "bridge": "Je profielen staan klaar om te gaan. Wil je ze actief houden en laten groeien? Voeg ons Social Starter-plan ($1,500/mnd) toe, of beheer per platform vanaf $650/mnd.",
+          "ideal": "Bedrijven die fris starten op een platform"
+        },
+        {
+          "name": "Multi-Platform Launch",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "tl": "1 tot 2 weken",
+          "scope": [
+            {
+              "i": "Platforms (3 inbegrepen)",
+              "l": "Kies 3 platforms: Instagram, LinkedIn, Facebook, TikTok, YouTube, X of Pinterest. Nieuwe profielen vanaf nul opgezet of bestaande profielen volledig vernieuwd."
+            },
+            {
+              "i": "Profieloptimalisatie (alle 3)",
+              "l": "Bio's geschreven en geoptimaliseerd per platform. Profielfoto's en omslagfoto's/banners op maat ontworpen voor elk platform (correct geformatteerd volgens de platformspecificaties). CTA's, contactgegevens, websitelinks en categorietags geconfigureerd. Highlights, uitgelichte secties of vastgepinde posts ingesteld waar van toepassing. Alle profielen onderling gelinkt en gekoppeld aan je website."
+            },
+            {
+              "i": "Samenhangende visuele identiteit",
+              "l": "Bij elkaar passende profielfoto's en banners op alle 3 platforms voor merkconsistentie. Ontworpen in lijn met je bestaande merk (of je nieuwe merk als het gebundeld is met een eenmalig project). Geleverd als PNG + bewerkbare Canva- of Figma-bestanden. 2 revisierondes op alle visuele materialen."
+            },
+            {
+              "i": "Contenttemplates (15 in totaal)",
+              "l": "5 gebrande, herbruikbare posttemplates per platform (15 in totaal). Elke set bevat: 1 quote/tip, 1 promotie, 1 testimonial/social proof, 1 behind-the-scenes en 1 engagement-/CTA-template. Alle templates bewerkbaar in Canva of Figma met je merkkleuren, lettertypes en logo. Templates aangepast aan de afmetingen van elk platform (bijv. vierkant voor IG, liggend voor LinkedIn, staand voor TikTok)."
+            },
+            {
+              "i": "Hashtag- & zoekwoordstrategie",
+              "l": "Onderzoek per platform op basis van je branche en concurrenten. 5 hashtag- of zoekwoordsets per platform (15 in totaal). Elke set bevat 15 tot 30 hashtags/zoekwoorden, ingedeeld in: groot bereik, niche, gebrand, trending en locatiegebonden. Geleverd als gedeelde spreadsheet of document met gebruiksrichtlijnen."
+            },
+            {
+              "i": "Lanceringscontent (18 posts in totaal)",
+              "l": "6 kant-en-klare posts per platform (18 in totaal). Mix van statische graphics en carrouselposts. Elke post bevat: ontworpen graphic, geschreven caption, relevante hashtags en aanbevolen posttijd. Content omvat: merkintroductie, dienstuitlichting, testimonial/bewijs, educatieve tip, behind-the-scenes en engagement/CTA."
+            },
+            {
+              "i": "Contentkalender voor 30 dagen",
+              "l": "Complete kalender met 30 dagen aan postideeën: voorgesteld posttype, onderwerp, caption-aanzetten, optimale posttijden en te gebruiken hashtagsets. Geleverd als Google Sheet of Notion-template die je elke maand opnieuw kunt gebruiken en aanpassen."
+            },
+            {
+              "i": "Platformgidsen (3 PDF's)",
+              "l": "1 PDF-gids per platform met: beste posttijden, ideale frequentie, contenttypes die presteren, hashtagtips, engagementstrategieën en algoritmespecifiek advies. Afgestemd op jouw branche."
+            },
+            {
+              "i": "Link-in-bio-pagina",
+              "l": "1 link-in-bio-pagina opgezet op Linktree, Later of als custom gebouwde pagina. Tot 8 links geconfigureerd (website, diensten, boeken, social profielen, enz.). Vormgegeven in je merkkleuren en met je logo."
+            }
+          ],
+          "ov": [
+            "Extra platform: $500 per stuk",
+            "Extra templates: $75 per stuk",
+            "Extra lanceringsposts (6+): $50 per stuk",
+            "Revisieronde: $175",
+            "Videocontent: $175 per stuk",
+            "Extra link-in-bio-pagina: $200"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 2 revisierondes. Na oplevering: $175/uur.",
+          "bridge": "Alle platforms lanceerklaar met 30 dagen aan geplande content. Wil je blijven groeien? Dan raden we ons Social Groei-plan ($2,500/mnd) of add-ons per platform aan.",
+          "ideal": "Bedrijven die hun social aanwezigheid lanceren of vernieuwen"
+        },
+        {
+          "name": "Volledige Social Rebrand",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Complete make-over",
+          "tl": "2 tot 3 weken",
+          "scope": [
+            {
+              "i": "Platforms (5 inbegrepen)",
+              "l": "5 platforms: Instagram, LinkedIn, Facebook, TikTok, YouTube, X en/of Pinterest. Volledige audit van bestaande profielen, gevolgd door een complete rebrand. Oude profielen worden ter plekke bijgewerkt (geen verlies van volgers of geschiedenis)."
+            },
+            {
+              "i": "Social media-audit",
+              "l": "Gedetailleerde review van elk bestaand profiel: volgersdemografie, engagementpercentages, best presterende content, postconsistentie en profielvolledigheidsscore. Benchmark tegen 3 concurrenten die jij kiest (of wij aanbevelen). Gap-analyse die gemiste kansen in content, hashtags, engagement en platformfuncties blootlegt. Geleverd als schriftelijk auditrapport (PDF, 3 tot 5 pagina's) met concrete aanbevelingen."
+            },
+            {
+              "i": "Profielvernieuwing (alle platforms)",
+              "l": "Nieuwe bio's geschreven voor elk platform (geoptimaliseerd voor zoeken en conversie). Nieuwe profielfoto's en omslagfoto's/banners ontworpen per platform. Alle CTA's, contactgegevens, links, highlights, uitgelichte secties en vastgepinde posts bijgewerkt. Consistente merkstem doorgevoerd op alle platforms. Categorietags, branchelabels en over-ons-secties vernieuwd."
+            },
+            {
+              "i": "Complete social brandkit",
+              "l": "10 gebrande posttemplates per platform (50 in totaal over 5 platforms). Templatetypes: quotes, tips, promoties, testimonials, carrousels, voor/na, behind-the-scenes, teamspotlights, aankondigingen en engagementposts. Storytemplates: 5 per platform voor IG, Facebook en TikTok (waar van toepassing). Highlight-covericonen voor Instagram (8 custom iconen). Alle templates geleverd in Canva of Figma, volledig bewerkbaar met je merkkleuren, lettertypes en logo."
+            },
+            {
+              "i": "Hashtag- & SEO-strategie",
+              "l": "Diepgaand onderzoek per platform op basis van je niche, doelgroep en concurrenten. 10 hashtag-/zoekwoordsets per platform (50 in totaal). Ingedeeld in: groot bereik, niche, gebrand, trending, locatie en concurrentie-gaps. Concurrentie-gap-analyse die laat zien welke hashtags en zoekwoorden je concurrenten gebruiken en jij niet. Geleverd als gedeelde spreadsheet met gebruiksrichtlijnen en rotatieschema."
+            },
+            {
+              "i": "Lanceringscontent (40 posts + 4 video's)",
+              "l": "8 kant-en-klare posts per platform (40 in totaal). Mix van statische graphics, carrousels en tekstposts. Tot 4 korte video's (Reels, Shorts of TikToks). Wij monteren uit beeldmateriaal dat jij aanlevert of maken ze met AI-tools. Wij filmen niet. Elke post bevat: ontworpen graphic, geschreven caption, hashtags en aanbevolen posttijd."
+            },
+            {
+              "i": "Contentkalender voor 60 dagen",
+              "l": "Complete kalender met 60 dagen aan content voor alle platforms. Inclusief: wekelijkse thema's/contentpijlers, specifieke postonderwerpen, caption-aanzetten, hashtagsets, optimale posttijden en ruimte voor trending/reactieve content. Geleverd als Google Sheet of Notion-template. Herbruikbaar raamwerk dat je elke maand kunt aanpassen."
+            },
+            {
+              "i": "Link-in-bio-pagina",
+              "l": "1 op maat ontworpen link-in-bio-pagina (Linktree, Later of custom gebouwd). Tot 12 links geconfigureerd en vormgegeven in je nieuwe social huisstijl. Inclusief analytics-tracking als het platform dat ondersteunt."
+            },
+            {
+              "i": "YouTube-setup (indien inbegrepen)",
+              "l": "Als YouTube een van je 5 platforms is: kanaalvormgeving (banner + profielfoto) ontworpen. Standaard thumbnailtemplate gemaakt in Canva (bewerkbaar per video). Bestaande afspeellijsten geordend en van SEO-titels voorzien. Over-sectie herschreven met zoekwoorden. Kanaaltags en standaard uploadinstellingen geconfigureerd voor zoekzichtbaarheid."
+            },
+            {
+              "i": "Revisies",
+              "l": "2 revisierondes op alle deliverables (visuele materialen, templates, auditrapport, kalender). Een 'ronde' = 1 gebundelde set feedback binnen 5 werkdagen."
+            }
+          ],
+          "ov": [
+            "Extra platform: $400 per stuk",
+            "Extra templates: $60 per stuk",
+            "Extra lanceringsposts (8+): $45 per stuk",
+            "Extra video: $175 per stuk",
+            "Revisieronde: $250",
+            "YouTube-intro-/outrovideo: $600"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 2 revisierondes. Na oplevering: $175/uur.",
+          "bridge": "Je volledige social aanwezigheid is opnieuw opgebouwd en lanceerklaar met 60 dagen aan content. Om het momentum vast te houden raden we Social Dominantie ($4,500/mnd) of Social Groei ($2,500/mnd) aan.",
+          "ideal": "Gevestigde bedrijven met een verouderde of inconsistente social aanwezigheid"
+        }
+      ],
+      "monthly": [
+        {
+          "name": "Onderhoud & Monitoring",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mnd",
+          "tag": "Alles blijft draaien",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Website-onderhoud",
+              "l": "Maandelijkse updates van plug-ins, framework en dependencies. Bugfixes voor kapotte links, lay-outproblemen en weergavefouten. Monitoring en optimalisatie van paginasnelheid (beeldcompressie, caching, lazy loading). Uptime-monitoring met alerts. Omvat NIET het bouwen van nieuwe pagina's, het herontwerpen van bestaande pagina's of het toevoegen van nieuwe functies."
+            },
+            {
+              "i": "AI-chatbotmonitoring",
+              "l": "Maandelijkse controle van uptime en antwoordnauwkeurigheid. Tot 10 Q&A-paarupdates per maand (nieuwe vragen toevoegen, antwoorden verfijnen, onjuiste reacties corrigeren). Testen van leadcapture en formulierinzendingen. Samenvatting van chatbotprestaties opgenomen in het maandrapport."
+            },
+            {
+              "i": "Maandelijks prestatierapport",
+              "l": "1 rapport per e-mail uiterlijk de 5e van elke maand met: websiteverkeer (sessies, gebruikers, paginaweergaven), best presterende pagina's, aantal leads en herkomst, conversiepercentage en chatbotinteractiestatistieken. Geleverd als PDF of dashboardlink. Het rapport wordt verstuurd, niet live gepresenteerd. Live gesprekken zijn beschikbaar als add-on."
+            },
+            {
+              "i": "Designupdates (2 uur/mnd)",
+              "l": "2 uur design- en contentupdates per maand. Omvat: tekstwijzigingen, beeldwissels, knopupdates, kleine lay-outaanpassingen en bannervervangingen. Uren schuiven alleen door naar de volgende maand (maximaal 4 uur opgebouwd). Omvat NIET nieuwe paginaontwerpen, functiebouw of structurele wijzigingen. Tijd wordt bijgehouden en gerapporteerd."
+            },
+            {
+              "i": "CRM-pipelinebeheer",
+              "l": "Maandelijkse review van de gezondheid van je GHL-pipeline: vastgelopen leads, verouderde deals en automatiseringsfouten. 3 automatiseringsaanpassingen per maand (bijv. e-mailtekst bijwerken, triggertiming wijzigen, kapotte reeksen repareren). Contactlijsthygiëne: duplicaten markeren en bounces verwijderen (max. 500 contacten/mnd)."
+            },
+            {
+              "i": "Support",
+              "l": "Alleen support via tekst en e-mail (geen telefoon, geen live gesprekken op dit niveau). Reactietijd 48 uur op werkdagen (maandag t/m vrijdag, 9 tot 17 uur). Tot 10 supportverzoeken per maand. Elk verzoek = 1 specifieke vraag (geen lijst met wijzigingen). Verzoeken boven de 10 gefactureerd tegen $175/uur."
+            }
+          ],
+          "ov": [
+            "Design boven 2 uur: $175/uur",
+            "Nieuwe pagina: $500",
+            "Live gesprek: $250/uur",
+            "Automatiseringen (3+): $250 per stuk",
+            "Spoed/dezelfde dag: +50%"
+          ],
+          "ex": "Geen advertentiebeheer, geen contentcreatie, geen nieuwe functies, geen voice-agents, geen social media. Vereist een hoger niveau.",
+          "ideal": "Gemoedsrust na de lancering"
+        },
+        {
+          "name": "Groeimotor",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/mnd",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "com": "Minimaal 6 maanden",
+          "scope": [
+            {
+              "i": "Alles uit Onderhoud & Monitoring",
+              "l": "Al het website-onderhoud, AI-monitoring, maandrapport, CRM-beheer en e-mailsupport. Dezelfde limieten en regels gelden. Designuren vervangen door de 5 uur/mnd hieronder (niet gestapeld)."
+            },
+            {
+              "i": "Google Ads-beheer",
+              "l": "2 actieve Google Search-campagnes beheerd. Maandelijkse zoekwoordoptimalisatie, biedingsaanpassingen en updates van negatieve zoekwoorden. 3 A/B-tests per maand (advertentietekst, landingspagina-elementen of doelgroeptargeting). Maandelijkse prestatiereview met analyse van CPC, CTR, conversiepercentage en ROAS. Advertentiebudget tot $5,000/mnd beheerd op dit niveau. Budget boven $5K: extra $500/mnd per schijf van $5K. Advertentiebudget apart gefactureerd. Je betaalt Google rechtstreeks."
+            },
+            {
+              "i": "Meta Ads-beheer",
+              "l": "2 actieve Meta-campagnes (Facebook/Instagram) beheerd. 1 creative-refresh per maand: 3 nieuwe advertentiecreatives ontworpen (statische afbeeldingen of carrousels). 2 nieuwe doelgroeptests per maand. Onderhoud van retargetingdoelgroepen en updates van lookalike-doelgroepen. Maandelijkse prestatiereview. Advertentiebudget apart gefactureerd. Je betaalt Meta rechtstreeks."
+            },
+            {
+              "i": "AI-ondersteunde contentproductie",
+              "l": "4 blogposts per maand (tot 800 woorden elk, SEO-geoptimaliseerd met zoekwoorden, metabeschrijvingen en interne links). 12 social media-posts per maand (ontworpen graphics + geschreven captions met hashtags). 1 revisieronde per item (aan te vragen binnen 3 werkdagen na levering). De klant keurt de maandelijkse contentkalender uiterlijk de 5e van elke maand goed. Late goedkeuring = vertraagde levering zonder deadlinegarantie."
+            },
+            {
+              "i": "AI-systeemoptimalisatie",
+              "l": "Chatbot: 15 Q&A-paarupdates per maand. Review van conversiepercentage en antwoordnauwkeurigheid van de chatbot. Voice-agent: 1 belscriptrevisie per maand (taal, flow of kwalificatiecriteria aanpassen). AI-prestatiecijfers opgenomen in het maandrapport. Omvat NIET het bouwen van nieuwe agents of nieuwe automatiseringsworkflows."
+            },
+            {
+              "i": "Strategie-updates",
+              "l": "Maandelijkse opgenomen Loom-video met toelichting op je prestaties, aanbevelingen en volgende stappen (10 tot 15 min). Jij reageert via tekst, e-mail of spraakmemo. Geen live gesprekken nodig. Vragen binnen 1 werkdag beantwoord via tekst of e-mail. 1 optioneel live gesprek per maand op aanvraag (max. 30 min)."
+            },
+            {
+              "i": "Design & ontwikkeling (5 uur/mnd)",
+              "l": "5 uur design- en ontwikkelwerk per maand. Omvat: nieuwe landingspagina's, pagina-updates, kleine functietoevoegingen, grafisch ontwerp voor campagnes of templateaanpassingen. Uren schuiven NIET door. Gebruik ze of verlies ze. Volledige paginaherontwerpen of grote functiebouw worden apart gescoped en geoffreerd. Tijd maandelijks bijgehouden en gerapporteerd."
+            }
+          ],
+          "ov": [
+            "Design boven 5 uur: $175/uur",
+            "Advertentiebudget >$5K: +$500/mnd per schijf van $5K",
+            "Blog: $250 per stuk",
+            "Social posts (12+): $60 per stuk",
+            "Creative-refresh: $500",
+            "Extra live gesprek: $250/uur",
+            "Nieuwe AI-agent: $2,500",
+            "Spoed: +50%"
+          ],
+          "ex": "Geen fractional CMO, geen onbeperkte advertenties, geen merkvernieuwingen, geen videoproductie, geen dedicated social beheer. Vereist een hoger niveau of de Social add-on.",
+          "ideal": "Bedrijven die actief hun omzet opschalen"
+        },
+        {
+          "name": "Volledig Partnerschap",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/mnd",
+          "tag": "Fractional CMO + team",
+          "com": "Minimaal 6 maanden",
+          "scope": [
+            {
+              "i": "Alles uit Groeimotor",
+              "l": "Al het website-onderhoud, AI-monitoring, rapportages, CRM-beheer, Google + Meta Ads-beheer, AI-contentproductie, AI-optimalisatie, strategie-updates en e-mailsupport, met de uitgebreide limieten hieronder. Designuren en strategie-updates vervangen door de uitgebreide versies hieronder (niet gestapeld)."
+            },
+            {
+              "i": "Dedicated strateeg",
+              "l": "Vast aanspreekpunt dat je bedrijf, doelen en merk kent. Bereikbaar via tekst of e-mail, maandag t/m vrijdag van 9 tot 17 uur (jouw tijdzone). Niet beschikbaar 24/7, in het weekend of op feestdagen. Beheert alle deliverables, coördineert het team en komt proactief met aanbevelingen via Loom, e-mail of tekst. Reageert binnen 4 werkuren op werkdagen."
+            },
+            {
+              "i": "Advertentiebeheer (uitgebreid)",
+              "l": "Onbeperkt actieve campagnes op Google en Meta. Full-funnelstrategie: campagnes voor bekendheid, overweging en conversie. Maandelijkse creative-refreshes, doelgroeptests, biedingsoptimalisatie en budgetherverdeling. Advertentiebudget tot $20,000/mnd beheerd. Budget boven $20K vereist maatwerkprijzen. Maandelijks advertentierapport met analyse van ROAS, CPA en budgetefficiëntie. Advertentiebudget apart gefactureerd."
+            },
+            {
+              "i": "AI-ecosysteembeheer",
+              "l": "5 actieve AI-agents beheerd en geoptimaliseerd (chatbots, voice-agents, e-mailagents, sms-agents). 2 nieuwe automatiseringsworkflows per maand gebouwd (bijv. nieuwe leadreeks, upsell-workflow, heractiveringscampagne). Maandelijkse review van agentprestaties: antwoordnauwkeurigheid, oplossingspercentage, gespreksduur en leadconversie. Hertraining van agents en scriptupdates waar nodig binnen de scope."
+            },
+            {
+              "i": "Contentsysteem (uitgebreid)",
+              "l": "8 blogposts per maand (tot 1.000 woorden elk, SEO-geoptimaliseerd). 20 social media-posts per maand (ontworpen graphics + geschreven captions met hashtags en CTA's). 4 korte videoclips per maand (Reels, Shorts of TikToks), gemonteerd uit beeldmateriaal dat jij aanlevert of gemaakt met AI-tools. Wij monteren, wij filmen niet. 1 revisieronde per item. Contentkalender uiterlijk de 1e van elke maand ter goedkeuring geleverd."
+            },
+            {
+              "i": "Maandelijks strategieoverleg + wekelijkse updates",
+              "l": "1 live strategieoverleg per maand (max. 60 min). Wekelijkse updates via Loom-video of schriftelijke samenvatting met: prestatiereview, komende prioriteiten, campagneaanpassingen en strategische aanbevelingen. Jij reageert via tekst, e-mail of spraakmemo. Dagelijkse communicatie verloopt volledig via tekst en e-mail. Geen ad-hoc gesprekken."
+            },
+            {
+              "i": "Design & ontwikkeling (15 uur/mnd)",
+              "l": "15 uur design- en ontwikkelwerk per maand. Omvat: nieuwe funnels, landingspagina's, paginaherontwerpen, functiebouw, grafisch ontwerp, e-mailtemplateontwerp of presentatieontwerp. Uren schuiven alleen door naar de volgende maand (maximaal 30 uur opgebouwd). Volledige websiteherontwerpen of app-ontwikkeling worden apart gescoped en geoffreerd. Tijd maandelijks bijgehouden en gerapporteerd."
+            },
+            {
+              "i": "Kwartaallijkse merkvernieuwing",
+              "l": "1 merkvernieuwing per kwartaal (elke 3 maanden). Inclusief 5 nieuwe creatieve materialen: bijgewerkte social templates, seizoensgebonden advertentiecreatives, vernieuwde e-mailheaders of nieuwe promotiegraphics. Omvat NIET een volledige rebrand (nieuw logo, nieuwe richtlijnen, nieuw merksysteem). Volledige rebrands apart geoffreerd vanaf $6,000+."
+            }
+          ],
+          "ov": [
+            "Design boven 15 uur: $175/uur",
+            "Advertentiebudget >$20K: op maat",
+            "Blogs: $250 per stuk",
+            "Videoclips (4+): $300 per stuk",
+            "Filmen: apart",
+            "Volledige rebrand: $6K+ apart",
+            "AI-agent: $2,500 per stuk",
+            "Weekend/buiten kantooruren: +75%"
+          ],
+          "ex": "Geen fysieke evenementen, geen PR-/mediabenadering, geen video-opnames (alleen montage), geen app-ontwikkeling. Apart geoffreerd.",
+          "ideal": "Bedrijven die $5K+/mnd investeren in advertenties"
+        }
+      ],
+      "social": [
+        {
+          "name": "Social Starter",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mnd",
+          "tag": "1 tot 2 platforms",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Platforms (2 inbegrepen)",
+              "l": "Kies 2 platforms uit: Instagram, LinkedIn, Facebook, TikTok, YouTube of X. Wij verzorgen het posten, inplannen en basis-engagement op beide."
+            },
+            {
+              "i": "Contentcreatie (16 posts/mnd)",
+              "l": "8 posts per platform (16 in totaal per maand). Allemaal statische graphics met geschreven captions en relevante hashtags. Geen videoproductie op dit niveau. Contenttypes: tips, promoties, testimonials, quotes en engagementposts. Graphics ontworpen in je huisstijl met je kleuren, lettertypes en logo."
+            },
+            {
+              "i": "Inplannen & publiceren",
+              "l": "We maken een maandelijkse contentkalender, plannen alle posts in en publiceren op de beste tijden voor jouw doelgroep. De klant moet de contentkalender uiterlijk de 3e van elke maand goedkeuren. Late goedkeuring = posts gaan mogelijk niet live volgens de geplande planning."
+            },
+            {
+              "i": "Basis-engagement",
+              "l": "Tot 30 minuten per dag (alleen werkdagen, maandag t/m vrijdag). Inclusief: reageren op reacties en privéberichten, relevante reacties liken en problemen of negatieve feedback signaleren voor jouw beoordeling. Omvat NIET proactieve outreach of community-opbouw."
+            },
+            {
+              "i": "Maandrapport",
+              "l": "1 rapport per e-mail uiterlijk de 5e van elke maand. Behandelt: volgersgroei, postbereik, engagementpercentage (likes, reacties, shares), best presterende posts en aanbevelingen voor de volgende maand. Geleverd als PDF. Niet live gepresenteerd."
+            },
+            {
+              "i": "Contentrevisies",
+              "l": "1 revisieronde per maandelijkse contentbatch. Alle revisieverzoeken moeten als één gebundeld document worden aangeleverd binnen 3 werkdagen na levering van de contentkalender."
+            },
+            {
+              "i": "Hashtagstrategie",
+              "l": "Initieel hashtagonderzoek voor beide platforms bij de onboarding (3 sets van elk 15 tot 30 hashtags). Eens per kwartaal bijgewerkt. Sets ingedeeld in: groot bereik, niche en gebrande/lokale hashtags."
+            }
+          ],
+          "ov": [
+            "Extra platform: $400/mnd",
+            "Extra posts (8+): $60 per stuk",
+            "Videoreel/short: $175 per stuk",
+            "Extra revisieronde: $175",
+            "Story maken: $30/story"
+          ],
+          "ex": "Geen videoproductie, geen betaalde social advertenties, geen influencer-outreach, geen community-opbouw buiten basis-engagement. Daarvoor is Social Groei of een add-on nodig.",
+          "ideal": "Bedrijven die consistent aanwezig willen zijn op 1 tot 2 kanalen"
+        },
+        {
+          "name": "Social Groei",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/mnd",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "com": "Minimaal 6 maanden",
+          "scope": [
+            {
+              "i": "Platforms (4 inbegrepen)",
+              "l": "Kies 4 platforms: Instagram, LinkedIn, Facebook, TikTok, YouTube of X. Wij verzorgen contentcreatie, inplannen, publiceren en actieve engagement op alle vier."
+            },
+            {
+              "i": "Contentcreatie (48 posts + 4 video's/mnd)",
+              "l": "12 posts per platform (48 in totaal per maand). Mix van statische graphics, carrouselposts (tot 5 slides elk) en tekstposts. 4 korte video's per maand (Reels, Shorts of TikToks) verdeeld over je platforms. Wij monteren video uit beeldmateriaal dat jij aanlevert of maken het met AI-videotools. Wij filmen niet. Alle graphics ontworpen in je huisstijl met geschreven captions, hashtags en CTA's."
+            },
+            {
+              "i": "Inplannen & publiceren",
+              "l": "Complete contentkalender maandelijks opgesteld met postonderwerpen, formats, captions en posttijden. De klant moet de kalender uiterlijk de 3e van elke maand goedkeuren. Wij verzorgen al het inplannen en publiceren op de beste tijden per platform. Late goedkeuring = vertraagde levering zonder garantie op de oorspronkelijke postplanning."
+            },
+            {
+              "i": "Actieve engagement",
+              "l": "Tot 1 uur per dag (werkdagen, maandag t/m vrijdag). Inclusief: reageren op alle reacties en DM's, vermeldingen liken en beantwoorden, en proactieve engagement bij relevante accounts in jouw branche (30 min/dag voor liken, reageren, volgen). Merkmonitoring op vermeldingen en tags. Negatieve reacties of PR-kwesties worden direct bij jou gemeld."
+            },
+            {
+              "i": "Rapportage & strategie",
+              "l": "Maandrapport (geleverd uiterlijk de 5e) met: volgersgroei, bereik, engagementpercentage, topposts en doelgroepdemografie. 1 maandelijkse Loom-video met prestatiereview, contentaanbevelingen en trendkansen. Jij reageert via tekst of e-mail. 1 optioneel live gesprek per maand op aanvraag (max. 30 min)."
+            },
+            {
+              "i": "Videoproductie",
+              "l": "4 korte video's per maand. Elke video: tot 60 seconden, gemonteerd met ondertitels, overgangen, muziek (rechtenvrij) en merkgraphics. Wij monteren uit ruw beeldmateriaal dat jij aanlevert (telefoonclips, schermopnames, interviews) of genereren het met AI-tools. Wij filmen niet en verzorgen geen productie op locatie."
+            },
+            {
+              "i": "Contentrevisies",
+              "l": "2 revisierondes per maandelijkse contentbatch. Alle feedback aangeleverd als één gebundeld document binnen 3 werkdagen na levering."
+            },
+            {
+              "i": "Maandelijkse contentstrategie",
+              "l": "Maandelijkse contentpijlers vastgesteld (3 tot 5 thema's die alle content sturen). Trendmonitoring en aanbevelingen voor actuele/reactieve posts. Hashtagstrategie maandelijks onderhouden en bijgewerkt op alle platforms."
+            }
+          ],
+          "ov": [
+            "Extra platform: $400/mnd",
+            "Extra posts (12+): $50 per stuk",
+            "Extra video: $175 per stuk",
+            "Video-opnames: apart geoffreerd",
+            "Extra live gesprek: $250/uur",
+            "Influencer-outreach: add-on van $600/mnd",
+            "Story maken: $25/story"
+          ],
+          "ex": "Geen video-opnames, geen betaald advertentiebeheer (voeg Google/Meta Ads toe vanuit de hoofdpakketten), geen onderhandeling over influencercontracten. Apart geoffreerd.",
+          "ideal": "Bedrijven die serieus werk willen maken van publiek en engagement"
+        },
+        {
+          "name": "Social Dominantie",
+          "price": 4500,
+          "disp": "$4,500",
+          "per": "/mnd",
+          "tag": "Full-service social",
+          "com": "Minimaal 6 maanden",
+          "scope": [
+            {
+              "i": "Platforms (6 inbegrepen)",
+              "l": "Volledige dekking op 6 platforms: Instagram, LinkedIn, Facebook, TikTok, YouTube en X. Alle contentcreatie, inplannen, publiceren, communitybeheer en strategie volledig uit handen genomen."
+            },
+            {
+              "i": "Contentcreatie (120 posts + 8 video's/mnd)",
+              "l": "20 posts per platform (120 in totaal per maand). Mix van statische graphics, carrousels, stories, tekstposts en polls. 8 korte video's per maand (Reels, Shorts, TikToks) verdeeld over de platforms. Alle graphics in je huisstijl met captions, hashtags en CTA's. Storycontent voor Instagram, Facebook en TikTok waar van toepassing."
+            },
+            {
+              "i": "YouTube-beheer",
+              "l": "2 lange YouTube-video's per maand (alleen montage, uit beeldmateriaal dat jij aanlevert of hergebruikt uit bestaande content). Custom thumbnail ontworpen voor elke video. SEO-geoptimaliseerde titels, beschrijvingen en tags geschreven. Afspeellijsten geordend en eindschermen/kaarten geconfigureerd. Wij monteren en optimaliseren. Wij schrijven geen scripts, filmen niet en produceren geen origineel beeldmateriaal."
+            },
+            {
+              "i": "Volledig communitybeheer",
+              "l": "2 uur per dag, maandag t/m vrijdag. Inclusief: reageren op alle reacties, DM's en vermeldingen op alle platforms. Proactieve outreach: in gesprek gaan met relevante accounts, branchehashtags en potentiële klanten. Merkmonitoring: vermeldingen, tags en relevante gesprekken volgen. Sentimentsignalering: negatieve feedback of PR-zorgen direct naar jou geëscaleerd. Wekelijkse engagementsamenvatting opgenomen in de rapportage."
+            },
+            {
+              "i": "Rapportage & strategie",
+              "l": "Wekelijkse analytics-snapshot per e-mail elke maandag (kerncijfers van alle platforms). Maandelijks diepterapport (geleverd uiterlijk de 5e): volgersgroei, engagementpercentages, bereik, impressies, topcontent, doelgroepdemografie en concurrentiebenchmark. Maandelijkse Loom-video met: prestatiereview, komende campagnes, contentrichting en groeikansen. Jij reageert via tekst of e-mail. 1 optioneel live gesprek per maand op aanvraag (max. 30 min)."
+            },
+            {
+              "i": "Videoproductie (8 korte + 2 lange/mnd)",
+              "l": "8 korte video's (tot 60 seconden elk) met ondertitels, overgangen, rechtenvrije muziek en merkgraphics. 2 lange YouTube-video's (tot 10 minuten elk, gemonteerd uit ruw beeldmateriaal). Wij monteren. Wij filmen niet. Jij levert ruw beeldmateriaal (telefoonclips, interviews, schermopnames, presentaties) of wij maken het met AI-videotools. Professionele montage met gebrande intro's/outro's als je die hebt."
+            },
+            {
+              "i": "Contentrevisies",
+              "l": "2 revisierondes per maandelijkse contentbatch. Alle feedback aangeleverd als één gebundeld document binnen 3 werkdagen."
+            },
+            {
+              "i": "Kwartaallijkse social strategie",
+              "l": "Volledige vernieuwing van de social media-strategie elk kwartaal. Inclusief: updates van contentpijlers, trendanalyse, concurrentieaudit (3 concurrenten), roadmap voor publieksgroei en platformspecifieke aanbevelingen. Strategiedocument geleverd als PDF of slidedeck (tot 10 pagina's). Maandelijkse contentpijlers en trendmonitoring lopen door tussen de kwartalen."
+            },
+            {
+              "i": "Influencercoördinatie",
+              "l": "Outreach naar 5 micro-influencers per maand. Wij onderzoeken, identificeren en benaderen potentiële partners in jouw niche. Wij onderhandelen over de samenwerkingsvoorwaarden (gratis product, betaalde post of contentuitwisseling). Jij keurt alle definitieve deals goed voordat er iets wordt afgesproken. Wij leveren een influencerbrieftemplate en beheren de communicatie tot aan de overeenkomst. Omvat NIET de betaling aan influencers. Dat zijn jouw kosten, los van deze retainer."
+            }
+          ],
+          "ov": [
+            "Extra platform: $400/mnd",
+            "Extra posts (20+): $40 per stuk",
+            "Extra lange video: $500 per stuk",
+            "Video-opnames: apart geoffreerd",
+            "Influencers boven 5: $125/outreach",
+            "Betaald advertentiebeheer: toevoegen vanuit hoofdpakketten",
+            "Extra live gesprek: $250/uur",
+            "Weekendcontent: +50%"
+          ],
+          "ex": "Geen video-opnames/productie (alleen montage), geen betaald advertentiebeheer (apart toe te voegen), geen PR-/persbenadering. Apart geoffreerd.",
+          "ideal": "Merken die volledige social dominantie willen op alle kanalen"
+        }
+      ],
+      "customBuild": [
+        {
+          "name": "Discovery & Scope",
+          "price": 2500,
+          "disp": "$2,500",
+          "tag": "Verplichte eerste stap",
+          "tl": "1 tot 2 weken",
+          "scope": [
+            {
+              "i": "Kickoff-vragenlijst + opgenomen workshop",
+              "l": "Gedetailleerde intakevragenlijst over: bedrijfsdoelen, gebruikerstypes en rollen, kernfuncties, must-haves versus nice-to-haves, integraties (betaling, CRM, e-mail, API's) en verwachtingen rond de planning. Wij nemen je antwoorden door en leveren een opgenomen Loom-video met onze interpretatie en vervolgvragen. Jij reageert via tekst, e-mail of spraakmemo. 1 optioneel live gesprek beschikbaar indien nodig (max. 60 min)."
+            },
+            {
+              "i": "Userflows in kaart",
+              "l": "Visuele diagrammen die laten zien hoe elk gebruikerstype door het systeem beweegt. Bijvoorbeeld: huurder logt in → dient onderhoudsverzoek in → vastgoedbeheerder krijgt melding → wijst leverancier toe → huurder krijgt update. Dekt alle kerngebruikersreizen (5 flows). Geleverd als FigJam- of Miro-board."
+            },
+            {
+              "i": "Technisch architectuurdocument",
+              "l": "Schriftelijke uitwerking van de voorgestelde techstack, databasestructuur, hosting, externe integraties en deploymentplan. Inclusief aanbevelingen over bouwen versus kopen (bijv. eigen betalingsverwerking versus Stripe, eigen auth versus Clerk). Benoemt technische risico's en afhankelijkheden."
+            },
+            {
+              "i": "Wireframes (10 schermen)",
+              "l": "Low-fidelity wireframes voor 10 kernschermen met lay-out, navigatie en contenthiërarchie. Geen pixel-perfect ontwerp. Gericht op structuur en gebruikerservaring. Geleverd in Figma. 1 revisieronde."
+            },
+            {
+              "i": "Scope of Work-document",
+              "l": "Gedetailleerde SOW met: elke functie benoemd en beschreven, fasering (wat wanneer wordt opgeleverd), planningsschatting per fase, vaste prijsofferte voor de volledige build, aannames, uitsluitingen en meerwerkbeleid. Dit vormt de basis van het contract."
+            },
+            {
+              "i": "Vaste prijsofferte voor de build",
+              "l": "Op basis van het discoverywerk geven we een vaste prijsofferte voor de volledige build. Geen verrassingen op uurbasis. Verandert de projectscope na ondertekening, dan gebruiken we een meerwerkproces met vooraf afgesproken tarieven."
+            }
+          ],
+          "ov": [
+            "Extra wireframeschermen: $250 per stuk",
+            "Extra userflowdiagrammen: $300 per stuk",
+            "Add-on concurrentieanalyse: $750 (audit van 3 concurrerende producten)",
+            "Verlenging discovery na 2 weken: $1,200/week"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). De discoveryfee wordt verrekend met de volledige build als je binnen 30 dagen na oplevering doorgaat. Ga je niet door, dan zijn alle deliverables (wireframes, SOW, architectuurdocument) van jou en vrij te gebruiken met elke ontwikkelaar.",
+          "ideal": "Iedereen die een custom build overweegt. Dit is stap één."
+        },
+        {
+          "name": "Standaard Build",
+          "price": 25000,
+          "disp": "$25,000",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "tl": "6 tot 12 weken",
+          "scope": [
+            {
+              "i": "Volledig UI/UX-ontwerp",
+              "l": "Compleet interfaceontwerp in Figma voor alle schermen (doorgaans 15 tot 30 schermen, afhankelijk van de complexiteit). Inclusief: responsive lay-outs voor desktop en mobiel, componentenbibliotheek, designsysteem met je merkkleuren/lettertypes/spacing en interactief prototype voor stakeholderreview. 2 designrevisierondes voordat de ontwikkeling start."
+            },
+            {
+              "i": "Frontend-ontwikkeling",
+              "l": "Gebouwd in Next.js (React) met TypeScript. Volledig responsive op desktop, tablet en mobiel. Server-side rendering voor prestaties en SEO waar van toepassing. Schone, onderhoudbare codebase met componentarchitectuur. Inclusief laadstatussen, foutafhandeling, lege statussen en formuliervalidatie op alle interactieve elementen."
+            },
+            {
+              "i": "Backend-ontwikkeling",
+              "l": "RESTful of GraphQL API gebouwd in Node.js. Databaseontwerp en -implementatie (PostgreSQL of MongoDB, afhankelijk van de projectbehoeften). Gebruikersauthenticatie en rolgebaseerde toegangscontrole (bijv. admin, manager, huurder, leverancier). Datavalidatie, foutafhandeling en API-documentatie. Afhandeling van bestandsuploads indien nodig (afbeeldingen, documenten, tot 10MB per bestand)."
+            },
+            {
+              "i": "Kernfuncties",
+              "l": "Scope vastgelegd in de Discovery-SOW. Standaard builds omvatten doorgaans: gebruikersregistratie en login, rolgebaseerde dashboards, CRUD-bewerkingen voor kerndata (bijv. panden, huurders, verzoeken), zoeken en filteren, notificatiesysteem (e-mail en/of in-app) en basisrapportage/analytics. Functies buiten de SOW vereisen meerwerk."
+            },
+            {
+              "i": "Externe integraties (3 inbegrepen)",
+              "l": "3 integraties met externe diensten. Veelvoorkomende voorbeelden: Stripe (betalingen), Twilio (sms/spraak), SendGrid (e-mail), Google Maps, Calendly, QuickBooks, Zapier of elke dienst met een gedocumenteerde REST API. Elke integratie omvat: setup, datamapping, foutafhandeling en testen. Complexe integraties (bijv. custom ERP, legacy-systemen zonder moderne API's) apart geoffreerd."
+            },
+            {
+              "i": "Hosting & deployment",
+              "l": "Gedeployd naar productie op Vercel (frontend) en Railway, Render of AWS (backend). CI/CD-pipeline geconfigureerd voor automatische deployments vanuit GitHub. SSL-certificaat, custom domein en DNS-configuratie. Beheer van omgevingsvariabelen en secrets. Stagingomgeving inbegrepen om te testen vóór productiereleases."
+            },
+            {
+              "i": "Testen & QA",
+              "l": "Handmatig getest in Chrome, Safari, Firefox en Edge. Mobiel getest op iOS Safari en Android Chrome. Alle kerngebruikersflows end-to-end getest. Bugfixes tijdens de ontwikkeling inbegrepen. Bugfixes na livegang gedekt gedurende 30 dagen (zie overdrachtsvoorwaarden hieronder)."
+            },
+            {
+              "i": "Documentatie",
+              "l": "Technische documentatie: API-endpoints, databaseschema, handleiding voor omgevingssetup en deploymentinstructies. Gebruikersdocumentatie: handleiding voor admins over alle kernfuncties (geleverd als PDF of Notion-pagina, tot 10 pagina's). Codebase voorzien van commentaar en georganiseerd voor toekomstige ontwikkelaars."
+            },
+            {
+              "i": "Revisies",
+              "l": "2 designrevisierondes vóór de ontwikkeling. Tijdens de ontwikkeling wordt feedback afgehandeld via een gedeeld takenbord (Linear of GitHub Issues). Na de ontwikkeling: 1 revisieronde op het eindproduct vóór de lancering. Scopewijzigingen tijdens de ontwikkeling vereisen meerwerk tegen vooraf afgesproken tarieven ($200/uur)."
+            }
+          ],
+          "ov": [
+            "Extra integraties: $3,000 per stuk",
+            "Extra schermen buiten de SOW: $800/scherm",
+            "Meerwerk tijdens de ontwikkeling: $200/uur",
+            "Extra gebruikersrollen: $2,000 per rol",
+            "Geavanceerd rapportage-/analyticsdashboard: $5,000",
+            "Native mobiele app (iOS of Android): zie Enterprise Build"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 25% bij de tussentijdse mijlpaal, 25% bij oplevering (betaaltermijn 7 dagen). Inclusief 30 dagen bugfixes na livegang (alleen voor functies uit de oorspronkelijke SOW). Na 30 dagen gaat doorlopende support over naar een onderhoudsretainer. Alle code is van jou. Volledig eigendom van codebase, designbestanden en documentatie wordt bij projectafronding overgedragen.",
+          "bridge": "Je platform is live en stabiel. Om het draaiend, veilig en in ontwikkeling te houden, raden we onze Dev Support-retainer ($1,500/mnd) of een Urenbank ($2,500/mnd voor 10 uur) aan.",
+          "ideal": "Portalen, dashboards, interne tools en SaaS-MVP's"
+        },
+        {
+          "name": "Enterprise Build",
+          "price": 75000,
+          "disp": "$75,000+",
+          "tag": "Complexe systemen",
+          "tl": "12 tot 24 weken",
+          "scope": [
+            {
+              "i": "Alles uit Standaard Build (uitgebreid)",
+              "l": "Al het ontwerp, frontend, backend, integraties, hosting, testen en documentatie uit de Standaard Build, met een uitgebreide scope voor grotere, complexere systemen. Doorgaans 30 tot 60+ schermen, meerdere gebruikersrollen en complexe bedrijfslogica."
+            },
+            {
+              "i": "Geavanceerde architectuur",
+              "l": "Microservices of modulaire monoliet-architectuur voor schaalbaarheid. Message queues (Redis, RabbitMQ) voor asynchrone verwerking indien nodig. Cachinglaag voor endpoints met veel verkeer. Database-optimalisatie: indexering, query-optimalisatie en connection pooling. Infrastructuur ontworpen voor 10.000+ gelijktijdige gebruikers."
+            },
+            {
+              "i": "AI-gedreven functies",
+              "l": "Custom AI-agents of automatiseringen ingebouwd in het platform. Voorbeelden: AI-zoekfunctie, natuurlijke taalverwerking voor supporttickets, voorspellende analytics, automatische categorisering, slimme aanbevelingen of een AI-chatbot getraind op je platformdata. Inclusief: modelkeuze, prompt engineering, API-integratie en testen. Gebruikt OpenAI, Anthropic of open-sourcemodellen, afhankelijk van de eisen."
+            },
+            {
+              "i": "Mobiele app (indien inbegrepen)",
+              "l": "Cross-platform mobiele app gebouwd in React Native. Gedeelde codebase voor iOS en Android. Pushmeldingen, offline-ondersteuning en native apparaatfuncties (camera, GPS, biometrie). Indiening bij App Store en Google Play door ons verzorgd (jij levert de developeraccounts). Doorgaans 15 tot 25 schermen die de kernfunctionaliteit van de webapp weerspiegelen."
+            },
+            {
+              "i": "Integraties (6 inbegrepen)",
+              "l": "6 externe integraties. Inclusief complexe integraties: betalingsverwerking met uitbetalingen aan meerdere partijen (Stripe Connect), boekhoudsynchronisatie (QuickBooks, Xero), vastgoedbeheer-API's, MLS-feeds, overheids-/compliance-API's of custom webhooksystemen. Integraties met legacy-systemen apart geoffreerd op basis van de kwaliteit van de API-documentatie."
+            },
+            {
+              "i": "Geavanceerde beveiliging & compliance",
+              "l": "Rolgebaseerde toegangscontrole met fijnmazige rechten (bijv. toegang op pand- of unitniveau). Dataversleuteling in rust en onderweg. Auditlogging voor gevoelige acties. GDPR/CCPA-compliancefuncties indien vereist (data-export, verwijderverzoeken). Coördinatie van penetratietests (externe pentest aanbevolen, niet in de prijs inbegrepen)."
+            },
+            {
+              "i": "Multi-tenant-architectuur",
+              "l": "Bij het bouwen van een SaaS: volledige multi-tenant-databasearchitectuur, zodat de data van elke klant geïsoleerd is. Tenant-specifieke configuraties, branding en featureflags. Admin-superpaneel voor het beheren van alle tenants. Gebruiksregistratie en factureringsintegratie indien nodig."
+            },
+            {
+              "i": "Gefaseerde oplevering",
+              "l": "Project opgeleverd in fases (doorgaans 3 of 4). Elke fase heeft eigen deliverables, tests en akkoord. Fase 1 is meestal de kern-MVP (live in productie). Volgende fases voegen stapsgewijs functies toe. Elke fase heeft een vastgelegde planning en deliverablelijst uit de SOW."
+            },
+            {
+              "i": "Revisies & wijzigingsbeheer",
+              "l": "2 designrevisierondes per fase. Feedback beheerd via een gedeeld takenbord (Linear of GitHub Issues). Meerwerk voor scope-uitbreidingen: $200/uur met schriftelijke goedkeuring voordat het werk begint. Wekelijkse statusupdates via Loom-video of schriftelijke samenvatting. Tweewekelijkse opgenomen demovideo's van afgerond werk. Jij bekijkt en reageert wanneer het jou uitkomt. 1 optioneel live gesprek per maand indien nodig."
+            }
+          ],
+          "ov": [
+            "Extra integraties: $5,000 per stuk",
+            "Native mobiele app (indien niet inbegrepen): $30,000",
+            "Extra AI-functies: $10,000 per functie",
+            "Extra fases: afzonderlijk gescoped en geoffreerd",
+            "Coördinatie externe pentest: $5,000",
+            "White-label/multi-tenant add-on (indien niet inbegrepen): $15,000"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 25% bij de tussentijdse mijlpaal, 25% bij oplevering (betaaltermijn 7 dagen). Inclusief 45 dagen bugfixes na livegang per fase. Alle code, designbestanden en documentatie worden bij afronding aan jou overgedragen. Volledig eigendom van de codebase. Na 45 dagen gaat doorlopende support over naar een onderhoudsretainer.",
+          "bridge": "Complexe systemen vragen om doorlopende ontwikkeling, monitoring en optimalisatie. We raden onze Actieve Ontwikkeling-retainer ($7,500/mnd) aan om je platform mee te laten groeien met je bedrijf.",
+          "ideal": "SaaS-platforms, multi-tenant-systemen, AI-geïntegreerde producten en enterprise-tools"
+        }
+      ],
+      "aiAgents": [
+        {
+          "name": "Eén Agent Build",
+          "price": 5000,
+          "disp": "$5,000",
+          "tag": "Eén krachtige agent",
+          "tl": "1 tot 2 weken",
+          "scope": [
+            {
+              "i": "Custom AI-agent (1)",
+              "l": "Eén doelgerichte AI-agent, ontworpen, getraind en gedeployd voor jouw bedrijf. Kies uit: voice-agent, e-mailagent, webscraping-agent, PDF-generatie-agent, klantenservice-chatbot, leadkwalificatie-agent, dataverwerkingsagent, afsprakenagent of elke andere custom toepassing. De agent wordt afgestemd op jouw specifieke workflows, merkstem en databronnen."
+            },
+            {
+              "i": "Agenttraining & configuratie",
+              "l": "Wij configureren het gedrag, de beslislogica en de antwoordpatronen van de agent op basis van jouw eisen. Inclusief: tot 50 trainingsdatapunten (Q&A-paren, scripts of voorbeeldworkflows). Custom fallback-afhandeling en foutreacties. Integratie met 1 extern systeem (CRM, e-mail, agenda, database of API)."
+            },
+            {
+              "i": "Testen & deployment",
+              "l": "Volledige end-to-end-tests voor alle verwachte toepassingen. Afhandeling van randgevallen en stresstests. Gedeployd op jouw infrastructuur of onze beheerde hosting. Inclusief stagingomgeving voor jouw beoordeling vóór livegang."
+            },
+            {
+              "i": "API-sleutelbeveiliging",
+              "l": "Alle API-sleutels en inloggegevens veilig opgeslagen in versleutelde omgevingsvariabelen. Nooit hardcoded of zichtbaar in de broncode. Sleutels worden tijdens runtime ingeladen via de secrets manager van je hostingprovider (Vercel, AWS, enz.). Toegang beperkt tot uitsluitend de uitvoeringsomgeving van de agent. Wij slaan je API-sleutels na deployment nooit op en bewaren ze niet. Jij behoudt te allen tijde volledig eigendom en controle over alle inloggegevens."
+            },
+            {
+              "i": "Documentatie & overdracht",
+              "l": "Documentatie van het agentgedrag: wat hij doet, hoe hij werkt en hoe je hem bijwerkt. Adminhandleiding voor het aanpassen van antwoorden, bijwerken van trainingsdata of pauzeren van de agent. Architectuurdiagram dat laat zien hoe de agent met je systemen is verbonden."
+            }
+          ],
+          "ov": [
+            "Extra integratie: $1,500",
+            "Trainingsdata boven 50 items: $500/batch van 50",
+            "Extra revisieronde: $350",
+            "Spoedlevering (binnen 1 week): +40%",
+            "Agent hertrainen: $750"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 2 revisierondes. Het eigendom van de agent gaat over naar jou.",
+          "bridge": "Je agent is live. Wil je hem gemonitord, geoptimaliseerd en hertraind houden? Voeg onze Agent Onderhoud-retainer ($1,500/mnd) of Agent Groei-retainer ($3,500/mnd) toe.",
+          "ideal": "Bedrijven die één specifieke workflow automatiseren"
+        },
+        {
+          "name": "Agent Team",
+          "price": 14500,
+          "disp": "$14,500",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "tl": "2 tot 4 weken",
+          "scope": [
+            {
+              "i": "Custom AI-agents (3)",
+              "l": "Drie onderling verbonden AI-agents die als gecoördineerd systeem werken. Voorbeeldopstellingen: (1) Voice-agent beantwoordt oproepen + e-mailagent stuurt opvolging + CRM-agent werkt de pipeline bij. (2) Scraping-agent verzamelt data + verwerkingsagent maakt rapporten op + e-mailagent verspreidt ze. (3) Chatbot vangt leads op + kwalificatie-agent scoort ze + boekingsagent plant gesprekken in. Agents communiceren met elkaar en delen automatisch data."
+            },
+            {
+              "i": "Workfloworkestratie",
+              "l": "Custom beslisboom die vastlegt hoe agents werk aan elkaar overdragen. Voorwaardelijke logica: agents ondernemen verschillende acties op basis van data, tijdstip, leadscore of eigen regels. Foutafhandeling: valt één agent uit, dan krijg jij een melding en wordt de taak in de wachtrij gezet voor een nieuwe poging. Alle communicatie tussen agents gelogd en controleerbaar."
+            },
+            {
+              "i": "Integraties (3 inbegrepen)",
+              "l": "3 integraties met externe systemen voor je agentteam. Veelvoorkomende integraties: GoHighLevel, HubSpot, Salesforce, Google Workspace, Slack, Twilio, Stripe, Shopify, Zapier, Make of elke dienst met een REST API. Elke integratie omvat: datamapping, authenticatie, foutafhandeling en retry-logica."
+            },
+            {
+              "i": "API-sleutelbeveiliging",
+              "l": "Alle API-sleutels, tokens en inloggegevens opgeslagen in versleutelde omgevingsvariabelen en de secrets manager van je hostingprovider. Nooit hardcoded, nooit in de broncode, nooit in logs. De inloggegevens van elke agent zijn geïsoleerd, zodat de ene agent geen toegang heeft tot de sleutels van de andere. Wij slaan je API-sleutels na deployment nooit op en bewaren ze niet. Jij behoudt te allen tijde volledig eigendom en controle over alle inloggegevens."
+            },
+            {
+              "i": "Agenttraining & testen",
+              "l": "Elke agent getraind op tot 75 datapunten. Volledige end-to-end-test van de complete agentworkflow (niet alleen de afzonderlijke agents). Loadtests voor scenario's met hoog volume. Acceptatietest met jouw team vóór livegang."
+            }
+          ],
+          "ov": [
+            "Extra agent: $2,500",
+            "Extra integratie: $1,500",
+            "Trainingsdata boven 75/agent: $500/batch",
+            "Extra revisieronde: $400",
+            "Spoedlevering: +40%"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 2 revisierondes. Het eigendom van alle agents en code gaat over naar jou.",
+          "bridge": "Je agentteam is live en werkt samen. Voor doorlopende optimalisatie, hertraining en nieuwe agents voeg je onze Agent Groei-retainer ($3,500/mnd) of Agent Command Center-retainer ($7,500/mnd) toe.",
+          "ideal": "Bedrijven die meerstapsworkflows end-to-end automatiseren"
+        },
+        {
+          "name": "AI Operations",
+          "price": 25000,
+          "disp": "$25,000+",
+          "tag": "Enterprise AI-ecosysteem",
+          "tl": "4 tot 8 weken",
+          "scope": [
+            {
+              "i": "Custom AI-agents (5+)",
+              "l": "Vijf of meer AI-agents ontworpen als complete operationele laag voor je bedrijf. Dekt meerdere afdelingen: sales, support, marketing, operations en data. Elke agent doelgericht gebouwd voor jouw workflows. Geen templates, geen generieke opstellingen. Agenttypes omvatten elke combinatie van: voice, e-mail, chat, scraping, PDF-generatie, dataverwerking, planning, contentcreatie, leadscoring en custom toepassingen."
+            },
+            {
+              "i": "AI-orkestratielaag",
+              "l": "Centraal coördinatiesysteem dat alle agents aanstuurt. Intelligente routering: taken automatisch toegewezen aan de juiste agent op basis van type, prioriteit en context. Wachtrijbeheer voor scenario's met hoog volume. Communicatie tussen agents met gedeeld geheugen en contextoverdracht. Retry-logica, fallback-afhandeling en gecontroleerde afbouw wanneer agents fouten tegenkomen."
+            },
+            {
+              "i": "Integraties (6 inbegrepen)",
+              "l": "6 externe integraties die je agent-ecosysteem koppelen aan je bedrijfstools. Inclusief complexe integraties: meerstapsworkflows over CRM + e-mail + agenda + betaalsystemen. Webhook-listeners voor realtime triggers. Datasynchronisatie tussen platforms met conflictoplossing."
+            },
+            {
+              "i": "Beveiliging & compliance",
+              "l": "Alle API-sleutels, tokens en inloggegevens opgeslagen in versleutelde omgevingsvariabelen en enterprise-grade secretsbeheer. Nooit hardcoded, nooit in de broncode, nooit in logs. De inloggegevens van elke agent zijn volledig geïsoleerd. Dataversleuteling voor alle agentcommunicatie (onderweg en in rust). Rolgebaseerde toegangscontrole voor agentbeheer. Auditlogging voor elke agentactie (wie, wat, wanneer). PII-verwerkingsprotocollen geconfigureerd volgens jouw eisen. Dataretentiebeleid automatisch afgedwongen. Wij slaan je API-sleutels na deployment nooit op en bewaren ze niet. Jij behoudt volledig eigendom en controle."
+            },
+            {
+              "i": "Training & onboarding",
+              "l": "Elke agent getraind op tot 150 datapunten. Uitgebreide reeks opgenomen Loom-video's die je team laat zien hoe je agents beheert, monitort en bijwerkt. Runbook-documentatie voor elke agent: wat hij doet, hoe je hem aanpast en stappen voor probleemoplossing. Alle training geleverd als opgenomen video. Je team kijkt wanneer het uitkomt. Vragen binnen 1 werkdag beantwoord via tekst of e-mail."
+            }
+          ],
+          "ov": [
+            "Extra agent: $2,500 per stuk",
+            "Extra integratie: $2,000",
+            "Custom AI-model fine-tunen: $5,000",
+            "Live trainingssessie: $250/uur",
+            "Spoedlevering: +30%"
+          ],
+          "ho": "Betaling: 50% aanbetaling bij de start, 25% bij de tussentijdse mijlpaal, 25% bij oplevering (betaaltermijn 7 dagen). Opgeleverd in fases (doorgaans 2 of 3). Elke fase heeft vastgelegde deliverables en akkoord. Het eigendom van alle code en agents gaat bij afronding over naar jou.",
+          "bridge": "Je AI-ecosysteem is volledig operationeel. Om het draaiend, geoptimaliseerd en groeiend te houden, voeg je onze Agent Command Center-retainer ($7,500/mnd) toe.",
+          "ideal": "Bedrijven die handmatige processen op schaal vervangen door intelligente automatisering"
+        }
+      ],
+      "monthlyAgent": [
+        {
+          "name": "Agent Onderhoud",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mnd",
+          "tag": "Houd je agents draaiend",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Agentmonitoring (tot 3)",
+              "l": "24/7 uptime- en foutmonitoring voor maximaal 3 AI-agents. Automatische alerts als een agent uitvalt, fouten begint te maken of de antwoordnauwkeurigheid onder de drempel zakt. Wij onderzoeken en lossen problemen op binnen 1 werkdag."
+            },
+            {
+              "i": "Trainingsdata-updates (15/mnd)",
+              "l": "Tot 15 trainingsdata-updates per maand over alle agents. Omvat: nieuwe Q&A-paren toevoegen, antwoorden verfijnen, scripts bijwerken en onjuiste antwoorden corrigeren. Updates binnen 2 werkdagen na aanvraag doorgevoerd."
+            },
+            {
+              "i": "API- & integratiecontroles",
+              "l": "Maandelijkse controle of alle API-verbindingen en externe integraties werken. Proactieve monitoring op API-deprecaties, wijzigingen in rate limits en verlopende authenticatie. Alle API-sleutels veilig opgeslagen in versleutelde omgevingsvariabelen. Nooit zichtbaar in code of logs."
+            },
+            {
+              "i": "Maandelijks prestatierapport",
+              "l": "Rapport geleverd uiterlijk de 5e van elke maand met: antwoordnauwkeurigheid van agents, voltooiingspercentages, foutpercentages, gebruiksvolume en integratiestatus. Inclusief aanbevelingen om de prestaties te verbeteren. Geleverd als PDF of Loom-video."
+            },
+            {
+              "i": "Support",
+              "l": "Support via tekst en e-mail met reactietijd van 48 uur (werkdagen). Tot 8 supportverzoeken per maand. Elk verzoek = 1 specifiek probleem of vraag. Verzoeken boven de 8 gefactureerd tegen $200/uur."
+            }
+          ],
+          "ov": [
+            "Extra agentmonitoring: $300/mnd per agent",
+            "Trainingsupdates boven 15: $50 per stuk",
+            "Spoedfix buiten kantooruren: +50%",
+            "Nieuwe agent bouwen: apart geoffreerd"
+          ],
+          "ex": "Geen nieuwe agents, geen nieuwe integraties, geen nieuwe automatiseringsworkflows. Dit is uitsluitend monitoring en onderhoud. Voor actieve agentontwikkeling, zie Agent Groei.",
+          "ideal": "Bedrijven met live agents die accuraat en online moeten blijven"
+        },
+        {
+          "name": "Agent Groei",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/mnd",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "com": "Minimaal 6 maanden",
+          "scope": [
+            {
+              "i": "Alles uit Agent Onderhoud",
+              "l": "Alle monitoring, trainingsupdates, API-controles, maandrapportage en support uit Agent Onderhoud, met de uitgebreide limieten hieronder."
+            },
+            {
+              "i": "Agentmonitoring (tot 6)",
+              "l": "24/7 uptime- en foutmonitoring voor maximaal 6 AI-agents. Automatische alerts, onderzoek en oplossing binnen 4 werkuren."
+            },
+            {
+              "i": "Trainingsdata-updates (40/mnd)",
+              "l": "Tot 40 trainingsdata-updates per maand over alle agents. Inclusief: nieuwe Q&A-paren, scriptrevisies, workflowaanpassingen en verfijning van antwoorden. Updates binnen 1 werkdag doorgevoerd."
+            },
+            {
+              "i": "1 nieuwe automatiseringsworkflow/mnd",
+              "l": "1 nieuwe automatiseringsworkflow per maand gebouwd (bijv. nieuwe leadnurturing-reeks, upsell-trigger, heractiveringscampagne of interne meldingsflow). De workflow sluit aan op je bestaande agents en integraties."
+            },
+            {
+              "i": "Maandelijkse strategie-update",
+              "l": "Maandelijkse Loom-video met: review van agentprestaties, optimalisatieaanbevelingen en komende prioriteiten. Jij reageert via tekst of e-mail. 1 optioneel live gesprek per maand op aanvraag (max. 30 min)."
+            },
+            {
+              "i": "API-sleutelbeveiliging & beheer",
+              "l": "Alle API-sleutels en inloggegevens opgeslagen in versleutelde omgevingsvariabelen en secretsbeheer. Maandelijkse herinneringen voor het roteren van inloggegevens. Proactieve monitoring op blootgestelde of gecompromitteerde sleutels. Jij behoudt volledig eigendom en controle over alle inloggegevens."
+            },
+            {
+              "i": "Prioriteitssupport",
+              "l": "Support via tekst en e-mail met reactietijd van 24 uur (werkdagen). Kritieke agentstoringen: dezelfde dag opgepakt tijdens kantooruren. Tot 15 supportverzoeken per maand."
+            }
+          ],
+          "ov": [
+            "Extra agentmonitoring: $250/mnd per agent",
+            "Trainingsupdates boven 40: $40 per stuk",
+            "Extra workflow bouwen: $1,500",
+            "Nieuwe agent bouwen: $2,500",
+            "Spoed buiten kantooruren: +50%"
+          ],
+          "ex": "Geen enterprise-orkestratie, geen complianceframeworks, geen dedicated strateeg. Voor volledig AI-operationeel beheer, zie Agent Command Center.",
+          "ideal": "Bedrijven die hun AI-agentmogelijkheden actief uitbreiden"
+        },
+        {
+          "name": "Agent Command Center",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/mnd",
+          "tag": "Volledig AI-beheer",
+          "com": "Minimaal 6 maanden",
+          "scope": [
+            {
+              "i": "Alles uit Agent Groei",
+              "l": "Alle monitoring, trainingsupdates, workflowbouw, strategie-updates, API-beveiliging en prioriteitssupport uit Agent Groei, met de uitgebreide limieten hieronder."
+            },
+            {
+              "i": "Agentmonitoring (onbeperkt)",
+              "l": "24/7 monitoring voor alle actieve agents zonder limiet. Automatische alerts, onderzoek en oplossing binnen 2 werkuren. Inclusief monitoring van de orkestratielaag voor multi-agentsystemen."
+            },
+            {
+              "i": "Trainingsdata-updates (onbeperkt)",
+              "l": "Onbeperkte trainingsdata-updates over alle agents. Scriptrevisies, workflowaanpassingen, nieuwe Q&A-paren en het afstemmen van antwoorden, zo vaak als nodig en zonder limiet. Updates binnen 1 werkdag doorgevoerd."
+            },
+            {
+              "i": "3 nieuwe automatiseringsworkflows/mnd",
+              "l": "3 nieuwe automatiseringsworkflows per maand gebouwd. Complexe meerstapsworkflows die agents, integraties en voorwaardelijke logica omspannen. Inclusief testen, deployment en documentatie voor elke workflow."
+            },
+            {
+              "i": "Maandelijks strategieoverleg + wekelijkse updates",
+              "l": "1 live strategieoverleg per maand (max. 60 min). Wekelijkse Loom-updates over prestaties, komende prioriteiten en optimalisatieaanbevelingen. Jij reageert via tekst of e-mail. Dagelijkse communicatie verloopt volledig via tekst en e-mail. Geen ad-hoc gesprekken."
+            },
+            {
+              "i": "Enterprise-beveiliging & compliance",
+              "l": "Alle API-sleutels en inloggegevens beheerd via enterprise-grade secretsbeheer. Isolatie van inloggegevens per agent. Auditlogging voor elke agentactie. Maandelijkse beveiligingsreview met: status van inloggegevens, toegangscontroles, dataverwerking en compliancestatus. PII-verwerkingsprotocollen onderhouden en bijgewerkt waar nodig. Jij behoudt volledig eigendom van alle inloggegevens."
+            },
+            {
+              "i": "Nieuwe agents bouwen (1/mnd inbegrepen)",
+              "l": "1 nieuwe AI-agent per maand inbegrepen in de scope. Omvat: ontwerp, training, testen, deployment en documentatie. Extra agents geoffreerd tegen kortingstarief ($2,000 per stuk versus $5,000 los)."
+            },
+            {
+              "i": "Kwartaallijkse AI-audit",
+              "l": "Elke 3 maanden: uitgebreide audit van je volledige AI-ecosysteem met agentprestaties, nauwkeurigheidstrends, kostenefficiëntie, integratiegezondheid en aanbevelingen voor nieuwe automatiseringskansen. Geleverd als schriftelijk rapport."
+            }
+          ],
+          "ov": [
+            "Extra agent bouwen: $2,000 per stuk",
+            "Extra workflow: $1,000",
+            "Custom AI-model fine-tunen: $5,000",
+            "Live trainingssessie: $250/uur",
+            "Spoed buiten kantooruren: +50%"
+          ],
+          "ex": "Geen marketing, geen advertenties, geen contentcreatie, geen social media management. Zie voor die diensten onze Marketingretainers of Social Media-pakketten.",
+          "ideal": "Bedrijven die AI inzetten als kern van hun dagelijkse operatie"
+        }
+      ],
+      "customSupport": [
+        {
+          "name": "Urenbank",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/mnd",
+          "tag": "Flexibele support",
+          "com": "Maandelijks opzegbaar (geen minimum)",
+          "scope": [
+            {
+              "i": "Kies je uren",
+              "l": "Koop elke maand een blok ontwikkeluren. 10 uur/mnd = $2,500 ($250/uur). 20 uur/mnd = $4,500 ($225/uur). 30 uur/mnd = $6,000 ($200/uur). 40+ uur/mnd = maatwerktarief. Uren dekken elke combinatie van: bugfixes, functie-updates, designwijzigingen, integraties of advies."
+            },
+            {
+              "i": "Zo werkt het",
+              "l": "Je dient verzoeken in via een gedeeld takenbord (Linear, GitHub Issues of e-mail). Wij schatten de uren in voordat we aan een taak beginnen en vragen je akkoord. Werk wordt bijgehouden en wekelijks gerapporteerd met een tijdlog dat precies laat zien wat er is gedaan en hoelang het duurde. Ongebruikte uren schuiven NIET door naar de volgende maand."
+            },
+            {
+              "i": "Reactietijd",
+              "l": "Verzoeken binnen 1 werkdag bevestigd. Bugfixes geprioriteerd op ernst: kritiek (dezelfde dag opgepakt), groot (binnen 2 werkdagen), klein (binnen 5 werkdagen). Functieverzoeken en verbeteringen ingepland in de huidige of volgende factureringsperiode."
+            },
+            {
+              "i": "Maandelijkse samenvatting",
+              "l": "Rapport aan het einde van de maand met: gebruikte uren, afgeronde taken, resterende uren en openstaande punten die doorlopen naar de volgende maand. Geen verrassingen."
+            },
+            {
+              "i": "Wat is gedekt",
+              "l": "Bugfixes en patches, kleine functietoevoegingen, UI/UX-verbeteringen, databasewijzigingen, API-updates, onderhoud van externe integraties, prestatieoptimalisatie, beveiligingspatches en advies. Omvat NIET: volledige functiebouw van 40+ uur (gescoped als apart project), ontwerp vanaf nul (gebruik onze designretainer of projectprijzen) of 24/7 piketdienst."
+            }
+          ],
+          "ov": [
+            "Uren boven je bank: $275/uur",
+            "Spoed/kritieke fix dezelfde dag: +50% op gebruikte uren",
+            "Weekendwerk: +75% op gebruikte uren"
+          ],
+          "ex": "Geen gegarandeerde SLA. Geen 24/7 monitoring. Geen dedicated ontwikkelaar (het team pakt verzoeken op in de wachtrij). Voor gegarandeerde reactietijden en dedicated capaciteit, zie de Dev Support-niveaus hieronder.",
+          "ideal": "Kleine apps, tools of projecten na livegang die af en toe een update nodig hebben"
+        },
+        {
+          "name": "Dev Support",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mnd",
+          "tag": "Houd het draaiend",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Server- & infrastructuurmonitoring",
+              "l": "24/7 uptime-monitoring met automatische alerts. Servergezondheidscontroles: CPU, geheugen, schijf en responstijd. Gaat je app offline, dan krijgen wij direct een melding en starten we binnen 1 uur met onderzoek tijdens kantooruren (maandag t/m vrijdag, 9 tot 17 uur). Afstemming met de hostingprovider bij infrastructuurproblemen."
+            },
+            {
+              "i": "Beveiligingsonderhoud",
+              "l": "Maandelijkse dependency-updates (npm, pip, systeempakketten). Scannen en patchen van beveiligingslekken. Beheer van SSL-certificaatvernieuwing. Verificatie van databaseback-ups (back-ups ingericht tijdens de build; wij controleren of ze draaien en testen elk kwartaal het terugzetten). Monitoring op ongeautoriseerde toegangspogingen."
+            },
+            {
+              "i": "Bugfixes (5 uur/mnd inbegrepen)",
+              "l": "5 uur bugfix- en patchwerk per maand. Omvat: kapotte functies, weergaveproblemen, API-fouten en integratiestoringen binnen de oorspronkelijke buildscope. Uren maandelijks bijgehouden en gerapporteerd. Bugs door wijzigingen in externe API's of problemen bij de hostingprovider zijn gedekt. Bugs door ongeautoriseerde codewijzigingen (door jou of een andere ontwikkelaar) worden gefactureerd."
+            },
+            {
+              "i": "Databasebeheer",
+              "l": "Maandelijkse databasegezondheidscontrole: queryprestaties, indexoptimalisatie, opslaggebruik en monitoring van de connection pool. Back-upverificatie en testherstel (per kwartaal). Aanbevelingen voor dataopschoning als de opslag boven de verwachte limieten groeit. Omvat NIET grote schemawijzigingen of datamigraties (apart geoffreerd)."
+            },
+            {
+              "i": "Maandelijks gezondheidsrapport",
+              "l": "Rapport per e-mail uiterlijk de 5e van elke maand met: uptimepercentage, serverprestaties, toegepaste beveiligingspatches, opgeloste bugs, back-upstatus en eventuele verbeteraanbevelingen. Geleverd als PDF of dashboardlink."
+            },
+            {
+              "i": "Supportkanaal",
+              "l": "E-mailsupport met reactietijd van 24 uur (werkdagen). Tot 8 supportverzoeken per maand. Elk verzoek = 1 specifiek probleem of vraag. Verzoeken boven de 8 gefactureerd tegen $200/uur."
+            }
+          ],
+          "ov": [
+            "Bugfixes boven 5 uur: $200/uur",
+            "Spoedreactie buiten kantooruren: +50%",
+            "Databasemigratie: apart geoffreerd",
+            "Functietoevoegingen: gebruik de Urenbank of projectprijzen",
+            "Prestatie-audit: $2,000 eenmalig"
+          ],
+          "ex": "Geen functieontwikkeling, geen designwerk, geen contentupdates, geen advertentiebeheer. Dit is uitsluitend infrastructuur- en code-onderhoud. Voor actieve ontwikkeling, zie Actieve Ontwikkeling of de Urenbank.",
+          "ideal": "Stabiele apps die veilig, gemonitord en gepatcht moeten blijven"
+        },
+        {
+          "name": "Actieve Ontwikkeling",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/mnd",
+          "tag": "Continue verbetering",
+          "pop": true,
+          "com": "Minimaal 6 maanden",
+          "scope": [
+            {
+              "i": "Alles uit Dev Support",
+              "l": "Alle monitoring, beveiliging, bugfixes (5 uur), databasebeheer en maandrapportage uit Dev Support, inbegrepen als basis."
+            },
+            {
+              "i": "Functieontwikkeling (35 uur/mnd)",
+              "l": "35 dedicated ontwikkeluren per maand voor het bouwen van nieuwe functies, het verbeteren van bestaande of het uitbreiden van je platform. Uren dekken: nieuwe functies, UI/UX-verbeteringen, nieuwe integraties, prestatieoptimalisatie en architectuurverbeteringen. Ongebruikte uren schuiven alleen door naar de volgende maand (maximaal 52 uur opgebouwd)."
+            },
+            {
+              "i": "Samenwerking aan de productroadmap",
+              "l": "Maandelijkse roadmapreview via Loom-video over komende functies, prioriteiten en aanbevelingen. Wij onderhouden een gedeeld takenbord (Linear of GitHub Issues) met geprioriteerde items, statusbewaking en tijdschattingen. Jij bepaalt de prioriteiten via het takenbord of per bericht. Wij adviseren over technische haalbaarheid, inspanning en volgorde. 1 optioneel live gesprek per maand op aanvraag (max. 60 min)."
+            },
+            {
+              "i": "Design inbegrepen",
+              "l": "3 uur designwerk per maand inbegrepen (UI-updates, nieuwe schermlay-outs, componentontwerp). Omvat: wireframes, mockups en kleine updates van het designsysteem. Volledige pagina- of functieherontwerpen van 5+ designuren worden apart geoffreerd."
+            },
+            {
+              "i": "Tweewekelijkse demovideo's",
+              "l": "Elke 2 weken nemen we een Loom-demo op van afgerond werk en functies in ontwikkeling. Jij bekijkt het wanneer het uitkomt en geeft feedback via tekst, e-mail of het takenbord. Houdt het project in beweging en voorkomt misverstanden. Geen live gesprekken nodig."
+            },
+            {
+              "i": "Prioriteitssupport",
+              "l": "Support via tekst en e-mail met reactietijd van 4 uur (werkdagen). Kritieke bugs: dezelfde dag opgepakt tijdens kantooruren. Tot 15 supportverzoeken per maand. Alle communicatie via tekst en e-mail. Geen geplande gesprekken nodig."
+            },
+            {
+              "i": "Kwartaallijkse prestatiereview",
+              "l": "Elke 3 maanden: uitgebreide platformaudit van prestaties (laadtijden, API-responstijden), beveiligingsstatus, infrastructuurkosten en technische schuld. Optimalisatieaanbevelingen geleverd als schriftelijk rapport."
+            }
+          ],
+          "ov": [
+            "Ontwikkeling boven 35 uur: $225/uur",
+            "Spoed buiten kantooruren: +50%",
+            "Weekenddeployment: +75%",
+            "Volledige functiebouw boven 40 uur: gescoped als apart project tegen kortingstarief",
+            "Design boven 3 uur: $200/uur"
+          ],
+          "ex": "Geen 24/7 piketdienst. Geen dedicated fulltime ontwikkelaar (gedeeld team met prioriteitstoegang). Geen mobiele app-ontwikkeling op dit niveau (apart gescoped). Geen marketing, advertenties of contentdiensten. Zie daarvoor onze marketingpakketten.",
+          "ideal": "Groeiende platforms die elke maand nieuwe functies uitrollen"
+        }
+      ],
+      "appBuild": [
+        {
+          "name": "Launchpad",
+          "price": 9500,
+          "disp": "$9,500",
+          "tag": "Valideer je idee",
+          "tl": "4-6 weken",
+          "scope": [
+            {
+              "i": "iOS of Android (jouw keuze), React Native",
+              "l": "Mobiele app voor één platform, gebouwd in React Native. Je kiest bij de kickoff voor iOS of Android; het andere platform kan later als uitbreiding worden toegevoegd."
+            },
+            {
+              "i": "Tot 4 schermen ontworpen in Figma",
+              "l": "Volledig Figma-ontwerp voor maximaal 4 unieke schermen (home, detail, profiel en 1 custom). 2 designrevisierondes. Tablet-/iPad-lay-outs niet inbegrepen op dit niveau."
+            },
+            {
+              "i": "Tot 3 API-integraties",
+              "l": "Auth-provider (Apple/Google/e-mail), 1 externe API naar keuze (kaarten, weer, agenda, enz.) en 1 analytics-integratie (Mixpanel of PostHog)."
+            },
+            {
+              "i": "Basisauthenticatie",
+              "l": "E-mail + inloggen met Apple/Google. Profielscherm met naam, avatar en uitloggen. Geen multi-tenant, geen teamaccounts, geen SSO."
+            },
+            {
+              "i": "Indiening bij App Store of Play Store",
+              "l": "Eén store-indiening volledig verzorgd: screenshots ontworpen, beschrijving geschreven, metadata geoptimaliseerd, ingediend onder jouw developeraccount."
+            },
+            {
+              "i": "30 dagen garantie na livegang",
+              "l": "Bugs gemeld in de eerste 30 dagen na storegoedkeuring worden kosteloos opgelost. Functieverzoeken apart gescoped."
+            },
+            {
+              "i": "Overdracht broncode + documentatie",
+              "l": "Volledige GitHub-repo met README, .env.example, deploymentinstructies en een opgenomen walkthrough van 30 min."
+            }
+          ],
+          "ov": [
+            "Extra scherm: $650",
+            "Tweede platform (iOS of Android toevoegen): +$4,500",
+            "Extra API-integratie: $450",
+            "Tablet-/iPad-lay-outs: +$1,800"
+          ],
+          "ex": "Geen custom backend-build (gebruikt je bestaande API's of een no-code backend zoals Supabase). Geen in-app-aankopen. Geen pushmeldingen. Geen offline-first-modus.",
+          "bridge": "Na de garantie van 30 dagen gaat het onderhoud over naar ons Keep Alive-plan ($1,950/mnd) om bij te blijven met iOS-/Android-updates en store-herindieningen.",
+          "ideal": "Founders die een idee valideren met een gerichte MVP voor één platform"
+        },
+        {
+          "name": "Studio",
+          "price": 24500,
+          "disp": "$24,500",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "tl": "8-12 weken",
+          "scope": [
+            {
+              "i": "iOS + Android cross-platform",
+              "l": "Eén React Native-codebase (of Flutter op verzoek) die bouwt voor zowel iOS als Android. Platformspecifieke afwerking waar het telt: iOS-haptics, Android Material-componenten."
+            },
+            {
+              "i": "Tot 10 schermen volledig ontworpen",
+              "l": "Volledig Figma-ontwerp met 10 unieke schermen, inclusief een compleet interactief prototype. 3 revisierondes per schermbatch."
+            },
+            {
+              "i": "Tot 6 API-integraties",
+              "l": "Auth, betalingen (Stripe of RevenueCat), pushmeldingen (OneSignal of Firebase), analytics (Mixpanel/Amplitude) en 2 custom externe integraties naar keuze."
+            },
+            {
+              "i": "Gebruikersaccounts + pushmeldingen",
+              "l": "Volledige registratie-/loginflow, profielscherm met bewerken, wachtwoordherstel en pushmeldingen aangesloten (toestemmingsflow + transactionele meldingen)."
+            },
+            {
+              "i": "Crashlytics + analytics aangesloten",
+              "l": "Crashlytics (Firebase of Sentry) op beide platforms met een crashrapportagedashboard. Analytics-pipeline met 8 belangrijke gebruikersevents getrackt."
+            },
+            {
+              "i": "Indiening bij App Store + Play Store",
+              "l": "Beide stores volledig ingediend: ontworpen screenshots, geschreven beschrijvingen, zoekwoordonderzoek en privacylabels voor beide."
+            },
+            {
+              "i": "60 dagen garantie na livegang",
+              "l": "Bugs gemeld binnen 60 dagen na storegoedkeuring gratis opgelost. Inclusief afhandeling van de eerste OS-update na lancering als Apple/Google een breaking change uitbrengt."
+            },
+            {
+              "i": "1 uur/week Slack-support gedurende 30 dagen",
+              "l": "Gedeeld Slack-kanaal gedurende 30 dagen na livegang. Tot 1 uur/week aan asynchrone Q&A, kleine aanpassingen of overdrachtsvragen."
+            }
+          ],
+          "ov": [
+            "Extra scherm: $850",
+            "Custom native module: $175/uur",
+            "Extra integratie: $650",
+            "Verlengde garantie (+30 dagen): $1,200"
+          ],
+          "ho": "Volledige code-overdracht na livegang: GitHub-repo, EAS/Fastlane CI-configuratie, deploymentdocumentatie, env-template en een opgenomen walkthrough van 60 min. Jouw team neemt het over of wij gaan door op retainer.",
+          "bridge": "Inclusief 60 dagen na livegang. Actieve iteratie daarna loopt via ons Momentum-plan ($4,800/mnd): 20 engineeringuren, functiewerk en A/B-tests per maand.",
+          "ideal": "Teams die een gepolijst cross-platformproduct lanceren voor echte gebruikers"
+        },
+        {
+          "name": "Flagship",
+          "price": 62000,
+          "disp": "$62,000",
+          "tag": "Volledige productbuild",
+          "tl": "14-18 weken",
+          "scope": [
+            {
+              "i": "iOS + Android + custom Node/Postgres-backend",
+              "l": "Full-stackproduct: React Native-app op beide platforms plus een custom Node.js-backend met Postgres, gehost op jouw infrastructuur (AWS, Railway of Vercel)."
+            },
+            {
+              "i": "Tot 20 schermen met volledig designsysteem",
+              "l": "Figma-designsysteem met herbruikbare componenten. Tot 20 unieke schermen volledig ontworpen. Onbeperkte revisies binnen de afgesproken scope."
+            },
+            {
+              "i": "Tot 12 API-/externe integraties",
+              "l": "Stripe, Twilio, Segment, webhooks, enz. 12 externe integraties naar keuze aangesloten met retry- en foutafhandeling."
+            },
+            {
+              "i": "Admindashboard (web)",
+              "l": "Webgebaseerde admin-app voor content- en gebruikersbeheer. Rolgebaseerde toegang, auditlog en standaard CRUD-flows voor je datamodellen."
+            },
+            {
+              "i": "Realtime functie",
+              "l": "1 realtime functie naar keuze: in-app chat, live updates of webhook-gedreven push. Gebouwd op WebSockets of Pusher/Ably."
+            },
+            {
+              "i": "Betalingen + rolgebaseerde auth",
+              "l": "Stripe of RevenueCat voor in-app-abonnementen. Rolgebaseerde auth (gebruiker / admin / custom rollen) met JWT + refresh tokens."
+            },
+            {
+              "i": "CI/CD-pipeline + staging",
+              "l": "EAS- of Fastlane-CI/CD voor beide platforms. Aparte stagingomgeving voor QA. Automatische deploy naar TestFlight/intern bij merge."
+            },
+            {
+              "i": "Indiening bij App Store + Play Store + ASO-kit",
+              "l": "Beide stores ingediend plus een App Store Optimization-starterkit: zoekwoordonderzoek, concurrentieanalyse en 3 variantexperimenten klaar om te draaien."
+            },
+            {
+              "i": "90 dagen garantie na livegang",
+              "l": "Bugs gemeld binnen 90 dagen na storegoedkeuring gratis opgelost. Inclusief 2 discoveryworkshops om de volgende fase te scopen."
+            }
+          ],
+          "ov": [
+            "Extra scherm: $1,100",
+            "Custom native module: $185/uur",
+            "Extra realtime functie: $6,500",
+            "Extra discoveryworkshop: $1,800"
+          ],
+          "ho": "Complete overdracht: GitHub-monorepo, CI/CD-configuratie, infra-as-code (Terraform of Pulumi op verzoek), runbook voor deployments en rollbacks, en een videowalkthrough van 90 min met zowel het mobile- als het backendteam.",
+          "bridge": "Inclusief 90 dagen na livegang. Embedded samenwerking daarna loopt via ons Partner-plan ($10,500/mnd) met een dedicated engineer en fractional designer.",
+          "ideal": "Gefinancierde startups en merken die een volwaardig product met custom backend lanceren"
+        }
+      ],
+      "appSupport": [
+        {
+          "name": "Keep Alive",
+          "price": 1950,
+          "disp": "$1,950",
+          "per": "/mnd",
+          "tag": "Gezond & compliant blijven",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Tot 6 engineeringuren per maand",
+              "l": "Budget voor bugtriage, kleine patches en reactieve fixes. Uren schuiven niet door. Spoedfixes worden eerst uit deze bank gefactureerd."
+            },
+            {
+              "i": "Bugfixes met triage-SLA van 24 uur",
+              "l": "Kritieke bugs (app crasht, inloggen werkt niet, betalingen falen) binnen 24 werkuren bevestigd en binnen 48-72 uur opgelost, afhankelijk van de omvang."
+            },
+            {
+              "i": "iOS + Android OS-versie-updates (jaarlijks)",
+              "l": "Jaarlijkse test- en updatecyclus voor elke nieuwe grote iOS- en Android-release. Vereiste deprecaties en wijzigingen in rechten afgehandeld."
+            },
+            {
+              "i": "Kwartaallijkse store-herindieningen",
+              "l": "Elke 3 maanden: storemetadata controleren op actualiteit, screenshots bijwerken indien nodig en opnieuw indienen voor een boost in het Apple-/Google-algoritme."
+            },
+            {
+              "i": "Crashlytics-monitoring + maandrapport",
+              "l": "Crashlytics-dashboard maandelijks bekeken. Gezondheidsrapport van 1 pagina met crashvrij percentage, grootste problemen en versie-adoptie."
+            },
+            {
+              "i": "Dependency- + beveiligingspatches",
+              "l": "Maandelijkse controle van npm-/gem-dependencies. Beveiligingspatches op CVE-niveau direct toegepast. Niet-kritieke upgrades per kwartaal gebundeld."
+            },
+            {
+              "i": "E-mailsupport, reactie binnen 5 dagen",
+              "l": "Niet-kritieke verzoeken via e-mail. Reactie binnen 5 werkdagen. Geen Slack, geen realtime chat, geen telefoon op dit niveau."
+            }
+          ],
+          "ov": [
+            "Extra uur: $165/uur",
+            "Spoedhotfix (weekend/feestdag): $450 vast + uren",
+            "Dedicated functiewerk: apart gescoped"
+          ],
+          "ex": "Geen functieontwikkeling. Geen nieuwe integraties. Geen designwerk. Geen marketing- of ASO-diensten.",
+          "ideal": "Gelanceerde apps die gezond, compliant en in de stores moeten blijven"
+        },
+        {
+          "name": "Momentum",
+          "price": 4800,
+          "disp": "$4,800",
+          "per": "/mnd",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Tot 20 engineeringuren per maand",
+              "l": "20 uur voor actieve iteratie: functiewerk, optimalisaties, A/B-tests, analyticswerk. Alles uit Keep Alive is inbegrepen in dit budget."
+            },
+            {
+              "i": "Alles uit Keep Alive",
+              "l": "Bugfixes, OS-updates, store-herindieningen, Crashlytics-monitoring, dependency-patches. Dezelfde limieten gelden, uit de bank van 20 uur."
+            },
+            {
+              "i": "1-2 kleine functies of 1 middelgrote functie per maand",
+              "l": "Elke maand opgeleverd. Klein = minder dan 8 uur (nieuw scherm, nieuw getrackt event, tekstaanpassingen). Middelgroot = tot 20 uur (nieuwe flow, nieuwe integratie)."
+            },
+            {
+              "i": "Analyticsdashboards + maandelijkse inzichten",
+              "l": "Wij bouwen en onderhouden je productanalyticsdashboards (Mixpanel of Amplitude). Maandelijks inzichtenrapport van 3 pagina's met gebruikersgedrag, retentie en conversietrends."
+            },
+            {
+              "i": "A/B-tests opzetten + rapporteren",
+              "l": "Tot 2 actieve A/B-tests per maand. Wij verzorgen setup, implementatie van varianten, resultaatanalyse en een aanbevelingsdocument."
+            },
+            {
+              "i": "Designsupport (tot 4 uur/mnd)",
+              "l": "4 uur designtijd per maand voor nieuwe schermen of flow-updates. Designuren staan los van de 20 engineeringuren. Ze tellen niet dubbel."
+            },
+            {
+              "i": "Tweewekelijks standupgesprek",
+              "l": "Tweewekelijks videogesprek van 30 min om de voortgang door te nemen, prioriteiten af te stemmen en blokkades weg te nemen. Opgenomen en gedeeld in je Slack-kanaal."
+            }
+          ],
+          "ov": [
+            "Extra uur: $155/uur",
+            "Extra A/B-test: $800 setup",
+            "Spoedfunctie (binnen 1 week): 1,5x uren",
+            "Extra designuur: $145"
+          ],
+          "ex": "Geen dedicated engineer (gedeeld team met prioriteitstoegang). Geen wijzigingen in de backendarchitectuur. Geen marketingdiensten.",
+          "ideal": "Live apps die actief itereren op basis van gebruikersdata"
+        },
+        {
+          "name": "Partner",
+          "price": 10500,
+          "disp": "$10,500",
+          "per": "/mnd",
+          "tag": "Embedded productteam",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Dedicated engineer (~80 uur/mnd) + designer (~15 uur)",
+              "l": "Vaste senior engineer voor ~20 uur/week + fractional designer voor ~4 uur/week. Elke maand dezelfde mensen. Zij kennen je codebase."
+            },
+            {
+              "i": "Alles uit Momentum",
+              "l": "Al het Momentum-werk loopt door (bugs, functies, A/B-tests, analytics) binnen het uitgebreide budget. Geen aparte facturering."
+            },
+            {
+              "i": "Continue roadmaplevering",
+              "l": "Kwartaallijkse planningssessies met de founders om de roadmap te bepalen. Wij leveren volgens die roadmap en rapporteren wekelijks over de voortgang. Prioriteiten kunnen binnen het kwartaal verschuiven."
+            },
+            {
+              "i": "Custom native modules + platformspecifiek werk",
+              "l": "Wanneer cross-platform niet volstaat (bijv. Apple Watch-companion, Android-widgets, diepe iOS-integraties), zijn native modules inbegrepen."
+            },
+            {
+              "i": "Backend- + infra-onderhoud",
+              "l": "Je backend en infrastructuur inbegrepen: patchen, schalen, monitoringalerts, kostenoptimalisatie. Niet begrensd door de engineeringbank van 80 uur."
+            },
+            {
+              "i": "Wekelijkse sync + gedeeld Linear-/Jira-bord",
+              "l": "Wekelijkse videosync van 30 min + een gedeelde Linear- (of Jira-)workspace met volledig inzicht in tickets. Je team kan rechtstreeks tickets aanmaken."
+            },
+            {
+              "i": "SLA met reactie dezelfde dag, prioriteits-Slack",
+              "l": "Slack-kanaal met reactie binnen 2 uur tijdens kantooruren. Bevestiging binnen dezelfde werkdag voor alles wat niet urgent is."
+            },
+            {
+              "i": "Kwartaallijkse strategiesessie",
+              "l": "Elke 3 maanden: sessie van 90 min over ASO, groei, architectuurreview en technische schuld. Geleverd als schriftelijke memo."
+            }
+          ],
+          "ov": [
+            "Extra uur boven 95/mnd: $145/uur",
+            "Extra dedicated engineer: +$8,500/mnd",
+            "Extra dedicated designer: +$3,500/mnd"
+          ],
+          "ex": "Marketing, betaalde advertenties en contentdiensten zijn niet inbegrepen. Zie daarvoor onze marketingpakketten.",
+          "ideal": "Teams die Blok Blok inzetten als hun embedded productteam"
+        }
+      ],
+      "webSupport": [
+        {
+          "name": "Site Onderhoud",
+          "price": 550,
+          "disp": "$550",
+          "per": "/mnd",
+          "tag": "Betrouwbaar onderhoud",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "99,9% uptime-monitoring",
+              "l": "StatusCake of BetterStack houdt je site 24/7 in de gaten. Wij krijgen direct een alert. Jij hoort niet van een klant dat de site offline is."
+            },
+            {
+              "i": "Wekelijkse off-site back-ups",
+              "l": "Volledige site + database wekelijks geback-upt naar off-site opslag (niet alleen bij de hostingprovider). 30 dagen bewaard."
+            },
+            {
+              "i": "Beveiligingspatches + dependency-updates",
+              "l": "Maandelijks patchen van WordPress core/plug-ins (bij WP) of npm-dependencies (bij Next.js). Kritieke beveiligingsupdates binnen 24 uur toegepast."
+            },
+            {
+              "i": "Tot 4 kleine contentwijzigingen/maand",
+              "l": "Tekstupdates, beeldwissels, linkfixes, prijswijzigingen, nieuwe testimonials. Elke wijziging = minder dan 15 minuten werk."
+            },
+            {
+              "i": "SSL- + domeincontroles",
+              "l": "Automatische vernieuwing van het SSL-certificaat gemonitord. Waarschuwing 60 dagen vóór het verlopen van het domein. DNS-gezondheid per kwartaal gecontroleerd."
+            },
+            {
+              "i": "Maandelijks uptime- + snelheidsrapport",
+              "l": "Maandrapport van 1 pagina: uptimepercentage, gemiddelde laadtijden, beveiligingsgebeurtenissen en ondernomen acties. Geleverd op de 1e."
+            }
+          ],
+          "ov": [
+            "Extra contentwijziging: $45 per stuk",
+            "Spoedverzoek (dezelfde dag): +$125",
+            "Updatewerk per uur: $165/uur"
+          ],
+          "ex": "Geen nieuwe pagina's, geen herontwerpen, geen A/B-tests, geen SEO, geen advertenties. Geen marketingactiviteiten. Zie daarvoor onze marketingpakketten.",
+          "ideal": "Gelanceerde sites die betrouwbaar onderhoud en gemoedsrust nodig hebben"
+        },
+        {
+          "name": "Site Groei",
+          "price": 1600,
+          "disp": "$1,600",
+          "per": "/mnd",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Alles uit Site Onderhoud",
+              "l": "Uptime, back-ups, beveiliging en kleine wijzigingen inbegrepen. Dezelfde limieten, opgenomen in dit plan."
+            },
+            {
+              "i": "1 nieuwe pagina of herontworpen sectie/mnd",
+              "l": "Elke maand leveren we één nieuwe pagina (tot 1.000 woorden + standaardontwerp) OF een volledig herontworpen sectie van een bestaande pagina. Jouw keuze."
+            },
+            {
+              "i": "2 A/B-tests per maand",
+              "l": "Herotekst, CTA-varianten, lay-outtests of experimenten op de prijspagina. Opzetten, draaien, analyseren en de winnaar aanbevelen, allemaal binnen de maand."
+            },
+            {
+              "i": "Core Web Vitals-optimalisatie (per kwartaal)",
+              "l": "Elke 3 maanden: uitgebreide audit tegen de CWV-benchmarks van Google. Beeldcompressie, code splitting en critical-path CSS geoptimaliseerd."
+            },
+            {
+              "i": "Kwartaalrapport GA4 + Search Console",
+              "l": "Elke 3 maanden: inzichtenrapport van 3 pagina's over organisch verkeer, toppagina's, bouncepercentages en trends in zoekopdrachten. Aanbevelingen inbegrepen."
+            },
+            {
+              "i": "8 contentupdates per maand",
+              "l": "Bovenop de basis van 4 wijzigingen uit Site Onderhoud: tot 8 contentupdates in totaal per maand. Wekelijks gebundeld op maandag."
+            },
+            {
+              "i": "Prioriteit e-mail + Slack, reactie binnen 24 uur",
+              "l": "Toegang tot een Slack-kanaal voor snelle vragen. Reactie binnen 24 uur op alle verzoeken. Geen realtime hulp bij noodgevallen, tenzij op Site Partnerschap-niveau."
+            }
+          ],
+          "ov": [
+            "Extra A/B-test: $450",
+            "Extra nieuwe pagina: $850",
+            "Video-/animatiewerk: apart gescoped"
+          ],
+          "ex": "Geen volledige herontwerpen (gescoped als project). Geen betaalde advertenties. Geen contentschrijven buiten kleine wijzigingen.",
+          "ideal": "Teams die hun site elke maand beter willen maken"
+        },
+        {
+          "name": "Site Partnerschap",
+          "price": 3800,
+          "disp": "$3,800",
+          "per": "/mnd",
+          "tag": "Embedded webteam",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Alles uit Site Groei",
+              "l": "Maandelijks nieuwe pagina's, A/B-tests, Web Vitals-werk, kwartaalrapporten, plus uitgebreide limieten binnen dit plan."
+            },
+            {
+              "i": "Wekelijkse deploys",
+              "l": "Nieuwe functies, tests of optimalisaties elke week uitgerold. Maandag is plandag, donderdag is deploydag."
+            },
+            {
+              "i": "Dedicated developer (~25 uur/mnd) + designer (~8 uur/mnd)",
+              "l": "Vaste developer en designer. Elke maand dezelfde mensen. Zij kennen je stack en je merk. Uren zijn een budget; wat je niet gebruikt, schuift niet door."
+            },
+            {
+              "i": "Maandelijkse SEO-audit + fixes",
+              "l": "Uitgebreide SEO-audit elke maand: technisch (schema, sitemaps, indexering), on-page (zoekwoorden, meta's, interne links) en off-page aanbevelingen. Top 3 fixes dezelfde maand uitgevoerd."
+            },
+            {
+              "i": "CMS-content laden (tot 10/mnd)",
+              "l": "Tot 10 blogposts of contentpagina's per maand geüpload vanuit jouw tekst. Afbeeldingen opgemaakt, metatags geschreven, interne links voorgesteld. Jij schrijft, wij publiceren."
+            },
+            {
+              "i": "Roadmap voor conversieoptimalisatie",
+              "l": "Maandelijkse CRO-prioriteiten op basis van analytics + A/B-testresultaten. Elke maand 3 experimenten voorgesteld; de beste 2 uitgevoerd."
+            },
+            {
+              "i": "Slack dezelfde dag, SLA met reactie binnen 2 uur",
+              "l": "Slack-kanaal met reactie binnen 2 uur tijdens kantooruren. Bevestiging dezelfde dag voor alles wat niet urgent is."
+            }
+          ],
+          "ov": [
+            "Extra uur boven 33/mnd: $155/uur",
+            "Extra contentpagina laden: $45 per stuk boven de 10",
+            "Spoeddeploy (dezelfde dag): +25%"
+          ],
+          "ex": "Geen betaald advertentiebeheer (zie marketingpakketten). Geen merkherontwerp (zie brandingpakketten). Geen mobiele app-werk.",
+          "ideal": "Opschalende bedrijven die Blok Blok inzetten als hun webteam"
+        }
+      ],
+      "marketingBuild": [
+        {
+          "name": "Marketing Audit & Roadmap",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Diagnose + 90-dagenplan",
+          "tl": "2-3 weken",
+          "scope": [
+            {
+              "i": "Full-funnel-audit",
+              "l": "Review van 1 website + tot 3 actieve kanalen (advertenties, SEO, e-mail, social). Elke fase van je funnel in kaart gebracht met de knelpunten benoemd."
+            },
+            {
+              "i": "Analytics- + attributiereview",
+              "l": "Audit van GA4, Meta Pixel, UTM-hygiëne en conversietracking. Fixlijst met 10 punten, elk geprioriteerd op impact/inspanning."
+            },
+            {
+              "i": "Concurrentieanalyse (3 directe concurrenten)",
+              "l": "Diepgaande analyse van 3 directe concurrenten: positionering, aanbod, advertentiecreatives, landingspagina's, SEO-voetafdruk. Vergelijkende analyse van 6 pagina's geleverd als Notion-document."
+            },
+            {
+              "i": "ICP- + messagingworkshop",
+              "l": "2 live sessies van 60 min. Output: aangescherpte waardepropositie, 3 kernboodschappen, 1 persona-document van de ideale klant."
+            },
+            {
+              "i": "Geprioriteerde 90-dagenroadmap",
+              "l": "20-30 actiepunten gescoord met RICE (Reach, Impact, Confidence, Effort). Geleverd als Notion-backlog die je team kan uitvoeren of die wij kunnen draaien."
+            },
+            {
+              "i": "Budgetverdelingsmodel",
+              "l": "Budget voor het komende kwartaal uitgesplitst over betaald, organisch en lifecycle, met verwachte ROI-ranges op basis van de auditbevindingen."
+            },
+            {
+              "i": "1 strategiepresentatie (opgenomen)",
+              "l": "Live presentatie van 60 min waarin we de bevindingen en roadmap doornemen. Opgenomen + gedeeld met je team. Notion-document dezelfde dag geleverd."
+            },
+            {
+              "i": "Opvolggesprek van 30 min",
+              "l": "30 dagen na oplevering: check-ingesprek om te bekijken wat er is uitgevoerd en blokkades weg te nemen."
+            }
+          ],
+          "ov": [
+            "Extra kanaal in de audit: $450",
+            "Extra concurrent in de analyse: $250 per stuk",
+            "Verlengde workshopsessie (90 min): $400"
+          ],
+          "ex": "Geen uitvoering van de roadmap (dat is de volgende stap). Geen advertentiebeheer. Geen contentcreatie. Geen creatieve productie.",
+          "bridge": "De audit sluit naadloos aan op ons Onderhoud & Monitoring-plan ($1,500/mnd) om de roadmap uit te voeren zonder opnieuw context op te bouwen. 10% korting op de eerste maand bij ondertekening binnen 14 dagen.",
+          "ideal": "Founders die vermoeden dat er marketinggeld weglekt, maar niet weten waar"
+        },
+        {
+          "name": "Campagne Launchpad",
+          "price": 8500,
+          "disp": "$8,500",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "tl": "Build van 4-5 weken + 30 dagen monitoring",
+          "scope": [
+            {
+              "i": "1 primair advertentieplatform volledig opgezet",
+              "l": "Google, Meta of TikTok volledig opgezet: accountstructuur, pixels, Conversions API, custom doelgroepen, retargetinglijsten. Een schone basis om vanuit te schalen."
+            },
+            {
+              "i": "6 advertentiecreatives in totaal",
+              "l": "2 statische graphics + 2 korte video's + 2 varianthooks. Gefilmd en gemonteerd door ons team op basis van je merkmaterialen + 1 productdemovideo die we indien nodig op afstand opnemen."
+            },
+            {
+              "i": "1 speciale landingspagina + A/B-variant",
+              "l": "Volledige custom landingspagina (Webflow, Framer of Shopify) met tekst en ontwerp. 1 A/B-variant van de hero voor conversietests."
+            },
+            {
+              "i": "Leadcapture-automatisering (reeks van 5 e-mails)",
+              "l": "Welkomst- of nurture-reeks van 5 e-mails gebouwd in Klaviyo, Kit of HubSpot. Triggerlogica, personalisatietags en prestatietracking inbegrepen."
+            },
+            {
+              "i": "Tracking + dashboardsetup",
+              "l": "GA4 + Looker Studio-dashboard met dagelijkse verversing. 1 wekelijks klantrapport, elke maandag per e-mail geleverd."
+            },
+            {
+              "i": "Soft launch van 14 dagen + 30 dagen monitoring",
+              "l": "Soft launch van 2 weken met dagelijkse optimalisatie en creative-iteratie. Daarna 30 dagen actieve campagnemonitoring met wekelijkse bijsturing."
+            },
+            {
+              "i": "Tot $15k beheerd advertentiebudget",
+              "l": "Advertentiebudget tot $15k gedekt binnen de fee (het budget zelf wordt apart gefactureerd door het platform). Elke extra $5k aan budget: +$500 op de fee."
+            },
+            {
+              "i": "Prestatiereview + overdrachtsdocument",
+              "l": "Aan het einde van het traject: prestatiereviewgesprek van 60 min + overdrachtsdocument van 10 pagina's met schaalaanbevelingen en creatieve learnings."
+            }
+          ],
+          "ov": [
+            "Extra advertentiecreative (statisch): $250",
+            "Extra advertentiecreative (video): $600",
+            "Extra landingspaginavariant: $1,500",
+            "Extra advertentieplatform: $2,500"
+          ],
+          "ex": "Geen organische social content. Geen long-form SEO-content. Geen influencerbeheer. Geen PR-outreach.",
+          "bridge": "De campagne gaat over in ons Groeimotor-plan ($3,500/mnd) om winnaars op te schalen, uit te breiden naar een 2e kanaal en creatives te blijven itereren. 10% korting op de eerste maand bij ondertekening binnen 14 dagen.",
+          "ideal": "Teams met een bewezen aanbod die klaar zijn voor echt acquisitievolume"
+        },
+        {
+          "name": "Volledige Productlancering",
+          "price": 20000,
+          "disp": "$20,000",
+          "tag": "Gecoördineerde lanceringspush",
+          "tl": "Aanloop van 6 weken + operatie in de lanceerweek",
+          "scope": [
+            {
+              "i": "Lanceringsstrategie + Gantt van 6 weken",
+              "l": "Compleet lanceringsplan voor PR, betaald, organisch, e-mail, influencers en de operatie op de lanceerdag. Kritiek pad en afhankelijkheden in kaart gebracht. Geleverd als gedeelde tijdlijn."
+            },
+            {
+              "i": "Positionering + lanceringsverhaal",
+              "l": "Heroboodschap, 3 ondersteunende invalshoeken, persboilerplate, FAQ en document voor bezwaarafhandeling. Getest tegen je ICP vóór publiek gebruik."
+            },
+            {
+              "i": "12 advertentiecreatives op 2 platforms",
+              "l": "Meta + Google OF Meta + TikTok. Mix van statisch, carrousel en korte video. 4 zijn UGC-stijl video's gefilmd door onze creators."
+            },
+            {
+              "i": "2 landingspagina's",
+              "l": "Wachtlijstpagina vóór de lancering (e-mailcapture + countdown) + conversiepagina voor de lanceerdag (volledig aanbod). Beide met A/B-varianten. Gebouwd op Webflow/Framer."
+            },
+            {
+              "i": "Persbenadering (25 media)",
+              "l": "25 gerichte media/nieuwsbrieven gepitcht met een op maat gemaakte invalshoek. 1 persbericht onder embargo geschreven en 1 week vóór de lancering verspreid."
+            },
+            {
+              "i": "3 influencersamenwerkingen (volledig beheerd)",
+              "l": "Sourcing, briefing, contracten, contentgoedkeuringen en betaling. Creatorvergoedingen worden doorberekend (niet in de fee inbegrepen)."
+            },
+            {
+              "i": "E-maillanceringsreeks",
+              "l": "Wachtlijstnurture (3 e-mails vóór de lancering) + campagne van 6 e-mails in de lanceerweek. Gebouwd voor de eerste 50k verzendingen. Werkt met elk platform (Klaviyo, Kit, Mailchimp of HubSpot)."
+            },
+            {
+              "i": "Product Hunt-/communitylancering + war-room",
+              "l": "Communitylanceringsstrategie, hype-thread vóór de lancering opgesteld, PH-pagina geoptimaliseerd en een live war-room van 8 uur op de lanceerdag."
+            },
+            {
+              "i": "Analyserapport na de lancering",
+              "l": "14 dagen na de lancering: uitsplitsing per cohort, kanaal, creative en funnel. Rapport van 20 pagina's met wat werkte, wat niet en waar je op moet inzetten."
+            },
+            {
+              "i": "Tot $30k beheerd lanceringsbudget",
+              "l": "Tot $30k aan advertentiebudget beheerd binnen de fee. Elke extra $5k aan budget: +$500 op de fee. Budget apart gefactureerd door het platform."
+            }
+          ],
+          "ov": [
+            "Extra influencersamenwerking: $1,200 + creatorvergoedingen",
+            "Extra persmedium (26+): $75 per stuk",
+            "Extra videocreative: $600",
+            "Spoedplanning (binnen 3 weken): +25%",
+            "Programmatic SEO-module: $6,000"
+          ],
+          "ex": "Geen doorlopende contentkalender na de lancering. Geen langdurig communitybeheer. Geen productfotografie (kan worden toegevoegd).",
+          "bridge": "De lancering gaat over in ons Volledig Partnerschap-plan ($7,000/mnd) voor duurzame groei, lifecycle-optimalisatie en de volgende lanceringscyclus. 10% korting op de eerste maand bij ondertekening binnen 14 dagen.",
+          "ideal": "Merken die een product, dienstlijn of rebrand lanceren en één gecoördineerde push nodig hebben"
+        }
+      ],
+      "brandingBuild": [
+        {
+          "name": "Brand Lite",
+          "price": 4000,
+          "disp": "$4,000",
+          "tag": "Logo + palet + typografie",
+          "tl": "2-3 weken",
+          "scope": [
+            {
+              "i": "Discovery-intake (asynchroon)",
+              "l": "1 merkvragenlijst (20 vragen over doelgroep, toon, referenties, 3 concurrentlinks). 1 kickoffgesprek van 45 min via Zoom. Geen fysieke workshop op dit niveau."
+            },
+            {
+              "i": "Logoverkenning (3 concepten)",
+              "l": "3 eerste logorichtingen gepresenteerd als platte vectormockups. Jij kiest er 1 voor verfijning. Woordmerk OF icoon+woordmerk-combinatie (niet beide). 2 revisierondes."
+            },
+            {
+              "i": "Definitieve logobestanden",
+              "l": "PNG, SVG, PDF en EPS in full colour, 1-kleur zwart en 1-kleur wit. Horizontale en gestapelde varianten geleverd."
+            },
+            {
+              "i": "Kleurenpalet (5 kleuren)",
+              "l": "Primair + 4 ondersteunende kleuren met HEX-, RGB- en CMYK-waarden. Geleverd als PDF-kleurenkaart van 1 pagina."
+            },
+            {
+              "i": "Typografiecombinatie",
+              "l": "1 koplettertype + 1 broodtekstlettertype (Google Fonts- of Adobe Fonts-licentie). Licentienotities inbegrepen."
+            },
+            {
+              "i": "Merksamenvatting-PDF van 1 pagina",
+              "l": "Basisregels voor logogebruik (minimale grootte, vrije ruimte), kleurcodes en typografie. Geen volledig richtlijnendocument."
+            },
+            {
+              "i": "Favicon + social avatar",
+              "l": "Logo geoptimaliseerd en geëxporteerd op 16px, 32px, 512px en 1024px voor web en social profielen."
+            }
+          ],
+          "ov": [
+            "Extra logovariant (monogram, submerk, enz.): $300",
+            "Extra revisieronde: $250",
+            "Merkfotografierichting: $800"
+          ],
+          "ex": "Geen brandguidelines-document. Geen huisstijldrukwerk. Geen social templates. Geen naamgeving of verbale identiteit.",
+          "bridge": "Brand Lite in combinatie met Brand Keeper ($1,500/mnd) houdt je materialen consistent terwijl je nieuwe content produceert.",
+          "ideal": "Zelfstandigen en pre-revenue merken die snel een strak, bruikbaar logo nodig hebben"
+        },
+        {
+          "name": "Merksysteem",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "tl": "4-6 weken",
+          "scope": [
+            {
+              "i": "Discoveryworkshop (op afstand, 90 min)",
+              "l": "1 live werksessie met de founders + tot 3 stakeholders. Output: positioneringsstatement, 1 doelgroeppersona, 3 merkattributen, moodboardrichting gekozen uit 3 die wij presenteren."
+            },
+            {
+              "i": "Logosysteem (4 concepten)",
+              "l": "4 eerste richtingen met lifestyle-mockups (product, signing, social). 1 geselecteerd voor verfijning. Primaire combinatie + horizontaal + gestapeld + los icoon. 3 revisierondes."
+            },
+            {
+              "i": "Volledig kleursysteem",
+              "l": "Primair (2), secundair (4) en neutralen (3). Gecontroleerd op WCAG AA-contrast voor toegankelijkheid. HEX / RGB / CMYK / Pantone-codes geleverd."
+            },
+            {
+              "i": "Typografiehiërarchie",
+              "l": "Lettertypes voor kop, subkop, broodtekst en bijschrift met exacte groottes, gewichten en regelafstanden voor web en print."
+            },
+            {
+              "i": "Brandguidelines-PDF (20 pagina's)",
+              "l": "Logogebruik, wat niet mag, kleur, typografie, beeldrichting, iconografienotities en een tone-of-voice-onepager (3 stemattributen + voorbeeldteksten)."
+            },
+            {
+              "i": "Lanceringsmaterialenkit",
+              "l": "1 visitekaartje, 1 briefpapier, 1 e-mailhandtekening, 1 pitchdeck-template (10 slides, Google Slides of Keynote) en 8 social templates (Canva of Figma, bewerkbaar)."
+            },
+            {
+              "i": "Merkmaterialenbibliotheek",
+              "l": "Georganiseerd Figma-bestand + Google Drive-map, gestructureerd voor overdracht aan toekomstige designers. Alles op één centrale plek."
+            }
+          ],
+          "ov": [
+            "Custom iconenset (8 iconen): $1,200",
+            "Artdirection merkfotografie + shotlist: $800",
+            "Extra revisieronde: $400"
+          ],
+          "ex": "Geen naamgevings- of verbale-identiteitssprint. Geen merkenrechtonderzoek. Geen brandbook buiten de richtlijnen van 20 pagina's. Geen videowerk.",
+          "bridge": "Merksysteem sluit aan op Creatieve Directie ($4,000/mnd) om consistent nieuwe gebrande materialen te blijven produceren.",
+          "ideal": "Gefinancierde startups en opschalende bedrijven die een compleet, verdedigbaar merksysteem nodig hebben"
+        },
+        {
+          "name": "Merktransformatie",
+          "price": 28000,
+          "disp": "$28,000",
+          "tag": "Volledige rebrand + naamgeving + strategie",
+          "tl": "8-12 weken",
+          "scope": [
+            {
+              "i": "Discovery- + strategiesprint",
+              "l": "2 workshops van 2 uur op afstand (positionering, doelgroep, concurrentiegap). 5 stakeholderinterviews (30 min elk). Concurrentieaudit van 6 concurrenten. 1 positioneringsdocument (10-15 pagina's) met boodschappijlers en 3 geteste doelgroeppersona's."
+            },
+            {
+              "i": "Naamgevingssprint",
+              "l": "1 naamgevingsworkshop, 40+ naamkandidaten gegenereerd, teruggebracht tot 10, gepresenteerd met onderbouwing en voorlopige USPTO-screening (geen juridische clearance). 1 definitieve naam gekozen. Domeinbeschikbaarheid gecontroleerd op .com, .co en .io."
+            },
+            {
+              "i": "Verbale identiteit",
+              "l": "Merkstemraamwerk (4 attributen met een \"wij zijn / wij zijn niet\"-tabel), tagline, elevator pitch (30s + 60s) en 10 voorbeeldtekstblokken (hero, over ons, CTA's, bio's)."
+            },
+            {
+              "i": "Visueel identiteitssysteem",
+              "l": "5 logorichtingen met volledige lifestyle-mockups. 1 geselecteerd en uitgewerkt tot een compleet merksysteem: primair, secundair, monogram, favicon en responsive gedrag."
+            },
+            {
+              "i": "Complete kleur- + typografiearchitectuur",
+              "l": "Uitgebreid palet (primair, secundair, tinten, schaduwen), typografiestack met 4 niveaus, iconografiestijlset (12 iconen) en illustratie- of fotografierichting."
+            },
+            {
+              "i": "Brandbook (40+ pagina's)",
+              "l": "Strategie, positionering, stem, logo, kleur, typografie, beeld, iconografie, motionprincipes, do's/don'ts en toepassingsvoorbeelden. Geleverd als PDF + bewerkbare Figma-bron."
+            },
+            {
+              "i": "Lanceringsmaterialensuite",
+              "l": "Pitchdeck (20 slides), huisstijltrio, 3 e-mailtemplates, 12 social templates, 1 grafische kit voor de merklanceringsaankondiging en 1 videostoryboard \"maak kennis met het nieuwe [merk]\"."
+            },
+            {
+              "i": "Overdrachtssessie + 30 dagen support",
+              "l": "1 opgenomen overdrachtswalkthrough van 1 uur. 30 dagen e-mailsupport voor vragen over materialen en kleine aanpassingen."
+            }
+          ],
+          "ov": [
+            "Juridisch merkenrechtadvies via partneradvocaat: $1,500-$3,000 doorberekend",
+            "Productie merklanceringsvideo (60s): $3,500",
+            "Extra naamgevingsronde: $2,000"
+          ],
+          "ex": "Geen merkregistratie (doorverwijzing naar partneradvocaat inbegrepen). Geen videoproductie buiten het storyboard. Geen doorlopende uitvoering. Daar is een retainer voor.",
+          "bridge": "Op een Merktransformatie volgt doorgaans Embedded Studio ($8,500/mnd) om de nieuwe identiteit de komende 6 maanden op elk vlak uit te rollen.",
+          "ideal": "Gevestigde bedrijven die zich herpositioneren, startups vóór Series A, legacy-merken die van de grond af opnieuw moeten worden opgebouwd"
+        }
+      ],
+      "brandingSupport": [
+        {
+          "name": "Brand Keeper",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mnd",
+          "tag": "Consistent onderhoud",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Tot 6 gebrande materialen per maand",
+              "l": "Social graphics, e-mailheaders, losse flyers, eventgraphics of advertentiecreatives op basis van je bestaande merksysteem. Geleverd in bewerkbaar Figma of Canva."
+            },
+            {
+              "i": "1 kwartaallijkse merkaudit (PDF)",
+              "l": "Elke 3 maanden: review van live kanalen (website + 3 social profielen) op afwijkingen in consistentie, verouderde materialen en off-brand content. Rapport van 5-7 pagina's met geprioriteerde fixes."
+            },
+            {
+              "i": "Onderhoud merkmaterialenbibliotheek",
+              "l": "Je Figma en Drive blijven georganiseerd. Nieuwe materialen gearchiveerd, naamgevingsconventies bewaakt, oude versies opgeruimd."
+            },
+            {
+              "i": "Asynchrone support",
+              "l": "1 Loom- of e-mailreactie per werkdag. Geen realtime Slack of weekenddekking op dit niveau."
+            },
+            {
+              "i": "2 revisierondes per materiaal",
+              "l": "Gebundelde feedback binnen 3 werkdagen per revisie. Geen druppelsgewijze feedback."
+            }
+          ],
+          "ov": [
+            "Extra materialen (7+): $125 per stuk",
+            "Spoedlevering binnen 48 uur: +50%",
+            "Korte videomontage: $300 per stuk"
+          ],
+          "ex": "Geen strategisch werk, geen nieuwe merkrichtingen, geen copywriting. Geen social media management (zie social pakketten).",
+          "ideal": "Merken met een bestaande identiteit die licht, consistent onderhoud nodig hebben"
+        },
+        {
+          "name": "Creatieve Directie",
+          "price": 4000,
+          "disp": "$4,000",
+          "per": "/mnd",
+          "tag": "Meest gekozen",
+          "pop": true,
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Tot 15 gebrande materialen per maand",
+              "l": "Social graphics, carrousels, advertentiecreatives, e-mailcampagnes, landingspaginasecties, pitchdeck-updates. Allemaal binnen je merksysteem."
+            },
+            {
+              "i": "Maandelijks creatieve-directiegesprek (60 min)",
+              "l": "Output van vorige maand doornemen, creatieve prioriteiten voor deze maand afstemmen, merkafwijkingen signaleren. Loom-opvolging met aanbevelingen."
+            },
+            {
+              "i": "1 kwartaallijkse audit + refresh",
+              "l": "PDF-audit elke 3 maanden plus 3 vernieuwde templates (advertentiecreative, e-mailheader, social post) op basis van wat werkt."
+            },
+            {
+              "i": "Lichte copywriting (tot 1.000 woorden/mnd)",
+              "l": "On-brand teksten voor captions, advertentievarianten of e-mailonderwerpregels. Geen long-form content of volledige webpagina's."
+            },
+            {
+              "i": "Onderhoud materialenbibliotheek + Figma",
+              "l": "Eén centrale bron netjes bijgehouden. Nieuwe componenten maandelijks toegevoegd."
+            },
+            {
+              "i": "Asynchrone toegang tot strateeg",
+              "l": "Rechtstreeks e-mail/tekstcontact met je vaste strateeg, ma t/m vr, 9-17 uur (Eastern Time). SLA met reactie binnen 4 werkuren."
+            },
+            {
+              "i": "2 revisierondes per materiaal",
+              "l": "Feedback gebundeld binnen 3 werkdagen na levering."
+            }
+          ],
+          "ov": [
+            "Extra materialen (16+): $150 per stuk",
+            "Korte videomontage (onder 60s): $300 per stuk",
+            "Tekst boven 1.000 woorden: $200/pagina"
+          ],
+          "ex": "Geen betaald advertentiebeheer. Geen volledige rebranding (dat is een project). Geen dedicated designer. Gedeeld team.",
+          "ideal": "Groeiende merken die een creatieve partner nodig hebben die regelmatig werk levert en de visuele stem bewaakt"
+        },
+        {
+          "name": "Embedded Studio",
+          "price": 8500,
+          "disp": "$8,500",
+          "per": "/mnd",
+          "tag": "Fractional in-house creatief team",
+          "com": "Minimaal 3 maanden",
+          "scope": [
+            {
+              "i": "Tot 40 gebrande materialen per maand",
+              "l": "Elke mix van social, advertenties, e-mail, websecties, pitchdecks, productgraphics, eventmateriaal of print. Dezelfde doorlooptijd als in-house."
+            },
+            {
+              "i": "Wekelijkse directie + tweewekelijkse strategie",
+              "l": "Wekelijks creatieve-directiegesprek van 30 min + tweewekelijkse strategiesessie van 60 min. Actief toezicht op elk vlak."
+            },
+            {
+              "i": "Maandelijkse merkaudit + toegepaste refresh",
+              "l": "Elke maand: audit geleverd, daarna de top 5 fixes dezelfde maand uitgevoerd. Geen aparte offertes."
+            },
+            {
+              "i": "Dedicated creative director + designer",
+              "l": "Vast team van 2 personen. Slack-toegang ma t/m vr, 9-18 uur (SLA van 4 uur). Loom-walkthroughs bij alle grote deliverables."
+            },
+            {
+              "i": "Copywriting + bewaking van de merkstem",
+              "l": "Tot 3.000 woorden/mnd aan on-brand tekst. Stemrichtlijnen doorgevoerd in alle content die wij aanraken. 1 update van het stemtrainingsdocument per kwartaal."
+            },
+            {
+              "i": "Evolutie van het merksysteem",
+              "l": "Kleine systeemupdates terwijl je groeit: nieuwe templates, aangepaste kleuruitbreidingen, nieuwe submerklogo's. Volledige rebrands worden nog steeds apart geoffreerd vanaf $20k+."
+            },
+            {
+              "i": "Kwartaallijks campagneconcept",
+              "l": "1 minicampagne per kwartaal: concept, 5 hero-materialen, uitrolplan. Denk aan een seizoenslancering of productdrop."
+            },
+            {
+              "i": "3 revisierondes per materiaal",
+              "l": "Meer ruimte dan bij andere niveaus om te itereren tot het werk klopt."
+            }
+          ],
+          "ov": [
+            "Volledige rebrand: $20k+ apart",
+            "Merkfotografiedag (directie + leveranciersbeheer, shoot doorberekend): $2,500 directiefee",
+            "Extra embedded designer: +$3,500/mnd"
+          ],
+          "ex": "Geen betaald advertentiebeheer. Geen product-/UX-design (apart gescoped).",
+          "ideal": "Opschalende merken die ons inzetten als hun fractional in-house creatieve team op elk kanaal"
+        }
+      ]
+    }
   },
   "onboard": {
     "title": "Klant-onboarding",

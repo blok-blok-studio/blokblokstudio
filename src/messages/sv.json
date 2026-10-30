@@ -736,7 +736,2137 @@
     "timeline": "Tidsram",
     "commitment": "Åtagande",
     "ideal_for": "Passar för",
-    "custom_quote": "Vill du ha en offert på mått?"
+    "custom_quote": "Vill du ha en offert på mått?",
+    "hero_title_a": "Det du får,",
+    "hero_title_em": "svart på vitt.",
+    "hero_sub": "AI-drivna webbplatser, appar, automationer, annonser, varumärken och hantering av sociala medier. Varje uppdrag offereras utifrån just din omfattning, med leveranserna nedskrivna så att vi båda vet vad vi bygger.",
+    "tabs": {
+      "web": "Webbutveckling",
+      "app": "Apputveckling",
+      "social": "Sociala medier",
+      "marketing": "Marknadsföring",
+      "aiAgents": "AI-agenter",
+      "saas": "Skräddarsydd SaaS",
+      "branding": "Varumärkesstrategi"
+    },
+    "sections": {
+      "oneTime": "Engångsprojekt",
+      "webSupport": "Månadsavtal",
+      "appBuild": "Engångsbyggen",
+      "appSupport": "Månadsavtal",
+      "socialSetup": "Engångsuppstart",
+      "social": "Månatlig hantering",
+      "marketingBuild": "Engångsprojekt",
+      "monthly": "Månadsavtal",
+      "aiAgents": "Engångsbygge",
+      "monthlyAgent": "Månadsavtal",
+      "customBuild": "Engångsbyggen",
+      "customSupport": "Månadsavtal",
+      "brandingBuild": "Engångsprojekt",
+      "brandingSupport": "Månadsavtal"
+    },
+    "hide": "Dölj",
+    "view": "Visa",
+    "not_included": "Det här ingår inte",
+    "cta_sub": "Varje uppdrag omfattningsbestäms och offereras individuellt. Boka ett kostnadsfritt 15-minuterssamtal så skickar vi ett skräddarsytt förslag inom 48 timmar.",
+    "cta_button": "Boka ett strategisamtal",
+    "pkg": {
+      "oneTime": [
+        {
+          "name": "Onepage-lansering",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "Bäst för en enkel närvaro online",
+          "tl": "2 till 3 veckor",
+          "scope": [
+            {
+              "i": "Skräddarsydd landningssida (1 sida)",
+              "l": "Helt skräddarsydd, mobilanpassad ensidig webbplats byggd i Next.js. Innehåller scrollbaserade sektioner: hero, om oss, tjänster, omdömen och kontaktformulär. Responsiv layout för dator, surfplatta och mobil. SEO-metatitel och beskrivning skrivs. SSL-certifikat och hosting på Vercel ingår."
+            },
+            {
+              "i": "Varumärkesidentitet (logotyp + färger)",
+              "l": "2 inledande logotypkoncept presenterade som mockups. Du väljer 1 för slutlig finputsning. Leveranser: logotypfiler i PNG, SVG och PDF (fullfärg, vit och svart version). 1 primär färgpalett (5 färger med hexkoder) och 1 typsnittspar (rubrik + brödtext). Inget fullständigt varumärkesmanual på den här nivån."
+            },
+            {
+              "i": "Analys & spårning",
+              "l": "Google Analytics 4 installeras och konfigureras. 1 konverteringsmål sätts upp (t.ex. formulärinskick eller klick på telefonnummer). Google Search Console kopplas. Grundläggande händelsespårning på CTA-knappar."
+            },
+            {
+              "i": "Designrevideringar",
+              "l": "2 revideringsrundor. En ”runda” = 1 samlad feedbackomgång. Feedback ska lämnas inom 5 arbetsdagar efter varje genomgång. Ingen delvis eller löpande feedback över flera mejl."
+            },
+            {
+              "i": "Innehåll & texter",
+              "l": "Kunden står för allt skrivet innehåll (rubriker, brödtext, presentationer, tjänstebeskrivningar). Vi sköter layout, formatering och placering. Behöver du copywriting kan det läggas till för $200/sida."
+            }
+          ],
+          "ov": [
+            "Extra revideringsrunda: $300",
+            "Copywriting: $200/sida",
+            "Ytterligare sektion: $250"
+          ],
+          "ho": "Betalning: 50 % vid start, 50 % vid leverans (betalning inom 7 dagar). Projektet avslutas vid kundens godkännande ELLER efter 2 revideringsrundor. Efter godkännande: $175/tim.",
+          "bridge": "Inkluderar 14 dagars övervakning efter lansering (buggfixar och mindre justeringar). Behöver du fler sidor eller funktioner? Uppgradera till vår Startlansering ($4,500) för en komplett 5-sidig webbplats med AI-chatt och CRM-uppsättning.",
+          "ideal": "Sidoprojekt, personliga varumärken, enkla landningssidor"
+        },
+        {
+          "name": "Startlansering",
+          "price": 6500,
+          "disp": "$6,500",
+          "tag": "Bäst för nya företag",
+          "tl": "4 till 6 veckor",
+          "scope": [
+            {
+              "i": "Skräddarsydd webbplats (5 sidor)",
+              "l": "Helt skräddarsydd, mobilanpassad webbplats byggd i Next.js. Innehåller: Hem, Om oss, Tjänster, Kontakt och 1 valfri extra sida. Varje sida har responsiv layout för dator, surfplatta och mobil. SEO-metatitlar och beskrivningar skrivs för alla 5 sidor. SSL-certifikat och hosting på Vercel ingår."
+            },
+            {
+              "i": "Varumärkesidentitet (logotyp + färger)",
+              "l": "2 inledande logotypkoncept presenterade som mockups. Du väljer 1 för slutlig finputsning. Leveranser: logotypfiler i PNG, SVG och PDF (fullfärg, vit och svart version). 1 primär färgpalett (5 färger med hexkoder) och 1 typsnittspar (rubrik + brödtext). Inget fullständigt varumärkesmanual på den här nivån."
+            },
+            {
+              "i": "AI-chattwidget",
+              "l": "1 AI-driven chattbot inbäddad på din webbplats. Tränad på 25 fråga-svar-par som du tillhandahåller (t.ex. priser, öppettider, tjänster). Inkluderar ett leadformulär som skickar förfrågningar till ditt CRM. Grundläggande hälsningsmeddelande och reservsvar konfigureras."
+            },
+            {
+              "i": "CRM-uppsättning (GoHighLevel)",
+              "l": "1 säljpipeline med 5 steg (t.ex. Nytt lead → Kontaktad → Offert skickad → Vunnen → Förlorad). 5 automationssekvenser (t.ex. mejlavisering vid nytt lead, uppföljningspåminnelse, bokningsbekräftelse, sms vid missat samtal, välkomstmejl). Import av kontakter från CSV om det finns (max 500 kontakter)."
+            },
+            {
+              "i": "Analys & spårning",
+              "l": "Google Analytics 4 installeras och konfigureras. 1 konverteringsmål sätts upp (t.ex. formulärinskick, klick på telefonnummer eller chattbotinteraktion). Google Search Console kopplas. Grundläggande händelsespårning på CTA-knappar."
+            },
+            {
+              "i": "Designrevideringar",
+              "l": "2 revideringsrundor per sida. En ”runda” = 1 samlad feedbackomgång. Feedback ska lämnas inom 5 arbetsdagar efter varje genomgång. Ingen delvis eller löpande feedback över flera mejl."
+            },
+            {
+              "i": "Innehåll & texter",
+              "l": "Kunden står för allt skrivet innehåll (rubriker, brödtext, presentationer, tjänstebeskrivningar). Vi sköter layout, formatering och placering. Behöver du copywriting kan det läggas till för $200/sida."
+            }
+          ],
+          "ov": [
+            "Ytterligare sidor: $500/sida",
+            "Extra revideringsrunda: $300",
+            "Copywriting: $200/sida",
+            "Ytterligare frågor & svar (25+): $250/omgång",
+            "Ytterligare automation: $350 styck"
+          ],
+          "ho": "Betalning: 50 % vid start, 50 % vid leverans (betalning inom 7 dagar). Projektet avslutas vid kundens godkännande ELLER efter 2 revideringsrundor. Efter godkännande: $175/tim.",
+          "bridge": "Inkluderar 30 dagars övervakning efter lansering (buggfixar, chattbotkontroller, CRM-hälsa). Efter dag 30 går löpande underhåll, uppdateringar och AI-justering över till vår plan Underhåll & övervakning ($1,500/mån) så att dina system förblir optimerade.",
+          "ideal": "Startups, soloföretagare, lokala företag"
+        },
+        {
+          "name": "Tillväxtaccelerator",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "tl": "6 till 8 veckor",
+          "scope": [
+            {
+              "i": "Skräddarsydd webbplats (10 sidor + CMS)",
+              "l": "10 färdigdesignade, mobilanpassade sidor byggda i Next.js med integrerat CMS (blogg eller portfolio). Innehåller: Hem, Om oss, Tjänster (3 undersidor för tjänster), Blogg, Kontakt och 2 extra sidor. 3 skräddarsydda scroll- eller hoveranimationer. On-page-SEO för alla sidor (metatitlar, beskrivningar, alt-taggar, schema-markup). SSL, hosting på Vercel och inskick av sitemap till Google ingår."
+            },
+            {
+              "i": "Varumärkesidentitet (komplett manual)",
+              "l": "3 inledande logotypkoncept presenterade som livsstilsmockups. 1 väljs för slutlig finputsning. Komplett varumärkesmanual som PDF (10 sidor) med: regler för logotypanvändning, minsta storlekar, friyta, färgpalett (primär + sekundär, hex/RGB/CMYK), typografisystem (rubrik, underrubrik, brödtext med storlekar) och anteckningar om tonalitet. 5 varumärkesanpassade mallar för inlägg i sociala medier levererade i Canva eller Figma (redigerbara)."
+            },
+            {
+              "i": "AI-chattbot",
+              "l": "1 AI-driven chattbot tränad på 50 fråga-svar-par. Inkluderar bokningsintegration (kopplad till din Google Kalender eller Calendly). Leadinsamling med automatisk registrering i CRM. Anpassad hälsning, reservsvar och meddelanden utanför öppettider konfigureras. Chattboten bäddas in på 3 sidor på webbplatsen."
+            },
+            {
+              "i": "AI-röstagent",
+              "l": "1 inkommande AI-röstagent som svarar på samtal, kvalificerar leads och bokar möten. 1 skräddarsytt samtalsmanus skrivs och konfigureras. 500 röstminuter ingår den första månaden. Samtalsinspelningar lagras i ditt CRM. Inkluderar grundläggande samtalsstyrning (koppling till dig om AI:n inte kan lösa ärendet)."
+            },
+            {
+              "i": "Arbetsflödesautomation (8 totalt)",
+              "l": "8 automationer byggda i GoHighLevel. Exempel: avisering vid nytt lead (mejl + sms), påminnelsesekvens inför möte (24 tim + 1 tim innan), sms vid missat samtal, uppföljning efter möte, omdömesförfrågan efter utförd tjänst, återaktivering av övergivna formulär, födelsedags-/jubileumsmejl och triggers vid byte av pipelinesteg. Varje automation har upp till 5 steg."
+            },
+            {
+              "i": "Uppsättning av Google Ads",
+              "l": "1 Google Search-kampanj med 3 annonsgrupper (riktade mot olika sökordsteman). Sökordsanalys och negativ sökordslista ingår. 6 annonsvarianter skrivs (2 per annonsgrupp). 1 dedikerad landningssida designas, byggs och kopplas med konverteringsspårning. Konverteringsspårning i Google Ads och Google Tag Manager konfigureras. Annonsbudgeten faktureras separat och betalas direkt till Google av dig."
+            },
+            {
+              "i": "Kunddashboard",
+              "l": "1 realtidsdashboard byggd i GHL eller Google Looker Studio. Upp till 6 widgetar: webbtrafik, antal leads, pipelinevärde, konverteringsgrad, annonsresultat och chattbotinteraktioner. Dashboarden uppdateras automatiskt och nås via en delbar länk."
+            },
+            {
+              "i": "Designrevideringar",
+              "l": "3 revideringsrundor per leverans (webbsidor, varumärkesmaterial, annonsmaterial och dashboard). En ”runda” = 1 samlad feedbackomgång som lämnas inom 5 arbetsdagar."
+            },
+            {
+              "i": "Innehåll & texter",
+              "l": "Vi skriver texterna till din startsida och tjänstesida (1,500 ord totalt). Allt annat sidinnehåll tillhandahålls av dig. Bloggens CMS levereras tomt så att du eller ditt team kan skapa inlägg, eller lägg till vårt innehållspaket."
+            }
+          ],
+          "ov": [
+            "Ytterligare sidor: $500/sida",
+            "Extra revidering: $300/runda",
+            "Ytterligare annonskampanj: $1,500",
+            "Ytterligare röstmanus: $750",
+            "Automationer (8+): $350 styck",
+            "Extra landningssida: $900",
+            "Copywriting utöver det som ingår: $200/sida"
+          ],
+          "ho": "Betalning: 50 % vid start, 50 % vid leverans (betalning inom 7 dagar). Projektet avslutas vid godkännande ELLER efter 3 revideringsrundor. Efter godkännande: $175/tim.",
+          "bridge": "Inkluderar 30 dagar efter lansering: annonshantering, AI-övervakning och buggfixar. Efter dag 30 behöver dina annonser, AI-agenter och automationer löpande optimering för att fortsätta prestera. Vi rekommenderar vår plan Tillväxtmotorn ($3,500/mån) för att hålla farten uppe.",
+          "ideal": "Växande företag som skalar med system"
+        },
+        {
+          "name": "Total dominans",
+          "price": 18000,
+          "disp": "$18,000+",
+          "tag": "Enterprise-nivå",
+          "tl": "8 till 12 veckor",
+          "scope": [
+            {
+              "i": "Premiumwebbplats (15 sidor + e-handel)",
+              "l": "15 färdigdesignade sidor byggda i Next.js med headless CMS (Sanity eller Contentful). 6 skräddarsydda animationer (parallaxscroll, hovereffekter, sidövergångar, mikrointeraktioner). E-handelsredo: 20 produktsidor med Shopify- eller Stripe-integration, varukorg och kassa. Inkluderar blogg, resurscenter eller sektion för kundcase. Fullständig on-page-SEO, schema-markup, Open Graph-taggar, XML-sitemap och robots.txt. SSL, Vercel-hosting och CDN-optimering ingår."
+            },
+            {
+              "i": "Komplett varumärkessystem",
+              "l": "5 inledande logotypkoncept med livsstilsmockups. 1 väljs för fullständig finputsning. Komplett varumärkesmanual (20 sidor): logotypanvändning, friyta, minsta storlekar, primära och sekundära färgpaletter, typografihierarki, fotostil, ikonstil, riktlinjer för varumärkets röst och ton. Kontorstryck: visitkort, brevpapper och mall för e-postsignatur. Pitchdeck-mall (15 bilder, redigerbar i Google Slides eller Keynote). 10 varumärkesanpassade mallar för sociala medier (Canva eller Figma, redigerbara)."
+            },
+            {
+              "i": "AI-agentekosystem (3 agenter)",
+              "l": "3 sammankopplade AI-agenter som arbetar som ett system. Exempel på upplägg: Agent 1 fångar leads via chattbot och poängsätter dem (het/ljummen/kall). Agent 2 skickar personliga mejlsekvenser utifrån poängen. Agent 3 triggar sms-uppföljningar för heta leads. 1 skräddarsytt beslutsträd som kartlägger hela leadresan. Alla agenter kopplade till ditt GHL-CRM med automatisk taggning av kontakter och förflyttning i pipelinen."
+            },
+            {
+              "i": "Konversations-AI-svit",
+              "l": "1 AI-chattbot tränad på 100 fråga-svar-par, inbäddad på hela webbplatsen. Inkluderar mötesbokning, leadinsamling, hantering av vanliga frågor och meddelanden utanför öppettider. 1 AI-röstagent med 2 skräddarsydda samtalsmanus (t.ex. inkommande försäljning + mötesbekräftelse). 1,000 röstminuter ingår den första månaden. Samtalsinspelningar lagras i CRM. 5 sms-automationssekvenser (t.ex. mötespåminnelser, uppföljning efter samtal, omdömesförfrågan, återaktivering, kampanjutskick)."
+            },
+            {
+              "i": "Arbetsflödesautomation (15 totalt)",
+              "l": "15 automationer över ditt CRM, betalsystem och kalender. Exempel: lead nurturing-sekvenser, fakturapåminnelser, betalningsbekräftelse, onboardingflöden, omdömesförfrågningar, win-back-kampanjer, interna teamaviseringar, automationer vid byte av pipelinesteg och födelsedags-/milstolpsmejl. Varje automation har upp till 7 steg med villkorslogik."
+            },
+            {
+              "i": "Google + Meta Ads (komplett uppsättning)",
+              "l": "1 Google Search-kampanj med 5 annonsgrupper och 10 annonsvarianter. Fullständig sökordsanalys med negativa sökordslistor. 1 Meta-kampanj (Facebook/Instagram) med 3 annonsuppsättningar riktade mot olika målgrupper. Retargeting-pixel installerad på din webbplats för både Google och Meta. 2 dedikerade landningssidor designas, byggs och optimeras för konvertering. All konverteringsspårning konfigureras via Google Tag Manager. Annonsmaterial designas (6 statiska bilder + 2 karusellannonser). Annonsbudgeten faktureras separat. Du betalar Google och Meta direkt."
+            },
+            {
+              "i": "AI-innehållssystem",
+              "l": "Komplett innehållspipeline konfigureras: video-till-klipp-flöde (ladda upp en lång video, AI genererar klipp för sociala medier), mall för blogginlägg med AI-stöd och schemaläggning av sociala medier i Buffer eller Later. Första månadens innehåll produceras och publiceras: 4 blogginlägg (upp till 1,000 ord vardera, SEO-optimerade) och 12 inlägg i sociala medier (grafik + bildtexter). Mall för innehållskalender tillhandahålls för fortsatt bruk."
+            },
+            {
+              "i": "Ledningsdashboard",
+              "l": "1 heltäckande dashboard i GHL eller Google Looker Studio. 10 widgetar: webbtrafik, leadpipeline, konverteringsgrad, Google Ads-resultat (CPC, CTR, ROAS), Meta Ads-resultat, chattbotinteraktioner, samtalsvolym för röstagent, öppnings-/klickfrekvens för mejl, intäktsattribution och veckovisa trenddiagram. Automatiskt veckosammandrag mejlas till 3 mottagare."
+            },
+            {
+              "i": "Designrevideringar",
+              "l": "3 revideringsrundor per leverans för allt material. En ”runda” = 1 samlad feedbackomgång som lämnas inom 5 arbetsdagar."
+            },
+            {
+              "i": "Copywriting",
+              "l": "Fullständig professionell copywriting för 10 webbsidor (rubriker, brödtext, CTA:er, metabeskrivningar). Kunden tillhandahåller råmaterial, anteckningar eller punktlistor för resterande sidor. Annonstexter för alla Google- och Meta-kampanjer skrivs och ingår."
+            }
+          ],
+          "ov": [
+            "Ytterligare sidor: $500",
+            "Extra revidering: $350/runda",
+            "Ytterligare AI-agent: $2,500",
+            "Ytterligare annonskampanj: $1,500",
+            "Röstmanus: $750",
+            "Automationer (15+): $400 styck",
+            "Produkter (20+): $75/produkt",
+            "Innehåll efter månad 1: kräver månadsavtal"
+          ],
+          "ho": "Betalning: 50 % vid start, 25 % vid halvtidsmilstolpe, 25 % vid leverans (betalning inom 7 dagar). Projektet avslutas vid godkännande ELLER efter 3 rundor. Efter godkännande: $175/tim.",
+          "bridge": "Inkluderar 45 dagar efter lansering: fullständig övervakning, annonshantering, AI-justering och buggfixar. Efter dag 45 behöver ditt AI-ekosystem, dina annonskampanjer och innehållssystem löpande hantering för att leverera resultat. Vi rekommenderar vårt Fullt partnerskap ($7,500/mån) eller Tillväxtmotorn ($3,500/mån) beroende på dina behov.",
+          "ideal": "Etablerade företag som vill ha komplett AI-infrastruktur"
+        }
+      ],
+      "socialSetup": [
+        {
+          "name": "Uppstart: en plattform",
+          "price": 1200,
+          "disp": "$1,200",
+          "tag": "Få en kanal helt rätt",
+          "tl": "3 till 5 dagar",
+          "scope": [
+            {
+              "i": "Val av plattform",
+              "l": "1 valfri plattform: Instagram, LinkedIn, Facebook, TikTok, YouTube, X (Twitter) eller Pinterest. Vi sätter upp från grunden eller gör om din befintliga profil."
+            },
+            {
+              "i": "Profiloptimering",
+              "l": "Bio skrivs och anpassas till plattformen (upp till 150 tecken för IG, upp till 2,000 för LinkedIn osv.). Profilbild storleksanpassas och optimeras för plattformen. Omslagsbild eller banner designas för att matcha ditt varumärke. Utvalda sektioner, highlights eller fästa inlägg konfigureras (där det är tillämpligt). Kontaktuppgifter, webbplatslänk, CTA-knappar och kategori-/branschtaggar sätts upp."
+            },
+            {
+              "i": "Visuellt identitetsmaterial",
+              "l": "1 skräddarsydd profilbild (varumärkesinitialer, porträtt med överlägg eller logotypmärke) anpassad för plattformen. 1 skräddarsydd omslagsbild eller banner designad efter dina varumärkesfärger och ditt budskap. Alla filer levereras i PNG och redigerbart format (Canva eller Figma). 1 revideringsrunda på det visuella materialet."
+            },
+            {
+              "i": "Innehållsmallar (3)",
+              "l": "3 varumärkesanpassade, återanvändbara inläggsmallar designade i Canva eller Figma. Innehåller: 1 citat-/tipsmall, 1 kampanj-/tjänstemall och 1 engagemangsmall (fråga, omröstning eller CTA). Varje mall använder dina varumärkesfärger, typsnitt och logotyp. Helt redigerbara så att ditt team kan byta text och bilder."
+            },
+            {
+              "i": "Hashtag- & sökordsstrategi",
+              "l": "Plattformsspecifik hashtag- eller sökordsanalys baserad på din bransch och målgrupp. 3 hashtag-/sökordsuppsättningar levereras (t.ex. 1 för bred räckvidd, 1 för nisch, 1 varumärkesanpassad). Varje uppsättning innehåller 15 till 30 hashtaggar eller sökord. Levereras som ett delbart dokument med användningsinstruktioner."
+            },
+            {
+              "i": "Lanseringsinnehåll (4 inlägg)",
+              "l": "4 publiceringsklara inlägg: statisk grafik med färdigskrivna bildtexter. Innehåller: 1 introduktions-/välkomstinlägg, 1 tjänste- eller produktinlägg, 1 inlägg med socialt bevis eller omdöme och 1 CTA- eller engagemangsinlägg. Grafik anpassad för den aktuella plattformen. Bildtexterna innehåller relevanta hashtaggar från dina strategiuppsättningar."
+            },
+            {
+              "i": "Plattformsguide (PDF)",
+              "l": "1-sidig PDF anpassad för din plattform. Täcker: bästa publiceringstider, ideal publiceringsfrekvens, innehållstyper som presterar bäst, tips för hashtaggar och bästa praxis för engagemang. Konkret och specifik för din bransch."
+            }
+          ],
+          "ov": [
+            "Ytterligare plattform: $1,200 styck",
+            "Extra inläggsmallar: $100 styck",
+            "Extra lanseringsinlägg (4+): $60 styck",
+            "Revideringsrunda: $175",
+            "Videoinnehåll (Reels/Shorts): $175 styck"
+          ],
+          "ho": "Betalning: 50 % vid start, 50 % vid leverans (betalning inom 7 dagar). Projektet avslutas vid godkännande ELLER efter 1 revideringsrunda. Ändringar efter leverans: $175/tim.",
+          "bridge": "Dina profiler är uppsatta och redo. För att hålla dem aktiva och växande, lägg till vår plan Social Start ($1,500/mån) eller hantering av enskilda plattformar från $650/mån.",
+          "ideal": "Företag som börjar om från början på en plattform"
+        },
+        {
+          "name": "Flerplattformslansering",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "tl": "1 till 2 veckor",
+          "scope": [
+            {
+              "i": "Plattformar (3 ingår)",
+              "l": "Välj 3 plattformar: Instagram, LinkedIn, Facebook, TikTok, YouTube, X eller Pinterest. Nya profiler skapas från grunden eller befintliga profiler görs om helt."
+            },
+            {
+              "i": "Profiloptimering (alla 3)",
+              "l": "Bios skrivs och optimeras per plattform. Profilbilder och omslagsbilder/banners designas för var och en (korrekt storlek enligt plattformens specifikationer). CTA:er, kontaktuppgifter, webbplatslänkar och kategoritaggar konfigureras. Highlights, utvalda sektioner eller fästa inlägg sätts upp där det är tillämpligt. Alla profiler korslänkas till varandra och till din webbplats."
+            },
+            {
+              "i": "Sammanhållen visuell identitet",
+              "l": "Matchande profilbilder och banners på alla 3 plattformar för ett konsekvent varumärke. Designade i linje med ditt befintliga varumärke (eller ett nytt om det kombineras med ett engångsprojekt). Levereras som PNG + redigerbara Canva- eller Figma-filer. 2 revideringsrundor på allt visuellt material."
+            },
+            {
+              "i": "Innehållsmallar (15 totalt)",
+              "l": "5 varumärkesanpassade, återanvändbara inläggsmallar per plattform (15 totalt). Varje uppsättning innehåller: 1 citat/tips, 1 kampanj, 1 omdöme/socialt bevis, 1 bakom kulisserna och 1 engagemang/CTA-mall. Alla mallar redigerbara i Canva eller Figma med dina varumärkesfärger, typsnitt och logotyp. Mallarna anpassas till varje plattforms format (t.ex. kvadrat för IG, liggande för LinkedIn, stående för TikTok)."
+            },
+            {
+              "i": "Hashtag- & sökordsstrategi",
+              "l": "Analys per plattform baserad på din bransch och dina konkurrenter. 5 hashtag- eller sökordsuppsättningar per plattform (15 totalt). Varje uppsättning innehåller 15 till 30 hashtaggar/sökord sorterade efter: bred räckvidd, nisch, varumärke, trendande och platsbaserade. Levereras som ett delat kalkylblad eller dokument med riktlinjer för användning."
+            },
+            {
+              "i": "Lanseringsinnehåll (18 inlägg totalt)",
+              "l": "6 publiceringsklara inlägg per plattform (18 totalt). Blandning av statisk grafik och karusellinlägg. Varje inlägg innehåller: designad grafik, skriven bildtext, relevanta hashtaggar och rekommenderad publiceringstid. Innehållet täcker: varumärkesintroduktion, tjänstepresentation, omdöme/bevis, lärorikt tips, bakom kulisserna och engagemang/CTA."
+            },
+            {
+              "i": "30-dagars innehållskalender",
+              "l": "Komplett kalender som planerar 30 dagars inläggsidéer med: föreslagen inläggstyp, ämne, utkast till bildtext, optimala publiceringstider och hashtaguppsättningar att använda. Levereras som Google Sheet eller Notion-mall som du kan återanvända och anpassa varje månad."
+            },
+            {
+              "i": "Plattformsguider (3 PDF:er)",
+              "l": "1 PDF-guide per plattform som täcker: bästa publiceringstider, ideal frekvens, innehållstyper som presterar, hashtagtips, engagemangsstrategier och algoritmspecifika råd. Anpassad till din bransch."
+            },
+            {
+              "i": "Länk-i-bio-sida",
+              "l": "1 länk-i-bio-sida uppsatt på Linktree, Later eller som en specialbyggd sida. Upp till 8 länkar konfigureras (webbplats, tjänster, bokning, sociala profiler osv.). Stylad för att matcha dina varumärkesfärger och din logotyp."
+            }
+          ],
+          "ov": [
+            "Ytterligare plattform: $500 styck",
+            "Extra mallar: $75 styck",
+            "Extra lanseringsinlägg (6+): $50 styck",
+            "Revideringsrunda: $175",
+            "Videoinnehåll: $175 styck",
+            "Ytterligare länk-i-bio-sida: $200"
+          ],
+          "ho": "Betalning: 50 % vid start, 50 % vid leverans (betalning inom 7 dagar). Projektet avslutas vid godkännande ELLER efter 2 revideringsrundor. Efter leverans: $175/tim.",
+          "bridge": "Alla plattformar lanseringsklara med 30 dagars innehåll planerat. För fortsatt tillväxt rekommenderar vi vår plan Social Tillväxt ($2,500/mån) eller tillägg per plattform.",
+          "ideal": "Företag som lanserar eller fräschar upp sin närvaro i sociala medier"
+        },
+        {
+          "name": "Fullständig social rebrand",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Total översyn",
+          "tl": "2 till 3 veckor",
+          "scope": [
+            {
+              "i": "Plattformar (5 ingår)",
+              "l": "5 plattformar: Instagram, LinkedIn, Facebook, TikTok, YouTube, X och/eller Pinterest. Fullständig granskning av befintliga profiler följt av en komplett rebrand. Gamla profiler uppdateras på plats (inga följare eller historik går förlorade)."
+            },
+            {
+              "i": "Granskning av sociala medier",
+              "l": "Detaljerad genomgång av varje befintlig profil: följardemografi, engagemangsgrad, bäst presterande innehåll, publiceringskontinuitet och poäng för profilens fullständighet. Jämförelse mot 3 konkurrenter som du väljer (eller som vi rekommenderar). Gapanalys som identifierar missade möjligheter i innehåll, hashtaggar, engagemang och plattformsfunktioner. Levereras som en skriftlig granskningsrapport (PDF, 3 till 5 sidor) med konkreta rekommendationer."
+            },
+            {
+              "i": "Profilöversyn (alla plattformar)",
+              "l": "Nya bios skrivs för varje plattform (optimerade för sök och konvertering). Nya profilbilder och omslagsbilder/banners designas per plattform. Alla CTA:er, kontaktuppgifter, länkar, highlights, utvalda sektioner och fästa inlägg uppdateras. Konsekvent varumärkesröst på alla plattformar. Kategoritaggar, branschetiketter och om-sektioner fräschas upp."
+            },
+            {
+              "i": "Komplett varumärkeskit för sociala medier",
+              "l": "10 varumärkesanpassade inläggsmallar per plattform (50 totalt över 5 plattformar). Malltyper: citat, tips, kampanjer, omdömen, karuseller, före/efter, bakom kulisserna, teampresentationer, nyheter och engagemangsinlägg. Story-mallar: 5 per plattform för IG, Facebook och TikTok (där det är tillämpligt). Omslagsikoner för highlights på Instagram (8 skräddarsydda ikoner). Alla mallar levereras i Canva eller Figma, helt redigerbara med dina varumärkesfärger, typsnitt och logotyp."
+            },
+            {
+              "i": "Hashtag- & SEO-strategi",
+              "l": "Djupgående analys per plattform baserad på din nisch, målgrupp och dina konkurrenter. 10 hashtag-/sökordsuppsättningar per plattform (50 totalt). Sorterade efter: bred räckvidd, nisch, varumärke, trendande, plats och konkurrentgap. Gapanalys som visar hashtaggar och sökord dina konkurrenter använder men inte du. Levereras som ett delat kalkylblad med riktlinjer för användning och rotationsschema."
+            },
+            {
+              "i": "Lanseringsinnehåll (40 inlägg + 4 videor)",
+              "l": "8 publiceringsklara inlägg per plattform (40 totalt). Blandning av statisk grafik, karuseller och textbaserade inlägg. Upp till 4 kortformatsvideor (Reels, Shorts eller TikToks). Vi klipper från material du tillhandahåller eller skapar med AI-verktyg. Vi filmar inte. Varje inlägg innehåller: designad grafik, skriven bildtext, hashtaggar och rekommenderad publiceringstid."
+            },
+            {
+              "i": "60-dagars innehållskalender",
+              "l": "Komplett kalender som planerar 60 dagars innehåll på alla plattformar. Innehåller: veckoteman/innehållspelare, specifika inläggsämnen, utkast till bildtexter, hashtaguppsättningar, optimala publiceringstider och utrymme för trendande/reaktivt innehåll. Levereras som Google Sheet eller Notion-mall. Återanvändbart ramverk som du kan anpassa varje månad."
+            },
+            {
+              "i": "Länk-i-bio-sida",
+              "l": "1 skräddarsydd länk-i-bio-sida (Linktree, Later eller specialbyggd). Upp till 12 länkar konfigureras och stylas för att matcha ditt nya sociala varumärke. Inkluderar analysspårning om plattformen stöder det."
+            },
+            {
+              "i": "YouTube-uppsättning (om det ingår)",
+              "l": "Om YouTube är en av dina 5 plattformar: kanalgrafik (banner + profilbild) designas. Standardmall för miniatyrbilder skapas i Canva (redigerbar för varje video). Befintliga spellistor organiseras och namnges för SEO. Om-sektionen skrivs om med sökord. Kanaltaggar och standardinställningar för uppladdning konfigureras för synlighet i sök."
+            },
+            {
+              "i": "Revideringar",
+              "l": "2 revideringsrundor på alla leveranser (visuellt material, mallar, granskningsrapport, kalender). En ”runda” = 1 samlad feedbackomgång inom 5 arbetsdagar."
+            }
+          ],
+          "ov": [
+            "Ytterligare plattform: $400 styck",
+            "Extra mallar: $60 styck",
+            "Extra lanseringsinlägg (8+): $45 styck",
+            "Extra video: $175 styck",
+            "Revideringsrunda: $250",
+            "Intro-/outrovideo för YouTube: $600"
+          ],
+          "ho": "Betalning: 50 % vid start, 50 % vid leverans (betalning inom 7 dagar). Projektet avslutas vid godkännande ELLER efter 2 revideringsrundor. Efter leverans: $175/tim.",
+          "bridge": "Hela din närvaro i sociala medier är ombyggd och lanseringsklar med 60 dagars innehåll. För att hålla farten uppe rekommenderar vi Social Dominans ($4,500/mån) eller Social Tillväxt ($2,500/mån).",
+          "ideal": "Etablerade företag med föråldrad eller spretig närvaro i sociala medier"
+        }
+      ],
+      "monthly": [
+        {
+          "name": "Underhåll & övervakning",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mån",
+          "tag": "Håll allt igång",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Webbplatsunderhåll",
+              "l": "Månatliga uppdateringar av plugins, ramverk och beroenden. Buggfixar för trasiga länkar, layoutproblem och visningsfel. Övervakning och optimering av sidhastighet (bildkomprimering, cachning, lazy loading). Drifttidsövervakning med larm. Inkluderar INTE nya sidor, omdesign av befintliga sidor eller nya funktioner."
+            },
+            {
+              "i": "Övervakning av AI-chattbot",
+              "l": "Månatlig kontroll av drifttid och svarsprecision. Upp till 10 uppdateringar av fråga-svar-par per månad (nya frågor, förfinade svar, rättning av felaktiga svar). Test av leadinsamling och formulärinskick. Sammanfattning av chattbotens prestanda ingår i månadsrapporten."
+            },
+            {
+              "i": "Månatlig resultatrapport",
+              "l": "1 rapport mejlas senast den 5:e varje månad och täcker: webbtrafik (sessioner, användare, sidvisningar), bäst presterande sidor, antal leads och fördelning per källa, konverteringsgrad och statistik över chattbotinteraktioner. Levereras som PDF eller dashboardlänk. Rapporten skickas, presenteras inte live. Livesamtal finns som tillägg."
+            },
+            {
+              "i": "Designuppdateringar (2 tim/mån)",
+              "l": "2 timmar design- och innehållsuppdateringar per månad. Täcker: textändringar, bildbyten, knappuppdateringar, mindre layoutjusteringar och bannerbyten. Timmar förs bara över till nästa månad (max 4 timmar ackumulerade). Inkluderar INTE design av nya sidor, funktionsbyggen eller strukturella ändringar. Tiden loggas och rapporteras."
+            },
+            {
+              "i": "Hantering av CRM-pipeline",
+              "l": "Månatlig genomgång av din GHL-pipelines hälsa: fastnade leads, inaktuella affärer och automationsfel. 3 automationsjusteringar per månad (t.ex. uppdatera mejltexter, ändra triggertider, laga trasiga sekvenser). Kontaktlistehygien: flaggning av dubbletter och borttagning av studsar (max 500 kontakter/mån)."
+            },
+            {
+              "i": "Support",
+              "l": "Endast support via sms och mejl (ingen telefon, inga livesamtal på den här nivån). 48 timmars svarstid på arbetsdagar (måndag till fredag, 9 till 17). Upp till 10 supportärenden per månad. Varje ärende = 1 specifik begäran (inte en lista med ändringar). Ärenden utöver 10 faktureras med $175/tim."
+            }
+          ],
+          "ov": [
+            "Design utöver 2 tim: $175/tim",
+            "Ny sida: $500",
+            "Livesamtal: $250/tim",
+            "Automationer (3+): $250 styck",
+            "Akut/samma dag: +50 %"
+          ],
+          "ex": "Ingen annonshantering, ingen innehållsproduktion, inga nya funktioner, inga röstagenter, inga sociala medier. Kräver högre nivå.",
+          "ideal": "Trygghet efter lansering"
+        },
+        {
+          "name": "Tillväxtmotorn",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/mån",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "com": "Minst 6 månader",
+          "scope": [
+            {
+              "i": "Allt i Underhåll & övervakning",
+              "l": "Allt webbplatsunderhåll, AI-övervakning, månadsrapport, CRM-hantering och mejlsupport. Samma gränser och regler gäller. Designtimmarna ersätts av de 5 tim/mån nedan (läggs inte ihop)."
+            },
+            {
+              "i": "Hantering av Google Ads",
+              "l": "2 aktiva Google Search-kampanjer hanteras. Månatlig sökordsoptimering, budjusteringar och uppdatering av negativa sökord. 3 A/B-tester per månad (annonstext, element på landningssida eller målgruppsinriktning). Månatlig resultatgenomgång med analys av CPC, CTR, konverteringsgrad och ROAS. Annonsbudget upp till $5,000/mån hanteras på den här nivån. Annonsbudget över $5K: ytterligare $500/mån per $5K-steg. Annonsbudgeten faktureras separat. Du betalar Google direkt."
+            },
+            {
+              "i": "Hantering av Meta Ads",
+              "l": "2 aktiva Meta-kampanjer (Facebook/Instagram) hanteras. 1 kreativ uppdatering per månad: 3 nya annonsmaterial designas (statiska bilder eller karuseller). 2 nya målgruppstester per månad. Underhåll av retargeting-målgrupper och uppdatering av lookalike-målgrupper. Månatlig resultatgenomgång. Annonsbudgeten faktureras separat. Du betalar Meta direkt."
+            },
+            {
+              "i": "AI-assisterad innehållsproduktion",
+              "l": "4 blogginlägg per månad (upp till 800 ord vardera, SEO-optimerade med sökord, metabeskrivningar och interna länkar). 12 inlägg i sociala medier per månad (designad grafik + skrivna bildtexter med hashtaggar). 1 revideringsrunda per enhet (ska begäras inom 3 arbetsdagar efter leverans). Kunden godkänner månadens innehållskalender senast den 5:e varje månad. Sent godkännande = försenad leverans utan garanterad deadline."
+            },
+            {
+              "i": "Optimering av AI-system",
+              "l": "Chattbot: 15 uppdateringar av fråga-svar-par per månad. Genomgång av chattbotens konverteringsgrad och svarsprecision. Röstagent: 1 revidering av samtalsmanus per månad (justering av språk, flöde eller kvalificeringskriterier). AI-prestandamått ingår i månadsrapporten. Inkluderar INTE nya agenter eller nya automationsflöden."
+            },
+            {
+              "i": "Strategiuppdateringar",
+              "l": "Månatlig inspelad Loom-genomgång av ditt resultat, rekommendationer och nästa steg (10 till 15 min). Du svarar via sms, mejl eller röstmemo. Inga livesamtal krävs. Frågor besvaras inom 1 arbetsdag via sms eller mejl. 1 valfritt livesamtal per månad på begäran (max 30 min)."
+            },
+            {
+              "i": "Design & utveckling (5 tim/mån)",
+              "l": "5 timmar design- och utvecklingsarbete per månad. Täcker: nya landningssidor, siduppdateringar, mindre funktionstillägg, grafisk design för kampanjer eller anpassning av mallar. Timmar förs INTE över. Använd dem eller förlora dem. Fullständig omdesign av sidor eller större funktionsbyggen omfattningsbestäms och offereras separat. Tiden loggas och rapporteras månadsvis."
+            }
+          ],
+          "ov": [
+            "Design utöver 5 tim: $175/tim",
+            "Annonsbudget >$5K: +$500/mån per $5K-steg",
+            "Blogginlägg: $250 styck",
+            "Sociala inlägg (12+): $60 styck",
+            "Kreativ uppdatering: $500",
+            "Ytterligare livesamtal: $250/tim",
+            "Ny AI-agent: $2,500",
+            "Akut: +50 %"
+          ],
+          "ex": "Ingen fraktionell CMO, inga obegränsade annonser, inga varumärkesuppdateringar, ingen videoproduktion, ingen dedikerad hantering av sociala medier. Kräver högre nivå eller Social-tillägg.",
+          "ideal": "Företag som aktivt skalar sina intäkter"
+        },
+        {
+          "name": "Fullt partnerskap",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/mån",
+          "tag": "Fraktionell CMO + team",
+          "com": "Minst 6 månader",
+          "scope": [
+            {
+              "i": "Allt i Tillväxtmotorn",
+              "l": "Allt webbplatsunderhåll, AI-övervakning, rapporter, CRM-hantering, hantering av Google + Meta-annonser, AI-innehållsproduktion, AI-optimering, strategiuppdateringar och mejlsupport, med utökade gränser enligt nedan. Designtimmar och strategiuppdateringar ersätts av de utökade versionerna nedan (läggs inte ihop)."
+            },
+            {
+              "i": "Dedikerad strateg",
+              "l": "Namngiven kontaktperson som känner ditt företag, dina mål och ditt varumärke. Tillgänglig via sms eller mejl måndag till fredag, 9 till 17 (din tidszon). Inte tillgänglig dygnet runt, på helger eller helgdagar. Hanterar alla leveranser, koordinerar teamet och kommer proaktivt med rekommendationer via Loom, mejl eller sms. Svarar inom 4 arbetstimmar på arbetsdagar."
+            },
+            {
+              "i": "Annonshantering (utökad)",
+              "l": "Obegränsat antal aktiva kampanjer på Google och Meta. Strategi för hela tratten: kännedoms-, övervägande- och konverteringskampanjer. Månatliga kreativa uppdateringar, målgruppstester, budoptimering och omfördelning av budget. Annonsbudget upp till $20,000/mån hanteras. Annonsbudget över $20K kräver individuell prissättning. Månatlig annonsrapport med analys av ROAS, CPA och budgeteffektivitet. Annonsbudgeten faktureras separat."
+            },
+            {
+              "i": "Hantering av AI-ekosystem",
+              "l": "5 aktiva AI-agenter hanteras och optimeras (chattbotar, röstagenter, mejlagenter, sms-agenter). 2 nya automationsflöden byggs per månad (t.ex. ny leadsekvens, merförsäljningsflöde, återaktiveringskampanj). Månatlig genomgång av agenternas prestanda: svarsprecision, lösningsgrad, samtalslängd och leadkonvertering. Omträning av agenter och manusuppdateringar vid behov inom omfattningen."
+            },
+            {
+              "i": "Innehållssystem (utökat)",
+              "l": "8 blogginlägg per månad (upp till 1,000 ord vardera, SEO-optimerade). 20 inlägg i sociala medier per månad (designad grafik + skrivna bildtexter med hashtaggar och CTA:er). 4 kortformatsvideor per månad (Reels, Shorts eller TikToks), klippta från material du tillhandahåller eller skapade med AI-verktyg. Vi klipper, vi filmar inte. 1 revideringsrunda per enhet. Innehållskalender levereras senast den 1:a varje månad för ditt godkännande."
+            },
+            {
+              "i": "Månatligt strategimöte + veckouppdateringar",
+              "l": "1 strategimöte live per månad (max 60 min). Veckouppdateringar via Loom-video eller skriftlig sammanfattning som täcker: resultatgenomgång, kommande prioriteringar, kampanjjusteringar och strategiska rekommendationer. Du svarar via sms, mejl eller röstmemo. Den dagliga kommunikationen sker helt via sms och mejl. Inga spontana samtal."
+            },
+            {
+              "i": "Design & utveckling (15 tim/mån)",
+              "l": "15 timmar design- och utvecklingsarbete per månad. Täcker: nya funnels, landningssidor, omdesign av sidor, funktionsbyggen, grafisk design, design av mejlmallar eller presentationsdesign. Timmar förs bara över till nästa månad (max 30 timmar ackumulerade). Fullständig omdesign av webbplats eller apputveckling omfattningsbestäms och offereras separat. Tiden loggas och rapporteras månadsvis."
+            },
+            {
+              "i": "Kvartalsvis varumärkesuppdatering",
+              "l": "1 varumärkesuppdatering per kvartal (var 3:e månad). Inkluderar 5 nya kreativa enheter: uppdaterade mallar för sociala medier, säsongsannonser, uppfräschade mejlheaders eller ny kampanjgrafik. Inkluderar INTE en fullständig rebrand (ny logotyp, ny manual, nytt varumärkessystem). Fullständiga rebrands offereras separat från $6,000+."
+            }
+          ],
+          "ov": [
+            "Design utöver 15 tim: $175/tim",
+            "Annonsbudget >$20K: individuell prissättning",
+            "Blogginlägg: $250 styck",
+            "Videoklipp (4+): $300 styck",
+            "Filmning: separat",
+            "Fullständig rebrand: $6K+ separat",
+            "AI-agent: $2,500 styck",
+            "Helg/utanför kontorstid: +75 %"
+          ],
+          "ex": "Inga fysiska event, ingen PR-/mediebearbetning, ingen filmning (endast redigering), ingen apputveckling. Offereras separat.",
+          "ideal": "Företag som investerar $5K+/mån i annonser"
+        }
+      ],
+      "social": [
+        {
+          "name": "Social Start",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mån",
+          "tag": "1 till 2 plattformar",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Plattformar (2 ingår)",
+              "l": "Välj 2 plattformar bland: Instagram, LinkedIn, Facebook, TikTok, YouTube eller X. Vi sköter publicering, schemaläggning och grundläggande engagemang på båda."
+            },
+            {
+              "i": "Innehållsproduktion (16 inlägg/mån)",
+              "l": "8 inlägg per plattform (16 totalt per månad). Alla inlägg är statisk grafik med skrivna bildtexter och relevanta hashtaggar. Ingen videoproduktion på den här nivån. Innehållstyper: tips, kampanjer, omdömen, citat och engagemangsinlägg. Grafiken designas i din varumärkesstil med dina färger, typsnitt och din logotyp."
+            },
+            {
+              "i": "Schemaläggning & publicering",
+              "l": "Vi tar fram en månatlig innehållskalender, schemalägger alla inlägg och publicerar vid optimala tider för din målgrupp. Kunden måste godkänna innehållskalendern senast den 3:e varje månad. Sent godkännande = inläggen kanske inte publiceras enligt planerat schema."
+            },
+            {
+              "i": "Grundläggande engagemang",
+              "l": "Upp till 30 minuter per dag (endast arbetsdagar, måndag till fredag). Inkluderar: svar på kommentarer och direktmeddelanden, gilla relevanta kommentarer och flagga eventuella problem eller negativ feedback för din granskning. Inkluderar INTE proaktiv kontakt eller community-byggande."
+            },
+            {
+              "i": "Månadsrapport",
+              "l": "1 rapport mejlas senast den 5:e varje månad. Täcker: följartillväxt, inläggens räckvidd, engagemangsgrad (gilla-markeringar, kommentarer, delningar), bäst presterande inlägg och rekommendationer för nästa månad. Levereras som PDF. Presenteras inte live."
+            },
+            {
+              "i": "Innehållsrevideringar",
+              "l": "1 revideringsrunda per månatlig innehållsomgång. Alla revideringsönskemål ska lämnas som ett enda samlat dokument inom 3 arbetsdagar efter att innehållskalendern levererats."
+            },
+            {
+              "i": "Hashtagstrategi",
+              "l": "Inledande hashtaganalys för båda plattformarna vid uppstart (3 uppsättningar med 15 till 30 hashtaggar vardera). Uppdateras en gång per kvartal. Uppsättningarna sorteras efter: bred räckvidd, nisch och varumärkes-/lokala hashtaggar."
+            }
+          ],
+          "ov": [
+            "Ytterligare plattform: $400/mån",
+            "Extra inlägg (8+): $60 styck",
+            "Videoreel/short: $175 styck",
+            "Ytterligare revideringsrunda: $175",
+            "Story-produktion: $30/story"
+          ],
+          "ex": "Ingen videoproduktion, inga betalda sociala annonser, ingen influencerbearbetning, inget community-byggande utöver grundläggande engagemang. Det kräver Social Tillväxt eller tillägg.",
+          "ideal": "Företag som behöver en konsekvent närvaro i 1 till 2 kanaler"
+        },
+        {
+          "name": "Social Tillväxt",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/mån",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "com": "Minst 6 månader",
+          "scope": [
+            {
+              "i": "Plattformar (4 ingår)",
+              "l": "Välj 4 plattformar: Instagram, LinkedIn, Facebook, TikTok, YouTube eller X. Vi sköter innehållsproduktion, schemaläggning, publicering och aktivt engagemang på alla."
+            },
+            {
+              "i": "Innehållsproduktion (48 inlägg + 4 videor/mån)",
+              "l": "12 inlägg per plattform (48 totalt per månad). Blandning av statisk grafik, karusellinlägg (upp till 5 bilder vardera) och textbaserade inlägg. 4 kortformatsvideor per månad (Reels, Shorts eller TikToks) fördelade över dina plattformar. Vi klipper video från material du tillhandahåller eller skapar med AI-videoverktyg. Vi filmar inte. All grafik designas i din varumärkesstil med skrivna bildtexter, hashtaggar och CTA:er."
+            },
+            {
+              "i": "Schemaläggning & publicering",
+              "l": "Komplett innehållskalender tas fram varje månad med inläggsämnen, format, bildtexter och publiceringstider. Kunden måste godkänna kalendern senast den 3:e varje månad. Vi sköter all schemaläggning och publicering vid optimala tider per plattform. Sent godkännande = försenad leverans utan garanti för det ursprungliga publiceringsschemat."
+            },
+            {
+              "i": "Aktivt engagemang",
+              "l": "Upp till 1 timme per dag (arbetsdagar, måndag till fredag). Inkluderar: svar på alla kommentarer och DM, gilla och svara på omnämnanden samt proaktivt engagemang hos relevanta konton i din bransch (30 min/dag för att gilla, kommentera, följa). Varumärkesbevakning av omnämnanden och taggar. Negativa kommentarer eller PR-problem flaggas till dig omedelbart."
+            },
+            {
+              "i": "Rapportering & strategi",
+              "l": "Månadsrapport (levereras senast den 5:e) som täcker: följartillväxt, räckvidd, engagemangsgrad, toppinlägg och målgruppsdemografi. 1 månatlig Loom-genomgång med resultatöversikt, innehållsrekommendationer och trendmöjligheter. Du svarar via sms eller mejl. 1 valfritt livesamtal per månad på begäran (max 30 min)."
+            },
+            {
+              "i": "Videoproduktion",
+              "l": "4 kortformatsvideor per månad. Varje video: upp till 60 sekunder, redigerad med undertexter, övergångar, musik (royaltyfri) och varumärkesgrafik. Vi klipper från råmaterial du tillhandahåller (mobilklipp, skärminspelningar, intervjuer) eller genererar med AI-verktyg. Vi filmar inte och erbjuder ingen produktion på plats."
+            },
+            {
+              "i": "Innehållsrevideringar",
+              "l": "2 revideringsrundor per månatlig innehållsomgång. All feedback lämnas som ett enda samlat dokument inom 3 arbetsdagar efter leverans."
+            },
+            {
+              "i": "Månatlig innehållsstrategi",
+              "l": "Månatliga innehållspelare definieras (3 till 5 teman som styr allt innehåll). Trendbevakning och rekommendationer för aktuella/reaktiva inlägg. Hashtagstrategin underhålls och uppdateras månadsvis på alla plattformar."
+            }
+          ],
+          "ov": [
+            "Ytterligare plattform: $400/mån",
+            "Extra inlägg (12+): $50 styck",
+            "Extra video: $175 styck",
+            "Filmning: offereras separat",
+            "Ytterligare livesamtal: $250/tim",
+            "Influencerbearbetning: tillägg $600/mån",
+            "Story-produktion: $25/story"
+          ],
+          "ex": "Ingen filmning, ingen hantering av betald annonsering (lägg till Google-/Meta-annonser från huvudpaketen), ingen förhandling av influenceravtal. Offereras separat.",
+          "ideal": "Företag som menar allvar med att växa sin publik och sitt engagemang"
+        },
+        {
+          "name": "Social Dominans",
+          "price": 4500,
+          "disp": "$4,500",
+          "per": "/mån",
+          "tag": "Helhetslösning för sociala medier",
+          "com": "Minst 6 månader",
+          "scope": [
+            {
+              "i": "Plattformar (6 ingår)",
+              "l": "Full täckning på 6 plattformar: Instagram, LinkedIn, Facebook, TikTok, YouTube och X. All innehållsproduktion, schemaläggning, publicering, community management och strategi sköts åt dig."
+            },
+            {
+              "i": "Innehållsproduktion (120 inlägg + 8 videor/mån)",
+              "l": "20 inlägg per plattform (120 totalt per månad). Blandning av statisk grafik, karuseller, stories, textinlägg och omröstningar. 8 kortformatsvideor per månad (Reels, Shorts, TikToks) fördelade över plattformarna. All grafik i din varumärkesstil med bildtexter, hashtaggar och CTA:er. Story-innehåll för Instagram, Facebook och TikTok där det är tillämpligt."
+            },
+            {
+              "i": "YouTube-hantering",
+              "l": "2 långformatsvideor för YouTube per månad (endast redigering, från material du tillhandahåller eller återanvänt från befintligt innehåll). Skräddarsydd miniatyrbild designas för varje video. SEO-optimerade titlar, beskrivningar och taggar skrivs. Organisering av spellistor och konfiguration av slutskärmar/kort. Vi redigerar och optimerar. Vi skriver inte manus, filmar inte och producerar inte originalmaterial."
+            },
+            {
+              "i": "Fullständig community management",
+              "l": "2 timmar per dag, måndag till fredag. Inkluderar: svar på alla kommentarer, DM och omnämnanden på alla plattformar. Proaktiv kontakt: engagemang hos relevanta konton, branschhashtaggar och potentiella kunder. Varumärkesbevakning: spårning av omnämnanden, taggar och relevanta samtal. Sentimentflaggning: negativ feedback eller PR-risker eskaleras till dig omedelbart. Veckovis engagemangssammanfattning ingår i rapporteringen."
+            },
+            {
+              "i": "Rapportering & strategi",
+              "l": "Veckovis analysöversikt mejlas varje måndag (nyckeltal för alla plattformar). Månatlig djuprapport (levereras senast den 5:e): följartillväxt, engagemangsgrad, räckvidd, visningar, toppinnehåll, målgruppsdemografi och konkurrentjämförelse. Månatlig Loom-genomgång som täcker: resultatöversikt, kommande kampanjer, innehållsinriktning och tillväxtmöjligheter. Du svarar via sms eller mejl. 1 valfritt livesamtal per månad på begäran (max 30 min)."
+            },
+            {
+              "i": "Videoproduktion (8 korta + 2 långa/mån)",
+              "l": "8 kortformatsvideor (upp till 60 sekunder vardera) med undertexter, övergångar, royaltyfri musik och varumärkesgrafik. 2 långformatsvideor för YouTube (upp till 10 minuter vardera, klippta från råmaterial). Vi klipper. Vi filmar inte. Du tillhandahåller råmaterial (mobilklipp, intervjuer, skärminspelningar, presentationer) eller så skapar vi med AI-videoverktyg. Professionell redigering med varumärkesanpassade intros/outros om du har sådana."
+            },
+            {
+              "i": "Innehållsrevideringar",
+              "l": "2 revideringsrundor per månatlig innehållsomgång. All feedback lämnas som ett samlat dokument inom 3 arbetsdagar."
+            },
+            {
+              "i": "Kvartalsvis social strategi",
+              "l": "Fullständig uppdatering av strategin för sociala medier varje kvartal. Inkluderar: uppdaterade innehållspelare, trendanalys, konkurrentgranskning (3 konkurrenter), färdplan för publiktillväxt och plattformsspecifika rekommendationer. Strategidokument levereras som PDF eller presentation (upp till 10 sidor). Månatliga innehållspelare och trendbevakning pågår mellan kvartalen."
+            },
+            {
+              "i": "Influencersamordning",
+              "l": "Kontakt med 5 mikroinfluencers per månad. Vi researchar, identifierar och kontaktar potentiella partners i din nisch. Vi förhandlar samarbetsvillkor (gåvoprodukt, betalt inlägg eller innehållsutbyte). Du godkänner alla slutliga upplägg innan något avtal ingås. Vi tillhandahåller en mall för influencerbrief och sköter kommunikationen fram till avtal. Inkluderar INTE ersättning till influencers. Det är din kostnad, separat från det här avtalet."
+            }
+          ],
+          "ov": [
+            "Extra plattform: $400/mån",
+            "Extra inlägg (20+): $40 styck",
+            "Extra långformatsvideo: $500 styck",
+            "Filmning: offereras separat",
+            "Influencers utöver 5: $125/kontakt",
+            "Hantering av betald annonsering: lägg till från huvudpaketen",
+            "Ytterligare livesamtal: $250/tim",
+            "Helginnehåll: +50 %"
+          ],
+          "ex": "Ingen filmning/videoproduktion (endast redigering), ingen hantering av betald annonsering (läggs till separat), ingen PR-/pressbearbetning. Offereras separat.",
+          "ideal": "Varumärken som vill dominera sociala medier i alla kanaler"
+        }
+      ],
+      "customBuild": [
+        {
+          "name": "Discovery & omfattning",
+          "price": 2500,
+          "disp": "$2,500",
+          "tag": "Obligatoriskt första steg",
+          "tl": "1 till 2 veckor",
+          "scope": [
+            {
+              "i": "Uppstartsformulär + inspelad workshop",
+              "l": "Detaljerat intagsformulär som täcker: affärsmål, användartyper och roller, kärnfunktioner, måsten kontra önskemål, integrationer (betalning, CRM, mejl, API:er) och förväntningar på tidsram. Vi går igenom dina svar och levererar en inspelad Loom-genomgång av vår tolkning och våra följdfrågor. Du svarar via sms, mejl eller röstmemo. 1 valfritt livesamtal vid behov (max 60 min)."
+            },
+            {
+              "i": "Kartläggning av användarflöden",
+              "l": "Visuella diagram som visar hur varje användartyp rör sig genom systemet. Till exempel: hyresgäst loggar in → skickar underhållsärende → fastighetsförvaltare notifieras → tilldelar leverantör → hyresgäst får uppdatering. Täcker alla centrala användarresor (5 flöden). Levereras som FigJam- eller Miro-tavla."
+            },
+            {
+              "i": "Teknisk arkitekturdokumentation",
+              "l": "Skriftlig genomgång av föreslagen teknikstack, databasstruktur, hosting, tredjepartsintegrationer och driftsättningsplan. Inkluderar rekommendationer kring bygga-eller-köpa-beslut (t.ex. egen betalningshantering kontra Stripe, egen autentisering kontra Clerk). Identifierar tekniska risker och beroenden."
+            },
+            {
+              "i": "Wireframes (10 skärmar)",
+              "l": "Lågupplösta wireframes för 10 nyckelskärmar som visar layout, navigation och innehållshierarki. Ingen pixelperfekt design. Fokus på struktur och användarupplevelse. Levereras i Figma. 1 revideringsrunda."
+            },
+            {
+              "i": "Scope of Work-dokument",
+              "l": "Detaljerat SOW med: varje funktion listad och beskriven, fasindelning (vad som levereras när), tidsuppskattning per fas, fastprisoffert för hela bygget, antaganden, undantag och policy för ändringsbeställningar. Detta blir grunden för avtalet."
+            },
+            {
+              "i": "Fastprisoffert för bygget",
+              "l": "Baserat på discovery-arbetet ger vi en bindande fastprisoffert för hela bygget. Inga överraskande timkostnader. Om projektets omfattning ändras efter signering använder vi en ändringsprocess med förgodkända priser."
+            }
+          ],
+          "ov": [
+            "Ytterligare wireframe-skärmar: $250 styck",
+            "Extra användarflödesdiagram: $300 styck",
+            "Tillägg konkurrentanalys: $750 (granskning av 3 konkurrerande produkter)",
+            "Förlängd discovery utöver 2 veckor: $1,200/vecka"
+          ],
+          "ho": "Betalning: 50 % vid start, 50 % vid leverans (betalning inom 7 dagar). Discovery-avgiften dras av från hela bygget om du går vidare inom 30 dagar efter leverans. Om du inte går vidare är alla leveranser (wireframes, SOW, arkitekturdokument) dina att behålla och använda med valfri utvecklare.",
+          "ideal": "Alla som överväger ett skräddarsytt bygge. Det här är steg ett."
+        },
+        {
+          "name": "Standardbygge",
+          "price": 25000,
+          "disp": "$25,000",
+          "tag": "Vanligast",
+          "pop": true,
+          "tl": "6 till 12 veckor",
+          "scope": [
+            {
+              "i": "Komplett UI/UX-design",
+              "l": "Komplett gränssnittsdesign i Figma för alla skärmar (vanligtvis 15 till 30 skärmar beroende på komplexitet). Inkluderar: responsiva layouter för dator och mobil, komponentbibliotek, designsystem med dina varumärkesfärger/typsnitt/avstånd och interaktiv prototyp för intressentgranskning. 2 designrevideringsrundor innan utvecklingen börjar."
+            },
+            {
+              "i": "Frontend-utveckling",
+              "l": "Byggt i Next.js (React) med TypeScript. Helt responsivt på dator, surfplatta och mobil. Server-side rendering för prestanda och SEO där det är tillämpligt. Ren, underhållbar kodbas med komponentarkitektur. Inkluderar laddningstillstånd, felhantering, tomma tillstånd och formulärvalidering på alla interaktiva element."
+            },
+            {
+              "i": "Backend-utveckling",
+              "l": "RESTful- eller GraphQL-API byggt i Node.js. Databasdesign och implementation (PostgreSQL eller MongoDB beroende på projektets behov). Användarautentisering och rollbaserad åtkomstkontroll (t.ex. admin, förvaltare, hyresgäst, leverantör). Datavalidering, felhantering och API-dokumentation. Hantering av filuppladdning vid behov (bilder, dokument, upp till 10 MB per fil)."
+            },
+            {
+              "i": "Kärnfunktioner",
+              "l": "Omfattningen definieras i Discovery-SOW. Standardbyggen inkluderar vanligtvis: användarregistrering och inloggning, rollbaserade dashboards, CRUD-operationer för kärndata (t.ex. fastigheter, hyresgäster, ärenden), sök och filtrering, aviseringssystem (mejl och/eller i appen) och grundläggande rapportering/analys. Funktioner utöver SOW kräver en ändringsbeställning."
+            },
+            {
+              "i": "Tredjepartsintegrationer (3 ingår)",
+              "l": "3 integrationer med externa tjänster. Vanliga exempel: Stripe (betalningar), Twilio (sms/röst), SendGrid (mejl), Google Maps, Calendly, QuickBooks, Zapier eller valfri tjänst med dokumenterat REST-API. Varje integration inkluderar: uppsättning, datamappning, felhantering och testning. Komplexa integrationer (t.ex. egna ERP-system, äldre system utan moderna API:er) offereras separat."
+            },
+            {
+              "i": "Hosting & driftsättning",
+              "l": "Driftsatt i produktion på Vercel (frontend) och Railway, Render eller AWS (backend). CI/CD-pipeline konfigurerad för automatiska driftsättningar från GitHub. SSL-certifikat, uppsättning av egen domän och DNS-konfiguration. Hantering av miljövariabler och hemligheter. Staging-miljö ingår för testning före produktionsreleaser."
+            },
+            {
+              "i": "Testning & QA",
+              "l": "Manuell testning i Chrome, Safari, Firefox och Edge. Mobiltestning i iOS Safari och Android Chrome. Alla centrala användarflöden testas från början till slut. Buggfixar under utvecklingen ingår. Buggfixar efter lansering täcks i 30 dagar (se överlämningsvillkor nedan)."
+            },
+            {
+              "i": "Dokumentation",
+              "l": "Teknisk dokumentation: API-endpoints, databasschema, guide för miljöuppsättning och driftsättningsinstruktioner. Användardokumentation: handbok för administratörer som täcker alla kärnfunktioner (levereras som PDF eller Notion-sida, upp till 10 sidor). Kodbasen är kommenterad och organiserad för framtida utvecklare."
+            },
+            {
+              "i": "Revideringar",
+              "l": "2 designrevideringsrundor före utveckling. Under utvecklingen hanteras feedback via en delad uppgiftstavla (Linear eller GitHub Issues). Efter utveckling: 1 revideringsrunda på slutprodukten före lansering. Ändringar av omfattningen under utvecklingen kräver en ändringsbeställning med förgodkända priser ($200/tim)."
+            }
+          ],
+          "ov": [
+            "Ytterligare integrationer: $3,000 styck",
+            "Extra skärmar utöver SOW: $800/skärm",
+            "Ändringsbeställningar under utveckling: $200/tim",
+            "Ytterligare användarroller: $2,000 per roll",
+            "Avancerad rapport-/analysdashboard: $5,000",
+            "Nativ mobilapp (iOS eller Android): se nivån Enterprise-bygge"
+          ],
+          "ho": "Betalning: 50 % vid start, 25 % vid halvtidsmilstolpe, 25 % vid leverans (betalning inom 7 dagar). Inkluderar 30 dagars buggfixar efter lansering (endast fel i funktioner från ursprungligt SOW). Efter 30 dagar övergår löpande support till ett underhållsavtal. All kod är din. Fullt ägande av kodbas, designfiler och dokumentation överförs när projektet är klart.",
+          "bridge": "Din plattform är live och stabil. För att hålla den igång, säker och i utveckling rekommenderar vi vårt avtal Utvecklarsupport ($1,500/mån) eller en Timbank ($2,500/mån för 10 tim).",
+          "ideal": "Portaler, dashboards, interna verktyg och SaaS-MVP:er"
+        },
+        {
+          "name": "Enterprise-bygge",
+          "price": 75000,
+          "disp": "$75,000+",
+          "tag": "Komplexa system",
+          "tl": "12 till 24 veckor",
+          "scope": [
+            {
+              "i": "Allt i Standardbygge (utökat)",
+              "l": "All design, frontend, backend, integrationer, hosting, testning och dokumentation från Standardbygge, med utökad omfattning för större och mer komplexa system. Vanligtvis 30 till 60+ skärmar, flera användarroller och komplex affärslogik."
+            },
+            {
+              "i": "Avancerad arkitektur",
+              "l": "Mikrotjänster eller modulär monolitarkitektur för skalbarhet. Meddelandeköer (Redis, RabbitMQ) för asynkron bearbetning vid behov. Cachelager för endpoints med hög trafik. Databasoptimering: indexering, frågeoptimering och connection pooling. Infrastruktur dimensionerad för 10,000+ samtidiga användare."
+            },
+            {
+              "i": "AI-drivna funktioner",
+              "l": "Skräddarsydda AI-agenter eller automationer inbyggda i plattformen. Exempel: AI-driven sökning, språkbehandling av supportärenden, prediktiv analys, automatisk kategorisering, smarta rekommendationer eller AI-chattbot tränad på din plattformsdata. Inkluderar: modellval, promptdesign, API-integration och testning. Använder OpenAI, Anthropic eller öppna modeller beroende på krav."
+            },
+            {
+              "i": "Mobilapp (om det ingår)",
+              "l": "Plattformsoberoende mobilapp byggd i React Native. Delad kodbas för iOS och Android. Pushnotiser, offlinestöd och nativa enhetsfunktioner (kamera, GPS, biometri). Inskick till App Store och Google Play sköts av oss (du tillhandahåller utvecklarkonton). Vanligtvis 15 till 25 skärmar som speglar webbappens kärnfunktioner."
+            },
+            {
+              "i": "Integrationer (6 ingår)",
+              "l": "6 tredjepartsintegrationer. Inkluderar komplexa integrationer: betalningshantering med utbetalningar till flera parter (Stripe Connect), bokföringssynk (QuickBooks, Xero), API:er för fastighetsförvaltning, MLS-flöden, myndighets-/compliance-API:er eller egna webhook-system. Integrationer mot äldre system offereras separat utifrån API-dokumentationens kvalitet."
+            },
+            {
+              "i": "Avancerad säkerhet & efterlevnad",
+              "l": "Rollbaserad åtkomstkontroll med detaljerade behörigheter (t.ex. åtkomst på fastighets- eller enhetsnivå). Datakryptering i vila och under överföring. Revisionsloggning av känsliga åtgärder. GDPR-/CCPA-funktioner vid behov (dataexport, raderingsbegäran). Samordning av penetrationstest (extern pentest rekommenderas, ingår inte i priset)."
+            },
+            {
+              "i": "Multi-tenant-arkitektur",
+              "l": "Om du bygger en SaaS: fullständig multi-tenant-databasarkitektur så att varje kunds data är isolerad. Kundspecifika konfigurationer, varumärkning och feature flags. Superadminpanel för hantering av alla kunder. Användningsspårning och faktureringsintegration vid behov."
+            },
+            {
+              "i": "Fasindelad leverans",
+              "l": "Projektet levereras i faser (vanligtvis 3 eller 4). Varje fas har egna leveranser, testning och godkännande. Fas 1 är vanligtvis kärn-MVP:n (lanserad i produktion). Efterföljande faser lägger till funktioner stegvis. Varje fas har en definierad tidsram och leveranslista från SOW."
+            },
+            {
+              "i": "Revideringar & ändringshantering",
+              "l": "2 designrevideringsrundor per fas. Feedback hanteras via delad uppgiftstavla (Linear eller GitHub Issues). Ändringsbeställningar för utökad omfattning: $200/tim med skriftligt godkännande innan arbetet påbörjas. Veckovisa statusuppdateringar via Loom-video eller skriftlig sammanfattning. Inspelade demovideor av färdigt arbete varannan vecka. Du granskar och svarar när det passar dig. 1 valfritt livesamtal per månad vid behov."
+            }
+          ],
+          "ov": [
+            "Ytterligare integrationer: $5,000 styck",
+            "Nativ mobilapp (om den inte ingår): $30,000",
+            "Ytterligare AI-funktioner: $10,000 per funktion",
+            "Ytterligare faser: omfattningsbestäms och offereras individuellt",
+            "Samordning av extern pentest: $5,000",
+            "Tillägg white-label/multi-tenant (om det inte ingår): $15,000"
+          ],
+          "ho": "Betalning: 50 % vid start, 25 % vid halvtidsmilstolpe, 25 % vid leverans (betalning inom 7 dagar). Inkluderar 45 dagars buggfixar efter lansering per fas. All kod, alla designfiler och all dokumentation överförs till dig vid leverans. Fullt ägande av kodbasen. Efter 45 dagar övergår löpande support till ett underhållsavtal.",
+          "bridge": "Komplexa system kräver löpande utveckling, övervakning och optimering. Vi rekommenderar vårt avtal Aktiv utveckling ($7,500/mån) för att låta din plattform växa med din verksamhet.",
+          "ideal": "SaaS-plattformar, multi-tenant-system, AI-integrerade produkter och enterprise-verktyg"
+        }
+      ],
+      "aiAgents": [
+        {
+          "name": "En agent",
+          "price": 5000,
+          "disp": "$5,000",
+          "tag": "En kraftfull agent",
+          "tl": "1 till 2 veckor",
+          "scope": [
+            {
+              "i": "Skräddarsydd AI-agent (1)",
+              "l": "En ändamålsbyggd AI-agent designad, tränad och driftsatt för din verksamhet. Välj bland: röstagent, mejlagent, webbskrapningsagent, PDF-genereringsagent, kundsupportchattbot, leadkvalificeringsagent, databearbetningsagent, mötesbokningsagent eller valfritt eget användningsområde. Agenten skräddarsys efter dina specifika arbetsflöden, din varumärkesröst och dina datakällor."
+            },
+            {
+              "i": "Träning & konfiguration av agent",
+              "l": "Vi konfigurerar agentens beteende, beslutslogik och svarsmönster utifrån dina krav. Inkluderar: upp till 50 träningsdatapunkter (fråga-svar-par, manus eller exempelflöden). Anpassad reservhantering och felsvar. Integration med 1 externt system (CRM, mejl, kalender, databas eller API)."
+            },
+            {
+              "i": "Testning & driftsättning",
+              "l": "Fullständig testning från början till slut för alla förväntade användningsfall. Hantering av gränsfall och stresstester. Driftsatt i din infrastruktur eller på vår hanterade hosting. Inkluderar staging-miljö för din granskning innan lansering."
+            },
+            {
+              "i": "Säkerhet för API-nycklar",
+              "l": "Alla API-nycklar och inloggningsuppgifter lagras säkert i krypterade miljövariabler. Aldrig hårdkodade eller exponerade i källkod. Nycklarna injiceras vid körning via din hostingleverantörs hemlighetshanterare (Vercel, AWS osv.). Åtkomst begränsad till enbart agentens körmiljö. Vi lagrar eller behåller aldrig dina API-nycklar efter driftsättning. Du behåller fullt ägande och full kontroll över alla inloggningsuppgifter hela tiden."
+            },
+            {
+              "i": "Dokumentation & överlämning",
+              "l": "Dokumentation av agentens beteende: vad den gör, hur den fungerar och hur den uppdateras. Administratörsguide för att ändra svar, uppdatera träningsdata eller pausa agenten. Arkitekturdiagram som visar hur agenten kopplas till dina system."
+            }
+          ],
+          "ov": [
+            "Ytterligare integration: $1,500",
+            "Träningsdata utöver 50 poster: $500/omgång om 50",
+            "Extra revideringsrunda: $350",
+            "Expressleverans (under 1 vecka): +40 %",
+            "Omträning av agent: $750"
+          ],
+          "ho": "Betalning: 50 % vid start, 50 % vid leverans (betalning inom 7 dagar). Projektet avslutas vid godkännande ELLER efter 2 revideringsrundor. Ägandet av agenten överförs till dig.",
+          "bridge": "Din agent är live. För att hålla den övervakad, optimerad och omtränad, lägg till vårt avtal Agentunderhåll ($1,500/mån) eller Agenttillväxt ($3,500/mån).",
+          "ideal": "Företag som automatiserar ett specifikt arbetsflöde"
+        },
+        {
+          "name": "Agentteam",
+          "price": 14500,
+          "disp": "$14,500",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "tl": "2 till 4 veckor",
+          "scope": [
+            {
+              "i": "Skräddarsydda AI-agenter (3)",
+              "l": "Tre sammankopplade AI-agenter som arbetar som ett samordnat system. Exempel på upplägg: (1) Röstagent svarar på samtal + mejlagent skickar uppföljningar + CRM-agent uppdaterar pipelinen. (2) Skrapningsagent samlar in data + bearbetningsagent formaterar rapporter + mejlagent distribuerar dem. (3) Chattbot fångar leads + kvalificeringsagent poängsätter dem + bokningsagent bokar samtal. Agenterna kommunicerar med varandra och delar data automatiskt."
+            },
+            {
+              "i": "Orkestrering av arbetsflöden",
+              "l": "Skräddarsytt beslutsträd som kartlägger hur agenterna lämnar över till varandra. Villkorslogik: agenterna agerar olika beroende på data, tid på dygnet, leadpoäng eller egna regler. Felhantering: om en agent misslyckas meddelar systemet dig och köar uppgiften för nytt försök. All kommunikation mellan agenter loggas och är spårbar."
+            },
+            {
+              "i": "Integrationer (3 ingår)",
+              "l": "3 integrationer med externa system för ditt agentteam. Vanliga integrationer: GoHighLevel, HubSpot, Salesforce, Google Workspace, Slack, Twilio, Stripe, Shopify, Zapier, Make eller valfri tjänst med REST-API. Varje integration inkluderar: datamappning, autentisering, felhantering och logik för nya försök."
+            },
+            {
+              "i": "Säkerhet för API-nycklar",
+              "l": "Alla API-nycklar, tokens och inloggningsuppgifter lagras i krypterade miljövariabler och din hostingleverantörs hemlighetshanterare. Aldrig hårdkodade, aldrig i källkod, aldrig i loggar. Varje agents uppgifter är isolerade så att en agent inte kan komma åt en annans nycklar. Vi lagrar eller behåller aldrig dina API-nycklar efter driftsättning. Du behåller fullt ägande och full kontroll över alla inloggningsuppgifter hela tiden."
+            },
+            {
+              "i": "Träning & testning av agenter",
+              "l": "Varje agent tränas på upp till 75 datapunkter. Fullständig testning av hela agentflödet från början till slut (inte bara enskilda agenter). Belastningstest för scenarier med hög volym. Acceptanstest tillsammans med ditt team innan lansering."
+            }
+          ],
+          "ov": [
+            "Ytterligare agent: $2,500",
+            "Ytterligare integration: $1,500",
+            "Träningsdata utöver 75/agent: $500/omgång",
+            "Extra revideringsrunda: $400",
+            "Expressleverans: +40 %"
+          ],
+          "ho": "Betalning: 50 % vid start, 50 % vid leverans (betalning inom 7 dagar). Projektet avslutas vid godkännande ELLER efter 2 revideringsrundor. Ägandet av alla agenter och all kod överförs till dig.",
+          "bridge": "Ditt agentteam är live och samordnat. För löpande optimering, omträning och nya agenter, lägg till vårt avtal Agenttillväxt ($3,500/mån) eller Agentkommandocentral ($7,500/mån).",
+          "ideal": "Företag som automatiserar flerstegsflöden från början till slut"
+        },
+        {
+          "name": "AI-drift",
+          "price": 25000,
+          "disp": "$25,000+",
+          "tag": "AI-ekosystem på enterprise-nivå",
+          "tl": "4 till 8 veckor",
+          "scope": [
+            {
+              "i": "Skräddarsydda AI-agenter (5+)",
+              "l": "Fem eller fler AI-agenter designade som ett komplett operativt lager för din verksamhet. Täcker flera avdelningar: försäljning, support, marknadsföring, drift och data. Varje agent ändamålsbyggd för dina arbetsflöden. Inga mallar, inga generiska upplägg. Agenttyperna kan vara valfri kombination av: röst, mejl, chatt, skrapning, PDF-generering, databearbetning, schemaläggning, innehållsproduktion, leadpoängsättning och egna användningsområden."
+            },
+            {
+              "i": "AI-orkestreringslager",
+              "l": "Centralt samordningssystem som hanterar alla agenter. Intelligent routing: uppgifter tilldelas automatiskt rätt agent utifrån typ, prioritet och kontext. Köhantering för scenarier med hög volym. Kommunikation mellan agenter med delat minne och kontextöverföring. Logik för nya försök, reservhantering och kontrollerad nedgradering när agenter stöter på fel."
+            },
+            {
+              "i": "Integrationer (6 ingår)",
+              "l": "6 externa integrationer som kopplar ditt agentekosystem till dina affärsverktyg. Inkluderar komplexa integrationer: flerstegsflöden över CRM + mejl + kalender + betalsystem. Webhook-lyssnare för triggers i realtid. Datasynkronisering mellan plattformar med konfliktlösning."
+            },
+            {
+              "i": "Säkerhet & efterlevnad",
+              "l": "Alla API-nycklar, tokens och inloggningsuppgifter lagras i krypterade miljövariabler och hemlighetshantering på enterprise-nivå. Aldrig hårdkodade, aldrig i källkod, aldrig i loggar. Varje agents uppgifter är helt isolerade. Datakryptering för all agentkommunikation (under överföring och i vila). Rollbaserad åtkomstkontroll för agenthantering. Revisionsloggning av varje agentåtgärd (vem, vad, när). Protokoll för hantering av personuppgifter konfigureras enligt dina krav. Policyer för datalagring upprätthålls automatiskt. Vi lagrar eller behåller aldrig dina API-nycklar efter driftsättning. Du behåller fullt ägande och full kontroll."
+            },
+            {
+              "i": "Träning & onboarding",
+              "l": "Varje agent tränas på upp till 150 datapunkter. Omfattande serie inspelade Loom-genomgångar som visar ditt team hur agenterna hanteras, övervakas och uppdateras. Runbook-dokumentation för varje agent: vad den gör, hur den ändras och felsökningssteg. All utbildning levereras som inspelad video. Ditt team tittar när det passar. Frågor besvaras via sms eller mejl inom 1 arbetsdag."
+            }
+          ],
+          "ov": [
+            "Ytterligare agent: $2,500 styck",
+            "Ytterligare integration: $2,000",
+            "Finjustering av egen AI-modell: $5,000",
+            "Utbildningssamtal live: $250/tim",
+            "Expressleverans: +30 %"
+          ],
+          "ho": "Betalning: 50 % vid start, 25 % vid halvtidsmilstolpe, 25 % vid leverans (betalning inom 7 dagar). Levereras i faser (vanligtvis 2 eller 3). Varje fas har definierade leveranser och godkännande. Ägandet av all kod och alla agenter överförs till dig vid leverans.",
+          "bridge": "Ditt AI-ekosystem är fullt operativt. För att hålla det igång, optimerat och växande, lägg till vårt avtal Agentkommandocentral ($7,500/mån).",
+          "ideal": "Företag som ersätter manuella processer med intelligent automation i stor skala"
+        }
+      ],
+      "monthlyAgent": [
+        {
+          "name": "Agentunderhåll",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mån",
+          "tag": "Håll agenterna igång",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Agentövervakning (upp till 3)",
+              "l": "Drifttids- och felövervakning dygnet runt för upp till 3 AI-agenter. Automatiska larm om en agent går ner, börjar fallera eller om svarsprecisionen sjunker under tröskelvärdet. Vi utreder och löser problem inom 1 arbetsdag."
+            },
+            {
+              "i": "Uppdateringar av träningsdata (15/mån)",
+              "l": "Upp till 15 uppdateringar av träningsdata per månad för alla agenter. Täcker: nya fråga-svar-par, förfinade svar, uppdaterade manus och rättning av felaktiga svar. Uppdateringar levereras inom 2 arbetsdagar efter begäran."
+            },
+            {
+              "i": "Hälsokontroller av API & integrationer",
+              "l": "Månatlig kontroll av att alla API-kopplingar och tredjepartsintegrationer fungerar. Proaktiv bevakning av utfasade API:er, ändrade hastighetsgränser och utgående autentisering. Alla API-nycklar lagras säkert i krypterade miljövariabler. Exponeras aldrig i kod eller loggar."
+            },
+            {
+              "i": "Månatlig resultatrapport",
+              "l": "Rapport levereras senast den 5:e varje månad och täcker: agenternas svarsprecision, slutförandegrad, felfrekvens, användningsvolym och integrationsstatus. Inkluderar rekommendationer för bättre prestanda. Levereras som PDF eller Loom-video."
+            },
+            {
+              "i": "Support",
+              "l": "Support via sms och mejl med 48 timmars svarstid (arbetsdagar). Upp till 8 supportärenden per månad. Varje ärende = 1 specifikt problem eller fråga. Ärenden utöver 8 faktureras med $200/tim."
+            }
+          ],
+          "ov": [
+            "Ytterligare agentövervakning: $300/mån per agent",
+            "Träningsuppdateringar utöver 15: $50 styck",
+            "Akut åtgärd utanför kontorstid: +50 %",
+            "Ny agent: offereras separat"
+          ],
+          "ex": "Inga nya agenter, inga nya integrationer, inga nya automationsflöden. Det här är enbart övervakning och underhåll. För aktiv agentutveckling, se nivån Agenttillväxt.",
+          "ideal": "Företag med agenter i drift som måste förbli träffsäkra och online"
+        },
+        {
+          "name": "Agenttillväxt",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/mån",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "com": "Minst 6 månader",
+          "scope": [
+            {
+              "i": "Allt i Agentunderhåll",
+              "l": "All övervakning, alla träningsuppdateringar, API-hälsokontroller, månadsrapportering och support från Agentunderhåll, med utökade gränser nedan."
+            },
+            {
+              "i": "Agentövervakning (upp till 6)",
+              "l": "Drifttids- och felövervakning dygnet runt för upp till 6 AI-agenter. Automatiska larm, utredning och åtgärd inom 4 arbetstimmar."
+            },
+            {
+              "i": "Uppdateringar av träningsdata (40/mån)",
+              "l": "Upp till 40 uppdateringar av träningsdata per månad för alla agenter. Inkluderar: nya fråga-svar-par, manusrevideringar, flödesjusteringar och förfinade svar. Uppdateringar levereras inom 1 arbetsdag."
+            },
+            {
+              "i": "1 nytt automationsflöde/mån",
+              "l": "1 nytt automationsflöde byggs per månad (t.ex. ny lead nurturing-sekvens, merförsäljningstrigger, återaktiveringskampanj eller internt aviseringsflöde). Flödet kopplas till dina befintliga agenter och integrationer."
+            },
+            {
+              "i": "Månatlig strategiuppdatering",
+              "l": "Månatlig Loom-genomgång som täcker: agenternas prestanda, optimeringsrekommendationer och kommande prioriteringar. Du svarar via sms eller mejl. 1 valfritt livesamtal per månad på begäran (max 30 min)."
+            },
+            {
+              "i": "Säkerhet & hantering av API-nycklar",
+              "l": "Alla API-nycklar och inloggningsuppgifter lagras i krypterade miljövariabler och hemlighetshantering. Månatliga påminnelser om nyckelrotation. Proaktiv bevakning av exponerade eller komprometterade nycklar. Du behåller fullt ägande och full kontroll över alla inloggningsuppgifter."
+            },
+            {
+              "i": "Prioriterad support",
+              "l": "Support via sms och mejl med 24 timmars svarstid (arbetsdagar). Kritiska agentfel: åtgärd påbörjas samma dag under kontorstid. Upp till 15 supportärenden per månad."
+            }
+          ],
+          "ov": [
+            "Ytterligare agentövervakning: $250/mån per agent",
+            "Träningsuppdateringar utöver 40: $40 styck",
+            "Ytterligare flödesbygge: $1,500",
+            "Ny agent: $2,500",
+            "Akut utanför kontorstid: +50 %"
+          ],
+          "ex": "Ingen enterprise-orkestrering, inga efterlevnadsramverk, ingen dedikerad strateg. För fullständig hantering av AI-drift, se Agentkommandocentral.",
+          "ideal": "Företag som aktivt bygger ut sina AI-agentfunktioner"
+        },
+        {
+          "name": "Agentkommandocentral",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/mån",
+          "tag": "Fullständig AI-hantering",
+          "com": "Minst 6 månader",
+          "scope": [
+            {
+              "i": "Allt i Agenttillväxt",
+              "l": "All övervakning, alla träningsuppdateringar, flödesbyggen, strategiuppdateringar, API-säkerhet och prioriterad support från Agenttillväxt, med utökade gränser nedan."
+            },
+            {
+              "i": "Agentövervakning (obegränsad)",
+              "l": "Övervakning dygnet runt av alla aktiva agenter utan tak. Automatiska larm, utredning och åtgärd inom 2 arbetstimmar. Inkluderar hälsoövervakning av orkestreringslagret för fleragentsystem."
+            },
+            {
+              "i": "Uppdateringar av träningsdata (obegränsat)",
+              "l": "Obegränsade uppdateringar av träningsdata för alla agenter. Manusrevideringar, flödesjusteringar, nya fråga-svar-par och svarsjustering efter behov utan tak. Uppdateringar levereras inom 1 arbetsdag."
+            },
+            {
+              "i": "3 nya automationsflöden/mån",
+              "l": "3 nya automationsflöden byggs per månad. Komplexa flerstegsflöden som spänner över agenter, integrationer och villkorslogik. Inkluderar testning, driftsättning och dokumentation för varje flöde."
+            },
+            {
+              "i": "Månatligt strategimöte + veckouppdateringar",
+              "l": "1 strategimöte live per månad (max 60 min). Veckovisa Loom-uppdateringar om prestanda, kommande prioriteringar och optimeringsrekommendationer. Du svarar via sms eller mejl. Den dagliga kommunikationen sker helt via sms och mejl. Inga spontana samtal."
+            },
+            {
+              "i": "Säkerhet & efterlevnad på enterprise-nivå",
+              "l": "Alla API-nycklar och inloggningsuppgifter hanteras via hemlighetshantering på enterprise-nivå. Isolerade uppgifter per agent. Revisionsloggning av varje agentåtgärd. Månatlig säkerhetsgenomgång som täcker: nyckelstatus, åtkomstkontroller, datahantering och efterlevnadsläge. Protokoll för personuppgifter underhålls och uppdateras vid behov. Du behåller fullt ägande av alla inloggningsuppgifter."
+            },
+            {
+              "i": "Nya agenter (1/mån ingår)",
+              "l": "1 ny AI-agent per månad ingår i omfattningen. Täcker: design, träning, testning, driftsättning och dokumentation. Ytterligare agenter offereras till rabatterat pris ($2,000 styck jämfört med $5,000 fristående)."
+            },
+            {
+              "i": "Kvartalsvis AI-granskning",
+              "l": "Var 3:e månad: heltäckande granskning av hela ditt AI-ekosystem som täcker agenternas prestanda, precisionstrender, kostnadseffektivitet, integrationshälsa och rekommendationer för nya automationsmöjligheter. Levereras som skriftlig rapport."
+            }
+          ],
+          "ov": [
+            "Ytterligare agent: $2,000 styck",
+            "Ytterligare flöde: $1,000",
+            "Finjustering av egen AI-modell: $5,000",
+            "Utbildningssamtal live: $250/tim",
+            "Akut utanför kontorstid: +50 %"
+          ],
+          "ex": "Ingen marknadsföring, inga annonser, ingen innehållsproduktion, ingen hantering av sociala medier. För de tjänsterna, se våra marknadsföringsavtal eller paket för sociala medier.",
+          "ideal": "Företag som kör AI som en central del av den dagliga verksamheten"
+        }
+      ],
+      "customSupport": [
+        {
+          "name": "Timbank",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/mån",
+          "tag": "Flexibel support",
+          "com": "Månad för månad (ingen bindningstid)",
+          "scope": [
+            {
+              "i": "Välj dina timmar",
+              "l": "Köp ett block utvecklingstimmar varje månad. 10 tim/mån = $2,500 ($250/tim). 20 tim/mån = $4,500 ($225/tim). 30 tim/mån = $6,000 ($200/tim). 40+ tim/mån = individuellt pris. Timmarna täcker valfri kombination av: buggfixar, funktionsuppdateringar, designändringar, integrationer eller rådgivning."
+            },
+            {
+              "i": "Så fungerar det",
+              "l": "Du skickar in önskemål via en delad uppgiftstavla (Linear, GitHub Issues eller mejl). Vi uppskattar timmarna innan varje uppgift påbörjas och får ditt godkännande. Arbetet loggas och rapporteras varje vecka med en tidslogg som visar exakt vad som gjorts och hur lång tid det tog. Outnyttjade timmar förs INTE över till nästa månad."
+            },
+            {
+              "i": "Svarstid",
+              "l": "Ärenden bekräftas inom 1 arbetsdag. Buggfixar prioriteras efter allvarlighetsgrad: kritiska (påbörjas samma dag), större (inom 2 arbetsdagar), mindre (inom 5 arbetsdagar). Funktionsönskemål och förbättringar planeras in i innevarande eller nästa faktureringsperiod."
+            },
+            {
+              "i": "Månadssammanfattning",
+              "l": "Rapport vid månadens slut som visar: använda timmar, slutförda uppgifter, återstående timmar och eventuella öppna punkter som förs över till nästa månad. Inga överraskningar."
+            },
+            {
+              "i": "Det här täcks",
+              "l": "Buggfixar och patchar, mindre funktionstillägg, UI/UX-förbättringar, databasändringar, API-uppdateringar, underhåll av tredjepartsintegrationer, prestandaoptimering, säkerhetspatchar och rådgivning. Inkluderar INTE: fullständiga funktionsbyggen som kräver 40+ timmar (omfattningsbestäms som separat projekt), design från grunden (använd vårt designavtal eller projektpris) eller jour dygnet runt."
+            }
+          ],
+          "ov": [
+            "Timmar utöver din bank: $275/tim",
+            "Akut/kritisk åtgärd samma dag: +50 % på använda timmar",
+            "Helgarbete: +75 % på använda timmar"
+          ],
+          "ex": "Ingen garanterad SLA. Ingen övervakning dygnet runt. Ingen dedikerad utvecklare (teamet hanterar ärenden i kö). För garanterade svarstider och dedikerade resurser, se nivåerna för Utvecklarsupport nedan.",
+          "ideal": "Små appar, verktyg eller projekt efter lansering som behöver uppdateringar då och då"
+        },
+        {
+          "name": "Utvecklarsupport",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mån",
+          "tag": "Håll den igång",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Server- & infrastrukturövervakning",
+              "l": "Drifttidsövervakning dygnet runt med automatiska larm. Hälsokontroller av server: CPU, minne, disk och svarstid. Om din app går ner notifieras vi omedelbart och påbörjar utredning inom 1 timme under kontorstid (måndag till fredag, 9 till 17). Samordning med hostingleverantör vid infrastrukturproblem."
+            },
+            {
+              "i": "Säkerhetsunderhåll",
+              "l": "Månatliga uppdateringar av beroenden (npm, pip, systempaket). Skanning och patchning av säkerhetssårbarheter. Hantering av SSL-certifikatförnyelse. Verifiering av databasbackuper (backuper konfigureras under bygget, vi verifierar att de körs och testar återställning kvartalsvis). Bevakning av obehöriga åtkomstförsök."
+            },
+            {
+              "i": "Buggfixar (5 tim/mån ingår)",
+              "l": "5 timmar buggfixar och patchar per månad. Täcker: trasiga funktioner, visningsproblem, API-fel och integrationsfel kopplade till det ursprungliga byggets omfattning. Timmarna loggas och rapporteras månadsvis. Buggar orsakade av ändrade tredjeparts-API:er eller problem hos hostingleverantören täcks. Buggar orsakade av obehöriga kodändringar (av dig eller en annan utvecklare) debiteras."
+            },
+            {
+              "i": "Databashantering",
+              "l": "Månatlig hälsokontroll av databasen: frågeprestanda, indexoptimering, lagringsanvändning och övervakning av connection pool. Backupverifiering och testad återställning (kvartalsvis). Rekommendationer för datarensning om lagringen växer över förväntade gränser. Inkluderar INTE större schemaändringar eller datamigreringar (offereras separat)."
+            },
+            {
+              "i": "Månatlig hälsorapport",
+              "l": "Rapport mejlas senast den 5:e varje månad och täcker: drifttidsprocent, serverprestanda, tillämpade säkerhetspatchar, åtgärdade buggar, backupstatus och eventuella förbättringsrekommendationer. Levereras som PDF eller dashboardlänk."
+            },
+            {
+              "i": "Supportkanal",
+              "l": "Mejlsupport med 24 timmars svarstid (arbetsdagar). Upp till 8 supportärenden per månad. Varje ärende = 1 specifikt problem eller fråga. Ärenden utöver 8 faktureras med $200/tim."
+            }
+          ],
+          "ov": [
+            "Buggfixar utöver 5 tim: $200/tim",
+            "Akut åtgärd utanför kontorstid: +50 %",
+            "Databasmigrering: offereras separat",
+            "Funktionstillägg: använd Timbank eller projektpris",
+            "Prestandagranskning: $2,000 engångsavgift"
+          ],
+          "ex": "Ingen funktionsutveckling, inget designarbete, inga innehållsuppdateringar, ingen annonshantering. Det här är enbart underhåll av infrastruktur och kod. För aktiv utveckling, se nivån Aktiv utveckling eller Timbank.",
+          "ideal": "Stabila appar som måste förbli säkra, övervakade och patchade"
+        },
+        {
+          "name": "Aktiv utveckling",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/mån",
+          "tag": "Kontinuerlig förbättring",
+          "pop": true,
+          "com": "Minst 6 månader",
+          "scope": [
+            {
+              "i": "Allt i Utvecklarsupport",
+              "l": "All övervakning, säkerhet, buggfixar (5 tim), databashantering och månadsrapportering från nivån Utvecklarsupport ingår som din grund."
+            },
+            {
+              "i": "Funktionsutveckling (35 tim/mån)",
+              "l": "35 dedikerade utvecklingstimmar varje månad för att bygga nya funktioner, förbättra befintliga eller bygga ut din plattform. Timmarna täcker: nya funktioner, UI/UX-förbättringar, nya integrationer, prestandaoptimering och arkitekturförbättringar. Outnyttjade timmar förs bara över till nästa månad (max 52 timmar ackumulerade)."
+            },
+            {
+              "i": "Samarbete kring produktfärdplan",
+              "l": "Månatlig genomgång av färdplanen via Loom-video som täcker kommande funktioner, prioriteringar och rekommendationer. Vi underhåller en delad uppgiftstavla (Linear eller GitHub Issues) med prioriterade punkter, statusuppföljning och tidsuppskattningar. Du sätter prioriteringar via uppgiftstavlan eller sms. Vi ger råd om teknisk genomförbarhet, arbetsinsats och ordningsföljd. 1 valfritt livesamtal per månad på begäran (max 60 min)."
+            },
+            {
+              "i": "Design ingår",
+              "l": "3 timmar designarbete per månad ingår (UI-uppdateringar, nya skärmlayouter, komponentdesign). Täcker: wireframes, mockups och mindre uppdateringar av designsystemet. Fullständig omdesign av sidor eller funktioner som kräver 5+ designtimmar offereras separat."
+            },
+            {
+              "i": "Demovideor varannan vecka",
+              "l": "Varannan vecka spelar vi in en Loom-demo av färdigt arbete och pågående funktioner. Du granskar när det passar dig och ger feedback via sms, mejl eller uppgiftstavlan. Håller projektet i rörelse och förhindrar missförstånd. Inga livesamtal behövs."
+            },
+            {
+              "i": "Prioriterad support",
+              "l": "Support via sms och mejl med 4 timmars svarstid (arbetsdagar). Kritiska buggar: åtgärd påbörjas samma dag under kontorstid. Upp till 15 supportärenden per månad. All kommunikation via sms och mejl. Inga schemalagda samtal krävs."
+            },
+            {
+              "i": "Kvartalsvis prestandagenomgång",
+              "l": "Var 3:e månad: heltäckande plattformsgranskning som täcker prestanda (sidladdningstider, API-svarstider), säkerhetsläge, infrastrukturkostnader och bedömning av teknisk skuld. Optimeringsrekommendationer levereras som skriftlig rapport."
+            }
+          ],
+          "ov": [
+            "Utveckling utöver 35 tim: $225/tim",
+            "Akut utanför kontorstid: +50 %",
+            "Driftsättning på helg: +75 %",
+            "Fullständigt funktionsbygge över 40 tim: omfattningsbestäms som separat projekt till rabatterat pris",
+            "Design utöver 3 tim: $200/tim"
+          ],
+          "ex": "Ingen jour dygnet runt. Ingen dedikerad heltidsutvecklare (delat team med prioriterad åtkomst). Ingen mobilapputveckling på den här nivån (omfattningsbestäms separat). Ingen marknadsföring, inga annonser eller innehållstjänster. Se våra marknadsföringspaket för det.",
+          "ideal": "Växande plattformar som släpper nya funktioner varje månad"
+        }
+      ],
+      "appBuild": [
+        {
+          "name": "Launchpad",
+          "price": 9500,
+          "disp": "$9,500",
+          "tag": "Validera din idé",
+          "tl": "4-6 veckor",
+          "scope": [
+            {
+              "i": "iOS eller Android (du väljer), React Native",
+              "l": "Mobilapp för en plattform byggd i React Native. Du väljer iOS eller Android vid uppstart; den andra plattformen kan läggas till senare som en utökning."
+            },
+            {
+              "i": "Upp till 4 skärmar designade i Figma",
+              "l": "Komplett Figma-design för upp till 4 unika skärmar (hem, detalj, profil och 1 valfri). 2 designrevideringsrundor. Layouter för surfplatta/iPad ingår inte på den här nivån."
+            },
+            {
+              "i": "Upp till 3 API-integrationer",
+              "l": "Autentiseringsleverantör (Apple/Google/mejl), 1 valfritt tredjeparts-API (kartor, väder, kalender osv.) och 1 analysintegration (Mixpanel eller PostHog)."
+            },
+            {
+              "i": "Grundläggande autentisering",
+              "l": "Inloggning med mejl + Apple/Google. Profilskärm med namn, avatar och utloggning. Ingen multi-tenant, inga teamkonton, ingen SSO."
+            },
+            {
+              "i": "Inskick till App Store eller Play Store",
+              "l": "Ett butiksinskick som hanteras från början till slut: skärmbilder designas, beskrivning skrivs, metadata optimeras, skickas in under ditt utvecklarkonto."
+            },
+            {
+              "i": "30 dagars garanti efter lansering",
+              "l": "Buggar som rapporteras inom de första 30 dagarna efter butiksgodkännande åtgärdas utan kostnad. Funktionsönskemål omfattningsbestäms separat."
+            },
+            {
+              "i": "Överlämning av källkod + dokumentation",
+              "l": "Komplett GitHub-repo med README, .env.example, driftsättningsinstruktioner och en inspelad 30-minutersgenomgång."
+            }
+          ],
+          "ov": [
+            "Extra skärm: $650",
+            "Andra plattformen (lägg till iOS eller Android): +$4,500",
+            "Extra API-integration: $450",
+            "Layouter för surfplatta/iPad: +$1,800"
+          ],
+          "ex": "Inget eget backend-bygge (använder dina befintliga API:er eller en no-code-backend som Supabase). Inga köp i appen. Inga pushnotiser. Inget offline first-läge.",
+          "bridge": "Efter 30-dagarsgarantin övergår löpande underhåll till vår plan Keep Alive ($1,950/mån) för att hålla jämna steg med iOS-/Android-uppdateringar och nya butiksinskick.",
+          "ideal": "Grundare som validerar en idé med en fokuserad MVP för en plattform"
+        },
+        {
+          "name": "Studio",
+          "price": 24500,
+          "disp": "$24,500",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "tl": "8-12 veckor",
+          "scope": [
+            {
+              "i": "iOS + Android plattformsoberoende",
+              "l": "En gemensam kodbas i React Native (eller Flutter på begäran) som bygger för både iOS och Android. Plattformsspecifik finish där det gör skillnad: haptik på iOS, Material-komponenter på Android."
+            },
+            {
+              "i": "Upp till 10 skärmar helt designade",
+              "l": "Komplett Figma-design med 10 unika skärmar inklusive en fullständig interaktiv prototyp. 3 revideringsrundor per skärmomgång."
+            },
+            {
+              "i": "Upp till 6 API-integrationer",
+              "l": "Autentisering, betalningar (Stripe eller RevenueCat), pushnotiser (OneSignal eller Firebase), analys (Mixpanel/Amplitude) och 2 valfria tredjepartsintegrationer."
+            },
+            {
+              "i": "Användarkonton + pushnotiser",
+              "l": "Komplett flöde för registrering/inloggning, profilskärm med redigering, återställning av lösenord och pushnotiser kopplade (behörighetsflöde + transaktionsnotiser)."
+            },
+            {
+              "i": "Crashlytics + analys inkopplat",
+              "l": "Crashlytics (Firebase eller Sentry) på båda plattformarna med en dashboard för kraschrapportering. Analyspipeline med 8 viktiga användarhändelser spårade."
+            },
+            {
+              "i": "Inskick till App Store + Play Store",
+              "l": "Båda butikerna hanteras från början till slut: designade skärmbilder, skrivna beskrivningar, sökordsanalys och integritetsetiketter för båda."
+            },
+            {
+              "i": "60 dagars garanti efter lansering",
+              "l": "Buggar som rapporteras inom 60 dagar efter butiksgodkännande åtgärdas gratis. Inkluderar hantering av den första OS-uppdateringen efter lansering om Apple/Google släpper en ändring som bryter något."
+            },
+            {
+              "i": "1 timme/vecka Slack-support i 30 dagar",
+              "l": "Delad Slack-kanal i 30 dagar efter lansering. Upp till 1 timme/vecka med asynkrona frågor och svar, mindre justeringar eller överlämningsfrågor."
+            }
+          ],
+          "ov": [
+            "Extra skärm: $850",
+            "Egen nativ modul: $175/tim",
+            "Ytterligare integration: $650",
+            "Förlängd garanti (+30 dagar): $1,200"
+          ],
+          "ho": "Fullständig kodöverlämning efter lansering: GitHub-repo, EAS-/Fastlane-CI-konfiguration, driftsättningsdokumentation, env-mall och en inspelad 60-minutersgenomgång. Ditt team tar över eller så fortsätter vi på avtal.",
+          "bridge": "Inkluderar 60 dagar efter lansering. Aktiv vidareutveckling därefter sker via vår plan Momentum ($4,800/mån): 20 utvecklingstimmar, funktionsarbete och A/B-tester varje månad.",
+          "ideal": "Team som lanserar en polerad plattformsoberoende produkt till riktiga användare"
+        },
+        {
+          "name": "Flagship",
+          "price": 62000,
+          "disp": "$62,000",
+          "tag": "Komplett produktbygge",
+          "tl": "14-18 veckor",
+          "scope": [
+            {
+              "i": "iOS + Android + egen Node/Postgres-backend",
+              "l": "Fullstack-produkt: React Native-app på båda plattformarna plus en egen Node.js-backend med Postgres, hostad på din infrastruktur (AWS, Railway eller Vercel)."
+            },
+            {
+              "i": "Upp till 20 skärmar med komplett designsystem",
+              "l": "Figma-designsystem med återanvändbara komponenter. Upp till 20 unika skärmar helt designade. Obegränsade revideringar inom den överenskomna omfattningen."
+            },
+            {
+              "i": "Upp till 12 API-/tredjepartsintegrationer",
+              "l": "Stripe, Twilio, Segment, webhooks osv. 12 valfria tredjepartsintegrationer inkopplade med logik för nya försök och felhantering."
+            },
+            {
+              "i": "Admindashboard (webb)",
+              "l": "Webbaserad adminapp för innehålls- och användarhantering. Rollbaserad åtkomst, revisionslogg och standard-CRUD-flöden för dina datamodeller."
+            },
+            {
+              "i": "Realtidsfunktion",
+              "l": "1 valfri realtidsfunktion: chatt i appen, liveuppdateringar eller webhook-driven push. Byggd på WebSockets eller Pusher/Ably."
+            },
+            {
+              "i": "Betalningar + rollbaserad autentisering",
+              "l": "Stripe eller RevenueCat för prenumerationer i appen. Rollbaserad autentisering (användare / admin / egna roller) med JWT + refresh tokens."
+            },
+            {
+              "i": "CI/CD-pipeline + staging",
+              "l": "EAS- eller Fastlane-CI/CD för båda plattformarna. Separat staging-miljö för QA. Automatisk driftsättning till TestFlight/intern testning vid merge."
+            },
+            {
+              "i": "Inskick till App Store + Play Store + ASO-kit",
+              "l": "Båda butikerna hanteras plus ett startkit för App Store Optimization: sökordsanalys, konkurrentanalys och 3 variantexperiment redo att köras."
+            },
+            {
+              "i": "90 dagars garanti efter lansering",
+              "l": "Buggar som rapporteras inom 90 dagar efter butiksgodkännande åtgärdas gratis. Inkluderar 2 discovery-workshops för att omfattningsbestämma nästa fas."
+            }
+          ],
+          "ov": [
+            "Extra skärm: $1,100",
+            "Egen nativ modul: $185/tim",
+            "Ytterligare realtidsfunktion: $6,500",
+            "Extra discovery-workshop: $1,800"
+          ],
+          "ho": "Fullständig överlämning: GitHub-monorepo, CI/CD-konfiguration, infrastruktur som kod (Terraform eller Pulumi på begäran), runbook för driftsättningar och återställningar samt en 90-minuters videogenomgång med både mobil- och backend-teamen.",
+          "bridge": "Inkluderar 90 dagar efter lansering. Inbäddat partnerskap därefter sker via vår plan Partner ($10,500/mån) med en dedikerad utvecklare och fraktionell designer.",
+          "ideal": "Finansierade startups och varumärken som lanserar en fullfjädrad produkt med egen backend"
+        }
+      ],
+      "appSupport": [
+        {
+          "name": "Keep Alive",
+          "price": 1950,
+          "disp": "$1,950",
+          "per": "/mån",
+          "tag": "Håll appen frisk & regelrätt",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Upp till 6 utvecklingstimmar per månad",
+              "l": "Budget för buggtriage, små patchar och reaktiva åtgärder. Timmar förs inte över. Akuta åtgärder debiteras först mot den här banken."
+            },
+            {
+              "i": "Buggfixar med 24 tim triage-SLA",
+              "l": "Kritiska buggar (appen kraschar, inloggning trasig, betalningar fallerar) bekräftas inom 24 arbetstimmar och åtgärdas inom 48-72 timmar beroende på omfattning."
+            },
+            {
+              "i": "OS-versionsuppdateringar för iOS + Android (årligen)",
+              "l": "Årlig test- och uppdateringscykel mot varje ny större iOS- och Android-release. Nödvändiga utfasningar och behörighetsändringar hanteras."
+            },
+            {
+              "i": "Kvartalsvisa nya butiksinskick",
+              "l": "Var 3:e månad: genomgång av butiksmetadata för aktualitet, uppdatering av skärmbilder vid behov och nytt inskick för en skjuts i Apples/Googles algoritmer."
+            },
+            {
+              "i": "Crashlytics-övervakning + månadsrapport",
+              "l": "Crashlytics-dashboarden bevakas månadsvis. 1-sidig hälsorapport levereras med kraschfri andel, största problem och versionsspridning."
+            },
+            {
+              "i": "Beroende- + säkerhetspatchning",
+              "l": "Månatlig genomgång av npm-/gem-beroenden. Säkerhetspatchar på CVE-nivå tillämpas omedelbart. Icke-kritiska uppgraderingar samlas kvartalsvis."
+            },
+            {
+              "i": "Mejlsupport, 5 dagars handläggning",
+              "l": "Icke-kritiska ärenden via mejl. 5 arbetsdagars handläggning. Ingen Slack, ingen realtidschatt, ingen telefon på den här nivån."
+            }
+          ],
+          "ov": [
+            "Extra timme: $165/tim",
+            "Akut hotfix (helg/helgdag): $450 fast + timmar",
+            "Dedikerat funktionsarbete: omfattningsbestäms separat"
+          ],
+          "ex": "Ingen funktionsutveckling. Inga nya integrationer. Inget designarbete. Inga marknadsförings- eller ASO-tjänster.",
+          "ideal": "Lanserade appar som måste förbli friska, regelrätta och kvar i butikerna"
+        },
+        {
+          "name": "Momentum",
+          "price": 4800,
+          "disp": "$4,800",
+          "per": "/mån",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Upp till 20 utvecklingstimmar per månad",
+              "l": "20 timmar för aktiv vidareutveckling: funktionsarbete, optimeringar, A/B-tester, analysarbete. Allt i Keep Alive ingår inom den här budgeten."
+            },
+            {
+              "i": "Allt i Keep Alive",
+              "l": "Buggfixar, OS-uppdateringar, nya butiksinskick, Crashlytics-övervakning, patchning av beroenden. Samma gränser gäller, dras från banken på 20 tim."
+            },
+            {
+              "i": "1-2 små funktioner eller 1 medelstor funktion per månad",
+              "l": "Levereras varje månad. Liten = under 8 timmar (ny skärm, ny spårad händelse, textjusteringar). Medelstor = upp till 20 timmar (nytt flöde, ny integration)."
+            },
+            {
+              "i": "Analysdashboards + månatliga insikter",
+              "l": "Vi bygger och underhåller dina produktanalysdashboards (Mixpanel eller Amplitude). Månatlig 3-sidig insiktsrapport med användarbeteende, retention och konverteringstrender."
+            },
+            {
+              "i": "Uppsättning + rapportering av A/B-tester",
+              "l": "Upp till 2 aktiva A/B-tester per månad. Vi sköter uppsättning, implementation av varianter, resultatanalys och rekommendationsdokument."
+            },
+            {
+              "i": "Designstöd (upp till 4 tim/mån)",
+              "l": "4 timmar designtid per månad för nya skärmar eller flödesuppdateringar. Designtimmarna är separata från de 20 utvecklingstimmarna. De dubbelräknas inte."
+            },
+            {
+              "i": "Avstämningssamtal varannan vecka",
+              "l": "30-minuters videosamtal varannan vecka för att gå igenom framsteg, enas om prioriteringar och lösa upp hinder. Spelas in och delas i din Slack-kanal."
+            }
+          ],
+          "ov": [
+            "Extra timme: $155/tim",
+            "Ytterligare A/B-test: $800 uppsättning",
+            "Expressfunktion (under 1 veckas handläggning): 1.5x timmar",
+            "Ytterligare designtimme: $145"
+          ],
+          "ex": "Ingen dedikerad utvecklare (delat team med prioriterad åtkomst). Inga ändringar av backend-arkitekturen. Inga marknadsföringstjänster.",
+          "ideal": "Appar i drift som aktivt vidareutvecklas utifrån användardata"
+        },
+        {
+          "name": "Partner",
+          "price": 10500,
+          "disp": "$10,500",
+          "per": "/mån",
+          "tag": "Inbäddat produktteam",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Dedikerad utvecklare (~80 tim/mån) + designer (~15 tim)",
+              "l": "Namngiven senior utvecklare på ~20 tim/vecka + fraktionell designer på ~4 tim/vecka. Samma personer varje månad. De kan din kodbas."
+            },
+            {
+              "i": "Allt i Momentum",
+              "l": "Allt arbete från Momentum fortsätter (buggar, funktioner, A/B-tester, analys) inom den utökade budgeten. Ingen separat fakturering."
+            },
+            {
+              "i": "Kontinuerlig leverans mot färdplan",
+              "l": "Kvartalsvisa planeringsmöten med grundarna för att sätta färdplanen. Vi levererar mot den och rapporterar framsteg varje vecka. Prioriteringar kan justeras inom kvartalet."
+            },
+            {
+              "i": "Egna nativa moduler + plattformsspecifikt arbete",
+              "l": "När plattformsoberoende inte räcker (t.ex. Apple Watch-app, Android-widgetar, djupa iOS-integrationer) ingår nativa moduler."
+            },
+            {
+              "i": "Underhåll av backend + infrastruktur",
+              "l": "Din backend och infrastruktur ingår: patchning, skalning, övervakningslarm, kostnadsoptimering. Begränsas inte av utvecklingsbanken på 80 timmar."
+            },
+            {
+              "i": "Veckovis avstämning + delad Linear-/Jira-tavla",
+              "l": "30-minuters videoavstämning varje vecka + en delad Linear- (eller Jira-) arbetsyta med full insyn i alla ärenden. Ditt team kan skapa ärenden direkt."
+            },
+            {
+              "i": "SLA med svar samma dag, prioriterad Slack",
+              "l": "Slack-kanal med 2 timmars svarstid under kontorstid. Bekräftelse samma arbetsdag för allt som inte är brådskande."
+            },
+            {
+              "i": "Kvartalsvis strategisession",
+              "l": "Var 3:e månad: 90-minuterssession som täcker ASO, tillväxt, arkitekturgenomgång och teknisk skuld. Levereras som skriftligt PM."
+            }
+          ],
+          "ov": [
+            "Extra timme utöver 95/mån: $145/tim",
+            "Ytterligare dedikerad utvecklare: +$8,500/mån",
+            "Ytterligare dedikerad designer: +$3,500/mån"
+          ],
+          "ex": "Marknadsföring, betald annonsering och innehållstjänster ingår inte. Se våra marknadsföringspaket för det.",
+          "ideal": "Team som ser Blok Blok som sitt inbäddade produktteam"
+        }
+      ],
+      "webSupport": [
+        {
+          "name": "Webbvård",
+          "price": 550,
+          "disp": "$550",
+          "per": "/mån",
+          "tag": "Pålitligt underhåll",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "99.9 % drifttidsövervakning",
+              "l": "StatusCake eller BetterStack bevakar din sajt dygnet runt. Larm till oss omedelbart. Du får inte reda på att sajten ligger nere från en kund."
+            },
+            {
+              "i": "Veckovisa externa backuper",
+              "l": "Hela sajten + databasen säkerhetskopieras varje vecka till extern lagring (inte bara hos hostingleverantören). 30 dagars lagring."
+            },
+            {
+              "i": "Säkerhetspatchar + uppdatering av beroenden",
+              "l": "Månatlig patchning av WordPress-kärna/plugins (om WP) eller npm-beroenden (om Next.js). Kritiska säkerhetsuppdateringar tillämpas inom 24 timmar."
+            },
+            {
+              "i": "Upp till 4 mindre innehållsändringar/månad",
+              "l": "Textuppdateringar, bildbyten, länkfixar, prisändringar, nya omdömen. Varje ändring = under 15 minuters arbete."
+            },
+            {
+              "i": "Hälsokontroller av SSL + domän",
+              "l": "Automatisk förnyelse av SSL-certifikat övervakas. Varning om domänens utgång 60 dagar i förväg. DNS-hälsa kontrolleras kvartalsvis."
+            },
+            {
+              "i": "Månatlig drifttids- + hastighetsrapport",
+              "l": "1-sidig månadsrapport: drifttidsprocent, genomsnittliga sidladdningstider, säkerhetshändelser och vidtagna åtgärder. Levereras den 1:a."
+            }
+          ],
+          "ov": [
+            "Extra innehållsändring: $45 styck",
+            "Expressärende (samma dag): +$125",
+            "Uppdateringsarbete per timme: $165/tim"
+          ],
+          "ex": "Inga nya sidor, ingen omdesign, inga A/B-tester, ingen SEO, inga annonser. Ingen marknadsföringsaktivitet. Se våra marknadsföringspaket för det.",
+          "ideal": "Lanserade sajter som behöver pålitligt underhåll och trygghet"
+        },
+        {
+          "name": "Webbtillväxt",
+          "price": 1600,
+          "disp": "$1,600",
+          "per": "/mån",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Allt i Webbvård",
+              "l": "Drifttid, backuper, säkerhet och mindre ändringar ingår. Samma gränser, inbakade i den här planen."
+            },
+            {
+              "i": "1 ny sida eller omdesignad sektion/mån",
+              "l": "Varje månad levererar vi en ny sida (upp till 1,000 ord + standarddesign) ELLER en helt omdesignad sektion på en befintlig sida. Du väljer."
+            },
+            {
+              "i": "2 A/B-tester per månad",
+              "l": "Hero-texter, CTA-varianter, layouttester eller experiment på prissidan. Sätts upp, körs, analyseras och vinnare rekommenderas, allt inom månaden."
+            },
+            {
+              "i": "Optimering av Core Web Vitals (kvartalsvis)",
+              "l": "Var 3:e månad: heltäckande granskning mot Googles CWV-riktvärden. Bildkomprimering, koduppdelning och critical-path-CSS optimeras."
+            },
+            {
+              "i": "Kvartalsrapport för GA4 + Search Console",
+              "l": "Var 3:e månad: 3-sidig insiktsrapport som täcker organisk trafik, toppsidor, avvisningsfrekvens och trender i sökfrågor. Rekommendationer ingår."
+            },
+            {
+              "i": "8 innehållsuppdateringar per månad",
+              "l": "Utöver grunden på 4 ändringar i Webbvård: upp till 8 innehållsuppdateringar totalt varje månad. Samlas veckovis på måndagar."
+            },
+            {
+              "i": "Prioriterad mejl + Slack, 24 tim svarstid",
+              "l": "Tillgång till Slack-kanal för snabba frågor. 24 timmars svarstid på alla ärenden. Ingen realtidshantering av akuta ärenden utom på nivån Webbpartnerskap."
+            }
+          ],
+          "ov": [
+            "Extra A/B-test: $450",
+            "Ytterligare ny sida: $850",
+            "Video-/animationsarbete: omfattningsbestäms separat"
+          ],
+          "ex": "Ingen fullständig omdesign (omfattningsbestäms som projekt). Inga betalda annonser. Inget textskrivande utöver mindre ändringar.",
+          "ideal": "Team som vill att sajten ska bli bättre varje månad"
+        },
+        {
+          "name": "Webbpartnerskap",
+          "price": 3800,
+          "disp": "$3,800",
+          "per": "/mån",
+          "tag": "Inbäddat webbteam",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Allt i Webbtillväxt",
+              "l": "Månatliga nya sidor, A/B-tester, Web Vitals-arbete, kvartalsrapporter plus utökade gränser inom den här planen."
+            },
+            {
+              "i": "Veckovisa driftsättningar",
+              "l": "Nya funktioner, tester eller optimeringar levereras varje vecka. Måndag är planeringsdag, torsdag är leveransdag."
+            },
+            {
+              "i": "Dedikerad utvecklare (~25 tim/mån) + designer (~8 tim/mån)",
+              "l": "Namngiven utvecklare och designer. Samma personer varje månad. De kan din stack och ditt varumärke. Timmarna är en budget; det du inte använder förs inte över."
+            },
+            {
+              "i": "Månatlig SEO-granskning + åtgärder",
+              "l": "Heltäckande SEO-granskning varje månad: teknisk (schema, sitemaps, indexering), on-page (sökord, metataggar, interna länkar) och off-page-rekommendationer. De 3 viktigaste åtgärderna genomförs samma månad."
+            },
+            {
+              "i": "Inläggning av CMS-innehåll (upp till 10/mån)",
+              "l": "Upp till 10 blogginlägg eller innehållssidor laddas upp per månad från dina texter. Bilder formateras, metataggar skrivs, interna länkar föreslås. Du skriver, vi publicerar."
+            },
+            {
+              "i": "Färdplan för konverteringsoptimering",
+              "l": "Månatliga CRO-prioriteringar baserade på analys + A/B-testresultat. 3 experiment föreslås varje månad; de 2 bästa levereras."
+            },
+            {
+              "i": "Slack samma dag, SLA med 2 tim svarstid",
+              "l": "Slack-kanal med 2 timmars svarstid under kontorstid. Bekräftelse samma dag för allt som inte är brådskande."
+            }
+          ],
+          "ov": [
+            "Extra timme utöver 33/mån: $155/tim",
+            "Ytterligare innehållssida att lägga in: $45 styck utöver 10",
+            "Expressdriftsättning (samma dag): +25 %"
+          ],
+          "ex": "Ingen hantering av betald annonsering (se marknadsföringspaketen). Ingen omdesign av varumärke (se varumärkespaketen). Inget mobilapparbete.",
+          "ideal": "Skalande företag som ser Blok Blok som sitt webbteam"
+        }
+      ],
+      "marketingBuild": [
+        {
+          "name": "Marknadsföringsrevision & färdplan",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Diagnos + 90-dagarsplan",
+          "tl": "2-3 veckor",
+          "scope": [
+            {
+              "i": "Granskning av hela tratten",
+              "l": "Genomgång av 1 webbplats + upp till 3 aktiva kanaler (annonser, SEO, mejl, sociala medier). Varje steg i din tratt kartläggs med flaskhalsar identifierade."
+            },
+            {
+              "i": "Genomgång av analys + attribution",
+              "l": "Granskning av GA4, Meta Pixel, UTM-hygien och konverteringsspårning. Åtgärdslista med 10 punkter där varje problem prioriteras efter effekt/insats."
+            },
+            {
+              "i": "Konkurrentgenomgång (3 direkta konkurrenter)",
+              "l": "Djupdykning i 3 direkta konkurrenter: positionering, erbjudanden, annonsmaterial, landningssidor, SEO-avtryck. 6-sidig jämförande analys levererad som Notion-dokument."
+            },
+            {
+              "i": "Workshop om ICP + budskap",
+              "l": "2 x 60-minuters livesessioner. Resultat: förfinat värdeerbjudande, 3 centrala budskapspelare, 1 dokument med idealkundpersona."
+            },
+            {
+              "i": "Prioriterad 90-dagars färdplan",
+              "l": "20-30 åtgärdspunkter poängsatta med RICE (Reach, Impact, Confidence, Effort). Levereras som en Notion-backlog som ditt team kan genomföra eller som vi kan driva."
+            },
+            {
+              "i": "Modell för budgetfördelning",
+              "l": "Nästa kvartals budget fördelad på betalt, organiskt och livscykel med förväntade ROI-intervall baserade på granskningens resultat."
+            },
+            {
+              "i": "1 strategipresentation (inspelad)",
+              "l": "60-minuters livepresentation som går igenom resultat och färdplan. Spelas in + delas med ditt team. Notion-dokument levereras samma dag."
+            },
+            {
+              "i": "30-minuters uppföljningssamtal",
+              "l": "30 dagar efter leverans: avstämningssamtal för att gå igenom vad som genomförts och lösa upp eventuella hinder."
+            }
+          ],
+          "ov": [
+            "Ytterligare kanal som granskas: $450",
+            "Ytterligare konkurrent i genomgången: $250 styck",
+            "Förlängd workshopsession (90 min): $400"
+          ],
+          "ex": "Inget genomförande av färdplanen (det är nästa steg). Ingen annonshantering. Ingen innehållsproduktion. Ingen kreativ produktion.",
+          "bridge": "Revisionen passar naturligt ihop med vår plan Underhåll & övervakning ($1,500/mån) för att genomföra färdplanen utan att bygga upp kontexten på nytt. 10 % rabatt första månaden vid signering inom 14 dagar.",
+          "ideal": "Grundare som misstänker att marknadsföringen läcker pengar men inte kan peka ut var"
+        },
+        {
+          "name": "Kampanjstart",
+          "price": 8500,
+          "disp": "$8,500",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "tl": "4-5 veckors bygge + 30 dagars övervakning",
+          "scope": [
+            {
+              "i": "1 primär annonsplattform fullt uppsatt",
+              "l": "Google, Meta eller TikTok byggs från början till slut: kontostruktur, pixlar, Conversions API, anpassade målgrupper, retargeting-listor. En ren grund att skala från."
+            },
+            {
+              "i": "6 annonsenheter totalt",
+              "l": "2 statiska bilder + 2 kortformatsvideor + 2 varianthooks. Filmat och klippt av vårt team från ditt varumärkesmaterial + 1 produktdemovideo som vi filmar på distans vid behov."
+            },
+            {
+              "i": "1 dedikerad landningssida + A/B-variant",
+              "l": "Komplett skräddarsydd landningssida (Webflow, Framer eller Shopify) med text och design. 1 A/B-variant av heron för konverteringstest."
+            },
+            {
+              "i": "Leadautomation (sekvens med 5 mejl)",
+              "l": "Välkomst- eller nurturing-sekvens med 5 mejl byggd i Klaviyo, Kit eller HubSpot. Triggerlogik, personaliseringstaggar och resultatspårning ingår."
+            },
+            {
+              "i": "Uppsättning av spårning + dashboard",
+              "l": "GA4 + Looker Studio-dashboard som uppdateras dagligen. 1 veckorapport för kunden levereras på måndagar via mejl."
+            },
+            {
+              "i": "14 dagars mjuklansering + 30 dagars övervakning",
+              "l": "2 veckors mjuklansering med daglig optimering och kreativ iteration. Därefter 30 dagars aktiv kampanjövervakning med veckovisa justeringar."
+            },
+            {
+              "i": "Upp till $15k hanterad annonsbudget",
+              "l": "Annonsbudget upp till $15k täcks inom avgiften (själva budgeten faktureras separat av plattformen). Ytterligare $5k i budget: +$500 på avgiften."
+            },
+            {
+              "i": "Resultatgenomgång + överlämningsdokument",
+              "l": "Vid uppdragets slut: 60-minuters resultatgenomgång + 10-sidigt överlämningsdokument med skalningsrekommendationer och kreativa lärdomar."
+            }
+          ],
+          "ov": [
+            "Ytterligare annonsenhet (statisk): $250",
+            "Ytterligare annonsenhet (video): $600",
+            "Ytterligare landningssidevariant: $1,500",
+            "Ytterligare annonsplattform: $2,500"
+          ],
+          "ex": "Inget organiskt innehåll för sociala medier. Inget långformats-SEO-innehåll. Ingen influencerhantering. Ingen PR-bearbetning.",
+          "bridge": "Kampanjen övergår i vår plan Tillväxtmotorn ($3,500/mån) för att skala vinnarna, utöka till en andra kanal och iterera annonsmaterialet. 10 % rabatt första månaden vid signering inom 14 dagar.",
+          "ideal": "Team med ett bevisat erbjudande som är redo att driva riktig kundvolym"
+        },
+        {
+          "name": "Fullständig produktlansering",
+          "price": 20000,
+          "disp": "$20,000",
+          "tag": "Samordnad lanseringssatsning",
+          "tl": "6 veckors förberedelse + drift under lanseringsveckan",
+          "scope": [
+            {
+              "i": "Lanseringsstrategi + 6-veckors Gantt",
+              "l": "Komplett lanseringsplan som täcker PR, betalt, organiskt, mejl, influencers och drift på lanseringsdagen. Kritisk väg och beroenden kartlagda. Levereras som en delad tidslinje."
+            },
+            {
+              "i": "Positionering + lanseringsnarrativ",
+              "l": "Hero-budskap, 3 stödjande vinklar, pressboilerplate, FAQ och dokument för invändningshantering. Testat mot din ICP före offentlig användning."
+            },
+            {
+              "i": "12 annonsenheter på 2 plattformar",
+              "l": "Meta + Google ELLER Meta + TikTok. Blandning av statiskt, karusell och kortformatsvideo. 4 är UGC-videor filmade av våra kreatörer."
+            },
+            {
+              "i": "2 landningssidor",
+              "l": "Väntelistesida före lansering (mejlinsamling + nedräkning) + konverteringssida på lanseringsdagen (hela erbjudandet). Båda med A/B-varianter. Byggda på Webflow/Framer."
+            },
+            {
+              "i": "Pressbearbetning (25 medier)",
+              "l": "25 utvalda medier/nyhetsbrev pitchas med en anpassad vinkel. 1 pressmeddelande under embargo skrivs och distribueras 1 vecka före lansering."
+            },
+            {
+              "i": "3 influencersamarbeten (hanterade från början till slut)",
+              "l": "Urval, brief, avtal, innehållsgodkännanden och betalning. Kreatörsarvoden vidarefaktureras (ingår inte i avgiften)."
+            },
+            {
+              "i": "Mejlsekvens för lansering",
+              "l": "Nurturing av väntelista (3 mejl före lansering) + kampanj med 6 mejl under lanseringsveckan. Byggd för de första 50k utskicken. Fungerar med valfri plattform (Klaviyo, Kit, Mailchimp eller HubSpot)."
+            },
+            {
+              "i": "Förberedelse för Product Hunt-/communitylansering + war room",
+              "l": "Strategi för communitylansering, utkast till hype-tråd före lansering, optimerad PH-sida och ett 8-timmars live war room på lanseringsdagen."
+            },
+            {
+              "i": "Utvärderingsrapport efter lansering",
+              "l": "14 dagar efter lansering: nedbrytning per kohort, kanal, annonsmaterial och tratt. 20-sidig rapport om vad som fungerade, vad som inte gjorde det och vad som bör förstärkas."
+            },
+            {
+              "i": "Upp till $30k hanterad lanseringsbudget",
+              "l": "Upp till $30k i annonsbudget hanteras inom avgiften. Ytterligare $5k i budget: +$500 på avgiften. Budgeten faktureras separat av plattformen."
+            }
+          ],
+          "ov": [
+            "Ytterligare influencersamarbete: $1,200 + kreatörsarvoden",
+            "Extra pressmedium (26+): $75 styck",
+            "Ytterligare videoannons: $600",
+            "Expresstidsplan (under 3 veckor): +25 %",
+            "Programmatisk SEO-modul: $6,000"
+          ],
+          "ex": "Ingen löpande innehållskalender efter lanseringen. Ingen långsiktig community management. Ingen produktfotografering (kan läggas till).",
+          "bridge": "Lanseringen övergår i vår plan Fullt partnerskap ($7,000/mån) för uthållig tillväxt, livscykeloptimering och nästa lanseringscykel. 10 % rabatt första månaden vid signering inom 14 dagar.",
+          "ideal": "Varumärken som lanserar en produkt, tjänstelinje eller rebrand och behöver en samordnad satsning"
+        }
+      ],
+      "brandingBuild": [
+        {
+          "name": "Brand Lite",
+          "price": 4000,
+          "disp": "$4,000",
+          "tag": "Logotyp + palett + typografi",
+          "tl": "2-3 veckor",
+          "scope": [
+            {
+              "i": "Discovery-intag (asynkront)",
+              "l": "1 varumärkesformulär (20 frågor om målgrupp, ton, referenser, 3 konkurrentlänkar). 1 x 45-minuters uppstartssamtal på Zoom. Ingen fysisk workshop på den här nivån."
+            },
+            {
+              "i": "Logotyputforskning (3 koncept)",
+              "l": "3 inledande logotypriktningar presenterade som platta vektormockups. Du väljer 1 för finputsning. Ordmärke ELLER ikon+ordmärke (inte båda). 2 revideringsrundor."
+            },
+            {
+              "i": "Slutliga logotypfiler",
+              "l": "PNG, SVG, PDF och EPS i fullfärg, enfärgat svart och enfärgat vitt. Liggande och stående versioner levereras."
+            },
+            {
+              "i": "Färgpalett (5 färger)",
+              "l": "Primär + 4 stödfärger med HEX-, RGB- och CMYK-värden. Levereras som en 1-sidig PDF med färgprover."
+            },
+            {
+              "i": "Typsnittspar",
+              "l": "1 rubriktypsnitt + 1 brödtexttypsnitt (licens via Google Fonts eller Adobe Fonts). Licensanteckningar ingår."
+            },
+            {
+              "i": "1-sidig varumärkessammanfattning (PDF)",
+              "l": "Grunderna i logotypanvändning (minsta storlek, friyta), färgkoder och typografi. Inte en komplett manual."
+            },
+            {
+              "i": "Favicon + social avatar",
+              "l": "Logotypen optimerad och exporterad i 16px, 32px, 512px och 1024px för webb och sociala profiler."
+            }
+          ],
+          "ov": [
+            "Ytterligare logotypvariant (monogram, submärke osv.): $300",
+            "Extra revideringsrunda: $250",
+            "Riktning för varumärkesfotografering: $800"
+          ],
+          "ex": "Ingen varumärkesmanual. Inget kontorstryck. Inga mallar för sociala medier. Inget namn- eller verbalt identitetsarbete.",
+          "bridge": "Brand Lite i kombination med Varumärkesvård ($1,500/mån) håller materialet konsekvent när du producerar nytt innehåll.",
+          "ideal": "Soloföretagare och varumärken utan intäkter än som snabbt behöver ett rent, användbart märke"
+        },
+        {
+          "name": "Varumärkessystem",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "tl": "4-6 veckor",
+          "scope": [
+            {
+              "i": "Discovery-workshop (på distans, 90 min)",
+              "l": "1 arbetssession live med grundarna + upp till 3 intressenter. Resultat: positioneringsuttalande, 1 målgruppspersona, 3 varumärkesattribut, moodboard-riktning vald bland 3 som vi presenterar."
+            },
+            {
+              "i": "Logotypsystem (4 koncept)",
+              "l": "4 inledande riktningar med livsstilsmockups (produkt, skyltning, sociala medier). 1 väljs för finputsning. Primär version + liggande + stående + enbart ikon. 3 revideringsrundor."
+            },
+            {
+              "i": "Komplett färgsystem",
+              "l": "Primära (2), sekundära (4) och neutrala (3). Tillgänglighetskontrollerade för WCAG AA-kontrast. HEX- / RGB- / CMYK- / Pantone-koder levereras."
+            },
+            {
+              "i": "Typografihierarki",
+              "l": "Typsnitt för rubrik, underrubrik, brödtext och bildtext med exakta storlekar, vikter och radavstånd för webb och tryck."
+            },
+            {
+              "i": "Varumärkesmanual (PDF, 20 sidor)",
+              "l": "Logotypanvändning, det man inte får göra, färg, typografi, bildriktning, ikonografianteckningar och en ensidig tonalitetsguide (3 röstattribut + exempeltexter)."
+            },
+            {
+              "i": "Lanseringskit",
+              "l": "1 visitkort, 1 brevpapper, 1 e-postsignatur, 1 pitchdeck-mall (10 bilder, Google Slides eller Keynote) och 8 mallar för sociala medier (Canva eller Figma, redigerbara)."
+            },
+            {
+              "i": "Varumärkesbibliotek",
+              "l": "Organiserad Figma-fil + Google Drive-mapp strukturerad för överlämning till framtida designers. Allt på ett ställe, en enda sanningskälla."
+            }
+          ],
+          "ov": [
+            "Egen ikonuppsättning (8 ikoner): $1,200",
+            "Art direction för varumärkesfotografering + bildlista: $800",
+            "Extra revideringsrunda: $400"
+          ],
+          "ex": "Ingen namn- eller verbal identitetssprint. Ingen varumärkesundersökning. Ingen brand book utöver manualen på 20 sidor. Inget videoarbete.",
+          "bridge": "Varumärkessystem passar ihop med Kreativ ledning ($4,000/mån) för att fortsätta producera nytt varumärkesmaterial konsekvent.",
+          "ideal": "Finansierade startups och skalande företag som behöver ett komplett, hållbart varumärkessystem"
+        },
+        {
+          "name": "Varumärkestransformation",
+          "price": 28000,
+          "disp": "$28,000",
+          "tag": "Fullständig rebrand + namn + strategi",
+          "tl": "8-12 veckor",
+          "scope": [
+            {
+              "i": "Discovery- + strategisprint",
+              "l": "2 x 2-timmars workshops på distans (positionering, målgrupp, konkurrensgap). 5 intressentintervjuer (30 min vardera). Konkurrentgranskning av 6 konkurrenter. 1 positioneringsdokument (10-15 sidor) med budskapspelare och 3 testade målgruppspersonas."
+            },
+            {
+              "i": "Namnsprint",
+              "l": "1 namnworkshop, 40+ namnkandidater genereras, filtreras ner till 10, presenteras med motivering och preliminär USPTO-kontroll (inte en juridisk klarering). 1 slutligt namn väljs. Kontroll av domäntillgänglighet för .com, .co och .io ingår."
+            },
+            {
+              "i": "Verbal identitet",
+              "l": "Ramverk för varumärkesröst (4 attribut med tabellen ”vi är / vi är inte”), tagline, hisspitch (30 s + 60 s) och 10 exempeltextblock (hero, om oss, CTA:er, presentationer)."
+            },
+            {
+              "i": "Visuellt identitetssystem",
+              "l": "5 logotypriktningar med fullständiga livsstilsmockups. 1 väljs och förfinas till ett komplett märkessystem: primärt, sekundärt, monogram, favicon och responsiva beteenden."
+            },
+            {
+              "i": "Komplett färg- + typografiarkitektur",
+              "l": "Utökad palett (primär, sekundär, ljusa och mörka toner), typografistack i 4 nivåer, ikonografistil (12 ikoner) och riktning för illustration eller fotografi."
+            },
+            {
+              "i": "Brand book (40+ sidor)",
+              "l": "Strategi, positionering, röst, logotyp, färg, typografi, bildspråk, ikonografi, rörelseprinciper, gör/gör inte och tillämpningsexempel. Levereras som PDF + redigerbar Figma-källa."
+            },
+            {
+              "i": "Svit med lanseringsmaterial",
+              "l": "Pitchdeck (20 bilder), kontorstryckstrio, 3 mejlmallar, 12 mallar för sociala medier, 1 grafikkit för lanseringsannonsering och 1 storyboard för en ”möt nya [varumärket]”-video."
+            },
+            {
+              "i": "Överlämningssession + 30 dagars support",
+              "l": "1 x 1-timmes inspelad överlämningsgenomgång. 30 dagars mejlsupport för frågor om materialet och små justeringar."
+            }
+          ],
+          "ov": [
+            "Juridiskt varumärkesutlåtande via partneradvokat: $1,500-$3,000 vidarefaktureras",
+            "Produktion av varumärkeslanseringsvideo (60 s): $3,500",
+            "Ytterligare namnrunda: $2,000"
+          ],
+          "ex": "Ingen varumärkesregistrering (hänvisning till partneradvokat ges). Ingen videoproduktion utöver storyboard. Inget löpande genomförande. Det är ett månadsavtal.",
+          "bridge": "Transformationen följs vanligtvis av Inbäddad studio ($8,500/mån) för att rulla ut den nya identiteten på varje yta under de kommande 6 månaderna.",
+          "ideal": "Etablerade företag som ompositionerar sig, startups före serie A, äldre varumärken som behöver byggas om från grunden"
+        }
+      ],
+      "brandingSupport": [
+        {
+          "name": "Varumärkesvård",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mån",
+          "tag": "Konsekvent underhåll",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Upp till 6 varumärkesenheter per månad",
+              "l": "Grafik för sociala medier, mejlheaders, enstaka flyers, eventgrafik eller annonsmaterial med ditt befintliga varumärkessystem. Levereras i redigerbar Figma eller Canva."
+            },
+            {
+              "i": "1 kvartalsvis varumärkesgranskning (PDF)",
+              "l": "Var 3:e månad: genomgång av aktiva kanaler (webbplats + 3 sociala profiler) för avvikelser i konsekvens, föråldrat material och innehåll utanför varumärket. 5-7 sidors rapport med prioriterade åtgärder."
+            },
+            {
+              "i": "Underhåll av varumärkesbibliotek",
+              "l": "Din Figma och Drive hålls organiserade. Nytt material arkiveras, namnkonventioner upprätthålls, gamla versioner arkiveras."
+            },
+            {
+              "i": "Asynkron support",
+              "l": "1 Loom- eller mejlsvar per arbetsdag. Ingen Slack i realtid eller helgtäckning på den här nivån."
+            },
+            {
+              "i": "2 revideringsrundor per enhet",
+              "l": "Samlad feedback inom 3 arbetsdagar per revidering. Ingen löpande feedback."
+            }
+          ],
+          "ov": [
+            "Extra enheter (7+): $125 styck",
+            "Express med 48 tim handläggning: +50 %",
+            "Redigering av kortformatsvideo: $300 styck"
+          ],
+          "ex": "Inget strategiskt arbete, inga nya varumärkesriktningar, ingen copywriting. Ingen hantering av sociala medier (se paketen för sociala medier).",
+          "ideal": "Varumärken med en färdig identitet som behöver lätt, konsekvent underhåll"
+        },
+        {
+          "name": "Kreativ ledning",
+          "price": 4000,
+          "disp": "$4,000",
+          "per": "/mån",
+          "tag": "Vanligast valda",
+          "pop": true,
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Upp till 15 varumärkesenheter per månad",
+              "l": "Grafik för sociala medier, karuseller, annonsmaterial, mejlkampanjer, sektioner på landningssidor, uppdateringar av pitchdeck. Allt inom ditt varumärkessystem."
+            },
+            {
+              "i": "Månatligt samtal om kreativ ledning (60 min)",
+              "l": "Genomgång av förra månadens leveranser, samsyn kring månadens kreativa prioriteringar, flaggning av eventuella avvikelser från varumärket. Loom-uppföljning med rekommendationer."
+            },
+            {
+              "i": "1 kvartalsvis granskning + uppfräschning",
+              "l": "PDF-granskning var 3:e månad plus 3 uppfräschade mallar (annonsmaterial, mejlheader, inlägg i sociala medier) baserat på vad som fungerar."
+            },
+            {
+              "i": "Lätt copywriting (upp till 1,000 ord/mån)",
+              "l": "Texter i linje med varumärket för bildtexter, annonsvarianter eller ämnesrader i mejl. Inte långformatsinnehåll eller hela webbsidor."
+            },
+            {
+              "i": "Underhåll av bibliotek + Figma",
+              "l": "En enda sanningskälla som hålls i ordning. Nya komponenter läggs till varje månad."
+            },
+            {
+              "i": "Asynkron tillgång till strateg",
+              "l": "Direkt mejl/sms till din namngivna strateg, mån-fre 9-17 ET. SLA med svar inom 4 arbetstimmar."
+            },
+            {
+              "i": "2 revideringsrundor per enhet",
+              "l": "Feedback samlas inom 3 arbetsdagar efter leverans."
+            }
+          ],
+          "ov": [
+            "Extra enheter (16+): $150 styck",
+            "Redigering av kortformatsvideo (under 60 s): $300 styck",
+            "Text utöver 1,000 ord: $200/sida"
+          ],
+          "ex": "Ingen hantering av betald annonsering. Ingen fullständig rebrand (det är ett projekt). Ingen dedikerad designer. Delat team.",
+          "ideal": "Växande varumärken som behöver en kreativ partner som levererar löpande och styr det visuella uttrycket"
+        },
+        {
+          "name": "Inbäddad studio",
+          "price": 8500,
+          "disp": "$8,500",
+          "per": "/mån",
+          "tag": "Fraktionell intern kreativ avdelning",
+          "com": "Minst 3 månader",
+          "scope": [
+            {
+              "i": "Upp till 40 varumärkesenheter per månad",
+              "l": "Valfri mix av sociala medier, annonser, mejl, webbsektioner, pitchdecks, produktgrafik, eventmaterial eller tryck. Samma handläggningstid som internt."
+            },
+            {
+              "i": "Veckovis ledning + strategi varannan vecka",
+              "l": "30-minuters samtal om kreativ ledning varje vecka + 60-minuters strategisession varannan vecka. Aktiv översyn av varje yta."
+            },
+            {
+              "i": "Månatlig varumärkesgranskning + genomförd uppfräschning",
+              "l": "Varje månad: granskning levereras, sedan genomförs de 5 viktigaste åtgärderna samma månad. Ingen separat offert."
+            },
+            {
+              "i": "Dedikerad kreativ ledare + designer",
+              "l": "Namngivet team på 2 personer. Slack-tillgång mån-fre 9-18 (SLA 4 timmar). Loom-genomgångar av alla större leveranser."
+            },
+            {
+              "i": "Copywriting + förvaltning av röst",
+              "l": "Upp till 3,000 ord/mån i texter i linje med varumärket. Röstriktlinjerna upprätthålls i allt innehåll vi rör vid. 1 uppdatering av röstdokumentet per kvartal."
+            },
+            {
+              "i": "Utveckling av varumärkessystemet",
+              "l": "Mindre systemuppdateringar i takt med att ni växer: nya mallar, justerade färgutökningar, nya märken för undervarumärken. Fullständiga rebrands offereras fortfarande separat från $20k+."
+            },
+            {
+              "i": "Kvartalsvist kampanjkoncept",
+              "l": "1 minikampanj per kvartal: koncept, 5 hero-enheter, utrullningsplan. Tänk säsongslansering eller produktsläpp."
+            },
+            {
+              "i": "3 revideringsrundor per enhet",
+              "l": "Mer utrymme än på andra nivåer att iterera tills arbetet sitter."
+            }
+          ],
+          "ov": [
+            "Fullständig rebrand: $20k+ separat",
+            "Varumärkesfotodag (ledning + leverantörshantering, fotograferingen vidarefaktureras): $2,500 i ledningsarvode",
+            "Ytterligare inbäddad designer: +$3,500/mån"
+          ],
+          "ex": "Ingen hantering av betald annonsering. Ingen produkt-/UX-design (omfattningsbestäms separat).",
+          "ideal": "Skalande varumärken som ser oss som sin fraktionella interna kreativa avdelning i varje kanal"
+        }
+      ]
+    }
   },
   "onboard": {
     "title": "Kund-onboarding",
