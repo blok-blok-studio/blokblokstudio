@@ -386,10 +386,6 @@ export function ContactContent() {
 
               {/* Direct lines */}
               <div className="grid gap-2">
-                <a href="https://wa.me/491627055848" target="_blank" rel="noopener noreferrer" className="group flex items-center justify-between rounded-2xl border border-white/10 px-5 py-4 text-sm text-white transition-colors hover:bg-white/5">
-                  {th('v2_whatsapp')}
-                  <span aria-hidden="true" className="text-orange-500 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5">↗</span>
-                </a>
                 <a href="https://calendar.app.google/oAcFYPRKYB9b4J1c7" target="_blank" rel="noopener noreferrer" className="group flex items-center justify-between rounded-2xl border border-white/10 px-5 py-4 text-sm text-white transition-colors hover:bg-white/5">
                   {th('v2_book')}
                   <span aria-hidden="true" className="text-orange-500 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5">↗</span>

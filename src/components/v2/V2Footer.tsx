@@ -6,7 +6,6 @@ import { getTranslations } from 'next-intl/server';
  * the full link set so nothing from the old footer is lost.
  */
 const BOOKING_URL = 'https://calendar.app.google/oAcFYPRKYB9b4J1c7';
-const WHATSAPP_URL = 'https://wa.me/491627055848';
 
 export async function V2Footer() {
   const t = await getTranslations('home');
@@ -37,7 +36,6 @@ export async function V2Footer() {
   const contacts = [
     { href: '/quiz', label: t('v2_quiz_link'), external: true },
     { href: '/contact', label: t('v2_email'), external: false },
-    { href: WHATSAPP_URL, label: t('v2_whatsapp'), external: true },
     { href: BOOKING_URL, label: t('v2_book'), external: true },
   ];
 

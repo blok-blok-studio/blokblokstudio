@@ -56,12 +56,21 @@ export async function V2ServicesContent() {
       <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
         <div className="mx-auto max-w-[1600px]">
           <div className={`mb-10 border-b border-white/10 pb-4 ${label}`}>{ts('v2_process_label')}</div>
-          <ol className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
-            {steps.map((s) => (
-              <li key={s.n} className="">
-                <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">0{s.n}</p>
-                <h3 className="mt-3 font-display text-lg font-semibold text-white">{s.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-gray-400">{s.desc}</p>
+          {/* Timeline: a line with a dot per step. Horizontal from lg, vertical below. */}
+          <ol className="relative grid gap-10 lg:grid-cols-5 lg:gap-8">
+            <span
+              aria-hidden="true"
+              className="absolute left-[7px] top-2 bottom-2 w-px bg-white/15 lg:left-[10%] lg:right-[10%] lg:top-[7px] lg:bottom-auto lg:h-px lg:w-auto"
+            />
+            {steps.map((st) => (
+              <li key={st.n} className="relative pl-8 lg:pl-0 lg:text-center">
+                <span
+                  aria-hidden="true"
+                  className="absolute left-0 top-1 h-[15px] w-[15px] rounded-full border-2 border-black bg-orange-500 lg:static lg:mx-auto lg:block"
+                />
+                <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500 lg:mt-5">0{st.n}</p>
+                <h3 className="mt-2 font-display text-lg font-semibold text-white">{st.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-400 lg:mx-auto lg:max-w-[16rem]">{st.desc}</p>
               </li>
             ))}
           </ol>
