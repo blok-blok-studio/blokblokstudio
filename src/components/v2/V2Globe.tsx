@@ -14,7 +14,7 @@ import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
 import type { GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
-import { clientCities, type ClientCity, type ClientLink } from '@/data/client-locations';
+import { clientCities, type ClientCity, type ClientLink, type TeamMember } from '@/data/client-locations';
 
 const Globe = dynamic(() => import('react-globe.gl'), { ssr: false });
 
@@ -171,23 +171,26 @@ export function V2Globe() {
     if (!c.expanded) inner.appendChild(title);
     if (c.expanded) {
       // Zoomed in: the label becomes a card listing who is here.
-      const group = (label: string, names: string[], color: string) => {
-        if (!names.length) return;
+      const group = (label: string, rows: string[][], color: string) => {
+        if (!rows.length) return;
         const wrap = document.createElement('div');
-        wrap.style.cssText = `${font}margin-top:${inner.childElementCount ? 6 : 0}px;font-size:11px;line-height:1.5;color:rgba(255,255,255,.78);white-space:nowrap;`;
+        wrap.style.cssText = `${font}margin-top:${inner.childElementCount ? 8 : 0}px;font-size:11px;line-height:1.4;color:rgba(255,255,255,.85);white-space:nowrap;`;
         const head = document.createElement('div');
         head.textContent = label;
-        head.style.cssText = `font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color};margin-bottom:1px;`;
+        head.style.cssText = `font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color};margin-bottom:3px;`;
         wrap.appendChild(head);
-        names.forEach((n) => {
-          const row = document.createElement('div');
-          row.textContent = n;
-          wrap.appendChild(row);
+        rows.forEach((lines) => {
+          lines.forEach((text, i) => {
+            const row = document.createElement('div');
+            row.textContent = text;
+            row.style.cssText = i === 0 ? 'font-size:12px;color:#fff;' : i === 1 ? 'color:rgba(255,255,255,.7);' : 'font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);';
+            wrap.appendChild(row);
+          });
         });
         inner.appendChild(wrap);
       };
-      group('Team', c.team ?? [], 'var(--bb-team)');
-      group('Clients', c.clients.map((cl) => cl.name), 'var(--bb-client)');
+      group('Team', (c.team ?? []).map((m) => [m.name, m.title, ...(m.company ? [m.company] : [])]), 'var(--bb-team)');
+      group('Clients', c.clients.map((cl) => [cl.name]), 'var(--bb-client)');
       // City under the names
       title.style.cssText = `${font}margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.1);font-size:11px;line-height:1;letter-spacing:.02em;color:rgba(255,255,255,.6);white-space:nowrap;`;
       inner.appendChild(title);
@@ -317,7 +320,7 @@ export function V2Globe() {
       names.length
         ? `<div style="margin-top:4px;letter-spacing:0;text-transform:none"><span style="font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color}">${label}</span><br/><span style="color:#d1d5db">${names.join(' · ')}</span></div>`
         : '';
-    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${line('Team', c.team ?? [], 'var(--bb-team)')}${line('Clients', c.clients.map((cl: ClientLink) => cl.name), 'var(--bb-client)')}</div>`;
+    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${line('Team', (c.team ?? []).map((m: TeamMember) => `${m.name}, ${m.title}`), 'var(--bb-team)')}${line('Clients', c.clients.map((cl: ClientLink) => cl.name), 'var(--bb-client)')}</div>`;
   };
 
   return (
@@ -358,48 +361,59 @@ export function V2Globe() {
                         }
                       }}
                       aria-pressed={on}
-                      className="group grid w-full cursor-pointer grid-cols-[1.25rem_1fr_auto] items-baseline gap-4 py-3.5 text-left transition-colors hover:text-white"
+                      className="group grid w-full cursor-pointer grid-cols-[1.25rem_1fr] items-start gap-4 py-5 text-left transition-colors hover:text-white"
                     >
                       <span
                         aria-hidden="true"
-                        className={`mt-1 h-2 w-2 self-center rounded-full transition-transform ${on ? 'scale-125' : 'opacity-70 group-hover:opacity-100'}`}
+                        className={`mt-2.5 h-2 w-2 rounded-full transition-transform ${on ? 'scale-125' : 'opacity-70 group-hover:opacity-100'}`}
                         style={{ background: c.studio ? 'var(--bb-team)' : 'var(--bb-client)' }}
                       />
-                      <span>
+                      <span className="min-w-0">
                         {c.team && c.team.length > 0 && (
-                          <span className={`flex items-baseline gap-2 text-base ${on ? 'text-white' : 'text-gray-100'}`}>
-                            <span className="h-1.5 w-1.5 shrink-0 translate-y-[-2px] rounded-full" style={{ background: 'var(--bb-team)' }} />
-                            {c.team.join(' · ')}
+                          <span className="block">
+                            <span className="block text-[10px] uppercase tracking-[0.2em]" style={{ color: 'var(--bb-team)' }}>
+                              {t('v2_globe_team')}
+                            </span>
+                            {c.team.map((m) => (
+                              <span key={m.name} className="mt-1.5 block">
+                                <span className={`block text-lg leading-tight ${on ? 'text-white' : 'text-gray-100'}`}>{m.name}</span>
+                                <span className="block text-sm text-gray-400">{m.title}</span>
+                                {m.company && (
+                                  <span className="block text-[11px] uppercase tracking-[0.16em] text-gray-500">{m.company}</span>
+                                )}
+                              </span>
+                            ))}
                           </span>
                         )}
                         {c.clients.length > 0 && (
-                          <span className={`flex flex-wrap items-baseline gap-x-2 gap-y-0.5 text-base ${on ? 'text-white' : 'text-gray-100'}`}>
-                            <span className="h-1.5 w-1.5 shrink-0 translate-y-[-2px] rounded-full" style={{ background: 'var(--bb-client)' }} />
-                            {c.clients.map((cl, j) => (
-                              <span key={cl.name} className="inline-flex items-baseline gap-2">
+                          <span className={`block ${c.team?.length ? 'mt-4' : ''}`}>
+                            <span className="block text-[10px] uppercase tracking-[0.2em]" style={{ color: 'var(--bb-client)' }}>
+                              {t('v2_globe_clients')}
+                            </span>
+                            {c.clients.map((cl) => (
+                              <span key={cl.name} className={`mt-1.5 block text-lg leading-tight ${on ? 'text-white' : 'text-gray-100'}`}>
                                 {cl.url ? (
                                   <a
                                     href={cl.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     onClick={(e) => e.stopPropagation()}
-                                    className="underline decoration-white/20 underline-offset-4 transition-colors hover:text-white hover:decoration-white"
+                                    className="underline decoration-white/20 underline-offset-4 transition-colors hover:decoration-white"
                                   >
                                     {cl.name}
-                                    {cl.archived && <span className="ml-1 text-[10px] text-gray-500">(archive)</span>}
                                   </a>
                                 ) : (
                                   cl.name
                                 )}
-                                {j < c.clients.length - 1 && <span className="text-gray-600">·</span>}
+                                {cl.archived && <span className="ml-2 text-[10px] uppercase tracking-[0.12em] text-gray-500">archive</span>}
                               </span>
                             ))}
                           </span>
                         )}
                         {!c.team?.length && !c.clients.length && (
-                          <span className={`block text-base ${on ? 'text-white' : 'text-gray-100'}`}>Blok Blok Studio</span>
+                          <span className={`block text-lg ${on ? 'text-white' : 'text-gray-100'}`}>Blok Blok Studio</span>
                         )}
-                        <span className="mt-1 block text-sm text-gray-500">
+                        <span className="mt-4 block text-sm text-gray-500">
                           {c.city}
                           {c.region ? `, ${c.region}` : ''}
                           {c.tag && (
@@ -410,10 +424,7 @@ export function V2Globe() {
                           <span className="ml-2 text-[11px] uppercase tracking-[0.18em] text-gray-600">{c.country}</span>
                         </span>
                       </span>
-                      <span className="flex flex-col items-end gap-1 text-[11px] uppercase tracking-[0.18em]">
-                        {c.studio && <span style={{ color: 'var(--bb-team)' }}>{t('v2_globe_team')}</span>}
-                        {c.clients.length > 0 && <span style={{ color: 'var(--bb-client)' }}>{t('v2_globe_clients')}</span>}
-                      </span>
+                      <span aria-hidden="true" />
                     </div>
                   </li>
                 );
