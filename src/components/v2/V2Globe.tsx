@@ -65,6 +65,7 @@ export function V2Globe() {
   const [countries, setCountries] = useState<Feature[]>([]);
   const [colors, setColors] = useState({ team: 'rgb(255, 255, 255)', client: 'rgb(37, 97, 216)', accent: 'rgb(37, 97, 216)' });
   const [active, setActive] = useState<number | null>(null);
+  const [openGroup, setOpenGroup] = useState<'team' | 'clients' | null>('team');
   const [ready, setReady] = useState(false);
   const [alt, setAlt] = useState(2.1);
   const [pov, setPov] = useState<{ lat: number; lng: number }>({ lat: 32, lng: -30 });
@@ -345,117 +346,96 @@ export function V2Globe() {
                 {t('v2_globe_clients')}
               </span>
             </div>
-            <ul className="mt-10 divide-y divide-white/10 border-y border-white/10">
-              {clientCities.map((c, i) => {
-                const on = active === i;
-                const teamCount = c.team?.length ?? 0;
-                const clientCount = c.clients.length;
+            {/* Two dropdowns: Team and Clients. Each opens a bulleted city list. */}
+            <div className="mt-10 divide-y divide-white/10 border-y border-white/10">
+              {(
+                [
+                  { id: 'team' as const, label: t('v2_globe_team'), color: 'var(--bb-team)', cities: clientCities.filter((c) => c.team?.length) },
+                  { id: 'clients' as const, label: t('v2_globe_clients'), color: 'var(--bb-client)', cities: clientCities.filter((c) => c.clients.length) },
+                ]
+              ).map((g) => {
+                const open = openGroup === g.id;
+                const count = g.id === 'team' ? g.cities.reduce((n, c) => n + (c.team?.length ?? 0), 0) : g.cities.reduce((n, c) => n + c.clients.length, 0);
                 return (
-                  <li key={c.city}>
-                    {/* Header: city is the headline. Click opens the row and flies the globe. */}
+                  <div key={g.id}>
                     <button
                       type="button"
-                      onClick={() => (on ? setActive(null) : pick(i, c))}
-                      aria-expanded={on}
-                      className="group grid w-full grid-cols-[1.25rem_1fr_auto] items-center gap-4 py-4 text-left"
+                      onClick={() => setOpenGroup(open ? null : g.id)}
+                      aria-expanded={open}
+                      className="group flex w-full items-center gap-4 py-5 text-left"
                     >
-                      <span
-                        aria-hidden="true"
-                        className={`h-2 w-2 rounded-full transition-transform ${on ? 'scale-125' : 'opacity-70 group-hover:opacity-100'}`}
-                        style={{ background: c.studio ? 'var(--bb-team)' : 'var(--bb-client)' }}
-                      />
-                      <span className="min-w-0">
-                        <span className={`block text-lg leading-tight ${on ? 'text-white' : 'text-gray-100'}`}>
-                          {c.city}
-                          {c.region ? <span className="text-gray-400">, {c.region}</span> : null}
-                          {c.tag && (
-                            <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
-                              {c.tag}
-                            </span>
-                          )}
-                        </span>
-                        <span className="mt-0.5 flex flex-wrap items-center gap-x-3 text-[11px] uppercase tracking-[0.16em] text-gray-500">
-                          <span>{c.country}</span>
-                          {teamCount > 0 && (
-                            <span className="flex items-center gap-1.5">
-                              <span className="h-1.5 w-1.5 rounded-full" style={{ background: 'var(--bb-team)' }} />
-                              {teamCount} {t('v2_globe_team')}
-                            </span>
-                          )}
-                          {clientCount > 0 && (
-                            <span className="flex items-center gap-1.5">
-                              <span className="h-1.5 w-1.5 rounded-full" style={{ background: 'var(--bb-client)' }} />
-                              {clientCount} {clientCount === 1 ? t('v2_globe_client_one') : t('v2_globe_clients')}
-                            </span>
-                          )}
-                        </span>
+                      <span aria-hidden="true" className="h-2.5 w-2.5 rounded-full" style={{ background: g.color }} />
+                      <span className="text-lg text-white">{g.label}</span>
+                      <span className="text-[11px] uppercase tracking-[0.16em] text-gray-500">
+                        {count} · {g.cities.length} {t('v2_globe_cities')}
                       </span>
-                      <span
-                        aria-hidden="true"
-                        className={`text-gray-500 transition-transform duration-300 ${on ? 'rotate-180 text-white' : ''}`}
-                      >
+                      <span aria-hidden="true" className={`ml-auto text-gray-500 transition-transform duration-300 ${open ? 'rotate-180 text-white' : ''}`}>
                         ▾
                       </span>
                     </button>
-
-                    {/* Body: team then clients, animated open/closed. */}
-                    <div
-                      className={`grid transition-[grid-template-rows] duration-300 ease-out ${on ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}
-                    >
+                    <div className={`grid transition-[grid-template-rows] duration-300 ease-out ${open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
                       <div className="overflow-hidden">
-                        <div className="grid grid-cols-[1.25rem_1fr] gap-4 pb-5">
-                          <span />
-                          <div className="min-w-0">
-                            {teamCount > 0 && (
-                              <div>
-                                <p className="text-[10px] uppercase tracking-[0.2em]" style={{ color: 'var(--bb-team)' }}>
-                                  {t('v2_globe_team')}
-                                </p>
-                                {c.team!.map((m) => (
-                                  <div key={m.name} className="mt-1.5">
-                                    <p className="text-base leading-tight text-white">{m.name}</p>
-                                    <p className="text-sm text-gray-400">{m.title}</p>
-                                    {m.company && (
-                                      <p className="text-[11px] uppercase tracking-[0.16em] text-gray-500">{m.company}</p>
+                        <ul className="space-y-3 pb-6 pl-[1.6rem]">
+                          {g.cities.map((c) => {
+                            const i = clientCities.indexOf(c);
+                            const on = active === i;
+                            return (
+                              <li key={c.city} className="flex gap-3">
+                                <span aria-hidden="true" className="mt-[0.6rem] h-1 w-1 shrink-0 rounded-full bg-gray-500" />
+                                <button
+                                  type="button"
+                                  onClick={() => pick(i, c)}
+                                  aria-pressed={on}
+                                  className="group/city min-w-0 text-left"
+                                >
+                                  <span className={`block text-base leading-snug ${on ? 'text-white' : 'text-gray-200 group-hover/city:text-white'}`}>
+                                    {c.city}
+                                    {c.region ? <span className="text-gray-400">, {c.region}</span> : null}
+                                    <span className="ml-2 text-[11px] uppercase tracking-[0.16em] text-gray-500">{c.country}</span>
+                                    {c.tag && (
+                                      <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
+                                        {c.tag}
+                                      </span>
                                     )}
-                                  </div>
-                                ))}
-                              </div>
-                            )}
-                            {clientCount > 0 && (
-                              <div className={teamCount ? 'mt-4' : ''}>
-                                <p className="text-[10px] uppercase tracking-[0.2em]" style={{ color: 'var(--bb-client)' }}>
-                                  {t('v2_globe_clients')}
-                                </p>
-                                {c.clients.map((cl) => (
-                                  <p key={cl.name} className="mt-1.5 text-base leading-tight text-white">
-                                    {cl.url ? (
-                                      <a
-                                        href={cl.url}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="underline decoration-white/20 underline-offset-4 transition-colors hover:decoration-white"
-                                      >
-                                        {cl.name}
-                                      </a>
-                                    ) : (
-                                      cl.name
-                                    )}
-                                    {cl.archived && (
-                                      <span className="ml-2 text-[10px] uppercase tracking-[0.12em] text-gray-500">archive</span>
-                                    )}
-                                  </p>
-                                ))}
-                              </div>
-                            )}
-                          </div>
-                        </div>
+                                  </span>
+                                  {g.id === 'team' ? (
+                                    <span className="mt-0.5 block text-sm text-gray-400">
+                                      {c.team!.map((m) => `${m.name}, ${m.title}`).join(' · ')}
+                                    </span>
+                                  ) : (
+                                    <span className="mt-0.5 flex flex-wrap items-baseline gap-x-2 text-sm text-gray-400">
+                                      {c.clients.map((cl, j) => (
+                                        <span key={cl.name} className="inline-flex items-baseline gap-2">
+                                          {cl.url ? (
+                                            <a
+                                              href={cl.url}
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              onClick={(e) => e.stopPropagation()}
+                                              className="underline decoration-white/20 underline-offset-4 transition-colors hover:text-white hover:decoration-white"
+                                            >
+                                              {cl.name}
+                                            </a>
+                                          ) : (
+                                            cl.name
+                                          )}
+                                          {cl.archived && <span className="text-[10px] uppercase tracking-[0.12em] text-gray-500">archive</span>}
+                                          {j < c.clients.length - 1 && <span className="text-gray-600">·</span>}
+                                        </span>
+                                      ))}
+                                    </span>
+                                  )}
+                                </button>
+                              </li>
+                            );
+                          })}
+                        </ul>
                       </div>
                     </div>
-                  </li>
+                  </div>
                 );
               })}
-            </ul>
+            </div>
           </div>
 
           <div
