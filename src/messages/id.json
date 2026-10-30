@@ -736,7 +736,2137 @@
     "timeline": "Jangka waktu",
     "commitment": "Komitmen",
     "ideal_for": "Cocok untuk",
-    "custom_quote": "Ingin penawaran khusus?"
+    "custom_quote": "Ingin penawaran khusus?",
+    "hero_title_a": "Apa yang Anda dapat,",
+    "hero_title_em": "dijabarkan dengan jelas.",
+    "hero_sub": "Situs web berbasis AI, aplikasi, otomatisasi, iklan, branding, dan pengelolaan media sosial. Setiap kerja sama ditawar khusus sesuai lingkup Anda, dengan hasil kerja yang tertulis jelas sehingga kita sama-sama tahu apa yang sedang dibangun.",
+    "tabs": {
+      "web": "Pengembangan Web",
+      "app": "Pengembangan Aplikasi",
+      "social": "Media Sosial",
+      "marketing": "Pemasaran",
+      "aiAgents": "Agen AI",
+      "saas": "SaaS Kustom",
+      "branding": "Strategi Branding"
+    },
+    "sections": {
+      "oneTime": "Proyek Sekali Bayar",
+      "webSupport": "Retainer Bulanan",
+      "appBuild": "Pembangunan Sekali Bayar",
+      "appSupport": "Retainer Bulanan",
+      "socialSetup": "Pengaturan Sekali Bayar",
+      "social": "Pengelolaan Bulanan",
+      "marketingBuild": "Proyek Sekali Bayar",
+      "monthly": "Retainer Bulanan",
+      "aiAgents": "Pembangunan Sekali Bayar",
+      "monthlyAgent": "Retainer Bulanan",
+      "customBuild": "Pembangunan Sekali Bayar",
+      "customSupport": "Retainer Bulanan",
+      "brandingBuild": "Proyek Sekali Bayar",
+      "brandingSupport": "Retainer Bulanan"
+    },
+    "hide": "Sembunyikan",
+    "view": "Lihat",
+    "not_included": "Yang Tidak Termasuk",
+    "cta_sub": "Setiap kerja sama di-scope dan ditawar secara individual. Jadwalkan panggilan gratis 15 menit dan kami akan mengirimkan proposal yang disesuaikan dalam 48 jam.",
+    "cta_button": "Jadwalkan Panggilan Strategi",
+    "pkg": {
+      "oneTime": [
+        {
+          "name": "Peluncuran Satu Halaman",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "Paling cocok untuk kehadiran online yang sederhana",
+          "tl": "2 sampai 3 minggu",
+          "scope": [
+            {
+              "i": "Landing page kustom (1 halaman)",
+              "l": "Situs satu halaman yang didesain sepenuhnya kustom, responsif di perangkat mobile, dan dibangun dengan Next.js. Mencakup bagian-bagian berbasis scroll: hero, tentang kami, layanan, testimoni, dan formulir kontak. Tata letak responsif untuk desktop, tablet, dan ponsel. Judul meta dan deskripsi SEO ditulis. Sertifikat SSL dan pengaturan hosting di Vercel sudah termasuk."
+            },
+            {
+              "i": "Identitas merek (logo + warna)",
+              "l": "2 konsep logo awal disajikan sebagai mockup. Anda memilih 1 untuk penyempurnaan akhir. Hasil akhir: file logo dalam format PNG, SVG, dan PDF (versi warna penuh, putih, dan hitam). 1 palet warna utama (5 warna dengan kode hex) dan 1 pasangan font (judul + isi). Dokumen panduan merek lengkap tidak termasuk di tingkat ini."
+            },
+            {
+              "i": "Analitik & pelacakan",
+              "l": "Google Analytics 4 dipasang dan dikonfigurasi. 1 sasaran konversi disiapkan (misalnya pengiriman formulir atau klik nomor telepon). Google Search Console terhubung. Pelacakan event dasar pada tombol CTA."
+            },
+            {
+              "i": "Revisi desain",
+              "l": "2 putaran revisi. Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan. Masukan harus dikirim dalam 5 hari kerja setelah setiap sesi review. Tidak menerima masukan parsial atau bertahap lewat banyak email."
+            },
+            {
+              "i": "Konten & naskah",
+              "l": "Klien menyediakan seluruh konten tertulis (judul, isi, biografi, deskripsi layanan). Kami menangani tata letak, pemformatan, dan penempatan. Jika Anda membutuhkan copywriting, bisa ditambahkan dengan biaya $200/halaman."
+            }
+          ],
+          "ov": [
+            "Putaran revisi tambahan: $300",
+            "Copywriting: $200/halaman",
+            "Bagian tambahan: $250"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat klien menyetujui ATAU setelah 2 putaran revisi. Setelah persetujuan: $175/jam.",
+          "bridge": "Termasuk pemantauan 14 hari pasca peluncuran (perbaikan bug dan penyesuaian kecil). Butuh lebih banyak halaman atau fitur? Naik ke paket Peluncuran Starter ($4,500) untuk situs 5 halaman lengkap dengan AI chat dan pengaturan CRM.",
+          "ideal": "Proyek sampingan, personal brand, landing page sederhana"
+        },
+        {
+          "name": "Peluncuran Starter",
+          "price": 6500,
+          "disp": "$6,500",
+          "tag": "Paling cocok untuk bisnis baru",
+          "tl": "4 sampai 6 minggu",
+          "scope": [
+            {
+              "i": "Situs web kustom (5 halaman)",
+              "l": "Situs web yang didesain sepenuhnya kustom, responsif di perangkat mobile, dan dibangun dengan Next.js. Mencakup: Beranda, Tentang Kami, Layanan, Kontak, dan 1 halaman tambahan pilihan Anda. Setiap halaman memiliki tata letak responsif untuk desktop, tablet, dan ponsel. Judul meta dan deskripsi SEO ditulis untuk kelima halaman. Sertifikat SSL dan pengaturan hosting di Vercel sudah termasuk."
+            },
+            {
+              "i": "Identitas merek (logo + warna)",
+              "l": "2 konsep logo awal disajikan sebagai mockup. Anda memilih 1 untuk penyempurnaan akhir. Hasil akhir: file logo dalam format PNG, SVG, dan PDF (versi warna penuh, putih, dan hitam). 1 palet warna utama (5 warna dengan kode hex) dan 1 pasangan font (judul + isi). Dokumen panduan merek lengkap tidak termasuk di tingkat ini."
+            },
+            {
+              "i": "Widget AI chat",
+              "l": "1 chatbot berbasis AI yang disematkan di situs Anda. Dilatih dengan 25 pasangan tanya-jawab yang Anda sediakan (misalnya harga, jam operasional, layanan). Termasuk formulir penangkap prospek yang meneruskan pertanyaan ke CRM Anda. Pesan sambutan dasar dan respons cadangan dikonfigurasi."
+            },
+            {
+              "i": "Pengaturan CRM (GoHighLevel)",
+              "l": "1 pipeline penjualan dibuat dengan 5 tahap (misalnya Prospek Baru → Dihubungi → Proposal Terkirim → Deal → Gagal). 5 rangkaian otomatisasi (misalnya notifikasi email prospek baru, pengingat tindak lanjut, konfirmasi janji temu, balasan SMS untuk panggilan tak terjawab, email sambutan). Impor kontak dari CSV jika tersedia (maksimal 500 kontak)."
+            },
+            {
+              "i": "Analitik & pelacakan",
+              "l": "Google Analytics 4 dipasang dan dikonfigurasi. 1 sasaran konversi disiapkan (misalnya pengiriman formulir, klik nomor telepon, atau interaksi chatbot). Google Search Console terhubung. Pelacakan event dasar pada tombol CTA."
+            },
+            {
+              "i": "Revisi desain",
+              "l": "2 putaran revisi per halaman. Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan. Masukan harus dikirim dalam 5 hari kerja setelah setiap sesi review. Tidak menerima masukan parsial atau bertahap lewat banyak email."
+            },
+            {
+              "i": "Konten & naskah",
+              "l": "Klien menyediakan seluruh konten tertulis (judul, isi, biografi, deskripsi layanan). Kami menangani tata letak, pemformatan, dan penempatan. Jika Anda membutuhkan copywriting, bisa ditambahkan dengan biaya $200/halaman."
+            }
+          ],
+          "ov": [
+            "Halaman tambahan: $500/halaman",
+            "Putaran revisi tambahan: $300",
+            "Copywriting: $200/halaman",
+            "Tanya-jawab tambahan (25+): $250/batch",
+            "Otomatisasi tambahan: $350 per item"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat klien menyetujui ATAU setelah 2 putaran revisi. Setelah persetujuan: $175/jam.",
+          "bridge": "Termasuk pemantauan 30 hari pasca peluncuran (perbaikan bug, pengecekan chatbot, kesehatan CRM). Setelah hari ke-30, pemeliharaan, pembaruan, dan penyetelan AI berlanjut ke paket Rawat & Pantau ($1,500/bulan) agar sistem Anda tetap optimal.",
+          "ideal": "Startup, solopreneur, bisnis lokal"
+        },
+        {
+          "name": "Akselerator Pertumbuhan",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "Paling Populer",
+          "pop": true,
+          "tl": "6 sampai 8 minggu",
+          "scope": [
+            {
+              "i": "Situs web kustom (10 halaman + CMS)",
+              "l": "10 halaman yang didesain penuh dan responsif di perangkat mobile, dibangun dengan Next.js beserta CMS terintegrasi (blog atau portofolio). Mencakup: Beranda, Tentang Kami, Layanan (3 sub-halaman layanan), Blog, Kontak, dan 2 halaman tambahan. 3 animasi scroll atau hover kustom. SEO on-page untuk semua halaman (judul meta, deskripsi, alt tag, schema markup). SSL, hosting di Vercel, dan pengiriman sitemap ke Google sudah termasuk."
+            },
+            {
+              "i": "Identitas merek (panduan lengkap)",
+              "l": "3 konsep logo awal disajikan sebagai mockup lifestyle. 1 dipilih untuk penyempurnaan akhir. PDF panduan merek lengkap (10 halaman) berisi: aturan penggunaan logo, ukuran minimum, ruang kosong, palet warna (primer + sekunder, hex/RGB/CMYK), sistem tipografi (font judul, subjudul, isi beserta ukurannya), dan catatan tone of voice. 5 template posting media sosial bermerek diserahkan dalam Canva atau Figma (dapat diedit)."
+            },
+            {
+              "i": "Chatbot AI",
+              "l": "1 chatbot berbasis AI yang dilatih dengan 50 pasangan tanya-jawab. Termasuk integrasi pemesanan janji temu (terhubung ke Google Calendar atau Calendly Anda). Penangkapan prospek dengan input otomatis ke CRM. Sapaan kustom, respons cadangan, dan pesan di luar jam kerja dikonfigurasi. Chatbot disematkan di 3 halaman situs."
+            },
+            {
+              "i": "Agen suara AI",
+              "l": "1 agen suara AI untuk panggilan masuk yang menjawab telepon, mengkualifikasi prospek, dan menjadwalkan janji temu. 1 skrip panggilan kustom ditulis dan dikonfigurasi. 500 menit suara termasuk untuk bulan pertama. Rekaman panggilan tersimpan di CRM Anda. Termasuk perutean panggilan dasar (dialihkan ke Anda jika AI tidak bisa menyelesaikannya)."
+            },
+            {
+              "i": "Otomatisasi alur kerja (total 8)",
+              "l": "8 otomatisasi dibangun di GoHighLevel. Contoh: notifikasi prospek baru (email + SMS), rangkaian pengingat janji temu (24 jam + 1 jam sebelumnya), balasan SMS untuk panggilan tak terjawab, tindak lanjut pasca janji temu, permintaan ulasan setelah layanan, re-engagement formulir yang ditinggalkan, email ulang tahun/hari jadi, dan pemicu perubahan tahap pipeline. Setiap otomatisasi mencakup hingga 5 langkah."
+            },
+            {
+              "i": "Pengaturan Google Ads",
+              "l": "1 kampanye Google Search dengan 3 grup iklan (menargetkan tema kata kunci yang berbeda). Riset kata kunci dan daftar kata kunci negatif termasuk. 6 variasi iklan ditulis (2 per grup iklan). 1 landing page khusus didesain, dibangun, dan dihubungkan dengan pelacakan konversi. Pelacakan konversi Google Ads dan Google Tag Manager dikonfigurasi. Biaya iklan ditagih terpisah dan Anda bayarkan langsung ke Google."
+            },
+            {
+              "i": "Dasbor klien",
+              "l": "1 dasbor real-time dibangun di GHL atau Google Looker Studio. Hingga 6 widget: trafik situs, jumlah prospek, nilai pipeline, tingkat konversi, performa iklan, dan interaksi chatbot. Dasbor diperbarui otomatis dan dapat diakses lewat tautan yang bisa dibagikan."
+            },
+            {
+              "i": "Revisi desain",
+              "l": "3 putaran revisi per hasil kerja (halaman situs, aset merek, materi iklan, dan dasbor). Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan dan dikirim dalam 5 hari kerja."
+            },
+            {
+              "i": "Konten & naskah",
+              "l": "Kami menulis naskah untuk beranda dan halaman layanan Anda (total 1.500 kata). Konten halaman lainnya disediakan oleh Anda. CMS blog diserahkan dalam keadaan kosong agar Anda atau tim Anda bisa membuat artikel, atau tambahkan paket konten kami."
+            }
+          ],
+          "ov": [
+            "Halaman tambahan: $500/halaman",
+            "Revisi tambahan: $300/putaran",
+            "Kampanye iklan tambahan: $1,500",
+            "Skrip suara tambahan: $750",
+            "Otomatisasi (8+): $350 per item",
+            "Landing page tambahan: $900",
+            "Copywriting di luar paket: $200/halaman"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 3 putaran revisi. Setelah persetujuan: $175/jam.",
+          "bridge": "Termasuk 30 hari pasca peluncuran: pengelolaan iklan, pemantauan AI, dan perbaikan bug. Setelah hari ke-30, iklan, agen AI, dan otomatisasi Anda butuh optimasi berkelanjutan agar performanya terjaga. Kami merekomendasikan paket Mesin Pertumbuhan ($3,500/bulan) untuk menjaga momentum.",
+          "ideal": "Bisnis berkembang yang ingin naik skala dengan sistem"
+        },
+        {
+          "name": "Dominasi Total",
+          "price": 18000,
+          "disp": "$18,000+",
+          "tag": "Kelas enterprise",
+          "tl": "8 sampai 12 minggu",
+          "scope": [
+            {
+              "i": "Situs web premium (15 halaman + e-commerce)",
+              "l": "15 halaman yang didesain penuh, dibangun dengan Next.js dan headless CMS (Sanity atau Contentful). 6 animasi kustom (parallax scrolling, efek hover, transisi halaman, mikro-interaksi). Siap e-commerce: 20 listing produk dengan integrasi Shopify atau Stripe, keranjang belanja, dan checkout. Termasuk blog, pusat sumber daya, atau bagian studi kasus. SEO on-page lengkap, schema markup, tag Open Graph, sitemap XML, dan robots.txt. SSL, hosting Vercel, dan optimasi CDN sudah termasuk."
+            },
+            {
+              "i": "Sistem merek lengkap",
+              "l": "5 konsep logo awal dengan mockup lifestyle. 1 dipilih untuk penyempurnaan penuh. Dokumen panduan merek lengkap (20 halaman): penggunaan logo, ruang kosong, ukuran minimum, palet warna primer dan sekunder, hierarki tipografi, panduan gaya fotografi, gaya ikon, panduan suara dan nada merek. Desain alat tulis: kartu nama, kop surat, dan template tanda tangan email. Template pitch deck (15 slide, dapat diedit di Google Slides atau Keynote). 10 template media sosial bermerek (Canva atau Figma, dapat diedit)."
+            },
+            {
+              "i": "Ekosistem agen AI (3 agen)",
+              "l": "3 agen AI yang saling terhubung dan bekerja sebagai satu sistem. Contoh susunan: Agen 1 menangkap prospek lewat chatbot dan memberi skor (hot/warm/cold). Agen 2 mengirim rangkaian email personal berdasarkan skor. Agen 3 memicu tindak lanjut SMS untuk prospek hot. 1 pohon keputusan kustom yang memetakan seluruh perjalanan prospek. Semua agen terhubung ke CRM GHL Anda dengan penandaan kontak dan pergerakan pipeline otomatis."
+            },
+            {
+              "i": "Paket AI percakapan",
+              "l": "1 chatbot AI yang dilatih dengan 100 pasangan tanya-jawab, disematkan di seluruh situs. Termasuk pemesanan janji temu, penangkapan prospek, penanganan FAQ, dan pesan di luar jam kerja. 1 agen suara AI dengan 2 skrip panggilan kustom (misalnya penjualan masuk + konfirmasi janji temu). 1.000 menit suara termasuk untuk bulan pertama. Rekaman panggilan tersimpan di CRM. 5 rangkaian otomatisasi SMS (misalnya pengingat janji temu, tindak lanjut pasca panggilan, permintaan ulasan, re-engagement, blast promosi)."
+            },
+            {
+              "i": "Otomatisasi alur kerja (total 15)",
+              "l": "15 otomatisasi di seluruh CRM, sistem pembayaran, dan kalender Anda. Contoh: rangkaian nurturing prospek, pengingat tagihan, konfirmasi pembayaran, alur onboarding, permintaan ulasan, kampanye win-back, notifikasi tim internal, otomatisasi tahap pipeline, dan email ulang tahun/pencapaian. Setiap otomatisasi mencakup hingga 7 langkah dengan logika kondisional."
+            },
+            {
+              "i": "Google + Meta Ads (pengaturan lengkap)",
+              "l": "1 kampanye Google Search dengan 5 grup iklan dan 10 variasi iklan. Riset kata kunci lengkap dengan daftar kata kunci negatif. 1 kampanye Meta (Facebook/Instagram) dengan 3 set iklan yang menargetkan audiens berbeda. Piksel retargeting dipasang di situs Anda untuk Google dan Meta. 2 landing page khusus didesain, dibangun, dan dioptimalkan untuk konversi. Semua pelacakan konversi dikonfigurasi melalui Google Tag Manager. Materi iklan didesain (6 gambar statis + 2 iklan carousel). Biaya iklan ditagih terpisah. Anda membayar langsung ke Google dan Meta."
+            },
+            {
+              "i": "Sistem konten AI",
+              "l": "Pipeline konten lengkap dikonfigurasi: alur video-ke-klip (unggah video panjang, AI menghasilkan klip sosial), template pembuatan artikel blog dengan bantuan AI, dan pengaturan penjadwalan media sosial di Buffer atau Later. Konten bulan pertama diproduksi dan dipublikasikan: 4 artikel blog (hingga 1.000 kata masing-masing, dioptimalkan untuk SEO) dan 12 posting media sosial (grafis + caption). Template kalender konten disediakan untuk penggunaan berkelanjutan."
+            },
+            {
+              "i": "Dasbor eksekutif",
+              "l": "1 dasbor komprehensif di GHL atau Google Looker Studio. 10 widget: trafik situs, pipeline prospek, tingkat konversi, performa Google Ads (CPC, CTR, ROAS), performa Meta Ads, interaksi chatbot, volume panggilan agen suara, tingkat buka/klik email, atribusi pendapatan, dan grafik tren mingguan. Email ringkasan mingguan otomatis dikirim ke 3 penerima."
+            },
+            {
+              "i": "Revisi desain",
+              "l": "3 putaran revisi per hasil kerja untuk semua aset. Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan dan dikirim dalam 5 hari kerja."
+            },
+            {
+              "i": "Copywriting",
+              "l": "Copywriting profesional lengkap untuk 10 halaman situs (judul, isi, CTA, deskripsi meta). Klien menyediakan bahan mentah, catatan, atau poin-poin untuk halaman lainnya. Naskah iklan untuk semua kampanye Google dan Meta ditulis dan sudah termasuk."
+            }
+          ],
+          "ov": [
+            "Halaman tambahan: $500",
+            "Revisi tambahan: $350/putaran",
+            "Agen AI tambahan: $2,500",
+            "Kampanye iklan tambahan: $1,500",
+            "Skrip suara: $750",
+            "Otomatisasi (15+): $400 per item",
+            "Produk (20+): $75/produk",
+            "Konten setelah bulan ke-1: memerlukan retainer"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 25% di titik tengah proyek, 25% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 3 putaran. Setelah persetujuan: $175/jam.",
+          "bridge": "Termasuk 45 hari pasca peluncuran: pemantauan penuh, pengelolaan iklan, penyetelan AI, dan perbaikan bug. Setelah hari ke-45, ekosistem AI, kampanye iklan, dan sistem konten Anda butuh pengelolaan berkelanjutan agar terus memberi hasil. Kami merekomendasikan paket Kemitraan Penuh ($7,500/bulan) atau Mesin Pertumbuhan ($3,500/bulan) sesuai kebutuhan Anda.",
+          "ideal": "Bisnis mapan yang menginginkan infrastruktur AI lengkap"
+        }
+      ],
+      "socialSetup": [
+        {
+          "name": "Pengaturan Satu Platform",
+          "price": 1200,
+          "disp": "$1,200",
+          "tag": "Bangun satu kanal dengan benar",
+          "tl": "3 sampai 5 hari",
+          "scope": [
+            {
+              "i": "Pemilihan platform",
+              "l": "1 platform pilihan Anda: Instagram, LinkedIn, Facebook, TikTok, YouTube, X (Twitter), atau Pinterest. Kami membangun dari nol atau merombak profil Anda yang sudah ada."
+            },
+            {
+              "i": "Optimasi profil",
+              "l": "Bio ditulis dan disesuaikan untuk setiap platform (hingga 150 karakter untuk IG, hingga 2.000 untuk LinkedIn, dan seterusnya). Foto profil diubah ukurannya dan dioptimalkan untuk platform. Gambar sampul atau banner didesain khusus agar sesuai merek Anda. Bagian unggulan, highlight, atau posting yang disematkan dikonfigurasi (bila tersedia). Info kontak, tautan situs, tombol CTA, serta tag kategori/industri disiapkan."
+            },
+            {
+              "i": "Aset identitas visual",
+              "l": "1 foto profil kustom (inisial bermerek, overlay headshot, atau tanda logo) berukuran sesuai platform. 1 gambar sampul atau banner kustom yang didesain sesuai warna dan pesan merek Anda. Semua file diserahkan dalam format PNG dan format yang dapat diedit (Canva atau Figma). 1 putaran revisi untuk aset visual."
+            },
+            {
+              "i": "Template konten (3)",
+              "l": "3 template posting bermerek yang dapat dipakai ulang, didesain di Canva atau Figma. Mencakup: 1 template kutipan/tips, 1 template promosi/layanan, dan 1 template interaksi (pertanyaan, polling, atau CTA). Setiap template memakai warna, font, dan logo merek Anda. Sepenuhnya dapat diedit sehingga tim Anda bisa mengganti teks dan gambar."
+            },
+            {
+              "i": "Strategi hashtag & kata kunci",
+              "l": "Riset hashtag atau kata kunci khusus platform berdasarkan industri dan target audiens Anda. 3 set hashtag/kata kunci diserahkan (misalnya 1 set jangkauan luas, 1 set niche, 1 set bermerek). Setiap set berisi 15 sampai 30 hashtag atau kata kunci. Diserahkan sebagai dokumen yang dapat dibagikan beserta petunjuk penggunaan."
+            },
+            {
+              "i": "Konten peluncuran (4 posting)",
+              "l": "4 posting siap terbit: grafis statis dengan caption yang sudah ditulis. Mencakup: 1 posting perkenalan/sambutan, 1 sorotan layanan atau produk, 1 posting bukti sosial atau testimoni, dan 1 posting CTA atau interaksi. Grafis berukuran sesuai platform. Caption menyertakan hashtag relevan dari set strategi Anda."
+            },
+            {
+              "i": "Panduan platform (PDF)",
+              "l": "PDF 1 halaman yang disesuaikan untuk platform Anda. Membahas: waktu terbaik untuk posting, frekuensi posting ideal, jenis konten yang paling berhasil, tips penggunaan hashtag, dan praktik terbaik interaksi. Praktis dan spesifik untuk industri Anda."
+            }
+          ],
+          "ov": [
+            "Platform tambahan: $1,200 per platform",
+            "Template posting tambahan: $100 per item",
+            "Posting peluncuran tambahan (4+): $60 per item",
+            "Putaran revisi: $175",
+            "Konten video (Reels/Shorts): $175 per item"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 1 putaran revisi. Perubahan setelah penyerahan: $175/jam.",
+          "bridge": "Profil Anda sudah siap dan tinggal jalan. Agar tetap aktif dan bertumbuh, tambahkan paket Social Starter kami ($1,500/bulan) atau pengelolaan per platform mulai dari $650/bulan.",
+          "ideal": "Bisnis yang baru memulai di sebuah platform"
+        },
+        {
+          "name": "Peluncuran Multi-Platform",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "Paling Populer",
+          "pop": true,
+          "tl": "1 sampai 2 minggu",
+          "scope": [
+            {
+              "i": "Platform (3 termasuk)",
+              "l": "Pilih 3 platform: Instagram, LinkedIn, Facebook, TikTok, YouTube, X, atau Pinterest. Profil baru dibuat dari nol atau profil yang sudah ada dirombak total."
+            },
+            {
+              "i": "Optimasi profil (ketiganya)",
+              "l": "Bio ditulis dan dioptimalkan per platform. Foto profil dan gambar sampul/banner didesain khusus untuk masing-masing (ukuran tepat sesuai spesifikasi platform). CTA, info kontak, tautan situs, dan tag kategori dikonfigurasi. Highlight, bagian unggulan, atau posting yang disematkan disiapkan bila tersedia. Semua profil saling tertaut satu sama lain dan ke situs web Anda."
+            },
+            {
+              "i": "Identitas visual yang selaras",
+              "l": "Foto profil dan banner yang serasi di ketiga platform demi konsistensi merek. Didesain selaras dengan merek Anda saat ini (atau merek baru jika digabung dengan proyek sekali bayar). Diserahkan dalam PNG + file Canva atau Figma yang dapat diedit. 2 putaran revisi untuk semua aset visual."
+            },
+            {
+              "i": "Template konten (total 15)",
+              "l": "5 template posting bermerek yang dapat dipakai ulang per platform (total 15). Setiap set mencakup: 1 kutipan/tips, 1 promosi, 1 testimoni/bukti sosial, 1 di balik layar, dan 1 template interaksi/CTA. Semua template dapat diedit di Canva atau Figma dengan warna, font, dan logo merek Anda. Template disesuaikan dengan dimensi tiap platform (misalnya persegi untuk IG, lanskap untuk LinkedIn, vertikal untuk TikTok)."
+            },
+            {
+              "i": "Strategi hashtag & kata kunci",
+              "l": "Riset per platform berdasarkan industri dan kompetitor Anda. 5 set hashtag atau kata kunci per platform (total 15). Setiap set berisi 15 sampai 30 hashtag/kata kunci yang dikelompokkan menjadi: jangkauan luas, niche, bermerek, tren, dan berbasis lokasi. Diserahkan sebagai spreadsheet atau dokumen bersama dengan panduan penggunaan."
+            },
+            {
+              "i": "Konten peluncuran (total 18 posting)",
+              "l": "6 posting siap terbit per platform (total 18). Campuran grafis statis dan posting carousel. Setiap posting mencakup: grafis yang didesain, caption yang ditulis, hashtag relevan, dan rekomendasi waktu posting. Konten meliputi: perkenalan merek, sorotan layanan, testimoni/bukti, tips edukatif, di balik layar, dan interaksi/CTA."
+            },
+            {
+              "i": "Kalender konten 30 hari",
+              "l": "Kalender lengkap yang memetakan 30 hari ide posting dengan: jenis posting yang disarankan, topik, arahan caption, waktu posting optimal, dan set hashtag yang dipakai. Diserahkan sebagai Google Sheet atau template Notion yang bisa Anda pakai ulang dan sesuaikan setiap bulan."
+            },
+            {
+              "i": "Panduan platform (3 PDF)",
+              "l": "1 panduan PDF per platform yang membahas: waktu terbaik untuk posting, frekuensi ideal, jenis konten yang berhasil, tips hashtag, strategi interaksi, dan saran khusus algoritma. Disesuaikan dengan industri Anda."
+            },
+            {
+              "i": "Halaman link-in-bio",
+              "l": "1 halaman link-in-bio disiapkan di Linktree, Later, atau halaman yang dibangun khusus. Hingga 8 tautan dikonfigurasi (situs web, layanan, pemesanan, profil sosial, dan lainnya). Ditata sesuai warna dan logo merek Anda."
+            }
+          ],
+          "ov": [
+            "Platform tambahan: $500 per platform",
+            "Template tambahan: $75 per item",
+            "Posting peluncuran tambahan (6+): $50 per item",
+            "Putaran revisi: $175",
+            "Konten video: $175 per item",
+            "Halaman link-in-bio tambahan: $200"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 2 putaran revisi. Setelah penyerahan: $175/jam.",
+          "bridge": "Semua platform siap diluncurkan dengan 30 hari konten yang sudah terencana. Untuk terus bertumbuh, kami merekomendasikan paket Social Growth ($2,500/bulan) atau add-on per platform.",
+          "ideal": "Bisnis yang meluncurkan atau menyegarkan kehadiran sosialnya"
+        },
+        {
+          "name": "Rebranding Sosial Menyeluruh",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Perombakan total",
+          "tl": "2 sampai 3 minggu",
+          "scope": [
+            {
+              "i": "Platform (5 termasuk)",
+              "l": "5 platform: Instagram, LinkedIn, Facebook, TikTok, YouTube, X, dan/atau Pinterest. Audit penuh profil yang ada dilanjutkan dengan rebranding menyeluruh. Profil lama diperbarui di tempat (tanpa kehilangan pengikut atau riwayat)."
+            },
+            {
+              "i": "Audit media sosial",
+              "l": "Tinjauan rinci setiap profil yang ada: demografi pengikut, tingkat interaksi, konten berperforma terbaik, konsistensi posting, dan skor kelengkapan profil. Benchmarking terhadap 3 kompetitor pilihan Anda (atau rekomendasi kami). Analisis kesenjangan untuk mengidentifikasi peluang yang terlewat dalam konten, hashtag, interaksi, dan fitur platform. Diserahkan sebagai laporan audit tertulis (PDF, 3 sampai 5 halaman) dengan rekomendasi yang dapat ditindaklanjuti."
+            },
+            {
+              "i": "Perombakan profil (semua platform)",
+              "l": "Bio baru ditulis untuk setiap platform (dioptimalkan untuk pencarian dan konversi). Foto profil dan gambar sampul/banner baru didesain per platform. Semua CTA, info kontak, tautan, highlight, bagian unggulan, dan posting yang disematkan diperbarui. Konsistensi suara merek diterapkan di semua platform. Tag kategori, label industri, dan bagian tentang disegarkan."
+            },
+            {
+              "i": "Kit merek sosial lengkap",
+              "l": "10 template posting bermerek per platform (total 50 di 5 platform). Jenis template mencakup: kutipan, tips, promosi, testimoni, carousel, sebelum/sesudah, di balik layar, sorotan tim, pengumuman, dan posting interaksi. Template Story: 5 per platform untuk IG, Facebook, dan TikTok (bila tersedia). Ikon sampul highlight untuk Instagram (8 ikon kustom). Semua template diserahkan dalam Canva atau Figma, sepenuhnya dapat diedit dengan warna, font, dan logo merek Anda."
+            },
+            {
+              "i": "Strategi hashtag & SEO",
+              "l": "Riset mendalam per platform berdasarkan niche, audiens, dan kompetitor Anda. 10 set hashtag/kata kunci per platform (total 50). Dikelompokkan menjadi: jangkauan luas, niche, bermerek, tren, lokasi, dan kata kunci celah kompetitor. Analisis celah kompetitor yang menunjukkan hashtag dan kata kunci yang dipakai kompetitor tetapi belum Anda gunakan. Diserahkan sebagai spreadsheet bersama dengan panduan penggunaan dan jadwal rotasi."
+            },
+            {
+              "i": "Konten peluncuran (40 posting + 4 video)",
+              "l": "8 posting siap terbit per platform (total 40). Campuran grafis statis, carousel, dan posting berbasis teks. Hingga 4 video pendek (Reels, Shorts, atau TikTok). Kami mengedit dari footage yang Anda sediakan atau membuatnya dengan alat AI. Kami tidak melakukan pengambilan gambar. Setiap posting mencakup: grafis yang didesain, caption yang ditulis, hashtag, dan rekomendasi waktu posting."
+            },
+            {
+              "i": "Kalender konten 60 hari",
+              "l": "Kalender lengkap yang memetakan 60 hari konten di semua platform. Mencakup: tema mingguan/pilar konten, topik posting spesifik, arahan caption, set hashtag, waktu posting optimal, dan ruang untuk konten tren/reaktif. Diserahkan sebagai Google Sheet atau template Notion. Kerangka yang bisa Anda pakai ulang dan sesuaikan setiap bulan."
+            },
+            {
+              "i": "Halaman link-in-bio",
+              "l": "1 halaman link-in-bio yang didesain khusus (Linktree, Later, atau dibangun kustom). Hingga 12 tautan dikonfigurasi dan ditata sesuai merek sosial baru Anda. Termasuk pelacakan analitik jika platform mendukung."
+            },
+            {
+              "i": "Pengaturan YouTube (jika termasuk)",
+              "l": "Jika YouTube adalah salah satu dari 5 platform Anda: channel art (banner + foto profil) didesain. Template thumbnail default dibuat di Canva (dapat diedit untuk setiap video). Playlist yang ada dirapikan dan diberi judul untuk SEO. Bagian tentang ditulis ulang dengan kata kunci. Tag kanal dan pengaturan unggahan default dikonfigurasi untuk visibilitas pencarian."
+            },
+            {
+              "i": "Revisi",
+              "l": "2 putaran revisi untuk semua hasil kerja (aset visual, template, laporan audit, kalender). Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan dalam 5 hari kerja."
+            }
+          ],
+          "ov": [
+            "Platform tambahan: $400 per platform",
+            "Template tambahan: $60 per item",
+            "Posting peluncuran tambahan (8+): $45 per item",
+            "Video tambahan: $175 per item",
+            "Putaran revisi: $250",
+            "Video intro/outro YouTube: $600"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 2 putaran revisi. Setelah penyerahan: $175/jam.",
+          "bridge": "Seluruh kehadiran sosial Anda dibangun ulang dan siap diluncurkan dengan 60 hari konten. Untuk menjaga momentum, kami merekomendasikan Social Domination ($4,500/bulan) atau Social Growth ($2,500/bulan).",
+          "ideal": "Bisnis mapan dengan kehadiran sosial yang usang atau tidak konsisten"
+        }
+      ],
+      "monthly": [
+        {
+          "name": "Rawat & Pantau",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/bulan",
+          "tag": "Jaga semuanya tetap berjalan",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Pemeliharaan situs web",
+              "l": "Pembaruan plugin, framework, dan dependensi setiap bulan. Perbaikan bug untuk tautan rusak, masalah tata letak, dan kesalahan tampilan. Pemantauan dan optimasi kecepatan halaman (kompresi gambar, caching, lazy loading). Pemantauan uptime dengan peringatan. TIDAK termasuk pembuatan halaman baru, desain ulang halaman yang ada, atau penambahan fitur baru."
+            },
+            {
+              "i": "Pemantauan chatbot AI",
+              "l": "Pengecekan uptime dan akurasi respons setiap bulan. Hingga 10 pembaruan pasangan tanya-jawab per bulan (menambah pertanyaan baru, menyempurnakan jawaban, memperbaiki respons yang keliru). Pengujian penangkapan prospek dan pengiriman formulir. Ringkasan performa chatbot disertakan dalam laporan bulanan."
+            },
+            {
+              "i": "Laporan performa bulanan",
+              "l": "1 laporan dikirim via email paling lambat tanggal 5 setiap bulan, mencakup: trafik situs (sesi, pengguna, tayangan halaman), halaman berperforma terbaik, jumlah prospek dan rincian sumbernya, tingkat konversi, dan statistik interaksi chatbot. Diserahkan sebagai PDF atau tautan dasbor. Laporan dikirim, bukan dipresentasikan langsung. Panggilan langsung tersedia sebagai add-on."
+            },
+            {
+              "i": "Pembaruan desain (2 jam/bulan)",
+              "l": "2 jam pembaruan desain dan konten per bulan. Mencakup: perubahan teks, penggantian gambar, pembaruan tombol, penyesuaian tata letak kecil, dan penggantian banner. Jam yang tersisa hanya bisa dibawa ke bulan berikutnya (akumulasi maksimal: 4 jam). TIDAK termasuk desain halaman baru, pembangunan fitur, atau perubahan struktural. Waktu dicatat dan dilaporkan."
+            },
+            {
+              "i": "Pengelolaan pipeline CRM",
+              "l": "Tinjauan bulanan atas kesehatan pipeline GHL Anda: prospek yang macet, deal yang terbengkalai, dan kesalahan otomatisasi. 3 penyesuaian otomatisasi per bulan (misalnya memperbarui naskah email, mengubah waktu pemicu, memperbaiki rangkaian yang rusak). Kebersihan daftar kontak: penandaan duplikat dan penghapusan bounce (maksimal 500 kontak/bulan)."
+            },
+            {
+              "i": "Dukungan",
+              "l": "Dukungan hanya lewat teks dan email (tanpa telepon, tanpa panggilan langsung di tingkat ini). Waktu respons 48 jam pada hari kerja (Senin sampai Jumat, pukul 9 sampai 17). Hingga 10 permintaan dukungan per bulan. Setiap permintaan = 1 permintaan spesifik (bukan daftar perubahan). Permintaan di atas 10 ditagih $175/jam."
+            }
+          ],
+          "ov": [
+            "Desain di luar 2 jam: $175/jam",
+            "Halaman baru: $500",
+            "Panggilan langsung: $250/jam",
+            "Otomatisasi (3+): $250 per item",
+            "Darurat/hari yang sama: +50%"
+          ],
+          "ex": "Tanpa pengelolaan iklan, tanpa pembuatan konten, tanpa fitur baru, tanpa agen suara, tanpa media sosial. Memerlukan tingkat yang lebih tinggi.",
+          "ideal": "Ketenangan pikiran setelah peluncuran"
+        },
+        {
+          "name": "Mesin Pertumbuhan",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/bulan",
+          "tag": "Paling Populer",
+          "pop": true,
+          "com": "Minimal 6 bulan",
+          "scope": [
+            {
+              "i": "Semua yang ada di Rawat & Pantau",
+              "l": "Seluruh pemeliharaan situs, pemantauan AI, laporan bulanan, pengelolaan CRM, dan dukungan email. Batas dan aturan yang sama berlaku. Jam desain digantikan dengan 5 jam/bulan di bawah (tidak diakumulasi)."
+            },
+            {
+              "i": "Pengelolaan Google Ads",
+              "l": "2 kampanye Google Search aktif dikelola. Optimasi kata kunci, penyesuaian bid, dan pembaruan kata kunci negatif setiap bulan. 3 uji A/B per bulan (naskah iklan, elemen landing page, atau penargetan audiens). Tinjauan performa bulanan dengan analisis CPC, CTR, tingkat konversi, dan ROAS. Belanja iklan hingga $5,000/bulan dikelola di tingkat ini. Belanja iklan di atas $5K: tambahan $500/bulan per kelipatan $5K. Biaya iklan ditagih terpisah. Anda membayar langsung ke Google."
+            },
+            {
+              "i": "Pengelolaan Meta Ads",
+              "l": "2 kampanye Meta (Facebook/Instagram) aktif dikelola. 1 penyegaran kreatif per bulan: 3 materi iklan baru didesain (gambar statis atau carousel). 2 uji audiens baru per bulan. Pemeliharaan audiens retargeting dan pembaruan audiens lookalike. Tinjauan performa bulanan. Biaya iklan ditagih terpisah. Anda membayar langsung ke Meta."
+            },
+            {
+              "i": "Produksi konten berbantuan AI",
+              "l": "4 artikel blog per bulan (hingga 800 kata masing-masing, dioptimalkan untuk SEO dengan kata kunci, deskripsi meta, dan tautan internal). 12 posting media sosial per bulan (grafis yang didesain + caption dengan hashtag). 1 putaran revisi per konten (harus diminta dalam 3 hari kerja setelah penyerahan). Klien menyetujui kalender konten bulanan paling lambat tanggal 5 setiap bulan. Persetujuan terlambat = penyerahan tertunda tanpa jaminan tenggat."
+            },
+            {
+              "i": "Optimasi sistem AI",
+              "l": "Chatbot: 15 pembaruan pasangan tanya-jawab per bulan. Tinjauan tingkat konversi dan akurasi respons chatbot. Agen suara: 1 revisi skrip panggilan per bulan (menyesuaikan bahasa, alur, atau kriteria kualifikasi). Metrik performa AI disertakan dalam laporan bulanan. TIDAK termasuk pembangunan agen baru atau alur kerja otomatisasi baru."
+            },
+            {
+              "i": "Pembaruan strategi",
+              "l": "Video Loom rekaman bulanan yang mengulas performa, rekomendasi, dan langkah berikutnya (10 sampai 15 menit). Anda merespons lewat teks, email, atau pesan suara. Tidak perlu panggilan langsung. Pertanyaan dijawab dalam 1 hari kerja lewat teks atau email. 1 panggilan langsung opsional per bulan tersedia atas permintaan (maksimal 30 menit)."
+            },
+            {
+              "i": "Desain & pengembangan (5 jam/bulan)",
+              "l": "5 jam pekerjaan desain dan pengembangan per bulan. Mencakup: landing page baru, pembaruan halaman, penambahan fitur kecil, desain grafis untuk kampanye, atau kustomisasi template. Jam TIDAK bisa dibawa ke bulan berikutnya. Pakai atau hangus. Desain ulang halaman penuh atau pembangunan fitur besar di-scope dan ditawar terpisah. Waktu dicatat dan dilaporkan setiap bulan."
+            }
+          ],
+          "ov": [
+            "Desain di luar 5 jam: $175/jam",
+            "Belanja iklan >$5K: +$500/bulan per kelipatan $5K",
+            "Blog: $250 per artikel",
+            "Posting sosial (12+): $60 per item",
+            "Penyegaran kreatif: $500",
+            "Panggilan langsung tambahan: $250/jam",
+            "Agen AI baru: $2,500",
+            "Darurat: +50%"
+          ],
+          "ex": "Tanpa CMO fraksional, tanpa iklan tak terbatas, tanpa penyegaran merek, tanpa produksi video, tanpa pengelolaan sosial khusus. Memerlukan tingkat lebih tinggi atau add-on Sosial.",
+          "ideal": "Bisnis yang aktif meningkatkan pendapatan"
+        },
+        {
+          "name": "Kemitraan Penuh",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/bulan",
+          "tag": "CMO Fraksional + Tim",
+          "com": "Minimal 6 bulan",
+          "scope": [
+            {
+              "i": "Semua yang ada di Mesin Pertumbuhan",
+              "l": "Seluruh pemeliharaan situs, pemantauan AI, laporan, pengelolaan CRM, pengelolaan iklan Google + Meta, produksi konten AI, optimasi AI, pembaruan strategi, dan dukungan email, dengan batas yang diperluas seperti tercantum di bawah. Jam desain dan pembaruan strategi digantikan dengan versi yang diperluas di bawah (tidak diakumulasi)."
+            },
+            {
+              "i": "Strategist khusus",
+              "l": "Kontak utama yang ditunjuk dan memahami bisnis, tujuan, dan merek Anda. Tersedia lewat teks atau email Senin sampai Jumat, pukul 9 sampai 17 (zona waktu Anda). Tidak tersedia 24/7, akhir pekan, atau hari libur. Mengelola semua hasil kerja, mengoordinasikan tim, dan proaktif memberi rekomendasi lewat Loom, email, atau teks. Merespons dalam 4 jam kerja pada hari kerja."
+            },
+            {
+              "i": "Pengelolaan iklan (diperluas)",
+              "l": "Kampanye aktif tak terbatas di Google dan Meta. Strategi full-funnel: kampanye awareness, pertimbangan, dan konversi. Penyegaran kreatif bulanan, pengujian audiens, optimasi bid, dan realokasi anggaran. Belanja iklan hingga $20,000/bulan dikelola. Belanja iklan di atas $20K memerlukan harga khusus. Laporan performa iklan bulanan dengan analisis ROAS, CPA, dan efisiensi anggaran. Biaya iklan ditagih terpisah."
+            },
+            {
+              "i": "Pengelolaan ekosistem AI",
+              "l": "5 agen AI aktif dikelola dan dioptimalkan (chatbot, agen suara, agen email, agen SMS). 2 pembangunan alur kerja otomatisasi baru per bulan (misalnya rangkaian prospek baru, alur upsell, kampanye re-engagement). Tinjauan performa agen bulanan: akurasi respons, tingkat penyelesaian, durasi panggilan, dan konversi prospek. Pelatihan ulang agen dan pembaruan skrip sesuai kebutuhan dalam lingkup."
+            },
+            {
+              "i": "Sistem konten (diperluas)",
+              "l": "8 artikel blog per bulan (hingga 1.000 kata masing-masing, dioptimalkan untuk SEO). 20 posting media sosial per bulan (grafis yang didesain + caption dengan hashtag dan CTA). 4 klip video pendek per bulan (Reels, Shorts, atau TikTok), diedit dari footage yang Anda sediakan atau dibuat dengan alat AI. Kami mengedit, kami tidak mengambil gambar. 1 putaran revisi per konten. Kalender konten diserahkan paling lambat tanggal 1 setiap bulan untuk persetujuan Anda."
+            },
+            {
+              "i": "Rapat strategi bulanan + pembaruan mingguan",
+              "l": "1 rapat strategi langsung per bulan (maksimal 60 menit). Pembaruan mingguan dikirim lewat video Loom atau ringkasan tertulis yang mencakup: tinjauan performa, prioritas mendatang, penyesuaian kampanye, dan rekomendasi strategis. Anda merespons lewat teks, email, atau pesan suara. Komunikasi harian seluruhnya lewat teks dan email. Tanpa panggilan dadakan."
+            },
+            {
+              "i": "Desain & pengembangan (15 jam/bulan)",
+              "l": "15 jam pekerjaan desain dan pengembangan per bulan. Mencakup: funnel baru, landing page, desain ulang halaman, pembangunan fitur, desain grafis, desain template email, atau desain presentasi. Jam yang tersisa hanya bisa dibawa ke bulan berikutnya (akumulasi maksimal: 30 jam). Desain ulang situs penuh atau pengembangan aplikasi di-scope dan ditawar terpisah. Waktu dicatat dan dilaporkan setiap bulan."
+            },
+            {
+              "i": "Penyegaran merek triwulanan",
+              "l": "1 penyegaran merek per kuartal (setiap 3 bulan). Mencakup 5 aset kreatif baru: template sosial yang diperbarui, materi iklan musiman, header email yang disegarkan, atau grafis promosi baru. TIDAK termasuk rebranding penuh (logo baru, panduan baru, sistem merek baru). Rebranding penuh ditawar terpisah mulai dari $6,000+."
+            }
+          ],
+          "ov": [
+            "Desain di luar 15 jam: $175/jam",
+            "Belanja iklan >$20K: harga khusus",
+            "Blog: $250 per artikel",
+            "Klip video (4+): $300 per klip",
+            "Pengambilan gambar: terpisah",
+            "Rebranding penuh: $6K+ terpisah",
+            "Agen AI: $2,500 per agen",
+            "Akhir pekan/di luar jam kerja: +75%"
+          ],
+          "ex": "Tanpa acara tatap muka, tanpa PR/outreach media, tanpa pengambilan gambar video (hanya edit), tanpa pengembangan aplikasi. Ditawar terpisah.",
+          "ideal": "Bisnis yang berinvestasi $5K+/bulan untuk iklan"
+        }
+      ],
+      "social": [
+        {
+          "name": "Social Starter",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/bulan",
+          "tag": "1 sampai 2 Platform",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Platform (2 termasuk)",
+              "l": "Pilih 2 platform dari: Instagram, LinkedIn, Facebook, TikTok, YouTube, atau X. Kami mengelola posting, penjadwalan, dan interaksi dasar di keduanya."
+            },
+            {
+              "i": "Pembuatan konten (16 posting/bulan)",
+              "l": "8 posting per platform (total 16 per bulan). Semua berupa grafis statis dengan caption yang ditulis dan hashtag relevan. Tanpa produksi video di tingkat ini. Jenis konten: tips, promosi, testimoni, kutipan, dan posting interaksi. Grafis didesain dengan gaya merek Anda memakai warna, font, dan logo Anda."
+            },
+            {
+              "i": "Penjadwalan & publikasi",
+              "l": "Kami membuat kalender konten bulanan, menjadwalkan semua posting, dan mempublikasikannya di waktu optimal untuk audiens Anda. Klien harus menyetujui kalender konten paling lambat tanggal 3 setiap bulan. Persetujuan terlambat = posting mungkin tidak tayang sesuai jadwal yang direncanakan."
+            },
+            {
+              "i": "Interaksi dasar",
+              "l": "Hingga 30 menit per hari (hanya hari kerja, Senin sampai Jumat). Mencakup: membalas komentar dan pesan langsung, menyukai komentar yang relevan, dan menandai masalah atau umpan balik negatif untuk Anda tinjau. TIDAK termasuk outreach proaktif atau pembangunan komunitas."
+            },
+            {
+              "i": "Laporan bulanan",
+              "l": "1 laporan dikirim via email paling lambat tanggal 5 setiap bulan. Mencakup: pertumbuhan pengikut, jangkauan posting, tingkat interaksi (suka, komentar, bagikan), posting berperforma terbaik, dan rekomendasi untuk bulan berikutnya. Diserahkan sebagai PDF. Tidak dipresentasikan langsung."
+            },
+            {
+              "i": "Revisi konten",
+              "l": "1 putaran revisi per batch konten bulanan. Semua permintaan revisi harus dikirim sebagai satu dokumen terkonsolidasi dalam 3 hari kerja setelah kalender konten diserahkan."
+            },
+            {
+              "i": "Strategi hashtag",
+              "l": "Riset hashtag awal untuk kedua platform saat onboarding (3 set berisi 15 sampai 30 hashtag masing-masing). Diperbarui sekali per kuartal. Set dikelompokkan menjadi: jangkauan luas, niche, dan hashtag bermerek/lokal."
+            }
+          ],
+          "ov": [
+            "Platform tambahan: $400/bulan",
+            "Posting tambahan (8+): $60 per item",
+            "Video reel/short: $175 per item",
+            "Putaran revisi tambahan: $175",
+            "Pembuatan Story: $30/story"
+          ],
+          "ex": "Tanpa produksi video, tanpa iklan sosial berbayar, tanpa outreach influencer, tanpa pembangunan komunitas di luar interaksi dasar. Ini memerlukan Social Growth atau add-on.",
+          "ideal": "Bisnis yang butuh kehadiran konsisten di 1 sampai 2 kanal"
+        },
+        {
+          "name": "Social Growth",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/bulan",
+          "tag": "Paling Populer",
+          "pop": true,
+          "com": "Minimal 6 bulan",
+          "scope": [
+            {
+              "i": "Platform (4 termasuk)",
+              "l": "Pilih 4 platform: Instagram, LinkedIn, Facebook, TikTok, YouTube, atau X. Kami mengelola pembuatan konten, penjadwalan, publikasi, dan interaksi aktif di semuanya."
+            },
+            {
+              "i": "Pembuatan konten (48 posting + 4 video/bulan)",
+              "l": "12 posting per platform (total 48 per bulan). Campuran grafis statis, posting carousel (hingga 5 slide masing-masing), dan posting berbasis teks. 4 video pendek per bulan (Reels, Shorts, atau TikTok) didistribusikan ke platform Anda. Kami mengedit video dari footage yang Anda sediakan atau membuatnya dengan alat video AI. Kami tidak mengambil gambar. Semua grafis didesain dengan gaya merek Anda, lengkap dengan caption, hashtag, dan CTA."
+            },
+            {
+              "i": "Penjadwalan & publikasi",
+              "l": "Kalender konten lengkap dibuat setiap bulan dengan topik posting, format, caption, dan waktu posting. Klien harus menyetujui kalender paling lambat tanggal 3 setiap bulan. Kami menangani seluruh penjadwalan dan publikasi di waktu optimal per platform. Persetujuan terlambat = penyerahan tertunda tanpa jaminan jadwal posting awal."
+            },
+            {
+              "i": "Interaksi aktif",
+              "l": "Hingga 1 jam per hari (hari kerja, Senin sampai Jumat). Mencakup: membalas semua komentar dan DM, menyukai dan membalas mention, serta interaksi proaktif dengan akun relevan di industri Anda (30 menit/hari untuk menyukai, berkomentar, mengikuti). Pemantauan merek untuk mention dan tag. Komentar negatif atau masalah PR segera ditandai ke Anda."
+            },
+            {
+              "i": "Pelaporan & strategi",
+              "l": "Laporan bulanan (diserahkan paling lambat tanggal 5) mencakup: pertumbuhan pengikut, jangkauan, tingkat interaksi, posting terbaik, dan demografi audiens. 1 video Loom bulanan berisi tinjauan performa, rekomendasi konten, dan peluang tren. Anda merespons lewat teks atau email. 1 panggilan langsung opsional per bulan tersedia atas permintaan (maksimal 30 menit)."
+            },
+            {
+              "i": "Produksi video",
+              "l": "4 video pendek per bulan. Setiap video: hingga 60 detik, diedit dengan caption, transisi, musik (bebas royalti), dan grafis merek. Kami mengedit dari footage mentah yang Anda sediakan (klip ponsel, rekaman layar, wawancara) atau membuatnya dengan alat AI. Kami tidak mengambil gambar video atau menyediakan produksi di lokasi."
+            },
+            {
+              "i": "Revisi konten",
+              "l": "2 putaran revisi per batch konten bulanan. Semua masukan dikirim sebagai satu dokumen terkonsolidasi dalam 3 hari kerja setelah penyerahan."
+            },
+            {
+              "i": "Strategi konten bulanan",
+              "l": "Pilar konten bulanan ditetapkan (3 sampai 5 tema yang memandu seluruh konten). Pemantauan tren dan rekomendasi untuk posting tepat waktu/reaktif. Strategi hashtag dipelihara dan diperbarui setiap bulan di semua platform."
+            }
+          ],
+          "ov": [
+            "Platform tambahan: $400/bulan",
+            "Posting tambahan (12+): $50 per item",
+            "Video tambahan: $175 per item",
+            "Pengambilan gambar video: ditawar terpisah",
+            "Panggilan langsung tambahan: $250/jam",
+            "Outreach influencer: add-on $600/bulan",
+            "Pembuatan Story: $25/story"
+          ],
+          "ex": "Tanpa pengambilan gambar video, tanpa pengelolaan iklan berbayar (tambahkan iklan Google/Meta dari paket utama), tanpa negosiasi kontrak influencer. Ditawar terpisah.",
+          "ideal": "Bisnis yang serius menumbuhkan audiens dan interaksi"
+        },
+        {
+          "name": "Social Domination",
+          "price": 4500,
+          "disp": "$4,500",
+          "per": "/bulan",
+          "tag": "Layanan sosial lengkap",
+          "com": "Minimal 6 bulan",
+          "scope": [
+            {
+              "i": "Platform (6 termasuk)",
+              "l": "Cakupan penuh di 6 platform: Instagram, LinkedIn, Facebook, TikTok, YouTube, dan X. Seluruh pembuatan konten, penjadwalan, publikasi, pengelolaan komunitas, dan strategi kami tangani untuk Anda."
+            },
+            {
+              "i": "Pembuatan konten (120 posting + 8 video/bulan)",
+              "l": "20 posting per platform (total 120 per bulan). Campuran grafis statis, carousel, story, posting teks, dan polling. 8 video pendek per bulan (Reels, Shorts, TikTok) didistribusikan ke berbagai platform. Semua grafis dengan gaya merek Anda, lengkap dengan caption, hashtag, dan CTA. Konten Story untuk Instagram, Facebook, dan TikTok bila tersedia."
+            },
+            {
+              "i": "Pengelolaan YouTube",
+              "l": "2 video YouTube berdurasi panjang per bulan (hanya edit, dari footage yang Anda sediakan atau daur ulang konten yang sudah ada). Thumbnail kustom didesain untuk setiap video. Judul, deskripsi, dan tag yang dioptimalkan untuk SEO. Pengaturan playlist serta konfigurasi end screen/kartu. Kami mengedit dan mengoptimalkan. Kami tidak menulis naskah, mengambil gambar, atau memproduksi footage orisinal."
+            },
+            {
+              "i": "Pengelolaan komunitas penuh",
+              "l": "2 jam per hari, Senin sampai Jumat. Mencakup: membalas semua komentar, DM, dan mention di semua platform. Outreach proaktif: berinteraksi dengan akun relevan, hashtag industri, dan calon pelanggan. Pemantauan merek: melacak mention, tag, dan percakapan relevan. Penandaan sentimen: umpan balik negatif atau kekhawatiran PR segera dieskalasi ke Anda. Ringkasan interaksi mingguan disertakan dalam pelaporan."
+            },
+            {
+              "i": "Pelaporan & strategi",
+              "l": "Snapshot analitik mingguan dikirim via email setiap Senin (metrik utama di semua platform). Laporan mendalam bulanan (diserahkan paling lambat tanggal 5): pertumbuhan pengikut, tingkat interaksi, jangkauan, impresi, konten terbaik, demografi audiens, dan benchmarking kompetitor. Video Loom bulanan yang membahas: tinjauan performa, kampanye mendatang, arah konten, dan peluang pertumbuhan. Anda merespons lewat teks atau email. 1 panggilan langsung opsional per bulan atas permintaan (maksimal 30 menit)."
+            },
+            {
+              "i": "Produksi video (8 pendek + 2 panjang/bulan)",
+              "l": "8 video pendek (hingga 60 detik masing-masing) dengan caption, transisi, musik bebas royalti, dan grafis merek. 2 video YouTube panjang (hingga 10 menit masing-masing, diedit dari footage mentah). Kami mengedit. Kami tidak mengambil gambar. Anda menyediakan footage mentah (klip ponsel, wawancara, rekaman layar, presentasi) atau kami membuatnya dengan alat video AI. Editing kelas profesional dengan intro/outro bermerek jika Anda memilikinya."
+            },
+            {
+              "i": "Revisi konten",
+              "l": "2 putaran revisi per batch konten bulanan. Semua masukan dikirim sebagai dokumen terkonsolidasi dalam 3 hari kerja."
+            },
+            {
+              "i": "Strategi sosial triwulanan",
+              "l": "Penyegaran strategi media sosial menyeluruh setiap kuartal. Mencakup: pembaruan pilar konten, analisis tren, audit kompetitor (3 kompetitor), peta jalan pertumbuhan audiens, dan rekomendasi khusus platform. Dokumen strategi diserahkan sebagai PDF atau slide deck (hingga 10 halaman). Pilar konten bulanan dan pemantauan tren berjalan terus di antara kuartal."
+            },
+            {
+              "i": "Koordinasi influencer",
+              "l": "Outreach ke 5 mikro-influencer per bulan. Kami meriset, mengidentifikasi, dan menghubungi calon mitra di niche Anda. Kami menangani negosiasi syarat kolaborasi (produk hadiah, posting berbayar, atau pertukaran konten). Anda menyetujui semua kesepakatan akhir sebelum perjanjian dibuat. Kami menyediakan template brief influencer dan mengelola komunikasi hingga kesepakatan tercapai. TIDAK termasuk pembayaran influencer. Itu biaya Anda, terpisah dari retainer ini."
+            }
+          ],
+          "ov": [
+            "Platform tambahan: $400/bulan",
+            "Posting tambahan (20+): $40 per item",
+            "Video panjang tambahan: $500 per video",
+            "Pengambilan gambar video: ditawar terpisah",
+            "Influencer di atas 5: $125/outreach",
+            "Pengelolaan iklan berbayar: tambahkan dari paket utama",
+            "Panggilan langsung tambahan: $250/jam",
+            "Konten akhir pekan: +50%"
+          ],
+          "ex": "Tanpa pengambilan gambar/produksi video (hanya edit), tanpa pengelolaan iklan berbayar (tambahkan terpisah), tanpa PR/outreach pers. Ditawar terpisah.",
+          "ideal": "Merek yang ingin mendominasi sosial di semua kanal"
+        }
+      ],
+      "customBuild": [
+        {
+          "name": "Discovery & Scoping",
+          "price": 2500,
+          "disp": "$2,500",
+          "tag": "Langkah pertama yang wajib",
+          "tl": "1 sampai 2 minggu",
+          "scope": [
+            {
+              "i": "Kuesioner awal + workshop rekaman",
+              "l": "Kuesioner intake rinci yang mencakup: tujuan bisnis, jenis dan peran pengguna, fitur inti, yang wajib vs. yang sekadar bagus ada, integrasi (pembayaran, CRM, email, API), dan ekspektasi waktu. Kami meninjau jawaban Anda dan menyerahkan rekaman Loom berisi pemahaman kami serta pertanyaan lanjutan. Anda merespons lewat teks, email, atau pesan suara. 1 panggilan langsung opsional tersedia bila diperlukan (maksimal 60 menit)."
+            },
+            {
+              "i": "Pemetaan alur pengguna",
+              "l": "Diagram visual yang menunjukkan bagaimana setiap jenis pengguna bergerak dalam sistem. Contoh: penyewa login → mengajukan permintaan perbaikan → pengelola properti mendapat notifikasi → menugaskan vendor → penyewa menerima pembaruan. Mencakup semua perjalanan pengguna inti (5 alur). Diserahkan sebagai papan FigJam atau Miro."
+            },
+            {
+              "i": "Dokumen arsitektur teknis",
+              "l": "Uraian tertulis tentang tech stack yang diusulkan, struktur basis data, hosting, integrasi pihak ketiga, dan rencana deployment. Termasuk rekomendasi keputusan bangun sendiri vs. beli (misalnya pemrosesan pembayaran kustom vs. Stripe, autentikasi kustom vs. Clerk). Mengidentifikasi risiko dan dependensi teknis."
+            },
+            {
+              "i": "Wireframe (10 layar)",
+              "l": "Wireframe low-fidelity untuk 10 layar utama yang menunjukkan tata letak, navigasi, dan hierarki konten. Bukan desain pixel-perfect. Berfokus pada struktur dan pengalaman pengguna. Diserahkan dalam Figma. 1 putaran revisi."
+            },
+            {
+              "i": "Dokumen Scope of Work",
+              "l": "SOW rinci berisi: setiap fitur didaftar dan dijelaskan, pembagian fase (apa yang rilis kapan), estimasi waktu per fase, penawaran harga tetap untuk pembangunan penuh, asumsi, pengecualian, dan kebijakan change order. Dokumen ini menjadi dasar kontrak."
+            },
+            {
+              "i": "Penawaran harga tetap",
+              "l": "Berdasarkan hasil discovery, kami memberikan penawaran harga tetap yang pasti untuk pembangunan penuh. Tanpa kejutan tarif per jam. Jika lingkup proyek berubah setelah penandatanganan, kami memakai proses change order dengan tarif yang sudah disetujui sebelumnya."
+            }
+          ],
+          "ov": [
+            "Layar wireframe tambahan: $250 per layar",
+            "Diagram alur pengguna tambahan: $300 per diagram",
+            "Add-on analisis kompetitif: $750 (audit 3 produk kompetitor)",
+            "Perpanjangan discovery di atas 2 minggu: $1,200/minggu"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat penyerahan (jatuh tempo 7 hari). Biaya discovery dikreditkan ke pembangunan penuh jika Anda melanjutkan dalam 30 hari setelah penyerahan. Jika tidak melanjutkan, semua hasil kerja (wireframe, SOW, dokumen arsitektur) menjadi milik Anda dan bisa dipakai bersama developer mana pun.",
+          "ideal": "Siapa pun yang mempertimbangkan pembangunan kustom. Ini langkah pertama."
+        },
+        {
+          "name": "Standard Build",
+          "price": 25000,
+          "disp": "$25,000",
+          "tag": "Paling umum",
+          "pop": true,
+          "tl": "6 sampai 12 minggu",
+          "scope": [
+            {
+              "i": "Desain UI/UX lengkap",
+              "l": "Desain antarmuka lengkap di Figma untuk semua layar (biasanya 15 sampai 30 layar tergantung kompleksitas). Mencakup: tata letak responsif untuk desktop dan mobile, pustaka komponen, sistem desain dengan warna/font/spasi merek Anda, dan prototipe interaktif untuk tinjauan pemangku kepentingan. 2 putaran revisi desain sebelum pengembangan dimulai."
+            },
+            {
+              "i": "Pengembangan frontend",
+              "l": "Dibangun dengan Next.js (React) dan TypeScript. Sepenuhnya responsif di desktop, tablet, dan mobile. Server-side rendering untuk performa dan SEO bila relevan. Codebase yang bersih dan mudah dirawat dengan arsitektur komponen. Termasuk loading state, penanganan error, empty state, dan validasi formulir pada semua elemen interaktif."
+            },
+            {
+              "i": "Pengembangan backend",
+              "l": "API RESTful atau GraphQL dibangun dengan Node.js. Desain dan implementasi basis data (PostgreSQL atau MongoDB sesuai kebutuhan proyek). Autentikasi pengguna dan kontrol akses berbasis peran (misalnya admin, manajer, penyewa, vendor). Validasi data, penanganan error, dan dokumentasi API. Penanganan unggah file bila diperlukan (gambar, dokumen, hingga 10MB per file)."
+            },
+            {
+              "i": "Fitur inti",
+              "l": "Lingkup ditetapkan dalam SOW Discovery. Standard Build biasanya mencakup: registrasi dan login pengguna, dasbor berbasis peran, operasi CRUD untuk data inti (misalnya properti, penyewa, permintaan), pencarian dan filter, sistem notifikasi (email dan/atau in-app), serta pelaporan/analitik dasar. Fitur di luar SOW memerlukan change order."
+            },
+            {
+              "i": "Integrasi pihak ketiga (3 termasuk)",
+              "l": "3 integrasi dengan layanan eksternal. Contoh umum: Stripe (pembayaran), Twilio (SMS/suara), SendGrid (email), Google Maps, Calendly, QuickBooks, Zapier, atau layanan apa pun dengan REST API terdokumentasi. Setiap integrasi mencakup: pengaturan, pemetaan data, penanganan error, dan pengujian. Integrasi kompleks (misalnya ERP kustom, sistem lama tanpa API modern) ditawar terpisah."
+            },
+            {
+              "i": "Hosting & deployment",
+              "l": "Di-deploy ke produksi di Vercel (frontend) dan Railway, Render, atau AWS (backend). Pipeline CI/CD dikonfigurasi untuk deployment otomatis dari GitHub. Sertifikat SSL, pengaturan domain kustom, dan konfigurasi DNS. Pengelolaan environment variable dan secret. Lingkungan staging termasuk untuk pengujian sebelum rilis produksi."
+            },
+            {
+              "i": "Pengujian & QA",
+              "l": "Pengujian manual di Chrome, Safari, Firefox, dan Edge. Pengujian mobile di iOS Safari dan Android Chrome. Semua alur pengguna inti diuji end-to-end. Perbaikan bug selama pengembangan sudah termasuk. Perbaikan bug pasca peluncuran ditanggung selama 30 hari (lihat ketentuan serah terima di bawah)."
+            },
+            {
+              "i": "Dokumentasi",
+              "l": "Dokumentasi teknis: endpoint API, skema basis data, panduan pengaturan environment, dan instruksi deployment. Dokumentasi pengguna: panduan cara pakai untuk pengguna admin yang mencakup semua fitur inti (diserahkan sebagai PDF atau halaman Notion, hingga 10 halaman). Codebase diberi komentar dan dirapikan untuk developer di masa depan."
+            },
+            {
+              "i": "Revisi",
+              "l": "2 putaran revisi desain sebelum pengembangan. Selama pengembangan, masukan ditangani lewat papan tugas bersama (Linear atau GitHub Issues). Pasca pengembangan: 1 putaran revisi pada produk akhir sebelum peluncuran. Perubahan lingkup selama pengembangan memerlukan change order dengan tarif yang disetujui sebelumnya ($200/jam)."
+            }
+          ],
+          "ov": [
+            "Integrasi tambahan: $3,000 per integrasi",
+            "Layar tambahan di luar SOW: $800/layar",
+            "Change order selama pengembangan: $200/jam",
+            "Peran pengguna tambahan: $2,000 per peran",
+            "Dasbor pelaporan/analitik lanjutan: $5,000",
+            "Aplikasi mobile native (iOS atau Android): lihat tingkat Enterprise Build"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 25% di titik tengah proyek, 25% sisanya saat selesai (jatuh tempo 7 hari). Termasuk perbaikan bug 30 hari pasca peluncuran (hanya untuk masalah pada fitur dalam SOW awal). Setelah 30 hari, dukungan berkelanjutan beralih ke retainer pemeliharaan. Semua kode milik Anda. Kepemilikan penuh atas codebase, file desain, dan dokumentasi dialihkan saat proyek selesai.",
+          "bridge": "Platform Anda sudah live dan stabil. Agar tetap berjalan, aman, dan berkembang, kami merekomendasikan retainer Dev Support ($1,500/bulan) atau Bank Jam ($2,500/bulan untuk 10 jam).",
+          "ideal": "Portal, dasbor, alat internal, dan MVP SaaS"
+        },
+        {
+          "name": "Enterprise Build",
+          "price": 75000,
+          "disp": "$75,000+",
+          "tag": "Sistem kompleks",
+          "tl": "12 sampai 24 minggu",
+          "scope": [
+            {
+              "i": "Semua yang ada di Standard Build (diperluas)",
+              "l": "Seluruh desain, frontend, backend, integrasi, hosting, pengujian, dan dokumentasi dari Standard Build, dengan lingkup yang diperluas untuk sistem yang lebih besar dan kompleks. Biasanya 30 sampai 60+ layar, banyak peran pengguna, dan logika bisnis yang kompleks."
+            },
+            {
+              "i": "Arsitektur lanjutan",
+              "l": "Arsitektur microservices atau modular monolith untuk skalabilitas. Message queue (Redis, RabbitMQ) untuk pemrosesan asinkron bila dibutuhkan. Lapisan caching untuk endpoint bertrafik tinggi. Optimasi basis data: indexing, optimasi query, dan connection pooling. Infrastruktur dirancang untuk menangani 10.000+ pengguna bersamaan."
+            },
+            {
+              "i": "Fitur berbasis AI",
+              "l": "Agen AI atau otomatisasi kustom yang dibangun ke dalam platform. Contoh: pencarian berbasis AI, pemrosesan bahasa alami untuk tiket dukungan, analitik prediktif, kategorisasi otomatis, rekomendasi cerdas, atau chatbot AI yang dilatih dengan data platform Anda. Mencakup: pemilihan model, prompt engineering, integrasi API, dan pengujian. Memakai OpenAI, Anthropic, atau model open-source sesuai kebutuhan."
+            },
+            {
+              "i": "Aplikasi mobile (jika termasuk)",
+              "l": "Aplikasi mobile lintas platform yang dibangun dengan React Native. Codebase bersama untuk iOS dan Android. Notifikasi push, dukungan offline, dan fitur perangkat native (kamera, GPS, biometrik). Pengajuan ke App Store dan Google Play kami tangani (Anda menyediakan akun developer). Biasanya 15 sampai 25 layar yang mencerminkan fungsi inti aplikasi web."
+            },
+            {
+              "i": "Integrasi (6 termasuk)",
+              "l": "6 integrasi pihak ketiga. Termasuk integrasi kompleks: pemrosesan pembayaran dengan pembayaran multi-pihak (Stripe Connect), sinkronisasi akuntansi (QuickBooks, Xero), API pengelolaan properti, feed MLS, API pemerintah/kepatuhan, atau sistem webhook kustom. Integrasi sistem lama ditawar terpisah berdasarkan kualitas dokumentasi API."
+            },
+            {
+              "i": "Keamanan & kepatuhan lanjutan",
+              "l": "Kontrol akses berbasis peran dengan izin granular (misalnya akses tingkat properti, tingkat unit). Enkripsi data saat tersimpan dan saat transit. Audit log untuk tindakan sensitif. Fitur kepatuhan GDPR/CCPA bila diperlukan (ekspor data, permintaan penghapusan). Koordinasi penetration testing (pen test pihak ketiga direkomendasikan, tidak termasuk dalam harga)."
+            },
+            {
+              "i": "Arsitektur multi-tenant",
+              "l": "Jika membangun SaaS: arsitektur basis data multi-tenant penuh sehingga data setiap klien terisolasi. Konfigurasi, branding, dan feature flag khusus per tenant. Super-panel admin untuk mengelola semua tenant. Pelacakan penggunaan dan integrasi penagihan bila diperlukan."
+            },
+            {
+              "i": "Penyerahan bertahap",
+              "l": "Proyek diserahkan dalam beberapa fase (biasanya 3 atau 4 fase). Setiap fase memiliki hasil kerja, pengujian, dan persetujuan sendiri. Fase 1 biasanya MVP inti (diluncurkan ke produksi). Fase berikutnya menambah fitur secara bertahap. Setiap fase memiliki jadwal dan daftar hasil kerja yang ditetapkan dalam SOW."
+            },
+            {
+              "i": "Revisi & pengelolaan perubahan",
+              "l": "2 putaran revisi desain per fase. Masukan dikelola lewat papan tugas bersama (Linear atau GitHub Issues). Change order untuk penambahan lingkup: $200/jam dengan persetujuan tertulis sebelum pekerjaan dimulai. Pembaruan status mingguan lewat video Loom atau ringkasan tertulis. Video demo rekaman dua mingguan atas pekerjaan yang selesai. Anda meninjau dan merespons sesuai waktu Anda. 1 panggilan langsung opsional per bulan bila diperlukan."
+            }
+          ],
+          "ov": [
+            "Integrasi tambahan: $5,000 per integrasi",
+            "Aplikasi mobile native (jika belum termasuk): $30,000",
+            "Penambahan fitur AI: $10,000 per fitur",
+            "Fase tambahan: di-scope dan ditawar satu per satu",
+            "Koordinasi pen test pihak ketiga: $5,000",
+            "Add-on white-label/multi-tenant (jika belum termasuk): $15,000"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 25% di titik tengah proyek, 25% sisanya saat selesai (jatuh tempo 7 hari). Termasuk perbaikan bug 45 hari pasca peluncuran per fase. Semua kode, file desain, dan dokumentasi dialihkan kepada Anda saat selesai. Kepemilikan penuh atas codebase. Setelah 45 hari, dukungan berkelanjutan beralih ke retainer pemeliharaan.",
+          "bridge": "Sistem kompleks membutuhkan pengembangan, pemantauan, dan optimasi berkelanjutan. Kami merekomendasikan retainer Pengembangan Aktif ($7,500/bulan) agar platform Anda terus berkembang bersama bisnis Anda.",
+          "ideal": "Platform SaaS, sistem multi-tenant, produk terintegrasi AI, dan alat enterprise"
+        }
+      ],
+      "aiAgents": [
+        {
+          "name": "Pembangunan Satu Agen",
+          "price": 5000,
+          "disp": "$5,000",
+          "tag": "Satu agen yang andal",
+          "tl": "1 sampai 2 minggu",
+          "scope": [
+            {
+              "i": "Agen AI kustom (1)",
+              "l": "Satu agen AI yang dirancang, dilatih, dan di-deploy khusus untuk bisnis Anda. Pilih dari: agen suara, agen email, agen web scraping, agen pembuatan PDF, chatbot dukungan pelanggan, agen kualifikasi prospek, agen pemrosesan data, agen pemesanan janji temu, atau kasus penggunaan kustom lainnya. Agen disesuaikan dengan alur kerja, suara merek, dan sumber data spesifik Anda."
+            },
+            {
+              "i": "Pelatihan & konfigurasi agen",
+              "l": "Kami mengonfigurasi perilaku, logika keputusan, dan pola respons agen berdasarkan kebutuhan Anda. Mencakup: hingga 50 titik data pelatihan (pasangan tanya-jawab, skrip, atau contoh alur kerja). Penanganan fallback dan respons error kustom. Integrasi dengan 1 sistem eksternal (CRM, email, kalender, basis data, atau API)."
+            },
+            {
+              "i": "Pengujian & deployment",
+              "l": "Pengujian end-to-end penuh untuk semua kasus penggunaan yang diharapkan. Penanganan edge case dan stress testing. Di-deploy ke infrastruktur Anda atau hosting terkelola kami. Termasuk lingkungan staging untuk Anda tinjau sebelum live."
+            },
+            {
+              "i": "Keamanan kunci API",
+              "l": "Semua kunci API dan kredensial disimpan dengan aman menggunakan environment variable terenkripsi. Tidak pernah ditulis langsung di kode atau terekspos di source code. Kunci disuntikkan saat runtime melalui secrets manager penyedia hosting Anda (Vercel, AWS, dan lainnya). Akses dibatasi hanya untuk lingkungan eksekusi agen. Kami tidak pernah menyimpan atau menahan kunci API Anda setelah deployment. Anda memegang kepemilikan dan kendali penuh atas semua kredensial setiap saat."
+            },
+            {
+              "i": "Dokumentasi & serah terima",
+              "l": "Dokumentasi perilaku agen: apa yang dilakukannya, cara kerjanya, dan cara memperbaruinya. Panduan admin untuk mengubah respons, memperbarui data pelatihan, atau menjeda agen. Diagram arsitektur yang menunjukkan bagaimana agen terhubung ke sistem Anda."
+            }
+          ],
+          "ov": [
+            "Integrasi tambahan: $1,500",
+            "Data pelatihan di atas 50 item: $500/batch isi 50",
+            "Putaran revisi tambahan: $350",
+            "Pengerjaan kilat (di bawah 1 minggu): +40%",
+            "Pelatihan ulang agen: $750"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 2 putaran revisi. Kepemilikan agen dialihkan kepada Anda.",
+          "bridge": "Agen Anda sudah live. Agar tetap terpantau, dioptimalkan, dan dilatih ulang, tambahkan retainer Pemeliharaan Agen ($1,500/bulan) atau Pertumbuhan Agen ($3,500/bulan) kami.",
+          "ideal": "Bisnis yang mengotomatiskan satu alur kerja spesifik"
+        },
+        {
+          "name": "Tim Agen",
+          "price": 14500,
+          "disp": "$14,500",
+          "tag": "Paling Populer",
+          "pop": true,
+          "tl": "2 sampai 4 minggu",
+          "scope": [
+            {
+              "i": "Agen AI kustom (3)",
+              "l": "Tiga agen AI yang saling terhubung dan bekerja sebagai sistem terkoordinasi. Contoh susunan: (1) Agen suara menjawab panggilan + agen email mengirim tindak lanjut + agen CRM memperbarui pipeline. (2) Agen scraping mengumpulkan data + agen pemrosesan memformat laporan + agen email mendistribusikannya. (3) Chatbot menangkap prospek + agen kualifikasi memberi skor + agen pemesanan menjadwalkan panggilan. Agen saling berkomunikasi dan berbagi data secara otomatis."
+            },
+            {
+              "i": "Orkestrasi alur kerja",
+              "l": "Pohon keputusan kustom yang memetakan bagaimana agen saling menyerahkan tugas. Logika kondisional: agen mengambil tindakan berbeda berdasarkan data, waktu, skor prospek, atau aturan kustom. Penanganan error: jika satu agen gagal, sistem memberi tahu Anda dan mengantrekan tugas untuk dicoba ulang. Semua komunikasi antar-agen dicatat dan dapat diaudit."
+            },
+            {
+              "i": "Integrasi (3 termasuk)",
+              "l": "3 integrasi sistem eksternal di seluruh tim agen Anda. Integrasi umum: GoHighLevel, HubSpot, Salesforce, Google Workspace, Slack, Twilio, Stripe, Shopify, Zapier, Make, atau layanan apa pun dengan REST API. Setiap integrasi mencakup: pemetaan data, autentikasi, penanganan error, dan logika retry."
+            },
+            {
+              "i": "Keamanan kunci API",
+              "l": "Semua kunci API, token, dan kredensial disimpan menggunakan environment variable terenkripsi dan secrets manager penyedia hosting Anda. Tidak pernah ditulis langsung di kode, tidak pernah di source code, tidak pernah di log. Kredensial setiap agen diisolasi sehingga satu agen tidak bisa mengakses kunci agen lain. Kami tidak pernah menyimpan atau menahan kunci API Anda setelah deployment. Anda memegang kepemilikan dan kendali penuh atas semua kredensial setiap saat."
+            },
+            {
+              "i": "Pelatihan & pengujian agen",
+              "l": "Setiap agen dilatih dengan hingga 75 titik data. Pengujian end-to-end penuh atas seluruh alur kerja agen (bukan hanya agen secara individual). Load testing untuk skenario volume tinggi. Pengujian penerimaan pengguna bersama tim Anda sebelum go-live."
+            }
+          ],
+          "ov": [
+            "Agen tambahan: $2,500",
+            "Integrasi tambahan: $1,500",
+            "Data pelatihan di atas 75/agen: $500/batch",
+            "Putaran revisi tambahan: $400",
+            "Pengerjaan kilat: +40%"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 2 putaran revisi. Kepemilikan semua agen dan kode dialihkan kepada Anda.",
+          "bridge": "Tim agen Anda sudah live dan terkoordinasi. Untuk optimasi berkelanjutan, pelatihan ulang, dan penambahan agen baru, tambahkan retainer Pertumbuhan Agen ($3,500/bulan) atau Pusat Komando Agen ($7,500/bulan) kami.",
+          "ideal": "Bisnis yang mengotomatiskan alur kerja multi-langkah dari ujung ke ujung"
+        },
+        {
+          "name": "Operasi AI",
+          "price": 25000,
+          "disp": "$25,000+",
+          "tag": "Ekosistem AI enterprise",
+          "tl": "4 sampai 8 minggu",
+          "scope": [
+            {
+              "i": "Agen AI kustom (5+)",
+              "l": "Lima agen AI atau lebih yang dirancang sebagai lapisan operasional lengkap untuk bisnis Anda. Mencakup berbagai departemen: penjualan, dukungan, pemasaran, operasional, dan data. Setiap agen dibangun khusus untuk alur kerja Anda. Tanpa template, tanpa pengaturan generik. Jenis agen mencakup kombinasi apa pun dari: suara, email, chat, scraping, pembuatan PDF, pemrosesan data, penjadwalan, pembuatan konten, penilaian prospek, dan kasus penggunaan kustom."
+            },
+            {
+              "i": "Lapisan orkestrasi AI",
+              "l": "Sistem koordinasi pusat yang mengelola semua agen. Perutean cerdas: tugas otomatis ditugaskan ke agen yang tepat berdasarkan jenis, prioritas, dan konteks. Pengelolaan antrean untuk skenario volume tinggi. Komunikasi antar-agen dengan memori bersama dan pewarisan konteks. Logika retry, penanganan fallback, dan degradasi bertahap saat agen menemui error."
+            },
+            {
+              "i": "Integrasi (6 termasuk)",
+              "l": "6 integrasi eksternal yang menghubungkan ekosistem agen Anda dengan alat bisnis Anda. Termasuk integrasi kompleks: alur kerja multi-langkah lintas CRM + email + kalender + sistem pembayaran. Webhook listener untuk pemicu real-time. Sinkronisasi data lintas platform dengan resolusi konflik."
+            },
+            {
+              "i": "Keamanan & kepatuhan",
+              "l": "Semua kunci API, token, dan kredensial disimpan menggunakan environment variable terenkripsi dan pengelolaan secret kelas enterprise. Tidak pernah ditulis langsung di kode, tidak pernah di source code, tidak pernah di log. Kredensial setiap agen diisolasi sepenuhnya. Enkripsi data untuk semua komunikasi agen (saat transit dan saat tersimpan). Kontrol akses berbasis peran untuk pengelolaan agen. Audit log untuk setiap tindakan agen (siapa, apa, kapan). Protokol penanganan PII dikonfigurasi sesuai kebutuhan Anda. Kebijakan retensi data diterapkan otomatis. Kami tidak pernah menyimpan atau menahan kunci API Anda setelah deployment. Anda memegang kepemilikan dan kendali penuh."
+            },
+            {
+              "i": "Pelatihan & onboarding",
+              "l": "Setiap agen dilatih dengan hingga 150 titik data. Seri rekaman Loom komprehensif yang menunjukkan kepada tim Anda cara mengelola, memantau, dan memperbarui agen. Dokumentasi runbook untuk setiap agen: apa yang dilakukannya, cara mengubahnya, dan langkah pemecahan masalah. Semua pelatihan diserahkan lewat video rekaman. Tim Anda menonton sesuai waktu mereka. Pertanyaan dijawab lewat teks atau email dalam 1 hari kerja."
+            }
+          ],
+          "ov": [
+            "Agen tambahan: $2,500 per agen",
+            "Integrasi tambahan: $2,000",
+            "Fine-tuning model AI kustom: $5,000",
+            "Sesi pelatihan langsung: $250/jam",
+            "Pengerjaan kilat: +30%"
+          ],
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 25% di titik tengah proyek, 25% sisanya saat selesai (jatuh tempo 7 hari). Diserahkan dalam beberapa fase (biasanya 2 atau 3 fase). Setiap fase memiliki hasil kerja dan persetujuan yang ditetapkan. Kepemilikan semua kode dan agen dialihkan kepada Anda saat selesai.",
+          "bridge": "Ekosistem AI Anda sudah beroperasi penuh. Agar tetap berjalan, optimal, dan terus berkembang, tambahkan retainer Pusat Komando Agen ($7,500/bulan) kami.",
+          "ideal": "Bisnis yang mengganti proses manual dengan otomatisasi cerdas dalam skala besar"
+        }
+      ],
+      "monthlyAgent": [
+        {
+          "name": "Pemeliharaan Agen",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/bulan",
+          "tag": "Jaga agen tetap berjalan",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Pemantauan agen (hingga 3)",
+              "l": "Pemantauan uptime dan error 24/7 untuk hingga 3 agen AI. Peringatan otomatis jika agen mati, mulai gagal, atau akurasi respons turun di bawah ambang batas. Kami menyelidiki dan menyelesaikan masalah dalam 1 hari kerja."
+            },
+            {
+              "i": "Pembaruan data pelatihan (15/bulan)",
+              "l": "Hingga 15 pembaruan data pelatihan per bulan untuk semua agen. Mencakup: menambah pasangan tanya-jawab baru, menyempurnakan respons, memperbarui skrip, dan memperbaiki jawaban yang tidak akurat. Pembaruan diserahkan dalam 2 hari kerja setelah permintaan."
+            },
+            {
+              "i": "Pengecekan kesehatan API & integrasi",
+              "l": "Verifikasi bulanan bahwa semua koneksi API dan integrasi pihak ketiga berfungsi. Pemantauan proaktif terhadap deprecation API, perubahan rate limit, dan kedaluwarsa autentikasi. Semua kunci API disimpan dengan aman menggunakan environment variable terenkripsi. Tidak pernah terekspos di kode atau log."
+            },
+            {
+              "i": "Laporan performa bulanan",
+              "l": "Laporan diserahkan paling lambat tanggal 5 setiap bulan, mencakup: akurasi respons agen, tingkat penyelesaian, tingkat error, volume penggunaan, dan status integrasi. Termasuk rekomendasi untuk meningkatkan performa. Diserahkan sebagai PDF atau video Loom."
+            },
+            {
+              "i": "Dukungan",
+              "l": "Dukungan teks dan email dengan waktu respons 48 jam (hari kerja). Hingga 8 permintaan dukungan per bulan. Setiap permintaan = 1 masalah atau pertanyaan spesifik. Permintaan di atas 8 ditagih $200/jam."
+            }
+          ],
+          "ov": [
+            "Pemantauan agen tambahan: $300/bulan per agen",
+            "Pembaruan pelatihan di atas 15: $50 per item",
+            "Perbaikan darurat di luar jam kerja: +50%",
+            "Pembangunan agen baru: ditawar terpisah"
+          ],
+          "ex": "Tanpa pembangunan agen baru, tanpa integrasi baru, tanpa alur kerja otomatisasi baru. Ini hanya pemantauan dan pemeliharaan. Untuk pengembangan agen aktif, lihat tingkat Pertumbuhan Agen.",
+          "ideal": "Bisnis dengan agen yang sudah live dan harus tetap akurat serta online"
+        },
+        {
+          "name": "Pertumbuhan Agen",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/bulan",
+          "tag": "Paling Populer",
+          "pop": true,
+          "com": "Minimal 6 bulan",
+          "scope": [
+            {
+              "i": "Semua yang ada di Pemeliharaan Agen",
+              "l": "Seluruh pemantauan, pembaruan pelatihan, pengecekan kesehatan API, pelaporan bulanan, dan dukungan dari Pemeliharaan Agen, dengan batas yang diperluas di bawah."
+            },
+            {
+              "i": "Pemantauan agen (hingga 6)",
+              "l": "Pemantauan uptime dan error 24/7 untuk hingga 6 agen AI. Peringatan otomatis, penyelidikan, dan penyelesaian dalam 4 jam kerja."
+            },
+            {
+              "i": "Pembaruan data pelatihan (40/bulan)",
+              "l": "Hingga 40 pembaruan data pelatihan per bulan untuk semua agen. Mencakup: pasangan tanya-jawab baru, revisi skrip, penyesuaian alur kerja, dan penyempurnaan respons. Pembaruan diserahkan dalam 1 hari kerja."
+            },
+            {
+              "i": "1 alur kerja otomatisasi baru/bulan",
+              "l": "1 pembangunan alur kerja otomatisasi baru per bulan (misalnya rangkaian nurturing prospek baru, pemicu upsell, kampanye re-engagement, atau alur notifikasi internal). Alur kerja terhubung ke agen dan integrasi Anda yang sudah ada."
+            },
+            {
+              "i": "Pembaruan strategi bulanan",
+              "l": "Video Loom bulanan yang membahas: tinjauan performa agen, rekomendasi optimasi, dan prioritas mendatang. Anda merespons lewat teks atau email. 1 panggilan langsung opsional per bulan atas permintaan (maksimal 30 menit)."
+            },
+            {
+              "i": "Keamanan & pengelolaan kunci API",
+              "l": "Semua kunci API dan kredensial disimpan menggunakan environment variable terenkripsi dan pengelolaan secret. Pengingat rotasi kredensial bulanan. Pemantauan proaktif terhadap kunci yang terekspos atau terkompromi. Anda memegang kepemilikan dan kendali penuh atas semua kredensial."
+            },
+            {
+              "i": "Dukungan prioritas",
+              "l": "Dukungan teks dan email dengan waktu respons 24 jam (hari kerja). Kegagalan agen kritis: penanganan dimulai di hari yang sama selama jam kerja. Hingga 15 permintaan dukungan per bulan."
+            }
+          ],
+          "ov": [
+            "Pemantauan agen tambahan: $250/bulan per agen",
+            "Pembaruan pelatihan di atas 40: $40 per item",
+            "Pembangunan alur kerja tambahan: $1,500",
+            "Pembangunan agen baru: $2,500",
+            "Darurat di luar jam kerja: +50%"
+          ],
+          "ex": "Tanpa orkestrasi enterprise, tanpa kerangka kepatuhan, tanpa strategist khusus. Untuk pengelolaan operasi AI penuh, lihat Pusat Komando Agen.",
+          "ideal": "Bisnis yang aktif memperluas kemampuan agen AI-nya"
+        },
+        {
+          "name": "Pusat Komando Agen",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/bulan",
+          "tag": "Pengelolaan AI penuh",
+          "com": "Minimal 6 bulan",
+          "scope": [
+            {
+              "i": "Semua yang ada di Pertumbuhan Agen",
+              "l": "Seluruh pemantauan, pembaruan pelatihan, pembangunan alur kerja, pembaruan strategi, keamanan API, dan dukungan prioritas dari Pertumbuhan Agen, dengan batas yang diperluas di bawah."
+            },
+            {
+              "i": "Pemantauan agen (tak terbatas)",
+              "l": "Pemantauan 24/7 untuk semua agen aktif tanpa batas. Peringatan otomatis, penyelidikan, dan penyelesaian dalam 2 jam kerja. Termasuk pemantauan kesehatan lapisan orkestrasi untuk sistem multi-agen."
+            },
+            {
+              "i": "Pembaruan data pelatihan (tak terbatas)",
+              "l": "Pembaruan data pelatihan tak terbatas untuk semua agen. Revisi skrip, penyesuaian alur kerja, pasangan tanya-jawab baru, dan penyetelan respons, sesuai kebutuhan tanpa batas. Pembaruan diserahkan dalam 1 hari kerja."
+            },
+            {
+              "i": "3 alur kerja otomatisasi baru/bulan",
+              "l": "3 pembangunan alur kerja otomatisasi baru per bulan. Alur kerja multi-langkah kompleks yang mencakup agen, integrasi, dan logika kondisional. Termasuk pengujian, deployment, dan dokumentasi untuk setiap alur kerja."
+            },
+            {
+              "i": "Rapat strategi bulanan + pembaruan mingguan",
+              "l": "1 rapat strategi langsung per bulan (maksimal 60 menit). Pembaruan Loom mingguan yang membahas performa, prioritas mendatang, dan rekomendasi optimasi. Anda merespons lewat teks atau email. Komunikasi harian seluruhnya lewat teks dan email. Tanpa panggilan dadakan."
+            },
+            {
+              "i": "Keamanan & kepatuhan enterprise",
+              "l": "Semua kunci API dan kredensial dikelola melalui pengelolaan secret kelas enterprise. Isolasi kredensial per agen. Audit log untuk setiap tindakan agen. Tinjauan keamanan bulanan yang mencakup: status kredensial, kontrol akses, penanganan data, dan postur kepatuhan. Protokol penanganan PII dipelihara dan diperbarui sesuai kebutuhan. Anda memegang kepemilikan penuh atas semua kredensial."
+            },
+            {
+              "i": "Pembangunan agen baru (1/bulan termasuk)",
+              "l": "1 pembangunan agen AI baru per bulan termasuk dalam lingkup. Mencakup: desain, pelatihan, pengujian, deployment, dan dokumentasi. Agen tambahan ditawar dengan tarif diskon ($2,000 per agen vs. $5,000 jika terpisah)."
+            },
+            {
+              "i": "Audit AI triwulanan",
+              "l": "Setiap 3 bulan: audit komprehensif atas seluruh ekosistem AI Anda yang mencakup performa agen, tren akurasi, efisiensi biaya, kesehatan integrasi, dan rekomendasi peluang otomatisasi baru. Diserahkan sebagai laporan tertulis."
+            }
+          ],
+          "ov": [
+            "Pembangunan agen tambahan: $2,000 per agen",
+            "Alur kerja tambahan: $1,000",
+            "Fine-tuning model AI kustom: $5,000",
+            "Sesi pelatihan langsung: $250/jam",
+            "Darurat di luar jam kerja: +50%"
+          ],
+          "ex": "Tanpa pemasaran, tanpa iklan, tanpa pembuatan konten, tanpa pengelolaan media sosial. Untuk layanan tersebut, lihat Retainer Pemasaran atau paket Pengelolaan Sosial kami.",
+          "ideal": "Bisnis yang menjalankan AI sebagai bagian inti operasional harian"
+        }
+      ],
+      "customSupport": [
+        {
+          "name": "Bank Jam",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/bulan",
+          "tag": "Dukungan fleksibel",
+          "com": "Bulanan (tanpa minimum)",
+          "scope": [
+            {
+              "i": "Pilih jam Anda",
+              "l": "Beli blok jam pengembangan setiap bulan. 10 jam/bulan = $2,500 ($250/jam). 20 jam/bulan = $4,500 ($225/jam). 30 jam/bulan = $6,000 ($200/jam). 40+ jam/bulan = tarif khusus. Jam dapat dipakai untuk kombinasi apa pun dari: perbaikan bug, pembaruan fitur, perubahan desain, integrasi, atau konsultasi."
+            },
+            {
+              "i": "Cara kerjanya",
+              "l": "Anda mengirim permintaan lewat papan tugas bersama (Linear, GitHub Issues, atau email). Kami mengestimasi jam sebelum memulai setiap tugas dan meminta persetujuan Anda. Pekerjaan dicatat dan dilaporkan mingguan dengan log waktu yang menunjukkan persis apa yang dikerjakan dan berapa lama. Jam yang tidak terpakai TIDAK dibawa ke bulan berikutnya."
+            },
+            {
+              "i": "Waktu respons",
+              "l": "Permintaan dikonfirmasi dalam 1 hari kerja. Perbaikan bug diprioritaskan berdasarkan tingkat keparahan: kritis (mulai di hari yang sama), mayor (dalam 2 hari kerja), minor (dalam 5 hari kerja). Permintaan fitur dan peningkatan dijadwalkan ke siklus penagihan saat ini atau berikutnya."
+            },
+            {
+              "i": "Ringkasan bulanan",
+              "l": "Laporan akhir bulan yang menunjukkan: jam terpakai, tugas selesai, jam tersisa, dan item terbuka yang berlanjut ke bulan berikutnya. Tanpa kejutan."
+            },
+            {
+              "i": "Apa yang tercakup",
+              "l": "Perbaikan bug dan patch, penambahan fitur kecil, peningkatan UI/UX, perubahan basis data, pembaruan API, pemeliharaan integrasi pihak ketiga, optimasi performa, patch keamanan, dan konsultasi. TIDAK termasuk: pembangunan fitur penuh yang membutuhkan 40+ jam (di-scope sebagai proyek terpisah), pekerjaan desain dari nol (gunakan retainer desain atau harga proyek kami), atau dukungan on-call 24/7."
+            }
+          ],
+          "ov": [
+            "Jam di luar bank Anda: $275/jam",
+            "Perbaikan kritis darurat/hari yang sama: +50% dari jam terpakai",
+            "Kerja akhir pekan: +75% dari jam terpakai"
+          ],
+          "ex": "Tanpa jaminan SLA. Tanpa pemantauan 24/7. Tanpa developer khusus (tim menangani permintaan sesuai antrean). Untuk jaminan waktu respons dan sumber daya khusus, lihat tingkat Dev Support di bawah.",
+          "ideal": "Aplikasi kecil, alat, atau proyek pasca peluncuran yang butuh pembaruan sesekali"
+        },
+        {
+          "name": "Dev Support",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/bulan",
+          "tag": "Jaga tetap berjalan",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Pemantauan server & infrastruktur",
+              "l": "Pemantauan uptime 24/7 dengan peringatan otomatis. Pengecekan kesehatan server: CPU, memori, disk, dan waktu respons. Jika aplikasi Anda mati, kami langsung diberi tahu dan mulai menyelidiki dalam 1 jam selama jam kerja (Senin sampai Jumat, pukul 9 sampai 17). Koordinasi dengan penyedia hosting jika muncul masalah infrastruktur."
+            },
+            {
+              "i": "Pemeliharaan keamanan",
+              "l": "Pembaruan dependensi bulanan (npm, pip, paket sistem). Pemindaian dan penambalan kerentanan keamanan. Pengelolaan perpanjangan sertifikat SSL. Verifikasi backup basis data (backup dikonfigurasi saat pembangunan, kami memverifikasi backup berjalan dan menguji pemulihan setiap kuartal). Pemantauan upaya akses tidak sah."
+            },
+            {
+              "i": "Perbaikan bug (5 jam/bulan termasuk)",
+              "l": "5 jam pekerjaan perbaikan bug dan patch per bulan. Mencakup: fitur rusak, masalah tampilan, error API, dan kegagalan integrasi yang terkait lingkup pembangunan awal. Jam dicatat dan dilaporkan setiap bulan. Bug akibat perubahan API pihak ketiga atau masalah penyedia hosting ditanggung. Bug akibat perubahan kode tanpa izin (oleh Anda atau developer lain) dikenakan biaya."
+            },
+            {
+              "i": "Pengelolaan basis data",
+              "l": "Pengecekan kesehatan basis data bulanan: performa query, optimasi indeks, penggunaan penyimpanan, dan pemantauan connection pool. Verifikasi backup dan uji pemulihan (triwulanan). Rekomendasi pembersihan data jika penyimpanan tumbuh melebihi batas yang diharapkan. TIDAK termasuk perubahan skema besar atau migrasi data (ditawar terpisah)."
+            },
+            {
+              "i": "Laporan kesehatan bulanan",
+              "l": "Laporan dikirim via email paling lambat tanggal 5 setiap bulan, mencakup: persentase uptime, performa server, patch keamanan yang diterapkan, bug yang diperbaiki, status backup, dan rekomendasi perbaikan. Diserahkan sebagai PDF atau tautan dasbor."
+            },
+            {
+              "i": "Saluran dukungan",
+              "l": "Dukungan email dengan waktu respons 24 jam (hari kerja). Hingga 8 permintaan dukungan per bulan. Setiap permintaan = 1 masalah atau pertanyaan spesifik. Permintaan di atas 8 ditagih $200/jam."
+            }
+          ],
+          "ov": [
+            "Perbaikan bug di luar 5 jam: $200/jam",
+            "Respons darurat di luar jam kerja: +50%",
+            "Migrasi basis data: ditawar terpisah",
+            "Penambahan fitur: gunakan Bank Jam atau harga proyek",
+            "Audit performa: $2,000 sekali bayar"
+          ],
+          "ex": "Tanpa pengembangan fitur, tanpa pekerjaan desain, tanpa pembaruan konten, tanpa pengelolaan iklan. Ini hanya pemeliharaan infrastruktur dan kode. Untuk pengembangan aktif, lihat tingkat Pengembangan Aktif atau Bank Jam.",
+          "ideal": "Aplikasi stabil yang harus tetap aman, terpantau, dan ter-patch"
+        },
+        {
+          "name": "Pengembangan Aktif",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/bulan",
+          "tag": "Perbaikan berkelanjutan",
+          "pop": true,
+          "com": "Minimal 6 bulan",
+          "scope": [
+            {
+              "i": "Semua yang ada di Dev Support",
+              "l": "Seluruh pemantauan, keamanan, perbaikan bug (5 jam), pengelolaan basis data, dan pelaporan bulanan dari tingkat Dev Support, termasuk sebagai dasar Anda."
+            },
+            {
+              "i": "Pengembangan fitur (35 jam/bulan)",
+              "l": "35 jam pengembangan khusus setiap bulan untuk membangun fitur baru, meningkatkan yang sudah ada, atau memperluas platform Anda. Jam mencakup: fitur baru, peningkatan UI/UX, integrasi baru, optimasi performa, dan perbaikan arsitektur. Jam yang tidak terpakai hanya bisa dibawa ke bulan berikutnya (akumulasi maksimal: 52 jam)."
+            },
+            {
+              "i": "Kolaborasi roadmap produk",
+              "l": "Tinjauan roadmap bulanan lewat video Loom yang membahas fitur mendatang, prioritas, dan rekomendasi. Kami memelihara papan tugas bersama (Linear atau GitHub Issues) dengan item terprioritas, pelacakan status, dan estimasi waktu. Anda menetapkan prioritas lewat papan tugas atau teks. Kami memberi saran tentang kelayakan teknis, upaya, dan urutan pengerjaan. 1 panggilan langsung opsional per bulan atas permintaan (maksimal 60 menit)."
+            },
+            {
+              "i": "Desain termasuk",
+              "l": "3 jam pekerjaan desain per bulan termasuk (pembaruan UI, tata letak layar baru, desain komponen). Mencakup: wireframe, mockup, dan pembaruan kecil sistem desain. Desain ulang halaman atau fitur penuh yang membutuhkan 5+ jam desain ditawar terpisah."
+            },
+            {
+              "i": "Video demo dua mingguan",
+              "l": "Setiap 2 minggu, kami merekam demo Loom atas pekerjaan yang selesai dan fitur yang sedang dikerjakan. Anda meninjau sesuai waktu Anda dan memberi masukan lewat teks, email, atau papan tugas. Menjaga proyek terus bergerak dan mencegah ketidakselarasan. Tidak perlu panggilan langsung."
+            },
+            {
+              "i": "Dukungan prioritas",
+              "l": "Dukungan teks dan email dengan waktu respons 4 jam (hari kerja). Bug kritis: penanganan dimulai di hari yang sama selama jam kerja. Hingga 15 permintaan dukungan per bulan. Semua komunikasi lewat teks dan email. Tidak perlu panggilan terjadwal."
+            },
+            {
+              "i": "Tinjauan performa triwulanan",
+              "l": "Setiap 3 bulan: audit platform komprehensif yang mencakup performa (waktu muat halaman, waktu respons API), postur keamanan, biaya infrastruktur, dan penilaian utang teknis. Rekomendasi optimasi diserahkan sebagai laporan tertulis."
+            }
+          ],
+          "ov": [
+            "Pengembangan di luar 35 jam: $225/jam",
+            "Darurat di luar jam kerja: +50%",
+            "Deployment akhir pekan: +75%",
+            "Pembangunan fitur penuh di atas 40 jam: di-scope sebagai proyek terpisah dengan tarif diskon",
+            "Desain di luar 3 jam: $200/jam"
+          ],
+          "ex": "Tanpa dukungan on-call 24/7. Tanpa developer penuh waktu khusus (tim bersama dengan akses prioritas). Tanpa pengembangan aplikasi mobile di tingkat ini (di-scope terpisah). Tanpa layanan pemasaran, iklan, atau konten. Lihat paket pemasaran kami untuk itu.",
+          "ideal": "Platform berkembang yang merilis fitur baru setiap bulan"
+        }
+      ],
+      "appBuild": [
+        {
+          "name": "Launchpad",
+          "price": 9500,
+          "disp": "$9,500",
+          "tag": "Validasi ide Anda",
+          "tl": "4-6 minggu",
+          "scope": [
+            {
+              "i": "iOS atau Android (pilihan Anda), React Native",
+              "l": "Aplikasi mobile satu platform yang dibangun dengan React Native. Anda memilih iOS atau Android saat kickoff; platform lainnya bisa ditambahkan nanti sebagai perluasan."
+            },
+            {
+              "i": "Hingga 4 layar didesain di Figma",
+              "l": "Desain Figma lengkap untuk hingga 4 layar unik (beranda, detail, profil, dan 1 kustom). 2 putaran revisi desain. Tata letak tablet/iPad tidak termasuk di tingkat ini."
+            },
+            {
+              "i": "Hingga 3 integrasi API",
+              "l": "Penyedia autentikasi (Apple/Google/email), 1 API pihak ketiga pilihan Anda (peta, cuaca, kalender, dan lainnya), dan 1 integrasi analitik (Mixpanel atau PostHog)."
+            },
+            {
+              "i": "Autentikasi dasar",
+              "l": "Masuk dengan email + Apple/Google. Layar profil dengan nama, avatar, dan logout. Tanpa multi-tenant, tanpa akun tim, tanpa SSO."
+            },
+            {
+              "i": "Pengajuan ke App Store atau Play Store",
+              "l": "Satu pengajuan ke store ditangani dari ujung ke ujung: tangkapan layar didesain, deskripsi ditulis, metadata dioptimalkan, diajukan lewat akun developer Anda."
+            },
+            {
+              "i": "Garansi 30 hari pasca peluncuran",
+              "l": "Bug yang dilaporkan dalam 30 hari pertama setelah persetujuan store diperbaiki tanpa biaya. Permintaan fitur di-scope terpisah."
+            },
+            {
+              "i": "Serah terima source code + dokumentasi",
+              "l": "Repo GitHub lengkap dengan README, .env.example, instruksi deployment, dan rekaman walkthrough 30 menit."
+            }
+          ],
+          "ov": [
+            "Layar tambahan: $650",
+            "Platform kedua (tambah iOS atau Android): +$4,500",
+            "Integrasi API tambahan: $450",
+            "Tata letak tablet/iPad: +$1,800"
+          ],
+          "ex": "Tanpa pembangunan backend kustom (memakai API Anda yang sudah ada atau backend no-code seperti Supabase). Tanpa pembelian dalam aplikasi. Tanpa notifikasi push. Tanpa mode offline-first.",
+          "bridge": "Setelah garansi 30 hari, pemeliharaan berkelanjutan beralih ke paket Keep Alive kami ($1,950/bulan) agar tetap mengikuti pembaruan iOS/Android dan pengajuan ulang ke store.",
+          "ideal": "Founder yang memvalidasi ide dengan MVP satu platform yang fokus"
+        },
+        {
+          "name": "Studio",
+          "price": 24500,
+          "disp": "$24,500",
+          "tag": "Paling Populer",
+          "pop": true,
+          "tl": "8-12 minggu",
+          "scope": [
+            {
+              "i": "iOS + Android lintas platform",
+              "l": "Satu codebase React Native (atau Flutter atas permintaan) yang dibangun untuk iOS dan Android sekaligus. Penyempurnaan khusus platform di tempat yang penting: haptics iOS, komponen Material Android."
+            },
+            {
+              "i": "Hingga 10 layar didesain penuh",
+              "l": "Desain Figma lengkap dengan 10 layar unik termasuk prototipe interaktif utuh. 3 putaran revisi per batch layar."
+            },
+            {
+              "i": "Hingga 6 integrasi API",
+              "l": "Autentikasi, pembayaran (Stripe atau RevenueCat), notifikasi push (OneSignal atau Firebase), analitik (Mixpanel/Amplitude), dan 2 integrasi pihak ketiga kustom pilihan Anda."
+            },
+            {
+              "i": "Akun pengguna + notifikasi push",
+              "l": "Alur pendaftaran/login lengkap, layar profil dengan fitur edit, reset kata sandi, dan notifikasi push yang sudah terpasang (alur izin + notifikasi transaksional)."
+            },
+            {
+              "i": "Crashlytics + analitik terpasang",
+              "l": "Crashlytics (Firebase atau Sentry) di kedua platform dengan dasbor pelaporan crash. Pipeline analitik dengan 8 event pengguna utama yang dilacak."
+            },
+            {
+              "i": "Pengajuan ke App Store + Play Store",
+              "l": "Kedua store diajukan dari ujung ke ujung: tangkapan layar yang didesain, deskripsi yang ditulis, riset kata kunci, dan label privasi untuk keduanya."
+            },
+            {
+              "i": "Garansi 60 hari pasca peluncuran",
+              "l": "Bug yang dilaporkan dalam 60 hari setelah persetujuan store diperbaiki gratis. Termasuk penanganan pembaruan OS pertama setelah peluncuran jika Apple/Google merilis perubahan yang merusak."
+            },
+            {
+              "i": "Dukungan Slack 1 jam/minggu selama 30 hari",
+              "l": "Kanal Slack bersama selama 30 hari pasca peluncuran. Hingga 1 jam/minggu untuk tanya-jawab asinkron, penyesuaian kecil, atau pertanyaan serah terima."
+            }
+          ],
+          "ov": [
+            "Layar tambahan: $850",
+            "Modul native kustom: $175/jam",
+            "Integrasi tambahan: $650",
+            "Perpanjangan garansi (+30 hari): $1,200"
+          ],
+          "ho": "Serah terima kode penuh setelah peluncuran: repo GitHub, konfigurasi CI EAS/Fastlane, dokumentasi deployment, template env, dan rekaman walkthrough 60 menit. Tim Anda mengambil alih atau kami lanjut lewat retainer.",
+          "bridge": "Termasuk 60 hari pasca peluncuran. Iterasi aktif setelah itu berjalan lewat paket Momentum kami ($4,800/bulan): 20 jam engineering, pengerjaan fitur, dan uji A/B setiap bulan.",
+          "ideal": "Tim yang meluncurkan produk lintas platform yang matang ke pengguna nyata"
+        },
+        {
+          "name": "Flagship",
+          "price": 62000,
+          "disp": "$62,000",
+          "tag": "Pembangunan produk penuh",
+          "tl": "14-18 minggu",
+          "scope": [
+            {
+              "i": "iOS + Android + backend Node/Postgres kustom",
+              "l": "Produk full-stack: aplikasi React Native di kedua platform plus backend Node.js kustom dengan Postgres, di-hosting di infrastruktur Anda (AWS, Railway, atau Vercel)."
+            },
+            {
+              "i": "Hingga 20 layar dengan sistem desain lengkap",
+              "l": "Sistem desain Figma dengan komponen yang dapat dipakai ulang. Hingga 20 layar unik didesain penuh. Revisi tak terbatas dalam lingkup yang disepakati."
+            },
+            {
+              "i": "Hingga 12 integrasi API / pihak ketiga",
+              "l": "Stripe, Twilio, Segment, webhook, dan lainnya. 12 integrasi pihak ketiga pilihan Anda dipasang dengan logika retry dan penanganan error."
+            },
+            {
+              "i": "Dasbor admin (web)",
+              "l": "Aplikasi admin berbasis web untuk pengelolaan konten dan pengguna. Akses berbasis peran, audit log, dan alur CRUD standar untuk model data Anda."
+            },
+            {
+              "i": "Fitur real-time",
+              "l": "1 fitur real-time pilihan Anda: chat dalam aplikasi, pembaruan langsung, atau push berbasis webhook. Dibangun di atas WebSockets atau Pusher/Ably."
+            },
+            {
+              "i": "Pembayaran + autentikasi berbasis peran",
+              "l": "Stripe atau RevenueCat untuk langganan dalam aplikasi. Autentikasi berbasis peran (pengguna / admin / peran kustom) dengan JWT + refresh token."
+            },
+            {
+              "i": "Pipeline CI/CD + staging",
+              "l": "CI/CD EAS atau Fastlane untuk kedua platform. Lingkungan staging terpisah untuk QA. Deploy otomatis ke TestFlight/internal saat merge."
+            },
+            {
+              "i": "Pengajuan ke App Store + Play Store + kit ASO",
+              "l": "Kedua store diajukan plus starter kit App Store Optimization: riset kata kunci, analisis kompetitor, dan 3 eksperimen varian yang siap dijalankan."
+            },
+            {
+              "i": "Garansi 90 hari pasca peluncuran",
+              "l": "Bug yang dilaporkan dalam 90 hari setelah persetujuan store diperbaiki gratis. Termasuk 2 workshop discovery untuk menyusun lingkup fase berikutnya."
+            }
+          ],
+          "ov": [
+            "Layar tambahan: $1,100",
+            "Modul native kustom: $185/jam",
+            "Fitur real-time tambahan: $6,500",
+            "Workshop discovery tambahan: $1,800"
+          ],
+          "ho": "Serah terima lengkap: monorepo GitHub, konfigurasi CI/CD, infra-as-code (Terraform atau Pulumi jika diminta), runbook untuk deployment dan rollback, serta rekaman video walkthrough 90 menit bersama tim mobile dan backend.",
+          "bridge": "Termasuk 90 hari pasca peluncuran. Kemitraan tertanam setelah itu berjalan lewat paket Partner kami ($10,500/bulan) dengan engineer khusus dan desainer fraksional.",
+          "ideal": "Startup yang sudah didanai dan merek yang merilis produk berfitur lengkap dengan backend kustom"
+        }
+      ],
+      "appSupport": [
+        {
+          "name": "Keep Alive",
+          "price": 1950,
+          "disp": "$1,950",
+          "per": "/bulan",
+          "tag": "Tetap sehat & patuh",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Hingga 6 jam engineering per bulan",
+              "l": "Anggaran untuk triase bug, patch kecil, dan perbaikan reaktif. Jam tidak dibawa ke bulan berikutnya. Perbaikan darurat ditagihkan ke bank jam ini terlebih dahulu."
+            },
+            {
+              "i": "Perbaikan bug dengan SLA triase 24 jam",
+              "l": "Bug kritis (aplikasi crash, login rusak, pembayaran gagal) dikonfirmasi dalam 24 jam kerja dan diperbaiki dalam 48-72 jam tergantung lingkupnya."
+            },
+            {
+              "i": "Pembaruan versi OS iOS + Android (tahunan)",
+              "l": "Siklus uji + pembaruan tahunan terhadap setiap rilis mayor baru iOS dan Android. Deprecation wajib dan perubahan izin ditangani."
+            },
+            {
+              "i": "Pengajuan ulang ke store triwulanan",
+              "l": "Setiap 3 bulan: meninjau kesegaran metadata store, memperbarui tangkapan layar bila perlu, dan mengajukan ulang untuk dorongan algoritma Apple/Google."
+            },
+            {
+              "i": "Pemantauan Crashlytics + laporan bulanan",
+              "l": "Dasbor Crashlytics dipantau setiap bulan. Laporan kesehatan 1 halaman diserahkan, menunjukkan tingkat bebas crash, masalah utama, dan adopsi versi."
+            },
+            {
+              "i": "Patch dependensi + keamanan",
+              "l": "Pemeriksaan bulanan dependensi npm/gem. Patch keamanan tingkat CVE diterapkan segera. Upgrade non-kritis digabung setiap kuartal."
+            },
+            {
+              "i": "Dukungan email, penyelesaian 5 hari",
+              "l": "Permintaan non-kritis lewat email. Penyelesaian dalam 5 hari kerja. Tanpa Slack, tanpa chat real-time, tanpa telepon di tingkat ini."
+            }
+          ],
+          "ov": [
+            "Jam tambahan: $165/jam",
+            "Hotfix darurat (akhir pekan/hari libur): $450 flat + jam",
+            "Pengerjaan fitur khusus: di-scope terpisah"
+          ],
+          "ex": "Tanpa pengembangan fitur. Tanpa integrasi baru. Tanpa pekerjaan desain. Tanpa layanan pemasaran atau ASO.",
+          "ideal": "Aplikasi yang sudah rilis dan harus tetap sehat, patuh, dan tersedia di store"
+        },
+        {
+          "name": "Momentum",
+          "price": 4800,
+          "disp": "$4,800",
+          "per": "/bulan",
+          "tag": "Paling Populer",
+          "pop": true,
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Hingga 20 jam engineering per bulan",
+              "l": "20 jam untuk iterasi aktif: pengerjaan fitur, optimasi, uji A/B, pekerjaan analitik. Semua yang ada di Keep Alive sudah termasuk dalam anggaran ini."
+            },
+            {
+              "i": "Semua yang ada di Keep Alive",
+              "l": "Perbaikan bug, pembaruan OS, pengajuan ulang ke store, pemantauan Crashlytics, patch dependensi. Batas yang sama berlaku, diambil dari bank 20 jam."
+            },
+            {
+              "i": "1-2 fitur kecil atau 1 fitur menengah per bulan",
+              "l": "Dirilis setiap bulan. Kecil = di bawah 8 jam (layar baru, event pelacakan baru, penyesuaian teks). Menengah = hingga 20 jam (alur baru, integrasi baru)."
+            },
+            {
+              "i": "Dasbor analitik + wawasan bulanan",
+              "l": "Kami membangun dan memelihara dasbor analitik produk Anda (Mixpanel atau Amplitude). Laporan wawasan 3 halaman bulanan dengan perilaku pengguna, retensi, dan tren konversi."
+            },
+            {
+              "i": "Pengaturan + pelaporan uji A/B",
+              "l": "Hingga 2 uji A/B aktif per bulan. Kami menangani pengaturan, implementasi varian, analisis hasil, dan dokumen rekomendasi."
+            },
+            {
+              "i": "Dukungan desain (hingga 4 jam/bulan)",
+              "l": "4 jam waktu desain per bulan untuk layar baru atau pembaruan alur. Jam desain terpisah dari 20 jam engineering. Tidak dihitung ganda."
+            },
+            {
+              "i": "Panggilan standup dua mingguan",
+              "l": "Panggilan video 30 menit setiap dua minggu untuk meninjau progres, menyelaraskan prioritas, dan membuka hambatan. Direkam dan dibagikan di kanal Slack Anda."
+            }
+          ],
+          "ov": [
+            "Jam tambahan: $155/jam",
+            "Uji A/B tambahan: $800 pengaturan",
+            "Fitur kilat (penyelesaian di bawah 1 minggu): 1,5x jam",
+            "Jam desain tambahan: $145"
+          ],
+          "ex": "Tanpa engineer khusus (tim bersama dengan akses prioritas). Tanpa perubahan arsitektur backend. Tanpa layanan pemasaran.",
+          "ideal": "Aplikasi live yang aktif beriterasi berdasarkan data pengguna"
+        },
+        {
+          "name": "Partner",
+          "price": 10500,
+          "disp": "$10,500",
+          "per": "/bulan",
+          "tag": "Tim produk tertanam",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Engineer khusus (~80 jam/bulan) + desainer (~15 jam)",
+              "l": "Engineer senior yang ditunjuk ~20 jam/minggu + desainer fraksional ~4 jam/minggu. Orang yang sama setiap bulan. Mereka paham codebase Anda."
+            },
+            {
+              "i": "Semua yang ada di Momentum",
+              "l": "Semua pekerjaan Momentum berlanjut (bug, fitur, uji A/B, analitik) dalam anggaran yang diperluas. Tanpa penagihan terpisah."
+            },
+            {
+              "i": "Penyerahan roadmap berkelanjutan",
+              "l": "Sesi perencanaan triwulanan bersama founder untuk menetapkan roadmap. Kami merilis sesuai roadmap dan melaporkan progres setiap minggu. Prioritas bisa fleksibel dalam kuartal."
+            },
+            {
+              "i": "Modul native kustom + pekerjaan khusus platform",
+              "l": "Saat lintas platform tidak cukup (misalnya pendamping Apple Watch, widget Android, integrasi iOS mendalam), modul native sudah termasuk."
+            },
+            {
+              "i": "Pemeliharaan backend + infrastruktur",
+              "l": "Backend dan infrastruktur Anda termasuk: patching, scaling, peringatan pemantauan, optimasi biaya. Tidak dibatasi oleh bank engineering 80 jam."
+            },
+            {
+              "i": "Sinkronisasi mingguan + papan Linear/Jira bersama",
+              "l": "Sinkronisasi video 30 menit setiap minggu + workspace Linear (atau Jira) bersama dengan visibilitas tiket penuh. Tim Anda bisa langsung membuat tiket."
+            },
+            {
+              "i": "SLA respons di hari yang sama, Slack prioritas",
+              "l": "Kanal Slack dengan respons 2 jam selama jam kerja. Konfirmasi di hari kerja yang sama untuk hal yang tidak mendesak."
+            },
+            {
+              "i": "Sesi strategi triwulanan",
+              "l": "Setiap 3 bulan: sesi 90 menit yang membahas ASO, pertumbuhan, tinjauan arsitektur, dan utang teknis. Diserahkan sebagai memo tertulis."
+            }
+          ],
+          "ov": [
+            "Jam tambahan di atas 95/bulan: $145/jam",
+            "Engineer khusus tambahan: +$8,500/bulan",
+            "Desainer khusus tambahan: +$3,500/bulan"
+          ],
+          "ex": "Layanan pemasaran, iklan berbayar, dan konten tidak termasuk. Lihat paket pemasaran kami untuk itu.",
+          "ideal": "Tim yang menjadikan Blok Blok sebagai tim produk tertanam mereka"
+        }
+      ],
+      "webSupport": [
+        {
+          "name": "Site Care",
+          "price": 550,
+          "disp": "$550",
+          "per": "/bulan",
+          "tag": "Perawatan yang andal",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Pemantauan uptime 99,9%",
+              "l": "StatusCake atau BetterStack memantau situs Anda 24/7. Peringatan langsung ke kami. Anda tidak perlu tahu situs down dari pelanggan."
+            },
+            {
+              "i": "Backup off-site mingguan",
+              "l": "Seluruh situs + basis data di-backup mingguan ke penyimpanan off-site (bukan hanya di penyedia hosting). Retensi 30 hari."
+            },
+            {
+              "i": "Patch keamanan + pembaruan dependensi",
+              "l": "Patching bulanan untuk inti/plugin WordPress (jika WP) atau dependensi npm (jika Next.js). Pembaruan keamanan kritis diterapkan dalam 24 jam."
+            },
+            {
+              "i": "Hingga 4 edit konten kecil/bulan",
+              "l": "Pembaruan teks, penggantian gambar, perbaikan tautan, perubahan harga, testimoni baru. Setiap edit = pekerjaan di bawah 15 menit."
+            },
+            {
+              "i": "Pengecekan kesehatan SSL + domain",
+              "l": "Perpanjangan otomatis sertifikat SSL dipantau. Peringatan kedaluwarsa domain 60 hari sebelumnya. Kesehatan DNS dicek setiap kuartal."
+            },
+            {
+              "i": "Laporan uptime + kecepatan bulanan",
+              "l": "Laporan bulanan 1 halaman: persentase uptime, rata-rata waktu muat halaman, insiden keamanan, dan tindakan yang diambil. Diserahkan tanggal 1."
+            }
+          ],
+          "ov": [
+            "Edit konten tambahan: $45 per edit",
+            "Permintaan kilat (hari yang sama): +$125",
+            "Pekerjaan pembaruan per jam: $165/jam"
+          ],
+          "ex": "Tanpa halaman baru, tanpa desain ulang, tanpa uji A/B, tanpa SEO, tanpa iklan. Tanpa aktivitas pemasaran. Lihat paket pemasaran kami untuk itu.",
+          "ideal": "Situs yang sudah rilis dan butuh perawatan andal serta ketenangan pikiran"
+        },
+        {
+          "name": "Site Growth",
+          "price": 1600,
+          "disp": "$1,600",
+          "per": "/bulan",
+          "tag": "Paling Populer",
+          "pop": true,
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Semua yang ada di Site Care",
+              "l": "Uptime, backup, keamanan, dan edit kecil termasuk. Batas yang sama, digabung ke dalam paket ini."
+            },
+            {
+              "i": "1 halaman baru atau bagian yang didesain ulang/bulan",
+              "l": "Setiap bulan kami merilis satu halaman baru (hingga 1.000 kata + desain standar) ATAU satu bagian halaman yang ada didesain ulang sepenuhnya. Pilihan Anda."
+            },
+            {
+              "i": "2 uji A/B per bulan",
+              "l": "Teks hero, varian CTA, uji tata letak, atau eksperimen halaman harga. Disiapkan, dijalankan, dianalisis, dan pemenangnya direkomendasikan, semua dalam bulan yang sama."
+            },
+            {
+              "i": "Optimasi Core Web Vitals (triwulanan)",
+              "l": "Setiap 3 bulan: audit komprehensif terhadap tolok ukur CWV Google. Kompresi gambar, code splitting, dan CSS critical-path dioptimalkan."
+            },
+            {
+              "i": "Laporan triwulanan GA4 + Search Console",
+              "l": "Setiap 3 bulan: laporan wawasan 3 halaman yang mencakup trafik organik, halaman teratas, bounce rate, dan tren kueri pencarian. Rekomendasi termasuk."
+            },
+            {
+              "i": "8 pembaruan konten per bulan",
+              "l": "Di luar dasar 4 edit dari Site Care: total hingga 8 pembaruan konten setiap bulan. Digabung mingguan setiap Senin."
+            },
+            {
+              "i": "Email + Slack prioritas, respons 24 jam",
+              "l": "Akses kanal Slack untuk pertanyaan cepat. Respons 24 jam untuk semua permintaan. Tanpa penanganan real-time untuk keadaan darurat kecuali di tingkat Site Partnership."
+            }
+          ],
+          "ov": [
+            "Uji A/B tambahan: $450",
+            "Halaman baru tambahan: $850",
+            "Pekerjaan video/animasi: di-scope terpisah"
+          ],
+          "ex": "Tanpa desain ulang penuh (di-scope sebagai proyek). Tanpa iklan berbayar. Tanpa penulisan konten di luar edit kecil.",
+          "ideal": "Tim yang ingin situsnya terus membaik setiap bulan"
+        },
+        {
+          "name": "Site Partnership",
+          "price": 3800,
+          "disp": "$3,800",
+          "per": "/bulan",
+          "tag": "Tim web tertanam",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Semua yang ada di Site Growth",
+              "l": "Halaman baru bulanan, uji A/B, pekerjaan Web Vitals, laporan triwulanan, plus batas yang diperluas dalam paket ini."
+            },
+            {
+              "i": "Deploy mingguan",
+              "l": "Fitur baru, uji, atau optimasi dirilis setiap minggu. Senin hari perencanaan, Kamis hari rilis."
+            },
+            {
+              "i": "Developer khusus (~25 jam/bulan) + desainer (~8 jam/bulan)",
+              "l": "Developer dan desainer yang ditunjuk. Orang yang sama setiap bulan. Mereka paham stack dan merek Anda. Jam adalah anggaran; yang tidak terpakai tidak dibawa ke bulan berikutnya."
+            },
+            {
+              "i": "Audit SEO bulanan + perbaikan",
+              "l": "Audit SEO komprehensif setiap bulan: teknis (schema, sitemap, pengindeksan), on-page (kata kunci, meta, tautan internal), dan rekomendasi off-page. 3 perbaikan teratas dieksekusi di bulan yang sama."
+            },
+            {
+              "i": "Pemuatan konten CMS (hingga 10/bulan)",
+              "l": "Hingga 10 artikel blog atau halaman konten diunggah per bulan dari naskah Anda. Gambar diformat, tag meta ditulis, tautan internal disarankan. Anda menulis, kami menerbitkan."
+            },
+            {
+              "i": "Roadmap optimasi tingkat konversi",
+              "l": "Prioritas CRO bulanan berdasarkan analitik + hasil uji A/B. 3 eksperimen disarankan setiap bulan; 2 teratas dirilis."
+            },
+            {
+              "i": "Slack di hari yang sama, SLA respons 2 jam",
+              "l": "Kanal Slack dengan respons 2 jam selama jam kerja. Konfirmasi di hari yang sama untuk hal yang tidak mendesak."
+            }
+          ],
+          "ov": [
+            "Jam tambahan di atas 33/bulan: $155/jam",
+            "Pemuatan halaman konten tambahan: $45 per halaman di atas 10",
+            "Deploy kilat (hari yang sama): +25%"
+          ],
+          "ex": "Tanpa pengelolaan iklan berbayar (lihat paket pemasaran). Tanpa desain ulang merek (lihat paket branding). Tanpa pekerjaan aplikasi mobile.",
+          "ideal": "Bisnis yang sedang berkembang dan menjadikan Blok Blok sebagai tim web mereka"
+        }
+      ],
+      "marketingBuild": [
+        {
+          "name": "Audit Pemasaran & Roadmap",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Diagnosis + rencana 90 hari",
+          "tl": "2-3 minggu",
+          "scope": [
+            {
+              "i": "Audit full-funnel",
+              "l": "Tinjauan 1 situs web + hingga 3 kanal aktif (iklan, SEO, email, sosial). Setiap tahap funnel Anda dipetakan dengan hambatan yang teridentifikasi."
+            },
+            {
+              "i": "Tinjauan analitik + atribusi",
+              "l": "Audit GA4, Meta Pixel, kerapian UTM, dan pelacakan konversi. Daftar 10 poin perbaikan dengan setiap masalah diprioritaskan berdasarkan dampak/upaya."
+            },
+            {
+              "i": "Bedah kompetitor (3 kompetitor langsung)",
+              "l": "Pendalaman atas 3 kompetitor langsung: positioning, penawaran, materi iklan, landing page, jejak SEO. Analisis komparatif 6 halaman diserahkan sebagai dokumen Notion."
+            },
+            {
+              "i": "Workshop ICP + pesan",
+              "l": "2 sesi langsung masing-masing 60 menit. Hasil: proposisi nilai yang dipertajam, 3 pilar pesan utama, 1 dokumen persona pelanggan ideal."
+            },
+            {
+              "i": "Roadmap terprioritas 90 hari",
+              "l": "20-30 item tindakan yang dinilai dengan RICE (Reach, Impact, Confidence, Effort). Diserahkan sebagai backlog Notion yang bisa dieksekusi tim Anda atau kami jalankan."
+            },
+            {
+              "i": "Model alokasi anggaran",
+              "l": "Anggaran kuartal berikutnya dirinci untuk kanal berbayar, organik, dan lifecycle dengan rentang ROI yang diharapkan berdasarkan temuan audit."
+            },
+            {
+              "i": "1 presentasi strategi (direkam)",
+              "l": "Presentasi langsung 60 menit yang membahas temuan dan roadmap. Direkam + dibagikan ke tim Anda. Dokumen Notion diserahkan di hari yang sama."
+            },
+            {
+              "i": "Panggilan tindak lanjut 30 menit",
+              "l": "30 hari setelah penyerahan: panggilan check-in untuk meninjau apa yang sudah dieksekusi dan membuka hambatan apa pun."
+            }
+          ],
+          "ov": [
+            "Kanal tambahan yang diaudit: $450",
+            "Kompetitor tambahan dalam bedah: $250 per kompetitor",
+            "Sesi workshop diperpanjang (90 menit): $400"
+          ],
+          "ex": "Tanpa eksekusi roadmap (itu langkah berikutnya). Tanpa pengelolaan iklan. Tanpa pembuatan konten. Tanpa produksi kreatif.",
+          "bridge": "Audit ini berpasangan alami dengan paket Rawat & Pantau kami ($1,500/bulan) untuk mengeksekusi roadmap tanpa membangun ulang konteks. Diskon 10% bulan pertama jika ditandatangani dalam 14 hari.",
+          "ideal": "Founder yang curiga pemasarannya membuang uang tetapi tidak tahu persis di mana"
+        },
+        {
+          "name": "Campaign Launchpad",
+          "price": 8500,
+          "disp": "$8,500",
+          "tag": "Paling Populer",
+          "pop": true,
+          "tl": "Pembangunan 4-5 minggu + pemantauan 30 hari",
+          "scope": [
+            {
+              "i": "1 platform iklan utama dibangun penuh",
+              "l": "Google, Meta, atau TikTok dibangun dari ujung ke ujung: struktur akun, piksel, Conversions API, audiens kustom, daftar retargeting. Fondasi bersih untuk naik skala."
+            },
+            {
+              "i": "Total 6 materi iklan",
+              "l": "2 grafis statis + 2 video pendek + 2 varian hook. Direkam dan diedit tim kami dari aset merek Anda + 1 video demo produk yang kami rekam dari jarak jauh bila diperlukan."
+            },
+            {
+              "i": "1 landing page khusus + varian A/B",
+              "l": "Landing page kustom lengkap (Webflow, Framer, atau Shopify) dengan naskah dan desain. 1 varian A/B untuk bagian hero demi pengujian konversi."
+            },
+            {
+              "i": "Otomatisasi penangkap prospek (rangkaian 5 email)",
+              "l": "Rangkaian 5 email sambutan atau nurturing dibangun di Klaviyo, Kit, atau HubSpot. Logika pemicu, tag personalisasi, dan pelacakan performa termasuk."
+            },
+            {
+              "i": "Pengaturan pelacakan + dasbor",
+              "l": "Dasbor GA4 + Looker Studio dengan pembaruan harian. 1 laporan mingguan untuk klien dikirim setiap Senin via email."
+            },
+            {
+              "i": "Soft launch 14 hari + pemantauan 30 hari",
+              "l": "Soft launch 2 minggu dengan optimasi harian dan iterasi kreatif. Lalu 30 hari pemantauan kampanye aktif dengan penyesuaian mingguan."
+            },
+            {
+              "i": "Hingga $15k belanja iklan dikelola",
+              "l": "Belanja iklan hingga $15k tercakup dalam biaya (belanja itu sendiri ditagih terpisah oleh platform). Tiap tambahan belanja $5k: +$500 pada biaya."
+            },
+            {
+              "i": "Tinjauan performa + dokumen serah terima",
+              "l": "Akhir kerja sama: panggilan tinjauan performa 60 menit + dokumen serah terima 10 halaman dengan rekomendasi scaling dan pembelajaran kreatif."
+            }
+          ],
+          "ov": [
+            "Materi iklan tambahan (statis): $250",
+            "Materi iklan tambahan (video): $600",
+            "Varian landing page tambahan: $1,500",
+            "Platform iklan tambahan: $2,500"
+          ],
+          "ex": "Tanpa konten sosial organik. Tanpa konten SEO panjang. Tanpa pengelolaan influencer. Tanpa outreach PR.",
+          "bridge": "Kampanye berlanjut ke paket Mesin Pertumbuhan kami ($3,500/bulan) untuk menskalakan pemenang, memperluas ke kanal ke-2, dan mengiterasi kreatif. Diskon 10% bulan pertama jika ditandatangani dalam 14 hari.",
+          "ideal": "Tim dengan penawaran yang terbukti dan siap mendorong volume akuisisi nyata"
+        },
+        {
+          "name": "Peluncuran Produk Penuh",
+          "price": 20000,
+          "disp": "$20,000",
+          "tag": "Dorongan peluncuran terkoordinasi",
+          "tl": "Persiapan 6 minggu + operasional minggu peluncuran",
+          "scope": [
+            {
+              "i": "Strategi peluncuran + Gantt 6 minggu",
+              "l": "Rencana peluncuran lengkap yang mencakup PR, berbayar, organik, email, influencer, dan operasional hari peluncuran. Jalur kritis dan dependensi dipetakan. Diserahkan sebagai linimasa bersama."
+            },
+            {
+              "i": "Positioning + narasi peluncuran",
+              "l": "Pesan hero, 3 sudut pendukung, boilerplate pers, FAQ, dan dokumen penanganan keberatan. Diuji terhadap ICP Anda sebelum dipakai publik."
+            },
+            {
+              "i": "12 materi iklan di 2 platform",
+              "l": "Meta + Google ATAU Meta + TikTok. Campuran statis, carousel, dan video pendek. 4 di antaranya video bergaya UGC yang direkam kreator kami."
+            },
+            {
+              "i": "2 landing page",
+              "l": "Halaman waitlist pra-peluncuran (penangkap email + hitung mundur) + halaman konversi hari peluncuran (penawaran penuh). Keduanya dengan varian A/B. Dibangun di Webflow/Framer."
+            },
+            {
+              "i": "Outreach pers (25 media)",
+              "l": "25 media/newsletter sasaran dipitch dengan sudut yang disesuaikan. 1 siaran pers berembargo ditulis dan didistribusikan 1 minggu sebelum peluncuran."
+            },
+            {
+              "i": "3 kemitraan influencer (dikelola dari ujung ke ujung)",
+              "l": "Pencarian, briefing, kontrak, persetujuan konten, dan pembayaran. Biaya kreator bersifat passthrough (tidak termasuk dalam biaya)."
+            },
+            {
+              "i": "Rangkaian email peluncuran",
+              "l": "Nurturing waitlist (3 email pra-peluncuran) + kampanye 6 email di minggu peluncuran. Dibangun untuk 50 ribu pengiriman pertama. Berfungsi dengan platform apa pun (Klaviyo, Kit, Mailchimp, atau HubSpot)."
+            },
+            {
+              "i": "Persiapan peluncuran Product Hunt / komunitas + war-room",
+              "l": "Strategi peluncuran komunitas, draf thread hype pra-peluncuran, halaman PH dioptimalkan, dan war-room operasional langsung 8 jam di hari peluncuran."
+            },
+            {
+              "i": "Laporan bedah pasca peluncuran",
+              "l": "14 hari setelah peluncuran: rincian kohort, kanal, kreatif, dan funnel. Laporan 20 halaman tentang apa yang berhasil, apa yang tidak, dan apa yang perlu digandakan."
+            },
+            {
+              "i": "Hingga $30k belanja peluncuran dikelola",
+              "l": "Hingga $30k belanja iklan dikelola dalam biaya. Tiap tambahan belanja $5k: +$500 pada biaya. Belanja ditagih terpisah oleh platform."
+            }
+          ],
+          "ov": [
+            "Kemitraan influencer tambahan: $1,200 + biaya kreator",
+            "Media pers tambahan (26+): $75 per media",
+            "Materi video tambahan: $600",
+            "Jadwal kilat (di bawah 3 minggu): +25%",
+            "Modul SEO programatik: $6,000"
+          ],
+          "ex": "Tanpa kalender konten berkelanjutan setelah peluncuran. Tanpa pengelolaan komunitas jangka panjang. Tanpa fotografi produk (bisa ditambahkan).",
+          "bridge": "Peluncuran berlanjut ke paket Kemitraan Penuh kami ($7,000/bulan) untuk pertumbuhan berkelanjutan, optimasi lifecycle, dan siklus peluncuran berikutnya. Diskon 10% bulan pertama jika ditandatangani dalam 14 hari.",
+          "ideal": "Merek yang meluncurkan produk, lini layanan, atau rebranding dan butuh satu dorongan terkoordinasi"
+        }
+      ],
+      "brandingBuild": [
+        {
+          "name": "Brand Lite",
+          "price": 4000,
+          "disp": "$4,000",
+          "tag": "Logo + palet + tipografi",
+          "tl": "2-3 minggu",
+          "scope": [
+            {
+              "i": "Intake discovery (asinkron)",
+              "l": "1 kuesioner merek (20 pertanyaan mencakup audiens, nada, referensi, 3 tautan kompetitor). 1 panggilan kickoff 45 menit lewat Zoom. Tanpa workshop tatap muka di tingkat ini."
+            },
+            {
+              "i": "Eksplorasi logo (3 konsep)",
+              "l": "3 arah logo awal disajikan sebagai mockup vektor datar. Anda memilih 1 untuk disempurnakan. Wordmark ATAU lockup ikon+wordmark (bukan keduanya). 2 putaran revisi."
+            },
+            {
+              "i": "File logo final",
+              "l": "PNG, SVG, PDF, dan EPS dalam warna penuh, 1 warna hitam, dan 1 warna putih. Lockup horizontal dan bertumpuk diserahkan."
+            },
+            {
+              "i": "Palet warna (5 warna)",
+              "l": "Warna primer + 4 warna pendukung dengan nilai HEX, RGB, dan CMYK. Diserahkan sebagai lembar swatch PDF 1 halaman."
+            },
+            {
+              "i": "Pasangan tipografi",
+              "l": "1 font judul + 1 font isi (lisensi Google Fonts atau Adobe Fonts). Catatan lisensi termasuk."
+            },
+            {
+              "i": "PDF ringkasan merek 1 halaman",
+              "l": "Dasar penggunaan logo (ukuran minimum, ruang kosong), kode warna, dan tipografi. Bukan dokumen panduan lengkap."
+            },
+            {
+              "i": "Favicon + avatar sosial",
+              "l": "Logo dioptimalkan dan diekspor pada 16px, 32px, 512px, dan 1024px untuk web dan profil sosial."
+            }
+          ],
+          "ov": [
+            "Variasi logo tambahan (monogram, submark, dan lainnya): $300",
+            "Putaran revisi tambahan: $250",
+            "Arahan fotografi merek: $800"
+          ],
+          "ex": "Tanpa dokumen panduan merek. Tanpa alat tulis. Tanpa template sosial. Tanpa penamaan atau identitas verbal.",
+          "bridge": "Brand Lite yang dipadukan dengan Penjaga Merek ($1,500/bulan) menjaga aset tetap konsisten saat Anda memproduksi konten baru.",
+          "ideal": "Solopreneur dan merek pra-pendapatan yang butuh logo bersih dan siap pakai dengan cepat"
+        },
+        {
+          "name": "Brand System",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "Paling Populer",
+          "pop": true,
+          "tl": "4-6 minggu",
+          "scope": [
+            {
+              "i": "Workshop discovery (jarak jauh, 90 menit)",
+              "l": "1 sesi kerja langsung bersama founder + hingga 3 pemangku kepentingan. Hasil: pernyataan positioning, 1 persona audiens, 3 atribut merek, arah moodboard dipilih dari 3 yang kami sajikan."
+            },
+            {
+              "i": "Sistem logo (4 konsep)",
+              "l": "4 arah awal dengan mockup lifestyle (produk, signage, sosial). 1 dipilih untuk disempurnakan. Lockup utama + horizontal + bertumpuk + tanda ikon saja. 3 putaran revisi."
+            },
+            {
+              "i": "Sistem warna lengkap",
+              "l": "Primer (2), sekunder (4), dan netral (3). Diperiksa aksesibilitasnya untuk kontras WCAG AA. Kode HEX / RGB / CMYK / Pantone diserahkan."
+            },
+            {
+              "i": "Hierarki tipografi",
+              "l": "Font judul, subjudul, isi, dan caption dengan ukuran, ketebalan, dan tinggi baris yang tepat untuk web dan cetak."
+            },
+            {
+              "i": "PDF panduan merek (20 halaman)",
+              "l": "Penggunaan logo, larangan, warna, tipografi, arahan citra, catatan ikonografi, dan satu halaman tone of voice (3 atribut suara + contoh naskah)."
+            },
+            {
+              "i": "Kit aset peluncuran",
+              "l": "1 kartu nama, 1 kop surat, 1 tanda tangan email, 1 template pitch deck (10 slide, Google Slides atau Keynote), dan 8 template sosial (Canva atau Figma, dapat diedit)."
+            },
+            {
+              "i": "Pustaka aset merek",
+              "l": "File Figma terorganisir + folder Google Drive yang disusun untuk serah terima ke desainer di masa depan. Semuanya dalam satu sumber kebenaran."
+            }
+          ],
+          "ov": [
+            "Set ikon kustom (8 ikon): $1,200",
+            "Arahan seni fotografi merek + daftar shot: $800",
+            "Putaran revisi tambahan: $400"
+          ],
+          "ex": "Tanpa sprint penamaan atau identitas verbal. Tanpa riset merek dagang. Tanpa brand book di luar panduan 20 halaman. Tanpa pekerjaan video.",
+          "bridge": "Brand System berpasangan dengan Arahan Kreatif ($4,000/bulan) untuk terus memproduksi aset bermerek baru secara konsisten.",
+          "ideal": "Startup yang sudah didanai dan bisnis yang sedang naik skala yang butuh sistem merek lengkap dan kokoh"
+        },
+        {
+          "name": "Transformasi Merek",
+          "price": 28000,
+          "disp": "$28,000",
+          "tag": "Rebranding penuh + penamaan + strategi",
+          "tl": "8-12 minggu",
+          "scope": [
+            {
+              "i": "Sprint discovery + strategi",
+              "l": "2 workshop jarak jauh masing-masing 2 jam (positioning, audiens, celah kompetitif). 5 wawancara pemangku kepentingan (30 menit masing-masing). Audit kompetitif atas 6 kompetitor. 1 dokumen positioning (10-15 halaman) dengan pilar pesan dan 3 persona audiens yang teruji."
+            },
+            {
+              "i": "Sprint penamaan",
+              "l": "1 workshop penamaan, 40+ kandidat nama dihasilkan, disaring menjadi 10, disajikan dengan alasan dan pemeriksaan awal USPTO (bukan clearance hukum). 1 nama final dipilih. Pengecekan ketersediaan domain .com, .co, .io termasuk."
+            },
+            {
+              "i": "Identitas verbal",
+              "l": "Kerangka suara merek (4 atribut dengan tabel \"kami adalah / kami bukan\"), tagline, elevator pitch (30 detik + 60 detik), dan 10 blok contoh naskah (hero, tentang, CTA, bio)."
+            },
+            {
+              "i": "Sistem identitas visual",
+              "l": "5 arah logo dengan mockup lifestyle lengkap. 1 dipilih dan disempurnakan menjadi sistem tanda lengkap: utama, sekunder, monogram, favicon, dan perilaku responsif."
+            },
+            {
+              "i": "Arsitektur warna + tipografi lengkap",
+              "l": "Palet diperluas (primer, sekunder, tint, shade), tumpukan tipografi 4 tingkat, set gaya ikonografi (12 ikon), dan arahan ilustrasi atau fotografi."
+            },
+            {
+              "i": "Brand book (40+ halaman)",
+              "l": "Strategi, positioning, suara, logo, warna, tipografi, citra, ikonografi, prinsip gerak, anjuran/larangan, dan contoh penerapan. Diserahkan sebagai PDF + sumber Figma yang dapat diedit."
+            },
+            {
+              "i": "Rangkaian aset peluncuran",
+              "l": "Pitch deck (20 slide), trio alat tulis, 3 template email, 12 template sosial, 1 kit grafis pengumuman peluncuran merek, dan 1 storyboard video \"kenalan dengan [merek] yang baru\"."
+            },
+            {
+              "i": "Sesi serah terima + dukungan 30 hari",
+              "l": "1 rekaman walkthrough serah terima 1 jam. 30 hari dukungan email untuk pertanyaan aset dan penyesuaian kecil."
+            }
+          ],
+          "ov": [
+            "Opini hukum merek dagang lewat pengacara mitra: passthrough $1,500-$3,000",
+            "Produksi video peluncuran merek (60 detik): $3,500",
+            "Putaran penamaan tambahan: $2,000"
+          ],
+          "ex": "Tanpa pendaftaran merek dagang (rujukan pengacara mitra disediakan). Tanpa produksi video di luar storyboard. Tanpa eksekusi berkelanjutan. Itu ranah retainer.",
+          "bridge": "Transformasi biasanya dilanjutkan dengan Studio Tertanam ($8,500/bulan) untuk menerapkan identitas baru di setiap permukaan selama 6 bulan berikutnya.",
+          "ideal": "Bisnis mapan yang melakukan repositioning, startup pra-Seri A, merek lama yang butuh pembangunan ulang dari dasar"
+        }
+      ],
+      "brandingSupport": [
+        {
+          "name": "Penjaga Merek",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/bulan",
+          "tag": "Perawatan yang konsisten",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Hingga 6 aset bermerek per bulan",
+              "l": "Grafis sosial, header email, flyer sekali pakai, grafis acara, atau materi iklan memakai sistem merek Anda yang sudah ada. Diserahkan dalam Figma atau Canva yang dapat diedit."
+            },
+            {
+              "i": "1 audit merek triwulanan (PDF)",
+              "l": "Setiap 3 bulan: meninjau kanal yang live (situs web + 3 profil sosial) untuk penyimpangan konsistensi, aset usang, dan konten yang tidak sesuai merek. Laporan 5-7 halaman dengan perbaikan terprioritas."
+            },
+            {
+              "i": "Pemeliharaan pustaka aset merek",
+              "l": "Figma dan Drive Anda dijaga tetap rapi. Aset baru diarsipkan, konvensi penamaan ditegakkan, versi lama diarsipkan."
+            },
+            {
+              "i": "Dukungan asinkron",
+              "l": "1 respons Loom atau email per hari kerja. Tanpa Slack real-time atau cakupan akhir pekan di tingkat ini."
+            },
+            {
+              "i": "2 putaran revisi per aset",
+              "l": "Masukan terkonsolidasi dalam 3 hari kerja per revisi. Tanpa masukan bertahap."
+            }
+          ],
+          "ov": [
+            "Aset tambahan (7+): $125 per aset",
+            "Penyelesaian kilat 48 jam: +50%",
+            "Edit video pendek: $300 per video"
+          ],
+          "ex": "Tanpa pekerjaan strategis, tanpa arah merek baru, tanpa copywriting. Tanpa pengelolaan media sosial (lihat paket sosial).",
+          "ideal": "Merek yang identitasnya sudah ada dan butuh perawatan ringan serta konsisten"
+        },
+        {
+          "name": "Arahan Kreatif",
+          "price": 4000,
+          "disp": "$4,000",
+          "per": "/bulan",
+          "tag": "Paling Populer",
+          "pop": true,
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Hingga 15 aset bermerek per bulan",
+              "l": "Grafis sosial, carousel, materi iklan, kampanye email, bagian landing page, pembaruan pitch deck. Semuanya dalam sistem merek Anda."
+            },
+            {
+              "i": "Panggilan arahan kreatif bulanan (60 menit)",
+              "l": "Meninjau hasil bulan lalu, menyelaraskan prioritas kreatif bulan ini, menandai penyimpangan merek. Tindak lanjut Loom dengan rekomendasi."
+            },
+            {
+              "i": "1 audit + penyegaran triwulanan",
+              "l": "Audit PDF setiap 3 bulan plus 3 template yang disegarkan (materi iklan, header email, posting sosial) berdasarkan apa yang berhasil."
+            },
+            {
+              "i": "Copywriting ringan (hingga 1.000 kata/bulan)",
+              "l": "Naskah sesuai merek untuk caption, varian iklan, atau baris subjek email. Bukan konten panjang atau halaman web penuh."
+            },
+            {
+              "i": "Pemeliharaan pustaka aset + Figma",
+              "l": "Satu sumber kebenaran dijaga tetap rapi. Komponen baru ditambahkan setiap bulan."
+            },
+            {
+              "i": "Akses strategist asinkron",
+              "l": "Email/teks langsung ke strategist yang ditunjuk untuk Anda, Senin-Jumat pukul 9-17 ET. SLA respons 4 jam kerja."
+            },
+            {
+              "i": "2 putaran revisi per aset",
+              "l": "Masukan dikonsolidasikan dalam 3 hari kerja setelah penyerahan."
+            }
+          ],
+          "ov": [
+            "Aset tambahan (16+): $150 per aset",
+            "Edit video pendek (di bawah 60 detik): $300 per video",
+            "Naskah di atas 1.000 kata: $200/halaman"
+          ],
+          "ex": "Tanpa pengelolaan iklan berbayar. Tanpa rebranding penuh (itu sebuah proyek). Tanpa desainer khusus. Tim bersama.",
+          "ideal": "Merek yang bertumbuh dan butuh mitra kreatif yang memproduksi karya rutin sekaligus mengarahkan suara visual"
+        },
+        {
+          "name": "Studio Tertanam",
+          "price": 8500,
+          "disp": "$8,500",
+          "per": "/bulan",
+          "tag": "Tim kreatif in-house fraksional",
+          "com": "Minimal 3 bulan",
+          "scope": [
+            {
+              "i": "Hingga 40 aset bermerek per bulan",
+              "l": "Kombinasi apa pun dari sosial, iklan, email, bagian web, pitch deck, grafis produk, materi acara, atau cetak. Waktu penyelesaian setara tim in-house."
+            },
+            {
+              "i": "Arahan mingguan + strategi dua mingguan",
+              "l": "Panggilan arahan kreatif 30 menit setiap minggu + sesi strategi 60 menit setiap dua minggu. Pengawasan aktif di setiap permukaan."
+            },
+            {
+              "i": "Audit merek bulanan + penyegaran yang diterapkan",
+              "l": "Setiap bulan: audit diserahkan, lalu 5 perbaikan teratas dieksekusi di bulan yang sama. Tanpa penawaran terpisah."
+            },
+            {
+              "i": "Creative director + desainer khusus",
+              "l": "Tim 2 orang yang ditunjuk. Akses Slack Senin-Jumat pukul 9-18 (SLA 4 jam). Walkthrough Loom untuk semua hasil kerja utama."
+            },
+            {
+              "i": "Copywriting + penjagaan suara merek",
+              "l": "Hingga 3.000 kata/bulan naskah sesuai merek. Panduan suara ditegakkan di semua konten yang kami tangani. 1 pembaruan dokumen pelatihan ulang suara per kuartal."
+            },
+            {
+              "i": "Evolusi sistem merek",
+              "l": "Pembaruan sistem kecil seiring Anda naik skala: template baru, perluasan warna yang disesuaikan, tanda sub-merek baru. Rebranding penuh tetap ditawar terpisah mulai $20k+."
+            },
+            {
+              "i": "Konsep kampanye triwulanan",
+              "l": "1 kampanye mini per kuartal: konsep, 5 aset hero, rencana rollout. Bayangkan peluncuran musiman atau product drop."
+            },
+            {
+              "i": "3 putaran revisi per aset",
+              "l": "Ruang iterasi lebih luas dibanding tingkat lain sampai hasilnya benar-benar tepat."
+            }
+          ],
+          "ov": [
+            "Rebranding penuh: $20k+ terpisah",
+            "Hari fotografi merek (arahan + pengelolaan vendor, pemotretan ditagih passthrough): biaya arahan $2,500",
+            "Desainer tertanam tambahan: +$3,500/bulan"
+          ],
+          "ex": "Tanpa pengelolaan iklan berbayar. Tanpa desain produk / UX (di-scope terpisah).",
+          "ideal": "Merek yang naik skala dan menjadikan kami tim kreatif in-house fraksional mereka di setiap kanal"
+        }
+      ]
+    }
   },
   "onboard": {
     "title": "Onboarding klien",
