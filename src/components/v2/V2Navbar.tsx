@@ -41,9 +41,10 @@ export function V2Navbar() {
 
   const links = [
     { href: '/projects', label: t('v2_work') },
-    { href: '/about', label: t('v2_studio') },
-    { href: '/services', label: t('v2_services') },
-    { href: '/blog', label: t('v2_journal') },
+    { href: '/about', label: t('about') },
+    { href: '/team', label: t('team') },
+    { href: '/services', label: t('services') },
+    { href: '/contact', label: t('contact') },
   ];
 
   const isActive = (href: string) => pathname === href || pathname.startsWith(href + '/');
@@ -68,7 +69,7 @@ export function V2Navbar() {
               <li key={l.href}>
                 <Link
                   href={l.href}
-                  className={`font-mono text-[12px] uppercase tracking-[0.18em] transition-colors hover:text-white [text-shadow:0_1px_12px_rgba(0,0,0,0.9)] ${
+                  className={`text-sm transition-colors hover:text-white [text-shadow:0_1px_12px_rgba(0,0,0,0.9)] ${
                     isActive(l.href) ? 'text-white' : 'text-gray-200'
                   }`}
                 >
@@ -84,7 +85,7 @@ export function V2Navbar() {
             </div>
             <Link
               href="/quiz"
-              className="hidden rounded-full bg-orange-500 px-5 py-2.5 font-mono text-[12px] uppercase tracking-[0.14em] text-(--bb-on-primary) transition-colors hover:bg-orange-400 md:inline-flex"
+              className="hidden rounded-full bg-orange-500 px-5 py-2.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400 md:inline-flex"
             >
               {t('v2_cta')}
             </Link>
@@ -122,9 +123,9 @@ export function V2Navbar() {
             <li key={l.href}>
               <Link
                 href={l.href}
-                className="flex items-baseline gap-4 py-2 text-5xl font-semibold tracking-[-0.04em] text-white"
+                className="flex items-baseline gap-4 py-2 font-display text-5xl font-bold tracking-[-0.02em] text-white"
               >
-                <span className="font-mono text-xs text-gray-500">0{i + 1}</span>
+                <span className="text-xs text-gray-500">0{i + 1}</span>
                 {l.label}
               </Link>
             </li>
@@ -134,7 +135,7 @@ export function V2Navbar() {
           <LanguageSwitcher />
           <Link
             href="/quiz"
-            className="rounded-full bg-orange-500 px-6 py-3 font-mono text-[12px] uppercase tracking-[0.14em] text-(--bb-on-primary)"
+            className="rounded-full bg-orange-500 px-6 py-3 text-sm text-(--bb-on-primary)"
           >
             {t('v2_cta')}
           </Link>

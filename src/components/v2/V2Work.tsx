@@ -20,7 +20,7 @@ export async function V2Work() {
   return (
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
-        <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 font-mono text-[11px] uppercase tracking-[0.2em] text-gray-500">
+        <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 text-[11px] uppercase tracking-[0.2em] text-gray-500">
           <span>{t('v2_work_label')}</span>
           <Link href="/projects" className="text-gray-400 transition-colors hover:text-white">
             {t('v2_work_link')}
@@ -48,10 +48,10 @@ export async function V2Work() {
                     />
                   </div>
                   <div className="mt-5 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-baseline">
-                    <h3 className="text-xl font-medium tracking-tight text-white sm:text-2xl">
+                    <h3 className="font-display text-xl font-semibold tracking-tight text-white sm:text-2xl">
                       {p.title}
                     </h3>
-                    <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-gray-500">
+                    <span className="text-[11px] uppercase tracking-[0.18em] text-gray-500">
                       {p.category} · {p.year}
                     </span>
                   </div>

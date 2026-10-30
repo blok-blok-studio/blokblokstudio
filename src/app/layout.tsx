@@ -30,14 +30,13 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 import './globals.css';
 import { OrganizationSchema, WebsiteSchema, LocalBusinessSchema, ServiceSchema } from './structured-data';
-import { Inter, JetBrains_Mono, Instrument_Serif } from 'next/font/google';
+import { Inter, Montserrat } from 'next/font/google';
 import { CookieConsent } from '@/components/CookieConsent';
 import { AdsPixels } from '@/components/AdsPixels';
 import { PaletteSwitcher, PALETTE_BOOT_SCRIPT } from '@/components/PaletteSwitcher';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
-const jetbrains = JetBrains_Mono({ subsets: ['latin'], display: 'swap', weight: ['400', '500'], variable: '--font-jbmono' });
-const instrument = Instrument_Serif({ subsets: ['latin'], display: 'swap', weight: '400', style: ['normal', 'italic'], variable: '--font-instrument' });
+const montserrat = Montserrat({ subsets: ['latin'], display: 'swap', weight: ['600', '700'], variable: '--font-montserrat' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.blokblokstudio.com'),
@@ -161,7 +160,7 @@ export default async function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <link rel="llms" href="/llms.txt" type="text/plain" title="LLM Content" />
       </head>
-      <body className={`${inter.variable} ${jetbrains.variable} ${instrument.variable} bg-black text-white antialiased font-sans noise-overlay`}>
+      <body className={`${inter.variable} ${montserrat.variable} bg-black text-white antialiased font-sans noise-overlay`}>
         <OrganizationSchema />
         <WebsiteSchema />
         <LocalBusinessSchema />

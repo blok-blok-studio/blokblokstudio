@@ -50,10 +50,9 @@
   /* Font stack — Inter is the primary font.
      To change fonts: update these values AND add the font import/link. */
   --font-sans: var(--font-inter, "Inter"), "Helvetica Neue", Arial, sans-serif;
-  --font-display: var(--font-inter, "Inter"), "Helvetica Neue", Arial, sans-serif;
-  /* redesign/v2: mono for labels and numbers, serif italic for pull quotes */
-  --font-mono: var(--font-jbmono, "JetBrains Mono"), ui-monospace, SFMono-Regular, Menlo, monospace;
-  --font-serif: var(--font-instrument, "Instrument Serif"), Georgia, serif;
+  /* Brand Guidelines V2 (Oct 2026): Montserrat for headlines and subheads,
+     Inter for everything else. No mono, no serif. */
+  --font-display: var(--font-montserrat, "Montserrat"), var(--font-inter, "Inter"), "Helvetica Neue", Arial, sans-serif;
 }
 
 

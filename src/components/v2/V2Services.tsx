@@ -24,7 +24,7 @@ export async function V2Services() {
   return (
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
-        <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 font-mono text-[11px] uppercase tracking-[0.2em] text-gray-500">
+        <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 text-[11px] uppercase tracking-[0.2em] text-gray-500">
           <span>{t('v2_services_label')}</span>
           <Link href="/services" className="text-gray-400 transition-colors hover:text-white">
             {t('v2_services_link')}
@@ -36,8 +36,8 @@ export async function V2Services() {
           {GROUPS.map((g) => (
             <div key={g.n} className="grid gap-8 py-12 first:pt-0 last:pb-0 lg:grid-cols-[16rem_1fr] lg:gap-16">
               <div>
-                <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-orange-500">0{g.n}</p>
-                <h3 className="mt-3 text-xl font-medium tracking-tight text-white sm:text-2xl">
+                <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">0{g.n}</p>
+                <h3 className="mt-3 font-display text-xl font-semibold tracking-tight text-white sm:text-2xl">
                   {t(`v2_group_${g.n}`)}
                 </h3>
                 <p className="mt-2 max-w-xs text-sm text-gray-500">{t(`v2_group_${g.n}_detail`)}</p>
@@ -47,7 +47,7 @@ export async function V2Services() {
                 {g.services.map((s) => (
                   <li key={s}>
                     <Link href="/services" className="group block">
-                      <h4 className="text-base font-medium text-white transition-colors group-hover:text-orange-400">
+                      <h4 className="font-display text-base font-semibold text-white transition-colors group-hover:text-orange-400">
                         {ts(`service_${s as Idx}_title`)}
                       </h4>
                       <p className="mt-1 text-sm text-gray-500">{ts(`service_${s as Idx}_subtitle`)}</p>

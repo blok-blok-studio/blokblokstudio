@@ -127,18 +127,18 @@ export function V2Globe() {
   const tooltip = (d: object) => {
     const c = d as ClientCity;
     const who = [...(c.team ?? []), ...c.clients].join(' · ');
-    return `<div style="font-family:var(--font-jbmono),monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${who ? `<div style="margin-top:4px;color:#9ca3af;letter-spacing:0;text-transform:none;font-family:inherit">${who}</div>` : ''}</div>`;
+    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${who ? `<div style="margin-top:4px;color:#9ca3af;letter-spacing:0;text-transform:none;font-family:inherit">${who}</div>` : ''}</div>`;
   };
 
   return (
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
-        <div className="mb-10 border-b border-white/10 pb-4 font-mono text-[11px] uppercase tracking-[0.2em] text-gray-500">
+        <div className="mb-10 border-b border-white/10 pb-4 text-[11px] uppercase tracking-[0.2em] text-gray-500">
           {t('v2_globe_label')}
         </div>
         <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16">
           <div className="order-2 lg:order-1">
-            <h2 className="max-w-xl text-3xl font-semibold leading-[1.05] tracking-[-0.03em] text-white sm:text-4xl lg:text-5xl">
+            <h2 className="max-w-xl text-3xl font-display font-bold leading-[1.05] tracking-[-0.02em] text-white sm:text-4xl lg:text-5xl">
               {t('v2_globe_title')}
             </h2>
             <p className="mt-4 text-sm text-gray-500">{t('v2_globe_sub')}</p>
@@ -162,7 +162,7 @@ export function V2Globe() {
                       <span>
                         <span className={`block text-base ${on ? 'text-white' : 'text-gray-200'}`}>
                           {c.city}
-                          <span className="ml-2 font-mono text-[11px] uppercase tracking-[0.18em] text-gray-500">
+                          <span className="ml-2 text-[11px] uppercase tracking-[0.18em] text-gray-500">
                             {c.country}
                           </span>
                         </span>
@@ -170,7 +170,7 @@ export function V2Globe() {
                           {[...(c.team ?? []), ...c.clients].join(' · ') || t('v2_globe_studio')}
                         </span>
                       </span>
-                      <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-gray-600">
+                      <span className="text-[11px] uppercase tracking-[0.18em] text-gray-600">
                         {c.studio ? t('v2_globe_team') : t('v2_globe_clients')}
                       </span>
                     </button>
@@ -194,7 +194,7 @@ export function V2Globe() {
               }`}
             />
             {webgl === false && (
-              <div className="absolute inset-0 flex items-center justify-center p-10 text-center font-mono text-[11px] uppercase tracking-[0.2em] text-gray-500">
+              <div className="absolute inset-0 flex items-center justify-center p-10 text-center text-[11px] uppercase tracking-[0.2em] text-gray-500">
                 WebGL is off in this browser. The cities are listed beside.
               </div>
             )}
