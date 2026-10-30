@@ -14,7 +14,7 @@ const serviceStyles = [
   { accent: '#22d3ee', gradient: 'from-cyan-400/40 via-sky-400/20 to-transparent' },       // 5 Client Dashboards
   { accent: '#60a5fa', gradient: 'from-blue-400/40 via-cyan-400/20 to-transparent' },      // 6 Websites
   { accent: '#c084fc', gradient: 'from-purple-400/40 via-fuchsia-400/20 to-transparent' }, // 7 Branding
-  { accent: '#fb923c', gradient: 'from-orange-400/40 via-yellow-400/20 to-transparent' },  // 8 Google Ads
+  { accent: 'var(--bb-tint-400)', gradient: 'from-orange-400/40 via-yellow-400/20 to-transparent' },  // 8 Google Ads
   { accent: '#34d399', gradient: 'from-emerald-400/40 via-teal-400/20 to-transparent' },   // 9 Meta Ads
 ];
 

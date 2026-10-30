@@ -53,6 +53,123 @@
   --font-display: var(--font-inter, "Inter"), "Helvetica Neue", Arial, sans-serif;
 }
 
+
+/* ── REBRAND PALETTE SWITCH (facelift/palettes branch) ──
+   Every accent on the site is a Tailwind `orange-*` utility. Instead of
+   touching 20 component files, the orange tokens are remapped below to CSS
+   variables, and the variables change with `data-palette` on <html>.
+   PaletteSwitcher.tsx sets the attribute; the inline script in layout.tsx
+   applies it before first paint so there is no flash.
+
+   Exact brand hex codes from the two palette boards:
+     Blue  : Blue 1 #2561D8, Blue 2 #020887, Gray #DDDDDD
+     Green : Lime #A5CF4F, Turf #0F8743, Terminal #173320
+   The lighter text tints (300/400) are the primary mixed toward white so
+   small text stays readable on black. */
+:root,
+html[data-palette="blue"] {
+  --bb-primary: #2561d8;                                   /* Blue 1 */
+  --bb-deep: #020887;                                      /* Blue 2 */
+  --bb-tint-400: color-mix(in srgb, #2561d8 72%, white);   /* text on black */
+  --bb-tint-300: color-mix(in srgb, #2561d8 55%, white);
+  --bb-dark-950: color-mix(in srgb, #020887 55%, black);
+  --bb-gray-300: #dddddd;                                  /* Gray */
+}
+html[data-palette="green"] {
+  --bb-primary: #a5cf4f;                                   /* Lime */
+  --bb-deep: #0f8743;                                      /* Turf */
+  --bb-tint-400: color-mix(in srgb, #a5cf4f 85%, white);
+  --bb-tint-300: color-mix(in srgb, #a5cf4f 70%, white);
+  --bb-dark-950: #173320;                                  /* Terminal */
+  --bb-gray-300: #d4d4d4;
+}
+html[data-palette="current"] {
+  --bb-primary: #f97316;
+  --bb-deep: #ea580c;
+  --bb-tint-400: #fb923c;
+  --bb-tint-300: #fdba74;
+  --bb-dark-950: #431407;
+  --bb-gray-300: #d4d4d4;
+}
+
+@theme inline {
+  --color-orange-300: var(--bb-tint-300);
+  --color-orange-400: var(--bb-tint-400);
+  --color-orange-500: var(--bb-primary);
+  --color-orange-600: var(--bb-deep);
+  --color-orange-950: var(--bb-dark-950);
+  --color-gray-300: var(--bb-gray-300);
+}
+
+
+/* ── REBRAND: WHERE THE COLOR SHOWS ──
+   The production site is near-monochrome, so a token swap alone is almost
+   invisible. These rules carry the candidate palettes onto the primary
+   surfaces (CTAs, hero badge, stat numbers, nav indicator, selection, focus)
+   so the two options can actually be compared. They are scoped to the two
+   candidates only; data-palette="current" renders exactly as production.
+   Unlayered, so they win over Tailwind's @layer utilities without !important. */
+html[data-palette="blue"] {
+  --bb-on-primary: #ffffff;
+  --bb-primary-hover: #020887;
+}
+html[data-palette="green"] {
+  --bb-on-primary: #000000;
+  --bb-primary-hover: color-mix(in srgb, #a5cf4f 85%, white);
+}
+
+/* Primary pill buttons: nav Contact, hero Start a Project, CTA, newsletter */
+html[data-palette="blue"] :is(a, button).rounded-full.bg-white.text-black,
+html[data-palette="green"] :is(a, button).rounded-full.bg-white.text-black {
+  background-color: var(--bb-primary);
+  color: var(--bb-on-primary);
+}
+html[data-palette="blue"] :is(a, button).rounded-full.bg-white.text-black:hover,
+html[data-palette="green"] :is(a, button).rounded-full.bg-white.text-black:hover {
+  background-color: var(--bb-primary-hover);
+}
+
+/* Hero status badge: tinted border + dot */
+html[data-palette="blue"] .hero-enter .rounded-full.border-white\/10,
+html[data-palette="green"] .hero-enter .rounded-full.border-white\/10 {
+  border-color: color-mix(in srgb, var(--bb-primary) 45%, transparent);
+  background-color: color-mix(in srgb, var(--bb-primary) 10%, transparent);
+}
+html[data-palette="blue"] .hero-enter .bg-green-400,
+html[data-palette="green"] .hero-enter .bg-green-400 {
+  background-color: var(--bb-primary);
+}
+
+/* Stat numbers (15+, 11, 6+, 100%) */
+html[data-palette="blue"] .bg-gradient-to-b.from-white.to-gray-400.bg-clip-text,
+html[data-palette="green"] .bg-gradient-to-b.from-white.to-gray-400.bg-clip-text {
+  --tw-gradient-from: var(--bb-tint-300);
+  --tw-gradient-to: var(--bb-primary);
+}
+
+/* Active nav underline */
+html[data-palette="blue"] nav .absolute.h-px.bg-white,
+html[data-palette="green"] nav .absolute.h-px.bg-white {
+  background-color: var(--bb-primary);
+}
+
+/* Selection + keyboard focus ring */
+html[data-palette="blue"] ::selection,
+html[data-palette="green"] ::selection {
+  background: color-mix(in srgb, var(--bb-primary) 45%, transparent);
+  color: #fff;
+}
+html[data-palette="blue"] :focus-visible,
+html[data-palette="green"] :focus-visible {
+  outline-color: var(--bb-primary);
+}
+
+/* Ambient backdrop: give the second blob the deep brand tone */
+html[data-palette="blue"] .blob-2,
+html[data-palette="green"] .blob-2 {
+  background-color: color-mix(in srgb, var(--bb-deep) 10%, transparent);
+}
+
 /* ── SMOOTH SCROLLING ──
    Enables smooth scroll when clicking anchor links or "back to top" */
 html {

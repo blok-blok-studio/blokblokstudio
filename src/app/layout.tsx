@@ -33,6 +33,7 @@ import { OrganizationSchema, WebsiteSchema, LocalBusinessSchema, ServiceSchema }
 import { Inter } from 'next/font/google';
 import { CookieConsent } from '@/components/CookieConsent';
 import { AdsPixels } from '@/components/AdsPixels';
+import { PaletteSwitcher, PALETTE_BOOT_SCRIPT } from '@/components/PaletteSwitcher';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
 
@@ -139,8 +140,10 @@ export default async function RootLayout({
   const dir = RTL_LOCALES.has(locale) ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale} dir={dir} className="dark">
+    <html lang={locale} dir={dir} className="dark" suppressHydrationWarning>
       <head>
+        {/* Rebrand preview: apply the chosen palette before first paint. */}
+        <script dangerouslySetInnerHTML={{ __html: PALETTE_BOOT_SCRIPT }} />
         {/* Google reads the favicon on its own slow schedule and renders it
             on a light circle. The mark is white, so it needs to carry its own
             dark background or it disappears there — and on a dark surface a
@@ -165,6 +168,7 @@ export default async function RootLayout({
           {children}
           <CookieConsent />
           <AdsPixels />
+          <PaletteSwitcher />
         </NextIntlClientProvider>
       </body>
     </html>

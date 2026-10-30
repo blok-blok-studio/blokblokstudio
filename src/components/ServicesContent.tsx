@@ -14,12 +14,12 @@ import { MagneticButton } from './MagneticButton';
 const serviceAccents = [
   '#4ade80', // AI Agent Ecosystems, green
   '#60a5fa', // Conversational AI, blue
-  '#fb923c', // Workflow Automation, orange
+  'var(--bb-tint-400)', // Workflow Automation, orange
   '#a78bfa', // AI Content Systems, purple
   '#f87171', // Client Dashboards, red/coral
   '#60a5fa', // Websites, blue
   '#c084fc', // Branding, purple/magenta
-  '#fb923c', // Google Ads, orange
+  'var(--bb-tint-400)', // Google Ads, orange
   '#f87171', // Meta Ads, red/coral
 ];
 
