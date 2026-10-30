@@ -103,17 +103,32 @@ export function V2Globe() {
     flyTo(c);
   };
 
-  const onReady = () => {
-    const g = globeRef.current;
-    if (!g) return;
-    const controls = g.controls();
-    controls.autoRotate = true;
-    controls.autoRotateSpeed = 0.55;
-    controls.enableZoom = false;
-    controls.enablePan = false;
-    g.pointOfView({ lat: 32, lng: -30, altitude: 2.1 }, 0);
-    setReady(true);
-  };
+  // Ready must not depend on the ref: on a cold load globe.gl can fire
+  // globeReady before React has attached the ref, and bailing out there
+  // left the canvas hidden forever. Flip the flag, then configure the
+  // controls as soon as the ref exists.
+  const onReady = () => setReady(true);
+
+  useEffect(() => {
+    if (!ready) return;
+    let tries = 0;
+    const id = window.setInterval(() => {
+      const g = globeRef.current;
+      tries += 1;
+      if (g) {
+        window.clearInterval(id);
+        const controls = g.controls();
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 0.55;
+        controls.enableZoom = false;
+        controls.enablePan = false;
+        g.pointOfView({ lat: 32, lng: -30, altitude: 2.1 }, 0);
+      } else if (tries > 60) {
+        window.clearInterval(id);
+      }
+    }, 50);
+    return () => window.clearInterval(id);
+  }, [ready]);
 
   const resume = () => {
     const g = globeRef.current;
@@ -199,7 +214,7 @@ export function V2Globe() {
               </div>
             )}
             {webgl && size > 0 && (
-              <div className={`transition-opacity duration-700 ${ready ? 'opacity-100' : 'opacity-0'}`}>
+              <div>
                 <Globe
                   ref={globeRef}
                   width={size}
@@ -207,6 +222,7 @@ export function V2Globe() {
                   backgroundColor="rgba(0,0,0,0)"
                   rendererConfig={{ antialias: true, alpha: true }}
                   animateIn={false}
+                  waitForGlobeReady={false}
                   onGlobeReady={onReady}
                   globeMaterial={material}
                   showAtmosphere
