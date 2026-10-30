@@ -193,15 +193,17 @@ export function V2Globe() {
         wrap.appendChild(head);
         rows.forEach((lines) => {
           lines.forEach((text, i) => {
-            const isLink = i === 0 && lines.length === 2 && lines[1].startsWith('http');
-            if (i === 1 && lines[1].startsWith('http')) return; // href slot, not a text line
+            const isLink = i === 0 && lines.length === 2 && /^(https?:\/\/|\/)/.test(lines[1]);
+            if (i === 1 && /^(https?:\/\/|\/)/.test(lines[1])) return; // href slot, not a text line
             const row = document.createElement(isLink ? 'a' : 'div');
             row.textContent = text;
             if (isLink) {
               const a = row as HTMLAnchorElement;
               a.href = lines[1];
-              a.target = '_blank';
-              a.rel = 'noopener noreferrer';
+              if (!lines[1].startsWith('/')) {
+                a.target = '_blank';
+                a.rel = 'noopener noreferrer';
+              }
               a.style.cssText = 'display:block;font-size:12px;color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,.3);text-underline-offset:3px;cursor:pointer;';
               a.addEventListener('mouseenter', () => { a.style.textDecorationColor = '#fff'; });
               a.addEventListener('mouseleave', () => { a.style.textDecorationColor = 'rgba(255,255,255,.3)'; });
@@ -449,8 +451,8 @@ export function V2Globe() {
                                           {cl.url ? (
                                             <a
                                               href={cl.url}
-                                              target="_blank"
-                                              rel="noopener noreferrer"
+                                              target={cl.url.startsWith('/') ? undefined : '_blank'}
+                                              rel={cl.url.startsWith('/') ? undefined : 'noopener noreferrer'}
                                               onClick={(e) => e.stopPropagation()}
                                               className="transition-colors hover:text-white"
                                             >
