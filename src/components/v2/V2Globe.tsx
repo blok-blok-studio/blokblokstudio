@@ -97,18 +97,24 @@ export function V2Globe() {
   );
 
   // Screen-space label: fixed pixel size, anchored to one side of the marker.
+  // The outer div is positioned by three's CSS2DRenderer (it overwrites that
+  // element's transform every frame), so the anchor offset lives on an inner
+  // span the renderer never touches.
   const makeLabel = useCallback((d: object) => {
     const c = d as ClientCity;
-    const el = document.createElement('div');
-    el.textContent = c.city;
+    const outer = document.createElement('div');
+    outer.style.pointerEvents = 'none';
+    const inner = document.createElement('span');
+    inner.textContent = c.city;
     const anchor = c.labelAnchor ?? 'right';
     const shift =
-      anchor === 'left' ? 'translate(calc(-100% - 10px), -50%)'
-      : anchor === 'top' ? 'translate(-50%, calc(-100% - 10px))'
-      : anchor === 'bottom' ? 'translate(-50%, 10px)'
-      : 'translate(10px, -50%)';
-    el.style.cssText = `position:absolute;transform:${shift};font-family:var(--font-inter),Inter,sans-serif;font-size:12px;line-height:1;letter-spacing:.02em;color:rgba(255,255,255,.92);text-shadow:0 1px 6px rgba(0,0,0,.9);white-space:nowrap;pointer-events:none;transition:opacity .3s;`;
-    return el;
+      anchor === 'left' ? 'translate(calc(-100% - 12px), -50%)'
+      : anchor === 'top' ? 'translate(-50%, calc(-100% - 12px))'
+      : anchor === 'bottom' ? 'translate(-50%, 12px)'
+      : 'translate(12px, -50%)';
+    inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};font-family:var(--font-inter),Inter,sans-serif;font-size:12px;line-height:1;letter-spacing:.02em;color:rgba(255,255,255,.92);text-shadow:0 1px 6px rgba(0,0,0,.9);white-space:nowrap;`;
+    outer.appendChild(inner);
+    return outer;
   }, []);
 
   const flyTo = useCallback((c: ClientCity) => {
