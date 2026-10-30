@@ -103,14 +103,13 @@ export function V2Globe() {
     flyTo(c);
   };
 
-  // Ready must not depend on the ref: on a cold load globe.gl can fire
-  // globeReady before React has attached the ref, and bailing out there
-  // left the canvas hidden forever. Flip the flag, then configure the
-  // controls as soon as the ref exists.
-  const onReady = () => setReady(true);
-
+  // onGlobeReady proved unreliable (it can fire before React attaches the
+  // ref, or not at all with waitForGlobeReady off), so configuration does
+  // not depend on it. Once the Globe is rendered, poll for the ref and set
+  // up controls and camera the moment it exists.
+  const mounted = webgl === true && size > 0;
   useEffect(() => {
-    if (!ready) return;
+    if (!mounted) return;
     let tries = 0;
     const id = window.setInterval(() => {
       const g = globeRef.current;
@@ -128,12 +127,13 @@ export function V2Globe() {
         controls.maxDistance = 340;
         controls.enablePan = false;
         g.pointOfView({ lat: 32, lng: -30, altitude: 2.1 }, 0);
-      } else if (tries > 60) {
+        setReady(true);
+      } else if (tries > 200) {
         window.clearInterval(id);
       }
     }, 50);
     return () => window.clearInterval(id);
-  }, [ready]);
+  }, [mounted]);
 
   const resume = () => {
     const g = globeRef.current;
@@ -228,7 +228,6 @@ export function V2Globe() {
                   rendererConfig={{ antialias: true, alpha: true }}
                   animateIn={false}
                   waitForGlobeReady={false}
-                  onGlobeReady={onReady}
                   globeMaterial={material}
                   showAtmosphere
                   atmosphereColor={accent}
