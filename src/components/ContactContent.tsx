@@ -66,6 +66,7 @@ import { useState, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
 import { Turnstile } from './Turnstile';
+import { clientCities } from '@/data/client-locations';
 import { motion } from 'framer-motion';
 
 /**
@@ -83,6 +84,7 @@ export function ContactContent() {
    * (e.g., messages/en.json → "contact": { ... }).
    */
   const t = useTranslations('contact');
+  const th = useTranslations('home');
 
   /**
    * Submission state, controls whether to show the form or the success message.
@@ -367,95 +369,37 @@ export function ContactContent() {
                   under the page H1 (don't skip levels). */}
               <h2 className="text-lg font-semibold">{t('info_title')}</h2>
 
-              {/* Contact info rows */}
-              <div className="space-y-6">
-
-                {/* --------------------------------------------------
-                    ADDRESS / LOCATION ROW
-                    --------------------------------------------------
-                    Icon: map pin SVG
-                    TO EDIT: Change "contact.info_address" in translation files.
-                    This is plain text (not a link).
-                */}
-                <div className="flex items-start gap-4">
-                  {/* Location pin icon container */}
-                  <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center flex-shrink-0">
-                    <svg
-                      className="w-5 h-5 text-gray-400"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={1.5}
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={1.5}
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-500 mb-1">{tu('contact_location')}</p>
-                    <p className="text-sm">{t('info_address')}</p>
-                  </div>
-                </div>
+              {/* Where we are: real studio locations from the globe data, no fake map. */}
+              <div>
+                <p className="text-[11px] uppercase tracking-[0.2em] text-gray-500">{tu('contact_location')}</p>
+                <ul className="mt-4 divide-y divide-white/10">
+                  {clientCities.filter((c) => c.studio).map((c) => (
+                    <li key={c.city} className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 py-3 text-sm">
+                      <span className="text-white">
+                        {c.city}
+                        {c.region ? <span className="text-gray-400">, {c.region}</span> : null}
+                        {c.tag && (
+                          <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
+                            {c.tag}
+                          </span>
+                        )}
+                      </span>
+                      <span className="text-gray-500">{c.team?.map((m) => m.name).join(' · ')}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
-              {/* ----------------------------------------------------------
-                  MAP PLACEHOLDER
-                  ----------------------------------------------------------
-                  Currently shows a styled placeholder with a map icon.
-                  This does NOT display a real map.
-
-                  TO REPLACE WITH A REAL MAP:
-                    Remove or replace the contents of this div with an
-                    actual map component or iframe. For example:
-
-                    Google Maps embed:
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=YOUR_EMBED_PARAMS"
-                        className="w-full h-full border-0"
-                        allowFullScreen
-                        loading="lazy"
-                      />
-
-                    Or use a library like react-leaflet, @vis.gl/react-google-maps, etc.
-              */}
-              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 overflow-hidden relative">
-                {/* Subtle grid pattern overlay */}
-                <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:20px_20px]" />
-                {/* Germany outline with Berlin pin */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <svg
-                    viewBox="0 0 400 480"
-                    className="w-[70%] h-[85%]"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    {/* Germany outline */}
-                    <path
-                      d="M200 20 L215 25 L230 22 L248 30 L260 28 L275 35 L290 32 L305 40 L315 55 L320 70 L330 80 L340 95 L345 110 L350 130 L355 145 L360 160 L358 175 L350 190 L345 205 L340 215 L330 225 L325 240 L320 255 L310 265 L300 275 L295 290 L290 305 L285 315 L275 325 L265 340 L255 350 L245 360 L235 365 L225 370 L215 380 L205 390 L195 395 L185 390 L175 385 L165 375 L155 365 L145 355 L135 345 L125 335 L118 320 L112 305 L105 290 L100 275 L95 260 L90 245 L85 230 L80 215 L78 200 L75 185 L72 170 L70 155 L68 140 L72 125 L78 110 L85 95 L92 82 L100 70 L110 58 L120 48 L132 40 L145 35 L158 30 L170 26 L182 23 L192 21 Z"
-                      stroke="rgba(255,255,255,0.12)"
-                      strokeWidth="1.5"
-                      fill="rgba(255,255,255,0.03)"
-                    />
-                    {/* Berlin pin - pulsing dot */}
-                    <circle cx="248" cy="155" r="12" fill="rgba(255,255,255,0.06)">
-                      <animate attributeName="r" values="12;18;12" dur="2s" repeatCount="indefinite" />
-                      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
-                    </circle>
-                    <circle cx="248" cy="155" r="5" fill="white" fillOpacity="0.7" />
-                    <circle cx="248" cy="155" r="2.5" fill="white" />
-                    {/* Berlin label */}
-                    <text x="266" y="159" fill="rgba(255,255,255,0.5)" fontSize="13" fontFamily="system-ui, sans-serif" fontWeight="500">Berlin</text>
-                  </svg>
-                </div>
+              {/* Direct lines */}
+              <div className="grid gap-2">
+                <a href="https://wa.me/491627055848" target="_blank" rel="noopener noreferrer" className="group flex items-center justify-between rounded-2xl border border-white/10 px-5 py-4 text-sm text-white transition-colors hover:bg-white/5">
+                  {th('v2_whatsapp')}
+                  <span aria-hidden="true" className="text-orange-500 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5">↗</span>
+                </a>
+                <a href="https://calendar.app.google/oAcFYPRKYB9b4J1c7" target="_blank" rel="noopener noreferrer" className="group flex items-center justify-between rounded-2xl border border-white/10 px-5 py-4 text-sm text-white transition-colors hover:bg-white/5">
+                  {th('v2_book')}
+                  <span aria-hidden="true" className="text-orange-500 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5">↗</span>
+                </a>
               </div>
             </div>
           </AnimatedSection>
