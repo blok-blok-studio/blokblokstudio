@@ -736,7 +736,2137 @@
     "timeline": "Süre",
     "commitment": "Taahhüt",
     "ideal_for": "Şunlar için ideal",
-    "custom_quote": "Size özel teklif ister misiniz?"
+    "custom_quote": "Size özel teklif ister misiniz?",
+    "hero_title_a": "Ne alacağınız,",
+    "hero_title_em": "madde madde.",
+    "hero_sub": "AI destekli web siteleri, uygulamalar, otomasyonlar, reklamlar, marka kimliği ve sosyal medya yönetimi. Her iş kapsamınıza göre ayrı fiyatlandırılır ve teslimatlar yazıya dökülür; böylece ikimiz de ne inşa ettiğimizi biliriz.",
+    "tabs": {
+      "web": "Web Geliştirme",
+      "app": "Uygulama Geliştirme",
+      "social": "Sosyal Medya",
+      "marketing": "Pazarlama",
+      "aiAgents": "AI Ajanları",
+      "saas": "Özel SaaS",
+      "branding": "Marka Stratejisi"
+    },
+    "sections": {
+      "oneTime": "Tek Seferlik Projeler",
+      "webSupport": "Aylık Paketler",
+      "appBuild": "Tek Seferlik Geliştirme",
+      "appSupport": "Aylık Paketler",
+      "socialSetup": "Tek Seferlik Kurulum",
+      "social": "Aylık Yönetim",
+      "marketingBuild": "Tek Seferlik Projeler",
+      "monthly": "Aylık Paketler",
+      "aiAgents": "Tek Seferlik Geliştirme",
+      "monthlyAgent": "Aylık Paket",
+      "customBuild": "Tek Seferlik Geliştirme",
+      "customSupport": "Aylık Paketler",
+      "brandingBuild": "Tek Seferlik Projeler",
+      "brandingSupport": "Aylık Paketler"
+    },
+    "hide": "Gizle",
+    "view": "Görüntüle",
+    "not_included": "Neler Dahil Değil",
+    "cta_sub": "Her iş ayrı ayrı kapsamlandırılır ve fiyatlandırılır. Ücretsiz 15 dakikalık bir görüşme ayarlayın, 48 saat içinde size özel teklifi gönderelim.",
+    "cta_button": "Strateji Görüşmesi Ayarla",
+    "pkg": {
+      "oneTime": [
+        {
+          "name": "Tek Sayfa Lansmanı",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "Sade bir online varlık için en iyisi",
+          "tl": "2-3 hafta",
+          "scope": [
+            {
+              "i": "Özel açılış sayfası (1 sayfa)",
+              "l": "Next.js ile geliştirilmiş, tamamen özel tasarım, mobil uyumlu tek sayfalık web sitesi. Kaydırmalı bölümler: hero, hakkımızda, hizmetler, referanslar ve iletişim formu. Masaüstü, tablet ve mobil için duyarlı düzen. SEO meta başlığı ve açıklaması yazılır. SSL sertifikası ve Vercel üzerinde hosting kurulumu dahildir."
+            },
+            {
+              "i": "Marka kimliği (logo + renkler)",
+              "l": "Mockup olarak sunulan 2 ilk logo konsepti. Son rötuş için 1 tanesini siz seçersiniz. Teslimatlar: PNG, SVG ve PDF formatlarında logo dosyaları (renkli, beyaz ve siyah sürümler). 1 ana renk paleti (hex kodlarıyla 5 renk) ve 1 yazı tipi eşleşmesi (başlık + metin). Bu seviyede tam marka kılavuzu dokümanı yoktur."
+            },
+            {
+              "i": "Analitik ve takip",
+              "l": "Google Analytics 4 kurulur ve yapılandırılır. 1 dönüşüm hedefi tanımlanır (ör. form gönderimi veya telefon numarasına tıklama). Google Search Console bağlanır. CTA butonlarında temel olay takibi."
+            },
+            {
+              "i": "Tasarım revizyonları",
+              "l": "2 revizyon turu. \"Tur\" = 1 toplu geri bildirim seti. Geri bildirim her incelemeden sonra 5 iş günü içinde iletilmelidir. Birden fazla e-postaya yayılmış kısmi veya parça parça geri bildirim kabul edilmez."
+            },
+            {
+              "i": "İçerik ve metin",
+              "l": "Tüm yazılı içeriği (başlıklar, gövde metni, biyografiler, hizmet açıklamaları) müşteri sağlar. Düzen, biçimlendirme ve yerleşim bizde. Metin yazarlığı isterseniz sayfa başına $200 ile eklenebilir."
+            }
+          ],
+          "ov": [
+            "Ek revizyon turu: $300",
+            "Metin yazarlığı: $200/sayfa",
+            "Ek bölüm: $250"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vade). Müşteri onayı VEYA 2 revizyon turu sonrasında proje tamamlanmış sayılır. Onay sonrası çalışma: $175/saat.",
+          "bridge": "Lansman sonrası 14 gün izleme dahildir (hata düzeltmeleri ve küçük ayarlar). Daha fazla sayfa veya özellik mi lazım? AI sohbet ve CRM kurulumuyla 5 sayfalık tam site için Başlangıç Lansmanı'na ($6,500) geçin.",
+          "ideal": "Yan projeler, kişisel markalar, basit açılış sayfaları"
+        },
+        {
+          "name": "Başlangıç Lansmanı",
+          "price": 6500,
+          "disp": "$6,500",
+          "tag": "Yeni işletmeler için en iyisi",
+          "tl": "4-6 hafta",
+          "scope": [
+            {
+              "i": "Özel web sitesi (5 sayfa)",
+              "l": "Next.js ile geliştirilmiş, tamamen özel tasarım, mobil uyumlu web sitesi. İçerik: Ana Sayfa, Hakkımızda, Hizmetler, İletişim ve seçeceğiniz 1 ek sayfa. Her sayfa masaüstü, tablet ve mobil için duyarlı düzen içerir. 5 sayfanın tamamı için SEO meta başlıkları ve açıklamaları yazılır. SSL sertifikası ve Vercel üzerinde hosting kurulumu dahildir."
+            },
+            {
+              "i": "Marka kimliği (logo + renkler)",
+              "l": "Mockup olarak sunulan 2 ilk logo konsepti. Son rötuş için 1 tanesini siz seçersiniz. Teslimatlar: PNG, SVG ve PDF formatlarında logo dosyaları (renkli, beyaz ve siyah sürümler). 1 ana renk paleti (hex kodlarıyla 5 renk) ve 1 yazı tipi eşleşmesi (başlık + metin). Bu seviyede tam marka kılavuzu dokümanı yoktur."
+            },
+            {
+              "i": "AI sohbet widget'ı",
+              "l": "Web sitenize gömülü 1 AI destekli chatbot. Sağladığınız 25 soru-cevap çiftiyle eğitilir (ör. fiyatlar, çalışma saatleri, hizmetler). Talepleri CRM'inize ileten bir potansiyel müşteri formu içerir. Temel karşılama mesajı ve yedek yanıt yapılandırılır."
+            },
+            {
+              "i": "CRM kurulumu (GoHighLevel)",
+              "l": "5 aşamalı 1 satış hattı oluşturulur (ör. Yeni Müşteri Adayı → İletişime Geçildi → Teklif Gönderildi → Kazanıldı → Kaybedildi). 5 otomasyon dizisi (ör. yeni aday e-posta bildirimi, takip hatırlatması, randevu onayı, cevapsız arama sonrası SMS, hoş geldin e-postası). Sağlanırsa CSV'den kişi aktarımı (en fazla 500 kişi)."
+            },
+            {
+              "i": "Analitik ve takip",
+              "l": "Google Analytics 4 kurulur ve yapılandırılır. 1 dönüşüm hedefi tanımlanır (ör. form gönderimi, telefon numarasına tıklama veya chatbot etkileşimi). Google Search Console bağlanır. CTA butonlarında temel olay takibi."
+            },
+            {
+              "i": "Tasarım revizyonları",
+              "l": "Sayfa başına 2 revizyon turu. \"Tur\" = 1 toplu geri bildirim seti. Geri bildirim her incelemeden sonra 5 iş günü içinde iletilmelidir. Birden fazla e-postaya yayılmış kısmi veya parça parça geri bildirim kabul edilmez."
+            },
+            {
+              "i": "İçerik ve metin",
+              "l": "Tüm yazılı içeriği (başlıklar, gövde metni, biyografiler, hizmet açıklamaları) müşteri sağlar. Düzen, biçimlendirme ve yerleşim bizde. Metin yazarlığı isterseniz sayfa başına $200 ile eklenebilir."
+            }
+          ],
+          "ov": [
+            "Ek sayfalar: $500/sayfa",
+            "Ek revizyon turu: $300",
+            "Metin yazarlığı: $200/sayfa",
+            "Ek soru-cevap (25+): $250/paket",
+            "Ek otomasyon: adet başı $350"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vade). Müşteri onayı VEYA 2 revizyon turu sonrasında proje tamamlanmış sayılır. Onay sonrası çalışma: $175/saat.",
+          "bridge": "Lansman sonrası 30 gün izleme dahildir (hata düzeltmeleri, chatbot kontrolleri, CRM sağlığı). 30. günden sonra süregelen bakım, güncellemeler ve AI ayarları, sistemleriniz optimize kalsın diye Bakım ve İzleme paketine ($1,500/ay) geçer.",
+          "ideal": "Startup'lar, tek kişilik girişimler, yerel işletmeler"
+        },
+        {
+          "name": "Büyüme Hızlandırıcı",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "En Popüler",
+          "pop": true,
+          "tl": "6-8 hafta",
+          "scope": [
+            {
+              "i": "Özel web sitesi (10 sayfa + CMS)",
+              "l": "Entegre CMS'li (blog veya portföy) Next.js ile geliştirilmiş, tamamen tasarlanmış 10 mobil uyumlu sayfa. İçerik: Ana Sayfa, Hakkımızda, Hizmetler (3 hizmet alt sayfası), Blog, İletişim ve 2 ek sayfa. 3 özel kaydırma veya hover animasyonu. Tüm sayfalarda sayfa içi SEO (meta başlıklar, açıklamalar, alt etiketleri, şema işaretlemesi). SSL, Vercel hosting ve Google'a site haritası gönderimi dahildir."
+            },
+            {
+              "i": "Marka kimliği (tam kılavuz)",
+              "l": "Yaşam tarzı mockup'larıyla sunulan 3 ilk logo konsepti. Son rötuş için 1 tanesi seçilir. Tam marka kılavuzu PDF'i (10 sayfa): logo kullanım kuralları, minimum boyutlar, koruma alanı, renk paleti (ana + ikincil, hex/RGB/CMYK), tipografi sistemi (boyutlarıyla başlık, alt başlık, metin yazı tipleri) ve ses tonu notları. Canva veya Figma'da teslim edilen 5 markalı sosyal medya gönderi şablonu (düzenlenebilir)."
+            },
+            {
+              "i": "AI chatbot",
+              "l": "50 soru-cevap çiftiyle eğitilmiş 1 AI destekli chatbot. Randevu alma entegrasyonu içerir (Google Calendar veya Calendly'nize bağlı). Otomatik CRM kaydıyla potansiyel müşteri toplama. Özel karşılama, yedek yanıtlar ve mesai dışı mesajlar yapılandırılır. Chatbot 3 web sayfasına gömülür."
+            },
+            {
+              "i": "AI sesli ajan",
+              "l": "Aramaları yanıtlayan, adayları eleyen ve randevu alan 1 gelen çağrı AI sesli ajanı. 1 özel arama senaryosu yazılır ve yapılandırılır. İlk ay için 500 ses dakikası dahildir. Arama kayıtları CRM'inizde saklanır. Temel çağrı yönlendirme içerir (AI çözemezse size aktarım)."
+            },
+            {
+              "i": "İş akışı otomasyonu (toplam 8)",
+              "l": "GoHighLevel'da kurulan 8 otomasyon. Örnekler: yeni aday bildirimi (e-posta + SMS), randevu hatırlatma dizisi (24 saat + 1 saat önce), cevapsız arama sonrası SMS, randevu sonrası takip, hizmet sonrası yorum isteği, yarım kalan form için yeniden iletişim, doğum günü/yıl dönümü e-postası ve satış hattı aşama değişikliği tetikleyicileri. Her otomasyon en fazla 5 adım içerir."
+            },
+            {
+              "i": "Google Ads kurulumu",
+              "l": "3 reklam grubuyla (farklı anahtar kelime temalarını hedefleyen) 1 Google Arama kampanyası. Anahtar kelime araştırması ve negatif anahtar kelime listesi dahildir. 6 reklam varyasyonu yazılır (reklam grubu başına 2). 1 özel açılış sayfası tasarlanır, geliştirilir ve dönüşüm takibiyle bağlanır. Google Ads dönüşüm takibi ve Google Tag Manager yapılandırılır. Reklam harcaması ayrı faturalandırılır ve doğrudan Google'a sizin tarafınızdan ödenir."
+            },
+            {
+              "i": "Müşteri paneli",
+              "l": "GHL veya Google Looker Studio'da kurulan 1 gerçek zamanlı panel. En fazla 6 widget: site trafiği, aday sayısı, satış hattı değeri, dönüşüm oranı, reklam performansı ve chatbot etkileşimleri. Panel otomatik güncellenir ve paylaşılabilir bir bağlantıyla erişilir."
+            },
+            {
+              "i": "Tasarım revizyonları",
+              "l": "Teslimat başına 3 revizyon turu (web sayfaları, marka varlıkları, reklam kreatifleri ve panel). \"Tur\" = 5 iş günü içinde iletilen 1 toplu geri bildirim seti."
+            },
+            {
+              "i": "İçerik ve metin",
+              "l": "Ana sayfanız ve hizmetler sayfanız için metinleri biz yazarız (toplam 1.500 kelime). Diğer tüm sayfa içeriğini siz sağlarsınız. Blog CMS'i boş teslim edilir; siz veya ekibiniz yazı oluşturabilir ya da içerik paketimizi ekleyebilirsiniz."
+            }
+          ],
+          "ov": [
+            "Ek sayfalar: $500/sayfa",
+            "Ek revizyon: $300/tur",
+            "Ek reklam kampanyası: $1,500",
+            "Ek ses senaryosu: $750",
+            "Otomasyonlar (8+): adet başı $350",
+            "Ek açılış sayfası: $900",
+            "Dahil olanın ötesinde metin yazarlığı: $200/sayfa"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vade). Onay VEYA 3 revizyon turu sonrasında proje tamamlanmış sayılır. Onay sonrası çalışma: $175/saat.",
+          "bridge": "Lansman sonrası 30 gün dahildir: reklam yönetimi, AI izleme ve hata düzeltmeleri. 30. günden sonra reklamlarınız, AI ajanlarınız ve otomasyonlarınızın performansı sürsün diye sürekli optimizasyon gerekir. İvmeyi korumak için Büyüme Motoru paketini ($3,500/ay) öneririz.",
+          "ideal": "Sistemlerle ölçeklenen büyüyen işletmeler"
+        },
+        {
+          "name": "Tam Hakimiyet",
+          "price": 18000,
+          "disp": "$18,000+",
+          "tag": "Kurumsal seviye",
+          "tl": "8-12 hafta",
+          "scope": [
+            {
+              "i": "Premium web sitesi (15 sayfa + e-ticaret)",
+              "l": "Headless CMS'li (Sanity veya Contentful) Next.js ile geliştirilmiş, tamamen tasarlanmış 15 sayfa. 6 özel animasyon (paralaks kaydırma, hover efektleri, sayfa geçişleri, mikro etkileşimler). E-ticarete hazır: Shopify veya Stripe entegrasyonuyla 20 ürün listesi, alışveriş sepeti ve ödeme. Blog, kaynak merkezi veya vaka çalışması bölümü içerir. Tam sayfa içi SEO, şema işaretlemesi, Open Graph etiketleri, XML site haritası ve robots.txt. SSL, Vercel hosting ve CDN optimizasyonu dahildir."
+            },
+            {
+              "i": "Eksiksiz marka sistemi",
+              "l": "Yaşam tarzı mockup'larıyla 5 ilk logo konsepti. Tam rötuş için 1 tanesi seçilir. Eksiksiz marka kılavuzu dokümanı (20 sayfa): logo kullanımı, koruma alanı, minimum boyutlar, ana ve ikincil renk paletleri, tipografi hiyerarşisi, fotoğraf stil kılavuzu, ikon stili, marka sesi ve ton kılavuzu. Kırtasiye tasarımı: kartvizit, antetli kağıt ve e-posta imza şablonu. Sunum şablonu (15 slayt, Google Slides veya Keynote'ta düzenlenebilir). 10 markalı sosyal medya şablonu (Canva veya Figma, düzenlenebilir)."
+            },
+            {
+              "i": "AI ajan ekosistemi (3 ajan)",
+              "l": "Bir sistem olarak çalışan 3 birbirine bağlı AI ajanı. Örnek kurulum: Ajan 1 chatbot üzerinden adayları toplar ve puanlar (sıcak/ılık/soğuk). Ajan 2 puana göre kişiselleştirilmiş e-posta dizileri gönderir. Ajan 3 sıcak adaylar için SMS takiplerini tetikler. Tüm aday yolculuğunu haritalayan 1 özel karar ağacı. Tüm ajanlar otomatik kişi etiketleme ve satış hattı hareketiyle GHL CRM'inize bağlıdır."
+            },
+            {
+              "i": "Konuşma AI paketi",
+              "l": "100 soru-cevap çiftiyle eğitilmiş, site geneline gömülü 1 AI chatbot. Randevu alma, aday toplama, SSS yanıtlama ve mesai dışı mesajlaşma içerir. 2 özel arama senaryolu 1 AI sesli ajan (ör. gelen satış + randevu onayı). İlk ay için 1.000 ses dakikası dahildir. Arama kayıtları CRM'de saklanır. 5 SMS otomasyon dizisi (ör. randevu hatırlatmaları, arama sonrası takip, yorum isteği, yeniden iletişim, promosyon gönderimi)."
+            },
+            {
+              "i": "İş akışı otomasyonu (toplam 15)",
+              "l": "CRM'iniz, ödeme sisteminiz ve takviminiz genelinde 15 otomasyon. Örnekler: aday besleme dizileri, fatura hatırlatmaları, ödeme onayı, onboarding iş akışları, yorum istekleri, geri kazanım kampanyaları, dahili ekip bildirimleri, satış hattı aşama otomasyonları ve doğum günü/kilometre taşı e-postaları. Her otomasyon koşullu mantıkla en fazla 7 adım içerir."
+            },
+            {
+              "i": "Google + Meta Ads (tam kurulum)",
+              "l": "5 reklam grubu ve 10 reklam varyasyonuyla 1 Google Arama kampanyası. Negatif anahtar kelime listeleriyle tam anahtar kelime araştırması. Farklı kitleleri hedefleyen 3 reklam setiyle 1 Meta (Facebook/Instagram) kampanyası. Hem Google hem Meta için web sitenize yeniden pazarlama pikseli kurulur. Dönüşüm için tasarlanmış, geliştirilmiş ve optimize edilmiş 2 özel açılış sayfası. Tüm dönüşüm takibi Google Tag Manager üzerinden yapılandırılır. Reklam kreatifleri tasarlanır (6 statik görsel + 2 carousel reklam). Reklam harcaması ayrı faturalandırılır. Google ve Meta'ya doğrudan siz ödersiniz."
+            },
+            {
+              "i": "AI içerik sistemi",
+              "l": "Tam içerik hattı yapılandırılır: videodan klibe iş akışı (uzun video yüklersiniz, AI sosyal medya klipleri üretir), AI destekli blog yazısı üretim şablonu ve Buffer veya Later'da sosyal medya zamanlama kurulumu. İlk ayın içeriği üretilir ve yayınlanır: 4 blog yazısı (her biri en fazla 1.000 kelime, SEO uyumlu) ve 12 sosyal medya gönderisi (görseller + açıklamalar). Sürekli kullanım için içerik takvimi şablonu sağlanır."
+            },
+            {
+              "i": "Yönetici paneli",
+              "l": "GHL veya Google Looker Studio'da 1 kapsamlı panel. 10 widget: site trafiği, aday hattı, dönüşüm oranı, Google Ads performansı (CPC, CTR, ROAS), Meta Ads performansı, chatbot etkileşimleri, sesli ajan arama hacmi, e-posta açılma/tıklama oranları, gelir atfı ve haftalık trend grafikleri. 3 alıcıya otomatik haftalık özet e-postası."
+            },
+            {
+              "i": "Tasarım revizyonları",
+              "l": "Tüm varlıklarda teslimat başına 3 revizyon turu. \"Tur\" = 5 iş günü içinde iletilen 1 toplu geri bildirim seti."
+            },
+            {
+              "i": "Metin yazarlığı",
+              "l": "10 web sayfası için tam profesyonel metin yazarlığı (başlıklar, gövde metni, CTA'lar, meta açıklamaları). Kalan sayfalar için müşteri ham malzeme, notlar veya madde işaretleri sağlar. Tüm Google ve Meta kampanyaları için reklam metinleri yazılır ve dahildir."
+            }
+          ],
+          "ov": [
+            "Ek sayfalar: $500",
+            "Ek revizyon: $350/tur",
+            "Ek AI ajanı: $2,500",
+            "Ek reklam kampanyası: $1,500",
+            "Ses senaryosu: $750",
+            "Otomasyonlar (15+): adet başı $400",
+            "Ürünler (20+): $75/ürün",
+            "1. aydan sonra içerik: aylık paket gerektirir"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vade). Onay VEYA 3 tur sonrasında proje tamamlanmış sayılır. Onay sonrası çalışma: $175/saat.",
+          "bridge": "Lansman sonrası 45 gün dahildir: tam izleme, reklam yönetimi, AI ayarları ve hata düzeltmeleri. 45. günden sonra AI ekosisteminiz, reklam kampanyalarınız ve içerik sistemleriniz sonuç üretsin diye sürekli yönetim gerekir. İhtiyacınıza göre Tam Ortaklık ($7,500/ay) veya Büyüme Motoru ($3,500/ay) paketini öneririz.",
+          "ideal": "Tam AI altyapısı isteyen köklü işletmeler"
+        }
+      ],
+      "socialSetup": [
+        {
+          "name": "Tek Platform Kurulumu",
+          "price": 1200,
+          "disp": "$1,200",
+          "tag": "Tek kanalı doğru kurun",
+          "tl": "3-5 gün",
+          "scope": [
+            {
+              "i": "Platform seçimi",
+              "l": "Seçeceğiniz 1 platform: Instagram, LinkedIn, Facebook, TikTok, YouTube, X (Twitter) veya Pinterest. Sıfırdan kurarız veya mevcut profilinizi baştan aşağı yenileriz."
+            },
+            {
+              "i": "Profil optimizasyonu",
+              "l": "Platforma özel biyografi yazılır (IG için en fazla 150 karakter, LinkedIn için en fazla 2.000 vb.). Profil fotoğrafı platform için yeniden boyutlandırılır ve optimize edilir. Markanıza uygun kapak görseli veya banner özel tasarlanır. Öne çıkan bölümler, hikaye öne çıkanları veya sabitlenmiş gönderiler yapılandırılır (uygun olduğunda). İletişim bilgileri, web sitesi bağlantısı, CTA butonları ve kategori/sektör etiketleri ayarlanır."
+            },
+            {
+              "i": "Görsel kimlik varlıkları",
+              "l": "Platforma göre boyutlandırılmış 1 özel profil fotoğrafı (markalı baş harfler, portre üzerine katman veya logo işareti). Marka renklerinize ve mesajınıza uygun 1 özel kapak görseli veya banner. Tüm dosyalar PNG ve düzenlenebilir formatta (Canva veya Figma) teslim edilir. Görsel varlıklarda 1 revizyon turu."
+            },
+            {
+              "i": "İçerik şablonları (3)",
+              "l": "Canva veya Figma'da tasarlanmış 3 markalı, yeniden kullanılabilir gönderi şablonu. İçerik: 1 alıntı/ipucu şablonu, 1 promosyon/hizmet şablonu ve 1 etkileşim şablonu (soru, anket veya CTA). Her şablon marka renklerinizi, yazı tiplerinizi ve logonuzu kullanır. Ekibiniz metin ve görselleri değiştirebilsin diye tamamen düzenlenebilir."
+            },
+            {
+              "i": "Hashtag ve anahtar kelime stratejisi",
+              "l": "Sektörünüze ve hedef kitlenize göre platforma özel hashtag veya anahtar kelime araştırması. 3 hashtag/anahtar kelime seti teslim edilir (ör. 1 geniş erişim seti, 1 niş set, 1 marka seti). Her set 15-30 hashtag veya anahtar kelime içerir. Kullanım talimatlarıyla paylaşılabilir bir doküman olarak teslim edilir."
+            },
+            {
+              "i": "Lansman içeriği (4 gönderi)",
+              "l": "Yayına hazır 4 gönderi: açıklamaları yazılmış statik görseller. İçerik: 1 tanıtım/hoş geldin gönderisi, 1 hizmet veya ürün vurgusu, 1 sosyal kanıt veya referans gönderisi ve 1 CTA veya etkileşim gönderisi. Görseller ilgili platforma göre boyutlandırılır. Açıklamalar strateji setlerinizden ilgili hashtag'leri içerir."
+            },
+            {
+              "i": "Platform kılavuzu (PDF)",
+              "l": "Platformunuza özel 1 sayfalık PDF. Kapsam: en iyi paylaşım saatleri, ideal paylaşım sıklığı, en iyi performans gösteren içerik türleri, hashtag kullanım ipuçları ve etkileşim için en iyi uygulamalar. Sektörünüze özel ve uygulanabilir."
+            }
+          ],
+          "ov": [
+            "Ek platform: her biri $1,200",
+            "Ek gönderi şablonları: adet başı $100",
+            "Ek lansman gönderileri (4+): adet başı $60",
+            "Revizyon turu: $175",
+            "Video içerik (Reels/Shorts): adet başı $175"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vade). Onay VEYA 1 revizyon turu sonrasında proje tamamlanmış sayılır. Teslimat sonrası değişiklikler: $175/saat.",
+          "bridge": "Profilleriniz kuruldu ve hazır. Aktif kalmaları ve büyümeleri için Sosyal Başlangıç paketimizi ($1,500/ay) veya $650/ay'dan başlayan tekil platform yönetimini ekleyin.",
+          "ideal": "Bir platformda sıfırdan başlayan işletmeler"
+        },
+        {
+          "name": "Çoklu Platform Lansmanı",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "En Popüler",
+          "pop": true,
+          "tl": "1-2 hafta",
+          "scope": [
+            {
+              "i": "Platformlar (3 dahil)",
+              "l": "3 platform seçin: Instagram, LinkedIn, Facebook, TikTok, YouTube, X veya Pinterest. Yeni profiller sıfırdan oluşturulur veya mevcut profiller tamamen yenilenir."
+            },
+            {
+              "i": "Profil optimizasyonu (3'ü de)",
+              "l": "Biyografiler platform başına yazılır ve optimize edilir. Profil fotoğrafları ve kapak görselleri/bannerlar her biri için özel tasarlanır (platform özelliklerine göre doğru boyutlandırılmış). CTA'lar, iletişim bilgileri, web sitesi bağlantıları ve kategori etiketleri yapılandırılır. Öne çıkanlar, öne çıkan bölümler veya sabitlenmiş gönderiler uygun olduğunda kurulur. Tüm profiller birbirine ve web sitenize çapraz bağlanır."
+            },
+            {
+              "i": "Tutarlı görsel kimlik",
+              "l": "Marka tutarlılığı için 3 platformda da uyumlu profil fotoğrafları ve bannerlar. Mevcut markanızla (veya tek seferlik bir projeyle birlikte alındıysa yeni markayla) uyumlu tasarlanır. PNG + düzenlenebilir Canva veya Figma dosyaları olarak teslim edilir. Tüm görsel varlıklarda 2 revizyon turu."
+            },
+            {
+              "i": "İçerik şablonları (toplam 15)",
+              "l": "Platform başına 5 markalı, yeniden kullanılabilir gönderi şablonu (toplam 15). Her set şunları içerir: 1 alıntı/ipucu, 1 promosyon, 1 referans/sosyal kanıt, 1 kamera arkası ve 1 etkileşim/CTA şablonu. Tüm şablonlar marka renkleriniz, yazı tipleriniz ve logonuzla Canva veya Figma'da düzenlenebilir. Şablonlar her platformun boyutlarına uyarlanır (ör. IG için kare, LinkedIn için yatay, TikTok için dikey)."
+            },
+            {
+              "i": "Hashtag ve anahtar kelime stratejisi",
+              "l": "Sektörünüze ve rakiplerinize göre platform başına araştırma. Platform başına 5 hashtag veya anahtar kelime seti (toplam 15). Her set 15-30 hashtag/anahtar kelime içerir ve şu şekilde düzenlenir: geniş erişim, niş, marka, trend ve konum bazlı. Kullanım kılavuzuyla paylaşılan bir tablo veya doküman olarak teslim edilir."
+            },
+            {
+              "i": "Lansman içeriği (toplam 18 gönderi)",
+              "l": "Platform başına yayına hazır 6 gönderi (toplam 18). Statik görsel ve carousel gönderi karışımı. Her gönderi şunları içerir: tasarlanmış görsel, yazılmış açıklama, ilgili hashtag'ler ve önerilen paylaşım saati. İçerik kapsamı: marka tanıtımı, hizmet vurgusu, referans/kanıt, eğitici ipucu, kamera arkası ve etkileşim/CTA."
+            },
+            {
+              "i": "30 günlük içerik takvimi",
+              "l": "30 günlük gönderi fikirlerini haritalayan tam takvim: önerilen gönderi türü, konu, açıklama ipuçları, en uygun paylaşım saatleri ve kullanılacak hashtag setleri. Her ay yeniden kullanıp uyarlayabileceğiniz bir Google Sheet veya Notion şablonu olarak teslim edilir."
+            },
+            {
+              "i": "Platform kılavuzları (3 PDF)",
+              "l": "Platform başına 1 PDF kılavuz: en iyi paylaşım saatleri, ideal sıklık, performans gösteren içerik türleri, hashtag ipuçları, etkileşim stratejileri ve algoritmaya özel tavsiyeler. Sektörünüze göre uyarlanmış."
+            },
+            {
+              "i": "Link-in-bio sayfası",
+              "l": "Linktree, Later veya özel geliştirilmiş 1 link-in-bio sayfası. En fazla 8 bağlantı yapılandırılır (web sitesi, hizmetler, randevu, sosyal profiller vb.). Marka renklerinize ve logonuza uygun stillendirilir."
+            }
+          ],
+          "ov": [
+            "Ek platform: her biri $500",
+            "Ek şablonlar: adet başı $75",
+            "Ek lansman gönderileri (6+): adet başı $50",
+            "Revizyon turu: $175",
+            "Video içerik: adet başı $175",
+            "Ek link-in-bio sayfası: $200"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vade). Onay VEYA 2 revizyon turu sonrasında proje tamamlanmış sayılır. Teslimat sonrası: $175/saat.",
+          "bridge": "Tüm platformlar 30 günlük planlanmış içerikle lansmana hazır. Büyümeye devam etmek için Sosyal Büyüme paketimizi ($2,500/ay) veya platform başına eklentileri öneririz.",
+          "ideal": "Sosyal medya varlığını yeni başlatan veya yenileyen işletmeler"
+        },
+        {
+          "name": "Tam Sosyal Medya Yenileme",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Baştan aşağı yenileme",
+          "tl": "2-3 hafta",
+          "scope": [
+            {
+              "i": "Platformlar (5 dahil)",
+              "l": "5 platform: Instagram, LinkedIn, Facebook, TikTok, YouTube, X ve/veya Pinterest. Mevcut profillerin tam denetimi, ardından eksiksiz yeniden markalama. Eski profiller yerinde güncellenir (takipçi veya geçmiş kaybı olmaz)."
+            },
+            {
+              "i": "Sosyal medya denetimi",
+              "l": "Her mevcut profilin ayrıntılı incelemesi: takipçi demografisi, etkileşim oranları, en iyi performans gösteren içerik, paylaşım düzeni ve profil bütünlük puanı. Seçtiğiniz (veya önerdiğimiz) 3 rakiple kıyaslama. İçerik, hashtag, etkileşim ve platform özelliklerindeki kaçırılan fırsatları belirleyen boşluk analizi. Uygulanabilir önerilerle yazılı denetim raporu (PDF, 3-5 sayfa) olarak teslim edilir."
+            },
+            {
+              "i": "Profil yenileme (tüm platformlar)",
+              "l": "Her platform için yeni biyografiler yazılır (arama ve dönüşüm için optimize edilmiş). Platform başına yeni profil fotoğrafları ve kapak görselleri/bannerlar tasarlanır. Tüm CTA'lar, iletişim bilgileri, bağlantılar, öne çıkanlar, öne çıkan bölümler ve sabitlenmiş gönderiler güncellenir. Tüm platformlarda marka sesi tutarlılığı sağlanır. Kategori etiketleri, sektör etiketleri ve hakkında bölümleri yenilenir."
+            },
+            {
+              "i": "Eksiksiz sosyal marka kiti",
+              "l": "Platform başına 10 markalı gönderi şablonu (5 platformda toplam 50). Şablon türleri: alıntılar, ipuçları, promosyonlar, referanslar, carousel'ler, önce/sonra, kamera arkası, ekip tanıtımları, duyurular ve etkileşim gönderileri. Hikaye şablonları: IG, Facebook ve TikTok için platform başına 5 (uygun olduğunda). Instagram için öne çıkan kapak ikonları (8 özel ikon). Tüm şablonlar Canva veya Figma'da, marka renkleriniz, yazı tipleriniz ve logonuzla tamamen düzenlenebilir."
+            },
+            {
+              "i": "Hashtag ve SEO stratejisi",
+              "l": "Nişiniz, kitleniz ve rakiplerinize göre platform başına derin araştırma. Platform başına 10 hashtag/anahtar kelime seti (toplam 50). Düzen: geniş erişim, niş, marka, trend, konum ve rakip boşluğu anahtar kelimeleri. Rakiplerinizin kullanıp sizin kullanmadığınız hashtag ve anahtar kelimeleri gösteren rakip boşluk analizi. Kullanım kılavuzu ve rotasyon programıyla paylaşılan tablo olarak teslim edilir."
+            },
+            {
+              "i": "Lansman içeriği (40 gönderi + 4 video)",
+              "l": "Platform başına yayına hazır 8 gönderi (toplam 40). Statik görsel, carousel ve metin tabanlı gönderi karışımı. En fazla 4 kısa video (Reels, Shorts veya TikTok). Sağladığınız görüntülerden kurgularız veya AI araçlarıyla üretiriz. Video çekmeyiz. Her gönderi şunları içerir: tasarlanmış görsel, yazılmış açıklama, hashtag'ler ve önerilen paylaşım saati."
+            },
+            {
+              "i": "60 günlük içerik takvimi",
+              "l": "Tüm platformlarda 60 günlük içeriği haritalayan tam takvim. İçerik: haftalık temalar/içerik sütunları, belirli gönderi konuları, açıklama ipuçları, hashtag setleri, en uygun paylaşım saatleri ve trend/reaktif içerik için alan. Google Sheet veya Notion şablonu olarak teslim edilir. Her ay uyarlayabileceğiniz yeniden kullanılabilir çerçeve."
+            },
+            {
+              "i": "Link-in-bio sayfası",
+              "l": "Özel tasarlanmış 1 link-in-bio sayfası (Linktree, Later veya özel geliştirilmiş). En fazla 12 bağlantı yapılandırılır ve yeni sosyal markanıza uygun stillendirilir. Platform destekliyorsa analitik takibi içerir."
+            },
+            {
+              "i": "YouTube kurulumu (dahilse)",
+              "l": "YouTube 5 platformunuzdan biriyse: kanal görselleri (banner + profil fotoğrafı) tasarlanır. Canva'da varsayılan küçük resim şablonu oluşturulur (her video için düzenlenebilir). Mevcut oynatma listeleri düzenlenir ve SEO için adlandırılır. Hakkında bölümü anahtar kelimelerle yeniden yazılır. Kanal etiketleri ve varsayılan yükleme ayarları arama görünürlüğü için yapılandırılır."
+            },
+            {
+              "i": "Revizyonlar",
+              "l": "Tüm teslimatlarda 2 revizyon turu (görsel varlıklar, şablonlar, denetim raporu, takvim). \"Tur\" = 5 iş günü içinde 1 toplu geri bildirim seti."
+            }
+          ],
+          "ov": [
+            "Ek platform: her biri $400",
+            "Ek şablonlar: adet başı $60",
+            "Ek lansman gönderileri (8+): adet başı $45",
+            "Ek video: adet başı $175",
+            "Revizyon turu: $250",
+            "YouTube intro/outro videosu: $600"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vade). Onay VEYA 2 revizyon turu sonrasında proje tamamlanmış sayılır. Teslimat sonrası: $175/saat.",
+          "bridge": "Tüm sosyal medya varlığınız yeniden inşa edildi ve 60 günlük içerikle lansmana hazır. İvmeyi korumak için Sosyal Hakimiyet ($4,500/ay) veya Sosyal Büyüme ($2,500/ay) paketini öneririz.",
+          "ideal": "Sosyal medya varlığı eskimiş veya tutarsız olan köklü işletmeler"
+        }
+      ],
+      "monthly": [
+        {
+          "name": "Bakım ve İzleme",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/ay",
+          "tag": "Her şey çalışsın",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Web sitesi bakımı",
+              "l": "Aylık eklenti, framework ve bağımlılık güncellemeleri. Kırık bağlantılar, düzen sorunları ve görüntüleme hataları için düzeltmeler. Sayfa hızı izleme ve optimizasyonu (görsel sıkıştırma, önbellekleme, lazy loading). Uyarılı çalışma süresi izleme. Yeni sayfa oluşturma, mevcut sayfaları yeniden tasarlama veya yeni özellik ekleme DAHİL DEĞİLDİR."
+            },
+            {
+              "i": "AI chatbot izleme",
+              "l": "Aylık çalışma süresi ve yanıt doğruluğu kontrolü. Ayda en fazla 10 soru-cevap çifti güncellemesi (yeni soru ekleme, yanıtları iyileştirme, hatalı yanıtları düzeltme). Aday toplama ve form gönderimi testi. Chatbot performans özeti aylık rapora dahildir."
+            },
+            {
+              "i": "Aylık performans raporu",
+              "l": "Her ayın 5'ine kadar e-postayla gönderilen 1 rapor: site trafiği (oturumlar, kullanıcılar, sayfa görüntülemeleri), en iyi performans gösteren sayfalar, aday sayısı ve kaynak dağılımı, dönüşüm oranı ve chatbot etkileşim istatistikleri. PDF veya panel bağlantısı olarak teslim edilir. Rapor gönderilir, canlı sunulmaz. Canlı görüşmeler eklenti olarak mevcuttur."
+            },
+            {
+              "i": "Tasarım güncellemeleri (2 saat/ay)",
+              "l": "Ayda 2 saat tasarım ve içerik güncellemesi. Kapsam: metin değişiklikleri, görsel değişimleri, buton güncellemeleri, küçük düzen ayarları ve banner değişimleri. Saatler yalnızca bir sonraki aya devreder (en fazla birikim: 4 saat). Yeni sayfa tasarımları, özellik geliştirme veya yapısal değişiklikler DAHİL DEĞİLDİR. Süre takip edilir ve raporlanır."
+            },
+            {
+              "i": "CRM satış hattı yönetimi",
+              "l": "GHL satış hattı sağlığınızın aylık incelemesi: takılı kalan adaylar, bayat fırsatlar ve otomasyon hataları. Ayda 3 otomasyon ayarı (ör. e-posta metnini güncelleme, tetikleyici zamanlamasını değiştirme, bozuk dizileri düzeltme). Kişi listesi hijyeni: tekrar kayıt işaretleme ve geri dönen adresleri kaldırma (ayda en fazla 500 kişi)."
+            },
+            {
+              "i": "Destek",
+              "l": "Yalnızca mesaj ve e-posta desteği (bu seviyede telefon ve canlı görüşme yoktur). İş günlerinde 48 saat yanıt süresi (Pazartesi-Cuma, 9-17). Ayda en fazla 10 destek talebi. Her talep = 1 belirli istek (değişiklik listesi değil). 10'u aşan talepler $175/saat üzerinden faturalandırılır."
+            }
+          ],
+          "ov": [
+            "2 saati aşan tasarım: $175/saat",
+            "Yeni sayfa: $500",
+            "Canlı görüşme: $250/saat",
+            "Otomasyonlar (3+): adet başı $250",
+            "Acil/aynı gün: +%50"
+          ],
+          "ex": "Reklam yönetimi, içerik üretimi, yeni özellik, sesli ajan ve sosyal medya yok. Daha üst paket gerektirir.",
+          "ideal": "Lansman sonrası iç rahatlığı"
+        },
+        {
+          "name": "Büyüme Motoru",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/ay",
+          "tag": "En Popüler",
+          "pop": true,
+          "com": "en az 6 ay",
+          "scope": [
+            {
+              "i": "Bakım ve İzleme'deki her şey",
+              "l": "Tüm web sitesi bakımı, AI izleme, aylık rapor, CRM yönetimi ve e-posta desteği. Aynı limitler ve kurallar geçerlidir. Tasarım saatleri aşağıdaki 5 saat/ay ile değiştirilir (üst üste eklenmez)."
+            },
+            {
+              "i": "Google Ads yönetimi",
+              "l": "2 aktif Google Arama kampanyası yönetilir. Aylık anahtar kelime optimizasyonu, teklif ayarları ve negatif anahtar kelime güncellemeleri. Ayda 3 A/B testi (reklam metni, açılış sayfası öğeleri veya kitle hedefleme). CPC, CTR, dönüşüm oranı ve ROAS analiziyle aylık performans incelemesi. Bu seviyede en fazla $5,000/ay reklam harcaması yönetilir. $5K üzeri harcama: her $5K dilimi için ek $500/ay. Reklam harcaması ayrı faturalandırılır. Google'a doğrudan siz ödersiniz."
+            },
+            {
+              "i": "Meta Ads yönetimi",
+              "l": "2 aktif Meta (Facebook/Instagram) kampanyası yönetilir. Ayda 1 kreatif yenileme: 3 yeni reklam kreatifi tasarlanır (statik görsel veya carousel). Ayda 2 yeni kitle testi. Yeniden pazarlama kitlesi bakımı ve benzer kitle güncellemeleri. Aylık performans incelemesi. Reklam harcaması ayrı faturalandırılır. Meta'ya doğrudan siz ödersiniz."
+            },
+            {
+              "i": "AI destekli içerik üretimi",
+              "l": "Ayda 4 blog yazısı (her biri en fazla 800 kelime, anahtar kelimeler, meta açıklamaları ve iç bağlantılarla SEO uyumlu). Ayda 12 sosyal medya gönderisi (tasarlanmış görseller + hashtag'li açıklamalar). Parça başına 1 revizyon turu (teslimattan sonra 3 iş günü içinde talep edilmelidir). Müşteri aylık içerik takvimini her ayın 5'ine kadar onaylar. Geç onay = teslimat gecikir, tarih garantisi verilmez."
+            },
+            {
+              "i": "AI sistem optimizasyonu",
+              "l": "Chatbot: ayda 15 soru-cevap çifti güncellemesi. Chatbot dönüşüm oranı ve yanıt doğruluğu incelemesi. Sesli ajan: ayda 1 arama senaryosu revizyonu (dil, akış veya eleme kriterlerini ayarlama). AI performans metrikleri aylık rapora dahildir. Yeni ajan veya yeni otomasyon iş akışı oluşturma DAHİL DEĞİLDİR."
+            },
+            {
+              "i": "Strateji güncellemeleri",
+              "l": "Performansınızı, önerileri ve sonraki adımları ele alan aylık kayıtlı Loom videosu (10-15 dk). Mesaj, e-posta veya sesli notla yanıt verirsiniz. Canlı görüşme zorunlu değildir. Sorular mesaj veya e-postayla 1 iş günü içinde yanıtlanır. Talep üzerine ayda 1 isteğe bağlı canlı görüşme (en fazla 30 dk)."
+            },
+            {
+              "i": "Tasarım ve geliştirme (5 saat/ay)",
+              "l": "Ayda 5 saat tasarım ve geliştirme çalışması. Kapsam: yeni açılış sayfaları, sayfa güncellemeleri, küçük özellik eklemeleri, kampanya görselleri veya şablon özelleştirme. Saatler devretmez. Kullanmazsanız yanar. Tam sayfa yeniden tasarımları veya büyük özellik geliştirmeleri ayrı kapsamlandırılır ve fiyatlandırılır. Süre takip edilir ve aylık raporlanır."
+            }
+          ],
+          "ov": [
+            "5 saati aşan tasarım: $175/saat",
+            "$5K üzeri reklam harcaması: her $5K dilimi için +$500/ay",
+            "Blog: adet başı $250",
+            "Sosyal gönderiler (12+): adet başı $60",
+            "Kreatif yenileme: $500",
+            "Ek canlı görüşme: $250/saat",
+            "Yeni AI ajanı: $2,500",
+            "Acil: +%50"
+          ],
+          "ex": "Fractional CMO, sınırsız reklam, marka yenileme, video prodüksiyon ve özel sosyal medya yönetimi yok. Daha üst paket veya Sosyal eklenti gerektirir.",
+          "ideal": "Geliri aktif olarak ölçekleyen işletmeler"
+        },
+        {
+          "name": "Tam Ortaklık",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/ay",
+          "tag": "Fractional CMO + Ekip",
+          "com": "en az 6 ay",
+          "scope": [
+            {
+              "i": "Büyüme Motoru'ndaki her şey",
+              "l": "Tüm web sitesi bakımı, AI izleme, raporlar, CRM yönetimi, Google + Meta reklam yönetimi, AI içerik üretimi, AI optimizasyonu, strateji güncellemeleri ve e-posta desteği, aşağıda listelenen genişletilmiş limitlerle. Tasarım saatleri ve strateji güncellemeleri aşağıdaki genişletilmiş sürümlerle değiştirilir (üst üste eklenmez)."
+            },
+            {
+              "i": "Size özel strateji uzmanı",
+              "l": "İşinizi, hedeflerinizi ve markanızı bilen isimli iletişim noktası. Pazartesi-Cuma 09:00-17:00 arası (sizin saat diliminizde) mesaj veya e-postayla ulaşılabilir. 7/24, hafta sonu veya tatillerde ulaşılamaz. Tüm teslimatları yönetir, ekibi koordine eder ve Loom, e-posta veya mesajla proaktif öneriler getirir. İş günlerinde 4 iş saati içinde yanıt verir."
+            },
+            {
+              "i": "Reklam yönetimi (genişletilmiş)",
+              "l": "Google ve Meta'da sınırsız aktif kampanya. Tam huni stratejisi: farkındalık, değerlendirme ve dönüşüm kampanyaları. Aylık kreatif yenilemeleri, kitle testleri, teklif optimizasyonu ve bütçe yeniden dağılımı. En fazla $20,000/ay reklam harcaması yönetilir. $20K üzeri harcama özel fiyatlandırma gerektirir. ROAS, CPA ve bütçe verimliliği analiziyle aylık reklam performans raporu. Reklam harcaması ayrı faturalandırılır."
+            },
+            {
+              "i": "AI ekosistem yönetimi",
+              "l": "5 aktif AI ajanı yönetilir ve optimize edilir (chatbotlar, sesli ajanlar, e-posta ajanları, SMS ajanları). Ayda 2 yeni otomasyon iş akışı (ör. yeni aday dizisi, ek satış iş akışı, yeniden iletişim kampanyası). Aylık ajan performans incelemesi: yanıt doğruluğu, çözüm oranı, arama süresi ve aday dönüşümü. Kapsam dahilinde gerektiğinde ajan yeniden eğitimi ve senaryo güncellemeleri."
+            },
+            {
+              "i": "İçerik sistemi (genişletilmiş)",
+              "l": "Ayda 8 blog yazısı (her biri en fazla 1.000 kelime, SEO uyumlu). Ayda 20 sosyal medya gönderisi (tasarlanmış görseller + hashtag ve CTA'lı açıklamalar). Ayda 4 kısa video klip (Reels, Shorts veya TikTok), sağladığınız görüntülerden kurgulanır veya AI araçlarıyla üretilir. Kurgularız, çekmeyiz. Parça başına 1 revizyon turu. İçerik takvimi onayınız için her ayın 1'ine kadar teslim edilir."
+            },
+            {
+              "i": "Aylık strateji toplantısı + haftalık güncellemeler",
+              "l": "Ayda 1 canlı strateji toplantısı (en fazla 60 dk). Loom videosu veya yazılı özetle haftalık güncellemeler: performans incelemesi, yaklaşan öncelikler, kampanya ayarları ve stratejik öneriler. Mesaj, e-posta veya sesli notla yanıt verirsiniz. Günlük iletişim tamamen mesaj ve e-postayladır. Plansız görüşme yoktur."
+            },
+            {
+              "i": "Tasarım ve geliştirme (15 saat/ay)",
+              "l": "Ayda 15 saat tasarım ve geliştirme çalışması. Kapsam: yeni huniler, açılış sayfaları, sayfa yeniden tasarımları, özellik geliştirmeleri, grafik tasarım, e-posta şablonu tasarımı veya sunum tasarımı. Saatler yalnızca bir sonraki aya devreder (en fazla birikim: 30 saat). Tam web sitesi yeniden tasarımları veya uygulama geliştirme ayrı kapsamlandırılır ve fiyatlandırılır. Süre takip edilir ve aylık raporlanır."
+            },
+            {
+              "i": "Üç aylık marka yenileme",
+              "l": "Çeyrek başına 1 marka yenileme (her 3 ayda bir). 5 yeni kreatif varlık içerir: güncellenmiş sosyal şablonlar, sezonluk reklam kreatifleri, yenilenmiş e-posta başlıkları veya yeni promosyon görselleri. Tam yeniden markalama (yeni logo, yeni kılavuz, yeni marka sistemi) DAHİL DEĞİLDİR. Tam yeniden markalama $6,000+ üzerinden ayrı fiyatlandırılır."
+            }
+          ],
+          "ov": [
+            "15 saati aşan tasarım: $175/saat",
+            "$20K üzeri reklam harcaması: özel fiyat",
+            "Bloglar: adet başı $250",
+            "Video klipler (4+): adet başı $300",
+            "Çekim: ayrı",
+            "Tam yeniden markalama: $6K+ ayrı",
+            "AI ajanı: her biri $2,500",
+            "Hafta sonu/mesai dışı: +%75"
+          ],
+          "ex": "Yüz yüze etkinlik, PR/medya ilişkileri, video çekimi (yalnızca kurgu) ve uygulama geliştirme yok. Ayrı fiyatlandırılır.",
+          "ideal": "Reklama ayda $5K+ yatırım yapan işletmeler"
+        }
+      ],
+      "social": [
+        {
+          "name": "Sosyal Başlangıç",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/ay",
+          "tag": "1-2 platform",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Platformlar (2 dahil)",
+              "l": "Şunlardan 2 platform seçin: Instagram, LinkedIn, Facebook, TikTok, YouTube veya X. Her ikisinde de paylaşım, zamanlama ve temel etkileşimi biz yönetiriz."
+            },
+            {
+              "i": "İçerik üretimi (16 gönderi/ay)",
+              "l": "Platform başına 8 gönderi (ayda toplam 16). Tümü yazılmış açıklamalar ve ilgili hashtag'lerle statik görsel gönderiler. Bu seviyede video prodüksiyon yoktur. İçerik türleri: ipuçları, promosyonlar, referanslar, alıntılar ve etkileşim gönderileri. Görseller renkleriniz, yazı tipleriniz ve logonuzla marka tarzınızda tasarlanır."
+            },
+            {
+              "i": "Zamanlama ve yayınlama",
+              "l": "Aylık içerik takvimi oluşturur, tüm gönderileri zamanlar ve kitleniz için en uygun saatlerde yayınlarız. Müşteri içerik takvimini her ayın 3'üne kadar onaylamalıdır. Geç onay = gönderiler planlanan takvimde yayına girmeyebilir."
+            },
+            {
+              "i": "Temel etkileşim",
+              "l": "Günde en fazla 30 dakika (yalnızca iş günleri, Pazartesi-Cuma). Kapsam: yorumlara ve direkt mesajlara yanıt verme, ilgili yorumları beğenme ve sorunları veya olumsuz geri bildirimleri incelemeniz için işaretleme. Proaktif erişim veya topluluk oluşturma DAHİL DEĞİLDİR."
+            },
+            {
+              "i": "Aylık rapor",
+              "l": "Her ayın 5'ine kadar e-postayla gönderilen 1 rapor. Kapsam: takipçi artışı, gönderi erişimi, etkileşim oranı (beğeniler, yorumlar, paylaşımlar), en iyi performans gösteren gönderiler ve sonraki ay için öneriler. PDF olarak teslim edilir. Canlı sunulmaz."
+            },
+            {
+              "i": "İçerik revizyonları",
+              "l": "Aylık içerik partisi başına 1 revizyon turu. Tüm revizyon talepleri, içerik takvimi tesliminden sonra 3 iş günü içinde tek bir toplu doküman olarak iletilmelidir."
+            },
+            {
+              "i": "Hashtag stratejisi",
+              "l": "Onboarding'de her iki platform için ilk hashtag araştırması (her biri 15-30 hashtag'lik 3 set). Çeyrekte bir güncellenir. Setler şu şekilde düzenlenir: geniş erişim, niş ve marka/yerel hashtag'ler."
+            }
+          ],
+          "ov": [
+            "Ek platform: $400/ay",
+            "Ek gönderiler (8+): adet başı $60",
+            "Video reel/short: adet başı $175",
+            "Ek revizyon turu: $175",
+            "Hikaye oluşturma: $30/hikaye"
+          ],
+          "ex": "Video prodüksiyon, ücretli sosyal reklam, influencer iletişimi ve temel etkileşimin ötesinde topluluk oluşturma yok. Bunlar Sosyal Büyüme veya eklentiler gerektirir.",
+          "ideal": "1-2 kanalda düzenli varlığa ihtiyaç duyan işletmeler"
+        },
+        {
+          "name": "Sosyal Büyüme",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/ay",
+          "tag": "En Popüler",
+          "pop": true,
+          "com": "en az 6 ay",
+          "scope": [
+            {
+              "i": "Platformlar (4 dahil)",
+              "l": "4 platform seçin: Instagram, LinkedIn, Facebook, TikTok, YouTube veya X. Tümünde içerik üretimi, zamanlama, yayınlama ve aktif etkileşimi biz yönetiriz."
+            },
+            {
+              "i": "İçerik üretimi (48 gönderi + 4 video/ay)",
+              "l": "Platform başına 12 gönderi (ayda toplam 48). Statik görsel, carousel (her biri en fazla 5 slayt) ve metin tabanlı gönderi karışımı. Platformlarınıza dağıtılan ayda 4 kısa video (Reels, Shorts veya TikTok). Sağladığınız görüntülerden video kurgularız veya AI video araçlarıyla üretiriz. Çekmeyiz. Tüm görseller yazılmış açıklamalar, hashtag'ler ve CTA'larla marka tarzınızda tasarlanır."
+            },
+            {
+              "i": "Zamanlama ve yayınlama",
+              "l": "Gönderi konuları, formatlar, açıklamalar ve paylaşım saatleriyle her ay tam içerik takvimi oluşturulur. Müşteri takvimi her ayın 3'üne kadar onaylamalıdır. Platform başına en uygun saatlerde tüm zamanlama ve yayınlamayı biz yaparız. Geç onay = teslimat gecikir, orijinal paylaşım takvimi garanti edilmez."
+            },
+            {
+              "i": "Aktif etkileşim",
+              "l": "Günde en fazla 1 saat (iş günleri, Pazartesi-Cuma). Kapsam: tüm yorumlara ve DM'lere yanıt verme, bahsetmeleri beğenme ve yanıtlama, sektörünüzdeki ilgili hesaplarla proaktif etkileşim (beğenme, yorum yapma, takip için günde 30 dk). Bahsetme ve etiketler için marka izleme. Olumsuz yorumlar veya PR sorunları size anında iletilir."
+            },
+            {
+              "i": "Raporlama ve strateji",
+              "l": "Aylık rapor (5'ine kadar teslim): takipçi artışı, erişim, etkileşim oranı, en iyi gönderiler ve kitle demografisi. Performans incelemesi, içerik önerileri ve trend fırsatlarıyla ayda 1 Loom video anlatımı. Mesaj veya e-postayla yanıt verirsiniz. Talep üzerine ayda 1 isteğe bağlı canlı görüşme (en fazla 30 dk)."
+            },
+            {
+              "i": "Video prodüksiyon",
+              "l": "Ayda 4 kısa video. Her video: en fazla 60 saniye, altyazı, geçişler, müzik (telifsiz) ve marka görselleriyle kurgulanır. Sağladığınız ham görüntülerden (telefon klipleri, ekran kayıtları, röportajlar) kurgularız veya AI araçlarıyla üretiriz. Video çekmeyiz ve yerinde prodüksiyon sağlamayız."
+            },
+            {
+              "i": "İçerik revizyonları",
+              "l": "Aylık içerik partisi başına 2 revizyon turu. Tüm geri bildirim teslimattan sonra 3 iş günü içinde tek bir toplu doküman olarak iletilir."
+            },
+            {
+              "i": "Aylık içerik stratejisi",
+              "l": "Aylık içerik sütunları tanımlanır (tüm içeriğe yön veren 3-5 tema). Trend izleme ve zamanlı/reaktif gönderiler için öneriler. Hashtag stratejisi tüm platformlarda aylık olarak sürdürülür ve güncellenir."
+            }
+          ],
+          "ov": [
+            "Ek platform: $400/ay",
+            "Ek gönderiler (12+): adet başı $50",
+            "Ek video: adet başı $175",
+            "Video çekimi: ayrı fiyatlandırılır",
+            "Ek canlı görüşme: $250/saat",
+            "Influencer iletişimi: $600/ay eklenti",
+            "Hikaye oluşturma: $25/hikaye"
+          ],
+          "ex": "Video çekimi, ücretli reklam yönetimi (ana paketlerden Google/Meta reklamları ekleyin) ve influencer sözleşme müzakeresi yok. Ayrı fiyatlandırılır.",
+          "ideal": "Kitle ve etkileşim büyütmeyi ciddiye alan işletmeler"
+        },
+        {
+          "name": "Sosyal Hakimiyet",
+          "price": 4500,
+          "disp": "$4,500",
+          "per": "/ay",
+          "tag": "Tam kapsamlı sosyal medya",
+          "com": "en az 6 ay",
+          "scope": [
+            {
+              "i": "Platformlar (6 dahil)",
+              "l": "6 platformda tam kapsam: Instagram, LinkedIn, Facebook, TikTok, YouTube ve X. Tüm içerik üretimi, zamanlama, yayınlama, topluluk yönetimi ve strateji sizin adınıza yürütülür."
+            },
+            {
+              "i": "İçerik üretimi (120 gönderi + 8 video/ay)",
+              "l": "Platform başına 20 gönderi (ayda toplam 120). Statik görsel, carousel, hikaye, metin gönderisi ve anket karışımı. Platformlara dağıtılan ayda 8 kısa video (Reels, Shorts, TikTok). Tüm görseller açıklamalar, hashtag'ler ve CTA'larla marka tarzınızda. Uygun olduğunda Instagram, Facebook ve TikTok için hikaye içeriği."
+            },
+            {
+              "i": "YouTube yönetimi",
+              "l": "Ayda 2 uzun YouTube videosu (yalnızca kurgu, sağladığınız görüntülerden veya mevcut içerikten uyarlanmış). Her video için özel küçük resim tasarlanır. SEO uyumlu başlıklar, açıklamalar ve etiketler yazılır. Oynatma listesi düzenleme ve bitiş ekranı/kart yapılandırması. Kurgular ve optimize ederiz. Senaryo yazmayız, çekmeyiz veya özgün görüntü üretmeyiz."
+            },
+            {
+              "i": "Tam topluluk yönetimi",
+              "l": "Günde 2 saat, Pazartesi-Cuma. Kapsam: tüm platformlarda tüm yorumlara, DM'lere ve bahsetmelere yanıt verme. Proaktif erişim: ilgili hesaplar, sektör hashtag'leri ve potansiyel müşterilerle etkileşim. Marka izleme: bahsetmeleri, etiketleri ve ilgili konuşmaları takip etme. Duygu işaretleme: olumsuz geri bildirim veya PR endişeleri size anında iletilir. Haftalık etkileşim özeti raporlamaya dahildir."
+            },
+            {
+              "i": "Raporlama ve strateji",
+              "l": "Her Pazartesi e-postayla haftalık analitik özeti (tüm platformlarda temel metrikler). Aylık derinlemesine rapor (5'ine kadar teslim): takipçi artışı, etkileşim oranları, erişim, gösterimler, en iyi içerik, kitle demografisi ve rakip kıyaslaması. Aylık Loom video anlatımı: performans incelemesi, yaklaşan kampanyalar, içerik yönü ve büyüme fırsatları. Mesaj veya e-postayla yanıt verirsiniz. Talep üzerine ayda 1 isteğe bağlı canlı görüşme (en fazla 30 dk)."
+            },
+            {
+              "i": "Video prodüksiyon (8 kısa + 2 uzun/ay)",
+              "l": "Altyazı, geçişler, telifsiz müzik ve marka görselleriyle 8 kısa video (her biri en fazla 60 saniye). 2 uzun YouTube videosu (her biri en fazla 10 dakika, ham görüntülerden kurgulanmış). Kurgularız. Çekmeyiz. Ham görüntüleri siz sağlarsınız (telefon klipleri, röportajlar, ekran kayıtları, sunumlar) veya AI video araçlarıyla biz üretiriz. Varsa markalı intro/outro'larla profesyonel kurgu."
+            },
+            {
+              "i": "İçerik revizyonları",
+              "l": "Aylık içerik partisi başına 2 revizyon turu. Tüm geri bildirim 3 iş günü içinde toplu doküman olarak iletilir."
+            },
+            {
+              "i": "Üç aylık sosyal strateji",
+              "l": "Her çeyrek tam sosyal medya stratejisi yenilemesi. Kapsam: içerik sütunu güncellemeleri, trend analizi, rakip denetimi (3 rakip), kitle büyüme yol haritası ve platforma özel öneriler. Strateji dokümanı PDF veya sunum olarak teslim edilir (en fazla 10 sayfa). Çeyrekler arasında aylık içerik sütunları ve trend izleme devam eder."
+            },
+            {
+              "i": "Influencer koordinasyonu",
+              "l": "Ayda 5 mikro-influencer'a erişim. Nişinizdeki potansiyel ortakları araştırır, belirler ve onlarla iletişime geçeriz. İş birliği şartlarının müzakeresini biz yürütürüz (hediye ürün, ücretli gönderi veya içerik takası). Herhangi bir anlaşma yapılmadan önce tüm nihai anlaşmaları siz onaylarsınız. Influencer brief şablonu sağlar ve anlaşmaya kadar iletişimi yönetiriz. Influencer ödemesi DAHİL DEĞİLDİR. Bu, bu paketten ayrı olarak sizin maliyetinizdir."
+            }
+          ],
+          "ov": [
+            "Ek platform: $400/ay",
+            "Ek gönderiler (20+): adet başı $40",
+            "Ek uzun video: adet başı $500",
+            "Video çekimi: ayrı fiyatlandırılır",
+            "5'i aşan influencer: $125/erişim",
+            "Ücretli reklam yönetimi: ana paketlerden ekleyin",
+            "Ek canlı görüşme: $250/saat",
+            "Hafta sonu içeriği: +%50"
+          ],
+          "ex": "Video çekimi/prodüksiyon (yalnızca kurgu), ücretli reklam yönetimi (ayrı eklenir) ve PR/basın ilişkileri yok. Ayrı fiyatlandırılır.",
+          "ideal": "Tüm kanallarda tam sosyal medya hakimiyeti isteyen markalar"
+        }
+      ],
+      "customBuild": [
+        {
+          "name": "Keşif ve Kapsam",
+          "price": 2500,
+          "disp": "$2,500",
+          "tag": "Zorunlu ilk adım",
+          "tl": "1-2 hafta",
+          "scope": [
+            {
+              "i": "Başlangıç anketi + kayıtlı atölye",
+              "l": "Ayrıntılı anket: iş hedefleri, kullanıcı türleri ve rolleri, temel özellikler, olmazsa olmazlar vs. olsa iyi olurlar, entegrasyonlar (ödeme, CRM, e-posta, API'ler) ve zaman beklentileri. Yanıtlarınızı inceler ve anladıklarımız ile takip sorularımızı içeren kayıtlı bir Loom anlatımı teslim ederiz. Mesaj, e-posta veya sesli notla yanıt verirsiniz. Gerekirse 1 isteğe bağlı canlı görüşme (en fazla 60 dk)."
+            },
+            {
+              "i": "Kullanıcı akışı haritalama",
+              "l": "Her kullanıcı türünün sistemde nasıl ilerlediğini gösteren görsel diyagramlar. Örneğin: kiracı giriş yapar → bakım talebi gönderir → mülk yöneticisi bildirim alır → tedarikçi atar → kiracı güncelleme alır. Tüm temel kullanıcı yolculuklarını kapsar (5 akış). FigJam veya Miro panosu olarak teslim edilir."
+            },
+            {
+              "i": "Teknik mimari dokümanı",
+              "l": "Önerilen teknoloji yığını, veritabanı yapısı, hosting, üçüncü taraf entegrasyonlar ve dağıtım planının yazılı dökümü. Geliştir mi satın al mı kararları için öneriler içerir (ör. özel ödeme işleme vs. Stripe, özel kimlik doğrulama vs. Clerk). Teknik riskleri ve bağımlılıkları belirler."
+            },
+            {
+              "i": "Wireframe'ler (10 ekran)",
+              "l": "Düzen, gezinme ve içerik hiyerarşisini gösteren 10 temel ekran için düşük sadakatli wireframe'ler. Piksel mükemmelliğinde tasarım değildir. Yapı ve kullanıcı deneyimine odaklanır. Figma'da teslim edilir. 1 revizyon turu."
+            },
+            {
+              "i": "İş Kapsamı dokümanı (SOW)",
+              "l": "Ayrıntılı SOW: listelenen ve açıklanan her özellik, faz dökümü (ne zaman ne çıkacak), faz başına süre tahminleri, tam geliştirme için sabit fiyat teklifi, varsayımlar, hariç tutulanlar ve değişiklik talebi politikası. Sözleşmenin temeli budur."
+            },
+            {
+              "i": "Sabit fiyatlı geliştirme teklifi",
+              "l": "Keşif çalışmasına dayanarak tam geliştirme için kesin sabit fiyat teklifi sunarız. Saatlik sürpriz yok. İmzadan sonra proje kapsamı değişirse önceden onaylanmış ücretlerle değişiklik talebi süreci uygularız."
+            }
+          ],
+          "ov": [
+            "Ek wireframe ekranları: adet başı $250",
+            "Ek kullanıcı akışı diyagramları: adet başı $300",
+            "Rekabet analizi eklentisi: $750 (3 rakip ürün denetimi)",
+            "2 haftayı aşan keşif uzatması: $1,200/hafta"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, teslimatta %50 (7 gün vade). Teslimattan sonra 30 gün içinde devam ederseniz keşif ücreti tam geliştirmeden düşülür. Devam etmezseniz tüm teslimatlar (wireframe'ler, SOW, mimari dokümanı) sizde kalır ve istediğiniz geliştiriciyle kullanabilirsiniz.",
+          "ideal": "Özel geliştirme düşünen herkes. Bu birinci adımdır."
+        },
+        {
+          "name": "Standart Geliştirme",
+          "price": 25000,
+          "disp": "$25,000",
+          "tag": "En yaygın tercih",
+          "pop": true,
+          "tl": "6-12 hafta",
+          "scope": [
+            {
+              "i": "Tam UI/UX tasarımı",
+              "l": "Tüm ekranlar için Figma'da eksiksiz arayüz tasarımı (karmaşıklığa bağlı olarak genellikle 15-30 ekran). Kapsam: masaüstü ve mobil için duyarlı düzenler, bileşen kütüphanesi, marka renkleriniz/yazı tipleriniz/boşluklarınızla tasarım sistemi ve paydaş incelemesi için etkileşimli prototip. Geliştirme başlamadan önce 2 tasarım revizyon turu."
+            },
+            {
+              "i": "Frontend geliştirme",
+              "l": "TypeScript ile Next.js (React) üzerinde geliştirilir. Masaüstü, tablet ve mobilde tamamen duyarlı. Uygun olduğunda performans ve SEO için sunucu tarafı render. Bileşen mimarisiyle temiz, sürdürülebilir kod tabanı. Tüm etkileşimli öğelerde yükleme durumları, hata yönetimi, boş durumlar ve form doğrulama."
+            },
+            {
+              "i": "Backend geliştirme",
+              "l": "Node.js ile geliştirilmiş RESTful veya GraphQL API. Veritabanı tasarımı ve uygulaması (proje ihtiyacına göre PostgreSQL veya MongoDB). Kullanıcı kimlik doğrulama ve rol tabanlı erişim kontrolü (ör. yönetici, müdür, kiracı, tedarikçi). Veri doğrulama, hata yönetimi ve API dokümantasyonu. Gerekirse dosya yükleme (görseller, belgeler, dosya başına en fazla 10 MB)."
+            },
+            {
+              "i": "Temel özellikler",
+              "l": "Kapsam Keşif SOW'da tanımlanır. Standart geliştirmeler genellikle şunları içerir: kullanıcı kaydı ve girişi, rol tabanlı paneller, temel veriler için CRUD işlemleri (ör. mülkler, kiracılar, talepler), arama ve filtreleme, bildirim sistemi (e-posta ve/veya uygulama içi) ve temel raporlama/analitik. SOW dışı özellikler değişiklik talebi gerektirir."
+            },
+            {
+              "i": "Üçüncü taraf entegrasyonlar (3 dahil)",
+              "l": "Dış servislerle 3 entegrasyon. Yaygın örnekler: Stripe (ödemeler), Twilio (SMS/ses), SendGrid (e-posta), Google Maps, Calendly, QuickBooks, Zapier veya dokümante edilmiş REST API'si olan herhangi bir servis. Her entegrasyon şunları içerir: kurulum, veri eşleme, hata yönetimi ve test. Karmaşık entegrasyonlar (ör. özel ERP, modern API'si olmayan eski sistemler) ayrı fiyatlandırılır."
+            },
+            {
+              "i": "Hosting ve dağıtım",
+              "l": "Vercel (frontend) ve Railway, Render veya AWS (backend) üzerinde canlıya alınır. GitHub'dan otomatik dağıtımlar için CI/CD hattı yapılandırılır. SSL sertifikası, özel alan adı kurulumu ve DNS yapılandırması. Ortam değişkenleri ve gizli anahtar yönetimi. Canlı sürümlerden önce test için staging ortamı dahildir."
+            },
+            {
+              "i": "Test ve QA",
+              "l": "Chrome, Safari, Firefox ve Edge'de manuel test. iOS Safari ve Android Chrome'da mobil test. Tüm temel kullanıcı akışları uçtan uca test edilir. Geliştirme sırasındaki hata düzeltmeleri dahildir. Lansman sonrası hata düzeltmeleri 30 gün kapsanır (aşağıdaki devir şartlarına bakın)."
+            },
+            {
+              "i": "Dokümantasyon",
+              "l": "Teknik dokümantasyon: API uç noktaları, veritabanı şeması, ortam kurulum kılavuzu ve dağıtım talimatları. Kullanıcı dokümantasyonu: tüm temel özellikleri kapsayan yönetici kullanıcılar için nasıl yapılır kılavuzu (PDF veya Notion sayfası, en fazla 10 sayfa). Kod tabanı gelecekteki geliştiriciler için yorumlanmış ve düzenlenmiştir."
+            },
+            {
+              "i": "Revizyonlar",
+              "l": "Geliştirme öncesi 2 tasarım revizyon turu. Geliştirme sırasında geri bildirim ortak görev panosu üzerinden yürütülür (Linear veya GitHub Issues). Geliştirme sonrası: lansmandan önce nihai üründe 1 revizyon turu. Geliştirme sırasındaki kapsam değişiklikleri önceden onaylanmış ücretlerle ($200/saat) değişiklik talebi gerektirir."
+            }
+          ],
+          "ov": [
+            "Ek entegrasyonlar: her biri $3,000",
+            "SOW dışı ek ekranlar: $800/ekran",
+            "Geliştirme sırasında değişiklik talepleri: $200/saat",
+            "Ek kullanıcı rolleri: rol başına $2,000",
+            "Gelişmiş raporlama/analitik paneli: $5,000",
+            "Native mobil uygulama (iOS veya Android): Kurumsal Geliştirme paketine bakın"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vade). Lansman sonrası 30 gün hata düzeltmesi dahildir (yalnızca orijinal SOW'daki özelliklerle ilgili sorunlar). 30 günden sonra süregelen destek bakım paketine geçer. Tüm kod sizindir. Kod tabanı, tasarım dosyaları ve dokümantasyonun tam mülkiyeti proje tamamlandığında devredilir.",
+          "bridge": "Platformunuz canlı ve stabil. Çalışır, güvenli ve gelişir kalması için Geliştirici Desteği paketimizi ($1,500/ay) veya Saat Bankası'nı (10 saat için $2,500/ay) öneririz.",
+          "ideal": "Portallar, paneller, dahili araçlar ve SaaS MVP'leri"
+        },
+        {
+          "name": "Kurumsal Geliştirme",
+          "price": 75000,
+          "disp": "$75,000+",
+          "tag": "Karmaşık sistemler",
+          "tl": "12-24 hafta",
+          "scope": [
+            {
+              "i": "Standart Geliştirme'deki her şey (genişletilmiş)",
+              "l": "Standart Geliştirme'deki tüm tasarım, frontend, backend, entegrasyonlar, hosting, test ve dokümantasyon, daha büyük ve karmaşık sistemler için genişletilmiş kapsamla. Genellikle 30-60+ ekran, birden fazla kullanıcı rolü ve karmaşık iş mantığı."
+            },
+            {
+              "i": "Gelişmiş mimari",
+              "l": "Ölçeklenebilirlik için mikroservisler veya modüler monolit mimari. Gerekirse asenkron işleme için mesaj kuyrukları (Redis, RabbitMQ). Yüksek trafikli uç noktalar için önbellek katmanı. Veritabanı optimizasyonu: indeksleme, sorgu optimizasyonu ve bağlantı havuzu. 10.000+ eşzamanlı kullanıcıyı kaldıracak şekilde tasarlanmış altyapı."
+            },
+            {
+              "i": "AI destekli özellikler",
+              "l": "Platforma gömülü özel AI ajanları veya otomasyonlar. Örnekler: AI destekli arama, destek talepleri için doğal dil işleme, tahmine dayalı analitik, otomatik kategorizasyon, akıllı öneriler veya platform verilerinizle eğitilmiş AI chatbot. Kapsam: model seçimi, prompt mühendisliği, API entegrasyonu ve test. Gereksinimlere göre OpenAI, Anthropic veya açık kaynak modeller kullanılır."
+            },
+            {
+              "i": "Mobil uygulama (dahilse)",
+              "l": "React Native ile geliştirilmiş çapraz platform mobil uygulama. iOS ve Android için ortak kod tabanı. Push bildirimleri, çevrimdışı destek ve native cihaz özellikleri (kamera, GPS, biyometri). App Store ve Google Play gönderimi bizde (geliştirici hesaplarını siz sağlarsınız). Genellikle temel web uygulaması işlevselliğini yansıtan 15-25 ekran."
+            },
+            {
+              "i": "Entegrasyonlar (6 dahil)",
+              "l": "6 üçüncü taraf entegrasyon. Karmaşık entegrasyonlar dahil: çok taraflı ödemelerle ödeme işleme (Stripe Connect), muhasebe senkronizasyonu (QuickBooks, Xero), mülk yönetimi API'leri, MLS akışları, devlet/uyumluluk API'leri veya özel webhook sistemleri. Eski sistem entegrasyonları API dokümantasyon kalitesine göre ayrı fiyatlandırılır."
+            },
+            {
+              "i": "Gelişmiş güvenlik ve uyumluluk",
+              "l": "Ayrıntılı izinlerle rol tabanlı erişim kontrolü (ör. mülk düzeyi, birim düzeyi erişim). Durağan ve aktarım halindeki veri şifreleme. Hassas işlemler için denetim günlüğü. Gerekirse GDPR/CCPA uyumluluk özellikleri (veri dışa aktarma, silme talepleri). Sızma testi koordinasyonu (üçüncü taraf sızma testi önerilir, fiyata dahil değildir)."
+            },
+            {
+              "i": "Çok kiracılı mimari",
+              "l": "SaaS geliştiriliyorsa: her müşterinin verisi izole olacak şekilde tam çok kiracılı veritabanı mimarisi. Kiracıya özel yapılandırmalar, marka kimliği ve özellik bayrakları. Tüm kiracıları yönetmek için süper yönetici paneli. Gerekirse kullanım takibi ve faturalandırma entegrasyonu."
+            },
+            {
+              "i": "Aşamalı teslimat",
+              "l": "Proje fazlar halinde teslim edilir (genellikle 3 veya 4 faz). Her fazın kendi teslimatları, testi ve onayı vardır. Faz 1 genellikle temel MVP'dir (canlıya alınır). Sonraki fazlar özellikleri kademeli olarak ekler. Her fazın SOW'dan tanımlı bir zaman çizelgesi ve teslimat listesi vardır."
+            },
+            {
+              "i": "Revizyonlar ve değişiklik yönetimi",
+              "l": "Faz başına 2 tasarım revizyon turu. Geri bildirim ortak görev panosu üzerinden yönetilir (Linear veya GitHub Issues). Kapsam eklemeleri için değişiklik talepleri: çalışma başlamadan önce yazılı onayla $200/saat. Loom videosu veya yazılı özetle haftalık durum güncellemeleri. İki haftada bir tamamlanan işin kayıtlı demo videoları. Kendi zamanınızda inceler ve yanıt verirsiniz. Gerekirse ayda 1 isteğe bağlı canlı görüşme."
+            }
+          ],
+          "ov": [
+            "Ek entegrasyonlar: her biri $5,000",
+            "Native mobil uygulama (dahil değilse): $30,000",
+            "AI özellik eklemeleri: özellik başına $10,000",
+            "Ek fazlar: ayrı ayrı kapsamlandırılır ve fiyatlandırılır",
+            "Üçüncü taraf sızma testi koordinasyonu: $5,000",
+            "White-label/çok kiracılı eklenti (dahil değilse): $15,000"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vade). Faz başına lansman sonrası 45 gün hata düzeltmesi dahildir. Tüm kod, tasarım dosyaları ve dokümantasyon tamamlandığında size devredilir. Kod tabanının tam mülkiyeti. 45 günden sonra süregelen destek bakım paketine geçer.",
+          "bridge": "Karmaşık sistemler sürekli geliştirme, izleme ve optimizasyon gerektirir. Platformunuzun işinizle birlikte gelişmesi için Aktif Geliştirme paketimizi ($7,500/ay) öneririz.",
+          "ideal": "SaaS platformları, çok kiracılı sistemler, AI entegre ürünler ve kurumsal araçlar"
+        }
+      ],
+      "aiAgents": [
+        {
+          "name": "Tek Ajan Kurulumu",
+          "price": 5000,
+          "disp": "$5,000",
+          "tag": "Tek ama güçlü bir ajan",
+          "tl": "1-2 hafta",
+          "scope": [
+            {
+              "i": "Özel AI ajanı (1)",
+              "l": "İşiniz için tasarlanmış, eğitilmiş ve devreye alınmış tek amaçlı bir AI ajanı. Seçenekler: sesli ajan, e-posta ajanı, web kazıma ajanı, PDF oluşturma ajanı, müşteri destek chatbot'u, aday eleme ajanı, veri işleme ajanı, randevu alma ajanı veya herhangi bir özel kullanım senaryosu. Ajan iş akışlarınıza, marka sesinize ve veri kaynaklarınıza göre uyarlanır."
+            },
+            {
+              "i": "Ajan eğitimi ve yapılandırması",
+              "l": "Ajanın davranışını, karar mantığını ve yanıt kalıplarını gereksinimlerinize göre yapılandırırız. Kapsam: en fazla 50 eğitim veri noktası (soru-cevap çiftleri, senaryolar veya örnek iş akışları). Özel yedek işleme ve hata yanıtları. 1 dış sistemle entegrasyon (CRM, e-posta, takvim, veritabanı veya API)."
+            },
+            {
+              "i": "Test ve devreye alma",
+              "l": "Beklenen tüm kullanım senaryolarında tam uçtan uca test. Uç durum yönetimi ve stres testi. Altyapınıza veya yönetilen hosting'imize dağıtım. Canlıya geçmeden önce incelemeniz için staging ortamı içerir."
+            },
+            {
+              "i": "API anahtarı güvenliği",
+              "l": "Tüm API anahtarları ve kimlik bilgileri şifrelenmiş ortam değişkenleriyle güvenle saklanır. Asla koda gömülmez veya kaynak kodda açığa çıkarılmaz. Anahtarlar çalışma zamanında hosting sağlayıcınızın gizli anahtar yöneticisi (Vercel, AWS vb.) üzerinden enjekte edilir. Erişim yalnızca ajanın çalışma ortamıyla sınırlıdır. Devreye alındıktan sonra API anahtarlarınızı asla saklamayız veya tutmayız. Tüm kimlik bilgilerinin tam mülkiyeti ve kontrolü her zaman sizdedir."
+            },
+            {
+              "i": "Dokümantasyon ve devir",
+              "l": "Ajan davranış dokümantasyonu: ne yapar, nasıl çalışır ve nasıl güncellenir. Yanıtları değiştirmek, eğitim verilerini güncellemek veya ajanı duraklatmak için yönetici kılavuzu. Ajanın sistemlerinize nasıl bağlandığını gösteren mimari diyagramı."
+            }
+          ],
+          "ov": [
+            "Ek entegrasyon: $1,500",
+            "50 öğeyi aşan eğitim verisi: 50'lik paket başı $500",
+            "Ek revizyon turu: $350",
+            "Hızlı teslimat (1 haftadan kısa): +%40",
+            "Ajan yeniden eğitimi: $750"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vade). Onay VEYA 2 revizyon turu sonrasında proje tamamlanmış sayılır. Ajan mülkiyeti size devredilir.",
+          "bridge": "Ajanınız canlıda. İzlenmesi, optimize edilmesi ve yeniden eğitilmesi için Ajan Bakımı ($1,500/ay) veya Ajan Büyümesi ($3,500/ay) paketimizi ekleyin.",
+          "ideal": "Belirli bir iş akışını otomatikleştiren işletmeler"
+        },
+        {
+          "name": "Ajan Ekibi",
+          "price": 14500,
+          "disp": "$14,500",
+          "tag": "En Popüler",
+          "pop": true,
+          "tl": "2-4 hafta",
+          "scope": [
+            {
+              "i": "Özel AI ajanları (3)",
+              "l": "Koordineli bir sistem olarak çalışan üç birbirine bağlı AI ajanı. Örnek kurulumlar: (1) Sesli ajan aramaları yanıtlar + e-posta ajanı takipleri gönderir + CRM ajanı satış hattını günceller. (2) Kazıma ajanı veri toplar + işleme ajanı raporları biçimlendirir + e-posta ajanı dağıtır. (3) Chatbot adayları toplar + eleme ajanı puanlar + randevu ajanı görüşmeleri planlar. Ajanlar birbiriyle iletişim kurar ve verileri otomatik paylaşır."
+            },
+            {
+              "i": "İş akışı orkestrasyonu",
+              "l": "Ajanların birbirine nasıl devrettiğini haritalayan özel karar ağacı. Koşullu mantık: ajanlar verilere, günün saatine, aday puanına veya özel kurallara göre farklı eylemler alır. Hata yönetimi: bir ajan başarısız olursa sistem sizi bilgilendirir ve görevi yeniden deneme için kuyruğa alır. Tüm ajanlar arası iletişim günlüğe kaydedilir ve denetlenebilir."
+            },
+            {
+              "i": "Entegrasyonlar (3 dahil)",
+              "l": "Ajan ekibiniz genelinde 3 dış sistem entegrasyonu. Yaygın entegrasyonlar: GoHighLevel, HubSpot, Salesforce, Google Workspace, Slack, Twilio, Stripe, Shopify, Zapier, Make veya REST API'si olan herhangi bir servis. Her entegrasyon şunları içerir: veri eşleme, kimlik doğrulama, hata yönetimi ve yeniden deneme mantığı."
+            },
+            {
+              "i": "API anahtarı güvenliği",
+              "l": "Tüm API anahtarları, token'lar ve kimlik bilgileri şifrelenmiş ortam değişkenleri ve hosting sağlayıcınızın gizli anahtar yöneticisiyle saklanır. Asla koda gömülmez, asla kaynak kodda, asla günlüklerde yer almaz. Her ajanın kimlik bilgileri izole edilir, böylece bir ajan diğerinin anahtarlarına erişemez. Devreye alındıktan sonra API anahtarlarınızı asla saklamayız veya tutmayız. Tüm kimlik bilgilerinin tam mülkiyeti ve kontrolü her zaman sizdedir."
+            },
+            {
+              "i": "Ajan eğitimi ve testi",
+              "l": "Her ajan en fazla 75 veri noktasıyla eğitilir. Tüm ajan iş akışının tam uçtan uca testi (yalnızca tekil ajanlar değil). Yüksek hacimli senaryolar için yük testi. Canlıya geçmeden önce ekibinizle kullanıcı kabul testi."
+            }
+          ],
+          "ov": [
+            "Ek ajan: $2,500",
+            "Ek entegrasyon: $1,500",
+            "Ajan başına 75'i aşan eğitim verisi: paket başı $500",
+            "Ek revizyon turu: $400",
+            "Hızlı teslimat: +%40"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vade). Onay VEYA 2 revizyon turu sonrasında proje tamamlanmış sayılır. Tüm ajanların ve kodun mülkiyeti size devredilir.",
+          "bridge": "Ajan ekibiniz canlıda ve koordineli. Sürekli optimizasyon, yeniden eğitim ve yeni ajan eklemeleri için Ajan Büyümesi ($3,500/ay) veya Ajan Komuta Merkezi ($7,500/ay) paketimizi ekleyin.",
+          "ideal": "Çok adımlı iş akışlarını uçtan uca otomatikleştiren işletmeler"
+        },
+        {
+          "name": "AI Operasyonları",
+          "price": 25000,
+          "disp": "$25,000+",
+          "tag": "Kurumsal AI ekosistemi",
+          "tl": "4-8 hafta",
+          "scope": [
+            {
+              "i": "Özel AI ajanları (5+)",
+              "l": "İşiniz için eksiksiz bir operasyon katmanı olarak tasarlanmış beş veya daha fazla AI ajanı. Birden fazla departmanı kapsar: satış, destek, pazarlama, operasyon ve veri. Her ajan iş akışlarınız için özel geliştirilir. Şablon yok, hazır kurulum yok. Ajan türleri şunların herhangi bir kombinasyonu: ses, e-posta, sohbet, kazıma, PDF oluşturma, veri işleme, planlama, içerik üretimi, aday puanlama ve özel kullanım senaryoları."
+            },
+            {
+              "i": "AI orkestrasyon katmanı",
+              "l": "Tüm ajanları yöneten merkezi koordinasyon sistemi. Akıllı yönlendirme: görevler türe, önceliğe ve bağlama göre otomatik olarak doğru ajana atanır. Yüksek hacimli senaryolar için kuyruk yönetimi. Ortak bellek ve bağlam aktarımıyla ajanlar arası iletişim. Ajanlar hatayla karşılaştığında yeniden deneme mantığı, yedek işleme ve kontrollü düşüş."
+            },
+            {
+              "i": "Entegrasyonlar (6 dahil)",
+              "l": "Ajan ekosisteminizi iş araçlarınıza bağlayan 6 dış entegrasyon. Karmaşık entegrasyonlar dahil: CRM + e-posta + takvim + ödeme sistemleri arasında çok adımlı iş akışları. Gerçek zamanlı tetikleyiciler için webhook dinleyicileri. Çakışma çözümüyle platformlar arası veri senkronizasyonu."
+            },
+            {
+              "i": "Güvenlik ve uyumluluk",
+              "l": "Tüm API anahtarları, token'lar ve kimlik bilgileri şifrelenmiş ortam değişkenleri ve kurumsal düzey gizli anahtar yönetimiyle saklanır. Asla koda gömülmez, asla kaynak kodda, asla günlüklerde yer almaz. Her ajanın kimlik bilgileri tamamen izole edilir. Tüm ajan iletişimleri için veri şifreleme (aktarımda ve durağan halde). Ajan yönetimi için rol tabanlı erişim kontrolü. Her ajan eylemi için denetim günlüğü (kim, ne, ne zaman). Gereksinimlerinize göre yapılandırılmış kişisel veri işleme protokolleri. Veri saklama politikaları otomatik uygulanır. Devreye alındıktan sonra API anahtarlarınızı asla saklamayız veya tutmayız. Tam mülkiyet ve kontrol sizdedir."
+            },
+            {
+              "i": "Eğitim ve onboarding",
+              "l": "Her ajan en fazla 150 veri noktasıyla eğitilir. Ekibinize ajanları nasıl yöneteceğini, izleyeceğini ve güncelleyeceğini gösteren kapsamlı kayıtlı Loom anlatım serisi. Her ajan için runbook dokümantasyonu: ne yapar, nasıl değiştirilir ve sorun giderme adımları. Tüm eğitim kayıtlı video olarak sunulur. Ekibiniz kendi zamanında izler. Sorular mesaj veya e-postayla 1 iş günü içinde yanıtlanır."
+            }
+          ],
+          "ov": [
+            "Ek ajan: her biri $2,500",
+            "Ek entegrasyon: $2,000",
+            "Özel AI modeli ince ayarı: $5,000",
+            "Canlı eğitim görüşmesi: $250/saat",
+            "Hızlı teslimat: +%30"
+          ],
+          "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vade). Fazlar halinde teslim edilir (genellikle 2 veya 3 faz). Her fazın tanımlı teslimatları ve onayı vardır. Tüm kod ve ajan mülkiyeti tamamlandığında size devredilir.",
+          "bridge": "AI ekosisteminiz tamamen çalışır durumda. Çalışır, optimize ve genişler kalması için Ajan Komuta Merkezi paketimizi ($7,500/ay) ekleyin.",
+          "ideal": "Manuel süreçleri ölçekli akıllı otomasyonla değiştiren işletmeler"
+        }
+      ],
+      "monthlyAgent": [
+        {
+          "name": "Ajan Bakımı",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/ay",
+          "tag": "Ajanlar çalışmaya devam etsin",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Ajan izleme (en fazla 3)",
+              "l": "En fazla 3 AI ajanı için 7/24 çalışma süresi ve hata izleme. Bir ajan çökerse, hata vermeye başlarsa veya yanıt doğruluğu eşiğin altına düşerse otomatik uyarılar. Sorunları 1 iş günü içinde inceler ve çözeriz."
+            },
+            {
+              "i": "Eğitim verisi güncellemeleri (15/ay)",
+              "l": "Tüm ajanlar genelinde ayda en fazla 15 eğitim verisi güncellemesi. Kapsam: yeni soru-cevap çiftleri ekleme, yanıtları iyileştirme, senaryoları güncelleme ve yanlış yanıtları düzeltme. Güncellemeler talepten sonra 2 iş günü içinde teslim edilir."
+            },
+            {
+              "i": "API ve entegrasyon sağlık kontrolleri",
+              "l": "Tüm API bağlantılarının ve üçüncü taraf entegrasyonların çalıştığının aylık doğrulaması. API kullanımdan kaldırmaları, hız sınırı değişiklikleri ve kimlik doğrulama sürelerinin dolması için proaktif izleme. Tüm API anahtarları şifrelenmiş ortam değişkenleriyle güvenle saklanır. Asla kodda veya günlüklerde açığa çıkmaz."
+            },
+            {
+              "i": "Aylık performans raporu",
+              "l": "Her ayın 5'ine kadar teslim edilen rapor: ajan yanıt doğruluğu, tamamlanma oranları, hata oranları, kullanım hacmi ve entegrasyon durumu. Performansı iyileştirme önerileri içerir. PDF veya Loom videosu olarak teslim edilir."
+            },
+            {
+              "i": "Destek",
+              "l": "48 saat yanıt süreli mesaj ve e-posta desteği (iş günleri). Ayda en fazla 8 destek talebi. Her talep = 1 belirli sorun veya soru. 8'i aşan talepler $200/saat üzerinden faturalandırılır."
+            }
+          ],
+          "ov": [
+            "Ek ajan izleme: ajan başına $300/ay",
+            "15'i aşan eğitim güncellemeleri: adet başı $50",
+            "Mesai dışı acil düzeltme: +%50",
+            "Yeni ajan geliştirme: ayrı fiyatlandırılır"
+          ],
+          "ex": "Yeni ajan geliştirme, yeni entegrasyon ve yeni otomasyon iş akışı yok. Bu yalnızca izleme ve bakımdır. Aktif ajan geliştirme için Ajan Büyümesi paketine bakın.",
+          "ideal": "Doğru ve çevrimiçi kalması gereken canlı ajanlara sahip işletmeler"
+        },
+        {
+          "name": "Ajan Büyümesi",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/ay",
+          "tag": "En Popüler",
+          "pop": true,
+          "com": "en az 6 ay",
+          "scope": [
+            {
+              "i": "Ajan Bakımı'ndaki her şey",
+              "l": "Ajan Bakımı'ndaki tüm izleme, eğitim güncellemeleri, API sağlık kontrolleri, aylık raporlama ve destek, aşağıdaki genişletilmiş limitlerle."
+            },
+            {
+              "i": "Ajan izleme (en fazla 6)",
+              "l": "En fazla 6 AI ajanı için 7/24 çalışma süresi ve hata izleme. Otomatik uyarılar, inceleme ve 4 iş saati içinde çözüm."
+            },
+            {
+              "i": "Eğitim verisi güncellemeleri (40/ay)",
+              "l": "Tüm ajanlar genelinde ayda en fazla 40 eğitim verisi güncellemesi. Kapsam: yeni soru-cevap çiftleri, senaryo revizyonları, iş akışı ayarları ve yanıt iyileştirmeleri. Güncellemeler 1 iş günü içinde teslim edilir."
+            },
+            {
+              "i": "Ayda 1 yeni otomasyon iş akışı",
+              "l": "Ayda 1 yeni otomasyon iş akışı geliştirmesi (ör. yeni aday besleme dizisi, ek satış tetikleyicisi, yeniden iletişim kampanyası veya dahili bildirim akışı). İş akışı mevcut ajanlarınıza ve entegrasyonlarınıza bağlanır."
+            },
+            {
+              "i": "Aylık strateji güncellemesi",
+              "l": "Aylık Loom video anlatımı: ajan performans incelemesi, optimizasyon önerileri ve yaklaşan öncelikler. Mesaj veya e-postayla yanıt verirsiniz. Talep üzerine ayda 1 isteğe bağlı canlı görüşme (en fazla 30 dk)."
+            },
+            {
+              "i": "API anahtarı güvenliği ve yönetimi",
+              "l": "Tüm API anahtarları ve kimlik bilgileri şifrelenmiş ortam değişkenleri ve gizli anahtar yönetimiyle saklanır. Aylık kimlik bilgisi rotasyon hatırlatmaları. Açığa çıkmış veya ele geçirilmiş anahtarlar için proaktif izleme. Tüm kimlik bilgilerinin tam mülkiyeti ve kontrolü sizdedir."
+            },
+            {
+              "i": "Öncelikli destek",
+              "l": "24 saat yanıt süreli mesaj ve e-posta desteği (iş günleri). Kritik ajan arızaları: mesai saatlerinde aynı gün başlangıç. Ayda en fazla 15 destek talebi."
+            }
+          ],
+          "ov": [
+            "Ek ajan izleme: ajan başına $250/ay",
+            "40'ı aşan eğitim güncellemeleri: adet başı $40",
+            "Ek iş akışı geliştirme: $1,500",
+            "Yeni ajan geliştirme: $2,500",
+            "Mesai dışı acil: +%50"
+          ],
+          "ex": "Kurumsal orkestrasyon, uyumluluk çerçeveleri ve size özel strateji uzmanı yok. Tam AI operasyon yönetimi için Ajan Komuta Merkezi'ne bakın.",
+          "ideal": "AI ajan yeteneklerini aktif olarak genişleten işletmeler"
+        },
+        {
+          "name": "Ajan Komuta Merkezi",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/ay",
+          "tag": "Tam AI yönetimi",
+          "com": "en az 6 ay",
+          "scope": [
+            {
+              "i": "Ajan Büyümesi'ndeki her şey",
+              "l": "Ajan Büyümesi'ndeki tüm izleme, eğitim güncellemeleri, iş akışı geliştirmeleri, strateji güncellemeleri, API güvenliği ve öncelikli destek, aşağıdaki genişletilmiş limitlerle."
+            },
+            {
+              "i": "Ajan izleme (sınırsız)",
+              "l": "Tüm aktif ajanlar için sınırsız 7/24 izleme. Otomatik uyarılar, inceleme ve 2 iş saati içinde çözüm. Çok ajanlı sistemler için orkestrasyon katmanı sağlık izlemesi içerir."
+            },
+            {
+              "i": "Eğitim verisi güncellemeleri (sınırsız)",
+              "l": "Tüm ajanlar genelinde sınırsız eğitim verisi güncellemesi. Senaryo revizyonları, iş akışı ayarları, yeni soru-cevap çiftleri ve yanıt ayarı, gerektiğinde ve sınırsız. Güncellemeler 1 iş günü içinde teslim edilir."
+            },
+            {
+              "i": "Ayda 3 yeni otomasyon iş akışı",
+              "l": "Ayda 3 yeni otomasyon iş akışı geliştirmesi. Ajanları, entegrasyonları ve koşullu mantığı kapsayan karmaşık çok adımlı iş akışları. Her iş akışı için test, dağıtım ve dokümantasyon içerir."
+            },
+            {
+              "i": "Aylık strateji toplantısı + haftalık güncellemeler",
+              "l": "Ayda 1 canlı strateji toplantısı (en fazla 60 dk). Performans, yaklaşan öncelikler ve optimizasyon önerilerini kapsayan haftalık Loom güncellemeleri. Mesaj veya e-postayla yanıt verirsiniz. Günlük iletişim tamamen mesaj ve e-postayladır. Plansız görüşme yoktur."
+            },
+            {
+              "i": "Kurumsal güvenlik ve uyumluluk",
+              "l": "Tüm API anahtarları ve kimlik bilgileri kurumsal düzey gizli anahtar yönetimiyle yönetilir. Ajan başına kimlik bilgisi izolasyonu. Her ajan eylemi için denetim günlüğü. Aylık güvenlik incelemesi: kimlik bilgisi durumu, erişim kontrolleri, veri işleme ve uyumluluk duruşu. Kişisel veri işleme protokolleri gerektiğinde sürdürülür ve güncellenir. Tüm kimlik bilgilerinin tam mülkiyeti sizdedir."
+            },
+            {
+              "i": "Yeni ajan geliştirme (ayda 1 dahil)",
+              "l": "Ayda 1 yeni AI ajanı geliştirmesi kapsama dahildir. Kapsam: tasarım, eğitim, test, dağıtım ve dokümantasyon. Ek ajanlar indirimli fiyatla ($5,000 tek başına yerine her biri $2,000)."
+            },
+            {
+              "i": "Üç aylık AI denetimi",
+              "l": "Her 3 ayda bir: ajan performansı, doğruluk trendleri, maliyet verimliliği, entegrasyon sağlığı ve yeni otomasyon fırsatları için önerileri kapsayan tüm AI ekosisteminizin kapsamlı denetimi. Yazılı rapor olarak teslim edilir."
+            }
+          ],
+          "ov": [
+            "Ek ajan geliştirme: her biri $2,000",
+            "Ek iş akışı: $1,000",
+            "Özel AI modeli ince ayarı: $5,000",
+            "Canlı eğitim görüşmesi: $250/saat",
+            "Mesai dışı acil: +%50"
+          ],
+          "ex": "Pazarlama, reklam, içerik üretimi ve sosyal medya yönetimi yok. Bu hizmetler için Pazarlama Paketlerimize veya Sosyal Medya Yönetimi paketlerine bakın.",
+          "ideal": "AI'ı günlük operasyonların temel parçası olarak çalıştıran işletmeler"
+        }
+      ],
+      "customSupport": [
+        {
+          "name": "Saat Bankası",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/ay",
+          "tag": "Esnek destek",
+          "com": "Aydan aya (minimum yok)",
+          "scope": [
+            {
+              "i": "Saatlerinizi seçin",
+              "l": "Her ay bir geliştirme saati bloğu satın alın. 10 saat/ay = $2,500 ($250/saat). 20 saat/ay = $4,500 ($225/saat). 30 saat/ay = $6,000 ($200/saat). 40+ saat/ay = özel ücret. Saatler şunların herhangi bir kombinasyonunu kapsar: hata düzeltmeleri, özellik güncellemeleri, tasarım değişiklikleri, entegrasyonlar veya danışmanlık."
+            },
+            {
+              "i": "Nasıl çalışır",
+              "l": "Talepleri ortak görev panosu üzerinden iletirsiniz (Linear, GitHub Issues veya e-posta). Her göreve başlamadan önce saatleri tahmin eder ve onayınızı alırız. Çalışma, tam olarak ne yapıldığını ve ne kadar sürdüğünü gösteren zaman kaydıyla haftalık takip edilir ve raporlanır. Kullanılmayan saatler bir sonraki aya DEVRETMEZ."
+            },
+            {
+              "i": "Yanıt süresi",
+              "l": "Talepler 1 iş günü içinde onaylanır. Hata düzeltmeleri önem derecesine göre önceliklendirilir: kritik (aynı gün başlangıç), büyük (2 iş günü içinde), küçük (5 iş günü içinde). Özellik talepleri ve iyileştirmeler mevcut veya sonraki fatura dönemine planlanır."
+            },
+            {
+              "i": "Aylık özet",
+              "l": "Ay sonu raporu: kullanılan saatler, tamamlanan görevler, kalan saatler ve sonraki aya taşınan açık maddeler. Sürpriz yok."
+            },
+            {
+              "i": "Neler kapsanır",
+              "l": "Hata düzeltmeleri ve yamalar, küçük özellik eklemeleri, UI/UX iyileştirmeleri, veritabanı değişiklikleri, API güncellemeleri, üçüncü taraf entegrasyon bakımı, performans optimizasyonu, güvenlik yamaları ve danışmanlık. DAHİL DEĞİL: 40+ saat gerektiren tam özellik geliştirmeleri (ayrı proje olarak kapsamlandırılır), sıfırdan tasarım işleri (tasarım paketimizi veya proje fiyatlandırmasını kullanın) veya 7/24 nöbet desteği."
+            }
+          ],
+          "ov": [
+            "Bankanızı aşan saatler: $275/saat",
+            "Acil/aynı gün kritik düzeltme: kullanılan saatlere +%50",
+            "Hafta sonu çalışması: kullanılan saatlere +%75"
+          ],
+          "ex": "Garantili SLA yok. 7/24 izleme yok. Size özel geliştirici yok (ekip talepleri sırayla ele alır). Garantili yanıt süreleri ve size ayrılmış kaynaklar için aşağıdaki Geliştirici Desteği paketlerine bakın.",
+          "ideal": "Ara sıra güncelleme gerektiren küçük uygulamalar, araçlar veya lansman sonrası projeler"
+        },
+        {
+          "name": "Geliştirici Desteği",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/ay",
+          "tag": "Çalışır durumda kalsın",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Sunucu ve altyapı izleme",
+              "l": "Otomatik uyarılarla 7/24 çalışma süresi izleme. Sunucu sağlık kontrolleri: CPU, bellek, disk ve yanıt süresi. Uygulamanız çökerse anında haberdar oluruz ve mesai saatlerinde (Pazartesi-Cuma, 9-17) 1 saat içinde incelemeye başlarız. Altyapı sorunları çıkarsa hosting sağlayıcı koordinasyonu."
+            },
+            {
+              "i": "Güvenlik bakımı",
+              "l": "Aylık bağımlılık güncellemeleri (npm, pip, sistem paketleri). Güvenlik açığı taraması ve yama. SSL sertifikası yenileme yönetimi. Veritabanı yedek doğrulaması (yedekler geliştirme sırasında yapılandırılır, çalıştıklarını doğrular ve üç ayda bir geri yüklemeyi test ederiz). Yetkisiz erişim girişimleri için izleme."
+            },
+            {
+              "i": "Hata düzeltmeleri (5 saat/ay dahil)",
+              "l": "Ayda 5 saat hata düzeltme ve yama çalışması. Kapsam: orijinal geliştirme kapsamıyla ilgili bozuk özellikler, görüntüleme sorunları, API hataları ve entegrasyon arızaları. Saatler aylık takip edilir ve raporlanır. Üçüncü taraf API değişiklikleri veya hosting sağlayıcı sorunlarından kaynaklanan hatalar kapsanır. Yetkisiz kod değişikliklerinden (sizin veya başka bir geliştiricinin) kaynaklanan hatalar faturalandırılır."
+            },
+            {
+              "i": "Veritabanı yönetimi",
+              "l": "Aylık veritabanı sağlık kontrolü: sorgu performansı, indeks optimizasyonu, depolama kullanımı ve bağlantı havuzu izleme. Yedek doğrulaması ve test geri yükleme (üç ayda bir). Depolama beklenen sınırların ötesine geçerse veri temizleme önerileri. Büyük şema değişiklikleri veya veri taşımaları DAHİL DEĞİLDİR (ayrı fiyatlandırılır)."
+            },
+            {
+              "i": "Aylık sağlık raporu",
+              "l": "Her ayın 5'ine kadar e-postayla gönderilen rapor: çalışma süresi yüzdesi, sunucu performansı, uygulanan güvenlik yamaları, düzeltilen hatalar, yedek durumu ve iyileştirme önerileri. PDF veya panel bağlantısı olarak teslim edilir."
+            },
+            {
+              "i": "Destek kanalı",
+              "l": "24 saat yanıt süreli e-posta desteği (iş günleri). Ayda en fazla 8 destek talebi. Her talep = 1 belirli sorun veya soru. 8'i aşan talepler $200/saat üzerinden faturalandırılır."
+            }
+          ],
+          "ov": [
+            "5 saati aşan hata düzeltmeleri: $200/saat",
+            "Mesai dışı acil yanıt: +%50",
+            "Veritabanı taşıma: ayrı fiyatlandırılır",
+            "Özellik eklemeleri: Saat Bankası veya proje fiyatlandırması",
+            "Performans denetimi: tek seferlik $2,000"
+          ],
+          "ex": "Özellik geliştirme, tasarım, içerik güncellemesi ve reklam yönetimi yok. Bu yalnızca altyapı ve kod bakımıdır. Aktif geliştirme için Aktif Geliştirme paketine veya Saat Bankası'na bakın.",
+          "ideal": "Güvenli, izlenen ve yamalı kalması gereken stabil uygulamalar"
+        },
+        {
+          "name": "Aktif Geliştirme",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/ay",
+          "tag": "Sürekli iyileştirme",
+          "pop": true,
+          "com": "en az 6 ay",
+          "scope": [
+            {
+              "i": "Geliştirici Desteği'ndeki her şey",
+              "l": "Geliştirici Desteği paketindeki tüm izleme, güvenlik, hata düzeltmeleri (5 saat), veritabanı yönetimi ve aylık raporlama, temeliniz olarak dahildir."
+            },
+            {
+              "i": "Özellik geliştirme (35 saat/ay)",
+              "l": "Yeni özellikler geliştirmek, mevcutları iyileştirmek veya platformunuzu genişletmek için her ay 35 ayrılmış geliştirme saati. Saatler şunları kapsar: yeni özellikler, UI/UX iyileştirmeleri, yeni entegrasyonlar, performans optimizasyonu ve mimari iyileştirmeleri. Kullanılmayan saatler yalnızca bir sonraki aya devreder (en fazla birikim: 52 saat)."
+            },
+            {
+              "i": "Ürün yol haritası iş birliği",
+              "l": "Yaklaşan özellikler, öncelikler ve önerileri kapsayan Loom videosuyla aylık yol haritası incelemesi. Önceliklendirilmiş maddeler, durum takibi ve süre tahminleriyle ortak görev panosu (Linear veya GitHub Issues) tutarız. Öncelikleri görev panosu veya mesajla siz belirlersiniz. Teknik uygulanabilirlik, efor ve sıralama konusunda danışmanlık yaparız. Talep üzerine ayda 1 isteğe bağlı canlı görüşme (en fazla 60 dk)."
+            },
+            {
+              "i": "Tasarım dahil",
+              "l": "Ayda 3 saat tasarım çalışması dahildir (UI güncellemeleri, yeni ekran düzenleri, bileşen tasarımı). Kapsam: wireframe'ler, mockup'lar ve küçük tasarım sistemi güncellemeleri. 5+ tasarım saati gerektiren tam sayfa veya özellik yeniden tasarımları ayrı fiyatlandırılır."
+            },
+            {
+              "i": "İki haftada bir demo videoları",
+              "l": "Her 2 haftada bir tamamlanan işin ve devam eden özelliklerin Loom demosunu kaydederiz. Kendi zamanınızda inceler ve mesaj, e-posta veya görev panosu üzerinden geri bildirim verirsiniz. Projeyi ilerletir ve uyumsuzluğu önler. Canlı görüşmeye gerek yok."
+            },
+            {
+              "i": "Öncelikli destek",
+              "l": "4 saat yanıt süreli mesaj ve e-posta desteği (iş günleri). Kritik hatalar: mesai saatlerinde aynı gün başlangıç. Ayda en fazla 15 destek talebi. Tüm iletişim mesaj ve e-postayla. Planlı görüşme gerekmez."
+            },
+            {
+              "i": "Üç aylık performans incelemesi",
+              "l": "Her 3 ayda bir: performans (sayfa yükleme süreleri, API yanıt süreleri), güvenlik duruşu, altyapı maliyetleri ve teknik borç değerlendirmesini kapsayan kapsamlı platform denetimi. Optimizasyon önerileri yazılı rapor olarak teslim edilir."
+            }
+          ],
+          "ov": [
+            "35 saati aşan geliştirme: $225/saat",
+            "Mesai dışı acil: +%50",
+            "Hafta sonu dağıtımı: +%75",
+            "40 saati aşan tam özellik geliştirmesi: indirimli ücretle ayrı proje olarak kapsamlandırılır",
+            "3 saati aşan tasarım: $200/saat"
+          ],
+          "ex": "7/24 nöbet desteği yok. Size özel tam zamanlı geliştirici yok (öncelikli erişimli ortak ekip). Bu seviyede mobil uygulama geliştirme yok (ayrı kapsamlandırılır). Pazarlama, reklam veya içerik hizmeti yok. Bunlar için pazarlama paketlerimize bakın.",
+          "ideal": "Her ay yeni özellik çıkaran büyüyen platformlar"
+        }
+      ],
+      "appBuild": [
+        {
+          "name": "Fırlatma Rampası",
+          "price": 9500,
+          "disp": "$9,500",
+          "tag": "Fikrinizi doğrulayın",
+          "tl": "4-6 hafta",
+          "scope": [
+            {
+              "i": "iOS veya Android (siz seçin), React Native",
+              "l": "React Native ile geliştirilmiş tek platformlu mobil uygulama. Başlangıçta iOS veya Android'i siz seçersiniz; diğer platform daha sonra uzantı olarak eklenebilir."
+            },
+            {
+              "i": "Figma'da tasarlanmış en fazla 4 ekran",
+              "l": "En fazla 4 benzersiz ekran için tam Figma tasarımı (ana sayfa, detay, profil ve 1 özel). 2 tasarım revizyon turu. Tablet/iPad düzenleri bu seviyede dahil değildir."
+            },
+            {
+              "i": "En fazla 3 API entegrasyonu",
+              "l": "Kimlik doğrulama sağlayıcısı (Apple/Google/e-posta), seçeceğiniz 1 üçüncü taraf API (haritalar, hava durumu, takvim vb.) ve 1 analitik entegrasyonu (Mixpanel veya PostHog)."
+            },
+            {
+              "i": "Temel kimlik doğrulama",
+              "l": "E-posta + Apple/Google ile giriş. Ad, avatar ve çıkış içeren profil ekranı. Çok kiracılı yapı, ekip hesapları veya SSO yok."
+            },
+            {
+              "i": "App Store veya Play Store'a gönderim",
+              "l": "Uçtan uca yürütülen tek mağaza gönderimi: ekran görüntüleri tasarlanır, açıklama yazılır, meta veriler optimize edilir, geliştirici hesabınızdan gönderilir."
+            },
+            {
+              "i": "30 günlük lansman sonrası garanti",
+              "l": "Mağaza onayından sonraki ilk 30 günde bildirilen hatalar ücretsiz düzeltilir. Özellik talepleri ayrı kapsamlandırılır."
+            },
+            {
+              "i": "Kaynak kodu + dokümantasyon devri",
+              "l": "README, .env.example, dağıtım talimatları ve 30 dakikalık kayıtlı anlatım içeren tam GitHub deposu."
+            }
+          ],
+          "ov": [
+            "Ek ekran: $650",
+            "İkinci platform (iOS veya Android ekleme): +$4,500",
+            "Ek API entegrasyonu: $450",
+            "Tablet/iPad düzenleri: +$1,800"
+          ],
+          "ex": "Özel backend geliştirme yok (mevcut API'lerinizi veya Supabase gibi bir no-code backend kullanır). Uygulama içi satın alma yok. Push bildirimi yok. Çevrimdışı öncelikli mod yok.",
+          "bridge": "30 günlük garantiden sonra süregelen bakım, iOS/Android güncellemelerine ve mağaza yeniden gönderimlerine ayak uydurmak için Ayakta Tut paketimize ($1,950/ay) geçer.",
+          "ideal": "Odaklı, tek platformlu bir MVP ile fikrini doğrulayan kurucular"
+        },
+        {
+          "name": "Stüdyo",
+          "price": 24500,
+          "disp": "$24,500",
+          "tag": "En Popüler",
+          "pop": true,
+          "tl": "8-12 hafta",
+          "scope": [
+            {
+              "i": "iOS + Android çapraz platform",
+              "l": "Hem iOS hem Android için derlenen tek React Native (veya talep üzerine Flutter) kod tabanı. Önemli yerlerde platforma özel rötuş: iOS haptik geri bildirimi, Android Material bileşenleri."
+            },
+            {
+              "i": "Tamamen tasarlanmış en fazla 10 ekran",
+              "l": "Eksiksiz etkileşimli prototip dahil 10 benzersiz ekranla tam Figma tasarımı. Ekran partisi başına 3 revizyon turu."
+            },
+            {
+              "i": "En fazla 6 API entegrasyonu",
+              "l": "Kimlik doğrulama, ödemeler (Stripe veya RevenueCat), push bildirimleri (OneSignal veya Firebase), analitik (Mixpanel/Amplitude) ve seçeceğiniz 2 özel üçüncü taraf entegrasyon."
+            },
+            {
+              "i": "Kullanıcı hesapları + push bildirimleri",
+              "l": "Tam kayıt/giriş akışı, düzenlenebilir profil ekranı, parola sıfırlama ve bağlanmış push bildirimleri (izin akışı + işlemsel bildirimler)."
+            },
+            {
+              "i": "Crashlytics + analitik bağlı",
+              "l": "Çökme raporlama paneliyle her iki platformda Crashlytics (Firebase veya Sentry). 8 temel kullanıcı olayının izlendiği analitik hattı."
+            },
+            {
+              "i": "App Store + Play Store'a gönderim",
+              "l": "Her iki mağaza uçtan uca gönderilir: tasarlanmış ekran görüntüleri, yazılmış açıklamalar, anahtar kelime araştırması ve her ikisi için gizlilik etiketleri."
+            },
+            {
+              "i": "60 günlük lansman sonrası garanti",
+              "l": "Mağaza onayından sonraki 60 gün içinde bildirilen hatalar ücretsiz düzeltilir. Apple/Google bozucu bir değişiklik yayınlarsa lansman sonrası ilk işletim sistemi güncellemesinin ele alınmasını içerir."
+            },
+            {
+              "i": "30 gün boyunca haftada 1 saat Slack desteği",
+              "l": "Lansman sonrası 30 gün ortak Slack kanalı. Haftada en fazla 1 saat asenkron soru-cevap, küçük ayarlar veya devir soruları."
+            }
+          ],
+          "ov": [
+            "Ek ekran: $850",
+            "Özel native modül: $175/saat",
+            "Ek entegrasyon: $650",
+            "Uzatılmış garanti (+30 gün): $1,200"
+          ],
+          "ho": "Lansman sonrası tam kod devri: GitHub deposu, EAS/Fastlane CI yapılandırması, dağıtım dokümanları, env şablonu ve 60 dakikalık kayıtlı anlatım. Ekibiniz devralır veya biz aylık paketle devam ederiz.",
+          "bridge": "Lansman sonrası 60 gün dahildir. Sonrasında aktif iterasyon İvme paketimizle ($4,800/ay) sürer: ayda 20 mühendislik saati, özellik çalışması ve A/B testleri.",
+          "ideal": "Gerçek kullanıcılara cilalı bir çapraz platform ürün sunan ekipler"
+        },
+        {
+          "name": "Amiral Gemisi",
+          "price": 62000,
+          "disp": "$62,000",
+          "tag": "Tam ürün geliştirme",
+          "tl": "14-18 hafta",
+          "scope": [
+            {
+              "i": "iOS + Android + özel Node/Postgres backend",
+              "l": "Full-stack ürün: her iki platformda React Native uygulaması artı altyapınızda (AWS, Railway veya Vercel) barındırılan Postgres'li özel Node.js backend."
+            },
+            {
+              "i": "Tam tasarım sistemiyle en fazla 20 ekran",
+              "l": "Yeniden kullanılabilir bileşenlerle Figma tasarım sistemi. Tamamen tasarlanmış en fazla 20 benzersiz ekran. Kararlaştırılan kapsam dahilinde sınırsız revizyon."
+            },
+            {
+              "i": "En fazla 12 API / üçüncü taraf entegrasyon",
+              "l": "Stripe, Twilio, Segment, webhook'lar vb. Yeniden deneme ve hata yönetimiyle bağlanmış, seçeceğiniz 12 üçüncü taraf entegrasyon."
+            },
+            {
+              "i": "Yönetici paneli (web)",
+              "l": "İçerik ve kullanıcı yönetimi için web tabanlı yönetici uygulaması. Rol tabanlı erişim, denetim günlüğü ve veri modelleriniz için standart CRUD akışları."
+            },
+            {
+              "i": "Gerçek zamanlı özellik",
+              "l": "Seçeceğiniz 1 gerçek zamanlı özellik: uygulama içi sohbet, canlı güncellemeler veya webhook tetiklemeli push. WebSockets veya Pusher/Ably üzerine kurulur."
+            },
+            {
+              "i": "Ödemeler + rol tabanlı kimlik doğrulama",
+              "l": "Uygulama içi abonelikler için Stripe veya RevenueCat. JWT + refresh token'larla rol tabanlı kimlik doğrulama (kullanıcı / yönetici / özel roller)."
+            },
+            {
+              "i": "CI/CD hattı + staging",
+              "l": "Her iki platform için EAS veya Fastlane CI/CD. QA için ayrı staging ortamı. Merge'de TestFlight/dahili kanala otomatik dağıtım."
+            },
+            {
+              "i": "App Store + Play Store gönderimi + ASO kiti",
+              "l": "Her iki mağaza gönderilir, artı App Store Optimizasyonu başlangıç kiti: anahtar kelime araştırması, rakip analizi ve çalıştırmaya hazır 3 varyant deneyi."
+            },
+            {
+              "i": "90 günlük lansman sonrası garanti",
+              "l": "Mağaza onayından sonraki 90 gün içinde bildirilen hatalar ücretsiz düzeltilir. Sonraki fazı kapsamlandırmak için 2 keşif atölyesi içerir."
+            }
+          ],
+          "ov": [
+            "Ek ekran: $1,100",
+            "Özel native modül: $185/saat",
+            "Ek gerçek zamanlı özellik: $6,500",
+            "Ek keşif atölyesi: $1,800"
+          ],
+          "ho": "Eksiksiz devir: GitHub monorepo, CI/CD yapılandırması, kod olarak altyapı (talep üzerine Terraform veya Pulumi), dağıtım ve geri alma runbook'u ve hem mobil hem backend ekipleriyle 90 dakikalık video anlatımı.",
+          "bridge": "Lansman sonrası 90 gün dahildir. Sonrasında gömülü ortaklık, size özel mühendis ve yarı zamanlı tasarımcıyla Ortak paketimizle ($10,500/ay) sürer.",
+          "ideal": "Özel backend'li tam özellikli bir ürün çıkaran yatırım almış startup'lar ve markalar"
+        }
+      ],
+      "appSupport": [
+        {
+          "name": "Ayakta Tut",
+          "price": 1950,
+          "disp": "$1,950",
+          "per": "/ay",
+          "tag": "Sağlıklı ve uyumlu kalın",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Ayda en fazla 6 mühendislik saati",
+              "l": "Hata triyajı, küçük yamalar ve reaktif düzeltmeler için bütçe. Saatler devretmez. Acil düzeltmeler önce bu bankadan düşülür."
+            },
+            {
+              "i": "24 saatlik triyaj SLA'sı ile hata düzeltmeleri",
+              "l": "Kritik hatalar (uygulama çökmeleri, bozuk giriş, başarısız ödemeler) 24 iş saati içinde onaylanır ve kapsama bağlı olarak 48-72 saat içinde düzeltilir."
+            },
+            {
+              "i": "iOS + Android işletim sistemi sürüm güncellemeleri (yıllık)",
+              "l": "Her yeni büyük iOS ve Android sürümüne karşı yıllık test + güncelleme döngüsü. Gerekli kullanımdan kaldırmalar ve izin değişiklikleri ele alınır."
+            },
+            {
+              "i": "Üç aylık mağaza yeniden gönderimleri",
+              "l": "Her 3 ayda bir: mağaza meta verilerinin güncelliğini gözden geçirme, gerekirse ekran görüntülerini güncelleme ve Apple/Google algoritma desteği için yeniden gönderme."
+            },
+            {
+              "i": "Crashlytics izleme + aylık rapor",
+              "l": "Crashlytics paneli aylık izlenir. Çökmesiz oran, başlıca sorunlar ve sürüm benimsenmesini gösteren 1 sayfalık sağlık raporu teslim edilir."
+            },
+            {
+              "i": "Bağımlılık + güvenlik yamaları",
+              "l": "npm/gem bağımlılıklarının aylık taraması. CVE düzeyindeki güvenlik yamaları anında uygulanır. Kritik olmayan yükseltmeler üç ayda bir toplu yapılır."
+            },
+            {
+              "i": "E-posta desteği, 5 günlük dönüş",
+              "l": "Kritik olmayan talepler e-postayla. 5 iş günü dönüş süresi. Bu seviyede Slack, gerçek zamanlı sohbet veya telefon yoktur."
+            }
+          ],
+          "ov": [
+            "Ek saat: $165/saat",
+            "Acil hotfix (hafta sonu/tatil): sabit $450 + saatler",
+            "Özel özellik çalışması: ayrı kapsamlandırılır"
+          ],
+          "ex": "Özellik geliştirme yok. Yeni entegrasyon yok. Tasarım işi yok. Pazarlama veya ASO hizmeti yok.",
+          "ideal": "Sağlıklı, uyumlu ve mağazalarda kalması gereken yayınlanmış uygulamalar"
+        },
+        {
+          "name": "İvme",
+          "price": 4800,
+          "disp": "$4,800",
+          "per": "/ay",
+          "tag": "En Popüler",
+          "pop": true,
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Ayda en fazla 20 mühendislik saati",
+              "l": "Aktif iterasyon için 20 saat: özellik çalışması, optimizasyonlar, A/B testleri, analitik çalışması. Ayakta Tut'taki her şey bu bütçeye dahildir."
+            },
+            {
+              "i": "Ayakta Tut'taki her şey",
+              "l": "Hata düzeltmeleri, işletim sistemi güncellemeleri, mağaza yeniden gönderimleri, Crashlytics izleme, bağımlılık yamaları. Aynı limitler geçerlidir, 20 saatlik bankadan düşülür."
+            },
+            {
+              "i": "Ayda 1-2 küçük özellik veya 1 orta özellik",
+              "l": "Her ay yayına alınır. Küçük = 8 saatin altı (yeni ekran, yeni izlenen olay, metin düzenlemeleri). Orta = en fazla 20 saat (yeni akış, yeni entegrasyon)."
+            },
+            {
+              "i": "Analitik panelleri + aylık içgörüler",
+              "l": "Ürün analitik panellerinizi (Mixpanel veya Amplitude) kurar ve sürdürürüz. Kullanıcı davranışı, elde tutma ve dönüşüm trendleriyle aylık 3 sayfalık içgörü raporu."
+            },
+            {
+              "i": "A/B test kurulumu + raporlama",
+              "l": "Ayda en fazla 2 aktif A/B testi. Kurulum, varyant uygulaması, sonuç analizi ve öneri dokümanı bizde."
+            },
+            {
+              "i": "Tasarım desteği (ayda en fazla 4 saat)",
+              "l": "Yeni ekranlar veya akış güncellemeleri için ayda 4 saat tasarım süresi. Tasarım saatleri 20 mühendislik saatinden ayrıdır. Çift sayılmaz."
+            },
+            {
+              "i": "İki haftada bir standup görüşmesi",
+              "l": "İlerlemeyi gözden geçirmek, öncelikleri hizalamak ve engelleri kaldırmak için iki haftada bir 30 dakikalık görüntülü görüşme. Kaydedilir ve Slack kanalınızda paylaşılır."
+            }
+          ],
+          "ov": [
+            "Ek saat: $155/saat",
+            "Ek A/B testi: $800 kurulum",
+            "Acele özellik (1 haftadan kısa dönüş): 1,5x saat",
+            "Ek tasarım saati: $145"
+          ],
+          "ex": "Size özel mühendis yok (öncelikli erişimli ortak ekip). Backend mimarisi değişikliği yok. Pazarlama hizmeti yok.",
+          "ideal": "Kullanıcı verilerine göre aktif olarak iterasyon yapan canlı uygulamalar"
+        },
+        {
+          "name": "Ortak",
+          "price": 10500,
+          "disp": "$10,500",
+          "per": "/ay",
+          "tag": "Gömülü ürün ekibi",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Size özel mühendis (~80 saat/ay) + tasarımcı (~15 saat)",
+              "l": "Haftada ~20 saat isimli kıdemli mühendis + haftada ~4 saat yarı zamanlı tasarımcı. Her ay aynı kişiler. Kod tabanınızı bilirler."
+            },
+            {
+              "i": "İvme'deki her şey",
+              "l": "Tüm İvme çalışmaları (hatalar, özellikler, A/B testleri, analitik) genişletilmiş bütçe içinde devam eder. Ayrı faturalandırma yok."
+            },
+            {
+              "i": "Sürekli yol haritası teslimatı",
+              "l": "Yol haritasını belirlemek için kurucularla üç aylık planlama oturumları. Buna göre geliştirir ve ilerlemeyi haftalık raporlarız. Öncelikler çeyrek içinde esneyebilir."
+            },
+            {
+              "i": "Özel native modüller + platforma özel çalışma",
+              "l": "Çapraz platform yetmediğinde (ör. Apple Watch yardımcı uygulaması, Android widget'ları, derin iOS entegrasyonları) native modüller dahildir."
+            },
+            {
+              "i": "Backend + altyapı bakımı",
+              "l": "Backend ve altyapınız dahildir: yamalar, ölçekleme, izleme uyarıları, maliyet optimizasyonu. 80 saatlik mühendislik bankasıyla sınırlı değildir."
+            },
+            {
+              "i": "Haftalık senkron + ortak Linear/Jira panosu",
+              "l": "30 dakikalık haftalık görüntülü senkron + tam bilet görünürlüğüyle ortak Linear (veya Jira) çalışma alanı. Ekibiniz doğrudan bilet açabilir."
+            },
+            {
+              "i": "Aynı gün yanıt SLA'sı, öncelikli Slack",
+              "l": "Mesai saatlerinde 2 saat yanıt süreli Slack kanalı. Acil olmayan her şey için aynı iş günü içinde onay."
+            },
+            {
+              "i": "Üç aylık strateji oturumu",
+              "l": "Her 3 ayda bir: ASO, büyüme, mimari incelemesi ve teknik borcu kapsayan 90 dakikalık oturum. Yazılı not olarak teslim edilir."
+            }
+          ],
+          "ov": [
+            "Ayda 95'i aşan ek saat: $145/saat",
+            "Ek size özel mühendis: +$8,500/ay",
+            "Ek size özel tasarımcı: +$3,500/ay"
+          ],
+          "ex": "Pazarlama, ücretli reklam ve içerik hizmetleri dahil değildir. Bunlar için pazarlama paketlerimize bakın.",
+          "ideal": "Blok Blok'u gömülü ürün ekibi olarak gören ekipler"
+        }
+      ],
+      "webSupport": [
+        {
+          "name": "Site Bakımı",
+          "price": 550,
+          "disp": "$550",
+          "per": "/ay",
+          "tag": "Güvenilir bakım",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "%99,9 çalışma süresi izleme",
+              "l": "StatusCake veya BetterStack sitenizi 7/24 izler. Uyarılar anında bize gelir. Sitenin çöktüğünü bir müşteriden öğrenmezsiniz."
+            },
+            {
+              "i": "Haftalık site dışı yedekler",
+              "l": "Tam site + veritabanı haftalık olarak site dışı depolamaya yedeklenir (yalnızca hosting sağlayıcısında değil). 30 gün saklama."
+            },
+            {
+              "i": "Güvenlik yamaları + bağımlılık güncellemeleri",
+              "l": "WordPress çekirdeği/eklentileri (WP ise) veya npm bağımlılıkları (Next.js ise) aylık yamalanır. Kritik güvenlik güncellemeleri 24 saat içinde uygulanır."
+            },
+            {
+              "i": "Ayda en fazla 4 küçük içerik düzenlemesi",
+              "l": "Metin güncellemeleri, görsel değişimleri, bağlantı düzeltmeleri, fiyat değişiklikleri, yeni referanslar. Her düzenleme = 15 dakikanın altında iş."
+            },
+            {
+              "i": "SSL + alan adı sağlık kontrolleri",
+              "l": "SSL sertifikası otomatik yenilemesi izlenir. Alan adı sona erme uyarıları 60 gün önceden. DNS sağlığı üç ayda bir kontrol edilir."
+            },
+            {
+              "i": "Aylık çalışma süresi + hız raporu",
+              "l": "1 sayfalık aylık rapor: çalışma süresi yüzdesi, ortalama sayfa yükleme süreleri, güvenlik olayları ve yapılan işlemler. Ayın 1'inde teslim edilir."
+            }
+          ],
+          "ov": [
+            "Ek içerik düzenlemesi: adet başı $45",
+            "Acele talep (aynı gün): +$125",
+            "Saatlik güncelleme çalışması: $165/saat"
+          ],
+          "ex": "Yeni sayfa, yeniden tasarım, A/B testi, SEO ve reklam yok. Pazarlama faaliyeti yok. Bunlar için pazarlama paketlerimize bakın.",
+          "ideal": "Güvenilir bakım ve iç rahatlığı isteyen yayındaki siteler"
+        },
+        {
+          "name": "Site Büyümesi",
+          "price": 1600,
+          "disp": "$1,600",
+          "per": "/ay",
+          "tag": "En Popüler",
+          "pop": true,
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Site Bakımı'ndaki her şey",
+              "l": "Çalışma süresi, yedekler, güvenlik ve küçük düzenlemeler dahildir. Aynı limitler, bu pakete dahil edilmiştir."
+            },
+            {
+              "i": "Ayda 1 yeni sayfa veya yeniden tasarlanmış bölüm",
+              "l": "Her ay bir yeni sayfa (en fazla 1.000 kelime + standart tasarım) VEYA mevcut bir sayfanın tamamen yeniden tasarlanmış bir bölümünü yayına alırız. Seçim sizin."
+            },
+            {
+              "i": "Ayda 2 A/B testi",
+              "l": "Hero metni, CTA varyantları, düzen testleri veya fiyatlandırma sayfası deneyleri. Kurulum, çalıştırma, analiz ve kazananı önerme, hepsi ay içinde."
+            },
+            {
+              "i": "Core Web Vitals optimizasyonu (üç ayda bir)",
+              "l": "Her 3 ayda bir: Google'ın CWV ölçütlerine karşı kapsamlı denetim. Görsel sıkıştırma, kod bölme ve kritik yol CSS'i optimize edilir."
+            },
+            {
+              "i": "GA4 + Search Console üç aylık raporu",
+              "l": "Her 3 ayda bir: organik trafik, en iyi sayfalar, hemen çıkma oranları ve arama sorgusu trendlerini kapsayan 3 sayfalık içgörü raporu. Öneriler dahildir."
+            },
+            {
+              "i": "Ayda 8 içerik güncellemesi",
+              "l": "Site Bakımı'nın 4 düzenlemelik temelinin ötesinde: her ay toplam en fazla 8 içerik güncellemesi. Pazartesileri haftalık toplu yapılır."
+            },
+            {
+              "i": "Öncelikli e-posta + Slack, 24 saat yanıt",
+              "l": "Hızlı sorular için Slack kanalı erişimi. Tüm taleplere 24 saat içinde yanıt. Site Ortaklığı paketi dışında acil durumlar için gerçek zamanlı destek yoktur."
+            }
+          ],
+          "ov": [
+            "Ek A/B testi: $450",
+            "Ek yeni sayfa: $850",
+            "Video/animasyon çalışması: ayrı kapsamlandırılır"
+          ],
+          "ex": "Tam yeniden tasarım yok (proje olarak kapsamlandırılır). Ücretli reklam yok. Küçük düzenlemelerin ötesinde içerik yazımı yok.",
+          "ideal": "Sitenin her ay gelişmeye devam etmesini isteyen ekipler"
+        },
+        {
+          "name": "Site Ortaklığı",
+          "price": 3800,
+          "disp": "$3,800",
+          "per": "/ay",
+          "tag": "Gömülü web ekibi",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Site Büyümesi'ndeki her şey",
+              "l": "Aylık yeni sayfalar, A/B testleri, Web Vitals çalışması, üç aylık raporlar, artı bu paket içinde genişletilmiş limitler."
+            },
+            {
+              "i": "Haftalık dağıtımlar",
+              "l": "Yeni özellikler, testler veya optimizasyonlar her hafta yayına alınır. Pazartesi plan günü, Perşembe yayın günüdür."
+            },
+            {
+              "i": "Size özel geliştirici (~25 saat/ay) + tasarımcı (~8 saat/ay)",
+              "l": "İsimli geliştirici ve tasarımcı. Her ay aynı kişiler. Teknoloji yığınınızı ve markanızı bilirler. Saatler bir bütçedir; kullanmadığınız devretmez."
+            },
+            {
+              "i": "Aylık SEO denetimi + düzeltmeler",
+              "l": "Her ay kapsamlı SEO denetimi: teknik (şema, site haritaları, indeksleme), sayfa içi (anahtar kelimeler, meta'lar, iç bağlantılar) ve sayfa dışı öneriler. İlk 3 düzeltme aynı ay uygulanır."
+            },
+            {
+              "i": "CMS içerik yükleme (ayda en fazla 10)",
+              "l": "Metinlerinizden ayda en fazla 10 blog yazısı veya içerik sayfası yüklenir. Görseller biçimlendirilir, meta etiketler yazılır, iç bağlantılar önerilir. Siz yazın, biz yayınlayalım."
+            },
+            {
+              "i": "Dönüşüm oranı optimizasyonu yol haritası",
+              "l": "Analitik + A/B test sonuçlarına dayalı aylık CRO öncelikleri. Her ay 3 deney önerilir; en iyi 2'si yayına alınır."
+            },
+            {
+              "i": "Aynı gün Slack, 2 saat yanıt SLA'sı",
+              "l": "Mesai saatlerinde 2 saat yanıt süreli Slack kanalı. Acil olmayan her şey için aynı gün onay."
+            }
+          ],
+          "ov": [
+            "Ayda 33'ü aşan ek saat: $155/saat",
+            "Ek içerik sayfası yükleme: 10'u aşan her biri $45",
+            "Acele dağıtım (aynı gün): +%25"
+          ],
+          "ex": "Ücretli reklam yönetimi yok (pazarlama paketlerine bakın). Marka yeniden tasarımı yok (marka paketlerine bakın). Mobil uygulama çalışması yok.",
+          "ideal": "Blok Blok'u web ekibi olarak gören ölçeklenen işletmeler"
+        }
+      ],
+      "marketingBuild": [
+        {
+          "name": "Pazarlama Denetimi ve Yol Haritası",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Teşhis + 90 günlük plan",
+          "tl": "2-3 hafta",
+          "scope": [
+            {
+              "i": "Tam huni denetimi",
+              "l": "1 web sitesi + en fazla 3 aktif kanalın (reklam, SEO, e-posta, sosyal) incelemesi. Huninizin her aşaması haritalanır ve darboğazlar belirlenir."
+            },
+            {
+              "i": "Analitik + atıf incelemesi",
+              "l": "GA4, Meta Pixel, UTM hijyeni, dönüşüm takibi denetimi. Her sorunun etki/efora göre önceliklendirildiği 10 maddelik düzeltme listesi."
+            },
+            {
+              "i": "Rakip analizi (3 doğrudan rakip)",
+              "l": "3 doğrudan rakibin derinlemesine incelemesi: konumlandırma, teklifler, reklam kreatifleri, açılış sayfaları, SEO ayak izi. Notion dokümanı olarak teslim edilen 6 sayfalık karşılaştırmalı analiz."
+            },
+            {
+              "i": "ICP + mesajlaşma atölyesi",
+              "l": "2 x 60 dakikalık canlı oturum. Çıktılar: rafine edilmiş değer önerisi, 3 temel mesaj sütunu, 1 ideal müşteri persona dokümanı."
+            },
+            {
+              "i": "90 günlük önceliklendirilmiş yol haritası",
+              "l": "RICE (Reach, Impact, Confidence, Effort) ile puanlanmış 20-30 aksiyon maddesi. Ekibinizin uygulayabileceği veya bizim yürütebileceğimiz bir Notion backlog'u olarak teslim edilir."
+            },
+            {
+              "i": "Bütçe dağılım modeli",
+              "l": "Denetim bulgularına dayalı beklenen ROI aralıklarıyla ücretli, organik ve yaşam döngüsü kanallarına bölünmüş gelecek çeyrek bütçesi."
+            },
+            {
+              "i": "1 strateji sunumu (kayıtlı)",
+              "l": "Bulguları ve yol haritasını anlatan 60 dakikalık canlı sunum. Kaydedilir + ekibinizle paylaşılır. Notion dokümanı aynı gün teslim edilir."
+            },
+            {
+              "i": "30 dakikalık takip görüşmesi",
+              "l": "Teslimattan 30 gün sonra: neyin uygulandığını gözden geçirmek ve engelleri kaldırmak için kontrol görüşmesi."
+            }
+          ],
+          "ov": [
+            "Denetlenen ek kanal: $450",
+            "Analizde ek rakip: her biri $250",
+            "Uzatılmış atölye oturumu (90 dk): $400"
+          ],
+          "ex": "Yol haritasının uygulanması yok (bu sonraki adımdır). Reklam yönetimi yok. İçerik üretimi yok. Kreatif prodüksiyon yok.",
+          "bridge": "Denetim, bağlamı yeniden kurmadan yol haritasını uygulamak için Bakım ve İzleme paketimizle ($1,500/ay) doğal olarak eşleşir. 14 gün içinde imzalanırsa ilk ay %10 indirim.",
+          "ideal": "Pazarlamanın para sızdırdığından şüphelenen ama nereden olduğunu bulamayan kurucular"
+        },
+        {
+          "name": "Kampanya Rampası",
+          "price": 8500,
+          "disp": "$8,500",
+          "tag": "En Popüler",
+          "pop": true,
+          "tl": "4-5 hafta kurulum + 30 gün izleme",
+          "scope": [
+            {
+              "i": "1 ana reklam platformu tamamen kurulur",
+              "l": "Google, Meta veya TikTok uçtan uca kurulur: hesap yapısı, pikseller, Conversions API, özel kitleler, yeniden pazarlama listeleri. Ölçeklenecek temiz bir temel."
+            },
+            {
+              "i": "Toplam 6 reklam kreatifi",
+              "l": "2 statik görsel + 2 kısa video + 2 varyant kanca. Marka varlıklarınızdan ekibimizce çekilir ve kurgulanır + gerekirse uzaktan çektiğimiz 1 ürün demo videosu."
+            },
+            {
+              "i": "1 özel açılış sayfası + A/B varyantı",
+              "l": "Metin ve tasarımıyla tam özel açılış sayfası (Webflow, Framer veya Shopify). Dönüşüm testi için hero'nun 1 A/B varyantı."
+            },
+            {
+              "i": "Aday toplama otomasyonu (5 e-postalık dizi)",
+              "l": "Klaviyo, Kit veya HubSpot'ta kurulan 5 e-postalık hoş geldin veya besleme dizisi. Tetikleyici mantığı, kişiselleştirme etiketleri ve performans takibi dahildir."
+            },
+            {
+              "i": "Takip + panel kurulumu",
+              "l": "Günlük yenilenen GA4 + Looker Studio paneli. Pazartesileri e-postayla iletilen 1 müşteriye yönelik haftalık rapor."
+            },
+            {
+              "i": "14 günlük yumuşak lansman + 30 gün izleme",
+              "l": "Günlük optimizasyon ve kreatif iterasyonuyla 2 haftalık yumuşak lansman. Ardından haftalık ayarlamalarla 30 gün aktif kampanya izleme."
+            },
+            {
+              "i": "En fazla $15k yönetilen reklam harcaması",
+              "l": "$15k'ya kadar reklam harcaması ücrete dahildir (harcamanın kendisi platform tarafından ayrıca faturalandırılır). Her ek $5k harcama: ücrete +$500."
+            },
+            {
+              "i": "Performans incelemesi + devir dokümanı",
+              "l": "Çalışma sonunda: 60 dakikalık performans inceleme görüşmesi + ölçekleme önerileri ve kreatif öğrenimleriyle 10 sayfalık devir dokümanı."
+            }
+          ],
+          "ov": [
+            "Ek reklam kreatifi (statik): $250",
+            "Ek reklam kreatifi (video): $600",
+            "Ek açılış sayfası varyantı: $1,500",
+            "Ek reklam platformu: $2,500"
+          ],
+          "ex": "Organik sosyal içerik yok. Uzun SEO içeriği yok. Influencer yönetimi yok. PR çalışması yok.",
+          "bridge": "Kampanya, kazananları ölçeklemek, 2. kanala genişlemek ve kreatifi geliştirmek için Büyüme Motoru paketimize ($3,500/ay) geçer. 14 gün içinde imzalanırsa ilk ay %10 indirim.",
+          "ideal": "Kanıtlanmış bir teklifi olan ve gerçek müşteri edinme hacmi için hazır ekipler"
+        },
+        {
+          "name": "Tam Ürün Lansmanı",
+          "price": 20000,
+          "disp": "$20,000",
+          "tag": "Koordineli lansman atağı",
+          "tl": "6 haftalık hazırlık + lansman haftası operasyonları",
+          "scope": [
+            {
+              "i": "Lansman stratejisi + 6 haftalık Gantt",
+              "l": "PR, ücretli, organik, e-posta, influencer ve lansman günü operasyonlarını kapsayan tam lansman planı. Kritik yol ve bağımlılıklar haritalanır. Ortak zaman çizelgesi olarak teslim edilir."
+            },
+            {
+              "i": "Konumlandırma + lansman anlatısı",
+              "l": "Ana mesaj, 3 destekleyici açı, basın boilerplate'i, SSS ve itiraz karşılama dokümanı. Halka açılmadan önce ICP'nizde test edilir."
+            },
+            {
+              "i": "2 platformda 12 reklam kreatifi",
+              "l": "Meta + Google VEYA Meta + TikTok. Statik, carousel ve kısa video karışımı. 4'ü içerik üreticilerimizce çekilen UGC tarzı videolardır."
+            },
+            {
+              "i": "2 açılış sayfası",
+              "l": "Lansman öncesi bekleme listesi sayfası (e-posta toplama + geri sayım) + lansman günü dönüşüm sayfası (tam teklif). Her ikisi de A/B varyantlı. Webflow/Framer üzerine kurulur."
+            },
+            {
+              "i": "Basın çalışması (25 yayın)",
+              "l": "Özelleştirilmiş açıyla 25 hedefli yayın/bültene sunum. Lansmandan 1 hafta önce yazılıp dağıtılan 1 ambargolu basın bülteni."
+            },
+            {
+              "i": "3 influencer ortaklığı (uçtan uca yönetilir)",
+              "l": "Bulma, brief, sözleşmeler, içerik onayları ve ödeme. İçerik üretici ücretleri doğrudan yansıtılır (ücrete dahil değildir)."
+            },
+            {
+              "i": "E-posta lansman dizisi",
+              "l": "Bekleme listesi besleme (lansman öncesi 3 e-posta) + lansman haftası 6 e-postalık kampanya. İlk 50k gönderim için kurulur. Her platformla çalışır (Klaviyo, Kit, Mailchimp veya HubSpot)."
+            },
+            {
+              "i": "Product Hunt / topluluk lansman hazırlığı + kriz masası",
+              "l": "Topluluk lansman stratejisi, lansman öncesi heyecan dizisi taslağı, optimize edilmiş PH sayfası ve lansman günü 8 saatlik canlı operasyon masası."
+            },
+            {
+              "i": "Lansman sonrası analiz raporu",
+              "l": "Lansmandan 14 gün sonra: kohort, kanal, kreatif ve huni dökümü. Neyin işe yaradığı, neyin yaramadığı ve nereye ağırlık verileceğiyle 20 sayfalık rapor."
+            },
+            {
+              "i": "En fazla $30k yönetilen lansman harcaması",
+              "l": "$30k'ya kadar reklam harcaması ücrete dahil yönetilir. Her ek $5k harcama: ücrete +$500. Harcama platform tarafından ayrıca faturalandırılır."
+            }
+          ],
+          "ov": [
+            "Ek influencer ortaklığı: $1,200 + içerik üretici ücretleri",
+            "Ek basın yayını (26+): her biri $75",
+            "Ek video kreatifi: $600",
+            "Acele takvim (3 haftadan kısa): +%25",
+            "Programatik SEO modülü: $6,000"
+          ],
+          "ex": "Lansman sonrası süregelen içerik takvimi yok. Uzun vadeli topluluk yönetimi yok. Ürün fotoğrafçılığı yok (eklenebilir).",
+          "bridge": "Lansman, sürdürülebilir büyüme, yaşam döngüsü optimizasyonu ve sonraki lansman döngüsü için Tam Ortaklık paketimize ($7,500/ay) dönüşür. 14 gün içinde imzalanırsa ilk ay %10 indirim.",
+          "ideal": "Tek bir koordineli atağa ihtiyaç duyan, ürün, hizmet hattı veya yeni marka lansmanı yapan markalar"
+        }
+      ],
+      "brandingBuild": [
+        {
+          "name": "Marka Lite",
+          "price": 4000,
+          "disp": "$4,000",
+          "tag": "Logo + palet + tipografi",
+          "tl": "2-3 hafta",
+          "scope": [
+            {
+              "i": "Keşif anketi (asenkron)",
+              "l": "1 marka anketi (kitle, ton, referanslar, 3 rakip bağlantısını kapsayan 20 soru). Zoom'da 1 x 45 dakikalık başlangıç görüşmesi. Bu seviyede yüz yüze atölye yoktur."
+            },
+            {
+              "i": "Logo keşfi (3 konsept)",
+              "l": "Düz vektör mockup olarak sunulan 3 ilk logo yönü. Rötuş için 1 tanesini siz seçersiniz. Yazı logosu VEYA ikon+yazı logosu kilidi (ikisi birden değil). 2 revizyon turu."
+            },
+            {
+              "i": "Nihai logo dosyaları",
+              "l": "Tam renkli, tek renk siyah ve tek renk beyaz olarak PNG, SVG, PDF ve EPS. Yatay ve dikey kilitler teslim edilir."
+            },
+            {
+              "i": "Renk paleti (5 renk)",
+              "l": "HEX, RGB ve CMYK değerleriyle ana + 4 destekleyici renk. 1 sayfalık PDF renk kartı olarak teslim edilir."
+            },
+            {
+              "i": "Tipografi eşleşmesi",
+              "l": "1 başlık yazı tipi + 1 metin yazı tipi (Google Fonts veya Adobe Fonts lisansı). Lisans notları dahildir."
+            },
+            {
+              "i": "1 sayfalık marka özeti PDF",
+              "l": "Logo kullanım temelleri (minimum boyut, koruma alanı), renk kodları ve tipografi. Tam kılavuz dokümanı değildir."
+            },
+            {
+              "i": "Favicon + sosyal avatar",
+              "l": "Web ve sosyal profil kullanımı için 16px, 32px, 512px ve 1024px'te optimize edilip dışa aktarılan logo."
+            }
+          ],
+          "ov": [
+            "Ek logo varyasyonu (monogram, alt işaret vb.): $300",
+            "Ek revizyon turu: $250",
+            "Marka fotoğrafçılığı yönlendirmesi: $800"
+          ],
+          "ex": "Marka kılavuzu dokümanı yok. Kırtasiye yok. Sosyal şablon yok. İsimlendirme veya sözel kimlik çalışması yok.",
+          "bridge": "Marka Lite, Marka Koruyucu ($1,500/ay) ile eşleştirildiğinde yeni içerik ürettikçe varlıklarınız tutarlı kalır.",
+          "ideal": "Hızla temiz ve kullanılabilir bir işarete ihtiyaç duyan tek kişilik girişimler ve gelir öncesi markalar"
+        },
+        {
+          "name": "Marka Sistemi",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "En Popüler",
+          "pop": true,
+          "tl": "4-6 hafta",
+          "scope": [
+            {
+              "i": "Keşif atölyesi (uzaktan, 90 dk)",
+              "l": "Kurucular + en fazla 3 paydaşla 1 canlı çalışma oturumu. Çıktılar: konumlandırma ifadesi, 1 kitle personası, 3 marka niteliği, sunduğumuz 3 seçenekten seçilen moodboard yönü."
+            },
+            {
+              "i": "Logo sistemi (4 konsept)",
+              "l": "Yaşam tarzı mockup'larıyla (ürün, tabela, sosyal) 4 ilk yön. Rötuş için 1 tanesi seçilir. Ana kilit + yatay + dikey + yalnızca ikon işareti. 3 revizyon turu."
+            },
+            {
+              "i": "Tam renk sistemi",
+              "l": "Ana (2), ikincil (4) ve nötr (3). WCAG AA kontrastı için erişilebilirlik kontrolü yapılmış. HEX / RGB / CMYK / Pantone kodları teslim edilir."
+            },
+            {
+              "i": "Tipografi hiyerarşisi",
+              "l": "Web ve baskı için tam boyutlar, ağırlıklar ve satır yükseklikleriyle başlık, alt başlık, metin ve açıklama yazı tipleri."
+            },
+            {
+              "i": "Marka kılavuzu PDF (20 sayfa)",
+              "l": "Logo kullanımı, yapılmaması gerekenler, renk, tipografi, görsel yönü, ikonografi notları ve ses tonu tek sayfası (3 ses niteliği + örnek metin)."
+            },
+            {
+              "i": "Lansman varlık kiti",
+              "l": "1 kartvizit, 1 antetli kağıt, 1 e-posta imzası, 1 sunum şablonu (10 slayt, Google Slides veya Keynote) ve 8 sosyal şablon (Canva veya Figma, düzenlenebilir)."
+            },
+            {
+              "i": "Marka varlık kütüphanesi",
+              "l": "Gelecekteki tasarımcılara devir için yapılandırılmış, düzenli Figma dosyası + Google Drive klasörü. Her şey tek bir doğruluk kaynağında."
+            }
+          ],
+          "ov": [
+            "Özel ikon seti (8 ikon): $1,200",
+            "Marka fotoğrafçılığı sanat yönetimi + çekim listesi: $800",
+            "Ek revizyon turu: $400"
+          ],
+          "ex": "İsimlendirme veya sözel kimlik sprinti yok. Marka tescil araştırması yok. 20 sayfalık kılavuzun ötesinde marka kitabı yok. Video çalışması yok.",
+          "bridge": "Marka Sistemi, yeni markalı varlıkları tutarlı biçimde üretmeye devam etmek için Kreatif Yönetim ($4,000/ay) ile eşleşir.",
+          "ideal": "Eksiksiz ve savunulabilir bir marka sistemine ihtiyaç duyan yatırım almış startup'lar ve ölçeklenen işletmeler"
+        },
+        {
+          "name": "Marka Dönüşümü",
+          "price": 28000,
+          "disp": "$28,000",
+          "tag": "Tam yeniden markalama + isimlendirme + strateji",
+          "tl": "8-12 hafta",
+          "scope": [
+            {
+              "i": "Keşif + strateji sprinti",
+              "l": "2 x 2 saatlik uzaktan atölye (konumlandırma, kitle, rekabet boşluğu). 5 paydaş görüşmesi (her biri 30 dk). 6 rakibin rekabet denetimi. Mesaj sütunları ve 3 test edilmiş kitle personasıyla 1 konumlandırma dokümanı (10-15 sayfa)."
+            },
+            {
+              "i": "İsimlendirme sprinti",
+              "l": "1 isimlendirme atölyesi, 40+ isim adayı üretilir, 10'a indirilir, gerekçe ve USPTO ön taramasıyla sunulur (yasal onay değildir). 1 nihai isim seçilir. .com, .co, .io alan adı uygunluk kontrolü dahildir."
+            },
+            {
+              "i": "Sözel kimlik",
+              "l": "Marka sesi çerçevesi (\"biz böyleyiz / böyle değiliz\" tablosuyla 4 nitelik), slogan, asansör konuşması (30 sn + 60 sn) ve 10 örnek metin bloğu (hero, hakkımızda, CTA'lar, biyografiler)."
+            },
+            {
+              "i": "Görsel kimlik sistemi",
+              "l": "Tam yaşam tarzı mockup'larıyla 5 logo yönü. 1 tanesi seçilir ve eksiksiz bir işaret sistemine dönüştürülür: ana, ikincil, monogram, favicon ve duyarlı davranışlar."
+            },
+            {
+              "i": "Eksiksiz renk + tipografi mimarisi",
+              "l": "Genişletilmiş palet (ana, ikincil, açık tonlar, koyu tonlar), 4 seviyeli tipografi yığını, ikonografi stil seti (12 ikon) ve illüstrasyon veya fotoğraf yönü."
+            },
+            {
+              "i": "Marka kitabı (40+ sayfa)",
+              "l": "Strateji, konumlandırma, ses, logo, renk, tipografi, görseller, ikonografi, hareket ilkeleri, yapılması/yapılmaması gerekenler ve uygulama örnekleri. PDF + düzenlenebilir Figma kaynağı olarak teslim edilir."
+            },
+            {
+              "i": "Lansman varlık paketi",
+              "l": "Sunum (20 slayt), üçlü kırtasiye seti, 3 e-posta şablonu, 12 sosyal şablon, 1 marka lansman duyuru grafik kiti ve 1 \"yeni [marka] ile tanışın\" video storyboard'u."
+            },
+            {
+              "i": "Devir oturumu + 30 gün destek",
+              "l": "1 x 1 saatlik kayıtlı devir anlatımı. Varlık soruları ve küçük ayarlar için 30 gün e-posta desteği."
+            }
+          ],
+          "ov": [
+            "Ortak avukat üzerinden marka tescil hukuki görüşü: $1,500-$3,000 doğrudan yansıtılır",
+            "Marka lansman video prodüksiyonu (60 sn): $3,500",
+            "Ek isimlendirme turu: $2,000"
+          ],
+          "ex": "Marka tescil başvurusu yok (ortak avukat yönlendirmesi sağlanır). Storyboard ötesinde video prodüksiyon yok. Süregelen uygulama yok. O bir aylık pakettir.",
+          "bridge": "Dönüşümü genellikle, yeni kimliği sonraki 6 ayda her yüzeye yaymak için Gömülü Stüdyo ($8,500/ay) izler.",
+          "ideal": "Yeniden konumlanan köklü işletmeler, Seri A öncesi startup'lar, sıfırdan yeniden inşa gerektiren köklü markalar"
+        }
+      ],
+      "brandingSupport": [
+        {
+          "name": "Marka Koruyucu",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/ay",
+          "tag": "Tutarlı bakım",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Ayda en fazla 6 markalı varlık",
+              "l": "Mevcut marka sisteminizi kullanan sosyal görseller, e-posta başlıkları, tek seferlik el ilanları, etkinlik görselleri veya reklam kreatifleri. Düzenlenebilir Figma veya Canva olarak teslim edilir."
+            },
+            {
+              "i": "1 üç aylık marka denetimi (PDF)",
+              "l": "Her 3 ayda bir: canlı kanalların (web sitesi + 3 sosyal profil) tutarlılık sapması, eski varlıklar ve marka dışı içerik açısından incelenmesi. Önceliklendirilmiş düzeltmelerle 5-7 sayfalık rapor."
+            },
+            {
+              "i": "Marka varlık kütüphanesi bakımı",
+              "l": "Figma ve Drive'ınız düzenli tutulur. Yeni varlıklar dosyalanır, adlandırma kuralları uygulanır, eski sürümler arşivlenir."
+            },
+            {
+              "i": "Asenkron destek",
+              "l": "İş günü başına 1 Loom veya e-posta yanıtı. Bu seviyede gerçek zamanlı Slack veya hafta sonu kapsamı yoktur."
+            },
+            {
+              "i": "Varlık başına 2 revizyon turu",
+              "l": "Revizyon başına 3 iş günü içinde toplu geri bildirim. Parça parça geri bildirim yok."
+            }
+          ],
+          "ov": [
+            "Ek varlıklar (7+): adet başı $125",
+            "Acele 48 saatlik dönüş: +%50",
+            "Kısa video kurgusu: adet başı $300"
+          ],
+          "ex": "Stratejik çalışma, yeni marka yönleri, metin yazarlığı yok. Sosyal medya yönetimi yok (sosyal paketlere bakın).",
+          "ideal": "Kimliği hazır olup hafif ve tutarlı bakıma ihtiyaç duyan markalar"
+        },
+        {
+          "name": "Kreatif Yönetim",
+          "price": 4000,
+          "disp": "$4,000",
+          "per": "/ay",
+          "tag": "En Popüler",
+          "pop": true,
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Ayda en fazla 15 markalı varlık",
+              "l": "Sosyal görseller, carousel'ler, reklam kreatifleri, e-posta kampanyaları, açılış sayfası bölümleri, sunum güncellemeleri. Hepsi marka sisteminizde."
+            },
+            {
+              "i": "Aylık kreatif yön görüşmesi (60 dk)",
+              "l": "Geçen ayın çıktılarını gözden geçirme, bu ayın kreatif önceliklerini hizalama, marka sapmalarını işaretleme. Önerilerle Loom takibi."
+            },
+            {
+              "i": "1 üç aylık denetim + yenileme",
+              "l": "Her 3 ayda bir PDF denetimi artı işe yarayana göre 3 yenilenmiş şablon (reklam kreatifi, e-posta başlığı, sosyal gönderi)."
+            },
+            {
+              "i": "Hafif metin yazarlığı (ayda en fazla 1.000 kelime)",
+              "l": "Açıklamalar, reklam varyantları veya e-posta konu satırları için markaya uygun metin. Uzun içerik veya tam web sayfası değil."
+            },
+            {
+              "i": "Varlık kütüphanesi + Figma bakımı",
+              "l": "Tek doğruluk kaynağı düzenli tutulur. Her ay yeni bileşenler eklenir."
+            },
+            {
+              "i": "Asenkron strateji uzmanı erişimi",
+              "l": "İsimli strateji uzmanınıza doğrudan e-posta/mesaj, Pzt-Cum 9-17 ET. 4 iş saati yanıt SLA'sı."
+            },
+            {
+              "i": "Varlık başına 2 revizyon turu",
+              "l": "Teslimattan sonra 3 iş günü içinde toplu geri bildirim."
+            }
+          ],
+          "ov": [
+            "Ek varlıklar (16+): adet başı $150",
+            "Kısa video kurgusu (60 sn altı): adet başı $300",
+            "1.000 kelimeyi aşan metin: $200/sayfa"
+          ],
+          "ex": "Ücretli reklam yönetimi yok. Tam yeniden markalama yok (o bir projedir). Size özel tasarımcı yok. Ortak ekip.",
+          "ideal": "Düzenli iş üreten ve görsel sesi yönlendiren bir kreatif ortağa ihtiyaç duyan büyüyen markalar"
+        },
+        {
+          "name": "Gömülü Stüdyo",
+          "price": 8500,
+          "disp": "$8,500",
+          "per": "/ay",
+          "tag": "Yarı zamanlı kurum içi kreatif",
+          "com": "en az 3 ay",
+          "scope": [
+            {
+              "i": "Ayda en fazla 40 markalı varlık",
+              "l": "Sosyal, reklam, e-posta, web bölümleri, sunumlar, ürün görselleri, etkinlik materyalleri veya baskının herhangi bir karışımı. Kurum içi ekip hızında teslimat."
+            },
+            {
+              "i": "Haftalık yön + iki haftada bir strateji",
+              "l": "30 dakikalık haftalık kreatif yön görüşmesi + 60 dakikalık iki haftada bir strateji oturumu. Her yüzeyde aktif gözetim."
+            },
+            {
+              "i": "Aylık marka denetimi + uygulanan yenileme",
+              "l": "Her ay: denetim teslim edilir, ardından ilk 5 düzeltme aynı ay uygulanır. Ayrı fiyat teklifi yok."
+            },
+            {
+              "i": "Size özel kreatif direktör + tasarımcı",
+              "l": "İsimli 2 kişilik ekip. Pzt-Cum 9-18 Slack erişimi (4 saat SLA). Tüm büyük teslimatlarda Loom anlatımları."
+            },
+            {
+              "i": "Metin yazarlığı + ses yönetimi",
+              "l": "Ayda en fazla 3.000 kelime markaya uygun metin. Dokunduğumuz tüm içerikte ses kılavuzları uygulanır. Çeyrekte 1 ses yeniden eğitim dokümanı güncellemesi."
+            },
+            {
+              "i": "Marka sistemi evrimi",
+              "l": "Ölçeklendikçe küçük sistem güncellemeleri: yeni şablonlar, ayarlanmış renk uzantıları, yeni alt marka işaretleri. Tam yeniden markalama hâlâ $20k+ üzerinden ayrı fiyatlandırılır."
+            },
+            {
+              "i": "Üç aylık kampanya konsepti",
+              "l": "Çeyrek başına 1 mini kampanya: konsept, 5 ana varlık, yayılım planı. Sezonluk lansman veya ürün drop'u gibi düşünün."
+            },
+            {
+              "i": "Varlık başına 3 revizyon turu",
+              "l": "İş doğru olana kadar yinelemek için diğer paketlerden daha fazla alan."
+            }
+          ],
+          "ov": [
+            "Tam yeniden markalama: $20k+ ayrı",
+            "Marka fotoğraf çekim günü (yönetim + tedarikçi yönetimi, çekim doğrudan yansıtılır): $2,500 yönetim ücreti",
+            "Ek gömülü tasarımcı: +$3,500/ay"
+          ],
+          "ex": "Ücretli reklam yönetimi yok. Ürün / UX tasarımı yok (ayrı kapsamlandırılır).",
+          "ideal": "Bizi her kanalda yarı zamanlı kurum içi kreatif ekibi olarak gören ölçeklenen markalar"
+        }
+      ]
+    }
   },
   "onboard": {
     "title": "Müşteri başlangıcı",

@@ -198,6 +198,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Nothing may widen the page: decorative layers and globe labels stay clipped. */
+body {
+  overflow-x: clip;
+}
+
 /* ── ACCESSIBILITY: FOCUS-VISIBLE ──
    WCAG 2.4.7 requires a visible focus indicator for keyboard navigation.
    We use :focus-visible so the ring only appears for keyboard users — mouse

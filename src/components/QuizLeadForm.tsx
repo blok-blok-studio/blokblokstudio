@@ -312,7 +312,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
       question: t('q_business'),
       sub: t('q_business_sub'),
       body: (
-        <div role="radiogroup" aria-label={t('q_business')} className="grid grid-cols-2 gap-2 sm:gap-2.5">
+        <div role="radiogroup" aria-label={t('q_business')} className="grid grid-cols-1 min-[360px]:grid-cols-1 min-[360px]:grid-cols-2 gap-2 sm:gap-2.5">
           {BUSINESS_TYPES.map((b) => (
             <ChoiceCard
               key={b}
@@ -332,7 +332,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
       question: t('q_services'),
       sub: t('q_services_sub'),
       body: (
-        <div className="grid grid-cols-2 gap-2 sm:gap-2.5">
+        <div className="grid grid-cols-1 min-[360px]:grid-cols-1 min-[360px]:grid-cols-2 gap-2 sm:gap-2.5">
           {SERVICES.map((s) => (
             <ChoiceCard
               key={s}
@@ -424,7 +424,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
             />
           ))}
         </div>
-        <span className="text-[11px] uppercase tracking-[0.15em] text-gray-500">
+        <span className="text-[11px] uppercase tracking-[0.15em] whitespace-normal text-right text-gray-500">
           {t('progress', { current: step + 1, total: TOTAL_STEPS })}
         </span>
       </div>

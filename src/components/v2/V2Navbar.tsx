@@ -58,7 +58,7 @@ export function V2Navbar() {
       >
         <nav
           aria-label="Primary"
-          className="relative mx-auto flex h-16 max-w-[1600px] items-center justify-between px-5 sm:px-8 lg:px-12"
+          className="relative mx-auto flex h-16 max-w-[1600px] items-center justify-between px-4 sm:px-8 lg:px-12"
         >
           <Link href="/" aria-label="Blok Blok Studio" className="flex items-center">
             <Image src="/logo.svg" alt="" width={28} height={28} priority />
@@ -113,7 +113,7 @@ export function V2Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`fixed inset-0 z-40 flex flex-col justify-between bg-black px-5 pb-10 pt-28 transition-opacity duration-300 md:hidden ${
+        className={`fixed inset-0 z-40 flex flex-col justify-between overflow-y-auto bg-black px-4 pb-10 pt-24 transition-opacity duration-300 md:hidden ${
           open ? 'opacity-100' : 'pointer-events-none opacity-0'
         }`}
         aria-hidden={!open}
@@ -123,7 +123,7 @@ export function V2Navbar() {
             <li key={l.href}>
               <Link
                 href={l.href}
-                className="flex items-baseline gap-4 py-2 font-display text-5xl font-bold tracking-[-0.02em] text-white"
+                className="flex items-baseline gap-4 py-2 font-display text-3xl font-bold tracking-[-0.02em] text-white sm:text-5xl"
               >
                 <span className="text-xs text-gray-500">0{i + 1}</span>
                 {l.label}
@@ -131,7 +131,7 @@ export function V2Navbar() {
             </li>
           ))}
         </ul>
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
           <LanguageSwitcher />
           <Link
             href="/quiz" target="_blank" rel="noopener noreferrer"

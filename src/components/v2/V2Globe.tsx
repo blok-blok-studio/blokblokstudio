@@ -461,7 +461,7 @@ export function V2Globe() {
             ref={boxRef}
             onMouseEnter={pause}
             onMouseLeave={resume}
-            className="order-1 relative mx-auto aspect-square w-full max-w-[720px] lg:order-2"
+            className="order-1 relative mx-auto aspect-square w-full max-w-[720px] overflow-hidden lg:order-2"
             style={{
               // Circular fade so the square canvas never reads as a box, at any zoom.
               WebkitMaskImage: 'radial-gradient(circle closest-side, #000 70%, transparent 100%)',
