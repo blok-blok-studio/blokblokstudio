@@ -10,7 +10,7 @@ export function OrganizationSchema() {
     logo: 'https://www.blokblokstudio.com/logo.png',
     description:
       'A creative web design studio crafting custom, conversion-focused websites for ambitious brands.',
-    foundingDate: '2024',
+    foundingDate: '2024-06',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
@@ -154,7 +154,7 @@ export function LocalBusinessSchema() {
     image: 'https://www.blokblokstudio.com/logo-hero.png',
     logo: 'https://www.blokblokstudio.com/logo.svg',
     url: 'https://www.blokblokstudio.com',
-    foundingDate: '2024',
+    foundingDate: '2024-06',
     // Detail from the founder video's transcript (src/data/video-transcripts.ts).
     // It was E-E-A-T signal sitting in an audio file where nothing could read
     // it. Keep the two in agreement if the video is ever re-cut.

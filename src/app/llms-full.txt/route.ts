@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { yearsInBusiness } from '@/data/studio';
 import { blogPosts } from '@/data/blog';
 import { projectsData } from '@/data/projects';
 import { INDEXED_VIDEOS, type SiteVideoKey } from '@/data/videos';
@@ -51,7 +52,7 @@ export async function GET() {
     '- 15+ Projects Delivered',
     '- 11 Happy Clients',
     '- Team of 4',
-    '- 2 Years in Business (Founded 2024)',
+    `- ${yearsInBusiness()} Years in Business (Founded June 2024)`,
     '- 6+ Industries Served',
     '',
     '---',

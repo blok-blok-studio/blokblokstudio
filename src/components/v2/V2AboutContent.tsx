@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { V2PageHero } from './V2PageHero';
+import { yearsInBusiness } from '@/data/studio';
 
 export async function V2AboutContent() {
   const t = await getTranslations('about');
   const stats = [
     { value: '15+', label: t('stats_projects') },
     { value: '11', label: t('stats_clients') },
-    { value: '2', label: t('stats_years') },
+    { value: String(yearsInBusiness()), label: t('stats_years') },
     { value: '6+', label: t('stats_awards') },
   ];
   const values = [1, 2, 3, 4] as const;

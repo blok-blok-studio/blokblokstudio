@@ -23,7 +23,7 @@ export async function GET() {
     '- Mission: To empower brands with thoughtful web design that connects, engages, and inspires their audiences worldwide.',
     '- Vision: To be the web design partner of choice for brands that dare to stand out online.',
     '- Values: Innovation, Excellence, Collaboration, Integrity',
-    '- Track Record: 15+ projects delivered, 11 clients served, founded 2024, 6+ industries served',
+    '- Track Record: 15+ projects delivered, 11 clients served, founded June 2024, 6+ industries served',
     '',
     '## Team',
     '',
