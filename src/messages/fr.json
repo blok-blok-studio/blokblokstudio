@@ -736,7 +736,2137 @@
     "timeline": "Délai",
     "commitment": "Engagement",
     "ideal_for": "Idéal pour",
-    "custom_quote": "Envie d'un devis sur mesure ?"
+    "custom_quote": "Envie d'un devis sur mesure ?",
+    "hero_title_a": "Ce que vous obtenez,",
+    "hero_title_em": "noir sur blanc.",
+    "hero_sub": "Sites web, applications, automatisations, publicités, branding et gestion des réseaux sociaux propulsés par l'IA. Chaque mission est chiffrée sur mesure selon votre périmètre, avec des livrables écrits noir sur blanc pour que nous sachions tous les deux ce que nous construisons.",
+    "tabs": {
+      "web": "Développement Web",
+      "app": "Développement d'Applications",
+      "social": "Réseaux Sociaux",
+      "marketing": "Marketing",
+      "aiAgents": "Agents IA",
+      "saas": "SaaS sur Mesure",
+      "branding": "Stratégie de Marque"
+    },
+    "sections": {
+      "oneTime": "Projets Ponctuels",
+      "webSupport": "Forfaits Mensuels",
+      "appBuild": "Développements Ponctuels",
+      "appSupport": "Forfaits Mensuels",
+      "socialSetup": "Mise en Place Ponctuelle",
+      "social": "Gestion Mensuelle",
+      "marketingBuild": "Projets Ponctuels",
+      "monthly": "Forfaits Mensuels",
+      "aiAgents": "Développement Ponctuel",
+      "monthlyAgent": "Forfait Mensuel",
+      "customBuild": "Développements Ponctuels",
+      "customSupport": "Forfaits Mensuels",
+      "brandingBuild": "Projets Ponctuels",
+      "brandingSupport": "Forfaits Mensuels"
+    },
+    "hide": "Masquer",
+    "view": "Voir",
+    "not_included": "Ce qui n'est pas inclus",
+    "cta_sub": "Chaque mission est cadrée et chiffrée individuellement. Réservez un appel gratuit de 15 minutes et nous vous enverrons une proposition sur mesure sous 48 heures.",
+    "cta_button": "Réserver un Appel Stratégique",
+    "pkg": {
+      "oneTime": [
+        {
+          "name": "Lancement Une Page",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "Idéal pour une présence en ligne simple",
+          "tl": "2 à 3 semaines",
+          "scope": [
+            {
+              "i": "Landing page sur mesure (1 page)",
+              "l": "Site d'une seule page entièrement conçu sur mesure et adapté au mobile, développé en Next.js. Comprend des sections défilantes : accueil, à propos, services, témoignages et formulaire de contact. Mise en page responsive pour ordinateur, tablette et mobile. Rédaction du méta-titre et de la méta-description SEO. Certificat SSL et configuration de l'hébergement sur Vercel inclus."
+            },
+            {
+              "i": "Identité de marque (logo + couleurs)",
+              "l": "2 concepts de logo initiaux présentés sous forme de maquettes. Vous en choisissez 1 pour la finalisation. Livrables : fichiers logo aux formats PNG, SVG et PDF (versions couleur, blanche et noire). 1 palette de couleurs principale (5 couleurs avec codes hex) et 1 association typographique (titres + texte). Pas de charte graphique complète à ce niveau."
+            },
+            {
+              "i": "Analytique et suivi",
+              "l": "Google Analytics 4 installé et configuré. 1 objectif de conversion paramétré (par ex. envoi de formulaire ou clic sur le numéro de téléphone). Google Search Console connectée. Suivi d'événements de base sur les boutons CTA."
+            },
+            {
+              "i": "Révisions du design",
+              "l": "2 cycles de révisions. Un « cycle » = 1 ensemble consolidé de retours. Les retours doivent être transmis dans les 5 jours ouvrés suivant chaque revue. Pas de retours partiels ni étalés sur plusieurs e-mails."
+            },
+            {
+              "i": "Contenu et textes",
+              "l": "Le client fournit tout le contenu rédactionnel (titres, textes, biographies, descriptions de services). Nous gérons la mise en page, le formatage et le placement. Si vous avez besoin de rédaction, elle peut être ajoutée pour $200/page."
+            }
+          ],
+          "ov": [
+            "Cycle de révision supplémentaire : $300",
+            "Rédaction : $200/page",
+            "Section supplémentaire : $250"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation du client OU après 2 cycles de révision. Après validation : $175/h.",
+          "bridge": "Comprend 14 jours de suivi après la mise en ligne (corrections de bugs et petits ajustements). Besoin de plus de pages ou de fonctionnalités ? Passez à notre Lancement Starter ($6,500) pour un site complet de 5 pages avec chat IA et configuration CRM.",
+          "ideal": "Projets parallèles, marques personnelles, landing pages simples"
+        },
+        {
+          "name": "Lancement Starter",
+          "price": 6500,
+          "disp": "$6,500",
+          "tag": "Idéal pour les nouvelles entreprises",
+          "tl": "4 à 6 semaines",
+          "scope": [
+            {
+              "i": "Site sur mesure (5 pages)",
+              "l": "Site entièrement conçu sur mesure et adapté au mobile, développé en Next.js. Comprend : Accueil, À propos, Services, Contact et 1 page supplémentaire de votre choix. Chaque page avec une mise en page responsive pour ordinateur, tablette et mobile. Méta-titres et descriptions SEO rédigés pour les 5 pages. Certificat SSL et configuration de l'hébergement sur Vercel inclus."
+            },
+            {
+              "i": "Identité de marque (logo + couleurs)",
+              "l": "2 concepts de logo initiaux présentés sous forme de maquettes. Vous en choisissez 1 pour la finalisation. Livrables : fichiers logo aux formats PNG, SVG et PDF (versions couleur, blanche et noire). 1 palette de couleurs principale (5 couleurs avec codes hex) et 1 association typographique (titres + texte). Pas de charte graphique complète à ce niveau."
+            },
+            {
+              "i": "Widget de chat IA",
+              "l": "1 chatbot propulsé par l'IA intégré à votre site. Entraîné sur 25 paires de questions-réponses que vous fournissez (par ex. tarifs, horaires, services). Comprend un formulaire de capture de leads qui transmet les demandes à votre CRM. Message d'accueil de base et réponse par défaut configurés."
+            },
+            {
+              "i": "Configuration CRM (GoHighLevel)",
+              "l": "1 pipeline de vente créé avec 5 étapes (par ex. Nouveau lead → Contacté → Proposition envoyée → Gagné → Perdu). 5 séquences d'automatisation (par ex. notification e-mail de nouveau lead, rappel de relance, confirmation de rendez-vous, SMS de rappel après appel manqué, e-mail de bienvenue). Import des contacts depuis un CSV si fourni (500 contacts max)."
+            },
+            {
+              "i": "Analytique et suivi",
+              "l": "Google Analytics 4 installé et configuré. 1 objectif de conversion paramétré (par ex. envoi de formulaire, clic sur le numéro de téléphone ou interaction avec le chatbot). Google Search Console connectée. Suivi d'événements de base sur les boutons CTA."
+            },
+            {
+              "i": "Révisions du design",
+              "l": "2 cycles de révisions par page. Un « cycle » = 1 ensemble consolidé de retours. Les retours doivent être transmis dans les 5 jours ouvrés suivant chaque revue. Pas de retours partiels ni étalés sur plusieurs e-mails."
+            },
+            {
+              "i": "Contenu et textes",
+              "l": "Le client fournit tout le contenu rédactionnel (titres, textes, biographies, descriptions de services). Nous gérons la mise en page, le formatage et le placement. Si vous avez besoin de rédaction, elle peut être ajoutée pour $200/page."
+            }
+          ],
+          "ov": [
+            "Pages supplémentaires : $500/page",
+            "Cycle de révision supplémentaire : $300",
+            "Rédaction : $200/page",
+            "Questions-réponses supplémentaires (25+) : $250/lot",
+            "Automatisation supplémentaire : $350 chacune"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation du client OU après 2 cycles de révision. Après validation : $175/h.",
+          "bridge": "Comprend 30 jours de suivi après la mise en ligne (corrections de bugs, vérifications du chatbot, santé du CRM). Après le 30e jour, la maintenance, les mises à jour et l'optimisation de l'IA passent sur notre forfait Maintenance et Suivi ($1,500/mois) pour que vos systèmes restent au point.",
+          "ideal": "Startups, indépendants, commerces locaux"
+        },
+        {
+          "name": "Accélérateur de Croissance",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "tl": "6 à 8 semaines",
+          "scope": [
+            {
+              "i": "Site sur mesure (10 pages + CMS)",
+              "l": "10 pages entièrement conçues et adaptées au mobile, développées en Next.js avec un CMS intégré (blog ou portfolio). Comprend : Accueil, À propos, Services (3 sous-pages de services), Blog, Contact et 2 pages supplémentaires. 3 animations sur mesure au défilement ou au survol. SEO on-page sur toutes les pages (méta-titres, descriptions, balises alt, balisage schema). SSL, hébergement sur Vercel et soumission du sitemap à Google inclus."
+            },
+            {
+              "i": "Identité de marque (charte complète)",
+              "l": "3 concepts de logo initiaux présentés sous forme de maquettes lifestyle. 1 sélectionné pour la finalisation. Charte graphique complète en PDF (10 pages) comprenant : règles d'utilisation du logo, tailles minimales, zone de protection, palette de couleurs (principale + secondaire, hex/RGB/CMJN), système typographique (polices de titres, sous-titres et texte avec tailles) et notes sur le ton de voix. 5 modèles de publications pour les réseaux sociaux à vos couleurs, livrés dans Canva ou Figma (modifiables)."
+            },
+            {
+              "i": "Chatbot IA",
+              "l": "1 chatbot propulsé par l'IA entraîné sur 50 paires de questions-réponses. Comprend l'intégration de la prise de rendez-vous (connectée à votre Google Calendar ou Calendly). Capture de leads avec enregistrement automatique dans le CRM. Message d'accueil personnalisé, réponses par défaut et messages hors horaires configurés. Chatbot intégré sur 3 pages du site."
+            },
+            {
+              "i": "Agent vocal IA",
+              "l": "1 agent vocal IA entrant qui répond aux appels, qualifie les leads et prend les rendez-vous. 1 script d'appel sur mesure rédigé et configuré. 500 minutes vocales incluses le premier mois. Enregistrements des appels stockés dans votre CRM. Comprend un routage d'appels de base (transfert vers vous si l'IA ne peut pas répondre)."
+            },
+            {
+              "i": "Automatisation des flux (8 au total)",
+              "l": "8 automatisations construites dans GoHighLevel. Exemples : notification de nouveau lead (e-mail + SMS), séquence de rappel de rendez-vous (24 h + 1 h avant), SMS de rappel après appel manqué, suivi après rendez-vous, demande d'avis après prestation, relance des formulaires abandonnés, e-mail d'anniversaire et déclencheurs au changement d'étape du pipeline. Chaque automatisation comprend jusqu'à 5 étapes."
+            },
+            {
+              "i": "Configuration Google Ads",
+              "l": "1 campagne Google Search avec 3 groupes d'annonces (ciblant différentes thématiques de mots-clés). Recherche de mots-clés et liste de mots-clés négatifs incluses. 6 variantes d'annonces rédigées (2 par groupe). 1 landing page dédiée conçue, développée et connectée au suivi des conversions. Suivi des conversions Google Ads et Google Tag Manager configurés. Le budget publicitaire est facturé séparément et réglé directement par vous à Google."
+            },
+            {
+              "i": "Tableau de bord client",
+              "l": "1 tableau de bord en temps réel construit dans GHL ou Google Looker Studio. Jusqu'à 6 widgets : trafic du site, nombre de leads, valeur du pipeline, taux de conversion, performance des publicités et interactions du chatbot. Le tableau de bord se met à jour automatiquement et est accessible via un lien partageable."
+            },
+            {
+              "i": "Révisions du design",
+              "l": "3 cycles de révisions par livrable (pages du site, éléments de marque, créations publicitaires et tableau de bord). Un « cycle » = 1 ensemble consolidé de retours transmis sous 5 jours ouvrés."
+            },
+            {
+              "i": "Contenu et textes",
+              "l": "Nous rédigeons les textes de votre page d'accueil et de votre page services (1,500 mots au total). Le reste du contenu est fourni par vous. Le CMS du blog est livré vide pour que vous ou votre équipe puissiez créer des articles, ou ajoutez notre pack contenu."
+            }
+          ],
+          "ov": [
+            "Pages supplémentaires : $500/page",
+            "Révision supplémentaire : $300/cycle",
+            "Campagne publicitaire supplémentaire : $1,500",
+            "Script vocal supplémentaire : $750",
+            "Automatisations (8+) : $350 chacune",
+            "Landing page supplémentaire : $900",
+            "Rédaction au-delà de l'inclus : $200/page"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 3 cycles de révision. Après validation : $175/h.",
+          "bridge": "Comprend 30 jours après la mise en ligne : gestion des publicités, suivi de l'IA et corrections de bugs. Après le 30e jour, vos publicités, agents IA et automatisations ont besoin d'une optimisation continue pour rester performants. Nous recommandons notre forfait Moteur de Croissance ($3,500/mois) pour garder l'élan.",
+          "ideal": "Entreprises en croissance qui passent à l'échelle grâce aux systèmes"
+        },
+        {
+          "name": "Domination Totale",
+          "price": 18000,
+          "disp": "$18,000+",
+          "tag": "Niveau entreprise",
+          "tl": "8 à 12 semaines",
+          "scope": [
+            {
+              "i": "Site premium (15 pages + e-commerce)",
+              "l": "15 pages entièrement conçues et développées en Next.js avec un CMS headless (Sanity ou Contentful). 6 animations sur mesure (défilement parallaxe, effets au survol, transitions de page, micro-interactions). Prêt pour l'e-commerce : 20 fiches produits avec intégration Shopify ou Stripe, panier et paiement. Comprend un blog, un centre de ressources ou une section études de cas. SEO on-page complet, balisage schema, balises Open Graph, sitemap XML et robots.txt. SSL, hébergement Vercel et optimisation CDN inclus."
+            },
+            {
+              "i": "Système de marque complet",
+              "l": "5 concepts de logo initiaux avec maquettes lifestyle. 1 sélectionné pour la finalisation complète. Charte graphique complète (20 pages) : utilisation du logo, zone de protection, tailles minimales, palettes de couleurs principale et secondaire, hiérarchie typographique, guide de style photographique, style d'icônes, voix et ton de la marque. Papeterie : carte de visite, papier à en-tête et modèle de signature e-mail. Modèle de pitch deck (15 diapositives, modifiable dans Google Slides ou Keynote). 10 modèles pour les réseaux sociaux à vos couleurs (Canva ou Figma, modifiables)."
+            },
+            {
+              "i": "Écosystème d'agents IA (3 agents)",
+              "l": "3 agents IA interconnectés fonctionnant comme un système. Exemple de configuration : l'Agent 1 capte les leads via le chatbot et les note (chaud/tiède/froid). L'Agent 2 envoie des séquences d'e-mails personnalisées selon la note. L'Agent 3 déclenche des relances SMS pour les leads chauds. 1 arbre de décision sur mesure couvrant tout le parcours du lead. Tous les agents connectés à votre CRM GHL avec étiquetage automatique des contacts et progression dans le pipeline."
+            },
+            {
+              "i": "Suite d'IA conversationnelle",
+              "l": "1 chatbot IA entraîné sur 100 paires de questions-réponses, intégré sur tout le site. Comprend la prise de rendez-vous, la capture de leads, la gestion des FAQ et les messages hors horaires. 1 agent vocal IA avec 2 scripts d'appel sur mesure (par ex. ventes entrantes + confirmation de rendez-vous). 1,000 minutes vocales incluses le premier mois. Enregistrements des appels stockés dans le CRM. 5 séquences d'automatisation SMS (par ex. rappels de rendez-vous, suivi après appel, demande d'avis, réengagement, envoi promotionnel)."
+            },
+            {
+              "i": "Automatisation des flux (15 au total)",
+              "l": "15 automatisations entre votre CRM, votre système de paiement et votre agenda. Exemples : séquences de nurturing, rappels de factures, confirmation de paiement, parcours d'onboarding, demandes d'avis, campagnes de reconquête, notifications internes à l'équipe, automatisations par étape du pipeline et e-mails d'anniversaire ou d'étapes clés. Chaque automatisation comprend jusqu'à 7 étapes avec logique conditionnelle."
+            },
+            {
+              "i": "Google + Meta Ads (configuration complète)",
+              "l": "1 campagne Google Search avec 5 groupes d'annonces et 10 variantes. Recherche complète de mots-clés avec listes de mots-clés négatifs. 1 campagne Meta (Facebook/Instagram) avec 3 ensembles de publicités ciblant différentes audiences. Pixel de retargeting installé sur votre site pour Google et Meta. 2 landing pages dédiées conçues, développées et optimisées pour la conversion. Tout le suivi des conversions configuré via Google Tag Manager. Créations publicitaires conçues (6 visuels statiques + 2 carrousels). Budget publicitaire facturé séparément. Vous réglez Google et Meta directement."
+            },
+            {
+              "i": "Système de contenu IA",
+              "l": "Pipeline de contenu complet configuré : flux vidéo vers clips (vous téléversez une vidéo longue, l'IA génère des extraits pour les réseaux), modèle de génération d'articles de blog assisté par l'IA et planification des réseaux sociaux configurée dans Buffer ou Later. Premier mois de contenu produit et publié : 4 articles de blog (jusqu'à 1,000 mots chacun, optimisés SEO) et 12 publications sur les réseaux (visuels + textes). Modèle de calendrier éditorial fourni pour un usage continu."
+            },
+            {
+              "i": "Tableau de bord exécutif",
+              "l": "1 tableau de bord complet dans GHL ou Google Looker Studio. 10 widgets : trafic du site, pipeline de leads, taux de conversion, performance Google Ads (CPC, CTR, ROAS), performance Meta Ads, interactions du chatbot, volume d'appels de l'agent vocal, taux d'ouverture et de clic des e-mails, attribution du chiffre d'affaires et graphiques de tendance hebdomadaires. E-mail de synthèse hebdomadaire automatique envoyé à 3 destinataires."
+            },
+            {
+              "i": "Révisions du design",
+              "l": "3 cycles de révisions par livrable sur l'ensemble des éléments. Un « cycle » = 1 ensemble consolidé de retours transmis sous 5 jours ouvrés."
+            },
+            {
+              "i": "Rédaction",
+              "l": "Rédaction professionnelle complète pour 10 pages du site (titres, textes, CTA, méta-descriptions). Le client fournit la matière brute, des notes ou des points clés pour les pages restantes. Textes publicitaires de toutes les campagnes Google et Meta rédigés et inclus."
+            }
+          ],
+          "ov": [
+            "Pages supplémentaires : $500",
+            "Révision supplémentaire : $350/cycle",
+            "Agent IA supplémentaire : $2,500",
+            "Campagne publicitaire supplémentaire : $1,500",
+            "Script vocal : $750",
+            "Automatisations (15+) : $400 chacune",
+            "Produits (20+) : $75/produit",
+            "Contenu après le mois 1 : nécessite un forfait mensuel"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 25 % au jalon intermédiaire, 25 % à la livraison (net 7 jours). Projet clos à la validation OU après 3 cycles. Après validation : $175/h.",
+          "bridge": "Comprend 45 jours après la mise en ligne : suivi complet, gestion des publicités, optimisation de l'IA et corrections de bugs. Après le 45e jour, votre écosystème IA, vos campagnes et vos systèmes de contenu ont besoin d'une gestion continue pour produire des résultats. Nous recommandons notre Partenariat Complet ($7,500/mois) ou Moteur de Croissance ($3,500/mois) selon vos besoins.",
+          "ideal": "Entreprises établies qui veulent une infrastructure IA complète"
+        }
+      ],
+      "socialSetup": [
+        {
+          "name": "Configuration Une Plateforme",
+          "price": 1200,
+          "disp": "$1,200",
+          "tag": "Réussir un canal",
+          "tl": "3 à 5 jours",
+          "scope": [
+            {
+              "i": "Choix de la plateforme",
+              "l": "1 plateforme de votre choix : Instagram, LinkedIn, Facebook, TikTok, YouTube, X (Twitter) ou Pinterest. Nous la configurons de zéro ou refondons votre profil existant."
+            },
+            {
+              "i": "Optimisation du profil",
+              "l": "Bio rédigée et adaptée à chaque plateforme (jusqu'à 150 caractères sur IG, jusqu'à 2,000 sur LinkedIn, etc.). Photo de profil redimensionnée et optimisée pour la plateforme. Image de couverture ou bannière conçue sur mesure aux couleurs de votre marque. Sections à la une, stories à la une ou publications épinglées configurées (le cas échéant). Coordonnées, lien vers le site, boutons CTA et étiquettes de catégorie/secteur paramétrés."
+            },
+            {
+              "i": "Éléments d'identité visuelle",
+              "l": "1 photo de profil sur mesure (initiales à vos couleurs, portrait avec habillage ou symbole du logo) au format de la plateforme. 1 image de couverture ou bannière sur mesure conçue selon les couleurs et le message de votre marque. Tous les fichiers livrés en PNG et en format modifiable (Canva ou Figma). 1 cycle de révisions sur les éléments visuels."
+            },
+            {
+              "i": "Modèles de contenu (3)",
+              "l": "3 modèles de publications réutilisables à vos couleurs, conçus dans Canva ou Figma. Comprend : 1 modèle citation/conseil, 1 modèle promotionnel/service et 1 modèle d'engagement (question, sondage ou CTA). Chaque modèle utilise vos couleurs, polices et logo. Entièrement modifiables pour que votre équipe puisse changer textes et images."
+            },
+            {
+              "i": "Stratégie hashtags et mots-clés",
+              "l": "Recherche de hashtags ou de mots-clés propre à la plateforme selon votre secteur et votre cible. 3 jeux de hashtags/mots-clés livrés (par ex. 1 jeu large portée, 1 jeu niche, 1 jeu marque). Chaque jeu contient 15 à 30 hashtags ou mots-clés. Livré sous forme de document partageable avec mode d'emploi."
+            },
+            {
+              "i": "Contenu de lancement (4 publications)",
+              "l": "4 publications prêtes à publier : visuels statiques avec textes rédigés. Comprend : 1 publication de présentation/bienvenue, 1 mise en avant d'un service ou produit, 1 publication preuve sociale ou témoignage et 1 publication CTA ou engagement. Visuels dimensionnés pour la plateforme. Les textes incluent les hashtags pertinents issus de vos jeux stratégiques."
+            },
+            {
+              "i": "Guide de la plateforme (PDF)",
+              "l": "PDF d'1 page adapté à votre plateforme. Couvre : meilleurs moments pour publier, fréquence idéale, types de contenu les plus performants, conseils d'utilisation des hashtags et bonnes pratiques d'engagement. Concret et spécifique à votre secteur."
+            }
+          ],
+          "ov": [
+            "Plateforme supplémentaire : $1,200 chacune",
+            "Modèles de publication supplémentaires : $100 chacun",
+            "Publications de lancement supplémentaires (4+) : $60 chacune",
+            "Cycle de révision : $175",
+            "Contenu vidéo (Reels/Shorts) : $175 chacun"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 1 cycle de révision. Modifications après livraison : $175/h.",
+          "bridge": "Vos profils sont configurés et prêts. Pour les garder actifs et en croissance, ajoutez notre forfait Social Starter ($1,500/mois) ou la gestion de plateformes individuelles à partir de $650/mois.",
+          "ideal": "Entreprises qui démarrent de zéro sur une plateforme"
+        },
+        {
+          "name": "Lancement Multi-Plateformes",
+          "price": 2000,
+          "disp": "$2,000",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "tl": "1 à 2 semaines",
+          "scope": [
+            {
+              "i": "Plateformes (3 incluses)",
+              "l": "Choisissez 3 plateformes : Instagram, LinkedIn, Facebook, TikTok, YouTube, X ou Pinterest. Nouveaux profils créés de zéro ou profils existants entièrement refondus."
+            },
+            {
+              "i": "Optimisation des profils (les 3)",
+              "l": "Bios rédigées et optimisées pour chaque plateforme. Photos de profil et images de couverture/bannières conçues sur mesure pour chacune (aux bonnes dimensions selon les spécifications de chaque plateforme). CTA, coordonnées, liens vers le site et étiquettes de catégorie configurés. Stories à la une, sections à la une ou publications épinglées mises en place le cas échéant. Tous les profils reliés entre eux et à votre site."
+            },
+            {
+              "i": "Identité visuelle cohérente",
+              "l": "Photos de profil et bannières assorties sur les 3 plateformes pour une marque cohérente. Conçues en accord avec votre marque existante (ou la nouvelle si combiné à un projet ponctuel). Livrées en PNG + fichiers Canva ou Figma modifiables. 2 cycles de révisions sur tous les éléments visuels."
+            },
+            {
+              "i": "Modèles de contenu (15 au total)",
+              "l": "5 modèles de publications réutilisables à vos couleurs par plateforme (15 au total). Chaque jeu comprend : 1 citation/conseil, 1 promotionnel, 1 témoignage/preuve sociale, 1 coulisses et 1 engagement/CTA. Tous modifiables dans Canva ou Figma avec vos couleurs, polices et logo. Modèles adaptés aux dimensions de chaque plateforme (par ex. carré pour IG, paysage pour LinkedIn, vertical pour TikTok)."
+            },
+            {
+              "i": "Stratégie hashtags et mots-clés",
+              "l": "Recherche par plateforme selon votre secteur et vos concurrents. 5 jeux de hashtags ou de mots-clés par plateforme (15 au total). Chaque jeu contient 15 à 30 hashtags/mots-clés organisés par : large portée, niche, marque, tendance et localisation. Livré sous forme de tableur ou document partagé avec consignes d'utilisation."
+            },
+            {
+              "i": "Contenu de lancement (18 publications au total)",
+              "l": "6 publications prêtes à publier par plateforme (18 au total). Mélange de visuels statiques et de carrousels. Chaque publication comprend : visuel conçu, texte rédigé, hashtags pertinents et horaire de publication recommandé. Le contenu couvre : présentation de la marque, mise en avant d'un service, témoignage/preuve, conseil pédagogique, coulisses et engagement/CTA."
+            },
+            {
+              "i": "Calendrier éditorial de 30 jours",
+              "l": "Calendrier complet planifiant 30 jours d'idées de publications avec : type de publication suggéré, sujet, pistes de texte, horaires optimaux et jeux de hashtags à utiliser. Livré sous forme de Google Sheet ou de modèle Notion que vous pouvez réutiliser et adapter chaque mois."
+            },
+            {
+              "i": "Guides de plateforme (3 PDF)",
+              "l": "1 guide PDF par plateforme couvrant : meilleurs moments pour publier, fréquence idéale, types de contenu performants, conseils hashtags, stratégies d'engagement et recommandations propres à l'algorithme. Adapté à votre secteur."
+            },
+            {
+              "i": "Page lien en bio",
+              "l": "1 page lien en bio configurée sur Linktree, Later ou une page sur mesure. Jusqu'à 8 liens configurés (site, services, réservation, profils sociaux, etc.). Stylisée aux couleurs et au logo de votre marque."
+            }
+          ],
+          "ov": [
+            "Plateforme supplémentaire : $500 chacune",
+            "Modèles supplémentaires : $75 chacun",
+            "Publications de lancement supplémentaires (6+) : $50 chacune",
+            "Cycle de révision : $175",
+            "Contenu vidéo : $175 chacun",
+            "Page lien en bio supplémentaire : $200"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 2 cycles de révision. Après livraison : $175/h.",
+          "bridge": "Toutes les plateformes prêtes à lancer avec 30 jours de contenu planifié. Pour continuer à grandir, nous recommandons notre forfait Social Croissance ($2,500/mois) ou les options par plateforme.",
+          "ideal": "Entreprises qui lancent ou rafraîchissent leur présence sociale"
+        },
+        {
+          "name": "Refonte Sociale Complète",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Refonte intégrale",
+          "tl": "2 à 3 semaines",
+          "scope": [
+            {
+              "i": "Plateformes (5 incluses)",
+              "l": "5 plateformes : Instagram, LinkedIn, Facebook, TikTok, YouTube, X et/ou Pinterest. Audit complet des profils existants suivi d'une refonte totale de la marque. Les anciens profils sont mis à jour sur place (aucune perte d'abonnés ni d'historique)."
+            },
+            {
+              "i": "Audit des réseaux sociaux",
+              "l": "Examen détaillé de chaque profil existant : démographie des abonnés, taux d'engagement, contenus les plus performants, régularité de publication et score de complétude du profil. Benchmark face à 3 concurrents que vous choisissez (ou que nous recommandons). Analyse des écarts identifiant les opportunités manquées en contenu, hashtags, engagement et fonctionnalités de plateforme. Livré sous forme de rapport d'audit écrit (PDF, 3 à 5 pages) avec recommandations concrètes."
+            },
+            {
+              "i": "Refonte des profils (toutes plateformes)",
+              "l": "Nouvelles bios rédigées pour chaque plateforme (optimisées pour la recherche et la conversion). Nouvelles photos de profil et images de couverture/bannières conçues par plateforme. Tous les CTA, coordonnées, liens, stories à la une, sections à la une et publications épinglées mis à jour. Cohérence de la voix de marque assurée sur toutes les plateformes. Étiquettes de catégorie, libellés de secteur et sections « à propos » rafraîchis."
+            },
+            {
+              "i": "Kit de marque social complet",
+              "l": "10 modèles de publications à vos couleurs par plateforme (50 au total sur 5 plateformes). Types de modèles : citations, conseils, promotions, témoignages, carrousels, avant/après, coulisses, portraits d'équipe, annonces et publications d'engagement. Modèles de stories : 5 par plateforme pour IG, Facebook et TikTok (le cas échéant). Icônes de couverture de stories à la une pour Instagram (8 icônes sur mesure). Tous les modèles livrés dans Canva ou Figma, entièrement modifiables avec vos couleurs, polices et logo."
+            },
+            {
+              "i": "Stratégie hashtags et SEO",
+              "l": "Recherche approfondie par plateforme selon votre niche, votre audience et vos concurrents. 10 jeux de hashtags/mots-clés par plateforme (50 au total). Organisés par : large portée, niche, marque, tendance, localisation et mots-clés d'écart concurrentiel. Analyse des écarts montrant les hashtags et mots-clés utilisés par vos concurrents et pas par vous. Livré sous forme de tableur partagé avec consignes d'utilisation et calendrier de rotation."
+            },
+            {
+              "i": "Contenu de lancement (40 publications + 4 vidéos)",
+              "l": "8 publications prêtes à publier par plateforme (40 au total). Mélange de visuels statiques, carrousels et publications texte. Jusqu'à 4 vidéos courtes (Reels, Shorts ou TikToks). Nous montons à partir des rushs que vous fournissez ou créons avec des outils IA. Nous ne tournons pas de vidéo. Chaque publication comprend : visuel conçu, texte rédigé, hashtags et horaire de publication recommandé."
+            },
+            {
+              "i": "Calendrier éditorial de 60 jours",
+              "l": "Calendrier complet planifiant 60 jours de contenu sur toutes les plateformes. Comprend : thèmes hebdomadaires/piliers de contenu, sujets précis par publication, pistes de texte, jeux de hashtags, horaires optimaux et place pour le contenu tendance/réactif. Livré sous forme de Google Sheet ou de modèle Notion. Cadre réutilisable que vous pouvez adapter chaque mois."
+            },
+            {
+              "i": "Page lien en bio",
+              "l": "1 page lien en bio conçue sur mesure (Linktree, Later ou développement sur mesure). Jusqu'à 12 liens configurés et stylisés selon votre nouvelle marque sociale. Comprend le suivi analytique si la plateforme le permet."
+            },
+            {
+              "i": "Configuration YouTube (si incluse)",
+              "l": "Si YouTube fait partie de vos 5 plateformes : habillage de chaîne (bannière + photo de profil) conçu. Modèle de miniature par défaut créé dans Canva (modifiable pour chaque vidéo). Playlists existantes organisées et titrées pour le SEO. Section « à propos » réécrite avec mots-clés. Tags de chaîne et paramètres de mise en ligne par défaut configurés pour la visibilité dans les recherches."
+            },
+            {
+              "i": "Révisions",
+              "l": "2 cycles de révisions sur tous les livrables (éléments visuels, modèles, rapport d'audit, calendrier). Un « cycle » = 1 ensemble consolidé de retours sous 5 jours ouvrés."
+            }
+          ],
+          "ov": [
+            "Plateforme supplémentaire : $400 chacune",
+            "Modèles supplémentaires : $60 chacun",
+            "Publications de lancement supplémentaires (8+) : $45 chacune",
+            "Vidéo supplémentaire : $175 chacune",
+            "Cycle de révision : $250",
+            "Vidéo intro/outro YouTube : $600"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 2 cycles de révision. Après livraison : $175/h.",
+          "bridge": "Toute votre présence sociale est reconstruite et prête à lancer avec 60 jours de contenu. Pour garder l'élan, nous recommandons Domination Sociale ($4,500/mois) ou Social Croissance ($2,500/mois).",
+          "ideal": "Entreprises établies dont la présence sociale est datée ou incohérente"
+        }
+      ],
+      "monthly": [
+        {
+          "name": "Maintenance et Suivi",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mois",
+          "tag": "Garder le cap",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Maintenance du site",
+              "l": "Mises à jour mensuelles des plugins, du framework et des dépendances. Correction des liens cassés, problèmes de mise en page et erreurs d'affichage. Suivi et optimisation de la vitesse des pages (compression d'images, cache, chargement différé). Surveillance de la disponibilité avec alertes. N'inclut PAS la création de nouvelles pages, la refonte de pages existantes ni l'ajout de nouvelles fonctionnalités."
+            },
+            {
+              "i": "Suivi du chatbot IA",
+              "l": "Vérification mensuelle de la disponibilité et de la précision des réponses. Jusqu'à 10 mises à jour de paires questions-réponses par mois (ajout de nouvelles questions, affinage des réponses, correction des réponses erronées). Tests de capture de leads et d'envoi de formulaires. Synthèse de la performance du chatbot incluse dans le rapport mensuel."
+            },
+            {
+              "i": "Rapport de performance mensuel",
+              "l": "1 rapport envoyé par e-mail avant le 5 de chaque mois couvrant : trafic du site (sessions, utilisateurs, pages vues), pages les plus performantes, nombre de leads et répartition par source, taux de conversion et statistiques d'interaction du chatbot. Livré en PDF ou via un lien vers un tableau de bord. Le rapport est envoyé, pas présenté en direct. Appels en direct disponibles en option."
+            },
+            {
+              "i": "Mises à jour design (2 h/mois)",
+              "l": "2 heures de mises à jour de design et de contenu par mois. Couvre : modifications de texte, remplacement d'images, mise à jour de boutons, petits ajustements de mise en page et remplacement de bannières. Les heures sont reportables sur le mois suivant uniquement (cumul max : 4 heures). N'inclut PAS la conception de nouvelles pages, le développement de fonctionnalités ni les changements structurels. Temps suivi et rapporté."
+            },
+            {
+              "i": "Gestion du pipeline CRM",
+              "l": "Revue mensuelle de la santé de votre pipeline GHL : leads bloqués, affaires dormantes et erreurs d'automatisation. 3 ajustements d'automatisation par mois (par ex. mise à jour des textes d'e-mail, modification du timing des déclencheurs, réparation de séquences cassées). Nettoyage de la liste de contacts : signalement des doublons et suppression des rebonds (500 contacts/mois max)."
+            },
+            {
+              "i": "Support",
+              "l": "Support par message et e-mail uniquement (pas de téléphone ni d'appels en direct à ce niveau). Délai de réponse de 48 heures les jours ouvrés (du lundi au vendredi, de 9 h à 17 h). Jusqu'à 10 demandes de support par mois. Chaque demande = 1 requête précise (pas une liste de modifications). Au-delà de 10 demandes, facturation à $175/h."
+            }
+          ],
+          "ov": [
+            "Design au-delà de 2 h : $175/h",
+            "Nouvelle page : $500",
+            "Appel en direct : $250/h",
+            "Automatisations (3+) : $250 chacune",
+            "Urgence/même jour : +50 %"
+          ],
+          "ex": "Pas de gestion publicitaire, pas de création de contenu, pas de nouvelles fonctionnalités, pas d'agents vocaux, pas de réseaux sociaux. Nécessite un niveau supérieur.",
+          "ideal": "La tranquillité d'esprit après la mise en ligne"
+        },
+        {
+          "name": "Moteur de Croissance",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/mois",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "com": "Engagement 6 mois minimum",
+          "scope": [
+            {
+              "i": "Tout Maintenance et Suivi",
+              "l": "Toute la maintenance du site, le suivi de l'IA, le rapport mensuel, la gestion du CRM et le support par e-mail. Mêmes limites et mêmes règles. Les heures de design sont remplacées par les 5 h/mois ci-dessous (non cumulées)."
+            },
+            {
+              "i": "Gestion Google Ads",
+              "l": "2 campagnes Google Search actives gérées. Optimisation mensuelle des mots-clés, ajustements des enchères et mise à jour des mots-clés négatifs. 3 tests A/B par mois (textes d'annonces, éléments de landing page ou ciblage d'audience). Revue mensuelle de la performance avec analyse du CPC, du CTR, du taux de conversion et du ROAS. Budget publicitaire géré jusqu'à $5,000/mois à ce niveau. Au-delà de $5K : $500/mois supplémentaires par tranche de $5K. Budget publicitaire facturé séparément. Vous réglez Google directement."
+            },
+            {
+              "i": "Gestion Meta Ads",
+              "l": "2 campagnes Meta (Facebook/Instagram) actives gérées. 1 renouvellement créatif par mois : 3 nouvelles créations publicitaires conçues (visuels statiques ou carrousels). 2 nouveaux tests d'audience par mois. Entretien des audiences de retargeting et mise à jour des audiences similaires. Revue mensuelle de la performance. Budget publicitaire facturé séparément. Vous réglez Meta directement."
+            },
+            {
+              "i": "Production de contenu assistée par IA",
+              "l": "4 articles de blog par mois (jusqu'à 800 mots chacun, optimisés SEO avec mots-clés, méta-descriptions et liens internes). 12 publications sur les réseaux par mois (visuels conçus + textes rédigés avec hashtags). 1 cycle de révisions par contenu (à demander dans les 3 jours ouvrés suivant la livraison). Le client valide le calendrier éditorial mensuel avant le 5 de chaque mois. Validation tardive = livraison retardée sans garantie de délai."
+            },
+            {
+              "i": "Optimisation du système IA",
+              "l": "Chatbot : 15 mises à jour de paires questions-réponses par mois. Revue du taux de conversion et de la précision des réponses du chatbot. Agent vocal : 1 révision du script d'appel par mois (ajustement du langage, du déroulé ou des critères de qualification). Indicateurs de performance de l'IA inclus dans le rapport mensuel. N'inclut PAS la création de nouveaux agents ni de nouveaux flux d'automatisation."
+            },
+            {
+              "i": "Points stratégiques",
+              "l": "Vidéo Loom mensuelle enregistrée passant en revue votre performance, nos recommandations et les prochaines étapes (10 à 15 min). Vous répondez par message, e-mail ou mémo vocal. Aucun appel en direct requis. Questions traitées sous 1 jour ouvré par message ou e-mail. 1 appel en direct optionnel par mois sur demande (30 min max)."
+            },
+            {
+              "i": "Design et développement (5 h/mois)",
+              "l": "5 heures de design et de développement par mois. Couvre : nouvelles landing pages, mises à jour de pages, petits ajouts de fonctionnalités, design graphique pour les campagnes ou personnalisation de modèles. Les heures ne sont PAS reportables. Non utilisées, elles sont perdues. Les refontes complètes de pages ou les développements majeurs sont cadrés et chiffrés séparément. Temps suivi et rapporté chaque mois."
+            }
+          ],
+          "ov": [
+            "Design au-delà de 5 h : $175/h",
+            "Budget publicitaire >$5K : +$500/mois par tranche de $5K",
+            "Article de blog : $250 chacun",
+            "Publications sociales (12+) : $60 chacune",
+            "Renouvellement créatif : $500",
+            "Appel en direct supplémentaire : $250/h",
+            "Nouvel agent IA : $2,500",
+            "Urgence : +50 %"
+          ],
+          "ex": "Pas de CMO à temps partagé, pas de publicités illimitées, pas de rafraîchissement de marque, pas de production vidéo, pas de gestion sociale dédiée. Nécessite un niveau supérieur ou l'option Social.",
+          "ideal": "Entreprises qui font activement croître leur chiffre d'affaires"
+        },
+        {
+          "name": "Partenariat Complet",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/mois",
+          "tag": "CMO à temps partagé + équipe",
+          "com": "Engagement 6 mois minimum",
+          "scope": [
+            {
+              "i": "Tout Moteur de Croissance",
+              "l": "Toute la maintenance du site, le suivi de l'IA, les rapports, la gestion du CRM, la gestion des publicités Google + Meta, la production de contenu IA, l'optimisation de l'IA, les points stratégiques et le support par e-mail, avec les limites élargies listées ci-dessous. Les heures de design et les points stratégiques sont remplacés par les versions élargies ci-dessous (non cumulés)."
+            },
+            {
+              "i": "Stratège dédié",
+              "l": "Interlocuteur attitré qui connaît votre entreprise, vos objectifs et votre marque. Joignable par message ou e-mail du lundi au vendredi, de 9 h à 17 h (votre fuseau horaire). Non disponible 24h/24, le week-end ni les jours fériés. Gère tous les livrables, coordonne l'équipe et apporte proactivement des recommandations via Loom, e-mail ou message. Répond sous 4 heures ouvrées les jours travaillés."
+            },
+            {
+              "i": "Gestion publicitaire (élargie)",
+              "l": "Campagnes actives illimitées sur Google et Meta. Stratégie full-funnel : campagnes de notoriété, de considération et de conversion. Renouvellements créatifs mensuels, tests d'audience, optimisation des enchères et réallocation du budget. Budget publicitaire géré jusqu'à $20,000/mois. Au-delà de $20K, tarification sur mesure. Rapport mensuel de performance publicitaire avec analyse du ROAS, du CPA et de l'efficacité budgétaire. Budget publicitaire facturé séparément."
+            },
+            {
+              "i": "Gestion de l'écosystème IA",
+              "l": "5 agents IA actifs gérés et optimisés (chatbots, agents vocaux, agents e-mail, agents SMS). 2 nouveaux flux d'automatisation construits par mois (par ex. nouvelle séquence de leads, flux de montée en gamme, campagne de réengagement). Revue mensuelle de la performance des agents : précision des réponses, taux de résolution, durée des appels et conversion des leads. Réentraînement des agents et mise à jour des scripts selon les besoins dans le périmètre."
+            },
+            {
+              "i": "Système de contenu (élargi)",
+              "l": "8 articles de blog par mois (jusqu'à 1,000 mots chacun, optimisés SEO). 20 publications sur les réseaux par mois (visuels conçus + textes rédigés avec hashtags et CTA). 4 clips vidéo courts par mois (Reels, Shorts ou TikToks), montés à partir de vos rushs ou créés avec des outils IA. Nous montons, nous ne tournons pas. 1 cycle de révisions par contenu. Calendrier éditorial livré le 1er de chaque mois pour validation."
+            },
+            {
+              "i": "Réunion stratégique mensuelle + points hebdomadaires",
+              "l": "1 réunion stratégique en direct par mois (60 min max). Points hebdomadaires livrés par vidéo Loom ou synthèse écrite couvrant : revue de la performance, priorités à venir, ajustements des campagnes et recommandations stratégiques. Vous répondez par message, e-mail ou mémo vocal. La communication au quotidien se fait entièrement par message et e-mail. Pas d'appels impromptus."
+            },
+            {
+              "i": "Design et développement (15 h/mois)",
+              "l": "15 heures de design et de développement par mois. Couvre : nouveaux tunnels, landing pages, refontes de pages, développement de fonctionnalités, design graphique, conception de modèles d'e-mail ou de présentations. Les heures sont reportables sur le mois suivant uniquement (cumul max : 30 heures). Les refontes complètes de site ou le développement d'applications sont cadrés et chiffrés séparément. Temps suivi et rapporté chaque mois."
+            },
+            {
+              "i": "Rafraîchissement de marque trimestriel",
+              "l": "1 rafraîchissement de marque par trimestre (tous les 3 mois). Comprend 5 nouveaux éléments créatifs : modèles sociaux actualisés, créations publicitaires saisonnières, en-têtes d'e-mail rafraîchis ou nouveaux visuels promotionnels. N'inclut PAS une refonte complète de la marque (nouveau logo, nouvelle charte, nouveau système de marque). Les refontes complètes sont chiffrées séparément à partir de $6,000+."
+            }
+          ],
+          "ov": [
+            "Design au-delà de 15 h : $175/h",
+            "Budget publicitaire >$20K : sur mesure",
+            "Articles de blog : $250 chacun",
+            "Clips vidéo (4+) : $300 chacun",
+            "Tournage : à part",
+            "Refonte complète de marque : $6K+ à part",
+            "Agent IA : $2,500 chacun",
+            "Week-end/hors horaires : +75 %"
+          ],
+          "ex": "Pas d'événements en présentiel, pas de relations presse/médias, pas de tournage vidéo (montage uniquement), pas de développement d'applications. Chiffrés séparément.",
+          "ideal": "Entreprises investissant $5K+/mois en publicité"
+        }
+      ],
+      "social": [
+        {
+          "name": "Social Starter",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mois",
+          "tag": "1 à 2 plateformes",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Plateformes (2 incluses)",
+              "l": "Choisissez 2 plateformes parmi : Instagram, LinkedIn, Facebook, TikTok, YouTube ou X. Nous gérons la publication, la planification et l'engagement de base sur les deux."
+            },
+            {
+              "i": "Création de contenu (16 publications/mois)",
+              "l": "8 publications par plateforme (16 au total par mois). Toutes en visuels statiques avec textes rédigés et hashtags pertinents. Pas de production vidéo à ce niveau. Types de contenu : conseils, promotions, témoignages, citations et publications d'engagement. Visuels conçus dans le style de votre marque avec vos couleurs, polices et logo."
+            },
+            {
+              "i": "Planification et publication",
+              "l": "Nous créons un calendrier éditorial mensuel, planifions toutes les publications et publions aux heures optimales pour votre audience. Le client doit valider le calendrier avant le 3 de chaque mois. Validation tardive = les publications peuvent ne pas paraître au planning prévu."
+            },
+            {
+              "i": "Engagement de base",
+              "l": "Jusqu'à 30 minutes par jour (jours ouvrés uniquement, du lundi au vendredi). Comprend : réponses aux commentaires et messages privés, mentions J'aime sur les commentaires pertinents et signalement de tout problème ou retour négatif pour votre examen. N'inclut PAS la prospection proactive ni l'animation de communauté."
+            },
+            {
+              "i": "Rapport mensuel",
+              "l": "1 rapport envoyé par e-mail avant le 5 de chaque mois. Couvre : croissance des abonnés, portée des publications, taux d'engagement (J'aime, commentaires, partages), publications les plus performantes et recommandations pour le mois suivant. Livré en PDF. Pas de présentation en direct."
+            },
+            {
+              "i": "Révisions du contenu",
+              "l": "1 cycle de révisions par lot de contenu mensuel. Toutes les demandes de révision doivent être transmises dans un seul document consolidé dans les 3 jours ouvrés suivant la livraison du calendrier éditorial."
+            },
+            {
+              "i": "Stratégie hashtags",
+              "l": "Recherche initiale de hashtags pour les deux plateformes lors de l'onboarding (3 jeux de 15 à 30 hashtags chacun). Mise à jour une fois par trimestre. Jeux organisés par : large portée, niche et hashtags de marque/locaux."
+            }
+          ],
+          "ov": [
+            "Plateforme supplémentaire : $400/mois",
+            "Publications supplémentaires (8+) : $60 chacune",
+            "Reel/short vidéo : $175 chacun",
+            "Cycle de révision supplémentaire : $175",
+            "Création de stories : $30/story"
+          ],
+          "ex": "Pas de production vidéo, pas de publicités sociales payantes, pas de prospection d'influenceurs, pas d'animation de communauté au-delà de l'engagement de base. Ces services nécessitent Social Croissance ou des options.",
+          "ideal": "Entreprises qui ont besoin d'une présence régulière sur 1 à 2 canaux"
+        },
+        {
+          "name": "Social Croissance",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/mois",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "com": "Engagement 6 mois minimum",
+          "scope": [
+            {
+              "i": "Plateformes (4 incluses)",
+              "l": "Choisissez 4 plateformes : Instagram, LinkedIn, Facebook, TikTok, YouTube ou X. Nous gérons la création de contenu, la planification, la publication et l'engagement actif sur toutes."
+            },
+            {
+              "i": "Création de contenu (48 publications + 4 vidéos/mois)",
+              "l": "12 publications par plateforme (48 au total par mois). Mélange de visuels statiques, de carrousels (jusqu'à 5 diapositives chacun) et de publications texte. 4 vidéos courtes par mois (Reels, Shorts ou TikToks) réparties sur vos plateformes. Nous montons les vidéos à partir de vos rushs ou les créons avec des outils vidéo IA. Nous ne tournons pas. Tous les visuels conçus dans le style de votre marque avec textes rédigés, hashtags et CTA."
+            },
+            {
+              "i": "Planification et publication",
+              "l": "Calendrier éditorial complet créé chaque mois avec sujets, formats, textes et horaires de publication. Le client doit valider le calendrier avant le 3 de chaque mois. Nous gérons toute la planification et la publication aux heures optimales par plateforme. Validation tardive = livraison retardée sans garantie du planning initial."
+            },
+            {
+              "i": "Engagement actif",
+              "l": "Jusqu'à 1 heure par jour (jours ouvrés, du lundi au vendredi). Comprend : réponses à tous les commentaires et messages privés, J'aime et réponses aux mentions, et engagement proactif auprès de comptes pertinents de votre secteur (30 min/jour pour liker, commenter, suivre). Veille de marque sur les mentions et les tags. Commentaires négatifs ou problèmes de réputation signalés immédiatement."
+            },
+            {
+              "i": "Reporting et stratégie",
+              "l": "Rapport mensuel (livré avant le 5) couvrant : croissance des abonnés, portée, taux d'engagement, meilleures publications et démographie de l'audience. 1 vidéo Loom mensuelle avec revue de la performance, recommandations de contenu et opportunités de tendances. Vous répondez par message ou e-mail. 1 appel en direct optionnel par mois sur demande (30 min max)."
+            },
+            {
+              "i": "Production vidéo",
+              "l": "4 vidéos courtes par mois. Chaque vidéo : jusqu'à 60 secondes, montée avec sous-titres, transitions, musique (libre de droits) et habillage de marque. Nous montons à partir des rushs que vous fournissez (clips smartphone, captures d'écran, interviews) ou générons avec des outils IA. Nous ne tournons pas de vidéo et n'assurons pas de production sur site."
+            },
+            {
+              "i": "Révisions du contenu",
+              "l": "2 cycles de révisions par lot de contenu mensuel. Tous les retours transmis dans un seul document consolidé dans les 3 jours ouvrés suivant la livraison."
+            },
+            {
+              "i": "Stratégie de contenu mensuelle",
+              "l": "Piliers de contenu définis chaque mois (3 à 5 thèmes qui guident tout le contenu). Veille des tendances et recommandations pour des publications réactives et d'actualité. Stratégie hashtags entretenue et mise à jour chaque mois sur toutes les plateformes."
+            }
+          ],
+          "ov": [
+            "Plateforme supplémentaire : $400/mois",
+            "Publications supplémentaires (12+) : $50 chacune",
+            "Vidéo supplémentaire : $175 chacune",
+            "Tournage vidéo : chiffré séparément",
+            "Appel en direct supplémentaire : $250/h",
+            "Prospection d'influenceurs : option à $600/mois",
+            "Création de stories : $25/story"
+          ],
+          "ex": "Pas de tournage vidéo, pas de gestion de publicités payantes (ajoutez Google/Meta Ads depuis les formules principales), pas de négociation de contrats d'influenceurs. Chiffrés séparément.",
+          "ideal": "Entreprises déterminées à faire grandir leur audience et leur engagement"
+        },
+        {
+          "name": "Domination Sociale",
+          "price": 4500,
+          "disp": "$4,500",
+          "per": "/mois",
+          "tag": "Réseaux sociaux clé en main",
+          "com": "Engagement 6 mois minimum",
+          "scope": [
+            {
+              "i": "Plateformes (6 incluses)",
+              "l": "Couverture complète sur 6 plateformes : Instagram, LinkedIn, Facebook, TikTok, YouTube et X. Toute la création de contenu, la planification, la publication, la gestion de communauté et la stratégie prises en charge pour vous."
+            },
+            {
+              "i": "Création de contenu (120 publications + 8 vidéos/mois)",
+              "l": "20 publications par plateforme (120 au total par mois). Mélange de visuels statiques, carrousels, stories, publications texte et sondages. 8 vidéos courtes par mois (Reels, Shorts, TikToks) réparties sur les plateformes. Tous les visuels dans le style de votre marque avec textes, hashtags et CTA. Contenu stories pour Instagram, Facebook et TikTok le cas échéant."
+            },
+            {
+              "i": "Gestion YouTube",
+              "l": "2 vidéos YouTube longues par mois (montage uniquement, à partir de vos rushs ou de contenu existant réutilisé). Miniature sur mesure conçue pour chaque vidéo. Titres, descriptions et tags optimisés SEO rédigés. Organisation des playlists et configuration des écrans de fin/fiches. Nous montons et optimisons. Nous n'écrivons pas de scripts, ne tournons pas et ne produisons pas de rushs originaux."
+            },
+            {
+              "i": "Gestion de communauté complète",
+              "l": "2 heures par jour, du lundi au vendredi. Comprend : réponses à tous les commentaires, messages privés et mentions sur toutes les plateformes. Prospection proactive : engagement auprès de comptes pertinents, hashtags du secteur et clients potentiels. Veille de marque : suivi des mentions, tags et conversations pertinentes. Signalement du sentiment : retours négatifs ou problèmes de réputation remontés immédiatement. Synthèse hebdomadaire de l'engagement incluse dans le reporting."
+            },
+            {
+              "i": "Reporting et stratégie",
+              "l": "Instantané analytique hebdomadaire envoyé par e-mail chaque lundi (indicateurs clés sur toutes les plateformes). Rapport mensuel approfondi (livré avant le 5) : croissance des abonnés, taux d'engagement, portée, impressions, meilleurs contenus, démographie de l'audience et benchmark concurrentiel. Vidéo Loom mensuelle couvrant : revue de la performance, campagnes à venir, orientation du contenu et opportunités de croissance. Vous répondez par message ou e-mail. 1 appel en direct optionnel par mois sur demande (30 min max)."
+            },
+            {
+              "i": "Production vidéo (8 courtes + 2 longues/mois)",
+              "l": "8 vidéos courtes (jusqu'à 60 secondes chacune) avec sous-titres, transitions, musique libre de droits et habillage de marque. 2 vidéos YouTube longues (jusqu'à 10 minutes chacune, montées à partir de rushs bruts). Nous montons. Nous ne tournons pas. Vous fournissez les rushs (clips smartphone, interviews, captures d'écran, présentations) ou nous créons avec des outils vidéo IA. Montage de qualité professionnelle avec intros/outros de marque si vous en avez."
+            },
+            {
+              "i": "Révisions du contenu",
+              "l": "2 cycles de révisions par lot de contenu mensuel. Tous les retours transmis dans un document consolidé sous 3 jours ouvrés."
+            },
+            {
+              "i": "Stratégie sociale trimestrielle",
+              "l": "Refonte complète de la stratégie réseaux sociaux chaque trimestre. Comprend : mise à jour des piliers de contenu, analyse des tendances, audit concurrentiel (3 concurrents), feuille de route de croissance de l'audience et recommandations par plateforme. Document stratégique livré en PDF ou en présentation (jusqu'à 10 pages). Piliers de contenu mensuels et veille des tendances en continu entre les trimestres."
+            },
+            {
+              "i": "Coordination d'influenceurs",
+              "l": "Prise de contact avec 5 micro-influenceurs par mois. Nous recherchons, identifions et contactons des partenaires potentiels dans votre niche. Nous négocions les conditions de collaboration (produit offert, publication rémunérée ou échange de contenu). Vous validez tous les accords finaux avant toute signature. Nous fournissons un modèle de brief influenceur et gérons la communication jusqu'à l'accord. N'inclut PAS la rémunération de l'influenceur. Ce coût est à votre charge, hors forfait."
+            }
+          ],
+          "ov": [
+            "Plateforme supplémentaire : $400/mois",
+            "Publications supplémentaires (20+) : $40 chacune",
+            "Vidéo longue supplémentaire : $500 chacune",
+            "Tournage vidéo : chiffré séparément",
+            "Influenceurs au-delà de 5 : $125/contact",
+            "Gestion de publicités payantes : à ajouter depuis les formules principales",
+            "Appel en direct supplémentaire : $250/h",
+            "Contenu le week-end : +50 %"
+          ],
+          "ex": "Pas de tournage/production vidéo (montage uniquement), pas de gestion de publicités payantes (à ajouter séparément), pas de relations presse. Chiffrés séparément.",
+          "ideal": "Marques qui veulent dominer les réseaux sur tous les canaux"
+        }
+      ],
+      "customBuild": [
+        {
+          "name": "Découverte et Cadrage",
+          "price": 2500,
+          "disp": "$2,500",
+          "tag": "Première étape obligatoire",
+          "tl": "1 à 2 semaines",
+          "scope": [
+            {
+              "i": "Questionnaire de lancement + atelier enregistré",
+              "l": "Questionnaire d'entrée détaillé couvrant : objectifs business, types et rôles d'utilisateurs, fonctionnalités clés, indispensables vs souhaitables, intégrations (paiement, CRM, e-mail, API) et attentes de délais. Nous étudions vos réponses et vous livrons une vidéo Loom enregistrée présentant notre compréhension et nos questions complémentaires. Vous répondez par message, e-mail ou mémo vocal. 1 appel en direct optionnel si nécessaire (60 min max)."
+            },
+            {
+              "i": "Cartographie des parcours utilisateurs",
+              "l": "Schémas visuels montrant comment chaque type d'utilisateur évolue dans le système. Par exemple : le locataire se connecte → soumet une demande de maintenance → le gestionnaire est notifié → attribue un prestataire → le locataire reçoit une mise à jour. Couvre tous les parcours utilisateurs clés (5 flux). Livré sous forme de tableau FigJam ou Miro."
+            },
+            {
+              "i": "Document d'architecture technique",
+              "l": "Description écrite de la stack technique proposée, de la structure de la base de données, de l'hébergement, des intégrations tierces et du plan de déploiement. Comprend des recommandations construire ou acheter (par ex. traitement des paiements sur mesure vs Stripe, authentification sur mesure vs Clerk). Identifie les risques techniques et les dépendances."
+            },
+            {
+              "i": "Wireframes (10 écrans)",
+              "l": "Wireframes basse fidélité de 10 écrans clés montrant la mise en page, la navigation et la hiérarchie du contenu. Pas de design au pixel près. Centrés sur la structure et l'expérience utilisateur. Livrés dans Figma. 1 cycle de révisions."
+            },
+            {
+              "i": "Document de périmètre (SOW)",
+              "l": "SOW détaillé avec : chaque fonctionnalité listée et décrite, découpage par phases (ce qui est livré et quand), estimation des délais par phase, devis à prix fixe pour le développement complet, hypothèses, exclusions et politique d'avenants. Il devient le socle du contrat."
+            },
+            {
+              "i": "Devis de développement à prix fixe",
+              "l": "Sur la base du travail de découverte, nous vous remettons un devis ferme à prix fixe pour le développement complet. Pas de surprise horaire. Si le périmètre change après signature, nous appliquons un processus d'avenants à tarifs pré-approuvés."
+            }
+          ],
+          "ov": [
+            "Écrans de wireframe supplémentaires : $250 chacun",
+            "Schémas de parcours utilisateur supplémentaires : $300 chacun",
+            "Option analyse concurrentielle : $750 (audit de 3 produits concurrents)",
+            "Prolongation de la découverte au-delà de 2 semaines : $1,200/semaine"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Les frais de découverte sont déduits du développement complet si vous poursuivez dans les 30 jours suivant la livraison. Si vous ne poursuivez pas, tous les livrables (wireframes, SOW, document d'architecture) vous appartiennent et peuvent être utilisés avec n'importe quel développeur.",
+          "ideal": "Toute personne envisageant un développement sur mesure. C'est la première étape."
+        },
+        {
+          "name": "Build Standard",
+          "price": 25000,
+          "disp": "$25,000",
+          "tag": "Le plus courant",
+          "pop": true,
+          "tl": "6 à 12 semaines",
+          "scope": [
+            {
+              "i": "Design UI/UX complet",
+              "l": "Conception complète de l'interface dans Figma pour tous les écrans (généralement 15 à 30 écrans selon la complexité). Comprend : mises en page responsive pour ordinateur et mobile, bibliothèque de composants, design system avec vos couleurs/polices/espacements et prototype interactif pour la revue des parties prenantes. 2 cycles de révisions du design avant le début du développement."
+            },
+            {
+              "i": "Développement frontend",
+              "l": "Développé en Next.js (React) avec TypeScript. Entièrement responsive sur ordinateur, tablette et mobile. Rendu côté serveur pour la performance et le SEO le cas échéant. Code propre et maintenable avec architecture en composants. Comprend les états de chargement, la gestion des erreurs, les états vides et la validation des formulaires sur tous les éléments interactifs."
+            },
+            {
+              "i": "Développement backend",
+              "l": "API RESTful ou GraphQL développée en Node.js. Conception et mise en place de la base de données (PostgreSQL ou MongoDB selon les besoins du projet). Authentification des utilisateurs et contrôle d'accès par rôles (par ex. admin, gestionnaire, locataire, prestataire). Validation des données, gestion des erreurs et documentation de l'API. Gestion du téléversement de fichiers si nécessaire (images, documents, jusqu'à 10 Mo par fichier)."
+            },
+            {
+              "i": "Fonctionnalités clés",
+              "l": "Périmètre défini dans le SOW de découverte. Les builds standards comprennent généralement : inscription et connexion, tableaux de bord par rôle, opérations CRUD sur les données clés (par ex. biens, locataires, demandes), recherche et filtres, système de notifications (e-mail et/ou in-app) et reporting/analytique de base. Les fonctionnalités hors SOW nécessitent un avenant."
+            },
+            {
+              "i": "Intégrations tierces (3 incluses)",
+              "l": "3 intégrations avec des services externes. Exemples courants : Stripe (paiements), Twilio (SMS/voix), SendGrid (e-mail), Google Maps, Calendly, QuickBooks, Zapier ou tout service disposant d'une API REST documentée. Chaque intégration comprend : configuration, mapping des données, gestion des erreurs et tests. Les intégrations complexes (par ex. ERP sur mesure, systèmes hérités sans API moderne) sont chiffrées séparément."
+            },
+            {
+              "i": "Hébergement et déploiement",
+              "l": "Déployé en production sur Vercel (frontend) et Railway, Render ou AWS (backend). Pipeline CI/CD configuré pour des déploiements automatisés depuis GitHub. Certificat SSL, configuration du domaine personnalisé et du DNS. Gestion des variables d'environnement et des secrets. Environnement de staging inclus pour tester avant chaque mise en production."
+            },
+            {
+              "i": "Tests et QA",
+              "l": "Tests manuels sur Chrome, Safari, Firefox et Edge. Tests mobiles sur Safari iOS et Chrome Android. Tous les parcours utilisateurs clés testés de bout en bout. Les corrections de bugs pendant le développement sont incluses. Corrections de bugs après la mise en ligne couvertes pendant 30 jours (voir conditions de passation ci-dessous)."
+            },
+            {
+              "i": "Documentation",
+              "l": "Documentation technique : endpoints de l'API, schéma de la base de données, guide de configuration de l'environnement et instructions de déploiement. Documentation utilisateur : guide pratique pour les administrateurs couvrant toutes les fonctionnalités clés (livré en PDF ou page Notion, jusqu'à 10 pages). Code commenté et organisé pour les futurs développeurs."
+            },
+            {
+              "i": "Révisions",
+              "l": "2 cycles de révisions du design avant le développement. Pendant le développement, les retours sont gérés via un tableau de tâches partagé (Linear ou GitHub Issues). Après le développement : 1 cycle de révisions sur le produit final avant la mise en ligne. Les changements de périmètre en cours de développement nécessitent un avenant à tarifs pré-approuvés ($200/h)."
+            }
+          ],
+          "ov": [
+            "Intégrations supplémentaires : $3,000 chacune",
+            "Écrans supplémentaires hors SOW : $800/écran",
+            "Avenants en cours de développement : $200/h",
+            "Rôles utilisateurs supplémentaires : $2,000 par rôle",
+            "Tableau de bord reporting/analytique avancé : $5,000",
+            "Application mobile native (iOS ou Android) : voir le niveau Build Entreprise"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 25 % au jalon intermédiaire, 25 % à la livraison (net 7 jours). Comprend 30 jours de corrections de bugs après la mise en ligne (uniquement sur les fonctionnalités du SOW initial). Après 30 jours, le support continu passe sur un forfait de maintenance. Tout le code vous appartient. Propriété complète du code, des fichiers de design et de la documentation transférée à la fin du projet.",
+          "bridge": "Votre plateforme est en ligne et stable. Pour la garder opérationnelle, sécurisée et évolutive, nous recommandons notre forfait Support Dev ($1,500/mois) ou une Banque d'Heures ($2,500/mois pour 10 h).",
+          "ideal": "Portails, tableaux de bord, outils internes et MVP SaaS"
+        },
+        {
+          "name": "Build Entreprise",
+          "price": 75000,
+          "disp": "$75,000+",
+          "tag": "Systèmes complexes",
+          "tl": "12 à 24 semaines",
+          "scope": [
+            {
+              "i": "Tout le Build Standard (élargi)",
+              "l": "Tout le design, le frontend, le backend, les intégrations, l'hébergement, les tests et la documentation du Build Standard, avec un périmètre élargi pour des systèmes plus vastes et plus complexes. Généralement 30 à 60+ écrans, plusieurs rôles utilisateurs et une logique métier complexe."
+            },
+            {
+              "i": "Architecture avancée",
+              "l": "Architecture en microservices ou monolithe modulaire pour la scalabilité. Files de messages (Redis, RabbitMQ) pour le traitement asynchrone si nécessaire. Couche de cache pour les endpoints à fort trafic. Optimisation de la base de données : indexation, optimisation des requêtes et pool de connexions. Infrastructure conçue pour supporter plus de 10,000 utilisateurs simultanés."
+            },
+            {
+              "i": "Fonctionnalités propulsées par l'IA",
+              "l": "Agents IA ou automatisations sur mesure intégrés à la plateforme. Exemples : recherche IA, traitement du langage naturel pour les tickets de support, analytique prédictive, catégorisation automatique, recommandations intelligentes ou chatbot IA entraîné sur les données de votre plateforme. Comprend : choix du modèle, ingénierie des prompts, intégration de l'API et tests. Utilise OpenAI, Anthropic ou des modèles open source selon les besoins."
+            },
+            {
+              "i": "Application mobile (si incluse)",
+              "l": "Application mobile multiplateforme développée en React Native. Code partagé pour iOS et Android. Notifications push, mode hors ligne et fonctionnalités natives de l'appareil (caméra, GPS, biométrie). Soumission à l'App Store et à Google Play gérée par nous (vous fournissez les comptes développeur). Généralement 15 à 25 écrans reprenant les fonctionnalités clés de l'application web."
+            },
+            {
+              "i": "Intégrations (6 incluses)",
+              "l": "6 intégrations tierces. Comprend des intégrations complexes : traitement des paiements avec reversements multi-parties (Stripe Connect), synchronisation comptable (QuickBooks, Xero), API de gestion immobilière, flux MLS, API gouvernementales/de conformité ou systèmes de webhooks sur mesure. Les intégrations de systèmes hérités sont chiffrées séparément selon la qualité de la documentation de l'API."
+            },
+            {
+              "i": "Sécurité et conformité avancées",
+              "l": "Contrôle d'accès par rôles avec permissions granulaires (par ex. accès au niveau du bien ou du lot). Chiffrement des données au repos et en transit. Journal d'audit des actions sensibles. Fonctionnalités de conformité RGPD/CCPA si nécessaire (export des données, demandes de suppression). Coordination des tests d'intrusion (pentest tiers recommandé, non inclus dans le prix)."
+            },
+            {
+              "i": "Architecture multi-tenant",
+              "l": "Pour un SaaS : architecture de base de données multi-tenant complète afin que les données de chaque client soient isolées. Configurations, branding et feature flags par tenant. Super-panneau d'administration pour gérer tous les tenants. Suivi de l'usage et intégration de la facturation si nécessaire."
+            },
+            {
+              "i": "Livraison par phases",
+              "l": "Projet livré par phases (généralement 3 ou 4). Chaque phase a ses propres livrables, tests et validation. La phase 1 correspond généralement au MVP principal (mis en production). Les phases suivantes ajoutent des fonctionnalités progressivement. Chaque phase a un calendrier défini et une liste de livrables issue du SOW."
+            },
+            {
+              "i": "Révisions et gestion des changements",
+              "l": "2 cycles de révisions du design par phase. Retours gérés via un tableau de tâches partagé (Linear ou GitHub Issues). Avenants pour les ajouts de périmètre : $200/h avec accord écrit avant le début des travaux. Points d'avancement hebdomadaires par vidéo Loom ou synthèse écrite. Vidéos de démonstration enregistrées toutes les deux semaines sur le travail réalisé. Vous examinez et répondez à votre rythme. 1 appel en direct optionnel par mois si nécessaire."
+            }
+          ],
+          "ov": [
+            "Intégrations supplémentaires : $5,000 chacune",
+            "Application mobile native (si non incluse) : $30,000",
+            "Fonctionnalités IA supplémentaires : $10,000 par fonctionnalité",
+            "Phases supplémentaires : cadrées et chiffrées individuellement",
+            "Coordination d'un pentest tiers : $5,000",
+            "Option white-label/multi-tenant (si non incluse) : $15,000"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 25 % au jalon intermédiaire, 25 % à la livraison (net 7 jours). Comprend 45 jours de corrections de bugs après la mise en ligne par phase. Tout le code, les fichiers de design et la documentation vous sont transférés à la fin. Propriété complète du code. Après 45 jours, le support continu passe sur un forfait de maintenance.",
+          "bridge": "Les systèmes complexes nécessitent un développement, un suivi et une optimisation continus. Nous recommandons notre forfait Développement Actif ($7,500/mois) pour que votre plateforme évolue avec votre entreprise.",
+          "ideal": "Plateformes SaaS, systèmes multi-tenant, produits intégrant l'IA et outils d'entreprise"
+        }
+      ],
+      "aiAgents": [
+        {
+          "name": "Agent Unique",
+          "price": 5000,
+          "disp": "$5,000",
+          "tag": "Un agent puissant",
+          "tl": "1 à 2 semaines",
+          "scope": [
+            {
+              "i": "Agent IA sur mesure (1)",
+              "l": "Un agent IA conçu, entraîné et déployé spécifiquement pour votre entreprise. Au choix : agent vocal, agent e-mail, agent de web scraping, agent de génération de PDF, chatbot de support client, agent de qualification de leads, agent de traitement de données, agent de prise de rendez-vous ou tout cas d'usage sur mesure. L'agent est adapté à vos flux de travail, à votre voix de marque et à vos sources de données."
+            },
+            {
+              "i": "Entraînement et configuration de l'agent",
+              "l": "Nous configurons le comportement, la logique de décision et les schémas de réponse de l'agent selon vos besoins. Comprend : jusqu'à 50 données d'entraînement (paires questions-réponses, scripts ou exemples de flux). Gestion des réponses par défaut et des erreurs sur mesure. Intégration avec 1 système externe (CRM, e-mail, agenda, base de données ou API)."
+            },
+            {
+              "i": "Tests et déploiement",
+              "l": "Tests complets de bout en bout sur tous les cas d'usage prévus. Gestion des cas limites et tests de charge. Déployé sur votre infrastructure ou sur notre hébergement géré. Comprend un environnement de staging pour votre revue avant la mise en production."
+            },
+            {
+              "i": "Sécurité des clés API",
+              "l": "Toutes les clés API et identifiants sont stockés de manière sécurisée via des variables d'environnement chiffrées. Jamais codés en dur ni exposés dans le code source. Les clés sont injectées à l'exécution via le gestionnaire de secrets de votre hébergeur (Vercel, AWS, etc.). Accès restreint au seul environnement d'exécution de l'agent. Nous ne stockons ni ne conservons jamais vos clés API après le déploiement. Vous gardez la propriété et le contrôle total de tous les identifiants à tout moment."
+            },
+            {
+              "i": "Documentation et passation",
+              "l": "Documentation du comportement de l'agent : ce qu'il fait, comment il fonctionne et comment le mettre à jour. Guide d'administration pour modifier les réponses, mettre à jour les données d'entraînement ou mettre l'agent en pause. Schéma d'architecture montrant comment l'agent se connecte à vos systèmes."
+            }
+          ],
+          "ov": [
+            "Intégration supplémentaire : $1,500",
+            "Données d'entraînement au-delà de 50 : $500/lot de 50",
+            "Cycle de révision supplémentaire : $350",
+            "Livraison express (moins d'1 semaine) : +40 %",
+            "Réentraînement de l'agent : $750"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 2 cycles de révision. La propriété de l'agent vous est transférée.",
+          "bridge": "Votre agent est en ligne. Pour le garder surveillé, optimisé et réentraîné, ajoutez notre forfait Maintenance d'Agents ($1,500/mois) ou Croissance d'Agents ($3,500/mois).",
+          "ideal": "Entreprises qui automatisent un flux de travail précis"
+        },
+        {
+          "name": "Équipe d'Agents",
+          "price": 14500,
+          "disp": "$14,500",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "tl": "2 à 4 semaines",
+          "scope": [
+            {
+              "i": "Agents IA sur mesure (3)",
+              "l": "Trois agents IA interconnectés fonctionnant comme un système coordonné. Exemples de configuration : (1) Un agent vocal répond aux appels + un agent e-mail envoie les relances + un agent CRM met à jour le pipeline. (2) Un agent de scraping collecte les données + un agent de traitement met en forme les rapports + un agent e-mail les diffuse. (3) Un chatbot capte les leads + un agent de qualification les note + un agent de réservation planifie les appels. Les agents communiquent entre eux et partagent les données automatiquement."
+            },
+            {
+              "i": "Orchestration des flux",
+              "l": "Arbre de décision sur mesure définissant comment les agents se passent le relais. Logique conditionnelle : les agents agissent différemment selon les données, l'heure, le score du lead ou des règles personnalisées. Gestion des erreurs : si un agent échoue, le système vous prévient et remet la tâche en file d'attente. Toute la communication entre agents est journalisée et auditable."
+            },
+            {
+              "i": "Intégrations (3 incluses)",
+              "l": "3 intégrations avec des systèmes externes pour votre équipe d'agents. Intégrations courantes : GoHighLevel, HubSpot, Salesforce, Google Workspace, Slack, Twilio, Stripe, Shopify, Zapier, Make ou tout service disposant d'une API REST. Chaque intégration comprend : mapping des données, authentification, gestion des erreurs et logique de nouvelle tentative."
+            },
+            {
+              "i": "Sécurité des clés API",
+              "l": "Toutes les clés API, jetons et identifiants sont stockés via des variables d'environnement chiffrées et le gestionnaire de secrets de votre hébergeur. Jamais codés en dur, jamais dans le code source, jamais dans les journaux. Les identifiants de chaque agent sont isolés afin qu'un agent ne puisse pas accéder aux clés d'un autre. Nous ne stockons ni ne conservons jamais vos clés API après le déploiement. Vous gardez la propriété et le contrôle total de tous les identifiants à tout moment."
+            },
+            {
+              "i": "Entraînement et tests des agents",
+              "l": "Chaque agent entraîné sur jusqu'à 75 données. Tests complets de bout en bout de l'ensemble du flux d'agents (pas seulement de chaque agent isolément). Tests de charge pour les scénarios à fort volume. Tests d'acceptation avec votre équipe avant la mise en production."
+            }
+          ],
+          "ov": [
+            "Agent supplémentaire : $2,500",
+            "Intégration supplémentaire : $1,500",
+            "Données d'entraînement au-delà de 75/agent : $500/lot",
+            "Cycle de révision supplémentaire : $400",
+            "Livraison express : +40 %"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 2 cycles de révision. La propriété de tous les agents et du code vous est transférée.",
+          "bridge": "Votre équipe d'agents est en ligne et coordonnée. Pour l'optimisation continue, le réentraînement et l'ajout de nouveaux agents, ajoutez notre forfait Croissance d'Agents ($3,500/mois) ou Centre de Commande des Agents ($7,500/mois).",
+          "ideal": "Entreprises qui automatisent des flux multi-étapes de bout en bout"
+        },
+        {
+          "name": "Opérations IA",
+          "price": 25000,
+          "disp": "$25,000+",
+          "tag": "Écosystème IA d'entreprise",
+          "tl": "4 à 8 semaines",
+          "scope": [
+            {
+              "i": "Agents IA sur mesure (5+)",
+              "l": "Cinq agents IA ou plus conçus comme une couche opérationnelle complète pour votre entreprise. Couvre plusieurs services : ventes, support, marketing, opérations et données. Chaque agent construit spécifiquement pour vos flux de travail. Pas de modèles, pas de configurations génériques. Les types d'agents incluent toute combinaison de : vocal, e-mail, chat, scraping, génération de PDF, traitement de données, planification, création de contenu, scoring de leads et cas d'usage sur mesure."
+            },
+            {
+              "i": "Couche d'orchestration IA",
+              "l": "Système de coordination central qui gère tous les agents. Routage intelligent : les tâches sont automatiquement attribuées au bon agent selon le type, la priorité et le contexte. Gestion des files d'attente pour les scénarios à fort volume. Communication entre agents avec mémoire partagée et transmission du contexte. Logique de nouvelle tentative, réponses par défaut et dégradation progressive lorsque les agents rencontrent des erreurs."
+            },
+            {
+              "i": "Intégrations (6 incluses)",
+              "l": "6 intégrations externes reliant votre écosystème d'agents à vos outils métier. Comprend des intégrations complexes : flux multi-étapes entre CRM + e-mail + agenda + systèmes de paiement. Écouteurs de webhooks pour les déclencheurs en temps réel. Synchronisation des données entre plateformes avec résolution des conflits."
+            },
+            {
+              "i": "Sécurité et conformité",
+              "l": "Toutes les clés API, jetons et identifiants sont stockés via des variables d'environnement chiffrées et une gestion des secrets de niveau entreprise. Jamais codés en dur, jamais dans le code source, jamais dans les journaux. Les identifiants de chaque agent sont totalement isolés. Chiffrement des données pour toutes les communications entre agents (en transit et au repos). Contrôle d'accès par rôles pour la gestion des agents. Journal d'audit de chaque action des agents (qui, quoi, quand). Protocoles de traitement des données personnelles configurés selon vos exigences. Politiques de conservation des données appliquées automatiquement. Nous ne stockons ni ne conservons jamais vos clés API après le déploiement. Vous gardez la propriété et le contrôle total."
+            },
+            {
+              "i": "Formation et onboarding",
+              "l": "Chaque agent entraîné sur jusqu'à 150 données. Série complète de vidéos Loom enregistrées montrant à votre équipe comment gérer, surveiller et mettre à jour les agents. Documentation opérationnelle pour chaque agent : ce qu'il fait, comment le modifier et les étapes de dépannage. Toute la formation est livrée en vidéo enregistrée. Votre équipe la suit à son rythme. Questions traitées par message ou e-mail sous 1 jour ouvré."
+            }
+          ],
+          "ov": [
+            "Agent supplémentaire : $2,500 chacun",
+            "Intégration supplémentaire : $2,000",
+            "Fine-tuning de modèle IA sur mesure : $5,000",
+            "Session de formation en direct : $250/h",
+            "Livraison express : +30 %"
+          ],
+          "ho": "Paiement : acompte de 50 % au démarrage, 25 % au jalon intermédiaire, 25 % à la livraison (net 7 jours). Livré par phases (généralement 2 ou 3). Chaque phase a des livrables définis et une validation. La propriété de tout le code et des agents vous est transférée à la fin.",
+          "bridge": "Votre écosystème IA est pleinement opérationnel. Pour le garder en marche, optimisé et en expansion, ajoutez notre forfait Centre de Commande des Agents ($7,500/mois).",
+          "ideal": "Entreprises qui remplacent les processus manuels par une automatisation intelligente à grande échelle"
+        }
+      ],
+      "monthlyAgent": [
+        {
+          "name": "Maintenance d'Agents",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mois",
+          "tag": "Garder les agents en marche",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Surveillance des agents (jusqu'à 3)",
+              "l": "Surveillance de la disponibilité et des erreurs 24h/24 pour jusqu'à 3 agents IA. Alertes automatiques si un agent tombe, commence à échouer ou si la précision de ses réponses passe sous le seuil. Nous enquêtons et résolvons les incidents sous 1 jour ouvré."
+            },
+            {
+              "i": "Mises à jour des données d'entraînement (15/mois)",
+              "l": "Jusqu'à 15 mises à jour des données d'entraînement par mois sur l'ensemble des agents. Couvre : ajout de nouvelles paires questions-réponses, affinage des réponses, mise à jour des scripts et correction des réponses inexactes. Mises à jour livrées sous 2 jours ouvrés après la demande."
+            },
+            {
+              "i": "Vérification des API et intégrations",
+              "l": "Vérification mensuelle du bon fonctionnement de toutes les connexions API et intégrations tierces. Surveillance proactive des dépréciations d'API, des changements de limites d'usage et des expirations d'authentification. Toutes les clés API stockées de manière sécurisée via des variables d'environnement chiffrées. Jamais exposées dans le code ni les journaux."
+            },
+            {
+              "i": "Rapport de performance mensuel",
+              "l": "Rapport livré avant le 5 de chaque mois couvrant : précision des réponses des agents, taux de complétion, taux d'erreur, volume d'utilisation et état des intégrations. Comprend des recommandations pour améliorer la performance. Livré en PDF ou en vidéo Loom."
+            },
+            {
+              "i": "Support",
+              "l": "Support par message et e-mail avec délai de réponse de 48 heures (jours ouvrés). Jusqu'à 8 demandes de support par mois. Chaque demande = 1 problème ou question précis. Au-delà de 8 demandes, facturation à $200/h."
+            }
+          ],
+          "ov": [
+            "Surveillance d'agent supplémentaire : $300/mois par agent",
+            "Mises à jour d'entraînement au-delà de 15 : $50 chacune",
+            "Correction urgente hors horaires : +50 %",
+            "Création d'un nouvel agent : chiffrée séparément"
+          ],
+          "ex": "Pas de création de nouveaux agents, pas de nouvelles intégrations, pas de nouveaux flux d'automatisation. Surveillance et maintenance uniquement. Pour le développement actif d'agents, voir le niveau Croissance d'Agents.",
+          "ideal": "Entreprises dont les agents en production doivent rester précis et en ligne"
+        },
+        {
+          "name": "Croissance d'Agents",
+          "price": 3500,
+          "disp": "$3,500",
+          "per": "/mois",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "com": "Engagement 6 mois minimum",
+          "scope": [
+            {
+              "i": "Tout Maintenance d'Agents",
+              "l": "Toute la surveillance, les mises à jour d'entraînement, les vérifications d'API, le reporting mensuel et le support de Maintenance d'Agents, avec les limites élargies ci-dessous."
+            },
+            {
+              "i": "Surveillance des agents (jusqu'à 6)",
+              "l": "Surveillance de la disponibilité et des erreurs 24h/24 pour jusqu'à 6 agents IA. Alertes automatiques, enquête et résolution sous 4 heures ouvrées."
+            },
+            {
+              "i": "Mises à jour des données d'entraînement (40/mois)",
+              "l": "Jusqu'à 40 mises à jour des données d'entraînement par mois sur l'ensemble des agents. Comprend : nouvelles paires questions-réponses, révisions de scripts, ajustements de flux et affinage des réponses. Mises à jour livrées sous 1 jour ouvré."
+            },
+            {
+              "i": "1 nouveau flux d'automatisation/mois",
+              "l": "1 nouveau flux d'automatisation construit par mois (par ex. nouvelle séquence de nurturing, déclencheur de montée en gamme, campagne de réengagement ou flux de notification interne). Le flux se connecte à vos agents et intégrations existants."
+            },
+            {
+              "i": "Point stratégique mensuel",
+              "l": "Vidéo Loom mensuelle couvrant : revue de la performance des agents, recommandations d'optimisation et priorités à venir. Vous répondez par message ou e-mail. 1 appel en direct optionnel par mois sur demande (30 min max)."
+            },
+            {
+              "i": "Sécurité et gestion des clés API",
+              "l": "Toutes les clés API et identifiants stockés via des variables d'environnement chiffrées et une gestion des secrets. Rappels mensuels de rotation des identifiants. Surveillance proactive des clés exposées ou compromises. Vous gardez la propriété et le contrôle total de tous les identifiants."
+            },
+            {
+              "i": "Support prioritaire",
+              "l": "Support par message et e-mail avec délai de réponse de 24 heures (jours ouvrés). Pannes critiques d'agents : prise en charge le jour même pendant les heures ouvrées. Jusqu'à 15 demandes de support par mois."
+            }
+          ],
+          "ov": [
+            "Surveillance d'agent supplémentaire : $250/mois par agent",
+            "Mises à jour d'entraînement au-delà de 40 : $40 chacune",
+            "Flux supplémentaire : $1,500",
+            "Création d'un nouvel agent : $2,500",
+            "Urgence hors horaires : +50 %"
+          ],
+          "ex": "Pas d'orchestration d'entreprise, pas de cadres de conformité, pas de stratège dédié. Pour une gestion complète des opérations IA, voir Centre de Commande des Agents.",
+          "ideal": "Entreprises qui étendent activement les capacités de leurs agents IA"
+        },
+        {
+          "name": "Centre de Commande des Agents",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/mois",
+          "tag": "Gestion IA complète",
+          "com": "Engagement 6 mois minimum",
+          "scope": [
+            {
+              "i": "Tout Croissance d'Agents",
+              "l": "Toute la surveillance, les mises à jour d'entraînement, les flux, les points stratégiques, la sécurité des API et le support prioritaire de Croissance d'Agents, avec les limites élargies ci-dessous."
+            },
+            {
+              "i": "Surveillance des agents (illimitée)",
+              "l": "Surveillance 24h/24 de tous les agents actifs sans plafond. Alertes automatiques, enquête et résolution sous 2 heures ouvrées. Comprend la surveillance de la couche d'orchestration pour les systèmes multi-agents."
+            },
+            {
+              "i": "Mises à jour des données d'entraînement (illimitées)",
+              "l": "Mises à jour illimitées des données d'entraînement sur tous les agents. Révisions de scripts, ajustements de flux, nouvelles paires questions-réponses et réglage des réponses, selon les besoins et sans plafond. Mises à jour livrées sous 1 jour ouvré."
+            },
+            {
+              "i": "3 nouveaux flux d'automatisation/mois",
+              "l": "3 nouveaux flux d'automatisation construits par mois. Flux complexes multi-étapes couvrant agents, intégrations et logique conditionnelle. Comprend les tests, le déploiement et la documentation de chaque flux."
+            },
+            {
+              "i": "Réunion stratégique mensuelle + points hebdomadaires",
+              "l": "1 réunion stratégique en direct par mois (60 min max). Points Loom hebdomadaires sur la performance, les priorités à venir et les recommandations d'optimisation. Vous répondez par message ou e-mail. La communication au quotidien se fait entièrement par message et e-mail. Pas d'appels impromptus."
+            },
+            {
+              "i": "Sécurité et conformité d'entreprise",
+              "l": "Toutes les clés API et identifiants gérés via une gestion des secrets de niveau entreprise. Isolation des identifiants par agent. Journal d'audit de chaque action des agents. Revue de sécurité mensuelle couvrant : état des identifiants, contrôles d'accès, traitement des données et posture de conformité. Protocoles de traitement des données personnelles maintenus et mis à jour selon les besoins. Vous gardez la propriété totale de tous les identifiants."
+            },
+            {
+              "i": "Création de nouveaux agents (1/mois incluse)",
+              "l": "1 nouvel agent IA par mois inclus dans le périmètre. Couvre : conception, entraînement, tests, déploiement et documentation. Agents supplémentaires chiffrés à tarif réduit ($2,000 chacun contre $5,000 en standalone)."
+            },
+            {
+              "i": "Audit IA trimestriel",
+              "l": "Tous les 3 mois : audit complet de l'ensemble de votre écosystème IA couvrant la performance des agents, les tendances de précision, l'efficacité des coûts, la santé des intégrations et les recommandations de nouvelles opportunités d'automatisation. Livré sous forme de rapport écrit."
+            }
+          ],
+          "ov": [
+            "Création d'agent supplémentaire : $2,000 chacun",
+            "Flux supplémentaire : $1,000",
+            "Fine-tuning de modèle IA sur mesure : $5,000",
+            "Session de formation en direct : $250/h",
+            "Urgence hors horaires : +50 %"
+          ],
+          "ex": "Pas de marketing, pas de publicités, pas de création de contenu, pas de gestion des réseaux sociaux. Pour ces services, voir nos Forfaits Marketing ou nos formules de Gestion Sociale.",
+          "ideal": "Entreprises pour qui l'IA est au cœur des opérations quotidiennes"
+        }
+      ],
+      "customSupport": [
+        {
+          "name": "Banque d'Heures",
+          "price": 2500,
+          "disp": "$2,500",
+          "per": "/mois",
+          "tag": "Support flexible",
+          "com": "Au mois (sans minimum)",
+          "scope": [
+            {
+              "i": "Choisissez vos heures",
+              "l": "Achetez un bloc d'heures de développement chaque mois. 10 h/mois = $2,500 ($250/h). 20 h/mois = $4,500 ($225/h). 30 h/mois = $6,000 ($200/h). 40+ h/mois = tarif sur mesure. Les heures couvrent toute combinaison de : corrections de bugs, mises à jour de fonctionnalités, modifications de design, intégrations ou conseil."
+            },
+            {
+              "i": "Comment ça marche",
+              "l": "Vous soumettez vos demandes via un tableau de tâches partagé (Linear, GitHub Issues ou e-mail). Nous estimons les heures avant de commencer chaque tâche et obtenons votre accord. Le travail est suivi et rapporté chaque semaine avec un relevé de temps indiquant précisément ce qui a été fait et combien de temps cela a pris. Les heures non utilisées ne sont PAS reportées au mois suivant."
+            },
+            {
+              "i": "Délai de réponse",
+              "l": "Demandes accusées de réception sous 1 jour ouvré. Corrections de bugs priorisées par gravité : critique (prise en charge le jour même), majeur (sous 2 jours ouvrés), mineur (sous 5 jours ouvrés). Demandes de fonctionnalités et améliorations planifiées dans le cycle de facturation en cours ou le suivant."
+            },
+            {
+              "i": "Synthèse mensuelle",
+              "l": "Rapport de fin de mois indiquant : heures utilisées, tâches réalisées, heures restantes et éléments ouverts reportés au mois suivant. Aucune surprise."
+            },
+            {
+              "i": "Ce qui est couvert",
+              "l": "Corrections de bugs et correctifs, petits ajouts de fonctionnalités, améliorations UI/UX, modifications de base de données, mises à jour d'API, maintenance des intégrations tierces, optimisation des performances, correctifs de sécurité et conseil. N'inclut PAS : les développements complets de fonctionnalités nécessitant 40+ heures (cadrés comme projet séparé), le design à partir de zéro (utilisez notre forfait design ou la tarification projet) ni l'astreinte 24h/24."
+            }
+          ],
+          "ov": [
+            "Heures au-delà de votre banque : $275/h",
+            "Correctif critique urgent/même jour : +50 % sur les heures utilisées",
+            "Travail le week-end : +75 % sur les heures utilisées"
+          ],
+          "ex": "Pas de SLA garanti. Pas de surveillance 24h/24. Pas de développeur dédié (l'équipe traite les demandes dans la file). Pour des délais de réponse garantis et des ressources dédiées, voir les niveaux Support Dev ci-dessous.",
+          "ideal": "Petites applications, outils ou projets déjà lancés qui ont besoin de mises à jour occasionnelles"
+        },
+        {
+          "name": "Support Dev",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mois",
+          "tag": "Garder le cap",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Surveillance serveur et infrastructure",
+              "l": "Surveillance de la disponibilité 24h/24 avec alertes automatiques. Contrôles de santé du serveur : CPU, mémoire, disque et temps de réponse. Si votre application tombe, nous sommes alertés immédiatement et commençons l'enquête sous 1 heure pendant les heures ouvrées (du lundi au vendredi, de 9 h à 17 h). Coordination avec l'hébergeur en cas de problème d'infrastructure."
+            },
+            {
+              "i": "Maintenance de sécurité",
+              "l": "Mises à jour mensuelles des dépendances (npm, pip, paquets système). Analyse et correction des vulnérabilités de sécurité. Gestion du renouvellement du certificat SSL. Vérification des sauvegardes de la base de données (configurées pendant le développement ; nous vérifions qu'elles s'exécutent et testons la restauration chaque trimestre). Surveillance des tentatives d'accès non autorisées."
+            },
+            {
+              "i": "Corrections de bugs (5 h/mois incluses)",
+              "l": "5 heures de corrections de bugs et de correctifs par mois. Couvre : fonctionnalités cassées, problèmes d'affichage, erreurs d'API et échecs d'intégration liés au périmètre du développement initial. Heures suivies et rapportées chaque mois. Les bugs causés par des changements d'API tierces ou des problèmes d'hébergeur sont couverts. Les bugs causés par des modifications de code non autorisées (par vous ou un autre développeur) sont facturables."
+            },
+            {
+              "i": "Gestion de la base de données",
+              "l": "Contrôle mensuel de la santé de la base de données : performance des requêtes, optimisation des index, utilisation du stockage et surveillance du pool de connexions. Vérification des sauvegardes et test de restauration (trimestriel). Recommandations de nettoyage des données si le stockage dépasse les limites prévues. N'inclut PAS les changements majeurs de schéma ni les migrations de données (chiffrés séparément)."
+            },
+            {
+              "i": "Rapport de santé mensuel",
+              "l": "Rapport envoyé par e-mail avant le 5 de chaque mois couvrant : taux de disponibilité, performance du serveur, correctifs de sécurité appliqués, bugs corrigés, état des sauvegardes et recommandations d'amélioration. Livré en PDF ou via un lien vers un tableau de bord."
+            },
+            {
+              "i": "Canal de support",
+              "l": "Support par e-mail avec délai de réponse de 24 heures (jours ouvrés). Jusqu'à 8 demandes de support par mois. Chaque demande = 1 problème ou question précis. Au-delà de 8 demandes, facturation à $200/h."
+            }
+          ],
+          "ov": [
+            "Corrections de bugs au-delà de 5 h : $200/h",
+            "Intervention urgente hors horaires : +50 %",
+            "Migration de base de données : chiffrée séparément",
+            "Ajouts de fonctionnalités : utilisez la Banque d'Heures ou la tarification projet",
+            "Audit de performance : $2,000 une fois"
+          ],
+          "ex": "Pas de développement de fonctionnalités, pas de design, pas de mises à jour de contenu, pas de gestion publicitaire. Maintenance de l'infrastructure et du code uniquement. Pour du développement actif, voir le niveau Développement Actif ou la Banque d'Heures.",
+          "ideal": "Applications stables qui doivent rester sécurisées, surveillées et à jour"
+        },
+        {
+          "name": "Développement Actif",
+          "price": 7500,
+          "disp": "$7,500",
+          "per": "/mois",
+          "tag": "Amélioration continue",
+          "pop": true,
+          "com": "Engagement 6 mois minimum",
+          "scope": [
+            {
+              "i": "Tout Support Dev",
+              "l": "Toute la surveillance, la sécurité, les corrections de bugs (5 h), la gestion de la base de données et le reporting mensuel du niveau Support Dev, inclus comme socle."
+            },
+            {
+              "i": "Développement de fonctionnalités (35 h/mois)",
+              "l": "35 heures de développement dédiées chaque mois pour créer de nouvelles fonctionnalités, améliorer les existantes ou étendre votre plateforme. Les heures couvrent : nouvelles fonctionnalités, améliorations UI/UX, nouvelles intégrations, optimisation des performances et améliorations d'architecture. Les heures non utilisées sont reportables sur le mois suivant uniquement (cumul max : 52 heures)."
+            },
+            {
+              "i": "Collaboration sur la feuille de route produit",
+              "l": "Revue mensuelle de la feuille de route livrée par vidéo Loom couvrant les fonctionnalités à venir, les priorités et les recommandations. Nous maintenons un tableau de tâches partagé (Linear ou GitHub Issues) avec éléments priorisés, suivi d'état et estimations de temps. Vous fixez les priorités via le tableau ou par message. Nous conseillons sur la faisabilité technique, l'effort et l'ordonnancement. 1 appel en direct optionnel par mois sur demande (60 min max)."
+            },
+            {
+              "i": "Design inclus",
+              "l": "3 heures de design par mois incluses (mises à jour UI, nouvelles mises en page d'écrans, conception de composants). Couvre : wireframes, maquettes et petites mises à jour du design system. Les refontes complètes de pages ou de fonctionnalités nécessitant 5+ heures de design sont chiffrées séparément."
+            },
+            {
+              "i": "Vidéos de démonstration bimensuelles",
+              "l": "Toutes les 2 semaines, nous enregistrons une démo Loom du travail réalisé et des fonctionnalités en cours. Vous la visionnez à votre rythme et donnez vos retours par message, e-mail ou via le tableau de tâches. Fait avancer le projet et évite les malentendus. Aucun appel en direct nécessaire."
+            },
+            {
+              "i": "Support prioritaire",
+              "l": "Support par message et e-mail avec délai de réponse de 4 heures (jours ouvrés). Bugs critiques : prise en charge le jour même pendant les heures ouvrées. Jusqu'à 15 demandes de support par mois. Toute la communication par message et e-mail. Aucun appel planifié requis."
+            },
+            {
+              "i": "Revue de performance trimestrielle",
+              "l": "Tous les 3 mois : audit complet de la plateforme couvrant la performance (temps de chargement des pages, temps de réponse de l'API), la posture de sécurité, les coûts d'infrastructure et l'évaluation de la dette technique. Recommandations d'optimisation livrées sous forme de rapport écrit."
+            }
+          ],
+          "ov": [
+            "Développement au-delà de 35 h : $225/h",
+            "Urgence hors horaires : +50 %",
+            "Déploiement le week-end : +75 %",
+            "Développement complet de fonctionnalité dépassant 40 h : cadré comme projet séparé à tarif réduit",
+            "Design au-delà de 3 h : $200/h"
+          ],
+          "ex": "Pas d'astreinte 24h/24. Pas de développeur dédié à temps plein (équipe partagée avec accès prioritaire). Pas de développement d'application mobile à ce niveau (cadré séparément). Pas de services marketing, publicitaires ou de contenu. Voir nos formules marketing pour cela.",
+          "ideal": "Plateformes en croissance qui livrent de nouvelles fonctionnalités chaque mois"
+        }
+      ],
+      "appBuild": [
+        {
+          "name": "Launchpad",
+          "price": 9500,
+          "disp": "$9,500",
+          "tag": "Validez votre idée",
+          "tl": "4-6 semaines",
+          "scope": [
+            {
+              "i": "iOS ou Android (au choix), React Native",
+              "l": "Application mobile mono-plateforme développée en React Native. Vous choisissez iOS ou Android au lancement ; l'autre plateforme peut être ajoutée plus tard en extension."
+            },
+            {
+              "i": "Jusqu'à 4 écrans conçus dans Figma",
+              "l": "Design Figma complet pour jusqu'à 4 écrans uniques (accueil, détail, profil et 1 sur mesure). 2 cycles de révisions du design. Mises en page tablette/iPad non incluses à ce niveau."
+            },
+            {
+              "i": "Jusqu'à 3 intégrations d'API",
+              "l": "Fournisseur d'authentification (Apple/Google/e-mail), 1 API tierce de votre choix (cartes, météo, agenda, etc.) et 1 intégration analytique (Mixpanel ou PostHog)."
+            },
+            {
+              "i": "Authentification de base",
+              "l": "Connexion par e-mail + Apple/Google. Écran de profil avec nom, avatar et déconnexion. Pas de multi-tenant, pas de comptes d'équipe, pas de SSO."
+            },
+            {
+              "i": "Soumission à l'App Store ou au Play Store",
+              "l": "Une soumission en store gérée de bout en bout : captures d'écran conçues, description rédigée, métadonnées optimisées, soumission sous votre compte développeur."
+            },
+            {
+              "i": "Garantie de 30 jours après le lancement",
+              "l": "Les bugs signalés dans les 30 premiers jours suivant l'approbation en store sont corrigés sans frais. Les demandes de fonctionnalités sont cadrées séparément."
+            },
+            {
+              "i": "Passation code source + documentation",
+              "l": "Dépôt GitHub complet avec README, .env.example, instructions de déploiement et une présentation vidéo enregistrée de 30 min."
+            }
+          ],
+          "ov": [
+            "Écran supplémentaire : $650",
+            "Seconde plateforme (ajouter iOS ou Android) : +$4,500",
+            "Intégration d'API supplémentaire : $450",
+            "Mises en page tablette/iPad : +$1,800"
+          ],
+          "ex": "Pas de backend sur mesure (utilise vos API existantes ou un backend no-code comme Supabase). Pas d'achats intégrés. Pas de notifications push. Pas de mode hors ligne.",
+          "bridge": "Après la garantie de 30 jours, la maintenance continue passe sur notre forfait Toujours en Ligne ($1,950/mois) pour rester à jour avec les mises à jour iOS/Android et les resoumissions en store.",
+          "ideal": "Fondateurs qui valident une idée avec un MVP ciblé sur une seule plateforme"
+        },
+        {
+          "name": "Studio",
+          "price": 24500,
+          "disp": "$24,500",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "tl": "8-12 semaines",
+          "scope": [
+            {
+              "i": "iOS + Android multiplateforme",
+              "l": "Un seul code React Native (ou Flutter sur demande) pour iOS et Android. Finitions propres à chaque plateforme là où ça compte : retours haptiques iOS, composants Material Android."
+            },
+            {
+              "i": "Jusqu'à 10 écrans entièrement conçus",
+              "l": "Design Figma complet avec 10 écrans uniques, dont un prototype interactif complet. 3 cycles de révisions par lot d'écrans."
+            },
+            {
+              "i": "Jusqu'à 6 intégrations d'API",
+              "l": "Authentification, paiements (Stripe ou RevenueCat), notifications push (OneSignal ou Firebase), analytique (Mixpanel/Amplitude) et 2 intégrations tierces sur mesure de votre choix."
+            },
+            {
+              "i": "Comptes utilisateurs + notifications push",
+              "l": "Parcours complet d'inscription/connexion, écran de profil modifiable, réinitialisation du mot de passe et notifications push câblées (demande de permission + notifications transactionnelles)."
+            },
+            {
+              "i": "Crashlytics + analytique intégrés",
+              "l": "Crashlytics (Firebase ou Sentry) sur les deux plateformes avec tableau de bord de rapports de plantage. Pipeline analytique avec 8 événements utilisateurs clés suivis."
+            },
+            {
+              "i": "Soumission à l'App Store + au Play Store",
+              "l": "Les deux stores gérés de bout en bout : captures d'écran conçues, descriptions rédigées, recherche de mots-clés et étiquettes de confidentialité pour les deux."
+            },
+            {
+              "i": "Garantie de 60 jours après le lancement",
+              "l": "Les bugs signalés dans les 60 jours suivant l'approbation en store sont corrigés gratuitement. Comprend la prise en charge de la première mise à jour d'OS après le lancement si Apple/Google introduit un changement incompatible."
+            },
+            {
+              "i": "1 heure/semaine de support Slack pendant 30 jours",
+              "l": "Canal Slack partagé pendant 30 jours après le lancement. Jusqu'à 1 heure/semaine de questions-réponses asynchrones, petits ajustements ou questions de passation."
+            }
+          ],
+          "ov": [
+            "Écran supplémentaire : $850",
+            "Module natif sur mesure : $175/h",
+            "Intégration supplémentaire : $650",
+            "Garantie étendue (+30 jours) : $1,200"
+          ],
+          "ho": "Passation complète du code après le lancement : dépôt GitHub, configuration CI EAS/Fastlane, documentation de déploiement, modèle d'environnement et une présentation vidéo enregistrée de 60 min. Votre équipe prend le relais ou nous continuons au forfait.",
+          "bridge": "Comprend 60 jours après le lancement. L'itération active se poursuit ensuite avec notre forfait Momentum ($4,800/mois) : 20 heures d'ingénierie, travail sur les fonctionnalités et tests A/B chaque mois.",
+          "ideal": "Équipes qui lancent un produit multiplateforme abouti auprès de vrais utilisateurs"
+        },
+        {
+          "name": "Flagship",
+          "price": 62000,
+          "disp": "$62,000",
+          "tag": "Produit complet",
+          "tl": "14-18 semaines",
+          "scope": [
+            {
+              "i": "iOS + Android + backend Node/Postgres sur mesure",
+              "l": "Produit full-stack : application React Native sur les deux plateformes plus un backend Node.js sur mesure avec Postgres, hébergé sur votre infrastructure (AWS, Railway ou Vercel)."
+            },
+            {
+              "i": "Jusqu'à 20 écrans avec design system complet",
+              "l": "Design system Figma avec composants réutilisables. Jusqu'à 20 écrans uniques entièrement conçus. Révisions illimitées dans le périmètre convenu."
+            },
+            {
+              "i": "Jusqu'à 12 intégrations d'API / tierces",
+              "l": "Stripe, Twilio, Segment, webhooks, etc. 12 intégrations tierces de votre choix câblées avec nouvelles tentatives et gestion des erreurs."
+            },
+            {
+              "i": "Tableau de bord admin (web)",
+              "l": "Application web d'administration pour gérer le contenu et les utilisateurs. Accès par rôles, journal d'audit et flux CRUD standards pour vos modèles de données."
+            },
+            {
+              "i": "Fonctionnalité temps réel",
+              "l": "1 fonctionnalité temps réel de votre choix : chat in-app, mises à jour en direct ou push déclenché par webhook. Construite sur WebSockets ou Pusher/Ably."
+            },
+            {
+              "i": "Paiements + authentification par rôles",
+              "l": "Stripe ou RevenueCat pour les abonnements in-app. Authentification par rôles (utilisateur / admin / rôles sur mesure) avec JWT + jetons de rafraîchissement."
+            },
+            {
+              "i": "Pipeline CI/CD + staging",
+              "l": "CI/CD EAS ou Fastlane pour les deux plateformes. Environnement de staging séparé pour la QA. Déploiement automatique sur TestFlight/interne à chaque merge."
+            },
+            {
+              "i": "Soumission App Store + Play Store + kit ASO",
+              "l": "Les deux stores gérés plus un kit de démarrage App Store Optimization : recherche de mots-clés, analyse concurrentielle et 3 expériences de variantes prêtes à lancer."
+            },
+            {
+              "i": "Garantie de 90 jours après le lancement",
+              "l": "Les bugs signalés dans les 90 jours suivant l'approbation en store sont corrigés gratuitement. Comprend 2 ateliers de découverte pour cadrer la phase suivante."
+            }
+          ],
+          "ov": [
+            "Écran supplémentaire : $1,100",
+            "Module natif sur mesure : $185/h",
+            "Fonctionnalité temps réel supplémentaire : $6,500",
+            "Atelier de découverte supplémentaire : $1,800"
+          ],
+          "ho": "Passation complète : monorepo GitHub, configuration CI/CD, infrastructure as code (Terraform ou Pulumi sur demande), runbook des déploiements et retours arrière, et une présentation vidéo de 90 min avec les équipes mobile et backend.",
+          "bridge": "Comprend 90 jours après le lancement. Le partenariat intégré se poursuit ensuite avec notre forfait Partner ($10,500/mois) avec un ingénieur dédié et un designer à temps partagé.",
+          "ideal": "Startups financées et marques qui lancent un produit complet avec un backend sur mesure"
+        }
+      ],
+      "appSupport": [
+        {
+          "name": "Toujours en Ligne",
+          "price": 1950,
+          "disp": "$1,950",
+          "per": "/mois",
+          "tag": "Saine et conforme",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Jusqu'à 6 heures d'ingénierie par mois",
+              "l": "Budget pour le tri des bugs, les petits correctifs et les corrections réactives. Les heures ne sont pas reportables. Les correctifs urgents sont imputés en priorité sur cette banque."
+            },
+            {
+              "i": "Corrections de bugs avec SLA de tri de 24 h",
+              "l": "Bugs critiques (plantages, connexion cassée, paiements en échec) accusés de réception sous 24 heures ouvrées et corrigés sous 48 à 72 heures selon le périmètre."
+            },
+            {
+              "i": "Mises à jour des versions iOS + Android (annuelles)",
+              "l": "Cycle annuel de tests et de mise à jour pour chaque nouvelle version majeure d'iOS et d'Android. Dépréciations obligatoires et changements de permissions pris en charge."
+            },
+            {
+              "i": "Resoumissions trimestrielles en store",
+              "l": "Tous les 3 mois : revue de la fraîcheur des métadonnées en store, mise à jour des captures d'écran si nécessaire et resoumission pour profiter du coup de pouce des algorithmes Apple/Google."
+            },
+            {
+              "i": "Surveillance Crashlytics + rapport mensuel",
+              "l": "Tableau de bord Crashlytics consulté chaque mois. Rapport de santé d'1 page livré avec le taux de sessions sans plantage, les principaux problèmes et l'adoption des versions."
+            },
+            {
+              "i": "Correctifs de dépendances et de sécurité",
+              "l": "Passage en revue mensuel des dépendances npm/gem. Correctifs de sécurité de niveau CVE appliqués immédiatement. Mises à niveau non critiques regroupées chaque trimestre."
+            },
+            {
+              "i": "Support par e-mail, réponse sous 5 jours",
+              "l": "Demandes non critiques par e-mail. Délai de traitement de 5 jours ouvrés. Pas de Slack, pas de chat en temps réel, pas de téléphone à ce niveau."
+            }
+          ],
+          "ov": [
+            "Heure supplémentaire : $165/h",
+            "Hotfix urgent (week-end/jour férié) : $450 forfaitaires + heures",
+            "Travail dédié sur des fonctionnalités : cadré séparément"
+          ],
+          "ex": "Pas de développement de fonctionnalités. Pas de nouvelles intégrations. Pas de design. Pas de services marketing ni ASO.",
+          "ideal": "Applications publiées qui doivent rester saines, conformes et présentes dans les stores"
+        },
+        {
+          "name": "Momentum",
+          "price": 4800,
+          "disp": "$4,800",
+          "per": "/mois",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Jusqu'à 20 heures d'ingénierie par mois",
+              "l": "20 heures pour une itération active : fonctionnalités, optimisations, tests A/B, travail analytique. Tout Toujours en Ligne est inclus dans ce budget."
+            },
+            {
+              "i": "Tout Toujours en Ligne",
+              "l": "Corrections de bugs, mises à jour d'OS, resoumissions en store, surveillance Crashlytics, correctifs de dépendances. Mêmes limites, imputées sur la banque de 20 h."
+            },
+            {
+              "i": "1-2 petites fonctionnalités ou 1 moyenne par mois",
+              "l": "Livrées chaque mois. Petite = moins de 8 heures (nouvel écran, nouvel événement suivi, ajustements de textes). Moyenne = jusqu'à 20 heures (nouveau parcours, nouvelle intégration)."
+            },
+            {
+              "i": "Tableaux de bord analytiques + insights mensuels",
+              "l": "Nous construisons et entretenons vos tableaux de bord d'analytique produit (Mixpanel ou Amplitude). Rapport d'insights mensuel de 3 pages sur le comportement des utilisateurs, la rétention et les tendances de conversion."
+            },
+            {
+              "i": "Mise en place de tests A/B + reporting",
+              "l": "Jusqu'à 2 tests A/B actifs par mois. Nous gérons la mise en place, l'implémentation des variantes, l'analyse des résultats et le document de recommandations."
+            },
+            {
+              "i": "Support design (jusqu'à 4 h/mois)",
+              "l": "4 heures de design par mois pour de nouveaux écrans ou des mises à jour de parcours. Les heures de design sont distinctes des 20 heures d'ingénierie. Elles ne sont pas comptées deux fois."
+            },
+            {
+              "i": "Point d'avancement bimensuel",
+              "l": "Visioconférence bimensuelle de 30 min pour passer en revue l'avancement, aligner les priorités et lever les blocages. Enregistrée et partagée dans votre canal Slack."
+            }
+          ],
+          "ov": [
+            "Heure supplémentaire : $155/h",
+            "Test A/B supplémentaire : $800 de mise en place",
+            "Fonctionnalité express (délai inférieur à 1 semaine) : heures x1.5",
+            "Heure de design supplémentaire : $145"
+          ],
+          "ex": "Pas d'ingénieur dédié (équipe partagée avec accès prioritaire). Pas de changements d'architecture backend. Pas de services marketing.",
+          "ideal": "Applications en production qui itèrent activement à partir des données d'usage"
+        },
+        {
+          "name": "Partner",
+          "price": 10500,
+          "disp": "$10,500",
+          "per": "/mois",
+          "tag": "Équipe produit intégrée",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Ingénieur dédié (~80 h/mois) + designer (~15 h)",
+              "l": "Ingénieur senior attitré à ~20 h/semaine + designer à temps partagé à ~4 h/semaine. Les mêmes personnes chaque mois. Ils connaissent votre code."
+            },
+            {
+              "i": "Tout Momentum",
+              "l": "Tout le travail Momentum se poursuit (bugs, fonctionnalités, tests A/B, analytique) dans le budget élargi. Pas de facturation séparée."
+            },
+            {
+              "i": "Livraison continue de la feuille de route",
+              "l": "Sessions de planification trimestrielles avec les fondateurs pour fixer la feuille de route. Nous livrons en conséquence et rendons compte chaque semaine de l'avancement. Les priorités peuvent évoluer au sein du trimestre."
+            },
+            {
+              "i": "Modules natifs sur mesure + travail propre à chaque plateforme",
+              "l": "Quand le multiplateforme ne suffit pas (par ex. application compagnon Apple Watch, widgets Android, intégrations iOS poussées), les modules natifs sont inclus."
+            },
+            {
+              "i": "Maintenance backend et infrastructure",
+              "l": "Votre backend et votre infrastructure inclus : correctifs, montée en charge, alertes de surveillance, optimisation des coûts. Non plafonné par la banque de 80 heures d'ingénierie."
+            },
+            {
+              "i": "Point hebdomadaire + tableau Linear/Jira partagé",
+              "l": "Visioconférence hebdomadaire de 30 min + espace Linear (ou Jira) partagé avec visibilité complète sur les tickets. Votre équipe peut créer des tickets directement."
+            },
+            {
+              "i": "SLA de réponse le jour même, Slack prioritaire",
+              "l": "Canal Slack avec réponse sous 2 heures pendant les heures ouvrées. Accusé de réception le jour ouvré même pour tout ce qui n'est pas urgent."
+            },
+            {
+              "i": "Session stratégique trimestrielle",
+              "l": "Tous les 3 mois : session de 90 min couvrant l'ASO, la croissance, la revue d'architecture et la dette technique. Livrée sous forme de mémo écrit."
+            }
+          ],
+          "ov": [
+            "Heure supplémentaire au-delà de 95/mois : $145/h",
+            "Ingénieur dédié supplémentaire : +$8,500/mois",
+            "Designer dédié supplémentaire : +$3,500/mois"
+          ],
+          "ex": "Marketing, publicités payantes et services de contenu non inclus. Voir nos formules marketing pour cela.",
+          "ideal": "Équipes qui considèrent Blok Blok comme leur équipe produit intégrée"
+        }
+      ],
+      "webSupport": [
+        {
+          "name": "Entretien du Site",
+          "price": 550,
+          "disp": "$550",
+          "per": "/mois",
+          "tag": "Entretien fiable",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Surveillance de disponibilité à 99.9 %",
+              "l": "StatusCake ou BetterStack surveille votre site 24h/24. Alertes immédiates de notre côté. Vous n'apprenez pas par un client que le site est tombé."
+            },
+            {
+              "i": "Sauvegardes externes hebdomadaires",
+              "l": "Site complet + base de données sauvegardés chaque semaine sur un stockage externe (pas seulement chez l'hébergeur). Conservation de 30 jours."
+            },
+            {
+              "i": "Correctifs de sécurité + mises à jour des dépendances",
+              "l": "Correctifs mensuels du cœur et des plugins WordPress (si WP) ou des dépendances npm (si Next.js). Mises à jour de sécurité critiques appliquées sous 24 heures."
+            },
+            {
+              "i": "Jusqu'à 4 petites modifications de contenu/mois",
+              "l": "Mises à jour de texte, remplacement d'images, correction de liens, changements de tarifs, nouveaux témoignages. Chaque modification = moins de 15 minutes de travail."
+            },
+            {
+              "i": "Contrôles SSL + domaine",
+              "l": "Renouvellement automatique du certificat SSL surveillé. Alertes d'expiration du domaine 60 jours à l'avance. Santé du DNS vérifiée chaque trimestre."
+            },
+            {
+              "i": "Rapport mensuel disponibilité + vitesse",
+              "l": "Rapport mensuel d'1 page : taux de disponibilité, temps de chargement moyens, événements de sécurité et actions menées. Livré le 1er du mois."
+            }
+          ],
+          "ov": [
+            "Modification de contenu supplémentaire : $45 chacune",
+            "Demande urgente (même jour) : +$125",
+            "Travail de mise à jour à l'heure : $165/h"
+          ],
+          "ex": "Pas de nouvelles pages, pas de refontes, pas de tests A/B, pas de SEO, pas de publicités. Aucune activité marketing. Voir nos formules marketing pour cela.",
+          "ideal": "Sites en ligne qui ont besoin d'un entretien fiable et de tranquillité d'esprit"
+        },
+        {
+          "name": "Croissance du Site",
+          "price": 1600,
+          "disp": "$1,600",
+          "per": "/mois",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Tout Entretien du Site",
+              "l": "Disponibilité, sauvegardes, sécurité et petites modifications incluses. Mêmes limites, intégrées à ce forfait."
+            },
+            {
+              "i": "1 nouvelle page ou section refondue/mois",
+              "l": "Chaque mois, nous livrons une nouvelle page (jusqu'à 1,000 mots + design standard) OU une section entièrement refondue d'une page existante. À vous de choisir."
+            },
+            {
+              "i": "2 tests A/B par mois",
+              "l": "Textes d'accroche, variantes de CTA, tests de mise en page ou expériences sur la page tarifs. Mise en place, exécution, analyse et recommandation du gagnant, le tout dans le mois."
+            },
+            {
+              "i": "Optimisation des Core Web Vitals (trimestrielle)",
+              "l": "Tous les 3 mois : audit complet par rapport aux références CWV de Google. Compression des images, découpage du code et CSS critique optimisés."
+            },
+            {
+              "i": "Rapport trimestriel GA4 + Search Console",
+              "l": "Tous les 3 mois : rapport d'insights de 3 pages couvrant le trafic organique, les pages principales, les taux de rebond et les tendances des requêtes de recherche. Recommandations incluses."
+            },
+            {
+              "i": "8 mises à jour de contenu par mois",
+              "l": "Au-delà des 4 modifications de base d'Entretien du Site : jusqu'à 8 mises à jour de contenu au total chaque mois. Regroupées chaque semaine le lundi."
+            },
+            {
+              "i": "E-mail + Slack prioritaires, réponse sous 24 h",
+              "l": "Accès à un canal Slack pour les questions rapides. Réponse sous 24 heures à toutes les demandes. Pas de temps réel pour les urgences, sauf au niveau Partenariat Web."
+            }
+          ],
+          "ov": [
+            "Test A/B supplémentaire : $450",
+            "Nouvelle page supplémentaire : $850",
+            "Travail vidéo/animation : cadré séparément"
+          ],
+          "ex": "Pas de refontes complètes (cadrées comme projet). Pas de publicités payantes. Pas de rédaction de contenu au-delà des petites modifications.",
+          "ideal": "Équipes qui veulent que le site continue de s'améliorer chaque mois"
+        },
+        {
+          "name": "Partenariat Web",
+          "price": 3800,
+          "disp": "$3,800",
+          "per": "/mois",
+          "tag": "Équipe web intégrée",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Tout Croissance du Site",
+              "l": "Nouvelles pages mensuelles, tests A/B, travail sur les Web Vitals, rapports trimestriels, plus des limites élargies dans ce forfait."
+            },
+            {
+              "i": "Déploiements hebdomadaires",
+              "l": "Nouvelles fonctionnalités, tests ou optimisations livrés chaque semaine. Le lundi on planifie, le jeudi on met en ligne."
+            },
+            {
+              "i": "Développeur dédié (~25 h/mois) + designer (~8 h/mois)",
+              "l": "Développeur et designer attitrés. Les mêmes personnes chaque mois. Ils connaissent votre stack et votre marque. Les heures sont un budget ; ce que vous n'utilisez pas n'est pas reporté."
+            },
+            {
+              "i": "Audit SEO mensuel + corrections",
+              "l": "Audit SEO complet chaque mois : technique (schema, sitemaps, indexation), on-page (mots-clés, métas, maillage interne) et recommandations off-page. Les 3 principales corrections réalisées le mois même."
+            },
+            {
+              "i": "Mise en ligne de contenu dans le CMS (jusqu'à 10/mois)",
+              "l": "Jusqu'à 10 articles de blog ou pages de contenu mis en ligne par mois à partir de vos textes. Images formatées, balises méta rédigées, liens internes suggérés. Vous écrivez, nous publions."
+            },
+            {
+              "i": "Feuille de route d'optimisation de la conversion",
+              "l": "Priorités CRO mensuelles basées sur l'analytique + les résultats des tests A/B. 3 expériences suggérées chaque mois ; les 2 principales mises en ligne."
+            },
+            {
+              "i": "Slack le jour même, SLA de réponse 2 h",
+              "l": "Canal Slack avec réponse sous 2 heures pendant les heures ouvrées. Accusé de réception le jour même pour tout ce qui n'est pas urgent."
+            }
+          ],
+          "ov": [
+            "Heure supplémentaire au-delà de 33/mois : $155/h",
+            "Mise en ligne de page de contenu supplémentaire : $45 chacune au-delà de 10",
+            "Déploiement express (même jour) : +25 %"
+          ],
+          "ex": "Pas de gestion de publicités payantes (voir formules marketing). Pas de refonte de marque (voir formules branding). Pas de travail sur application mobile.",
+          "ideal": "Entreprises en croissance qui considèrent Blok Blok comme leur équipe web"
+        }
+      ],
+      "marketingBuild": [
+        {
+          "name": "Audit Marketing et Feuille de Route",
+          "price": 3500,
+          "disp": "$3,500",
+          "tag": "Diagnostic + plan à 90 jours",
+          "tl": "2-3 semaines",
+          "scope": [
+            {
+              "i": "Audit full-funnel",
+              "l": "Revue d'1 site + jusqu'à 3 canaux actifs (publicités, SEO, e-mail, réseaux sociaux). Chaque étape de votre tunnel cartographiée avec les goulets d'étranglement identifiés."
+            },
+            {
+              "i": "Revue analytique + attribution",
+              "l": "Audit de GA4, du Meta Pixel, de l'hygiène des UTM et du suivi des conversions. Liste de 10 corrections avec chaque problème priorisé par impact/effort."
+            },
+            {
+              "i": "Décryptage concurrentiel (3 concurrents directs)",
+              "l": "Analyse approfondie de 3 concurrents directs : positionnement, offres, créations publicitaires, landing pages, empreinte SEO. Analyse comparative de 6 pages livrée en document Notion."
+            },
+            {
+              "i": "Atelier ICP + messages",
+              "l": "2 sessions en direct de 60 min. Résultats : proposition de valeur affinée, 3 piliers de message clés, 1 document de persona client idéal."
+            },
+            {
+              "i": "Feuille de route priorisée à 90 jours",
+              "l": "20 à 30 actions notées selon RICE (portée, impact, confiance, effort). Livrée sous forme de backlog Notion que votre équipe peut exécuter ou que nous pouvons piloter."
+            },
+            {
+              "i": "Modèle d'allocation budgétaire",
+              "l": "Budget du trimestre suivant réparti entre payant, organique et cycle de vie, avec des fourchettes de ROI attendues basées sur les conclusions de l'audit."
+            },
+            {
+              "i": "1 présentation stratégique (enregistrée)",
+              "l": "Présentation en direct de 60 min passant en revue les conclusions et la feuille de route. Enregistrée et partagée avec votre équipe. Document Notion livré le jour même."
+            },
+            {
+              "i": "Appel de suivi de 30 min",
+              "l": "30 jours après la livraison : appel de suivi pour passer en revue ce qui a été exécuté et lever les blocages."
+            }
+          ],
+          "ov": [
+            "Canal supplémentaire audité : $450",
+            "Concurrent supplémentaire dans le décryptage : $250 chacun",
+            "Session d'atelier prolongée (90 min) : $400"
+          ],
+          "ex": "Pas d'exécution de la feuille de route (c'est l'étape suivante). Pas de gestion publicitaire. Pas de création de contenu. Pas de production créative.",
+          "bridge": "L'audit se marie naturellement avec notre forfait Maintenance et Suivi ($1,500/mois) pour exécuter la feuille de route sans repartir de zéro. 10 % de remise le premier mois si signature sous 14 jours.",
+          "ideal": "Fondateurs qui soupçonnent leur marketing de perdre de l'argent sans savoir où"
+        },
+        {
+          "name": "Rampe de Lancement Campagne",
+          "price": 8500,
+          "disp": "$8,500",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "tl": "4-5 semaines de construction + 30 jours de suivi",
+          "scope": [
+            {
+              "i": "1 plateforme publicitaire principale entièrement montée",
+              "l": "Google, Meta ou TikTok monté de bout en bout : structure du compte, pixels, API de conversions, audiences personnalisées, listes de retargeting. Une base saine pour passer à l'échelle."
+            },
+            {
+              "i": "6 créations publicitaires au total",
+              "l": "2 visuels statiques + 2 vidéos courtes + 2 accroches alternatives. Tournés et montés par notre équipe à partir de vos éléments de marque + 1 vidéo de démo produit que nous filmons à distance si nécessaire."
+            },
+            {
+              "i": "1 landing page dédiée + variante A/B",
+              "l": "Landing page complète sur mesure (Webflow, Framer ou Shopify) avec textes et design. 1 variante A/B de l'accroche pour tester la conversion."
+            },
+            {
+              "i": "Automatisation de capture de leads (séquence de 5 e-mails)",
+              "l": "Séquence de bienvenue ou de nurturing de 5 e-mails construite dans Klaviyo, Kit ou HubSpot. Logique de déclenchement, balises de personnalisation et suivi de performance inclus."
+            },
+            {
+              "i": "Mise en place du suivi + tableau de bord",
+              "l": "Tableau de bord GA4 + Looker Studio avec actualisation quotidienne. 1 rapport client hebdomadaire livré le lundi par e-mail."
+            },
+            {
+              "i": "Lancement progressif de 14 jours + 30 jours de suivi",
+              "l": "Lancement progressif de 2 semaines avec optimisation quotidienne et itération créative. Puis 30 jours de suivi actif de la campagne avec ajustements hebdomadaires."
+            },
+            {
+              "i": "Jusqu'à $15k de budget publicitaire géré",
+              "l": "Budget publicitaire jusqu'à $15k couvert dans les honoraires (le budget lui-même est facturé séparément par la plateforme). Chaque tranche supplémentaire de $5k de budget : +$500 d'honoraires."
+            },
+            {
+              "i": "Revue de performance + document de passation",
+              "l": "En fin de mission : appel de revue de performance de 60 min + document de passation de 10 pages avec recommandations de montée en charge et enseignements créatifs."
+            }
+          ],
+          "ov": [
+            "Création publicitaire supplémentaire (statique) : $250",
+            "Création publicitaire supplémentaire (vidéo) : $600",
+            "Variante de landing page supplémentaire : $1,500",
+            "Plateforme publicitaire supplémentaire : $2,500"
+          ],
+          "ex": "Pas de contenu social organique. Pas de contenu SEO long format. Pas de gestion d'influenceurs. Pas de relations presse.",
+          "bridge": "La campagne se poursuit avec notre forfait Moteur de Croissance ($3,500/mois) pour amplifier les gagnants, ouvrir un 2e canal et itérer les créations. 10 % de remise le premier mois si signature sous 14 jours.",
+          "ideal": "Équipes avec une offre éprouvée, prêtes à générer un vrai volume d'acquisition"
+        },
+        {
+          "name": "Lancement Produit Complet",
+          "price": 20000,
+          "disp": "$20,000",
+          "tag": "Lancement coordonné",
+          "tl": "6 semaines de préparation + opérations de la semaine de lancement",
+          "scope": [
+            {
+              "i": "Stratégie de lancement + Gantt sur 6 semaines",
+              "l": "Plan de lancement complet couvrant relations presse, payant, organique, e-mail, influenceurs et opérations du jour J. Chemin critique et dépendances cartographiés. Livré sous forme de calendrier partagé."
+            },
+            {
+              "i": "Positionnement + récit de lancement",
+              "l": "Message principal, 3 angles de soutien, texte de présentation presse, FAQ et document de traitement des objections. Testés auprès de votre ICP avant toute utilisation publique."
+            },
+            {
+              "i": "12 créations publicitaires sur 2 plateformes",
+              "l": "Meta + Google OU Meta + TikTok. Mélange de statique, carrousel et vidéo courte. 4 sont des vidéos de type UGC tournées par nos créateurs."
+            },
+            {
+              "i": "2 landing pages",
+              "l": "Page de liste d'attente pré-lancement (capture d'e-mail + compte à rebours) + page de conversion du jour J (offre complète). Les deux avec variantes A/B. Construites sur Webflow/Framer."
+            },
+            {
+              "i": "Relations presse (25 médias)",
+              "l": "25 médias/newsletters ciblés approchés avec un angle personnalisé. 1 communiqué de presse sous embargo rédigé et diffusé 1 semaine avant le lancement."
+            },
+            {
+              "i": "3 partenariats influenceurs (gérés de bout en bout)",
+              "l": "Sourcing, brief, contrats, validation des contenus et paiement. Les cachets des créateurs sont refacturés (non inclus dans les honoraires)."
+            },
+            {
+              "i": "Séquence e-mail de lancement",
+              "l": "Nurturing de la liste d'attente (3 e-mails pré-lancement) + campagne de 6 e-mails la semaine du lancement. Conçue pour les 50k premiers envois. Compatible avec toute plateforme (Klaviyo, Kit, Mailchimp ou HubSpot)."
+            },
+            {
+              "i": "Préparation du lancement Product Hunt / communauté + war room",
+              "l": "Stratégie de lancement communautaire, fil de teasing pré-lancement rédigé, page PH optimisée et war room opérationnelle en direct de 8 heures le jour du lancement."
+            },
+            {
+              "i": "Rapport d'analyse post-lancement",
+              "l": "14 jours après le lancement : analyse par cohorte, canal, création et tunnel. Rapport de 20 pages sur ce qui a marché, ce qui n'a pas marché et sur quoi miser."
+            },
+            {
+              "i": "Jusqu'à $30k de budget de lancement géré",
+              "l": "Jusqu'à $30k de budget publicitaire géré dans les honoraires. Chaque tranche supplémentaire de $5k de budget : +$500 d'honoraires. Budget facturé séparément par la plateforme."
+            }
+          ],
+          "ov": [
+            "Partenariat influenceur supplémentaire : $1,200 + cachets des créateurs",
+            "Média presse supplémentaire (26+) : $75 chacun",
+            "Création vidéo supplémentaire : $600",
+            "Calendrier express (moins de 3 semaines) : +25 %",
+            "Module SEO programmatique : $6,000"
+          ],
+          "ex": "Pas de calendrier éditorial continu après le lancement. Pas de gestion de communauté à long terme. Pas de photographie produit (peut être ajoutée).",
+          "bridge": "Le lancement se poursuit avec notre forfait Partenariat Complet ($7,500/mois) pour une croissance durable, l'optimisation du cycle de vie et le prochain cycle de lancement. 10 % de remise le premier mois si signature sous 14 jours.",
+          "ideal": "Marques qui lancent un produit, une gamme de services ou une nouvelle identité et ont besoin d'une impulsion coordonnée"
+        }
+      ],
+      "brandingBuild": [
+        {
+          "name": "Brand Lite",
+          "price": 4000,
+          "disp": "$4,000",
+          "tag": "Logo + palette + typographie",
+          "tl": "2-3 semaines",
+          "scope": [
+            {
+              "i": "Recueil des besoins (asynchrone)",
+              "l": "1 questionnaire de marque (20 questions couvrant audience, ton, références, 3 liens de concurrents). 1 appel de lancement de 45 min sur Zoom. Pas d'atelier en présentiel à ce niveau."
+            },
+            {
+              "i": "Exploration de logo (3 concepts)",
+              "l": "3 pistes de logo initiales présentées sous forme de maquettes vectorielles à plat. Vous en choisissez 1 à affiner. Logotype OU association icône + logotype (pas les deux). 2 cycles de révisions."
+            },
+            {
+              "i": "Fichiers finaux du logo",
+              "l": "PNG, SVG, PDF et EPS en couleur, en noir monochrome et en blanc monochrome. Versions horizontale et empilée livrées."
+            },
+            {
+              "i": "Palette de couleurs (5 couleurs)",
+              "l": "1 couleur principale + 4 couleurs d'appoint avec valeurs HEX, RGB et CMJN. Livrée sous forme de nuancier PDF d'1 page."
+            },
+            {
+              "i": "Association typographique",
+              "l": "1 police de titres + 1 police de texte (licence Google Fonts ou Adobe Fonts). Notes sur les licences incluses."
+            },
+            {
+              "i": "PDF de synthèse de marque d'1 page",
+              "l": "Bases d'utilisation du logo (taille minimale, zone de protection), codes couleur et typographie. Pas une charte graphique complète."
+            },
+            {
+              "i": "Favicon + avatar social",
+              "l": "Logo optimisé et exporté en 16px, 32px, 512px et 1024px pour le web et les profils sociaux."
+            }
+          ],
+          "ov": [
+            "Variante de logo supplémentaire (monogramme, marque secondaire, etc.) : $300",
+            "Cycle de révision supplémentaire : $250",
+            "Direction photographique de marque : $800"
+          ],
+          "ex": "Pas de charte graphique. Pas de papeterie. Pas de modèles sociaux. Pas de travail de naming ni d'identité verbale.",
+          "bridge": "Brand Lite associé à Gardien de Marque ($1,500/mois) garde vos éléments cohérents au fil de la production de nouveaux contenus.",
+          "ideal": "Indépendants et marques en pré-lancement qui ont besoin vite d'un logo propre et utilisable"
+        },
+        {
+          "name": "Système de Marque",
+          "price": 12000,
+          "disp": "$12,000",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "tl": "4-6 semaines",
+          "scope": [
+            {
+              "i": "Atelier de découverte (à distance, 90 min)",
+              "l": "1 session de travail en direct avec les fondateurs + jusqu'à 3 parties prenantes. Résultats : énoncé de positionnement, 1 persona d'audience, 3 attributs de marque, piste de moodboard choisie parmi 3 que nous présentons."
+            },
+            {
+              "i": "Système de logo (4 concepts)",
+              "l": "4 pistes initiales avec maquettes lifestyle (produit, signalétique, réseaux sociaux). 1 sélectionnée pour l'affinage. Version principale + horizontale + empilée + icône seule. 3 cycles de révisions."
+            },
+            {
+              "i": "Système de couleurs complet",
+              "l": "Principales (2), secondaires (4) et neutres (3). Contraste vérifié pour l'accessibilité WCAG AA. Codes HEX / RGB / CMJN / Pantone livrés."
+            },
+            {
+              "i": "Hiérarchie typographique",
+              "l": "Polices de titres, sous-titres, texte et légendes avec tailles, graisses et interlignages exacts pour le web et l'impression."
+            },
+            {
+              "i": "Charte graphique PDF (20 pages)",
+              "l": "Utilisation du logo, interdits, couleurs, typographie, direction visuelle, notes d'iconographie et page de ton de voix (3 attributs de voix + exemples de textes)."
+            },
+            {
+              "i": "Kit d'éléments de lancement",
+              "l": "1 carte de visite, 1 papier à en-tête, 1 signature e-mail, 1 modèle de pitch deck (10 diapositives, Google Slides ou Keynote) et 8 modèles sociaux (Canva ou Figma, modifiables)."
+            },
+            {
+              "i": "Bibliothèque d'éléments de marque",
+              "l": "Fichier Figma organisé + dossier Google Drive structuré pour la passation aux futurs designers. Tout en une seule source de vérité."
+            }
+          ],
+          "ov": [
+            "Jeu d'icônes sur mesure (8 icônes) : $1,200",
+            "Direction artistique photo + liste de prises de vue : $800",
+            "Cycle de révision supplémentaire : $400"
+          ],
+          "ex": "Pas de sprint de naming ni d'identité verbale. Pas de recherche de marques déposées. Pas de brand book au-delà de la charte de 20 pages. Pas de travail vidéo.",
+          "bridge": "Système de Marque s'associe à Direction Créative ($4,000/mois) pour continuer à produire de nouveaux éléments de marque de manière cohérente.",
+          "ideal": "Startups financées et entreprises en croissance qui ont besoin d'un système de marque complet et solide"
+        },
+        {
+          "name": "Transformation de Marque",
+          "price": 28000,
+          "disp": "$28,000",
+          "tag": "Refonte complète + naming + stratégie",
+          "tl": "8-12 semaines",
+          "scope": [
+            {
+              "i": "Sprint découverte + stratégie",
+              "l": "2 ateliers à distance de 2 heures (positionnement, audience, écart concurrentiel). 5 entretiens avec des parties prenantes (30 min chacun). Audit concurrentiel de 6 concurrents. 1 document de positionnement (10-15 pages) avec piliers de message et 3 personas d'audience testés."
+            },
+            {
+              "i": "Sprint de naming",
+              "l": "1 atelier de naming, 40+ noms candidats générés, filtrés à 10, présentés avec justification et pré-vérification USPTO (pas une validation juridique). 1 nom final sélectionné. Vérification de disponibilité des domaines .com, .co et .io incluse."
+            },
+            {
+              "i": "Identité verbale",
+              "l": "Cadre de voix de marque (4 attributs avec tableau « nous sommes / nous ne sommes pas »), signature, pitch d'ascenseur (30 s + 60 s) et 10 blocs de texte exemples (accroche, à propos, CTA, bios)."
+            },
+            {
+              "i": "Système d'identité visuelle",
+              "l": "5 pistes de logo avec maquettes lifestyle complètes. 1 sélectionnée et affinée en un système de marque complet : principal, secondaire, monogramme, favicon et comportements responsive."
+            },
+            {
+              "i": "Architecture complète couleurs + typographie",
+              "l": "Palette étendue (principales, secondaires, teintes, nuances), hiérarchie typographique à 4 niveaux, style d'iconographie (12 icônes) et direction d'illustration ou de photographie."
+            },
+            {
+              "i": "Brand book (40+ pages)",
+              "l": "Stratégie, positionnement, voix, logo, couleurs, typographie, imagerie, iconographie, principes de mouvement, à faire/à éviter et exemples d'application. Livré en PDF + source Figma modifiable."
+            },
+            {
+              "i": "Suite d'éléments de lancement",
+              "l": "Pitch deck (20 diapositives), trio de papeterie, 3 modèles d'e-mail, 12 modèles sociaux, 1 kit graphique d'annonce du lancement de marque et 1 storyboard vidéo « découvrez le nouveau [marque] »."
+            },
+            {
+              "i": "Session de passation + 30 jours de support",
+              "l": "1 présentation de passation enregistrée d'1 heure. 30 jours de support par e-mail pour les questions sur les éléments et les petits ajustements."
+            }
+          ],
+          "ov": [
+            "Avis juridique sur la marque via un avocat partenaire : $1,500-$3,000 refacturés",
+            "Production d'une vidéo de lancement de marque (60 s) : $3,500",
+            "Cycle de naming supplémentaire : $2,000"
+          ],
+          "ex": "Pas de dépôt de marque (mise en relation avec un avocat partenaire). Pas de production vidéo au-delà du storyboard. Pas d'exécution continue. C'est l'objet d'un forfait mensuel.",
+          "bridge": "La Transformation est généralement suivie de Studio Intégré ($8,500/mois) pour déployer la nouvelle identité sur chaque support au cours des 6 mois suivants.",
+          "ideal": "Entreprises établies en repositionnement, startups pré-Série A, marques historiques nécessitant une reconstruction de fond en comble"
+        }
+      ],
+      "brandingSupport": [
+        {
+          "name": "Gardien de Marque",
+          "price": 1500,
+          "disp": "$1,500",
+          "per": "/mois",
+          "tag": "Entretien cohérent",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Jusqu'à 6 éléments de marque par mois",
+              "l": "Visuels sociaux, en-têtes d'e-mail, flyers ponctuels, visuels d'événements ou créations publicitaires à partir de votre système de marque existant. Livrés en Figma ou Canva modifiables."
+            },
+            {
+              "i": "1 audit de marque trimestriel (PDF)",
+              "l": "Tous les 3 mois : revue des canaux actifs (site + 3 profils sociaux) pour repérer les dérives de cohérence, les éléments obsolètes et les contenus hors marque. Rapport de 5 à 7 pages avec corrections priorisées."
+            },
+            {
+              "i": "Maintenance de la bibliothèque d'éléments",
+              "l": "Votre Figma et votre Drive gardés en ordre. Nouveaux éléments classés, conventions de nommage appliquées, anciennes versions archivées."
+            },
+            {
+              "i": "Support asynchrone",
+              "l": "1 réponse Loom ou e-mail par jour ouvré. Pas de Slack en temps réel ni de couverture le week-end à ce niveau."
+            },
+            {
+              "i": "2 cycles de révision par élément",
+              "l": "Retours consolidés sous 3 jours ouvrés par révision. Pas de retours au fil de l'eau."
+            }
+          ],
+          "ov": [
+            "Éléments supplémentaires (7+) : $125 chacun",
+            "Délai express 48 h : +50 %",
+            "Montage vidéo court : $300 chacun"
+          ],
+          "ex": "Pas de travail stratégique, pas de nouvelles directions de marque, pas de rédaction. Pas de gestion des réseaux sociaux (voir formules réseaux sociaux).",
+          "ideal": "Marques dotées d'une identité en place qui ont besoin d'un entretien léger et régulier"
+        },
+        {
+          "name": "Direction Créative",
+          "price": 4000,
+          "disp": "$4,000",
+          "per": "/mois",
+          "tag": "Le plus choisi",
+          "pop": true,
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Jusqu'à 15 éléments de marque par mois",
+              "l": "Visuels sociaux, carrousels, créations publicitaires, campagnes e-mail, sections de landing page, mises à jour de pitch deck. Le tout dans votre système de marque."
+            },
+            {
+              "i": "Appel mensuel de direction créative (60 min)",
+              "l": "Revue de la production du mois précédent, alignement sur les priorités créatives du mois, signalement de toute dérive de marque. Suivi Loom avec recommandations."
+            },
+            {
+              "i": "1 audit trimestriel + rafraîchissement",
+              "l": "Audit PDF tous les 3 mois plus 3 modèles rafraîchis (création publicitaire, en-tête d'e-mail, publication sociale) selon ce qui fonctionne."
+            },
+            {
+              "i": "Rédaction légère (jusqu'à 1,000 mots/mois)",
+              "l": "Textes fidèles à la marque pour les légendes, variantes de publicités ou objets d'e-mail. Pas de contenu long format ni de pages web complètes."
+            },
+            {
+              "i": "Bibliothèque d'éléments + maintenance Figma",
+              "l": "Source unique de vérité gardée en ordre. Nouveaux composants ajoutés chaque mois."
+            },
+            {
+              "i": "Accès asynchrone au stratège",
+              "l": "E-mail/message direct à votre stratège attitré, du lundi au vendredi de 9 h à 17 h (heure de l'Est). SLA de réponse de 4 heures ouvrées."
+            },
+            {
+              "i": "2 cycles de révision par élément",
+              "l": "Retours consolidés dans les 3 jours ouvrés suivant la livraison."
+            }
+          ],
+          "ov": [
+            "Éléments supplémentaires (16+) : $150 chacun",
+            "Montage vidéo court (moins de 60 s) : $300 chacun",
+            "Textes au-delà de 1,000 mots : $200/page"
+          ],
+          "ex": "Pas de gestion de publicités payantes. Pas de refonte complète de marque (c'est un projet). Pas de designer dédié. Équipe partagée.",
+          "ideal": "Marques en croissance qui ont besoin d'un partenaire créatif produisant régulièrement et pilotant l'identité visuelle"
+        },
+        {
+          "name": "Studio Intégré",
+          "price": 8500,
+          "disp": "$8,500",
+          "per": "/mois",
+          "tag": "Équipe créative interne à temps partagé",
+          "com": "Engagement 3 mois minimum",
+          "scope": [
+            {
+              "i": "Jusqu'à 40 éléments de marque par mois",
+              "l": "Toute combinaison de réseaux sociaux, publicités, e-mail, sections web, pitch decks, visuels produit, supports événementiels ou print. Mêmes délais qu'en interne."
+            },
+            {
+              "i": "Direction hebdomadaire + stratégie bimensuelle",
+              "l": "Appel hebdomadaire de direction créative de 30 min + session stratégique bimensuelle de 60 min. Supervision active sur chaque support."
+            },
+            {
+              "i": "Audit de marque mensuel + rafraîchissement appliqué",
+              "l": "Chaque mois : audit livré, puis les 5 principales corrections réalisées le mois même. Pas de devis séparé."
+            },
+            {
+              "i": "Directeur créatif + designer dédiés",
+              "l": "Équipe attitrée de 2 personnes. Accès Slack du lundi au vendredi de 9 h à 18 h (SLA de 4 heures). Présentations Loom pour tous les livrables majeurs."
+            },
+            {
+              "i": "Rédaction + garde de la voix",
+              "l": "Jusqu'à 3,000 mots/mois de textes fidèles à la marque. Lignes directrices de voix appliquées à tout le contenu que nous touchons. 1 mise à jour du document de voix par trimestre."
+            },
+            {
+              "i": "Évolution du système de marque",
+              "l": "Petites mises à jour du système au fil de votre croissance : nouveaux modèles, extensions de couleurs ajustées, nouvelles marques de sous-marques. Les refontes complètes restent chiffrées séparément à partir de $20k+."
+            },
+            {
+              "i": "Concept de campagne trimestriel",
+              "l": "1 mini-campagne par trimestre : concept, 5 éléments phares, plan de déploiement. Pensez lancement saisonnier ou sortie produit."
+            },
+            {
+              "i": "3 cycles de révision par élément",
+              "l": "Plus de latitude que les autres niveaux pour itérer jusqu'à ce que le travail soit juste."
+            }
+          ],
+          "ov": [
+            "Refonte complète de marque : $20k+ à part",
+            "Journée photo de marque (direction + gestion du prestataire, shooting refacturé) : $2,500 d'honoraires de direction",
+            "Designer intégré supplémentaire : +$3,500/mois"
+          ],
+          "ex": "Pas de gestion de publicités payantes. Pas de design produit / UX (cadré séparément).",
+          "ideal": "Marques en croissance qui nous considèrent comme leur équipe créative interne à temps partagé sur tous les canaux"
+        }
+      ]
+    }
   },
   "onboard": {
     "title": "Onboarding client",
