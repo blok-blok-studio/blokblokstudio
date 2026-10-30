@@ -6,6 +6,8 @@
  */
 export interface ClientCity {
   city: string;
+  /** State or region, shown after the city (US entries). */
+  region?: string;
   country: string;
   lat: number;
   lng: number;
@@ -22,13 +24,13 @@ export interface ClientCity {
 
 export const clientCities: ClientCity[] = [
   { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: ['Coach Luki', 'Coach Kofi'], team: ['Chase Haynes, Founder'], studio: true, tag: 'HQ' },
-  { city: 'Arlington', country: 'United States', lat: 38.88, lng: -77.1, clients: [], studio: true, labelAnchor: 'left', labelMaxAlt: 0.9 },
-  { city: 'Richmond', country: 'United States', lat: 37.54, lng: -77.44, clients: [], team: ['Kyle Talley, Creative Director'], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
-  { city: 'Los Angeles', country: 'United States', lat: 34.05, lng: -118.24, clients: [], studio: true, labelAnchor: 'left' },
-  { city: 'Karachi', country: 'Pakistan', lat: 24.86, lng: 67.01, clients: [], studio: true },
-  { city: 'Dallas–Fort Worth', country: 'United States', lat: 32.78, lng: -96.8, clients: ['Bronco Plumbing', 'Heidie Haynes Realty'], labelAnchor: 'bottom' },
-  { city: 'New York', country: 'United States', lat: 40.71, lng: -74.0, clients: ['The New School'], labelAnchor: 'top' },
+  { city: 'Richmond', region: 'Virginia', country: 'United States', lat: 37.54, lng: -77.44, clients: [], team: ['Kyle Talley, Creative Director'], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
+  { city: 'Los Angeles', region: 'California', country: 'United States', lat: 34.05, lng: -118.24, clients: [], studio: true, labelAnchor: 'left' },
+  { city: 'Karachi', country: 'Pakistan', lat: 24.86, lng: 67.01, clients: [], team: ['Ayan Khan, Video Editor'], studio: true },
+  { city: 'Dallas', region: 'Texas', country: 'United States', lat: 32.78, lng: -96.8, clients: ['Bronco Plumbing'], labelAnchor: 'right' },
+  { city: 'Fort Worth', region: 'Texas', country: 'United States', lat: 32.75, lng: -97.33, clients: ['Real Texas Properties'], labelAnchor: 'left', labelMaxAlt: 1.6 },
+  { city: 'New York', region: 'New York', country: 'United States', lat: 40.71, lng: -74.0, clients: ['The New School'], labelAnchor: 'top' },
   { city: 'Washington, DC', country: 'United States', lat: 38.9, lng: -77.04, clients: ['Mind and Body Retreats'], labelAnchor: 'right' },
-  { city: 'Salt Lake City', country: 'United States', lat: 40.76, lng: -111.89, clients: ['Grant Parkhurst Photography'] },
+  { city: 'Salt Lake City', region: 'Utah', country: 'United States', lat: 40.76, lng: -111.89, clients: ['Grant Parkhurst Photography'] },
   { city: 'Manila', country: 'Philippines', lat: 14.6, lng: 120.98, clients: ['Philippine Airlines'] },
 ];

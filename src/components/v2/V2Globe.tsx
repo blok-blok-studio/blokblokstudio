@@ -246,6 +246,7 @@ export function V2Globe() {
                       <span>
                         <span className={`block text-base ${on ? 'text-white' : 'text-gray-200'}`}>
                           {c.city}
+                          {c.region && <span className="text-gray-400">, {c.region}</span>}
                           {c.tag && (
                             <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
                               {c.tag}
