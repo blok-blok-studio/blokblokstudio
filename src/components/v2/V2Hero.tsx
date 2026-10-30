@@ -108,15 +108,6 @@ export async function V2Hero() {
         </div>
       </div>
 
-      <div className="absolute inset-x-0 bottom-5 flex items-end justify-between px-5 text-[11px] uppercase tracking-[0.2em] text-white sm:px-8 lg:px-12">
-        <span className="flex items-center gap-3">
-          <span className="block h-8 w-px overflow-hidden bg-white/30">
-            <span className="scroll-bob block h-full w-full bg-orange-500" />
-          </span>
-          {t('v2_scroll')}
-        </span>
-        <span className="hidden sm:block">Berlin</span>
-      </div>
     </section>
   );
 }
