@@ -108,6 +108,11 @@ export function V2Globe() {
 
   const zoomScale = Math.min(1, Math.max(0.06, Math.pow(alt / 2.1, 1.6)));
   const colorOf = useCallback((d: object) => ((d as ClientCity).studio ? colors.team : colors.client), [colors]);
+  const pointRadius = useCallback((d: object) => ((d as ClientCity).studio ? 1.3 : 1.1) * zoomScale, [zoomScale]);
+  const ringMaxRadius = useCallback((d: object) => ((d as ClientCity).studio ? 5 : 4) * zoomScale, [zoomScale]);
+  const ringColor = useCallback((d: object) => (tt: number) => withAlpha(colorOf(d), Math.max(0, 1 - tt)), [colorOf]);
+  const arcColor = useCallback(() => [withAlpha(colors.team, 0.9), withAlpha(colors.client, 0.9)], [colors]);
+  const hexColor = useCallback(() => 'rgba(255,255,255,0.5)', []);
 
   // When zoomed in, only the city nearest the centre of view expands into a card.
   const focusCity = useMemo(() => {
@@ -126,12 +131,16 @@ export function V2Globe() {
     }
     return best;
   }, [alt, pov]);
+  const visibleSet = clientCities
+    .filter((c) => c.labelMaxAlt === undefined || alt < c.labelMaxAlt || c === focusCity)
+    .map((c) => c.city)
+    .join('|');
   const visibleLabels = useMemo(
     () =>
       clientCities
-        .filter((c) => c.labelMaxAlt === undefined || alt < c.labelMaxAlt || c === focusCity)
+        .filter((c) => visibleSet.split('|').includes(c.city))
         .map((c) => ({ ...c, expanded: c === focusCity })),
-    [alt, focusCity],
+    [visibleSet, focusCity],
   );
 
   // Screen-space label: fixed pixel size, anchored to one side of the marker.
@@ -185,6 +194,12 @@ export function V2Globe() {
     g.pointOfView({ lat: c.lat, lng: c.lng, altitude: 0.9 }, 1400);
   }, []);
 
+  const onPointClick = useCallback((d: object) => {
+    const c = d as ClientCity;
+    setActive(clientCities.indexOf(c));
+    flyTo(c);
+  }, [flyTo]);
+
   const pick = (i: number, c: ClientCity) => {
     setActive(i);
     flyTo(c);
@@ -213,11 +228,55 @@ export function V2Globe() {
         controls.minDistance = 150;
         controls.maxDistance = 340;
         controls.enablePan = false;
+        // globe.gl enables zoomToCursor, which drags the view toward the
+        // pinch/cursor point. Zoom straight in instead so the globe stays put.
+        controls.zoomToCursor = false;
+        // Touch: one finger rotates, two fingers pinch to zoom (pan is off, so a
+        // pinch cannot drag the globe). Damping smooths finger input. Allow
+        // vertical one-finger swipes through to the page so the globe does not
+        // trap scrolling on phones; OrbitControls sets touch-action:none itself.
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.1;
+        controls.rotateSpeed = 0.7;
+        const canvas = g.renderer().domElement;
+        canvas.style.touchAction = 'pan-y';
+        // Pinch guard: OrbitControls treats the first finger as a rotate until
+        // the second lands, and again when one finger lifts first, which makes
+        // the globe lurch around a pinch. Disable rotation while two fingers are
+        // down and for a moment after, and stop auto-rotate on first touch.
+        let touchCount = 0;
+        let rotateTimer: number | undefined;
+        canvas.addEventListener('pointerdown', (e: PointerEvent) => {
+          if (e.pointerType !== 'touch') return;
+          controls.autoRotate = false;
+          touchCount += 1;
+          if (touchCount >= 2) {
+            controls.enableRotate = false;
+            window.clearTimeout(rotateTimer);
+          }
+        });
+        const touchUp = (e: PointerEvent) => {
+          if (e.pointerType !== 'touch') return;
+          touchCount = Math.max(0, touchCount - 1);
+          if (touchCount < 2) {
+            window.clearTimeout(rotateTimer);
+            rotateTimer = window.setTimeout(() => {
+              controls.enableRotate = true;
+            }, 350);
+          }
+        };
+        if (process.env.NODE_ENV !== 'production') (window as unknown as { __bbGlobe?: unknown }).__bbGlobe = g;
+        canvas.addEventListener('pointerup', touchUp);
+        canvas.addEventListener('pointercancel', touchUp);
         g.pointOfView({ lat: 32, lng: -30, altitude: 2.1 }, 0);
         // Track camera altitude (rounded) so dense labels can hide when far out.
         controls.addEventListener('change', () => {
           const v = g.pointOfView();
-          setAlt((prev) => (Math.abs(prev - v.altitude) > 0.05 ? v.altitude : prev));
+          if (boxRef.current) {
+            boxRef.current.dataset.alt = v.altitude.toFixed(3);
+            boxRef.current.dataset.pov = `${v.lat.toFixed(2)},${v.lng.toFixed(2)}`;
+          }
+          setAlt((prev) => (Math.abs(prev - v.altitude) > 0.12 ? v.altitude : prev));
           setPov((prev) =>
             Math.abs(prev.lat - v.lat) > 0.5 || Math.abs(prev.lng - v.lng) > 0.5 ? { lat: v.lat, lng: v.lng } : prev,
           );
@@ -354,28 +413,25 @@ export function V2Globe() {
                   hexPolygonResolution={3}
                   hexPolygonMargin={0.62}
                   hexPolygonUseDots
-                  hexPolygonColor={() => 'rgba(255,255,255,0.5)'}
+                  hexPolygonColor={hexColor}
                   hexPolygonAltitude={0.002}
                   pointsData={clientCities}
                   pointLat="lat"
                   pointLng="lng"
                   pointColor={colorOf}
                   pointAltitude={0.02}
-                  pointRadius={(d: object) => ((d as ClientCity).studio ? 1.3 : 1.1) * zoomScale}
+                  pointRadius={pointRadius}
                   pointLabel={tooltip}
-                  onPointClick={(d: object) => {
-                    const c = d as ClientCity;
-                    pick(clientCities.indexOf(c), c);
-                  }}
+                  onPointClick={onPointClick}
                   ringsData={clientCities}
                   ringLat="lat"
                   ringLng="lng"
-                  ringColor={(d: object) => (tt: number) => withAlpha(colorOf(d), Math.max(0, 1 - tt))}
-                  ringMaxRadius={(d: object) => ((d as ClientCity).studio ? 5 : 4) * zoomScale}
+                  ringColor={ringColor}
+                  ringMaxRadius={ringMaxRadius}
                   ringPropagationSpeed={1.4}
                   ringRepeatPeriod={1400}
                   arcsData={arcs}
-                  arcColor={() => [withAlpha(colors.team, 0.9), withAlpha(colors.client, 0.9)]}
+                  arcColor={arcColor}
                   arcAltitudeAutoScale={0.4}
                   arcStroke={0.45 * Math.max(0.5, zoomScale)}
                   arcDashLength={0.45}
