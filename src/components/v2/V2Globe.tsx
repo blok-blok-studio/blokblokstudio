@@ -2,133 +2,132 @@
 
 /**
  * V2Globe — interactive client globe (redesign/v2).
- * cobe renders a dotted WebGL globe. It auto-rotates, drags with the
- * pointer, and flies to a city when one is picked from the list. Marker
- * colour is read from --bb-primary so it follows the palette switcher.
+ * react-globe.gl (three.js). Dotted hex continents in the GitHub style, a
+ * marker and pulsing ring per city, animated arcs out of Berlin, labels,
+ * hover tooltips, click-to-fly, and a city list that drives the same
+ * camera. Accent colour follows --bb-primary (the palette switcher).
+ * Loaded client-side only; shows a plain fallback where WebGL is missing.
  */
 
-import { useEffect, useRef, useState } from 'react';
-import createGlobe from 'cobe';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
+import type { GlobeMethods } from 'react-globe.gl';
+import { MeshPhongMaterial } from 'three';
 import { clientCities, type ClientCity } from '@/data/client-locations';
 
-function hexToRgb(hex: string): [number, number, number] {
-  const h = hex.trim().replace('#', '');
-  const full = h.length === 3 ? h.split('').map((c) => c + c).join('') : h;
-  const n = parseInt(full, 16);
-  if (Number.isNaN(n)) return [0.15, 0.38, 0.85];
-  return [((n >> 16) & 255) / 255, ((n >> 8) & 255) / 255, (n & 255) / 255];
+const Globe = dynamic(() => import('react-globe.gl'), { ssr: false });
+
+type Feature = { type: string; properties: Record<string, unknown>; geometry: unknown };
+
+function hasWebGL(): boolean {
+  try {
+    const c = document.createElement('canvas');
+    return !!(c.getContext('webgl2') || c.getContext('webgl'));
+  } catch {
+    return false;
+  }
 }
 
-// cobe's own example: angles that put a lat/lng at the centre of the view.
-function locationToAngles(lat: number, lng: number): [number, number] {
-  return [Math.PI - ((lng * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180];
+function readAccent(): string {
+  const v = getComputedStyle(document.documentElement).getPropertyValue('--bb-primary').trim();
+  return v || '#2561d8';
+}
+
+function withAlpha(hex: string, a: number): string {
+  const h = hex.replace('#', '');
+  const full = h.length === 3 ? h.split('').map((c) => c + c).join('') : h;
+  const n = parseInt(full, 16);
+  if (Number.isNaN(n)) return `rgba(37,97,216,${a})`;
+  return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`;
 }
 
 export function V2Globe() {
   const t = useTranslations('home');
-  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const globeRef = useRef<GlobeMethods | undefined>(undefined);
+  const boxRef = useRef<HTMLDivElement>(null);
+  const [size, setSize] = useState(0);
+  const [webgl, setWebgl] = useState<boolean | null>(null);
+  const [countries, setCountries] = useState<Feature[]>([]);
+  const [accent, setAccent] = useState('#2561d8');
   const [active, setActive] = useState<number | null>(null);
-  const focus = useRef<[number, number] | null>(null);
-  const pointer = useRef<{ x: number | null; delta: number }>({ x: null, delta: 0 });
-  const [palette, setPalette] = useState(0);
+  const [ready, setReady] = useState(false);
 
-  // Rebuild the globe when the palette attribute changes.
+  // Environment: WebGL, accent colour (and palette changes), container size.
   useEffect(() => {
-    const obs = new MutationObserver(() => setPalette((n) => n + 1));
+    setWebgl(hasWebGL());
+    setAccent(readAccent());
+    const obs = new MutationObserver(() => setAccent(readAccent()));
     obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-palette'] });
-    return () => obs.disconnect();
+    const box = boxRef.current;
+    const ro = new ResizeObserver(([e]) => setSize(Math.round(e.contentRect.width)));
+    if (box) ro.observe(box);
+    return () => {
+      obs.disconnect();
+      ro.disconnect();
+    };
   }, []);
 
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-    const accentHex = getComputedStyle(document.documentElement).getPropertyValue('--bb-primary') || '#2561d8';
-    const accent = hexToRgb(accentHex);
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    fetch('/data/countries-110m.geojson')
+      .then((r) => r.json())
+      .then((d) => setCountries(d.features ?? []))
+      .catch(() => setCountries([]));
+  }, []);
 
-    let phi = 0;
-    let theta = 0.3;
-    let width = 0;
-    const onResize = () => {
-      width = canvas.offsetWidth;
-    };
-    window.addEventListener('resize', onResize);
-    onResize();
+  // Dark matte sphere, no texture.
+  const material = useMemo(
+    () => new MeshPhongMaterial({ color: '#0c0c0c', emissive: '#050505', shininess: 4 }),
+    [],
+  );
 
-    const studios = clientCities.filter((c) => c.studio);
-    const berlin = studios[0] ?? clientCities[0];
-    const globe = createGlobe(canvas, {
-      devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
-      width: width * 2,
-      height: width * 2,
-      phi,
-      theta,
-      dark: 1,
-      diffuse: 1.2,
-      mapSamples: 16000,
-      mapBrightness: 6,
-      baseColor: [0.3, 0.3, 0.3],
-      markerColor: accent,
-      glowColor: [0.06, 0.06, 0.06],
-      markers: clientCities.map((c) => ({ location: [c.lat, c.lng], size: c.studio ? 0.07 : 0.045 })),
-      arcs: clientCities
-        .filter((c) => !c.studio)
-        .map((c) => ({ from: [berlin.lat, berlin.lng], to: [c.lat, c.lng] })),
-      arcColor: accent,
-      arcWidth: 0.6,
-      arcHeight: 0.35,
-    });
+  const berlin = clientCities.find((c) => c.city === 'Berlin') ?? clientCities[0];
+  const arcs = useMemo(
+    () =>
+      clientCities
+        .filter((c) => c !== berlin)
+        .map((c) => ({ startLat: berlin.lat, startLng: berlin.lng, endLat: c.lat, endLng: c.lng })),
+    [berlin],
+  );
 
-    // cobe v2 has no onRender; drive it with our own frame loop.
-    let raf = 0;
-    const frame = () => {
-      if (focus.current) {
-        const [fPhi, fTheta] = focus.current;
-        const dPhi = fPhi - phi;
-        const dPhiNorm = dPhi - Math.PI * 2 * Math.round(dPhi / (Math.PI * 2));
-        phi += dPhiNorm * 0.08;
-        theta += (fTheta - theta) * 0.08;
-      } else if (!reduce) {
-        phi += 0.003;
-      }
-      phi += pointer.current.delta;
-      pointer.current.delta = 0;
-      globe.update({ phi, theta, width: width * 2, height: width * 2 });
-      raf = requestAnimationFrame(frame);
-    };
-    raf = requestAnimationFrame(frame);
-
-    const fade = requestAnimationFrame(() => {
-      canvas.style.opacity = '1';
-    });
-
-    return () => {
-      cancelAnimationFrame(fade);
-      cancelAnimationFrame(raf);
-      window.removeEventListener('resize', onResize);
-      globe.destroy();
-    };
-  }, [palette]);
+  const flyTo = useCallback((c: ClientCity) => {
+    const g = globeRef.current;
+    if (!g) return;
+    const controls = g.controls();
+    controls.autoRotate = false;
+    g.pointOfView({ lat: c.lat, lng: c.lng, altitude: 1.9 }, 1200);
+  }, []);
 
   const pick = (i: number, c: ClientCity) => {
     setActive(i);
-    focus.current = locationToAngles(c.lat, c.lng);
+    flyTo(c);
   };
 
-  const onPointerDown = (e: React.PointerEvent) => {
-    pointer.current.x = e.clientX;
-    focus.current = null;
-    setActive(null);
-    (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
+  const onReady = () => {
+    const g = globeRef.current;
+    if (!g) return;
+    const controls = g.controls();
+    controls.autoRotate = true;
+    controls.autoRotateSpeed = 0.55;
+    controls.enableZoom = false;
+    controls.enablePan = false;
+    g.pointOfView({ lat: 32, lng: -30, altitude: 2.1 }, 0);
+    setReady(true);
   };
-  const onPointerMove = (e: React.PointerEvent) => {
-    if (pointer.current.x === null) return;
-    pointer.current.delta += (e.clientX - pointer.current.x) / 200;
-    pointer.current.x = e.clientX;
+
+  const resume = () => {
+    const g = globeRef.current;
+    if (g && active === null) g.controls().autoRotate = true;
   };
-  const onPointerUp = () => {
-    pointer.current.x = null;
+  const pause = () => {
+    const g = globeRef.current;
+    if (g) g.controls().autoRotate = false;
+  };
+
+  const tooltip = (d: object) => {
+    const c = d as ClientCity;
+    const who = [...(c.team ?? []), ...c.clients].join(' · ');
+    return `<div style="font-family:var(--font-jbmono),monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${who ? `<div style="margin-top:4px;color:#9ca3af;letter-spacing:0;text-transform:none;font-family:inherit">${who}</div>` : ''}</div>`;
   };
 
   return (
@@ -137,7 +136,7 @@ export function V2Globe() {
         <div className="mb-10 border-b border-white/10 pb-4 font-mono text-[11px] uppercase tracking-[0.2em] text-gray-500">
           {t('v2_globe_label')}
         </div>
-        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-20">
+        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16">
           <div className="order-2 lg:order-1">
             <h2 className="max-w-xl text-3xl font-semibold leading-[1.05] tracking-[-0.03em] text-white sm:text-4xl lg:text-5xl">
               {t('v2_globe_title')}
@@ -181,18 +180,81 @@ export function V2Globe() {
             </ul>
           </div>
 
-          <div className="order-1 mx-auto w-full max-w-[640px] lg:order-2">
-            <canvas
-              ref={canvasRef}
-              onPointerDown={onPointerDown}
-              onPointerMove={onPointerMove}
-              onPointerUp={onPointerUp}
-              onPointerCancel={onPointerUp}
-              className="aspect-square w-full cursor-grab opacity-0 transition-opacity duration-700 active:cursor-grabbing"
-              style={{ contain: 'layout paint size', touchAction: 'pan-y' }}
-              aria-label={t('v2_globe_label')}
-              role="img"
+          <div
+            ref={boxRef}
+            onMouseEnter={pause}
+            onMouseLeave={resume}
+            className="order-1 relative mx-auto aspect-square w-full max-w-[720px] lg:order-2"
+          >
+            {/* Placeholder ring until the scene is ready */}
+            <div
+              aria-hidden="true"
+              className={`absolute inset-[6%] rounded-full border border-white/10 transition-opacity duration-700 ${
+                ready ? 'opacity-0' : 'opacity-100'
+              }`}
             />
+            {webgl === false && (
+              <div className="absolute inset-0 flex items-center justify-center p-10 text-center font-mono text-[11px] uppercase tracking-[0.2em] text-gray-500">
+                WebGL is off in this browser. The cities are listed beside.
+              </div>
+            )}
+            {webgl && size > 0 && (
+              <div className={`transition-opacity duration-700 ${ready ? 'opacity-100' : 'opacity-0'}`}>
+                <Globe
+                  ref={globeRef}
+                  width={size}
+                  height={size}
+                  backgroundColor="rgba(0,0,0,0)"
+                  rendererConfig={{ antialias: true, alpha: true }}
+                  animateIn={false}
+                  onGlobeReady={onReady}
+                  globeMaterial={material}
+                  showAtmosphere
+                  atmosphereColor={accent}
+                  atmosphereAltitude={0.16}
+                  hexPolygonsData={countries}
+                  hexPolygonResolution={3}
+                  hexPolygonMargin={0.62}
+                  hexPolygonUseDots
+                  hexPolygonColor={() => 'rgba(255,255,255,0.5)'}
+                  hexPolygonAltitude={0.002}
+                  pointsData={clientCities}
+                  pointLat="lat"
+                  pointLng="lng"
+                  pointColor={() => accent}
+                  pointAltitude={0.012}
+                  pointRadius={(d: object) => ((d as ClientCity).studio ? 0.8 : 0.6)}
+                  pointLabel={tooltip}
+                  onPointClick={(d: object) => {
+                    const c = d as ClientCity;
+                    pick(clientCities.indexOf(c), c);
+                  }}
+                  ringsData={clientCities}
+                  ringLat="lat"
+                  ringLng="lng"
+                  ringColor={() => (tt: number) => withAlpha(accent, Math.max(0, 1 - tt))}
+                  ringMaxRadius={(d: object) => ((d as ClientCity).studio ? 4 : 3)}
+                  ringPropagationSpeed={1.4}
+                  ringRepeatPeriod={1400}
+                  arcsData={arcs}
+                  arcColor={() => [withAlpha(accent, 0.9), withAlpha(accent, 0.15)]}
+                  arcAltitudeAutoScale={0.4}
+                  arcStroke={0.45}
+                  arcDashLength={0.45}
+                  arcDashGap={0.6}
+                  arcDashAnimateTime={3200}
+                  labelsData={clientCities}
+                  labelLat="lat"
+                  labelLng="lng"
+                  labelText="city"
+                  labelSize={1.4}
+                  labelDotRadius={0}
+                  labelAltitude={0.014}
+                  labelColor={() => 'rgba(255,255,255,0.85)'}
+                  labelResolution={3}
+                />
+              </div>
+            )}
           </div>
         </div>
       </div>

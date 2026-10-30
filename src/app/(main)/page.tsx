@@ -25,11 +25,11 @@ export default function HomePage() {
     <div>
       <V2Hero />
       <V2Manifesto />
+      <V2Globe />
       <V2Services />
       <V2Quiz />
       <V2Work />
       <V2Proof />
-      <V2Globe />
     </div>
   );
 }
