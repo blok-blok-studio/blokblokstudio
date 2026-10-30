@@ -24,12 +24,12 @@ export default function HomePage() {
   return (
     <div>
       <V2Hero />
+      <V2Proof />
       <V2Manifesto />
       <V2Globe />
       <V2Services />
       <V2Quiz />
       <V2Work />
-      <V2Proof />
     </div>
   );
 }

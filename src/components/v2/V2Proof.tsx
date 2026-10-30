@@ -29,7 +29,7 @@ export async function V2Proof() {
   const t = await getTranslations('home');
   const stats = [1, 2, 3] as const;
   return (
-    <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+    <section className="px-5 pt-24 pb-32 sm:px-8 lg:px-12 lg:pt-32 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
         <div className="mb-10 border-b border-white/10 pb-4 text-[11px] uppercase tracking-[0.2em] text-gray-500">
           {t('v2_proof_label')}
