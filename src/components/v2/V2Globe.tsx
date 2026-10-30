@@ -120,7 +120,12 @@ export function V2Globe() {
         const controls = g.controls();
         controls.autoRotate = true;
         controls.autoRotateSpeed = 0.55;
-        controls.enableZoom = false;
+        // Zoom with wheel or pinch, kept between a city-level close-up and
+        // the default framing. Globe radius is 100 in globe.gl units.
+        controls.enableZoom = true;
+        controls.zoomSpeed = 0.6;
+        controls.minDistance = 140;
+        controls.maxDistance = 340;
         controls.enablePan = false;
         g.pointOfView({ lat: 32, lng: -30, altitude: 2.1 }, 0);
       } else if (tries > 60) {
