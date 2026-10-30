@@ -5,7 +5,7 @@ import { getTranslations } from 'next-intl/server';
  * quotes set in the serif italic. Quotes mirror HomeTestimonials.
  */
 const QUOTES = [
-  { text: 'v2_quote_1_text', name: 'Luke Satterly', role: 'v2_quote_1_role' },
+  { text: 'v2_quote_1_text', name: 'Colton Staley', role: 'v2_quote_1_role', results: true },
   { text: 'v2_quote_2_text', name: 'Kofi', role: 'v2_quote_2_role' },
   { text: 'v2_quote_3_text', name: 'Exotic Ripz', role: 'v2_quote_3_role' },
 ] as const;
@@ -40,9 +40,13 @@ export async function V2Proof() {
         <ul className="grid gap-x-10 gap-y-14 pt-12 md:grid-cols-3">
           {QUOTES.map((q) => (
             <li key={q.name}>
-              <blockquote className="text-2xl italic leading-snug text-white sm:text-[1.75rem]">
-                &ldquo;{t(q.text)}&rdquo;
-              </blockquote>
+              {'results' in q ? (
+                <p className="text-2xl leading-snug text-white sm:text-[1.75rem]">{t(q.text)}</p>
+              ) : (
+                <blockquote className="text-2xl italic leading-snug text-white sm:text-[1.75rem]">
+                  &ldquo;{t(q.text)}&rdquo;
+                </blockquote>
+              )}
               <p className="mt-6 text-[11px] uppercase tracking-[0.18em] text-gray-500">
                 {q.name} · {t(q.role)}
               </p>
