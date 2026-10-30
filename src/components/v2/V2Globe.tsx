@@ -430,7 +430,7 @@ export function V2Globe() {
                                               target="_blank"
                                               rel="noopener noreferrer"
                                               onClick={(e) => e.stopPropagation()}
-                                              className="underline decoration-white/20 underline-offset-4 transition-colors hover:text-white hover:decoration-white"
+                                              className="transition-colors hover:text-white"
                                             >
                                               {cl.name}
                                             </a>

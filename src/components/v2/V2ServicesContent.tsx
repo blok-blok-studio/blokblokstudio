@@ -28,7 +28,7 @@ export async function V2ServicesContent() {
               <ul className="mt-8 space-y-2.5">
                 {o.bullets.map((b) => (
                   <li key={b} className="flex gap-3 text-sm leading-relaxed text-gray-300">
-                    <span aria-hidden="true" className="mt-[0.7em] h-px w-3 shrink-0 bg-orange-500/70" />
+                    <span aria-hidden="true" className="mt-[0.6em] h-1.5 w-1.5 shrink-0 rounded-full bg-orange-500" />
                     {b}
                   </li>
                 ))}
@@ -43,7 +43,7 @@ export async function V2ServicesContent() {
           <div className={`mb-10 border-b border-white/10 pb-4 ${label}`}>{ts('v2_process_label')}</div>
           <ol className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
             {steps.map((s) => (
-              <li key={s.n} className="border-l border-white/15 pl-5">
+              <li key={s.n} className="">
                 <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">0{s.n}</p>
                 <h3 className="mt-3 font-display text-lg font-semibold text-white">{s.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-gray-400">{s.desc}</p>

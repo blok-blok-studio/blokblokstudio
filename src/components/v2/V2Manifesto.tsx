@@ -13,9 +13,9 @@ export async function V2Manifesto() {
         </p>
         <Link
           href="/about"
-          className="mt-10 inline-block border-b border-white/40 pb-1 text-[12px] uppercase tracking-[0.18em] text-gray-300 transition-colors hover:border-white hover:text-white"
+          className="mt-10 inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-gray-300 transition-colors hover:text-white"
         >
-          {t('v2_about_link')}
+          {t('v2_about_link')} <span aria-hidden="true">→</span>
         </Link>
       </div>
     </section>

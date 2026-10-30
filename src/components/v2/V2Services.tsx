@@ -50,7 +50,7 @@ export async function V2Services() {
               <ul className="mt-8 space-y-2.5">
                 {o.bullets.map((b) => (
                   <li key={b} className="flex gap-3 text-sm leading-relaxed text-gray-300">
-                    <span aria-hidden="true" className="mt-[0.7em] h-px w-3 shrink-0 bg-orange-500/70" />
+                    <span aria-hidden="true" className="mt-[0.6em] h-1.5 w-1.5 shrink-0 rounded-full bg-orange-500" />
                     {b}
                   </li>
                 ))}

@@ -44,7 +44,7 @@ export async function V2AboutContent() {
           <div className={`mb-10 border-b border-white/10 pb-4 ${label}`}>{t('values_title')}</div>
           <ul className="grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((n) => (
-              <li key={n} className="border-l border-white/15 pl-5">
+              <li key={n} className="">
                 <h3 className="font-display text-lg font-semibold text-white">{t(`value_${n}_title`)}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-gray-400">{t(`value_${n}_text`)}</p>
               </li>
@@ -70,7 +70,7 @@ export async function V2AboutContent() {
         <div className="mx-auto flex max-w-[1600px] flex-wrap items-center justify-between gap-6 rounded-3xl border border-white/10 p-8 sm:p-12">
           <div>
             <p className={label}>{t('v2_team_label')}</p>
-            <Link href="/team" className="mt-3 inline-block font-display text-2xl font-semibold text-white underline decoration-white/20 underline-offset-8 transition-colors hover:decoration-white sm:text-3xl">
+            <Link href="/team" className="mt-3 inline-block font-display text-2xl font-semibold text-white transition-colors hover:text-orange-400 sm:text-3xl">
               {t('v2_team_link')}
             </Link>
           </div>

@@ -65,7 +65,7 @@ export async function V2TeamContent() {
               {m.socials && (
                 <div className="mt-auto flex gap-4 pt-8 text-[11px] uppercase tracking-[0.18em]">
                   {Object.entries(m.socials).map(([k, href]) => (
-                    <a key={k} href={href} target="_blank" rel="noopener noreferrer" className="text-gray-400 underline decoration-white/20 underline-offset-4 transition-colors hover:text-white hover:decoration-white">
+                    <a key={k} href={href} target="_blank" rel="noopener noreferrer" className="text-gray-400 transition-colors hover:text-white">
                       {k}
                     </a>
                   ))}
