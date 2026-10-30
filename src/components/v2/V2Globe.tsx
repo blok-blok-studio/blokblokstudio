@@ -168,11 +168,11 @@ export function V2Globe() {
                           </span>
                         </span>
                         <span className="mt-0.5 block text-sm text-gray-500">
-                          {c.clients.length ? c.clients.join(' · ') : t('v2_globe_studio')}
+                          {[...(c.team ?? []), ...c.clients].join(' · ') || t('v2_globe_studio')}
                         </span>
                       </span>
                       <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-gray-600">
-                        {c.studio ? t('v2_globe_studio') : t('v2_globe_clients')}
+                        {c.studio ? t('v2_globe_team') : t('v2_globe_clients')}
                       </span>
                     </button>
                   </li>

@@ -210,10 +210,11 @@
     "v2_hero_cta": "Start with the quiz",
     "v2_quiz_link": "Take the quiz",
     "v2_globe_label": "Where our clients are",
-    "v2_globe_title": "Built in Berlin, Virginia and Los Angeles. Shipped around the world.",
+    "v2_globe_title": "A team in Berlin, Virginia, Los Angeles and Pakistan. Clients around the world.",
     "v2_globe_sub": "Drag the globe, or pick a city.",
     "v2_globe_studio": "Studio",
-    "v2_globe_clients": "Clients"
+    "v2_globe_clients": "Clients",
+    "v2_globe_team": "Team"
   },
   "projects": {
     "title": "Our Projects",

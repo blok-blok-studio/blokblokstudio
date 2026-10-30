@@ -210,10 +210,11 @@
     "v2_hero_cta": "Mit dem Quiz starten",
     "v2_quiz_link": "Quiz starten",
     "v2_globe_label": "Wo unsere Kunden sind",
-    "v2_globe_title": "Gebaut in Berlin, Virginia und Los Angeles. Geliefert in die ganze Welt.",
+    "v2_globe_title": "Ein Team in Berlin, Virginia, Los Angeles und Pakistan. Kunden auf der ganzen Welt.",
     "v2_globe_sub": "Globus drehen oder eine Stadt wählen.",
     "v2_globe_studio": "Studio",
-    "v2_globe_clients": "Kunden"
+    "v2_globe_clients": "Kunden",
+    "v2_globe_team": "Team"
   },
   "projects": {
     "title": "Unsere Projekte",
