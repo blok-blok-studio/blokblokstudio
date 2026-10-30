@@ -169,7 +169,7 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
             <span>{readTime}</span>
           </div>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold leading-tight mb-6">
             {title}
           </h1>
 

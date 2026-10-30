@@ -148,8 +148,9 @@ export function ContactContent() {
             TO EDIT: Change "contact.title" and "contact.subtitle" in
             your translation files.
         */}
-        <AnimatedSection className="text-center mb-12 sm:mb-16 lg:mb-20">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6">
+        <AnimatedSection className="mb-14 sm:mb-20">
+          <p className="text-[11px] uppercase tracking-[0.2em] text-gray-500 mb-5">{t('info_title')}</p>
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold leading-[1.02] tracking-[-0.02em] mb-6">
             {t('title')}
           </h1>
           <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
@@ -343,7 +344,7 @@ export function ContactContent() {
                   disabled={submitting || !turnstileToken}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full sm:w-auto px-10 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full sm:w-auto px-10 py-4 rounded-full bg-orange-500 text-(--bb-on-primary) font-medium hover:bg-orange-400 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {submitting ? 'Sending...' : t('submit')}
                 </motion.button>

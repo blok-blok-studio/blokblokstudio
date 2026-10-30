@@ -115,7 +115,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
   if (!project) {
     return (
       <section className="pt-32 pb-24 px-5 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl font-bold mb-4">{t('proj_not_found')}</h1>
+        <h1 className="text-4xl font-display font-bold mb-4">{t('proj_not_found')}</h1>
         <Link href="/projects" className="text-gray-400 hover:text-white transition-colors">
           &larr; {t('proj_back')}
         </Link>
@@ -151,7 +151,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
               <span className="text-xs sm:text-sm text-gray-500">{project.year}</span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold mb-4 sm:mb-6">
               {project.title}
             </h1>
 
@@ -163,7 +163,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 href={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-sm"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-orange-500 text-(--bb-on-primary) font-medium hover:bg-orange-400 transition-colors text-sm"
               >
                 {t('proj_visit')}
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -223,7 +223,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider mb-2">
                   {t('proj_live')}
                 </p>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-display font-bold">
                   <span className="hidden sm:inline">
                     {project.embeddable ? 'Click and scroll the live site below' : 'Scroll through the live site below'}
                   </span>
@@ -362,7 +362,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
         <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">
           <div className="max-w-3xl mx-auto">
             <AnimatedSection className="mb-8 sm:mb-12 text-center">
-              <h2 className="text-2xl sm:text-3xl font-bold">{t('proj_testimonial')}</h2>
+              <h2 className="text-2xl sm:text-3xl font-display font-bold">{t('proj_testimonial')}</h2>
               {project.testimonialName && (
                 <p className="text-sm text-gray-500 mt-2">{project.testimonialName}</p>
               )}
@@ -400,10 +400,11 @@ export function ProjectDetail({ slug }: { slug: string }) {
       {/* ================================================================
           SECTION 4: Gallery Grid (Placeholders)
           ================================================================ */}
+      {project.gallery.some((img) => img !== null) && (
       <section className="px-5 sm:px-6 lg:px-8 mb-16 sm:mb-24">
         <div className="max-w-7xl mx-auto">
           <AnimatedSection className="mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold">{t('proj_gallery')}</h2>
+            <h2 className="text-2xl sm:text-3xl font-display font-bold">{t('proj_gallery')}</h2>
           </AnimatedSection>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {project.gallery.filter(img => img !== null).map((img, i) => (
@@ -422,6 +423,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
           </div>
         </div>
       </section>
+      )}
 
       {/* ================================================================
           SECTION 5: Next Project Link

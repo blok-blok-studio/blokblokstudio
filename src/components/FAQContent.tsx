@@ -159,7 +159,7 @@ export function FAQContent() {
           <MagneticButton as="div">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-sm sm:text-base"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-orange-500 text-(--bb-on-primary) font-medium hover:bg-orange-400 transition-colors text-sm sm:text-base"
             >
               {t('cta_button')}
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

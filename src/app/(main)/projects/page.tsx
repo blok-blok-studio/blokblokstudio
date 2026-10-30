@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { ProjectsContent } from '@/components/ProjectsContent';
+import { V2ProjectsContent } from '@/components/v2/V2ProjectsContent';
 import { BreadcrumbSchema } from '@/app/structured-data';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -33,7 +33,7 @@ export default function ProjectsPage() {
         { name: 'Home', url: '/' },
         { name: 'Projects', url: '/projects' },
       ]} />
-      <ProjectsContent />
+      <V2ProjectsContent />
     </div>
   );
 }

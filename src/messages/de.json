@@ -228,7 +228,9 @@
     "v2_hosting_bullet_5": "Inhaltsänderungen und Support, wenn du sie brauchst",
     "v2_globe_hint": "Ziehen zum Drehen, scrollen oder pinchen zum Zoomen, oder eine Stadt wählen.",
     "v2_proof_4_value": "3 Mrd. $+",
-    "v2_proof_4_label": "Jahresumsatz unseres größten Kunden, Philippine Airlines"
+    "v2_proof_4_label": "Jahresumsatz unseres größten Kunden, Philippine Airlines",
+    "v2_result_public_affair": "Ein hochwertiger Altersfilter, den 95 % der Besucher abschließen.",
+    "v2_result_military_newschool": "Ein digitales Zuhause für Studierende mit Militärbezug."
   },
   "projects": {
     "title": "Unsere Projekte",
@@ -238,7 +240,12 @@
     "filter_brand": "Branding",
     "filter_app": "App-Entwicklung",
     "filter_marketing": "Marketing",
-    "view_project": "Projekt Ansehen"
+    "view_project": "Projekt Ansehen",
+    "cat_web": "Webdesign",
+    "cat_ecom": "E-Commerce",
+    "cat_brand": "Branding",
+    "v2_label": "Ausgewählte Arbeiten",
+    "v2_count": "{count} Projekte"
   },
   "about": {
     "title": "Über Uns",
@@ -259,7 +266,12 @@
     "stats_projects": "Gelieferte Projekte",
     "stats_clients": "Zufriedene Kunden",
     "stats_years": "Jahre Erfahrung",
-    "stats_awards": "Bediente Branchen"
+    "stats_awards": "Bediente Branchen",
+    "v2_label": "Das Studio",
+    "v2_intro": "Boutique aus Überzeugung. Wir nehmen nur eine Handvoll Marken gleichzeitig an, damit bei jeder Seite ein Gründer am Tisch sitzt, kein Template und keine Ticketnummer.",
+    "v2_team_label": "Mit wem du arbeitest",
+    "v2_team_link": "Team kennenlernen",
+    "v2_cta": "Mit dem Quiz starten"
   },
   "blog": {
     "meta_title": "Blog: Insights zu Webdesign, Branding & SEO",
@@ -369,14 +381,28 @@
     "step_4_title": "Development",
     "step_4_desc": "We build with modern technologies ensuring speed, scalability, and reliability.",
     "step_5_title": "Launch & Optimize",
-    "step_5_desc": "We deploy, monitor, and continuously refine to maximize performance."
+    "step_5_desc": "We deploy, monitor, and continuously refine to maximize performance.",
+    "v2_label": "Leistungen",
+    "v2_intro": "Zwei Dinge, richtig gemacht. Wir bauen die Seite und halten sie am Laufen.",
+    "v2_process_label": "So läuft ein Projekt",
+    "v2_cta_label": "Nicht sicher, was du brauchst?",
+    "v2_cta": "1-Minuten-Quiz starten"
   },
   "team": {
     "title": "Unser Team",
     "subtitle": "Lernen Sie die kreativen Köpfe hinter Blok Blok Studio kennen.",
     "role_founder": "Founder",
     "role_graphic": "Senior Graphic Designer",
-    "role_web": "Senior Web Designer"
+    "role_web": "Senior Web Designer",
+    "v2_label": "Das Team",
+    "v2_intro": "Fünf Leute in vier Zeitzonen. Klein genug, dass du jeden beim Namen kennst, breit genug, dass dein Projekt nie auf den Morgen wartet.",
+    "v2_studied": "Studium",
+    "v2_enjoys": "Nach Feierabend",
+    "v2_based": "Standort",
+    "role_marketing": "Marketing-Strategin",
+    "role_fullstack": "Full Stack Developer",
+    "role_video": "Video Editor",
+    "role_creative": "Creative Director"
   },
   "contact": {
     "title": "Kontaktieren Sie Uns",

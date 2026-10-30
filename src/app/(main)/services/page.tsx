@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { ServicesContent } from '@/components/ServicesContent';
+import { V2ServicesContent } from '@/components/v2/V2ServicesContent';
 import { BreadcrumbSchema } from '@/app/structured-data';
 
 export const metadata: Metadata = {
@@ -34,7 +34,7 @@ export default function ServicesPage() {
           { name: 'Services', url: '/services' },
         ]}
       />
-      <ServicesContent />
+      <V2ServicesContent />
     </div>
   );
 }

@@ -228,7 +228,9 @@
     "v2_hosting_bullet_5": "Content changes and support when you need them",
     "v2_globe_hint": "Drag to spin, scroll or pinch to zoom, or pick a city.",
     "v2_proof_4_value": "$3B+",
-    "v2_proof_4_label": "Annual revenue of our largest client, Philippine Airlines"
+    "v2_proof_4_label": "Annual revenue of our largest client, Philippine Airlines",
+    "v2_result_public_affair": "A premium age-gated entry that 95% of visitors complete.",
+    "v2_result_military_newschool": "A digital home that speaks to military-affiliated students."
   },
   "projects": {
     "title": "Our Projects",
@@ -238,7 +240,12 @@
     "filter_brand": "Branding",
     "filter_app": "App Development",
     "filter_marketing": "Marketing",
-    "view_project": "View Project"
+    "view_project": "View Project",
+    "cat_web": "Web Design",
+    "cat_ecom": "E-Commerce",
+    "cat_brand": "Branding",
+    "v2_label": "Selected work",
+    "v2_count": "{count} projects"
   },
   "about": {
     "title": "About Us",
@@ -259,7 +266,12 @@
     "stats_projects": "Projects Delivered",
     "stats_clients": "Happy Clients",
     "stats_years": "Years of Experience",
-    "stats_awards": "Industries Served"
+    "stats_awards": "Industries Served",
+    "v2_label": "The studio",
+    "v2_intro": "Boutique by choice. We take on a handful of brands at a time so every site gets a founder in the room, not a template and a ticket number.",
+    "v2_team_label": "Who you work with",
+    "v2_team_link": "Meet the team",
+    "v2_cta": "Start with the quiz"
   },
   "blog": {
     "meta_title": "Blog: Insights on Web Design, Branding & SEO",
@@ -369,14 +381,28 @@
     "step_4_title": "Development",
     "step_4_desc": "We build with modern technologies ensuring speed, scalability, and reliability.",
     "step_5_title": "Launch & Optimize",
-    "step_5_desc": "We deploy, monitor, and continuously refine to maximize performance."
+    "step_5_desc": "We deploy, monitor, and continuously refine to maximize performance.",
+    "v2_label": "Services",
+    "v2_intro": "Two things, done properly. We build the site, then we keep it running.",
+    "v2_process_label": "How a project runs",
+    "v2_cta_label": "Not sure which you need?",
+    "v2_cta": "Take the 1-minute quiz"
   },
   "team": {
     "title": "Our Team",
     "subtitle": "Meet the creative minds behind Blok Blok Studio.",
     "role_founder": "Founder",
     "role_graphic": "Senior Graphic Designer",
-    "role_web": "Senior Web Designer"
+    "role_web": "Senior Web Designer",
+    "v2_label": "The team",
+    "v2_intro": "Five people in four time zones. Small enough that you know everyone by name, spread wide enough that your project never waits for morning.",
+    "v2_studied": "Studied",
+    "v2_enjoys": "Off the clock",
+    "v2_based": "Based in",
+    "role_marketing": "Marketing Strategist",
+    "role_fullstack": "Full Stack Developer",
+    "role_video": "Video Editor",
+    "role_creative": "Creative Director"
   },
   "contact": {
     "title": "Get in Touch",
