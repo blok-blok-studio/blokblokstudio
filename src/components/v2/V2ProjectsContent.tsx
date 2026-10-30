@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
-import { projectsData } from '@/data/projects';
+import { useTranslations, useLocale } from 'next-intl';
+import { projectsData, localizeProject } from '@/data/projects';
 import { V2PageHero } from './V2PageHero';
 
 const IMAGES: Record<string, string> = {
@@ -36,6 +36,7 @@ const CATS = [
 export function V2ProjectsContent() {
   const t = useTranslations('projects');
   const th = useTranslations('home');
+  const locale = useLocale();
   const [cat, setCat] = useState<string>('all');
   const slugs = Object.keys(projectsData).filter((s) => cat === 'all' || projectsData[s].category === cat);
 
@@ -65,7 +66,7 @@ export function V2ProjectsContent() {
 
           <ul className="grid gap-x-8 gap-y-16 md:grid-cols-2">
             {slugs.map((slug, i) => {
-              const p = projectsData[slug];
+              const p = localizeProject(slug, locale) ?? projectsData[slug];
               const wide = i === 0 && cat === 'all';
               const img = IMAGES[slug] ?? p.heroImage;
               return (

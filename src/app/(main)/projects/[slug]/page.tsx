@@ -22,7 +22,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ProjectDetail } from '@/components/ProjectDetail';
-import { projectsData, getAllProjectSlugs } from '@/data/projects';
+import { projectsData, getAllProjectSlugs, localizeProject } from '@/data/projects';
+import { getLocale } from 'next-intl/server';
 import { VideoSchema } from '@/app/structured-data';
 import { videoForProject } from '@/data/videos';
 
@@ -49,7 +50,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const project = projectsData[slug];
+  const project = localizeProject(slug, await getLocale()) ?? projectsData[slug];
 
   // Thrown here (before the streamed body starts) so the response is a
   // real HTTP 404, not a streamed 200 shell.

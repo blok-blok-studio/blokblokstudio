@@ -37,8 +37,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { videoForProject, type SiteVideoKey } from '@/data/videos';
 import { VideoTranscript } from './VideoTranscript';
-import { projectsData } from '@/data/projects';
-import { useTranslations } from 'next-intl';
+import { projectsData, localizeProject } from '@/data/projects';
+import { useTranslations, useLocale } from 'next-intl';
 
 /**
  * The iframe is rendered at a fixed "desktop" viewport width and then
@@ -105,7 +105,8 @@ function ScaledLiveIframe({
  */
 export function ProjectDetail({ slug }: { slug: string }) {
   const t = useTranslations('ui');
-  const project = projectsData[slug];
+  const locale = useLocale();
+  const project = localizeProject(slug, locale);
   // Caption track lives in videos.ts, which is the source of truth for
   // everything the video SEO layer reads.
   const testimonialVideoMeta = videoForProject(slug);
@@ -123,7 +124,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
     );
   }
 
-  const nextProject = project.nextSlug ? projectsData[project.nextSlug] : null;
+  const nextProject = project.nextSlug ? localizeProject(project.nextSlug, locale) ?? null : null;
 
   return (
     <div>
@@ -225,14 +226,14 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 </p>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-display font-bold">
                   <span className="hidden sm:inline">
-                    {project.embeddable ? 'Click and scroll the live site below' : 'Scroll through the live site below'}
+                    {project.embeddable ? t('proj_live_click') : t('proj_live_scroll')}
                   </span>
                   <span className="sm:hidden">{t('proj_take_look')}</span>
                 </h2>
                 <p className="hidden sm:block text-sm text-gray-500 mt-2">
                   {project.embeddable
-                    ? "Click links and navigate just like you're on the real site, or open it in a new tab."
-                    : 'This is a full-page snapshot. Scroll inside the window, or open the live site in a new tab.'}
+                    ? t('proj_live_hint_embed')
+                    : t('proj_live_hint_scroll')}
                 </p>
               </div>
 

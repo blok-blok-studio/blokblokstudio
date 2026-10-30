@@ -5,25 +5,10 @@ import { getTranslations } from 'next-intl/server';
  * quotes set in the serif italic. Quotes mirror HomeTestimonials.
  */
 const QUOTES = [
-  {
-    quote:
-      'They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices.',
-    name: 'Luke Satterly',
-    role: 'v2_quote_1_role',
-  },
-  {
-    quote:
-      'Blok Blok Studio transformed my online presence completely. The bold design perfectly captures my coaching philosophy and the results have been incredible.',
-    name: 'Kofi',
-    role: 'v2_quote_2_role',
-  },
-  {
-    quote:
-      'The e-commerce store they built for us is incredible. Our booster pack drops sell out in hours and the community engagement through the site has been amazing.',
-    name: 'Exotic Ripz',
-    role: 'v2_quote_3_role',
-  },
-];
+  { text: 'v2_quote_1_text', name: 'Luke Satterly', role: 'v2_quote_1_role' },
+  { text: 'v2_quote_2_text', name: 'Kofi', role: 'v2_quote_2_role' },
+  { text: 'v2_quote_3_text', name: 'Exotic Ripz', role: 'v2_quote_3_role' },
+] as const;
 
 export async function V2Proof() {
   const t = await getTranslations('home');
@@ -56,10 +41,10 @@ export async function V2Proof() {
           {QUOTES.map((q) => (
             <li key={q.name}>
               <blockquote className="text-2xl italic leading-snug text-white sm:text-[1.75rem]">
-                &ldquo;{q.quote}&rdquo;
+                &ldquo;{t(q.text)}&rdquo;
               </blockquote>
               <p className="mt-6 text-[11px] uppercase tracking-[0.18em] text-gray-500">
-                {q.name} · {t(q.role as 'v2_quote_1_role')}
+                {q.name} · {t(q.role)}
               </p>
             </li>
           ))}

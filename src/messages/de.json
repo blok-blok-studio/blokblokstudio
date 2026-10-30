@@ -25,88 +25,88 @@
   "faq": {
     "meta_title": "FAQ | AI Agency & Web Design Studio in Berlin",
     "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio, a Berlin-based digital agency serving clients worldwide.",
-    "hero_eyebrow": "Frequently Asked Questions",
-    "hero_title": "Everything you wanted to ask",
-    "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 30-minute call.",
-    "category_pricing": "Pricing & Investment",
-    "category_process": "Process & Timeline",
-    "category_capabilities": "Services & Capabilities",
-    "category_trust": "Working with Blok Blok Studio",
-    "cta_heading": "Still have questions?",
-    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure, just answers.",
-    "cta_button": "Book Your Free Call",
+    "hero_eyebrow": "Häufige Fragen",
+    "hero_title": "Alles, was du schon immer fragen wolltest",
+    "hero_subtitle": "Ehrliche Antworten dazu, wie wir arbeiten, was wir berechnen und was wir bauen. Fehlt deine Frage, buch dir ein kostenloses 30-Minuten-Gespräch.",
+    "category_pricing": "Preise & Investition",
+    "category_process": "Ablauf & Zeitplan",
+    "category_capabilities": "Leistungen & Möglichkeiten",
+    "category_trust": "Zusammenarbeit mit Blok Blok Studio",
+    "cta_heading": "Noch Fragen?",
+    "cta_subheading": "Buch dir ein kostenloses 30-minütiges Strategiegespräch. Kein Pitch, kein Druck, nur Antworten.",
+    "cta_button": "Kostenloses Gespräch buchen",
     "see_all_questions": "Alle Fragen anzeigen",
     "filter_all": "Alle",
     "items": [
       {
         "category": "pricing",
-        "question": "How much does a custom website cost?",
-        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one, never templates."
+        "question": "Was kostet eine individuelle Website?",
+        "answer": "Individuelle Websites bei Blok Blok Studio beginnen bei 2.000 $ für eine einzelne Landingpage, 6.500 $ für eine Seite mit fünf Unterseiten, 12.000 $ für zehn Seiten mit CMS und 18.000 $ ab fünfzehn Seiten. Der Preis hängt von Seitenzahl, individuellen Animationen, Integrationen und Textumfang ab. Jede Seite wird in Next.js gebaut, auf Vercel gehostet und ist von Tag eins SEO-optimiert, nie ein Template."
       },
       {
         "category": "pricing",
-        "question": "How much does an AI chatbot cost to build?",
-        "answer": "An AI chatbot trained on 100+ Q&A pairs and embedded site-wide is included in our $18,000 Conversational AI suite, which also covers a voice agent, SMS automations, and a full content pipeline. As a standalone add-on to a website tier, an AI chatbot starts at $2,500. All bots integrate with your CRM and capture leads 24/7."
+        "question": "Was kostet ein KI-Chatbot?",
+        "answer": "Ein KI-Chatbot, trainiert auf über 100 Frage-Antwort-Paare und seitenweit eingebunden, ist in unserer Conversational-AI-Suite für 18.000 $ enthalten, zusammen mit Voice-Agent, SMS-Automatisierungen und einer kompletten Content-Pipeline. Als einzelnes Add-on zu einer Website beginnt ein KI-Chatbot bei 2.500 $. Alle Bots sind an dein CRM angebunden und erfassen Leads rund um die Uhr."
       },
       {
         "category": "pricing",
-        "question": "How much does an AI voice agent cost per month?",
-        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human, all in natural conversational language."
+        "question": "Was kostet ein KI-Voice-Agent im Monat?",
+        "answer": "Die Einrichtung eines KI-Voice-Agenten beginnt bei einmalig 2.500 $, inklusive 500 Gesprächsminuten im ersten Monat. Weitere Minuten werden zu üblichen Telefonietarifen abgerechnet und in eine monatliche Betreuung eingebunden. Der Agent nimmt Anrufe an, qualifiziert Leads, bucht Termine und leitet dringende Anrufe an einen Menschen weiter, alles in natürlicher Sprache."
       },
       {
         "category": "pricing",
-        "question": "Do you offer monthly retainers or just project work?",
-        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth: Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
+        "question": "Bietet ihr monatliche Betreuung oder nur Projekte?",
+        "answer": "Beides. Projekte beginnen bei 2.000 $ und werden in Meilensteinen abgerechnet. Betreuungspakete starten bei 1.500 $ im Monat für Wartung, KI-Monitoring und CRM-Pflege oder 3.500 $ im Monat für den kompletten Wachstumsservice mit Google- und Meta-Ads, KI-gestützter Content-Produktion und fünf Stunden Entwicklung pro Monat. Mindestlaufzeit drei oder sechs Monate."
       },
       {
         "category": "process",
-        "question": "How long does it take to build a custom website?",
-        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast, most agencies take 2 to 3 times longer."
+        "question": "Wie lange dauert der Bau einer individuellen Website?",
+        "answer": "Eine einzelne Landingpage geht in der Regel nach zwei bis drei Wochen live. Eine Seite mit fünf Unterseiten dauert vier bis sechs Wochen. Zehn Seiten mit CMS und KI-Integrationen brauchen acht bis zwölf Wochen. Der Zeitplan hängt davon ab, wie schnell Inhalte, Markenvorgaben und Freigaben kommen. Wir sind schnell, die meisten Agenturen brauchen zwei- bis dreimal so lange."
       },
       {
         "category": "process",
-        "question": "How long does it take to deploy an AI agent?",
-        "answer": "A standard AI chatbot trained on your existing FAQs is live in 7 to 10 business days. A voice agent with a custom call script takes 10 to 14 days. A full multi-agent ecosystem with CRM, calendar, and payment integrations takes 4 to 8 weeks depending on complexity. We start with a discovery call, then a paid scoping document, then build."
+        "question": "Wie lange dauert es, einen KI-Agenten live zu bringen?",
+        "answer": "Ein Standard-Chatbot, trainiert auf deine bestehenden FAQ, ist in sieben bis zehn Werktagen live. Ein Voice-Agent mit eigenem Gesprächsskript braucht zehn bis vierzehn Tage. Ein komplettes Multi-Agenten-System mit CRM-, Kalender- und Zahlungsanbindung dauert je nach Komplexität vier bis acht Wochen. Wir starten mit einem Kennenlerngespräch, dann folgt ein bezahltes Scoping-Dokument, dann der Bau."
       },
       {
         "category": "process",
-        "question": "What does the design and build process look like?",
-        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone, no live status meetings unless you want one."
+        "question": "Wie läuft Design und Entwicklung ab?",
+        "answer": "Fünf Phasen: Discovery (deine Ziele und Zielgruppe), Strategie (ein maßgeschneiderter Fahrplan), Design (visuelle Konzepte und Prototypen), Entwicklung (moderner, performanter Code) und Launch & Optimierung (live gehen, beobachten, verfeinern). Du bekommst wöchentliche Updates und zu jedem Meilenstein ein Loom-Video, keine Statusmeetings, außer du willst sie."
       },
       {
         "category": "capabilities",
-        "question": "What's the difference between an AI chatbot and an AI voice agent?",
-        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps. It answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
+        "question": "Was ist der Unterschied zwischen KI-Chatbot und KI-Voice-Agent?",
+        "answer": "Ein KI-Chatbot arbeitet textbasiert auf deiner Website oder in Messengern: Er beantwortet FAQ, bucht Termine und erfasst Leads im Chat. Ein KI-Voice-Agent nimmt echte Telefonanrufe in natürlicher gesprochener Sprache an. Voice-Agenten eignen sich für Inbound-Vertrieb, Support außerhalb der Öffnungszeiten und Terminbestätigungen. Viele Unternehmen nutzen beides für volle Abdeckung."
       },
       {
         "category": "capabilities",
-        "question": "Can your AI agents integrate with HubSpot, Salesforce, or GoHighLevel?",
-        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector, no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
+        "question": "Lassen sich eure KI-Agenten mit HubSpot, Salesforce oder GoHighLevel verbinden?",
+        "answer": "Ja. Unsere Agenten und Automatisierungen binden HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe und Calendly nativ an. Für Tools ohne fertige Integration bauen wir einen eigenen Connector, ohne Zapier-Zwischenhändler. Deine Daten bleiben in deinen Systemen, wir bringen sie nur zum Reden."
       },
       {
         "category": "capabilities",
-        "question": "Do you build websites in Next.js, WordPress, or Webflow?",
-        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow, those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
+        "question": "Baut ihr Websites mit Next.js, WordPress oder Webflow?",
+        "answer": "Wir bauen ausschließlich mit Next.js, TypeScript, Tailwind CSS und Framer Motion. Gehostet wird auf Vercel, mit Ladezeiten unter einer Sekunde und weltweiter Auslieferung. WordPress, Wix, Squarespace oder Webflow setzen wir nicht ein: Diese Plattformen liefern weder die Performance noch die individuellen Animationen oder KI-Integrationen, die unsere Kunden brauchen."
       },
       {
         "category": "capabilities",
-        "question": "Do you write the website copy, or do I provide it?",
-        "answer": "Either works. Most clients provide raw notes or bullet points and we shape them into final copy. Full professional copywriting is included at our $18,000 tier and available as a $200/page add-on at any other tier. Ad copy for Google and Meta campaigns is always written by us when we manage the ads."
+        "question": "Schreibt ihr die Texte, oder liefere ich sie?",
+        "answer": "Beides geht. Die meisten Kunden liefern Stichpunkte oder Rohnotizen, aus denen wir die finalen Texte formen. Komplettes professionelles Copywriting ist in unserem 18.000-$-Paket enthalten und für alle anderen Pakete als Add-on für 200 $ pro Seite buchbar. Anzeigentexte für Google- und Meta-Kampagnen schreiben immer wir, wenn wir die Kampagnen betreuen."
       },
       {
         "category": "trust",
-        "question": "Where is Blok Blok Studio located, and do you work internationally?",
-        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text, we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
+        "question": "Wo sitzt Blok Blok Studio, und arbeitet ihr international?",
+        "answer": "Unser Studio sitzt in Berlin. Wir arbeiten mit Kunden in den USA, Großbritannien, den Niederlanden, Frankreich, Spanien und in der ganzen EU. Die Kommunikation läuft asynchron über Loom, E-Mail und Textnachrichten, wir passen uns jeder Zeitzone an. Rechnungen und Verträge gibt es in USD oder EUR, ganz nach Wunsch."
       },
       {
         "category": "trust",
-        "question": "Do I own my website code and AI agent configurations?",
-        "answer": "Yes, completely. On project completion you receive full ownership of the code, design files, AI prompts, and automation configurations. The site is deployed to your own Vercel account under your billing. The CRM, ad accounts, and domains stay in your name from day one. We never lock clients into our systems."
+        "question": "Gehören mir der Code meiner Website und die KI-Konfigurationen?",
+        "answer": "Ja, vollständig. Nach Projektabschluss erhältst du das komplette Eigentum an Code, Designdateien, KI-Prompts und Automatisierungskonfigurationen. Die Seite läuft in deinem eigenen Vercel-Konto auf deine Rechnung. CRM, Werbekonten und Domains laufen von Anfang an auf deinen Namen. Wir binden niemanden an unsere Systeme."
       },
       {
         "category": "trust",
-        "question": "Will my site be mobile-responsive and SEO-optimized?",
-        "answer": "Yes, both are non-negotiable in every build. Mobile-first responsive design is tested at 375px, 768px, 1024px, and 1440px. Every page ships with meta titles, descriptions, schema markup, alt text, and a sitemap submitted to Google. We target Lighthouse scores of 90+ for performance and 95+ for accessibility before launch."
+        "question": "Ist meine Seite mobil optimiert und SEO-fähig?",
+        "answer": "Ja, beides ist bei jedem Projekt gesetzt. Mobile-first Design wird bei 375, 768, 1024 und 1440 Pixeln getestet. Jede Seite kommt mit Meta-Titeln, Beschreibungen, Schema-Markup, Alt-Texten und einer bei Google eingereichten Sitemap. Vor dem Launch zielen wir auf Lighthouse-Werte von über 90 für Performance und über 95 für Barrierefreiheit."
       }
     ]
   },
@@ -235,7 +235,10 @@
     "v2_globe_nowebgl": "WebGL ist in diesem Browser deaktiviert. Die Städte findest du in der Liste daneben.",
     "v2_quote_1_role": "Coach Luki, Berlin",
     "v2_quote_2_role": "Coach Kofi",
-    "v2_quote_3_role": "Sammelkarten-Shop"
+    "v2_quote_3_role": "Sammelkarten-Shop",
+    "v2_quote_1_text": "Sie haben meine komplette Seite von Grund auf gebaut, und jetzt buchen und bezahlen Kunden direkt darüber. Früher habe ich Stunden mit DMs und Rechnungen verloren.",
+    "v2_quote_2_text": "Blok Blok Studio hat meinen Online-Auftritt komplett verwandelt. Das markante Design trifft meine Coaching-Philosophie genau, und die Ergebnisse sind unglaublich.",
+    "v2_quote_3_text": "Der Shop, den sie für uns gebaut haben, ist unglaublich. Unsere Booster-Drops sind in Stunden ausverkauft, und die Community nimmt die Seite großartig an."
   },
   "projects": {
     "title": "Unsere Projekte",
@@ -311,82 +314,82 @@
   "services": {
     "title": "Our Services",
     "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",
-    "section_ai_title": "AI & Automation",
-    "section_creative_title": "Creative & Marketing",
-    "service_1_title": "AI Agent Ecosystems",
-    "service_1_subtitle": "Interconnected sub agents that run entire workflows",
-    "service_1_bullet_1": "Multi agent orchestration",
-    "service_1_bullet_2": "Lead to score to email to text to call",
-    "service_1_bullet_3": "Autonomous decision making",
-    "service_1_bullet_4": "Human in the loop escalation",
-    "service_1_bullet_5": "24/7 operation with zero downtime",
-    "service_2_title": "Conversational AI",
-    "service_2_subtitle": "Chatbots and voice agents that qualify leads nonstop",
-    "service_2_bullet_1": "Website AI chat widget",
-    "service_2_bullet_2": "AI voice agents for inbound calls",
-    "service_2_bullet_3": "Appointment booking on autopilot",
-    "service_2_bullet_4": "FAQ handling and lead qualification",
-    "service_2_bullet_5": "Natural language, not robotic",
-    "service_3_title": "Workflow Automation",
+    "section_ai_title": "KI & Automatisierung",
+    "section_creative_title": "Kreativ & Marketing",
+    "service_1_title": "KI-Agenten-Systeme",
+    "service_1_subtitle": "Vernetzte Sub-Agenten, die ganze Abläufe übernehmen",
+    "service_1_bullet_1": "Orchestrierung mehrerer Agenten",
+    "service_1_bullet_2": "Vom Lead über Scoring, E-Mail und SMS bis zum Anruf",
+    "service_1_bullet_3": "Autonome Entscheidungen",
+    "service_1_bullet_4": "Eskalation an Menschen, wenn es darauf ankommt",
+    "service_1_bullet_5": "Rund um die Uhr im Einsatz, ohne Ausfälle",
+    "service_2_title": "Konversationelle KI",
+    "service_2_subtitle": "Chatbots und Voice-Agenten, die Leads rund um die Uhr qualifizieren",
+    "service_2_bullet_1": "KI-Chat-Widget für die Website",
+    "service_2_bullet_2": "KI-Voice-Agenten für eingehende Anrufe",
+    "service_2_bullet_3": "Terminbuchung auf Autopilot",
+    "service_2_bullet_4": "FAQ-Beantwortung und Lead-Qualifizierung",
+    "service_2_bullet_5": "Natürliche Sprache statt Roboterton",
+    "service_3_title": "Workflow-Automatisierung",
     "service_3_subtitle": "Alle Tools zu einem System verbinden, das von selbst läuft",
-    "service_3_bullet_1": "CRM, calendar, and payments linked",
-    "service_3_bullet_2": "Custom integrations (no Zapier tax)",
-    "service_3_bullet_3": "AI decision logic in the loop",
-    "service_3_bullet_4": "Error handling and retry flows",
-    "service_3_bullet_5": "Client onboarding automation",
-    "service_4_title": "AI Content Systems",
-    "service_4_subtitle": "One input becomes 10 pieces of content",
-    "service_4_bullet_1": "Video to clips, captions, and posts",
-    "service_4_bullet_2": "Blog generation from transcripts",
-    "service_4_bullet_3": "Social media scheduling pipeline",
-    "service_4_bullet_4": "Brand voice consistency via AI",
-    "service_4_bullet_5": "Cross platform repurposing",
-    "service_5_title": "Client Dashboards",
-    "service_5_subtitle": "Real time portals so clients never ask for updates",
-    "service_5_bullet_1": "Live lead and pipeline tracking",
-    "service_5_bullet_2": "Ad spend and ROAS in real time",
-    "service_5_bullet_3": "Automated weekly report emails",
-    "service_5_bullet_4": "Custom KPI widgets per client",
-    "service_5_bullet_5": "White labeled to your brand",
+    "service_3_bullet_1": "CRM, Kalender und Zahlungen verbunden",
+    "service_3_bullet_2": "Eigene Integrationen, ohne Zapier-Aufschlag",
+    "service_3_bullet_3": "KI-Entscheidungslogik im Ablauf",
+    "service_3_bullet_4": "Fehlerbehandlung und Wiederholungslogik",
+    "service_3_bullet_5": "Automatisiertes Kunden-Onboarding",
+    "service_4_title": "KI-Content-Systeme",
+    "service_4_subtitle": "Aus einem Input werden zehn Inhalte",
+    "service_4_bullet_1": "Aus Video werden Clips, Untertitel und Posts",
+    "service_4_bullet_2": "Blogartikel aus Transkripten",
+    "service_4_bullet_3": "Pipeline für Social-Media-Planung",
+    "service_4_bullet_4": "Einheitliche Markenstimme dank KI",
+    "service_4_bullet_5": "Wiederverwertung über alle Plattformen",
+    "service_5_title": "Kunden-Dashboards",
+    "service_5_subtitle": "Echtzeit-Portale, damit niemand mehr nach dem Stand fragen muss",
+    "service_5_bullet_1": "Leads und Pipeline live im Blick",
+    "service_5_bullet_2": "Werbeausgaben und ROAS in Echtzeit",
+    "service_5_bullet_3": "Automatische Wochenberichte per E-Mail",
+    "service_5_bullet_4": "Individuelle KPI-Widgets pro Kunde",
+    "service_5_bullet_5": "White-Label in deinem Branding",
     "service_6_title": "Websites",
-    "service_6_subtitle": "Custom built, conversion focused sites",
-    "service_6_bullet_1": "Next.js / React builds",
-    "service_6_bullet_2": "SEO optimized from day one",
-    "service_6_bullet_3": "Mobile first responsive",
-    "service_6_bullet_4": "CMS integration",
-    "service_6_bullet_5": "Performance and speed tuning",
+    "service_6_subtitle": "Individuell gebaut, auf Conversion ausgelegt",
+    "service_6_bullet_1": "Entwicklung mit Next.js / React",
+    "service_6_bullet_2": "SEO-optimiert ab dem ersten Tag",
+    "service_6_bullet_3": "Mobile first und responsiv",
+    "service_6_bullet_4": "CMS-Anbindung",
+    "service_6_bullet_5": "Performance- und Ladezeit-Tuning",
     "service_7_title": "Branding",
-    "service_7_subtitle": "Bold visual identities that stand out",
-    "service_7_bullet_1": "Logo and brand mark design",
-    "service_7_bullet_2": "Color palette and typography",
-    "service_7_bullet_3": "Brand guidelines document",
-    "service_7_bullet_4": "Social media templates",
-    "service_7_bullet_5": "Pitch deck design",
+    "service_7_subtitle": "Markante visuelle Identitäten, die auffallen",
+    "service_7_bullet_1": "Logo- und Markenzeichen-Design",
+    "service_7_bullet_2": "Farbpalette und Typografie",
+    "service_7_bullet_3": "Brand Guidelines als Dokument",
+    "service_7_bullet_4": "Social-Media-Vorlagen",
+    "service_7_bullet_5": "Pitch-Deck-Design",
     "service_8_title": "Google Ads",
-    "service_8_subtitle": "Search campaigns for high intent buyers",
-    "service_8_bullet_1": "Keyword research and strategy",
-    "service_8_bullet_2": "Ad copy and landing pages",
-    "service_8_bullet_3": "Conversion tracking",
-    "service_8_bullet_4": "Monthly optimization",
-    "service_8_bullet_5": "Competitor analysis",
+    "service_8_subtitle": "Suchkampagnen für Käufer mit klarer Absicht",
+    "service_8_bullet_1": "Keyword-Recherche und Strategie",
+    "service_8_bullet_2": "Anzeigentexte und Landingpages",
+    "service_8_bullet_3": "Conversion-Tracking",
+    "service_8_bullet_4": "Monatliche Optimierung",
+    "service_8_bullet_5": "Wettbewerbsanalyse",
     "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook and Instagram at scale",
-    "service_9_bullet_1": "Audience and lookalike targeting",
-    "service_9_bullet_2": "Creative design and copy",
-    "service_9_bullet_3": "Retargeting funnels",
-    "service_9_bullet_4": "ROAS reporting",
-    "service_9_bullet_5": "Creative A/B testing",
+    "service_9_subtitle": "Facebook und Instagram im großen Stil",
+    "service_9_bullet_1": "Zielgruppen- und Lookalike-Targeting",
+    "service_9_bullet_2": "Kreation und Anzeigentexte",
+    "service_9_bullet_3": "Retargeting-Funnels",
+    "service_9_bullet_4": "ROAS-Reporting",
+    "service_9_bullet_5": "A/B-Tests der Kreation",
     "process_title": "Our Process",
     "step_1_title": "Discovery",
-    "step_1_desc": "We dive deep into your goals, audience, and market to build a solid foundation.",
+    "step_1_desc": "Wir tauchen tief in deine Ziele, deine Zielgruppe und deinen Markt ein und legen ein solides Fundament.",
     "step_2_title": "Strategy",
-    "step_2_desc": "We craft a tailored roadmap that aligns creative vision with business objectives.",
+    "step_2_desc": "Wir entwickeln einen Fahrplan, der kreative Vision und Geschäftsziele zusammenbringt.",
     "step_3_title": "Design",
-    "step_3_desc": "We create compelling visuals and intuitive interfaces that captivate users.",
+    "step_3_desc": "Wir gestalten überzeugende Visuals und intuitive Oberflächen, die Besucher fesseln.",
     "step_4_title": "Development",
-    "step_4_desc": "We build with modern technologies ensuring speed, scalability, and reliability.",
-    "step_5_title": "Launch & Optimize",
-    "step_5_desc": "We deploy, monitor, and continuously refine to maximize performance.",
+    "step_4_desc": "Wir bauen mit modernen Technologien, die Geschwindigkeit, Skalierbarkeit und Zuverlässigkeit sichern.",
+    "step_5_title": "Launch & Optimierung",
+    "step_5_desc": "Wir gehen live, beobachten und verfeinern laufend, damit die Seite ihr Maximum liefert.",
     "v2_label": "Leistungen",
     "v2_intro": "Zwei Dinge, richtig gemacht: Wir bauen deine Seite und halten sie am Laufen.",
     "v2_process_label": "So läuft ein Projekt ab",
@@ -407,7 +410,13 @@
     "role_marketing": "Marketing-Strategin",
     "role_fullstack": "Full Stack Developer",
     "role_video": "Video Editor",
-    "role_creative": "Creative Director"
+    "role_creative": "Creative Director",
+    "chase_studied_1": "Design und Technologie",
+    "chase_studied_2": "Parsons School of Design",
+    "chase_enjoys": "Kunstmuseen · Reisen · Content Creation",
+    "kyle_studied_1": "Creative Advertising",
+    "kyle_studied_2": "Virginia Commonwealth University",
+    "kyle_enjoys": "Brazilian Jiu-Jitsu · Animation · Secondhand-Shopping"
   },
   "contact": {
     "title": "Kontaktieren Sie Uns",
@@ -420,7 +429,8 @@
     "submit": "Nachricht Senden",
     "success": "Vielen Dank! Wir melden uns bald bei Ihnen.",
     "info_title": "Kontaktinformationen",
-    "info_address": "Berlin, DE"
+    "info_address": "Berlin, DE",
+    "consent_text": "Ich stimme der Verarbeitung meiner personenbezogenen Daten zu, wie beschrieben in der"
   },
   "footer": {
     "tagline": "Digitale Erlebnisse schaffen, die inspirieren.",
@@ -937,7 +947,11 @@
     "available": "Verfügbar für neue Projekte",
     "aria_business": "Branche",
     "aria_budget": "Budget",
-    "aria_timeline": "Zeitrahmen"
+    "aria_timeline": "Zeitrahmen",
+    "proj_live_click": "Klick dich durch die Live-Seite unten",
+    "proj_live_scroll": "Scroll durch die Live-Seite unten",
+    "proj_live_hint_embed": "Klick auf Links und navigiere wie auf der echten Seite, oder öffne sie in einem neuen Tab.",
+    "proj_live_hint_scroll": "Scroll zum Erkunden, oder öffne die Seite in einem neuen Tab."
   },
   "onboard": {
     "title": "Kunden-Onboarding",

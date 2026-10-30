@@ -41,7 +41,7 @@
       {
         "category": "pricing",
         "question": "How much does a custom website cost?",
-        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one, never templates."
+        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page, $6,500 for a 5-page site, $12,000 for 10 pages with a CMS, and $18,000 for 15 or more pages. Pricing depends on the number of pages, custom animations, integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one, never templates."
       },
       {
         "category": "pricing",
@@ -235,7 +235,10 @@
     "v2_globe_nowebgl": "WebGL is off in this browser. The cities are listed beside.",
     "v2_quote_1_role": "Coach Luki, Berlin",
     "v2_quote_2_role": "Coach Kofi",
-    "v2_quote_3_role": "Trading card store"
+    "v2_quote_3_role": "Trading card store",
+    "v2_quote_1_text": "They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices.",
+    "v2_quote_2_text": "Blok Blok Studio transformed my online presence completely. The bold design perfectly captures my coaching philosophy and the results have been incredible.",
+    "v2_quote_3_text": "The e-commerce store they built for us is incredible. Our booster pack drops sell out in hours and the community engagement through the site has been amazing."
   },
   "projects": {
     "title": "Our Projects",
@@ -407,7 +410,13 @@
     "role_marketing": "Marketing Strategist",
     "role_fullstack": "Full Stack Developer",
     "role_video": "Video Editor",
-    "role_creative": "Creative Director"
+    "role_creative": "Creative Director",
+    "chase_studied_1": "Design and Technology",
+    "chase_studied_2": "Parsons School of Design",
+    "chase_enjoys": "Art museums · Traveling · Content creation",
+    "kyle_studied_1": "Creative Advertising",
+    "kyle_studied_2": "Virginia Commonwealth University",
+    "kyle_enjoys": "Brazilian jiu jitsu · Animation · Thrifting"
   },
   "contact": {
     "title": "Get in Touch",
@@ -420,7 +429,8 @@
     "submit": "Send Message",
     "success": "Thank you! We'll get back to you soon.",
     "info_title": "Contact Info",
-    "info_address": "Berlin, DE"
+    "info_address": "Berlin, DE",
+    "consent_text": "I agree to the processing of my personal data as described in the"
   },
   "footer": {
     "tagline": "Crafting digital experiences that inspire.",
@@ -937,7 +947,11 @@
     "available": "Available for new projects",
     "aria_business": "Business type",
     "aria_budget": "Budget",
-    "aria_timeline": "Timeline"
+    "aria_timeline": "Timeline",
+    "proj_live_click": "Click and scroll the live site below",
+    "proj_live_scroll": "Scroll through the live site below",
+    "proj_live_hint_embed": "Click links and navigate just like you're on the real site, or open it in a new tab.",
+    "proj_live_hint_scroll": "Scroll to explore, or open the site in a new tab."
   },
   "onboard": {
     "title": "Client Onboarding",

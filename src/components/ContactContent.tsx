@@ -321,7 +321,7 @@ export function ContactContent() {
                     className="mt-1 h-4 w-4 rounded border-white/20 bg-white/5 text-white accent-white cursor-pointer"
                   />
                   <label htmlFor="consent" className="text-sm text-gray-400 leading-relaxed cursor-pointer">
-                    I agree to the processing of my personal data as described in the{' '}
+                    {t('consent_text')}{' '}
                     <a href="/privacy" target="_blank" className="text-white hover:text-white/80 underline transition-colors">
                       {tu('footer_privacy')}
                     </a>.

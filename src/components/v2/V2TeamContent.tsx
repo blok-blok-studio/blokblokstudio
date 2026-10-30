@@ -5,14 +5,14 @@ type Member = {
   name: string;
   roleKey: 'role_founder' | 'role_creative' | 'role_marketing' | 'role_fullstack' | 'role_video';
   location: string;
-  studied?: [string, string];
-  enjoys?: string[];
+  studied?: ['chase_studied_1' | 'kyle_studied_1', 'chase_studied_2' | 'kyle_studied_2'];
+  enjoys?: 'chase_enjoys' | 'kyle_enjoys';
   socials?: { linkedin?: string; instagram?: string; github?: string };
 };
 
 const MEMBERS: Member[] = [
-  { name: 'Chase Haynes', roleKey: 'role_founder', location: 'Berlin, Germany', studied: ['Design and Technology', 'Parsons School of Design'], enjoys: ['Art museums', 'Traveling', 'Content creation'], socials: { linkedin: 'https://www.linkedin.com/in/chase-haynes/', instagram: 'https://www.instagram.com/haynes2va/' } },
-  { name: 'Kyle Talley', roleKey: 'role_creative', location: 'Richmond, Virginia', studied: ['Creative Advertising', 'Virginia Commonwealth University'], enjoys: ['Brazilian jiu jitsu', 'Animation', 'Thrifting'], socials: { linkedin: 'https://www.linkedin.com/in/kylebtalley/', instagram: 'https://www.instagram.com/ta11ey_/' } },
+  { name: 'Chase Haynes', roleKey: 'role_founder', location: 'Berlin, Germany', studied: ['chase_studied_1', 'chase_studied_2'], enjoys: 'chase_enjoys', socials: { linkedin: 'https://www.linkedin.com/in/chase-haynes/', instagram: 'https://www.instagram.com/haynes2va/' } },
+  { name: 'Kyle Talley', roleKey: 'role_creative', location: 'Richmond, Virginia', studied: ['kyle_studied_1', 'kyle_studied_2'], enjoys: 'kyle_enjoys', socials: { linkedin: 'https://www.linkedin.com/in/kylebtalley/', instagram: 'https://www.instagram.com/ta11ey_/' } },
   { name: 'Bridget Perdomo', roleKey: 'role_marketing', location: 'Los Angeles, California' },
   { name: 'Yahya Ibrahim', roleKey: 'role_fullstack', location: 'Berlin, Germany', socials: { github: 'https://github.com/ya7ya' } },
   { name: 'Ayan Khan', roleKey: 'role_video', location: 'Multan, Pakistan' },
@@ -50,15 +50,15 @@ export async function V2TeamContent() {
                   <div>
                     <dt className={label}>{t('v2_studied')}</dt>
                     <dd className="mt-1 text-gray-200">
-                      {m.studied[0]}
-                      <span className="block text-gray-500">{m.studied[1]}</span>
+                      {t(m.studied[0])}
+                      <span className="block text-gray-500">{t(m.studied[1])}</span>
                     </dd>
                   </div>
                 )}
                 {m.enjoys && (
                   <div>
                     <dt className={label}>{t('v2_enjoys')}</dt>
-                    <dd className="mt-1 text-gray-200">{m.enjoys.join(' · ')}</dd>
+                    <dd className="mt-1 text-gray-200">{t(m.enjoys)}</dd>
                   </div>
                 )}
               </dl>
