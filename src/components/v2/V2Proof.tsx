@@ -27,17 +27,19 @@ const QUOTES = [
 
 export async function V2Proof() {
   const t = await getTranslations('home');
-  const stats = [1, 2, 3] as const;
+  // 4 = Philippine Airlines: PAL Holdings FY2025 revenue PHP 183.8B, about USD 3.1B
+  // (stockanalysis.com/quote/pse/PAL, PitchBook TTM USD 3.14B as of Jun 2025).
+  const stats = [1, 2, 3, 4] as const;
   return (
     <section className="px-5 pt-24 pb-32 sm:px-8 lg:px-12 lg:pt-32 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
         <div className="mb-10 border-b border-white/10 pb-4 text-[11px] uppercase tracking-[0.2em] text-gray-500">
           {t('v2_proof_label')}
         </div>
-        <dl className="grid gap-12 md:grid-cols-3">
+        <dl className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((n) => (
             <div key={n}>
-              <dd className="font-display text-[3.5rem] font-bold leading-none tracking-[-0.03em] text-orange-500 sm:text-[5rem] lg:text-[6.5rem]">
+              <dd className="font-display text-[3rem] font-bold leading-none tracking-[-0.03em] text-orange-500 sm:text-[4rem] lg:text-[4.75rem]">
                 {t(`v2_proof_${n}_value`)}
               </dd>
               <dt className="mt-4 max-w-xs text-sm leading-relaxed text-gray-400">

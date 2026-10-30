@@ -226,7 +226,9 @@
     "v2_hosting_bullet_3": "Security and dependency updates",
     "v2_hosting_bullet_4": "Speed tuning and Core Web Vitals checks",
     "v2_hosting_bullet_5": "Content changes and support when you need them",
-    "v2_globe_hint": "Drag to spin, scroll or pinch to zoom, or pick a city."
+    "v2_globe_hint": "Drag to spin, scroll or pinch to zoom, or pick a city.",
+    "v2_proof_4_value": "$3B+",
+    "v2_proof_4_label": "Annual revenue of our largest client, Philippine Airlines"
   },
   "projects": {
     "title": "Our Projects",

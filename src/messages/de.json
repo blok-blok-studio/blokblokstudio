@@ -226,7 +226,9 @@
     "v2_hosting_bullet_3": "Sicherheits- und Abhängigkeits-Updates",
     "v2_hosting_bullet_4": "Speed-Tuning und Core Web Vitals Checks",
     "v2_hosting_bullet_5": "Inhaltsänderungen und Support, wenn du sie brauchst",
-    "v2_globe_hint": "Ziehen zum Drehen, scrollen oder pinchen zum Zoomen, oder eine Stadt wählen."
+    "v2_globe_hint": "Ziehen zum Drehen, scrollen oder pinchen zum Zoomen, oder eine Stadt wählen.",
+    "v2_proof_4_value": "3 Mrd. $+",
+    "v2_proof_4_label": "Jahresumsatz unseres größten Kunden, Philippine Airlines"
   },
   "projects": {
     "title": "Unsere Projekte",
