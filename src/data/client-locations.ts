@@ -16,10 +16,12 @@ export interface ClientCity {
   labelAnchor?: 'left' | 'right' | 'top' | 'bottom';
   /** Only show the label when the camera altitude is below this (zoomed in). */
   labelMaxAlt?: number;
+  /** Short badge shown after the city name on the globe, e.g. HQ. */
+  tag?: string;
 }
 
 export const clientCities: ClientCity[] = [
-  { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: ['Coach Luki', 'Coach Kofi'], team: ['Chase Haynes, Founder'], studio: true },
+  { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: ['Coach Luki', 'Coach Kofi'], team: ['Chase Haynes, Founder'], studio: true, tag: 'HQ' },
   { city: 'Arlington', country: 'United States', lat: 38.88, lng: -77.1, clients: [], studio: true, labelAnchor: 'left', labelMaxAlt: 0.9 },
   { city: 'Richmond', country: 'United States', lat: 37.54, lng: -77.44, clients: [], team: ['Kyle Talley, Creative Director'], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
   { city: 'Los Angeles', country: 'United States', lat: 34.05, lng: -118.24, clients: [], studio: true, labelAnchor: 'left' },

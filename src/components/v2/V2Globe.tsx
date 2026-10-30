@@ -123,6 +123,12 @@ export function V2Globe() {
     outer.style.pointerEvents = 'none';
     const inner = document.createElement('span');
     inner.textContent = c.city;
+    if (c.tag) {
+      const badge = document.createElement('span');
+      badge.textContent = c.tag;
+      badge.style.cssText = 'margin-left:6px;padding:2px 5px;border-radius:4px;font-size:9px;font-weight:600;letter-spacing:.12em;vertical-align:1px;color:#000;background:var(--bb-primary);';
+      inner.appendChild(badge);
+    }
     const anchor = c.labelAnchor ?? 'right';
     const shift =
       anchor === 'left' ? 'translate(calc(-100% - 12px), -50%)'
@@ -240,6 +246,11 @@ export function V2Globe() {
                       <span>
                         <span className={`block text-base ${on ? 'text-white' : 'text-gray-200'}`}>
                           {c.city}
+                          {c.tag && (
+                            <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
+                              {c.tag}
+                            </span>
+                          )}
                           <span className="ml-2 text-[11px] uppercase tracking-[0.18em] text-gray-500">
                             {c.country}
                           </span>
