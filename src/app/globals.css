@@ -181,6 +181,17 @@ html[data-palette="green"] .blob-2 {
   background-color: color-mix(in srgb, var(--bb-deep) 10%, transparent);
 }
 
+/* ── NO ORPHANS, SITE-WIDE ──
+   Headings balance their line breaks; body copy and list items use
+   text-wrap: pretty, which keeps a single word from being stranded on the
+   last line. Both are progressive: unsupported browsers just wrap normally. */
+h1, h2, h3, h4, blockquote, dt {
+  text-wrap: balance;
+}
+p, li, dd, figcaption {
+  text-wrap: pretty;
+}
+
 /* ── SMOOTH SCROLLING ──
    Enables smooth scroll when clicking anchor links or "back to top" */
 html {
