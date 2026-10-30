@@ -208,7 +208,12 @@
     "v2_quiz_step_4": "Zeitplan",
     "v2_quiz_step_5": "Wie wir dich erreichen",
     "v2_hero_cta": "Mit dem Quiz starten",
-    "v2_quiz_link": "Quiz starten"
+    "v2_quiz_link": "Quiz starten",
+    "v2_globe_label": "Wo unsere Kunden sind",
+    "v2_globe_title": "Gebaut in Berlin, Virginia und Los Angeles. Geliefert in die ganze Welt.",
+    "v2_globe_sub": "Globus drehen oder eine Stadt wählen.",
+    "v2_globe_studio": "Studio",
+    "v2_globe_clients": "Kunden"
   },
   "projects": {
     "title": "Unsere Projekte",

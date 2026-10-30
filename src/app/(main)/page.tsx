@@ -6,7 +6,7 @@ import { V2Services } from '@/components/v2/V2Services';
 import { V2Work } from '@/components/v2/V2Work';
 import { V2Quiz } from '@/components/v2/V2Quiz';
 import { V2Proof } from '@/components/v2/V2Proof';
-import { V2Clients } from '@/components/v2/V2Clients';
+import { V2Globe } from '@/components/v2/V2Globe';
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('home');
@@ -29,7 +29,7 @@ export default function HomePage() {
       <V2Quiz />
       <V2Work />
       <V2Proof />
-      <V2Clients />
+      <V2Globe />
     </div>
   );
 }
