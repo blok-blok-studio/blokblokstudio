@@ -133,7 +133,8 @@ export function PaletteSwitcher() {
                 className="h-2.5 w-2.5 rounded-full border border-black/20"
                 style={{ background: dot }}
               />
-              {PALETTES[id].label}
+              <span className="hidden sm:inline">{PALETTES[id].label}</span>
+              <span className="sr-only sm:hidden">{PALETTES[id].label}</span>
             </button>
           );
         })}

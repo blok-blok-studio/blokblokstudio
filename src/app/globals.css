@@ -51,6 +51,9 @@
      To change fonts: update these values AND add the font import/link. */
   --font-sans: var(--font-inter, "Inter"), "Helvetica Neue", Arial, sans-serif;
   --font-display: var(--font-inter, "Inter"), "Helvetica Neue", Arial, sans-serif;
+  /* redesign/v2: mono for labels and numbers, serif italic for pull quotes */
+  --font-mono: var(--font-jbmono, "JetBrains Mono"), ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-serif: var(--font-instrument, "Instrument Serif"), Georgia, serif;
 }
 
 
@@ -68,6 +71,7 @@
    small text stays readable on black. */
 :root,
 html[data-palette="blue"] {
+  --bb-on-primary: #ffffff;
   --bb-primary: #2561d8;                                   /* Blue 1 */
   --bb-deep: #020887;                                      /* Blue 2 */
   --bb-tint-400: color-mix(in srgb, #2561d8 72%, white);   /* text on black */
@@ -84,6 +88,8 @@ html[data-palette="green"] {
   --bb-gray-300: #d4d4d4;
 }
 html[data-palette="current"] {
+  --bb-on-primary: #ffffff;
+  --bb-primary-hover: #fb923c;
   --bb-primary: #f97316;
   --bb-deep: #ea580c;
   --bb-tint-400: #fb923c;

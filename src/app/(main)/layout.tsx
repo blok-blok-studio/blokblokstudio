@@ -1,7 +1,6 @@
 import { getTranslations } from 'next-intl/server';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
-import { AmbientBackdrop } from '@/components/AmbientBackdrop';
+import { V2Navbar } from '@/components/v2/V2Navbar';
+import { V2Footer } from '@/components/v2/V2Footer';
 import { ChatButtons } from '@/components/ChatButtons';
 
 export default async function MainLayout({
@@ -20,12 +19,11 @@ export default async function MainLayout({
       >
         {t('skip_to_main')}
       </a>
-      <AmbientBackdrop />
-      <Navbar />
+      <V2Navbar />
       <main id="main-content" tabIndex={-1} className="min-h-screen">
         {children}
       </main>
-      <Footer />
+      <V2Footer />
       <ChatButtons />
     </>
   );
