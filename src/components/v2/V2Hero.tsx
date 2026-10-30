@@ -80,7 +80,7 @@ export async function V2Hero() {
           className="hero-enter w-[62vw] max-w-[420px] drop-shadow-[0_8px_40px_rgba(0,0,0,0.6)] md:w-[26vw]"
         />
         <h1
-          className="hero-enter mt-10 max-w-4xl font-display text-4xl font-bold leading-[1.05] tracking-[-0.02em] text-white sm:text-5xl md:text-6xl lg:text-7xl"
+          className="hero-enter mt-10 max-w-4xl text-balance font-display text-4xl font-bold leading-[1.05] tracking-[-0.02em] text-white sm:text-5xl md:text-6xl lg:text-7xl"
           style={{ animationDelay: '0.2s' }}
         >
           {t('v2_headline')}

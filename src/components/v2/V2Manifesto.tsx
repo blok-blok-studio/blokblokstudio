@@ -7,7 +7,7 @@ export async function V2Manifesto() {
   return (
     <section className="px-6 py-32 sm:py-44 lg:py-56">
       <div className="mx-auto max-w-3xl text-center">
-        <p className="font-display text-2xl font-semibold leading-snug tracking-[-0.01em] text-white sm:text-3xl md:text-[2.5rem] md:leading-[1.2]">
+        <p className="text-balance font-display text-2xl font-semibold leading-snug tracking-[-0.01em] text-white sm:text-3xl md:text-[2.5rem] md:leading-[1.2]">
           {t('v2_manifesto_a')}{' '}
           <em className="not-italic text-orange-400">{t('v2_manifesto_em')}</em>
         </p>
