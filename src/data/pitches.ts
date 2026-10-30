@@ -132,7 +132,7 @@ export interface PitchInvestmentBlock {
   type: 'investment';
   kicker?: string;
   heading?: string;
-  /** e.g. "€20,000" */
+  /** e.g. "$20,000" */
   price: string;
   priceLabel?: string;
   /** e.g. "6 weeks from kickoff" */
@@ -327,7 +327,7 @@ export const PITCHES: Record<string, PitchData> = {
         type: 'stats',
         items: [
           { value: '6 weeks', label: 'Kickoff to live. Eight weeks held as the outside date so nobody is guessing.' },
-          { value: '€20,000', label: 'Total for the build. A quarter at kickoff, the rest across six months.' },
+          { value: '$20,000', label: 'Total for the build. A quarter at kickoff, the rest across six months.' },
           { value: '21 products', label: 'Rewritten in English and French, with around 100 images and 21 videos.' },
         ],
       },
@@ -585,18 +585,18 @@ export const PITCHES: Record<string, PitchData> = {
         type: 'investment',
         kicker: 'Investment',
         heading: 'What it costs',
-        price: '€20,000',
-        priceLabel: 'Total for the build. €5,000 deposit to start, then €2,500 a month for six months.',
+        price: '$20,000',
+        priceLabel: 'Total for the build. $5,000 deposit to start, then $2,500 a month for six months.',
         timeline: '6 weeks from kickoff',
         schedule: [
-          { when: 'On signing', what: 'Kickoff booked, work begins', pay: '€5,000' },
-          { when: 'Month 1', what: 'Design approved, build underway', pay: '€2,500' },
-          { when: 'Month 2', what: 'Store live. Ongoing service starts, free', pay: '€2,500' },
-          { when: 'Month 3', what: 'Live and being looked after', pay: '€2,500' },
-          { when: 'Month 4', pay: '€2,500' },
-          { when: 'Month 5', pay: '€2,500' },
-          { when: 'Month 6', what: 'Build paid in full', pay: '€2,500' },
-          { when: 'Month 7 on', what: 'Ongoing service begins', pay: '€1,500' },
+          { when: 'On signing', what: 'Kickoff booked, work begins', pay: '$5,000' },
+          { when: 'Month 1', what: 'Design approved, build underway', pay: '$2,500' },
+          { when: 'Month 2', what: 'Store live. Ongoing service starts, free', pay: '$2,500' },
+          { when: 'Month 3', what: 'Live and being looked after', pay: '$2,500' },
+          { when: 'Month 4', pay: '$2,500' },
+          { when: 'Month 5', pay: '$2,500' },
+          { when: 'Month 6', what: 'Build paid in full', pay: '$2,500' },
+          { when: 'Month 7 on', what: 'Ongoing service begins', pay: '$1,500' },
         ],
         excludes: [
           'advertising and campaign management',
@@ -609,10 +609,10 @@ export const PITCHES: Record<string, PitchData> = {
       },
       {
         type: 'text',
-        heading: '€18,000 with one introduction',
+        heading: '$18,000 with one introduction',
         paragraphs: [
-          'Introduce us to one business in your network that goes on to work with us, and we take €2,000 off, credited against your final payments. Given your family has been in textiles for thirty years, we suspect that is not a difficult thing for you to do.',
-          'The monthly service is €1,500, starting in month seven once the build is paid off. Six months, then month to month with thirty days’ notice on either side. We are not going to tie you into a year. If we are not worth it you should be able to leave, and if we have done our job you will not want to.',
+          'Introduce us to one business in your network that goes on to work with us, and we take $2,000 off, credited against your final payments. Given your family has been in textiles for thirty years, we suspect that is not a difficult thing for you to do.',
+          'The monthly service is $1,500, starting in month seven once the build is paid off. Six months, then month to month with thirty days’ notice on either side. We are not going to tie you into a year. If we are not worth it you should be able to leave, and if we have done our job you will not want to.',
           'What you own: your domain, your Shopify account, your apps and every file we produce are yours from the first day, in your name, on your own logins. Your Shopify plan and any app subscriptions are billed to you directly, so nothing runs through us and nothing can be held over you. If you decided to stop after seeing the finished store, you would keep the work.',
         ],
       },
