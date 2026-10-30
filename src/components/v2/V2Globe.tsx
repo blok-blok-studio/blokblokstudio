@@ -69,6 +69,7 @@ export function V2Globe() {
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const boxRef = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(0);
+  const compact = size > 0 && size < 520; // phone-sized globe: labels only for the focused city
   const [webgl, setWebgl] = useState<boolean | null>(null);
   const [countries, setCountries] = useState<Feature[]>([]);
   const [colors, setColors] = useState({ team: 'rgb(255, 255, 255)', client: 'rgb(37, 97, 216)', accent: 'rgb(37, 97, 216)' });
@@ -125,6 +126,7 @@ export function V2Globe() {
 
   // When zoomed in, only the city nearest the centre of view expands into a card.
   const focusCity = useMemo(() => {
+    if (compact && active !== null) return clientCities[active];
     if (alt >= 1.15) return null;
     const rad = Math.PI / 180;
     let best: ClientCity | null = null;
@@ -139,9 +141,9 @@ export function V2Globe() {
       }
     }
     return best;
-  }, [alt, pov]);
+  }, [alt, pov, compact, active]);
   const visibleSet = clientCities
-    .filter((c) => c.labelMaxAlt === undefined || alt < c.labelMaxAlt || c === focusCity)
+    .filter((c) => (compact ? c === focusCity : c.labelMaxAlt === undefined || alt < c.labelMaxAlt || c === focusCity))
     .map((c) => c.city)
     .join('|');
   const visibleLabels = useMemo(
