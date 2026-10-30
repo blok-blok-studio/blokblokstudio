@@ -14,7 +14,7 @@ import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
 import type { GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
-import { clientCities, type ClientCity } from '@/data/client-locations';
+import { clientCities, type ClientCity, type ClientLink } from '@/data/client-locations';
 
 const Globe = dynamic(() => import('react-globe.gl'), { ssr: false });
 
@@ -168,13 +168,13 @@ export function V2Globe() {
       badge.style.cssText = 'margin-left:6px;padding:2px 5px;border-radius:4px;font-size:9px;font-weight:600;letter-spacing:.12em;vertical-align:1px;color:#000;background:var(--bb-primary);';
       title.appendChild(badge);
     }
-    inner.appendChild(title);
+    if (!c.expanded) inner.appendChild(title);
     if (c.expanded) {
       // Zoomed in: the label becomes a card listing who is here.
       const group = (label: string, names: string[], color: string) => {
         if (!names.length) return;
         const wrap = document.createElement('div');
-        wrap.style.cssText = `${font}margin-top:6px;font-size:11px;line-height:1.5;color:rgba(255,255,255,.78);white-space:nowrap;`;
+        wrap.style.cssText = `${font}margin-top:${inner.childElementCount ? 6 : 0}px;font-size:11px;line-height:1.5;color:rgba(255,255,255,.78);white-space:nowrap;`;
         const head = document.createElement('div');
         head.textContent = label;
         head.style.cssText = `font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color};margin-bottom:1px;`;
@@ -187,7 +187,10 @@ export function V2Globe() {
         inner.appendChild(wrap);
       };
       group('Team', c.team ?? [], 'var(--bb-team)');
-      group('Clients', c.clients, 'var(--bb-client)');
+      group('Clients', c.clients.map((cl) => cl.name), 'var(--bb-client)');
+      // City under the names
+      title.style.cssText = `${font}margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.1);font-size:11px;line-height:1;letter-spacing:.02em;color:rgba(255,255,255,.6);white-space:nowrap;`;
+      inner.appendChild(title);
       inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};padding:8px 10px;border-radius:8px;background:rgba(0,0,0,.82);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(4px);transition:opacity .3s;`;
     } else {
       inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};text-shadow:0 1px 6px rgba(0,0,0,.9);transition:opacity .3s;`;
@@ -314,7 +317,7 @@ export function V2Globe() {
       names.length
         ? `<div style="margin-top:4px;letter-spacing:0;text-transform:none"><span style="font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color}">${label}</span><br/><span style="color:#d1d5db">${names.join(' · ')}</span></div>`
         : '';
-    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${line('Team', c.team ?? [], 'var(--bb-team)')}${line('Clients', c.clients, 'var(--bb-client)')}</div>`;
+    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${line('Team', c.team ?? [], 'var(--bb-team)')}${line('Clients', c.clients.map((cl: ClientLink) => cl.name), 'var(--bb-client)')}</div>`;
   };
 
   return (
@@ -344,11 +347,18 @@ export function V2Globe() {
                 const on = active === i;
                 return (
                   <li key={c.city}>
-                    <button
-                      type="button"
+                    <div
+                      role="button"
+                      tabIndex={0}
                       onClick={() => pick(i, c)}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          e.preventDefault();
+                          pick(i, c);
+                        }
+                      }}
                       aria-pressed={on}
-                      className="group grid w-full grid-cols-[1.25rem_1fr_auto] items-baseline gap-4 py-3.5 text-left transition-colors hover:text-white"
+                      className="group grid w-full cursor-pointer grid-cols-[1.25rem_1fr_auto] items-baseline gap-4 py-3.5 text-left transition-colors hover:text-white"
                     >
                       <span
                         aria-hidden="true"
@@ -356,39 +366,55 @@ export function V2Globe() {
                         style={{ background: c.studio ? 'var(--bb-team)' : 'var(--bb-client)' }}
                       />
                       <span>
-                        <span className={`block text-base ${on ? 'text-white' : 'text-gray-200'}`}>
+                        {c.team && c.team.length > 0 && (
+                          <span className={`flex items-baseline gap-2 text-base ${on ? 'text-white' : 'text-gray-100'}`}>
+                            <span className="h-1.5 w-1.5 shrink-0 translate-y-[-2px] rounded-full" style={{ background: 'var(--bb-team)' }} />
+                            {c.team.join(' · ')}
+                          </span>
+                        )}
+                        {c.clients.length > 0 && (
+                          <span className={`flex flex-wrap items-baseline gap-x-2 gap-y-0.5 text-base ${on ? 'text-white' : 'text-gray-100'}`}>
+                            <span className="h-1.5 w-1.5 shrink-0 translate-y-[-2px] rounded-full" style={{ background: 'var(--bb-client)' }} />
+                            {c.clients.map((cl, j) => (
+                              <span key={cl.name} className="inline-flex items-baseline gap-2">
+                                {cl.url ? (
+                                  <a
+                                    href={cl.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    onClick={(e) => e.stopPropagation()}
+                                    className="underline decoration-white/20 underline-offset-4 transition-colors hover:text-white hover:decoration-white"
+                                  >
+                                    {cl.name}
+                                    {cl.archived && <span className="ml-1 text-[10px] text-gray-500">(archive)</span>}
+                                  </a>
+                                ) : (
+                                  cl.name
+                                )}
+                                {j < c.clients.length - 1 && <span className="text-gray-600">·</span>}
+                              </span>
+                            ))}
+                          </span>
+                        )}
+                        {!c.team?.length && !c.clients.length && (
+                          <span className={`block text-base ${on ? 'text-white' : 'text-gray-100'}`}>Blok Blok Studio</span>
+                        )}
+                        <span className="mt-1 block text-sm text-gray-500">
                           {c.city}
-                          {c.region && <span className="text-gray-400">, {c.region}</span>}
+                          {c.region ? `, ${c.region}` : ''}
                           {c.tag && (
                             <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
                               {c.tag}
                             </span>
                           )}
-                          <span className="ml-2 text-[11px] uppercase tracking-[0.18em] text-gray-500">
-                            {c.country}
-                          </span>
+                          <span className="ml-2 text-[11px] uppercase tracking-[0.18em] text-gray-600">{c.country}</span>
                         </span>
-                        {c.team && c.team.length > 0 && (
-                          <span className="mt-1 flex items-baseline gap-2 text-sm text-gray-400">
-                            <span className="h-1.5 w-1.5 shrink-0 translate-y-[-1px] rounded-full" style={{ background: 'var(--bb-team)' }} />
-                            {c.team.join(' · ')}
-                          </span>
-                        )}
-                        {c.clients.length > 0 && (
-                          <span className="mt-1 flex items-baseline gap-2 text-sm text-gray-400">
-                            <span className="h-1.5 w-1.5 shrink-0 translate-y-[-1px] rounded-full" style={{ background: 'var(--bb-client)' }} />
-                            {c.clients.join(' · ')}
-                          </span>
-                        )}
-                        {!c.team?.length && !c.clients.length && (
-                          <span className="mt-1 block text-sm text-gray-500">{t('v2_globe_studio')}</span>
-                        )}
                       </span>
                       <span className="flex flex-col items-end gap-1 text-[11px] uppercase tracking-[0.18em]">
                         {c.studio && <span style={{ color: 'var(--bb-team)' }}>{t('v2_globe_team')}</span>}
                         {c.clients.length > 0 && <span style={{ color: 'var(--bb-client)' }}>{t('v2_globe_clients')}</span>}
                       </span>
-                    </button>
+                    </div>
                   </li>
                 );
               })}
