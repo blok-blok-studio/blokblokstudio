@@ -43,24 +43,24 @@ export async function V2Hero() {
   return (
     <section className="relative w-full overflow-hidden bg-black">
       {/* Mosaic */}
-      <div aria-hidden="true" className="grid grid-cols-3 opacity-80 md:grid-cols-6">
+      <div aria-hidden="true" className="grid grid-cols-3 gap-1 p-1 opacity-80 md:grid-cols-6">
         {TILES.map((tile, i) => {
           const delay = { animationDelay: `${(i % 6) * 0.06 + Math.floor(i / 6) * 0.1}s` };
           if (tile.kind === 'image') {
             return (
-              <div key={i} className="hero-enter relative aspect-square overflow-hidden bg-gray-900" style={delay}>
+              <div key={i} className="hero-enter relative aspect-square overflow-hidden rounded-xl bg-gray-900" style={delay}>
                 <Image src={tile.src} alt="" fill sizes="(min-width: 768px) 17vw, 34vw" className="object-cover object-top" priority={i < 6} />
               </div>
             );
           }
           if (tile.kind === 'glyph') {
             return (
-              <div key={i} className={`hero-enter flex aspect-square items-center justify-center ${tile.bg}`} style={delay}>
+              <div key={i} className={`hero-enter flex aspect-square items-center justify-center rounded-xl ${tile.bg}`} style={delay}>
                 <span className={`text-[22vw] leading-none md:text-[9vw] ${tile.fg}`}>{tile.char}</span>
               </div>
             );
           }
-          return <div key={i} className={`hero-enter aspect-square ${tile.bg}`} style={delay} />;
+          return <div key={i} className={`hero-enter aspect-square rounded-xl ${tile.bg}`} style={delay} />;
         })}
       </div>
 

@@ -195,7 +195,7 @@ export function V2Globe() {
       // City under the names
       title.style.cssText = `${font}margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.1);font-size:11px;line-height:1;letter-spacing:.02em;color:rgba(255,255,255,.6);white-space:nowrap;`;
       inner.appendChild(title);
-      inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};padding:8px 10px;border-radius:8px;background:rgba(0,0,0,.82);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(4px);transition:opacity .3s;`;
+      inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};padding:8px 10px;border-radius:12px;background:rgba(0,0,0,.82);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(4px);transition:opacity .3s;`;
     } else {
       inner.style.cssText = `position:absolute;left:0;top:0;transform:${shift};text-shadow:0 1px 6px rgba(0,0,0,.9);transition:opacity .3s;`;
     }
@@ -321,7 +321,7 @@ export function V2Globe() {
       names.length
         ? `<div style="margin-top:4px;letter-spacing:0;text-transform:none"><span style="font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color}">${label}</span><br/><span style="color:#d1d5db">${names.join(' · ')}</span></div>`
         : '';
-    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:8px;white-space:nowrap">${c.city}${line('Team', (c.team ?? []).map((m: TeamMember) => `${m.name}, ${m.title}`), 'var(--bb-team)')}${line('Clients', c.clients.map((cl: ClientLink) => cl.name), 'var(--bb-client)')}</div>`;
+    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:12px;white-space:nowrap">${c.city}${line('Team', (c.team ?? []).map((m: TeamMember) => `${m.name}, ${m.title}`), 'var(--bb-team)')}${line('Clients', c.clients.map((cl: ClientLink) => cl.name), 'var(--bb-client)')}</div>`;
   };
 
   return (

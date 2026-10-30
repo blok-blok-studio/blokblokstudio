@@ -41,7 +41,7 @@ export async function V2Services() {
 
         <div className="grid gap-12 md:grid-cols-2 lg:gap-20">
           {offers.map((o) => (
-            <Link key={o.n} href="/services" className="group block border-t border-white/10 pt-8">
+            <Link key={o.n} href="/services" className="group block rounded-3xl border border-white/10 p-8 transition-colors hover:border-white/20 sm:p-10">
               <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{o.n}</p>
               <h3 className="mt-4 font-display text-3xl font-semibold tracking-tight text-white transition-colors group-hover:text-orange-400 sm:text-4xl">
                 {o.title}

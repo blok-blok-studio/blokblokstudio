@@ -34,7 +34,7 @@ export async function V2Work() {
               <li key={f.slug} className={wide ? 'md:col-span-2' : ''}>
                 <Link href={`/projects/${f.slug}`} className="group block">
                   <div
-                    className={`relative overflow-hidden bg-gray-950 ${
+                    className={`relative overflow-hidden rounded-2xl bg-gray-950 ${
                       wide ? 'aspect-[16/9]' : 'aspect-[4/3]'
                     }`}
                   >

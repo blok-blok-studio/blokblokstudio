@@ -58,14 +58,14 @@ export async function V2Footer() {
             <p className="text-[11px] uppercase tracking-[0.2em] text-gray-500">
               Chase Haynes · {t('v2_founder')}
             </p>
-            <ul className="mt-4 divide-y divide-white/10 border-y border-white/10">
+            <ul className="mt-4 divide-y divide-white/10 overflow-hidden rounded-2xl border border-white/10">
               {contacts.map((c) => (
                 <li key={c.href}>
                   <a
                     href={c.href}
                     target={c.external ? '_blank' : undefined}
                     rel={c.external ? 'noopener noreferrer' : undefined}
-                    className="group flex items-center justify-between py-4 text-lg text-white"
+                    className="group flex items-center justify-between px-5 py-4 text-lg text-white transition-colors hover:bg-white/5"
                   >
                     {c.label}
                     <span

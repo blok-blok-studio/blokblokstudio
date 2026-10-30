@@ -13,7 +13,7 @@ export async function V2Quiz() {
   const t = await getTranslations('home');
   return (
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
-      <div className="mx-auto max-w-[1600px] border border-white/10 p-6 sm:p-12 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,40rem)] lg:gap-16 lg:p-16">
+      <div className="mx-auto max-w-[1600px] rounded-3xl border border-white/10 p-6 sm:p-12 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,40rem)] lg:gap-16 lg:p-16">
         <div>
           <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{t('v2_quiz_label')}</p>
           <h2 className="mt-5 max-w-2xl text-3xl font-display font-bold leading-[1.05] tracking-[-0.02em] text-white sm:text-5xl lg:text-6xl">
