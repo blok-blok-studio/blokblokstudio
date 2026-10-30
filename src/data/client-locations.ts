@@ -24,7 +24,7 @@ export interface ClientCity {
 
 export const clientCities: ClientCity[] = [
   { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: ['Coach Luki', 'Coach Kofi'], team: ['Chase Haynes, Founder'], studio: true, tag: 'HQ' },
-  { city: 'Richmond', region: 'Virginia', country: 'United States', lat: 37.54, lng: -77.44, clients: [], team: ['Kyle Talley, Creative Director'], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
+  { city: 'Richmond', region: 'Virginia', country: 'United States', lat: 37.54, lng: -77.44, clients: ['Exotic Ripz'], team: ['Kyle Talley, Creative Director'], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
   { city: 'Los Angeles', region: 'California', country: 'United States', lat: 34.05, lng: -118.24, clients: [], studio: true, labelAnchor: 'left' },
   { city: 'Karachi', country: 'Pakistan', lat: 24.86, lng: 67.01, clients: [], team: ['Ayan Khan, Video Editor'], studio: true },
   { city: 'Dallas', region: 'Texas', country: 'United States', lat: 32.78, lng: -96.8, clients: ['Bronco Plumbing'], labelAnchor: 'right' },
@@ -32,5 +32,7 @@ export const clientCities: ClientCity[] = [
   { city: 'New York', region: 'New York', country: 'United States', lat: 40.71, lng: -74.0, clients: ['The New School'], labelAnchor: 'top' },
   { city: 'Washington, DC', country: 'United States', lat: 38.9, lng: -77.04, clients: ['Mind and Body Retreats'], labelAnchor: 'right' },
   { city: 'Salt Lake City', region: 'Utah', country: 'United States', lat: 40.76, lng: -111.89, clients: ['Grant Parkhurst Photography'] },
+  { city: 'Minneapolis', region: 'Minnesota', country: 'United States', lat: 44.98, lng: -93.27, clients: ['KDS Systems'], labelAnchor: 'top' },
+  { city: 'Albuquerque', region: 'New Mexico', country: 'United States', lat: 35.08, lng: -106.65, clients: ['Public Affair'], labelAnchor: 'bottom' },
   { city: 'Manila', country: 'Philippines', lat: 14.6, lng: 120.98, clients: ['Philippine Airlines'] },
 ];
