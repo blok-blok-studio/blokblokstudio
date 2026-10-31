@@ -244,7 +244,14 @@
     "v2_offer_subtitle": "Individuell gebaut, auf Conversion ausgelegt, Hosting und Betreuung inklusive",
     "v2_offer_build_label": "Der Bau",
     "v2_offer_care_label": "Hosting und Betreuung, inklusive",
-    "v2_result_grant_parkhurst": "Portfolio plus Self-Service-Kundenportal, live seit September 2026."
+    "v2_result_grant_parkhurst": "Portfolio plus Self-Service-Kundenportal, live seit September 2026.",
+    "v2_next_label": "So geht es weiter",
+    "v2_next_1_title": "Wir rufen zurück",
+    "v2_next_1_desc": "Innerhalb eines Werktags. Zwanzig Minuten dazu, was die Seite für Ihr Geschäft leisten muss, sonst nichts.",
+    "v2_next_2_title": "Umfang und ein Festpreis",
+    "v2_next_2_desc": "Ein schriftlicher Plan mit Seiten, Zeitrahmen und einer einzigen Zahl. Fünf Seiten ab {price}, keine Stundenabrechnung.",
+    "v2_next_3_title": "Kickoff bis Launch",
+    "v2_next_3_desc": "Anzahlung rein, wir legen los. Die meisten Fünf-Seiten-Projekte sind in vier bis sechs Wochen live, Hosting und Betreuung inklusive."
   },
   "projects": {
     "title": "Unsere Projekte",
@@ -957,7 +964,11 @@
     "proj_live_click": "Klick dich durch die Live-Seite unten",
     "proj_live_scroll": "Scroll durch die Live-Seite unten",
     "proj_live_hint_embed": "Klick auf Links und navigiere wie auf der echten Seite, oder öffne sie in einem neuen Tab.",
-    "proj_live_hint_scroll": "Das ist ein Screenshot der ganzen Seite. Scroll im Fenster, oder öffne die Live-Seite in einem neuen Tab."
+    "proj_live_hint_scroll": "Das ist ein Screenshot der ganzen Seite. Scroll im Fenster, oder öffne die Live-Seite in einem neuen Tab.",
+    "proj_challenge": "Die Aufgabe",
+    "proj_solution": "Was wir gebaut haben",
+    "proj_results": "Das Ergebnis",
+    "proj_numbers": "In Zahlen"
   },
   "onboard": {
     "title": "Kunden-Onboarding",

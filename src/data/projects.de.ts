@@ -4,7 +4,7 @@
  */
 import type { ProjectData } from './projects';
 
-export type ProjectCopy = Pick<ProjectData, 'desc' | 'challenge' | 'solution' | 'results'> & { category?: string };
+export type ProjectCopy = Pick<ProjectData, 'desc' | 'challenge' | 'solution' | 'results'> & { category?: string; metrics?: ProjectData['metrics'] };
 
 export const projectsDe: Record<string, ProjectCopy> = {
   'coach-luki': {
@@ -18,18 +18,30 @@ export const projectsDe: Record<string, ProjectCopy> = {
     challenge: 'Colton Staley gründete Bronco Plumbing 2026 in Dallas–Fort Worth als inhabergeführten Betrieb im ersten Jahr. Start bei null: keine Website, keine Online-Präsenz, kein Weg für Hausbesitzer in DFW, ihn bei der Suche nach einem Klempner zu finden. Im Handwerk bekommt den Anruf, wer bei Google zuerst auftaucht und Qualität belegen kann.',
     solution: 'Wir haben eine Website rund um Colton selbst gebaut: Inhaber bei jedem Einsatz, ehrliche Kostenvoranschläge, echte Google-Bewertungen live eingebunden. Jeder Abschnitt führt zu einem Anruf oder einer Anfrage, mit einer fixierten mobilen Anrufleiste für Hausbesitzer mitten im Notfall. Lokales SEO für Sanitärsuchen in DFW war von Tag eins dabei, und die Kontaktpipeline speist direkt seinen Auftragsablauf.',
     results: 'In den ersten fünf Monaten erzielte Colton über 50.000 $ Bruttoumsatz aus Sanitärarbeit und Online-System zusammen. Die Seite hält 5,0 Sterne bei 52 Google-Bewertungen, rangiert für ihre Suchbegriffe im Schnitt auf Position 5,2 und erreichte in den ersten drei Monaten der Messung über 8.000 Suchimpressionen.',
+    metrics: [
+      { value: '50.000 $', label: 'Bruttoumsatz in den ersten 5 Monaten' },
+      { value: '5,0', label: 'Google-Bewertung bei 52 Rezensionen' },
+      { value: '5,2', label: 'Durchschnittliche Google-Position' },
+      { value: '8.000+', label: 'Suchimpressionen in 3 Monaten' },
+    ],
   },
   'coach-kofi': {
     desc: 'Leistungsstarke Personal-Brand- und Coaching-Plattform mit markanter visueller Identität.',
     challenge: 'Coach Kofi brauchte eine Personal-Brand-Website, die zu seiner Philosophie „Just Do The Work“ passt. Der bisherige Auftritt spiegelte weder die Energie noch die Autorität, die er in Bewegungs-, Leistungs- und Entwicklungscoaching einbringt.',
     solution: 'Wir haben eine markante Schwarz-Weiß-Website mit kräftiger Typografie, professioneller Fotografie und einem klaren Weg vom Besucher zum Coaching-Kunden entworfen. Die Seite bietet Echtzeit-Buchung, Social-Proof-Zähler (über 150 Kunden, über 8.000 Coaching-Stunden) und ein mobile-first Design.',
     results: 'Ein professioneller Markenauftritt, der Autorität sofort vermittelt. Der vereinfachte Buchungsablauf steigerte die Beratungsanfragen um 200 %, und das markante Design wurde plattformübergreifend zum Markenzeichen von Coach Kofi.',
+    metrics: [{ value: '200 %', label: 'Mehr Beratungsanfragen nach dem Launch' }],
   },
   'exotic-ripz': {
     desc: 'Lebendige E-Commerce-Plattform für eine Community-Marke rund um Sammelkarten.',
     challenge: 'Exotic Ripz brauchte einen Online-Shop, der die Begeisterung und Energie der Sammelkarten-Community einfängt. Die Plattform musste Booster-Packs, Neuerscheinungen, Nachschub und Community-Aktivität über Discord, Twitch und Social Media abbilden.',
     solution: 'Wir haben einen voll ausgestatteten Shopify-Shop gebaut, mit markantem animiertem Branding, eingebundenen Discord-Community-Links, Präsenz auf allen Plattformen (Discord, YouTube, Twitch, TikTok, Instagram, X, Threads), smarter Produktkategorisierung und conversion-optimierten Pop-ups zur E-Mail-Erfassung.',
     results: 'Über 191.000 $ Umsatz mit Sammelkarten bei 1.790 Bestellungen über den Shop, den wir gebaut und ausgeliefert haben, inklusive komplett eingerichtetem Versand-Backend. Die E-Mail-Liste wuchs im ersten Monat um 400 % durch smarte Rabatt-Erfassung, und Booster-Drops waren regelmäßig innerhalb von Stunden ausverkauft. Der Shop wurde an die Inhaber übergeben, die die Seite inzwischen offline genommen haben; einen Live-Link gibt es daher nicht.',
+    metrics: [
+      { value: '191.000 $', label: 'Umsatz über den Shop' },
+      { value: '1.790', label: 'Verschickte Bestellungen' },
+      { value: '400 %', label: 'Wachstum der E-Mail-Liste im ersten Monat' },
+    ],
   },
   'kds-systems': {
     desc: 'Moderne Cloud-Plattform für einen Anbieter von Managed IT und Cloud-Computing.',
@@ -43,6 +55,7 @@ export const projectsDe: Record<string, ProjectCopy> = {
     challenge: 'Public Affair brauchte einen digitalen Auftritt, der Luxus, Anspruch und Exklusivität vermittelt. Die Marke verlangte eine elegante Altersverifikation, die den Ton setzt, bevor Besucher die eigentliche Seite betreten.',
     solution: 'Wir haben ein elegantes Markenerlebnis gestaltet, beginnend mit einem durchdachten Alterscheck mit eigener Schreibschrift-Typografie und einer satten Palette aus Marineblau und Gold. Jeder Berührungspunkt fühlt sich hochwertig an, vom P.A.-Monogramm bis zum feinen Text, der die Verifikation wie eine Einladung statt einer Hürde wirken lässt.',
     results: 'Die Markenbekanntheit in den Zielgruppen stieg deutlich. Den Alterscheck schließen über 95 % der Besucher ab. Der Einstieg wird als Erlebnis wahrgenommen, nicht als Abschreckung. Die Premium-Positionierung führte zu höherem wahrgenommenen Wert und höheren durchschnittlichen Bestellwerten.',
+    metrics: [{ value: '95 %+', label: 'Besucher, die das Age Gate abschließen' }],
   },
   'military-newschool': {
     desc: 'Institutioneller Webauftritt für das Center for Military-Affiliated Students der New School.',

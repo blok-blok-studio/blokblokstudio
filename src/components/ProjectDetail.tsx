@@ -30,8 +30,8 @@
 
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
 import { AnimatedSection } from './AnimatedSection';
+import { ScaledLiveIframe } from './ScaledLiveIframe';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -39,61 +39,6 @@ import { videoForProject, type SiteVideoKey } from '@/data/videos';
 import { VideoTranscript } from './VideoTranscript';
 import { projectsData, localizeProject } from '@/data/projects';
 import { useTranslations, useLocale } from 'next-intl';
-
-/**
- * The iframe is rendered at a fixed "desktop" viewport width and then
- * CSS-scaled down to fit our container. This forces the embedded site
- * to load its real desktop layout (so navs don't wrap, headers don't
- * squish) regardless of how wide our card actually is on screen.
- */
-const IFRAME_RENDER_WIDTH = 1440;
-const IFRAME_VIEWPORT_HEIGHT = 700;
-
-function ScaledLiveIframe({
-  src,
-  title,
-}: {
-  src: string;
-  title: string;
-}) {
-  const wrapRef = useRef<HTMLDivElement>(null);
-  const [scale, setScale] = useState(1);
-
-  useEffect(() => {
-    const update = () => {
-      if (!wrapRef.current) return;
-      const w = wrapRef.current.offsetWidth;
-      setScale(Math.min(1, w / IFRAME_RENDER_WIDTH));
-    };
-    update();
-    const ro = new ResizeObserver(update);
-    if (wrapRef.current) ro.observe(wrapRef.current);
-    return () => ro.disconnect();
-  }, []);
-
-  return (
-    <div
-      ref={wrapRef}
-      className="relative w-full overflow-hidden bg-white"
-      style={{ height: IFRAME_VIEWPORT_HEIGHT }}
-    >
-      <iframe
-        src={src}
-        title={title}
-        loading="lazy"
-        sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-popups-to-escape-sandbox"
-        referrerPolicy="no-referrer"
-        className="block bg-white"
-        style={{
-          width: IFRAME_RENDER_WIDTH,
-          height: IFRAME_VIEWPORT_HEIGHT / (scale || 1),
-          transform: `scale(${scale})`,
-          transformOrigin: 'top left',
-        }}
-      />
-    </div>
-  );
-}
 
 /**
  * ---------------------------------------------------------------------------

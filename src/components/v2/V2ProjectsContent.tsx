@@ -71,6 +71,7 @@ export function V2ProjectsContent() {
               const p = localizeProject(slug, locale) ?? projectsData[slug];
               const wide = i === 0 && cat === 'all';
               const img = IMAGES[slug] ?? p.heroImage;
+              const m = p.metrics?.[0];
               return (
                 <li key={slug} className={wide ? 'md:col-span-2' : ''}>
                   <Link href={`/projects/${slug}`} className="group block">
@@ -92,6 +93,12 @@ export function V2ProjectsContent() {
                         {CAT_KEY[p.category] ? t(CAT_KEY[p.category]) : p.category} · {p.year}
                       </span>
                     </div>
+                    {m && (
+                      <p className="mt-4 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                        <span className="font-display text-3xl font-bold tracking-[-0.02em] text-orange-500">{m.value}</span>
+                        <span className="text-[11px] uppercase tracking-[0.18em] text-gray-500">{m.label}</span>
+                      </p>
+                    )}
                     <p className="mt-2 max-w-xl text-sm leading-relaxed text-gray-400">
                       {RESULT_KEY[slug] ? th(RESULT_KEY[slug] as 'v2_result_coach_luki') : p.desc}
                     </p>

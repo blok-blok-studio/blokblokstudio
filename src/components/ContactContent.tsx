@@ -67,6 +67,7 @@ import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
 import { Turnstile } from './Turnstile';
 import { clientCities } from '@/data/client-locations';
+import { V2NextSteps } from './v2/V2NextSteps';
 import { motion } from 'framer-motion';
 
 /**
@@ -394,6 +395,8 @@ export function ContactContent() {
             </div>
           </AnimatedSection>
         </div>
+
+        <V2NextSteps compact />
       </div>
     </section>
   );

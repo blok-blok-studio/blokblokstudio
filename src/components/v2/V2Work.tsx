@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { getTranslations } from 'next-intl/server';
-import { projectsData } from '@/data/projects';
+import { getLocale, getTranslations } from 'next-intl/server';
+import { localizeProject, projectsData } from '@/data/projects';
 
 /**
  * V2Work — editorial grid of the five featured projects with the result
@@ -18,6 +18,7 @@ const FEATURED = [
 export async function V2Work() {
   const t = await getTranslations('home');
   const tp = await getTranslations('projects');
+  const locale = await getLocale();
   const CAT_KEY: Record<string, 'cat_web' | 'cat_ecom' | 'cat_brand'> = { 'Web Design': 'cat_web', 'E-Commerce': 'cat_ecom', Branding: 'cat_brand' };
   return (
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
@@ -30,7 +31,8 @@ export async function V2Work() {
         </div>
         <ul className="grid gap-x-8 gap-y-16 md:grid-cols-2">
           {FEATURED.map((f, i) => {
-            const p = projectsData[f.slug];
+            const p = localizeProject(f.slug, locale) ?? projectsData[f.slug];
+            const m = p.metrics?.[0];
             const wide = i === 0;
             return (
               <li key={f.slug} className={wide ? 'md:col-span-2' : ''}>
@@ -57,6 +59,12 @@ export async function V2Work() {
                       {CAT_KEY[p.category] ? tp(CAT_KEY[p.category]) : p.category} · {p.year}
                     </span>
                   </div>
+                  {m && (
+                    <p className="mt-4 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                      <span className="font-display text-3xl font-bold tracking-[-0.02em] text-orange-500">{m.value}</span>
+                      <span className="text-[11px] uppercase tracking-[0.18em] text-gray-500">{m.label}</span>
+                    </p>
+                  )}
                   <p className="mt-2 max-w-xl text-sm leading-relaxed text-gray-400">{t(f.key)}</p>
                 </Link>
               </li>

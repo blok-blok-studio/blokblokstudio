@@ -244,7 +244,14 @@
     "v2_offer_subtitle": "Custom build, conversion focused, with hosting and care included",
     "v2_offer_build_label": "The build",
     "v2_offer_care_label": "Hosting and care, included",
-    "v2_result_grant_parkhurst": "Portfolio plus a self-serve client portal, live since September 2026."
+    "v2_result_grant_parkhurst": "Portfolio plus a self-serve client portal, live since September 2026.",
+    "v2_next_label": "What happens next",
+    "v2_next_1_title": "We call you back",
+    "v2_next_1_desc": "Within one business day. Twenty minutes on what the site has to do for the business, nothing else.",
+    "v2_next_2_title": "Scope and one fixed price",
+    "v2_next_2_desc": "A written plan with pages, timeline and a single number. Five pages from {price}, no hourly billing.",
+    "v2_next_3_title": "Kickoff to launch",
+    "v2_next_3_desc": "Deposit in, we start. Most five-page sites go live in four to six weeks, hosting and care included."
   },
   "projects": {
     "title": "Our Projects",
@@ -957,7 +964,11 @@
     "proj_live_click": "Click and scroll the live site below",
     "proj_live_scroll": "Scroll through the live site below",
     "proj_live_hint_embed": "Click links and navigate just like you're on the real site, or open it in a new tab.",
-    "proj_live_hint_scroll": "This is a full-page snapshot. Scroll inside the window, or open the live site in a new tab."
+    "proj_live_hint_scroll": "This is a full-page snapshot. Scroll inside the window, or open the live site in a new tab.",
+    "proj_challenge": "The challenge",
+    "proj_solution": "What we built",
+    "proj_results": "The results",
+    "proj_numbers": "By the numbers"
   },
   "onboard": {
     "title": "Client Onboarding",

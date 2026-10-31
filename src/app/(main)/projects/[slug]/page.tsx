@@ -6,14 +6,14 @@
  * PURPOSE:
  *   Dynamic route that renders a full case study page for each project.
  *   The slug parameter is matched against the projectsData object in
- *   ProjectDetail.tsx.
+ *   projects.ts.
  *
  * STATIC GENERATION:
  *   generateStaticParams() pre-renders all known project slugs at build time.
  *   This means every project page is statically generated for fast loading.
  *
  * TO ADD A NEW PROJECT PAGE:
- *   Add a new entry to the `projectsData` object in ProjectDetail.tsx.
+ *   Add a new entry to the `projectsData` object in src/data/projects.ts.
  *   The slug (key) will automatically become a new route.
  *
  * ============================================================================
@@ -21,7 +21,7 @@
 
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { ProjectDetail } from '@/components/ProjectDetail';
+import { V2ProjectDetail } from '@/components/v2/V2ProjectDetail';
 import { projectsData, getAllProjectSlugs, localizeProject } from '@/data/projects';
 import { getLocale } from 'next-intl/server';
 import { VideoSchema } from '@/app/structured-data';
@@ -80,7 +80,7 @@ export default async function ProjectPage({
   return (
     <div className="page-transition">
       {video && <VideoSchema videos={[video]} />}
-      <ProjectDetail slug={slug} />
+      <V2ProjectDetail slug={slug} />
     </div>
   );
 }

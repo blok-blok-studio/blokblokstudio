@@ -27,6 +27,12 @@ export interface ProjectData {
   challenge: string;
   solution: string;
   results: string;
+  /**
+   * Headline numbers for the case study: shown as a results strip at the
+   * top of the project page and as the first chip on work cards. Keep each
+   * value short ("$191k", "5.0", "200%") and the label under ~40 chars.
+   */
+  metrics?: { value: string; label: string }[];
   heroImage: string | null;
   gallery: (string | null)[];
   nextSlug: string | null;
@@ -88,6 +94,12 @@ export const projectsData: Record<string, ProjectData> = {
     results: 'In his first 5 months, Colton generated over $50,000 in gross revenue between his plumbing work and the online system. The site holds a 5.0-star rating across 52 Google reviews, ranks at an average position of 5.2 on Google for its search terms, and earned 8,000+ search impressions in its first 3 months of tracking.',
     heroImage: '/images/projects/bronco.webp',
     gallery: ['/images/projects/bronco.webp', '/images/projects/bronco-mobile.webp', null],
+    metrics: [
+      { value: '$50k', label: 'Gross revenue in the first 5 months' },
+      { value: '5.0', label: 'Google rating across 52 reviews' },
+      { value: '5.2', label: 'Average Google position' },
+      { value: '8,000+', label: 'Search impressions in 3 months' },
+    ],
     nextSlug: 'coach-kofi',
     url: 'https://www.broncoplumbingdfw.com',
     mobileImage: '/images/projects/bronco-mobile.webp',
@@ -103,6 +115,7 @@ export const projectsData: Record<string, ProjectData> = {
     results: 'Professional brand presence that instantly communicates authority. Streamlined booking flow increased consultation requests by 200%, and the bold design became a signature part of Coach Kofi\'s brand identity across platforms.',
     heroImage: '/images/projects/coachkofi.webp',
     gallery: ['/images/projects/coachkofi.webp', '/images/projects/coachkofi-mobile.webp', null],
+    metrics: [{ value: '200%', label: 'More consultation requests after launch' }],
     nextSlug: 'exotic-ripz',
     url: 'https://coachkofi.de',
     mobileImage: '/images/projects/coachkofi-mobile.webp',
@@ -121,6 +134,11 @@ export const projectsData: Record<string, ProjectData> = {
     results: 'Over $191,000 in trading card sales across 1,790 orders on the store we built and shipped, with the shipping backend configured end to end. Email list grew 400% in the first month through smart discount capture, and booster pack drops consistently sold out within hours of release. The store was handed back to the owners to maintain, and they have since taken the site down, so there is no live link to share.',
     heroImage: '/images/projects/exoticripz.jpg',
     gallery: ['/images/projects/exoticripz.jpg', '/images/projects/exoticripz-mobile.jpg', null],
+    metrics: [
+      { value: '$191k', label: 'Sales through the store' },
+      { value: '1,790', label: 'Orders shipped' },
+      { value: '400%', label: 'Email list growth in month one' },
+    ],
     nextSlug: 'kds-systems',
     // No url: the owners took the site down after we handed it back to
     // them to maintain, so there is nothing live to link or preview.
@@ -153,6 +171,7 @@ export const projectsData: Record<string, ProjectData> = {
     results: 'Brand recognition increased significantly in target demographics. The age gate experience has a 95%+ completion rate. Visitors enjoy the entry experience rather than being deterred. Premium positioning led to higher perceived value and average order values.',
     heroImage: '/images/projects/public-affair.webp',
     gallery: ['/images/projects/public-affair.webp', '/images/projects/public-affair-mobile.webp', null],
+    metrics: [{ value: '95%+', label: 'Visitors who complete the age gate' }],
     nextSlug: 'military-newschool',
     url: 'https://public-affair.com',
     mobileImage: '/images/projects/public-affair-mobile.webp',
