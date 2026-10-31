@@ -2,14 +2,18 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { V2PageHero } from './V2PageHero';
 import { yearsInBusiness } from '@/data/studio';
+import { allClients, industriesServed } from '@/data/client-locations';
 
 export async function V2AboutContent() {
   const t = await getTranslations('about');
+  // Clients and industries are counted from client-locations.ts so the About
+  // numbers can never drift from the globe and the trust bar.
+  const industries = industriesServed();
   const stats = [
     { value: '15+', label: t('stats_projects') },
-    { value: '11', label: t('stats_clients') },
-    { value: String(yearsInBusiness()), label: t('stats_years') },
-    { value: '6+', label: t('stats_awards') },
+    { value: String(allClients().length), label: t('stats_clients') },
+    { value: `${yearsInBusiness()}+`, label: t('stats_years') },
+    { value: String(industries.length), label: t('stats_awards') },
   ];
   const values = [1, 2, 3, 4] as const;
   const label = 'text-[11px] uppercase tracking-[0.2em] text-gray-500';
@@ -64,6 +68,15 @@ export async function V2AboutContent() {
               </div>
             ))}
           </dl>
+          <p className="mt-10 flex flex-wrap gap-x-2 gap-y-1 text-sm text-gray-500">
+            <span className="text-gray-400">{t('stats_awards')}:</span>
+            {industries.map((k, i) => (
+              <span key={k}>
+                {t(`ind_${k}`)}
+                {i < industries.length - 1 ? ' ·' : ''}
+              </span>
+            ))}
+          </p>
         </div>
       </section>
 

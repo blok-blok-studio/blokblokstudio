@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import { V2PageHero } from './V2PageHero';
 
@@ -5,8 +6,10 @@ type Member = {
   name: string;
   roleKey: 'role_founder' | 'role_creative' | 'role_marketing' | 'role_fullstack' | 'role_video';
   location: string;
-  studied?: ['chase_studied_1' | 'kyle_studied_1', 'chase_studied_2' | 'kyle_studied_2'];
-  enjoys?: 'chase_enjoys' | 'kyle_enjoys';
+  studied?: ['chase_studied_1' | 'kyle_studied_1' | 'ayan_studied_1', 'chase_studied_2' | 'kyle_studied_2' | 'ayan_studied_2'];
+  enjoys?: 'chase_enjoys' | 'kyle_enjoys' | 'ayan_enjoys';
+  /** Square headshot in public/images/team/; initials when absent. */
+  photo?: string;
   socials?: { linkedin?: string; instagram?: string; github?: string };
 };
 
@@ -15,7 +18,7 @@ const MEMBERS: Member[] = [
   { name: 'Kyle Talley', roleKey: 'role_creative', location: 'Richmond, Virginia', studied: ['kyle_studied_1', 'kyle_studied_2'], enjoys: 'kyle_enjoys', socials: { linkedin: 'https://www.linkedin.com/in/kylebtalley/', instagram: 'https://www.instagram.com/ta11ey_/' } },
   { name: 'Bridget Perdomo', roleKey: 'role_marketing', location: 'Los Angeles, California' },
   { name: 'Yahya Ibrahim', roleKey: 'role_fullstack', location: 'Berlin, Germany', socials: { github: 'https://github.com/ya7ya' } },
-  { name: 'Ayan Khan', roleKey: 'role_video', location: 'Multan, Pakistan' },
+  { name: 'Ayan Khan', roleKey: 'role_video', location: 'Multan, Pakistan', studied: ['ayan_studied_1', 'ayan_studied_2'], enjoys: 'ayan_enjoys' },
 ];
 
 function initials(name: string) {
@@ -33,9 +36,13 @@ export async function V2TeamContent() {
           {MEMBERS.map((m) => (
             <li key={m.name} className="flex flex-col rounded-3xl border border-white/10 p-8">
               <div className="flex items-center gap-5">
-                <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-orange-500 font-display text-xl font-bold text-(--bb-on-primary)">
-                  {initials(m.name)}
-                </span>
+                {m.photo ? (
+                  <Image src={m.photo} alt={m.name} width={64} height={64} className="h-16 w-16 shrink-0 rounded-2xl object-cover" />
+                ) : (
+                  <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-orange-500 font-display text-xl font-bold text-(--bb-on-primary)">
+                    {initials(m.name)}
+                  </span>
+                )}
                 <div>
                   <h2 className="font-display text-xl font-semibold text-white">{m.name}</h2>
                   <p className="text-sm text-gray-400">{t(m.roleKey)}</p>

@@ -294,7 +294,18 @@
     "v2_intro": "Boutique by choice. We take on a handful of brands at a time so every site gets a founder in the room, not a template and a ticket number.",
     "v2_team_label": "Who you work with",
     "v2_team_link": "Meet the team",
-    "v2_cta": "Start with the quiz"
+    "v2_cta": "Start with the quiz",
+    "ind_fitness": "Fitness and coaching",
+    "ind_home_services": "Home services",
+    "ind_childcare": "Childcare",
+    "ind_real_estate": "Real estate",
+    "ind_education": "Higher education",
+    "ind_wellness": "Wellness and events",
+    "ind_photography": "Photography",
+    "ind_it": "IT services",
+    "ind_cannabis": "Cannabis retail",
+    "ind_aviation": "Aviation",
+    "ind_collectibles": "Collectibles e-commerce"
   },
   "blog": {
     "meta_title": "Blog: Insights on Web Design, Branding & SEO",
@@ -457,7 +468,10 @@
     "chase_enjoys": "Art museums · Traveling · Content creation",
     "kyle_studied_1": "Creative Advertising",
     "kyle_studied_2": "Virginia Commonwealth University",
-    "kyle_enjoys": "Brazilian jiu jitsu · Animation · Thrifting"
+    "kyle_enjoys": "Brazilian jiu jitsu · Animation · Thrifting",
+    "ayan_studied_1": "Business Administration and Strategic Management",
+    "ayan_studied_2": "University of the Punjab",
+    "ayan_enjoys": "Building ventures · Cinema nights · Chasing the perfect coffee"
   },
   "contact": {
     "title": "Get in Touch",

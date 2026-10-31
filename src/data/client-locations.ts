@@ -10,7 +10,22 @@ export interface ClientLink {
   url?: string;
   /** True when `url` is an archive.org snapshot. */
   archived?: boolean;
+  /** Key in the `about.ind_*` messages; the About page counts distinct values. */
+  industry: IndustryKey;
 }
+
+export type IndustryKey =
+  | 'fitness'
+  | 'home_services'
+  | 'childcare'
+  | 'real_estate'
+  | 'education'
+  | 'wellness'
+  | 'photography'
+  | 'it'
+  | 'cannabis'
+  | 'aviation'
+  | 'collectibles';
 
 export type TeamRoleKey = 'role_founder' | 'role_creative' | 'role_marketing' | 'role_fullstack' | 'role_video';
 
@@ -39,17 +54,28 @@ export interface ClientCity {
   tag?: string;
 }
 
+/** Every client once, in first-seen order. */
+export function allClients(): ClientLink[] {
+  const seen = new Set<string>();
+  return clientCities.flatMap((c) => c.clients).filter((cl) => (seen.has(cl.name) ? false : (seen.add(cl.name), true)));
+}
+
+/** Distinct industries across all clients. */
+export function industriesServed(): IndustryKey[] {
+  return [...new Set(allClients().map((cl) => cl.industry))];
+}
+
 export const clientCities: ClientCity[] = [
-  { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: [{ name: 'Coach Luki', url: 'https://coachluki.com' }, { name: 'Coach Kofi', url: 'https://coachkofi.de' }], team: [{ name: 'Chase Haynes', title: 'role_founder', company: 'Blok Blok Studio' }, { name: 'Yahya Ibrahim', title: 'role_fullstack', company: 'Blok Blok Studio' }], studio: true, tag: 'HQ' },
-  { city: 'Richmond', region: 'Virginia', country: 'United States', lat: 37.54, lng: -77.44, clients: [{ name: 'Exotic Ripz', url: '/projects/exotic-ripz' } /* store is offline and the only Wayback capture is a pre-launch placeholder; our case study has the real screenshots */], team: [{ name: 'Kyle Talley', title: 'role_creative', company: 'Blok Blok Studio' }], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
+  { city: 'Berlin', country: 'Germany', lat: 52.52, lng: 13.405, clients: [{ name: 'Coach Luki', industry: 'fitness', url: 'https://coachluki.com' }, { name: 'Coach Kofi', industry: 'fitness', url: 'https://coachkofi.de' }], team: [{ name: 'Chase Haynes', title: 'role_founder', company: 'Blok Blok Studio' }, { name: 'Yahya Ibrahim', title: 'role_fullstack', company: 'Blok Blok Studio' }], studio: true, tag: 'HQ' },
+  { city: 'Richmond', region: 'Virginia', country: 'United States', lat: 37.54, lng: -77.44, clients: [{ name: 'Exotic Ripz', industry: 'collectibles', url: '/projects/exotic-ripz' } /* store is offline and the only Wayback capture is a pre-launch placeholder; our case study has the real screenshots */], team: [{ name: 'Kyle Talley', title: 'role_creative', company: 'Blok Blok Studio' }], studio: true, labelAnchor: 'bottom', labelMaxAlt: 1.5 },
   { city: 'Los Angeles', region: 'California', country: 'United States', lat: 34.05, lng: -118.24, clients: [], team: [{ name: 'Bridget Perdomo', title: 'role_marketing', company: 'Blok Blok Studio' }], studio: true, labelAnchor: 'left' },
   { city: 'Multan', region: 'Punjab', country: 'Pakistan', lat: 30.2, lng: 71.47, clients: [], team: [{ name: 'Ayan Khan', title: 'role_video', company: 'Blok Blok Studio' }], studio: true },
-  { city: 'Dallas', region: 'Texas', country: 'United States', lat: 32.78, lng: -96.8, clients: [{ name: 'Bronco Plumbing', url: 'https://www.broncoplumbingdfw.com' }, { name: 'Nanny & Nest', url: 'https://web.archive.org/web/20260617191024/https://www.nannyandnest.com/', archived: true }], labelAnchor: 'right' },
-  { city: 'Fort Worth', region: 'Texas', country: 'United States', lat: 32.75, lng: -97.33, clients: [{ name: 'Real Texas Properties', url: 'https://heidiehaynes.com' }], labelAnchor: 'left', labelMaxAlt: 1.6 },
-  { city: 'New York', region: 'New York', country: 'United States', lat: 40.71, lng: -74.0, clients: [{ name: 'The New School', url: 'https://www.military.newschool.edu' }], labelAnchor: 'top' },
-  { city: 'Washington, DC', country: 'United States', lat: 38.9, lng: -77.04, clients: [{ name: 'Mind and Body Retreats', url: 'https://www.mindandbodyretreatsco.com' }], labelAnchor: 'right' },
-  { city: 'Salt Lake City', region: 'Utah', country: 'United States', lat: 40.76, lng: -111.89, clients: [{ name: 'Grant Parkhurst Photography', url: '/projects/grant-parkhurst' } /* public domain moved off our hosting; our case study shows the build */] },
-  { city: 'Minneapolis', region: 'Minnesota', country: 'United States', lat: 44.98, lng: -93.27, clients: [{ name: 'KDS Systems', url: 'https://kdssys.com' }], labelAnchor: 'top' },
-  { city: 'Albuquerque', region: 'New Mexico', country: 'United States', lat: 35.08, lng: -106.65, clients: [{ name: 'Public Affair', url: 'https://public-affair.com' }], labelAnchor: 'bottom' },
-  { city: 'Manila', country: 'Philippines', lat: 14.6, lng: 120.98, clients: [{ name: 'Philippine Airlines', url: 'https://www.philippineairlines.com' }] },
+  { city: 'Dallas', region: 'Texas', country: 'United States', lat: 32.78, lng: -96.8, clients: [{ name: 'Bronco Plumbing', industry: 'home_services', url: 'https://www.broncoplumbingdfw.com' }, { name: 'Nanny & Nest', industry: 'childcare', url: 'https://web.archive.org/web/20260617191024/https://www.nannyandnest.com/', archived: true }], labelAnchor: 'right' },
+  { city: 'Fort Worth', region: 'Texas', country: 'United States', lat: 32.75, lng: -97.33, clients: [{ name: 'Real Texas Properties', industry: 'real_estate', url: 'https://heidiehaynes.com' }], labelAnchor: 'left', labelMaxAlt: 1.6 },
+  { city: 'New York', region: 'New York', country: 'United States', lat: 40.71, lng: -74.0, clients: [{ name: 'The New School', industry: 'education', url: 'https://www.military.newschool.edu' }], labelAnchor: 'top' },
+  { city: 'Washington, DC', country: 'United States', lat: 38.9, lng: -77.04, clients: [{ name: 'Mind and Body Retreats', industry: 'wellness', url: 'https://www.mindandbodyretreatsco.com' }], labelAnchor: 'right' },
+  { city: 'Salt Lake City', region: 'Utah', country: 'United States', lat: 40.76, lng: -111.89, clients: [{ name: 'Grant Parkhurst Photography', industry: 'photography', url: '/projects/grant-parkhurst' } /* public domain moved off our hosting; our case study shows the build */] },
+  { city: 'Minneapolis', region: 'Minnesota', country: 'United States', lat: 44.98, lng: -93.27, clients: [{ name: 'KDS Systems', industry: 'it', url: 'https://kdssys.com' }], labelAnchor: 'top' },
+  { city: 'Albuquerque', region: 'New Mexico', country: 'United States', lat: 35.08, lng: -106.65, clients: [{ name: 'Public Affair', industry: 'cannabis', url: 'https://public-affair.com' }], labelAnchor: 'bottom' },
+  { city: 'Manila', country: 'Philippines', lat: 14.6, lng: 120.98, clients: [{ name: 'Philippine Airlines', industry: 'aviation', url: 'https://www.philippineairlines.com' }] },
 ];

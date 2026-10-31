@@ -10,10 +10,10 @@ import { clientCities } from '@/data/client-locations';
  *   lighten = white (or bright) mark on a black background → black drops out
  *   gray    = full-colour mark with its own white type → desaturated as is
  *   none    = already white
- * Clients without a usable mark fall back to their name in Montserrat
- * (Exotic Ripz: only a low-res screenshot crop exists, so text until the
- * source file turns up; Public Affair uses a type-only wordmark; Grant and
- * Real Texas Properties have no mark).
+ * Sources: Dropbox "Shared Assets/blokblokstudio/Logos for blok blok website"
+ * (Exotic Ripz, Public Affair), Heidie's "new logo" PNG in Downloads (Real
+ * Texas Properties, has a QR code and phone number baked in), client sites and our own client repos for the rest.
+ * Grant Parkhurst has no mark (his site sets the name in type), so text.
  * Chase confirmed 2026-11-01 we have permission to show all client logos.
  */
 type Mode = 'invert' | 'lighten' | 'gray' | 'none';
@@ -35,6 +35,9 @@ const LOGOS: Record<string, Logo> = {
   'KDS Systems': { src: '/images/clients/kds-systems.png', mode: 'invert', h: 26 },
   'Nanny & Nest': { src: '/images/clients/nanny-and-nest.svg', mode: 'invert', h: 40 },
   'Mind and Body Retreats': { src: '/images/clients/mind-and-body-retreats.svg', mode: 'none', h: 28 },
+  'Exotic Ripz': { src: '/images/clients/exotic-ripz.webp', mode: 'gray', h: 56 },
+  'Public Affair': { src: '/images/clients/public-affair.webp', mode: 'none', h: 34 },
+  'Real Texas Properties': { src: '/images/clients/real-texas-properties.webp', mode: 'gray', h: 56 },
 };
 
 const FIRST = ['Philippine Airlines', 'The New School', 'Bronco Plumbing', 'Coach Luki', 'Coach Kofi', 'KDS Systems'];
@@ -42,7 +45,7 @@ const FIRST = ['Philippine Airlines', 'The New School', 'Bronco Plumbing', 'Coac
 const MODE_CLASS: Record<Mode, string> = {
   invert: 'brightness-0 invert',
   lighten: 'grayscale brightness-125 mix-blend-lighten',
-  gray: 'grayscale brightness-110',
+  gray: 'grayscale brightness-110 contrast-110',
   none: '',
 };
 

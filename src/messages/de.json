@@ -294,7 +294,18 @@
     "v2_intro": "Boutique aus Überzeugung. Wir betreuen nur eine Handvoll Marken gleichzeitig, damit bei jedem Projekt ein Gründer mit am Tisch sitzt, statt Template und Ticketnummer.",
     "v2_team_label": "Mit wem du arbeitest",
     "v2_team_link": "Team kennenlernen",
-    "v2_cta": "Mit dem Quiz starten"
+    "v2_cta": "Mit dem Quiz starten",
+    "ind_fitness": "Fitness und Coaching",
+    "ind_home_services": "Handwerk und Haustechnik",
+    "ind_childcare": "Kinderbetreuung",
+    "ind_real_estate": "Immobilien",
+    "ind_education": "Hochschulbildung",
+    "ind_wellness": "Wellness und Events",
+    "ind_photography": "Fotografie",
+    "ind_it": "IT-Dienstleistungen",
+    "ind_cannabis": "Cannabis-Einzelhandel",
+    "ind_aviation": "Luftfahrt",
+    "ind_collectibles": "E-Commerce für Sammlerstücke"
   },
   "blog": {
     "meta_title": "Blog: Insights zu Webdesign, Branding & SEO",
@@ -457,7 +468,10 @@
     "chase_enjoys": "Kunstmuseen · Reisen · Content Creation",
     "kyle_studied_1": "Creative Advertising",
     "kyle_studied_2": "Virginia Commonwealth University",
-    "kyle_enjoys": "Brazilian Jiu-Jitsu · Animation · Secondhand-Shopping"
+    "kyle_enjoys": "Brazilian Jiu-Jitsu · Animation · Secondhand-Shopping",
+    "ayan_studied_1": "Betriebswirtschaft und Strategisches Management",
+    "ayan_studied_2": "University of the Punjab",
+    "ayan_enjoys": "Unternehmen aufbauen · Kinoabende · Auf der Suche nach dem perfekten Kaffee"
   },
   "contact": {
     "title": "Kontaktieren Sie Uns",
