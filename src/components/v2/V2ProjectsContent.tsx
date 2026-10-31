@@ -6,27 +6,8 @@ import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { projectsData, localizeProject } from '@/data/projects';
 import { V2PageHero } from './V2PageHero';
+import { PROJECT_IMAGES as IMAGES, PROJECT_RESULT_KEYS as RESULT_KEY } from '@/data/project-cards';
 
-const IMAGES: Record<string, string> = {
-  'coach-luki': '/images/projects/coachluki.jpg',
-  'bronco-plumbing': '/images/projects/bronco.webp',
-  'coach-kofi': '/images/projects/coachkofi.webp',
-  'exotic-ripz': '/images/projects/exoticripz.jpg',
-  'kds-systems': '/images/projects/kdssys.webp',
-  'public-affair': '/images/projects/public-affair.webp',
-  'military-newschool': '/images/projects/military-newschool.webp',
-  'grant-parkhurst': '/images/projects/grantparkhurst.webp',
-};
-const RESULT_KEY: Record<string, string> = {
-  'coach-luki': 'v2_result_coach_luki',
-  'bronco-plumbing': 'v2_result_bronco_plumbing',
-  'coach-kofi': 'v2_result_coach_kofi',
-  'exotic-ripz': 'v2_result_exotic_ripz',
-  'kds-systems': 'v2_result_kds_systems',
-  'public-affair': 'v2_result_public_affair',
-  'military-newschool': 'v2_result_military_newschool',
-  'grant-parkhurst': 'v2_result_grant_parkhurst',
-};
 const CAT_KEY: Record<string, 'cat_web' | 'cat_ecom' | 'cat_brand'> = { 'Web Design': 'cat_web', 'E-Commerce': 'cat_ecom', Branding: 'cat_brand' };
 const CATS = [
   { id: 'all', key: 'filter_all' },
