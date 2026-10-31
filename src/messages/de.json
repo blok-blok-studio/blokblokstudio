@@ -20,7 +20,8 @@
     "v2_studio": "Studio",
     "v2_services": "Leistungen",
     "v2_journal": "Journal",
-    "v2_cta": "Projekt starten"
+    "v2_cta": "Projekt starten",
+    "v2_ideas": "Ideen"
   },
   "faq": {
     "meta_title": "FAQ | AI Agency & Web Design Studio in Berlin",
@@ -298,8 +299,8 @@
     "meta_title": "Blog: Insights zu Webdesign, Branding & SEO",
     "meta_description": "Expertenwissen zu Webdesign, Branding, SEO und digitalem Marketing von Blok Blok Studio. Umsetzbare Tipps für Ihre Online-Präsenz.",
     "og_alt": "Blok Blok Studio Blog",
-    "list_title": "Insights",
-    "list_subtitle": "Experten-Tipps zu Webdesign, Branding, SEO und dem Ausbau Ihrer digitalen Präsenz.",
+    "list_title": "Ideen",
+    "list_subtitle": "Was wir beim Bauen von Websites gelernt haben, die Umsatz bringen: Artikel, Kunden vor der Kamera und Neues aus dem Studio.",
     "read_time": "{minutes} Min. Lesezeit",
     "read_article": "Artikel lesen",
     "back_to_blog": "Zurück zum Blog",
@@ -321,6 +322,30 @@
         "title": "Warum Markenidentität die beste Investition ist, die Sie tätigen werden",
         "description": "Ihre Marke ist mehr als ein Logo. Eine starke Markenidentität schafft Vertrauen, rechtfertigt Premium-Preise und macht Kunden zu Fürsprechern.",
         "category": "Branding"
+      }
+    },
+    "v2_label": "Ideen",
+    "v2_tab_all": "Alle",
+    "v2_tab_read": "Lesen",
+    "v2_tab_watch": "Ansehen",
+    "v2_tab_news": "News",
+    "v2_type_read": "Lesen",
+    "v2_type_watch": "Ansehen",
+    "v2_type_news": "News",
+    "v2_more": "Mehr",
+    "v2_count": "{count, plural, one {# Beitrag} other {# Beiträge}}",
+    "news": {
+      "philippine-airlines": {
+        "title": "Blok Blok Studio arbeitet mit Philippine Airlines",
+        "summary": "Die nationale Fluggesellschaft der Philippinen mit über 3 Milliarden Dollar Jahresumsatz ist unser bisher größter Kunde. Ein Berliner Studio mit fünf Leuten, dem man in Manila vertraut."
+      },
+      "brand-guidelines-v2": {
+        "title": "Brand Guidelines V2: Montserrat, Inter und ein neues Lockup",
+        "summary": "Version zwei unserer Identität, datiert auf den 16. Oktober 2026. Zwei Schriften, ein Lockup und der Satz, der jetzt die Website eröffnet: Building brands, blok by blok."
+      },
+      "grant-parkhurst-portal": {
+        "title": "Grant Parkhurst Photography: Portfolio und Kundenportal ausgeliefert",
+        "summary": "Eine Website, auf der kein Foto beschnitten wird, plus ein Portal, in dem der Fotograf Galerien hochlädt und Kunden ihre eigenen Sets herunterladen."
       }
     }
   },

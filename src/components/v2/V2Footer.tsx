@@ -16,7 +16,7 @@ export async function V2Footer() {
     { href: '/about', label: nav('about') },
     { href: '/services', label: nav('services') },
     { href: '/pricing', label: nav('pricing') },
-    { href: '/blog', label: nav('blog') },
+    { href: '/blog', label: nav('v2_ideas') },
     { href: '/faq', label: nav('faq') },
     { href: '/team', label: nav('team') },
     { href: '/contact', label: nav('contact') },

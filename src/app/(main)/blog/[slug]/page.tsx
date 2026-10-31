@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import { getBlogPost, getAllBlogSlugs } from '@/data/blog';
-import { BlogPostContent } from '@/components/BlogPostContent';
+import { V2BlogPost } from '@/components/v2/V2BlogPost';
 import { BreadcrumbSchema } from '@/app/structured-data';
 
 export function generateStaticParams() {
@@ -89,7 +89,7 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
-      <BlogPostContent post={post} />
+      <V2BlogPost post={post} />
     </div>
   );
 }

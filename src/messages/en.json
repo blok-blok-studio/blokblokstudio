@@ -20,7 +20,8 @@
     "v2_studio": "Studio",
     "v2_services": "Services",
     "v2_journal": "Journal",
-    "v2_cta": "Start a project"
+    "v2_cta": "Start a project",
+    "v2_ideas": "Ideas"
   },
   "faq": {
     "meta_title": "FAQ, Web Design Studio in Berlin",
@@ -298,8 +299,8 @@
     "meta_title": "Blog: Insights on Web Design, Branding & SEO",
     "meta_description": "Expert insights on web design, branding, SEO, and digital marketing from Blok Blok Studio. Actionable tips to grow your online presence.",
     "og_alt": "Blok Blok Studio Blog",
-    "list_title": "Insights",
-    "list_subtitle": "Expert tips on web design, branding, SEO, and growing your digital presence.",
+    "list_title": "Ideas",
+    "list_subtitle": "What we have learned building sites that earn: articles, clients on camera and news from the studio.",
     "read_time": "{minutes} min read",
     "read_article": "Read article",
     "back_to_blog": "Back to Blog",
@@ -321,6 +322,30 @@
         "title": "Why Brand Identity Is the Best Investment You'll Make",
         "description": "Your brand is more than a logo. A strong brand identity builds trust, commands premium pricing, and turns customers into advocates.",
         "category": "Branding"
+      }
+    },
+    "v2_label": "Ideas",
+    "v2_tab_all": "All",
+    "v2_tab_read": "Read",
+    "v2_tab_watch": "Watch",
+    "v2_tab_news": "News",
+    "v2_type_read": "Read",
+    "v2_type_watch": "Watch",
+    "v2_type_news": "News",
+    "v2_more": "More",
+    "v2_count": "{count, plural, one {# item} other {# items}}",
+    "news": {
+      "philippine-airlines": {
+        "title": "Blok Blok Studio is working with Philippine Airlines",
+        "summary": "The flag carrier of the Philippines, with annual revenue above $3 billion, is our largest client to date. A Berlin studio of five, trusted in Manila."
+      },
+      "brand-guidelines-v2": {
+        "title": "Brand Guidelines V2: Montserrat, Inter and a new lockup",
+        "summary": "Version two of our identity, dated October 16, 2026. Two typefaces, one lockup, and the line that now opens the site: Building brands, blok by blok."
+      },
+      "grant-parkhurst-portal": {
+        "title": "Grant Parkhurst Photography: portfolio and client portal shipped",
+        "summary": "A photography-first site where no image is cropped, plus a portal where the photographer uploads galleries and clients download their own sets."
       }
     }
   },
