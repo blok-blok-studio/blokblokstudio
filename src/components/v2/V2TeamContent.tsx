@@ -18,7 +18,7 @@ const MEMBERS: Member[] = [
   { name: 'Kyle Talley', roleKey: 'role_creative', location: 'Richmond, Virginia', studied: ['kyle_studied_1', 'kyle_studied_2'], enjoys: 'kyle_enjoys', socials: { linkedin: 'https://www.linkedin.com/in/kylebtalley/', instagram: 'https://www.instagram.com/ta11ey_/' } },
   { name: 'Bridget Perdomo', roleKey: 'role_marketing', location: 'Los Angeles, California' },
   { name: 'Yahya Ibrahim', roleKey: 'role_fullstack', location: 'Berlin, Germany', socials: { github: 'https://github.com/ya7ya' } },
-  { name: 'Ayan Khan', roleKey: 'role_video', location: 'Multan, Pakistan', studied: ['ayan_studied_1', 'ayan_studied_2'], enjoys: 'ayan_enjoys' },
+  { name: 'Ayan Khan', roleKey: 'role_video', location: 'Multan, Pakistan', studied: ['ayan_studied_1', 'ayan_studied_2'], enjoys: 'ayan_enjoys', socials: { instagram: 'https://www.instagram.com/ayzor.x/' }, photo: '/images/team/ayan-khan.webp' },
 ];
 
 function initials(name: string) {
