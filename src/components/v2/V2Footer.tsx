@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
+import { BOOKING_URL } from '@/data/studio';
 
 /**
  * V2Footer — the "Let's talk" block is the site's closing CTA, followed by
  * the full link set so nothing from the old footer is lost.
  */
-const BOOKING_URL = 'https://calendar.app.google/oAcFYPRKYB9b4J1c7';
 
 export async function V2Footer() {
   const t = await getTranslations('home');

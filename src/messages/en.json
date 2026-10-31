@@ -432,7 +432,9 @@
     "v2_intro": "One package, done properly. We design and build the site, then host it and keep it running.",
     "v2_process_label": "How a project runs",
     "v2_cta_label": "Not sure which you need?",
-    "v2_cta": "Take the 1-minute quiz"
+    "v2_cta": "Take the 1-minute quiz",
+    "v2_industries_label": "Who we build for",
+    "v2_industries_more": "See how"
   },
   "team": {
     "title": "Our Team",
@@ -3173,7 +3175,9 @@
           "ideal": "Scaling brands treating us as their fractional in-house creative team across every channel"
         }
       ]
-    }
+    },
+    "v2_card_cta": "Get a custom quote",
+    "v2_options": "{count, plural, one {# option} other {# options}}"
   },
   "a11y": {
     "skip_to_main": "Skip to main content",

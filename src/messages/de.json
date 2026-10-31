@@ -432,7 +432,9 @@
     "v2_intro": "Ein Paket, richtig gemacht: Wir gestalten und bauen deine Seite, hosten sie und halten sie am Laufen.",
     "v2_process_label": "So läuft ein Projekt ab",
     "v2_cta_label": "Unsicher, was du brauchst?",
-    "v2_cta": "1-Minuten-Quiz starten"
+    "v2_cta": "1-Minuten-Quiz starten",
+    "v2_industries_label": "Für wen wir bauen",
+    "v2_industries_more": "So geht es"
   },
   "team": {
     "title": "Unser Team",
@@ -3173,7 +3175,9 @@
           "ideal": "Skalierende Marken, die uns als ihr anteiliges Inhouse-Kreativteam über alle Kanäle sehen"
         }
       ]
-    }
+    },
+    "v2_card_cta": "Individuelles Angebot anfragen",
+    "v2_options": "{count, plural, one {# Option} other {# Optionen}}"
   },
   "a11y": {
     "skip_to_main": "Zum Hauptinhalt springen",

@@ -11,3 +11,10 @@ export function yearsInBusiness(now: Date = new Date()): number {
   const beforeAnniversary = now.getMonth() + 1 < FOUNDED.month;
   return Math.max(1, beforeAnniversary ? y - 1 : y);
 }
+
+/**
+ * Google Calendar booking page used by the footer and the contact page.
+ * The funnel (pitches, /start/thanks) books through a separate intro-call
+ * schedule that also has an embeddable form; keep those together.
+ */
+export const BOOKING_URL = 'https://calendar.app.google/oAcFYPRKYB9b4J1c7';

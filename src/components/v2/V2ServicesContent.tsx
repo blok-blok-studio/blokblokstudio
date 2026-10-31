@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { V2PageHero } from './V2PageHero';
+import { specialties } from '@/data/specialties';
 
 type Bullet = 1 | 2 | 3 | 4 | 5;
 const BULLETS: Bullet[] = [1, 2, 3, 4, 5];
@@ -16,6 +17,7 @@ export async function V2ServicesContent() {
   const care = BULLETS.map((b) => th(`v2_hosting_bullet_${b}`));
   const steps = BULLETS.map((n) => ({ n, title: ts(`step_${n}_title`), desc: ts(`step_${n}_desc`) }));
   const label = 'text-[11px] uppercase tracking-[0.2em] text-gray-500';
+  const industries = Object.values(specialties);
   return (
     <>
       <V2PageHero label={ts('v2_label')} title={ts('title')} intro={ts('v2_intro')} />
@@ -74,6 +76,25 @@ export async function V2ServicesContent() {
               </li>
             ))}
           </ol>
+        </div>
+      </section>
+
+      <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+        <div className="mx-auto max-w-[1600px]">
+          <div className={`mb-10 border-b border-white/10 pb-4 ${label}`}>{ts('v2_industries_label')}</div>
+          <ul className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            {industries.map((sp) => (
+              <li key={sp.slug} lang={sp.lang}>
+                <Link href={`/${sp.slug}`} className="group flex h-full flex-col rounded-3xl border border-white/10 p-7 transition-colors hover:bg-white/[0.03] sm:p-8">
+                  <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{sp.kicker}</p>
+                  <h3 className="mt-3 flex-1 text-balance font-display text-xl font-semibold leading-snug tracking-tight text-white">{sp.h1}</h3>
+                  <p className="mt-6 text-[11px] uppercase tracking-[0.18em] text-gray-400 transition-colors group-hover:text-white">
+                    {ts('v2_industries_more')} <span aria-hidden="true">→</span>
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 

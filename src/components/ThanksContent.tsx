@@ -24,8 +24,6 @@ const INTRO_CALL_LINK = 'https://calendar.app.google/HeP9bUhWaKfosQF26';
 // so booking happens right here instead of on calendar.google.com.
 const INTRO_CALL_EMBED =
   'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2v3xRsZStR2Wtk8dr_F8kwEq4WGWu0FM548fk45LXMHonM5FwIUFHmuTTp0Ph6eVpcM1ZeM2PC?gv=true';
-const WHATSAPP_LINK =
-  'https://wa.me/491627055848?text=Hey%20Chase%2C%20I%20just%20sent%20a%20call%20request%20on%20your%20site.';
 
 // Optional: exact Google Ads conversion action ("AW-XXXXXXX/AbCdEfGh").
 // Without it we fire the generic generate_lead event instead.
@@ -164,11 +162,7 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
             <a href={INTRO_CALL_LINK} target="_blank" rel="noopener noreferrer" className="text-gray-400 underline hover:text-white">
               {t('calendar_open')}
             </a>
-            . {t('calendar_chat')}{' '}
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-gray-400 underline hover:text-white">
-              {t('calendar_whatsapp')}
-            </a>{' '}
-            {t('calendar_reply')}
+            .
           </p>
         </AnimatedSection>
 

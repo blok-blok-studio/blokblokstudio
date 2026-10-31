@@ -68,6 +68,8 @@ import { AnimatedSection } from './AnimatedSection';
 import { Turnstile } from './Turnstile';
 import { clientCities } from '@/data/client-locations';
 import { V2NextSteps } from './v2/V2NextSteps';
+import { V2PageHero } from './v2/V2PageHero';
+import { BOOKING_URL } from '@/data/studio';
 import { motion } from 'framer-motion';
 
 /**
@@ -141,25 +143,10 @@ export function ContactContent() {
      * - pb-16 / sm:pb-24 → bottom padding
      * - px-5 / sm:px-6 / lg:px-8 → horizontal padding
      */
-    <section className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-5 sm:px-6 lg:px-8">
-      {/* Max-width container, keeps content centered on wide screens */}
-      <div className="max-w-7xl mx-auto">
-
-        {/* ================================================================
-            SECTION 1: Page Header (Title + Subtitle)
-            ================================================================
-            TO EDIT: Change "contact.title" and "contact.subtitle" in
-            your translation files.
-        */}
-        <AnimatedSection className="mb-14 sm:mb-20">
-          <p className="text-[11px] uppercase tracking-[0.2em] text-gray-500 mb-5">{t('info_title')}</p>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold leading-[1.02] tracking-[-0.02em] mb-6">
-            {t('title')}
-          </h1>
-          <p className="max-w-2xl text-lg text-gray-400">
-            {t('subtitle')}
-          </p>
-        </AnimatedSection>
+    <>
+    <V2PageHero label={t('info_title')} title={t('title')} intro={t('subtitle')} />
+    <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+      <div className="mx-auto max-w-[1600px]">
 
         {/* ================================================================
             MAIN LAYOUT: 5-Column Grid
@@ -189,7 +176,7 @@ export function ContactContent() {
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="glass-card rounded-2xl sm:rounded-3xl p-8 sm:p-12 text-center"
+                className="rounded-3xl border border-white/10 p-8 sm:p-12 text-center"
               >
                 {/* Green checkmark icon */}
                 <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-6">
@@ -364,11 +351,11 @@ export function ContactContent() {
                 - A map placeholder at the bottom
           */}
           <AnimatedSection delay={0.2} className="lg:col-span-2">
-            <div className="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 space-y-6 sm:space-y-8">
+            <div className="rounded-3xl border border-white/10 p-6 sm:p-8 space-y-6 sm:space-y-8">
 
               {/* Sidebar heading, h2 keeps the heading outline contiguous
                   under the page H1 (don't skip levels). */}
-              <h2 className="text-lg font-semibold">{t('info_title')}</h2>
+              <h2 className="font-display text-lg font-semibold text-white">{t('info_title')}</h2>
 
               {/* Where we are: studio cities only. Everything funnels through Blok Blok Studio. */}
               <div>
@@ -387,7 +374,7 @@ export function ContactContent() {
 
               {/* Direct lines */}
               <div className="grid gap-2">
-                <a href="https://calendar.app.google/oAcFYPRKYB9b4J1c7" target="_blank" rel="noopener noreferrer" className="group flex items-center justify-between rounded-2xl border border-white/10 px-5 py-4 text-sm text-white transition-colors hover:bg-white/5">
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="group flex items-center justify-between rounded-2xl border border-white/10 px-5 py-4 text-sm text-white transition-colors hover:bg-white/5">
                   {th('v2_book')}
                   <span aria-hidden="true" className="text-orange-500 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5">↗</span>
                 </a>
@@ -399,5 +386,6 @@ export function ContactContent() {
         <V2NextSteps compact />
       </div>
     </section>
+    </>
   );
 }

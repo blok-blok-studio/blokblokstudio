@@ -2,107 +2,99 @@
 
 /**
  * SpecialtyContent — renders one commercial specialty page from
- * src/data/specialties.ts (webdesign-berlin, plumber-website-design, ...).
- * Matches the site's dark visual language: hero, stat row, feature grid,
- * case-study panel, FAQ accordion, closing CTA. English or German content
- * comes straight from the data file; site chrome stays translated.
+ * src/data/specialties.ts (webdesign-berlin, plumber-website-design, ...)
+ * in the redesign system: hero, numbers, feature grid, case study, FAQ,
+ * closing CTA. English or German content comes straight from the data
+ * file; site chrome stays translated.
  */
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { motion, AnimatePresence } from 'framer-motion';
-import { AnimatedSection } from './AnimatedSection';
+import { AnimatePresence, motion } from 'framer-motion';
 import type { SpecialtyData } from '@/data/specialties';
+
+const LABEL = 'text-[11px] uppercase tracking-[0.2em] text-gray-500';
+const CTA = 'inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400';
 
 export function SpecialtyContent({ data }: { data: SpecialtyData }) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
-    <div lang={data.lang} className="pt-28 sm:pt-36 pb-16 sm:pb-24 px-5 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto">
-        {/* ── Hero ── */}
-        <AnimatedSection>
-          <p className="text-xs uppercase tracking-[0.2em] text-orange-400 mb-4">{data.kicker}</p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-5">
-            {data.h1}
-          </h1>
-          <p className="text-gray-400 text-base sm:text-lg leading-relaxed max-w-2xl mb-8">
-            {data.intro}
-          </p>
-          <Link
-            href={data.ctaHref}
-            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors text-sm sm:text-base"
-          >
-            {data.ctaButton}
+    <div lang={data.lang}>
+      <section className="px-5 pt-32 pb-16 sm:px-8 sm:pt-40 sm:pb-20 lg:px-12">
+        <div className="mx-auto max-w-[1600px]">
+          <p className={LABEL}>{data.kicker}</p>
+          <h1 className="mt-5 max-w-4xl text-balance font-display text-5xl font-bold leading-[1.02] tracking-[-0.02em] text-white sm:text-6xl lg:text-7xl">{data.h1}</h1>
+          <p className="mt-6 max-w-2xl text-pretty text-lg text-gray-400">{data.intro}</p>
+          <Link href={data.ctaHref} className={`mt-8 ${CTA}`}>
+            {data.ctaButton} <span aria-hidden="true">→</span>
           </Link>
-        </AnimatedSection>
+        </div>
+      </section>
 
-        {/* ── Proof stats ── */}
-        <AnimatedSection delay={0.1} className="mt-14 sm:mt-20">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+        <div className="mx-auto max-w-[1600px]">
+          <dl className="grid gap-12 sm:grid-cols-3">
             {data.stats.map((s) => (
-              <div key={s.label} className="glass-card rounded-2xl p-6">
-                <p className="text-3xl sm:text-4xl font-light tracking-tight mb-2">{s.value}</p>
-                <p className="text-sm text-gray-400 leading-snug">{s.label}</p>
+              <div key={s.label}>
+                <dd className="font-display text-[3rem] font-bold leading-none tracking-[-0.03em] text-orange-500 sm:text-[4rem]">{s.value}</dd>
+                <dt className="mt-3 max-w-xs text-sm leading-relaxed text-gray-400">{s.label}</dt>
               </div>
             ))}
-          </div>
-        </AnimatedSection>
+          </dl>
+        </div>
+      </section>
 
-        {/* ── Features ── */}
-        <AnimatedSection delay={0.1} className="mt-16 sm:mt-24">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-8">{data.featuresHeading}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-            {data.features.map((f) => (
-              <div key={f.title} className="glass-card rounded-2xl p-6 sm:p-7">
-                <div className="w-8 h-1 rounded-full bg-orange-500 mb-4" />
-                <h3 className="text-lg font-semibold mb-2">{f.title}</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">{f.desc}</p>
-              </div>
+      <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+        <div className="mx-auto max-w-[1600px]">
+          <div className={`mb-10 border-b border-white/10 pb-4 ${LABEL}`}>{data.featuresHeading}</div>
+          <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {data.features.map((f, i) => (
+              <li key={f.title} className="rounded-3xl border border-white/10 p-7 sm:p-8">
+                <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">0{i + 1}</p>
+                <h2 className="mt-3 font-display text-xl font-semibold tracking-tight text-white">{f.title}</h2>
+                <p className="mt-3 text-pretty text-sm leading-relaxed text-gray-400">{f.desc}</p>
+              </li>
             ))}
-          </div>
-        </AnimatedSection>
+          </ul>
+        </div>
+      </section>
 
-        {/* ── Case study ── */}
-        <AnimatedSection delay={0.1} className="mt-16 sm:mt-24">
-          <div className="rounded-3xl border border-orange-500/20 bg-orange-500/[0.04] p-7 sm:p-10">
-            <p className="text-xs uppercase tracking-[0.2em] text-orange-400 mb-3">{data.caseStudy.heading}</p>
-            <h2 className="text-xl sm:text-2xl font-bold mb-1">{data.caseStudy.name}</h2>
-            <p className="text-orange-300 font-medium mb-4">{data.caseStudy.result}</p>
-            <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-6">{data.caseStudy.body}</p>
-            <Link
-              href={data.caseStudy.href}
-              className="inline-flex items-center gap-2 text-sm text-white underline underline-offset-4 decoration-white/30 hover:decoration-white transition-colors"
-            >
-              {data.caseStudy.linkLabel}
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
+      <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+        <div className="mx-auto max-w-[1600px] rounded-3xl border border-orange-500 p-8 sm:p-12">
+          <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{data.caseStudy.heading}</p>
+          <div className="mt-5 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
+            <div>
+              <h2 className="font-display text-3xl font-semibold tracking-tight text-white sm:text-4xl">{data.caseStudy.name}</h2>
+              <p className="mt-3 font-display text-xl font-semibold text-orange-500">{data.caseStudy.result}</p>
+            </div>
+            <div>
+              <p className="text-pretty text-base leading-relaxed text-gray-400">{data.caseStudy.body}</p>
+              <Link href={data.caseStudy.href} className="mt-6 inline-flex items-center gap-2 text-sm text-white underline underline-offset-4 decoration-white/30 transition-colors hover:decoration-white">
+                {data.caseStudy.linkLabel} <span aria-hidden="true">→</span>
+              </Link>
+            </div>
           </div>
-        </AnimatedSection>
+        </div>
+      </section>
 
-        {/* ── FAQ ── */}
-        <AnimatedSection delay={0.1} className="mt-16 sm:mt-24">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-8">{data.faqHeading}</h2>
-          <div className="space-y-3">
+      <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+        <div className="mx-auto max-w-[1600px]">
+          <div className={`mb-10 border-b border-white/10 pb-4 ${LABEL}`}>{data.faqHeading}</div>
+          <div className="max-w-4xl space-y-3">
             {data.faqs.map((faq, i) => {
               const isOpen = openFaq === i;
               return (
-                <div key={faq.q} className="border border-white/10 rounded-2xl bg-white/[0.02]">
-                  <button
-                    onClick={() => setOpenFaq(isOpen ? null : i)}
-                    className="w-full flex items-center justify-between gap-4 px-5 sm:px-6 py-5 text-left cursor-pointer"
-                    aria-expanded={isOpen}
-                  >
-                    <span className="text-base sm:text-lg font-medium text-white pr-2">{faq.q}</span>
+                <div key={faq.q} className="rounded-2xl border border-white/10 transition-colors hover:bg-white/[0.03]">
+                  <button type="button" onClick={() => setOpenFaq(isOpen ? null : i)} className="flex w-full items-center justify-between gap-4 px-5 py-5 text-left sm:px-6" aria-expanded={isOpen}>
+                    <span className="font-display text-base font-semibold text-white sm:text-lg">{faq.q}</span>
                     <span
-                      className={`shrink-0 w-8 h-8 rounded-full border border-white/20 flex items-center justify-center transition-transform duration-300 ${
-                        isOpen ? 'rotate-45 bg-white text-black border-white' : 'text-white'
-                      }`}
                       aria-hidden="true"
+                      className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-transform duration-300 ${
+                        isOpen ? 'rotate-45 border-orange-500 bg-orange-500 text-(--bb-on-primary)' : 'border-white/20 text-white'
+                      }`}
                     >
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
                         <line x1="12" y1="5" x2="12" y2="19" />
                         <line x1="5" y1="12" x2="19" y2="12" />
                       </svg>
@@ -110,16 +102,8 @@ export function SpecialtyContent({ data }: { data: SpecialtyData }) {
                   </button>
                   <AnimatePresence initial={false}>
                     {isOpen && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: 'auto', opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.3, ease: 'easeInOut' }}
-                        className="overflow-hidden"
-                      >
-                        <div className="px-5 sm:px-6 pb-5 text-sm sm:text-base text-gray-400 leading-relaxed">
-                          {faq.a}
-                        </div>
+                      <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.3, ease: 'easeInOut' }} className="overflow-hidden">
+                        <div className="px-5 pb-5 text-pretty text-sm leading-relaxed text-gray-400 sm:px-6 sm:text-base">{faq.a}</div>
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -127,25 +111,20 @@ export function SpecialtyContent({ data }: { data: SpecialtyData }) {
               );
             })}
           </div>
-        </AnimatedSection>
+        </div>
+      </section>
 
-        {/* ── Closing CTA ── */}
-        <AnimatedSection delay={0.1} className="mt-16 sm:mt-24">
-          <div className="glass-card rounded-3xl p-8 sm:p-12 text-center">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">{data.ctaHeading}</h2>
-            <p className="text-gray-400 text-sm sm:text-base max-w-lg mx-auto mb-8">{data.ctaBody}</p>
-            <Link
-              href={data.ctaHref}
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition-colors"
-            >
-              {data.ctaButton}
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
+      <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+        <div className="mx-auto flex max-w-[1600px] flex-wrap items-center justify-between gap-6 rounded-3xl border border-white/10 p-8 sm:p-12">
+          <div>
+            <p className="font-display text-2xl font-semibold text-white sm:text-3xl">{data.ctaHeading}</p>
+            <p className="mt-2 max-w-lg text-sm text-gray-400">{data.ctaBody}</p>
           </div>
-        </AnimatedSection>
-      </div>
+          <Link href={data.ctaHref} className={CTA}>
+            {data.ctaButton} <span aria-hidden="true">→</span>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }
