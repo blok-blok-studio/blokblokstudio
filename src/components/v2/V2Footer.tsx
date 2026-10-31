@@ -19,6 +19,7 @@ export async function V2Footer() {
     { href: '/blog', label: nav('v2_ideas') },
     { href: '/faq', label: nav('faq') },
     { href: '/team', label: nav('team') },
+    { href: '/careers', label: nav('v2_careers') },
     { href: '/contact', label: nav('contact') },
   ];
   const legal = [

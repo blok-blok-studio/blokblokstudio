@@ -118,8 +118,8 @@ const nextConfig: NextConfig = {
 
       // Old team, careers, knowledge base, shop, misc
       { source: '/team-details/:slug*', destination: '/team', permanent: true },
-      { source: '/careers/:slug*', destination: '/about', permanent: true },
-      { source: '/careers', destination: '/about', permanent: true },
+      // /careers is a live page again (redesign/v2); old /careers/<slug> URLs land on it.
+      { source: '/careers/:slug+', destination: '/careers', permanent: true },
       { source: '/knowledge-base-categories/:slug*', destination: '/faq', permanent: true },
       { source: '/knowledge-base-details/:slug*', destination: '/faq', permanent: true },
       { source: '/product/:slug*', destination: '/services', permanent: true },

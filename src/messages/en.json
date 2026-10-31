@@ -21,7 +21,8 @@
     "v2_services": "Services",
     "v2_journal": "Journal",
     "v2_cta": "Start a project",
-    "v2_ideas": "Ideas"
+    "v2_ideas": "Ideas",
+    "v2_careers": "Careers"
   },
   "faq": {
     "meta_title": "FAQ, Web Design Studio in Berlin",
@@ -3187,5 +3188,31 @@
     "email_label": "Email address",
     "cookie_dialog": "Cookie consent",
     "cookie_preferences_dialog": "Cookie preferences"
+  },
+  "careers": {
+    "meta_title": "Careers at Blok Blok Studio",
+    "meta_description": "A five-person studio in Berlin, Richmond, Los Angeles and Multan building websites for clients from Dallas to Manila. How we work and where to send a portfolio.",
+    "label": "Careers",
+    "title": "Small team. Real clients. Your name on the work.",
+    "intro": "Five people across four cities, building for clients from a Dallas plumber to Philippine Airlines. No layers between you and the client, and no templates between you and the work.",
+    "how_label": "How we work",
+    "how_1_title": "Remote by design",
+    "how_1_text": "Berlin is HQ. The creative director is in Virginia, marketing in Los Angeles, video in Pakistan. Async first, with calls when they earn their place.",
+    "how_2_title": "You own a project",
+    "how_2_text": "One person runs a build end to end and talks to the client directly. The case study carries your work, not a department.",
+    "how_3_title": "Built from scratch",
+    "how_3_text": "Next.js and React, hand-built. No page builders, no purchased themes. If you like fast sites and clean code, you will like it here.",
+    "how_4_title": "Numbers, not vibes",
+    "how_4_text": "Every site is judged on what it earns the client: bookings, orders, rankings. We publish the results, so the work has to hold up.",
+    "where_label": "Where we are",
+    "roles_label": "Open roles",
+    "roles": [],
+    "apply": "Apply by email",
+    "none_title": "No open roles right now.",
+    "none_text": "We hire when a project needs it, usually front-end developers and designers who can also write. Send a portfolio and two lines on what you want to build. We read every one and keep the good ones.",
+    "none_subject": "Portfolio for Blok Blok Studio",
+    "none_cta": "Send a portfolio",
+    "clients_note": "Looking for a website instead?",
+    "clients_link": "Start with the quiz"
   }
 }

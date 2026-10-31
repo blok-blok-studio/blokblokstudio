@@ -2,7 +2,7 @@
 
 /**
  * V2Navbar — redesign/v2.
- * Minimal fixed bar: mark left, six links, language, one accent pill.
+ * Minimal fixed bar: mark left, seven links, language, one accent pill.
  * Transparent over the hero, backs onto black once the page scrolls.
  * Mobile: a full-screen menu with oversized links.
  */
@@ -44,6 +44,7 @@ export function V2Navbar() {
     { href: '/about', label: t('about') },
     { href: '/team', label: t('team') },
     { href: '/blog', label: t('v2_ideas') },
+    { href: '/careers', label: t('v2_careers') },
     { href: '/services', label: t('services') },
     { href: '/contact', label: t('contact') },
   ];

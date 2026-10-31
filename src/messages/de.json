@@ -21,7 +21,8 @@
     "v2_services": "Leistungen",
     "v2_journal": "Journal",
     "v2_cta": "Projekt starten",
-    "v2_ideas": "Ideen"
+    "v2_ideas": "Ideen",
+    "v2_careers": "Karriere"
   },
   "faq": {
     "meta_title": "FAQ | AI Agency & Web Design Studio in Berlin",
@@ -3187,5 +3188,31 @@
     "email_label": "E-Mail-Adresse",
     "cookie_dialog": "Cookie-Einwilligung",
     "cookie_preferences_dialog": "Cookie-Einstellungen"
+  },
+  "careers": {
+    "meta_title": "Karriere bei Blok Blok Studio",
+    "meta_description": "Ein Fünf-Personen-Studio in Berlin, Richmond, Los Angeles und Multan, das Websites für Kunden von Dallas bis Manila baut. Wie wir arbeiten und wohin Sie Ihr Portfolio schicken.",
+    "label": "Karriere",
+    "title": "Kleines Team. Echte Kunden. Ihr Name auf der Arbeit.",
+    "intro": "Fünf Leute in vier Städten, die für Kunden vom Klempner in Dallas bis zu Philippine Airlines bauen. Keine Ebenen zwischen Ihnen und dem Kunden, keine Templates zwischen Ihnen und der Arbeit.",
+    "how_label": "So arbeiten wir",
+    "how_1_title": "Remote von Anfang an",
+    "how_1_text": "Berlin ist der Hauptsitz. Der Creative Director sitzt in Virginia, Marketing in Los Angeles, Video in Pakistan. Asynchron zuerst, Calls nur, wenn sie sich lohnen.",
+    "how_2_title": "Sie verantworten ein Projekt",
+    "how_2_text": "Eine Person führt einen Build von Anfang bis Ende und spricht direkt mit dem Kunden. Die Fallstudie trägt Ihre Arbeit, nicht die einer Abteilung.",
+    "how_3_title": "Von Grund auf gebaut",
+    "how_3_text": "Next.js und React, von Hand gebaut. Keine Baukästen, keine gekauften Themes. Wer schnelle Seiten und sauberen Code mag, ist hier richtig.",
+    "how_4_title": "Zahlen statt Gefühl",
+    "how_4_text": "Jede Seite wird daran gemessen, was sie dem Kunden bringt: Buchungen, Bestellungen, Rankings. Wir veröffentlichen die Ergebnisse, also muss die Arbeit standhalten.",
+    "where_label": "Wo wir sind",
+    "roles_label": "Offene Stellen",
+    "roles": [],
+    "apply": "Per E-Mail bewerben",
+    "none_title": "Zurzeit keine offenen Stellen.",
+    "none_text": "Wir stellen ein, wenn ein Projekt es braucht, meist Frontend-Entwickler und Designer, die auch schreiben können. Schicken Sie ein Portfolio und zwei Zeilen dazu, was Sie bauen wollen. Wir lesen jede Bewerbung und behalten die guten.",
+    "none_subject": "Portfolio für Blok Blok Studio",
+    "none_cta": "Portfolio schicken",
+    "clients_note": "Sie suchen stattdessen eine Website?",
+    "clients_link": "Mit dem Quiz starten"
   }
 }
