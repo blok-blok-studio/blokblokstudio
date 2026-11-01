@@ -58,6 +58,9 @@ function isPalette(v: string | null): v is PaletteId {
 export function PaletteSwitcher() {
   const [palette, setPalette] = useState<PaletteId>('blue');
   const [open, setOpen] = useState(false);
+  // The pill is a review tool: shown on previews and localhost, hidden on the
+  // live domain. `?palette=` still works everywhere via the boot script.
+  const [hidden, setHidden] = useState(true);
 
   // Re-derive the choice on mount and re-apply it. The boot script in
   // layout.tsx already set it before paint, but a hydration re-render of
@@ -71,6 +74,7 @@ export function PaletteSwitcher() {
     const id: PaletteId = isPalette(q) ? q : isPalette(stored) ? stored : 'blue';
     setPalette(id);
     document.documentElement.setAttribute('data-palette', id);
+    setHidden(/(^|\.)blokblokstudio\.com$/.test(window.location.hostname));
   }, []);
 
   const apply = (id: PaletteId) => {
@@ -85,6 +89,8 @@ export function PaletteSwitcher() {
   };
 
   const active = PALETTES[palette];
+
+  if (hidden) return null;
 
   return (
     <div
