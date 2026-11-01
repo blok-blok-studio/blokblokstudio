@@ -9,10 +9,12 @@ export interface NewsItem {
   date: string;
   /** Internal or external link, if the item has somewhere to go. */
   href?: string;
+  /** Card image under /public (16:10). */
+  image?: string;
 }
 
 export const newsItems: NewsItem[] = [
-  { slug: 'philippine-airlines', date: '2026-10-30', href: '/projects' },
-  { slug: 'brand-guidelines-v2', date: '2026-10-16', href: '/about' },
-  { slug: 'grant-parkhurst-portal', date: '2026-09-30', href: '/projects/grant-parkhurst' },
+  { slug: 'philippine-airlines', date: '2026-10-30', href: '/projects', image: '/images/news/philippine-airlines.webp' },
+  { slug: 'brand-guidelines-v2', date: '2026-10-16', href: '/about', image: '/images/news/brand-guidelines-v2.webp' },
+  { slug: 'grant-parkhurst-portal', date: '2026-09-30', href: '/projects/grant-parkhurst', image: '/images/news/grant-parkhurst-portal.webp' },
 ];

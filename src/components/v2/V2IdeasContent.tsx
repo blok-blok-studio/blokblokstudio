@@ -65,6 +65,7 @@ export function V2IdeasContent() {
       title: t(`news.${n.slug}.title` as 'posts'),
       summary: t(`news.${n.slug}.summary` as 'posts'),
       date: n.date,
+      image: n.image,
       by: 'Blok Blok Studio',
     })),
   ].sort((a, b) => b.date.localeCompare(a.date));
