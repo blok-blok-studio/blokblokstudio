@@ -4,12 +4,6 @@ import { getTranslations } from 'next-intl/server';
  * V2Proof — three real numbers from shipped work, then three client
  * quotes set in the serif italic. Quotes mirror HomeTestimonials.
  */
-const QUOTES = [
-  { text: 'v2_quote_1_text', name: 'Colton Staley', role: 'v2_quote_1_role', results: true },
-  { text: 'v2_quote_2_text', name: 'Coach Kofi', role: 'v2_quote_2_role' },
-  { text: 'v2_quote_3_text', name: 'Exotic Ripz', role: 'v2_quote_3_role', results: true },
-] as const;
-
 export async function V2Proof() {
   const t = await getTranslations('home');
   // 4 = Philippine Airlines: PAL Holdings FY2025 revenue PHP 183.8B, about USD 3.1B
@@ -34,25 +28,6 @@ export async function V2Proof() {
           ))}
         </dl>
 
-        <h2 className="mt-28 border-b border-white/10 pb-4 t-eyebrow text-gray-500">
-          {t('v2_quotes_label')}
-        </h2>
-        <ul className="grid gap-x-10 gap-y-14 pt-12 md:grid-cols-3">
-          {QUOTES.map((q) => (
-            <li key={q.name}>
-              {'results' in q ? (
-                <p className="t-lead text-white">{t(q.text)}</p>
-              ) : (
-                <blockquote className="t-lead text-white">
-                  &ldquo;{t(q.text)}&rdquo;
-                </blockquote>
-              )}
-              <p className="mt-6 t-eyebrow text-gray-500">
-                {q.name} · {t(q.role)}
-              </p>
-            </li>
-          ))}
-        </ul>
       </div>
     </section>
   );

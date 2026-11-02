@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { getLocale, getTranslations } from 'next-intl/server';
 import { projectsData } from '@/data/projects';
 import { localizeProject } from '@/data/i18n';
-import { PROJECT_IMAGES, PROJECT_RESULT_KEYS } from '@/data/project-cards';
+import { PROJECT_IMAGES } from '@/data/project-cards';
 
 /**
  * V2Work — editorial grid of every case study, in the order projects.ts
@@ -58,9 +58,6 @@ export async function V2Work() {
                       <span className="t-eyebrow text-gray-500">{m.label}</span>
                     </p>
                   )}
-                  <p className="mt-2 max-w-xl t-caption text-gray-400">
-                    {PROJECT_RESULT_KEYS[slug] ? t(PROJECT_RESULT_KEYS[slug] as 'v2_result_coach_luki') : p.desc}
-                  </p>
                 </Link>
               </li>
             );

@@ -378,7 +378,6 @@ export function V2Globe() {
                 continents: new Set(clientCities.filter((c) => c.clients.length).map((c) => CONTINENT[c.country] ?? c.country)).size,
               })}
             </p>
-            <p className="mt-3 t-caption text-gray-500">{t('v2_globe_hint')}</p>
             <div className="mt-6 flex items-center gap-6 t-eyebrow text-gray-400">
               <span className="flex items-center gap-2">
                 <span className="h-2.5 w-2.5 rounded-full" style={{ background: 'var(--bb-team)' }} />

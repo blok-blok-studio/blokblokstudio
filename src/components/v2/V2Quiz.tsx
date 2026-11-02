@@ -7,8 +7,6 @@ import { QuizLeadForm } from '@/components/QuizLeadForm';
  * real five-question QuizLeadForm (same component as /quiz) so visitors can
  * start without leaving the page; the button opens the full-page version.
  */
-const STEPS = [1, 2, 3, 4, 5] as const;
-
 export async function V2Quiz() {
   const t = await getTranslations('home');
   return (
@@ -29,13 +27,6 @@ export async function V2Quiz() {
           </Link>
         </div>
         <div className="mt-12 lg:mt-0">
-          <ol className="mb-6 flex flex-wrap gap-x-5 gap-y-2 t-eyebrow text-gray-500">
-            {STEPS.map((n) => (
-              <li key={n}>
-                0{n} {t(`v2_quiz_step_${n}`)}
-              </li>
-            ))}
-          </ol>
           <QuizLeadForm fieldTag="Start Lead" />
         </div>
       </div>
