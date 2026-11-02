@@ -18,6 +18,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
   const locale = await getLocale();
   const t = await getTranslations('ui');
   const tp = await getTranslations('projects');
+  const tc = await getTranslations('casegrid');
   const project = localizeProject(slug, locale);
   if (!project) return null;
 
@@ -116,7 +117,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
                 </a>
               </div>
               {project.embeddable ? (
-                <ScaledLiveIframe src={project.useProxy ? `/api/proxy/${slug}` : project.url} title={`${project.title} live site`} />
+                <ScaledLiveIframe src={project.useProxy ? `/api/proxy/${slug}` : project.url} title={tp('alt_live_preview', { title: project.title })} />
               ) : (
                 <FullPageScreenshot url={project.url} alt={tp('alt_live_preview', { title: project.title })} fallback={project.heroImage} />
               )}
@@ -170,7 +171,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
             <div className="mx-auto max-w-3xl">
               <video controls preload="none" playsInline poster={project.testimonialPoster} className="w-full rounded-3xl bg-gray-950">
                 <source src={project.testimonialVideo} type="video/mp4" />
-                {videoMeta?.captions && <track kind="captions" src={videoMeta.captions} srcLang="en" label="English" default />}
+                {videoMeta?.captions && <track kind="captions" src={videoMeta.captions} srcLang="en" label={tc('captions_label')} default />}
               </video>
               {videoKey && <VideoTranscript transcript={videoTranscript(videoKey, locale)} speaker={project.testimonialName} />}
             </div>

@@ -13,7 +13,7 @@
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
     "cookies": "Çerez Politikası",
-    "impressum": "Yasal bildirim",
+    "impressum": "Künye",
     "data_rights": "Veri Haklarınız",
     "accessibility": "Erişilebilirlik",
     "v2_work": "İşler",
@@ -43,22 +43,22 @@
       {
         "category": "pricing",
         "question": "Özel bir web sitesi ne kadara mal olur?",
-        "answer": "Blok Blok Studio'da özel web siteleri tek bir açılış sayfası için $2,000'dan, 5 sayfalık bir site için $6,500'dan, CMS'li 10 sayfa için $12,000'dan ve 15 veya daha fazla sayfa için $18,000'dan başlar. Fiyat; sayfa sayısına, özel animasyonlara, entegrasyonlara ve metin yazarlığı ihtiyaçlarına göre belirlenir. Her site Next.js ile geliştirilir, Vercel üzerinde barındırılır ve ilk günden SEO için optimize edilir; asla şablon kullanılmaz."
+        "answer": "Blok Blok Studio'da özel web siteleri tek bir açılış sayfası için 2.000 dolardan, 5 sayfalık bir site için 6.500 dolardan, CMS'li 10 sayfa için 12.000 dolardan ve 15 veya daha fazla sayfa için 18.000 dolardan başlar. Fiyat; sayfa sayısına, özel animasyonlara, entegrasyonlara ve metin yazarlığı ihtiyaçlarına göre belirlenir. Her site Next.js ile geliştirilir, Vercel üzerinde barındırılır ve ilk günden SEO için optimize edilir; asla şablon kullanılmaz."
       },
       {
         "category": "pricing",
         "question": "Bir yapay zeka sohbet botu geliştirmek ne kadara mal olur?",
-        "answer": "100'den fazla soru-cevap çiftiyle eğitilmiş ve site genelinde gömülü bir yapay zeka sohbet botu, sesli ajan, SMS otomasyonları ve eksiksiz bir içerik hattını da kapsayan $18,000'lık Konuşma Tabanlı Yapay Zeka paketimize dahildir. Bir web sitesi kademesine bağımsız ek olarak yapay zeka sohbet botu $2,500'dan başlar. Tüm botlar CRM'inizle entegre çalışır ve 7/24 potansiyel müşteri toplar."
+        "answer": "100'den fazla soru-cevap çiftiyle eğitilmiş ve site genelinde gömülü bir yapay zeka sohbet botu, sesli ajan, SMS otomasyonları ve eksiksiz bir içerik hattını da kapsayan 18.000 dolarlık Konuşma Tabanlı Yapay Zeka paketimize dahildir. Bir web sitesi kademesine bağımsız ek olarak yapay zeka sohbet botu 2.500 dolardan başlar. Tüm botlar CRM'inizle entegre çalışır ve 7/24 potansiyel müşteri toplar."
       },
       {
         "category": "pricing",
         "question": "Bir yapay zeka sesli ajanın aylık maliyeti nedir?",
-        "answer": "Yapay zeka sesli ajan kurulumumuz tek seferlik $2,500'dan başlar ve ilk ay için 500 dakikalık konuşma süresi dahildir. Sonraki dakikalar standart telefon tarifeleriyle faturalandırılır ve aylık bir hizmet paketine dahil edilir. Ajan aramaları yanıtlar, potansiyel müşterileri eler, randevu alır ve acil aramaları bir insana yönlendirir; hepsini doğal bir konuşma diliyle yapar."
+        "answer": "Yapay zeka sesli ajan kurulumumuz tek seferlik 2.500 dolardan başlar ve ilk ay için 500 dakikalık konuşma süresi dahildir. Sonraki dakikalar standart telefon tarifeleriyle faturalandırılır ve aylık bir hizmet paketine dahil edilir. Ajan aramaları yanıtlar, potansiyel müşterileri eler, randevu alır ve acil aramaları bir insana yönlendirir; hepsini doğal bir konuşma diliyle yapar."
       },
       {
         "category": "pricing",
         "question": "Aylık hizmet paketleri mi sunuyorsunuz, yoksa yalnızca proje bazlı mı çalışıyorsunuz?",
-        "answer": "Her ikisi de. Proje işleri $2,000'dan başlar ve kilometre taşlarına göre faturalandırılır. Aylık paketler site bakımı, yapay zeka izleme ve CRM bakımı için aylık $1,500'dan; tam kapsamlı büyüme, Google ve Meta reklam yönetimi, yapay zeka destekli içerik üretimi ve her ay 5 saatlik geliştirme çalışması için aylık $3,500'dan başlar. Aylık paketler 3 veya 6 aylık asgari taahhüt gerektirir."
+        "answer": "Her ikisi de. Proje işleri 2.000 dolardan başlar ve kilometre taşlarına göre faturalandırılır. Aylık paketler site bakımı, yapay zeka izleme ve CRM bakımı için aylık 1.500 dolardan; tam kapsamlı büyüme, Google ve Meta reklam yönetimi, yapay zeka destekli içerik üretimi ve her ay 5 saatlik geliştirme çalışması için aylık 3.500 dolardan başlar. Aylık paketler 3 veya 6 aylık asgari taahhüt gerektirir."
       },
       {
         "category": "process",
@@ -93,7 +93,7 @@
       {
         "category": "capabilities",
         "question": "Web sitesi metinlerini siz mi yazıyorsunuz, yoksa ben mi sağlıyorum?",
-        "answer": "İkisi de olur. Çoğu müşteri ham notlar veya madde işaretleri sağlar, biz bunları nihai metne dönüştürürüz. Tam profesyonel metin yazarlığı $18,000'lık kademeye dahildir ve diğer tüm kademelerde sayfa başına $200 ek ücretle sunulur. Reklamları biz yönettiğimizde Google ve Meta kampanyalarının reklam metinleri her zaman tarafımızca yazılır."
+        "answer": "İkisi de olur. Çoğu müşteri ham notlar veya madde işaretleri sağlar, biz bunları nihai metne dönüştürürüz. Tam profesyonel metin yazarlığı 18.000 dolarlık kademeye dahildir ve diğer tüm kademelerde sayfa başına 200 dolar ek ücretle sunulur. Reklamları biz yönettiğimizde Google ve Meta kampanyalarının reklam metinleri her zaman tarafımızca yazılır."
       },
       {
         "category": "trust",
@@ -108,7 +108,7 @@
       {
         "category": "trust",
         "question": "Sitem mobil uyumlu ve SEO için optimize edilmiş olacak mı?",
-        "answer": "Evet, her ikisi de her projede vazgeçilmezdir. Önce mobil yaklaşımlı duyarlı tasarım 375px, 768px, 1024px ve 1440px genişliklerinde test edilir. Her sayfa meta başlıkları, açıklamalar, şema işaretlemesi, alt metinler ve Google'a gönderilen bir site haritasıyla teslim edilir. Lansmandan önce performans için 90+, erişilebilirlik için 95+ Lighthouse puanı hedefleriz."
+        "answer": "Evet, her ikisi de her projede vazgeçilmezdir. Mobil öncelikli duyarlı tasarım 375px, 768px, 1024px ve 1440px genişliklerinde test edilir. Her sayfa meta başlıkları, açıklamalar, şema işaretlemesi, alt metinler ve Google'a gönderilen bir site haritasıyla teslim edilir. Lansmandan önce performans için 90+, erişilebilirlik için 95+ Lighthouse puanı hedefleriz."
       }
     ]
   },
@@ -135,7 +135,7 @@
     "tab_all": "Tümü",
     "tab_ai": "Yapay Zeka ve Otomasyon",
     "tab_creative": "Kreatif ve Pazarlama",
-    "audit_badge": "Free: 30 minutes",
+    "audit_badge": "Ücretsiz, 30 dakika",
     "audit_heading": "İşletmenizin Neye İhtiyacı Olduğundan Emin Değil misiniz?",
     "audit_subheading": "Ücretsiz bir strateji görüşmesi ayarlayın. İşletmenizi inceleyip en büyük fırsatların tam olarak nerede olduğunu gösterelim.",
     "audit_button": "Ücretsiz Görüşmenizi Ayarlayın",
@@ -172,11 +172,11 @@
     "v2_result_exotic_ripz": "1.790 siparişte 191.000 $ satış. Drop'lar saatler içinde tükendi.",
     "v2_result_kds_systems": "Net bir hizmet anlatımı ve nitelikli potansiyel müşterileri artıran bir randevu akışı.",
     "v2_proof_label": "Rakamlar",
-    "v2_proof_1_value": "$191k",
+    "v2_proof_1_value": "191.000 $",
     "v2_proof_1_label": "Teslim ettiğimiz tek bir mağazadan geçen satış",
-    "v2_proof_2_value": "5.0",
+    "v2_proof_2_value": "5,0",
     "v2_proof_2_label": "52 yorumda Google puanı, Bronco Plumbing",
-    "v2_proof_3_value": "200%",
+    "v2_proof_3_value": "%200",
     "v2_proof_3_label": "Daha fazla danışmanlık talebi, Coach Kofi",
     "v2_quotes_label": "Müşteriler",
     "v2_clients_label": "Bize güvenenler",
@@ -212,7 +212,7 @@
     "v2_hero_cta": "Proje başlatın",
     "v2_quiz_link": "Teste başlayın",
     "v2_globe_label": "Müşterilerimiz nerede",
-    "v2_globe_title": "Berlin'de inşa edildi. Avrupa, Kuzey Amerika ve Asya'da güveniliyor.",
+    "v2_globe_title": "Berlin'de üretiliyor. Avrupa, Kuzey Amerika ve Asya'da güveniliyor.",
     "v2_globe_sub": "{continents} kıtada, {cities} şehirde {clients} marka ve dört saat diliminde çalışan bir ekip. Siz uyurken projeniz ilerlemeye devam eder.",
     "v2_globe_studio": "Stüdyo",
     "v2_globe_clients": "Müşteriler",
@@ -228,15 +228,15 @@
     "v2_hosting_bullet_3": "Güvenlik ve bağımlılık güncellemeleri",
     "v2_hosting_bullet_4": "Hız ayarı ve Core Web Vitals kontrolleri",
     "v2_hosting_bullet_5": "İhtiyaç duyduğunuzda içerik değişiklikleri ve destek",
-    "v2_globe_hint": "Döndürmek için sürükleyin, yakınlaştırmak için kaydırın veya sıkıştırın ya da bir şehir seçin.",
-    "v2_proof_4_value": "$3B+",
+    "v2_globe_hint": "Döndürmek için sürükleyin, yakınlaştırmak için kaydırın ya da iki parmağınızla sıkıştırın veya bir şehir seçin.",
+    "v2_proof_4_value": "3+ milyar $",
     "v2_proof_4_label": "En büyük müşterimiz Philippine Airlines'ın yıllık geliri",
     "v2_result_public_affair": "Ziyaretçilerin %95'inin tamamladığı premium bir yaş doğrulama girişi.",
     "v2_result_military_newschool": "Askeri bağlantılı öğrencilere hitap eden dijital bir yuva.",
     "v2_archive": "arşiv",
     "v2_globe_nowebgl": "Bu tarayıcıda WebGL kapalı. Şehirler yanda listeleniyor.",
-    "v2_quote_1_role": "Bronco Plumbing, Dallas–Fort Worth",
-    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_1_role": "Bronco Plumbing, Dallas-Fort Worth",
+    "v2_quote_2_role": "Nike sporcusu, Berlin",
     "v2_quote_3_role": "Koleksiyon kartı mağazası",
     "v2_quote_1_text": "İlk beş ayda 50.000 $ brüt gelir, 52 Google yorumunda 5,0 yıldız ve arama terimlerinde ortalama 5,2 Google sıralaması.",
     "v2_quote_2_text": "Blok Blok Studio çevrimiçi varlığımı tamamen dönüştürdü. Cesur tasarım koçluk felsefemi kusursuz yansıtıyor ve sonuçlar inanılmaz oldu.",
@@ -249,7 +249,7 @@
     "v2_result_grant_parkhurst": "Portfolyo ve self servis müşteri portalı, Eylül 2026'dan beri yayında.",
     "v2_next_label": "Sırada ne var",
     "v2_next_1_title": "Sizi geri arıyoruz",
-    "v2_next_1_desc": "Bir iş günü içinde. Sitenin işletme için ne yapması gerektiğine dair yirmi dakika, başka hiçbir şey değil.",
+    "v2_next_1_desc": "Bir iş günü içinde. Sitenin işletmeniz için ne yapması gerektiğine dair yirmi dakika, başka hiçbir şey yok.",
     "v2_next_2_title": "Kapsam ve tek bir sabit fiyat",
     "v2_next_2_desc": "Sayfalar, zaman planı ve tek bir rakam içeren yazılı bir plan. Beş sayfa {price} fiyatından başlar, saatlik ücret yok.",
     "v2_next_3_title": "Başlangıçtan lansmana",
@@ -259,14 +259,14 @@
   },
   "projects": {
     "title": "Projelerimiz",
-    "subtitle": "Dijital deneyimler, marka kimlikleri ve yaratıcı çözümlerden oluşan portfolyomuzu keşfedin.",
+    "subtitle": "Yayına aldığımız her site, ürettiği rakamlarla birlikte.",
     "filter_all": "Tümü",
-    "filter_web": "Web Tasarım",
+    "filter_web": "Web Tasarımı",
     "filter_brand": "Marka Kimliği",
     "filter_app": "Uygulama Geliştirme",
     "filter_marketing": "Pazarlama",
     "view_project": "Projeyi Görüntüle",
-    "cat_web": "Web Tasarım",
+    "cat_web": "Web Tasarımı",
     "cat_ecom": "E-Ticaret",
     "cat_brand": "Marka Kimliği",
     "v2_label": "Seçilmiş işler",
@@ -277,14 +277,14 @@
   },
   "about": {
     "title": "Hakkımızda",
-    "subtitle": "Anlamlı dijital deneyimler yaratma tutkusuyla bir araya gelmiş tasarımcı, geliştirici ve stratejistlerden oluşan bir kolektifiz.",
+    "subtitle": "Web siteleri tasarlayan, geliştiren ve barındıran beş kişilik bir stüdyo. Haziran 2024'te Berlin'de kuruldu.",
     "mission_title": "Misyonumuz",
     "mission_text": "İddialı markalara gerçekten müşteri kazandıran web sitelerini, sistemleri ve kampanyaları sunmak.",
     "vision_title": "Vizyonumuz",
-    "vision_text": "Dijital dünyada öne çıkmaya cesaret eden markaların ilk tercih ettiği yaratıcı ortak olmak.",
+    "vision_text": "Web sitesinin işini yapıp kazandırması gerektiğinde iddialı markaların ilk aradığı stüdyo olmak.",
     "values_title": "Değerlerimiz",
     "value_1_title": "Yenilikçilik",
-    "value_1_text": "Her projede sınırları zorlar ve yeni olasılıkları keşfederiz.",
+    "value_1_text": "Her site sıfırdan yapılır. Bir temadan hiçbir şey yeniden kullanılmaz.",
     "value_2_title": "Mükemmellik",
     "value_2_text": "Kendimizi en yüksek kalite ve işçilik standartlarına göre değerlendiririz.",
     "value_3_title": "İş Birliği",
@@ -296,7 +296,7 @@
     "stats_years": "Yıllık Deneyim",
     "stats_awards": "Hizmet Verilen Sektör",
     "v2_label": "Stüdyo",
-    "v2_intro": "Tercihen butik. Aynı anda yalnızca birkaç markayla çalışırız; böylece her site bir şablon ve bir talep numarası değil, odada bir kurucu bulur.",
+    "v2_intro": "Bilinçli bir tercih olarak butik. Aynı anda yalnızca birkaç markayla çalışırız; böylece her site bir şablon ve bir talep numarası değil, odada bir kurucu bulur.",
     "v2_team_label": "Kiminle çalışacaksınız",
     "v2_team_link": "Ekiple tanışın",
     "v2_cta": "Testle başlayın",
@@ -314,7 +314,7 @@
   },
   "blog": {
     "meta_title": "Blog: Web tasarımı, marka ve SEO üzerine içgörüler",
-    "meta_description": "Blok Blok Studio’dan web tasarımı, marka kimliği, SEO ve dijital pazarlama üzerine uzman içgörüleri. Online varlığınızı büyütmek için uygulanabilir ipuçları.",
+    "meta_description": "Kazandıran siteler yaparken öğrendiklerimiz: Blok Blok Studio'dan makaleler, müşteri videoları ve stüdyo haberleri.",
     "og_alt": "Blok Blok Studio Blog",
     "list_title": "Fikirler",
     "list_subtitle": "Kazandıran siteler inşa ederken öğrendiklerimiz: yazılar, kamera karşısında müşteriler ve stüdyodan haberler.",
@@ -322,7 +322,7 @@
     "read_article": "Makaleyi oku",
     "back_to_blog": "Bloga geri dön",
     "cta_title": "Böyle sonuçlar ister misiniz?",
-    "cta_subtitle": "Ücretsiz bir strateji görüşmesi ayarlayın; dijital varlığınızı nasıl dönüştürebileceğimizi konuşalım.",
+    "cta_subtitle": "Ücretsiz bir görüşme ayarlayın; önce neyi düzelteceğimizi size gösterelim.",
     "cta_button": "Başlayın",
     "posts": {
       "why-your-website-is-losing-customers": {
@@ -332,13 +332,13 @@
       },
       "seo-checklist-2026": {
         "title": "2026 için En Kapsamlı SEO Kontrol Listesi",
-        "description": "2026’da Google’da sıralanmak isteyen her işletme web sitesinin ihtiyaç duyduğu SEO temellerine dair kapsamlı bir rehber. Yapılandırılmış veri, Core Web Vitals ve daha fazlası.",
+        "description": "2026'da Google'da sıralanmak isteyen her işletme web sitesinin ihtiyaç duyduğu SEO temellerine dair kapsamlı bir rehber. Yapılandırılmış veri, Core Web Vitals ve daha fazlası.",
         "category": "SEO"
       },
       "brand-identity-investment": {
         "title": "Marka kimliği neden yapacağınız en iyi yatırımdır",
         "description": "Markanız bir logodan fazlasıdır. Güçlü bir marka kimliği güven oluşturur, premium fiyatları haklı çıkarır ve müşterileri savunuculara dönüştürür.",
-        "category": "Marka"
+        "category": "Marka Kimliği"
       }
     },
     "v2_label": "Fikirler",
@@ -368,7 +368,7 @@
   },
   "services": {
     "title": "Hizmetlerimiz",
-    "subtitle": "Gerçek iş büyümesi sağlayan özel web sitesi tasarımı ve geliştirmesi.",
+    "subtitle": "Müşteri kazanmak için yapılan, ardından barındırılan ve çalışır tutulan özel web sitesi tasarımı ve geliştirmesi.",
     "section_ai_title": "Yapay Zeka ve Otomasyon",
     "section_creative_title": "Kreatif ve Pazarlama",
     "service_1_title": "Yapay Zeka Ajan Ekosistemleri",
@@ -376,13 +376,13 @@
     "service_1_bullet_1": "Çoklu ajan orkestrasyonu",
     "service_1_bullet_2": "Potansiyel müşteriden puanlamaya, e-postaya, SMS'e ve aramaya",
     "service_1_bullet_3": "Otonom karar verme",
-    "service_1_bullet_4": "İnsan müdahaleli yükseltme",
+    "service_1_bullet_4": "Gerektiğinde insana yönlendirme",
     "service_1_bullet_5": "Sıfır kesintiyle 7/24 çalışma",
     "service_2_title": "Konuşma Tabanlı Yapay Zeka",
     "service_2_subtitle": "Potansiyel müşterileri durmaksızın eleyen sohbet botları ve sesli ajanlar",
     "service_2_bullet_1": "Web sitesi yapay zeka sohbet aracı",
     "service_2_bullet_2": "Gelen aramalar için yapay zeka sesli ajanlar",
-    "service_2_bullet_3": "Otomatik pilotta randevu alma",
+    "service_2_bullet_3": "Kendiliğinden işleyen randevu alma",
     "service_2_bullet_4": "SSS yanıtlama ve potansiyel müşteri eleme",
     "service_2_bullet_5": "Robotik değil, doğal dil",
     "service_3_title": "İş Akışı Otomasyonu",
@@ -405,12 +405,12 @@
     "service_5_bullet_2": "Gerçek zamanlı reklam harcaması ve ROAS",
     "service_5_bullet_3": "Otomatik haftalık rapor e-postaları",
     "service_5_bullet_4": "Müşteriye özel KPI bileşenleri",
-    "service_5_bullet_5": "Markanıza özel beyaz etiket",
+    "service_5_bullet_5": "Kendi markanızla sunulur",
     "service_6_title": "Web Siteleri",
     "service_6_subtitle": "Özel geliştirilmiş, dönüşüm odaklı siteler",
     "service_6_bullet_1": "Next.js / React geliştirme",
     "service_6_bullet_2": "İlk günden SEO optimizasyonu",
-    "service_6_bullet_3": "Önce mobil, duyarlı tasarım",
+    "service_6_bullet_3": "Mobil öncelikli duyarlı tasarım",
     "service_6_bullet_4": "CMS entegrasyonu",
     "service_6_bullet_5": "Performans ve hız ayarı",
     "service_7_title": "Marka Kimliği",
@@ -436,28 +436,28 @@
     "service_9_bullet_5": "Kreatif A/B testleri",
     "process_title": "Sürecimiz",
     "step_1_title": "Keşif",
-    "step_1_desc": "Sağlam bir temel kurmak için hedeflerinize, kitlenize ve pazarınıza derinlemesine ineriz.",
+    "step_1_desc": "Herhangi bir şey tasarlanmadan önce hedeflerinizi, kitlenizi ve pazarınızı öğreniriz.",
     "step_2_title": "Strateji",
-    "step_2_desc": "Yaratıcı vizyonu iş hedefleriyle hizalayan, size özel bir yol haritası hazırlarız.",
+    "step_2_desc": "Yazılı bir plan: sayfalar, zaman çizelgesi ve tek bir fiyat.",
     "step_3_title": "Tasarım",
-    "step_3_desc": "Kullanıcıları etkileyen çarpıcı görseller ve sezgisel arayüzler yaratırız.",
+    "step_3_desc": "Sayfaları ve akışı tasarlar, ardından size çalışan bir prototip gösteririz.",
     "step_4_title": "Geliştirme",
-    "step_4_desc": "Hız, ölçeklenebilirlik ve güvenilirlik sağlayan modern teknolojilerle geliştiririz.",
+    "step_4_desc": "Next.js ile elle geliştirilir. Şimdi hızlı, sonra genişletmesi kolay.",
     "step_5_title": "Lansman ve Optimizasyon",
-    "step_5_desc": "Yayına alır, izler ve performansı en üst düzeye çıkarmak için sürekli iyileştiririz.",
+    "step_5_desc": "Yayına alır, rakamları izler ve çalışmayanı düzeltiriz.",
     "v2_label": "Hizmetler",
     "v2_intro": "Tek paket, hakkıyla yapılmış. Siteyi tasarlayıp geliştiriyor, ardından barındırıyor ve çalışır halde tutuyoruz.",
     "v2_process_label": "Bir proje nasıl ilerler",
     "v2_cta_label": "Hangisine ihtiyacınız olduğundan emin değil misiniz?",
     "v2_cta": "1 dakikalık teste başlayın",
     "v2_industries_label": "Kimler için inşa ediyoruz",
-    "v2_industries_more": "Nasıl olduğunu görün",
+    "v2_industries_more": "Nasıl yaptığımızı görün",
     "meta_title": "Hizmetler",
     "meta_description": "Özel web sitesi tasarımı ve geliştirmesi. Net teslimatlar, kapsamınıza göre özel fiyatlandırma."
   },
   "team": {
     "title": "Ekibimiz",
-    "subtitle": "Blok Blok Studio'nun arkasındaki yaratıcı zihinlerle tanışın.",
+    "subtitle": "Sitenizi yapan ve barındıran beş kişi.",
     "role_founder": "Kurucu",
     "role_graphic": "Kıdemli Grafik Tasarımcı",
     "role_web": "Kıdemli Web Tasarımcı",
@@ -482,7 +482,7 @@
   },
   "contact": {
     "title": "İletişime Geçin",
-    "subtitle": "Aklınızda bir proje mi var? Sizden haber almayı çok isteriz. Birlikte olağanüstü bir şey yaratalım.",
+    "subtitle": "Sitenin ne yapması gerektiğini bize anlatın. Bir iş günü içinde yanıt veririz.",
     "name": "Adınız",
     "email": "E-posta Adresiniz",
     "company": "Şirket",
@@ -514,7 +514,7 @@
     "terms": "Hizmet Şartları",
     "and": "ve",
     "consent_required": "Devam etmek için Gizlilik Politikamızı ve Şartlarımızı kabul etmeniz gerekir",
-    "cookie_banner_text": "Deneyiminizi iyileştirmek için zorunlu çerezler kullanıyoruz. Daha fazla bilgi için:",
+    "cookie_banner_text": "Sitenin çalışması için zorunlu çerezler kullanıyoruz. Daha fazla bilgi için:",
     "cookie_policy": "Çerez Politikası",
     "accept": "Kabul Et",
     "decline": "Reddet",
@@ -582,18 +582,18 @@
     "use_item_legal": "Yasal yükümlülüklere uymak",
     "third_parties_title": "Üçüncü Taraf Hizmetler",
     "third_parties_intro": "İşimizi yürütmek için aşağıdaki üçüncü taraf hizmetleri kullanıyoruz:",
-    "third_party_resend": "Resend: for sending email communications",
+    "third_party_resend": "Resend: e-posta iletişimlerinin gönderilmesi",
     "third_parties_note": "Bu hizmetler yalnızca işlevleri için gereken asgari veriyi alır.",
     "retention_title": "Veri Saklama",
     "retention_content": "Kişisel verilerinizi, hizmetlerimizi sunmak ve iş ilişkimizi sürdürmek için gerekli olduğu sürece saklarız. Veri Hakları sayfamız üzerinden istediğiniz zaman verilerinizin silinmesini talep edebilirsiniz.",
     "your_rights_title": "Haklarınız (GDPR)",
     "your_rights_intro": "Genel Veri Koruma Tüzüğü kapsamında şu haklara sahipsiniz:",
-    "right_access": "Access: Request a copy of all personal data we hold about you",
-    "right_correct": "Rectification: Request correction of inaccurate data",
-    "right_delete": "Erasure: Request permanent deletion of your data",
-    "right_object": "Object: Object to processing of your data",
-    "right_export": "Portability: Export your data in a machine-readable format",
-    "right_withdraw": "Withdraw Consent: Withdraw your consent at any time",
+    "right_access": "Erişim. Hakkınızda tuttuğumuz tüm kişisel verilerin bir kopyasını talep etme",
+    "right_correct": "Düzeltme. Yanlış verilerin düzeltilmesini talep etme",
+    "right_delete": "Silme. Verilerinizin kalıcı olarak silinmesini talep etme",
+    "right_object": "İtiraz. Verilerinizin işlenmesine itiraz etme",
+    "right_export": "Taşınabilirlik. Verilerinizi makine tarafından okunabilir bir formatta dışa aktarma",
+    "right_withdraw": "Onayı Geri Çekme. Onayınızı istediğiniz zaman geri çekme",
     "your_rights_cta": "Haklarınızı şurada kullanabilirsiniz:",
     "your_rights_link": "Veri Hakları sayfası",
     "contact_title": "Bize Ulaşın",
@@ -616,7 +616,7 @@
     "third_party_vercel": "Vercel: web sitesi ve uygulama barındırma (ABD; veri koruma çerçeveleri ve SCC'ler geçerlidir)",
     "third_party_slack": "Slack: yeni talepler hakkında ekibimize dahili bildirimler (ad, e-posta, telefon ve işletme türüyle sınırlı)",
     "third_party_turnstile": "Cloudflare Turnstile: formlarımızda spam koruması (IP adresinizi işler)",
-    "third_party_cal": "Cal.com: bizimle görüşme ayarladığınızda randevu planlama",
+    "third_party_cal": "Google Calendar: bizimle görüşme ayarladığınızda randevu planlama",
     "third_party_meta": "Meta (Facebook/Instagram): reklam ölçümü, yalnızca pazarlama çerezi onayınızla. Bu onayla birlikte, reklam dönüşümlerini ölçmek için e-posta adresinizi ve telefon numaranızı hashlenmiş (takma adlı) biçimde de iletebiliriz.",
     "third_party_google": "Google: reklam ölçümü (Google Ads), yalnızca pazarlama çerezi onayınızla",
     "marketing_double_optin": "Pazarlama e-postaları çift onay (double opt-in) yöntemiyle gönderilir. Bir formdaki isteğe bağlı kutuyu işaretlemek tek başına yeterli değildir: size bir onay e-postası göndeririz ve yalnızca içindeki bağlantıya tıkladığınızda listeye eklenirsiniz. O ana kadar size pazarlama e-postası göndermeyiz. Herhangi bir e-postadaki abonelikten çıkma bağlantısını kullanarak istediğiniz zaman vazgeçebilirsiniz; bu anında geçerli olur."
@@ -655,7 +655,7 @@
     "intro_title": "Çerez Nedir",
     "intro_content": "Çerezler, bir web sitesini ziyaret ettiğinizde cihazınızda saklanan küçük metin dosyalarıdır. Web sitelerinin tercihlerinizi hatırlamasına ve gezinme deneyiminizi iyileştirmesine yardımcı olurlar.",
     "our_use_title": "Çerezleri Nasıl Kullanıyoruz",
-    "our_use_content": "Gizliliği ön planda tutan bir yaklaşım benimsiyoruz. Varsayılan olarak, yalnızca çerez onayı tercihinizi hatırlamak için localStorage (bir tarayıcı depolama mekanizması) kullanırız. İsteğe bağlı reklam pikselleri yalnızca pazarlama çerezlerini kabul ederseniz yüklenir.",
+    "our_use_content": "Gizliliği ön planda tutan bir yaklaşım benimsiyoruz. Biri dilinizi, diğeri fiyatların doğru para biriminde görünmesi için ülkenizi hatırlayan iki küçük zorunlu çerez kullanırız; çerez onayı tercihinizi hatırlamak için ise localStorage (bir tarayıcı depolama mekanizması) kullanırız. İsteğe bağlı reklam pikselleri yalnızca pazarlama çerezlerini kabul ederseniz yüklenir.",
     "third_party_title": "Üçüncü Taraf Çerezleri",
     "third_party_content": "Pazarlama çerezlerini kabul ederseniz, reklam kampanyalarımızın performansını ölçmek için Meta (Facebook) ve Google reklam piksellerini yükleriz. Reddederseniz, web sitemizi ziyaret ettiğinizde üçüncü taraf çerezleri ayarlanmaz.",
     "control_title": "Çerezleri Yönetme",
@@ -712,12 +712,12 @@
     "consent_link": "Gizlilik Politikası",
     "consent_post": "ve talebimle ilgili benimle iletişime geçilmesine izin veriyorum.",
     "optional": "(isteğe bağlı)",
-    "cta": "Görüşmemi ayırt",
+    "cta": "Görüşmemi ayarla",
     "sending": "Gönderiliyor...",
     "error_generic": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
     "business": {
       "coaching_consulting": "Koçluk / Danışmanlık",
-      "e_commerce_online_store": "E-Ticaret / Online mağaza",
+      "e_commerce_online_store": "E-Ticaret / Çevrimiçi mağaza",
       "saas_software": "SaaS / Yazılım",
       "agency_marketing": "Ajans / Pazarlama",
       "real_estate": "Gayrimenkul",
@@ -725,9 +725,9 @@
       "legal_law_firm": "Hukuk / Avukatlık",
       "financial_services": "Finansal hizmetler",
       "education_training": "Eğitim / Kurs",
-      "restaurant_food_beverage": "Restoran / Gıda",
+      "restaurant_food_beverage": "Restoran / Yiyecek ve İçecek",
       "fitness_wellness": "Fitness / Sağlıklı yaşam",
-      "construction_trades": "İnşaat / Zanaat",
+      "construction_trades": "İnşaat / Teknik hizmetler",
       "beauty_salon_spa": "Güzellik / Salon / Spa",
       "content_creator_influencer": "İçerik üreticisi / Influencer",
       "retail_brick_mortar": "Perakende / Fiziksel mağaza",
@@ -842,7 +842,7 @@
       }
     },
     "meta_title": "İşletmenizin Müşteri Kaybettiği Yer",
-    "meta_description": "İşletmeniz hakkında beş kısa soru, ardından bir görüşme ayırtın. Önce neyi düzelteceğimizi gösteririz."
+    "meta_description": "İşletmeniz hakkında beş kısa soru, ardından bir görüşme ayarlayın. Önce neyi düzelteceğimizi gösteririz."
   },
   "errors": {
     "title": "Bir şeyler ters gitti",
@@ -878,10 +878,10 @@
     "measure_reduced_motion": "İşletim sisteminizdeki <code>prefers-reduced-motion</code> ayarına saygı.",
     "measure_contrast": "WCAG AA'yı karşılayan veya aşan renk kontrastı (gövde metni için 4,5:1).",
     "measure_rtl": "Arapça için sağdan sola düzen ve her seçeneği kendi dilinde ve yönünde duyuran bir dil değiştirici.",
-    "measure_languages": "Site 19 dilde sunulur; böylece İngilizce bilmeyenler siteyi düşündükleri dilde kullanabilir.",
+    "measure_languages": "Site 20 dilde sunulur; böylece İngilizce bilmeyenler siteyi düşündükleri dilde kullanabilir.",
     "limitations_title": "Bilinen sınırlamalar",
     "limitations_intro": "Tüm çabalarımıza rağmen bu sitedeki bazı içerikler henüz tam olarak erişilebilir olmayabilir. Çözmek için çalıştığımız bilinen sorunlar:",
-    "limitation_third_party": "<strong>Gömülü üçüncü taraf içerik</strong>: Cloudflare Turnstile CAPTCHA ve Cal.com randevu iframe'i kendi erişilebilirlik davranışlarını sağlayıcıdan devralır. Uyumluluk durumlarını her sağlayıcıyla birlikte takip ediyoruz.",
+    "limitation_third_party": "<strong>Gömülü üçüncü taraf içerik</strong>, Cloudflare Turnstile CAPTCHA ve Google Calendar randevu sayfası kendi erişilebilirlik davranışlarını sağlayıcıdan devralır. Uyumluluk durumlarını her sağlayıcıyla birlikte takip ediyoruz.",
     "limitation_motion": "<strong>Dekoratif hareket</strong>: <code>prefers-reduced-motion</code> ayarlandığında ortam arka plan animasyonları devre dışı kalır, ancak az sayıda imleç mıknatıslı mikro etkileşim hâlâ oynatılabilir.",
     "limitation_language": "<strong>Beyanın dili</strong>, bu beyanın İngilizce sürümü esas alınır; diğer diller onun çevirisidir. Sitenin kendisi 20 dilde sunulmaktadır.",
     "feedback_title": "Geri bildirim ve iletişim",
@@ -889,7 +889,7 @@
     "feedback_email": "<strong>E-posta:</strong> <link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>Web formu:</strong> <link>İletişim sayfası</link>, lütfen mesajınızda “erişilebilirlik” ifadesine yer verin.",
     "enforcement_title": "Yaptırım prosedürü",
-    "enforcement_intro": "Blok Blok Studio Almanya'da kayıtlıdır. Erişilebilirlik geri bildiriminize verdiğimiz yanıttan memnun kalmazsanız konuyu yerel yaptırım çerçeveniz kapsamında üst makamlara taşıyabilirsiniz:",
+    "enforcement_intro": "Blok Blok Studio Almanya'nın Berlin şehrinde bulunuyor. Erişilebilirlik geri bildiriminize verdiğimiz yanıttan memnun kalmazsanız konuyu yerel yaptırım çerçeveniz kapsamında üst makamlara taşıyabilirsiniz:",
     "enforcement_eu": "<strong>Avrupa Birliği</strong>: bulunduğunuz AB üye devletinin piyasa gözetim makamı. EAA her üye devlette ulusal bir makam belirler.",
     "enforcement_germany": "<strong>Almanya</strong>: Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Amerika Birleşik Devletleri</strong>: ADA şikayetleri için ABD Adalet Bakanlığı Sivil Haklar Bölümü; 508. Bölüm için ABD Access Board.",
@@ -905,28 +905,28 @@
     "diagnosis_known": "{industry} hakkında bize anlattıklarınıza göre, görüşmede sizinle bunları ele alırdık.",
     "diagnosis_unsure": "Henüz emin değilsiniz, bu da gayet normal bir başlangıç noktası. {industry} alanında para genelde burada olur, o yüzden görüşmede oradan başlardık.",
     "industry_fallback": "sektörünüz",
-    "sub_fallback": "Talebinizi aldık. Ücretsiz 15 dakikalık ilk görüşmenizi hemen ayırtın; en erken saatler ilk ayırtana gider.",
+    "sub_fallback": "Talebinizi aldık. Ücretsiz 15 dakikalık görüşme için aşağıdan bir saat seçin.",
     "cover_label": "Görüşmede neleri ele alacağız",
     "cover_note": "Görüşmede her şeyi kapsam ve maliyet dahil düzgünce ele alacağız.",
-    "calendar_title": "Ücretsiz tanışma görüşmenizi ayırtın",
+    "calendar_title": "Ücretsiz tanışma görüşmenizi ayarlayın",
     "calendar_fallback": "Takvim yüklenmiyor mu?",
     "calendar_open": "Doğrudan açın",
     "calendar_chat": "Yazmayı mı tercih edersiniz?",
     "calendar_whatsapp": "Bize WhatsApp'tan yazın",
-    "calendar_reply": "dakikalar içinde yanıt veriyoruz.",
+    "calendar_reply": "dakikalar içinde yanıt veririz.",
     "next_label": "Sırada ne var",
     "next_1_title": "Yukarıdan saatinizi seçin",
     "next_1_desc": "İşinizi ve ihtiyacınızı tanımamız için kısa bir görüşme.",
     "next_2_title": "Görüşmede her şeyi tek tek açıyoruz",
     "next_2_desc": "Nerede müşteri kaybettiğinizi, önce neyi düzeltmek gerektiğini ve bunun neye mal olacağını.",
     "next_3_title": "Biz kuruyoruz, siz büyüyorsunuz",
-    "next_3_desc": "Web sitesi, reklamlar, sosyal medya, yapay zekâ sistemleri. Sizin için yapılır, hızla yayına girer.",
+    "next_3_desc": "Web sitesi yapılır, barındırılır ve çalışır tutulur. Sizin için yapılır, hızla yayına girer.",
     "founder_kicker": "Kiminle konuşacaksınız",
     "founder_title": "Kurucuyla tanışın",
     "clients_kicker": "İşler ve rakamlar",
     "clients_title": "Müşterilerimiz",
     "cta_title": "Daha fazla iş görmek ister misiniz?",
-    "cta_sub": "Tüm portföy, ekip ve nasıl çalıştığımız ana sitede.",
+    "cta_sub": "Tüm portfolyo, ekip ve nasıl çalıştığımız ana sitede.",
     "cta_button": "blokblokstudio.com'u ziyaret edin",
     "work": {
       "site": {
@@ -970,12 +970,12 @@
     "founder_soon": "Chase'den birkaç söz, çok yakında.",
     "founder_caption": "Chase Haynes, Blok Blok Studio'nun kurucusu. Sitenizi yapan kişiyle konuşursunuz, bir müşteri temsilcisiyle değil.",
     "meta_title": "Bir Adım Kaldı",
-    "meta_description": "Ücretsiz 15 dakikalık tanışma görüşmenizi ayırtın."
+    "meta_description": "Ücretsiz 15 dakikalık tanışma görüşmenizi ayarlayın."
   },
   "ui": {
     "footer_contact": "İletişim",
     "footer_privacy": "Gizlilik Politikası",
-    "footer_terms": "Kullanım Koşulları",
+    "footer_terms": "Hizmet Şartları",
     "footer_cookies": "Çerez Politikası",
     "footer_impressum": "Künye",
     "read_transcript": "Metni oku",
@@ -998,7 +998,7 @@
     "proj_testimonial": "Müşteriden dinleyin",
     "proj_gallery": "Proje galerisi",
     "proj_next": "Sonraki proje",
-    "cases_kicker": "İş ve rakamlar",
+    "cases_kicker": "İşler ve rakamlar",
     "cases_sub": "Kamera karşısında müşteriler, belgelenmiş gelir. Bizimle çalışmak gerçekte nasıl görünüyor.",
     "cases_view": "Vaka çalışmasını gör",
     "mockup_all": "MacBook, iPad ve iPhone üzerinde Blok Blok Studio projeleri",
@@ -1008,11 +1008,11 @@
     "about_design": "Tasarım",
     "about_development": "Geliştirme",
     "about_strategy": "Strateji",
-    "about_branding": "Marka",
+    "about_branding": "Marka Kimliği",
     "about_tagline": "Fark edilen markalar kuruyoruz",
     "faq_title": "Sık sorulan sorular",
     "faq_sub": "Bizimle çalışmak hakkında bilmeniz gereken her şey",
-    "who_title": "Kimler için çalışıyoruz",
+    "who_title": "Kimler için inşa ediyoruz",
     "who_sub": "Her sektör farklı dönüşüyor. Uyguladığımız yaklaşımlar ve arkalarındaki müşteri rakamları.",
     "start_project": "Projenize başlayın",
     "contact_location": "Konum",
@@ -1033,7 +1033,7 @@
   },
   "onboard": {
     "title": "Müşteri başlangıcı",
-    "sub": "Hemen başlayabilmemiz için her şeyi hazırlayalım.",
+    "sub": "İlk günden başlayabilmemiz için her şeyi hazırlayalım.",
     "loading": "Başlangıç formunuz yükleniyor...",
     "unavailable": "Bağlantı kullanılamıyor",
     "done": "Her şey hazır!",
@@ -1071,7 +1071,18 @@
     "ph_telegram": "örn. 123456789",
     "ph_notes": "Projeniz, tercihleriniz veya çalışma şekliniz hakkında bilmemiz gereken her şey...",
     "ph_brand": "Logo kullanımı, marka renkleri, yazı tipleri, ses tonu, yapılması ve yapılmaması gerekenler...",
-    "meta_description": "Blok Blok Studio ile çalışmaya başlamak için başlangıç formunuzu tamamlayın."
+    "meta_description": "Blok Blok Studio ile çalışmaya başlamak için başlangıç formunuzu tamamlayın.",
+    "f_name": "Ad soyad",
+    "f_role": "Rol / unvan",
+    "f_email": "E-posta",
+    "f_phone": "Telefon",
+    "f_platform": "Platform",
+    "f_username": "Kullanıcı adı / e-posta",
+    "f_password": "Şifre",
+    "f_url_optional": "URL (isteğe bağlı)",
+    "f_notes_optional": "Notlar (isteğe bağlı)",
+    "f_url": "URL",
+    "ph_select": "Seçin..."
   },
   "pricing": {
     "packages": "PAKETLER",
@@ -1083,13 +1094,13 @@
     "custom_quote": "Size özel teklif ister misiniz?",
     "hero_title_a": "Ne alacağınız,",
     "hero_title_em": "madde madde.",
-    "hero_sub": "AI destekli web siteleri, uygulamalar, otomasyonlar, reklamlar, marka kimliği ve sosyal medya yönetimi. Her iş kapsamınıza göre ayrı fiyatlandırılır ve teslimatlar yazıya dökülür; böylece ikimiz de ne inşa ettiğimizi biliriz.",
+    "hero_sub": "Yapay zeka destekli web siteleri, uygulamalar, otomasyonlar, reklamlar, marka kimliği ve sosyal medya yönetimi. Her iş kapsamınıza göre ayrı fiyatlandırılır ve teslimatlar yazıya dökülür; böylece ikimiz de ne inşa ettiğimizi biliriz.",
     "tabs": {
       "web": "Web Geliştirme",
       "app": "Uygulama Geliştirme",
       "social": "Sosyal Medya",
       "marketing": "Pazarlama",
-      "aiAgents": "AI Ajanları",
+      "aiAgents": "Yapay Zeka Ajanları",
       "saas": "Özel SaaS",
       "branding": "Marka Stratejisi"
     },
@@ -1119,7 +1130,7 @@
         {
           "name": "Tek Sayfa Lansmanı",
           "price": 2000,
-          "disp": "$2,000",
+          "disp": "2.000 $",
           "tag": "Sade bir çevrimiçi varlık için en iyisi",
           "tl": "2 ila 3 hafta",
           "scope": [
@@ -1141,22 +1152,22 @@
             },
             {
               "i": "İçerik ve metin",
-              "l": "Tüm yazılı içeriği (başlıklar, gövde metni, biyografiler, hizmet açıklamaları) müşteri sağlar. Yerleşim, biçimlendirme ve konumlandırma bizden. Metin yazarlığına ihtiyacınız varsa sayfa başına $200 karşılığında eklenebilir."
+              "l": "Tüm yazılı içeriği (başlıklar, gövde metni, biyografiler, hizmet açıklamaları) müşteri sağlar. Yerleşim, biçimlendirme ve konumlandırma bizden. Metin yazarlığına ihtiyacınız varsa sayfa başına 200 dolar karşılığında eklenebilir."
             }
           ],
           "ov": [
-            "Ek revizyon turu: $300",
-            "Metin yazarlığı: $200/sayfa",
-            "Ek bölüm: $250"
+            "Ek revizyon turu: 300 $",
+            "Metin yazarlığı: 200 $/sayfa",
+            "Ek bölüm: 250 $"
           ],
-          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Müşteri onayı VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Onay sonrası: $175/saat.",
-          "bridge": "Lansman sonrası 14 günlük izleme dahildir (hata düzeltmeleri ve küçük ayarlamalar). Daha fazla sayfa veya özellik mi gerekiyor? Yapay zeka sohbeti ve CRM kurulumuyla tam 5 sayfalık bir site için Başlangıç Lansmanı'na ($6,500) yükseltin.",
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Müşteri onayı VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Onay sonrası: 175 $/saat.",
+          "bridge": "Lansman sonrası 14 günlük izleme dahildir (hata düzeltmeleri ve küçük ayarlamalar). Daha fazla sayfa veya özellik mi gerekiyor? Yapay zeka sohbeti ve CRM kurulumuyla tam 5 sayfalık bir site için Başlangıç Lansmanı'na (6.500 $) yükseltin.",
           "ideal": "Yan projeler, kişisel markalar, sade açılış sayfaları"
         },
         {
           "name": "Başlangıç Lansmanı",
           "price": 6500,
-          "disp": "$6,500",
+          "disp": "6.500 $",
           "tag": "Yeni işletmeler için en iyisi",
           "tl": "4 ila 6 hafta",
           "scope": [
@@ -1186,24 +1197,24 @@
             },
             {
               "i": "İçerik ve metin",
-              "l": "Tüm yazılı içeriği (başlıklar, gövde metni, biyografiler, hizmet açıklamaları) müşteri sağlar. Yerleşim, biçimlendirme ve konumlandırma bizden. Metin yazarlığına ihtiyacınız varsa sayfa başına $200 karşılığında eklenebilir."
+              "l": "Tüm yazılı içeriği (başlıklar, gövde metni, biyografiler, hizmet açıklamaları) müşteri sağlar. Yerleşim, biçimlendirme ve konumlandırma bizden. Metin yazarlığına ihtiyacınız varsa sayfa başına 200 dolar karşılığında eklenebilir."
             }
           ],
           "ov": [
-            "Ek sayfalar: $500/sayfa",
-            "Ek revizyon turu: $300",
-            "Metin yazarlığı: $200/sayfa",
-            "Ek soru-cevap (25+): $250/parti",
-            "Ek otomasyon: $350/adet"
+            "Ek sayfalar: 500 $/sayfa",
+            "Ek revizyon turu: 300 $",
+            "Metin yazarlığı: 200 $/sayfa",
+            "Ek soru-cevap (25+): 250 $/paket",
+            "Ek otomasyon: 350 $/adet"
           ],
-          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Müşteri onayı VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Onay sonrası: $175/saat.",
-          "bridge": "Lansman sonrası 30 günlük izleme dahildir (hata düzeltmeleri, sohbet botu kontrolleri, CRM sağlığı). 30. günden sonra sürekli bakım, güncellemeler ve yapay zeka ayarı, sistemleriniz optimize kalsın diye Bakım ve İzleme planımıza (aylık $1,500) geçer.",
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Müşteri onayı VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Onay sonrası: 175 $/saat.",
+          "bridge": "Lansman sonrası 30 günlük izleme dahildir (hata düzeltmeleri, sohbet botu kontrolleri, CRM sağlığı). 30. günden sonra sürekli bakım, güncellemeler ve yapay zeka ayarı, sistemleriniz optimize kalsın diye Bakım ve İzleme planımıza (aylık 1.500 $) geçer.",
           "ideal": "Girişimler, tek kişilik işletmeler, yerel işletmeler"
         },
         {
           "name": "Büyüme Hızlandırıcı",
           "price": 12000,
-          "disp": "$12,000",
+          "disp": "12.000 $",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
           "tl": "6 ila 8 hafta",
@@ -1246,22 +1257,22 @@
             }
           ],
           "ov": [
-            "Ek sayfalar: $500/sayfa",
-            "Ek revizyon: $300/tur",
-            "Ek reklam kampanyası: $1,500",
-            "Ek sesli senaryo: $750",
-            "Otomasyonlar (8+): $350/adet",
-            "Ek açılış sayfası: $900",
-            "Dahil olanın ötesinde metin yazarlığı: $200/sayfa"
+            "Ek sayfalar: 500 $/sayfa",
+            "Ek revizyon: 300 $/tur",
+            "Ek reklam kampanyası: 1.500 $",
+            "Ek sesli senaryo: 750 $",
+            "Otomasyonlar (8+): 350 $/adet",
+            "Ek açılış sayfası: 900 $",
+            "Dahil olanın ötesinde metin yazarlığı: 200 $/sayfa"
           ],
-          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 3 revizyon turu sonrasında tamamlanmış sayılır. Onay sonrası: $175/saat.",
-          "bridge": "Lansman sonrası 30 gün dahildir: reklam yönetimi, yapay zeka izleme ve hata düzeltmeleri. 30. günden sonra reklamlarınız, yapay zeka ajanlarınız ve otomasyonlarınız performansı korumak için sürekli optimizasyona ihtiyaç duyar. İvmeyi korumak için Büyüme Motoru planımızı (aylık $3,500) öneririz.",
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 3 revizyon turu sonrasında tamamlanmış sayılır. Onay sonrası: 175 $/saat.",
+          "bridge": "Lansman sonrası 30 gün dahildir: reklam yönetimi, yapay zeka izleme ve hata düzeltmeleri. 30. günden sonra reklamlarınız, yapay zeka ajanlarınız ve otomasyonlarınız performansı korumak için sürekli optimizasyona ihtiyaç duyar. İvmeyi korumak için Büyüme Motoru planımızı (aylık 3.500 $) öneririz.",
           "ideal": "Sistemlerle ölçeklenen büyüyen işletmeler"
         },
         {
           "name": "Tam Hakimiyet",
           "price": 18000,
-          "disp": "$18,000+",
+          "disp": "18.000+ $",
           "tag": "Kurumsal düzey",
           "tl": "8 ila 12 hafta",
           "scope": [
@@ -1307,17 +1318,17 @@
             }
           ],
           "ov": [
-            "Ek sayfalar: $500",
-            "Ek revizyon: $350/tur",
-            "Ek yapay zeka ajanı: $2,500",
-            "Ek reklam kampanyası: $1,500",
-            "Sesli senaryo: $750",
-            "Otomasyonlar (15+): $400/adet",
-            "Ürünler (20+): $75/ürün",
+            "Ek sayfalar: 500 $",
+            "Ek revizyon: 350 $/tur",
+            "Ek yapay zeka ajanı: 2.500 $",
+            "Ek reklam kampanyası: 1.500 $",
+            "Sesli senaryo: 750 $",
+            "Otomasyonlar (15+): 400 $/adet",
+            "Ürünler (20+): 75 $/ürün",
             "1. aydan sonra içerik: aylık paket gerektirir"
           ],
-          "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vadeli). Onay VEYA 3 tur sonrasında tamamlanmış sayılır. Onay sonrası: $175/saat.",
-          "bridge": "Lansman sonrası 45 gün dahildir: tam izleme, reklam yönetimi, yapay zeka ayarı ve hata düzeltmeleri. 45. günden sonra yapay zeka ekosisteminiz, reklam kampanyalarınız ve içerik sistemleriniz sonuç vermeye devam etmek için sürekli yönetime ihtiyaç duyar. İhtiyaçlarınıza göre Tam Ortaklık (aylık $7,500) veya Büyüme Motoru (aylık $3,500) planımızı öneririz.",
+          "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vadeli). Onay VEYA 3 tur sonrasında tamamlanmış sayılır. Onay sonrası: 175 $/saat.",
+          "bridge": "Lansman sonrası 45 gün dahildir: tam izleme, reklam yönetimi, yapay zeka ayarı ve hata düzeltmeleri. 45. günden sonra yapay zeka ekosisteminiz, reklam kampanyalarınız ve içerik sistemleriniz sonuç vermeye devam etmek için sürekli yönetime ihtiyaç duyar. İhtiyaçlarınıza göre Tam Ortaklık (aylık 7.500 $) veya Büyüme Motoru (aylık 3.500 $) planımızı öneririz.",
           "ideal": "Eksiksiz yapay zeka altyapısı isteyen yerleşik işletmeler"
         }
       ],
@@ -1325,7 +1336,7 @@
         {
           "name": "Tek Platform Kurulumu",
           "price": 1200,
-          "disp": "$1,200",
+          "disp": "1.200 $",
           "tag": "Bir kanalı doğru kurun",
           "tl": "3 ila 5 gün",
           "scope": [
@@ -1359,20 +1370,20 @@
             }
           ],
           "ov": [
-            "Ek platform: $1,200/adet",
-            "Ek gönderi şablonları: $100/adet",
-            "Ek lansman gönderileri (4+): $60/adet",
-            "Revizyon turu: $175",
-            "Video içerik (Reels/Shorts): $175/adet"
+            "Ek platform: 1.200 $/adet",
+            "Ek gönderi şablonları: 100 $/adet",
+            "Ek lansman gönderileri (4+): 60 $/adet",
+            "Revizyon turu: 175 $",
+            "Video içerik (Reels/Shorts): 175 $/adet"
           ],
-          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 1 revizyon turu sonrasında tamamlanmış sayılır. Teslimat sonrası değişiklikler: $175/saat.",
-          "bridge": "Profilleriniz kuruldu ve hazır. Aktif kalmaları ve büyümeleri için Sosyal Başlangıç planımızı (aylık $1,500) veya aylık $650'dan başlayan tekil platform yönetimini ekleyin.",
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 1 revizyon turu sonrasında tamamlanmış sayılır. Teslimat sonrası değişiklikler: 175 $/saat.",
+          "bridge": "Profilleriniz kuruldu ve hazır. Aktif kalmaları ve büyümeleri için Sosyal Başlangıç planımızı (aylık 1.500 $) veya aylık 650 dolardan başlayan tekil platform yönetimini ekleyin.",
           "ideal": "Bir platformda sıfırdan başlayan işletmeler"
         },
         {
           "name": "Çoklu Platform Lansmanı",
           "price": 2000,
-          "disp": "$2,000",
+          "disp": "2.000 $",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
           "tl": "1 ila 2 hafta",
@@ -1415,21 +1426,21 @@
             }
           ],
           "ov": [
-            "Ek platform: $500/adet",
-            "Ek şablonlar: $75/adet",
-            "Ek lansman gönderileri (6+): $50/adet",
-            "Revizyon turu: $175",
-            "Video içerik: $175/adet",
-            "Ek bio bağlantı sayfası: $200"
+            "Ek platform: 500 $/adet",
+            "Ek şablonlar: 75 $/adet",
+            "Ek lansman gönderileri (6+): 50 $/adet",
+            "Revizyon turu: 175 $",
+            "Video içerik: 175 $/adet",
+            "Ek bio bağlantı sayfası: 200 $"
           ],
-          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Teslimat sonrası: $175/saat.",
-          "bridge": "Tüm platformlar 30 günlük planlanmış içerikle lansmana hazır. Büyümeyi sürdürmek için Sosyal Büyüme planımızı (aylık $2,500) veya platform bazlı ek paketleri öneririz.",
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Teslimat sonrası: 175 $/saat.",
+          "bridge": "Tüm platformlar 30 günlük planlanmış içerikle lansmana hazır. Büyümeyi sürdürmek için Sosyal Büyüme planımızı (aylık 2.500 $) veya platform bazlı ek paketleri öneririz.",
           "ideal": "Sosyal medya varlığını başlatan veya yenileyen işletmeler"
         },
         {
           "name": "Tam Sosyal Medya Yenilemesi",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 $",
           "tag": "Baştan aşağı yenileme",
           "tl": "2 ila 3 hafta",
           "scope": [
@@ -1475,15 +1486,15 @@
             }
           ],
           "ov": [
-            "Ek platform: $400/adet",
-            "Ek şablonlar: $60/adet",
-            "Ek lansman gönderileri (8+): $45/adet",
-            "Ek video: $175/adet",
-            "Revizyon turu: $250",
-            "YouTube intro/outro videosu: $600"
+            "Ek platform: 400 $/adet",
+            "Ek şablonlar: 60 $/adet",
+            "Ek lansman gönderileri (8+): 45 $/adet",
+            "Ek video: 175 $/adet",
+            "Revizyon turu: 250 $",
+            "YouTube intro/outro videosu: 600 $"
           ],
-          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Teslimat sonrası: $175/saat.",
-          "bridge": "Tüm sosyal medya varlığınız yeniden inşa edildi ve 60 günlük içerikle lansmana hazır. İvmeyi korumak için Sosyal Hakimiyet (aylık $4,500) veya Sosyal Büyüme (aylık $2,500) planını öneririz.",
+          "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Teslimat sonrası: 175 $/saat.",
+          "bridge": "Tüm sosyal medya varlığınız yeniden inşa edildi ve 60 günlük içerikle lansmana hazır. İvmeyi korumak için Sosyal Hakimiyet (aylık 4.500 $) veya Sosyal Büyüme (aylık 2.500 $) planını öneririz.",
           "ideal": "Sosyal medya varlığı eskimiş veya tutarsız olan yerleşik işletmeler"
         }
       ],
@@ -1491,7 +1502,7 @@
         {
           "name": "Bakım ve İzleme",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/ay",
           "tag": "Her şey çalışır kalsın",
           "com": "Asgari 3 ay",
@@ -1518,14 +1529,14 @@
             },
             {
               "i": "Destek",
-              "l": "Yalnızca mesaj ve e-posta desteği (bu kademede telefon veya canlı görüşme yoktur). İş günlerinde (Pazartesi-Cuma, 9-5) 48 saat içinde yanıt. Ayda en fazla 10 destek talebi. Her talep = 1 belirli istek (değişiklik listesi değil). 10'u aşan talepler $175/saat üzerinden faturalandırılır."
+              "l": "Yalnızca mesaj ve e-posta desteği (bu kademede telefon veya canlı görüşme yoktur). İş günlerinde (Pazartesi-Cuma, 09:00-17:00) 48 saat içinde yanıt. Ayda en fazla 10 destek talebi. Her talep = 1 belirli istek (değişiklik listesi değil). 10'u aşan talepler 175 $/saat üzerinden faturalandırılır."
             }
           ],
           "ov": [
-            "2 saati aşan tasarım: $175/saat",
-            "Yeni sayfa: $500",
-            "Canlı görüşme: $250/saat",
-            "Otomasyonlar (3+): $250/adet",
+            "2 saati aşan tasarım: 175 $/saat",
+            "Yeni sayfa: 500 $",
+            "Canlı görüşme: 250 $/saat",
+            "Otomasyonlar (3+): 250 $/adet",
             "Acil/aynı gün: +%50"
           ],
           "ex": "Reklam yönetimi, içerik üretimi, yeni özellikler, sesli ajanlar ve sosyal medya dahil değildir. Daha yüksek kademe gerektirir.",
@@ -1534,7 +1545,7 @@
         {
           "name": "Büyüme Motoru",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 $",
           "per": "/ay",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
@@ -1546,7 +1557,7 @@
             },
             {
               "i": "Google Ads yönetimi",
-              "l": "2 aktif Google Arama kampanyası yönetilir. Aylık anahtar kelime optimizasyonu, teklif ayarlamaları ve negatif anahtar kelime güncellemeleri. Ayda 3 A/B testi (reklam metni, açılış sayfası öğeleri veya kitle hedefleme). CPC, CTR, dönüşüm oranı ve ROAS analiziyle aylık performans incelemesi. Bu kademede aylık $5,000'a kadar reklam harcaması yönetilir. $5K'yı aşan reklam harcaması: her $5K dilimi için ayda ek $500. Reklam harcaması ayrıca faturalandırılır. Google'a doğrudan siz ödersiniz."
+              "l": "2 aktif Google Arama kampanyası yönetilir. Aylık anahtar kelime optimizasyonu, teklif ayarlamaları ve negatif anahtar kelime güncellemeleri. Ayda 3 A/B testi (reklam metni, açılış sayfası öğeleri veya kitle hedefleme). CPC, CTR, dönüşüm oranı ve ROAS analiziyle aylık performans incelemesi. Bu kademede aylık 5.000 $'a kadar reklam harcaması yönetilir. 5.000 $'ı aşan reklam harcaması: her 5.000 $'lık dilim için ayda ek 500 $. Reklam harcaması ayrıca faturalandırılır. Google'a doğrudan siz ödersiniz."
             },
             {
               "i": "Meta Ads yönetimi",
@@ -1570,13 +1581,13 @@
             }
           ],
           "ov": [
-            "5 saati aşan tasarım: $175/saat",
-            ">$5K reklam harcaması: her $5K dilimi için ayda +$500",
-            "Blog: $250/adet",
-            "Sosyal gönderiler (12+): $60/adet",
-            "Kreatif yenileme: $500",
-            "Ek canlı görüşme: $250/saat",
-            "Yeni yapay zeka ajanı: $2,500",
+            "5 saati aşan tasarım: 175 $/saat",
+            "5.000 $ üzeri reklam harcaması: her 5.000 $'lık dilim için ayda +500 $",
+            "Blog: 250 $/adet",
+            "Sosyal gönderiler (12+): 60 $/adet",
+            "Kreatif yenileme: 500 $",
+            "Ek canlı görüşme: 250 $/saat",
+            "Yeni yapay zeka ajanı: 2.500 $",
             "Acil: +%50"
           ],
           "ex": "Yarı zamanlı CMO, sınırsız reklam, marka yenilemeleri, video prodüksiyonu ve özel sosyal medya yönetimi dahil değildir. Daha yüksek kademe veya Sosyal ek paketi gerektirir.",
@@ -1585,7 +1596,7 @@
         {
           "name": "Tam Ortaklık",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "7.500 $",
           "per": "/ay",
           "tag": "Yarı zamanlı CMO + Ekip",
           "com": "Asgari 6 ay",
@@ -1600,7 +1611,7 @@
             },
             {
               "i": "Reklam yönetimi (genişletilmiş)",
-              "l": "Google ve Meta'da sınırsız aktif kampanya. Tam huni stratejisi: farkındalık, değerlendirme ve dönüşüm kampanyaları. Aylık kreatif yenilemeleri, kitle testleri, teklif optimizasyonu ve bütçe yeniden dağılımı. Aylık $20,000'a kadar reklam harcaması yönetilir. $20K'yı aşan reklam harcaması özel fiyatlandırma gerektirir. ROAS, CPA ve bütçe verimliliği analiziyle aylık reklam performans raporu. Reklam harcaması ayrıca faturalandırılır."
+              "l": "Google ve Meta'da sınırsız aktif kampanya. Tam huni stratejisi: farkındalık, değerlendirme ve dönüşüm kampanyaları. Aylık kreatif yenilemeleri, kitle testleri, teklif optimizasyonu ve bütçe yeniden dağılımı. Aylık 20.000 $'a kadar reklam harcaması yönetilir. 20.000 $'ı aşan reklam harcaması özel fiyatlandırma gerektirir. ROAS, CPA ve bütçe verimliliği analiziyle aylık reklam performans raporu. Reklam harcaması ayrıca faturalandırılır."
             },
             {
               "i": "Yapay zeka ekosistem yönetimi",
@@ -1620,28 +1631,28 @@
             },
             {
               "i": "Üç aylık marka yenilemesi",
-              "l": "Çeyrek başına 1 marka yenilemesi (her 3 ayda bir). 5 yeni kreatif varlık içerir: güncellenmiş sosyal şablonlar, sezonluk reklam kreatifleri, yenilenmiş e-posta başlıkları veya yeni promosyon grafikleri. Tam yeniden markalamayı (yeni logo, yeni kılavuz, yeni marka sistemi) İÇERMEZ. Tam yeniden markalama ayrıca $6,000+'dan fiyatlandırılır."
+              "l": "Çeyrek başına 1 marka yenilemesi (her 3 ayda bir). 5 yeni kreatif varlık içerir: güncellenmiş sosyal şablonlar, sezonluk reklam kreatifleri, yenilenmiş e-posta başlıkları veya yeni promosyon grafikleri. Tam yeniden markalamayı (yeni logo, yeni kılavuz, yeni marka sistemi) İÇERMEZ. Tam yeniden markalama ayrıca 6.000 dolar ve üzeri fiyatlandırılır."
             }
           ],
           "ov": [
-            "15 saati aşan tasarım: $175/saat",
-            ">$20K reklam harcaması: özel",
-            "Bloglar: $250/adet",
-            "Video klipler (4+): $300/adet",
+            "15 saati aşan tasarım: 175 $/saat",
+            "20.000 $ üzeri reklam harcaması: özel",
+            "Bloglar: 250 $/adet",
+            "Video klipler (4+): 300 $/adet",
             "Çekim: ayrı",
-            "Tam yeniden markalama: $6K+ ayrı",
-            "Yapay zeka ajanı: $2,500/adet",
+            "Tam yeniden markalama: 6.000+ $ ayrı",
+            "Yapay zeka ajanı: 2.500 $/adet",
             "Hafta sonu/mesai dışı: +%75"
           ],
           "ex": "Yüz yüze etkinlikler, PR/medya iletişimi, video çekimi (yalnızca kurgu) ve uygulama geliştirme dahil değildir. Ayrıca fiyatlandırılır.",
-          "ideal": "Reklama ayda $5K+ yatırım yapan işletmeler"
+          "ideal": "Reklama ayda 5.000 $ ve üzeri yatırım yapan işletmeler"
         }
       ],
       "social": [
         {
           "name": "Sosyal Başlangıç",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/ay",
           "tag": "1 ila 2 Platform",
           "com": "Asgari 3 ay",
@@ -1668,7 +1679,7 @@
             },
             {
               "i": "İçerik revizyonları",
-              "l": "Aylık içerik partisi başına 1 revizyon turu. Tüm revizyon talepleri, içerik takviminin tesliminden sonraki 3 iş günü içinde tek bir birleştirilmiş doküman olarak iletilmelidir."
+              "l": "Aylık içerik paketi başına 1 revizyon turu. Tüm revizyon talepleri, içerik takviminin tesliminden sonraki 3 iş günü içinde tek bir birleştirilmiş doküman olarak iletilmelidir."
             },
             {
               "i": "Hashtag stratejisi",
@@ -1676,11 +1687,11 @@
             }
           ],
           "ov": [
-            "Ek platform: aylık $400",
-            "Ek gönderiler (8+): $60/adet",
-            "Video reel/short: $175/adet",
-            "Ek revizyon turu: $175",
-            "Hikaye oluşturma: $30/hikaye"
+            "Ek platform: aylık 400 $",
+            "Ek gönderiler (8+): 60 $/adet",
+            "Video reel/short: 175 $/adet",
+            "Ek revizyon turu: 175 $",
+            "Hikaye oluşturma: 30 $/hikaye"
           ],
           "ex": "Video prodüksiyonu, ücretli sosyal medya reklamları, influencer iletişimi ve temel etkileşimin ötesinde topluluk oluşturma dahil değildir. Bunlar Sosyal Büyüme veya ek paketler gerektirir.",
           "ideal": "1 ila 2 kanalda tutarlı varlığa ihtiyaç duyan işletmeler"
@@ -1688,7 +1699,7 @@
         {
           "name": "Sosyal Büyüme",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "2.500 $",
           "per": "/ay",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
@@ -1720,7 +1731,7 @@
             },
             {
               "i": "İçerik revizyonları",
-              "l": "Aylık içerik partisi başına 2 revizyon turu. Tüm geri bildirimler teslimattan sonraki 3 iş günü içinde tek bir birleştirilmiş doküman olarak iletilir."
+              "l": "Aylık içerik paketi başına 2 revizyon turu. Tüm geri bildirimler teslimattan sonraki 3 iş günü içinde tek bir birleştirilmiş doküman olarak iletilir."
             },
             {
               "i": "Aylık içerik stratejisi",
@@ -1728,13 +1739,13 @@
             }
           ],
           "ov": [
-            "Ek platform: aylık $400",
-            "Ek gönderiler (12+): $50/adet",
-            "Ek video: $175/adet",
+            "Ek platform: aylık 400 $",
+            "Ek gönderiler (12+): 50 $/adet",
+            "Ek video: 175 $/adet",
             "Video çekimi: ayrıca fiyatlandırılır",
-            "Ek canlı görüşme: $250/saat",
-            "Influencer iletişimi: aylık $600 ek paket",
-            "Hikaye oluşturma: $25/hikaye"
+            "Ek canlı görüşme: 250 $/saat",
+            "Influencer iletişimi: aylık 600 $ ek paket",
+            "Hikaye oluşturma: 25 $/hikaye"
           ],
           "ex": "Video çekimi, ücretli reklam yönetimi (ana paketlerden Google/Meta reklamları ekleyin) ve influencer sözleşme müzakeresi dahil değildir. Ayrıca fiyatlandırılır.",
           "ideal": "Kitle ve etkileşimi büyütme konusunda ciddi işletmeler"
@@ -1742,7 +1753,7 @@
         {
           "name": "Sosyal Hakimiyet",
           "price": 4500,
-          "disp": "$4,500",
+          "disp": "4.500 $",
           "per": "/ay",
           "tag": "Tam kapsamlı sosyal medya",
           "com": "Asgari 6 ay",
@@ -1773,7 +1784,7 @@
             },
             {
               "i": "İçerik revizyonları",
-              "l": "Aylık içerik partisi başına 2 revizyon turu. Tüm geri bildirimler 3 iş günü içinde birleştirilmiş bir doküman olarak iletilir."
+              "l": "Aylık içerik paketi başına 2 revizyon turu. Tüm geri bildirimler 3 iş günü içinde birleştirilmiş bir doküman olarak iletilir."
             },
             {
               "i": "Üç aylık sosyal strateji",
@@ -1785,13 +1796,13 @@
             }
           ],
           "ov": [
-            "Ek platform: aylık $400",
-            "Ek gönderiler (20+): $40/adet",
-            "Ek uzun video: $500/adet",
+            "Ek platform: aylık 400 $",
+            "Ek gönderiler (20+): 40 $/adet",
+            "Ek uzun video: 500 $/adet",
             "Video çekimi: ayrıca fiyatlandırılır",
-            "5'i aşan influencer: $125/erişim",
+            "5'i aşan influencer: 125 $/erişim",
             "Ücretli reklam yönetimi: ana paketlerden ekleyin",
-            "Ek canlı görüşme: $250/saat",
+            "Ek canlı görüşme: 250 $/saat",
             "Hafta sonu içeriği: +%50"
           ],
           "ex": "Video çekimi/prodüksiyonu (yalnızca kurgu), ücretli reklam yönetimi (ayrıca eklenir) ve PR/basın iletişimi dahil değildir. Ayrıca fiyatlandırılır.",
@@ -1802,7 +1813,7 @@
         {
           "name": "Keşif ve Kapsamlandırma",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "2.500 $",
           "tag": "Zorunlu ilk adım",
           "tl": "1 ila 2 hafta",
           "scope": [
@@ -1832,10 +1843,10 @@
             }
           ],
           "ov": [
-            "Ek tel çerçeve ekranları: $250/adet",
-            "Ek kullanıcı akışı diyagramları: $300/adet",
-            "Rekabet analizi ek paketi: $750 (3 rakip ürünün denetimi)",
-            "2 haftayı aşan keşif uzatması: $1,200/hafta"
+            "Ek tel çerçeve ekranları: 250 $/adet",
+            "Ek kullanıcı akışı diyagramları: 300 $/adet",
+            "Rekabet analizi ek paketi: 750 $ (3 rakip ürünün denetimi)",
+            "2 haftayı aşan keşif uzatması: 1.200 $/hafta"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, teslimatta %50 (7 gün vadeli). Teslimattan sonraki 30 gün içinde devam ederseniz keşif ücreti tam geliştirmeden düşülür. Devam etmezseniz tüm teslimatlar (tel çerçeveler, SOW, mimari dokümanı) sizde kalır ve herhangi bir geliştiriciyle kullanabilirsiniz.",
           "ideal": "Özel bir geliştirme düşünen herkes. Bu birinci adımdır."
@@ -1843,7 +1854,7 @@
         {
           "name": "Standart Geliştirme",
           "price": 25000,
-          "disp": "$25,000",
+          "disp": "25.000 $",
           "tag": "En yaygın",
           "pop": true,
           "tl": "6 ila 12 hafta",
@@ -1882,25 +1893,25 @@
             },
             {
               "i": "Revizyonlar",
-              "l": "Geliştirmeden önce 2 tasarım revizyon turu. Geliştirme sırasında geri bildirim paylaşılan bir görev panosu (Linear veya GitHub Issues) üzerinden yönetilir. Geliştirme sonrası: lansmandan önce nihai üründe 1 revizyon turu. Geliştirme sırasındaki kapsam değişiklikleri önceden onaylanmış ücretlerle ($200/saat) değişiklik talebi gerektirir."
+              "l": "Geliştirmeden önce 2 tasarım revizyon turu. Geliştirme sırasında geri bildirim paylaşılan bir görev panosu (Linear veya GitHub Issues) üzerinden yönetilir. Geliştirme sonrası: lansmandan önce nihai üründe 1 revizyon turu. Geliştirme sırasındaki kapsam değişiklikleri önceden onaylanmış ücretlerle (200 $/saat) değişiklik talebi gerektirir."
             }
           ],
           "ov": [
-            "Ek entegrasyonlar: $3,000/adet",
-            "SOW dışı ek ekranlar: $800/ekran",
-            "Geliştirme sırasında değişiklik talepleri: $200/saat",
-            "Ek kullanıcı rolleri: rol başına $2,000",
-            "Gelişmiş raporlama/analitik panosu: $5,000",
+            "Ek entegrasyonlar: 3.000 $/adet",
+            "SOW dışı ek ekranlar: 800 $/ekran",
+            "Geliştirme sırasında değişiklik talepleri: 200 $/saat",
+            "Ek kullanıcı rolleri: rol başına 2.000 $",
+            "Gelişmiş raporlama/analitik panosu: 5.000 $",
             "Yerel mobil uygulama (iOS veya Android): Kurumsal Geliştirme kademesine bakın"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vadeli). Lansman sonrası 30 günlük hata düzeltmesi dahildir (yalnızca orijinal SOW'daki özelliklerle ilgili sorunlar). 30 günden sonra sürekli destek bir bakım paketine geçer. Tüm kod sizindir. Kod tabanı, tasarım dosyaları ve dokümantasyonun tam mülkiyeti proje tamamlandığında devredilir.",
-          "bridge": "Platformunuz yayında ve kararlı. Çalışır, güvenli ve gelişen halde tutmak için Geliştirici Desteği paketimizi (aylık $1,500) veya Saatlik Banka'yı (10 saat için aylık $2,500) öneririz.",
+          "bridge": "Platformunuz yayında ve kararlı. Çalışır, güvenli ve gelişen halde tutmak için Geliştirici Desteği paketimizi (aylık 1.500 $) veya Saatlik Banka'yı (10 saat için aylık 2.500 $) öneririz.",
           "ideal": "Portallar, panolar, dahili araçlar ve SaaS MVP'leri"
         },
         {
           "name": "Kurumsal Geliştirme",
           "price": 75000,
-          "disp": "$75,000+",
+          "disp": "75.000+ $",
           "tag": "Karmaşık sistemler",
           "tl": "12 ila 24 hafta",
           "scope": [
@@ -1938,19 +1949,19 @@
             },
             {
               "i": "Revizyonlar ve değişiklik yönetimi",
-              "l": "Aşama başına 2 tasarım revizyon turu. Geri bildirim paylaşılan görev panosu (Linear veya GitHub Issues) üzerinden yönetilir. Kapsam eklemeleri için değişiklik talepleri: çalışma başlamadan önce yazılı onayla $200/saat. Loom videosu veya yazılı özetle haftalık durum güncellemeleri. Tamamlanan işlerin iki haftada bir kayıtlı demo videoları. Kendi zamanınızda inceler ve yanıt verirsiniz. Gerekirse ayda 1 isteğe bağlı canlı görüşme."
+              "l": "Aşama başına 2 tasarım revizyon turu. Geri bildirim paylaşılan görev panosu (Linear veya GitHub Issues) üzerinden yönetilir. Kapsam eklemeleri için değişiklik talepleri: çalışma başlamadan önce yazılı onayla 200 $/saat. Loom videosu veya yazılı özetle haftalık durum güncellemeleri. Tamamlanan işlerin iki haftada bir kayıtlı demo videoları. Kendi zamanınızda inceler ve yanıt verirsiniz. Gerekirse ayda 1 isteğe bağlı canlı görüşme."
             }
           ],
           "ov": [
-            "Ek entegrasyonlar: $5,000/adet",
-            "Yerel mobil uygulama (dahil değilse): $30,000",
-            "Yapay zeka özellik eklemeleri: özellik başına $10,000",
+            "Ek entegrasyonlar: 5.000 $/adet",
+            "Yerel mobil uygulama (dahil değilse): 30.000 $",
+            "Yapay zeka özellik eklemeleri: özellik başına 10.000 $",
             "Ek aşamalar: ayrı ayrı kapsamlandırılır ve fiyatlandırılır",
-            "Üçüncü taraf sızma testi koordinasyonu: $5,000",
-            "Beyaz etiket/çok kiracılı ek paket (dahil değilse): $15,000"
+            "Üçüncü taraf sızma testi koordinasyonu: 5.000 $",
+            "Beyaz etiket/çok kiracılı ek paket (dahil değilse): 15.000 $"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vadeli). Aşama başına lansman sonrası 45 günlük hata düzeltmesi dahildir. Tüm kod, tasarım dosyaları ve dokümantasyon tamamlandığında size devredilir. Tam kod tabanı mülkiyeti. 45 günden sonra sürekli destek bir bakım paketine geçer.",
-          "bridge": "Karmaşık sistemler sürekli geliştirme, izleme ve optimizasyon gerektirir. Platformunuzun işinizle birlikte gelişmesi için Aktif Geliştirme paketimizi (aylık $7,500) öneririz.",
+          "bridge": "Karmaşık sistemler sürekli geliştirme, izleme ve optimizasyon gerektirir. Platformunuzun işinizle birlikte gelişmesi için Aktif Geliştirme paketimizi (aylık 7.500 $) öneririz.",
           "ideal": "SaaS platformları, çok kiracılı sistemler, yapay zeka entegreli ürünler ve kurumsal araçlar"
         }
       ],
@@ -1958,7 +1969,7 @@
         {
           "name": "Tek Ajan Geliştirme",
           "price": 5000,
-          "disp": "$5,000",
+          "disp": "5.000 $",
           "tag": "Güçlü bir ajan",
           "tl": "1 ila 2 hafta",
           "scope": [
@@ -1984,20 +1995,20 @@
             }
           ],
           "ov": [
-            "Ek entegrasyon: $1,500",
-            "50 öğeyi aşan eğitim verisi: 50'lik parti başına $500",
-            "Ek revizyon turu: $350",
+            "Ek entegrasyon: 1.500 $",
+            "50 öğeyi aşan eğitim verisi: 50'lik paket başına 500 $",
+            "Ek revizyon turu: 350 $",
             "Hızlı teslimat (1 haftadan kısa): +%40",
-            "Ajan yeniden eğitimi: $750"
+            "Ajan yeniden eğitimi: 750 $"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Ajan mülkiyeti size devredilir.",
-          "bridge": "Ajanınız yayında. İzlenmesi, optimize edilmesi ve yeniden eğitilmesi için Ajan Bakımı (aylık $1,500) veya Ajan Büyümesi (aylık $3,500) paketimizi ekleyin.",
+          "bridge": "Ajanınız yayında. İzlenmesi, optimize edilmesi ve yeniden eğitilmesi için Ajan Bakımı (aylık 1.500 $) veya Ajan Büyümesi (aylık 3.500 $) paketimizi ekleyin.",
           "ideal": "Belirli bir iş akışını otomatikleştiren işletmeler"
         },
         {
           "name": "Ajan Ekibi",
           "price": 14500,
-          "disp": "$14,500",
+          "disp": "14.500 $",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
           "tl": "2 ila 4 hafta",
@@ -2024,20 +2035,20 @@
             }
           ],
           "ov": [
-            "Ek ajan: $2,500",
-            "Ek entegrasyon: $1,500",
-            "Ajan başına 75'i aşan eğitim verisi: $500/parti",
-            "Ek revizyon turu: $400",
+            "Ek ajan: 2.500 $",
+            "Ek entegrasyon: 1.500 $",
+            "Ajan başına 75'i aşan eğitim verisi: 500 $/paket",
+            "Ek revizyon turu: 400 $",
             "Hızlı teslimat: +%40"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Tüm ajanların ve kodun mülkiyeti size devredilir.",
-          "bridge": "Ajan ekibiniz yayında ve koordineli. Sürekli optimizasyon, yeniden eğitim ve yeni ajan eklemeleri için Ajan Büyümesi (aylık $3,500) veya Ajan Komuta Merkezi (aylık $7,500) paketimizi ekleyin.",
+          "bridge": "Ajan ekibiniz yayında ve koordineli. Sürekli optimizasyon, yeniden eğitim ve yeni ajan eklemeleri için Ajan Büyümesi (aylık 3.500 $) veya Ajan Komuta Merkezi (aylık 7.500 $) paketimizi ekleyin.",
           "ideal": "Çok adımlı iş akışlarını uçtan uca otomatikleştiren işletmeler"
         },
         {
           "name": "Yapay Zeka Operasyonları",
           "price": 25000,
-          "disp": "$25,000+",
+          "disp": "25.000+ $",
           "tag": "Kurumsal yapay zeka ekosistemi",
           "tl": "4 ila 8 hafta",
           "scope": [
@@ -2063,14 +2074,14 @@
             }
           ],
           "ov": [
-            "Ek ajan: $2,500/adet",
-            "Ek entegrasyon: $2,000",
-            "Özel yapay zeka modeli ince ayarı: $5,000",
-            "Canlı eğitim görüşmesi: $250/saat",
+            "Ek ajan: 2.500 $/adet",
+            "Ek entegrasyon: 2.000 $",
+            "Özel yapay zeka modeli ince ayarı: 5.000 $",
+            "Canlı eğitim görüşmesi: 250 $/saat",
             "Hızlı teslimat: +%30"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vadeli). Aşamalar halinde teslim edilir (genellikle 2 veya 3 aşama). Her aşamanın tanımlı teslimatları ve onayı vardır. Tüm kod ve ajan mülkiyeti tamamlandığında size devredilir.",
-          "bridge": "Yapay zeka ekosisteminiz tamamen çalışır durumda. Çalışır, optimize ve genişleyen halde tutmak için Ajan Komuta Merkezi (aylık $7,500) paketimizi ekleyin.",
+          "bridge": "Yapay zeka ekosisteminiz tamamen çalışır durumda. Çalışır, optimize ve genişleyen halde tutmak için Ajan Komuta Merkezi (aylık 7.500 $) paketimizi ekleyin.",
           "ideal": "Manuel süreçleri ölçekli akıllı otomasyonla değiştiren işletmeler"
         }
       ],
@@ -2078,7 +2089,7 @@
         {
           "name": "Ajan Bakımı",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/ay",
           "tag": "Ajanlar çalışır kalsın",
           "com": "Asgari 3 ay",
@@ -2101,12 +2112,12 @@
             },
             {
               "i": "Destek",
-              "l": "48 saat yanıt süreli (iş günleri) mesaj ve e-posta desteği. Ayda en fazla 8 destek talebi. Her talep = 1 belirli sorun veya soru. 8'i aşan talepler $200/saat üzerinden faturalandırılır."
+              "l": "48 saat yanıt süreli (iş günleri) mesaj ve e-posta desteği. Ayda en fazla 8 destek talebi. Her talep = 1 belirli sorun veya soru. 8'i aşan talepler 200 $/saat üzerinden faturalandırılır."
             }
           ],
           "ov": [
-            "Ek ajan izleme: ajan başına aylık $300",
-            "15'i aşan eğitim güncellemeleri: $50/adet",
+            "Ek ajan izleme: ajan başına aylık 300 $",
+            "15'i aşan eğitim güncellemeleri: 50 $/adet",
             "Acil mesai dışı düzeltme: +%50",
             "Yeni ajan geliştirme: ayrıca fiyatlandırılır"
           ],
@@ -2116,7 +2127,7 @@
         {
           "name": "Ajan Büyümesi",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 $",
           "per": "/ay",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
@@ -2152,10 +2163,10 @@
             }
           ],
           "ov": [
-            "Ek ajan izleme: ajan başına aylık $250",
-            "40'ı aşan eğitim güncellemeleri: $40/adet",
-            "Ek iş akışı geliştirme: $1,500",
-            "Yeni ajan geliştirme: $2,500",
+            "Ek ajan izleme: ajan başına aylık 250 $",
+            "40'ı aşan eğitim güncellemeleri: 40 $/adet",
+            "Ek iş akışı geliştirme: 1.500 $",
+            "Yeni ajan geliştirme: 2.500 $",
             "Acil mesai dışı: +%50"
           ],
           "ex": "Kurumsal orkestrasyon, uyumluluk çerçeveleri ve özel stratejist dahil değildir. Tam yapay zeka operasyon yönetimi için Ajan Komuta Merkezi'ne bakın.",
@@ -2164,7 +2175,7 @@
         {
           "name": "Ajan Komuta Merkezi",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "7.500 $",
           "per": "/ay",
           "tag": "Tam yapay zeka yönetimi",
           "com": "Asgari 6 ay",
@@ -2195,7 +2206,7 @@
             },
             {
               "i": "Yeni ajan geliştirmeleri (ayda 1 dahil)",
-              "l": "Kapsama dahil ayda 1 yeni yapay zeka ajanı geliştirme. Kapsam: tasarım, eğitim, test, devreye alma ve dokümantasyon. Ek ajanlar indirimli fiyatla teklif edilir (bağımsız $5,000 yerine $2,000/adet)."
+              "l": "Kapsama dahil ayda 1 yeni yapay zeka ajanı geliştirme. Kapsam: tasarım, eğitim, test, devreye alma ve dokümantasyon. Ek ajanlar indirimli fiyatla teklif edilir (bağımsız 5.000 $ yerine 2.000 $/adet)."
             },
             {
               "i": "Üç aylık yapay zeka denetimi",
@@ -2203,10 +2214,10 @@
             }
           ],
           "ov": [
-            "Ek ajan geliştirme: $2,000/adet",
-            "Ek iş akışı: $1,000",
-            "Özel yapay zeka modeli ince ayarı: $5,000",
-            "Canlı eğitim görüşmesi: $250/saat",
+            "Ek ajan geliştirme: 2.000 $/adet",
+            "Ek iş akışı: 1.000 $",
+            "Özel yapay zeka modeli ince ayarı: 5.000 $",
+            "Canlı eğitim görüşmesi: 250 $/saat",
             "Acil mesai dışı: +%50"
           ],
           "ex": "Pazarlama, reklamlar, içerik üretimi ve sosyal medya yönetimi dahil değildir. Bu hizmetler için Pazarlama Paketlerimize veya Sosyal Medya Yönetimi paketlerine bakın.",
@@ -2217,14 +2228,14 @@
         {
           "name": "Saatlik Banka",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "2.500 $",
           "per": "/ay",
           "tag": "Esnek destek",
           "com": "Aydan aya (asgari süre yok)",
           "scope": [
             {
               "i": "Saatlerinizi seçin",
-              "l": "Her ay bir geliştirme saati bloğu satın alın. Ayda 10 saat = $2,500 ($250/saat). Ayda 20 saat = $4,500 ($225/saat). Ayda 30 saat = $6,000 ($200/saat). Ayda 40+ saat = özel ücret. Saatler şunların herhangi bir kombinasyonunu kapsar: hata düzeltmeleri, özellik güncellemeleri, tasarım değişiklikleri, entegrasyonlar veya danışmanlık."
+              "l": "Her ay bir geliştirme saati bloğu satın alın. Ayda 10 saat = 2.500 $ (250 $/saat). Ayda 20 saat = 4.500 $ (225 $/saat). Ayda 30 saat = 6.000 $ (200 $/saat). Ayda 40+ saat = özel ücret. Saatler şunların herhangi bir kombinasyonunu kapsar: hata düzeltmeleri, özellik güncellemeleri, tasarım değişiklikleri, entegrasyonlar veya danışmanlık."
             },
             {
               "i": "Nasıl işler",
@@ -2244,7 +2255,7 @@
             }
           ],
           "ov": [
-            "Bankanızı aşan saatler: $275/saat",
+            "Bankanızı aşan saatler: 275 $/saat",
             "Acil/aynı gün kritik düzeltme: kullanılan saatlerde +%50",
             "Hafta sonu çalışması: kullanılan saatlerde +%75"
           ],
@@ -2254,14 +2265,14 @@
         {
           "name": "Geliştirici Desteği",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/ay",
           "tag": "Çalışır kalsın",
           "com": "Asgari 3 ay",
           "scope": [
             {
               "i": "Sunucu ve altyapı izleme",
-              "l": "Otomatik uyarılarla 7/24 çalışma süresi izleme. Sunucu sağlık kontrolleri: CPU, bellek, disk ve yanıt süresi. Uygulamanız çökerse anında bildirim alır ve mesai saatlerinde (Pazartesi-Cuma, 9-5) 1 saat içinde incelemeye başlarız. Altyapı sorunları çıkarsa barındırma sağlayıcısıyla koordinasyon."
+              "l": "Otomatik uyarılarla 7/24 çalışma süresi izleme. Sunucu sağlık kontrolleri: CPU, bellek, disk ve yanıt süresi. Uygulamanız çökerse anında bildirim alır ve mesai saatlerinde (Pazartesi-Cuma, 09:00-17:00) 1 saat içinde incelemeye başlarız. Altyapı sorunları çıkarsa barındırma sağlayıcısıyla koordinasyon."
             },
             {
               "i": "Güvenlik bakımı",
@@ -2281,15 +2292,15 @@
             },
             {
               "i": "Destek kanalı",
-              "l": "24 saat yanıt süreli (iş günleri) e-posta desteği. Ayda en fazla 8 destek talebi. Her talep = 1 belirli sorun veya soru. 8'i aşan talepler $200/saat üzerinden faturalandırılır."
+              "l": "24 saat yanıt süreli (iş günleri) e-posta desteği. Ayda en fazla 8 destek talebi. Her talep = 1 belirli sorun veya soru. 8'i aşan talepler 200 $/saat üzerinden faturalandırılır."
             }
           ],
           "ov": [
-            "5 saati aşan hata düzeltmeleri: $200/saat",
+            "5 saati aşan hata düzeltmeleri: 200 $/saat",
             "Acil mesai dışı yanıt: +%50",
             "Veritabanı taşıma: ayrıca fiyatlandırılır",
             "Özellik eklemeleri: Saatlik Banka veya proje fiyatlandırması kullanın",
-            "Performans denetimi: tek seferlik $2,000"
+            "Performans denetimi: tek seferlik 2.000 $"
           ],
           "ex": "Özellik geliştirme, tasarım işleri, içerik güncellemeleri ve reklam yönetimi dahil değildir. Bu yalnızca altyapı ve kod bakımıdır. Aktif geliştirme için Aktif Geliştirme kademesine veya Saatlik Banka'ya bakın.",
           "ideal": "Güvenli, izlenen ve yamalanmış kalması gereken kararlı uygulamalar"
@@ -2297,7 +2308,7 @@
         {
           "name": "Aktif Geliştirme",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "7.500 $",
           "per": "/ay",
           "tag": "Sürekli iyileştirme",
           "pop": true,
@@ -2333,11 +2344,11 @@
             }
           ],
           "ov": [
-            "35 saati aşan geliştirme: $225/saat",
+            "35 saati aşan geliştirme: 225 $/saat",
             "Acil mesai dışı: +%50",
             "Hafta sonu dağıtımı: +%75",
             "40 saati aşan tam özellik geliştirme: indirimli ücretle ayrı proje olarak kapsamlandırılır",
-            "3 saati aşan tasarım: $200/saat"
+            "3 saati aşan tasarım: 200 $/saat"
           ],
           "ex": "7/24 nöbet desteği yok. Özel tam zamanlı geliştirici yok (öncelikli erişimli paylaşımlı ekip). Bu kademede mobil uygulama geliştirme yok (ayrıca kapsamlandırılır). Pazarlama, reklam veya içerik hizmetleri yok. Bunlar için pazarlama paketlerimize bakın.",
           "ideal": "Her ay yeni özellikler yayınlayan büyüyen platformlar"
@@ -2347,7 +2358,7 @@
         {
           "name": "Fırlatma Rampası",
           "price": 9500,
-          "disp": "$9,500",
+          "disp": "9.500 $",
           "tag": "Fikrinizi doğrulayın",
           "tl": "4-6 hafta",
           "scope": [
@@ -2381,19 +2392,19 @@
             }
           ],
           "ov": [
-            "Ek ekran: $650",
-            "İkinci platform (iOS veya Android ekleme): +$4,500",
-            "Ek API entegrasyonu: $450",
-            "Tablet/iPad düzenleri: +$1,800"
+            "Ek ekran: 650 $",
+            "İkinci platform (iOS veya Android ekleme): +4.500 $",
+            "Ek API entegrasyonu: 450 $",
+            "Tablet/iPad düzenleri: +1.800 $"
           ],
           "ex": "Özel arka uç geliştirme yok (mevcut API'lerinizi veya Supabase gibi kodsuz bir arka ucu kullanır). Uygulama içi satın alma yok. Anlık bildirim yok. Çevrimdışı öncelikli mod yok.",
-          "bridge": "30 günlük garantiden sonra sürekli bakım, iOS/Android güncellemeleri ve mağaza yeniden gönderimleriyle güncel kalmak için Hayatta Tut planımıza (aylık $1,950) geçer.",
+          "bridge": "30 günlük garantiden sonra sürekli bakım, iOS/Android güncellemeleri ve mağaza yeniden gönderimleriyle güncel kalmak için Hayatta Tut planımıza (aylık 1.950 $) geçer.",
           "ideal": "Odaklanmış tek platformlu bir MVP ile fikrini doğrulayan kurucular"
         },
         {
           "name": "Stüdyo",
           "price": 24500,
-          "disp": "$24,500",
+          "disp": "24.500 $",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
           "tl": "8-12 hafta",
@@ -2404,7 +2415,7 @@
             },
             {
               "i": "Tamamen tasarlanmış en fazla 10 ekran",
-              "l": "Eksiksiz etkileşimli prototip dahil 10 benzersiz ekranla tam Figma tasarımı. Ekran partisi başına 3 revizyon turu."
+              "l": "Eksiksiz etkileşimli prototip dahil 10 benzersiz ekranla tam Figma tasarımı. Ekran grubu başına 3 revizyon turu."
             },
             {
               "i": "En fazla 6 API entegrasyonu",
@@ -2432,19 +2443,19 @@
             }
           ],
           "ov": [
-            "Ek ekran: $850",
-            "Özel yerel modül: $175/saat",
-            "Ek entegrasyon: $650",
-            "Uzatılmış garanti (+30 gün): $1,200"
+            "Ek ekran: 850 $",
+            "Özel yerel modül: 175 $/saat",
+            "Ek entegrasyon: 650 $",
+            "Uzatılmış garanti (+30 gün): 1.200 $"
           ],
           "ho": "Lansman sonrası tam kod teslimi: GitHub deposu, EAS/Fastlane CI yapılandırması, dağıtım dokümanları, ortam şablonu ve 60 dakikalık kayıtlı anlatım videosu. Ekibiniz devralır veya biz aylık paketle devam ederiz.",
-          "bridge": "Lansman sonrası 60 gün dahildir. Sonrasında aktif iterasyon İvme planımızla (aylık $4,800) yürür: ayda 20 mühendislik saati, özellik çalışması ve A/B testleri.",
+          "bridge": "Lansman sonrası 60 gün dahildir. Sonrasında aktif iterasyon İvme planımızla (aylık 4.800 $) yürür: ayda 20 mühendislik saati, özellik çalışması ve A/B testleri.",
           "ideal": "Gerçek kullanıcılara cilalı bir çapraz platform ürün sunan ekipler"
         },
         {
           "name": "Amiral Gemisi",
           "price": 62000,
-          "disp": "$62,000",
+          "disp": "62.000 $",
           "tag": "Tam ürün geliştirme",
           "tl": "14-18 hafta",
           "scope": [
@@ -2486,13 +2497,13 @@
             }
           ],
           "ov": [
-            "Ek ekran: $1,100",
-            "Özel yerel modül: $185/saat",
-            "Ek gerçek zamanlı özellik: $6,500",
-            "Ek keşif çalıştayı: $1,800"
+            "Ek ekran: 1.100 $",
+            "Özel yerel modül: 185 $/saat",
+            "Ek gerçek zamanlı özellik: 6.500 $",
+            "Ek keşif çalıştayı: 1.800 $"
           ],
           "ho": "Eksiksiz teslim: GitHub monorepo, CI/CD yapılandırması, kod olarak altyapı (talep edilirse Terraform veya Pulumi), dağıtım ve geri alma için çalışma kitabı ve hem mobil hem arka uç ekipleriyle 90 dakikalık video anlatımı.",
-          "bridge": "Lansman sonrası 90 gün dahildir. Sonrasında gömülü ortaklık, özel bir mühendis ve yarı zamanlı tasarımcıyla Ortak planımızla (aylık $10,500) yürür.",
+          "bridge": "Lansman sonrası 90 gün dahildir. Sonrasında gömülü ortaklık, özel bir mühendis ve yarı zamanlı tasarımcıyla Ortak planımızla (aylık 10.500 $) yürür.",
           "ideal": "Özel arka uçlu, tam özellikli bir ürün sunan yatırım almış girişimler ve markalar"
         }
       ],
@@ -2500,7 +2511,7 @@
         {
           "name": "Hayatta Tut",
           "price": 1950,
-          "disp": "$1,950",
+          "disp": "1.950 $",
           "per": "/ay",
           "tag": "Sağlıklı ve uyumlu kalın",
           "com": "Asgari 3 ay",
@@ -2535,8 +2546,8 @@
             }
           ],
           "ov": [
-            "Ek saat: $165/saat",
-            "Acil düzeltme (hafta sonu/tatil): sabit $450 + saatler",
+            "Ek saat: 165 $/saat",
+            "Acil düzeltme (hafta sonu/tatil): sabit 450 $ + saatler",
             "Özel özellik çalışması: ayrıca kapsamlandırılır"
           ],
           "ex": "Özellik geliştirme yok. Yeni entegrasyon yok. Tasarım işi yok. Pazarlama veya ASO hizmeti yok.",
@@ -2545,7 +2556,7 @@
         {
           "name": "İvme",
           "price": 4800,
-          "disp": "$4,800",
+          "disp": "4.800 $",
           "per": "/ay",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
@@ -2581,10 +2592,10 @@
             }
           ],
           "ov": [
-            "Ek saat: $155/saat",
-            "Ek A/B testi: $800 kurulum",
+            "Ek saat: 155 $/saat",
+            "Ek A/B testi: 800 $ kurulum",
             "Hızlı özellik (1 haftadan kısa dönüş): 1,5x saat",
-            "Ek tasarım saati: $145"
+            "Ek tasarım saati: 145 $"
           ],
           "ex": "Özel mühendis yok (öncelikli erişimli paylaşımlı ekip). Arka uç mimari değişikliği yok. Pazarlama hizmeti yok.",
           "ideal": "Kullanıcı verilerine göre aktif olarak iterasyon yapan yayındaki uygulamalar"
@@ -2592,7 +2603,7 @@
         {
           "name": "Ortak",
           "price": 10500,
-          "disp": "$10,500",
+          "disp": "10.500 $",
           "per": "/ay",
           "tag": "Gömülü ürün ekibi",
           "com": "Asgari 3 ay",
@@ -2631,9 +2642,9 @@
             }
           ],
           "ov": [
-            "Ayda 95'i aşan ek saat: $145/saat",
-            "Ek özel mühendis: aylık +$8,500",
-            "Ek özel tasarımcı: aylık +$3,500"
+            "Ayda 95'i aşan ek saat: 145 $/saat",
+            "Ek özel mühendis: aylık +8.500 $",
+            "Ek özel tasarımcı: aylık +3.500 $"
           ],
           "ex": "Pazarlama, ücretli reklam ve içerik hizmetleri dahil değildir. Bunlar için pazarlama paketlerimize bakın.",
           "ideal": "Blok Blok'u gömülü ürün ekibi olarak gören ekipler"
@@ -2643,7 +2654,7 @@
         {
           "name": "Site Bakımı",
           "price": 550,
-          "disp": "$550",
+          "disp": "550 $",
           "per": "/ay",
           "tag": "Güvenilir bakım",
           "com": "Asgari 3 ay",
@@ -2674,9 +2685,9 @@
             }
           ],
           "ov": [
-            "Ek içerik düzenlemesi: $45/adet",
-            "Acil talep (aynı gün): +$125",
-            "Saatlik güncelleme çalışması: $165/saat"
+            "Ek içerik düzenlemesi: 45 $/adet",
+            "Acil talep (aynı gün): +125 $",
+            "Saatlik güncelleme çalışması: 165 $/saat"
           ],
           "ex": "Yeni sayfa, yeniden tasarım, A/B testi, SEO ve reklam yok. Pazarlama faaliyeti yok. Bunlar için pazarlama paketlerimize bakın.",
           "ideal": "Güvenilir bakım ve gönül rahatlığı gerektiren yayınlanmış siteler"
@@ -2684,7 +2695,7 @@
         {
           "name": "Site Büyümesi",
           "price": 1600,
-          "disp": "$1,600",
+          "disp": "1.600 $",
           "per": "/ay",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
@@ -2720,8 +2731,8 @@
             }
           ],
           "ov": [
-            "Ek A/B testi: $450",
-            "Ek yeni sayfa: $850",
+            "Ek A/B testi: 450 $",
+            "Ek yeni sayfa: 850 $",
             "Video/animasyon çalışması: ayrıca kapsamlandırılır"
           ],
           "ex": "Tam yeniden tasarım yok (proje olarak kapsamlandırılır). Ücretli reklam yok. Küçük düzenlemelerin ötesinde içerik yazımı yok.",
@@ -2730,7 +2741,7 @@
         {
           "name": "Site Ortaklığı",
           "price": 3800,
-          "disp": "$3,800",
+          "disp": "3.800 $",
           "per": "/ay",
           "tag": "Gömülü web ekibi",
           "com": "Asgari 3 ay",
@@ -2765,8 +2776,8 @@
             }
           ],
           "ov": [
-            "Ayda 33'ü aşan ek saat: $155/saat",
-            "Ek içerik sayfası yükleme: 10'u aşan her biri $45",
+            "Ayda 33'ü aşan ek saat: 155 $/saat",
+            "Ek içerik sayfası yükleme: 10'u aşan her biri 45 $",
             "Acil dağıtım (aynı gün): +%25"
           ],
           "ex": "Ücretli reklam yönetimi yok (pazarlama paketlerine bakın). Marka yeniden tasarımı yok (marka paketlerine bakın). Mobil uygulama çalışması yok.",
@@ -2777,7 +2788,7 @@
         {
           "name": "Pazarlama Denetimi ve Yol Haritası",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 $",
           "tag": "Teşhis + 90 günlük plan",
           "tl": "2-3 hafta",
           "scope": [
@@ -2815,18 +2826,18 @@
             }
           ],
           "ov": [
-            "Ek kanal denetimi: $450",
-            "Analize ek rakip: $250/adet",
-            "Uzatılmış çalıştay oturumu (90 dk): $400"
+            "Ek kanal denetimi: 450 $",
+            "Analize ek rakip: 250 $/adet",
+            "Uzatılmış çalıştay oturumu (90 dk): 400 $"
           ],
           "ex": "Yol haritasının uygulanması yok (bu bir sonraki adımdır). Reklam yönetimi yok. İçerik üretimi yok. Kreatif prodüksiyon yok.",
-          "bridge": "Denetim, yol haritasını bağlamı yeniden kurmadan uygulamak için Bakım ve İzleme planımızla (aylık $1,500) doğal olarak eşleşir. 14 gün içinde imzalanırsa ilk ay %10 indirim.",
+          "bridge": "Denetim, yol haritasını bağlamı yeniden kurmadan uygulamak için Bakım ve İzleme planımızla (aylık 1.500 $) doğal olarak eşleşir. 14 gün içinde imzalanırsa ilk ay %10 indirim.",
           "ideal": "Pazarlamanın para sızdırdığından şüphelenen ama nereden olduğunu bulamayan kurucular"
         },
         {
           "name": "Kampanya Fırlatma Rampası",
           "price": 8500,
-          "disp": "$8,500",
+          "disp": "8.500 $",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
           "tl": "4-5 haftalık kurulum + 30 gün izleme",
@@ -2856,8 +2867,8 @@
               "l": "Günlük optimizasyon ve kreatif iterasyonla 2 haftalık yumuşak lansman. Ardından haftalık ayarlamalarla 30 gün aktif kampanya izleme."
             },
             {
-              "i": "$15k'ya kadar yönetilen reklam harcaması",
-              "l": "$15k'ya kadar reklam harcaması ücrete dahildir (harcamanın kendisi platform tarafından ayrıca faturalandırılır). Her ek $5k harcama: ücrete +$500."
+              "i": "15.000 $'a kadar yönetilen reklam harcaması",
+              "l": "15.000 $'a kadar reklam harcaması ücrete dahildir (harcamanın kendisi platform tarafından ayrıca faturalandırılır). Her ek 5.000 $ harcama: ücrete +500 $."
             },
             {
               "i": "Performans incelemesi + teslim dokümanı",
@@ -2865,19 +2876,19 @@
             }
           ],
           "ov": [
-            "Ek reklam kreatifi (statik): $250",
-            "Ek reklam kreatifi (video): $600",
-            "Ek açılış sayfası varyantı: $1,500",
-            "Ek reklam platformu: $2,500"
+            "Ek reklam kreatifi (statik): 250 $",
+            "Ek reklam kreatifi (video): 600 $",
+            "Ek açılış sayfası varyantı: 1.500 $",
+            "Ek reklam platformu: 2.500 $"
           ],
           "ex": "Organik sosyal içerik yok. Uzun biçimli SEO içeriği yok. Influencer yönetimi yok. PR iletişimi yok.",
-          "bridge": "Kampanya, kazananları ölçeklemek, 2. bir kanala genişlemek ve kreatifi geliştirmek için Büyüme Motoru planımıza (aylık $3,500) geçer. 14 gün içinde imzalanırsa ilk ay %10 indirim.",
+          "bridge": "Kampanya, kazananları ölçeklemek, 2. bir kanala genişlemek ve kreatifi geliştirmek için Büyüme Motoru planımıza (aylık 3.500 $) geçer. 14 gün içinde imzalanırsa ilk ay %10 indirim.",
           "ideal": "Gerçek müşteri kazanım hacmi yaratmaya hazır, kanıtlanmış teklife sahip ekipler"
         },
         {
           "name": "Tam Ürün Lansmanı",
           "price": 20000,
-          "disp": "$20,000",
+          "disp": "20.000 $",
           "tag": "Koordineli lansman atağı",
           "tl": "6 haftalık hazırlık + lansman haftası operasyonları",
           "scope": [
@@ -2918,19 +2929,19 @@
               "l": "Lansmandan 14 gün sonra: kohort, kanal, kreatif ve huni dökümü. Neyin işe yaradığını, neyin yaramadığını ve neye yüklenmek gerektiğini anlatan 20 sayfalık rapor."
             },
             {
-              "i": "$30k'ya kadar yönetilen lansman harcaması",
-              "l": "$30k'ya kadar reklam harcaması ücret dahilinde yönetilir. Her ek $5k harcama: ücrete +$500. Harcama platform tarafından ayrıca faturalandırılır."
+              "i": "30.000 $'a kadar yönetilen lansman harcaması",
+              "l": "30.000 $'a kadar reklam harcaması ücret dahilinde yönetilir. Her ek 5.000 $ harcama: ücrete +500 $. Harcama platform tarafından ayrıca faturalandırılır."
             }
           ],
           "ov": [
-            "Ek influencer ortaklığı: $1,200 + içerik üretici ücretleri",
-            "Ek basın yayını (26+): $75/adet",
-            "Ek video kreatifi: $600",
+            "Ek influencer ortaklığı: 1.200 $ + içerik üretici ücretleri",
+            "Ek basın yayını (26+): 75 $/adet",
+            "Ek video kreatifi: 600 $",
             "Hızlı zaman planı (3 haftadan kısa): +%25",
-            "Programatik SEO modülü: $6,000"
+            "Programatik SEO modülü: 6.000 $"
           ],
           "ex": "Lansman sonrası sürekli içerik takvimi yok. Uzun vadeli topluluk yönetimi yok. Ürün fotoğrafçılığı yok (eklenebilir).",
-          "bridge": "Lansman, sürdürülebilir büyüme, yaşam döngüsü optimizasyonu ve bir sonraki lansman döngüsü için Tam Ortaklık planımıza (aylık $7,500) dönüşür. 14 gün içinde imzalanırsa ilk ay %10 indirim.",
+          "bridge": "Lansman, sürdürülebilir büyüme, yaşam döngüsü optimizasyonu ve bir sonraki lansman döngüsü için Tam Ortaklık planımıza (aylık 7.500 $) dönüşür. 14 gün içinde imzalanırsa ilk ay %10 indirim.",
           "ideal": "Tek bir koordineli atağa ihtiyaç duyan, ürün, hizmet hattı veya yeni marka lansmanı yapan markalar"
         }
       ],
@@ -2938,7 +2949,7 @@
         {
           "name": "Marka Lite",
           "price": 4000,
-          "disp": "$4,000",
+          "disp": "4.000 $",
           "tag": "Logo + palet + tipografi",
           "tl": "2-3 hafta",
           "scope": [
@@ -2972,18 +2983,18 @@
             }
           ],
           "ov": [
-            "Ek logo varyasyonu (monogram, alt işaret vb.): $300",
-            "Ek revizyon turu: $250",
-            "Marka fotoğrafçılığı yönlendirmesi: $800"
+            "Ek logo varyasyonu (monogram, alt işaret vb.): 300 $",
+            "Ek revizyon turu: 250 $",
+            "Marka fotoğrafçılığı yönlendirmesi: 800 $"
           ],
           "ex": "Marka kılavuzu dokümanı yok. Kırtasiye yok. Sosyal şablonlar yok. İsimlendirme veya sözel kimlik çalışması yok.",
-          "bridge": "Marka Lite, Marka Koruyucu (aylık $1,500) ile birleştiğinde yeni içerik ürettikçe varlıklarınızı tutarlı tutar.",
+          "bridge": "Marka Lite, Marka Koruyucu (aylık 1.500 $) ile birleştiğinde yeni içerik ürettikçe varlıklarınızı tutarlı tutar.",
           "ideal": "Hızla temiz, kullanılabilir bir işarete ihtiyaç duyan tek kişilik işletmeler ve gelir öncesi markalar"
         },
         {
           "name": "Marka Sistemi",
           "price": 12000,
-          "disp": "$12,000",
+          "disp": "12.000 $",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
           "tl": "4-6 hafta",
@@ -3018,18 +3029,18 @@
             }
           ],
           "ov": [
-            "Özel ikon seti (8 ikon): $1,200",
-            "Marka fotoğrafçılığı sanat yönetimi + çekim listesi: $800",
-            "Ek revizyon turu: $400"
+            "Özel ikon seti (8 ikon): 1.200 $",
+            "Marka fotoğrafçılığı sanat yönetimi + çekim listesi: 800 $",
+            "Ek revizyon turu: 400 $"
           ],
           "ex": "İsimlendirme veya sözel kimlik sprinti yok. Marka tescil araştırması yok. 20 sayfalık kılavuzun ötesinde marka kitabı yok. Video çalışması yok.",
-          "bridge": "Marka Sistemi, yeni markalı varlıkları tutarlı şekilde üretmeye devam etmek için Kreatif Yönetim (aylık $4,000) ile eşleşir.",
+          "bridge": "Marka Sistemi, yeni markalı varlıkları tutarlı şekilde üretmeye devam etmek için Kreatif Yönetim (aylık 4.000 $) ile eşleşir.",
           "ideal": "Eksiksiz, savunulabilir bir marka sistemine ihtiyaç duyan yatırım almış girişimler ve ölçeklenen işletmeler"
         },
         {
           "name": "Marka Dönüşümü",
           "price": 28000,
-          "disp": "$28,000",
+          "disp": "28.000 $",
           "tag": "Tam yeniden markalama + isimlendirme + strateji",
           "tl": "8-12 hafta",
           "scope": [
@@ -3067,12 +3078,12 @@
             }
           ],
           "ov": [
-            "Ortak avukat aracılığıyla marka tescili hukuki görüşü: $1,500-$3,000 yansıtma",
-            "Marka lansman videosu prodüksiyonu (60 sn): $3,500",
-            "Ek isimlendirme turu: $2,000"
+            "Ortak avukat aracılığıyla marka tescili hukuki görüşü: 1.500-3.000 $ yansıtma",
+            "Marka lansman videosu prodüksiyonu (60 sn): 3.500 $",
+            "Ek isimlendirme turu: 2.000 $"
           ],
           "ex": "Marka tescil başvurusu yok (ortak avukat yönlendirmesi sağlanır). Storyboard'un ötesinde video prodüksiyonu yok. Sürekli uygulama yok. O bir aylık pakettir.",
-          "bridge": "Dönüşümü genellikle, yeni kimliği sonraki 6 ay boyunca her yüzeye yaymak için Gömülü Stüdyo (aylık $8,500) izler.",
+          "bridge": "Dönüşümü genellikle, yeni kimliği sonraki 6 ay boyunca her yüzeye yaymak için Gömülü Stüdyo (aylık 8.500 $) izler.",
           "ideal": "Yeniden konumlanan yerleşik işletmeler, Seri A öncesi girişimler, sıfırdan yeniden inşa gerektiren köklü markalar"
         }
       ],
@@ -3080,7 +3091,7 @@
         {
           "name": "Marka Koruyucu",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/ay",
           "tag": "Tutarlı bakım",
           "com": "Asgari 3 ay",
@@ -3107,9 +3118,9 @@
             }
           ],
           "ov": [
-            "Ek varlıklar (7+): $125/adet",
+            "Ek varlıklar (7+): 125 $/adet",
             "Acil 48 saat dönüş: +%50",
-            "Kısa video kurgusu: $300/adet"
+            "Kısa video kurgusu: 300 $/adet"
           ],
           "ex": "Stratejik çalışma, yeni marka yönleri ve metin yazarlığı yok. Sosyal medya yönetimi yok (sosyal paketlere bakın).",
           "ideal": "Kimliği hazır olup hafif, tutarlı bakıma ihtiyaç duyan markalar"
@@ -3117,7 +3128,7 @@
         {
           "name": "Kreatif Yönetim",
           "price": 4000,
-          "disp": "$4,000",
+          "disp": "4.000 $",
           "per": "/ay",
           "tag": "En Çok Tercih Edilen",
           "pop": true,
@@ -3145,7 +3156,7 @@
             },
             {
               "i": "Asenkron stratejist erişimi",
-              "l": "Adı belli stratejistinize doğrudan e-posta/mesaj, Pzt-Cum 9-5 ET. 4 iş saati yanıt SLA'sı."
+              "l": "Adı belli stratejistinize doğrudan e-posta/mesaj, Pzt-Cum 09:00-17:00 (ET). 4 iş saati yanıt SLA'sı."
             },
             {
               "i": "Varlık başına 2 revizyon turu",
@@ -3153,9 +3164,9 @@
             }
           ],
           "ov": [
-            "Ek varlıklar (16+): $150/adet",
-            "Kısa video kurgusu (60 sn altı): $300/adet",
-            "1.000 kelimeyi aşan metin: $200/sayfa"
+            "Ek varlıklar (16+): 150 $/adet",
+            "Kısa video kurgusu (60 sn altı): 300 $/adet",
+            "1.000 kelimeyi aşan metin: 200 $/sayfa"
           ],
           "ex": "Ücretli reklam yönetimi yok. Tam yeniden markalama yok (o bir projedir). Özel tasarımcı yok. Paylaşımlı ekip.",
           "ideal": "Düzenli iş üreten ve görsel sesi yönlendiren bir kreatif ortağa ihtiyaç duyan büyüyen markalar"
@@ -3163,7 +3174,7 @@
         {
           "name": "Gömülü Stüdyo",
           "price": 8500,
-          "disp": "$8,500",
+          "disp": "8.500 $",
           "per": "/ay",
           "tag": "Yarı zamanlı şirket içi kreatif",
           "com": "Asgari 3 ay",
@@ -3182,7 +3193,7 @@
             },
             {
               "i": "Özel kreatif direktör + tasarımcı",
-              "l": "Adı belli 2 kişilik ekip. Pzt-Cum 9-6 Slack erişimi (4 saat SLA). Tüm büyük teslimatlarda Loom anlatımları."
+              "l": "Adı belli 2 kişilik ekip. Pzt-Cum 09:00-18:00 Slack erişimi (4 saat SLA). Tüm büyük teslimatlarda Loom anlatımları."
             },
             {
               "i": "Metin yazarlığı + ses yönetimi",
@@ -3190,7 +3201,7 @@
             },
             {
               "i": "Marka sistemi evrimi",
-              "l": "Ölçeklendikçe küçük sistem güncellemeleri: yeni şablonlar, ayarlanmış renk uzantıları, yeni alt marka işaretleri. Tam yeniden markalamalar yine ayrıca $20k+'dan fiyatlandırılır."
+              "l": "Ölçeklendikçe küçük sistem güncellemeleri: yeni şablonlar, ayarlanmış renk uzantıları, yeni alt marka işaretleri. Tam yeniden markalamalar yine ayrıca 20.000 dolar ve üzeri fiyatlandırılır."
             },
             {
               "i": "Üç aylık kampanya konsepti",
@@ -3202,9 +3213,9 @@
             }
           ],
           "ov": [
-            "Tam yeniden markalama: $20k+ ayrı",
-            "Marka fotoğraf çekim günü (yönetim + tedarikçi yönetimi, çekim yansıtılarak faturalandırılır): $2,500 yönetim ücreti",
-            "Ek gömülü tasarımcı: aylık +$3,500"
+            "Tam yeniden markalama: 20.000+ $ ayrı",
+            "Marka fotoğraf çekim günü (yönetim + tedarikçi yönetimi, çekim yansıtılarak faturalandırılır): 2.500 $ yönetim ücreti",
+            "Ek gömülü tasarımcı: aylık +3.500 $"
           ],
           "ex": "Ücretli reklam yönetimi yok. Ürün / UX tasarımı yok (ayrıca kapsamlandırılır).",
           "ideal": "Bizi her kanalda yarı zamanlı şirket içi kreatif ekibi olarak gören ölçeklenen markalar"
@@ -3232,7 +3243,7 @@
     "title": "Küçük ekip. Gerçek müşteriler. İşin üstünde sizin adınız.",
     "intro": "Dört şehirde beş kişi; Dallas'taki bir tesisatçıdan Philippine Airlines'a kadar müşteriler için üretiyoruz. Sizinle müşteri arasında katman yok, sizinle iş arasında şablon yok.",
     "how_label": "Nasıl çalışıyoruz",
-    "how_1_title": "Tasarım gereği uzaktan",
+    "how_1_title": "Bilinçli olarak uzaktan",
     "how_1_text": "Merkez Berlin. Kreatif direktör Virginia'da, pazarlama Los Angeles'ta, video Pakistan'da. Önce asenkron; görüşmeler ancak hak ettiğinde.",
     "how_2_title": "Bir projenin sahibi sizsiniz",
     "how_2_text": "Bir kişi bir projeyi baştan sona yürütür ve müşteriyle doğrudan konuşur. Vaka çalışmasında bir departman değil, sizin işiniz yer alır.",
@@ -3265,8 +3276,8 @@
     "captions_label": "İngilizce"
   },
   "impressum": {
-    "meta_title": "Impressum / Yasal bildirim",
-    "meta_description": "Blok Blok Studio LLC'nin § 5 DDG uyarınca Impressum'u (yasal bildirim).",
+    "meta_title": "Impressum / Künye",
+    "meta_description": "Blok Blok Studio LLC'nin § 5 DDG uyarınca künyesi (Impressum, yasal bildirim).",
     "subtitle": "§ 5 DDG (Alman Dijital Hizmetler Yasası) uyarınca yasal bildirim",
     "provider_title": "Hizmet Sağlayıcı",
     "provider_country": "Amerika Birleşik Devletleri",
@@ -3312,11 +3323,11 @@
     "country_united_states": "Amerika Birleşik Devletleri"
   },
   "seo": {
-    "org_description": "İddialı markalar için özel, dönüşüm odaklı web siteleri üreten yaratıcı bir web tasarım stüdyosu.",
+    "org_description": "İddialı markalar için özel, dönüşüm odaklı web siteleri üreten Berlin merkezli bir web tasarım stüdyosu.",
     "local_description": "Dünyanın her yerindeki iddialı markalar için özel Next.js web siteleri geliştiren Berlin merkezli web tasarım stüdyosu.",
     "offer_catalog": "Web Tasarım Hizmetleri",
     "service_name": "Web Siteleri",
-    "service_description": "Next.js ve React ile özel olarak geliştirilen, dönüşüm odaklı, SEO için optimize edilmiş ve önce mobil tasarlanan siteler.",
+    "service_description": "Next.js ve React ile özel olarak geliştirilen, dönüşüm odaklı, SEO için optimize edilmiş, mobil öncelikli siteler.",
     "worldwide": "Dünya geneli",
     "knows_1": "Web Tasarımı",
     "knows_2": "Next.js Geliştirme",

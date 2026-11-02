@@ -38,7 +38,7 @@ Through the whole process I just felt seen, I felt heard, I felt like I was bein
 
 What I love most about the website is it's not just another template anyone can throw together. There's a lot of intention that went into it. We focused on the customer journey, the user experience, and made sure that the website, the brand identity, looked authentic and memorable.
 
-So if you're looking for someone who takes care of you, who focuses on the details, and who's there for you, who's responsive — you're definitely in the right place with Chase, or Blok Blok Studio in this case.`,
+So if you're looking for someone who takes care of you, who focuses on the details, and who's there for you, who's responsive, you're definitely in the right place with Chase, or Blok Blok Studio in this case.`,
 
   founder: `My name is Chase, the founder of Blok Blok Studio. I can tell you all the case studies in the world for our business, but if you don't know me as a person, it doesn't even matter. So I'm going to introduce myself.
 

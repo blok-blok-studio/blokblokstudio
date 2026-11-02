@@ -10,28 +10,28 @@ export const tr: LocaleBundle = {
       desc: 'Berlin\'in önde gelen vegan kişisel antrenörü için dönüşüm odaklı kişisel antrenörlük web sitesi.',
       challenge: 'Luke Satterly (Coach Luki), Berlin\'in en özverili kişisel antrenörlerinden biri. Holmes Place ve John Reed\'de danışanlarını çalıştıran vegan bir sporcu olarak enerjisine denk bir siteye ihtiyacı vardı: cesur, sonuç odaklı ve dönüşüm için inşa edilmiş. Hedef basitti. Biri siteye girer, Luki\'nin tam olarak ne yaptığını anlar, kanıtları görür ve görüşme ayarlar. Gereksiz söz yok. Kafa karışıklığı yok. Sadece sonuç.',
       solution: 'Her bölümün tek bir hedefe, ücretsiz danışmanlık randevusuna yönlendirdiği, dönüşüm öncelikli bir web sitesi tasarladık. Stripe ödeme entegrasyonu sayesinde danışanlar seans paketlerini hiçbir sürtünme olmadan doğrudan satın alabiliyor. "personal trainer Berlin" ve "vegan fitness coach Berlin" gibi aramaları hedefleyen Berlin odaklı yerel SEO ilk günden yapının içine işlendi.',
-      results: 'Berlin\'de yayında olan, BlokBlok Studio tarafından inşa edilen, tasarlanan ve yayına alınan, dönüşüm için tamamen optimize edilmiş bir kişisel antrenörlük sitesi. Danışanlar artık randevuyu ve ödemeyi doğrudan site üzerinden yapabiliyor; DM\'ler ve faturalar ortadan kalktı. Yerel SEO konumlandırması Berlin\'deki arayanlardan organik trafik getiriyor.',
+      results: 'Berlin\'de yayında olan, Blok Blok Studio tarafından inşa edilen, tasarlanan ve yayına alınan, dönüşüm için tamamen optimize edilmiş bir kişisel antrenörlük sitesi. Danışanlar artık randevuyu ve ödemeyi doğrudan site üzerinden yapabiliyor; DM\'ler ve faturalar ortadan kalktı. Yerel SEO konumlandırması Berlin\'deki arayanlardan organik trafik getiriyor.',
     },
     'bronco-plumbing': {
       desc: 'Dallas-Fort Worth\'taki bir tesisat şirketi için potansiyel müşteri üreten web sitesi ve çevrimiçi büyüme sistemi.',
-      challenge: 'Colton Staley, Bronco Plumbing\'i 2026\'da Dallas-Fort Worth\'ta ilk yılındaki, sahibi tarafından işletilen bir şirket olarak kurdu. Sıfırdan başlıyordu: web sitesi yok, çevrimiçi varlık yok, tesisatçı arayan DFW ev sahiplerinin onu bulmasının bir yolu yok. Zanaat işlerinde, kaliteli iş kanıtıyla Google\'da ilk sırada çıkan kim ise aramayı o alır.',
-      solution: 'Colton\'ın kendisi etrafında dönüşüm odaklı bir web sitesi inşa ettik: her aramada sahibi karşınızda, dürüst keşif fiyatları, canlı çekilen gerçek Google yorumları. Her bölüm bir aramaya veya keşif talebine yönlendiriyor; acil durumun ortasında arama yapan ev sahipleri için sabit bir mobil arama çubuğu var. DFW tesisat aramaları için yerel SEO ilk günden yapının içine işlendi ve iletişim hattı doğrudan iş akışına akıyor.',
+      challenge: 'Colton Staley, Bronco Plumbing\'i 2026\'da Dallas-Fort Worth\'ta ilk yılındaki, sahibi tarafından işletilen bir şirket olarak kurdu. Sıfırdan başlıyordu: web sitesi yok, çevrimiçi varlık yok, tesisatçı arayan DFW ev sahiplerinin onu bulmasının bir yolu yok. Bu sektörde, kaliteli iş kanıtıyla Google\'da ilk sırada çıkan kim ise aramayı o alır.',
+      solution: 'Colton\'ın kendisi etrafında dönüşüm odaklı bir web sitesi inşa ettik: her aramada sahibi karşınızda, dürüst fiyat teklifleri, canlı çekilen gerçek Google yorumları. Her bölüm bir aramaya veya keşif talebine yönlendiriyor; acil durumun ortasında arama yapan ev sahipleri için sabit bir mobil arama çubuğu var. DFW tesisat aramaları için yerel SEO ilk günden yapının içine işlendi ve iletişim hattı doğrudan iş akışına akıyor.',
       results: 'Colton ilk 5 ayında tesisat işi ve çevrimiçi sistem arasında 50.000 doların üzerinde brüt gelir elde etti. Site 52 Google yorumunda 5,0 yıldız puana sahip, arama terimlerinde Google\'da ortalama 5,2. sırada yer alıyor ve takibin ilk 3 ayında 8.000\'den fazla arama gösterimi kazandı.',
       metrics: [
         {
-          value: '$50k',
+          value: '50.000 $',
           label: 'İlk 5 ayda brüt gelir',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: '52 yorumda Google puanı',
         },
         {
-          value: '5.2',
+          value: '5,2',
           label: 'Ortalama Google sıralaması',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: '3 ayda arama gösterimi',
         },
       ],
@@ -39,11 +39,11 @@ export const tr: LocaleBundle = {
     'coach-kofi': {
       desc: 'Cesur görsel kimliğe sahip yüksek performanslı kişisel marka ve koçluk platformu.',
       challenge: 'Coach Kofi\'nin cesur "Just Do The Work" felsefesine denk bir kişisel marka web sitesine ihtiyacı vardı. Mevcut çevrimiçi varlığı, hareket, performans ve gelişim koçluğuna getirdiği enerjiyi ve otoriteyi yansıtmıyordu.',
-      solution: 'Cesur tipografi, profesyonel fotoğraf entegrasyonu ve ziyaretçiden koçluk danışanına net bir dönüşüm akışıyla çarpıcı bir siyah-beyaz web sitesi tasarladık. Site gerçek zamanlı randevu, sosyal kanıt sayaçları (150+ danışan, 8000+ saat koçluk) ve önce mobil duyarlı tasarım sunuyor.',
+      solution: 'Cesur tipografi, profesyonel fotoğraf entegrasyonu ve ziyaretçiden koçluk danışanına net bir dönüşüm akışıyla çarpıcı bir siyah-beyaz web sitesi tasarladık. Site gerçek zamanlı randevu, sosyal kanıt sayaçları (150+ danışan, 8000+ saat koçluk) ve mobil öncelikli duyarlı tasarım sunuyor.',
       results: 'Otoriteyi anında ileten profesyonel bir marka varlığı. Sadeleştirilmiş randevu akışı danışmanlık taleplerini %200 artırdı ve cesur tasarım, Coach Kofi\'nin tüm platformlardaki marka kimliğinin imza unsuru haline geldi.',
       metrics: [
         {
-          value: '200%',
+          value: '%200',
           label: 'Lansman sonrası daha fazla danışmanlık talebi',
         },
       ],
@@ -55,15 +55,15 @@ export const tr: LocaleBundle = {
       results: 'İnşa edip teslim ettiğimiz mağazada 1.790 siparişte 191.000 doların üzerinde koleksiyon kartı satışı; kargo altyapısı uçtan uca yapılandırıldı. Akıllı indirim toplama sayesinde e-posta listesi ilk ayda %400 büyüdü ve booster paket drop\'ları çıkıştan sonraki saatler içinde düzenli olarak tükendi. Mağaza bakım için sahiplerine geri teslim edildi; o zamandan beri siteyi kapattılar, bu yüzden paylaşılacak canlı bir bağlantı yok.',
       metrics: [
         {
-          value: '$191k',
+          value: '191.000 $',
           label: 'Mağaza üzerinden satış',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'Kargolanan sipariş',
         },
         {
-          value: '400%',
+          value: '%400',
           label: 'İlk ayda e-posta listesi büyümesi',
         },
       ],
@@ -81,7 +81,7 @@ export const tr: LocaleBundle = {
       results: 'Hedef demografilerde marka bilinirliği önemli ölçüde arttı. Yaş kapısı deneyiminin tamamlanma oranı %95\'in üzerinde. Ziyaretçiler caydırılmak yerine giriş deneyiminden keyif alıyor. Premium konumlandırma daha yüksek algılanan değere ve ortalama sipariş değerlerine yol açtı.',
       metrics: [
         {
-          value: '95%+',
+          value: '%95+',
           label: 'Yaş kapısını tamamlayan ziyaretçiler',
         },
       ],
@@ -102,7 +102,7 @@ export const tr: LocaleBundle = {
   blog: {
     'why-your-website-is-losing-customers': {
       readTime: '5 dk okuma',
-      content: `Web siteniz müşterileri öngörülebilir nedenlerle kaybeder: çok yavaş yüklenir, ne yaptığınızı söylemez, telefondaki insanları bunaltır ve ziyaretçilere size güvenmeleri için hiçbir neden vermez. Bunların hiçbiri tahmin değil. Google, Nielsen Norman Group ve Baymard Institute araştırmaları her birine rakam koyuyor ve her biri düzeltilebilir.
+      content: `Web siteniz müşterileri öngörülebilir nedenlerle kaybeder: çok yavaş yüklenir, ne yaptığınızı söylemez, telefondan girenleri çileden çıkarır ve ziyaretçilere size güvenmeleri için hiçbir neden vermez. Bunların hiçbiri tahmin değil. Google, Nielsen Norman Group ve Baymard Institute araştırmaları her birine rakam koyuyor ve her biri düzeltilebilir.
 
 ## 1. Yavaş Yükleme Süreleri Dönüşümü Öldürür
 
@@ -122,7 +122,7 @@ Nielsen Norman Group, 200 milyondan fazla sayfa ziyaretinin analizine dayanarak 
 
 Google, indeksleme ve sıralama için sitenizin akıllı telefon aracısıyla taranan mobil sürümünü kullanır. Cloudflare'in ağ verileri, 2025'te tüm web isteklerinin %43'ünün mobil cihazlardan geldiğini gösteriyor; bir önceki yıl bu oran %41'di. Sitenizde telefonda minik dokunma hedefleri ve okunmaz metinler varsa hem Google'ı hem de kitlenizin büyük bir bölümünü kaybediyorsunuz.
 
-**Çözüm:** Önce mobil için tasarlayın ve gerçek cihazlarda test edin. WCAG 2.2, dokunma hedefleri için erişilebilirlik tabanını 24 x 24 CSS pikseli olarak belirler; bunu asgari kabul edin ve birincil düğmeleri rahatça daha büyük yapın. Metni yakınlaştırmadan okunabilir, gezinmeyi başparmakla erişilebilir tutun.
+**Çözüm:** Mobil öncelikli tasarlayın ve gerçek cihazlarda test edin. WCAG 2.2, dokunma hedefleri için erişilebilirlik tabanını 24 x 24 CSS pikseli olarak belirler; bunu asgari kabul edin ve birincil düğmeleri rahatça daha büyük yapın. Metni yakınlaştırmadan okunabilir, gezinmeyi başparmakla erişilebilir tutun.
 
 ## 4. Zayıf veya Eksik CTA'lar
 
@@ -161,7 +161,7 @@ Ekibimizle ücretsiz bir strateji görüşmesi ayarlayın; sitenizi tam olarak n
 
 - **Her yerde HTTPS**: Google, HTTPS'i 2014'ten beri sıralama sinyali olarak kullanıyor. Hafif bir sinyal, ancak tarayıcılar güvensiz siteleri işaretliyor ve ziyaretçiler fark ediyor.
 - **Hızlı Core Web Vitals**: LCP 2,5 saniyenin altında, INP 200 milisaniyenin altında, CLS 0,1'in altında; gerçek ziyaretlerin 75. yüzdelik diliminde ölçülür. INP, 2024'te yanıt verebilirlik metriği olarak FID'in yerini aldı; eski FID panolarını emekliye ayırın.
-- **Önce mobil indeksleme**: Google akıllı telefon aracısıyla tarar ve indeksleme ile sıralama için mobil sürümünüzü kullanır. Mobil siteniz, siteniz demektir.
+- **Mobil öncelikli indeksleme**: Google akıllı telefon aracısıyla tarar ve indeksleme ile sıralama için mobil sürümünüzü kullanır. Mobil siteniz, siteniz demektir.
 - **Temiz URL yapısı**: Açıklayıcı, okunabilir URL'ler kullanın. Mümkün olduğunca sorgu parametrelerinden kaçının.
 - **XML site haritası**: Google Search Console'a gönderin. Güncel tutun.
 - **robots.txt**: İndekslenmemesi gerekenleri engelleyin (yönetici sayfaları, API rotaları).
@@ -255,7 +255,7 @@ Mevcut siteniz gerçekte kurduğunuz işletmeye benzemiyorsa ücretsiz bir strat
     kofi: {
       name: 'Coach Kofi, Blok Blok Studio ile çalışmayı anlatıyor',
       description: 'Berlin\'de Nike sporcusu ve kişisel antrenör olan Coach Kofi\'nin spor salonunda çekilen video referansı. Blok Blok Studio coachkofi.de\'yi inşa etti; lansman sonrası danışmanlık talepleri %200 arttı.',
-      transcript: `Web sitem için Chase ile çalışıyorum ve sonuç tam anlamıyla çılgın oldu. Bana o Apple logosunu, o Apple tasarımını verdi. Her şey çok güzel beliriyor. Sitenin pürüzsüz bir bitişi var.
+      transcript: `Web sitem için Chase ile çalışıyorum ve sonuç tam anlamıyla çılgın oldu. Bana o Apple logosunu, o Apple tasarımını verdi. Her şey çok şık beliriyor. Sitenin akıcı, pürüzsüz bir hissi var.
 
 Ben şahsen tek sayfalık siteleri severim. Öyle karar verdik. Onunla iletişim gerçekten kolay. İyi bir adam, dostum. Çok kararlı.
 
@@ -295,7 +295,7 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
   specialties: {
     'webdesign-berlin': {
       metaTitle: 'Berlin Web Tasarım | Blok Blok Studio',
-      metaDescription: 'Berlin\'de web tasarım ajansı. Müşteri kazandıran özel Next.js web siteleri. Şablon yok, site kurucu yok. Ücretsiz ilk görüşme.',
+      metaDescription: 'Berlin\'de web tasarım ajansı. Müşteri kazandıran özel Next.js web siteleri. Şablon yok, hazır site oluşturucu yok. Ücretsiz ilk görüşme.',
       kicker: 'Berlin Web Tasarım Ajansı',
       h1: 'Berlin\'den müşteri getiren web tasarımı',
       intro: 'Berlin\'deki ve dünyanın dört bir yanındaki işletmeler için özel web siteleri tasarlıyor ve geliştiriyoruz. Her site sıfırdan inşa edilir: hızlı, arama motorları için optimize edilmiş ve tek bir hedefe odaklı: ziyaretçileri müşteriye dönüştürmek.',
@@ -305,7 +305,7 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
           label: 'Tamamlanan proje',
         },
         {
-          value: '100%',
+          value: '%100',
           label: 'Özel geliştirme, şablon yok',
         },
         {
@@ -316,7 +316,7 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
       featuresHeading: 'Ne alırsınız',
       features: [
         {
-          title: 'Özel tasarım, site kurucu yok',
+          title: 'Özel tasarım, hazır site oluşturucu yok',
           desc: 'Her web sitesi Next.js ile elle geliştirilir. Bu şu anlama gelir: daha iyi yükleme süreleri, daha iyi Google sıralaması ve bir eşi daha olmayan bir tasarım.',
         },
         {
@@ -337,11 +337,11 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
         },
       ],
       caseStudy: {
-        heading: 'Uygulamadan',
+        heading: 'Pratikten bir örnek',
         name: 'Coach Luki, Berlin\'de kişisel antrenör',
         result: 'Randevular ve ödemeler tamamen web sitesi üzerinden yürüyor',
         body: 'Luke Satterly, Holmes Place ve John Reed\'de danışanlarını çalıştırıyor. Web sitesi randevuları alıyor ve ödemeleri Stripe üzerinden gerçekleştiriyor; doğrudan mesajlar ve elle kesilen faturalar yok. Ayrıca "Personal Trainer Berlin" gibi terimler için yerel arama motoru optimizasyonu.',
-        linkLabel: 'Vaka çalışmasına git',
+        linkLabel: 'Vaka çalışmasına gidin',
       },
       faqHeading: 'Sıkça sorulan sorular',
       faqs: [
@@ -351,15 +351,15 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
         },
         {
           q: 'Geliştirme ne kadar sürer?',
-          a: 'Tipik bir kurumsal web sitesi 2 ila 4 haftada yayına girer. Randevu sistemi veya mağaza içeren daha büyük projeler buna göre daha uzun sürer. Kesin zaman planını proje başlamadan önce belirleriz.',
+          a: 'Tipik bir işletme web sitesi 2 ila 4 haftada yayına girer. Randevu sistemi veya mağaza içeren daha büyük projeler buna göre daha uzun sürer. Kesin zaman planını proje başlamadan önce belirleriz.',
         },
         {
           q: 'Yalnızca Berlinli işletmelerle mi çalışıyorsunuz?',
           a: 'Hayır. Berlin\'de bulunuyor ve yerel müşterilerimizle bizzat ilgileniyoruz, ancak ABD dahil dünyanın dört bir yanındaki işletmelerle çalışıyoruz.',
         },
         {
-          q: 'Neden yapay zeka ile üretilmiş bir web sitesi veya Wix gibi bir site kurucu değil?',
-          a: 'Yapay zeka site kurucuları dakikalar içinde binlerce benzeri gibi görünen, yavaş yüklenen ve ne Google\'da ne de yapay zeka aramasında güvenilir biçimde bulunan bir web sitesi üretir. Özel geliştirilmiş bir web sitesi daha pahalıdır ancak karşılığında ölçülebilir biçimde müşteri kazandırır. Vaka çalışmalarımız rakamları gösteriyor.',
+          q: 'Neden yapay zeka ile üretilmiş bir web sitesi veya Wix gibi bir site oluşturucu değil?',
+          a: 'Yapay zeka site oluşturucuları dakikalar içinde binlerce benzeri gibi görünen, yavaş yüklenen ve ne Google\'da ne de yapay zeka aramasında güvenilir biçimde bulunan bir web sitesi üretir. Özel geliştirilmiş bir web sitesi daha pahalıdır ancak karşılığında ölçülebilir biçimde müşteri kazandırır. Vaka çalışmalarımız rakamları gösteriyor.',
         },
         {
           q: 'Neden WordPress veya Wix yerine Next.js?',
@@ -372,25 +372,25 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
     },
     'plumber-website-design': {
       metaTitle: 'Tesisatçılar için Web Sitesi Tasarımı | Blok Blok Studio',
-      metaDescription: 'Google ve yapay zeka aramalarını alınmış işlere dönüştüren, tesisatçılar ve ev hizmetleri şirketleri için web siteleri. İlk yılındaki tesisat müşterimiz sitesiyle $50k kazandı.',
-      kicker: 'Zanaat ve Ev Hizmetleri',
+      metaDescription: 'Google ve yapay zeka aramalarını alınmış işlere dönüştüren, tesisatçılar ve ev hizmetleri şirketleri için web siteleri. İlk yılındaki tesisat müşterimiz sitesiyle 50.000 $ kazandı.',
+      kicker: 'Teknik Hizmetler ve Ev Hizmetleri',
       h1: 'Aramaları alınmış işlere dönüştüren tesisatçı web siteleri',
       intro: 'Bir ev sahibinin borusu patladığında arama yapar, güvenilir görünen ilk sonucu arar ve bir daha geri kaydırmaz. Tesisatçılar ve ev hizmetleri şirketleri için o anı kazanan web siteleri inşa ediyoruz: hızlı, yerel SEO\'ya hazır ve arama düğmesi etrafında kurulu.',
       stats: [
         {
-          value: '$50k',
+          value: '50.000 $',
           label: 'Tesisat müşterimizin ilk 5 ayında ürettiği gelir',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: '52 Google yorumunda yıldız puanı, siteye canlı çekiliyor',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: 'Takibin ilk 3 ayında Google arama gösterimi',
         },
       ],
-      featuresHeading: 'Bir zanaat sitesinin gerçekten iş üretmesi için gerekenler',
+      featuresHeading: 'Bir usta web sitesinin gerçekten iş üretmesi için gerekenler',
       features: [
         {
           title: 'Mobilde sabit arama çubuğu',
@@ -410,14 +410,14 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
         },
         {
           title: 'Potansiyel müşteriler doğrudan iş akışınıza',
-          desc: 'Keşif talepleri ve iletişim gönderimleri anında gelen kutunuza ve iş hattınıza düşer. Zanaat işlerinde işi, potansiyel müşteriye hızlı dönen alır.',
+          desc: 'Keşif talepleri ve iletişim gönderimleri anında gelen kutunuza ve iş hattınıza düşer. Bu sektörde işi, potansiyel müşteriye en hızlı dönen alır.',
         },
       ],
       caseStudy: {
         heading: 'Vaka çalışması',
         name: 'Bronco Plumbing, Dallas-Fort Worth',
-        result: 'İşin ilk 5 ayında $50,000 brüt gelir',
-        body: 'Colton Staley, Bronco Plumbing\'i web sitesi ve çevrimiçi varlık olmadan kurdu. Onun etrafında dönüşüm odaklı bir site inşa ettik: her aramada sahibi karşınızda, dürüst keşif fiyatları, canlı Google yorumları ve acil durum aramaları için sabit bir arama çubuğu. Site, arama terimlerinde ortalama 5,2. sırada yer alıyor.',
+        result: 'İşin ilk 5 ayında 50.000 $ brüt gelir',
+        body: 'Colton Staley, Bronco Plumbing\'i web sitesi ve çevrimiçi varlık olmadan kurdu. Onun etrafında dönüşüm odaklı bir site inşa ettik: her aramada sahibi karşınızda, dürüst fiyat teklifleri, canlı Google yorumları ve acil durum aramaları için sabit bir arama çubuğu. Site, arama terimlerinde ortalama 5,2. sırada yer alıyor.',
         linkLabel: 'Vaka çalışmasının tamamını okuyun',
       },
       faqHeading: 'Sık sorulan sorular',
@@ -431,12 +431,12 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
           a: 'Sitenin kendisi genellikle 2 ila 4 haftada yayına girer. Yerel SEO takip eden aylarda birikerek büyür; tesisat müşterimiz takibin ilk 3 ayında 8.000\'den fazla arama gösterimi kaydetti.',
         },
         {
-          q: 'Tesisat dışındaki zanaatlarla da çalışıyor musunuz?',
+          q: 'Tesisat dışındaki teknik hizmetlerle de çalışıyor musunuz?',
           a: 'Evet. Aynı yöntem elektrikçiler, klima/ısıtma, çatı ve müşterilerin yerel arayıp aradığı her ev hizmeti işletmesi için çalışır: yerel SEO, canlı yorumlar ve telefon araması etrafında inşa edilmiş bir site.',
         },
         {
-          q: 'Neden yapay zeka ile çalışan bir site kurucu kullanmıyoruz?',
-          a: 'Yapay zeka kurucular dakikalar içinde sıradan bir site üretir ama tesisat işi getiren şeyleri yapamazlar: hizmet bölgesine göre yerel SEO, canlı Google yorumları, arama öncelikli mobil düzen ve iş akışınıza bağlı potansiyel müşteriler. Tesisat müşterimiz, şablondan değil, kendi pazarı için inşa edilmiş bir siteyle 5 ayda $50k kazandı.',
+          q: 'Neden yapay zeka destekli bir site oluşturucu kullanmayayım?',
+          a: 'Yapay zeka site oluşturucular dakikalar içinde sıradan bir site üretir ama tesisat işi getiren şeyleri yapamazlar: hizmet bölgesine göre yerel SEO, canlı Google yorumları, arama öncelikli mobil düzen ve iş akışınıza bağlı potansiyel müşteriler. Tesisat müşterimiz, şablondan değil, kendi pazarı için inşa edilmiş bir siteyle 5 ayda 50.000 $ kazandı.',
         },
         {
           q: 'Siteyi mevcut araçlarıma bağlayabilir misiniz?',
@@ -455,7 +455,7 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
       intro: 'DM\'lerden potansiyel müşteri kovalamak ve elle fatura göndermek alabileceğiniz danışan sayısını sınırlar. Kişisel antrenörler ve koçlar için ziyaretçilerin seansı doğrudan sitede ayırtıp ödediği web siteleri inşa ediyoruz; böylece takviminiz kendi kendine dolar.',
       stats: [
         {
-          value: '200%',
+          value: '%200',
           label: 'Lansman sonrası danışmanlık taleplerinde artış (Coach Kofi)',
         },
         {
@@ -471,7 +471,7 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
       features: [
         {
           title: 'Sitede randevu ve ödeme',
-          desc: 'Danışanlar tek bir akışta Stripe üzerinden saat seçer ve öder. DM gidiş gelişi yok, ödeme kovalama yok, onaylanmamış randevulardan kaynaklanan gelmeme yok.',
+          desc: 'Danışanlar tek bir akışta Stripe üzerinden saat seçer ve öder. DM trafiği yok, ödeme kovalama yok, onaylanmamış randevular yüzünden gelmeyen danışan yok.',
         },
         {
           title: 'Yönteminizi satan bir sayfa',
@@ -512,8 +512,8 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
           a: 'Instagram dikkat çeker; web sitesi onu dönüştürür. Kanıt, fiyat ve anında randevu içeren bir sayfaya açılan bio bağlantısı, DM\'lerin kaybettiği danışanları kazanır. Coach Kofi\'nin danışmanlık talepleri lansman sonrası %200\'den fazla arttı.',
         },
         {
-          q: 'Neden yapay zeka ile çalışan bir site kurucu kullanmıyoruz?',
-          a: 'Bir yapay zeka kurucu koçluğunuzu anlatabilir. Randevu alamaz, Stripe ödemesi işleyemez veya şehrinizde "kişisel antrenör" için sıralanamaz. Site, siz antrenman yaptırırken danışan kazandırdığında kendini amorti eder; bu da üretilmiş bir şablon değil, gerçek mühendislik gerektirir.',
+          q: 'Neden yapay zeka destekli bir site oluşturucu kullanmayayım?',
+          a: 'Yapay zeka destekli bir site oluşturucu koçluğunuzu anlatabilir. Randevu alamaz, Stripe ödemesi işleyemez veya şehrinizde "kişisel antrenör" için sıralanamaz. Site, siz antrenman yaptırırken danışan kazandırdığında kendini amorti eder; bu da üretilmiş bir şablon değil, gerçek mühendislik gerektirir.',
         },
         {
           q: 'Yalnızca fitness koçlarıyla mı çalışıyorsunuz?',
@@ -526,21 +526,21 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
     },
     'ecommerce-website-design': {
       metaTitle: 'E-Ticaret Web Sitesi Tasarımı | Blok Blok Studio',
-      metaDescription: 'Satan e-ticaret ve Shopify mağaza tasarımı. 1.790 siparişte $191k yapan bir koleksiyon kartı mağazası inşa ettik. Dönüşüm öncelikli, yapay zeka aramasına hazır mağazalar.',
+      metaDescription: 'Satan e-ticaret ve Shopify mağaza tasarımı. 1.790 siparişte 191.000 $ satış yapan bir koleksiyon kartı mağazası inşa ettik. Dönüşüm öncelikli, yapay zeka aramasına hazır mağazalar.',
       kicker: 'E-Ticaret ve Shopify',
       h1: 'Sadece var olmak için değil, satmak için inşa edilmiş e-ticaret mağazaları',
-      intro: 'Bir mağaza katalog değildir. Ürün ızgarasından ödeme sayfasına ve e-posta toplamaya kadar her seçim ya ziyaretçiyi satın almaya yaklaştırır ya da onu kaybeder. Tasarımı rakamların kanıtladığı e-ticaret mağazaları tasarlıyor ve inşa ediyoruz.',
+      intro: 'Bir mağaza katalog değildir. Ürün listesinden ödeme adımına ve e-posta toplamaya kadar her seçim ya ziyaretçiyi satın almaya yaklaştırır ya da onu kaybeder. Tasarımı rakamların kanıtladığı e-ticaret mağazaları tasarlıyor ve inşa ediyoruz.',
       stats: [
         {
-          value: '$191k',
+          value: '191.000 $',
           label: 'İnşa edip teslim ettiğimiz koleksiyon kartı mağazasında satış',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'O mağaza üzerinden sipariş',
         },
         {
-          value: '400%',
+          value: '%400',
           label: 'Akıllı toplama ile ilk ayda e-posta listesi büyümesi',
         },
       ],
@@ -556,7 +556,7 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
         },
         {
           title: 'Drop\'lar, yeniden stoklar ve topluluk',
-          desc: 'Tükenen ürün drop\'ları geri sayımlara, haber ver akışlarına ve mağazaya sonradan eklenmiş değil, içine işlenmiş topluluk entegrasyonuna (Discord, sosyal medya) ihtiyaç duyar.',
+          desc: 'Tükenen ürün drop\'ları geri sayımlara, stok bildirimi akışlarına ve mağazaya sonradan eklenmiş değil, içine işlenmiş topluluk entegrasyonuna (Discord, sosyal medya) ihtiyaç duyar.',
         },
         {
           title: 'Yapay zeka aramasına ve yanıt motorlarına hazır',
@@ -570,7 +570,7 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
       caseStudy: {
         heading: 'Vaka çalışması',
         name: 'Exotic Ripz, koleksiyon kartları',
-        result: '1.790 siparişte $191,042 satış',
+        result: '1.790 siparişte 191.042 $ satış',
         body: 'Bir koleksiyon kartı topluluk markası için tam bir Shopify mağazası: cesur animasyonlu markalama, Discord ve çok platformlu sosyal entegrasyon, akıllı ürün kategorizasyonu ve dönüşüm optimizasyonlu e-posta toplama. Booster paket drop\'ları çıkıştan sonraki saatler içinde düzenli olarak tükendi ve kargo altyapısı uçtan uca yapılandırıldı.',
         linkLabel: 'Vaka çalışmasının tamamını okuyun',
       },
@@ -589,8 +589,8 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
           a: 'Evet. Ürünler, müşteriler ve sipariş geçmişi çoğu platformdan taşınabilir. Taşımayı, geçiş sırasında mağaza hiç kapanmayacak şekilde planlarız.',
         },
         {
-          q: 'Neden yapay zeka ile çalışan bir mağaza kurucu kullanmıyoruz?',
-          a: 'Üretilmiş mağazalar iyi görünür ve kötü dönüşür, çünkü dönüşüm ayrıntılarda yaşar: toplama yerleşimi, drop mekanikleri, ödeme sürtünmesi, yapay zeka araması için ürün şeması. İnşa ettiğimiz $191k\'lık mağaza drop\'ları saatler içinde tüketti çünkü bu ayrıntıların her biri üretilmedi, mühendislikle kuruldu.',
+          q: 'Neden yapay zeka destekli bir mağaza oluşturucu kullanmayayım?',
+          a: 'Üretilmiş mağazalar iyi görünür ve kötü dönüşür, çünkü dönüşüm ayrıntılarda yaşar: toplama yerleşimi, drop mekanikleri, ödeme sürtünmesi, yapay zeka araması için ürün şeması. İnşa ettiğimiz 191.000 $\'lık mağaza drop\'ları saatler içinde tüketti çünkü bu ayrıntıların her biri üretilmedi, mühendislikle kuruldu.',
         },
         {
           q: 'Kargo ve ödemeleri de kuruyor musunuz?',

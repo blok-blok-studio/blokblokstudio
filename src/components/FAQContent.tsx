@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { visibleFaqs } from '@/lib/faq-filter';
 import { AnimatePresence, motion } from 'framer-motion';
 import { V2PageHero } from './v2/V2PageHero';
 
@@ -14,15 +15,11 @@ interface FAQItem {
 
 const CATEGORIES = ['pricing', 'process', 'capabilities', 'trust'] as const;
 
-// Live-site filter, hides FAQ entries about AI / voice agents / automation
-// while keeping them in the JSON for future re-enable.
-const HIDE_AI_FAQ = true;
-const aiKeywords = /\b(ai|chatbot|voice agent|automation|agent)\b/i;
 
 export function FAQContent() {
   const t = useTranslations('faq');
   const allItems = (t.raw('items') as FAQItem[]) || [];
-  const items = HIDE_AI_FAQ ? allItems.filter((item) => !aiKeywords.test(item.question) && !aiKeywords.test(item.answer)) : allItems;
+  const items = visibleFaqs(allItems);
   const [activeCategory, setActiveCategory] = useState<string | 'all'>('all');
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const filtered = activeCategory === 'all' ? items : items.filter((item) => item.category === activeCategory);

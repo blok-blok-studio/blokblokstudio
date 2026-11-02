@@ -13,7 +13,7 @@
     "privacy": "Kebijakan Privasi",
     "terms": "Ketentuan Layanan",
     "cookies": "Kebijakan Cookie",
-    "impressum": "Pemberitahuan hukum",
+    "impressum": "Pemberitahuan Hukum",
     "data_rights": "Hak Data Anda",
     "accessibility": "Aksesibilitas",
     "v2_work": "Karya",
@@ -29,103 +29,103 @@
     "meta_description": "Jawaban tentang harga, jadwal, situs web kustom, dan bekerja dengan Blok Blok Studio, studio desain web berbasis Berlin yang melayani klien di seluruh dunia.",
     "hero_eyebrow": "Pertanyaan yang Sering Diajukan",
     "hero_title": "Semua yang ingin Anda tanyakan",
-    "hero_subtitle": "Jawaban jujur tentang cara kami bekerja, apa yang kami kenakan, dan apa yang kami bangun. Jika Anda tidak melihat pertanyaan Anda, pesan panggilan strategi gratis 30 menit.",
+    "hero_subtitle": "Jawaban jujur tentang cara kami bekerja, berapa tarif kami, dan apa yang kami bangun. Jika pertanyaan Anda belum terjawab, jadwalkan panggilan gratis 30 menit.",
     "category_pricing": "Harga & Investasi",
     "category_process": "Proses & Jadwal",
     "category_capabilities": "Layanan & Kemampuan",
     "category_trust": "Bekerja dengan Blok Blok Studio",
     "cta_heading": "Masih ada pertanyaan?",
-    "cta_subheading": "Pesan panggilan strategi gratis 30 menit. Tanpa penawaran, tanpa tekanan, hanya jawaban.",
-    "cta_button": "Pesan Panggilan Gratis Anda",
+    "cta_subheading": "Jadwalkan panggilan strategi gratis 30 menit. Tanpa jualan, tanpa tekanan, hanya jawaban.",
+    "cta_button": "Jadwalkan Panggilan Gratis Anda",
     "see_all_questions": "Lihat semua pertanyaan",
     "filter_all": "Semua",
     "items": [
       {
         "category": "pricing",
         "question": "Berapa biaya situs web kustom?",
-        "answer": "Situs web kustom di Blok Blok Studio mulai dari $2.000 untuk satu landing page, $6.500 untuk situs 5 halaman, $12.000 untuk 10 halaman dengan CMS, dan $18.000 untuk 15 halaman atau lebih. Harga bergantung pada jumlah halaman, animasi kustom, integrasi, dan kebutuhan copywriting. Setiap situs dibangun di Next.js, di-host di Vercel, dan dioptimalkan SEO sejak hari pertama, bukan template."
+        "answer": "Situs web kustom di Blok Blok Studio mulai dari $2.000 untuk satu landing page, $6.500 untuk situs 5 halaman, $12.000 untuk 10 halaman dengan CMS, dan $18.000 untuk 15 halaman atau lebih. Harga bergantung pada jumlah halaman, animasi kustom, integrasi, dan kebutuhan copywriting. Setiap situs dibangun di Next.js, di-host di Vercel, dan dioptimalkan untuk SEO sejak hari pertama, bukan dari template."
       },
       {
         "category": "pricing",
         "question": "Berapa biaya membangun chatbot AI?",
-        "answer": "Chatbot AI yang dilatih pada 100+ pasangan Q&A dan disematkan di seluruh situs termasuk dalam paket Conversational AI senilai $18.000 kami, yang juga mencakup voice agent, otomatisasi SMS, dan pipeline konten lengkap. Sebagai add-on mandiri untuk tier situs web mana pun, chatbot AI mulai dari $2.500. Semua bot terintegrasi dengan CRM Anda dan menangkap prospek 24/7."
+        "answer": "Chatbot AI yang dilatih dengan 100+ pasangan tanya-jawab dan disematkan di seluruh situs sudah termasuk dalam paket AI Percakapan kami senilai $18.000, yang juga mencakup voice agent, otomatisasi SMS, dan pipeline konten lengkap. Sebagai add-on terpisah untuk paket situs web mana pun, chatbot AI mulai dari $2.500. Semua bot terintegrasi dengan CRM Anda dan menangkap prospek 24/7."
       },
       {
         "category": "pricing",
         "question": "Berapa biaya AI voice agent per bulan?",
-        "answer": "Penyiapan AI voice agent kami mulai dari $2.500 sekali bayar, dengan 500 menit suara termasuk untuk bulan pertama. Menit selanjutnya ditagih dengan tarif telepon standar dan digabungkan ke retainer bulanan. Agen menjawab panggilan, mengkualifikasi prospek, memesan janji, dan meneruskan panggilan mendesak ke manusia, semuanya dalam bahasa percakapan alami."
+        "answer": "Penyiapan AI voice agent kami mulai dari $2.500 sekali bayar, sudah termasuk 500 menit suara untuk bulan pertama. Menit selanjutnya ditagih dengan tarif telepon standar dan digabungkan ke retainer bulanan. Agen ini menjawab panggilan, mengkualifikasi prospek, menjadwalkan janji temu, dan meneruskan panggilan mendesak ke staf manusia, semuanya dalam bahasa percakapan yang alami."
       },
       {
         "category": "pricing",
         "question": "Apakah Anda menawarkan retainer bulanan atau hanya pekerjaan proyek?",
-        "answer": "Keduanya. Pekerjaan proyek mulai dari $2.000 dan ditagih dalam tonggak. Retainer mulai dari $1.500/bulan untuk pemeliharaan situs, pemantauan AI, dan pemeliharaan CRM, atau $3.500/bulan untuk pertumbuhan layanan penuh, manajemen iklan Google dan Meta, produksi konten berbantuan AI, dan 5 jam kerja pengembangan setiap bulan. Retainer membutuhkan minimum 3 atau 6 bulan."
+        "answer": "Keduanya. Pekerjaan proyek mulai dari $2.000 dan ditagih per tahap pencapaian. Retainer mulai dari $1.500/bulan untuk pemeliharaan situs, pemantauan AI, dan perawatan CRM, atau $3.500/bulan untuk pertumbuhan layanan lengkap: manajemen iklan Google dan Meta, produksi konten berbantuan AI, dan 5 jam kerja pengembangan setiap bulan. Retainer membutuhkan komitmen minimal 3 atau 6 bulan."
       },
       {
         "category": "process",
         "question": "Berapa lama waktu yang dibutuhkan untuk membangun situs web kustom?",
-        "answer": "Landing page tunggal biasanya diluncurkan dalam 2 hingga 3 minggu. Situs 5 halaman membutuhkan 4 hingga 6 minggu. Situs 10 halaman dengan CMS dan integrasi AI membutuhkan 8 hingga 12 minggu. Jadwal bergantung pada seberapa cepat Anda memberikan konten, masukan merek, dan persetujuan. Kami bergerak cepat, kebanyakan agensi membutuhkan 2 hingga 3 kali lebih lama."
+        "answer": "Satu landing page biasanya tayang dalam 2 hingga 3 minggu. Situs 5 halaman membutuhkan 4 hingga 6 minggu. Situs 10 halaman dengan CMS dan integrasi AI membutuhkan 8 hingga 12 minggu. Jadwal bergantung pada seberapa cepat Anda menyediakan konten, materi merek, dan persetujuan. Kami bergerak cepat; kebanyakan agensi butuh 2 hingga 3 kali lebih lama."
       },
       {
         "category": "process",
         "question": "Berapa lama waktu yang dibutuhkan untuk menerapkan agen AI?",
-        "answer": "Chatbot AI standar yang dilatih pada FAQ Anda yang sudah ada akan aktif dalam 7 hingga 10 hari kerja. Voice agent dengan skrip panggilan kustom membutuhkan 10 hingga 14 hari. Ekosistem multi-agen penuh dengan integrasi CRM, kalender, dan pembayaran membutuhkan 4 hingga 8 minggu tergantung kompleksitas. Kami memulai dengan panggilan penemuan, kemudian dokumen scoping berbayar, lalu membangun."
+        "answer": "Chatbot AI standar yang dilatih dengan FAQ Anda yang sudah ada bisa aktif dalam 7 hingga 10 hari kerja. Voice agent dengan skrip panggilan kustom membutuhkan 10 hingga 14 hari. Ekosistem multi-agen lengkap dengan integrasi CRM, kalender, dan pembayaran membutuhkan 4 hingga 8 minggu tergantung kompleksitasnya. Kami memulai dengan panggilan eksplorasi, lalu dokumen lingkup kerja berbayar, baru kemudian membangun."
       },
       {
         "category": "process",
         "question": "Seperti apa proses desain dan pembangunan?",
-        "answer": "Lima fase: Penemuan (tujuan dan audiens Anda), Strategi (peta jalan yang disesuaikan), Desain (konsep visual dan prototipe), Pengembangan (kode modern, performant), dan Peluncuran & Optimasi (terapkan, pantau, perhalus). Anda mendapatkan pembaruan mingguan dan walkthrough Loom di setiap tonggak, tanpa rapat status langsung kecuali Anda menginginkannya."
+        "answer": "Lima fase: Eksplorasi (tujuan dan audiens Anda), Strategi (peta jalan yang disesuaikan), Desain (konsep visual dan prototipe), Pengembangan (kode modern berperforma tinggi), serta Peluncuran & Optimasi (terapkan, pantau, sempurnakan). Anda mendapat pembaruan mingguan dan video penjelasan Loom di setiap tahap, tanpa rapat status langsung kecuali Anda menginginkannya."
       },
       {
         "category": "capabilities",
         "question": "Apa perbedaan antara chatbot AI dan voice agent AI?",
-        "answer": "Chatbot AI berbasis teks dan hidup di situs web atau aplikasi pesan Anda, ia menjawab FAQ, memesan janji, dan menangkap prospek melalui obrolan. AI voice agent menjawab panggilan telepon nyata dalam bahasa lisan alami. Voice agent paling baik untuk penjualan masuk, dukungan setelah jam kerja, dan konfirmasi janji. Banyak bisnis menjalankan keduanya untuk cakupan penuh."
+        "answer": "Chatbot AI berbasis teks dan berada di situs web atau aplikasi pesan Anda; ia menjawab FAQ, menjadwalkan janji temu, dan menangkap prospek lewat obrolan. AI voice agent menjawab panggilan telepon sungguhan dalam bahasa lisan yang alami. Voice agent paling cocok untuk penjualan inbound, dukungan di luar jam kerja, dan konfirmasi janji temu. Banyak bisnis menjalankan keduanya agar cakupannya menyeluruh."
       },
       {
         "category": "capabilities",
         "question": "Bisakah agen AI Anda terintegrasi dengan HubSpot, Salesforce, atau GoHighLevel?",
-        "answer": "Ya. Agen AI dan otomatisasi kami terintegrasi secara native dengan HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, dan Calendly. Untuk CRM dan alat tanpa integrasi yang ada, kami membangun konektor kustom, tanpa pajak perantara Zapier. Data Anda tetap di sistem Anda; kami hanya membuat mereka berbicara satu sama lain."
+        "answer": "Ya. Agen AI dan otomatisasi kami terintegrasi secara native dengan HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, dan Calendly. Untuk CRM dan alat yang belum memiliki integrasi, kami membangun konektor kustom, tanpa biaya perantara Zapier. Data Anda tetap berada di sistem Anda; kami hanya menghubungkannya satu sama lain."
       },
       {
         "category": "capabilities",
         "question": "Apakah Anda membangun situs web di Next.js, WordPress, atau Webflow?",
-        "answer": "Kami membangun secara eksklusif di Next.js dengan TypeScript, Tailwind CSS, dan Framer Motion. Situs di-host di Vercel untuk waktu muat sub-detik dan pengiriman edge global. Kami tidak membangun di WordPress, Wix, Squarespace, atau Webflow, platform tersebut tidak dapat memberikan kinerja, animasi kustom, atau integrasi AI yang dibutuhkan klien kami."
+        "answer": "Kami membangun secara eksklusif di Next.js dengan TypeScript, Tailwind CSS, dan Framer Motion. Situs di-host di Vercel untuk waktu muat di bawah satu detik dan distribusi edge global. Kami tidak membangun di WordPress, Wix, Squarespace, atau Webflow; platform tersebut tidak mampu memberikan performa, animasi kustom, atau integrasi AI yang dibutuhkan klien kami."
       },
       {
         "category": "capabilities",
-        "question": "Apakah Anda menulis salinan situs web, atau saya menyediakannya?",
-        "answer": "Keduanya berfungsi. Sebagian besar klien memberikan catatan mentah atau poin-poin dan kami membentuknya menjadi salinan akhir. Copywriting profesional penuh termasuk dalam tier $18.000 kami dan tersedia sebagai add-on $200/halaman di tier lainnya. Salinan iklan untuk kampanye Google dan Meta selalu ditulis oleh kami ketika kami mengelola iklan."
+        "question": "Apakah Anda yang menulis naskah situs web, atau saya yang menyediakannya?",
+        "answer": "Keduanya bisa. Sebagian besar klien memberikan catatan mentah atau poin-poin, lalu kami membentuknya menjadi naskah final. Copywriting profesional lengkap sudah termasuk dalam paket $18.000 kami dan tersedia sebagai add-on $200/halaman di paket lainnya. Naskah iklan untuk kampanye Google dan Meta selalu kami tulis sendiri saat kami yang mengelola iklannya."
       },
       {
         "category": "trust",
         "question": "Di mana Blok Blok Studio berada, dan apakah Anda bekerja secara internasional?",
-        "answer": "Studio kami berbasis di Berlin, Jerman. Kami bekerja dengan klien di Amerika Serikat, Inggris, Belanda, Prancis, Spanyol, dan di seluruh UE. Komunikasi bersifat asinkron melalui Loom, email, dan teks, kami mengakomodasi setiap zona waktu. Faktur dan kontrak tersedia dalam USD atau EUR tergantung preferensi Anda."
+        "answer": "Studio kami berbasis di Berlin, Jerman. Kami bekerja dengan klien di Amerika Serikat, Inggris, Belanda, Prancis, Spanyol, dan di seluruh UE. Komunikasi berlangsung asinkron lewat Loom, email, dan pesan singkat; kami menyesuaikan diri dengan setiap zona waktu. Faktur dan kontrak tersedia dalam USD atau EUR sesuai preferensi Anda."
       },
       {
         "category": "trust",
         "question": "Apakah saya memiliki kode situs web dan konfigurasi agen AI saya?",
-        "answer": "Ya, sepenuhnya. Pada penyelesaian proyek, Anda menerima kepemilikan penuh atas kode, file desain, prompt AI, dan konfigurasi otomatisasi. Situs di-deploy ke akun Vercel Anda sendiri di bawah penagihan Anda. CRM, akun iklan, dan domain tetap atas nama Anda sejak hari pertama. Kami tidak pernah mengunci klien ke sistem kami."
+        "answer": "Ya, sepenuhnya. Saat proyek selesai, Anda menerima kepemilikan penuh atas kode, file desain, prompt AI, dan konfigurasi otomatisasi. Situs di-deploy ke akun Vercel Anda sendiri dengan tagihan atas nama Anda. CRM, akun iklan, dan domain tetap atas nama Anda sejak hari pertama. Kami tidak pernah mengunci klien ke dalam sistem kami."
       },
       {
         "category": "trust",
         "question": "Apakah situs saya akan responsif mobile dan dioptimalkan SEO?",
-        "answer": "Ya, keduanya tidak bisa ditawar di setiap build. Desain responsif mobile-first diuji pada 375px, 768px, 1024px, dan 1440px. Setiap halaman dikirim dengan meta judul, deskripsi, markup skema, alt text, dan sitemap yang dikirim ke Google. Kami menargetkan skor Lighthouse 90+ untuk performa dan 95+ untuk aksesibilitas sebelum peluncuran."
+        "answer": "Ya, keduanya wajib di setiap proyek. Desain responsif mobile-first diuji pada 375px, 768px, 1024px, dan 1440px. Setiap halaman dilengkapi meta title, deskripsi, markup skema, teks alt, dan sitemap yang dikirimkan ke Google. Kami menargetkan skor Lighthouse 90+ untuk performa dan 95+ untuk aksesibilitas sebelum peluncuran."
       }
     ]
   },
   "home": {
     "hero_title": "Studio Desain Web di Berlin",
-    "hero_subtitle": "Kami merancang dan membangun situs web Next.js kustom untuk merek ambisius di seluruh dunia. Desain web premium, fokus konversi, tidak pernah template.",
+    "hero_subtitle": "Kami merancang dan membangun situs web Next.js kustom untuk merek ambisius di seluruh dunia. Desain web premium yang berfokus pada konversi, bukan dari template.",
     "hero_cta": "Mulai Proyek",
     "clients_heading": "Dipercaya oleh merek-merek visioner",
     "services_heading": "Apa yang Kami Lakukan",
     "services_subheading": "Kami menggabungkan strategi, desain, dan teknologi web modern untuk membuat situs yang memberikan hasil.",
     "projects_heading": "Karya Pilihan",
-    "projects_subheading": "Pameran proyek di mana kreativitas bertemu tujuan.",
+    "projects_subheading": "Kumpulan proyek tempat kreativitas bertemu tujuan.",
     "projects_cta": "Lihat Semua Proyek",
     "testimonials_heading": "Apa Kata Klien Kami",
-    "testimonials_subtitle": "Jangan hanya percaya kata kami. Dengar dari merek-merek yang telah kami bantu transformasi.",
+    "testimonials_subtitle": "Jangan hanya percaya kata kami. Simak langsung dari merek-merek yang telah kami bantu bertransformasi.",
     "newsletter_heading": "Dapatkan Wawasan Desain Mingguan",
-    "newsletter_subtitle": "Bergabunglah dengan 2.000+ pendiri dan kreatif yang mendapatkan tips yang dapat ditindaklanjuti tentang desain, branding, dan pertumbuhan digital setiap Kamis.",
+    "newsletter_subtitle": "Bergabunglah dengan 2.000+ pendiri dan pelaku kreatif yang menerima tips praktis tentang desain, branding, dan pertumbuhan digital setiap Kamis.",
     "newsletter_placeholder": "Masukkan email Anda",
     "newsletter_button": "Berlangganan",
     "newsletter_privacy": "Tidak pernah spam. Berhenti berlangganan kapan saja.",
@@ -137,12 +137,12 @@
     "tab_creative": "Kreatif & Pemasaran",
     "audit_badge": "Gratis, 30 menit",
     "audit_heading": "Tidak Yakin Apa yang Dibutuhkan Bisnis Anda?",
-    "audit_subheading": "Pesan panggilan strategi gratis. Kami akan meninjau bisnis Anda dan menunjukkan dengan tepat di mana peluang terbesar berada.",
-    "audit_button": "Pesan Panggilan Gratis Anda",
+    "audit_subheading": "Jadwalkan panggilan strategi gratis. Kami akan meninjau bisnis Anda dan menunjukkan dengan tepat di mana peluang terbesar berada.",
+    "audit_button": "Jadwalkan Panggilan Gratis Anda",
     "cta_heading": "Siap Membangun Sesuatu yang Hebat?",
     "cta_subheading": "Mari berkolaborasi dan mewujudkan visi Anda.",
     "cta_button": "Hubungi Kami",
-    "stats_projects": "Proyek yang diselesaikan",
+    "stats_projects": "Proyek diluncurkan",
     "stats_brands": "Merek yang dilayani",
     "stats_industries": "Industri",
     "stats_custom": "Kustom, tanpa template",
@@ -154,8 +154,8 @@
     "v2_about_link": "Tentang studio",
     "v2_services_label": "Apa yang kami kerjakan",
     "v2_services_link": "Semua layanan",
-    "v2_service_1_title": "Build Next.js kustom",
-    "v2_service_1_detail": "Front end React yang dibangun manual, tanpa page builder, tanpa tema. Cepat di setiap perangkat dan mudah dikembangkan nanti.",
+    "v2_service_1_title": "Situs Next.js kustom",
+    "v2_service_1_detail": "Front end React yang dibangun manual, tanpa page builder, tanpa tema. Cepat di setiap perangkat dan mudah dikembangkan di kemudian hari.",
     "v2_service_2_title": "Desain berfokus konversi",
     "v2_service_2_detail": "Setiap halaman disusun di sekitar satu tindakan: pesan, beli, atau telepon. Naskah, hierarki, dan bukti semuanya mengarah ke tujuan yang sama.",
     "v2_service_3_title": "SEO sejak hari pertama",
@@ -167,14 +167,14 @@
     "v2_work_label": "Karya pilihan",
     "v2_work_link": "Semua proyek",
     "v2_result_coach_luki": "Klien memesan dan membayar lewat situs. SEO lokal mendatangkan pencari dari Berlin.",
-    "v2_result_bronco_plumbing": "$50k dalam 5 bulan pertama. Rating 5.0 dari 52 ulasan Google.",
+    "v2_result_bronco_plumbing": "$50k dalam 5 bulan pertama. Rating 5,0 dari 52 ulasan Google.",
     "v2_result_coach_kofi": "Permintaan konsultasi naik 200% setelah peluncuran.",
     "v2_result_exotic_ripz": "Penjualan $191k dari 1.790 pesanan. Drop ludes dalam hitungan jam.",
     "v2_result_kds_systems": "Cerita layanan yang jelas dan alur pemesanan yang menaikkan jumlah prospek berkualitas.",
     "v2_proof_label": "Angka bicara",
     "v2_proof_1_value": "$191k",
     "v2_proof_1_label": "Penjualan lewat satu toko yang kami luncurkan",
-    "v2_proof_2_value": "5.0",
+    "v2_proof_2_value": "5,0",
     "v2_proof_2_label": "Rating Google dari 52 ulasan, Bronco Plumbing",
     "v2_proof_3_value": "200%",
     "v2_proof_3_label": "Lebih banyak permintaan konsultasi, Coach Kofi",
@@ -195,7 +195,7 @@
     "v2_rights": "Hak cipta dilindungi.",
     "v2_services_sub": "Satu paket, dikerjakan dengan benar. Kami mendesain dan membangun situs, lalu meng-host dan menjaganya tetap berjalan.",
     "v2_group_1": "Situs web dan merek",
-    "v2_group_1_detail": "Desain dan build, lalu identitas yang menyertainya.",
+    "v2_group_1_detail": "Desain dan pengerjaan, lalu identitas yang menyertainya.",
     "v2_group_2": "Pertumbuhan berbayar",
     "v2_group_2_detail": "Kampanye pencarian dan media sosial yang mengalirkan pengunjung ke situs yang kami bangun.",
     "v2_group_3": "AI dan otomatisasi",
@@ -223,7 +223,7 @@
     "v2_globe_cities": "kota",
     "v2_hosting_title": "Hosting dan perawatan",
     "v2_hosting_subtitle": "Cepat, terpantau, selalu diperbarui",
-    "v2_hosting_bullet_1": "Managed hosting di Vercel dengan CDN global",
+    "v2_hosting_bullet_1": "Hosting terkelola di Vercel dengan CDN global",
     "v2_hosting_bullet_2": "SSL, backup, dan pemantauan uptime",
     "v2_hosting_bullet_3": "Pembaruan keamanan dan dependensi",
     "v2_hosting_bullet_4": "Penyetelan kecepatan dan pengecekan Core Web Vitals",
@@ -236,17 +236,17 @@
     "v2_archive": "arsip",
     "v2_globe_nowebgl": "WebGL dinonaktifkan di browser ini. Daftar kota tersedia di samping.",
     "v2_quote_1_role": "Bronco Plumbing, Dallas-Fort Worth",
-    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_2_role": "Atlet Nike, Berlin",
     "v2_quote_3_role": "Toko kartu koleksi",
-    "v2_quote_1_text": "Pendapatan kotor $50.000 dalam lima bulan pertama, rating 5.0 dari 52 ulasan Google, dan posisi rata-rata 5.2 di Google untuk kata kunci pencariannya.",
+    "v2_quote_1_text": "Pendapatan kotor $50.000 dalam lima bulan pertama, rating 5,0 dari 52 ulasan Google, dan posisi rata-rata 5,2 di Google untuk kata kunci pencariannya.",
     "v2_quote_2_text": "Blok Blok Studio mengubah kehadiran online saya sepenuhnya. Desainnya yang berani menangkap filosofi coaching saya dengan sempurna, dan hasilnya luar biasa.",
     "v2_quote_3_text": "Toko e-commerce yang mereka bangun untuk kami luar biasa. Drop booster pack kami ludes dalam hitungan jam, dan keterlibatan komunitas lewat situs ini sangat mengesankan.",
     "v2_quote_1_kind": "Hasil",
     "v2_offer_title": "Situs web, dibangun dan di-host",
-    "v2_offer_subtitle": "Build kustom, fokus konversi, sudah termasuk hosting dan perawatan",
+    "v2_offer_subtitle": "Dibangun kustom, berfokus pada konversi, sudah termasuk hosting dan perawatan",
     "v2_offer_build_label": "Pengerjaan situs",
     "v2_offer_care_label": "Hosting dan perawatan, sudah termasuk",
-    "v2_result_grant_parkhurst": "Portofolio plus portal klien swalayan, tayang sejak September 2026.",
+    "v2_result_grant_parkhurst": "Portofolio plus portal klien mandiri, tayang sejak September 2026.",
     "v2_next_label": "Langkah selanjutnya",
     "v2_next_1_title": "Kami menghubungi Anda kembali",
     "v2_next_1_desc": "Dalam satu hari kerja. Dua puluh menit membahas apa yang harus dilakukan situs untuk bisnis Anda, tidak lebih.",
@@ -254,12 +254,12 @@
     "v2_next_2_desc": "Rencana tertulis berisi halaman, jadwal, dan satu angka. Lima halaman mulai dari {price}, tanpa tagihan per jam.",
     "v2_next_3_title": "Dari kickoff sampai peluncuran",
     "v2_next_3_desc": "Uang muka masuk, kami mulai. Sebagian besar situs lima halaman tayang dalam empat sampai enam minggu, sudah termasuk hosting dan perawatan.",
-    "meta_keywords": "desain web Berlin, jasa pembuatan website Berlin, website Next.js kustom, studio desain web, desain web Jerman, agensi desain website, Blok Blok Studio",
+    "meta_keywords": "desain web Berlin, jasa pembuatan situs web Berlin, situs web Next.js kustom, studio desain web, desain web Jerman, agensi desain situs web, Blok Blok Studio",
     "v2_lockup_alt": "Blok Blok Studio, studio teknologi kreatif"
   },
   "projects": {
     "title": "Proyek Kami",
-    "subtitle": "Jelajahi portofolio kami berupa pengalaman digital, identitas merek, dan solusi kreatif.",
+    "subtitle": "Setiap situs yang telah kami luncurkan, beserta angka yang dihasilkannya.",
     "filter_all": "Semua",
     "filter_web": "Desain Web",
     "filter_brand": "Branding",
@@ -267,7 +267,7 @@
     "filter_marketing": "Pemasaran",
     "view_project": "Lihat Proyek",
     "cat_web": "Desain Web",
-    "cat_ecom": "E-Commerce",
+    "cat_ecom": "E-commerce",
     "cat_brand": "Branding",
     "v2_label": "Karya pilihan",
     "v2_count": "{count} proyek",
@@ -277,14 +277,14 @@
   },
   "about": {
     "title": "Tentang Kami",
-    "subtitle": "Kami adalah kolektif desainer, pengembang, dan ahli strategi yang bersemangat menciptakan pengalaman digital yang bermakna.",
+    "subtitle": "Studio beranggotakan lima orang yang mendesain, membangun, dan meng-host situs web. Didirikan di Berlin pada Juni 2024.",
     "mission_title": "Misi Kami",
     "mission_text": "Memberi merek-merek ambisius situs web, sistem, dan kampanye yang benar-benar mendatangkan pelanggan.",
     "vision_title": "Visi Kami",
-    "vision_text": "Menjadi mitra kreatif pilihan untuk merek-merek yang berani menonjol di lanskap digital.",
+    "vision_text": "Menjadi studio yang pertama kali dihubungi merek-merek ambisius ketika situs web harus benar-benar menghasilkan.",
     "values_title": "Nilai-nilai Kami",
     "value_1_title": "Inovasi",
-    "value_1_text": "Kami mendorong batas dan menjelajahi kemungkinan baru di setiap proyek.",
+    "value_1_text": "Setiap situs dibangun dari nol. Tidak ada yang dipakai ulang dari template.",
     "value_2_title": "Keunggulan",
     "value_2_text": "Kami menjunjung standar tertinggi kualitas dan keahlian.",
     "value_3_title": "Kolaborasi",
@@ -314,7 +314,7 @@
   },
   "blog": {
     "meta_title": "Blog: Wawasan Desain Web, Branding & SEO",
-    "meta_description": "Wawasan ahli tentang desain web, branding, SEO, dan pemasaran digital dari Blok Blok Studio. Tips praktis untuk menumbuhkan kehadiran online Anda.",
+    "meta_description": "Apa yang kami pelajari dari membangun situs yang menghasilkan: artikel, video klien, dan kabar studio dari Blok Blok Studio.",
     "og_alt": "Blog Blok Blok Studio",
     "list_title": "Ide",
     "list_subtitle": "Apa yang kami pelajari dari membangun situs yang menghasilkan: artikel, klien di depan kamera, dan berita dari studio.",
@@ -322,7 +322,7 @@
     "read_article": "Baca artikel",
     "back_to_blog": "Kembali ke Blog",
     "cta_title": "Ingin Hasil Seperti Ini?",
-    "cta_subtitle": "Jadwalkan panggilan strategi gratis dan mari diskusikan cara mentransformasi kehadiran digital Anda.",
+    "cta_subtitle": "Jadwalkan panggilan gratis dan kami akan menunjukkan apa yang akan kami perbaiki lebih dulu.",
     "cta_button": "Mulai",
     "posts": {
       "why-your-website-is-losing-customers": {
@@ -331,7 +331,7 @@
         "category": "Desain Web"
       },
       "seo-checklist-2026": {
-        "title": "Checklist SEO Terlengkap untuk 2026",
+        "title": "Daftar Periksa SEO Terlengkap untuk 2026",
         "description": "Panduan lengkap dasar-dasar SEO yang dibutuhkan setiap situs web bisnis untuk peringkat di Google pada 2026. Data terstruktur, Core Web Vitals, dan lainnya.",
         "category": "SEO"
       },
@@ -368,83 +368,83 @@
   },
   "services": {
     "title": "Layanan Kami",
-    "subtitle": "Desain dan pengembangan situs web kustom yang mendorong pertumbuhan bisnis nyata.",
+    "subtitle": "Desain dan pengembangan situs web kustom, dibangun untuk memenangkan pelanggan, lalu di-host dan dijaga tetap berjalan.",
     "section_ai_title": "AI & Otomatisasi",
     "section_creative_title": "Kreatif & Pemasaran",
     "service_1_title": "Ekosistem Agen AI",
-    "service_1_subtitle": "Sub-agen yang saling terhubung menjalankan seluruh alur kerja",
+    "service_1_subtitle": "Sub-agen yang saling terhubung dan menjalankan seluruh alur kerja",
     "service_1_bullet_1": "Orkestrasi multi-agen",
-    "service_1_bullet_2": "Lead ke skor ke email ke teks ke panggilan",
+    "service_1_bullet_2": "Dari prospek ke skor, email, SMS, lalu panggilan",
     "service_1_bullet_3": "Pengambilan keputusan otonom",
-    "service_1_bullet_4": "Eskalasi manusia dalam loop",
-    "service_1_bullet_5": "Operasi 24/7 tanpa downtime",
+    "service_1_bullet_4": "Eskalasi ke manusia bila diperlukan",
+    "service_1_bullet_5": "Beroperasi 24/7 tanpa henti",
     "service_2_title": "AI Percakapan",
     "service_2_subtitle": "Chatbot dan voice agent yang mengkualifikasi prospek tanpa henti",
     "service_2_bullet_1": "Widget chat AI di situs web",
     "service_2_bullet_2": "Voice agent AI untuk panggilan masuk",
-    "service_2_bullet_3": "Pemesanan janji otomatis",
+    "service_2_bullet_3": "Penjadwalan janji temu otomatis",
     "service_2_bullet_4": "Penanganan FAQ dan kualifikasi prospek",
     "service_2_bullet_5": "Bahasa alami, bukan robotik",
     "service_3_title": "Otomatisasi Alur Kerja",
     "service_3_subtitle": "Hubungkan setiap alat menjadi satu sistem yang berjalan sendiri",
     "service_3_bullet_1": "CRM, kalender, dan pembayaran terhubung",
-    "service_3_bullet_2": "Integrasi kustom (tanpa pajak Zapier)",
-    "service_3_bullet_3": "Logika keputusan AI dalam loop",
-    "service_3_bullet_4": "Penanganan error dan alur retry",
+    "service_3_bullet_2": "Integrasi kustom (tanpa biaya perantara Zapier)",
+    "service_3_bullet_3": "Logika keputusan AI di dalam alur",
+    "service_3_bullet_4": "Penanganan kesalahan dan alur coba ulang",
     "service_3_bullet_5": "Otomatisasi onboarding klien",
     "service_4_title": "Sistem Konten AI",
-    "service_4_subtitle": "Satu input menjadi 10 potongan konten",
-    "service_4_bullet_1": "Video ke klip, caption, dan post",
+    "service_4_subtitle": "Satu masukan menjadi 10 konten",
+    "service_4_bullet_1": "Video menjadi klip, caption, dan unggahan",
     "service_4_bullet_2": "Pembuatan blog dari transkrip",
     "service_4_bullet_3": "Pipeline penjadwalan media sosial",
     "service_4_bullet_4": "Konsistensi suara merek via AI",
-    "service_4_bullet_5": "Repurposing lintas platform",
+    "service_4_bullet_5": "Daur ulang konten lintas platform",
     "service_5_title": "Dasbor Klien",
-    "service_5_subtitle": "Portal real time agar klien tidak pernah meminta update",
-    "service_5_bullet_1": "Pelacakan lead dan pipeline langsung",
-    "service_5_bullet_2": "Pengeluaran iklan dan ROAS real time",
+    "service_5_subtitle": "Portal waktu nyata agar klien tidak perlu lagi menanyakan progres",
+    "service_5_bullet_1": "Pelacakan prospek dan pipeline secara langsung",
+    "service_5_bullet_2": "Belanja iklan dan ROAS secara waktu nyata",
     "service_5_bullet_3": "Email laporan mingguan otomatis",
     "service_5_bullet_4": "Widget KPI kustom per klien",
     "service_5_bullet_5": "White label untuk merek Anda",
     "service_6_title": "Situs Web",
-    "service_6_subtitle": "Situs dibangun kustom, fokus konversi",
-    "service_6_bullet_1": "Build Next.js / React",
+    "service_6_subtitle": "Situs yang dibangun kustom dan berfokus pada konversi",
+    "service_6_bullet_1": "Pengembangan Next.js / React",
     "service_6_bullet_2": "Dioptimalkan SEO sejak hari pertama",
     "service_6_bullet_3": "Responsif mobile-first",
     "service_6_bullet_4": "Integrasi CMS",
-    "service_6_bullet_5": "Tuning performa dan kecepatan",
+    "service_6_bullet_5": "Penyetelan performa dan kecepatan",
     "service_7_title": "Branding",
     "service_7_subtitle": "Identitas visual berani yang menonjol",
     "service_7_bullet_1": "Desain logo dan brand mark",
     "service_7_bullet_2": "Palet warna dan tipografi",
-    "service_7_bullet_3": "Dokumen pedoman merek",
+    "service_7_bullet_3": "Dokumen panduan merek",
     "service_7_bullet_4": "Template media sosial",
     "service_7_bullet_5": "Desain pitch deck",
     "service_8_title": "Google Ads",
-    "service_8_subtitle": "Kampanye pencarian untuk pembeli dengan niat tinggi",
+    "service_8_subtitle": "Kampanye pencarian untuk pembeli yang siap bertransaksi",
     "service_8_bullet_1": "Riset kata kunci dan strategi",
-    "service_8_bullet_2": "Salinan iklan dan landing page",
+    "service_8_bullet_2": "Naskah iklan dan landing page",
     "service_8_bullet_3": "Pelacakan konversi",
     "service_8_bullet_4": "Optimasi bulanan",
     "service_8_bullet_5": "Analisis kompetitor",
     "service_9_title": "Meta Ads",
     "service_9_subtitle": "Facebook dan Instagram dalam skala besar",
     "service_9_bullet_1": "Penargetan audiens dan lookalike",
-    "service_9_bullet_2": "Desain kreatif dan salinan",
+    "service_9_bullet_2": "Desain kreatif dan naskah iklan",
     "service_9_bullet_3": "Funnel retargeting",
     "service_9_bullet_4": "Pelaporan ROAS",
-    "service_9_bullet_5": "A/B testing kreatif",
+    "service_9_bullet_5": "Uji A/B materi kreatif",
     "process_title": "Proses Kami",
-    "step_1_title": "Penemuan",
-    "step_1_desc": "Kami menyelami tujuan, audiens, dan pasar Anda untuk membangun fondasi yang kokoh.",
+    "step_1_title": "Eksplorasi",
+    "step_1_desc": "Kami mempelajari tujuan, audiens, dan pasar Anda sebelum ada yang didesain.",
     "step_2_title": "Strategi",
-    "step_2_desc": "Kami menyusun peta jalan yang disesuaikan yang menyelaraskan visi kreatif dengan tujuan bisnis.",
+    "step_2_desc": "Rencana tertulis: halaman, jadwal, dan satu harga.",
     "step_3_title": "Desain",
-    "step_3_desc": "Kami menciptakan visual yang menarik dan antarmuka intuitif yang memikat pengguna.",
+    "step_3_desc": "Kami mendesain halaman dan alurnya, lalu menunjukkan prototipe yang berfungsi kepada Anda.",
     "step_4_title": "Pengembangan",
-    "step_4_desc": "Kami membangun dengan teknologi modern yang memastikan kecepatan, skalabilitas, dan keandalan.",
+    "step_4_desc": "Dibangun manual dengan Next.js. Cepat sekarang, mudah dikembangkan nanti.",
     "step_5_title": "Peluncuran & Optimasi",
-    "step_5_desc": "Kami menerapkan, memantau, dan terus memperhalus untuk memaksimalkan kinerja.",
+    "step_5_desc": "Kami meluncurkan, memantau angkanya, dan memperbaiki yang tidak berjalan.",
     "v2_label": "Layanan",
     "v2_intro": "Satu paket, dikerjakan dengan benar. Kami mendesain dan membangun situs, lalu meng-host dan menjaganya tetap berjalan.",
     "v2_process_label": "Bagaimana proyek berjalan",
@@ -453,11 +453,11 @@
     "v2_industries_label": "Untuk siapa kami membangun",
     "v2_industries_more": "Lihat caranya",
     "meta_title": "Layanan",
-    "meta_description": "Desain dan pengembangan situs web kustom. Hasil kerja yang jelas, ditawar khusus sesuai lingkup Anda."
+    "meta_description": "Desain dan pengembangan situs web kustom. Hasil kerja yang terdefinisi jelas, dengan penawaran harga sesuai lingkup Anda."
   },
   "team": {
     "title": "Tim Kami",
-    "subtitle": "Temui pikiran-pikiran kreatif di balik Blok Blok Studio.",
+    "subtitle": "Lima orang yang membangun dan meng-host situs Anda.",
     "role_founder": "Pendiri",
     "role_graphic": "Desainer Grafis Senior",
     "role_web": "Desainer Web Senior",
@@ -472,17 +472,17 @@
     "role_creative": "Direktur Kreatif",
     "chase_studied_1": "Desain dan Teknologi",
     "chase_studied_2": "Parsons School of Design",
-    "chase_enjoys": "Museum seni · Traveling · Pembuatan konten",
+    "chase_enjoys": "Museum seni · Jalan-jalan · Pembuatan konten",
     "kyle_studied_1": "Periklanan Kreatif",
     "kyle_studied_2": "Virginia Commonwealth University",
-    "kyle_enjoys": "Brazilian jiu jitsu · Animasi · Berburu barang thrift",
+    "kyle_enjoys": "Brazilian jiu jitsu · Animasi · Thrifting",
     "ayan_studied_1": "Administrasi Bisnis dan Manajemen Strategis",
     "ayan_studied_2": "University of the Punjab",
     "ayan_enjoys": "Membangun usaha · Malam nonton film · Berburu kopi sempurna"
   },
   "contact": {
     "title": "Hubungi Kami",
-    "subtitle": "Punya proyek dalam pikiran? Kami senang mendengar dari Anda. Mari ciptakan sesuatu yang luar biasa bersama.",
+    "subtitle": "Ceritakan apa yang harus dilakukan situs Anda. Kami membalas dalam satu hari kerja.",
     "name": "Nama Anda",
     "email": "Email Anda",
     "company": "Perusahaan",
@@ -501,7 +501,7 @@
     "newsletter_title": "Tetap Terhubung",
     "newsletter_placeholder": "Masukkan email Anda",
     "newsletter_button": "Berlangganan",
-    "newsletter_subscribed": "Konfirmasi lewat email Anda!",
+    "newsletter_subscribed": "Periksa kotak masuk Anda untuk konfirmasi!",
     "newsletter_already_subscribed": "Anda sudah berlangganan",
     "newsletter_consent": "Dengan berlangganan, Anda menyetujui <link>Kebijakan Privasi</link> kami. Berhenti berlangganan kapan saja.",
     "back_to_top": "Kembali ke atas",
@@ -514,13 +514,13 @@
     "terms": "Ketentuan Layanan",
     "and": "dan",
     "consent_required": "Anda harus menyetujui Kebijakan Privasi dan Ketentuan kami untuk melanjutkan",
-    "cookie_banner_text": "Kami menggunakan cookie esensial untuk meningkatkan pengalaman Anda. Pelajari lebih lanjut di",
+    "cookie_banner_text": "Kami menggunakan cookie esensial agar situs web berfungsi. Pelajari lebih lanjut di",
     "cookie_policy": "Kebijakan Cookie",
     "accept": "Terima",
     "decline": "Tolak",
-    "reject_all": "Tolak semua",
-    "accept_all": "Terima semua",
-    "manage_preferences": "Kelola preferensi",
+    "reject_all": "Tolak Semua",
+    "accept_all": "Terima Semua",
+    "manage_preferences": "Kelola Preferensi",
     "preferences_title": "Preferensi Cookie",
     "essential_title": "Esensial",
     "essential_desc": "Diperlukan agar situs web berfungsi. Tidak dapat dinonaktifkan.",
@@ -529,7 +529,7 @@
     "marketing_title": "Pemasaran",
     "marketing_desc": "Digunakan untuk menampilkan iklan yang relevan dan melacak kampanye.",
     "back": "Kembali",
-    "save_preferences": "Simpan preferensi",
+    "save_preferences": "Simpan Preferensi",
     "data_rights_title": "Hak Data Anda",
     "data_rights_subtitle": "Berdasarkan GDPR, Anda memiliki hak untuk mengakses, mengekspor, atau menghapus secara permanen data pribadi Anda dari sistem kami.",
     "data_rights_description": "Gunakan hak data GDPR Anda",
@@ -554,7 +554,7 @@
     "success_message": "Anda telah berhasil dihapus dari daftar email kami.",
     "error_title": "Terjadi Kesalahan",
     "error_message": "Kami tidak dapat memproses permintaan Anda. Tautan mungkin tidak valid atau kedaluwarsa. Hubungi kami di blokblokstudio.com/contact untuk bantuan.",
-    "back_home": "Kembali ke beranda",
+    "back_home": "Kembali ke Beranda",
     "meta_title": "Berhenti Berlangganan",
     "meta_description": "Berhenti berlangganan email dari kami."
   },
@@ -616,7 +616,7 @@
     "third_party_vercel": "Vercel: hosting situs web dan aplikasi (AS; kerangka perlindungan data dan SCC berlaku)",
     "third_party_slack": "Slack: notifikasi internal tentang permintaan baru kepada tim kami (terbatas pada nama, email, telepon, dan jenis bisnis)",
     "third_party_turnstile": "Cloudflare Turnstile: perlindungan spam pada formulir kami (memproses alamat IP Anda)",
-    "third_party_cal": "Cal.com, penjadwalan janji saat Anda memesan panggilan dengan kami",
+    "third_party_cal": "Google Calendar: penjadwalan janji temu saat Anda menjadwalkan panggilan dengan kami",
     "third_party_meta": "Meta (Facebook/Instagram): pengukuran iklan, hanya dengan persetujuan cookie pemasaran Anda. Dengan persetujuan tersebut, kami juga dapat mengirimkan alamat email dan nomor telepon Anda dalam bentuk hash (tersamarkan) untuk mengukur konversi iklan.",
     "third_party_google": "Google: pengukuran iklan (Google Ads), hanya dengan persetujuan cookie pemasaran Anda",
     "marketing_double_optin": "Email pemasaran menggunakan double opt-in. Mencentang kotak opsional pada formulir saja tidak cukup: kami mengirim email konfirmasi, dan Anda baru ditambahkan ke daftar setelah mengklik tautan di dalamnya. Sebelum itu, kami tidak mengirimkan materi pemasaran kepada Anda. Anda dapat berhenti kapan saja lewat tautan berhenti berlangganan di setiap email, dan itu berlaku seketika."
@@ -628,13 +628,13 @@
     "acceptance_title": "Penerimaan Ketentuan",
     "acceptance_content": "Dengan mengakses dan menggunakan situs web ini, Anda menerima dan setuju untuk terikat oleh Ketentuan Layanan ini. Jika Anda tidak setuju dengan ketentuan ini, harap jangan menggunakan situs web atau layanan kami.",
     "services_title": "Layanan",
-    "services_content": "Blok Blok Studio menyediakan layanan desain digital, pengembangan, dan pemasaran. Ketentuan proyek spesifik, deliverable, dan harga diuraikan dalam kontrak dan proposal individu.",
+    "services_content": "Blok Blok Studio menyediakan layanan desain digital, pengembangan, dan pemasaran. Ketentuan, hasil kerja, dan harga proyek secara spesifik diuraikan dalam kontrak dan proposal masing-masing proyek.",
     "user_responsibilities_title": "Tanggung Jawab Pengguna",
     "user_responsibilities_content": "Anda setuju untuk memberikan informasi akurat saat menggunakan formulir dan layanan kami, dan untuk menggunakan situs web dan layanan kami secara legal dan sesuai dengan ketentuan ini.",
     "ip_title": "Kekayaan Intelektual",
-    "ip_content": "Semua konten di situs web ini, termasuk desain, teks, grafis, dan kode, dimiliki oleh Blok Blok Studio kecuali dinyatakan lain. Kepemilikan pekerjaan klien didefinisikan dalam kontrak proyek individu.",
+    "ip_content": "Semua konten di situs web ini, termasuk desain, teks, grafis, dan kode, dimiliki oleh Blok Blok Studio kecuali dinyatakan lain. Kepemilikan hasil kerja klien ditetapkan dalam kontrak masing-masing proyek.",
     "liability_title": "Pembatasan Tanggung Jawab",
-    "liability_content": "Blok Blok Studio tidak bertanggung jawab atas kerusakan tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan situs web atau layanan kami. Total tanggung jawab kami tidak akan melebihi jumlah yang dibayarkan untuk layanan tertentu yang dipermasalahkan.",
+    "liability_content": "Blok Blok Studio tidak bertanggung jawab atas kerugian tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan situs web atau layanan kami. Total tanggung jawab kami tidak akan melebihi jumlah yang dibayarkan untuk layanan tertentu yang dipermasalahkan.",
     "governing_law_title": "Hukum yang Berlaku",
     "governing_law_content": "Ketentuan-ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum yang berlaku. Setiap perselisihan akan diselesaikan melalui negosiasi itikad baik sebelum mengambil tindakan hukum formal.",
     "changes_title": "Perubahan Ketentuan",
@@ -653,13 +653,13 @@
     "description": "Bagaimana Blok Blok Studio menggunakan cookie dan teknologi serupa",
     "last_updated": "Terakhir Diperbarui: 16 Juli 2026",
     "intro_title": "Apa itu Cookie",
-    "intro_content": "Cookie adalah file teks kecil yang disimpan di perangkat Anda saat Anda mengunjungi situs web. Mereka membantu situs web mengingat preferensi Anda dan meningkatkan pengalaman browsing Anda.",
+    "intro_content": "Cookie adalah file teks kecil yang disimpan di perangkat Anda saat Anda mengunjungi sebuah situs web. Cookie membantu situs web mengingat preferensi Anda dan meningkatkan pengalaman menjelajah Anda.",
     "our_use_title": "Penggunaan Cookie Kami",
-    "our_use_content": "Kami mengutamakan privasi. Secara default, kami hanya menggunakan localStorage (mekanisme penyimpanan browser) untuk mengingat preferensi persetujuan cookie Anda. Piksel iklan opsional hanya dimuat jika Anda menerima cookie pemasaran.",
+    "our_use_content": "Kami mengutamakan privasi. Kami memasang dua cookie esensial berukuran kecil, satu untuk mengingat bahasa Anda dan satu untuk mengingat negara Anda agar harga tampil dalam mata uang yang tepat, dan kami menggunakan localStorage (mekanisme penyimpanan browser) untuk mengingat preferensi persetujuan cookie Anda. Piksel iklan opsional hanya dimuat jika Anda menerima cookie pemasaran.",
     "third_party_title": "Cookie Pihak Ketiga",
     "third_party_content": "Jika Anda menerima cookie pemasaran, kami memuat piksel iklan Meta (Facebook) dan Google untuk mengukur kinerja kampanye iklan kami. Jika Anda menolak, tidak ada cookie pihak ketiga yang dipasang saat Anda mengunjungi situs kami.",
     "control_title": "Mengelola Cookie",
-    "control_content": "Anda dapat mengontrol cookie melalui pengaturan browser Anda. Kebanyakan browser memungkinkan Anda memblokir atau menghapus cookie. Perhatikan bahwa menghapus localStorage akan mereset preferensi persetujuan cookie Anda.",
+    "control_content": "Anda dapat mengontrol cookie melalui pengaturan browser Anda. Kebanyakan browser memungkinkan Anda memblokir atau menghapus cookie. Perhatikan bahwa menghapus localStorage akan mengatur ulang preferensi persetujuan cookie Anda.",
     "updates_title": "Pembaruan Kebijakan",
     "updates_content": "Jika kami mulai menggunakan teknologi analitik atau pelacakan di masa depan, kami akan memperbarui kebijakan ini dan memberi tahu Anda melalui banner persetujuan cookie kami sebelum pelacakan apa pun terjadi.",
     "storage_title": "Detail Cookie & Penyimpanan",
@@ -681,7 +681,7 @@
     "headline_a": "Di mana bisnis Anda diam-diam kehilangan pelanggan",
     "headline_b": " (dan cara memperbaikinya)",
     "sub": "Jawab lima pertanyaan singkat dan kami tunjukkan apa yang akan kami perbaiki lebih dulu. Setelah itu Anda pilih waktunya. Sekitar satu menit.",
-    "proof": "Studio desain web di Berlin. Permintaan konsultasi Coach Kofi naik 200% setelah peluncuran. Seorang tukang ledeng di tahun pertamanya membukukan omzet 50.000 $ dalam lima bulan.",
+    "proof": "Studio desain web di Berlin. Permintaan konsultasi Coach Kofi naik 200% setelah peluncuran. Seorang klien jasa ledeng di tahun pertamanya membukukan omzet kotor $50.000 dalam lima bulan.",
     "progress": "Pertanyaan {current} dari {total}",
     "continue": "Lanjut",
     "back": "Kembali",
@@ -691,16 +691,16 @@
     "q_services": "Anda butuh bantuan untuk apa?",
     "q_services_sub": "Pilih semua yang sesuai.",
     "q_budget_project": "Berapa anggaran Anda untuk proyek ini?",
-    "q_budget_project_sub": "Perkiraan kasar sudah cukup. Itu hanya memberi tahu kami apa yang perlu diusulkan.",
+    "q_budget_project_sub": "Perkiraan kasar sudah cukup. Ini hanya membantu kami menyarankan opsi yang tepat.",
     "q_budget_ads": "Berapa yang bisa Anda keluarkan untuk iklan per bulan?",
-    "q_budget_ads_sub": "Hanya biaya iklannya. Pengelolaan kami 15% dari itu, ditambah biaya setup sekali. Perkiraan sudah cukup.",
+    "q_budget_ads_sub": "Hanya biaya iklannya. Biaya pengelolaan kami 15% dari jumlah itu, ditambah biaya penyiapan sekali bayar. Perkiraan sudah cukup.",
     "q_budget_monthly": "Berapa anggaran bulanan Anda?",
     "q_budget_monthly_sub": "Kira-kira berapa yang akan Anda keluarkan tiap bulan. Perkiraan sudah cukup.",
     "q_timeline": "Seberapa cepat Anda ingin mulai?",
     "q_contact": "Langkah terakhir. Bagaimana kami menghubungi Anda?",
     "q_contact_sub": "Setelah itu Anda pilih waktunya. Kami membalas dalam satu jam pada jam kerja.",
     "label_name": "Nama Anda",
-    "label_email": "Alamat email",
+    "label_email": "Alamat Email",
     "label_phone": "Telp. / WhatsApp",
     "label_phone_note": "(opsional, agar kami bisa membalas lebih cepat)",
     "label_country": "Kode negara",
@@ -712,12 +712,12 @@
     "consent_link": "Kebijakan Privasi",
     "consent_post": "dan bersedia dihubungi terkait pertanyaan saya.",
     "optional": "(opsional)",
-    "cta": "Pesan panggilan saya",
+    "cta": "Jadwalkan panggilan saya",
     "sending": "Mengirim...",
     "error_generic": "Terjadi kesalahan. Silakan coba lagi.",
     "business": {
-      "coaching_consulting": "Coaching / Konsultan",
-      "e_commerce_online_store": "E-Commerce / Toko online",
+      "coaching_consulting": "Coaching / Konsultasi",
+      "e_commerce_online_store": "E-commerce / Toko online",
       "saas_software": "SaaS / Perangkat lunak",
       "agency_marketing": "Agensi / Pemasaran",
       "real_estate": "Properti",
@@ -725,7 +725,7 @@
       "legal_law_firm": "Hukum / Kantor hukum",
       "financial_services": "Jasa keuangan",
       "education_training": "Pendidikan / Pelatihan",
-      "restaurant_food_beverage": "Restoran / Makanan",
+      "restaurant_food_beverage": "Restoran / Makanan & Minuman",
       "fitness_wellness": "Kebugaran / Wellness",
       "construction_trades": "Konstruksi / Pertukangan",
       "beauty_salon_spa": "Kecantikan / Salon / Spa",
@@ -738,10 +738,10 @@
       "other": "Lainnya"
     },
     "services": {
-      "new_website": "Website baru",
-      "website_redesign": "Desain ulang website",
+      "new_website": "Situs web baru",
+      "website_redesign": "Desain ulang situs web",
       "e_commerce": "Toko online (e-commerce)",
-      "landing_page": "Halaman landing",
+      "landing_page": "Landing page",
       "google_ads": "Google Ads",
       "meta_ads": "Meta Ads",
       "social_media": "Media sosial",
@@ -768,7 +768,7 @@
     "budget_build": {
       "0": {
         "label": "Di bawah {amount}",
-        "hint": "Di bawah titik awal build kami"
+        "hint": "Di bawah harga awal pengerjaan kami"
       },
       "1": {
         "label": "Sekitar {amount}",
@@ -816,7 +816,7 @@
       },
       "2": {
         "label": "{from} – {to} / bulan biaya iklan",
-        "hint": "Kedua platform, atau menskalakan satu"
+        "hint": "Kedua platform, atau meningkatkan skala salah satunya"
       },
       "3": {
         "label": "{amount}+ / bulan biaya iklan",
@@ -838,20 +838,20 @@
       },
       "3": {
         "label": "{amount}+ / bulan",
-        "hint": "Menskalakan besar-besaran"
+        "hint": "Ekspansi agresif"
       }
     },
     "meta_title": "Di Mana Bisnis Anda Kehilangan Pelanggan",
-    "meta_description": "Lima pertanyaan singkat tentang bisnis Anda, lalu pesan panggilan. Kami tunjukkan apa yang akan kami perbaiki lebih dulu."
+    "meta_description": "Lima pertanyaan singkat tentang bisnis Anda, lalu jadwalkan panggilan. Kami tunjukkan apa yang akan kami perbaiki lebih dulu."
   },
   "errors": {
-    "title": "Terjadi kesalahan",
+    "title": "Terjadi Kesalahan",
     "message": "Terjadi kesalahan tak terduga. Silakan coba lagi atau hubungi kami jika masalah berlanjut.",
-    "try_again": "Coba lagi",
-    "back_home": "Kembali ke beranda",
-    "not_found_title": "Halaman tidak ditemukan",
+    "try_again": "Coba Lagi",
+    "back_home": "Kembali ke Beranda",
+    "not_found_title": "Halaman Tidak Ditemukan",
     "not_found_message": "Halaman yang Anda cari tidak ada atau telah dipindahkan. Mari kembali ke jalur yang benar.",
-    "contact_us": "Hubungi kami"
+    "contact_us": "Hubungi Kami"
   },
   "accessibility": {
     "title": "Pernyataan Aksesibilitas",
@@ -864,7 +864,7 @@
     "standards_title": "Standar dan hukum yang kami ikuti",
     "standard_wcag": "<strong>WCAG 2.2 Level AA</strong>, standar dasar internasional untuk aksesibilitas web yang dikelola oleh W3C.",
     "standard_en301549": "<strong>EN 301 549</strong>, standar harmonisasi Eropa untuk aksesibilitas TIK yang menjadi landasan European Accessibility Act.",
-    "standard_eaa": "<strong>European Accessibility Act UE (Direktif 2019/882)</strong>, berlaku untuk layanan digital yang menghadap konsumen di UE sejak 28 Juni 2025.",
+    "standard_eaa": "<strong>European Accessibility Act UE (Direktif 2019/882)</strong>, berlaku untuk layanan digital yang ditujukan bagi konsumen di UE sejak 28 Juni 2025.",
     "standard_ada": "<strong>Americans with Disabilities Act (ADA) AS, Title III</strong>, kewajiban aksesibilitas untuk situs web komersial publik di Amerika Serikat.",
     "standard_508": "<strong>Section 508 dari US Rehabilitation Act</strong>, persyaratan bagi lembaga dan kontraktor federal, yang kami jadikan acuan dasar untuk pekerjaan terkait pemerintah federal.",
     "measures_title": "Langkah yang kami ambil",
@@ -876,12 +876,12 @@
     "measure_forms": "Formulir dengan label terkait, pemberitahuan kolom wajib, dan pesan kesalahan inline yang diekspos melalui <code>aria-describedby</code> dan <code>role=“alert”</code>.",
     "measure_dialogs": "Menu mobile dan dialog modal dengan pengelolaan fokus keyboard dan perilaku tutup dengan tombol Escape.",
     "measure_reduced_motion": "Menghormati pengaturan <code>prefers-reduced-motion</code> di sistem operasi Anda.",
-    "measure_contrast": "Kontras warna yang memenuhi atau melampaui WCAG AA (4.5:1 untuk teks isi).",
+    "measure_contrast": "Kontras warna yang memenuhi atau melampaui WCAG AA (4,5:1 untuk teks isi).",
     "measure_rtl": "Tata letak kanan-ke-kiri untuk bahasa Arab, dan pengalih bahasa yang mengumumkan setiap opsi dalam bahasa dan arah aslinya.",
-    "measure_languages": "Situs tersedia dalam 19 bahasa sehingga penutur non-Inggris dapat menggunakannya dalam bahasa yang mereka pikirkan.",
+    "measure_languages": "Situs tersedia dalam 20 bahasa sehingga penutur non-Inggris dapat menggunakannya dalam bahasa yang mereka gunakan untuk berpikir.",
     "limitations_title": "Keterbatasan yang diketahui",
     "limitations_intro": "Meski sudah berupaya sebaik mungkin, sebagian konten di situs ini mungkin belum sepenuhnya dapat diakses. Masalah yang diketahui dan sedang kami tangani:",
-    "limitation_third_party": "<strong>Konten pihak ketiga yang disematkan</strong>, CAPTCHA Cloudflare Turnstile dan iframe pemesanan Cal.com mewarisi perilaku aksesibilitasnya sendiri dari vendor masing-masing. Kami memantau status kesesuaian mereka bersama setiap vendor.",
+    "limitation_third_party": "<strong>Konten pihak ketiga yang disematkan</strong>, CAPTCHA Cloudflare Turnstile dan halaman pemesanan Google Calendar mewarisi perilaku aksesibilitasnya sendiri dari vendor masing-masing. Kami memantau status kesesuaiannya pada masing-masing vendor.",
     "limitation_motion": "<strong>Gerakan dekoratif</strong>, animasi latar belakang dinonaktifkan saat <code>prefers-reduced-motion</code> diatur, tetapi sejumlah kecil interaksi mikro yang mengikuti kursor mungkin masih berjalan.",
     "limitation_language": "<strong>Bahasa pernyataan</strong>, versi bahasa Inggris dari pernyataan ini adalah acuan; bahasa lain merupakan terjemahannya. Situs ini sendiri tersedia dalam 20 bahasa.",
     "feedback_title": "Masukan dan kontak",
@@ -889,7 +889,7 @@
     "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>Formulir web:</strong> <link>Halaman kontak</link>, mohon sebutkan “aksesibilitas” dalam pesan Anda.",
     "enforcement_title": "Prosedur penegakan",
-    "enforcement_intro": "Blok Blok Studio terdaftar di Jerman. Jika Anda tidak puas dengan tanggapan kami atas masukan aksesibilitas Anda, Anda dapat mengeskalasinya melalui kerangka penegakan setempat:",
+    "enforcement_intro": "Blok Blok Studio berbasis di Berlin, Jerman. Jika Anda tidak puas dengan tanggapan kami atas masukan aksesibilitas Anda, Anda dapat mengeskalasinya melalui kerangka penegakan setempat:",
     "enforcement_eu": "<strong>Uni Eropa</strong>, otoritas pengawasan pasar di negara anggota UE tempat Anda berada. EAA menunjuk otoritas nasional di setiap negara anggota.",
     "enforcement_germany": "<strong>Jerman</strong>, Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Amerika Serikat</strong>, Divisi Hak Sipil Departemen Kehakiman AS untuk keluhan ADA; US Access Board untuk Section 508.",
@@ -905,33 +905,33 @@
     "diagnosis_known": "Berdasarkan yang Anda ceritakan tentang {industry}, inilah yang akan kami bahas bersama Anda saat panggilan.",
     "diagnosis_unsure": "Anda bilang belum yakin, dan itu titik awal yang sangat wajar. Di {industry}, uangnya biasanya ada di sini, jadi dari situlah kami akan mulai saat panggilan.",
     "industry_fallback": "bidang Anda",
-    "sub_fallback": "Permintaan Anda sudah kami terima. Pesan panggilan 15 menit gratis sekarang; slot paling awal untuk yang memesan lebih dulu.",
+    "sub_fallback": "Permintaan Anda sudah kami terima. Pilih waktu di bawah untuk panggilan gratis 15 menit.",
     "cover_label": "Yang akan kita bahas saat panggilan",
     "cover_note": "Kami akan membahas semuanya dengan tuntas saat panggilan, termasuk cakupan dan biaya.",
-    "calendar_title": "Pesan panggilan perkenalan gratis",
-    "calendar_fallback": "Kalender tidak memuat?",
+    "calendar_title": "Jadwalkan panggilan perkenalan gratis Anda",
+    "calendar_fallback": "Kalender tidak muncul?",
     "calendar_open": "Buka langsung",
     "calendar_chat": "Lebih suka chat?",
     "calendar_whatsapp": "Kirim pesan lewat WhatsApp",
     "calendar_reply": "dan kami balas dalam hitungan menit.",
-    "next_label": "Apa yang terjadi selanjutnya",
+    "next_label": "Langkah selanjutnya",
     "next_1_title": "Pilih waktu Anda di atas",
     "next_1_desc": "Panggilan singkat agar kami mengenal bisnis dan kebutuhan Anda.",
     "next_2_title": "Kami uraikan semuanya saat panggilan",
     "next_2_desc": "Di mana Anda kehilangan pelanggan, apa yang harus dibenahi lebih dulu, dan apa yang dibutuhkan untuk itu.",
     "next_3_title": "Kami membangun, Anda bertumbuh",
-    "next_3_desc": "Situs, iklan, media sosial, sistem AI. Dikerjakan untuk Anda, cepat tayang.",
+    "next_3_desc": "Situs web dibangun, di-host, dan dijaga tetap berjalan. Dikerjakan untuk Anda, cepat tayang.",
     "founder_kicker": "Dengan siapa Anda akan berbicara",
     "founder_title": "Kenali pendirinya",
     "clients_kicker": "Karya dan angkanya",
-    "clients_title": "Klien kami",
+    "clients_title": "Kenali klien kami",
     "cta_title": "Ingin melihat lebih banyak karya?",
     "cta_sub": "Portofolio lengkap, tim, dan cara kami bekerja semuanya ada di situs utama.",
     "cta_button": "Kunjungi blokblokstudio.com",
     "work": {
       "site": {
         "title": "Situs yang dibangun untuk satu tujuan",
-        "detail": "Pengembangan Next.js khusus, bukan template. Setiap halaman mengarah ke satu tindakan: panggilan yang dipesan, pesanan, atau pembayaran."
+        "detail": "Dibangun kustom di Next.js, bukan dari template. Setiap halaman mengarah ke satu tindakan: panggilan yang dijadwalkan, pesanan, atau pembayaran."
       },
       "redesign": {
         "title": "Membangun di atas yang sudah berhasil",
@@ -950,12 +950,12 @@
         "detail": "Kampanye yang dibangun dan dikelola untuk pekerjaan yang masuk, bukan klik. Di pencarian, orang sudah tahu apa yang mereka mau."
       },
       "social_ads": {
-        "title": "Tiba lebih dulu dari mereka",
+        "title": "Jangkau mereka lebih dulu",
         "detail": "Kampanye Facebook dan Instagram yang menempatkan penawaran Anda di depan orang yang tepat sebelum pesaing melakukannya."
       },
       "social": {
         "title": "Media sosial yang mengarah ke suatu tempat",
-        "detail": "Klip, teks, dan unggahan dari materi yang sudah Anda punya, dibuat untuk membawa orang ke situs, bukan sekadar mengisi linimasa."
+        "detail": "Klip, caption, dan unggahan dari rekaman yang sudah Anda miliki, dibuat untuk membawa orang ke situs, bukan sekadar mengisi linimasa."
       },
       "booking": {
         "title": "Pemesanan dan pembayaran di situs",
@@ -970,14 +970,14 @@
     "founder_soon": "Sepatah kata dari Chase, segera hadir.",
     "founder_caption": "Chase Haynes, pendiri Blok Blok Studio. Anda berbicara langsung dengan orang yang membangun situs Anda, bukan dengan manajer akun.",
     "meta_title": "Satu Langkah Lagi",
-    "meta_description": "Pesan panggilan perkenalan 15 menit gratis Anda."
+    "meta_description": "Jadwalkan panggilan perkenalan 15 menit gratis Anda."
   },
   "ui": {
     "footer_contact": "Kontak",
     "footer_privacy": "Kebijakan Privasi",
     "footer_terms": "Ketentuan Layanan",
     "footer_cookies": "Kebijakan Cookie",
-    "footer_impressum": "Informasi hukum",
+    "footer_impressum": "Pemberitahuan Hukum",
     "read_transcript": "Baca transkrip",
     "loading": "Memuat",
     "select_language": "Pilih bahasa",
@@ -988,16 +988,16 @@
     "wechat_open": "Hubungi kami di WeChat",
     "wechat_close": "Tutup kartu kontak WeChat",
     "whatsapp_aria": "Chat dengan kami di WhatsApp (buka di tab baru)",
-    "proj_not_found": "Proyek tidak ditemukan",
-    "proj_back": "Kembali ke proyek",
-    "proj_visit": "Kunjungi situs live",
+    "proj_not_found": "Proyek Tidak Ditemukan",
+    "proj_back": "Kembali ke Proyek",
+    "proj_visit": "Kunjungi Situs Live",
     "proj_live": "Situs live",
     "proj_take_look": "Lihat langsung",
     "proj_open_live": "Buka live",
     "proj_live_lower": "Situs live",
-    "proj_testimonial": "Dengar dari kliennya",
-    "proj_gallery": "Galeri proyek",
-    "proj_next": "Proyek berikutnya",
+    "proj_testimonial": "Dengar Langsung dari Klien",
+    "proj_gallery": "Galeri Proyek",
+    "proj_next": "Proyek Berikutnya",
     "cases_kicker": "Hasil kerja dan angkanya",
     "cases_sub": "Klien di depan kamera, pendapatan terdokumentasi. Seperti apa sebenarnya bekerja dengan kami.",
     "cases_view": "Lihat studi kasus",
@@ -1010,16 +1010,16 @@
     "about_strategy": "Strategi",
     "about_branding": "Branding",
     "about_tagline": "Kami membangun merek yang menonjol",
-    "faq_title": "Pertanyaan umum",
+    "faq_title": "Pertanyaan yang Sering Diajukan",
     "faq_sub": "Semua yang perlu Anda tahu tentang bekerja dengan kami",
     "who_title": "Untuk siapa kami membangun",
     "who_sub": "Setiap industri berkonversi dengan cara berbeda. Ini pendekatan yang kami jalankan, lengkap dengan angka kliennya.",
-    "start_project": "Mulai proyek Anda",
+    "start_project": "Mulai Proyek Anda",
     "contact_location": "Lokasi",
     "available": "Tersedia untuk proyek baru",
     "aria_business": "Jenis bisnis",
     "aria_budget": "Anggaran",
-    "aria_timeline": "Linimasa",
+    "aria_timeline": "Jadwal",
     "proj_live_click": "Klik dan gulir situs live di bawah",
     "proj_live_scroll": "Gulir situs live di bawah",
     "proj_live_hint_embed": "Klik tautan dan jelajahi seolah Anda berada di situs aslinya, atau buka di tab baru.",
@@ -1029,34 +1029,34 @@
     "proj_results": "Hasil",
     "proj_numbers": "Dalam angka",
     "footer_location": "Berlin, Jerman",
-    "rights": "Hak cipta dilindungi undang-undang."
+    "rights": "Hak cipta dilindungi."
   },
   "onboard": {
-    "title": "Onboarding klien",
-    "sub": "Mari siapkan semuanya supaya kita bisa langsung jalan.",
+    "title": "Onboarding Klien",
+    "sub": "Mari siapkan semuanya agar kami bisa mulai bekerja sejak hari pertama.",
     "loading": "Memuat onboarding Anda...",
-    "unavailable": "Tautan tidak tersedia",
+    "unavailable": "Tautan Tidak Tersedia",
     "done": "Semua sudah siap!",
-    "done_sub": "Mau sekalian atur metode pembayaran supaya kita bisa mulai sekarang?",
-    "pay_cta": "Atur metode pembayaran",
+    "done_sub": "Ingin mengatur metode pembayaran sekarang agar kami bisa langsung mulai?",
+    "pay_cta": "Atur Metode Pembayaran",
     "coming_soon": "Segera hadir",
     "submitting": "Mengirim...",
-    "contacts": "Kontak tim",
+    "contacts": "Kontak Tim",
     "contacts_sub": "Siapa yang sebaiknya kami hubungi di tim Anda?",
     "primary": "Utama",
     "remove": "Hapus",
     "add_contact": "Tambah kontak lain",
-    "access": "Akses akun",
+    "access": "Akses Akun",
     "access_sub": "Bagikan kredensial platform yang ingin kami kelola.",
     "encrypted": "Kredensial Anda dienkripsi dengan AES-256",
     "add_account": "Tambah akun lain",
-    "social": "Profil sosial",
+    "social": "Profil Sosial",
     "social_sub": "Hubungkan akun media sosial Anda agar bisa kami kelola dan kembangkan.",
     "add_profile": "Tambah profil lain",
-    "details": "Detail proyek",
-    "details_sub": "Bantu kami menyesuaikan alur kerja kami dengan Anda.",
+    "details": "Detail Proyek",
+    "details_sub": "Bantu kami menyesuaikan alur kerja kami dengan alur kerja Anda.",
     "telegram_hint": "Kirim pesan ke @blokblok_bot di Telegram untuk mendapatkan ID Anda",
-    "review": "Tinjau & kirim",
+    "review": "Tinjau & Kirim",
     "review_sub": "Periksa semuanya sebelum mengirim. Anda bisa kembali untuk mengubah bagian mana pun.",
     "f_timezone": "Zona waktu:",
     "f_telegram": "ID Telegram:",
@@ -1071,7 +1071,18 @@
     "ph_telegram": "mis. 123456789",
     "ph_notes": "Apa pun yang perlu kami tahu tentang proyek, preferensi, atau cara kerja Anda...",
     "ph_brand": "Penggunaan logo, warna merek, jenis huruf, gaya bahasa, yang boleh dan tidak boleh...",
-    "meta_description": "Selesaikan onboarding Anda untuk mulai bekerja sama dengan Blok Blok Studio."
+    "meta_description": "Selesaikan onboarding Anda untuk mulai bekerja sama dengan Blok Blok Studio.",
+    "f_name": "Nama lengkap",
+    "f_role": "Peran / jabatan",
+    "f_email": "Email",
+    "f_phone": "Telepon",
+    "f_platform": "Platform",
+    "f_username": "Nama pengguna / email",
+    "f_password": "Kata sandi",
+    "f_url_optional": "URL (opsional)",
+    "f_notes_optional": "Catatan (opsional)",
+    "f_url": "URL",
+    "ph_select": "Pilih..."
   },
   "pricing": {
     "packages": "PAKET",
@@ -1112,14 +1123,14 @@
     "hide": "Sembunyikan",
     "view": "Lihat",
     "not_included": "Yang Tidak Termasuk",
-    "cta_sub": "Setiap kerja sama di-scope dan ditawar secara individual. Jadwalkan panggilan gratis 15 menit dan kami akan mengirimkan proposal yang disesuaikan dalam 48 jam.",
+    "cta_sub": "Setiap kerja sama ditentukan lingkupnya dan ditawar secara individual. Jadwalkan panggilan gratis 15 menit dan kami akan mengirimkan proposal yang disesuaikan dalam 48 jam.",
     "cta_button": "Jadwalkan Panggilan Strategi",
     "pkg": {
       "oneTime": [
         {
           "name": "Peluncuran Satu Halaman",
           "price": 2000,
-          "disp": "$2,000",
+          "disp": "$2.000",
           "tag": "Paling cocok untuk kehadiran online yang sederhana",
           "tl": "2 sampai 3 minggu",
           "scope": [
@@ -1150,13 +1161,13 @@
             "Bagian tambahan: $250"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat klien menyetujui ATAU setelah 2 putaran revisi. Setelah persetujuan: $175/jam.",
-          "bridge": "Termasuk pemantauan 14 hari pasca peluncuran (perbaikan bug dan penyesuaian kecil). Butuh lebih banyak halaman atau fitur? Naik ke paket Peluncuran Starter ($6,500) untuk situs 5 halaman lengkap dengan AI chat dan pengaturan CRM.",
+          "bridge": "Termasuk pemantauan 14 hari pasca peluncuran (perbaikan bug dan penyesuaian kecil). Butuh lebih banyak halaman atau fitur? Naik ke paket Peluncuran Starter ($6.500) untuk situs 5 halaman lengkap dengan AI chat dan pengaturan CRM.",
           "ideal": "Proyek sampingan, personal brand, landing page sederhana"
         },
         {
           "name": "Peluncuran Starter",
           "price": 6500,
-          "disp": "$6,500",
+          "disp": "$6.500",
           "tag": "Paling cocok untuk bisnis baru",
           "tl": "4 sampai 6 minggu",
           "scope": [
@@ -1197,13 +1208,13 @@
             "Otomatisasi tambahan: $350 per item"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat klien menyetujui ATAU setelah 2 putaran revisi. Setelah persetujuan: $175/jam.",
-          "bridge": "Termasuk pemantauan 30 hari pasca peluncuran (perbaikan bug, pengecekan chatbot, kesehatan CRM). Setelah hari ke-30, pemeliharaan, pembaruan, dan penyetelan AI berlanjut ke paket Rawat & Pantau ($1,500/bulan) agar sistem Anda tetap optimal.",
+          "bridge": "Termasuk pemantauan 30 hari pasca peluncuran (perbaikan bug, pengecekan chatbot, kesehatan CRM). Setelah hari ke-30, pemeliharaan, pembaruan, dan penyetelan AI berlanjut ke paket Rawat & Pantau ($1.500/bulan) agar sistem Anda tetap optimal.",
           "ideal": "Startup, solopreneur, bisnis lokal"
         },
         {
           "name": "Akselerator Pertumbuhan",
           "price": 12000,
-          "disp": "$12,000",
+          "disp": "$12.000",
           "tag": "Paling Populer",
           "pop": true,
           "tl": "6 sampai 8 minggu",
@@ -1218,7 +1229,7 @@
             },
             {
               "i": "Chatbot AI",
-              "l": "1 chatbot berbasis AI yang dilatih dengan 50 pasangan tanya-jawab. Termasuk integrasi pemesanan janji temu (terhubung ke Google Calendar atau Calendly Anda). Penangkapan prospek dengan input otomatis ke CRM. Sapaan kustom, respons cadangan, dan pesan di luar jam kerja dikonfigurasi. Chatbot disematkan di 3 halaman situs."
+              "l": "1 chatbot berbasis AI yang dilatih dengan 50 pasangan tanya-jawab. Termasuk integrasi penjadwalan janji temu (terhubung ke Google Calendar atau Calendly Anda). Penangkapan prospek dengan input otomatis ke CRM. Sapaan kustom, respons cadangan, dan pesan di luar jam kerja dikonfigurasi. Chatbot disematkan di 3 halaman situs."
             },
             {
               "i": "Agen suara AI",
@@ -1248,20 +1259,20 @@
           "ov": [
             "Halaman tambahan: $500/halaman",
             "Revisi tambahan: $300/putaran",
-            "Kampanye iklan tambahan: $1,500",
+            "Kampanye iklan tambahan: $1.500",
             "Skrip suara tambahan: $750",
             "Otomatisasi (8+): $350 per item",
             "Landing page tambahan: $900",
             "Copywriting di luar paket: $200/halaman"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 3 putaran revisi. Setelah persetujuan: $175/jam.",
-          "bridge": "Termasuk 30 hari pasca peluncuran: pengelolaan iklan, pemantauan AI, dan perbaikan bug. Setelah hari ke-30, iklan, agen AI, dan otomatisasi Anda butuh optimasi berkelanjutan agar performanya terjaga. Kami merekomendasikan paket Mesin Pertumbuhan ($3,500/bulan) untuk menjaga momentum.",
+          "bridge": "Termasuk 30 hari pasca peluncuran: pengelolaan iklan, pemantauan AI, dan perbaikan bug. Setelah hari ke-30, iklan, agen AI, dan otomatisasi Anda butuh optimasi berkelanjutan agar performanya terjaga. Kami merekomendasikan paket Mesin Pertumbuhan ($3.500/bulan) untuk menjaga momentum.",
           "ideal": "Bisnis berkembang yang ingin naik skala dengan sistem"
         },
         {
           "name": "Dominasi Total",
           "price": 18000,
-          "disp": "$18,000+",
+          "disp": "$18.000+",
           "tag": "Kelas enterprise",
           "tl": "8 sampai 12 minggu",
           "scope": [
@@ -1278,8 +1289,8 @@
               "l": "3 agen AI yang saling terhubung dan bekerja sebagai satu sistem. Contoh susunan: Agen 1 menangkap prospek lewat chatbot dan memberi skor (hot/warm/cold). Agen 2 mengirim rangkaian email personal berdasarkan skor. Agen 3 memicu tindak lanjut SMS untuk prospek hot. 1 pohon keputusan kustom yang memetakan seluruh perjalanan prospek. Semua agen terhubung ke CRM GHL Anda dengan penandaan kontak dan pergerakan pipeline otomatis."
             },
             {
-              "i": "Paket AI percakapan",
-              "l": "1 chatbot AI yang dilatih dengan 100 pasangan tanya-jawab, disematkan di seluruh situs. Termasuk pemesanan janji temu, penangkapan prospek, penanganan FAQ, dan pesan di luar jam kerja. 1 agen suara AI dengan 2 skrip panggilan kustom (misalnya penjualan masuk + konfirmasi janji temu). 1.000 menit suara termasuk untuk bulan pertama. Rekaman panggilan tersimpan di CRM. 5 rangkaian otomatisasi SMS (misalnya pengingat janji temu, tindak lanjut pasca panggilan, permintaan ulasan, re-engagement, blast promosi)."
+              "i": "Paket AI Percakapan",
+              "l": "1 chatbot AI yang dilatih dengan 100 pasangan tanya-jawab, disematkan di seluruh situs. Termasuk penjadwalan janji temu, penangkapan prospek, penanganan FAQ, dan pesan di luar jam kerja. 1 agen suara AI dengan 2 skrip panggilan kustom (misalnya penjualan inbound + konfirmasi janji temu). 1.000 menit suara termasuk untuk bulan pertama. Rekaman panggilan tersimpan di CRM. 5 rangkaian otomatisasi SMS (misalnya pengingat janji temu, tindak lanjut pasca panggilan, permintaan ulasan, re-engagement, blast promosi)."
             },
             {
               "i": "Otomatisasi alur kerja (total 15)",
@@ -1309,15 +1320,15 @@
           "ov": [
             "Halaman tambahan: $500",
             "Revisi tambahan: $350/putaran",
-            "Agen AI tambahan: $2,500",
-            "Kampanye iklan tambahan: $1,500",
+            "Agen AI tambahan: $2.500",
+            "Kampanye iklan tambahan: $1.500",
             "Skrip suara: $750",
             "Otomatisasi (15+): $400 per item",
             "Produk (20+): $75/produk",
             "Konten setelah bulan ke-1: memerlukan retainer"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 25% di titik tengah proyek, 25% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 3 putaran. Setelah persetujuan: $175/jam.",
-          "bridge": "Termasuk 45 hari pasca peluncuran: pemantauan penuh, pengelolaan iklan, penyetelan AI, dan perbaikan bug. Setelah hari ke-45, ekosistem AI, kampanye iklan, dan sistem konten Anda butuh pengelolaan berkelanjutan agar terus memberi hasil. Kami merekomendasikan paket Kemitraan Penuh ($7,500/bulan) atau Mesin Pertumbuhan ($3,500/bulan) sesuai kebutuhan Anda.",
+          "bridge": "Termasuk 45 hari pasca peluncuran: pemantauan penuh, pengelolaan iklan, penyetelan AI, dan perbaikan bug. Setelah hari ke-45, ekosistem AI, kampanye iklan, dan sistem konten Anda butuh pengelolaan berkelanjutan agar terus memberi hasil. Kami merekomendasikan paket Kemitraan Penuh ($7.500/bulan) atau Mesin Pertumbuhan ($3.500/bulan) sesuai kebutuhan Anda.",
           "ideal": "Bisnis mapan yang menginginkan infrastruktur AI lengkap"
         }
       ],
@@ -1325,7 +1336,7 @@
         {
           "name": "Pengaturan Satu Platform",
           "price": 1200,
-          "disp": "$1,200",
+          "disp": "$1.200",
           "tag": "Bangun satu kanal dengan benar",
           "tl": "3 sampai 5 hari",
           "scope": [
@@ -1359,20 +1370,20 @@
             }
           ],
           "ov": [
-            "Platform tambahan: $1,200 per platform",
+            "Platform tambahan: $1.200 per platform",
             "Template posting tambahan: $100 per item",
             "Posting peluncuran tambahan (4+): $60 per item",
             "Putaran revisi: $175",
             "Konten video (Reels/Shorts): $175 per item"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 1 putaran revisi. Perubahan setelah penyerahan: $175/jam.",
-          "bridge": "Profil Anda sudah siap dan tinggal jalan. Agar tetap aktif dan bertumbuh, tambahkan paket Social Starter kami ($1,500/bulan) atau pengelolaan per platform mulai dari $650/bulan.",
+          "bridge": "Profil Anda sudah siap dan tinggal jalan. Agar tetap aktif dan bertumbuh, tambahkan paket Sosial Pemula kami ($1.500/bulan) atau pengelolaan per platform mulai dari $650/bulan.",
           "ideal": "Bisnis yang baru memulai di sebuah platform"
         },
         {
           "name": "Peluncuran Multi-Platform",
           "price": 2000,
-          "disp": "$2,000",
+          "disp": "$2.000",
           "tag": "Paling Populer",
           "pop": true,
           "tl": "1 sampai 2 minggu",
@@ -1423,13 +1434,13 @@
             "Halaman link-in-bio tambahan: $200"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 2 putaran revisi. Setelah penyerahan: $175/jam.",
-          "bridge": "Semua platform siap diluncurkan dengan 30 hari konten yang sudah terencana. Untuk terus bertumbuh, kami merekomendasikan paket Social Growth ($2,500/bulan) atau add-on per platform.",
+          "bridge": "Semua platform siap diluncurkan dengan 30 hari konten yang sudah terencana. Untuk terus bertumbuh, kami merekomendasikan paket Sosial Bertumbuh ($2.500/bulan) atau add-on per platform.",
           "ideal": "Bisnis yang meluncurkan atau menyegarkan kehadiran sosialnya"
         },
         {
           "name": "Rebranding Sosial Menyeluruh",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "$3.500",
           "tag": "Perombakan total",
           "tl": "2 sampai 3 minggu",
           "scope": [
@@ -1483,7 +1494,7 @@
             "Video intro/outro YouTube: $600"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 2 putaran revisi. Setelah penyerahan: $175/jam.",
-          "bridge": "Seluruh kehadiran sosial Anda dibangun ulang dan siap diluncurkan dengan 60 hari konten. Untuk menjaga momentum, kami merekomendasikan Social Domination ($4,500/bulan) atau Social Growth ($2,500/bulan).",
+          "bridge": "Seluruh kehadiran sosial Anda dibangun ulang dan siap diluncurkan dengan 60 hari konten. Untuk menjaga momentum, kami merekomendasikan Dominasi Sosial ($4.500/bulan) atau Sosial Bertumbuh ($2.500/bulan).",
           "ideal": "Bisnis mapan dengan kehadiran sosial yang usang atau tidak konsisten"
         }
       ],
@@ -1491,7 +1502,7 @@
         {
           "name": "Rawat & Pantau",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "$1.500",
           "per": "/bulan",
           "tag": "Jaga semuanya tetap berjalan",
           "com": "Minimal 3 bulan",
@@ -1534,7 +1545,7 @@
         {
           "name": "Mesin Pertumbuhan",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "$3.500",
           "per": "/bulan",
           "tag": "Paling Populer",
           "pop": true,
@@ -1546,7 +1557,7 @@
             },
             {
               "i": "Pengelolaan Google Ads",
-              "l": "2 kampanye Google Search aktif dikelola. Optimasi kata kunci, penyesuaian bid, dan pembaruan kata kunci negatif setiap bulan. 3 uji A/B per bulan (naskah iklan, elemen landing page, atau penargetan audiens). Tinjauan performa bulanan dengan analisis CPC, CTR, tingkat konversi, dan ROAS. Belanja iklan hingga $5,000/bulan dikelola di tingkat ini. Belanja iklan di atas $5K: tambahan $500/bulan per kelipatan $5K. Biaya iklan ditagih terpisah. Anda membayar langsung ke Google."
+              "l": "2 kampanye Google Search aktif dikelola. Optimasi kata kunci, penyesuaian bid, dan pembaruan kata kunci negatif setiap bulan. 3 uji A/B per bulan (naskah iklan, elemen landing page, atau penargetan audiens). Tinjauan performa bulanan dengan analisis CPC, CTR, tingkat konversi, dan ROAS. Belanja iklan hingga $5.000/bulan dikelola di tingkat ini. Belanja iklan di atas $5K: tambahan $500/bulan per kelipatan $5K. Biaya iklan ditagih terpisah. Anda membayar langsung ke Google."
             },
             {
               "i": "Pengelolaan Meta Ads",
@@ -1566,7 +1577,7 @@
             },
             {
               "i": "Desain & pengembangan (5 jam/bulan)",
-              "l": "5 jam pekerjaan desain dan pengembangan per bulan. Mencakup: landing page baru, pembaruan halaman, penambahan fitur kecil, desain grafis untuk kampanye, atau kustomisasi template. Jam TIDAK bisa dibawa ke bulan berikutnya. Pakai atau hangus. Desain ulang halaman penuh atau pembangunan fitur besar di-scope dan ditawar terpisah. Waktu dicatat dan dilaporkan setiap bulan."
+              "l": "5 jam pekerjaan desain dan pengembangan per bulan. Mencakup: landing page baru, pembaruan halaman, penambahan fitur kecil, desain grafis untuk kampanye, atau kustomisasi template. Jam TIDAK bisa dibawa ke bulan berikutnya. Pakai atau hangus. Desain ulang halaman penuh atau pembangunan fitur besar ditentukan lingkupnya dan ditawar terpisah. Waktu dicatat dan dilaporkan setiap bulan."
             }
           ],
           "ov": [
@@ -1576,7 +1587,7 @@
             "Posting sosial (12+): $60 per item",
             "Penyegaran kreatif: $500",
             "Panggilan langsung tambahan: $250/jam",
-            "Agen AI baru: $2,500",
+            "Agen AI baru: $2.500",
             "Darurat: +50%"
           ],
           "ex": "Tanpa CMO fraksional, tanpa iklan tak terbatas, tanpa penyegaran merek, tanpa produksi video, tanpa pengelolaan sosial khusus. Memerlukan tingkat lebih tinggi atau add-on Sosial.",
@@ -1585,7 +1596,7 @@
         {
           "name": "Kemitraan Penuh",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "$7.500",
           "per": "/bulan",
           "tag": "CMO Fraksional + Tim",
           "com": "Minimal 6 bulan",
@@ -1595,12 +1606,12 @@
               "l": "Seluruh pemeliharaan situs, pemantauan AI, laporan, pengelolaan CRM, pengelolaan iklan Google + Meta, produksi konten AI, optimasi AI, pembaruan strategi, dan dukungan email, dengan batas yang diperluas seperti tercantum di bawah. Jam desain dan pembaruan strategi digantikan dengan versi yang diperluas di bawah (tidak diakumulasi)."
             },
             {
-              "i": "Strategist khusus",
+              "i": "Ahli strategi khusus",
               "l": "Kontak utama yang ditunjuk dan memahami bisnis, tujuan, dan merek Anda. Tersedia lewat teks atau email Senin sampai Jumat, pukul 9 sampai 17 (zona waktu Anda). Tidak tersedia 24/7, akhir pekan, atau hari libur. Mengelola semua hasil kerja, mengoordinasikan tim, dan proaktif memberi rekomendasi lewat Loom, email, atau teks. Merespons dalam 4 jam kerja pada hari kerja."
             },
             {
               "i": "Pengelolaan iklan (diperluas)",
-              "l": "Kampanye aktif tak terbatas di Google dan Meta. Strategi full-funnel: kampanye awareness, pertimbangan, dan konversi. Penyegaran kreatif bulanan, pengujian audiens, optimasi bid, dan realokasi anggaran. Belanja iklan hingga $20,000/bulan dikelola. Belanja iklan di atas $20K memerlukan harga khusus. Laporan performa iklan bulanan dengan analisis ROAS, CPA, dan efisiensi anggaran. Biaya iklan ditagih terpisah."
+              "l": "Kampanye aktif tak terbatas di Google dan Meta. Strategi full-funnel: kampanye awareness, pertimbangan, dan konversi. Penyegaran kreatif bulanan, pengujian audiens, optimasi bid, dan realokasi anggaran. Belanja iklan hingga $20.000/bulan dikelola. Belanja iklan di atas $20K memerlukan harga khusus. Laporan performa iklan bulanan dengan analisis ROAS, CPA, dan efisiensi anggaran. Biaya iklan ditagih terpisah."
             },
             {
               "i": "Pengelolaan ekosistem AI",
@@ -1616,11 +1627,11 @@
             },
             {
               "i": "Desain & pengembangan (15 jam/bulan)",
-              "l": "15 jam pekerjaan desain dan pengembangan per bulan. Mencakup: funnel baru, landing page, desain ulang halaman, pembangunan fitur, desain grafis, desain template email, atau desain presentasi. Jam yang tersisa hanya bisa dibawa ke bulan berikutnya (akumulasi maksimal: 30 jam). Desain ulang situs penuh atau pengembangan aplikasi di-scope dan ditawar terpisah. Waktu dicatat dan dilaporkan setiap bulan."
+              "l": "15 jam pekerjaan desain dan pengembangan per bulan. Mencakup: funnel baru, landing page, desain ulang halaman, pembangunan fitur, desain grafis, desain template email, atau desain presentasi. Jam yang tersisa hanya bisa dibawa ke bulan berikutnya (akumulasi maksimal: 30 jam). Desain ulang situs penuh atau pengembangan aplikasi ditentukan lingkupnya dan ditawar terpisah. Waktu dicatat dan dilaporkan setiap bulan."
             },
             {
               "i": "Penyegaran merek triwulanan",
-              "l": "1 penyegaran merek per kuartal (setiap 3 bulan). Mencakup 5 aset kreatif baru: template sosial yang diperbarui, materi iklan musiman, header email yang disegarkan, atau grafis promosi baru. TIDAK termasuk rebranding penuh (logo baru, panduan baru, sistem merek baru). Rebranding penuh ditawar terpisah mulai dari $6,000+."
+              "l": "1 penyegaran merek per kuartal (setiap 3 bulan). Mencakup 5 aset kreatif baru: template sosial yang diperbarui, materi iklan musiman, header email yang disegarkan, atau grafis promosi baru. TIDAK termasuk rebranding penuh (logo baru, panduan baru, sistem merek baru). Rebranding penuh ditawar terpisah mulai dari $6.000+."
             }
           ],
           "ov": [
@@ -1630,7 +1641,7 @@
             "Klip video (4+): $300 per klip",
             "Pengambilan gambar: terpisah",
             "Rebranding penuh: $6K+ terpisah",
-            "Agen AI: $2,500 per agen",
+            "Agen AI: $2.500 per agen",
             "Akhir pekan/di luar jam kerja: +75%"
           ],
           "ex": "Tanpa acara tatap muka, tanpa PR/outreach media, tanpa pengambilan gambar video (hanya edit), tanpa pengembangan aplikasi. Ditawar terpisah.",
@@ -1641,7 +1652,7 @@
         {
           "name": "Sosial Pemula",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "$1.500",
           "per": "/bulan",
           "tag": "1 sampai 2 Platform",
           "com": "Minimal 3 bulan",
@@ -1682,13 +1693,13 @@
             "Putaran revisi tambahan: $175",
             "Pembuatan Story: $30/story"
           ],
-          "ex": "Tanpa produksi video, tanpa iklan sosial berbayar, tanpa outreach influencer, tanpa pembangunan komunitas di luar interaksi dasar. Ini memerlukan Social Growth atau add-on.",
+          "ex": "Tanpa produksi video, tanpa iklan sosial berbayar, tanpa outreach influencer, tanpa pembangunan komunitas di luar interaksi dasar. Semua itu memerlukan paket Sosial Bertumbuh atau add-on.",
           "ideal": "Bisnis yang butuh kehadiran konsisten di 1 sampai 2 kanal"
         },
         {
           "name": "Sosial Bertumbuh",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "$2.500",
           "per": "/bulan",
           "tag": "Paling Populer",
           "pop": true,
@@ -1742,7 +1753,7 @@
         {
           "name": "Dominasi Sosial",
           "price": 4500,
-          "disp": "$4,500",
+          "disp": "$4.500",
           "per": "/bulan",
           "tag": "Layanan sosial lengkap",
           "com": "Minimal 6 bulan",
@@ -1800,9 +1811,9 @@
       ],
       "customBuild": [
         {
-          "name": "Penemuan & Penentuan Lingkup",
+          "name": "Eksplorasi & Penentuan Lingkup",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "$2.500",
           "tag": "Langkah pertama yang wajib",
           "tl": "1 sampai 2 minggu",
           "scope": [
@@ -1828,22 +1839,22 @@
             },
             {
               "i": "Penawaran harga tetap",
-              "l": "Berdasarkan hasil discovery, kami memberikan penawaran harga tetap yang pasti untuk pembangunan penuh. Tanpa kejutan tarif per jam. Jika lingkup proyek berubah setelah penandatanganan, kami memakai proses change order dengan tarif yang sudah disetujui sebelumnya."
+              "l": "Berdasarkan hasil eksplorasi, kami memberikan penawaran harga tetap yang pasti untuk pembangunan penuh. Tanpa kejutan tarif per jam. Jika lingkup proyek berubah setelah penandatanganan, kami memakai proses change order dengan tarif yang sudah disetujui sebelumnya."
             }
           ],
           "ov": [
             "Layar wireframe tambahan: $250 per layar",
             "Diagram alur pengguna tambahan: $300 per diagram",
             "Add-on analisis kompetitif: $750 (audit 3 produk kompetitor)",
-            "Perpanjangan discovery di atas 2 minggu: $1,200/minggu"
+            "Perpanjangan eksplorasi di atas 2 minggu: $1.200/minggu"
           ],
-          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat penyerahan (jatuh tempo 7 hari). Biaya discovery dikreditkan ke pembangunan penuh jika Anda melanjutkan dalam 30 hari setelah penyerahan. Jika tidak melanjutkan, semua hasil kerja (wireframe, SOW, dokumen arsitektur) menjadi milik Anda dan bisa dipakai bersama developer mana pun.",
+          "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat penyerahan (jatuh tempo 7 hari). Biaya eksplorasi dikreditkan ke pembangunan penuh jika Anda melanjutkan dalam 30 hari setelah penyerahan. Jika tidak melanjutkan, semua hasil kerja (wireframe, SOW, dokumen arsitektur) menjadi milik Anda dan bisa dipakai bersama developer mana pun.",
           "ideal": "Siapa pun yang mempertimbangkan pembangunan kustom. Ini langkah pertama."
         },
         {
-          "name": "Build Standar",
+          "name": "Pembangunan Standar",
           "price": 25000,
-          "disp": "$25,000",
+          "disp": "$25.000",
           "tag": "Paling umum",
           "pop": true,
           "tl": "6 sampai 12 minggu",
@@ -1862,7 +1873,7 @@
             },
             {
               "i": "Fitur inti",
-              "l": "Lingkup ditetapkan dalam SOW Discovery. Standard Build biasanya mencakup: registrasi dan login pengguna, dasbor berbasis peran, operasi CRUD untuk data inti (misalnya properti, penyewa, permintaan), pencarian dan filter, sistem notifikasi (email dan/atau in-app), serta pelaporan/analitik dasar. Fitur di luar SOW memerlukan change order."
+              "l": "Lingkup ditetapkan dalam SOW Eksplorasi. Pembangunan Standar biasanya mencakup: registrasi dan login pengguna, dasbor berbasis peran, operasi CRUD untuk data inti (misalnya properti, penyewa, permintaan), pencarian dan filter, sistem notifikasi (email dan/atau dalam aplikasi), serta pelaporan/analitik dasar. Fitur di luar SOW memerlukan change order."
             },
             {
               "i": "Integrasi pihak ketiga (3 termasuk)",
@@ -1886,27 +1897,27 @@
             }
           ],
           "ov": [
-            "Integrasi tambahan: $3,000 per integrasi",
+            "Integrasi tambahan: $3.000 per integrasi",
             "Layar tambahan di luar SOW: $800/layar",
             "Change order selama pengembangan: $200/jam",
-            "Peran pengguna tambahan: $2,000 per peran",
-            "Dasbor pelaporan/analitik lanjutan: $5,000",
-            "Aplikasi mobile native (iOS atau Android): lihat tingkat Enterprise Build"
+            "Peran pengguna tambahan: $2.000 per peran",
+            "Dasbor pelaporan/analitik lanjutan: $5.000",
+            "Aplikasi mobile native (iOS atau Android): lihat tingkat Pembangunan Enterprise"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 25% di titik tengah proyek, 25% sisanya saat selesai (jatuh tempo 7 hari). Termasuk perbaikan bug 30 hari pasca peluncuran (hanya untuk masalah pada fitur dalam SOW awal). Setelah 30 hari, dukungan berkelanjutan beralih ke retainer pemeliharaan. Semua kode milik Anda. Kepemilikan penuh atas codebase, file desain, dan dokumentasi dialihkan saat proyek selesai.",
-          "bridge": "Platform Anda sudah live dan stabil. Agar tetap berjalan, aman, dan berkembang, kami merekomendasikan retainer Dev Support ($1,500/bulan) atau Bank Jam ($2,500/bulan untuk 10 jam).",
+          "bridge": "Platform Anda sudah live dan stabil. Agar tetap berjalan, aman, dan berkembang, kami merekomendasikan retainer Dukungan Dev ($1.500/bulan) atau Bank Jam ($2.500/bulan untuk 10 jam).",
           "ideal": "Portal, dasbor, alat internal, dan MVP SaaS"
         },
         {
-          "name": "Build Enterprise",
+          "name": "Pembangunan Enterprise",
           "price": 75000,
-          "disp": "$75,000+",
+          "disp": "$75.000+",
           "tag": "Sistem kompleks",
           "tl": "12 sampai 24 minggu",
           "scope": [
             {
-              "i": "Semua yang ada di Standard Build (diperluas)",
-              "l": "Seluruh desain, frontend, backend, integrasi, hosting, pengujian, dan dokumentasi dari Standard Build, dengan lingkup yang diperluas untuk sistem yang lebih besar dan kompleks. Biasanya 30 sampai 60+ layar, banyak peran pengguna, dan logika bisnis yang kompleks."
+              "i": "Semua yang ada di Pembangunan Standar (diperluas)",
+              "l": "Seluruh desain, frontend, backend, integrasi, hosting, pengujian, dan dokumentasi dari Pembangunan Standar, dengan lingkup yang diperluas untuk sistem yang lebih besar dan kompleks. Biasanya 30 sampai 60+ layar, banyak peran pengguna, dan logika bisnis yang kompleks."
             },
             {
               "i": "Arsitektur lanjutan",
@@ -1942,15 +1953,15 @@
             }
           ],
           "ov": [
-            "Integrasi tambahan: $5,000 per integrasi",
-            "Aplikasi mobile native (jika belum termasuk): $30,000",
-            "Penambahan fitur AI: $10,000 per fitur",
-            "Fase tambahan: di-scope dan ditawar satu per satu",
-            "Koordinasi pen test pihak ketiga: $5,000",
-            "Add-on white-label/multi-tenant (jika belum termasuk): $15,000"
+            "Integrasi tambahan: $5.000 per integrasi",
+            "Aplikasi mobile native (jika belum termasuk): $30.000",
+            "Penambahan fitur AI: $10.000 per fitur",
+            "Fase tambahan: ditentukan lingkupnya dan ditawar satu per satu",
+            "Koordinasi pen test pihak ketiga: $5.000",
+            "Add-on white-label/multi-tenant (jika belum termasuk): $15.000"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 25% di titik tengah proyek, 25% sisanya saat selesai (jatuh tempo 7 hari). Termasuk perbaikan bug 45 hari pasca peluncuran per fase. Semua kode, file desain, dan dokumentasi dialihkan kepada Anda saat selesai. Kepemilikan penuh atas codebase. Setelah 45 hari, dukungan berkelanjutan beralih ke retainer pemeliharaan.",
-          "bridge": "Sistem kompleks membutuhkan pengembangan, pemantauan, dan optimasi berkelanjutan. Kami merekomendasikan retainer Pengembangan Aktif ($7,500/bulan) agar platform Anda terus berkembang bersama bisnis Anda.",
+          "bridge": "Sistem kompleks membutuhkan pengembangan, pemantauan, dan optimasi berkelanjutan. Kami merekomendasikan retainer Pengembangan Aktif ($7.500/bulan) agar platform Anda terus berkembang bersama bisnis Anda.",
           "ideal": "Platform SaaS, sistem multi-tenant, produk terintegrasi AI, dan alat enterprise"
         }
       ],
@@ -1958,13 +1969,13 @@
         {
           "name": "Pembangunan Satu Agen",
           "price": 5000,
-          "disp": "$5,000",
+          "disp": "$5.000",
           "tag": "Satu agen yang andal",
           "tl": "1 sampai 2 minggu",
           "scope": [
             {
               "i": "Agen AI kustom (1)",
-              "l": "Satu agen AI yang dirancang, dilatih, dan di-deploy khusus untuk bisnis Anda. Pilih dari: agen suara, agen email, agen web scraping, agen pembuatan PDF, chatbot dukungan pelanggan, agen kualifikasi prospek, agen pemrosesan data, agen pemesanan janji temu, atau kasus penggunaan kustom lainnya. Agen disesuaikan dengan alur kerja, suara merek, dan sumber data spesifik Anda."
+              "l": "Satu agen AI yang dirancang, dilatih, dan di-deploy khusus untuk bisnis Anda. Pilih dari: agen suara, agen email, agen web scraping, agen pembuatan PDF, chatbot dukungan pelanggan, agen kualifikasi prospek, agen pemrosesan data, agen penjadwalan janji temu, atau kasus penggunaan kustom lainnya. Agen disesuaikan dengan alur kerja, suara merek, dan sumber data spesifik Anda."
             },
             {
               "i": "Pelatihan & konfigurasi agen",
@@ -1984,20 +1995,20 @@
             }
           ],
           "ov": [
-            "Integrasi tambahan: $1,500",
+            "Integrasi tambahan: $1.500",
             "Data pelatihan di atas 50 item: $500/batch isi 50",
             "Putaran revisi tambahan: $350",
             "Pengerjaan kilat (di bawah 1 minggu): +40%",
             "Pelatihan ulang agen: $750"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 2 putaran revisi. Kepemilikan agen dialihkan kepada Anda.",
-          "bridge": "Agen Anda sudah live. Agar tetap terpantau, dioptimalkan, dan dilatih ulang, tambahkan retainer Pemeliharaan Agen ($1,500/bulan) atau Pertumbuhan Agen ($3,500/bulan) kami.",
+          "bridge": "Agen Anda sudah live. Agar tetap terpantau, dioptimalkan, dan dilatih ulang, tambahkan retainer Pemeliharaan Agen ($1.500/bulan) atau Pertumbuhan Agen ($3.500/bulan) kami.",
           "ideal": "Bisnis yang mengotomatiskan satu alur kerja spesifik"
         },
         {
           "name": "Tim Agen",
           "price": 14500,
-          "disp": "$14,500",
+          "disp": "$14.500",
           "tag": "Paling Populer",
           "pop": true,
           "tl": "2 sampai 4 minggu",
@@ -2024,20 +2035,20 @@
             }
           ],
           "ov": [
-            "Agen tambahan: $2,500",
-            "Integrasi tambahan: $1,500",
+            "Agen tambahan: $2.500",
+            "Integrasi tambahan: $1.500",
             "Data pelatihan di atas 75/agen: $500/batch",
             "Putaran revisi tambahan: $400",
             "Pengerjaan kilat: +40%"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 2 putaran revisi. Kepemilikan semua agen dan kode dialihkan kepada Anda.",
-          "bridge": "Tim agen Anda sudah live dan terkoordinasi. Untuk optimasi berkelanjutan, pelatihan ulang, dan penambahan agen baru, tambahkan retainer Pertumbuhan Agen ($3,500/bulan) atau Pusat Komando Agen ($7,500/bulan) kami.",
+          "bridge": "Tim agen Anda sudah live dan terkoordinasi. Untuk optimasi berkelanjutan, pelatihan ulang, dan penambahan agen baru, tambahkan retainer Pertumbuhan Agen ($3.500/bulan) atau Pusat Komando Agen ($7.500/bulan) kami.",
           "ideal": "Bisnis yang mengotomatiskan alur kerja multi-langkah dari ujung ke ujung"
         },
         {
           "name": "Operasi AI",
           "price": 25000,
-          "disp": "$25,000+",
+          "disp": "$25.000+",
           "tag": "Ekosistem AI enterprise",
           "tl": "4 sampai 8 minggu",
           "scope": [
@@ -2063,14 +2074,14 @@
             }
           ],
           "ov": [
-            "Agen tambahan: $2,500 per agen",
-            "Integrasi tambahan: $2,000",
-            "Fine-tuning model AI kustom: $5,000",
+            "Agen tambahan: $2.500 per agen",
+            "Integrasi tambahan: $2.000",
+            "Fine-tuning model AI kustom: $5.000",
             "Sesi pelatihan langsung: $250/jam",
             "Pengerjaan kilat: +30%"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 25% di titik tengah proyek, 25% sisanya saat selesai (jatuh tempo 7 hari). Diserahkan dalam beberapa fase (biasanya 2 atau 3 fase). Setiap fase memiliki hasil kerja dan persetujuan yang ditetapkan. Kepemilikan semua kode dan agen dialihkan kepada Anda saat selesai.",
-          "bridge": "Ekosistem AI Anda sudah beroperasi penuh. Agar tetap berjalan, optimal, dan terus berkembang, tambahkan retainer Pusat Komando Agen ($7,500/bulan) kami.",
+          "bridge": "Ekosistem AI Anda sudah beroperasi penuh. Agar tetap berjalan, optimal, dan terus berkembang, tambahkan retainer Pusat Komando Agen ($7.500/bulan) kami.",
           "ideal": "Bisnis yang mengganti proses manual dengan otomatisasi cerdas dalam skala besar"
         }
       ],
@@ -2078,7 +2089,7 @@
         {
           "name": "Pemeliharaan Agen",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "$1.500",
           "per": "/bulan",
           "tag": "Jaga agen tetap berjalan",
           "com": "Minimal 3 bulan",
@@ -2116,7 +2127,7 @@
         {
           "name": "Pertumbuhan Agen",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "$3.500",
           "per": "/bulan",
           "tag": "Paling Populer",
           "pop": true,
@@ -2154,17 +2165,17 @@
           "ov": [
             "Pemantauan agen tambahan: $250/bulan per agen",
             "Pembaruan pelatihan di atas 40: $40 per item",
-            "Pembangunan alur kerja tambahan: $1,500",
-            "Pembangunan agen baru: $2,500",
+            "Pembangunan alur kerja tambahan: $1.500",
+            "Pembangunan agen baru: $2.500",
             "Darurat di luar jam kerja: +50%"
           ],
-          "ex": "Tanpa orkestrasi enterprise, tanpa kerangka kepatuhan, tanpa strategist khusus. Untuk pengelolaan operasi AI penuh, lihat Pusat Komando Agen.",
+          "ex": "Tanpa orkestrasi enterprise, tanpa kerangka kepatuhan, tanpa ahli strategi khusus. Untuk pengelolaan operasi AI penuh, lihat Pusat Komando Agen.",
           "ideal": "Bisnis yang aktif memperluas kemampuan agen AI-nya"
         },
         {
           "name": "Pusat Komando Agen",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "$7.500",
           "per": "/bulan",
           "tag": "Pengelolaan AI penuh",
           "com": "Minimal 6 bulan",
@@ -2195,7 +2206,7 @@
             },
             {
               "i": "Pembangunan agen baru (1/bulan termasuk)",
-              "l": "1 pembangunan agen AI baru per bulan termasuk dalam lingkup. Mencakup: desain, pelatihan, pengujian, deployment, dan dokumentasi. Agen tambahan ditawar dengan tarif diskon ($2,000 per agen vs. $5,000 jika terpisah)."
+              "l": "1 pembangunan agen AI baru per bulan termasuk dalam lingkup. Mencakup: desain, pelatihan, pengujian, deployment, dan dokumentasi. Agen tambahan ditawar dengan tarif diskon ($2.000 per agen vs. $5.000 jika terpisah)."
             },
             {
               "i": "Audit AI triwulanan",
@@ -2203,9 +2214,9 @@
             }
           ],
           "ov": [
-            "Pembangunan agen tambahan: $2,000 per agen",
-            "Alur kerja tambahan: $1,000",
-            "Fine-tuning model AI kustom: $5,000",
+            "Pembangunan agen tambahan: $2.000 per agen",
+            "Alur kerja tambahan: $1.000",
+            "Fine-tuning model AI kustom: $5.000",
             "Sesi pelatihan langsung: $250/jam",
             "Darurat di luar jam kerja: +50%"
           ],
@@ -2217,14 +2228,14 @@
         {
           "name": "Bank Jam",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "$2.500",
           "per": "/bulan",
           "tag": "Dukungan fleksibel",
           "com": "Bulanan (tanpa minimum)",
           "scope": [
             {
               "i": "Pilih jam Anda",
-              "l": "Beli blok jam pengembangan setiap bulan. 10 jam/bulan = $2,500 ($250/jam). 20 jam/bulan = $4,500 ($225/jam). 30 jam/bulan = $6,000 ($200/jam). 40+ jam/bulan = tarif khusus. Jam dapat dipakai untuk kombinasi apa pun dari: perbaikan bug, pembaruan fitur, perubahan desain, integrasi, atau konsultasi."
+              "l": "Beli blok jam pengembangan setiap bulan. 10 jam/bulan = $2.500 ($250/jam). 20 jam/bulan = $4.500 ($225/jam). 30 jam/bulan = $6.000 ($200/jam). 40+ jam/bulan = tarif khusus. Jam dapat dipakai untuk kombinasi apa pun dari: perbaikan bug, pembaruan fitur, perubahan desain, integrasi, atau konsultasi."
             },
             {
               "i": "Cara kerjanya",
@@ -2240,7 +2251,7 @@
             },
             {
               "i": "Apa yang tercakup",
-              "l": "Perbaikan bug dan patch, penambahan fitur kecil, peningkatan UI/UX, perubahan basis data, pembaruan API, pemeliharaan integrasi pihak ketiga, optimasi performa, patch keamanan, dan konsultasi. TIDAK termasuk: pembangunan fitur penuh yang membutuhkan 40+ jam (di-scope sebagai proyek terpisah), pekerjaan desain dari nol (gunakan retainer desain atau harga proyek kami), atau dukungan on-call 24/7."
+              "l": "Perbaikan bug dan patch, penambahan fitur kecil, peningkatan UI/UX, perubahan basis data, pembaruan API, pemeliharaan integrasi pihak ketiga, optimasi performa, patch keamanan, dan konsultasi. TIDAK termasuk: pembangunan fitur penuh yang membutuhkan 40+ jam (ditangani sebagai proyek terpisah dengan lingkup sendiri), pekerjaan desain dari nol (gunakan retainer desain atau harga proyek kami), atau dukungan on-call 24/7."
             }
           ],
           "ov": [
@@ -2248,13 +2259,13 @@
             "Perbaikan kritis darurat/hari yang sama: +50% dari jam terpakai",
             "Kerja akhir pekan: +75% dari jam terpakai"
           ],
-          "ex": "Tanpa jaminan SLA. Tanpa pemantauan 24/7. Tanpa developer khusus (tim menangani permintaan sesuai antrean). Untuk jaminan waktu respons dan sumber daya khusus, lihat tingkat Dev Support di bawah.",
+          "ex": "Tanpa jaminan SLA. Tanpa pemantauan 24/7. Tanpa developer khusus (tim menangani permintaan sesuai antrean). Untuk jaminan waktu respons dan sumber daya khusus, lihat tingkat Dukungan Dev di bawah.",
           "ideal": "Aplikasi kecil, alat, atau proyek pasca peluncuran yang butuh pembaruan sesekali"
         },
         {
           "name": "Dukungan Dev",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "$1.500",
           "per": "/bulan",
           "tag": "Jaga tetap berjalan",
           "com": "Minimal 3 bulan",
@@ -2289,7 +2300,7 @@
             "Respons darurat di luar jam kerja: +50%",
             "Migrasi basis data: ditawar terpisah",
             "Penambahan fitur: gunakan Bank Jam atau harga proyek",
-            "Audit performa: $2,000 sekali bayar"
+            "Audit performa: $2.000 sekali bayar"
           ],
           "ex": "Tanpa pengembangan fitur, tanpa pekerjaan desain, tanpa pembaruan konten, tanpa pengelolaan iklan. Ini hanya pemeliharaan infrastruktur dan kode. Untuk pengembangan aktif, lihat tingkat Pengembangan Aktif atau Bank Jam.",
           "ideal": "Aplikasi stabil yang harus tetap aman, terpantau, dan ter-patch"
@@ -2297,15 +2308,15 @@
         {
           "name": "Pengembangan Aktif",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "$7.500",
           "per": "/bulan",
           "tag": "Perbaikan berkelanjutan",
           "pop": true,
           "com": "Minimal 6 bulan",
           "scope": [
             {
-              "i": "Semua yang ada di Dev Support",
-              "l": "Seluruh pemantauan, keamanan, perbaikan bug (5 jam), pengelolaan basis data, dan pelaporan bulanan dari tingkat Dev Support, termasuk sebagai dasar Anda."
+              "i": "Semua yang ada di Dukungan Dev",
+              "l": "Seluruh pemantauan, keamanan, perbaikan bug (5 jam), pengelolaan basis data, dan pelaporan bulanan dari tingkat Dukungan Dev, termasuk sebagai dasar Anda."
             },
             {
               "i": "Pengembangan fitur (35 jam/bulan)",
@@ -2336,10 +2347,10 @@
             "Pengembangan di luar 35 jam: $225/jam",
             "Darurat di luar jam kerja: +50%",
             "Deployment akhir pekan: +75%",
-            "Pembangunan fitur penuh di atas 40 jam: di-scope sebagai proyek terpisah dengan tarif diskon",
+            "Pembangunan fitur penuh di atas 40 jam: ditangani sebagai proyek terpisah dengan tarif diskon",
             "Desain di luar 3 jam: $200/jam"
           ],
-          "ex": "Tanpa dukungan on-call 24/7. Tanpa developer penuh waktu khusus (tim bersama dengan akses prioritas). Tanpa pengembangan aplikasi mobile di tingkat ini (di-scope terpisah). Tanpa layanan pemasaran, iklan, atau konten. Lihat paket pemasaran kami untuk itu.",
+          "ex": "Tanpa dukungan on-call 24/7. Tanpa developer penuh waktu khusus (tim bersama dengan akses prioritas). Tanpa pengembangan aplikasi mobile di tingkat ini (ditawar terpisah). Tanpa layanan pemasaran, iklan, atau konten. Lihat paket pemasaran kami untuk itu.",
           "ideal": "Platform berkembang yang merilis fitur baru setiap bulan"
         }
       ],
@@ -2347,7 +2358,7 @@
         {
           "name": "Landasan Peluncuran",
           "price": 9500,
-          "disp": "$9,500",
+          "disp": "$9.500",
           "tag": "Validasi ide Anda",
           "tl": "4-6 minggu",
           "scope": [
@@ -2373,27 +2384,27 @@
             },
             {
               "i": "Garansi 30 hari pasca peluncuran",
-              "l": "Bug yang dilaporkan dalam 30 hari pertama setelah persetujuan store diperbaiki tanpa biaya. Permintaan fitur di-scope terpisah."
+              "l": "Bug yang dilaporkan dalam 30 hari pertama setelah persetujuan store diperbaiki tanpa biaya. Permintaan fitur ditawar terpisah."
             },
             {
               "i": "Serah terima source code + dokumentasi",
-              "l": "Repo GitHub lengkap dengan README, .env.example, instruksi deployment, dan rekaman walkthrough 30 menit."
+              "l": "Repo GitHub lengkap dengan README, .env.example, instruksi deployment, dan video panduan rekaman 30 menit."
             }
           ],
           "ov": [
             "Layar tambahan: $650",
-            "Platform kedua (tambah iOS atau Android): +$4,500",
+            "Platform kedua (tambah iOS atau Android): +$4.500",
             "Integrasi API tambahan: $450",
-            "Tata letak tablet/iPad: +$1,800"
+            "Tata letak tablet/iPad: +$1.800"
           ],
           "ex": "Tanpa pembangunan backend kustom (memakai API Anda yang sudah ada atau backend no-code seperti Supabase). Tanpa pembelian dalam aplikasi. Tanpa notifikasi push. Tanpa mode offline-first.",
-          "bridge": "Setelah garansi 30 hari, pemeliharaan berkelanjutan beralih ke paket Keep Alive kami ($1,950/bulan) agar tetap mengikuti pembaruan iOS/Android dan pengajuan ulang ke store.",
+          "bridge": "Setelah garansi 30 hari, pemeliharaan berkelanjutan beralih ke paket Tetap Aktif kami ($1.950/bulan) agar tetap mengikuti pembaruan iOS/Android dan pengajuan ulang ke store.",
           "ideal": "Founder yang memvalidasi ide dengan MVP satu platform yang fokus"
         },
         {
           "name": "Studio",
           "price": 24500,
-          "disp": "$24,500",
+          "disp": "$24.500",
           "tag": "Paling Populer",
           "pop": true,
           "tl": "8-12 minggu",
@@ -2435,16 +2446,16 @@
             "Layar tambahan: $850",
             "Modul native kustom: $175/jam",
             "Integrasi tambahan: $650",
-            "Perpanjangan garansi (+30 hari): $1,200"
+            "Perpanjangan garansi (+30 hari): $1.200"
           ],
-          "ho": "Serah terima kode penuh setelah peluncuran: repo GitHub, konfigurasi CI EAS/Fastlane, dokumentasi deployment, template env, dan rekaman walkthrough 60 menit. Tim Anda mengambil alih atau kami lanjut lewat retainer.",
-          "bridge": "Termasuk 60 hari pasca peluncuran. Iterasi aktif setelah itu berjalan lewat paket Momentum kami ($4,800/bulan): 20 jam engineering, pengerjaan fitur, dan uji A/B setiap bulan.",
+          "ho": "Serah terima kode penuh setelah peluncuran: repo GitHub, konfigurasi CI EAS/Fastlane, dokumentasi deployment, template env, dan video panduan rekaman 60 menit. Tim Anda mengambil alih atau kami lanjut lewat retainer.",
+          "bridge": "Termasuk 60 hari pasca peluncuran. Iterasi aktif setelah itu berjalan lewat paket Momentum kami ($4.800/bulan): 20 jam engineering, pengerjaan fitur, dan uji A/B setiap bulan.",
           "ideal": "Tim yang meluncurkan produk lintas platform yang matang ke pengguna nyata"
         },
         {
           "name": "Unggulan",
           "price": 62000,
-          "disp": "$62,000",
+          "disp": "$62.000",
           "tag": "Pembangunan produk penuh",
           "tl": "14-18 minggu",
           "scope": [
@@ -2482,25 +2493,25 @@
             },
             {
               "i": "Garansi 90 hari pasca peluncuran",
-              "l": "Bug yang dilaporkan dalam 90 hari setelah persetujuan store diperbaiki gratis. Termasuk 2 workshop discovery untuk menyusun lingkup fase berikutnya."
+              "l": "Bug yang dilaporkan dalam 90 hari setelah persetujuan store diperbaiki gratis. Termasuk 2 workshop eksplorasi untuk menyusun lingkup fase berikutnya."
             }
           ],
           "ov": [
-            "Layar tambahan: $1,100",
+            "Layar tambahan: $1.100",
             "Modul native kustom: $185/jam",
-            "Fitur real-time tambahan: $6,500",
-            "Workshop discovery tambahan: $1,800"
+            "Fitur real-time tambahan: $6.500",
+            "Workshop eksplorasi tambahan: $1.800"
           ],
-          "ho": "Serah terima lengkap: monorepo GitHub, konfigurasi CI/CD, infra-as-code (Terraform atau Pulumi jika diminta), runbook untuk deployment dan rollback, serta rekaman video walkthrough 90 menit bersama tim mobile dan backend.",
-          "bridge": "Termasuk 90 hari pasca peluncuran. Kemitraan tertanam setelah itu berjalan lewat paket Partner kami ($10,500/bulan) dengan engineer khusus dan desainer fraksional.",
+          "ho": "Serah terima lengkap: monorepo GitHub, konfigurasi CI/CD, infra-as-code (Terraform atau Pulumi jika diminta), runbook untuk deployment dan rollback, serta video panduan rekaman 90 menit bersama tim mobile dan backend.",
+          "bridge": "Termasuk 90 hari pasca peluncuran. Kemitraan tertanam setelah itu berjalan lewat paket Mitra kami ($10.500/bulan) dengan engineer khusus dan desainer fraksional.",
           "ideal": "Startup yang sudah didanai dan merek yang merilis produk berfitur lengkap dengan backend kustom"
         }
       ],
       "appSupport": [
         {
-          "name": "Tetap Hidup",
+          "name": "Tetap Aktif",
           "price": 1950,
-          "disp": "$1,950",
+          "disp": "$1.950",
           "per": "/bulan",
           "tag": "Tetap sehat & patuh",
           "com": "Minimal 3 bulan",
@@ -2537,7 +2548,7 @@
           "ov": [
             "Jam tambahan: $165/jam",
             "Hotfix darurat (akhir pekan/hari libur): $450 flat + jam",
-            "Pengerjaan fitur khusus: di-scope terpisah"
+            "Pengerjaan fitur khusus: ditawar terpisah"
           ],
           "ex": "Tanpa pengembangan fitur. Tanpa integrasi baru. Tanpa pekerjaan desain. Tanpa layanan pemasaran atau ASO.",
           "ideal": "Aplikasi yang sudah rilis dan harus tetap sehat, patuh, dan tersedia di store"
@@ -2545,7 +2556,7 @@
         {
           "name": "Momentum",
           "price": 4800,
-          "disp": "$4,800",
+          "disp": "$4.800",
           "per": "/bulan",
           "tag": "Paling Populer",
           "pop": true,
@@ -2553,10 +2564,10 @@
           "scope": [
             {
               "i": "Hingga 20 jam engineering per bulan",
-              "l": "20 jam untuk iterasi aktif: pengerjaan fitur, optimasi, uji A/B, pekerjaan analitik. Semua yang ada di Keep Alive sudah termasuk dalam anggaran ini."
+              "l": "20 jam untuk iterasi aktif: pengerjaan fitur, optimasi, uji A/B, pekerjaan analitik. Semua yang ada di Tetap Aktif sudah termasuk dalam anggaran ini."
             },
             {
-              "i": "Semua yang ada di Keep Alive",
+              "i": "Semua yang ada di Tetap Aktif",
               "l": "Perbaikan bug, pembaruan OS, pengajuan ulang ke store, pemantauan Crashlytics, patch dependensi. Batas yang sama berlaku, diambil dari bank 20 jam."
             },
             {
@@ -2592,7 +2603,7 @@
         {
           "name": "Mitra",
           "price": 10500,
-          "disp": "$10,500",
+          "disp": "$10.500",
           "per": "/bulan",
           "tag": "Tim produk tertanam",
           "com": "Minimal 3 bulan",
@@ -2632,8 +2643,8 @@
           ],
           "ov": [
             "Jam tambahan di atas 95/bulan: $145/jam",
-            "Engineer khusus tambahan: +$8,500/bulan",
-            "Desainer khusus tambahan: +$3,500/bulan"
+            "Engineer khusus tambahan: +$8.500/bulan",
+            "Desainer khusus tambahan: +$3.500/bulan"
           ],
           "ex": "Layanan pemasaran, iklan berbayar, dan konten tidak termasuk. Lihat paket pemasaran kami untuk itu.",
           "ideal": "Tim yang menjadikan Blok Blok sebagai tim produk tertanam mereka"
@@ -2684,14 +2695,14 @@
         {
           "name": "Pertumbuhan Situs",
           "price": 1600,
-          "disp": "$1,600",
+          "disp": "$1.600",
           "per": "/bulan",
           "tag": "Paling Populer",
           "pop": true,
           "com": "Minimal 3 bulan",
           "scope": [
             {
-              "i": "Semua yang ada di Site Care",
+              "i": "Semua yang ada di Perawatan Situs",
               "l": "Uptime, backup, keamanan, dan edit kecil termasuk. Batas yang sama, digabung ke dalam paket ini."
             },
             {
@@ -2712,31 +2723,31 @@
             },
             {
               "i": "8 pembaruan konten per bulan",
-              "l": "Di luar dasar 4 edit dari Site Care: total hingga 8 pembaruan konten setiap bulan. Digabung mingguan setiap Senin."
+              "l": "Di luar dasar 4 edit dari Perawatan Situs: total hingga 8 pembaruan konten setiap bulan. Digabung mingguan setiap Senin."
             },
             {
               "i": "Email + Slack prioritas, respons 24 jam",
-              "l": "Akses kanal Slack untuk pertanyaan cepat. Respons 24 jam untuk semua permintaan. Tanpa penanganan real-time untuk keadaan darurat kecuali di tingkat Site Partnership."
+              "l": "Akses kanal Slack untuk pertanyaan cepat. Respons 24 jam untuk semua permintaan. Tanpa penanganan waktu nyata untuk keadaan darurat kecuali di tingkat Kemitraan Situs."
             }
           ],
           "ov": [
             "Uji A/B tambahan: $450",
             "Halaman baru tambahan: $850",
-            "Pekerjaan video/animasi: di-scope terpisah"
+            "Pekerjaan video/animasi: ditawar terpisah"
           ],
-          "ex": "Tanpa desain ulang penuh (di-scope sebagai proyek). Tanpa iklan berbayar. Tanpa penulisan konten di luar edit kecil.",
+          "ex": "Tanpa desain ulang penuh (ditangani sebagai proyek). Tanpa iklan berbayar. Tanpa penulisan konten di luar edit kecil.",
           "ideal": "Tim yang ingin situsnya terus membaik setiap bulan"
         },
         {
           "name": "Kemitraan Situs",
           "price": 3800,
-          "disp": "$3,800",
+          "disp": "$3.800",
           "per": "/bulan",
           "tag": "Tim web tertanam",
           "com": "Minimal 3 bulan",
           "scope": [
             {
-              "i": "Semua yang ada di Site Growth",
+              "i": "Semua yang ada di Pertumbuhan Situs",
               "l": "Halaman baru bulanan, uji A/B, pekerjaan Web Vitals, laporan triwulanan, plus batas yang diperluas dalam paket ini."
             },
             {
@@ -2777,7 +2788,7 @@
         {
           "name": "Audit Pemasaran & Roadmap",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "$3.500",
           "tag": "Diagnosis + rencana 90 hari",
           "tl": "2-3 minggu",
           "scope": [
@@ -2820,13 +2831,13 @@
             "Sesi workshop diperpanjang (90 menit): $400"
           ],
           "ex": "Tanpa eksekusi roadmap (itu langkah berikutnya). Tanpa pengelolaan iklan. Tanpa pembuatan konten. Tanpa produksi kreatif.",
-          "bridge": "Audit ini berpasangan alami dengan paket Rawat & Pantau kami ($1,500/bulan) untuk mengeksekusi roadmap tanpa membangun ulang konteks. Diskon 10% bulan pertama jika ditandatangani dalam 14 hari.",
+          "bridge": "Audit ini berpasangan alami dengan paket Rawat & Pantau kami ($1.500/bulan) untuk mengeksekusi roadmap tanpa membangun ulang konteks. Diskon 10% bulan pertama jika ditandatangani dalam 14 hari.",
           "ideal": "Founder yang curiga pemasarannya membuang uang tetapi tidak tahu persis di mana"
         },
         {
           "name": "Landasan Peluncuran Kampanye",
           "price": 8500,
-          "disp": "$8,500",
+          "disp": "$8.500",
           "tag": "Paling Populer",
           "pop": true,
           "tl": "Pembangunan 4-5 minggu + pemantauan 30 hari",
@@ -2867,17 +2878,17 @@
           "ov": [
             "Materi iklan tambahan (statis): $250",
             "Materi iklan tambahan (video): $600",
-            "Varian landing page tambahan: $1,500",
-            "Platform iklan tambahan: $2,500"
+            "Varian landing page tambahan: $1.500",
+            "Platform iklan tambahan: $2.500"
           ],
           "ex": "Tanpa konten sosial organik. Tanpa konten SEO panjang. Tanpa pengelolaan influencer. Tanpa outreach PR.",
-          "bridge": "Kampanye berlanjut ke paket Mesin Pertumbuhan kami ($3,500/bulan) untuk menskalakan pemenang, memperluas ke kanal ke-2, dan mengiterasi kreatif. Diskon 10% bulan pertama jika ditandatangani dalam 14 hari.",
+          "bridge": "Kampanye berlanjut ke paket Mesin Pertumbuhan kami ($3.500/bulan) untuk menskalakan pemenang, memperluas ke kanal ke-2, dan mengiterasi kreatif. Diskon 10% bulan pertama jika ditandatangani dalam 14 hari.",
           "ideal": "Tim dengan penawaran yang terbukti dan siap mendorong volume akuisisi nyata"
         },
         {
           "name": "Peluncuran Produk Penuh",
           "price": 20000,
-          "disp": "$20,000",
+          "disp": "$20.000",
           "tag": "Dorongan peluncuran terkoordinasi",
           "tl": "Persiapan 6 minggu + operasional minggu peluncuran",
           "scope": [
@@ -2923,14 +2934,14 @@
             }
           ],
           "ov": [
-            "Kemitraan influencer tambahan: $1,200 + biaya kreator",
+            "Kemitraan influencer tambahan: $1.200 + biaya kreator",
             "Media pers tambahan (26+): $75 per media",
             "Materi video tambahan: $600",
             "Jadwal kilat (di bawah 3 minggu): +25%",
-            "Modul SEO programatik: $6,000"
+            "Modul SEO programatik: $6.000"
           ],
           "ex": "Tanpa kalender konten berkelanjutan setelah peluncuran. Tanpa pengelolaan komunitas jangka panjang. Tanpa fotografi produk (bisa ditambahkan).",
-          "bridge": "Peluncuran berlanjut ke paket Kemitraan Penuh kami ($7,500/bulan) untuk pertumbuhan berkelanjutan, optimasi lifecycle, dan siklus peluncuran berikutnya. Diskon 10% bulan pertama jika ditandatangani dalam 14 hari.",
+          "bridge": "Peluncuran berlanjut ke paket Kemitraan Penuh kami ($7.500/bulan) untuk pertumbuhan berkelanjutan, optimasi lifecycle, dan siklus peluncuran berikutnya. Diskon 10% bulan pertama jika ditandatangani dalam 14 hari.",
           "ideal": "Merek yang meluncurkan produk, lini layanan, atau rebranding dan butuh satu dorongan terkoordinasi"
         }
       ],
@@ -2938,12 +2949,12 @@
         {
           "name": "Merek Ringkas",
           "price": 4000,
-          "disp": "$4,000",
+          "disp": "$4.000",
           "tag": "Logo + palet + tipografi",
           "tl": "2-3 minggu",
           "scope": [
             {
-              "i": "Intake discovery (asinkron)",
+              "i": "Intake eksplorasi (asinkron)",
               "l": "1 kuesioner merek (20 pertanyaan mencakup audiens, nada, referensi, 3 tautan kompetitor). 1 panggilan kickoff 45 menit lewat Zoom. Tanpa workshop tatap muka di tingkat ini."
             },
             {
@@ -2977,19 +2988,19 @@
             "Arahan fotografi merek: $800"
           ],
           "ex": "Tanpa dokumen panduan merek. Tanpa alat tulis. Tanpa template sosial. Tanpa penamaan atau identitas verbal.",
-          "bridge": "Brand Lite yang dipadukan dengan Penjaga Merek ($1,500/bulan) menjaga aset tetap konsisten saat Anda memproduksi konten baru.",
+          "bridge": "Merek Ringkas yang dipadukan dengan Penjaga Merek ($1.500/bulan) menjaga aset tetap konsisten saat Anda memproduksi konten baru.",
           "ideal": "Solopreneur dan merek pra-pendapatan yang butuh logo bersih dan siap pakai dengan cepat"
         },
         {
           "name": "Sistem Merek",
           "price": 12000,
-          "disp": "$12,000",
+          "disp": "$12.000",
           "tag": "Paling Populer",
           "pop": true,
           "tl": "4-6 minggu",
           "scope": [
             {
-              "i": "Workshop discovery (jarak jauh, 90 menit)",
+              "i": "Workshop eksplorasi (jarak jauh, 90 menit)",
               "l": "1 sesi kerja langsung bersama founder + hingga 3 pemangku kepentingan. Hasil: pernyataan positioning, 1 persona audiens, 3 atribut merek, arah moodboard dipilih dari 3 yang kami sajikan."
             },
             {
@@ -3018,23 +3029,23 @@
             }
           ],
           "ov": [
-            "Set ikon kustom (8 ikon): $1,200",
+            "Set ikon kustom (8 ikon): $1.200",
             "Arahan seni fotografi merek + daftar shot: $800",
             "Putaran revisi tambahan: $400"
           ],
           "ex": "Tanpa sprint penamaan atau identitas verbal. Tanpa riset merek dagang. Tanpa brand book di luar panduan 20 halaman. Tanpa pekerjaan video.",
-          "bridge": "Brand System berpasangan dengan Arahan Kreatif ($4,000/bulan) untuk terus memproduksi aset bermerek baru secara konsisten.",
+          "bridge": "Sistem Merek berpasangan dengan Arahan Kreatif ($4.000/bulan) untuk terus memproduksi aset bermerek baru secara konsisten.",
           "ideal": "Startup yang sudah didanai dan bisnis yang sedang naik skala yang butuh sistem merek lengkap dan kokoh"
         },
         {
           "name": "Transformasi Merek",
           "price": 28000,
-          "disp": "$28,000",
+          "disp": "$28.000",
           "tag": "Rebranding penuh + penamaan + strategi",
           "tl": "8-12 minggu",
           "scope": [
             {
-              "i": "Sprint discovery + strategi",
+              "i": "Sprint eksplorasi + strategi",
               "l": "2 workshop jarak jauh masing-masing 2 jam (positioning, audiens, celah kompetitif). 5 wawancara pemangku kepentingan (30 menit masing-masing). Audit kompetitif atas 6 kompetitor. 1 dokumen positioning (10-15 halaman) dengan pilar pesan dan 3 persona audiens yang teruji."
             },
             {
@@ -3063,16 +3074,16 @@
             },
             {
               "i": "Sesi serah terima + dukungan 30 hari",
-              "l": "1 rekaman walkthrough serah terima 1 jam. 30 hari dukungan email untuk pertanyaan aset dan penyesuaian kecil."
+              "l": "1 video panduan serah terima berdurasi 1 jam. 30 hari dukungan email untuk pertanyaan aset dan penyesuaian kecil."
             }
           ],
           "ov": [
-            "Opini hukum merek dagang lewat pengacara mitra: passthrough $1,500-$3,000",
-            "Produksi video peluncuran merek (60 detik): $3,500",
-            "Putaran penamaan tambahan: $2,000"
+            "Opini hukum merek dagang lewat pengacara mitra: passthrough $1.500-$3.000",
+            "Produksi video peluncuran merek (60 detik): $3.500",
+            "Putaran penamaan tambahan: $2.000"
           ],
           "ex": "Tanpa pendaftaran merek dagang (rujukan pengacara mitra disediakan). Tanpa produksi video di luar storyboard. Tanpa eksekusi berkelanjutan. Itu ranah retainer.",
-          "bridge": "Transformasi biasanya dilanjutkan dengan Studio Tertanam ($8,500/bulan) untuk menerapkan identitas baru di setiap permukaan selama 6 bulan berikutnya.",
+          "bridge": "Transformasi biasanya dilanjutkan dengan Studio Tertanam ($8.500/bulan) untuk menerapkan identitas baru di setiap permukaan selama 6 bulan berikutnya.",
           "ideal": "Bisnis mapan yang melakukan repositioning, startup pra-Seri A, merek lama yang butuh pembangunan ulang dari dasar"
         }
       ],
@@ -3080,7 +3091,7 @@
         {
           "name": "Penjaga Merek",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "$1.500",
           "per": "/bulan",
           "tag": "Perawatan yang konsisten",
           "com": "Minimal 3 bulan",
@@ -3117,7 +3128,7 @@
         {
           "name": "Arahan Kreatif",
           "price": 4000,
-          "disp": "$4,000",
+          "disp": "$4.000",
           "per": "/bulan",
           "tag": "Paling Populer",
           "pop": true,
@@ -3144,8 +3155,8 @@
               "l": "Satu sumber kebenaran dijaga tetap rapi. Komponen baru ditambahkan setiap bulan."
             },
             {
-              "i": "Akses strategist asinkron",
-              "l": "Email/teks langsung ke strategist yang ditunjuk untuk Anda, Senin-Jumat pukul 9-17 ET. SLA respons 4 jam kerja."
+              "i": "Akses ahli strategi secara asinkron",
+              "l": "Email/teks langsung ke ahli strategi yang ditunjuk untuk Anda, Senin-Jumat pukul 9-17 ET. SLA respons 4 jam kerja."
             },
             {
               "i": "2 putaran revisi per aset",
@@ -3163,7 +3174,7 @@
         {
           "name": "Studio Tertanam",
           "price": 8500,
-          "disp": "$8,500",
+          "disp": "$8.500",
           "per": "/bulan",
           "tag": "Tim kreatif in-house fraksional",
           "com": "Minimal 3 bulan",
@@ -3181,8 +3192,8 @@
               "l": "Setiap bulan: audit diserahkan, lalu 5 perbaikan teratas dieksekusi di bulan yang sama. Tanpa penawaran terpisah."
             },
             {
-              "i": "Creative director + desainer khusus",
-              "l": "Tim 2 orang yang ditunjuk. Akses Slack Senin-Jumat pukul 9-18 (SLA 4 jam). Walkthrough Loom untuk semua hasil kerja utama."
+              "i": "Direktur kreatif + desainer khusus",
+              "l": "Tim 2 orang yang ditunjuk. Akses Slack Senin-Jumat pukul 9-18 (SLA 4 jam). Video penjelasan Loom untuk semua hasil kerja utama."
             },
             {
               "i": "Copywriting + penjagaan suara merek",
@@ -3203,10 +3214,10 @@
           ],
           "ov": [
             "Rebranding penuh: $20k+ terpisah",
-            "Hari fotografi merek (arahan + pengelolaan vendor, pemotretan ditagih passthrough): biaya arahan $2,500",
-            "Desainer tertanam tambahan: +$3,500/bulan"
+            "Hari fotografi merek (arahan + pengelolaan vendor, pemotretan ditagih passthrough): biaya arahan $2.500",
+            "Desainer tertanam tambahan: +$3.500/bulan"
           ],
-          "ex": "Tanpa pengelolaan iklan berbayar. Tanpa desain produk / UX (di-scope terpisah).",
+          "ex": "Tanpa pengelolaan iklan berbayar. Tanpa desain produk / UX (ditawar terpisah).",
           "ideal": "Merek yang naik skala dan menjadikan kami tim kreatif in-house fraksional mereka di setiap kanal"
         }
       ]
@@ -3214,7 +3225,7 @@
     "v2_card_cta": "Minta penawaran kustom",
     "v2_options": "{count, plural, one {# opsi} other {# opsi}}",
     "meta_title": "Layanan & Paket",
-    "meta_description": "Paket desain dan pengembangan situs web kustom. Hasil kerja yang jelas, ditawar khusus sesuai lingkup Anda."
+    "meta_description": "Paket desain dan pengembangan situs web kustom. Hasil kerja yang terdefinisi jelas, dengan penawaran harga sesuai lingkup Anda."
   },
   "a11y": {
     "skip_to_main": "Lompat ke konten utama",
@@ -3235,7 +3246,7 @@
     "how_1_title": "Remote sejak awal",
     "how_1_text": "Berlin adalah kantor pusat. Direktur kreatif di Virginia, pemasaran di Los Angeles, video di Pakistan. Asinkron lebih dulu, panggilan hanya saat memang diperlukan.",
     "how_2_title": "Anda memegang proyek",
-    "how_2_text": "Satu orang menjalankan build dari awal sampai akhir dan berbicara langsung dengan klien. Studi kasusnya memuat karya Anda, bukan sebuah departemen.",
+    "how_2_text": "Satu orang mengerjakan sebuah proyek dari awal sampai akhir dan berbicara langsung dengan klien. Studi kasusnya memuat karya Anda, bukan sebuah departemen.",
     "how_3_title": "Dibangun dari nol",
     "how_3_text": "Next.js dan React, dibangun manual. Tanpa page builder, tanpa tema beli jadi. Jika Anda menyukai situs cepat dan kode bersih, Anda akan betah di sini.",
     "how_4_title": "Angka, bukan kesan",
@@ -3248,7 +3259,7 @@
     "none_text": "Kami merekrut saat proyek membutuhkannya, biasanya pengembang front-end dan desainer yang juga bisa menulis. Kirim portofolio dan dua baris tentang apa yang ingin Anda bangun. Kami membaca semuanya dan menyimpan yang bagus.",
     "none_subject": "Portofolio untuk Blok Blok Studio",
     "none_cta": "Kirim portofolio",
-    "clients_note": "Mencari situs web untuk bisnis Anda?",
+    "clients_note": "Sedang mencari situs web, bukan lowongan?",
     "clients_link": "Mulai dengan kuis"
   },
   "casegrid": {
@@ -3257,7 +3268,7 @@
     "luki_where": "Pelatih pribadi, Berlin",
     "luki_proof": "Pemesanan dan pembayaran langsung lewat situs. Tanpa DM, tanpa invoice.",
     "bronco_where": "Dallas-Fort Worth",
-    "bronco_proof": "Omzet kotor $50k+ dalam 5 bulan pertamanya. Rating 5.0 dari 52 ulasan Google.",
+    "bronco_proof": "Omzet kotor $50k+ dalam 5 bulan pertamanya. Rating 5,0 dari 52 ulasan Google.",
     "ripz_where": "E-commerce, AS",
     "ripz_proof": "Penjualan kartu koleksi $191k dari 1.790 pesanan di toko Shopify yang kami bangun. Pemiliknya kini sudah menutup toko tersebut.",
     "view_case": "Lihat studi kasus",
@@ -3312,7 +3323,7 @@
     "country_united_states": "Amerika Serikat"
   },
   "seo": {
-    "org_description": "Studio desain web kreatif yang membangun situs web kustom berfokus konversi untuk merek-merek ambisius.",
+    "org_description": "Studio desain web di Berlin yang membangun situs web kustom berfokus konversi untuk merek-merek ambisius.",
     "local_description": "Studio desain web berbasis di Berlin yang membangun situs web Next.js kustom untuk merek ambisius di seluruh dunia.",
     "offer_catalog": "Layanan Desain Web",
     "service_name": "Situs Web",
@@ -3321,6 +3332,6 @@
     "knows_1": "Desain Web",
     "knows_2": "Pengembangan Next.js",
     "knows_3": "SEO",
-    "knows_4": "Optimasi konversi"
+    "knows_4": "Optimasi Konversi"
   }
 }

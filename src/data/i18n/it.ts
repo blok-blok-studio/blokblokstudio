@@ -1,5 +1,5 @@
 /**
- * it.ts — Italiano. Translated from en.ts; shape: see ./types.ts.
+ * it.ts, Italiano. Translated from en.ts; shape: see ./types.ts.
  * Keep every key; translate values only.
  */
 import type { LocaleBundle } from './types';
@@ -10,28 +10,28 @@ export const it: LocaleBundle = {
       desc: 'Sito di personal training orientato alla conversione per il principale personal trainer vegano di Berlino.',
       challenge: 'Luke Satterly (Coach Luki) è uno dei personal trainer più dedicati di Berlino. Atleta vegano che allena i suoi clienti da Holmes Place e John Reed, aveva bisogno di un sito all\'altezza della sua energia: audace, concentrato sui risultati e costruito per convertire. L\'obiettivo era semplice. Una persona arriva sul sito, capisce subito cosa fa Luki, vede le prove e prenota una call. Niente fronzoli. Nessuna confusione. Solo risultati.',
       solution: 'Abbiamo progettato un sito pensato prima di tutto per convertire, in cui ogni sezione spinge verso un unico obiettivo: prenotare una consulenza gratuita. L\'integrazione dei pagamenti con Stripe permette ai clienti di acquistare i pacchetti di sessioni direttamente, senza attriti. La SEO locale per Berlino è stata integrata dal primo giorno, puntando a ricerche come "personal trainer Berlin" e "vegan fitness coach Berlin".',
-      results: 'Un sito di personal training completamente ottimizzato per la conversione, online a Berlino, progettato, costruito e pubblicato da BlokBlok Studio. Ora i clienti prenotano e pagano direttamente sul sito, senza più messaggi privati e fatture a mano. Il posizionamento SEO locale porta traffico organico da chi cerca a Berlino.',
+      results: 'Un sito di personal training completamente ottimizzato per la conversione, online a Berlino, progettato, costruito e pubblicato da Blok Blok Studio. Ora i clienti prenotano e pagano direttamente sul sito, senza più messaggi privati e fatture a mano. Il posizionamento SEO locale porta traffico organico da chi cerca a Berlino.',
     },
     'bronco-plumbing': {
       desc: 'Sito per la generazione di lead e sistema di crescita online per un\'impresa idraulica di Dallas-Fort Worth.',
       challenge: 'Colton Staley ha avviato Bronco Plumbing a Dallas-Fort Worth nel 2026 come impresa al primo anno, gestita direttamente dal titolare. Partenza da zero: nessun sito, nessuna presenza online, nessun modo per i proprietari di casa della zona DFW in cerca di un idraulico di trovarlo. Nei mestieri artigianali, chi compare per primo su Google con la prova di un lavoro di qualità riceve la chiamata.',
       solution: 'Abbiamo costruito un sito orientato alla conversione attorno a Colton stesso: il titolare a ogni intervento, preventivi onesti, vere recensioni Google caricate in tempo reale. Ogni sezione spinge verso una chiamata o una richiesta di preventivo, con una barra di chiamata fissa su mobile per chi cerca nel pieno di un\'emergenza. La SEO locale per le ricerche di idraulici nella zona DFW è stata integrata dal primo giorno e il flusso dei contatti arriva direttamente nel suo sistema di gestione dei lavori.',
-      results: 'Nei primi 5 mesi Colton ha generato oltre $50,000 di fatturato lordo tra il lavoro idraulico e il sistema online. Il sito mantiene una valutazione di 5.0 stelle su 52 recensioni Google, si posiziona in media al 5.2 su Google per i suoi termini di ricerca e ha ottenuto oltre 8.000 impression di ricerca nei primi 3 mesi di tracciamento.',
+      results: 'Nei primi 5 mesi Colton ha generato oltre 50.000 $ di fatturato lordo tra il lavoro idraulico e il sistema online. Il sito mantiene una valutazione di 5,0 stelle su 52 recensioni Google, si posiziona in media in posizione 5,2 su Google per i suoi termini di ricerca e ha ottenuto oltre 8.000 impression di ricerca nei primi 3 mesi di tracciamento.',
       metrics: [
         {
-          value: '$50k',
+          value: '50.000 $',
           label: 'Fatturato lordo nei primi 5 mesi',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: 'Valutazione Google su 52 recensioni',
         },
         {
-          value: '5.2',
+          value: '5,2',
           label: 'Posizione media su Google',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: 'Impression di ricerca in 3 mesi',
         },
       ],
@@ -52,14 +52,14 @@ export const it: LocaleBundle = {
       desc: 'Piattaforma e-commerce vivace per un brand della community delle carte collezionabili.',
       challenge: 'Exotic Ripz aveva bisogno di un negozio online che catturasse l\'entusiasmo e l\'energia della community delle carte collezionabili. Serviva una piattaforma in grado di gestire booster pack, nuove uscite, riassortimenti e il coinvolgimento della community su Discord, Twitch e social media.',
       solution: 'Abbiamo costruito un negozio Shopify completo con un branding animato e audace, link integrati alla community Discord, presenza social multipiattaforma (Discord, YouTube, Twitch, TikTok, Instagram, X, Threads), categorizzazione intelligente dei prodotti e popup ottimizzati per la raccolta di email.',
-      results: 'Oltre $191,000 di vendite di carte collezionabili su 1.790 ordini nel negozio che abbiamo costruito e consegnato, con il back end delle spedizioni configurato da cima a fondo. La lista email è cresciuta del 400% nel primo mese grazie alla raccolta intelligente con sconto, e i drop di booster pack si sono esauriti regolarmente entro poche ore dall\'uscita. Il negozio è stato riconsegnato ai titolari per la gestione e da allora hanno messo il sito offline, quindi non c\'è un link attivo da condividere.',
+      results: 'Oltre 191.000 $ di vendite di carte collezionabili su 1.790 ordini nel negozio che abbiamo costruito e consegnato, con il back end delle spedizioni configurato da cima a fondo. La lista email è cresciuta del 400% nel primo mese grazie alla raccolta intelligente con sconto, e i drop di booster pack si sono esauriti regolarmente entro poche ore dall\'uscita. Il negozio è stato riconsegnato ai titolari per la gestione e da allora hanno messo il sito offline, quindi non c\'è un link attivo da condividere.',
       metrics: [
         {
-          value: '$191k',
+          value: '191.000 $',
           label: 'Vendite attraverso il negozio',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'Ordini spediti',
         },
         {
@@ -93,7 +93,7 @@ export const it: LocaleBundle = {
       results: 'Il centro ha ora una presenza digitale solida che comunica efficacemente la sua missione. Maggiore coinvolgimento da parte dei futuri studenti legati al mondo militare e accesso semplificato ai programmi e ai servizi di supporto.',
     },
     'grant-parkhurst': {
-      desc: 'Sito portfolio e portale clienti self-service per le foto di un fotografo di Salt Lake City.',
+      desc: 'Sito portfolio e portale clienti self-service per un fotografo di Salt Lake City.',
       challenge: 'Grant Parkhurst realizza ritratti, eventi e fotografia su pellicola a Salt Lake City. Aveva bisogno di un unico posto che mostrasse i suoi lavori nelle proporzioni originali, elencasse le località che copre, accettasse prenotazioni e gli permettesse di consegnare le gallerie finite ai clienti senza inviare link di download via email.',
       solution: 'Abbiamo costruito un sito pensato prima di tutto per la fotografia, in cui nessuna foto viene ritagliata, con schede dei servizi, copertine degli album allineate su ogni riga, una sezione sulle zone coperte e un flusso di prenotazione. Dietro c\'è un portale clienti su /portal: Grant accede, crea le gallerie, carica le foto nel proprio archivio e le condivide, mentre i clienti visualizzano e scaricano i propri set.',
       results: 'Il sito e il portale sono andati online ad agosto e settembre 2026, con Grant che gestisce le proprie gallerie in autonomia dal primo giorno. Il dominio pubblico è stato poi spostato fuori dal nostro hosting, quindi qui non c\'è un link attivo; gli screenshot mostrano il sito così come lo abbiamo consegnato.',
@@ -136,9 +136,9 @@ La meta-analisi del Baymard Institute su 50 studi colloca l'abbandono medio del 
 
 **La soluzione:** aggiungi prove sociali in tutto il sito, non solo in una pagina dedicata alle testimonianze. Mostra risultati reali, persone reali e numeri reali. Rendi i tuoi contatti facili da trovare.
 
-## Pronto a sistemare il tuo sito?
+## Vuoi sistemare il tuo sito?
 
-Se qualcuno di questi problemi ti suona familiare, non sei solo. La maggior parte dei siti aziendali soffre di almeno due o tre di questi problemi. La buona notizia? Si possono risolvere tutti.
+Se qualcuno di questi problemi ti suona familiare, sei in buona compagnia. La maggior parte dei siti aziendali soffre di almeno due o tre di questi problemi. La buona notizia? Si possono risolvere tutti.
 
 Prenota una call strategica gratuita con il nostro team e ti mostreremo esattamente cosa sta frenando il tuo sito e come trasformarlo in un motore di crescita.
 
@@ -199,7 +199,7 @@ Google è esplicito: non ci sono requisiti aggiuntivi per comparire nelle AI Ove
 
 La SEO non è un progetto una tantum. È una pratica continua. Ma impostare bene i fondamentali dal primo giorno ti dà un vantaggio enorme sui concorrenti che la trattano come un ripensamento.
 
-Se preferisci non affrontare questa checklist da solo, prenota una call strategica gratuita e ripercorreremo insieme esattamente a che punto è il tuo sito e cosa sistemare per primo.
+Se preferisci non affrontare questa checklist in autonomia, prenota una call strategica gratuita e ripercorreremo insieme esattamente a che punto è il tuo sito e cosa sistemare per primo.
 
 ## Fonti
 
@@ -337,7 +337,7 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
         },
       ],
       caseStudy: {
-        heading: 'Dalla pratica',
+        heading: 'Un caso reale',
         name: 'Coach Luki, personal trainer a Berlino',
         result: 'Prenotazioni e pagamenti passano interamente dal sito',
         body: 'Luke Satterly allena i suoi clienti da Holmes Place e John Reed. Il suo sito accetta prenotazioni e gestisce i pagamenti tramite Stripe, senza messaggi privati e senza fatture a mano. In più, ottimizzazione per i motori di ricerca locale per termini come "Personal Trainer Berlin".',
@@ -347,7 +347,7 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
       faqs: [
         {
           q: 'Quanto costa un sito web con Blok Blok Studio?',
-          a: 'Ogni progetto viene quotato individualmente, in base a portata e funzionalità. Dopo una prima consulenza gratuita ricevi un\'offerta a prezzo fisso con prestazioni chiaramente definite. Trovi una panoramica nella nostra pagina dei prezzi.',
+          a: 'Ogni progetto viene quotato individualmente, in base a portata e funzionalità. Dopo una prima consulenza gratuita ricevi un\'offerta a prezzo fisso con deliverable chiaramente definiti. Trovi una panoramica nella nostra pagina dei prezzi.',
         },
         {
           q: 'Quanto dura lo sviluppo?',
@@ -372,21 +372,21 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
     },
     'plumber-website-design': {
       metaTitle: 'Siti Web per Idraulici | Blok Blok Studio',
-      metaDescription: 'Siti web per idraulici e imprese di servizi per la casa che trasformano le ricerche su Google e con IA in lavori prenotati. Il nostro cliente idraulico al primo anno ha generato $50k con il suo sito.',
+      metaDescription: 'Siti web per idraulici e imprese di servizi per la casa che trasformano le ricerche su Google e con IA in lavori prenotati. Il nostro cliente idraulico al primo anno ha generato 50.000 $ con il suo sito.',
       kicker: 'Artigiani e servizi per la casa',
       h1: 'Siti web per idraulici che trasformano le ricerche in lavori prenotati',
       intro: 'Quando a un proprietario di casa scoppia un tubo, cerca, chiama il primo risultato affidabile e non torna più indietro. Costruiamo siti web per idraulici e imprese di servizi per la casa che vincono quel momento: veloci, pronti per la SEO locale e costruiti attorno al pulsante di chiamata.',
       stats: [
         {
-          value: '$50k',
+          value: '50.000 $',
           label: 'Fatturato generato dal nostro cliente idraulico nei primi 5 mesi',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: 'Stelle su 52 recensioni Google, caricate in tempo reale sul sito',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: 'Impression di ricerca su Google nei primi 3 mesi di tracciamento',
         },
       ],
@@ -416,15 +416,15 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
       caseStudy: {
         heading: 'Caso studio',
         name: 'Bronco Plumbing, Dallas-Fort Worth',
-        result: '$50,000 di fatturato lordo nei primi 5 mesi di attività',
-        body: 'Colton Staley ha avviato Bronco Plumbing senza sito e senza presenza online. Abbiamo costruito attorno a lui un sito orientato alla conversione: il titolare a ogni intervento, preventivi onesti, recensioni Google in tempo reale e una barra di chiamata fissa per le ricerche in piena emergenza. Il sito si posiziona in media al 5.2 per i suoi termini di ricerca.',
+        result: '50.000 $ di fatturato lordo nei primi 5 mesi di attività',
+        body: 'Colton Staley ha avviato Bronco Plumbing senza sito e senza presenza online. Abbiamo costruito attorno a lui un sito orientato alla conversione: il titolare a ogni intervento, preventivi onesti, recensioni Google in tempo reale e una barra di chiamata fissa per le ricerche in piena emergenza. Il sito si posiziona in media in posizione 5,2 per i suoi termini di ricerca.',
         linkLabel: 'Leggi il caso studio completo',
       },
       faqHeading: 'Domande frequenti',
       faqs: [
         {
           q: 'Quanto costa un sito web per idraulici?',
-          a: 'Ogni progetto viene quotato in base alla portata dopo una call gratuita di 15 minuti. Ricevi un prezzo fisso con risultati definiti prima di iniziare. Consulta la nostra pagina dei prezzi per vedere come sono strutturati gli incarichi.',
+          a: 'Ogni progetto viene quotato in base alla portata dopo una call gratuita di 15 minuti. Ricevi un prezzo fisso con deliverable definiti prima di iniziare. Consulta la nostra pagina dei prezzi per vedere come sono strutturati gli incarichi.',
         },
         {
           q: 'Quanto tempo passa prima che il sito inizi a produrre lead?',
@@ -436,7 +436,7 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
         },
         {
           q: 'Perché non usare semplicemente un site builder con IA?',
-          a: 'I builder con IA producono un sito generico in pochi minuti, ma non sanno fare le cose che fanno prenotare lavori idraulici: SEO locale per ogni zona servita, recensioni Google in tempo reale, un layout mobile pensato per la chiamata e lead collegati al tuo flusso di lavoro. Il nostro cliente idraulico ha generato $50k in 5 mesi con un sito costruito per il suo mercato, non da un template.',
+          a: 'I builder con IA producono un sito generico in pochi minuti, ma non sanno fare le cose che fanno prenotare lavori idraulici: SEO locale per ogni zona servita, recensioni Google in tempo reale, un layout mobile pensato per la chiamata e lead collegati al tuo flusso di lavoro. Il nostro cliente idraulico ha generato 50.000 $ in 5 mesi con un sito costruito per il suo mercato, non da un template.',
         },
         {
           q: 'Potete collegare il sito agli strumenti che già uso?',
@@ -501,7 +501,7 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
       faqs: [
         {
           q: 'Quanto costa un sito web per personal trainer?',
-          a: 'Ogni progetto viene quotato in base alla portata dopo una call gratuita di 15 minuti, con un prezzo fisso e risultati definiti prima di iniziare. Consulta la nostra pagina dei prezzi per vedere come sono strutturati gli incarichi.',
+          a: 'Ogni progetto viene quotato in base alla portata dopo una call gratuita di 15 minuti, con un prezzo fisso e deliverable definiti prima di iniziare. Consulta la nostra pagina dei prezzi per vedere come sono strutturati gli incarichi.',
         },
         {
           q: 'I clienti possono davvero pagare tramite il sito?',
@@ -520,23 +520,23 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
           a: 'No. La stessa struttura funziona per qualsiasi coach o consulente che lavora su sessioni prenotate: nutrizione, performance, business coaching. Se la tua attività si basa su call prenotate, questo è l\'approccio giusto.',
         },
       ],
-      ctaHeading: 'Pronto a riempire il tuo calendario?',
+      ctaHeading: 'Vuoi riempire il tuo calendario?',
       ctaBody: 'Call gratuita di 15 minuti. Raccontaci come trovi i clienti oggi e ti mostreremo cosa dovrebbe fare il sito.',
       ctaButton: 'Prenota una call gratuita',
     },
     'ecommerce-website-design': {
       metaTitle: 'Design di Siti E-commerce | Blok Blok Studio',
-      metaDescription: 'Design di negozi online e Shopify che vendono. Abbiamo costruito un negozio di carte collezionabili che ha fatto $191k su 1.790 ordini. Negozi orientati alla conversione e pronti per la ricerca con IA.',
+      metaDescription: 'Design di negozi online e Shopify che vendono. Abbiamo costruito un negozio di carte collezionabili che ha fatto 191.000 $ su 1.790 ordini. Negozi orientati alla conversione e pronti per la ricerca con IA.',
       kicker: 'E-commerce e Shopify',
       h1: 'Negozi online costruiti per vendere, non solo per esistere',
       intro: 'Un negozio non è un catalogo. Ogni scelta, dalla griglia dei prodotti al checkout alla raccolta delle email, avvicina un visitatore all\'acquisto oppure lo perde. Progettiamo e costruiamo negozi online in cui i numeri dimostrano il design.',
       stats: [
         {
-          value: '$191k',
+          value: '191.000 $',
           label: 'Vendite nel negozio di carte collezionabili che abbiamo costruito e consegnato',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'Ordini attraverso quel negozio',
         },
         {
@@ -570,7 +570,7 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
       caseStudy: {
         heading: 'Caso studio',
         name: 'Exotic Ripz, carte collezionabili',
-        result: '$191,042 di vendite su 1.790 ordini',
+        result: '191.042 $ di vendite su 1.790 ordini',
         body: 'Un negozio Shopify completo per un brand della community delle carte collezionabili: branding animato e audace, integrazione con Discord e con i social multipiattaforma, categorizzazione intelligente dei prodotti e raccolta email ottimizzata per la conversione. I drop di booster pack si sono esauriti regolarmente entro poche ore dall\'uscita e il back end delle spedizioni è stato configurato da cima a fondo.',
         linkLabel: 'Leggi il caso studio completo',
       },
@@ -582,7 +582,7 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
         },
         {
           q: 'Quanto costa un sito e-commerce?',
-          a: 'Quotato in base alla portata dopo una call gratuita di 15 minuti, con un prezzo fisso e risultati definiti prima di iniziare. Dimensione del negozio, integrazioni ed eventuali migrazioni determinano la cifra.',
+          a: 'Quotato in base alla portata dopo una call gratuita di 15 minuti, con un prezzo fisso e deliverable definiti prima di iniziare. Dimensione del negozio, integrazioni ed eventuali migrazioni determinano la cifra.',
         },
         {
           q: 'Potete migrare il mio negozio esistente?',
@@ -590,7 +590,7 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
         },
         {
           q: 'Perché non usare semplicemente un builder di negozi con IA?',
-          a: 'I negozi generati hanno un aspetto accettabile e convertono male, perché la conversione vive nei dettagli: posizione della raccolta email, meccaniche dei drop, attrito nel checkout, schema dei prodotti per la ricerca con IA. Il negozio da $191k che abbiamo costruito esauriva i drop in poche ore perché ognuno di quei dettagli è stato progettato, non generato.',
+          a: 'I negozi generati hanno un aspetto accettabile e convertono male, perché la conversione vive nei dettagli: posizione della raccolta email, meccaniche dei drop, attrito nel checkout, schema dei prodotti per la ricerca con IA. Il negozio da 191.000 $ che abbiamo costruito esauriva i drop in poche ore perché ognuno di quei dettagli è stato progettato, non generato.',
         },
         {
           q: 'Configurate anche spedizioni e pagamenti?',
@@ -602,5 +602,5 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
       ctaButton: 'Prenota una call gratuita',
     },
   },
-  consent: 'Sì, Blok Blok Studio può inviarmi via email consigli pratici per la crescita e offerte occasionali. Riceverò una sola email di conferma e sarò iscritto solo dopo aver cliccato il link al suo interno. Posso disiscrivermi in qualsiasi momento.',
+  consent: 'Sì, Blok Blok Studio può inviarmi via email consigli pratici per la crescita e offerte occasionali. Riceverò una sola email di conferma e l\'iscrizione sarà attiva solo dopo aver cliccato il link al suo interno. Posso disiscrivermi in qualsiasi momento.',
 };

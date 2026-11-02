@@ -142,7 +142,7 @@ export function ThanksContent({ platform = 'all', founderTranscript }: { platfor
           <p className="text-gray-400 text-base sm:text-lg leading-relaxed mb-10">
             {plan
               ? t(plan.knewWhatTheyWanted ? 'diagnosis_known' : 'diagnosis_unsure', {
-                  industry: plan.industry ? plan.industry.toLowerCase() : t('industry_fallback'),
+                  industry: plan.industry ? plan.industry : t('industry_fallback'),
                 })
               : t('sub_fallback')}
           </p>

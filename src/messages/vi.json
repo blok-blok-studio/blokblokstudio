@@ -25,7 +25,7 @@
     "v2_careers": "Tuyển dụng"
   },
   "faq": {
-    "meta_title": "Câu hỏi thường gặp, Studio Thiết kế Web tại Berlin",
+    "meta_title": "Câu hỏi thường gặp, studio thiết kế web tại Berlin",
     "meta_description": "Câu trả lời về giá cả, thời gian, website tùy chỉnh và cách làm việc với Blok Blok Studio, một studio thiết kế web tại Berlin phục vụ khách hàng toàn cầu.",
     "hero_eyebrow": "Câu hỏi thường gặp",
     "hero_title": "Mọi điều bạn muốn hỏi",
@@ -48,7 +48,7 @@
       {
         "category": "pricing",
         "question": "Xây dựng một chatbot AI tốn bao nhiêu?",
-        "answer": "Một chatbot AI được huấn luyện trên 100+ cặp hỏi-đáp và nhúng toàn site được bao gồm trong gói AI Hội thoại trị giá 18.000 USD, gói này còn bao gồm voice agent, tự động hóa SMS và pipeline nội dung đầy đủ. Là tính năng riêng, chatbot AI bắt đầu từ 2.500 USD. Tất cả bot đều tích hợp với CRM của bạn và bắt khách hàng tiềm năng 24/7."
+        "answer": "Một chatbot AI được huấn luyện trên 100+ cặp hỏi đáp và nhúng trên toàn website được bao gồm trong gói AI Hội thoại 18.000 USD, gói này còn gồm voice agent, tự động hóa SMS và một pipeline nội dung hoàn chỉnh. Là add-on riêng cho một gói website, chatbot AI bắt đầu từ 2.500 USD. Mọi bot đều tích hợp với CRM của bạn và thu thập khách hàng tiềm năng 24/7."
       },
       {
         "category": "pricing",
@@ -58,12 +58,12 @@
       {
         "category": "pricing",
         "question": "Bạn có nhận hợp đồng hàng tháng hay chỉ làm dự án?",
-        "answer": "Cả hai. Dự án bắt đầu từ 2.000 USD và thanh toán theo cột mốc. Hợp đồng hàng tháng bắt đầu từ 1.500 USD/tháng cho bảo trì site, giám sát AI và CRM, hoặc 3.500 USD/tháng cho tăng trưởng trọn gói gồm quản lý quảng cáo Google và Meta, sản xuất nội dung hỗ trợ AI và 5 giờ phát triển mỗi tháng. Hợp đồng yêu cầu tối thiểu 3 hoặc 6 tháng."
+        "answer": "Cả hai. Dự án bắt đầu từ 2.000 USD và thanh toán theo cột mốc. Hợp đồng hàng tháng bắt đầu từ 1.500 USD/tháng cho bảo trì website, giám sát AI và CRM, hoặc 3.500 USD/tháng cho tăng trưởng trọn gói gồm quản lý quảng cáo Google và Meta, sản xuất nội dung hỗ trợ AI và 5 giờ phát triển mỗi tháng. Hợp đồng yêu cầu tối thiểu 3 hoặc 6 tháng."
       },
       {
         "category": "process",
         "question": "Mất bao lâu để xây dựng một website tùy chỉnh?",
-        "answer": "Một landing page đơn lẻ thường ra mắt trong 2 đến 3 tuần. Một site 5 trang mất 4 đến 6 tuần. Một site 10 trang có CMS và tích hợp AI mất 8 đến 12 tuần. Thời gian phụ thuộc vào tốc độ bạn cung cấp nội dung, thông tin thương hiệu và phê duyệt. Chúng tôi đi nhanh, hầu hết agency mất gấp 2-3 lần."
+        "answer": "Một landing page đơn lẻ thường ra mắt trong 2 đến 3 tuần. Một website 5 trang mất 4 đến 6 tuần. Một website 10 trang có CMS và tích hợp AI mất 8 đến 12 tuần. Thời gian phụ thuộc vào tốc độ bạn cung cấp nội dung, thông tin thương hiệu và phê duyệt. Chúng tôi làm nhanh; hầu hết các agency mất gấp 2 đến 3 lần thời gian."
       },
       {
         "category": "process",
@@ -78,12 +78,12 @@
       {
         "category": "capabilities",
         "question": "Sự khác biệt giữa chatbot AI và voice agent AI là gì?",
-        "answer": "Chatbot AI dựa trên văn bản và sống trên website hoặc trong ứng dụng nhắn tin, nó trả lời FAQ, đặt lịch hẹn và bắt khách hàng tiềm năng qua chat. Voice agent AI trả lời cuộc gọi thực bằng ngôn ngữ nói tự nhiên. Voice agent phù hợp nhất cho sales inbound, hỗ trợ ngoài giờ và xác nhận lịch hẹn. Nhiều doanh nghiệp dùng cả hai để bao phủ toàn diện."
+        "answer": "Chatbot AI dựa trên văn bản và nằm trên website hoặc trong ứng dụng nhắn tin, nó trả lời FAQ, đặt lịch hẹn và bắt khách hàng tiềm năng qua chat. Voice agent AI trả lời cuộc gọi thực bằng ngôn ngữ nói tự nhiên. Voice agent phù hợp nhất cho bán hàng inbound, hỗ trợ ngoài giờ và xác nhận lịch hẹn. Nhiều doanh nghiệp dùng cả hai để bao phủ toàn diện."
       },
       {
         "category": "capabilities",
         "question": "AI agent của bạn có thể tích hợp với HubSpot, Salesforce hoặc GoHighLevel không?",
-        "answer": "Có. AI agent và tự động hóa của chúng tôi tích hợp gốc với HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe và Calendly. Với CRM và công cụ không có sẵn tích hợp, chúng tôi xây connector tùy chỉnh, không có thuế trung gian Zapier. Dữ liệu của bạn ở trong hệ thống của bạn, chúng tôi chỉ giúp chúng giao tiếp với nhau."
+        "answer": "Có. AI agent và tự động hóa của chúng tôi tích hợp gốc với HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe và Calendly. Với CRM và công cụ không có sẵn tích hợp, chúng tôi xây connector tùy chỉnh, không tốn thêm phí trung gian qua Zapier. Dữ liệu của bạn ở trong hệ thống của bạn, chúng tôi chỉ giúp chúng giao tiếp với nhau."
       },
       {
         "category": "capabilities",
@@ -103,29 +103,29 @@
       {
         "category": "trust",
         "question": "Tôi có sở hữu code website và cấu hình AI agent không?",
-        "answer": "Có, hoàn toàn. Khi hoàn thành dự án, bạn nhận quyền sở hữu đầy đủ code, file thiết kế, prompt AI và cấu hình tự động hóa. Site được triển khai trên tài khoản Vercel của bạn dưới hóa đơn của bạn. CRM, tài khoản quảng cáo và tên miền đứng tên bạn từ ngày đầu. Chúng tôi không bao giờ khóa khách hàng vào hệ thống của mình."
+        "answer": "Có, hoàn toàn. Khi hoàn thành dự án, bạn nhận quyền sở hữu đầy đủ code, file thiết kế, prompt AI và cấu hình tự động hóa. Website được triển khai trên tài khoản Vercel của chính bạn, do bạn thanh toán. CRM, tài khoản quảng cáo và tên miền đứng tên bạn từ ngày đầu. Chúng tôi không bao giờ khóa khách hàng vào hệ thống của mình."
       },
       {
         "category": "trust",
-        "question": "Site của tôi có responsive trên di động và tối ưu SEO không?",
+        "question": "Website của tôi có responsive trên di động và tối ưu SEO không?",
         "answer": "Có, cả hai đều bắt buộc trong mọi dự án. Thiết kế responsive mobile-first được kiểm tra ở 375px, 768px, 1024px và 1440px. Mỗi trang đều có meta title, mô tả, schema markup, alt text và sitemap được gửi tới Google. Chúng tôi nhắm điểm Lighthouse 90+ cho hiệu suất và 95+ cho khả năng tiếp cận trước khi ra mắt."
       }
     ]
   },
   "home": {
-    "hero_title": "Studio Thiết kế Web tại Berlin",
+    "hero_title": "Studio thiết kế web tại Berlin",
     "hero_subtitle": "Chúng tôi thiết kế và xây dựng website Next.js tùy chỉnh cho các thương hiệu tham vọng trên toàn thế giới. Thiết kế web cao cấp, tập trung chuyển đổi, không bao giờ là template.",
     "hero_cta": "Bắt đầu dự án",
     "clients_heading": "Được tin dùng bởi các thương hiệu tiên phong",
     "services_heading": "Chúng tôi làm gì",
-    "services_subheading": "Chúng tôi kết hợp chiến lược, thiết kế và công nghệ web hiện đại để tạo ra những site mang lại kết quả.",
-    "projects_heading": "Tác phẩm chọn lọc",
-    "projects_subheading": "Trưng bày các dự án nơi sáng tạo gặp gỡ mục đích.",
+    "services_subheading": "Chúng tôi kết hợp chiến lược, thiết kế và công nghệ web hiện đại để tạo ra những website mang lại kết quả.",
+    "projects_heading": "Dự án tiêu biểu",
+    "projects_subheading": "Những dự án nơi sáng tạo gặp gỡ mục đích.",
     "projects_cta": "Xem tất cả dự án",
     "testimonials_heading": "Khách hàng nói gì về chúng tôi",
-    "testimonials_subtitle": "Đừng chỉ tin lời chúng tôi. Hãy nghe từ các thương hiệu chúng tôi đã giúp chuyển đổi.",
+    "testimonials_subtitle": "Đừng chỉ tin lời chúng tôi. Hãy nghe chính những thương hiệu chúng tôi đã giúp lột xác.",
     "newsletter_heading": "Nhận insight thiết kế hàng tuần",
-    "newsletter_subtitle": "Tham gia cùng 2.000+ founder và creative nhận tips hữu ích về thiết kế, branding và tăng trưởng số mỗi thứ Năm.",
+    "newsletter_subtitle": "Tham gia cùng 2.000+ nhà sáng lập và người làm sáng tạo nhận những mẹo thiết thực về thiết kế, thương hiệu và tăng trưởng số vào mỗi thứ Năm.",
     "newsletter_placeholder": "Nhập email của bạn",
     "newsletter_button": "Đăng ký",
     "newsletter_privacy": "Không spam. Hủy đăng ký bất cứ lúc nào.",
@@ -145,8 +145,8 @@
     "stats_projects": "Dự án đã bàn giao",
     "stats_brands": "Thương hiệu đã phục vụ",
     "stats_industries": "Lĩnh vực",
-    "stats_custom": "Thiết kế riêng, không dùng mẫu",
-    "v2_tagline": "Studio Thiết kế Web tại Berlin",
+    "stats_custom": "Thiết kế riêng, không template",
+    "v2_tagline": "Studio thiết kế web tại Berlin",
     "v2_locations": "Berlin · Virginia · Los Angeles",
     "v2_scroll": "Cuộn xuống",
     "v2_manifesto_a": "Một studio thiết kế boutique tại Berlin. Sản phẩm cao cấp, nguyên bản cho những thương hiệu tham vọng trên toàn thế giới. Không dùng template,",
@@ -167,14 +167,14 @@
     "v2_work_label": "Dự án tiêu biểu",
     "v2_work_link": "Tất cả dự án",
     "v2_result_coach_luki": "Khách hàng đặt lịch và thanh toán ngay trên website. SEO địa phương mang về người tìm kiếm tại Berlin.",
-    "v2_result_bronco_plumbing": "$50k trong 5 tháng đầu. 5.0 sao trên 52 đánh giá Google.",
+    "v2_result_bronco_plumbing": "50.000 USD trong 5 tháng đầu. 5,0 sao trên 52 đánh giá Google.",
     "v2_result_coach_kofi": "Yêu cầu tư vấn tăng 200% sau khi ra mắt.",
-    "v2_result_exotic_ripz": "$191k doanh số qua 1,790 đơn hàng. Các đợt mở bán hết sạch trong vài giờ.",
+    "v2_result_exotic_ripz": "191.000 USD doanh số qua 1.790 đơn hàng. Các đợt mở bán cháy hàng trong vài giờ.",
     "v2_result_kds_systems": "Câu chuyện dịch vụ rõ ràng và quy trình đặt lịch giúp tăng khách hàng tiềm năng chất lượng.",
     "v2_proof_label": "Những con số",
-    "v2_proof_1_value": "$191k",
+    "v2_proof_1_value": "191.000 USD",
     "v2_proof_1_label": "Doanh số qua một cửa hàng chúng tôi bàn giao",
-    "v2_proof_2_value": "5.0",
+    "v2_proof_2_value": "5,0",
     "v2_proof_2_label": "Điểm Google trên 52 đánh giá, Bronco Plumbing",
     "v2_proof_3_value": "200%",
     "v2_proof_3_label": "Yêu cầu tư vấn tăng thêm, Coach Kofi",
@@ -199,7 +199,7 @@
     "v2_group_2": "Tăng trưởng trả phí",
     "v2_group_2_detail": "Chiến dịch tìm kiếm và mạng xã hội dẫn khách về website chúng tôi đã xây.",
     "v2_group_3": "AI và tự động hóa",
-    "v2_group_3_detail": "Agent, chat, quy trình tự động và dashboard vận hành phần hậu cần cho bạn.",
+    "v2_group_3_detail": "Agent, chat, quy trình tự động và dashboard vận hành toàn bộ phần việc hậu trường cho bạn.",
     "v2_quiz_label": "Chưa biết bắt đầu từ đâu?",
     "v2_quiz_title": "Tìm xem doanh nghiệp của bạn đang mất khách ở đâu.",
     "v2_quiz_sub": "Năm câu hỏi nhanh. Chúng tôi chỉ ra điều sẽ sửa trước tiên, rồi bạn chọn giờ để trao đổi. Chỉ mất khoảng một phút.",
@@ -229,16 +229,16 @@
     "v2_hosting_bullet_4": "Tối ưu tốc độ và kiểm tra Core Web Vitals",
     "v2_hosting_bullet_5": "Thay đổi nội dung và hỗ trợ khi bạn cần",
     "v2_globe_hint": "Kéo để xoay, cuộn hoặc chụm để thu phóng, hoặc chọn một thành phố.",
-    "v2_proof_4_value": "$3B+",
+    "v2_proof_4_value": "3+ tỷ USD",
     "v2_proof_4_label": "Doanh thu hằng năm của khách hàng lớn nhất, Philippine Airlines",
     "v2_result_public_affair": "Cổng xác minh tuổi cao cấp mà 95% khách truy cập hoàn tất.",
-    "v2_result_military_newschool": "Ngôi nhà số dành cho sinh viên có liên hệ với quân đội.",
+    "v2_result_military_newschool": "Một ngôi nhà số nói đúng tiếng nói của sinh viên thuộc cộng đồng quân nhân.",
     "v2_archive": "lưu trữ",
     "v2_globe_nowebgl": "WebGL đang tắt trong trình duyệt này. Danh sách thành phố nằm bên cạnh.",
-    "v2_quote_1_role": "Bronco Plumbing, Dallas–Fort Worth",
-    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_1_role": "Bronco Plumbing, Dallas-Fort Worth",
+    "v2_quote_2_role": "Vận động viên Nike, Berlin",
     "v2_quote_3_role": "Cửa hàng thẻ bài sưu tầm",
-    "v2_quote_1_text": "$50,000 doanh thu gộp trong năm tháng đầu, điểm 5.0 sao trên 52 đánh giá Google và vị trí trung bình 5.2 trên Google cho các từ khóa của anh ấy.",
+    "v2_quote_1_text": "50.000 USD doanh thu gộp trong năm tháng đầu, điểm 5,0 sao trên 52 đánh giá Google và vị trí trung bình 5,2 trên Google cho các từ khóa của anh ấy.",
     "v2_quote_2_text": "Blok Blok Studio đã thay đổi hoàn toàn sự hiện diện trực tuyến của tôi. Thiết kế táo bạo thể hiện trọn vẹn triết lý huấn luyện của tôi và kết quả thật đáng kinh ngạc.",
     "v2_quote_3_text": "Cửa hàng thương mại điện tử họ xây cho chúng tôi thật tuyệt vời. Các đợt mở bán booster pack hết sạch trong vài giờ và sự gắn kết của cộng đồng qua website thật ấn tượng.",
     "v2_quote_1_kind": "Kết quả",
@@ -259,16 +259,16 @@
   },
   "projects": {
     "title": "Dự án của chúng tôi",
-    "subtitle": "Khám phá portfolio trải nghiệm số, bộ nhận diện thương hiệu và giải pháp sáng tạo của chúng tôi.",
+    "subtitle": "Mọi website chúng tôi đã bàn giao, kèm những con số nó mang lại.",
     "filter_all": "Tất cả",
-    "filter_web": "Thiết kế Web",
-    "filter_brand": "Thương hiệu",
-    "filter_app": "Phát triển App",
+    "filter_web": "Thiết kế web",
+    "filter_brand": "Xây dựng thương hiệu",
+    "filter_app": "Phát triển ứng dụng",
     "filter_marketing": "Marketing",
     "view_project": "Xem dự án",
-    "cat_web": "Thiết kế Web",
+    "cat_web": "Thiết kế web",
     "cat_ecom": "Thương mại điện tử",
-    "cat_brand": "Thương hiệu",
+    "cat_brand": "Xây dựng thương hiệu",
     "v2_label": "Dự án tiêu biểu",
     "v2_count": "{count} dự án",
     "alt_live_preview": "Bản xem trước trực tiếp của {title}",
@@ -277,14 +277,14 @@
   },
   "about": {
     "title": "Về chúng tôi",
-    "subtitle": "Chúng tôi là tập thể những nhà thiết kế, lập trình viên và chiến lược gia đam mê tạo ra trải nghiệm số ý nghĩa.",
+    "subtitle": "Studio năm người chuyên thiết kế, xây dựng và host website. Thành lập tại Berlin vào tháng 6 năm 2024.",
     "mission_title": "Sứ mệnh",
     "mission_text": "Mang đến cho các thương hiệu tham vọng những website, hệ thống và chiến dịch thực sự giúp họ giành được khách hàng.",
     "vision_title": "Tầm nhìn",
-    "vision_text": "Trở thành đối tác sáng tạo được lựa chọn của những thương hiệu dám nổi bật trong bối cảnh số.",
+    "vision_text": "Trở thành studio mà các thương hiệu tham vọng tìm đến đầu tiên khi website phải mang lại kết quả thực sự.",
     "values_title": "Giá trị",
     "value_1_title": "Đổi mới",
-    "value_1_text": "Chúng tôi vượt giới hạn và khám phá những khả năng mới trong mọi dự án.",
+    "value_1_text": "Mọi website đều được xây từ đầu. Không tái sử dụng bất cứ thứ gì từ theme có sẵn.",
     "value_2_title": "Xuất sắc",
     "value_2_text": "Chúng tôi giữ vững các tiêu chuẩn cao nhất về chất lượng và tay nghề.",
     "value_3_title": "Hợp tác",
@@ -294,14 +294,14 @@
     "stats_projects": "Dự án hoàn thành",
     "stats_clients": "Khách hàng hài lòng",
     "stats_years": "Năm kinh nghiệm",
-    "stats_awards": "Ngành phục vụ",
+    "stats_awards": "Lĩnh vực đã phục vụ",
     "v2_label": "Studio",
     "v2_intro": "Boutique là lựa chọn có chủ đích. Chúng tôi chỉ nhận một số ít thương hiệu cùng lúc, để mỗi website đều có nhà sáng lập trực tiếp tham gia, thay vì một template và một mã số ticket.",
     "v2_team_label": "Bạn sẽ làm việc cùng ai",
     "v2_team_link": "Gặp đội ngũ",
     "v2_cta": "Bắt đầu với bài trắc nghiệm",
     "ind_fitness": "Thể hình và huấn luyện",
-    "ind_home_services": "Dịch vụ gia đình",
+    "ind_home_services": "Dịch vụ nhà ở",
     "ind_childcare": "Chăm sóc trẻ em",
     "ind_real_estate": "Bất động sản",
     "ind_education": "Giáo dục đại học",
@@ -314,7 +314,7 @@
   },
   "blog": {
     "meta_title": "Blog: Góc nhìn về thiết kế web, thương hiệu & SEO",
-    "meta_description": "Góc nhìn chuyên gia về thiết kế web, thương hiệu, SEO và marketing số từ Blok Blok Studio. Mẹo thực tế để phát triển sự hiện diện trực tuyến của bạn.",
+    "meta_description": "Những gì chúng tôi học được khi xây dựng các website biết kiếm tiền: bài viết, video khách hàng và tin tức studio từ Blok Blok Studio.",
     "og_alt": "Blog Blok Blok Studio",
     "list_title": "Ý tưởng",
     "list_subtitle": "Những gì chúng tôi học được khi xây những website sinh lời: bài viết, khách hàng chia sẻ trước ống kính và tin tức từ studio.",
@@ -322,7 +322,7 @@
     "read_article": "Đọc bài viết",
     "back_to_blog": "Quay lại Blog",
     "cta_title": "Bạn muốn có kết quả như thế này?",
-    "cta_subtitle": "Đặt lịch tư vấn chiến lược miễn phí và cùng thảo luận cách chuyển đổi sự hiện diện số của bạn.",
+    "cta_subtitle": "Đặt lịch gọi miễn phí, chúng tôi sẽ chỉ cho bạn điều cần sửa đầu tiên.",
     "cta_button": "Bắt đầu",
     "posts": {
       "why-your-website-is-losing-customers": {
@@ -338,7 +338,7 @@
       "brand-identity-investment": {
         "title": "Vì sao bản sắc thương hiệu là khoản đầu tư tốt nhất của bạn",
         "description": "Thương hiệu của bạn không chỉ là logo. Bản sắc thương hiệu mạnh xây dựng niềm tin, giữ vững mức giá cao cấp và biến khách hàng thành người ủng hộ.",
-        "category": "Thương hiệu"
+        "category": "Xây dựng thương hiệu"
       }
     },
     "v2_label": "Ý tưởng",
@@ -368,16 +368,16 @@
   },
   "services": {
     "title": "Dịch vụ của chúng tôi",
-    "subtitle": "Thiết kế và phát triển website tùy chỉnh thúc đẩy tăng trưởng kinh doanh thực sự.",
+    "subtitle": "Thiết kế và phát triển website tùy chỉnh, xây để giành khách hàng, rồi host và duy trì để luôn vận hành.",
     "section_ai_title": "AI & Tự động hóa",
     "section_creative_title": "Sáng tạo & Marketing",
     "service_1_title": "Hệ sinh thái AI Agent",
     "service_1_subtitle": "Các sub-agent kết nối lẫn nhau vận hành toàn bộ quy trình",
     "service_1_bullet_1": "Điều phối multi-agent",
-    "service_1_bullet_2": "Lead đến chấm điểm đến email đến text đến gọi",
+    "service_1_bullet_2": "Từ lead đến chấm điểm, email, tin nhắn rồi cuộc gọi",
     "service_1_bullet_3": "Ra quyết định tự động",
-    "service_1_bullet_4": "Có người tham gia khi cần leo thang",
-    "service_1_bullet_5": "Hoạt động 24/7 không downtime",
+    "service_1_bullet_4": "Chuyển lên người thật khi cần",
+    "service_1_bullet_5": "Hoạt động 24/7, không gián đoạn",
     "service_2_title": "AI Hội thoại",
     "service_2_subtitle": "Chatbot và voice agent sàng lọc lead liên tục",
     "service_2_bullet_1": "Widget AI chat trên website",
@@ -387,80 +387,80 @@
     "service_2_bullet_5": "Ngôn ngữ tự nhiên, không máy móc",
     "service_3_title": "Tự động hóa quy trình",
     "service_3_subtitle": "Kết nối mọi công cụ thành một hệ thống tự vận hành",
-    "service_3_bullet_1": "CRM, lịch và thanh toán liên kết",
-    "service_3_bullet_2": "Tích hợp tùy chỉnh (không thuế Zapier)",
+    "service_3_bullet_1": "CRM, lịch và thanh toán được liên kết",
+    "service_3_bullet_2": "Tích hợp tùy chỉnh (không mất phí Zapier)",
     "service_3_bullet_3": "Logic quyết định AI trong quy trình",
     "service_3_bullet_4": "Xử lý lỗi và luồng thử lại",
     "service_3_bullet_5": "Tự động onboarding khách hàng",
     "service_4_title": "Hệ thống nội dung AI",
     "service_4_subtitle": "Một đầu vào trở thành 10 nội dung",
     "service_4_bullet_1": "Video thành clip, caption và bài đăng",
-    "service_4_bullet_2": "Tạo blog từ bản ghi",
+    "service_4_bullet_2": "Tạo bài blog từ bản ghi lời thoại",
     "service_4_bullet_3": "Pipeline lên lịch mạng xã hội",
     "service_4_bullet_4": "Đảm bảo nhất quán giọng thương hiệu qua AI",
     "service_4_bullet_5": "Tái sử dụng đa nền tảng",
     "service_5_title": "Dashboard khách hàng",
-    "service_5_subtitle": "Portal thời gian thực để khách không phải hỏi cập nhật",
+    "service_5_subtitle": "Cổng thông tin thời gian thực để khách hàng không bao giờ phải hỏi tiến độ",
     "service_5_bullet_1": "Theo dõi lead và pipeline trực tiếp",
     "service_5_bullet_2": "Chi tiêu quảng cáo và ROAS thời gian thực",
     "service_5_bullet_3": "Email báo cáo tuần tự động",
-    "service_5_bullet_4": "Widget KPI tùy chỉnh theo khách",
+    "service_5_bullet_4": "Widget KPI tùy chỉnh cho từng khách hàng",
     "service_5_bullet_5": "White-label theo thương hiệu của bạn",
     "service_6_title": "Website",
-    "service_6_subtitle": "Site được xây tùy chỉnh, tập trung chuyển đổi",
+    "service_6_subtitle": "Website xây riêng, tập trung chuyển đổi",
     "service_6_bullet_1": "Xây dựng Next.js / React",
     "service_6_bullet_2": "Tối ưu SEO từ ngày đầu",
     "service_6_bullet_3": "Responsive mobile-first",
     "service_6_bullet_4": "Tích hợp CMS",
     "service_6_bullet_5": "Tinh chỉnh hiệu suất và tốc độ",
     "service_7_title": "Xây dựng thương hiệu",
-    "service_7_subtitle": "Bộ nhận diện trực quan táo bạo nổi bật",
-    "service_7_bullet_1": "Thiết kế logo và biểu tượng",
+    "service_7_subtitle": "Bộ nhận diện hình ảnh táo bạo, nổi bật giữa đám đông",
+    "service_7_bullet_1": "Thiết kế logo và dấu hiệu thương hiệu",
     "service_7_bullet_2": "Bảng màu và typography",
     "service_7_bullet_3": "Tài liệu hướng dẫn thương hiệu",
     "service_7_bullet_4": "Template mạng xã hội",
     "service_7_bullet_5": "Thiết kế pitch deck",
     "service_8_title": "Google Ads",
-    "service_8_subtitle": "Chiến dịch tìm kiếm cho khách hàng có ý định cao",
+    "service_8_subtitle": "Chiến dịch tìm kiếm nhắm vào người mua có ý định cao",
     "service_8_bullet_1": "Nghiên cứu từ khóa và chiến lược",
-    "service_8_bullet_2": "Copy quảng cáo và landing page",
+    "service_8_bullet_2": "Nội dung quảng cáo và landing page",
     "service_8_bullet_3": "Theo dõi chuyển đổi",
     "service_8_bullet_4": "Tối ưu hàng tháng",
     "service_8_bullet_5": "Phân tích đối thủ",
     "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook và Instagram quy mô lớn",
-    "service_9_bullet_1": "Nhắm đối tượng và lookalike",
-    "service_9_bullet_2": "Thiết kế sáng tạo và copy",
+    "service_9_subtitle": "Facebook và Instagram ở quy mô lớn",
+    "service_9_bullet_1": "Nhắm đối tượng và đối tượng tương tự (lookalike)",
+    "service_9_bullet_2": "Thiết kế mẫu quảng cáo và nội dung",
     "service_9_bullet_3": "Phễu retargeting",
     "service_9_bullet_4": "Báo cáo ROAS",
-    "service_9_bullet_5": "Thử nghiệm A/B sáng tạo",
+    "service_9_bullet_5": "Thử nghiệm A/B mẫu quảng cáo",
     "process_title": "Quy trình",
     "step_1_title": "Tìm hiểu",
-    "step_1_desc": "Chúng tôi tìm hiểu sâu về mục tiêu, đối tượng và thị trường để xây nền tảng vững chắc.",
+    "step_1_desc": "Chúng tôi tìm hiểu mục tiêu, đối tượng và thị trường của bạn trước khi thiết kế bất cứ thứ gì.",
     "step_2_title": "Chiến lược",
-    "step_2_desc": "Chúng tôi tạo lộ trình phù hợp gắn tầm nhìn sáng tạo với mục tiêu kinh doanh.",
+    "step_2_desc": "Một bản kế hoạch bằng văn bản: các trang, tiến độ và một mức giá duy nhất.",
     "step_3_title": "Thiết kế",
-    "step_3_desc": "Chúng tôi tạo hình ảnh hấp dẫn và giao diện trực quan thu hút người dùng.",
+    "step_3_desc": "Chúng tôi thiết kế các trang và luồng trải nghiệm, rồi cho bạn xem một prototype chạy được.",
     "step_4_title": "Phát triển",
-    "step_4_desc": "Chúng tôi xây dựng bằng công nghệ hiện đại đảm bảo tốc độ, khả năng mở rộng và độ tin cậy.",
+    "step_4_desc": "Code tay bằng Next.js. Nhanh ngay từ đầu, dễ mở rộng về sau.",
     "step_5_title": "Ra mắt & Tối ưu",
-    "step_5_desc": "Chúng tôi triển khai, giám sát và liên tục tinh chỉnh để tối đa hóa hiệu suất.",
+    "step_5_desc": "Chúng tôi ra mắt, theo dõi số liệu và sửa những gì chưa hiệu quả.",
     "v2_label": "Dịch vụ",
     "v2_intro": "Một gói duy nhất, làm đến nơi đến chốn. Chúng tôi thiết kế và xây dựng website, rồi host và duy trì để nó luôn vận hành.",
     "v2_process_label": "Một dự án diễn ra thế nào",
     "v2_cta_label": "Chưa chắc mình cần gói nào?",
     "v2_cta": "Làm bài trắc nghiệm 1 phút",
     "v2_industries_label": "Chúng tôi xây dựng cho ai",
-    "v2_industries_more": "Xem cách làm",
+    "v2_industries_more": "Xem cách chúng tôi làm",
     "meta_title": "Dịch vụ",
     "meta_description": "Thiết kế và phát triển website tùy chỉnh. Hạng mục bàn giao rõ ràng, báo giá riêng theo phạm vi của bạn."
   },
   "team": {
     "title": "Đội ngũ",
-    "subtitle": "Gặp gỡ những bộ óc sáng tạo đứng sau Blok Blok Studio.",
+    "subtitle": "Năm con người xây dựng và host website của bạn.",
     "role_founder": "Nhà sáng lập",
-    "role_graphic": "Nhà thiết kế đồ họa cao cấp",
-    "role_web": "Nhà thiết kế web cao cấp",
+    "role_graphic": "Nhà thiết kế đồ họa cấp cao",
+    "role_web": "Nhà thiết kế web cấp cao",
     "v2_label": "Đội ngũ",
     "v2_intro": "Năm người ở bốn múi giờ. Đủ nhỏ để bạn biết tên từng người, đủ rộng để dự án của bạn không bao giờ phải chờ trời sáng.",
     "v2_studied": "Học vấn",
@@ -468,7 +468,7 @@
     "v2_based": "Sống tại",
     "role_marketing": "Chiến lược gia Marketing",
     "role_fullstack": "Lập trình viên Full Stack",
-    "role_video": "Biên tập viên Video",
+    "role_video": "Biên tập video",
     "role_creative": "Giám đốc Sáng tạo",
     "chase_studied_1": "Thiết kế và Công nghệ",
     "chase_studied_2": "Parsons School of Design",
@@ -482,7 +482,7 @@
   },
   "contact": {
     "title": "Liên hệ",
-    "subtitle": "Bạn có dự án trong đầu? Chúng tôi rất muốn nghe từ bạn. Cùng tạo nên điều phi thường.",
+    "subtitle": "Cho chúng tôi biết website của bạn cần làm được gì. Chúng tôi phản hồi trong vòng một ngày làm việc.",
     "name": "Tên của bạn",
     "email": "Email của bạn",
     "company": "Công ty",
@@ -501,11 +501,11 @@
     "newsletter_title": "Luôn cập nhật",
     "newsletter_placeholder": "Nhập email của bạn",
     "newsletter_button": "Đăng ký",
-    "newsletter_subscribed": "Xác nhận qua email của bạn!",
+    "newsletter_subscribed": "Kiểm tra hộp thư để xác nhận!",
     "newsletter_already_subscribed": "Bạn đã đăng ký rồi",
     "newsletter_consent": "Bằng việc đăng ký, bạn đồng ý với <link>Chính sách Bảo mật</link> của chúng tôi. Hủy đăng ký bất cứ lúc nào.",
     "back_to_top": "Lên đầu trang",
-    "copyright": "Đã đăng ký bản quyền.",
+    "copyright": "Bảo lưu mọi quyền.",
     "legal": "Pháp lý"
   },
   "gdpr": {
@@ -514,7 +514,7 @@
     "terms": "Điều khoản Dịch vụ",
     "and": "và",
     "consent_required": "Bạn phải chấp nhận Chính sách Bảo mật và Điều khoản để tiếp tục",
-    "cookie_banner_text": "Chúng tôi sử dụng cookie thiết yếu để nâng cao trải nghiệm. Tìm hiểu thêm trong",
+    "cookie_banner_text": "Chúng tôi sử dụng cookie thiết yếu để website hoạt động. Tìm hiểu thêm trong",
     "cookie_policy": "Chính sách Cookie",
     "accept": "Chấp nhận",
     "decline": "Từ chối",
@@ -523,10 +523,10 @@
     "manage_preferences": "Quản lý tùy chọn",
     "preferences_title": "Tùy chọn Cookie",
     "essential_title": "Cần thiết",
-    "essential_desc": "Cần thiết để trang web hoạt động. Không thể tắt.",
+    "essential_desc": "Cần thiết để website hoạt động. Không thể tắt.",
     "analytics_title": "Phân tích",
-    "analytics_desc": "Giúp chúng tôi hiểu cách khách truy cập tương tác với trang web.",
-    "marketing_title": "Tiếp thị",
+    "analytics_desc": "Giúp chúng tôi hiểu cách khách truy cập tương tác với website.",
+    "marketing_title": "Marketing",
     "marketing_desc": "Được sử dụng để hiển thị quảng cáo phù hợp và theo dõi chiến dịch.",
     "back": "Quay lại",
     "save_preferences": "Lưu tùy chọn",
@@ -565,25 +565,25 @@
     "intro_title": "Giới thiệu",
     "intro_content": "Tại Blok Blok Studio, chúng tôi coi trọng quyền riêng tư của bạn. Chính sách này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn truy cập website hoặc sử dụng dịch vụ.",
     "data_collection_title": "Dữ liệu chúng tôi thu thập",
-    "data_collection_intro": "Chúng tôi thu thập thông tin bạn cung cấp trực tiếp khi điền vào biểu mẫu trên website:",
+    "data_collection_intro": "Chúng tôi thu thập thông tin bạn cung cấp trực tiếp khi điền form trên website:",
     "data_item_name": "Tên",
     "data_item_email": "Địa chỉ email",
     "data_item_industry": "Ngành / lĩnh vực",
-    "data_item_website": "URL website (tùy chọn)",
+    "data_item_website": "URL website (không bắt buộc)",
     "data_item_problem": "Chi tiết dự án và thách thức",
-    "data_item_budget": "Khoảng ngân sách và thời gian mong muốn (khi bạn cho chúng tôi biết trên form yêu cầu)",
+    "data_item_budget": "Khoảng ngân sách và thời gian mong muốn (khi bạn cho chúng tôi biết trên form liên hệ)",
     "data_item_marketing_consent": "Việc bạn có tích vào ô nhận email marketing tùy chọn hay không, và thời điểm bạn xác nhận",
     "data_item_ip": "Địa chỉ IP (chỉ để xác minh sự đồng ý)",
     "data_use_title": "Cách chúng tôi sử dụng dữ liệu",
     "data_use_intro": "Chúng tôi sử dụng thông tin thu thập để:",
     "use_item_respond": "Trả lời câu hỏi và cung cấp dịch vụ được yêu cầu",
-    "use_item_marketing": "Gửi truyền thông marketing (chỉ với sự đồng ý rõ ràng)",
+    "use_item_marketing": "Gửi thông tin marketing (chỉ khi có sự đồng ý rõ ràng của bạn)",
     "use_item_improve": "Cải thiện website và dịch vụ",
     "use_item_legal": "Tuân thủ nghĩa vụ pháp lý",
     "third_parties_title": "Dịch vụ bên thứ ba",
     "third_parties_intro": "Chúng tôi sử dụng các dịch vụ bên thứ ba sau để vận hành:",
-    "third_party_resend": "Resend, để gửi truyền thông email",
-    "third_parties_note": "Các dịch vụ này chỉ nhận dữ liệu tối thiểu cần thiết cho chức năng.",
+    "third_party_resend": "Resend, để gửi email",
+    "third_parties_note": "Các dịch vụ này chỉ nhận lượng dữ liệu tối thiểu cần thiết để hoạt động.",
     "retention_title": "Lưu giữ dữ liệu",
     "retention_content": "Chúng tôi lưu giữ dữ liệu cá nhân trong thời gian cần thiết để cung cấp dịch vụ và duy trì mối quan hệ kinh doanh. Bạn có thể yêu cầu xóa dữ liệu bất cứ lúc nào qua trang Quyền Dữ liệu.",
     "your_rights_title": "Quyền của bạn (GDPR)",
@@ -616,7 +616,7 @@
     "third_party_vercel": "Vercel: hosting website và ứng dụng (Hoa Kỳ; áp dụng các khuôn khổ bảo vệ dữ liệu và SCC)",
     "third_party_slack": "Slack: thông báo nội bộ cho đội ngũ về yêu cầu mới (giới hạn ở tên, email, số điện thoại và loại hình doanh nghiệp)",
     "third_party_turnstile": "Cloudflare Turnstile: chống spam trên các form của chúng tôi (xử lý địa chỉ IP của bạn)",
-    "third_party_cal": "Cal.com, đặt lịch hẹn khi bạn đặt cuộc gọi với chúng tôi",
+    "third_party_cal": "Google Calendar: đặt lịch hẹn khi bạn đặt cuộc gọi với chúng tôi",
     "third_party_meta": "Meta (Facebook/Instagram): đo lường quảng cáo, chỉ khi bạn đồng ý cookie marketing. Với sự đồng ý đó, chúng tôi cũng có thể truyền địa chỉ email và số điện thoại của bạn ở dạng băm (ẩn danh hóa) để đo lường chuyển đổi quảng cáo.",
     "third_party_google": "Google: đo lường quảng cáo (Google Ads), chỉ khi bạn đồng ý cookie marketing",
     "marketing_double_optin": "Email marketing sử dụng cơ chế xác nhận hai bước (double opt-in). Chỉ tích vào ô tùy chọn trên form là chưa đủ: chúng tôi gửi một email xác nhận, và bạn chỉ được thêm vào danh sách sau khi bấm vào liên kết trong đó. Trước thời điểm ấy, chúng tôi không gửi email marketing cho bạn. Bạn có thể rút lại bất cứ lúc nào bằng liên kết hủy đăng ký trong mọi email, có hiệu lực ngay lập tức."
@@ -630,7 +630,7 @@
     "services_title": "Dịch vụ",
     "services_content": "Blok Blok Studio cung cấp dịch vụ thiết kế, phát triển và marketing số. Điều khoản, sản phẩm bàn giao và giá cả cụ thể được nêu trong từng hợp đồng và đề xuất.",
     "user_responsibilities_title": "Trách nhiệm người dùng",
-    "user_responsibilities_content": "Bạn đồng ý cung cấp thông tin chính xác khi sử dụng biểu mẫu và dịch vụ, và sử dụng website hợp pháp theo các điều khoản này.",
+    "user_responsibilities_content": "Bạn đồng ý cung cấp thông tin chính xác khi sử dụng form và dịch vụ, và sử dụng website hợp pháp theo các điều khoản này.",
     "ip_title": "Sở hữu trí tuệ",
     "ip_content": "Mọi nội dung trên website, bao gồm thiết kế, văn bản, đồ họa và mã, thuộc sở hữu của Blok Blok Studio trừ khi có ghi chú khác. Quyền sở hữu tác phẩm khách hàng được xác định trong từng hợp đồng dự án.",
     "liability_title": "Giới hạn trách nhiệm",
@@ -655,11 +655,11 @@
     "intro_title": "Cookie là gì",
     "intro_content": "Cookie là các tệp văn bản nhỏ được lưu trên thiết bị khi bạn truy cập website. Chúng giúp website ghi nhớ tùy chọn của bạn và cải thiện trải nghiệm duyệt web.",
     "our_use_title": "Cách chúng tôi sử dụng cookie",
-    "our_use_content": "Chúng tôi ưu tiên quyền riêng tư. Theo mặc định, chúng tôi chỉ dùng localStorage (cơ chế lưu trữ của trình duyệt) để ghi nhớ lựa chọn đồng ý cookie của bạn. Pixel quảng cáo tùy chọn chỉ được tải nếu bạn chấp nhận cookie tiếp thị.",
+    "our_use_content": "Chúng tôi ưu tiên quyền riêng tư. Chúng tôi đặt hai cookie thiết yếu nhỏ, một để ghi nhớ ngôn ngữ và một để ghi nhớ quốc gia của bạn nhằm hiển thị giá đúng loại tiền tệ, đồng thời dùng localStorage (cơ chế lưu trữ của trình duyệt) để ghi nhớ lựa chọn đồng ý cookie của bạn. Pixel quảng cáo tùy chọn chỉ được tải nếu bạn chấp nhận cookie marketing.",
     "third_party_title": "Cookie bên thứ ba",
-    "third_party_content": "Nếu bạn chấp nhận cookie tiếp thị, chúng tôi sẽ tải pixel quảng cáo của Meta (Facebook) và Google để đo lường hiệu quả các chiến dịch quảng cáo. Nếu bạn từ chối, không có cookie bên thứ ba nào được đặt khi bạn truy cập trang web của chúng tôi.",
+    "third_party_content": "Nếu bạn chấp nhận cookie marketing, chúng tôi sẽ tải pixel quảng cáo của Meta (Facebook) và Google để đo lường hiệu quả các chiến dịch quảng cáo. Nếu bạn từ chối, không có cookie bên thứ ba nào được đặt khi bạn truy cập website của chúng tôi.",
     "control_title": "Quản lý cookie",
-    "control_content": "Bạn có thể quản lý cookie qua cài đặt trình duyệt. Hầu hết trình duyệt cho phép chặn hoặc xóa cookie. Lưu ý xóa localStorage sẽ reset tùy chọn đồng ý cookie.",
+    "control_content": "Bạn có thể quản lý cookie qua cài đặt trình duyệt. Hầu hết trình duyệt cho phép chặn hoặc xóa cookie. Lưu ý xóa localStorage sẽ đặt lại tùy chọn đồng ý cookie.",
     "updates_title": "Cập nhật chính sách",
     "updates_content": "Nếu chúng tôi bắt đầu sử dụng công nghệ phân tích hoặc theo dõi trong tương lai, chúng tôi sẽ cập nhật chính sách và thông báo qua banner đồng ý cookie trước khi mọi việc theo dõi diễn ra.",
     "storage_title": "Chi tiết Cookie & Lưu trữ",
@@ -681,7 +681,7 @@
     "headline_a": "Nơi doanh nghiệp của bạn âm thầm mất khách hàng",
     "headline_b": " (và cách khắc phục)",
     "sub": "Trả lời năm câu hỏi nhanh và chúng tôi sẽ chỉ ra điều cần sửa trước tiên. Sau đó bạn chọn giờ hẹn. Mất khoảng một phút.",
-    "proof": "Studio thiết kế web tại Berlin. Yêu cầu tư vấn của Coach Kofi tăng 200% sau khi ra mắt. Một thợ ống nước năm đầu tiên đạt doanh thu 50.000 $ trong năm tháng.",
+    "proof": "Studio thiết kế web tại Berlin. Yêu cầu tư vấn của Coach Kofi tăng 200% sau khi ra mắt. Một khách hàng ngành ống nước mới hoạt động năm đầu đạt 50.000 USD doanh thu gộp trong năm tháng.",
     "progress": "Câu hỏi {current} / {total}",
     "continue": "Tiếp tục",
     "back": "Quay lại",
@@ -709,7 +709,7 @@
     "placeholder_phone": "912 345 678",
     "well_call": "Chúng tôi sẽ gọi {number}",
     "consent_pre": "Tôi đồng ý với",
-    "consent_link": "Chính sách bảo mật",
+    "consent_link": "Chính sách Bảo mật",
     "consent_post": "và đồng ý được liên hệ về yêu cầu của mình.",
     "optional": "(không bắt buộc)",
     "cta": "Đặt lịch gọi",
@@ -719,14 +719,14 @@
       "coaching_consulting": "Huấn luyện / Tư vấn",
       "e_commerce_online_store": "Thương mại điện tử / Cửa hàng online",
       "saas_software": "SaaS / Phần mềm",
-      "agency_marketing": "Agency quảng cáo / Marketing",
+      "agency_marketing": "Agency / Marketing",
       "real_estate": "Bất động sản",
-      "healthcare_medical": "Y tế / Sức khỏe",
+      "healthcare_medical": "Y tế / Khám chữa bệnh",
       "legal_law_firm": "Pháp lý / Văn phòng luật",
       "financial_services": "Dịch vụ tài chính",
       "education_training": "Giáo dục / Đào tạo",
       "restaurant_food_beverage": "Nhà hàng / Thực phẩm",
-      "fitness_wellness": "Thể hình / Chăm sóc sức khỏe",
+      "fitness_wellness": "Thể hình / Sức khỏe",
       "construction_trades": "Xây dựng / Thi công",
       "beauty_salon_spa": "Làm đẹp / Salon / Spa",
       "content_creator_influencer": "Nhà sáng tạo nội dung / Influencer",
@@ -741,7 +741,7 @@
       "new_website": "Website mới",
       "website_redesign": "Thiết kế lại website",
       "e_commerce": "Thương mại điện tử",
-      "landing_page": "Trang đích",
+      "landing_page": "Landing page",
       "google_ads": "Google Ads",
       "meta_ads": "Meta Ads",
       "social_media": "Mạng xã hội",
@@ -807,19 +807,19 @@
     },
     "budget_ads": {
       "0": {
-        "label": "Dưới {amount} / tháng chi phí quảng cáo",
+        "label": "Chi phí quảng cáo dưới {amount} / tháng",
         "hint": "Thử nghiệm ban đầu"
       },
       "1": {
-        "label": "{from} – {to} / tháng chi phí quảng cáo",
+        "label": "Chi phí quảng cáo {from} – {to} / tháng",
         "hint": "Một nền tảng, vận hành bài bản"
       },
       "2": {
-        "label": "{from} – {to} / tháng chi phí quảng cáo",
-        "hint": "Cả hai nền tảng, hoặc mở rộng một"
+        "label": "Chi phí quảng cáo {from} – {to} / tháng",
+        "hint": "Cả hai nền tảng, hoặc mở rộng quy mô một nền tảng"
       },
       "3": {
-        "label": "{amount}+ / tháng chi phí quảng cáo",
+        "label": "Chi phí quảng cáo {amount}+ / tháng",
         "hint": "Quy mô lớn"
       }
     },
@@ -865,47 +865,47 @@
     "standard_wcag": "<strong>WCAG 2.2 Mức AA</strong>, chuẩn nền tảng quốc tế về khả năng tiếp cận web do W3C duy trì.",
     "standard_en301549": "<strong>EN 301 549</strong>, tiêu chuẩn hài hòa của châu Âu về khả năng tiếp cận CNTT-TT, nền tảng của Đạo luật Tiếp cận châu Âu.",
     "standard_eaa": "<strong>Đạo luật Tiếp cận châu Âu của EU (Chỉ thị 2019/882)</strong>, áp dụng cho các dịch vụ số hướng tới người tiêu dùng tại EU từ ngày 28 tháng 6 năm 2025.",
-    "standard_ada": "<strong>Đạo luật Người khuyết tật Hoa Kỳ (ADA), Tiêu đề III</strong>, nghĩa vụ về khả năng tiếp cận đối với website thương mại công khai tại Hoa Kỳ.",
-    "standard_508": "<strong>Mục 508 của Đạo luật Phục hồi Hoa Kỳ</strong>, yêu cầu đối với các cơ quan liên bang và nhà thầu, mà chúng tôi coi là chuẩn nền cho các dự án liên quan đến liên bang.",
+    "standard_ada": "<strong>Đạo luật Người khuyết tật Hoa Kỳ (ADA), Phần III (Title III)</strong>, nghĩa vụ về khả năng tiếp cận đối với các website thương mại hướng tới công chúng tại Hoa Kỳ.",
+    "standard_508": "<strong>Section 508 của Đạo luật Phục hồi Hoa Kỳ</strong>, yêu cầu đối với các cơ quan liên bang và nhà thầu, mà chúng tôi coi là chuẩn nền cho các dự án liên quan đến liên bang.",
     "measures_title": "Các biện pháp chúng tôi thực hiện",
     "measures_intro": "Khả năng tiếp cận là một phần trong cách chúng tôi thiết kế và xây dựng, không phải một lần kiểm tra rồi thôi. Cụ thể, trên website này:",
     "measure_landmarks": "Các landmark HTML ngữ nghĩa (<code>main</code>, <code>nav</code>, <code>header</code>, <code>footer</code>) trên mọi trang.",
-    "measure_skip_link": "Liên kết “bỏ qua đến nội dung chính” cho người dùng bàn phím.",
+    "measure_skip_link": "Liên kết “chuyển đến nội dung chính” cho người dùng bàn phím.",
     "measure_focus": "Chỉ báo focus hiển thị rõ trên mọi phần tử tương tác.",
     "measure_alt_text": "Văn bản thay thế cho mọi hình ảnh có ý nghĩa.",
     "measure_forms": "Form có nhãn liên kết, thông báo trường bắt buộc và thông báo lỗi nội tuyến được hiển thị qua <code>aria-describedby</code> và <code>role=“alert”</code>.",
     "measure_dialogs": "Menu di động và hộp thoại modal có quản lý focus bàn phím và đóng bằng phím Escape.",
     "measure_reduced_motion": "Tôn trọng thiết lập <code>prefers-reduced-motion</code> trong hệ điều hành của bạn.",
-    "measure_contrast": "Độ tương phản màu đạt hoặc vượt WCAG AA (4.5:1 cho văn bản chính).",
+    "measure_contrast": "Độ tương phản màu đạt hoặc vượt WCAG AA (4,5:1 cho văn bản chính).",
     "measure_rtl": "Bố cục phải sang trái cho tiếng Ả Rập, và bộ chuyển ngôn ngữ hiển thị từng tùy chọn bằng chính ngôn ngữ và hướng viết của nó.",
-    "measure_languages": "Website có 19 ngôn ngữ để người không nói tiếng Anh có thể dùng bằng ngôn ngữ họ tư duy.",
+    "measure_languages": "Website có 20 ngôn ngữ để người không nói tiếng Anh có thể dùng bằng ngôn ngữ họ tư duy.",
     "limitations_title": "Hạn chế đã biết",
     "limitations_intro": "Dù đã nỗ lực hết sức, một số nội dung trên website này có thể chưa hoàn toàn tiếp cận được. Các vấn đề đã biết mà chúng tôi đang khắc phục:",
-    "limitation_third_party": "<strong>Nội dung nhúng của bên thứ ba</strong>, CAPTCHA Cloudflare Turnstile và iframe đặt lịch Cal.com kế thừa hành vi tiếp cận riêng từ nhà cung cấp. Chúng tôi theo dõi mức tuân thủ của họ với từng nhà cung cấp.",
+    "limitation_third_party": "<strong>Nội dung nhúng của bên thứ ba</strong>, CAPTCHA Cloudflare Turnstile và trang đặt lịch Google Calendar kế thừa hành vi tiếp cận riêng từ nhà cung cấp. Chúng tôi theo dõi mức tuân thủ của họ với từng nhà cung cấp.",
     "limitation_motion": "<strong>Chuyển động trang trí</strong>, các hiệu ứng nền được tắt khi <code>prefers-reduced-motion</code> được bật, nhưng một số ít tương tác vi mô hút theo con trỏ vẫn có thể chạy.",
-    "limitation_language": "<strong>Ngôn ngữ của tuyên bố</strong>, bản tiếng Anh của tuyên bố này là bản tham chiếu; các ngôn ngữ khác là bản dịch của nó. Bản thân trang web có sẵn bằng 20 ngôn ngữ.",
+    "limitation_language": "<strong>Ngôn ngữ của tuyên bố</strong>, bản tiếng Anh của tuyên bố này là bản tham chiếu; các ngôn ngữ khác là bản dịch của nó. Bản thân website có sẵn bằng 20 ngôn ngữ.",
     "feedback_title": "Phản hồi và liên hệ",
     "feedback_intro": "Nếu bạn gặp rào cản tiếp cận trên blokblokstudio.com, hoặc cần thông tin từ website này ở định dạng khác, vui lòng liên hệ với chúng tôi. Chúng tôi đặt mục tiêu phản hồi các góp ý về khả năng tiếp cận trong vòng <strong>năm ngày làm việc</strong>.",
     "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>Form trực tuyến:</strong> <link>Trang liên hệ</link>, vui lòng ghi “khả năng tiếp cận” trong tin nhắn của bạn.",
     "enforcement_title": "Thủ tục thực thi",
-    "enforcement_intro": "Blok Blok Studio đăng ký hoạt động tại Đức. Nếu bạn không hài lòng với phản hồi của chúng tôi về góp ý tiếp cận, bạn có thể khiếu nại theo khuôn khổ thực thi tại địa phương của mình:",
+    "enforcement_intro": "Blok Blok Studio đặt trụ sở tại Berlin, Đức. Nếu bạn không hài lòng với phản hồi của chúng tôi về góp ý tiếp cận, bạn có thể khiếu nại theo khuôn khổ thực thi tại địa phương của mình:",
     "enforcement_eu": "<strong>Liên minh châu Âu</strong>, cơ quan giám sát thị trường của quốc gia thành viên EU nơi bạn cư trú. EAA chỉ định một cơ quan quốc gia tại mỗi quốc gia thành viên.",
     "enforcement_germany": "<strong>Đức</strong>, Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
-    "enforcement_us": "<strong>Hoa Kỳ</strong>, Ban Dân quyền thuộc Bộ Tư pháp Hoa Kỳ cho khiếu nại ADA; Ủy ban Tiếp cận Hoa Kỳ (US Access Board) cho Mục 508.",
+    "enforcement_us": "<strong>Hoa Kỳ</strong>, Ban Dân quyền thuộc Bộ Tư pháp Hoa Kỳ cho khiếu nại ADA; Ủy ban Tiếp cận Hoa Kỳ (US Access Board) cho Section 508.",
     "preparation_title": "Tuyên bố này được chuẩn bị như thế nào",
     "preparation_content": "Tuyên bố này được chuẩn bị vào {date} thông qua tự đánh giá website theo WCAG 2.2 AA. Việc đánh giá kết hợp rà soát tự động trên website đang chạy với rà soát thủ công mã nguồn (cấu trúc ngữ nghĩa, điều hướng bàn phím, quản lý focus, cách dùng ARIA, độ tương phản màu, xử lý chuyển động và hướng ngôn ngữ). Chúng tôi rà soát lại website sau mỗi bản phát hành quan trọng.",
     "meta_description": "Blok Blok Studio cam kết bảo đảm khả năng tiếp cận số. Website của chúng tôi được xây dựng để đáp ứng WCAG 2.2 AA, ADA, Section 508 và Đạo luật Tiếp cận châu Âu của EU."
   },
   "thanks": {
     "brand": "BLOK BLOK",
-    "headline_named": "{name} ơi, đây là nơi chúng tôi sẽ bắt đầu",
+    "headline_named": "{name}, đây là nơi chúng tôi sẽ bắt đầu",
     "headline": "Đây là nơi chúng tôi sẽ bắt đầu",
     "headline_fallback": "Đã nhận. Còn một bước nữa.",
     "diagnosis_known": "Dựa trên những gì bạn chia sẻ về {industry}, đây là những phần chúng tôi sẽ cùng bạn xử lý trong cuộc gọi.",
     "diagnosis_unsure": "Bạn nói chưa chắc chắn, và đó là điểm khởi đầu hoàn toàn bình thường. Với {industry}, tiền thường nằm ở đây, nên đó là chỗ chúng tôi sẽ bắt đầu trong cuộc gọi.",
     "industry_fallback": "lĩnh vực của bạn",
-    "sub_fallback": "Chúng tôi đã nhận yêu cầu của bạn. Đặt ngay cuộc gọi 15 phút miễn phí; khung giờ sớm nhất dành cho ai đặt trước.",
+    "sub_fallback": "Chúng tôi đã nhận yêu cầu của bạn. Chọn khung giờ bên dưới để đặt cuộc gọi 15 phút miễn phí.",
     "cover_label": "Chúng ta sẽ bàn gì trong cuộc gọi",
     "cover_note": "Chúng tôi sẽ đi qua tất cả một cách đầy đủ trong cuộc gọi, gồm cả phạm vi và chi phí.",
     "calendar_title": "Đặt cuộc gọi làm quen miễn phí",
@@ -920,18 +920,18 @@
     "next_2_title": "Chúng tôi phân tích mọi thứ trong cuộc gọi",
     "next_2_desc": "Bạn đang mất khách ở đâu, cần sửa gì trước và cần những gì để làm được.",
     "next_3_title": "Chúng tôi xây, bạn tăng trưởng",
-    "next_3_desc": "Website, quảng cáo, mạng xã hội, hệ thống AI. Chúng tôi làm giúp bạn, lên sóng nhanh.",
+    "next_3_desc": "Website được xây, host và duy trì để luôn vận hành. Chúng tôi làm trọn gói, lên sóng nhanh.",
     "founder_kicker": "Bạn sẽ nói chuyện với ai",
     "founder_title": "Gặp nhà sáng lập",
     "clients_kicker": "Công việc và những con số",
-    "clients_title": "Khách hàng của chúng tôi",
+    "clients_title": "Gặp gỡ khách hàng của chúng tôi",
     "cta_title": "Muốn xem thêm dự án?",
-    "cta_sub": "Toàn bộ portfolio, đội ngũ và cách chúng tôi làm việc đều có trên trang chính.",
+    "cta_sub": "Toàn bộ portfolio, đội ngũ và cách chúng tôi làm việc đều có trên website chính.",
     "cta_button": "Truy cập blokblokstudio.com",
     "work": {
       "site": {
         "title": "Một website cho một mục tiêu duy nhất",
-        "detail": "Phát triển Next.js theo yêu cầu, không phải mẫu có sẵn. Mỗi trang đều hướng tới một hành động: đặt lịch gọi, đặt hàng hoặc thanh toán."
+        "detail": "Website Next.js xây riêng, không dùng template. Mỗi trang đều hướng tới một hành động duy nhất: đặt lịch gọi, đặt hàng hoặc thanh toán."
       },
       "redesign": {
         "title": "Xây tiếp trên những gì đã hiệu quả",
@@ -954,7 +954,7 @@
         "detail": "Chiến dịch Facebook và Instagram đưa lời chào hàng của bạn tới đúng người trước khi đối thủ làm điều đó."
       },
       "social": {
-        "title": "Mạng xã hội dẫn tới đâu đó",
+        "title": "Mạng xã hội có đích đến",
         "detail": "Clip, phụ đề và bài đăng cắt từ tư liệu bạn đã có, làm ra để đưa người xem về website chứ không chỉ lấp đầy bảng tin."
       },
       "booking": {
@@ -968,15 +968,15 @@
     },
     "founder_speaker": "Chase Haynes, nhà sáng lập",
     "founder_soon": "Đôi lời từ Chase, sắp ra mắt.",
-    "founder_caption": "Chase Haynes, nhà sáng lập Blok Blok Studio. Bạn trao đổi trực tiếp với người xây dựng trang web của bạn, không phải với quản lý tài khoản.",
+    "founder_caption": "Chase Haynes, nhà sáng lập Blok Blok Studio. Bạn trao đổi trực tiếp với người xây dựng website của bạn, không phải với quản lý tài khoản.",
     "meta_title": "Còn một bước nữa",
     "meta_description": "Đặt cuộc gọi làm quen 15 phút miễn phí của bạn."
   },
   "ui": {
     "footer_contact": "Liên hệ",
-    "footer_privacy": "Chính sách bảo mật",
-    "footer_terms": "Điều khoản dịch vụ",
-    "footer_cookies": "Chính sách cookie",
+    "footer_privacy": "Chính sách Bảo mật",
+    "footer_terms": "Điều khoản Dịch vụ",
+    "footer_cookies": "Chính sách Cookie",
     "footer_impressum": "Thông tin pháp lý",
     "read_transcript": "Đọc bản ghi",
     "loading": "Đang tải",
@@ -990,36 +990,36 @@
     "whatsapp_aria": "Nhắn tin cho chúng tôi trên WhatsApp (mở tab mới)",
     "proj_not_found": "Không tìm thấy dự án",
     "proj_back": "Quay lại danh sách dự án",
-    "proj_visit": "Xem trang web thật",
-    "proj_live": "Trang đang chạy",
+    "proj_visit": "Xem website thật",
+    "proj_live": "Website thật",
     "proj_take_look": "Xem thử",
-    "proj_open_live": "Mở trang thật",
-    "proj_live_lower": "Trang đang chạy",
+    "proj_open_live": "Mở website thật",
+    "proj_live_lower": "Website thật",
     "proj_testimonial": "Nghe từ khách hàng",
     "proj_gallery": "Thư viện dự án",
     "proj_next": "Dự án tiếp theo",
     "cases_kicker": "Công việc và những con số",
     "cases_sub": "Khách hàng nói trước ống kính, doanh thu có số liệu. Làm việc với chúng tôi thực sự như thế nào.",
-    "cases_view": "Xem tình huống thực tế",
+    "cases_view": "Xem nghiên cứu điển hình",
     "mockup_all": "Các dự án của Blok Blok Studio trên MacBook, iPad và iPhone",
     "mockup_bronco": "Bronco Plumbing trên iPad",
-    "mockup_kofi_desktop": "Trang web Coach Kofi trên MacBook",
+    "mockup_kofi_desktop": "Website Coach Kofi trên MacBook",
     "mockup_kofi_mobile": "Coach Kofi bản di động trên iPhone",
     "about_design": "Thiết kế",
     "about_development": "Phát triển",
     "about_strategy": "Chiến lược",
-    "about_branding": "Thương hiệu",
+    "about_branding": "Xây dựng thương hiệu",
     "about_tagline": "Chúng tôi xây dựng những thương hiệu nổi bật",
     "faq_title": "Câu hỏi thường gặp",
     "faq_sub": "Mọi điều bạn cần biết khi làm việc với chúng tôi",
-    "who_title": "Chúng tôi làm cho ai",
-    "who_sub": "Mỗi ngành chuyển đổi một kiểu. Đây là cách chúng tôi triển khai, kèm số liệu thực tế của khách hàng.",
+    "who_title": "Chúng tôi xây dựng cho ai",
+    "who_sub": "Mỗi ngành chuyển đổi theo một cách khác nhau. Đây là những công thức chúng tôi áp dụng, kèm số liệu thực tế của khách hàng.",
     "start_project": "Bắt đầu dự án của bạn",
     "contact_location": "Địa điểm",
     "available": "Đang nhận dự án mới",
     "aria_business": "Loại hình kinh doanh",
     "aria_budget": "Ngân sách",
-    "aria_timeline": "Dòng thời gian",
+    "aria_timeline": "Thời gian",
     "proj_live_click": "Nhấp và cuộn trên website thật bên dưới",
     "proj_live_scroll": "Cuộn qua website thật bên dưới",
     "proj_live_hint_embed": "Nhấp vào liên kết và điều hướng như đang ở trên website thật, hoặc mở trong tab mới.",
@@ -1032,9 +1032,9 @@
     "rights": "Bảo lưu mọi quyền."
   },
   "onboard": {
-    "title": "Thiết lập khách hàng mới",
-    "sub": "Cùng chuẩn bị mọi thứ để bắt tay vào việc ngay.",
-    "loading": "Đang tải phần thiết lập của bạn...",
+    "title": "Tiếp nhận khách hàng mới",
+    "sub": "Cùng chuẩn bị mọi thứ để chúng tôi có thể bắt đầu ngay từ ngày đầu tiên.",
+    "loading": "Đang tải phần tiếp nhận của bạn...",
     "unavailable": "Liên kết không khả dụng",
     "done": "Xong hết rồi!",
     "done_sub": "Bạn có muốn thiết lập phương thức thanh toán để chúng tôi bắt đầu ngay không?",
@@ -1042,7 +1042,7 @@
     "coming_soon": "Sắp có",
     "submitting": "Đang gửi...",
     "contacts": "Người liên hệ",
-    "contacts_sub": "Chúng tôi nên trao đổi với ai trong đội của bạn?",
+    "contacts_sub": "Chúng tôi nên trao đổi với ai trong đội ngũ của bạn?",
     "primary": "Chính",
     "remove": "Xóa",
     "add_contact": "Thêm người liên hệ",
@@ -1061,7 +1061,7 @@
     "f_timezone": "Múi giờ:",
     "f_telegram": "ID Telegram:",
     "f_notes": "Ghi chú:",
-    "f_brand": "Nguyên tắc thương hiệu:",
+    "f_brand": "Hướng dẫn thương hiệu:",
     "ph_phone": "Số điện thoại",
     "ph_role": "vd. CEO, Giám đốc Marketing",
     "ph_url": "vd. https://trang-cua-ban.com/wp-admin",
@@ -1071,7 +1071,18 @@
     "ph_telegram": "vd. 123456789",
     "ph_notes": "Bất cứ điều gì chúng tôi nên biết về dự án, sở thích hoặc cách bạn làm việc...",
     "ph_brand": "Cách dùng logo, màu thương hiệu, phông chữ, giọng điệu, nên và không nên...",
-    "meta_description": "Hoàn tất quy trình thiết lập để bắt đầu với Blok Blok Studio."
+    "meta_description": "Hoàn tất quy trình tiếp nhận để bắt đầu với Blok Blok Studio.",
+    "f_name": "Họ và tên",
+    "f_role": "Vai trò / chức danh",
+    "f_email": "Email",
+    "f_phone": "Điện thoại",
+    "f_platform": "Nền tảng",
+    "f_username": "Tên đăng nhập / email",
+    "f_password": "Mật khẩu",
+    "f_url_optional": "URL (không bắt buộc)",
+    "f_notes_optional": "Ghi chú (không bắt buộc)",
+    "f_url": "URL",
+    "ph_select": "Chọn..."
   },
   "pricing": {
     "packages": "GÓI DỊCH VỤ",
@@ -1085,13 +1096,13 @@
     "hero_title_em": "ghi rõ từng dòng.",
     "hero_sub": "Website, ứng dụng, tự động hóa, quảng cáo, thương hiệu và quản lý mạng xã hội ứng dụng AI. Mỗi dự án đều được báo giá riêng theo phạm vi của bạn, với các hạng mục bàn giao ghi rõ bằng văn bản để cả hai bên đều biết chính xác mình đang xây dựng điều gì.",
     "tabs": {
-      "web": "Phát triển Web",
-      "app": "Phát triển Ứng dụng",
+      "web": "Phát triển web",
+      "app": "Phát triển ứng dụng",
       "social": "Mạng xã hội",
       "marketing": "Marketing",
       "aiAgents": "AI Agent",
-      "saas": "SaaS Tùy chỉnh",
-      "branding": "Chiến lược Thương hiệu"
+      "saas": "SaaS tùy chỉnh",
+      "branding": "Chiến lược thương hiệu"
     },
     "sections": {
       "oneTime": "Dự án Một lần",
@@ -1119,7 +1130,7 @@
         {
           "name": "Ra mắt Một trang",
           "price": 2000,
-          "disp": "$2,000",
+          "disp": "2.000 USD",
           "tag": "Phù hợp cho sự hiện diện trực tuyến đơn giản",
           "tl": "2 đến 3 tuần",
           "scope": [
@@ -1140,23 +1151,23 @@
               "l": "2 vòng chỉnh sửa. Một “vòng” = 1 bộ phản hồi tổng hợp. Phản hồi phải được gửi trong vòng 5 ngày làm việc sau mỗi lần xem xét. Không nhận phản hồi lẻ tẻ qua nhiều email."
             },
             {
-              "i": "Nội dung & bài viết",
-              "l": "Khách hàng cung cấp toàn bộ nội dung chữ (tiêu đề, nội dung, tiểu sử, mô tả dịch vụ). Chúng tôi lo bố cục, định dạng và sắp xếp. Nếu cần viết nội dung, có thể bổ sung với giá $200/trang."
+              "i": "Nội dung & văn bản",
+              "l": "Khách hàng cung cấp toàn bộ nội dung chữ (tiêu đề, nội dung, tiểu sử, mô tả dịch vụ). Chúng tôi lo bố cục, định dạng và sắp xếp. Nếu cần viết nội dung, có thể bổ sung với giá 200 USD/trang."
             }
           ],
           "ov": [
-            "Thêm vòng chỉnh sửa: $300",
-            "Viết nội dung: $200/trang",
-            "Thêm phần nội dung: $250"
+            "Thêm vòng chỉnh sửa: 300 USD",
+            "Viết nội dung: 200 USD/trang",
+            "Thêm phần nội dung: 250 USD"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (Net 7). Hoàn thành khi khách hàng duyệt HOẶC sau 2 vòng chỉnh sửa. Sau khi duyệt: $175/giờ.",
-          "bridge": "Bao gồm 14 ngày theo dõi sau ra mắt (sửa lỗi và tinh chỉnh nhỏ). Cần thêm trang hoặc tính năng? Nâng cấp lên gói Ra mắt Khởi đầu ($6,500) để có website 5 trang đầy đủ kèm AI chat và thiết lập CRM.",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi khách hàng duyệt HOẶC sau 2 vòng chỉnh sửa. Sau khi duyệt: 175 USD/giờ.",
+          "bridge": "Bao gồm 14 ngày theo dõi sau ra mắt (sửa lỗi và tinh chỉnh nhỏ). Cần thêm trang hoặc tính năng? Nâng cấp lên gói Ra mắt Khởi đầu (6.500 USD) để có website 5 trang đầy đủ kèm AI chat và thiết lập CRM.",
           "ideal": "Dự án phụ, thương hiệu cá nhân, landing page đơn giản"
         },
         {
           "name": "Ra mắt Khởi đầu",
           "price": 6500,
-          "disp": "$6,500",
+          "disp": "6.500 USD",
           "tag": "Phù hợp cho doanh nghiệp mới",
           "tl": "4 đến 6 tuần",
           "scope": [
@@ -1185,25 +1196,25 @@
               "l": "2 vòng chỉnh sửa cho mỗi trang. Một “vòng” = 1 bộ phản hồi tổng hợp. Phản hồi phải được gửi trong vòng 5 ngày làm việc sau mỗi lần xem xét. Không nhận phản hồi lẻ tẻ qua nhiều email."
             },
             {
-              "i": "Nội dung & bài viết",
-              "l": "Khách hàng cung cấp toàn bộ nội dung chữ (tiêu đề, nội dung, tiểu sử, mô tả dịch vụ). Chúng tôi lo bố cục, định dạng và sắp xếp. Nếu cần viết nội dung, có thể bổ sung với giá $200/trang."
+              "i": "Nội dung & văn bản",
+              "l": "Khách hàng cung cấp toàn bộ nội dung chữ (tiêu đề, nội dung, tiểu sử, mô tả dịch vụ). Chúng tôi lo bố cục, định dạng và sắp xếp. Nếu cần viết nội dung, có thể bổ sung với giá 200 USD/trang."
             }
           ],
           "ov": [
-            "Thêm trang: $500/trang",
-            "Thêm vòng chỉnh sửa: $300",
-            "Viết nội dung: $200/trang",
-            "Thêm cặp hỏi đáp (trên 25): $250/đợt",
-            "Thêm tự động hóa: $350/cái"
+            "Thêm trang: 500 USD/trang",
+            "Thêm vòng chỉnh sửa: 300 USD",
+            "Viết nội dung: 200 USD/trang",
+            "Thêm cặp hỏi đáp (trên 25): 250 USD/đợt",
+            "Thêm tự động hóa: 350 USD/cái"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (Net 7). Hoàn thành khi khách hàng duyệt HOẶC sau 2 vòng chỉnh sửa. Sau khi duyệt: $175/giờ.",
-          "bridge": "Bao gồm 30 ngày theo dõi sau ra mắt (sửa lỗi, kiểm tra chatbot, tình trạng CRM). Sau ngày 30, việc bảo trì, cập nhật và tinh chỉnh AI chuyển sang gói Duy trì & Giám sát ($1,500/tháng) để hệ thống của bạn luôn được tối ưu.",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi khách hàng duyệt HOẶC sau 2 vòng chỉnh sửa. Sau khi duyệt: 175 USD/giờ.",
+          "bridge": "Bao gồm 30 ngày theo dõi sau ra mắt (sửa lỗi, kiểm tra chatbot, tình trạng CRM). Sau ngày 30, việc bảo trì, cập nhật và tinh chỉnh AI chuyển sang gói Duy trì & Giám sát (1.500 USD/tháng) để hệ thống của bạn luôn được tối ưu.",
           "ideal": "Startup, người kinh doanh độc lập, doanh nghiệp địa phương"
         },
         {
           "name": "Tăng tốc Tăng trưởng",
           "price": 12000,
-          "disp": "$12,000",
+          "disp": "12.000 USD",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
           "tl": "6 đến 8 tuần",
@@ -1221,7 +1232,7 @@
               "l": "1 chatbot AI được huấn luyện trên 50 cặp hỏi đáp. Bao gồm tích hợp đặt lịch hẹn (kết nối Google Calendar hoặc Calendly của bạn). Thu thập lead và tự động đưa vào CRM. Cấu hình lời chào tùy chỉnh, câu trả lời dự phòng và tin nhắn ngoài giờ. Chatbot nhúng trên 3 trang của website."
             },
             {
-              "i": "Agent thoại AI",
+              "i": "AI voice agent",
               "l": "1 AI voice agent nhận cuộc gọi đến, sàng lọc khách hàng tiềm năng và đặt lịch hẹn. Viết và cấu hình 1 kịch bản cuộc gọi tùy chỉnh. Bao gồm 500 phút gọi trong tháng đầu tiên. Bản ghi âm cuộc gọi lưu trong CRM của bạn. Bao gồm định tuyến cuộc gọi cơ bản (chuyển sang bạn nếu AI không xử lý được)."
             },
             {
@@ -1238,36 +1249,36 @@
             },
             {
               "i": "Chỉnh sửa thiết kế",
-              "l": "3 vòng chỉnh sửa cho mỗi hạng mục (trang web, tài sản thương hiệu, mẫu quảng cáo và dashboard). Một “vòng” = 1 bộ phản hồi tổng hợp gửi trong vòng 5 ngày làm việc."
+              "l": "3 vòng chỉnh sửa cho mỗi hạng mục (các trang website, tài sản thương hiệu, mẫu quảng cáo và dashboard). Một “vòng” = 1 bộ phản hồi tổng hợp gửi trong vòng 5 ngày làm việc."
             },
             {
-              "i": "Nội dung & bài viết",
-              "l": "Chúng tôi viết nội dung cho trang chủ và trang dịch vụ (tổng 1,500 từ). Nội dung các trang khác do bạn cung cấp. Blog CMS bàn giao trống để bạn hoặc đội ngũ tự đăng bài, hoặc bổ sung gói nội dung của chúng tôi."
+              "i": "Nội dung & văn bản",
+              "l": "Chúng tôi viết nội dung cho trang chủ và trang dịch vụ (tổng 1.500 từ). Nội dung các trang khác do bạn cung cấp. Blog CMS bàn giao trống để bạn hoặc đội ngũ tự đăng bài, hoặc bổ sung gói nội dung của chúng tôi."
             }
           ],
           "ov": [
-            "Thêm trang: $500/trang",
-            "Thêm chỉnh sửa: $300/vòng",
-            "Thêm chiến dịch quảng cáo: $1,500",
-            "Thêm kịch bản voice: $750",
-            "Tự động hóa (trên 8): $350/cái",
-            "Thêm landing page: $900",
-            "Viết nội dung ngoài phạm vi: $200/trang"
+            "Thêm trang: 500 USD/trang",
+            "Thêm chỉnh sửa: 300 USD/vòng",
+            "Thêm chiến dịch quảng cáo: 1.500 USD",
+            "Thêm kịch bản voice: 750 USD",
+            "Tự động hóa (trên 8): 350 USD/cái",
+            "Thêm landing page: 900 USD",
+            "Viết nội dung ngoài phạm vi: 200 USD/trang"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (Net 7). Hoàn thành khi duyệt HOẶC sau 3 vòng chỉnh sửa. Sau khi duyệt: $175/giờ.",
-          "bridge": "Bao gồm 30 ngày sau ra mắt: quản lý quảng cáo, giám sát AI và sửa lỗi. Sau ngày 30, quảng cáo, AI agent và tự động hóa của bạn cần được tối ưu liên tục để duy trì hiệu quả. Chúng tôi khuyến nghị gói Động cơ Tăng trưởng ($3,500/tháng) để giữ đà.",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi duyệt HOẶC sau 3 vòng chỉnh sửa. Sau khi duyệt: 175 USD/giờ.",
+          "bridge": "Bao gồm 30 ngày sau ra mắt: quản lý quảng cáo, giám sát AI và sửa lỗi. Sau ngày 30, quảng cáo, AI agent và tự động hóa của bạn cần được tối ưu liên tục để duy trì hiệu quả. Chúng tôi khuyến nghị gói Động cơ Tăng trưởng (3.500 USD/tháng) để giữ đà.",
           "ideal": "Doanh nghiệp đang tăng trưởng và mở rộng bằng hệ thống"
         },
         {
           "name": "Thống lĩnh Toàn diện",
           "price": 18000,
-          "disp": "$18,000+",
+          "disp": "18.000+ USD",
           "tag": "Cấp doanh nghiệp",
           "tl": "8 đến 12 tuần",
           "scope": [
             {
               "i": "Website cao cấp (15 trang + thương mại điện tử)",
-              "l": "15 trang được thiết kế đầy đủ, xây dựng bằng Next.js với headless CMS (Sanity hoặc Contentful). 6 hiệu ứng tùy chỉnh (cuộn parallax, hiệu ứng hover, chuyển trang, micro-interaction). Sẵn sàng bán hàng: 20 sản phẩm tích hợp Shopify hoặc Stripe, giỏ hàng và thanh toán. Bao gồm blog, trung tâm tài nguyên hoặc mục case study. SEO on-page đầy đủ, schema markup, thẻ Open Graph, sitemap XML và robots.txt. Bao gồm SSL, hosting Vercel và tối ưu CDN."
+              "l": "15 trang được thiết kế đầy đủ, xây dựng bằng Next.js với headless CMS (Sanity hoặc Contentful). 6 hiệu ứng tùy chỉnh (cuộn parallax, hiệu ứng hover, chuyển trang, micro-interaction). Sẵn sàng bán hàng: 20 sản phẩm tích hợp Shopify hoặc Stripe, giỏ hàng và thanh toán. Bao gồm blog, trung tâm tài nguyên hoặc mục nghiên cứu điển hình. SEO on-page đầy đủ, schema markup, thẻ Open Graph, sitemap XML và robots.txt. Bao gồm SSL, hosting Vercel và tối ưu CDN."
             },
             {
               "i": "Hệ thống thương hiệu hoàn chỉnh",
@@ -1279,7 +1290,7 @@
             },
             {
               "i": "Bộ AI hội thoại",
-              "l": "1 chatbot AI huấn luyện trên 100 cặp hỏi đáp, nhúng toàn site. Bao gồm đặt lịch hẹn, thu thập lead, xử lý FAQ và nhắn tin ngoài giờ. 1 AI voice agent với 2 kịch bản cuộc gọi tùy chỉnh (ví dụ: bán hàng inbound + xác nhận lịch hẹn). Bao gồm 1,000 phút gọi trong tháng đầu. Bản ghi âm cuộc gọi lưu trong CRM. 5 chuỗi tự động hóa SMS (ví dụ: nhắc lịch hẹn, follow-up sau cuộc gọi, xin đánh giá, tái tiếp cận, gửi khuyến mãi hàng loạt)."
+              "l": "1 chatbot AI huấn luyện trên 100 cặp hỏi đáp, nhúng trên toàn website. Bao gồm đặt lịch hẹn, thu thập lead, xử lý FAQ và nhắn tin ngoài giờ. 1 AI voice agent với 2 kịch bản cuộc gọi tùy chỉnh (ví dụ: bán hàng inbound + xác nhận lịch hẹn). Bao gồm 1.000 phút gọi trong tháng đầu. Bản ghi âm cuộc gọi lưu trong CRM. 5 chuỗi tự động hóa SMS (ví dụ: nhắc lịch hẹn, follow-up sau cuộc gọi, xin đánh giá, tái tiếp cận, gửi khuyến mãi hàng loạt)."
             },
             {
               "i": "Tự động hóa quy trình (tổng 15)",
@@ -1291,7 +1302,7 @@
             },
             {
               "i": "Hệ thống nội dung AI",
-              "l": "Cấu hình toàn bộ pipeline nội dung: quy trình video thành clip (tải video dài lên, AI tạo clip mạng xã hội), mẫu tạo bài blog với hỗ trợ AI và thiết lập lên lịch mạng xã hội trong Buffer hoặc Later. Sản xuất và đăng nội dung tháng đầu: 4 bài blog (tối đa 1,000 từ mỗi bài, tối ưu SEO) và 12 bài đăng mạng xã hội (hình ảnh + caption). Cung cấp mẫu lịch nội dung để dùng lâu dài."
+              "l": "Cấu hình toàn bộ pipeline nội dung: quy trình video thành clip (tải video dài lên, AI tạo clip mạng xã hội), mẫu tạo bài blog với hỗ trợ AI và thiết lập lên lịch mạng xã hội trong Buffer hoặc Later. Sản xuất và đăng nội dung tháng đầu: 4 bài blog (tối đa 1.000 từ mỗi bài, tối ưu SEO) và 12 bài đăng mạng xã hội (hình ảnh + caption). Cung cấp mẫu lịch nội dung để dùng lâu dài."
             },
             {
               "i": "Dashboard điều hành",
@@ -1303,21 +1314,21 @@
             },
             {
               "i": "Viết nội dung",
-              "l": "Viết nội dung chuyên nghiệp đầy đủ cho 10 trang web (tiêu đề, nội dung, CTA, mô tả meta). Khách hàng cung cấp tư liệu thô, ghi chú hoặc gạch đầu dòng cho các trang còn lại. Bao gồm viết nội dung quảng cáo cho toàn bộ chiến dịch Google và Meta."
+              "l": "Viết nội dung chuyên nghiệp đầy đủ cho 10 trang website (tiêu đề, nội dung, CTA, mô tả meta). Khách hàng cung cấp tư liệu thô, ghi chú hoặc gạch đầu dòng cho các trang còn lại. Bao gồm viết nội dung quảng cáo cho toàn bộ chiến dịch Google và Meta."
             }
           ],
           "ov": [
-            "Thêm trang: $500",
-            "Thêm chỉnh sửa: $350/vòng",
-            "Thêm AI agent: $2,500",
-            "Thêm chiến dịch quảng cáo: $1,500",
-            "Kịch bản voice: $750",
-            "Tự động hóa (trên 15): $400/cái",
-            "Sản phẩm (trên 20): $75/sản phẩm",
+            "Thêm trang: 500 USD",
+            "Thêm chỉnh sửa: 350 USD/vòng",
+            "Thêm AI agent: 2.500 USD",
+            "Thêm chiến dịch quảng cáo: 1.500 USD",
+            "Kịch bản voice: 750 USD",
+            "Tự động hóa (trên 15): 400 USD/cái",
+            "Sản phẩm (trên 20): 75 USD/sản phẩm",
             "Nội dung sau tháng 1: cần gói hàng tháng"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 25% ở mốc giữa dự án, 25% khi hoàn thành (Net 7). Hoàn thành khi duyệt HOẶC sau 3 vòng. Sau khi duyệt: $175/giờ.",
-          "bridge": "Bao gồm 45 ngày sau ra mắt: giám sát toàn diện, quản lý quảng cáo, tinh chỉnh AI và sửa lỗi. Sau ngày 45, hệ sinh thái AI, chiến dịch quảng cáo và hệ thống nội dung của bạn cần được quản lý liên tục để mang lại kết quả. Chúng tôi khuyến nghị gói Đối tác Toàn diện ($7,500/tháng) hoặc Động cơ Tăng trưởng ($3,500/tháng) tùy nhu cầu.",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 25% ở mốc giữa dự án, 25% khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi duyệt HOẶC sau 3 vòng. Sau khi duyệt: 175 USD/giờ.",
+          "bridge": "Bao gồm 45 ngày sau ra mắt: giám sát toàn diện, quản lý quảng cáo, tinh chỉnh AI và sửa lỗi. Sau ngày 45, hệ sinh thái AI, chiến dịch quảng cáo và hệ thống nội dung của bạn cần được quản lý liên tục để mang lại kết quả. Chúng tôi khuyến nghị gói Đối tác Toàn diện (7.500 USD/tháng) hoặc Động cơ Tăng trưởng (3.500 USD/tháng) tùy nhu cầu.",
           "ideal": "Doanh nghiệp đã ổn định muốn có hạ tầng AI hoàn chỉnh"
         }
       ],
@@ -1325,7 +1336,7 @@
         {
           "name": "Thiết lập Một nền tảng",
           "price": 1200,
-          "disp": "$1,200",
+          "disp": "1.200 USD",
           "tag": "Làm chuẩn một kênh",
           "tl": "3 đến 5 ngày",
           "scope": [
@@ -1335,7 +1346,7 @@
             },
             {
               "i": "Tối ưu hồ sơ",
-              "l": "Viết bio phù hợp với từng nền tảng (tối đa 150 ký tự cho IG, tối đa 2,000 cho LinkedIn, v.v.). Ảnh đại diện được chỉnh kích thước và tối ưu cho nền tảng. Ảnh bìa hoặc banner thiết kế riêng theo thương hiệu. Cấu hình mục nổi bật, highlight hoặc bài ghim (nếu có). Thiết lập thông tin liên hệ, link website, nút CTA và thẻ danh mục/ngành."
+              "l": "Viết bio phù hợp với từng nền tảng (tối đa 150 ký tự cho IG, tối đa 2.000 cho LinkedIn, v.v.). Ảnh đại diện được chỉnh kích thước và tối ưu cho nền tảng. Ảnh bìa hoặc banner thiết kế riêng theo thương hiệu. Cấu hình mục nổi bật, highlight hoặc bài ghim (nếu có). Thiết lập thông tin liên hệ, link website, nút CTA và thẻ danh mục/ngành."
             },
             {
               "i": "Tài sản nhận diện hình ảnh",
@@ -1359,20 +1370,20 @@
             }
           ],
           "ov": [
-            "Thêm nền tảng: $1,200/nền tảng",
-            "Thêm mẫu bài đăng: $100/mẫu",
-            "Thêm bài ra mắt (trên 4): $60/bài",
-            "Vòng chỉnh sửa: $175",
-            "Nội dung video (Reels/Shorts): $175/video"
+            "Thêm nền tảng: 1.200 USD/nền tảng",
+            "Thêm mẫu bài đăng: 100 USD/mẫu",
+            "Thêm bài ra mắt (trên 4): 60 USD/bài",
+            "Vòng chỉnh sửa: 175 USD",
+            "Nội dung video (Reels/Shorts): 175 USD/video"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (Net 7). Hoàn thành khi duyệt HOẶC sau 1 vòng chỉnh sửa. Thay đổi sau bàn giao: $175/giờ.",
-          "bridge": "Hồ sơ của bạn đã được thiết lập và sẵn sàng hoạt động. Để duy trì và phát triển, bổ sung gói Social Khởi đầu ($1,500/tháng) hoặc quản lý từng nền tảng từ $650/tháng.",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi duyệt HOẶC sau 1 vòng chỉnh sửa. Thay đổi sau bàn giao: 175 USD/giờ.",
+          "bridge": "Hồ sơ của bạn đã được thiết lập và sẵn sàng hoạt động. Để duy trì và phát triển, bổ sung gói Social Khởi đầu (1.500 USD/tháng) hoặc quản lý từng nền tảng từ 650 USD/tháng.",
           "ideal": "Doanh nghiệp bắt đầu mới trên một nền tảng"
         },
         {
           "name": "Ra mắt Đa nền tảng",
           "price": 2000,
-          "disp": "$2,000",
+          "disp": "2.000 USD",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
           "tl": "1 đến 2 tuần",
@@ -1415,21 +1426,21 @@
             }
           ],
           "ov": [
-            "Thêm nền tảng: $500/nền tảng",
-            "Thêm mẫu: $75/mẫu",
-            "Thêm bài ra mắt (trên 6): $50/bài",
-            "Vòng chỉnh sửa: $175",
-            "Nội dung video: $175/video",
-            "Thêm trang link-in-bio: $200"
+            "Thêm nền tảng: 500 USD/nền tảng",
+            "Thêm mẫu: 75 USD/mẫu",
+            "Thêm bài ra mắt (trên 6): 50 USD/bài",
+            "Vòng chỉnh sửa: 175 USD",
+            "Nội dung video: 175 USD/video",
+            "Thêm trang link-in-bio: 200 USD"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (Net 7). Hoàn thành khi duyệt HOẶC sau 2 vòng chỉnh sửa. Sau bàn giao: $175/giờ.",
-          "bridge": "Toàn bộ nền tảng sẵn sàng ra mắt với 30 ngày nội dung đã lên kế hoạch. Để tiếp tục phát triển, chúng tôi khuyến nghị gói Social Tăng trưởng ($2,500/tháng) hoặc các gói bổ sung theo nền tảng.",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi duyệt HOẶC sau 2 vòng chỉnh sửa. Sau bàn giao: 175 USD/giờ.",
+          "bridge": "Toàn bộ nền tảng sẵn sàng ra mắt với 30 ngày nội dung đã lên kế hoạch. Để tiếp tục phát triển, chúng tôi khuyến nghị gói Social Tăng trưởng (2.500 USD/tháng) hoặc các gói bổ sung theo nền tảng.",
           "ideal": "Doanh nghiệp đang ra mắt hoặc làm mới sự hiện diện trên mạng xã hội"
         },
         {
           "name": "Tái định vị Social Toàn diện",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 USD",
           "tag": "Làm mới hoàn toàn",
           "tl": "2 đến 3 tuần",
           "scope": [
@@ -1475,15 +1486,15 @@
             }
           ],
           "ov": [
-            "Thêm nền tảng: $400/nền tảng",
-            "Thêm mẫu: $60/mẫu",
-            "Thêm bài ra mắt (trên 8): $45/bài",
-            "Thêm video: $175/video",
-            "Vòng chỉnh sửa: $250",
-            "Video intro/outro YouTube: $600"
+            "Thêm nền tảng: 400 USD/nền tảng",
+            "Thêm mẫu: 60 USD/mẫu",
+            "Thêm bài ra mắt (trên 8): 45 USD/bài",
+            "Thêm video: 175 USD/video",
+            "Vòng chỉnh sửa: 250 USD",
+            "Video intro/outro YouTube: 600 USD"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (Net 7). Hoàn thành khi duyệt HOẶC sau 2 vòng chỉnh sửa. Sau bàn giao: $175/giờ.",
-          "bridge": "Toàn bộ sự hiện diện trên mạng xã hội của bạn được xây dựng lại và sẵn sàng ra mắt với 60 ngày nội dung. Để giữ đà, chúng tôi khuyến nghị gói Social Thống lĩnh ($4,500/tháng) hoặc Social Tăng trưởng ($2,500/tháng).",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi duyệt HOẶC sau 2 vòng chỉnh sửa. Sau bàn giao: 175 USD/giờ.",
+          "bridge": "Toàn bộ sự hiện diện trên mạng xã hội của bạn được xây dựng lại và sẵn sàng ra mắt với 60 ngày nội dung. Để giữ đà, chúng tôi khuyến nghị gói Social Thống lĩnh (4.500 USD/tháng) hoặc Social Tăng trưởng (2.500 USD/tháng).",
           "ideal": "Doanh nghiệp đã ổn định nhưng hiện diện trên mạng xã hội lỗi thời hoặc thiếu nhất quán"
         }
       ],
@@ -1491,7 +1502,7 @@
         {
           "name": "Duy trì & Giám sát",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 USD",
           "per": "/tháng",
           "tag": "Giữ mọi thứ vận hành",
           "com": "Tối thiểu 3 tháng",
@@ -1518,14 +1529,14 @@
             },
             {
               "i": "Hỗ trợ",
-              "l": "Chỉ hỗ trợ qua tin nhắn và email (không gọi điện, không họp trực tiếp ở gói này). Phản hồi trong 48 giờ vào ngày làm việc (Thứ Hai đến Thứ Sáu, 9h đến 17h). Tối đa 10 yêu cầu hỗ trợ mỗi tháng. Mỗi yêu cầu = 1 việc cụ thể (không phải danh sách thay đổi). Yêu cầu vượt quá 10 tính $175/giờ."
+              "l": "Chỉ hỗ trợ qua tin nhắn và email (không gọi điện, không họp trực tiếp ở gói này). Phản hồi trong 48 giờ vào ngày làm việc (Thứ Hai đến Thứ Sáu, 9h đến 17h). Tối đa 10 yêu cầu hỗ trợ mỗi tháng. Mỗi yêu cầu = 1 việc cụ thể (không phải danh sách thay đổi). Yêu cầu vượt quá 10 tính 175 USD/giờ."
             }
           ],
           "ov": [
-            "Thiết kế vượt 2 giờ: $175/giờ",
-            "Trang mới: $500",
-            "Cuộc gọi trực tiếp: $250/giờ",
-            "Tự động hóa (trên 3): $250/cái",
+            "Thiết kế vượt 2 giờ: 175 USD/giờ",
+            "Trang mới: 500 USD",
+            "Cuộc gọi trực tiếp: 250 USD/giờ",
+            "Tự động hóa (trên 3): 250 USD/cái",
             "Khẩn cấp/trong ngày: +50%"
           ],
           "ex": "Không quản lý quảng cáo, không sản xuất nội dung, không tính năng mới, không voice agent, không mạng xã hội. Cần gói cao hơn.",
@@ -1534,7 +1545,7 @@
         {
           "name": "Động cơ Tăng trưởng",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 USD",
           "per": "/tháng",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
@@ -1546,11 +1557,11 @@
             },
             {
               "i": "Quản lý Google Ads",
-              "l": "Quản lý 2 chiến dịch Google Search đang chạy. Tối ưu từ khóa, điều chỉnh giá thầu và cập nhật từ khóa phủ định hàng tháng. 3 thử nghiệm A/B mỗi tháng (nội dung quảng cáo, thành phần landing page hoặc nhắm mục tiêu). Đánh giá hiệu quả hàng tháng với phân tích CPC, CTR, tỷ lệ chuyển đổi và ROAS. Quản lý ngân sách quảng cáo tối đa $5,000/tháng ở gói này. Ngân sách trên $5K: thêm $500/tháng cho mỗi mức $5K. Ngân sách quảng cáo tính riêng. Bạn thanh toán trực tiếp cho Google."
+              "l": "Quản lý 2 chiến dịch Google Search đang chạy. Tối ưu từ khóa, điều chỉnh giá thầu và cập nhật từ khóa phủ định hàng tháng. 3 thử nghiệm A/B mỗi tháng (nội dung quảng cáo, thành phần landing page hoặc nhắm mục tiêu). Đánh giá hiệu quả hàng tháng với phân tích CPC, CTR, tỷ lệ chuyển đổi và ROAS. Quản lý ngân sách quảng cáo tối đa 5.000 USD/tháng ở gói này. Ngân sách trên 5.000 USD: thêm 500 USD/tháng cho mỗi mức 5.000 USD. Ngân sách quảng cáo tính riêng. Bạn thanh toán trực tiếp cho Google."
             },
             {
               "i": "Quản lý Meta Ads",
-              "l": "Quản lý 2 chiến dịch Meta (Facebook/Instagram) đang chạy. 1 lần làm mới sáng tạo mỗi tháng: thiết kế 3 mẫu quảng cáo mới (ảnh tĩnh hoặc carousel). 2 thử nghiệm tệp khách hàng mới mỗi tháng. Duy trì tệp retargeting và cập nhật tệp lookalike. Đánh giá hiệu quả hàng tháng. Ngân sách quảng cáo tính riêng. Bạn thanh toán trực tiếp cho Meta."
+              "l": "Quản lý 2 chiến dịch Meta (Facebook/Instagram) đang chạy. 1 lần làm mới mẫu quảng cáo mỗi tháng: thiết kế 3 mẫu quảng cáo mới (ảnh tĩnh hoặc carousel). 2 thử nghiệm tệp khách hàng mới mỗi tháng. Duy trì tệp retargeting và cập nhật tệp lookalike. Đánh giá hiệu quả hàng tháng. Ngân sách quảng cáo tính riêng. Bạn thanh toán trực tiếp cho Meta."
             },
             {
               "i": "Sản xuất nội dung với hỗ trợ AI",
@@ -1570,13 +1581,13 @@
             }
           ],
           "ov": [
-            "Thiết kế vượt 5 giờ: $175/giờ",
-            "Ngân sách quảng cáo trên $5K: +$500/tháng cho mỗi mức $5K",
-            "Blog: $250/bài",
-            "Bài mạng xã hội (trên 12): $60/bài",
-            "Làm mới sáng tạo: $500",
-            "Thêm cuộc gọi trực tiếp: $250/giờ",
-            "AI agent mới: $2,500",
+            "Thiết kế vượt 5 giờ: 175 USD/giờ",
+            "Ngân sách quảng cáo trên 5.000 USD: +500 USD/tháng cho mỗi mức 5.000 USD",
+            "Blog: 250 USD/bài",
+            "Bài mạng xã hội (trên 12): 60 USD/bài",
+            "Làm mới mẫu quảng cáo: 500 USD",
+            "Thêm cuộc gọi trực tiếp: 250 USD/giờ",
+            "AI agent mới: 2.500 USD",
             "Khẩn cấp: +50%"
           ],
           "ex": "Không CMO bán thời gian, không quảng cáo không giới hạn, không làm mới thương hiệu, không sản xuất video, không quản lý mạng xã hội chuyên trách. Cần gói cao hơn hoặc gói Social bổ sung.",
@@ -1585,7 +1596,7 @@
         {
           "name": "Đối tác Toàn diện",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "7.500 USD",
           "per": "/tháng",
           "tag": "CMO bán thời gian + Đội ngũ",
           "com": "Tối thiểu 6 tháng",
@@ -1600,7 +1611,7 @@
             },
             {
               "i": "Quản lý quảng cáo (mở rộng)",
-              "l": "Không giới hạn chiến dịch đang chạy trên Google và Meta. Chiến lược toàn phễu: chiến dịch nhận biết, cân nhắc và chuyển đổi. Làm mới sáng tạo, thử nghiệm tệp khách hàng, tối ưu giá thầu và phân bổ lại ngân sách hàng tháng. Quản lý ngân sách quảng cáo tối đa $20,000/tháng. Ngân sách trên $20K cần báo giá riêng. Báo cáo hiệu quả quảng cáo hàng tháng với phân tích ROAS, CPA và hiệu quả ngân sách. Ngân sách quảng cáo tính riêng."
+              "l": "Không giới hạn chiến dịch đang chạy trên Google và Meta. Chiến lược toàn phễu: chiến dịch nhận biết, cân nhắc và chuyển đổi. Làm mới sáng tạo, thử nghiệm tệp khách hàng, tối ưu giá thầu và phân bổ lại ngân sách hàng tháng. Quản lý ngân sách quảng cáo tối đa 20.000 USD/tháng. Ngân sách trên 20.000 USD cần báo giá riêng. Báo cáo hiệu quả quảng cáo hàng tháng với phân tích ROAS, CPA và hiệu quả ngân sách. Ngân sách quảng cáo tính riêng."
             },
             {
               "i": "Quản lý hệ sinh thái AI",
@@ -1608,7 +1619,7 @@
             },
             {
               "i": "Hệ thống nội dung (mở rộng)",
-              "l": "8 bài blog mỗi tháng (tối đa 1,000 từ mỗi bài, tối ưu SEO). 20 bài đăng mạng xã hội mỗi tháng (hình ảnh thiết kế + caption kèm hashtag và CTA). 4 video ngắn mỗi tháng (Reels, Shorts hoặc TikTok), dựng từ footage bạn cung cấp hoặc tạo bằng công cụ AI. Chúng tôi dựng, không quay. 1 vòng chỉnh sửa cho mỗi bài. Lịch nội dung bàn giao trước ngày 1 hàng tháng để bạn duyệt."
+              "l": "8 bài blog mỗi tháng (tối đa 1.000 từ mỗi bài, tối ưu SEO). 20 bài đăng mạng xã hội mỗi tháng (hình ảnh thiết kế + caption kèm hashtag và CTA). 4 video ngắn mỗi tháng (Reels, Shorts hoặc TikTok), dựng từ footage bạn cung cấp hoặc tạo bằng công cụ AI. Chúng tôi dựng, không quay. 1 vòng chỉnh sửa cho mỗi bài. Lịch nội dung bàn giao trước ngày 1 hàng tháng để bạn duyệt."
             },
             {
               "i": "Họp chiến lược hàng tháng + cập nhật hàng tuần",
@@ -1620,28 +1631,28 @@
             },
             {
               "i": "Làm mới thương hiệu hàng quý",
-              "l": "1 lần làm mới thương hiệu mỗi quý (3 tháng một lần). Bao gồm 5 tài sản sáng tạo mới: mẫu mạng xã hội cập nhật, mẫu quảng cáo theo mùa, header email mới hoặc đồ họa khuyến mãi mới. KHÔNG bao gồm tái định vị toàn diện (logo mới, hướng dẫn mới, hệ thống thương hiệu mới). Tái định vị toàn diện báo giá riêng từ $6,000."
+              "l": "1 lần làm mới thương hiệu mỗi quý (3 tháng một lần). Bao gồm 5 tài sản sáng tạo mới: mẫu mạng xã hội cập nhật, mẫu quảng cáo theo mùa, header email mới hoặc đồ họa khuyến mãi mới. KHÔNG bao gồm tái định vị toàn diện (logo mới, hướng dẫn mới, hệ thống thương hiệu mới). Tái định vị toàn diện báo giá riêng từ 6.000 USD."
             }
           ],
           "ov": [
-            "Thiết kế vượt 15 giờ: $175/giờ",
-            "Ngân sách quảng cáo trên $20K: báo giá riêng",
-            "Blog: $250/bài",
-            "Video clip (trên 4): $300/clip",
+            "Thiết kế vượt 15 giờ: 175 USD/giờ",
+            "Ngân sách quảng cáo trên 20.000 USD: báo giá riêng",
+            "Blog: 250 USD/bài",
+            "Video clip (trên 4): 300 USD/clip",
             "Quay phim: tính riêng",
-            "Tái định vị toàn diện: từ $6K, tính riêng",
-            "AI agent: $2,500/agent",
+            "Tái định vị toàn diện: từ 6.000 USD, tính riêng",
+            "AI agent: 2.500 USD/agent",
             "Cuối tuần/ngoài giờ: +75%"
           ],
           "ex": "Không sự kiện trực tiếp, không PR/tiếp cận truyền thông, không quay video (chỉ dựng), không phát triển ứng dụng. Báo giá riêng.",
-          "ideal": "Doanh nghiệp đầu tư từ $5K/tháng cho quảng cáo"
+          "ideal": "Doanh nghiệp đầu tư từ 5.000 USD/tháng cho quảng cáo"
         }
       ],
       "social": [
         {
           "name": "Social Khởi đầu",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 USD",
           "per": "/tháng",
           "tag": "1 đến 2 nền tảng",
           "com": "Tối thiểu 3 tháng",
@@ -1676,11 +1687,11 @@
             }
           ],
           "ov": [
-            "Thêm nền tảng: $400/tháng",
-            "Thêm bài (trên 8): $60/bài",
-            "Video reel/short: $175/video",
-            "Thêm vòng chỉnh sửa: $175",
-            "Tạo story: $30/story"
+            "Thêm nền tảng: 400 USD/tháng",
+            "Thêm bài (trên 8): 60 USD/bài",
+            "Video reel/short: 175 USD/video",
+            "Thêm vòng chỉnh sửa: 175 USD",
+            "Tạo story: 30 USD/story"
           ],
           "ex": "Không sản xuất video, không quảng cáo trả phí trên mạng xã hội, không tiếp cận influencer, không xây dựng cộng đồng ngoài tương tác cơ bản. Cần gói Social Tăng trưởng hoặc dịch vụ bổ sung.",
           "ideal": "Doanh nghiệp cần hiện diện đều đặn trên 1 đến 2 kênh"
@@ -1688,7 +1699,7 @@
         {
           "name": "Social Tăng trưởng",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "2.500 USD",
           "per": "/tháng",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
@@ -1728,13 +1739,13 @@
             }
           ],
           "ov": [
-            "Thêm nền tảng: $400/tháng",
-            "Thêm bài (trên 12): $50/bài",
-            "Thêm video: $175/video",
+            "Thêm nền tảng: 400 USD/tháng",
+            "Thêm bài (trên 12): 50 USD/bài",
+            "Thêm video: 175 USD/video",
             "Quay video: báo giá riêng",
-            "Thêm cuộc gọi trực tiếp: $250/giờ",
-            "Tiếp cận influencer: bổ sung $600/tháng",
-            "Tạo story: $25/story"
+            "Thêm cuộc gọi trực tiếp: 250 USD/giờ",
+            "Tiếp cận influencer: bổ sung 600 USD/tháng",
+            "Tạo story: 25 USD/story"
           ],
           "ex": "Không quay video, không quản lý quảng cáo trả phí (bổ sung Google/Meta Ads từ các gói chính), không đàm phán hợp đồng influencer. Báo giá riêng.",
           "ideal": "Doanh nghiệp nghiêm túc muốn tăng lượng khán giả và tương tác"
@@ -1742,7 +1753,7 @@
         {
           "name": "Social Thống lĩnh",
           "price": 4500,
-          "disp": "$4,500",
+          "disp": "4.500 USD",
           "per": "/tháng",
           "tag": "Social trọn gói",
           "com": "Tối thiểu 6 tháng",
@@ -1765,7 +1776,7 @@
             },
             {
               "i": "Báo cáo & chiến lược",
-              "l": "Ảnh chụp số liệu hàng tuần gửi email mỗi Thứ Hai (chỉ số chính trên toàn bộ nền tảng). Báo cáo chuyên sâu hàng tháng (bàn giao trước ngày 5): tăng trưởng người theo dõi, tỷ lệ tương tác, lượt tiếp cận, lượt hiển thị, nội dung nổi bật, nhân khẩu học đối tượng và so sánh đối thủ. Video Loom hàng tháng gồm: đánh giá hiệu quả, chiến dịch sắp tới, định hướng nội dung và cơ hội tăng trưởng. Bạn phản hồi qua tin nhắn hoặc email. 1 cuộc gọi trực tiếp tùy chọn mỗi tháng theo yêu cầu (tối đa 30 phút)."
+              "l": "Bản tóm tắt số liệu hàng tuần gửi email mỗi Thứ Hai (chỉ số chính trên toàn bộ nền tảng). Báo cáo chuyên sâu hàng tháng (bàn giao trước ngày 5): tăng trưởng người theo dõi, tỷ lệ tương tác, lượt tiếp cận, lượt hiển thị, nội dung nổi bật, nhân khẩu học đối tượng và so sánh đối thủ. Video Loom hàng tháng gồm: đánh giá hiệu quả, chiến dịch sắp tới, định hướng nội dung và cơ hội tăng trưởng. Bạn phản hồi qua tin nhắn hoặc email. 1 cuộc gọi trực tiếp tùy chọn mỗi tháng theo yêu cầu (tối đa 30 phút)."
             },
             {
               "i": "Sản xuất video (8 ngắn + 2 dài/tháng)",
@@ -1785,13 +1796,13 @@
             }
           ],
           "ov": [
-            "Thêm nền tảng: $400/tháng",
-            "Thêm bài (trên 20): $40/bài",
-            "Thêm video dài: $500/video",
+            "Thêm nền tảng: 400 USD/tháng",
+            "Thêm bài (trên 20): 40 USD/bài",
+            "Thêm video dài: 500 USD/video",
             "Quay video: báo giá riêng",
-            "Influencer trên 5: $125/lượt tiếp cận",
+            "Influencer trên 5: 125 USD/lượt tiếp cận",
             "Quản lý quảng cáo trả phí: bổ sung từ các gói chính",
-            "Thêm cuộc gọi trực tiếp: $250/giờ",
+            "Thêm cuộc gọi trực tiếp: 250 USD/giờ",
             "Nội dung cuối tuần: +50%"
           ],
           "ex": "Không quay/sản xuất video (chỉ dựng), không quản lý quảng cáo trả phí (bổ sung riêng), không PR/tiếp cận báo chí. Báo giá riêng.",
@@ -1802,7 +1813,7 @@
         {
           "name": "Khám phá & Xác định phạm vi",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "2.500 USD",
           "tag": "Bước đầu bắt buộc",
           "tl": "1 đến 2 tuần",
           "scope": [
@@ -1832,18 +1843,18 @@
             }
           ],
           "ov": [
-            "Thêm màn hình wireframe: $250/màn hình",
-            "Thêm sơ đồ luồng người dùng: $300/sơ đồ",
-            "Bổ sung phân tích cạnh tranh: $750 (đánh giá 3 sản phẩm đối thủ)",
-            "Gia hạn khám phá quá 2 tuần: $1,200/tuần"
+            "Thêm màn hình wireframe: 250 USD/màn hình",
+            "Thêm sơ đồ luồng người dùng: 300 USD/sơ đồ",
+            "Bổ sung phân tích cạnh tranh: 750 USD (đánh giá 3 sản phẩm đối thủ)",
+            "Gia hạn khám phá quá 2 tuần: 1.200 USD/tuần"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi bàn giao (Net 7). Phí khám phá được trừ vào chi phí xây dựng nếu bạn tiếp tục trong vòng 30 ngày sau bàn giao. Nếu không tiếp tục, toàn bộ hạng mục (wireframe, SOW, tài liệu kiến trúc) thuộc về bạn và có thể dùng với bất kỳ lập trình viên nào.",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi bàn giao (thanh toán trong vòng 7 ngày). Phí khám phá được trừ vào chi phí xây dựng nếu bạn tiếp tục trong vòng 30 ngày sau bàn giao. Nếu không tiếp tục, toàn bộ hạng mục (wireframe, SOW, tài liệu kiến trúc) thuộc về bạn và có thể dùng với bất kỳ lập trình viên nào.",
           "ideal": "Bất kỳ ai đang cân nhắc xây dựng hệ thống tùy chỉnh. Đây là bước một."
         },
         {
           "name": "Xây dựng Tiêu chuẩn",
           "price": 25000,
-          "disp": "$25,000",
+          "disp": "25.000 USD",
           "tag": "Phổ biến nhất",
           "pop": true,
           "tl": "6 đến 12 tuần",
@@ -1882,25 +1893,25 @@
             },
             {
               "i": "Chỉnh sửa",
-              "l": "2 vòng chỉnh sửa thiết kế trước khi lập trình. Trong quá trình phát triển, phản hồi xử lý qua bảng công việc chung (Linear hoặc GitHub Issues). Sau phát triển: 1 vòng chỉnh sửa trên sản phẩm cuối trước khi ra mắt. Thay đổi phạm vi trong quá trình phát triển cần yêu cầu thay đổi với mức giá đã thống nhất ($200/giờ)."
+              "l": "2 vòng chỉnh sửa thiết kế trước khi lập trình. Trong quá trình phát triển, phản hồi xử lý qua bảng công việc chung (Linear hoặc GitHub Issues). Sau phát triển: 1 vòng chỉnh sửa trên sản phẩm cuối trước khi ra mắt. Thay đổi phạm vi trong quá trình phát triển cần yêu cầu thay đổi với mức giá đã thống nhất (200 USD/giờ)."
             }
           ],
           "ov": [
-            "Thêm tích hợp: $3,000/tích hợp",
-            "Thêm màn hình ngoài SOW: $800/màn hình",
-            "Yêu cầu thay đổi trong quá trình phát triển: $200/giờ",
-            "Thêm vai trò người dùng: $2,000/vai trò",
-            "Dashboard báo cáo/phân tích nâng cao: $5,000",
+            "Thêm tích hợp: 3.000 USD/tích hợp",
+            "Thêm màn hình ngoài SOW: 800 USD/màn hình",
+            "Yêu cầu thay đổi trong quá trình phát triển: 200 USD/giờ",
+            "Thêm vai trò người dùng: 2.000 USD/vai trò",
+            "Dashboard báo cáo/phân tích nâng cao: 5.000 USD",
             "Ứng dụng di động native (iOS hoặc Android): xem gói Xây dựng Doanh nghiệp"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 25% ở mốc giữa dự án, 25% khi hoàn thành (Net 7). Bao gồm 30 ngày sửa lỗi sau ra mắt (chỉ các lỗi liên quan tính năng trong SOW gốc). Sau 30 ngày, hỗ trợ chuyển sang gói bảo trì hàng tháng. Toàn bộ code là của bạn. Quyền sở hữu đầy đủ codebase, file thiết kế và tài liệu được chuyển giao khi hoàn thành dự án.",
-          "bridge": "Nền tảng của bạn đã hoạt động ổn định. Để duy trì vận hành, bảo mật và phát triển, chúng tôi khuyến nghị gói Hỗ trợ Dev ($1,500/tháng) hoặc Quỹ Giờ ($2,500/tháng cho 10 giờ).",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 25% ở mốc giữa dự án, 25% khi hoàn thành (thanh toán trong vòng 7 ngày). Bao gồm 30 ngày sửa lỗi sau ra mắt (chỉ các lỗi liên quan tính năng trong SOW gốc). Sau 30 ngày, hỗ trợ chuyển sang gói bảo trì hàng tháng. Toàn bộ code là của bạn. Quyền sở hữu đầy đủ codebase, file thiết kế và tài liệu được chuyển giao khi hoàn thành dự án.",
+          "bridge": "Nền tảng của bạn đã hoạt động ổn định. Để duy trì vận hành, bảo mật và phát triển, chúng tôi khuyến nghị gói Hỗ trợ Dev (1.500 USD/tháng) hoặc Quỹ Giờ (2.500 USD/tháng cho 10 giờ).",
           "ideal": "Cổng thông tin, dashboard, công cụ nội bộ và SaaS MVP"
         },
         {
           "name": "Xây dựng Doanh nghiệp",
           "price": 75000,
-          "disp": "$75,000+",
+          "disp": "75.000+ USD",
           "tag": "Hệ thống phức tạp",
           "tl": "12 đến 24 tuần",
           "scope": [
@@ -1910,7 +1921,7 @@
             },
             {
               "i": "Kiến trúc nâng cao",
-              "l": "Kiến trúc microservices hoặc modular monolith để mở rộng quy mô. Hàng đợi tin nhắn (Redis, RabbitMQ) cho xử lý bất đồng bộ nếu cần. Lớp cache cho các endpoint lưu lượng cao. Tối ưu cơ sở dữ liệu: đánh index, tối ưu truy vấn và connection pooling. Hạ tầng thiết kế để phục vụ hơn 10,000 người dùng đồng thời."
+              "l": "Kiến trúc microservices hoặc modular monolith để mở rộng quy mô. Hàng đợi tin nhắn (Redis, RabbitMQ) cho xử lý bất đồng bộ nếu cần. Lớp cache cho các endpoint lưu lượng cao. Tối ưu cơ sở dữ liệu: đánh index, tối ưu truy vấn và connection pooling. Hạ tầng thiết kế để phục vụ hơn 10.000 người dùng đồng thời."
             },
             {
               "i": "Tính năng ứng dụng AI",
@@ -1938,19 +1949,19 @@
             },
             {
               "i": "Chỉnh sửa & quản lý thay đổi",
-              "l": "2 vòng chỉnh sửa thiết kế mỗi giai đoạn. Phản hồi quản lý qua bảng công việc chung (Linear hoặc GitHub Issues). Yêu cầu thay đổi khi bổ sung phạm vi: $200/giờ với phê duyệt bằng văn bản trước khi bắt đầu. Cập nhật tiến độ hàng tuần qua video Loom hoặc bản tóm tắt. Video demo ghi hình hai tuần một lần về công việc đã hoàn thành. Bạn xem và phản hồi theo thời gian của mình. 1 cuộc gọi trực tiếp tùy chọn mỗi tháng nếu cần."
+              "l": "2 vòng chỉnh sửa thiết kế mỗi giai đoạn. Phản hồi quản lý qua bảng công việc chung (Linear hoặc GitHub Issues). Yêu cầu thay đổi khi bổ sung phạm vi: 200 USD/giờ với phê duyệt bằng văn bản trước khi bắt đầu. Cập nhật tiến độ hàng tuần qua video Loom hoặc bản tóm tắt. Video demo ghi hình hai tuần một lần về công việc đã hoàn thành. Bạn xem và phản hồi theo thời gian của mình. 1 cuộc gọi trực tiếp tùy chọn mỗi tháng nếu cần."
             }
           ],
           "ov": [
-            "Thêm tích hợp: $5,000/tích hợp",
-            "Ứng dụng di động native (nếu chưa bao gồm): $30,000",
-            "Bổ sung tính năng AI: $10,000/tính năng",
+            "Thêm tích hợp: 5.000 USD/tích hợp",
+            "Ứng dụng di động native (nếu chưa bao gồm): 30.000 USD",
+            "Bổ sung tính năng AI: 10.000 USD/tính năng",
             "Thêm giai đoạn: xác định phạm vi và báo giá riêng",
-            "Điều phối pen test bên thứ ba: $5,000",
-            "Bổ sung white-label/multi-tenant (nếu chưa bao gồm): $15,000"
+            "Điều phối pen test bên thứ ba: 5.000 USD",
+            "Bổ sung white-label/multi-tenant (nếu chưa bao gồm): 15.000 USD"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 25% ở mốc giữa dự án, 25% khi hoàn thành (Net 7). Bao gồm 45 ngày sửa lỗi sau ra mắt cho mỗi giai đoạn. Toàn bộ code, file thiết kế và tài liệu chuyển giao cho bạn khi hoàn thành. Sở hữu toàn bộ codebase. Sau 45 ngày, hỗ trợ chuyển sang gói bảo trì hàng tháng.",
-          "bridge": "Hệ thống phức tạp cần phát triển, giám sát và tối ưu liên tục. Chúng tôi khuyến nghị gói Phát triển Liên tục ($7,500/tháng) để nền tảng của bạn tiến hóa cùng doanh nghiệp.",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 25% ở mốc giữa dự án, 25% khi hoàn thành (thanh toán trong vòng 7 ngày). Bao gồm 45 ngày sửa lỗi sau ra mắt cho mỗi giai đoạn. Toàn bộ code, file thiết kế và tài liệu chuyển giao cho bạn khi hoàn thành. Sở hữu toàn bộ codebase. Sau 45 ngày, hỗ trợ chuyển sang gói bảo trì hàng tháng.",
+          "bridge": "Hệ thống phức tạp cần phát triển, giám sát và tối ưu liên tục. Chúng tôi khuyến nghị gói Phát triển Liên tục (7.500 USD/tháng) để nền tảng của bạn tiến hóa cùng doanh nghiệp.",
           "ideal": "Nền tảng SaaS, hệ thống multi-tenant, sản phẩm tích hợp AI và công cụ doanh nghiệp"
         }
       ],
@@ -1958,7 +1969,7 @@
         {
           "name": "Xây dựng Một Agent",
           "price": 5000,
-          "disp": "$5,000",
+          "disp": "5.000 USD",
           "tag": "Một agent mạnh mẽ",
           "tl": "1 đến 2 tuần",
           "scope": [
@@ -1984,20 +1995,20 @@
             }
           ],
           "ov": [
-            "Thêm tích hợp: $1,500",
-            "Dữ liệu huấn luyện trên 50 mục: $500/đợt 50",
-            "Thêm vòng chỉnh sửa: $350",
+            "Thêm tích hợp: 1.500 USD",
+            "Dữ liệu huấn luyện trên 50 mục: 500 USD/đợt 50",
+            "Thêm vòng chỉnh sửa: 350 USD",
             "Giao gấp (dưới 1 tuần): +40%",
-            "Huấn luyện lại agent: $750"
+            "Huấn luyện lại agent: 750 USD"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (Net 7). Hoàn thành khi duyệt HOẶC sau 2 vòng chỉnh sửa. Quyền sở hữu agent chuyển giao cho bạn.",
-          "bridge": "Agent của bạn đã hoạt động. Để được giám sát, tối ưu và huấn luyện lại, bổ sung gói Bảo trì Agent ($1,500/tháng) hoặc Phát triển Agent ($3,500/tháng).",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi duyệt HOẶC sau 2 vòng chỉnh sửa. Quyền sở hữu agent chuyển giao cho bạn.",
+          "bridge": "Agent của bạn đã hoạt động. Để được giám sát, tối ưu và huấn luyện lại, bổ sung gói Bảo trì Agent (1.500 USD/tháng) hoặc Phát triển Agent (3.500 USD/tháng).",
           "ideal": "Doanh nghiệp muốn tự động hóa một quy trình cụ thể"
         },
         {
           "name": "Đội Agent",
           "price": 14500,
-          "disp": "$14,500",
+          "disp": "14.500 USD",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
           "tl": "2 đến 4 tuần",
@@ -2024,20 +2035,20 @@
             }
           ],
           "ov": [
-            "Thêm agent: $2,500",
-            "Thêm tích hợp: $1,500",
-            "Dữ liệu huấn luyện trên 75/agent: $500/đợt",
-            "Thêm vòng chỉnh sửa: $400",
+            "Thêm agent: 2.500 USD",
+            "Thêm tích hợp: 1.500 USD",
+            "Dữ liệu huấn luyện trên 75/agent: 500 USD/đợt",
+            "Thêm vòng chỉnh sửa: 400 USD",
             "Giao gấp: +40%"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (Net 7). Hoàn thành khi duyệt HOẶC sau 2 vòng chỉnh sửa. Quyền sở hữu toàn bộ agent và code chuyển giao cho bạn.",
-          "bridge": "Đội agent của bạn đã hoạt động và phối hợp nhịp nhàng. Để tối ưu, huấn luyện lại và bổ sung agent mới liên tục, thêm gói Phát triển Agent ($3,500/tháng) hoặc Trung tâm Điều hành Agent ($7,500/tháng).",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi duyệt HOẶC sau 2 vòng chỉnh sửa. Quyền sở hữu toàn bộ agent và code chuyển giao cho bạn.",
+          "bridge": "Đội agent của bạn đã hoạt động và phối hợp nhịp nhàng. Để tối ưu, huấn luyện lại và bổ sung agent mới liên tục, thêm gói Phát triển Agent (3.500 USD/tháng) hoặc Trung tâm Điều hành Agent (7.500 USD/tháng).",
           "ideal": "Doanh nghiệp muốn tự động hóa quy trình nhiều bước từ đầu đến cuối"
         },
         {
           "name": "Vận hành AI",
           "price": 25000,
-          "disp": "$25,000+",
+          "disp": "25.000+ USD",
           "tag": "Hệ sinh thái AI doanh nghiệp",
           "tl": "4 đến 8 tuần",
           "scope": [
@@ -2063,14 +2074,14 @@
             }
           ],
           "ov": [
-            "Thêm agent: $2,500/agent",
-            "Thêm tích hợp: $2,000",
-            "Fine-tune model AI tùy chỉnh: $5,000",
-            "Buổi đào tạo trực tiếp: $250/giờ",
+            "Thêm agent: 2.500 USD/agent",
+            "Thêm tích hợp: 2.000 USD",
+            "Fine-tune model AI tùy chỉnh: 5.000 USD",
+            "Buổi đào tạo trực tiếp: 250 USD/giờ",
             "Giao gấp: +30%"
           ],
-          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 25% ở mốc giữa dự án, 25% khi hoàn thành (Net 7). Bàn giao theo giai đoạn (thường 2 hoặc 3 giai đoạn). Mỗi giai đoạn có hạng mục xác định và nghiệm thu. Quyền sở hữu toàn bộ code và agent chuyển giao cho bạn khi hoàn thành.",
-          "bridge": "Hệ sinh thái AI của bạn đã vận hành đầy đủ. Để duy trì, tối ưu và mở rộng, bổ sung gói Trung tâm Điều hành Agent ($7,500/tháng).",
+          "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 25% ở mốc giữa dự án, 25% khi hoàn thành (thanh toán trong vòng 7 ngày). Bàn giao theo giai đoạn (thường 2 hoặc 3 giai đoạn). Mỗi giai đoạn có hạng mục xác định và nghiệm thu. Quyền sở hữu toàn bộ code và agent chuyển giao cho bạn khi hoàn thành.",
+          "bridge": "Hệ sinh thái AI của bạn đã vận hành đầy đủ. Để duy trì, tối ưu và mở rộng, bổ sung gói Trung tâm Điều hành Agent (7.500 USD/tháng).",
           "ideal": "Doanh nghiệp thay thế quy trình thủ công bằng tự động hóa thông minh quy mô lớn"
         }
       ],
@@ -2078,7 +2089,7 @@
         {
           "name": "Bảo trì Agent",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 USD",
           "per": "/tháng",
           "tag": "Giữ agent luôn hoạt động",
           "com": "Tối thiểu 3 tháng",
@@ -2101,12 +2112,12 @@
             },
             {
               "i": "Hỗ trợ",
-              "l": "Hỗ trợ qua tin nhắn và email với thời gian phản hồi 48 giờ (ngày làm việc). Tối đa 8 yêu cầu hỗ trợ mỗi tháng. Mỗi yêu cầu = 1 vấn đề hoặc câu hỏi cụ thể. Yêu cầu vượt quá 8 tính $200/giờ."
+              "l": "Hỗ trợ qua tin nhắn và email với thời gian phản hồi 48 giờ (ngày làm việc). Tối đa 8 yêu cầu hỗ trợ mỗi tháng. Mỗi yêu cầu = 1 vấn đề hoặc câu hỏi cụ thể. Yêu cầu vượt quá 8 tính 200 USD/giờ."
             }
           ],
           "ov": [
-            "Giám sát thêm agent: $300/tháng mỗi agent",
-            "Cập nhật huấn luyện trên 15: $50/lần",
+            "Giám sát thêm agent: 300 USD/tháng mỗi agent",
+            "Cập nhật huấn luyện trên 15: 50 USD/lần",
             "Sửa khẩn cấp ngoài giờ: +50%",
             "Xây agent mới: báo giá riêng"
           ],
@@ -2116,7 +2127,7 @@
         {
           "name": "Phát triển Agent",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 USD",
           "per": "/tháng",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
@@ -2152,10 +2163,10 @@
             }
           ],
           "ov": [
-            "Giám sát thêm agent: $250/tháng mỗi agent",
-            "Cập nhật huấn luyện trên 40: $40/lần",
-            "Xây thêm quy trình: $1,500",
-            "Xây agent mới: $2,500",
+            "Giám sát thêm agent: 250 USD/tháng mỗi agent",
+            "Cập nhật huấn luyện trên 40: 40 USD/lần",
+            "Xây thêm quy trình: 1.500 USD",
+            "Xây agent mới: 2.500 USD",
             "Khẩn cấp ngoài giờ: +50%"
           ],
           "ex": "Không điều phối cấp doanh nghiệp, không khung tuân thủ, không chuyên gia chiến lược chuyên trách. Để quản lý vận hành AI toàn diện, xem gói Trung tâm Điều hành Agent.",
@@ -2164,7 +2175,7 @@
         {
           "name": "Trung tâm Điều hành Agent",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "7.500 USD",
           "per": "/tháng",
           "tag": "Quản lý AI toàn diện",
           "com": "Tối thiểu 6 tháng",
@@ -2195,7 +2206,7 @@
             },
             {
               "i": "Xây agent mới (bao gồm 1/tháng)",
-              "l": "Bao gồm xây 1 AI agent mới mỗi tháng trong phạm vi. Gồm: thiết kế, huấn luyện, kiểm thử, triển khai và tài liệu. Agent bổ sung báo giá ưu đãi ($2,000/agent so với $5,000 nếu làm riêng)."
+              "l": "Bao gồm xây 1 AI agent mới mỗi tháng trong phạm vi. Gồm: thiết kế, huấn luyện, kiểm thử, triển khai và tài liệu. Agent bổ sung báo giá ưu đãi (2.000 USD/agent so với 5.000 USD nếu làm riêng)."
             },
             {
               "i": "Kiểm toán AI hàng quý",
@@ -2203,10 +2214,10 @@
             }
           ],
           "ov": [
-            "Xây thêm agent: $2,000/agent",
-            "Thêm quy trình: $1,000",
-            "Fine-tune model AI tùy chỉnh: $5,000",
-            "Buổi đào tạo trực tiếp: $250/giờ",
+            "Xây thêm agent: 2.000 USD/agent",
+            "Thêm quy trình: 1.000 USD",
+            "Fine-tune model AI tùy chỉnh: 5.000 USD",
+            "Buổi đào tạo trực tiếp: 250 USD/giờ",
             "Khẩn cấp ngoài giờ: +50%"
           ],
           "ex": "Không marketing, không quảng cáo, không sản xuất nội dung, không quản lý mạng xã hội. Cho các dịch vụ đó, xem Gói Marketing Hàng tháng hoặc các gói Quản lý Social của chúng tôi.",
@@ -2217,14 +2228,14 @@
         {
           "name": "Quỹ Giờ",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "2.500 USD",
           "per": "/tháng",
           "tag": "Hỗ trợ linh hoạt",
           "com": "Theo tháng (không tối thiểu)",
           "scope": [
             {
               "i": "Chọn số giờ của bạn",
-              "l": "Mua một gói giờ phát triển mỗi tháng. 10 giờ/tháng = $2,500 ($250/giờ). 20 giờ/tháng = $4,500 ($225/giờ). 30 giờ/tháng = $6,000 ($200/giờ). Từ 40 giờ/tháng = giá riêng. Giờ dùng cho bất kỳ tổ hợp nào: sửa lỗi, cập nhật tính năng, thay đổi thiết kế, tích hợp hoặc tư vấn."
+              "l": "Mua một gói giờ phát triển mỗi tháng. 10 giờ/tháng = 2.500 USD (250 USD/giờ). 20 giờ/tháng = 4.500 USD (225 USD/giờ). 30 giờ/tháng = 6.000 USD (200 USD/giờ). Từ 40 giờ/tháng = giá riêng. Giờ dùng cho bất kỳ tổ hợp nào: sửa lỗi, cập nhật tính năng, thay đổi thiết kế, tích hợp hoặc tư vấn."
             },
             {
               "i": "Cách hoạt động",
@@ -2244,7 +2255,7 @@
             }
           ],
           "ov": [
-            "Giờ vượt quỹ: $275/giờ",
+            "Giờ vượt quỹ: 275 USD/giờ",
             "Sửa lỗi nghiêm trọng khẩn cấp/trong ngày: +50% trên giờ đã dùng",
             "Làm việc cuối tuần: +75% trên giờ đã dùng"
           ],
@@ -2254,7 +2265,7 @@
         {
           "name": "Hỗ trợ Dev",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 USD",
           "per": "/tháng",
           "tag": "Giữ hệ thống vận hành",
           "com": "Tối thiểu 3 tháng",
@@ -2281,15 +2292,15 @@
             },
             {
               "i": "Kênh hỗ trợ",
-              "l": "Hỗ trợ qua email với thời gian phản hồi 24 giờ (ngày làm việc). Tối đa 8 yêu cầu hỗ trợ mỗi tháng. Mỗi yêu cầu = 1 vấn đề hoặc câu hỏi cụ thể. Yêu cầu vượt quá 8 tính $200/giờ."
+              "l": "Hỗ trợ qua email với thời gian phản hồi 24 giờ (ngày làm việc). Tối đa 8 yêu cầu hỗ trợ mỗi tháng. Mỗi yêu cầu = 1 vấn đề hoặc câu hỏi cụ thể. Yêu cầu vượt quá 8 tính 200 USD/giờ."
             }
           ],
           "ov": [
-            "Sửa lỗi vượt 5 giờ: $200/giờ",
+            "Sửa lỗi vượt 5 giờ: 200 USD/giờ",
             "Phản hồi khẩn cấp ngoài giờ: +50%",
             "Di chuyển cơ sở dữ liệu: báo giá riêng",
             "Bổ sung tính năng: dùng Quỹ Giờ hoặc giá dự án",
-            "Kiểm toán hiệu năng: $2,000 một lần"
+            "Kiểm toán hiệu năng: 2.000 USD một lần"
           ],
           "ex": "Không phát triển tính năng, không thiết kế, không cập nhật nội dung, không quản lý quảng cáo. Gói này chỉ bảo trì hạ tầng và code. Để phát triển chủ động, xem gói Phát triển Liên tục hoặc Quỹ Giờ.",
           "ideal": "Ứng dụng ổn định cần duy trì bảo mật, giám sát và vá lỗi"
@@ -2297,7 +2308,7 @@
         {
           "name": "Phát triển Liên tục",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "7.500 USD",
           "per": "/tháng",
           "tag": "Cải tiến không ngừng",
           "pop": true,
@@ -2333,11 +2344,11 @@
             }
           ],
           "ov": [
-            "Phát triển vượt 35 giờ: $225/giờ",
+            "Phát triển vượt 35 giờ: 225 USD/giờ",
             "Khẩn cấp ngoài giờ: +50%",
             "Triển khai cuối tuần: +75%",
             "Xây tính năng lớn vượt 40 giờ: xác định phạm vi thành dự án riêng với giá ưu đãi",
-            "Thiết kế vượt 3 giờ: $200/giờ"
+            "Thiết kế vượt 3 giờ: 200 USD/giờ"
           ],
           "ex": "Không hỗ trợ trực 24/7. Không lập trình viên toàn thời gian chuyên trách (đội ngũ dùng chung với quyền ưu tiên). Không phát triển ứng dụng di động ở gói này (xác định phạm vi riêng). Không marketing, quảng cáo hay dịch vụ nội dung. Xem các gói marketing của chúng tôi cho các dịch vụ đó.",
           "ideal": "Nền tảng đang tăng trưởng, ra tính năng mới mỗi tháng"
@@ -2347,7 +2358,7 @@
         {
           "name": "Bệ phóng",
           "price": 9500,
-          "disp": "$9,500",
+          "disp": "9.500 USD",
           "tag": "Kiểm chứng ý tưởng của bạn",
           "tl": "4-6 tuần",
           "scope": [
@@ -2381,19 +2392,19 @@
             }
           ],
           "ov": [
-            "Thêm màn hình: $650",
-            "Nền tảng thứ hai (thêm iOS hoặc Android): +$4,500",
-            "Thêm tích hợp API: $450",
-            "Bố cục tablet/iPad: +$1,800"
+            "Thêm màn hình: 650 USD",
+            "Nền tảng thứ hai (thêm iOS hoặc Android): +4.500 USD",
+            "Thêm tích hợp API: 450 USD",
+            "Bố cục tablet/iPad: +1.800 USD"
           ],
           "ex": "Không xây backend tùy chỉnh (dùng API sẵn có của bạn hoặc backend no-code như Supabase). Không mua hàng trong ứng dụng. Không thông báo đẩy. Không chế độ offline-first.",
-          "bridge": "Sau 30 ngày bảo hành, việc bảo trì chuyển sang gói Duy trì Hoạt động ($1,950/tháng) để luôn cập nhật với iOS/Android và nộp lại cửa hàng.",
+          "bridge": "Sau 30 ngày bảo hành, việc bảo trì chuyển sang gói Duy trì Hoạt động (1.950 USD/tháng) để luôn cập nhật với iOS/Android và nộp lại cửa hàng.",
           "ideal": "Nhà sáng lập muốn kiểm chứng ý tưởng với MVP một nền tảng tập trung"
         },
         {
           "name": "Xưởng Sản phẩm",
           "price": 24500,
-          "disp": "$24,500",
+          "disp": "24.500 USD",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
           "tl": "8-12 tuần",
@@ -2432,19 +2443,19 @@
             }
           ],
           "ov": [
-            "Thêm màn hình: $850",
-            "Module native tùy chỉnh: $175/giờ",
-            "Thêm tích hợp: $650",
-            "Gia hạn bảo hành (+30 ngày): $1,200"
+            "Thêm màn hình: 850 USD",
+            "Module native tùy chỉnh: 175 USD/giờ",
+            "Thêm tích hợp: 650 USD",
+            "Gia hạn bảo hành (+30 ngày): 1.200 USD"
           ],
           "ho": "Bàn giao code đầy đủ sau ra mắt: repo GitHub, cấu hình CI EAS/Fastlane, tài liệu triển khai, mẫu env và video hướng dẫn ghi hình 60 phút. Đội ngũ của bạn tiếp quản hoặc chúng tôi tiếp tục theo gói hàng tháng.",
-          "bridge": "Bao gồm 60 ngày sau ra mắt. Sau đó, việc cải tiến liên tục chạy theo gói Đà Tăng trưởng ($4,800/tháng): 20 giờ kỹ thuật, phát triển tính năng và thử nghiệm A/B hàng tháng.",
+          "bridge": "Bao gồm 60 ngày sau ra mắt. Sau đó, việc cải tiến liên tục chạy theo gói Đà Tăng trưởng (4.800 USD/tháng): 20 giờ kỹ thuật, phát triển tính năng và thử nghiệm A/B hàng tháng.",
           "ideal": "Đội ngũ ra mắt sản phẩm đa nền tảng hoàn thiện đến người dùng thật"
         },
         {
           "name": "Chủ lực",
           "price": 62000,
-          "disp": "$62,000",
+          "disp": "62.000 USD",
           "tag": "Xây dựng sản phẩm hoàn chỉnh",
           "tl": "14-18 tuần",
           "scope": [
@@ -2486,13 +2497,13 @@
             }
           ],
           "ov": [
-            "Thêm màn hình: $1,100",
-            "Module native tùy chỉnh: $185/giờ",
-            "Thêm tính năng thời gian thực: $6,500",
-            "Thêm workshop khám phá: $1,800"
+            "Thêm màn hình: 1.100 USD",
+            "Module native tùy chỉnh: 185 USD/giờ",
+            "Thêm tính năng thời gian thực: 6.500 USD",
+            "Thêm workshop khám phá: 1.800 USD"
           ],
           "ho": "Bàn giao hoàn chỉnh: monorepo GitHub, cấu hình CI/CD, hạ tầng dưới dạng code (Terraform hoặc Pulumi nếu yêu cầu), runbook triển khai và rollback, cùng video hướng dẫn 90 phút với cả đội mobile và backend.",
-          "bridge": "Bao gồm 90 ngày sau ra mắt. Sau đó, hợp tác nhúng chạy theo gói Đối tác ($10,500/tháng) với kỹ sư chuyên trách và nhà thiết kế bán thời gian.",
+          "bridge": "Bao gồm 90 ngày sau ra mắt. Sau đó, hợp tác nhúng chạy theo gói Đối tác (10.500 USD/tháng) với kỹ sư chuyên trách và nhà thiết kế bán thời gian.",
           "ideal": "Startup đã gọi vốn và thương hiệu ra mắt sản phẩm đầy đủ tính năng với backend tùy chỉnh"
         }
       ],
@@ -2500,7 +2511,7 @@
         {
           "name": "Duy trì Hoạt động",
           "price": 1950,
-          "disp": "$1,950",
+          "disp": "1.950 USD",
           "per": "/tháng",
           "tag": "Luôn ổn định & tuân thủ",
           "com": "Tối thiểu 3 tháng",
@@ -2535,8 +2546,8 @@
             }
           ],
           "ov": [
-            "Thêm giờ: $165/giờ",
-            "Hotfix khẩn cấp (cuối tuần/ngày lễ): $450 cố định + giờ",
+            "Thêm giờ: 165 USD/giờ",
+            "Hotfix khẩn cấp (cuối tuần/ngày lễ): 450 USD cố định + giờ",
             "Phát triển tính năng chuyên trách: xác định phạm vi riêng"
           ],
           "ex": "Không phát triển tính năng. Không tích hợp mới. Không thiết kế. Không dịch vụ marketing hay ASO.",
@@ -2545,7 +2556,7 @@
         {
           "name": "Đà Tăng trưởng",
           "price": 4800,
-          "disp": "$4,800",
+          "disp": "4.800 USD",
           "per": "/tháng",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
@@ -2581,10 +2592,10 @@
             }
           ],
           "ov": [
-            "Thêm giờ: $155/giờ",
-            "Thêm thử nghiệm A/B: $800 thiết lập",
-            "Tính năng gấp (dưới 1 tuần): 1.5x giờ",
-            "Thêm giờ thiết kế: $145"
+            "Thêm giờ: 155 USD/giờ",
+            "Thêm thử nghiệm A/B: 800 USD thiết lập",
+            "Tính năng gấp (dưới 1 tuần): 1,5x giờ",
+            "Thêm giờ thiết kế: 145 USD"
           ],
           "ex": "Không kỹ sư chuyên trách (đội ngũ dùng chung với quyền ưu tiên). Không thay đổi kiến trúc backend. Không dịch vụ marketing.",
           "ideal": "Ứng dụng đang hoạt động, cải tiến liên tục dựa trên dữ liệu người dùng"
@@ -2592,7 +2603,7 @@
         {
           "name": "Đối tác",
           "price": 10500,
-          "disp": "$10,500",
+          "disp": "10.500 USD",
           "per": "/tháng",
           "tag": "Đội sản phẩm nhúng",
           "com": "Tối thiểu 3 tháng",
@@ -2631,9 +2642,9 @@
             }
           ],
           "ov": [
-            "Thêm giờ vượt 95/tháng: $145/giờ",
-            "Thêm kỹ sư chuyên trách: +$8,500/tháng",
-            "Thêm nhà thiết kế chuyên trách: +$3,500/tháng"
+            "Thêm giờ vượt 95/tháng: 145 USD/giờ",
+            "Thêm kỹ sư chuyên trách: +8.500 USD/tháng",
+            "Thêm nhà thiết kế chuyên trách: +3.500 USD/tháng"
           ],
           "ex": "Không bao gồm marketing, quảng cáo trả phí và dịch vụ nội dung. Xem các gói marketing của chúng tôi cho các dịch vụ đó.",
           "ideal": "Đội ngũ xem Blok Blok như đội sản phẩm nhúng của mình"
@@ -2643,18 +2654,18 @@
         {
           "name": "Chăm sóc Website",
           "price": 550,
-          "disp": "$550",
+          "disp": "550 USD",
           "per": "/tháng",
           "tag": "Bảo trì đáng tin cậy",
           "com": "Tối thiểu 3 tháng",
           "scope": [
             {
-              "i": "Giám sát uptime 99.9%",
-              "l": "StatusCake hoặc BetterStack theo dõi website của bạn 24/7. Cảnh báo cho chúng tôi ngay lập tức. Bạn không phải biết site sập từ khách hàng."
+              "i": "Giám sát uptime 99,9%",
+              "l": "StatusCake hoặc BetterStack theo dõi website của bạn 24/7. Cảnh báo cho chúng tôi ngay lập tức. Bạn sẽ không phải nghe tin website sập từ khách hàng."
             },
             {
               "i": "Sao lưu ngoại vi hàng tuần",
-              "l": "Toàn bộ site + cơ sở dữ liệu sao lưu hàng tuần lên lưu trữ ngoại vi (không chỉ ở nhà cung cấp hosting). Lưu giữ 30 ngày."
+              "l": "Toàn bộ website + cơ sở dữ liệu sao lưu hàng tuần lên lưu trữ ngoại vi (không chỉ ở nhà cung cấp hosting). Lưu giữ 30 ngày."
             },
             {
               "i": "Vá bảo mật + cập nhật dependency",
@@ -2674,9 +2685,9 @@
             }
           ],
           "ov": [
-            "Thêm chỉnh sửa nội dung: $45/lần",
-            "Yêu cầu gấp (trong ngày): +$125",
-            "Cập nhật kéo dài hàng giờ: $165/giờ"
+            "Thêm chỉnh sửa nội dung: 45 USD/lần",
+            "Yêu cầu gấp (trong ngày): +125 USD",
+            "Cập nhật kéo dài hàng giờ: 165 USD/giờ"
           ],
           "ex": "Không trang mới, không thiết kế lại, không thử nghiệm A/B, không SEO, không quảng cáo. Không hoạt động marketing. Xem các gói marketing của chúng tôi cho các dịch vụ đó.",
           "ideal": "Website đã ra mắt cần bảo trì đáng tin cậy và sự an tâm"
@@ -2684,7 +2695,7 @@
         {
           "name": "Phát triển Website",
           "price": 1600,
-          "disp": "$1,600",
+          "disp": "1.600 USD",
           "per": "/tháng",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
@@ -2696,7 +2707,7 @@
             },
             {
               "i": "1 trang mới hoặc phần thiết kế lại/tháng",
-              "l": "Mỗi tháng chúng tôi ra một trang mới (tối đa 1,000 từ + thiết kế tiêu chuẩn) HOẶC thiết kế lại hoàn toàn một phần của trang hiện có. Tùy bạn chọn."
+              "l": "Mỗi tháng chúng tôi ra một trang mới (tối đa 1.000 từ + thiết kế tiêu chuẩn) HOẶC thiết kế lại hoàn toàn một phần của trang hiện có. Tùy bạn chọn."
             },
             {
               "i": "2 thử nghiệm A/B mỗi tháng",
@@ -2720,8 +2731,8 @@
             }
           ],
           "ov": [
-            "Thêm thử nghiệm A/B: $450",
-            "Thêm trang mới: $850",
+            "Thêm thử nghiệm A/B: 450 USD",
+            "Thêm trang mới: 850 USD",
             "Video/hoạt họa: xác định phạm vi riêng"
           ],
           "ex": "Không thiết kế lại toàn bộ (xác định phạm vi thành dự án). Không quảng cáo trả phí. Không viết nội dung ngoài chỉnh sửa nhỏ.",
@@ -2730,7 +2741,7 @@
         {
           "name": "Đối tác Website",
           "price": 3800,
-          "disp": "$3,800",
+          "disp": "3.800 USD",
           "per": "/tháng",
           "tag": "Đội web nhúng",
           "com": "Tối thiểu 3 tháng",
@@ -2765,8 +2776,8 @@
             }
           ],
           "ov": [
-            "Thêm giờ vượt 33/tháng: $155/giờ",
-            "Thêm trang nội dung đăng: $45/trang vượt 10",
+            "Thêm giờ vượt 33/tháng: 155 USD/giờ",
+            "Thêm trang nội dung đăng: 45 USD/trang vượt 10",
             "Triển khai gấp (trong ngày): +25%"
           ],
           "ex": "Không quản lý quảng cáo trả phí (xem gói marketing). Không thiết kế lại thương hiệu (xem gói thương hiệu). Không ứng dụng di động.",
@@ -2777,7 +2788,7 @@
         {
           "name": "Đánh giá Marketing & Lộ trình",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 USD",
           "tag": "Chẩn đoán + kế hoạch 90 ngày",
           "tl": "2-3 tuần",
           "scope": [
@@ -2815,18 +2826,18 @@
             }
           ],
           "ov": [
-            "Thêm kênh đánh giá: $450",
-            "Thêm đối thủ trong phân tích: $250/đối thủ",
-            "Phiên workshop kéo dài (90 phút): $400"
+            "Thêm kênh đánh giá: 450 USD",
+            "Thêm đối thủ trong phân tích: 250 USD/đối thủ",
+            "Phiên workshop kéo dài (90 phút): 400 USD"
           ],
-          "ex": "Không thực thi lộ trình (đó là bước tiếp theo). Không quản lý quảng cáo. Không sản xuất nội dung. Không sản xuất sáng tạo.",
-          "bridge": "Đánh giá kết hợp tự nhiên với gói Duy trì & Giám sát ($1,500/tháng) để thực thi lộ trình mà không phải xây lại ngữ cảnh. Giảm 10% tháng đầu nếu ký trong 14 ngày.",
+          "ex": "Không thực thi lộ trình (đó là bước tiếp theo). Không quản lý quảng cáo. Không sản xuất nội dung. Không sản xuất ấn phẩm sáng tạo.",
+          "bridge": "Đánh giá kết hợp tự nhiên với gói Duy trì & Giám sát (1.500 USD/tháng) để thực thi lộ trình mà không phải xây lại ngữ cảnh. Giảm 10% tháng đầu nếu ký trong 14 ngày.",
           "ideal": "Nhà sáng lập nghi ngờ marketing đang rò rỉ tiền nhưng chưa xác định được ở đâu"
         },
         {
           "name": "Bệ phóng Chiến dịch",
           "price": 8500,
-          "disp": "$8,500",
+          "disp": "8.500 USD",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
           "tl": "Xây dựng 4-5 tuần + theo dõi 30 ngày",
@@ -2853,11 +2864,11 @@
             },
             {
               "i": "Ra mắt mềm 14 ngày + theo dõi 30 ngày",
-              "l": "Ra mắt mềm 2 tuần với tối ưu hàng ngày và cải tiến sáng tạo. Sau đó 30 ngày theo dõi chiến dịch chủ động với điều chỉnh hàng tuần."
+              "l": "Ra mắt mềm 2 tuần với tối ưu hàng ngày và cải tiến mẫu quảng cáo. Sau đó 30 ngày theo dõi chiến dịch chủ động với điều chỉnh hàng tuần."
             },
             {
-              "i": "Quản lý ngân sách quảng cáo tối đa $15k",
-              "l": "Ngân sách quảng cáo tối đa $15k nằm trong phí dịch vụ (bản thân ngân sách do nền tảng tính riêng). Mỗi $5k ngân sách thêm: +$500 vào phí."
+              "i": "Quản lý ngân sách quảng cáo tối đa 15.000 USD",
+              "l": "Ngân sách quảng cáo tối đa 15.000 USD nằm trong phí dịch vụ (bản thân ngân sách do nền tảng tính riêng). Mỗi 5.000 USD ngân sách thêm: +500 USD vào phí."
             },
             {
               "i": "Đánh giá hiệu quả + tài liệu bàn giao",
@@ -2865,19 +2876,19 @@
             }
           ],
           "ov": [
-            "Thêm mẫu quảng cáo (tĩnh): $250",
-            "Thêm mẫu quảng cáo (video): $600",
-            "Thêm biến thể landing page: $1,500",
-            "Thêm nền tảng quảng cáo: $2,500"
+            "Thêm mẫu quảng cáo (tĩnh): 250 USD",
+            "Thêm mẫu quảng cáo (video): 600 USD",
+            "Thêm biến thể landing page: 1.500 USD",
+            "Thêm nền tảng quảng cáo: 2.500 USD"
           ],
           "ex": "Không nội dung mạng xã hội tự nhiên. Không nội dung SEO dài. Không quản lý influencer. Không tiếp cận PR.",
-          "bridge": "Chiến dịch chuyển tiếp vào gói Động cơ Tăng trưởng ($3,500/tháng) để mở rộng phương án thắng, triển khai kênh thứ 2 và cải tiến sáng tạo. Giảm 10% tháng đầu nếu ký trong 14 ngày.",
+          "bridge": "Chiến dịch chuyển tiếp vào gói Động cơ Tăng trưởng (3.500 USD/tháng) để mở rộng phương án thắng, triển khai kênh thứ 2 và cải tiến mẫu quảng cáo. Giảm 10% tháng đầu nếu ký trong 14 ngày.",
           "ideal": "Đội ngũ có ưu đãi đã được chứng minh, sẵn sàng thu hút khách hàng với quy mô thật"
         },
         {
           "name": "Ra mắt Sản phẩm Toàn diện",
           "price": 20000,
-          "disp": "$20,000",
+          "disp": "20.000 USD",
           "tag": "Đợt ra mắt phối hợp",
           "tl": "Chuẩn bị 6 tuần + vận hành tuần ra mắt",
           "scope": [
@@ -2915,22 +2926,22 @@
             },
             {
               "i": "Báo cáo mổ xẻ sau ra mắt",
-              "l": "14 ngày sau ra mắt: phân tích cohort, kênh, sáng tạo và phễu. Báo cáo 20 trang về điều gì hiệu quả, điều gì không và nên tập trung vào đâu."
+              "l": "14 ngày sau ra mắt: phân tích cohort, kênh, mẫu quảng cáo và phễu. Báo cáo 20 trang về điều gì hiệu quả, điều gì không và nên tập trung vào đâu."
             },
             {
-              "i": "Quản lý ngân sách ra mắt tối đa $30k",
-              "l": "Quản lý tối đa $30k ngân sách quảng cáo trong phí dịch vụ. Mỗi $5k ngân sách thêm: +$500 vào phí. Ngân sách do nền tảng tính riêng."
+              "i": "Quản lý ngân sách ra mắt tối đa 30.000 USD",
+              "l": "Quản lý tối đa 30.000 USD ngân sách quảng cáo trong phí dịch vụ. Mỗi 5.000 USD ngân sách thêm: +500 USD vào phí. Ngân sách do nền tảng tính riêng."
             }
           ],
           "ov": [
-            "Thêm hợp tác influencer: $1,200 + phí creator",
-            "Thêm đơn vị báo chí (từ 26): $75/đơn vị",
-            "Thêm video quảng cáo: $600",
+            "Thêm hợp tác influencer: 1.200 USD + phí creator",
+            "Thêm đơn vị báo chí (từ 26): 75 USD/đơn vị",
+            "Thêm video quảng cáo: 600 USD",
             "Timeline gấp (dưới 3 tuần): +25%",
-            "Module SEO programmatic: $6,000"
+            "Module SEO programmatic: 6.000 USD"
           ],
           "ex": "Không lịch nội dung liên tục sau ra mắt. Không quản lý cộng đồng dài hạn. Không chụp ảnh sản phẩm (có thể bổ sung).",
-          "bridge": "Ra mắt chuyển tiếp vào gói Đối tác Toàn diện ($7,500/tháng) để tăng trưởng bền vững, tối ưu lifecycle và chu kỳ ra mắt tiếp theo. Giảm 10% tháng đầu nếu ký trong 14 ngày.",
+          "bridge": "Ra mắt chuyển tiếp vào gói Đối tác Toàn diện (7.500 USD/tháng) để tăng trưởng bền vững, tối ưu lifecycle và chu kỳ ra mắt tiếp theo. Giảm 10% tháng đầu nếu ký trong 14 ngày.",
           "ideal": "Thương hiệu ra mắt sản phẩm, dòng dịch vụ hoặc tái định vị cần một đợt đẩy phối hợp"
         }
       ],
@@ -2938,7 +2949,7 @@
         {
           "name": "Thương hiệu Cơ bản",
           "price": 4000,
-          "disp": "$4,000",
+          "disp": "4.000 USD",
           "tag": "Logo + bảng màu + font",
           "tl": "2-3 tuần",
           "scope": [
@@ -2972,18 +2983,18 @@
             }
           ],
           "ov": [
-            "Thêm biến thể logo (monogram, submark, v.v.): $300",
-            "Thêm vòng chỉnh sửa: $250",
-            "Định hướng nhiếp ảnh thương hiệu: $800"
+            "Thêm biến thể logo (monogram, submark, v.v.): 300 USD",
+            "Thêm vòng chỉnh sửa: 250 USD",
+            "Định hướng nhiếp ảnh thương hiệu: 800 USD"
           ],
           "ex": "Không tài liệu hướng dẫn thương hiệu. Không văn phòng phẩm. Không mẫu mạng xã hội. Không đặt tên hay nhận diện ngôn từ.",
-          "bridge": "Thương hiệu Cơ bản kết hợp với Gìn giữ Thương hiệu ($1,500/tháng) giữ tài sản nhất quán khi bạn sản xuất nội dung mới.",
+          "bridge": "Thương hiệu Cơ bản kết hợp với Gìn giữ Thương hiệu (1.500 USD/tháng) giữ tài sản nhất quán khi bạn sản xuất nội dung mới.",
           "ideal": "Người kinh doanh độc lập và thương hiệu chưa có doanh thu cần một logo sạch, dùng được ngay"
         },
         {
           "name": "Hệ thống Thương hiệu",
           "price": 12000,
-          "disp": "$12,000",
+          "disp": "12.000 USD",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
           "tl": "4-6 tuần",
@@ -3018,18 +3029,18 @@
             }
           ],
           "ov": [
-            "Bộ icon tùy chỉnh (8 icon): $1,200",
-            "Định hướng nghệ thuật nhiếp ảnh thương hiệu + danh sách cảnh chụp: $800",
-            "Thêm vòng chỉnh sửa: $400"
+            "Bộ icon tùy chỉnh (8 icon): 1.200 USD",
+            "Định hướng nghệ thuật nhiếp ảnh thương hiệu + danh sách cảnh chụp: 800 USD",
+            "Thêm vòng chỉnh sửa: 400 USD"
           ],
           "ex": "Không đặt tên hay sprint nhận diện ngôn từ. Không nghiên cứu nhãn hiệu. Không brand book ngoài hướng dẫn 20 trang. Không video.",
-          "bridge": "Hệ thống Thương hiệu kết hợp với Định hướng Sáng tạo ($4,000/tháng) để liên tục sản xuất tài sản thương hiệu mới một cách nhất quán.",
+          "bridge": "Hệ thống Thương hiệu kết hợp với Định hướng Sáng tạo (4.000 USD/tháng) để liên tục sản xuất tài sản thương hiệu mới một cách nhất quán.",
           "ideal": "Startup đã gọi vốn và doanh nghiệp đang mở rộng cần hệ thống thương hiệu hoàn chỉnh, vững chắc"
         },
         {
           "name": "Chuyển đổi Thương hiệu",
           "price": 28000,
-          "disp": "$28,000",
+          "disp": "28.000 USD",
           "tag": "Tái định vị toàn diện + đặt tên + chiến lược",
           "tl": "8-12 tuần",
           "scope": [
@@ -3067,12 +3078,12 @@
             }
           ],
           "ov": [
-            "Ý kiến pháp lý về nhãn hiệu qua luật sư đối tác: $1,500-$3,000 chuyển tiếp",
-            "Sản xuất video ra mắt thương hiệu (60 giây): $3,500",
-            "Thêm vòng đặt tên: $2,000"
+            "Ý kiến pháp lý về nhãn hiệu qua luật sư đối tác: 1.500-3.000 USD chuyển tiếp",
+            "Sản xuất video ra mắt thương hiệu (60 giây): 3.500 USD",
+            "Thêm vòng đặt tên: 2.000 USD"
           ],
           "ex": "Không nộp đơn nhãn hiệu (có giới thiệu luật sư đối tác). Không sản xuất video ngoài storyboard. Không thực thi liên tục. Đó là gói hàng tháng.",
-          "bridge": "Chuyển đổi thường đi kèm gói Studio Nội bộ ($8,500/tháng) để triển khai nhận diện mới trên mọi điểm chạm trong 6 tháng tiếp theo.",
+          "bridge": "Chuyển đổi thường đi kèm gói Studio Nội bộ (8.500 USD/tháng) để triển khai nhận diện mới trên mọi điểm chạm trong 6 tháng tiếp theo.",
           "ideal": "Doanh nghiệp đã ổn định đang tái định vị, startup trước Series A, thương hiệu lâu năm cần xây dựng lại từ đầu"
         }
       ],
@@ -3080,7 +3091,7 @@
         {
           "name": "Gìn giữ Thương hiệu",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 USD",
           "per": "/tháng",
           "tag": "Duy trì nhất quán",
           "com": "Tối thiểu 3 tháng",
@@ -3107,9 +3118,9 @@
             }
           ],
           "ov": [
-            "Thêm tài sản (từ 7): $125/tài sản",
+            "Thêm tài sản (từ 7): 125 USD/tài sản",
             "Gấp trong 48 giờ: +50%",
-            "Dựng video ngắn: $300/video"
+            "Dựng video ngắn: 300 USD/video"
           ],
           "ex": "Không công việc chiến lược, không hướng thương hiệu mới, không viết nội dung. Không quản lý mạng xã hội (xem gói social).",
           "ideal": "Thương hiệu đã có nhận diện cần bảo trì nhẹ nhàng, nhất quán"
@@ -3117,7 +3128,7 @@
         {
           "name": "Định hướng Sáng tạo",
           "price": 4000,
-          "disp": "$4,000",
+          "disp": "4.000 USD",
           "per": "/tháng",
           "tag": "Được chọn nhiều nhất",
           "pop": true,
@@ -3136,8 +3147,8 @@
               "l": "Kiểm toán PDF mỗi 3 tháng cộng 3 mẫu làm mới (mẫu quảng cáo, header email, bài mạng xã hội) dựa trên những gì đang hiệu quả."
             },
             {
-              "i": "Viết nội dung nhẹ (tối đa 1,000 từ/tháng)",
-              "l": "Nội dung đúng thương hiệu cho caption, biến thể quảng cáo hoặc tiêu đề email. Không nội dung dài hay trang web đầy đủ."
+              "i": "Viết nội dung nhẹ (tối đa 1.000 từ/tháng)",
+              "l": "Nội dung đúng thương hiệu cho caption, biến thể quảng cáo hoặc tiêu đề email. Không nội dung dài hay trang website hoàn chỉnh."
             },
             {
               "i": "Bảo trì thư viện tài sản + Figma",
@@ -3153,9 +3164,9 @@
             }
           ],
           "ov": [
-            "Thêm tài sản (từ 16): $150/tài sản",
-            "Dựng video ngắn (dưới 60 giây): $300/video",
-            "Nội dung vượt 1,000 từ: $200/trang"
+            "Thêm tài sản (từ 16): 150 USD/tài sản",
+            "Dựng video ngắn (dưới 60 giây): 300 USD/video",
+            "Nội dung vượt 1.000 từ: 200 USD/trang"
           ],
           "ex": "Không quản lý quảng cáo trả phí. Không tái định vị toàn diện (đó là dự án). Không nhà thiết kế chuyên trách. Đội ngũ dùng chung.",
           "ideal": "Thương hiệu đang tăng trưởng cần đối tác sáng tạo sản xuất đều đặn và định hướng ngôn ngữ hình ảnh"
@@ -3163,7 +3174,7 @@
         {
           "name": "Studio Nội bộ",
           "price": 8500,
-          "disp": "$8,500",
+          "disp": "8.500 USD",
           "per": "/tháng",
           "tag": "Đội sáng tạo nội bộ bán thời gian",
           "com": "Tối thiểu 3 tháng",
@@ -3186,11 +3197,11 @@
             },
             {
               "i": "Viết nội dung + gìn giữ giọng nói thương hiệu",
-              "l": "Tối đa 3,000 từ/tháng nội dung đúng thương hiệu. Hướng dẫn giọng nói được tuân thủ trên mọi nội dung chúng tôi chạm vào. 1 cập nhật tài liệu huấn luyện giọng nói mỗi quý."
+              "l": "Tối đa 3.000 từ/tháng nội dung đúng thương hiệu. Hướng dẫn giọng nói được tuân thủ trên mọi nội dung chúng tôi chạm vào. 1 cập nhật tài liệu huấn luyện giọng nói mỗi quý."
             },
             {
               "i": "Tiến hóa hệ thống thương hiệu",
-              "l": "Cập nhật hệ thống nhỏ khi bạn mở rộng: mẫu mới, mở rộng màu điều chỉnh, biểu tượng thương hiệu con mới. Tái định vị toàn diện vẫn báo giá riêng từ $20k."
+              "l": "Cập nhật hệ thống nhỏ khi bạn mở rộng: mẫu mới, mở rộng màu điều chỉnh, biểu tượng thương hiệu con mới. Tái định vị toàn diện vẫn báo giá riêng từ 20.000 USD."
             },
             {
               "i": "Ý tưởng chiến dịch hàng quý",
@@ -3202,9 +3213,9 @@
             }
           ],
           "ov": [
-            "Tái định vị toàn diện: từ $20k, tính riêng",
-            "Ngày chụp ảnh thương hiệu (định hướng + quản lý nhà cung cấp, buổi chụp tính chuyển tiếp): phí định hướng $2,500",
-            "Thêm nhà thiết kế nhúng: +$3,500/tháng"
+            "Tái định vị toàn diện: từ 20.000 USD, tính riêng",
+            "Ngày chụp ảnh thương hiệu (định hướng + quản lý nhà cung cấp, buổi chụp tính chuyển tiếp): phí định hướng 2.500 USD",
+            "Thêm nhà thiết kế nhúng: +3.500 USD/tháng"
           ],
           "ex": "Không quản lý quảng cáo trả phí. Không thiết kế sản phẩm / UX (xác định phạm vi riêng).",
           "ideal": "Thương hiệu đang mở rộng xem chúng tôi như đội sáng tạo nội bộ bán thời gian trên mọi kênh"
@@ -3222,7 +3233,7 @@
     "open_menu": "Mở menu",
     "close_menu": "Đóng menu",
     "email_label": "Địa chỉ email",
-    "cookie_dialog": "Chấp thuận cookie",
+    "cookie_dialog": "Đồng ý cookie",
     "cookie_preferences_dialog": "Tùy chọn cookie"
   },
   "careers": {
@@ -3235,7 +3246,7 @@
     "how_1_title": "Làm việc từ xa có chủ đích",
     "how_1_text": "Berlin là trụ sở. Giám đốc sáng tạo ở Virginia, marketing ở Los Angeles, video ở Pakistan. Ưu tiên bất đồng bộ, chỉ họp khi thật sự cần.",
     "how_2_title": "Bạn làm chủ một dự án",
-    "how_2_text": "Một người điều hành dự án từ đầu đến cuối và trao đổi trực tiếp với khách hàng. Case study mang dấu ấn của bạn, không phải của một phòng ban.",
+    "how_2_text": "Một người điều hành dự án từ đầu đến cuối và trao đổi trực tiếp với khách hàng. Nghiên cứu điển hình mang tên bạn, không phải tên một phòng ban.",
     "how_3_title": "Xây dựng từ đầu",
     "how_3_text": "Next.js và React, viết tay. Không page builder, không theme mua sẵn. Nếu bạn thích website nhanh và code sạch, bạn sẽ thích nơi này.",
     "how_4_title": "Con số, không phải cảm tính",
@@ -3248,7 +3259,7 @@
     "none_text": "Chúng tôi tuyển khi dự án cần, thường là lập trình viên front-end và nhà thiết kế biết viết. Hãy gửi portfolio kèm hai dòng về điều bạn muốn xây dựng. Chúng tôi đọc hết và giữ lại những hồ sơ tốt.",
     "none_subject": "Portfolio gửi Blok Blok Studio",
     "none_cta": "Gửi portfolio",
-    "clients_note": "Bạn đang tìm làm website?",
+    "clients_note": "Bạn đang cần làm website?",
     "clients_link": "Bắt đầu với bài trắc nghiệm"
   },
   "casegrid": {
@@ -3257,10 +3268,10 @@
     "luki_where": "Huấn luyện viên cá nhân, Berlin",
     "luki_proof": "Đặt lịch và thanh toán ngay trên website. Không cần nhắn tin riêng, không cần hóa đơn.",
     "bronco_where": "Dallas-Fort Worth",
-    "bronco_proof": "Doanh thu gộp $50k+ trong 5 tháng đầu tiên. 5.0 sao trên 52 đánh giá Google.",
-    "ripz_where": "Thương mại điện tử, Mỹ",
-    "ripz_proof": "$191k doanh số thẻ bài sưu tầm, 1,790 đơn hàng trên cửa hàng Shopify do chúng tôi xây dựng. Hiện các chủ shop đã đóng cửa hàng.",
-    "view_case": "Xem tình huống thực tế",
+    "bronco_proof": "Doanh thu gộp 50.000+ USD trong 5 tháng đầu tiên. 5,0 sao trên 52 đánh giá Google.",
+    "ripz_where": "Thương mại điện tử, Hoa Kỳ",
+    "ripz_proof": "191.000 USD doanh số thẻ bài sưu tầm, 1.790 đơn hàng trên cửa hàng Shopify do chúng tôi xây dựng. Hiện các chủ cửa hàng đã đóng cửa hàng.",
+    "view_case": "Xem nghiên cứu điển hình",
     "results_alt": "Kết quả của {name}",
     "captions_label": "Tiếng Anh"
   },
@@ -3269,16 +3280,16 @@
     "meta_description": "Thông tin pháp lý (Impressum) của Blok Blok Studio LLC theo § 5 DDG.",
     "subtitle": "Thông tin pháp lý theo § 5 DDG (Luật Dịch vụ Số của Đức)",
     "provider_title": "Nhà cung cấp dịch vụ",
-    "provider_country": "Hợp chủng quốc Hoa Kỳ",
-    "registered": "Đăng ký tại Nevada Secretary of State (Hoa Kỳ) dưới hình thức Limited Liability Company.",
+    "provider_country": "Hợp chúng quốc Hoa Kỳ",
+    "registered": "Đăng ký với Văn phòng Ngoại trưởng bang Nevada (Hoa Kỳ) dưới hình thức công ty trách nhiệm hữu hạn (Limited Liability Company).",
     "represented_title": "Đại diện bởi",
-    "represented": "Chase Haynes (Managing Member)",
+    "represented": "Chase Haynes (Thành viên Quản lý)",
     "responsible": "Chịu trách nhiệm về nội dung theo § 18 (2) MStV: Chase Haynes",
     "contact_title": "Liên hệ",
     "email_label": "Email",
     "phone_label": "Điện thoại",
     "odr_title": "Giải quyết tranh chấp tại EU",
-    "odr_1": "Ủy ban Châu Âu cung cấp nền tảng giải quyết tranh chấp trực tuyến (ODR):",
+    "odr_1": "Ủy ban châu Âu cung cấp nền tảng giải quyết tranh chấp trực tuyến (ODR):",
     "odr_2": "Địa chỉ email của chúng tôi được ghi ở phía trên.",
     "odr_3": "Chúng tôi không sẵn sàng và cũng không có nghĩa vụ tham gia thủ tục giải quyết tranh chấp trước cơ quan trọng tài người tiêu dùng.",
     "liability_title": "Trách nhiệm về nội dung và liên kết",
@@ -3312,7 +3323,7 @@
     "country_united_states": "Hoa Kỳ"
   },
   "seo": {
-    "org_description": "Studio thiết kế web sáng tạo, xây dựng website tùy chỉnh tập trung vào chuyển đổi cho các thương hiệu tham vọng.",
+    "org_description": "Studio thiết kế web tại Berlin, xây dựng website tùy chỉnh tập trung vào chuyển đổi cho các thương hiệu tham vọng.",
     "local_description": "Studio thiết kế web tại Berlin, xây dựng website Next.js tùy chỉnh cho các thương hiệu tham vọng trên toàn thế giới.",
     "offer_catalog": "Dịch vụ thiết kế web",
     "service_name": "Website",

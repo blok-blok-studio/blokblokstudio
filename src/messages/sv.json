@@ -43,22 +43,22 @@
       {
         "category": "pricing",
         "question": "Vad kostar en skräddarsydd webbplats?",
-        "answer": "Skräddarsydda webbplatser hos Blok Blok Studio börjar på $2,000 för en enskild landningssida, $6,500 för en sajt med 5 sidor, $12,000 för 10 sidor med CMS och $18,000 för 15 sidor eller fler. Priset beror på antal sidor, skräddarsydda animationer, integrationer och behov av copywriting. Varje sajt byggs i Next.js, hostas på Vercel och är SEO-optimerad från dag ett, aldrig mallar."
+        "answer": "Skräddarsydda webbplatser hos Blok Blok Studio börjar på 2 000 $ för en enskild landningssida, 6 500 $ för en sajt med 5 sidor, 12 000 $ för 10 sidor med CMS och 18 000 $ för 15 sidor eller fler. Priset beror på antal sidor, skräddarsydda animationer, integrationer och behov av copywriting. Varje sajt byggs i Next.js, hostas på Vercel och är SEO-optimerad från dag ett, aldrig mallar."
       },
       {
         "category": "pricing",
         "question": "Vad kostar det att bygga en AI-chattbot?",
-        "answer": "En AI-chattbot tränad på 100+ frågor och svar och inbäddad på hela sajten ingår i vår Conversational AI-svit för $18,000, som även omfattar en röstagent, sms-automationer och en komplett innehållspipeline. Som fristående tillägg till ett webbplatspaket börjar en AI-chattbot på $2,500. Alla botar integreras med ditt CRM och fångar leads dygnet runt."
+        "answer": "En AI-chattbot tränad på 100+ frågor och svar och inbäddad på hela sajten ingår i vår Conversational AI-svit för 18 000 $ som även omfattar en röstagent, sms-automationer och en komplett innehållspipeline. Som fristående tillägg till ett webbplatspaket börjar en AI-chattbot på 2 500 $. Alla botar integreras med ditt CRM och fångar leads dygnet runt."
       },
       {
         "category": "pricing",
         "question": "Vad kostar en AI-röstagent per månad?",
-        "answer": "Uppsättningen av vår AI-röstagent börjar på $2,500 som engångskostnad, med 500 röstminuter inkluderade den första månaden. Löpande minuter debiteras till standardtaxa för telefoni och ingår i ett månadsavtal. Agenten svarar på samtal, kvalificerar leads, bokar möten och kopplar brådskande samtal till en människa, allt på naturligt talspråk."
+        "answer": "Uppsättningen av vår AI-röstagent börjar på 2 500 $ som engångskostnad, med 500 röstminuter inkluderade den första månaden. Löpande minuter debiteras till standardtaxa för telefoni och ingår i ett månadsavtal. Agenten svarar på samtal, kvalificerar leads, bokar möten och kopplar brådskande samtal till en människa, allt på naturligt talspråk."
       },
       {
         "category": "pricing",
         "question": "Erbjuder ni månadsavtal eller bara projekt?",
-        "answer": "Både och. Projekt börjar på $2,000 och faktureras i delmål. Månadsavtal börjar på $1,500/månad för underhåll av sajten, AI-övervakning och CRM-skötsel, eller $3,500/månad för fullservice-tillväxt, hantering av Google- och Meta-annonser, AI-stödd innehållsproduktion och 5 timmars utvecklingsarbete varje månad. Månadsavtal kräver minst 3 eller 6 månaders bindningstid."
+        "answer": "Både och. Projekt börjar på 2 000 $ och faktureras i delmål. Månadsavtal börjar på 1 500 $/månad för underhåll av sajten, AI-övervakning och CRM-skötsel, eller 3 500 $/månad för tillväxt med fullservice, hantering av Google- och Meta-annonser, AI-stödd innehållsproduktion och 5 timmars utvecklingsarbete varje månad. Månadsavtal kräver minst 3 eller 6 månaders bindningstid."
       },
       {
         "category": "process",
@@ -73,7 +73,7 @@
       {
         "category": "process",
         "question": "Hur ser design- och byggprocessen ut?",
-        "answer": "Fem faser: Kartläggning (dina mål och din målgrupp), Strategi (en skräddarsydd plan), Design (visuella koncept och prototyper), Utveckling (modern, snabb kod) och Lansering och optimering (driftsätta, övervaka, finjustera). Du får uppdateringar varje vecka och en inspelad Loom-genomgång vid varje delmål, inga statusmöten live om du inte vill ha ett."
+        "answer": "Fem faser: Förstudie (dina mål och din målgrupp), Strategi (en skräddarsydd plan), Design (visuella koncept och prototyper), Utveckling (modern, snabb kod) och Lansering och optimering (driftsätta, övervaka, finjustera). Du får uppdateringar varje vecka och en inspelad Loom-genomgång vid varje delmål, inga statusmöten live om du inte vill ha ett."
       },
       {
         "category": "capabilities",
@@ -93,7 +93,7 @@
       {
         "category": "capabilities",
         "question": "Skriver ni texterna till webbplatsen, eller levererar jag dem?",
-        "answer": "Båda fungerar. De flesta kunder lämnar råa anteckningar eller punktlistor som vi formar till färdig text. Fullständig professionell copywriting ingår i vårt paket för $18,000 och finns som tillägg för $200/sida i alla andra paket. Annonstexter för Google- och Meta-kampanjer skriver vi alltid själva när vi hanterar annonserna."
+        "answer": "Båda fungerar. De flesta kunder lämnar råa anteckningar eller punktlistor som vi formar till färdig text. Fullständig professionell copywriting ingår i vårt paket för 18 000 $ och finns som tillägg för 200 $/sida i alla andra paket. Annonstexter för Google- och Meta-kampanjer skriver vi alltid själva när vi hanterar annonserna."
       },
       {
         "category": "trust",
@@ -135,7 +135,7 @@
     "tab_all": "Alla",
     "tab_ai": "AI och automation",
     "tab_creative": "Kreativt och marknadsföring",
-    "audit_badge": "Free: 30 minutes",
+    "audit_badge": "Kostnadsfritt, 30 minuter",
     "audit_heading": "Osäker på vad ditt företag behöver?",
     "audit_subheading": "Boka ett kostnadsfritt strategisamtal. Vi går igenom din verksamhet och visar exakt var de största möjligheterna finns.",
     "audit_button": "Boka ditt kostnadsfria samtal",
@@ -168,15 +168,15 @@
     "v2_work_link": "Alla projekt",
     "v2_result_coach_luki": "Kunderna bokar och betalar via sajten. Lokal SEO drar in Berlinbor som söker.",
     "v2_result_bronco_plumbing": "50 000 $ på de första 5 månaderna. 5,0 stjärnor över 52 Google-recensioner.",
-    "v2_result_coach_kofi": "Konsultationsförfrågningarna ökade 200% efter lanseringen.",
+    "v2_result_coach_kofi": "Konsultationsförfrågningarna ökade 200 % efter lanseringen.",
     "v2_result_exotic_ripz": "191 000 $ i försäljning över 1 790 ordrar. Släppen sålde slut på några timmar.",
     "v2_result_kds_systems": "Tydligt tjänsteerbjudande och ett bokningsflöde som ökade antalet kvalificerade leads.",
     "v2_proof_label": "Siffrorna",
-    "v2_proof_1_value": "$191k",
+    "v2_proof_1_value": "191 000 $",
     "v2_proof_1_label": "I försäljning via en butik vi levererade",
-    "v2_proof_2_value": "5.0",
+    "v2_proof_2_value": "5,0",
     "v2_proof_2_label": "Google-betyg över 52 recensioner, Bronco Plumbing",
-    "v2_proof_3_value": "200%",
+    "v2_proof_3_value": "200 %",
     "v2_proof_3_label": "Fler konsultationsförfrågningar, Coach Kofi",
     "v2_quotes_label": "Kunder",
     "v2_clients_label": "Betrodda av",
@@ -223,20 +223,20 @@
     "v2_globe_cities": "städer",
     "v2_hosting_title": "Hosting och drift",
     "v2_hosting_subtitle": "Snabb, övervakad och alltid uppdaterad",
-    "v2_hosting_bullet_1": "Managerad hosting på Vercel med globalt CDN",
+    "v2_hosting_bullet_1": "Hanterad hosting på Vercel med globalt CDN",
     "v2_hosting_bullet_2": "SSL, säkerhetskopior och drifttidsövervakning",
     "v2_hosting_bullet_3": "Säkerhets- och beroendeuppdateringar",
     "v2_hosting_bullet_4": "Hastighetsoptimering och Core Web Vitals-kontroller",
     "v2_hosting_bullet_5": "Innehållsändringar och support när du behöver det",
     "v2_globe_hint": "Dra för att snurra, scrolla eller nyp för att zooma, eller välj en stad.",
-    "v2_proof_4_value": "$3B+",
+    "v2_proof_4_value": "3+ mdr $",
     "v2_proof_4_label": "Årsomsättning hos vår största kund, Philippine Airlines",
-    "v2_result_public_affair": "En exklusiv åldersgrind som 95% av besökarna tar sig igenom.",
+    "v2_result_public_affair": "En exklusiv åldersgrind som 95 % av besökarna tar sig igenom.",
     "v2_result_military_newschool": "Ett digitalt hem som talar till studenter med militär anknytning.",
     "v2_archive": "arkiv",
     "v2_globe_nowebgl": "WebGL är avstängt i den här webbläsaren. Städerna listas bredvid.",
-    "v2_quote_1_role": "Bronco Plumbing, Dallas–Fort Worth",
-    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_1_role": "Bronco Plumbing, Dallas-Fort Worth",
+    "v2_quote_2_role": "Nike-atlet, Berlin",
     "v2_quote_3_role": "Butik för samlarkort",
     "v2_quote_1_text": "50 000 $ i bruttointäkter de första fem månaderna, 5,0 stjärnor över 52 Google-recensioner och en genomsnittlig Google-position på 5,2 för hans sökord.",
     "v2_quote_2_text": "Blok Blok Studio förvandlade min närvaro online helt och hållet. Den djärva designen fångar min coachningsfilosofi perfekt och resultaten har varit otroliga.",
@@ -259,7 +259,7 @@
   },
   "projects": {
     "title": "Våra projekt",
-    "subtitle": "Utforska vår portfolio av digitala upplevelser, varumärkesidentiteter och kreativa lösningar.",
+    "subtitle": "Varje sajt vi har levererat, med siffrorna den gav.",
     "filter_all": "Alla",
     "filter_web": "Webbdesign",
     "filter_brand": "Varumärke",
@@ -270,21 +270,21 @@
     "cat_ecom": "E-handel",
     "cat_brand": "Varumärke",
     "v2_label": "Utvalda arbeten",
-    "v2_count": "{count} projekt",
+    "v2_count": "{count, plural, one {# projekt} other {# projekt}}",
     "alt_live_preview": "Live-förhandsvisning av {title}",
     "alt_mobile_preview": "Mobil förhandsvisning av {title}",
     "alt_gallery": "Galleribild {n} för {title}"
   },
   "about": {
     "title": "Om oss",
-    "subtitle": "Vi är ett kollektiv av designers, utvecklare och strateger med passion för att skapa meningsfulla digitala upplevelser.",
+    "subtitle": "En studio med fem personer som designar, bygger och hostar webbplatser. Grundad i Berlin i juni 2024.",
     "mission_title": "Vårt uppdrag",
     "mission_text": "Att ge ambitiösa varumärken de webbplatser, system och kampanjer som faktiskt vinner kunder åt dem.",
     "vision_title": "Vår vision",
-    "vision_text": "Att vara den självklara kreativa partnern för varumärken som vågar sticka ut i det digitala landskapet.",
+    "vision_text": "Att vara den studio ambitiösa varumärken ringer först när webbplatsen måste betala för sig.",
     "values_title": "Våra värderingar",
     "value_1_title": "Nytänkande",
-    "value_1_text": "Vi flyttar gränser och utforskar nya möjligheter i varje projekt.",
+    "value_1_text": "Varje sajt byggs från grunden. Inget återanvänds från ett tema.",
     "value_2_title": "Kvalitet",
     "value_2_text": "Vi håller oss till de högsta kraven på kvalitet och hantverk.",
     "value_3_title": "Samarbete",
@@ -314,7 +314,7 @@
   },
   "blog": {
     "meta_title": "Blogg: insikter om webbdesign, varumärke och SEO",
-    "meta_description": "Expertinsikter om webbdesign, varumärkesbyggande, SEO och digital marknadsföring från Blok Blok Studio. Konkreta tips för att växa din närvaro online.",
+    "meta_description": "Vad vi har lärt oss av att bygga sajter som betalar för sig: artiklar, kundvideor och nyheter från Blok Blok Studio.",
     "og_alt": "Blok Blok Studios blogg",
     "list_title": "Idéer",
     "list_subtitle": "Vad vi har lärt oss av att bygga sajter som drar in pengar: artiklar, kunder framför kameran och nyheter från studion.",
@@ -322,7 +322,7 @@
     "read_article": "Läs artikeln",
     "back_to_blog": "Tillbaka till bloggen",
     "cta_title": "Vill du ha sådana här resultat?",
-    "cta_subtitle": "Boka ett kostnadsfritt strategisamtal så pratar vi om hur vi kan transformera din digitala närvaro.",
+    "cta_subtitle": "Boka ett kostnadsfritt samtal så visar vi vad vi skulle åtgärda först.",
     "cta_button": "Kom igång",
     "posts": {
       "why-your-website-is-losing-customers": {
@@ -357,8 +357,8 @@
         "summary": "Filippinernas nationella flygbolag, med en årsomsättning över 3 miljarder dollar, är vår största kund hittills. En Berlinstudio på fem personer, betrodd i Manila."
       },
       "brand-guidelines-v2": {
-        "title": "Brand Guidelines V2: Montserrat, Inter och en ny lockup",
-        "summary": "Version två av vår identitet, daterad 16 oktober 2026. Två typsnitt, en lockup och raden som nu öppnar sajten: Vi bygger varumärken, blok för blok."
+        "title": "Varumärkesmanual V2: Montserrat, Inter och en ny logotypkombination",
+        "summary": "Version två av vår identitet, daterad 16 oktober 2026. Två typsnitt, en logotypkombination och raden som nu öppnar sajten: Vi bygger varumärken, blok för blok."
       },
       "grant-parkhurst-portal": {
         "title": "Grant Parkhurst Photography: portfolio och kundportal levererade",
@@ -368,7 +368,7 @@
   },
   "services": {
     "title": "Våra tjänster",
-    "subtitle": "Skräddarsydd webbdesign och utveckling som ger verklig affärstillväxt.",
+    "subtitle": "Skräddarsydd webbdesign och utveckling, byggd för att vinna kunder, sedan hostad och i drift.",
     "section_ai_title": "AI och automation",
     "section_creative_title": "Kreativt och marknadsföring",
     "service_1_title": "AI-agentekosystem",
@@ -405,7 +405,7 @@
     "service_5_bullet_2": "Annonsutgifter och ROAS i realtid",
     "service_5_bullet_3": "Automatiska veckorapporter via mejl",
     "service_5_bullet_4": "Anpassade KPI-widgets per kund",
-    "service_5_bullet_5": "White label i ditt varumärke",
+    "service_5_bullet_5": "I din egen grafiska profil, utan vårt namn",
     "service_6_title": "Webbplatser",
     "service_6_subtitle": "Skräddarsydda, konverteringsfokuserade sajter",
     "service_6_bullet_1": "Next.js- och React-byggen",
@@ -413,7 +413,7 @@
     "service_6_bullet_3": "Mobilen först, responsiv överallt",
     "service_6_bullet_4": "CMS-integration",
     "service_6_bullet_5": "Prestanda- och hastighetsoptimering",
-    "service_7_title": "Branding",
+    "service_7_title": "Varumärke",
     "service_7_subtitle": "Djärva visuella identiteter som sticker ut",
     "service_7_bullet_1": "Logotyp och varumärkessymbol",
     "service_7_bullet_2": "Färgpalett och typografi",
@@ -435,16 +435,16 @@
     "service_9_bullet_4": "ROAS-rapportering",
     "service_9_bullet_5": "A/B-testning av annonsmaterial",
     "process_title": "Vår process",
-    "step_1_title": "Kartläggning",
-    "step_1_desc": "Vi går på djupet med dina mål, din målgrupp och din marknad för att bygga en stabil grund.",
+    "step_1_title": "Förstudie",
+    "step_1_desc": "Vi lär känna dina mål, din målgrupp och din marknad innan något designas.",
     "step_2_title": "Strategi",
-    "step_2_desc": "Vi tar fram en skräddarsydd plan som förenar kreativ vision med affärsmål.",
+    "step_2_desc": "En skriftlig plan: sidor, tidsplan och ett pris.",
     "step_3_title": "Design",
-    "step_3_desc": "Vi skapar starka visuella uttryck och intuitiva gränssnitt som fängslar användarna.",
+    "step_3_desc": "Vi designar sidorna och flödet och visar dig sedan en fungerande prototyp.",
     "step_4_title": "Utveckling",
-    "step_4_desc": "Vi bygger med modern teknik som ger hastighet, skalbarhet och tillförlitlighet.",
+    "step_4_desc": "Handbyggd i Next.js. Snabb nu, lätt att bygga ut senare.",
     "step_5_title": "Lansering och optimering",
-    "step_5_desc": "Vi lanserar, övervakar och finjusterar kontinuerligt för att maximera resultatet.",
+    "step_5_desc": "Vi lanserar, följer siffrorna och åtgärdar det som inte fungerar.",
     "v2_label": "Tjänster",
     "v2_intro": "Ett paket, ordentligt gjort. Vi designar och bygger sajten, sedan hostar vi den och håller den igång.",
     "v2_process_label": "Så går ett projekt till",
@@ -457,7 +457,7 @@
   },
   "team": {
     "title": "Vårt team",
-    "subtitle": "Möt de kreativa hjärnorna bakom Blok Blok Studio.",
+    "subtitle": "De fem personerna som bygger och hostar din sajt.",
     "role_founder": "Grundare",
     "role_graphic": "Senior grafisk designer",
     "role_web": "Senior webbdesigner",
@@ -482,7 +482,7 @@
   },
   "contact": {
     "title": "Hör av dig",
-    "subtitle": "Har du ett projekt på gång? Vi vill gärna höra från dig. Låt oss skapa något utöver det vanliga tillsammans.",
+    "subtitle": "Berätta vad sajten ska göra. Vi svarar inom en arbetsdag.",
     "name": "Ditt namn",
     "email": "Din e-postadress",
     "company": "Företag",
@@ -501,7 +501,7 @@
     "newsletter_title": "Håll dig uppdaterad",
     "newsletter_placeholder": "Ange din e-postadress",
     "newsletter_button": "Prenumerera",
-    "newsletter_subscribed": "Bekräfta via e-post!",
+    "newsletter_subscribed": "Kolla din inkorg och bekräfta!",
     "newsletter_already_subscribed": "Du prenumererar redan",
     "newsletter_consent": "Genom att prenumerera godkänner du vår <link>Integritetspolicy</link>. Avregistrera dig när som helst.",
     "back_to_top": "Tillbaka till toppen",
@@ -514,14 +514,14 @@
     "terms": "användarvillkoren",
     "and": "och",
     "consent_required": "Du måste godkänna vår integritetspolicy och våra användarvillkor för att fortsätta",
-    "cookie_banner_text": "Vi använder nödvändiga cookies för att förbättra din upplevelse. Läs mer i vår",
+    "cookie_banner_text": "Vi använder nödvändiga cookies för att webbplatsen ska fungera. Läs mer i vår",
     "cookie_policy": "cookiepolicy",
     "accept": "Acceptera",
     "decline": "Avböj",
     "reject_all": "Avvisa alla",
     "accept_all": "Acceptera alla",
     "manage_preferences": "Hantera inställningar",
-    "preferences_title": "Cookie-inställningar",
+    "preferences_title": "Cookieinställningar",
     "essential_title": "Nödvändiga",
     "essential_desc": "Krävs för att webbplatsen ska fungera. Kan inte inaktiveras.",
     "analytics_title": "Analys",
@@ -616,7 +616,7 @@
     "third_party_vercel": "Vercel: hosting av webbplats och applikation (USA; dataskyddsramverk och SCC tillämpas)",
     "third_party_slack": "Slack: interna notiser till vårt team om nya förfrågningar (begränsat till namn, e-post, telefon och verksamhetstyp)",
     "third_party_turnstile": "Cloudflare Turnstile: skydd mot spam i våra formulär (behandlar din IP-adress)",
-    "third_party_cal": "Cal.com, tidsbokning när du bokar ett samtal med oss",
+    "third_party_cal": "Google Calendar: tidsbokning när du bokar ett samtal med oss",
     "third_party_meta": "Meta (Facebook/Instagram): mätning av annonser, endast med ditt samtycke till marknadsföringscookies. Med det samtycket kan vi också överföra din e-postadress och ditt telefonnummer i hashad (pseudonymiserad) form för att mäta annonskonverteringar.",
     "third_party_google": "Google: mätning av annonser (Google Ads), endast med ditt samtycke till marknadsföringscookies",
     "marketing_double_optin": "Marknadsföringsmejl använder dubbel bekräftelse (double opt-in). Att kryssa i den valfria rutan i ett formulär räcker inte i sig: vi skickar ett bekräftelsemejl, och du läggs till på listan först när du klickar på länken i det. Fram till dess skickar vi ingen marknadsföring till dig. Du kan när som helst avsluta via avregistreringslänken i varje mejl, vilket gäller omedelbart."
@@ -644,7 +644,7 @@
     "dispute_informal": "Informell lösning: Kontakta oss på hello@blokblokstudio.com. Vi försöker lösa frågan inom 30 dagar.",
     "dispute_formal": "Formellt förfarande: Om en informell lösning inte nås avgörs tvister av behörig domstol i Tyskland.",
     "dispute_eu": "Konsumenter i EU: Om du är konsument inom EU kan du också använda Europeiska kommissionens plattform för tvistlösning online.",
-    "severability_title": "Bestämmelsers giltighet",
+    "severability_title": "Ogiltighet av enskilda bestämmelser",
     "severability_content": "Om någon bestämmelse i dessa användarvillkor bedöms vara ogiltig, olaglig eller inte verkställbar av behörig domstol fortsätter övriga bestämmelser att gälla fullt ut. Den ogiltiga eller icke verkställbara bestämmelsen ändras i minsta möjliga utsträckning så att den blir giltig och verkställbar, samtidigt som parternas ursprungliga avsikt bevaras.",
     "changes_contact": "Om du har frågor om dessa användarvillkor, kontakta oss på"
   },
@@ -655,7 +655,7 @@
     "intro_title": "Vad är cookies",
     "intro_content": "Cookies är små textfiler som lagras på din enhet när du besöker en webbplats. De hjälper webbplatser att komma ihåg dina inställningar och förbättra din upplevelse.",
     "our_use_title": "Så använder vi cookies",
-    "our_use_content": "Vi sätter integriteten först. Som standard använder vi endast localStorage (en lagringsmekanism i webbläsaren) för att komma ihåg ditt val om cookiesamtycke. Valfria annonspixlar laddas bara om du accepterar marknadsföringscookies.",
+    "our_use_content": "Vi sätter integriteten först. Vi sätter två små nödvändiga cookies, en som kommer ihåg ditt språk och en som kommer ihåg ditt land så att priser visas i rätt valuta, och vi använder localStorage (en lagringsmekanism i webbläsaren) för att komma ihåg ditt val om cookiesamtycke. Valfria annonspixlar laddas bara om du accepterar marknadsföringscookies.",
     "third_party_title": "Tredjepartscookies",
     "third_party_content": "Om du accepterar marknadsföringscookies laddar vi annonspixlar från Meta (Facebook) och Google för att mäta våra kampanjers resultat. Om du avböjer sätts inga tredjepartscookies när du besöker vår webbplats.",
     "control_title": "Hantera cookies",
@@ -681,7 +681,7 @@
     "headline_a": "Där ditt företag tyst tappar kunder",
     "headline_b": " (och hur du fixar det)",
     "sub": "Svara på fem snabba frågor så visar vi vad vi skulle åtgärda först. Sedan väljer du en tid. Tar ungefär en minut.",
-    "proof": "Webbdesignstudio i Berlin. Coach Kofis konsultationsförfrågningar ökade 200% efter lanseringen. En rörmokare på sitt första år omsatte 50 000 $ på fem månader.",
+    "proof": "Webbdesignstudio i Berlin. Coach Kofis konsultationsförfrågningar ökade 200 % efter lanseringen. En VVS-kund på sitt första år drog in 50 000 $ brutto på fem månader.",
     "progress": "Fråga {current} av {total}",
     "continue": "Fortsätt",
     "back": "Tillbaka",
@@ -693,7 +693,7 @@
     "q_budget_project": "Vilken budget har du för det här projektet?",
     "q_budget_project_sub": "En ungefärlig siffra räcker. Den säger oss bara vad vi ska föreslå.",
     "q_budget_ads": "Vad skulle du kunna lägga på annonser per månad?",
-    "q_budget_ads_sub": "Bara annonsbudgeten. Vår förvaltning är 15% av den, plus en engångsuppsättning. En uppskattning räcker.",
+    "q_budget_ads_sub": "Bara annonsbudgeten. Vårt arvode är 15 % av den, plus en engångsavgift för uppsättningen. En uppskattning räcker.",
     "q_budget_monthly": "Vad är din månadsbudget?",
     "q_budget_monthly_sub": "Ungefär vad du skulle lägga varje månad. En uppskattning räcker.",
     "q_timeline": "Hur snart vill du börja?",
@@ -761,8 +761,8 @@
         "hint": "Planerat, inte brådskande"
       },
       "3": {
-        "label": "Bara och tittar",
-        "hint": "Undersöker alternativ"
+        "label": "Tittar mig bara omkring",
+        "hint": "Ser vad som finns"
       }
     },
     "budget_build": {
@@ -878,18 +878,18 @@
     "measure_reduced_motion": "Respekt för inställningen <code>prefers-reduced-motion</code> i ditt operativsystem.",
     "measure_contrast": "Färgkontrast som uppfyller eller överträffar WCAG AA (4,5:1 för brödtext).",
     "measure_rtl": "Höger-till-vänster-layout för arabiska, och en språkväljare som presenterar varje alternativ på dess eget språk och med dess egen skrivriktning.",
-    "measure_languages": "Webbplatsen finns på 19 språk så att den som inte talar engelska kan använda den på det språk man tänker på.",
+    "measure_languages": "Webbplatsen finns på 20 språk, så att den som inte har engelska som modersmål kan använda den på det språk hen tänker på.",
     "limitations_title": "Kända begränsningar",
     "limitations_intro": "Trots våra ansträngningar kan en del innehåll på webbplatsen ännu inte vara fullt tillgängligt. Kända problem som vi arbetar med att lösa:",
-    "limitation_third_party": "<strong>Inbäddat tredjepartsinnehåll</strong>, Cloudflare Turnstile-captchan och bokningsramen från Cal.com ärver sin tillgänglighet från respektive leverantör. Vi följer upp deras status för överensstämmelse hos varje leverantör.",
+    "limitation_third_party": "<strong>Inbäddat tredjepartsinnehåll</strong>, Cloudflare Turnstile-captchan och bokningssidan från Google Calendar ärver sin tillgänglighet från respektive leverantör. Vi följer upp deras status för överensstämmelse hos varje leverantör.",
     "limitation_motion": "<strong>Dekorativ rörelse</strong>, bakgrundsanimationer stängs av när <code>prefers-reduced-motion</code> är aktiverat, men ett fåtal magnetiska mikrointeraktioner kopplade till muspekaren kan fortfarande spelas upp.",
-    "limitation_language": "<strong>Uttalandets språk</strong>, den engelska versionen av detta uttalande är den gällande; övriga språk är översättningar av den. Själva webbplatsen finns på 20 språk.",
+    "limitation_language": "<strong>Redogörelsens språk</strong>, den engelska versionen av den här redogörelsen är referensversionen; övriga språk är översättningar av den. Själva webbplatsen finns på 20 språk.",
     "feedback_title": "Feedback och kontakt",
     "feedback_intro": "Om du stöter på ett tillgänglighetshinder på blokblokstudio.com, eller behöver information från webbplatsen i ett alternativt format, kontakta oss. Vi strävar efter att besvara tillgänglighetsfeedback inom <strong>fem arbetsdagar</strong>.",
     "feedback_email": "<strong>E-post:</strong> <link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>Webbformulär:</strong> <link>Kontaktsidan</link>, nämn gärna ”tillgänglighet” i ditt meddelande.",
     "enforcement_title": "Tillsynsförfarande",
-    "enforcement_intro": "Blok Blok Studio är registrerat i Tyskland. Om du inte är nöjd med vårt svar på din tillgänglighetsfeedback kan du gå vidare enligt ditt lokala tillsynsregelverk:",
+    "enforcement_intro": "Blok Blok Studio har sin bas i Berlin, Tyskland. Om du inte är nöjd med vårt svar på din tillgänglighetsfeedback kan du gå vidare enligt ditt lokala tillsynsregelverk:",
     "enforcement_eu": "<strong>Europeiska unionen</strong>, marknadskontrollmyndigheten i den EU-medlemsstat där du befinner dig. Tillgänglighetsdirektivet utser en nationell myndighet i varje medlemsstat.",
     "enforcement_germany": "<strong>Tyskland</strong>, Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>USA</strong>, US Department of Justice Civil Rights Division för ADA-klagomål; US Access Board för Section 508.",
@@ -905,7 +905,7 @@
     "diagnosis_known": "Utifrån vad du berättade om {industry} är det här vi skulle gå igenom med dig på samtalet.",
     "diagnosis_unsure": "Du är inte säker än, och det är en helt normal utgångspunkt. Inom {industry} ligger pengarna oftast här, så det är där vi skulle börja på samtalet.",
     "industry_fallback": "din bransch",
-    "sub_fallback": "Vi har din förfrågan. Boka ditt kostnadsfria 15-minuterssamtal nu; de tidigaste tiderna går till den som bokar först.",
+    "sub_fallback": "Vi har din förfrågan. Välj en tid nedan för ett kostnadsfritt 15-minuterssamtal.",
     "cover_label": "Vad vi går igenom på samtalet",
     "cover_note": "Vi går igenom allt ordentligt på samtalet, omfattning och kostnad inkluderat.",
     "calendar_title": "Boka ditt kostnadsfria introsamtal",
@@ -920,7 +920,7 @@
     "next_2_title": "Vi bryter ner allt på samtalet",
     "next_2_desc": "Var du tappar kunder, vad som ska åtgärdas först och vad det kräver.",
     "next_3_title": "Vi bygger, du växer",
-    "next_3_desc": "Webbplats, annonser, sociala medier, AI-system. Gjort åt dig, snabbt i drift.",
+    "next_3_desc": "Webbplatsen byggd, hostad och igång. Gjort åt dig, snabbt i drift.",
     "founder_kicker": "Vem du kommer att prata med",
     "founder_title": "Möt grundaren",
     "clients_kicker": "Arbetet och siffrorna",
@@ -938,7 +938,7 @@
         "detail": "Vi behåller sidorna som redan levererar, lagar de som läcker besökare och flyttar helheten till en stack som laddar snabbt."
       },
       "shop": {
-        "title": "En butik som stänger affären",
+        "title": "En butik som får affären i hamn",
         "detail": "Produktsidor, kassa och betalningar byggda så att folk faktiskt slutför i stället för att hoppa av halvvägs."
       },
       "landing": {
@@ -950,11 +950,11 @@
         "detail": "Kampanjer byggda och styrda mot bokade jobb, inte klick. I sök vet folk redan vad de vill ha."
       },
       "social_ads": {
-        "title": "Komma före dem",
+        "title": "Nå dem först",
         "detail": "Facebook- och Instagram-kampanjer som placerar erbjudandet framför rätt personer innan en konkurrent gör det."
       },
       "social": {
-        "title": "Social som leder någonstans",
+        "title": "Sociala medier som leder någonstans",
         "detail": "Klipp, undertexter och inlägg klippta ur material du redan har, byggda för att föra folk till sajten i stället för att bara fylla ett flöde."
       },
       "booking": {
@@ -982,7 +982,7 @@
     "loading": "Laddar",
     "select_language": "Välj språk",
     "wechat_scan": "Skanna i WeChat för att lägga till oss",
-    "wechat_qr_alt": "WeChat QR-kod för Chase Haynes, skanna för att lägga till",
+    "wechat_qr_alt": "QR-kod för Chase Haynes på WeChat, skanna i WeChat för att lägga till",
     "wechat_copy": "Kopiera WeChat-ID",
     "wechat_copied": "Kopierad",
     "wechat_open": "Kontakta oss på WeChat",
@@ -999,8 +999,8 @@
     "proj_gallery": "Projektgalleri",
     "proj_next": "Nästa projekt",
     "cases_kicker": "Arbetet och siffrorna",
-    "cases_sub": "Kunder framför kameran, intäkter på papper. Hur det faktiskt är att jobba med oss.",
-    "cases_view": "Se caset",
+    "cases_sub": "Kunder framför kameran, intäkter svart på vitt. Hur det faktiskt är att jobba med oss.",
+    "cases_view": "Se fallstudien",
     "mockup_all": "Blok Blok Studio-projekt på MacBook, iPad och iPhone",
     "mockup_bronco": "Bronco Plumbing på iPad",
     "mockup_kofi_desktop": "Coach Kofis webbplats på MacBook",
@@ -1013,13 +1013,13 @@
     "faq_title": "Vanliga frågor",
     "faq_sub": "Allt du behöver veta om att jobba med oss",
     "who_title": "Vilka vi bygger för",
-    "who_sub": "Varje bransch konverterar olika. Det här är upplägget vi kör, med kundsiffrorna bakom.",
+    "who_sub": "Varje bransch konverterar olika. Det här är uppläggen vi kör, med kundsiffrorna bakom.",
     "start_project": "Starta ditt projekt",
     "contact_location": "Plats",
     "available": "Tillgängliga för nya projekt",
     "aria_business": "Typ av verksamhet",
-    "aria_budget": "Budgetintervall",
-    "aria_timeline": "Tidsram",
+    "aria_budget": "Budget",
+    "aria_timeline": "Tidsplan",
     "proj_live_click": "Klicka och scrolla i live-sajten nedan",
     "proj_live_scroll": "Scrolla igenom live-sajten nedan",
     "proj_live_hint_embed": "Klicka på länkar och navigera precis som på den riktiga sajten, eller öppna den i en ny flik.",
@@ -1032,8 +1032,8 @@
     "rights": "Alla rättigheter förbehållna."
   },
   "onboard": {
-    "title": "Kund-onboarding",
-    "sub": "Vi sätter upp allt så vi kan köra igång direkt.",
+    "title": "Kundonboarding",
+    "sub": "Vi sätter upp allt så att vi kan köra igång från dag ett.",
     "loading": "Laddar din onboarding...",
     "unavailable": "Länken är inte tillgänglig",
     "done": "Allt är klart!",
@@ -1045,14 +1045,14 @@
     "contacts_sub": "Vem ska vi prata med hos er?",
     "primary": "Huvudkontakt",
     "remove": "Ta bort",
-    "add_contact": "Lägg till en kontakt",
+    "add_contact": "Lägg till ytterligare en kontakt",
     "access": "Åtkomst",
     "access_sub": "Dela inloggningarna till de plattformar vi ska sköta.",
     "encrypted": "Dina inloggningar krypteras med AES-256",
-    "add_account": "Lägg till ett konto",
+    "add_account": "Lägg till ytterligare ett konto",
     "social": "Sociala profiler",
     "social_sub": "Koppla dina sociala konton så vi kan sköta och växa dem.",
-    "add_profile": "Lägg till en profil",
+    "add_profile": "Lägg till ytterligare en profil",
     "details": "Projektdetaljer",
     "details_sub": "Hjälp oss anpassa vårt upplägg efter ert.",
     "telegram_hint": "Skriv till @blokblok_bot på Telegram för att få ditt ID",
@@ -1061,7 +1061,7 @@
     "f_timezone": "Tidszon:",
     "f_telegram": "Telegram-ID:",
     "f_notes": "Anteckningar:",
-    "f_brand": "Varumärkesriktlinjer:",
+    "f_brand": "Varumärkesmanual:",
     "ph_phone": "Telefonnummer",
     "ph_role": "t.ex. VD, marknadschef",
     "ph_url": "t.ex. https://din-sajt.se/wp-admin",
@@ -1071,13 +1071,24 @@
     "ph_telegram": "t.ex. 123456789",
     "ph_notes": "Allt vi bör veta om ert projekt, era önskemål eller hur ni jobbar...",
     "ph_brand": "Logotypanvändning, varumärkesfärger, typsnitt, tonalitet, gör och gör inte...",
-    "meta_description": "Slutför din onboarding för att komma igång med Blok Blok Studio."
+    "meta_description": "Slutför din onboarding för att komma igång med Blok Blok Studio.",
+    "f_name": "Fullständigt namn",
+    "f_role": "Roll / titel",
+    "f_email": "E-post",
+    "f_phone": "Telefon",
+    "f_platform": "Plattform",
+    "f_username": "Användarnamn / e-post",
+    "f_password": "Lösenord",
+    "f_url_optional": "URL (valfritt)",
+    "f_notes_optional": "Anteckningar (valfritt)",
+    "f_url": "URL",
+    "ph_select": "Välj..."
   },
   "pricing": {
     "packages": "PAKET",
-    "popular": "VANLIGAST VALDA",
+    "popular": "MEST POPULÄR",
     "exclusions": "INGÅR INTE",
-    "timeline": "Tidsram",
+    "timeline": "Tidsplan",
     "commitment": "Åtagande",
     "ideal_for": "Passar för",
     "custom_quote": "Vill du ha en offert på mått?",
@@ -1112,12 +1123,12 @@
     "hide": "Dölj",
     "view": "Visa",
     "not_included": "Det här ingår inte",
-    "cta_sub": "Varje uppdrag omfattningsbestäms och offereras individuellt. Boka ett kostnadsfritt 15-minuterssamtal så skickar vi ett skräddarsytt förslag inom 48 timmar.",
+    "cta_sub": "Varje uppdrag får sin egen omfattning och offert. Boka ett kostnadsfritt 15-minuterssamtal så skickar vi ett skräddarsytt förslag inom 48 timmar.",
     "cta_button": "Boka ett strategisamtal",
     "pkg": {
       "oneTime": [
         {
-          "name": "Ensidig lansering",
+          "name": "Lansering av en sida",
           "price": 2000,
           "disp": "$2,000",
           "tag": "Bäst för en enkel närvaro online",
@@ -1125,11 +1136,11 @@
           "scope": [
             {
               "i": "Skräddarsydd landningssida (1 sida)",
-              "l": "Helt skräddarsydd, mobilanpassad ensidig webbplats byggd i Next.js. Innehåller scrollbaserade sektioner: hero, om oss, tjänster, omdömen och kontaktformulär. Responsiv layout för dator, surfplatta och mobil. SEO-metatitel och beskrivning skrivs. SSL-certifikat och hostinguppsättning på Vercel ingår."
+              "l": "Helt skräddarsydd, mobilanpassad webbplats på en sida byggd i Next.js. Innehåller scrollbaserade sektioner: hero, om oss, tjänster, omdömen och kontaktformulär. Responsiv layout för dator, surfplatta och mobil. SEO-metatitel och beskrivning skrivs. SSL-certifikat och hostinguppsättning på Vercel ingår."
             },
             {
               "i": "Varumärkesidentitet (logotyp + färger)",
-              "l": "2 inledande logotypkoncept presenterade som mockups. Du väljer 1 för slutlig finputsning. Leverabler: logotypfiler i PNG, SVG och PDF (fullfärg, vit och svart version). 1 primär färgpalett (5 färger med hex-koder) och 1 typsnittspar (rubrik + brödtext). Ingen fullständig varumärkesmanual på den här nivån."
+              "l": "2 inledande logotypkoncept presenterade som mockups. Du väljer 1 för slutlig finputsning. Leveranser: logotypfiler i PNG, SVG och PDF (fullfärg, vit och svart version). 1 primär färgpalett (5 färger med hex-koder) och 1 typsnittspar (rubrik + brödtext). Ingen fullständig varumärkesmanual på den här nivån."
             },
             {
               "i": "Analys och spårning",
@@ -1137,20 +1148,20 @@
             },
             {
               "i": "Designrevideringar",
-              "l": "2 revideringsrundor. En ‘runda’ = 1 samlad uppsättning feedback. Feedback ska lämnas inom 5 arbetsdagar efter varje granskning. Ingen delvis eller löpande feedback utspridd över flera mejl."
+              "l": "2 revideringsrundor. En ’runda’ = 1 samlad uppsättning feedback. Feedback ska lämnas inom 5 arbetsdagar efter varje granskning. Ingen delvis eller löpande feedback utspridd över flera mejl."
             },
             {
               "i": "Innehåll och text",
-              "l": "Kunden levererar allt skrivet innehåll (rubriker, brödtext, biografier, tjänstebeskrivningar). Vi sköter layout, formatering och placering. Behöver du copywriting kan det läggas till för $200/sida."
+              "l": "Kunden levererar allt skrivet innehåll (rubriker, brödtext, biografier, tjänstebeskrivningar). Vi sköter layout, formatering och placering. Behöver du copywriting kan det läggas till för 200 $/sida."
             }
           ],
           "ov": [
-            "Extra revideringsrunda: $300",
-            "Copywriting: $200/sida",
-            "Extra sektion: $250"
+            "Extra revideringsrunda: 300 $",
+            "Copywriting: 200 $/sida",
+            "Extra sektion: 250 $"
           ],
-          "ho": "Betalning: 50% deposition vid start, 50% vid leverans (7 dagar netto). Projektet avslutas vid kundens godkännande ELLER efter 2 revideringsrundor. Efter godkännande: $175/tim.",
-          "bridge": "Inkluderar 14 dagars övervakning efter lansering (buggfixar och mindre justeringar). Behöver du fler sidor eller funktioner? Uppgradera till Startlansering ($6,500) för en komplett sajt med 5 sidor, AI-chatt och CRM-uppsättning.",
+          "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Projektet avslutas vid kundens godkännande ELLER efter 2 revideringsrundor. Efter godkännande: 175 $/tim.",
+          "bridge": "Inkluderar 14 dagars övervakning efter lansering (buggfixar och mindre justeringar). Behöver du fler sidor eller funktioner? Uppgradera till Startlansering (6 500 $) för en komplett sajt med 5 sidor, AI-chatt och CRM-uppsättning.",
           "ideal": "Sidoprojekt, personliga varumärken, enkla landningssidor"
         },
         {
@@ -1166,7 +1177,7 @@
             },
             {
               "i": "Varumärkesidentitet (logotyp + färger)",
-              "l": "2 inledande logotypkoncept presenterade som mockups. Du väljer 1 för slutlig finputsning. Leverabler: logotypfiler i PNG, SVG och PDF (fullfärg, vit och svart version). 1 primär färgpalett (5 färger med hex-koder) och 1 typsnittspar (rubrik + brödtext). Ingen fullständig varumärkesmanual på den här nivån."
+              "l": "2 inledande logotypkoncept presenterade som mockups. Du väljer 1 för slutlig finputsning. Leveranser: logotypfiler i PNG, SVG och PDF (fullfärg, vit och svart version). 1 primär färgpalett (5 färger med hex-koder) och 1 typsnittspar (rubrik + brödtext). Ingen fullständig varumärkesmanual på den här nivån."
             },
             {
               "i": "AI-chattwidget",
@@ -1182,22 +1193,22 @@
             },
             {
               "i": "Designrevideringar",
-              "l": "2 revideringsrundor per sida. En ‘runda’ = 1 samlad uppsättning feedback. Feedback ska lämnas inom 5 arbetsdagar efter varje granskning. Ingen delvis eller löpande feedback utspridd över flera mejl."
+              "l": "2 revideringsrundor per sida. En ’runda’ = 1 samlad uppsättning feedback. Feedback ska lämnas inom 5 arbetsdagar efter varje granskning. Ingen delvis eller löpande feedback utspridd över flera mejl."
             },
             {
               "i": "Innehåll och text",
-              "l": "Kunden levererar allt skrivet innehåll (rubriker, brödtext, biografier, tjänstebeskrivningar). Vi sköter layout, formatering och placering. Behöver du copywriting kan det läggas till för $200/sida."
+              "l": "Kunden levererar allt skrivet innehåll (rubriker, brödtext, biografier, tjänstebeskrivningar). Vi sköter layout, formatering och placering. Behöver du copywriting kan det läggas till för 200 $/sida."
             }
           ],
           "ov": [
-            "Extra sidor: $500/sida",
-            "Extra revideringsrunda: $300",
-            "Copywriting: $200/sida",
-            "Extra frågor och svar (25+): $250/omgång",
-            "Extra automation: $350 styck"
+            "Extra sidor: 500 $/sida",
+            "Extra revideringsrunda: 300 $",
+            "Copywriting: 200 $/sida",
+            "Extra frågor och svar (25+): 250 $/omgång",
+            "Extra automation: 350 $ styck"
           ],
-          "ho": "Betalning: 50% deposition vid start, 50% vid leverans (7 dagar netto). Projektet avslutas vid kundens godkännande ELLER efter 2 revideringsrundor. Efter godkännande: $175/tim.",
-          "bridge": "Inkluderar 30 dagars övervakning efter lansering (buggfixar, kontroll av chattbot, CRM-hälsa). Efter dag 30 går löpande underhåll, uppdateringar och AI-justering över till vår plan Underhåll & Övervakning ($1,500/mån) så att dina system förblir optimerade.",
+          "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Projektet avslutas vid kundens godkännande ELLER efter 2 revideringsrundor. Efter godkännande: 175 $/tim.",
+          "bridge": "Inkluderar 30 dagars övervakning efter lansering (buggfixar, kontroll av chattbot, CRM-hälsa). Efter dag 30 går löpande underhåll, uppdateringar och AI-justering över till vår plan Underhåll och övervakning (1 500 $/mån) så att dina system förblir optimerade.",
           "ideal": "Startups, soloföretagare, lokala företag"
         },
         {
@@ -1238,7 +1249,7 @@
             },
             {
               "i": "Designrevideringar",
-              "l": "3 revideringsrundor per leverabel (webbsidor, varumärkesmaterial, annonsmaterial och dashboard). En ‘runda’ = 1 samlad uppsättning feedback lämnad inom 5 arbetsdagar."
+              "l": "3 revideringsrundor per leverans (webbsidor, varumärkesmaterial, annonsmaterial och dashboard). En ’runda’ = 1 samlad uppsättning feedback lämnad inom 5 arbetsdagar."
             },
             {
               "i": "Innehåll och text",
@@ -1246,16 +1257,16 @@
             }
           ],
           "ov": [
-            "Extra sidor: $500/sida",
-            "Extra revidering: $300/runda",
-            "Extra annonskampanj: $1,500",
-            "Extra röstmanus: $750",
-            "Automationer (8+): $350 styck",
-            "Extra landningssida: $900",
-            "Copywriting utöver det inkluderade: $200/sida"
+            "Extra sidor: 500 $/sida",
+            "Extra revidering: 300 $/runda",
+            "Extra annonskampanj: 1 500 $",
+            "Extra röstmanus: 750 $",
+            "Automationer (8+): 350 $ styck",
+            "Extra landningssida: 900 $",
+            "Copywriting utöver det inkluderade: 200 $/sida"
           ],
-          "ho": "Betalning: 50% deposition vid start, 50% vid leverans (7 dagar netto). Projektet avslutas vid godkännande ELLER efter 3 revideringsrundor. Efter godkännande: $175/tim.",
-          "bridge": "Inkluderar 30 dagar efter lansering: annonshantering, AI-övervakning och buggfixar. Efter dag 30 behöver dina annonser, AI-agenter och automationer löpande optimering för att fortsätta leverera. Vi rekommenderar vår plan Tillväxtmotor ($3,500/mån) för att hålla farten uppe.",
+          "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Projektet avslutas vid godkännande ELLER efter 3 revideringsrundor. Efter godkännande: 175 $/tim.",
+          "bridge": "Inkluderar 30 dagar efter lansering: annonshantering, AI-övervakning och buggfixar. Efter dag 30 behöver dina annonser, AI-agenter och automationer löpande optimering för att fortsätta leverera. Vi rekommenderar vår plan Tillväxtmotor (3 500 $/mån) för att hålla farten uppe.",
           "ideal": "Växande företag som skalar med system"
         },
         {
@@ -1299,7 +1310,7 @@
             },
             {
               "i": "Designrevideringar",
-              "l": "3 revideringsrundor per leverabel för allt material. En ‘runda’ = 1 samlad uppsättning feedback lämnad inom 5 arbetsdagar."
+              "l": "3 revideringsrundor per leverans för allt material. En ’runda’ = 1 samlad uppsättning feedback lämnad inom 5 arbetsdagar."
             },
             {
               "i": "Textproduktion",
@@ -1307,23 +1318,23 @@
             }
           ],
           "ov": [
-            "Extra sidor: $500",
-            "Extra revidering: $350/runda",
-            "Extra AI-agent: $2,500",
-            "Extra annonskampanj: $1,500",
-            "Röstmanus: $750",
-            "Automationer (15+): $400 styck",
-            "Produkter (20+): $75/produkt",
+            "Extra sidor: 500 $",
+            "Extra revidering: 350 $/runda",
+            "Extra AI-agent: 2 500 $",
+            "Extra annonskampanj: 1 500 $",
+            "Röstmanus: 750 $",
+            "Automationer (15+): 400 $ styck",
+            "Produkter (20+): 75 $/produkt",
             "Innehåll efter månad 1: kräver månadsavtal"
           ],
-          "ho": "Betalning: 50% deposition vid start, 25% vid halvtidsdelmål, 25% vid leverans (7 dagar netto). Projektet avslutas vid godkännande ELLER efter 3 rundor. Efter godkännande: $175/tim.",
-          "bridge": "Inkluderar 45 dagar efter lansering: fullständig övervakning, annonshantering, AI-justering och buggfixar. Efter dag 45 behöver ditt AI-ekosystem, dina annonskampanjer och innehållssystem löpande hantering för att ge resultat. Vi rekommenderar Fullt partnerskap ($7,500/mån) eller Tillväxtmotor ($3,500/mån) beroende på dina behov.",
+          "ho": "Betalning: 50 % deposition vid start, 25 % vid halvtidsdelmål, 25 % vid leverans (7 dagar netto). Projektet avslutas vid godkännande ELLER efter 3 rundor. Efter godkännande: 175 $/tim.",
+          "bridge": "Inkluderar 45 dagar efter lansering: fullständig övervakning, annonshantering, AI-justering och buggfixar. Efter dag 45 behöver ditt AI-ekosystem, dina annonskampanjer och innehållssystem löpande hantering för att ge resultat. Vi rekommenderar Fullt partnerskap (7 500 $/mån) eller Tillväxtmotor (3 500 $/mån) beroende på dina behov.",
           "ideal": "Etablerade företag som vill ha komplett AI-infrastruktur"
         }
       ],
       "socialSetup": [
         {
-          "name": "En plattform",
+          "name": "Uppstart på en plattform",
           "price": 1200,
           "disp": "$1,200",
           "tag": "Få en kanal helt rätt",
@@ -1359,18 +1370,18 @@
             }
           ],
           "ov": [
-            "Extra plattform: $1,200 styck",
-            "Extra inläggsmallar: $100 styck",
-            "Extra lanseringsinlägg (4+): $60 styck",
-            "Revideringsrunda: $175",
-            "Videoinnehåll (Reels/Shorts): $175 styck"
+            "Extra plattform: 1 200 $ styck",
+            "Extra inläggsmallar: 100 $ styck",
+            "Extra lanseringsinlägg (4+): 60 $ styck",
+            "Revideringsrunda: 175 $",
+            "Videoinnehåll (Reels/Shorts): 175 $ styck"
           ],
-          "ho": "Betalning: 50% deposition vid start, 50% vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 1 revideringsrunda. Ändringar efter leverans: $175/tim.",
-          "bridge": "Dina profiler är uppsatta och redo. För att hålla dem aktiva och växande, lägg till vår plan Social Start ($1,500/mån) eller hantering av enskilda plattformar från $650/mån.",
+          "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 1 revideringsrunda. Ändringar efter leverans: 175 $/tim.",
+          "bridge": "Dina profiler är uppsatta och redo. För att hålla dem aktiva och växande, lägg till vår plan Social start (1 500 $/mån) eller hantering av enskilda plattformar från 650 $/mån.",
           "ideal": "Företag som börjar från noll på en plattform"
         },
         {
-          "name": "Flerplattformslansering",
+          "name": "Lansering på flera plattformar",
           "price": 2000,
           "disp": "$2,000",
           "tag": "Mest populär",
@@ -1415,19 +1426,19 @@
             }
           ],
           "ov": [
-            "Extra plattform: $500 styck",
-            "Extra mallar: $75 styck",
-            "Extra lanseringsinlägg (6+): $50 styck",
-            "Revideringsrunda: $175",
-            "Videoinnehåll: $175 styck",
-            "Extra länk-i-bio-sida: $200"
+            "Extra plattform: 500 $ styck",
+            "Extra mallar: 75 $ styck",
+            "Extra lanseringsinlägg (6+): 50 $ styck",
+            "Revideringsrunda: 175 $",
+            "Videoinnehåll: 175 $ styck",
+            "Extra länk-i-bio-sida: 200 $"
           ],
-          "ho": "Betalning: 50% deposition vid start, 50% vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 2 revideringsrundor. Efter leverans: $175/tim.",
-          "bridge": "Alla plattformar lanseringsklara med 30 dagars innehåll planerat. För fortsatt tillväxt rekommenderar vi vår plan Social Tillväxt ($2,500/mån) eller tillägg per plattform.",
+          "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 2 revideringsrundor. Efter leverans: 175 $/tim.",
+          "bridge": "Alla plattformar lanseringsklara med 30 dagars innehåll planerat. För fortsatt tillväxt rekommenderar vi vår plan Social tillväxt (2 500 $/mån) eller tillägg per plattform.",
           "ideal": "Företag som lanserar eller fräschar upp sin närvaro i sociala medier"
         },
         {
-          "name": "Total social rebranding",
+          "name": "Fullständig rebranding i sociala medier",
           "price": 3500,
           "disp": "$3,500",
           "tag": "Total översyn",
@@ -1471,25 +1482,25 @@
             },
             {
               "i": "Revideringar",
-              "l": "2 revideringsrundor på alla leverabler (visuellt material, mallar, granskningsrapport, kalender). En ‘runda’ = 1 samlad uppsättning feedback inom 5 arbetsdagar."
+              "l": "2 revideringsrundor på alla leveranser (visuellt material, mallar, granskningsrapport, kalender). En ’runda’ = 1 samlad uppsättning feedback inom 5 arbetsdagar."
             }
           ],
           "ov": [
-            "Extra plattform: $400 styck",
-            "Extra mallar: $60 styck",
-            "Extra lanseringsinlägg (8+): $45 styck",
-            "Extra video: $175 styck",
-            "Revideringsrunda: $250",
-            "Intro-/outrovideo för YouTube: $600"
+            "Extra plattform: 400 $ styck",
+            "Extra mallar: 60 $ styck",
+            "Extra lanseringsinlägg (8+): 45 $ styck",
+            "Extra video: 175 $ styck",
+            "Revideringsrunda: 250 $",
+            "Intro-/outrovideo för YouTube: 600 $"
           ],
-          "ho": "Betalning: 50% deposition vid start, 50% vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 2 revideringsrundor. Efter leverans: $175/tim.",
-          "bridge": "Hela din sociala närvaro är ombyggd och lanseringsklar med 60 dagars innehåll. För att hålla farten uppe rekommenderar vi Social Dominans ($4,500/mån) eller Social Tillväxt ($2,500/mån).",
+          "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 2 revideringsrundor. Efter leverans: 175 $/tim.",
+          "bridge": "Hela din sociala närvaro är ombyggd och lanseringsklar med 60 dagars innehåll. För att hålla farten uppe rekommenderar vi Social dominans (4 500 $/mån) eller Social tillväxt (2 500 $/mån).",
           "ideal": "Etablerade företag med föråldrad eller spretig närvaro i sociala medier"
         }
       ],
       "monthly": [
         {
-          "name": "Underhåll & Övervakning",
+          "name": "Underhåll och övervakning",
           "price": 1500,
           "disp": "$1,500",
           "per": "/mån",
@@ -1517,16 +1528,16 @@
               "l": "Månatlig genomgång av din GHL-pipelines hälsa: fastnade leads, inaktiva affärer och automationsfel. 3 automationsjusteringar per månad (t.ex. uppdatera mejltext, ändra tidpunkt för trigger, laga trasiga sekvenser). Kontaktlistans hygien: flaggning av dubbletter och borttagning av studsar (max 500 kontakter/mån)."
             },
             {
-              "i": "Support och svarstider",
-              "l": "Endast support via sms och e-post (ingen telefon, inga livesamtal på den här nivån). 48 timmars svarstid på arbetsdagar (måndag till fredag, 9 till 17). Upp till 10 supportärenden per månad. Varje ärende = 1 specifik fråga (inte en lista med ändringar). Ärenden utöver 10 debiteras med $175/tim."
+              "i": "Support",
+              "l": "Endast support via sms och e-post (ingen telefon, inga livesamtal på den här nivån). 48 timmars svarstid på arbetsdagar (måndag till fredag, 9 till 17). Upp till 10 supportärenden per månad. Varje ärende = 1 specifik fråga (inte en lista med ändringar). Ärenden utöver 10 debiteras med 175 $/tim."
             }
           ],
           "ov": [
-            "Design utöver 2 tim: $175/tim",
-            "Ny sida: $500",
-            "Livesamtal: $250/tim",
-            "Automationer (3+): $250 styck",
-            "Akut/samma dag: +50%"
+            "Design utöver 2 tim: 175 $/tim",
+            "Ny sida: 500 $",
+            "Livesamtal: 250 $/tim",
+            "Automationer (3+): 250 $ styck",
+            "Akut/samma dag: +50 %"
           ],
           "ex": "Ingen annonshantering, inget innehållsskapande, inga nya funktioner, inga röstagenter, inga sociala medier. Kräver högre nivå.",
           "ideal": "Trygghet efter lanseringen"
@@ -1541,12 +1552,12 @@
           "com": "Minst 6 månader",
           "scope": [
             {
-              "i": "Allt i Underhåll & Övervakning",
+              "i": "Allt i Underhåll och övervakning",
               "l": "Allt webbplatsunderhåll, AI-övervakning, månadsrapport, CRM-hantering och e-postsupport. Samma gränser och regler gäller. Designtimmarna ersätts av de 5 tim/mån nedan (läggs inte ihop)."
             },
             {
               "i": "Hantering av Google Ads",
-              "l": "2 aktiva Google Search-kampanjer hanteras. Månatlig sökordsoptimering, budjusteringar och uppdateringar av negativa sökord. 3 A/B-tester per månad (annonstext, element på landningssidor eller målgruppsinriktning). Månatlig resultatgenomgång med analys av CPC, CTR, konverteringsgrad och ROAS. Annonsbudget upp till $5,000/mån hanteras på den här nivån. Annonsbudget över $5K: ytterligare $500/mån per $5K-nivå. Annonsbudgeten faktureras separat. Du betalar Google direkt."
+              "l": "2 aktiva Google Search-kampanjer hanteras. Månatlig sökordsoptimering, budjusteringar och uppdateringar av negativa sökord. 3 A/B-tester per månad (annonstext, element på landningssidor eller målgruppsinriktning). Månatlig resultatgenomgång med analys av CPC, CTR, konverteringsgrad och ROAS. Annonsbudget upp till 5 000 $/mån hanteras på den här nivån. Annonsbudget över 5 000 $: ytterligare 500 $/mån per 5 000 $-steg. Annonsbudgeten faktureras separat. Du betalar Google direkt."
             },
             {
               "i": "Hantering av Meta Ads",
@@ -1566,20 +1577,20 @@
             },
             {
               "i": "Design och utveckling (5 tim/mån)",
-              "l": "5 timmars design- och utvecklingsarbete per månad. Täcker: nya landningssidor, siduppdateringar, mindre funktionstillägg, grafisk design för kampanjer eller anpassning av mallar. Timmarna förs INTE över. Använd dem eller förlora dem. Fullständiga omdesigner av sidor eller större funktionsbyggen omfattningsbestäms och offereras separat. Tiden loggas och rapporteras månadsvis."
+              "l": "5 timmars design- och utvecklingsarbete per månad. Täcker: nya landningssidor, siduppdateringar, mindre funktionstillägg, grafisk design för kampanjer eller anpassning av mallar. Timmarna förs INTE över. Använd dem eller förlora dem. Fullständiga omdesigner av sidor eller större funktionsbyggen offereras separat efter omfattning. Tiden loggas och rapporteras månadsvis."
             }
           ],
           "ov": [
-            "Design utöver 5 tim: $175/tim",
-            "Annonsbudget >$5K: +$500/mån per $5K-nivå",
-            "Blogginlägg: $250 styck",
-            "Inlägg i sociala medier (12+): $60 styck",
-            "Uppfräschning av annonsmaterial: $500",
-            "Extra livesamtal: $250/tim",
-            "Ny AI-agent: $2,500",
-            "Akut: +50%"
+            "Design utöver 5 tim: 175 $/tim",
+            "Annonsbudget över 5 000 $: +500 $/mån per 5 000 $-steg",
+            "Blogginlägg: 250 $ styck",
+            "Inlägg i sociala medier (12+): 60 $ styck",
+            "Uppfräschning av annonsmaterial: 500 $",
+            "Extra livesamtal: 250 $/tim",
+            "Ny AI-agent: 2 500 $",
+            "Akut: +50 %"
           ],
-          "ex": "Ingen fraktionell CMO, inga obegränsade annonser, inga varumärkesuppfräschningar, ingen videoproduktion, ingen dedikerad hantering av sociala medier. Kräver högre nivå eller Social-tillägg.",
+          "ex": "Ingen fraktionell CMO, inga obegränsade annonser, inga varumärkesuppfräschningar, ingen videoproduktion, ingen dedikerad hantering av sociala medier. Kräver högre nivå eller tillägg för sociala medier.",
           "ideal": "Företag som aktivt skalar sina intäkter"
         },
         {
@@ -1596,11 +1607,11 @@
             },
             {
               "i": "Dedikerad strateg",
-              "l": "Namngiven kontaktperson som känner din verksamhet, dina mål och ditt varumärke. Tillgänglig via sms eller e-post måndag till fredag, 9 till 17 (din tidszon). Inte tillgänglig dygnet runt, på helger eller helgdagar. Hanterar alla leverabler, samordnar teamet och kommer proaktivt med rekommendationer via Loom, e-post eller sms. Svarar inom 4 arbetstimmar på arbetsdagar."
+              "l": "Namngiven kontaktperson som känner din verksamhet, dina mål och ditt varumärke. Tillgänglig via sms eller e-post måndag till fredag, 9 till 17 (din tidszon). Inte tillgänglig dygnet runt, på helger eller helgdagar. Hanterar alla leveranser, samordnar teamet och kommer proaktivt med rekommendationer via Loom, e-post eller sms. Svarar inom 4 arbetstimmar på arbetsdagar."
             },
             {
               "i": "Annonshantering (utökad)",
-              "l": "Obegränsat antal aktiva kampanjer på Google och Meta. Strategi för hela tratten: kampanjer för kännedom, övervägande och konvertering. Månatliga uppfräschningar av annonsmaterial, målgruppstester, budoptimering och omfördelning av budget. Annonsbudget upp till $20,000/mån hanteras. Annonsbudget över $20K kräver individuell prissättning. Månatlig annonsrapport med analys av ROAS, CPA och budgeteffektivitet. Annonsbudgeten faktureras separat."
+              "l": "Obegränsat antal aktiva kampanjer på Google och Meta. Strategi för hela tratten: kampanjer för kännedom, övervägande och konvertering. Månatliga uppfräschningar av annonsmaterial, målgruppstester, budoptimering och omfördelning av budget. Annonsbudget upp till 20 000 $/mån hanteras. Annonsbudget över 20 000 $ kräver individuell prissättning. Månatlig annonsrapport med analys av ROAS, CPA och budgeteffektivitet. Annonsbudgeten faktureras separat."
             },
             {
               "i": "Hantering av AI-ekosystem",
@@ -1616,30 +1627,30 @@
             },
             {
               "i": "Design och utveckling (15 tim/mån)",
-              "l": "15 timmars design- och utvecklingsarbete per månad. Täcker: nya trattar, landningssidor, omdesign av sidor, funktionsbyggen, grafisk design, design av mejlmallar eller presentationsdesign. Timmarna förs över endast till nästa månad (max ackumulering: 30 timmar). Fullständig omdesign av webbplats eller apputveckling omfattningsbestäms och offereras separat. Tiden loggas och rapporteras månadsvis."
+              "l": "15 timmars design- och utvecklingsarbete per månad. Täcker: nya trattar, landningssidor, omdesign av sidor, funktionsbyggen, grafisk design, design av mejlmallar eller presentationsdesign. Timmarna förs över endast till nästa månad (max ackumulering: 30 timmar). Fullständig omdesign av webbplats eller apputveckling offereras separat efter omfattning. Tiden loggas och rapporteras månadsvis."
             },
             {
               "i": "Kvartalsvis varumärkesuppfräschning",
-              "l": "1 varumärkesuppfräschning per kvartal (var 3:e månad). Inkluderar 5 nya kreativa enheter: uppdaterade mallar för sociala medier, säsongsanpassat annonsmaterial, uppfräschade mejlhuvuden eller ny kampanjgrafik. Inkluderar INTE en fullständig rebranding (ny logotyp, nya riktlinjer, nytt varumärkessystem). Fullständiga rebrandingar offereras separat från $6,000."
+              "l": "1 varumärkesuppfräschning per kvartal (var 3:e månad). Inkluderar 5 nya kreativa enheter: uppdaterade mallar för sociala medier, säsongsanpassat annonsmaterial, uppfräschade mejlhuvuden eller ny kampanjgrafik. Inkluderar INTE en fullständig rebranding (ny logotyp, nya riktlinjer, nytt varumärkessystem). Fullständiga rebrandingar offereras separat från 6 000 $."
             }
           ],
           "ov": [
-            "Design utöver 15 tim: $175/tim",
-            "Annonsbudget >$20K: individuell prissättning",
-            "Blogginlägg: $250 styck",
-            "Videoklipp (4+): $300 styck",
+            "Design utöver 15 tim: 175 $/tim",
+            "Annonsbudget över 20 000 $: individuell prissättning",
+            "Blogginlägg: 250 $ styck",
+            "Videoklipp (4+): 300 $ styck",
             "Filmning: separat",
-            "Fullständig rebranding: $6K+ separat",
-            "AI-agent: $2,500 styck",
-            "Helg/utanför kontorstid: +75%"
+            "Fullständig rebranding: 6 000 $+ separat",
+            "AI-agent: 2 500 $ styck",
+            "Helg/utanför kontorstid: +75 %"
           ],
           "ex": "Inga fysiska event, ingen PR/mediebearbetning, ingen filmning (endast klippning), ingen apputveckling. Offereras separat.",
-          "ideal": "Företag som investerar $5K+/mån i annonser"
+          "ideal": "Företag som investerar 5 000 $+/mån i annonser"
         }
       ],
       "social": [
         {
-          "name": "Social Start",
+          "name": "Social start",
           "price": 1500,
           "disp": "$1,500",
           "per": "/mån",
@@ -1676,17 +1687,17 @@
             }
           ],
           "ov": [
-            "Extra plattform: $400/mån",
-            "Extra inlägg (8+): $60 styck",
-            "Video-reel/short: $175 styck",
-            "Extra revideringsrunda: $175",
-            "Story-skapande: $30/story"
+            "Extra plattform: 400 $/mån",
+            "Extra inlägg (8+): 60 $ styck",
+            "Video-reel/short: 175 $ styck",
+            "Extra revideringsrunda: 175 $",
+            "Story-skapande: 30 $/story"
           ],
-          "ex": "Ingen videoproduktion, inga betalda sociala annonser, ingen influencer-bearbetning, inget community-byggande utöver grundläggande engagemang. Detta kräver Social Tillväxt eller tillägg.",
+          "ex": "Ingen videoproduktion, inga betalda sociala annonser, ingen influencer-bearbetning, inget community-byggande utöver grundläggande engagemang. Detta kräver Social tillväxt eller tillägg.",
           "ideal": "Företag som behöver en konsekvent närvaro i 1 till 2 kanaler"
         },
         {
-          "name": "Social Tillväxt",
+          "name": "Social tillväxt",
           "price": 2500,
           "disp": "$2,500",
           "per": "/mån",
@@ -1728,19 +1739,19 @@
             }
           ],
           "ov": [
-            "Extra plattform: $400/mån",
-            "Extra inlägg (12+): $50 styck",
-            "Extra video: $175 styck",
+            "Extra plattform: 400 $/mån",
+            "Extra inlägg (12+): 50 $ styck",
+            "Extra video: 175 $ styck",
             "Filmning: offereras separat",
-            "Extra livesamtal: $250/tim",
-            "Influencer-bearbetning: tillägg $600/mån",
-            "Story-skapande: $25/story"
+            "Extra livesamtal: 250 $/tim",
+            "Influencer-bearbetning: tillägg 600 $/mån",
+            "Story-skapande: 25 $/story"
           ],
           "ex": "Ingen filmning, ingen hantering av betalda annonser (lägg till Google/Meta-annonser från huvudpaketen), ingen förhandling av influencer-avtal. Offereras separat.",
           "ideal": "Företag som menar allvar med att växa sin publik och sitt engagemang"
         },
         {
-          "name": "Social Dominans",
+          "name": "Social dominans",
           "price": 4500,
           "disp": "$4,500",
           "per": "/mån",
@@ -1785,14 +1796,14 @@
             }
           ],
           "ov": [
-            "Extra plattform: $400/mån",
-            "Extra inlägg (20+): $40 styck",
-            "Extra långformatsvideo: $500 styck",
+            "Extra plattform: 400 $/mån",
+            "Extra inlägg (20+): 40 $ styck",
+            "Extra långformatsvideo: 500 $ styck",
             "Filmning: offereras separat",
-            "Influencers utöver 5: $125/kontakt",
+            "Influencers utöver 5: 125 $/kontakt",
             "Hantering av betalda annonser: lägg till från huvudpaketen",
-            "Extra livesamtal: $250/tim",
-            "Helginnehåll: +50%"
+            "Extra livesamtal: 250 $/tim",
+            "Helginnehåll: +50 %"
           ],
           "ex": "Ingen filmning/videoproduktion (endast klippning), ingen hantering av betalda annonser (läggs till separat), ingen PR/pressbearbetning. Offereras separat.",
           "ideal": "Varumärken som vill dominera sociala medier i alla kanaler"
@@ -1800,7 +1811,7 @@
       ],
       "customBuild": [
         {
-          "name": "Förstudie & Omfattning",
+          "name": "Förstudie och omfattning",
           "price": 2500,
           "disp": "$2,500",
           "tag": "Obligatoriskt första steg",
@@ -1808,7 +1819,7 @@
           "scope": [
             {
               "i": "Uppstartsformulär + inspelad workshop",
-              "l": "Detaljerat intagsformulär som täcker: affärsmål, användartyper och roller, kärnfunktioner, måsten kontra önskemål, integrationer (betalning, CRM, e-post, API:er) och förväntningar på tidsplan. Vi går igenom dina svar och levererar en inspelad Loom-genomgång av vår förståelse och våra följdfrågor. Du svarar via sms, e-post eller röstmeddelande. 1 valfritt livesamtal vid behov (max 60 min)."
+              "l": "Detaljerat uppstartsformulär som täcker: affärsmål, användartyper och roller, kärnfunktioner, måsten kontra önskemål, integrationer (betalning, CRM, e-post, API:er) och förväntningar på tidsplan. Vi går igenom dina svar och levererar en inspelad Loom-genomgång av vår förståelse och våra följdfrågor. Du svarar via sms, e-post eller röstmeddelande. 1 valfritt livesamtal vid behov (max 60 min)."
             },
             {
               "i": "Kartläggning av användarflöden",
@@ -1832,12 +1843,12 @@
             }
           ],
           "ov": [
-            "Extra wireframe-skärmar: $250 styck",
-            "Extra användarflödesdiagram: $300 styck",
-            "Tillägg konkurrentanalys: $750 (granskning av 3 konkurrerande produkter)",
-            "Förlängd förstudie utöver 2 veckor: $1,200/vecka"
+            "Extra wireframe-skärmar: 250 $ styck",
+            "Extra användarflödesdiagram: 300 $ styck",
+            "Tillägg konkurrentanalys: 750 $ (granskning av 3 konkurrerande produkter)",
+            "Förlängd förstudie utöver 2 veckor: 1 200 $/vecka"
           ],
-          "ho": "Betalning: 50% deposition vid start, 50% vid leverans (7 dagar netto). Förstudieavgiften krediteras mot hela bygget om du går vidare inom 30 dagar efter leverans. Går du inte vidare är alla leverabler (wireframes, SOW, arkitekturdokument) dina att behålla och använda med vilken utvecklare som helst.",
+          "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Förstudieavgiften krediteras mot hela bygget om du går vidare inom 30 dagar efter leverans. Går du inte vidare är alla leveranser (wireframes, SOW, arkitekturdokument) dina att behålla och använda med vilken utvecklare som helst.",
           "ideal": "Alla som överväger ett skräddarsytt bygge. Det här är steg ett."
         },
         {
@@ -1882,19 +1893,19 @@
             },
             {
               "i": "Revideringar",
-              "l": "2 rundor designrevideringar före utveckling. Under utvecklingen hanteras feedback via en delad uppgiftstavla (Linear eller GitHub Issues). Efter utveckling: 1 revideringsrunda på slutprodukten före lansering. Ändringar av omfattningen under utvecklingen kräver en ändringsbeställning med förhandsgodkända priser ($200/tim)."
+              "l": "2 rundor designrevideringar före utveckling. Under utvecklingen hanteras feedback via en delad uppgiftstavla (Linear eller GitHub Issues). Efter utveckling: 1 revideringsrunda på slutprodukten före lansering. Ändringar av omfattningen under utvecklingen kräver en ändringsbeställning med förhandsgodkända priser (200 $/tim)."
             }
           ],
           "ov": [
-            "Extra integrationer: $3,000 styck",
-            "Extra skärmar utöver SOW: $800/skärm",
-            "Ändringsbeställningar under utveckling: $200/tim",
-            "Extra användarroller: $2,000 per roll",
-            "Avancerad rapporterings-/analysdashboard: $5,000",
+            "Extra integrationer: 3 000 $ styck",
+            "Extra skärmar utöver SOW: 800 $/skärm",
+            "Ändringsbeställningar under utveckling: 200 $/tim",
+            "Extra användarroller: 2 000 $ per roll",
+            "Avancerad rapporterings-/analysdashboard: 5 000 $",
             "Native mobilapp (iOS eller Android): se nivån Enterprise-bygge"
           ],
-          "ho": "Betalning: 50% deposition vid start, 25% vid halvtidsdelmål, 25% vid leverans (7 dagar netto). Inkluderar 30 dagars buggfixar efter lansering (endast problem med funktioner i det ursprungliga SOW). Efter 30 dagar övergår löpande support till ett underhållsavtal. All kod är din. Full äganderätt till kodbas, designfiler och dokumentation överförs när projektet är klart.",
-          "bridge": "Din plattform är live och stabil. För att hålla den igång, säker och i utveckling rekommenderar vi vårt avtal Utvecklingssupport ($1,500/mån) eller en Timbank ($2,500/mån för 10 tim).",
+          "ho": "Betalning: 50 % deposition vid start, 25 % vid halvtidsdelmål, 25 % vid leverans (7 dagar netto). Inkluderar 30 dagars buggfixar efter lansering (endast problem med funktioner i det ursprungliga SOW). Efter 30 dagar övergår löpande support till ett underhållsavtal. All kod är din. Full äganderätt till kodbas, designfiler och dokumentation överförs när projektet är klart.",
+          "bridge": "Din plattform är live och stabil. För att hålla den igång, säker och i utveckling rekommenderar vi vårt avtal Utvecklingssupport (1 500 $/mån) eller en Timbank (2 500 $/mån för 10 tim).",
           "ideal": "Portaler, dashboards, interna verktyg och SaaS-MVP:er"
         },
         {
@@ -1934,29 +1945,29 @@
             },
             {
               "i": "Fasindelad leverans",
-              "l": "Projektet levereras i faser (vanligtvis 3 eller 4). Varje fas har egna leverabler, testning och godkännande. Fas 1 är vanligtvis kärn-MVP:n (lanserad i produktion). Efterföljande faser lägger till funktioner stegvis. Varje fas har en definierad tidsplan och leverabellista från SOW."
+              "l": "Projektet levereras i faser (vanligtvis 3 eller 4). Varje fas har egna leveranser, testning och godkännande. Fas 1 är vanligtvis kärn-MVP:n (lanserad i produktion). Efterföljande faser lägger till funktioner stegvis. Varje fas har en definierad tidsplan och leveranslista från SOW."
             },
             {
               "i": "Revideringar och ändringshantering",
-              "l": "2 rundor designrevideringar per fas. Feedback hanteras via delad uppgiftstavla (Linear eller GitHub Issues). Ändringsbeställningar för utökad omfattning: $200/tim med skriftligt godkännande innan arbetet påbörjas. Veckovisa statusuppdateringar via Loom-video eller skriftlig sammanfattning. Inspelade demovideor av färdigt arbete varannan vecka. Du granskar och svarar när det passar dig. 1 valfritt livesamtal per månad vid behov."
+              "l": "2 rundor designrevideringar per fas. Feedback hanteras via delad uppgiftstavla (Linear eller GitHub Issues). Ändringsbeställningar för utökad omfattning: 200 $/tim med skriftligt godkännande innan arbetet påbörjas. Veckovisa statusuppdateringar via Loom-video eller skriftlig sammanfattning. Inspelade demovideor av färdigt arbete varannan vecka. Du granskar och svarar när det passar dig. 1 valfritt livesamtal per månad vid behov."
             }
           ],
           "ov": [
-            "Extra integrationer: $5,000 styck",
-            "Native mobilapp (om den inte ingår): $30,000",
-            "Extra AI-funktioner: $10,000 per funktion",
-            "Extra faser: omfattningsbestäms och offereras individuellt",
-            "Samordning av penetrationstest via tredje part: $5,000",
-            "Tillägg white label/multi-tenant (om det inte ingår): $15,000"
+            "Extra integrationer: 5 000 $ styck",
+            "Native mobilapp (om den inte ingår): 30 000 $",
+            "Extra AI-funktioner: 10 000 $ per funktion",
+            "Extra faser: offereras individuellt efter omfattning",
+            "Samordning av penetrationstest via tredje part: 5 000 $",
+            "Tillägg white label/multi-tenant (om det inte ingår): 15 000 $"
           ],
-          "ho": "Betalning: 50% deposition vid start, 25% vid halvtidsdelmål, 25% vid leverans (7 dagar netto). Inkluderar 45 dagars buggfixar efter lansering per fas. All kod, alla designfiler och all dokumentation överförs till dig vid leverans. Full äganderätt till kodbasen. Efter 45 dagar övergår löpande support till ett underhållsavtal.",
-          "bridge": "Komplexa system kräver löpande utveckling, övervakning och optimering. Vi rekommenderar vårt avtal Aktiv utveckling ($7,500/mån) så att plattformen utvecklas i takt med din verksamhet.",
+          "ho": "Betalning: 50 % deposition vid start, 25 % vid halvtidsdelmål, 25 % vid leverans (7 dagar netto). Inkluderar 45 dagars buggfixar efter lansering per fas. All kod, alla designfiler och all dokumentation överförs till dig vid leverans. Full äganderätt till kodbasen. Efter 45 dagar övergår löpande support till ett underhållsavtal.",
+          "bridge": "Komplexa system kräver löpande utveckling, övervakning och optimering. Vi rekommenderar vårt avtal Aktiv utveckling (7 500 $/mån) så att plattformen utvecklas i takt med din verksamhet.",
           "ideal": "SaaS-plattformar, multi-tenant-system, AI-integrerade produkter och enterprise-verktyg"
         }
       ],
       "aiAgents": [
         {
-          "name": "En agent",
+          "name": "Enskild agent",
           "price": 5000,
           "disp": "$5,000",
           "tag": "En kraftfull agent",
@@ -1984,14 +1995,14 @@
             }
           ],
           "ov": [
-            "Extra integration: $1,500",
-            "Träningsdata utöver 50 poster: $500/omgång om 50",
-            "Extra revideringsrunda: $350",
-            "Expressleverans (under 1 vecka): +40%",
-            "Omträning av agent: $750"
+            "Extra integration: 1 500 $",
+            "Träningsdata utöver 50 poster: 500 $/omgång om 50",
+            "Extra revideringsrunda: 350 $",
+            "Expressleverans (under 1 vecka): +40 %",
+            "Omträning av agent: 750 $"
           ],
-          "ho": "Betalning: 50% deposition vid start, 50% vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 2 revideringsrundor. Äganderätten till agenten övergår till dig.",
-          "bridge": "Din agent är live. För att hålla den övervakad, optimerad och omtränad, lägg till vårt avtal Agentunderhåll ($1,500/mån) eller Agenttillväxt ($3,500/mån).",
+          "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 2 revideringsrundor. Äganderätten till agenten övergår till dig.",
+          "bridge": "Din agent är live. För att hålla den övervakad, optimerad och omtränad, lägg till vårt avtal Agentunderhåll (1 500 $/mån) eller Agenttillväxt (3 500 $/mån).",
           "ideal": "Företag som automatiserar ett specifikt arbetsflöde"
         },
         {
@@ -2024,14 +2035,14 @@
             }
           ],
           "ov": [
-            "Extra agent: $2,500",
-            "Extra integration: $1,500",
-            "Träningsdata utöver 75/agent: $500/omgång",
-            "Extra revideringsrunda: $400",
-            "Expressleverans: +40%"
+            "Extra agent: 2 500 $",
+            "Extra integration: 1 500 $",
+            "Träningsdata utöver 75/agent: 500 $/omgång",
+            "Extra revideringsrunda: 400 $",
+            "Expressleverans: +40 %"
           ],
-          "ho": "Betalning: 50% deposition vid start, 50% vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 2 revideringsrundor. Äganderätten till alla agenter och all kod övergår till dig.",
-          "bridge": "Ditt agentteam är live och samordnat. För löpande optimering, omträning och nya agenter, lägg till vårt avtal Agenttillväxt ($3,500/mån) eller Agentkommandocentral ($7,500/mån).",
+          "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Avslutas vid godkännande ELLER efter 2 revideringsrundor. Äganderätten till alla agenter och all kod övergår till dig.",
+          "bridge": "Ditt agentteam är live och samordnat. För löpande optimering, omträning och nya agenter, lägg till vårt avtal Agenttillväxt (3 500 $/mån) eller Agentkommandocentral (7 500 $/mån).",
           "ideal": "Företag som automatiserar flerstegsflöden från början till slut"
         },
         {
@@ -2063,14 +2074,14 @@
             }
           ],
           "ov": [
-            "Extra agent: $2,500 styck",
-            "Extra integration: $2,000",
-            "Finjustering av egen AI-modell: $5,000",
-            "Utbildning live: $250/tim",
-            "Expressleverans: +30%"
+            "Extra agent: 2 500 $ styck",
+            "Extra integration: 2 000 $",
+            "Finjustering av egen AI-modell: 5 000 $",
+            "Utbildning live: 250 $/tim",
+            "Expressleverans: +30 %"
           ],
-          "ho": "Betalning: 50% deposition vid start, 25% vid halvtidsdelmål, 25% vid leverans (7 dagar netto). Levereras i faser (vanligtvis 2 eller 3). Varje fas har definierade leverabler och godkännande. Äganderätten till all kod och alla agenter övergår till dig vid leverans.",
-          "bridge": "Ditt AI-ekosystem är i full drift. För att hålla det igång, optimerat och växande, lägg till vårt avtal Agentkommandocentral ($7,500/mån).",
+          "ho": "Betalning: 50 % deposition vid start, 25 % vid halvtidsdelmål, 25 % vid leverans (7 dagar netto). Levereras i faser (vanligtvis 2 eller 3). Varje fas har definierade leveranser och godkännande. Äganderätten till all kod och alla agenter övergår till dig vid leverans.",
+          "bridge": "Ditt AI-ekosystem är i full drift. För att hålla det igång, optimerat och växande, lägg till vårt avtal Agentkommandocentral (7 500 $/mån).",
           "ideal": "Företag som ersätter manuella processer med intelligent automation i stor skala"
         }
       ],
@@ -2100,14 +2111,14 @@
               "l": "Rapport levererad senast den 5:e varje månad som täcker: agenternas svarsprecision, slutförandegrad, felfrekvens, användningsvolym och integrationsstatus. Inkluderar rekommendationer för bättre resultat. Levereras som PDF eller Loom-video."
             },
             {
-              "i": "Support och svarstider",
-              "l": "Support via sms och e-post med 48 timmars svarstid (arbetsdagar). Upp till 8 supportärenden per månad. Varje ärende = 1 specifikt problem eller fråga. Ärenden utöver 8 debiteras med $200/tim."
+              "i": "Support",
+              "l": "Support via sms och e-post med 48 timmars svarstid (arbetsdagar). Upp till 8 supportärenden per månad. Varje ärende = 1 specifikt problem eller fråga. Ärenden utöver 8 debiteras med 200 $/tim."
             }
           ],
           "ov": [
-            "Övervakning av extra agent: $300/mån per agent",
-            "Träningsuppdateringar utöver 15: $50 styck",
-            "Akut åtgärd utanför kontorstid: +50%",
+            "Övervakning av extra agent: 300 $/mån per agent",
+            "Träningsuppdateringar utöver 15: 50 $ styck",
+            "Akut åtgärd utanför kontorstid: +50 %",
             "Bygge av ny agent: offereras separat"
           ],
           "ex": "Inga nya agentbyggen, inga nya integrationer, inga nya automationsflöden. Detta är enbart övervakning och underhåll. För aktiv agentutveckling, se nivån Agenttillväxt.",
@@ -2152,11 +2163,11 @@
             }
           ],
           "ov": [
-            "Övervakning av extra agent: $250/mån per agent",
-            "Träningsuppdateringar utöver 40: $40 styck",
-            "Extra flödesbygge: $1,500",
-            "Bygge av ny agent: $2,500",
-            "Akut utanför kontorstid: +50%"
+            "Övervakning av extra agent: 250 $/mån per agent",
+            "Träningsuppdateringar utöver 40: 40 $ styck",
+            "Extra flödesbygge: 1 500 $",
+            "Bygge av ny agent: 2 500 $",
+            "Akut utanför kontorstid: +50 %"
           ],
           "ex": "Ingen enterprise-orkestrering, inga ramverk för regelefterlevnad, ingen dedikerad strateg. För fullständig hantering av AI-drift, se Agentkommandocentral.",
           "ideal": "Företag som aktivt bygger ut sina AI-agenters kapacitet"
@@ -2195,7 +2206,7 @@
             },
             {
               "i": "Nya agentbyggen (1/mån ingår)",
-              "l": "1 nytt AI-agentbygge per månad ingår i omfattningen. Täcker: design, träning, testning, driftsättning och dokumentation. Ytterligare agenter offereras till rabatterat pris ($2,000 styck jämfört med $5,000 fristående)."
+              "l": "1 nytt AI-agentbygge per månad ingår i omfattningen. Täcker: design, träning, testning, driftsättning och dokumentation. Ytterligare agenter offereras till rabatterat pris (2 000 $ styck jämfört med 5 000 $ fristående)."
             },
             {
               "i": "Kvartalsvis AI-granskning",
@@ -2203,11 +2214,11 @@
             }
           ],
           "ov": [
-            "Extra agentbygge: $2,000 styck",
-            "Extra flöde: $1,000",
-            "Finjustering av egen AI-modell: $5,000",
-            "Utbildning live: $250/tim",
-            "Akut utanför kontorstid: +50%"
+            "Extra agentbygge: 2 000 $ styck",
+            "Extra flöde: 1 000 $",
+            "Finjustering av egen AI-modell: 5 000 $",
+            "Utbildning live: 250 $/tim",
+            "Akut utanför kontorstid: +50 %"
           ],
           "ex": "Ingen marknadsföring, inga annonser, inget innehållsskapande, ingen hantering av sociala medier. För de tjänsterna, se våra marknadsföringsavtal eller paket för sociala medier.",
           "ideal": "Företag som driver AI som en central del av den dagliga verksamheten"
@@ -2224,7 +2235,7 @@
           "scope": [
             {
               "i": "Välj dina timmar",
-              "l": "Köp ett block med utvecklingstimmar varje månad. 10 tim/mån = $2,500 ($250/tim). 20 tim/mån = $4,500 ($225/tim). 30 tim/mån = $6,000 ($200/tim). 40+ tim/mån = individuellt pris. Timmarna täcker valfri kombination av: buggfixar, funktionsuppdateringar, designändringar, integrationer eller rådgivning."
+              "l": "Köp ett block med utvecklingstimmar varje månad. 10 tim/mån = 2 500 $ (250 $/tim). 20 tim/mån = 4 500 $ (225 $/tim). 30 tim/mån = 6 000 $ (200 $/tim). 40+ tim/mån = individuellt pris. Timmarna täcker valfri kombination av: buggfixar, funktionsuppdateringar, designändringar, integrationer eller rådgivning."
             },
             {
               "i": "Så fungerar det",
@@ -2240,13 +2251,13 @@
             },
             {
               "i": "Vad som täcks",
-              "l": "Buggfixar och patchar, mindre funktionstillägg, UI/UX-förbättringar, databasändringar, API-uppdateringar, underhåll av tredjepartsintegrationer, prestandaoptimering, säkerhetspatchar och rådgivning. Täcker INTE: fullständiga funktionsbyggen som kräver 40+ timmar (omfattningsbestäms som separat projekt), design från grunden (använd vårt designavtal eller projektpriser) eller jour dygnet runt."
+              "l": "Buggfixar och patchar, mindre funktionstillägg, UI/UX-förbättringar, databasändringar, API-uppdateringar, underhåll av tredjepartsintegrationer, prestandaoptimering, säkerhetspatchar och rådgivning. Täcker INTE: fullständiga funktionsbyggen som kräver 40+ timmar (offereras som separat projekt), design från grunden (använd vårt designavtal eller projektpriser) eller jour dygnet runt."
             }
           ],
           "ov": [
-            "Timmar utöver din bank: $275/tim",
-            "Akut/kritisk fix samma dag: +50% på använda timmar",
-            "Helgarbete: +75% på använda timmar"
+            "Timmar utöver din bank: 275 $/tim",
+            "Akut/kritisk fix samma dag: +50 % på använda timmar",
+            "Helgarbete: +75 % på använda timmar"
           ],
           "ex": "Ingen garanterad SLA. Ingen övervakning dygnet runt. Ingen dedikerad utvecklare (teamet hanterar önskemål i kö). För garanterade svarstider och dedikerade resurser, se Utvecklingssupport-nivåerna nedan.",
           "ideal": "Små appar, verktyg eller lanserade projekt som behöver uppdateringar då och då"
@@ -2281,15 +2292,15 @@
             },
             {
               "i": "Supportkanal",
-              "l": "E-postsupport med 24 timmars svarstid (arbetsdagar). Upp till 8 supportärenden per månad. Varje ärende = 1 specifikt problem eller fråga. Ärenden utöver 8 debiteras med $200/tim."
+              "l": "E-postsupport med 24 timmars svarstid (arbetsdagar). Upp till 8 supportärenden per månad. Varje ärende = 1 specifikt problem eller fråga. Ärenden utöver 8 debiteras med 200 $/tim."
             }
           ],
           "ov": [
-            "Buggfixar utöver 5 tim: $200/tim",
-            "Akut åtgärd utanför kontorstid: +50%",
+            "Buggfixar utöver 5 tim: 200 $/tim",
+            "Akut åtgärd utanför kontorstid: +50 %",
             "Databasmigrering: offereras separat",
             "Funktionstillägg: använd Timbank eller projektpriser",
-            "Prestandagranskning: $2,000 engångsavgift"
+            "Prestandagranskning: 2 000 $ engångsavgift"
           ],
           "ex": "Ingen funktionsutveckling, inget designarbete, inga innehållsuppdateringar, ingen annonshantering. Detta är enbart underhåll av infrastruktur och kod. För aktiv utveckling, se nivån Aktiv utveckling eller Timbank.",
           "ideal": "Stabila appar som ska hållas säkra, övervakade och uppdaterade"
@@ -2333,13 +2344,13 @@
             }
           ],
           "ov": [
-            "Utveckling utöver 35 tim: $225/tim",
-            "Akut utanför kontorstid: +50%",
-            "Driftsättning på helg: +75%",
-            "Fullständigt funktionsbygge över 40 tim: omfattningsbestäms som separat projekt till rabatterat pris",
-            "Design utöver 3 tim: $200/tim"
+            "Utveckling utöver 35 tim: 225 $/tim",
+            "Akut utanför kontorstid: +50 %",
+            "Driftsättning på helg: +75 %",
+            "Fullständigt funktionsbygge över 40 tim: offereras som separat projekt till rabatterat pris",
+            "Design utöver 3 tim: 200 $/tim"
           ],
-          "ex": "Ingen jour dygnet runt. Ingen dedikerad heltidsutvecklare (delat team med prioriterad åtkomst). Ingen mobilapputveckling på den här nivån (omfattningsbestäms separat). Inga marknadsförings-, annons- eller innehållstjänster. Se våra marknadsföringspaket för det.",
+          "ex": "Ingen jour dygnet runt. Ingen dedikerad heltidsutvecklare (delat team med prioriterad åtkomst). Ingen mobilapputveckling på den här nivån (offereras separat). Inga marknadsförings-, annons- eller innehållstjänster. Se våra marknadsföringspaket för det.",
           "ideal": "Växande plattformar som släpper nya funktioner varje månad"
         }
       ],
@@ -2349,7 +2360,7 @@
           "price": 9500,
           "disp": "$9,500",
           "tag": "Validera din idé",
-          "tl": "4-6 veckor",
+          "tl": "4 till 6 veckor",
           "scope": [
             {
               "i": "iOS eller Android (du väljer), React Native",
@@ -2373,7 +2384,7 @@
             },
             {
               "i": "30 dagars garanti efter lansering",
-              "l": "Buggar som rapporteras under de första 30 dagarna efter butiksgodkännande åtgärdas utan kostnad. Funktionsönskemål omfattningsbestäms separat."
+              "l": "Buggar som rapporteras under de första 30 dagarna efter butiksgodkännande åtgärdas utan kostnad. Funktionsönskemål offereras separat."
             },
             {
               "i": "Överlämning av källkod + dokumentation",
@@ -2381,13 +2392,13 @@
             }
           ],
           "ov": [
-            "Extra skärm: $650",
-            "Andra plattformen (lägg till iOS eller Android): +$4,500",
-            "Extra API-integration: $450",
-            "Layouter för surfplatta/iPad: +$1,800"
+            "Extra skärm: 650 $",
+            "Andra plattformen (lägg till iOS eller Android): +4 500 $",
+            "Extra API-integration: 450 $",
+            "Layouter för surfplatta/iPad: +1 800 $"
           ],
           "ex": "Inget eget backendbygge (använder dina befintliga API:er eller en no-code-backend som Supabase). Inga köp i appen. Inga pushnotiser. Inget offline-först-läge.",
-          "bridge": "Efter 30-dagarsgarantin övergår löpande underhåll till vår plan Driftsäkring ($1,950/mån) för att hålla jämna steg med iOS-/Android-uppdateringar och nya butiksinskick.",
+          "bridge": "Efter 30-dagarsgarantin övergår löpande underhåll till vår plan Driftsäkring (1 950 $/mån) för att hålla jämna steg med iOS-/Android-uppdateringar och nya butiksinskick.",
           "ideal": "Grundare som validerar en idé med en fokuserad MVP för en plattform"
         },
         {
@@ -2396,7 +2407,7 @@
           "disp": "$24,500",
           "tag": "Mest populär",
           "pop": true,
-          "tl": "8-12 veckor",
+          "tl": "8 till 12 veckor",
           "scope": [
             {
               "i": "iOS + Android plattformsoberoende",
@@ -2432,13 +2443,13 @@
             }
           ],
           "ov": [
-            "Extra skärm: $850",
-            "Egen native-modul: $175/tim",
-            "Extra integration: $650",
-            "Förlängd garanti (+30 dagar): $1,200"
+            "Extra skärm: 850 $",
+            "Egen native-modul: 175 $/tim",
+            "Extra integration: 650 $",
+            "Förlängd garanti (+30 dagar): 1 200 $"
           ],
           "ho": "Fullständig kodöverlämning efter lansering: GitHub-repo, EAS/Fastlane CI-konfiguration, driftsättningsdokumentation, miljömall och en inspelad genomgång på 60 min. Ditt team tar över eller så fortsätter vi på avtal.",
-          "bridge": "Inkluderar 60 dagar efter lansering. Aktiv vidareutveckling därefter sker i vår plan Medvind ($4,800/mån): 20 utvecklingstimmar, funktionsarbete och A/B-tester varje månad.",
+          "bridge": "Inkluderar 60 dagar efter lansering. Aktiv vidareutveckling därefter sker i vår plan Medvind (4 800 $/mån): 20 utvecklingstimmar, funktionsarbete och A/B-tester varje månad.",
           "ideal": "Team som lanserar en genomarbetad plattformsoberoende produkt till riktiga användare"
         },
         {
@@ -2446,7 +2457,7 @@
           "price": 62000,
           "disp": "$62,000",
           "tag": "Fullständigt produktbygge",
-          "tl": "14-18 veckor",
+          "tl": "14 till 18 veckor",
           "scope": [
             {
               "i": "iOS + Android + egen Node/Postgres-backend",
@@ -2482,17 +2493,17 @@
             },
             {
               "i": "90 dagars garanti efter lansering",
-              "l": "Buggar som rapporteras inom 90 dagar efter butiksgodkännande åtgärdas gratis. Inkluderar 2 förstudieworkshops för att omfattningsbestämma nästa fas."
+              "l": "Buggar som rapporteras inom 90 dagar efter butiksgodkännande åtgärdas gratis. Inkluderar 2 förstudieworkshops för att ringa in omfattningen av nästa fas."
             }
           ],
           "ov": [
-            "Extra skärm: $1,100",
-            "Egen native-modul: $185/tim",
-            "Extra realtidsfunktion: $6,500",
-            "Extra förstudieworkshop: $1,800"
+            "Extra skärm: 1 100 $",
+            "Egen native-modul: 185 $/tim",
+            "Extra realtidsfunktion: 6 500 $",
+            "Extra förstudieworkshop: 1 800 $"
           ],
           "ho": "Komplett överlämning: GitHub-monorepo, CI/CD-konfiguration, infrastruktur som kod (Terraform eller Pulumi på begäran), runbook för driftsättningar och återställningar samt en videogenomgång på 90 min med både mobil- och backendteamen.",
-          "bridge": "Inkluderar 90 dagar efter lansering. Ett inbäddat partnerskap därefter sker i vår plan Partner ($10,500/mån) med en dedikerad utvecklare och en fraktionell designer.",
+          "bridge": "Inkluderar 90 dagar efter lansering. Ett inbäddat partnerskap därefter sker i vår plan Partner (10 500 $/mån) med en dedikerad utvecklare och en fraktionell designer.",
           "ideal": "Finansierade startups och varumärken som lanserar en fullfjädrad produkt med egen backend"
         }
       ],
@@ -2511,7 +2522,7 @@
             },
             {
               "i": "Buggfixar med 24 timmars triage-SLA",
-              "l": "Kritiska buggar (appkrascher, trasig inloggning, misslyckade betalningar) bekräftas inom 24 arbetstimmar och åtgärdas inom 48-72 timmar beroende på omfattning."
+              "l": "Kritiska buggar (appkrascher, trasig inloggning, misslyckade betalningar) bekräftas inom 24 arbetstimmar och åtgärdas inom 48 till 72 timmar beroende på omfattning."
             },
             {
               "i": "OS-versionsuppdateringar för iOS + Android (årligen)",
@@ -2535,9 +2546,9 @@
             }
           ],
           "ov": [
-            "Extra timme: $165/tim",
-            "Akut hotfix (helg/helgdag): $450 fast + timmar",
-            "Dedikerat funktionsarbete: omfattningsbestäms separat"
+            "Extra timme: 165 $/tim",
+            "Akut hotfix (helg/helgdag): 450 $ fast + timmar",
+            "Dedikerat funktionsarbete: offereras separat"
           ],
           "ex": "Ingen funktionsutveckling. Inga nya integrationer. Inget designarbete. Inga marknadsförings- eller ASO-tjänster.",
           "ideal": "Lanserade appar som ska hållas friska, regelrätta och kvar i butikerna"
@@ -2581,10 +2592,10 @@
             }
           ],
           "ov": [
-            "Extra timme: $155/tim",
-            "Extra A/B-test: $800 uppsättning",
+            "Extra timme: 155 $/tim",
+            "Extra A/B-test: 800 $ uppsättning",
             "Brådskande funktion (under 1 veckas leveranstid): 1,5x timmar",
-            "Extra designtimme: $145"
+            "Extra designtimme: 145 $"
           ],
           "ex": "Ingen dedikerad utvecklare (delat team med prioriterad åtkomst). Inga ändringar i backendarkitekturen. Inga marknadsföringstjänster.",
           "ideal": "Appar i drift som aktivt vidareutvecklas utifrån användardata"
@@ -2631,9 +2642,9 @@
             }
           ],
           "ov": [
-            "Extra timme utöver 95/mån: $145/tim",
-            "Extra dedikerad utvecklare: +$8,500/mån",
-            "Extra dedikerad designer: +$3,500/mån"
+            "Extra timme utöver 95/mån: 145 $/tim",
+            "Extra dedikerad utvecklare: +8 500 $/mån",
+            "Extra dedikerad designer: +3 500 $/mån"
           ],
           "ex": "Marknadsföring, betalda annonser och innehållstjänster ingår inte. Se våra marknadsföringspaket för det.",
           "ideal": "Team som ser Blok Blok som sitt inbäddade produktteam"
@@ -2649,7 +2660,7 @@
           "com": "Minst 3 månader",
           "scope": [
             {
-              "i": "99,9% drifttidsövervakning",
+              "i": "99,9 % drifttidsövervakning",
               "l": "StatusCake eller BetterStack bevakar din sajt dygnet runt. Larm till oss omedelbart. Du får inte reda på att sajten ligger nere från en kund."
             },
             {
@@ -2674,9 +2685,9 @@
             }
           ],
           "ov": [
-            "Extra innehållsändring: $45 styck",
-            "Brådskande ärende (samma dag): +$125",
-            "Uppdateringsarbete per timme: $165/tim"
+            "Extra innehållsändring: 45 $ styck",
+            "Brådskande ärende (samma dag): +125 $",
+            "Uppdateringsarbete per timme: 165 $/tim"
           ],
           "ex": "Inga nya sidor, inga omdesigner, inga A/B-tester, ingen SEO, inga annonser. Ingen marknadsföringsaktivitet. Se våra marknadsföringspaket för det.",
           "ideal": "Lanserade sajter som behöver pålitligt underhåll och trygghet"
@@ -2712,7 +2723,7 @@
             },
             {
               "i": "8 innehållsuppdateringar per månad",
-              "l": "Utöver Site Cares grundnivå på 4 ändringar: upp till 8 innehållsuppdateringar totalt varje månad. Samlas veckovis på måndagar."
+              "l": "Utöver grundnivån på 4 ändringar i Sajtvård: upp till 8 innehållsuppdateringar totalt varje månad. Samlas veckovis på måndagar."
             },
             {
               "i": "Prioriterad e-post + Slack, 24 timmars svarstid",
@@ -2720,11 +2731,11 @@
             }
           ],
           "ov": [
-            "Extra A/B-test: $450",
-            "Extra ny sida: $850",
-            "Video-/animationsarbete: omfattningsbestäms separat"
+            "Extra A/B-test: 450 $",
+            "Extra ny sida: 850 $",
+            "Video-/animationsarbete: offereras separat"
           ],
-          "ex": "Inga fullständiga omdesigner (omfattningsbestäms som projekt). Inga betalda annonser. Ingen textproduktion utöver mindre ändringar.",
+          "ex": "Inga fullständiga omdesigner (offereras som projekt). Inga betalda annonser. Ingen textproduktion utöver mindre ändringar.",
           "ideal": "Team som vill att sajten ska bli bättre varje månad"
         },
         {
@@ -2765,9 +2776,9 @@
             }
           ],
           "ov": [
-            "Extra timme utöver 33/mån: $155/tim",
-            "Extra inläggning av innehållssida: $45 styck utöver 10",
-            "Brådskande driftsättning (samma dag): +25%"
+            "Extra timme utöver 33/mån: 155 $/tim",
+            "Extra inläggning av innehållssida: 45 $ styck utöver 10",
+            "Brådskande driftsättning (samma dag): +25 %"
           ],
           "ex": "Ingen hantering av betalda annonser (se marknadsföringspaketen). Ingen omdesign av varumärke (se varumärkespaketen). Inget mobilapparbete.",
           "ideal": "Växande företag som ser Blok Blok som sitt webbteam"
@@ -2775,11 +2786,11 @@
       ],
       "marketingBuild": [
         {
-          "name": "Marknadsgranskning & Färdplan",
+          "name": "Marknadsföringsgranskning och färdplan",
           "price": 3500,
           "disp": "$3,500",
           "tag": "Diagnos + 90-dagarsplan",
-          "tl": "2-3 veckor",
+          "tl": "2 till 3 veckor",
           "scope": [
             {
               "i": "Granskning av hela tratten",
@@ -2799,7 +2810,7 @@
             },
             {
               "i": "Prioriterad 90-dagarsfärdplan",
-              "l": "20-30 åtgärdspunkter poängsatta med RICE (Reach, Impact, Confidence, Effort). Levereras som en Notion-backlog som ditt team kan genomföra eller som vi kan driva."
+              "l": "20 till 30 åtgärdspunkter poängsatta med RICE (Reach, Impact, Confidence, Effort). Levereras som en Notion-backlog som ditt team kan genomföra eller som vi kan driva."
             },
             {
               "i": "Modell för budgetfördelning",
@@ -2815,12 +2826,12 @@
             }
           ],
           "ov": [
-            "Extra granskad kanal: $450",
-            "Extra konkurrent i analysen: $250 styck",
-            "Förlängd workshop (90 min): $400"
+            "Extra granskad kanal: 450 $",
+            "Extra konkurrent i analysen: 250 $ styck",
+            "Förlängd workshop (90 min): 400 $"
           ],
           "ex": "Inget genomförande av färdplanen (det är nästa steg). Ingen annonshantering. Inget innehållsskapande. Ingen kreativ produktion.",
-          "bridge": "Granskningen passar naturligt ihop med vår plan Underhåll & Övervakning ($1,500/mån) för att genomföra färdplanen utan att bygga upp sammanhanget på nytt. 10% rabatt första månaden om avtalet tecknas inom 14 dagar.",
+          "bridge": "Granskningen passar naturligt ihop med vår plan Underhåll och övervakning (1 500 $/mån) för att genomföra färdplanen utan att bygga upp sammanhanget på nytt. 10 % rabatt första månaden om avtalet tecknas inom 14 dagar.",
           "ideal": "Grundare som misstänker att marknadsföringen läcker pengar men inte kan peka ut var"
         },
         {
@@ -2829,7 +2840,7 @@
           "disp": "$8,500",
           "tag": "Mest populär",
           "pop": true,
-          "tl": "4-5 veckors bygge + 30 dagars övervakning",
+          "tl": "4 till 5 veckors bygge + 30 dagars övervakning",
           "scope": [
             {
               "i": "1 primär annonsplattform fullt uppbyggd",
@@ -2837,7 +2848,7 @@
             },
             {
               "i": "6 annonser totalt",
-              "l": "2 statiska bilder + 2 kortformatsvideor + 2 variant-hooks. Filmat och klippt av vårt team utifrån ditt varumärkesmaterial + 1 produktdemovideo som vi filmar på distans vid behov."
+              "l": "2 statiska bilder + 2 kortformatsvideor + 2 varianter av öppningen. Filmat och klippt av vårt team utifrån ditt varumärkesmaterial + 1 produktdemovideo som vi filmar på distans vid behov."
             },
             {
               "i": "1 dedikerad landningssida + A/B-variant",
@@ -2856,8 +2867,8 @@
               "l": "2 veckors mjuklansering med daglig optimering och iteration av annonsmaterial. Därefter 30 dagars aktiv kampanjövervakning med veckovisa justeringar."
             },
             {
-              "i": "Upp till $15k hanterad annonsbudget",
-              "l": "Annonsbudget upp till $15k täcks av avgiften (själva budgeten faktureras separat av plattformen). Ytterligare $5k i budget: +$500 på avgiften."
+              "i": "Upp till 15 000 $ hanterad annonsbudget",
+              "l": "Annonsbudget upp till 15 000 $ täcks av avgiften (själva budgeten faktureras separat av plattformen). Ytterligare 5 000 $ i budget: +500 $ på avgiften."
             },
             {
               "i": "Resultatgenomgång + överlämningsdokument",
@@ -2865,13 +2876,13 @@
             }
           ],
           "ov": [
-            "Extra annons (statisk): $250",
-            "Extra annons (video): $600",
-            "Extra variant av landningssida: $1,500",
-            "Extra annonsplattform: $2,500"
+            "Extra annons (statisk): 250 $",
+            "Extra annons (video): 600 $",
+            "Extra variant av landningssida: 1 500 $",
+            "Extra annonsplattform: 2 500 $"
           ],
           "ex": "Inget organiskt innehåll för sociala medier. Inget långformat SEO-innehåll. Ingen influencer-hantering. Ingen PR-bearbetning.",
-          "bridge": "Kampanjen övergår i vår plan Tillväxtmotor ($3,500/mån) för att skala vinnarna, utöka till en andra kanal och iterera annonsmaterialet. 10% rabatt första månaden om avtalet tecknas inom 14 dagar.",
+          "bridge": "Kampanjen övergår i vår plan Tillväxtmotor (3 500 $/mån) för att skala vinnarna, utöka till en andra kanal och iterera annonsmaterialet. 10 % rabatt första månaden om avtalet tecknas inom 14 dagar.",
           "ideal": "Team med ett beprövat erbjudande som är redo att driva riktig volym av nya kunder"
         },
         {
@@ -2907,30 +2918,30 @@
             },
             {
               "i": "Mejlsekvens för lanseringen",
-              "l": "Bearbetning av väntelistan (3 mejl före lansering) + kampanj om 6 mejl under lanseringsveckan. Byggd för de första 50k utskicken. Fungerar med alla plattformar (Klaviyo, Kit, Mailchimp eller HubSpot)."
+              "l": "Bearbetning av väntelistan (3 mejl före lansering) + kampanj om 6 mejl under lanseringsveckan. Byggd för de första 50 000 utskicken. Fungerar med alla plattformar (Klaviyo, Kit, Mailchimp eller HubSpot)."
             },
             {
-              "i": "Förberedelse för Product Hunt-/community-lansering + krigsrum",
-              "l": "Strategi för community-lansering, utkast till hype-tråd inför lansering, optimerad PH-sida och ett 8 timmars live-krigsrum på lanseringsdagen."
+              "i": "Förberedelse för Product Hunt-/community-lansering + bemannad lanseringscentral",
+              "l": "Strategi för community-lansering, utkast till hype-tråd inför lansering, optimerad PH-sida och en lanseringscentral bemannad live i 8 timmar på lanseringsdagen."
             },
             {
               "i": "Utvärderingsrapport efter lansering",
               "l": "14 dagar efter lansering: genomgång av kohorter, kanaler, annonsmaterial och tratt. Rapport på 20 sidor om vad som fungerade, vad som inte gjorde det och vad ni bör satsa mer på."
             },
             {
-              "i": "Upp till $30k hanterad lanseringsbudget",
-              "l": "Upp till $30k i annonsbudget hanteras inom avgiften. Ytterligare $5k i budget: +$500 på avgiften. Budgeten faktureras separat av plattformen."
+              "i": "Upp till 30 000 $ hanterad lanseringsbudget",
+              "l": "Upp till 30 000 $ i annonsbudget hanteras inom avgiften. Ytterligare 5 000 $ i budget: +500 $ på avgiften. Budgeten faktureras separat av plattformen."
             }
           ],
           "ov": [
-            "Extra influencer-samarbete: $1,200 + kreatörsarvode",
-            "Extra pressmedium (26+): $75 styck",
-            "Extra videoannons: $600",
-            "Snabbare tidsplan (under 3 veckor): +25%",
-            "Modul för programmatisk SEO: $6,000"
+            "Extra influencer-samarbete: 1 200 $ + kreatörsarvode",
+            "Extra pressmedium (26+): 75 $ styck",
+            "Extra videoannons: 600 $",
+            "Snabbare tidsplan (under 3 veckor): +25 %",
+            "Modul för programmatisk SEO: 6 000 $"
           ],
           "ex": "Ingen löpande innehållskalender efter lanseringen. Ingen långsiktig community-hantering. Ingen produktfotografering (kan läggas till).",
-          "bridge": "Lanseringen övergår i vår plan Fullt partnerskap ($7,500/mån) för uthållig tillväxt, livscykeloptimering och nästa lanseringscykel. 10% rabatt första månaden om avtalet tecknas inom 14 dagar.",
+          "bridge": "Lanseringen övergår i vår plan Fullt partnerskap (7 500 $/mån) för uthållig tillväxt, livscykeloptimering och nästa lanseringscykel. 10 % rabatt första månaden om avtalet tecknas inom 14 dagar.",
           "ideal": "Varumärken som lanserar en produkt, tjänstelinje eller rebranding och behöver en samordnad satsning"
         }
       ],
@@ -2940,7 +2951,7 @@
           "price": 4000,
           "disp": "$4,000",
           "tag": "Logotyp + palett + typografi",
-          "tl": "2-3 veckor",
+          "tl": "2 till 3 veckor",
           "scope": [
             {
               "i": "Förstudie (asynkron)",
@@ -2948,11 +2959,11 @@
             },
             {
               "i": "Logotyputforskning (3 koncept)",
-              "l": "3 inledande logotypriktningar presenterade som platta vektormockups. Du väljer 1 för förfining. Ordmärke ELLER lockup med ikon + ordmärke (inte båda). 2 revideringsrundor."
+              "l": "3 inledande logotypriktningar presenterade som platta vektormockups. Du väljer 1 för förfining. Ordmärke ELLER kombination av ikon + ordmärke (inte båda). 2 revideringsrundor."
             },
             {
               "i": "Slutliga logotypfiler",
-              "l": "PNG, SVG, PDF och EPS i fullfärg, 1-färg svart och 1-färg vit. Horisontella och staplade lockups levereras."
+              "l": "PNG, SVG, PDF och EPS i fullfärg, 1-färg svart och 1-färg vit. Liggande och stående versioner levereras."
             },
             {
               "i": "Färgpalett (5 färger)",
@@ -2972,12 +2983,12 @@
             }
           ],
           "ov": [
-            "Extra logotypvariant (monogram, sekundärmärke osv.): $300",
-            "Extra revideringsrunda: $250",
-            "Riktning för varumärkesfotografi: $800"
+            "Extra logotypvariant (monogram, sekundärmärke osv.): 300 $",
+            "Extra revideringsrunda: 250 $",
+            "Riktning för varumärkesfotografi: 800 $"
           ],
           "ex": "Ingen varumärkesmanual. Inget kontorstryck. Inga mallar för sociala medier. Inget arbete med namn eller verbal identitet.",
-          "bridge": "Varumärke Lite tillsammans med Varumärkesvårdare ($1,500/mån) håller materialet konsekvent när du producerar nytt innehåll.",
+          "bridge": "Varumärke Lite tillsammans med Varumärkesvårdare (1 500 $/mån) håller materialet konsekvent när du producerar nytt innehåll.",
           "ideal": "Soloföretagare och varumärken före första intäkten som snabbt behöver ett rent, användbart märke"
         },
         {
@@ -2986,15 +2997,15 @@
           "disp": "$12,000",
           "tag": "Mest populär",
           "pop": true,
-          "tl": "4-6 veckor",
+          "tl": "4 till 6 veckor",
           "scope": [
             {
               "i": "Förstudieworkshop (på distans, 90 min)",
-              "l": "1 arbetsmöte live med grundarna + upp till 3 intressenter. Resultat: positioneringsuttalande, 1 målgruppspersona, 3 varumärkesattribut, moodboard-riktning vald bland 3 som vi presenterar."
+              "l": "1 arbetsmöte live med grundarna + upp till 3 intressenter. Resultat: positioneringsformulering, 1 målgruppspersona, 3 varumärkesattribut, moodboard-riktning vald bland 3 som vi presenterar."
             },
             {
               "i": "Logotypsystem (4 koncept)",
-              "l": "4 inledande riktningar med livsstilsmockups (produkt, skyltning, sociala medier). 1 väljs för förfining. Primär lockup + horisontell + staplad + enbart ikon. 3 revideringsrundor."
+              "l": "4 inledande riktningar med livsstilsmockups (produkt, skyltning, sociala medier). 1 väljs för förfining. Primär logotyp + liggande + stående + enbart ikon. 3 revideringsrundor."
             },
             {
               "i": "Komplett färgsystem",
@@ -3018,12 +3029,12 @@
             }
           ],
           "ov": [
-            "Egen ikonuppsättning (8 ikoner): $1,200",
-            "Art direction + bildlista för varumärkesfotografi: $800",
-            "Extra revideringsrunda: $400"
+            "Egen ikonuppsättning (8 ikoner): 1 200 $",
+            "Art direction + bildlista för varumärkesfotografi: 800 $",
+            "Extra revideringsrunda: 400 $"
           ],
-          "ex": "Ingen sprint för namn eller verbal identitet. Ingen varumärkesundersökning. Ingen brand book utöver manualen på 20 sidor. Inget videoarbete.",
-          "bridge": "Varumärkessystem passar ihop med Kreativ ledning ($4,000/mån) för att löpande producera nytt varumärkesanpassat material.",
+          "ex": "Ingen sprint för namn eller verbal identitet. Ingen varumärkesrättslig undersökning. Ingen varumärkesbok utöver manualen på 20 sidor. Inget videoarbete.",
+          "bridge": "Varumärkessystem passar ihop med Kreativ ledning (4 000 $/mån) för att löpande producera nytt varumärkesanpassat material.",
           "ideal": "Finansierade startups och växande företag som behöver ett komplett, hållbart varumärkessystem"
         },
         {
@@ -3031,11 +3042,11 @@
           "price": 28000,
           "disp": "$28,000",
           "tag": "Fullständig rebranding + namn + strategi",
-          "tl": "8-12 veckor",
+          "tl": "8 till 12 veckor",
           "scope": [
             {
               "i": "Förstudie + strategisprint",
-              "l": "2 x 2 timmars workshops på distans (positionering, målgrupp, konkurrensgap). 5 intervjuer med intressenter (30 min vardera). Konkurrentgranskning av 6 konkurrenter. 1 positioneringsdokument (10-15 sidor) med budskapspelare och 3 testade målgruppspersonas."
+              "l": "2 x 2 timmars workshops på distans (positionering, målgrupp, konkurrensgap). 5 intervjuer med intressenter (30 min vardera). Konkurrentgranskning av 6 konkurrenter. 1 positioneringsdokument (10 till 15 sidor) med budskapspelare och 3 testade målgruppspersonas."
             },
             {
               "i": "Namnsprint",
@@ -3054,7 +3065,7 @@
               "l": "Utökad palett (primär, sekundär, toningar, nyanser), typografistack i 4 nivåer, ikonografistil (12 ikoner) och riktning för illustration eller fotografi."
             },
             {
-              "i": "Brand book (40+ sidor)",
+              "i": "Varumärkesbok (40+ sidor)",
               "l": "Strategi, positionering, röst, logotyp, färg, typografi, bildspråk, ikonografi, rörelseprinciper, gör och gör inte samt tillämpningsexempel. Levereras som PDF + redigerbar Figma-källa."
             },
             {
@@ -3067,12 +3078,12 @@
             }
           ],
           "ov": [
-            "Juridiskt varumärkesutlåtande via partneradvokat: $1,500-$3,000 vidarefaktureras",
-            "Produktion av lanseringsvideo för varumärket (60 s): $3,500",
-            "Extra namnrunda: $2,000"
+            "Juridiskt varumärkesutlåtande via partneradvokat: 1 500 till 3 000 $, vidarefaktureras",
+            "Produktion av lanseringsvideo för varumärket (60 s): 3 500 $",
+            "Extra namnrunda: 2 000 $"
           ],
           "ex": "Ingen varumärkesregistrering (hänvisning till partneradvokat ges). Ingen videoproduktion utöver storyboard. Inget löpande genomförande. Det är ett månadsavtal.",
-          "bridge": "Transformation följs vanligtvis av Inbäddad studio ($8,500/mån) för att rulla ut den nya identiteten på alla ytor under de kommande 6 månaderna.",
+          "bridge": "Transformation följs vanligtvis av Inbäddad studio (8 500 $/mån) för att rulla ut den nya identiteten på alla ytor under de kommande 6 månaderna.",
           "ideal": "Etablerade företag som ompositionerar sig, startups inför serie A, äldre varumärken som behöver byggas om från grunden"
         }
       ],
@@ -3091,7 +3102,7 @@
             },
             {
               "i": "1 kvartalsvis varumärkesgranskning (PDF)",
-              "l": "Var 3:e månad: genomgång av aktiva kanaler (webbplats + 3 sociala profiler) för avvikelser, föråldrat material och innehåll utanför varumärket. Rapport på 5-7 sidor med prioriterade åtgärder."
+              "l": "Var 3:e månad: genomgång av aktiva kanaler (webbplats + 3 sociala profiler) för avvikelser, föråldrat material och innehåll utanför varumärket. Rapport på 5 till 7 sidor med prioriterade åtgärder."
             },
             {
               "i": "Underhåll av varumärkesbiblioteket",
@@ -3107,9 +3118,9 @@
             }
           ],
           "ov": [
-            "Extra enheter (7+): $125 styck",
-            "Brådskande leverans inom 48 tim: +50%",
-            "Klippning av kortformatsvideo: $300 styck"
+            "Extra enheter (7+): 125 $ styck",
+            "Brådskande leverans inom 48 tim: +50 %",
+            "Klippning av kortformatsvideo: 300 $ styck"
           ],
           "ex": "Inget strategiskt arbete, inga nya varumärkesriktningar, ingen copywriting. Ingen hantering av sociala medier (se paketen för sociala medier).",
           "ideal": "Varumärken med en färdig identitet som behöver lätt, konsekvent underhåll"
@@ -3153,9 +3164,9 @@
             }
           ],
           "ov": [
-            "Extra enheter (16+): $150 styck",
-            "Klippning av kortformatsvideo (under 60 s): $300 styck",
-            "Text utöver 1 000 ord: $200/sida"
+            "Extra enheter (16+): 150 $ styck",
+            "Klippning av kortformatsvideo (under 60 s): 300 $ styck",
+            "Text utöver 1 000 ord: 200 $/sida"
           ],
           "ex": "Ingen hantering av betalda annonser. Ingen fullständig rebranding (det är ett projekt). Ingen dedikerad designer. Delat team.",
           "ideal": "Växande varumärken som behöver en kreativ partner som producerar löpande arbete och styr det visuella uttrycket"
@@ -3190,7 +3201,7 @@
             },
             {
               "i": "Utveckling av varumärkessystemet",
-              "l": "Mindre systemuppdateringar när ni växer: nya mallar, justerade färgutökningar, nya märken för undervarumärken. Fullständiga rebrandingar offereras fortfarande separat från $20k."
+              "l": "Mindre systemuppdateringar när ni växer: nya mallar, justerade färgutökningar, nya märken för undervarumärken. Fullständiga rebrandingar offereras fortfarande separat från 20 000 $."
             },
             {
               "i": "Kvartalsvis kampanjkoncept",
@@ -3202,18 +3213,18 @@
             }
           ],
           "ov": [
-            "Fullständig rebranding: $20k+ separat",
-            "Fotodag för varumärket (riktning + leverantörshantering, fotograferingen vidarefaktureras): $2,500 i riktningsavgift",
-            "Extra inbäddad designer: +$3,500/mån"
+            "Fullständig rebranding: 20 000 $+ separat",
+            "Fotodag för varumärket (riktning + leverantörshantering, fotograferingen vidarefaktureras): 2 500 $ i riktningsavgift",
+            "Extra inbäddad designer: +3 500 $/mån"
           ],
-          "ex": "Ingen hantering av betalda annonser. Ingen produkt-/UX-design (omfattningsbestäms separat).",
+          "ex": "Ingen hantering av betalda annonser. Ingen produkt-/UX-design (offereras separat).",
           "ideal": "Växande varumärken som ser oss som sitt fraktionella interna kreativa team i alla kanaler"
         }
       ]
     },
     "v2_card_cta": "Få en skräddarsydd offert",
     "v2_options": "{count, plural, one {# alternativ} other {# alternativ}}",
-    "meta_title": "Tjänster & paket",
+    "meta_title": "Tjänster och paket",
     "meta_description": "Paket för skräddarsydd webbdesign och utveckling. Tydligt definierade leveranser, offererade utifrån din omfattning."
   },
   "a11y": {
@@ -3253,14 +3264,14 @@
   },
   "casegrid": {
     "kofi_where": "Nike-atlet, Berlin",
-    "kofi_proof": "200% fler konsultationsförfrågningar efter lanseringen.",
+    "kofi_proof": "200 % fler konsultationsförfrågningar efter lanseringen.",
     "luki_where": "Personlig tränare, Berlin",
     "luki_proof": "Bokningar och betalningar direkt via sajten. Inga DM, inga fakturor.",
     "bronco_where": "Dallas-Fort Worth",
     "bronco_proof": "Över 50 000 $ i bruttointäkter under hans första 5 månader. 5,0 stjärnor över 52 Google-recensioner.",
     "ripz_where": "E-handel, USA",
     "ripz_proof": "191 000 $ i försäljning av samlarkort, 1 790 ordrar i Shopify-butiken vi byggde. Ägarna har sedan dess stängt butiken.",
-    "view_case": "Se caset",
+    "view_case": "Se fallstudien",
     "results_alt": "Resultat för {name}",
     "captions_label": "Engelska"
   },
@@ -3312,7 +3323,7 @@
     "country_united_states": "USA"
   },
   "seo": {
-    "org_description": "En kreativ webbdesignstudio som skapar skräddarsydda, konverteringsfokuserade webbplatser för ambitiösa varumärken.",
+    "org_description": "En webbdesignstudio i Berlin som bygger skräddarsydda, konverteringsfokuserade webbplatser för ambitiösa varumärken.",
     "local_description": "Berlinbaserad webbdesignstudio som bygger skräddarsydda Next.js-webbplatser för ambitiösa varumärken världen över.",
     "offer_catalog": "Webbdesigntjänster",
     "service_name": "Webbplatser",

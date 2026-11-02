@@ -140,24 +140,7 @@ export function CookieConsent() {
                       </button>
                     </div>
 
-                    {/* Analytics */}
-                    <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">
-                      <div>
-                        <p id="cookie-analytics-label" className="text-white text-sm font-medium">{t('analytics_title')}</p>
-                        <p id="cookie-analytics-desc" className="text-gray-400 text-xs mt-0.5">{t('analytics_desc')}</p>
-                      </div>
-                      <button
-                        type="button"
-                        role="switch"
-                        aria-checked={preferences.analytics}
-                        aria-labelledby="cookie-analytics-label"
-                        aria-describedby="cookie-analytics-desc"
-                        onClick={() => setPreferences(p => ({ ...p, analytics: !p.analytics }))}
-                        className={`w-10 h-6 rounded-full relative transition-colors ${preferences.analytics ? 'bg-white/30' : 'bg-white/10'}`}
-                      >
-                        <span className={`absolute top-1 w-4 h-4 rounded-full transition-all ${preferences.analytics ? 'right-1 bg-white' : 'left-1 bg-gray-400'}`} />
-                      </button>
-                    </div>
+                    {/* No analytics category: the site runs no analytics, so there is nothing to opt into. */}
 
                     {/* Marketing */}
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">

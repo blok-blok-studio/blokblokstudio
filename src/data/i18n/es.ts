@@ -1,6 +1,6 @@
 /**
  * es.ts, Spanish. Translated from en.ts; shape: see ./types.ts.
- * Keep every key; translate values only. Metric and stat values stay as in English.
+ * Keep every key; translate values only. Metric and stat values use Spanish number formatting (1.790, 5,0, 200 %).
  */
 import type { LocaleBundle } from './types';
 
@@ -16,22 +16,22 @@ export const es: LocaleBundle = {
       desc: 'Web de captación de clientes y sistema de crecimiento online para una empresa de fontanería de Dallas-Fort Worth.',
       challenge: 'Colton Staley lanzó Bronco Plumbing en Dallas-Fort Worth en 2026 como empresa de primer año gestionada por su propietario. Partía de cero: sin web, sin presencia online y sin forma de que los propietarios de DFW que buscaban un fontanero pudieran encontrarlo. En los oficios, quien aparece primero en Google con pruebas de un trabajo de calidad se lleva la llamada.',
       solution: 'Construimos una web orientada a la conversión en torno al propio Colton: el dueño atiende cada llamada, presupuestos honestos y reseñas reales de Google cargadas en vivo. Cada sección empuja hacia una llamada o una solicitud de presupuesto, con una barra de llamada fija en el móvil para quienes buscan en plena emergencia. El SEO local para búsquedas de fontanería en DFW se integró desde el primer día, y el canal de contacto alimenta directamente su flujo de trabajos.',
-      results: 'En sus primeros 5 meses, Colton generó más de $50,000 de ingresos brutos entre su trabajo de fontanería y el sistema online. La web mantiene una valoración de 5.0 estrellas en 52 reseñas de Google, ocupa una posición media de 5.2 en Google para sus términos de búsqueda y acumuló más de 8.000 impresiones de búsqueda en sus primeros 3 meses de seguimiento.',
+      results: 'En sus primeros 5 meses, Colton generó más de $50.000 de ingresos brutos entre su trabajo de fontanería y el sistema online. La web mantiene una valoración de 5,0 estrellas en 52 reseñas de Google, ocupa una posición media de 5,2 en Google para sus términos de búsqueda y acumuló más de 8.000 impresiones de búsqueda en sus primeros 3 meses de seguimiento.',
       metrics: [
         {
           value: '$50k',
           label: 'Ingresos brutos en los primeros 5 meses',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: 'Valoración en Google con 52 reseñas',
         },
         {
-          value: '5.2',
+          value: '5,2',
           label: 'Posición media en Google',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: 'Impresiones de búsqueda en 3 meses',
         },
       ],
@@ -40,10 +40,10 @@ export const es: LocaleBundle = {
       desc: 'Marca personal de alto rendimiento y plataforma de coaching con una identidad visual atrevida.',
       challenge: 'Coach Kofi necesitaba una web de marca personal a la altura de su contundente filosofía "Just Do The Work". Su presencia online anterior no reflejaba la energía ni la autoridad que aporta al coaching de movimiento, rendimiento y desarrollo.',
       solution: 'Diseñamos una web impactante en blanco y negro con tipografía atrevida, fotografía profesional integrada y un flujo de conversión claro de visitante a cliente de coaching. La web incluye reservas en tiempo real, contadores de prueba social (más de 150 clientes, más de 8.000 horas de entrenamiento) y un diseño responsive con enfoque mobile first.',
-      results: 'Una presencia de marca profesional que transmite autoridad al instante. El flujo de reservas simplificado aumentó las solicitudes de consulta un 200%, y el diseño atrevido se convirtió en un sello de la identidad de marca de Coach Kofi en todas las plataformas.',
+      results: 'Una presencia de marca profesional que transmite autoridad al instante. El flujo de reservas simplificado aumentó las solicitudes de consulta un 200 %, y el diseño atrevido se convirtió en un sello de la identidad de marca de Coach Kofi en todas las plataformas.',
       metrics: [
         {
-          value: '200%',
+          value: '200 %',
           label: 'Más solicitudes de consulta tras el lanzamiento',
         },
       ],
@@ -52,25 +52,25 @@ export const es: LocaleBundle = {
       desc: 'Plataforma de e-commerce vibrante para una marca de la comunidad de cartas coleccionables.',
       challenge: 'Exotic Ripz necesitaba una tienda online que captara la emoción y la energía de la comunidad de cartas coleccionables. Necesitaban una plataforma capaz de gestionar sobres, nuevos lanzamientos, reposiciones y la participación de la comunidad en Discord, Twitch y redes sociales.',
       solution: 'Construimos una tienda Shopify completa con una marca animada y atrevida, enlaces integrados a la comunidad de Discord, presencia social multiplataforma (Discord, YouTube, Twitch, TikTok, Instagram, X, Threads), categorización inteligente de productos y popups optimizados para la captación de emails.',
-      results: 'Más de $191,000 en ventas de cartas coleccionables en 1.790 pedidos en la tienda que construimos y entregamos, con el sistema de envíos configurado de principio a fin. La lista de correo creció un 400% el primer mes gracias a la captación inteligente con descuentos, y los drops de sobres se agotaban sistemáticamente en pocas horas. La tienda se devolvió a sus propietarios para que la gestionaran, y desde entonces la han retirado, por lo que no hay un enlace en vivo que compartir.',
+      results: 'Más de $191.000 en ventas de cartas coleccionables en 1.790 pedidos en la tienda que construimos y entregamos, con el sistema de envíos configurado de principio a fin. La lista de correo creció un 400 % el primer mes gracias a la captación inteligente con descuentos, y los drops de sobres se agotaban sistemáticamente en pocas horas. La tienda se devolvió a sus propietarios para que la gestionaran, y desde entonces la han retirado, por lo que no hay un enlace en vivo que compartir.',
       metrics: [
         {
           value: '$191k',
           label: 'Ventas a través de la tienda',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'Pedidos enviados',
         },
         {
-          value: '400%',
+          value: '400 %',
           label: 'Crecimiento de la lista de correo el primer mes',
         },
       ],
     },
     'kds-systems': {
-      desc: 'Plataforma moderna de soluciones en la nube para un proveedor de servicios IT gestionados y computación en la nube.',
-      challenge: 'KDS Systems Inc. necesitaba una presencia digital profesional que comunicara su experiencia en computación en la nube, Microsoft Office 365, soluciones de almacenamiento y aplicaciones alojadas. La web anterior no transmitía la escala ni la fiabilidad de sus servicios IT gestionados.',
+      desc: 'Plataforma moderna de soluciones en la nube para un proveedor de servicios de TI gestionados y computación en la nube.',
+      challenge: 'KDS Systems Inc. necesitaba una presencia digital profesional que comunicara su experiencia en computación en la nube, Microsoft Office 365, soluciones de almacenamiento y aplicaciones alojadas. La web anterior no transmitía la escala ni la fiabilidad de sus servicios de TI gestionados.',
       solution: 'Diseñamos una web moderna y elegante con una estética tecnológica oscura, acentos en verde intenso y una presentación clara de los servicios. La web incluye secciones de computación en la nube, almacenamiento y aplicaciones alojadas con iconografía visual, llamadas a la acción para reservar consultas y señales de confianza de nivel empresarial.',
       results: 'Una presencia de marca profesional que posiciona a KDS Systems como un socio de confianza en soluciones en la nube. El flujo de reserva de consultas simplificado y la comunicación clara de los servicios aumentaron de forma significativa los leads cualificados.',
     },
@@ -78,10 +78,10 @@ export const es: LocaleBundle = {
       desc: 'Identidad de marca sofisticada y experiencia web para una marca de estilo de vida premium.',
       challenge: 'Public Affair necesitaba una presencia digital que transmitiera lujo, sofisticación y exclusividad. La marca requería una experiencia de verificación de edad elegante que marcara el tono antes incluso de que los visitantes entraran en la web principal.',
       solution: 'Creamos una experiencia de marca elegante que empieza con una puerta de verificación de edad cuidadosamente diseñada, con tipografía caligráfica a medida y una rica paleta en azul marino y dorado. Cada punto de contacto se diseñó para sentirse premium, desde el monograma P.A. hasta los textos refinados que convierten la verificación en una invitación y no en una barrera.',
-      results: 'El reconocimiento de marca aumentó de forma significativa en los segmentos objetivo. La verificación de edad tiene una tasa de finalización superior al 95%. Los visitantes disfrutan de la experiencia de entrada en lugar de abandonar. El posicionamiento premium se tradujo en un mayor valor percibido y en pedidos medios más altos.',
+      results: 'El reconocimiento de marca aumentó de forma significativa en los segmentos objetivo. La verificación de edad tiene una tasa de finalización superior al 95 %. Los visitantes disfrutan de la experiencia de entrada en lugar de abandonar. El posicionamiento premium se tradujo en un mayor valor percibido y en pedidos medios más altos.',
       metrics: [
         {
-          value: '95%+',
+          value: '95 %+',
           label: 'Visitantes que completan la verificación de edad',
         },
       ],
@@ -94,8 +94,8 @@ export const es: LocaleBundle = {
     },
     'grant-parkhurst': {
       desc: 'Web de portafolio y portal de fotos autogestionado para clientes de un fotógrafo de Salt Lake City.',
-      challenge: 'Grant Parkhurst fotografía retratos, eventos y película en Salt Lake City. Necesitaba un solo lugar que mostrara su trabajo en sus proporciones naturales, listara las localidades que cubre, aceptara reservas y le permitiera entregar las galerías terminadas a sus clientes sin andar enviando enlaces de descarga por email.',
-      solution: 'Construimos una web donde manda la fotografía y ninguna imagen se recorta, con tarjetas de servicios, portadas de álbum alineadas en cada fila, una sección de cobertura y un flujo de reservas. Detrás hay un portal de clientes en /portal: Grant inicia sesión, crea galerías, las sube a su propio almacén de fotos y las comparte, y los clientes ven y descargan sus series.',
+      challenge: 'Grant Parkhurst fotografía retratos, eventos y fotografía analógica en Salt Lake City. Necesitaba un solo lugar que mostrara su trabajo en sus proporciones naturales, listara las localidades que cubre, aceptara reservas y le permitiera entregar las galerías terminadas a sus clientes sin andar enviando enlaces de descarga por email.',
+      solution: 'Construimos una web donde manda la fotografía y ninguna imagen se recorta, con tarjetas de servicios, portadas de álbum alineadas en cada fila, una sección de cobertura y un flujo de reservas. Detrás hay un portal de clientes en /portal: Grant inicia sesión, crea galerías, las sube a su propio almacenamiento de fotos y las comparte, y los clientes ven y descargan sus series.',
       results: 'La web y el portal se publicaron en agosto y septiembre de 2026, con Grant gestionando sus propias galerías desde el primer día. El dominio público ya no está en nuestro hosting, así que aquí no hay enlace en vivo; las capturas muestran la web tal y como la entregamos.',
     },
   },
@@ -106,11 +106,11 @@ export const es: LocaleBundle = {
 
 ## 1. Los tiempos de carga lentos matan las conversiones
 
-Cuando la BBC analizó su propio tráfico, descubrió que perdía un 10% adicional de usuarios por cada segundo extra que tardaba en cargar la web. La otra cara es igual de real: Vodafone mejoró su Largest Contentful Paint un 31% y las ventas subieron un 8%, y Rakuten 24 aumentó los ingresos por visitante un 53% tras superar los umbrales de Core Web Vitals. Los tres resultados están documentados en los casos de estudio de web.dev de Google (ver Fuentes más abajo).
+Cuando la BBC analizó su propio tráfico, descubrió que perdía un 10 % adicional de usuarios por cada segundo extra que tardaba en cargar la web. La otra cara es igual de real: Vodafone mejoró su Largest Contentful Paint un 31 % y las ventas subieron un 8 %, y Rakuten 24 aumentó los ingresos por visitante un 53 % tras superar los umbrales de Core Web Vitals. Los tres resultados están documentados en los estudios de caso de web.dev de Google (ver Fuentes más abajo).
 
-Los objetivos actuales de Google son concretos: contenido principal visible (LCP) en menos de 2,5 segundos, respuesta a toques y clics (INP) en menos de 200 milisegundos y desplazamiento de diseño (CLS) por debajo de 0,1, medidos en el percentil 75 de las visitas reales.
+Los objetivos actuales de Google son concretos: contenido principal visible (LCP) en menos de 2,5 segundos, respuesta a toques y clics (INP) en menos de 200 milisegundos y cambios de diseño (CLS) por debajo de 0,1, medidos en el percentil 75 de las visitas reales.
 
-**La solución:** comprime y redimensiona las imágenes (WebP o AVIF), sirve la web a través de una CDN, elimina el JavaScript que no usas y carga de forma diferida todo lo que quede por debajo del primer pantallazo. Un framework moderno como Next.js resuelve la mayor parte de esto de serie.
+**La solución:** comprime y redimensiona las imágenes (WebP o AVIF), sirve la web a través de una CDN, elimina el JavaScript que no usas y carga de forma diferida todo lo que quede por debajo de la primera pantalla. Un framework moderno como Next.js resuelve la mayor parte de esto de serie.
 
 ## 2. Sin una propuesta de valor clara
 
@@ -120,7 +120,7 @@ El Nielsen Norman Group, a partir de un análisis de más de 200 millones de vis
 
 ## 3. Mala experiencia en el móvil
 
-Google usa la versión móvil de tu web, rastreada con un agente de smartphone, para indexar y posicionar. Los datos de red de Cloudflare muestran que el 43% de todas las peticiones web vinieron de dispositivos móviles en 2025, frente al 41% del año anterior. Si tu web tiene zonas táctiles diminutas y texto ilegible en un teléfono, estás fallando tanto a Google como a una parte enorme de tu audiencia.
+Google usa la versión móvil de tu web, rastreada con un agente de smartphone, para indexar y posicionar. Los datos de red de Cloudflare muestran que el 43 % de todas las peticiones web vinieron de dispositivos móviles en 2025, frente al 41 % del año anterior. Si tu web tiene zonas táctiles diminutas y texto ilegible en un teléfono, estás fallando tanto a Google como a una parte enorme de tu audiencia.
 
 **La solución:** diseña primero para móvil y prueba en dispositivos reales. Las WCAG 2.2 fijan el mínimo de accesibilidad para las zonas táctiles en 24 por 24 píxeles CSS; tómalo como un mínimo y haz los botones principales bastante más grandes. Mantén el texto legible sin hacer zoom y la navegación al alcance del pulgar.
 
@@ -132,7 +132,7 @@ Si los visitantes no saben qué hacer a continuación, se van. Cada página nece
 
 ## 5. Sin señales de confianza
 
-El metaanálisis del Baymard Institute de 50 estudios sitúa el abandono medio del carrito en algo más del 70%. Entre las razones que tienen solución, el 19% de los compradores de EE. UU. dijo que no confiaba en la web para introducir los datos de su tarjeta, y el 17% abandonó por errores o caídas de la web. El Web Credibility Project de Stanford, basado en investigaciones con más de 4.500 participantes, concluyó que las personas juzgan la credibilidad de una web en gran medida por su diseño visual, y recomienda mostrar a las personas reales que hay detrás, una dirección física e información de contacto clara.
+El metaanálisis del Baymard Institute de 50 estudios sitúa el abandono medio del carrito en algo más del 70 %. Entre las razones que tienen solución, el 19 % de los compradores de EE. UU. dijo que no confiaba en la web para introducir los datos de su tarjeta, y el 17 % abandonó por errores o caídas de la web. El Web Credibility Project de Stanford, basado en investigaciones con más de 4.500 participantes, concluyó que las personas juzgan la credibilidad de una web en gran medida por su diseño visual, y recomienda mostrar a las personas reales que hay detrás, una dirección física e información de contacto clara.
 
 **La solución:** añade prueba social por toda la web, no solo en una página de testimonios. Muestra resultados reales, personas reales y cifras reales. Haz que tus datos de contacto sean fáciles de encontrar.
 
@@ -176,7 +176,7 @@ Reserva una llamada de estrategia gratuita con nuestro equipo y te mostraremos e
 
 ## Datos estructurados
 
-Los datos estructurados ayudan a Google a entender tu contenido y pueden darte resultados enriquecidos (desplegables de FAQ, valoraciones con estrellas, migas de pan). Los propios casos de estudio de Google demuestran que mueven cifras reales: Rotten Tomatoes midió un 25% más de clics en las páginas con datos estructurados, y Nestlé midió un 82% más de clics en las páginas que aparecen como resultados enriquecidos.
+Los datos estructurados ayudan a Google a entender tu contenido y pueden darte resultados enriquecidos (desplegables de FAQ, valoraciones con estrellas, migas de pan). Los propios estudios de caso de Google demuestran que mueven cifras reales: Rotten Tomatoes midió un 25 % más de clics en las páginas con datos estructurados, y Nestlé midió un 82 % más de clics en las páginas que aparecen como resultados enriquecidos.
 
 - **Schema Organization**: dile a Google quién eres.
 - **Schema LocalBusiness**: imprescindible para el SEO local.
@@ -212,7 +212,7 @@ Si prefieres no recorrer esta checklist por tu cuenta, reserva una llamada de es
     },
     'brand-identity-investment': {
       readTime: '5 min de lectura',
-      content: `La mayoría de las empresas tratan el branding como decoración. Las cifras dicen lo contrario. El ranking BrandZ de Kantar valora las 100 marcas más valiosas del mundo en 13,1 billones de dólares en conjunto en 2026, un 22% más en un solo año. La marca es un activo y, como cualquier activo, se capitaliza con el tiempo. Esto es lo que una identidad sólida hace de verdad por un negocio, y cómo saber si la tuya te está frenando.
+      content: `La mayoría de las empresas tratan el branding como decoración. Las cifras dicen lo contrario. El ranking BrandZ de Kantar valora las 100 marcas más valiosas del mundo en 13,1 billones de dólares en conjunto en 2026, un 22 % más en un solo año. La marca es un activo y, como cualquier activo, se capitaliza con el tiempo. Esto es lo que una identidad sólida hace de verdad por un negocio, y cómo saber si la tuya te está frenando.
 
 ## Qué es realmente la identidad de marca
 
@@ -226,7 +226,7 @@ Piensa en las marcas más valiosas del mundo. Las reconoces al instante, no solo
 
 **2. Precios premium.** Kantar mide la fortaleza de marca en parte como poder de fijación de precios: la capacidad de cobrar más que la competencia sin perder demanda. Ese poder explica en gran parte por qué el valor de las marcas más fuertes del mundo sigue subiendo mientras los competidores más débiles pelean por precio.
 
-**3. Fidelidad del cliente.** Harvard Business Review documentó qué ocurrió cuando las empresas invirtieron en la conexión emocional con sus clientes: un banco aumentó el uso de productos en su segmento objetivo un 70% y las nuevas cuentas un 40%, y una cadena de moda multiplicó por más de tres el crecimiento de ventas comparables. La gente no compra solo productos, compra marcas en las que cree.
+**3. Fidelidad del cliente.** Harvard Business Review documentó qué ocurrió cuando las empresas invirtieron en la conexión emocional con sus clientes: un banco aumentó el uso de productos en su segmento objetivo un 70 % y las nuevas cuentas un 40 %, y una cadena de moda multiplicó por más de tres el crecimiento de ventas comparables. La gente no compra solo productos, compra marcas en las que cree.
 
 **4. Eficiencia del marketing.** Cuando tu marca es clara y coherente, cada euro de marketing rinde más. La gente te recuerda. Te reconoce. Vuelve.
 
@@ -254,18 +254,18 @@ Si tu web actual no se parece al negocio que has construido de verdad, reserva u
   videos: {
     kofi: {
       name: 'Coach Kofi habla de trabajar con Blok Blok Studio',
-      description: 'Testimonio en vídeo de Coach Kofi, atleta de Nike y entrenador personal en Berlín, grabado en su gimnasio. Blok Blok Studio construyó coachkofi.de; las solicitudes de consulta subieron un 200% tras el lanzamiento.',
+      description: 'Testimonio en video de Coach Kofi, atleta de Nike y entrenador personal en Berlín, grabado en su gimnasio. Blok Blok Studio construyó coachkofi.de; las solicitudes de consulta subieron un 200 % tras el lanzamiento.',
       transcript: `He estado trabajando con Chase en mi web y el resultado ha sido una locura. Me dio ese toque de logo de Apple, de diseño de Apple. Las cosas aparecen con mucha suavidad. La web tiene un acabado muy fino.
 
 A mí personalmente me gustan las webs de una sola página. Lo decidimos así. La comunicación con él es muy fácil. Es un buen tipo, de verdad. Muy decidido.
 
 Y creo que necesitas a alguien que trabaje contigo en tu capa exterior de software. Necesitas a alguien que responda rápido, que sepa lo que hace y que se adapte a lo que necesitas.
 
-Así que sí, recomiendo de verdad a Chase, o a Blok Blok Studio. Trabajar con ellos me ayudó mucho. En serio. Dadles una oportunidad. Son muy buenos.`,
+Así que sí, recomiendo de verdad a Chase, o a Blok Blok Studio. Trabajar con ellos me ayudó mucho. En serio. Dales una oportunidad. Son muy buenos.`,
     },
     luki: {
       name: 'Coach Luki habla de trabajar con Blok Blok Studio',
-      description: 'Testimonio en vídeo de Coach Luki, entrenador personal en Berlín. Blok Blok Studio construyó coachluki.com, que gestiona sus reservas y pagos directamente en la web en lugar de por mensajes directos y facturas manuales.',
+      description: 'Testimonio en video de Coach Luki, entrenador personal en Berlín. Blok Blok Studio construyó coachluki.com, que gestiona sus reservas y pagos directamente en la web en lugar de por mensajes directos y facturas manuales.',
       transcript: `Soy entrenador personal en Berlín y di con Chase, o Blok Blok Studio, a través de un amigo que ya había trabajado con él. Así que tuve una llamada con él, hablamos de mis objetivos y de mi visión para la web, y sentí que me entendía desde el primer momento. Además había una conexión muy natural, lo que hizo que trabajar con Chase fuera mucho más relajado, eso seguro.
 
 Chase es, en general, una gran persona y tiene mucha paciencia contigo. Trabajamos juntos en una época en la que yo tenía muchas cosas encima a nivel personal, y él fue muy paciente conmigo, se aseguraba de que yo no perdiera el hilo y me guiaba por todo el proceso sin que me sintiera desbordado, y eso para mí fue uno de los grandes puntos a favor.
@@ -281,13 +281,13 @@ Así que si buscas a alguien que cuide de ti, que se fije en los detalles, que e
     founder: {
       name: 'Unas palabras del fundador de Blok Blok Studio',
       description: 'Chase Haynes explica dónde pierden clientes online los negocios de servicios sin darse cuenta y cómo lo soluciona Blok Blok Studio, en una grabación de pantalla sobre la web del estudio.',
-      transcript: `Me llamo Chase y soy el fundador de Blok Blok Studio. Puedo contarte todos los casos de estudio del mundo sobre nuestro negocio, pero si no me conoces como persona, no sirve de nada. Así que voy a presentarme.
+      transcript: `Me llamo Chase y soy el fundador de Blok Blok Studio. Puedo contarte todos los casos de éxito del mundo sobre nuestro negocio, pero si no me conoces como persona, no sirve de nada. Así que voy a presentarme.
 
 Me llamo Chase. Soy de San Diego, California. Crecí en buena parte por Estados Unidos y acabé en la costa este. Entré en el Cuerpo de Marines, estuve cinco años. Al salir me mudé a Nueva York para estudiar en Parsons School of Design. Me gradué con un Bachelor of Fine Arts en Diseño y Tecnología. Después fundé mi agencia, Blok Blok Studio, en junio de 2024. Y alrededor de un año más tarde me mudé a Berlín, Alemania.
 
 Desde entonces no hemos parado de hacer crecer el negocio. Va creciendo, todo va a más. Ahora somos un equipo de cuatro personas. Tengo a mi director creativo en Virginia, a mi estratega de marketing en Los Ángeles y a mi desarrollador full stack aquí en Berlín, Alemania. Ha sido un viaje increíble y aquí estamos cada día dándolo todo.
 
-Me encantaría trabajar contigo. Aquí abajo vas a ver varios casos de estudio. Vas a ver cuatro ejemplos del trabajo que hemos hecho. Repásalos, échales un vistazo. Si tienes preguntas, escríbeme por Instagram o por email, lo que te venga mejor.
+Me encantaría trabajar contigo. Aquí abajo vas a ver varios casos de éxito. Vas a ver cuatro ejemplos del trabajo que hemos hecho. Repásalos, échales un vistazo. Si tienes preguntas, escríbeme por Instagram o por email, lo que te venga mejor.
 
 Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega directamente a mí, lo reviso, hacemos una llamada y vemos si encaja. Si encaja, genial. Si no, no pasa nada. Pero tengo muchas ganas de conocerte, y que tengas un gran día. Hablamos pronto.`,
     },
@@ -305,7 +305,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
           label: 'Proyectos entregados',
         },
         {
-          value: '100%',
+          value: '100 %',
           label: 'Desarrollo a medida, sin plantillas',
         },
         {
@@ -329,7 +329,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
         },
         {
           title: 'Visible en la búsqueda con IA (AEO)',
-          desc: 'Cada vez más clientes preguntan a ChatGPT, Perplexity o la vista con IA de Google en lugar de buscar en Google como siempre. Integramos datos estructurados, formatos de respuesta y llms.txt para que tu web se cite en las respuestas de la IA.',
+          desc: 'Cada vez más clientes preguntan a ChatGPT, Perplexity o a las AI Overviews de Google en lugar de buscar en Google como siempre. Integramos datos estructurados, formatos de respuesta y llms.txt para que tu web se cite en las respuestas de la IA.',
         },
         {
           title: 'Atención desde Berlín',
@@ -341,7 +341,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
         name: 'Coach Luki, entrenador personal en Berlín',
         result: 'Reservas y pagos gestionados por completo a través de la web',
         body: 'Luke Satterly entrena a sus clientes en Holmes Place y John Reed. Su web acepta reservas y procesa pagos a través de Stripe, sin mensajes directos ni facturas a mano. Además, SEO local para términos como "personal trainer Berlín".',
-        linkLabel: 'Ver el caso de estudio',
+        linkLabel: 'Ver el caso de éxito',
       },
       faqHeading: 'Preguntas frecuentes',
       faqs: [
@@ -354,12 +354,12 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
           a: 'Una web de empresa típica está en línea en 2 a 4 semanas. Los proyectos más grandes, con sistema de reservas o tienda, tardan algo más. El calendario exacto lo fijamos antes de empezar.',
         },
         {
-          q: '¿Trabajáis solo con empresas de Berlín?',
+          q: '¿Trabajan solo con empresas de Berlín?',
           a: 'No. Estamos en Berlín y atendemos a los clientes locales en persona, pero trabajamos con empresas de todo el mundo, entre otros en Estados Unidos.',
         },
         {
           q: '¿Por qué no una web hecha con IA o un constructor como Wix?',
-          a: 'Los constructores con IA entregan en minutos una web que se parece a otras mil, carga lento y no se encuentra de forma fiable ni en Google ni en la búsqueda con IA. Una web desarrollada a medida cuesta más, pero a cambio consigue clientes de forma medible. Nuestros casos de estudio muestran las cifras.',
+          a: 'Los constructores con IA entregan en minutos una web que se parece a otras mil, carga lento y no se encuentra de forma fiable ni en Google ni en la búsqueda con IA. Una web desarrollada a medida cuesta más, pero a cambio consigue clientes de forma medible. Nuestros casos de éxito muestran las cifras.',
         },
         {
           q: '¿Por qué Next.js en lugar de WordPress o Wix?',
@@ -382,11 +382,11 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
           label: 'Ingresos generados por nuestro cliente de fontanería en sus primeros 5 meses',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: 'Estrellas en 52 reseñas de Google, cargadas en vivo en la web',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: 'Impresiones de búsqueda en Google en los primeros 3 meses de seguimiento',
         },
       ],
@@ -414,11 +414,11 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
         },
       ],
       caseStudy: {
-        heading: 'Caso de estudio',
+        heading: 'Caso de éxito',
         name: 'Bronco Plumbing, Dallas-Fort Worth',
-        result: '$50,000 de ingresos brutos en los primeros 5 meses de actividad',
-        body: 'Colton Staley lanzó Bronco Plumbing sin web y sin presencia online. Construimos una web orientada a la conversión en torno a él: el dueño atiende cada llamada, presupuestos honestos, reseñas de Google en vivo y una barra de llamada fija para las búsquedas en plena emergencia. La web ocupa una posición media de 5.2 para sus términos de búsqueda.',
-        linkLabel: 'Leer el caso de estudio completo',
+        result: '$50.000 de ingresos brutos en los primeros 5 meses de actividad',
+        body: 'Colton Staley lanzó Bronco Plumbing sin web y sin presencia online. Construimos una web orientada a la conversión en torno a él: el dueño atiende cada llamada, presupuestos honestos, reseñas de Google en vivo y una barra de llamada fija para las búsquedas en plena emergencia. La web ocupa una posición media de 5,2 para sus términos de búsqueda.',
+        linkLabel: 'Leer el caso de éxito completo',
       },
       faqHeading: 'Preguntas frecuentes',
       faqs: [
@@ -431,7 +431,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
           a: 'La web en sí suele estar en línea en 2 a 4 semanas. El SEO local se acumula durante los meses siguientes; nuestro cliente de fontanería registró más de 8.000 impresiones de búsqueda en sus primeros 3 meses de seguimiento.',
         },
         {
-          q: '¿Trabajáis con otros oficios además de la fontanería?',
+          q: '¿Trabajan con otros oficios además de la fontanería?',
           a: 'Sí. El mismo método funciona para electricistas, climatización, tejados y cualquier negocio de servicios para el hogar donde los clientes buscan en su zona y llaman: SEO local, reseñas en vivo y una web construida alrededor de la llamada.',
         },
         {
@@ -439,7 +439,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
           a: 'Los constructores con IA producen una web genérica en minutos, pero no pueden hacer lo que consigue trabajos de fontanería: SEO local por zona de servicio, reseñas de Google en vivo, un diseño móvil centrado en la llamada y leads conectados a tu flujo de trabajo. Nuestro cliente de fontanería generó $50k en 5 meses con una web construida para su mercado, no a partir de una plantilla.',
         },
         {
-          q: '¿Podéis conectar la web con mis herramientas actuales?',
+          q: '¿Pueden conectar la web con mis herramientas actuales?',
           a: 'Sí. Los formularios de contacto pueden alimentar tu CRM, tu software de gestión de trabajos o un pipeline sencillo que configuramos para ti. Nuestro desarrollo para Bronco envía los leads directamente al flujo de trabajos del propietario.',
         },
       ],
@@ -455,7 +455,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
       intro: 'Perseguir leads por mensajes directos y enviar facturas a mano limita cuántos clientes puedes aceptar. Construimos webs para entrenadores personales y coaches donde los visitantes reservan sesiones y pagan directamente en la web, para que tu agenda se llene sola.',
       stats: [
         {
-          value: '200%',
+          value: '200 %',
           label: 'Aumento de las solicitudes de consulta tras el lanzamiento (Coach Kofi)',
         },
         {
@@ -471,7 +471,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
       features: [
         {
           title: 'Reservas y pagos en la web',
-          desc: 'Los clientes eligen un hueco y pagan en un solo flujo a través de Stripe. Sin idas y venidas por mensajes directos, sin perseguir pagos y sin ausencias por reservas sin confirmar.',
+          desc: 'Los clientes eligen un horario y pagan en un solo flujo a través de Stripe. Sin idas y venidas por mensajes directos, sin perseguir pagos y sin ausencias por reservas sin confirmar.',
         },
         {
           title: 'Una página que vende tu método',
@@ -487,15 +487,15 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
         },
         {
           title: 'Prueba social que se acumula',
-          desc: 'Número de clientes, resultados de transformación, testimonios en vídeo. Las cifras reales en la página hacen la venta que no deberías tener que hacer por mensajes directos.',
+          desc: 'Número de clientes, resultados de transformación, testimonios en video. Las cifras reales en la página hacen la venta que no deberías tener que hacer por mensajes directos.',
         },
       ],
       caseStudy: {
-        heading: 'Caso de estudio',
+        heading: 'Caso de éxito',
         name: 'Coach Luki, Berlín',
         result: 'Reservas y pagos directamente a través de la web',
         body: '"Construyeron toda mi web desde cero y ahora los clientes reservan y pagan directamente en ella. Antes perdía horas con mensajes directos y facturas." Luke Satterly entrena a sus clientes en Holmes Place y John Reed, en Berlín. Su web gestiona las reservas, los pagos con Stripe y el SEO local para búsquedas como "personal trainer Berlín".',
-        linkLabel: 'Leer el caso de estudio completo',
+        linkLabel: 'Leer el caso de éxito completo',
       },
       faqHeading: 'Preguntas frecuentes',
       faqs: [
@@ -509,14 +509,14 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
         },
         {
           q: 'Consigo la mayoría de mis clientes por Instagram. ¿Sigo necesitando una web?',
-          a: 'Instagram genera atención; la web la convierte. Un enlace en la bio que lleva a una página con pruebas, precios y reserva inmediata cierra clientes que los mensajes directos pierden. Las solicitudes de consulta de Coach Kofi subieron más de un 200% tras el lanzamiento.',
+          a: 'Instagram genera atención; la web la convierte. Un enlace en la bio que lleva a una página con pruebas, precios y reserva inmediata cierra clientes que los mensajes directos pierden. Las solicitudes de consulta de Coach Kofi subieron más de un 200 % tras el lanzamiento.',
         },
         {
           q: '¿Por qué no usar simplemente un constructor de webs con IA?',
           a: 'Un constructor con IA puede describir tu coaching. No puede aceptar una reserva, procesar un pago con Stripe ni posicionar para "entrenador personal" en tu ciudad. La web se paga sola cuando consigue clientes mientras tú entrenas, y eso requiere ingeniería de verdad, no una plantilla generada.',
         },
         {
-          q: '¿Solo trabajáis con coaches de fitness?',
+          q: '¿Solo trabajan con coaches de fitness?',
           a: 'No. La misma estructura funciona para cualquier coach o consultor que trabaje con sesiones reservadas: nutrición, rendimiento, coaching empresarial. Si tu negocio funciona con llamadas reservadas, este es el método.',
         },
       ],
@@ -536,11 +536,11 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
           label: 'Ventas en la tienda de cartas coleccionables que construimos y entregamos',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'Pedidos a través de esa tienda',
         },
         {
-          value: '400%',
+          value: '400 %',
           label: 'Crecimiento de la lista de correo el primer mes gracias a la captación inteligente',
         },
       ],
@@ -552,7 +552,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
         },
         {
           title: 'Captación de emails que hace crecer la lista de verdad',
-          desc: 'Captación de descuento a cambio de email colocada donde convierte. La lista de nuestro cliente creció un 400% el primer mes, y el email es el canal que te pertenece.',
+          desc: 'Captación de descuento a cambio de email colocada donde convierte. La lista de nuestro cliente creció un 400 % el primer mes, y el email es el canal que te pertenece.',
         },
         {
           title: 'Drops, reposiciones y comunidad',
@@ -568,16 +568,16 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
         },
       ],
       caseStudy: {
-        heading: 'Caso de estudio',
+        heading: 'Caso de éxito',
         name: 'Exotic Ripz, cartas coleccionables',
-        result: '$191,042 en ventas en 1.790 pedidos',
+        result: '$191.042 en ventas en 1.790 pedidos',
         body: 'Una tienda Shopify completa para una marca de la comunidad de cartas coleccionables: marca animada y atrevida, integración con Discord y redes multiplataforma, categorización inteligente de productos y captación de emails optimizada para la conversión. Los drops de sobres se agotaban sistemáticamente en pocas horas, y el sistema de envíos se configuró de principio a fin.',
-        linkLabel: 'Leer el caso de estudio completo',
+        linkLabel: 'Leer el caso de éxito completo',
       },
       faqHeading: 'Preguntas frecuentes',
       faqs: [
         {
-          q: '¿Construís en Shopify o a medida?',
+          q: '¿Construyen en Shopify o a medida?',
           a: 'Ambos. Shopify es la opción adecuada para la mayoría de los negocios de producto; las tiendas totalmente a medida en Next.js tienen sentido para catálogos poco habituales, suscripciones o cuando las comisiones de la plataforma superan la comodidad. Recomendamos según tus cifras.',
         },
         {
@@ -585,7 +585,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
           a: 'Se presupuesta según su alcance tras una llamada gratuita de 15 minutos, con un precio fijo y entregables definidos antes de empezar. El tamaño de la tienda, las integraciones y las necesidades de migración determinan la cifra.',
         },
         {
-          q: '¿Podéis migrar mi tienda actual?',
+          q: '¿Pueden migrar mi tienda actual?',
           a: 'Sí. Los productos, los clientes y el historial de pedidos se pueden migrar desde la mayoría de las plataformas. Planificamos la migración para que la tienda nunca se quede fuera de servicio durante el cambio.',
         },
         {
@@ -593,7 +593,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
           a: 'Las tiendas generadas se ven bien y convierten mal, porque la conversión vive en los detalles: dónde se coloca la captación, la mecánica de los drops, la fricción del checkout, el schema de producto para la búsqueda con IA. La tienda de $191k que construimos agotaba sus drops en horas porque cada uno de esos detalles se diseñó con ingeniería, no se generó.',
         },
         {
-          q: '¿También configuráis envíos y pagos?',
+          q: '¿También configuran envíos y pagos?',
           a: 'Sí. El desarrollo de Exotic Ripz incluyó el sistema de envíos configurado de principio a fin, además de pagos, impuestos y las piezas operativas que la mayoría de los diseñadores te dejan a ti.',
         },
       ],

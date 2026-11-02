@@ -7,16 +7,16 @@ import type { LocaleBundle } from './types';
 export const nl: LocaleBundle = {
   projects: {
     'coach-luki': {
-      desc: `Conversiegerichte personal-trainingwebsite voor de toonaangevende veganistische personal trainer van Berlijn.`,
+      desc: `Conversiegerichte website voor de toonaangevende veganistische personal trainer van Berlijn.`,
       challenge: `Luke Satterly (Coach Luki) is een van de meest toegewijde personal trainers van Berlijn. Als veganistische atleet die klanten traint bij Holmes Place en John Reed had hij een site nodig die bij zijn energie paste: gedurfd, resultaatgericht en gebouwd om te converteren. Het doel was simpel. Iemand komt op de site, begrijpt precies wat Luki doet, ziet het bewijs en plant een gesprek. Geen ruis. Geen verwarring. Alleen resultaat.`,
       solution: `We ontwierpen een website met conversie voorop, waar elke sectie naar één doel leidt: een gratis kennismaking boeken. Dankzij de Stripe-integratie kopen klanten sessiepakketten rechtstreeks, zonder enige wrijving. Lokale SEO voor Berlijn zat er vanaf dag één in, gericht op zoekopdrachten als "personal trainer Berlin" en "vegan fitness coach Berlin".`,
-      results: `Een volledig op conversie geoptimaliseerde personal-trainingsite, live in Berlijn, gebouwd, ontworpen en uitgerold door BlokBlok Studio. Klanten boeken en betalen nu rechtstreeks via de site, zonder DM's en facturen. De lokale SEO-positionering zorgt voor organisch verkeer van zoekers uit Berlijn.`,
+      results: `Een volledig op conversie geoptimaliseerde personal-trainingsite, live in Berlijn, gebouwd, ontworpen en uitgerold door Blok Blok Studio. Klanten boeken en betalen nu rechtstreeks via de site, zonder DM's en facturen. De lokale SEO-positionering zorgt voor organisch verkeer van zoekers uit Berlijn.`,
     },
     'bronco-plumbing': {
       desc: `Leadgenererende website en online groeisysteem voor een loodgietersbedrijf in Dallas-Fort Worth.`,
-      challenge: `Colton Staley startte Bronco Plumbing in 2026 in Dallas-Fort Worth als eerstejaars eenmanszaak. Vanaf nul: geen website, geen online aanwezigheid, geen manier voor huiseigenaren in DFW die een loodgieter zochten om hem te vinden. In de bouw en techniek krijgt wie als eerste op Google verschijnt met bewijs van vakwerk het telefoontje.`,
+      challenge: `Colton Staley startte Bronco Plumbing in 2026 in Dallas-Fort Worth als eerstejaars eenmanszaak. Vanaf nul: geen website, geen online aanwezigheid, geen manier voor huiseigenaren in DFW die een loodgieter zochten om hem te vinden. In de installatiebranche krijgt wie als eerste op Google verschijnt met bewijs van vakwerk het telefoontje.`,
       solution: `We bouwden een conversiegerichte website rond Colton zelf: de eigenaar op elke klus, eerlijke offertes, echte Google-reviews live ingeladen. Elke sectie stuurt aan op een telefoontje of een offerteaanvraag, met een vaste mobiele belbalk voor huiseigenaren die midden in een noodgeval zoeken. Lokale SEO voor loodgieterszoekopdrachten in DFW zat er vanaf dag één in, en de contactpipeline loopt rechtstreeks zijn klussenworkflow in.`,
-      results: `In zijn eerste 5 maanden haalde Colton meer dan $50,000 bruto-omzet uit zijn loodgieterswerk en het online systeem samen. De site heeft een score van 5.0 sterren over 52 Google-reviews, staat gemiddeld op positie 5.2 in Google voor zijn zoektermen en behaalde 8.000+ zoekvertoningen in de eerste 3 maanden van meting.`,
+      results: `In zijn eerste 5 maanden haalde Colton meer dan $50.000 bruto-omzet uit zijn loodgieterswerk en het online systeem samen. De site heeft een score van 5,0 sterren over 52 Google-reviews, staat gemiddeld op positie 5,2 in Google voor zijn zoektermen en behaalde 8.000+ zoekvertoningen in de eerste 3 maanden van meting.`,
       metrics: [
         {
           value: '$50k',
@@ -52,7 +52,7 @@ export const nl: LocaleBundle = {
       desc: `Levendig e-commerceplatform voor een communitymerk rond verzamelbare ruilkaarten.`,
       challenge: `Exotic Ripz had een webshop nodig die de spanning en energie van de ruilkaartencommunity vastlegde. Ze zochten een platform dat boosterpacks, nieuwe releases, restocks en communitybetrokkenheid op Discord, Twitch en social media aankon.`,
       solution: `We bouwden een complete Shopify-webshop met gedurfde geanimeerde branding, geïntegreerde Discord-communitylinks, aanwezigheid op meerdere platforms (Discord, YouTube, Twitch, TikTok, Instagram, X, Threads), slimme productcategorisering en conversiegeoptimaliseerde pop-ups voor e-mailcapture.`,
-      results: `Meer dan $191,000 aan ruilkaartverkopen uit 1.790 bestellingen in de webshop die wij bouwden en opleverden, met de verzendbackend van begin tot eind ingericht. De e-maillijst groeide in de eerste maand met 400% dankzij slimme kortingscapture, en boosterpack-drops waren steevast binnen enkele uren na release uitverkocht. De shop is aan de eigenaren overgedragen om zelf te beheren en zij hebben de site inmiddels offline gehaald, dus er is geen live link om te delen.`,
+      results: `Meer dan $191.000 aan ruilkaartverkopen uit 1.790 bestellingen in de webshop die wij bouwden en opleverden, met de verzendbackend van begin tot eind ingericht. De e-maillijst groeide in de eerste maand met 400% dankzij slimme kortingscapture, en boosterpack-drops waren steevast binnen enkele uren na release uitverkocht. De shop is aan de eigenaren overgedragen om zelf te beheren en zij hebben de site inmiddels offline gehaald, dus er is geen live link om te delen.`,
       metrics: [
         {
           value: '$191k',
@@ -76,13 +76,13 @@ export const nl: LocaleBundle = {
     },
     'public-affair': {
       desc: `Verfijnde merkidentiteit en webervaring voor een premium lifestylemerk.`,
-      challenge: `Public Affair had een digitale aanwezigheid nodig die luxe, verfijning en exclusiviteit uitstraalde. Het merk vroeg om een elegante leeftijdsverificatie die de toon zette nog voordat bezoekers de hoofdsite binnenkwamen.`,
-      solution: `We creëerden een elegante merkervaring die begint met een prachtig ontworpen age gate met custom scripttypografie en een rijk marineblauw-en-goud kleurenpalet. Elk contactmoment is ontworpen om premium aan te voelen, van het P.A.-monogram tot de verfijnde tekst die de verificatie laat voelen als een uitnodiging in plaats van een drempel.`,
-      results: `De merkherkenning nam aanzienlijk toe binnen de doelgroepen. De age gate heeft een voltooiingspercentage van 95%+. Bezoekers genieten van de entree in plaats van af te haken. De premium positionering leidde tot een hogere gepercipieerde waarde en hogere gemiddelde orderwaardes.`,
+      challenge: `Public Affair had een digitale aanwezigheid nodig die luxe, verfijning en exclusiviteit uitstraalde. Het merk vroeg om een elegante leeftijdscheck die de toon zette nog voordat bezoekers de hoofdsite binnenkwamen.`,
+      solution: `We creëerden een elegante merkervaring die begint met een prachtig ontworpen leeftijdscheck met scripttypografie op maat en een rijk marineblauw-en-goud kleurenpalet. Elk contactmoment is ontworpen om premium aan te voelen, van het P.A.-monogram tot de verfijnde tekst die de verificatie laat voelen als een uitnodiging in plaats van een drempel.`,
+      results: `De merkherkenning nam aanzienlijk toe binnen de doelgroepen. De leeftijdscheck heeft een voltooiingspercentage van 95%+. Bezoekers genieten van de entree in plaats van af te haken. De premium positionering leidde tot een hogere gepercipieerde waarde en hogere gemiddelde orderwaardes.`,
       metrics: [
         {
           value: '95%+',
-          label: 'Bezoekers die de age gate afronden',
+          label: 'Bezoekers die de leeftijdscheck afronden',
         },
       ],
     },
@@ -94,7 +94,7 @@ export const nl: LocaleBundle = {
     },
     'grant-parkhurst': {
       desc: `Portfoliosite en selfservice fotoportaal voor klanten van een fotograaf in Salt Lake City.`,
-      challenge: `Grant Parkhurst fotografeert portretten, evenementen en op film in Salt Lake City. Hij had één plek nodig die zijn werk in de natuurlijke verhoudingen toonde, de plaatsen opsomde waar hij werkt, boekingen aannam en hem afgeronde galerijen aan klanten liet overhandigen zonder downloadlinks rond te mailen.`,
+      challenge: `Grant Parkhurst fotografeert portretten en evenementen in Salt Lake City, ook analoog op film. Hij had één plek nodig die zijn werk in de natuurlijke verhoudingen toonde, de plaatsen opsomde waar hij werkt, boekingen aannam en hem afgeronde galerijen aan klanten liet overhandigen zonder downloadlinks rond te mailen.`,
       solution: `We bouwden een site waar fotografie vooropstaat en geen enkele foto wordt bijgesneden, met dienstkaarten, albumcovers die netjes op één lijn blijven, een sectie over werkgebied en een boekingsflow. Daarachter zit een klantenportaal op /portal: Grant logt in, maakt galerijen aan, uploadt naar zijn eigen fotoarchief en deelt ze, en klanten bekijken en downloaden hun sets.`,
       results: `De site en het portaal gingen live in augustus en september 2026, waarbij Grant vanaf dag één zijn eigen galerijen beheerde. Het publieke domein is inmiddels van onze hosting verhuisd, dus er staat hier geen live link; de screenshots tonen de site zoals wij hem opleverden.`,
     },
@@ -108,7 +108,7 @@ export const nl: LocaleBundle = {
 
 Toen de BBC haar eigen verkeer onderzocht, bleek dat ze voor elke extra seconde laadtijd nog eens 10% van de gebruikers verloor. De keerzijde is net zo echt: Vodafone verbeterde zijn Largest Contentful Paint met 31% en de verkoop steeg met 8%, en Rakuten 24 zag de omzet per bezoeker met 53% groeien nadat het de drempels van Core Web Vitals haalde. Alle drie de resultaten zijn gedocumenteerd in de web.dev-casestudies van Google (zie Bronnen hieronder).
 
-De huidige doelen van Google zijn concreet: hoofdinhoud zichtbaar (LCP) binnen 2,5 seconden, reactie op tikken en klikken (INP) binnen 200 milliseconden en layoutverschuiving (CLS) onder 0,1, gemeten op het 75e percentiel van echte bezoeken.
+De huidige doelen van Google zijn concreet: hoofdinhoud zichtbaar (LCP) binnen 2,5 seconden, reactie op tikken en klikken (INP) binnen 200 milliseconden en lay-outverschuiving (CLS) onder 0,1, gemeten op het 75e percentiel van echte bezoeken.
 
 **De oplossing:** Comprimeer en verklein afbeeldingen (WebP of AVIF), serveer je site via een CDN, schrap ongebruikte JavaScript en lazy-load alles onder de vouw. Een modern framework als Next.js regelt het meeste hiervan standaard.
 
@@ -212,7 +212,7 @@ Wil je deze checklist liever niet alleen doorlopen, plan dan een gratis strategi
     },
     'brand-identity-investment': {
       readTime: '5 min leestijd',
-      content: `De meeste bedrijven zien branding als decoratie. De cijfers zeggen iets anders. De BrandZ-ranglijst van Kantar waardeert de 100 waardevolste merken ter wereld in 2026 samen op 13,1 biljoen dollar, een stijging van 22% in één jaar. Een merk is een bezit, en net als elk bezit groeit het met rente op rente. Dit is wat een sterke identiteit werkelijk doet voor een bedrijf, en hoe je merkt dat de jouwe je tegenhoudt.
+      content: `De meeste bedrijven zien branding als decoratie. De cijfers zeggen iets anders. De BrandZ-ranglijst van Kantar waardeert de 100 waardevolste merken ter wereld in 2026 samen op 13,1 biljoen dollar, een stijging van 22% in één jaar. Een merk is een bezit, en net als elk bezit bouwt het waarde op. Dit is wat een sterke identiteit werkelijk doet voor een bedrijf, en hoe je merkt dat de jouwe je tegenhoudt.
 
 ## Wat merkidentiteit eigenlijk is
 
@@ -226,7 +226,7 @@ Denk aan de waardevolste merken ter wereld. Je herkent ze meteen, niet alleen aa
 
 **2. Premium prijzen.** Kantar meet merkkracht deels als prijszettingsmacht: het vermogen om meer te vragen dan concurrenten zonder vraag te verliezen. Die prijszettingsmacht is een groot deel van de reden waarom de waarde van de sterkste merken ter wereld blijft stijgen terwijl zwakkere concurrenten op prijs vechten.
 
-**3. Klantloyaliteit.** Harvard Business Review documenteerde wat er gebeurde toen bedrijven investeerden in emotionele binding met klanten: één bank zag het productgebruik in haar doelsegment met 70% groeien en het aantal nieuwe rekeningen met 40%, en een kledingretailer zag de groei van de omzet per winkel meer dan verdrievoudigen. Mensen kopen niet zomaar producten, ze kopen in op merken.
+**3. Klantloyaliteit.** Harvard Business Review documenteerde wat er gebeurde toen bedrijven investeerden in emotionele binding met klanten: één bank zag het productgebruik in haar doelsegment met 70% groeien en het aantal nieuwe rekeningen met 40%, en een kledingretailer zag de groei van de omzet per winkel meer dan verdrievoudigen. Mensen kopen niet zomaar producten, ze kopen een merk.
 
 **4. Marketingefficiëntie.** Als je merk helder en consistent is, werkt elke marketingeuro harder. Mensen onthouden je. Ze herkennen je. Ze komen terug.
 
@@ -285,7 +285,7 @@ Dus als je iemand zoekt die voor je zorgt, die op de details let, die er voor je
 
 Mijn naam is Chase. Ik kom uit San Diego, Californië. Ik ben grotendeels opgegroeid in de VS en belandde aan de oostkust. Ik ging bij de Marine Corps, daar heb ik vijf jaar gezeten. Daarna ben ik eruit gestapt en naar New York verhuisd, naar Parsons School of Design. Ik haalde mijn diploma, een Bachelor of Fine Arts in Design and Technology. Daarna richtte ik mijn bureau op, Blok Blok Studio, in juni 2024. En ongeveer een jaar later verhuisde ik naar Berlijn, Duitsland.
 
-Vanaf dat moment zijn we het bedrijf gewoon aan het opschalen. Het groeit, alles trekt aan. We hebben nu een team van vier mensen. Mijn creative director zit in Virginia, mijn marketingstrateeg in L.A. en mijn full stack developer hier in Berlijn, Duitsland. Het is een geweldige rit geweest, en we staan hier elke dag weer.
+Vanaf dat moment zijn we het bedrijf gewoon aan het opschalen. Het groeit, alles trekt aan. We hebben nu een team van vier mensen. Mijn creative director zit in Virginia, mijn marketingstrateeg in L.A. en mijn full stack developer hier in Berlijn, Duitsland. Het is een geweldige rit geweest, en we gaan er elke dag vol voor.
 
 Ik zou graag met je samenwerken. Hieronder zie je een reeks casestudies. Je ziet vier voorbeelden van het werk dat we hebben gedaan. Loop erdoorheen, bekijk het. Heb je vragen, laat het me weten via Instagram of e-mail, wat jij het fijnst vindt.
 
@@ -416,8 +416,8 @@ Daaronder staat een leadformulier. Vul gewoon al je gegevens in. Het komt rechts
       caseStudy: {
         heading: `Casestudy`,
         name: `Bronco Plumbing, Dallas-Fort Worth`,
-        result: `$50,000 bruto-omzet in de eerste 5 maanden van het bedrijf`,
-        body: `Colton Staley startte Bronco Plumbing zonder website en zonder online aanwezigheid. We bouwden een conversiegerichte site rond hem: de eigenaar op elke klus, eerlijke offertes, live Google-reviews en een vaste belbalk voor zoekopdrachten midden in een noodgeval. De site staat gemiddeld op positie 5.2 voor zijn zoektermen.`,
+        result: `$50.000 bruto-omzet in de eerste 5 maanden van het bedrijf`,
+        body: `Colton Staley startte Bronco Plumbing zonder website en zonder online aanwezigheid. We bouwden een conversiegerichte site rond hem: de eigenaar op elke klus, eerlijke offertes, live Google-reviews en een vaste belbalk voor zoekopdrachten midden in een noodgeval. De site staat gemiddeld op positie 5,2 voor zijn zoektermen.`,
         linkLabel: `Lees de volledige casestudy`,
       },
       faqHeading: `Veelgestelde vragen`,
@@ -570,7 +570,7 @@ Daaronder staat een leadformulier. Vul gewoon al je gegevens in. Het komt rechts
       caseStudy: {
         heading: `Casestudy`,
         name: `Exotic Ripz, verzamelbare ruilkaarten`,
-        result: `$191,042 omzet uit 1.790 bestellingen`,
+        result: `$191.042 omzet uit 1.790 bestellingen`,
         body: `Een complete Shopify-webshop voor een communitymerk rond ruilkaarten: gedurfde geanimeerde branding, integratie met Discord en meerdere socialplatforms, slimme productcategorisering en conversiegeoptimaliseerde e-mailcapture. Boosterpack-drops waren steevast binnen enkele uren na release uitverkocht, en de verzendbackend werd van begin tot eind ingericht.`,
         linkLabel: `Lees de volledige casestudy`,
       },
@@ -602,5 +602,5 @@ Daaronder staat een leadformulier. Vul gewoon al je gegevens in. Het komt rechts
       ctaButton: `Plan een gratis gesprek`,
     },
   },
-  consent: `Ja, Blok Blok Studio mag mij praktische groeitips en af en toe aanbiedingen e-mailen. We sturen één e-mail ter bevestiging, en je bent pas ingeschreven zodra je op de link daarin klikt. Afmelden kan altijd.`,
+  consent: `Ja, Blok Blok Studio mag mij praktische groeitips en af en toe aanbiedingen e-mailen. We sturen één e-mail ter bevestiging, en je bent pas ingeschreven zodra je op de link daarin klikt. Uitschrijven kan altijd.`,
 };

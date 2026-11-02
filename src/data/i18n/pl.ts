@@ -136,9 +136,9 @@ Metaanaliza 50 badań Baymard Institute podaje średni wskaźnik porzucania kosz
 
 **Rozwiązanie:** Dodaj dowody społeczne na całej stronie, nie tylko w osobnej zakładce z opiniami. Pokazuj prawdziwe wyniki, prawdziwych ludzi i prawdziwe liczby. Zadbaj, by dane kontaktowe były łatwe do znalezienia.
 
-## Gotowy naprawić swoją stronę?
+## Chcesz naprawić swoją stronę?
 
-Jeśli którykolwiek z tych problemów brzmi znajomo, nie jesteś sam. Większość firmowych stron cierpi na co najmniej dwa lub trzy z nich. Dobra wiadomość? Wszystkie da się naprawić.
+Jeśli którykolwiek z tych problemów brzmi znajomo, nie jesteś wyjątkiem. Większość firmowych stron cierpi na co najmniej dwa lub trzy z nich. Dobra wiadomość? Wszystkie da się naprawić.
 
 Umów bezpłatną rozmowę strategiczną z naszym zespołem, a pokażemy Ci dokładnie, co hamuje Twoją stronę i jak zamienić ją w silnik wzrostu.
 
@@ -241,7 +241,7 @@ Pomyśl o najcenniejszych markach świata. Rozpoznajesz je natychmiast, nie tylk
 
 Nie potrzebujesz budżetu z listy Fortune 500, żeby wykorzystać te badania. Dla większości firm miejscem, w którym tożsamość marki spotyka klientów, jest strona internetowa. To tam dzieje się pierwsze wrażenie w 50 milisekund, tam oceniana jest wiarygodność i tam niespójna identyfikacja po cichu kosztuje Cię zapytania.
 
-Jeśli Twoja obecna strona nie wygląda jak firma, którą naprawdę zbudowałeś, umów bezpłatną rozmowę strategiczną, a pokażemy, jak mogłaby wyglądać strona, która zdobywa to zaufanie.
+Jeśli Twoja obecna strona nie wygląda jak firma, którą naprawdę prowadzisz, umów bezpłatną rozmowę strategiczną, a pokażemy, jak mogłaby wyglądać strona, która zdobywa to zaufanie.
 
 ## Źródła
 
@@ -254,7 +254,7 @@ Jeśli Twoja obecna strona nie wygląda jak firma, którą naprawdę zbudowałe�
   videos: {
     kofi: {
       name: 'Coach Kofi o współpracy z Blok Blok Studio',
-      description: 'Wideo-referencja od Coacha Kofiego, sportowca Nike i trenera personalnego w Berlinie, nagrana w jego siłowni. Blok Blok Studio zbudowało coachkofi.de; zapytania o konsultacje wzrosły o 200% po starcie.',
+      description: 'Referencja wideo od Coacha Kofiego, sportowca Nike i trenera personalnego w Berlinie, nagrana w jego siłowni. Blok Blok Studio zbudowało coachkofi.de; zapytania o konsultacje wzrosły o 200% po starcie.',
       transcript: `Pracowałem z Chase'em nad moją stroną i wyszło zupełnie niesamowicie. Dał mi to logo w stylu Apple, ten design w stylu Apple. Elementy wyskakują naprawdę ładnie. Strona ma gładkie wykończenie.
 
 Osobiście lubię strony jednostronicowe. Na to się zdecydowaliśmy. Komunikacja z nim jest naprawdę łatwa. To dobry człowiek, serio. Bardzo zdeterminowany.
@@ -265,7 +265,7 @@ Tak, więc naprawdę polecam Chase'a, czyli Blok Blok Studio. Współpraca z nim
     },
     luki: {
       name: 'Coach Luki o współpracy z Blok Blok Studio',
-      description: 'Wideo-referencja od Coacha Lukiego, trenera personalnego w Berlinie. Blok Blok Studio zbudowało coachluki.com, stronę, która przyjmuje jego rezerwacje i płatności bezpośrednio, zamiast przez wiadomości prywatne i ręczne faktury.',
+      description: 'Referencja wideo od Coacha Lukiego, trenera personalnego w Berlinie. Blok Blok Studio zbudowało coachluki.com, stronę, która przyjmuje jego rezerwacje i płatności bezpośrednio, zamiast przez wiadomości prywatne i ręczne faktury.',
       transcript: `Jestem trenerem personalnym w Berlinie i trafiłem na Chase'a, czyli Blok Blok Studio, przez znajomego, który wcześniej z nim pracował. Umówiłem się więc na rozmowę, pogadaliśmy o moich celach, o mojej wizji strony, i od razu poczułem, że zostałem zrozumiany. Była w tym też bardzo swojska atmosfera, co na pewno sprawiło, że współpraca z Chase'em była dużo luźniejsza.
 
 Chase to po prostu świetny facet, który ma do Ciebie mnóstwo cierpliwości. Pracowaliśmy razem w czasie, kiedy miałem sporo na głowie prywatnie, a on był bardzo cierpliwy, pilnował, żebym trzymał się planu, i prowadził mnie przez cały proces tak, żebym nie czuł się przytłoczony. To było dla mnie dużym plusem.
@@ -285,7 +285,7 @@ Więc jeśli szukasz kogoś, kto o Ciebie zadba, kto skupia się na szczegółac
 
 Nazywam się Chase. Pochodzę z San Diego w Kalifornii. Dorastałem w różnych miejscach w Stanach, wylądowałem na Wschodnim Wybrzeżu. Wstąpiłem do Korpusu Piechoty Morskiej, służyłem pięć lat. Po wyjściu przeprowadziłem się do Nowego Jorku, do Parsons School of Design. Zdobyłem dyplom, licencjat sztuk pięknych z designu i technologii. Potem, w czerwcu 2024, założyłem swoją agencję, Blok Blok Studio. A jakiś rok później przeprowadziłem się do Berlina.
 
-Od tego czasu po prostu skalujemy firmę. Rośnie, wszystko nabiera tempa. Mamy teraz czteroosobowy zespół. Mój dyrektor kreatywny jest w Wirginii, strateg marketingu w Los Angeles, a full stack developer tutaj, w Berlinie. To niesamowita jazda i jesteśmy tu każdego dnia, dając z siebie wszystko.
+Od tego czasu po prostu skalujemy firmę. Rośnie, wszystko nabiera tempa. Mamy teraz czteroosobowy zespół. Mój dyrektor kreatywny jest w Wirginii, strateg marketingu w Los Angeles, a full stack developer tutaj, w Berlinie. To niesamowita przygoda i jesteśmy tu każdego dnia, dając z siebie wszystko.
 
 Chętnie z Tobą popracuję. Poniżej zobaczysz kilka case studies. Zobaczysz cztery przykłady naszych realizacji. Przejrzyj je, sprawdź. Jeśli masz pytania, napisz do mnie na Instagramie albo mailem, jak Ci wygodniej.
 
@@ -487,7 +487,7 @@ Pod spodem jest formularz kontaktowy. Po prostu wpisz swoje dane. Trafiają pros
         },
         {
           title: 'Dowody społeczne, które procentują',
-          desc: 'Liczba klientów, efekty przemian, wideo-referencje. Prawdziwe liczby na stronie sprzedają za Ciebie, żebyś nie musiał tego robić w wiadomościach prywatnych.',
+          desc: 'Liczba klientów, efekty przemian, referencje wideo. Prawdziwe liczby na stronie sprzedają za Ciebie, żeby nie trzeba było robić tego w wiadomościach prywatnych.',
         },
       ],
       caseStudy: {
@@ -520,7 +520,7 @@ Pod spodem jest formularz kontaktowy. Po prostu wpisz swoje dane. Trafiają pros
           a: 'Nie. Ta sama struktura działa dla każdego coacha lub konsultanta, który rezerwuje sesje: dietetyka, trening wydolnościowy, coaching biznesowy. Jeśli Twój biznes opiera się na umówionych rozmowach, to jest schemat dla Ciebie.',
         },
       ],
-      ctaHeading: 'Gotowy zapełnić kalendarz?',
+      ctaHeading: 'Chcesz zapełnić kalendarz?',
       ctaBody: 'Bezpłatna 15-minutowa rozmowa. Opowiedz nam, jak dziś zdobywasz klientów, a pokażemy, co strona powinna robić.',
       ctaButton: 'Umów bezpłatną rozmowę',
     },

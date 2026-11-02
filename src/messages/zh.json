@@ -1,10 +1,10 @@
 {
   "nav": {
     "home": "首页",
-    "projects": "项目",
+    "projects": "作品",
     "about": "关于我们",
     "services": "服务",
-    "pricing": "定价",
+    "pricing": "价格",
     "team": "团队",
     "contact": "联系我们",
     "blog": "博客",
@@ -12,14 +12,14 @@
     "language": "语言",
     "privacy": "隐私政策",
     "terms": "服务条款",
-    "cookies": "Cookie政策",
+    "cookies": "Cookie 政策",
     "impressum": "法律声明",
     "data_rights": "数据权利",
     "accessibility": "无障碍访问",
     "v2_work": "作品",
     "v2_studio": "工作室",
     "v2_services": "服务",
-    "v2_journal": "日志",
+    "v2_journal": "专栏",
     "v2_cta": "开始项目",
     "v2_ideas": "洞察",
     "v2_careers": "加入我们"
@@ -58,7 +58,7 @@
       {
         "category": "pricing",
         "question": "你们提供月度服务，还是只做项目制？",
-        "answer": "两种都有。项目制 $2,000 起，按里程碑分期付款。月度服务 $1,500/月起，涵盖网站维护、AI 监控和 CRM 维护；$3,500/月的全方位增长方案则包含 Google 与 Meta 广告管理、AI 辅助内容生产，以及每月 5 小时的开发工作。月度服务需签约 3 个月或 6 个月起。"
+        "answer": "两种都有。项目制 $2,000 起，按里程碑分期付款。月度服务 $1,500/月起，涵盖网站维护、AI 监控和 CRM 维护；$3,500/月的全方位增长方案则包含 Google 与 Meta 广告管理、AI 辅助内容生产，以及每月 5 小时的开发工作。月度服务最短签约 3 个月或 6 个月。"
       },
       {
         "category": "process",
@@ -115,13 +115,13 @@
   "home": {
     "hero_title": "柏林网页设计工作室",
     "hero_subtitle": "我们为全球有抱负的品牌设计并开发定制 Next.js 网站。高端、以转化为核心的网页设计，绝不使用模板。",
-    "hero_cta": "启动项目",
+    "hero_cta": "开始项目",
     "clients_heading": "深受前瞻品牌信赖",
     "services_heading": "我们的业务",
     "services_subheading": "我们将策略、设计与现代网页技术相结合，打造真正带来成果的网站。",
     "projects_heading": "精选作品",
     "projects_subheading": "创意与目标交汇的项目展示。",
-    "projects_cta": "查看所有项目",
+    "projects_cta": "查看全部作品",
     "testimonials_heading": "客户怎么说",
     "testimonials_subtitle": "不必只听我们说。听听那些我们帮助焕新的品牌怎么讲。",
     "newsletter_heading": "每周获取设计洞察",
@@ -133,13 +133,13 @@
     "newsletter_already_subscribed": "您已订阅",
     "newsletter_consent": "订阅即表示您同意我们的<link>隐私政策</link>。可随时取消订阅。",
     "tab_all": "全部",
-    "tab_ai": "AI & 自动化",
-    "tab_creative": "创意 & 营销",
-    "audit_badge": "免费: 30分钟",
+    "tab_ai": "AI 与自动化",
+    "tab_creative": "创意与营销",
+    "audit_badge": "免费，30 分钟",
     "audit_heading": "不确定您的企业需要什么？",
-    "audit_subheading": "预约免费策略通话。我们将审查您的业务，向您展示最大的机会在哪里。",
+    "audit_subheading": "预约一次免费策略通话。我们会梳理您的业务，明确指出最大的机会在哪里。",
     "audit_button": "预约免费通话",
-    "cta_heading": "准备好创造伟大的作品了吗？",
+    "cta_heading": "准备好一起做点了不起的事了吗？",
     "cta_subheading": "让我们合作，将您的愿景变为现实。",
     "cta_button": "联系我们",
     "stats_projects": "已交付项目",
@@ -165,7 +165,7 @@
     "v2_service_5_title": "维护与性能",
     "v2_service_5_detail": "上线后的托管、监控、速度调优与内容更新，让网站持续为您创造价值。",
     "v2_work_label": "精选作品",
-    "v2_work_link": "全部项目",
+    "v2_work_link": "全部作品",
     "v2_result_coach_luki": "客户直接在网站预约并付款。本地 SEO 带来柏林的搜索访客。",
     "v2_result_bronco_plumbing": "前 5 个月营收 $50k。52 条 Google 评价，5.0 星。",
     "v2_result_coach_kofi": "上线后咨询请求增长 200%。",
@@ -175,7 +175,7 @@
     "v2_proof_1_value": "$191k",
     "v2_proof_1_label": "我们交付的一家店铺的销售额",
     "v2_proof_2_value": "5.0",
-    "v2_proof_2_label": "Bronco Plumbing 52 条 Google 评价的平均评分",
+    "v2_proof_2_label": "Bronco Plumbing 52 条 Google 评价的评分",
     "v2_proof_3_value": "200%",
     "v2_proof_3_label": "Coach Kofi 咨询请求的增幅",
     "v2_quotes_label": "客户",
@@ -222,7 +222,7 @@
     "v2_globe_client_one": "客户",
     "v2_globe_cities": "座城市",
     "v2_hosting_title": "托管与维护",
-    "v2_hosting_subtitle": "快速、有监控、持续更新",
+    "v2_hosting_subtitle": "快速、受监控、持续更新",
     "v2_hosting_bullet_1": "Vercel 托管服务，配备全球 CDN",
     "v2_hosting_bullet_2": "SSL 证书、备份与可用性监控",
     "v2_hosting_bullet_3": "安全补丁与依赖更新",
@@ -234,9 +234,9 @@
     "v2_result_public_affair": "高端年龄验证入口，95% 的访客顺利完成。",
     "v2_result_military_newschool": "为军人相关学生群体打造的数字家园。",
     "v2_archive": "已归档",
-    "v2_globe_nowebgl": "当前浏览器已关闭 WebGL。城市列表显示在旁边。",
-    "v2_quote_1_role": "Bronco Plumbing，达拉斯–沃斯堡",
-    "v2_quote_2_role": "Coach Kofi",
+    "v2_globe_nowebgl": "当前浏览器已关闭 WebGL，城市列表显示在旁边。",
+    "v2_quote_1_role": "Bronco Plumbing，达拉斯-沃斯堡",
+    "v2_quote_2_role": "Nike 运动员，柏林",
     "v2_quote_3_role": "集换式卡牌商店",
     "v2_quote_1_text": "前五个月总营收 $50,000，52 条 Google 评价获得 5.0 星，相关搜索词在 Google 的平均排名为 5.2 位。",
     "v2_quote_2_text": "Blok Blok Studio 彻底改变了我的线上形象。大胆的设计完美呈现了我的教练理念，效果好得令人难以置信。",
@@ -258,33 +258,33 @@
     "v2_lockup_alt": "Blok Blok Studio，创意科技工作室"
   },
   "projects": {
-    "title": "我们的项目",
-    "subtitle": "探索我们的数字体验、品牌标识和创意解决方案作品集。",
+    "title": "我们的作品",
+    "subtitle": "我们上线的每一个网站，以及它带来的数据。",
     "filter_all": "全部",
     "filter_web": "网页设计",
     "filter_brand": "品牌设计",
     "filter_app": "应用开发",
     "filter_marketing": "市场营销",
-    "view_project": "查看项目",
+    "view_project": "查看作品",
     "cat_web": "网页设计",
     "cat_ecom": "电商",
     "cat_brand": "品牌设计",
     "v2_label": "精选作品",
-    "v2_count": "{count} 个项目",
+    "v2_count": "{count} 个作品",
     "alt_live_preview": "{title} 线上预览",
     "alt_mobile_preview": "{title} 移动端预览",
     "alt_gallery": "{title} 图库图片 {n}"
   },
   "about": {
     "title": "关于我们",
-    "subtitle": "我们是一群热衷于创造有意义的数字体验的设计师、开发者和策略师。",
+    "subtitle": "一家五人工作室，设计、开发并托管网站。2024 年 6 月创立于柏林。",
     "mission_title": "我们的使命",
     "mission_text": "为有抱负的品牌提供真正能赢得客户的网站、系统与营销活动。",
     "vision_title": "我们的愿景",
-    "vision_text": "成为那些敢于在数字领域脱颖而出的品牌首选的创意合作伙伴。",
+    "vision_text": "成为有抱负的品牌在网站必须创造价值时第一个想到的工作室。",
     "values_title": "我们的价值观",
     "value_1_title": "创新",
-    "value_1_text": "我们在每个项目中突破界限，探索新的可能性。",
+    "value_1_text": "每个网站都从零开始打造。不复用任何主题。",
     "value_2_title": "卓越",
     "value_2_text": "我们以最高的质量和工艺标准要求自己。",
     "value_3_title": "协作",
@@ -314,7 +314,7 @@
   },
   "blog": {
     "meta_title": "博客：网页设计、品牌与 SEO 洞察",
-    "meta_description": "Blok Blok Studio 关于网页设计、品牌塑造、SEO 和数字营销的专业洞察。助您提升线上影响力的实用建议。",
+    "meta_description": "我们在打造能创收的网站过程中学到的东西：来自 Blok Blok Studio 的文章、客户视频与工作室动态。",
     "og_alt": "Blok Blok Studio 博客",
     "list_title": "洞察",
     "list_subtitle": "我们在打造能赚钱的网站过程中学到的东西：文章、客户出镜访谈，以及来自工作室的动态。",
@@ -322,12 +322,12 @@
     "read_article": "阅读文章",
     "back_to_blog": "返回博客",
     "cta_title": "想要这样的成果吗？",
-    "cta_subtitle": "预约免费策略咨询，聊聊我们如何帮您焕新数字形象。",
+    "cta_subtitle": "预约免费通话，我们会告诉您最该先改什么。",
     "cta_button": "立即开始",
     "posts": {
       "why-your-website-is-losing-customers": {
         "title": "为什么您的网站在流失客户（以及如何解决）",
-        "description": "页面加载缓慢、信息表达不清、缺少信任信号,都会悄悄赶走访客。五个有研究支持的网站流失客户的原因,以及每个问题的解决方法。",
+        "description": "页面加载慢、信息表达不清、缺少信任信号，都在悄悄赶走访客。网站流失客户的五大原因（均有研究支持），以及每一项的解决方法。",
         "category": "网页设计"
       },
       "seo-checklist-2026": {
@@ -338,7 +338,7 @@
       "brand-identity-investment": {
         "title": "为什么品牌识别是您最值得的投资",
         "description": "您的品牌不只是一个标志。强大的品牌识别能建立信任、支撑溢价，并让客户成为拥护者。",
-        "category": "品牌塑造"
+        "category": "品牌设计"
       }
     },
     "v2_label": "洞察",
@@ -368,7 +368,7 @@
   },
   "services": {
     "title": "我们的服务",
-    "subtitle": "定制网站设计与开发，带来实实在在的业务增长。",
+    "subtitle": "定制网站设计与开发，为赢得客户而生，上线后托管与维护全包。",
     "section_ai_title": "AI 与自动化",
     "section_creative_title": "创意与营销",
     "service_1_title": "AI 智能体生态",
@@ -386,7 +386,7 @@
     "service_2_bullet_4": "常见问题解答与线索筛选",
     "service_2_bullet_5": "自然语言，不生硬",
     "service_3_title": "工作流自动化",
-    "service_3_subtitle": "把每个工具连成一套顺畅的系统",
+    "service_3_subtitle": "把每个工具连成一套自动运转的系统",
     "service_3_bullet_1": "打通 CRM、日历与支付",
     "service_3_bullet_2": "定制集成（不交 Zapier 的“过路费”）",
     "service_3_bullet_3": "AI 决策逻辑嵌入流程",
@@ -436,15 +436,15 @@
     "service_9_bullet_5": "创意 A/B 测试",
     "process_title": "我们的流程",
     "step_1_title": "需求探索",
-    "step_1_desc": "我们深入了解您的目标、受众和市场，打下扎实的基础。",
+    "step_1_desc": "在动手设计之前，我们先了解您的目标、受众和市场。",
     "step_2_title": "策略制定",
-    "step_2_desc": "我们量身制定路线图，让创意愿景与商业目标保持一致。",
+    "step_2_desc": "一份书面方案：页面、时间表和一个总价。",
     "step_3_title": "设计",
-    "step_3_desc": "我们打造引人入胜的视觉与直观易用的界面，牢牢抓住用户。",
+    "step_3_desc": "我们设计页面与流程，然后向您展示可操作的原型。",
     "step_4_title": "开发",
-    "step_4_desc": "我们采用现代技术栈开发，确保速度、可扩展性与可靠性。",
+    "step_4_desc": "用 Next.js 手工开发。现在快，以后也容易扩展。",
     "step_5_title": "上线与优化",
-    "step_5_desc": "我们负责部署、监控并持续打磨，让效果最大化。",
+    "step_5_desc": "我们负责上线、盯紧数据，并修正不起作用的部分。",
     "v2_label": "服务",
     "v2_intro": "一套方案，认真做好。我们设计并开发网站，然后负责托管，让它持续稳定运行。",
     "v2_process_label": "项目如何推进",
@@ -457,13 +457,13 @@
   },
   "team": {
     "title": "我们的团队",
-    "subtitle": "认识 Blok Blok Studio 背后的创意人才。",
+    "subtitle": "为您开发并托管网站的五个人。",
     "role_founder": "创始人",
     "role_graphic": "资深平面设计师",
     "role_web": "资深网页设计师",
     "v2_label": "团队",
     "v2_intro": "五个人，四个时区。小到您叫得出每个人的名字，又分布得足够广，让您的项目永远不用等到天亮。",
-    "v2_studied": "学业背景",
+    "v2_studied": "所学专业",
     "v2_enjoys": "工作之外",
     "v2_based": "所在地",
     "role_marketing": "营销策略师",
@@ -482,11 +482,11 @@
   },
   "contact": {
     "title": "联系我们",
-    "subtitle": "有项目想法？我们很乐意听取您的意见。让我们一起创造非凡。",
+    "subtitle": "告诉我们网站要实现什么。我们会在一个工作日内回复。",
     "name": "您的姓名",
     "email": "您的邮箱",
     "company": "公司",
-    "phone": "电话 / WhatsApp(选填)",
+    "phone": "电话 / WhatsApp（选填）",
     "message": "请告诉我们您的项目",
     "submit": "发送消息",
     "success": "谢谢！我们会尽快与您联系。",
@@ -501,7 +501,7 @@
     "newsletter_title": "订阅动态",
     "newsletter_placeholder": "输入您的邮箱",
     "newsletter_button": "订阅",
-    "newsletter_subscribed": "请查收邮件确认!",
+    "newsletter_subscribed": "请查收邮件确认！",
     "newsletter_already_subscribed": "您已订阅",
     "newsletter_consent": "订阅即表示您同意我们的<link>隐私政策</link>。可随时取消订阅。",
     "back_to_top": "回到顶部",
@@ -514,8 +514,8 @@
     "terms": "服务条款",
     "and": "和",
     "consent_required": "您必须接受我们的隐私政策和服务条款才能继续",
-    "cookie_banner_text": "我们使用必要的Cookie来增强您的体验。了解更多信息，请参阅我们的",
-    "cookie_policy": "Cookie政策",
+    "cookie_banner_text": "我们使用必要 Cookie 来保证网站正常运行。详情请参阅我们的",
+    "cookie_policy": "Cookie 政策",
     "accept": "接受",
     "decline": "拒绝",
     "reject_all": "全部拒绝",
@@ -531,79 +531,79 @@
     "back": "返回",
     "save_preferences": "保存偏好",
     "data_rights_title": "您的数据权利",
-    "data_rights_subtitle": "根据GDPR，您有权访问、导出或永久删除我们系统中的个人数据。",
-    "data_rights_description": "行使您的GDPR数据权利",
-    "your_email": "您的电子邮箱地址",
+    "data_rights_subtitle": "根据 GDPR，您有权访问、导出或永久删除我们系统中的个人数据。",
+    "data_rights_description": "行使您的 GDPR 数据权利",
+    "your_email": "您的邮箱地址",
     "request_type": "您想做什么？",
     "export_data": "导出我的数据",
-    "export_description": "下载我们拥有的关于您的所有个人数据（JSON格式）",
+    "export_description": "以 JSON 格式下载我们持有的关于您的全部个人数据",
     "delete_data": "删除我的数据",
-    "delete_description": "从我们的系统中永久删除您的所有个人数据。此操作无法撤销。",
+    "delete_description": "从我们的系统中永久删除您的全部个人数据。此操作无法撤销。",
     "submit_request": "提交请求",
-    "processing": "处理中...",
-    "request_sent_message": "我们已向您的邮箱发送了验证链接。请查看收件箱并点击链接以确认您的请求。链接将在15分钟后过期。",
+    "processing": "处理中…",
+    "request_sent_message": "我们已向您的邮箱发送了验证链接。请查看收件箱并点击链接以确认您的请求。链接将在 15 分钟后失效。",
     "request_error": "出了点问题。请稍后再试。",
-    "check_email_title": "查看您的电子邮件",
+    "check_email_title": "请查收邮件",
     "data_deleted_title": "数据已删除",
     "data_deleted_message": "您的所有个人数据已从我们的系统中永久删除。",
     "token_expired": "此验证链接已过期。请提交新的请求。"
   },
   "unsubscribe": {
-    "processing": "正在处理您的请求...",
+    "processing": "正在处理您的请求…",
     "success_title": "取消订阅成功",
-    "success_message": "您已成功从我们的邮件列表中删除。",
+    "success_message": "您已成功退出我们的邮件列表。",
     "error_title": "出了点问题",
-    "error_message": "我们无法处理您的请求。链接可能无效或已过期。请通过blokblokstudio.com/contact与我们联系寻求帮助。",
+    "error_message": "我们无法处理您的请求，链接可能无效或已过期。如需帮助，请通过 blokblokstudio.com/contact 联系我们。",
     "back_home": "返回首页",
     "meta_title": "取消订阅",
     "meta_description": "取消订阅我们的邮件。"
   },
   "privacy": {
     "title": "隐私政策",
-    "description": "Blok Blok Studio如何收集、使用和保护您的个人数据",
-    "last_updated": "最后更新：July 16, 2026",
+    "description": "Blok Blok Studio 如何收集、使用和保护您的个人数据",
+    "last_updated": "最后更新：2026 年 7 月 16 日",
     "intro_title": "简介",
-    "intro_content": "在Blok Blok Studio，我们非常重视您的隐私。本隐私政策解释了当您访问我们的网站或使用我们的服务时，我们如何收集、使用、披露和保护您的信息。",
+    "intro_content": "Blok Blok Studio 非常重视您的隐私。本隐私政策说明当您访问我们的网站或使用我们的服务时，我们如何收集、使用、披露和保护您的信息。",
     "data_collection_title": "我们收集哪些数据",
-    "data_collection_intro": "当您在我们的网站上填写表单时，我们会收集您直接提供给我们的信息：",
+    "data_collection_intro": "当您在我们的网站上填写表单时，我们会收集您直接提供的信息：",
     "data_item_name": "姓名",
-    "data_item_email": "电子邮箱地址",
-    "data_item_industry": "行业/工作领域",
-    "data_item_website": "网站URL（可选）",
-    "data_item_problem": "项目详情和挑战",
+    "data_item_email": "邮箱地址",
+    "data_item_industry": "行业 / 工作领域",
+    "data_item_website": "网站网址（选填）",
+    "data_item_problem": "项目详情与面临的挑战",
     "data_item_budget": "预算范围与期望时间（当您在咨询表单中告知我们时）",
     "data_item_marketing_consent": "您是否勾选了可选的营销邮件选项，以及确认的时间",
-    "data_item_ip": "IP地址（仅用于同意验证）",
+    "data_item_ip": "IP 地址（仅用于验证同意）",
     "data_use_title": "我们如何使用您的数据",
-    "data_use_intro": "我们使用收集的信息用于：",
-    "use_item_respond": "回复您的咨询并提供所请求的服务",
-    "use_item_marketing": "发送营销传播（仅在获得您的明确同意后）",
+    "data_use_intro": "我们将收集的信息用于：",
+    "use_item_respond": "回复您的咨询并提供您请求的服务",
+    "use_item_marketing": "发送营销信息（仅在获得您的明确同意后）",
     "use_item_improve": "改进我们的网站和服务",
     "use_item_legal": "遵守法律义务",
     "third_parties_title": "第三方服务",
-    "third_parties_intro": "我们使用以下第三方服务来运营我们的业务：",
-    "third_party_resend": "Resend: 用于发送电子邮件通信",
-    "third_parties_note": "这些服务仅接收其功能所需的最少数据。",
+    "third_parties_intro": "我们使用以下第三方服务来运营业务：",
+    "third_party_resend": "Resend：用于发送邮件",
+    "third_parties_note": "这些服务仅接收实现其功能所需的最少数据。",
     "retention_title": "数据保留",
-    "retention_content": "我们会在提供服务和维护业务关系所需的时间内保留您的个人数据。您可以随时通过我们的数据权利页面请求删除您的数据。",
+    "retention_content": "我们会在提供服务和维持业务关系所需的期限内保留您的个人数据。您可以随时通过数据权利页面请求删除您的数据。",
     "your_rights_title": "您的权利（GDPR）",
-    "your_rights_intro": "根据通用数据保护条例，您拥有以下权利：",
-    "right_access": "访问权: 请求我们持有的关于您的所有个人数据副本",
-    "right_correct": "更正权: 请求更正不准确的数据",
-    "right_delete": "删除权: 请求永久删除您的数据",
-    "right_object": "反对权: 反对处理您的数据",
-    "right_export": "数据可移植权: 以机器可读格式导出您的数据",
-    "right_withdraw": "撤回同意权: 随时撤回您的同意",
-    "your_rights_cta": "在我们的页面上行使您的权利",
+    "your_rights_intro": "根据《通用数据保护条例》（GDPR），您享有以下权利：",
+    "right_access": "访问权：请求获取我们持有的关于您的全部个人数据的副本",
+    "right_correct": "更正权：请求更正不准确的数据",
+    "right_delete": "删除权：请求永久删除您的数据",
+    "right_object": "反对权：反对对您数据的处理",
+    "right_export": "数据可携权：以机器可读格式导出您的数据",
+    "right_withdraw": "撤回同意权：随时撤回您的同意",
+    "your_rights_cta": "如需行使上述权利，请前往我们的",
     "your_rights_link": "数据权利页面",
     "contact_title": "联系我们",
-    "contact_content": "如果您对本隐私政策或我们如何处理您的数据有任何疑问，请通过以下方式联系我们：",
+    "contact_content": "如您对本隐私政策或我们处理数据的方式有任何疑问，请通过以下方式联系我们：",
     "data_item_phone": "电话号码",
     "third_party_pixels": "只有在您于同意横幅中明确接受营销 Cookie 后，我们才会加载广告像素（Meta、Google）；否则不会使用任何追踪 Cookie 或分析服务。",
     "legal_basis_title": "数据处理的法律依据",
     "legal_basis_intro": "根据《通用数据保护条例》（GDPR）第 6 条，我们基于以下法律依据处理您的个人数据：",
     "legal_basis_consent": "同意（第 6 条第 1 款 a 项）：当您订阅我们的通讯，或在明确同意的情况下提交联系表单时",
-    "legal_basis_contract": "履行合同所必需（第 6 条第 1 款 b 项）：当处理数据是履行与您之间服务协议所必需时",
+    "legal_basis_contract": "履行合同所必需（第 6 条第 1 款 b 项）：当处理数据是履行与您签订的服务协议所必需时",
     "legal_basis_interest": "正当利益（第 6 条第 1 款 f 项）：用于内部分析、改进我们的服务，以及保障网站安全",
     "legal_basis_withdraw": "您可以随时撤回同意，撤回不影响此前基于同意所进行处理的合法性。",
     "transfers_title": "国际数据传输",
@@ -616,29 +616,29 @@
     "third_party_vercel": "Vercel：网站与应用托管（美国；适用数据保护框架与标准合同条款）",
     "third_party_slack": "Slack：向我们团队发送新咨询的内部通知（仅限姓名、邮箱、电话和业务类型）",
     "third_party_turnstile": "Cloudflare Turnstile：表单的垃圾信息防护（会处理您的 IP 地址）",
-    "third_party_cal": "Cal.com：当您与我们预约通话时用于安排时间",
+    "third_party_cal": "Google Calendar：当您与我们预约通话时用于安排时间",
     "third_party_meta": "Meta（Facebook/Instagram）：广告效果衡量，仅在您同意营销 Cookie 后启用。在您同意的前提下，我们还可能以哈希（假名化）形式传输您的邮箱和电话号码，用于衡量广告转化。",
     "third_party_google": "Google：广告效果衡量（Google Ads），仅在您同意营销 Cookie 后启用",
-    "marketing_double_optin": "营销邮件采用双重确认机制。仅在表单上勾选可选项并不足以订阅：我们会发送一封确认邮件，只有当您点击其中的链接后才会被加入名单。在此之前，我们不会向您发送任何营销内容。您可以随时通过任意邮件中的退订链接撤回同意，立即生效。"
+    "marketing_double_optin": "营销邮件采用双重确认机制。仅在表单上勾选可选项并不足以完成订阅：我们会发送一封确认邮件，只有当您点击其中的链接后才会被加入名单。在此之前，我们不会向您发送任何营销内容。您可以随时通过任意邮件中的退订链接撤回同意，立即生效。"
   },
   "terms": {
     "title": "服务条款",
-    "description": "使用Blok Blok Studio服务的条款和条件",
-    "last_updated": "最后更新：July 16, 2026",
+    "description": "使用 Blok Blok Studio 服务的条款与条件",
+    "last_updated": "最后更新：2026 年 7 月 16 日",
     "acceptance_title": "接受条款",
-    "acceptance_content": "通过访问和使用本网站，您接受并同意受这些服务条款的约束。如果您不同意这些条款，请不要使用我们的网站或服务。",
+    "acceptance_content": "访问并使用本网站，即表示您接受并同意受本服务条款约束。如不同意本条款，请勿使用我们的网站或服务。",
     "services_title": "服务",
-    "services_content": "Blok Blok Studio提供数字设计、开发和营销服务。具体的项目条款、交付成果和定价在个别合同和提案中列出。",
+    "services_content": "Blok Blok Studio 提供数字设计、开发与营销服务。具体的项目条款、交付内容和价格以各项目的合同与方案为准。",
     "user_responsibilities_title": "用户责任",
-    "user_responsibilities_content": "您同意在使用我们的表单和服务时提供准确的信息，并合法地按照这些条款使用我们的网站和服务。",
+    "user_responsibilities_content": "您同意在使用我们的表单和服务时提供准确信息，并依法且按照本条款使用我们的网站和服务。",
     "ip_title": "知识产权",
-    "ip_content": "本网站上的所有内容，包括设计、文本、图形和代码，除非另有说明，均为Blok Blok Studio所有。客户工作的所有权在个别项目合同中定义。",
+    "ip_content": "除非另有说明，本网站的所有内容（包括设计、文字、图形和代码）均归 Blok Blok Studio 所有。客户项目成果的归属以各项目合同的约定为准。",
     "liability_title": "责任限制",
-    "liability_content": "Blok Blok Studio不对因使用我们的网站或服务而产生的任何间接、偶然或后果性损害负责。我们的总责任不应超过为相关服务支付的金额。",
+    "liability_content": "对于因使用我们的网站或服务而产生的任何间接、附带或后果性损害，Blok Blok Studio 概不负责。我们的全部责任以您为相关服务所支付的金额为限。",
     "governing_law_title": "适用法律",
-    "governing_law_content": "这些条款受适用法律管辖并按其解释。任何争议应在采取正式法律行动之前通过诚信谈判解决。",
+    "governing_law_content": "本条款受适用法律管辖并据其解释。任何争议应先通过诚信协商解决，再寻求正式法律途径。",
     "changes_title": "条款变更",
-    "changes_content": "我们保留随时修改这些条款的权利。变更将在本页面上发布并注明更新日期。在变更后继续使用我们的网站即表示接受修订后的条款。",
+    "changes_content": "我们保留随时修改本条款的权利。变更会发布在本页面并注明更新日期。变更后继续使用我们的网站，即视为接受修订后的条款。",
     "dispute_title": "争议解决",
     "dispute_intro": "如因本条款产生争议，我们建议您先与我们联系，寻求友好解决。如无法通过非正式途径解决，则适用以下流程：",
     "dispute_informal": "非正式解决：请发送邮件至 hello@blokblokstudio.com 与我们联系。我们将尽力在 30 天内解决问题。",
@@ -649,21 +649,21 @@
     "changes_contact": "如您对本服务条款有任何疑问，请联系我们："
   },
   "cookies": {
-    "title": "Cookie政策",
-    "description": "Blok Blok Studio如何使用Cookie和类似技术",
-    "last_updated": "最后更新：July 16, 2026",
-    "intro_title": "什么是Cookie",
-    "intro_content": "Cookie是您访问网站时存储在您设备上的小型文本文件。它们帮助网站记住您的偏好并改善您的浏览体验。",
-    "our_use_title": "我们对Cookie的使用",
-    "our_use_content": "我们坚持隐私优先。默认情况下,我们仅使用 localStorage(浏览器存储机制)来记住您的 Cookie 同意偏好。只有在您接受营销 Cookie 后,才会加载可选的广告像素。",
-    "third_party_title": "第三方Cookie",
-    "third_party_content": "如果您接受营销 Cookie,我们会加载 Meta(Facebook)和 Google 的广告像素,用于衡量广告活动效果。如果您拒绝,访问我们的网站时不会设置任何第三方 Cookie。",
-    "control_title": "管理Cookie",
-    "control_content": "您可以通过浏览器设置控制Cookie。大多数浏览器允许您阻止或删除Cookie。请注意，清除localStorage将重置您的Cookie同意偏好。",
+    "title": "Cookie 政策",
+    "description": "Blok Blok Studio 如何使用 Cookie 及类似技术",
+    "last_updated": "最后更新：2026 年 7 月 16 日",
+    "intro_title": "什么是 Cookie",
+    "intro_content": "Cookie 是您访问网站时存储在设备上的小型文本文件，用于帮助网站记住您的偏好并改善浏览体验。",
+    "our_use_title": "我们如何使用 Cookie",
+    "our_use_content": "我们坚持隐私优先。我们只设置两个小的必要 Cookie：一个记住您的语言，一个记住您所在的国家，以便按正确的货币显示价格；另外使用 localStorage（一种浏览器存储机制）来记住您的 Cookie 同意偏好。只有在您接受营销 Cookie 后，才会加载可选的广告像素。",
+    "third_party_title": "第三方 Cookie",
+    "third_party_content": "如果您接受营销 Cookie，我们会加载 Meta（Facebook）和 Google 的广告像素，用于衡量广告投放效果。如果您拒绝，访问我们的网站时不会设置任何第三方 Cookie。",
+    "control_title": "管理 Cookie",
+    "control_content": "您可以通过浏览器设置控制 Cookie。大多数浏览器允许您阻止或删除 Cookie。请注意，清除 localStorage 会重置您的 Cookie 同意偏好。",
     "updates_title": "政策更新",
-    "updates_content": "如果我们将来开始使用分析或跟踪技术，我们将更新此政策，并在任何跟踪发生之前通过我们的Cookie同意横幅通知您。",
+    "updates_content": "如果我们将来开始使用分析或追踪技术，我们会更新本政策，并在任何追踪开始之前通过 Cookie 同意横幅通知您。",
     "storage_title": "Cookie 与存储详情",
-    "storage_intro": "以下是本网站使用的全部 Cookie 和本地存储项的完整列表：",
+    "storage_intro": "以下是本网站使用的全部 Cookie 和本地存储项：",
     "table_name": "名称",
     "table_type": "类型",
     "table_purpose": "用途",
@@ -678,10 +678,10 @@
     "storage_note": "您可以随时通过 Cookie 横幅管理您的 Cookie 偏好。如需重置偏好，请清除浏览器的 localStorage。"
   },
   "start": {
-    "headline_a": "您的业务正在悄悄流失客户的地方",
+    "headline_a": "您的业务在哪里悄悄流失客户",
     "headline_b": "（以及如何解决）",
-    "sub": "回答五个简单问题，我们会告诉您应该先解决什么，然后您选择一个时间。大约一分钟。",
-    "proof": "柏林网页设计工作室。Coach Kofi 上线后咨询量增长 200%。一家开业第一年的管道公司五个月内实现 5 万美元营收。",
+    "sub": "回答五个简短问题，我们会告诉您最该先解决什么，然后由您挑一个时间。大约只需一分钟。",
+    "proof": "柏林网页设计工作室。Coach Kofi 上线后咨询量增长 200%。一家开业第一年的管道公司五个月内总营收突破 $50k。",
     "progress": "问题 {current} / {total}",
     "continue": "继续",
     "back": "返回",
@@ -691,14 +691,14 @@
     "q_services": "您需要哪方面的帮助？",
     "q_services_sub": "可多选。",
     "q_budget_project": "这个项目的预算是多少？",
-    "q_budget_project_sub": "大致范围即可，只是帮助我们判断该提出什么方案。",
+    "q_budget_project_sub": "大致范围即可，只是帮我们判断该推荐什么方案。",
     "q_budget_ads": "每月可以在广告上投入多少？",
     "q_budget_ads_sub": "仅指广告费。我们的管理费为其 15%，另加一次性设置费。大致数字即可。",
     "q_budget_monthly": "您的月度预算是多少？",
     "q_budget_monthly_sub": "大约每月愿意投入的金额。估算即可。",
     "q_timeline": "您希望多快开始？",
     "q_contact": "最后一步。我们如何联系您？",
-    "q_contact_sub": "之后您可以选择时间。工作时间内我们会在一小时内回复。",
+    "q_contact_sub": "之后由您挑一个时间。工作时间内我们会在一小时内回复。",
     "label_name": "您的姓名",
     "label_email": "电子邮箱",
     "label_phone": "电话 / WhatsApp",
@@ -762,7 +762,7 @@
       },
       "3": {
         "label": "只是了解一下",
-        "hint": "正在比较方案"
+        "hint": "看看有哪些选择"
       }
     },
     "budget_build": {
@@ -842,15 +842,15 @@
       }
     },
     "meta_title": "您的业务正在哪里流失客户",
-    "meta_description": "回答五个关于您业务的简单问题，然后预约通话。我们会告诉您我们会先解决什么。"
+    "meta_description": "回答五个关于您业务的简短问题，再预约一次通话。我们会告诉您最该先解决什么。"
   },
   "errors": {
     "title": "出错了",
-    "message": "发生了意外错误。请重试，如果问题持续，请联系我们。",
+    "message": "发生了意外错误。请重试，如果问题仍然存在，请联系我们。",
     "try_again": "重试",
     "back_home": "返回首页",
     "not_found_title": "页面未找到",
-    "not_found_message": "您要查找的页面不存在或已被移动。让我们带您回到正轨。",
+    "not_found_message": "您要找的页面不存在或已被移动。我们带您回到正轨。",
     "contact_us": "联系我们"
   },
   "accessibility": {
@@ -878,10 +878,10 @@
     "measure_reduced_motion": "尊重您操作系统中的 <code>prefers-reduced-motion</code> 设置。",
     "measure_contrast": "色彩对比度达到或超过 WCAG AA 标准（正文 4.5:1）。",
     "measure_rtl": "阿拉伯语采用从右至左布局，语言切换器以各语言的母语及书写方向朗读每个选项。",
-    "measure_languages": "网站提供 19 种语言，让非英语使用者可以用自己思考的语言浏览。",
+    "measure_languages": "网站提供 20 种语言，让非英语使用者可以用自己思考的语言浏览。",
     "limitations_title": "已知局限",
     "limitations_intro": "尽管我们已尽最大努力，本网站的部分内容可能尚未完全实现无障碍访问。我们正在解决的已知问题：",
-    "limitation_third_party": "<strong>嵌入的第三方内容</strong>，Cloudflare Turnstile 验证码和 Cal.com 预约 iframe 的无障碍表现继承自上游供应商。我们会跟踪各供应商的符合性状态。",
+    "limitation_third_party": "<strong>嵌入的第三方内容</strong>、Cloudflare Turnstile 验证码和 Google Calendar 预约页面的无障碍表现继承自上游供应商。我们会跟踪各供应商的符合性状态。",
     "limitation_motion": "<strong>装饰性动效</strong>，当设置了 <code>prefers-reduced-motion</code> 时，背景环境动画会被关闭，但少数跟随光标的微交互仍可能播放。",
     "limitation_language": "<strong>声明语言</strong>：本声明以英文版本为准，其他语言均为其译文。网站本身提供 20 种语言版本。",
     "feedback_title": "反馈与联系",
@@ -889,13 +889,13 @@
     "feedback_email": "<strong>邮件：</strong><link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>网页表单：</strong><link>联系页面</link>，请在留言中注明“无障碍”。",
     "enforcement_title": "执行程序",
-    "enforcement_intro": "Blok Blok Studio 在德国注册。如果您对我们就无障碍反馈所做的回应不满意，可以依据您所在地的执行框架进一步申诉：",
+    "enforcement_intro": "Blok Blok Studio 位于德国柏林。如果您对我们就无障碍反馈所做的回应不满意，可以依据您所在地的执行框架进一步申诉：",
     "enforcement_eu": "<strong>欧盟</strong>，您所在欧盟成员国的市场监督机构。《欧洲无障碍法案》在每个成员国均指定了一个国家级主管机构。",
     "enforcement_germany": "<strong>德国</strong>，联邦无障碍事务局 Bundesfachstelle für Barrierefreiheit（<link>bundesfachstelle-barrierefreiheit.de</link>）。",
     "enforcement_us": "<strong>美国</strong>，ADA 投诉可向美国司法部民权司提出；第 508 条相关事宜可向美国无障碍委员会（US Access Board）提出。",
     "preparation_title": "本声明的编制方式",
     "preparation_content": "本声明于 {date} 通过对照 WCAG 2.2 AA 标准的自我评估编制而成。评估结合了对线上网站的自动化审查与对代码库的人工审查（语义结构、键盘导航、焦点管理、ARIA 使用、色彩对比度、动效处理及语言书写方向）。每次重要发布后，我们都会重新审查网站。",
-    "meta_description": "Blok Blok Studio 致力于数字无障碍访问。我们的网站按照 WCAG 2.2 AA、ADA、Section 508 以及欧盟《欧洲无障碍法案》的标准构建。"
+    "meta_description": "Blok Blok Studio 致力于数字无障碍。我们的网站按照 WCAG 2.2 AA、ADA、美国《康复法案》第 508 条以及欧盟《欧洲无障碍法案》的标准构建。"
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -905,10 +905,10 @@
     "diagnosis_known": "根据您介绍的{industry}情况，这是我们会在通话中和您一起梳理的内容。",
     "diagnosis_unsure": "您说还不确定，这是非常正常的起点。在{industry}领域，收益通常就在这里，所以通话时我们会从这里入手。",
     "industry_fallback": "您所在的行业",
-    "sub_fallback": "我们已收到您的请求。现在预约免费的 15 分钟沟通；最早的时段先到先得。",
+    "sub_fallback": "我们已收到您的请求。请在下方选择时间，预约免费的 15 分钟通话。",
     "cover_label": "通话中会谈什么",
     "cover_note": "我们会在通话中把所有事情讲清楚，包括范围和费用。",
-    "calendar_title": "预约免费的初次沟通",
+    "calendar_title": "预约免费初次通话",
     "calendar_fallback": "日历打不开？",
     "calendar_open": "直接打开",
     "calendar_chat": "更想用文字沟通？",
@@ -918,9 +918,9 @@
     "next_1_title": "在上方选择时间",
     "next_1_desc": "一次简短的通话，让我们了解您的业务和需求。",
     "next_2_title": "我们在通话中逐项拆解",
-    "next_2_desc": "您在哪里流失客户、先修哪里、以及需要什么才能做到。",
+    "next_2_desc": "您在哪里流失客户、该先修什么，以及需要做些什么。",
     "next_3_title": "我们来做，您来增长",
-    "next_3_desc": "网站、广告、社交媒体、AI 系统。交给我们，快速上线。",
+    "next_3_desc": "网站开发、托管与维护一站全包。交给我们，快速上线。",
     "founder_kicker": "您将和谁沟通",
     "founder_title": "认识创始人",
     "clients_kicker": "作品与数据",
@@ -939,10 +939,10 @@
       },
       "shop": {
         "title": "能真正成交的店铺",
-        "detail": "商品页、结算与支付的搭建方式，是让人真正完成购买，而不是中途放弃。"
+        "detail": "商品页、结账与支付全部打通，让人真正完成购买，而不是中途放弃。"
       },
       "landing": {
-        "title": "一个页面，一个报价",
+        "title": "一个页面，一个主张",
         "detail": "我们能最快做出来的东西。面向单一人群的一个页面，接好转化追踪，让您看到回报。"
       },
       "search_ads": {
@@ -951,7 +951,7 @@
       },
       "social_ads": {
         "title": "抢在他们之前出现",
-        "detail": "Facebook 与 Instagram 广告，在竞争对手之前把您的报价送到合适的人面前。"
+        "detail": "Facebook 与 Instagram 广告，抢在竞争对手之前把您的产品方案送到合适的人面前。"
       },
       "social": {
         "title": "能带来去处的社交内容",
@@ -970,7 +970,7 @@
     "founder_soon": "Chase 的一段话，即将上线。",
     "founder_caption": "Chase Haynes，Blok Blok Studio 创始人。您直接与为您建站的人交流，而不是客户经理。",
     "meta_title": "还差一步",
-    "meta_description": "预约您的免费 15 分钟初次沟通。"
+    "meta_description": "预约免费的 15 分钟初次通话。"
   },
   "ui": {
     "footer_contact": "联系我们",
@@ -988,16 +988,16 @@
     "wechat_open": "通过微信联系我们",
     "wechat_close": "关闭微信联系卡片",
     "whatsapp_aria": "在 WhatsApp 上与我们联系（在新标签页打开）",
-    "proj_not_found": "未找到该项目",
-    "proj_back": "返回项目列表",
+    "proj_not_found": "未找到该作品",
+    "proj_back": "返回作品列表",
     "proj_visit": "访问线上网站",
     "proj_live": "线上网站",
     "proj_take_look": "去看看",
     "proj_open_live": "打开线上版本",
     "proj_live_lower": "线上网站",
     "proj_testimonial": "听听客户怎么说",
-    "proj_gallery": "项目图集",
-    "proj_next": "下一个项目",
+    "proj_gallery": "作品图集",
+    "proj_next": "下一个作品",
     "cases_kicker": "作品与数据",
     "cases_sub": "客户出镜讲述，营收有据可查。和我们合作到底是什么样子。",
     "cases_view": "查看案例",
@@ -1008,20 +1008,20 @@
     "about_design": "设计",
     "about_development": "开发",
     "about_strategy": "策略",
-    "about_branding": "品牌",
+    "about_branding": "品牌设计",
     "about_tagline": "我们打造脱颖而出的品牌",
     "faq_title": "常见问题",
-    "faq_sub": "和我们合作前你需要知道的一切",
+    "faq_sub": "与我们合作前您需要了解的一切",
     "who_title": "我们为谁服务",
     "who_sub": "不同行业的转化方式不一样。这些是我们实际在用的打法，以及背后的客户数据。",
-    "start_project": "开始你的项目",
+    "start_project": "开始您的项目",
     "contact_location": "地点",
     "available": "目前可承接新项目",
     "aria_business": "业务类型",
     "aria_budget": "预算",
     "aria_timeline": "时间安排",
-    "proj_live_click": "在下方点击并滚动浏览真实网站",
-    "proj_live_scroll": "在下方滚动浏览真实网站",
+    "proj_live_click": "在下方点击并滚动浏览线上网站",
+    "proj_live_scroll": "在下方滚动浏览线上网站",
     "proj_live_hint_embed": "像在真实网站上一样点击链接、自由浏览，或在新标签页中打开。",
     "proj_live_hint_scroll": "这是一张整页快照。可在窗口内滚动，或在新标签页中打开线上网站。",
     "proj_challenge": "挑战",
@@ -1033,29 +1033,29 @@
   },
   "onboard": {
     "title": "客户信息登记",
-    "sub": "把该准备的都备齐，我们就能立刻开工。",
-    "loading": "正在加载...",
+    "sub": "把一切准备就绪，我们从第一天就能开工。",
+    "loading": "正在加载…",
     "unavailable": "链接不可用",
     "done": "全部就绪",
     "done_sub": "要顺便设置好付款方式，让我们马上开始吗？",
     "pay_cta": "设置付款方式",
     "coming_soon": "即将上线",
-    "submitting": "提交中...",
+    "submitting": "提交中…",
     "contacts": "团队联系人",
-    "contacts_sub": "我们该和贵方的谁对接？",
+    "contacts_sub": "我们应该联系贵方团队的哪位？",
     "primary": "主要联系人",
     "remove": "移除",
     "add_contact": "添加联系人",
     "access": "账号权限",
     "access_sub": "请提供需要我们代管的平台登录信息。",
-    "encrypted": "你的登录信息采用 AES-256 加密",
+    "encrypted": "您的登录信息采用 AES-256 加密",
     "add_account": "添加账号",
     "social": "社交账号",
-    "social_sub": "关联你的社交媒体账号，我们来运营和做增长。",
+    "social_sub": "关联您的社交媒体账号，由我们来运营和做增长。",
     "add_profile": "添加账号",
     "details": "项目详情",
-    "details_sub": "告诉我们你们的做事方式，我们来配合。",
-    "telegram_hint": "在 Telegram 上给 @blokblok_bot 发消息即可获取你的 ID",
+    "details_sub": "告诉我们您的工作方式，我们来配合。",
+    "telegram_hint": "在 Telegram 上给 @blokblok_bot 发消息即可获取您的 ID",
     "review": "确认并提交",
     "review_sub": "提交前请核对一遍。任何一项都可以返回修改。",
     "f_timezone": "时区：",
@@ -1067,11 +1067,22 @@
     "ph_url": "例如：https://your-site.com/wp-admin",
     "ph_2fa": "例如：已开启双重验证，需使用验证器 App",
     "ph_link": "https://...",
-    "ph_timezone": "选择你的时区...",
+    "ph_timezone": "选择您的时区…",
     "ph_telegram": "例如：123456789",
-    "ph_notes": "关于项目、偏好或工作方式，任何我们该知道的事...",
-    "ph_brand": "logo 用法、品牌色、字体、语气风格、可以做和不要做的...",
-    "meta_description": "完成客户信息登记，开始与 Blok Blok Studio 合作。"
+    "ph_notes": "关于项目、偏好或工作方式，任何我们应该知道的事…",
+    "ph_brand": "Logo 用法、品牌色、字体、语气风格、规范与禁忌…",
+    "meta_description": "完成客户信息登记，开始与 Blok Blok Studio 合作。",
+    "f_name": "姓名",
+    "f_role": "职位 / 头衔",
+    "f_email": "邮箱",
+    "f_phone": "电话",
+    "f_platform": "平台",
+    "f_username": "用户名 / 邮箱",
+    "f_password": "密码",
+    "f_url_optional": "网址（选填）",
+    "f_notes_optional": "备注（选填）",
+    "f_url": "网址",
+    "ph_select": "请选择…"
   },
   "pricing": {
     "packages": "套餐",
@@ -1113,7 +1124,7 @@
     "view": "查看详情",
     "not_included": "不包含的内容",
     "cta_sub": "每个项目都单独界定范围并报价。预约一次免费的 15 分钟通话，我们将在 48 小时内发送量身定制的方案。",
-    "cta_button": "预约策略咨询",
+    "cta_button": "预约策略通话",
     "pkg": {
       "oneTime": [
         {
@@ -1149,7 +1160,7 @@
             "文案撰写：$200/页",
             "新增版块：$250"
           ],
-          "ho": "付款：启动时支付 50%，完成时支付 50%（Net 7）。以客户签字确认或完成 2 轮修改为准视为完成。确认后的工作：$175/小时。",
+          "ho": "付款：启动时支付 50%，完成时支付 50%（7 天内付清）。客户签字确认或完成 2 轮修改后即视为完成。确认后的额外工作：$175/小时。",
           "bridge": "含上线后 14 天的监测（修复问题和细微调整）。需要更多页面或功能？可升级到入门启动（$6,500），获得含 AI 聊天和 CRM 搭建的完整 5 页网站。",
           "ideal": "副业项目、个人品牌、简洁落地页"
         },
@@ -1196,7 +1207,7 @@
             "新增问答（超过 25 组）：$250/批",
             "新增自动化：每条 $350"
           ],
-          "ho": "付款：启动时支付 50%，完成时支付 50%（Net 7）。以客户签字确认或完成 2 轮修改为准视为完成。确认后的工作：$175/小时。",
+          "ho": "付款：启动时支付 50%，完成时支付 50%（7 天内付清）。客户签字确认或完成 2 轮修改后即视为完成。确认后的额外工作：$175/小时。",
           "bridge": "含上线后 30 天的监测（问题修复、聊天机器人检查、CRM 健康状况）。30 天后，持续的维护、更新和 AI 调优将转入我们的维护与监控方案（$1,500/月），确保系统始终处于最佳状态。",
           "ideal": "初创公司、个人创业者、本地商家"
         },
@@ -1221,8 +1232,8 @@
               "l": "1 个基于 50 组问答训练的 AI 聊天机器人。包含预约集成（接入您的 Google Calendar 或 Calendly）。线索收集并自动录入 CRM。配置定制问候语、兜底回复和非营业时间消息。聊天机器人嵌入 3 个网站页面。"
             },
             {
-              "i": "AI 语音客服",
-              "l": "1 个接听来电、筛选线索并安排预约的呼入 AI 语音客服。撰写并配置 1 套定制通话脚本。首月含 500 分钟通话。通话录音存入您的 CRM。包含基础来电路由（AI 无法解决时转接给您）。"
+              "i": "AI 语音智能体",
+              "l": "1 个接听来电、筛选线索并安排预约的呼入 AI 语音智能体。撰写并配置 1 套定制通话脚本。首月含 500 分钟通话。通话录音存入您的 CRM。包含基础来电路由（AI 无法解决时转接给您）。"
             },
             {
               "i": "工作流自动化（共 8 条）",
@@ -1254,7 +1265,7 @@
             "新增落地页：$900",
             "超出范围的文案撰写：$200/页"
           ],
-          "ho": "付款：启动时支付 50%，完成时支付 50%（Net 7）。以签字确认或完成 3 轮修改为准视为完成。确认后的工作：$175/小时。",
+          "ho": "付款：启动时支付 50%，完成时支付 50%（7 天内付清）。签字确认或完成 3 轮修改后即视为完成。确认后的额外工作：$175/小时。",
           "bridge": "含上线后 30 天的广告管理、AI 监测和问题修复。30 天后，您的广告、AI 智能体和自动化需要持续优化才能保持效果。建议选择我们的增长引擎方案（$3,500/月）以保持势头。",
           "ideal": "正在依靠系统化扩张的成长型企业"
         },
@@ -1267,7 +1278,7 @@
           "scope": [
             {
               "i": "高端网站（15 页 + 电商）",
-              "l": "基于 Next.js 和无头 CMS（Sanity 或 Contentful）构建的 15 个完整设计页面。6 个定制动效（视差滚动、悬停效果、页面过渡、微交互）。电商就绪：集成 Shopify 或 Stripe 的 20 个商品列表、购物车和结账。包含博客、资源中心或案例研究版块。完整页面 SEO、结构化数据、Open Graph 标签、XML 站点地图和 robots.txt。含 SSL、Vercel 托管和 CDN 优化。"
+              "l": "基于 Next.js 和无头 CMS（Sanity 或 Contentful）构建的 15 个完整设计页面。6 个定制动效（视差滚动、悬停效果、页面过渡、微交互）。电商就绪：20 个商品，集成 Shopify 或 Stripe、购物车和结账。包含博客、资源中心或案例研究版块。完整页面 SEO、结构化数据、Open Graph 标签、XML 站点地图和 robots.txt。含 SSL、Vercel 托管和 CDN 优化。"
             },
             {
               "i": "完整品牌系统",
@@ -1279,7 +1290,7 @@
             },
             {
               "i": "对话式 AI 套件",
-              "l": "1 个基于 100 组问答训练、全站嵌入的 AI 聊天机器人。包含预约、线索收集、FAQ 处理和非营业时间消息。1 个 AI 语音客服，配 2 套定制通话脚本（如：呼入销售 + 预约确认）。首月含 1,000 分钟通话。通话录音存入 CRM。5 条短信自动化序列（如：预约提醒、通话后跟进、评价邀请、再触达、促销群发）。"
+              "l": "1 个基于 100 组问答训练、全站嵌入的 AI 聊天机器人。包含预约、线索收集、FAQ 处理和非营业时间消息。1 个 AI 语音智能体，配 2 套定制通话脚本（如：呼入销售 + 预约确认）。首月含 1,000 分钟通话。通话录音存入 CRM。5 条短信自动化序列（如：预约提醒、通话后跟进、评价邀请、再触达、促销群发）。"
             },
             {
               "i": "工作流自动化（共 15 条）",
@@ -1295,7 +1306,7 @@
             },
             {
               "i": "管理层数据看板",
-              "l": "在 GHL 或 Google Looker Studio 中构建的 1 个综合看板。10 个组件：网站流量、线索管道、转化率、Google Ads 表现（CPC、CTR、ROAS）、Meta Ads 表现、聊天机器人互动、语音客服通话量、邮件打开/点击率、收入归因和周趋势图表。每周摘要邮件自动发送给 3 位收件人。"
+              "l": "在 GHL 或 Google Looker Studio 中构建的 1 个综合看板。10 个组件：网站流量、线索管道、转化率、Google Ads 表现（CPC、CTR、ROAS）、Meta Ads 表现、聊天机器人互动、语音智能体通话量、邮件打开/点击率、收入归因和周趋势图表。每周摘要邮件自动发送给 3 位收件人。"
             },
             {
               "i": "设计修改",
@@ -1316,7 +1327,7 @@
             "商品（超过 20 个）：$75/个",
             "第 1 个月之后的内容：需签订月度服务"
           ],
-          "ho": "付款：启动时支付 50%，中期里程碑支付 25%，完成时支付 25%（Net 7）。以签字确认或完成 3 轮修改为准视为完成。确认后的工作：$175/小时。",
+          "ho": "付款：启动时支付 50%，中期里程碑支付 25%，完成时支付 25%（7 天内付清）。签字确认或完成 3 轮修改后即视为完成。确认后的额外工作：$175/小时。",
           "bridge": "含上线后 45 天：全面监测、广告管理、AI 调优和问题修复。45 天后，您的 AI 生态、广告系列和内容系统需要持续运营才能产出成果。我们会根据您的需求推荐全面合作（$7,500/月）或增长引擎（$3,500/月）。",
           "ideal": "希望建立完整 AI 基础设施的成熟企业"
         }
@@ -1365,7 +1376,7 @@
             "修改轮次：$175",
             "视频内容（Reels/Shorts）：每条 $175"
           ],
-          "ho": "付款：启动时支付 50%，完成时支付 50%（Net 7）。以签字确认或完成 1 轮修改为准视为完成。交付后的改动：$175/小时。",
+          "ho": "付款：启动时支付 50%，完成时支付 50%（7 天内付清）。签字确认或完成 1 轮修改后即视为完成。交付后的改动：$175/小时。",
           "bridge": "您的主页已搭建完毕，随时可以启用。要保持活跃并持续增长，可加购我们的社媒入门方案（$1,500/月）或 $650/月起的单平台运营。",
           "ideal": "在某个平台从零起步的企业"
         },
@@ -1422,7 +1433,7 @@
             "视频内容：每条 $175",
             "新增 link-in-bio 页面：$200"
           ],
-          "ho": "付款：启动时支付 50%，完成时支付 50%（Net 7）。以签字确认或完成 2 轮修改为准视为完成。交付后：$175/小时。",
+          "ho": "付款：启动时支付 50%，完成时支付 50%（7 天内付清）。签字确认或完成 2 轮修改后即视为完成。交付后的改动：$175/小时。",
           "bridge": "所有平台已准备就绪，并规划好 30 天内容。要持续增长，我们推荐社媒增长方案（$2,500/月）或按平台加购。",
           "ideal": "正在启动或焕新社交形象的企业"
         },
@@ -1482,7 +1493,7 @@
             "修改轮次：$250",
             "YouTube 片头/片尾视频：$600"
           ],
-          "ho": "付款：启动时支付 50%，完成时支付 50%（Net 7）。以签字确认或完成 2 轮修改为准视为完成。交付后：$175/小时。",
+          "ho": "付款：启动时支付 50%，完成时支付 50%（7 天内付清）。签字确认或完成 2 轮修改后即视为完成。交付后的改动：$175/小时。",
           "bridge": "您的整个社交形象已重建完毕，并备好 60 天内容。要保持势头，我们推荐社媒制霸（$4,500/月）或社媒增长（$2,500/月）。",
           "ideal": "社交形象过时或不统一的成熟企业"
         }
@@ -1528,7 +1539,7 @@
             "自动化（超过 3 次）：每次 $250",
             "紧急/当天处理：+50%"
           ],
-          "ex": "不含广告管理、内容创作、新功能、语音客服和社交媒体。需选择更高档位。",
+          "ex": "不含广告管理、内容创作、新功能、语音智能体和社交媒体。需选择更高档位。",
           "ideal": "上线后的安心保障"
         },
         {
@@ -1558,7 +1569,7 @@
             },
             {
               "i": "AI 系统优化",
-              "l": "聊天机器人：每月更新 15 组问答。审查聊天机器人转化率和回答准确度。语音客服：每月 1 次通话脚本修订（调整措辞、流程或筛选标准）。月度报告中包含 AI 表现指标。不包含构建新智能体或新自动化工作流。"
+              "l": "聊天机器人：每月更新 15 组问答。审查聊天机器人转化率和回答准确度。语音智能体：每月 1 次通话脚本修订（调整措辞、流程或筛选标准）。月度报告中包含 AI 表现指标。不包含构建新智能体或新自动化工作流。"
             },
             {
               "i": "策略更新",
@@ -1604,7 +1615,7 @@
             },
             {
               "i": "AI 生态管理",
-              "l": "管理并优化 5 个在用 AI 智能体（聊天机器人、语音客服、邮件智能体、短信智能体）。每月构建 2 条新自动化工作流（如新线索序列、追加销售流程、再触达活动）。月度智能体表现回顾：回答准确度、解决率、通话时长和线索转化。在范围内按需进行智能体再训练和脚本更新。"
+              "l": "管理并优化 5 个在用 AI 智能体（聊天机器人、语音智能体、邮件智能体、短信智能体）。每月构建 2 条新自动化工作流（如新线索序列、追加销售流程、再触达活动）。月度智能体表现回顾：回答准确度、解决率、通话时长和线索转化。在范围内按需进行智能体再训练和脚本更新。"
             },
             {
               "i": "内容系统（扩展版）",
@@ -1837,8 +1848,8 @@
             "竞品分析加购项：$750（审计 3 个竞品）",
             "需求探索延长超过 2 周：$1,200/周"
           ],
-          "ho": "付款：启动时支付 50%，交付时支付 50%（Net 7）。如在交付后 30 天内进入构建阶段，需求探索费用可抵扣构建费用。如不继续，所有交付物（线框图、SOW、架构文档）均归您所有，可与任何开发者合作使用。",
-          "ideal": "任何考虑定制开发的人。这是第一步。"
+          "ho": "付款：启动时支付 50%，交付时支付 50%（7 天内付清）。如在交付后 30 天内进入构建阶段，需求探索费用可抵扣构建费用。如不继续，所有交付物（线框图、SOW、架构文档）均归您所有，可与任何开发者合作使用。",
+          "ideal": "所有考虑定制开发的客户。这是第一步。"
         },
         {
           "name": "标准构建",
@@ -1893,7 +1904,7 @@
             "高级报表/分析看板：$5,000",
             "原生移动应用（iOS 或 Android）：见企业级构建档位"
           ],
-          "ho": "付款：启动时支付 50%，中期里程碑支付 25%，完成时支付 25%（Net 7）。含上线后 30 天的问题修复（仅限原 SOW 中功能的问题）。30 天后，持续支持转为维护月度服务。所有代码归您所有。项目完成时移交代码库、设计文件和文档的完整所有权。",
+          "ho": "付款：启动时支付 50%，中期里程碑支付 25%，完成时支付 25%（7 天内付清）。含上线后 30 天的问题修复（仅限原 SOW 中功能的问题）。30 天后，持续支持转为维护月度服务。所有代码归您所有。项目完成时移交代码库、设计文件和文档的完整所有权。",
           "bridge": "您的平台已上线并稳定运行。要保持其运行、安全并持续演进，我们推荐开发支持月度服务（$1,500/月）或小时包（$2,500/月含 10 小时）。",
           "ideal": "门户、看板、内部工具和 SaaS MVP"
         },
@@ -1949,7 +1960,7 @@
             "第三方渗透测试协调：$5,000",
             "白标/多租户加购项（如未包含）：$15,000"
           ],
-          "ho": "付款：启动时支付 50%，中期里程碑支付 25%，完成时支付 25%（Net 7）。每阶段含上线后 45 天的问题修复。完成时所有代码、设计文件和文档移交给您。代码库完整所有权。45 天后，持续支持转为维护月度服务。",
+          "ho": "付款：启动时支付 50%，中期里程碑支付 25%，完成时支付 25%（7 天内付清）。每阶段含上线后 45 天的问题修复。完成时所有代码、设计文件和文档移交给您。代码库完整所有权。45 天后，持续支持转为维护月度服务。",
           "bridge": "复杂系统需要持续的开发、监控和优化。我们推荐持续开发月度服务（$7,500/月），让您的平台随业务一同演进。",
           "ideal": "SaaS 平台、多租户系统、AI 集成产品和企业工具"
         }
@@ -1964,7 +1975,7 @@
           "scope": [
             {
               "i": "定制 AI 智能体（1 个）",
-              "l": "为您的业务量身设计、训练和部署的 1 个专用 AI 智能体。可选：语音客服、邮件智能体、网页抓取智能体、PDF 生成智能体、客户支持聊天机器人、线索筛选智能体、数据处理智能体、预约智能体，或任何定制用途。智能体根据您的具体工作流、品牌声音和数据源定制。"
+              "l": "为您的业务量身设计、训练和部署的 1 个专用 AI 智能体。可选：语音智能体、邮件智能体、网页抓取智能体、PDF 生成智能体、客户支持聊天机器人、线索筛选智能体、数据处理智能体、预约智能体，或任何定制用途。智能体根据您的具体工作流、品牌声音和数据源定制。"
             },
             {
               "i": "智能体训练与配置",
@@ -1990,7 +2001,7 @@
             "加急交付（1 周内）：+40%",
             "智能体再训练：$750"
           ],
-          "ho": "付款：启动时支付 50%，完成时支付 50%（Net 7）。以签字确认或完成 2 轮修改为准视为完成。智能体所有权移交给您。",
+          "ho": "付款：启动时支付 50%，完成时支付 50%（7 天内付清）。签字确认或完成 2 轮修改后即视为完成。智能体所有权移交给您。",
           "bridge": "您的智能体已上线。要持续监控、优化和再训练，可加购我们的智能体维护（$1,500/月）或智能体增长（$3,500/月）月度服务。",
           "ideal": "希望自动化某一特定工作流的企业"
         },
@@ -2004,7 +2015,7 @@
           "scope": [
             {
               "i": "定制 AI 智能体（3 个）",
-              "l": "3 个相互连接、作为协同系统运作的 AI 智能体。配置示例：（1）语音客服接听来电 + 邮件智能体发送跟进 + CRM 智能体更新管道。（2）抓取智能体收集数据 + 处理智能体整理报告 + 邮件智能体分发。（3）聊天机器人收集线索 + 筛选智能体评分 + 预约智能体安排通话。智能体之间相互通信并自动共享数据。"
+              "l": "3 个相互连接、作为协同系统运作的 AI 智能体。配置示例：（1）语音智能体接听来电 + 邮件智能体发送跟进 + CRM 智能体更新管道。（2）抓取智能体收集数据 + 处理智能体整理报告 + 邮件智能体分发。（3）聊天机器人收集线索 + 筛选智能体评分 + 预约智能体安排通话。智能体之间相互通信并自动共享数据。"
             },
             {
               "i": "工作流编排",
@@ -2030,7 +2041,7 @@
             "额外修改轮次：$400",
             "加急交付：+40%"
           ],
-          "ho": "付款：启动时支付 50%，完成时支付 50%（Net 7）。以签字确认或完成 2 轮修改为准视为完成。所有智能体和代码的所有权移交给您。",
+          "ho": "付款：启动时支付 50%，完成时支付 50%（7 天内付清）。签字确认或完成 2 轮修改后即视为完成。所有智能体和代码的所有权移交给您。",
           "bridge": "您的智能体团队已上线并协同运作。如需持续优化、再训练和新增智能体，可加购我们的智能体增长（$3,500/月）或智能体指挥中心（$7,500/月）月度服务。",
           "ideal": "希望端到端自动化多步骤工作流的企业"
         },
@@ -2069,7 +2080,7 @@
             "实时培训通话：$250/小时",
             "加急交付：+30%"
           ],
-          "ho": "付款：启动时支付 50%，中期里程碑支付 25%，完成时支付 25%（Net 7）。分阶段交付（通常 2 或 3 个阶段）。每个阶段有明确的交付物和验收。完成时所有代码和智能体的所有权移交给您。",
+          "ho": "付款：启动时支付 50%，中期里程碑支付 25%，完成时支付 25%（7 天内付清）。分阶段交付（通常 2 或 3 个阶段）。每个阶段有明确的交付物和验收。完成时所有代码和智能体的所有权移交给您。",
           "bridge": "您的 AI 生态已全面投入运行。要保持其运行、优化和扩展，可加购我们的智能体指挥中心（$7,500/月）月度服务。",
           "ideal": "希望用规模化智能自动化取代人工流程的企业"
         }
@@ -2236,7 +2247,7 @@
             },
             {
               "i": "月度摘要",
-              "l": "月末报告显示：已用小时、已完成任务、剩余小时，以及延续到下个月的未结事项。没有意外。"
+              "l": "月末报告显示：已用小时、已完成任务、剩余小时，以及延续到下个月的未结事项。没有任何意外。"
             },
             {
               "i": "涵盖范围",
@@ -2837,7 +2848,7 @@
             },
             {
               "i": "共 6 个广告创意",
-              "l": "2 张静态图 + 2 条短视频 + 2 个变体钩子。由我们的团队基于您的品牌素材拍摄和剪辑，如需要可远程拍摄 1 条产品演示视频。"
+              "l": "2 张静态图 + 2 条短视频 + 2 个变体钩子。由我们的团队基于您的品牌素材拍摄和剪辑，如有需要，另远程拍摄 1 条产品演示视频。"
             },
             {
               "i": "1 个专属落地页 + A/B 变体",
@@ -3235,7 +3246,7 @@
     "how_1_title": "天生远程",
     "how_1_text": "柏林是总部。创意总监在弗吉尼亚，营销在洛杉矶，视频在巴基斯坦。以异步协作为主，确有必要时才开会。",
     "how_2_title": "您负责整个项目",
-    "how_2_text": "一个人从头到尾负责一个项目，并直接与客户沟通。案例研究承载的是您的作品，而不是某个部门的。",
+    "how_2_text": "一个人从头到尾负责一个项目，并直接与客户沟通。案例研究署的是您的名字，而不是某个部门。",
     "how_3_title": "从零开始构建",
     "how_3_text": "Next.js 与 React，纯手工开发。不用页面搭建工具，不买现成主题。如果您喜欢快速的网站和干净的代码，您会喜欢这里。",
     "how_4_title": "看数据，不看感觉",
@@ -3260,19 +3271,19 @@
     "bronco_proof": "开业前 5 个月总营收 $50k+。52 条 Google 评价，5.0 星。",
     "ripz_where": "电商，美国",
     "ripz_proof": "我们搭建的 Shopify 店铺创造 $191k 集换式卡牌销售额、1,790 笔订单。店主此后已将店铺下线。",
-    "view_case": "查看案例研究",
+    "view_case": "查看案例",
     "results_alt": "{name} 成果",
     "captions_label": "英语"
   },
   "impressum": {
     "meta_title": "法律声明（Impressum）",
     "meta_description": "Blok Blok Studio LLC 依据 § 5 DDG 发布的法律声明（Impressum）。",
-    "subtitle": "依据 § 5 DDG（德国数字服务法）的法律声明",
+    "subtitle": "依据 § 5 DDG（德国《数字服务法》）的法律声明",
     "provider_title": "服务提供者",
     "provider_country": "美利坚合众国",
-    "registered": "已在 Nevada Secretary of State（美国）登记为 Limited Liability Company（有限责任公司）。",
+    "registered": "已在美国内华达州州务卿办公室（Nevada Secretary of State）登记为有限责任公司（LLC）。",
     "represented_title": "代表人",
-    "represented": "Chase Haynes（Managing Member）",
+    "represented": "Chase Haynes（管理成员）",
     "responsible": "依据 § 18 (2) MStV 的内容负责人：Chase Haynes",
     "contact_title": "联系方式",
     "email_label": "邮箱",
@@ -3312,7 +3323,7 @@
     "country_united_states": "美国"
   },
   "seo": {
-    "org_description": "一家创意网页设计工作室，为有抱负的品牌打造定制、以转化为核心的网站。",
+    "org_description": "一家柏林网页设计工作室，为有抱负的品牌打造定制、以转化为核心的网站。",
     "local_description": "位于柏林的网页设计工作室，为全球有抱负的品牌打造定制 Next.js 网站。",
     "offer_catalog": "网页设计服务",
     "service_name": "网站",

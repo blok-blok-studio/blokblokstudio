@@ -18,7 +18,7 @@ export async function OrganizationSchema() {
       '@type': 'ContactPoint',
       contactType: 'customer service',
       url: 'https://www.blokblokstudio.com/contact',
-      availableLanguage: ['English', 'German', 'French', 'Spanish'],
+      availableLanguage: ['English', 'German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese', 'Polish', 'Russian', 'Swedish', 'Turkish', 'Arabic', 'Hindi', 'Indonesian', 'Japanese', 'Korean', 'Thai', 'Vietnamese', 'Chinese'],
     },
     sameAs: [
       'https://www.instagram.com/blokblokstudio/',
@@ -184,7 +184,7 @@ export async function LocalBusinessSchema() {
       knowsAbout: [t('knows_1'), t('knows_2'), t('knows_4'), t('knows_3')],
       sameAs: [
         'https://www.linkedin.com/in/chase-haynes/',
-        'https://www.instagram.com/haynes2va/',
+        'https://www.instagram.com/itschasehaynes/',
       ],
     },
     address: {
@@ -219,9 +219,9 @@ export async function LocalBusinessSchema() {
       opens: '09:00',
       closes: '18:00',
     },
-    // Four, per the founder video: Chase, creative director (Virginia),
-    // marketing strategist (L.A.), full stack dev (Berlin).
-    numberOfEmployees: { '@type': 'QuantitativeValue', value: 4 },
+    // Five: founder, creative director (Richmond), marketing (Los Angeles),
+    // full stack dev (Berlin), video (Multan). Matches the team page.
+    numberOfEmployees: { '@type': 'QuantitativeValue', value: 5 },
     sameAs: [
       'https://www.instagram.com/blokblokstudio/',
       'https://www.linkedin.com/company/blok-blok-studio/',

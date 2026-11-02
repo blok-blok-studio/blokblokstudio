@@ -7,8 +7,8 @@ import type { LocaleBundle } from './types';
 export const fr: LocaleBundle = {
   projects: {
     'coach-luki': {
-      desc: 'Site de coaching sportif orienté conversion pour le coach personnel vegan de référence à Berlin.',
-      challenge: 'Luke Satterly (Coach Luki) est l\'un des coachs personnels les plus engagés de Berlin. Athlète vegan qui entraîne ses clients chez Holmes Place et John Reed, il lui fallait un site à la hauteur de son énergie : audacieux, axé sur les résultats et conçu pour convertir. L\'objectif était simple. Un visiteur arrive sur le site, comprend immédiatement ce que fait Luki, voit les preuves et réserve un appel. Pas de blabla. Pas de confusion. Juste des résultats.',
+      desc: 'Site de coaching sportif orienté conversion pour le coach personnel végan de référence à Berlin.',
+      challenge: 'Luke Satterly (Coach Luki) est l\'un des coachs personnels les plus engagés de Berlin. Athlète végan qui entraîne ses clients chez Holmes Place et John Reed, il lui fallait un site à la hauteur de son énergie : audacieux, axé sur les résultats et conçu pour convertir. L\'objectif était simple. Un visiteur arrive sur le site, comprend immédiatement ce que fait Luki, voit les preuves et réserve un appel. Pas de blabla. Pas de confusion. Juste des résultats.',
       solution: 'Nous avons conçu un site où chaque section mène vers un seul objectif : réserver une consultation gratuite. L\'intégration des paiements Stripe permet aux clients d\'acheter leurs forfaits de séances directement, sans aucune friction. Le SEO local berlinois a été intégré dès le premier jour, en ciblant des recherches comme « personal trainer Berlin » et « coach fitness vegan Berlin ».',
       results: 'Un site de coaching entièrement optimisé pour la conversion, en ligne à Berlin, conçu, designé et déployé par BlokBlok Studio. Les clients réservent et paient désormais directement sur le site, ce qui met fin aux messages privés et aux factures manuelles. Le positionnement SEO local génère du trafic organique depuis les recherches berlinoises.',
     },
@@ -255,11 +255,11 @@ Si votre site actuel ne ressemble pas à l'entreprise que vous avez réellement 
     kofi: {
       name: 'Coach Kofi parle de sa collaboration avec Blok Blok Studio',
       description: 'Témoignage vidéo de Coach Kofi, athlète Nike et coach personnel à Berlin, filmé dans sa salle. Blok Blok Studio a réalisé coachkofi.de ; les demandes de consultation ont augmenté de 200 % après le lancement.',
-      transcript: `Je travaille avec Chase sur mon site web en ce moment, et le résultat est complètement dingue. Il m'a donné ce côté logo Apple, design Apple. Les éléments apparaissent vraiment bien. Le site a une finition très fluide.
+      transcript: `J'ai travaillé avec Chase sur mon site web, et le résultat est complètement dingue. Il m'a donné ce côté logo Apple, design Apple. Les éléments apparaissent vraiment bien. Le site a une finition très fluide.
 
 Personnellement, j'aime les sites d'une seule page. C'est ce qu'on a choisi. La communication avec lui est vraiment facile. C'est quelqu'un de bien, vraiment. Très déterminé.
 
-Et je pense qu'il vous faut quelqu'un qui travaille avec vous sur votre vitrine logicielle. Il vous faut quelqu'un de réactif, qui connaît son métier et qui sait s'adapter à vos besoins.
+Et je pense qu'il vous faut quelqu'un qui travaille avec vous sur votre vitrine en ligne. Il vous faut quelqu'un de réactif, qui connaît son métier et qui sait s'adapter à vos besoins.
 
 Donc oui, je recommande vraiment Chase, ou Blok Blok Studio. Travailler avec eux m'a vraiment aidé. Franchement, essayez. Ils sont vraiment bons.`,
     },
@@ -471,7 +471,7 @@ Encore en dessous, il y a un formulaire de contact. Renseignez simplement vos in
       features: [
         {
           title: 'Réservation et paiement sur le site',
-          desc: 'Les clients choisissent un créneau et paient en un seul parcours via Stripe. Plus d\'allers-retours en messages privés, plus de paiements à relancer, plus de lapins faute de réservation confirmée.',
+          desc: 'Les clients choisissent un créneau et paient en un seul parcours via Stripe. Plus d\'allers-retours en messages privés, plus de paiements à relancer, plus de rendez-vous manqués faute de réservation confirmée.',
         },
         {
           title: 'Une page qui vend votre méthode',

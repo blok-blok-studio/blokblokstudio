@@ -89,6 +89,7 @@ export function ContactContent() {
    */
   const t = useTranslations('contact');
   const th = useTranslations('home');
+  const ts = useTranslations('start');
   const tp = useTranslations('places');
 
   /**
@@ -127,12 +128,12 @@ export function ContactContent() {
 
       if (!res.ok) {
         const data = await res.json();
-        throw new Error(data.error || 'Failed to submit');
+        throw new Error(data.error || ts('error_generic'));
       }
 
       setSubmitted(true);
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Something went wrong');
+      setError(err instanceof Error ? err.message : ts('error_generic'));
     } finally {
       setSubmitting(false);
     }
@@ -338,7 +339,7 @@ export function ContactContent() {
                   whileTap={{ scale: 0.98 }}
                   className="w-full sm:w-auto px-10 py-4 rounded-full bg-orange-500 text-(--bb-on-primary) font-medium hover:bg-orange-400 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {submitting ? 'Sending...' : t('submit')}
+                  {submitting ? ts('sending') : t('submit')}
                 </motion.button>
               </form>
             )}

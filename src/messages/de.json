@@ -2,8 +2,8 @@
   "nav": {
     "home": "Startseite",
     "projects": "Projekte",
-    "about": "Über Uns",
-    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "services": "Leistungen",
     "pricing": "Preise",
     "team": "Team",
     "contact": "Kontakt",
@@ -57,7 +57,7 @@
       },
       {
         "category": "pricing",
-        "question": "Bietet ihr monatliche Betreuung oder nur Projekte?",
+        "question": "Bieten Sie monatliche Betreuung an oder nur Projektarbeit?",
         "answer": "Beides. Projekte beginnen bei 2.000 $ und werden in Meilensteinen abgerechnet. Betreuungspakete starten bei 1.500 $ im Monat für Wartung, KI-Monitoring und CRM-Pflege oder 3.500 $ im Monat für den kompletten Wachstumsservice mit Google- und Meta-Ads, KI-gestützter Content-Produktion und fünf Stunden Entwicklung pro Monat. Mindestlaufzeit drei oder sechs Monate."
       },
       {
@@ -73,7 +73,7 @@
       {
         "category": "process",
         "question": "Wie läuft Design und Entwicklung ab?",
-        "answer": "Fünf Phasen: Discovery (Ihre Ziele und Zielgruppe), Strategie (ein maßgeschneiderter Fahrplan), Design (visuelle Konzepte und Prototypen), Entwicklung (moderner, performanter Code) und Launch & Optimierung (live gehen, beobachten, verfeinern). Sie bekommen wöchentliche Updates und zu jedem Meilenstein ein Loom-Video, keine Statusmeetings, außer Sie wünschen sie."
+        "answer": "Fünf Phasen: Analyse (Ihre Ziele und Zielgruppe), Strategie (ein maßgeschneiderter Fahrplan), Design (visuelle Konzepte und Prototypen), Entwicklung (moderner, performanter Code) und Launch & Optimierung (live gehen, beobachten, verfeinern). Sie bekommen wöchentliche Updates und zu jedem Meilenstein ein Loom-Video, keine Statusmeetings, außer Sie wünschen sie."
       },
       {
         "category": "capabilities",
@@ -87,17 +87,17 @@
       },
       {
         "category": "capabilities",
-        "question": "Baut ihr Websites mit Next.js, WordPress oder Webflow?",
+        "question": "Bauen Sie Websites mit Next.js, WordPress oder Webflow?",
         "answer": "Wir bauen ausschließlich mit Next.js, TypeScript, Tailwind CSS und Framer Motion. Gehostet wird auf Vercel, mit Ladezeiten unter einer Sekunde und weltweiter Auslieferung. WordPress, Wix, Squarespace oder Webflow setzen wir nicht ein: Diese Plattformen liefern weder die Performance noch die individuellen Animationen oder KI-Integrationen, die unsere Kunden brauchen."
       },
       {
         "category": "capabilities",
-        "question": "Schreibt ihr die Texte, oder liefere ich sie?",
+        "question": "Schreiben Sie die Texte, oder liefere ich sie?",
         "answer": "Beides geht. Die meisten Kunden liefern Stichpunkte oder Rohnotizen, aus denen wir die finalen Texte formen. Komplettes professionelles Copywriting ist in unserem 18.000-$-Paket enthalten und für alle anderen Pakete als Add-on für 200 $ pro Seite buchbar. Anzeigentexte für Google- und Meta-Kampagnen schreiben immer wir, wenn wir die Kampagnen betreuen."
       },
       {
         "category": "trust",
-        "question": "Wo sitzt Blok Blok Studio, und arbeitet ihr international?",
+        "question": "Wo sitzt Blok Blok Studio, und arbeiten Sie international?",
         "answer": "Unser Studio sitzt in Berlin. Wir arbeiten mit Kunden in den USA, Großbritannien, den Niederlanden, Frankreich, Spanien und in der ganzen EU. Die Kommunikation läuft asynchron über Loom, E-Mail und Textnachrichten, wir passen uns jeder Zeitzone an. Rechnungen und Verträge gibt es in USD oder EUR, ganz nach Wunsch."
       },
       {
@@ -108,20 +108,20 @@
       {
         "category": "trust",
         "question": "Ist meine Seite mobil optimiert und SEO-fähig?",
-        "answer": "Ja, beides ist bei jedem Projekt gesetzt. Mobile-first Design wird bei 375, 768, 1024 und 1440 Pixeln getestet. Jede Seite kommt mit Meta-Titeln, Beschreibungen, Schema-Markup, Alt-Texten und einer bei Google eingereichten Sitemap. Vor dem Launch zielen wir auf Lighthouse-Werte von über 90 für Performance und über 95 für Barrierefreiheit."
+        "answer": "Ja, beides ist bei jedem Projekt gesetzt. Mobile-First-Design wird bei 375, 768, 1024 und 1440 Pixeln getestet. Jede Seite kommt mit Meta-Titeln, Beschreibungen, Schema-Markup, Alt-Texten und einer bei Google eingereichten Sitemap. Vor dem Launch zielen wir auf Lighthouse-Werte von mindestens 90 für Performance und mindestens 95 für Barrierefreiheit."
       }
     ]
   },
   "home": {
     "hero_title": "Webdesign-Studio in Berlin",
     "hero_subtitle": "Wir entwerfen und entwickeln maßgeschneiderte Next.js-Websites für ambitionierte Marken weltweit. Premium-Webdesign mit Fokus auf Conversion, niemals Templates.",
-    "hero_cta": "Projekt Starten",
+    "hero_cta": "Projekt starten",
     "clients_heading": "Marken mit Weitblick vertrauen uns",
-    "services_heading": "Was Wir Tun",
-    "services_subheading": "Wir kombinieren Strategie, Design und Technologie, um digitale Erlebnisse zu schaffen, die Ergebnisse liefern.",
+    "services_heading": "Was wir tun",
+    "services_subheading": "Wir verbinden Strategie, Design und moderne Webtechnologie zu Websites, die Ergebnisse bringen.",
     "projects_heading": "Ausgewählte Arbeiten",
-    "projects_subheading": "Eine Auswahl von Projekten, bei denen Kreativität auf Zweck trifft.",
-    "projects_cta": "Alle Projekte Ansehen",
+    "projects_subheading": "Eine Auswahl an Projekten, in denen Kreativität einem klaren Ziel dient.",
+    "projects_cta": "Alle Projekte ansehen",
     "testimonials_heading": "Das sagen unsere Kunden",
     "testimonials_subtitle": "Verlassen Sie sich nicht nur auf unser Wort. Hören Sie, was die Marken sagen, die wir begleitet haben.",
     "newsletter_heading": "Jede Woche neue Design-Insights",
@@ -137,11 +137,11 @@
     "tab_creative": "Kreativ & Marketing",
     "audit_badge": "Kostenlos: 30 Minuten",
     "audit_heading": "Nicht sicher, was Ihr Unternehmen braucht?",
-    "audit_subheading": "Buchen Sie ein kostenloses Strategiegespräch. Wir überprüfen Ihr Unternehmen und zeigen Ihnen, wo die größten Chancen liegen.",
+    "audit_subheading": "Buchen Sie ein kostenloses Strategiegespräch. Wir sehen uns Ihr Unternehmen an und zeigen Ihnen genau, wo die größten Chancen liegen.",
     "audit_button": "Kostenloses Gespräch buchen",
-    "cta_heading": "Bereit, Etwas Großartiges zu Bauen?",
+    "cta_heading": "Bereit, etwas Großartiges zu bauen?",
     "cta_subheading": "Lassen Sie uns zusammenarbeiten und Ihre Vision zum Leben erwecken.",
-    "cta_button": "Kontaktieren Sie Uns",
+    "cta_button": "Kontakt aufnehmen",
     "stats_projects": "Projekte geliefert",
     "stats_brands": "Marken betreut",
     "stats_industries": "Branchen",
@@ -172,7 +172,7 @@
     "v2_result_exotic_ripz": "191.000 $ Umsatz bei 1.790 Bestellungen. Drops waren in Stunden ausverkauft.",
     "v2_result_kds_systems": "Klares Leistungsangebot und ein Buchungsprozess, der mehr qualifizierte Anfragen bringt.",
     "v2_proof_label": "Die Zahlen",
-    "v2_proof_1_value": "191k $",
+    "v2_proof_1_value": "191.000 $",
     "v2_proof_1_label": "Umsatz über einen einzigen Shop, den wir gebaut haben",
     "v2_proof_2_value": "5,0",
     "v2_proof_2_label": "Google-Bewertung bei 52 Rezensionen, Bronco Plumbing",
@@ -180,7 +180,7 @@
     "v2_proof_3_label": "Mehr Beratungsanfragen, Coach Kofi",
     "v2_quotes_label": "Kunden",
     "v2_clients_label": "Unsere Kunden",
-    "v2_talk": "Lass uns reden.",
+    "v2_talk": "Reden wir.",
     "v2_talk_sub": "Sagen Sie uns, was Ihre Seite leisten soll. Wir sagen Ihnen, was dafür nötig ist.",
     "v2_founder": "Gründer",
     "v2_email": "Nachricht schreiben",
@@ -228,15 +228,15 @@
     "v2_hosting_bullet_3": "Sicherheitsupdates und aktuelle Abhängigkeiten",
     "v2_hosting_bullet_4": "Speed-Tuning und Core-Web-Vitals-Checks",
     "v2_hosting_bullet_5": "Inhaltsänderungen und Support, wann immer Sie sie brauchen",
-    "v2_globe_hint": "Ziehen zum Drehen, Scrollen oder Pinch zum Zoomen, oder eine Stadt auswählen.",
+    "v2_globe_hint": "Zum Drehen ziehen, zum Zoomen scrollen oder mit zwei Fingern zusammenziehen, oder eine Stadt auswählen.",
     "v2_proof_4_value": "3+ Mrd. $",
     "v2_proof_4_label": "Jahresumsatz unseres größten Kunden, Philippine Airlines",
     "v2_result_public_affair": "Ein hochwertiger Alterscheck, den 95 % der Besucher abschließen.",
     "v2_result_military_newschool": "Ein digitales Zuhause für Studierende mit Militärhintergrund.",
     "v2_archive": "Archiv",
     "v2_globe_nowebgl": "WebGL ist in diesem Browser deaktiviert. Die Städte finden Sie in der Liste daneben.",
-    "v2_quote_1_role": "Bronco Plumbing, Dallas–Fort Worth",
-    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_1_role": "Bronco Plumbing, Dallas-Fort Worth",
+    "v2_quote_2_role": "Nike-Athlet, Berlin",
     "v2_quote_3_role": "Sammelkarten-Shop",
     "v2_quote_1_text": "50.000 $ Bruttoumsatz in den ersten fünf Monaten, 5,0 Sterne bei 52 Google-Bewertungen und im Schnitt Position 5,2 bei Google für seine Suchbegriffe.",
     "v2_quote_2_text": "Blok Blok Studio hat meinen Online-Auftritt komplett verwandelt. Das markante Design trifft meine Coaching-Philosophie genau, und die Ergebnisse sind unglaublich.",
@@ -244,7 +244,7 @@
     "v2_quote_1_kind": "Ergebnisse",
     "v2_offer_title": "Websites, gebaut und gehostet",
     "v2_offer_subtitle": "Individuell gebaut, auf Conversion ausgelegt, Hosting und Betreuung inklusive",
-    "v2_offer_build_label": "Der Bau",
+    "v2_offer_build_label": "Die Umsetzung",
     "v2_offer_care_label": "Hosting und Betreuung, inklusive",
     "v2_result_grant_parkhurst": "Portfolio plus Self-Service-Kundenportal, live seit September 2026.",
     "v2_next_label": "So geht es weiter",
@@ -259,34 +259,34 @@
   },
   "projects": {
     "title": "Unsere Projekte",
-    "subtitle": "Entdecken Sie unser Portfolio digitaler Erlebnisse, Markenidentitäten und kreativer Lösungen.",
+    "subtitle": "Jede Website, die wir ausgeliefert haben, mit den Zahlen, die sie gebracht hat.",
     "filter_all": "Alle",
     "filter_web": "Webdesign",
     "filter_brand": "Branding",
     "filter_app": "App-Entwicklung",
     "filter_marketing": "Marketing",
-    "view_project": "Projekt Ansehen",
+    "view_project": "Projekt ansehen",
     "cat_web": "Webdesign",
     "cat_ecom": "E-Commerce",
     "cat_brand": "Branding",
     "v2_label": "Ausgewählte Arbeiten",
-    "v2_count": "{count} Projekte",
+    "v2_count": "{count, plural, one {# Projekt} other {# Projekte}}",
     "alt_live_preview": "Live-Vorschau von {title}",
     "alt_mobile_preview": "Mobile Vorschau von {title}",
     "alt_gallery": "Galeriebild {n} von {title}"
   },
   "about": {
-    "title": "Über Uns",
-    "subtitle": "Wir sind ein Kollektiv aus Designern, Entwicklern und Strategen, die leidenschaftlich bedeutungsvolle digitale Erlebnisse schaffen.",
+    "title": "Über uns",
+    "subtitle": "Ein Studio mit fünf Leuten, das Websites gestaltet, baut und hostet. Gegründet in Berlin im Juni 2024.",
     "mission_title": "Unsere Mission",
     "mission_text": "Ambitionierten Marken die Websites, Systeme und Kampagnen zu geben, die ihnen wirklich Kunden bringen.",
     "vision_title": "Unsere Vision",
-    "vision_text": "Der kreative Partner der Wahl für Marken zu sein, die es wagen, in der digitalen Landschaft aufzufallen.",
+    "vision_text": "Das Studio zu sein, das ambitionierte Marken zuerst anrufen, wenn sich die Website bezahlt machen muss.",
     "values_title": "Unsere Werte",
     "value_1_title": "Innovation",
-    "value_1_text": "Wir verschieben Grenzen und erkunden neue Möglichkeiten in jedem Projekt.",
+    "value_1_text": "Jede Website entsteht von Grund auf neu. Nichts stammt aus einem Theme.",
     "value_2_title": "Exzellenz",
-    "value_2_text": "Wir halten uns an die höchsten Standards von Qualität und Handwerkskunst.",
+    "value_2_text": "Wir messen uns an den höchsten Ansprüchen an Qualität und Handwerk.",
     "value_3_title": "Zusammenarbeit",
     "value_3_text": "Wir glauben, dass die beste Arbeit aus starken Partnerschaften mit unseren Kunden entsteht.",
     "value_4_title": "Integrität",
@@ -294,7 +294,7 @@
     "stats_projects": "Gelieferte Projekte",
     "stats_clients": "Zufriedene Kunden",
     "stats_years": "Jahre Erfahrung",
-    "stats_awards": "Bediente Branchen",
+    "stats_awards": "Betreute Branchen",
     "v2_label": "Das Studio",
     "v2_intro": "Boutique aus Überzeugung. Wir betreuen nur eine Handvoll Marken gleichzeitig, damit bei jedem Projekt ein Gründer mit am Tisch sitzt, statt Template und Ticketnummer.",
     "v2_team_label": "Mit wem Sie arbeiten",
@@ -304,7 +304,7 @@
     "ind_home_services": "Handwerk und Haustechnik",
     "ind_childcare": "Kinderbetreuung",
     "ind_real_estate": "Immobilien",
-    "ind_education": "Hochschulbildung",
+    "ind_education": "Hochschulen",
     "ind_wellness": "Wellness und Events",
     "ind_photography": "Fotografie",
     "ind_it": "IT-Dienstleistungen",
@@ -314,15 +314,15 @@
   },
   "blog": {
     "meta_title": "Blog: Insights zu Webdesign, Branding & SEO",
-    "meta_description": "Expertenwissen zu Webdesign, Branding, SEO und digitalem Marketing von Blok Blok Studio. Umsetzbare Tipps für Ihre Online-Präsenz.",
+    "meta_description": "Was wir beim Bauen von Websites gelernt haben, die sich bezahlt machen: Artikel, Kundenvideos und Studio-News von Blok Blok Studio.",
     "og_alt": "Blok Blok Studio Blog",
     "list_title": "Ideen",
     "list_subtitle": "Was wir beim Bauen von Websites gelernt haben, die Umsatz bringen: Artikel, Kunden vor der Kamera und Neues aus dem Studio.",
     "read_time": "{minutes} Min. Lesezeit",
     "read_article": "Artikel lesen",
     "back_to_blog": "Zurück zum Blog",
-    "cta_title": "Wollen Sie solche Ergebnisse?",
-    "cta_subtitle": "Buchen Sie ein kostenloses Strategiegespräch und lassen Sie uns besprechen, wie wir Ihre digitale Präsenz transformieren.",
+    "cta_title": "Solche Ergebnisse auch für Sie?",
+    "cta_subtitle": "Buchen Sie ein kostenloses Gespräch, und wir zeigen Ihnen, was wir zuerst beheben würden.",
     "cta_button": "Jetzt starten",
     "posts": {
       "why-your-website-is-losing-customers": {
@@ -336,7 +336,7 @@
         "category": "SEO"
       },
       "brand-identity-investment": {
-        "title": "Warum Markenidentität die beste Investition ist, die Sie tätigen werden",
+        "title": "Warum eine starke Markenidentität Ihre beste Investition ist",
         "description": "Ihre Marke ist mehr als ein Logo. Eine starke Markenidentität schafft Vertrauen, rechtfertigt Premium-Preise und macht Kunden zu Fürsprechern.",
         "category": "Branding"
       }
@@ -345,10 +345,10 @@
     "v2_tab_all": "Alle",
     "v2_tab_read": "Lesen",
     "v2_tab_watch": "Ansehen",
-    "v2_tab_news": "News",
+    "v2_tab_news": "Neuigkeiten",
     "v2_type_read": "Lesen",
     "v2_type_watch": "Ansehen",
-    "v2_type_news": "News",
+    "v2_type_news": "Neuigkeiten",
     "v2_more": "Mehr",
     "v2_count": "{count, plural, one {# Beitrag} other {# Beiträge}}",
     "news": {
@@ -358,17 +358,17 @@
       },
       "brand-guidelines-v2": {
         "title": "Brand Guidelines V2: Montserrat, Inter und ein neues Lockup",
-        "summary": "Version zwei unserer Identität, datiert auf den 16. Oktober 2026. Zwei Schriften, ein Lockup und der Satz, der jetzt die Website eröffnet: Building brands, blok by blok."
+        "summary": "Version zwei unserer Identität, datiert auf den 16. Oktober 2026. Zwei Schriften, ein Lockup und der Satz, der jetzt die Website eröffnet: Wir bauen Marken, blok für blok."
       },
       "grant-parkhurst-portal": {
         "title": "Grant Parkhurst Photography: Portfolio und Kundenportal ausgeliefert",
-        "summary": "Eine Website, auf der kein Foto beschnitten wird, plus ein Portal, in dem der Fotograf Galerien hochlädt und Kunden ihre eigenen Sets herunterladen."
+        "summary": "Eine Website, die die Fotos in den Mittelpunkt stellt und kein Bild beschneidet, plus ein Portal, in dem der Fotograf Galerien hochlädt und Kunden ihre eigenen Sets herunterladen."
       }
     }
   },
   "services": {
     "title": "Unsere Leistungen",
-    "subtitle": "Individuelles Webdesign und Entwicklung, die Ihr Unternehmen messbar wachsen lassen.",
+    "subtitle": "Individuelles Webdesign und Entwicklung, gebaut, um Kunden zu gewinnen, danach gehostet und am Laufen gehalten.",
     "section_ai_title": "KI & Automatisierung",
     "section_creative_title": "Kreativ & Marketing",
     "service_1_title": "KI-Agenten-Systeme",
@@ -378,7 +378,7 @@
     "service_1_bullet_3": "Autonome Entscheidungen",
     "service_1_bullet_4": "Eskalation an Menschen, wenn es darauf ankommt",
     "service_1_bullet_5": "Rund um die Uhr im Einsatz, ohne Ausfälle",
-    "service_2_title": "Konversationelle KI",
+    "service_2_title": "Conversational AI",
     "service_2_subtitle": "Chatbots und Voice-Agenten, die Leads rund um die Uhr qualifizieren",
     "service_2_bullet_1": "KI-Chat-Widget für die Website",
     "service_2_bullet_2": "KI-Voice-Agenten für eingehende Anrufe",
@@ -410,7 +410,7 @@
     "service_6_subtitle": "Individuell gebaut, auf Conversion ausgelegt",
     "service_6_bullet_1": "Entwicklung mit Next.js / React",
     "service_6_bullet_2": "SEO-optimiert ab dem ersten Tag",
-    "service_6_bullet_3": "Mobile first und responsiv",
+    "service_6_bullet_3": "Mobile First und responsiv",
     "service_6_bullet_4": "CMS-Anbindung",
     "service_6_bullet_5": "Performance- und Ladezeit-Tuning",
     "service_7_title": "Branding",
@@ -433,31 +433,31 @@
     "service_9_bullet_2": "Kreation und Anzeigentexte",
     "service_9_bullet_3": "Retargeting-Funnels",
     "service_9_bullet_4": "ROAS-Reporting",
-    "service_9_bullet_5": "A/B-Tests der Kreation",
+    "service_9_bullet_5": "A/B-Tests der Werbemittel",
     "process_title": "Unser Prozess",
     "step_1_title": "Analyse",
-    "step_1_desc": "Wir tauchen tief in Ihre Ziele, Ihre Zielgruppe und Ihren Markt ein und legen ein solides Fundament.",
+    "step_1_desc": "Wir lernen Ihre Ziele, Ihre Zielgruppe und Ihren Markt kennen, bevor irgendetwas gestaltet wird.",
     "step_2_title": "Strategie",
-    "step_2_desc": "Wir entwickeln einen Fahrplan, der kreative Vision und Geschäftsziele zusammenbringt.",
+    "step_2_desc": "Ein schriftlicher Plan: Seiten, Zeitplan und ein Preis.",
     "step_3_title": "Design",
-    "step_3_desc": "Wir gestalten überzeugende Visuals und intuitive Oberflächen, die Besucher fesseln.",
+    "step_3_desc": "Wir gestalten die Seiten und den Ablauf und zeigen Ihnen dann einen funktionierenden Prototyp.",
     "step_4_title": "Entwicklung",
-    "step_4_desc": "Wir bauen mit modernen Technologien, die Geschwindigkeit, Skalierbarkeit und Zuverlässigkeit sichern.",
+    "step_4_desc": "Von Hand gebaut in Next.js. Heute schnell, später leicht erweiterbar.",
     "step_5_title": "Launch & Optimierung",
-    "step_5_desc": "Wir gehen live, beobachten und verfeinern laufend, damit die Seite ihr Maximum liefert.",
+    "step_5_desc": "Wir gehen live, beobachten die Zahlen und beheben, was nicht funktioniert.",
     "v2_label": "Leistungen",
     "v2_intro": "Ein Paket, richtig gemacht: Wir gestalten und bauen Ihre Seite, hosten sie und halten sie am Laufen.",
     "v2_process_label": "So läuft ein Projekt ab",
     "v2_cta_label": "Unsicher, was Sie brauchen?",
     "v2_cta": "1-Minuten-Quiz starten",
     "v2_industries_label": "Für wen wir bauen",
-    "v2_industries_more": "So geht es",
+    "v2_industries_more": "Mehr erfahren",
     "meta_title": "Leistungen",
     "meta_description": "Individuelles Webdesign und Entwicklung. Klar definierte Leistungen, individuell auf Ihren Umfang kalkuliert."
   },
   "team": {
     "title": "Unser Team",
-    "subtitle": "Lernen Sie die kreativen Köpfe hinter Blok Blok Studio kennen.",
+    "subtitle": "Die fünf Menschen, die Ihre Website bauen und hosten.",
     "role_founder": "Gründer",
     "role_graphic": "Senior Graphic Designer",
     "role_web": "Senior Web Designer",
@@ -476,32 +476,32 @@
     "kyle_studied_1": "Creative Advertising",
     "kyle_studied_2": "Virginia Commonwealth University",
     "kyle_enjoys": "Brazilian Jiu-Jitsu · Animation · Secondhand-Shopping",
-    "ayan_studied_1": "Betriebswirtschaft und Strategisches Management",
+    "ayan_studied_1": "Betriebswirtschaft und strategisches Management",
     "ayan_studied_2": "University of the Punjab",
     "ayan_enjoys": "Unternehmen aufbauen · Kinoabende · Auf der Suche nach dem perfekten Kaffee"
   },
   "contact": {
-    "title": "Kontaktieren Sie Uns",
-    "subtitle": "Haben Sie ein Projekt im Sinn? Wir würden gerne von Ihnen hören. Lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen.",
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Sagen Sie uns, was die Website leisten muss. Wir antworten innerhalb eines Werktags.",
     "name": "Ihr Name",
     "email": "Ihre E-Mail",
     "company": "Unternehmen",
     "phone": "Telefon / WhatsApp (optional)",
     "message": "Erzählen Sie uns von Ihrem Projekt",
-    "submit": "Nachricht Senden",
+    "submit": "Nachricht senden",
     "success": "Vielen Dank! Wir melden uns bald bei Ihnen.",
     "info_title": "Kontaktinformationen",
     "info_address": "Berlin, DE",
-    "consent_text": "Ich stimme der Verarbeitung meiner personenbezogenen Daten zu, wie beschrieben in der"
+    "consent_text": "Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß der"
   },
   "footer": {
     "tagline": "Digitale Erlebnisse schaffen, die inspirieren.",
     "quick_links": "Schnelllinks",
-    "connect": "Verbinden",
-    "newsletter_title": "Bleiben Sie Informiert",
+    "connect": "Folgen Sie uns",
+    "newsletter_title": "Bleiben Sie auf dem Laufenden",
     "newsletter_placeholder": "E-Mail eingeben",
     "newsletter_button": "Abonnieren",
-    "newsletter_subscribed": "Bitte bestätigen Sie per E-Mail!",
+    "newsletter_subscribed": "Bitte bestätigen Sie die Anmeldung in Ihrem Postfach!",
     "newsletter_already_subscribed": "Sie sind bereits angemeldet",
     "newsletter_consent": "Mit Ihrer Anmeldung stimmen Sie unserer <link>Datenschutzerklärung</link> zu. Jederzeit abbestellbar.",
     "back_to_top": "Nach oben",
@@ -512,9 +512,9 @@
     "consent_label": "Ich stimme der",
     "privacy_policy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
-    "and": "und den",
+    "and": "und",
     "consent_required": "Sie müssen unsere Datenschutzerklärung und Nutzungsbedingungen akzeptieren, um fortzufahren",
-    "cookie_banner_text": "Wir verwenden essenzielle Cookies, um Ihre Erfahrung zu verbessern. Erfahren Sie mehr in unserer",
+    "cookie_banner_text": "Wir verwenden notwendige Cookies, damit die Website funktioniert. Mehr erfahren Sie in unserer",
     "cookie_policy": "Cookie-Richtlinie",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
@@ -532,40 +532,40 @@
     "save_preferences": "Einstellungen speichern",
     "data_rights_title": "Ihre Datenrechte",
     "data_rights_subtitle": "Gemäß der DSGVO haben Sie das Recht, auf Ihre personenbezogenen Daten zuzugreifen, sie zu exportieren oder dauerhaft aus unseren Systemen zu löschen.",
-    "data_rights_description": "Üben Sie Ihre DSGVO-Datenrechte aus",
+    "data_rights_description": "Machen Sie Ihre Datenrechte nach DSGVO geltend",
     "your_email": "Ihre E-Mail-Adresse",
     "request_type": "Was möchten Sie tun?",
-    "export_data": "Meine Daten Exportieren",
-    "export_description": "Laden Sie alle personenbezogenen Daten, die wir über Sie haben, im JSON-Format herunter",
-    "delete_data": "Meine Daten Löschen",
-    "delete_description": "Entfernen Sie dauerhaft alle Ihre personenbezogenen Daten aus unseren Systemen. Dies kann nicht rückgängig gemacht werden.",
-    "submit_request": "Anfrage Absenden",
+    "export_data": "Meine Daten exportieren",
+    "export_description": "Laden Sie alle personenbezogenen Daten, die wir über Sie gespeichert haben, im JSON-Format herunter",
+    "delete_data": "Meine Daten löschen",
+    "delete_description": "Alle Ihre personenbezogenen Daten dauerhaft aus unseren Systemen entfernen. Das lässt sich nicht rückgängig machen.",
+    "submit_request": "Anfrage absenden",
     "processing": "Wird verarbeitet...",
-    "request_sent_message": "Wir haben einen Bestätigungslink an Ihre E-Mail gesendet. Bitte überprüfen Sie Ihr Postfach und klicken Sie auf den Link, um Ihre Anfrage zu bestätigen. Der Link läuft in 15 Minuten ab.",
-    "request_error": "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut.",
-    "check_email_title": "Überprüfen Sie Ihre E-Mail",
-    "data_deleted_title": "Daten Gelöscht",
+    "request_sent_message": "Wir haben einen Bestätigungslink an Ihre E-Mail-Adresse geschickt. Bitte prüfen Sie Ihr Postfach und klicken Sie auf den Link, um Ihre Anfrage zu bestätigen. Der Link läuft in 15 Minuten ab.",
+    "request_error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.",
+    "check_email_title": "Prüfen Sie Ihr Postfach",
+    "data_deleted_title": "Daten gelöscht",
     "data_deleted_message": "Alle Ihre personenbezogenen Daten wurden dauerhaft aus unseren Systemen entfernt.",
     "token_expired": "Dieser Bestätigungslink ist abgelaufen. Bitte senden Sie eine neue Anfrage."
   },
   "unsubscribe": {
     "processing": "Ihre Anfrage wird bearbeitet...",
-    "success_title": "Sie Sind Abgemeldet",
+    "success_title": "Sie sind abgemeldet",
     "success_message": "Sie wurden erfolgreich von unserer E-Mail-Liste entfernt.",
-    "error_title": "Etwas Ist Schief Gelaufen",
-    "error_message": "Wir konnten Ihre Anfrage nicht bearbeiten. Der Link ist möglicherweise ungültig oder abgelaufen. Kontaktieren Sie uns unter blokblokstudio.com/contact für Hilfe.",
+    "error_title": "Etwas ist schiefgelaufen",
+    "error_message": "Wir konnten Ihre Anfrage nicht bearbeiten. Der Link ist möglicherweise ungültig oder abgelaufen. Wenn Sie Hilfe brauchen, erreichen Sie uns unter blokblokstudio.com/contact.",
     "back_home": "Zurück zur Startseite",
     "meta_title": "Abmelden",
     "meta_description": "Melden Sie sich von unseren E-Mails ab."
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "description": "Wie Blok Blok Studio Ihre personenbezogenen Daten sammelt, verwendet und schützt",
-    "last_updated": "Letzte Aktualisierung: July 16, 2026",
+    "description": "Wie Blok Blok Studio Ihre personenbezogenen Daten erhebt, verwendet und schützt",
+    "last_updated": "Letzte Aktualisierung: 16. Juli 2026",
     "intro_title": "Einführung",
-    "intro_content": "Bei Blok Blok Studio nehmen wir Ihre Privatsphäre ernst. Diese Datenschutzerklärung erklärt, wie wir Ihre Informationen sammeln, verwenden, offenlegen und schützen, wenn Sie unsere Website besuchen oder unsere Dienste nutzen.",
-    "data_collection_title": "Welche Daten Wir Sammeln",
-    "data_collection_intro": "Wir sammeln Informationen, die Sie uns direkt zur Verfügung stellen, wenn Sie Formulare auf unserer Website ausfüllen:",
+    "intro_content": "Bei Blok Blok Studio nehmen wir Ihre Privatsphäre ernst. Diese Datenschutzerklärung erklärt, wie wir Ihre Daten erheben, verwenden, weitergeben und schützen, wenn Sie unsere Website besuchen oder unsere Dienste nutzen.",
+    "data_collection_title": "Welche Daten wir erheben",
+    "data_collection_intro": "Wir erheben die Daten, die Sie uns direkt mitteilen, wenn Sie Formulare auf unserer Website ausfüllen:",
     "data_item_name": "Name",
     "data_item_email": "E-Mail-Adresse",
     "data_item_industry": "Branche / Arbeitsbereich",
@@ -574,30 +574,30 @@
     "data_item_budget": "Budgetrahmen und gewünschter Zeitraum (sofern im Anfrageformular angegeben)",
     "data_item_marketing_consent": "Ob Sie das optionale Kästchen für Marketing-E-Mails angehakt haben und wann Sie dies bestätigt haben",
     "data_item_ip": "IP-Adresse (nur zur Einwilligungsüberprüfung)",
-    "data_use_title": "Wie Wir Ihre Daten Verwenden",
-    "data_use_intro": "Wir verwenden die von uns gesammelten Informationen, um:",
+    "data_use_title": "Wie wir Ihre Daten verwenden",
+    "data_use_intro": "Wir verwenden die erhobenen Daten, um:",
     "use_item_respond": "Auf Ihre Anfragen zu antworten und angeforderte Dienstleistungen bereitzustellen",
     "use_item_marketing": "Marketingmitteilungen zu senden (nur mit Ihrer ausdrücklichen Zustimmung)",
     "use_item_improve": "Unsere Website und Dienstleistungen zu verbessern",
     "use_item_legal": "Gesetzliche Verpflichtungen zu erfüllen",
     "third_parties_title": "Drittanbieterdienste",
     "third_parties_intro": "Wir verwenden die folgenden Drittanbieterdienste, um unser Geschäft zu betreiben:",
-    "third_party_resend": "Resend: für den Versand von E-Mail-Kommunikationen",
-    "third_parties_note": "Diese Dienste erhalten nur die für ihre Funktionalität erforderlichen Mindestdaten.",
-    "retention_title": "Datenspeicherung",
-    "retention_content": "Wir bewahren Ihre personenbezogenen Daten so lange auf, wie es erforderlich ist, um unsere Dienste bereitzustellen und unsere Geschäftsbeziehung aufrechtzuerhalten. Sie können jederzeit über unsere Seite Datenrechte die Löschung Ihrer Daten beantragen.",
+    "third_party_resend": "Resend: Versand unserer E-Mails",
+    "third_parties_note": "Diese Dienste erhalten nur die Daten, die für ihre Funktion zwingend erforderlich sind.",
+    "retention_title": "Speicherdauer",
+    "retention_content": "Wir speichern Ihre personenbezogenen Daten so lange, wie es für die Erbringung unserer Dienste und die Pflege unserer Geschäftsbeziehung erforderlich ist. Die Löschung Ihrer Daten können Sie jederzeit über unsere Seite „Ihre Datenrechte“ beantragen.",
     "your_rights_title": "Ihre Rechte (DSGVO)",
     "your_rights_intro": "Gemäß der Datenschutz-Grundverordnung haben Sie das Recht auf:",
-    "right_access": "Zugang: Beantragen Sie eine Kopie aller personenbezogenen Daten, die wir über Sie haben",
-    "right_correct": "Berichtigung: Beantragen Sie die Korrektur ungenauer Daten",
-    "right_delete": "Löschung: Beantragen Sie die dauerhafte Löschung Ihrer Daten",
+    "right_access": "Auskunft: Fordern Sie eine Kopie aller personenbezogenen Daten an, die wir über Sie gespeichert haben",
+    "right_correct": "Berichtigung: Verlangen Sie die Korrektur unrichtiger Daten",
+    "right_delete": "Löschung: Verlangen Sie die dauerhafte Löschung Ihrer Daten",
     "right_object": "Widerspruch: Widersprechen Sie der Verarbeitung Ihrer Daten",
-    "right_export": "Portabilität: Exportieren Sie Ihre Daten in einem maschinenlesbaren Format",
-    "right_withdraw": "Einwilligung Widerrufen: Widerrufen Sie Ihre Einwilligung jederzeit",
-    "your_rights_cta": "Üben Sie Ihre Rechte auf unserer",
-    "your_rights_link": "Seite Datenrechte aus",
-    "contact_title": "Kontaktieren Sie Uns",
-    "contact_content": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder zur Handhabung Ihrer Daten haben, kontaktieren Sie uns unter:",
+    "right_export": "Datenübertragbarkeit: Exportieren Sie Ihre Daten in einem maschinenlesbaren Format",
+    "right_withdraw": "Widerruf der Einwilligung: Widerrufen Sie Ihre Einwilligung jederzeit",
+    "your_rights_cta": "Sie können Ihre Rechte jederzeit geltend machen über unsere",
+    "your_rights_link": "Seite „Ihre Datenrechte“",
+    "contact_title": "Kontakt",
+    "contact_content": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder zum Umgang mit Ihren Daten haben, erreichen Sie uns unter:",
     "data_item_phone": "Telefonnummer",
     "third_party_pixels": "Werbe-Pixel (Meta, Google) laden wir nur, wenn Sie Marketing-Cookies in unserem Einwilligungsbanner ausdrücklich akzeptieren; andernfalls kommen keine Tracking-Cookies oder Analysedienste zum Einsatz.",
     "legal_basis_title": "Rechtsgrundlagen der Verarbeitung",
@@ -616,31 +616,31 @@
     "third_party_vercel": "Vercel: Hosting unserer Website und Anwendungen (USA; Datenschutzrahmen und Standardvertragsklauseln finden Anwendung)",
     "third_party_slack": "Slack: interne Benachrichtigungen über neue Anfragen an unser Team (beschränkt auf Name, E-Mail, Telefon und Branche)",
     "third_party_turnstile": "Cloudflare Turnstile: Spam-Schutz für unsere Formulare (verarbeitet Ihre IP-Adresse)",
-    "third_party_cal": "Cal.com, Terminbuchung, wenn Sie einen Call mit uns vereinbaren",
+    "third_party_cal": "Google Calendar: Terminbuchung, wenn Sie ein Gespräch mit uns buchen",
     "third_party_meta": "Meta (Facebook/Instagram): Werbemessung, nur mit Ihrer Einwilligung in Marketing-Cookies. Mit dieser Einwilligung übermitteln wir ggf. auch Ihre E-Mail-Adresse und Telefonnummer in gehashter (pseudonymisierter) Form zur Messung von Anzeigen-Conversions.",
     "third_party_google": "Google: Werbemessung (Google Ads), nur mit Ihrer Einwilligung in Marketing-Cookies",
     "marketing_double_optin": "Marketing-E-Mails erfolgen im Double-Opt-in-Verfahren. Das Anhaken des optionalen Kästchens allein genügt nicht: Wir senden eine Bestätigungs-E-Mail, und erst mit dem Klick auf den darin enthaltenen Link werden Sie in die Liste aufgenommen. Bis dahin erhalten Sie keine Werbung. Sie können Ihre Einwilligung jederzeit über den Abmeldelink in jeder E-Mail widerrufen; der Widerruf wirkt sofort."
   },
   "terms": {
     "title": "Nutzungsbedingungen",
-    "description": "Allgemeine Geschäftsbedingungen für die Nutzung der Dienste von Blok Blok Studio",
-    "last_updated": "Letzte Aktualisierung: July 16, 2026",
+    "description": "Bedingungen für die Nutzung der Website und Dienste von Blok Blok Studio",
+    "last_updated": "Letzte Aktualisierung: 16. Juli 2026",
     "acceptance_title": "Annahme der Bedingungen",
-    "acceptance_content": "Durch den Zugriff auf und die Nutzung dieser Website akzeptieren Sie diese Nutzungsbedingungen und verpflichten sich, an sie gebunden zu sein. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie bitte nicht unsere Website oder Dienste.",
-    "services_title": "Dienstleistungen",
-    "services_content": "Blok Blok Studio bietet digitale Design-, Entwicklungs- und Marketingdienstleistungen an. Spezifische Projektbedingungen, Ergebnisse und Preise werden in individuellen Verträgen und Angeboten festgelegt.",
-    "user_responsibilities_title": "Nutzerverantwortlichkeiten",
-    "user_responsibilities_content": "Sie verpflichten sich, genaue Informationen bei der Nutzung unserer Formulare und Dienste bereitzustellen und unsere Website und Dienste rechtmäßig und in Übereinstimmung mit diesen Bedingungen zu nutzen.",
+    "acceptance_content": "Mit dem Zugriff auf diese Website und ihrer Nutzung erkennen Sie diese Nutzungsbedingungen als verbindlich an. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie unsere Website und Dienste bitte nicht.",
+    "services_title": "Leistungen",
+    "services_content": "Blok Blok Studio erbringt Leistungen in den Bereichen digitales Design, Entwicklung und Marketing. Konkrete Projektbedingungen, Leistungsumfang und Preise werden in individuellen Verträgen und Angeboten festgelegt.",
+    "user_responsibilities_title": "Pflichten der Nutzer",
+    "user_responsibilities_content": "Sie verpflichten sich, bei der Nutzung unserer Formulare und Dienste zutreffende Angaben zu machen und unsere Website und Dienste rechtmäßig und im Einklang mit diesen Bedingungen zu nutzen.",
     "ip_title": "Geistiges Eigentum",
-    "ip_content": "Alle Inhalte auf dieser Website, einschließlich Designs, Text, Grafiken und Code, sind Eigentum von Blok Blok Studio, sofern nicht anders angegeben. Das Eigentum an Kundenarbeiten wird in individuellen Projektverträgen definiert.",
+    "ip_content": "Alle Inhalte dieser Website, einschließlich Designs, Texte, Grafiken und Code, sind Eigentum von Blok Blok Studio, sofern nicht anders angegeben. Die Rechte an Kundenarbeiten werden in den jeweiligen Projektverträgen geregelt.",
     "liability_title": "Haftungsbeschränkung",
-    "liability_content": "Blok Blok Studio haftet nicht für indirekte, zufällige oder Folgeschäden, die aus der Nutzung unserer Website oder Dienste entstehen. Unsere Gesamthaftung übersteigt nicht den für die betreffende Dienstleistung gezahlten Betrag.",
+    "liability_content": "Blok Blok Studio haftet nicht für mittelbare Schäden, Neben- oder Folgeschäden, die aus der Nutzung unserer Website oder Dienste entstehen. Unsere Gesamthaftung ist auf den Betrag begrenzt, der für die betreffende Leistung gezahlt wurde.",
     "governing_law_title": "Anwendbares Recht",
-    "governing_law_content": "Diese Bedingungen unterliegen den geltenden Gesetzen und werden in Übereinstimmung mit diesen ausgelegt. Streitigkeiten werden durch gutgläubige Verhandlungen gelöst, bevor formelle rechtliche Schritte eingeleitet werden.",
+    "governing_law_content": "Diese Bedingungen unterliegen dem anwendbaren Recht und werden nach diesem ausgelegt. Streitigkeiten werden zunächst durch Verhandlungen nach Treu und Glauben beigelegt, bevor förmliche rechtliche Schritte eingeleitet werden.",
     "changes_title": "Änderungen der Bedingungen",
-    "changes_content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen werden auf dieser Seite mit einem aktualisierten Datum veröffentlicht. Die fortgesetzte Nutzung unserer Website nach Änderungen stellt die Annahme der überarbeiteten Bedingungen dar.",
+    "changes_content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen werden auf dieser Seite mit aktualisiertem Datum veröffentlicht. Die weitere Nutzung unserer Website nach einer Änderung gilt als Annahme der geänderten Bedingungen.",
     "dispute_title": "Streitbeilegung",
-    "dispute_intro": "Bei Streitigkeiten aus diesen Bedingungen bitten wir Sie, uns zunächst zu kontaktieren, um eine gütliche Einigung zu erzielen. Kommt eine informelle Lösung nicht zustande, gilt folgendes Verfahren:",
+    "dispute_intro": "Bei Streitigkeiten aus diesen Bedingungen bitten wir Sie, sich zunächst an uns zu wenden, um eine gütliche Einigung zu erzielen. Kommt eine informelle Lösung nicht zustande, gilt folgendes Verfahren:",
     "dispute_informal": "Informelle Beilegung: Kontaktieren Sie uns unter hello@blokblokstudio.com. Wir bemühen uns, die Angelegenheit innerhalb von 30 Tagen zu klären.",
     "dispute_formal": "Förmliches Verfahren: Scheitert die informelle Beilegung, werden Streitigkeiten vor den zuständigen Gerichten in Deutschland entschieden.",
     "dispute_eu": "EU-Verbraucher: Als Verbraucher in der EU können Sie auch die Plattform zur Online-Streitbeilegung der Europäischen Kommission nutzen.",
@@ -651,17 +651,17 @@
   "cookies": {
     "title": "Cookie-Richtlinie",
     "description": "Wie Blok Blok Studio Cookies und ähnliche Technologien verwendet",
-    "last_updated": "Letzte Aktualisierung: July 16, 2026",
-    "intro_title": "Was Sind Cookies",
-    "intro_content": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, wenn Sie eine Website besuchen. Sie helfen Websites, sich an Ihre Einstellungen zu erinnern und Ihr Surferlebnis zu verbessern.",
-    "our_use_title": "Unsere Verwendung von Cookies",
-    "our_use_content": "Wir verfolgen einen datenschutzorientierten Ansatz. Standardmäßig verwenden wir nur localStorage (einen Browser-Speichermechanismus), um Ihre Cookie-Einwilligungspräferenz zu speichern. Optionale Werbe-Pixel werden nur geladen, wenn Sie Marketing-Cookies akzeptieren.",
+    "last_updated": "Letzte Aktualisierung: 16. Juli 2026",
+    "intro_title": "Was sind Cookies",
+    "intro_content": "Cookies sind kleine Textdateien, die beim Besuch einer Website auf Ihrem Gerät gespeichert werden. Sie helfen Websites, Ihre Einstellungen zu speichern und das Surfen angenehmer zu machen.",
+    "our_use_title": "Wie wir Cookies verwenden",
+    "our_use_content": "Wir setzen auf Datenschutz von Anfang an. Wir verwenden zwei kleine notwendige Cookies, eines merkt sich Ihre Sprache, das andere Ihr Land, damit Preise in der richtigen Währung angezeigt werden. Außerdem nutzen wir localStorage (einen Speichermechanismus des Browsers), um Ihre Cookie-Einwilligung zu speichern. Optionale Werbe-Pixel werden nur geladen, wenn Sie Marketing-Cookies akzeptieren.",
     "third_party_title": "Drittanbieter-Cookies",
     "third_party_content": "Wenn Sie Marketing-Cookies akzeptieren, laden wir Werbe-Pixel von Meta (Facebook) und Google, um die Leistung unserer Werbekampagnen zu messen. Wenn Sie ablehnen, werden beim Besuch unserer Website keine Drittanbieter-Cookies gesetzt.",
-    "control_title": "Verwaltung von Cookies",
-    "control_content": "Sie können Cookies über Ihre Browsereinstellungen steuern. Die meisten Browser ermöglichen es Ihnen, Cookies zu blockieren oder zu löschen. Beachten Sie, dass das Löschen von localStorage Ihre Cookie-Einwilligungspräferenz zurücksetzt.",
-    "updates_title": "Richtlinienaktualisierungen",
-    "updates_content": "Falls wir in Zukunft Analyse- oder Tracking-Technologien einsetzen, werden wir diese Richtlinie aktualisieren und Sie über unser Cookie-Einwilligungsbanner informieren, bevor ein Tracking stattfindet.",
+    "control_title": "Cookies verwalten",
+    "control_content": "Sie können Cookies über Ihre Browsereinstellungen steuern. Mit den meisten Browsern lassen sich Cookies blockieren oder löschen. Beachten Sie, dass das Löschen des localStorage Ihre Cookie-Einwilligung zurücksetzt.",
+    "updates_title": "Aktualisierungen dieser Richtlinie",
+    "updates_content": "Sollten wir in Zukunft Analyse- oder Tracking-Technologien einsetzen, aktualisieren wir diese Richtlinie und informieren Sie über unser Cookie-Banner, bevor ein Tracking stattfindet.",
     "storage_title": "Cookie- und Speicherdetails",
     "storage_intro": "Nachfolgend finden Sie eine vollständige Liste der auf dieser Website verwendeten Cookies und Local-Storage-Einträge:",
     "table_name": "Name",
@@ -681,7 +681,7 @@
     "headline_a": "Wo Ihr Unternehmen unbemerkt Kunden verliert",
     "headline_b": " (und wie Sie das beheben)",
     "sub": "Beantworten Sie fünf kurze Fragen und wir zeigen Ihnen, was wir zuerst angehen würden. Danach wählen Sie einen Termin. Dauert etwa eine Minute.",
-    "proof": "Webdesign-Studio aus Berlin. Coach Kofis Beratungsanfragen stiegen nach dem Launch um 200%. Ein Sanitärbetrieb im ersten Jahr erzielte 50.000 $ Umsatz in fünf Monaten.",
+    "proof": "Webdesign-Studio aus Berlin. Die Beratungsanfragen von Coach Kofi stiegen nach dem Launch um 200 %. Ein Sanitärbetrieb im ersten Geschäftsjahr erzielte in fünf Monaten 50.000 $ Bruttoumsatz.",
     "progress": "Frage {current} von {total}",
     "continue": "Weiter",
     "back": "Zurück",
@@ -731,10 +731,10 @@
       "beauty_salon_spa": "Beauty / Salon / Spa",
       "content_creator_influencer": "Content Creator / Influencer",
       "retail_brick_mortar": "Einzelhandel / Ladengeschäft",
-      "professional_services": "Professionelle Dienstleistungen",
-      "nonprofit": "Gemeinnützig",
-      "automotive": "Automobil",
-      "travel_hospitality": "Reisen / Hotellerie",
+      "professional_services": "Dienstleistungen / Freie Berufe",
+      "nonprofit": "Gemeinnützige Organisation",
+      "automotive": "Automobil / Kfz",
+      "travel_hospitality": "Reisen / Gastgewerbe",
       "other": "Sonstiges"
     },
     "services": {
@@ -761,8 +761,8 @@
         "hint": "Geplant, aber nicht dringend"
       },
       "3": {
-        "label": "Nur am Umschauen",
-        "hint": "Erst mal Optionen sammeln"
+        "label": "Erst mal umschauen",
+        "hint": "Schauen, was es gibt"
       }
     },
     "budget_build": {
@@ -772,7 +772,7 @@
       },
       "1": {
         "label": "Rund {amount}",
-        "hint": "Website mit fünf Seiten"
+        "hint": "Fünf Seiten"
       },
       "2": {
         "label": "Rund {amount}",
@@ -846,7 +846,7 @@
   },
   "errors": {
     "title": "Etwas ist schiefgelaufen",
-    "message": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es erneut oder kontaktiere uns, wenn das Problem weiterhin besteht.",
+    "message": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns, wenn das Problem weiterhin besteht.",
     "try_again": "Erneut versuchen",
     "back_home": "Zurück zur Startseite",
     "not_found_title": "Seite nicht gefunden",
@@ -857,9 +857,9 @@
     "title": "Erklärung zur Barrierefreiheit",
     "last_updated": "Zuletzt aktualisiert: {date}",
     "commitment_title": "Unser Engagement",
-    "commitment_content": "Blok Blok Studio setzt sich dafür ein, digitale Barrierefreiheit für Menschen mit Behinderungen zu gewährleisten. Wir verbessern die Benutzererfahrung für alle kontinuierlich und wenden die einschlägigen Standards für Barrierefreiheit auf unserer eigenen Website sowie auf den Websites an, die wir für Kunden erstellen.",
-    "conformance_title": "Stand der Vereinbarkeit",
-    "conformance_intro": "Die Web Content Accessibility Guidelines (WCAG) definieren Anforderungen für Designer und Entwickler, um die Barrierefreiheit für Menschen mit Behinderungen zu verbessern. Sie definieren drei Konformitätsstufen: Stufe A, Stufe AA und Stufe AAA.",
+    "commitment_content": "Blok Blok Studio setzt sich dafür ein, digitale Barrierefreiheit für Menschen mit Behinderungen zu gewährleisten. Wir verbessern das Nutzererlebnis für alle kontinuierlich und wenden die einschlägigen Standards für Barrierefreiheit auf unserer eigenen Website sowie auf den Websites an, die wir für Kunden bauen.",
+    "conformance_title": "Konformitätsstatus",
+    "conformance_intro": "Die Web Content Accessibility Guidelines (WCAG) definieren Anforderungen für Designer und Entwickler, um die Barrierefreiheit für Menschen mit Behinderungen zu verbessern. Sie unterscheiden drei Konformitätsstufen: Stufe A, Stufe AA und Stufe AAA.",
     "conformance_status": "<strong>blokblokstudio.com ist teilweise konform mit WCAG 2.2, Stufe AA.</strong> „Teilweise konform“ bedeutet, dass einige Teile der Inhalte nicht vollständig dem Standard für Barrierefreiheit entsprechen. Einzelheiten finden Sie im Abschnitt zu den bekannten Einschränkungen weiter unten.",
     "standards_title": "Standards und Gesetze, die wir befolgen",
     "standard_wcag": "<strong>WCAG 2.2 Stufe AA</strong>, der internationale Referenzstandard für Barrierefreiheit im Web, gepflegt vom W3C.",
@@ -878,10 +878,10 @@
     "measure_reduced_motion": "Berücksichtigung der Einstellung <code>prefers-reduced-motion</code> Ihres Betriebssystems.",
     "measure_contrast": "Farbkontraste, die WCAG AA erfüllen oder übertreffen (4,5:1 für Fließtext).",
     "measure_rtl": "Rechts-nach-links-Layout für Arabisch sowie ein Sprachumschalter, der jede Option in ihrer eigenen Sprache und Schreibrichtung ankündigt.",
-    "measure_languages": "Die Website ist in 19 Sprachen verfügbar, damit Menschen, die kein Englisch sprechen, sie in der Sprache nutzen können, in der sie denken.",
+    "measure_languages": "Die Website ist in 20 Sprachen verfügbar, damit Menschen, die kein Englisch sprechen, sie in der Sprache nutzen können, in der sie denken.",
     "limitations_title": "Bekannte Einschränkungen",
     "limitations_intro": "Trotz unserer Bemühungen sind einige Inhalte dieser Website möglicherweise noch nicht vollständig barrierefrei. Bekannte Probleme, an deren Behebung wir arbeiten:",
-    "limitation_third_party": "<strong>Eingebettete Inhalte von Drittanbietern</strong>, das Cloudflare-Turnstile-CAPTCHA und das Cal.com-Buchungs-iframe übernehmen ihr Barrierefreiheitsverhalten vom jeweiligen Anbieter. Wir verfolgen den Konformitätsstatus gemeinsam mit jedem Anbieter.",
+    "limitation_third_party": "<strong>Eingebettete Inhalte von Drittanbietern</strong>, das Cloudflare-Turnstile-CAPTCHA und die Buchungsseite von Google Calendar übernehmen ihr Barrierefreiheitsverhalten vom jeweiligen Anbieter. Wir verfolgen den Konformitätsstatus bei jedem Anbieter.",
     "limitation_motion": "<strong>Dekorative Animationen</strong>, Hintergrundanimationen werden deaktiviert, wenn <code>prefers-reduced-motion</code> gesetzt ist; eine kleine Zahl von Cursor-Mikrointeraktionen kann jedoch weiterhin abgespielt werden.",
     "limitation_language": "<strong>Sprache der Erklärung</strong>, die englische Fassung dieser Erklärung ist maßgeblich; die anderen Sprachen sind Übersetzungen davon. Die Website selbst ist in 20 Sprachen verfügbar.",
     "feedback_title": "Feedback und Kontakt",
@@ -889,7 +889,7 @@
     "feedback_email": "<strong>E-Mail:</strong> <link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>Webformular:</strong> <link>Kontaktseite</link>, bitte erwähnen Sie „Barrierefreiheit“ in Ihrer Nachricht.",
     "enforcement_title": "Durchsetzungsverfahren",
-    "enforcement_intro": "Blok Blok Studio ist in Deutschland registriert. Wenn Sie mit unserer Antwort auf Ihr Feedback zur Barrierefreiheit nicht zufrieden sind, können Sie sich an die für Sie zuständige Durchsetzungsstelle wenden:",
+    "enforcement_intro": "Blok Blok Studio hat seinen Sitz in Berlin, Deutschland. Wenn Sie mit unserer Antwort auf Ihr Feedback zur Barrierefreiheit nicht zufrieden sind, können Sie sich an die für Sie zuständige Durchsetzungsstelle wenden:",
     "enforcement_eu": "<strong>Europäische Union</strong>, die Marktüberwachungsbehörde des EU-Mitgliedstaats, in dem Sie sich befinden. Der European Accessibility Act benennt in jedem Mitgliedstaat eine nationale Behörde.",
     "enforcement_germany": "<strong>Deutschland</strong>, die Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Vereinigte Staaten</strong>, die Civil Rights Division des US-Justizministeriums für ADA-Beschwerden; das US Access Board für Section 508.",
@@ -905,7 +905,7 @@
     "diagnosis_known": "Auf Basis dessen, was Sie uns über {industry} erzählt haben, würden wir das im Gespräch mit Ihnen durchgehen.",
     "diagnosis_unsure": "Sie sind sich noch nicht sicher, und das ist ein völlig normaler Ausgangspunkt. Für {industry} liegt hier meist das Geld, also würden wir im Gespräch genau dort beginnen.",
     "industry_fallback": "Ihre Branche",
-    "sub_fallback": "Ihre Anfrage ist bei uns. Sichern Sie sich jetzt Ihr kostenloses 15-minütiges Erstgespräch; die frühesten Termine gehen an die Schnellsten.",
+    "sub_fallback": "Ihre Anfrage ist bei uns. Wählen Sie unten einen Termin für ein kostenloses 15-minütiges Gespräch.",
     "cover_label": "Was wir im Gespräch besprechen",
     "cover_note": "Wir gehen im Gespräch alles in Ruhe durch, inklusive Umfang und Kosten.",
     "calendar_title": "Buchen Sie Ihr kostenloses Erstgespräch",
@@ -920,7 +920,7 @@
     "next_2_title": "Wir gehen im Gespräch alles durch",
     "next_2_desc": "Wo Sie Kunden verlieren, was zuerst zu beheben ist und was dafür nötig ist.",
     "next_3_title": "Wir bauen, Sie wachsen",
-    "next_3_desc": "Website, Ads, Social, KI-Systeme. Für Sie umgesetzt, schnell live.",
+    "next_3_desc": "Website gebaut, gehostet und am Laufen gehalten. Für Sie umgesetzt, schnell live.",
     "founder_kicker": "Mit wem Sie sprechen",
     "founder_title": "Lernen Sie den Gründer kennen",
     "clients_kicker": "Die Arbeit und die Zahlen",
@@ -938,15 +938,15 @@
         "detail": "Wir behalten die Seiten, die schon liefern, reparieren die, an denen Besucher verloren gehen, und bringen alles auf eine Basis, die schnell lädt."
       },
       "shop": {
-        "title": "Ein Shop, der abschließt",
-        "detail": "Produktseiten, Checkout und Zahlungen so aufgebaut, dass Menschen tatsächlich abschließen statt auf halbem Weg abzubrechen."
+        "title": "Ein Shop, der verkauft",
+        "detail": "Produktseiten, Checkout und Zahlungen so aufgebaut, dass Kunden den Kauf abschließen, statt auf halbem Weg abzubrechen."
       },
       "landing": {
         "title": "Eine Seite, ein Angebot",
         "detail": "Das Schnellste, was wir bauen. Eine einzige Seite für eine Zielgruppe, mit angebundenem Tracking, damit Sie sehen, was sie einbringt."
       },
       "search_ads": {
-        "title": "Da sein, wenn die Absicht da ist",
+        "title": "Sichtbar im Moment der Kaufabsicht",
         "detail": "Kampagnen, die auf gebuchte Aufträge ausgerichtet sind, nicht auf Klicks. In der Suche wissen die Leute bereits, was sie wollen."
       },
       "social_ads": {
@@ -954,8 +954,8 @@
         "detail": "Facebook- und Instagram-Kampagnen, die Ihr Angebot den richtigen Leuten zeigen, bevor es ein Mitbewerber tut."
       },
       "social": {
-        "title": "Social, das irgendwohin führt",
-        "detail": "Clips, Untertitel und Posts aus Material, das Sie bereits haben, gebaut um Menschen auf die Website zu bringen statt nur einen Feed zu füllen."
+        "title": "Social Media mit Ziel",
+        "detail": "Clips, Untertitel und Posts aus Material, das Sie bereits haben, gebaut, um Menschen auf die Website zu bringen, statt nur einen Feed zu füllen."
       },
       "booking": {
         "title": "Buchung und Zahlung direkt auf der Website",
@@ -975,7 +975,7 @@
   "ui": {
     "footer_contact": "Kontakt",
     "footer_privacy": "Datenschutzerklärung",
-    "footer_terms": "AGB",
+    "footer_terms": "Nutzungsbedingungen",
     "footer_cookies": "Cookie-Richtlinie",
     "footer_impressum": "Impressum",
     "read_transcript": "Transkript lesen",
@@ -1013,7 +1013,7 @@
     "faq_title": "Häufige Fragen",
     "faq_sub": "Alles, was Sie über die Zusammenarbeit mit uns wissen müssen",
     "who_title": "Für wen wir bauen",
-    "who_sub": "Jede Branche konvertiert anders. Das sind die Vorgehensweisen, die wir fahren, mit den Kundenzahlen dahinter.",
+    "who_sub": "Jede Branche konvertiert anders. Das sind unsere bewährten Vorgehensweisen, mit den Kundenzahlen dahinter.",
     "start_project": "Projekt starten",
     "contact_location": "Standort",
     "available": "Verfügbar für neue Projekte",
@@ -1021,9 +1021,9 @@
     "aria_budget": "Budget",
     "aria_timeline": "Zeitrahmen",
     "proj_live_click": "Klicken Sie sich durch die Live-Seite unten",
-    "proj_live_scroll": "Scroll durch die Live-Seite unten",
-    "proj_live_hint_embed": "Klick auf Links und navigiere wie auf der echten Seite, oder öffne sie in einem neuen Tab.",
-    "proj_live_hint_scroll": "Das ist ein Screenshot der ganzen Seite. Scroll im Fenster, oder öffne die Live-Seite in einem neuen Tab.",
+    "proj_live_scroll": "Scrollen Sie durch die Live-Seite unten",
+    "proj_live_hint_embed": "Klicken Sie auf Links und navigieren Sie wie auf der echten Seite, oder öffnen Sie sie in einem neuen Tab.",
+    "proj_live_hint_scroll": "Das ist ein Screenshot der ganzen Seite. Scrollen Sie im Fenster, oder öffnen Sie die Live-Seite in einem neuen Tab.",
     "proj_challenge": "Die Aufgabe",
     "proj_solution": "Was wir gebaut haben",
     "proj_results": "Das Ergebnis",
@@ -1033,7 +1033,7 @@
   },
   "onboard": {
     "title": "Kunden-Onboarding",
-    "sub": "Lassen Sie uns alles einrichten, damit wir sofort loslegen können.",
+    "sub": "Lassen Sie uns alles einrichten, damit wir am ersten Tag loslegen können.",
     "loading": "Ihr Onboarding wird geladen...",
     "unavailable": "Link nicht verfügbar",
     "done": "Alles erledigt!",
@@ -1071,7 +1071,18 @@
     "ph_telegram": "z. B. 123456789",
     "ph_notes": "Alles, was wir über Ihr Projekt, Ihre Vorlieben oder Ihren Ablauf wissen sollten...",
     "ph_brand": "Logo-Verwendung, Markenfarben, Schriften, Tonalität, Do's und Don'ts...",
-    "meta_description": "Schließen Sie Ihr Onboarding ab, um mit Blok Blok Studio zu starten."
+    "meta_description": "Schließen Sie Ihr Onboarding ab, um mit Blok Blok Studio zu starten.",
+    "f_name": "Vollständiger Name",
+    "f_role": "Rolle / Position",
+    "f_email": "E-Mail",
+    "f_phone": "Telefon",
+    "f_platform": "Plattform",
+    "f_username": "Benutzername / E-Mail",
+    "f_password": "Passwort",
+    "f_url_optional": "URL (optional)",
+    "f_notes_optional": "Notizen (optional)",
+    "f_url": "URL",
+    "ph_select": "Bitte wählen..."
   },
   "pricing": {
     "packages": "PAKETE",
@@ -1119,7 +1130,7 @@
         {
           "name": "Landingpage-Launch",
           "price": 2000,
-          "disp": "$2,000",
+          "disp": "2.000 $",
           "tag": "Ideal für eine einfache Online-Präsenz",
           "tl": "2 bis 3 Wochen",
           "scope": [
@@ -1156,7 +1167,7 @@
         {
           "name": "Starter-Website",
           "price": 6500,
-          "disp": "$6,500",
+          "disp": "6.500 $",
           "tag": "Ideal für neue Unternehmen",
           "tl": "4 bis 6 Wochen",
           "scope": [
@@ -1203,7 +1214,7 @@
         {
           "name": "Wachstumspaket",
           "price": 12000,
-          "disp": "$12,000",
+          "disp": "12.000 $",
           "tag": "Am beliebtesten",
           "pop": true,
           "tl": "6 bis 8 Wochen",
@@ -1261,7 +1272,7 @@
         {
           "name": "Marktführer-Paket",
           "price": 18000,
-          "disp": "$18,000+",
+          "disp": "ab 18.000 $",
           "tag": "Enterprise-Niveau",
           "tl": "8 bis 12 Wochen",
           "scope": [
@@ -1325,7 +1336,7 @@
         {
           "name": "Einzelplattform-Setup",
           "price": 1200,
-          "disp": "$1,200",
+          "disp": "1.200 $",
           "tag": "Einen Kanal richtig aufsetzen",
           "tl": "3 bis 5 Tage",
           "scope": [
@@ -1372,14 +1383,14 @@
         {
           "name": "Multi-Plattform-Launch",
           "price": 2000,
-          "disp": "$2,000",
+          "disp": "2.000 $",
           "tag": "Am beliebtesten",
           "pop": true,
           "tl": "1 bis 2 Wochen",
           "scope": [
             {
               "i": "Plattformen (3 inklusive)",
-              "l": "Wähle 3 Plattformen: Instagram, LinkedIn, Facebook, TikTok, YouTube, X oder Pinterest. Neue Profile werden von Grund auf angelegt oder bestehende komplett überarbeitet."
+              "l": "Wählen Sie 3 Plattformen: Instagram, LinkedIn, Facebook, TikTok, YouTube, X oder Pinterest. Neue Profile werden von Grund auf angelegt oder bestehende komplett überarbeitet."
             },
             {
               "i": "Profiloptimierung (alle 3)",
@@ -1429,7 +1440,7 @@
         {
           "name": "Komplettes Social Rebrand",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 $",
           "tag": "Rundum-Erneuerung",
           "tl": "2 bis 3 Wochen",
           "scope": [
@@ -1491,7 +1502,7 @@
         {
           "name": "Wartung & Monitoring",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/Monat",
           "tag": "Alles am Laufen halten",
           "com": "Mindestlaufzeit 3 Monate",
@@ -1517,7 +1528,7 @@
               "l": "Monatliche Prüfung Ihrer GHL-Pipeline: feststeckende Leads, veraltete Deals und Automatisierungsfehler. 3 Anpassungen an Automatisierungen pro Monat (z. B. E-Mail-Texte aktualisieren, Trigger-Timing ändern, defekte Sequenzen reparieren). Kontaktlisten-Hygiene: Dubletten markieren und Bounces entfernen (max. 500 Kontakte/Monat)."
             },
             {
-              "i": "Support & Erreichbarkeit",
+              "i": "Support",
               "l": "Support nur per Text und E-Mail (kein Telefon, keine Live-Calls in dieser Stufe). Antwort innerhalb von 48 Stunden an Werktagen (Montag bis Freitag, 9 bis 17 Uhr). Bis zu 10 Support-Anfragen pro Monat. Jede Anfrage = 1 konkretes Anliegen (keine Liste von Änderungen). Weitere Anfragen werden mit 175 $/Std. berechnet."
             }
           ],
@@ -1534,7 +1545,7 @@
         {
           "name": "Wachstumsmotor",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 $",
           "per": "/Monat",
           "tag": "Am beliebtesten",
           "pop": true,
@@ -1566,7 +1577,7 @@
             },
             {
               "i": "Design & Entwicklung (5 Std./Monat)",
-              "l": "5 Stunden Design- und Entwicklungsarbeit pro Monat. Enthalten: neue Landingpages, Seiten-Updates, kleine Funktionserweiterungen, Grafikdesign für Kampagnen oder Anpassung von Vorlagen. Stunden werden NICHT übertragen. Nutzen oder verfallen lassen. Komplette Seiten-Redesigns oder große Feature-Entwicklungen werden separat kalkuliert. Zeit wird erfasst und monatlich berichtet."
+              "l": "5 Stunden Design- und Entwicklungsarbeit pro Monat. Enthalten: neue Landingpages, Seiten-Updates, kleine Funktionserweiterungen, Grafikdesign für Kampagnen oder Anpassung von Vorlagen. Stunden werden NICHT übertragen. Nicht genutzte Stunden verfallen. Komplette Seiten-Redesigns oder große Feature-Entwicklungen werden separat kalkuliert. Zeit wird erfasst und monatlich berichtet."
             }
           ],
           "ov": [
@@ -1579,13 +1590,13 @@
             "Neuer KI-Agent: 2.500 $",
             "Notfall: +50 %"
           ],
-          "ex": "Kein Fractional CMO, keine unbegrenzten Ads, kein Brand-Refresh, keine Videoproduktion, keine eigene Social-Media-Betreuung. Dafür brauchen Sie eine höhere Stufe oder das Social-Zusatzpaket.",
+          "ex": "Kein CMO auf Zeit, keine unbegrenzten Ads, kein Brand-Refresh, keine Videoproduktion, keine eigene Social-Media-Betreuung. Dafür brauchen Sie eine höhere Stufe oder das Social-Zusatzpaket.",
           "ideal": "Unternehmen, die aktiv ihren Umsatz skalieren"
         },
         {
           "name": "Volle Partnerschaft",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "7.500 $",
           "per": "/Monat",
           "tag": "CMO auf Zeit + Team",
           "com": "Mindestlaufzeit 6 Monate",
@@ -1641,14 +1652,14 @@
         {
           "name": "Social Basis",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/Monat",
           "tag": "1 bis 2 Plattformen",
           "com": "Mindestlaufzeit 3 Monate",
           "scope": [
             {
               "i": "Plattformen (2 inklusive)",
-              "l": "Wähle 2 Plattformen aus: Instagram, LinkedIn, Facebook, TikTok, YouTube oder X. Wir übernehmen Posting, Planung und Basis-Engagement auf beiden."
+              "l": "Wählen Sie 2 Plattformen aus: Instagram, LinkedIn, Facebook, TikTok, YouTube oder X. Wir übernehmen Posting, Planung und Basis-Engagement auf beiden."
             },
             {
               "i": "Content-Erstellung (16 Posts/Monat)",
@@ -1688,7 +1699,7 @@
         {
           "name": "Social Wachstum",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "2.500 $",
           "per": "/Monat",
           "tag": "Am beliebtesten",
           "pop": true,
@@ -1696,7 +1707,7 @@
           "scope": [
             {
               "i": "Plattformen (4 inklusive)",
-              "l": "Wähle 4 Plattformen: Instagram, LinkedIn, Facebook, TikTok, YouTube oder X. Wir übernehmen Content-Erstellung, Planung, Veröffentlichung und aktives Engagement auf allen."
+              "l": "Wählen Sie 4 Plattformen: Instagram, LinkedIn, Facebook, TikTok, YouTube oder X. Wir übernehmen Content-Erstellung, Planung, Veröffentlichung und aktives Engagement auf allen."
             },
             {
               "i": "Content-Erstellung (48 Posts + 4 Videos/Monat)",
@@ -1742,7 +1753,7 @@
         {
           "name": "Social Komplett",
           "price": 4500,
-          "disp": "$4,500",
+          "disp": "4.500 $",
           "per": "/Monat",
           "tag": "Social-Media-Rundumbetreuung",
           "com": "Mindestlaufzeit 6 Monate",
@@ -1761,7 +1772,7 @@
             },
             {
               "i": "Komplettes Community-Management",
-              "l": "2 Stunden pro Tag, Montag bis Freitag. Enthalten: Antworten auf alle Kommentare, DMs und Erwähnungen auf allen Plattformen. Proaktive Ansprache: Interaktion mit relevanten Accounts, Branchen-Hashtags und potenziellen Kunden. Brand-Monitoring: Erwähnungen, Tags und relevante Gespräche im Blick. Stimmungs-Alarm: negatives Feedback oder PR-Themen werden sofort an Sie eskaliert. Wöchentliche Engagement-Zusammenfassung im Reporting enthalten."
+              "l": "2 Stunden pro Tag, Montag bis Freitag. Enthalten: Antworten auf alle Kommentare, DMs und Erwähnungen auf allen Plattformen. Proaktive Ansprache: Interaktion mit relevanten Accounts, Branchen-Hashtags und potenziellen Kunden. Brand-Monitoring: Erwähnungen, Tags und relevante Gespräche im Blick. Frühwarnung: negatives Feedback oder PR-Themen werden sofort an Sie eskaliert. Wöchentliche Engagement-Zusammenfassung im Reporting enthalten."
             },
             {
               "i": "Reporting & Strategie",
@@ -1802,7 +1813,7 @@
         {
           "name": "Discovery & Konzeption",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "2.500 $",
           "tag": "Verpflichtender erster Schritt",
           "tl": "1 bis 2 Wochen",
           "scope": [
@@ -1843,7 +1854,7 @@
         {
           "name": "Standard-Build",
           "price": 25000,
-          "disp": "$25,000",
+          "disp": "25.000 $",
           "tag": "Am häufigsten gewählt",
           "pop": true,
           "tl": "6 bis 12 Wochen",
@@ -1900,7 +1911,7 @@
         {
           "name": "Enterprise-Build",
           "price": 75000,
-          "disp": "$75,000+",
+          "disp": "ab 75.000 $",
           "tag": "Komplexe Systeme",
           "tl": "12 bis 24 Wochen",
           "scope": [
@@ -1958,13 +1969,13 @@
         {
           "name": "Einzelner KI-Agent",
           "price": 5000,
-          "disp": "$5,000",
+          "disp": "5.000 $",
           "tag": "Ein starker Agent",
           "tl": "1 bis 2 Wochen",
           "scope": [
             {
               "i": "Individueller KI-Agent (1)",
-              "l": "Ein zweckgebauter KI-Agent, für Ihr Unternehmen entworfen, trainiert und live geschaltet. Zur Auswahl: Telefonagent, E-Mail-Agent, Web-Scraping-Agent, PDF-Generierungs-Agent, Kundensupport-Chatbot, Lead-Qualifizierungs-Agent, Datenverarbeitungs-Agent, Terminbuchungs-Agent oder jeder individuelle Anwendungsfall. Der Agent wird auf Ihre Workflows, Ihre Markenstimme und Ihre Datenquellen zugeschnitten."
+              "l": "Ein eigens für Ihr Unternehmen entworfener, trainierter und live geschalteter KI-Agent. Zur Auswahl: Telefonagent, E-Mail-Agent, Web-Scraping-Agent, PDF-Generierungs-Agent, Kundensupport-Chatbot, Lead-Qualifizierungs-Agent, Datenverarbeitungs-Agent, Terminbuchungs-Agent oder jeder individuelle Anwendungsfall. Der Agent wird auf Ihre Workflows, Ihre Markenstimme und Ihre Datenquellen zugeschnitten."
             },
             {
               "i": "Training & Konfiguration",
@@ -1997,7 +2008,7 @@
         {
           "name": "Agenten-Team",
           "price": 14500,
-          "disp": "$14,500",
+          "disp": "14.500 $",
           "tag": "Am beliebtesten",
           "pop": true,
           "tl": "2 bis 4 Wochen",
@@ -2037,13 +2048,13 @@
         {
           "name": "KI-Operations",
           "price": 25000,
-          "disp": "$25,000+",
+          "disp": "ab 25.000 $",
           "tag": "KI-Ökosystem auf Enterprise-Niveau",
           "tl": "4 bis 8 Wochen",
           "scope": [
             {
               "i": "Individuelle KI-Agenten (5+)",
-              "l": "Fünf oder mehr KI-Agenten als komplette operative Ebene für Ihr Unternehmen. Deckt mehrere Bereiche ab: Vertrieb, Support, Marketing, Betrieb und Daten. Jeder Agent zweckgebaut für Ihre Workflows. Keine Templates, keine Standard-Setups. Agententypen in beliebiger Kombination: Telefon, E-Mail, Chat, Scraping, PDF-Generierung, Datenverarbeitung, Terminplanung, Content-Erstellung, Lead-Scoring und individuelle Anwendungsfälle."
+              "l": "Fünf oder mehr KI-Agenten als komplette operative Ebene für Ihr Unternehmen. Deckt mehrere Bereiche ab: Vertrieb, Support, Marketing, Betrieb und Daten. Jeder Agent eigens für Ihre Workflows gebaut. Keine Templates, keine Standard-Setups. Agententypen in beliebiger Kombination: Telefon, E-Mail, Chat, Scraping, PDF-Generierung, Datenverarbeitung, Terminplanung, Content-Erstellung, Lead-Scoring und individuelle Anwendungsfälle."
             },
             {
               "i": "KI-Orchestrierungsebene",
@@ -2078,7 +2089,7 @@
         {
           "name": "Agenten-Wartung",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/Monat",
           "tag": "Agenten am Laufen halten",
           "com": "Mindestlaufzeit 3 Monate",
@@ -2100,7 +2111,7 @@
               "l": "Bericht bis zum 5. jedes Monats mit: Antwortgenauigkeit der Agenten, Abschlussquoten, Fehlerraten, Nutzungsvolumen und Status der Integrationen. Inklusive Empfehlungen zur Leistungsverbesserung. Lieferung als PDF oder Loom-Video."
             },
             {
-              "i": "Support & Erreichbarkeit",
+              "i": "Support",
               "l": "Support per Text und E-Mail mit Antwort innerhalb von 48 Stunden (Werktage). Bis zu 8 Support-Anfragen pro Monat. Jede Anfrage = 1 konkretes Problem oder 1 Frage. Weitere Anfragen werden mit 200 $/Std. berechnet."
             }
           ],
@@ -2116,7 +2127,7 @@
         {
           "name": "Agenten-Wachstum",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 $",
           "per": "/Monat",
           "tag": "Am beliebtesten",
           "pop": true,
@@ -2164,7 +2175,7 @@
         {
           "name": "Agenten-Leitstand",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "7.500 $",
           "per": "/Monat",
           "tag": "Komplette KI-Betreuung",
           "com": "Mindestlaufzeit 6 Monate",
@@ -2217,7 +2228,7 @@
         {
           "name": "Stundenkontingent",
           "price": 2500,
-          "disp": "$2,500",
+          "disp": "2.500 $",
           "per": "/Monat",
           "tag": "Flexibler Support",
           "com": "Monatlich kündbar (keine Mindestlaufzeit)",
@@ -2254,7 +2265,7 @@
         {
           "name": "Dev-Support",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/Monat",
           "tag": "Alles am Laufen halten",
           "com": "Mindestlaufzeit 3 Monate",
@@ -2297,7 +2308,7 @@
         {
           "name": "Aktive Entwicklung",
           "price": 7500,
-          "disp": "$7,500",
+          "disp": "7.500 $",
           "per": "/Monat",
           "tag": "Kontinuierliche Weiterentwicklung",
           "pop": true,
@@ -2347,7 +2358,7 @@
         {
           "name": "Startrampe",
           "price": 9500,
-          "disp": "$9,500",
+          "disp": "9.500 $",
           "tag": "Ihre Idee validieren",
           "tl": "4 bis 6 Wochen",
           "scope": [
@@ -2393,7 +2404,7 @@
         {
           "name": "Studio",
           "price": 24500,
-          "disp": "$24,500",
+          "disp": "24.500 $",
           "tag": "Am beliebtesten",
           "pop": true,
           "tl": "8 bis 12 Wochen",
@@ -2444,7 +2455,7 @@
         {
           "name": "Flaggschiff",
           "price": 62000,
-          "disp": "$62,000",
+          "disp": "62.000 $",
           "tag": "Kompletter Produkt-Build",
           "tl": "14 bis 18 Wochen",
           "scope": [
@@ -2500,7 +2511,7 @@
         {
           "name": "Basisbetrieb",
           "price": 1950,
-          "disp": "$1,950",
+          "disp": "1.950 $",
           "per": "/Monat",
           "tag": "Gesund & regelkonform bleiben",
           "com": "Mindestlaufzeit 3 Monate",
@@ -2545,7 +2556,7 @@
         {
           "name": "Weiterentwicklung",
           "price": 4800,
-          "disp": "$4,800",
+          "disp": "4.800 $",
           "per": "/Monat",
           "tag": "Am beliebtesten",
           "pop": true,
@@ -2592,7 +2603,7 @@
         {
           "name": "Partnerschaft",
           "price": 10500,
-          "disp": "$10,500",
+          "disp": "10.500 $",
           "per": "/Monat",
           "tag": "Eingebettetes Produktteam",
           "com": "Mindestlaufzeit 3 Monate",
@@ -2643,7 +2654,7 @@
         {
           "name": "Website-Pflege",
           "price": 550,
-          "disp": "$550",
+          "disp": "550 $",
           "per": "/Monat",
           "tag": "Zuverlässige Pflege",
           "com": "Mindestlaufzeit 3 Monate",
@@ -2684,7 +2695,7 @@
         {
           "name": "Website-Wachstum",
           "price": 1600,
-          "disp": "$1,600",
+          "disp": "1.600 $",
           "per": "/Monat",
           "tag": "Am beliebtesten",
           "pop": true,
@@ -2730,7 +2741,7 @@
         {
           "name": "Website-Partnerschaft",
           "price": 3800,
-          "disp": "$3,800",
+          "disp": "3.800 $",
           "per": "/Monat",
           "tag": "Eingebettetes Web-Team",
           "com": "Mindestlaufzeit 3 Monate",
@@ -2777,7 +2788,7 @@
         {
           "name": "Marketing-Audit & Roadmap",
           "price": 3500,
-          "disp": "$3,500",
+          "disp": "3.500 $",
           "tag": "Diagnose + 90-Tage-Plan",
           "tl": "2 bis 3 Wochen",
           "scope": [
@@ -2826,7 +2837,7 @@
         {
           "name": "Kampagnen-Start",
           "price": 8500,
-          "disp": "$8,500",
+          "disp": "8.500 $",
           "tag": "Am beliebtesten",
           "pop": true,
           "tl": "4 bis 5 Wochen Aufbau + 30 Tage Monitoring",
@@ -2877,7 +2888,7 @@
         {
           "name": "Kompletter Produktlaunch",
           "price": 20000,
-          "disp": "$20,000",
+          "disp": "20.000 $",
           "tag": "Koordinierter Launch-Push",
           "tl": "6 Wochen Vorlauf + Launch-Woche",
           "scope": [
@@ -2938,7 +2949,7 @@
         {
           "name": "Marke Kompakt",
           "price": 4000,
-          "disp": "$4,000",
+          "disp": "4.000 $",
           "tag": "Logo + Farben + Schrift",
           "tl": "2 bis 3 Wochen",
           "scope": [
@@ -2983,7 +2994,7 @@
         {
           "name": "Markensystem",
           "price": 12000,
-          "disp": "$12,000",
+          "disp": "12.000 $",
           "tag": "Am beliebtesten",
           "pop": true,
           "tl": "4 bis 6 Wochen",
@@ -3006,7 +3017,7 @@
             },
             {
               "i": "Brand-Guidelines als PDF (20 Seiten)",
-              "l": "Logonutzung, Don'ts, Farbe, Schrift, Bildsprache, Hinweise zur Ikonografie und Tonalitäts-Einseiter (3 Stimm-Attribute + Beispieltexte)."
+              "l": "Logonutzung, Don'ts, Farbe, Schrift, Bildsprache, Hinweise zur Ikonografie und Tonalitäts-Einseiter (3 Attribute der Markenstimme + Beispieltexte)."
             },
             {
               "i": "Launch-Asset-Kit",
@@ -3022,14 +3033,14 @@
             "Art Direction für Markenfotografie + Shotlist: 800 $",
             "Zusätzliche Korrekturrunde: 400 $"
           ],
-          "ex": "Kein Naming- oder Verbal-Identity-Sprint. Keine Markenrecherche. Kein Brand Book über die 20-seitigen Guidelines hinaus. Keine Videoarbeit.",
+          "ex": "Kein Naming- oder Verbal-Identity-Sprint. Keine Markenrechtsrecherche. Kein Brand Book über die 20-seitigen Guidelines hinaus. Keine Videoarbeit.",
           "bridge": "Markensystem passt zu Kreativleitung (4.000 $/Monat), um laufend neue Marken-Assets konsistent zu produzieren.",
           "ideal": "Finanzierte Startups und skalierende Unternehmen, die ein komplettes, belastbares Markensystem brauchen"
         },
         {
           "name": "Markentransformation",
           "price": 28000,
-          "disp": "$28,000",
+          "disp": "28.000 $",
           "tag": "Komplettes Rebranding + Naming + Strategie",
           "tl": "8 bis 12 Wochen",
           "scope": [
@@ -3072,7 +3083,7 @@
             "Zusätzliche Naming-Runde: 2.000 $"
           ],
           "ex": "Keine Markenanmeldung (Empfehlung eines Partneranwalts inklusive). Keine Videoproduktion über das Storyboard hinaus. Keine laufende Umsetzung. Das ist eine monatliche Betreuung.",
-          "bridge": "Auf die Transformation folgt typischerweise Eingebettetes Studio (8.500 $/Monat), um die neue Identität in den nächsten 6 Monaten auf jeder Fläche auszurollen.",
+          "bridge": "Auf die Transformation folgt typischerweise Integriertes Studio (8.500 $/Monat), um die neue Identität in den nächsten 6 Monaten auf jeder Fläche auszurollen.",
           "ideal": "Etablierte Unternehmen mit neuer Positionierung, Startups vor der Series A, Traditionsmarken, die einen Neuaufbau von Grund auf brauchen"
         }
       ],
@@ -3080,7 +3091,7 @@
         {
           "name": "Markenpflege",
           "price": 1500,
-          "disp": "$1,500",
+          "disp": "1.500 $",
           "per": "/Monat",
           "tag": "Konsistente Pflege",
           "com": "Mindestlaufzeit 3 Monate",
@@ -3117,7 +3128,7 @@
         {
           "name": "Kreativleitung",
           "price": 4000,
-          "disp": "$4,000",
+          "disp": "4.000 $",
           "per": "/Monat",
           "tag": "Am beliebtesten",
           "pop": true,
@@ -3161,11 +3172,11 @@
           "ideal": "Wachsende Marken, die einen kreativen Partner brauchen, der regelmäßig liefert und die visuelle Linie steuert"
         },
         {
-          "name": "Eingebettetes Studio",
+          "name": "Integriertes Studio",
           "price": 8500,
-          "disp": "$8,500",
+          "disp": "8.500 $",
           "per": "/Monat",
-          "tag": "Anteiliges Inhouse-Kreativteam",
+          "tag": "Ihr Kreativteam auf Zeit",
           "com": "Mindestlaufzeit 3 Monate",
           "scope": [
             {
@@ -3186,7 +3197,7 @@
             },
             {
               "i": "Texterstellung + Pflege der Markenstimme",
-              "l": "Bis zu 3.000 Wörter/Monat markengerechte Texte. Die Stimm-Guidelines werden in allem, was wir anfassen, durchgesetzt. 1 Update des Stimm-Dokuments pro Quartal."
+              "l": "Bis zu 3.000 Wörter/Monat markengerechte Texte. Die Richtlinien zur Markenstimme gelten für alle Inhalte, die wir anfassen. 1 Aktualisierung des Markenstimmen-Dokuments pro Quartal."
             },
             {
               "i": "Weiterentwicklung des Markensystems",
@@ -3194,7 +3205,7 @@
             },
             {
               "i": "Quartalsweises Kampagnenkonzept",
-              "l": "1 Mini-Kampagne pro Quartal: Konzept, 5 Hero-Assets, Rollout-Plan. Denk an einen saisonalen Launch oder einen Produkt-Drop."
+              "l": "1 Mini-Kampagne pro Quartal: Konzept, 5 Hero-Assets, Rollout-Plan. Zum Beispiel ein saisonaler Launch oder ein Produkt-Drop."
             },
             {
               "i": "3 Korrekturrunden pro Asset",
@@ -3207,7 +3218,7 @@
             "Weiterer eingebetteter Designer: +3.500 $/Monat"
           ],
           "ex": "Keine Betreuung bezahlter Anzeigen. Kein Produkt-/UX-Design (separat kalkuliert).",
-          "ideal": "Skalierende Marken, die uns als ihr anteiliges Inhouse-Kreativteam über alle Kanäle sehen"
+          "ideal": "Skalierende Marken, die uns als ihr Inhouse-Kreativteam auf Zeit über alle Kanäle einsetzen"
         }
       ]
     },
@@ -3280,7 +3291,7 @@
     "odr_title": "EU-Streitschlichtung",
     "odr_1": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
     "odr_2": "Unsere E-Mail-Adresse finden Sie oben im Impressum.",
-    "odr_3": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+    "odr_3": "Wir sind weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
     "liability_title": "Haftung für Inhalte und Links",
     "liability_1": "Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Für die Inhalte externer Links übernehmen wir keine Gewähr; für den Inhalt der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.",
     "note": "Die deutsche Fassung dieses Impressums ist die rechtlich maßgebliche Fassung."
@@ -3312,7 +3323,7 @@
     "country_united_states": "Vereinigte Staaten"
   },
   "seo": {
-    "org_description": "Ein kreatives Webdesign-Studio, das individuelle, conversion-orientierte Websites für ambitionierte Marken entwickelt.",
+    "org_description": "Ein Berliner Webdesign-Studio, das individuelle, conversion-orientierte Websites für ambitionierte Marken entwickelt.",
     "local_description": "Webdesign-Studio aus Berlin, das individuelle Next.js-Websites für ambitionierte Marken weltweit baut.",
     "offer_catalog": "Webdesign-Leistungen",
     "service_name": "Websites",

@@ -13,8 +13,8 @@ export const de: LocaleBundle = {
       results: 'Eine vollständig auf Conversion optimierte Personal-Training-Seite, live in Berlin, gestaltet, gebaut und ausgeliefert von Blok Blok Studio. Kunden buchen und bezahlen jetzt direkt über die Seite, ohne DMs und Rechnungen. Die lokale SEO-Positionierung bringt organischen Traffic von Suchenden aus Berlin.',
     },
     'bronco-plumbing': {
-      desc: 'Website zur Lead-Generierung und Online-Wachstumssystem für einen Sanitärbetrieb in Dallas–Fort Worth.',
-      challenge: 'Colton Staley gründete Bronco Plumbing 2026 in Dallas–Fort Worth als inhabergeführten Betrieb im ersten Jahr. Start bei null: keine Website, keine Online-Präsenz, kein Weg für Hausbesitzer in DFW, ihn bei der Suche nach einem Klempner zu finden. Im Handwerk bekommt den Anruf, wer bei Google zuerst auftaucht und Qualität belegen kann.',
+      desc: 'Website zur Lead-Generierung und Online-Wachstumssystem für einen Sanitärbetrieb in Dallas-Fort Worth.',
+      challenge: 'Colton Staley gründete Bronco Plumbing 2026 in Dallas-Fort Worth als inhabergeführten Betrieb im ersten Jahr. Start bei null: keine Website, keine Online-Präsenz, kein Weg für Hausbesitzer in DFW, ihn bei der Suche nach einem Klempner zu finden. Im Handwerk bekommt den Anruf, wer bei Google zuerst auftaucht und Qualität belegen kann.',
       solution: 'Wir haben eine Website rund um Colton selbst gebaut: Inhaber bei jedem Einsatz, ehrliche Kostenvoranschläge, echte Google-Bewertungen live eingebunden. Jeder Abschnitt führt zu einem Anruf oder einer Anfrage, mit einer fixierten mobilen Anrufleiste für Hausbesitzer mitten im Notfall. Lokales SEO für Sanitärsuchen in DFW war von Tag eins dabei, und die Kontaktpipeline speist direkt seinen Auftragsablauf.',
       results: 'In den ersten fünf Monaten erzielte Colton über 50.000 $ Bruttoumsatz aus Sanitärarbeit und Online-System zusammen. Die Seite hält 5,0 Sterne bei 52 Google-Bewertungen, rangiert für ihre Suchbegriffe im Schnitt auf Position 5,2 und erreichte in den ersten drei Monaten der Messung über 8.000 Suchimpressionen.',
       metrics: [
@@ -39,7 +39,7 @@ export const de: LocaleBundle = {
     'coach-kofi': {
       desc: 'Leistungsstarke Personal-Brand- und Coaching-Plattform mit markanter visueller Identität.',
       challenge: 'Coach Kofi brauchte eine Personal-Brand-Website, die zu seiner Philosophie „Just Do The Work“ passt. Der bisherige Auftritt spiegelte weder die Energie noch die Autorität, die er in Bewegungs-, Leistungs- und Entwicklungscoaching einbringt.',
-      solution: 'Wir haben eine markante Schwarz-Weiß-Website mit kräftiger Typografie, professioneller Fotografie und einem klaren Weg vom Besucher zum Coaching-Kunden entworfen. Die Seite bietet Echtzeit-Buchung, Social-Proof-Zähler (über 150 Kunden, über 8.000 Coaching-Stunden) und ein mobile-first Design.',
+      solution: 'Wir haben eine markante Schwarz-Weiß-Website mit kräftiger Typografie, professioneller Fotografie und einem klaren Weg vom Besucher zum Coaching-Kunden entworfen. Die Seite bietet Echtzeit-Buchung, Social-Proof-Zähler (über 150 Kunden, über 8.000 Coaching-Stunden) und ein Mobile-First-Design.',
       results: 'Ein professioneller Markenauftritt, der Autorität sofort vermittelt. Der vereinfachte Buchungsablauf steigerte die Beratungsanfragen um 200 %, und das markante Design wurde plattformübergreifend zum Markenzeichen von Coach Kofi.',
       metrics: [
         {
@@ -82,7 +82,7 @@ export const de: LocaleBundle = {
       metrics: [
         {
           value: '95 %+',
-          label: 'Besucher, die das Age Gate abschließen',
+          label: 'Besucher, die den Alterscheck abschließen',
         },
       ],
     },
@@ -226,7 +226,7 @@ Denken Sie an die wertvollsten Marken der Welt. Sie erkennen sie sofort, nicht n
 
 **2. Höhere Preise.** Kantar misst Markenstärke unter anderem als Preissetzungsmacht: die Fähigkeit, mehr zu verlangen als die Konkurrenz, ohne Nachfrage zu verlieren. Diese Preissetzungsmacht ist ein großer Teil des Grundes, warum der Wert der stärksten Marken der Welt weiter steigt, während schwächere Wettbewerber über den Preis kämpfen.
 
-**3. Kundentreue.** Die Harvard Business Review hat dokumentiert, was passierte, als Unternehmen in die emotionale Bindung zu ihren Kunden investierten: Eine Bank steigerte die Produktnutzung in ihrem Zielsegment um 70 % und die Zahl neuer Konten um 40 %, und ein Modehändler verdreifachte das Umsatzwachstum seiner bestehenden Filialen mehr als. Menschen kaufen nicht nur Produkte, sie kaufen sich in Marken ein.
+**3. Kundentreue.** Die Harvard Business Review hat dokumentiert, was passierte, als Unternehmen in die emotionale Bindung zu ihren Kunden investierten: Eine Bank steigerte die Produktnutzung in ihrem Zielsegment um 70 % und die Zahl neuer Konten um 40 %, und ein Modehändler hat das Umsatzwachstum seiner bestehenden Filialen mehr als verdreifacht. Menschen kaufen nicht nur Produkte, sie kaufen sich in Marken ein.
 
 **4. Effizienteres Marketing.** Wenn Ihre Marke klar und konsistent ist, arbeitet jeder Marketing-Euro härter. Menschen erinnern sich an Sie. Sie erkennen Sie wieder. Sie kommen zurück.
 
@@ -255,7 +255,7 @@ Wenn Ihre aktuelle Website nicht nach dem Unternehmen aussieht, das Sie tatsäch
     kofi: {
       name: 'Coach Kofi über die Zusammenarbeit mit Blok Blok Studio',
       description: 'Video-Kundenstimme von Coach Kofi, Nike-Athlet und Personal Trainer in Berlin, aufgenommen in seinem Gym. Blok Blok Studio hat coachkofi.de gebaut; die Beratungsanfragen stiegen nach dem Launch um 200 %.',
-      transcript: `Ich habe mit Chase an meiner Website gearbeitet, und sie ist komplett irre geworden. Er hat mir diesen Apple-Look gegeben, dieses Apple-Design. Die Sachen poppen richtig schön auf. Die Website hat einen ganz weichen Finish.
+      transcript: `Ich habe mit Chase an meiner Website gearbeitet, und sie ist absolut der Wahnsinn geworden. Er hat mir diesen Apple-Look gegeben, dieses Apple-Design. Die Sachen poppen richtig schön auf. Die Website hat ein richtig sauberes Finish.
 
 Ich persönlich mag One-Pager. Dafür haben wir uns entschieden. Die Kommunikation mit ihm ist wirklich einfach. Er ist ein guter Typ, Mann. Sehr zielstrebig.
 

@@ -254,10 +254,10 @@ function PhoneInput({
 }
 
 function Select({
-  label, value, onChange, options, required = false, placeholder = 'Select...',
+  label, value, onChange, options, required = false, placeholder,
 }: {
   label: string; value: string; onChange: (v: string) => void;
-  options: string[]; required?: boolean; placeholder?: string;
+  options: string[]; required?: boolean; placeholder: string;
 }) {
   return (
     <div>
@@ -396,7 +396,7 @@ function StepContacts({
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Input
-              label="Full Name"
+              label={t('f_name')}
               value={contact.name}
               onChange={(v) => update(i, 'name', v)}
               required
@@ -404,14 +404,14 @@ function StepContacts({
               autoComplete="name"
             />
             <Input
-              label="Role / Title"
+              label={t('f_role')}
               value={contact.role}
               onChange={(v) => update(i, 'role', v)}
               placeholder={t('ph_role')}
               maxLength={100}
             />
             <Input
-              label="Email"
+              label={t('f_email')}
               value={contact.email}
               onChange={(v) => update(i, 'email', v)}
               type="email"
@@ -419,7 +419,7 @@ function StepContacts({
               autoComplete="email"
             />
             <PhoneInput
-              label="Phone"
+              label={t('f_phone')}
               value={contact.phone}
               onChange={(v) => update(i, 'phone', v)}
             />
@@ -488,7 +488,8 @@ function StepCredentials({
           </div>
 
           <Select
-            label="Platform"
+            placeholder={t('ph_select')}
+            label={t('f_platform')}
             value={cred.platform}
             onChange={(v) => update(i, 'platform', v)}
             options={CREDENTIAL_PLATFORMS}
@@ -496,14 +497,14 @@ function StepCredentials({
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Input
-              label="Username / Email"
+              label={t('f_username')}
               value={cred.username}
               onChange={(v) => update(i, 'username', v)}
               required
               maxLength={200}
             />
             <Input
-              label="Password"
+              label={t('f_password')}
               value={cred.password}
               onChange={(v) => update(i, 'password', v)}
               type="password"
@@ -512,14 +513,14 @@ function StepCredentials({
             />
           </div>
           <Input
-            label="URL (optional)"
+            label={t('f_url_optional')}
             value={cred.url}
             onChange={(v) => update(i, 'url', v)}
             placeholder={t('ph_url')}
             maxLength={500}
           />
           <Textarea
-            label="Notes (optional)"
+            label={t('f_notes_optional')}
             value={cred.notes}
             onChange={(v) => update(i, 'notes', v)}
             placeholder={t('ph_2fa')}
@@ -587,13 +588,14 @@ function StepSocials({
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Select
-              label="Platform"
+              placeholder={t('ph_select')}
+              label={t('f_platform')}
               value={link.platform}
               onChange={(v) => update(i, 'platform', v)}
               options={SOCIAL_PLATFORMS}
             />
             <Input
-              label="URL"
+              label={t('f_url')}
               value={link.url}
               onChange={(v) => update(i, 'url', v)}
               placeholder={t('ph_link')}
@@ -630,7 +632,7 @@ function StepDetails({
       </div>
 
       <Select
-        label="Timezone"
+        label={t('f_timezone')}
         value={formData.timezone}
         onChange={(v) => setFormData((prev) => ({ ...prev, timezone: v }))}
         options={COMMON_TIMEZONES}
@@ -639,7 +641,7 @@ function StepDetails({
 
       <div>
         <Input
-          label="Telegram Chat ID (optional)"
+          label={t('f_telegram')}
           value={formData.telegramChatId}
           onChange={(v) => setFormData((prev) => ({ ...prev, telegramChatId: v }))}
           placeholder={t('ph_telegram')}
@@ -651,7 +653,7 @@ function StepDetails({
       </div>
 
       <Textarea
-        label="Notes / Special Instructions"
+        label={t('f_notes')}
         value={formData.notes}
         onChange={(v) => setFormData((prev) => ({ ...prev, notes: v }))}
         placeholder={t('ph_notes')}
@@ -659,7 +661,7 @@ function StepDetails({
       />
 
       <Textarea
-        label="Brand Guidelines"
+        label={t('f_brand')}
         value={formData.brandGuidelines}
         onChange={(v) => setFormData((prev) => ({ ...prev, brandGuidelines: v }))}
         placeholder={t('ph_brand')}

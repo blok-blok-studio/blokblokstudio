@@ -17,6 +17,7 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 export function V2Navbar() {
   const t = useTranslations('nav');
   const th = useTranslations('home');
+  const ta = useTranslations('a11y');
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -59,7 +60,7 @@ export function V2Navbar() {
         }`}
       >
         <nav
-          aria-label="Primary"
+          aria-label={ta('main_navigation')}
           className="relative mx-auto flex h-16 max-w-[1600px] items-center justify-between px-4 sm:px-8 lg:px-12"
         >
           <Link href="/" aria-label="Blok Blok Studio" className="flex items-center">

@@ -1,8 +1,8 @@
 {
   "nav": {
     "home": "Accueil",
-    "projects": "Projets",
-    "about": "À Propos",
+    "projects": "Réalisations",
+    "about": "À propos",
     "services": "Services",
     "pricing": "Tarifs",
     "team": "Équipe",
@@ -10,11 +10,11 @@
     "blog": "Blog",
     "faq": "FAQ",
     "language": "Langue",
-    "privacy": "Politique de Confidentialité",
-    "terms": "Conditions d'Utilisation",
-    "cookies": "Politique de Cookies",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Politique de cookies",
     "impressum": "Mentions légales",
-    "data_rights": "Vos Droits sur les Données",
+    "data_rights": "Vos droits sur les données",
     "accessibility": "Accessibilité",
     "v2_work": "Réalisations",
     "v2_studio": "Le studio",
@@ -115,13 +115,13 @@
   "home": {
     "hero_title": "Studio de web design à Berlin",
     "hero_subtitle": "Nous concevons et développons des sites Next.js sur mesure pour des marques ambitieuses dans le monde entier. Un web design premium, orienté conversion, jamais de templates.",
-    "hero_cta": "Démarrer un Projet",
+    "hero_cta": "Lancer un projet",
     "clients_heading": "Ils nous font confiance",
-    "services_heading": "Ce Que Nous Faisons",
+    "services_heading": "Ce que nous faisons",
     "services_subheading": "Nous combinons stratégie, design et technologies web modernes pour créer des sites qui génèrent des résultats.",
-    "projects_heading": "Travaux Sélectionnés",
-    "projects_subheading": "Une vitrine de projets où la créativité rencontre l'objectif.",
-    "projects_cta": "Voir Tous les Projets",
+    "projects_heading": "Réalisations choisies",
+    "projects_subheading": "Une sélection de projets où la créativité sert un objectif.",
+    "projects_cta": "Voir toutes les réalisations",
     "testimonials_heading": "Ce que disent nos clients",
     "testimonials_subtitle": "Ne nous croyez pas sur parole. Écoutez les marques que nous avons aidées à se transformer.",
     "newsletter_heading": "Recevez nos conseils design chaque semaine",
@@ -131,17 +131,17 @@
     "newsletter_privacy": "Jamais de spam. Désabonnement à tout moment.",
     "newsletter_subscribed": "Vous êtes inscrit !",
     "newsletter_already_subscribed": "Vous êtes déjà inscrit",
-    "newsletter_consent": "En vous inscrivant, vous acceptez notre <link>Politique de Confidentialité</link>. Désabonnement à tout moment.",
+    "newsletter_consent": "En vous inscrivant, vous acceptez notre <link>Politique de confidentialité</link>. Désabonnement à tout moment.",
     "tab_all": "Tous",
-    "tab_ai": "IA & Automatisation",
-    "tab_creative": "Créatif & Marketing",
-    "audit_badge": "Gratuit: 30 minutes",
+    "tab_ai": "IA et automatisation",
+    "tab_creative": "Création et marketing",
+    "audit_badge": "Gratuit : 30 minutes",
     "audit_heading": "Pas sûr de ce dont votre entreprise a besoin ?",
-    "audit_subheading": "Réservez un appel stratégie gratuit. Nous examinerons votre entreprise et vous montrerons où se trouvent les plus grandes opportunités.",
+    "audit_subheading": "Réservez un appel stratégique gratuit. Nous examinerons votre entreprise et vous montrerons exactement où se trouvent les plus grandes opportunités.",
     "audit_button": "Réserver votre appel gratuit",
-    "cta_heading": "Prêt à Construire Quelque Chose de Grand ?",
+    "cta_heading": "Prêt à construire quelque chose de grand ?",
     "cta_subheading": "Collaborons et donnons vie à votre vision.",
-    "cta_button": "Contactez-Nous",
+    "cta_button": "Contactez-nous",
     "stats_projects": "Projets livrés",
     "stats_brands": "Marques accompagnées",
     "stats_industries": "Secteurs",
@@ -149,7 +149,7 @@
     "v2_tagline": "Studio de web design à Berlin",
     "v2_locations": "Berlin · Virginie · Los Angeles",
     "v2_scroll": "Défiler",
-    "v2_manifesto_a": "Un studio de design boutique à Berlin. Un travail premium et original pour des marques ambitieuses dans le monde entier. Pas de templates,",
+    "v2_manifesto_a": "Un studio de design à taille humaine, à Berlin. Un travail premium et original pour des marques ambitieuses dans le monde entier. Pas de templates,",
     "v2_manifesto_em": "construit blok par blok.",
     "v2_about_link": "Découvrir le studio",
     "v2_services_label": "Ce que nous faisons",
@@ -193,7 +193,7 @@
     "v2_open_menu": "Ouvrir le menu",
     "v2_close_menu": "Fermer le menu",
     "v2_rights": "Tous droits réservés.",
-    "v2_services_sub": "Une seule formule, bien faite. Nous concevons et développons le site, puis nous l'hébergeons et le gardons en bonne santé.",
+    "v2_services_sub": "Une seule formule, bien faite. Nous concevons et développons le site, puis nous l'hébergeons et veillons à ce qu'il tourne.",
     "v2_group_1": "Sites web et identité",
     "v2_group_1_detail": "Conception et développement, puis l'identité qui va avec.",
     "v2_group_2": "Acquisition payante",
@@ -235,8 +235,8 @@
     "v2_result_military_newschool": "Un espace en ligne qui parle aux étudiants liés à l'armée.",
     "v2_archive": "archives",
     "v2_globe_nowebgl": "WebGL est désactivé dans ce navigateur. Les villes sont listées à côté.",
-    "v2_quote_1_role": "Bronco Plumbing, Dallas–Fort Worth",
-    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_1_role": "Bronco Plumbing, Dallas-Fort Worth",
+    "v2_quote_2_role": "Athlète Nike, Berlin",
     "v2_quote_3_role": "Boutique de cartes à collectionner",
     "v2_quote_1_text": "$50,000 de chiffre d'affaires brut sur les cinq premiers mois, une note de 5,0 étoiles sur 52 avis Google et une position moyenne de 5,2 sur Google pour ses mots-clés.",
     "v2_quote_2_text": "Blok Blok Studio a complètement transformé ma présence en ligne. Le design audacieux reflète parfaitement ma philosophie de coaching et les résultats ont été incroyables.",
@@ -258,45 +258,45 @@
     "v2_lockup_alt": "Blok Blok Studio, studio créatif et technologique"
   },
   "projects": {
-    "title": "Nos Projets",
-    "subtitle": "Explorez notre portfolio d'expériences numériques, d'identités de marque et de solutions créatives.",
+    "title": "Nos réalisations",
+    "subtitle": "Tous les sites que nous avons livrés, avec les chiffres qu'ils ont produits.",
     "filter_all": "Tous",
-    "filter_web": "Design Web",
+    "filter_web": "Web design",
     "filter_brand": "Branding",
-    "filter_app": "Développement d'Apps",
+    "filter_app": "Développement d'applications",
     "filter_marketing": "Marketing",
-    "view_project": "Voir le Projet",
-    "cat_web": "Site web",
+    "view_project": "Voir le projet",
+    "cat_web": "Web design",
     "cat_ecom": "E-commerce",
     "cat_brand": "Branding",
     "v2_label": "Réalisations choisies",
-    "v2_count": "{count} projets",
+    "v2_count": "{count, plural, one {# projet} other {# projets}}",
     "alt_live_preview": "Aperçu en direct de {title}",
     "alt_mobile_preview": "Aperçu mobile de {title}",
     "alt_gallery": "Image {n} de la galerie de {title}"
   },
   "about": {
-    "title": "À Propos de Nous",
-    "subtitle": "Nous sommes un collectif de designers, développeurs et stratèges passionnés par la création d'expériences numériques significatives.",
-    "mission_title": "Notre Mission",
+    "title": "À propos de nous",
+    "subtitle": "Un studio de cinq personnes qui conçoit, développe et héberge des sites web. Fondé à Berlin en juin 2024.",
+    "mission_title": "Notre mission",
     "mission_text": "Donner aux marques ambitieuses les sites, les systèmes et les campagnes qui leur gagnent vraiment des clients.",
-    "vision_title": "Notre Vision",
-    "vision_text": "Être le partenaire créatif de choix pour les marques qui osent se démarquer dans le paysage numérique.",
-    "values_title": "Nos Valeurs",
+    "vision_title": "Notre vision",
+    "vision_text": "Être le studio que les marques ambitieuses appellent en premier quand le site doit rapporter.",
+    "values_title": "Nos valeurs",
     "value_1_title": "Innovation",
-    "value_1_text": "Nous repoussons les limites et explorons de nouvelles possibilités dans chaque projet.",
+    "value_1_text": "Chaque site est construit de zéro. Rien n'est repris d'un thème.",
     "value_2_title": "Excellence",
-    "value_2_text": "Nous nous imposons les plus hauts standards de qualité et d'artisanat.",
+    "value_2_text": "Nous nous imposons les plus hauts standards de qualité et de savoir-faire.",
     "value_3_title": "Collaboration",
     "value_3_text": "Nous croyons que le meilleur travail naît de partenariats solides avec nos clients.",
     "value_4_title": "Intégrité",
-    "value_4_text": "Nous opérons avec transparence, honnêteté et respect dans tout ce que nous faisons.",
-    "stats_projects": "Projets Livrés",
-    "stats_clients": "Clients Satisfaits",
-    "stats_years": "Ans d'Expérience",
-    "stats_awards": "Industries Desservies",
+    "value_4_text": "Nous agissons avec transparence, honnêteté et respect dans tout ce que nous faisons.",
+    "stats_projects": "Projets livrés",
+    "stats_clients": "Clients satisfaits",
+    "stats_years": "Années d'expérience",
+    "stats_awards": "Secteurs servis",
     "v2_label": "Le studio",
-    "v2_intro": "Boutique par choix. Nous accompagnons quelques marques à la fois, pour que chaque site ait un fondateur dans la pièce, pas un template et un numéro de ticket.",
+    "v2_intro": "Un studio à taille humaine, par choix. Nous accompagnons quelques marques à la fois, pour que chaque site ait un fondateur dans la pièce, pas un template et un numéro de ticket.",
     "v2_team_label": "Avec qui vous travaillez",
     "v2_team_link": "Rencontrer l'équipe",
     "v2_cta": "Commencer par le quiz",
@@ -313,31 +313,31 @@
     "ind_collectibles": "E-commerce d'objets de collection"
   },
   "blog": {
-    "meta_title": "Blog : conseils en design web, branding et SEO",
-    "meta_description": "Conseils d’experts en design web, branding, SEO et marketing digital par Blok Blok Studio. Des astuces concrètes pour développer votre présence en ligne.",
+    "meta_title": "Blog : conseils en web design, branding et SEO",
+    "meta_description": "Ce que nous avons appris en construisant des sites qui rapportent : articles, vidéos clients et actualités du studio Blok Blok Studio.",
     "og_alt": "Blog de Blok Blok Studio",
     "list_title": "Idées",
     "list_subtitle": "Ce que nous avons appris en construisant des sites qui rapportent : des articles, des clients face caméra et des nouvelles du studio.",
     "read_time": "{minutes} min de lecture",
-    "read_article": "Lire l’article",
+    "read_article": "Lire l'article",
     "back_to_blog": "Retour au blog",
     "cta_title": "Vous voulez des résultats comme ceux-ci ?",
-    "cta_subtitle": "Réservez un appel stratégique gratuit et discutons de la façon de transformer votre présence digitale.",
+    "cta_subtitle": "Réservez un appel gratuit et nous vous montrerons ce que nous corrigerions en premier.",
     "cta_button": "Commencer",
     "posts": {
       "why-your-website-is-losing-customers": {
         "title": "Pourquoi votre site web perd des clients (et comment y remédier)",
         "description": "Des pages lentes, un message flou et des signaux de confiance absents font fuir vos visiteurs en silence. Cinq raisons documentées pour lesquelles les sites web perdent des clients, et comment corriger chacune.",
-        "category": "Design web"
+        "category": "Web design"
       },
       "seo-checklist-2026": {
-        "title": "La checklist SEO ultime pour 2026",
-        "description": "Un guide complet des fondamentaux SEO dont chaque site d’entreprise a besoin pour se positionner sur Google en 2026. Données structurées, Core Web Vitals et plus encore.",
+        "title": "La checklist SEO indispensable pour 2026",
+        "description": "Un guide complet des fondamentaux SEO dont chaque site d'entreprise a besoin pour se positionner sur Google en 2026. Données structurées, Core Web Vitals et plus encore.",
         "category": "SEO"
       },
       "brand-identity-investment": {
-        "title": "Pourquoi l’identité de marque est le meilleur investissement que vous ferez",
-        "description": "Votre marque est bien plus qu’un logo. Une identité de marque forte inspire confiance, justifie des prix premium et transforme vos clients en ambassadeurs.",
+        "title": "Pourquoi l'identité de marque est le meilleur investissement que vous ferez",
+        "description": "Votre marque est bien plus qu'un logo. Une identité de marque forte inspire confiance, justifie des prix premium et transforme vos clients en ambassadeurs.",
         "category": "Branding"
       }
     },
@@ -368,13 +368,13 @@
   },
   "services": {
     "title": "Nos services",
-    "subtitle": "Conception et développement de sites web sur mesure qui font vraiment grandir votre entreprise.",
+    "subtitle": "Conception et développement de sites web sur mesure, construits pour gagner des clients, puis hébergés et maintenus en ligne.",
     "section_ai_title": "IA et automatisation",
     "section_creative_title": "Création et marketing",
     "service_1_title": "Écosystèmes d'agents IA",
     "service_1_subtitle": "Des sous-agents interconnectés qui gèrent des workflows entiers",
     "service_1_bullet_1": "Orchestration multi-agents",
-    "service_1_bullet_2": "Du lead au scoring, à l'e-mail, au SMS, à l'appel",
+    "service_1_bullet_2": "Du lead au scoring, puis e-mail, SMS et appel",
     "service_1_bullet_3": "Prise de décision autonome",
     "service_1_bullet_4": "Escalade vers un humain quand il le faut",
     "service_1_bullet_5": "Fonctionnement 24h/24, 7j/7, sans interruption",
@@ -386,7 +386,7 @@
     "service_2_bullet_4": "Gestion des FAQ et qualification des leads",
     "service_2_bullet_5": "Langage naturel, pas robotique",
     "service_3_title": "Automatisation des workflows",
-    "service_3_subtitle": "Reliez chaque outil dans un seul système qui tourne tout seul",
+    "service_3_subtitle": "Reliez tous vos outils en un seul système qui tourne tout seul",
     "service_3_bullet_1": "CRM, agenda et paiements reliés",
     "service_3_bullet_2": "Intégrations sur mesure (sans la taxe Zapier)",
     "service_3_bullet_3": "Logique de décision IA intégrée",
@@ -436,17 +436,17 @@
     "service_9_bullet_5": "Tests A/B des créations",
     "process_title": "Notre processus",
     "step_1_title": "Découverte",
-    "step_1_desc": "Nous plongeons dans vos objectifs, votre audience et votre marché pour poser des bases solides.",
+    "step_1_desc": "Nous cernons vos objectifs, votre audience et votre marché avant de dessiner quoi que ce soit.",
     "step_2_title": "Stratégie",
-    "step_2_desc": "Nous construisons une feuille de route sur mesure qui aligne vision créative et objectifs business.",
+    "step_2_desc": "Un plan écrit : les pages, le calendrier et un seul prix.",
     "step_3_title": "Design",
-    "step_3_desc": "Nous créons des visuels percutants et des interfaces intuitives qui captivent vos utilisateurs.",
+    "step_3_desc": "Nous concevons les pages et le parcours, puis nous vous montrons un prototype fonctionnel.",
     "step_4_title": "Développement",
-    "step_4_desc": "Nous développons avec des technologies modernes pour garantir vitesse, évolutivité et fiabilité.",
+    "step_4_desc": "Codé à la main en Next.js. Rapide aujourd'hui, facile à faire évoluer demain.",
     "step_5_title": "Lancement et optimisation",
-    "step_5_desc": "Nous déployons, surveillons et affinons en continu pour maximiser les performances.",
+    "step_5_desc": "Nous mettons en ligne, suivons les chiffres et corrigeons ce qui ne fonctionne pas.",
     "v2_label": "Services",
-    "v2_intro": "Une seule formule, bien faite. Nous concevons et développons le site, puis nous l'hébergeons et le gardons en bonne santé.",
+    "v2_intro": "Une seule formule, bien faite. Nous concevons et développons le site, puis nous l'hébergeons et veillons à ce qu'il tourne.",
     "v2_process_label": "Comment se déroule un projet",
     "v2_cta_label": "Vous hésitez sur ce qu'il vous faut ?",
     "v2_cta": "Faire le quiz d'une minute",
@@ -456,13 +456,13 @@
     "meta_description": "Conception et développement de sites web sur mesure. Des livrables définis, chiffrés sur mesure selon votre périmètre."
   },
   "team": {
-    "title": "Notre Équipe",
-    "subtitle": "Rencontrez les esprits créatifs derrière Blok Blok Studio.",
+    "title": "Notre équipe",
+    "subtitle": "Les cinq personnes qui construisent et hébergent votre site.",
     "role_founder": "Fondateur",
     "role_graphic": "Graphiste senior",
     "role_web": "Web designer senior",
     "v2_label": "L'équipe",
-    "v2_intro": "Cinq personnes sur quatre fuseaux horaires. Assez petits pour que vous connaissiez tout le monde par son prénom, assez dispersés pour que votre projet n'attende jamais le matin.",
+    "v2_intro": "Cinq personnes sur quatre fuseaux horaires. Une équipe assez petite pour que vous connaissiez tout le monde par son prénom, assez répartie pour que votre projet n'attende jamais le lever du jour.",
     "v2_studied": "Formation",
     "v2_enjoys": "En dehors du travail",
     "v2_based": "Basé à",
@@ -481,41 +481,41 @@
     "ayan_enjoys": "Monter des projets · Soirées cinéma · La quête du café parfait"
   },
   "contact": {
-    "title": "Contactez-Nous",
-    "subtitle": "Vous avez un projet en tête ? Nous serions ravis de vous entendre. Créons quelque chose d'extraordinaire ensemble.",
-    "name": "Votre Nom",
-    "email": "Votre Email",
+    "title": "Contactez-nous",
+    "subtitle": "Dites-nous ce que le site doit faire. Nous répondons sous un jour ouvré.",
+    "name": "Votre nom",
+    "email": "Votre e-mail",
     "company": "Entreprise",
     "phone": "Téléphone / WhatsApp (facultatif)",
     "message": "Parlez-nous de votre projet",
-    "submit": "Envoyer le Message",
+    "submit": "Envoyer le message",
     "success": "Merci ! Nous vous répondrons bientôt.",
-    "info_title": "Informations de Contact",
+    "info_title": "Coordonnées",
     "info_address": "Berlin, Allemagne",
     "consent_text": "J'accepte le traitement de mes données personnelles tel que décrit dans la"
   },
   "footer": {
     "tagline": "Créer des expériences numériques qui inspirent.",
-    "quick_links": "Liens Rapides",
-    "connect": "Connecter",
-    "newsletter_title": "Restez Informé",
-    "newsletter_placeholder": "Entrez votre email",
+    "quick_links": "Liens rapides",
+    "connect": "Suivez-nous",
+    "newsletter_title": "Restez informé",
+    "newsletter_placeholder": "Votre adresse e-mail",
     "newsletter_button": "S'abonner",
-    "newsletter_subscribed": "Confirmez via votre e-mail !",
+    "newsletter_subscribed": "Consultez votre boîte mail pour confirmer !",
     "newsletter_already_subscribed": "Vous êtes déjà inscrit",
-    "newsletter_consent": "En vous inscrivant, vous acceptez notre <link>Politique de Confidentialité</link>. Désabonnement à tout moment.",
+    "newsletter_consent": "En vous inscrivant, vous acceptez notre <link>Politique de confidentialité</link>. Désabonnement à tout moment.",
     "back_to_top": "Retour en haut",
     "copyright": "Tous droits réservés.",
-    "legal": "Légal"
+    "legal": "Mentions légales"
   },
   "gdpr": {
     "consent_label": "J'accepte la",
-    "privacy_policy": "Politique de Confidentialité",
-    "terms": "Conditions d'Utilisation",
+    "privacy_policy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
     "and": "et les",
-    "consent_required": "Vous devez accepter notre Politique de Confidentialité et nos Conditions pour continuer",
-    "cookie_banner_text": "Nous utilisons des cookies essentiels pour améliorer votre expérience. En savoir plus dans notre",
-    "cookie_policy": "Politique de Cookies",
+    "consent_required": "Vous devez accepter notre Politique de confidentialité et nos Conditions d'utilisation pour continuer",
+    "cookie_banner_text": "Nous utilisons des cookies essentiels pour faire fonctionner le site. En savoir plus dans notre",
+    "cookie_policy": "Politique de cookies",
     "accept": "Accepter",
     "decline": "Refuser",
     "reject_all": "Tout refuser",
@@ -524,80 +524,80 @@
     "preferences_title": "Préférences des cookies",
     "essential_title": "Essentiels",
     "essential_desc": "Nécessaires au fonctionnement du site. Ne peuvent être désactivés.",
-    "analytics_title": "Analytiques",
+    "analytics_title": "Statistiques",
     "analytics_desc": "Nous aident à comprendre comment les visiteurs interagissent avec notre site.",
     "marketing_title": "Marketing",
     "marketing_desc": "Utilisés pour afficher des publicités pertinentes et suivre les campagnes.",
     "back": "Retour",
     "save_preferences": "Enregistrer les préférences",
-    "data_rights_title": "Vos Droits sur les Données",
+    "data_rights_title": "Vos droits sur les données",
     "data_rights_subtitle": "En vertu du RGPD, vous avez le droit d'accéder, d'exporter ou de supprimer définitivement vos données personnelles de nos systèmes.",
-    "data_rights_description": "Exercez vos droits sur les données RGPD",
-    "your_email": "Votre Adresse Email",
+    "data_rights_description": "Exercez vos droits RGPD sur vos données",
+    "your_email": "Votre adresse e-mail",
     "request_type": "Que souhaitez-vous faire ?",
-    "export_data": "Exporter Mes Données",
+    "export_data": "Exporter mes données",
     "export_description": "Téléchargez toutes les données personnelles que nous avons sur vous au format JSON",
-    "delete_data": "Supprimer Mes Données",
+    "delete_data": "Supprimer mes données",
     "delete_description": "Supprimez définitivement toutes vos données personnelles de nos systèmes. Cette action est irréversible.",
-    "submit_request": "Soumettre la Demande",
+    "submit_request": "Envoyer la demande",
     "processing": "Traitement en cours...",
-    "request_sent_message": "Nous avons envoyé un lien de vérification à votre email. Veuillez consulter votre boîte de réception et cliquer sur le lien pour confirmer votre demande. Le lien expire dans 15 minutes.",
+    "request_sent_message": "Nous avons envoyé un lien de vérification à votre adresse e-mail. Consultez votre boîte de réception et cliquez sur le lien pour confirmer votre demande. Le lien expire dans 15 minutes.",
     "request_error": "Une erreur s'est produite. Veuillez réessayer plus tard.",
-    "check_email_title": "Vérifiez Votre Email",
-    "data_deleted_title": "Données Supprimées",
+    "check_email_title": "Consultez votre boîte mail",
+    "data_deleted_title": "Données supprimées",
     "data_deleted_message": "Toutes vos données personnelles ont été définitivement supprimées de nos systèmes.",
     "token_expired": "Ce lien de vérification a expiré. Veuillez soumettre une nouvelle demande."
   },
   "unsubscribe": {
     "processing": "Traitement de votre demande...",
-    "success_title": "Vous Êtes Désinscrit",
+    "success_title": "Vous êtes désinscrit",
     "success_message": "Vous avez été retiré avec succès de notre liste de diffusion.",
-    "error_title": "Une Erreur S'est Produite",
+    "error_title": "Une erreur s'est produite",
     "error_message": "Nous n'avons pas pu traiter votre demande. Le lien peut être invalide ou expiré. Contactez-nous à blokblokstudio.com/contact pour obtenir de l'aide.",
-    "back_home": "Retour à l'Accueil",
+    "back_home": "Retour à l'accueil",
     "meta_title": "Se désinscrire",
     "meta_description": "Désinscrivez-vous de nos e-mails."
   },
   "privacy": {
-    "title": "Politique de Confidentialité",
+    "title": "Politique de confidentialité",
     "description": "Comment Blok Blok Studio collecte, utilise et protège vos données personnelles",
-    "last_updated": "Dernière Mise à Jour : July 16, 2026",
+    "last_updated": "Dernière mise à jour : 16 juillet 2026",
     "intro_title": "Introduction",
-    "intro_content": "Chez Blok Blok Studio, nous prenons votre vie privée au sérieux. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web ou utilisez nos services.",
-    "data_collection_title": "Quelles Données Nous Collectons",
+    "intro_content": "Chez Blok Blok Studio, nous prenons votre vie privée au sérieux. Cette Politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web ou utilisez nos services.",
+    "data_collection_title": "Les données que nous collectons",
     "data_collection_intro": "Nous collectons les informations que vous nous fournissez directement lorsque vous remplissez des formulaires sur notre site web :",
     "data_item_name": "Nom",
-    "data_item_email": "Adresse email",
-    "data_item_industry": "Industrie / domaine d'activité",
+    "data_item_email": "Adresse e-mail",
+    "data_item_industry": "Secteur / domaine d'activité",
     "data_item_website": "URL du site web (facultatif)",
     "data_item_problem": "Détails du projet et défis",
     "data_item_budget": "Fourchette de budget et délai souhaité (si vous les indiquez dans le formulaire de demande)",
     "data_item_marketing_consent": "Si vous avez coché la case facultative d'e-mails marketing, et la date de votre confirmation",
     "data_item_ip": "Adresse IP (uniquement pour la vérification du consentement)",
-    "data_use_title": "Comment Nous Utilisons Vos Données",
+    "data_use_title": "Comment nous utilisons vos données",
     "data_use_intro": "Nous utilisons les informations que nous collectons pour :",
     "use_item_respond": "Répondre à vos demandes et fournir les services demandés",
     "use_item_marketing": "Envoyer des communications marketing (uniquement avec votre consentement explicite)",
     "use_item_improve": "Améliorer notre site web et nos services",
     "use_item_legal": "Respecter les obligations légales",
-    "third_parties_title": "Services Tiers",
+    "third_parties_title": "Services tiers",
     "third_parties_intro": "Nous utilisons les services tiers suivants pour faire fonctionner notre entreprise :",
-    "third_party_resend": "Resend: pour l'envoi de communications par email",
+    "third_party_resend": "Resend : pour l'envoi de communications par e-mail",
     "third_parties_note": "Ces services ne reçoivent que les données minimales nécessaires à leur fonctionnement.",
-    "retention_title": "Conservation des Données",
-    "retention_content": "Nous conservons vos données personnelles aussi longtemps que nécessaire pour fournir nos services et maintenir notre relation commerciale. Vous pouvez demander la suppression de vos données à tout moment via notre page Droits sur les Données.",
-    "your_rights_title": "Vos Droits (RGPD)",
-    "your_rights_intro": "En vertu du Règlement Général sur la Protection des Données, vous avez le droit de :",
-    "right_access": "Accès: Demander une copie de toutes les données personnelles que nous détenons sur vous",
-    "right_correct": "Rectification: Demander la correction de données inexactes",
-    "right_delete": "Effacement: Demander la suppression définitive de vos données",
-    "right_object": "Opposition: Vous opposer au traitement de vos données",
-    "right_export": "Portabilité: Exporter vos données dans un format lisible par machine",
-    "right_withdraw": "Retirer le Consentement: Retirer votre consentement à tout moment",
+    "retention_title": "Conservation des données",
+    "retention_content": "Nous conservons vos données personnelles aussi longtemps que nécessaire pour fournir nos services et maintenir notre relation commerciale. Vous pouvez demander la suppression de vos données à tout moment via notre page Droits sur les données.",
+    "your_rights_title": "Vos droits (RGPD)",
+    "your_rights_intro": "En vertu du Règlement général sur la protection des données, vous avez le droit de :",
+    "right_access": "Accès : demander une copie de toutes les données personnelles que nous détenons sur vous",
+    "right_correct": "Rectification : demander la correction de données inexactes",
+    "right_delete": "Effacement : demander la suppression définitive de vos données",
+    "right_object": "Opposition : vous opposer au traitement de vos données",
+    "right_export": "Portabilité : exporter vos données dans un format lisible par machine",
+    "right_withdraw": "Retrait du consentement : retirer votre consentement à tout moment",
     "your_rights_cta": "Exercez vos droits sur notre",
-    "your_rights_link": "page Droits sur les Données",
-    "contact_title": "Nous Contacter",
-    "contact_content": "Si vous avez des questions sur cette Politique de Confidentialité ou sur la manière dont nous traitons vos données, contactez-nous à :",
+    "your_rights_link": "page Droits sur les données",
+    "contact_title": "Nous contacter",
+    "contact_content": "Si vous avez des questions sur cette Politique de confidentialité ou sur la manière dont nous traitons vos données, contactez-nous à :",
     "data_item_phone": "Numéro de téléphone",
     "third_party_pixels": "Nous ne chargeons les pixels publicitaires (Meta, Google) que si vous acceptez explicitement les cookies marketing dans notre bandeau de consentement ; sinon, aucun cookie de suivi ni service d'analyse n'est utilisé.",
     "legal_basis_title": "Base légale du traitement",
@@ -616,28 +616,28 @@
     "third_party_vercel": "Vercel : hébergement du site et de l'application (États-Unis ; cadres de protection des données et CCT applicables)",
     "third_party_slack": "Slack : notifications internes à notre équipe concernant les nouvelles demandes (limitées au nom, à l'e-mail, au téléphone et au type d'activité)",
     "third_party_turnstile": "Cloudflare Turnstile : protection anti-spam de nos formulaires (traite votre adresse IP)",
-    "third_party_cal": "Cal.com : prise de rendez-vous lorsque vous réservez un appel avec nous",
+    "third_party_cal": "Google Calendar : prise de rendez-vous lorsque vous réservez un appel avec nous",
     "third_party_meta": "Meta (Facebook/Instagram) : mesure publicitaire, uniquement avec votre consentement aux cookies marketing. Avec ce consentement, nous pouvons également transmettre votre adresse e-mail et votre numéro de téléphone sous forme hachée (pseudonymisée) pour mesurer les conversions publicitaires.",
     "third_party_google": "Google : mesure publicitaire (Google Ads), uniquement avec votre consentement aux cookies marketing",
     "marketing_double_optin": "Les e-mails marketing fonctionnent en double opt-in. Cocher la case facultative d'un formulaire ne suffit pas à elle seule : nous vous envoyons un e-mail de confirmation, et vous n'êtes ajouté à la liste qu'après avoir cliqué sur le lien qu'il contient. D'ici là, nous ne vous envoyons aucun message marketing. Vous pouvez vous désinscrire à tout moment via le lien de désabonnement présent dans chaque e-mail, avec effet immédiat."
   },
   "terms": {
-    "title": "Conditions d'Utilisation",
+    "title": "Conditions d'utilisation",
     "description": "Conditions générales d'utilisation des services de Blok Blok Studio",
-    "last_updated": "Dernière Mise à Jour : July 16, 2026",
-    "acceptance_title": "Acceptation des Conditions",
-    "acceptance_content": "En accédant et en utilisant ce site web, vous acceptez d'être lié par ces Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre site web ou nos services.",
+    "last_updated": "Dernière mise à jour : 16 juillet 2026",
+    "acceptance_title": "Acceptation des conditions",
+    "acceptance_content": "En accédant à ce site web et en l'utilisant, vous acceptez d'être lié par les présentes Conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre site web ni nos services.",
     "services_title": "Services",
     "services_content": "Blok Blok Studio fournit des services de conception numérique, de développement et de marketing. Les conditions spécifiques du projet, les livrables et les tarifs sont détaillés dans les contrats et propositions individuels.",
-    "user_responsibilities_title": "Responsabilités de l'Utilisateur",
+    "user_responsibilities_title": "Responsabilités de l'utilisateur",
     "user_responsibilities_content": "Vous acceptez de fournir des informations exactes lors de l'utilisation de nos formulaires et services, et d'utiliser notre site web et nos services de manière légale et conformément à ces conditions.",
-    "ip_title": "Propriété Intellectuelle",
+    "ip_title": "Propriété intellectuelle",
     "ip_content": "Tout le contenu de ce site web, y compris les designs, les textes, les graphiques et le code, appartient à Blok Blok Studio sauf indication contraire. La propriété du travail client est définie dans les contrats de projet individuels.",
-    "liability_title": "Limitation de Responsabilité",
+    "liability_title": "Limitation de responsabilité",
     "liability_content": "Blok Blok Studio n'est pas responsable des dommages indirects, accessoires ou consécutifs découlant de l'utilisation de notre site web ou de nos services. Notre responsabilité totale ne dépassera pas le montant payé pour le service spécifique en question.",
-    "governing_law_title": "Droit Applicable",
+    "governing_law_title": "Droit applicable",
     "governing_law_content": "Ces conditions sont régies et interprétées conformément aux lois applicables. Tout litige sera résolu par négociation de bonne foi avant d'entamer une action en justice formelle.",
-    "changes_title": "Modifications des Conditions",
+    "changes_title": "Modification des conditions",
     "changes_content": "Nous nous réservons le droit de modifier ces conditions à tout moment. Les modifications seront publiées sur cette page avec une date mise à jour. L'utilisation continue de notre site web après les modifications constitue l'acceptation des conditions révisées.",
     "dispute_title": "Résolution des litiges",
     "dispute_intro": "En cas de litige découlant des présentes conditions, nous vous invitons à nous contacter d'abord afin de rechercher une solution à l'amiable. Si aucune solution ne peut être trouvée de manière informelle, la procédure suivante s'applique :",
@@ -649,19 +649,19 @@
     "changes_contact": "Pour toute question concernant les présentes conditions d'utilisation, contactez-nous à"
   },
   "cookies": {
-    "title": "Politique de Cookies",
+    "title": "Politique de cookies",
     "description": "Comment Blok Blok Studio utilise les cookies et technologies similaires",
-    "last_updated": "Dernière Mise à Jour : July 16, 2026",
-    "intro_title": "Que Sont les Cookies",
+    "last_updated": "Dernière mise à jour : 16 juillet 2026",
+    "intro_title": "Que sont les cookies",
     "intro_content": "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez un site web. Ils aident les sites web à mémoriser vos préférences et à améliorer votre expérience de navigation.",
-    "our_use_title": "Notre Utilisation des Cookies",
-    "our_use_content": "Nous adoptons une approche axée sur la confidentialité. Par défaut, nous utilisons uniquement localStorage (un mécanisme de stockage du navigateur) pour mémoriser votre préférence de consentement aux cookies. Les pixels publicitaires optionnels ne sont chargés que si vous acceptez les cookies marketing.",
-    "third_party_title": "Cookies Tiers",
+    "our_use_title": "Notre utilisation des cookies",
+    "our_use_content": "Nous adoptons une approche axée sur la confidentialité. Nous déposons deux petits cookies essentiels, l'un pour mémoriser votre langue et l'autre pour mémoriser votre pays afin d'afficher les prix dans la bonne devise, et nous utilisons localStorage (un mécanisme de stockage du navigateur) pour mémoriser votre préférence de consentement aux cookies. Les pixels publicitaires optionnels ne sont chargés que si vous acceptez les cookies marketing.",
+    "third_party_title": "Cookies tiers",
     "third_party_content": "Si vous acceptez les cookies marketing, nous chargeons les pixels publicitaires de Meta (Facebook) et Google pour mesurer la performance de nos campagnes. Si vous refusez, aucun cookie tiers n'est déposé lors de votre visite sur notre site.",
-    "control_title": "Gestion des Cookies",
+    "control_title": "Gestion des cookies",
     "control_content": "Vous pouvez contrôler les cookies via les paramètres de votre navigateur. La plupart des navigateurs vous permettent de bloquer ou de supprimer les cookies. Notez que l'effacement de localStorage réinitialisera votre préférence de consentement aux cookies.",
-    "updates_title": "Mises à Jour de la Politique",
-    "updates_content": "Si nous commençons à utiliser des analyses ou des technologies de suivi à l'avenir, nous mettrons à jour cette politique et vous informerons via notre bannière de consentement aux cookies avant tout suivi.",
+    "updates_title": "Mises à jour de la politique",
+    "updates_content": "Si nous commençons à utiliser des outils d'analyse ou de suivi à l'avenir, nous mettrons à jour cette politique et vous en informerons via notre bandeau de consentement aux cookies avant tout suivi.",
     "storage_title": "Détail des cookies et du stockage",
     "storage_intro": "Voici la liste complète des cookies et éléments de stockage local utilisés sur ce site :",
     "table_name": "Nom",
@@ -669,7 +669,7 @@
     "table_purpose": "Finalité",
     "table_category": "Catégorie",
     "table_duration": "Durée",
-    "storage_consent_purpose": "Enregistre vos préférences en matière de cookies (essentiels, analytiques, marketing)",
+    "storage_consent_purpose": "Enregistre vos préférences en matière de cookies (essentiels, statistiques, marketing)",
     "storage_country_purpose": "Mémorise votre pays (déduit de la région de votre IP) pour que le consentement suive la législation locale",
     "storage_locale_purpose": "Enregistre la langue que vous avez choisie",
     "cat_essential": "Essentiel",
@@ -681,7 +681,7 @@
     "headline_a": "Là où votre entreprise perd des clients sans le voir",
     "headline_b": " (et comment y remédier)",
     "sub": "Répondez à cinq questions rapides et nous vous montrerons ce que nous corrigerions en premier. Ensuite vous choisissez un créneau. Une minute suffit.",
-    "proof": "Studio de design web à Berlin. Les demandes de consultation de Coach Kofi ont augmenté de 200% après le lancement. Un plombier en première année a réalisé 50 000 $ de chiffre en cinq mois.",
+    "proof": "Studio de web design à Berlin. Les demandes de consultation de Coach Kofi ont augmenté de 200 % après le lancement. Un plombier, dans sa première année d'activité, a encaissé 50 000 $ de chiffre d'affaires brut en cinq mois.",
     "progress": "Question {current} sur {total}",
     "continue": "Continuer",
     "back": "Retour",
@@ -693,7 +693,7 @@
     "q_budget_project": "Quel est votre budget pour ce projet ?",
     "q_budget_project_sub": "Une idée approximative suffit. Cela nous dit simplement quoi proposer.",
     "q_budget_ads": "Combien pourriez-vous investir en publicité chaque mois ?",
-    "q_budget_ads_sub": "Uniquement le budget publicitaire. Notre gestion représente 15% de ce montant, plus une mise en place unique. Un ordre de grandeur suffit.",
+    "q_budget_ads_sub": "Uniquement le budget publicitaire. Notre gestion représente 15 % de ce montant, plus une mise en place unique. Un ordre de grandeur suffit.",
     "q_budget_monthly": "Quel est votre budget mensuel ?",
     "q_budget_monthly_sub": "Environ ce que vous y consacreriez chaque mois. Un ordre de grandeur suffit.",
     "q_timeline": "Quand souhaitez-vous commencer ?",
@@ -717,7 +717,7 @@
     "error_generic": "Une erreur est survenue. Veuillez réessayer.",
     "business": {
       "coaching_consulting": "Coaching / Conseil",
-      "e_commerce_online_store": "E-Commerce / Boutique en ligne",
+      "e_commerce_online_store": "E-commerce / Boutique en ligne",
       "saas_software": "SaaS / Logiciel",
       "agency_marketing": "Agence / Marketing",
       "real_estate": "Immobilier",
@@ -738,7 +738,7 @@
       "other": "Autre"
     },
     "services": {
-      "new_website": "Nouveau site",
+      "new_website": "Nouveau site web",
       "website_redesign": "Refonte du site",
       "e_commerce": "E-commerce",
       "landing_page": "Landing page",
@@ -754,7 +754,7 @@
       },
       "1": {
         "label": "Sous un mois",
-        "hint": "Ça doit avancer bientôt"
+        "hint": "À lancer prochainement"
       },
       "2": {
         "label": "Un à trois mois",
@@ -816,7 +816,7 @@
       },
       "2": {
         "label": "{from} – {to} / mois de budget pub",
-        "hint": "Les deux plateformes, ou en montée"
+        "hint": "Les deux plateformes, ou montée en puissance sur une seule"
       },
       "3": {
         "label": "{amount}+ / mois de budget pub",
@@ -878,10 +878,10 @@
     "measure_reduced_motion": "Le respect du réglage <code>prefers-reduced-motion</code> de votre système d'exploitation.",
     "measure_contrast": "Des contrastes de couleur atteignant ou dépassant le niveau WCAG AA (4,5:1 pour le corps de texte).",
     "measure_rtl": "Une mise en page de droite à gauche pour l'arabe, et un sélecteur de langue qui annonce chaque option dans sa langue et son sens de lecture.",
-    "measure_languages": "Un site disponible en 19 langues, pour que chacun puisse l'utiliser dans la langue dans laquelle il pense.",
+    "measure_languages": "Un site disponible en 20 langues, pour que chacun puisse l'utiliser dans la langue dans laquelle il pense.",
     "limitations_title": "Limites connues",
     "limitations_intro": "Malgré nos efforts, certains contenus de ce site peuvent ne pas être encore pleinement accessibles. Problèmes connus sur lesquels nous travaillons :",
-    "limitation_third_party": "<strong>Contenus tiers intégrés</strong>, le CAPTCHA Cloudflare Turnstile et l'iframe de réservation Cal.com héritent du comportement d'accessibilité de leur fournisseur. Nous suivons leur niveau de conformité auprès de chaque fournisseur.",
+    "limitation_third_party": "<strong>Contenus tiers intégrés</strong>, le CAPTCHA Cloudflare Turnstile et la page de réservation Google Calendar héritent du comportement d'accessibilité de leur fournisseur. Nous suivons leur niveau de conformité auprès de chaque fournisseur.",
     "limitation_motion": "<strong>Animations décoratives</strong>, les animations d'arrière-plan sont désactivées lorsque <code>prefers-reduced-motion</code> est activé, mais quelques micro-interactions magnétiques liées au curseur peuvent encore se jouer.",
     "limitation_language": "<strong>Langue de la déclaration</strong>, la version anglaise de cette déclaration fait référence ; les autres langues en sont des traductions. Le site lui-même est disponible en 20 langues.",
     "feedback_title": "Retours et contact",
@@ -889,8 +889,8 @@
     "feedback_email": "<strong>E-mail :</strong> <link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>Formulaire web :</strong> <link>Page de contact</link>, merci de mentionner « accessibilité » dans votre message.",
     "enforcement_title": "Procédure de recours",
-    "enforcement_intro": "Blok Blok Studio est immatriculé en Allemagne. Si notre réponse à votre retour sur l'accessibilité ne vous satisfait pas, vous pouvez saisir l'instance compétente selon votre cadre local :",
-    "enforcement_eu": "<strong>Union européenne</strong>, l'autorité de surveillance du marché de l'État membre de l'UE dans lequel vous vous trouvez. L'Acte européen sur l'accessibilité désigne une autorité nationale dans chaque État membre.",
+    "enforcement_intro": "Blok Blok Studio est basé à Berlin, en Allemagne. Si notre réponse à votre retour sur l'accessibilité ne vous satisfait pas, vous pouvez saisir l'instance compétente selon votre cadre local :",
+    "enforcement_eu": "<strong>Union européenne</strong>, l'autorité de surveillance du marché de l'État membre de l'UE dans lequel vous vous trouvez. L'Acte législatif européen sur l'accessibilité désigne une autorité nationale dans chaque État membre.",
     "enforcement_germany": "<strong>Allemagne</strong>, la Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>États-Unis</strong>, la Civil Rights Division du Département de la Justice américain pour les plaintes au titre de l'ADA ; l'US Access Board pour la Section 508.",
     "preparation_title": "Comment cette déclaration a été préparée",
@@ -905,9 +905,9 @@
     "diagnosis_known": "D'après ce que vous nous avez dit sur {industry}, voici ce que nous travaillerions avec vous pendant l'appel.",
     "diagnosis_unsure": "Vous n'êtes pas encore sûr, et c'est un point de départ tout à fait normal. Pour {industry}, c'est généralement là que se trouve l'argent, donc c'est par là que nous commencerions.",
     "industry_fallback": "votre secteur",
-    "sub_fallback": "Nous avons votre demande. Réservez maintenant votre appel de 15 minutes gratuit ; les premiers créneaux partent en premier.",
+    "sub_fallback": "Nous avons bien reçu votre demande. Choisissez ci-dessous un créneau pour un appel gratuit de 15 minutes.",
     "cover_label": "Ce que nous verrons pendant l'appel",
-    "cover_note": "Nous passerons tout en revue correctement pendant l'appel, périmètre et budget compris.",
+    "cover_note": "Nous passerons tout en revue en détail pendant l'appel, périmètre et coût compris.",
     "calendar_title": "Réservez votre appel découverte gratuit",
     "calendar_fallback": "Le calendrier ne charge pas ?",
     "calendar_open": "L'ouvrir directement",
@@ -920,7 +920,7 @@
     "next_2_title": "Nous décortiquons tout pendant l'appel",
     "next_2_desc": "Où vous perdez des clients, quoi corriger en premier et ce que cela demande.",
     "next_3_title": "Nous construisons, vous grandissez",
-    "next_3_desc": "Site, publicité, réseaux, systèmes IA. Réalisé pour vous, en ligne rapidement.",
+    "next_3_desc": "Site conçu, hébergé et maintenu en ligne. Réalisé pour vous, en ligne rapidement.",
     "founder_kicker": "Avec qui vous allez parler",
     "founder_title": "Rencontrez le fondateur",
     "clients_kicker": "Le travail et les chiffres",
@@ -950,7 +950,7 @@
         "detail": "Des campagnes construites et pilotées sur les missions signées, pas sur les clics. En recherche, les gens savent déjà ce qu'ils veulent."
       },
       "social_ads": {
-        "title": "Arriver avant eux",
+        "title": "Arriver avant la concurrence",
         "detail": "Des campagnes Facebook et Instagram qui placent votre offre devant les bonnes personnes avant un concurrent."
       },
       "social": {
@@ -989,7 +989,7 @@
     "wechat_close": "Fermer la carte de contact WeChat",
     "whatsapp_aria": "Discutez avec nous sur WhatsApp (ouvre un nouvel onglet)",
     "proj_not_found": "Projet introuvable",
-    "proj_back": "Retour aux projets",
+    "proj_back": "Retour aux réalisations",
     "proj_visit": "Voir le site en ligne",
     "proj_live": "Site en ligne",
     "proj_take_look": "Jetez un œil",
@@ -1020,10 +1020,10 @@
     "aria_business": "Type d'activité",
     "aria_budget": "Budget",
     "aria_timeline": "Délai",
-    "proj_live_click": "Cliquez et faites défiler le site en direct ci-dessous",
-    "proj_live_scroll": "Faites défiler le site en direct ci-dessous",
+    "proj_live_click": "Cliquez et faites défiler le site en ligne ci-dessous",
+    "proj_live_scroll": "Faites défiler le site en ligne ci-dessous",
     "proj_live_hint_embed": "Cliquez sur les liens et naviguez comme sur le vrai site, ou ouvrez-le dans un nouvel onglet.",
-    "proj_live_hint_scroll": "Ceci est une capture de la page entière. Faites défiler dans la fenêtre, ou ouvrez le site en direct dans un nouvel onglet.",
+    "proj_live_hint_scroll": "Ceci est une capture de la page entière. Faites défiler dans la fenêtre, ou ouvrez le site en ligne dans un nouvel onglet.",
     "proj_challenge": "Le défi",
     "proj_solution": "Ce que nous avons construit",
     "proj_results": "Les résultats",
@@ -1033,7 +1033,7 @@
   },
   "onboard": {
     "title": "Onboarding client",
-    "sub": "Mettons tout en place pour démarrer sans perdre de temps.",
+    "sub": "Mettons tout en place pour démarrer dès le premier jour.",
     "loading": "Chargement de votre onboarding...",
     "unavailable": "Lien indisponible",
     "done": "Tout est prêt !",
@@ -1071,7 +1071,18 @@
     "ph_telegram": "p. ex. 123456789",
     "ph_notes": "Tout ce que nous devrions savoir sur votre projet, vos préférences ou votre façon de travailler...",
     "ph_brand": "Utilisation du logo, couleurs de marque, polices, ton de voix, à faire et à éviter...",
-    "meta_description": "Complétez votre onboarding pour démarrer avec Blok Blok Studio."
+    "meta_description": "Complétez votre onboarding pour démarrer avec Blok Blok Studio.",
+    "f_name": "Nom complet",
+    "f_role": "Rôle / fonction",
+    "f_email": "E-mail",
+    "f_phone": "Téléphone",
+    "f_platform": "Plateforme",
+    "f_username": "Identifiant / e-mail",
+    "f_password": "Mot de passe",
+    "f_url_optional": "URL (facultatif)",
+    "f_notes_optional": "Notes (facultatif)",
+    "f_url": "URL",
+    "ph_select": "Sélectionner..."
   },
   "pricing": {
     "packages": "FORMULES",
@@ -1085,39 +1096,39 @@
     "hero_title_em": "noir sur blanc.",
     "hero_sub": "Sites web, applications, automatisations, publicités, branding et gestion des réseaux sociaux propulsés par l'IA. Chaque mission est chiffrée sur mesure selon votre périmètre, avec des livrables écrits noir sur blanc pour que nous sachions tous les deux ce que nous construisons.",
     "tabs": {
-      "web": "Développement Web",
-      "app": "Développement d'Applications",
-      "social": "Réseaux Sociaux",
+      "web": "Développement web",
+      "app": "Développement d'applications",
+      "social": "Réseaux sociaux",
       "marketing": "Marketing",
       "aiAgents": "Agents IA",
-      "saas": "SaaS sur Mesure",
-      "branding": "Stratégie de Marque"
+      "saas": "SaaS sur mesure",
+      "branding": "Stratégie de marque"
     },
     "sections": {
-      "oneTime": "Projets Ponctuels",
-      "webSupport": "Forfaits Mensuels",
-      "appBuild": "Développements Ponctuels",
-      "appSupport": "Forfaits Mensuels",
-      "socialSetup": "Mise en Place Ponctuelle",
-      "social": "Gestion Mensuelle",
-      "marketingBuild": "Projets Ponctuels",
-      "monthly": "Forfaits Mensuels",
-      "aiAgents": "Développement Ponctuel",
-      "monthlyAgent": "Forfait Mensuel",
-      "customBuild": "Développements Ponctuels",
-      "customSupport": "Forfaits Mensuels",
-      "brandingBuild": "Projets Ponctuels",
-      "brandingSupport": "Forfaits Mensuels"
+      "oneTime": "Projets ponctuels",
+      "webSupport": "Forfaits mensuels",
+      "appBuild": "Développements ponctuels",
+      "appSupport": "Forfaits mensuels",
+      "socialSetup": "Mise en place ponctuelle",
+      "social": "Gestion mensuelle",
+      "marketingBuild": "Projets ponctuels",
+      "monthly": "Forfaits mensuels",
+      "aiAgents": "Développement ponctuel",
+      "monthlyAgent": "Forfait mensuel",
+      "customBuild": "Développements ponctuels",
+      "customSupport": "Forfaits mensuels",
+      "brandingBuild": "Projets ponctuels",
+      "brandingSupport": "Forfaits mensuels"
     },
     "hide": "Masquer",
     "view": "Voir",
     "not_included": "Ce qui n'est pas inclus",
     "cta_sub": "Chaque mission est cadrée et chiffrée individuellement. Réservez un appel gratuit de 15 minutes et nous vous enverrons une proposition sur mesure sous 48 heures.",
-    "cta_button": "Réserver un Appel Stratégique",
+    "cta_button": "Réserver un appel stratégique",
     "pkg": {
       "oneTime": [
         {
-          "name": "Lancement Une Page",
+          "name": "Lancement une page",
           "price": 2000,
           "disp": "$2,000",
           "tag": "Idéal pour une présence en ligne simple",
@@ -1197,11 +1208,11 @@
             "Automatisation supplémentaire : $350 chacune"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation du client OU après 2 cycles de révision. Après validation : $175/h.",
-          "bridge": "Comprend 30 jours de suivi après la mise en ligne (corrections de bugs, vérifications du chatbot, santé du CRM). Après le 30e jour, la maintenance, les mises à jour et l'optimisation de l'IA passent sur notre forfait Maintenance et Suivi ($1,500/mois) pour que vos systèmes restent au point.",
+          "bridge": "Comprend 30 jours de suivi après la mise en ligne (corrections de bugs, vérifications du chatbot, santé du CRM). Après le 30e jour, la maintenance, les mises à jour et l'optimisation de l'IA passent sur notre forfait Maintenance et suivi ($1,500/mois) pour que vos systèmes restent au point.",
           "ideal": "Startups, indépendants, commerces locaux"
         },
         {
-          "name": "Accélérateur de Croissance",
+          "name": "Accélérateur de croissance",
           "price": 12000,
           "disp": "$12,000",
           "tag": "Le plus choisi",
@@ -1242,7 +1253,7 @@
             },
             {
               "i": "Contenu et textes",
-              "l": "Nous rédigeons les textes de votre page d'accueil et de votre page services (1,500 mots au total). Le reste du contenu est fourni par vous. Le CMS du blog est livré vide pour que vous ou votre équipe puissiez créer des articles, ou ajoutez notre pack contenu."
+              "l": "Nous rédigeons les textes de votre page d'accueil et de votre page services (1 500 mots au total). Le reste du contenu est fourni par vous. Le CMS du blog est livré vide pour que vous ou votre équipe puissiez créer des articles, ou optez pour notre pack contenu."
             }
           ],
           "ov": [
@@ -1255,11 +1266,11 @@
             "Rédaction au-delà de l'inclus : $200/page"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 3 cycles de révision. Après validation : $175/h.",
-          "bridge": "Comprend 30 jours après la mise en ligne : gestion des publicités, suivi de l'IA et corrections de bugs. Après le 30e jour, vos publicités, agents IA et automatisations ont besoin d'une optimisation continue pour rester performants. Nous recommandons notre forfait Moteur de Croissance ($3,500/mois) pour garder l'élan.",
+          "bridge": "Comprend 30 jours après la mise en ligne : gestion des publicités, suivi de l'IA et corrections de bugs. Après le 30e jour, vos publicités, agents IA et automatisations ont besoin d'une optimisation continue pour rester performants. Nous recommandons notre forfait Moteur de croissance ($3,500/mois) pour garder l'élan.",
           "ideal": "Entreprises en croissance qui passent à l'échelle grâce aux systèmes"
         },
         {
-          "name": "Domination Totale",
+          "name": "Domination totale",
           "price": 18000,
           "disp": "$18,000+",
           "tag": "Niveau entreprise",
@@ -1279,7 +1290,7 @@
             },
             {
               "i": "Suite d'IA conversationnelle",
-              "l": "1 chatbot IA entraîné sur 100 paires de questions-réponses, intégré sur tout le site. Comprend la prise de rendez-vous, la capture de leads, la gestion des FAQ et les messages hors horaires. 1 agent vocal IA avec 2 scripts d'appel sur mesure (par ex. ventes entrantes + confirmation de rendez-vous). 1,000 minutes vocales incluses le premier mois. Enregistrements des appels stockés dans le CRM. 5 séquences d'automatisation SMS (par ex. rappels de rendez-vous, suivi après appel, demande d'avis, réengagement, envoi promotionnel)."
+              "l": "1 chatbot IA entraîné sur 100 paires de questions-réponses, intégré sur tout le site. Comprend la prise de rendez-vous, la capture de leads, la gestion des FAQ et les messages hors horaires. 1 agent vocal IA avec 2 scripts d'appel sur mesure (par ex. ventes entrantes + confirmation de rendez-vous). 1 000 minutes vocales incluses le premier mois. Enregistrements des appels stockés dans le CRM. 5 séquences d'automatisation SMS (par ex. rappels de rendez-vous, suivi après appel, demande d'avis, réengagement, envoi promotionnel)."
             },
             {
               "i": "Automatisation des flux (15 au total)",
@@ -1291,7 +1302,7 @@
             },
             {
               "i": "Système de contenu IA",
-              "l": "Pipeline de contenu complet configuré : flux vidéo vers clips (vous téléversez une vidéo longue, l'IA génère des extraits pour les réseaux), modèle de génération d'articles de blog assisté par l'IA et planification des réseaux sociaux configurée dans Buffer ou Later. Premier mois de contenu produit et publié : 4 articles de blog (jusqu'à 1,000 mots chacun, optimisés SEO) et 12 publications sur les réseaux (visuels + textes). Modèle de calendrier éditorial fourni pour un usage continu."
+              "l": "Pipeline de contenu complet configuré : flux vidéo vers clips (vous téléversez une vidéo longue, l'IA génère des extraits pour les réseaux), modèle de génération d'articles de blog assisté par l'IA et planification des réseaux sociaux configurée dans Buffer ou Later. Premier mois de contenu produit et publié : 4 articles de blog (jusqu'à 1 000 mots chacun, optimisés SEO) et 12 publications sur les réseaux (visuels + textes). Modèle de calendrier éditorial fourni pour un usage continu."
             },
             {
               "i": "Tableau de bord exécutif",
@@ -1317,13 +1328,13 @@
             "Contenu après le mois 1 : nécessite un forfait mensuel"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 25 % au jalon intermédiaire, 25 % à la livraison (net 7 jours). Projet clos à la validation OU après 3 cycles. Après validation : $175/h.",
-          "bridge": "Comprend 45 jours après la mise en ligne : suivi complet, gestion des publicités, optimisation de l'IA et corrections de bugs. Après le 45e jour, votre écosystème IA, vos campagnes et vos systèmes de contenu ont besoin d'une gestion continue pour produire des résultats. Nous recommandons notre Partenariat Complet ($7,500/mois) ou Moteur de Croissance ($3,500/mois) selon vos besoins.",
+          "bridge": "Comprend 45 jours après la mise en ligne : suivi complet, gestion des publicités, optimisation de l'IA et corrections de bugs. Après le 45e jour, votre écosystème IA, vos campagnes et vos systèmes de contenu ont besoin d'une gestion continue pour produire des résultats. Nous recommandons notre Partenariat complet ($7,500/mois) ou Moteur de croissance ($3,500/mois) selon vos besoins.",
           "ideal": "Entreprises établies qui veulent une infrastructure IA complète"
         }
       ],
       "socialSetup": [
         {
-          "name": "Configuration Une Plateforme",
+          "name": "Configuration une plateforme",
           "price": 1200,
           "disp": "$1,200",
           "tag": "Réussir un canal",
@@ -1335,7 +1346,7 @@
             },
             {
               "i": "Optimisation du profil",
-              "l": "Bio rédigée et adaptée à chaque plateforme (jusqu'à 150 caractères sur IG, jusqu'à 2,000 sur LinkedIn, etc.). Photo de profil redimensionnée et optimisée pour la plateforme. Image de couverture ou bannière conçue sur mesure aux couleurs de votre marque. Sections à la une, stories à la une ou publications épinglées configurées (le cas échéant). Coordonnées, lien vers le site, boutons CTA et étiquettes de catégorie/secteur paramétrés."
+              "l": "Bio rédigée et adaptée à chaque plateforme (jusqu'à 150 caractères sur IG, jusqu'à 2 000 sur LinkedIn, etc.). Photo de profil redimensionnée et optimisée pour la plateforme. Image de couverture ou bannière conçue sur mesure aux couleurs de votre marque. Sections à la une, stories à la une ou publications épinglées configurées (le cas échéant). Coordonnées, lien vers le site, boutons CTA et étiquettes de catégorie/secteur paramétrés."
             },
             {
               "i": "Éléments d'identité visuelle",
@@ -1366,11 +1377,11 @@
             "Contenu vidéo (Reels/Shorts) : $175 chacun"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 1 cycle de révision. Modifications après livraison : $175/h.",
-          "bridge": "Vos profils sont configurés et prêts. Pour les garder actifs et en croissance, ajoutez notre forfait Social Starter ($1,500/mois) ou la gestion de plateformes individuelles à partir de $650/mois.",
+          "bridge": "Vos profils sont configurés et prêts. Pour les garder actifs et en croissance, ajoutez notre forfait Social Essentiel ($1,500/mois) ou la gestion de plateformes individuelles à partir de $650/mois.",
           "ideal": "Entreprises qui démarrent de zéro sur une plateforme"
         },
         {
-          "name": "Lancement Multi-Plateformes",
+          "name": "Lancement multiplateforme",
           "price": 2000,
           "disp": "$2,000",
           "tag": "Le plus choisi",
@@ -1427,7 +1438,7 @@
           "ideal": "Entreprises qui lancent ou rafraîchissent leur présence sociale"
         },
         {
-          "name": "Refonte Sociale Complète",
+          "name": "Refonte sociale complète",
           "price": 3500,
           "disp": "$3,500",
           "tag": "Refonte intégrale",
@@ -1483,13 +1494,13 @@
             "Vidéo intro/outro YouTube : $600"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 2 cycles de révision. Après livraison : $175/h.",
-          "bridge": "Toute votre présence sociale est reconstruite et prête à lancer avec 60 jours de contenu. Pour garder l'élan, nous recommandons Domination Sociale ($4,500/mois) ou Social Croissance ($2,500/mois).",
+          "bridge": "Toute votre présence sociale est reconstruite et prête à lancer avec 60 jours de contenu. Pour garder l'élan, nous recommandons Domination sociale ($4,500/mois) ou Social Croissance ($2,500/mois).",
           "ideal": "Entreprises établies dont la présence sociale est datée ou incohérente"
         }
       ],
       "monthly": [
         {
-          "name": "Maintenance et Suivi",
+          "name": "Maintenance et suivi",
           "price": 1500,
           "disp": "$1,500",
           "per": "/mois",
@@ -1532,7 +1543,7 @@
           "ideal": "La tranquillité d'esprit après la mise en ligne"
         },
         {
-          "name": "Moteur de Croissance",
+          "name": "Moteur de croissance",
           "price": 3500,
           "disp": "$3,500",
           "per": "/mois",
@@ -1541,7 +1552,7 @@
           "com": "Engagement 6 mois minimum",
           "scope": [
             {
-              "i": "Tout Maintenance et Suivi",
+              "i": "Tout le forfait Maintenance et suivi",
               "l": "Toute la maintenance du site, le suivi de l'IA, le rapport mensuel, la gestion du CRM et le support par e-mail. Mêmes limites et mêmes règles. Les heures de design sont remplacées par les 5 h/mois ci-dessous (non cumulées)."
             },
             {
@@ -1583,7 +1594,7 @@
           "ideal": "Entreprises qui font activement croître leur chiffre d'affaires"
         },
         {
-          "name": "Partenariat Complet",
+          "name": "Partenariat complet",
           "price": 7500,
           "disp": "$7,500",
           "per": "/mois",
@@ -1591,7 +1602,7 @@
           "com": "Engagement 6 mois minimum",
           "scope": [
             {
-              "i": "Tout Moteur de Croissance",
+              "i": "Tout le forfait Moteur de croissance",
               "l": "Toute la maintenance du site, le suivi de l'IA, les rapports, la gestion du CRM, la gestion des publicités Google + Meta, la production de contenu IA, l'optimisation de l'IA, les points stratégiques et le support par e-mail, avec les limites élargies listées ci-dessous. Les heures de design et les points stratégiques sont remplacés par les versions élargies ci-dessous (non cumulés)."
             },
             {
@@ -1608,7 +1619,7 @@
             },
             {
               "i": "Système de contenu (élargi)",
-              "l": "8 articles de blog par mois (jusqu'à 1,000 mots chacun, optimisés SEO). 20 publications sur les réseaux par mois (visuels conçus + textes rédigés avec hashtags et CTA). 4 clips vidéo courts par mois (Reels, Shorts ou TikToks), montés à partir de vos rushs ou créés avec des outils IA. Nous montons, nous ne tournons pas. 1 cycle de révisions par contenu. Calendrier éditorial livré le 1er de chaque mois pour validation."
+              "l": "8 articles de blog par mois (jusqu'à 1 000 mots chacun, optimisés SEO). 20 publications sur les réseaux par mois (visuels conçus + textes rédigés avec hashtags et CTA). 4 clips vidéo courts par mois (Reels, Shorts ou TikToks), montés à partir de vos rushs ou créés avec des outils IA. Nous montons, nous ne tournons pas. 1 cycle de révisions par contenu. Calendrier éditorial livré le 1er de chaque mois pour validation."
             },
             {
               "i": "Réunion stratégique mensuelle + points hebdomadaires",
@@ -1740,7 +1751,7 @@
           "ideal": "Entreprises déterminées à faire grandir leur audience et leur engagement"
         },
         {
-          "name": "Domination Sociale",
+          "name": "Domination sociale",
           "price": 4500,
           "disp": "$4,500",
           "per": "/mois",
@@ -1800,7 +1811,7 @@
       ],
       "customBuild": [
         {
-          "name": "Découverte et Cadrage",
+          "name": "Découverte et cadrage",
           "price": 2500,
           "disp": "$2,500",
           "tag": "Première étape obligatoire",
@@ -1841,7 +1852,7 @@
           "ideal": "Toute personne envisageant un développement sur mesure. C'est la première étape."
         },
         {
-          "name": "Build Standard",
+          "name": "Développement standard",
           "price": 25000,
           "disp": "$25,000",
           "tag": "Le plus courant",
@@ -1862,7 +1873,7 @@
             },
             {
               "i": "Fonctionnalités clés",
-              "l": "Périmètre défini dans le SOW de découverte. Les builds standards comprennent généralement : inscription et connexion, tableaux de bord par rôle, opérations CRUD sur les données clés (par ex. biens, locataires, demandes), recherche et filtres, système de notifications (e-mail et/ou in-app) et reporting/analytique de base. Les fonctionnalités hors SOW nécessitent un avenant."
+              "l": "Périmètre défini dans le SOW de découverte. Les développements standards comprennent généralement : inscription et connexion, tableaux de bord par rôle, opérations CRUD sur les données clés (par ex. biens, locataires, demandes), recherche et filtres, système de notifications (e-mail et/ou in-app) et reporting/analytique de base. Les fonctionnalités hors SOW nécessitent un avenant."
             },
             {
               "i": "Intégrations tierces (3 incluses)",
@@ -1891,26 +1902,26 @@
             "Avenants en cours de développement : $200/h",
             "Rôles utilisateurs supplémentaires : $2,000 par rôle",
             "Tableau de bord reporting/analytique avancé : $5,000",
-            "Application mobile native (iOS ou Android) : voir le niveau Build Entreprise"
+            "Application mobile native (iOS ou Android) : voir le niveau Développement entreprise"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 25 % au jalon intermédiaire, 25 % à la livraison (net 7 jours). Comprend 30 jours de corrections de bugs après la mise en ligne (uniquement sur les fonctionnalités du SOW initial). Après 30 jours, le support continu passe sur un forfait de maintenance. Tout le code vous appartient. Propriété complète du code, des fichiers de design et de la documentation transférée à la fin du projet.",
-          "bridge": "Votre plateforme est en ligne et stable. Pour la garder opérationnelle, sécurisée et évolutive, nous recommandons notre forfait Support Dev ($1,500/mois) ou une Banque d'Heures ($2,500/mois pour 10 h).",
+          "bridge": "Votre plateforme est en ligne et stable. Pour la garder opérationnelle, sécurisée et évolutive, nous recommandons notre forfait Support Dev ($1,500/mois) ou une Banque d'heures ($2,500/mois pour 10 h).",
           "ideal": "Portails, tableaux de bord, outils internes et MVP SaaS"
         },
         {
-          "name": "Build Entreprise",
+          "name": "Développement entreprise",
           "price": 75000,
           "disp": "$75,000+",
           "tag": "Systèmes complexes",
           "tl": "12 à 24 semaines",
           "scope": [
             {
-              "i": "Tout le Build Standard (élargi)",
-              "l": "Tout le design, le frontend, le backend, les intégrations, l'hébergement, les tests et la documentation du Build Standard, avec un périmètre élargi pour des systèmes plus vastes et plus complexes. Généralement 30 à 60+ écrans, plusieurs rôles utilisateurs et une logique métier complexe."
+              "i": "Tout le Développement standard (élargi)",
+              "l": "Tout le design, le frontend, le backend, les intégrations, l'hébergement, les tests et la documentation du Développement standard, avec un périmètre élargi pour des systèmes plus vastes et plus complexes. Généralement 30 à 60+ écrans, plusieurs rôles utilisateurs et une logique métier complexe."
             },
             {
               "i": "Architecture avancée",
-              "l": "Architecture en microservices ou monolithe modulaire pour la scalabilité. Files de messages (Redis, RabbitMQ) pour le traitement asynchrone si nécessaire. Couche de cache pour les endpoints à fort trafic. Optimisation de la base de données : indexation, optimisation des requêtes et pool de connexions. Infrastructure conçue pour supporter plus de 10,000 utilisateurs simultanés."
+              "l": "Architecture en microservices ou monolithe modulaire pour la scalabilité. Files de messages (Redis, RabbitMQ) pour le traitement asynchrone si nécessaire. Couche de cache pour les endpoints à fort trafic. Optimisation de la base de données : indexation, optimisation des requêtes et pool de connexions. Infrastructure conçue pour supporter plus de 10 000 utilisateurs simultanés."
             },
             {
               "i": "Fonctionnalités propulsées par l'IA",
@@ -1950,13 +1961,13 @@
             "Option white-label/multi-tenant (si non incluse) : $15,000"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 25 % au jalon intermédiaire, 25 % à la livraison (net 7 jours). Comprend 45 jours de corrections de bugs après la mise en ligne par phase. Tout le code, les fichiers de design et la documentation vous sont transférés à la fin. Propriété complète du code. Après 45 jours, le support continu passe sur un forfait de maintenance.",
-          "bridge": "Les systèmes complexes nécessitent un développement, un suivi et une optimisation continus. Nous recommandons notre forfait Développement Actif ($7,500/mois) pour que votre plateforme évolue avec votre entreprise.",
+          "bridge": "Les systèmes complexes nécessitent un développement, un suivi et une optimisation continus. Nous recommandons notre forfait Développement actif ($7,500/mois) pour que votre plateforme évolue avec votre entreprise.",
           "ideal": "Plateformes SaaS, systèmes multi-tenant, produits intégrant l'IA et outils d'entreprise"
         }
       ],
       "aiAgents": [
         {
-          "name": "Agent Unique",
+          "name": "Agent unique",
           "price": 5000,
           "disp": "$5,000",
           "tag": "Un agent puissant",
@@ -1991,11 +2002,11 @@
             "Réentraînement de l'agent : $750"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 2 cycles de révision. La propriété de l'agent vous est transférée.",
-          "bridge": "Votre agent est en ligne. Pour le garder surveillé, optimisé et réentraîné, ajoutez notre forfait Maintenance d'Agents ($1,500/mois) ou Croissance d'Agents ($3,500/mois).",
+          "bridge": "Votre agent est en ligne. Pour le garder surveillé, optimisé et réentraîné, ajoutez notre forfait Maintenance d'agents ($1,500/mois) ou Croissance d'agents ($3,500/mois).",
           "ideal": "Entreprises qui automatisent un flux de travail précis"
         },
         {
-          "name": "Équipe d'Agents",
+          "name": "Équipe d'agents",
           "price": 14500,
           "disp": "$14,500",
           "tag": "Le plus choisi",
@@ -2031,7 +2042,7 @@
             "Livraison express : +40 %"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 50 % à la livraison (net 7 jours). Projet clos à la validation OU après 2 cycles de révision. La propriété de tous les agents et du code vous est transférée.",
-          "bridge": "Votre équipe d'agents est en ligne et coordonnée. Pour l'optimisation continue, le réentraînement et l'ajout de nouveaux agents, ajoutez notre forfait Croissance d'Agents ($3,500/mois) ou Centre de Commande des Agents ($7,500/mois).",
+          "bridge": "Votre équipe d'agents est en ligne et coordonnée. Pour l'optimisation continue, le réentraînement et l'ajout de nouveaux agents, ajoutez notre forfait Croissance d'agents ($3,500/mois) ou Centre de commande des agents ($7,500/mois).",
           "ideal": "Entreprises qui automatisent des flux multi-étapes de bout en bout"
         },
         {
@@ -2070,13 +2081,13 @@
             "Livraison express : +30 %"
           ],
           "ho": "Paiement : acompte de 50 % au démarrage, 25 % au jalon intermédiaire, 25 % à la livraison (net 7 jours). Livré par phases (généralement 2 ou 3). Chaque phase a des livrables définis et une validation. La propriété de tout le code et des agents vous est transférée à la fin.",
-          "bridge": "Votre écosystème IA est pleinement opérationnel. Pour le garder en marche, optimisé et en expansion, ajoutez notre forfait Centre de Commande des Agents ($7,500/mois).",
+          "bridge": "Votre écosystème IA est pleinement opérationnel. Pour le garder en marche, optimisé et en expansion, ajoutez notre forfait Centre de commande des agents ($7,500/mois).",
           "ideal": "Entreprises qui remplacent les processus manuels par une automatisation intelligente à grande échelle"
         }
       ],
       "monthlyAgent": [
         {
-          "name": "Maintenance d'Agents",
+          "name": "Maintenance d'agents",
           "price": 1500,
           "disp": "$1,500",
           "per": "/mois",
@@ -2110,11 +2121,11 @@
             "Correction urgente hors horaires : +50 %",
             "Création d'un nouvel agent : chiffrée séparément"
           ],
-          "ex": "Pas de création de nouveaux agents, pas de nouvelles intégrations, pas de nouveaux flux d'automatisation. Surveillance et maintenance uniquement. Pour le développement actif d'agents, voir le niveau Croissance d'Agents.",
+          "ex": "Pas de création de nouveaux agents, pas de nouvelles intégrations, pas de nouveaux flux d'automatisation. Surveillance et maintenance uniquement. Pour le développement actif d'agents, voir le niveau Croissance d'agents.",
           "ideal": "Entreprises dont les agents en production doivent rester précis et en ligne"
         },
         {
-          "name": "Croissance d'Agents",
+          "name": "Croissance d'agents",
           "price": 3500,
           "disp": "$3,500",
           "per": "/mois",
@@ -2123,8 +2134,8 @@
           "com": "Engagement 6 mois minimum",
           "scope": [
             {
-              "i": "Tout Maintenance d'Agents",
-              "l": "Toute la surveillance, les mises à jour d'entraînement, les vérifications d'API, le reporting mensuel et le support de Maintenance d'Agents, avec les limites élargies ci-dessous."
+              "i": "Tout le forfait Maintenance d'agents",
+              "l": "Toute la surveillance, les mises à jour d'entraînement, les vérifications d'API, le reporting mensuel et le support de Maintenance d'agents, avec les limites élargies ci-dessous."
             },
             {
               "i": "Surveillance des agents (jusqu'à 6)",
@@ -2158,11 +2169,11 @@
             "Création d'un nouvel agent : $2,500",
             "Urgence hors horaires : +50 %"
           ],
-          "ex": "Pas d'orchestration d'entreprise, pas de cadres de conformité, pas de stratège dédié. Pour une gestion complète des opérations IA, voir Centre de Commande des Agents.",
+          "ex": "Pas d'orchestration d'entreprise, pas de cadres de conformité, pas de stratège dédié. Pour une gestion complète des opérations IA, voir Centre de commande des agents.",
           "ideal": "Entreprises qui étendent activement les capacités de leurs agents IA"
         },
         {
-          "name": "Centre de Commande des Agents",
+          "name": "Centre de commande des agents",
           "price": 7500,
           "disp": "$7,500",
           "per": "/mois",
@@ -2170,8 +2181,8 @@
           "com": "Engagement 6 mois minimum",
           "scope": [
             {
-              "i": "Tout Croissance d'Agents",
-              "l": "Toute la surveillance, les mises à jour d'entraînement, les flux, les points stratégiques, la sécurité des API et le support prioritaire de Croissance d'Agents, avec les limites élargies ci-dessous."
+              "i": "Tout le forfait Croissance d'agents",
+              "l": "Toute la surveillance, les mises à jour d'entraînement, les flux, les points stratégiques, la sécurité des API et le support prioritaire de Croissance d'agents, avec les limites élargies ci-dessous."
             },
             {
               "i": "Surveillance des agents (illimitée)",
@@ -2209,13 +2220,13 @@
             "Session de formation en direct : $250/h",
             "Urgence hors horaires : +50 %"
           ],
-          "ex": "Pas de marketing, pas de publicités, pas de création de contenu, pas de gestion des réseaux sociaux. Pour ces services, voir nos Forfaits Marketing ou nos formules de Gestion Sociale.",
+          "ex": "Pas de marketing, pas de publicités, pas de création de contenu, pas de gestion des réseaux sociaux. Pour ces services, voir nos forfaits marketing ou nos formules de gestion des réseaux sociaux.",
           "ideal": "Entreprises pour qui l'IA est au cœur des opérations quotidiennes"
         }
       ],
       "customSupport": [
         {
-          "name": "Banque d'Heures",
+          "name": "Banque d'heures",
           "price": 2500,
           "disp": "$2,500",
           "per": "/mois",
@@ -2288,14 +2299,14 @@
             "Corrections de bugs au-delà de 5 h : $200/h",
             "Intervention urgente hors horaires : +50 %",
             "Migration de base de données : chiffrée séparément",
-            "Ajouts de fonctionnalités : utilisez la Banque d'Heures ou la tarification projet",
+            "Ajouts de fonctionnalités : utilisez la Banque d'heures ou la tarification projet",
             "Audit de performance : $2,000 une fois"
           ],
-          "ex": "Pas de développement de fonctionnalités, pas de design, pas de mises à jour de contenu, pas de gestion publicitaire. Maintenance de l'infrastructure et du code uniquement. Pour du développement actif, voir le niveau Développement Actif ou la Banque d'Heures.",
+          "ex": "Pas de développement de fonctionnalités, pas de design, pas de mises à jour de contenu, pas de gestion publicitaire. Maintenance de l'infrastructure et du code uniquement. Pour du développement actif, voir le niveau Développement actif ou la Banque d'heures.",
           "ideal": "Applications stables qui doivent rester sécurisées, surveillées et à jour"
         },
         {
-          "name": "Développement Actif",
+          "name": "Développement actif",
           "price": 7500,
           "disp": "$7,500",
           "per": "/mois",
@@ -2304,7 +2315,7 @@
           "com": "Engagement 6 mois minimum",
           "scope": [
             {
-              "i": "Tout Support Dev",
+              "i": "Tout le forfait Support Dev",
               "l": "Toute la surveillance, la sécurité, les corrections de bugs (5 h), la gestion de la base de données et le reporting mensuel du niveau Support Dev, inclus comme socle."
             },
             {
@@ -2320,7 +2331,7 @@
               "l": "3 heures de design par mois incluses (mises à jour UI, nouvelles mises en page d'écrans, conception de composants). Couvre : wireframes, maquettes et petites mises à jour du design system. Les refontes complètes de pages ou de fonctionnalités nécessitant 5+ heures de design sont chiffrées séparément."
             },
             {
-              "i": "Vidéos de démonstration bimensuelles",
+              "i": "Vidéos de démonstration toutes les deux semaines",
               "l": "Toutes les 2 semaines, nous enregistrons une démo Loom du travail réalisé et des fonctionnalités en cours. Vous la visionnez à votre rythme et donnez vos retours par message, e-mail ou via le tableau de tâches. Fait avancer le projet et évite les malentendus. Aucun appel en direct nécessaire."
             },
             {
@@ -2345,11 +2356,11 @@
       ],
       "appBuild": [
         {
-          "name": "Rampe de Lancement",
+          "name": "Rampe de lancement",
           "price": 9500,
           "disp": "$9,500",
           "tag": "Validez votre idée",
-          "tl": "4-6 semaines",
+          "tl": "4 à 6 semaines",
           "scope": [
             {
               "i": "iOS ou Android (au choix), React Native",
@@ -2387,7 +2398,7 @@
             "Mises en page tablette/iPad : +$1,800"
           ],
           "ex": "Pas de backend sur mesure (utilise vos API existantes ou un backend no-code comme Supabase). Pas d'achats intégrés. Pas de notifications push. Pas de mode hors ligne.",
-          "bridge": "Après la garantie de 30 jours, la maintenance continue passe sur notre forfait Toujours en Ligne ($1,950/mois) pour rester à jour avec les mises à jour iOS/Android et les resoumissions en store.",
+          "bridge": "Après la garantie de 30 jours, la maintenance continue passe sur notre forfait Toujours en ligne ($1,950/mois) pour rester à jour avec les mises à jour iOS/Android et les resoumissions en store.",
           "ideal": "Fondateurs qui valident une idée avec un MVP ciblé sur une seule plateforme"
         },
         {
@@ -2396,7 +2407,7 @@
           "disp": "$24,500",
           "tag": "Le plus choisi",
           "pop": true,
-          "tl": "8-12 semaines",
+          "tl": "8 à 12 semaines",
           "scope": [
             {
               "i": "iOS + Android multiplateforme",
@@ -2438,15 +2449,15 @@
             "Garantie étendue (+30 jours) : $1,200"
           ],
           "ho": "Passation complète du code après le lancement : dépôt GitHub, configuration CI EAS/Fastlane, documentation de déploiement, modèle d'environnement et une présentation vidéo enregistrée de 60 min. Votre équipe prend le relais ou nous continuons au forfait.",
-          "bridge": "Comprend 60 jours après le lancement. L'itération active se poursuit ensuite avec notre forfait Momentum ($4,800/mois) : 20 heures d'ingénierie, travail sur les fonctionnalités et tests A/B chaque mois.",
+          "bridge": "Comprend 60 jours après le lancement. L'itération active se poursuit ensuite avec notre forfait Élan ($4,800/mois) : 20 heures d'ingénierie, travail sur les fonctionnalités et tests A/B chaque mois.",
           "ideal": "Équipes qui lancent un produit multiplateforme abouti auprès de vrais utilisateurs"
         },
         {
-          "name": "Produit Phare",
+          "name": "Produit phare",
           "price": 62000,
           "disp": "$62,000",
           "tag": "Produit complet",
-          "tl": "14-18 semaines",
+          "tl": "14 à 18 semaines",
           "scope": [
             {
               "i": "iOS + Android + backend Node/Postgres sur mesure",
@@ -2492,13 +2503,13 @@
             "Atelier de découverte supplémentaire : $1,800"
           ],
           "ho": "Passation complète : monorepo GitHub, configuration CI/CD, infrastructure as code (Terraform ou Pulumi sur demande), runbook des déploiements et retours arrière, et une présentation vidéo de 90 min avec les équipes mobile et backend.",
-          "bridge": "Comprend 90 jours après le lancement. Le partenariat intégré se poursuit ensuite avec notre forfait Partner ($10,500/mois) avec un ingénieur dédié et un designer à temps partagé.",
+          "bridge": "Comprend 90 jours après le lancement. Le partenariat intégré se poursuit ensuite avec notre forfait Partenaire ($10,500/mois) avec un ingénieur dédié et un designer à temps partagé.",
           "ideal": "Startups financées et marques qui lancent un produit complet avec un backend sur mesure"
         }
       ],
       "appSupport": [
         {
-          "name": "Toujours en Ligne",
+          "name": "Toujours en ligne",
           "price": 1950,
           "disp": "$1,950",
           "per": "/mois",
@@ -2553,10 +2564,10 @@
           "scope": [
             {
               "i": "Jusqu'à 20 heures d'ingénierie par mois",
-              "l": "20 heures pour une itération active : fonctionnalités, optimisations, tests A/B, travail analytique. Tout Toujours en Ligne est inclus dans ce budget."
+              "l": "Vingt heures pour une itération active : fonctionnalités, optimisations, tests A/B, travail analytique. Tout le forfait Toujours en ligne est inclus dans ce budget."
             },
             {
-              "i": "Tout Toujours en Ligne",
+              "i": "Tout le forfait Toujours en ligne",
               "l": "Corrections de bugs, mises à jour d'OS, resoumissions en store, surveillance Crashlytics, correctifs de dépendances. Mêmes limites, imputées sur la banque de 20 h."
             },
             {
@@ -2576,14 +2587,14 @@
               "l": "4 heures de design par mois pour de nouveaux écrans ou des mises à jour de parcours. Les heures de design sont distinctes des 20 heures d'ingénierie. Elles ne sont pas comptées deux fois."
             },
             {
-              "i": "Point d'avancement bimensuel",
-              "l": "Visioconférence bimensuelle de 30 min pour passer en revue l'avancement, aligner les priorités et lever les blocages. Enregistrée et partagée dans votre canal Slack."
+              "i": "Point d'avancement toutes les deux semaines",
+              "l": "Visioconférence de 30 min toutes les deux semaines pour passer en revue l'avancement, aligner les priorités et lever les blocages. Enregistrée et partagée dans votre canal Slack."
             }
           ],
           "ov": [
             "Heure supplémentaire : $155/h",
             "Test A/B supplémentaire : $800 de mise en place",
-            "Fonctionnalité express (délai inférieur à 1 semaine) : heures x1.5",
+            "Fonctionnalité express (délai inférieur à 1 semaine) : heures x 1,5",
             "Heure de design supplémentaire : $145"
           ],
           "ex": "Pas d'ingénieur dédié (équipe partagée avec accès prioritaire). Pas de changements d'architecture backend. Pas de services marketing.",
@@ -2602,8 +2613,8 @@
               "l": "Ingénieur senior attitré à ~20 h/semaine + designer à temps partagé à ~4 h/semaine. Les mêmes personnes chaque mois. Ils connaissent votre code."
             },
             {
-              "i": "Tout Momentum",
-              "l": "Tout le travail Momentum se poursuit (bugs, fonctionnalités, tests A/B, analytique) dans le budget élargi. Pas de facturation séparée."
+              "i": "Tout le forfait Élan",
+              "l": "Tout le travail du forfait Élan se poursuit (bugs, fonctionnalités, tests A/B, analytique) dans le budget élargi. Pas de facturation séparée."
             },
             {
               "i": "Livraison continue de la feuille de route",
@@ -2641,7 +2652,7 @@
       ],
       "webSupport": [
         {
-          "name": "Entretien du Site",
+          "name": "Entretien du site",
           "price": 550,
           "disp": "$550",
           "per": "/mois",
@@ -2649,7 +2660,7 @@
           "com": "Engagement 3 mois minimum",
           "scope": [
             {
-              "i": "Surveillance de disponibilité à 99.9 %",
+              "i": "Surveillance de disponibilité à 99,9 %",
               "l": "StatusCake ou BetterStack surveille votre site 24h/24. Alertes immédiates de notre côté. Vous n'apprenez pas par un client que le site est tombé."
             },
             {
@@ -2682,7 +2693,7 @@
           "ideal": "Sites en ligne qui ont besoin d'un entretien fiable et de tranquillité d'esprit"
         },
         {
-          "name": "Croissance du Site",
+          "name": "Croissance du site",
           "price": 1600,
           "disp": "$1,600",
           "per": "/mois",
@@ -2691,12 +2702,12 @@
           "com": "Engagement 3 mois minimum",
           "scope": [
             {
-              "i": "Tout Entretien du Site",
+              "i": "Tout le forfait Entretien du site",
               "l": "Disponibilité, sauvegardes, sécurité et petites modifications incluses. Mêmes limites, intégrées à ce forfait."
             },
             {
               "i": "1 nouvelle page ou section refondue/mois",
-              "l": "Chaque mois, nous livrons une nouvelle page (jusqu'à 1,000 mots + design standard) OU une section entièrement refondue d'une page existante. À vous de choisir."
+              "l": "Chaque mois, nous livrons une nouvelle page (jusqu'à 1 000 mots + design standard) OU une section entièrement refondue d'une page existante. À vous de choisir."
             },
             {
               "i": "2 tests A/B par mois",
@@ -2712,11 +2723,11 @@
             },
             {
               "i": "8 mises à jour de contenu par mois",
-              "l": "Au-delà des 4 modifications de base d'Entretien du Site : jusqu'à 8 mises à jour de contenu au total chaque mois. Regroupées chaque semaine le lundi."
+              "l": "Au-delà des 4 modifications de base du forfait Entretien du site : jusqu'à 8 mises à jour de contenu au total chaque mois. Regroupées chaque semaine, le lundi."
             },
             {
               "i": "E-mail + Slack prioritaires, réponse sous 24 h",
-              "l": "Accès à un canal Slack pour les questions rapides. Réponse sous 24 heures à toutes les demandes. Pas de temps réel pour les urgences, sauf au niveau Partenariat Web."
+              "l": "Accès à un canal Slack pour les questions rapides. Réponse sous 24 heures à toutes les demandes. Pas de temps réel pour les urgences, sauf au niveau Partenariat web."
             }
           ],
           "ov": [
@@ -2728,7 +2739,7 @@
           "ideal": "Équipes qui veulent que le site continue de s'améliorer chaque mois"
         },
         {
-          "name": "Partenariat Web",
+          "name": "Partenariat web",
           "price": 3800,
           "disp": "$3,800",
           "per": "/mois",
@@ -2736,7 +2747,7 @@
           "com": "Engagement 3 mois minimum",
           "scope": [
             {
-              "i": "Tout Croissance du Site",
+              "i": "Tout le forfait Croissance du site",
               "l": "Nouvelles pages mensuelles, tests A/B, travail sur les Web Vitals, rapports trimestriels, plus des limites élargies dans ce forfait."
             },
             {
@@ -2775,11 +2786,11 @@
       ],
       "marketingBuild": [
         {
-          "name": "Audit Marketing et Feuille de Route",
+          "name": "Audit marketing et feuille de route",
           "price": 3500,
           "disp": "$3,500",
           "tag": "Diagnostic + plan à 90 jours",
-          "tl": "2-3 semaines",
+          "tl": "2 à 3 semaines",
           "scope": [
             {
               "i": "Audit full-funnel",
@@ -2820,16 +2831,16 @@
             "Session d'atelier prolongée (90 min) : $400"
           ],
           "ex": "Pas d'exécution de la feuille de route (c'est l'étape suivante). Pas de gestion publicitaire. Pas de création de contenu. Pas de production créative.",
-          "bridge": "L'audit se marie naturellement avec notre forfait Maintenance et Suivi ($1,500/mois) pour exécuter la feuille de route sans repartir de zéro. 10 % de remise le premier mois si signature sous 14 jours.",
+          "bridge": "L'audit se marie naturellement avec notre forfait Maintenance et suivi ($1,500/mois) pour exécuter la feuille de route sans repartir de zéro. 10 % de remise le premier mois si signature sous 14 jours.",
           "ideal": "Fondateurs qui soupçonnent leur marketing de perdre de l'argent sans savoir où"
         },
         {
-          "name": "Rampe de Lancement Campagne",
+          "name": "Rampe de lancement campagne",
           "price": 8500,
           "disp": "$8,500",
           "tag": "Le plus choisi",
           "pop": true,
-          "tl": "4-5 semaines de construction + 30 jours de suivi",
+          "tl": "4 à 5 semaines de construction + 30 jours de suivi",
           "scope": [
             {
               "i": "1 plateforme publicitaire principale entièrement montée",
@@ -2871,11 +2882,11 @@
             "Plateforme publicitaire supplémentaire : $2,500"
           ],
           "ex": "Pas de contenu social organique. Pas de contenu SEO long format. Pas de gestion d'influenceurs. Pas de relations presse.",
-          "bridge": "La campagne se poursuit avec notre forfait Moteur de Croissance ($3,500/mois) pour amplifier les gagnants, ouvrir un 2e canal et itérer les créations. 10 % de remise le premier mois si signature sous 14 jours.",
+          "bridge": "La campagne se poursuit avec notre forfait Moteur de croissance ($3,500/mois) pour amplifier les gagnants, ouvrir un 2e canal et itérer les créations. 10 % de remise le premier mois si signature sous 14 jours.",
           "ideal": "Équipes avec une offre éprouvée, prêtes à générer un vrai volume d'acquisition"
         },
         {
-          "name": "Lancement Produit Complet",
+          "name": "Lancement produit complet",
           "price": 20000,
           "disp": "$20,000",
           "tag": "Lancement coordonné",
@@ -2894,7 +2905,7 @@
               "l": "Meta + Google OU Meta + TikTok. Mélange de statique, carrousel et vidéo courte. 4 sont des vidéos de type UGC tournées par nos créateurs."
             },
             {
-              "i": "2 pages de destination",
+              "i": "Deux landing pages",
               "l": "Page de liste d'attente pré-lancement (capture d'e-mail + compte à rebours) + page de conversion du jour J (offre complète). Les deux avec variantes A/B. Construites sur Webflow/Framer."
             },
             {
@@ -2930,17 +2941,17 @@
             "Module SEO programmatique : $6,000"
           ],
           "ex": "Pas de calendrier éditorial continu après le lancement. Pas de gestion de communauté à long terme. Pas de photographie produit (peut être ajoutée).",
-          "bridge": "Le lancement se poursuit avec notre forfait Partenariat Complet ($7,500/mois) pour une croissance durable, l'optimisation du cycle de vie et le prochain cycle de lancement. 10 % de remise le premier mois si signature sous 14 jours.",
+          "bridge": "Le lancement se poursuit avec notre forfait Partenariat complet ($7,500/mois) pour une croissance durable, l'optimisation du cycle de vie et le prochain cycle de lancement. 10 % de remise le premier mois si signature sous 14 jours.",
           "ideal": "Marques qui lancent un produit, une gamme de services ou une nouvelle identité et ont besoin d'une impulsion coordonnée"
         }
       ],
       "brandingBuild": [
         {
-          "name": "Marque Essentielle",
+          "name": "Marque essentielle",
           "price": 4000,
           "disp": "$4,000",
           "tag": "Logo + palette + typographie",
-          "tl": "2-3 semaines",
+          "tl": "2 à 3 semaines",
           "scope": [
             {
               "i": "Recueil des besoins (asynchrone)",
@@ -2977,16 +2988,16 @@
             "Direction photographique de marque : $800"
           ],
           "ex": "Pas de charte graphique. Pas de papeterie. Pas de modèles sociaux. Pas de travail de naming ni d'identité verbale.",
-          "bridge": "Brand Lite associé à Gardien de Marque ($1,500/mois) garde vos éléments cohérents au fil de la production de nouveaux contenus.",
+          "bridge": "Marque essentielle, associée à Gardien de marque ($1,500/mois), garde vos éléments cohérents au fil de la production de nouveaux contenus.",
           "ideal": "Indépendants et marques en pré-lancement qui ont besoin vite d'un logo propre et utilisable"
         },
         {
-          "name": "Système de Marque",
+          "name": "Système de marque",
           "price": 12000,
           "disp": "$12,000",
           "tag": "Le plus choisi",
           "pop": true,
-          "tl": "4-6 semaines",
+          "tl": "4 à 6 semaines",
           "scope": [
             {
               "i": "Atelier de découverte (à distance, 90 min)",
@@ -3023,15 +3034,15 @@
             "Cycle de révision supplémentaire : $400"
           ],
           "ex": "Pas de sprint de naming ni d'identité verbale. Pas de recherche de marques déposées. Pas de brand book au-delà de la charte de 20 pages. Pas de travail vidéo.",
-          "bridge": "Système de Marque s'associe à Direction Créative ($4,000/mois) pour continuer à produire de nouveaux éléments de marque de manière cohérente.",
+          "bridge": "Système de marque s'associe à Direction créative ($4,000/mois) pour continuer à produire de nouveaux éléments de marque de manière cohérente.",
           "ideal": "Startups financées et entreprises en croissance qui ont besoin d'un système de marque complet et solide"
         },
         {
-          "name": "Transformation de Marque",
+          "name": "Transformation de marque",
           "price": 28000,
           "disp": "$28,000",
           "tag": "Refonte complète + naming + stratégie",
-          "tl": "8-12 semaines",
+          "tl": "8 à 12 semaines",
           "scope": [
             {
               "i": "Sprint découverte + stratégie",
@@ -3072,13 +3083,13 @@
             "Cycle de naming supplémentaire : $2,000"
           ],
           "ex": "Pas de dépôt de marque (mise en relation avec un avocat partenaire). Pas de production vidéo au-delà du storyboard. Pas d'exécution continue. C'est l'objet d'un forfait mensuel.",
-          "bridge": "La Transformation est généralement suivie de Studio Intégré ($8,500/mois) pour déployer la nouvelle identité sur chaque support au cours des 6 mois suivants.",
+          "bridge": "La Transformation de marque est généralement suivie de Studio intégré ($8,500/mois) pour déployer la nouvelle identité sur chaque support au cours des 6 mois suivants.",
           "ideal": "Entreprises établies en repositionnement, startups pré-Série A, marques historiques nécessitant une reconstruction de fond en comble"
         }
       ],
       "brandingSupport": [
         {
-          "name": "Gardien de Marque",
+          "name": "Gardien de marque",
           "price": 1500,
           "disp": "$1,500",
           "per": "/mois",
@@ -3115,7 +3126,7 @@
           "ideal": "Marques dotées d'une identité en place qui ont besoin d'un entretien léger et régulier"
         },
         {
-          "name": "Direction Créative",
+          "name": "Direction créative",
           "price": 4000,
           "disp": "$4,000",
           "per": "/mois",
@@ -3136,7 +3147,7 @@
               "l": "Audit PDF tous les 3 mois plus 3 modèles rafraîchis (création publicitaire, en-tête d'e-mail, publication sociale) selon ce qui fonctionne."
             },
             {
-              "i": "Rédaction légère (jusqu'à 1,000 mots/mois)",
+              "i": "Rédaction légère (jusqu'à 1 000 mots/mois)",
               "l": "Textes fidèles à la marque pour les légendes, variantes de publicités ou objets d'e-mail. Pas de contenu long format ni de pages web complètes."
             },
             {
@@ -3155,13 +3166,13 @@
           "ov": [
             "Éléments supplémentaires (16+) : $150 chacun",
             "Montage vidéo court (moins de 60 s) : $300 chacun",
-            "Textes au-delà de 1,000 mots : $200/page"
+            "Textes au-delà de 1 000 mots : $200/page"
           ],
           "ex": "Pas de gestion de publicités payantes. Pas de refonte complète de marque (c'est un projet). Pas de designer dédié. Équipe partagée.",
           "ideal": "Marques en croissance qui ont besoin d'un partenaire créatif produisant régulièrement et pilotant l'identité visuelle"
         },
         {
-          "name": "Studio Intégré",
+          "name": "Studio intégré",
           "price": 8500,
           "disp": "$8,500",
           "per": "/mois",
@@ -3173,8 +3184,8 @@
               "l": "Toute combinaison de réseaux sociaux, publicités, e-mail, sections web, pitch decks, visuels produit, supports événementiels ou print. Mêmes délais qu'en interne."
             },
             {
-              "i": "Direction hebdomadaire + stratégie bimensuelle",
-              "l": "Appel hebdomadaire de direction créative de 30 min + session stratégique bimensuelle de 60 min. Supervision active sur chaque support."
+              "i": "Direction hebdomadaire + stratégie toutes les deux semaines",
+              "l": "Appel hebdomadaire de direction créative de 30 min + session stratégique de 60 min toutes les deux semaines. Supervision active sur chaque support."
             },
             {
               "i": "Audit de marque mensuel + rafraîchissement appliqué",
@@ -3186,7 +3197,7 @@
             },
             {
               "i": "Rédaction + garde de la voix",
-              "l": "Jusqu'à 3,000 mots/mois de textes fidèles à la marque. Lignes directrices de voix appliquées à tout le contenu que nous touchons. 1 mise à jour du document de voix par trimestre."
+              "l": "Jusqu'à 3 000 mots/mois de textes fidèles à la marque. Lignes directrices de voix appliquées à tout le contenu que nous touchons. 1 mise à jour du document de voix par trimestre."
             },
             {
               "i": "Évolution du système de marque",
@@ -3213,7 +3224,7 @@
     },
     "v2_card_cta": "Demander un devis sur mesure",
     "v2_options": "{count, plural, one {# option} other {# options}}",
-    "meta_title": "Services et Formules",
+    "meta_title": "Services et formules",
     "meta_description": "Formules de conception et de développement de sites web sur mesure. Des livrables définis, chiffrés sur mesure selon votre périmètre."
   },
   "a11y": {
@@ -3253,7 +3264,7 @@
   },
   "casegrid": {
     "kofi_where": "Athlète Nike, Berlin",
-    "kofi_proof": "Demandes de consultation en hausse de 200% après le lancement.",
+    "kofi_proof": "Demandes de consultation en hausse de 200 % après le lancement.",
     "luki_where": "Coach sportif, Berlin",
     "luki_proof": "Réservations et paiements directement sur le site. Pas de messages privés, pas de factures.",
     "bronco_where": "Dallas-Fort Worth",
@@ -3275,11 +3286,11 @@
     "represented": "Chase Haynes (Managing Member)",
     "responsible": "Responsable du contenu conformément au § 18 (2) MStV : Chase Haynes",
     "contact_title": "Coordonnées",
-    "email_label": "Email",
+    "email_label": "E-mail",
     "phone_label": "Téléphone",
     "odr_title": "Règlement des litiges dans l'UE",
     "odr_1": "La Commission européenne met à disposition une plateforme de règlement en ligne des litiges (ODR) :",
-    "odr_2": "Notre adresse email figure ci-dessus.",
+    "odr_2": "Notre adresse e-mail figure ci-dessus.",
     "odr_3": "Nous ne sommes ni disposés ni tenus de participer à une procédure de règlement des litiges devant une commission d'arbitrage de la consommation.",
     "liability_title": "Responsabilité relative aux contenus et aux liens",
     "liability_1": "En tant que prestataire de services, nous sommes responsables de nos propres contenus sur ces pages conformément au droit commun. Nous déclinons toute responsabilité quant au contenu des liens externes ; le contenu des pages liées relève toujours de la responsabilité de leur fournisseur ou exploitant respectif.",
@@ -3312,13 +3323,13 @@
     "country_united_states": "États-Unis"
   },
   "seo": {
-    "org_description": "Un studio créatif de web design qui conçoit des sites web sur mesure, pensés pour la conversion, pour des marques ambitieuses.",
+    "org_description": "Un studio de web design berlinois qui conçoit des sites web sur mesure, pensés pour la conversion, pour des marques ambitieuses.",
     "local_description": "Studio de web design basé à Berlin qui construit des sites web sur mesure avec Next.js pour des marques ambitieuses dans le monde entier.",
-    "offer_catalog": "Services de Web Design",
+    "offer_catalog": "Services de web design",
     "service_name": "Sites web",
     "service_description": "Des sites construits sur mesure et pensés pour la conversion avec Next.js et React, optimisés pour le SEO et conçus mobile first.",
     "worldwide": "Monde entier",
-    "knows_1": "Conception de sites web",
+    "knows_1": "Web design",
     "knows_2": "Développement Next.js",
     "knows_3": "SEO",
     "knows_4": "Optimisation des conversions"

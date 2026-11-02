@@ -1,6 +1,6 @@
 /**
  * id.ts: Bahasa Indonesia. Translated from en.ts; shape: see ./types.ts.
- * Keep every key; values only. Metric and stat values stay as in English.
+ * Keep every key; values only. Numbers use Indonesian formatting (1.790, 5,0).
  */
 import type { LocaleBundle } from './types';
 
@@ -16,22 +16,22 @@ export const id: LocaleBundle = {
       desc: 'Situs web penghasil prospek dan sistem pertumbuhan online untuk perusahaan jasa ledeng di Dallas-Fort Worth.',
       challenge: 'Colton Staley meluncurkan Bronco Plumbing di Dallas-Fort Worth pada 2026 sebagai perusahaan tahun pertama yang dijalankan sendiri oleh pemiliknya. Mulai dari nol: tanpa situs web, tanpa kehadiran online, tanpa cara bagi pemilik rumah di DFW yang mencari tukang ledeng untuk menemukannya. Di dunia jasa pertukangan, siapa yang muncul pertama di Google dengan bukti kerja berkualitas, dialah yang ditelepon.',
       solution: 'Kami membangun situs web berfokus konversi yang berpusat pada sosok Colton sendiri: pemilik yang turun langsung di setiap panggilan, estimasi yang jujur, dan ulasan Google asli yang ditarik secara langsung. Setiap bagian mengarah ke panggilan telepon atau permintaan estimasi, dengan bilah telepon melekat di mobile untuk pemilik rumah yang mencari di tengah keadaan darurat. SEO lokal untuk pencarian jasa ledeng DFW dibangun sejak hari pertama, dan pipeline kontak langsung masuk ke alur kerja pekerjaannya.',
-      results: 'Dalam 5 bulan pertamanya, Colton menghasilkan pendapatan kotor lebih dari $50.000 dari pekerjaan ledeng dan sistem online. Situs ini memegang rating 5.0 bintang dari 52 ulasan Google, berada di posisi rata-rata 5.2 di Google untuk kata kuncinya, dan meraih 8.000+ impresi pencarian dalam 3 bulan pertama pelacakan.',
+      results: 'Dalam 5 bulan pertamanya, Colton menghasilkan pendapatan kotor lebih dari $50.000 dari pekerjaan ledeng dan sistem online. Situs ini memegang rating 5,0 bintang dari 52 ulasan Google, berada di posisi rata-rata 5,2 di Google untuk kata kuncinya, dan meraih 8.000+ impresi pencarian dalam 3 bulan pertama pelacakan.',
       metrics: [
         {
           value: '$50k',
           label: 'Pendapatan kotor dalam 5 bulan pertama',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: 'Rating Google dari 52 ulasan',
         },
         {
-          value: '5.2',
+          value: '5,2',
           label: 'Posisi rata-rata di Google',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: 'Impresi pencarian dalam 3 bulan',
         },
       ],
@@ -59,7 +59,7 @@ export const id: LocaleBundle = {
           label: 'Penjualan lewat toko',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'Pesanan dikirim',
         },
         {
@@ -69,9 +69,9 @@ export const id: LocaleBundle = {
       ],
     },
     'kds-systems': {
-      desc: 'Platform solusi cloud modern untuk penyedia layanan managed IT dan komputasi awan.',
-      challenge: 'KDS Systems Inc. membutuhkan kehadiran digital profesional yang mengomunikasikan keahlian mereka di bidang komputasi awan, Microsoft Office 365, solusi penyimpanan, dan aplikasi hosted. Situs lama tidak menggambarkan skala dan keandalan layanan managed IT mereka.',
-      solution: 'Kami mendesain situs web yang ramping dan modern dengan estetika gelap bernuansa teknologi, aksen warna hijau yang tegas, dan rincian layanan yang jelas. Situs ini memuat bagian komputasi awan, penyimpanan, dan aplikasi hosted dengan ikonografi visual, CTA pemesanan konsultasi, dan sinyal kepercayaan kelas enterprise.',
+      desc: 'Platform solusi cloud modern untuk penyedia layanan IT terkelola dan komputasi awan.',
+      challenge: 'KDS Systems Inc. membutuhkan kehadiran digital profesional yang mengomunikasikan keahlian mereka di bidang komputasi awan, Microsoft Office 365, solusi penyimpanan, dan aplikasi berbasis hosting. Situs lama tidak menggambarkan skala dan keandalan layanan IT terkelola mereka.',
+      solution: 'Kami mendesain situs web yang ramping dan modern dengan estetika gelap bernuansa teknologi, aksen warna hijau yang tegas, dan rincian layanan yang jelas. Situs ini memuat bagian komputasi awan, penyimpanan, dan aplikasi berbasis hosting dengan ikonografi visual, CTA pemesanan konsultasi, dan sinyal kepercayaan kelas enterprise.',
       results: 'Kehadiran merek profesional yang memposisikan KDS Systems sebagai mitra solusi cloud tepercaya. Alur pemesanan konsultasi yang ramping dan komunikasi layanan yang jelas meningkatkan prospek berkualitas secara signifikan.',
     },
     'public-affair': {
@@ -93,7 +93,7 @@ export const id: LocaleBundle = {
       results: 'Pusat ini kini memiliki kehadiran digital yang kuat dan mengomunikasikan misinya secara efektif. Keterlibatan calon mahasiswa berlatar belakang militer meningkat, dan akses ke program serta layanan dukungan menjadi lebih mudah.',
     },
     'grant-parkhurst': {
-      desc: 'Situs portofolio dan portal foto klien swalayan untuk fotografer di Salt Lake City.',
+      desc: 'Situs portofolio dan portal foto klien mandiri untuk fotografer di Salt Lake City.',
       challenge: 'Grant Parkhurst memotret potret, acara, dan film di Salt Lake City. Ia membutuhkan satu tempat yang menampilkan karyanya dalam proporsi aslinya, mencantumkan kota-kota yang ia layani, menerima pemesanan, dan memungkinkannya menyerahkan galeri jadi kepada klien tanpa harus mengirim tautan unduhan lewat email.',
       solution: 'Kami membangun situs yang mengutamakan fotografi, tanpa satu pun foto yang dipotong, dengan kartu layanan, sampul album yang tetap sejajar dalam satu baris, bagian area layanan, dan alur pemesanan. Di belakangnya ada portal klien di /portal: Grant masuk, membuat galeri, mengunggah ke penyimpanan fotonya sendiri dan membagikannya, lalu klien melihat dan mengunduh set foto mereka.',
       results: 'Situs dan portal tayang pada Agustus dan September 2026, dengan Grant mengelola galerinya sendiri sejak hari pertama. Domain publiknya kemudian dipindahkan dari hosting kami, sehingga tidak ada tautan live di sini; tangkapan layar menampilkan situs sebagaimana kami meluncurkannya.',
@@ -295,7 +295,7 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
   specialties: {
     'webdesign-berlin': {
       metaTitle: 'Desain Web Berlin | Blok Blok Studio',
-      metaDescription: 'Agensi desain web di Berlin. Situs web Next.js kustom yang mendatangkan pelanggan. Tanpa template, tanpa website builder. Konsultasi awal gratis.',
+      metaDescription: 'Agensi desain web di Berlin. Situs web Next.js kustom yang mendatangkan pelanggan. Tanpa template, tanpa pembuat situs instan. Konsultasi awal gratis.',
       kicker: 'Agensi Desain Web Berlin',
       h1: 'Desain web dari Berlin yang mendatangkan pelanggan',
       intro: 'Kami mendesain dan mengembangkan situs web kustom untuk perusahaan di Berlin dan di seluruh dunia. Setiap situs dibangun dari nol: cepat, dioptimalkan untuk mesin pencari, dan diarahkan pada satu tujuan, yaitu mengubah pengunjung menjadi pelanggan.',
@@ -316,7 +316,7 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
       featuresHeading: 'Apa yang Anda dapatkan',
       features: [
         {
-          title: 'Desain kustom, bukan website builder',
+          title: 'Desain kustom, bukan pembuat situs instan',
           desc: 'Setiap situs web dikembangkan secara manual dengan Next.js. Artinya: waktu muat lebih cepat, peringkat Google lebih baik, dan desain yang tidak ada duanya.',
         },
         {
@@ -358,8 +358,8 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
           a: 'Tidak. Kami berkantor di Berlin dan mendampingi klien lokal secara langsung, tetapi kami bekerja dengan perusahaan di seluruh dunia, termasuk di AS.',
         },
         {
-          q: 'Mengapa bukan situs web AI atau website builder seperti Wix?',
-          a: 'Website builder AI menghasilkan situs web dalam hitungan menit yang terlihat seperti ribuan situs lain, memuat lambat, dan tidak bisa diandalkan untuk ditemukan baik di Google maupun di pencarian AI. Situs web yang dikembangkan secara kustom memang lebih mahal, tetapi terbukti mendatangkan pelanggan. Studi kasus kami menunjukkan angkanya.',
+          q: 'Mengapa bukan situs web AI atau pembuat situs instan seperti Wix?',
+          a: 'Pembuat situs instan berbasis AI menghasilkan situs web dalam hitungan menit yang terlihat seperti ribuan situs lain, memuat lambat, dan tidak bisa diandalkan untuk ditemukan baik di Google maupun di pencarian AI. Situs web yang dikembangkan secara kustom memang lebih mahal, tetapi terbukti mendatangkan pelanggan. Studi kasus kami menunjukkan angkanya.',
         },
         {
           q: 'Mengapa Next.js, bukan WordPress atau Wix?',
@@ -372,21 +372,21 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
     },
     'plumber-website-design': {
       metaTitle: 'Desain Situs Web Tukang Ledeng | Blok Blok Studio',
-      metaDescription: 'Situs web untuk tukang ledeng dan perusahaan jasa rumah yang mengubah pencarian Google dan AI menjadi pekerjaan terjadwal. Klien jasa ledeng tahun pertama kami menghasilkan $50k dengan situsnya.',
-      kicker: 'Jasa Pertukangan dan Rumah Tangga',
+      metaDescription: 'Situs web untuk tukang ledeng dan perusahaan jasa perbaikan rumah yang mengubah pencarian Google dan AI menjadi pekerjaan terjadwal. Klien jasa ledeng tahun pertama kami menghasilkan $50k dengan situsnya.',
+      kicker: 'Jasa Pertukangan dan Perbaikan Rumah',
       h1: 'Situs web untuk tukang ledeng yang mengubah pencarian menjadi pekerjaan terjadwal',
-      intro: 'Saat pipa di rumah pecah, pemilik rumah mencari, menelepon hasil tepercaya pertama, dan tidak pernah menggulir kembali. Kami membangun situs web untuk tukang ledeng dan perusahaan jasa rumah yang memenangkan momen itu: cepat, siap SEO lokal, dan dibangun di sekitar tombol telepon.',
+      intro: 'Saat pipa di rumah pecah, pemilik rumah mencari, menelepon hasil tepercaya pertama, dan tidak pernah menggulir kembali. Kami membangun situs web untuk tukang ledeng dan perusahaan jasa perbaikan rumah yang memenangkan momen itu: cepat, siap SEO lokal, dan dibangun di sekitar tombol telepon.',
       stats: [
         {
           value: '$50k',
           label: 'Pendapatan yang dihasilkan klien jasa ledeng kami dalam 5 bulan pertama',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: 'Rating bintang dari 52 ulasan Google, ditarik langsung ke situs',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: 'Impresi pencarian Google dalam 3 bulan pertama pelacakan',
         },
       ],
@@ -417,14 +417,14 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
         heading: 'Studi kasus',
         name: 'Bronco Plumbing, Dallas-Fort Worth',
         result: 'Pendapatan kotor $50.000 dalam 5 bulan pertama berbisnis',
-        body: 'Colton Staley meluncurkan Bronco Plumbing tanpa situs web dan tanpa kehadiran online. Kami membangun situs berfokus konversi yang berpusat pada dirinya: pemilik yang turun langsung di setiap panggilan, estimasi jujur, ulasan Google langsung, dan bilah telepon melekat untuk pencarian di tengah keadaan darurat. Situs ini berada di posisi rata-rata 5.2 untuk kata kunci pencariannya.',
+        body: 'Colton Staley meluncurkan Bronco Plumbing tanpa situs web dan tanpa kehadiran online. Kami membangun situs berfokus konversi yang berpusat pada dirinya: pemilik yang turun langsung di setiap panggilan, estimasi jujur, ulasan Google langsung, dan bilah telepon melekat untuk pencarian di tengah keadaan darurat. Situs ini berada di posisi rata-rata 5,2 untuk kata kunci pencariannya.',
         linkLabel: 'Baca studi kasus lengkap',
       },
       faqHeading: 'Pertanyaan umum',
       faqs: [
         {
           q: 'Berapa biaya situs web tukang ledeng?',
-          a: 'Setiap build ditawarkan sesuai lingkup setelah panggilan gratis 15 menit. Anda mendapat harga tetap dengan hasil kerja yang terdefinisi sebelum kami mulai. Lihat halaman harga kami untuk mengetahui bagaimana kerja sama disusun.',
+          a: 'Setiap proyek ditawarkan sesuai lingkup setelah panggilan gratis 15 menit. Anda mendapat harga tetap dengan hasil kerja yang terdefinisi sebelum kami mulai. Lihat halaman harga kami untuk mengetahui bagaimana kerja sama disusun.',
         },
         {
           q: 'Berapa lama sampai situs mulai menghasilkan prospek?',
@@ -432,15 +432,15 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
         },
         {
           q: 'Apakah Anda juga bekerja dengan bidang pertukangan lain selain ledeng?',
-          a: 'Ya. Pendekatan yang sama berlaku untuk tukang listrik, HVAC, atap, dan bisnis jasa rumah apa pun di mana pelanggan mencari secara lokal lalu menelepon: SEO lokal, ulasan langsung, dan situs yang dibangun di sekitar panggilan telepon.',
+          a: 'Ya. Pendekatan yang sama berlaku untuk tukang listrik, HVAC, atap, dan bisnis jasa perbaikan rumah apa pun di mana pelanggan mencari secara lokal lalu menelepon: SEO lokal, ulasan langsung, dan situs yang dibangun di sekitar panggilan telepon.',
         },
         {
-          q: 'Mengapa tidak pakai AI website builder saja?',
-          a: 'AI builder menghasilkan situs generik dalam hitungan menit, tetapi tidak bisa melakukan hal-hal yang mendatangkan pekerjaan ledeng: SEO lokal per area layanan, ulasan Google langsung, tata letak mobile yang mengutamakan telepon, dan prospek yang tersambung ke alur kerja Anda. Klien jasa ledeng kami menghasilkan $50k dalam 5 bulan dengan situs yang dibangun untuk pasarnya, bukan dari template.',
+          q: 'Mengapa tidak pakai pembuat situs instan berbasis AI saja?',
+          a: 'Pembuat situs AI menghasilkan situs generik dalam hitungan menit, tetapi tidak bisa melakukan hal-hal yang mendatangkan pekerjaan ledeng: SEO lokal per area layanan, ulasan Google langsung, tata letak mobile yang mengutamakan telepon, dan prospek yang tersambung ke alur kerja Anda. Klien jasa ledeng kami menghasilkan $50k dalam 5 bulan dengan situs yang dibangun untuk pasarnya, bukan dari template.',
         },
         {
           q: 'Bisakah Anda menghubungkan situs dengan alat yang sudah saya pakai?',
-          a: 'Ya. Formulir prospek bisa dialirkan ke CRM, perangkat lunak manajemen pekerjaan, atau pipeline sederhana yang kami siapkan untuk Anda. Build Bronco kami mengalirkan prospek langsung ke alur kerja pekerjaan pemiliknya.',
+          a: 'Ya. Formulir prospek bisa dialirkan ke CRM, perangkat lunak manajemen pekerjaan, atau pipeline sederhana yang kami siapkan untuk Anda. Situs Bronco yang kami bangun mengalirkan prospek langsung ke alur kerja pekerjaan pemiliknya.',
         },
       ],
       ctaHeading: 'Ingin situs yang mendatangkan pekerjaan?',
@@ -501,7 +501,7 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
       faqs: [
         {
           q: 'Berapa biaya situs web personal trainer?',
-          a: 'Setiap build ditawarkan sesuai lingkup setelah panggilan gratis 15 menit, dengan harga tetap dan hasil kerja yang terdefinisi sebelum kami mulai. Lihat halaman harga kami untuk mengetahui bagaimana kerja sama disusun.',
+          a: 'Setiap proyek ditawarkan sesuai lingkup setelah panggilan gratis 15 menit, dengan harga tetap dan hasil kerja yang terdefinisi sebelum kami mulai. Lihat halaman harga kami untuk mengetahui bagaimana kerja sama disusun.',
         },
         {
           q: 'Apakah klien benar-benar bisa membayar lewat situs?',
@@ -512,8 +512,8 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
           a: 'Instagram membangun perhatian; situs web mengonversinya. Tautan di bio yang mengarah ke halaman berisi bukti, harga, dan pemesanan instan menutup klien yang hilang di DM. Permintaan konsultasi Coach Kofi naik lebih dari 200% setelah peluncuran.',
         },
         {
-          q: 'Mengapa tidak pakai AI website builder saja?',
-          a: 'AI builder bisa mendeskripsikan coaching Anda. Ia tidak bisa menerima pemesanan, memproses pembayaran Stripe, atau berperingkat untuk "personal trainer" di kota Anda. Situs ini membayar dirinya sendiri saat mendatangkan klien sementara Anda melatih, dan itu butuh rekayasa sungguhan, bukan template hasil generate.',
+          q: 'Mengapa tidak pakai pembuat situs instan berbasis AI saja?',
+          a: 'Pembuat situs AI bisa mendeskripsikan coaching Anda. Ia tidak bisa menerima pemesanan, memproses pembayaran Stripe, atau berperingkat untuk "personal trainer" di kota Anda. Situs ini membayar dirinya sendiri saat mendatangkan klien sementara Anda melatih, dan itu butuh rekayasa sungguhan, bukan template yang dibuat otomatis.',
         },
         {
           q: 'Apakah Anda hanya bekerja dengan coach kebugaran?',
@@ -536,7 +536,7 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
           label: 'Penjualan di toko kartu koleksi yang kami bangun dan luncurkan',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'Pesanan lewat toko tersebut',
         },
         {
@@ -589,12 +589,12 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
           a: 'Ya. Produk, pelanggan, dan riwayat pesanan dapat dimigrasikan dari sebagian besar platform. Kami merencanakan migrasi agar toko tidak pernah padam selama perpindahan.',
         },
         {
-          q: 'Mengapa tidak pakai AI store builder saja?',
-          a: 'Toko hasil generate terlihat lumayan tetapi mengonversi dengan buruk, karena konversi hidup di detail: penempatan penangkapan email, mekanisme drop, hambatan checkout, skema produk untuk pencarian AI. Toko $191k yang kami bangun menjual habis drop dalam hitungan jam karena setiap detail itu direkayasa, bukan digenerate.',
+          q: 'Mengapa tidak pakai pembuat toko instan berbasis AI saja?',
+          a: 'Toko yang dibuat otomatis terlihat lumayan tetapi mengonversi dengan buruk, karena konversi hidup di detail: penempatan penangkapan email, mekanisme drop, hambatan checkout, skema produk untuk pencarian AI. Toko $191k yang kami bangun menjual habis drop dalam hitungan jam karena setiap detail itu direkayasa, bukan dibuat otomatis.',
         },
         {
           q: 'Apakah Anda juga menyiapkan pengiriman dan pembayaran?',
-          a: 'Ya. Build Exotic Ripz mencakup backend pengiriman yang dikonfigurasi dari awal sampai akhir, plus pembayaran, pajak, dan bagian operasional yang biasanya ditinggalkan desainer lain untuk Anda urus sendiri.',
+          a: 'Ya. Proyek Exotic Ripz mencakup backend pengiriman yang dikonfigurasi dari awal sampai akhir, plus pembayaran, pajak, dan bagian operasional yang biasanya ditinggalkan desainer lain untuk Anda urus sendiri.',
         },
       ],
       ctaHeading: 'Ingin toko yang menjual?',

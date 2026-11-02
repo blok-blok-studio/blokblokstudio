@@ -27,7 +27,7 @@
 
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { AnimatedSection } from './AnimatedSection';
 
@@ -66,6 +66,8 @@ function Bullets({ items }: { items: React.ReactNode[] }) {
 
 export function AccessibilityContent() {
   const t = useTranslations('accessibility');
+  const locale = useLocale();
+  const lastUpdated = new Intl.DateTimeFormat(locale, { dateStyle: 'long' }).format(new Date(`${LAST_UPDATED}T00:00:00Z`));
 
   return (
     <section className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-5 sm:px-6 lg:px-8">
@@ -77,7 +79,7 @@ export function AccessibilityContent() {
             {t('title')}
           </h1>
           <p className="text-gray-400 text-sm sm:text-base">
-            {t('last_updated', { date: LAST_UPDATED })}
+            {t('last_updated', { date: lastUpdated })}
           </p>
         </AnimatedSection>
 
@@ -213,7 +215,7 @@ export function AccessibilityContent() {
         <AnimatedSection delay={0.45}>
           <Card title={t('preparation_title')}>
             <p className="text-gray-300 leading-relaxed">
-              {t('preparation_content', { date: LAST_UPDATED })}
+              {t('preparation_content', { date: lastUpdated })}
             </p>
           </Card>
         </AnimatedSection>

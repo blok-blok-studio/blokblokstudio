@@ -16,22 +16,22 @@ export const vi: LocaleBundle = {
       desc: 'Website tạo khách hàng tiềm năng và hệ thống tăng trưởng trực tuyến cho một công ty sửa ống nước tại Dallas-Fort Worth.',
       challenge: 'Colton Staley thành lập Bronco Plumbing tại Dallas-Fort Worth năm 2026, một công ty năm đầu do chính chủ vận hành. Bắt đầu từ con số không: không website, không hiện diện trực tuyến, không cách nào để chủ nhà ở DFW đang tìm thợ sửa ống nước có thể tìm thấy anh. Trong ngành nghề kỹ thuật, ai xuất hiện đầu tiên trên Google kèm bằng chứng về tay nghề sẽ nhận được cuộc gọi.',
       solution: 'Chúng tôi xây một website tập trung chuyển đổi xoay quanh chính Colton: chủ trực tiếp nhận mọi cuộc gọi, báo giá trung thực, đánh giá Google thật được kéo về theo thời gian thực. Mọi phần đều dẫn đến một cuộc gọi hoặc yêu cầu báo giá, với thanh gọi cố định trên di động cho những chủ nhà đang tìm kiếm giữa lúc khẩn cấp. SEO địa phương cho các truy vấn sửa ống nước tại DFW được tích hợp từ ngày đầu, và luồng liên hệ đổ thẳng vào quy trình nhận việc của anh.',
-      results: 'Trong 5 tháng đầu, Colton tạo ra hơn $50,000 doanh thu gộp từ công việc sửa ống nước và hệ thống trực tuyến. Website giữ điểm 5.0 sao trên 52 đánh giá Google, xếp hạng trung bình ở vị trí 5.2 trên Google cho các từ khóa của mình và đạt hơn 8,000 lượt hiển thị tìm kiếm trong 3 tháng theo dõi đầu tiên.',
+      results: 'Trong 5 tháng đầu, Colton tạo ra hơn 50.000 USD doanh thu gộp từ công việc sửa ống nước và hệ thống trực tuyến. Website giữ điểm 5,0 sao trên 52 đánh giá Google, xếp hạng trung bình ở vị trí 5,2 trên Google cho các từ khóa của mình và đạt hơn 8.000 lượt hiển thị tìm kiếm trong 3 tháng theo dõi đầu tiên.',
       metrics: [
         {
-          value: '$50k',
+          value: '50.000 USD',
           label: 'Doanh thu gộp trong 5 tháng đầu',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: 'Điểm Google trên 52 đánh giá',
         },
         {
-          value: '5.2',
+          value: '5,2',
           label: 'Vị trí trung bình trên Google',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: 'Lượt hiển thị tìm kiếm trong 3 tháng',
         },
       ],
@@ -52,14 +52,14 @@ export const vi: LocaleBundle = {
       desc: 'Nền tảng thương mại điện tử sôi động cho một thương hiệu cộng đồng thẻ bài sưu tầm.',
       challenge: 'Exotic Ripz cần một cửa hàng trực tuyến nắm bắt được sự hào hứng và năng lượng của cộng đồng thẻ bài sưu tầm. Họ cần một nền tảng xử lý được booster pack, sản phẩm mới, đợt nhập hàng lại và tương tác cộng đồng trên Discord, Twitch và mạng xã hội.',
       solution: 'Chúng tôi xây dựng một cửa hàng Shopify đầy đủ tính năng với nhận diện thương hiệu động táo bạo, liên kết cộng đồng Discord tích hợp, hiện diện đa nền tảng (Discord, YouTube, Twitch, TikTok, Instagram, X, Threads), phân loại sản phẩm thông minh và popup tối ưu chuyển đổi để thu thập email.',
-      results: 'Hơn $191,000 doanh số thẻ bài qua 1,790 đơn hàng trên cửa hàng chúng tôi xây và bàn giao, với hệ thống vận chuyển được cấu hình trọn vẹn. Danh sách email tăng 400% trong tháng đầu nhờ cơ chế thu thập bằng mã giảm giá thông minh, và các đợt mở bán booster pack liên tục hết sạch chỉ vài giờ sau khi phát hành. Cửa hàng đã được bàn giao lại cho chủ sở hữu tự vận hành, và họ đã gỡ website xuống, nên không còn liên kết trực tiếp để chia sẻ.',
+      results: 'Hơn 191.000 USD doanh số thẻ bài qua 1.790 đơn hàng trên cửa hàng chúng tôi xây và bàn giao, với hệ thống vận chuyển được cấu hình trọn vẹn. Danh sách email tăng 400% trong tháng đầu nhờ cơ chế thu thập bằng mã giảm giá thông minh, và các đợt mở bán booster pack liên tục hết sạch chỉ vài giờ sau khi phát hành. Cửa hàng đã được bàn giao lại cho chủ sở hữu tự vận hành, và họ đã gỡ website xuống, nên không còn liên kết trực tiếp để chia sẻ.',
       metrics: [
         {
-          value: '$191k',
+          value: '191.000 USD',
           label: 'Doanh số qua cửa hàng',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'Đơn hàng đã giao',
         },
         {
@@ -87,7 +87,7 @@ export const vi: LocaleBundle = {
       ],
     },
     'military-newschool': {
-      desc: 'Hiện diện web mang tính tổ chức cho Trung tâm Sinh viên có liên hệ Quân đội của The New School.',
+      desc: 'Hiện diện web chính thức cho Trung tâm Sinh viên có liên hệ Quân đội của The New School.',
       challenge: 'Trung tâm Sinh viên có liên hệ Quân đội của The New School, thành lập năm 2023, cần một hiện diện số tôn vinh cộng đồng gắn bó với quân đội đồng thời hòa hợp với ngôn ngữ thiết kế hiện đại của trường. Website cần truyền đạt rõ ràng các dịch vụ hỗ trợ, chương trình và nguồn lực.',
       solution: 'Chúng tôi thiết kế một trang sạch sẽ, chuyên nghiệp trong hệ sinh thái của The New School với hình ảnh cuốn hút, kiến trúc thông tin rõ ràng và nội dung dễ tiếp cận, chào đón sinh viên có liên hệ quân đội vào một cộng đồng của học giả, nghệ sĩ và nhà thiết kế.',
       results: 'Trung tâm giờ đây có một hiện diện số vững vàng, truyền tải hiệu quả sứ mệnh của mình. Tương tác từ sinh viên tiềm năng có liên hệ quân đội tăng lên và việc tiếp cận các chương trình, dịch vụ hỗ trợ trở nên thuận tiện hơn.',
@@ -132,7 +132,7 @@ Nếu khách truy cập không biết phải làm gì tiếp theo, họ sẽ r�
 
 ## 5. Không có tín hiệu tin cậy
 
-Phân tích tổng hợp 50 nghiên cứu của Baymard Institute cho thấy tỷ lệ bỏ giỏ hàng trung bình chỉ nhỉnh hơn 70%. Trong các lý do có thể khắc phục, 19% người mua sắm tại Mỹ nói họ không tin tưởng giao thông tin thẻ tín dụng cho website, và 17% bỏ giỏ vì lỗi hoặc sự cố website. Dự án Uy tín Web của Stanford, dựa trên nghiên cứu với hơn 4,500 người tham gia, nhận thấy con người đánh giá độ tin cậy của một website chủ yếu qua thiết kế hình ảnh, và khuyến nghị hiển thị những con người thật đứng sau website, một địa chỉ thực và thông tin liên hệ rõ ràng.
+Phân tích tổng hợp 50 nghiên cứu của Baymard Institute cho thấy tỷ lệ bỏ giỏ hàng trung bình chỉ nhỉnh hơn 70%. Trong các lý do có thể khắc phục, 19% người mua sắm tại Hoa Kỳ nói họ không tin tưởng giao thông tin thẻ tín dụng cho website, và 17% bỏ giỏ vì lỗi hoặc sự cố website. Dự án Uy tín Web của Stanford, dựa trên nghiên cứu với hơn 4.500 người tham gia, nhận thấy con người đánh giá độ tin cậy của một website chủ yếu qua thiết kế hình ảnh, và khuyến nghị hiển thị những con người thật đứng sau website, một địa chỉ thực và thông tin liên hệ rõ ràng.
 
 **Cách khắc phục:** Thêm bằng chứng xã hội xuyên suốt website, không chỉ trên một trang đánh giá riêng. Cho thấy kết quả thật, con người thật và con số thật. Làm cho thông tin liên hệ dễ tìm.
 
@@ -212,7 +212,7 @@ Nếu bạn không muốn tự mình đi qua danh sách này, hãy đặt lịch
     },
     'brand-identity-investment': {
       readTime: '5 phút đọc',
-      content: `Hầu hết doanh nghiệp coi thương hiệu là thứ trang trí. Các con số nói điều ngược lại. Bảng xếp hạng BrandZ của Kantar định giá 100 thương hiệu giá trị nhất thế giới ở mức tổng cộng 13,1 nghìn tỷ đô la trong năm 2026, tăng 22% chỉ trong một năm. Thương hiệu là một tài sản, và như mọi tài sản, nó sinh lãi kép. Đây là những gì một bộ nhận diện mạnh thực sự mang lại cho doanh nghiệp, và cách nhận ra khi nào thương hiệu của bạn đang kìm hãm bạn.
+      content: `Hầu hết doanh nghiệp coi thương hiệu là thứ trang trí. Các con số nói điều ngược lại. Bảng xếp hạng BrandZ của Kantar định giá 100 thương hiệu giá trị nhất thế giới ở mức tổng cộng 13,1 nghìn tỷ USD trong năm 2026, tăng 22% chỉ trong một năm. Thương hiệu là một tài sản, và như mọi tài sản, nó sinh lãi kép. Đây là những gì một bộ nhận diện mạnh thực sự mang lại cho doanh nghiệp, và cách nhận ra khi nào thương hiệu của bạn đang kìm hãm bạn.
 
 ## Nhận diện thương hiệu thực chất là gì
 
@@ -222,7 +222,7 @@ Hãy nghĩ đến những thương hiệu giá trị nhất thế giới. Bạn 
 
 ## Vì sao nó quan trọng cho tăng trưởng
 
-**1. Niềm tin ngay từ cái nhìn đầu tiên.** Nghiên cứu từ Google cho thấy con người đánh giá sức hấp dẫn thị giác của một website trong vòng 50 mili giây kể từ khi nhìn thấy. Dự án Uy tín Web của Stanford, dựa trên nghiên cứu với hơn 4,500 người tham gia, nhận thấy con người đánh giá độ tin cậy chủ yếu qua thiết kế hình ảnh. Một thương hiệu chỉn chu, nhất quán báo hiệu sự chuyên nghiệp trước khi ai đó đọc một chữ.
+**1. Niềm tin ngay từ cái nhìn đầu tiên.** Nghiên cứu từ Google cho thấy con người đánh giá sức hấp dẫn thị giác của một website trong vòng 50 mili giây kể từ khi nhìn thấy. Dự án Uy tín Web của Stanford, dựa trên nghiên cứu với hơn 4.500 người tham gia, nhận thấy con người đánh giá độ tin cậy chủ yếu qua thiết kế hình ảnh. Một thương hiệu chỉn chu, nhất quán báo hiệu sự chuyên nghiệp trước khi ai đó đọc một chữ.
 
 **2. Định giá cao cấp.** Kantar đo sức mạnh thương hiệu một phần qua quyền định giá: khả năng tính giá cao hơn đối thủ mà không mất nhu cầu. Quyền định giá đó là lý do lớn khiến giá trị của những thương hiệu mạnh nhất thế giới tiếp tục leo thang trong khi các đối thủ yếu hơn phải cạnh tranh bằng giá.
 
@@ -259,7 +259,7 @@ Nếu website hiện tại không giống với doanh nghiệp bạn đã thực
 
 Cá nhân tôi thích website một trang. Chúng tôi đã thống nhất như vậy. Giao tiếp với anh ấy rất dễ dàng. Anh ấy là người tốt, thật đấy. Rất quyết tâm.
 
-Và tôi nghĩ bạn cần một người làm cùng bạn ở lớp vỏ bên ngoài, phần phần mềm ấy. Bạn cần một người phản hồi nhanh, hiểu việc mình làm và thích ứng được với nhu cầu của bạn.
+Và tôi nghĩ bạn cần một người cùng bạn lo phần mặt ngoài, tức là phần mềm. Bạn cần một người phản hồi nhanh, hiểu việc mình làm và thích ứng được với nhu cầu của bạn.
 
 Vậy nên, tôi thật lòng giới thiệu Chase, hay Blok Blok Studio. Làm việc với họ đã giúp tôi rất nhiều. Thật đấy. Hãy thử xem. Họ thật sự giỏi.`,
     },
@@ -281,22 +281,22 @@ Vậy nên nếu bạn đang tìm một người quan tâm đến bạn, chú ý
     founder: {
       name: 'Đôi lời từ nhà sáng lập Blok Blok Studio',
       description: 'Chase Haynes chỉ ra những nơi doanh nghiệp dịch vụ âm thầm mất khách trên mạng và cách Blok Blok Studio khắc phục, quay màn hình trên chính website của studio.',
-      transcript: `Tôi là Chase, nhà sáng lập Blok Blok Studio. Tôi có thể kể cho bạn mọi case study trên đời về doanh nghiệp của chúng tôi, nhưng nếu bạn không biết tôi là ai với tư cách một con người, điều đó chẳng có ý nghĩa gì cả. Vậy nên tôi sẽ tự giới thiệu.
+      transcript: `Tôi là Chase, nhà sáng lập Blok Blok Studio. Tôi có thể kể cho bạn mọi nghiên cứu điển hình trên đời về doanh nghiệp của chúng tôi, nhưng nếu bạn không biết tôi là ai với tư cách một con người, điều đó chẳng có ý nghĩa gì cả. Vậy nên tôi sẽ tự giới thiệu.
 
 Tôi là Chase. Tôi đến từ San Diego, California. Tôi lớn lên phần nhiều ở Mỹ, rồi chuyển đến Bờ Đông. Tôi gia nhập Thủy quân lục chiến, phục vụ năm năm. Xuất ngũ, tôi chuyển lên New York học tại Parsons School of Design. Lấy bằng Cử nhân Mỹ thuật ngành Thiết kế và Công nghệ. Sau đó, tôi sáng lập agency của mình, Blok Blok Studio, vào tháng 6 năm 2024. Rồi khoảng một năm sau tôi chuyển đến Berlin, Đức.
 
 Từ đó, chúng tôi cứ thế mở rộng doanh nghiệp. Nó đang phát triển, mọi thứ đang tăng tốc. Giờ chúng tôi có một đội bốn người. Giám đốc sáng tạo của tôi ở Virginia, chiến lược gia marketing ở L.A., và lập trình viên full stack ở đây tại Berlin, Đức. Đó là một hành trình tuyệt vời, và chúng tôi ở đây mỗi ngày, làm hết mình.
 
-Rất mong được làm việc với bạn. Bên dưới, bạn sẽ thấy một loạt case study. Bạn sẽ thấy bốn ví dụ về những gì chúng tôi đã làm. Hãy xem qua, khám phá nhé. Nếu có câu hỏi, cứ nhắn cho tôi trên Instagram hoặc email, cách nào tiện cho bạn nhất.
+Rất mong được làm việc với bạn. Bên dưới, bạn sẽ thấy một loạt nghiên cứu điển hình. Bạn sẽ thấy bốn ví dụ về những gì chúng tôi đã làm. Hãy xem qua, khám phá nhé. Nếu có câu hỏi, cứ nhắn cho tôi trên Instagram hoặc email, cách nào tiện cho bạn nhất.
 
 Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin của bạn vào. Nó đến thẳng chỗ tôi, tôi sẽ xem, chúng ta lên một cuộc gọi, xem có hợp không. Nếu hợp thì tuyệt. Nếu không, cũng không sao cả. Nhưng tôi thực sự mong được gặp bạn, và chúc các bạn một ngày tốt lành. Hẹn gặp lại.`,
     },
   },
   specialties: {
     'webdesign-berlin': {
-      metaTitle: 'Thiết kế Web Berlin | Blok Blok Studio',
+      metaTitle: 'Thiết kế web Berlin | Blok Blok Studio',
       metaDescription: 'Agency thiết kế web tại Berlin. Website Next.js xây riêng, mang về khách hàng. Không template, không công cụ kéo thả. Tư vấn ban đầu miễn phí.',
-      kicker: 'Agency Thiết kế Web Berlin',
+      kicker: 'Agency thiết kế web Berlin',
       h1: 'Thiết kế web từ Berlin, mang về khách hàng',
       intro: 'Chúng tôi thiết kế và phát triển website riêng cho doanh nghiệp tại Berlin và trên toàn thế giới. Mỗi website được xây từ đầu: nhanh, tối ưu cho công cụ tìm kiếm và hướng về một mục tiêu duy nhất, biến khách truy cập thành khách hàng.',
       stats: [
@@ -341,7 +341,7 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
         name: 'Coach Luki, huấn luyện viên cá nhân tại Berlin',
         result: 'Đặt lịch và thanh toán chạy hoàn toàn qua website',
         body: 'Luke Satterly huấn luyện khách hàng tại Holmes Place và John Reed. Website của anh nhận đặt lịch và xử lý thanh toán qua Stripe, không tin nhắn riêng, không hóa đơn viết tay. Kèm theo đó là SEO địa phương cho các từ khóa như "Personal Trainer Berlin".',
-        linkLabel: 'Xem case study',
+        linkLabel: 'Xem nghiên cứu điển hình',
       },
       faqHeading: 'Câu hỏi thường gặp',
       faqs: [
@@ -359,7 +359,7 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
         },
         {
           q: 'Vì sao không dùng website AI hay công cụ kéo thả như Wix?',
-          a: 'Công cụ AI cho ra trong vài phút một website trông giống hàng nghìn website khác, tải chậm và không được tìm thấy ổn định trên Google lẫn tìm kiếm AI. Một website phát triển riêng tốn nhiều chi phí hơn, nhưng đổi lại mang về khách hàng đo đếm được. Các case study của chúng tôi cho thấy con số cụ thể.',
+          a: 'Công cụ AI cho ra trong vài phút một website trông giống hàng nghìn website khác, tải chậm và không được tìm thấy ổn định trên Google lẫn tìm kiếm AI. Một website phát triển riêng tốn nhiều chi phí hơn, nhưng đổi lại mang về khách hàng đo đếm được. Các nghiên cứu điển hình của chúng tôi cho thấy con số cụ thể.',
         },
         {
           q: 'Vì sao dùng Next.js thay vì WordPress hay Wix?',
@@ -371,22 +371,22 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
       ctaButton: 'Đặt lịch tư vấn miễn phí',
     },
     'plumber-website-design': {
-      metaTitle: 'Thiết kế Website cho Thợ sửa ống nước | Blok Blok Studio',
-      metaDescription: 'Website cho thợ sửa ống nước và công ty dịch vụ gia đình, biến tìm kiếm trên Google và AI thành công việc được đặt. Khách hàng sửa ống nước năm đầu của chúng tôi tạo ra $50k với website của mình.',
+      metaTitle: 'Thiết kế website cho thợ sửa ống nước | Blok Blok Studio',
+      metaDescription: 'Website cho thợ sửa ống nước và công ty dịch vụ gia đình, biến tìm kiếm trên Google và AI thành công việc được đặt. Khách hàng sửa ống nước năm đầu của chúng tôi tạo ra 50.000 USD với website của mình.',
       kicker: 'Ngành nghề kỹ thuật và dịch vụ gia đình',
       h1: 'Website cho thợ sửa ống nước, biến tìm kiếm thành công việc được đặt',
       intro: 'Khi một chủ nhà bị vỡ ống nước, họ tìm kiếm, gọi kết quả đáng tin đầu tiên và không bao giờ cuộn lại. Chúng tôi xây website cho thợ sửa ống nước và công ty dịch vụ gia đình để thắng khoảnh khắc đó: nhanh, sẵn sàng cho SEO địa phương và xây quanh nút gọi.',
       stats: [
         {
-          value: '$50k',
+          value: '50.000 USD',
           label: 'Doanh thu khách hàng sửa ống nước của chúng tôi tạo ra trong 5 tháng đầu',
         },
         {
-          value: '5.0',
+          value: '5,0',
           label: 'Điểm sao trên 52 đánh giá Google, kéo trực tiếp vào website',
         },
         {
-          value: '8,000+',
+          value: '8.000+',
           label: 'Lượt hiển thị tìm kiếm Google trong 3 tháng theo dõi đầu tiên',
         },
       ],
@@ -416,9 +416,9 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
       caseStudy: {
         heading: 'Nghiên cứu điển hình',
         name: 'Bronco Plumbing, Dallas-Fort Worth',
-        result: '$50,000 doanh thu gộp trong 5 tháng kinh doanh đầu tiên',
-        body: 'Colton Staley khởi nghiệp Bronco Plumbing không có website và không có hiện diện trực tuyến. Chúng tôi xây một website tập trung chuyển đổi xoay quanh anh: chủ nhận mọi cuộc gọi, báo giá trung thực, đánh giá Google trực tiếp và thanh gọi cố định cho tìm kiếm giữa lúc khẩn cấp. Website xếp hạng trung bình ở vị trí 5.2 cho các từ khóa của mình.',
-        linkLabel: 'Đọc case study đầy đủ',
+        result: '50.000 USD doanh thu gộp trong 5 tháng kinh doanh đầu tiên',
+        body: 'Colton Staley khởi nghiệp Bronco Plumbing không có website và không có hiện diện trực tuyến. Chúng tôi xây một website tập trung chuyển đổi xoay quanh anh: chủ nhận mọi cuộc gọi, báo giá trung thực, đánh giá Google trực tiếp và thanh gọi cố định cho tìm kiếm giữa lúc khẩn cấp. Website xếp hạng trung bình ở vị trí 5,2 cho các từ khóa của mình.',
+        linkLabel: 'Đọc toàn bộ nghiên cứu điển hình',
       },
       faqHeading: 'Câu hỏi thường gặp',
       faqs: [
@@ -428,7 +428,7 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
         },
         {
           q: 'Bao lâu thì website bắt đầu tạo ra khách hàng tiềm năng?',
-          a: 'Bản thân website thường lên sóng trong 2 đến 4 tuần. SEO địa phương tích lũy dần trong những tháng tiếp theo; khách hàng sửa ống nước của chúng tôi ghi nhận hơn 8,000 lượt hiển thị tìm kiếm trong 3 tháng theo dõi đầu tiên.',
+          a: 'Bản thân website thường lên sóng trong 2 đến 4 tuần. SEO địa phương tích lũy dần trong những tháng tiếp theo; khách hàng sửa ống nước của chúng tôi ghi nhận hơn 8.000 lượt hiển thị tìm kiếm trong 3 tháng theo dõi đầu tiên.',
         },
         {
           q: 'Các bạn có làm việc với ngành nghề khác ngoài sửa ống nước không?',
@@ -436,7 +436,7 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
         },
         {
           q: 'Vì sao không dùng luôn một công cụ tạo website bằng AI?',
-          a: 'Công cụ AI tạo ra một website chung chung trong vài phút, nhưng không làm được những việc mang về đơn sửa ống nước: SEO địa phương theo từng khu vực phục vụ, đánh giá Google trực tiếp, bố cục di động ưu tiên cuộc gọi và khách hàng tiềm năng nối vào quy trình của bạn. Khách hàng sửa ống nước của chúng tôi tạo ra $50k trong 5 tháng với một website xây cho thị trường của anh, không phải từ template.',
+          a: 'Công cụ AI tạo ra một website chung chung trong vài phút, nhưng không làm được những việc mang về đơn sửa ống nước: SEO địa phương theo từng khu vực phục vụ, đánh giá Google trực tiếp, bố cục di động ưu tiên cuộc gọi và khách hàng tiềm năng nối vào quy trình của bạn. Khách hàng sửa ống nước của chúng tôi tạo ra 50.000 USD trong 5 tháng với một website xây cho thị trường của anh, không phải từ template.',
         },
         {
           q: 'Các bạn có thể kết nối website với công cụ tôi đang dùng không?',
@@ -448,7 +448,7 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
       ctaButton: 'Đặt lịch gọi miễn phí',
     },
     'personal-trainer-website-design': {
-      metaTitle: 'Thiết kế Website cho Huấn luyện viên Cá nhân | Blok Blok Studio',
+      metaTitle: 'Thiết kế website cho huấn luyện viên cá nhân | Blok Blok Studio',
       metaDescription: 'Website cho huấn luyện viên cá nhân và coach với đặt lịch và thanh toán tích hợp sẵn. Khách hàng của chúng tôi nhận đặt lịch và được thanh toán ngay trên website. Xem ví dụ thực tế.',
       kicker: 'Coach và huấn luyện viên',
       h1: 'Website huấn luyện viên cá nhân, chốt khách trong lúc bạn đang dạy',
@@ -495,7 +495,7 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
         name: 'Coach Luki, Berlin',
         result: 'Đặt lịch và thanh toán chạy thẳng qua website',
         body: '"Họ xây toàn bộ website của tôi từ đầu và giờ khách hàng đặt lịch, thanh toán trực tiếp qua đó. Trước đây tôi tốn hàng giờ cho tin nhắn và hóa đơn." Luke Satterly huấn luyện khách hàng tại Holmes Place và John Reed ở Berlin. Website của anh xử lý đặt lịch, thanh toán Stripe và SEO địa phương cho các truy vấn như "personal trainer Berlin".',
-        linkLabel: 'Đọc case study đầy đủ',
+        linkLabel: 'Đọc toàn bộ nghiên cứu điển hình',
       },
       faqHeading: 'Câu hỏi thường gặp',
       faqs: [
@@ -525,18 +525,18 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
       ctaButton: 'Đặt lịch gọi miễn phí',
     },
     'ecommerce-website-design': {
-      metaTitle: 'Thiết kế Website Thương mại điện tử | Blok Blok Studio',
-      metaDescription: 'Thiết kế cửa hàng thương mại điện tử và Shopify biết bán hàng. Chúng tôi xây một cửa hàng thẻ bài đạt $191k qua 1,790 đơn hàng. Cửa hàng ưu tiên chuyển đổi, sẵn sàng cho tìm kiếm AI.',
+      metaTitle: 'Thiết kế website thương mại điện tử | Blok Blok Studio',
+      metaDescription: 'Thiết kế cửa hàng thương mại điện tử và Shopify biết bán hàng. Chúng tôi xây một cửa hàng thẻ bài đạt 191.000 USD qua 1.790 đơn hàng. Cửa hàng ưu tiên chuyển đổi, sẵn sàng cho tìm kiếm AI.',
       kicker: 'Thương mại điện tử và Shopify',
       h1: 'Cửa hàng trực tuyến xây để bán, không chỉ để tồn tại',
       intro: 'Một cửa hàng không phải là danh mục sản phẩm. Mỗi lựa chọn, từ lưới sản phẩm đến thanh toán đến thu thập email, hoặc đưa khách truy cập đến gần việc mua hơn hoặc đánh mất họ. Chúng tôi thiết kế và xây dựng cửa hàng trực tuyến nơi những con số chứng minh cho thiết kế.',
       stats: [
         {
-          value: '$191k',
+          value: '191.000 USD',
           label: 'Doanh số trên cửa hàng thẻ bài chúng tôi xây và bàn giao',
         },
         {
-          value: '1,790',
+          value: '1.790',
           label: 'Đơn hàng qua cửa hàng đó',
         },
         {
@@ -570,9 +570,9 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
       caseStudy: {
         heading: 'Nghiên cứu điển hình',
         name: 'Exotic Ripz, thẻ bài sưu tầm',
-        result: '$191,042 doanh số qua 1,790 đơn hàng',
+        result: '191.042 USD doanh số qua 1.790 đơn hàng',
         body: 'Một cửa hàng Shopify hoàn chỉnh cho thương hiệu cộng đồng thẻ bài: nhận diện động táo bạo, tích hợp Discord và mạng xã hội đa nền tảng, phân loại sản phẩm thông minh và thu thập email tối ưu chuyển đổi. Các đợt mở bán booster pack liên tục hết sạch trong vài giờ sau khi phát hành, và hệ thống vận chuyển được cấu hình trọn vẹn.',
-        linkLabel: 'Đọc case study đầy đủ',
+        linkLabel: 'Đọc toàn bộ nghiên cứu điển hình',
       },
       faqHeading: 'Câu hỏi thường gặp',
       faqs: [
@@ -590,7 +590,7 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
         },
         {
           q: 'Vì sao không dùng luôn một công cụ tạo cửa hàng bằng AI?',
-          a: 'Cửa hàng được sinh tự động trông ổn nhưng chuyển đổi kém, vì chuyển đổi nằm ở chi tiết: vị trí thu thập email, cơ chế mở bán, độ trơn tru khi thanh toán, schema sản phẩm cho tìm kiếm AI. Cửa hàng $191k chúng tôi xây bán hết các đợt mở bán trong vài giờ vì từng chi tiết đó được thiết kế kỹ lưỡng, không phải sinh ra tự động.',
+          a: 'Cửa hàng được sinh tự động trông ổn nhưng chuyển đổi kém, vì chuyển đổi nằm ở chi tiết: vị trí thu thập email, cơ chế mở bán, độ trơn tru khi thanh toán, schema sản phẩm cho tìm kiếm AI. Cửa hàng 191.000 USD chúng tôi xây bán hết các đợt mở bán trong vài giờ vì từng chi tiết đó được thiết kế kỹ lưỡng, không phải sinh ra tự động.',
         },
         {
           q: 'Các bạn có thiết lập cả vận chuyển và thanh toán không?',

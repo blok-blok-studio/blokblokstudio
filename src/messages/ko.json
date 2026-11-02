@@ -4,14 +4,14 @@
     "projects": "프로젝트",
     "about": "회사 소개",
     "services": "서비스",
-    "pricing": "요금",
+    "pricing": "가격",
     "team": "팀",
     "contact": "문의하기",
     "blog": "블로그",
     "faq": "FAQ",
     "language": "언어",
-    "privacy": "개인정보 보호정책",
-    "terms": "이용 약관",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
     "cookies": "쿠키 정책",
     "impressum": "법적 고지",
     "data_rights": "데이터 권리",
@@ -26,10 +26,10 @@
   },
   "faq": {
     "meta_title": "FAQ, 베를린 웹 디자인 스튜디오",
-    "meta_description": "가격, 일정, 맞춤 웹사이트, 그리고 전 세계 고객과 일하는 베를린 웹 디자인 스튜디오 Blok Blok Studio와의 협업에 대한 답변.",
+    "meta_description": "가격, 일정, 맞춤 웹사이트, 그리고 전 세계 고객과 일하는 베를린 웹 디자인 스튜디오 Blok Blok Studio와의 협업에 대한 답변입니다.",
     "hero_eyebrow": "자주 묻는 질문",
     "hero_title": "궁금하셨던 모든 것",
-    "hero_subtitle": "일하는 방식, 비용, 만드는 것에 대한 솔직한 답변. 찾으시는 질문이 없다면 무료 30분 통화를 예약하세요.",
+    "hero_subtitle": "일하는 방식, 비용, 만드는 것에 대한 솔직한 답변입니다. 찾으시는 질문이 없다면 무료 30분 통화를 예약하세요.",
     "category_pricing": "가격과 투자",
     "category_process": "프로세스와 일정",
     "category_capabilities": "서비스와 역량",
@@ -103,7 +103,7 @@
       {
         "category": "trust",
         "question": "웹사이트 코드와 AI 에이전트 설정의 소유권은 제게 있나요?",
-        "answer": "네, 전적으로 고객님 소유입니다. 프로젝트가 완료되면 코드, 디자인 파일, AI 프롬프트, 자동화 설정의 완전한 소유권을 받으십니다. 사이트는 고객님 명의의 Vercel 계정에 고객님 결제로 배포됩니다. CRM, 광고 계정, 도메인은 첫날부터 고객님 이름으로 유지됩니다. 저희 시스템에 고객을 묶어 두는 일은 절대 없습니다."
+        "answer": "네, 전적으로 고객님 소유입니다. 프로젝트가 완료되면 코드, 디자인 파일, AI 프롬프트, 자동화 설정의 완전한 소유권을 받으십니다. 사이트는 고객님 명의의 Vercel 계정에 고객님 결제 정보로 배포됩니다. CRM, 광고 계정, 도메인은 첫날부터 고객님 이름으로 유지됩니다. 저희 시스템에 고객을 묶어 두는 일은 절대 없습니다."
       },
       {
         "category": "trust",
@@ -114,16 +114,16 @@
   },
   "home": {
     "hero_title": "베를린 웹 디자인 스튜디오",
-    "hero_subtitle": "전 세계 야심 찬 브랜드를 위해 맞춤 Next.js 웹사이트를 설계하고 개발합니다. 프리미엄, 전환 중심 웹 디자인, 템플릿은 절대 쓰지 않습니다.",
+    "hero_subtitle": "전 세계 야심 찬 브랜드를 위해 맞춤 Next.js 웹사이트를 설계하고 개발합니다. 프리미엄 전환 중심 웹 디자인, 템플릿은 절대 쓰지 않습니다.",
     "hero_cta": "프로젝트 시작하기",
     "clients_heading": "앞서가는 브랜드들이 신뢰합니다",
     "services_heading": "우리가 하는 일",
-    "services_subheading": "전략, 디자인, 최신 웹 기술을 결합해 성과를 이끌어내는 사이트를 만듭니다.",
+    "services_subheading": "전략, 디자인, 최신 웹 기술을 결합해 성과를 이끌어 내는 사이트를 만듭니다.",
     "projects_heading": "선별된 작업",
-    "projects_subheading": "창의성과 목적이 만나는 프로젝트 쇼케이스.",
+    "projects_subheading": "창의성과 목적이 만나는 프로젝트 쇼케이스입니다.",
     "projects_cta": "모든 프로젝트 보기",
     "testimonials_heading": "고객의 목소리",
-    "testimonials_subtitle": "저희 말만 믿지 마세요. 함께 변화를 만든 브랜드들의 이야기를 들어보세요.",
+    "testimonials_subtitle": "저희 말만 믿지 마세요. 함께 변화를 만든 브랜드들의 이야기를 들어 보세요.",
     "newsletter_heading": "매주 디자인 인사이트 받기",
     "newsletter_subtitle": "매주 목요일 디자인, 브랜딩, 디지털 성장에 대한 실용적인 팁을 받는 2,000명 이상의 창업자, 크리에이터와 함께하세요.",
     "newsletter_placeholder": "이메일 주소 입력",
@@ -135,12 +135,12 @@
     "tab_all": "전체",
     "tab_ai": "AI & 자동화",
     "tab_creative": "크리에이티브 & 마케팅",
-    "audit_badge": "무료: 30분",
+    "audit_badge": "무료, 30분",
     "audit_heading": "비즈니스에 무엇이 필요한지 모르시나요?",
-    "audit_subheading": "무료 전략 상담을 예약하세요. 비즈니스를 검토하고 가장 큰 기회가 어디에 있는지 보여드립니다.",
-    "audit_button": "무료 통화 예약",
+    "audit_subheading": "무료 전략 통화를 예약하세요. 비즈니스를 검토하고 가장 큰 기회가 어디에 있는지 정확히 보여드립니다.",
+    "audit_button": "무료 통화 예약하기",
     "cta_heading": "멋진 것을 함께 만들 준비가 되셨나요?",
-    "cta_subheading": "협력하여 당신의 비전을 현실로 만들어 봅시다.",
+    "cta_subheading": "함께 힘을 모아 고객님의 비전을 현실로 만들어 봅시다.",
     "cta_button": "문의하기",
     "stats_projects": "완료한 프로젝트",
     "stats_brands": "함께한 브랜드",
@@ -155,7 +155,7 @@
     "v2_services_label": "하는 일",
     "v2_services_link": "모든 서비스",
     "v2_service_1_title": "맞춤 Next.js 개발",
-    "v2_service_1_detail": "페이지 빌더도, 테마도 없이 직접 코딩한 React 프런트엔드. 모든 기기에서 빠르고, 나중에 확장하기도 쉽습니다.",
+    "v2_service_1_detail": "페이지 빌더도, 테마도 없이 직접 코딩한 React 프론트엔드. 모든 기기에서 빠르고, 나중에 확장하기도 쉽습니다.",
     "v2_service_2_title": "전환 중심 디자인",
     "v2_service_2_detail": "모든 페이지는 예약, 구매, 전화라는 하나의 행동을 중심으로 설계됩니다. 카피, 위계, 증거가 모두 같은 방향을 가리킵니다.",
     "v2_service_3_title": "첫날부터 SEO",
@@ -167,9 +167,9 @@
     "v2_work_label": "선별된 작업",
     "v2_work_link": "모든 프로젝트",
     "v2_result_coach_luki": "고객이 사이트에서 바로 예약하고 결제합니다. 지역 SEO로 베를린 검색 고객을 끌어옵니다.",
-    "v2_result_bronco_plumbing": "첫 5개월 만에 $50k 매출. Google 리뷰 52개, 평점 5.0.",
+    "v2_result_bronco_plumbing": "첫 5개월 만에 매출 $50,000. Google 리뷰 52개, 평점 5.0.",
     "v2_result_coach_kofi": "런칭 후 상담 문의 200% 증가.",
-    "v2_result_exotic_ripz": "주문 1,790건, 매출 $191k. 드롭은 몇 시간 만에 완판.",
+    "v2_result_exotic_ripz": "주문 1,790건, 매출 $191,000. 드롭은 몇 시간 만에 완판.",
     "v2_result_kds_systems": "명확한 서비스 스토리와 예약 흐름으로 양질의 리드가 늘었습니다.",
     "v2_proof_label": "숫자로 보는 성과",
     "v2_proof_1_value": "$191k",
@@ -180,7 +180,7 @@
     "v2_proof_3_label": "상담 문의 증가, Coach Kofi",
     "v2_quotes_label": "고객",
     "v2_clients_label": "함께한 브랜드",
-    "v2_talk": "이야기 나눠요.",
+    "v2_talk": "이야기 나눠 보시죠.",
     "v2_talk_sub": "사이트가 해야 할 일을 말씀해 주세요. 무엇이 필요한지 알려드리겠습니다.",
     "v2_founder": "창립자",
     "v2_email": "메시지 보내기",
@@ -188,7 +188,7 @@
     "v2_book": "통화 예약",
     "v2_loc_label": "스튜디오",
     "v2_pages_label": "페이지",
-    "v2_legal_label": "법적 고지",
+    "v2_legal_label": "법적 정보",
     "v2_social_label": "소셜",
     "v2_open_menu": "메뉴 열기",
     "v2_close_menu": "메뉴 닫기",
@@ -228,7 +228,7 @@
     "v2_hosting_bullet_3": "보안 및 의존성 업데이트",
     "v2_hosting_bullet_4": "속도 튜닝과 Core Web Vitals 점검",
     "v2_hosting_bullet_5": "필요할 때 콘텐츠 수정과 지원",
-    "v2_globe_hint": "드래그해서 돌리고, 스크롤이나 핀치로 확대하거나, 도시를 선택하세요.",
+    "v2_globe_hint": "드래그해서 돌리거나, 스크롤이나 핀치로 확대하거나, 도시를 선택하세요.",
     "v2_proof_4_value": "$3B+",
     "v2_proof_4_label": "최대 고객사 Philippine Airlines의 연 매출",
     "v2_result_public_affair": "방문자의 95%가 통과하는 프리미엄 연령 확인 진입 화면.",
@@ -236,30 +236,30 @@
     "v2_archive": "아카이브",
     "v2_globe_nowebgl": "이 브라우저에서는 WebGL이 꺼져 있습니다. 도시 목록은 옆에 있습니다.",
     "v2_quote_1_role": "Bronco Plumbing, 댈러스-포트워스",
-    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_2_role": "Nike 애슬리트, 베를린",
     "v2_quote_3_role": "트레이딩 카드 스토어",
-    "v2_quote_1_text": "첫 5개월 총매출 $50,000, Google 리뷰 52개 평점 5.0, 검색어 평균 Google 순위 5.2위.",
+    "v2_quote_1_text": "첫 5개월 총매출 $50,000, Google 리뷰 52개 평점 5.0, 검색어 기준 Google 평균 순위 5.2위.",
     "v2_quote_2_text": "Blok Blok Studio는 제 온라인 존재감을 완전히 바꿔 놓았습니다. 대담한 디자인이 제 코칭 철학을 완벽하게 담아냈고, 결과도 놀라웠습니다.",
     "v2_quote_3_text": "저희를 위해 만들어 준 이커머스 스토어는 정말 대단합니다. 부스터 팩 드롭은 몇 시간 만에 완판되고, 사이트를 통한 커뮤니티 참여도 놀라울 정도입니다.",
     "v2_quote_1_kind": "성과",
     "v2_offer_title": "웹사이트, 구축부터 호스팅까지",
     "v2_offer_subtitle": "맞춤 구축, 전환 중심, 호스팅과 관리 포함",
     "v2_offer_build_label": "구축",
-    "v2_offer_care_label": "호스팅과 관리, 포함",
+    "v2_offer_care_label": "호스팅과 관리 포함",
     "v2_result_grant_parkhurst": "포트폴리오와 셀프서비스 고객 포털, 2026년 9월부터 운영 중.",
     "v2_next_label": "다음 단계",
     "v2_next_1_title": "저희가 연락드립니다",
-    "v2_next_1_desc": "영업일 기준 하루 이내에. 사이트가 비즈니스를 위해 해야 할 일에 대해서만 20분간 이야기합니다.",
+    "v2_next_1_desc": "영업일 기준 하루 이내에 연락드립니다. 사이트가 비즈니스를 위해 해야 할 일에 대해서만 20분간 이야기합니다.",
     "v2_next_2_title": "범위와 확정 금액 하나",
     "v2_next_2_desc": "페이지 구성, 일정, 단 하나의 금액이 적힌 서면 계획. 5페이지 사이트는 {price}부터, 시간당 청구는 없습니다.",
     "v2_next_3_title": "킥오프부터 런칭까지",
     "v2_next_3_desc": "착수금이 들어오면 시작합니다. 대부분의 5페이지 사이트는 4~6주 안에 런칭되며, 호스팅과 관리가 포함됩니다.",
-    "meta_keywords": "베를린 웹 디자인, 웹 디자인 베를린, 맞춤 Next.js 웹사이트, 웹 디자인 스튜디오, 독일 웹 디자인, 홈페이지 제작 업체, Blok Blok Studio",
+    "meta_keywords": "베를린 웹 디자인, 웹 디자인 베를린, 맞춤 Next.js 웹사이트, 웹 디자인 스튜디오, 독일 웹 디자인, 웹사이트 제작 에이전시, Blok Blok Studio",
     "v2_lockup_alt": "Blok Blok Studio, 크리에이티브 테크 스튜디오"
   },
   "projects": {
     "title": "프로젝트",
-    "subtitle": "디지털 경험, 브랜드 아이덴티티, 크리에이티브 솔루션 포트폴리오를 살펴보세요.",
+    "subtitle": "저희가 런칭한 모든 사이트와 그 사이트가 만들어 낸 수치.",
     "filter_all": "전체",
     "filter_web": "웹 디자인",
     "filter_brand": "브랜딩",
@@ -277,26 +277,26 @@
   },
   "about": {
     "title": "회사 소개",
-    "subtitle": "우리는 의미 있는 디지털 경험을 만드는 것에 열정을 가진 디자이너, 개발자, 전략가의 집단입니다.",
+    "subtitle": "웹사이트를 디자인하고, 개발하고, 호스팅하는 다섯 명의 스튜디오. 2024년 6월 베를린에서 설립.",
     "mission_title": "미션",
-    "mission_text": "야심 찬 브랜드에게 실제로 고객을 데려오는 웹사이트, 시스템, 캠페인을 제공하는 것.",
+    "mission_text": "야심 찬 브랜드에 실제로 고객을 데려오는 웹사이트, 시스템, 캠페인을 제공하는 것.",
     "vision_title": "비전",
-    "vision_text": "디지털 환경에서 돋보이고자 하는 브랜드가 선택하는 크리에이티브 파트너가 되는 것.",
+    "vision_text": "웹사이트가 제 몫을 해야 할 때 야심 찬 브랜드가 가장 먼저 찾는 스튜디오가 되는 것.",
     "values_title": "핵심 가치",
     "value_1_title": "혁신",
-    "value_1_text": "모든 프로젝트에서 경계를 넓히고 새로운 가능성을 탐구합니다.",
+    "value_1_text": "모든 사이트를 처음부터 만듭니다. 테마에서 가져다 쓰는 것은 없습니다.",
     "value_2_title": "탁월함",
-    "value_2_text": "품질과 장인정신의 최고 기준을 스스로에게 요구합니다.",
+    "value_2_text": "품질과 장인 정신에서 가장 높은 기준을 스스로에게 요구합니다.",
     "value_3_title": "협업",
-    "value_3_text": "최고의 작업은 클라이언트와의 강력한 파트너십에서 비롯된다고 믿습니다.",
+    "value_3_text": "최고의 작업은 고객과의 탄탄한 파트너십에서 나온다고 믿습니다.",
     "value_4_title": "진실성",
-    "value_4_text": "모든 활동에서 투명성, 정직, 존중을 바탕으로 운영합니다.",
+    "value_4_text": "모든 일을 투명성, 정직, 존중을 바탕으로 합니다.",
     "stats_projects": "완료된 프로젝트",
-    "stats_clients": "만족한 클라이언트",
+    "stats_clients": "만족한 고객",
     "stats_years": "경력 연수",
     "stats_awards": "함께한 업종",
     "v2_label": "스튜디오",
-    "v2_intro": "일부러 작게 운영합니다. 한 번에 소수의 브랜드만 맡기 때문에 모든 사이트에 템플릿과 티켓 번호가 아닌 창립자가 직접 참여합니다.",
+    "v2_intro": "일부러 작게 운영합니다. 한 번에 소수의 브랜드만 맡기 때문에 모든 사이트에 템플릿과 티켓 번호가 아니라 창립자가 직접 참여합니다.",
     "v2_team_label": "함께 일할 사람들",
     "v2_team_link": "팀 만나기",
     "v2_cta": "퀴즈로 시작하기",
@@ -314,15 +314,15 @@
   },
   "blog": {
     "meta_title": "블로그: 웹 디자인·브랜딩·SEO 인사이트",
-    "meta_description": "Blok Blok Studio가 전하는 웹 디자인, 브랜딩, SEO, 디지털 마케팅 전문 인사이트. 온라인 입지를 키우는 실전 팁.",
+    "meta_description": "성과를 내는 사이트를 만들며 배운 것들: Blok Blok Studio의 아티클, 고객 영상, 스튜디오 소식.",
     "og_alt": "Blok Blok Studio 블로그",
     "list_title": "아이디어",
     "list_subtitle": "성과를 내는 사이트를 만들며 배운 것들: 아티클, 카메라 앞에 선 고객, 그리고 스튜디오 소식.",
     "read_time": "{minutes}분 소요",
-    "read_article": "기사 읽기",
+    "read_article": "아티클 읽기",
     "back_to_blog": "블로그로 돌아가기",
     "cta_title": "이런 성과를 원하시나요?",
-    "cta_subtitle": "무료 전략 상담을 예약하고 디지털 입지를 어떻게 혁신할 수 있을지 이야기해 보세요.",
+    "cta_subtitle": "무료 통화를 예약하시면 저희가 무엇부터 고칠지 보여드립니다.",
     "cta_button": "시작하기",
     "posts": {
       "why-your-website-is-losing-customers": {
@@ -368,7 +368,7 @@
   },
   "services": {
     "title": "서비스",
-    "subtitle": "실질적인 비즈니스 성장을 이끄는 맞춤 웹사이트 디자인과 개발.",
+    "subtitle": "고객을 얻기 위한 맞춤 웹사이트 디자인과 개발. 런칭 후에는 호스팅하고 계속 운영해 드립니다.",
     "section_ai_title": "AI와 자동화",
     "section_creative_title": "크리에이티브와 마케팅",
     "service_1_title": "AI 에이전트 에코시스템",
@@ -405,7 +405,7 @@
     "service_5_bullet_2": "광고비와 ROAS 실시간 확인",
     "service_5_bullet_3": "주간 리포트 이메일 자동 발송",
     "service_5_bullet_4": "고객별 맞춤 KPI 위젯",
-    "service_5_bullet_5": "귀사 브랜드로 화이트라벨 제공",
+    "service_5_bullet_5": "고객사 브랜드로 화이트라벨 제공",
     "service_6_title": "웹사이트",
     "service_6_subtitle": "맞춤 제작한 전환 중심 사이트",
     "service_6_bullet_1": "Next.js / React 개발",
@@ -429,22 +429,22 @@
     "service_8_bullet_5": "경쟁사 분석",
     "service_9_title": "Meta Ads",
     "service_9_subtitle": "Facebook과 Instagram을 대규모로",
-    "service_9_bullet_1": "오디언스 및 유사 타게팅",
+    "service_9_bullet_1": "오디언스 및 유사 타겟팅",
     "service_9_bullet_2": "크리에이티브 디자인과 카피",
-    "service_9_bullet_3": "리타게팅 퍼널",
+    "service_9_bullet_3": "리타겟팅 퍼널",
     "service_9_bullet_4": "ROAS 리포팅",
     "service_9_bullet_5": "크리에이티브 A/B 테스트",
     "process_title": "진행 과정",
     "step_1_title": "디스커버리",
-    "step_1_desc": "목표, 고객층, 시장을 깊이 파악해 탄탄한 기반을 만듭니다.",
+    "step_1_desc": "디자인에 들어가기 전에 목표, 고객층, 시장부터 파악합니다.",
     "step_2_title": "전략",
-    "step_2_desc": "크리에이티브 비전과 비즈니스 목표를 일치시키는 맞춤 로드맵을 세웁니다.",
+    "step_2_desc": "서면 계획: 페이지, 일정, 그리고 하나의 가격.",
     "step_3_title": "디자인",
-    "step_3_desc": "사용자를 사로잡는 매력적인 비주얼과 직관적인 인터페이스를 만듭니다.",
+    "step_3_desc": "페이지와 흐름을 디자인한 뒤 작동하는 프로토타입을 보여드립니다.",
     "step_4_title": "개발",
-    "step_4_desc": "속도, 확장성, 안정성을 보장하는 최신 기술로 구축합니다.",
+    "step_4_desc": "Next.js로 직접 구축합니다. 지금은 빠르고, 나중에 확장하기도 쉽습니다.",
     "step_5_title": "런칭과 최적화",
-    "step_5_desc": "배포하고, 모니터링하고, 지속적으로 다듬어 성과를 극대화합니다.",
+    "step_5_desc": "런칭하고, 수치를 지켜보고, 효과 없는 부분을 고칩니다.",
     "v2_label": "서비스",
     "v2_intro": "하나의 패키지로, 제대로. 사이트를 디자인하고 개발한 뒤 호스팅하고 계속 운영해 드립니다.",
     "v2_process_label": "프로젝트 진행 방식",
@@ -457,7 +457,7 @@
   },
   "team": {
     "title": "팀 소개",
-    "subtitle": "Blok Blok Studio를 이끄는 크리에이티브 인재들을 만나보세요.",
+    "subtitle": "귀하의 사이트를 만들고 호스팅하는 다섯 사람.",
     "role_founder": "창립자",
     "role_graphic": "시니어 그래픽 디자이너",
     "role_web": "시니어 웹 디자이너",
@@ -465,12 +465,12 @@
     "v2_intro": "네 개 시간대에 있는 다섯 사람. 모두의 이름을 알 만큼 작고, 프로젝트가 아침을 기다릴 필요가 없을 만큼 넓게 퍼져 있습니다.",
     "v2_studied": "전공",
     "v2_enjoys": "일 밖에서는",
-    "v2_based": "거주지",
+    "v2_based": "거점",
     "role_marketing": "마케팅 전략가",
     "role_fullstack": "풀스택 개발자",
     "role_video": "영상 편집자",
     "role_creative": "크리에이티브 디렉터",
-    "chase_studied_1": "디자인 앤 테크놀로지",
+    "chase_studied_1": "디자인 & 테크놀로지",
     "chase_studied_2": "Parsons School of Design",
     "chase_enjoys": "미술관 · 여행 · 콘텐츠 제작",
     "kyle_studied_1": "크리에이티브 광고",
@@ -482,26 +482,26 @@
   },
   "contact": {
     "title": "문의하기",
-    "subtitle": "프로젝트를 생각하고 계신가요? 연락 주세요. 함께 특별한 것을 만들어 봅시다.",
+    "subtitle": "사이트가 해야 할 일을 알려 주세요. 영업일 기준 하루 이내에 답변드립니다.",
     "name": "이름",
     "email": "이메일",
     "company": "회사",
     "phone": "전화 / WhatsApp (선택)",
-    "message": "프로젝트에 대해 알려주세요",
+    "message": "프로젝트에 대해 알려 주세요",
     "submit": "메시지 보내기",
     "success": "감사합니다! 곧 연락드리겠습니다.",
     "info_title": "연락처 정보",
     "info_address": "베를린, 독일",
-    "consent_text": "다음 문서에 설명된 대로 개인정보를 처리하는 데 동의합니다:"
+    "consent_text": "아래 문서에 설명된 대로 개인정보를 처리하는 데 동의합니다:"
   },
   "footer": {
     "tagline": "영감을 주는 디지털 경험을 만듭니다.",
     "quick_links": "빠른 링크",
-    "connect": "연결하기",
+    "connect": "소셜",
     "newsletter_title": "최신 소식 받기",
-    "newsletter_placeholder": "이메일을 입력하세요",
+    "newsletter_placeholder": "이메일 주소 입력",
     "newsletter_button": "구독하기",
-    "newsletter_subscribed": "이메일에서 확인해 주세요!",
+    "newsletter_subscribed": "받은 편지함에서 확인해 주세요!",
     "newsletter_already_subscribed": "이미 구독 중입니다",
     "newsletter_consent": "구독하시면 <link>개인정보 처리방침</link>에 동의하는 것입니다. 언제든지 구독을 취소할 수 있습니다.",
     "back_to_top": "위로 가기",
@@ -509,161 +509,161 @@
     "legal": "법적 정보"
   },
   "gdpr": {
-    "consent_label": "동의합니다",
-    "privacy_policy": "개인정보 보호정책",
-    "terms": "이용 약관",
+    "consent_label": "다음에 동의합니다:",
+    "privacy_policy": "개인정보 처리방침",
+    "terms": "이용약관",
     "and": "및",
-    "consent_required": "계속하려면 개인정보 보호정책과 이용 약관에 동의해야 합니다",
-    "cookie_banner_text": "저희는 귀하의 경험을 향상시키기 위해 필수 쿠키를 사용합니다. 자세한 내용은 다음을 참조하세요",
+    "consent_required": "계속하려면 개인정보 처리방침과 이용약관에 동의해야 합니다",
+    "cookie_banner_text": "웹사이트 작동에 필요한 필수 쿠키를 사용합니다. 자세한 내용은 다음에서 확인하세요:",
     "cookie_policy": "쿠키 정책",
     "accept": "수락",
     "decline": "거부",
     "reject_all": "모두 거부",
     "accept_all": "모두 동의",
-    "manage_preferences": "기본 설정 관리",
-    "preferences_title": "쿠키 환경설정",
+    "manage_preferences": "설정 관리",
+    "preferences_title": "쿠키 설정",
     "essential_title": "필수",
     "essential_desc": "웹사이트 작동에 필요합니다. 비활성화할 수 없습니다.",
     "analytics_title": "분석",
-    "analytics_desc": "방문자가 웹사이트와 어떻게 상호작용하는지 이해하는 데 도움이 됩니다.",
+    "analytics_desc": "방문자가 웹사이트를 어떻게 이용하는지 이해하는 데 도움이 됩니다.",
     "marketing_title": "마케팅",
     "marketing_desc": "관련 광고를 제공하고 캠페인을 추적하는 데 사용됩니다.",
     "back": "뒤로",
-    "save_preferences": "환경설정 저장",
+    "save_preferences": "설정 저장",
     "data_rights_title": "데이터 권리",
-    "data_rights_subtitle": "GDPR에 따라 귀하는 당사 시스템에서 개인 데이터에 액세스하거나 내보내거나 영구적으로 삭제할 권리가 있습니다.",
+    "data_rights_subtitle": "GDPR에 따라 귀하는 당사 시스템에 있는 귀하의 개인정보에 접근하거나, 내보내거나, 영구적으로 삭제할 권리가 있습니다.",
     "data_rights_description": "GDPR 데이터 권리 행사",
     "your_email": "이메일 주소",
     "request_type": "무엇을 원하시나요?",
     "export_data": "내 데이터 내보내기",
-    "export_description": "당사가 보유한 모든 개인 데이터를 JSON 형식으로 다운로드",
+    "export_description": "당사가 보유한 귀하의 모든 개인정보를 JSON 형식으로 다운로드합니다",
     "delete_data": "내 데이터 삭제",
-    "delete_description": "당사 시스템에서 모든 개인 데이터를 영구적으로 제거합니다. 이 작업은 되돌릴 수 없습니다.",
+    "delete_description": "당사 시스템에서 귀하의 모든 개인정보를 영구적으로 삭제합니다. 이 작업은 되돌릴 수 없습니다.",
     "submit_request": "요청 제출",
     "processing": "처리 중...",
-    "request_sent_message": "이메일로 확인 링크를 보내드렸습니다. 받은 편지함을 확인하고 링크를 클릭하여 요청을 확인하세요. 링크는 15분 후에 만료됩니다.",
-    "request_error": "문제가 발생했습니다. 나중에 다시 시도하세요.",
+    "request_sent_message": "이메일로 확인 링크를 보내드렸습니다. 받은 편지함을 확인하고 링크를 클릭해 요청을 확인해 주세요. 링크는 15분 후에 만료됩니다.",
+    "request_error": "문제가 발생했습니다. 잠시 후 다시 시도해 주세요.",
     "check_email_title": "이메일 확인",
     "data_deleted_title": "데이터 삭제됨",
-    "data_deleted_message": "모든 개인 데이터가 당사 시스템에서 영구적으로 제거되었습니다.",
-    "token_expired": "이 확인 링크가 만료되었습니다. 새 요청을 제출하세요."
+    "data_deleted_message": "귀하의 모든 개인정보가 당사 시스템에서 영구적으로 삭제되었습니다.",
+    "token_expired": "이 확인 링크는 만료되었습니다. 새 요청을 제출해 주세요."
   },
   "unsubscribe": {
     "processing": "요청을 처리하는 중...",
     "success_title": "구독 취소됨",
-    "success_message": "이메일 목록에서 성공적으로 제거되었습니다.",
+    "success_message": "이메일 목록에서 정상적으로 제거되었습니다.",
     "error_title": "문제가 발생했습니다",
-    "error_message": "요청을 처리할 수 없습니다. 링크가 유효하지 않거나 만료되었을 수 있습니다. blokblokstudio.com/contact으로 문의하세요.",
+    "error_message": "요청을 처리할 수 없습니다. 링크가 유효하지 않거나 만료되었을 수 있습니다. 도움이 필요하시면 blokblokstudio.com/contact로 문의해 주세요.",
     "back_home": "홈으로 돌아가기",
     "meta_title": "구독 취소",
     "meta_description": "이메일 수신을 취소합니다."
   },
   "privacy": {
-    "title": "개인정보 보호정책",
-    "description": "Blok Blok Studio가 개인 데이터를 수집, 사용 및 보호하는 방법",
-    "last_updated": "최종 업데이트: July 16, 2026",
+    "title": "개인정보 처리방침",
+    "description": "Blok Blok Studio가 귀하의 개인정보를 수집, 이용, 보호하는 방법",
+    "last_updated": "최종 업데이트: 2026년 7월 16일",
     "intro_title": "소개",
-    "intro_content": "Blok Blok Studio에서는 귀하의 개인정보를 진지하게 다룹니다. 이 개인정보 보호정책은 귀하가 당사 웹사이트를 방문하거나 서비스를 이용할 때 당사가 귀하의 정보를 수집, 사용, 공개 및 보호하는 방법을 설명합니다.",
+    "intro_content": "Blok Blok Studio는 귀하의 개인정보를 소중하게 다룹니다. 본 개인정보 처리방침은 귀하가 당사 웹사이트를 방문하거나 서비스를 이용할 때 당사가 귀하의 정보를 수집, 이용, 공개, 보호하는 방법을 설명합니다.",
     "data_collection_title": "수집하는 데이터",
-    "data_collection_intro": "당사는 귀하가 당사 웹사이트의 양식을 작성할 때 직접 제공하는 정보를 수집합니다:",
+    "data_collection_intro": "당사는 귀하가 당사 웹사이트의 양식을 작성할 때 직접 제공하는 다음 정보를 수집합니다:",
     "data_item_name": "이름",
     "data_item_email": "이메일 주소",
-    "data_item_industry": "업계/직종",
-    "data_item_website": "웹사이트 URL(선택 사항)",
-    "data_item_problem": "프로젝트 세부 정보 및 과제",
+    "data_item_industry": "업종 / 직무 분야",
+    "data_item_website": "웹사이트 URL (선택 사항)",
+    "data_item_problem": "프로젝트 세부 정보와 당면 과제",
     "data_item_budget": "예산 범위와 희망 일정 (문의 폼에서 알려주신 경우)",
     "data_item_marketing_consent": "선택 사항인 마케팅 이메일 수신 동의란에 체크했는지 여부와 확인 시점",
-    "data_item_ip": "IP 주소(동의 확인 목적만)",
+    "data_item_ip": "IP 주소 (동의 확인 목적에 한함)",
     "data_use_title": "데이터 사용 방법",
     "data_use_intro": "당사는 수집한 정보를 다음 용도로 사용합니다:",
-    "use_item_respond": "귀하의 문의에 응답하고 요청된 서비스 제공",
-    "use_item_marketing": "마케팅 커뮤니케이션 발송(명시적 동의가 있는 경우에만)",
+    "use_item_respond": "귀하의 문의에 응답하고 요청하신 서비스를 제공",
+    "use_item_marketing": "마케팅 커뮤니케이션 발송 (귀하의 명시적 동의가 있는 경우에 한함)",
     "use_item_improve": "당사 웹사이트 및 서비스 개선",
     "use_item_legal": "법적 의무 준수",
     "third_parties_title": "제3자 서비스",
-    "third_parties_intro": "당사는 다음 제3자 서비스를 사용하여 비즈니스를 운영합니다:",
-    "third_party_resend": "Resend: 이메일 커뮤니케이션 발송용",
-    "third_parties_note": "이러한 서비스는 기능에 필요한 최소한의 데이터만 받습니다.",
+    "third_parties_intro": "당사는 사업 운영을 위해 다음 제3자 서비스를 이용합니다:",
+    "third_party_resend": "Resend: 이메일 커뮤니케이션 발송",
+    "third_parties_note": "이러한 서비스는 각 기능에 필요한 최소한의 데이터만 받습니다.",
     "retention_title": "데이터 보존",
-    "retention_content": "당사는 서비스 제공 및 비즈니스 관계 유지에 필요한 기간 동안 귀하의 개인 데이터를 보존합니다. 데이터 권리 페이지에서 언제든지 데이터 삭제를 요청할 수 있습니다.",
-    "your_rights_title": "귀하의 권리(GDPR)",
-    "your_rights_intro": "일반 데이터 보호 규정에 따라 귀하에게는 다음과 같은 권리가 있습니다:",
-    "right_access": "액세스: 당사가 보유한 모든 개인 데이터 사본 요청",
-    "right_correct": "정정: 부정확한 데이터 수정 요청",
-    "right_delete": "삭제: 데이터의 영구적 삭제 요청",
-    "right_object": "이의 제기: 데이터 처리에 대한 이의 제기",
-    "right_export": "이동성: 기계 판독 가능한 형식으로 데이터 내보내기",
+    "retention_content": "당사는 서비스 제공과 거래 관계 유지에 필요한 기간 동안 귀하의 개인정보를 보유합니다. 데이터 권리 페이지에서 언제든지 데이터 삭제를 요청하실 수 있습니다.",
+    "your_rights_title": "귀하의 권리 (GDPR)",
+    "your_rights_intro": "일반 개인정보 보호 규정(GDPR)에 따라 귀하에게는 다음과 같은 권리가 있습니다:",
+    "right_access": "열람: 당사가 보유한 귀하의 모든 개인정보 사본 요청",
+    "right_correct": "정정: 부정확한 데이터의 수정 요청",
+    "right_delete": "삭제: 귀하의 데이터에 대한 영구 삭제 요청",
+    "right_object": "이의 제기: 귀하의 데이터 처리에 대한 이의 제기",
+    "right_export": "이동권: 기계 판독이 가능한 형식으로 데이터 내보내기",
     "right_withdraw": "동의 철회: 언제든지 동의 철회",
-    "your_rights_cta": "다음에서 귀하의 권리를 행사하세요",
+    "your_rights_cta": "권리 행사는 다음 페이지에서 할 수 있습니다:",
     "your_rights_link": "데이터 권리 페이지",
     "contact_title": "문의하기",
-    "contact_content": "이 개인정보 보호정책 또는 당사의 데이터 처리 방법에 대해 질문이 있는 경우 다음으로 문의하세요:",
+    "contact_content": "본 개인정보 처리방침이나 당사의 데이터 처리 방식에 대해 궁금한 점이 있으시면 다음으로 문의해 주세요:",
     "data_item_phone": "전화번호",
-    "third_party_pixels": "광고 픽셀(Meta, Google)은 동의 배너에서 마케팅 쿠키를 명시적으로 수락하신 경우에만 로드됩니다. 그렇지 않으면 추적 쿠키나 분석 서비스를 사용하지 않습니다.",
+    "third_party_pixels": "광고 픽셀(Meta, Google)은 귀하가 동의 배너에서 마케팅 쿠키를 명시적으로 수락한 경우에만 로드됩니다. 그렇지 않으면 추적 쿠키나 분석 서비스를 사용하지 않습니다.",
     "legal_basis_title": "처리의 법적 근거",
     "legal_basis_intro": "GDPR 제6조에 따라 당사는 다음과 같은 법적 근거에 기반하여 귀하의 개인정보를 처리합니다:",
-    "legal_basis_consent": "동의 (제6조 제1항 (a)): 뉴스레터를 구독하거나 명시적 동의와 함께 문의 폼을 제출하는 경우",
-    "legal_basis_contract": "계약 이행의 필요성 (제6조 제1항 (b)): 귀하와의 서비스 계약을 이행하기 위해 처리가 필요한 경우",
-    "legal_basis_interest": "정당한 이익 (제6조 제1항 (f)): 내부 분석, 서비스 개선, 웹사이트 보안 보호를 위한 경우",
+    "legal_basis_consent": "동의 (제6조 제1항 (a)호): 뉴스레터를 구독하거나 명시적 동의와 함께 문의 양식을 제출하는 경우",
+    "legal_basis_contract": "계약 이행의 필요성 (제6조 제1항 (b)호): 귀하와의 서비스 계약을 이행하기 위해 처리가 필요한 경우",
+    "legal_basis_interest": "정당한 이익 (제6조 제1항 (f)호): 내부 분석, 서비스 개선, 웹사이트 보안 보호를 위한 경우",
     "legal_basis_withdraw": "귀하는 언제든지 동의를 철회할 수 있으며, 철회 이전에 이루어진 처리의 적법성에는 영향을 미치지 않습니다.",
     "transfers_title": "국외 데이터 이전",
-    "transfers_intro": "일부 제3자 서비스 제공업체는 유럽경제지역(EEA) 밖에서 귀하의 데이터를 처리할 수 있습니다. 이 경우 당사는 적절한 보호 조치가 마련되어 있는지 확인합니다:",
-    "transfers_vercel": "Vercel: 당사의 호스팅 제공업체로, 미국에서 데이터를 처리할 수 있습니다. Vercel은 관련 데이터 보호 프레임워크를 준수합니다.",
-    "transfers_resend": "Resend: 당사의 이메일 발송 제공업체로, 미국에서 데이터를 처리할 수 있습니다. 이전은 표준계약조항(SCC)에 따라 보호됩니다.",
+    "transfers_intro": "당사의 일부 제3자 서비스 제공업체는 유럽경제지역(EEA) 밖에서 귀하의 데이터를 처리할 수 있습니다. 이 경우 당사는 적절한 보호 조치가 마련되어 있는지 확인합니다:",
+    "transfers_vercel": "Vercel: 당사의 호스팅 제공업체로, 미국에서 데이터를 처리할 수 있습니다. Vercel은 적용 가능한 데이터 보호 프레임워크를 준수합니다.",
+    "transfers_resend": "Resend: 당사의 이메일 발송 제공업체로, 미국에서 데이터를 처리할 수 있습니다. 데이터 이전은 표준계약조항(SCC)에 따라 보호됩니다.",
     "transfers_note": "당사는 적절한 수준의 보호를 제공하거나 적절한 보호 조치(SCC 또는 구속력 있는 기업 규칙 등)가 마련된 국가 또는 조직에만 데이터를 이전합니다.",
     "authority_title": "감독 기관",
-    "authority_content": "당사의 개인정보 처리가 GDPR을 위반한다고 판단하시는 경우, 귀하의 상거주지, 근무지 또는 위반 발생지가 속한 EU 회원국의 감독 기관에 민원을 제기할 권리가 있습니다. 먼저 당사에 연락해 주시면 문제를 직접 해결하도록 노력하겠습니다.",
+    "authority_content": "당사의 개인정보 처리가 GDPR을 위반한다고 판단하시는 경우, 귀하의 상거주지, 근무지 또는 위반 발생지가 속한 EU 회원국의 감독 기관에 민원을 제기할 권리가 있습니다. 먼저 당사에 연락해 주시면 문제를 직접 해결할 수 있도록 노력하겠습니다.",
     "third_party_vercel": "Vercel: 웹사이트 및 애플리케이션 호스팅 (미국; 데이터 보호 프레임워크 및 SCC 적용)",
     "third_party_slack": "Slack: 새 문의에 대한 팀 내부 알림 (이름, 이메일, 전화번호, 업종으로 제한)",
-    "third_party_turnstile": "Cloudflare Turnstile: 폼 스팸 방지 (귀하의 IP 주소 처리)",
-    "third_party_cal": "Cal.com: 당사와 통화를 예약할 때 사용하는 일정 예약 서비스",
-    "third_party_meta": "Meta (Facebook/Instagram): 광고 성과 측정, 마케팅 쿠키에 동의하신 경우에만 해당. 동의하신 경우 광고 전환 측정을 위해 귀하의 이메일 주소와 전화번호를 해시 처리(가명화)된 형태로 전송할 수도 있습니다.",
-    "third_party_google": "Google: 광고 성과 측정 (Google Ads), 마케팅 쿠키에 동의하신 경우에만 해당",
-    "marketing_double_optin": "마케팅 이메일은 더블 옵트인 방식을 사용합니다. 폼의 선택란에 체크하는 것만으로는 충분하지 않습니다. 당사가 확인 이메일을 보내고, 그 안의 링크를 클릭하셔야 목록에 추가됩니다. 그 전까지는 마케팅 메일을 보내지 않습니다. 모든 이메일에 있는 구독 취소 링크로 언제든 철회할 수 있으며, 즉시 적용됩니다."
+    "third_party_turnstile": "Cloudflare Turnstile: 양식 스팸 방지 (귀하의 IP 주소 처리)",
+    "third_party_cal": "Google Calendar: 당사와 통화를 예약하실 때 사용하는 일정 예약 서비스",
+    "third_party_meta": "Meta (Facebook/Instagram): 광고 성과 측정, 귀하가 마케팅 쿠키에 동의한 경우에 한함. 동의하신 경우 광고 전환 측정을 위해 귀하의 이메일 주소와 전화번호를 해시 처리(가명화)된 형태로 전송할 수도 있습니다.",
+    "third_party_google": "Google: 광고 성과 측정 (Google Ads), 귀하가 마케팅 쿠키에 동의한 경우에 한함",
+    "marketing_double_optin": "마케팅 이메일은 이중 동의(더블 옵트인) 방식을 사용합니다. 양식의 선택란에 체크하는 것만으로는 충분하지 않습니다. 당사가 확인 이메일을 보내고, 그 안의 링크를 클릭하셔야 목록에 추가됩니다. 그 전까지는 마케팅 이메일을 보내지 않습니다. 모든 이메일에 있는 구독 취소 링크로 언제든 철회할 수 있으며, 즉시 적용됩니다."
   },
   "terms": {
-    "title": "이용 약관",
-    "description": "Blok Blok Studio 서비스 사용에 대한 이용 약관",
-    "last_updated": "최종 업데이트: July 16, 2026",
+    "title": "이용약관",
+    "description": "Blok Blok Studio 서비스 이용에 관한 약관",
+    "last_updated": "최종 업데이트: 2026년 7월 16일",
     "acceptance_title": "약관 동의",
-    "acceptance_content": "이 웹사이트에 액세스하고 사용함으로써 귀하는 이 이용 약관에 구속되는 것을 수락하고 동의합니다. 이 약관에 동의하지 않는 경우 당사 웹사이트나 서비스를 사용하지 마십시오.",
+    "acceptance_content": "본 웹사이트에 접속하고 이용함으로써 귀하는 본 이용약관에 구속되는 데 동의합니다. 본 약관에 동의하지 않으시는 경우 당사 웹사이트나 서비스를 이용하지 마십시오.",
     "services_title": "서비스",
-    "services_content": "Blok Blok Studio는 디지털 디자인, 개발 및 마케팅 서비스를 제공합니다. 구체적인 프로젝트 조건, 결과물 및 가격은 개별 계약 및 제안서에 명시되어 있습니다.",
+    "services_content": "Blok Blok Studio는 디지털 디자인, 개발, 마케팅 서비스를 제공합니다. 구체적인 프로젝트 조건, 결과물, 가격은 개별 계약서와 제안서에 명시됩니다.",
     "user_responsibilities_title": "사용자 책임",
-    "user_responsibilities_content": "귀하는 당사 양식 및 서비스를 사용할 때 정확한 정보를 제공하고, 당사 웹사이트 및 서비스를 합법적으로 이 약관에 따라 사용하는 데 동의합니다.",
+    "user_responsibilities_content": "귀하는 당사의 양식과 서비스를 이용할 때 정확한 정보를 제공하고, 당사 웹사이트와 서비스를 적법하게 본 약관에 따라 이용하는 데 동의합니다.",
     "ip_title": "지적 재산권",
-    "ip_content": "이 웹사이트의 모든 콘텐츠(디자인, 텍스트, 그래픽 및 코드 포함)는 별도로 명시되지 않는 한 Blok Blok Studio가 소유합니다. 클라이언트 작업 소유권은 개별 프로젝트 계약에 정의되어 있습니다.",
+    "ip_content": "본 웹사이트의 모든 콘텐츠(디자인, 텍스트, 그래픽, 코드 포함)는 별도로 명시되지 않는 한 Blok Blok Studio의 소유입니다. 고객 작업물의 소유권은 개별 프로젝트 계약에서 정합니다.",
     "liability_title": "책임 제한",
-    "liability_content": "Blok Blok Studio는 당사 웹사이트 또는 서비스 사용으로 인해 발생하는 간접적, 우발적 또는 결과적 손해에 대해 책임을 지지 않습니다. 당사의 총 책임은 해당 서비스에 대해 지불된 금액을 초과하지 않습니다.",
+    "liability_content": "Blok Blok Studio는 당사 웹사이트 또는 서비스 이용으로 인해 발생하는 간접적, 부수적 또는 결과적 손해에 대해 책임을 지지 않습니다. 당사의 총 책임은 해당 서비스에 대해 지불된 금액을 초과하지 않습니다.",
     "governing_law_title": "준거법",
-    "governing_law_content": "이 약관은 해당 법률에 의해 규율되고 해석됩니다. 모든 분쟁은 공식적인 법적 조치를 취하기 전에 선의의 협상을 통해 해결되어야 합니다.",
+    "governing_law_content": "본 약관은 적용 가능한 법률에 따라 규율되고 해석됩니다. 모든 분쟁은 공식적인 법적 조치에 앞서 선의의 협상을 통해 해결합니다.",
     "changes_title": "약관 변경",
-    "changes_content": "당사는 언제든지 이 약관을 수정할 권리를 보유합니다. 변경 사항은 업데이트된 날짜와 함께 이 페이지에 게시됩니다. 변경 후 당사 웹사이트를 계속 사용하는 것은 수정된 약관에 대한 수락을 의미합니다.",
+    "changes_content": "당사는 언제든지 본 약관을 수정할 권리를 보유합니다. 변경 사항은 업데이트된 날짜와 함께 본 페이지에 게시됩니다. 변경 후에도 당사 웹사이트를 계속 이용하시면 수정된 약관에 동의한 것으로 간주합니다.",
     "dispute_title": "분쟁 해결",
     "dispute_intro": "본 약관과 관련하여 분쟁이 발생하는 경우, 먼저 당사에 연락하여 원만한 해결을 모색해 주시기 바랍니다. 비공식적으로 해결되지 않을 경우 다음 절차가 적용됩니다:",
     "dispute_informal": "비공식 해결: hello@blokblokstudio.com으로 연락해 주세요. 30일 이내에 해결하도록 노력하겠습니다.",
     "dispute_formal": "공식 절차: 비공식 해결에 실패할 경우, 분쟁은 독일의 관할 법원을 통해 해결됩니다.",
-    "dispute_eu": "EU 소비자: EU 내 소비자이신 경우 유럽위원회의 온라인 분쟁 해결 플랫폼도 이용하실 수 있습니다.",
+    "dispute_eu": "EU 소비자: EU 내 소비자이신 경우 유럽연합 집행위원회의 온라인 분쟁 해결 플랫폼도 이용하실 수 있습니다.",
     "severability_title": "분리 가능성",
-    "severability_content": "본 이용 약관의 조항 중 일부가 관할 법원에 의해 무효, 위법 또는 집행 불가능한 것으로 판단되더라도 나머지 조항은 계속 완전한 효력을 유지합니다. 무효이거나 집행 불가능한 조항은 당사자들의 원래 의도를 유지하면서 유효하고 집행 가능하도록 필요한 최소한의 범위 내에서 수정됩니다.",
-    "changes_contact": "본 이용 약관에 대해 궁금한 점이 있으시면 다음으로 문의해 주세요:"
+    "severability_content": "본 이용약관의 일부 조항이 관할 법원에 의해 무효, 위법 또는 집행 불가능한 것으로 판단되더라도 나머지 조항은 계속 완전한 효력을 유지합니다. 무효이거나 집행 불가능한 조항은 당사자들의 원래 의도를 유지하면서 유효하고 집행 가능하도록 필요한 최소한의 범위에서 수정됩니다.",
+    "changes_contact": "본 이용약관에 대해 궁금한 점이 있으시면 다음으로 문의해 주세요:"
   },
   "cookies": {
     "title": "쿠키 정책",
     "description": "Blok Blok Studio가 쿠키 및 유사 기술을 사용하는 방법",
-    "last_updated": "최종 업데이트: July 16, 2026",
-    "intro_title": "쿠키란 무엇인가",
-    "intro_content": "쿠키는 웹사이트를 방문할 때 기기에 저장되는 작은 텍스트 파일입니다. 쿠키는 웹사이트가 귀하의 기본 설정을 기억하고 브라우징 경험을 향상시키는 데 도움이 됩니다.",
+    "last_updated": "최종 업데이트: 2026년 7월 16일",
+    "intro_title": "쿠키란 무엇인가요",
+    "intro_content": "쿠키는 웹사이트를 방문할 때 기기에 저장되는 작은 텍스트 파일입니다. 웹사이트가 귀하의 설정을 기억하고 브라우징 경험을 개선하는 데 도움이 됩니다.",
     "our_use_title": "당사의 쿠키 사용",
-    "our_use_content": "저희는 프라이버시를 최우선으로 합니다. 기본적으로 쿠키 동의 설정을 기억하기 위해 localStorage(브라우저 저장 메커니즘)만 사용합니다. 선택적 광고 픽셀은 마케팅 쿠키에 동의한 경우에만 로드됩니다.",
+    "our_use_content": "당사는 프라이버시를 최우선으로 합니다. 작은 필수 쿠키 두 개만 설정하는데, 하나는 언어를, 다른 하나는 가격을 올바른 통화로 표시하기 위한 국가를 기억합니다. 또한 쿠키 동의 설정을 기억하기 위해 localStorage(브라우저 저장 메커니즘)를 사용합니다. 선택적 광고 픽셀은 마케팅 쿠키에 동의한 경우에만 로드됩니다.",
     "third_party_title": "제3자 쿠키",
-    "third_party_content": "마케팅 쿠키에 동의하시면 광고 캠페인 성과 측정을 위해 Meta(Facebook) 및 Google 광고 픽셀을 로드합니다. 거부하시면 사이트 방문 시 서드파티 쿠키가 설정되지 않습니다.",
+    "third_party_content": "마케팅 쿠키에 동의하시면 광고 캠페인 성과 측정을 위해 Meta(Facebook)와 Google 광고 픽셀을 로드합니다. 거부하시면 당사 웹사이트 방문 시 제3자 쿠키가 설정되지 않습니다.",
     "control_title": "쿠키 관리",
-    "control_content": "브라우저 설정을 통해 쿠키를 제어할 수 있습니다. 대부분의 브라우저에서는 쿠키를 차단하거나 삭제할 수 있습니다. localStorage를 지우면 쿠키 동의 기본 설정이 재설정됩니다.",
+    "control_content": "브라우저 설정에서 쿠키를 제어할 수 있습니다. 대부분의 브라우저는 쿠키 차단이나 삭제를 지원합니다. localStorage를 지우면 쿠키 동의 설정이 초기화됩니다.",
     "updates_title": "정책 업데이트",
-    "updates_content": "향후 분석 또는 추적 기술을 사용하기 시작하는 경우 이 정책을 업데이트하고 추적이 발생하기 전에 쿠키 동의 배너를 통해 알려드립니다.",
+    "updates_content": "향후 분석 또는 추적 기술을 사용하게 되는 경우, 본 정책을 업데이트하고 추적이 시작되기 전에 쿠키 동의 배너를 통해 알려드립니다.",
     "storage_title": "쿠키 및 저장소 상세 정보",
-    "storage_intro": "아래는 이 웹사이트에서 사용하는 쿠키와 로컬 저장소 항목의 전체 목록입니다:",
+    "storage_intro": "아래는 본 웹사이트에서 사용하는 쿠키와 로컬 저장소 항목의 전체 목록입니다:",
     "table_name": "이름",
     "table_type": "유형",
     "table_purpose": "목적",
@@ -675,13 +675,13 @@
     "cat_essential": "필수",
     "dur_persistent": "영구",
     "dur_30d": "30일",
-    "storage_note": "쿠키 배너를 통해 언제든지 쿠키 설정을 관리할 수 있습니다. 설정을 초기화하려면 브라우저의 localStorage를 삭제하세요."
+    "storage_note": "쿠키 배너에서 언제든지 쿠키 설정을 관리할 수 있습니다. 설정을 초기화하려면 브라우저의 localStorage를 삭제하세요."
   },
   "start": {
     "headline_a": "비즈니스가 조용히 고객을 잃고 있는 지점",
     "headline_b": " (그리고 해결 방법)",
-    "sub": "다섯 가지 간단한 질문에 답해 주시면 무엇부터 고쳐야 할지 알려드립니다. 그다음 시간을 선택하시면 됩니다. 약 1분 걸립니다.",
-    "proof": "베를린의 웹 디자인 스튜디오. Coach Kofi는 런칭 후 상담 문의가 200% 늘었습니다. 개업 첫해 배관업체는 5개월 만에 5만 달러 매출을 올렸습니다.",
+    "sub": "다섯 가지 간단한 질문에 답해 주시면 무엇부터 고쳐야 할지 보여드립니다. 그다음 시간을 고르시면 됩니다. 약 1분 걸립니다.",
+    "proof": "베를린의 웹 디자인 스튜디오. Coach Kofi는 런칭 후 상담 문의가 200% 늘었습니다. 개업 첫해인 배관업체 고객은 5개월 만에 총매출 $50,000을 넘겼습니다.",
     "progress": "질문 {current} / {total}",
     "continue": "계속",
     "back": "뒤로",
@@ -693,13 +693,13 @@
     "q_budget_project": "이 프로젝트의 예산은 어느 정도인가요?",
     "q_budget_project_sub": "대략적인 금액이면 충분합니다. 무엇을 제안할지 판단하는 데만 씁니다.",
     "q_budget_ads": "매월 광고에 얼마를 쓰실 수 있나요?",
-    "q_budget_ads_sub": "광고비만 알려주세요. 저희 운영비는 그 금액의 15%이며 초기 세팅비가 별도입니다. 대략이면 됩니다.",
+    "q_budget_ads_sub": "광고비만 알려 주세요. 저희 운영비는 그 금액의 15%이며, 초기 세팅비가 별도로 있습니다. 대략이면 됩니다.",
     "q_budget_monthly": "월 예산은 어느 정도인가요?",
     "q_budget_monthly_sub": "매월 투입하실 대략적인 금액입니다. 어림잡아 주셔도 됩니다.",
     "q_timeline": "언제 시작하고 싶으신가요?",
     "q_contact": "마지막 단계입니다. 어떻게 연락드릴까요?",
-    "q_contact_sub": "그다음 시간을 선택하시면 됩니다. 업무 시간에는 한 시간 이내에 답변드립니다.",
-    "label_name": "성함",
+    "q_contact_sub": "그다음 시간을 고르시면 됩니다. 업무 시간에는 한 시간 이내에 답변드립니다.",
+    "label_name": "이름",
     "label_email": "이메일 주소",
     "label_phone": "전화 / WhatsApp",
     "label_phone_note": "(선택, 더 빠른 답변을 위해)",
@@ -707,10 +707,10 @@
     "placeholder_name": "홍길동",
     "placeholder_email": "hong@company.co.kr",
     "placeholder_phone": "10 1234 5678",
-    "well_call": "{number} 번으로 연락드리겠습니다",
-    "consent_pre": "",
+    "well_call": "{number}번으로 연락드리겠습니다",
+    "consent_pre": "본인은",
     "consent_link": "개인정보 처리방침",
-    "consent_post": "에 동의하며, 문의 관련 연락을 받는 데 동의합니다.",
+    "consent_post": "내용에 따른 개인정보 처리와 문의 관련 연락 수신에 동의합니다.",
     "optional": "(선택)",
     "cta": "상담 예약하기",
     "sending": "전송 중...",
@@ -745,7 +745,7 @@
       "google_ads": "Google Ads",
       "meta_ads": "Meta Ads",
       "social_media": "소셜 미디어",
-      "not_sure_yet": "아직 모르겠음"
+      "not_sure_yet": "아직 잘 모르겠음"
     },
     "timeline": {
       "0": {
@@ -762,7 +762,7 @@
       },
       "3": {
         "label": "둘러보는 중",
-        "hint": "선택지를 살펴보는 중"
+        "hint": "어떤 선택지가 있는지 살펴보는 중"
       }
     },
     "budget_build": {
@@ -846,15 +846,15 @@
   },
   "errors": {
     "title": "문제가 발생했습니다",
-    "message": "예기치 않은 오류가 발생했습니다. 다시 시도하거나 문제가 지속되면 문의해 주세요.",
+    "message": "예기치 않은 오류가 발생했습니다. 다시 시도하시거나, 문제가 계속되면 문의해 주세요.",
     "try_again": "다시 시도",
     "back_home": "홈으로 돌아가기",
     "not_found_title": "페이지를 찾을 수 없습니다",
-    "not_found_message": "찾으시는 페이지가 존재하지 않거나 이동되었습니다. 다시 제 자리로 안내해 드릴게요.",
+    "not_found_message": "찾으시는 페이지가 존재하지 않거나 이동되었습니다. 다시 제자리로 안내해 드리겠습니다.",
     "contact_us": "문의하기"
   },
   "accessibility": {
-    "title": "접근성 안내",
+    "title": "접근성 안내문",
     "last_updated": "최종 업데이트: {date}",
     "commitment_title": "당사의 약속",
     "commitment_content": "Blok Blok Studio는 장애가 있는 분들을 위한 디지털 접근성 보장에 최선을 다합니다. 당사는 모든 사용자의 경험을 지속적으로 개선하고 있으며, 당사 웹사이트와 고객을 위해 제작하는 웹사이트 전반에 관련 접근성 표준을 적용하고 있습니다.",
@@ -865,51 +865,51 @@
     "standard_wcag": "<strong>WCAG 2.2 AA 수준</strong>, W3C가 관리하는 웹 접근성의 국제 기준.",
     "standard_en301549": "<strong>EN 301 549</strong>, 유럽 접근성법의 바탕이 되는 ICT 접근성에 관한 유럽 조화 표준.",
     "standard_eaa": "<strong>EU 유럽 접근성법 (지침 2019/882)</strong>, 2025년 6월 28일부터 EU 내 소비자 대상 디지털 서비스에 적용.",
-    "standard_ada": "<strong>미국 장애인법 (ADA) 제3편</strong>, 미국 내 공개 상업 웹사이트의 접근성 의무.",
+    "standard_ada": "<strong>미국 장애인법(ADA) 제3편</strong>, 미국 내 일반 공개 상업 웹사이트의 접근성 의무.",
     "standard_508": "<strong>미국 재활법 제508조</strong>, 연방 기관과 계약업체에 대한 요건으로, 당사는 연방 관련 작업의 기준선으로 삼습니다.",
     "measures_title": "당사가 취하는 조치",
-    "measures_intro": "접근성은 일회성 감사가 아니라 당사가 디자인하고 개발하는 방식의 일부입니다. 구체적으로 이 사이트에서는:",
+    "measures_intro": "접근성은 일회성 감사가 아니라 당사가 디자인하고 개발하는 방식의 일부입니다. 구체적으로 이 사이트에서는 다음을 적용하고 있습니다:",
     "measure_landmarks": "모든 페이지에 시맨틱 HTML 랜드마크(<code>main</code>, <code>nav</code>, <code>header</code>, <code>footer</code>)를 적용합니다.",
     "measure_skip_link": "키보드 사용자를 위한 “본문으로 건너뛰기” 링크를 제공합니다.",
     "measure_focus": "모든 인터랙티브 요소에 눈에 보이는 포커스 표시를 적용합니다.",
     "measure_alt_text": "의미 있는 모든 이미지에 대체 텍스트를 제공합니다.",
-    "measure_forms": "폼에는 연결된 레이블, 필수 항목 안내, 그리고 <code>aria-describedby</code>와 <code>role=“alert”</code>로 노출되는 인라인 오류 메시지가 있습니다.",
+    "measure_forms": "폼에는 연결된 레이블, 필수 항목 안내, 그리고 <code>aria-describedby</code>와 <code>role=“alert”</code>로 노출되는 인라인 오류 메시지를 적용합니다.",
     "measure_dialogs": "모바일 메뉴와 모달 대화상자에 키보드 포커스 관리와 Escape 키로 닫기 동작을 적용합니다.",
     "measure_reduced_motion": "운영 체제의 <code>prefers-reduced-motion</code> 설정을 존중합니다.",
     "measure_contrast": "WCAG AA 이상의 색상 대비(본문 텍스트 4.5:1)를 유지합니다.",
-    "measure_rtl": "아랍어를 위한 오른쪽에서 왼쪽 레이아웃, 그리고 각 옵션을 해당 언어와 방향으로 안내하는 언어 전환기를 제공합니다.",
-    "measure_languages": "19개 언어로 제공되어 영어를 쓰지 않는 분들도 자신이 생각하는 언어로 사이트를 이용할 수 있습니다.",
+    "measure_rtl": "아랍어를 위한 오른쪽에서 왼쪽(RTL) 레이아웃, 그리고 각 옵션을 해당 언어와 방향으로 안내하는 언어 전환기를 제공합니다.",
+    "measure_languages": "20개 언어로 제공되어 영어를 쓰지 않는 분들도 자신에게 익숙한 언어로 사이트를 이용할 수 있습니다.",
     "limitations_title": "알려진 제한 사항",
     "limitations_intro": "최선을 다하고 있지만, 이 사이트의 일부 콘텐츠는 아직 완전히 접근 가능하지 않을 수 있습니다. 해결을 위해 노력 중인 알려진 문제는 다음과 같습니다:",
-    "limitation_third_party": "<strong>내장된 제3자 콘텐츠</strong>, Cloudflare Turnstile CAPTCHA와 Cal.com 예약 iframe은 해당 제공업체의 접근성 동작을 그대로 따릅니다. 당사는 각 제공업체의 준수 현황을 추적하고 있습니다.",
-    "limitation_motion": "<strong>장식용 모션</strong>, <code>prefers-reduced-motion</code>이 설정되면 배경 애니메이션은 비활성화되지만, 커서를 따라 움직이는 소수의 마이크로 인터랙션은 여전히 재생될 수 있습니다.",
-    "limitation_language": "<strong>성명서 언어</strong>: 이 성명서는 영어 버전을 기준으로 하며, 다른 언어는 그 번역본입니다. 사이트 자체는 20개 언어로 제공됩니다.",
+    "limitation_third_party": "<strong>내장된 제3자 콘텐츠</strong>, Cloudflare Turnstile CAPTCHA, Google Calendar 예약 페이지는 해당 제공업체의 접근성 동작을 그대로 따릅니다. 당사는 각 제공업체의 준수 현황을 추적하고 있습니다.",
+    "limitation_motion": "<strong>장식용 모션</strong>: <code>prefers-reduced-motion</code>이 설정되면 배경 애니메이션은 비활성화되지만, 커서를 따라 움직이는 소수의 마이크로 인터랙션은 여전히 재생될 수 있습니다.",
+    "limitation_language": "<strong>안내문 언어</strong>: 이 안내문은 영어 버전이 기준이며, 다른 언어는 그 번역본입니다. 사이트 자체는 20개 언어로 제공됩니다.",
     "feedback_title": "피드백과 문의",
-    "feedback_intro": "blokblokstudio.com에서 접근성 장벽을 겪으셨거나 이 사이트의 정보를 다른 형식으로 받아보셔야 한다면 연락해 주세요. 접근성 피드백에는 <strong>영업일 기준 5일 이내</strong>에 답변드리는 것을 목표로 합니다.",
+    "feedback_intro": "blokblokstudio.com에서 접근성 장벽을 겪으셨거나 이 사이트의 정보를 다른 형식으로 받아 보셔야 한다면 연락해 주세요. 접근성 피드백에는 <strong>영업일 기준 5일 이내</strong>에 답변드리는 것을 목표로 합니다.",
     "feedback_email": "<strong>이메일:</strong> <link>blokblokstudio.com/contact</link>",
     "feedback_form": "<strong>웹 폼:</strong> <link>문의 페이지</link>, 메시지에 “접근성”을 언급해 주세요.",
     "enforcement_title": "구제 절차",
-    "enforcement_intro": "Blok Blok Studio는 독일에 등록된 회사입니다. 접근성 피드백에 대한 당사의 답변에 만족하지 못하신 경우, 거주 지역의 집행 체계에 따라 문제를 제기하실 수 있습니다:",
-    "enforcement_eu": "<strong>유럽연합</strong>, 귀하가 거주하는 EU 회원국의 시장 감시 기관. EAA는 각 회원국에 국가 담당 기관을 지정합니다.",
-    "enforcement_germany": "<strong>독일</strong>, 연방 접근성 전문기관 Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
-    "enforcement_us": "<strong>미국</strong>, ADA 관련 민원은 미국 법무부 민권국, 제508조 관련은 미국 접근성 위원회(US Access Board).",
+    "enforcement_intro": "Blok Blok Studio는 독일 베를린에 있는 회사입니다. 접근성 피드백에 대한 당사의 답변에 만족하지 못하신 경우, 거주 지역의 집행 체계에 따라 문제를 제기하실 수 있습니다:",
+    "enforcement_eu": "<strong>유럽연합</strong>: 귀하가 거주하는 EU 회원국의 시장 감시 기관. EAA는 각 회원국에 국가 담당 기관을 지정합니다.",
+    "enforcement_germany": "<strong>독일</strong>: 연방 접근성 전문기관 Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
+    "enforcement_us": "<strong>미국</strong>: ADA 관련 민원은 미국 법무부 민권국, 제508조 관련은 미국 접근성 위원회(US Access Board).",
     "preparation_title": "이 안내문의 작성 방법",
-    "preparation_content": "이 안내문은 {date}에 WCAG 2.2 AA 기준에 따른 사이트 자체 평가를 통해 작성되었습니다. 평가는 실제 사이트에 대한 자동 검토와 코드베이스에 대한 수동 검토(시맨틱 구조, 키보드 탐색, 포커스 관리, ARIA 사용, 색상 대비, 모션 처리, 언어 방향)를 함께 진행했습니다. 주요 릴리스마다 사이트를 다시 검토합니다.",
-    "meta_description": "Blok Blok Studio는 디지털 접근성에 최선을 다합니다. 당사 웹사이트는 WCAG 2.2 AA, ADA, Section 508, EU 유럽 접근성법을 충족하도록 제작되었습니다."
+    "preparation_content": "이 안내문은 {date}에 WCAG 2.2 AA 기준에 따른 사이트 자체 평가를 거쳐 작성되었습니다. 평가는 실제 사이트에 대한 자동 검토와 코드베이스에 대한 수동 검토(시맨틱 구조, 키보드 탐색, 포커스 관리, ARIA 사용, 색상 대비, 모션 처리, 언어 방향)를 함께 진행했습니다. 주요 릴리스마다 사이트를 다시 검토합니다.",
+    "meta_description": "Blok Blok Studio는 디지털 접근성에 최선을 다합니다. 당사 웹사이트는 WCAG 2.2 AA, 미국 장애인법(ADA), 재활법 제508조, EU 유럽 접근성법을 충족하도록 제작되었습니다."
   },
   "thanks": {
     "brand": "BLOK BLOK",
     "headline_named": "{name}님, 여기서부터 시작하겠습니다",
     "headline": "여기서부터 시작하겠습니다",
-    "headline_fallback": "접수했습니다. 한 단계 남았습니다.",
+    "headline_fallback": "접수되었습니다. 한 단계 남았습니다.",
     "diagnosis_known": "{industry}에 대해 말씀해 주신 내용을 바탕으로, 통화에서 이 부분을 함께 짚어보겠습니다.",
-    "diagnosis_unsure": "아직 확실하지 않다고 하셨는데, 아주 자연스러운 출발점입니다. {industry}에서는 보통 여기에 수익이 있어서, 통화에서 그 지점부터 시작하겠습니다.",
+    "diagnosis_unsure": "아직 잘 모르겠다고 하셨는데, 아주 자연스러운 출발점입니다. {industry}에서는 보통 여기에서 매출이 나기 때문에, 통화에서 그 지점부터 시작하겠습니다.",
     "industry_fallback": "고객님의 분야",
-    "sub_fallback": "요청 접수했습니다. 무료 15분 상담을 지금 예약하세요. 빠른 시간대는 먼저 예약하신 분께 배정됩니다.",
+    "sub_fallback": "요청이 접수되었습니다. 아래에서 시간을 골라 무료 15분 통화를 예약하세요.",
     "cover_label": "통화에서 다룰 내용",
-    "cover_note": "범위와 비용까지 포함해 통화에서 제대로 짚어드리겠습니다.",
+    "cover_note": "범위와 비용까지 포함해 통화에서 제대로 짚어 드리겠습니다.",
     "calendar_title": "무료 첫 상담 예약하기",
-    "calendar_fallback": "캘린더가 안 열리나요?",
+    "calendar_fallback": "캘린더가 열리지 않나요?",
     "calendar_open": "바로 열기",
     "calendar_chat": "채팅이 편하신가요?",
     "calendar_whatsapp": "WhatsApp으로 메시지 보내기",
@@ -917,12 +917,12 @@
     "next_label": "다음 순서",
     "next_1_title": "위에서 시간을 선택하세요",
     "next_1_desc": "비즈니스와 필요하신 부분을 파악하기 위한 짧은 통화입니다.",
-    "next_2_title": "통화에서 전부 분해해 설명드립니다",
+    "next_2_title": "통화에서 하나하나 짚어 드립니다",
     "next_2_desc": "어디서 고객을 잃고 있는지, 무엇부터 고쳐야 하는지, 그러려면 무엇이 필요한지.",
     "next_3_title": "저희가 만들고, 고객님이 성장합니다",
-    "next_3_desc": "웹사이트, 광고, 소셜, AI 시스템. 저희가 맡아 빠르게 오픈합니다.",
+    "next_3_desc": "웹사이트 개발, 호스팅, 운영까지. 저희가 맡아 빠르게 런칭합니다.",
     "founder_kicker": "누구와 이야기하게 되는지",
-    "founder_title": "창업자 소개",
+    "founder_title": "창립자 소개",
     "clients_kicker": "작업과 숫자",
     "clients_title": "고객사",
     "cta_title": "더 많은 작업이 궁금하신가요?",
@@ -931,11 +931,11 @@
     "work": {
       "site": {
         "title": "하나의 목표를 위해 만든 사이트",
-        "detail": "템플릿이 아닌 맞춤 Next.js 개발. 모든 페이지가 예약된 상담, 주문, 결제 중 하나의 행동으로 이어지도록 설계합니다."
+        "detail": "템플릿이 아닌 맞춤 Next.js 개발. 모든 페이지가 상담 예약, 주문, 결제 중 하나의 행동으로 이어지도록 설계합니다."
       },
       "redesign": {
         "title": "이미 잘 되는 것 위에 다시 세우기",
-        "detail": "성과가 나는 페이지는 유지하고, 방문자가 빠져나가는 페이지는 고치고, 전체를 빠르게 로드되는 구조로 옮깁니다."
+        "detail": "성과가 나는 페이지는 유지하고, 방문자가 빠져나가는 페이지는 고치고, 전체를 빠르게 로드되는 기술 스택으로 옮깁니다."
       },
       "shop": {
         "title": "실제로 구매까지 가는 스토어",
@@ -947,23 +947,23 @@
       },
       "search_ads": {
         "title": "구매 의도가 생긴 순간에 노출되기",
-        "detail": "클릭이 아니라 성사된 일감을 기준으로 만들고 운영하는 캠페인. 검색에서는 이미 원하는 것이 정해져 있습니다."
+        "detail": "클릭이 아니라 성사된 일감을 기준으로 만들고 운영하는 캠페인. 검색은 이미 원하는 것이 정해진 사람들이 찾는 곳입니다."
       },
       "social_ads": {
         "title": "경쟁사보다 먼저 닿기",
-        "detail": "경쟁사보다 먼저 적합한 사람들에게 제안을 노출하는 페이스북·인스타그램 캠페인."
+        "detail": "경쟁사보다 먼저 적합한 사람들에게 제안을 노출하는 Facebook과 Instagram 캠페인."
       },
       "social": {
         "title": "어딘가로 이어지는 소셜",
-        "detail": "이미 가지고 계신 영상에서 잘라낸 클립, 자막, 게시물. 피드를 채우는 것이 아니라 사이트로 사람을 옮기기 위해 만듭니다."
+        "detail": "이미 가지고 계신 영상에서 잘라낸 클립, 자막, 게시물. 피드를 채우는 것이 아니라 사람들을 사이트로 옮기기 위해 만듭니다."
       },
       "booking": {
         "title": "사이트에서 바로 예약과 결제",
-        "detail": "고객이 DM 한 번 없이 시간을 고르고 결제합니다. Coach Luki와 Coach Kofi를 위해 만든 것이 정확히 이것입니다."
+        "detail": "고객이 DM 한 번 없이 시간을 고르고 결제합니다. Coach Luki와 Coach Kofi를 위해 만든 것이 바로 이것입니다."
       },
       "local_seo": {
         "title": "로컬 검색과 리뷰",
-        "detail": "고객이 실제로 찾아보는 곳에서 노출되고, 최신 구글 리뷰를 페이지에 함께 보여줍니다."
+        "detail": "고객이 실제로 찾아보는 곳에서 노출되고, 최신 Google 리뷰를 페이지에 함께 보여줍니다."
       }
     },
     "founder_speaker": "Chase Haynes, 창립자",
@@ -977,12 +977,12 @@
     "footer_privacy": "개인정보 처리방침",
     "footer_terms": "이용약관",
     "footer_cookies": "쿠키 정책",
-    "footer_impressum": "사업자 정보",
-    "read_transcript": "전문 읽기",
+    "footer_impressum": "법적 고지",
+    "read_transcript": "대본 읽기",
     "loading": "불러오는 중",
     "select_language": "언어 선택",
-    "wechat_scan": "WeChat에서 스캔해 추가하세요",
-    "wechat_qr_alt": "Chase Haynes의 WeChat QR 코드, 스캔해 추가",
+    "wechat_scan": "WeChat에서 스캔해 친구 추가하세요",
+    "wechat_qr_alt": "Chase Haynes의 WeChat QR 코드, WeChat에서 스캔해 추가",
     "wechat_copy": "WeChat ID 복사",
     "wechat_copied": "복사됨",
     "wechat_open": "WeChat으로 문의하기",
@@ -990,7 +990,7 @@
     "whatsapp_aria": "WhatsApp으로 채팅하기 (새 탭에서 열림)",
     "proj_not_found": "프로젝트를 찾을 수 없습니다",
     "proj_back": "프로젝트 목록으로",
-    "proj_visit": "실제 사이트 보기",
+    "proj_visit": "실제 사이트 방문",
     "proj_live": "운영 중인 사이트",
     "proj_take_look": "직접 확인해 보세요",
     "proj_open_live": "사이트 열기",
@@ -998,9 +998,9 @@
     "proj_testimonial": "고객의 이야기",
     "proj_gallery": "프로젝트 갤러리",
     "proj_next": "다음 프로젝트",
-    "cases_kicker": "작업물과 숫자",
-    "cases_sub": "카메라 앞에 선 고객들, 기록으로 남은 매출. 저희와 일한다는 게 실제로 어떤 것인지 보여드립니다.",
-    "cases_view": "사례 보기",
+    "cases_kicker": "작업과 숫자",
+    "cases_sub": "카메라 앞에 선 고객들, 기록으로 남은 매출. 저희와 일한다는 것이 실제로 어떤 것인지 보여드립니다.",
+    "cases_view": "사례 연구 보기",
     "mockup_all": "MacBook, iPad, iPhone에 표시된 Blok Blok Studio 프로젝트",
     "mockup_bronco": "iPad에 표시된 Bronco Plumbing",
     "mockup_kofi_desktop": "MacBook에 표시된 Coach Kofi 웹사이트",
@@ -1011,9 +1011,9 @@
     "about_branding": "브랜딩",
     "about_tagline": "눈에 띄는 브랜드를 만듭니다",
     "faq_title": "자주 묻는 질문",
-    "faq_sub": "저희와 일하기 전에 알아두실 것들",
+    "faq_sub": "저희와 일하기 전에 알아 두실 것들",
     "who_title": "어떤 분들과 일하나요",
-    "who_sub": "업종마다 전환되는 방식이 다릅니다. 저희가 실제로 쓰는 방식과 그 뒤의 고객 숫자입니다.",
+    "who_sub": "업종마다 전환되는 방식이 다릅니다. 저희가 실제로 쓰는 플레이북과 그 뒤를 받치는 고객 숫자입니다.",
     "start_project": "프로젝트 시작하기",
     "contact_location": "위치",
     "available": "새 프로젝트 받고 있습니다",
@@ -1033,16 +1033,16 @@
   },
   "onboard": {
     "title": "고객 온보딩",
-    "sub": "바로 시작할 수 있도록 필요한 것들을 준비하겠습니다.",
+    "sub": "첫날부터 시작할 수 있도록 모든 준비를 마치겠습니다.",
     "loading": "온보딩을 불러오는 중...",
     "unavailable": "링크를 사용할 수 없습니다",
-    "done": "모두 준비되었습니다",
-    "done_sub": "바로 시작할 수 있도록 결제 수단도 설정하시겠어요?",
+    "done": "모두 준비되었습니다!",
+    "done_sub": "바로 시작할 수 있도록 결제 수단도 지금 설정하시겠어요?",
     "pay_cta": "결제 수단 설정",
     "coming_soon": "곧 제공됩니다",
     "submitting": "전송 중...",
     "contacts": "팀 담당자",
-    "contacts_sub": "귀사에서 누구와 소통하면 될까요?",
+    "contacts_sub": "고객사에서 누구와 소통하면 될까요?",
     "primary": "주 담당자",
     "remove": "삭제",
     "add_contact": "담당자 추가",
@@ -1054,12 +1054,12 @@
     "social_sub": "운영과 성장을 맡기실 소셜 계정을 연결해 주세요.",
     "add_profile": "프로필 추가",
     "details": "프로젝트 세부사항",
-    "details_sub": "저희 방식을 귀사에 맞출 수 있도록 알려주세요.",
-    "telegram_hint": "텔레그램에서 @blokblok_bot에 메시지를 보내 ID를 확인하세요",
+    "details_sub": "저희 작업 방식을 고객사에 맞출 수 있도록 알려 주세요.",
+    "telegram_hint": "Telegram에서 @blokblok_bot에 메시지를 보내 ID를 확인하세요",
     "review": "검토 후 전송",
-    "review_sub": "보내기 전에 확인해 주세요. 어느 항목이든 돌아가서 수정할 수 있습니다.",
+    "review_sub": "보내기 전에 모든 내용을 다시 확인해 주세요. 어느 항목이든 돌아가서 수정할 수 있습니다.",
     "f_timezone": "시간대:",
-    "f_telegram": "텔레그램 ID:",
+    "f_telegram": "Telegram ID:",
     "f_notes": "메모:",
     "f_brand": "브랜드 가이드라인:",
     "ph_phone": "전화번호",
@@ -1071,7 +1071,18 @@
     "ph_telegram": "예: 123456789",
     "ph_notes": "프로젝트나 선호 사항, 일하시는 방식에 대해 저희가 알아야 할 내용...",
     "ph_brand": "로고 사용법, 브랜드 컬러, 서체, 톤앤매너, 지켜야 할 것과 피할 것...",
-    "meta_description": "온보딩을 완료하고 Blok Blok Studio와 함께 시작하세요."
+    "meta_description": "온보딩을 완료하고 Blok Blok Studio와 함께 시작하세요.",
+    "f_name": "이름",
+    "f_role": "역할 / 직함",
+    "f_email": "이메일",
+    "f_phone": "전화번호",
+    "f_platform": "플랫폼",
+    "f_username": "사용자 이름 / 이메일",
+    "f_password": "비밀번호",
+    "f_url_optional": "URL (선택)",
+    "f_notes_optional": "메모 (선택)",
+    "f_url": "URL",
+    "ph_select": "선택..."
   },
   "pricing": {
     "packages": "패키지",
@@ -1083,7 +1094,7 @@
     "custom_quote": "맞춤 견적이 필요하신가요?",
     "hero_title_a": "무엇을 받게 되는지,",
     "hero_title_em": "빠짐없이 적었습니다.",
-    "hero_sub": "AI 기반 웹사이트, 앱, 자동화, 광고, 브랜딩, 소셜 미디어 운영. 모든 프로젝트는 범위에 맞춰 개별 견적을 드리며, 결과물을 문서로 명시해 무엇을 만드는지 양측이 정확히 알 수 있습니다.",
+    "hero_sub": "AI 기반 웹사이트, 앱, 자동화, 광고, 브랜딩, 소셜 미디어 운영. 모든 프로젝트는 범위에 맞춰 개별 견적을 드리며, 결과물을 문서로 명시해 무엇을 만드는지 양측이 정확히 알 수 있게 합니다.",
     "tabs": {
       "web": "웹 개발",
       "app": "앱 개발",
@@ -1149,7 +1160,7 @@
             "카피라이팅: $200/페이지",
             "섹션 추가: $250"
           ],
-          "ho": "결제: 착수 시 50%, 완료 시 50% (Net 7). 고객 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 승인 후 작업: $175/시간.",
+          "ho": "결제: 착수 시 50%, 완료 시 50% (7일 이내 결제). 고객 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 승인 후 작업: $175/시간.",
           "bridge": "런칭 후 14일간 모니터링 (버그 수정 및 소소한 조정) 포함. 페이지나 기능이 더 필요하신가요? AI 채팅과 CRM 세팅이 포함된 5페이지 사이트인 스타터 런칭($6,500)으로 업그레이드하세요.",
           "ideal": "사이드 프로젝트, 퍼스널 브랜드, 간단한 랜딩 페이지"
         },
@@ -1196,7 +1207,7 @@
             "Q&A 추가 (25개 초과): $250/묶음",
             "자동화 추가: 개당 $350"
           ],
-          "ho": "결제: 착수 시 50%, 완료 시 50% (Net 7). 고객 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 승인 후 작업: $175/시간.",
+          "ho": "결제: 착수 시 50%, 완료 시 50% (7일 이내 결제). 고객 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 승인 후 작업: $175/시간.",
           "bridge": "런칭 후 30일간 모니터링 (버그 수정, 챗봇 점검, CRM 상태 확인) 포함. 30일 이후에는 지속적인 유지보수, 업데이트, AI 튜닝이 유지보수 & 모니터링 플랜($1,500/월)으로 이어져 시스템이 최적 상태를 유지합니다.",
           "ideal": "스타트업, 1인 사업자, 지역 비즈니스"
         },
@@ -1233,7 +1244,7 @@
               "l": "광고 그룹 3개 (각기 다른 키워드 테마 타겟팅)로 구성된 Google 검색 캠페인 1개. 키워드 리서치와 제외 키워드 목록 포함. 광고 문안 6개 작성 (광고 그룹당 2개). 전용 랜딩 페이지 1개를 디자인, 구축하고 전환 추적과 연결. Google Ads 전환 추적과 Google Tag Manager 설정. 광고비는 별도로 청구되며 고객이 Google에 직접 지불합니다."
             },
             {
-              "i": "클라이언트 대시보드",
+              "i": "고객 대시보드",
               "l": "GHL 또는 Google Looker Studio로 구축하는 실시간 대시보드 1개. 최대 6개 위젯: 웹사이트 트래픽, 리드 수, 파이프라인 가치, 전환율, 광고 성과, 챗봇 상호작용. 자동 업데이트되며 공유 링크로 접근할 수 있습니다."
             },
             {
@@ -1254,7 +1265,7 @@
             "랜딩 페이지 추가: $900",
             "포함 범위 초과 카피라이팅: $200/페이지"
           ],
-          "ho": "결제: 착수 시 50%, 완료 시 50% (Net 7). 승인 또는 수정 3라운드 종료 시 완료로 간주합니다. 승인 후 작업: $175/시간.",
+          "ho": "결제: 착수 시 50%, 완료 시 50% (7일 이내 결제). 승인 또는 수정 3라운드 종료 시 완료로 간주합니다. 승인 후 작업: $175/시간.",
           "bridge": "런칭 후 30일간 광고 운영, AI 모니터링, 버그 수정 포함. 30일 이후에도 광고, AI 에이전트, 자동화는 지속적인 최적화가 있어야 성과를 유지합니다. 추진력을 이어가려면 그로스 엔진 플랜($3,500/월)을 추천합니다.",
           "ideal": "시스템을 갖추고 확장하는 성장 기업"
         },
@@ -1274,7 +1285,7 @@
               "l": "라이프스타일 목업 포함 로고 초기 시안 5개 중 1개를 선택해 완전히 다듬습니다. 완전한 브랜드 가이드라인 문서 (20페이지): 로고 사용, 여백 규정, 최소 크기, 기본 및 보조 컬러 팔레트, 타이포그래피 위계, 사진 스타일 가이드, 아이콘 스타일, 브랜드 보이스와 톤 가이드라인. 스테이셔너리 디자인: 명함, 레터헤드, 이메일 서명 템플릿. 피치덱 템플릿 (15슬라이드, Google Slides 또는 Keynote 편집 가능). 브랜드 소셜 미디어 템플릿 10개 (Canva 또는 Figma, 편집 가능)."
             },
             {
-              "i": "AI 에이전트 생태계 (3개)",
+              "i": "AI 에이전트 에코시스템 (3개)",
               "l": "하나의 시스템으로 작동하는 상호 연결된 AI 에이전트 3개. 구성 예: 에이전트 1이 챗봇으로 리드를 수집하고 점수를 매깁니다 (핫/웜/콜드). 에이전트 2가 점수에 따라 개인화된 이메일 시퀀스를 보냅니다. 에이전트 3이 핫 리드에 SMS 후속 연락을 보냅니다. 전체 리드 여정을 담은 맞춤 의사결정 트리 1개. 모든 에이전트를 GHL CRM에 연결해 연락처 태깅과 파이프라인 이동을 자동화합니다."
             },
             {
@@ -1316,8 +1327,8 @@
             "상품 (20개 초과): $75/상품",
             "2개월 차 이후 콘텐츠: 리테이너 필요"
           ],
-          "ho": "결제: 착수 시 50%, 중간 마일스톤에서 25%, 완료 시 25% (Net 7). 승인 또는 수정 3라운드 종료 시 완료로 간주합니다. 승인 후 작업: $175/시간.",
-          "bridge": "런칭 후 45일간 전체 모니터링, 광고 운영, AI 튜닝, 버그 수정 포함. 45일 이후에도 AI 생태계, 광고 캠페인, 콘텐츠 시스템은 지속적인 운영이 있어야 성과를 냅니다. 필요에 따라 풀 파트너십($7,500/월) 또는 그로스 엔진($3,500/월)을 추천합니다.",
+          "ho": "결제: 착수 시 50%, 중간 마일스톤에서 25%, 완료 시 25% (7일 이내 결제). 승인 또는 수정 3라운드 종료 시 완료로 간주합니다. 승인 후 작업: $175/시간.",
+          "bridge": "런칭 후 45일간 전체 모니터링, 광고 운영, AI 튜닝, 버그 수정 포함. 45일 이후에도 AI 에코시스템, 광고 캠페인, 콘텐츠 시스템은 지속적인 운영이 있어야 성과를 냅니다. 필요에 따라 풀 파트너십($7,500/월) 또는 그로스 엔진($3,500/월)을 추천합니다.",
           "ideal": "완전한 AI 인프라를 원하는 자리 잡은 기업"
         }
       ],
@@ -1365,7 +1376,7 @@
             "수정 라운드: $175",
             "영상 콘텐츠 (릴스/쇼츠): 개당 $175"
           ],
-          "ho": "결제: 착수 시 50%, 완료 시 50% (Net 7). 승인 또는 수정 1라운드 종료 시 완료로 간주합니다. 전달 후 변경: $175/시간.",
+          "ho": "결제: 착수 시 50%, 완료 시 50% (7일 이내 결제). 승인 또는 수정 1라운드 종료 시 완료로 간주합니다. 전달 후 변경: $175/시간.",
           "bridge": "프로필 세팅이 완료되어 바로 시작할 수 있습니다. 활발히 운영하며 성장시키려면 소셜 스타터 플랜($1,500/월) 또는 월 $650부터 시작하는 개별 플랫폼 운영을 추가하세요.",
           "ideal": "새 플랫폼에서 시작하는 비즈니스"
         },
@@ -1422,7 +1433,7 @@
             "영상 콘텐츠: 개당 $175",
             "링크인바이오 페이지 추가: $200"
           ],
-          "ho": "결제: 착수 시 50%, 완료 시 50% (Net 7). 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 전달 후: $175/시간.",
+          "ho": "결제: 착수 시 50%, 완료 시 50% (7일 이내 결제). 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 전달 후: $175/시간.",
           "bridge": "모든 플랫폼이 런칭 준비를 마쳤고 30일치 콘텐츠가 계획되어 있습니다. 계속 성장하려면 소셜 그로스 플랜($2,500/월) 또는 플랫폼별 애드온을 추천합니다.",
           "ideal": "소셜 존재감을 새로 시작하거나 새롭게 단장하는 비즈니스"
         },
@@ -1482,7 +1493,7 @@
             "수정 라운드: $250",
             "YouTube 인트로/아웃트로 영상: $600"
           ],
-          "ho": "결제: 착수 시 50%, 완료 시 50% (Net 7). 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 전달 후: $175/시간.",
+          "ho": "결제: 착수 시 50%, 완료 시 50% (7일 이내 결제). 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 전달 후: $175/시간.",
           "bridge": "소셜 존재감 전체가 재구축되어 60일치 콘텐츠와 함께 런칭 준비를 마쳤습니다. 추진력을 유지하려면 소셜 도미네이션($4,500/월) 또는 소셜 그로스($2,500/월)를 추천합니다.",
           "ideal": "소셜 존재감이 낡았거나 일관성이 없는 자리 잡은 기업"
         }
@@ -1529,7 +1540,7 @@
             "긴급/당일: +50%"
           ],
           "ex": "광고 운영, 콘텐츠 제작, 새 기능, 음성 에이전트, 소셜 미디어는 포함되지 않습니다. 상위 등급이 필요합니다.",
-          "ideal": "런칭 후의 안심"
+          "ideal": "런칭 후 안심하고 싶은 비즈니스"
         },
         {
           "name": "그로스 엔진",
@@ -1546,7 +1557,7 @@
             },
             {
               "i": "Google Ads 운영",
-              "l": "활성 Google 검색 캠페인 2개 운영. 월간 키워드 최적화, 입찰 조정, 제외 키워드 업데이트. 월 3건의 A/B 테스트 (광고 카피, 랜딩 페이지 요소 또는 오디언스 타겟팅). CPC, CTR, 전환율, ROAS 분석을 포함한 월간 성과 검토. 이 등급에서 운영하는 광고비는 월 $5,000까지. $5K 초과 광고비는 $5K 구간당 월 $500 추가. 광고비는 별도 청구. Google에 직접 지불합니다."
+              "l": "활성 Google 검색 캠페인 2개 운영. 월간 키워드 최적화, 입찰 조정, 제외 키워드 업데이트. 월 3건의 A/B 테스트 (광고 카피, 랜딩 페이지 요소 또는 오디언스 타겟팅). CPC, CTR, 전환율, ROAS 분석을 포함한 월간 성과 검토. 이 등급에서 운영하는 광고비는 월 $5,000까지. $5,000 초과 광고비는 $5,000 구간당 월 $500 추가. 광고비는 별도 청구. Google에 직접 지불합니다."
             },
             {
               "i": "Meta Ads 운영",
@@ -1571,7 +1582,7 @@
           ],
           "ov": [
             "5시간 초과 디자인: $175/시간",
-            "광고비 $5K 초과: $5K 구간당 월 +$500",
+            "광고비 $5,000 초과: $5,000 구간당 월 +$500",
             "블로그: 개당 $250",
             "소셜 게시물 (12개 초과): 개당 $60",
             "크리에이티브 리프레시: $500",
@@ -1600,10 +1611,10 @@
             },
             {
               "i": "광고 운영 (확장)",
-              "l": "Google과 Meta에 걸쳐 활성 캠페인 무제한. 풀퍼널 전략: 인지, 고려, 전환 캠페인. 월간 크리에이티브 리프레시, 오디언스 테스트, 입찰 최적화, 예산 재배분. 운영 광고비 월 $20,000까지. $20K 초과 광고비는 별도 가격 협의. ROAS, CPA, 예산 효율 분석을 포함한 월간 광고 성과 보고서. 광고비는 별도 청구."
+              "l": "Google과 Meta에 걸쳐 활성 캠페인 무제한. 풀퍼널 전략: 인지, 고려, 전환 캠페인. 월간 크리에이티브 리프레시, 오디언스 테스트, 입찰 최적화, 예산 재배분. 운영 광고비 월 $20,000까지. $20,000 초과 광고비는 별도 가격 협의. ROAS, CPA, 예산 효율 분석을 포함한 월간 광고 성과 보고서. 광고비는 별도 청구."
             },
             {
-              "i": "AI 생태계 관리",
+              "i": "AI 에코시스템 관리",
               "l": "활성 AI 에이전트 5개 관리 및 최적화 (챗봇, 음성 에이전트, 이메일 에이전트, SMS 에이전트). 월 2건의 새 자동화 워크플로 구축 (예: 새 리드 시퀀스, 업셀 워크플로, 재참여 캠페인). 월간 에이전트 성과 검토: 응답 정확도, 해결률, 통화 시간, 리드 전환. 범위 내에서 필요에 따라 에이전트 재학습과 스크립트 업데이트."
             },
             {
@@ -1625,16 +1636,16 @@
           ],
           "ov": [
             "15시간 초과 디자인: $175/시간",
-            "광고비 $20K 초과: 별도 협의",
+            "광고비 $20,000 초과: 별도 협의",
             "블로그: 개당 $250",
             "영상 클립 (4개 초과): 개당 $300",
             "촬영: 별도",
-            "전체 리브랜딩: $6K 이상 별도",
+            "전체 리브랜딩: $6,000 이상 별도",
             "AI 에이전트: 개당 $2,500",
             "주말/업무 시간 외: +75%"
           ],
           "ex": "오프라인 이벤트, PR/미디어 아웃리치, 영상 촬영 (편집만), 앱 개발은 포함되지 않습니다. 별도 견적.",
-          "ideal": "광고에 월 $5K 이상 투자하는 비즈니스"
+          "ideal": "광고에 월 $5,000 이상 투자하는 비즈니스"
         }
       ],
       "social": [
@@ -1761,7 +1772,7 @@
             },
             {
               "i": "전체 커뮤니티 관리",
-              "l": "월~금 하루 2시간. 내용: 전 플랫폼의 모든 댓글, DM, 멘션 답변. 선제적 아웃리치: 관련 계정, 업종 해시태그, 잠재 고객과 소통. 브랜드 모니터링: 멘션, 태그, 관련 대화 추적. 감성 표시: 부정적 피드백이나 PR 우려는 즉시 고객에게 에스컬레이션. 주간 참여 요약을 보고에 포함."
+              "l": "월~금 하루 2시간. 내용: 전 플랫폼의 모든 댓글, DM, 멘션 답변. 선제적 아웃리치: 관련 계정, 업종 해시태그, 잠재 고객과 소통. 브랜드 모니터링: 멘션, 태그, 관련 대화 추적. 감성 모니터링: 부정적 피드백이나 PR 우려는 즉시 고객에게 에스컬레이션. 주간 참여 요약을 보고에 포함."
             },
             {
               "i": "보고 & 전략",
@@ -1812,7 +1823,7 @@
             },
             {
               "i": "사용자 흐름 매핑",
-              "l": "각 사용자 유형이 시스템을 어떻게 이용하는지 보여주는 시각적 다이어그램. 예: 세입자 로그인 → 수리 요청 제출 → 관리자 알림 수신 → 업체 배정 → 세입자 진행 상황 알림. 모든 핵심 사용자 여정 (5개 흐름) 포함. FigJam 또는 Miro 보드로 제공."
+              "l": "각 사용자 유형이 시스템을 어떻게 거쳐 가는지 보여주는 시각적 다이어그램. 예: 세입자 로그인 → 수리 요청 제출 → 관리자 알림 수신 → 업체 배정 → 세입자에게 진행 상황 안내. 모든 핵심 사용자 여정 (5개 흐름) 포함. FigJam 또는 Miro 보드로 제공."
             },
             {
               "i": "기술 아키텍처 문서",
@@ -1828,7 +1839,7 @@
             },
             {
               "i": "고정 가격 구축 견적",
-              "l": "디스커버리 작업을 바탕으로 전체 구축에 대한 확정된 고정 가격 견적을 제공합니다. 시간당 요금으로 인한 예상치 못한 비용이 없습니다. 계약 후 프로젝트 범위가 바뀌면 사전 승인된 요율로 변경 요청 절차를 진행합니다."
+              "l": "디스커버리 작업을 바탕으로 전체 구축에 대한 확정된 고정 가격 견적을 제공합니다. 시간당 요금으로 인한 예상 밖의 비용이 없습니다. 계약 후 프로젝트 범위가 바뀌면 사전 승인된 요율로 변경 요청 절차를 진행합니다."
             }
           ],
           "ov": [
@@ -1837,7 +1848,7 @@
             "경쟁 분석 애드온: $750 (경쟁 제품 3개 진단)",
             "2주 초과 디스커버리 연장: $1,200/주"
           ],
-          "ho": "결제: 착수 시 50%, 전달 시 50% (Net 7). 전달 후 30일 이내에 구축을 진행하면 디스커버리 비용은 전체 구축 비용에서 차감됩니다. 진행하지 않더라도 모든 결과물 (와이어프레임, SOW, 아키텍처 문서)은 고객 소유이며 어떤 개발자와도 사용할 수 있습니다.",
+          "ho": "결제: 착수 시 50%, 전달 시 50% (7일 이내 결제). 전달 후 30일 이내에 구축을 진행하면 디스커버리 비용은 전체 구축 비용에서 차감됩니다. 진행하지 않더라도 모든 결과물 (와이어프레임, SOW, 아키텍처 문서)은 고객 소유이며 어떤 개발자와도 사용할 수 있습니다.",
           "ideal": "맞춤 구축을 고려하는 모든 분. 이것이 첫 단계입니다."
         },
         {
@@ -1893,7 +1904,7 @@
             "고급 보고/분석 대시보드: $5,000",
             "네이티브 모바일 앱 (iOS 또는 Android): 엔터프라이즈 빌드 등급 참고"
           ],
-          "ho": "결제: 착수 시 50%, 중간 마일스톤에서 25%, 완료 시 25% (Net 7). 런칭 후 30일간 버그 수정 포함 (원래 SOW에 있는 기능 문제만). 30일 이후 지속 지원은 유지보수 리테이너로 전환됩니다. 모든 코드는 고객 소유입니다. 프로젝트 완료 시 코드베이스, 디자인 파일, 문서의 완전한 소유권이 이전됩니다.",
+          "ho": "결제: 착수 시 50%, 중간 마일스톤에서 25%, 완료 시 25% (7일 이내 결제). 런칭 후 30일간 버그 수정 포함 (원래 SOW에 있는 기능 문제만). 30일 이후 지속 지원은 유지보수 리테이너로 전환됩니다. 모든 코드는 고객 소유입니다. 프로젝트 완료 시 코드베이스, 디자인 파일, 문서의 완전한 소유권이 이전됩니다.",
           "bridge": "플랫폼이 안정적으로 가동 중입니다. 계속 운영하고, 보안을 유지하고, 발전시키려면 개발 지원 리테이너($1,500/월) 또는 시간 뱅크(10시간 $2,500/월)를 추천합니다.",
           "ideal": "포털, 대시보드, 내부 도구, SaaS MVP"
         },
@@ -1949,7 +1960,7 @@
             "서드파티 모의 해킹 테스트 조율: $5,000",
             "화이트라벨/멀티 테넌트 애드온 (미포함 시): $15,000"
           ],
-          "ho": "결제: 착수 시 50%, 중간 마일스톤에서 25%, 완료 시 25% (Net 7). 단계별 런칭 후 45일간 버그 수정 포함. 완료 시 모든 코드, 디자인 파일, 문서가 고객에게 이전됩니다. 코드베이스 완전 소유권. 45일 이후 지속 지원은 유지보수 리테이너로 전환됩니다.",
+          "ho": "결제: 착수 시 50%, 중간 마일스톤에서 25%, 완료 시 25% (7일 이내 결제). 단계별 런칭 후 45일간 버그 수정 포함. 완료 시 모든 코드, 디자인 파일, 문서가 고객에게 이전됩니다. 코드베이스 완전 소유권. 45일 이후 지속 지원은 유지보수 리테이너로 전환됩니다.",
           "bridge": "복잡한 시스템은 지속적인 개발, 모니터링, 최적화가 필요합니다. 비즈니스와 함께 플랫폼이 발전하도록 액티브 개발 리테이너($7,500/월)를 추천합니다.",
           "ideal": "SaaS 플랫폼, 멀티 테넌트 시스템, AI 통합 제품, 엔터프라이즈 도구"
         }
@@ -1990,7 +2001,7 @@
             "긴급 전달 (1주 미만): +40%",
             "에이전트 재학습: $750"
           ],
-          "ho": "결제: 착수 시 50%, 완료 시 50% (Net 7). 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 에이전트 소유권은 고객에게 이전됩니다.",
+          "ho": "결제: 착수 시 50%, 완료 시 50% (7일 이내 결제). 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 에이전트 소유권은 고객에게 이전됩니다.",
           "bridge": "에이전트가 가동 중입니다. 계속 모니터링, 최적화, 재학습하려면 에이전트 유지보수($1,500/월) 또는 에이전트 그로스($3,500/월) 리테이너를 추가하세요.",
           "ideal": "특정 워크플로 하나를 자동화하는 비즈니스"
         },
@@ -2030,7 +2041,7 @@
             "추가 수정 라운드: $400",
             "긴급 전달: +40%"
           ],
-          "ho": "결제: 착수 시 50%, 완료 시 50% (Net 7). 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 모든 에이전트와 코드 소유권은 고객에게 이전됩니다.",
+          "ho": "결제: 착수 시 50%, 완료 시 50% (7일 이내 결제). 승인 또는 수정 2라운드 종료 시 완료로 간주합니다. 모든 에이전트와 코드 소유권은 고객에게 이전됩니다.",
           "bridge": "에이전트 팀이 조율된 상태로 가동 중입니다. 지속적인 최적화, 재학습, 에이전트 추가를 위해 에이전트 그로스($3,500/월) 또는 에이전트 커맨드 센터($7,500/월) 리테이너를 추가하세요.",
           "ideal": "다단계 워크플로를 엔드투엔드로 자동화하는 비즈니스"
         },
@@ -2038,7 +2049,7 @@
           "name": "AI 오퍼레이션",
           "price": 25000,
           "disp": "$25,000+",
-          "tag": "엔터프라이즈 AI 생태계",
+          "tag": "엔터프라이즈 AI 에코시스템",
           "tl": "4~8주",
           "scope": [
             {
@@ -2051,7 +2062,7 @@
             },
             {
               "i": "연동 (6개 포함)",
-              "l": "에이전트 생태계를 비즈니스 도구와 연결하는 외부 연동 6개. 복잡한 연동 포함: CRM + 이메일 + 캘린더 + 결제 시스템에 걸친 다단계 워크플로. 실시간 트리거용 웹훅 리스너. 충돌 해결을 포함한 플랫폼 간 데이터 동기화."
+              "l": "에이전트 에코시스템을 비즈니스 도구와 연결하는 외부 연동 6개. 복잡한 연동 포함: CRM + 이메일 + 캘린더 + 결제 시스템에 걸친 다단계 워크플로. 실시간 트리거용 웹훅 리스너. 충돌 해결을 포함한 플랫폼 간 데이터 동기화."
             },
             {
               "i": "보안 & 컴플라이언스",
@@ -2069,8 +2080,8 @@
             "실시간 교육 통화: $250/시간",
             "긴급 전달: +30%"
           ],
-          "ho": "결제: 착수 시 50%, 중간 마일스톤에서 25%, 완료 시 25% (Net 7). 단계별 전달 (보통 2~3단계). 각 단계마다 정의된 결과물과 승인이 있습니다. 완료 시 모든 코드와 에이전트 소유권이 고객에게 이전됩니다.",
-          "bridge": "AI 생태계가 완전히 가동 중입니다. 계속 운영, 최적화, 확장하려면 에이전트 커맨드 센터($7,500/월) 리테이너를 추가하세요.",
+          "ho": "결제: 착수 시 50%, 중간 마일스톤에서 25%, 완료 시 25% (7일 이내 결제). 단계별 전달 (보통 2~3단계). 각 단계마다 정의된 결과물과 승인이 있습니다. 완료 시 모든 코드와 에이전트 소유권이 고객에게 이전됩니다.",
+          "bridge": "AI 에코시스템이 완전히 가동 중입니다. 계속 운영, 최적화, 확장하려면 에이전트 커맨드 센터($7,500/월) 리테이너를 추가하세요.",
           "ideal": "수작업 프로세스를 대규모 지능형 자동화로 대체하는 비즈니스"
         }
       ],
@@ -2199,7 +2210,7 @@
             },
             {
               "i": "분기별 AI 진단",
-              "l": "3개월마다 전체 AI 생태계 종합 진단: 에이전트 성과, 정확도 추이, 비용 효율, 연동 상태, 새 자동화 기회 권고. 서면 보고서로 제공."
+              "l": "3개월마다 전체 AI 에코시스템 종합 진단: 에이전트 성과, 정확도 추이, 비용 효율, 연동 상태, 새 자동화 기회 권고. 서면 보고서로 제공."
             }
           ],
           "ov": [
@@ -2236,7 +2247,7 @@
             },
             {
               "i": "월간 요약",
-              "l": "월말 보고서: 사용 시간, 완료 작업, 남은 시간, 다음 달로 넘어가는 미결 항목. 예상치 못한 일은 없습니다."
+              "l": "월말 보고서: 사용 시간, 완료 작업, 남은 시간, 다음 달로 넘어가는 미결 항목. 예상 밖의 청구는 없습니다."
             },
             {
               "i": "포함 범위",
@@ -2502,7 +2513,7 @@
           "price": 1950,
           "disp": "$1,950",
           "per": "/월",
-          "tag": "건강하고 규정에 맞게 유지",
+          "tag": "건강하고 규정에 맞는 상태로 유지",
           "com": "최소 3개월",
           "scope": [
             {
@@ -2540,7 +2551,7 @@
             "전담 기능 작업: 별도 범위 산정"
           ],
           "ex": "기능 개발 없음. 새 연동 없음. 디자인 작업 없음. 마케팅이나 ASO 서비스 없음.",
-          "ideal": "건강하고, 규정에 맞고, 스토어에 유지되어야 하는 출시된 앱"
+          "ideal": "건강하고, 규정에 맞고, 스토어에 계속 올라 있어야 하는 출시된 앱"
         },
         {
           "name": "모멘텀",
@@ -2650,7 +2661,7 @@
           "scope": [
             {
               "i": "99.9% 가동 시간 모니터링",
-              "l": "StatusCake 또는 BetterStack이 사이트를 24시간 연중무휴 감시합니다. 알림은 즉시 저희에게 옵니다. 사이트가 다운됐다는 사실을 고객에게서 듣는 일은 없습니다."
+              "l": "StatusCake 또는 BetterStack이 사이트를 24시간 연중무휴 감시합니다. 알림은 즉시 저희에게 옵니다. 사이트가 다운됐다는 사실을 방문자에게서 먼저 듣는 일은 없습니다."
             },
             {
               "i": "주간 오프사이트 백업",
@@ -2856,8 +2867,8 @@
               "l": "매일 최적화와 크리에이티브 반복이 있는 2주 소프트 런칭. 이후 주간 조정이 있는 30일간의 적극적인 캠페인 모니터링."
             },
             {
-              "i": "최대 $15k 광고비 운영",
-              "l": "최대 $15k의 광고비 운영이 비용에 포함됩니다 (광고비 자체는 플랫폼에서 별도 청구). 광고비 $5k 추가마다 비용 +$500."
+              "i": "최대 $15,000 광고비 운영",
+              "l": "최대 $15,000의 광고비 운영이 비용에 포함됩니다 (광고비 자체는 플랫폼에서 별도 청구). 광고비 $5,000 추가마다 비용 +$500."
             },
             {
               "i": "성과 검토 + 인수인계 문서",
@@ -2907,7 +2918,7 @@
             },
             {
               "i": "이메일 런칭 시퀀스",
-              "l": "대기자 육성 (런칭 전 이메일 3개) + 런칭 주간 6개 이메일 캠페인. 첫 5만 건 발송 기준으로 구축. 어떤 플랫폼에서도 작동 (Klaviyo, Kit, Mailchimp 또는 HubSpot)."
+              "l": "대기자 육성 (런칭 전 이메일 3개) + 런칭 주간 6개 이메일 캠페인. 첫 50,000건 발송 기준으로 구축. 어떤 플랫폼에서도 작동 (Klaviyo, Kit, Mailchimp 또는 HubSpot)."
             },
             {
               "i": "Product Hunt / 커뮤니티 런칭 준비 + 워룸",
@@ -2918,8 +2929,8 @@
               "l": "런칭 14일 후: 코호트, 채널, 크리에이티브, 퍼널 분석. 무엇이 통했고, 무엇이 안 됐고, 무엇에 집중해야 하는지 담은 20페이지 보고서."
             },
             {
-              "i": "최대 $30k 런칭 광고비 운영",
-              "l": "최대 $30k의 광고비 운영이 비용에 포함됩니다. 광고비 $5k 추가마다 비용 +$500. 광고비는 플랫폼에서 별도 청구."
+              "i": "최대 $30,000 런칭 광고비 운영",
+              "l": "최대 $30,000의 광고비 운영이 비용에 포함됩니다. 광고비 $5,000 추가마다 비용 +$500. 광고비는 플랫폼에서 별도 청구."
             }
           ],
           "ov": [
@@ -3190,7 +3201,7 @@
             },
             {
               "i": "브랜드 시스템 진화",
-              "l": "확장에 따른 소규모 시스템 업데이트: 새 템플릿, 컬러 확장 조정, 새 서브 브랜드 마크. 전체 리브랜딩은 여전히 $20k 이상으로 별도 견적."
+              "l": "확장에 따른 소규모 시스템 업데이트: 새 템플릿, 컬러 확장 조정, 새 서브 브랜드 마크. 전체 리브랜딩은 여전히 $20,000 이상으로 별도 견적."
             },
             {
               "i": "분기별 캠페인 콘셉트",
@@ -3202,7 +3213,7 @@
             }
           ],
           "ov": [
-            "전체 리브랜딩: $20k 이상 별도",
+            "전체 리브랜딩: $20,000 이상 별도",
             "브랜드 촬영일 (디렉션 + 업체 관리, 촬영비는 실비): 디렉션 비용 $2,500",
             "임베디드 디자이너 추가: +$3,500/월"
           ],
@@ -3227,10 +3238,10 @@
   },
   "careers": {
     "meta_title": "Blok Blok Studio 채용",
-    "meta_description": "베를린, 리치먼드, 로스앤젤레스, 물탄에 있는 다섯 명의 스튜디오가 댈러스부터 마닐라까지 고객의 웹사이트를 만듭니다. 일하는 방식과 포트폴리오 보내는 곳.",
+    "meta_description": "베를린, 리치먼드, 로스앤젤레스, 물탄에 있는 다섯 명의 스튜디오가 댈러스부터 마닐라까지 고객의 웹사이트를 만듭니다. 일하는 방식과 포트폴리오 보내는 곳을 안내합니다.",
     "label": "채용",
     "title": "작은 팀. 진짜 고객. 작업에 남는 당신의 이름.",
-    "intro": "네 도시에 있는 다섯 사람이 댈러스의 배관업체부터 Philippine Airlines까지 고객을 위해 만듭니다. 당신과 고객 사이에 단계가 없고, 당신과 작업 사이에 템플릿이 없습니다.",
+    "intro": "네 도시에 있는 다섯 사람이 댈러스의 배관업체부터 Philippine Airlines까지 고객을 위해 만듭니다. 당신과 고객 사이에 거치는 단계가 없고, 당신과 작업 사이에 템플릿이 없습니다.",
     "how_label": "일하는 방식",
     "how_1_title": "처음부터 원격",
     "how_1_text": "본사는 베를린. 크리에이티브 디렉터는 버지니아, 마케팅은 로스앤젤레스, 영상은 파키스탄에 있습니다. 비동기 소통이 기본이고, 통화는 꼭 필요할 때만 합니다.",
@@ -3245,7 +3256,7 @@
     "roles": [],
     "apply": "이메일로 지원하기",
     "none_title": "지금은 채용 중인 포지션이 없습니다.",
-    "none_text": "프로젝트에 필요할 때 채용하며, 보통 글도 쓸 수 있는 프런트엔드 개발자와 디자이너를 찾습니다. 포트폴리오와 만들고 싶은 것에 대한 두 줄을 보내주세요. 모두 읽어보고 좋은 분은 기억해 둡니다.",
+    "none_text": "프로젝트에 필요할 때 채용하며, 보통 글도 쓸 수 있는 프론트엔드 개발자와 디자이너를 찾습니다. 포트폴리오와 만들고 싶은 것에 대한 두 줄을 보내 주세요. 모두 읽어 보고 좋은 분은 기억해 둡니다.",
     "none_subject": "Blok Blok Studio 포트폴리오",
     "none_cta": "포트폴리오 보내기",
     "clients_note": "웹사이트를 찾고 계신가요?",
@@ -3257,33 +3268,33 @@
     "luki_where": "퍼스널 트레이너, 베를린",
     "luki_proof": "예약과 결제가 사이트에서 바로 끝납니다. DM도, 청구서도 없습니다.",
     "bronco_where": "댈러스-포트워스",
-    "bronco_proof": "첫 5개월 만에 총매출 $50k 이상. Google 리뷰 52개, 평점 5.0.",
+    "bronco_proof": "첫 5개월 만에 총매출 $50,000 이상. Google 리뷰 52개, 평점 5.0.",
     "ripz_where": "이커머스, 미국",
-    "ripz_proof": "저희가 구축한 Shopify 스토어에서 트레이딩 카드 매출 $191k, 주문 1,790건. 이후 소유주가 스토어를 내렸습니다.",
+    "ripz_proof": "저희가 구축한 Shopify 스토어에서 트레이딩 카드 매출 $191,000, 주문 1,790건. 이후 소유주가 스토어를 내렸습니다.",
     "view_case": "사례 연구 보기",
     "results_alt": "{name} 성과",
     "captions_label": "영어"
   },
   "impressum": {
     "meta_title": "법적 고지 (Impressum)",
-    "meta_description": "§ 5 DDG에 따른 Blok Blok Studio LLC의 법적 고지 (Impressum).",
+    "meta_description": "§ 5 DDG에 따른 Blok Blok Studio LLC의 법적 고지(Impressum)입니다.",
     "subtitle": "§ 5 DDG (독일 디지털 서비스법)에 따른 법적 고지",
     "provider_title": "서비스 제공자",
-    "provider_country": "미합중국",
-    "registered": "Nevada Secretary of State (미국)에 Limited Liability Company로 등록되어 있습니다.",
+    "provider_country": "미국",
+    "registered": "미국 네바다주 국무장관실(Nevada Secretary of State)에 유한책임회사(LLC)로 등록되어 있습니다.",
     "represented_title": "대표자",
-    "represented": "Chase Haynes (Managing Member)",
+    "represented": "Chase Haynes (업무집행사원)",
     "responsible": "§ 18 (2) MStV에 따른 콘텐츠 책임자: Chase Haynes",
     "contact_title": "연락처",
     "email_label": "이메일",
     "phone_label": "전화",
     "odr_title": "EU 분쟁 해결",
-    "odr_1": "유럽연합 집행위원회는 온라인 분쟁 해결 (ODR) 플랫폼을 제공합니다:",
+    "odr_1": "유럽연합 집행위원회는 온라인 분쟁 해결(ODR) 플랫폼을 제공합니다:",
     "odr_2": "당사의 이메일 주소는 위에서 확인하실 수 있습니다.",
     "odr_3": "당사는 소비자 중재 기관의 분쟁 해결 절차에 참여할 의사도 의무도 없습니다.",
     "liability_title": "콘텐츠 및 링크에 대한 책임",
     "liability_1": "서비스 제공자로서 당사는 일반 법률에 따라 이 페이지의 자체 콘텐츠에 책임을 집니다. 외부 링크의 콘텐츠에 대해서는 책임을 지지 않으며, 링크된 페이지의 내용은 항상 해당 제공자 또는 운영자의 책임입니다.",
-    "note": "이 법적 고지는 독일어 버전이 법적 효력을 갖는 텍스트입니다."
+    "note": "이 법적 고지는 독일어 버전이 법적 효력을 갖는 원문입니다."
   },
   "places": {
     "city_berlin": "베를린",
@@ -3312,7 +3323,7 @@
     "country_united_states": "미국"
   },
   "seo": {
-    "org_description": "야심 찬 브랜드를 위해 맞춤형 전환 중심 웹사이트를 제작하는 크리에이티브 웹 디자인 스튜디오입니다.",
+    "org_description": "야심 찬 브랜드를 위해 맞춤형 전환 중심 웹사이트를 만드는 베를린 웹 디자인 스튜디오입니다.",
     "local_description": "베를린에 기반을 두고 전 세계 야심 찬 브랜드를 위해 맞춤 Next.js 웹사이트를 제작하는 웹 디자인 스튜디오입니다.",
     "offer_catalog": "웹 디자인 서비스",
     "service_name": "웹사이트",

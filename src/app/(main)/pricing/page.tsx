@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
   openGraph: {
     title: `${t('meta_title')} | Blok Blok Studio`,
     description: t('meta_description'),
-    url: 'https://www.blokblokstudio.com/services',
+    url: 'https://www.blokblokstudio.com/pricing',
     siteName: 'Blok Blok Studio',
     type: 'website',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: `${t('meta_title')} | Blok Blok Studio` }],

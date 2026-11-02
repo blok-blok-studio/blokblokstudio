@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { FAQContent } from '@/components/FAQContent';
 import { BreadcrumbSchema, FAQSchema } from '@/app/structured-data';
+import { visibleFaqs } from '@/lib/faq-filter';
 
 interface FAQItem {
   category: string;
@@ -46,7 +47,7 @@ export default async function FAQPage() {
         ]}
       />
       <FAQSchema
-        faqs={items.map((item) => ({
+        faqs={visibleFaqs(items).map((item) => ({
           question: item.question,
           answer: item.answer,
         }))}

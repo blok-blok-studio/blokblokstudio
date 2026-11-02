@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { BOOKING_URL } from '@/data/studio';
+import { clientCities } from '@/data/client-locations';
+import { placeKey } from '@/lib/places';
 
 /**
  * V2Footer — the "Let's talk" block is the site's closing CTA, followed by
@@ -10,6 +12,7 @@ import { BOOKING_URL } from '@/data/studio';
 export async function V2Footer() {
   const t = await getTranslations('home');
   const nav = await getTranslations('nav');
+  const tp = await getTranslations('places');
 
   const pages = [
     { href: '/projects', label: nav('projects') },
@@ -84,10 +87,9 @@ export async function V2Footer() {
           <div>
             <p className={colHead}>{t('v2_loc_label')}</p>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li>Berlin</li>
-              <li>Richmond</li>
-              <li>Los Angeles</li>
-              <li>Multan</li>
+              {clientCities.filter((c) => c.studio).map((c) => (
+                <li key={c.city}>{tp(placeKey('city', c.city))}</li>
+              ))}
             </ul>
           </div>
           <div>

@@ -10,7 +10,7 @@ export const en: LocaleBundle = {
       desc: 'Conversion-focused personal training website for Berlin\'s leading vegan personal trainer.',
       challenge: 'Luke Satterly (Coach Luki) is one of Berlin\'s most dedicated personal trainers. A vegan athlete training clients at Holmes Place and John Reed, he needed a site that matched his energy: bold, results-focused, and built to convert. The goal was simple. Someone lands on the site, understands exactly what Luki does, sees the proof, and books a call. No fluff. No confusion. Just results.',
       solution: 'We designed a conversion-first website where every section drives toward one goal: booking a free consultation. Stripe payment integration lets clients purchase session packages directly with zero friction. Berlin-local SEO was baked in from day one, targeting searches like "personal trainer Berlin" and "vegan fitness coach Berlin".',
-      results: 'A fully conversion-optimized personal training site live in Berlin, built, designed and deployed by BlokBlok Studio. Clients can now book and pay directly through the site, eliminating DMs and invoices. Local SEO positioning drives organic traffic from Berlin-based searchers.',
+      results: 'A fully conversion-optimized personal training site live in Berlin, built, designed and deployed by Blok Blok Studio. Clients can now book and pay directly through the site, eliminating DMs and invoices. Local SEO positioning drives organic traffic from Berlin-based searchers.',
     },
     'bronco-plumbing': {
       desc: 'Lead-generating website and online growth system for a Dallas-Fort Worth plumbing company.',
@@ -39,7 +39,7 @@ export const en: LocaleBundle = {
     'coach-kofi': {
       desc: 'High-performance personal brand and coaching platform with bold visual identity.',
       challenge: 'Coach Kofi needed a personal brand website that matched his bold "Just Do The Work" philosophy. The existing online presence didn\'t reflect the energy and authority he brings to movement, performance, and development coaching.',
-      solution: 'We designed a striking black-and-white website with bold typography, professional photography integration, and a clear conversion flow from visitor to coaching client. The site features real-time booking, social proof counters (150+ clients, 8000+ hours coached), and a mobile-first responsive design.',
+      solution: 'We designed a striking black-and-white website with bold typography, professional photography integration, and a clear conversion flow from visitor to coaching client. The site features real-time booking, social proof counters (150+ clients, 8,000+ hours coached), and a mobile-first responsive design.',
       results: 'Professional brand presence that instantly communicates authority. Streamlined booking flow increased consultation requests by 200%, and the bold design became a signature part of Coach Kofi\'s brand identity across platforms.',
       metrics: [
         {
@@ -106,7 +106,7 @@ export const en: LocaleBundle = {
 
 ## 1. Slow Load Times Kill Conversions
 
-When the BBC studied its own traffic, it found it lost an additional 10% of users for every extra second the site took to load. The upside is just as real: Vodafone improved its Largest Contentful Paint by 31% and sales rose 8%, and Rakuten 24 grew revenue per visitor by 53% after passing Core Web Vitals thresholds. All three results are documented in Google's web.dev case studies (see Sources below).
+When the BBC studied its own traffic, it found that it lost a further 10% of users for every extra second the site took to load. The upside is just as real: Vodafone improved its Largest Contentful Paint by 31% and sales rose 8%, and Rakuten 24 grew revenue per visitor by 53% after passing Core Web Vitals thresholds. All three results are documented in Google's web.dev case studies (see Sources below).
 
 Google's current targets are concrete: main content visible (LCP) within 2.5 seconds, response to taps and clicks (INP) within 200 milliseconds, and layout shift (CLS) under 0.1, measured at the 75th percentile of real visits.
 
@@ -212,7 +212,7 @@ If you'd rather not run this checklist alone, book a free strategy call and we'l
     },
     'brand-identity-investment': {
       readTime: '5 min read',
-      content: `Most businesses treat branding as decoration. The numbers say otherwise. Kantar's BrandZ ranking values the world's 100 most valuable brands at a combined 13.1 trillion dollars in 2026, up 22% in a single year. Brand is an asset, and like any asset it compounds. Here's what a strong identity actually does for a business, and how to tell when yours is holding you back.
+      content: `Most businesses treat branding as decoration. The numbers say otherwise. Kantar's BrandZ ranking values the world's 100 most valuable brands at a combined $13.1 trillion in 2026, up 22% in a single year. Brand is an asset, and like any asset it compounds. Here's what a strong identity actually does for a business, and how to tell when yours is holding you back.
 
 ## What Brand Identity Actually Is
 
@@ -226,7 +226,7 @@ Think of the world's most valuable brands. You recognize them instantly, not jus
 
 **2. Premium pricing.** Kantar measures brand strength partly as pricing power: the ability to charge more than competitors without losing demand. That pricing power is a large part of why the value of the world's strongest brands keeps climbing while weaker competitors fight on price.
 
-**3. Customer loyalty.** Harvard Business Review documented what happened when companies invested in emotional connection with customers: one bank grew product use among its target segment by 70% and new accounts by 40%, and an apparel retailer more than tripled its same-store sales growth. People don't just buy products, they buy into brands.
+**3. Customer loyalty.** Harvard Business Review documented what happened when companies invested in emotional connection with customers: one bank grew product use among its target segment by 70% and new accounts by 40%, and an apparel retailer more than tripled its same-store sales growth. People don't just buy products. They buy into brands.
 
 **4. Marketing efficiency.** When your brand is clear and consistent, every marketing dollar works harder. People remember you. They recognize you. They come back.
 
@@ -276,7 +276,7 @@ Through the whole process I just felt seen, I felt heard, I felt like I was bein
 
 What I love most about the website is it's not just another template anyone can throw together. There's a lot of intention that went into it. We focused on the customer journey, the user experience, and made sure that the website, the brand identity, looked authentic and memorable.
 
-So if you're looking for someone who takes care of you, who focuses on the details, and who's there for you, who's responsive — you're definitely in the right place with Chase, or Blok Blok Studio in this case.`,
+So if you're looking for someone who takes care of you, who focuses on the details, and who's there for you, who's responsive, you're definitely in the right place with Chase, or Blok Blok Studio in this case.`,
     },
     founder: {
       name: 'A word from the founder of Blok Blok Studio',
