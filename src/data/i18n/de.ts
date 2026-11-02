@@ -494,7 +494,7 @@ Darunter finden Sie ein Kontaktformular. Tragen Sie einfach Ihre Daten ein. Die 
         heading: 'Fallstudie',
         name: 'Coach Luki, Berlin',
         result: 'Buchungen und Zahlungen laufen direkt über die Website',
-        body: '„Sie haben meine komplette Website von Grund auf gebaut, und jetzt buchen und bezahlen Kunden direkt darüber. Früher habe ich Stunden mit DMs und Rechnungen verschwendet.“ Luke Satterly trainiert Klienten bei Holmes Place und John Reed in Berlin. Seine Website übernimmt Buchung, Stripe-Zahlungen und lokales SEO für Suchen wie „Personal Trainer Berlin“.',
+        body: '„Was ich an der Website am meisten mag: Sie ist nicht einfach ein weiteres Template, das jeder zusammenklicken kann. Da steckt viel Absicht drin.“ Luke Satterly trainiert Klienten bei Holmes Place und John Reed in Berlin. Seine Website übernimmt Buchung, Stripe-Zahlungen und lokales SEO für Suchen wie „Personal Trainer Berlin“.',
         linkLabel: 'Zur vollständigen Fallstudie',
       },
       faqHeading: 'Häufige Fragen',

@@ -494,7 +494,7 @@ Under det har vi ett kontaktformulär. Fyll bara i dina uppgifter. Det kommer di
         heading: 'Fallstudie',
         name: 'Coach Luki, Berlin',
         result: 'Bokningar och betalningar går rakt genom sajten',
-        body: '"De byggde hela min sajt från grunden och nu bokar och betalar klienterna direkt via den. Förut slösade jag timmar på DM och fakturor." Luke Satterly tränar klienter på Holmes Place och John Reed i Berlin. Hans sajt sköter bokning, Stripe-betalningar och lokal SEO för sökningar som "personal trainer Berlin".',
+        body: '"Det jag gillar mest med webbplatsen är att den inte bara är ännu en mall som vem som helst kan slänga ihop. Det ligger mycket avsikt bakom den." Luke Satterly tränar klienter på Holmes Place och John Reed i Berlin. Hans sajt sköter bokning, Stripe-betalningar och lokal SEO för sökningar som "personal trainer Berlin".',
         linkLabel: 'Läs hela fallstudien',
       },
       faqHeading: 'Vanliga frågor',

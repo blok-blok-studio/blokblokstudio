@@ -494,7 +494,7 @@ Below that, we've got a lead form. Just put all your information in. It comes st
         heading: 'Case study',
         name: 'Coach Luki, Berlin',
         result: 'Bookings and payments run straight through the site',
-        body: '"They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices." Luke Satterly trains clients at Holmes Place and John Reed in Berlin. His site handles booking, Stripe payments, and local SEO for searches like "personal trainer Berlin".',
+        body: '"What I love most about the website is it\'s not just another template anyone can throw together. There\'s a lot of intention that went into it." Luke Satterly trains clients at Holmes Place and John Reed in Berlin. His site handles booking, Stripe payments, and local SEO for searches like "personal trainer Berlin".',
         linkLabel: 'Read the full case study',
       },
       faqHeading: 'Common questions',

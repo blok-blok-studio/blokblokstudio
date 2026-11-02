@@ -29,13 +29,13 @@
     "meta_description": "Câu trả lời về giá cả, thời gian, website tùy chỉnh và cách làm việc với Blok Blok Studio, một studio thiết kế web tại Berlin phục vụ khách hàng toàn cầu.",
     "hero_eyebrow": "Câu hỏi thường gặp",
     "hero_title": "Mọi điều bạn muốn hỏi",
-    "hero_subtitle": "Câu trả lời trung thực về cách chúng tôi làm việc, mức phí và những gì chúng tôi xây dựng. Nếu không thấy câu hỏi của bạn, hãy đặt lịch gọi 30 phút miễn phí.",
+    "hero_subtitle": "Câu trả lời trung thực về cách chúng tôi làm việc, mức phí và những gì chúng tôi xây dựng. Nếu không thấy câu hỏi của bạn, hãy đặt lịch gọi 15 phút miễn phí.",
     "category_pricing": "Giá cả & Đầu tư",
     "category_process": "Quy trình & Tiến độ",
     "category_capabilities": "Dịch vụ & Năng lực",
     "category_trust": "Làm việc với Blok Blok Studio",
     "cta_heading": "Vẫn còn câu hỏi?",
-    "cta_subheading": "Đặt lịch gọi chiến lược 30 phút miễn phí. Không chào hàng, không áp lực, chỉ có câu trả lời.",
+    "cta_subheading": "Đặt lịch gọi 15 phút miễn phí. Không chào hàng, không áp lực, chỉ có câu trả lời.",
     "cta_button": "Đặt lịch gọi miễn phí",
     "see_all_questions": "Xem tất cả câu hỏi",
     "filter_all": "Tất cả",
@@ -43,32 +43,17 @@
       {
         "category": "pricing",
         "question": "Một website tùy chỉnh có giá bao nhiêu?",
-        "answer": "Website tùy chỉnh tại Blok Blok Studio bắt đầu từ 2.000 USD cho một landing page đơn lẻ, 6.500 USD cho website 5 trang, 12.000 USD cho 10 trang kèm CMS và 18.000 USD cho 15 trang trở lên. Giá phụ thuộc vào số trang, hiệu ứng tùy chỉnh, các tích hợp và nhu cầu copywriting. Mọi website đều được xây bằng Next.js, host trên Vercel và tối ưu SEO từ ngày đầu, không bao giờ là template."
+        "answer": "Một landing page đơn lẻ là 2.000 USD, website 5 trang 6.500 USD, 10 trang kèm CMS 12.000 USD, và từ 15 trang trở lên kèm thương mại điện tử từ 18.000 USD. Các mức giá này áp dụng như nhau dù là website mới hay thiết kế lại website hiện tại của bạn. Giá phụ thuộc vào số trang, hiệu ứng tùy chỉnh, các tích hợp và nhu cầu copywriting. Mọi website đều được xây bằng Next.js, host trên Vercel và tối ưu SEO từ ngày đầu, không bao giờ là template."
       },
       {
         "category": "pricing",
-        "question": "Xây dựng một chatbot AI tốn bao nhiêu?",
-        "answer": "Một chatbot AI được huấn luyện trên 100+ cặp hỏi đáp và nhúng trên toàn website được bao gồm trong gói AI Hội thoại 18.000 USD, gói này còn gồm voice agent, tự động hóa SMS và một pipeline nội dung hoàn chỉnh. Là add-on riêng cho một gói website, chatbot AI bắt đầu từ 2.500 USD. Mọi bot đều tích hợp với CRM của bạn và thu thập khách hàng tiềm năng 24/7."
-      },
-      {
-        "category": "pricing",
-        "question": "Một AI voice agent có giá bao nhiêu mỗi tháng?",
-        "answer": "Cài đặt AI voice agent của chúng tôi bắt đầu từ 2.500 USD một lần, kèm 500 phút thoại trong tháng đầu. Phút bổ sung được tính theo giá viễn thông tiêu chuẩn và gộp vào hợp đồng hàng tháng. Agent trả lời cuộc gọi, sàng lọc khách hàng, đặt lịch hẹn và chuyển các cuộc gọi khẩn sang người thật, tất cả bằng ngôn ngữ đối thoại tự nhiên."
-      },
-      {
-        "category": "pricing",
-        "question": "Bạn có nhận hợp đồng hàng tháng hay chỉ làm dự án?",
-        "answer": "Cả hai. Dự án bắt đầu từ 2.000 USD và thanh toán theo cột mốc. Hợp đồng hàng tháng bắt đầu từ 1.500 USD/tháng cho bảo trì website, giám sát AI và CRM, hoặc 3.500 USD/tháng cho tăng trưởng trọn gói gồm quản lý quảng cáo Google và Meta, sản xuất nội dung hỗ trợ AI và 5 giờ phát triển mỗi tháng. Hợp đồng yêu cầu tối thiểu 3 hoặc 6 tháng."
+        "question": "Bạn có gói hosting và chăm sóc hàng tháng hay chỉ làm dự án?",
+        "answer": "Cả hai. Dự án bắt đầu từ 2.000 USD và thanh toán theo cột mốc. Sau khi ra mắt, các gói hosting và chăm sóc bắt đầu từ 550 USD/tháng cho Chăm sóc Website (giám sát, sao lưu, cập nhật bảo mật và chỉnh sửa nội dung nhỏ), 1.600 USD/tháng cho Phát triển Website (một trang hoặc phần mới và A/B test mỗi tháng) và 3.800 USD/tháng cho Đối tác Website (một lập trình viên và một nhà thiết kế chuyên trách). Các gói yêu cầu tối thiểu 3 tháng."
       },
       {
         "category": "process",
         "question": "Mất bao lâu để xây dựng một website tùy chỉnh?",
-        "answer": "Một landing page đơn lẻ thường ra mắt trong 2 đến 3 tuần. Một website 5 trang mất 4 đến 6 tuần. Một website 10 trang có CMS và tích hợp AI mất 8 đến 12 tuần. Thời gian phụ thuộc vào tốc độ bạn cung cấp nội dung, thông tin thương hiệu và phê duyệt. Chúng tôi làm nhanh; hầu hết các agency mất gấp 2 đến 3 lần thời gian."
-      },
-      {
-        "category": "process",
-        "question": "Triển khai một AI agent mất bao lâu?",
-        "answer": "Một chatbot AI tiêu chuẩn được huấn luyện trên FAQ hiện có của bạn sẽ chạy trong 7 đến 10 ngày làm việc. Một voice agent với kịch bản tùy chỉnh mất 10 đến 14 ngày. Một hệ sinh thái multi-agent đầy đủ với tích hợp CRM, lịch và thanh toán mất 4 đến 8 tuần tùy độ phức tạp. Chúng tôi bắt đầu bằng cuộc gọi tìm hiểu, sau đó là tài liệu định phạm vi trả phí, rồi xây dựng."
+        "answer": "Một landing page đơn lẻ thường ra mắt trong 2 đến 3 tuần. Website 5 trang mất 4 đến 6 tuần, website 10 trang kèm CMS 6 đến 8 tuần, và từ 15 trang trở lên 8 đến 12 tuần. Thiết kế lại cũng theo lịch trình này. Thời gian phụ thuộc vào tốc độ bạn cung cấp nội dung, thông tin thương hiệu và phê duyệt."
       },
       {
         "category": "process",
@@ -77,33 +62,23 @@
       },
       {
         "category": "capabilities",
-        "question": "Sự khác biệt giữa chatbot AI và voice agent AI là gì?",
-        "answer": "Chatbot AI dựa trên văn bản và nằm trên website hoặc trong ứng dụng nhắn tin, nó trả lời FAQ, đặt lịch hẹn và bắt khách hàng tiềm năng qua chat. Voice agent AI trả lời cuộc gọi thực bằng ngôn ngữ nói tự nhiên. Voice agent phù hợp nhất cho bán hàng inbound, hỗ trợ ngoài giờ và xác nhận lịch hẹn. Nhiều doanh nghiệp dùng cả hai để bao phủ toàn diện."
-      },
-      {
-        "category": "capabilities",
-        "question": "AI agent của bạn có thể tích hợp với HubSpot, Salesforce hoặc GoHighLevel không?",
-        "answer": "Có. AI agent và tự động hóa của chúng tôi tích hợp gốc với HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe và Calendly. Với CRM và công cụ không có sẵn tích hợp, chúng tôi xây connector tùy chỉnh, không tốn thêm phí trung gian qua Zapier. Dữ liệu của bạn ở trong hệ thống của bạn, chúng tôi chỉ giúp chúng giao tiếp với nhau."
-      },
-      {
-        "category": "capabilities",
-        "question": "Bạn xây dựng website trên Next.js, WordPress hay Webflow?",
-        "answer": "Chúng tôi chỉ xây trên Next.js với TypeScript, Tailwind CSS và Framer Motion. Site được host trên Vercel để có tốc độ tải dưới một giây và phân phối edge toàn cầu. Chúng tôi không xây trên WordPress, Wix, Squarespace hay Webflow, các nền tảng đó không thể đáp ứng hiệu suất, hiệu ứng tùy chỉnh hoặc tích hợp AI mà khách hàng của chúng tôi cần."
+        "question": "Bạn xây dựng trên Next.js, WordPress hay Webflow?",
+        "answer": "Mặc định chúng tôi code thủ công bằng Next.js với TypeScript và Tailwind CSS, host trên Vercel để có tốc độ tải dưới một giây. Tốc độ, hiệu ứng tùy chỉnh và kết quả SEO đều đến từ đó. Nếu tình huống của bạn đòi hỏi, ví dụ đội ngũ của bạn đã quen dùng WordPress hoặc website marketing cần trình chỉnh sửa của Webflow, chúng tôi cũng xây trên các nền tảng đó."
       },
       {
         "category": "capabilities",
         "question": "Bạn viết nội dung website hay tôi cung cấp?",
-        "answer": "Cả hai đều được. Hầu hết khách hàng cung cấp ghi chú thô hoặc gạch đầu dòng và chúng tôi định hình thành nội dung cuối cùng. Copywriting chuyên nghiệp đầy đủ được bao gồm trong gói 18.000 USD và có sẵn dưới dạng add-on 200 USD/trang ở bất kỳ gói nào khác. Nội dung quảng cáo cho chiến dịch Google và Meta luôn do chúng tôi viết khi chúng tôi quản lý."
+        "answer": "Cả hai đều được. Hầu hết khách hàng cung cấp ghi chú thô hoặc gạch đầu dòng và chúng tôi định hình thành nội dung hoàn chỉnh. Copywriting chuyên nghiệp đầy đủ được bao gồm trong gói 18.000 USD và có sẵn dưới dạng add-on 200 USD/trang ở bất kỳ gói nào khác."
       },
       {
         "category": "trust",
         "question": "Blok Blok Studio ở đâu và bạn có làm việc quốc tế không?",
-        "answer": "Studio của chúng tôi đặt tại Berlin, Đức. Chúng tôi làm việc với khách hàng tại Hoa Kỳ, Vương quốc Anh, Hà Lan, Pháp, Tây Ban Nha và khắp EU. Giao tiếp diễn ra bất đồng bộ qua Loom, email và tin nhắn, phù hợp mọi múi giờ. Hóa đơn và hợp đồng có sẵn bằng USD hoặc EUR tùy ý bạn."
+        "answer": "Studio của chúng tôi đặt tại Berlin, Đức, với các thành viên ở Richmond, Los Angeles và Multan. Khách hàng của chúng tôi ở Hoa Kỳ, Đức và Philippines. Giao tiếp diễn ra bất đồng bộ qua Loom, email và tin nhắn, nên múi giờ nào cũng phù hợp. Hóa đơn và hợp đồng có sẵn bằng USD hoặc EUR."
       },
       {
         "category": "trust",
-        "question": "Tôi có sở hữu code website và cấu hình AI agent không?",
-        "answer": "Có, hoàn toàn. Khi hoàn thành dự án, bạn nhận quyền sở hữu đầy đủ code, file thiết kế, prompt AI và cấu hình tự động hóa. Website được triển khai trên tài khoản Vercel của chính bạn, do bạn thanh toán. CRM, tài khoản quảng cáo và tên miền đứng tên bạn từ ngày đầu. Chúng tôi không bao giờ khóa khách hàng vào hệ thống của mình."
+        "question": "Tôi có sở hữu code website của mình không?",
+        "answer": "Có, hoàn toàn. Khi hoàn thành dự án, bạn nhận quyền sở hữu đầy đủ code và file thiết kế. Website được triển khai trên tài khoản Vercel của chính bạn, do bạn thanh toán, và tên miền đứng tên bạn từ ngày đầu. Chúng tôi không bao giờ khóa khách hàng vào hệ thống của mình."
       },
       {
         "category": "trust",
@@ -135,7 +110,7 @@
     "tab_all": "Tất cả",
     "tab_ai": "AI & Tự động hóa",
     "tab_creative": "Sáng tạo & Marketing",
-    "audit_badge": "Miễn phí, 30 phút",
+    "audit_badge": "Miễn phí, 15 phút",
     "audit_heading": "Không chắc doanh nghiệp của bạn cần gì?",
     "audit_subheading": "Đặt lịch gọi chiến lược miễn phí. Chúng tôi sẽ xem xét doanh nghiệp của bạn và chỉ ra chính xác nơi có cơ hội lớn nhất.",
     "audit_button": "Đặt lịch gọi miễn phí",
@@ -239,8 +214,8 @@
     "v2_quote_2_role": "Vận động viên Nike, Berlin",
     "v2_quote_3_role": "Cửa hàng thẻ bài sưu tầm",
     "v2_quote_1_text": "50.000 USD doanh thu gộp trong năm tháng đầu, điểm 5,0 sao trên 52 đánh giá Google và vị trí trung bình 5,2 trên Google cho các từ khóa của anh ấy.",
-    "v2_quote_2_text": "Blok Blok Studio đã thay đổi hoàn toàn sự hiện diện trực tuyến của tôi. Thiết kế táo bạo thể hiện trọn vẹn triết lý huấn luyện của tôi và kết quả thật đáng kinh ngạc.",
-    "v2_quote_3_text": "Cửa hàng thương mại điện tử họ xây cho chúng tôi thật tuyệt vời. Các đợt mở bán booster pack hết sạch trong vài giờ và sự gắn kết của cộng đồng qua website thật ấn tượng.",
+    "v2_quote_2_text": "Giao tiếp với anh ấy thật sự rất dễ. Bạn cần một người phản hồi nhanh, hiểu rõ việc mình làm và biết thích ứng với nhu cầu của bạn. Tôi thật sự giới thiệu Chase, hay Blok Blok Studio.",
+    "v2_quote_3_text": "191.042 USD doanh thu thẻ bài sưu tập qua 1.790 đơn hàng trên cửa hàng Shopify chúng tôi xây. Các đợt mở bán hết sạch trong vài giờ.",
     "v2_quote_1_kind": "Kết quả",
     "v2_offer_title": "Website, xây dựng và host trọn gói",
     "v2_offer_subtitle": "Xây dựng riêng, tập trung chuyển đổi, đã bao gồm hosting và chăm sóc",
@@ -249,7 +224,7 @@
     "v2_result_grant_parkhurst": "Portfolio kèm cổng khách hàng tự phục vụ, hoạt động từ tháng 9 năm 2026.",
     "v2_next_label": "Điều gì diễn ra tiếp theo",
     "v2_next_1_title": "Chúng tôi gọi lại cho bạn",
-    "v2_next_1_desc": "Trong vòng một ngày làm việc. Hai mươi phút bàn về điều website phải làm được cho doanh nghiệp, không gì khác.",
+    "v2_next_1_desc": "Trong vòng một ngày làm việc. Mười lăm phút bàn về điều website phải làm được cho doanh nghiệp, không gì khác.",
     "v2_next_2_title": "Phạm vi và một mức giá cố định",
     "v2_next_2_desc": "Kế hoạch bằng văn bản với số trang, thời gian và một con số duy nhất. Website năm trang từ {price}, không tính giờ.",
     "v2_next_3_title": "Từ khởi động đến ra mắt",
@@ -628,13 +603,13 @@
     "acceptance_title": "Chấp nhận điều khoản",
     "acceptance_content": "Khi truy cập và sử dụng website này, bạn chấp nhận và đồng ý bị ràng buộc bởi các Điều khoản Dịch vụ này. Nếu bạn không đồng ý, vui lòng không sử dụng website hoặc dịch vụ.",
     "services_title": "Dịch vụ",
-    "services_content": "Blok Blok Studio cung cấp dịch vụ thiết kế, phát triển và marketing số. Điều khoản, sản phẩm bàn giao và giá cả cụ thể được nêu trong từng hợp đồng và đề xuất.",
+    "services_content": "Blok Blok Studio cung cấp dịch vụ thiết kế, phát triển, thiết kế lại và hosting website. Điều khoản, sản phẩm bàn giao và giá cả cụ thể của từng dự án được nêu trong từng hợp đồng và đề xuất.",
     "user_responsibilities_title": "Trách nhiệm người dùng",
     "user_responsibilities_content": "Bạn đồng ý cung cấp thông tin chính xác khi sử dụng form và dịch vụ, và sử dụng website hợp pháp theo các điều khoản này.",
     "ip_title": "Sở hữu trí tuệ",
     "ip_content": "Mọi nội dung trên website, bao gồm thiết kế, văn bản, đồ họa và mã, thuộc sở hữu của Blok Blok Studio trừ khi có ghi chú khác. Quyền sở hữu tác phẩm khách hàng được xác định trong từng hợp đồng dự án.",
     "liability_title": "Giới hạn trách nhiệm",
-    "liability_content": "Blok Blok Studio không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên hoặc do hậu quả phát sinh từ việc sử dụng website hoặc dịch vụ. Tổng trách nhiệm của chúng tôi không vượt quá số tiền đã thanh toán cho dịch vụ cụ thể.",
+    "liability_content": "Blok Blok Studio không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên hoặc do hậu quả phát sinh từ việc sử dụng website hoặc dịch vụ. Tổng trách nhiệm của chúng tôi không vượt quá số tiền đã thanh toán cho dịch vụ cụ thể. Giới hạn này không áp dụng đối với trách nhiệm do cố ý hoặc sơ suất nghiêm trọng, đối với thiệt hại về tính mạng, thân thể hoặc sức khỏe, hoặc trong trường hợp trách nhiệm không thể bị giới hạn theo pháp luật hiện hành.",
     "governing_law_title": "Luật điều chỉnh",
     "governing_law_content": "Các điều khoản này được điều chỉnh theo luật hiện hành. Mọi tranh chấp sẽ được giải quyết thông qua thương lượng thiện chí trước khi theo đuổi hành động pháp lý chính thức.",
     "changes_title": "Thay đổi điều khoản",
@@ -1094,7 +1069,7 @@
     "custom_quote": "Muốn báo giá riêng?",
     "hero_title_a": "Bạn nhận được gì,",
     "hero_title_em": "ghi rõ từng dòng.",
-    "hero_sub": "Website, ứng dụng, tự động hóa, quảng cáo, thương hiệu và quản lý mạng xã hội ứng dụng AI. Mỗi dự án đều được báo giá riêng theo phạm vi của bạn, với các hạng mục bàn giao ghi rõ bằng văn bản để cả hai bên đều biết chính xác mình đang xây dựng điều gì.",
+    "hero_sub": "Website được xây mới, thiết kế lại và hosting. Mỗi dự án đều được báo giá theo phạm vi, với các hạng mục bàn giao ghi rõ bằng văn bản để cả hai bên đều biết mình đang xây dựng điều gì.",
     "tabs": {
       "web": "Phát triển web",
       "app": "Phát triển ứng dụng",
@@ -1105,8 +1080,8 @@
       "branding": "Chiến lược thương hiệu"
     },
     "sections": {
-      "oneTime": "Dự án Một lần",
-      "webSupport": "Gói Hàng tháng",
+      "oneTime": "Website: xây mới hoặc thiết kế lại",
+      "webSupport": "Gói hosting và chăm sóc",
       "appBuild": "Xây dựng Một lần",
       "appSupport": "Gói Hàng tháng",
       "socialSetup": "Thiết lập Một lần",
@@ -1136,23 +1111,27 @@
           "scope": [
             {
               "i": "Landing page tùy chỉnh (1 trang)",
-              "l": "Website một trang được thiết kế riêng hoàn toàn, tương thích di động, xây dựng bằng Next.js. Bao gồm các phần cuộn: hero, giới thiệu, dịch vụ, đánh giá khách hàng và form liên hệ. Bố cục responsive cho desktop, tablet và di động. Viết sẵn tiêu đề và mô tả SEO. Bao gồm chứng chỉ SSL và thiết lập hosting trên Vercel."
+              "l": "Một trang được thiết kế riêng hoàn toàn, tương thích di động, xây dựng bằng Next.js: hero, ưu đãi, bằng chứng, liên hệ. Bố cục responsive cho desktop, tablet và di động. Viết sẵn meta title và mô tả SEO. Bao gồm SSL và thiết lập hosting trên Vercel."
             },
             {
-              "i": "Nhận diện thương hiệu (logo + màu sắc)",
-              "l": "2 ý tưởng logo ban đầu trình bày dưới dạng mockup. Bạn chọn 1 để hoàn thiện. Bàn giao: file logo định dạng PNG, SVG và PDF (bản đầy đủ màu, trắng và đen). 1 bảng màu chính (5 màu kèm mã hex) và 1 cặp font (tiêu đề + nội dung). Chưa bao gồm tài liệu hướng dẫn thương hiệu đầy đủ ở gói này."
+              "i": "Thiết kế theo thương hiệu của bạn",
+              "l": "Chúng tôi làm việc dựa trên logo và màu sắc sẵn có của bạn, hoặc cùng bạn chọn bảng màu và cặp font nếu bạn chưa có. Không dùng template; bố cục được vẽ riêng cho nội dung của bạn."
+            },
+            {
+              "i": "Form liên hệ có thông báo qua email",
+              "l": "Form chống spam gửi thẳng vào hộp thư của bạn, kèm thông báo xác nhận cho người truy cập."
             },
             {
               "i": "Phân tích & theo dõi",
-              "l": "Cài đặt và cấu hình Google Analytics 4. Thiết lập 1 mục tiêu chuyển đổi (ví dụ: gửi form hoặc bấm gọi điện). Kết nối Google Search Console. Theo dõi sự kiện cơ bản trên các nút CTA."
+              "l": "Kết nối Google Analytics 4 và Search Console, kèm sự kiện chuyển đổi trên form để bạn thấy trang mang lại kết quả gì."
             },
             {
-              "i": "Chỉnh sửa thiết kế",
-              "l": "2 vòng chỉnh sửa. Một “vòng” = 1 bộ phản hồi tổng hợp. Phản hồi phải được gửi trong vòng 5 ngày làm việc sau mỗi lần xem xét. Không nhận phản hồi lẻ tẻ qua nhiều email."
+              "i": "Chỉnh sửa thiết kế (2 vòng)",
+              "l": "Hai vòng chỉnh sửa có cấu trúc sau buổi trình bày thiết kế đầu tiên. Mỗi vòng, các thay đổi được gom vào một danh sách để không bỏ sót điều gì."
             },
             {
               "i": "Nội dung & văn bản",
-              "l": "Khách hàng cung cấp toàn bộ nội dung chữ (tiêu đề, nội dung, tiểu sử, mô tả dịch vụ). Chúng tôi lo bố cục, định dạng và sắp xếp. Nếu cần viết nội dung, có thể bổ sung với giá 200 USD/trang."
+              "l": "Bạn gửi ghi chú hoặc gạch đầu dòng, chúng tôi định hình thành nội dung hoàn chỉnh cho trang. Copywriting chuyên nghiệp đầy đủ có sẵn dưới dạng add-on."
             }
           ],
           "ov": [
@@ -1161,7 +1140,7 @@
             "Thêm phần nội dung: 250 USD"
           ],
           "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi khách hàng duyệt HOẶC sau 2 vòng chỉnh sửa. Sau khi duyệt: 175 USD/giờ.",
-          "bridge": "Bao gồm 14 ngày theo dõi sau ra mắt (sửa lỗi và tinh chỉnh nhỏ). Cần thêm trang hoặc tính năng? Nâng cấp lên gói Ra mắt Khởi đầu (6.500 USD) để có website 5 trang đầy đủ kèm AI chat và thiết lập CRM.",
+          "bridge": "Bao gồm 14 ngày theo dõi sau ra mắt (sửa lỗi và tinh chỉnh nhỏ). Cần thêm trang? Gói Ra mắt Khởi đầu có năm trang.",
           "ideal": "Dự án phụ, thương hiệu cá nhân, landing page đơn giản"
         },
         {
@@ -1172,43 +1151,41 @@
           "tl": "4 đến 6 tuần",
           "scope": [
             {
-              "i": "Website tùy chỉnh (5 trang)",
-              "l": "Website được thiết kế riêng hoàn toàn, tương thích di động, xây dựng bằng Next.js. Bao gồm: Trang chủ, Giới thiệu, Dịch vụ, Liên hệ và 1 trang tùy chọn thêm. Mỗi trang có bố cục responsive cho desktop, tablet và di động. Viết tiêu đề và mô tả SEO cho cả 5 trang. Bao gồm chứng chỉ SSL và thiết lập hosting trên Vercel."
+              "i": "Website tùy chỉnh (5 trang), xây mới hoặc thiết kế lại",
+              "l": "Website được thiết kế riêng hoàn toàn, tương thích di động, xây dựng bằng Next.js: Trang chủ, Giới thiệu, Dịch vụ, Liên hệ và một trang tùy bạn chọn. Phù hợp cho website hoàn toàn mới hoặc thiết kế lại website bạn đang có. Meta title và mô tả SEO cho cả năm trang. Bao gồm SSL và thiết lập hosting trên Vercel."
             },
             {
-              "i": "Nhận diện thương hiệu (logo + màu sắc)",
-              "l": "2 ý tưởng logo ban đầu trình bày dưới dạng mockup. Bạn chọn 1 để hoàn thiện. Bàn giao: file logo định dạng PNG, SVG và PDF (bản đầy đủ màu, trắng và đen). 1 bảng màu chính (5 màu kèm mã hex) và 1 cặp font (tiêu đề + nội dung). Chưa bao gồm tài liệu hướng dẫn thương hiệu đầy đủ ở gói này."
+              "i": "Thiết kế theo thương hiệu của bạn",
+              "l": "Xây dựng trên logo và màu sắc sẵn có của bạn, hoặc bảng màu và cặp font được chọn cùng bạn. Mỗi phần đều được thiết kế cho nội dung của bạn, không nhét vào theme có sẵn."
             },
             {
-              "i": "Widget AI chat",
-              "l": "1 chatbot AI nhúng vào website của bạn. Được huấn luyện trên 25 cặp hỏi đáp do bạn cung cấp (ví dụ: giá, giờ làm việc, dịch vụ). Bao gồm form thu thập khách hàng tiềm năng gửi thẳng vào CRM. Cấu hình lời chào cơ bản và câu trả lời dự phòng."
+              "i": "Form liên hệ và đặt lịch",
+              "l": "Form liên hệ chống spam cùng link đặt lịch hoặc lịch nhúng, để người truy cập có thể liên hệ hoặc đặt lịch hẹn mà không phải email qua lại."
             },
             {
-              "i": "Thiết lập CRM (GoHighLevel)",
-              "l": "Tạo 1 pipeline bán hàng với 5 giai đoạn (ví dụ: Lead mới → Đã liên hệ → Đã gửi đề xuất → Thành công → Thất bại). 5 chuỗi tự động hóa (ví dụ: email thông báo lead mới, nhắc nhở follow-up, xác nhận lịch hẹn, nhắn tin lại khi nhỡ cuộc gọi, email chào mừng). Nhập danh bạ từ CSV nếu có (tối đa 500 liên hệ)."
+              "i": "Thiết lập SEO kỹ thuật",
+              "l": "Meta title và mô tả, thẻ Open Graph, dữ liệu có cấu trúc cho doanh nghiệp của bạn, sitemap XML và robots.txt, gửi lên Google Search Console khi ra mắt."
             },
             {
               "i": "Phân tích & theo dõi",
-              "l": "Cài đặt và cấu hình Google Analytics 4. Thiết lập 1 mục tiêu chuyển đổi (ví dụ: gửi form, bấm gọi điện hoặc tương tác chatbot). Kết nối Google Search Console. Theo dõi sự kiện cơ bản trên các nút CTA."
+              "l": "Kết nối Google Analytics 4 và Search Console, kèm sự kiện chuyển đổi trên form và đặt lịch."
             },
             {
-              "i": "Chỉnh sửa thiết kế",
-              "l": "2 vòng chỉnh sửa cho mỗi trang. Một “vòng” = 1 bộ phản hồi tổng hợp. Phản hồi phải được gửi trong vòng 5 ngày làm việc sau mỗi lần xem xét. Không nhận phản hồi lẻ tẻ qua nhiều email."
+              "i": "Chỉnh sửa thiết kế (2 vòng)",
+              "l": "Hai vòng chỉnh sửa có cấu trúc sau buổi trình bày thiết kế đầu tiên."
             },
             {
               "i": "Nội dung & văn bản",
-              "l": "Khách hàng cung cấp toàn bộ nội dung chữ (tiêu đề, nội dung, tiểu sử, mô tả dịch vụ). Chúng tôi lo bố cục, định dạng và sắp xếp. Nếu cần viết nội dung, có thể bổ sung với giá 200 USD/trang."
+              "l": "Bạn gửi ghi chú hoặc gạch đầu dòng, chúng tôi định hình thành nội dung hoàn chỉnh cho mọi trang. Copywriting chuyên nghiệp đầy đủ có sẵn dưới dạng add-on."
             }
           ],
           "ov": [
             "Thêm trang: 500 USD/trang",
             "Thêm vòng chỉnh sửa: 300 USD",
-            "Viết nội dung: 200 USD/trang",
-            "Thêm cặp hỏi đáp (trên 25): 250 USD/đợt",
-            "Thêm tự động hóa: 350 USD/cái"
+            "Viết nội dung: 200 USD/trang"
           ],
           "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi khách hàng duyệt HOẶC sau 2 vòng chỉnh sửa. Sau khi duyệt: 175 USD/giờ.",
-          "bridge": "Bao gồm 30 ngày theo dõi sau ra mắt (sửa lỗi, kiểm tra chatbot, tình trạng CRM). Sau ngày 30, việc bảo trì, cập nhật và tinh chỉnh AI chuyển sang gói Duy trì & Giám sát (1.500 USD/tháng) để hệ thống của bạn luôn được tối ưu.",
+          "bridge": "Bao gồm 30 ngày theo dõi sau ra mắt (sửa lỗi và tinh chỉnh nhỏ). Sau ngày 30, hosting và bảo trì tiếp tục với gói Chăm sóc Website (550 USD/tháng).",
           "ideal": "Startup, người kinh doanh độc lập, doanh nghiệp địa phương"
         },
         {
@@ -1220,116 +1197,105 @@
           "tl": "6 đến 8 tuần",
           "scope": [
             {
-              "i": "Website tùy chỉnh (10 trang + CMS)",
-              "l": "10 trang được thiết kế đầy đủ, tương thích di động, xây dựng bằng Next.js với CMS tích hợp (blog hoặc portfolio). Bao gồm: Trang chủ, Giới thiệu, Dịch vụ (3 trang dịch vụ con), Blog, Liên hệ và 2 trang bổ sung. 3 hiệu ứng cuộn hoặc hover tùy chỉnh. SEO on-page cho toàn bộ trang (tiêu đề meta, mô tả, thẻ alt, schema markup). Bao gồm SSL, hosting trên Vercel và gửi sitemap lên Google."
+              "i": "Website tùy chỉnh (10 trang + CMS), xây mới hoặc thiết kế lại",
+              "l": "Mười trang được thiết kế riêng hoàn toàn, xây dựng bằng Next.js kèm hệ thống quản lý nội dung, để đội ngũ của bạn tự sửa chữ, hình ảnh và bài viết mà không cần lập trình viên. Phù hợp cho website mới hoặc thiết kế lại. Meta data SEO trên mọi trang. Bao gồm SSL và thiết lập hosting trên Vercel."
             },
             {
-              "i": "Nhận diện thương hiệu (hướng dẫn đầy đủ)",
-              "l": "3 ý tưởng logo ban đầu trình bày dưới dạng mockup đời thực. Chọn 1 để hoàn thiện. Tài liệu hướng dẫn thương hiệu PDF đầy đủ (10 trang) gồm: quy tắc sử dụng logo, kích thước tối thiểu, khoảng trống an toàn, bảng màu (chính + phụ, hex/RGB/CMYK), hệ thống typography (font tiêu đề, tiêu đề phụ, nội dung kèm cỡ chữ) và ghi chú giọng điệu thương hiệu. 5 mẫu bài đăng mạng xã hội có thương hiệu, bàn giao trên Canva hoặc Figma (có thể chỉnh sửa)."
+              "i": "Hệ thống thiết kế",
+              "l": "Component, typography và màu sắc được định nghĩa một lần và tái sử dụng trên mọi trang, để các trang thêm sau này trông đồng bộ."
             },
             {
-              "i": "Chatbot AI",
-              "l": "1 chatbot AI được huấn luyện trên 50 cặp hỏi đáp. Bao gồm tích hợp đặt lịch hẹn (kết nối Google Calendar hoặc Calendly của bạn). Thu thập lead và tự động đưa vào CRM. Cấu hình lời chào tùy chỉnh, câu trả lời dự phòng và tin nhắn ngoài giờ. Chatbot nhúng trên 3 trang của website."
+              "i": "Mục blog hoặc tin tức bạn tự chỉnh sửa được",
+              "l": "Mục nội dung chạy trên CMS với danh mục, tác giả và ngày đăng, schema bài viết và ảnh chia sẻ mạng xã hội tạo riêng cho từng bài."
             },
             {
-              "i": "AI voice agent",
-              "l": "1 AI voice agent nhận cuộc gọi đến, sàng lọc khách hàng tiềm năng và đặt lịch hẹn. Viết và cấu hình 1 kịch bản cuộc gọi tùy chỉnh. Bao gồm 500 phút gọi trong tháng đầu tiên. Bản ghi âm cuộc gọi lưu trong CRM của bạn. Bao gồm định tuyến cuộc gọi cơ bản (chuyển sang bạn nếu AI không xử lý được)."
+              "i": "Form thu lead và đặt lịch có thông báo",
+              "l": "Form nhiều bước hoặc đơn giản, chống spam, thông báo qua email và lịch đặt hẹn nhúng, mỗi lượt gửi đều được gắn nhãn theo nguồn."
             },
             {
-              "i": "Tự động hóa quy trình (tổng 8)",
-              "l": "8 tự động hóa xây dựng trong GoHighLevel. Ví dụ: thông báo lead mới (email + SMS), chuỗi nhắc lịch hẹn (trước 24 giờ + 1 giờ), nhắn tin lại khi nhỡ cuộc gọi, follow-up sau cuộc hẹn, xin đánh giá sau dịch vụ, tái tiếp cận form bỏ dở, email sinh nhật/kỷ niệm và kích hoạt khi đổi giai đoạn pipeline. Mỗi tự động hóa tối đa 5 bước."
+              "i": "Thiết lập SEO kỹ thuật và SEO địa phương",
+              "l": "Toàn bộ thiết lập kỹ thuật của gói Khởi đầu cộng thêm schema doanh nghiệp địa phương, đồng bộ Google Business Profile và trang theo địa điểm khi cần."
             },
             {
-              "i": "Thiết lập Google Ads",
-              "l": "1 chiến dịch Google Search với 3 nhóm quảng cáo (nhắm vào các chủ đề từ khóa khác nhau). Bao gồm nghiên cứu từ khóa và danh sách từ khóa phủ định. Viết 6 mẫu quảng cáo (2 mỗi nhóm). 1 landing page riêng được thiết kế, xây dựng và kết nối theo dõi chuyển đổi. Cấu hình theo dõi chuyển đổi Google Ads và Google Tag Manager. Ngân sách quảng cáo tính riêng và bạn thanh toán trực tiếp cho Google."
+              "i": "Tối ưu hiệu suất",
+              "l": "Đạt Core Web Vitals trên di động và desktop trước khi ra mắt: tối ưu hình ảnh, tải font và giới hạn script, kiểm chứng bằng Lighthouse."
             },
             {
-              "i": "Dashboard cho khách hàng",
-              "l": "1 dashboard thời gian thực xây dựng trên GHL hoặc Google Looker Studio. Tối đa 6 widget: lưu lượng website, số lead, giá trị pipeline, tỷ lệ chuyển đổi, hiệu quả quảng cáo và tương tác chatbot. Dashboard tự động cập nhật và truy cập qua link chia sẻ."
+              "i": "Dashboard phân tích",
+              "l": "Kết nối Google Analytics 4 và Search Console cùng một báo cáo hàng tháng đơn giản về lưu lượng, lead và các trang nổi bật."
             },
             {
-              "i": "Chỉnh sửa thiết kế",
-              "l": "3 vòng chỉnh sửa cho mỗi hạng mục (các trang website, tài sản thương hiệu, mẫu quảng cáo và dashboard). Một “vòng” = 1 bộ phản hồi tổng hợp gửi trong vòng 5 ngày làm việc."
+              "i": "Chỉnh sửa thiết kế (3 vòng)",
+              "l": "Ba vòng chỉnh sửa có cấu trúc sau buổi trình bày thiết kế đầu tiên."
             },
             {
               "i": "Nội dung & văn bản",
-              "l": "Chúng tôi viết nội dung cho trang chủ và trang dịch vụ (tổng 1.500 từ). Nội dung các trang khác do bạn cung cấp. Blog CMS bàn giao trống để bạn hoặc đội ngũ tự đăng bài, hoặc bổ sung gói nội dung của chúng tôi."
+              "l": "Bạn gửi ghi chú hoặc gạch đầu dòng, chúng tôi định hình thành nội dung hoàn chỉnh cho mọi trang. Copywriting chuyên nghiệp đầy đủ có sẵn dưới dạng add-on."
             }
           ],
           "ov": [
             "Thêm trang: 500 USD/trang",
             "Thêm chỉnh sửa: 300 USD/vòng",
-            "Thêm chiến dịch quảng cáo: 1.500 USD",
-            "Thêm kịch bản voice: 750 USD",
-            "Tự động hóa (trên 8): 350 USD/cái",
             "Thêm landing page: 900 USD",
-            "Viết nội dung ngoài phạm vi: 200 USD/trang"
+            "Viết nội dung ngoài các trang đã bao gồm: 200 USD/trang"
           ],
           "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 50% còn lại khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi duyệt HOẶC sau 3 vòng chỉnh sửa. Sau khi duyệt: 175 USD/giờ.",
-          "bridge": "Bao gồm 30 ngày sau ra mắt: quản lý quảng cáo, giám sát AI và sửa lỗi. Sau ngày 30, quảng cáo, AI agent và tự động hóa của bạn cần được tối ưu liên tục để duy trì hiệu quả. Chúng tôi khuyến nghị gói Động cơ Tăng trưởng (3.500 USD/tháng) để giữ đà.",
-          "ideal": "Doanh nghiệp đang tăng trưởng và mở rộng bằng hệ thống"
+          "bridge": "Bao gồm 30 ngày theo dõi và sửa lỗi sau ra mắt. Sau ngày 30, gói Phát triển Website (1.600 USD/tháng) tiếp tục ra mắt một trang hoặc một phần mới mỗi tháng.",
+          "ideal": "Doanh nghiệp đang tăng trưởng, có xuất bản nội dung và bán hàng"
         },
         {
-          "name": "Thống lĩnh Toàn diện",
+          "name": "Ra mắt Cao cấp",
           "price": 18000,
           "disp": "18.000+ USD",
-          "tag": "Cấp doanh nghiệp",
+          "tag": "Xây dựng trọn gói",
           "tl": "8 đến 12 tuần",
           "scope": [
             {
-              "i": "Website cao cấp (15 trang + thương mại điện tử)",
-              "l": "15 trang được thiết kế đầy đủ, xây dựng bằng Next.js với headless CMS (Sanity hoặc Contentful). 6 hiệu ứng tùy chỉnh (cuộn parallax, hiệu ứng hover, chuyển trang, micro-interaction). Sẵn sàng bán hàng: 20 sản phẩm tích hợp Shopify hoặc Stripe, giỏ hàng và thanh toán. Bao gồm blog, trung tâm tài nguyên hoặc mục nghiên cứu điển hình. SEO on-page đầy đủ, schema markup, thẻ Open Graph, sitemap XML và robots.txt. Bao gồm SSL, hosting Vercel và tối ưu CDN."
+              "i": "Website cao cấp (15 trang + thương mại điện tử), xây mới hoặc thiết kế lại",
+              "l": "Từ mười lăm trang trở lên được thiết kế riêng hoàn toàn, xây dựng bằng Next.js kèm hệ thống quản lý nội dung và cửa hàng trực tuyến. Phù hợp cho website mới hoặc thiết kế lại. Meta data SEO trên mọi trang. Bao gồm SSL và thiết lập hosting trên Vercel."
             },
             {
-              "i": "Hệ thống thương hiệu hoàn chỉnh",
-              "l": "5 ý tưởng logo ban đầu kèm mockup đời thực. Chọn 1 để hoàn thiện toàn diện. Tài liệu hướng dẫn thương hiệu hoàn chỉnh (20 trang): cách dùng logo, khoảng trống an toàn, kích thước tối thiểu, bảng màu chính và phụ, hệ thống phân cấp typography, hướng dẫn phong cách nhiếp ảnh, phong cách icon, hướng dẫn giọng nói và giọng điệu thương hiệu. Thiết kế văn phòng phẩm: danh thiếp, giấy tiêu đề và mẫu chữ ký email. Mẫu pitch deck (15 slide, chỉnh sửa trên Google Slides hoặc Keynote). 10 mẫu mạng xã hội có thương hiệu (Canva hoặc Figma, có thể chỉnh sửa)."
+              "i": "Hệ thống thiết kế",
+              "l": "Component, typography và màu sắc được định nghĩa một lần và có tài liệu đi kèm, để đội ngũ của bạn và của chúng tôi xây trang mới một cách nhất quán."
             },
             {
-              "i": "Hệ sinh thái AI agent (3 agent)",
-              "l": "3 AI agent kết nối với nhau hoạt động như một hệ thống. Ví dụ: Agent 1 thu thập lead qua chatbot và chấm điểm (nóng/ấm/lạnh). Agent 2 gửi chuỗi email cá nhân hóa theo điểm số. Agent 3 kích hoạt follow-up qua SMS cho lead nóng. 1 cây quyết định tùy chỉnh mô tả toàn bộ hành trình lead. Toàn bộ agent kết nối với GHL CRM của bạn, tự động gắn thẻ liên hệ và di chuyển pipeline."
+              "i": "Thanh toán và checkout",
+              "l": "Checkout qua Stripe hoặc Shopify, trang sản phẩm, giỏ hàng, email xác nhận đơn hàng, cùng quy tắc thuế và vận chuyển thiết lập cho thị trường của bạn."
             },
             {
-              "i": "Bộ AI hội thoại",
-              "l": "1 chatbot AI huấn luyện trên 100 cặp hỏi đáp, nhúng trên toàn website. Bao gồm đặt lịch hẹn, thu thập lead, xử lý FAQ và nhắn tin ngoài giờ. 1 AI voice agent với 2 kịch bản cuộc gọi tùy chỉnh (ví dụ: bán hàng inbound + xác nhận lịch hẹn). Bao gồm 1.000 phút gọi trong tháng đầu. Bản ghi âm cuộc gọi lưu trong CRM. 5 chuỗi tự động hóa SMS (ví dụ: nhắc lịch hẹn, follow-up sau cuộc gọi, xin đánh giá, tái tiếp cận, gửi khuyến mãi hàng loạt)."
+              "i": "Tài khoản khách hàng hoặc cổng khách hàng",
+              "l": "Đăng nhập, lịch sử đơn hàng hoặc tệp dự án, tải xuống và cài đặt tài khoản, xây theo đúng những gì khách hàng của bạn thực sự cần."
             },
             {
-              "i": "Tự động hóa quy trình (tổng 15)",
-              "l": "15 tự động hóa trên CRM, hệ thống thanh toán và lịch của bạn. Ví dụ: chuỗi nuôi dưỡng lead, nhắc hóa đơn, xác nhận thanh toán, quy trình onboarding, xin đánh giá, chiến dịch win-back, thông báo nội bộ, tự động hóa theo giai đoạn pipeline và email sinh nhật/cột mốc. Mỗi tự động hóa tối đa 7 bước kèm logic điều kiện."
+              "i": "Thiết lập SEO kỹ thuật và SEO địa phương",
+              "l": "Thiết lập kỹ thuật đầy đủ cộng thêm schema sản phẩm và doanh nghiệp địa phương, đồng bộ Google Business Profile và trang theo địa điểm khi cần."
             },
             {
-              "i": "Google + Meta Ads (thiết lập đầy đủ)",
-              "l": "1 chiến dịch Google Search với 5 nhóm quảng cáo và 10 mẫu quảng cáo. Nghiên cứu từ khóa đầy đủ kèm danh sách từ khóa phủ định. 1 chiến dịch Meta (Facebook/Instagram) với 3 nhóm quảng cáo nhắm các tệp khách hàng khác nhau. Cài pixel retargeting trên website cho cả Google và Meta. 2 landing page riêng được thiết kế, xây dựng và tối ưu chuyển đổi. Toàn bộ theo dõi chuyển đổi cấu hình qua Google Tag Manager. Thiết kế mẫu quảng cáo (6 ảnh tĩnh + 2 quảng cáo carousel). Ngân sách quảng cáo tính riêng. Bạn thanh toán trực tiếp cho Google và Meta."
+              "i": "Tối ưu hiệu suất",
+              "l": "Đạt Core Web Vitals trên di động và desktop trước khi ra mắt, bao gồm cả các trang cửa hàng và cổng khách hàng."
             },
             {
-              "i": "Hệ thống nội dung AI",
-              "l": "Cấu hình toàn bộ pipeline nội dung: quy trình video thành clip (tải video dài lên, AI tạo clip mạng xã hội), mẫu tạo bài blog với hỗ trợ AI và thiết lập lên lịch mạng xã hội trong Buffer hoặc Later. Sản xuất và đăng nội dung tháng đầu: 4 bài blog (tối đa 1.000 từ mỗi bài, tối ưu SEO) và 12 bài đăng mạng xã hội (hình ảnh + caption). Cung cấp mẫu lịch nội dung để dùng lâu dài."
+              "i": "Dashboard phân tích",
+              "l": "Google Analytics 4 với sự kiện thương mại điện tử, Search Console và báo cáo hàng tháng về lưu lượng, đơn hàng và sản phẩm bán chạy."
             },
             {
-              "i": "Dashboard điều hành",
-              "l": "1 dashboard toàn diện trên GHL hoặc Google Looker Studio. 10 widget: lưu lượng website, pipeline lead, tỷ lệ chuyển đổi, hiệu quả Google Ads (CPC, CTR, ROAS), hiệu quả Meta Ads, tương tác chatbot, lượng cuộc gọi voice agent, tỷ lệ mở/click email, phân bổ doanh thu và biểu đồ xu hướng theo tuần. Email tóm tắt tự động hàng tuần gửi tới 3 người nhận."
-            },
-            {
-              "i": "Chỉnh sửa thiết kế",
-              "l": "3 vòng chỉnh sửa cho mỗi hạng mục trên toàn bộ tài sản. Một “vòng” = 1 bộ phản hồi tổng hợp gửi trong vòng 5 ngày làm việc."
+              "i": "Chỉnh sửa thiết kế (3 vòng)",
+              "l": "Ba vòng chỉnh sửa có cấu trúc sau buổi trình bày thiết kế đầu tiên."
             },
             {
               "i": "Viết nội dung",
-              "l": "Viết nội dung chuyên nghiệp đầy đủ cho 10 trang website (tiêu đề, nội dung, CTA, mô tả meta). Khách hàng cung cấp tư liệu thô, ghi chú hoặc gạch đầu dòng cho các trang còn lại. Bao gồm viết nội dung quảng cáo cho toàn bộ chiến dịch Google và Meta."
+              "l": "Copywriting chuyên nghiệp đầy đủ cho mọi trang đã được bao gồm ở gói này."
             }
           ],
           "ov": [
             "Thêm trang: 500 USD",
             "Thêm chỉnh sửa: 350 USD/vòng",
-            "Thêm AI agent: 2.500 USD",
-            "Thêm chiến dịch quảng cáo: 1.500 USD",
-            "Kịch bản voice: 750 USD",
-            "Tự động hóa (trên 15): 400 USD/cái",
             "Sản phẩm (trên 20): 75 USD/sản phẩm",
-            "Nội dung sau tháng 1: cần gói hàng tháng"
+            "Thêm landing page: 900 USD"
           ],
           "ho": "Thanh toán: đặt cọc 50% khi bắt đầu, 25% ở mốc giữa dự án, 25% khi hoàn thành (thanh toán trong vòng 7 ngày). Hoàn thành khi duyệt HOẶC sau 3 vòng. Sau khi duyệt: 175 USD/giờ.",
-          "bridge": "Bao gồm 45 ngày sau ra mắt: giám sát toàn diện, quản lý quảng cáo, tinh chỉnh AI và sửa lỗi. Sau ngày 45, hệ sinh thái AI, chiến dịch quảng cáo và hệ thống nội dung của bạn cần được quản lý liên tục để mang lại kết quả. Chúng tôi khuyến nghị gói Đối tác Toàn diện (7.500 USD/tháng) hoặc Động cơ Tăng trưởng (3.500 USD/tháng) tùy nhu cầu.",
-          "ideal": "Doanh nghiệp đã ổn định muốn có hạ tầng AI hoàn chỉnh"
+          "bridge": "Bao gồm 45 ngày theo dõi và sửa lỗi sau ra mắt. Sau ngày 45, gói Đối tác Website (3.800 USD/tháng) mang đến cho bạn một lập trình viên và một nhà thiết kế chuyên trách.",
+          "ideal": "Doanh nghiệp đã ổn định cần thương mại điện tử hoặc cổng khách hàng"
         }
       ],
       "socialSetup": [
@@ -2689,7 +2655,7 @@
             "Yêu cầu gấp (trong ngày): +125 USD",
             "Cập nhật kéo dài hàng giờ: 165 USD/giờ"
           ],
-          "ex": "Không trang mới, không thiết kế lại, không thử nghiệm A/B, không SEO, không quảng cáo. Không hoạt động marketing. Xem các gói marketing của chúng tôi cho các dịch vụ đó.",
+          "ex": "Không bao gồm trang mới, thiết kế lại, A/B test hay công việc SEO. Các hạng mục này thuộc Phát triển Website và Đối tác Website.",
           "ideal": "Website đã ra mắt cần bảo trì đáng tin cậy và sự an tâm"
         },
         {
@@ -2735,7 +2701,7 @@
             "Thêm trang mới: 850 USD",
             "Video/hoạt họa: xác định phạm vi riêng"
           ],
-          "ex": "Không thiết kế lại toàn bộ (xác định phạm vi thành dự án). Không quảng cáo trả phí. Không viết nội dung ngoài chỉnh sửa nhỏ.",
+          "ex": "Không bao gồm thiết kế lại toàn bộ (báo giá như một dự án riêng). Không bao gồm viết nội dung ngoài các chỉnh sửa nhỏ.",
           "ideal": "Đội ngũ muốn website cải thiện mỗi tháng"
         },
         {
@@ -2780,7 +2746,7 @@
             "Thêm trang nội dung đăng: 45 USD/trang vượt 10",
             "Triển khai gấp (trong ngày): +25%"
           ],
-          "ex": "Không quản lý quảng cáo trả phí (xem gói marketing). Không thiết kế lại thương hiệu (xem gói thương hiệu). Không ứng dụng di động.",
+          "ex": "Không bao gồm thiết kế lại toàn bộ (báo giá như một dự án riêng). Không bao gồm công việc ứng dụng di động.",
           "ideal": "Doanh nghiệp đang mở rộng xem Blok Blok như đội web của mình"
         }
       ],
@@ -3224,8 +3190,8 @@
     },
     "v2_card_cta": "Nhận báo giá riêng",
     "v2_options": "{count, plural, one {# lựa chọn} other {# lựa chọn}}",
-    "meta_title": "Dịch vụ & Gói dịch vụ",
-    "meta_description": "Các gói thiết kế và phát triển website tùy chỉnh. Hạng mục bàn giao rõ ràng, báo giá riêng theo phạm vi của bạn."
+    "meta_title": "Bảng giá",
+    "meta_description": "Các gói thiết kế, thiết kế lại và hosting website. Hạng mục bàn giao rõ ràng, báo giá riêng theo phạm vi của bạn."
   },
   "a11y": {
     "skip_to_main": "Chuyển đến nội dung chính",

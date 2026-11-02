@@ -29,13 +29,13 @@
     "meta_description": "Risposte su prezzi, tempistiche, siti web su misura e su come lavorare con Blok Blok Studio, studio di web design di Berlino con clienti in tutto il mondo.",
     "hero_eyebrow": "Domande frequenti",
     "hero_title": "Tutto quello che volevi chiederci",
-    "hero_subtitle": "Risposte oneste su come lavoriamo, quanto costa e cosa costruiamo. Se non trovi la tua domanda, prenota una call gratuita di 30 minuti.",
+    "hero_subtitle": "Risposte oneste su come lavoriamo, quanto costa e cosa costruiamo. Se non trovi la tua domanda, prenota una call gratuita di 15 minuti.",
     "category_pricing": "Prezzi e investimento",
     "category_process": "Processo e tempistiche",
     "category_capabilities": "Servizi e competenze",
     "category_trust": "Lavorare con Blok Blok Studio",
     "cta_heading": "Hai ancora domande?",
-    "cta_subheading": "Prenota una call strategica gratuita di 30 minuti. Nessuna vendita, nessuna pressione, solo risposte.",
+    "cta_subheading": "Prenota una call gratuita di 15 minuti. Nessuna vendita, nessuna pressione, solo risposte.",
     "cta_button": "Prenota la tua call gratuita",
     "see_all_questions": "Vedi tutte le domande",
     "filter_all": "Tutti",
@@ -43,32 +43,17 @@
       {
         "category": "pricing",
         "question": "Quanto costa un sito web su misura?",
-        "answer": "I siti web su misura di Blok Blok Studio partono da 2.000 $ per una singola landing page, 6.500 $ per un sito di 5 pagine, 12.000 $ per 10 pagine con CMS e 18.000 $ per 15 o più pagine. Il prezzo dipende dal numero di pagine, dalle animazioni personalizzate, dalle integrazioni e dalle esigenze di copywriting. Ogni sito è sviluppato in Next.js, ospitato su Vercel e ottimizzato per la SEO dal primo giorno, mai da template."
+        "answer": "Una singola landing page costa 2.000 $, un sito di 5 pagine 6.500 $, 10 pagine con CMS 12.000 $ e 15 o più pagine con e-commerce a partire da 18.000 $. Gli stessi livelli valgono sia per un sito nuovo sia per il restyling di quello attuale. Il prezzo dipende dal numero di pagine, dalle animazioni personalizzate, dalle integrazioni e dalle esigenze di copywriting. Ogni sito è sviluppato in Next.js, ospitato su Vercel e ottimizzato per la SEO dal primo giorno, mai da template."
       },
       {
         "category": "pricing",
-        "question": "Quanto costa realizzare un chatbot IA?",
-        "answer": "Un chatbot IA addestrato su oltre 100 coppie di domande e risposte e integrato in tutto il sito è incluso nella nostra suite di IA Conversazionale da 18.000 $, che comprende anche un agente vocale, automazioni SMS e una pipeline completa di contenuti. Come componente aggiuntivo a un pacchetto sito, un chatbot IA parte da 2.500 $. Tutti i bot si integrano con il tuo CRM e raccolgono lead 24/7."
-      },
-      {
-        "category": "pricing",
-        "question": "Quanto costa al mese un agente vocale IA?",
-        "answer": "La configurazione del nostro agente vocale IA parte da 2.500 $ una tantum, con 500 minuti di voce inclusi per il primo mese. I minuti successivi vengono fatturati alle tariffe telefoniche standard e inseriti in un piano mensile. L'agente risponde alle chiamate, qualifica i lead, fissa appuntamenti e inoltra le chiamate urgenti a una persona, il tutto in linguaggio naturale e conversazionale."
-      },
-      {
-        "category": "pricing",
-        "question": "Offrite piani mensili o solo lavori a progetto?",
-        "answer": "Entrambi. I lavori a progetto partono da 2.000 $ e vengono fatturati per milestone. I piani mensili partono da 1.500 $ al mese per manutenzione del sito, monitoraggio dell'IA e gestione del CRM, oppure 3.500 $ al mese per la crescita a servizio completo: gestione delle campagne Google e Meta, produzione di contenuti assistita dall'IA e 5 ore di sviluppo ogni mese. I piani mensili richiedono un impegno minimo di 3 o 6 mesi."
+        "question": "Offrite piani mensili di hosting e manutenzione o solo lavori a progetto?",
+        "answer": "Entrambi. I lavori a progetto partono da 2.000 $ e vengono fatturati per milestone. Dopo il lancio, i piani di hosting e manutenzione partono da 550 $ al mese per Cura del Sito (monitoraggio, backup, aggiornamenti di sicurezza e piccole modifiche ai contenuti), 1.600 $ al mese per Crescita del Sito (una nuova pagina o sezione e test A/B ogni mese) e 3.800 $ al mese per Partnership Web (uno sviluppatore e un designer dedicati). I piani prevedono un minimo di 3 mesi."
       },
       {
         "category": "process",
         "question": "Quanto tempo serve per costruire un sito web su misura?",
-        "answer": "Una singola landing page va online in genere in 2-3 settimane. Un sito di 5 pagine richiede 4-6 settimane. Un sito di 10 pagine con CMS e integrazioni IA richiede 8-12 settimane. Le tempistiche dipendono dalla rapidità con cui fornisci contenuti, indicazioni sul brand e approvazioni. Siamo veloci: la maggior parte delle agenzie impiega 2-3 volte di più."
-      },
-      {
-        "category": "process",
-        "question": "Quanto tempo serve per mettere in funzione un agente IA?",
-        "answer": "Un chatbot IA standard addestrato sulle tue FAQ esistenti è attivo in 7-10 giorni lavorativi. Un agente vocale con uno script di chiamata personalizzato richiede 10-14 giorni. Un ecosistema multi-agente completo con integrazioni CRM, calendario e pagamenti richiede 4-8 settimane a seconda della complessità. Iniziamo con una call conoscitiva, poi un documento di perimetro a pagamento, poi lo sviluppo."
+        "answer": "Una singola landing page va online in genere in 2-3 settimane. Un sito di 5 pagine richiede 4-6 settimane, un sito di 10 pagine con CMS 6-8 settimane e 15 o più pagine 8-12 settimane. I restyling seguono le stesse tempistiche. I tempi dipendono dalla rapidità con cui fornisci contenuti, indicazioni sul brand e approvazioni."
       },
       {
         "category": "process",
@@ -77,33 +62,23 @@
       },
       {
         "category": "capabilities",
-        "question": "Che differenza c'è tra un chatbot IA e un agente vocale IA?",
-        "answer": "Un chatbot IA è testuale e vive sul tuo sito web o nelle app di messaggistica: risponde alle FAQ, fissa appuntamenti e raccoglie lead via chat. Un agente vocale IA risponde a vere telefonate in linguaggio parlato naturale. Gli agenti vocali sono ideali per le vendite in entrata, l'assistenza fuori orario e le conferme degli appuntamenti. Molte aziende usano entrambi per una copertura completa."
-      },
-      {
-        "category": "capabilities",
-        "question": "I vostri agenti IA si integrano con HubSpot, Salesforce o GoHighLevel?",
-        "answer": "Sì. I nostri agenti IA e le nostre automazioni si integrano nativamente con HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe e Calendly. Per i CRM e gli strumenti senza un'integrazione esistente costruiamo un connettore su misura, senza la tassa dell'intermediario Zapier. I tuoi dati restano nei tuoi sistemi; noi li facciamo solo comunicare tra loro."
-      },
-      {
-        "category": "capabilities",
         "question": "Costruite siti web in Next.js, WordPress o Webflow?",
-        "answer": "Costruiamo esclusivamente in Next.js con TypeScript, Tailwind CSS e Framer Motion. I siti sono ospitati su Vercel per tempi di caricamento inferiori al secondo e distribuzione globale sull'edge. Non costruiamo in WordPress, Wix, Squarespace o Webflow: quelle piattaforme non possono offrire le performance, le animazioni personalizzate o le integrazioni IA di cui i nostri clienti hanno bisogno."
+        "answer": "Di default scriviamo il codice a mano in Next.js con TypeScript e Tailwind CSS, con hosting su Vercel per tempi di caricamento inferiori al secondo. È da lì che arrivano la velocità, le animazioni personalizzate e i risultati SEO. Se la tua situazione lo richiede, per esempio un team che lavora già con WordPress o un sito marketing che ha bisogno dell'editor di Webflow, costruiamo anche lì."
       },
       {
         "category": "capabilities",
         "question": "Scrivete voi i testi del sito o li fornisco io?",
-        "answer": "Entrambe le opzioni funzionano. La maggior parte dei clienti fornisce appunti grezzi o elenchi puntati e noi li trasformiamo in testi definitivi. Il copywriting professionale completo è incluso nel nostro pacchetto da 18.000 $ ed è disponibile come extra a 200 $ a pagina in tutti gli altri pacchetti. I testi degli annunci per le campagne Google e Meta li scriviamo sempre noi quando gestiamo le inserzioni."
+        "answer": "Entrambe le opzioni funzionano. La maggior parte dei clienti fornisce appunti grezzi o elenchi puntati e noi li trasformiamo in testi definitivi. Il copywriting professionale completo è incluso nel livello da 18.000 $ ed è disponibile come extra a 200 $ a pagina in tutti gli altri livelli."
       },
       {
         "category": "trust",
         "question": "Dove si trova Blok Blok Studio e lavorate a livello internazionale?",
-        "answer": "Il nostro studio ha sede a Berlino, in Germania. Lavoriamo con clienti negli Stati Uniti, nel Regno Unito, nei Paesi Bassi, in Francia, in Spagna e in tutta l'UE. La comunicazione è asincrona via Loom, email e messaggi: ci adattiamo a ogni fuso orario. Fatture e contratti sono disponibili in USD o EUR, a tua scelta."
+        "answer": "Il nostro studio ha sede a Berlino, in Germania, con membri del team a Richmond, Los Angeles e Multan. I nostri clienti si trovano negli Stati Uniti, in Germania e nelle Filippine. La comunicazione è asincrona via Loom, email e messaggi, quindi ogni fuso orario va bene. Fatture e contratti sono disponibili in USD o EUR."
       },
       {
         "category": "trust",
-        "question": "Il codice del mio sito e le configurazioni degli agenti IA sono di mia proprietà?",
-        "answer": "Sì, completamente. Al termine del progetto ricevi la piena proprietà del codice, dei file di design, dei prompt IA e delle configurazioni delle automazioni. Il sito viene pubblicato sul tuo account Vercel, con fatturazione a tuo nome. CRM, account pubblicitari e domini restano intestati a te dal primo giorno. Non vincoliamo mai i clienti ai nostri sistemi."
+        "question": "Il codice del mio sito è di mia proprietà?",
+        "answer": "Sì, completamente. Al termine del progetto ricevi la piena proprietà del codice e dei file di design. Il sito viene pubblicato sul tuo account Vercel, con fatturazione a tuo nome, e il dominio resta intestato a te dal primo giorno. Non vincoliamo mai i clienti ai nostri sistemi."
       },
       {
         "category": "trust",
@@ -135,7 +110,7 @@
     "tab_all": "Tutti",
     "tab_ai": "IA e automazione",
     "tab_creative": "Creatività e marketing",
-    "audit_badge": "Gratuita, 30 minuti",
+    "audit_badge": "Gratuita, 15 minuti",
     "audit_heading": "Non sai di cosa ha bisogno la tua azienda?",
     "audit_subheading": "Prenota una call strategica gratuita. Analizziamo la tua attività e ti mostriamo esattamente dove si trovano le opportunità più grandi.",
     "audit_button": "Prenota la tua call gratuita",
@@ -239,8 +214,8 @@
     "v2_quote_2_role": "Atleta Nike, Berlino",
     "v2_quote_3_role": "Negozio di carte collezionabili",
     "v2_quote_1_text": "50.000 $ di fatturato lordo nei primi cinque mesi, una valutazione di 5,0 stelle su 52 recensioni Google e una posizione media su Google di 5,2 per i suoi termini di ricerca.",
-    "v2_quote_2_text": "Blok Blok Studio ha trasformato completamente la mia presenza online. Il design audace rispecchia alla perfezione la mia filosofia di coaching e i risultati sono stati incredibili.",
-    "v2_quote_3_text": "Il negozio online che hanno costruito per noi è incredibile. I nostri drop di booster pack si esauriscono in poche ore e il coinvolgimento della community attraverso il sito è stato fantastico.",
+    "v2_quote_2_text": "Comunicare con lui è davvero facile. Ti serve qualcuno che risponda in fretta, che sappia il fatto suo e che si adatti alle tue esigenze. Consiglio davvero Chase, o Blok Blok Studio.",
+    "v2_quote_3_text": "191.042 $ di vendite di carte collezionabili su 1.790 ordini nel negozio Shopify che abbiamo costruito. I drop si sono esauriti in poche ore.",
     "v2_quote_1_kind": "Risultati",
     "v2_offer_title": "Siti web, costruiti e ospitati",
     "v2_offer_subtitle": "Sviluppo su misura, orientato alla conversione, con hosting e cura inclusi",
@@ -249,7 +224,7 @@
     "v2_result_grant_parkhurst": "Portfolio più un portale clienti self-service, online da settembre 2026.",
     "v2_next_label": "Cosa succede dopo",
     "v2_next_1_title": "Ti richiamiamo",
-    "v2_next_1_desc": "Entro un giorno lavorativo. Venti minuti su cosa deve fare il sito per la tua attività, nient'altro.",
+    "v2_next_1_desc": "Entro un giorno lavorativo. Quindici minuti su cosa deve fare il sito per la tua attività, nient'altro.",
     "v2_next_2_title": "Perimetro e un prezzo fisso",
     "v2_next_2_desc": "Un piano scritto con pagine, tempistiche e una sola cifra. Cinque pagine a partire da {price}, nessuna fatturazione a ore.",
     "v2_next_3_title": "Dal kickoff al lancio",
@@ -628,13 +603,13 @@
     "acceptance_title": "Accettazione dei termini",
     "acceptance_content": "Accedendo a questo sito web e utilizzandolo, accetti e acconsenti a essere vincolato da questi Termini di servizio. Se non sei d'accordo con questi termini, ti preghiamo di non utilizzare il nostro sito web o i nostri servizi.",
     "services_title": "Servizi",
-    "services_content": "Blok Blok Studio fornisce servizi di design digitale, sviluppo e marketing. Termini specifici del progetto, deliverable e prezzi sono delineati in contratti e proposte individuali.",
+    "services_content": "Blok Blok Studio fornisce servizi di design, sviluppo, restyling e hosting di siti web. Termini specifici del progetto, deliverable e prezzi sono delineati in contratti e proposte individuali.",
     "user_responsibilities_title": "Responsabilità dell'Utente",
     "user_responsibilities_content": "Accetti di fornire informazioni accurate quando utilizzi i nostri moduli e servizi, e di utilizzare il nostro sito web e i nostri servizi in modo legale e in conformità con questi termini.",
     "ip_title": "Proprietà intellettuale",
     "ip_content": "Tutti i contenuti di questo sito web, inclusi design, testi, grafica e codice, sono di proprietà di Blok Blok Studio salvo diversa indicazione. La proprietà del lavoro svolto per il cliente è definita nei singoli contratti di progetto.",
     "liability_title": "Limitazione di responsabilità",
-    "liability_content": "Blok Blok Studio non è responsabile per eventuali danni indiretti, accessori o consequenziali derivanti dall'uso del nostro sito web o dei nostri servizi. La nostra responsabilità complessiva non supererà l'importo pagato per il servizio specifico in questione.",
+    "liability_content": "Blok Blok Studio non è responsabile per eventuali danni indiretti, accessori o consequenziali derivanti dall'uso del nostro sito web o dei nostri servizi. La nostra responsabilità complessiva non supererà l'importo pagato per il servizio specifico in questione. Questa limitazione non si applica alla responsabilità per dolo o colpa grave, per lesioni alla vita, al corpo o alla salute, né nei casi in cui la responsabilità non possa essere limitata ai sensi della legge applicabile.",
     "governing_law_title": "Legge applicabile",
     "governing_law_content": "Questi termini sono regolati e interpretati in conformità con le leggi applicabili. Eventuali controversie saranno risolte attraverso negoziazioni in buona fede prima di intraprendere azioni legali formali.",
     "changes_title": "Modifiche ai termini",
@@ -1094,7 +1069,7 @@
     "custom_quote": "Vuoi un preventivo su misura?",
     "hero_title_a": "Cosa ottieni,",
     "hero_title_em": "nero su bianco.",
-    "hero_sub": "Siti web, app, automazioni, inserzioni, branding e gestione dei social media potenziati dall'IA. Ogni progetto viene quotato su misura in base al tuo perimetro, con i deliverable messi nero su bianco così che entrambi sappiamo cosa stiamo costruendo.",
+    "hero_sub": "Siti web creati, rinnovati e ospitati. Ogni progetto viene quotato su misura in base al tuo perimetro, con i deliverable messi nero su bianco così che entrambi sappiamo cosa stiamo costruendo.",
     "tabs": {
       "web": "Sviluppo web",
       "app": "Sviluppo app",
@@ -1105,8 +1080,8 @@
       "branding": "Strategia di brand"
     },
     "sections": {
-      "oneTime": "Progetti una tantum",
-      "webSupport": "Piani mensili",
+      "oneTime": "Siti web: nuovo o restyling",
+      "webSupport": "Piani di hosting e manutenzione",
       "appBuild": "Sviluppi una tantum",
       "appSupport": "Piani mensili",
       "socialSetup": "Setup una tantum",
@@ -1136,23 +1111,27 @@
           "scope": [
             {
               "i": "Landing page su misura (1 pagina)",
-              "l": "Sito a pagina singola interamente progettato su misura e ottimizzato per mobile, sviluppato in Next.js. Include sezioni a scorrimento: hero, chi siamo, servizi, testimonianze e modulo di contatto. Layout responsive per desktop, tablet e mobile. Meta title e meta description SEO scritti da noi. Certificato SSL e configurazione dell'hosting su Vercel inclusi."
+              "l": "Una pagina completamente su misura e ottimizzata per mobile, sviluppata in Next.js: hero, offerta, prove, contatti. Layout responsive per desktop, tablet e mobile. Meta title e meta description SEO scritti da noi. Certificato SSL e configurazione dell'hosting su Vercel inclusi."
             },
             {
-              "i": "Identità di brand (logo + colori)",
-              "l": "2 concept iniziali di logo presentati come mockup. Ne scegli 1 per la rifinitura finale. Deliverable: file del logo in formato PNG, SVG e PDF (versioni a colori, bianca e nera). 1 palette colori principale (5 colori con codici hex) e 1 abbinamento tipografico (titoli + testo). Nessun manuale di brand completo a questo livello."
+              "i": "Design in linea con il tuo brand",
+              "l": "Partiamo dal tuo logo e dai tuoi colori attuali oppure, se ancora non li hai, scegliamo insieme a te una palette e un abbinamento di font. Nessun template; il layout è disegnato per i tuoi contenuti."
+            },
+            {
+              "i": "Modulo di contatto con notifiche email",
+              "l": "Un modulo protetto dallo spam che arriva nella tua casella di posta, con un messaggio di conferma per il visitatore."
             },
             {
               "i": "Analytics e tracciamento",
-              "l": "Google Analytics 4 installato e configurato. 1 obiettivo di conversione impostato (es. invio modulo o clic sul numero di telefono). Google Search Console collegata. Tracciamento eventi di base sui pulsanti CTA."
+              "l": "Google Analytics 4 e Search Console collegati, con eventi di conversione sul modulo così puoi vedere cosa produce la pagina."
             },
             {
-              "i": "Revisioni del design",
-              "l": "2 round di revisioni. Un «round» = 1 insieme consolidato di feedback. Il feedback va inviato entro 5 giorni lavorativi da ogni revisione. Niente feedback parziali o sparsi su più email."
+              "i": "Revisioni del design (2 round)",
+              "l": "Due round di revisione strutturati dopo la prima presentazione del design. Le modifiche vengono raccolte in un unico elenco per round, così non si perde nulla."
             },
             {
               "i": "Contenuti e testi",
-              "l": "Il cliente fornisce tutti i contenuti scritti (titoli, testi, biografie, descrizioni dei servizi). Noi ci occupiamo di layout, formattazione e posizionamento. Se ti serve il copywriting, può essere aggiunto a 200 $/pagina."
+              "l": "Tu ci mandi appunti o elenchi puntati, noi li trasformiamo nel testo definitivo della pagina. Il copywriting professionale completo è disponibile come extra."
             }
           ],
           "ov": [
@@ -1161,7 +1140,7 @@
             "Sezione aggiuntiva: 250 $"
           ],
           "ho": "Pagamento: acconto del 50% all'avvio, 50% alla consegna (a 7 giorni). Progetto concluso all'approvazione del cliente OPPURE dopo 2 round di revisione. Dopo l'approvazione: 175 $/h.",
-          "bridge": "Include 14 giorni di monitoraggio post-lancio (correzione bug e piccoli ritocchi). Ti servono più pagine o funzionalità? Passa al nostro Lancio Starter (6.500 $) per un sito completo di 5 pagine con chat IA e configurazione CRM.",
+          "bridge": "Include 14 giorni di monitoraggio post-lancio (correzione bug e piccoli ritocchi). Ti servono più pagine? Lancio Starter ne copre cinque.",
           "ideal": "Progetti paralleli, personal brand, landing page semplici"
         },
         {
@@ -1172,43 +1151,41 @@
           "tl": "4-6 settimane",
           "scope": [
             {
-              "i": "Sito su misura (5 pagine)",
-              "l": "Sito interamente progettato su misura e ottimizzato per mobile, sviluppato in Next.js. Include: Home, Chi Siamo, Servizi, Contatti e 1 pagina aggiuntiva a tua scelta. Ogni pagina con layout responsive per desktop, tablet e mobile. Meta title e description SEO scritti per tutte e 5 le pagine. Certificato SSL e configurazione dell'hosting su Vercel inclusi."
+              "i": "Sito su misura (5 pagine), nuovo o restyling",
+              "l": "Sito completamente su misura e ottimizzato per mobile, sviluppato in Next.js: Home, Chi siamo, Servizi, Contatti e una pagina a tua scelta. Va bene sia per un sito nuovo sia per il restyling di quello che hai già. Meta title e meta description SEO per tutte e cinque le pagine. Certificato SSL e configurazione dell'hosting su Vercel inclusi."
             },
             {
-              "i": "Identità di brand (logo + colori)",
-              "l": "2 concept iniziali di logo presentati come mockup. Ne scegli 1 per la rifinitura finale. Deliverable: file del logo in formato PNG, SVG e PDF (versioni a colori, bianca e nera). 1 palette colori principale (5 colori con codici hex) e 1 abbinamento tipografico (titoli + testo). Nessun manuale di brand completo a questo livello."
+              "i": "Design in linea con il tuo brand",
+              "l": "Costruito sul tuo logo e sui tuoi colori attuali, oppure su una palette e un abbinamento di font scelti insieme a te. Ogni sezione è progettata per i tuoi contenuti, non incastrata in un tema."
             },
             {
-              "i": "Widget chat IA",
-              "l": "1 chatbot basato su IA integrato nel tuo sito. Addestrato su 25 coppie domanda-risposta fornite da te (es. prezzi, orari, servizi). Include un modulo di acquisizione lead che invia le richieste al tuo CRM. Messaggio di benvenuto di base e risposta di fallback configurati."
+              "i": "Moduli di contatto e prenotazione",
+              "l": "Modulo di contatto protetto dallo spam più un link di prenotazione o un calendario integrato, così i visitatori possono contattarti o prenotare un appuntamento senza scambi di email."
             },
             {
-              "i": "Configurazione CRM (GoHighLevel)",
-              "l": "1 pipeline di vendita con 5 fasi (es. Nuovo lead → Contattato → Proposta inviata → Vinto → Perso). 5 sequenze di automazione (es. notifica email di nuovo lead, promemoria di follow-up, conferma appuntamento, SMS di richiamo dopo chiamata persa, email di benvenuto). Importazione contatti da CSV se fornito (max 500 contatti)."
+              "i": "Configurazione SEO tecnica",
+              "l": "Meta title e description, tag Open Graph, dati strutturati per la tua attività, sitemap XML e robots.txt, inviati a Google Search Console al lancio."
             },
             {
               "i": "Analytics e tracciamento",
-              "l": "Google Analytics 4 installato e configurato. 1 obiettivo di conversione impostato (es. invio modulo, clic sul numero di telefono o interazione con il chatbot). Google Search Console collegata. Tracciamento eventi di base sui pulsanti CTA."
+              "l": "Google Analytics 4 e Search Console collegati, con eventi di conversione su moduli e prenotazioni."
             },
             {
-              "i": "Revisioni del design",
-              "l": "2 round di revisioni per pagina. Un «round» = 1 insieme consolidato di feedback. Il feedback va inviato entro 5 giorni lavorativi da ogni revisione. Niente feedback parziali o sparsi su più email."
+              "i": "Revisioni del design (2 round)",
+              "l": "Due round di revisione strutturati dopo la prima presentazione del design."
             },
             {
               "i": "Contenuti e testi",
-              "l": "Il cliente fornisce tutti i contenuti scritti (titoli, testi, biografie, descrizioni dei servizi). Noi ci occupiamo di layout, formattazione e posizionamento. Se ti serve il copywriting, può essere aggiunto a 200 $/pagina."
+              "l": "Tu ci mandi appunti o elenchi puntati, noi li trasformiamo nel testo definitivo di ogni pagina. Il copywriting professionale completo è disponibile come extra."
             }
           ],
           "ov": [
             "Pagine aggiuntive: 500 $/pagina",
             "Round di revisione extra: 300 $",
-            "Copywriting: 200 $/pagina",
-            "Domande e risposte aggiuntive (25+): 250 $/lotto",
-            "Automazione aggiuntiva: 350 $ ciascuna"
+            "Copywriting: 200 $/pagina"
           ],
           "ho": "Pagamento: acconto del 50% all'avvio, 50% alla consegna (a 7 giorni). Progetto concluso all'approvazione del cliente OPPURE dopo 2 round di revisione. Dopo l'approvazione: 175 $/h.",
-          "bridge": "Include 30 giorni di monitoraggio post-lancio (correzione bug, controlli del chatbot, stato del CRM). Dal 30° giorno, manutenzione, aggiornamenti e messa a punto dell'IA passano al nostro piano Manutenzione e Monitoraggio (1.500 $/mese) per mantenere i tuoi sistemi ottimizzati.",
+          "bridge": "Include 30 giorni di monitoraggio post-lancio (correzione bug e piccoli ritocchi). Dal 30° giorno, hosting e manutenzione proseguono con Cura del Sito (550 $/mese).",
           "ideal": "Startup, liberi professionisti, attività locali"
         },
         {
@@ -1220,116 +1197,105 @@
           "tl": "6-8 settimane",
           "scope": [
             {
-              "i": "Sito su misura (10 pagine + CMS)",
-              "l": "10 pagine interamente progettate e ottimizzate per mobile, sviluppate in Next.js con CMS integrato (blog o portfolio). Include: Home, Chi Siamo, Servizi (3 sottopagine di servizio), Blog, Contatti e 2 pagine aggiuntive. 3 animazioni su misura allo scroll o all'hover. SEO on-page su tutte le pagine (meta title, description, tag alt, markup schema). SSL, hosting su Vercel e invio della sitemap a Google inclusi."
+              "i": "Sito su misura (10 pagine + CMS), nuovo o restyling",
+              "l": "Dieci pagine completamente su misura sviluppate in Next.js con un sistema di gestione dei contenuti, così il tuo team può modificare testi, immagini e articoli senza uno sviluppatore. Va bene per un sito nuovo o un restyling. Metadati SEO su ogni pagina. Certificato SSL e configurazione dell'hosting su Vercel inclusi."
             },
             {
-              "i": "Identità di brand (manuale completo)",
-              "l": "3 concept iniziali di logo presentati come mockup lifestyle. 1 selezionato per la rifinitura finale. Manuale di brand completo in PDF (10 pagine) che include: regole d'uso del logo, dimensioni minime, area di rispetto, palette colori (primaria + secondaria, hex/RGB/CMYK), sistema tipografico (font per titoli, sottotitoli e testo con dimensioni) e note sul tone of voice. 5 template di post social brandizzati consegnati in Canva o Figma (modificabili)."
+              "i": "Design system",
+              "l": "Componenti, tipografia e colori definiti una volta e riutilizzati su ogni pagina, così le pagine aggiunte in seguito sembrano parte dell'insieme."
             },
             {
-              "i": "Chatbot IA",
-              "l": "1 chatbot basato su IA addestrato su 50 coppie domanda-risposta. Include integrazione per la prenotazione di appuntamenti (collegata al tuo Google Calendar o Calendly). Acquisizione lead con inserimento automatico nel CRM. Saluto personalizzato, risposte di fallback e messaggi fuori orario configurati. Chatbot integrato su 3 pagine del sito."
+              "i": "Sezione blog o news che puoi gestire tu",
+              "l": "Una sezione gestita dal CMS con categorie, autore e data, schema per gli articoli e immagini di condivisione social generate per ogni post."
             },
             {
-              "i": "Agente vocale IA",
-              "l": "1 agente vocale IA in entrata che risponde alle chiamate, qualifica i lead e fissa appuntamenti. 1 script di chiamata su misura scritto e configurato. 500 minuti vocali inclusi il primo mese. Registrazioni delle chiamate salvate nel tuo CRM. Include instradamento di base delle chiamate (trasferimento a te se l'IA non riesce a risolvere)."
+              "i": "Moduli lead e prenotazione con notifiche",
+              "l": "Moduli semplici o multi-step, protezione antispam, notifiche email e calendario di prenotazione integrato, con ogni invio etichettato per provenienza."
             },
             {
-              "i": "Automazione dei flussi (8 in totale)",
-              "l": "8 automazioni costruite in GoHighLevel. Esempi: notifica di nuovo lead (email + SMS), sequenza promemoria appuntamento (24 h e 1 h prima), SMS di richiamo dopo chiamata persa, follow-up post-appuntamento, richiesta recensione dopo il servizio, recupero moduli abbandonati, email di compleanno/anniversario e trigger al cambio di fase nella pipeline. Ogni automazione include fino a 5 step."
+              "i": "Configurazione SEO tecnica e locale",
+              "l": "Tutta la configurazione tecnica del pacchetto Starter più schema per attività locale, allineamento con il Profilo dell'attività su Google e pagine per località dove ha senso."
             },
             {
-              "i": "Configurazione Google Ads",
-              "l": "1 campagna Google Search con 3 gruppi di annunci (mirati a diversi temi di parole chiave). Ricerca parole chiave e lista di parole chiave negative incluse. 6 varianti di annuncio scritte (2 per gruppo). 1 landing page dedicata progettata, sviluppata e collegata al tracciamento delle conversioni. Tracciamento conversioni Google Ads e Google Tag Manager configurati. La spesa pubblicitaria viene fatturata a parte e pagata da te direttamente a Google."
+              "i": "Ottimizzazione delle performance",
+              "l": "Core Web Vitals superati su mobile e desktop prima del lancio: ottimizzazione delle immagini, caricamento dei font e budget degli script, verificati con Lighthouse."
             },
             {
-              "i": "Dashboard cliente",
-              "l": "1 dashboard in tempo reale costruita in GHL o Google Looker Studio. Fino a 6 widget: traffico del sito, numero di lead, valore della pipeline, tasso di conversione, performance delle inserzioni e interazioni del chatbot. La dashboard si aggiorna automaticamente ed è accessibile tramite link condivisibile."
+              "i": "Dashboard analytics",
+              "l": "Google Analytics 4 e Search Console collegati, più una semplice vista mensile di traffico, lead e pagine più visitate."
             },
             {
-              "i": "Revisioni del design",
-              "l": "3 round di revisioni per deliverable (pagine del sito, asset di brand, creatività pubblicitarie e dashboard). Un «round» = 1 insieme consolidato di feedback inviato entro 5 giorni lavorativi."
+              "i": "Revisioni del design (3 round)",
+              "l": "Tre round di revisione strutturati dopo la prima presentazione del design."
             },
             {
               "i": "Contenuti e testi",
-              "l": "Scriviamo noi i testi della tua home page e della pagina servizi (1.500 parole in totale). Tutti gli altri contenuti li fornisci tu. Il CMS del blog viene consegnato vuoto così che tu o il tuo team possiate creare gli articoli, oppure aggiungi il nostro pacchetto contenuti."
+              "l": "Tu ci mandi appunti o elenchi puntati, noi li trasformiamo nel testo definitivo di ogni pagina. Il copywriting professionale completo è disponibile come extra."
             }
           ],
           "ov": [
             "Pagine aggiuntive: 500 $/pagina",
             "Revisione extra: 300 $/round",
-            "Campagna pubblicitaria aggiuntiva: 1.500 $",
-            "Script vocale aggiuntivo: 750 $",
-            "Automazioni (8+): 350 $ ciascuna",
             "Landing page extra: 900 $",
-            "Copywriting oltre l'incluso: 200 $/pagina"
+            "Copywriting oltre le pagine incluse: 200 $/pagina"
           ],
           "ho": "Pagamento: acconto del 50% all'avvio, 50% alla consegna (a 7 giorni). Progetto concluso all'approvazione OPPURE dopo 3 round di revisione. Dopo l'approvazione: 175 $/h.",
-          "bridge": "Include 30 giorni post-lancio: gestione delle inserzioni, monitoraggio dell'IA e correzione bug. Dal 30° giorno, le tue inserzioni, gli agenti IA e le automazioni hanno bisogno di ottimizzazione continua per restare performanti. Ti consigliamo il nostro piano Motore di Crescita (3.500 $/mese) per mantenere lo slancio.",
-          "ideal": "Attività in crescita che scalano grazie ai sistemi"
+          "bridge": "Include 30 giorni di monitoraggio e correzione bug post-lancio. Dal 30° giorno, Crescita del Sito (1.600 $/mese) continua a consegnare una nuova pagina o sezione ogni mese.",
+          "ideal": "Attività in crescita che pubblicano e vendono"
         },
         {
-          "name": "Dominio Totale",
+          "name": "Lancio Premium",
           "price": 18000,
           "disp": "da 18.000 $",
-          "tag": "Livello enterprise",
+          "tag": "Progetto completo",
           "tl": "8-12 settimane",
           "scope": [
             {
-              "i": "Sito premium (15 pagine + e-commerce)",
-              "l": "15 pagine interamente progettate e sviluppate in Next.js con CMS headless (Sanity o Contentful). 6 animazioni su misura (scroll parallax, effetti hover, transizioni di pagina, microinterazioni). Pronto per l'e-commerce: 20 schede prodotto con integrazione Shopify o Stripe, carrello e checkout. Include blog, centro risorse o sezione case study. SEO on-page completa, markup schema, tag Open Graph, sitemap XML e robots.txt. SSL, hosting Vercel e ottimizzazione CDN inclusi."
+              "i": "Sito premium (15 pagine + e-commerce), nuovo o restyling",
+              "l": "Quindici o più pagine completamente su misura sviluppate in Next.js con un sistema di gestione dei contenuti e un negozio online. Va bene per un sito nuovo o un restyling. Metadati SEO su ogni pagina. Certificato SSL e configurazione dell'hosting su Vercel inclusi."
             },
             {
-              "i": "Sistema di brand completo",
-              "l": "5 concept iniziali di logo con mockup lifestyle. 1 selezionato per la rifinitura completa. Manuale di brand completo (20 pagine): uso del logo, area di rispetto, dimensioni minime, palette colori primaria e secondaria, gerarchia tipografica, guida allo stile fotografico, stile delle icone, voce e tono del brand. Design della cancelleria: biglietto da visita, carta intestata e template per la firma email. Template pitch deck (15 slide, modificabile in Google Slides o Keynote). 10 template social brandizzati (Canva o Figma, modificabili)."
+              "i": "Design system",
+              "l": "Componenti, tipografia e colori definiti una volta e documentati, così il tuo team e il nostro creano nuove pagine in modo coerente."
             },
             {
-              "i": "Ecosistema di agenti IA (3 agenti)",
-              "l": "3 agenti IA interconnessi che lavorano come un unico sistema. Esempio di configurazione: l'Agente 1 acquisisce i lead tramite chatbot e li valuta (caldo/tiepido/freddo). L'Agente 2 invia sequenze email personalizzate in base al punteggio. L'Agente 3 attiva follow-up via SMS per i lead caldi. 1 albero decisionale su misura che mappa l'intero percorso del lead. Tutti gli agenti collegati al tuo CRM GHL con tagging automatico dei contatti e avanzamento nella pipeline."
+              "i": "Pagamenti e checkout",
+              "l": "Checkout Stripe o Shopify, pagine prodotto, carrello, email di conferma ordine e regole di tasse e spedizione configurate per il tuo mercato."
             },
             {
-              "i": "Suite di IA conversazionale",
-              "l": "1 chatbot IA addestrato su 100 coppie domanda-risposta, integrato su tutto il sito. Include prenotazione appuntamenti, acquisizione lead, gestione FAQ e messaggi fuori orario. 1 agente vocale IA con 2 script di chiamata su misura (es. vendite in entrata + conferma appuntamenti). 1.000 minuti vocali inclusi il primo mese. Registrazioni delle chiamate salvate nel CRM. 5 sequenze di automazione SMS (es. promemoria appuntamenti, follow-up post-chiamata, richiesta recensione, riattivazione, invio promozionale)."
+              "i": "Account clienti o portale clienti",
+              "l": "Login, storico ordini o file di progetto, download e impostazioni dell'account, costruiti su ciò di cui i tuoi clienti hanno davvero bisogno."
             },
             {
-              "i": "Automazione dei flussi (15 in totale)",
-              "l": "15 automazioni tra CRM, sistema di pagamento e calendario. Esempi: sequenze di nurturing dei lead, promemoria fatture, conferma pagamento, flussi di onboarding, richieste di recensione, campagne di recupero clienti, notifiche interne al team, automazioni per fase della pipeline ed email di compleanno o traguardi. Ogni automazione include fino a 7 step con logica condizionale."
+              "i": "Configurazione SEO tecnica e locale",
+              "l": "Configurazione tecnica completa più schema per prodotti e attività locale, allineamento con il Profilo dell'attività su Google e pagine per località dove ha senso."
             },
             {
-              "i": "Google + Meta Ads (configurazione completa)",
-              "l": "1 campagna Google Search con 5 gruppi di annunci e 10 varianti. Ricerca parole chiave completa con liste di negative. 1 campagna Meta (Facebook/Instagram) con 3 gruppi di inserzioni rivolti a pubblici diversi. Pixel di retargeting installato sul tuo sito per Google e Meta. 2 landing page dedicate progettate, sviluppate e ottimizzate per la conversione. Tutto il tracciamento delle conversioni configurato tramite Google Tag Manager. Creatività pubblicitarie progettate (6 immagini statiche + 2 caroselli). Spesa pubblicitaria fatturata a parte. Paghi direttamente Google e Meta."
+              "i": "Ottimizzazione delle performance",
+              "l": "Core Web Vitals superati su mobile e desktop prima del lancio, incluse le pagine del negozio e del portale."
             },
             {
-              "i": "Sistema di contenuti IA",
-              "l": "Pipeline di contenuti completa configurata: flusso da video a clip (carichi un video lungo, l'IA genera clip per i social), template per la generazione di articoli blog con assistenza IA e programmazione social configurata in Buffer o Later. Primo mese di contenuti prodotti e pubblicati: 4 articoli blog (fino a 1.000 parole ciascuno, ottimizzati SEO) e 12 post social (grafiche + didascalie). Template di calendario editoriale fornito per l'uso continuativo."
+              "i": "Dashboard analytics",
+              "l": "Google Analytics 4 con eventi e-commerce, Search Console e una vista mensile di traffico, ordini e prodotti più venduti."
             },
             {
-              "i": "Dashboard direzionale",
-              "l": "1 dashboard completa in GHL o Google Looker Studio. 10 widget: traffico del sito, pipeline lead, tasso di conversione, performance Google Ads (CPC, CTR, ROAS), performance Meta Ads, interazioni del chatbot, volume chiamate dell'agente vocale, tassi di apertura e clic delle email, attribuzione dei ricavi e grafici di tendenza settimanali. Email riepilogativa settimanale automatica inviata a 3 destinatari."
+              "i": "Revisioni del design (3 round)",
+              "l": "Tre round di revisione strutturati dopo la prima presentazione del design."
             },
             {
-              "i": "Revisioni del design",
-              "l": "3 round di revisioni per deliverable su tutti gli asset. Un «round» = 1 insieme consolidato di feedback inviato entro 5 giorni lavorativi."
-            },
-            {
-              "i": "Copywriting professionale",
-              "l": "Copywriting professionale completo per 10 pagine del sito (titoli, testi, CTA, meta description). Il cliente fornisce materiale grezzo, appunti o punti chiave per le pagine restanti. Testi pubblicitari di tutte le campagne Google e Meta scritti e inclusi."
+              "i": "Copywriting",
+              "l": "Il copywriting professionale completo di ogni pagina è incluso in questo livello."
             }
           ],
           "ov": [
             "Pagine aggiuntive: 500 $",
             "Revisione extra: 350 $/round",
-            "Agente IA aggiuntivo: 2.500 $",
-            "Campagna pubblicitaria aggiuntiva: 1.500 $",
-            "Script vocale: 750 $",
-            "Automazioni (15+): 400 $ ciascuna",
             "Prodotti (20+): 75 $/prodotto",
-            "Contenuti dopo il primo mese: richiede un piano mensile"
+            "Landing page extra: 900 $"
           ],
           "ho": "Pagamento: acconto del 50% all'avvio, 25% alla milestone intermedia, 25% alla consegna (a 7 giorni). Progetto concluso all'approvazione OPPURE dopo 3 round. Dopo l'approvazione: 175 $/h.",
-          "bridge": "Include 45 giorni post-lancio: monitoraggio completo, gestione delle inserzioni, messa a punto dell'IA e correzione bug. Dal 45° giorno, il tuo ecosistema IA, le campagne e i sistemi di contenuto hanno bisogno di gestione continua per dare risultati. Ti consigliamo la nostra Partnership Completa (7.500 $/mese) o Motore di Crescita (3.500 $/mese) in base alle tue esigenze.",
-          "ideal": "Aziende consolidate che vogliono un'infrastruttura IA completa"
+          "bridge": "Include 45 giorni di monitoraggio e correzione bug post-lancio. Dal 45° giorno, Partnership Web (3.800 $/mese) ti mette a disposizione uno sviluppatore e un designer dedicati.",
+          "ideal": "Aziende consolidate che hanno bisogno di e-commerce o di un portale clienti"
         }
       ],
       "socialSetup": [
@@ -2689,7 +2655,7 @@
             "Richiesta urgente (stesso giorno): +125 $",
             "Lavoro di aggiornamento a ore: 165 $/h"
           ],
-          "ex": "Niente nuove pagine, niente riprogettazioni, niente test A/B, niente SEO, niente inserzioni. Nessuna attività di marketing. Vedi i nostri pacchetti marketing per quelli.",
+          "ex": "Nessuna pagina nuova, nessun restyling, nessun test A/B, nessun lavoro SEO. Sono inclusi in Crescita del Sito e Partnership Web.",
           "ideal": "Siti già online che hanno bisogno di manutenzione affidabile e tranquillità"
         },
         {
@@ -2735,7 +2701,7 @@
             "Nuova pagina aggiuntiva: 850 $",
             "Lavoro video/animazione: definito a parte"
           ],
-          "ex": "Niente riprogettazioni complete (definite come progetto). Niente inserzioni a pagamento. Niente scrittura di contenuti oltre le piccole modifiche.",
+          "ex": "Nessun restyling completo (quotato come progetto). Nessuna scrittura di contenuti oltre piccole modifiche.",
           "ideal": "Team che vogliono che il sito continui a migliorare ogni mese"
         },
         {
@@ -2780,7 +2746,7 @@
             "Caricamento pagina di contenuto aggiuntiva: 45 $ ciascuna oltre le 10",
             "Deploy urgente (stesso giorno): +25%"
           ],
-          "ex": "Niente gestione inserzioni a pagamento (vedi pacchetti marketing). Niente rebrand (vedi pacchetti branding). Niente lavoro su app mobile.",
+          "ex": "Nessun restyling completo (quotato come progetto). Nessun lavoro su app mobili.",
           "ideal": "Aziende in crescita che considerano Blok Blok il loro team web"
         }
       ],
@@ -3224,8 +3190,8 @@
     },
     "v2_card_cta": "Richiedi un preventivo su misura",
     "v2_options": "{count, plural, one {# opzione} other {# opzioni}}",
-    "meta_title": "Servizi e pacchetti",
-    "meta_description": "Pacchetti di design e sviluppo di siti web su misura. Deliverable definiti, quotati su misura in base al tuo perimetro."
+    "meta_title": "Prezzi",
+    "meta_description": "Pacchetti di design, restyling e hosting di siti web. Deliverable definiti, quotati su misura in base al tuo perimetro."
   },
   "a11y": {
     "skip_to_main": "Vai al contenuto principale",

@@ -7,7 +7,7 @@ import { getTranslations } from 'next-intl/server';
 const QUOTES = [
   { text: 'v2_quote_1_text', name: 'Colton Staley', role: 'v2_quote_1_role', results: true },
   { text: 'v2_quote_2_text', name: 'Coach Kofi', role: 'v2_quote_2_role' },
-  { text: 'v2_quote_3_text', name: 'Exotic Ripz', role: 'v2_quote_3_role' },
+  { text: 'v2_quote_3_text', name: 'Exotic Ripz', role: 'v2_quote_3_role', results: true },
 ] as const;
 
 export async function V2Proof() {

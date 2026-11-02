@@ -29,13 +29,13 @@
     "meta_description": "Fiyatlar, süreler, özel web siteleri ve dünya genelinde müşterilere hizmet veren Berlin merkezli web tasarım stüdyosu Blok Blok Studio ile çalışmak hakkında yanıtlar.",
     "hero_eyebrow": "Sıkça Sorulan Sorular",
     "hero_title": "Sormak istediğiniz her şey",
-    "hero_subtitle": "Nasıl çalıştığımız, ne kadar ücret aldığımız ve ne ürettiğimiz hakkında dürüst yanıtlar. Sorunuzu burada bulamazsanız ücretsiz 30 dakikalık bir görüşme ayarlayın.",
+    "hero_subtitle": "Nasıl çalıştığımız, ne kadar ücret aldığımız ve ne ürettiğimiz hakkında dürüst yanıtlar. Sorunuzu burada bulamazsanız ücretsiz 15 dakikalık bir görüşme ayarlayın.",
     "category_pricing": "Fiyatlandırma ve Yatırım",
     "category_process": "Süreç ve Zaman Planı",
     "category_capabilities": "Hizmetler ve Yetkinlikler",
     "category_trust": "Blok Blok Studio ile Çalışmak",
     "cta_heading": "Hâlâ sorunuz mu var?",
-    "cta_subheading": "Ücretsiz 30 dakikalık strateji görüşmesi ayarlayın. Satış konuşması yok, baskı yok, sadece yanıtlar.",
+    "cta_subheading": "Ücretsiz 15 dakikalık bir görüşme ayarlayın. Satış konuşması yok, baskı yok, sadece yanıtlar.",
     "cta_button": "Ücretsiz Görüşmenizi Ayarlayın",
     "see_all_questions": "Tüm soruları gör",
     "filter_all": "Tümü",
@@ -43,32 +43,17 @@
       {
         "category": "pricing",
         "question": "Özel bir web sitesi ne kadara mal olur?",
-        "answer": "Blok Blok Studio'da özel web siteleri tek bir açılış sayfası için 2.000 dolardan, 5 sayfalık bir site için 6.500 dolardan, CMS'li 10 sayfa için 12.000 dolardan ve 15 veya daha fazla sayfa için 18.000 dolardan başlar. Fiyat; sayfa sayısına, özel animasyonlara, entegrasyonlara ve metin yazarlığı ihtiyaçlarına göre belirlenir. Her site Next.js ile geliştirilir, Vercel üzerinde barındırılır ve ilk günden SEO için optimize edilir; asla şablon kullanılmaz."
+        "answer": "Tek bir açılış sayfası 2.000 dolar, 5 sayfalık bir site 6.500 dolar, CMS'li 10 sayfa 12.000 dolar, e-ticaretli 15 veya daha fazla sayfa ise 18.000 dolardan başlar. Yeni bir site de olsa mevcut sitenizin yeniden tasarımı da olsa aynı kademeler geçerlidir. Fiyat; sayfa sayısına, özel animasyonlara, entegrasyonlara ve metin yazarlığı ihtiyaçlarına göre belirlenir. Her site Next.js ile geliştirilir, Vercel üzerinde barındırılır ve ilk günden SEO için optimize edilir; asla şablon kullanılmaz."
       },
       {
         "category": "pricing",
-        "question": "Bir yapay zeka sohbet botu geliştirmek ne kadara mal olur?",
-        "answer": "100'den fazla soru-cevap çiftiyle eğitilmiş ve site genelinde gömülü bir yapay zeka sohbet botu, sesli ajan, SMS otomasyonları ve eksiksiz bir içerik hattını da kapsayan 18.000 dolarlık Konuşma Tabanlı Yapay Zeka paketimize dahildir. Bir web sitesi kademesine bağımsız ek olarak yapay zeka sohbet botu 2.500 dolardan başlar. Tüm botlar CRM'inizle entegre çalışır ve 7/24 potansiyel müşteri toplar."
-      },
-      {
-        "category": "pricing",
-        "question": "Bir yapay zeka sesli ajanın aylık maliyeti nedir?",
-        "answer": "Yapay zeka sesli ajan kurulumumuz tek seferlik 2.500 dolardan başlar ve ilk ay için 500 dakikalık konuşma süresi dahildir. Sonraki dakikalar standart telefon tarifeleriyle faturalandırılır ve aylık bir hizmet paketine dahil edilir. Ajan aramaları yanıtlar, potansiyel müşterileri eler, randevu alır ve acil aramaları bir insana yönlendirir; hepsini doğal bir konuşma diliyle yapar."
-      },
-      {
-        "category": "pricing",
-        "question": "Aylık hizmet paketleri mi sunuyorsunuz, yoksa yalnızca proje bazlı mı çalışıyorsunuz?",
-        "answer": "Her ikisi de. Proje işleri 2.000 dolardan başlar ve kilometre taşlarına göre faturalandırılır. Aylık paketler site bakımı, yapay zeka izleme ve CRM bakımı için aylık 1.500 dolardan; tam kapsamlı büyüme, Google ve Meta reklam yönetimi, yapay zeka destekli içerik üretimi ve her ay 5 saatlik geliştirme çalışması için aylık 3.500 dolardan başlar. Aylık paketler 3 veya 6 aylık asgari taahhüt gerektirir."
+        "question": "Aylık barındırma ve bakım planları mı sunuyorsunuz, yoksa yalnızca proje bazlı mı çalışıyorsunuz?",
+        "answer": "Her ikisi de. Proje işleri 2.000 dolardan başlar ve kilometre taşlarına göre faturalandırılır. Lansmandan sonra barındırma ve bakım planları Site Bakımı için aylık 550 dolardan (izleme, yedekleme, güvenlik güncellemeleri ve küçük içerik düzenlemeleri), Site Büyümesi için aylık 1.600 dolardan (her ay yeni bir sayfa veya bölüm ve A/B testleri) ve Site Ortaklığı için aylık 3.800 dolardan (size özel bir geliştirici ve tasarımcı) başlar. Planlar 3 aylık asgari taahhüt gerektirir."
       },
       {
         "category": "process",
         "question": "Özel bir web sitesi geliştirmek ne kadar sürer?",
-        "answer": "Tek bir açılış sayfası genellikle 2 ila 3 haftada yayına girer. 5 sayfalık bir site 4 ila 6 hafta sürer. CMS ve yapay zeka entegrasyonlu 10 sayfalık bir site 8 ila 12 hafta alır. Süre; içerik, marka girdileri ve onayları ne kadar hızlı sağladığınıza bağlıdır. Hızlı ilerleriz; çoğu ajans 2 ila 3 kat daha uzun sürede tamamlar."
-      },
-      {
-        "category": "process",
-        "question": "Bir yapay zeka ajanını devreye almak ne kadar sürer?",
-        "answer": "Mevcut SSS'lerinizle eğitilmiş standart bir yapay zeka sohbet botu 7 ila 10 iş gününde yayına girer. Özel arama senaryolu bir sesli ajan 10 ila 14 gün sürer. CRM, takvim ve ödeme entegrasyonlu tam bir çoklu ajan ekosistemi, karmaşıklığa bağlı olarak 4 ila 8 hafta alır. Önce bir keşif görüşmesi, ardından ücretli bir kapsam dokümanı, sonra geliştirme ile başlarız."
+        "answer": "Tek bir açılış sayfası genellikle 2 ila 3 haftada yayına girer. 5 sayfalık bir site 4 ila 6 hafta, CMS'li 10 sayfalık bir site 6 ila 8 hafta, 15 veya daha fazla sayfa ise 8 ila 12 hafta sürer. Yeniden tasarımlar da aynı takvimle ilerler. Süre; içerik, marka girdileri ve onayları ne kadar hızlı sağladığınıza bağlıdır."
       },
       {
         "category": "process",
@@ -77,33 +62,23 @@
       },
       {
         "category": "capabilities",
-        "question": "Yapay zeka sohbet botu ile yapay zeka sesli ajan arasındaki fark nedir?",
-        "answer": "Yapay zeka sohbet botu metin tabanlıdır ve web sitenizde veya mesajlaşma uygulamalarında yaşar; SSS'leri yanıtlar, randevu alır ve sohbet üzerinden potansiyel müşteri toplar. Yapay zeka sesli ajan ise gerçek telefon aramalarını doğal konuşma diliyle yanıtlar. Sesli ajanlar gelen satış aramaları, mesai dışı destek ve randevu onayları için en uygunudur. Birçok işletme tam kapsama için ikisini birlikte kullanır."
-      },
-      {
-        "category": "capabilities",
-        "question": "Yapay zeka ajanlarınız HubSpot, Salesforce veya GoHighLevel ile entegre olabilir mi?",
-        "answer": "Evet. Yapay zeka ajanlarımız ve otomasyonlarımız HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe ve Calendly ile doğrudan entegre çalışır. Hazır entegrasyonu olmayan CRM'ler ve araçlar için özel bir bağlayıcı geliştiririz; Zapier aracı vergisi yok. Verileriniz kendi sistemlerinizde kalır; biz yalnızca birbirleriyle konuşmalarını sağlarız."
-      },
-      {
-        "category": "capabilities",
         "question": "Web sitelerini Next.js, WordPress veya Webflow ile mi geliştiriyorsunuz?",
-        "answer": "Yalnızca Next.js ile TypeScript, Tailwind CSS ve Framer Motion kullanarak geliştiriyoruz. Siteler saniyenin altında yüklenme süreleri ve küresel edge dağıtımı için Vercel üzerinde barındırılır. WordPress, Wix, Squarespace veya Webflow ile geliştirme yapmıyoruz; bu platformlar müşterilerimizin ihtiyaç duyduğu performansı, özel animasyonları veya yapay zeka entegrasyonlarını sunamaz."
+        "answer": "Varsayılan olarak Next.js ile TypeScript ve Tailwind CSS kullanarak elle kodlar, saniyenin altında yüklenme süreleri için Vercel üzerinde barındırırız. Hız, özel animasyonlar ve SEO sonuçları buradan gelir. Durumunuz gerektiriyorsa, örneğin ekibiniz zaten WordPress kullanıyorsa veya pazarlama siteniz Webflow'un düzenleyicisine ihtiyaç duyuyorsa, orada da geliştiririz."
       },
       {
         "category": "capabilities",
         "question": "Web sitesi metinlerini siz mi yazıyorsunuz, yoksa ben mi sağlıyorum?",
-        "answer": "İkisi de olur. Çoğu müşteri ham notlar veya madde işaretleri sağlar, biz bunları nihai metne dönüştürürüz. Tam profesyonel metin yazarlığı 18.000 dolarlık kademeye dahildir ve diğer tüm kademelerde sayfa başına 200 dolar ek ücretle sunulur. Reklamları biz yönettiğimizde Google ve Meta kampanyalarının reklam metinleri her zaman tarafımızca yazılır."
+        "answer": "İkisi de olur. Çoğu müşteri ham notlar veya madde işaretleri sağlar, biz bunları nihai metne dönüştürürüz. Tam profesyonel metin yazarlığı 18.000 dolarlık kademeye dahildir ve diğer tüm kademelerde sayfa başına 200 dolar ek ücretle sunulur."
       },
       {
         "category": "trust",
         "question": "Blok Blok Studio nerede bulunuyor ve uluslararası çalışıyor musunuz?",
-        "answer": "Stüdyomuz Almanya'nın Berlin şehrinde bulunuyor. Amerika Birleşik Devletleri, Birleşik Krallık, Hollanda, Fransa, İspanya ve AB genelinde müşterilerle çalışıyoruz. İletişim Loom, e-posta ve mesaj yoluyla asenkron ilerler; her saat dilimine uyum sağlarız. Faturalar ve sözleşmeler tercihinize göre USD veya EUR olarak düzenlenebilir."
+        "answer": "Stüdyomuz Almanya'nın Berlin şehrinde bulunuyor; ekip üyelerimiz Richmond, Los Angeles ve Multan'da. Müşterilerimiz Amerika Birleşik Devletleri, Almanya ve Filipinler'de. İletişim Loom, e-posta ve mesaj yoluyla asenkron ilerler; bu yüzden her saat dilimi işler. Faturalar ve sözleşmeler USD veya EUR olarak düzenlenebilir."
       },
       {
         "category": "trust",
-        "question": "Web sitemin kodu ve yapay zeka ajanı yapılandırmaları bana mı ait oluyor?",
-        "answer": "Evet, tamamen. Proje tamamlandığında kodun, tasarım dosyalarının, yapay zeka istemlerinin ve otomasyon yapılandırmalarının tam mülkiyetini alırsınız. Site, kendi faturalandırmanız altında kendi Vercel hesabınıza dağıtılır. CRM, reklam hesapları ve alan adları ilk günden itibaren sizin adınıza kalır. Müşterileri asla kendi sistemlerimize bağımlı kılmayız."
+        "question": "Web sitemin kodu bana mı ait oluyor?",
+        "answer": "Evet, tamamen. Proje tamamlandığında kodun ve tasarım dosyalarının tam mülkiyetini alırsınız. Site, kendi faturalandırmanız altında kendi Vercel hesabınıza dağıtılır ve alan adı ilk günden itibaren sizin adınıza kalır. Müşterileri asla kendi sistemlerimize bağımlı kılmayız."
       },
       {
         "category": "trust",
@@ -135,7 +110,7 @@
     "tab_all": "Tümü",
     "tab_ai": "Yapay Zeka ve Otomasyon",
     "tab_creative": "Kreatif ve Pazarlama",
-    "audit_badge": "Ücretsiz, 30 dakika",
+    "audit_badge": "Ücretsiz, 15 dakika",
     "audit_heading": "İşletmenizin Neye İhtiyacı Olduğundan Emin Değil misiniz?",
     "audit_subheading": "Ücretsiz bir strateji görüşmesi ayarlayın. İşletmenizi inceleyip en büyük fırsatların tam olarak nerede olduğunu gösterelim.",
     "audit_button": "Ücretsiz Görüşmenizi Ayarlayın",
@@ -239,8 +214,8 @@
     "v2_quote_2_role": "Nike sporcusu, Berlin",
     "v2_quote_3_role": "Koleksiyon kartı mağazası",
     "v2_quote_1_text": "İlk beş ayda 50.000 $ brüt gelir, 52 Google yorumunda 5,0 yıldız ve arama terimlerinde ortalama 5,2 Google sıralaması.",
-    "v2_quote_2_text": "Blok Blok Studio çevrimiçi varlığımı tamamen dönüştürdü. Cesur tasarım koçluk felsefemi kusursuz yansıtıyor ve sonuçlar inanılmaz oldu.",
-    "v2_quote_3_text": "Bizim için kurdukları e-ticaret mağazası inanılmaz. Booster paket drop'larımız saatler içinde tükeniyor ve site üzerinden topluluk etkileşimi muhteşem.",
+    "v2_quote_2_text": "Onunla iletişim kurmak gerçekten kolay. Hızlı yanıt veren, işini bilen ve ihtiyaçlarınıza uyum sağlayabilen birine ihtiyacınız var. Chase'i, yani Blok Blok Studio'yu gerçekten tavsiye ederim.",
+    "v2_quote_3_text": "Kurduğumuz Shopify mağazasında 1.790 siparişle 191.042 $ koleksiyon kartı satışı. Drop'lar saatler içinde tükendi.",
     "v2_quote_1_kind": "Sonuçlar",
     "v2_offer_title": "Web siteleri, geliştirilmiş ve barındırılmış",
     "v2_offer_subtitle": "Özel geliştirme, dönüşüm odaklı, barındırma ve bakım dahil",
@@ -249,7 +224,7 @@
     "v2_result_grant_parkhurst": "Portfolyo ve self servis müşteri portalı, Eylül 2026'dan beri yayında.",
     "v2_next_label": "Sırada ne var",
     "v2_next_1_title": "Sizi geri arıyoruz",
-    "v2_next_1_desc": "Bir iş günü içinde. Sitenin işletmeniz için ne yapması gerektiğine dair yirmi dakika, başka hiçbir şey yok.",
+    "v2_next_1_desc": "Bir iş günü içinde. Sitenin işletmeniz için ne yapması gerektiğine dair on beş dakika, başka hiçbir şey yok.",
     "v2_next_2_title": "Kapsam ve tek bir sabit fiyat",
     "v2_next_2_desc": "Sayfalar, zaman planı ve tek bir rakam içeren yazılı bir plan. Beş sayfa {price} fiyatından başlar, saatlik ücret yok.",
     "v2_next_3_title": "Başlangıçtan lansmana",
@@ -628,13 +603,13 @@
     "acceptance_title": "Şartların Kabulü",
     "acceptance_content": "Bu web sitesine erişerek ve siteyi kullanarak bu Hizmet Şartlarına bağlı kalmayı kabul etmiş olursunuz. Bu şartları kabul etmiyorsanız lütfen web sitemizi veya hizmetlerimizi kullanmayın.",
     "services_title": "Hizmetler",
-    "services_content": "Blok Blok Studio dijital tasarım, geliştirme ve pazarlama hizmetleri sunar. Projeye özel şartlar, teslimatlar ve fiyatlandırma ayrı sözleşmelerde ve tekliflerde belirtilir.",
+    "services_content": "Blok Blok Studio web sitesi tasarımı, geliştirme, yeniden tasarım ve barındırma hizmetleri sunar. Projeye özel şartlar, teslimatlar ve fiyatlandırma ayrı sözleşmelerde ve tekliflerde belirtilir.",
     "user_responsibilities_title": "Kullanıcı Sorumlulukları",
     "user_responsibilities_content": "Formlarımızı ve hizmetlerimizi kullanırken doğru bilgi vermeyi, web sitemizi ve hizmetlerimizi yasalara ve bu şartlara uygun şekilde kullanmayı kabul edersiniz.",
     "ip_title": "Fikri Mülkiyet",
     "ip_content": "Aksi belirtilmedikçe bu web sitesindeki tasarımlar, metinler, grafikler ve kod dahil tüm içerik Blok Blok Studio'ya aittir. Müşteri işlerinin mülkiyeti ayrı proje sözleşmelerinde tanımlanır.",
     "liability_title": "Sorumluluğun Sınırlandırılması",
-    "liability_content": "Blok Blok Studio, web sitemizin veya hizmetlerimizin kullanımından kaynaklanan dolaylı, arızi veya sonuçsal zararlardan sorumlu değildir. Toplam sorumluluğumuz, söz konusu hizmet için ödenen tutarı aşamaz.",
+    "liability_content": "Blok Blok Studio, web sitemizin veya hizmetlerimizin kullanımından kaynaklanan dolaylı, arızi veya sonuçsal zararlardan sorumlu değildir. Toplam sorumluluğumuz, söz konusu hizmet için ödenen tutarı aşamaz. Bu sınırlama; kast veya ağır ihmalden doğan sorumluluk, yaşam, beden veya sağlığa verilen zararlardan doğan sorumluluk ile yürürlükteki hukuk uyarınca sınırlandırılamayan sorumluluk için geçerli değildir.",
     "governing_law_title": "Uygulanacak Hukuk",
     "governing_law_content": "Bu şartlar geçerli yasalara tabidir ve bu yasalara göre yorumlanır. Herhangi bir uyuşmazlık, resmi hukuki yollara başvurulmadan önce iyi niyetli müzakere yoluyla çözülür.",
     "changes_title": "Şartlarda Değişiklik",
@@ -1094,7 +1069,7 @@
     "custom_quote": "Size özel teklif ister misiniz?",
     "hero_title_a": "Ne alacağınız,",
     "hero_title_em": "madde madde.",
-    "hero_sub": "Yapay zeka destekli web siteleri, uygulamalar, otomasyonlar, reklamlar, marka kimliği ve sosyal medya yönetimi. Her iş kapsamınıza göre ayrı fiyatlandırılır ve teslimatlar yazıya dökülür; böylece ikimiz de ne inşa ettiğimizi biliriz.",
+    "hero_sub": "Web siteleri geliştirilir, yeniden tasarlanır ve barındırılır. Her iş kapsamınıza göre ayrı fiyatlandırılır ve teslimatlar yazıya dökülür; böylece ikimiz de ne inşa ettiğimizi biliriz.",
     "tabs": {
       "web": "Web Geliştirme",
       "app": "Uygulama Geliştirme",
@@ -1105,8 +1080,8 @@
       "branding": "Marka Stratejisi"
     },
     "sections": {
-      "oneTime": "Tek Seferlik Projeler",
-      "webSupport": "Aylık Paketler",
+      "oneTime": "Web siteleri: yeni site veya yeniden tasarım",
+      "webSupport": "Barındırma ve bakım planları",
       "appBuild": "Tek Seferlik Geliştirme",
       "appSupport": "Aylık Paketler",
       "socialSetup": "Tek Seferlik Kurulum",
@@ -1136,23 +1111,27 @@
           "scope": [
             {
               "i": "Özel açılış sayfası (1 sayfa)",
-              "l": "Next.js ile geliştirilmiş, tamamen özel tasarım, mobil uyumlu tek sayfalık web sitesi. Kaydırma tabanlı bölümler içerir: giriş, hakkında, hizmetler, müşteri yorumları ve iletişim formu. Masaüstü, tablet ve mobil için duyarlı düzen. SEO meta başlığı ve açıklaması yazılır. SSL sertifikası ve Vercel üzerinde barındırma kurulumu dahildir."
+              "l": "Next.js ile geliştirilmiş, tamamen özel tasarım, mobil uyumlu tek sayfa: giriş, teklif, kanıt, iletişim. Masaüstü, tablet ve mobil için duyarlı düzen. SEO meta başlığı ve açıklaması yazılır. SSL ve Vercel üzerinde barındırma kurulumu dahildir."
             },
             {
-              "i": "Marka kimliği (logo + renkler)",
-              "l": "Mockup olarak sunulan 2 ilk logo konsepti. Nihai iyileştirme için 1 tanesini seçersiniz. Teslimatlar: PNG, SVG ve PDF formatlarında logo dosyaları (tam renkli, beyaz ve siyah sürümler). 1 ana renk paleti (hex kodlarıyla 5 renk) ve 1 yazı tipi eşleşmesi (başlık + gövde). Bu kademede tam marka kılavuzu dokümanı yoktur."
+              "i": "Markanıza uygun tasarım",
+              "l": "Mevcut logonuz ve renklerinizle çalışırız; henüz yoksa sizinle birlikte bir renk paleti ve yazı tipi eşleşmesi seçeriz. Şablon yok; düzen içeriğinize göre çizilir."
+            },
+            {
+              "i": "E-posta bildirimli iletişim formu",
+              "l": "Gelen kutunuza düşen, spam korumalı bir form; ziyaretçiye de bir onay mesajı gösterilir."
             },
             {
               "i": "Analitik ve takip",
-              "l": "Google Analytics 4 kurulur ve yapılandırılır. 1 dönüşüm hedefi tanımlanır (ör. form gönderimi veya telefon araması tıklaması). Google Search Console bağlanır. CTA düğmelerinde temel olay takibi."
+              "l": "Google Analytics 4 ve Search Console bağlanır; formda dönüşüm olayları tanımlanır, böylece sayfanın ne ürettiğini görebilirsiniz."
             },
             {
-              "i": "Tasarım revizyonları",
-              "l": "2 revizyon turu. Bir ‘tur’ = 1 birleştirilmiş geri bildirim seti. Geri bildirim her incelemeden sonra 5 iş günü içinde iletilmelidir. Birden fazla e-postaya yayılan kısmi veya parça parça geri bildirim kabul edilmez."
+              "i": "Tasarım revizyonları (2 tur)",
+              "l": "İlk tasarım sunumundan sonra iki yapılandırılmış revizyon turu. Hiçbir şey kaybolmasın diye değişiklikler her tur için tek bir listede toplanır."
             },
             {
               "i": "İçerik ve metin",
-              "l": "Tüm yazılı içeriği (başlıklar, gövde metni, biyografiler, hizmet açıklamaları) müşteri sağlar. Yerleşim, biçimlendirme ve konumlandırma bizden. Metin yazarlığına ihtiyacınız varsa sayfa başına 200 dolar karşılığında eklenebilir."
+              "l": "Siz notlarınızı veya madde işaretlerinizi gönderirsiniz, biz bunları sayfanın nihai metnine dönüştürürüz. Tam profesyonel metin yazarlığı ek hizmet olarak sunulur."
             }
           ],
           "ov": [
@@ -1161,7 +1140,7 @@
             "Ek bölüm: 250 $"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Müşteri onayı VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Onay sonrası: 175 $/saat.",
-          "bridge": "Lansman sonrası 14 günlük izleme dahildir (hata düzeltmeleri ve küçük ayarlamalar). Daha fazla sayfa veya özellik mi gerekiyor? Yapay zeka sohbeti ve CRM kurulumuyla tam 5 sayfalık bir site için Başlangıç Lansmanı'na (6.500 $) yükseltin.",
+          "bridge": "Lansman sonrası 14 günlük izleme dahildir (hata düzeltmeleri ve küçük ayarlamalar). Daha fazla sayfa mı gerekiyor? Başlangıç Lansmanı beş sayfayı kapsar.",
           "ideal": "Yan projeler, kişisel markalar, sade açılış sayfaları"
         },
         {
@@ -1172,43 +1151,41 @@
           "tl": "4 ila 6 hafta",
           "scope": [
             {
-              "i": "Özel web sitesi (5 sayfa)",
-              "l": "Next.js ile geliştirilmiş, tamamen özel tasarım, mobil uyumlu web sitesi. İçerik: Ana Sayfa, Hakkımızda, Hizmetler, İletişim ve seçeceğiniz 1 ek sayfa. Her sayfa masaüstü, tablet ve mobil için duyarlı düzen içerir. 5 sayfanın tamamı için SEO meta başlıkları ve açıklamaları yazılır. SSL sertifikası ve Vercel üzerinde barındırma kurulumu dahildir."
+              "i": "Özel web sitesi (5 sayfa), yeni site veya yeniden tasarım",
+              "l": "Next.js ile geliştirilmiş, tamamen özel tasarım, mobil uyumlu web sitesi: Ana Sayfa, Hakkında, Hizmetler, İletişim ve sizin seçeceğiniz bir sayfa. Hem sıfırdan yeni bir site hem de mevcut sitenizin yeniden tasarımı için uygundur. Beş sayfanın tamamı için SEO meta başlıkları ve açıklamaları. SSL ve Vercel üzerinde barındırma kurulumu dahildir."
             },
             {
-              "i": "Marka kimliği (logo + renkler)",
-              "l": "Mockup olarak sunulan 2 ilk logo konsepti. Nihai iyileştirme için 1 tanesini seçersiniz. Teslimatlar: PNG, SVG ve PDF formatlarında logo dosyaları (tam renkli, beyaz ve siyah sürümler). 1 ana renk paleti (hex kodlarıyla 5 renk) ve 1 yazı tipi eşleşmesi (başlık + gövde). Bu kademede tam marka kılavuzu dokümanı yoktur."
+              "i": "Markanıza uygun tasarım",
+              "l": "Mevcut logonuz ve renkleriniz ya da sizinle birlikte seçilen bir renk paleti ve yazı tipi eşleşmesi üzerine kurulur. Her bölüm bir temaya yerleştirilmez, içeriğiniz için tasarlanır."
             },
             {
-              "i": "Yapay zeka sohbet aracı",
-              "l": "Web sitenize gömülü 1 yapay zeka destekli sohbet botu. Sağladığınız 25 soru-cevap çiftiyle eğitilir (ör. fiyatlar, çalışma saatleri, hizmetler). Talepleri CRM'inize ileten bir potansiyel müşteri formu içerir. Temel karşılama mesajı ve yedek yanıt yapılandırılır."
+              "i": "İletişim ve randevu formları",
+              "l": "Spam korumalı iletişim formu artı bir randevu bağlantısı veya gömülü takvim; böylece ziyaretçiler e-posta trafiğine girmeden size ulaşabilir veya randevu alabilir."
             },
             {
-              "i": "CRM kurulumu (GoHighLevel)",
-              "l": "5 aşamalı 1 satış hattı oluşturulur (ör. Yeni Potansiyel → İletişime Geçildi → Teklif Gönderildi → Kazanıldı → Kaybedildi). 5 otomasyon dizisi (ör. yeni potansiyel e-posta bildirimi, takip hatırlatması, randevu onayı, cevapsız arama SMS'i, hoş geldiniz e-postası). Sağlanırsa CSV'den kişi aktarımı (en fazla 500 kişi)."
+              "i": "Teknik SEO kurulumu",
+              "l": "Meta başlıkları ve açıklamaları, Open Graph etiketleri, işletmeniz için yapılandırılmış veri, XML site haritası ve robots.txt; lansmanda Google Search Console'a gönderilir."
             },
             {
               "i": "Analitik ve takip",
-              "l": "Google Analytics 4 kurulur ve yapılandırılır. 1 dönüşüm hedefi tanımlanır (ör. form gönderimi, telefon araması tıklaması veya sohbet botu etkileşimi). Google Search Console bağlanır. CTA düğmelerinde temel olay takibi."
+              "l": "Google Analytics 4 ve Search Console bağlanır; formlarda ve randevularda dönüşüm olayları tanımlanır."
             },
             {
-              "i": "Tasarım revizyonları",
-              "l": "Sayfa başına 2 revizyon turu. Bir ‘tur’ = 1 birleştirilmiş geri bildirim seti. Geri bildirim her incelemeden sonra 5 iş günü içinde iletilmelidir. Birden fazla e-postaya yayılan kısmi veya parça parça geri bildirim kabul edilmez."
+              "i": "Tasarım revizyonları (2 tur)",
+              "l": "İlk tasarım sunumundan sonra iki yapılandırılmış revizyon turu."
             },
             {
               "i": "İçerik ve metin",
-              "l": "Tüm yazılı içeriği (başlıklar, gövde metni, biyografiler, hizmet açıklamaları) müşteri sağlar. Yerleşim, biçimlendirme ve konumlandırma bizden. Metin yazarlığına ihtiyacınız varsa sayfa başına 200 dolar karşılığında eklenebilir."
+              "l": "Siz notlarınızı veya madde işaretlerinizi gönderirsiniz, biz bunları her sayfanın nihai metnine dönüştürürüz. Tam profesyonel metin yazarlığı ek hizmet olarak sunulur."
             }
           ],
           "ov": [
             "Ek sayfalar: 500 $/sayfa",
             "Ek revizyon turu: 300 $",
-            "Metin yazarlığı: 200 $/sayfa",
-            "Ek soru-cevap (25+): 250 $/paket",
-            "Ek otomasyon: 350 $/adet"
+            "Metin yazarlığı: 200 $/sayfa"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Müşteri onayı VEYA 2 revizyon turu sonrasında tamamlanmış sayılır. Onay sonrası: 175 $/saat.",
-          "bridge": "Lansman sonrası 30 günlük izleme dahildir (hata düzeltmeleri, sohbet botu kontrolleri, CRM sağlığı). 30. günden sonra sürekli bakım, güncellemeler ve yapay zeka ayarı, sistemleriniz optimize kalsın diye Bakım ve İzleme planımıza (aylık 1.500 $) geçer.",
+          "bridge": "Lansman sonrası 30 günlük izleme dahildir (hata düzeltmeleri ve küçük ayarlamalar). 30. günden sonra barındırma ve bakım Site Bakımı planıyla (aylık 550 $) devam eder.",
           "ideal": "Girişimler, tek kişilik işletmeler, yerel işletmeler"
         },
         {
@@ -1220,116 +1197,105 @@
           "tl": "6 ila 8 hafta",
           "scope": [
             {
-              "i": "Özel web sitesi (10 sayfa + CMS)",
-              "l": "Entegre CMS'li (blog veya portfolyo) Next.js ile geliştirilmiş, tamamen tasarlanmış, mobil uyumlu 10 sayfa. İçerik: Ana Sayfa, Hakkımızda, Hizmetler (3 hizmet alt sayfası), Blog, İletişim ve 2 ek sayfa. 3 özel kaydırma veya hover animasyonu. Tüm sayfalar için sayfa içi SEO (meta başlıklar, açıklamalar, alt etiketler, şema işaretlemesi). SSL, Vercel barındırma ve Google'a site haritası gönderimi dahildir."
+              "i": "Özel web sitesi (10 sayfa + CMS), yeni site veya yeniden tasarım",
+              "l": "Next.js ile geliştirilmiş, içerik yönetim sistemli on tamamen özel sayfa; böylece ekibiniz metinleri, görselleri ve yazıları geliştirici olmadan düzenleyebilir. Yeni bir site veya yeniden tasarım için uygundur. Her sayfada SEO meta verileri. SSL ve Vercel üzerinde barındırma kurulumu dahildir."
             },
             {
-              "i": "Marka kimliği (tam kılavuz)",
-              "l": "Yaşam tarzı mockup'larıyla sunulan 3 ilk logo konsepti. Nihai iyileştirme için 1 tanesi seçilir. Tam marka kılavuzu PDF'i (10 sayfa): logo kullanım kuralları, asgari boyutlar, koruma alanı, renk paleti (birincil + ikincil, hex/RGB/CMYK), tipografi sistemi (başlık, alt başlık, gövde yazı tipleri ve boyutları) ve ses tonu notları. Canva veya Figma'da teslim edilen 5 markalı sosyal medya gönderi şablonu (düzenlenebilir)."
+              "i": "Tasarım sistemi",
+              "l": "Bileşenler, tipografi ve renkler bir kez tanımlanır ve her sayfada yeniden kullanılır; böylece sonradan eklenen sayfalar da siteye ait görünür."
             },
             {
-              "i": "Yapay zeka sohbet botu",
-              "l": "50 soru-cevap çiftiyle eğitilmiş 1 yapay zeka destekli sohbet botu. Randevu alma entegrasyonu içerir (Google Takvim veya Calendly'nize bağlı). Otomatik CRM kaydıyla potansiyel müşteri toplama. Özel karşılama, yedek yanıtlar ve mesai dışı mesajlar yapılandırılır. Sohbet botu 3 web sitesi sayfasına gömülür."
+              "i": "Düzenleyebileceğiniz blog veya haber bölümü",
+              "l": "Kategoriler, yazar ve tarih bilgisi, makale şeması ve her yazı için otomatik oluşturulan sosyal paylaşım görselleriyle CMS destekli bir bölüm."
             },
             {
-              "i": "Yapay zeka sesli ajan",
-              "l": "Aramaları yanıtlayan, potansiyel müşterileri eleyen ve randevu alan 1 gelen arama yapay zeka sesli ajanı. 1 özel arama senaryosu yazılır ve yapılandırılır. İlk ay için 500 dakikalık konuşma süresi dahildir. Arama kayıtları CRM'inizde saklanır. Temel arama yönlendirmesi içerir (yapay zeka çözemezse size aktarır)."
+              "i": "Bildirimli potansiyel müşteri ve randevu formları",
+              "l": "Çok adımlı veya basit formlar, spam koruması, e-posta bildirimleri ve gömülü randevu takvimi; her gönderim kaynağına göre etiketlenir."
             },
             {
-              "i": "İş akışı otomasyonu (toplam 8)",
-              "l": "GoHighLevel'da geliştirilen 8 otomasyon. Örnekler: yeni potansiyel bildirimi (e-posta + SMS), randevu hatırlatma dizisi (24 saat + 1 saat önce), cevapsız arama SMS'i, randevu sonrası takip, hizmet sonrası yorum talebi, yarım bırakılan form için yeniden etkileşim, doğum günü/yıl dönümü e-postası ve satış hattı aşama değişikliği tetikleyicileri. Her otomasyon en fazla 5 adım içerir."
+              "i": "Teknik ve yerel SEO kurulumu",
+              "l": "Başlangıç Lansmanı'ndaki teknik kurulumun tamamı artı yerel işletme şeması, Google İşletme Profili uyumu ve gerektiğinde konum sayfaları."
             },
             {
-              "i": "Google Ads kurulumu",
-              "l": "3 reklam grubuyla (farklı anahtar kelime temalarını hedefleyen) 1 Google Arama kampanyası. Anahtar kelime araştırması ve negatif anahtar kelime listesi dahildir. 6 reklam varyasyonu yazılır (reklam grubu başına 2). Dönüşüm takibiyle bağlanmış 1 özel açılış sayfası tasarlanır ve geliştirilir. Google Ads dönüşüm takibi ve Google Tag Manager yapılandırılır. Reklam harcaması ayrıca faturalandırılır ve doğrudan sizin tarafınızdan Google'a ödenir."
+              "i": "Performans ayarı",
+              "l": "Lansmandan önce mobil ve masaüstünde Core Web Vitals geçişi: görsel optimizasyonu, yazı tipi yükleme ve betik bütçeleri, Lighthouse ile doğrulanır."
             },
             {
-              "i": "Müşteri panosu",
-              "l": "GHL veya Google Looker Studio'da geliştirilen 1 gerçek zamanlı pano. En fazla 6 bileşen: web sitesi trafiği, potansiyel müşteri sayısı, satış hattı değeri, dönüşüm oranı, reklam performansı ve sohbet botu etkileşimleri. Pano otomatik güncellenir ve paylaşılabilir bir bağlantıyla erişilir."
+              "i": "Analitik panosu",
+              "l": "Google Analytics 4 ve Search Console bağlanır; trafik, potansiyel müşteriler ve en çok ziyaret edilen sayfalar için sade bir aylık görünüm."
             },
             {
-              "i": "Tasarım revizyonları",
-              "l": "Teslimat başına 3 revizyon turu (web sitesi sayfaları, marka varlıkları, reklam kreatifleri ve pano). Bir ‘tur’ = 5 iş günü içinde iletilen 1 birleştirilmiş geri bildirim seti."
+              "i": "Tasarım revizyonları (3 tur)",
+              "l": "İlk tasarım sunumundan sonra üç yapılandırılmış revizyon turu."
             },
             {
               "i": "İçerik ve metin",
-              "l": "Ana sayfanız ve hizmetler sayfanız için metinleri biz yazarız (toplam 1.500 kelime). Diğer tüm sayfa içeriklerini siz sağlarsınız. Blog CMS'i boş teslim edilir; siz veya ekibiniz yazı oluşturabilir ya da içerik paketimizi ekleyebilirsiniz."
+              "l": "Siz notlarınızı veya madde işaretlerinizi gönderirsiniz, biz bunları her sayfanın nihai metnine dönüştürürüz. Tam profesyonel metin yazarlığı ek hizmet olarak sunulur."
             }
           ],
           "ov": [
             "Ek sayfalar: 500 $/sayfa",
             "Ek revizyon: 300 $/tur",
-            "Ek reklam kampanyası: 1.500 $",
-            "Ek sesli senaryo: 750 $",
-            "Otomasyonlar (8+): 350 $/adet",
             "Ek açılış sayfası: 900 $",
-            "Dahil olanın ötesinde metin yazarlığı: 200 $/sayfa"
+            "Dahil olan sayfaların ötesinde metin yazarlığı: 200 $/sayfa"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, tamamlandığında %50 (7 gün vadeli). Onay VEYA 3 revizyon turu sonrasında tamamlanmış sayılır. Onay sonrası: 175 $/saat.",
-          "bridge": "Lansman sonrası 30 gün dahildir: reklam yönetimi, yapay zeka izleme ve hata düzeltmeleri. 30. günden sonra reklamlarınız, yapay zeka ajanlarınız ve otomasyonlarınız performansı korumak için sürekli optimizasyona ihtiyaç duyar. İvmeyi korumak için Büyüme Motoru planımızı (aylık 3.500 $) öneririz.",
-          "ideal": "Sistemlerle ölçeklenen büyüyen işletmeler"
+          "bridge": "Lansman sonrası 30 günlük izleme ve hata düzeltmeleri dahildir. 30. günden sonra Site Büyümesi planı (aylık 1.600 $) her ay yeni bir sayfa veya bölüm yayınlamaya devam eder.",
+          "ideal": "İçerik yayınlayan ve satış yapan büyüyen işletmeler"
         },
         {
-          "name": "Tam Hakimiyet",
+          "name": "Premium Lansman",
           "price": 18000,
           "disp": "18.000+ $",
-          "tag": "Kurumsal düzey",
+          "tag": "Tam kapsamlı geliştirme",
           "tl": "8 ila 12 hafta",
           "scope": [
             {
-              "i": "Premium web sitesi (15 sayfa + e-ticaret)",
-              "l": "Headless CMS'li (Sanity veya Contentful) Next.js ile geliştirilmiş, tamamen tasarlanmış 15 sayfa. 6 özel animasyon (paralaks kaydırma, hover efektleri, sayfa geçişleri, mikro etkileşimler). E-ticarete hazır: Shopify veya Stripe entegrasyonlu 20 ürün listesi, alışveriş sepeti ve ödeme. Blog, kaynak merkezi veya vaka çalışması bölümü içerir. Tam sayfa içi SEO, şema işaretlemesi, Open Graph etiketleri, XML site haritası ve robots.txt. SSL, Vercel barındırma ve CDN optimizasyonu dahildir."
+              "i": "Premium web sitesi (15 sayfa + e-ticaret), yeni site veya yeniden tasarım",
+              "l": "Next.js ile geliştirilmiş, içerik yönetim sistemi ve çevrimiçi mağaza içeren on beş veya daha fazla tamamen özel sayfa. Yeni bir site veya yeniden tasarım için uygundur. Her sayfada SEO meta verileri. SSL ve Vercel üzerinde barındırma kurulumu dahildir."
             },
             {
-              "i": "Eksiksiz marka sistemi",
-              "l": "Yaşam tarzı mockup'larıyla 5 ilk logo konsepti. Tam iyileştirme için 1 tanesi seçilir. Eksiksiz marka kılavuzu dokümanı (20 sayfa): logo kullanımı, koruma alanı, asgari boyutlar, birincil ve ikincil renk paletleri, tipografi hiyerarşisi, fotoğraf stil kılavuzu, ikon stili, marka sesi ve ton kılavuzu. Kırtasiye tasarımı: kartvizit, antetli kağıt ve e-posta imza şablonu. Sunum şablonu (15 slayt, Google Slides veya Keynote'ta düzenlenebilir). 10 markalı sosyal medya şablonu (Canva veya Figma, düzenlenebilir)."
+              "i": "Tasarım sistemi",
+              "l": "Bileşenler, tipografi ve renkler bir kez tanımlanır ve belgelenir; böylece hem ekibiniz hem de biz yeni sayfaları tutarlı biçimde oluştururuz."
             },
             {
-              "i": "Yapay zeka ajan ekosistemi (3 ajan)",
-              "l": "Bir sistem olarak çalışan 3 birbirine bağlı yapay zeka ajanı. Örnek kurulum: Ajan 1 sohbet botu üzerinden potansiyel müşterileri toplar ve puanlar (sıcak/ılık/soğuk). Ajan 2 puana göre kişiselleştirilmiş e-posta dizileri gönderir. Ajan 3 sıcak potansiyeller için SMS takiplerini tetikler. Tüm potansiyel müşteri yolculuğunu haritalayan 1 özel karar ağacı. Tüm ajanlar otomatik kişi etiketleme ve satış hattı hareketiyle GHL CRM'inize bağlıdır."
+              "i": "Ödeme ve satın alma",
+              "l": "Stripe veya Shopify ödeme akışı, ürün sayfaları, sepet, sipariş onay e-postaları ve pazarınıza göre ayarlanmış vergi ve kargo kuralları."
             },
             {
-              "i": "Konuşma tabanlı yapay zeka paketi",
-              "l": "100 soru-cevap çiftiyle eğitilmiş, site genelinde gömülü 1 yapay zeka sohbet botu. Randevu alma, potansiyel müşteri toplama, SSS yanıtlama ve mesai dışı mesajlaşma içerir. 2 özel arama senaryolu 1 yapay zeka sesli ajan (ör. gelen satış + randevu onayı). İlk ay için 1.000 dakikalık konuşma süresi dahildir. Arama kayıtları CRM'de saklanır. 5 SMS otomasyon dizisi (ör. randevu hatırlatmaları, arama sonrası takip, yorum talebi, yeniden etkileşim, promosyon gönderimi)."
+              "i": "Müşteri hesapları veya müşteri portalı",
+              "l": "Giriş, sipariş geçmişi veya proje dosyaları, indirmeler ve hesap ayarları; müşterilerinizin gerçekten ihtiyaç duyduğu şekilde geliştirilir."
             },
             {
-              "i": "İş akışı otomasyonu (toplam 15)",
-              "l": "CRM'iniz, ödeme sisteminiz ve takviminiz genelinde 15 otomasyon. Örnekler: potansiyel müşteri besleme dizileri, fatura hatırlatmaları, ödeme onayı, müşteri kabul akışları, yorum talepleri, geri kazanma kampanyaları, dahili ekip bildirimleri, satış hattı aşama otomasyonları ve doğum günü/kilometre taşı e-postaları. Her otomasyon koşullu mantıkla en fazla 7 adım içerir."
+              "i": "Teknik ve yerel SEO kurulumu",
+              "l": "Tam teknik kurulum artı ürün ve yerel işletme şeması, Google İşletme Profili uyumu ve gerektiğinde konum sayfaları."
             },
             {
-              "i": "Google + Meta Ads (tam kurulum)",
-              "l": "5 reklam grubu ve 10 reklam varyasyonuyla 1 Google Arama kampanyası. Negatif anahtar kelime listeleriyle tam anahtar kelime araştırması. Farklı kitleleri hedefleyen 3 reklam setiyle 1 Meta (Facebook/Instagram) kampanyası. Hem Google hem Meta için web sitenize yeniden hedefleme pikseli kurulur. Dönüşüm için tasarlanmış, geliştirilmiş ve optimize edilmiş 2 özel açılış sayfası. Tüm dönüşüm takibi Google Tag Manager üzerinden yapılandırılır. Reklam kreatifi tasarlanır (6 statik görsel + 2 carousel reklam). Reklam harcaması ayrıca faturalandırılır. Google ve Meta'ya doğrudan siz ödersiniz."
+              "i": "Performans ayarı",
+              "l": "Lansmandan önce mobil ve masaüstünde Core Web Vitals geçişi; mağaza ve portal sayfaları dahil."
             },
             {
-              "i": "Yapay zeka içerik sistemi",
-              "l": "Tam içerik hattı yapılandırılır: videodan klibe iş akışı (uzun video yüklenir, yapay zeka sosyal klipler üretir), yapay zeka destekli blog yazısı üretim şablonu ve Buffer veya Later'da sosyal medya zamanlama kurulumu. İlk ayın içeriği üretilir ve yayımlanır: 4 blog yazısı (her biri en fazla 1.000 kelime, SEO optimizasyonlu) ve 12 sosyal medya gönderisi (grafik + açıklama metni). Sürekli kullanım için içerik takvimi şablonu sağlanır."
+              "i": "Analitik panosu",
+              "l": "E-ticaret olaylarıyla Google Analytics 4, Search Console ve trafik, siparişler ve en çok satan ürünler için aylık bir görünüm."
             },
             {
-              "i": "Yönetici panosu",
-              "l": "GHL veya Google Looker Studio'da 1 kapsamlı pano. 10 bileşen: web sitesi trafiği, potansiyel müşteri hattı, dönüşüm oranı, Google Ads performansı (CPC, CTR, ROAS), Meta Ads performansı, sohbet botu etkileşimleri, sesli ajan arama hacmi, e-posta açılma/tıklanma oranları, gelir atfı ve haftalık trend grafikleri. 3 alıcıya otomatik haftalık özet e-postası gönderilir."
-            },
-            {
-              "i": "Tasarım revizyonları",
-              "l": "Tüm varlıklarda teslimat başına 3 revizyon turu. Bir ‘tur’ = 5 iş günü içinde iletilen 1 birleştirilmiş geri bildirim seti."
+              "i": "Tasarım revizyonları (3 tur)",
+              "l": "İlk tasarım sunumundan sonra üç yapılandırılmış revizyon turu."
             },
             {
               "i": "Metin yazarlığı",
-              "l": "10 web sitesi sayfası için tam profesyonel metin yazarlığı (başlıklar, gövde metni, CTA'lar, meta açıklamalar). Kalan sayfalar için ham materyali, notları veya madde işaretlerini müşteri sağlar. Tüm Google ve Meta kampanyalarının reklam metinleri yazılır ve dahildir."
+              "l": "Bu kademede her sayfa için tam profesyonel metin yazarlığı dahildir."
             }
           ],
           "ov": [
             "Ek sayfalar: 500 $",
             "Ek revizyon: 350 $/tur",
-            "Ek yapay zeka ajanı: 2.500 $",
-            "Ek reklam kampanyası: 1.500 $",
-            "Sesli senaryo: 750 $",
-            "Otomasyonlar (15+): 400 $/adet",
             "Ürünler (20+): 75 $/ürün",
-            "1. aydan sonra içerik: aylık paket gerektirir"
+            "Ek açılış sayfası: 900 $"
           ],
           "ho": "Ödeme: başlangıçta %50 kapora, ara kilometre taşında %25, tamamlandığında %25 (7 gün vadeli). Onay VEYA 3 tur sonrasında tamamlanmış sayılır. Onay sonrası: 175 $/saat.",
-          "bridge": "Lansman sonrası 45 gün dahildir: tam izleme, reklam yönetimi, yapay zeka ayarı ve hata düzeltmeleri. 45. günden sonra yapay zeka ekosisteminiz, reklam kampanyalarınız ve içerik sistemleriniz sonuç vermeye devam etmek için sürekli yönetime ihtiyaç duyar. İhtiyaçlarınıza göre Tam Ortaklık (aylık 7.500 $) veya Büyüme Motoru (aylık 3.500 $) planımızı öneririz.",
-          "ideal": "Eksiksiz yapay zeka altyapısı isteyen yerleşik işletmeler"
+          "bridge": "Lansman sonrası 45 günlük izleme ve hata düzeltmeleri dahildir. 45. günden sonra Site Ortaklığı planı (aylık 3.800 $) size özel bir geliştirici ve tasarımcı sağlar.",
+          "ideal": "E-ticaret veya müşteri portalı gereken yerleşik işletmeler"
         }
       ],
       "socialSetup": [
@@ -2689,7 +2655,7 @@
             "Acil talep (aynı gün): +125 $",
             "Saatlik güncelleme çalışması: 165 $/saat"
           ],
-          "ex": "Yeni sayfa, yeniden tasarım, A/B testi, SEO ve reklam yok. Pazarlama faaliyeti yok. Bunlar için pazarlama paketlerimize bakın.",
+          "ex": "Yeni sayfa, yeniden tasarım, A/B testi ve SEO çalışması dahil değildir. Bunlar Site Büyümesi ve Site Ortaklığı paketlerindedir.",
           "ideal": "Güvenilir bakım ve gönül rahatlığı gerektiren yayınlanmış siteler"
         },
         {
@@ -2735,7 +2701,7 @@
             "Ek yeni sayfa: 850 $",
             "Video/animasyon çalışması: ayrıca kapsamlandırılır"
           ],
-          "ex": "Tam yeniden tasarım yok (proje olarak kapsamlandırılır). Ücretli reklam yok. Küçük düzenlemelerin ötesinde içerik yazımı yok.",
+          "ex": "Kapsamlı yeniden tasarım dahil değildir (proje olarak fiyatlandırılır). Küçük düzenlemeler dışında içerik yazımı dahil değildir.",
           "ideal": "Sitenin her ay gelişmeye devam etmesini isteyen ekipler"
         },
         {
@@ -2780,7 +2746,7 @@
             "Ek içerik sayfası yükleme: 10'u aşan her biri 45 $",
             "Acil dağıtım (aynı gün): +%25"
           ],
-          "ex": "Ücretli reklam yönetimi yok (pazarlama paketlerine bakın). Marka yeniden tasarımı yok (marka paketlerine bakın). Mobil uygulama çalışması yok.",
+          "ex": "Kapsamlı yeniden tasarım dahil değildir (proje olarak fiyatlandırılır). Mobil uygulama çalışması dahil değildir.",
           "ideal": "Blok Blok'u web ekibi olarak gören ölçeklenen işletmeler"
         }
       ],
@@ -3224,8 +3190,8 @@
     },
     "v2_card_cta": "Özel teklif alın",
     "v2_options": "{count, plural, one {# seçenek} other {# seçenek}}",
-    "meta_title": "Hizmetler ve Paketler",
-    "meta_description": "Özel web sitesi tasarım ve geliştirme paketleri. Net teslimatlar, kapsamınıza göre özel fiyatlandırma."
+    "meta_title": "Fiyatlar",
+    "meta_description": "Web sitesi tasarım, yeniden tasarım ve barındırma paketleri. Net teslimatlar, kapsamınıza göre özel fiyatlandırma."
   },
   "a11y": {
     "skip_to_main": "Ana içeriğe geç",

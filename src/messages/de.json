@@ -29,13 +29,13 @@
     "meta_description": "Antworten zu Preisen, Zeitplänen, individuellen Websites und zur Zusammenarbeit mit Blok Blok Studio, einem Webdesign-Studio aus Berlin mit Kunden weltweit.",
     "hero_eyebrow": "Häufige Fragen",
     "hero_title": "Alles, was Sie schon immer fragen wollten",
-    "hero_subtitle": "Ehrliche Antworten dazu, wie wir arbeiten, was wir berechnen und was wir bauen. Fehlt Ihre Frage, buchen Sie sich ein kostenloses 30-Minuten-Gespräch.",
+    "hero_subtitle": "Ehrliche Antworten dazu, wie wir arbeiten, was wir berechnen und was wir bauen. Fehlt Ihre Frage, buchen Sie sich ein kostenloses 15-Minuten-Gespräch.",
     "category_pricing": "Preise & Investition",
     "category_process": "Ablauf & Zeitplan",
     "category_capabilities": "Leistungen & Möglichkeiten",
     "category_trust": "Zusammenarbeit mit Blok Blok Studio",
     "cta_heading": "Noch Fragen?",
-    "cta_subheading": "Buchen Sie sich ein kostenloses 30-minütiges Strategiegespräch. Kein Pitch, kein Druck, nur Antworten.",
+    "cta_subheading": "Buchen Sie sich ein kostenloses 15-Minuten-Gespräch. Kein Pitch, kein Druck, nur Antworten.",
     "cta_button": "Kostenloses Gespräch buchen",
     "see_all_questions": "Alle Fragen anzeigen",
     "filter_all": "Alle",
@@ -43,32 +43,17 @@
       {
         "category": "pricing",
         "question": "Was kostet eine individuelle Website?",
-        "answer": "Individuelle Websites bei Blok Blok Studio beginnen bei 2.000 $ für eine einzelne Landingpage, 6.500 $ für eine Seite mit fünf Unterseiten, 12.000 $ für zehn Seiten mit CMS und 18.000 $ ab fünfzehn Seiten. Der Preis hängt von Seitenzahl, individuellen Animationen, Integrationen und Textumfang ab. Jede Seite wird in Next.js gebaut, auf Vercel gehostet und ist von Tag eins SEO-optimiert, nie ein Template."
+        "answer": "Eine einzelne Landingpage kostet 2.000 $, eine Website mit 5 Seiten 6.500 $, 10 Seiten mit CMS 12.000 $ und 15 oder mehr Seiten mit E-Commerce ab 18.000 $. Dieselben Stufen gelten, egal ob es eine neue Website oder ein Redesign Ihrer bestehenden ist. Der Preis hängt von Seitenzahl, individuellen Animationen, Integrationen und Textumfang ab. Jede Seite wird in Next.js gebaut, auf Vercel gehostet und ist von Tag eins SEO-optimiert, nie ein Template."
       },
       {
         "category": "pricing",
-        "question": "Was kostet ein KI-Chatbot?",
-        "answer": "Ein KI-Chatbot, trainiert auf über 100 Frage-Antwort-Paare und seitenweit eingebunden, ist in unserer Conversational-AI-Suite für 18.000 $ enthalten, zusammen mit Voice-Agent, SMS-Automatisierungen und einer kompletten Content-Pipeline. Als einzelnes Add-on zu einer Website beginnt ein KI-Chatbot bei 2.500 $. Alle Bots sind an Ihr CRM angebunden und erfassen Leads rund um die Uhr."
-      },
-      {
-        "category": "pricing",
-        "question": "Was kostet ein KI-Voice-Agent im Monat?",
-        "answer": "Die Einrichtung eines KI-Voice-Agenten beginnt bei einmalig 2.500 $, inklusive 500 Gesprächsminuten im ersten Monat. Weitere Minuten werden zu üblichen Telefonietarifen abgerechnet und in eine monatliche Betreuung eingebunden. Der Agent nimmt Anrufe an, qualifiziert Leads, bucht Termine und leitet dringende Anrufe an einen Menschen weiter, alles in natürlicher Sprache."
-      },
-      {
-        "category": "pricing",
-        "question": "Bieten Sie monatliche Betreuung an oder nur Projektarbeit?",
-        "answer": "Beides. Projekte beginnen bei 2.000 $ und werden in Meilensteinen abgerechnet. Betreuungspakete starten bei 1.500 $ im Monat für Wartung, KI-Monitoring und CRM-Pflege oder 3.500 $ im Monat für den kompletten Wachstumsservice mit Google- und Meta-Ads, KI-gestützter Content-Produktion und fünf Stunden Entwicklung pro Monat. Mindestlaufzeit drei oder sechs Monate."
+        "question": "Bieten Sie monatliche Hosting- und Pflegepläne an oder nur Projektarbeit?",
+        "answer": "Beides. Projekte beginnen bei 2.000 $ und werden in Meilensteinen abgerechnet. Nach dem Launch starten Hosting- und Pflegepläne bei 550 $ im Monat für Website-Pflege (Monitoring, Backups, Sicherheitsupdates und kleine Content-Änderungen), 1.600 $ im Monat für Website-Wachstum (jeden Monat eine neue Seite oder ein neuer Abschnitt plus A/B-Tests) und 3.800 $ im Monat für Website-Partnerschaft (ein fester Entwickler und Designer). Mindestlaufzeit 3 Monate."
       },
       {
         "category": "process",
         "question": "Wie lange dauert der Bau einer individuellen Website?",
-        "answer": "Eine einzelne Landingpage geht in der Regel nach zwei bis drei Wochen live. Eine Seite mit fünf Unterseiten dauert vier bis sechs Wochen. Zehn Seiten mit CMS und KI-Integrationen brauchen acht bis zwölf Wochen. Der Zeitplan hängt davon ab, wie schnell Inhalte, Markenvorgaben und Freigaben kommen. Wir sind schnell, die meisten Agenturen brauchen zwei- bis dreimal so lange."
-      },
-      {
-        "category": "process",
-        "question": "Wie lange dauert es, einen KI-Agenten live zu bringen?",
-        "answer": "Ein Standard-Chatbot, trainiert auf Ihre bestehenden FAQ, ist in sieben bis zehn Werktagen live. Ein Voice-Agent mit eigenem Gesprächsskript braucht zehn bis vierzehn Tage. Ein komplettes Multi-Agenten-System mit CRM-, Kalender- und Zahlungsanbindung dauert je nach Komplexität vier bis acht Wochen. Wir starten mit einem Kennenlerngespräch, dann folgt ein bezahltes Scoping-Dokument, dann der Bau."
+        "answer": "Eine einzelne Landingpage geht in der Regel nach 2 bis 3 Wochen live. Eine Website mit 5 Seiten dauert 4 bis 6 Wochen, 10 Seiten mit CMS 6 bis 8 Wochen und 15 oder mehr Seiten 8 bis 12 Wochen. Redesigns laufen nach demselben Zeitplan. Der Zeitplan hängt davon ab, wie schnell Inhalte, Markenvorgaben und Freigaben kommen."
       },
       {
         "category": "process",
@@ -77,33 +62,23 @@
       },
       {
         "category": "capabilities",
-        "question": "Was ist der Unterschied zwischen KI-Chatbot und KI-Voice-Agent?",
-        "answer": "Ein KI-Chatbot arbeitet textbasiert auf Ihrer Website oder in Messengern: Er beantwortet FAQ, bucht Termine und erfasst Leads im Chat. Ein KI-Voice-Agent nimmt echte Telefonanrufe in natürlicher gesprochener Sprache an. Voice-Agenten eignen sich für Inbound-Vertrieb, Support außerhalb der Öffnungszeiten und Terminbestätigungen. Viele Unternehmen nutzen beides für volle Abdeckung."
-      },
-      {
-        "category": "capabilities",
-        "question": "Lassen sich Ihre KI-Agenten mit HubSpot, Salesforce oder GoHighLevel verbinden?",
-        "answer": "Ja. Unsere Agenten und Automatisierungen binden HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe und Calendly nativ an. Für Tools ohne fertige Integration bauen wir einen eigenen Connector, ohne Zapier-Zwischenhändler. Ihre Daten bleiben in Ihren Systemen, wir bringen sie nur zum Reden."
-      },
-      {
-        "category": "capabilities",
-        "question": "Bauen Sie Websites mit Next.js, WordPress oder Webflow?",
-        "answer": "Wir bauen ausschließlich mit Next.js, TypeScript, Tailwind CSS und Framer Motion. Gehostet wird auf Vercel, mit Ladezeiten unter einer Sekunde und weltweiter Auslieferung. WordPress, Wix, Squarespace oder Webflow setzen wir nicht ein: Diese Plattformen liefern weder die Performance noch die individuellen Animationen oder KI-Integrationen, die unsere Kunden brauchen."
+        "question": "Bauen Sie mit Next.js, WordPress oder Webflow?",
+        "answer": "Standardmäßig programmieren wir von Hand in Next.js mit TypeScript und Tailwind CSS, gehostet auf Vercel mit Ladezeiten unter einer Sekunde. Daher kommen die Geschwindigkeit, die individuellen Animationen und die SEO-Ergebnisse. Wenn Ihre Situation es verlangt, etwa ein Team, das bereits mit WordPress arbeitet, oder eine Marketing-Website, die den Webflow-Editor braucht, bauen wir auch dort."
       },
       {
         "category": "capabilities",
         "question": "Schreiben Sie die Texte, oder liefere ich sie?",
-        "answer": "Beides geht. Die meisten Kunden liefern Stichpunkte oder Rohnotizen, aus denen wir die finalen Texte formen. Komplettes professionelles Copywriting ist in unserem 18.000-$-Paket enthalten und für alle anderen Pakete als Add-on für 200 $ pro Seite buchbar. Anzeigentexte für Google- und Meta-Kampagnen schreiben immer wir, wenn wir die Kampagnen betreuen."
+        "answer": "Beides geht. Die meisten Kunden liefern Rohnotizen oder Stichpunkte, aus denen wir die finalen Texte formen. Komplette professionelle Texterstellung ist in der 18.000-$-Stufe enthalten und in jeder anderen Stufe als Add-on für 200 $ pro Seite buchbar."
       },
       {
         "category": "trust",
         "question": "Wo sitzt Blok Blok Studio, und arbeiten Sie international?",
-        "answer": "Unser Studio sitzt in Berlin. Wir arbeiten mit Kunden in den USA, Großbritannien, den Niederlanden, Frankreich, Spanien und in der ganzen EU. Die Kommunikation läuft asynchron über Loom, E-Mail und Textnachrichten, wir passen uns jeder Zeitzone an. Rechnungen und Verträge gibt es in USD oder EUR, ganz nach Wunsch."
+        "answer": "Unser Studio sitzt in Berlin, mit Teammitgliedern in Richmond, Los Angeles und Multan. Unsere Kunden sitzen in den USA, in Deutschland und auf den Philippinen. Die Kommunikation läuft asynchron über Loom, E-Mail und Textnachrichten, jede Zeitzone funktioniert. Rechnungen und Verträge gibt es in USD oder EUR."
       },
       {
         "category": "trust",
-        "question": "Gehören mir der Code meiner Website und die KI-Konfigurationen?",
-        "answer": "Ja, vollständig. Nach Projektabschluss erhalten Sie das komplette Eigentum an Code, Designdateien, KI-Prompts und Automatisierungskonfigurationen. Die Seite läuft in Ihrem eigenen Vercel-Konto auf Ihre Rechnung. CRM, Werbekonten und Domains laufen von Anfang an auf Ihren Namen. Wir binden niemanden an unsere Systeme."
+        "question": "Gehört mir der Code meiner Website?",
+        "answer": "Ja, vollständig. Nach Projektabschluss erhalten Sie das komplette Eigentum an Code und Designdateien. Die Website läuft in Ihrem eigenen Vercel-Konto auf Ihre Rechnung, und die Domain läuft von Tag eins auf Ihren Namen. Wir binden niemanden an unsere Systeme."
       },
       {
         "category": "trust",
@@ -135,7 +110,7 @@
     "tab_all": "Alle",
     "tab_ai": "KI & Automatisierung",
     "tab_creative": "Kreativ & Marketing",
-    "audit_badge": "Kostenlos: 30 Minuten",
+    "audit_badge": "Kostenlos: 15 Minuten",
     "audit_heading": "Nicht sicher, was Ihr Unternehmen braucht?",
     "audit_subheading": "Buchen Sie ein kostenloses Strategiegespräch. Wir sehen uns Ihr Unternehmen an und zeigen Ihnen genau, wo die größten Chancen liegen.",
     "audit_button": "Kostenloses Gespräch buchen",
@@ -239,8 +214,8 @@
     "v2_quote_2_role": "Nike-Athlet, Berlin",
     "v2_quote_3_role": "Sammelkarten-Shop",
     "v2_quote_1_text": "50.000 $ Bruttoumsatz in den ersten fünf Monaten, 5,0 Sterne bei 52 Google-Bewertungen und im Schnitt Position 5,2 bei Google für seine Suchbegriffe.",
-    "v2_quote_2_text": "Blok Blok Studio hat meinen Online-Auftritt komplett verwandelt. Das markante Design trifft meine Coaching-Philosophie genau, und die Ergebnisse sind unglaublich.",
-    "v2_quote_3_text": "Der Shop, den sie für uns gebaut haben, ist unglaublich. Unsere Booster-Drops sind in Stunden ausverkauft, und die Community nimmt die Seite großartig an.",
+    "v2_quote_2_text": "Die Kommunikation mit ihm ist wirklich einfach. Man braucht jemanden, der schnell reagiert, sein Handwerk versteht und sich auf die eigenen Bedürfnisse einstellt. Ich kann Chase, also Blok Blok Studio, wirklich empfehlen.",
+    "v2_quote_3_text": "191.042 $ Umsatz mit Sammelkarten über 1.790 Bestellungen im Shopify-Shop, den wir gebaut haben. Drops waren in Stunden ausverkauft.",
     "v2_quote_1_kind": "Ergebnisse",
     "v2_offer_title": "Websites, gebaut und gehostet",
     "v2_offer_subtitle": "Individuell gebaut, auf Conversion ausgelegt, Hosting und Betreuung inklusive",
@@ -249,7 +224,7 @@
     "v2_result_grant_parkhurst": "Portfolio plus Self-Service-Kundenportal, live seit September 2026.",
     "v2_next_label": "So geht es weiter",
     "v2_next_1_title": "Wir rufen zurück",
-    "v2_next_1_desc": "Innerhalb eines Werktags. Zwanzig Minuten dazu, was die Seite für Ihr Geschäft leisten muss, sonst nichts.",
+    "v2_next_1_desc": "Innerhalb eines Werktags. Fünfzehn Minuten dazu, was die Seite für Ihr Geschäft leisten muss, sonst nichts.",
     "v2_next_2_title": "Umfang und ein Festpreis",
     "v2_next_2_desc": "Ein schriftlicher Plan mit Seiten, Zeitrahmen und einer einzigen Zahl. Fünf Seiten ab {price}, keine Stundenabrechnung.",
     "v2_next_3_title": "Kickoff bis Launch",
@@ -628,13 +603,13 @@
     "acceptance_title": "Annahme der Bedingungen",
     "acceptance_content": "Mit dem Zugriff auf diese Website und ihrer Nutzung erkennen Sie diese Nutzungsbedingungen als verbindlich an. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie unsere Website und Dienste bitte nicht.",
     "services_title": "Leistungen",
-    "services_content": "Blok Blok Studio erbringt Leistungen in den Bereichen digitales Design, Entwicklung und Marketing. Konkrete Projektbedingungen, Leistungsumfang und Preise werden in individuellen Verträgen und Angeboten festgelegt.",
+    "services_content": "Blok Blok Studio erbringt Leistungen in den Bereichen Webdesign, Entwicklung, Redesign und Hosting von Websites. Konkrete Projektbedingungen, Leistungsumfang und Preise werden in individuellen Verträgen und Angeboten festgelegt.",
     "user_responsibilities_title": "Pflichten der Nutzer",
     "user_responsibilities_content": "Sie verpflichten sich, bei der Nutzung unserer Formulare und Dienste zutreffende Angaben zu machen und unsere Website und Dienste rechtmäßig und im Einklang mit diesen Bedingungen zu nutzen.",
     "ip_title": "Geistiges Eigentum",
     "ip_content": "Alle Inhalte dieser Website, einschließlich Designs, Texte, Grafiken und Code, sind Eigentum von Blok Blok Studio, sofern nicht anders angegeben. Die Rechte an Kundenarbeiten werden in den jeweiligen Projektverträgen geregelt.",
     "liability_title": "Haftungsbeschränkung",
-    "liability_content": "Blok Blok Studio haftet nicht für mittelbare Schäden, Neben- oder Folgeschäden, die aus der Nutzung unserer Website oder Dienste entstehen. Unsere Gesamthaftung ist auf den Betrag begrenzt, der für die betreffende Leistung gezahlt wurde.",
+    "liability_content": "Blok Blok Studio haftet nicht für mittelbare Schäden, Neben- oder Folgeschäden, die aus der Nutzung unserer Website oder Dienste entstehen. Unsere Gesamthaftung ist auf den Betrag begrenzt, der für die betreffende Leistung gezahlt wurde. Diese Beschränkung gilt nicht für Vorsatz oder grobe Fahrlässigkeit, für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit sowie soweit eine Haftungsbeschränkung gesetzlich unzulässig ist.",
     "governing_law_title": "Anwendbares Recht",
     "governing_law_content": "Diese Bedingungen unterliegen dem anwendbaren Recht und werden nach diesem ausgelegt. Streitigkeiten werden zunächst durch Verhandlungen nach Treu und Glauben beigelegt, bevor förmliche rechtliche Schritte eingeleitet werden.",
     "changes_title": "Änderungen der Bedingungen",
@@ -1094,7 +1069,7 @@
     "custom_quote": "Sie möchten ein individuelles Angebot?",
     "hero_title_a": "Was Sie bekommen,",
     "hero_title_em": "schwarz auf weiß.",
-    "hero_sub": "KI-gestützte Websites, Apps, Automatisierungen, Ads, Branding und Social-Media-Betreuung. Jedes Projekt wird individuell auf Ihren Umfang kalkuliert, mit schriftlich festgehaltenen Leistungen, damit wir beide wissen, was wir bauen.",
+    "hero_sub": "Wir bauen Websites, gestalten sie neu und hosten sie. Jedes Projekt wird individuell auf Ihren Umfang kalkuliert, mit schriftlich festgehaltenen Leistungen, damit wir beide wissen, was wir bauen.",
     "tabs": {
       "web": "Webentwicklung",
       "app": "App-Entwicklung",
@@ -1105,8 +1080,8 @@
       "branding": "Markenstrategie"
     },
     "sections": {
-      "oneTime": "Einmalige Projekte",
-      "webSupport": "Monatliche Betreuung",
+      "oneTime": "Websites: Neubau oder Redesign",
+      "webSupport": "Hosting- und Pflegepläne",
       "appBuild": "Einmalige Builds",
       "appSupport": "Monatliche Betreuung",
       "socialSetup": "Einmaliges Setup",
@@ -1136,23 +1111,27 @@
           "scope": [
             {
               "i": "Individuelle Landingpage (1 Seite)",
-              "l": "Komplett individuell gestaltete, mobil-optimierte One-Page-Website in Next.js. Mit scrollbaren Abschnitten: Hero, Über uns, Leistungen, Kundenstimmen und Kontaktformular. Responsives Layout für Desktop, Tablet und Smartphone. SEO-Meta-Titel und -Beschreibung werden getextet. SSL-Zertifikat und Hosting-Einrichtung auf Vercel inklusive."
+              "l": "Eine komplett individuell gestaltete, mobil-optimierte Seite in Next.js: Hero, Angebot, Belege, Kontakt. Responsives Layout für Desktop, Tablet und Smartphone. SEO-Meta-Titel und -Beschreibung werden getextet. SSL-Zertifikat und Hosting-Einrichtung auf Vercel inklusive."
             },
             {
-              "i": "Markenidentität (Logo + Farben)",
-              "l": "2 erste Logokonzepte als Mockups. Sie wählen 1 für die finale Ausarbeitung. Lieferumfang: Logodateien als PNG, SVG und PDF (farbig, weiß und schwarz). 1 primäre Farbpalette (5 Farben mit Hex-Codes) und 1 Schriftpaarung (Überschrift + Fließtext). Kein vollständiges Brand-Guidelines-Dokument in dieser Stufe."
+              "i": "Design passend zu Ihrer Marke",
+              "l": "Wir arbeiten mit Ihrem bestehenden Logo und Ihren Farben oder wählen mit Ihnen eine Farbpalette und Schriftpaarung, falls Sie noch keine haben. Kein Template; das Layout wird für Ihre Inhalte entworfen."
+            },
+            {
+              "i": "Kontaktformular mit E-Mail-Benachrichtigung",
+              "l": "Ein spamgeschütztes Formular, das in Ihrem Posteingang landet, mit Bestätigungsnachricht für den Besucher."
             },
             {
               "i": "Analytics & Tracking",
-              "l": "Google Analytics 4 installiert und konfiguriert. 1 Conversion-Ziel eingerichtet (z. B. Formularabsendung oder Klick auf die Telefonnummer). Google Search Console verbunden. Basis-Event-Tracking auf CTA-Buttons."
+              "l": "Google Analytics 4 und Search Console verbunden, mit Conversion-Events auf dem Formular, damit Sie sehen, was die Seite bringt."
             },
             {
-              "i": "Design-Korrekturen",
-              "l": "2 Korrekturrunden. Eine „Runde“ = 1 gebündeltes Feedback-Paket. Feedback muss innerhalb von 5 Werktagen nach jeder Abnahmerunde eingehen. Kein tröpfchenweises Feedback über mehrere E-Mails."
+              "i": "Design-Korrekturen (2 Runden)",
+              "l": "Zwei strukturierte Korrekturrunden nach der ersten Designpräsentation. Änderungen werden pro Runde in einer Liste gesammelt, damit nichts verloren geht."
             },
             {
               "i": "Inhalte & Texte",
-              "l": "Sie liefern alle Texte (Überschriften, Fließtext, Bios, Leistungsbeschreibungen). Wir übernehmen Layout, Formatierung und Platzierung. Wenn Sie Texterstellung brauchen, kommt sie für 200 $/Seite dazu."
+              "l": "Sie schicken Notizen oder Stichpunkte, wir formen daraus die finalen Texte für die Seite. Komplette professionelle Texterstellung ist als Add-on buchbar."
             }
           ],
           "ov": [
@@ -1161,7 +1140,7 @@
             "Zusätzlicher Abschnitt: 250 $"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Ihrer Freigabe ODER nach 2 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 14 Tage Monitoring nach dem Launch (Bugfixes und kleine Anpassungen). Sie brauchen mehr Seiten oder Funktionen? Mit dem Upgrade auf Starter-Website (6.500 $) bekommen Sie eine komplette 5-seitige Website mit KI-Chat und CRM-Setup.",
+          "bridge": "Inklusive 14 Tage Monitoring nach dem Launch (Bugfixes und kleine Anpassungen). Sie brauchen mehr Seiten? Starter-Website umfasst fünf.",
           "ideal": "Nebenprojekte, Personal Brands, einfache Landingpages"
         },
         {
@@ -1172,43 +1151,41 @@
           "tl": "4 bis 6 Wochen",
           "scope": [
             {
-              "i": "Individuelle Website (5 Seiten)",
-              "l": "Komplett individuell gestaltete, mobil-optimierte Website in Next.js. Enthalten: Startseite, Über uns, Leistungen, Kontakt und 1 weitere Seite nach Wahl. Jede Seite mit responsivem Layout für Desktop, Tablet und Smartphone. SEO-Meta-Titel und -Beschreibungen für alle 5 Seiten getextet. SSL-Zertifikat und Hosting-Einrichtung auf Vercel inklusive."
+              "i": "Individuelle Website (5 Seiten), Neubau oder Redesign",
+              "l": "Komplett individuell gestaltete, mobil-optimierte Website in Next.js: Startseite, Über uns, Leistungen, Kontakt und eine Seite nach Wahl. Funktioniert für eine ganz neue Website oder ein Redesign Ihrer bestehenden. SEO-Meta-Titel und -Beschreibungen für alle fünf Seiten. SSL-Zertifikat und Hosting-Einrichtung auf Vercel inklusive."
             },
             {
-              "i": "Markenidentität (Logo + Farben)",
-              "l": "2 erste Logokonzepte als Mockups. Sie wählen 1 für die finale Ausarbeitung. Lieferumfang: Logodateien als PNG, SVG und PDF (farbig, weiß und schwarz). 1 primäre Farbpalette (5 Farben mit Hex-Codes) und 1 Schriftpaarung (Überschrift + Fließtext). Kein vollständiges Brand-Guidelines-Dokument in dieser Stufe."
+              "i": "Design passend zu Ihrer Marke",
+              "l": "Aufgebaut auf Ihrem bestehenden Logo und Ihren Farben oder auf einer Farbpalette und Schriftpaarung, die wir mit Ihnen wählen. Jeder Abschnitt wird für Ihre Inhalte gestaltet, nicht in ein Theme gesetzt."
             },
             {
-              "i": "KI-Chat-Widget",
-              "l": "1 KI-gestützter Chatbot, eingebettet auf Ihrer Website. Trainiert auf 25 Frage-Antwort-Paare, die Sie liefern (z. B. Preise, Öffnungszeiten, Leistungen). Inklusive Lead-Formular, das Anfragen an Ihr CRM sendet. Begrüßungsnachricht und Fallback-Antwort werden eingerichtet."
+              "i": "Kontakt- und Buchungsformulare",
+              "l": "Spamgeschütztes Kontaktformular plus Buchungslink oder eingebetteter Kalender, damit Besucher Kontakt aufnehmen oder einen Termin buchen können, ohne E-Mails hin und her."
             },
             {
-              "i": "CRM-Setup (GoHighLevel)",
-              "l": "1 Sales-Pipeline mit 5 Phasen (z. B. Neuer Lead → Kontaktiert → Angebot gesendet → Gewonnen → Verloren). 5 Automatisierungen (z. B. E-Mail-Benachrichtigung bei neuem Lead, Follow-up-Erinnerung, Terminbestätigung, SMS-Rückmeldung bei verpasstem Anruf, Willkommens-E-Mail). Kontaktimport aus CSV, falls vorhanden (max. 500 Kontakte)."
+              "i": "Technisches SEO-Setup",
+              "l": "Meta-Titel und -Beschreibungen, Open-Graph-Tags, strukturierte Daten für Ihr Unternehmen, XML-Sitemap und robots.txt, beim Launch bei der Google Search Console eingereicht."
             },
             {
               "i": "Analytics & Tracking",
-              "l": "Google Analytics 4 installiert und konfiguriert. 1 Conversion-Ziel eingerichtet (z. B. Formularabsendung, Klick auf die Telefonnummer oder Chatbot-Interaktion). Google Search Console verbunden. Basis-Event-Tracking auf CTA-Buttons."
+              "l": "Google Analytics 4 und Search Console verbunden, mit Conversion-Events auf Formularen und Buchungen."
             },
             {
-              "i": "Design-Korrekturen",
-              "l": "2 Korrekturrunden pro Seite. Eine „Runde“ = 1 gebündeltes Feedback-Paket. Feedback muss innerhalb von 5 Werktagen nach jeder Abnahmerunde eingehen. Kein tröpfchenweises Feedback über mehrere E-Mails."
+              "i": "Design-Korrekturen (2 Runden)",
+              "l": "Zwei strukturierte Korrekturrunden nach der ersten Designpräsentation."
             },
             {
               "i": "Inhalte & Texte",
-              "l": "Sie liefern alle Texte (Überschriften, Fließtext, Bios, Leistungsbeschreibungen). Wir übernehmen Layout, Formatierung und Platzierung. Wenn Sie Texterstellung brauchen, kommt sie für 200 $/Seite dazu."
+              "l": "Sie schicken Notizen oder Stichpunkte, wir formen daraus die finalen Texte für jede Seite. Komplette professionelle Texterstellung ist als Add-on buchbar."
             }
           ],
           "ov": [
             "Zusätzliche Seiten: 500 $/Seite",
             "Zusätzliche Korrekturrunde: 300 $",
-            "Texterstellung: 200 $/Seite",
-            "Zusätzliche Q&A-Paare (über 25): 250 $ pro Paket",
-            "Zusätzliche Automatisierung: 350 $ pro Stück"
+            "Texterstellung: 200 $/Seite"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Ihrer Freigabe ODER nach 2 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 30 Tage Monitoring nach dem Launch (Bugfixes, Chatbot-Checks, CRM-Gesundheit). Ab Tag 31 gehen laufende Wartung, Updates und KI-Feintuning in unseren Plan Wartung & Monitoring (1.500 $/Monat) über, damit Ihre Systeme optimal laufen.",
+          "bridge": "Inklusive 30 Tage Monitoring nach dem Launch (Bugfixes und kleine Anpassungen). Ab Tag 31 laufen Hosting und Pflege über Website-Pflege (550 $/Monat) weiter.",
           "ideal": "Startups, Solo-Selbstständige, lokale Unternehmen"
         },
         {
@@ -1220,116 +1197,105 @@
           "tl": "6 bis 8 Wochen",
           "scope": [
             {
-              "i": "Individuelle Website (10 Seiten + CMS)",
-              "l": "10 vollständig gestaltete, mobil-optimierte Seiten in Next.js mit integriertem CMS (Blog oder Portfolio). Enthalten: Startseite, Über uns, Leistungen (3 Unterseiten), Blog, Kontakt und 2 weitere Seiten. 3 individuelle Scroll- oder Hover-Animationen. On-Page-SEO für alle Seiten (Meta-Titel, Beschreibungen, Alt-Texte, Schema-Markup). SSL, Hosting auf Vercel und Sitemap-Einreichung bei Google inklusive."
+              "i": "Individuelle Website (10 Seiten + CMS), Neubau oder Redesign",
+              "l": "Zehn komplett individuell gestaltete Seiten in Next.js mit Content-Management-System, damit Ihr Team Texte, Bilder und Beiträge ohne Entwickler bearbeiten kann. Funktioniert für eine neue Website oder ein Redesign. SEO-Metadaten auf jeder Seite. SSL-Zertifikat und Hosting-Einrichtung auf Vercel inklusive."
             },
             {
-              "i": "Markenidentität (vollständige Guidelines)",
-              "l": "3 erste Logokonzepte als Lifestyle-Mockups. 1 wird für die finale Ausarbeitung ausgewählt. Vollständige Brand-Guidelines als PDF (10 Seiten) mit: Regeln zur Logonutzung, Mindestgrößen, Schutzraum, Farbpalette (primär + sekundär, Hex/RGB/CMYK), Typografie-System (Überschrift, Zwischenüberschrift, Fließtext mit Größen) und Hinweisen zur Tonalität. 5 gebrandete Social-Media-Vorlagen in Canva oder Figma (editierbar)."
+              "i": "Designsystem",
+              "l": "Komponenten, Typografie und Farben einmal definiert und auf jeder Seite wiederverwendet, damit später ergänzte Seiten aussehen, als hätten sie immer dazugehört."
             },
             {
-              "i": "KI-Chatbot",
-              "l": "1 KI-gestützter Chatbot, trainiert auf 50 Q&A-Paare. Inklusive Terminbuchung (verbunden mit Ihrem Google Calendar oder Calendly). Lead-Erfassung mit automatischem CRM-Eintrag. Individuelle Begrüßung, Fallback-Antworten und Nachrichten außerhalb der Geschäftszeiten eingerichtet. Chatbot auf 3 Seiten eingebettet."
+              "i": "Blog oder News-Bereich, den Sie selbst pflegen",
+              "l": "Ein CMS-gestützter Bereich mit Kategorien, Autor und Datum, Artikel-Schema und pro Beitrag generierten Social-Share-Bildern."
             },
             {
-              "i": "KI-Telefonagent",
-              "l": "1 eingehender KI-Telefonagent, der Anrufe entgegennimmt, Leads qualifiziert und Termine bucht. 1 individuelles Gesprächsskript getextet und konfiguriert. 500 Sprachminuten im ersten Monat inklusive. Anrufaufzeichnungen werden in Ihrem CRM gespeichert. Inklusive einfacher Anrufweiterleitung (an Sie, wenn die KI nicht weiterkommt)."
+              "i": "Lead- und Buchungsformulare mit Benachrichtigungen",
+              "l": "Mehrstufige oder einfache Formulare, Spamschutz, E-Mail-Benachrichtigungen und ein eingebetteter Buchungskalender; jede Anfrage wird nach Quelle markiert."
             },
             {
-              "i": "Workflow-Automatisierung (8 insgesamt)",
-              "l": "8 Automatisierungen in GoHighLevel. Beispiele: Benachrichtigung bei neuem Lead (E-Mail + SMS), Terminerinnerungen (24 Std. + 1 Std. vorher), SMS-Rückmeldung bei verpasstem Anruf, Follow-up nach dem Termin, Bewertungsanfrage nach der Leistung, Reaktivierung bei abgebrochenem Formular, Geburtstags-/Jubiläums-E-Mail und Trigger bei Pipeline-Phasenwechsel. Jede Automatisierung mit bis zu 5 Schritten."
+              "i": "Technisches und lokales SEO-Setup",
+              "l": "Alles aus dem technischen Setup der Starter-Website plus Schema für lokale Unternehmen, Abgleich mit dem Google Business Profile und Standortseiten, wo sinnvoll."
             },
             {
-              "i": "Google-Ads-Setup",
-              "l": "1 Google-Suchkampagne mit 3 Anzeigengruppen (unterschiedliche Keyword-Themen). Keyword-Recherche und Liste auszuschließender Keywords inklusive. 6 Anzeigenvarianten getextet (2 pro Anzeigengruppe). 1 eigene Landingpage gestaltet, gebaut und mit Conversion-Tracking verbunden. Google-Ads-Conversion-Tracking und Google Tag Manager konfiguriert. Das Werbebudget wird separat abgerechnet und von Ihnen direkt an Google gezahlt."
+              "i": "Performance-Tuning",
+              "l": "Core Web Vitals bestanden auf Mobil und Desktop vor dem Launch: Bildoptimierung, Schriftenladen und Script-Budgets, geprüft mit Lighthouse."
             },
             {
-              "i": "Kunden-Dashboard",
-              "l": "1 Echtzeit-Dashboard in GHL oder Google Looker Studio. Bis zu 6 Widgets: Website-Traffic, Anzahl Leads, Pipeline-Wert, Conversion-Rate, Anzeigenleistung und Chatbot-Interaktionen. Das Dashboard aktualisiert sich automatisch und ist über einen teilbaren Link erreichbar."
+              "i": "Analytics-Dashboard",
+              "l": "Google Analytics 4 und Search Console verbunden sowie eine einfache Monatsübersicht zu Traffic, Leads und Top-Seiten."
             },
             {
-              "i": "Design-Korrekturen",
-              "l": "3 Korrekturrunden pro Leistung (Website-Seiten, Marken-Assets, Anzeigenmotive und Dashboard). Eine „Runde“ = 1 gebündeltes Feedback-Paket, eingereicht innerhalb von 5 Werktagen."
+              "i": "Design-Korrekturen (3 Runden)",
+              "l": "Drei strukturierte Korrekturrunden nach der ersten Designpräsentation."
             },
             {
               "i": "Inhalte & Texte",
-              "l": "Wir texten Ihre Startseite und Leistungsseite (insgesamt 1.500 Wörter). Alle anderen Seiteninhalte liefern Sie. Das Blog-CMS wird leer übergeben, damit Sie oder Ihr Team Beiträge anlegen können, oder Sie buchen unser Content-Paket dazu."
+              "l": "Sie schicken Notizen oder Stichpunkte, wir formen daraus die finalen Texte für jede Seite. Komplette professionelle Texterstellung ist als Add-on buchbar."
             }
           ],
           "ov": [
             "Zusätzliche Seiten: 500 $/Seite",
             "Zusätzliche Korrektur: 300 $/Runde",
-            "Zusätzliche Anzeigenkampagne: 1.500 $",
-            "Zusätzliches Gesprächsskript: 750 $",
-            "Automatisierungen (über 8): 350 $ pro Stück",
             "Zusätzliche Landingpage: 900 $",
-            "Texterstellung über den Umfang hinaus: 200 $/Seite"
+            "Texterstellung über die enthaltenen Seiten hinaus: 200 $/Seite"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 3 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 30 Tage nach dem Launch: Anzeigenbetreuung, KI-Monitoring und Bugfixes. Ab Tag 31 brauchen Ihre Ads, KI-Agenten und Automatisierungen laufende Optimierung, damit sie weiter liefern. Wir empfehlen unseren Plan Wachstumsmotor (3.500 $/Monat), um den Schwung zu halten.",
-          "ideal": "Wachsende Unternehmen, die mit Systemen skalieren"
+          "bridge": "Inklusive 30 Tage Monitoring und Bugfixes nach dem Launch. Ab Tag 31 liefert Website-Wachstum (1.600 $/Monat) jeden Monat eine neue Seite oder einen neuen Abschnitt.",
+          "ideal": "Wachsende Unternehmen, die publizieren und verkaufen"
         },
         {
-          "name": "Marktführer-Paket",
+          "name": "Premium-Website",
           "price": 18000,
           "disp": "ab 18.000 $",
-          "tag": "Enterprise-Niveau",
+          "tag": "Kompletter Build",
           "tl": "8 bis 12 Wochen",
           "scope": [
             {
-              "i": "Premium-Website (15 Seiten + E-Commerce)",
-              "l": "15 vollständig gestaltete Seiten in Next.js mit Headless CMS (Sanity oder Contentful). 6 individuelle Animationen (Parallax-Scrolling, Hover-Effekte, Seitenübergänge, Mikro-Interaktionen). E-Commerce-fähig: 20 Produktlistings mit Shopify- oder Stripe-Integration, Warenkorb und Checkout. Inklusive Blog, Ressourcen-Bereich oder Case-Study-Sektion. Vollständiges On-Page-SEO, Schema-Markup, Open-Graph-Tags, XML-Sitemap und robots.txt. SSL, Vercel-Hosting und CDN-Optimierung inklusive."
+              "i": "Premium-Website (15 Seiten + E-Commerce), Neubau oder Redesign",
+              "l": "Fünfzehn oder mehr komplett individuell gestaltete Seiten in Next.js mit Content-Management-System und Onlineshop. Funktioniert für eine neue Website oder ein Redesign. SEO-Metadaten auf jeder Seite. SSL-Zertifikat und Hosting-Einrichtung auf Vercel inklusive."
             },
             {
-              "i": "Komplettes Markensystem",
-              "l": "5 erste Logokonzepte mit Lifestyle-Mockups. 1 wird vollständig ausgearbeitet. Komplettes Brand-Guidelines-Dokument (20 Seiten): Logonutzung, Schutzraum, Mindestgrößen, primäre und sekundäre Farbpaletten, Typografie-Hierarchie, Fotografie-Styleguide, Icon-Stil, Richtlinien zu Markenstimme und Tonalität. Geschäftsausstattung: Visitenkarte, Briefpapier und E-Mail-Signatur-Vorlage. Pitch-Deck-Vorlage (15 Folien, editierbar in Google Slides oder Keynote). 10 gebrandete Social-Media-Vorlagen (Canva oder Figma, editierbar)."
+              "i": "Designsystem",
+              "l": "Komponenten, Typografie und Farben einmal definiert und dokumentiert, damit Ihr Team und unseres neue Seiten einheitlich bauen."
             },
             {
-              "i": "KI-Agenten-Ökosystem (3 Agenten)",
-              "l": "3 vernetzte KI-Agenten, die als System zusammenarbeiten. Beispiel-Setup: Agent 1 erfasst Leads per Chatbot und bewertet sie (heiß/warm/kalt). Agent 2 sendet personalisierte E-Mail-Sequenzen je nach Bewertung. Agent 3 löst SMS-Follow-ups für heiße Leads aus. 1 individueller Entscheidungsbaum, der die komplette Lead-Journey abbildet. Alle Agenten sind mit Ihrem GHL-CRM verbunden, mit automatischem Kontakt-Tagging und Pipeline-Bewegung."
+              "i": "Zahlungen und Checkout",
+              "l": "Stripe- oder Shopify-Checkout, Produktseiten, Warenkorb, Bestellbestätigungen per E-Mail sowie Steuer- und Versandregeln für Ihren Markt."
             },
             {
-              "i": "Conversational-AI-Suite",
-              "l": "1 KI-Chatbot, trainiert auf 100 Q&A-Paare, auf der gesamten Website eingebettet. Inklusive Terminbuchung, Lead-Erfassung, FAQ-Beantwortung und Nachrichten außerhalb der Geschäftszeiten. 1 KI-Telefonagent mit 2 individuellen Gesprächsskripten (z. B. eingehender Vertrieb + Terminbestätigung). 1.000 Sprachminuten im ersten Monat inklusive. Anrufaufzeichnungen im CRM gespeichert. 5 SMS-Automatisierungen (z. B. Terminerinnerungen, Follow-up nach dem Anruf, Bewertungsanfrage, Reaktivierung, Aktionsversand)."
+              "i": "Kundenkonten oder Kundenportal",
+              "l": "Login, Bestellhistorie oder Projektdateien, Downloads und Kontoeinstellungen, gebaut nach dem, was Ihre Kunden tatsächlich brauchen."
             },
             {
-              "i": "Workflow-Automatisierung (15 insgesamt)",
-              "l": "15 Automatisierungen über CRM, Zahlungssystem und Kalender hinweg. Beispiele: Lead-Nurturing-Sequenzen, Rechnungserinnerungen, Zahlungsbestätigung, Onboarding-Workflows, Bewertungsanfragen, Rückgewinnungskampagnen, interne Team-Benachrichtigungen, Pipeline-Automatisierungen und Geburtstags-/Meilenstein-E-Mails. Jede Automatisierung mit bis zu 7 Schritten und bedingter Logik."
+              "i": "Technisches und lokales SEO-Setup",
+              "l": "Vollständiges technisches Setup plus Schema für Produkte und lokale Unternehmen, Abgleich mit dem Google Business Profile und Standortseiten, wo sinnvoll."
             },
             {
-              "i": "Google + Meta Ads (komplettes Setup)",
-              "l": "1 Google-Suchkampagne mit 5 Anzeigengruppen und 10 Anzeigenvarianten. Vollständige Keyword-Recherche mit Listen auszuschließender Keywords. 1 Meta-Kampagne (Facebook/Instagram) mit 3 Anzeigengruppen für unterschiedliche Zielgruppen. Retargeting-Pixel für Google und Meta auf Ihrer Website installiert. 2 eigene Landingpages gestaltet, gebaut und auf Conversion optimiert. Komplettes Conversion-Tracking über Google Tag Manager. Anzeigenmotive gestaltet (6 statische Bilder + 2 Karussell-Anzeigen). Werbebudget wird separat abgerechnet. Sie zahlen direkt an Google und Meta."
+              "i": "Performance-Tuning",
+              "l": "Core Web Vitals bestanden auf Mobil und Desktop vor dem Launch, inklusive Shop- und Portalseiten."
             },
             {
-              "i": "KI-Content-System",
-              "l": "Komplette Content-Pipeline eingerichtet: Video-zu-Clips-Workflow (Sie laden ein langes Video hoch, die KI erstellt Social-Clips), Blogbeitrag-Vorlage mit KI-Unterstützung und Social-Media-Planung in Buffer oder Later. Erster Monat Content produziert und veröffentlicht: 4 Blogbeiträge (je bis zu 1.000 Wörter, SEO-optimiert) und 12 Social-Media-Posts (Grafiken + Captions). Content-Kalender-Vorlage für die weitere Nutzung inklusive."
+              "i": "Analytics-Dashboard",
+              "l": "Google Analytics 4 mit E-Commerce-Events, Search Console und eine Monatsübersicht zu Traffic, Bestellungen und Top-Produkten."
             },
             {
-              "i": "Executive-Dashboard",
-              "l": "1 umfassendes Dashboard in GHL oder Google Looker Studio. 10 Widgets: Website-Traffic, Lead-Pipeline, Conversion-Rate, Google-Ads-Leistung (CPC, CTR, ROAS), Meta-Ads-Leistung, Chatbot-Interaktionen, Anrufvolumen des Telefonagenten, E-Mail-Öffnungs- und Klickraten, Umsatz-Attribution und wöchentliche Trend-Charts. Automatische wöchentliche Zusammenfassung per E-Mail an 3 Empfänger."
-            },
-            {
-              "i": "Design-Korrekturen",
-              "l": "3 Korrekturrunden pro Leistung über alle Assets hinweg. Eine „Runde“ = 1 gebündeltes Feedback-Paket, eingereicht innerhalb von 5 Werktagen."
+              "i": "Design-Korrekturen (3 Runden)",
+              "l": "Drei strukturierte Korrekturrunden nach der ersten Designpräsentation."
             },
             {
               "i": "Texterstellung",
-              "l": "Professionelle Texte für 10 Website-Seiten (Überschriften, Fließtext, CTAs, Meta-Beschreibungen). Für die übrigen Seiten liefern Sie Rohmaterial, Notizen oder Stichpunkte. Anzeigentexte für alle Google- und Meta-Kampagnen sind inklusive."
+              "l": "Komplette professionelle Texterstellung für jede Seite ist in dieser Stufe enthalten."
             }
           ],
           "ov": [
             "Zusätzliche Seiten: 500 $",
             "Zusätzliche Korrektur: 350 $/Runde",
-            "Zusätzlicher KI-Agent: 2.500 $",
-            "Zusätzliche Anzeigenkampagne: 1.500 $",
-            "Gesprächsskript: 750 $",
-            "Automatisierungen (über 15): 400 $ pro Stück",
             "Produkte (über 20): 75 $/Produkt",
-            "Content nach Monat 1: nur mit Betreuungsplan"
+            "Zusätzliche Landingpage: 900 $"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 3 Runden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 45 Tage nach dem Launch: vollständiges Monitoring, Anzeigenbetreuung, KI-Feintuning und Bugfixes. Ab Tag 46 brauchen Ihr KI-Ökosystem, Ihre Kampagnen und Content-Systeme laufende Betreuung, damit sie Ergebnisse liefern. Wir empfehlen je nach Bedarf Volle Partnerschaft (7.500 $/Monat) oder Wachstumsmotor (3.500 $/Monat).",
-          "ideal": "Etablierte Unternehmen, die eine komplette KI-Infrastruktur wollen"
+          "bridge": "Inklusive 45 Tage Monitoring und Bugfixes nach dem Launch. Ab Tag 46 bekommen Sie mit Website-Partnerschaft (3.800 $/Monat) einen festen Entwickler und Designer.",
+          "ideal": "Etablierte Unternehmen, die E-Commerce oder ein Kundenportal brauchen"
         }
       ],
       "socialSetup": [
@@ -2689,7 +2655,7 @@
             "Eilanfrage (am selben Tag): +125 $",
             "Umfangreichere Update-Arbeit: 165 $/Std."
           ],
-          "ex": "Keine neuen Seiten, keine Redesigns, keine A/B-Tests, kein SEO, keine Ads. Keine Marketing-Aktivitäten. Dafür siehe unsere Marketing-Pakete.",
+          "ex": "Keine neuen Seiten, keine Redesigns, keine A/B-Tests, keine SEO-Arbeit. Das gehört zu Website-Wachstum und Website-Partnerschaft.",
           "ideal": "Gelaunchte Seiten, die zuverlässige Pflege und ein gutes Gefühl brauchen"
         },
         {
@@ -2735,7 +2701,7 @@
             "Weitere neue Seite: 850 $",
             "Video-/Animationsarbeit: separat kalkuliert"
           ],
-          "ex": "Keine kompletten Redesigns (als Projekt kalkuliert). Keine bezahlten Anzeigen. Keine Texterstellung über kleine Änderungen hinaus.",
+          "ex": "Keine kompletten Redesigns (werden als Projekt angeboten). Keine Texterstellung über kleine Änderungen hinaus.",
           "ideal": "Teams, die ihre Seite jeden Monat ein Stück besser machen wollen"
         },
         {
@@ -2780,7 +2746,7 @@
             "Weitere Content-Seite einpflegen: 45 $ pro Stück über 10 hinaus",
             "Eil-Deploy (am selben Tag): +25 %"
           ],
-          "ex": "Keine Betreuung bezahlter Anzeigen (siehe Marketing-Pakete). Kein Brand-Redesign (siehe Branding-Pakete). Keine Mobile-App-Arbeit.",
+          "ex": "Keine kompletten Redesigns (werden als Projekt angeboten). Keine Arbeit an mobilen Apps.",
           "ideal": "Skalierende Unternehmen, die Blok Blok als ihr Web-Team sehen"
         }
       ],
@@ -3224,8 +3190,8 @@
     },
     "v2_card_cta": "Individuelles Angebot anfragen",
     "v2_options": "{count, plural, one {# Option} other {# Optionen}}",
-    "meta_title": "Leistungen & Pakete",
-    "meta_description": "Pakete für individuelles Webdesign und Entwicklung. Klar definierte Leistungen, individuell auf Ihren Umfang kalkuliert."
+    "meta_title": "Preise",
+    "meta_description": "Pakete für Webdesign, Redesign und Hosting. Klar definierte Leistungen, individuell auf Ihren Umfang kalkuliert."
   },
   "a11y": {
     "skip_to_main": "Zum Hauptinhalt springen",

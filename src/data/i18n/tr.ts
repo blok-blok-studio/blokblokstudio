@@ -494,7 +494,7 @@ Onun altında bir iletişim formumuz var. Bilgilerinizi girin yeter. Doğrudan b
         heading: 'Vaka çalışması',
         name: 'Coach Luki, Berlin',
         result: 'Randevular ve ödemeler doğrudan site üzerinden yürüyor',
-        body: '"Tüm sitemi sıfırdan inşa ettiler ve artık danışanlar randevuyu ve ödemeyi doğrudan site üzerinden yapıyor. Eskiden DM\'lere ve faturalara saatler harcardım." Luke Satterly, Berlin\'de Holmes Place ve John Reed\'de danışanlarını çalıştırıyor. Sitesi randevuyu, Stripe ödemelerini ve "personal trainer Berlin" gibi aramalar için yerel SEO\'yu yönetiyor.',
+        body: '"Web sitesinde en sevdiğim şey, herhangi birinin alelacele bir araya getirebileceği sıradan bir şablon olmaması. Arkasında gerçekten çok düşünce ve emek var." Luke Satterly, Berlin\'de Holmes Place ve John Reed\'de danışanlarını çalıştırıyor. Sitesi randevuyu, Stripe ödemelerini ve "personal trainer Berlin" gibi aramalar için yerel SEO\'yu yönetiyor.',
         linkLabel: 'Vaka çalışmasının tamamını okuyun',
       },
       faqHeading: 'Sık sorulan sorular',

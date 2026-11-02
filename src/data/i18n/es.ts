@@ -494,7 +494,7 @@ Más abajo tenemos un formulario de contacto. Rellena tus datos. Me llega direct
         heading: 'Caso de éxito',
         name: 'Coach Luki, Berlín',
         result: 'Reservas y pagos directamente a través de la web',
-        body: '"Construyeron toda mi web desde cero y ahora los clientes reservan y pagan directamente en ella. Antes perdía horas con mensajes directos y facturas." Luke Satterly entrena a sus clientes en Holmes Place y John Reed, en Berlín. Su web gestiona las reservas, los pagos con Stripe y el SEO local para búsquedas como "personal trainer Berlín".',
+        body: '"Lo que más me gusta de la web es que no es una plantilla más que cualquiera puede montar. Hay mucha intención detrás." Luke Satterly entrena a sus clientes en Holmes Place y John Reed, en Berlín. Su web gestiona las reservas, los pagos con Stripe y el SEO local para búsquedas como "personal trainer Berlín".',
         linkLabel: 'Leer el caso de éxito completo',
       },
       faqHeading: 'Preguntas frecuentes',

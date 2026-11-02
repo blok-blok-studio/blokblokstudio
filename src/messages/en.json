@@ -29,13 +29,13 @@
     "meta_description": "Answers about pricing, timelines, custom websites, and working with Blok Blok Studio, a Berlin-based web design studio serving clients worldwide.",
     "hero_eyebrow": "Frequently Asked Questions",
     "hero_title": "Everything you wanted to ask",
-    "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 30-minute call.",
+    "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 15-minute call.",
     "category_pricing": "Pricing & Investment",
     "category_process": "Process & Timeline",
     "category_capabilities": "Services & Capabilities",
     "category_trust": "Working with Blok Blok Studio",
     "cta_heading": "Still have questions?",
-    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure, just answers.",
+    "cta_subheading": "Book a free 15-minute call. No pitch, no pressure, just answers.",
     "cta_button": "Book your free call",
     "see_all_questions": "See all questions",
     "filter_all": "All",
@@ -43,32 +43,17 @@
       {
         "category": "pricing",
         "question": "How much does a custom website cost?",
-        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page, $6,500 for a 5-page site, $12,000 for 10 pages with a CMS, and $18,000 for 15 or more pages. Pricing depends on the number of pages, custom animations, integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one, never templates."
+        "answer": "A single landing page is $2,000, a 5-page site $6,500, 10 pages with a CMS $12,000, and 15 or more pages with e-commerce from $18,000. The same tiers apply whether it is a new site or a redesign of your current one. Pricing depends on the number of pages, custom animations, integrations and copywriting needs. Every site is built in Next.js, hosted on Vercel and SEO-optimized from day one, never templates."
       },
       {
         "category": "pricing",
-        "question": "How much does an AI chatbot cost to build?",
-        "answer": "An AI chatbot trained on 100+ Q&A pairs and embedded site-wide is included in our $18,000 Conversational AI suite, which also covers a voice agent, SMS automations, and a full content pipeline. As a standalone add-on to a website tier, an AI chatbot starts at $2,500. All bots integrate with your CRM and capture leads 24/7."
-      },
-      {
-        "category": "pricing",
-        "question": "How much does an AI voice agent cost per month?",
-        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human, all in natural conversational language."
-      },
-      {
-        "category": "pricing",
-        "question": "Do you offer monthly retainers or just project work?",
-        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth, Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
+        "question": "Do you offer monthly hosting and care plans or just project work?",
+        "answer": "Both. Project work starts at $2,000 and is billed in milestones. After launch, hosting and care plans start at $550/month for Site Care (monitoring, backups, security updates and small content edits), $1,600/month for Site Growth (a new page or section and A/B tests every month) and $3,800/month for Site Partnership (a dedicated developer and designer). Plans have a 3-month minimum."
       },
       {
         "category": "process",
         "question": "How long does it take to build a custom website?",
-        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast, most agencies take 2 to 3 times longer."
-      },
-      {
-        "category": "process",
-        "question": "How long does it take to deploy an AI agent?",
-        "answer": "A standard AI chatbot trained on your existing FAQs is live in 7 to 10 business days. A voice agent with a custom call script takes 10 to 14 days. A full multi-agent ecosystem with CRM, calendar, and payment integrations takes 4 to 8 weeks depending on complexity. We start with a discovery call, then a paid scoping document, then build."
+        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks, a 10-page site with CMS 6 to 8 weeks, and 15 or more pages 8 to 12 weeks. Redesigns run on the same schedule. Timeline depends on how quickly you provide content, brand input and approvals."
       },
       {
         "category": "process",
@@ -77,33 +62,23 @@
       },
       {
         "category": "capabilities",
-        "question": "What's the difference between an AI chatbot and an AI voice agent?",
-        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps, it answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
-      },
-      {
-        "category": "capabilities",
-        "question": "Can your AI agents integrate with HubSpot, Salesforce, or GoHighLevel?",
-        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector, no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
-      },
-      {
-        "category": "capabilities",
-        "question": "Do you build websites in Next.js, WordPress, or Webflow?",
-        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow, those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
+        "question": "Do you build in Next.js, WordPress or Webflow?",
+        "answer": "By default we code by hand in Next.js with TypeScript and Tailwind CSS, hosted on Vercel for sub-second load times. That is where the speed, the custom animations and the SEO results come from. If your situation calls for it, for example a team that already runs WordPress or a marketing site that needs Webflow's editor, we build there too."
       },
       {
         "category": "capabilities",
         "question": "Do you write the website copy, or do I provide it?",
-        "answer": "Either works. Most clients provide raw notes or bullet points and we shape them into final copy. Full professional copywriting is included at our $18,000 tier and available as a $200/page add-on at any other tier. Ad copy for Google and Meta campaigns is always written by us when we manage the ads."
+        "answer": "Either works. Most clients provide raw notes or bullet points and we shape them into final copy. Full professional copywriting is included at the $18,000 tier and available as a $200/page add-on at any other tier."
       },
       {
         "category": "trust",
         "question": "Where is Blok Blok Studio located, and do you work internationally?",
-        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text, we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
+        "answer": "Our studio is based in Berlin, Germany, with team members in Richmond, Los Angeles and Multan. Our clients are in the United States, Germany and the Philippines. Communication is asynchronous via Loom, email and text, so every time zone works. Invoicing and contracts are available in USD or EUR."
       },
       {
         "category": "trust",
-        "question": "Do I own my website code and AI agent configurations?",
-        "answer": "Yes, completely. On project completion you receive full ownership of the code, design files, AI prompts, and automation configurations. The site is deployed to your own Vercel account under your billing. The CRM, ad accounts, and domains stay in your name from day one. We never lock clients into our systems."
+        "question": "Do I own my website code?",
+        "answer": "Yes, completely. On project completion you receive full ownership of the code and design files. The site is deployed to your own Vercel account under your billing, and the domain stays in your name from day one. We never lock clients into our systems."
       },
       {
         "category": "trust",
@@ -135,7 +110,7 @@
     "tab_all": "All",
     "tab_ai": "AI & Automation",
     "tab_creative": "Creative & Marketing",
-    "audit_badge": "Free, 30 minutes",
+    "audit_badge": "Free, 15 minutes",
     "audit_heading": "Not Sure What Your Business Needs?",
     "audit_subheading": "Book a free strategy call. We'll review your business and show you exactly where the biggest opportunities are.",
     "audit_button": "Book Your Free Call",
@@ -239,8 +214,8 @@
     "v2_quote_2_role": "Nike athlete, Berlin",
     "v2_quote_3_role": "Trading card store",
     "v2_quote_1_text": "$50,000 in gross revenue in the first five months, a 5.0-star rating across 52 Google reviews, and an average Google position of 5.2 for his search terms.",
-    "v2_quote_2_text": "Blok Blok Studio transformed my online presence completely. The bold design perfectly captures my coaching philosophy and the results have been incredible.",
-    "v2_quote_3_text": "The e-commerce store they built for us is incredible. Our booster pack drops sell out in hours and the community engagement through the site has been amazing.",
+    "v2_quote_2_text": "Communication with him is really easy. You need someone that's responsive, knows his things, and can adapt to your needs. I'd really recommend Chase, or Blok Blok Studio.",
+    "v2_quote_3_text": "$191,042 in trading card sales across 1,790 orders on the Shopify store we built. Drops sold out in hours.",
     "v2_quote_1_kind": "Results",
     "v2_offer_title": "Websites, built and hosted",
     "v2_offer_subtitle": "Custom build, conversion-focused, with hosting and care included",
@@ -249,7 +224,7 @@
     "v2_result_grant_parkhurst": "Portfolio plus a self-serve client portal, live since September 2026.",
     "v2_next_label": "What happens next",
     "v2_next_1_title": "We call you back",
-    "v2_next_1_desc": "Within one business day. Twenty minutes on what the site has to do for the business, nothing else.",
+    "v2_next_1_desc": "Within one business day. Fifteen minutes on what the site has to do for the business, nothing else.",
     "v2_next_2_title": "Scope and one fixed price",
     "v2_next_2_desc": "A written plan with pages, timeline and a single number. Five pages from {price}, no hourly billing.",
     "v2_next_3_title": "Kickoff to launch",
@@ -628,13 +603,13 @@
     "acceptance_title": "Acceptance of Terms",
     "acceptance_content": "By accessing and using this website, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services.",
     "services_title": "Services",
-    "services_content": "Blok Blok Studio provides digital design, development, and marketing services. Specific project terms, deliverables, and pricing are outlined in individual contracts and proposals.",
+    "services_content": "Blok Blok Studio provides website design, development, redesign and hosting services. Specific project terms, deliverables and pricing are set out in individual contracts and proposals.",
     "user_responsibilities_title": "User Responsibilities",
     "user_responsibilities_content": "You agree to provide accurate information when using our forms and services, and to use our website and services lawfully and in accordance with these terms.",
     "ip_title": "Intellectual Property",
     "ip_content": "All content on this website, including designs, text, graphics, and code, is owned by Blok Blok Studio unless otherwise stated. Client work ownership is defined in individual project contracts.",
     "liability_title": "Limitation of Liability",
-    "liability_content": "Blok Blok Studio is not liable for any indirect, incidental, or consequential damages arising from the use of our website or services. Our total liability shall not exceed the amount paid for the specific service in question.",
+    "liability_content": "Blok Blok Studio is not liable for any indirect, incidental, or consequential damages arising from the use of our website or services. Our total liability shall not exceed the amount paid for the specific service in question. This limitation does not apply to liability for intent or gross negligence, for injury to life, body or health, or where liability cannot be limited under applicable law.",
     "governing_law_title": "Governing Law",
     "governing_law_content": "These terms are governed by and construed in accordance with applicable laws. Any disputes shall be resolved through good-faith negotiation before pursuing formal legal action.",
     "changes_title": "Changes to Terms",
@@ -1094,7 +1069,7 @@
     "custom_quote": "Want a custom quote?",
     "hero_title_a": "What you get,",
     "hero_title_em": "spelled out.",
-    "hero_sub": "AI-powered websites, apps, automations, ads, branding, and social media management. Every engagement is custom-quoted to your scope, with deliverables written down so we both know what we're building.",
+    "hero_sub": "Websites built, redesigned and hosted. Every engagement is quoted to scope, with deliverables written down so we both know what we're building.",
     "tabs": {
       "web": "Web Development",
       "app": "App Development",
@@ -1105,8 +1080,8 @@
       "branding": "Branding Strategy"
     },
     "sections": {
-      "oneTime": "One-Time Projects",
-      "webSupport": "Monthly Retainers",
+      "oneTime": "Websites: new build or redesign",
+      "webSupport": "Hosting and care plans",
       "appBuild": "One-Time Builds",
       "appSupport": "Monthly Retainers",
       "socialSetup": "One-Time Setup",
@@ -1136,23 +1111,27 @@
           "scope": [
             {
               "i": "Custom landing page (1 page)",
-              "l": "Fully custom-designed, mobile-responsive single-page website built in Next.js. Includes scroll-based sections: hero, about, services, testimonials, and contact form. Responsive layout for desktop, tablet, and mobile. SEO meta title and description written. SSL certificate and hosting setup on Vercel included."
+              "l": "One fully custom, mobile-responsive page built in Next.js: hero, offer, proof, contact. Responsive layout for desktop, tablet and mobile. SEO meta title and description written. SSL and hosting setup on Vercel included."
             },
             {
-              "i": "Brand identity (logo + colors)",
-              "l": "2 initial logo concepts presented as mockups. You choose 1 for final refinement. Deliverables: logo files in PNG, SVG, and PDF formats (full color, white, and black versions). 1 primary color palette (5 colors with hex codes) and 1 font pairing (heading + body). No full brand guidelines document at this tier."
+              "i": "Design matched to your brand",
+              "l": "We work from your existing logo and colours, or pick a palette and type pairing with you if you do not have one yet. No template; the layout is drawn for your content."
+            },
+            {
+              "i": "Contact form with email notifications",
+              "l": "A spam-protected form that lands in your inbox, with a confirmation message for the visitor."
             },
             {
               "i": "Analytics & tracking",
-              "l": "Google Analytics 4 installed and configured. 1 conversion goal set up (e.g., form submission or phone call click). Google Search Console connected. Basic event tracking on CTA buttons."
+              "l": "Google Analytics 4 and Search Console connected, with conversion events on the form so you can see what the page produces."
             },
             {
-              "i": "Design revisions",
-              "l": "2 rounds of revisions. A ‘round’ = 1 consolidated set of feedback. Feedback must be submitted within 5 business days of each review. No partial or rolling feedback across multiple emails."
+              "i": "Design revisions (2 rounds)",
+              "l": "Two structured revision rounds after the first design presentation. Changes are collected in one list per round so nothing gets lost."
             },
             {
               "i": "Content & copy",
-              "l": "Client provides all written content (headlines, body copy, bios, service descriptions). We handle layout, formatting, and placement. If you need copywriting, it can be added at $200/page."
+              "l": "You send notes or bullet points, we shape them into final copy for the page. Full professional copywriting is available as an add-on."
             }
           ],
           "ov": [
@@ -1161,7 +1140,7 @@
             "Additional section: $250"
           ],
           "ho": "Payment: 50% deposit to start, 50% due upon completion (Net 7). Complete upon client sign-off OR after 2 revision rounds. Post-sign-off: $175/hr.",
-          "bridge": "Includes 14 days of post-launch monitoring (bug fixes and minor tweaks). Need more pages or features? Upgrade to our Starter Launch ($6,500) for a full 5-page site with AI chat and CRM setup.",
+          "bridge": "Includes 14 days of post-launch monitoring (bug fixes and minor tweaks). Need more pages? Starter Launch covers five.",
           "ideal": "Side projects, personal brands, simple landing pages"
         },
         {
@@ -1172,43 +1151,41 @@
           "tl": "4 to 6 weeks",
           "scope": [
             {
-              "i": "Custom website (5 pages)",
-              "l": "Fully custom-designed, mobile-responsive website built in Next.js. Includes: Home, About, Services, Contact, and 1 additional page of your choice. Each page includes responsive layout for desktop, tablet, and mobile. SEO meta titles and descriptions written for all 5 pages. SSL certificate and hosting setup on Vercel included."
+              "i": "Custom website (5 pages), new build or redesign",
+              "l": "Fully custom, mobile-responsive website built in Next.js: Home, About, Services, Contact and one page of your choice. Works for a brand-new site or a redesign of the one you have. SEO meta titles and descriptions for all five pages. SSL and hosting setup on Vercel included."
             },
             {
-              "i": "Brand identity (logo + colors)",
-              "l": "2 initial logo concepts presented as mockups. You choose 1 for final refinement. Deliverables: logo files in PNG, SVG, and PDF formats (full color, white, and black versions). 1 primary color palette (5 colors with hex codes) and 1 font pairing (heading + body). No full brand guidelines document at this tier."
+              "i": "Design matched to your brand",
+              "l": "Built on your existing logo and colours, or a palette and type pairing chosen with you. Every section is designed for your content, not dropped into a theme."
             },
             {
-              "i": "AI chat widget",
-              "l": "1 AI-powered chatbot embedded on your website. Trained on 25 question-and-answer pairs you provide (e.g., pricing, hours, services). Includes a lead capture form that sends inquiries to your CRM. Basic greeting message and fallback response configured."
+              "i": "Contact and booking forms",
+              "l": "Spam-protected contact form plus a booking link or embedded calendar, so visitors can get in touch or book a slot without emailing back and forth."
             },
             {
-              "i": "CRM setup (GoHighLevel)",
-              "l": "1 sales pipeline created with 5 stages (e.g., New Lead → Contacted → Proposal Sent → Won → Lost). 5 automation sequences (e.g., new lead email notification, follow-up reminder, appointment confirmation, missed call text-back, welcome email). Contact import from CSV if provided (500 contacts max)."
+              "i": "Technical SEO setup",
+              "l": "Meta titles and descriptions, Open Graph tags, structured data for your business, XML sitemap and robots.txt, submitted to Google Search Console at launch."
             },
             {
               "i": "Analytics & tracking",
-              "l": "Google Analytics 4 installed and configured. 1 conversion goal set up (e.g., form submission, phone call click, or chatbot interaction). Google Search Console connected. Basic event tracking on CTA buttons."
+              "l": "Google Analytics 4 and Search Console connected, with conversion events on forms and bookings."
             },
             {
-              "i": "Design revisions",
-              "l": "2 rounds of revisions per page. A ‘round’ = 1 consolidated set of feedback. Feedback must be submitted within 5 business days of each review. No partial or rolling feedback across multiple emails."
+              "i": "Design revisions (2 rounds)",
+              "l": "Two structured revision rounds after the first design presentation."
             },
             {
               "i": "Content & copy",
-              "l": "Client provides all written content (headlines, body copy, bios, service descriptions). We handle layout, formatting, and placement. If you need copywriting, it can be added at $200/page."
+              "l": "You send notes or bullet points, we shape them into final copy for every page. Full professional copywriting is available as an add-on."
             }
           ],
           "ov": [
             "Additional pages: $500/page",
             "Extra revision round: $300",
-            "Copywriting: $200/page",
-            "Additional Q&A (25+): $250/batch",
-            "Additional automation: $350 each"
+            "Copywriting: $200/page"
           ],
           "ho": "Payment: 50% deposit to start, 50% due upon completion (Net 7). Complete upon client sign-off OR after 2 revision rounds. Post-sign-off: $175/hr.",
-          "bridge": "Includes 30 days of post-launch monitoring (bug fixes, chatbot checks, CRM health). After day 30, ongoing maintenance, updates, and AI tuning transition to our Maintain & Monitor plan ($1,500/mo) so your systems stay optimized.",
+          "bridge": "Includes 30 days of post-launch monitoring (bug fixes and minor tweaks). After day 30, hosting and upkeep continue on Site Care ($550/mo).",
           "ideal": "Startups, solopreneurs, local businesses"
         },
         {
@@ -1220,116 +1197,105 @@
           "tl": "6 to 8 weeks",
           "scope": [
             {
-              "i": "Custom website (10 pages + CMS)",
-              "l": "10 fully designed, mobile-responsive pages built in Next.js with an integrated CMS (blog or portfolio). Includes: Home, About, Services (3 service sub-pages), Blog, Contact, and 2 additional pages. 3 custom scroll or hover animations. On-page SEO for all pages (meta titles, descriptions, alt tags, schema markup). SSL, hosting on Vercel, and sitemap submission to Google included."
+              "i": "Custom website (10 pages + CMS), new build or redesign",
+              "l": "Ten fully custom pages built in Next.js with a content management system, so your team can edit text, images and posts without a developer. Works for a new site or a redesign. SEO meta data on every page. SSL and hosting setup on Vercel included."
             },
             {
-              "i": "Brand identity (full guidelines)",
-              "l": "3 initial logo concepts presented as lifestyle mockups. 1 selected for final refinement. Full brand guidelines PDF (10 pages) including: logo usage rules, minimum sizes, clear space, color palette (primary + secondary, hex/RGB/CMYK), typography system (heading, subheading, body fonts with sizing), and tone of voice notes. 5 branded social media post templates delivered in Canva or Figma (editable)."
+              "i": "Design system",
+              "l": "Components, typography and colour defined once and reused across every page, so new pages added later look like they belong."
             },
             {
-              "i": "AI chatbot",
-              "l": "1 AI-powered chatbot trained on 50 Q&A pairs. Includes appointment booking integration (connected to your Google Calendar or Calendly). Lead capture with automatic CRM entry. Custom greeting, fallback responses, and after-hours messaging configured. Chatbot embedded on 3 website pages."
+              "i": "Blog or news section you can edit",
+              "l": "A CMS-backed section with categories, author and date, article schema and social-share images generated per post."
             },
             {
-              "i": "AI voice agent",
-              "l": "1 inbound AI voice agent that answers calls, qualifies leads, and books appointments. 1 custom call script written and configured. 500 voice minutes included for the first month. Call recordings stored in your CRM. Includes basic call routing (transfer to you if the AI can’t resolve)."
+              "i": "Lead and booking forms with notifications",
+              "l": "Multi-step or simple forms, spam protection, email notifications and a booking calendar embed, with every submission tagged by source."
             },
             {
-              "i": "Workflow automation (8 total)",
-              "l": "8 automations built in GoHighLevel. Examples: new lead notification (email + SMS), appointment reminder sequence (24hr + 1hr before), missed call text-back, post-appointment follow-up, review request after service, abandoned form re-engagement, birthday/anniversary email, and pipeline stage change triggers. Each automation includes up to 5 steps."
+              "i": "Technical and local SEO setup",
+              "l": "Everything in the Starter technical setup plus local business schema, Google Business Profile alignment and location pages where relevant."
             },
             {
-              "i": "Google Ads setup",
-              "l": "1 Google Search campaign with 3 ad groups (targeting different keyword themes). Keyword research and negative keyword list included. 6 ad variations written (2 per ad group). 1 dedicated landing page designed, built, and connected with conversion tracking. Google Ads conversion tracking and Google Tag Manager configured. Ad spend is billed separately and paid directly to Google by you."
+              "i": "Performance tuning",
+              "l": "Core Web Vitals pass on mobile and desktop before launch: image optimisation, font loading and script budgets, verified with Lighthouse."
             },
             {
-              "i": "Client dashboard",
-              "l": "1 real-time dashboard built in GHL or Google Looker Studio. Up to 6 widgets: website traffic, lead count, pipeline value, conversion rate, ad performance, and chatbot interactions. Dashboard auto-updates and is accessible via a shareable link."
+              "i": "Analytics dashboard",
+              "l": "Google Analytics 4 and Search Console connected and a simple monthly view of traffic, leads and top pages."
             },
             {
-              "i": "Design revisions",
-              "l": "3 rounds of revisions per deliverable (website pages, brand assets, ad creatives, and dashboard). A ‘round’ = 1 consolidated set of feedback submitted within 5 business days."
+              "i": "Design revisions (3 rounds)",
+              "l": "Three structured revision rounds after the first design presentation."
             },
             {
               "i": "Content & copy",
-              "l": "We write copy for your homepage and services page (1,500 words total). All other page content provided by you. Blog CMS delivered empty so you or your team can create posts, or add our content package."
+              "l": "You send notes or bullet points, we shape them into final copy for every page. Full professional copywriting is available as an add-on."
             }
           ],
           "ov": [
             "Additional pages: $500/page",
             "Extra revision: $300/round",
-            "Additional ad campaign: $1,500",
-            "Additional voice script: $750",
-            "Automations (8+): $350 each",
             "Extra landing page: $900",
-            "Copywriting beyond included: $200/page"
+            "Copywriting beyond included pages: $200/page"
           ],
           "ho": "Payment: 50% deposit to start, 50% due upon completion (Net 7). Complete upon sign-off OR 3 revision rounds. Post-sign-off: $175/hr.",
-          "bridge": "Includes 30 days post-launch: ad management, AI monitoring, and bug fixes. After day 30, your ads, AI agents, and automations need ongoing optimization to keep performing. We recommend our Growth Engine plan ($3,500/mo) to maintain momentum.",
-          "ideal": "Growing businesses scaling with systems"
+          "bridge": "Includes 30 days of post-launch monitoring and bug fixes. After day 30, Site Growth ($1,600/mo) keeps shipping a new page or section every month.",
+          "ideal": "Growing businesses that publish and sell"
         },
         {
-          "name": "Total Domination",
+          "name": "Premium Launch",
           "price": 18000,
           "disp": "$18,000+",
-          "tag": "Enterprise-level",
+          "tag": "Full build",
           "tl": "8 to 12 weeks",
           "scope": [
             {
-              "i": "Premium website (15 pages + e-commerce)",
-              "l": "15 fully designed pages built in Next.js with headless CMS (Sanity or Contentful). 6 custom animations (parallax scrolling, hover effects, page transitions, micro-interactions). E-commerce ready: 20 product listings with Shopify or Stripe integration, shopping cart, and checkout. Includes blog, resource center, or case study section. Full on-page SEO, schema markup, Open Graph tags, XML sitemap, and robots.txt. SSL, Vercel hosting, and CDN optimization included."
+              "i": "Premium website (15 pages + e-commerce), new build or redesign",
+              "l": "Fifteen or more fully custom pages built in Next.js with a content management system and an online store. Works for a new site or a redesign. SEO meta data on every page. SSL and hosting setup on Vercel included."
             },
             {
-              "i": "Complete brand system",
-              "l": "5 initial logo concepts with lifestyle mockups. 1 selected for full refinement. Complete brand guidelines document (20 pages): logo usage, clear space, minimum sizes, primary and secondary color palettes, typography hierarchy, photography style guide, icon style, brand voice and tone guidelines. Stationery design: business card, letterhead, and email signature template. Pitch deck template (15 slides, editable in Google Slides or Keynote). 10 branded social media templates (Canva or Figma, editable)."
+              "i": "Design system",
+              "l": "Components, typography and colour defined once and documented, so your team and ours build new pages consistently."
             },
             {
-              "i": "AI agent ecosystem (3 agents)",
-              "l": "3 interconnected AI agents working as a system. Example setup: Agent 1 captures leads via chatbot and scores them (hot/warm/cold). Agent 2 sends personalized email sequences based on score. Agent 3 triggers SMS follow-ups for hot leads. 1 custom decision tree mapping the full lead journey. All agents connected to your GHL CRM with automatic contact tagging and pipeline movement."
+              "i": "Payments and checkout",
+              "l": "Stripe or Shopify checkout, product pages, cart, order confirmation emails and tax and shipping rules set up for your market."
             },
             {
-              "i": "Conversational AI suite",
-              "l": "1 AI chatbot trained on 100 Q&A pairs, embedded site-wide. Includes appointment booking, lead capture, FAQ handling, and after-hours messaging. 1 AI voice agent with 2 custom call scripts (e.g., inbound sales + appointment confirmation). 1,000 voice minutes included for the first month. Call recordings stored in CRM. 5 SMS automation sequences (e.g., appointment reminders, post-call follow-up, review request, re-engagement, promotional blast)."
+              "i": "Customer accounts or client portal",
+              "l": "Login, order history or project files, downloads and account settings, built to what your customers actually need."
             },
             {
-              "i": "Workflow automation (15 total)",
-              "l": "15 automations across your CRM, payment system, and calendar. Examples: lead nurture sequences, invoice reminders, payment confirmation, onboarding workflows, review requests, win-back campaigns, internal team notifications, pipeline stage automations, and birthday/milestone emails. Each automation includes up to 7 steps with conditional logic."
+              "i": "Technical and local SEO setup",
+              "l": "Full technical setup plus product and local business schema, Google Business Profile alignment and location pages where relevant."
             },
             {
-              "i": "Google + Meta Ads (full setup)",
-              "l": "1 Google Search campaign with 5 ad groups and 10 ad variations. Full keyword research with negative keyword lists. 1 Meta (Facebook/Instagram) campaign with 3 ad sets targeting different audiences. Retargeting pixel installed on your website for both Google and Meta. 2 dedicated landing pages designed, built, and optimized for conversions. All conversion tracking configured via Google Tag Manager. Ad creative designed (6 static images + 2 carousel ads). Ad spend billed separately. You pay Google and Meta directly."
+              "i": "Performance tuning",
+              "l": "Core Web Vitals pass on mobile and desktop before launch, including the store and portal pages."
             },
             {
-              "i": "AI content system",
-              "l": "Full content pipeline configured: video-to-clips workflow (upload long-form video, AI generates social clips), blog post generation template with AI assistance, and social media scheduling setup in Buffer or Later. First month of content produced and published: 4 blog posts (up to 1,000 words each, SEO-optimized) and 12 social media posts (graphics + captions). Content calendar template provided for ongoing use."
+              "i": "Analytics dashboard",
+              "l": "Google Analytics 4 with e-commerce events, Search Console and a monthly view of traffic, orders and top products."
             },
             {
-              "i": "Executive dashboard",
-              "l": "1 comprehensive dashboard in GHL or Google Looker Studio. 10 widgets: website traffic, lead pipeline, conversion rate, Google Ads performance (CPC, CTR, ROAS), Meta Ads performance, chatbot interactions, voice agent call volume, email open/click rates, revenue attribution, and weekly trend charts. Automated weekly summary email sent to 3 recipients."
-            },
-            {
-              "i": "Design revisions",
-              "l": "3 rounds of revisions per deliverable across all assets. A ‘round’ = 1 consolidated set of feedback submitted within 5 business days."
+              "i": "Design revisions (3 rounds)",
+              "l": "Three structured revision rounds after the first design presentation."
             },
             {
               "i": "Copywriting",
-              "l": "Full professional copywriting for 10 website pages (headlines, body copy, CTAs, meta descriptions). Client provides raw material, notes, or bullet points for remaining pages. Ad copy for all Google and Meta campaigns written and included."
+              "l": "Full professional copywriting for every page is included at this tier."
             }
           ],
           "ov": [
             "Additional pages: $500",
             "Extra revision: $350/round",
-            "Additional AI agent: $2,500",
-            "Additional ad campaign: $1,500",
-            "Voice script: $750",
-            "Automations (15+): $400 each",
             "Products (20+): $75/product",
-            "Content after month 1: requires retainer"
+            "Extra landing page: $900"
           ],
           "ho": "Payment: 50% deposit to start, 25% at midpoint milestone, 25% due upon completion (Net 7). Complete upon sign-off OR 3 rounds. Post-sign-off: $175/hr.",
-          "bridge": "Includes 45 days post-launch: full monitoring, ad management, AI tuning, and bug fixes. After day 45, your AI ecosystem, ad campaigns, and content systems need ongoing management to deliver results. We recommend our Full Partnership ($7,500/mo) or Growth Engine ($3,500/mo) based on your needs.",
-          "ideal": "Established businesses wanting full AI infrastructure"
+          "bridge": "Includes 45 days of post-launch monitoring and bug fixes. After day 45, Site Partnership ($3,800/mo) gives you a dedicated developer and designer.",
+          "ideal": "Established businesses that need e-commerce or a client portal"
         }
       ],
       "socialSetup": [
@@ -2689,7 +2655,7 @@
             "Rush request (same day): +$125",
             "Hour-long update work: $165/hr"
           ],
-          "ex": "No new pages, no redesigns, no A/B tests, no SEO, no ads. No marketing activity. See our marketing packages for those.",
+          "ex": "No new pages, no redesigns, no A/B tests, no SEO work. Those live in Site Growth and Site Partnership.",
           "ideal": "Launched sites that need reliable upkeep and peace of mind"
         },
         {
@@ -2735,7 +2701,7 @@
             "Additional new page: $850",
             "Video/animation work: scoped separately"
           ],
-          "ex": "No full redesigns (scoped as project). No paid ads. No content writing beyond minor edits.",
+          "ex": "No full redesigns (scoped as a project). No content writing beyond minor edits.",
           "ideal": "Teams that want the site to keep improving every month"
         },
         {
@@ -2780,7 +2746,7 @@
             "Additional content page load: $45 each beyond 10",
             "Rush deploy (same day): +25%"
           ],
-          "ex": "No paid ad management (see marketing packages). No brand redesign (see branding packages). No mobile app work.",
+          "ex": "No full redesigns (scoped as a project). No mobile app work.",
           "ideal": "Scaling businesses treating Blok Blok as their web team"
         }
       ],
@@ -3224,8 +3190,8 @@
     },
     "v2_card_cta": "Get a custom quote",
     "v2_options": "{count, plural, one {# option} other {# options}}",
-    "meta_title": "Services & Packages",
-    "meta_description": "Custom website design and development packages. Defined deliverables, custom-quoted to your scope."
+    "meta_title": "Pricing",
+    "meta_description": "Website design, redesign and hosting packages. Defined deliverables, custom-quoted to your scope."
   },
   "a11y": {
     "skip_to_main": "Skip to main content",

@@ -41,14 +41,11 @@ export function PricingContent() {
   // sub-sections (one-time + monthly) don't collide.
   const [exp, setExp] = useState<string | null>(null);
 
+  // Live offer is websites and hosting only. The other package groups stay
+  // in the message files (app, social, marketing, AI, SaaS, branding) but are
+  // not rendered.
   const tabs: { k: string; l: string; sections: { dataKey: string; label: string }[] }[] = [
     { k: 'web', l: t('tabs.web'), sections: [{ dataKey: 'oneTime', label: t('sections.oneTime') }, { dataKey: 'webSupport', label: t('sections.webSupport') }] },
-    { k: 'app', l: t('tabs.app'), sections: [{ dataKey: 'appBuild', label: t('sections.appBuild') }, { dataKey: 'appSupport', label: t('sections.appSupport') }] },
-    { k: 'social', l: t('tabs.social'), sections: [{ dataKey: 'socialSetup', label: t('sections.socialSetup') }, { dataKey: 'social', label: t('sections.social') }] },
-    { k: 'marketing', l: t('tabs.marketing'), sections: [{ dataKey: 'marketingBuild', label: t('sections.marketingBuild') }, { dataKey: 'monthly', label: t('sections.monthly') }] },
-    { k: 'aiAgents', l: t('tabs.aiAgents'), sections: [{ dataKey: 'aiAgents', label: t('sections.aiAgents') }, { dataKey: 'monthlyAgent', label: t('sections.monthlyAgent') }] },
-    { k: 'saas', l: t('tabs.saas'), sections: [{ dataKey: 'customBuild', label: t('sections.customBuild') }, { dataKey: 'customSupport', label: t('sections.customSupport') }] },
-    { k: 'branding', l: t('tabs.branding'), sections: [{ dataKey: 'brandingBuild', label: t('sections.brandingBuild') }, { dataKey: 'brandingSupport', label: t('sections.brandingSupport') }] },
   ];
   const activeTab = tabs.find((x) => x.k === tab) ?? tabs[0];
 
@@ -58,7 +55,7 @@ export function PricingContent() {
 
       <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
         <div className="mx-auto max-w-[1600px]">
-          <div className="mb-12 flex flex-wrap gap-2 border-b border-white/10 pb-5">
+          <div className={`mb-12 flex flex-wrap gap-2 border-b border-white/10 pb-5 ${tabs.length < 2 ? 'hidden' : ''}`}>
             {tabs.map((x) => (
               <button
                 key={x.k}

@@ -163,7 +163,7 @@ export const projectsData: Record<string, ProjectData> = {
   },
   'public-affair': {
     title: 'Public Affair',
-    category: 'Branding',
+    category: 'Web Design',
     year: '2024',
     desc: 'Sophisticated brand identity and web experience for a premium lifestyle brand.',
     challenge: 'Public Affair needed a digital presence that conveyed luxury, sophistication, and exclusivity. The brand required an elegant age-verification experience that set the tone before visitors even entered the main site.',

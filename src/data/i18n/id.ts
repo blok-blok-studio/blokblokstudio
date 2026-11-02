@@ -494,7 +494,7 @@ Di bawahnya lagi, ada formulir prospek. Isi saja semua informasi Anda. Formulir 
         heading: 'Studi kasus',
         name: 'Coach Luki, Berlin',
         result: 'Pemesanan dan pembayaran berjalan langsung lewat situs',
-        body: '"Mereka membangun seluruh situs saya dari nol dan sekarang klien memesan dan membayar langsung lewat situs itu. Dulu saya membuang berjam-jam untuk DM dan faktur." Luke Satterly melatih klien di Holmes Place dan John Reed di Berlin. Situsnya menangani pemesanan, pembayaran Stripe, dan SEO lokal untuk pencarian seperti "personal trainer Berlin".',
+        body: '"Yang paling saya suka dari situs web ini adalah ia bukan sekadar template lain yang bisa dirakit siapa saja. Ada banyak pertimbangan matang yang dituangkan ke dalamnya." Luke Satterly melatih klien di Holmes Place dan John Reed di Berlin. Situsnya menangani pemesanan, pembayaran Stripe, dan SEO lokal untuk pencarian seperti "personal trainer Berlin".',
         linkLabel: 'Baca studi kasus lengkap',
       },
       faqHeading: 'Pertanyaan umum',

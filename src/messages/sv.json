@@ -29,13 +29,13 @@
     "meta_description": "Svar om priser, tidsplaner, skräddarsydda webbplatser och hur det är att jobba med Blok Blok Studio, en webbdesignstudio i Berlin med kunder över hela världen.",
     "hero_eyebrow": "Vanliga frågor",
     "hero_title": "Allt du velat fråga",
-    "hero_subtitle": "Ärliga svar om hur vi jobbar, vad vi tar betalt och vad vi bygger. Hittar du inte din fråga, boka ett kostnadsfritt 30-minuterssamtal.",
+    "hero_subtitle": "Ärliga svar om hur vi jobbar, vad vi tar betalt och vad vi bygger. Hittar du inte din fråga, boka ett kostnadsfritt 15-minuterssamtal.",
     "category_pricing": "Priser och investering",
     "category_process": "Process och tidsplan",
     "category_capabilities": "Tjänster och kompetens",
     "category_trust": "Att jobba med Blok Blok Studio",
     "cta_heading": "Har du fler frågor?",
-    "cta_subheading": "Boka ett kostnadsfritt 30-minuters strategisamtal. Ingen säljpitch, ingen press, bara svar.",
+    "cta_subheading": "Boka ett kostnadsfritt 15-minuterssamtal. Ingen säljpitch, ingen press, bara svar.",
     "cta_button": "Boka ditt kostnadsfria samtal",
     "see_all_questions": "Se alla frågor",
     "filter_all": "Alla",
@@ -43,32 +43,17 @@
       {
         "category": "pricing",
         "question": "Vad kostar en skräddarsydd webbplats?",
-        "answer": "Skräddarsydda webbplatser hos Blok Blok Studio börjar på 2 000 $ för en enskild landningssida, 6 500 $ för en sajt med 5 sidor, 12 000 $ för 10 sidor med CMS och 18 000 $ för 15 sidor eller fler. Priset beror på antal sidor, skräddarsydda animationer, integrationer och behov av copywriting. Varje sajt byggs i Next.js, hostas på Vercel och är SEO-optimerad från dag ett, aldrig mallar."
+        "answer": "En enskild landningssida kostar 2 000 $, en sajt med 5 sidor 6 500 $, 10 sidor med CMS 12 000 $ och 15 sidor eller fler med e-handel från 18 000 $. Samma nivåer gäller oavsett om det är en ny sajt eller en omdesign av den du har. Priset beror på antal sidor, skräddarsydda animationer, integrationer och behov av copywriting. Varje sajt byggs i Next.js, hostas på Vercel och är SEO-optimerad från dag ett, aldrig mallar."
       },
       {
         "category": "pricing",
-        "question": "Vad kostar det att bygga en AI-chattbot?",
-        "answer": "En AI-chattbot tränad på 100+ frågor och svar och inbäddad på hela sajten ingår i vår Conversational AI-svit för 18 000 $ som även omfattar en röstagent, sms-automationer och en komplett innehållspipeline. Som fristående tillägg till ett webbplatspaket börjar en AI-chattbot på 2 500 $. Alla botar integreras med ditt CRM och fångar leads dygnet runt."
-      },
-      {
-        "category": "pricing",
-        "question": "Vad kostar en AI-röstagent per månad?",
-        "answer": "Uppsättningen av vår AI-röstagent börjar på 2 500 $ som engångskostnad, med 500 röstminuter inkluderade den första månaden. Löpande minuter debiteras till standardtaxa för telefoni och ingår i ett månadsavtal. Agenten svarar på samtal, kvalificerar leads, bokar möten och kopplar brådskande samtal till en människa, allt på naturligt talspråk."
-      },
-      {
-        "category": "pricing",
-        "question": "Erbjuder ni månadsavtal eller bara projekt?",
-        "answer": "Både och. Projekt börjar på 2 000 $ och faktureras i delmål. Månadsavtal börjar på 1 500 $/månad för underhåll av sajten, AI-övervakning och CRM-skötsel, eller 3 500 $/månad för tillväxt med fullservice, hantering av Google- och Meta-annonser, AI-stödd innehållsproduktion och 5 timmars utvecklingsarbete varje månad. Månadsavtal kräver minst 3 eller 6 månaders bindningstid."
+        "question": "Erbjuder ni månatliga hosting- och underhållsplaner eller bara projekt?",
+        "answer": "Både och. Projekt börjar på 2 000 $ och faktureras i delmål. Efter lansering börjar hosting- och underhållsplanerna på 550 $/månad för Sajtvård (övervakning, backuper, säkerhetsuppdateringar och mindre innehållsändringar), 1 600 $/månad för Sajttillväxt (en ny sida eller sektion och A/B-tester varje månad) och 3 800 $/månad för Sajtpartnerskap (en dedikerad utvecklare och designer). Planerna har 3 månaders bindningstid."
       },
       {
         "category": "process",
         "question": "Hur lång tid tar det att bygga en skräddarsydd webbplats?",
-        "answer": "En enskild landningssida lanseras normalt på 2 till 3 veckor. En sajt med 5 sidor tar 4 till 6 veckor. En sajt med 10 sidor, CMS och AI-integrationer tar 8 till 12 veckor. Tidsplanen beror på hur snabbt du levererar innehåll, varumärkesunderlag och godkännanden. Vi jobbar snabbt, de flesta byråer tar 2 till 3 gånger längre tid."
-      },
-      {
-        "category": "process",
-        "question": "Hur lång tid tar det att driftsätta en AI-agent?",
-        "answer": "En standardchattbot tränad på dina befintliga vanliga frågor är live på 7 till 10 arbetsdagar. En röstagent med ett skräddarsytt samtalsmanus tar 10 till 14 dagar. Ett komplett ekosystem med flera agenter och integrationer mot CRM, kalender och betalningar tar 4 till 8 veckor beroende på komplexitet. Vi börjar med ett uppstartssamtal, sedan ett betalt omfattningsdokument, därefter bygger vi."
+        "answer": "En enskild landningssida lanseras normalt på 2 till 3 veckor. En sajt med 5 sidor tar 4 till 6 veckor, en sajt med 10 sidor och CMS 6 till 8 veckor och 15 sidor eller fler 8 till 12 veckor. Omdesigner följer samma tidsplan. Tidsplanen beror på hur snabbt du levererar innehåll, varumärkesunderlag och godkännanden."
       },
       {
         "category": "process",
@@ -77,33 +62,23 @@
       },
       {
         "category": "capabilities",
-        "question": "Vad är skillnaden mellan en AI-chattbot och en AI-röstagent?",
-        "answer": "En AI-chattbot är textbaserad och finns på din webbplats eller i meddelandeappar; den svarar på vanliga frågor, bokar möten och fångar leads via chatt. En AI-röstagent svarar på riktiga telefonsamtal med naturligt talspråk. Röstagenter passar bäst för inkommande försäljning, support utanför kontorstid och mötesbekräftelser. Många företag kör båda för full täckning."
-      },
-      {
-        "category": "capabilities",
-        "question": "Kan era AI-agenter integreras med HubSpot, Salesforce eller GoHighLevel?",
-        "answer": "Ja. Våra AI-agenter och automationer integreras direkt med HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe och Calendly. För CRM-system och verktyg utan färdig integration bygger vi en egen koppling, ingen Zapier-skatt på köpet. Din data stannar i dina system; vi får dem bara att prata med varandra."
-      },
-      {
-        "category": "capabilities",
-        "question": "Bygger ni webbplatser i Next.js, WordPress eller Webflow?",
-        "answer": "Vi bygger uteslutande i Next.js med TypeScript, Tailwind CSS och Framer Motion. Sajterna hostas på Vercel för laddtider under en sekund och global edge-leverans. Vi bygger inte i WordPress, Wix, Squarespace eller Webflow; de plattformarna klarar inte den prestanda, de skräddarsydda animationer eller de AI-integrationer våra kunder behöver."
+        "question": "Bygger ni i Next.js, WordPress eller Webflow?",
+        "answer": "Som standard handkodar vi i Next.js med TypeScript och Tailwind CSS, hostat på Vercel för laddtider under en sekund. Det är därifrån snabbheten, de skräddarsydda animationerna och SEO-resultaten kommer. Om din situation kräver det, till exempel ett team som redan kör WordPress eller en marknadsföringssajt som behöver Webflows redigerare, bygger vi där också."
       },
       {
         "category": "capabilities",
         "question": "Skriver ni texterna till webbplatsen, eller levererar jag dem?",
-        "answer": "Båda fungerar. De flesta kunder lämnar råa anteckningar eller punktlistor som vi formar till färdig text. Fullständig professionell copywriting ingår i vårt paket för 18 000 $ och finns som tillägg för 200 $/sida i alla andra paket. Annonstexter för Google- och Meta-kampanjer skriver vi alltid själva när vi hanterar annonserna."
+        "answer": "Båda fungerar. De flesta kunder lämnar råa anteckningar eller punktlistor som vi formar till färdig text. Fullständig professionell copywriting ingår på nivån för 18 000 $ och finns som tillägg för 200 $/sida på alla andra nivåer."
       },
       {
         "category": "trust",
         "question": "Var finns Blok Blok Studio, och jobbar ni internationellt?",
-        "answer": "Vår studio ligger i Berlin, Tyskland. Vi jobbar med kunder i USA, Storbritannien, Nederländerna, Frankrike, Spanien och i hela EU. Kommunikationen sker asynkront via Loom, e-post och sms, så vi anpassar oss till alla tidszoner. Fakturering och avtal finns i USD eller EUR, beroende på vad du föredrar."
+        "answer": "Vår studio ligger i Berlin, Tyskland, med teammedlemmar i Richmond, Los Angeles och Multan. Våra kunder finns i USA, Tyskland och Filippinerna. Kommunikationen sker asynkront via Loom, e-post och sms, så alla tidszoner fungerar. Fakturering och avtal finns i USD eller EUR."
       },
       {
         "category": "trust",
-        "question": "Äger jag koden till min webbplats och konfigurationerna för mina AI-agenter?",
-        "answer": "Ja, helt och hållet. När projektet är klart får du full äganderätt till koden, designfilerna, AI-prompterna och automationskonfigurationerna. Sajten driftsätts på ditt eget Vercel-konto med din fakturering. CRM, annonskonton och domäner står i ditt namn från dag ett. Vi låser aldrig in kunder i våra system."
+        "question": "Äger jag koden till min webbplats?",
+        "answer": "Ja, helt och hållet. När projektet är klart får du full äganderätt till koden och designfilerna. Sajten driftsätts på ditt eget Vercel-konto med din fakturering, och domänen står i ditt namn från dag ett. Vi låser aldrig in kunder i våra system."
       },
       {
         "category": "trust",
@@ -135,7 +110,7 @@
     "tab_all": "Alla",
     "tab_ai": "AI och automation",
     "tab_creative": "Kreativt och marknadsföring",
-    "audit_badge": "Kostnadsfritt, 30 minuter",
+    "audit_badge": "Kostnadsfritt, 15 minuter",
     "audit_heading": "Osäker på vad ditt företag behöver?",
     "audit_subheading": "Boka ett kostnadsfritt strategisamtal. Vi går igenom din verksamhet och visar exakt var de största möjligheterna finns.",
     "audit_button": "Boka ditt kostnadsfria samtal",
@@ -239,8 +214,8 @@
     "v2_quote_2_role": "Nike-atlet, Berlin",
     "v2_quote_3_role": "Butik för samlarkort",
     "v2_quote_1_text": "50 000 $ i bruttointäkter de första fem månaderna, 5,0 stjärnor över 52 Google-recensioner och en genomsnittlig Google-position på 5,2 för hans sökord.",
-    "v2_quote_2_text": "Blok Blok Studio förvandlade min närvaro online helt och hållet. Den djärva designen fångar min coachningsfilosofi perfekt och resultaten har varit otroliga.",
-    "v2_quote_3_text": "E-handelsbutiken de byggde åt oss är otrolig. Våra boosterpaket säljer slut på några timmar och engagemanget i communityn via sajten har varit fantastiskt.",
+    "v2_quote_2_text": "Kommunikationen med honom är verkligen enkel. Man behöver någon som svarar snabbt, kan sin sak och kan anpassa sig efter ens behov. Jag rekommenderar verkligen Chase, eller Blok Blok Studio.",
+    "v2_quote_3_text": "191 042 $ i försäljning av samlarkort över 1 790 beställningar i Shopify-butiken vi byggde. Släppen sålde slut på några timmar.",
     "v2_quote_1_kind": "Resultat",
     "v2_offer_title": "Webbplatser, byggda och hostade",
     "v2_offer_subtitle": "Skräddarsytt bygge med konverteringsfokus, hosting och drift ingår",
@@ -249,7 +224,7 @@
     "v2_result_grant_parkhurst": "Portfolio plus en självbetjäningsportal för kunder, live sedan september 2026.",
     "v2_next_label": "Vad som händer sen",
     "v2_next_1_title": "Vi ringer upp dig",
-    "v2_next_1_desc": "Inom en arbetsdag. Tjugo minuter om vad sajten måste göra för verksamheten, inget annat.",
+    "v2_next_1_desc": "Inom en arbetsdag. Femton minuter om vad sajten måste göra för verksamheten, inget annat.",
     "v2_next_2_title": "Omfattning och ett fast pris",
     "v2_next_2_desc": "En skriftlig plan med sidor, tidsplan och en enda siffra. Fem sidor från {price}, ingen timdebitering.",
     "v2_next_3_title": "Från kickoff till lansering",
@@ -628,13 +603,13 @@
     "acceptance_title": "Godkännande av villkoren",
     "acceptance_content": "Genom att besöka och använda den här webbplatsen godkänner du dessa användarvillkor och förbinder dig att följa dem. Om du inte godkänner villkoren ber vi dig att inte använda vår webbplats eller våra tjänster.",
     "services_title": "Tjänster",
-    "services_content": "Blok Blok Studio tillhandahåller tjänster inom digital design, utveckling och marknadsföring. Specifika projektvillkor, leveranser och priser anges i enskilda avtal och offerter.",
+    "services_content": "Blok Blok Studio tillhandahåller tjänster inom design, utveckling, omdesign och hosting av webbplatser. Specifika projektvillkor, leveranser och priser anges i enskilda avtal och offerter.",
     "user_responsibilities_title": "Användarens ansvar",
     "user_responsibilities_content": "Du åtar dig att lämna korrekta uppgifter när du använder våra formulär och tjänster, och att använda vår webbplats och våra tjänster lagligt och i enlighet med dessa villkor.",
     "ip_title": "Immateriella rättigheter",
     "ip_content": "Allt innehåll på den här webbplatsen, inklusive design, text, grafik och kod, ägs av Blok Blok Studio om inget annat anges. Äganderätten till kundarbeten regleras i enskilda projektavtal.",
     "liability_title": "Ansvarsbegränsning",
-    "liability_content": "Blok Blok Studio ansvarar inte för indirekta skador, följdskador eller oförutsedda skador som uppstår till följd av användningen av vår webbplats eller våra tjänster. Vårt totala ansvar överstiger inte det belopp som betalats för den aktuella tjänsten.",
+    "liability_content": "Blok Blok Studio ansvarar inte för indirekta skador, följdskador eller oförutsedda skador som uppstår till följd av användningen av vår webbplats eller våra tjänster. Vårt totala ansvar överstiger inte det belopp som betalats för den aktuella tjänsten. Denna begränsning gäller inte ansvar vid uppsåt eller grov vårdslöshet, för skada på liv, kropp eller hälsa, eller där ansvaret inte kan begränsas enligt tillämplig lag.",
     "governing_law_title": "Tillämplig lag",
     "governing_law_content": "Dessa villkor regleras av och tolkas i enlighet med tillämplig lag. Eventuella tvister ska lösas genom förhandling i god tro innan rättsliga åtgärder vidtas.",
     "changes_title": "Ändringar av villkoren",
@@ -1094,7 +1069,7 @@
     "custom_quote": "Vill du ha en offert på mått?",
     "hero_title_a": "Det du får,",
     "hero_title_em": "svart på vitt.",
-    "hero_sub": "AI-drivna webbplatser, appar, automationer, annonser, varumärken och hantering av sociala medier. Varje uppdrag offereras utifrån just din omfattning, med leveranserna nedskrivna så att vi båda vet vad vi bygger.",
+    "hero_sub": "Webbplatser som byggs, designas om och hostas. Varje uppdrag offereras utifrån just din omfattning, med leveranserna nedskrivna så att vi båda vet vad vi bygger.",
     "tabs": {
       "web": "Webbutveckling",
       "app": "Apputveckling",
@@ -1105,8 +1080,8 @@
       "branding": "Varumärkesstrategi"
     },
     "sections": {
-      "oneTime": "Engångsprojekt",
-      "webSupport": "Månadsavtal",
+      "oneTime": "Webbplatser: nybygge eller omdesign",
+      "webSupport": "Hosting- och underhållsplaner",
       "appBuild": "Engångsbyggen",
       "appSupport": "Månadsavtal",
       "socialSetup": "Engångsuppstart",
@@ -1136,23 +1111,27 @@
           "scope": [
             {
               "i": "Skräddarsydd landningssida (1 sida)",
-              "l": "Helt skräddarsydd, mobilanpassad webbplats på en sida byggd i Next.js. Innehåller scrollbaserade sektioner: hero, om oss, tjänster, omdömen och kontaktformulär. Responsiv layout för dator, surfplatta och mobil. SEO-metatitel och beskrivning skrivs. SSL-certifikat och hostinguppsättning på Vercel ingår."
+              "l": "En helt skräddarsydd, mobilanpassad sida byggd i Next.js: hero, erbjudande, bevis, kontakt. Responsiv layout för dator, surfplatta och mobil. SEO-metatitel och beskrivning skrivs. SSL och hostinguppsättning på Vercel ingår."
             },
             {
-              "i": "Varumärkesidentitet (logotyp + färger)",
-              "l": "2 inledande logotypkoncept presenterade som mockups. Du väljer 1 för slutlig finputsning. Leveranser: logotypfiler i PNG, SVG och PDF (fullfärg, vit och svart version). 1 primär färgpalett (5 färger med hex-koder) och 1 typsnittspar (rubrik + brödtext). Ingen fullständig varumärkesmanual på den här nivån."
+              "i": "Design anpassad till ditt varumärke",
+              "l": "Vi utgår från din befintliga logotyp och dina färger, eller väljer en färgpalett och typsnittskombination tillsammans med dig om du inte har någon ännu. Ingen mall; layouten ritas för ditt innehåll."
+            },
+            {
+              "i": "Kontaktformulär med e-postaviseringar",
+              "l": "Ett spamskyddat formulär som landar i din inkorg, med ett bekräftelsemeddelande till besökaren."
             },
             {
               "i": "Analys och spårning",
-              "l": "Google Analytics 4 installerat och konfigurerat. 1 konverteringsmål uppsatt (t.ex. formulärinskick eller klick på telefonnummer). Google Search Console kopplad. Grundläggande händelsespårning på CTA-knappar."
+              "l": "Google Analytics 4 och Search Console kopplade, med konverteringshändelser på formuläret så att du ser vad sidan ger."
             },
             {
-              "i": "Designrevideringar",
-              "l": "2 revideringsrundor. En ’runda’ = 1 samlad uppsättning feedback. Feedback ska lämnas inom 5 arbetsdagar efter varje granskning. Ingen delvis eller löpande feedback utspridd över flera mejl."
+              "i": "Designrevideringar (2 rundor)",
+              "l": "Två strukturerade revideringsrundor efter den första designpresentationen. Ändringarna samlas i en lista per runda så att inget tappas bort."
             },
             {
               "i": "Innehåll och text",
-              "l": "Kunden levererar allt skrivet innehåll (rubriker, brödtext, biografier, tjänstebeskrivningar). Vi sköter layout, formatering och placering. Behöver du copywriting kan det läggas till för 200 $/sida."
+              "l": "Du skickar anteckningar eller punktlistor, vi formar dem till färdig text för sidan. Fullständig professionell copywriting finns som tillägg."
             }
           ],
           "ov": [
@@ -1161,7 +1140,7 @@
             "Extra sektion: 250 $"
           ],
           "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Projektet avslutas vid kundens godkännande ELLER efter 2 revideringsrundor. Efter godkännande: 175 $/tim.",
-          "bridge": "Inkluderar 14 dagars övervakning efter lansering (buggfixar och mindre justeringar). Behöver du fler sidor eller funktioner? Uppgradera till Startlansering (6 500 $) för en komplett sajt med 5 sidor, AI-chatt och CRM-uppsättning.",
+          "bridge": "Inkluderar 14 dagars övervakning efter lansering (buggfixar och mindre justeringar). Behöver du fler sidor? Startlansering omfattar fem.",
           "ideal": "Sidoprojekt, personliga varumärken, enkla landningssidor"
         },
         {
@@ -1172,43 +1151,41 @@
           "tl": "4 till 6 veckor",
           "scope": [
             {
-              "i": "Skräddarsydd webbplats (5 sidor)",
-              "l": "Helt skräddarsydd, mobilanpassad webbplats byggd i Next.js. Innehåller: Hem, Om oss, Tjänster, Kontakt och 1 valfri extra sida. Varje sida har responsiv layout för dator, surfplatta och mobil. SEO-metatitlar och beskrivningar skrivs för alla 5 sidor. SSL-certifikat och hostinguppsättning på Vercel ingår."
+              "i": "Skräddarsydd webbplats (5 sidor), nybygge eller omdesign",
+              "l": "Helt skräddarsydd, mobilanpassad webbplats byggd i Next.js: Start, Om oss, Tjänster, Kontakt och en sida du väljer själv. Fungerar för en helt ny sajt eller en omdesign av den du har. SEO-metatitlar och beskrivningar för alla fem sidor. SSL och hostinguppsättning på Vercel ingår."
             },
             {
-              "i": "Varumärkesidentitet (logotyp + färger)",
-              "l": "2 inledande logotypkoncept presenterade som mockups. Du väljer 1 för slutlig finputsning. Leveranser: logotypfiler i PNG, SVG och PDF (fullfärg, vit och svart version). 1 primär färgpalett (5 färger med hex-koder) och 1 typsnittspar (rubrik + brödtext). Ingen fullständig varumärkesmanual på den här nivån."
+              "i": "Design anpassad till ditt varumärke",
+              "l": "Byggd på din befintliga logotyp och dina färger, eller på en färgpalett och typsnittskombination som vi väljer tillsammans med dig. Varje sektion designas för ditt innehåll, inte inpassad i ett tema."
             },
             {
-              "i": "AI-chattwidget",
-              "l": "1 AI-driven chattbot inbäddad på din webbplats. Tränad på 25 fråga-svar-par som du levererar (t.ex. priser, öppettider, tjänster). Inkluderar ett formulär för leadinsamling som skickar förfrågningar till ditt CRM. Grundläggande hälsning och reservsvar konfigurerade."
+              "i": "Kontakt- och bokningsformulär",
+              "l": "Spamskyddat kontaktformulär plus en bokningslänk eller inbäddad kalender, så att besökare kan höra av sig eller boka en tid utan att mejla fram och tillbaka."
             },
             {
-              "i": "CRM-uppsättning (GoHighLevel)",
-              "l": "1 säljpipeline skapad med 5 steg (t.ex. Ny lead → Kontaktad → Offert skickad → Vunnen → Förlorad). 5 automationssekvenser (t.ex. mejlnotis vid ny lead, påminnelse om uppföljning, mötesbekräftelse, sms vid missat samtal, välkomstmejl). Import av kontakter från CSV om den levereras (max 500 kontakter)."
+              "i": "Teknisk SEO-uppsättning",
+              "l": "Metatitlar och beskrivningar, Open Graph-taggar, strukturerad data för ditt företag, XML-sitemap och robots.txt, inskickat till Google Search Console vid lansering."
             },
             {
               "i": "Analys och spårning",
-              "l": "Google Analytics 4 installerat och konfigurerat. 1 konverteringsmål uppsatt (t.ex. formulärinskick, klick på telefonnummer eller chattbotinteraktion). Google Search Console kopplad. Grundläggande händelsespårning på CTA-knappar."
+              "l": "Google Analytics 4 och Search Console kopplade, med konverteringshändelser på formulär och bokningar."
             },
             {
-              "i": "Designrevideringar",
-              "l": "2 revideringsrundor per sida. En ’runda’ = 1 samlad uppsättning feedback. Feedback ska lämnas inom 5 arbetsdagar efter varje granskning. Ingen delvis eller löpande feedback utspridd över flera mejl."
+              "i": "Designrevideringar (2 rundor)",
+              "l": "Två strukturerade revideringsrundor efter den första designpresentationen."
             },
             {
               "i": "Innehåll och text",
-              "l": "Kunden levererar allt skrivet innehåll (rubriker, brödtext, biografier, tjänstebeskrivningar). Vi sköter layout, formatering och placering. Behöver du copywriting kan det läggas till för 200 $/sida."
+              "l": "Du skickar anteckningar eller punktlistor, vi formar dem till färdig text för varje sida. Fullständig professionell copywriting finns som tillägg."
             }
           ],
           "ov": [
             "Extra sidor: 500 $/sida",
             "Extra revideringsrunda: 300 $",
-            "Copywriting: 200 $/sida",
-            "Extra frågor och svar (25+): 250 $/omgång",
-            "Extra automation: 350 $ styck"
+            "Copywriting: 200 $/sida"
           ],
           "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Projektet avslutas vid kundens godkännande ELLER efter 2 revideringsrundor. Efter godkännande: 175 $/tim.",
-          "bridge": "Inkluderar 30 dagars övervakning efter lansering (buggfixar, kontroll av chattbot, CRM-hälsa). Efter dag 30 går löpande underhåll, uppdateringar och AI-justering över till vår plan Underhåll och övervakning (1 500 $/mån) så att dina system förblir optimerade.",
+          "bridge": "Inkluderar 30 dagars övervakning efter lansering (buggfixar och mindre justeringar). Efter dag 30 fortsätter hosting och underhåll via Sajtvård (550 $/mån).",
           "ideal": "Startups, soloföretagare, lokala företag"
         },
         {
@@ -1220,116 +1197,105 @@
           "tl": "6 till 8 veckor",
           "scope": [
             {
-              "i": "Skräddarsydd webbplats (10 sidor + CMS)",
-              "l": "10 fullt designade, mobilanpassade sidor byggda i Next.js med integrerat CMS (blogg eller portfolio). Innehåller: Hem, Om oss, Tjänster (3 undersidor för tjänster), Blogg, Kontakt och 2 extra sidor. 3 skräddarsydda scroll- eller hover-animationer. On-page SEO för alla sidor (metatitlar, beskrivningar, alt-taggar, schema-markup). SSL, hosting på Vercel och inskick av sitemap till Google ingår."
+              "i": "Skräddarsydd webbplats (10 sidor + CMS), nybygge eller omdesign",
+              "l": "Tio helt skräddarsydda sidor byggda i Next.js med ett innehållshanteringssystem, så att ditt team kan redigera text, bilder och inlägg utan utvecklare. Fungerar för en ny sajt eller en omdesign. SEO-metadata på varje sida. SSL och hostinguppsättning på Vercel ingår."
             },
             {
-              "i": "Varumärkesidentitet (fullständig manual)",
-              "l": "3 inledande logotypkoncept presenterade som livsstilsmockups. 1 väljs för slutlig finputsning. Fullständig varumärkesmanual som PDF (10 sidor) med: regler för logotypanvändning, minsta storlekar, frizon, färgpalett (primär + sekundär, hex/RGB/CMYK), typografisystem (rubrik, underrubrik, brödtext med storlekar) och anteckningar om tonalitet. 5 varumärkesanpassade mallar för inlägg i sociala medier levererade i Canva eller Figma (redigerbara)."
+              "i": "Designsystem",
+              "l": "Komponenter, typografi och färg definieras en gång och återanvänds på varje sida, så att sidor som läggs till senare ser ut att höra hemma."
             },
             {
-              "i": "AI-chattbot",
-              "l": "1 AI-driven chattbot tränad på 50 fråga-svar-par. Inkluderar integration för mötesbokning (kopplad till din Google Kalender eller Calendly). Leadinsamling med automatisk registrering i CRM. Anpassad hälsning, reservsvar och meddelanden utanför kontorstid konfigurerade. Chattboten inbäddad på 3 sidor på webbplatsen."
+              "i": "Blogg eller nyhetssektion som du redigerar själv",
+              "l": "En CMS-driven sektion med kategorier, författare och datum, artikelschema och bilder för delning i sociala medier genererade per inlägg."
             },
             {
-              "i": "AI-röstagent",
-              "l": "1 inkommande AI-röstagent som svarar på samtal, kvalificerar leads och bokar möten. 1 skräddarsytt samtalsmanus skrivet och konfigurerat. 500 röstminuter inkluderade den första månaden. Samtalsinspelningar sparas i ditt CRM. Inkluderar grundläggande samtalsstyrning (vidarekoppling till dig om AI:n inte kan lösa ärendet)."
+              "i": "Lead- och bokningsformulär med aviseringar",
+              "l": "Flerstegsformulär eller enkla formulär, spamskydd, e-postaviseringar och en inbäddad bokningskalender, där varje inskick taggas med källa."
             },
             {
-              "i": "Automatisering av arbetsflöden (8 totalt)",
-              "l": "8 automationer byggda i GoHighLevel. Exempel: notis vid ny lead (mejl + sms), påminnelsesekvens inför möte (24 tim + 1 tim före), sms vid missat samtal, uppföljning efter möte, begäran om recension efter utfört arbete, återaktivering av övergivna formulär, födelsedags-/jubileumsmejl och triggers vid byte av pipelinesteg. Varje automation innehåller upp till 5 steg."
+              "i": "Teknisk och lokal SEO-uppsättning",
+              "l": "Allt i Startlanseringens tekniska uppsättning plus schema för lokala företag, avstämning mot Google Företagsprofil och platssidor där det är relevant."
             },
             {
-              "i": "Google Ads-uppsättning",
-              "l": "1 Google Search-kampanj med 3 annonsgrupper (riktade mot olika sökordsteman). Sökordsanalys och lista med negativa sökord ingår. 6 annonsvarianter skrivna (2 per annonsgrupp). 1 dedikerad landningssida designad, byggd och kopplad med konverteringsspårning. Google Ads-konverteringsspårning och Google Tag Manager konfigurerade. Annonsbudgeten faktureras separat och betalas av dig direkt till Google."
+              "i": "Prestandaoptimering",
+              "l": "Godkända Core Web Vitals på mobil och dator före lansering: bildoptimering, typsnittsladdning och skriptbudgetar, verifierat med Lighthouse."
             },
             {
-              "i": "Kunddashboard",
-              "l": "1 realtidsdashboard byggd i GHL eller Google Looker Studio. Upp till 6 widgets: webbplatstrafik, antal leads, pipelinevärde, konverteringsgrad, annonsresultat och chattbotinteraktioner. Dashboarden uppdateras automatiskt och nås via en delbar länk."
+              "i": "Analysdashboard",
+              "l": "Google Analytics 4 och Search Console kopplade samt en enkel månadsvy över trafik, leads och toppsidor."
             },
             {
-              "i": "Designrevideringar",
-              "l": "3 revideringsrundor per leverans (webbsidor, varumärkesmaterial, annonsmaterial och dashboard). En ’runda’ = 1 samlad uppsättning feedback lämnad inom 5 arbetsdagar."
+              "i": "Designrevideringar (3 rundor)",
+              "l": "Tre strukturerade revideringsrundor efter den första designpresentationen."
             },
             {
               "i": "Innehåll och text",
-              "l": "Vi skriver texten till din startsida och tjänstesida (totalt 1 500 ord). Allt övrigt sidinnehåll levereras av dig. Bloggens CMS levereras tomt så att du eller ditt team kan skapa inlägg, eller lägg till vårt innehållspaket."
+              "l": "Du skickar anteckningar eller punktlistor, vi formar dem till färdig text för varje sida. Fullständig professionell copywriting finns som tillägg."
             }
           ],
           "ov": [
             "Extra sidor: 500 $/sida",
             "Extra revidering: 300 $/runda",
-            "Extra annonskampanj: 1 500 $",
-            "Extra röstmanus: 750 $",
-            "Automationer (8+): 350 $ styck",
             "Extra landningssida: 900 $",
-            "Copywriting utöver det inkluderade: 200 $/sida"
+            "Copywriting utöver de inkluderade sidorna: 200 $/sida"
           ],
           "ho": "Betalning: 50 % deposition vid start, 50 % vid leverans (7 dagar netto). Projektet avslutas vid godkännande ELLER efter 3 revideringsrundor. Efter godkännande: 175 $/tim.",
-          "bridge": "Inkluderar 30 dagar efter lansering: annonshantering, AI-övervakning och buggfixar. Efter dag 30 behöver dina annonser, AI-agenter och automationer löpande optimering för att fortsätta leverera. Vi rekommenderar vår plan Tillväxtmotor (3 500 $/mån) för att hålla farten uppe.",
-          "ideal": "Växande företag som skalar med system"
+          "bridge": "Inkluderar 30 dagars övervakning och buggfixar efter lansering. Efter dag 30 levererar Sajttillväxt (1 600 $/mån) en ny sida eller sektion varje månad.",
+          "ideal": "Växande företag som publicerar och säljer"
         },
         {
-          "name": "Total dominans",
+          "name": "Premiumlansering",
           "price": 18000,
           "disp": "$18,000+",
-          "tag": "Enterprise-nivå",
+          "tag": "Komplett bygge",
           "tl": "8 till 12 veckor",
           "scope": [
             {
-              "i": "Premiumwebbplats (15 sidor + e-handel)",
-              "l": "15 fullt designade sidor byggda i Next.js med headless CMS (Sanity eller Contentful). 6 skräddarsydda animationer (parallaxscroll, hover-effekter, sidövergångar, mikrointeraktioner). Redo för e-handel: 20 produktlistningar med Shopify- eller Stripe-integration, varukorg och kassa. Inkluderar blogg, resurscenter eller fallstudiesektion. Fullständig on-page SEO, schema-markup, Open Graph-taggar, XML-sitemap och robots.txt. SSL, Vercel-hosting och CDN-optimering ingår."
+              "i": "Premiumwebbplats (15 sidor + e-handel), nybygge eller omdesign",
+              "l": "Femton eller fler helt skräddarsydda sidor byggda i Next.js med ett innehållshanteringssystem och en webbutik. Fungerar för en ny sajt eller en omdesign. SEO-metadata på varje sida. SSL och hostinguppsättning på Vercel ingår."
             },
             {
-              "i": "Komplett varumärkessystem",
-              "l": "5 inledande logotypkoncept med livsstilsmockups. 1 väljs för fullständig finputsning. Komplett varumärkesmanual (20 sidor): logotypanvändning, frizon, minsta storlekar, primära och sekundära färgpaletter, typografihierarki, stilguide för fotografi, ikonstil, riktlinjer för varumärkesröst och tonalitet. Kontorstryck: visitkort, brevpapper och mall för e-postsignatur. Mall för pitch deck (15 bilder, redigerbar i Google Slides eller Keynote). 10 varumärkesanpassade mallar för sociala medier (Canva eller Figma, redigerbara)."
+              "i": "Designsystem",
+              "l": "Komponenter, typografi och färg definieras en gång och dokumenteras, så att ditt team och vårt bygger nya sidor konsekvent."
             },
             {
-              "i": "AI-agentekosystem (3 agenter)",
-              "l": "3 sammankopplade AI-agenter som arbetar som ett system. Exempeluppsättning: Agent 1 fångar leads via chattbot och poängsätter dem (het/ljummen/kall). Agent 2 skickar personliga mejlsekvenser baserat på poäng. Agent 3 utlöser sms-uppföljningar för heta leads. 1 skräddarsytt beslutsträd som kartlägger hela leadresan. Alla agenter kopplade till ditt GHL-CRM med automatisk taggning av kontakter och förflyttning i pipelinen."
+              "i": "Betalningar och kassa",
+              "l": "Stripe- eller Shopify-kassa, produktsidor, varukorg, orderbekräftelser via e-post samt moms- och fraktregler uppsatta för din marknad."
             },
             {
-              "i": "Conversational AI-svit",
-              "l": "1 AI-chattbot tränad på 100 fråga-svar-par, inbäddad på hela sajten. Inkluderar mötesbokning, leadinsamling, hantering av vanliga frågor och meddelanden utanför kontorstid. 1 AI-röstagent med 2 skräddarsydda samtalsmanus (t.ex. inkommande försäljning + mötesbekräftelse). 1 000 röstminuter inkluderade den första månaden. Samtalsinspelningar sparas i CRM. 5 sms-automationssekvenser (t.ex. mötespåminnelser, uppföljning efter samtal, begäran om recension, återaktivering, kampanjutskick)."
+              "i": "Kundkonton eller kundportal",
+              "l": "Inloggning, orderhistorik eller projektfiler, nedladdningar och kontoinställningar, byggt efter vad dina kunder faktiskt behöver."
             },
             {
-              "i": "Automatisering av arbetsflöden (15 totalt)",
-              "l": "15 automationer över ditt CRM, betalsystem och kalender. Exempel: sekvenser för leadbearbetning, fakturapåminnelser, betalningsbekräftelse, onboardingflöden, begäran om recensioner, återvinningskampanjer, interna teamnotiser, automationer vid byte av pipelinesteg samt födelsedags- och milstolpemejl. Varje automation innehåller upp till 7 steg med villkorslogik."
+              "i": "Teknisk och lokal SEO-uppsättning",
+              "l": "Fullständig teknisk uppsättning plus schema för produkter och lokala företag, avstämning mot Google Företagsprofil och platssidor där det är relevant."
             },
             {
-              "i": "Google + Meta Ads (fullständig uppsättning)",
-              "l": "1 Google Search-kampanj med 5 annonsgrupper och 10 annonsvarianter. Fullständig sökordsanalys med listor över negativa sökord. 1 Meta-kampanj (Facebook/Instagram) med 3 annonsuppsättningar riktade mot olika målgrupper. Retargeting-pixel installerad på din webbplats för både Google och Meta. 2 dedikerade landningssidor designade, byggda och optimerade för konvertering. All konverteringsspårning konfigurerad via Google Tag Manager. Annonsmaterial designat (6 statiska bilder + 2 karusellannonser). Annonsbudgeten faktureras separat. Du betalar Google och Meta direkt."
+              "i": "Prestandaoptimering",
+              "l": "Godkända Core Web Vitals på mobil och dator före lansering, inklusive butiks- och portalsidorna."
             },
             {
-              "i": "AI-innehållssystem",
-              "l": "Komplett innehållspipeline konfigurerad: arbetsflöde från video till klipp (ladda upp långformatsvideo, AI genererar klipp för sociala medier), mall för AI-stödd generering av blogginlägg och uppsättning av schemaläggning för sociala medier i Buffer eller Later. Första månadens innehåll producerat och publicerat: 4 blogginlägg (upp till 1 000 ord vardera, SEO-optimerade) och 12 inlägg i sociala medier (grafik + bildtexter). Mall för innehållskalender levereras för fortsatt användning."
+              "i": "Analysdashboard",
+              "l": "Google Analytics 4 med e-handelshändelser, Search Console och en månadsvy över trafik, beställningar och mest sålda produkter."
             },
             {
-              "i": "Ledningsdashboard",
-              "l": "1 heltäckande dashboard i GHL eller Google Looker Studio. 10 widgets: webbplatstrafik, leadpipeline, konverteringsgrad, Google Ads-resultat (CPC, CTR, ROAS), Meta Ads-resultat, chattbotinteraktioner, samtalsvolym för röstagent, öppnings- och klickfrekvens för mejl, intäktsattribution och veckovisa trenddiagram. Automatiskt veckosammandrag mejlas till 3 mottagare."
-            },
-            {
-              "i": "Designrevideringar",
-              "l": "3 revideringsrundor per leverans för allt material. En ’runda’ = 1 samlad uppsättning feedback lämnad inom 5 arbetsdagar."
+              "i": "Designrevideringar (3 rundor)",
+              "l": "Tre strukturerade revideringsrundor efter den första designpresentationen."
             },
             {
               "i": "Textproduktion",
-              "l": "Fullständig professionell copywriting för 10 webbsidor (rubriker, brödtext, CTA:er, metabeskrivningar). Kunden levererar råmaterial, anteckningar eller punktlistor för övriga sidor. Annonstexter för alla Google- och Meta-kampanjer skrivs och ingår."
+              "l": "Fullständig professionell copywriting för varje sida ingår på den här nivån."
             }
           ],
           "ov": [
             "Extra sidor: 500 $",
             "Extra revidering: 350 $/runda",
-            "Extra AI-agent: 2 500 $",
-            "Extra annonskampanj: 1 500 $",
-            "Röstmanus: 750 $",
-            "Automationer (15+): 400 $ styck",
             "Produkter (20+): 75 $/produkt",
-            "Innehåll efter månad 1: kräver månadsavtal"
+            "Extra landningssida: 900 $"
           ],
           "ho": "Betalning: 50 % deposition vid start, 25 % vid halvtidsdelmål, 25 % vid leverans (7 dagar netto). Projektet avslutas vid godkännande ELLER efter 3 rundor. Efter godkännande: 175 $/tim.",
-          "bridge": "Inkluderar 45 dagar efter lansering: fullständig övervakning, annonshantering, AI-justering och buggfixar. Efter dag 45 behöver ditt AI-ekosystem, dina annonskampanjer och innehållssystem löpande hantering för att ge resultat. Vi rekommenderar Fullt partnerskap (7 500 $/mån) eller Tillväxtmotor (3 500 $/mån) beroende på dina behov.",
-          "ideal": "Etablerade företag som vill ha komplett AI-infrastruktur"
+          "bridge": "Inkluderar 45 dagars övervakning och buggfixar efter lansering. Efter dag 45 ger Sajtpartnerskap (3 800 $/mån) dig en dedikerad utvecklare och designer.",
+          "ideal": "Etablerade företag som behöver e-handel eller en kundportal"
         }
       ],
       "socialSetup": [
@@ -2689,7 +2655,7 @@
             "Brådskande ärende (samma dag): +125 $",
             "Uppdateringsarbete per timme: 165 $/tim"
           ],
-          "ex": "Inga nya sidor, inga omdesigner, inga A/B-tester, ingen SEO, inga annonser. Ingen marknadsföringsaktivitet. Se våra marknadsföringspaket för det.",
+          "ex": "Inga nya sidor, ingen omdesign, inga A/B-tester, inget SEO-arbete. Det ingår i Sajttillväxt och Sajtpartnerskap.",
           "ideal": "Lanserade sajter som behöver pålitligt underhåll och trygghet"
         },
         {
@@ -2735,7 +2701,7 @@
             "Extra ny sida: 850 $",
             "Video-/animationsarbete: offereras separat"
           ],
-          "ex": "Inga fullständiga omdesigner (offereras som projekt). Inga betalda annonser. Ingen textproduktion utöver mindre ändringar.",
+          "ex": "Ingen fullständig omdesign (offereras som projekt). Ingen textproduktion utöver mindre ändringar.",
           "ideal": "Team som vill att sajten ska bli bättre varje månad"
         },
         {
@@ -2780,7 +2746,7 @@
             "Extra inläggning av innehållssida: 45 $ styck utöver 10",
             "Brådskande driftsättning (samma dag): +25 %"
           ],
-          "ex": "Ingen hantering av betalda annonser (se marknadsföringspaketen). Ingen omdesign av varumärke (se varumärkespaketen). Inget mobilapparbete.",
+          "ex": "Ingen fullständig omdesign (offereras som projekt). Inget arbete med mobilappar.",
           "ideal": "Växande företag som ser Blok Blok som sitt webbteam"
         }
       ],
@@ -3224,8 +3190,8 @@
     },
     "v2_card_cta": "Få en skräddarsydd offert",
     "v2_options": "{count, plural, one {# alternativ} other {# alternativ}}",
-    "meta_title": "Tjänster och paket",
-    "meta_description": "Paket för skräddarsydd webbdesign och utveckling. Tydligt definierade leveranser, offererade utifrån din omfattning."
+    "meta_title": "Priser",
+    "meta_description": "Paket för webbdesign, omdesign och hosting. Tydligt definierade leveranser, offererade utifrån din omfattning."
   },
   "a11y": {
     "skip_to_main": "Hoppa till huvudinnehållet",

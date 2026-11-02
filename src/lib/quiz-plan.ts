@@ -86,7 +86,7 @@ const WORK: Record<string, string> = {
 function defaultWork(business: string): string[] {
   const b = business.toLowerCase();
   if (b.includes('commerce') || b.includes('retail') || b.includes('shop')) {
-    return ['shop', 'social_ads'];
+    return ['shop'];
   }
   if (b.includes('coach') || b.includes('fitness') || b.includes('wellness') || b.includes('beauty')) {
     return ['site', 'booking'];

@@ -494,7 +494,7 @@ Chase 整体上就是一个很好的人，对你非常有耐心。我们合作�
         heading: '案例研究',
         name: 'Coach Luki，柏林',
         result: '预约与付款直接通过网站完成',
-        body: '“他们从零开始打造了我的整个网站，现在客户直接在网站上预约和付款。以前我在私信和发票上浪费了无数小时。”Luke Satterly 在柏林的 Holmes Place 和 John Reed 带课训练。他的网站负责预约、Stripe 支付，以及针对“柏林私人教练”等搜索词的本地 SEO。',
+        body: '“这个网站最让我喜欢的一点是，它不是那种随便谁都能拼出来的模板。里面倾注了很多心思。”Luke Satterly 在柏林的 Holmes Place 和 John Reed 带课训练。他的网站负责预约、Stripe 支付，以及针对“柏林私人教练”等搜索词的本地 SEO。',
         linkLabel: '阅读完整案例研究',
       },
       faqHeading: '常见问题',

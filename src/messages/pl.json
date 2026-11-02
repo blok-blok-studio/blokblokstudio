@@ -29,13 +29,13 @@
     "meta_description": "Odpowiedzi na pytania o ceny, terminy, strony szyte na miarę i współpracę z Blok Blok Studio, berlińskim studiem projektowania stron obsługującym klientów na całym świecie.",
     "hero_eyebrow": "Najczęściej zadawane pytania",
     "hero_title": "Wszystko, o co chcesz zapytać",
-    "hero_subtitle": "Szczere odpowiedzi o tym, jak pracujemy, ile to kosztuje i co budujemy. Jeśli nie znajdziesz swojego pytania, umów bezpłatną 30-minutową rozmowę.",
+    "hero_subtitle": "Szczere odpowiedzi o tym, jak pracujemy, ile to kosztuje i co budujemy. Jeśli nie znajdziesz swojego pytania, umów bezpłatną 15-minutową rozmowę.",
     "category_pricing": "Ceny i inwestycja",
     "category_process": "Proces i terminy",
     "category_capabilities": "Usługi i możliwości",
     "category_trust": "Współpraca z Blok Blok Studio",
     "cta_heading": "Masz jeszcze pytania?",
-    "cta_subheading": "Umów bezpłatną 30-minutową rozmowę strategiczną. Bez sprzedażowej gadki, bez presji, tylko odpowiedzi.",
+    "cta_subheading": "Umów bezpłatną 15-minutową rozmowę. Bez sprzedażowej gadki, bez presji, tylko odpowiedzi.",
     "cta_button": "Umów bezpłatną rozmowę",
     "see_all_questions": "Zobacz wszystkie pytania",
     "filter_all": "Wszystko",
@@ -43,32 +43,17 @@
       {
         "category": "pricing",
         "question": "Ile kosztuje strona internetowa szyta na miarę?",
-        "answer": "Strony szyte na miarę w Blok Blok Studio zaczynają się od 2 000 $ za pojedynczy landing page, 6 500 $ za stronę z 5 podstronami, 12 000 $ za 10 podstron z CMS i 18 000 $ za 15 lub więcej podstron. Cena zależy od liczby podstron, autorskich animacji, integracji i potrzeb copywriterskich. Każdą stronę budujemy w Next.js, hostujemy na Vercel i optymalizujemy pod SEO od pierwszego dnia. Nigdy z szablonu."
+        "answer": "Pojedynczy landing page kosztuje 2 000 $, strona z 5 podstronami 6 500 $, 10 podstron z CMS 12 000 $, a 15 lub więcej podstron z e-commerce od 18 000 $. Te same pakiety obowiązują przy nowej stronie i przy przeprojektowaniu obecnej. Cena zależy od liczby podstron, autorskich animacji, integracji i potrzeb copywriterskich. Każdą stronę budujemy w Next.js, hostujemy na Vercel i optymalizujemy pod SEO od pierwszego dnia. Nigdy z szablonu."
       },
       {
         "category": "pricing",
-        "question": "Ile kosztuje zbudowanie chatbota AI?",
-        "answer": "Chatbot AI wytrenowany na ponad 100 parach pytanie-odpowiedź i osadzony na całej stronie wchodzi w skład naszego pakietu konwersacyjnego AI za 18 000 $, który obejmuje też agenta głosowego, automatyzacje SMS i pełny pipeline treści. Jako samodzielny dodatek do pakietu strony chatbot AI zaczyna się od 2 500 $. Wszystkie boty integrują się z Twoim CRM i zbierają leady 24/7."
-      },
-      {
-        "category": "pricing",
-        "question": "Ile miesięcznie kosztuje agent głosowy AI?",
-        "answer": "Wdrożenie agenta głosowego AI zaczyna się od jednorazowej opłaty 2 500 $, z 500 minutami rozmów w cenie pierwszego miesiąca. Kolejne minuty rozliczamy według standardowych stawek telekomunikacyjnych w ramach miesięcznego abonamentu. Agent odbiera połączenia, kwalifikuje leady, umawia spotkania i przekazuje pilne sprawy człowiekowi, a wszystko to naturalnym, konwersacyjnym językiem."
-      },
-      {
-        "category": "pricing",
-        "question": "Oferujecie abonamenty miesięczne czy tylko projekty?",
-        "answer": "Jedno i drugie. Projekty zaczynają się od 2 000 $ i rozliczamy je etapami. Abonamenty zaczynają się od 1 500 $ miesięcznie za utrzymanie strony, monitoring AI i opiekę nad CRM albo 3 500 $ miesięcznie za pełną obsługę wzrostu: prowadzenie reklam Google i Meta, produkcję treści wspieraną AI i 5 godzin prac developerskich co miesiąc. Abonamenty wymagają minimum 3 lub 6 miesięcy."
+        "question": "Oferujecie miesięczne plany hostingu i opieki czy tylko projekty?",
+        "answer": "Jedno i drugie. Projekty zaczynają się od 2 000 $ i rozliczamy je etapami. Po starcie plany hostingu i opieki zaczynają się od 550 $ miesięcznie za Opiekę nad stroną (monitoring, kopie zapasowe, aktualizacje bezpieczeństwa i drobne zmiany treści), 1 600 $ miesięcznie za Rozwój strony (co miesiąc nowa podstrona lub sekcja oraz testy A/B) i 3 800 $ miesięcznie za Partnerstwo web (dedykowany programista i projektant). Plany wymagają minimum 3 miesięcy."
       },
       {
         "category": "process",
         "question": "Ile trwa budowa strony szytej na miarę?",
-        "answer": "Pojedynczy landing page rusza zwykle w ciągu 2 do 3 tygodni. Strona z 5 podstronami zajmuje 4 do 6 tygodni. Strona z 10 podstronami, CMS i integracjami AI to 8 do 12 tygodni. Termin zależy od tego, jak szybko dostarczysz treści, materiały marki i akceptacje. Działamy szybko, większości agencji zajmuje to 2 do 3 razy dłużej."
-      },
-      {
-        "category": "process",
-        "question": "Ile trwa wdrożenie agenta AI?",
-        "answer": "Standardowy chatbot AI wytrenowany na Twoich obecnych FAQ jest gotowy w 7 do 10 dni roboczych. Agent głosowy z autorskim skryptem rozmowy to 10 do 14 dni. Pełny ekosystem wielu agentów z integracjami CRM, kalendarza i płatności zajmuje 4 do 8 tygodni, zależnie od złożoności. Zaczynamy od rozmowy wstępnej, potem płatny dokument zakresu, a następnie budowa."
+        "answer": "Pojedynczy landing page rusza zwykle w ciągu 2 do 3 tygodni. Strona z 5 podstronami zajmuje 4 do 6 tygodni, strona z 10 podstronami i CMS 6 do 8 tygodni, a 15 lub więcej podstron 8 do 12 tygodni. Przeprojektowania idą według tego samego harmonogramu. Termin zależy od tego, jak szybko dostarczysz treści, materiały marki i akceptacje."
       },
       {
         "category": "process",
@@ -77,33 +62,23 @@
       },
       {
         "category": "capabilities",
-        "question": "Czym różni się chatbot AI od agenta głosowego AI?",
-        "answer": "Chatbot AI działa tekstowo i mieszka na Twojej stronie lub w komunikatorach: odpowiada na FAQ, umawia spotkania i zbiera leady przez czat. Agent głosowy AI odbiera prawdziwe rozmowy telefoniczne i mówi naturalnym językiem. Agenci głosowi sprawdzają się najlepiej w sprzedaży przychodzącej, obsłudze po godzinach i potwierdzaniu wizyt. Wiele firm korzysta z obu, żeby mieć pełne pokrycie."
-      },
-      {
-        "category": "capabilities",
-        "question": "Czy Wasi agenci AI integrują się z HubSpot, Salesforce lub GoHighLevel?",
-        "answer": "Tak. Nasi agenci AI i automatyzacje integrują się natywnie z HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe i Calendly. Dla CRM-ów i narzędzi bez gotowej integracji budujemy własną integrację, bez pośrednika w postaci Zapiera i jego opłat. Twoje dane zostają w Twoich systemach; my tylko sprawiamy, że ze sobą rozmawiają."
-      },
-      {
-        "category": "capabilities",
-        "question": "Budujecie strony w Next.js, WordPressie czy Webflow?",
-        "answer": "Budujemy wyłącznie w Next.js z TypeScriptem, Tailwind CSS i Framer Motion. Strony hostujemy na Vercel, co daje czasy ładowania poniżej sekundy i globalną dystrybucję na brzegu sieci. Nie budujemy w WordPressie, Wix, Squarespace ani Webflow: te platformy nie zapewnią wydajności, autorskich animacji ani integracji AI, których potrzebują nasi klienci."
+        "question": "Budujecie w Next.js, WordPressie czy Webflow?",
+        "answer": "Domyślnie kodujemy ręcznie w Next.js z TypeScriptem i Tailwind CSS, z hostingiem na Vercel i czasami ładowania poniżej sekundy. Stąd bierze się szybkość, autorskie animacje i wyniki SEO. Jeśli Twoja sytuacja tego wymaga, na przykład zespół pracuje już na WordPressie albo strona marketingowa potrzebuje edytora Webflow, budujemy też tam."
       },
       {
         "category": "capabilities",
         "question": "Piszecie teksty na stronę, czy ja je dostarczam?",
-        "answer": "Oba warianty działają. Większość klientów przekazuje surowe notatki lub punkty, a my nadajemy im finalny kształt. Pełny profesjonalny copywriting jest w cenie pakietu za 18 000 $, a w każdym innym pakiecie dostępny jako dodatek za 200 $ za podstronę. Teksty reklam do kampanii Google i Meta zawsze piszemy sami, kiedy prowadzimy reklamy."
+        "answer": "Oba warianty działają. Większość klientów przekazuje surowe notatki lub punkty, a my nadajemy im finalny kształt. Pełny profesjonalny copywriting jest w cenie pakietu za 18 000 $, a w każdym innym pakiecie dostępny jako dodatek za 200 $ za podstronę."
       },
       {
         "category": "trust",
         "question": "Gdzie mieści się Blok Blok Studio i czy pracujecie międzynarodowo?",
-        "answer": "Nasze studio ma siedzibę w Berlinie, w Niemczech. Pracujemy z klientami w Stanach Zjednoczonych, Wielkiej Brytanii, Holandii, Francji, Hiszpanii i w całej UE. Komunikacja jest asynchroniczna przez Loom, e-mail i wiadomości, dopasowujemy się do każdej strefy czasowej. Faktury i umowy wystawiamy w USD lub EUR, zależnie od Twojej preferencji."
+        "answer": "Nasze studio ma siedzibę w Berlinie, w Niemczech, a członkowie zespołu pracują z Richmond, Los Angeles i Multanu. Nasi klienci są w Stanach Zjednoczonych, Niemczech i na Filipinach. Komunikacja jest asynchroniczna przez Loom, e-mail i wiadomości, więc każda strefa czasowa działa. Faktury i umowy wystawiamy w USD lub EUR."
       },
       {
         "category": "trust",
-        "question": "Czy kod strony i konfiguracje agentów AI należą do mnie?",
-        "answer": "Tak, w całości. Po zakończeniu projektu otrzymujesz pełną własność kodu, plików projektowych, promptów AI i konfiguracji automatyzacji. Strona jest wdrażana na Twoje własne konto Vercel i rozliczana na Ciebie. CRM, konta reklamowe i domeny od pierwszego dnia są zarejestrowane na Ciebie. Nigdy nie uzależniamy klientów od naszych systemów."
+        "question": "Czy kod mojej strony należy do mnie?",
+        "answer": "Tak, w całości. Po zakończeniu projektu otrzymujesz pełną własność kodu i plików projektowych. Strona jest wdrażana na Twoje własne konto Vercel i rozliczana na Ciebie, a domena od pierwszego dnia jest zarejestrowana na Ciebie. Nigdy nie uzależniamy klientów od naszych systemów."
       },
       {
         "category": "trust",
@@ -135,7 +110,7 @@
     "tab_all": "Wszystko",
     "tab_ai": "AI i automatyzacja",
     "tab_creative": "Kreacja i marketing",
-    "audit_badge": "Bezpłatnie, 30 minut",
+    "audit_badge": "Bezpłatnie, 15 minut",
     "audit_heading": "Nie wiesz, czego potrzebuje Twoja firma?",
     "audit_subheading": "Umów bezpłatną rozmowę strategiczną. Przejrzymy Twój biznes i pokażemy dokładnie, gdzie są największe możliwości.",
     "audit_button": "Umów bezpłatną rozmowę",
@@ -239,8 +214,8 @@
     "v2_quote_2_role": "Sportowiec Nike, Berlin",
     "v2_quote_3_role": "Sklep z kartami kolekcjonerskimi",
     "v2_quote_1_text": "50 000 $ przychodu brutto w pierwsze pięć miesięcy, ocena 5,0 z 52 opinii Google i średnia pozycja 5,2 w Google dla jego fraz.",
-    "v2_quote_2_text": "Blok Blok Studio całkowicie odmieniło moją obecność w sieci. Odważny design idealnie oddaje moją filozofię coachingu, a wyniki są niesamowite.",
-    "v2_quote_3_text": "Sklep internetowy, który dla nas zbudowali, jest niesamowity. Nasze dropy boosterów wyprzedają się w kilka godzin, a zaangażowanie społeczności przez stronę jest rewelacyjne.",
+    "v2_quote_2_text": "Komunikacja z nim jest naprawdę prosta. Potrzebujesz kogoś, kto szybko odpowiada, zna się na rzeczy i potrafi dopasować się do Twoich potrzeb. Naprawdę polecam Chase'a, czyli Blok Blok Studio.",
+    "v2_quote_3_text": "191 042 $ sprzedaży kart kolekcjonerskich w 1 790 zamówieniach w sklepie Shopify, który zbudowaliśmy. Dropy wyprzedawały się w kilka godzin.",
     "v2_quote_1_kind": "Wyniki",
     "v2_offer_title": "Strony internetowe, zbudowane i hostowane",
     "v2_offer_subtitle": "Autorska realizacja, nastawiona na konwersję, z hostingiem i opieką w cenie",
@@ -249,7 +224,7 @@
     "v2_result_grant_parkhurst": "Portfolio plus samoobsługowy portal klienta, działa od września 2026.",
     "v2_next_label": "Co dzieje się dalej",
     "v2_next_1_title": "Oddzwaniamy",
-    "v2_next_1_desc": "W ciągu jednego dnia roboczego. Dwadzieścia minut o tym, co strona ma zrobić dla firmy, nic więcej.",
+    "v2_next_1_desc": "W ciągu jednego dnia roboczego. Piętnaście minut o tym, co strona ma zrobić dla firmy, nic więcej.",
     "v2_next_2_title": "Zakres i jedna stała cena",
     "v2_next_2_desc": "Pisemny plan z podstronami, harmonogramem i jedną kwotą. Pięć podstron od {price}, bez rozliczania godzinowego.",
     "v2_next_3_title": "Od pierwszego spotkania do startu",
@@ -628,13 +603,13 @@
     "acceptance_title": "Akceptacja warunków",
     "acceptance_content": "Wchodząc na tę stronę i korzystając z niej, akceptujesz niniejszy Regulamin i zobowiązujesz się go przestrzegać. Jeśli nie zgadzasz się z tymi warunkami, nie korzystaj z naszej strony ani usług.",
     "services_title": "Usługi",
-    "services_content": "Blok Blok Studio świadczy usługi projektowania, programowania i marketingu cyfrowego. Szczegółowe warunki projektów, zakres prac i ceny określają indywidualne umowy i oferty.",
+    "services_content": "Blok Blok Studio świadczy usługi projektowania, programowania, przeprojektowywania i hostingu stron internetowych. Szczegółowe warunki projektów, zakres prac i ceny określają indywidualne umowy i oferty.",
     "user_responsibilities_title": "Obowiązki użytkownika",
     "user_responsibilities_content": "Zobowiązujesz się podawać prawdziwe informacje podczas korzystania z naszych formularzy i usług oraz korzystać z naszej strony i usług zgodnie z prawem i niniejszym Regulaminem.",
     "ip_title": "Własność intelektualna",
     "ip_content": "Wszystkie treści na tej stronie, w tym projekty, teksty, grafiki i kod, są własnością Blok Blok Studio, chyba że zaznaczono inaczej. Własność prac wykonanych dla klientów określają indywidualne umowy projektowe.",
     "liability_title": "Ograniczenie odpowiedzialności",
-    "liability_content": "Blok Blok Studio nie ponosi odpowiedzialności za szkody pośrednie, przypadkowe ani następcze wynikające z korzystania z naszej strony lub usług. Nasza łączna odpowiedzialność nie przekracza kwoty zapłaconej za daną usługę.",
+    "liability_content": "Blok Blok Studio nie ponosi odpowiedzialności za szkody pośrednie, przypadkowe ani następcze wynikające z korzystania z naszej strony lub usług. Nasza łączna odpowiedzialność nie przekracza kwoty zapłaconej za daną usługę. Ograniczenie to nie dotyczy odpowiedzialności za winę umyślną lub rażące niedbalstwo, za szkody na życiu, ciele lub zdrowiu ani przypadków, w których odpowiedzialności nie można ograniczyć na mocy obowiązującego prawa.",
     "governing_law_title": "Prawo właściwe",
     "governing_law_content": "Niniejsze warunki podlegają obowiązującym przepisom prawa i są zgodnie z nimi interpretowane. Wszelkie spory rozstrzygamy w drodze negocjacji w dobrej wierze, zanim podjęte zostaną formalne kroki prawne.",
     "changes_title": "Zmiany Regulaminu",
@@ -1094,7 +1069,7 @@
     "custom_quote": "Chcesz wycenę na miarę?",
     "hero_title_a": "Co dostajesz,",
     "hero_title_em": "czarno na białym.",
-    "hero_sub": "Strony, aplikacje, automatyzacje, reklamy, branding i prowadzenie social mediów, wszystko wsparte AI. Każde zlecenie wyceniamy indywidualnie pod Twój zakres, a rezultaty spisujemy, żeby obie strony wiedziały, co budujemy.",
+    "hero_sub": "Strony internetowe: budujemy, przeprojektowujemy i hostujemy. Każde zlecenie wyceniamy indywidualnie pod Twój zakres, a rezultaty spisujemy, żeby obie strony wiedziały, co budujemy.",
     "tabs": {
       "web": "Strony internetowe",
       "app": "Aplikacje",
@@ -1105,8 +1080,8 @@
       "branding": "Strategia marki"
     },
     "sections": {
-      "oneTime": "Projekty jednorazowe",
-      "webSupport": "Abonamenty miesięczne",
+      "oneTime": "Strony internetowe: nowa budowa lub przeprojektowanie",
+      "webSupport": "Hosting i plany opieki",
       "appBuild": "Realizacje jednorazowe",
       "appSupport": "Abonamenty miesięczne",
       "socialSetup": "Konfiguracja jednorazowa",
@@ -1136,23 +1111,27 @@
           "scope": [
             {
               "i": "Landing page na zamówienie (1 strona)",
-              "l": "W pełni autorski, responsywny serwis jednostronicowy zbudowany w Next.js. Sekcje przewijane: hero, o nas, usługi, opinie i formularz kontaktowy. Układ responsywny na komputer, tablet i telefon. Napisany meta tytuł i opis SEO. Certyfikat SSL i konfiguracja hostingu na Vercel w cenie."
+              "l": "Jedna w pełni autorska, responsywna strona zbudowana w Next.js: hero, oferta, dowody, kontakt. Układ responsywny na komputer, tablet i telefon. Napisany meta tytuł i opis SEO. Certyfikat SSL i konfiguracja hostingu na Vercel w cenie."
             },
             {
-              "i": "Identyfikacja marki (logo + kolory)",
-              "l": "2 wstępne koncepcje logo pokazane jako makiety. Wybierasz 1 do finalnego dopracowania. Rezultat: pliki logo w formatach PNG, SVG i PDF (wersja kolorowa, biała i czarna). 1 podstawowa paleta kolorów (5 kolorów z kodami hex) i 1 para fontów (nagłówek + tekst). Na tym poziomie bez pełnej księgi znaku."
+              "i": "Projekt dopasowany do Twojej marki",
+              "l": "Pracujemy na Twoim obecnym logo i kolorach albo wybieramy z Tobą paletę i parę krojów pisma, jeśli jeszcze ich nie masz. Bez szablonu; układ rysujemy pod Twoje treści."
+            },
+            {
+              "i": "Formularz kontaktowy z powiadomieniami e-mail",
+              "l": "Formularz zabezpieczony przed spamem, który trafia do Twojej skrzynki, z wiadomością potwierdzającą dla odwiedzającego."
             },
             {
               "i": "Analityka i śledzenie",
-              "l": "Zainstalowane i skonfigurowane Google Analytics 4. 1 cel konwersji (np. wysłanie formularza lub kliknięcie numeru telefonu). Podłączone Google Search Console. Podstawowe śledzenie zdarzeń na przyciskach CTA."
+              "l": "Podłączone Google Analytics 4 i Search Console, ze zdarzeniami konwersji na formularzu, dzięki czemu widzisz, co strona przynosi."
             },
             {
-              "i": "Poprawki projektu",
-              "l": "2 rundy poprawek. „Runda” = 1 zebrany komplet uwag. Uwagi należy przesłać w ciągu 5 dni roboczych od każdej prezentacji. Bez częściowych lub rozproszonych uwag w wielu mailach."
+              "i": "Poprawki projektu (2 rundy)",
+              "l": "Dwie uporządkowane rundy poprawek po pierwszej prezentacji projektu. Zmiany zbieramy w jedną listę na rundę, żeby nic nie umknęło."
             },
             {
               "i": "Treści i teksty",
-              "l": "Klient dostarcza wszystkie treści pisane (nagłówki, teksty, bio, opisy usług). My odpowiadamy za układ, formatowanie i rozmieszczenie. Copywriting można dokupić za 200 $/stronę."
+              "l": "Ty przesyłasz notatki lub punkty, my nadajemy im finalny kształt tekstów na stronę. Pełny profesjonalny copywriting dostępny jako dodatek."
             }
           ],
           "ov": [
@@ -1161,7 +1140,7 @@
             "Dodatkowa sekcja: 250 $"
           ],
           "ho": "Płatność: 50% zaliczki na start, 50% po zakończeniu (termin 7 dni). Projekt uznajemy za zakończony po akceptacji klienta LUB po 2 rundach poprawek. Prace po akceptacji: 175 $/h.",
-          "bridge": "W cenie 14 dni monitoringu po starcie (poprawki błędów i drobne korekty). Potrzebujesz więcej podstron lub funkcji? Przejdź na Pakiet startowy (6 500 $): pełny serwis z 5 podstronami, czatem AI i konfiguracją CRM.",
+          "bridge": "W cenie 14 dni monitoringu po starcie (poprawki błędów i drobne korekty). Potrzebujesz więcej podstron? Pakiet startowy obejmuje pięć.",
           "ideal": "Projekty poboczne, marki osobiste, proste landing page"
         },
         {
@@ -1172,43 +1151,41 @@
           "tl": "4 do 6 tygodni",
           "scope": [
             {
-              "i": "Strona na zamówienie (5 podstron)",
-              "l": "W pełni autorska, responsywna strona zbudowana w Next.js. Zawiera: Stronę główną, O nas, Usługi, Kontakt i 1 dodatkową podstronę do wyboru. Każda podstrona z układem responsywnym na komputer, tablet i telefon. Meta tytuły i opisy SEO napisane dla wszystkich 5 podstron. Certyfikat SSL i konfiguracja hostingu na Vercel w cenie."
+              "i": "Strona na zamówienie (5 podstron), nowa budowa lub przeprojektowanie",
+              "l": "W pełni autorska, responsywna strona zbudowana w Next.js: Strona główna, O nas, Usługi, Kontakt i jedna podstrona do wyboru. Sprawdza się przy zupełnie nowej stronie i przy przeprojektowaniu tej, którą masz. Meta tytuły i opisy SEO dla wszystkich pięciu podstron. Certyfikat SSL i konfiguracja hostingu na Vercel w cenie."
             },
             {
-              "i": "Identyfikacja marki (logo + kolory)",
-              "l": "2 wstępne koncepcje logo pokazane jako makiety. Wybierasz 1 do finalnego dopracowania. Rezultat: pliki logo w formatach PNG, SVG i PDF (wersja kolorowa, biała i czarna). 1 podstawowa paleta kolorów (5 kolorów z kodami hex) i 1 para fontów (nagłówek + tekst). Na tym poziomie bez pełnej księgi znaku."
+              "i": "Projekt dopasowany do Twojej marki",
+              "l": "Oparty na Twoim obecnym logo i kolorach albo na palecie i parze krojów pisma wybranych razem z Tobą. Każdą sekcję projektujemy pod Twoje treści, nie wrzucamy ich w gotowy motyw."
             },
             {
-              "i": "Widget czatu AI",
-              "l": "1 chatbot AI osadzony na Twojej stronie. Wytrenowany na 25 parach pytanie-odpowiedź, które dostarczasz (np. ceny, godziny, usługi). Zawiera formularz pozyskiwania leadów, który wysyła zapytania do Twojego CRM. Skonfigurowane podstawowe powitanie i odpowiedź awaryjna."
+              "i": "Formularze kontaktowe i rezerwacyjne",
+              "l": "Formularz kontaktowy zabezpieczony przed spamem plus link do rezerwacji lub osadzony kalendarz, żeby odwiedzający mogli się odezwać albo zarezerwować termin bez wymiany maili."
             },
             {
-              "i": "Konfiguracja CRM (GoHighLevel)",
-              "l": "1 lejek sprzedażowy z 5 etapami (np. Nowy lead → Kontakt → Oferta wysłana → Wygrany → Przegrany). 5 sekwencji automatyzacji (np. powiadomienie mailowe o nowym leadzie, przypomnienie o follow-upie, potwierdzenie spotkania, SMS po nieodebranym połączeniu, mail powitalny). Import kontaktów z CSV, jeśli dostarczysz (maks. 500 kontaktów)."
+              "i": "Konfiguracja technicznego SEO",
+              "l": "Meta tytuły i opisy, tagi Open Graph, dane strukturalne Twojej firmy, mapa XML i robots.txt, zgłoszone do Google Search Console przy starcie."
             },
             {
               "i": "Analityka i śledzenie",
-              "l": "Zainstalowane i skonfigurowane Google Analytics 4. 1 cel konwersji (np. wysłanie formularza, kliknięcie numeru telefonu lub interakcja z chatbotem). Podłączone Google Search Console. Podstawowe śledzenie zdarzeń na przyciskach CTA."
+              "l": "Podłączone Google Analytics 4 i Search Console, ze zdarzeniami konwersji na formularzach i rezerwacjach."
             },
             {
-              "i": "Poprawki projektu",
-              "l": "2 rundy poprawek na podstronę. „Runda” = 1 zebrany komplet uwag. Uwagi należy przesłać w ciągu 5 dni roboczych od każdej prezentacji. Bez częściowych lub rozproszonych uwag w wielu mailach."
+              "i": "Poprawki projektu (2 rundy)",
+              "l": "Dwie uporządkowane rundy poprawek po pierwszej prezentacji projektu."
             },
             {
               "i": "Treści i teksty",
-              "l": "Klient dostarcza wszystkie treści pisane (nagłówki, teksty, bio, opisy usług). My odpowiadamy za układ, formatowanie i rozmieszczenie. Copywriting można dokupić za 200 $/stronę."
+              "l": "Ty przesyłasz notatki lub punkty, my nadajemy im finalny kształt tekstów na każdą podstronę. Pełny profesjonalny copywriting dostępny jako dodatek."
             }
           ],
           "ov": [
             "Dodatkowe podstrony: 500 $/stronę",
             "Dodatkowa runda poprawek: 300 $",
-            "Copywriting: 200 $/stronę",
-            "Dodatkowe pytania i odpowiedzi (25+): 250 $/pakiet",
-            "Dodatkowa automatyzacja: 350 $ za sztukę"
+            "Copywriting: 200 $/stronę"
           ],
           "ho": "Płatność: 50% zaliczki na start, 50% po zakończeniu (termin 7 dni). Projekt uznajemy za zakończony po akceptacji klienta LUB po 2 rundach poprawek. Prace po akceptacji: 175 $/h.",
-          "bridge": "W cenie 30 dni monitoringu po starcie (poprawki błędów, kontrola chatbota, kondycja CRM). Po 30. dniu bieżące utrzymanie, aktualizacje i strojenie AI przechodzą do planu Utrzymanie i monitoring (1 500 $/mies.), żeby Twoje systemy działały optymalnie.",
+          "bridge": "W cenie 30 dni monitoringu po starcie (poprawki błędów i drobne korekty). Po 30. dniu hosting i utrzymanie przechodzą do planu Opieka nad stroną (550 $/mies.).",
           "ideal": "Startupy, jednoosobowe firmy, lokalne biznesy"
         },
         {
@@ -1220,116 +1197,105 @@
           "tl": "6 do 8 tygodni",
           "scope": [
             {
-              "i": "Strona na zamówienie (10 podstron + CMS)",
-              "l": "10 w pełni zaprojektowanych, responsywnych podstron w Next.js ze zintegrowanym CMS (blog lub portfolio). Zawiera: Stronę główną, O nas, Usługi (3 podstrony usług), Blog, Kontakt i 2 dodatkowe podstrony. 3 autorskie animacje przy przewijaniu lub najechaniu. SEO on-page dla wszystkich podstron (meta tytuły, opisy, tagi alt, dane strukturalne). SSL, hosting na Vercel i zgłoszenie mapy strony do Google w cenie."
+              "i": "Strona na zamówienie (10 podstron + CMS), nowa budowa lub przeprojektowanie",
+              "l": "Dziesięć w pełni autorskich podstron zbudowanych w Next.js z systemem zarządzania treścią, żeby Twój zespół mógł edytować teksty, zdjęcia i wpisy bez programisty. Sprawdza się przy nowej stronie i przy przeprojektowaniu. Metadane SEO na każdej podstronie. Certyfikat SSL i konfiguracja hostingu na Vercel w cenie."
             },
             {
-              "i": "Identyfikacja marki (pełna księga znaku)",
-              "l": "3 wstępne koncepcje logo pokazane na makietach lifestylowych. 1 wybrana do finalnego dopracowania. Pełna księga znaku w PDF (10 stron): zasady użycia logo, minimalne rozmiary, pole ochronne, paleta kolorów (podstawowa + uzupełniająca, hex/RGB/CMYK), system typografii (fonty nagłówków, podtytułów i tekstu z rozmiarami) oraz wskazówki dotyczące tonu komunikacji. 5 szablonów postów do social mediów w Canva lub Figma (edytowalne)."
+              "i": "System projektowy",
+              "l": "Komponenty, typografia i kolory zdefiniowane raz i używane na każdej podstronie, żeby podstrony dodane później wyglądały, jakby były tam od początku."
             },
             {
-              "i": "Chatbot AI",
-              "l": "1 chatbot AI wytrenowany na 50 parach pytanie-odpowiedź. Zawiera integrację rezerwacji spotkań (podłączoną do Twojego Google Calendar lub Calendly). Pozyskiwanie leadów z automatycznym wpisem do CRM. Skonfigurowane własne powitanie, odpowiedzi awaryjne i komunikaty poza godzinami pracy. Chatbot osadzony na 3 podstronach."
+              "i": "Blog lub sekcja aktualności do samodzielnej edycji",
+              "l": "Sekcja oparta na CMS z kategoriami, autorem i datą, danymi strukturalnymi artykułu i grafikami do udostępniania w social mediach generowanymi dla każdego wpisu."
             },
             {
-              "i": "Agent głosowy AI",
-              "l": "1 przychodzący agent głosowy AI, który odbiera połączenia, kwalifikuje leady i umawia spotkania. 1 autorski skrypt rozmowy napisany i skonfigurowany. 500 minut rozmów w cenie w pierwszym miesiącu. Nagrania rozmów zapisywane w Twoim CRM. Podstawowe przekierowanie połączeń (przełączenie do Ciebie, gdy AI nie da rady)."
+              "i": "Formularze leadowe i rezerwacyjne z powiadomieniami",
+              "l": "Formularze wieloetapowe lub proste, ochrona przed spamem, powiadomienia e-mail i osadzony kalendarz rezerwacji, a każde zgłoszenie oznaczone źródłem."
             },
             {
-              "i": "Automatyzacja procesów (8 łącznie)",
-              "l": "8 automatyzacji zbudowanych w GoHighLevel. Przykłady: powiadomienie o nowym leadzie (mail + SMS), sekwencja przypomnień o spotkaniu (24 h i 1 h przed), SMS po nieodebranym połączeniu, follow-up po spotkaniu, prośba o opinię po usłudze, ponowne zaangażowanie po porzuconym formularzu, mail urodzinowy/rocznicowy oraz wyzwalacze zmiany etapu w lejku. Każda automatyzacja do 5 kroków."
+              "i": "Konfiguracja technicznego i lokalnego SEO",
+              "l": "Wszystko z konfiguracji technicznej Pakietu startowego plus dane strukturalne firmy lokalnej, spójność z Profilem Firmy w Google i podstrony lokalizacji tam, gdzie mają sens."
             },
             {
-              "i": "Konfiguracja Google Ads",
-              "l": "1 kampania Google Search z 3 grupami reklam (różne tematy słów kluczowych). Research słów kluczowych i lista wykluczeń w cenie. 6 wariantów reklam (2 na grupę). 1 dedykowany landing page zaprojektowany, zbudowany i podłączony ze śledzeniem konwersji. Skonfigurowane śledzenie konwersji Google Ads i Google Tag Manager. Budżet reklamowy rozliczany osobno i płacony przez Ciebie bezpośrednio do Google."
+              "i": "Optymalizacja wydajności",
+              "l": "Zaliczone Core Web Vitals na telefonie i komputerze przed startem: optymalizacja obrazów, ładowanie fontów i budżety skryptów, zweryfikowane w Lighthouse."
             },
             {
-              "i": "Panel klienta",
-              "l": "1 panel w czasie rzeczywistym zbudowany w GHL lub Google Looker Studio. Do 6 widżetów: ruch na stronie, liczba leadów, wartość lejka, współczynnik konwersji, wyniki reklam i interakcje z chatbotem. Panel aktualizuje się automatycznie i jest dostępny pod linkiem do udostępnienia."
+              "i": "Panel analityczny",
+              "l": "Podłączone Google Analytics 4 i Search Console oraz prosty miesięczny widok ruchu, leadów i najczęściej odwiedzanych podstron."
             },
             {
-              "i": "Poprawki projektu",
-              "l": "3 rundy poprawek na każdy element (podstrony, materiały marki, kreacje reklamowe i panel). „Runda” = 1 zebrany komplet uwag przesłany w ciągu 5 dni roboczych."
+              "i": "Poprawki projektu (3 rundy)",
+              "l": "Trzy uporządkowane rundy poprawek po pierwszej prezentacji projektu."
             },
             {
               "i": "Treści i teksty",
-              "l": "Piszemy teksty na stronę główną i podstronę usług (łącznie 1 500 słów). Pozostałe treści dostarczasz Ty. CMS bloga oddajemy pusty, żeby Twój zespół mógł tworzyć wpisy, albo dokup nasz pakiet treści."
+              "l": "Ty przesyłasz notatki lub punkty, my nadajemy im finalny kształt tekstów na każdą podstronę. Pełny profesjonalny copywriting dostępny jako dodatek."
             }
           ],
           "ov": [
             "Dodatkowe podstrony: 500 $/stronę",
             "Dodatkowe poprawki: 300 $/rundę",
-            "Dodatkowa kampania reklamowa: 1 500 $",
-            "Dodatkowy skrypt głosowy: 750 $",
-            "Automatyzacje (8+): 350 $ za sztukę",
             "Dodatkowy landing page: 900 $",
-            "Copywriting ponad zakres: 200 $/stronę"
+            "Copywriting ponad podstrony w cenie: 200 $/stronę"
           ],
           "ho": "Płatność: 50% zaliczki na start, 50% po zakończeniu (termin 7 dni). Projekt uznajemy za zakończony po akceptacji LUB po 3 rundach poprawek. Prace po akceptacji: 175 $/h.",
-          "bridge": "W cenie 30 dni po starcie: prowadzenie reklam, monitoring AI i poprawki błędów. Po 30. dniu Twoje reklamy, agenci AI i automatyzacje wymagają stałej optymalizacji, żeby dalej działać. Polecamy plan Silnik wzrostu (3 500 $/mies.), żeby utrzymać tempo.",
-          "ideal": "Rozwijające się firmy skalujące się dzięki systemom"
+          "bridge": "W cenie 30 dni monitoringu i poprawek błędów po starcie. Po 30. dniu plan Rozwój strony (1 600 $/mies.) co miesiąc dostarcza nową podstronę lub sekcję.",
+          "ideal": "Rozwijające się firmy, które publikują i sprzedają"
         },
         {
-          "name": "Pełna dominacja",
+          "name": "Pakiet premium",
           "price": 18000,
           "disp": "od 18 000 $",
-          "tag": "Poziom enterprise",
+          "tag": "Pełna realizacja",
           "tl": "8 do 12 tygodni",
           "scope": [
             {
-              "i": "Strona premium (15 podstron + e-commerce)",
-              "l": "15 w pełni zaprojektowanych podstron w Next.js z headless CMS (Sanity lub Contentful). 6 autorskich animacji (parallax, efekty hover, przejścia stron, mikrointerakcje). Gotowość e-commerce: 20 produktów z integracją Shopify lub Stripe, koszyk i checkout. Blog, centrum zasobów lub sekcja case studies. Pełne SEO on-page, dane strukturalne, tagi Open Graph, mapa XML i robots.txt. SSL, hosting Vercel i optymalizacja CDN w cenie."
+              "i": "Strona premium (15 podstron + e-commerce), nowa budowa lub przeprojektowanie",
+              "l": "Piętnaście lub więcej w pełni autorskich podstron zbudowanych w Next.js z systemem zarządzania treścią i sklepem internetowym. Sprawdza się przy nowej stronie i przy przeprojektowaniu. Metadane SEO na każdej podstronie. Certyfikat SSL i konfiguracja hostingu na Vercel w cenie."
             },
             {
-              "i": "Kompletny system marki",
-              "l": "5 wstępnych koncepcji logo z makietami lifestylowymi. 1 wybrana do pełnego dopracowania. Kompletna księga znaku (20 stron): użycie logo, pole ochronne, minimalne rozmiary, podstawowa i uzupełniająca paleta kolorów, hierarchia typografii, styl fotografii, styl ikon, głos i ton marki. Projekt materiałów firmowych: wizytówka, papier firmowy i szablon stopki mailowej. Szablon prezentacji (15 slajdów, edytowalny w Google Slides lub Keynote). 10 szablonów do social mediów (Canva lub Figma, edytowalne)."
+              "i": "System projektowy",
+              "l": "Komponenty, typografia i kolory zdefiniowane raz i udokumentowane, żeby Twój zespół i nasz budowali nowe podstrony spójnie."
             },
             {
-              "i": "Ekosystem agentów AI (3 agenci)",
-              "l": "3 połączeni ze sobą agenci AI działający jako system. Przykładowa konfiguracja: Agent 1 zbiera leady przez chatbota i ocenia je (gorący/ciepły/zimny). Agent 2 wysyła spersonalizowane sekwencje mailowe na podstawie oceny. Agent 3 uruchamia follow-upy SMS dla gorących leadów. 1 autorskie drzewo decyzyjne mapujące całą ścieżkę leada. Wszyscy agenci podłączeni do Twojego CRM GHL z automatycznym tagowaniem kontaktów i przesuwaniem w lejku."
+              "i": "Płatności i checkout",
+              "l": "Checkout Stripe lub Shopify, strony produktów, koszyk, e-maile z potwierdzeniem zamówienia oraz zasady podatków i wysyłki skonfigurowane pod Twój rynek."
             },
             {
-              "i": "Pakiet konwersacyjnego AI",
-              "l": "1 chatbot AI wytrenowany na 100 parach pytanie-odpowiedź, osadzony na całej stronie. Rezerwacja spotkań, pozyskiwanie leadów, obsługa FAQ i komunikaty poza godzinami pracy. 1 agent głosowy AI z 2 autorskimi skryptami rozmów (np. sprzedaż przychodząca + potwierdzanie spotkań). 1 000 minut rozmów w cenie w pierwszym miesiącu. Nagrania rozmów zapisywane w CRM. 5 sekwencji automatyzacji SMS (np. przypomnienia o spotkaniu, follow-up po rozmowie, prośba o opinię, ponowne zaangażowanie, wysyłka promocyjna)."
+              "i": "Konta klientów lub portal klienta",
+              "l": "Logowanie, historia zamówień lub pliki projektu, pliki do pobrania i ustawienia konta, zbudowane pod to, czego Twoi klienci naprawdę potrzebują."
             },
             {
-              "i": "Automatyzacja procesów (15 łącznie)",
-              "l": "15 automatyzacji obejmujących CRM, system płatności i kalendarz. Przykłady: sekwencje nurturingu leadów, przypomnienia o fakturach, potwierdzenia płatności, procesy onboardingu, prośby o opinie, kampanie odzyskiwania klientów, powiadomienia dla zespołu, automatyzacje etapów lejka oraz maile urodzinowe i okolicznościowe. Każda automatyzacja do 7 kroków z logiką warunkową."
+              "i": "Konfiguracja technicznego i lokalnego SEO",
+              "l": "Pełna konfiguracja techniczna plus dane strukturalne produktów i firmy lokalnej, spójność z Profilem Firmy w Google i podstrony lokalizacji tam, gdzie mają sens."
             },
             {
-              "i": "Google + Meta Ads (pełna konfiguracja)",
-              "l": "1 kampania Google Search z 5 grupami reklam i 10 wariantami reklam. Pełny research słów kluczowych z listami wykluczeń. 1 kampania Meta (Facebook/Instagram) z 3 zestawami reklam na różne grupy odbiorców. Piksel retargetingowy Google i Meta zainstalowany na stronie. 2 dedykowane landing page zaprojektowane, zbudowane i zoptymalizowane pod konwersję. Całe śledzenie konwersji skonfigurowane przez Google Tag Manager. Zaprojektowane kreacje reklamowe (6 grafik statycznych + 2 karuzele). Budżet reklamowy rozliczany osobno. Płacisz bezpośrednio do Google i Meta."
+              "i": "Optymalizacja wydajności",
+              "l": "Zaliczone Core Web Vitals na telefonie i komputerze przed startem, łącznie z podstronami sklepu i portalu."
             },
             {
-              "i": "System treści AI",
-              "l": "Skonfigurowany pełny pipeline treści: proces wideo-na-klipy (wgrywasz długi materiał, AI generuje klipy do social mediów), szablon generowania wpisów blogowych z pomocą AI oraz planowanie publikacji w Buffer lub Later. Pierwszy miesiąc treści wyprodukowany i opublikowany: 4 wpisy blogowe (do 1 000 słów każdy, zoptymalizowane pod SEO) i 12 postów do social mediów (grafiki + opisy). Szablon kalendarza treści do dalszego użytku."
+              "i": "Panel analityczny",
+              "l": "Google Analytics 4 ze zdarzeniami e-commerce, Search Console i miesięczny widok ruchu, zamówień i najlepiej sprzedających się produktów."
             },
             {
-              "i": "Panel zarządczy",
-              "l": "1 kompleksowy panel w GHL lub Google Looker Studio. 10 widżetów: ruch na stronie, lejek leadów, współczynnik konwersji, wyniki Google Ads (CPC, CTR, ROAS), wyniki Meta Ads, interakcje z chatbotem, liczba rozmów agenta głosowego, otwarcia i kliknięcia maili, atrybucja przychodów i tygodniowe wykresy trendów. Automatyczny tygodniowy raport mailowy do 3 odbiorców."
-            },
-            {
-              "i": "Poprawki projektu",
-              "l": "3 rundy poprawek na każdy element we wszystkich materiałach. „Runda” = 1 zebrany komplet uwag przesłany w ciągu 5 dni roboczych."
+              "i": "Poprawki projektu (3 rundy)",
+              "l": "Trzy uporządkowane rundy poprawek po pierwszej prezentacji projektu."
             },
             {
               "i": "Pisanie tekstów",
-              "l": "Pełny profesjonalny copywriting dla 10 podstron (nagłówki, treść, CTA, meta opisy). Dla pozostałych podstron klient dostarcza surowy materiał, notatki lub punkty. Teksty reklam dla wszystkich kampanii Google i Meta napisane i wliczone."
+              "l": "Pełny profesjonalny copywriting każdej podstrony jest w cenie tego pakietu."
             }
           ],
           "ov": [
             "Dodatkowe podstrony: 500 $",
             "Dodatkowe poprawki: 350 $/rundę",
-            "Dodatkowy agent AI: 2 500 $",
-            "Dodatkowa kampania reklamowa: 1 500 $",
-            "Skrypt głosowy: 750 $",
-            "Automatyzacje (15+): 400 $ za sztukę",
             "Produkty (20+): 75 $/produkt",
-            "Treści po 1. miesiącu: wymagają abonamentu"
+            "Dodatkowy landing page: 900 $"
           ],
           "ho": "Płatność: 50% zaliczki na start, 25% w połowie projektu, 25% po zakończeniu (termin 7 dni). Projekt uznajemy za zakończony po akceptacji LUB po 3 rundach. Prace po akceptacji: 175 $/h.",
-          "bridge": "W cenie 45 dni po starcie: pełny monitoring, prowadzenie reklam, strojenie AI i poprawki błędów. Po 45. dniu Twój ekosystem AI, kampanie i systemy treści wymagają stałego prowadzenia, żeby przynosić wyniki. Polecamy Pełne partnerstwo (7 500 $/mies.) lub Silnik wzrostu (3 500 $/mies.), zależnie od potrzeb.",
-          "ideal": "Dojrzałe firmy, które chcą pełnej infrastruktury AI"
+          "bridge": "W cenie 45 dni monitoringu i poprawek błędów po starcie. Po 45. dniu plan Partnerstwo web (3 800 $/mies.) daje Ci dedykowanego programistę i projektanta.",
+          "ideal": "Dojrzałe firmy, które potrzebują e-commerce lub portalu klienta"
         }
       ],
       "socialSetup": [
@@ -2689,7 +2655,7 @@
             "Pilne zgłoszenie (tego samego dnia): +125 $",
             "Prace godzinowe: 165 $/h"
           ],
-          "ex": "Bez nowych podstron, przeprojektowań, testów A/B, SEO i reklam. Bez działań marketingowych. Te usługi znajdziesz w pakietach marketingowych.",
+          "ex": "Bez nowych podstron, bez przeprojektowania, bez testów A/B, bez prac SEO. To znajdziesz w pakietach Rozwój strony i Partnerstwo web.",
           "ideal": "Działające strony, które potrzebują niezawodnego utrzymania i spokoju"
         },
         {
@@ -2735,7 +2701,7 @@
             "Dodatkowa nowa podstrona: 850 $",
             "Wideo/animacje: wycena osobna"
           ],
-          "ex": "Bez pełnych przeprojektowań (wyceniane jako projekt). Bez płatnych reklam. Bez pisania treści ponad drobne zmiany.",
+          "ex": "Bez pełnego przeprojektowania (wyceniane jako projekt). Bez pisania treści poza drobnymi poprawkami.",
           "ideal": "Zespoły, które chcą, żeby strona rozwijała się z każdym miesiącem"
         },
         {
@@ -2780,7 +2746,7 @@
             "Dodatkowa podstrona treściowa: 45 $ za sztukę ponad 10",
             "Pilne wdrożenie (tego samego dnia): +25%"
           ],
-          "ex": "Bez prowadzenia płatnych reklam (zob. pakiety marketingowe). Bez przeprojektowania marki (zob. pakiety brandingowe). Bez prac nad aplikacjami mobilnymi.",
+          "ex": "Bez pełnego przeprojektowania (wyceniane jako projekt). Bez prac nad aplikacjami mobilnymi.",
           "ideal": "Skalujące się firmy traktujące Blok Blok jako swój zespół web"
         }
       ],
@@ -3224,8 +3190,8 @@
     },
     "v2_card_cta": "Poproś o indywidualną wycenę",
     "v2_options": "{count, plural, one {# opcja} few {# opcje} many {# opcji} other {# opcji}}",
-    "meta_title": "Usługi i pakiety",
-    "meta_description": "Pakiety projektowania i budowy stron szytych na miarę. Jasno określone rezultaty, wycena indywidualnie pod Twój zakres."
+    "meta_title": "Cennik",
+    "meta_description": "Pakiety projektowania, przeprojektowania i hostingu stron. Jasno określone rezultaty, wycena indywidualnie pod Twój zakres."
   },
   "a11y": {
     "skip_to_main": "Przejdź do treści głównej",

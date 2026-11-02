@@ -29,13 +29,13 @@
     "meta_description": "Jawaban tentang harga, jadwal, situs web kustom, dan bekerja dengan Blok Blok Studio, studio desain web berbasis Berlin yang melayani klien di seluruh dunia.",
     "hero_eyebrow": "Pertanyaan yang Sering Diajukan",
     "hero_title": "Semua yang ingin Anda tanyakan",
-    "hero_subtitle": "Jawaban jujur tentang cara kami bekerja, berapa tarif kami, dan apa yang kami bangun. Jika pertanyaan Anda belum terjawab, jadwalkan panggilan gratis 30 menit.",
+    "hero_subtitle": "Jawaban jujur tentang cara kami bekerja, berapa tarif kami, dan apa yang kami bangun. Jika pertanyaan Anda belum terjawab, jadwalkan panggilan gratis 15 menit.",
     "category_pricing": "Harga & Investasi",
     "category_process": "Proses & Jadwal",
     "category_capabilities": "Layanan & Kemampuan",
     "category_trust": "Bekerja dengan Blok Blok Studio",
     "cta_heading": "Masih ada pertanyaan?",
-    "cta_subheading": "Jadwalkan panggilan strategi gratis 30 menit. Tanpa jualan, tanpa tekanan, hanya jawaban.",
+    "cta_subheading": "Jadwalkan panggilan gratis 15 menit. Tanpa jualan, tanpa tekanan, hanya jawaban.",
     "cta_button": "Jadwalkan Panggilan Gratis Anda",
     "see_all_questions": "Lihat semua pertanyaan",
     "filter_all": "Semua",
@@ -43,32 +43,17 @@
       {
         "category": "pricing",
         "question": "Berapa biaya situs web kustom?",
-        "answer": "Situs web kustom di Blok Blok Studio mulai dari $2.000 untuk satu landing page, $6.500 untuk situs 5 halaman, $12.000 untuk 10 halaman dengan CMS, dan $18.000 untuk 15 halaman atau lebih. Harga bergantung pada jumlah halaman, animasi kustom, integrasi, dan kebutuhan copywriting. Setiap situs dibangun di Next.js, di-host di Vercel, dan dioptimalkan untuk SEO sejak hari pertama, bukan dari template."
+        "answer": "Satu landing page $2.000, situs 5 halaman $6.500, 10 halaman dengan CMS $12.000, dan 15 halaman atau lebih dengan e-commerce mulai dari $18.000. Tingkatan harga yang sama berlaku baik untuk situs baru maupun desain ulang situs Anda saat ini. Harga bergantung pada jumlah halaman, animasi kustom, integrasi, dan kebutuhan copywriting. Setiap situs dibangun di Next.js, di-host di Vercel, dan dioptimalkan untuk SEO sejak hari pertama, bukan dari template."
       },
       {
         "category": "pricing",
-        "question": "Berapa biaya membangun chatbot AI?",
-        "answer": "Chatbot AI yang dilatih dengan 100+ pasangan tanya-jawab dan disematkan di seluruh situs sudah termasuk dalam paket AI Percakapan kami senilai $18.000, yang juga mencakup voice agent, otomatisasi SMS, dan pipeline konten lengkap. Sebagai add-on terpisah untuk paket situs web mana pun, chatbot AI mulai dari $2.500. Semua bot terintegrasi dengan CRM Anda dan menangkap prospek 24/7."
-      },
-      {
-        "category": "pricing",
-        "question": "Berapa biaya AI voice agent per bulan?",
-        "answer": "Penyiapan AI voice agent kami mulai dari $2.500 sekali bayar, sudah termasuk 500 menit suara untuk bulan pertama. Menit selanjutnya ditagih dengan tarif telepon standar dan digabungkan ke retainer bulanan. Agen ini menjawab panggilan, mengkualifikasi prospek, menjadwalkan janji temu, dan meneruskan panggilan mendesak ke staf manusia, semuanya dalam bahasa percakapan yang alami."
-      },
-      {
-        "category": "pricing",
-        "question": "Apakah Anda menawarkan retainer bulanan atau hanya pekerjaan proyek?",
-        "answer": "Keduanya. Pekerjaan proyek mulai dari $2.000 dan ditagih per tahap pencapaian. Retainer mulai dari $1.500/bulan untuk pemeliharaan situs, pemantauan AI, dan perawatan CRM, atau $3.500/bulan untuk pertumbuhan layanan lengkap: manajemen iklan Google dan Meta, produksi konten berbantuan AI, dan 5 jam kerja pengembangan setiap bulan. Retainer membutuhkan komitmen minimal 3 atau 6 bulan."
+        "question": "Apakah Anda menawarkan paket hosting dan perawatan bulanan atau hanya pekerjaan proyek?",
+        "answer": "Keduanya. Pekerjaan proyek mulai dari $2.000 dan ditagih per tahap pencapaian. Setelah peluncuran, paket hosting dan perawatan mulai dari $550/bulan untuk Perawatan Situs (pemantauan, backup, pembaruan keamanan, dan pengeditan konten kecil), $1.600/bulan untuk Pertumbuhan Situs (satu halaman atau bagian baru serta A/B test setiap bulan), dan $3.800/bulan untuk Kemitraan Situs (developer dan desainer khusus). Paket memiliki komitmen minimal 3 bulan."
       },
       {
         "category": "process",
         "question": "Berapa lama waktu yang dibutuhkan untuk membangun situs web kustom?",
-        "answer": "Satu landing page biasanya tayang dalam 2 hingga 3 minggu. Situs 5 halaman membutuhkan 4 hingga 6 minggu. Situs 10 halaman dengan CMS dan integrasi AI membutuhkan 8 hingga 12 minggu. Jadwal bergantung pada seberapa cepat Anda menyediakan konten, materi merek, dan persetujuan. Kami bergerak cepat; kebanyakan agensi butuh 2 hingga 3 kali lebih lama."
-      },
-      {
-        "category": "process",
-        "question": "Berapa lama waktu yang dibutuhkan untuk menerapkan agen AI?",
-        "answer": "Chatbot AI standar yang dilatih dengan FAQ Anda yang sudah ada bisa aktif dalam 7 hingga 10 hari kerja. Voice agent dengan skrip panggilan kustom membutuhkan 10 hingga 14 hari. Ekosistem multi-agen lengkap dengan integrasi CRM, kalender, dan pembayaran membutuhkan 4 hingga 8 minggu tergantung kompleksitasnya. Kami memulai dengan panggilan eksplorasi, lalu dokumen lingkup kerja berbayar, baru kemudian membangun."
+        "answer": "Satu landing page biasanya tayang dalam 2 hingga 3 minggu. Situs 5 halaman membutuhkan 4 hingga 6 minggu, situs 10 halaman dengan CMS 6 hingga 8 minggu, dan 15 halaman atau lebih 8 hingga 12 minggu. Desain ulang mengikuti jadwal yang sama. Jadwal bergantung pada seberapa cepat Anda menyediakan konten, materi merek, dan persetujuan."
       },
       {
         "category": "process",
@@ -77,33 +62,23 @@
       },
       {
         "category": "capabilities",
-        "question": "Apa perbedaan antara chatbot AI dan voice agent AI?",
-        "answer": "Chatbot AI berbasis teks dan berada di situs web atau aplikasi pesan Anda; ia menjawab FAQ, menjadwalkan janji temu, dan menangkap prospek lewat obrolan. AI voice agent menjawab panggilan telepon sungguhan dalam bahasa lisan yang alami. Voice agent paling cocok untuk penjualan inbound, dukungan di luar jam kerja, dan konfirmasi janji temu. Banyak bisnis menjalankan keduanya agar cakupannya menyeluruh."
-      },
-      {
-        "category": "capabilities",
-        "question": "Bisakah agen AI Anda terintegrasi dengan HubSpot, Salesforce, atau GoHighLevel?",
-        "answer": "Ya. Agen AI dan otomatisasi kami terintegrasi secara native dengan HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, dan Calendly. Untuk CRM dan alat yang belum memiliki integrasi, kami membangun konektor kustom, tanpa biaya perantara Zapier. Data Anda tetap berada di sistem Anda; kami hanya menghubungkannya satu sama lain."
-      },
-      {
-        "category": "capabilities",
-        "question": "Apakah Anda membangun situs web di Next.js, WordPress, atau Webflow?",
-        "answer": "Kami membangun secara eksklusif di Next.js dengan TypeScript, Tailwind CSS, dan Framer Motion. Situs di-host di Vercel untuk waktu muat di bawah satu detik dan distribusi edge global. Kami tidak membangun di WordPress, Wix, Squarespace, atau Webflow; platform tersebut tidak mampu memberikan performa, animasi kustom, atau integrasi AI yang dibutuhkan klien kami."
+        "question": "Apakah Anda membangun di Next.js, WordPress, atau Webflow?",
+        "answer": "Secara default kami menulis kode secara manual di Next.js dengan TypeScript dan Tailwind CSS, di-host di Vercel untuk waktu muat di bawah satu detik. Dari situlah kecepatan, animasi kustom, dan hasil SEO berasal. Jika situasi Anda membutuhkannya, misalnya tim yang sudah menjalankan WordPress atau situs marketing yang memerlukan editor Webflow, kami juga membangun di sana."
       },
       {
         "category": "capabilities",
         "question": "Apakah Anda yang menulis naskah situs web, atau saya yang menyediakannya?",
-        "answer": "Keduanya bisa. Sebagian besar klien memberikan catatan mentah atau poin-poin, lalu kami membentuknya menjadi naskah final. Copywriting profesional lengkap sudah termasuk dalam paket $18.000 kami dan tersedia sebagai add-on $200/halaman di paket lainnya. Naskah iklan untuk kampanye Google dan Meta selalu kami tulis sendiri saat kami yang mengelola iklannya."
+        "answer": "Keduanya bisa. Sebagian besar klien memberikan catatan mentah atau poin-poin, lalu kami membentuknya menjadi naskah final. Copywriting profesional lengkap sudah termasuk dalam paket $18.000 dan tersedia sebagai add-on $200/halaman di paket lainnya."
       },
       {
         "category": "trust",
         "question": "Di mana Blok Blok Studio berada, dan apakah Anda bekerja secara internasional?",
-        "answer": "Studio kami berbasis di Berlin, Jerman. Kami bekerja dengan klien di Amerika Serikat, Inggris, Belanda, Prancis, Spanyol, dan di seluruh UE. Komunikasi berlangsung asinkron lewat Loom, email, dan pesan singkat; kami menyesuaikan diri dengan setiap zona waktu. Faktur dan kontrak tersedia dalam USD atau EUR sesuai preferensi Anda."
+        "answer": "Studio kami berbasis di Berlin, Jerman, dengan anggota tim di Richmond, Los Angeles, dan Multan. Klien kami berada di Amerika Serikat, Jerman, dan Filipina. Komunikasi berlangsung asinkron lewat Loom, email, dan pesan singkat, sehingga setiap zona waktu bisa diakomodasi. Faktur dan kontrak tersedia dalam USD atau EUR."
       },
       {
         "category": "trust",
-        "question": "Apakah saya memiliki kode situs web dan konfigurasi agen AI saya?",
-        "answer": "Ya, sepenuhnya. Saat proyek selesai, Anda menerima kepemilikan penuh atas kode, file desain, prompt AI, dan konfigurasi otomatisasi. Situs di-deploy ke akun Vercel Anda sendiri dengan tagihan atas nama Anda. CRM, akun iklan, dan domain tetap atas nama Anda sejak hari pertama. Kami tidak pernah mengunci klien ke dalam sistem kami."
+        "question": "Apakah saya memiliki kode situs web saya?",
+        "answer": "Ya, sepenuhnya. Saat proyek selesai, Anda menerima kepemilikan penuh atas kode dan file desain. Situs di-deploy ke akun Vercel Anda sendiri dengan tagihan atas nama Anda, dan domain tetap atas nama Anda sejak hari pertama. Kami tidak pernah mengunci klien ke dalam sistem kami."
       },
       {
         "category": "trust",
@@ -135,7 +110,7 @@
     "tab_all": "Semua",
     "tab_ai": "AI & Otomatisasi",
     "tab_creative": "Kreatif & Pemasaran",
-    "audit_badge": "Gratis, 30 menit",
+    "audit_badge": "Gratis, 15 menit",
     "audit_heading": "Tidak Yakin Apa yang Dibutuhkan Bisnis Anda?",
     "audit_subheading": "Jadwalkan panggilan strategi gratis. Kami akan meninjau bisnis Anda dan menunjukkan dengan tepat di mana peluang terbesar berada.",
     "audit_button": "Jadwalkan Panggilan Gratis Anda",
@@ -239,8 +214,8 @@
     "v2_quote_2_role": "Atlet Nike, Berlin",
     "v2_quote_3_role": "Toko kartu koleksi",
     "v2_quote_1_text": "Pendapatan kotor $50.000 dalam lima bulan pertama, rating 5,0 dari 52 ulasan Google, dan posisi rata-rata 5,2 di Google untuk kata kunci pencariannya.",
-    "v2_quote_2_text": "Blok Blok Studio mengubah kehadiran online saya sepenuhnya. Desainnya yang berani menangkap filosofi coaching saya dengan sempurna, dan hasilnya luar biasa.",
-    "v2_quote_3_text": "Toko e-commerce yang mereka bangun untuk kami luar biasa. Drop booster pack kami ludes dalam hitungan jam, dan keterlibatan komunitas lewat situs ini sangat mengesankan.",
+    "v2_quote_2_text": "Komunikasi dengannya benar-benar mudah. Anda butuh orang yang responsif, paham betul pekerjaannya, dan bisa menyesuaikan diri dengan kebutuhan Anda. Saya sangat merekomendasikan Chase, atau Blok Blok Studio.",
+    "v2_quote_3_text": "Penjualan kartu koleksi senilai $191.042 dari 1.790 pesanan di toko Shopify yang kami bangun. Setiap drop ludes dalam hitungan jam.",
     "v2_quote_1_kind": "Hasil",
     "v2_offer_title": "Situs web, dibangun dan di-host",
     "v2_offer_subtitle": "Dibangun kustom, berfokus pada konversi, sudah termasuk hosting dan perawatan",
@@ -249,7 +224,7 @@
     "v2_result_grant_parkhurst": "Portofolio plus portal klien mandiri, tayang sejak September 2026.",
     "v2_next_label": "Langkah selanjutnya",
     "v2_next_1_title": "Kami menghubungi Anda kembali",
-    "v2_next_1_desc": "Dalam satu hari kerja. Dua puluh menit membahas apa yang harus dilakukan situs untuk bisnis Anda, tidak lebih.",
+    "v2_next_1_desc": "Dalam satu hari kerja. Lima belas menit membahas apa yang harus dilakukan situs untuk bisnis Anda, tidak lebih.",
     "v2_next_2_title": "Lingkup kerja dan satu harga tetap",
     "v2_next_2_desc": "Rencana tertulis berisi halaman, jadwal, dan satu angka. Lima halaman mulai dari {price}, tanpa tagihan per jam.",
     "v2_next_3_title": "Dari kickoff sampai peluncuran",
@@ -628,13 +603,13 @@
     "acceptance_title": "Penerimaan Ketentuan",
     "acceptance_content": "Dengan mengakses dan menggunakan situs web ini, Anda menerima dan setuju untuk terikat oleh Ketentuan Layanan ini. Jika Anda tidak setuju dengan ketentuan ini, harap jangan menggunakan situs web atau layanan kami.",
     "services_title": "Layanan",
-    "services_content": "Blok Blok Studio menyediakan layanan desain digital, pengembangan, dan pemasaran. Ketentuan, hasil kerja, dan harga proyek secara spesifik diuraikan dalam kontrak dan proposal masing-masing proyek.",
+    "services_content": "Blok Blok Studio menyediakan layanan desain, pengembangan, desain ulang, dan hosting situs web. Ketentuan, hasil kerja, dan harga proyek secara spesifik diuraikan dalam kontrak dan proposal masing-masing proyek.",
     "user_responsibilities_title": "Tanggung Jawab Pengguna",
     "user_responsibilities_content": "Anda setuju untuk memberikan informasi akurat saat menggunakan formulir dan layanan kami, dan untuk menggunakan situs web dan layanan kami secara legal dan sesuai dengan ketentuan ini.",
     "ip_title": "Kekayaan Intelektual",
     "ip_content": "Semua konten di situs web ini, termasuk desain, teks, grafis, dan kode, dimiliki oleh Blok Blok Studio kecuali dinyatakan lain. Kepemilikan hasil kerja klien ditetapkan dalam kontrak masing-masing proyek.",
     "liability_title": "Pembatasan Tanggung Jawab",
-    "liability_content": "Blok Blok Studio tidak bertanggung jawab atas kerugian tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan situs web atau layanan kami. Total tanggung jawab kami tidak akan melebihi jumlah yang dibayarkan untuk layanan tertentu yang dipermasalahkan.",
+    "liability_content": "Blok Blok Studio tidak bertanggung jawab atas kerugian tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan situs web atau layanan kami. Total tanggung jawab kami tidak akan melebihi jumlah yang dibayarkan untuk layanan tertentu yang dipermasalahkan. Pembatasan ini tidak berlaku untuk tanggung jawab atas kesengajaan atau kelalaian berat, atas cedera terhadap jiwa, tubuh, atau kesehatan, atau apabila tanggung jawab tidak dapat dibatasi berdasarkan hukum yang berlaku.",
     "governing_law_title": "Hukum yang Berlaku",
     "governing_law_content": "Ketentuan-ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum yang berlaku. Setiap perselisihan akan diselesaikan melalui negosiasi itikad baik sebelum mengambil tindakan hukum formal.",
     "changes_title": "Perubahan Ketentuan",
@@ -1094,7 +1069,7 @@
     "custom_quote": "Ingin penawaran khusus?",
     "hero_title_a": "Apa yang Anda dapat,",
     "hero_title_em": "dijabarkan dengan jelas.",
-    "hero_sub": "Situs web berbasis AI, aplikasi, otomatisasi, iklan, branding, dan pengelolaan media sosial. Setiap kerja sama ditawar khusus sesuai lingkup Anda, dengan hasil kerja yang tertulis jelas sehingga kita sama-sama tahu apa yang sedang dibangun.",
+    "hero_sub": "Situs web yang dibangun, didesain ulang, dan di-host. Setiap kerja sama ditawar sesuai lingkup, dengan hasil kerja yang tertulis jelas sehingga kita sama-sama tahu apa yang sedang dibangun.",
     "tabs": {
       "web": "Pengembangan Web",
       "app": "Pengembangan Aplikasi",
@@ -1105,8 +1080,8 @@
       "branding": "Strategi Branding"
     },
     "sections": {
-      "oneTime": "Proyek Sekali Bayar",
-      "webSupport": "Retainer Bulanan",
+      "oneTime": "Situs web: bangun baru atau desain ulang",
+      "webSupport": "Paket hosting dan perawatan",
       "appBuild": "Pembangunan Sekali Bayar",
       "appSupport": "Retainer Bulanan",
       "socialSetup": "Pengaturan Sekali Bayar",
@@ -1136,23 +1111,27 @@
           "scope": [
             {
               "i": "Landing page kustom (1 halaman)",
-              "l": "Situs satu halaman yang didesain sepenuhnya kustom, responsif di perangkat mobile, dan dibangun dengan Next.js. Mencakup bagian-bagian berbasis scroll: hero, tentang kami, layanan, testimoni, dan formulir kontak. Tata letak responsif untuk desktop, tablet, dan ponsel. Judul meta dan deskripsi SEO ditulis. Sertifikat SSL dan pengaturan hosting di Vercel sudah termasuk."
+              "l": "Satu halaman yang sepenuhnya kustom dan responsif di perangkat mobile, dibangun di Next.js: hero, penawaran, bukti, kontak. Tata letak responsif untuk desktop, tablet, dan mobile. Meta title dan deskripsi SEO ditulis untuk Anda. Termasuk SSL dan pengaturan hosting di Vercel."
             },
             {
-              "i": "Identitas merek (logo + warna)",
-              "l": "2 konsep logo awal disajikan sebagai mockup. Anda memilih 1 untuk penyempurnaan akhir. Hasil akhir: file logo dalam format PNG, SVG, dan PDF (versi warna penuh, putih, dan hitam). 1 palet warna utama (5 warna dengan kode hex) dan 1 pasangan font (judul + isi). Dokumen panduan merek lengkap tidak termasuk di tingkat ini."
+              "i": "Desain yang disesuaikan dengan merek Anda",
+              "l": "Kami bekerja dari logo dan warna yang sudah Anda miliki, atau memilih palet dan pasangan font bersama Anda jika belum ada. Tanpa template; tata letaknya dirancang untuk konten Anda."
+            },
+            {
+              "i": "Formulir kontak dengan notifikasi email",
+              "l": "Formulir anti-spam yang masuk langsung ke kotak masuk Anda, dengan pesan konfirmasi untuk pengunjung."
             },
             {
               "i": "Analitik & pelacakan",
-              "l": "Google Analytics 4 dipasang dan dikonfigurasi. 1 sasaran konversi disiapkan (misalnya pengiriman formulir atau klik nomor telepon). Google Search Console terhubung. Pelacakan event dasar pada tombol CTA."
+              "l": "Google Analytics 4 dan Search Console terhubung, dengan event konversi pada formulir sehingga Anda bisa melihat apa yang dihasilkan halaman tersebut."
             },
             {
-              "i": "Revisi desain",
-              "l": "2 putaran revisi. Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan. Masukan harus dikirim dalam 5 hari kerja setelah setiap sesi review. Tidak menerima masukan parsial atau bertahap lewat banyak email."
+              "i": "Revisi desain (2 putaran)",
+              "l": "Dua putaran revisi terstruktur setelah presentasi desain pertama. Perubahan dikumpulkan dalam satu daftar per putaran agar tidak ada yang terlewat."
             },
             {
               "i": "Konten & naskah",
-              "l": "Klien menyediakan seluruh konten tertulis (judul, isi, biografi, deskripsi layanan). Kami menangani tata letak, pemformatan, dan penempatan. Jika Anda membutuhkan copywriting, bisa ditambahkan dengan biaya $200/halaman."
+              "l": "Anda mengirim catatan atau poin-poin, kami membentuknya menjadi naskah final untuk halaman tersebut. Copywriting profesional lengkap tersedia sebagai add-on."
             }
           ],
           "ov": [
@@ -1161,7 +1140,7 @@
             "Bagian tambahan: $250"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat klien menyetujui ATAU setelah 2 putaran revisi. Setelah persetujuan: $175/jam.",
-          "bridge": "Termasuk pemantauan 14 hari pasca peluncuran (perbaikan bug dan penyesuaian kecil). Butuh lebih banyak halaman atau fitur? Naik ke paket Peluncuran Starter ($6.500) untuk situs 5 halaman lengkap dengan AI chat dan pengaturan CRM.",
+          "bridge": "Termasuk pemantauan 14 hari pasca peluncuran (perbaikan bug dan penyesuaian kecil). Butuh lebih banyak halaman? Peluncuran Starter mencakup lima halaman.",
           "ideal": "Proyek sampingan, personal brand, landing page sederhana"
         },
         {
@@ -1172,43 +1151,41 @@
           "tl": "4 sampai 6 minggu",
           "scope": [
             {
-              "i": "Situs web kustom (5 halaman)",
-              "l": "Situs web yang didesain sepenuhnya kustom, responsif di perangkat mobile, dan dibangun dengan Next.js. Mencakup: Beranda, Tentang Kami, Layanan, Kontak, dan 1 halaman tambahan pilihan Anda. Setiap halaman memiliki tata letak responsif untuk desktop, tablet, dan ponsel. Judul meta dan deskripsi SEO ditulis untuk kelima halaman. Sertifikat SSL dan pengaturan hosting di Vercel sudah termasuk."
+              "i": "Situs web kustom (5 halaman), bangun baru atau desain ulang",
+              "l": "Situs web yang sepenuhnya kustom dan responsif di perangkat mobile, dibangun di Next.js: Beranda, Tentang, Layanan, Kontak, dan satu halaman pilihan Anda. Cocok untuk situs yang benar-benar baru maupun desain ulang situs yang sudah Anda miliki. Meta title dan deskripsi SEO untuk kelima halaman. Termasuk SSL dan pengaturan hosting di Vercel."
             },
             {
-              "i": "Identitas merek (logo + warna)",
-              "l": "2 konsep logo awal disajikan sebagai mockup. Anda memilih 1 untuk penyempurnaan akhir. Hasil akhir: file logo dalam format PNG, SVG, dan PDF (versi warna penuh, putih, dan hitam). 1 palet warna utama (5 warna dengan kode hex) dan 1 pasangan font (judul + isi). Dokumen panduan merek lengkap tidak termasuk di tingkat ini."
+              "i": "Desain yang disesuaikan dengan merek Anda",
+              "l": "Dibangun di atas logo dan warna yang sudah Anda miliki, atau palet dan pasangan font yang dipilih bersama Anda. Setiap bagian didesain untuk konten Anda, bukan dijejalkan ke dalam tema."
             },
             {
-              "i": "Widget AI chat",
-              "l": "1 chatbot berbasis AI yang disematkan di situs Anda. Dilatih dengan 25 pasangan tanya-jawab yang Anda sediakan (misalnya harga, jam operasional, layanan). Termasuk formulir penangkap prospek yang meneruskan pertanyaan ke CRM Anda. Pesan sambutan dasar dan respons cadangan dikonfigurasi."
+              "i": "Formulir kontak dan pemesanan",
+              "l": "Formulir kontak anti-spam plus tautan pemesanan atau kalender tersemat, sehingga pengunjung bisa menghubungi Anda atau memesan slot tanpa berbalas email."
             },
             {
-              "i": "Pengaturan CRM (GoHighLevel)",
-              "l": "1 pipeline penjualan dibuat dengan 5 tahap (misalnya Prospek Baru → Dihubungi → Proposal Terkirim → Deal → Gagal). 5 rangkaian otomatisasi (misalnya notifikasi email prospek baru, pengingat tindak lanjut, konfirmasi janji temu, balasan SMS untuk panggilan tak terjawab, email sambutan). Impor kontak dari CSV jika tersedia (maksimal 500 kontak)."
+              "i": "Pengaturan SEO teknis",
+              "l": "Meta title dan deskripsi, tag Open Graph, data terstruktur untuk bisnis Anda, sitemap XML dan robots.txt, dikirimkan ke Google Search Console saat peluncuran."
             },
             {
               "i": "Analitik & pelacakan",
-              "l": "Google Analytics 4 dipasang dan dikonfigurasi. 1 sasaran konversi disiapkan (misalnya pengiriman formulir, klik nomor telepon, atau interaksi chatbot). Google Search Console terhubung. Pelacakan event dasar pada tombol CTA."
+              "l": "Google Analytics 4 dan Search Console terhubung, dengan event konversi pada formulir dan pemesanan."
             },
             {
-              "i": "Revisi desain",
-              "l": "2 putaran revisi per halaman. Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan. Masukan harus dikirim dalam 5 hari kerja setelah setiap sesi review. Tidak menerima masukan parsial atau bertahap lewat banyak email."
+              "i": "Revisi desain (2 putaran)",
+              "l": "Dua putaran revisi terstruktur setelah presentasi desain pertama."
             },
             {
               "i": "Konten & naskah",
-              "l": "Klien menyediakan seluruh konten tertulis (judul, isi, biografi, deskripsi layanan). Kami menangani tata letak, pemformatan, dan penempatan. Jika Anda membutuhkan copywriting, bisa ditambahkan dengan biaya $200/halaman."
+              "l": "Anda mengirim catatan atau poin-poin, kami membentuknya menjadi naskah final untuk setiap halaman. Copywriting profesional lengkap tersedia sebagai add-on."
             }
           ],
           "ov": [
             "Halaman tambahan: $500/halaman",
             "Putaran revisi tambahan: $300",
-            "Copywriting: $200/halaman",
-            "Tanya-jawab tambahan (25+): $250/batch",
-            "Otomatisasi tambahan: $350 per item"
+            "Copywriting: $200/halaman"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat klien menyetujui ATAU setelah 2 putaran revisi. Setelah persetujuan: $175/jam.",
-          "bridge": "Termasuk pemantauan 30 hari pasca peluncuran (perbaikan bug, pengecekan chatbot, kesehatan CRM). Setelah hari ke-30, pemeliharaan, pembaruan, dan penyetelan AI berlanjut ke paket Rawat & Pantau ($1.500/bulan) agar sistem Anda tetap optimal.",
+          "bridge": "Termasuk pemantauan 30 hari pasca peluncuran (perbaikan bug dan penyesuaian kecil). Setelah hari ke-30, hosting dan pemeliharaan berlanjut di paket Perawatan Situs ($550/bulan).",
           "ideal": "Startup, solopreneur, bisnis lokal"
         },
         {
@@ -1220,116 +1197,105 @@
           "tl": "6 sampai 8 minggu",
           "scope": [
             {
-              "i": "Situs web kustom (10 halaman + CMS)",
-              "l": "10 halaman yang didesain penuh dan responsif di perangkat mobile, dibangun dengan Next.js beserta CMS terintegrasi (blog atau portofolio). Mencakup: Beranda, Tentang Kami, Layanan (3 sub-halaman layanan), Blog, Kontak, dan 2 halaman tambahan. 3 animasi scroll atau hover kustom. SEO on-page untuk semua halaman (judul meta, deskripsi, alt tag, schema markup). SSL, hosting di Vercel, dan pengiriman sitemap ke Google sudah termasuk."
+              "i": "Situs web kustom (10 halaman + CMS), bangun baru atau desain ulang",
+              "l": "Sepuluh halaman sepenuhnya kustom yang dibangun di Next.js dengan sistem manajemen konten, sehingga tim Anda bisa mengedit teks, gambar, dan postingan tanpa developer. Cocok untuk situs baru maupun desain ulang. Meta data SEO di setiap halaman. Termasuk SSL dan pengaturan hosting di Vercel."
             },
             {
-              "i": "Identitas merek (panduan lengkap)",
-              "l": "3 konsep logo awal disajikan sebagai mockup lifestyle. 1 dipilih untuk penyempurnaan akhir. PDF panduan merek lengkap (10 halaman) berisi: aturan penggunaan logo, ukuran minimum, ruang kosong, palet warna (primer + sekunder, hex/RGB/CMYK), sistem tipografi (font judul, subjudul, isi beserta ukurannya), dan catatan tone of voice. 5 template posting media sosial bermerek diserahkan dalam Canva atau Figma (dapat diedit)."
+              "i": "Sistem desain",
+              "l": "Komponen, tipografi, dan warna didefinisikan sekali lalu dipakai ulang di setiap halaman, sehingga halaman baru yang ditambahkan nanti tetap terlihat serasi."
             },
             {
-              "i": "Chatbot AI",
-              "l": "1 chatbot berbasis AI yang dilatih dengan 50 pasangan tanya-jawab. Termasuk integrasi penjadwalan janji temu (terhubung ke Google Calendar atau Calendly Anda). Penangkapan prospek dengan input otomatis ke CRM. Sapaan kustom, respons cadangan, dan pesan di luar jam kerja dikonfigurasi. Chatbot disematkan di 3 halaman situs."
+              "i": "Bagian blog atau berita yang bisa Anda edit",
+              "l": "Bagian berbasis CMS dengan kategori, penulis dan tanggal, skema artikel, serta gambar share media sosial yang dibuat untuk setiap postingan."
             },
             {
-              "i": "Agen suara AI",
-              "l": "1 agen suara AI untuk panggilan masuk yang menjawab telepon, mengkualifikasi prospek, dan menjadwalkan janji temu. 1 skrip panggilan kustom ditulis dan dikonfigurasi. 500 menit suara termasuk untuk bulan pertama. Rekaman panggilan tersimpan di CRM Anda. Termasuk perutean panggilan dasar (dialihkan ke Anda jika AI tidak bisa menyelesaikannya)."
+              "i": "Formulir lead dan pemesanan dengan notifikasi",
+              "l": "Formulir multi-langkah atau sederhana, proteksi spam, notifikasi email, dan kalender pemesanan tersemat, dengan setiap kiriman ditandai berdasarkan sumbernya."
             },
             {
-              "i": "Otomatisasi alur kerja (total 8)",
-              "l": "8 otomatisasi dibangun di GoHighLevel. Contoh: notifikasi prospek baru (email + SMS), rangkaian pengingat janji temu (24 jam + 1 jam sebelumnya), balasan SMS untuk panggilan tak terjawab, tindak lanjut pasca janji temu, permintaan ulasan setelah layanan, re-engagement formulir yang ditinggalkan, email ulang tahun/hari jadi, dan pemicu perubahan tahap pipeline. Setiap otomatisasi mencakup hingga 5 langkah."
+              "i": "Pengaturan SEO teknis dan lokal",
+              "l": "Semua yang ada di pengaturan teknis paket Starter plus skema bisnis lokal, penyelarasan Google Business Profile, dan halaman lokasi bila relevan."
             },
             {
-              "i": "Pengaturan Google Ads",
-              "l": "1 kampanye Google Search dengan 3 grup iklan (menargetkan tema kata kunci yang berbeda). Riset kata kunci dan daftar kata kunci negatif termasuk. 6 variasi iklan ditulis (2 per grup iklan). 1 landing page khusus didesain, dibangun, dan dihubungkan dengan pelacakan konversi. Pelacakan konversi Google Ads dan Google Tag Manager dikonfigurasi. Biaya iklan ditagih terpisah dan Anda bayarkan langsung ke Google."
+              "i": "Penyetelan performa",
+              "l": "Lolos Core Web Vitals di mobile dan desktop sebelum peluncuran: optimasi gambar, pemuatan font, dan batas skrip, diverifikasi dengan Lighthouse."
             },
             {
-              "i": "Dasbor klien",
-              "l": "1 dasbor real-time dibangun di GHL atau Google Looker Studio. Hingga 6 widget: trafik situs, jumlah prospek, nilai pipeline, tingkat konversi, performa iklan, dan interaksi chatbot. Dasbor diperbarui otomatis dan dapat diakses lewat tautan yang bisa dibagikan."
+              "i": "Dasbor analitik",
+              "l": "Google Analytics 4 dan Search Console terhubung, plus tampilan bulanan sederhana untuk trafik, lead, dan halaman teratas."
             },
             {
-              "i": "Revisi desain",
-              "l": "3 putaran revisi per hasil kerja (halaman situs, aset merek, materi iklan, dan dasbor). Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan dan dikirim dalam 5 hari kerja."
+              "i": "Revisi desain (3 putaran)",
+              "l": "Tiga putaran revisi terstruktur setelah presentasi desain pertama."
             },
             {
               "i": "Konten & naskah",
-              "l": "Kami menulis naskah untuk beranda dan halaman layanan Anda (total 1.500 kata). Konten halaman lainnya disediakan oleh Anda. CMS blog diserahkan dalam keadaan kosong agar Anda atau tim Anda bisa membuat artikel, atau tambahkan paket konten kami."
+              "l": "Anda mengirim catatan atau poin-poin, kami membentuknya menjadi naskah final untuk setiap halaman. Copywriting profesional lengkap tersedia sebagai add-on."
             }
           ],
           "ov": [
             "Halaman tambahan: $500/halaman",
             "Revisi tambahan: $300/putaran",
-            "Kampanye iklan tambahan: $1.500",
-            "Skrip suara tambahan: $750",
-            "Otomatisasi (8+): $350 per item",
             "Landing page tambahan: $900",
-            "Copywriting di luar paket: $200/halaman"
+            "Copywriting di luar halaman yang termasuk: $200/halaman"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 50% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 3 putaran revisi. Setelah persetujuan: $175/jam.",
-          "bridge": "Termasuk 30 hari pasca peluncuran: pengelolaan iklan, pemantauan AI, dan perbaikan bug. Setelah hari ke-30, iklan, agen AI, dan otomatisasi Anda butuh optimasi berkelanjutan agar performanya terjaga. Kami merekomendasikan paket Mesin Pertumbuhan ($3.500/bulan) untuk menjaga momentum.",
-          "ideal": "Bisnis berkembang yang ingin naik skala dengan sistem"
+          "bridge": "Termasuk pemantauan dan perbaikan bug 30 hari pasca peluncuran. Setelah hari ke-30, Pertumbuhan Situs ($1.600/bulan) terus merilis satu halaman atau bagian baru setiap bulan.",
+          "ideal": "Bisnis berkembang yang menerbitkan konten dan berjualan"
         },
         {
-          "name": "Dominasi Total",
+          "name": "Peluncuran Premium",
           "price": 18000,
           "disp": "$18.000+",
-          "tag": "Kelas enterprise",
+          "tag": "Pembangunan lengkap",
           "tl": "8 sampai 12 minggu",
           "scope": [
             {
-              "i": "Situs web premium (15 halaman + e-commerce)",
-              "l": "15 halaman yang didesain penuh, dibangun dengan Next.js dan headless CMS (Sanity atau Contentful). 6 animasi kustom (parallax scrolling, efek hover, transisi halaman, mikro-interaksi). Siap e-commerce: 20 listing produk dengan integrasi Shopify atau Stripe, keranjang belanja, dan checkout. Termasuk blog, pusat sumber daya, atau bagian studi kasus. SEO on-page lengkap, schema markup, tag Open Graph, sitemap XML, dan robots.txt. SSL, hosting Vercel, dan optimasi CDN sudah termasuk."
+              "i": "Situs web premium (15 halaman + e-commerce), bangun baru atau desain ulang",
+              "l": "Lima belas halaman atau lebih yang sepenuhnya kustom, dibangun di Next.js dengan sistem manajemen konten dan toko online. Cocok untuk situs baru maupun desain ulang. Meta data SEO di setiap halaman. Termasuk SSL dan pengaturan hosting di Vercel."
             },
             {
-              "i": "Sistem merek lengkap",
-              "l": "5 konsep logo awal dengan mockup lifestyle. 1 dipilih untuk penyempurnaan penuh. Dokumen panduan merek lengkap (20 halaman): penggunaan logo, ruang kosong, ukuran minimum, palet warna primer dan sekunder, hierarki tipografi, panduan gaya fotografi, gaya ikon, panduan suara dan nada merek. Desain alat tulis: kartu nama, kop surat, dan template tanda tangan email. Template pitch deck (15 slide, dapat diedit di Google Slides atau Keynote). 10 template media sosial bermerek (Canva atau Figma, dapat diedit)."
+              "i": "Sistem desain",
+              "l": "Komponen, tipografi, dan warna didefinisikan sekali dan didokumentasikan, sehingga tim Anda dan tim kami membangun halaman baru secara konsisten."
             },
             {
-              "i": "Ekosistem agen AI (3 agen)",
-              "l": "3 agen AI yang saling terhubung dan bekerja sebagai satu sistem. Contoh susunan: Agen 1 menangkap prospek lewat chatbot dan memberi skor (hot/warm/cold). Agen 2 mengirim rangkaian email personal berdasarkan skor. Agen 3 memicu tindak lanjut SMS untuk prospek hot. 1 pohon keputusan kustom yang memetakan seluruh perjalanan prospek. Semua agen terhubung ke CRM GHL Anda dengan penandaan kontak dan pergerakan pipeline otomatis."
+              "i": "Pembayaran dan checkout",
+              "l": "Checkout Stripe atau Shopify, halaman produk, keranjang, email konfirmasi pesanan, serta aturan pajak dan pengiriman yang diatur untuk pasar Anda."
             },
             {
-              "i": "Paket AI Percakapan",
-              "l": "1 chatbot AI yang dilatih dengan 100 pasangan tanya-jawab, disematkan di seluruh situs. Termasuk penjadwalan janji temu, penangkapan prospek, penanganan FAQ, dan pesan di luar jam kerja. 1 agen suara AI dengan 2 skrip panggilan kustom (misalnya penjualan inbound + konfirmasi janji temu). 1.000 menit suara termasuk untuk bulan pertama. Rekaman panggilan tersimpan di CRM. 5 rangkaian otomatisasi SMS (misalnya pengingat janji temu, tindak lanjut pasca panggilan, permintaan ulasan, re-engagement, blast promosi)."
+              "i": "Akun pelanggan atau portal klien",
+              "l": "Login, riwayat pesanan atau file proyek, unduhan, dan pengaturan akun, dibangun sesuai yang benar-benar dibutuhkan pelanggan Anda."
             },
             {
-              "i": "Otomatisasi alur kerja (total 15)",
-              "l": "15 otomatisasi di seluruh CRM, sistem pembayaran, dan kalender Anda. Contoh: rangkaian nurturing prospek, pengingat tagihan, konfirmasi pembayaran, alur onboarding, permintaan ulasan, kampanye win-back, notifikasi tim internal, otomatisasi tahap pipeline, dan email ulang tahun/pencapaian. Setiap otomatisasi mencakup hingga 7 langkah dengan logika kondisional."
+              "i": "Pengaturan SEO teknis dan lokal",
+              "l": "Pengaturan teknis lengkap plus skema produk dan bisnis lokal, penyelarasan Google Business Profile, dan halaman lokasi bila relevan."
             },
             {
-              "i": "Google + Meta Ads (pengaturan lengkap)",
-              "l": "1 kampanye Google Search dengan 5 grup iklan dan 10 variasi iklan. Riset kata kunci lengkap dengan daftar kata kunci negatif. 1 kampanye Meta (Facebook/Instagram) dengan 3 set iklan yang menargetkan audiens berbeda. Piksel retargeting dipasang di situs Anda untuk Google dan Meta. 2 landing page khusus didesain, dibangun, dan dioptimalkan untuk konversi. Semua pelacakan konversi dikonfigurasi melalui Google Tag Manager. Materi iklan didesain (6 gambar statis + 2 iklan carousel). Biaya iklan ditagih terpisah. Anda membayar langsung ke Google dan Meta."
+              "i": "Penyetelan performa",
+              "l": "Lolos Core Web Vitals di mobile dan desktop sebelum peluncuran, termasuk halaman toko dan portal."
             },
             {
-              "i": "Sistem konten AI",
-              "l": "Pipeline konten lengkap dikonfigurasi: alur video-ke-klip (unggah video panjang, AI menghasilkan klip sosial), template pembuatan artikel blog dengan bantuan AI, dan pengaturan penjadwalan media sosial di Buffer atau Later. Konten bulan pertama diproduksi dan dipublikasikan: 4 artikel blog (hingga 1.000 kata masing-masing, dioptimalkan untuk SEO) dan 12 posting media sosial (grafis + caption). Template kalender konten disediakan untuk penggunaan berkelanjutan."
+              "i": "Dasbor analitik",
+              "l": "Google Analytics 4 dengan event e-commerce, Search Console, dan tampilan bulanan untuk trafik, pesanan, dan produk teratas."
             },
             {
-              "i": "Dasbor eksekutif",
-              "l": "1 dasbor komprehensif di GHL atau Google Looker Studio. 10 widget: trafik situs, pipeline prospek, tingkat konversi, performa Google Ads (CPC, CTR, ROAS), performa Meta Ads, interaksi chatbot, volume panggilan agen suara, tingkat buka/klik email, atribusi pendapatan, dan grafik tren mingguan. Email ringkasan mingguan otomatis dikirim ke 3 penerima."
-            },
-            {
-              "i": "Revisi desain",
-              "l": "3 putaran revisi per hasil kerja untuk semua aset. Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan dan dikirim dalam 5 hari kerja."
+              "i": "Revisi desain (3 putaran)",
+              "l": "Tiga putaran revisi terstruktur setelah presentasi desain pertama."
             },
             {
               "i": "Penulisan naskah (copywriting)",
-              "l": "Copywriting profesional lengkap untuk 10 halaman situs (judul, isi, CTA, deskripsi meta). Klien menyediakan bahan mentah, catatan, atau poin-poin untuk halaman lainnya. Naskah iklan untuk semua kampanye Google dan Meta ditulis dan sudah termasuk."
+              "l": "Copywriting profesional lengkap untuk setiap halaman sudah termasuk di paket ini."
             }
           ],
           "ov": [
             "Halaman tambahan: $500",
             "Revisi tambahan: $350/putaran",
-            "Agen AI tambahan: $2.500",
-            "Kampanye iklan tambahan: $1.500",
-            "Skrip suara: $750",
-            "Otomatisasi (15+): $400 per item",
             "Produk (20+): $75/produk",
-            "Konten setelah bulan ke-1: memerlukan retainer"
+            "Landing page tambahan: $900"
           ],
           "ho": "Pembayaran: uang muka 50% untuk memulai, 25% di titik tengah proyek, 25% sisanya saat selesai (jatuh tempo 7 hari). Selesai saat disetujui ATAU setelah 3 putaran. Setelah persetujuan: $175/jam.",
-          "bridge": "Termasuk 45 hari pasca peluncuran: pemantauan penuh, pengelolaan iklan, penyetelan AI, dan perbaikan bug. Setelah hari ke-45, ekosistem AI, kampanye iklan, dan sistem konten Anda butuh pengelolaan berkelanjutan agar terus memberi hasil. Kami merekomendasikan paket Kemitraan Penuh ($7.500/bulan) atau Mesin Pertumbuhan ($3.500/bulan) sesuai kebutuhan Anda.",
-          "ideal": "Bisnis mapan yang menginginkan infrastruktur AI lengkap"
+          "bridge": "Termasuk pemantauan dan perbaikan bug 45 hari pasca peluncuran. Setelah hari ke-45, Kemitraan Situs ($3.800/bulan) memberi Anda developer dan desainer khusus.",
+          "ideal": "Bisnis mapan yang membutuhkan e-commerce atau portal klien"
         }
       ],
       "socialSetup": [
@@ -2689,7 +2655,7 @@
             "Permintaan kilat (hari yang sama): +$125",
             "Pekerjaan pembaruan per jam: $165/jam"
           ],
-          "ex": "Tanpa halaman baru, tanpa desain ulang, tanpa uji A/B, tanpa SEO, tanpa iklan. Tanpa aktivitas pemasaran. Lihat paket pemasaran kami untuk itu.",
+          "ex": "Tidak termasuk halaman baru, desain ulang, uji A/B, atau pekerjaan SEO. Semua itu ada di Pertumbuhan Situs dan Kemitraan Situs.",
           "ideal": "Situs yang sudah rilis dan butuh perawatan andal serta ketenangan pikiran"
         },
         {
@@ -2735,7 +2701,7 @@
             "Halaman baru tambahan: $850",
             "Pekerjaan video/animasi: ditawar terpisah"
           ],
-          "ex": "Tanpa desain ulang penuh (ditangani sebagai proyek). Tanpa iklan berbayar. Tanpa penulisan konten di luar edit kecil.",
+          "ex": "Tidak termasuk desain ulang menyeluruh (dihitung sebagai proyek). Tidak termasuk penulisan konten di luar perubahan kecil.",
           "ideal": "Tim yang ingin situsnya terus membaik setiap bulan"
         },
         {
@@ -2780,7 +2746,7 @@
             "Pemuatan halaman konten tambahan: $45 per halaman di atas 10",
             "Deploy kilat (hari yang sama): +25%"
           ],
-          "ex": "Tanpa pengelolaan iklan berbayar (lihat paket pemasaran). Tanpa desain ulang merek (lihat paket branding). Tanpa pekerjaan aplikasi mobile.",
+          "ex": "Tidak termasuk desain ulang menyeluruh (dihitung sebagai proyek). Tidak termasuk pekerjaan aplikasi seluler.",
           "ideal": "Bisnis yang sedang berkembang dan menjadikan Blok Blok sebagai tim web mereka"
         }
       ],
@@ -3224,8 +3190,8 @@
     },
     "v2_card_cta": "Minta penawaran kustom",
     "v2_options": "{count, plural, one {# opsi} other {# opsi}}",
-    "meta_title": "Layanan & Paket",
-    "meta_description": "Paket desain dan pengembangan situs web kustom. Hasil kerja yang terdefinisi jelas, dengan penawaran harga sesuai lingkup Anda."
+    "meta_title": "Harga",
+    "meta_description": "Paket desain, desain ulang, dan hosting situs web. Hasil kerja yang terdefinisi jelas, dengan penawaran harga sesuai lingkup Anda."
   },
   "a11y": {
     "skip_to_main": "Lompat ke konten utama",

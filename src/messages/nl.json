@@ -29,13 +29,13 @@
     "meta_description": "Antwoorden over prijzen, doorlooptijden, maatwerkwebsites en samenwerken met Blok Blok Studio, een webdesignstudio in Berlijn met klanten wereldwijd.",
     "hero_eyebrow": "Veelgestelde vragen",
     "hero_title": "Alles wat je wilde vragen",
-    "hero_subtitle": "Eerlijke antwoorden over hoe we werken, wat we rekenen en wat we bouwen. Staat je vraag er niet bij, plan dan een gratis gesprek van 30 minuten.",
+    "hero_subtitle": "Eerlijke antwoorden over hoe we werken, wat we rekenen en wat we bouwen. Staat je vraag er niet bij, plan dan een gratis gesprek van 15 minuten.",
     "category_pricing": "Prijzen en investering",
     "category_process": "Proces en planning",
     "category_capabilities": "Diensten en mogelijkheden",
     "category_trust": "Samenwerken met Blok Blok Studio",
     "cta_heading": "Nog vragen?",
-    "cta_subheading": "Plan een gratis strategiegesprek van 30 minuten. Geen pitch, geen druk, alleen antwoorden.",
+    "cta_subheading": "Plan een gratis gesprek van 15 minuten. Geen pitch, geen druk, alleen antwoorden.",
     "cta_button": "Plan je gratis gesprek",
     "see_all_questions": "Bekijk alle vragen",
     "filter_all": "Alles",
@@ -43,32 +43,17 @@
       {
         "category": "pricing",
         "question": "Wat kost een website op maat?",
-        "answer": "Maatwerkwebsites bij Blok Blok Studio beginnen bij $2.000 voor één landingspagina, $6.500 voor een site van 5 pagina's, $12.000 voor 10 pagina's met CMS en $18.000 voor 15 of meer pagina's. De prijs hangt af van het aantal pagina's, animaties op maat, integraties en de behoefte aan copywriting. Elke site wordt gebouwd in Next.js, gehost op Vercel en vanaf dag één SEO-geoptimaliseerd, nooit templates."
+        "answer": "Eén landingspagina kost $2.000, een site van 5 pagina's $6.500, 10 pagina's met CMS $12.000 en 15 of meer pagina's met e-commerce vanaf $18.000. Dezelfde pakketten gelden voor een nieuwe site en voor een herontwerp van je huidige. De prijs hangt af van het aantal pagina's, animaties op maat, integraties en de behoefte aan copywriting. Elke site wordt gebouwd in Next.js, gehost op Vercel en vanaf dag één SEO-geoptimaliseerd, nooit templates."
       },
       {
         "category": "pricing",
-        "question": "Wat kost het bouwen van een AI-chatbot?",
-        "answer": "Een AI-chatbot getraind op 100+ vraag-antwoordparen en op de hele site ingebouwd zit in onze Conversationele AI-suite van $18.000, die ook een voice-agent, sms-automatiseringen en een complete contentpipeline omvat. Als losse uitbreiding op een websitepakket begint een AI-chatbot bij $2.500. Alle bots integreren met je CRM en vangen 24/7 leads op."
-      },
-      {
-        "category": "pricing",
-        "question": "Wat kost een AI-voice-agent per maand?",
-        "answer": "De setup van onze AI-voice-agent begint bij $2.500 eenmalig, met 500 belminuten inbegrepen voor de eerste maand. Daarna worden minuten gefactureerd tegen standaard telefonietarieven en opgenomen in een maandelijkse retainer. De agent beantwoordt gesprekken, kwalificeert leads, boekt afspraken en stuurt urgente gesprekken door naar een mens, allemaal in natuurlijke spreektaal."
-      },
-      {
-        "category": "pricing",
-        "question": "Bieden jullie maandelijkse retainers of alleen projecten?",
-        "answer": "Allebei. Projecten beginnen bij $2.000 en worden gefactureerd per mijlpaal. Retainers beginnen bij $1.500 per maand voor siteonderhoud, AI-monitoring en CRM-beheer, of $3.500 per maand voor full-service groei: beheer van Google- en Meta-advertenties, AI-ondersteunde contentproductie en 5 uur developmentwerk per maand. Retainers hebben een minimumlooptijd van 3 of 6 maanden."
+        "question": "Bieden jullie maandelijkse hosting- en onderhoudsplannen of alleen projecten?",
+        "answer": "Allebei. Projecten beginnen bij $2.000 en worden gefactureerd per mijlpaal. Na livegang beginnen hosting- en onderhoudsplannen bij $550 per maand voor Site Onderhoud (monitoring, back-ups, beveiligingsupdates en kleine contentwijzigingen), $1.600 per maand voor Site Groei (elke maand een nieuwe pagina of sectie en A/B-tests) en $3.800 per maand voor Site Partnerschap (een dedicated developer en designer). Plannen hebben een minimumlooptijd van 3 maanden."
       },
       {
         "category": "process",
         "question": "Hoe lang duurt het bouwen van een website op maat?",
-        "answer": "Eén landingspagina gaat meestal binnen 2 tot 3 weken live. Een site van 5 pagina's duurt 4 tot 6 weken. Een site van 10 pagina's met CMS en AI-integraties duurt 8 tot 12 weken. De planning hangt af van hoe snel je content, merkinput en goedkeuringen aanlevert. Wij werken snel, de meeste bureaus doen er 2 tot 3 keer zo lang over."
-      },
-      {
-        "category": "process",
-        "question": "Hoe lang duurt het om een AI-agent live te zetten?",
-        "answer": "Een standaard AI-chatbot getraind op je bestaande FAQ's is binnen 7 tot 10 werkdagen live. Een voice-agent met een eigen belscript duurt 10 tot 14 dagen. Een volledig multi-agent-ecosysteem met CRM-, agenda- en betaalintegraties duurt 4 tot 8 weken, afhankelijk van de complexiteit. We beginnen met een kennismakingsgesprek, dan een betaald scopingdocument, dan de build."
+        "answer": "Eén landingspagina gaat meestal binnen 2 tot 3 weken live. Een site van 5 pagina's duurt 4 tot 6 weken, een site van 10 pagina's met CMS 6 tot 8 weken en 15 of meer pagina's 8 tot 12 weken. Herontwerpen volgen dezelfde planning. De planning hangt af van hoe snel je content, merkinput en goedkeuringen aanlevert."
       },
       {
         "category": "process",
@@ -77,33 +62,23 @@
       },
       {
         "category": "capabilities",
-        "question": "Wat is het verschil tussen een AI-chatbot en een AI-voice-agent?",
-        "answer": "Een AI-chatbot werkt met tekst en staat op je website of in berichtenapps: hij beantwoordt FAQ's, boekt afspraken en vangt leads op via chat. Een AI-voice-agent beantwoordt echte telefoongesprekken in natuurlijke spreektaal. Voice-agents zijn het sterkst voor inkomende sales, support buiten kantooruren en afspraakbevestigingen. Veel bedrijven gebruiken beide voor volledige dekking."
-      },
-      {
-        "category": "capabilities",
-        "question": "Kunnen jullie AI-agents integreren met HubSpot, Salesforce of GoHighLevel?",
-        "answer": "Ja. Onze AI-agents en automatiseringen integreren standaard met HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe en Calendly. Voor CRM's en tools zonder bestaande integratie bouwen we een eigen connector, zonder Zapier-tussenlaag. Je data blijft in je eigen systemen; wij laten ze alleen met elkaar praten."
-      },
-      {
-        "category": "capabilities",
-        "question": "Bouwen jullie websites in Next.js, WordPress of Webflow?",
-        "answer": "We bouwen uitsluitend in Next.js met TypeScript, Tailwind CSS en Framer Motion. Sites worden gehost op Vercel voor laadtijden onder een seconde en wereldwijde edge-levering. We bouwen niet in WordPress, Wix, Squarespace of Webflow: die platforms kunnen de performance, custom animaties en AI-integraties die onze klanten nodig hebben niet leveren."
+        "question": "Bouwen jullie in Next.js, WordPress of Webflow?",
+        "answer": "Standaard coderen we met de hand in Next.js met TypeScript en Tailwind CSS, gehost op Vercel voor laadtijden onder een seconde. Daar komen de snelheid, de custom animaties en de SEO-resultaten vandaan. Als jouw situatie erom vraagt, bijvoorbeeld een team dat al op WordPress draait of een marketingsite die de editor van Webflow nodig heeft, bouwen we ook daar."
       },
       {
         "category": "capabilities",
         "question": "Schrijven jullie de teksten voor de website, of lever ik die aan?",
-        "answer": "Beide kan. De meeste klanten leveren ruwe notities of bullets aan en wij vormen die om tot definitieve tekst. Volledige professionele copywriting is inbegrepen in ons pakket van $18.000 en bij elk ander pakket beschikbaar als uitbreiding voor $200 per pagina. Advertentieteksten voor Google- en Meta-campagnes schrijven wij altijd zelf wanneer wij de advertenties beheren."
+        "answer": "Beide kan. De meeste klanten leveren ruwe notities of bullets aan en wij vormen die om tot definitieve tekst. Volledige professionele copywriting is inbegrepen in het pakket van $18.000 en bij elk ander pakket beschikbaar als uitbreiding voor $200 per pagina."
       },
       {
         "category": "trust",
         "question": "Waar zit Blok Blok Studio, en werken jullie internationaal?",
-        "answer": "Onze studio zit in Berlijn, Duitsland. We werken met klanten in de Verenigde Staten, het Verenigd Koninkrijk, Nederland, Frankrijk, Spanje en de hele EU. Communicatie verloopt asynchroon via Loom, e-mail en berichten, dus elke tijdzone past. Facturatie en contracten zijn beschikbaar in USD of EUR, net wat je voorkeur heeft."
+        "answer": "Onze studio zit in Berlijn, Duitsland, met teamleden in Richmond, Los Angeles en Multan. Onze klanten zitten in de Verenigde Staten, Duitsland en de Filipijnen. Communicatie verloopt asynchroon via Loom, e-mail en berichten, dus elke tijdzone werkt. Facturatie en contracten zijn beschikbaar in USD of EUR."
       },
       {
         "category": "trust",
-        "question": "Ben ik eigenaar van mijn websitecode en AI-agentconfiguraties?",
-        "answer": "Ja, volledig. Bij oplevering krijg je het volledige eigendom van de code, designbestanden, AI-prompts en automatiseringsconfiguraties. De site wordt uitgerold op je eigen Vercel-account, op jouw factuur. Het CRM, de advertentieaccounts en de domeinen staan vanaf dag één op jouw naam. We sluiten klanten nooit op in onze systemen."
+        "question": "Ben ik eigenaar van mijn websitecode?",
+        "answer": "Ja, volledig. Bij oplevering krijg je het volledige eigendom van de code en designbestanden. De site wordt uitgerold op je eigen Vercel-account, op jouw factuur, en het domein staat vanaf dag één op jouw naam. We sluiten klanten nooit op in onze systemen."
       },
       {
         "category": "trust",
@@ -135,7 +110,7 @@
     "tab_all": "Alles",
     "tab_ai": "AI en automatisering",
     "tab_creative": "Creatie en marketing",
-    "audit_badge": "Gratis, 30 minuten",
+    "audit_badge": "Gratis, 15 minuten",
     "audit_heading": "Niet zeker wat je bedrijf nodig heeft?",
     "audit_subheading": "Plan een gratis strategiegesprek. We bekijken je bedrijf en laten je precies zien waar de grootste kansen liggen.",
     "audit_button": "Plan je gratis gesprek",
@@ -239,8 +214,8 @@
     "v2_quote_2_role": "Nike-atleet, Berlijn",
     "v2_quote_3_role": "Ruilkaartenwinkel",
     "v2_quote_1_text": "$50.000 bruto-omzet in de eerste vijf maanden, een score van 5,0 sterren over 52 Google-reviews en een gemiddelde Google-positie van 5,2 voor zijn zoektermen.",
-    "v2_quote_2_text": "Blok Blok Studio heeft mijn online aanwezigheid compleet getransformeerd. Het gedurfde design vangt mijn coachingfilosofie perfect en de resultaten zijn ongelooflijk.",
-    "v2_quote_3_text": "De webshop die ze voor ons bouwden is ongelooflijk. Onze boosterpack-drops zijn binnen enkele uren uitverkocht en de betrokkenheid van de community via de site is geweldig.",
+    "v2_quote_2_text": "De communicatie met hem is echt makkelijk. Je hebt iemand nodig die snel reageert, zijn vak kent en zich aanpast aan wat jij nodig hebt. Ik kan Chase, of Blok Blok Studio, echt aanraden.",
+    "v2_quote_3_text": "$191.042 aan verkoop van trading cards over 1.790 bestellingen in de Shopify-webshop die we bouwden. Drops waren binnen enkele uren uitverkocht.",
     "v2_quote_1_kind": "Resultaten",
     "v2_offer_title": "Websites, gebouwd en gehost",
     "v2_offer_subtitle": "Maatwerk build, gericht op conversie, met hosting en onderhoud inbegrepen",
@@ -249,7 +224,7 @@
     "v2_result_grant_parkhurst": "Portfolio plus een selfservice klantenportaal, live sinds september 2026.",
     "v2_next_label": "Wat er daarna gebeurt",
     "v2_next_1_title": "We bellen je terug",
-    "v2_next_1_desc": "Binnen één werkdag. Twintig minuten over wat de site voor het bedrijf moet doen, meer niet.",
+    "v2_next_1_desc": "Binnen één werkdag. Vijftien minuten over wat de site voor het bedrijf moet doen, meer niet.",
     "v2_next_2_title": "Scope en één vaste prijs",
     "v2_next_2_desc": "Een schriftelijk plan met pagina's, planning en één bedrag. Vijf pagina's vanaf {price}, geen uurtje-factuurtje.",
     "v2_next_3_title": "Van kick-off tot lancering",
@@ -628,13 +603,13 @@
     "acceptance_title": "Acceptatie van de voorwaarden",
     "acceptance_content": "Door deze website te bezoeken en te gebruiken, accepteer je deze servicevoorwaarden en ga je ermee akkoord eraan gebonden te zijn. Ga je niet akkoord met deze voorwaarden, gebruik onze website of diensten dan niet.",
     "services_title": "Diensten",
-    "services_content": "Blok Blok Studio biedt digitale ontwerp-, ontwikkelings- en marketingdiensten. Specifieke projectvoorwaarden, deliverables en prijzen worden uiteengezet in individuele contracten en voorstellen.",
+    "services_content": "Blok Blok Studio biedt diensten voor websitedesign, -ontwikkeling, herontwerp en hosting. Specifieke projectvoorwaarden, deliverables en prijzen worden uiteengezet in individuele contracten en voorstellen.",
     "user_responsibilities_title": "Verantwoordelijkheden van de gebruiker",
     "user_responsibilities_content": "Je gaat ermee akkoord correcte informatie te verstrekken bij het gebruik van onze formulieren en diensten, en onze website en diensten rechtmatig en in overeenstemming met deze voorwaarden te gebruiken.",
     "ip_title": "Intellectueel eigendom",
     "ip_content": "Alle inhoud op deze website, inclusief ontwerpen, tekst, afbeeldingen en code, is eigendom van Blok Blok Studio, tenzij anders vermeld. Het eigendom van klantwerk wordt vastgelegd in de individuele projectcontracten.",
     "liability_title": "Beperking van aansprakelijkheid",
-    "liability_content": "Blok Blok Studio is niet aansprakelijk voor indirecte, incidentele of gevolgschade die voortvloeit uit het gebruik van onze website of diensten. Onze totale aansprakelijkheid is nooit hoger dan het bedrag dat is betaald voor de betreffende dienst.",
+    "liability_content": "Blok Blok Studio is niet aansprakelijk voor indirecte, incidentele of gevolgschade die voortvloeit uit het gebruik van onze website of diensten. Onze totale aansprakelijkheid is nooit hoger dan het bedrag dat is betaald voor de betreffende dienst. Deze beperking geldt niet voor aansprakelijkheid bij opzet of grove nalatigheid, voor schade door letsel aan leven, lichaam of gezondheid, of waar aansprakelijkheid op grond van toepasselijk recht niet kan worden beperkt.",
     "governing_law_title": "Toepasselijk recht",
     "governing_law_content": "Deze voorwaarden worden beheerst door en uitgelegd volgens het toepasselijke recht. Geschillen worden eerst via onderhandeling te goeder trouw opgelost voordat formele juridische stappen worden gezet.",
     "changes_title": "Wijzigingen in de voorwaarden",
@@ -1094,7 +1069,7 @@
     "custom_quote": "Liever een offerte op maat?",
     "hero_title_a": "Wat je krijgt,",
     "hero_title_em": "zwart op wit.",
-    "hero_sub": "AI-gedreven websites, apps, automatiseringen, advertenties, branding en socialmediabeheer. Elk traject krijgt een offerte op maat van jouw scope, met de deliverables op papier, zodat we allebei precies weten wat we bouwen.",
+    "hero_sub": "Websites gebouwd, herontworpen en gehost. Elk traject krijgt een offerte op maat van jouw scope, met de deliverables op papier, zodat we allebei precies weten wat we bouwen.",
     "tabs": {
       "web": "Webontwikkeling",
       "app": "App-ontwikkeling",
@@ -1105,8 +1080,8 @@
       "branding": "Merkstrategie"
     },
     "sections": {
-      "oneTime": "Eenmalige projecten",
-      "webSupport": "Maandelijkse retainers",
+      "oneTime": "Websites: nieuwbouw of herontwerp",
+      "webSupport": "Hosting- en onderhoudsplannen",
       "appBuild": "Eenmalige builds",
       "appSupport": "Maandelijkse retainers",
       "socialSetup": "Eenmalige setup",
@@ -1136,23 +1111,27 @@
           "scope": [
             {
               "i": "Landingspagina op maat (1 pagina)",
-              "l": "Volledig op maat ontworpen, mobielvriendelijke onepager gebouwd in Next.js. Inclusief scrollsecties: hero, over ons, diensten, testimonials en contactformulier. Responsive lay-out voor desktop, tablet en mobiel. SEO-metatitel en -beschrijving geschreven. SSL-certificaat en hosting op Vercel inbegrepen."
+              "l": "Eén volledig op maat ontworpen, mobielvriendelijke pagina gebouwd in Next.js: hero, aanbod, bewijs, contact. Responsive lay-out voor desktop, tablet en mobiel. SEO-metatitel en -beschrijving geschreven. SSL-certificaat en hosting op Vercel inbegrepen."
             },
             {
-              "i": "Merkidentiteit (logo + kleuren)",
-              "l": "2 eerste logoconcepten gepresenteerd als mockups. Jij kiest er 1 voor de definitieve uitwerking. Deliverables: logobestanden in PNG, SVG en PDF (full colour, wit en zwart). 1 primair kleurenpalet (5 kleuren met hexcodes) en 1 lettertypecombinatie (koppen + lopende tekst). Geen volledig brandguidelines-document op dit niveau."
+              "i": "Design afgestemd op je merk",
+              "l": "We werken vanuit je bestaande logo en kleuren, of kiezen samen met jou een kleurenpalet en lettertypecombinatie als je die nog niet hebt. Geen template; de lay-out wordt getekend voor jouw content."
+            },
+            {
+              "i": "Contactformulier met e-mailnotificaties",
+              "l": "Een spambeveiligd formulier dat in je inbox landt, met een bevestigingsbericht voor de bezoeker."
             },
             {
               "i": "Analytics en tracking",
-              "l": "Google Analytics 4 geïnstalleerd en geconfigureerd. 1 conversiedoel ingesteld (bijv. formulierinzending of klik op telefoonnummer). Google Search Console gekoppeld. Basis-eventtracking op CTA-knoppen."
+              "l": "Google Analytics 4 en Search Console gekoppeld, met conversie-events op het formulier zodat je ziet wat de pagina oplevert."
             },
             {
-              "i": "Designrevisies",
-              "l": "2 revisierondes. Een 'ronde' = 1 gebundelde set feedback. Feedback moet binnen 5 werkdagen na elke review worden aangeleverd. Geen gedeeltelijke of druppelsgewijze feedback verspreid over meerdere e-mails."
+              "i": "Designrevisies (2 rondes)",
+              "l": "Twee gestructureerde revisierondes na de eerste designpresentatie. Wijzigingen worden per ronde in één lijst verzameld, zodat er niets verloren gaat."
             },
             {
               "i": "Content & tekst",
-              "l": "De klant levert alle teksten aan (koppen, lopende tekst, bio's, dienstbeschrijvingen). Wij verzorgen lay-out, opmaak en plaatsing. Heb je copywriting nodig? Dat kan erbij voor $200/pagina."
+              "l": "Jij stuurt notities of bullets, wij vormen die om tot definitieve tekst voor de pagina. Volledige professionele copywriting is beschikbaar als uitbreiding."
             }
           ],
           "ov": [
@@ -1161,7 +1140,7 @@
             "Extra sectie: $250"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord van de klant OF na 2 revisierondes. Na akkoord: $175/uur.",
-          "bridge": "Inclusief 14 dagen monitoring na livegang (bugfixes en kleine aanpassingen). Meer pagina's of functies nodig? Upgrade naar onze Starter-lancering ($6.500) voor een complete site van 5 pagina's met AI-chat en CRM-setup.",
+          "bridge": "Inclusief 14 dagen monitoring na livegang (bugfixes en kleine aanpassingen). Meer pagina's nodig? Starter-lancering omvat er vijf.",
           "ideal": "Zijprojecten, personal brands, eenvoudige landingspagina's"
         },
         {
@@ -1172,43 +1151,41 @@
           "tl": "4 tot 6 weken",
           "scope": [
             {
-              "i": "Website op maat (5 pagina's)",
-              "l": "Volledig op maat ontworpen, mobielvriendelijke website gebouwd in Next.js. Inclusief: Home, Over ons, Diensten, Contact en 1 extra pagina naar keuze. Elke pagina heeft een responsive lay-out voor desktop, tablet en mobiel. SEO-metatitels en -beschrijvingen geschreven voor alle 5 pagina's. SSL-certificaat en hosting op Vercel inbegrepen."
+              "i": "Website op maat (5 pagina's), nieuwbouw of herontwerp",
+              "l": "Volledig op maat ontworpen, mobielvriendelijke website gebouwd in Next.js: Home, Over ons, Diensten, Contact en één pagina naar keuze. Werkt voor een gloednieuwe site of een herontwerp van je huidige. SEO-metatitels en -beschrijvingen voor alle vijf pagina's. SSL-certificaat en hosting op Vercel inbegrepen."
             },
             {
-              "i": "Merkidentiteit (logo + kleuren)",
-              "l": "2 eerste logoconcepten gepresenteerd als mockups. Jij kiest er 1 voor de definitieve uitwerking. Deliverables: logobestanden in PNG, SVG en PDF (full colour, wit en zwart). 1 primair kleurenpalet (5 kleuren met hexcodes) en 1 lettertypecombinatie (koppen + lopende tekst). Geen volledig brandguidelines-document op dit niveau."
+              "i": "Design afgestemd op je merk",
+              "l": "Gebouwd op je bestaande logo en kleuren, of op een kleurenpalet en lettertypecombinatie die we samen met jou kiezen. Elke sectie wordt ontworpen voor jouw content, niet in een thema gegoten."
             },
             {
-              "i": "AI-chatwidget",
-              "l": "1 AI-chatbot ingebouwd op je website. Getraind op 25 vraag-en-antwoordparen die jij aanlevert (bijv. prijzen, openingstijden, diensten). Inclusief leadformulier dat aanvragen doorstuurt naar je CRM. Basisbegroeting en fallback-antwoord geconfigureerd."
+              "i": "Contact- en boekingsformulieren",
+              "l": "Spambeveiligd contactformulier plus een boekingslink of ingebedde agenda, zodat bezoekers contact kunnen opnemen of een afspraak kunnen boeken zonder heen en weer te mailen."
             },
             {
-              "i": "CRM-setup (GoHighLevel)",
-              "l": "1 salespipeline met 5 fases (bijv. Nieuwe lead → Contact gehad → Voorstel verstuurd → Gewonnen → Verloren). 5 automatiseringsreeksen (bijv. e-mailmelding bij nieuwe lead, opvolgherinnering, afspraakbevestiging, sms-terugbelbericht bij gemiste oproep, welkomstmail). Contactimport vanuit CSV indien aangeleverd (max. 500 contacten)."
+              "i": "Technische SEO-setup",
+              "l": "Metatitels en -beschrijvingen, Open Graph-tags, gestructureerde data voor je bedrijf, XML-sitemap en robots.txt, bij livegang ingediend bij Google Search Console."
             },
             {
               "i": "Analytics en tracking",
-              "l": "Google Analytics 4 geïnstalleerd en geconfigureerd. 1 conversiedoel ingesteld (bijv. formulierinzending, klik op telefoonnummer of chatbotinteractie). Google Search Console gekoppeld. Basis-eventtracking op CTA-knoppen."
+              "l": "Google Analytics 4 en Search Console gekoppeld, met conversie-events op formulieren en boekingen."
             },
             {
-              "i": "Designrevisies",
-              "l": "2 revisierondes per pagina. Een 'ronde' = 1 gebundelde set feedback. Feedback moet binnen 5 werkdagen na elke review worden aangeleverd. Geen gedeeltelijke of druppelsgewijze feedback verspreid over meerdere e-mails."
+              "i": "Designrevisies (2 rondes)",
+              "l": "Twee gestructureerde revisierondes na de eerste designpresentatie."
             },
             {
               "i": "Content & tekst",
-              "l": "De klant levert alle teksten aan (koppen, lopende tekst, bio's, dienstbeschrijvingen). Wij verzorgen lay-out, opmaak en plaatsing. Heb je copywriting nodig? Dat kan erbij voor $200/pagina."
+              "l": "Jij stuurt notities of bullets, wij vormen die om tot definitieve tekst voor elke pagina. Volledige professionele copywriting is beschikbaar als uitbreiding."
             }
           ],
           "ov": [
             "Extra pagina's: $500/pagina",
             "Extra revisieronde: $300",
-            "Tekstschrijven: $200/pagina",
-            "Extra Q&A (25+): $250/batch",
-            "Extra automatisering: $350 per stuk"
+            "Tekstschrijven: $200/pagina"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord van de klant OF na 2 revisierondes. Na akkoord: $175/uur.",
-          "bridge": "Inclusief 30 dagen monitoring na livegang (bugfixes, chatbotcontroles, CRM-gezondheid). Na dag 30 gaan onderhoud, updates en AI-tuning over naar ons Onderhoud & Monitoring-plan ($1.500/mnd), zodat je systemen optimaal blijven draaien.",
+          "bridge": "Inclusief 30 dagen monitoring na livegang (bugfixes en kleine aanpassingen). Na dag 30 lopen hosting en onderhoud door via Site Onderhoud ($550/mnd).",
           "ideal": "Startups, zelfstandigen, lokale bedrijven"
         },
         {
@@ -1220,116 +1197,105 @@
           "tl": "6 tot 8 weken",
           "scope": [
             {
-              "i": "Website op maat (10 pagina's + CMS)",
-              "l": "10 volledig ontworpen, mobielvriendelijke pagina's gebouwd in Next.js met geïntegreerd CMS (blog of portfolio). Inclusief: Home, Over ons, Diensten (3 subpagina's), Blog, Contact en 2 extra pagina's. 3 custom scroll- of hoveranimaties. On-page SEO voor alle pagina's (metatitels, beschrijvingen, alt-tags, schema markup). SSL, hosting op Vercel en sitemap-indiening bij Google inbegrepen."
+              "i": "Website op maat (10 pagina's + CMS), nieuwbouw of herontwerp",
+              "l": "Tien volledig op maat ontworpen pagina's gebouwd in Next.js met een contentmanagementsysteem, zodat je team teksten, beelden en posts kan aanpassen zonder developer. Werkt voor een nieuwe site of een herontwerp. SEO-metadata op elke pagina. SSL-certificaat en hosting op Vercel inbegrepen."
             },
             {
-              "i": "Merkidentiteit (volledige richtlijnen)",
-              "l": "3 eerste logoconcepten gepresenteerd als lifestyle-mockups. 1 geselecteerd voor de definitieve uitwerking. Volledige brandguidelines-PDF (10 pagina's) met: regels voor logogebruik, minimale afmetingen, vrije ruimte, kleurenpalet (primair + secundair, hex/RGB/CMYK), typografiesysteem (kop, subkop en broodtekst met groottes) en tone-of-voice-notities. 5 gebrande social media-posttemplates geleverd in Canva of Figma (bewerkbaar)."
+              "i": "Designsysteem",
+              "l": "Componenten, typografie en kleur één keer gedefinieerd en op elke pagina hergebruikt, zodat pagina's die je later toevoegt er vanzelfsprekend bij horen."
             },
             {
-              "i": "AI-chatbot",
-              "l": "1 AI-chatbot getraind op 50 Q&A-paren. Inclusief afsprakenintegratie (gekoppeld aan je Google Agenda of Calendly). Leadcapture met automatische CRM-invoer. Eigen begroeting, fallback-antwoorden en berichten buiten kantooruren geconfigureerd. Chatbot ingebouwd op 3 pagina's van je website."
+              "i": "Blog- of nieuwssectie die je zelf kunt bewerken",
+              "l": "Een CMS-gestuurde sectie met categorieën, auteur en datum, artikelschema en per post gegenereerde social-share-afbeeldingen."
             },
             {
-              "i": "AI-voice-agent",
-              "l": "1 inkomende AI-voice-agent die oproepen beantwoordt, leads kwalificeert en afspraken inplant. 1 custom belscript geschreven en geconfigureerd. 500 spraakminuten inbegrepen voor de eerste maand. Gespreksopnames opgeslagen in je CRM. Inclusief basisdoorschakeling (doorverbinden naar jou als de AI er niet uitkomt)."
+              "i": "Lead- en boekingsformulieren met notificaties",
+              "l": "Meerstaps- of eenvoudige formulieren, spambeveiliging, e-mailnotificaties en een ingebedde boekingsagenda, waarbij elke inzending op bron wordt gelabeld."
             },
             {
-              "i": "Workflowautomatisering (8 in totaal)",
-              "l": "8 automatiseringen gebouwd in GoHighLevel. Voorbeelden: melding bij nieuwe lead (e-mail + sms), herinneringsreeks voor afspraken (24 uur + 1 uur vooraf), sms-terugbelbericht bij gemiste oproep, opvolging na afspraak, reviewverzoek na de dienst, heractivering bij verlaten formulier, verjaardags-/jubileummail en triggers bij pipelinefasewijziging. Elke automatisering bevat tot 5 stappen."
+              "i": "Technische en lokale SEO-setup",
+              "l": "Alles uit de technische setup van Starter-lancering plus schema voor lokale bedrijven, afstemming met je Google Bedrijfsprofiel en locatiepagina's waar relevant."
             },
             {
-              "i": "Google Ads-setup",
-              "l": "1 Google Search-campagne met 3 advertentiegroepen (gericht op verschillende zoekwoordthema's). Zoekwoordonderzoek en lijst met negatieve zoekwoorden inbegrepen. 6 advertentievarianten geschreven (2 per advertentiegroep). 1 speciale landingspagina ontworpen, gebouwd en gekoppeld met conversietracking. Google Ads-conversietracking en Google Tag Manager geconfigureerd. Advertentiebudget wordt apart gefactureerd en door jou rechtstreeks aan Google betaald."
+              "i": "Performancetuning",
+              "l": "Core Web Vitals gehaald op mobiel en desktop vóór livegang: beeldoptimalisatie, laden van lettertypen en scriptbudgetten, geverifieerd met Lighthouse."
             },
             {
-              "i": "Klantdashboard",
-              "l": "1 realtime dashboard gebouwd in GHL of Google Looker Studio. Tot 6 widgets: websiteverkeer, aantal leads, pipelinewaarde, conversiepercentage, advertentieprestaties en chatbotinteracties. Dashboard werkt automatisch bij en is bereikbaar via een deelbare link."
+              "i": "Analyticsdashboard",
+              "l": "Google Analytics 4 en Search Console gekoppeld en een eenvoudig maandoverzicht van verkeer, leads en toppagina's."
             },
             {
-              "i": "Designrevisies",
-              "l": "3 revisierondes per deliverable (websitepagina's, merkmaterialen, advertentiecreatives en dashboard). Een 'ronde' = 1 gebundelde set feedback, aangeleverd binnen 5 werkdagen."
+              "i": "Designrevisies (3 rondes)",
+              "l": "Drie gestructureerde revisierondes na de eerste designpresentatie."
             },
             {
               "i": "Content & tekst",
-              "l": "Wij schrijven de teksten voor je homepage en dienstenpagina (1.500 woorden in totaal). Alle overige paginateksten lever jij aan. Het blog-CMS wordt leeg opgeleverd, zodat jij of je team posts kan schrijven, of voeg ons contentpakket toe."
+              "l": "Jij stuurt notities of bullets, wij vormen die om tot definitieve tekst voor elke pagina. Volledige professionele copywriting is beschikbaar als uitbreiding."
             }
           ],
           "ov": [
             "Extra pagina's: $500/pagina",
             "Extra revisie: $300/ronde",
-            "Extra advertentiecampagne: $1.500",
-            "Extra voicescript: $750",
-            "Automatiseringen (8+): $350 per stuk",
             "Extra landingspagina: $900",
-            "Tekstschrijven boven inbegrepen: $200/pagina"
+            "Tekstschrijven boven de inbegrepen pagina's: $200/pagina"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 3 revisierondes. Na akkoord: $175/uur.",
-          "bridge": "Inclusief 30 dagen na livegang: advertentiebeheer, AI-monitoring en bugfixes. Na dag 30 hebben je advertenties, AI-agents en automatiseringen doorlopende optimalisatie nodig om te blijven presteren. We raden ons Groeimotor-plan ($3.500/mnd) aan om het momentum vast te houden.",
-          "ideal": "Groeiende bedrijven die opschalen met systemen"
+          "bridge": "Inclusief 30 dagen monitoring en bugfixes na livegang. Na dag 30 levert Site Groei ($1.600/mnd) elke maand een nieuwe pagina of sectie op.",
+          "ideal": "Groeiende bedrijven die publiceren en verkopen"
         },
         {
-          "name": "Totale Dominantie",
+          "name": "Premium-lancering",
           "price": 18000,
           "disp": "$18.000+",
-          "tag": "Enterprise-niveau",
+          "tag": "Complete build",
           "tl": "8 tot 12 weken",
           "scope": [
             {
-              "i": "Premium website (15 pagina's + e-commerce)",
-              "l": "15 volledig ontworpen pagina's gebouwd in Next.js met headless CMS (Sanity of Contentful). 6 custom animaties (parallax-scrolling, hovereffecten, paginatransities, micro-interacties). Klaar voor e-commerce: 20 productpagina's met Shopify- of Stripe-integratie, winkelwagen en checkout. Inclusief blog, kenniscentrum of casestudysectie. Volledige on-page SEO, schema markup, Open Graph-tags, XML-sitemap en robots.txt. SSL, Vercel-hosting en CDN-optimalisatie inbegrepen."
+              "i": "Premium website (15 pagina's + e-commerce), nieuwbouw of herontwerp",
+              "l": "Vijftien of meer volledig op maat ontworpen pagina's gebouwd in Next.js met een contentmanagementsysteem en een webshop. Werkt voor een nieuwe site of een herontwerp. SEO-metadata op elke pagina. SSL-certificaat en hosting op Vercel inbegrepen."
             },
             {
-              "i": "Compleet merksysteem",
-              "l": "5 eerste logoconcepten met lifestyle-mockups. 1 geselecteerd voor volledige uitwerking. Compleet brandguidelines-document (20 pagina's): logogebruik, vrije ruimte, minimale afmetingen, primaire en secundaire kleurenpaletten, typografiehiërarchie, fotografiestijlgids, iconenstijl, richtlijnen voor merkstem en tone of voice. Huisstijlontwerp: visitekaartje, briefpapier en e-mailhandtekening. Pitchdeck-template (15 slides, bewerkbaar in Google Slides of Keynote). 10 gebrande social media-templates (Canva of Figma, bewerkbaar)."
+              "i": "Designsysteem",
+              "l": "Componenten, typografie en kleur één keer gedefinieerd en gedocumenteerd, zodat jouw team en het onze nieuwe pagina's consistent bouwen."
             },
             {
-              "i": "AI-agent-ecosysteem (3 agents)",
-              "l": "3 onderling verbonden AI-agents die als één systeem werken. Voorbeeldopzet: Agent 1 vangt leads op via de chatbot en scoort ze (hot/warm/koud). Agent 2 stuurt gepersonaliseerde e-mailreeksen op basis van de score. Agent 3 start sms-opvolging voor hot leads. 1 custom beslisboom die het volledige leadtraject in kaart brengt. Alle agents gekoppeld aan je GHL-CRM met automatische contacttagging en pipelinebeweging."
+              "i": "Betalingen en checkout",
+              "l": "Stripe- of Shopify-checkout, productpagina's, winkelwagen, orderbevestigingsmails en btw- en verzendregels ingesteld voor jouw markt."
             },
             {
-              "i": "Conversationele AI-suite",
-              "l": "1 AI-chatbot getraind op 100 Q&A-paren, ingebouwd op de hele site. Inclusief afspraken boeken, leadcapture, FAQ-afhandeling en berichten buiten kantooruren. 1 AI-voice-agent met 2 custom belscripts (bijv. inkomende sales + afspraakbevestiging). 1.000 spraakminuten inbegrepen voor de eerste maand. Gespreksopnames opgeslagen in het CRM. 5 sms-automatiseringsreeksen (bijv. afspraakherinneringen, opvolging na gesprek, reviewverzoek, heractivering, promotiebericht)."
+              "i": "Klantaccounts of klantenportaal",
+              "l": "Inloggen, orderhistorie of projectbestanden, downloads en accountinstellingen, gebouwd naar wat je klanten echt nodig hebben."
             },
             {
-              "i": "Workflowautomatisering (15 in totaal)",
-              "l": "15 automatiseringen over je CRM, betaalsysteem en agenda. Voorbeelden: leadnurturing-reeksen, factuurherinneringen, betalingsbevestiging, onboardingworkflows, reviewverzoeken, win-backcampagnes, interne teammeldingen, pipelinefase-automatiseringen en verjaardags-/mijlpaalmails. Elke automatisering bevat tot 7 stappen met voorwaardelijke logica."
+              "i": "Technische en lokale SEO-setup",
+              "l": "Volledige technische setup plus schema voor producten en lokale bedrijven, afstemming met je Google Bedrijfsprofiel en locatiepagina's waar relevant."
             },
             {
-              "i": "Google + Meta Ads (volledige setup)",
-              "l": "1 Google Search-campagne met 5 advertentiegroepen en 10 advertentievarianten. Volledig zoekwoordonderzoek met lijsten van negatieve zoekwoorden. 1 Meta-campagne (Facebook/Instagram) met 3 advertentiesets gericht op verschillende doelgroepen. Retargetingpixel geïnstalleerd op je website voor zowel Google als Meta. 2 speciale landingspagina's ontworpen, gebouwd en geoptimaliseerd voor conversie. Alle conversietracking geconfigureerd via Google Tag Manager. Advertentiecreatives ontworpen (6 statische afbeeldingen + 2 carrouseladvertenties). Advertentiebudget apart gefactureerd. Je betaalt Google en Meta rechtstreeks."
+              "i": "Performancetuning",
+              "l": "Core Web Vitals gehaald op mobiel en desktop vóór livegang, inclusief de shop- en portaalpagina's."
             },
             {
-              "i": "AI-contentsysteem",
-              "l": "Volledige contentpipeline ingericht: video-naar-clips-workflow (upload een lange video, AI genereert social clips), blogpost-generatietemplate met AI-ondersteuning en social media-planning in Buffer of Later. Eerste maand content geproduceerd en gepubliceerd: 4 blogposts (tot 1.000 woorden elk, SEO-geoptimaliseerd) en 12 social media-posts (graphics + captions). Contentkalender-template meegeleverd voor doorlopend gebruik."
+              "i": "Analyticsdashboard",
+              "l": "Google Analytics 4 met e-commerce-events, Search Console en een maandoverzicht van verkeer, bestellingen en topproducten."
             },
             {
-              "i": "Directiedashboard",
-              "l": "1 uitgebreid dashboard in GHL of Google Looker Studio. 10 widgets: websiteverkeer, leadpipeline, conversiepercentage, Google Ads-prestaties (CPC, CTR, ROAS), Meta Ads-prestaties, chatbotinteracties, belvolume voice-agent, open-/klikratio's e-mail, omzetattributie en wekelijkse trendgrafieken. Geautomatiseerde wekelijkse samenvattingsmail naar 3 ontvangers."
-            },
-            {
-              "i": "Designrevisies",
-              "l": "3 revisierondes per deliverable voor alle materialen. Een 'ronde' = 1 gebundelde set feedback, aangeleverd binnen 5 werkdagen."
+              "i": "Designrevisies (3 rondes)",
+              "l": "Drie gestructureerde revisierondes na de eerste designpresentatie."
             },
             {
               "i": "Tekstschrijven",
-              "l": "Volledige professionele copywriting voor 10 websitepagina's (koppen, lopende tekst, CTA's, metabeschrijvingen). De klant levert ruw materiaal, notities of bullets voor de overige pagina's. Advertentieteksten voor alle Google- en Meta-campagnes geschreven en inbegrepen."
+              "l": "Volledige professionele copywriting voor elke pagina is in dit pakket inbegrepen."
             }
           ],
           "ov": [
             "Extra pagina's: $500",
             "Extra revisie: $350/ronde",
-            "Extra AI-agent: $2.500",
-            "Extra advertentiecampagne: $1.500",
-            "Voicescript: $750",
-            "Automatiseringen (15+): $400 per stuk",
             "Producten (20+): $75/product",
-            "Content na maand 1: vereist een retainer"
+            "Extra landingspagina: $900"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 25% bij de tussentijdse mijlpaal, 25% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 3 rondes. Na akkoord: $175/uur.",
-          "bridge": "Inclusief 45 dagen na livegang: volledige monitoring, advertentiebeheer, AI-tuning en bugfixes. Na dag 45 hebben je AI-ecosysteem, advertentiecampagnes en contentsystemen doorlopend beheer nodig om resultaat te blijven leveren. We raden ons Volledig Partnerschap ($7.500/mnd) of Groeimotor ($3.500/mnd) aan, afhankelijk van je behoeften.",
-          "ideal": "Gevestigde bedrijven die een complete AI-infrastructuur willen"
+          "bridge": "Inclusief 45 dagen monitoring en bugfixes na livegang. Na dag 45 geeft Site Partnerschap ($3.800/mnd) je een dedicated developer en designer.",
+          "ideal": "Gevestigde bedrijven die e-commerce of een klantenportaal nodig hebben"
         }
       ],
       "socialSetup": [
@@ -2689,7 +2655,7 @@
             "Spoedverzoek (dezelfde dag): +$125",
             "Updatewerk per uur: $165/uur"
           ],
-          "ex": "Geen nieuwe pagina's, geen herontwerpen, geen A/B-tests, geen SEO, geen advertenties. Geen marketingactiviteiten. Zie daarvoor onze marketingpakketten.",
+          "ex": "Geen nieuwe pagina's, geen herontwerp, geen A/B-tests, geen SEO-werk. Dat zit in Site Groei en Site Partnerschap.",
           "ideal": "Gelanceerde sites die betrouwbaar onderhoud en gemoedsrust nodig hebben"
         },
         {
@@ -2735,7 +2701,7 @@
             "Extra nieuwe pagina: $850",
             "Video-/animatiewerk: apart gescoped"
           ],
-          "ex": "Geen volledige herontwerpen (gescoped als project). Geen betaalde advertenties. Geen contentschrijven buiten kleine wijzigingen.",
+          "ex": "Geen volledig herontwerp (wordt als project gescoped). Geen tekstschrijven buiten kleine aanpassingen.",
           "ideal": "Teams die hun site elke maand beter willen maken"
         },
         {
@@ -2780,7 +2746,7 @@
             "Extra contentpagina laden: $45 per stuk boven de 10",
             "Spoeddeploy (dezelfde dag): +25%"
           ],
-          "ex": "Geen betaald advertentiebeheer (zie marketingpakketten). Geen merkherontwerp (zie brandingpakketten). Geen mobiele app-werk.",
+          "ex": "Geen volledig herontwerp (wordt als project gescoped). Geen werk aan mobiele apps.",
           "ideal": "Opschalende bedrijven die Blok Blok inzetten als hun webteam"
         }
       ],
@@ -3224,8 +3190,8 @@
     },
     "v2_card_cta": "Vraag een offerte op maat aan",
     "v2_options": "{count, plural, one {# optie} other {# opties}}",
-    "meta_title": "Diensten en pakketten",
-    "meta_description": "Pakketten voor maatwerk webdesign en development. Heldere deliverables, op maat geoffreerd voor jouw scope."
+    "meta_title": "Prijzen",
+    "meta_description": "Pakketten voor webdesign, herontwerp en hosting. Heldere deliverables, op maat geoffreerd voor jouw scope."
   },
   "a11y": {
     "skip_to_main": "Naar hoofdinhoud",

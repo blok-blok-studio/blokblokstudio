@@ -13,7 +13,6 @@ const CATS = [
   { id: 'all', key: 'filter_all' },
   { id: 'Web Design', key: 'cat_web' },
   { id: 'E-Commerce', key: 'cat_ecom' },
-  { id: 'Branding', key: 'cat_brand' },
 ] as const;
 
 /** `projects` arrives already localized from the server page (src/data/i18n is server-only). */

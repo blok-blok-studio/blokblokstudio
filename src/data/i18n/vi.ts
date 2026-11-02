@@ -494,7 +494,7 @@ Dưới đó nữa là một form liên hệ. Chỉ cần điền thông tin c�
         heading: 'Nghiên cứu điển hình',
         name: 'Coach Luki, Berlin',
         result: 'Đặt lịch và thanh toán chạy thẳng qua website',
-        body: '"Họ xây toàn bộ website của tôi từ đầu và giờ khách hàng đặt lịch, thanh toán trực tiếp qua đó. Trước đây tôi tốn hàng giờ cho tin nhắn và hóa đơn." Luke Satterly huấn luyện khách hàng tại Holmes Place và John Reed ở Berlin. Website của anh xử lý đặt lịch, thanh toán Stripe và SEO địa phương cho các truy vấn như "personal trainer Berlin".',
+        body: '"Điều tôi thích nhất ở website là nó không phải thêm một template mà ai cũng có thể ghép lại. Có rất nhiều sự chủ ý được đặt vào đó." Luke Satterly huấn luyện khách hàng tại Holmes Place và John Reed ở Berlin. Website của anh xử lý đặt lịch, thanh toán Stripe và SEO địa phương cho các truy vấn như "personal trainer Berlin".',
         linkLabel: 'Đọc toàn bộ nghiên cứu điển hình',
       },
       faqHeading: 'Câu hỏi thường gặp',

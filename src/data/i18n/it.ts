@@ -494,7 +494,7 @@ Più in basso c'è un modulo di contatto. Inserite tutte le vostre informazioni.
         heading: 'Caso studio',
         name: 'Coach Luki, Berlino',
         result: 'Prenotazioni e pagamenti passano direttamente dal sito',
-        body: '"Hanno costruito il mio intero sito da zero e ora i clienti prenotano e pagano direttamente lì. Prima perdevo ore tra messaggi e fatture." Luke Satterly allena i suoi clienti da Holmes Place e John Reed a Berlino. Il suo sito gestisce prenotazioni, pagamenti Stripe e SEO locale per ricerche come "personal trainer Berlin".',
+        body: '"Quello che amo di più del sito è che non è l\'ennesimo template che chiunque può mettere insieme. C\'è molta intenzione dietro." Luke Satterly allena i suoi clienti da Holmes Place e John Reed a Berlino. Il suo sito gestisce prenotazioni, pagamenti Stripe e SEO locale per ricerche come "personal trainer Berlin".',
         linkLabel: 'Leggi il caso studio completo',
       },
       faqHeading: 'Domande frequenti',

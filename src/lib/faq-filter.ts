@@ -4,7 +4,7 @@
  * from the FAQPage structured data, so search engines see the same list as
  * visitors.
  */
-export const HIDE_AI_FAQ = true;
+export const HIDE_AI_FAQ = false;
 const aiKeywords = /\b(ai|chatbot|voice agent|automation|agent)\b/i;
 
 export function visibleFaqs<T extends { question: string; answer: string }>(items: T[]): T[] {

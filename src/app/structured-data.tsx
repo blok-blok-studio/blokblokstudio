@@ -201,9 +201,7 @@ export async function LocalBusinessSchema() {
     areaServed: [
       { '@type': 'Country', name: 'Germany' },
       { '@type': 'Country', name: 'United States' },
-      { '@type': 'Country', name: 'United Kingdom' },
-      { '@type': 'Country', name: 'Netherlands' },
-      { '@type': 'Country', name: 'France' },
+      { '@type': 'Country', name: 'Philippines' },
       { '@type': 'Place', name: t('worldwide') },
     ],
     knowsLanguage: ['English', 'German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese', 'Polish', 'Russian', 'Swedish', 'Turkish', 'Arabic', 'Hindi', 'Indonesian', 'Japanese', 'Korean', 'Thai', 'Vietnamese', 'Chinese'],

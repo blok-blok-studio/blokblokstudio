@@ -494,7 +494,7 @@ Daaronder staat een leadformulier. Vul gewoon al je gegevens in. Het komt rechts
         heading: `Casestudy`,
         name: `Coach Luki, Berlijn`,
         result: `Boekingen en betalingen lopen rechtstreeks via de site`,
-        body: `"Ze bouwden mijn hele site vanaf nul en nu boeken en betalen klanten er rechtstreeks via. Vroeger verspilde ik uren aan DM's en facturen." Luke Satterly traint klanten bij Holmes Place en John Reed in Berlijn. Zijn site regelt boekingen, Stripe-betalingen en lokale SEO voor zoekopdrachten als "personal trainer Berlin".`,
+        body: `"Wat ik het mooiste vind aan de website, is dat het niet zomaar weer een template is dat iedereen in elkaar kan zetten. Er zit veel intentie achter." Luke Satterly traint klanten bij Holmes Place en John Reed in Berlijn. Zijn site regelt boekingen, Stripe-betalingen en lokale SEO voor zoekopdrachten als "personal trainer Berlin".`,
         linkLabel: `Lees de volledige casestudy`,
       },
       faqHeading: `Veelgestelde vragen`,

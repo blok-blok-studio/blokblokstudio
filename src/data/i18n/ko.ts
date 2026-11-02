@@ -494,7 +494,7 @@ Chase는 전반적으로 정말 좋은 사람이고, 아주 참을성이 있어�
         heading: '케이스 스터디',
         name: 'Coach Luki, 베를린',
         result: '예약과 결제가 사이트를 통해 바로 이루어집니다',
-        body: '"제 사이트 전체를 처음부터 만들어 줬고, 이제 고객들이 사이트에서 바로 예약하고 결제해요. 예전에는 DM과 청구서에 몇 시간씩 허비했죠." Luke Satterly는 베를린의 Holmes Place와 John Reed에서 고객을 지도합니다. 그의 사이트는 예약, Stripe 결제, 그리고 "personal trainer Berlin" 같은 검색어를 위한 지역 SEO를 처리합니다.',
+        body: '"이 웹사이트에서 가장 마음에 드는 점은 아무나 뚝딱 만들어 낼 수 있는 흔한 템플릿이 아니라는 거예요. 정말 많은 고민이 담겨 있습니다." Luke Satterly는 베를린의 Holmes Place와 John Reed에서 고객을 지도합니다. 그의 사이트는 예약, Stripe 결제, 그리고 "personal trainer Berlin" 같은 검색어를 위한 지역 SEO를 처리합니다.',
         linkLabel: '전체 케이스 스터디 읽기',
       },
       faqHeading: '자주 묻는 질문',
