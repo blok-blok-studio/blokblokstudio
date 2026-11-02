@@ -20,6 +20,7 @@
  */
 
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/page-meta';
 import { notFound } from 'next/navigation';
 import { V2ProjectDetail } from '@/components/v2/V2ProjectDetail';
 import { projectsData, getAllProjectSlugs } from '@/data/projects';
@@ -57,11 +58,7 @@ export async function generateMetadata({
   // real HTTP 404, not a streamed 200 shell.
   if (!project) notFound();
 
-  return {
-    title: project.title,
-    description: project.desc,
-    alternates: { canonical: `/projects/${slug}` },
-  };
+  return pageMeta({ title: project.title, description: project.desc, path: `/projects/${slug}`, image: project.heroImage ?? undefined });
 }
 
 export default async function ProjectPage({

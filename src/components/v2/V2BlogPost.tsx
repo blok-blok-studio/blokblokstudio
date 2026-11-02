@@ -16,6 +16,7 @@ export async function V2BlogPost({ post: base }: { post: BlogPost }) {
   const category = t(`posts.${post.slug}.category` as 'posts');
   const readTime = t('read_time', { minutes: parseInt(post.readTime, 10) || 5 });
   const date = new Date(post.date).toLocaleDateString(locale, { month: 'long', day: 'numeric', year: 'numeric' });
+  const updated = post.updated ? new Date(post.updated).toLocaleDateString(locale, { month: 'long', day: 'numeric', year: 'numeric' }) : date;
 
   return (
     <>
@@ -28,6 +29,8 @@ export async function V2BlogPost({ post: base }: { post: BlogPost }) {
             <span className="text-orange-500">{category}</span>
             <time dateTime={post.date}>{date}</time>
             <span>{readTime}</span>
+            <span>{t('byline', { name: 'Chase Haynes' })}</span>
+            {post.updated && post.updated !== post.date && <span>{t('updated', { date: updated })}</span>}
           </p>
           <h1 className="t-display mt-5 max-w-4xl text-balance text-white">
             {title}
@@ -38,7 +41,7 @@ export async function V2BlogPost({ post: base }: { post: BlogPost }) {
 
       <section className="px-5 pb-16 sm:px-8 lg:px-12 lg:pb-24">
         <div className="relative mx-auto aspect-[21/9] max-w-[1600px] overflow-hidden rounded-3xl bg-gray-950">
-          <Image src={post.image} alt="" fill priority sizes="100vw" className="object-cover" />
+          <Image src={post.image} alt={title} fill priority sizes="100vw" className="object-cover" />
         </div>
       </section>
 

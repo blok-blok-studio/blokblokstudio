@@ -28,7 +28,7 @@ export async function GET(
     `**Published:** ${post.date}  `,
     `**Category:** ${post.category}  `,
     `**Read Time:** ${post.readTime}  `,
-    `**Author:** Blok Blok Studio  `,
+    `**Author:** Chase Haynes, Founder, Blok Blok Studio  `,
     `**URL:** https://www.blokblokstudio.com/blog/${post.slug}`,
     '',
     '---',
@@ -37,7 +37,7 @@ export async function GET(
     '',
     '---',
     '',
-    '*Published by [Blok Blok Studio](https://www.blokblokstudio.com), a creative agency in Berlin building websites, ads, social media, and AI systems for service businesses.*',
+    '*Published by [Blok Blok Studio](https://www.blokblokstudio.com), a web design studio in Berlin and Los Angeles that designs, builds, redesigns and hosts websites.*',
   ].join('\n');
 
   return new NextResponse(markdown, {

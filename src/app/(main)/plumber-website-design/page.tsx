@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/page-meta';
 import { getLocale, getTranslations } from 'next-intl/server';
 import { SpecialtyContent } from '@/components/SpecialtyContent';
-import { BreadcrumbSchema } from '@/app/structured-data';
+import { BreadcrumbSchema, SpecialtyServiceSchema } from '@/app/structured-data';
 import { localizeSpecialty } from '@/data/i18n';
 import type { SpecialtyData } from '@/data/specialties';
 
@@ -13,25 +14,7 @@ async function pageData(): Promise<SpecialtyData> {
 
 export async function generateMetadata(): Promise<Metadata> {
   const data = await pageData();
-  return {
-    title: data.metaTitle,
-    description: data.metaDescription,
-    alternates: { canonical: `/${SLUG}` },
-    openGraph: {
-      title: data.metaTitle,
-      description: data.metaDescription,
-      url: `https://www.blokblokstudio.com/${SLUG}`,
-      siteName: 'Blok Blok Studio',
-      type: 'website',
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: data.metaTitle }],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: data.metaTitle,
-      description: data.metaDescription,
-      images: ['/og-image.jpg'],
-    },
-  };
+  return pageMeta({ title: data.metaTitle, description: data.metaDescription, path: `/${SLUG}`, absoluteTitle: true });
 }
 
 export default async function Page() {
@@ -61,6 +44,7 @@ export default async function Page() {
           { name: data.h1, url: `/${SLUG}` },
         ]}
       />
+      <SpecialtyServiceSchema name={data.h1} description={data.metaDescription} url={`https://www.blokblokstudio.com/${SLUG}`} areaServed="United States" />
       <SpecialtyContent data={data} />
     </div>
   );

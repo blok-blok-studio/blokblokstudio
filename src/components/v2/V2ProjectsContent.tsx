@@ -68,7 +68,7 @@ export function V2ProjectsContent({ projects }: { projects: (ProjectData & { slu
                       )}
                     </div>
                     <div className="mt-5 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-baseline">
-                      <h3 className="t-h3 text-white">{p.title}</h3>
+                      <h2 className="t-h3 text-white">{p.title}</h2>
                       <span className="t-eyebrow text-gray-500">
                         {CAT_KEY[p.category] ? t(CAT_KEY[p.category]) : p.category} · {p.year}
                       </span>

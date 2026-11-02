@@ -4,11 +4,10 @@ import { transcriptAsPlainText } from '@/data/video-transcripts';
 
 export async function OrganizationSchema() {
   const t = await getTranslations('seo');
-  const locale = await getLocale();
   const schema = {
-    inLanguage: locale,
     '@context': 'https://schema.org',
     '@type': ['Organization', 'ProfessionalService'],
+    '@id': 'https://www.blokblokstudio.com/#organization',
     name: 'Blok Blok Studio',
     url: 'https://www.blokblokstudio.com',
     logo: 'https://www.blokblokstudio.com/logo.png',
@@ -59,6 +58,7 @@ export async function WebsiteSchema() {
     name: 'Blok Blok Studio',
     inLanguage: locale,
     url: 'https://www.blokblokstudio.com',
+    publisher: { '@id': 'https://www.blokblokstudio.com/#organization' },
   };
 
   return (
@@ -113,26 +113,31 @@ export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }
 
 export async function ServiceSchema() {
   const t = await getTranslations('seo');
-  // Live-site service list, only website design exposed publicly. The
-  // remaining services remain in source history for future re-enable.
+  const provider = { '@id': 'https://www.blokblokstudio.com/#organization' };
   const services = [
-    {
-      name: t('service_name'),
-      description: t('service_description'),
-    },
+    { name: t('svc_build_name'), description: t('svc_build_desc'), url: 'https://www.blokblokstudio.com/services', price: '2000', unit: undefined },
+    { name: t('svc_redesign_name'), description: t('svc_redesign_desc'), url: 'https://www.blokblokstudio.com/services', price: '2000', unit: undefined },
+    { name: t('svc_hosting_name'), description: t('svc_hosting_desc'), url: 'https://www.blokblokstudio.com/pricing', price: '550', unit: 'MON' },
   ];
-
   const schema = services.map((service) => ({
     '@context': 'https://schema.org',
     '@type': 'Service',
+    name: service.name,
     serviceType: service.name,
-    provider: {
-      '@type': 'Organization',
-      name: 'Blok Blok Studio',
-      url: 'https://www.blokblokstudio.com',
-    },
+    provider,
     description: service.description,
     areaServed: t('worldwide'),
+    url: service.url,
+    offers: {
+      '@type': 'Offer',
+      url: service.url,
+      priceCurrency: 'USD',
+      price: service.price,
+      ...(service.unit
+        ? { priceSpecification: { '@type': 'UnitPriceSpecification', price: service.price, priceCurrency: 'USD', unitCode: service.unit } }
+        : {}),
+      availability: 'https://schema.org/InStock',
+    },
   }));
 
   return (
@@ -148,11 +153,46 @@ export async function ServiceSchema() {
   );
 }
 
+/** One Service per specialty landing page, tied to the organization node. */
+export function SpecialtyServiceSchema({ name, description, url, areaServed }: { name: string; description: string; url: string; areaServed: string }) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name,
+    serviceType: name,
+    description,
+    url,
+    areaServed,
+    provider: { '@id': 'https://www.blokblokstudio.com/#organization' },
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
+/** Person entries for the team page, linked to the organization node. */
+export function TeamSchema({ members }: { members: { name: string; jobTitle: string; image?: string; sameAs: string[]; url: string }[] }) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: members.map((m, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Person',
+        name: m.name,
+        jobTitle: m.jobTitle,
+        url: m.url,
+        ...(m.image ? { image: `https://www.blokblokstudio.com${m.image}` } : {}),
+        sameAs: m.sameAs,
+        worksFor: { '@id': 'https://www.blokblokstudio.com/#organization' },
+      },
+    })),
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
 export async function LocalBusinessSchema() {
   const t = await getTranslations('seo');
-  const locale = await getLocale();
   const schema = {
-    inLanguage: locale,
     '@context': 'https://schema.org',
     '@type': ['LocalBusiness', 'ProfessionalService'],
     '@id': 'https://www.blokblokstudio.com/#organization',
@@ -207,9 +247,8 @@ export async function LocalBusinessSchema() {
     knowsLanguage: ['English', 'German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese', 'Polish', 'Russian', 'Swedish', 'Turkish', 'Arabic', 'Hindi', 'Indonesian', 'Japanese', 'Korean', 'Thai', 'Vietnamese', 'Chinese'],
     knowsAbout: [t('knows_1'), t('knows_2'), t('knows_3')],
     priceRange: '$$',
-    // Everything is quoted in euros. Dollar figures elsewhere on the site
-    // are US clients' results, not our prices.
-    currenciesAccepted: 'EUR',
+    // Quotes go out in USD or EUR, whichever the client prefers (FAQ).
+    currenciesAccepted: 'USD, EUR',
     paymentAccepted: 'Credit Card, Bank Transfer, Stripe',
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',

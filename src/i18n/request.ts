@@ -88,11 +88,16 @@ export default getRequestConfig(async () => {
   const cookieLocale = cookieStore.get(LOCALE_COOKIE)?.value;
   const fromCookie = cookieLocale ? isSupported(cookieLocale) : null;
 
+  // 1b. Crawlers and AI assistants get English: the canonical URL is the
+  // English page, so indexers must not store a translated body under it.
+  const ua = (await headers()).get('user-agent') ?? '';
+  const isBot = /bot|crawl|spider|slurp|facebookexternalhit|twitterbot|linkedinbot|gptbot|claudebot|claude-|perplexity|applebot|bingpreview|duckassist/i.test(ua);
+
   // 2. Browser/OS language from Accept-Language header.
   const headersList = await headers();
   const acceptLanguage = headersList.get('accept-language') || 'en';
 
-  const locale: SupportedLocale = fromCookie ?? parseAcceptLanguage(acceptLanguage);
+  const locale: SupportedLocale = fromCookie ?? (isBot ? 'en' : parseAcceptLanguage(acceptLanguage));
 
   // English is deep-merged underneath every locale so a key that hasn't
   // been translated yet falls back to English instead of rendering a raw

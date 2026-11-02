@@ -65,7 +65,7 @@ export function FAQContent() {
                     className="flex w-full items-center justify-between gap-4 px-5 py-5 text-left sm:px-6"
                     aria-expanded={isOpen}
                   >
-                    <span className="t-h4 text-white">{item.question}</span>
+                    <h3 className="t-h4 text-white">{item.question}</h3>
                     <span
                       aria-hidden="true"
                       className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-transform duration-300 ${

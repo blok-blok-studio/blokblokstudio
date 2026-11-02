@@ -3,6 +3,8 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
+  /** YYYY-MM-DD of the last substantive edit; defaults to `date`. */
+  updated?: string;
   readTime: string;
   category: string;
   image: string;

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
 import { getBlogPost, getAllBlogSlugs } from '@/data/blog';
 import { V2BlogPost } from '@/components/v2/V2BlogPost';
 import { BreadcrumbSchema } from '@/app/structured-data';
@@ -18,6 +18,7 @@ export async function generateMetadata({
   const post = getBlogPost(slug);
   if (!post) return { title: 'Post Not Found' };
   const t = await getTranslations('blog');
+  const locale = await getLocale();
   const title = t(`posts.${post.slug}.title` as 'posts');
   const description = t(`posts.${post.slug}.description` as 'posts');
 
@@ -54,27 +55,26 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const t = await getTranslations('blog');
+  const locale = await getLocale();
   const title = t(`posts.${post.slug}.title` as 'posts');
   const description = t(`posts.${post.slug}.description` as 'posts');
   const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: title,
     description,
     image: `https://www.blokblokstudio.com${post.image}`,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.updated ?? post.date,
+    inLanguage: locale,
     mainEntityOfPage: `https://www.blokblokstudio.com/blog/${post.slug}`,
     author: {
-      '@type': 'Organization',
-      name: 'Blok Blok Studio',
-      url: 'https://www.blokblokstudio.com',
+      '@type': 'Person',
+      name: 'Chase Haynes',
+      jobTitle: 'Founder',
+      url: 'https://www.blokblokstudio.com/team',
     },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Blok Blok Studio',
-      logo: { '@type': 'ImageObject', url: 'https://www.blokblokstudio.com/logo.png' },
-    },
+    publisher: { '@id': 'https://www.blokblokstudio.com/#organization' },
   };
 
   return (

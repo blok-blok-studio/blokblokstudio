@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const projectSlugs = getAllProjectSlugs();
 
   // Stable dates: new Date() on every build erases freshness signals.
-  const SITE_UPDATED = new Date('2026-07-17');
+  const SITE_UPDATED = new Date('2026-11-02');
 
   // Video sitemap extensions, keyed by the page each video is canonical to.
   // Google will not discover a self-hosted mp4 from the <video> tag alone;

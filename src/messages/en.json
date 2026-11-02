@@ -141,7 +141,6 @@
     "v2_proof_2_label": "Google rating, 52 reviews, Bronco Plumbing",
     "v2_proof_3_value": "200%",
     "v2_proof_3_label": "More consultation requests, Coach Kofi",
-    "v2_quotes_label": "Clients",
     "v2_clients_label": "Trusted by",
     "v2_talk": "Let's talk.",
     "v2_talk_sub": "Tell us what the site needs to do.",
@@ -161,11 +160,6 @@
     "v2_quiz_title": "Find out where your business is losing customers.",
     "v2_quiz_sub": "Five questions, one minute. We show you what we would fix first.",
     "v2_quiz_cta": "Take the 1-minute quiz",
-    "v2_quiz_step_1": "Your business type",
-    "v2_quiz_step_2": "What you need help with",
-    "v2_quiz_step_3": "Budget range",
-    "v2_quiz_step_4": "Timeline",
-    "v2_quiz_step_5": "How to reach you",
     "v2_hero_cta": "Start a project",
     "v2_quiz_link": "Take the quiz",
     "v2_globe_label": "Where our clients are",
@@ -185,20 +179,12 @@
     "v2_hosting_bullet_3": "Security updates",
     "v2_hosting_bullet_4": "Speed and Core Web Vitals",
     "v2_hosting_bullet_5": "Content changes when you need them",
-    "v2_globe_hint": "Drag to spin, scroll or pinch to zoom, or pick a city.",
     "v2_proof_4_value": "$3B+",
     "v2_proof_4_label": "Revenue of our largest client, Philippine Airlines",
     "v2_result_public_affair": "A premium age-gated entry that 95% of visitors complete.",
     "v2_result_military_newschool": "A digital home that speaks to military-affiliated students.",
     "v2_archive": "archive",
     "v2_globe_nowebgl": "WebGL is off in this browser. The cities are listed below.",
-    "v2_quote_1_role": "Bronco Plumbing, Dallas-Fort Worth",
-    "v2_quote_2_role": "Nike athlete, Berlin",
-    "v2_quote_3_role": "Trading card store",
-    "v2_quote_1_text": "$50,000 in gross revenue in the first five months, a 5.0-star rating across 52 Google reviews, and an average Google position of 5.2 for his search terms.",
-    "v2_quote_2_text": "Communication with him is really easy. You need someone that's responsive, knows his things, and can adapt to your needs. I'd really recommend Chase, or Blok Blok Studio.",
-    "v2_quote_3_text": "$191,042 in trading card sales across 1,790 orders on the Shopify store we built. Drops sold out in hours.",
-    "v2_quote_1_kind": "Results",
     "v2_offer_title": "Websites, built and hosted",
     "v2_offer_subtitle": "Custom build, with hosting and care included",
     "v2_offer_build_label": "The build",
@@ -319,7 +305,9 @@
         "title": "Grant Parkhurst Photography: portfolio and client portal shipped",
         "summary": "A photography-first site where no image is cropped, plus a portal where the photographer uploads galleries and clients download their own sets."
       }
-    }
+    },
+    "byline": "By {name}",
+    "updated": "Updated {date}"
   },
   "services": {
     "title": "Our Services",
@@ -1374,7 +1362,13 @@
     "knows_1": "Web Design",
     "knows_2": "Next.js Development",
     "knows_3": "SEO",
-    "knows_4": "Conversion Optimization"
+    "knows_4": "Conversion Optimization",
+    "svc_build_name": "Website design and build",
+    "svc_build_desc": "Custom websites designed and hand-coded in Next.js, from a single landing page to 15 pages with e-commerce. From $2,000.",
+    "svc_redesign_name": "Website redesign",
+    "svc_redesign_desc": "An existing site rebuilt on the same tiers as a new build: new design, new code, same URLs kept for search. From $2,000.",
+    "svc_hosting_name": "Hosting and care",
+    "svc_hosting_desc": "Managed hosting on Vercel with monitoring, backups, security updates and monthly content edits. From $550 per month."
   },
   "card": {
     "meta_title": "Bridget Perdomo",

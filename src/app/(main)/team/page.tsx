@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { V2TeamContent } from '@/components/v2/V2TeamContent';
-import { BreadcrumbSchema } from '@/app/structured-data';
+import { BreadcrumbSchema, TeamSchema } from '@/app/structured-data';
+import { MEMBERS } from '@/data/team';
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('team');
@@ -34,6 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function TeamPage() {
+  const tt = await getTranslations('team');
   const nav = await getTranslations('nav');
   return (
     <div className="page-transition">
@@ -41,6 +43,15 @@ export default async function TeamPage() {
         { name: nav('home'), url: '/' },
         { name: nav('team'), url: '/team' },
       ]} />
+      <TeamSchema
+        members={MEMBERS.map((m) => ({
+          name: m.name,
+          jobTitle: tt(m.roleKey),
+          image: m.photo,
+          url: 'https://www.blokblokstudio.com/team',
+          sameAs: Object.values(m.socials ?? {}),
+        }))}
+      />
       <V2TeamContent />
     </div>
   );

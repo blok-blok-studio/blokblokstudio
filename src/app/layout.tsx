@@ -114,7 +114,6 @@ export async function generateMetadata(): Promise<Metadata> {
   alternates: {
     canonical: 'https://www.blokblokstudio.com',
     languages: {
-      en: 'https://www.blokblokstudio.com',
       'x-default': 'https://www.blokblokstudio.com',
     },
   },

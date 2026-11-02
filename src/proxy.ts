@@ -51,6 +51,8 @@ export function proxy(request: NextRequest) {
   // ── SOC 2 Required Security Headers ──
   response.headers.set('Content-Security-Policy', csp);
   response.headers.set('X-Content-Type-Options', 'nosniff');
+  // Same URL serves 20 languages by cookie and Accept-Language.
+  response.headers.set('Vary', 'Accept-Language, Cookie');
   response.headers.set('X-Frame-Options', 'DENY');
   response.headers.set('X-XSS-Protection', '1; mode=block');
   response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
