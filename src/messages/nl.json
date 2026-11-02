@@ -15,93 +15,100 @@
     "cookies": "Cookiebeleid",
     "impressum": "Colofon",
     "data_rights": "Uw Datarechten",
-    "accessibility": "Toegankelijkheid"
+    "accessibility": "Toegankelijkheid",
+    "v2_work": "Werk",
+    "v2_studio": "Studio",
+    "v2_services": "Diensten",
+    "v2_journal": "Journal",
+    "v2_cta": "Start een project",
+    "v2_ideas": "Ideeën",
+    "v2_careers": "Werken bij"
   },
   "faq": {
-    "meta_title": "FAQ | AI Agency & Web Design Studio in Berlin",
-    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio, a Berlin-based digital agency serving clients worldwide.",
-    "hero_eyebrow": "Frequently Asked Questions",
-    "hero_title": "Everything you wanted to ask",
-    "hero_subtitle": "Honest answers about how we work, what we charge, and what we build. If you don't see your question, book a free 30-minute call.",
-    "category_pricing": "Pricing & Investment",
-    "category_process": "Process & Timeline",
-    "category_capabilities": "Services & Capabilities",
-    "category_trust": "Working with Blok Blok Studio",
-    "cta_heading": "Still have questions?",
-    "cta_subheading": "Book a free 30-minute strategy call. No pitch, no pressure, just answers.",
-    "cta_button": "Book Your Free Call",
+    "meta_title": "FAQ, webdesignstudio in Berlijn",
+    "meta_description": "Antwoorden over prijzen, doorlooptijden, maatwerkwebsites en samenwerken met Blok Blok Studio, een webdesignstudio in Berlijn met klanten wereldwijd.",
+    "hero_eyebrow": "Veelgestelde vragen",
+    "hero_title": "Alles wat je wilde vragen",
+    "hero_subtitle": "Eerlijke antwoorden over hoe we werken, wat we rekenen en wat we bouwen. Staat je vraag er niet bij, plan dan een gratis gesprek van 30 minuten.",
+    "category_pricing": "Prijzen en investering",
+    "category_process": "Proces en planning",
+    "category_capabilities": "Diensten en mogelijkheden",
+    "category_trust": "Samenwerken met Blok Blok Studio",
+    "cta_heading": "Nog vragen?",
+    "cta_subheading": "Plan een gratis strategiegesprek van 30 minuten. Geen pitch, geen druk, alleen antwoorden.",
+    "cta_button": "Plan je gratis gesprek",
     "see_all_questions": "Bekijk alle vragen",
     "filter_all": "Alles",
     "items": [
       {
         "category": "pricing",
-        "question": "How much does a custom website cost?",
-        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one, never templates."
+        "question": "Wat kost een website op maat?",
+        "answer": "Maatwerkwebsites bij Blok Blok Studio beginnen bij $2,000 voor één landingspagina, $6,500 voor een site van 5 pagina's, $12,000 voor 10 pagina's met CMS en $18,000 voor 15 of meer pagina's. De prijs hangt af van het aantal pagina's, custom animaties, integraties en de behoefte aan copywriting. Elke site wordt gebouwd in Next.js, gehost op Vercel en vanaf dag één SEO-geoptimaliseerd, nooit templates."
       },
       {
         "category": "pricing",
-        "question": "How much does an AI chatbot cost to build?",
-        "answer": "An AI chatbot trained on 100+ Q&A pairs and embedded site-wide is included in our $18,000 Conversational AI suite, which also covers a voice agent, SMS automations, and a full content pipeline. As a standalone add-on to a website tier, an AI chatbot starts at $2,500. All bots integrate with your CRM and capture leads 24/7."
+        "question": "Wat kost het bouwen van een AI-chatbot?",
+        "answer": "Een AI-chatbot getraind op 100+ vraag-antwoordparen en op de hele site ingebouwd zit in onze Conversationele AI-suite van $18,000, die ook een voice-agent, sms-automatiseringen en een complete contentpipeline omvat. Als losse uitbreiding op een websitepakket begint een AI-chatbot bij $2,500. Alle bots integreren met je CRM en vangen 24/7 leads op."
       },
       {
         "category": "pricing",
-        "question": "How much does an AI voice agent cost per month?",
-        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human, all in natural conversational language."
+        "question": "Wat kost een AI-voice-agent per maand?",
+        "answer": "De setup van onze AI-voice-agent begint bij $2,500 eenmalig, met 500 belminuten inbegrepen voor de eerste maand. Daarna worden minuten gefactureerd tegen standaard telefonietarieven en opgenomen in een maandelijkse retainer. De agent beantwoordt gesprekken, kwalificeert leads, boekt afspraken en stuurt urgente gesprekken door naar een mens, allemaal in natuurlijke spreektaal."
       },
       {
         "category": "pricing",
-        "question": "Do you offer monthly retainers or just project work?",
-        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth: Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
+        "question": "Bieden jullie maandelijkse retainers of alleen projecten?",
+        "answer": "Allebei. Projecten beginnen bij $2,000 en worden gefactureerd in mijlpalen. Retainers beginnen bij $1,500 per maand voor siteonderhoud, AI-monitoring en CRM-beheer, of $3,500 per maand voor full-service groei, beheer van Google- en Meta-advertenties, AI-ondersteunde contentproductie en 5 uur developmentwerk per maand. Retainers hebben een minimum van 3 of 6 maanden."
       },
       {
         "category": "process",
-        "question": "How long does it take to build a custom website?",
-        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast, most agencies take 2 to 3 times longer."
+        "question": "Hoe lang duurt het bouwen van een website op maat?",
+        "answer": "Eén landingspagina gaat meestal binnen 2 tot 3 weken live. Een site van 5 pagina's duurt 4 tot 6 weken. Een site van 10 pagina's met CMS en AI-integraties duurt 8 tot 12 weken. De planning hangt af van hoe snel je content, merkinput en goedkeuringen aanlevert. Wij werken snel, de meeste bureaus doen er 2 tot 3 keer zo lang over."
       },
       {
         "category": "process",
-        "question": "How long does it take to deploy an AI agent?",
-        "answer": "A standard AI chatbot trained on your existing FAQs is live in 7 to 10 business days. A voice agent with a custom call script takes 10 to 14 days. A full multi-agent ecosystem with CRM, calendar, and payment integrations takes 4 to 8 weeks depending on complexity. We start with a discovery call, then a paid scoping document, then build."
+        "question": "Hoe lang duurt het om een AI-agent live te zetten?",
+        "answer": "Een standaard AI-chatbot getraind op je bestaande FAQ's is binnen 7 tot 10 werkdagen live. Een voice-agent met een eigen belscript duurt 10 tot 14 dagen. Een volledig multi-agent-ecosysteem met CRM-, agenda- en betaalintegraties duurt 4 tot 8 weken, afhankelijk van de complexiteit. We beginnen met een kennismakingsgesprek, dan een betaald scopingdocument, dan de build."
       },
       {
         "category": "process",
-        "question": "What does the design and build process look like?",
-        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone, no live status meetings unless you want one."
+        "question": "Hoe ziet het ontwerp- en bouwproces eruit?",
+        "answer": "Vijf fases: Verkenning (je doelen en doelgroep), Strategie (een routekaart op maat), Ontwerp (visuele concepten en prototypes), Ontwikkeling (moderne, snelle code) en Lancering en optimalisatie (live zetten, monitoren, verfijnen). Je krijgt wekelijkse updates en bij elke mijlpaal een Loom-walkthrough, geen live statusmeetings tenzij je die wilt."
       },
       {
         "category": "capabilities",
-        "question": "What's the difference between an AI chatbot and an AI voice agent?",
-        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps. It answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
+        "question": "Wat is het verschil tussen een AI-chatbot en een AI-voice-agent?",
+        "answer": "Een AI-chatbot werkt met tekst en staat op je website of in berichtenapps: hij beantwoordt FAQ's, boekt afspraken en vangt leads op via chat. Een AI-voice-agent beantwoordt echte telefoongesprekken in natuurlijke spreektaal. Voice-agents zijn het sterkst voor inkomende sales, support buiten kantooruren en afspraakbevestigingen. Veel bedrijven gebruiken beide voor volledige dekking."
       },
       {
         "category": "capabilities",
-        "question": "Can your AI agents integrate with HubSpot, Salesforce, or GoHighLevel?",
-        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector, no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
+        "question": "Kunnen jullie AI-agents integreren met HubSpot, Salesforce of GoHighLevel?",
+        "answer": "Ja. Onze AI-agents en automatiseringen integreren standaard met HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe en Calendly. Voor CRM's en tools zonder bestaande integratie bouwen we een eigen connector, zonder Zapier-tussenlaag. Je data blijft in je eigen systemen; wij laten ze alleen met elkaar praten."
       },
       {
         "category": "capabilities",
-        "question": "Do you build websites in Next.js, WordPress, or Webflow?",
-        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow, those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
+        "question": "Bouwen jullie websites in Next.js, WordPress of Webflow?",
+        "answer": "We bouwen uitsluitend in Next.js met TypeScript, Tailwind CSS en Framer Motion. Sites worden gehost op Vercel voor laadtijden onder een seconde en wereldwijde edge-levering. We bouwen niet in WordPress, Wix, Squarespace of Webflow: die platforms kunnen de performance, custom animaties en AI-integraties die onze klanten nodig hebben niet leveren."
       },
       {
         "category": "capabilities",
-        "question": "Do you write the website copy, or do I provide it?",
-        "answer": "Either works. Most clients provide raw notes or bullet points and we shape them into final copy. Full professional copywriting is included at our $18,000 tier and available as a $200/page add-on at any other tier. Ad copy for Google and Meta campaigns is always written by us when we manage the ads."
+        "question": "Schrijven jullie de teksten voor de website, of lever ik die aan?",
+        "answer": "Beide kan. De meeste klanten leveren ruwe notities of bullets aan en wij vormen die om tot definitieve tekst. Volledige professionele copywriting is inbegrepen in ons pakket van $18,000 en bij elk ander pakket beschikbaar als uitbreiding voor $200 per pagina. Advertentieteksten voor Google- en Meta-campagnes schrijven wij altijd zelf wanneer wij de advertenties beheren."
       },
       {
         "category": "trust",
-        "question": "Where is Blok Blok Studio located, and do you work internationally?",
-        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text, we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
+        "question": "Waar zit Blok Blok Studio, en werken jullie internationaal?",
+        "answer": "Onze studio zit in Berlijn, Duitsland. We werken met klanten in de Verenigde Staten, het Verenigd Koninkrijk, Nederland, Frankrijk, Spanje en de hele EU. Communicatie verloopt asynchroon via Loom, e-mail en berichten, dus elke tijdzone past. Facturatie en contracten zijn beschikbaar in USD of EUR, net wat je voorkeur heeft."
       },
       {
         "category": "trust",
-        "question": "Do I own my website code and AI agent configurations?",
-        "answer": "Yes, completely. On project completion you receive full ownership of the code, design files, AI prompts, and automation configurations. The site is deployed to your own Vercel account under your billing. The CRM, ad accounts, and domains stay in your name from day one. We never lock clients into our systems."
+        "question": "Ben ik eigenaar van mijn websitecode en AI-agentconfiguraties?",
+        "answer": "Ja, volledig. Bij oplevering krijg je het volledige eigendom van de code, designbestanden, AI-prompts en automatiseringsconfiguraties. De site wordt uitgerold op je eigen Vercel-account, op jouw factuur. Het CRM, de advertentieaccounts en de domeinen staan vanaf dag één op jouw naam. We sluiten klanten nooit op in onze systemen."
       },
       {
         "category": "trust",
-        "question": "Will my site be mobile-responsive and SEO-optimized?",
-        "answer": "Yes, both are non-negotiable in every build. Mobile-first responsive design is tested at 375px, 768px, 1024px, and 1440px. Every page ships with meta titles, descriptions, schema markup, alt text, and a sitemap submitted to Google. We target Lighthouse scores of 90+ for performance and 95+ for accessibility before launch."
+        "question": "Wordt mijn site responsive en SEO-geoptimaliseerd?",
+        "answer": "Ja, beide zijn onlosmakelijk onderdeel van elke build. Mobile-first responsive design wordt getest op 375px, 768px, 1024px en 1440px. Elke pagina wordt opgeleverd met metatitels, beschrijvingen, schema-markup, alt-teksten en een sitemap die bij Google is ingediend. We mikken vóór de lancering op Lighthouse-scores van 90+ voor performance en 95+ voor toegankelijkheid."
       }
     ]
   },
@@ -109,19 +116,19 @@
     "hero_title": "Wij Bouwen Digitale Ervaringen",
     "hero_subtitle": "Een creatieve studio die gedurfde merken, verbluffende websites en digitale producten maakt die mensen raken.",
     "hero_cta": "Start een Project",
-    "clients_heading": "Trusted by forward-thinking brands",
+    "clients_heading": "Vertrouwd door vooruitstrevende merken",
     "services_heading": "Wat Wij Doen",
     "services_subheading": "Wij combineren strategie, design en technologie om digitale ervaringen te creëren die resultaat opleveren.",
     "projects_heading": "Uitgelicht Werk",
     "projects_subheading": "Een showcase van projecten waar creativiteit en doel samenkomen.",
     "projects_cta": "Bekijk Alle Projecten",
-    "testimonials_heading": "What Our Clients Say",
-    "testimonials_subtitle": "Don't just take our word for it. Hear from the brands we've helped transform.",
-    "newsletter_heading": "Get Design Insights Weekly",
-    "newsletter_subtitle": "Join 2,000+ founders and creatives getting actionable tips on design, branding, and digital growth every Thursday.",
-    "newsletter_placeholder": "Enter your email",
-    "newsletter_button": "Subscribe",
-    "newsletter_privacy": "No spam, ever. Unsubscribe anytime.",
+    "testimonials_heading": "Wat onze klanten zeggen",
+    "testimonials_subtitle": "Neem het niet alleen van ons aan. Hoor het van de merken die we hebben helpen transformeren.",
+    "newsletter_heading": "Wekelijks designinzichten in je inbox",
+    "newsletter_subtitle": "Sluit je aan bij 2.000+ founders en creatievelingen die elke donderdag praktische tips krijgen over design, branding en digitale groei.",
+    "newsletter_placeholder": "Vul je e-mailadres in",
+    "newsletter_button": "Inschrijven",
+    "newsletter_privacy": "Nooit spam. Uitschrijven kan altijd.",
     "newsletter_subscribed": "Je bent aangemeld!",
     "newsletter_already_subscribed": "Je bent al aangemeld",
     "newsletter_consent": "Door je aan te melden, ga je akkoord met ons <link>Privacybeleid</link>. Op elk moment afmelden.",
@@ -138,7 +145,115 @@
     "stats_projects": "Opgeleverde projecten",
     "stats_brands": "Merken bediend",
     "stats_industries": "Branches",
-    "stats_custom": "Maatwerk, geen templates"
+    "stats_custom": "Maatwerk, geen templates",
+    "v2_tagline": "Webdesignstudio in Berlijn",
+    "v2_locations": "Berlijn · Virginia · Los Angeles",
+    "v2_scroll": "Scrollen",
+    "v2_manifesto_a": "Een boutique designstudio in Berlijn. Premium, origineel werk voor ambitieuze merken wereldwijd. Geen templates,",
+    "v2_manifesto_em": "gebouwd blok voor blok.",
+    "v2_about_link": "Over de studio",
+    "v2_services_label": "Wat we doen",
+    "v2_services_link": "Alle diensten",
+    "v2_service_1_title": "Maatwerk Next.js-builds",
+    "v2_service_1_detail": "Handgebouwde React-front-ends, geen page builders, geen thema's. Snel op elk apparaat en later makkelijk uit te breiden.",
+    "v2_service_2_title": "Design gericht op conversie",
+    "v2_service_2_detail": "Elke pagina is opgebouwd rond één actie: boeken, kopen of bellen. Tekst, hiërarchie en bewijs wijzen allemaal dezelfde kant op.",
+    "v2_service_3_title": "SEO vanaf dag één",
+    "v2_service_3_detail": "Technische SEO, gestructureerde data en lokale vindbaarheid zitten in de build ingebakken, niet achteraf erop geplakt.",
+    "v2_service_4_title": "E-commerce",
+    "v2_service_4_detail": "Shopify- en headless webshops met verzending, e-mailcapture en drop-mechanieken van begin tot eind ingericht.",
+    "v2_service_5_title": "Onderhoud en performance",
+    "v2_service_5_detail": "Hosting, monitoring, snelheidsoptimalisatie en contentupdates na de lancering, zodat de site blijft opleveren.",
+    "v2_work_label": "Geselecteerd werk",
+    "v2_work_link": "Alle projecten",
+    "v2_result_coach_luki": "Klanten boeken en betalen via de site. Lokale SEO brengt zoekers uit Berlijn binnen.",
+    "v2_result_bronco_plumbing": "$50k in de eerste 5 maanden. 5.0 sterren over 52 Google-reviews.",
+    "v2_result_coach_kofi": "200% meer consultaanvragen na de lancering.",
+    "v2_result_exotic_ripz": "$191k omzet uit 1.790 bestellingen. Drops binnen enkele uren uitverkocht.",
+    "v2_result_kds_systems": "Een helder dienstenverhaal en een boekingsflow die meer gekwalificeerde leads opleverde.",
+    "v2_proof_label": "De cijfers",
+    "v2_proof_1_value": "$191k",
+    "v2_proof_1_label": "Omzet via één webshop die wij opleverden",
+    "v2_proof_2_value": "5.0",
+    "v2_proof_2_label": "Google-score over 52 reviews, Bronco Plumbing",
+    "v2_proof_3_value": "200%",
+    "v2_proof_3_label": "Meer consultaanvragen, Coach Kofi",
+    "v2_quotes_label": "Klanten",
+    "v2_clients_label": "Vertrouwd door",
+    "v2_talk": "Laten we praten.",
+    "v2_talk_sub": "Vertel ons wat de site moet doen. Wij vertellen je wat daarvoor nodig is.",
+    "v2_founder": "Oprichter",
+    "v2_email": "Stuur een bericht",
+    "v2_whatsapp": "WhatsApp",
+    "v2_book": "Plan een gesprek",
+    "v2_loc_label": "Studio",
+    "v2_pages_label": "Pagina's",
+    "v2_legal_label": "Juridisch",
+    "v2_social_label": "Socials",
+    "v2_open_menu": "Menu openen",
+    "v2_close_menu": "Menu sluiten",
+    "v2_rights": "Alle rechten voorbehouden.",
+    "v2_services_sub": "Eén pakket, goed gedaan. Wij ontwerpen en bouwen de site, hosten hem en houden hem draaiend.",
+    "v2_group_1": "Websites en merk",
+    "v2_group_1_detail": "Ontwerp en bouw, plus de identiteit die erbij hoort.",
+    "v2_group_2": "Betaalde groei",
+    "v2_group_2_detail": "Zoek- en socialcampagnes die de site voeden die wij bouwden.",
+    "v2_group_3": "AI en automatisering",
+    "v2_group_3_detail": "Agents, chat, workflows en dashboards die de backoffice draaiende houden.",
+    "v2_quiz_label": "Weet je niet waar je moet beginnen?",
+    "v2_quiz_title": "Ontdek waar je bedrijf klanten verliest.",
+    "v2_quiz_sub": "Vijf korte vragen. We laten zien wat wij als eerste zouden aanpakken, daarna kies je een moment om te praten. Ongeveer een minuut.",
+    "v2_quiz_cta": "Doe de quiz van 1 minuut",
+    "v2_quiz_step_1": "Je type bedrijf",
+    "v2_quiz_step_2": "Waar je hulp bij nodig hebt",
+    "v2_quiz_step_3": "Budgetrange",
+    "v2_quiz_step_4": "Planning",
+    "v2_quiz_step_5": "Hoe we je bereiken",
+    "v2_hero_cta": "Start een project",
+    "v2_quiz_link": "Doe de quiz",
+    "v2_globe_label": "Waar onze klanten zitten",
+    "v2_globe_title": "Gebouwd in Berlijn. Vertrouwd in Europa, Noord-Amerika en Azië.",
+    "v2_globe_sub": "{clients} merken in {cities} steden op {continents} continenten, met een team dat werkt in vier tijdzones. Je project gaat door terwijl jij slaapt.",
+    "v2_globe_studio": "Studio",
+    "v2_globe_clients": "Klanten",
+    "v2_globe_team": "Team",
+    "v2_headline": "Merken bouwen, blok voor blok.",
+    "v2_see_work": "Bekijk ons werk",
+    "v2_globe_client_one": "Klant",
+    "v2_globe_cities": "steden",
+    "v2_hosting_title": "Hosting en onderhoud",
+    "v2_hosting_subtitle": "Snel, bewaakt, up-to-date gehouden",
+    "v2_hosting_bullet_1": "Managed hosting op Vercel met een wereldwijd CDN",
+    "v2_hosting_bullet_2": "SSL, back-ups en uptimemonitoring",
+    "v2_hosting_bullet_3": "Beveiligings- en dependency-updates",
+    "v2_hosting_bullet_4": "Snelheidsoptimalisatie en Core Web Vitals-checks",
+    "v2_hosting_bullet_5": "Contentwijzigingen en support wanneer je ze nodig hebt",
+    "v2_globe_hint": "Sleep om te draaien, scroll of knijp om te zoomen, of kies een stad.",
+    "v2_proof_4_value": "$3B+",
+    "v2_proof_4_label": "Jaaromzet van onze grootste klant, Philippine Airlines",
+    "v2_result_public_affair": "Een premium leeftijdscheck bij de ingang die 95% van de bezoekers afrondt.",
+    "v2_result_military_newschool": "Een digitaal thuis dat studenten met een militaire achtergrond aanspreekt.",
+    "v2_archive": "archief",
+    "v2_globe_nowebgl": "WebGL staat uit in deze browser. De steden staan hiernaast opgesomd.",
+    "v2_quote_1_role": "Bronco Plumbing, Dallas-Fort Worth",
+    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_3_role": "Ruilkaartenwinkel",
+    "v2_quote_1_text": "$50,000 bruto-omzet in de eerste vijf maanden, een score van 5.0 sterren over 52 Google-reviews en een gemiddelde Google-positie van 5.2 voor zijn zoektermen.",
+    "v2_quote_2_text": "Blok Blok Studio heeft mijn online aanwezigheid compleet getransformeerd. Het gedurfde design vangt mijn coachingfilosofie perfect en de resultaten zijn ongelooflijk.",
+    "v2_quote_3_text": "De webshop die ze voor ons bouwden is ongelooflijk. Onze boosterpack-drops zijn binnen enkele uren uitverkocht en de betrokkenheid van de community via de site is geweldig.",
+    "v2_quote_1_kind": "Resultaten",
+    "v2_offer_title": "Websites, gebouwd en gehost",
+    "v2_offer_subtitle": "Maatwerk build, gericht op conversie, met hosting en onderhoud inbegrepen",
+    "v2_offer_build_label": "De build",
+    "v2_offer_care_label": "Hosting en onderhoud, inbegrepen",
+    "v2_result_grant_parkhurst": "Portfolio plus een selfservice klantenportaal, live sinds september 2026.",
+    "v2_next_label": "Wat er daarna gebeurt",
+    "v2_next_1_title": "We bellen je terug",
+    "v2_next_1_desc": "Binnen één werkdag. Twintig minuten over wat de site voor het bedrijf moet doen, meer niet.",
+    "v2_next_2_title": "Scope en één vaste prijs",
+    "v2_next_2_desc": "Een schriftelijk plan met pagina's, planning en één bedrag. Vijf pagina's vanaf {price}, geen uurtje-factuurtje.",
+    "v2_next_3_title": "Van kick-off tot lancering",
+    "v2_next_3_desc": "Aanbetaling binnen, wij beginnen. De meeste sites van vijf pagina's gaan binnen vier tot zes weken live, hosting en onderhoud inbegrepen."
   },
   "projects": {
     "title": "Onze Projecten",
@@ -148,7 +263,12 @@
     "filter_brand": "Branding",
     "filter_app": "App-ontwikkeling",
     "filter_marketing": "Marketing",
-    "view_project": "Bekijk Project"
+    "view_project": "Bekijk Project",
+    "cat_web": "Webdesign",
+    "cat_ecom": "E-commerce",
+    "cat_brand": "Branding",
+    "v2_label": "Geselecteerd werk",
+    "v2_count": "{count} projecten"
   },
   "about": {
     "title": "Over Ons",
@@ -169,12 +289,28 @@
     "stats_projects": "Opgeleverde Projecten",
     "stats_clients": "Tevreden Klanten",
     "stats_years": "Jaar Ervaring",
-    "stats_awards": "Sectoren Bediend"
+    "stats_awards": "Sectoren Bediend",
+    "v2_label": "De studio",
+    "v2_intro": "Bewust boutique. We nemen een handvol merken tegelijk aan, zodat elke site een founder aan tafel krijgt, geen template en een ticketnummer.",
+    "v2_team_label": "Met wie je werkt",
+    "v2_team_link": "Maak kennis met het team",
+    "v2_cta": "Begin met de quiz",
+    "ind_fitness": "Fitness en coaching",
+    "ind_home_services": "Installateurs en klusbedrijven",
+    "ind_childcare": "Kinderopvang",
+    "ind_real_estate": "Vastgoed",
+    "ind_education": "Hoger onderwijs",
+    "ind_wellness": "Wellness en evenementen",
+    "ind_photography": "Fotografie",
+    "ind_it": "IT-diensten",
+    "ind_cannabis": "Cannabisretail",
+    "ind_aviation": "Luchtvaart",
+    "ind_collectibles": "E-commerce voor verzamelobjecten"
   },
   "blog": {
     "meta_title": "Blog: inzichten over webdesign, branding en SEO",
     "meta_description": "Expertinzichten over webdesign, branding, SEO en digitale marketing van Blok Blok Studio. Praktische tips om uw online aanwezigheid te laten groeien.",
-    "og_alt": "Blok Blok Studio Blog",
+    "og_alt": "Blog van Blok Blok Studio",
     "list_title": "Inzichten",
     "list_subtitle": "Experttips over webdesign, branding, SEO en het laten groeien van uw digitale aanwezigheid.",
     "read_time": "{minutes} min leestijd",
@@ -199,94 +335,143 @@
         "description": "Uw merk is meer dan een logo. Een sterke merkidentiteit bouwt vertrouwen op, rechtvaardigt premium prijzen en maakt van klanten ambassadeurs.",
         "category": "Branding"
       }
+    },
+    "v2_label": "Ideeën",
+    "v2_tab_all": "Alles",
+    "v2_tab_read": "Lezen",
+    "v2_tab_watch": "Kijken",
+    "v2_tab_news": "Nieuws",
+    "v2_type_read": "Lezen",
+    "v2_type_watch": "Kijken",
+    "v2_type_news": "Nieuws",
+    "v2_more": "Meer",
+    "v2_count": "{count, plural, one {# bijdrage} other {# bijdragen}}",
+    "news": {
+      "philippine-airlines": {
+        "title": "Blok Blok Studio werkt met Philippine Airlines",
+        "summary": "De nationale luchtvaartmaatschappij van de Filipijnen, met een jaaromzet van meer dan $3 miljard, is tot nu toe onze grootste klant. Een Berlijnse studio van vijf, vertrouwd in Manilla."
+      },
+      "brand-guidelines-v2": {
+        "title": "Brand Guidelines V2: Montserrat, Inter en een nieuwe lockup",
+        "summary": "Versie twee van onze identiteit, gedateerd 16 oktober 2026. Twee lettertypes, één lockup en de zin die nu de site opent: Merken bouwen, blok voor blok."
+      },
+      "grant-parkhurst-portal": {
+        "title": "Grant Parkhurst Photography: portfolio en klantenportaal opgeleverd",
+        "summary": "Een site waar fotografie vooropstaat en geen enkel beeld wordt bijgesneden, plus een portaal waar de fotograaf galerijen uploadt en klanten hun eigen sets downloaden."
+      }
     }
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",
-    "section_ai_title": "AI & Automation",
-    "section_creative_title": "Creative & Marketing",
-    "service_1_title": "AI Agent Ecosystems",
-    "service_1_subtitle": "Interconnected sub agents that run entire workflows",
-    "service_1_bullet_1": "Multi agent orchestration",
-    "service_1_bullet_2": "Lead to score to email to text to call",
-    "service_1_bullet_3": "Autonomous decision making",
-    "service_1_bullet_4": "Human in the loop escalation",
-    "service_1_bullet_5": "24/7 operation with zero downtime",
-    "service_2_title": "Conversational AI",
-    "service_2_subtitle": "Chatbots and voice agents that qualify leads nonstop",
-    "service_2_bullet_1": "Website AI chat widget",
-    "service_2_bullet_2": "AI voice agents for inbound calls",
-    "service_2_bullet_3": "Appointment booking on autopilot",
-    "service_2_bullet_4": "FAQ handling and lead qualification",
-    "service_2_bullet_5": "Natural language, not robotic",
-    "service_3_title": "Workflow Automation",
-    "service_3_subtitle": "Connect every tool into one seamless system",
-    "service_3_bullet_1": "CRM, calendar, and payments linked",
-    "service_3_bullet_2": "Custom integrations (no Zapier tax)",
-    "service_3_bullet_3": "AI decision logic in the loop",
-    "service_3_bullet_4": "Error handling and retry flows",
-    "service_3_bullet_5": "Client onboarding automation",
-    "service_4_title": "AI Content Systems",
-    "service_4_subtitle": "One input becomes 10 pieces of content",
-    "service_4_bullet_1": "Video to clips, captions, and posts",
-    "service_4_bullet_2": "Blog generation from transcripts",
-    "service_4_bullet_3": "Social media scheduling pipeline",
-    "service_4_bullet_4": "Brand voice consistency via AI",
-    "service_4_bullet_5": "Cross platform repurposing",
-    "service_5_title": "Client Dashboards",
-    "service_5_subtitle": "Real time portals so clients never ask for updates",
-    "service_5_bullet_1": "Live lead and pipeline tracking",
-    "service_5_bullet_2": "Ad spend and ROAS in real time",
-    "service_5_bullet_3": "Automated weekly report emails",
-    "service_5_bullet_4": "Custom KPI widgets per client",
-    "service_5_bullet_5": "White labeled to your brand",
+    "title": "Onze diensten",
+    "subtitle": "Maatwerk webdesign en development dat echte bedrijfsgroei oplevert.",
+    "section_ai_title": "AI en automatisering",
+    "section_creative_title": "Creatie en marketing",
+    "service_1_title": "AI-agent-ecosystemen",
+    "service_1_subtitle": "Gekoppelde sub-agents die complete workflows draaien",
+    "service_1_bullet_1": "Orkestratie van meerdere agents",
+    "service_1_bullet_2": "Van lead naar score naar e-mail naar sms naar telefoontje",
+    "service_1_bullet_3": "Autonome besluitvorming",
+    "service_1_bullet_4": "Escalatie naar een mens waar nodig",
+    "service_1_bullet_5": "24/7 in bedrijf, zonder downtime",
+    "service_2_title": "Conversationele AI",
+    "service_2_subtitle": "Chatbots en voice-agents die non-stop leads kwalificeren",
+    "service_2_bullet_1": "AI-chatwidget voor je website",
+    "service_2_bullet_2": "AI-voice-agents voor inkomende gesprekken",
+    "service_2_bullet_3": "Afspraken boeken op de automatische piloot",
+    "service_2_bullet_4": "FAQ-afhandeling en leadkwalificatie",
+    "service_2_bullet_5": "Natuurlijke taal, niet robotachtig",
+    "service_3_title": "Workflowautomatisering",
+    "service_3_subtitle": "Koppel elke tool tot één systeem dat zichzelf draait",
+    "service_3_bullet_1": "CRM, agenda en betalingen gekoppeld",
+    "service_3_bullet_2": "Maatwerkintegraties (zonder Zapier-toeslag)",
+    "service_3_bullet_3": "AI-beslislogica in de keten",
+    "service_3_bullet_4": "Foutafhandeling en retry-flows",
+    "service_3_bullet_5": "Automatische onboarding van klanten",
+    "service_4_title": "AI-contentsystemen",
+    "service_4_subtitle": "Eén input wordt 10 stukken content",
+    "service_4_bullet_1": "Van video naar clips, ondertitels en posts",
+    "service_4_bullet_2": "Blogs uit transcripties",
+    "service_4_bullet_3": "Pipeline voor socialmediaplanning",
+    "service_4_bullet_4": "Consistente merkstem dankzij AI",
+    "service_4_bullet_5": "Hergebruik op alle platforms",
+    "service_5_title": "Klantdashboards",
+    "service_5_subtitle": "Realtime portalen zodat klanten nooit om updates hoeven te vragen",
+    "service_5_bullet_1": "Live lead- en pipelinetracking",
+    "service_5_bullet_2": "Advertentie-uitgaven en ROAS in realtime",
+    "service_5_bullet_3": "Automatische wekelijkse rapportmails",
+    "service_5_bullet_4": "Eigen KPI-widgets per klant",
+    "service_5_bullet_5": "White label in jouw huisstijl",
     "service_6_title": "Websites",
-    "service_6_subtitle": "Custom built, conversion focused sites",
-    "service_6_bullet_1": "Next.js / React builds",
-    "service_6_bullet_2": "SEO optimized from day one",
-    "service_6_bullet_3": "Mobile first responsive",
-    "service_6_bullet_4": "CMS integration",
-    "service_6_bullet_5": "Performance and speed tuning",
+    "service_6_subtitle": "Op maat gebouwde sites gericht op conversie",
+    "service_6_bullet_1": "Next.js / React-builds",
+    "service_6_bullet_2": "SEO-geoptimaliseerd vanaf dag één",
+    "service_6_bullet_3": "Mobile first en responsive",
+    "service_6_bullet_4": "CMS-integratie",
+    "service_6_bullet_5": "Performance- en snelheidsoptimalisatie",
     "service_7_title": "Branding",
-    "service_7_subtitle": "Bold visual identities that stand out",
-    "service_7_bullet_1": "Logo and brand mark design",
-    "service_7_bullet_2": "Color palette and typography",
-    "service_7_bullet_3": "Brand guidelines document",
-    "service_7_bullet_4": "Social media templates",
-    "service_7_bullet_5": "Pitch deck design",
+    "service_7_subtitle": "Gedurfde visuele identiteiten die opvallen",
+    "service_7_bullet_1": "Logo- en beeldmerkontwerp",
+    "service_7_bullet_2": "Kleurenpalet en typografie",
+    "service_7_bullet_3": "Huisstijlhandboek",
+    "service_7_bullet_4": "Socialmediatemplates",
+    "service_7_bullet_5": "Pitchdeckontwerp",
     "service_8_title": "Google Ads",
-    "service_8_subtitle": "Search campaigns for high intent buyers",
-    "service_8_bullet_1": "Keyword research and strategy",
-    "service_8_bullet_2": "Ad copy and landing pages",
-    "service_8_bullet_3": "Conversion tracking",
-    "service_8_bullet_4": "Monthly optimization",
-    "service_8_bullet_5": "Competitor analysis",
+    "service_8_subtitle": "Zoekcampagnes voor kopers met een hoge intentie",
+    "service_8_bullet_1": "Zoekwoordonderzoek en strategie",
+    "service_8_bullet_2": "Advertentieteksten en landingspagina's",
+    "service_8_bullet_3": "Conversietracking",
+    "service_8_bullet_4": "Maandelijkse optimalisatie",
+    "service_8_bullet_5": "Concurrentieanalyse",
     "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook and Instagram at scale",
-    "service_9_bullet_1": "Audience and lookalike targeting",
-    "service_9_bullet_2": "Creative design and copy",
-    "service_9_bullet_3": "Retargeting funnels",
-    "service_9_bullet_4": "ROAS reporting",
-    "service_9_bullet_5": "Creative A/B testing",
-    "process_title": "Our Process",
-    "step_1_title": "Discovery",
-    "step_1_desc": "We dive deep into your goals, audience, and market to build a solid foundation.",
-    "step_2_title": "Strategy",
-    "step_2_desc": "We craft a tailored roadmap that aligns creative vision with business objectives.",
-    "step_3_title": "Design",
-    "step_3_desc": "We create compelling visuals and intuitive interfaces that captivate users.",
-    "step_4_title": "Development",
-    "step_4_desc": "We build with modern technologies ensuring speed, scalability, and reliability.",
-    "step_5_title": "Launch & Optimize",
-    "step_5_desc": "We deploy, monitor, and continuously refine to maximize performance."
+    "service_9_subtitle": "Facebook en Instagram op schaal",
+    "service_9_bullet_1": "Doelgroep- en lookalike-targeting",
+    "service_9_bullet_2": "Creatief ontwerp en tekst",
+    "service_9_bullet_3": "Retargeting-funnels",
+    "service_9_bullet_4": "ROAS-rapportage",
+    "service_9_bullet_5": "A/B-testen van creatives",
+    "process_title": "Ons proces",
+    "step_1_title": "Verkenning",
+    "step_1_desc": "We duiken diep in je doelen, doelgroep en markt om een stevig fundament te leggen.",
+    "step_2_title": "Strategie",
+    "step_2_desc": "We maken een routekaart op maat die creatieve visie en bedrijfsdoelen op één lijn brengt.",
+    "step_3_title": "Ontwerp",
+    "step_3_desc": "We maken overtuigende visuals en intuïtieve interfaces die gebruikers raken.",
+    "step_4_title": "Ontwikkeling",
+    "step_4_desc": "We bouwen met moderne technologie voor snelheid, schaalbaarheid en betrouwbaarheid.",
+    "step_5_title": "Lancering en optimalisatie",
+    "step_5_desc": "We lanceren, monitoren en verfijnen continu om de prestaties te maximaliseren.",
+    "v2_label": "Diensten",
+    "v2_intro": "Eén pakket, goed gedaan. Wij ontwerpen en bouwen de site, hosten hem en houden hem draaiend.",
+    "v2_process_label": "Hoe een project verloopt",
+    "v2_cta_label": "Weet je niet wat je nodig hebt?",
+    "v2_cta": "Doe de quiz van 1 minuut",
+    "v2_industries_label": "Voor wie we bouwen",
+    "v2_industries_more": "Bekijk hoe"
   },
   "team": {
     "title": "Ons Team",
     "subtitle": "Maak kennis met de creatieve geesten achter Blok Blok Studio.",
-    "role_founder": "Founder",
-    "role_graphic": "Senior Graphic Designer",
-    "role_web": "Senior Web Designer"
+    "role_founder": "Oprichter",
+    "role_graphic": "Senior Grafisch Ontwerper",
+    "role_web": "Senior Webdesigner",
+    "v2_label": "Het team",
+    "v2_intro": "Vijf mensen in vier tijdzones. Klein genoeg om iedereen bij naam te kennen, breed genoeg verspreid dat je project nooit op de ochtend hoeft te wachten.",
+    "v2_studied": "Studeerde",
+    "v2_enjoys": "Buiten werktijd",
+    "v2_based": "Gevestigd in",
+    "role_marketing": "Marketingstrateeg",
+    "role_fullstack": "Full Stack Developer",
+    "role_video": "Video-editor",
+    "role_creative": "Creative Director",
+    "chase_studied_1": "Design en Technologie",
+    "chase_studied_2": "Parsons School of Design",
+    "chase_enjoys": "Kunstmusea · Reizen · Content maken",
+    "kyle_studied_1": "Creative Advertising",
+    "kyle_studied_2": "Virginia Commonwealth University",
+    "kyle_enjoys": "Braziliaans jiu-jitsu · Animatie · Tweedehands shoppen",
+    "ayan_studied_1": "Bedrijfskunde en Strategisch Management",
+    "ayan_studied_2": "University of the Punjab",
+    "ayan_enjoys": "Ondernemingen opbouwen · Filmavonden · Op zoek naar de perfecte koffie"
   },
   "contact": {
     "title": "Neem Contact Op",
@@ -299,7 +484,8 @@
     "submit": "Bericht Versturen",
     "success": "Bedankt! We nemen snel contact met je op.",
     "info_title": "Contactgegevens",
-    "info_address": "Berlin, DE"
+    "info_address": "Berlijn, DE",
+    "consent_text": "Ik ga akkoord met de verwerking van mijn persoonsgegevens zoals beschreven in onze"
   },
   "footer": {
     "tagline": "Digitale ervaringen creëren die inspireren.",
@@ -376,6 +562,8 @@
     "data_item_industry": "Branche / werkveld",
     "data_item_website": "Website-URL (optioneel)",
     "data_item_problem": "Projectdetails en uitdagingen",
+    "data_item_budget": "Budgetrange en gewenste planning (als u die opgeeft in het aanvraagformulier)",
+    "data_item_marketing_consent": "Of u het optionele vakje voor marketing-e-mails heeft aangevinkt, en wanneer u dit heeft bevestigd",
     "data_item_ip": "IP-adres (alleen voor toestemmingsverificatie)",
     "data_use_title": "Hoe We Uw Gegevens Gebruiken",
     "data_use_intro": "We gebruiken de informatie die we verzamelen om:",
@@ -400,7 +588,29 @@
     "your_rights_cta": "Oefen uw rechten uit op onze",
     "your_rights_link": "pagina Datarechten",
     "contact_title": "Neem Contact Op",
-    "contact_content": "Als u vragen heeft over deze Privacyverklaring of hoe we met uw gegevens omgaan, neem dan contact met ons op via:"
+    "contact_content": "Als u vragen heeft over deze Privacyverklaring of hoe we met uw gegevens omgaan, neem dan contact met ons op via:",
+    "data_item_phone": "Telefoonnummer",
+    "third_party_pixels": "Wij laden advertentiepixels (Meta, Google) alleen als u marketingcookies uitdrukkelijk accepteert in onze cookiebanner; anders worden er geen trackingcookies of analysediensten gebruikt.",
+    "legal_basis_title": "Rechtsgrondslag voor de verwerking",
+    "legal_basis_intro": "Op grond van artikel 6 van de AVG verwerken wij uw persoonsgegevens op basis van de volgende rechtsgronden:",
+    "legal_basis_consent": "Toestemming (art. 6 lid 1 sub a): wanneer u zich inschrijft voor onze nieuwsbrief of een contactformulier verstuurt met uitdrukkelijke toestemming",
+    "legal_basis_contract": "Uitvoering van een overeenkomst (art. 6 lid 1 sub b): wanneer de verwerking noodzakelijk is om een dienstverleningsovereenkomst met u uit te voeren",
+    "legal_basis_interest": "Gerechtvaardigd belang (art. 6 lid 1 sub f): voor interne analyses, het verbeteren van onze diensten en het beveiligen van onze website",
+    "legal_basis_withdraw": "U kunt uw toestemming op elk moment intrekken, zonder dat dit de rechtmatigheid aantast van de verwerking die vóór de intrekking heeft plaatsgevonden.",
+    "transfers_title": "Internationale doorgifte van gegevens",
+    "transfers_intro": "Sommige van onze externe dienstverleners kunnen uw gegevens buiten de Europese Economische Ruimte (EER) verwerken. In dat geval zorgen wij voor passende waarborgen:",
+    "transfers_vercel": "Vercel: onze hostingprovider kan gegevens verwerken in de Verenigde Staten. Vercel voldoet aan de toepasselijke kaders voor gegevensbescherming.",
+    "transfers_resend": "Resend: onze e-mailbezorgdienst kan gegevens verwerken in de Verenigde Staten. De doorgifte valt onder de standaardcontractbepalingen (SCC's).",
+    "transfers_note": "Wij geven gegevens alleen door aan landen of organisaties die een passend beschermingsniveau bieden of waar passende waarborgen (zoals SCC's of bindende bedrijfsvoorschriften) zijn getroffen.",
+    "authority_title": "Toezichthoudende autoriteit",
+    "authority_content": "Als u van mening bent dat onze verwerking van uw persoonsgegevens in strijd is met de AVG, heeft u het recht een klacht in te dienen bij een toezichthoudende autoriteit in de EU-lidstaat waar u gewoonlijk verblijft, waar u werkt of waar de vermeende inbreuk heeft plaatsgevonden. U kunt ook eerst contact met ons opnemen, zodat wij kunnen proberen het probleem rechtstreeks op te lossen.",
+    "third_party_vercel": "Vercel: hosting van website en applicatie (VS; kaders voor gegevensbescherming en SCC's van toepassing)",
+    "third_party_slack": "Slack: interne meldingen aan ons team over nieuwe aanvragen (beperkt tot naam, e-mailadres, telefoonnummer en type bedrijf)",
+    "third_party_turnstile": "Cloudflare Turnstile: spambescherming op onze formulieren (verwerkt uw IP-adres)",
+    "third_party_cal": "Cal.com, afsprakenplanning wanneer u een gesprek met ons inplant",
+    "third_party_meta": "Meta (Facebook/Instagram): advertentiemeting, uitsluitend met uw toestemming voor marketingcookies. Met die toestemming kunnen wij ook uw e-mailadres en telefoonnummer in gehashte (gepseudonimiseerde) vorm doorgeven om advertentieconversies te meten.",
+    "third_party_google": "Google: advertentiemeting (Google Ads), uitsluitend met uw toestemming voor marketingcookies",
+    "marketing_double_optin": "Voor marketing-e-mails gebruiken wij double opt-in. Het aanvinken van het optionele vakje op een formulier is op zichzelf niet voldoende: wij sturen een bevestigingsmail en u wordt pas aan de lijst toegevoegd zodra u op de link daarin klikt. Tot die tijd sturen wij u geen marketing. U kunt zich op elk moment afmelden via de afmeldlink in elke e-mail; dit gaat direct in."
   },
   "terms": {
     "title": "Servicevoorwaarden",
@@ -419,7 +629,15 @@
     "governing_law_title": "Toepasselijk Recht",
     "governing_law_content": "Deze voorwaarden worden beheerst door en geïnterpreteerd in overeenstemming met de toepasselijke wetgeving. Eventuele geschillen worden opgelost door middel van onderhandelingen te goeder trouw voordat formele juridische stappen worden ondernomen.",
     "changes_title": "Wijzigingen in Voorwaarden",
-    "changes_content": "We behouden ons het recht voor om deze voorwaarden op elk moment te wijzigen. Wijzigingen worden op deze pagina geplaatst met een bijgewerkte datum. Voortgezet gebruik van onze website na wijzigingen betekent acceptatie van de herziene voorwaarden."
+    "changes_content": "We behouden ons het recht voor om deze voorwaarden op elk moment te wijzigen. Wijzigingen worden op deze pagina geplaatst met een bijgewerkte datum. Voortgezet gebruik van onze website na wijzigingen betekent acceptatie van de herziene voorwaarden.",
+    "dispute_title": "Geschillenbeslechting",
+    "dispute_intro": "Bij een geschil dat voortvloeit uit deze voorwaarden vragen wij u eerst contact met ons op te nemen om tot een minnelijke oplossing te komen. Lukt dat niet informeel, dan geldt de volgende procedure:",
+    "dispute_informal": "Informele oplossing: neem contact met ons op via hello@blokblokstudio.com. Wij proberen de kwestie binnen 30 dagen op te lossen.",
+    "dispute_formal": "Formele procedure: als een informele oplossing niet lukt, worden geschillen beslecht door de bevoegde rechter in Duitsland.",
+    "dispute_eu": "EU-consumenten: bent u consument in de EU, dan kunt u ook gebruikmaken van het platform voor onlinegeschillenbeslechting van de Europese Commissie.",
+    "severability_title": "Deelbaarheid",
+    "severability_content": "Als een bepaling van deze algemene voorwaarden door een bevoegde rechter ongeldig, onwettig of niet-afdwingbaar wordt verklaard, blijven de overige bepalingen onverminderd van kracht. De ongeldige of niet-afdwingbare bepaling wordt zo beperkt mogelijk aangepast om haar geldig en afdwingbaar te maken, met behoud van de oorspronkelijke bedoeling van partijen.",
+    "changes_contact": "Heeft u vragen over deze algemene voorwaarden, neem dan contact met ons op via"
   },
   "cookies": {
     "title": "Cookiebeleid",
@@ -434,7 +652,21 @@
     "control_title": "Cookies Beheren",
     "control_content": "U kunt cookies beheren via uw browserinstellingen. De meeste browsers stellen u in staat cookies te blokkeren of te verwijderen. Houd er rekening mee dat het wissen van localStorage uw cookietoestemmingsvoorkeur reset.",
     "updates_title": "Beleidsupdates",
-    "updates_content": "Als we in de toekomst analyse- of trackingtechnologieën gaan gebruiken, zullen we dit beleid bijwerken en u via onze cookietoestemmingsbanner op de hoogte stellen voordat er tracking plaatsvindt."
+    "updates_content": "Als we in de toekomst analyse- of trackingtechnologieën gaan gebruiken, zullen we dit beleid bijwerken en u via onze cookietoestemmingsbanner op de hoogte stellen voordat er tracking plaatsvindt.",
+    "storage_title": "Cookie- en opslagdetails",
+    "storage_intro": "Hieronder vindt u een volledig overzicht van de cookies en localStorage-items die op deze website worden gebruikt:",
+    "table_name": "Naam",
+    "table_type": "Soort",
+    "table_purpose": "Doel",
+    "table_category": "Categorie",
+    "table_duration": "Bewaartermijn",
+    "storage_consent_purpose": "Slaat uw cookievoorkeuren op (essentieel, analytisch, marketing)",
+    "storage_country_purpose": "Onthoudt uw land (afgeleid van uw IP-regio) zodat het toestemmingsgedrag de lokale wetgeving volgt",
+    "storage_locale_purpose": "Slaat uw gekozen taal op",
+    "cat_essential": "Essentieel",
+    "dur_persistent": "Permanent",
+    "dur_30d": "30 dagen",
+    "storage_note": "U kunt uw cookievoorkeuren op elk moment aanpassen via de cookiebanner. Om de voorkeuren te resetten, wist u de localStorage van uw browser."
   },
   "start": {
     "headline_a": "Waar je bedrijf ongemerkt klanten verliest",
@@ -460,7 +692,7 @@
     "q_contact_sub": "Daarna kies je een tijdstip. We reageren binnen een uur tijdens kantooruren.",
     "label_name": "Je naam",
     "label_email": "E-mailadres",
-    "label_phone": "Tel. / WhatsApp",
+    "label_phone": "Telefoon / WhatsApp",
     "label_phone_note": "(optioneel, voor sneller antwoord)",
     "label_country": "Landnummer",
     "placeholder_name": "Jan Jansen",
@@ -485,14 +717,14 @@
       "financial_services": "Financiële diensten",
       "education_training": "Onderwijs / Training",
       "restaurant_food_beverage": "Horeca / Voeding",
-      "fitness_wellness": "Fitness / Wellness",
+      "fitness_wellness": "Fitness / wellness",
       "construction_trades": "Bouw / Techniek",
-      "beauty_salon_spa": "Beauty / Salon / Spa",
+      "beauty_salon_spa": "Beauty / kapsalon / spa",
       "content_creator_influencer": "Content creator / Influencer",
       "retail_brick_mortar": "Retail / Fysieke winkel",
       "professional_services": "Zakelijke dienstverlening",
       "nonprofit": "Non-profit",
-      "automotive": "Automotive",
+      "automotive": "Autobranche",
       "travel_hospitality": "Reizen / Hospitality",
       "other": "Anders"
     },
@@ -526,77 +758,77 @@
     },
     "budget_build": {
       "0": {
-        "label": "Minder dan € 5.000",
-        "hint": "Onder waar wij beginnen"
+        "label": "Minder dan {amount}",
+        "hint": "Onder waar onze builds beginnen"
       },
       "1": {
-        "label": "Rond € 5.000",
-        "hint": "Site van één pagina"
+        "label": "Rond {amount}",
+        "hint": "Site van vijf pagina's"
       },
       "2": {
-        "label": "Rond € 10.000",
-        "hint": "Vier tot vijf pagina's"
+        "label": "Rond {amount}",
+        "hint": "Tien pagina's"
       },
       "3": {
-        "label": "Rond € 15.000",
-        "hint": "Ongeveer vijftien pagina's"
+        "label": "Rond {amount}",
+        "hint": "Vijftien of meer pagina's"
       },
       "4": {
-        "label": "€ 20.000+",
-        "hint": "E-commerce of groter"
+        "label": "{amount}+",
+        "hint": "E-commerce, of iets groters"
       }
     },
     "budget_social": {
       "0": {
-        "label": "Rond € 500 / maand",
+        "label": "Rond {amount} / maand",
         "hint": "Eén kanaal, beheerd"
       },
       "1": {
-        "label": "€ 1.000 – € 2.000 / maand",
+        "label": "{from} – {to} / maand",
         "hint": "Eén kanaal met regelmatige video, of twee kanalen"
       },
       "2": {
-        "label": "€ 2.000 – € 4.000 / maand",
+        "label": "{from} – {to} / maand",
         "hint": "Twee of drie kanalen met video"
       },
       "3": {
-        "label": "€ 4.000+ / maand",
+        "label": "{amount}+ / maand",
         "hint": "Meerdere kanalen, veel video"
       }
     },
     "budget_ads": {
       "0": {
-        "label": "Minder dan € 1.000 / maand advertentiebudget",
+        "label": "Minder dan {amount} / maand advertentiebudget",
         "hint": "Eerste tests"
       },
       "1": {
-        "label": "€ 1.000 – € 3.000 / maand advertentiebudget",
+        "label": "{from} – {to} / maand advertentiebudget",
         "hint": "Eén platform, goed beheerd"
       },
       "2": {
-        "label": "€ 3.000 – € 10.000 / maand advertentiebudget",
+        "label": "{from} – {to} / maand advertentiebudget",
         "hint": "Beide platforms, of één opschalen"
       },
       "3": {
-        "label": "€ 10.000+ / maand advertentiebudget",
+        "label": "{amount}+ / maand advertentiebudget",
         "hint": "Serieus volume"
       }
     },
     "budget_monthly": {
       "0": {
-        "label": "Minder dan € 1.000 / maand",
+        "label": "Minder dan {amount} / maand",
         "hint": "Net begonnen"
       },
       "1": {
-        "label": "€ 1.000 – € 3.000 / maand",
+        "label": "{from} – {to} / maand",
         "hint": "Eén kanaal of platform, goed beheerd"
       },
       "2": {
-        "label": "€ 3.000 – € 6.000 / maand",
+        "label": "{from} – {to} / maand",
         "hint": "Meerdere tegelijk"
       },
       "3": {
-        "label": "€ 6.000+ / maand",
+        "label": "{amount}+ / maand",
         "hint": "Stevig opschalen"
       }
     }
@@ -609,6 +841,49 @@
     "not_found_title": "Pagina niet gevonden",
     "not_found_message": "De pagina die je zoekt bestaat niet of is verplaatst. Laten we je weer op weg helpen.",
     "contact_us": "Contact opnemen"
+  },
+  "accessibility": {
+    "title": "Toegankelijkheidsverklaring",
+    "last_updated": "Laatst bijgewerkt: {date}",
+    "commitment_title": "Onze toezegging",
+    "commitment_content": "Blok Blok Studio zet zich in voor digitale toegankelijkheid voor mensen met een beperking. Wij verbeteren de gebruikerservaring voortdurend voor iedereen en passen de relevante toegankelijkheidsnormen toe op onze website en op de websites die wij voor klanten bouwen.",
+    "conformance_title": "Conformiteitsstatus",
+    "conformance_intro": "De Web Content Accessibility Guidelines (WCAG) beschrijven eisen voor ontwerpers en ontwikkelaars om de toegankelijkheid voor mensen met een beperking te verbeteren. Ze kennen drie conformiteitsniveaus: niveau A, niveau AA en niveau AAA.",
+    "conformance_status": "<strong>blokblokstudio.com voldoet gedeeltelijk aan WCAG 2.2 niveau AA.</strong> “Gedeeltelijk conform” betekent dat sommige delen van de content niet volledig aan de toegankelijkheidsnorm voldoen. Zie het onderdeel bekende beperkingen hieronder voor details.",
+    "standards_title": "Normen en wetten die wij volgen",
+    "standard_wcag": "<strong>WCAG 2.2 niveau AA</strong>, de internationale basisnorm voor webtoegankelijkheid, beheerd door het W3C.",
+    "standard_en301549": "<strong>EN 301 549</strong>, de Europese geharmoniseerde norm voor ICT-toegankelijkheid die ten grondslag ligt aan de European Accessibility Act.",
+    "standard_eaa": "<strong>Europese toegankelijkheidswet (Richtlijn 2019/882)</strong>, van toepassing op consumentgerichte digitale diensten in de EU sinds 28 juni 2025.",
+    "standard_ada": "<strong>Amerikaanse Americans with Disabilities Act (ADA), Title III</strong>, toegankelijkheidsverplichtingen voor publieke commerciële websites in de Verenigde Staten.",
+    "standard_508": "<strong>Section 508 van de Amerikaanse Rehabilitation Act</strong>, eisen voor federale instanties en hun leveranciers, die wij als basis hanteren voor werk in de federale sfeer.",
+    "measures_title": "Maatregelen die wij nemen",
+    "measures_intro": "Toegankelijkheid is onderdeel van hoe wij ontwerpen en bouwen, geen eenmalige audit. Concreet, op deze site:",
+    "measure_landmarks": "Semantische HTML-landmarks (<code>main</code>, <code>nav</code>, <code>header</code>, <code>footer</code>) op elke pagina.",
+    "measure_skip_link": "Een link “ga naar de hoofdinhoud” voor toetsenbordgebruikers.",
+    "measure_focus": "Zichtbare focusindicatoren op elk interactief element.",
+    "measure_alt_text": "Tekstalternatieven voor alle betekenisvolle afbeeldingen.",
+    "measure_forms": "Formulieren met gekoppelde labels, aankondiging van verplichte velden en inline foutmeldingen via <code>aria-describedby</code> en <code>role=“alert”</code>.",
+    "measure_dialogs": "Mobiel menu en modale dialogen met toetsenbordfocusbeheer en sluiten via Escape.",
+    "measure_reduced_motion": "Respect voor de instelling <code>prefers-reduced-motion</code> in uw besturingssysteem.",
+    "measure_contrast": "Kleurcontrast dat voldoet aan WCAG AA of hoger (4,5:1 voor lopende tekst).",
+    "measure_rtl": "Lay-out van rechts naar links voor Arabisch, en een taalkeuze die elke optie in de eigen taal en schrijfrichting aankondigt.",
+    "measure_languages": "Site beschikbaar in 19 talen, zodat wie geen Engels spreekt de site kan gebruiken in de taal waarin hij denkt.",
+    "limitations_title": "Bekende beperkingen",
+    "limitations_intro": "Ondanks onze inspanningen is mogelijk nog niet alle content op deze site volledig toegankelijk. Bekende punten waaraan wij werken:",
+    "limitation_third_party": "<strong>Ingesloten content van derden</strong>, de Cloudflare Turnstile-CAPTCHA en de Cal.com-boekingsiframe nemen hun eigen toegankelijkheidsgedrag over van de leverancier. Wij volgen hun conformiteitsstatus bij elke leverancier.",
+    "limitation_motion": "<strong>Decoratieve beweging</strong>, sfeeranimaties op de achtergrond worden uitgeschakeld wanneer <code>prefers-reduced-motion</code> is ingesteld, maar een klein aantal cursor-magnetische micro-interacties kan nog afspelen.",
+    "limitation_language": "<strong>Taal van de verklaring</strong>, deze verklaring wordt momenteel alleen in het Engels bijgehouden. De site zelf is vertaald in 19 talen.",
+    "feedback_title": "Feedback en contact",
+    "feedback_intro": "Komt u op blokblokstudio.com een toegankelijkheidsdrempel tegen, of heeft u informatie van deze site in een ander formaat nodig, neem dan contact met ons op. Wij streven ernaar binnen <strong>vijf werkdagen</strong> op toegankelijkheidsfeedback te reageren.",
+    "feedback_email": "<strong>E-mail:</strong> <link>blokblokstudio.com/contact</link>",
+    "feedback_form": "<strong>Webformulier:</strong> <link>Contactpagina</link>, vermeld “toegankelijkheid” in uw bericht.",
+    "enforcement_title": "Handhavingsprocedure",
+    "enforcement_intro": "Blok Blok Studio is geregistreerd in Duitsland. Bent u niet tevreden met onze reactie op uw toegankelijkheidsfeedback, dan kunt u de zaak voorleggen binnen uw lokale handhavingskader:",
+    "enforcement_eu": "<strong>Europese Unie</strong>, de markttoezichtautoriteit van de EU-lidstaat waar u zich bevindt. De EAA wijst in elke lidstaat een nationale autoriteit aan.",
+    "enforcement_germany": "<strong>Duitsland</strong>, de Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
+    "enforcement_us": "<strong>Verenigde Staten</strong>, de Civil Rights Division van het Amerikaanse ministerie van Justitie voor ADA-klachten; de US Access Board voor Section 508.",
+    "preparation_title": "Hoe deze verklaring is opgesteld",
+    "preparation_content": "Deze verklaring is op {date} opgesteld na een zelfbeoordeling van de site aan de hand van WCAG 2.2 AA. De beoordeling combineerde een geautomatiseerde controle van de live site met een handmatige controle van de code (semantische structuur, toetsenbordnavigatie, focusbeheer, ARIA-gebruik, kleurcontrast, omgang met beweging en schrijfrichting per taal). Wij beoordelen de site opnieuw na elke belangrijke release."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -699,10 +974,10 @@
     "proj_not_found": "Project niet gevonden",
     "proj_back": "Terug naar projecten",
     "proj_visit": "Bekijk de live site",
-    "proj_live": "Live site",
+    "proj_live": "Live website",
     "proj_take_look": "Neem een kijkje",
     "proj_open_live": "Live openen",
-    "proj_live_lower": "Live site",
+    "proj_live_lower": "live website",
     "proj_testimonial": "Hoor het van de klant",
     "proj_gallery": "Projectgalerij",
     "proj_next": "Volgend project",
@@ -714,7 +989,7 @@
     "mockup_kofi_desktop": "Website van Coach Kofi op MacBook",
     "mockup_kofi_mobile": "Coach Kofi mobiel op iPhone",
     "about_design": "Design",
-    "about_development": "Development",
+    "about_development": "Ontwikkeling",
     "about_strategy": "Strategie",
     "about_branding": "Branding",
     "about_tagline": "Wij bouwen merken die opvallen",
@@ -727,7 +1002,56 @@
     "available": "Beschikbaar voor nieuwe projecten",
     "aria_business": "Type bedrijf",
     "aria_budget": "Budget",
-    "aria_timeline": "Tijdlijn"
+    "aria_timeline": "Tijdlijn",
+    "proj_live_click": "Klik en scroll door de live site hieronder",
+    "proj_live_scroll": "Scroll door de live site hieronder",
+    "proj_live_hint_embed": "Klik op links en navigeer alsof je op de echte site bent, of open hem in een nieuw tabblad.",
+    "proj_live_hint_scroll": "Dit is een schermafbeelding van de volledige pagina. Scroll binnen het venster, of open de live site in een nieuw tabblad.",
+    "proj_challenge": "De uitdaging",
+    "proj_solution": "Wat we bouwden",
+    "proj_results": "De resultaten",
+    "proj_numbers": "In cijfers"
+  },
+  "onboard": {
+    "title": "Klant-onboarding",
+    "sub": "Laten we alles klaarzetten zodat we meteen kunnen beginnen.",
+    "loading": "Je onboarding wordt geladen...",
+    "unavailable": "Link niet beschikbaar",
+    "done": "Alles is rond!",
+    "done_sub": "Wil je je betaalmethode instellen zodat we direct kunnen starten?",
+    "pay_cta": "Betaalmethode instellen",
+    "coming_soon": "Binnenkort",
+    "submitting": "Versturen...",
+    "contacts": "Contactpersonen",
+    "contacts_sub": "Wie moeten we binnen je team benaderen?",
+    "primary": "Hoofdcontact",
+    "remove": "Verwijderen",
+    "add_contact": "Nog een contact toevoegen",
+    "access": "Accounttoegang",
+    "access_sub": "Deel de inloggegevens van de platforms die wij mogen beheren.",
+    "encrypted": "Je inloggegevens worden versleuteld met AES-256",
+    "add_account": "Nog een account toevoegen",
+    "social": "Socialprofielen",
+    "social_sub": "Koppel je socialmedia-accounts zodat wij ze kunnen beheren en laten groeien.",
+    "add_profile": "Nog een profiel toevoegen",
+    "details": "Projectdetails",
+    "details_sub": "Help ons onze werkwijze op die van jou af te stemmen.",
+    "telegram_hint": "Stuur @blokblok_bot een bericht op Telegram voor je ID",
+    "review": "Controleren & versturen",
+    "review_sub": "Controleer alles voor je verstuurt. Je kunt terug om elk onderdeel aan te passen.",
+    "f_timezone": "Tijdzone:",
+    "f_telegram": "Telegram-ID:",
+    "f_notes": "Notities:",
+    "f_brand": "Merkrichtlijnen:",
+    "ph_phone": "Telefoonnummer",
+    "ph_role": "bijv. CEO, Marketingmanager",
+    "ph_url": "bijv. https://jouw-site.nl/wp-admin",
+    "ph_2fa": "bijv. 2FA aan, authenticator-app gebruiken",
+    "ph_link": "https://...",
+    "ph_timezone": "Kies je tijdzone...",
+    "ph_telegram": "bijv. 123456789",
+    "ph_notes": "Alles wat we moeten weten over je project, voorkeuren of werkwijze...",
+    "ph_brand": "Logogebruik, merkkleuren, lettertypes, tone of voice, do's en don'ts..."
   },
   "pricing": {
     "packages": "PAKKETTEN",
@@ -745,8 +1069,8 @@
       "app": "App-ontwikkeling",
       "social": "Social Media",
       "marketing": "Marketing",
-      "aiAgents": "AI Agents",
-      "saas": "Custom SaaS",
+      "aiAgents": "AI-agents",
+      "saas": "Maatwerk SaaS",
       "branding": "Merkstrategie"
     },
     "sections": {
@@ -788,7 +1112,7 @@
               "l": "2 eerste logoconcepten gepresenteerd als mockups. Jij kiest er 1 voor de definitieve uitwerking. Deliverables: logobestanden in PNG, SVG en PDF (full colour, wit en zwart). 1 primair kleurenpalet (5 kleuren met hexcodes) en 1 lettertypecombinatie (koppen + lopende tekst). Geen volledig brandguidelines-document op dit niveau."
             },
             {
-              "i": "Analytics & tracking",
+              "i": "Analytics en tracking",
               "l": "Google Analytics 4 geïnstalleerd en geconfigureerd. 1 conversiedoel ingesteld (bijv. formulierinzending of klik op telefoonnummer). Google Search Console gekoppeld. Basis-eventtracking op CTA-knoppen."
             },
             {
@@ -802,15 +1126,15 @@
           ],
           "ov": [
             "Extra revisieronde: $300",
-            "Copywriting: $200/pagina",
+            "Tekstschrijven: $200/pagina",
             "Extra sectie: $250"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord van de klant OF na 2 revisierondes. Na akkoord: $175/uur.",
-          "bridge": "Inclusief 14 dagen monitoring na livegang (bugfixes en kleine aanpassingen). Meer pagina's of functies nodig? Upgrade naar onze Starter Launch ($6,500) voor een complete site van 5 pagina's met AI-chat en CRM-setup.",
+          "bridge": "Inclusief 14 dagen monitoring na livegang (bugfixes en kleine aanpassingen). Meer pagina's of functies nodig? Upgrade naar onze Starter-lancering ($6,500) voor een complete site van 5 pagina's met AI-chat en CRM-setup.",
           "ideal": "Zijprojecten, personal brands, eenvoudige landingspagina's"
         },
         {
-          "name": "Starter Launch",
+          "name": "Starter-lancering",
           "price": 6500,
           "disp": "$6,500",
           "tag": "Ideaal voor nieuwe bedrijven",
@@ -833,7 +1157,7 @@
               "l": "1 salespipeline met 5 fases (bijv. Nieuwe lead → Contact gehad → Voorstel verstuurd → Gewonnen → Verloren). 5 automatiseringsreeksen (bijv. e-mailmelding bij nieuwe lead, opvolgherinnering, afspraakbevestiging, sms-terugbelbericht bij gemiste oproep, welkomstmail). Contactimport vanuit CSV indien aangeleverd (max. 500 contacten)."
             },
             {
-              "i": "Analytics & tracking",
+              "i": "Analytics en tracking",
               "l": "Google Analytics 4 geïnstalleerd en geconfigureerd. 1 conversiedoel ingesteld (bijv. formulierinzending, klik op telefoonnummer of chatbotinteractie). Google Search Console gekoppeld. Basis-eventtracking op CTA-knoppen."
             },
             {
@@ -848,7 +1172,7 @@
           "ov": [
             "Extra pagina's: $500/pagina",
             "Extra revisieronde: $300",
-            "Copywriting: $200/pagina",
+            "Tekstschrijven: $200/pagina",
             "Extra Q&A (25+): $250/batch",
             "Extra automatisering: $350 per stuk"
           ],
@@ -908,7 +1232,7 @@
             "Extra voicescript: $750",
             "Automatiseringen (8+): $350 per stuk",
             "Extra landingspagina: $900",
-            "Copywriting boven inbegrepen: $200/pagina"
+            "Tekstschrijven boven inbegrepen: $200/pagina"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 3 revisierondes. Na akkoord: $175/uur.",
           "bridge": "Inclusief 30 dagen na livegang: advertentiebeheer, AI-monitoring en bugfixes. Na dag 30 hebben je advertenties, AI-agents en automatiseringen doorlopende optimalisatie nodig om te blijven presteren. We raden ons Groeimotor-plan ($3,500/mnd) aan om het momentum vast te houden.",
@@ -958,7 +1282,7 @@
               "l": "3 revisierondes per deliverable voor alle materialen. Een 'ronde' = 1 gebundelde set feedback, aangeleverd binnen 5 werkdagen."
             },
             {
-              "i": "Copywriting",
+              "i": "Tekstschrijven",
               "l": "Volledige professionele copywriting voor 10 websitepagina's (koppen, lopende tekst, CTA's, metabeschrijvingen). De klant levert ruw materiaal, notities of bullets voor de overige pagina's. Advertentieteksten voor alle Google- en Meta-campagnes geschreven en inbegrepen."
             }
           ],
@@ -1022,11 +1346,11 @@
             "Videocontent (Reels/Shorts): $175 per stuk"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 1 revisieronde. Wijzigingen na oplevering: $175/uur.",
-          "bridge": "Je profielen staan klaar om te gaan. Wil je ze actief houden en laten groeien? Voeg ons Social Starter-plan ($1,500/mnd) toe, of beheer per platform vanaf $650/mnd.",
+          "bridge": "Je profielen staan klaar om te gaan. Wil je ze actief houden en laten groeien? Voeg ons Social Start-plan ($1,500/mnd) toe, of beheer per platform vanaf $650/mnd.",
           "ideal": "Bedrijven die fris starten op een platform"
         },
         {
-          "name": "Multi-Platform Launch",
+          "name": "Multi-platform-lancering",
           "price": 2000,
           "disp": "$2,000",
           "tag": "Meest gekozen",
@@ -1173,7 +1497,7 @@
               "l": "Maandelijkse review van de gezondheid van je GHL-pipeline: vastgelopen leads, verouderde deals en automatiseringsfouten. 3 automatiseringsaanpassingen per maand (bijv. e-mailtekst bijwerken, triggertiming wijzigen, kapotte reeksen repareren). Contactlijsthygiëne: duplicaten markeren en bounces verwijderen (max. 500 contacten/mnd)."
             },
             {
-              "i": "Support",
+              "i": "Ondersteuning",
               "l": "Alleen support via tekst en e-mail (geen telefoon, geen live gesprekken op dit niveau). Reactietijd 48 uur op werkdagen (maandag t/m vrijdag, 9 tot 17 uur). Tot 10 supportverzoeken per maand. Elk verzoek = 1 specifieke vraag (geen lijst met wijzigingen). Verzoeken boven de 10 gefactureerd tegen $175/uur."
             }
           ],
@@ -1295,7 +1619,7 @@
       ],
       "social": [
         {
-          "name": "Social Starter",
+          "name": "Social Start",
           "price": 1500,
           "disp": "$1,500",
           "per": "/mnd",
@@ -1400,7 +1724,7 @@
           "price": 4500,
           "disp": "$4,500",
           "per": "/mnd",
-          "tag": "Full-service social",
+          "tag": "Full-service social media",
           "com": "Minimaal 6 maanden",
           "scope": [
             {
@@ -1525,7 +1849,7 @@
               "l": "3 integraties met externe diensten. Veelvoorkomende voorbeelden: Stripe (betalingen), Twilio (sms/spraak), SendGrid (e-mail), Google Maps, Calendly, QuickBooks, Zapier of elke dienst met een gedocumenteerde REST API. Elke integratie omvat: setup, datamapping, foutafhandeling en testen. Complexe integraties (bijv. custom ERP, legacy-systemen zonder moderne API's) apart geoffreerd."
             },
             {
-              "i": "Hosting & deployment",
+              "i": "Hosting en deployment",
               "l": "Gedeployd naar productie op Vercel (frontend) en Railway, Render of AWS (backend). CI/CD-pipeline geconfigureerd voor automatische deployments vanuit GitHub. SSL-certificaat, custom domein en DNS-configuratie. Beheer van omgevingsvariabelen en secrets. Stagingomgeving inbegrepen om te testen vóór productiereleases."
             },
             {
@@ -1547,14 +1871,14 @@
             "Meerwerk tijdens de ontwikkeling: $200/uur",
             "Extra gebruikersrollen: $2,000 per rol",
             "Geavanceerd rapportage-/analyticsdashboard: $5,000",
-            "Native mobiele app (iOS of Android): zie Enterprise Build"
+            "Native mobiele app (iOS of Android): zie Enterprise-build"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 25% bij de tussentijdse mijlpaal, 25% bij oplevering (betaaltermijn 7 dagen). Inclusief 30 dagen bugfixes na livegang (alleen voor functies uit de oorspronkelijke SOW). Na 30 dagen gaat doorlopende support over naar een onderhoudsretainer. Alle code is van jou. Volledig eigendom van codebase, designbestanden en documentatie wordt bij projectafronding overgedragen.",
-          "bridge": "Je platform is live en stabiel. Om het draaiend, veilig en in ontwikkeling te houden, raden we onze Dev Support-retainer ($1,500/mnd) of een Urenbank ($2,500/mnd voor 10 uur) aan.",
+          "bridge": "Je platform is live en stabiel. Om het draaiend, veilig en in ontwikkeling te houden, raden we onze Dev-support-retainer ($1,500/mnd) of een Urenbank ($2,500/mnd voor 10 uur) aan.",
           "ideal": "Portalen, dashboards, interne tools en SaaS-MVP's"
         },
         {
-          "name": "Enterprise Build",
+          "name": "Enterprise-build",
           "price": 75000,
           "disp": "$75,000+",
           "tag": "Complexe systemen",
@@ -1651,7 +1975,7 @@
           "ideal": "Bedrijven die één specifieke workflow automatiseren"
         },
         {
-          "name": "Agent Team",
+          "name": "Agentteam",
           "price": 14500,
           "disp": "$14,500",
           "tag": "Meest gekozen",
@@ -1687,11 +2011,11 @@
             "Spoedlevering: +40%"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 50% bij oplevering (betaaltermijn 7 dagen). Afgerond bij akkoord OF na 2 revisierondes. Het eigendom van alle agents en code gaat over naar jou.",
-          "bridge": "Je agentteam is live en werkt samen. Voor doorlopende optimalisatie, hertraining en nieuwe agents voeg je onze Agent Groei-retainer ($3,500/mnd) of Agent Command Center-retainer ($7,500/mnd) toe.",
+          "bridge": "Je agentteam is live en werkt samen. Voor doorlopende optimalisatie, hertraining en nieuwe agents voeg je onze Agent Groei-retainer ($3,500/mnd) of Agent-commandocentrum-retainer ($7,500/mnd) toe.",
           "ideal": "Bedrijven die meerstapsworkflows end-to-end automatiseren"
         },
         {
-          "name": "AI Operations",
+          "name": "AI-operaties",
           "price": 25000,
           "disp": "$25,000+",
           "tag": "Enterprise AI-ecosysteem",
@@ -1714,7 +2038,7 @@
               "l": "Alle API-sleutels, tokens en inloggegevens opgeslagen in versleutelde omgevingsvariabelen en enterprise-grade secretsbeheer. Nooit hardcoded, nooit in de broncode, nooit in logs. De inloggegevens van elke agent zijn volledig geïsoleerd. Dataversleuteling voor alle agentcommunicatie (onderweg en in rust). Rolgebaseerde toegangscontrole voor agentbeheer. Auditlogging voor elke agentactie (wie, wat, wanneer). PII-verwerkingsprotocollen geconfigureerd volgens jouw eisen. Dataretentiebeleid automatisch afgedwongen. Wij slaan je API-sleutels na deployment nooit op en bewaren ze niet. Jij behoudt volledig eigendom en controle."
             },
             {
-              "i": "Training & onboarding",
+              "i": "Training en onboarding",
               "l": "Elke agent getraind op tot 150 datapunten. Uitgebreide reeks opgenomen Loom-video's die je team laat zien hoe je agents beheert, monitort en bijwerkt. Runbook-documentatie voor elke agent: wat hij doet, hoe je hem aanpast en stappen voor probleemoplossing. Alle training geleverd als opgenomen video. Je team kijkt wanneer het uitkomt. Vragen binnen 1 werkdag beantwoord via tekst of e-mail."
             }
           ],
@@ -1726,7 +2050,7 @@
             "Spoedlevering: +30%"
           ],
           "ho": "Betaling: 50% aanbetaling bij de start, 25% bij de tussentijdse mijlpaal, 25% bij oplevering (betaaltermijn 7 dagen). Opgeleverd in fases (doorgaans 2 of 3). Elke fase heeft vastgelegde deliverables en akkoord. Het eigendom van alle code en agents gaat bij afronding over naar jou.",
-          "bridge": "Je AI-ecosysteem is volledig operationeel. Om het draaiend, geoptimaliseerd en groeiend te houden, voeg je onze Agent Command Center-retainer ($7,500/mnd) toe.",
+          "bridge": "Je AI-ecosysteem is volledig operationeel. Om het draaiend, geoptimaliseerd en groeiend te houden, voeg je onze Agent-commandocentrum-retainer ($7,500/mnd) toe.",
           "ideal": "Bedrijven die handmatige processen op schaal vervangen door intelligente automatisering"
         }
       ],
@@ -1756,7 +2080,7 @@
               "l": "Rapport geleverd uiterlijk de 5e van elke maand met: antwoordnauwkeurigheid van agents, voltooiingspercentages, foutpercentages, gebruiksvolume en integratiestatus. Inclusief aanbevelingen om de prestaties te verbeteren. Geleverd als PDF of Loom-video."
             },
             {
-              "i": "Support",
+              "i": "Ondersteuning",
               "l": "Support via tekst en e-mail met reactietijd van 48 uur (werkdagen). Tot 8 supportverzoeken per maand. Elk verzoek = 1 specifiek probleem of vraag. Verzoeken boven de 8 gefactureerd tegen $200/uur."
             }
           ],
@@ -1814,11 +2138,11 @@
             "Nieuwe agent bouwen: $2,500",
             "Spoed buiten kantooruren: +50%"
           ],
-          "ex": "Geen enterprise-orkestratie, geen complianceframeworks, geen dedicated strateeg. Voor volledig AI-operationeel beheer, zie Agent Command Center.",
+          "ex": "Geen enterprise-orkestratie, geen complianceframeworks, geen dedicated strateeg. Voor volledig AI-operationeel beheer, zie Agent-commandocentrum.",
           "ideal": "Bedrijven die hun AI-agentmogelijkheden actief uitbreiden"
         },
         {
-          "name": "Agent Command Center",
+          "name": "Agent-commandocentrum",
           "price": 7500,
           "disp": "$7,500",
           "per": "/mnd",
@@ -1904,11 +2228,11 @@
             "Spoed/kritieke fix dezelfde dag: +50% op gebruikte uren",
             "Weekendwerk: +75% op gebruikte uren"
           ],
-          "ex": "Geen gegarandeerde SLA. Geen 24/7 monitoring. Geen dedicated ontwikkelaar (het team pakt verzoeken op in de wachtrij). Voor gegarandeerde reactietijden en dedicated capaciteit, zie de Dev Support-niveaus hieronder.",
+          "ex": "Geen gegarandeerde SLA. Geen 24/7 monitoring. Geen dedicated ontwikkelaar (het team pakt verzoeken op in de wachtrij). Voor gegarandeerde reactietijden en dedicated capaciteit, zie de Dev-support-niveaus hieronder.",
           "ideal": "Kleine apps, tools of projecten na livegang die af en toe een update nodig hebben"
         },
         {
-          "name": "Dev Support",
+          "name": "Dev-support",
           "price": 1500,
           "disp": "$1,500",
           "per": "/mnd",
@@ -1960,8 +2284,8 @@
           "com": "Minimaal 6 maanden",
           "scope": [
             {
-              "i": "Alles uit Dev Support",
-              "l": "Alle monitoring, beveiliging, bugfixes (5 uur), databasebeheer en maandrapportage uit Dev Support, inbegrepen als basis."
+              "i": "Alles uit Dev-support",
+              "l": "Alle monitoring, beveiliging, bugfixes (5 uur), databasebeheer en maandrapportage uit Dev-support, inbegrepen als basis."
             },
             {
               "i": "Functieontwikkeling (35 uur/mnd)",
@@ -2001,7 +2325,7 @@
       ],
       "appBuild": [
         {
-          "name": "Launchpad",
+          "name": "Lanceerplatform",
           "price": 9500,
           "disp": "$9,500",
           "tag": "Valideer je idee",
@@ -2043,7 +2367,7 @@
             "Tablet-/iPad-lay-outs: +$1,800"
           ],
           "ex": "Geen custom backend-build (gebruikt je bestaande API's of een no-code backend zoals Supabase). Geen in-app-aankopen. Geen pushmeldingen. Geen offline-first-modus.",
-          "bridge": "Na de garantie van 30 dagen gaat het onderhoud over naar ons Keep Alive-plan ($1,950/mnd) om bij te blijven met iOS-/Android-updates en store-herindieningen.",
+          "bridge": "Na de garantie van 30 dagen gaat het onderhoud over naar ons Basisbeheer-plan ($1,950/mnd) om bij te blijven met iOS-/Android-updates en store-herindieningen.",
           "ideal": "Founders die een idee valideren met een gerichte MVP voor één platform"
         },
         {
@@ -2055,7 +2379,7 @@
           "tl": "8-12 weken",
           "scope": [
             {
-              "i": "iOS + Android cross-platform",
+              "i": "iOS + Android, cross-platform",
               "l": "Eén React Native-codebase (of Flutter op verzoek) die bouwt voor zowel iOS als Android. Platformspecifieke afwerking waar het telt: iOS-haptics, Android Material-componenten."
             },
             {
@@ -2094,11 +2418,11 @@
             "Verlengde garantie (+30 dagen): $1,200"
           ],
           "ho": "Volledige code-overdracht na livegang: GitHub-repo, EAS/Fastlane CI-configuratie, deploymentdocumentatie, env-template en een opgenomen walkthrough van 60 min. Jouw team neemt het over of wij gaan door op retainer.",
-          "bridge": "Inclusief 60 dagen na livegang. Actieve iteratie daarna loopt via ons Momentum-plan ($4,800/mnd): 20 engineeringuren, functiewerk en A/B-tests per maand.",
+          "bridge": "Inclusief 60 dagen na livegang. Actieve iteratie daarna loopt via ons Versnelling-plan ($4,800/mnd): 20 engineeringuren, functiewerk en A/B-tests per maand.",
           "ideal": "Teams die een gepolijst cross-platformproduct lanceren voor echte gebruikers"
         },
         {
-          "name": "Flagship",
+          "name": "Vlaggenschip",
           "price": 62000,
           "disp": "$62,000",
           "tag": "Volledige productbuild",
@@ -2154,7 +2478,7 @@
       ],
       "appSupport": [
         {
-          "name": "Keep Alive",
+          "name": "Basisbeheer",
           "price": 1950,
           "disp": "$1,950",
           "per": "/mnd",
@@ -2199,7 +2523,7 @@
           "ideal": "Gelanceerde apps die gezond, compliant en in de stores moeten blijven"
         },
         {
-          "name": "Momentum",
+          "name": "Versnelling",
           "price": 4800,
           "disp": "$4,800",
           "per": "/mnd",
@@ -2209,10 +2533,10 @@
           "scope": [
             {
               "i": "Tot 20 engineeringuren per maand",
-              "l": "20 uur voor actieve iteratie: functiewerk, optimalisaties, A/B-tests, analyticswerk. Alles uit Keep Alive is inbegrepen in dit budget."
+              "l": "20 uur voor actieve iteratie: functiewerk, optimalisaties, A/B-tests, analyticswerk. Alles uit Basisbeheer is inbegrepen in dit budget."
             },
             {
-              "i": "Alles uit Keep Alive",
+              "i": "Alles uit Basisbeheer",
               "l": "Bugfixes, OS-updates, store-herindieningen, Crashlytics-monitoring, dependency-patches. Dezelfde limieten gelden, uit de bank van 20 uur."
             },
             {
@@ -2246,7 +2570,7 @@
           "ideal": "Live apps die actief itereren op basis van gebruikersdata"
         },
         {
-          "name": "Partner",
+          "name": "Partnerschap",
           "price": 10500,
           "disp": "$10,500",
           "per": "/mnd",
@@ -2258,8 +2582,8 @@
               "l": "Vaste senior engineer voor ~20 uur/week + fractional designer voor ~4 uur/week. Elke maand dezelfde mensen. Zij kennen je codebase."
             },
             {
-              "i": "Alles uit Momentum",
-              "l": "Al het Momentum-werk loopt door (bugs, functies, A/B-tests, analytics) binnen het uitgebreide budget. Geen aparte facturering."
+              "i": "Alles uit Versnelling",
+              "l": "Al het Versnelling-werk loopt door (bugs, functies, A/B-tests, analytics) binnen het uitgebreide budget. Geen aparte facturering."
             },
             {
               "i": "Continue roadmaplevering",
@@ -2480,7 +2804,7 @@
           "ideal": "Founders die vermoeden dat er marketinggeld weglekt, maar niet weten waar"
         },
         {
-          "name": "Campagne Launchpad",
+          "name": "Campagne-lanceerplatform",
           "price": 8500,
           "disp": "$8,500",
           "tag": "Meest gekozen",
@@ -2592,7 +2916,7 @@
       ],
       "brandingBuild": [
         {
-          "name": "Brand Lite",
+          "name": "Merk Lite",
           "price": 4000,
           "disp": "$4,000",
           "tag": "Logo + palet + typografie",
@@ -2623,7 +2947,7 @@
               "l": "Basisregels voor logogebruik (minimale grootte, vrije ruimte), kleurcodes en typografie. Geen volledig richtlijnendocument."
             },
             {
-              "i": "Favicon + social avatar",
+              "i": "Favicon + social-avatar",
               "l": "Logo geoptimaliseerd en geëxporteerd op 16px, 32px, 512px en 1024px voor web en social profielen."
             }
           ],
@@ -2633,7 +2957,7 @@
             "Merkfotografierichting: $800"
           ],
           "ex": "Geen brandguidelines-document. Geen huisstijldrukwerk. Geen social templates. Geen naamgeving of verbale identiteit.",
-          "bridge": "Brand Lite in combinatie met Brand Keeper ($1,500/mnd) houdt je materialen consistent terwijl je nieuwe content produceert.",
+          "bridge": "Merk Lite in combinatie met Merkbewaker ($1,500/mnd) houdt je materialen consistent terwijl je nieuwe content produceert.",
           "ideal": "Zelfstandigen en pre-revenue merken die snel een strak, bruikbaar logo nodig hebben"
         },
         {
@@ -2728,13 +3052,13 @@
             "Extra naamgevingsronde: $2,000"
           ],
           "ex": "Geen merkregistratie (doorverwijzing naar partneradvocaat inbegrepen). Geen videoproductie buiten het storyboard. Geen doorlopende uitvoering. Daar is een retainer voor.",
-          "bridge": "Op een Merktransformatie volgt doorgaans Embedded Studio ($8,500/mnd) om de nieuwe identiteit de komende 6 maanden op elk vlak uit te rollen.",
+          "bridge": "Op een Merktransformatie volgt doorgaans Ingebedde studio ($8,500/mnd) om de nieuwe identiteit de komende 6 maanden op elk vlak uit te rollen.",
           "ideal": "Gevestigde bedrijven die zich herpositioneren, startups vóór Series A, legacy-merken die van de grond af opnieuw moeten worden opgebouwd"
         }
       ],
       "brandingSupport": [
         {
-          "name": "Brand Keeper",
+          "name": "Merkbewaker",
           "price": 1500,
           "disp": "$1,500",
           "per": "/mnd",
@@ -2817,7 +3141,7 @@
           "ideal": "Groeiende merken die een creatieve partner nodig hebben die regelmatig werk levert en de visuele stem bewaakt"
         },
         {
-          "name": "Embedded Studio",
+          "name": "Ingebedde studio",
           "price": 8500,
           "disp": "$8,500",
           "per": "/mnd",
@@ -2837,11 +3161,11 @@
               "l": "Elke maand: audit geleverd, daarna de top 5 fixes dezelfde maand uitgevoerd. Geen aparte offertes."
             },
             {
-              "i": "Dedicated creative director + designer",
+              "i": "Vaste creative director + designer",
               "l": "Vast team van 2 personen. Slack-toegang ma t/m vr, 9-18 uur (SLA van 4 uur). Loom-walkthroughs bij alle grote deliverables."
             },
             {
-              "i": "Copywriting + bewaking van de merkstem",
+              "i": "Tekstschrijven + bewaking van de merkstem",
               "l": "Tot 3.000 woorden/mnd aan on-brand tekst. Stemrichtlijnen doorgevoerd in alle content die wij aanraken. 1 update van het stemtrainingsdocument per kwartaal."
             },
             {
@@ -2866,48 +3190,9 @@
           "ideal": "Opschalende merken die ons inzetten als hun fractional in-house creatieve team op elk kanaal"
         }
       ]
-    }
-  },
-  "onboard": {
-    "title": "Klant-onboarding",
-    "sub": "Laten we alles klaarzetten zodat we meteen kunnen beginnen.",
-    "loading": "Je onboarding wordt geladen...",
-    "unavailable": "Link niet beschikbaar",
-    "done": "Alles is rond!",
-    "done_sub": "Wil je je betaalmethode instellen zodat we direct kunnen starten?",
-    "pay_cta": "Betaalmethode instellen",
-    "coming_soon": "Binnenkort",
-    "submitting": "Versturen...",
-    "contacts": "Contactpersonen",
-    "contacts_sub": "Wie moeten we binnen je team benaderen?",
-    "primary": "Hoofdcontact",
-    "remove": "Verwijderen",
-    "add_contact": "Nog een contact toevoegen",
-    "access": "Accounttoegang",
-    "access_sub": "Deel de inloggegevens van de platforms die wij mogen beheren.",
-    "encrypted": "Je inloggegevens worden versleuteld met AES-256",
-    "add_account": "Nog een account toevoegen",
-    "social": "Socialprofielen",
-    "social_sub": "Koppel je socialmedia-accounts zodat wij ze kunnen beheren en laten groeien.",
-    "add_profile": "Nog een profiel toevoegen",
-    "details": "Projectdetails",
-    "details_sub": "Help ons onze werkwijze op die van jou af te stemmen.",
-    "telegram_hint": "Stuur @blokblok_bot een bericht op Telegram voor je ID",
-    "review": "Controleren & versturen",
-    "review_sub": "Controleer alles voor je verstuurt. Je kunt terug om elk onderdeel aan te passen.",
-    "f_timezone": "Tijdzone:",
-    "f_telegram": "Telegram-ID:",
-    "f_notes": "Notities:",
-    "f_brand": "Merkrichtlijnen:",
-    "ph_phone": "Telefoonnummer",
-    "ph_role": "bijv. CEO, Marketingmanager",
-    "ph_url": "bijv. https://jouw-site.nl/wp-admin",
-    "ph_2fa": "bijv. 2FA aan, authenticator-app gebruiken",
-    "ph_link": "https://...",
-    "ph_timezone": "Kies je tijdzone...",
-    "ph_telegram": "bijv. 123456789",
-    "ph_notes": "Alles wat we moeten weten over je project, voorkeuren of werkwijze...",
-    "ph_brand": "Logogebruik, merkkleuren, lettertypes, tone of voice, do's en don'ts..."
+    },
+    "v2_card_cta": "Vraag een offerte op maat aan",
+    "v2_options": "{count, plural, one {# optie} other {# opties}}"
   },
   "a11y": {
     "skip_to_main": "Naar hoofdinhoud",
@@ -2917,5 +3202,31 @@
     "email_label": "E-mailadres",
     "cookie_dialog": "Cookietoestemming",
     "cookie_preferences_dialog": "Cookievoorkeuren"
+  },
+  "careers": {
+    "meta_title": "Werken bij Blok Blok Studio",
+    "meta_description": "Een studio van vijf in Berlijn, Richmond, Los Angeles en Multan die websites bouwt voor klanten van Dallas tot Manilla. Hoe we werken en waar je je portfolio naartoe stuurt.",
+    "label": "Werken bij",
+    "title": "Klein team. Echte klanten. Jouw naam op het werk.",
+    "intro": "Vijf mensen in vier steden, die bouwen voor klanten van een loodgieter in Dallas tot Philippine Airlines. Geen lagen tussen jou en de klant, en geen templates tussen jou en het werk.",
+    "how_label": "Hoe we werken",
+    "how_1_title": "Bewust remote",
+    "how_1_text": "Berlijn is het hoofdkantoor. De creative director zit in Virginia, marketing in Los Angeles, video in Pakistan. Async first, met calls wanneer ze hun plek verdienen.",
+    "how_2_title": "Jij bent eigenaar van een project",
+    "how_2_text": "Eén persoon leidt een build van begin tot eind en praat rechtstreeks met de klant. De casestudy draagt jouw werk, niet dat van een afdeling.",
+    "how_3_title": "Vanaf nul gebouwd",
+    "how_3_text": "Next.js en React, met de hand gebouwd. Geen page builders, geen gekochte thema's. Als je houdt van snelle sites en schone code, zit je hier goed.",
+    "how_4_title": "Cijfers, geen onderbuik",
+    "how_4_text": "Elke site wordt beoordeeld op wat hij de klant oplevert: boekingen, bestellingen, rankings. We publiceren de resultaten, dus het werk moet standhouden.",
+    "where_label": "Waar we zitten",
+    "roles_label": "Openstaande vacatures",
+    "roles": [],
+    "apply": "Solliciteer per e-mail",
+    "none_title": "Op dit moment geen openstaande vacatures.",
+    "none_text": "We nemen mensen aan wanneer een project erom vraagt, meestal front-end developers en designers die ook kunnen schrijven. Stuur een portfolio en twee regels over wat je wilt bouwen. We lezen alles en bewaren de goede.",
+    "none_subject": "Portfolio voor Blok Blok Studio",
+    "none_cta": "Stuur een portfolio",
+    "clients_note": "Zoek je juist een website?",
+    "clients_link": "Begin met de quiz"
   }
 }
