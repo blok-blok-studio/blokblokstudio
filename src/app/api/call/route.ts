@@ -9,7 +9,7 @@ import { sendMetaLeadEvent } from '@/lib/meta-capi';
 import { sendMarketingConfirmEmail, sendLeadAckEmail, notifyNewLead, notifyConfirmEmailFailed } from '@/lib/email';
 import { randomUUID } from 'crypto';
 import { marketingConsentRecord } from '@/data/consent-text';
-import { pickLang } from '@/lib/pick-lang';
+import { pickLang, pickLocale } from '@/lib/pick-lang';
 
 // Rate limiting: 5 submissions per IP per 15 minutes
 const limiter = rateLimit({ interval: 15 * 60 * 1000, maxRequests: 5 });
@@ -86,6 +86,7 @@ export async function POST(req: NextRequest) {
     // rather than taken from the body: this decides which consent wording is
     // recorded as evidence, and a client must not get to choose that.
     const lang = pickLang(req);
+    const consentLocale = pickLocale(req);
 
     // Repeat submissions keep their history: the new summary goes on top,
     // earlier ones stay below it with the date they came in, so service
@@ -123,7 +124,7 @@ export async function POST(req: NextRequest) {
               marketingConsent: true,
               marketingConsentAt: new Date(),
               marketingConsentIp: consentIp,
-              marketingConsentText: marketingConsentRecord(lang),
+              marketingConsentText: marketingConsentRecord(consentLocale),
             }
           : {}),
       },
@@ -145,7 +146,7 @@ export async function POST(req: NextRequest) {
           ? {
               marketingConsentAt: new Date(),
               marketingConsentIp: consentIp,
-              marketingConsentText: marketingConsentRecord(lang),
+              marketingConsentText: marketingConsentRecord(consentLocale),
             }
           : {}),
       },

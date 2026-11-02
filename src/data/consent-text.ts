@@ -16,11 +16,10 @@
  * what those people actually agreed to.
  */
 
-import type { SupportedLang } from '@/lib/pick-lang';
-
 export interface ConsentWording {
   version: string;
-  text: Record<SupportedLang, string>;
+  /** Keyed by site locale (src/i18n/locales.ts). Missing locales fall back to English. */
+  text: { en: string } & Partial<Record<string, string>>;
 }
 
 const MARKETING_CONSENT_V2: ConsentWording = {
@@ -40,14 +39,19 @@ const MARKETING_CONSENT_V2: ConsentWording = {
 export const MARKETING_CONSENT = MARKETING_CONSENT_V2;
 
 /** The sentence to show, for a given language. */
-export function marketingConsentText(lang: SupportedLang): string {
-  return MARKETING_CONSENT.text[lang] ?? MARKETING_CONSENT.text.en;
+export function marketingConsentText(locale: string): string {
+  const exact = Object.keys(MARKETING_CONSENT.text).find((k) => k.toLowerCase() === locale.toLowerCase());
+  const base = locale.toLowerCase().split('-')[0];
+  return MARKETING_CONSENT.text[exact ?? base] ?? MARKETING_CONSENT.text.en;
 }
 
 /**
  * What gets written to Lead.marketingConsentText: the version, the language
  * it was shown in, and the wording itself.
  */
-export function marketingConsentRecord(lang: SupportedLang): string {
-  return `[${MARKETING_CONSENT.version}/${lang}] ${marketingConsentText(lang)}`;
+export function marketingConsentRecord(locale: string): string {
+  const exact = Object.keys(MARKETING_CONSENT.text).find((k) => k.toLowerCase() === locale.toLowerCase());
+  const base = locale.toLowerCase().split('-')[0];
+  const shown = exact ?? (MARKETING_CONSENT.text[base] ? base : 'en');
+  return `[${MARKETING_CONSENT.version}/${shown}] ${marketingConsentText(shown)}`;
 }

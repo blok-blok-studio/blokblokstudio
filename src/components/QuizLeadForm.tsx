@@ -170,7 +170,6 @@ function ChoiceCard({
 export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string }) {
   const t = useTranslations('start');
   const locale = useLocale();
-  const consentLang = locale.toLowerCase().startsWith('de') ? 'de' : 'en';
   const router = useRouter();
   const [step, setStep] = useState(0);
   const [direction, setDirection] = useState(1);
@@ -563,7 +562,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
                   className="mt-0.5 h-4 w-4 rounded border-white/20 bg-white/5 accent-orange-500"
                 />
                 <span className="text-xs text-gray-500 leading-relaxed text-pretty">
-                  {marketingConsentText(consentLang)}{' '}
+                  {marketingConsentText(locale)}{' '}
                   <span className="text-gray-600">{t('optional')}</span>
                 </span>
               </label>
