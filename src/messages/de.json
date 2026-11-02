@@ -1097,7 +1097,7 @@
     "pkg": {
       "oneTime": [
         {
-          "name": "Single Page Launch",
+          "name": "Landingpage-Launch",
           "price": 2000,
           "disp": "$2,000",
           "tag": "Ideal für eine einfache Online-Präsenz",
@@ -1130,11 +1130,11 @@
             "Zusätzlicher Abschnitt: 250 $"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Ihrer Freigabe ODER nach 2 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 14 Tage Monitoring nach dem Launch (Bugfixes und kleine Anpassungen). Sie brauchen mehr Seiten oder Funktionen? Mit dem Upgrade auf Starter Launch (6.500 $) bekommen Sie eine komplette 5-seitige Website mit KI-Chat und CRM-Setup.",
+          "bridge": "Inklusive 14 Tage Monitoring nach dem Launch (Bugfixes und kleine Anpassungen). Sie brauchen mehr Seiten oder Funktionen? Mit dem Upgrade auf Starter-Website (6.500 $) bekommen Sie eine komplette 5-seitige Website mit KI-Chat und CRM-Setup.",
           "ideal": "Nebenprojekte, Personal Brands, einfache Landingpages"
         },
         {
-          "name": "Starter Launch",
+          "name": "Starter-Website",
           "price": 6500,
           "disp": "$6,500",
           "tag": "Ideal für neue Unternehmen",
@@ -1177,11 +1177,11 @@
             "Zusätzliche Automatisierung: 350 $ pro Stück"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Ihrer Freigabe ODER nach 2 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 30 Tage Monitoring nach dem Launch (Bugfixes, Chatbot-Checks, CRM-Gesundheit). Ab Tag 31 gehen laufende Wartung, Updates und KI-Feintuning in unseren Plan Maintain & Monitor (1.500 $/Monat) über, damit Ihre Systeme optimal laufen.",
+          "bridge": "Inklusive 30 Tage Monitoring nach dem Launch (Bugfixes, Chatbot-Checks, CRM-Gesundheit). Ab Tag 31 gehen laufende Wartung, Updates und KI-Feintuning in unseren Plan Wartung & Monitoring (1.500 $/Monat) über, damit Ihre Systeme optimal laufen.",
           "ideal": "Startups, Solo-Selbstständige, lokale Unternehmen"
         },
         {
-          "name": "Growth Accelerator",
+          "name": "Wachstumspaket",
           "price": 12000,
           "disp": "$12,000",
           "tag": "Am beliebtesten",
@@ -1235,11 +1235,11 @@
             "Texterstellung über den Umfang hinaus: 200 $/Seite"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 3 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 30 Tage nach dem Launch: Anzeigenbetreuung, KI-Monitoring und Bugfixes. Ab Tag 31 brauchen Ihre Ads, KI-Agenten und Automatisierungen laufende Optimierung, damit sie weiter liefern. Wir empfehlen unseren Plan Growth Engine (3.500 $/Monat), um den Schwung zu halten.",
+          "bridge": "Inklusive 30 Tage nach dem Launch: Anzeigenbetreuung, KI-Monitoring und Bugfixes. Ab Tag 31 brauchen Ihre Ads, KI-Agenten und Automatisierungen laufende Optimierung, damit sie weiter liefern. Wir empfehlen unseren Plan Wachstumsmotor (3.500 $/Monat), um den Schwung zu halten.",
           "ideal": "Wachsende Unternehmen, die mit Systemen skalieren"
         },
         {
-          "name": "Total Domination",
+          "name": "Marktführer-Paket",
           "price": 18000,
           "disp": "$18,000+",
           "tag": "Enterprise-Niveau",
@@ -1297,7 +1297,7 @@
             "Content nach Monat 1: nur mit Betreuungsplan"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 3 Runden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 45 Tage nach dem Launch: vollständiges Monitoring, Anzeigenbetreuung, KI-Feintuning und Bugfixes. Ab Tag 46 brauchen Ihr KI-Ökosystem, Ihre Kampagnen und Content-Systeme laufende Betreuung, damit sie Ergebnisse liefern. Wir empfehlen je nach Bedarf Full Partnership (7.500 $/Monat) oder Growth Engine (3.500 $/Monat).",
+          "bridge": "Inklusive 45 Tage nach dem Launch: vollständiges Monitoring, Anzeigenbetreuung, KI-Feintuning und Bugfixes. Ab Tag 46 brauchen Ihr KI-Ökosystem, Ihre Kampagnen und Content-Systeme laufende Betreuung, damit sie Ergebnisse liefern. Wir empfehlen je nach Bedarf Volle Partnerschaft (7.500 $/Monat) oder Wachstumsmotor (3.500 $/Monat).",
           "ideal": "Etablierte Unternehmen, die eine komplette KI-Infrastruktur wollen"
         }
       ],
@@ -1346,7 +1346,7 @@
             "Video-Content (Reels/Shorts): 175 $ pro Stück"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 1 Korrekturrunde. Änderungen nach der Lieferung: 175 $/Std.",
-          "bridge": "Ihre Profile stehen und sind startklar. Damit sie aktiv bleiben und wachsen, buchen Sie unseren Plan Social Starter (1.500 $/Monat) dazu oder die Betreuung einzelner Plattformen ab 650 $/Monat.",
+          "bridge": "Ihre Profile stehen und sind startklar. Damit sie aktiv bleiben und wachsen, buchen Sie unseren Plan Social Basis (1.500 $/Monat) dazu oder die Betreuung einzelner Plattformen ab 650 $/Monat.",
           "ideal": "Unternehmen, die auf einer Plattform neu starten"
         },
         {
@@ -1403,7 +1403,7 @@
             "Zusätzliche Link-in-Bio-Seite: 200 $"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 2 Korrekturrunden. Nach der Lieferung: 175 $/Std.",
-          "bridge": "Alle Plattformen sind startklar, mit 30 Tagen geplantem Content. Für weiteres Wachstum empfehlen wir unseren Plan Social Growth (2.500 $/Monat) oder Zusatzpakete pro Plattform.",
+          "bridge": "Alle Plattformen sind startklar, mit 30 Tagen geplantem Content. Für weiteres Wachstum empfehlen wir unseren Plan Social Wachstum (2.500 $/Monat) oder Zusatzpakete pro Plattform.",
           "ideal": "Unternehmen, die ihre Social-Präsenz neu starten oder auffrischen"
         },
         {
@@ -1463,13 +1463,13 @@
             "YouTube-Intro/Outro-Video: 600 $"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 2 Korrekturrunden. Nach der Lieferung: 175 $/Std.",
-          "bridge": "Ihr kompletter Social-Auftritt ist neu aufgebaut und startklar, mit 60 Tagen Content. Um den Schwung zu halten, empfehlen wir Social Domination (4.500 $/Monat) oder Social Growth (2.500 $/Monat).",
+          "bridge": "Ihr kompletter Social-Auftritt ist neu aufgebaut und startklar, mit 60 Tagen Content. Um den Schwung zu halten, empfehlen wir Social Komplett (4.500 $/Monat) oder Social Wachstum (2.500 $/Monat).",
           "ideal": "Etablierte Unternehmen mit veraltetem oder uneinheitlichem Social-Auftritt"
         }
       ],
       "monthly": [
         {
-          "name": "Maintain & Monitor",
+          "name": "Wartung & Monitoring",
           "price": 1500,
           "disp": "$1,500",
           "per": "/Monat",
@@ -1497,7 +1497,7 @@
               "l": "Monatliche Prüfung Ihrer GHL-Pipeline: feststeckende Leads, veraltete Deals und Automatisierungsfehler. 3 Anpassungen an Automatisierungen pro Monat (z. B. E-Mail-Texte aktualisieren, Trigger-Timing ändern, defekte Sequenzen reparieren). Kontaktlisten-Hygiene: Dubletten markieren und Bounces entfernen (max. 500 Kontakte/Monat)."
             },
             {
-              "i": "Support",
+              "i": "Support & Erreichbarkeit",
               "l": "Support nur per Text und E-Mail (kein Telefon, keine Live-Calls in dieser Stufe). Antwort innerhalb von 48 Stunden an Werktagen (Montag bis Freitag, 9 bis 17 Uhr). Bis zu 10 Support-Anfragen pro Monat. Jede Anfrage = 1 konkretes Anliegen (keine Liste von Änderungen). Weitere Anfragen werden mit 175 $/Std. berechnet."
             }
           ],
@@ -1512,7 +1512,7 @@
           "ideal": "Ruhe und Sicherheit nach dem Launch"
         },
         {
-          "name": "Growth Engine",
+          "name": "Wachstumsmotor",
           "price": 3500,
           "disp": "$3,500",
           "per": "/Monat",
@@ -1521,7 +1521,7 @@
           "com": "Mindestlaufzeit 6 Monate",
           "scope": [
             {
-              "i": "Alles aus Maintain & Monitor",
+              "i": "Alles aus Wartung & Monitoring",
               "l": "Komplette Website-Wartung, KI-Monitoring, Monatsbericht, CRM-Pflege und E-Mail-Support. Gleiche Limits und Regeln. Die Design-Stunden werden durch die 5 Std./Monat unten ersetzt (nicht addiert)."
             },
             {
@@ -1563,15 +1563,15 @@
           "ideal": "Unternehmen, die aktiv ihren Umsatz skalieren"
         },
         {
-          "name": "Full Partnership",
+          "name": "Volle Partnerschaft",
           "price": 7500,
           "disp": "$7,500",
           "per": "/Monat",
-          "tag": "Fractional CMO + Team",
+          "tag": "CMO auf Zeit + Team",
           "com": "Mindestlaufzeit 6 Monate",
           "scope": [
             {
-              "i": "Alles aus Growth Engine",
+              "i": "Alles aus Wachstumsmotor",
               "l": "Komplette Website-Wartung, KI-Monitoring, Berichte, CRM-Pflege, Google- + Meta-Ads-Betreuung, KI-Content-Produktion, KI-Optimierung, Strategie-Updates und E-Mail-Support, mit den erweiterten Limits unten. Design-Stunden und Strategie-Updates werden durch die erweiterten Versionen unten ersetzt (nicht addiert)."
             },
             {
@@ -1619,7 +1619,7 @@
       ],
       "social": [
         {
-          "name": "Social Starter",
+          "name": "Social Basis",
           "price": 1500,
           "disp": "$1,500",
           "per": "/Monat",
@@ -1662,11 +1662,11 @@
             "Zusätzliche Korrekturrunde: 175 $",
             "Story-Erstellung: 30 $/Story"
           ],
-          "ex": "Keine Videoproduktion, keine bezahlten Social Ads, keine Influencer-Ansprache, kein Community-Aufbau über das Basis-Engagement hinaus. Dafür brauchen Sie Social Growth oder Zusatzpakete.",
+          "ex": "Keine Videoproduktion, keine bezahlten Social Ads, keine Influencer-Ansprache, kein Community-Aufbau über das Basis-Engagement hinaus. Dafür brauchen Sie Social Wachstum oder Zusatzpakete.",
           "ideal": "Unternehmen, die auf 1 bis 2 Kanälen konstant präsent sein wollen"
         },
         {
-          "name": "Social Growth",
+          "name": "Social Wachstum",
           "price": 2500,
           "disp": "$2,500",
           "per": "/Monat",
@@ -1720,7 +1720,7 @@
           "ideal": "Unternehmen, die Reichweite und Engagement ernsthaft ausbauen wollen"
         },
         {
-          "name": "Social Domination",
+          "name": "Social Komplett",
           "price": 4500,
           "disp": "$4,500",
           "per": "/Monat",
@@ -1780,7 +1780,7 @@
       ],
       "customBuild": [
         {
-          "name": "Discovery & Scoping",
+          "name": "Discovery & Konzeption",
           "price": 2500,
           "disp": "$2,500",
           "tag": "Verpflichtender erster Schritt",
@@ -1821,7 +1821,7 @@
           "ideal": "Alle, die über einen individuellen Build nachdenken. Das ist Schritt eins."
         },
         {
-          "name": "Standard Build",
+          "name": "Standard-Build",
           "price": 25000,
           "disp": "$25,000",
           "tag": "Am häufigsten gewählt",
@@ -1842,7 +1842,7 @@
             },
             {
               "i": "Kernfunktionen",
-              "l": "Umfang wird im Discovery-SOW festgelegt. Standard Builds enthalten typischerweise: Registrierung und Login, rollenbasierte Dashboards, CRUD-Operationen für Kerndaten (z. B. Objekte, Mieter, Anfragen), Suche und Filter, Benachrichtigungssystem (E-Mail und/oder In-App) und einfache Berichte/Analysen. Funktionen außerhalb des SOW brauchen einen Änderungsauftrag."
+              "l": "Umfang wird im Discovery-SOW festgelegt. Standard-Builds enthalten typischerweise: Registrierung und Login, rollenbasierte Dashboards, CRUD-Operationen für Kerndaten (z. B. Objekte, Mieter, Anfragen), Suche und Filter, Benachrichtigungssystem (E-Mail und/oder In-App) und einfache Berichte/Analysen. Funktionen außerhalb des SOW brauchen einen Änderungsauftrag."
             },
             {
               "i": "Drittanbieter-Integrationen (3 inklusive)",
@@ -1871,22 +1871,22 @@
             "Änderungsaufträge während der Entwicklung: 200 $/Std.",
             "Zusätzliche Nutzerrollen: 2.000 $ pro Rolle",
             "Erweitertes Reporting-/Analytics-Dashboard: 5.000 $",
-            "Native Mobile-App (iOS oder Android): siehe Enterprise Build"
+            "Native Mobile-App (iOS oder Android): siehe Enterprise-Build"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Inklusive 30 Tage Bugfixes nach dem Launch (nur für Funktionen aus dem ursprünglichen SOW). Danach geht der Support in eine monatliche Wartungsbetreuung über. Der gesamte Code gehört Ihnen. Vollständige Rechte an Code, Designdateien und Dokumentation gehen bei Projektabschluss auf Sie über.",
-          "bridge": "Ihre Plattform ist live und stabil. Damit sie sicher läuft und weiterentwickelt wird, empfehlen wir unsere Betreuung Dev Support (1.500 $/Monat) oder eine Hourly Bank (2.500 $/Monat für 10 Std.).",
+          "bridge": "Ihre Plattform ist live und stabil. Damit sie sicher läuft und weiterentwickelt wird, empfehlen wir unsere Betreuung Dev-Support (1.500 $/Monat) oder ein Stundenkontingent (2.500 $/Monat für 10 Std.).",
           "ideal": "Portale, Dashboards, interne Tools und SaaS-MVPs"
         },
         {
-          "name": "Enterprise Build",
+          "name": "Enterprise-Build",
           "price": 75000,
           "disp": "$75,000+",
           "tag": "Komplexe Systeme",
           "tl": "12 bis 24 Wochen",
           "scope": [
             {
-              "i": "Alles aus Standard Build (erweitert)",
-              "l": "Design, Frontend, Backend, Integrationen, Hosting, Tests und Dokumentation wie im Standard Build, mit erweitertem Umfang für größere, komplexere Systeme. Typischerweise 30 bis über 60 Screens, mehrere Nutzerrollen und komplexe Geschäftslogik."
+              "i": "Alles aus Standard-Build (erweitert)",
+              "l": "Design, Frontend, Backend, Integrationen, Hosting, Tests und Dokumentation wie im Standard-Build, mit erweitertem Umfang für größere, komplexere Systeme. Typischerweise 30 bis über 60 Screens, mehrere Nutzerrollen und komplexe Geschäftslogik."
             },
             {
               "i": "Erweiterte Architektur",
@@ -1930,7 +1930,7 @@
             "White-Label-/Mandanten-Zusatz (falls nicht enthalten): 15.000 $"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Inklusive 45 Tage Bugfixes nach dem Launch pro Phase. Code, Designdateien und Dokumentation gehen bei Abschluss komplett auf Sie über. Volle Rechte am Code. Nach 45 Tagen geht der Support in eine monatliche Wartungsbetreuung über.",
-          "bridge": "Komplexe Systeme brauchen laufende Entwicklung, Monitoring und Optimierung. Wir empfehlen unsere Betreuung Active Development (7.500 $/Monat), damit Ihre Plattform mit Ihrem Unternehmen mitwächst.",
+          "bridge": "Komplexe Systeme brauchen laufende Entwicklung, Monitoring und Optimierung. Wir empfehlen unsere Betreuung Aktive Entwicklung (7.500 $/Monat), damit Ihre Plattform mit Ihrem Unternehmen mitwächst.",
           "ideal": "SaaS-Plattformen, mandantenfähige Systeme, KI-integrierte Produkte und Enterprise-Tools"
         }
       ],
@@ -1971,11 +1971,11 @@
             "Nachtraining des Agenten: 750 $"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 2 Korrekturrunden. Der Agent geht in Ihr Eigentum über.",
-          "bridge": "Ihr Agent ist live. Damit er überwacht, optimiert und nachtrainiert wird, buchen Sie unsere Betreuung Agent Maintenance (1.500 $/Monat) oder Agent Growth (3.500 $/Monat) dazu.",
+          "bridge": "Ihr Agent ist live. Damit er überwacht, optimiert und nachtrainiert wird, buchen Sie unsere Betreuung Agenten-Wartung (1.500 $/Monat) oder Agenten-Wachstum (3.500 $/Monat) dazu.",
           "ideal": "Unternehmen, die einen konkreten Workflow automatisieren wollen"
         },
         {
-          "name": "Agent Team",
+          "name": "Agenten-Team",
           "price": 14500,
           "disp": "$14,500",
           "tag": "Am beliebtesten",
@@ -2011,11 +2011,11 @@
             "Express-Lieferung: +40 %"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 2 Korrekturrunden. Alle Agenten und der Code gehen in Ihr Eigentum über.",
-          "bridge": "Ihr Agenten-Team ist live und koordiniert. Für laufende Optimierung, Nachtraining und neue Agenten buchen Sie unsere Betreuung Agent Growth (3.500 $/Monat) oder Agent Command Center (7.500 $/Monat) dazu.",
+          "bridge": "Ihr Agenten-Team ist live und koordiniert. Für laufende Optimierung, Nachtraining und neue Agenten buchen Sie unsere Betreuung Agenten-Wachstum (3.500 $/Monat) oder Agenten-Leitstand (7.500 $/Monat) dazu.",
           "ideal": "Unternehmen, die mehrstufige Workflows komplett automatisieren wollen"
         },
         {
-          "name": "AI Operations",
+          "name": "KI-Operations",
           "price": 25000,
           "disp": "$25,000+",
           "tag": "KI-Ökosystem auf Enterprise-Niveau",
@@ -2050,13 +2050,13 @@
             "Express-Lieferung: +30 %"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Lieferung in Phasen (typischerweise 2 oder 3). Jede Phase hat definierte Leistungen und eine Freigabe. Code und Agenten gehen bei Abschluss komplett in Ihr Eigentum über.",
-          "bridge": "Ihr KI-Ökosystem ist voll einsatzbereit. Damit es läuft, optimiert und erweitert wird, buchen Sie unsere Betreuung Agent Command Center (7.500 $/Monat) dazu.",
+          "bridge": "Ihr KI-Ökosystem ist voll einsatzbereit. Damit es läuft, optimiert und erweitert wird, buchen Sie unsere Betreuung Agenten-Leitstand (7.500 $/Monat) dazu.",
           "ideal": "Unternehmen, die manuelle Prozesse im großen Stil durch intelligente Automatisierung ersetzen"
         }
       ],
       "monthlyAgent": [
         {
-          "name": "Agent Maintenance",
+          "name": "Agenten-Wartung",
           "price": 1500,
           "disp": "$1,500",
           "per": "/Monat",
@@ -2080,7 +2080,7 @@
               "l": "Bericht bis zum 5. jedes Monats mit: Antwortgenauigkeit der Agenten, Abschlussquoten, Fehlerraten, Nutzungsvolumen und Status der Integrationen. Inklusive Empfehlungen zur Leistungsverbesserung. Lieferung als PDF oder Loom-Video."
             },
             {
-              "i": "Support",
+              "i": "Support & Erreichbarkeit",
               "l": "Support per Text und E-Mail mit Antwort innerhalb von 48 Stunden (Werktage). Bis zu 8 Support-Anfragen pro Monat. Jede Anfrage = 1 konkretes Problem oder 1 Frage. Weitere Anfragen werden mit 200 $/Std. berechnet."
             }
           ],
@@ -2090,11 +2090,11 @@
             "Notfall-Fix außerhalb der Geschäftszeiten: +50 %",
             "Neuer Agent: separat kalkuliert"
           ],
-          "ex": "Keine neuen Agenten, keine neuen Integrationen, keine neuen Automatisierungs-Workflows. Nur Monitoring und Wartung. Für aktive Agenten-Entwicklung siehe Agent Growth.",
+          "ex": "Keine neuen Agenten, keine neuen Integrationen, keine neuen Automatisierungs-Workflows. Nur Monitoring und Wartung. Für aktive Agenten-Entwicklung siehe Agenten-Wachstum.",
           "ideal": "Unternehmen mit laufenden Agenten, die präzise und online bleiben müssen"
         },
         {
-          "name": "Agent Growth",
+          "name": "Agenten-Wachstum",
           "price": 3500,
           "disp": "$3,500",
           "per": "/Monat",
@@ -2103,8 +2103,8 @@
           "com": "Mindestlaufzeit 6 Monate",
           "scope": [
             {
-              "i": "Alles aus Agent Maintenance",
-              "l": "Monitoring, Trainings-Updates, API-Checks, Monatsbericht und Support aus Agent Maintenance, mit den erweiterten Limits unten."
+              "i": "Alles aus Agenten-Wartung",
+              "l": "Monitoring, Trainings-Updates, API-Checks, Monatsbericht und Support aus Agenten-Wartung, mit den erweiterten Limits unten."
             },
             {
               "i": "Agenten-Monitoring (bis zu 6)",
@@ -2138,11 +2138,11 @@
             "Neuer Agent: 2.500 $",
             "Notfall außerhalb der Geschäftszeiten: +50 %"
           ],
-          "ex": "Keine Enterprise-Orchestrierung, keine Compliance-Frameworks, kein fester Stratege. Für die komplette Betreuung Ihrer KI-Operations siehe Agent Command Center.",
+          "ex": "Keine Enterprise-Orchestrierung, keine Compliance-Frameworks, kein fester Stratege. Für die komplette Betreuung Ihrer KI-Operations siehe Agenten-Leitstand.",
           "ideal": "Unternehmen, die ihre KI-Agenten aktiv ausbauen"
         },
         {
-          "name": "Agent Command Center",
+          "name": "Agenten-Leitstand",
           "price": 7500,
           "disp": "$7,500",
           "per": "/Monat",
@@ -2150,8 +2150,8 @@
           "com": "Mindestlaufzeit 6 Monate",
           "scope": [
             {
-              "i": "Alles aus Agent Growth",
-              "l": "Monitoring, Trainings-Updates, Workflow-Entwicklung, Strategie-Updates, API-Sicherheit und priorisierter Support aus Agent Growth, mit den erweiterten Limits unten."
+              "i": "Alles aus Agenten-Wachstum",
+              "l": "Monitoring, Trainings-Updates, Workflow-Entwicklung, Strategie-Updates, API-Sicherheit und priorisierter Support aus Agenten-Wachstum, mit den erweiterten Limits unten."
             },
             {
               "i": "Agenten-Monitoring (unbegrenzt)",
@@ -2195,7 +2195,7 @@
       ],
       "customSupport": [
         {
-          "name": "Hourly Bank",
+          "name": "Stundenkontingent",
           "price": 2500,
           "disp": "$2,500",
           "per": "/Monat",
@@ -2232,7 +2232,7 @@
           "ideal": "Kleine Apps, Tools oder Projekte nach dem Launch, die gelegentlich Updates brauchen"
         },
         {
-          "name": "Dev Support",
+          "name": "Dev-Support",
           "price": 1500,
           "disp": "$1,500",
           "per": "/Monat",
@@ -2268,14 +2268,14 @@
             "Bugfixes über 5 Std. hinaus: 200 $/Std.",
             "Notfallreaktion außerhalb der Geschäftszeiten: +50 %",
             "Datenbankmigration: separat kalkuliert",
-            "Neue Funktionen: über Hourly Bank oder Projektpreise",
+            "Neue Funktionen: über das Stundenkontingent oder Projektpreise",
             "Performance-Audit: 2.000 $ einmalig"
           ],
-          "ex": "Keine Feature-Entwicklung, keine Designarbeit, keine Content-Updates, keine Anzeigenbetreuung. Nur Wartung von Infrastruktur und Code. Für aktive Entwicklung siehe Active Development oder Hourly Bank.",
+          "ex": "Keine Feature-Entwicklung, keine Designarbeit, keine Content-Updates, keine Anzeigenbetreuung. Nur Wartung von Infrastruktur und Code. Für neue Funktionen siehe Aktive Entwicklung oder Stundenkontingent.",
           "ideal": "Stabile Apps, die sicher, überwacht und aktuell bleiben müssen"
         },
         {
-          "name": "Active Development",
+          "name": "Aktive Entwicklung",
           "price": 7500,
           "disp": "$7,500",
           "per": "/Monat",
@@ -2284,8 +2284,8 @@
           "com": "Mindestlaufzeit 6 Monate",
           "scope": [
             {
-              "i": "Alles aus Dev Support",
-              "l": "Monitoring, Sicherheit, Bugfixes (5 Std.), Datenbankpflege und Monatsbericht aus Dev Support sind als Basis enthalten."
+              "i": "Alles aus Dev-Support",
+              "l": "Monitoring, Sicherheit, Bugfixes (5 Std.), Datenbankpflege und Monatsbericht aus Dev-Support sind als Basis enthalten."
             },
             {
               "i": "Feature-Entwicklung (35 Std./Monat)",
@@ -2325,7 +2325,7 @@
       ],
       "appBuild": [
         {
-          "name": "Launchpad",
+          "name": "Startrampe",
           "price": 9500,
           "disp": "$9,500",
           "tag": "Ihre Idee validieren",
@@ -2367,7 +2367,7 @@
             "Tablet-/iPad-Layouts: +1.800 $"
           ],
           "ex": "Kein eigenes Backend (nutzt Ihre bestehenden APIs oder ein No-Code-Backend wie Supabase). Keine In-App-Käufe. Keine Push-Benachrichtigungen. Kein Offline-First-Modus.",
-          "bridge": "Nach den 30 Tagen Garantie geht die laufende Wartung in unseren Plan Keep Alive (1.950 $/Monat) über, damit die App mit iOS-/Android-Updates und Store-Neueinreichungen Schritt hält.",
+          "bridge": "Nach den 30 Tagen Garantie geht die laufende Wartung in unseren Plan Basisbetrieb (1.950 $/Monat) über, damit die App mit iOS-/Android-Updates und Store-Neueinreichungen Schritt hält.",
           "ideal": "Gründer, die eine Idee mit einem fokussierten MVP für eine Plattform validieren wollen"
         },
         {
@@ -2418,11 +2418,11 @@
             "Verlängerte Garantie (+30 Tage): 1.200 $"
           ],
           "ho": "Vollständige Code-Übergabe nach dem Launch: GitHub-Repo, EAS-/Fastlane-CI-Konfiguration, Deployment-Doku, Env-Vorlage und ein 60-minütiger aufgezeichneter Walkthrough. Ihr Team übernimmt oder wir machen in der monatlichen Betreuung weiter.",
-          "bridge": "Inklusive 60 Tage nach dem Launch. Aktive Weiterentwicklung danach läuft über unseren Plan Momentum (4.800 $/Monat): 20 Entwicklungsstunden, Feature-Arbeit und A/B-Tests monatlich.",
+          "bridge": "Inklusive 60 Tage nach dem Launch. Aktive Weiterentwicklung danach läuft über unseren Plan Weiterentwicklung (4.800 $/Monat): 20 Entwicklungsstunden, Feature-Arbeit und A/B-Tests monatlich.",
           "ideal": "Teams, die ein ausgereiftes plattformübergreifendes Produkt für echte Nutzer launchen"
         },
         {
-          "name": "Flagship",
+          "name": "Flaggschiff",
           "price": 62000,
           "disp": "$62,000",
           "tag": "Kompletter Produkt-Build",
@@ -2472,13 +2472,13 @@
             "Zusätzlicher Discovery-Workshop: 1.800 $"
           ],
           "ho": "Komplette Übergabe: GitHub-Monorepo, CI/CD-Konfiguration, Infrastructure-as-Code (Terraform oder Pulumi auf Wunsch), Runbook für Deployments und Rollbacks sowie ein 90-minütiger Video-Walkthrough mit Mobile- und Backend-Team.",
-          "bridge": "Inklusive 90 Tage nach dem Launch. Die eingebettete Partnerschaft danach läuft über unseren Plan Partner (10.500 $/Monat) mit festem Entwickler und anteiligem Designer.",
+          "bridge": "Inklusive 90 Tage nach dem Launch. Die eingebettete Partnerschaft danach läuft über unseren Plan Partnerschaft (10.500 $/Monat) mit festem Entwickler und anteiligem Designer.",
           "ideal": "Finanzierte Startups und Marken, die ein voll ausgestattetes Produkt mit eigenem Backend ausliefern"
         }
       ],
       "appSupport": [
         {
-          "name": "Keep Alive",
+          "name": "Basisbetrieb",
           "price": 1950,
           "disp": "$1,950",
           "per": "/Monat",
@@ -2523,7 +2523,7 @@
           "ideal": "Veröffentlichte Apps, die gesund, regelkonform und in den Stores bleiben müssen"
         },
         {
-          "name": "Momentum",
+          "name": "Weiterentwicklung",
           "price": 4800,
           "disp": "$4,800",
           "per": "/Monat",
@@ -2533,10 +2533,10 @@
           "scope": [
             {
               "i": "Bis zu 20 Entwicklungsstunden pro Monat",
-              "l": "20 Stunden für aktive Weiterentwicklung: Feature-Arbeit, Optimierungen, A/B-Tests, Analytics. Alles aus Keep Alive ist in diesem Budget enthalten."
+              "l": "20 Stunden für aktive Weiterentwicklung: Feature-Arbeit, Optimierungen, A/B-Tests, Analytics. Alles aus Basisbetrieb ist in diesem Budget enthalten."
             },
             {
-              "i": "Alles aus Keep Alive",
+              "i": "Alles aus Basisbetrieb",
               "l": "Bugfixes, OS-Updates, Store-Neueinreichungen, Crashlytics-Monitoring, Abhängigkeits-Patches. Gleiche Limits, aus dem 20-Stunden-Kontingent."
             },
             {
@@ -2570,7 +2570,7 @@
           "ideal": "Live-Apps, die auf Basis von Nutzerdaten aktiv weiterentwickelt werden"
         },
         {
-          "name": "Partner",
+          "name": "Partnerschaft",
           "price": 10500,
           "disp": "$10,500",
           "per": "/Monat",
@@ -2582,8 +2582,8 @@
               "l": "Fester Senior-Entwickler mit ca. 20 Std./Woche + anteiliger Designer mit ca. 4 Std./Woche. Jeden Monat dieselben Leute. Sie kennen Ihren Code."
             },
             {
-              "i": "Alles aus Momentum",
-              "l": "Alle Momentum-Leistungen laufen weiter (Bugs, Features, A/B-Tests, Analytics) innerhalb des erweiterten Budgets. Keine separate Abrechnung."
+              "i": "Alles aus Weiterentwicklung",
+              "l": "Alle Leistungen aus Weiterentwicklung laufen weiter (Bugs, Features, A/B-Tests, Analytics) innerhalb des erweiterten Budgets. Keine separate Abrechnung."
             },
             {
               "i": "Kontinuierliche Roadmap-Umsetzung",
@@ -2621,7 +2621,7 @@
       ],
       "webSupport": [
         {
-          "name": "Site Care",
+          "name": "Website-Pflege",
           "price": 550,
           "disp": "$550",
           "per": "/Monat",
@@ -2662,7 +2662,7 @@
           "ideal": "Gelaunchte Seiten, die zuverlässige Pflege und ein gutes Gefühl brauchen"
         },
         {
-          "name": "Site Growth",
+          "name": "Website-Wachstum",
           "price": 1600,
           "disp": "$1,600",
           "per": "/Monat",
@@ -2671,7 +2671,7 @@
           "com": "Mindestlaufzeit 3 Monate",
           "scope": [
             {
-              "i": "Alles aus Site Care",
+              "i": "Alles aus Website-Pflege",
               "l": "Uptime, Backups, Sicherheit und kleine Änderungen inklusive. Gleiche Limits, in diesem Plan enthalten."
             },
             {
@@ -2692,11 +2692,11 @@
             },
             {
               "i": "8 Content-Updates pro Monat",
-              "l": "Über die 4 Änderungen aus Site Care hinaus: bis zu 8 Content-Updates insgesamt pro Monat. Wöchentlich gebündelt am Montag."
+              "l": "Über die 4 Änderungen aus Website-Pflege hinaus: bis zu 8 Content-Updates insgesamt pro Monat. Wöchentlich gebündelt am Montag."
             },
             {
               "i": "Priorisierte E-Mail + Slack, Antwort in 24 Std.",
-              "l": "Zugang zum Slack-Kanal für schnelle Fragen. Antwort innerhalb von 24 Stunden auf alle Anfragen. Keine Echtzeit-Reaktion bei Notfällen, außer in der Stufe Site Partnership."
+              "l": "Zugang zum Slack-Kanal für schnelle Fragen. Antwort innerhalb von 24 Stunden auf alle Anfragen. Keine Echtzeit-Reaktion bei Notfällen, außer in der Stufe Website-Partnerschaft."
             }
           ],
           "ov": [
@@ -2708,7 +2708,7 @@
           "ideal": "Teams, die ihre Seite jeden Monat ein Stück besser machen wollen"
         },
         {
-          "name": "Site Partnership",
+          "name": "Website-Partnerschaft",
           "price": 3800,
           "disp": "$3,800",
           "per": "/Monat",
@@ -2716,7 +2716,7 @@
           "com": "Mindestlaufzeit 3 Monate",
           "scope": [
             {
-              "i": "Alles aus Site Growth",
+              "i": "Alles aus Website-Wachstum",
               "l": "Monatlich neue Seiten, A/B-Tests, Web-Vitals-Arbeit, Quartalsberichte, plus erweiterte Limits innerhalb dieses Plans."
             },
             {
@@ -2800,11 +2800,11 @@
             "Verlängerte Workshop-Session (90 Min.): 400 $"
           ],
           "ex": "Keine Umsetzung der Roadmap (das ist der nächste Schritt). Keine Anzeigenbetreuung. Keine Content-Erstellung. Keine Kreativproduktion.",
-          "bridge": "Das Audit passt perfekt zu unserem Plan Maintain & Monitor (1.500 $/Monat), um die Roadmap umzusetzen, ohne den Kontext neu aufzubauen. 10 % Rabatt auf den ersten Monat bei Abschluss innerhalb von 14 Tagen.",
+          "bridge": "Das Audit passt perfekt zu unserem Plan Wartung & Monitoring (1.500 $/Monat), um die Roadmap umzusetzen, ohne den Kontext neu aufzubauen. 10 % Rabatt auf den ersten Monat bei Abschluss innerhalb von 14 Tagen.",
           "ideal": "Gründer, die vermuten, dass ihr Marketing Geld verliert, aber nicht wissen, wo"
         },
         {
-          "name": "Campaign Launchpad",
+          "name": "Kampagnen-Start",
           "price": 8500,
           "disp": "$8,500",
           "tag": "Am beliebtesten",
@@ -2851,7 +2851,7 @@
             "Zusätzliche Anzeigenplattform: 2.500 $"
           ],
           "ex": "Kein organischer Social-Content. Kein langer SEO-Content. Kein Influencer-Management. Keine PR-Arbeit.",
-          "bridge": "Die Kampagne geht in unseren Plan Growth Engine (3.500 $/Monat) über, um Gewinner zu skalieren, einen 2. Kanal zu erschließen und Motive weiterzuentwickeln. 10 % Rabatt auf den ersten Monat bei Abschluss innerhalb von 14 Tagen.",
+          "bridge": "Die Kampagne geht in unseren Plan Wachstumsmotor (3.500 $/Monat) über, um Gewinner zu skalieren, einen 2. Kanal zu erschließen und Motive weiterzuentwickeln. 10 % Rabatt auf den ersten Monat bei Abschluss innerhalb von 14 Tagen.",
           "ideal": "Teams mit bewährtem Angebot, die echtes Akquise-Volumen aufbauen wollen"
         },
         {
@@ -2910,13 +2910,13 @@
             "Programmatic-SEO-Modul: 6.000 $"
           ],
           "ex": "Kein laufender Content-Kalender nach dem Launch. Kein langfristiges Community-Management. Keine Produktfotografie (kann dazugebucht werden).",
-          "bridge": "Der Launch geht in unseren Plan Full Partnership (7.500 $/Monat) über, für nachhaltiges Wachstum, Lifecycle-Optimierung und den nächsten Launch-Zyklus. 10 % Rabatt auf den ersten Monat bei Abschluss innerhalb von 14 Tagen.",
+          "bridge": "Der Launch geht in unseren Plan Volle Partnerschaft (7.500 $/Monat) über, für nachhaltiges Wachstum, Lifecycle-Optimierung und den nächsten Launch-Zyklus. 10 % Rabatt auf den ersten Monat bei Abschluss innerhalb von 14 Tagen.",
           "ideal": "Marken, die ein Produkt, eine Leistungssparte oder ein Rebranding launchen und einen koordinierten Push brauchen"
         }
       ],
       "brandingBuild": [
         {
-          "name": "Brand Lite",
+          "name": "Marke Kompakt",
           "price": 4000,
           "disp": "$4,000",
           "tag": "Logo + Farben + Schrift",
@@ -2957,11 +2957,11 @@
             "Art Direction für Markenfotografie: 800 $"
           ],
           "ex": "Kein Brand-Guidelines-Dokument. Keine Geschäftsausstattung. Keine Social-Vorlagen. Kein Naming und keine verbale Identität.",
-          "bridge": "Brand Lite in Kombination mit Brand Keeper (1.500 $/Monat) hält Ihre Assets konsistent, während Sie neuen Content produzieren.",
+          "bridge": "Marke Kompakt in Kombination mit Markenpflege (1.500 $/Monat) hält Ihre Assets konsistent, während Sie neuen Content produzieren.",
           "ideal": "Solo-Selbstständige und Marken vor dem ersten Umsatz, die schnell ein sauberes, nutzbares Zeichen brauchen"
         },
         {
-          "name": "Brand System",
+          "name": "Markensystem",
           "price": 12000,
           "disp": "$12,000",
           "tag": "Am beliebtesten",
@@ -3003,11 +3003,11 @@
             "Zusätzliche Korrekturrunde: 400 $"
           ],
           "ex": "Kein Naming- oder Verbal-Identity-Sprint. Keine Markenrecherche. Kein Brand Book über die 20-seitigen Guidelines hinaus. Keine Videoarbeit.",
-          "bridge": "Brand System passt zu Creative Direction (4.000 $/Monat), um laufend neue Marken-Assets konsistent zu produzieren.",
+          "bridge": "Markensystem passt zu Kreativleitung (4.000 $/Monat), um laufend neue Marken-Assets konsistent zu produzieren.",
           "ideal": "Finanzierte Startups und skalierende Unternehmen, die ein komplettes, belastbares Markensystem brauchen"
         },
         {
-          "name": "Brand Transformation",
+          "name": "Markentransformation",
           "price": 28000,
           "disp": "$28,000",
           "tag": "Komplettes Rebranding + Naming + Strategie",
@@ -3052,13 +3052,13 @@
             "Zusätzliche Naming-Runde: 2.000 $"
           ],
           "ex": "Keine Markenanmeldung (Empfehlung eines Partneranwalts inklusive). Keine Videoproduktion über das Storyboard hinaus. Keine laufende Umsetzung. Das ist eine monatliche Betreuung.",
-          "bridge": "Auf die Transformation folgt typischerweise Embedded Studio (8.500 $/Monat), um die neue Identität in den nächsten 6 Monaten auf jeder Fläche auszurollen.",
+          "bridge": "Auf die Transformation folgt typischerweise Eingebettetes Studio (8.500 $/Monat), um die neue Identität in den nächsten 6 Monaten auf jeder Fläche auszurollen.",
           "ideal": "Etablierte Unternehmen mit neuer Positionierung, Startups vor der Series A, Traditionsmarken, die einen Neuaufbau von Grund auf brauchen"
         }
       ],
       "brandingSupport": [
         {
-          "name": "Brand Keeper",
+          "name": "Markenpflege",
           "price": 1500,
           "disp": "$1,500",
           "per": "/Monat",
@@ -3095,7 +3095,7 @@
           "ideal": "Marken mit bestehender Identität, die leichte, konsistente Pflege brauchen"
         },
         {
-          "name": "Creative Direction",
+          "name": "Kreativleitung",
           "price": 4000,
           "disp": "$4,000",
           "per": "/Monat",
@@ -3141,7 +3141,7 @@
           "ideal": "Wachsende Marken, die einen kreativen Partner brauchen, der regelmäßig liefert und die visuelle Linie steuert"
         },
         {
-          "name": "Embedded Studio",
+          "name": "Eingebettetes Studio",
           "price": 8500,
           "disp": "$8,500",
           "per": "/Monat",
