@@ -403,7 +403,7 @@
     "service_5_bullet_5": "以您的品牌白牌呈現",
     "service_6_title": "網站",
     "service_6_subtitle": "客製開發、以轉換為核心的網站",
-    "service_6_bullet_1": "Next.js / React builds",
+    "service_6_bullet_1": "Next.js / React 開發",
     "service_6_bullet_2": "從第一天就做好 SEO",
     "service_6_bullet_3": "行動優先的響應式設計",
     "service_6_bullet_4": "CMS 整合",
@@ -831,7 +831,9 @@
         "label": "每月 {amount} 以上",
         "hint": "大力擴張"
       }
-    }
+    },
+    "meta_title": "您的業務正在哪裡流失客戶",
+    "meta_description": "回答五個關於您業務的簡單問題，接著預約通話。我們會告訴您我們會先解決什麼。"
   },
   "errors": {
     "title": "出錯了",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes，創辦人",
     "founder_soon": "Chase 的一段話，即將推出。",
-    "founder_caption": "Chase Haynes，Blok Blok Studio 創辦人。您直接與為您建站的人交流，而不是客戶經理。"
+    "founder_caption": "Chase Haynes，Blok Blok Studio 創辦人。您直接與為您建站的人交流，而不是客戶經理。",
+    "meta_title": "還差一步",
+    "meta_description": "預約您的免費 15 分鐘初次諮詢。"
   },
   "ui": {
     "footer_contact": "聯絡我們",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "挑戰",
     "proj_solution": "我們打造了什麼",
     "proj_results": "成果",
-    "proj_numbers": "數據一覽"
+    "proj_numbers": "數據一覽",
+    "footer_location": "德國柏林",
+    "rights": "版權所有。"
   },
   "onboard": {
     "title": "客戶資料登錄",
@@ -3231,5 +3237,65 @@
     "none_cta": "寄送作品集",
     "clients_note": "其實是想找人做網站？",
     "clients_link": "從測驗開始"
+  },
+  "casegrid": {
+    "kofi_where": "Nike 運動員，柏林",
+    "kofi_proof": "上線後諮詢需求成長 200%。",
+    "luki_where": "私人教練，柏林",
+    "luki_proof": "預約與付款直接在網站上完成。不用私訊，不用開發票。",
+    "bronco_where": "達拉斯沃斯堡",
+    "bronco_proof": "開業前 5 個月總營收超過 5 萬美元。52 則 Google 評論，5.0 星滿分。",
+    "ripz_where": "電商，美國",
+    "ripz_proof": "我們打造的 Shopify 商店創造 19.1 萬美元集換式卡牌銷售額、1,790 筆訂單。店主之後已將商店下架。",
+    "view_case": "查看案例研究",
+    "results_alt": "{name} 成果",
+    "captions_label": "英文"
+  },
+  "impressum": {
+    "meta_title": "法律聲明（Impressum）",
+    "meta_description": "Blok Blok Studio LLC 依據 § 5 DDG 發布的法律聲明（Impressum）。",
+    "subtitle": "依據 § 5 DDG（德國數位服務法）的法律聲明",
+    "provider_title": "服務提供者",
+    "provider_country": "美利堅合眾國",
+    "registered": "已在 Nevada Secretary of State（美國）登記為 Limited Liability Company（有限責任公司）。",
+    "represented_title": "代表人",
+    "represented": "Chase Haynes（Managing Member）",
+    "responsible": "依據 § 18 (2) MStV 的內容負責人：Chase Haynes",
+    "contact_title": "聯絡方式",
+    "email_label": "電子郵件",
+    "phone_label": "電話",
+    "odr_title": "歐盟爭議解決",
+    "odr_1": "歐盟執委會提供線上爭議解決（ODR）平台：",
+    "odr_2": "我們的電子郵件地址請見上方。",
+    "odr_3": "我們無意願亦無義務參與消費者仲裁機構的爭議解決程序。",
+    "liability_title": "內容與連結責任",
+    "liability_1": "作為服務提供者，我們依據一般法律對本網站上的自有內容負責。對於外部連結的內容，我們不承擔任何責任；連結頁面的內容始終由其各自的提供者或經營者負責。",
+    "note": "本法律聲明以德文版本為具有法律效力的文本。"
+  },
+  "places": {
+    "city_berlin": "柏林",
+    "city_new_york": "紐約",
+    "city_washington_dc": "華盛頓特區",
+    "city_dallas": "達拉斯",
+    "city_fort_worth": "沃斯堡",
+    "city_los_angeles": "洛杉磯",
+    "city_manila": "馬尼拉",
+    "city_minneapolis": "明尼亞波利斯",
+    "city_multan": "木爾坦",
+    "city_albuquerque": "阿布奎基",
+    "city_richmond": "里奇蒙",
+    "city_salt_lake_city": "鹽湖城",
+    "region_california": "加州",
+    "region_minnesota": "明尼蘇達州",
+    "region_new_mexico": "新墨西哥州",
+    "region_new_york": "紐約州",
+    "region_punjab": "旁遮普省",
+    "region_texas": "德州",
+    "region_utah": "猶他州",
+    "region_virginia": "維吉尼亞州",
+    "country_germany": "德國",
+    "country_pakistan": "巴基斯坦",
+    "country_philippines": "菲律賓",
+    "country_united_states": "美國"
   }
 }

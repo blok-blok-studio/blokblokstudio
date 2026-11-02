@@ -12,6 +12,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
+import { placeKey } from '@/lib/places';
 import type { GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
 import { clientCities, type ClientCity, type ClientLink, type TeamMember } from '@/data/client-locations';
@@ -66,6 +67,10 @@ function withAlpha(rgb: string, a: number): string {
 export function V2Globe() {
   const t = useTranslations('home');
   const tt = useTranslations('team');
+  const tp = useTranslations('places');
+  const cityName = useCallback((c: ClientCity) => tp(placeKey('city', c.city)), [tp]);
+  const regionName = useCallback((c: ClientCity) => (c.region ? tp(placeKey('region', c.region)) : ''), [tp]);
+  const countryName = useCallback((c: ClientCity) => tp(placeKey('country', c.country)), [tp]);
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const boxRef = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(0);
@@ -171,7 +176,7 @@ export function V2Globe() {
       : 'translate(12px, -50%)';
     const font = 'font-family:var(--font-inter),Inter,sans-serif;';
     const title = document.createElement('div');
-    title.textContent = c.city + (c.region ? `, ${c.region}` : '');
+    title.textContent = cityName(c) + (c.region ? `, ${regionName(c)}` : '');
     title.style.cssText = `${font}font-size:12px;line-height:1;letter-spacing:.02em;color:#fff;white-space:nowrap;`;
     if (c.tag) {
       const badge = document.createElement('span');
@@ -232,7 +237,7 @@ export function V2Globe() {
     }
     outer.appendChild(inner);
     return outer;
-  }, [t, tt]);
+  }, [t, tt, cityName, regionName]);
 
   const flyTo = useCallback((c: ClientCity) => {
     const g = globeRef.current;
@@ -352,7 +357,7 @@ export function V2Globe() {
       names.length
         ? `<div style="margin-top:4px;letter-spacing:0;text-transform:none"><span style="font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${color}">${label}</span><br/><span style="color:#d1d5db">${names.join(' · ')}</span></div>`
         : '';
-    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:12px;white-space:nowrap">${c.city}${line(t('v2_globe_team'), (c.team ?? []).map((m: TeamMember) => `${m.name}, ${tt(m.title)}`), 'var(--bb-team)')}${line(t('v2_globe_clients'), c.clients.map((cl: ClientLink) => cl.name), 'var(--bb-client)')}</div>`;
+    return `<div style="font-family:var(--font-inter),Inter,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.15);padding:8px 10px;border-radius:12px;white-space:nowrap">${cityName(c)}${line(t('v2_globe_team'), (c.team ?? []).map((m: TeamMember) => `${m.name}, ${tt(m.title)}`), 'var(--bb-team)')}${line(t('v2_globe_clients'), c.clients.map((cl: ClientLink) => cl.name), 'var(--bb-client)')}</div>`;
   };
 
   return (
@@ -427,9 +432,9 @@ export function V2Globe() {
                                   className="group/city min-w-0 text-left"
                                 >
                                   <span className={`block text-base leading-snug ${on ? 'text-white' : 'text-gray-200 group-hover/city:text-white'}`}>
-                                    {c.city}
-                                    {c.region ? <span className="text-gray-400">, {c.region}</span> : null}
-                                    <span className="ml-2 text-[11px] uppercase tracking-[0.16em] text-gray-500">{c.country}</span>
+                                    {cityName(c)}
+                                    {c.region ? <span className="text-gray-400">, {regionName(c)}</span> : null}
+                                    <span className="ml-2 text-[11px] uppercase tracking-[0.16em] text-gray-500">{countryName(c)}</span>
                                     {c.tag && (
                                       <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
                                         {c.tag}

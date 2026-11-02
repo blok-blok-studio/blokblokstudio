@@ -831,7 +831,9 @@
         "label": "{amount}+ / månad",
         "hint": "Skalar hårt"
       }
-    }
+    },
+    "meta_title": "Där ditt företag förlorar kunder",
+    "meta_description": "Fem snabba frågor om ditt företag, sedan bokar du ett samtal. Vi visar vad vi skulle åtgärda först."
   },
   "errors": {
     "title": "Något gick fel",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, grundare",
     "founder_soon": "Några ord från Chase, kommer snart.",
-    "founder_caption": "Chase Haynes, grundare av Blok Blok Studio. Du pratar med personen som bygger din sajt, inte med en kundansvarig."
+    "founder_caption": "Chase Haynes, grundare av Blok Blok Studio. Du pratar med personen som bygger din sajt, inte med en kundansvarig.",
+    "meta_title": "Ett steg kvar",
+    "meta_description": "Boka ditt kostnadsfria 15-minuters introsamtal."
   },
   "ui": {
     "footer_contact": "Kontakt",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "Utmaningen",
     "proj_solution": "Det vi byggde",
     "proj_results": "Resultaten",
-    "proj_numbers": "I siffror"
+    "proj_numbers": "I siffror",
+    "footer_location": "Berlin, Tyskland",
+    "rights": "Alla rättigheter förbehållna."
   },
   "onboard": {
     "title": "Kund-onboarding",
@@ -3231,5 +3237,65 @@
     "none_cta": "Skicka en portfolio",
     "clients_note": "Letar du efter en webbplats istället?",
     "clients_link": "Börja med testet"
+  },
+  "casegrid": {
+    "kofi_where": "Nike-atlet, Berlin",
+    "kofi_proof": "200% fler konsultationsförfrågningar efter lanseringen.",
+    "luki_where": "Personlig tränare, Berlin",
+    "luki_proof": "Bokningar och betalningar direkt via sajten. Inga DM, inga fakturor.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "Över 50 000 $ i bruttointäkter under hans första 5 månader. 5,0 stjärnor över 52 Google-recensioner.",
+    "ripz_where": "E-handel, USA",
+    "ripz_proof": "191 000 $ i försäljning av samlarkort, 1 790 ordrar i Shopify-butiken vi byggde. Ägarna har sedan dess stängt butiken.",
+    "view_case": "Se caset",
+    "results_alt": "Resultat för {name}",
+    "captions_label": "Engelska"
+  },
+  "impressum": {
+    "meta_title": "Impressum / Rättslig information",
+    "meta_description": "Impressum (rättslig information) för Blok Blok Studio LLC enligt § 5 DDG.",
+    "subtitle": "Rättslig information enligt § 5 DDG (tysk lag om digitala tjänster)",
+    "provider_title": "Tjänsteleverantör",
+    "provider_country": "Amerikas förenta stater",
+    "registered": "Registrerat hos Nevada Secretary of State (USA) som Limited Liability Company.",
+    "represented_title": "Företräds av",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "Ansvarig för innehållet enligt § 18 (2) MStV: Chase Haynes",
+    "contact_title": "Kontakt",
+    "email_label": "E-post",
+    "phone_label": "Telefon",
+    "odr_title": "Tvistlösning inom EU",
+    "odr_1": "Europeiska kommissionen tillhandahåller en plattform för tvistlösning online (ODR):",
+    "odr_2": "Vår e-postadress hittar du ovan.",
+    "odr_3": "Vi är varken villiga eller skyldiga att delta i tvistlösningsförfaranden inför en konsumenttvistnämnd.",
+    "liability_title": "Ansvar för innehåll och länkar",
+    "liability_1": "Som tjänsteleverantör ansvarar vi enligt allmän lag för vårt eget innehåll på dessa sidor. Vi tar inget ansvar för innehållet i externa länkar; för innehållet på länkade sidor ansvarar alltid respektive leverantör eller operatör.",
+    "note": "Den tyska versionen av denna rättsliga information är den juridiskt gällande texten."
+  },
+  "places": {
+    "city_berlin": "Berlin",
+    "city_new_york": "New York",
+    "city_washington_dc": "Washington, D.C.",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Angeles",
+    "city_manila": "Manila",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multan",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "Kalifornien",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "New Mexico",
+    "region_new_york": "New York",
+    "region_punjab": "Punjab",
+    "region_texas": "Texas",
+    "region_utah": "Utah",
+    "region_virginia": "Virginia",
+    "country_germany": "Tyskland",
+    "country_pakistan": "Pakistan",
+    "country_philippines": "Filippinerna",
+    "country_united_states": "USA"
   }
 }

@@ -831,7 +831,9 @@
         "label": "Ayda {amount}+",
         "hint": "Hızlı büyüme"
       }
-    }
+    },
+    "meta_title": "İşletmenizin Müşteri Kaybettiği Yer",
+    "meta_description": "İşletmeniz hakkında beş kısa soru, ardından bir görüşme ayırtın. Önce neyi düzelteceğimizi gösteririz."
   },
   "errors": {
     "title": "Bir şeyler ters gitti",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, kurucu",
     "founder_soon": "Chase'den birkaç söz, çok yakında.",
-    "founder_caption": "Chase Haynes, Blok Blok Studio'nun kurucusu. Sitenizi yapan kişiyle konuşursunuz, bir müşteri temsilcisiyle değil."
+    "founder_caption": "Chase Haynes, Blok Blok Studio'nun kurucusu. Sitenizi yapan kişiyle konuşursunuz, bir müşteri temsilcisiyle değil.",
+    "meta_title": "Bir Adım Kaldı",
+    "meta_description": "Ücretsiz 15 dakikalık tanışma görüşmenizi ayırtın."
   },
   "ui": {
     "footer_contact": "İletişim",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "Zorluk",
     "proj_solution": "Ne inşa ettik",
     "proj_results": "Sonuçlar",
-    "proj_numbers": "Rakamlarla"
+    "proj_numbers": "Rakamlarla",
+    "footer_location": "Berlin, Almanya",
+    "rights": "Tüm hakları saklıdır."
   },
   "onboard": {
     "title": "Müşteri başlangıcı",
@@ -3231,5 +3237,65 @@
     "none_cta": "Portfolyo gönderin",
     "clients_note": "Web sitesi mi arıyorsunuz?",
     "clients_link": "Testle başlayın"
+  },
+  "casegrid": {
+    "kofi_where": "Nike sporcusu, Berlin",
+    "kofi_proof": "Lansmandan sonra danışmanlık talepleri %200 arttı.",
+    "luki_where": "Kişisel antrenör, Berlin",
+    "luki_proof": "Rezervasyonlar ve ödemeler doğrudan site üzerinden. DM yok, fatura yok.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "İlk 5 ayda 50.000 $'dan fazla brüt gelir. 52 Google yorumunda 5,0 yıldız.",
+    "ripz_where": "E-ticaret, ABD",
+    "ripz_proof": "Kurduğumuz Shopify mağazasında 191.000 $ koleksiyon kartı satışı, 1.790 sipariş. Mağaza sahipleri o zamandan beri mağazayı kapattı.",
+    "view_case": "Vaka çalışmasını gör",
+    "results_alt": "{name} sonuçları",
+    "captions_label": "İngilizce"
+  },
+  "impressum": {
+    "meta_title": "Impressum / Yasal bildirim",
+    "meta_description": "Blok Blok Studio LLC'nin § 5 DDG uyarınca Impressum'u (yasal bildirim).",
+    "subtitle": "§ 5 DDG (Alman Dijital Hizmetler Yasası) uyarınca yasal bildirim",
+    "provider_title": "Hizmet Sağlayıcı",
+    "provider_country": "Amerika Birleşik Devletleri",
+    "registered": "Nevada Secretary of State (ABD) nezdinde Limited Liability Company olarak kayıtlıdır.",
+    "represented_title": "Temsil eden",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "§ 18 (2) MStV uyarınca içerikten sorumlu: Chase Haynes",
+    "contact_title": "İletişim",
+    "email_label": "E-posta",
+    "phone_label": "Telefon",
+    "odr_title": "AB Uyuşmazlık Çözümü",
+    "odr_1": "Avrupa Komisyonu, çevrim içi uyuşmazlık çözümü (ODR) için bir platform sunmaktadır:",
+    "odr_2": "E-posta adresimizi yukarıda bulabilirsiniz.",
+    "odr_3": "Bir tüketici hakem heyeti önündeki uyuşmazlık çözüm sürecine katılmaya istekli değiliz ve bununla yükümlü de değiliz.",
+    "liability_title": "İçerik ve Bağlantılar İçin Sorumluluk",
+    "liability_1": "Hizmet sağlayıcı olarak bu sayfalardaki kendi içeriklerimizden genel yasalar çerçevesinde sorumluyuz. Harici bağlantıların içeriği için sorumluluk kabul etmiyoruz; bağlantı verilen sayfaların içeriğinden her zaman ilgili sağlayıcı veya işletmeci sorumludur.",
+    "note": "Bu yasal bildirimin Almanca sürümü hukuken geçerli olan metindir."
+  },
+  "places": {
+    "city_berlin": "Berlin",
+    "city_new_york": "New York",
+    "city_washington_dc": "Washington, D.C.",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Angeles",
+    "city_manila": "Manila",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multan",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "Kaliforniya",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "New Mexico",
+    "region_new_york": "New York",
+    "region_punjab": "Pencap",
+    "region_texas": "Teksas",
+    "region_utah": "Utah",
+    "region_virginia": "Virginia",
+    "country_germany": "Almanya",
+    "country_pakistan": "Pakistan",
+    "country_philippines": "Filipinler",
+    "country_united_states": "Amerika Birleşik Devletleri"
   }
 }

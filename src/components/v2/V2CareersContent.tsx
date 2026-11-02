@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { V2PageHero } from './V2PageHero';
 import { clientCities } from '@/data/client-locations';
+import { placeKey } from '@/lib/places';
 
 /**
  * V2CareersContent — short careers page. No ATS: a few lines on how the
@@ -14,6 +15,7 @@ const HOW = [1, 2, 3, 4] as const;
 export async function V2CareersContent() {
   const t = await getTranslations('careers');
   const tt = await getTranslations('team');
+  const tp = await getTranslations('places');
   const roles = (t.raw('roles') as { title: string; location: string; summary: string }[]) ?? [];
   const studios = clientCities.filter((c) => c.studio);
   const label = 'text-[11px] uppercase tracking-[0.2em] text-gray-500';
@@ -43,10 +45,10 @@ export async function V2CareersContent() {
             {studios.map((c) => (
               <li key={c.city} className="rounded-3xl border border-white/10 p-7">
                 <p className="font-display text-2xl font-semibold tracking-tight text-white">
-                  {c.city}
+                  {tp(placeKey('city', c.city))}
                   {c.tag && <span className="ml-2 align-middle text-[11px] uppercase tracking-[0.2em] text-orange-500">{c.tag}</span>}
                 </p>
-                <p className="mt-1 text-sm text-gray-500">{c.region ? `${c.region}, ${c.country}` : c.country}</p>
+                <p className="mt-1 text-sm text-gray-500">{c.region ? `${tp(placeKey('region', c.region))}, ${tp(placeKey('country', c.country))}` : tp(placeKey('country', c.country))}</p>
                 <ul className="mt-5 space-y-1 text-sm text-gray-400">
                   {(c.team ?? []).map((m) => (
                     <li key={m.name}>

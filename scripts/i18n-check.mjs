@@ -36,6 +36,8 @@ function flat(o, p = '', out = {}) {
 }
 // Machine identifiers inside arrays (faq category ids, package ids, hrefs) are not copy.
 const ID_KEY = /\.(category|id|slug|href|key|icon|value|code)$/;
+// Place names (cities, regions, countries) are proper nouns; many locales keep the English form.
+const PLACE_KEY = /^places\./;
 const icu = (s) => (String(s).match(/\{[a-zA-Z_]+/g) || []).sort().join(',');
 
 // ── messages ──
@@ -56,7 +58,7 @@ if (msgs) {
     if (typeof v === 'string') {
       if (typeof t !== 'string') { errors.push(`messages: ${k} must be a string`); continue; }
       if (icu(v) !== icu(t)) errors.push(`messages: ${k} placeholders differ (en ${icu(v) || 'none'} vs ${icu(t) || 'none'})`);
-      if (t === v && v.length > 3 && !KEEP.test(v) && !ID_KEY.test(k) && loc !== 'en') { identical++; warns.push(`messages: ${k} still English: "${v.slice(0, 50)}"`); }
+      if (t === v && v.length > 3 && !KEEP.test(v) && !ID_KEY.test(k) && !PLACE_KEY.test(k) && loc !== 'en') { identical++; warns.push(`messages: ${k} still English: "${v.slice(0, 50)}"`); }
       if (/—/.test(t)) warns.push(`messages: ${k} contains an em dash`);
     }
   }

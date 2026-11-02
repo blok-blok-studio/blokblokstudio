@@ -831,7 +831,9 @@
         "label": "{amount}+ شهريًا",
         "hint": "توسع كبير"
       }
-    }
+    },
+    "meta_title": "أين يخسر عملك العملاء",
+    "meta_description": "خمسة أسئلة سريعة عن عملك، ثم احجز مكالمة. سنوضح لك ما الذي سنصلحه أولاً."
   },
   "errors": {
     "title": "حدث خطأ ما",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "تشيس هاينز، المؤسس",
     "founder_soon": "كلمة من تشيس، قريباً.",
-    "founder_caption": "تشيس هاينز، مؤسس Blok Blok Studio. تتحدث مع الشخص الذي يبني موقعك، لا مع مدير حسابات."
+    "founder_caption": "تشيس هاينز، مؤسس Blok Blok Studio. تتحدث مع الشخص الذي يبني موقعك، لا مع مدير حسابات.",
+    "meta_title": "خطوة واحدة أخرى",
+    "meta_description": "احجز مكالمتك التعريفية المجانية لمدة 15 دقيقة."
   },
   "ui": {
     "footer_contact": "اتصل بنا",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "التحدي",
     "proj_solution": "ما بنيناه",
     "proj_results": "النتائج",
-    "proj_numbers": "بالأرقام"
+    "proj_numbers": "بالأرقام",
+    "footer_location": "برلين، ألمانيا",
+    "rights": "جميع الحقوق محفوظة."
   },
   "onboard": {
     "title": "تهيئة العميل",
@@ -3231,5 +3237,65 @@
     "none_cta": "أرسل معرض أعمالك",
     "clients_note": "تبحث عن موقع إلكتروني بدلًا من ذلك؟",
     "clients_link": "ابدأ بالاختبار"
+  },
+  "casegrid": {
+    "kofi_where": "رياضي لدى Nike، برلين",
+    "kofi_proof": "ارتفعت طلبات الاستشارة بنسبة 200% بعد الإطلاق.",
+    "luki_where": "مدرب شخصي، برلين",
+    "luki_proof": "الحجوزات والمدفوعات مباشرة عبر الموقع. بلا رسائل خاصة ولا فواتير.",
+    "bronco_where": "دالاس فورت وورث",
+    "bronco_proof": "أكثر من $50k إيرادات إجمالية في أول 5 أشهر. تقييم 5.0 نجوم عبر 52 مراجعة على Google.",
+    "ripz_where": "تجارة إلكترونية، الولايات المتحدة",
+    "ripz_proof": "مبيعات بطاقات تداول بقيمة $191k و1,790 طلبًا عبر متجر Shopify الذي بنيناه. وقد أغلق المالكان المتجر منذ ذلك الحين.",
+    "view_case": "عرض دراسة الحالة",
+    "results_alt": "نتائج {name}",
+    "captions_label": "الإنجليزية"
+  },
+  "impressum": {
+    "meta_title": "Impressum / إشعار قانوني",
+    "meta_description": "Impressum (إشعار قانوني) لشركة Blok Blok Studio LLC وفقًا للمادة § 5 DDG.",
+    "subtitle": "إشعار قانوني وفقًا للمادة § 5 DDG (قانون الخدمات الرقمية الألماني)",
+    "provider_title": "مقدم الخدمة",
+    "provider_country": "الولايات المتحدة الأمريكية",
+    "registered": "مسجلة لدى Nevada Secretary of State (الولايات المتحدة) بصفة Limited Liability Company.",
+    "represented_title": "يمثلها",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "المسؤول عن المحتوى وفقًا للمادة § 18 (2) MStV: Chase Haynes",
+    "contact_title": "التواصل",
+    "email_label": "البريد الإلكتروني",
+    "phone_label": "الهاتف",
+    "odr_title": "تسوية النزاعات في الاتحاد الأوروبي",
+    "odr_1": "توفر المفوضية الأوروبية منصة لتسوية النزاعات عبر الإنترنت (ODR):",
+    "odr_2": "تجد عنوان بريدنا الإلكتروني أعلاه.",
+    "odr_3": "لسنا على استعداد ولا ملزمين بالمشاركة في إجراءات تسوية النزاعات أمام هيئة تحكيم للمستهلكين.",
+    "liability_title": "المسؤولية عن المحتوى والروابط",
+    "liability_1": "بصفتنا مقدم خدمة، نتحمل المسؤولية عن محتوانا الخاص على هذه الصفحات وفقًا للقوانين العامة. ولا نتحمل أي مسؤولية عن محتوى الروابط الخارجية؛ فالمسؤول عن محتوى الصفحات المرتبطة هو دائمًا مقدمها أو مشغلها.",
+    "note": "النسخة الألمانية من هذا الإشعار القانوني هي النص المعتمد قانونيًا."
+  },
+  "places": {
+    "city_berlin": "برلين",
+    "city_new_york": "نيويورك",
+    "city_washington_dc": "واشنطن العاصمة",
+    "city_dallas": "دالاس",
+    "city_fort_worth": "فورت وورث",
+    "city_los_angeles": "لوس أنجلوس",
+    "city_manila": "مانيلا",
+    "city_minneapolis": "مينيابوليس",
+    "city_multan": "مولتان",
+    "city_albuquerque": "ألبوكيرك",
+    "city_richmond": "ريتشموند",
+    "city_salt_lake_city": "سولت ليك سيتي",
+    "region_california": "كاليفورنيا",
+    "region_minnesota": "مينيسوتا",
+    "region_new_mexico": "نيو مكسيكو",
+    "region_new_york": "نيويورك",
+    "region_punjab": "البنجاب",
+    "region_texas": "تكساس",
+    "region_utah": "يوتا",
+    "region_virginia": "فرجينيا",
+    "country_germany": "ألمانيا",
+    "country_pakistan": "باكستان",
+    "country_philippines": "الفلبين",
+    "country_united_states": "الولايات المتحدة"
   }
 }

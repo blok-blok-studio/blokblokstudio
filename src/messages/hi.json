@@ -831,7 +831,9 @@
         "label": "{amount}+ / माह",
         "hint": "तेज़ी से स्केल करना"
       }
-    }
+    },
+    "meta_title": "आपका बिज़नेस कहाँ ग्राहक खो रहा है",
+    "meta_description": "अपने बिज़नेस के बारे में पाँच छोटे सवाल, फिर कॉल बुक करें। हम बताएँगे कि सबसे पहले क्या ठीक करेंगे।"
   },
   "errors": {
     "title": "कुछ गलत हो गया",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "चेज़ हेन्स, संस्थापक",
     "founder_soon": "चेज़ की ओर से कुछ शब्द, जल्द ही।",
-    "founder_caption": "चेज़ हेन्स, Blok Blok Studio के संस्थापक। आप उसी व्यक्ति से बात करते हैं जो आपकी साइट बनाता है, किसी अकाउंट मैनेजर से नहीं।"
+    "founder_caption": "चेज़ हेन्स, Blok Blok Studio के संस्थापक। आप उसी व्यक्ति से बात करते हैं जो आपकी साइट बनाता है, किसी अकाउंट मैनेजर से नहीं।",
+    "meta_title": "बस एक कदम और",
+    "meta_description": "अपनी मुफ़्त 15 मिनट की परिचय कॉल बुक करें।"
   },
   "ui": {
     "footer_contact": "संपर्क",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "चुनौती",
     "proj_solution": "हमने क्या बनाया",
     "proj_results": "नतीजे",
-    "proj_numbers": "आँकड़ों में"
+    "proj_numbers": "आँकड़ों में",
+    "footer_location": "बर्लिन, जर्मनी",
+    "rights": "सर्वाधिकार सुरक्षित।"
   },
   "onboard": {
     "title": "क्लाइंट ऑनबोर्डिंग",
@@ -3231,5 +3237,65 @@
     "none_cta": "पोर्टफ़ोलियो भेजें",
     "clients_note": "वेबसाइट बनवानी है?",
     "clients_link": "क्विज़ से शुरू करें"
+  },
+  "casegrid": {
+    "kofi_where": "Nike एथलीट, बर्लिन",
+    "kofi_proof": "लॉन्च के बाद परामर्श पूछताछ 200% बढ़ी।",
+    "luki_where": "पर्सनल ट्रेनर, बर्लिन",
+    "luki_proof": "बुकिंग और पेमेंट सीधे साइट से। न DM, न इनवॉइस।",
+    "bronco_where": "डलास-फ़ोर्ट वर्थ",
+    "bronco_proof": "पहले 5 महीनों में $50k+ की सकल आय। 52 Google रिव्यू पर 5.0 स्टार।",
+    "ripz_where": "ई-कॉमर्स, अमेरिका",
+    "ripz_proof": "हमारे बनाए Shopify स्टोर पर ट्रेडिंग कार्ड की $191k की बिक्री, 1,790 ऑर्डर। मालिकों ने बाद में स्टोर बंद कर दिया है।",
+    "view_case": "केस स्टडी देखें",
+    "results_alt": "{name} के नतीजे",
+    "captions_label": "अंग्रेज़ी"
+  },
+  "impressum": {
+    "meta_title": "Impressum / कानूनी सूचना",
+    "meta_description": "§ 5 DDG के अनुसार Blok Blok Studio LLC का Impressum (कानूनी सूचना)।",
+    "subtitle": "§ 5 DDG (जर्मन डिजिटल सेवा अधिनियम) के अनुसार कानूनी सूचना",
+    "provider_title": "सेवा प्रदाता",
+    "provider_country": "संयुक्त राज्य अमेरिका",
+    "registered": "Nevada Secretary of State (अमेरिका) के पास Limited Liability Company के रूप में पंजीकृत।",
+    "represented_title": "प्रतिनिधि",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "§ 18 (2) MStV के अनुसार सामग्री के लिए ज़िम्मेदार: Chase Haynes",
+    "contact_title": "संपर्क",
+    "email_label": "ईमेल",
+    "phone_label": "फ़ोन",
+    "odr_title": "EU विवाद समाधान",
+    "odr_1": "यूरोपीय आयोग ऑनलाइन विवाद समाधान (ODR) के लिए एक प्लेटफ़ॉर्म उपलब्ध कराता है:",
+    "odr_2": "हमारा ईमेल पता ऊपर दिया गया है।",
+    "odr_3": "हम किसी उपभोक्ता मध्यस्थता बोर्ड के समक्ष विवाद समाधान कार्यवाही में भाग लेने के लिए न तो इच्छुक हैं और न ही बाध्य।",
+    "liability_title": "सामग्री और लिंक के लिए दायित्व",
+    "liability_1": "सेवा प्रदाता के रूप में हम इन पृष्ठों पर अपनी सामग्री के लिए सामान्य कानूनों के तहत ज़िम्मेदार हैं। बाहरी लिंक की सामग्री के लिए हम कोई दायित्व नहीं लेते; लिंक किए गए पृष्ठों की सामग्री के लिए हमेशा संबंधित प्रदाता या संचालक ज़िम्मेदार होता है।",
+    "note": "इस कानूनी सूचना का जर्मन संस्करण ही कानूनी रूप से मान्य पाठ है।"
+  },
+  "places": {
+    "city_berlin": "बर्लिन",
+    "city_new_york": "न्यूयॉर्क",
+    "city_washington_dc": "वॉशिंगटन डी.सी.",
+    "city_dallas": "डैलस",
+    "city_fort_worth": "फ़ोर्ट वर्थ",
+    "city_los_angeles": "लॉस एंजिलिस",
+    "city_manila": "मनीला",
+    "city_minneapolis": "मिनियापोलिस",
+    "city_multan": "मुल्तान",
+    "city_albuquerque": "अल्बुकर्क",
+    "city_richmond": "रिचमंड",
+    "city_salt_lake_city": "सॉल्ट लेक सिटी",
+    "region_california": "कैलिफ़ोर्निया",
+    "region_minnesota": "मिनेसोटा",
+    "region_new_mexico": "न्यू मैक्सिको",
+    "region_new_york": "न्यूयॉर्क",
+    "region_punjab": "पंजाब",
+    "region_texas": "टेक्सास",
+    "region_utah": "यूटा",
+    "region_virginia": "वर्जीनिया",
+    "country_germany": "जर्मनी",
+    "country_pakistan": "पाकिस्तान",
+    "country_philippines": "फ़िलीपींस",
+    "country_united_states": "संयुक्त राज्य अमेरिका"
   }
 }

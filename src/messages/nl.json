@@ -831,7 +831,9 @@
         "label": "{amount}+ / maand",
         "hint": "Stevig opschalen"
       }
-    }
+    },
+    "meta_title": "Waar je bedrijf klanten verliest",
+    "meta_description": "Vijf korte vragen over je bedrijf, daarna boek je een gesprek. We laten je zien wat we als eerste zouden aanpakken."
   },
   "errors": {
     "title": "Er is iets misgegaan",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, oprichter",
     "founder_soon": "Een woord van Chase, binnenkort.",
-    "founder_caption": "Chase Haynes, oprichter van Blok Blok Studio. Je spreekt met de persoon die je site bouwt, niet met een accountmanager."
+    "founder_caption": "Chase Haynes, oprichter van Blok Blok Studio. Je spreekt met de persoon die je site bouwt, niet met een accountmanager.",
+    "meta_title": "Nog één stap",
+    "meta_description": "Boek je gratis kennismakingsgesprek van 15 minuten."
   },
   "ui": {
     "footer_contact": "Contact",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "De uitdaging",
     "proj_solution": "Wat we bouwden",
     "proj_results": "De resultaten",
-    "proj_numbers": "In cijfers"
+    "proj_numbers": "In cijfers",
+    "footer_location": "Berlijn, Duitsland",
+    "rights": "Alle rechten voorbehouden."
   },
   "onboard": {
     "title": "Klant-onboarding",
@@ -3231,5 +3237,65 @@
     "none_cta": "Stuur een portfolio",
     "clients_note": "Zoek je juist een website?",
     "clients_link": "Begin met de quiz"
+  },
+  "casegrid": {
+    "kofi_where": "Nike-atleet, Berlijn",
+    "kofi_proof": "200% meer consultaanvragen na de lancering.",
+    "luki_where": "Personal trainer, Berlijn",
+    "luki_proof": "Boekingen en betalingen rechtstreeks via de site. Geen DM's, geen facturen.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "$50k+ bruto-omzet in zijn eerste 5 maanden. 5.0 sterren over 52 Google-reviews.",
+    "ripz_where": "E-commerce, VS",
+    "ripz_proof": "$191k aan verkochte trading cards, 1.790 bestellingen in de Shopify-webshop die wij bouwden. De eigenaren hebben de winkel inmiddels offline gehaald.",
+    "view_case": "Bekijk de case",
+    "results_alt": "Resultaten van {name}",
+    "captions_label": "Engels"
+  },
+  "impressum": {
+    "meta_title": "Colofon / Impressum",
+    "meta_description": "Colofon (Impressum) van Blok Blok Studio LLC conform § 5 DDG.",
+    "subtitle": "Wettelijke vermelding conform § 5 DDG (Duitse wet op digitale diensten)",
+    "provider_title": "Dienstverlener",
+    "provider_country": "Verenigde Staten van Amerika",
+    "registered": "Geregistreerd bij de Nevada Secretary of State (VS) als Limited Liability Company.",
+    "represented_title": "Vertegenwoordigd door",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "Verantwoordelijk voor de inhoud conform § 18 (2) MStV: Chase Haynes",
+    "contact_title": "Contact",
+    "email_label": "E-mail",
+    "phone_label": "Telefoon",
+    "odr_title": "Geschillenbeslechting in de EU",
+    "odr_1": "De Europese Commissie biedt een platform voor onlinegeschillenbeslechting (ODR):",
+    "odr_2": "Ons e-mailadres vind je hierboven.",
+    "odr_3": "Wij zijn niet bereid en niet verplicht deel te nemen aan een geschillenprocedure voor een consumentengeschillencommissie.",
+    "liability_title": "Aansprakelijkheid voor inhoud en links",
+    "liability_1": "Als dienstverlener zijn wij volgens de algemene wetgeving verantwoordelijk voor onze eigen inhoud op deze pagina's. Wij aanvaarden geen aansprakelijkheid voor de inhoud van externe links; voor de inhoud van gelinkte pagina's is altijd de betreffende aanbieder of beheerder verantwoordelijk.",
+    "note": "De Duitse versie van dit colofon is de juridisch bindende tekst."
+  },
+  "places": {
+    "city_berlin": "Berlijn",
+    "city_new_york": "New York",
+    "city_washington_dc": "Washington, D.C.",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Angeles",
+    "city_manila": "Manilla",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multan",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "Californië",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "New Mexico",
+    "region_new_york": "New York",
+    "region_punjab": "Punjab",
+    "region_texas": "Texas",
+    "region_utah": "Utah",
+    "region_virginia": "Virginia",
+    "country_germany": "Duitsland",
+    "country_pakistan": "Pakistan",
+    "country_philippines": "Filipijnen",
+    "country_united_states": "Verenigde Staten"
   }
 }

@@ -831,7 +831,9 @@
         "label": "{amount}+ / mies.",
         "hint": "Mocne skalowanie"
       }
-    }
+    },
+    "meta_title": "Gdzie Twoja firma traci klientów",
+    "meta_description": "Pięć krótkich pytań o Twoją firmę, potem rezerwacja rozmowy. Pokażemy, co naprawilibyśmy najpierw."
   },
   "errors": {
     "title": "Coś poszło nie tak",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, założyciel",
     "founder_soon": "Kilka słów od Chase'a, już wkrótce.",
-    "founder_caption": "Chase Haynes, założyciel Blok Blok Studio. Rozmawiasz z osobą, która buduje Twoją stronę, a nie z opiekunem klienta."
+    "founder_caption": "Chase Haynes, założyciel Blok Blok Studio. Rozmawiasz z osobą, która buduje Twoją stronę, a nie z opiekunem klienta.",
+    "meta_title": "Jeszcze jeden krok",
+    "meta_description": "Zarezerwuj bezpłatną 15-minutową rozmowę wstępną."
   },
   "ui": {
     "footer_contact": "Kontakt",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "Wyzwanie",
     "proj_solution": "Co zbudowaliśmy",
     "proj_results": "Wyniki",
-    "proj_numbers": "W liczbach"
+    "proj_numbers": "W liczbach",
+    "footer_location": "Berlin, Niemcy",
+    "rights": "Wszelkie prawa zastrzeżone."
   },
   "onboard": {
     "title": "Onboarding klienta",
@@ -3231,5 +3237,65 @@
     "none_cta": "Wyślij portfolio",
     "clients_note": "Szukasz raczej strony internetowej?",
     "clients_link": "Zacznij od quizu"
+  },
+  "casegrid": {
+    "kofi_where": "Sportowiec Nike, Berlin",
+    "kofi_proof": "Zapytania o konsultacje wzrosły o 200% po starcie.",
+    "luki_where": "Trener personalny, Berlin",
+    "luki_proof": "Rezerwacje i płatności bezpośrednio przez stronę. Bez wiadomości prywatnych, bez faktur.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "Ponad 50 000 $ przychodu brutto w pierwsze 5 miesięcy. Ocena 5,0 z 52 opinii Google.",
+    "ripz_where": "E-commerce, USA",
+    "ripz_proof": "191 000 $ ze sprzedaży kart kolekcjonerskich, 1790 zamówień w sklepie Shopify, który zbudowaliśmy. Właściciele od tego czasu zamknęli sklep.",
+    "view_case": "Zobacz studium przypadku",
+    "results_alt": "Wyniki {name}",
+    "captions_label": "Angielski"
+  },
+  "impressum": {
+    "meta_title": "Impressum / Nota prawna",
+    "meta_description": "Nota prawna (Impressum) Blok Blok Studio LLC zgodnie z § 5 DDG.",
+    "subtitle": "Nota prawna zgodnie z § 5 DDG (niemiecka ustawa o usługach cyfrowych)",
+    "provider_title": "Usługodawca",
+    "provider_country": "Stany Zjednoczone Ameryki",
+    "registered": "Zarejestrowana w Nevada Secretary of State (USA) jako Limited Liability Company.",
+    "represented_title": "Reprezentowana przez",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "Odpowiedzialny za treści zgodnie z § 18 (2) MStV: Chase Haynes",
+    "contact_title": "Kontakt",
+    "email_label": "E-mail",
+    "phone_label": "Telefon",
+    "odr_title": "Rozstrzyganie sporów w UE",
+    "odr_1": "Komisja Europejska udostępnia platformę do internetowego rozstrzygania sporów (ODR):",
+    "odr_2": "Nasz adres e-mail znajdziesz powyżej.",
+    "odr_3": "Nie jesteśmy gotowi ani zobowiązani do udziału w postępowaniu w sprawie rozstrzygania sporów przed konsumenckim organem polubownym.",
+    "liability_title": "Odpowiedzialność za treści i linki",
+    "liability_1": "Jako usługodawca odpowiadamy na zasadach ogólnych za własne treści na tych stronach. Nie ponosimy odpowiedzialności za treści zewnętrznych linków; za treści stron, do których prowadzą linki, odpowiada zawsze ich dostawca lub operator.",
+    "note": "Niemiecka wersja tej noty prawnej jest tekstem prawnie wiążącym."
+  },
+  "places": {
+    "city_berlin": "Berlin",
+    "city_new_york": "Nowy Jork",
+    "city_washington_dc": "Waszyngton",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Angeles",
+    "city_manila": "Manila",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multan",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "Kalifornia",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "Nowy Meksyk",
+    "region_new_york": "Nowy Jork",
+    "region_punjab": "Pendżab",
+    "region_texas": "Teksas",
+    "region_utah": "Utah",
+    "region_virginia": "Wirginia",
+    "country_germany": "Niemcy",
+    "country_pakistan": "Pakistan",
+    "country_philippines": "Filipiny",
+    "country_united_states": "Stany Zjednoczone"
   }
 }

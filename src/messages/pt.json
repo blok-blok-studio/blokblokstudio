@@ -403,7 +403,7 @@
     "service_5_bullet_5": "Com a identidade da sua marca (white label)",
     "service_6_title": "Sites",
     "service_6_subtitle": "Sites personalizados e focados em conversão",
-    "service_6_bullet_1": "Next.js / React builds",
+    "service_6_bullet_1": "Desenvolvimento em Next.js / React",
     "service_6_bullet_2": "Otimizado para SEO desde o primeiro dia",
     "service_6_bullet_3": "Responsivo e mobile-first",
     "service_6_bullet_4": "Integração com CMS",
@@ -831,7 +831,9 @@
         "label": "{amount}+ / mês",
         "hint": "Escalando com força"
       }
-    }
+    },
+    "meta_title": "Onde o seu negócio perde clientes",
+    "meta_description": "Cinco perguntas rápidas sobre o seu negócio e depois marca uma chamada. Mostramos o que corrigiríamos primeiro."
   },
   "errors": {
     "title": "Algo deu errado",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, fundador",
     "founder_soon": "Uma palavra do Chase, em breve.",
-    "founder_caption": "Chase Haynes, fundador do Blok Blok Studio. Você fala com a pessoa que constrói o seu site, não com um gerente de contas."
+    "founder_caption": "Chase Haynes, fundador do Blok Blok Studio. Você fala com a pessoa que constrói o seu site, não com um gerente de contas.",
+    "meta_title": "Falta um passo",
+    "meta_description": "Marque a sua chamada inicial gratuita de 15 minutos."
   },
   "ui": {
     "footer_contact": "Contacto",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "O desafio",
     "proj_solution": "O que construímos",
     "proj_results": "Os resultados",
-    "proj_numbers": "Em números"
+    "proj_numbers": "Em números",
+    "footer_location": "Berlim, Alemanha",
+    "rights": "Todos os direitos reservados."
   },
   "onboard": {
     "title": "Onboarding de cliente",
@@ -3231,5 +3237,65 @@
     "none_cta": "Enviar portfólio",
     "clients_note": "Procurando um site, na verdade?",
     "clients_link": "Comece pelo quiz"
+  },
+  "casegrid": {
+    "kofi_where": "Atleta Nike, Berlim",
+    "kofi_proof": "Pedidos de consulta subiram 200% após o lançamento.",
+    "luki_where": "Personal trainer, Berlim",
+    "luki_proof": "Marcações e pagamentos diretamente pelo site. Sem mensagens privadas, sem faturas.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "$50k+ de receita bruta nos seus primeiros 5 meses. 5.0 estrelas em 52 avaliações no Google.",
+    "ripz_where": "E-commerce, EUA",
+    "ripz_proof": "$191k em vendas de cartas colecionáveis, 1.790 encomendas na loja Shopify que construímos. Os donos entretanto encerraram a loja.",
+    "view_case": "Ver estudo de caso",
+    "results_alt": "Resultados de {name}",
+    "captions_label": "Inglês"
+  },
+  "impressum": {
+    "meta_title": "Impressum / Informação legal",
+    "meta_description": "Impressum (informação legal) da Blok Blok Studio LLC nos termos do § 5 DDG.",
+    "subtitle": "Informação legal nos termos do § 5 DDG (lei alemã dos serviços digitais)",
+    "provider_title": "Prestador de serviços",
+    "provider_country": "Estados Unidos da América",
+    "registered": "Registada junto do Nevada Secretary of State (EUA) como Limited Liability Company.",
+    "represented_title": "Representada por",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "Responsável pelo conteúdo nos termos do § 18 (2) MStV: Chase Haynes",
+    "contact_title": "Contacto",
+    "email_label": "Email",
+    "phone_label": "Telefone",
+    "odr_title": "Resolução de litígios na UE",
+    "odr_1": "A Comissão Europeia disponibiliza uma plataforma de resolução de litígios em linha (ODR):",
+    "odr_2": "O nosso endereço de email encontra-se acima.",
+    "odr_3": "Não estamos dispostos nem obrigados a participar em processos de resolução de litígios perante uma entidade de arbitragem de consumo.",
+    "liability_title": "Responsabilidade por conteúdos e links",
+    "liability_1": "Enquanto prestador de serviços, somos responsáveis pelos nossos próprios conteúdos nestas páginas nos termos da legislação geral. Não assumimos qualquer responsabilidade pelo conteúdo de links externos; pelo conteúdo das páginas ligadas é sempre responsável o respetivo fornecedor ou operador.",
+    "note": "A versão alemã desta informação legal é o texto juridicamente vinculativo."
+  },
+  "places": {
+    "city_berlin": "Berlim",
+    "city_new_york": "Nova Iorque",
+    "city_washington_dc": "Washington, D.C.",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Angeles",
+    "city_manila": "Manila",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multan",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "Califórnia",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "Novo México",
+    "region_new_york": "Nova Iorque",
+    "region_punjab": "Punjab",
+    "region_texas": "Texas",
+    "region_utah": "Utah",
+    "region_virginia": "Virgínia",
+    "country_germany": "Alemanha",
+    "country_pakistan": "Paquistão",
+    "country_philippines": "Filipinas",
+    "country_united_states": "Estados Unidos"
   }
 }

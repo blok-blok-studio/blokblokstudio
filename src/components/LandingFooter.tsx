@@ -11,7 +11,7 @@ export function LandingFooter() {
   return (
     <footer className="mt-16 pt-8 border-t border-white/[0.06] text-center">
       <p className="text-xs text-gray-600 mb-3">
-        Blok Blok Studio &middot; Berlin, Germany &middot;{' '}
+        Blok Blok Studio &middot; {t('footer_location')} &middot;{' '}
         <a href="/contact" className="hover:text-gray-400 transition-colors">
           {t('footer_contact')}
         </a>
@@ -26,7 +26,7 @@ export function LandingFooter() {
         <Link href="/impressum" className="hover:text-gray-400 transition-colors">{t('footer_impressum')}</Link>
       </p>
       <p className="text-[11px] text-gray-700 mt-3">
-        &copy; {new Date().getFullYear()} Blok Blok Studio. All rights reserved.
+        &copy; {new Date().getFullYear()} Blok Blok Studio. {t('rights')}
       </p>
     </footer>
   );

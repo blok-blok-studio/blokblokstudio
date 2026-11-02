@@ -831,7 +831,9 @@
         "label": "每月 {amount} 以上",
         "hint": "全力扩张"
       }
-    }
+    },
+    "meta_title": "您的业务正在哪里流失客户",
+    "meta_description": "回答五个关于您业务的简单问题，然后预约通话。我们会告诉您我们会先解决什么。"
   },
   "errors": {
     "title": "出错了",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes，创始人",
     "founder_soon": "Chase 的一段话，即将上线。",
-    "founder_caption": "Chase Haynes，Blok Blok Studio 创始人。您直接与为您建站的人交流，而不是客户经理。"
+    "founder_caption": "Chase Haynes，Blok Blok Studio 创始人。您直接与为您建站的人交流，而不是客户经理。",
+    "meta_title": "还差一步",
+    "meta_description": "预约您的免费 15 分钟初次沟通。"
   },
   "ui": {
     "footer_contact": "联系我们",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "挑战",
     "proj_solution": "我们的方案",
     "proj_results": "成果",
-    "proj_numbers": "数据一览"
+    "proj_numbers": "数据一览",
+    "footer_location": "德国柏林",
+    "rights": "保留所有权利。"
   },
   "onboard": {
     "title": "客户信息登记",
@@ -3231,5 +3237,65 @@
     "none_cta": "发送作品集",
     "clients_note": "想找人做网站？",
     "clients_link": "从测评开始"
+  },
+  "casegrid": {
+    "kofi_where": "Nike 运动员，柏林",
+    "kofi_proof": "上线后咨询请求增长 200%。",
+    "luki_where": "私人教练，柏林",
+    "luki_proof": "预约和付款直接在网站完成。不用私信，不用开发票。",
+    "bronco_where": "达拉斯–沃斯堡",
+    "bronco_proof": "开业前 5 个月总营收 $50k+。52 条 Google 评价，5.0 星。",
+    "ripz_where": "电商，美国",
+    "ripz_proof": "我们搭建的 Shopify 店铺创造 $191k 集换式卡牌销售额、1,790 笔订单。店主此后已将店铺下线。",
+    "view_case": "查看案例研究",
+    "results_alt": "{name} 成果",
+    "captions_label": "英语"
+  },
+  "impressum": {
+    "meta_title": "法律声明（Impressum）",
+    "meta_description": "Blok Blok Studio LLC 依据 § 5 DDG 发布的法律声明（Impressum）。",
+    "subtitle": "依据 § 5 DDG（德国数字服务法）的法律声明",
+    "provider_title": "服务提供者",
+    "provider_country": "美利坚合众国",
+    "registered": "已在 Nevada Secretary of State（美国）登记为 Limited Liability Company（有限责任公司）。",
+    "represented_title": "代表人",
+    "represented": "Chase Haynes（Managing Member）",
+    "responsible": "依据 § 18 (2) MStV 的内容负责人：Chase Haynes",
+    "contact_title": "联系方式",
+    "email_label": "邮箱",
+    "phone_label": "电话",
+    "odr_title": "欧盟争议解决",
+    "odr_1": "欧盟委员会提供在线争议解决（ODR）平台：",
+    "odr_2": "我们的邮箱地址见上文。",
+    "odr_3": "我们既无意愿也无义务参与消费者仲裁机构的争议解决程序。",
+    "liability_title": "内容与链接责任",
+    "liability_1": "作为服务提供者，我们依据一般法律对本网站上的自有内容负责。对于外部链接的内容，我们不承担任何责任；链接页面的内容始终由其各自的提供者或运营者负责。",
+    "note": "本法律声明以德语版本为具有法律效力的文本。"
+  },
+  "places": {
+    "city_berlin": "柏林",
+    "city_new_york": "纽约",
+    "city_washington_dc": "华盛顿特区",
+    "city_dallas": "达拉斯",
+    "city_fort_worth": "沃斯堡",
+    "city_los_angeles": "洛杉矶",
+    "city_manila": "马尼拉",
+    "city_minneapolis": "明尼阿波利斯",
+    "city_multan": "木尔坦",
+    "city_albuquerque": "阿尔伯克基",
+    "city_richmond": "里士满",
+    "city_salt_lake_city": "盐湖城",
+    "region_california": "加利福尼亚州",
+    "region_minnesota": "明尼苏达州",
+    "region_new_mexico": "新墨西哥州",
+    "region_new_york": "纽约州",
+    "region_punjab": "旁遮普省",
+    "region_texas": "得克萨斯州",
+    "region_utah": "犹他州",
+    "region_virginia": "弗吉尼亚州",
+    "country_germany": "德国",
+    "country_pakistan": "巴基斯坦",
+    "country_philippines": "菲律宾",
+    "country_united_states": "美国"
   }
 }

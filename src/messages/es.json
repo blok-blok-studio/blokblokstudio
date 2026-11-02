@@ -831,7 +831,9 @@
         "label": "{amount}+ / mes",
         "hint": "Escalando fuerte"
       }
-    }
+    },
+    "meta_title": "Dónde tu negocio pierde clientes",
+    "meta_description": "Cinco preguntas rápidas sobre tu negocio y después reservas una llamada. Te mostraremos qué arreglaríamos primero."
   },
   "errors": {
     "title": "Algo salió mal",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, fundador",
     "founder_soon": "Unas palabras de Chase, muy pronto.",
-    "founder_caption": "Chase Haynes, fundador de Blok Blok Studio. Hablas con la persona que construye tu web, no con un gestor de cuentas."
+    "founder_caption": "Chase Haynes, fundador de Blok Blok Studio. Hablas con la persona que construye tu web, no con un gestor de cuentas.",
+    "meta_title": "Un paso más",
+    "meta_description": "Reserva tu llamada inicial gratuita de 15 minutos."
   },
   "ui": {
     "footer_contact": "Contacto",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "El reto",
     "proj_solution": "Qué construimos",
     "proj_results": "Los resultados",
-    "proj_numbers": "En cifras"
+    "proj_numbers": "En cifras",
+    "footer_location": "Berlín, Alemania",
+    "rights": "Todos los derechos reservados."
   },
   "onboard": {
     "title": "Onboarding de cliente",
@@ -3231,5 +3237,65 @@
     "none_cta": "Enviar un portafolio",
     "clients_note": "¿Buscas una web en lugar de empleo?",
     "clients_link": "Empieza con el test"
+  },
+  "casegrid": {
+    "kofi_where": "Atleta Nike, Berlín",
+    "kofi_proof": "Las solicitudes de consulta subieron un 200% tras el lanzamiento.",
+    "luki_where": "Entrenador personal, Berlín",
+    "luki_proof": "Reservas y pagos directamente desde la web. Sin mensajes privados, sin facturas.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "$50k+ de ingresos brutos en sus primeros 5 meses. 5.0 estrellas en 52 reseñas de Google.",
+    "ripz_where": "E-commerce, EE. UU.",
+    "ripz_proof": "$191k en ventas de cartas coleccionables, 1.790 pedidos en la tienda Shopify que construimos. Los dueños han cerrado la tienda desde entonces.",
+    "view_case": "Ver caso práctico",
+    "results_alt": "Resultados de {name}",
+    "captions_label": "Inglés"
+  },
+  "impressum": {
+    "meta_title": "Impressum / Aviso legal",
+    "meta_description": "Impressum (aviso legal) de Blok Blok Studio LLC conforme al § 5 DDG.",
+    "subtitle": "Aviso legal conforme al § 5 DDG (Ley alemana de servicios digitales)",
+    "provider_title": "Proveedor del servicio",
+    "provider_country": "Estados Unidos de América",
+    "registered": "Registrada ante el Nevada Secretary of State (EE. UU.) como Limited Liability Company.",
+    "represented_title": "Representada por",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "Responsable del contenido conforme al § 18 (2) MStV: Chase Haynes",
+    "contact_title": "Contacto",
+    "email_label": "Email",
+    "phone_label": "Teléfono",
+    "odr_title": "Resolución de litigios en la UE",
+    "odr_1": "La Comisión Europea pone a disposición una plataforma para la resolución de litigios en línea (ODR):",
+    "odr_2": "Encontrarás nuestra dirección de email más arriba.",
+    "odr_3": "No estamos dispuestos ni obligados a participar en procedimientos de resolución de litigios ante una junta de arbitraje de consumo.",
+    "liability_title": "Responsabilidad por contenidos y enlaces",
+    "liability_1": "Como proveedor del servicio somos responsables de nuestros propios contenidos en estas páginas conforme a la legislación general. No asumimos ninguna responsabilidad por el contenido de los enlaces externos; del contenido de las páginas enlazadas responde siempre su respectivo proveedor u operador.",
+    "note": "La versión alemana de este aviso legal es la jurídicamente vinculante."
+  },
+  "places": {
+    "city_berlin": "Berlín",
+    "city_new_york": "Nueva York",
+    "city_washington_dc": "Washington D. C.",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Ángeles",
+    "city_manila": "Manila",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multán",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "California",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "Nuevo México",
+    "region_new_york": "Nueva York",
+    "region_punjab": "Punyab",
+    "region_texas": "Texas",
+    "region_utah": "Utah",
+    "region_virginia": "Virginia",
+    "country_germany": "Alemania",
+    "country_pakistan": "Pakistán",
+    "country_philippines": "Filipinas",
+    "country_united_states": "Estados Unidos"
   }
 }

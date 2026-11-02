@@ -831,7 +831,9 @@
         "label": "{amount}+ / mois",
         "hint": "Forte montée en charge"
       }
-    }
+    },
+    "meta_title": "Là où votre entreprise perd des clients",
+    "meta_description": "Cinq questions rapides sur votre entreprise, puis vous réservez un appel. Nous vous montrerons ce que nous corrigerions en premier."
   },
   "errors": {
     "title": "Une erreur s'est produite",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, fondateur",
     "founder_soon": "Un mot de Chase, bientôt disponible.",
-    "founder_caption": "Chase Haynes, fondateur de Blok Blok Studio. Vous parlez à la personne qui construit votre site, pas à un chargé de compte."
+    "founder_caption": "Chase Haynes, fondateur de Blok Blok Studio. Vous parlez à la personne qui construit votre site, pas à un chargé de compte.",
+    "meta_title": "Une dernière étape",
+    "meta_description": "Réservez votre appel découverte gratuit de 15 minutes."
   },
   "ui": {
     "footer_contact": "Contact",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "Le défi",
     "proj_solution": "Ce que nous avons construit",
     "proj_results": "Les résultats",
-    "proj_numbers": "En chiffres"
+    "proj_numbers": "En chiffres",
+    "footer_location": "Berlin, Allemagne",
+    "rights": "Tous droits réservés."
   },
   "onboard": {
     "title": "Onboarding client",
@@ -3231,5 +3237,65 @@
     "none_cta": "Envoyer un portfolio",
     "clients_note": "Vous cherchez plutôt un site web ?",
     "clients_link": "Commencer par le quiz"
+  },
+  "casegrid": {
+    "kofi_where": "Athlète Nike, Berlin",
+    "kofi_proof": "Demandes de consultation en hausse de 200% après le lancement.",
+    "luki_where": "Coach sportif, Berlin",
+    "luki_proof": "Réservations et paiements directement sur le site. Pas de messages privés, pas de factures.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "$50k+ de chiffre d'affaires brut sur ses 5 premiers mois. 5,0 étoiles sur 52 avis Google.",
+    "ripz_where": "E-commerce, États-Unis",
+    "ripz_proof": "$191k de ventes de cartes à collectionner, 1 790 commandes sur la boutique Shopify que nous avons créée. Les propriétaires ont depuis fermé la boutique.",
+    "view_case": "Voir l'étude de cas",
+    "results_alt": "Résultats de {name}",
+    "captions_label": "Anglais"
+  },
+  "impressum": {
+    "meta_title": "Impressum / Mentions légales",
+    "meta_description": "Impressum (mentions légales) de Blok Blok Studio LLC conformément au § 5 DDG.",
+    "subtitle": "Mentions légales conformément au § 5 DDG (loi allemande sur les services numériques)",
+    "provider_title": "Prestataire de services",
+    "provider_country": "États-Unis d'Amérique",
+    "registered": "Immatriculée auprès du Nevada Secretary of State (États-Unis) en tant que Limited Liability Company.",
+    "represented_title": "Représentée par",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "Responsable du contenu conformément au § 18 (2) MStV : Chase Haynes",
+    "contact_title": "Coordonnées",
+    "email_label": "Email",
+    "phone_label": "Téléphone",
+    "odr_title": "Règlement des litiges dans l'UE",
+    "odr_1": "La Commission européenne met à disposition une plateforme de règlement en ligne des litiges (ODR) :",
+    "odr_2": "Notre adresse email figure ci-dessus.",
+    "odr_3": "Nous ne sommes ni disposés ni tenus de participer à une procédure de règlement des litiges devant une commission d'arbitrage de la consommation.",
+    "liability_title": "Responsabilité relative aux contenus et aux liens",
+    "liability_1": "En tant que prestataire de services, nous sommes responsables de nos propres contenus sur ces pages conformément au droit commun. Nous déclinons toute responsabilité quant au contenu des liens externes ; le contenu des pages liées relève toujours de la responsabilité de leur fournisseur ou exploitant respectif.",
+    "note": "La version allemande de ces mentions légales est la seule qui fait foi juridiquement."
+  },
+  "places": {
+    "city_berlin": "Berlin",
+    "city_new_york": "New York",
+    "city_washington_dc": "Washington, D.C.",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Angeles",
+    "city_manila": "Manille",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multan",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "Californie",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "Nouveau-Mexique",
+    "region_new_york": "New York",
+    "region_punjab": "Pendjab",
+    "region_texas": "Texas",
+    "region_utah": "Utah",
+    "region_virginia": "Virginie",
+    "country_germany": "Allemagne",
+    "country_pakistan": "Pakistan",
+    "country_philippines": "Philippines",
+    "country_united_states": "États-Unis"
   }
 }

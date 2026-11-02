@@ -831,7 +831,9 @@
         "label": "{amount}+ / bulan",
         "hint": "Menskalakan besar-besaran"
       }
-    }
+    },
+    "meta_title": "Di Mana Bisnis Anda Kehilangan Pelanggan",
+    "meta_description": "Lima pertanyaan singkat tentang bisnis Anda, lalu pesan panggilan. Kami tunjukkan apa yang akan kami perbaiki lebih dulu."
   },
   "errors": {
     "title": "Terjadi kesalahan",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, pendiri",
     "founder_soon": "Sepatah kata dari Chase, segera hadir.",
-    "founder_caption": "Chase Haynes, pendiri Blok Blok Studio. Anda berbicara langsung dengan orang yang membangun situs Anda, bukan dengan manajer akun."
+    "founder_caption": "Chase Haynes, pendiri Blok Blok Studio. Anda berbicara langsung dengan orang yang membangun situs Anda, bukan dengan manajer akun.",
+    "meta_title": "Satu Langkah Lagi",
+    "meta_description": "Pesan panggilan perkenalan 15 menit gratis Anda."
   },
   "ui": {
     "footer_contact": "Kontak",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "Tantangan",
     "proj_solution": "Yang kami bangun",
     "proj_results": "Hasil",
-    "proj_numbers": "Dalam angka"
+    "proj_numbers": "Dalam angka",
+    "footer_location": "Berlin, Jerman",
+    "rights": "Hak cipta dilindungi undang-undang."
   },
   "onboard": {
     "title": "Onboarding klien",
@@ -3231,5 +3237,65 @@
     "none_cta": "Kirim portofolio",
     "clients_note": "Mencari situs web untuk bisnis Anda?",
     "clients_link": "Mulai dengan kuis"
+  },
+  "casegrid": {
+    "kofi_where": "Atlet Nike, Berlin",
+    "kofi_proof": "Permintaan konsultasi naik 200% setelah peluncuran.",
+    "luki_where": "Pelatih pribadi, Berlin",
+    "luki_proof": "Pemesanan dan pembayaran langsung lewat situs. Tanpa DM, tanpa invoice.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "Omzet kotor $50k+ dalam 5 bulan pertamanya. Rating 5.0 dari 52 ulasan Google.",
+    "ripz_where": "E-commerce, AS",
+    "ripz_proof": "Penjualan kartu koleksi $191k dari 1.790 pesanan di toko Shopify yang kami bangun. Pemiliknya kini sudah menutup toko tersebut.",
+    "view_case": "Lihat studi kasus",
+    "results_alt": "Hasil {name}",
+    "captions_label": "Bahasa Inggris"
+  },
+  "impressum": {
+    "meta_title": "Impressum / Pemberitahuan Hukum",
+    "meta_description": "Pemberitahuan hukum (Impressum) Blok Blok Studio LLC sesuai § 5 DDG.",
+    "subtitle": "Pemberitahuan hukum sesuai § 5 DDG (Undang-Undang Layanan Digital Jerman)",
+    "provider_title": "Penyedia Layanan",
+    "provider_country": "Amerika Serikat",
+    "registered": "Terdaftar di Nevada Secretary of State (AS) sebagai Limited Liability Company.",
+    "represented_title": "Diwakili oleh",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "Penanggung jawab konten sesuai § 18 (2) MStV: Chase Haynes",
+    "contact_title": "Kontak",
+    "email_label": "Email",
+    "phone_label": "Telepon",
+    "odr_title": "Penyelesaian Sengketa UE",
+    "odr_1": "Komisi Eropa menyediakan platform untuk penyelesaian sengketa secara online (ODR):",
+    "odr_2": "Alamat email kami tercantum di atas.",
+    "odr_3": "Kami tidak bersedia dan tidak berkewajiban untuk ikut serta dalam proses penyelesaian sengketa di hadapan badan arbitrase konsumen.",
+    "liability_title": "Tanggung Jawab atas Konten dan Tautan",
+    "liability_1": "Sebagai penyedia layanan, kami bertanggung jawab atas konten kami sendiri di halaman-halaman ini sesuai hukum yang berlaku umum. Kami tidak bertanggung jawab atas konten tautan eksternal; penyedia atau pengelola masing-masing selalu bertanggung jawab atas konten halaman yang ditautkan.",
+    "note": "Versi bahasa Jerman dari pemberitahuan hukum ini adalah teks yang berlaku secara hukum."
+  },
+  "places": {
+    "city_berlin": "Berlin",
+    "city_new_york": "New York",
+    "city_washington_dc": "Washington, D.C.",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Angeles",
+    "city_manila": "Manila",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multan",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "California",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "New Mexico",
+    "region_new_york": "New York",
+    "region_punjab": "Punjab",
+    "region_texas": "Texas",
+    "region_utah": "Utah",
+    "region_virginia": "Virginia",
+    "country_germany": "Jerman",
+    "country_pakistan": "Pakistan",
+    "country_philippines": "Filipina",
+    "country_united_states": "Amerika Serikat"
   }
 }

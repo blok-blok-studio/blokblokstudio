@@ -13,7 +13,7 @@
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "cookies": "クッキーポリシー",
-    "impressum": "特定商取引法に基づく表記",
+    "impressum": "運営者情報",
     "data_rights": "データ権利",
     "accessibility": "アクセシビリティ",
     "v2_work": "実績",
@@ -831,7 +831,9 @@
         "label": "月額{amount}以上",
         "hint": "積極的に拡大"
       }
-    }
+    },
+    "meta_title": "あなたのビジネスが顧客を失っている場所",
+    "meta_description": "ビジネスに関する5つの簡単な質問に答えて、通話を予約。まず何を直すべきかをお見せします。"
   },
   "errors": {
     "title": "問題が発生しました",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes、創業者",
     "founder_soon": "Chaseからのメッセージ、近日公開。",
-    "founder_caption": "Blok Blok Studio 創業者の Chase Haynes。あなたのサイトを実際に作る本人と話せます。担当営業ではありません。"
+    "founder_caption": "Blok Blok Studio 創業者の Chase Haynes。あなたのサイトを実際に作る本人と話せます。担当営業ではありません。",
+    "meta_title": "あと一歩",
+    "meta_description": "無料15分の初回通話をご予約ください。"
   },
   "ui": {
     "footer_contact": "お問い合わせ",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "課題",
     "proj_solution": "私たちが作ったもの",
     "proj_results": "成果",
-    "proj_numbers": "数字で見る"
+    "proj_numbers": "数字で見る",
+    "footer_location": "ドイツ・ベルリン",
+    "rights": "無断転載を禁じます。"
   },
   "onboard": {
     "title": "お客様情報の登録",
@@ -3231,5 +3237,65 @@
     "none_cta": "ポートフォリオを送る",
     "clients_note": "ウェブサイトをお探しですか？",
     "clients_link": "まずは診断から"
+  },
+  "casegrid": {
+    "kofi_where": "Nikeアスリート、ベルリン",
+    "kofi_proof": "公開後、相談依頼が200%増加。",
+    "luki_where": "パーソナルトレーナー、ベルリン",
+    "luki_proof": "予約と決済がサイト上で完結。DMも請求書も不要です。",
+    "bronco_where": "ダラス・フォートワース",
+    "bronco_proof": "開業から5か月で総売上$50k以上。Googleレビュー52件で評価5.0。",
+    "ripz_where": "Eコマース、米国",
+    "ripz_proof": "当社が構築したShopifyストアでトレーディングカードの売上$191k、注文1,790件。オーナーはその後ストアを閉鎖しています。",
+    "view_case": "事例を見る",
+    "results_alt": "{name}の成果",
+    "captions_label": "英語"
+  },
+  "impressum": {
+    "meta_title": "Impressum / 運営者情報",
+    "meta_description": "§ 5 DDGに基づくBlok Blok Studio LLCのImpressum（法的告知）。",
+    "subtitle": "§ 5 DDG（ドイツデジタルサービス法）に基づく法的告知",
+    "provider_title": "サービス提供者",
+    "provider_country": "アメリカ合衆国",
+    "registered": "Nevada Secretary of State（米国ネバダ州）にLimited Liability Companyとして登記。",
+    "represented_title": "代表者",
+    "represented": "Chase Haynes（Managing Member）",
+    "responsible": "§ 18 (2) MStVに基づくコンテンツ責任者：Chase Haynes",
+    "contact_title": "連絡先",
+    "email_label": "メール",
+    "phone_label": "電話",
+    "odr_title": "EUの紛争解決",
+    "odr_1": "欧州委員会はオンライン紛争解決（ODR）のためのプラットフォームを提供しています：",
+    "odr_2": "当社のメールアドレスは上記をご覧ください。",
+    "odr_3": "当社は、消費者仲裁機関における紛争解決手続きに参加する意思も義務もありません。",
+    "liability_title": "コンテンツおよびリンクに関する責任",
+    "liability_1": "サービス提供者として、当社は一般法に基づき本サイト上の自社コンテンツに責任を負います。外部リンク先のコンテンツについては一切責任を負いません。リンク先ページの内容については、常にそれぞれの提供者または運営者が責任を負います。",
+    "note": "本法的告知はドイツ語版が法的に有効なテキストです。"
+  },
+  "places": {
+    "city_berlin": "ベルリン",
+    "city_new_york": "ニューヨーク",
+    "city_washington_dc": "ワシントンD.C.",
+    "city_dallas": "ダラス",
+    "city_fort_worth": "フォートワース",
+    "city_los_angeles": "ロサンゼルス",
+    "city_manila": "マニラ",
+    "city_minneapolis": "ミネアポリス",
+    "city_multan": "ムルターン",
+    "city_albuquerque": "アルバカーキ",
+    "city_richmond": "リッチモンド",
+    "city_salt_lake_city": "ソルトレイクシティ",
+    "region_california": "カリフォルニア州",
+    "region_minnesota": "ミネソタ州",
+    "region_new_mexico": "ニューメキシコ州",
+    "region_new_york": "ニューヨーク州",
+    "region_punjab": "パンジャーブ州",
+    "region_texas": "テキサス州",
+    "region_utah": "ユタ州",
+    "region_virginia": "バージニア州",
+    "country_germany": "ドイツ",
+    "country_pakistan": "パキスタン",
+    "country_philippines": "フィリピン",
+    "country_united_states": "アメリカ合衆国"
   }
 }

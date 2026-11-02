@@ -831,7 +831,9 @@
         "label": "{amount}+ / month",
         "hint": "Scaling hard"
       }
-    }
+    },
+    "meta_title": "Where Your Business Is Losing Customers",
+    "meta_description": "Five quick questions about your business, then book a call. We'll show you what we'd fix first."
   },
   "errors": {
     "title": "Something Went Wrong",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, founder",
     "founder_soon": "A word from Chase, coming soon.",
-    "founder_caption": "Chase Haynes, founder of Blok Blok Studio. You talk to the person who builds your site, not an account manager."
+    "founder_caption": "Chase Haynes, founder of Blok Blok Studio. You talk to the person who builds your site, not an account manager.",
+    "meta_title": "One More Step",
+    "meta_description": "Book your free 15-minute intro call."
   },
   "ui": {
     "footer_contact": "Contact",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "The challenge",
     "proj_solution": "What we built",
     "proj_results": "The results",
-    "proj_numbers": "By the numbers"
+    "proj_numbers": "By the numbers",
+    "footer_location": "Berlin, Germany",
+    "rights": "All rights reserved."
   },
   "onboard": {
     "title": "Client Onboarding",
@@ -3231,5 +3237,65 @@
     "none_cta": "Send a portfolio",
     "clients_note": "Looking for a website instead?",
     "clients_link": "Start with the quiz"
+  },
+  "casegrid": {
+    "kofi_where": "Nike athlete, Berlin",
+    "kofi_proof": "Consultation requests up 200% after launch.",
+    "luki_where": "Personal trainer, Berlin",
+    "luki_proof": "Bookings and payments straight through the site. No DMs, no invoices.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "$50k+ gross revenue in his first 5 months. 5.0 stars across 52 Google reviews.",
+    "ripz_where": "E-commerce, US",
+    "ripz_proof": "$191k in trading card sales, 1,790 orders on the Shopify store we built. The owners have since taken the store down.",
+    "view_case": "View case study",
+    "results_alt": "{name} results",
+    "captions_label": "English"
+  },
+  "impressum": {
+    "meta_title": "Impressum / Legal Notice",
+    "meta_description": "Impressum (legal notice) for Blok Blok Studio LLC pursuant to § 5 DDG.",
+    "subtitle": "Legal notice pursuant to § 5 DDG (German Digital Services Act)",
+    "provider_title": "Service Provider",
+    "provider_country": "United States of America",
+    "registered": "Registered with the Nevada Secretary of State (USA) as a Limited Liability Company.",
+    "represented_title": "Represented by",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "Responsible for content pursuant to § 18 (2) MStV: Chase Haynes",
+    "contact_title": "Contact",
+    "email_label": "Email",
+    "phone_label": "Phone",
+    "odr_title": "EU Dispute Resolution",
+    "odr_1": "The European Commission provides a platform for online dispute resolution (ODR):",
+    "odr_2": "Our email address can be found above.",
+    "odr_3": "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "liability_title": "Liability for Content and Links",
+    "liability_1": "As a service provider we are responsible for our own content on these pages under general law. We assume no liability for the content of external links; the respective provider or operator is always responsible for the content of linked pages.",
+    "note": "The German version of this legal notice is the legally operative text."
+  },
+  "places": {
+    "city_berlin": "Berlin",
+    "city_new_york": "New York",
+    "city_washington_dc": "Washington, DC",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Angeles",
+    "city_manila": "Manila",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multan",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "California",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "New Mexico",
+    "region_new_york": "New York",
+    "region_punjab": "Punjab",
+    "region_texas": "Texas",
+    "region_utah": "Utah",
+    "region_virginia": "Virginia",
+    "country_germany": "Germany",
+    "country_pakistan": "Pakistan",
+    "country_philippines": "Philippines",
+    "country_united_states": "United States"
   }
 }

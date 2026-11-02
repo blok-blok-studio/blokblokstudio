@@ -67,6 +67,7 @@ import { useTranslations } from 'next-intl';
 import { AnimatedSection } from './AnimatedSection';
 import { Turnstile } from './Turnstile';
 import { clientCities } from '@/data/client-locations';
+import { placeKey } from '@/lib/places';
 import { V2NextSteps } from './v2/V2NextSteps';
 import { V2PageHero } from './v2/V2PageHero';
 import { BOOKING_URL } from '@/data/studio';
@@ -88,6 +89,7 @@ export function ContactContent() {
    */
   const t = useTranslations('contact');
   const th = useTranslations('home');
+  const tp = useTranslations('places');
 
   /**
    * Submission state, controls whether to show the form or the success message.
@@ -364,7 +366,7 @@ export function ContactContent() {
                 <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm text-gray-400">
                   {clientCities.filter((c) => c.studio).map((c, i, arr) => (
                     <li key={c.city}>
-                      {c.city}
+                      {tp(placeKey('city', c.city))}
                       {c.tag ? ` (${c.tag})` : ''}
                       {i < arr.length - 1 ? ' ·' : ''}
                     </li>

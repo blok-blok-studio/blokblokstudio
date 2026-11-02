@@ -831,7 +831,9 @@
         "label": "{amount}+ / tháng",
         "hint": "Mở rộng mạnh"
       }
-    }
+    },
+    "meta_title": "Doanh nghiệp của bạn đang mất khách hàng ở đâu",
+    "meta_description": "Năm câu hỏi nhanh về doanh nghiệp của bạn, rồi đặt lịch gọi. Chúng tôi sẽ chỉ ra điều cần sửa trước tiên."
   },
   "errors": {
     "title": "Đã xảy ra lỗi",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes, nhà sáng lập",
     "founder_soon": "Đôi lời từ Chase, sắp ra mắt.",
-    "founder_caption": "Chase Haynes, nhà sáng lập Blok Blok Studio. Bạn trao đổi trực tiếp với người xây dựng trang web của bạn, không phải với quản lý tài khoản."
+    "founder_caption": "Chase Haynes, nhà sáng lập Blok Blok Studio. Bạn trao đổi trực tiếp với người xây dựng trang web của bạn, không phải với quản lý tài khoản.",
+    "meta_title": "Còn một bước nữa",
+    "meta_description": "Đặt cuộc gọi làm quen 15 phút miễn phí của bạn."
   },
   "ui": {
     "footer_contact": "Liên hệ",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "Thách thức",
     "proj_solution": "Chúng tôi đã xây gì",
     "proj_results": "Kết quả",
-    "proj_numbers": "Qua những con số"
+    "proj_numbers": "Qua những con số",
+    "footer_location": "Berlin, Đức",
+    "rights": "Bảo lưu mọi quyền."
   },
   "onboard": {
     "title": "Thiết lập khách hàng mới",
@@ -3231,5 +3237,65 @@
     "none_cta": "Gửi portfolio",
     "clients_note": "Bạn đang tìm làm website?",
     "clients_link": "Bắt đầu với bài trắc nghiệm"
+  },
+  "casegrid": {
+    "kofi_where": "Vận động viên Nike, Berlin",
+    "kofi_proof": "Yêu cầu tư vấn tăng 200% sau khi ra mắt.",
+    "luki_where": "Huấn luyện viên cá nhân, Berlin",
+    "luki_proof": "Đặt lịch và thanh toán ngay trên website. Không cần nhắn tin riêng, không cần hóa đơn.",
+    "bronco_where": "Dallas-Fort Worth",
+    "bronco_proof": "Doanh thu gộp $50k+ trong 5 tháng đầu tiên. 5.0 sao trên 52 đánh giá Google.",
+    "ripz_where": "Thương mại điện tử, Mỹ",
+    "ripz_proof": "$191k doanh số thẻ bài sưu tầm, 1,790 đơn hàng trên cửa hàng Shopify do chúng tôi xây dựng. Hiện các chủ shop đã đóng cửa hàng.",
+    "view_case": "Xem tình huống thực tế",
+    "results_alt": "Kết quả của {name}",
+    "captions_label": "Tiếng Anh"
+  },
+  "impressum": {
+    "meta_title": "Impressum / Thông tin pháp lý",
+    "meta_description": "Thông tin pháp lý (Impressum) của Blok Blok Studio LLC theo § 5 DDG.",
+    "subtitle": "Thông tin pháp lý theo § 5 DDG (Luật Dịch vụ Số của Đức)",
+    "provider_title": "Nhà cung cấp dịch vụ",
+    "provider_country": "Hợp chủng quốc Hoa Kỳ",
+    "registered": "Đăng ký tại Nevada Secretary of State (Hoa Kỳ) dưới hình thức Limited Liability Company.",
+    "represented_title": "Đại diện bởi",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "Chịu trách nhiệm về nội dung theo § 18 (2) MStV: Chase Haynes",
+    "contact_title": "Liên hệ",
+    "email_label": "Email",
+    "phone_label": "Điện thoại",
+    "odr_title": "Giải quyết tranh chấp tại EU",
+    "odr_1": "Ủy ban Châu Âu cung cấp nền tảng giải quyết tranh chấp trực tuyến (ODR):",
+    "odr_2": "Địa chỉ email của chúng tôi được ghi ở phía trên.",
+    "odr_3": "Chúng tôi không sẵn sàng và cũng không có nghĩa vụ tham gia thủ tục giải quyết tranh chấp trước cơ quan trọng tài người tiêu dùng.",
+    "liability_title": "Trách nhiệm về nội dung và liên kết",
+    "liability_1": "Với tư cách nhà cung cấp dịch vụ, chúng tôi chịu trách nhiệm về nội dung của mình trên các trang này theo quy định chung của pháp luật. Chúng tôi không chịu trách nhiệm về nội dung của các liên kết bên ngoài; nhà cung cấp hoặc đơn vị vận hành tương ứng luôn chịu trách nhiệm về nội dung của các trang được liên kết.",
+    "note": "Bản tiếng Đức của thông tin pháp lý này là văn bản có hiệu lực pháp lý."
+  },
+  "places": {
+    "city_berlin": "Berlin",
+    "city_new_york": "New York",
+    "city_washington_dc": "Washington, D.C.",
+    "city_dallas": "Dallas",
+    "city_fort_worth": "Fort Worth",
+    "city_los_angeles": "Los Angeles",
+    "city_manila": "Manila",
+    "city_minneapolis": "Minneapolis",
+    "city_multan": "Multan",
+    "city_albuquerque": "Albuquerque",
+    "city_richmond": "Richmond",
+    "city_salt_lake_city": "Salt Lake City",
+    "region_california": "California",
+    "region_minnesota": "Minnesota",
+    "region_new_mexico": "New Mexico",
+    "region_new_york": "New York",
+    "region_punjab": "Punjab",
+    "region_texas": "Texas",
+    "region_utah": "Utah",
+    "region_virginia": "Virginia",
+    "country_germany": "Đức",
+    "country_pakistan": "Pakistan",
+    "country_philippines": "Philippines",
+    "country_united_states": "Hoa Kỳ"
   }
 }

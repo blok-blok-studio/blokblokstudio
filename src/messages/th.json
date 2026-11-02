@@ -831,7 +831,9 @@
         "label": "{amount}+ / เดือน",
         "hint": "ขยายเต็มกำลัง"
       }
-    }
+    },
+    "meta_title": "ธุรกิจของคุณกำลังเสียลูกค้าตรงไหน",
+    "meta_description": "คำถามสั้น ๆ ห้าข้อเกี่ยวกับธุรกิจของคุณ แล้วจองสาย เราจะบอกว่าควรแก้อะไรก่อน"
   },
   "errors": {
     "title": "เกิดข้อผิดพลาด",
@@ -956,7 +958,9 @@
     },
     "founder_speaker": "Chase Haynes ผู้ก่อตั้ง",
     "founder_soon": "ข้อความจาก Chase เร็ว ๆ นี้",
-    "founder_caption": "Chase Haynes ผู้ก่อตั้ง Blok Blok Studio คุณได้คุยกับคนที่สร้างเว็บไซต์ให้คุณจริง ๆ ไม่ใช่ผู้จัดการบัญชีลูกค้า"
+    "founder_caption": "Chase Haynes ผู้ก่อตั้ง Blok Blok Studio คุณได้คุยกับคนที่สร้างเว็บไซต์ให้คุณจริง ๆ ไม่ใช่ผู้จัดการบัญชีลูกค้า",
+    "meta_title": "อีกหนึ่งขั้นตอน",
+    "meta_description": "จองสายแนะนำตัว 15 นาทีฟรีของคุณ"
   },
   "ui": {
     "footer_contact": "ติดต่อ",
@@ -1013,7 +1017,9 @@
     "proj_challenge": "โจทย์",
     "proj_solution": "สิ่งที่เราสร้าง",
     "proj_results": "ผลลัพธ์",
-    "proj_numbers": "ตัวเลขสำคัญ"
+    "proj_numbers": "ตัวเลขสำคัญ",
+    "footer_location": "เบอร์ลิน ประเทศเยอรมนี",
+    "rights": "สงวนลิขสิทธิ์"
   },
   "onboard": {
     "title": "เริ่มต้นสำหรับลูกค้า",
@@ -3231,5 +3237,65 @@
     "none_cta": "ส่งพอร์ตโฟลิโอ",
     "clients_note": "กำลังมองหาเว็บไซต์อยู่ใช่ไหม?",
     "clients_link": "เริ่มจากแบบทดสอบ"
+  },
+  "casegrid": {
+    "kofi_where": "นักกีฬา Nike, เบอร์ลิน",
+    "kofi_proof": "คำขอรับคำปรึกษาเพิ่มขึ้น 200% หลังเปิดตัว",
+    "luki_where": "เทรนเนอร์ส่วนตัว, เบอร์ลิน",
+    "luki_proof": "จองและชำระเงินผ่านเว็บไซต์โดยตรง ไม่ต้องทัก DM ไม่ต้องออกใบแจ้งหนี้",
+    "bronco_where": "ดัลลัส-ฟอร์ตเวิร์ธ",
+    "bronco_proof": "รายได้รวม $50k+ ใน 5 เดือนแรก คะแนน 5.0 ดาวจากรีวิว Google 52 รายการ",
+    "ripz_where": "อีคอมเมิร์ซ, สหรัฐอเมริกา",
+    "ripz_proof": "ยอดขายการ์ดสะสม $191k จาก 1,790 ออเดอร์บนร้าน Shopify ที่เราสร้าง ปัจจุบันเจ้าของได้ปิดร้านไปแล้ว",
+    "view_case": "ดูกรณีศึกษา",
+    "results_alt": "ผลลัพธ์ของ {name}",
+    "captions_label": "ภาษาอังกฤษ"
+  },
+  "impressum": {
+    "meta_title": "Impressum / ประกาศทางกฎหมาย",
+    "meta_description": "ประกาศทางกฎหมาย (Impressum) ของ Blok Blok Studio LLC ตาม § 5 DDG",
+    "subtitle": "ประกาศทางกฎหมายตาม § 5 DDG (กฎหมายบริการดิจิทัลของเยอรมนี)",
+    "provider_title": "ผู้ให้บริการ",
+    "provider_country": "สหรัฐอเมริกา",
+    "registered": "จดทะเบียนกับ Nevada Secretary of State (สหรัฐอเมริกา) ในรูปแบบ Limited Liability Company",
+    "represented_title": "ผู้แทน",
+    "represented": "Chase Haynes (Managing Member)",
+    "responsible": "ผู้รับผิดชอบเนื้อหาตาม § 18 (2) MStV: Chase Haynes",
+    "contact_title": "ติดต่อ",
+    "email_label": "อีเมล",
+    "phone_label": "โทรศัพท์",
+    "odr_title": "การระงับข้อพิพาทในสหภาพยุโรป",
+    "odr_1": "คณะกรรมาธิการยุโรปจัดให้มีแพลตฟอร์มสำหรับการระงับข้อพิพาทออนไลน์ (ODR):",
+    "odr_2": "ที่อยู่อีเมลของเราอยู่ด้านบน",
+    "odr_3": "เราไม่ประสงค์และไม่มีหน้าที่ต้องเข้าร่วมกระบวนการระงับข้อพิพาทต่อหน้าคณะอนุญาโตตุลาการผู้บริโภค",
+    "liability_title": "ความรับผิดต่อเนื้อหาและลิงก์",
+    "liability_1": "ในฐานะผู้ให้บริการ เรารับผิดชอบต่อเนื้อหาของเราเองบนหน้าเหล่านี้ตามกฎหมายทั่วไป เราไม่รับผิดต่อเนื้อหาของลิงก์ภายนอก ผู้ให้บริการหรือผู้ดำเนินการของหน้าที่ลิงก์ไปเป็นผู้รับผิดชอบเนื้อหานั้นเสมอ",
+    "note": "ฉบับภาษาเยอรมันของประกาศทางกฎหมายนี้เป็นฉบับที่มีผลบังคับทางกฎหมาย"
+  },
+  "places": {
+    "city_berlin": "เบอร์ลิน",
+    "city_new_york": "นิวยอร์ก",
+    "city_washington_dc": "วอชิงตัน ดี.ซี.",
+    "city_dallas": "ดัลลัส",
+    "city_fort_worth": "ฟอร์ตเวิร์ธ",
+    "city_los_angeles": "ลอสแอนเจลิส",
+    "city_manila": "มะนิลา",
+    "city_minneapolis": "มินนีแอโพลิส",
+    "city_multan": "มุลตาน",
+    "city_albuquerque": "แอลบูเคอร์คี",
+    "city_richmond": "ริชมอนด์",
+    "city_salt_lake_city": "ซอลต์เลกซิตี",
+    "region_california": "แคลิฟอร์เนีย",
+    "region_minnesota": "มินนิโซตา",
+    "region_new_mexico": "นิวเม็กซิโก",
+    "region_new_york": "นิวยอร์ก",
+    "region_punjab": "ปัญจาบ",
+    "region_texas": "เท็กซัส",
+    "region_utah": "ยูทาห์",
+    "region_virginia": "เวอร์จิเนีย",
+    "country_germany": "เยอรมนี",
+    "country_pakistan": "ปากีสถาน",
+    "country_philippines": "ฟิลิปปินส์",
+    "country_united_states": "สหรัฐอเมริกา"
   }
 }
