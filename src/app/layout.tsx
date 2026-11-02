@@ -36,7 +36,9 @@ import { AdsPixels } from '@/components/AdsPixels';
 import { PaletteSwitcher, PALETTE_BOOT_SCRIPT } from '@/components/PaletteSwitcher';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
-const montserrat = Montserrat({ subsets: ['latin'], display: 'swap', weight: ['600', '700'], variable: '--font-montserrat' });
+// Variable font: no weight array, so next/font issues one request (the two-weight
+// form intermittently fails Turbopack builds with "queries have exactly one entry").
+const montserrat = Montserrat({ subsets: ['latin'], display: 'swap', variable: '--font-montserrat' });
 
 // Open Graph wants a locale in the ll_CC form. Every other locale we ship
 // maps cleanly from its language tag; the two Chinese variants are explicit.
