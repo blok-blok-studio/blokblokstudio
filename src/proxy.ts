@@ -1,5 +1,23 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
+import { getAllProjectSlugs } from '@/data/projects';
+import { getAllBlogSlugs } from '@/data/blog';
+
+// Case-study and article slugs are fixed at build time. An unknown slug
+// is rewritten to a path no route matches, which gives a real HTTP 404
+// from the root not-found page. Left to the page, notFound() runs after
+// the (main) loading boundary has already streamed a 200 shell, so
+// crawlers saw a soft 404 (verified live 2026-11-02).
+const PROJECT_SLUGS = new Set(getAllProjectSlugs());
+const BLOG_SLUGS = new Set(getAllBlogSlugs());
+const SLUG_ROUTE = /^\/(projects|blog)\/([^/]+)\/?$/;
+
+function isUnknownSlug(pathname: string): boolean {
+  const m = SLUG_ROUTE.exec(pathname);
+  if (!m) return false;
+  const slug = decodeURIComponent(m[2]);
+  return m[1] === 'projects' ? !PROJECT_SLUGS.has(slug) : !BLOG_SLUGS.has(slug);
+}
 
 /**
  * SOC 2 Compliant Security Middleware
@@ -9,8 +27,10 @@ import type { NextRequest } from 'next/server';
  * - Google Lighthouse Security Audit
  */
 export function proxy(request: NextRequest) {
-  const response = NextResponse.next();
   const { pathname } = request.nextUrl;
+  const response = isUnknownSlug(pathname)
+    ? NextResponse.rewrite(new URL(`/_404${pathname}`, request.url))
+    : NextResponse.next();
 
   // Skip the reverse-proxy route entirely. The /api/proxy/[slug] handler
   // serves third-party HTML and needs to set its own headers — applying
