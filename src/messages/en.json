@@ -1375,5 +1375,19 @@
     "knows_2": "Next.js Development",
     "knows_3": "SEO",
     "knows_4": "Conversion Optimization"
+  },
+  "card": {
+    "meta_title": "Bridget Perdomo",
+    "meta_description": "You met Bridget. Here is who we are: a Berlin and Los Angeles studio that designs, builds and hosts websites for ambitious brands.",
+    "eyebrow": "You met Bridget at CES",
+    "title": "Hi, I'm Bridget.",
+    "intro": "Marketing strategist at Blok Blok Studio. We are a five-person studio in Berlin and Los Angeles that designs, builds and hosts websites for ambitious brands. No templates, built blok by blok.",
+    "save_contact": "Save my contact",
+    "book": "Book a call",
+    "see_work": "See our work",
+    "start": "Start a project",
+    "photo_alt": "Bridget Perdomo, Marketing Strategist at Blok Blok Studio",
+    "where_label": "Where to find us",
+    "where": "Berlin, Germany and Los Angeles, California. Clients across the United States, Germany and the Philippines."
   }
 }
