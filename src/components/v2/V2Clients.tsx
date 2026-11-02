@@ -31,7 +31,7 @@ const LOGOS: Record<string, Logo> = {
   'The New School': { src: '/images/clients/the-new-school.webp', mode: 'invert', h: 38 },
   'Bronco Plumbing': { src: '/images/clients/bronco-plumbing.webp', mode: 'gray', h: 48 },
   'Coach Luki': { src: '/images/clients/coach-luki-icon.svg', mode: 'invert', h: 30, withName: true },
-  'Coach Kofi': { src: '/images/clients/coach-kofi.jpg', mode: 'lighten', h: 24 },
+  'Coach Kofi': { src: '/images/clients/coach-kofi.webp', mode: 'none', h: 30, withName: true },
   'KDS Systems': { src: '/images/clients/kds-systems.png', mode: 'invert', h: 26 },
   'Nanny & Nest': { src: '/images/clients/nanny-and-nest.svg', mode: 'invert', h: 40 },
   'Mind and Body Retreats': { src: '/images/clients/mind-and-body-retreats.svg', mode: 'none', h: 28 },
