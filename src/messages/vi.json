@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "Bạn đã đăng ký rồi",
     "newsletter_consent": "Bằng việc đăng ký, bạn đồng ý với <link>Chính sách Bảo mật</link> của chúng tôi. Hủy đăng ký bất cứ lúc nào.",
     "tab_all": "Tất cả",
-    "tab_ai": "AI & Tự động hóa",
-    "tab_creative": "Sáng tạo & Marketing",
     "audit_badge": "Miễn phí, 15 phút",
     "audit_heading": "Không chắc doanh nghiệp của bạn cần gì?",
     "audit_subheading": "Đặt lịch gọi chiến lược miễn phí. Chúng tôi sẽ xem xét doanh nghiệp của bạn và chỉ ra chính xác nơi có cơ hội lớn nhất.",
@@ -129,16 +127,6 @@
     "v2_about_link": "Về studio",
     "v2_services_label": "Chúng tôi làm gì",
     "v2_services_link": "Tất cả dịch vụ",
-    "v2_service_1_title": "Website Next.js xây riêng",
-    "v2_service_1_detail": "Front end React viết tay, không page builder, không theme. Nhanh trên mọi thiết bị và dễ mở rộng về sau.",
-    "v2_service_2_title": "Thiết kế tập trung chuyển đổi",
-    "v2_service_2_detail": "Mỗi trang được bố cục quanh một hành động duy nhất: đặt lịch, mua hàng hoặc gọi điện. Nội dung, thứ bậc và bằng chứng đều hướng về cùng một đích.",
-    "v2_service_3_title": "SEO từ ngày đầu",
-    "v2_service_3_detail": "SEO kỹ thuật, dữ liệu có cấu trúc và tìm kiếm địa phương được tích hợp ngay trong quá trình xây dựng, không chắp vá sau khi ra mắt.",
-    "v2_service_4_title": "Thương mại điện tử",
-    "v2_service_4_detail": "Cửa hàng Shopify và headless với vận chuyển, thu thập email và cơ chế mở bán được cấu hình trọn vẹn từ đầu đến cuối.",
-    "v2_service_5_title": "Chăm sóc và hiệu năng",
-    "v2_service_5_detail": "Hosting, giám sát, tối ưu tốc độ và cập nhật nội dung sau khi ra mắt, để website tiếp tục sinh lời cho bạn.",
     "v2_work_label": "Dự án tiêu biểu",
     "v2_work_link": "Tất cả dự án",
     "v2_result_coach_luki": "Khách hàng đặt lịch và thanh toán ngay trên website. SEO địa phương mang về người tìm kiếm tại Berlin.",
@@ -169,12 +157,6 @@
     "v2_close_menu": "Đóng menu",
     "v2_rights": "Bảo lưu mọi quyền.",
     "v2_services_sub": "Một gói duy nhất, làm đến nơi đến chốn. Chúng tôi thiết kế và xây dựng website, rồi host và duy trì để nó luôn vận hành.",
-    "v2_group_1": "Website và thương hiệu",
-    "v2_group_1_detail": "Thiết kế và xây dựng, kèm bộ nhận diện đi cùng.",
-    "v2_group_2": "Tăng trưởng trả phí",
-    "v2_group_2_detail": "Chiến dịch tìm kiếm và mạng xã hội dẫn khách về website chúng tôi đã xây.",
-    "v2_group_3": "AI và tự động hóa",
-    "v2_group_3_detail": "Agent, chat, quy trình tự động và dashboard vận hành toàn bộ phần việc hậu trường cho bạn.",
     "v2_quiz_label": "Chưa biết bắt đầu từ đâu?",
     "v2_quiz_title": "Tìm xem doanh nghiệp của bạn đang mất khách ở đâu.",
     "v2_quiz_sub": "Năm câu hỏi nhanh. Chúng tôi chỉ ra điều sẽ sửa trước tiên, rồi bạn chọn giờ để trao đổi. Chỉ mất khoảng một phút.",
@@ -238,8 +220,6 @@
     "filter_all": "Tất cả",
     "filter_web": "Thiết kế web",
     "filter_brand": "Xây dựng thương hiệu",
-    "filter_app": "Phát triển ứng dụng",
-    "filter_marketing": "Marketing",
     "view_project": "Xem dự án",
     "cat_web": "Thiết kế web",
     "cat_ecom": "Thương mại điện tử",
@@ -344,43 +324,6 @@
   "services": {
     "title": "Dịch vụ của chúng tôi",
     "subtitle": "Thiết kế và phát triển website tùy chỉnh, xây để giành khách hàng, rồi host và duy trì để luôn vận hành.",
-    "section_ai_title": "AI & Tự động hóa",
-    "section_creative_title": "Sáng tạo & Marketing",
-    "service_1_title": "Hệ sinh thái AI Agent",
-    "service_1_subtitle": "Các sub-agent kết nối lẫn nhau vận hành toàn bộ quy trình",
-    "service_1_bullet_1": "Điều phối multi-agent",
-    "service_1_bullet_2": "Từ lead đến chấm điểm, email, tin nhắn rồi cuộc gọi",
-    "service_1_bullet_3": "Ra quyết định tự động",
-    "service_1_bullet_4": "Chuyển lên người thật khi cần",
-    "service_1_bullet_5": "Hoạt động 24/7, không gián đoạn",
-    "service_2_title": "AI Hội thoại",
-    "service_2_subtitle": "Chatbot và voice agent sàng lọc lead liên tục",
-    "service_2_bullet_1": "Widget AI chat trên website",
-    "service_2_bullet_2": "Voice agent AI cho cuộc gọi inbound",
-    "service_2_bullet_3": "Đặt lịch hẹn tự động",
-    "service_2_bullet_4": "Xử lý FAQ và sàng lọc lead",
-    "service_2_bullet_5": "Ngôn ngữ tự nhiên, không máy móc",
-    "service_3_title": "Tự động hóa quy trình",
-    "service_3_subtitle": "Kết nối mọi công cụ thành một hệ thống tự vận hành",
-    "service_3_bullet_1": "CRM, lịch và thanh toán được liên kết",
-    "service_3_bullet_2": "Tích hợp tùy chỉnh (không mất phí Zapier)",
-    "service_3_bullet_3": "Logic quyết định AI trong quy trình",
-    "service_3_bullet_4": "Xử lý lỗi và luồng thử lại",
-    "service_3_bullet_5": "Tự động onboarding khách hàng",
-    "service_4_title": "Hệ thống nội dung AI",
-    "service_4_subtitle": "Một đầu vào trở thành 10 nội dung",
-    "service_4_bullet_1": "Video thành clip, caption và bài đăng",
-    "service_4_bullet_2": "Tạo bài blog từ bản ghi lời thoại",
-    "service_4_bullet_3": "Pipeline lên lịch mạng xã hội",
-    "service_4_bullet_4": "Đảm bảo nhất quán giọng thương hiệu qua AI",
-    "service_4_bullet_5": "Tái sử dụng đa nền tảng",
-    "service_5_title": "Dashboard khách hàng",
-    "service_5_subtitle": "Cổng thông tin thời gian thực để khách hàng không bao giờ phải hỏi tiến độ",
-    "service_5_bullet_1": "Theo dõi lead và pipeline trực tiếp",
-    "service_5_bullet_2": "Chi tiêu quảng cáo và ROAS thời gian thực",
-    "service_5_bullet_3": "Email báo cáo tuần tự động",
-    "service_5_bullet_4": "Widget KPI tùy chỉnh cho từng khách hàng",
-    "service_5_bullet_5": "White-label theo thương hiệu của bạn",
     "service_6_title": "Website",
     "service_6_subtitle": "Website xây riêng, tập trung chuyển đổi",
     "service_6_bullet_1": "Xây dựng Next.js / React",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "Responsive mobile-first",
     "service_6_bullet_4": "Tích hợp CMS",
     "service_6_bullet_5": "Tinh chỉnh hiệu suất và tốc độ",
-    "service_7_title": "Xây dựng thương hiệu",
-    "service_7_subtitle": "Bộ nhận diện hình ảnh táo bạo, nổi bật giữa đám đông",
-    "service_7_bullet_1": "Thiết kế logo và dấu hiệu thương hiệu",
-    "service_7_bullet_2": "Bảng màu và typography",
-    "service_7_bullet_3": "Tài liệu hướng dẫn thương hiệu",
-    "service_7_bullet_4": "Template mạng xã hội",
-    "service_7_bullet_5": "Thiết kế pitch deck",
-    "service_8_title": "Google Ads",
-    "service_8_subtitle": "Chiến dịch tìm kiếm nhắm vào người mua có ý định cao",
-    "service_8_bullet_1": "Nghiên cứu từ khóa và chiến lược",
-    "service_8_bullet_2": "Nội dung quảng cáo và landing page",
-    "service_8_bullet_3": "Theo dõi chuyển đổi",
-    "service_8_bullet_4": "Tối ưu hàng tháng",
-    "service_8_bullet_5": "Phân tích đối thủ",
-    "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook và Instagram ở quy mô lớn",
-    "service_9_bullet_1": "Nhắm đối tượng và đối tượng tương tự (lookalike)",
-    "service_9_bullet_2": "Thiết kế mẫu quảng cáo và nội dung",
-    "service_9_bullet_3": "Phễu retargeting",
-    "service_9_bullet_4": "Báo cáo ROAS",
-    "service_9_bullet_5": "Thử nghiệm A/B mẫu quảng cáo",
     "process_title": "Quy trình",
     "step_1_title": "Tìm hiểu",
     "step_1_desc": "Chúng tôi tìm hiểu mục tiêu, đối tượng và thị trường của bạn trước khi thiết kế bất cứ thứ gì.",
@@ -667,10 +589,6 @@
     "q_services_sub": "Chọn tất cả những mục phù hợp.",
     "q_budget_project": "Ngân sách của bạn cho dự án này là bao nhiêu?",
     "q_budget_project_sub": "Con số ước chừng là đủ. Nó chỉ giúp chúng tôi biết nên đề xuất gì.",
-    "q_budget_ads": "Mỗi tháng bạn có thể chi bao nhiêu cho quảng cáo?",
-    "q_budget_ads_sub": "Chỉ tính chi phí quảng cáo. Phí quản lý của chúng tôi là 15% khoản đó, cộng phí thiết lập một lần. Ước chừng là đủ.",
-    "q_budget_monthly": "Ngân sách hàng tháng của bạn là bao nhiêu?",
-    "q_budget_monthly_sub": "Khoảng bao nhiêu bạn sẽ đầu tư mỗi tháng. Ước chừng là đủ.",
     "q_timeline": "Bạn muốn bắt đầu sớm thế nào?",
     "q_contact": "Bước cuối. Chúng tôi liên hệ với bạn thế nào?",
     "q_contact_sub": "Sau đó bạn chọn giờ hẹn. Chúng tôi phản hồi trong vòng một giờ trong giờ làm việc.",
@@ -717,9 +635,6 @@
       "website_redesign": "Thiết kế lại website",
       "e_commerce": "Thương mại điện tử",
       "landing_page": "Landing page",
-      "google_ads": "Google Ads",
-      "meta_ads": "Meta Ads",
-      "social_media": "Mạng xã hội",
       "not_sure_yet": "Chưa chắc chắn"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount}+",
         "hint": "Thương mại điện tử, hoặc lớn hơn"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "Khoảng {amount} / tháng",
-        "hint": "Một kênh, có quản lý"
-      },
-      "1": {
-        "label": "{from} – {to} / tháng",
-        "hint": "Một kênh có video đều đặn, hoặc hai kênh"
-      },
-      "2": {
-        "label": "{from} – {to} / tháng",
-        "hint": "Hai đến ba kênh có video"
-      },
-      "3": {
-        "label": "{amount}+ / tháng",
-        "hint": "Nhiều kênh, tập trung video"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "Chi phí quảng cáo dưới {amount} / tháng",
-        "hint": "Thử nghiệm ban đầu"
-      },
-      "1": {
-        "label": "Chi phí quảng cáo {from} – {to} / tháng",
-        "hint": "Một nền tảng, vận hành bài bản"
-      },
-      "2": {
-        "label": "Chi phí quảng cáo {from} – {to} / tháng",
-        "hint": "Cả hai nền tảng, hoặc mở rộng quy mô một nền tảng"
-      },
-      "3": {
-        "label": "Chi phí quảng cáo {amount}+ / tháng",
-        "hint": "Quy mô lớn"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "Dưới {amount} / tháng",
-        "hint": "Mới bắt đầu"
-      },
-      "1": {
-        "label": "{from} – {to} / tháng",
-        "hint": "Một kênh hoặc nền tảng, vận hành bài bản"
-      },
-      "2": {
-        "label": "{from} – {to} / tháng",
-        "hint": "Nhiều hạng mục chạy song song"
-      },
-      "3": {
-        "label": "{amount}+ / tháng",
-        "hint": "Mở rộng mạnh"
       }
     },
     "meta_title": "Doanh nghiệp của bạn đang mất khách hàng ở đâu",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "Một trang, một lời chào hàng",
         "detail": "Thứ chúng tôi làm nhanh nhất. Một trang duy nhất cho một nhóm khách, có gắn đo lường để bạn thấy nó mang lại gì."
-      },
-      "search_ads": {
-        "title": "Xuất hiện đúng lúc có nhu cầu",
-        "detail": "Chiến dịch xây và vận hành theo đơn hàng chốt được, không phải theo lượt nhấp. Trên tìm kiếm, người ta đã biết mình muốn gì."
-      },
-      "social_ads": {
-        "title": "Đến trước đối thủ",
-        "detail": "Chiến dịch Facebook và Instagram đưa lời chào hàng của bạn tới đúng người trước khi đối thủ làm điều đó."
-      },
-      "social": {
-        "title": "Mạng xã hội có đích đến",
-        "detail": "Clip, phụ đề và bài đăng cắt từ tư liệu bạn đã có, làm ra để đưa người xem về website chứ không chỉ lấp đầy bảng tin."
       },
       "booking": {
         "title": "Đặt lịch và thanh toán ngay trên website",

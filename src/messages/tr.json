@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "Zaten abonesiniz",
     "newsletter_consent": "Abone olarak <link>Gizlilik Politikamızı</link> kabul edersiniz. İstediğiniz zaman abonelikten çıkabilirsiniz.",
     "tab_all": "Tümü",
-    "tab_ai": "Yapay Zeka ve Otomasyon",
-    "tab_creative": "Kreatif ve Pazarlama",
     "audit_badge": "Ücretsiz, 15 dakika",
     "audit_heading": "İşletmenizin Neye İhtiyacı Olduğundan Emin Değil misiniz?",
     "audit_subheading": "Ücretsiz bir strateji görüşmesi ayarlayın. İşletmenizi inceleyip en büyük fırsatların tam olarak nerede olduğunu gösterelim.",
@@ -129,16 +127,6 @@
     "v2_about_link": "Stüdyo hakkında",
     "v2_services_label": "Ne yapıyoruz",
     "v2_services_link": "Tüm hizmetler",
-    "v2_service_1_title": "Özel Next.js geliştirme",
-    "v2_service_1_detail": "Elle yazılmış React arayüzleri; sayfa oluşturucu yok, hazır tema yok. Her cihazda hızlı, ileride kolayca genişletilebilir.",
-    "v2_service_2_title": "Dönüşüm odaklı tasarım",
-    "v2_service_2_detail": "Her sayfa tek bir eylem etrafında kurgulanır: randevu, satın alma veya arama. Metin, hiyerarşi ve kanıtların hepsi aynı yönü gösterir.",
-    "v2_service_3_title": "İlk günden SEO",
-    "v2_service_3_detail": "Teknik SEO, yapılandırılmış veri ve yerel arama lansmandan sonra eklenmez, baştan yapının içine işlenir.",
-    "v2_service_4_title": "E-ticaret",
-    "v2_service_4_detail": "Kargo, e-posta toplama ve drop mekanikleri uçtan uca yapılandırılmış Shopify ve headless mağazalar.",
-    "v2_service_5_title": "Bakım ve performans",
-    "v2_service_5_detail": "Lansman sonrası barındırma, izleme, hız ayarı ve içerik güncellemeleri; site kazandırmaya devam etsin diye.",
     "v2_work_label": "Seçilmiş işler",
     "v2_work_link": "Tüm projeler",
     "v2_result_coach_luki": "Müşteriler randevuyu ve ödemeyi site üzerinden yapıyor. Yerel SEO Berlin'deki arayanları getiriyor.",
@@ -169,12 +157,6 @@
     "v2_close_menu": "Menüyü kapat",
     "v2_rights": "Tüm hakları saklıdır.",
     "v2_services_sub": "Tek paket, hakkıyla yapılmış. Siteyi tasarlayıp geliştiriyor, ardından barındırıyor ve çalışır halde tutuyoruz.",
-    "v2_group_1": "Web siteleri ve marka",
-    "v2_group_1_detail": "Tasarım ve geliştirme, ardından ona eşlik eden kimlik.",
-    "v2_group_2": "Ücretli büyüme",
-    "v2_group_2_detail": "İnşa ettiğimiz siteyi besleyen arama ve sosyal medya kampanyaları.",
-    "v2_group_3": "Yapay zeka ve otomasyon",
-    "v2_group_3_detail": "Arka ofisi yürüten ajanlar, sohbet botları, iş akışları ve panolar.",
     "v2_quiz_label": "Nereden başlayacağınızdan emin değil misiniz?",
     "v2_quiz_title": "İşletmenizin müşterileri nerede kaybettiğini öğrenin.",
     "v2_quiz_sub": "Beş kısa soru. Önce neyi düzelteceğimizi gösteriyoruz, sonra siz görüşme için bir zaman seçiyorsunuz. Yaklaşık bir dakika.",
@@ -238,8 +220,6 @@
     "filter_all": "Tümü",
     "filter_web": "Web Tasarımı",
     "filter_brand": "Marka Kimliği",
-    "filter_app": "Uygulama Geliştirme",
-    "filter_marketing": "Pazarlama",
     "view_project": "Projeyi Görüntüle",
     "cat_web": "Web Tasarımı",
     "cat_ecom": "E-Ticaret",
@@ -344,43 +324,6 @@
   "services": {
     "title": "Hizmetlerimiz",
     "subtitle": "Müşteri kazanmak için yapılan, ardından barındırılan ve çalışır tutulan özel web sitesi tasarımı ve geliştirmesi.",
-    "section_ai_title": "Yapay Zeka ve Otomasyon",
-    "section_creative_title": "Kreatif ve Pazarlama",
-    "service_1_title": "Yapay Zeka Ajan Ekosistemleri",
-    "service_1_subtitle": "Tüm iş akışlarını yürüten, birbirine bağlı alt ajanlar",
-    "service_1_bullet_1": "Çoklu ajan orkestrasyonu",
-    "service_1_bullet_2": "Potansiyel müşteriden puanlamaya, e-postaya, SMS'e ve aramaya",
-    "service_1_bullet_3": "Otonom karar verme",
-    "service_1_bullet_4": "Gerektiğinde insana yönlendirme",
-    "service_1_bullet_5": "Sıfır kesintiyle 7/24 çalışma",
-    "service_2_title": "Konuşma Tabanlı Yapay Zeka",
-    "service_2_subtitle": "Potansiyel müşterileri durmaksızın eleyen sohbet botları ve sesli ajanlar",
-    "service_2_bullet_1": "Web sitesi yapay zeka sohbet aracı",
-    "service_2_bullet_2": "Gelen aramalar için yapay zeka sesli ajanlar",
-    "service_2_bullet_3": "Kendiliğinden işleyen randevu alma",
-    "service_2_bullet_4": "SSS yanıtlama ve potansiyel müşteri eleme",
-    "service_2_bullet_5": "Robotik değil, doğal dil",
-    "service_3_title": "İş Akışı Otomasyonu",
-    "service_3_subtitle": "Her aracı kendi kendine çalışan tek bir sisteme bağlayın",
-    "service_3_bullet_1": "CRM, takvim ve ödemeler birbirine bağlı",
-    "service_3_bullet_2": "Özel entegrasyonlar (Zapier vergisi yok)",
-    "service_3_bullet_3": "Döngüde yapay zeka karar mantığı",
-    "service_3_bullet_4": "Hata yönetimi ve yeniden deneme akışları",
-    "service_3_bullet_5": "Müşteri kabul otomasyonu",
-    "service_4_title": "Yapay Zeka İçerik Sistemleri",
-    "service_4_subtitle": "Tek bir girdi 10 parça içeriğe dönüşür",
-    "service_4_bullet_1": "Videodan klip, altyazı ve gönderilere",
-    "service_4_bullet_2": "Transkriptlerden blog yazısı üretimi",
-    "service_4_bullet_3": "Sosyal medya zamanlama hattı",
-    "service_4_bullet_4": "Yapay zeka ile tutarlı marka sesi",
-    "service_4_bullet_5": "Platformlar arası yeniden kullanım",
-    "service_5_title": "Müşteri Panoları",
-    "service_5_subtitle": "Müşterilerin asla güncelleme sormasına gerek kalmasın diye gerçek zamanlı portallar",
-    "service_5_bullet_1": "Canlı potansiyel müşteri ve satış hattı takibi",
-    "service_5_bullet_2": "Gerçek zamanlı reklam harcaması ve ROAS",
-    "service_5_bullet_3": "Otomatik haftalık rapor e-postaları",
-    "service_5_bullet_4": "Müşteriye özel KPI bileşenleri",
-    "service_5_bullet_5": "Kendi markanızla sunulur",
     "service_6_title": "Web Siteleri",
     "service_6_subtitle": "Özel geliştirilmiş, dönüşüm odaklı siteler",
     "service_6_bullet_1": "Next.js / React geliştirme",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "Mobil öncelikli duyarlı tasarım",
     "service_6_bullet_4": "CMS entegrasyonu",
     "service_6_bullet_5": "Performans ve hız ayarı",
-    "service_7_title": "Marka Kimliği",
-    "service_7_subtitle": "Öne çıkan cesur görsel kimlikler",
-    "service_7_bullet_1": "Logo ve marka işareti tasarımı",
-    "service_7_bullet_2": "Renk paleti ve tipografi",
-    "service_7_bullet_3": "Marka kılavuzu dokümanı",
-    "service_7_bullet_4": "Sosyal medya şablonları",
-    "service_7_bullet_5": "Sunum tasarımı",
-    "service_8_title": "Google Ads",
-    "service_8_subtitle": "Yüksek niyetli alıcılar için arama kampanyaları",
-    "service_8_bullet_1": "Anahtar kelime araştırması ve stratejisi",
-    "service_8_bullet_2": "Reklam metni ve açılış sayfaları",
-    "service_8_bullet_3": "Dönüşüm takibi",
-    "service_8_bullet_4": "Aylık optimizasyon",
-    "service_8_bullet_5": "Rakip analizi",
-    "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook ve Instagram'da ölçekli reklam",
-    "service_9_bullet_1": "Hedef kitle ve benzer kitle hedefleme",
-    "service_9_bullet_2": "Kreatif tasarım ve metin",
-    "service_9_bullet_3": "Yeniden hedefleme hunileri",
-    "service_9_bullet_4": "ROAS raporlaması",
-    "service_9_bullet_5": "Kreatif A/B testleri",
     "process_title": "Sürecimiz",
     "step_1_title": "Keşif",
     "step_1_desc": "Herhangi bir şey tasarlanmadan önce hedeflerinizi, kitlenizi ve pazarınızı öğreniriz.",
@@ -667,10 +589,6 @@
     "q_services_sub": "Uygun olanların hepsini seçin.",
     "q_budget_project": "Bu proje için bütçeniz nedir?",
     "q_budget_project_sub": "Kabaca bir fikir yeterli. Sadece ne önereceğimizi belirler.",
-    "q_budget_ads": "Aylık reklam için ne kadar ayırabilirsiniz?",
-    "q_budget_ads_sub": "Sadece reklam harcaması. Yönetim ücretimiz bunun %15'i, artı bir defalık kurulum. Yaklaşık bir rakam yeterli.",
-    "q_budget_monthly": "Aylık bütçeniz nedir?",
-    "q_budget_monthly_sub": "Her ay ayırabileceğiniz yaklaşık tutar. Tahmini bir rakam yeterli.",
     "q_timeline": "Ne kadar sürede başlamak istiyorsunuz?",
     "q_contact": "Son adım. Size nasıl ulaşalım?",
     "q_contact_sub": "Ardından bir saat seçersiniz. Mesai saatlerinde bir saat içinde yanıt veriyoruz.",
@@ -717,9 +635,6 @@
       "website_redesign": "Web sitesi yenileme",
       "e_commerce": "E-ticaret",
       "landing_page": "Açılış sayfası",
-      "google_ads": "Google Ads",
-      "meta_ads": "Meta Ads",
-      "social_media": "Sosyal medya",
       "not_sure_yet": "Henüz emin değilim"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount}+",
         "hint": "E-ticaret veya daha büyük bir proje"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "Ayda yaklaşık {amount}",
-        "hint": "Bir kanal, yönetimli"
-      },
-      "1": {
-        "label": "Ayda {from} – {to}",
-        "hint": "Düzenli videolu bir kanal veya iki kanal"
-      },
-      "2": {
-        "label": "Ayda {from} – {to}",
-        "hint": "Videolu iki veya üç kanal"
-      },
-      "3": {
-        "label": "Ayda {amount}+",
-        "hint": "Birden fazla kanal, video ağırlıklı"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "Ayda {amount} altı reklam harcaması",
-        "hint": "İlk denemeler"
-      },
-      "1": {
-        "label": "Ayda {from} – {to} reklam harcaması",
-        "hint": "Tek platform, düzgün yönetilen"
-      },
-      "2": {
-        "label": "Ayda {from} – {to} reklam harcaması",
-        "hint": "Her iki platform veya birini büyütmek"
-      },
-      "3": {
-        "label": "Ayda {amount}+ reklam harcaması",
-        "hint": "Ciddi hacim"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "Ayda {amount} altı",
-        "hint": "Başlangıç"
-      },
-      "1": {
-        "label": "Ayda {from} – {to}",
-        "hint": "Tek kanal veya platform, düzgün yönetilen"
-      },
-      "2": {
-        "label": "Ayda {from} – {to}",
-        "hint": "Birkaçı birlikte"
-      },
-      "3": {
-        "label": "Ayda {amount}+",
-        "hint": "Hızlı büyüme"
       }
     },
     "meta_title": "İşletmenizin Müşteri Kaybettiği Yer",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "Tek sayfa, tek teklif",
         "detail": "En hızlı kurduğumuz şey. Tek bir kitleye yönelik tek bir sayfa, ne getirdiğini görebilmeniz için ölçümlemesi bağlı."
-      },
-      "search_ads": {
-        "title": "Niyet anında orada olmak",
-        "detail": "Tıklamaya değil, alınan işe göre kurulan ve yönetilen kampanyalar. Aramada insanlar ne istediğini zaten bilir."
-      },
-      "social_ads": {
-        "title": "Onlardan önce görünmek",
-        "detail": "Teklifinizi bir rakip yapmadan önce doğru kişilerin önüne koyan Facebook ve Instagram kampanyaları."
-      },
-      "social": {
-        "title": "Bir yere götüren sosyal medya",
-        "detail": "Elinizde zaten olan görüntülerden çıkarılan klipler, altyazılar ve gönderiler; akışı doldurmak yerine insanları siteye taşımak için."
       },
       "booking": {
         "title": "Sitede randevu ve ödeme",

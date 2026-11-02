@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "Vous êtes déjà inscrit",
     "newsletter_consent": "En vous inscrivant, vous acceptez notre <link>Politique de confidentialité</link>. Désabonnement à tout moment.",
     "tab_all": "Tous",
-    "tab_ai": "IA et automatisation",
-    "tab_creative": "Création et marketing",
     "audit_badge": "Gratuit : 15 minutes",
     "audit_heading": "Pas sûr de ce dont votre entreprise a besoin ?",
     "audit_subheading": "Réservez un appel stratégique gratuit. Nous examinerons votre entreprise et vous montrerons exactement où se trouvent les plus grandes opportunités.",
@@ -129,16 +127,6 @@
     "v2_about_link": "Découvrir le studio",
     "v2_services_label": "Ce que nous faisons",
     "v2_services_link": "Tous les services",
-    "v2_service_1_title": "Sites Next.js sur mesure",
-    "v2_service_1_detail": "Des interfaces React codées à la main, sans constructeur de pages ni thème. Rapides sur tous les appareils et faciles à faire évoluer.",
-    "v2_service_2_title": "Design orienté conversion",
-    "v2_service_2_detail": "Chaque page est construite autour d'une seule action : réserver, acheter ou appeler. Texte, hiérarchie et preuves vont tous dans le même sens.",
-    "v2_service_3_title": "SEO dès le premier jour",
-    "v2_service_3_detail": "SEO technique, données structurées et référencement local intégrés dès la construction, pas ajoutés après le lancement.",
-    "v2_service_4_title": "E-commerce",
-    "v2_service_4_detail": "Boutiques Shopify et headless, avec la livraison, la capture d'e-mails et les mécaniques de drops configurées de bout en bout.",
-    "v2_service_5_title": "Suivi et performance",
-    "v2_service_5_detail": "Hébergement, surveillance, optimisation de la vitesse et mises à jour de contenu après le lancement, pour que le site continue de rapporter.",
     "v2_work_label": "Réalisations choisies",
     "v2_work_link": "Tous les projets",
     "v2_result_coach_luki": "Les clients réservent et paient sur le site. Le SEO local attire les Berlinois qui cherchent un coach.",
@@ -169,12 +157,6 @@
     "v2_close_menu": "Fermer le menu",
     "v2_rights": "Tous droits réservés.",
     "v2_services_sub": "Une seule formule, bien faite. Nous concevons et développons le site, puis nous l'hébergeons et veillons à ce qu'il tourne.",
-    "v2_group_1": "Sites web et identité",
-    "v2_group_1_detail": "Conception et développement, puis l'identité qui va avec.",
-    "v2_group_2": "Acquisition payante",
-    "v2_group_2_detail": "Des campagnes search et social qui alimentent le site que nous avons construit.",
-    "v2_group_3": "IA et automatisation",
-    "v2_group_3_detail": "Agents, chat, workflows et tableaux de bord qui font tourner le back-office.",
     "v2_quiz_label": "Vous ne savez pas par où commencer ?",
     "v2_quiz_title": "Découvrez où votre entreprise perd des clients.",
     "v2_quiz_sub": "Cinq questions rapides. Nous vous montrons ce que nous corrigerions en premier, puis vous choisissez un créneau pour en parler. Une minute environ.",
@@ -238,8 +220,6 @@
     "filter_all": "Tous",
     "filter_web": "Web design",
     "filter_brand": "Branding",
-    "filter_app": "Développement d'applications",
-    "filter_marketing": "Marketing",
     "view_project": "Voir le projet",
     "cat_web": "Web design",
     "cat_ecom": "E-commerce",
@@ -344,43 +324,6 @@
   "services": {
     "title": "Nos services",
     "subtitle": "Conception et développement de sites web sur mesure, construits pour gagner des clients, puis hébergés et maintenus en ligne.",
-    "section_ai_title": "IA et automatisation",
-    "section_creative_title": "Création et marketing",
-    "service_1_title": "Écosystèmes d'agents IA",
-    "service_1_subtitle": "Des sous-agents interconnectés qui gèrent des workflows entiers",
-    "service_1_bullet_1": "Orchestration multi-agents",
-    "service_1_bullet_2": "Du lead au scoring, puis e-mail, SMS et appel",
-    "service_1_bullet_3": "Prise de décision autonome",
-    "service_1_bullet_4": "Escalade vers un humain quand il le faut",
-    "service_1_bullet_5": "Fonctionnement 24h/24, 7j/7, sans interruption",
-    "service_2_title": "IA conversationnelle",
-    "service_2_subtitle": "Chatbots et agents vocaux qui qualifient vos leads sans relâche",
-    "service_2_bullet_1": "Widget de chat IA sur votre site",
-    "service_2_bullet_2": "Agents vocaux IA pour les appels entrants",
-    "service_2_bullet_3": "Prise de rendez-vous en pilote automatique",
-    "service_2_bullet_4": "Gestion des FAQ et qualification des leads",
-    "service_2_bullet_5": "Langage naturel, pas robotique",
-    "service_3_title": "Automatisation des workflows",
-    "service_3_subtitle": "Reliez tous vos outils en un seul système qui tourne tout seul",
-    "service_3_bullet_1": "CRM, agenda et paiements reliés",
-    "service_3_bullet_2": "Intégrations sur mesure (sans la taxe Zapier)",
-    "service_3_bullet_3": "Logique de décision IA intégrée",
-    "service_3_bullet_4": "Gestion des erreurs et relances automatiques",
-    "service_3_bullet_5": "Onboarding client automatisé",
-    "service_4_title": "Systèmes de contenu IA",
-    "service_4_subtitle": "Une seule source devient 10 contenus",
-    "service_4_bullet_1": "De la vidéo aux clips, sous-titres et posts",
-    "service_4_bullet_2": "Génération d'articles à partir de transcriptions",
-    "service_4_bullet_3": "Pipeline de programmation sur les réseaux",
-    "service_4_bullet_4": "Cohérence de la voix de marque grâce à l'IA",
-    "service_4_bullet_5": "Réutilisation multiplateforme",
-    "service_5_title": "Tableaux de bord clients",
-    "service_5_subtitle": "Des portails en temps réel pour que vos clients n'aient plus à demander où ça en est",
-    "service_5_bullet_1": "Suivi des leads et du pipeline en direct",
-    "service_5_bullet_2": "Dépenses pub et ROAS en temps réel",
-    "service_5_bullet_3": "Rapports hebdomadaires envoyés automatiquement",
-    "service_5_bullet_4": "Widgets KPI personnalisés par client",
-    "service_5_bullet_5": "En marque blanche, à vos couleurs",
     "service_6_title": "Sites web",
     "service_6_subtitle": "Des sites sur mesure, pensés pour convertir",
     "service_6_bullet_1": "Développement Next.js / React",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "Responsive, mobile d'abord",
     "service_6_bullet_4": "Intégration CMS",
     "service_6_bullet_5": "Optimisation des performances et de la vitesse",
-    "service_7_title": "Branding",
-    "service_7_subtitle": "Des identités visuelles audacieuses qui se démarquent",
-    "service_7_bullet_1": "Création de logo et de marque",
-    "service_7_bullet_2": "Palette de couleurs et typographie",
-    "service_7_bullet_3": "Charte graphique",
-    "service_7_bullet_4": "Templates pour les réseaux sociaux",
-    "service_7_bullet_5": "Conception de pitch deck",
-    "service_8_title": "Google Ads",
-    "service_8_subtitle": "Des campagnes search pour des acheteurs à forte intention",
-    "service_8_bullet_1": "Recherche de mots-clés et stratégie",
-    "service_8_bullet_2": "Rédaction d'annonces et landing pages",
-    "service_8_bullet_3": "Suivi des conversions",
-    "service_8_bullet_4": "Optimisation mensuelle",
-    "service_8_bullet_5": "Analyse de la concurrence",
-    "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook et Instagram à grande échelle",
-    "service_9_bullet_1": "Ciblage d'audiences et audiences similaires",
-    "service_9_bullet_2": "Création visuelle et rédaction",
-    "service_9_bullet_3": "Tunnels de retargeting",
-    "service_9_bullet_4": "Rapports de ROAS",
-    "service_9_bullet_5": "Tests A/B des créations",
     "process_title": "Notre processus",
     "step_1_title": "Découverte",
     "step_1_desc": "Nous cernons vos objectifs, votre audience et votre marché avant de dessiner quoi que ce soit.",
@@ -667,10 +589,6 @@
     "q_services_sub": "Plusieurs choix possibles.",
     "q_budget_project": "Quel est votre budget pour ce projet ?",
     "q_budget_project_sub": "Une idée approximative suffit. Cela nous dit simplement quoi proposer.",
-    "q_budget_ads": "Combien pourriez-vous investir en publicité chaque mois ?",
-    "q_budget_ads_sub": "Uniquement le budget publicitaire. Notre gestion représente 15 % de ce montant, plus une mise en place unique. Un ordre de grandeur suffit.",
-    "q_budget_monthly": "Quel est votre budget mensuel ?",
-    "q_budget_monthly_sub": "Environ ce que vous y consacreriez chaque mois. Un ordre de grandeur suffit.",
     "q_timeline": "Quand souhaitez-vous commencer ?",
     "q_contact": "Dernière étape. Comment vous joindre ?",
     "q_contact_sub": "Ensuite vous choisissez un créneau. Nous répondons sous une heure aux heures ouvrées.",
@@ -717,9 +635,6 @@
       "website_redesign": "Refonte du site",
       "e_commerce": "E-commerce",
       "landing_page": "Landing page",
-      "google_ads": "Google Ads",
-      "meta_ads": "Meta Ads",
-      "social_media": "Réseaux sociaux",
       "not_sure_yet": "Je ne sais pas encore"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount}+",
         "hint": "E-commerce, ou plus grand"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "Environ {amount} / mois",
-        "hint": "Un canal, géré"
-      },
-      "1": {
-        "label": "{from} – {to} / mois",
-        "hint": "Un canal avec vidéo régulière, ou deux canaux"
-      },
-      "2": {
-        "label": "{from} – {to} / mois",
-        "hint": "Deux ou trois canaux avec vidéo"
-      },
-      "3": {
-        "label": "{amount}+ / mois",
-        "hint": "Plusieurs canaux, beaucoup de vidéo"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "Moins de {amount} / mois de budget pub",
-        "hint": "Premiers tests"
-      },
-      "1": {
-        "label": "{from} – {to} / mois de budget pub",
-        "hint": "Une plateforme, bien gérée"
-      },
-      "2": {
-        "label": "{from} – {to} / mois de budget pub",
-        "hint": "Les deux plateformes, ou montée en puissance sur une seule"
-      },
-      "3": {
-        "label": "{amount}+ / mois de budget pub",
-        "hint": "Gros volume"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "Moins de {amount} / mois",
-        "hint": "Pour démarrer"
-      },
-      "1": {
-        "label": "{from} – {to} / mois",
-        "hint": "Un canal ou une plateforme, bien géré"
-      },
-      "2": {
-        "label": "{from} – {to} / mois",
-        "hint": "Plusieurs en parallèle"
-      },
-      "3": {
-        "label": "{amount}+ / mois",
-        "hint": "Forte montée en charge"
       }
     },
     "meta_title": "Là où votre entreprise perd des clients",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "Une page, une offre",
         "detail": "Ce que nous construisons le plus vite. Une seule page pour une audience, avec le tracking connecté pour voir ce qu'elle rapporte."
-      },
-      "search_ads": {
-        "title": "Être là au moment de l'intention",
-        "detail": "Des campagnes construites et pilotées sur les missions signées, pas sur les clics. En recherche, les gens savent déjà ce qu'ils veulent."
-      },
-      "social_ads": {
-        "title": "Arriver avant la concurrence",
-        "detail": "Des campagnes Facebook et Instagram qui placent votre offre devant les bonnes personnes avant un concurrent."
-      },
-      "social": {
-        "title": "Du social qui mène quelque part",
-        "detail": "Clips, sous-titres et publications tirés de vos rushes existants, pensés pour amener les gens sur le site plutôt que remplir un fil."
       },
       "booking": {
         "title": "Réservation et paiement sur le site",

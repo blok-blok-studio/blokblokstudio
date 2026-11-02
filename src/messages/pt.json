@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "Você já está inscrito",
     "newsletter_consent": "Ao se inscrever, você concorda com a nossa <link>Política de Privacidade</link>. Cancele a qualquer momento.",
     "tab_all": "Todos",
-    "tab_ai": "IA e Automação",
-    "tab_creative": "Criação e Marketing",
     "audit_badge": "Gratuito, 15 minutos",
     "audit_heading": "Não tem certeza do que seu negócio precisa?",
     "audit_subheading": "Agende uma conversa estratégica gratuita. Vamos analisar o seu negócio e mostrar exatamente onde estão as maiores oportunidades.",
@@ -129,16 +127,6 @@
     "v2_about_link": "Sobre o estúdio",
     "v2_services_label": "O que fazemos",
     "v2_services_link": "Todos os serviços",
-    "v2_service_1_title": "Sites personalizados em Next.js",
-    "v2_service_1_detail": "Front-ends em React feitos à mão, sem construtores de páginas, sem temas. Rápidos em qualquer dispositivo e fáceis de ampliar depois.",
-    "v2_service_2_title": "Design focado em conversão",
-    "v2_service_2_detail": "Cada página é organizada em torno de uma ação: agendar, comprar ou ligar. Texto, hierarquia e provas apontam todos na mesma direção.",
-    "v2_service_3_title": "SEO desde o primeiro dia",
-    "v2_service_3_detail": "SEO técnico, dados estruturados e busca local incorporados à construção, não acrescentados depois do lançamento.",
-    "v2_service_4_title": "E-commerce",
-    "v2_service_4_detail": "Lojas Shopify e headless com envio, captura de e-mails e mecânica de lançamentos configurados de ponta a ponta.",
-    "v2_service_5_title": "Manutenção e desempenho",
-    "v2_service_5_detail": "Hospedagem, monitoramento, ajustes de velocidade e atualizações de conteúdo depois do lançamento, para que o site continue rendendo.",
     "v2_work_label": "Trabalhos selecionados",
     "v2_work_link": "Todos os projetos",
     "v2_result_coach_luki": "Clientes agendam e pagam pelo site. O SEO local traz quem busca em Berlim.",
@@ -169,12 +157,6 @@
     "v2_close_menu": "Fechar menu",
     "v2_rights": "Todos os direitos reservados.",
     "v2_services_sub": "Um pacote, feito como deve ser. Projetamos e construímos o site, depois hospedamos e mantemos tudo funcionando.",
-    "v2_group_1": "Sites e marca",
-    "v2_group_1_detail": "Design e construção, e depois a identidade que acompanha.",
-    "v2_group_2": "Crescimento pago",
-    "v2_group_2_detail": "Campanhas de busca e redes sociais que alimentam o site que construímos.",
-    "v2_group_3": "IA e automação",
-    "v2_group_3_detail": "Agentes, chat, fluxos de trabalho e painéis que tocam a parte administrativa do negócio.",
     "v2_quiz_label": "Não sabe por onde começar?",
     "v2_quiz_title": "Descubra onde o seu negócio está perdendo clientes.",
     "v2_quiz_sub": "Cinco perguntas rápidas. Mostramos o que corrigiríamos primeiro e depois você escolhe um horário para conversar. Leva cerca de um minuto.",
@@ -238,8 +220,6 @@
     "filter_all": "Todos",
     "filter_web": "Web Design",
     "filter_brand": "Branding",
-    "filter_app": "Desenvolvimento de Apps",
-    "filter_marketing": "Marketing",
     "view_project": "Ver Projeto",
     "cat_web": "Web Design",
     "cat_ecom": "E-commerce",
@@ -344,43 +324,6 @@
   "services": {
     "title": "Nossos Serviços",
     "subtitle": "Design e desenvolvimento de sites personalizados, construídos para conquistar clientes e depois hospedados e mantidos no ar.",
-    "section_ai_title": "IA e Automação",
-    "section_creative_title": "Criação e Marketing",
-    "service_1_title": "Ecossistemas de Agentes de IA",
-    "service_1_subtitle": "Subagentes interligados que executam fluxos de trabalho inteiros",
-    "service_1_bullet_1": "Orquestração de múltiplos agentes",
-    "service_1_bullet_2": "Do lead à pontuação, ao e-mail, ao SMS e à ligação",
-    "service_1_bullet_3": "Tomada de decisão autônoma",
-    "service_1_bullet_4": "Escalonamento para humanos quando necessário",
-    "service_1_bullet_5": "Operação 24/7 sem interrupções",
-    "service_2_title": "IA Conversacional",
-    "service_2_subtitle": "Chatbots e agentes de voz que qualificam leads sem parar",
-    "service_2_bullet_1": "Widget de chat com IA para o site",
-    "service_2_bullet_2": "Agentes de voz com IA para chamadas recebidas",
-    "service_2_bullet_3": "Agendamento de compromissos no piloto automático",
-    "service_2_bullet_4": "Respostas a perguntas frequentes e qualificação de leads",
-    "service_2_bullet_5": "Linguagem natural, nada robótica",
-    "service_3_title": "Automação de Fluxos de Trabalho",
-    "service_3_subtitle": "Conecte todas as ferramentas em um sistema que funciona sozinho",
-    "service_3_bullet_1": "CRM, agenda e pagamentos conectados",
-    "service_3_bullet_2": "Integrações personalizadas (sem a taxa do Zapier)",
-    "service_3_bullet_3": "Lógica de decisão com IA no fluxo",
-    "service_3_bullet_4": "Tratamento de erros e fluxos de repetição",
-    "service_3_bullet_5": "Automação do onboarding de clientes",
-    "service_4_title": "Sistemas de Conteúdo com IA",
-    "service_4_subtitle": "Uma entrada vira 10 peças de conteúdo",
-    "service_4_bullet_1": "De vídeo a clipes, legendas e posts",
-    "service_4_bullet_2": "Geração de artigos de blog a partir de transcrições",
-    "service_4_bullet_3": "Pipeline de agendamento para redes sociais",
-    "service_4_bullet_4": "Consistência da voz da marca via IA",
-    "service_4_bullet_5": "Reaproveitamento entre plataformas",
-    "service_5_title": "Painéis para Clientes",
-    "service_5_subtitle": "Portais em tempo real para que os clientes nunca precisem pedir atualizações",
-    "service_5_bullet_1": "Acompanhamento ao vivo de leads e pipeline",
-    "service_5_bullet_2": "Gasto com anúncios e ROAS em tempo real",
-    "service_5_bullet_3": "E-mails de relatório semanal automatizados",
-    "service_5_bullet_4": "Widgets de KPI personalizados por cliente",
-    "service_5_bullet_5": "Com a identidade da sua marca (white label)",
     "service_6_title": "Sites",
     "service_6_subtitle": "Sites personalizados e focados em conversão",
     "service_6_bullet_1": "Desenvolvimento em Next.js / React",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "Responsivo e mobile-first",
     "service_6_bullet_4": "Integração com CMS",
     "service_6_bullet_5": "Ajustes de desempenho e velocidade",
-    "service_7_title": "Branding",
-    "service_7_subtitle": "Identidades visuais ousadas que se destacam",
-    "service_7_bullet_1": "Design de logo e símbolo da marca",
-    "service_7_bullet_2": "Paleta de cores e tipografia",
-    "service_7_bullet_3": "Manual de identidade da marca",
-    "service_7_bullet_4": "Templates para redes sociais",
-    "service_7_bullet_5": "Design de pitch deck",
-    "service_8_title": "Google Ads",
-    "service_8_subtitle": "Campanhas de busca para compradores com alta intenção",
-    "service_8_bullet_1": "Pesquisa de palavras-chave e estratégia",
-    "service_8_bullet_2": "Textos de anúncios e landing pages",
-    "service_8_bullet_3": "Rastreamento de conversões",
-    "service_8_bullet_4": "Otimização mensal",
-    "service_8_bullet_5": "Análise da concorrência",
-    "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook e Instagram em escala",
-    "service_9_bullet_1": "Segmentação de públicos e públicos semelhantes",
-    "service_9_bullet_2": "Design de criativos e textos",
-    "service_9_bullet_3": "Funis de retargeting",
-    "service_9_bullet_4": "Relatórios de ROAS",
-    "service_9_bullet_5": "Testes A/B de criativos",
     "process_title": "Nosso Processo",
     "step_1_title": "Descoberta",
     "step_1_desc": "Entendemos os seus objetivos, público e mercado antes de desenhar qualquer coisa.",
@@ -667,10 +589,6 @@
     "q_services_sub": "Marque tudo o que se aplica.",
     "q_budget_project": "Qual é o seu orçamento para este projeto?",
     "q_budget_project_sub": "Uma ideia aproximada já basta. Serve só para sabermos o que sugerir.",
-    "q_budget_ads": "Quanto você poderia investir em anúncios por mês?",
-    "q_budget_ads_sub": "Só o investimento em mídia. Nossa gestão é 15% desse valor, mais uma configuração inicial única. Uma estimativa já basta.",
-    "q_budget_monthly": "Qual é o seu orçamento mensal?",
-    "q_budget_monthly_sub": "Mais ou menos o que você investiria por mês. Uma estimativa já basta.",
     "q_timeline": "Quando você quer começar?",
     "q_contact": "Último passo. Como falamos com você?",
     "q_contact_sub": "Depois, você escolhe um horário. Respondemos em até uma hora em horário comercial.",
@@ -717,9 +635,6 @@
       "website_redesign": "Redesign do site",
       "e_commerce": "E-commerce",
       "landing_page": "Landing page",
-      "google_ads": "Google Ads",
-      "meta_ads": "Meta Ads",
-      "social_media": "Redes sociais",
       "not_sure_yet": "Ainda não sei"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount}+",
         "hint": "E-commerce ou algo maior"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "Cerca de {amount} / mês",
-        "hint": "Um canal, gerenciado"
-      },
-      "1": {
-        "label": "{from} – {to} / mês",
-        "hint": "Um canal com vídeo regular, ou dois canais"
-      },
-      "2": {
-        "label": "{from} – {to} / mês",
-        "hint": "Dois ou três canais com vídeo"
-      },
-      "3": {
-        "label": "{amount}+ / mês",
-        "hint": "Vários canais, com muito vídeo"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "Menos de {amount} / mês em anúncios",
-        "hint": "Primeiros testes"
-      },
-      "1": {
-        "label": "{from} – {to} / mês em anúncios",
-        "hint": "Uma plataforma, bem gerenciada"
-      },
-      "2": {
-        "label": "{from} – {to} / mês em anúncios",
-        "hint": "As duas plataformas, ou escalando uma"
-      },
-      "3": {
-        "label": "{amount}+ / mês em anúncios",
-        "hint": "Volume sério"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "Menos de {amount} / mês",
-        "hint": "Começando"
-      },
-      "1": {
-        "label": "{from} – {to} / mês",
-        "hint": "Um canal ou plataforma, bem gerenciado"
-      },
-      "2": {
-        "label": "{from} – {to} / mês",
-        "hint": "Vários rodando ao mesmo tempo"
-      },
-      "3": {
-        "label": "{amount}+ / mês",
-        "hint": "Escalando com força"
       }
     },
     "meta_title": "Onde o seu negócio perde clientes",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "Uma página, uma oferta",
         "detail": "O mais rápido que construímos. Uma única página voltada a um público, com o rastreamento conectado para você ver o que ela rende."
-      },
-      "search_ads": {
-        "title": "Aparecer no momento da intenção",
-        "detail": "Campanhas criadas e gerenciadas com foco em serviços fechados, não em cliques. Na busca, as pessoas já sabem o que querem."
-      },
-      "social_ads": {
-        "title": "Chegue primeiro até eles",
-        "detail": "Campanhas no Facebook e no Instagram que colocam a oferta na frente das pessoas certas antes da concorrência."
-      },
-      "social": {
-        "title": "Redes sociais que levam a algum lugar",
-        "detail": "Cortes, legendas e posts feitos a partir do material que você já tem, pensados para levar as pessoas ao site em vez de só encher um feed."
       },
       "booking": {
         "title": "Agendamento e pagamento no site",

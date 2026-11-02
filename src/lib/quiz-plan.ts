@@ -77,9 +77,6 @@ const WORK: Record<string, string> = {
   'Website redesign': 'redesign',
   'E-commerce': 'shop',
   'Landing page': 'landing',
-  'Google Ads': 'search_ads',
-  'Meta Ads': 'social_ads',
-  'Social media': 'social',
 };
 
 /** Fallback when someone picks "Not sure yet", keyed loosely off their industry. */

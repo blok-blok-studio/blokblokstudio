@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "すでに登録されています",
     "newsletter_consent": "登録することで、<link>プライバシーポリシー</link>に同意したものとみなされます。いつでも配信停止できます。",
     "tab_all": "すべて",
-    "tab_ai": "AIと自動化",
-    "tab_creative": "クリエイティブとマーケティング",
     "audit_badge": "無料・15分",
     "audit_heading": "ビジネスに何が必要か、迷っていませんか？",
     "audit_subheading": "無料の戦略相談をご予約ください。ビジネスを拝見し、最大のチャンスがどこにあるかを具体的にお見せします。",
@@ -129,16 +127,6 @@
     "v2_about_link": "スタジオについて",
     "v2_services_label": "私たちの仕事",
     "v2_services_link": "すべてのサービス",
-    "v2_service_1_title": "Next.jsによるカスタム構築",
-    "v2_service_1_detail": "ページビルダーもテーマも使わず、Reactのフロントエンドを手作業で構築します。あらゆる端末で高速に動作し、後からの拡張も容易です。",
-    "v2_service_2_title": "コンバージョン重視のデザイン",
-    "v2_service_2_detail": "すべてのページを、予約、購入、電話のいずれかひとつの行動に向けて設計します。コピー、情報の優先順位、実績の見せ方が同じ方向を指します。",
-    "v2_service_3_title": "初日からのSEO",
-    "v2_service_3_detail": "テクニカルSEO、構造化データ、ローカル検索対策を構築段階から組み込みます。公開後に後付けするものではありません。",
-    "v2_service_4_title": "Eコマース",
-    "v2_service_4_detail": "Shopifyやヘッドレスのストアフロントを、配送設定、メール獲得、ドロップ販売の仕組みまで一貫して構築します。",
-    "v2_service_5_title": "保守とパフォーマンス",
-    "v2_service_5_detail": "公開後のホスティング、監視、速度チューニング、コンテンツ更新まで対応し、サイトが成果を出し続ける状態を保ちます。",
     "v2_work_label": "主な実績",
     "v2_work_link": "すべてのプロジェクト",
     "v2_result_coach_luki": "予約と決済がサイト上で完結。ローカルSEOでベルリンの検索ユーザーを集客。",
@@ -169,12 +157,6 @@
     "v2_close_menu": "メニューを閉じる",
     "v2_rights": "無断転載を禁じます。",
     "v2_services_sub": "ひとつのパッケージを、きちんと仕上げます。サイトの設計と構築を行い、その後のホスティングと運用保守まで担います。",
-    "v2_group_1": "ウェブサイトとブランド",
-    "v2_group_1_detail": "設計と構築、そしてそれに合わせたアイデンティティ。",
-    "v2_group_2": "有料集客",
-    "v2_group_2_detail": "構築したサイトに流入を送る、検索広告とSNS広告のキャンペーン。",
-    "v2_group_3": "AIと自動化",
-    "v2_group_3_detail": "バックオフィスを回すエージェント、チャット、ワークフロー、ダッシュボード。",
     "v2_quiz_label": "どこから始めればよいか迷っていますか？",
     "v2_quiz_title": "ビジネスのどこで顧客を逃しているかを突き止める。",
     "v2_quiz_sub": "簡単な5つの質問にお答えください。私たちが最初に直すべき点をお示しし、その後お話しする日時をお選びいただきます。所要時間は約1分です。",
@@ -238,8 +220,6 @@
     "filter_all": "すべて",
     "filter_web": "ウェブデザイン",
     "filter_brand": "ブランディング",
-    "filter_app": "アプリ開発",
-    "filter_marketing": "マーケティング",
     "view_project": "プロジェクトを見る",
     "cat_web": "ウェブデザイン",
     "cat_ecom": "Eコマース",
@@ -344,43 +324,6 @@
   "services": {
     "title": "サービス",
     "subtitle": "顧客を獲得するためのカスタムウェブサイトのデザインと開発。公開後はホスティングと運用保守まで担います。",
-    "section_ai_title": "AIと自動化",
-    "section_creative_title": "クリエイティブとマーケティング",
-    "service_1_title": "AIエージェント・エコシステム",
-    "service_1_subtitle": "ワークフロー全体を動かす、相互連携したサブエージェント",
-    "service_1_bullet_1": "マルチエージェントのオーケストレーション",
-    "service_1_bullet_2": "リード獲得からスコアリング、メール、SMS、架電まで",
-    "service_1_bullet_3": "自律的な意思決定",
-    "service_1_bullet_4": "人への引き継ぎ（ヒューマン・イン・ザ・ループ）",
-    "service_1_bullet_5": "ダウンタイムなしの24時間365日稼働",
-    "service_2_title": "会話型AI",
-    "service_2_subtitle": "休みなくリードを見極めるチャットボットと音声エージェント",
-    "service_2_bullet_1": "ウェブサイト用AIチャットウィジェット",
-    "service_2_bullet_2": "受電対応のAI音声エージェント",
-    "service_2_bullet_3": "予約受付の自動化",
-    "service_2_bullet_4": "FAQ対応とリードの見極め",
-    "service_2_bullet_5": "機械的ではない、自然な言葉遣い",
-    "service_3_title": "ワークフロー自動化",
-    "service_3_subtitle": "あらゆるツールをつなぎ、自律的に動くひとつのシステムに",
-    "service_3_bullet_1": "CRM、カレンダー、決済の連携",
-    "service_3_bullet_2": "カスタム連携（Zapierの追加コストなし）",
-    "service_3_bullet_3": "AIによる判断ロジックの組み込み",
-    "service_3_bullet_4": "エラー処理とリトライのフロー",
-    "service_3_bullet_5": "クライアントオンボーディングの自動化",
-    "service_4_title": "AIコンテンツシステム",
-    "service_4_subtitle": "ひとつの素材から10本のコンテンツへ",
-    "service_4_bullet_1": "動画からクリップ、字幕、投稿へ",
-    "service_4_bullet_2": "文字起こしからのブログ生成",
-    "service_4_bullet_3": "SNS投稿のスケジューリング・パイプライン",
-    "service_4_bullet_4": "AIによるブランドボイスの統一",
-    "service_4_bullet_5": "プラットフォーム横断の再活用",
-    "service_5_title": "クライアントダッシュボード",
-    "service_5_subtitle": "クライアントが進捗を尋ねる必要のないリアルタイムポータル",
-    "service_5_bullet_1": "リードとパイプラインのライブ追跡",
-    "service_5_bullet_2": "広告費とROASをリアルタイムで",
-    "service_5_bullet_3": "週次レポートメールの自動送信",
-    "service_5_bullet_4": "クライアントごとのカスタムKPIウィジェット",
-    "service_5_bullet_5": "自社ブランドでのホワイトラベル提供",
     "service_6_title": "ウェブサイト",
     "service_6_subtitle": "カスタム構築の、コンバージョン重視のサイト",
     "service_6_bullet_1": "Next.js / Reactでの構築",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "モバイルファーストのレスポンシブ対応",
     "service_6_bullet_4": "CMS連携",
     "service_6_bullet_5": "パフォーマンスと速度のチューニング",
-    "service_7_title": "ブランディング",
-    "service_7_subtitle": "際立つ、大胆なビジュアルアイデンティティ",
-    "service_7_bullet_1": "ロゴとブランドマークのデザイン",
-    "service_7_bullet_2": "カラーパレットとタイポグラフィ",
-    "service_7_bullet_3": "ブランドガイドライン文書",
-    "service_7_bullet_4": "SNS投稿テンプレート",
-    "service_7_bullet_5": "ピッチデッキのデザイン",
-    "service_8_title": "Google広告",
-    "service_8_subtitle": "購買意欲の高い層に届く検索キャンペーン",
-    "service_8_bullet_1": "キーワード調査と戦略",
-    "service_8_bullet_2": "広告文とランディングページ",
-    "service_8_bullet_3": "コンバージョン計測",
-    "service_8_bullet_4": "月次の最適化",
-    "service_8_bullet_5": "競合分析",
-    "service_9_title": "Meta広告",
-    "service_9_subtitle": "FacebookとInstagramで規模を拡大",
-    "service_9_bullet_1": "オーディエンスと類似ターゲティング",
-    "service_9_bullet_2": "クリエイティブ制作とコピー",
-    "service_9_bullet_3": "リターゲティングのファネル",
-    "service_9_bullet_4": "ROASレポート",
-    "service_9_bullet_5": "クリエイティブのA/Bテスト",
     "process_title": "制作の進め方",
     "step_1_title": "ディスカバリー",
     "step_1_desc": "デザインに入る前に、目標、ターゲット、市場を把握します。",
@@ -667,10 +589,6 @@
     "q_services_sub": "当てはまるものをすべてお選びください。",
     "q_budget_project": "このプロジェクトのご予算は？",
     "q_budget_project_sub": "おおよそで構いません。ご提案内容の目安にするだけです。",
-    "q_budget_ads": "広告費として毎月いくらお使いになれますか？",
-    "q_budget_ads_sub": "広告費のみで結構です。当方の運用費はその15%と初期設定費用です。おおよそで構いません。",
-    "q_budget_monthly": "月々のご予算は？",
-    "q_budget_monthly_sub": "毎月かけられるおおよその金額です。概算で構いません。",
     "q_timeline": "いつ頃から始めたいですか？",
     "q_contact": "最後のステップです。ご連絡先を教えてください。",
     "q_contact_sub": "その後、ご都合の良い時間をお選びいただけます。営業時間内は1時間以内にご返信します。",
@@ -717,9 +635,6 @@
       "website_redesign": "サイトリニューアル",
       "e_commerce": "Eコマース",
       "landing_page": "ランディングページ",
-      "google_ads": "Google広告",
-      "meta_ads": "Meta広告",
-      "social_media": "SNS",
       "not_sure_yet": "まだ決めていない"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount}以上",
         "hint": "Eコマース、またはそれ以上の規模"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "月額{amount}前後",
-        "hint": "1チャンネルの運用"
-      },
-      "1": {
-        "label": "月額{from}〜{to}",
-        "hint": "定期的な動画付きの1チャンネル、または2チャンネル"
-      },
-      "2": {
-        "label": "月額{from}〜{to}",
-        "hint": "動画付きの2〜3チャンネル"
-      },
-      "3": {
-        "label": "月額{amount}以上",
-        "hint": "複数チャンネル、動画中心"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "月額広告費{amount}未満",
-        "hint": "お試し段階"
-      },
-      "1": {
-        "label": "月額広告費{from}〜{to}",
-        "hint": "1媒体をしっかり運用"
-      },
-      "2": {
-        "label": "月額広告費{from}〜{to}",
-        "hint": "両媒体、または1媒体を拡大"
-      },
-      "3": {
-        "label": "月額広告費{amount}以上",
-        "hint": "本格的な規模"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "月額{amount}未満",
-        "hint": "これから始める"
-      },
-      "1": {
-        "label": "月額{from}〜{to}",
-        "hint": "1チャンネルまたは1媒体をしっかり運用"
-      },
-      "2": {
-        "label": "月額{from}〜{to}",
-        "hint": "複数を並行して運用"
-      },
-      "3": {
-        "label": "月額{amount}以上",
-        "hint": "積極的に拡大"
       }
     },
     "meta_title": "あなたのビジネスが顧客を失っている場所",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "1ページ、1オファー",
         "detail": "最も早く作れるものです。ひとつの読者層に向けた1ページに、成果が見えるよう計測を組み込みます。"
-      },
-      "search_ads": {
-        "title": "購入意欲が生まれた瞬間に表示する",
-        "detail": "クリック数ではなく受注を基準に構築・運用する広告。検索では、すでに欲しいものが決まっています。"
-      },
-      "social_ads": {
-        "title": "競合より先に届ける",
-        "detail": "競合より先に、適切な相手へオファーを届けるFacebook・Instagram広告。"
-      },
-      "social": {
-        "title": "行き先のあるSNS運用",
-        "detail": "すでにある素材から切り出したクリップ・字幕・投稿。フィードを埋めるのではなく、サイトへ誘導するために作ります。"
       },
       "booking": {
         "title": "サイト上での予約と決済",

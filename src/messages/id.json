@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "Anda sudah berlangganan",
     "newsletter_consent": "Dengan berlangganan, Anda menyetujui <link>Kebijakan Privasi</link> kami. Berhenti berlangganan kapan saja.",
     "tab_all": "Semua",
-    "tab_ai": "AI & Otomatisasi",
-    "tab_creative": "Kreatif & Pemasaran",
     "audit_badge": "Gratis, 15 menit",
     "audit_heading": "Tidak Yakin Apa yang Dibutuhkan Bisnis Anda?",
     "audit_subheading": "Jadwalkan panggilan strategi gratis. Kami akan meninjau bisnis Anda dan menunjukkan dengan tepat di mana peluang terbesar berada.",
@@ -129,16 +127,6 @@
     "v2_about_link": "Tentang studio",
     "v2_services_label": "Apa yang kami kerjakan",
     "v2_services_link": "Semua layanan",
-    "v2_service_1_title": "Situs Next.js kustom",
-    "v2_service_1_detail": "Front end React yang dibangun manual, tanpa page builder, tanpa tema. Cepat di setiap perangkat dan mudah dikembangkan di kemudian hari.",
-    "v2_service_2_title": "Desain berfokus konversi",
-    "v2_service_2_detail": "Setiap halaman disusun di sekitar satu tindakan: pesan, beli, atau telepon. Naskah, hierarki, dan bukti semuanya mengarah ke tujuan yang sama.",
-    "v2_service_3_title": "SEO sejak hari pertama",
-    "v2_service_3_detail": "SEO teknis, data terstruktur, dan pencarian lokal tertanam dalam build, bukan ditambahkan setelah peluncuran.",
-    "v2_service_4_title": "E-commerce",
-    "v2_service_4_detail": "Toko Shopify dan headless dengan pengiriman, penangkapan email, dan mekanisme drop yang dikonfigurasi dari awal sampai akhir.",
-    "v2_service_5_title": "Perawatan dan performa",
-    "v2_service_5_detail": "Hosting, pemantauan, penyetelan kecepatan, dan pembaruan konten setelah peluncuran, agar situs terus menghasilkan.",
     "v2_work_label": "Karya pilihan",
     "v2_work_link": "Semua proyek",
     "v2_result_coach_luki": "Klien memesan dan membayar lewat situs. SEO lokal mendatangkan pencari dari Berlin.",
@@ -169,12 +157,6 @@
     "v2_close_menu": "Tutup menu",
     "v2_rights": "Hak cipta dilindungi.",
     "v2_services_sub": "Satu paket, dikerjakan dengan benar. Kami mendesain dan membangun situs, lalu meng-host dan menjaganya tetap berjalan.",
-    "v2_group_1": "Situs web dan merek",
-    "v2_group_1_detail": "Desain dan pengerjaan, lalu identitas yang menyertainya.",
-    "v2_group_2": "Pertumbuhan berbayar",
-    "v2_group_2_detail": "Kampanye pencarian dan media sosial yang mengalirkan pengunjung ke situs yang kami bangun.",
-    "v2_group_3": "AI dan otomatisasi",
-    "v2_group_3_detail": "Agen, chat, alur kerja, dan dasbor yang menjalankan back office Anda.",
     "v2_quiz_label": "Belum tahu harus mulai dari mana?",
     "v2_quiz_title": "Cari tahu di mana bisnis Anda kehilangan pelanggan.",
     "v2_quiz_sub": "Lima pertanyaan singkat. Kami tunjukkan apa yang akan kami perbaiki lebih dulu, lalu Anda pilih waktu untuk bicara. Sekitar satu menit.",
@@ -238,8 +220,6 @@
     "filter_all": "Semua",
     "filter_web": "Desain Web",
     "filter_brand": "Branding",
-    "filter_app": "Pengembangan Aplikasi",
-    "filter_marketing": "Pemasaran",
     "view_project": "Lihat Proyek",
     "cat_web": "Desain Web",
     "cat_ecom": "E-commerce",
@@ -344,43 +324,6 @@
   "services": {
     "title": "Layanan Kami",
     "subtitle": "Desain dan pengembangan situs web kustom, dibangun untuk memenangkan pelanggan, lalu di-host dan dijaga tetap berjalan.",
-    "section_ai_title": "AI & Otomatisasi",
-    "section_creative_title": "Kreatif & Pemasaran",
-    "service_1_title": "Ekosistem Agen AI",
-    "service_1_subtitle": "Sub-agen yang saling terhubung dan menjalankan seluruh alur kerja",
-    "service_1_bullet_1": "Orkestrasi multi-agen",
-    "service_1_bullet_2": "Dari prospek ke skor, email, SMS, lalu panggilan",
-    "service_1_bullet_3": "Pengambilan keputusan otonom",
-    "service_1_bullet_4": "Eskalasi ke manusia bila diperlukan",
-    "service_1_bullet_5": "Beroperasi 24/7 tanpa henti",
-    "service_2_title": "AI Percakapan",
-    "service_2_subtitle": "Chatbot dan voice agent yang mengkualifikasi prospek tanpa henti",
-    "service_2_bullet_1": "Widget chat AI di situs web",
-    "service_2_bullet_2": "Voice agent AI untuk panggilan masuk",
-    "service_2_bullet_3": "Penjadwalan janji temu otomatis",
-    "service_2_bullet_4": "Penanganan FAQ dan kualifikasi prospek",
-    "service_2_bullet_5": "Bahasa alami, bukan robotik",
-    "service_3_title": "Otomatisasi Alur Kerja",
-    "service_3_subtitle": "Hubungkan setiap alat menjadi satu sistem yang berjalan sendiri",
-    "service_3_bullet_1": "CRM, kalender, dan pembayaran terhubung",
-    "service_3_bullet_2": "Integrasi kustom (tanpa biaya perantara Zapier)",
-    "service_3_bullet_3": "Logika keputusan AI di dalam alur",
-    "service_3_bullet_4": "Penanganan kesalahan dan alur coba ulang",
-    "service_3_bullet_5": "Otomatisasi onboarding klien",
-    "service_4_title": "Sistem Konten AI",
-    "service_4_subtitle": "Satu masukan menjadi 10 konten",
-    "service_4_bullet_1": "Video menjadi klip, caption, dan unggahan",
-    "service_4_bullet_2": "Pembuatan blog dari transkrip",
-    "service_4_bullet_3": "Pipeline penjadwalan media sosial",
-    "service_4_bullet_4": "Konsistensi suara merek via AI",
-    "service_4_bullet_5": "Daur ulang konten lintas platform",
-    "service_5_title": "Dasbor Klien",
-    "service_5_subtitle": "Portal waktu nyata agar klien tidak perlu lagi menanyakan progres",
-    "service_5_bullet_1": "Pelacakan prospek dan pipeline secara langsung",
-    "service_5_bullet_2": "Belanja iklan dan ROAS secara waktu nyata",
-    "service_5_bullet_3": "Email laporan mingguan otomatis",
-    "service_5_bullet_4": "Widget KPI kustom per klien",
-    "service_5_bullet_5": "White label untuk merek Anda",
     "service_6_title": "Situs Web",
     "service_6_subtitle": "Situs yang dibangun kustom dan berfokus pada konversi",
     "service_6_bullet_1": "Pengembangan Next.js / React",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "Responsif mobile-first",
     "service_6_bullet_4": "Integrasi CMS",
     "service_6_bullet_5": "Penyetelan performa dan kecepatan",
-    "service_7_title": "Branding",
-    "service_7_subtitle": "Identitas visual berani yang menonjol",
-    "service_7_bullet_1": "Desain logo dan brand mark",
-    "service_7_bullet_2": "Palet warna dan tipografi",
-    "service_7_bullet_3": "Dokumen panduan merek",
-    "service_7_bullet_4": "Template media sosial",
-    "service_7_bullet_5": "Desain pitch deck",
-    "service_8_title": "Google Ads",
-    "service_8_subtitle": "Kampanye pencarian untuk pembeli yang siap bertransaksi",
-    "service_8_bullet_1": "Riset kata kunci dan strategi",
-    "service_8_bullet_2": "Naskah iklan dan landing page",
-    "service_8_bullet_3": "Pelacakan konversi",
-    "service_8_bullet_4": "Optimasi bulanan",
-    "service_8_bullet_5": "Analisis kompetitor",
-    "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook dan Instagram dalam skala besar",
-    "service_9_bullet_1": "Penargetan audiens dan lookalike",
-    "service_9_bullet_2": "Desain kreatif dan naskah iklan",
-    "service_9_bullet_3": "Funnel retargeting",
-    "service_9_bullet_4": "Pelaporan ROAS",
-    "service_9_bullet_5": "Uji A/B materi kreatif",
     "process_title": "Proses Kami",
     "step_1_title": "Eksplorasi",
     "step_1_desc": "Kami mempelajari tujuan, audiens, dan pasar Anda sebelum ada yang didesain.",
@@ -667,10 +589,6 @@
     "q_services_sub": "Pilih semua yang sesuai.",
     "q_budget_project": "Berapa anggaran Anda untuk proyek ini?",
     "q_budget_project_sub": "Perkiraan kasar sudah cukup. Ini hanya membantu kami menyarankan opsi yang tepat.",
-    "q_budget_ads": "Berapa yang bisa Anda keluarkan untuk iklan per bulan?",
-    "q_budget_ads_sub": "Hanya biaya iklannya. Biaya pengelolaan kami 15% dari jumlah itu, ditambah biaya penyiapan sekali bayar. Perkiraan sudah cukup.",
-    "q_budget_monthly": "Berapa anggaran bulanan Anda?",
-    "q_budget_monthly_sub": "Kira-kira berapa yang akan Anda keluarkan tiap bulan. Perkiraan sudah cukup.",
     "q_timeline": "Seberapa cepat Anda ingin mulai?",
     "q_contact": "Langkah terakhir. Bagaimana kami menghubungi Anda?",
     "q_contact_sub": "Setelah itu Anda pilih waktunya. Kami membalas dalam satu jam pada jam kerja.",
@@ -717,9 +635,6 @@
       "website_redesign": "Desain ulang situs web",
       "e_commerce": "Toko online (e-commerce)",
       "landing_page": "Landing page",
-      "google_ads": "Google Ads",
-      "meta_ads": "Meta Ads",
-      "social_media": "Media sosial",
       "not_sure_yet": "Belum yakin"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount}+",
         "hint": "E-commerce, atau yang lebih besar"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "Sekitar {amount} / bulan",
-        "hint": "Satu kanal, dikelola"
-      },
-      "1": {
-        "label": "{from} – {to} / bulan",
-        "hint": "Satu kanal dengan video rutin, atau dua kanal"
-      },
-      "2": {
-        "label": "{from} – {to} / bulan",
-        "hint": "Dua atau tiga kanal dengan video"
-      },
-      "3": {
-        "label": "{amount}+ / bulan",
-        "hint": "Beberapa kanal, banyak video"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "Di bawah {amount} / bulan biaya iklan",
-        "hint": "Uji coba awal"
-      },
-      "1": {
-        "label": "{from} – {to} / bulan biaya iklan",
-        "hint": "Satu platform, dikelola dengan benar"
-      },
-      "2": {
-        "label": "{from} – {to} / bulan biaya iklan",
-        "hint": "Kedua platform, atau meningkatkan skala salah satunya"
-      },
-      "3": {
-        "label": "{amount}+ / bulan biaya iklan",
-        "hint": "Volume besar"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "Di bawah {amount} / bulan",
-        "hint": "Baru mulai"
-      },
-      "1": {
-        "label": "{from} – {to} / bulan",
-        "hint": "Satu kanal atau platform, dikelola dengan benar"
-      },
-      "2": {
-        "label": "{from} – {to} / bulan",
-        "hint": "Beberapa berjalan bersamaan"
-      },
-      "3": {
-        "label": "{amount}+ / bulan",
-        "hint": "Ekspansi agresif"
       }
     },
     "meta_title": "Di Mana Bisnis Anda Kehilangan Pelanggan",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "Satu halaman, satu penawaran",
         "detail": "Yang paling cepat kami buat. Satu halaman untuk satu audiens, dengan pelacakan terpasang agar Anda melihat hasilnya."
-      },
-      "search_ads": {
-        "title": "Hadir di saat niat muncul",
-        "detail": "Kampanye yang dibangun dan dikelola untuk pekerjaan yang masuk, bukan klik. Di pencarian, orang sudah tahu apa yang mereka mau."
-      },
-      "social_ads": {
-        "title": "Jangkau mereka lebih dulu",
-        "detail": "Kampanye Facebook dan Instagram yang menempatkan penawaran Anda di depan orang yang tepat sebelum pesaing melakukannya."
-      },
-      "social": {
-        "title": "Media sosial yang mengarah ke suatu tempat",
-        "detail": "Klip, caption, dan unggahan dari rekaman yang sudah Anda miliki, dibuat untuk membawa orang ke situs, bukan sekadar mengisi linimasa."
       },
       "booking": {
         "title": "Pemesanan dan pembayaran di situs",

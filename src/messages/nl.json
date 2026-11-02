@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "Je bent al ingeschreven",
     "newsletter_consent": "Door je in te schrijven ga je akkoord met onze <link>Privacyverklaring</link>. Uitschrijven kan altijd.",
     "tab_all": "Alles",
-    "tab_ai": "AI en automatisering",
-    "tab_creative": "Creatie en marketing",
     "audit_badge": "Gratis, 15 minuten",
     "audit_heading": "Niet zeker wat je bedrijf nodig heeft?",
     "audit_subheading": "Plan een gratis strategiegesprek. We bekijken je bedrijf en laten je precies zien waar de grootste kansen liggen.",
@@ -129,16 +127,6 @@
     "v2_about_link": "Over de studio",
     "v2_services_label": "Wat we doen",
     "v2_services_link": "Alle diensten",
-    "v2_service_1_title": "Maatwerk Next.js-builds",
-    "v2_service_1_detail": "Handgebouwde React-front-ends, geen page builders, geen thema's. Snel op elk apparaat en later makkelijk uit te breiden.",
-    "v2_service_2_title": "Design gericht op conversie",
-    "v2_service_2_detail": "Elke pagina is opgebouwd rond één actie: boeken, kopen of bellen. Tekst, hiërarchie en bewijs wijzen allemaal dezelfde kant op.",
-    "v2_service_3_title": "SEO vanaf dag één",
-    "v2_service_3_detail": "Technische SEO, gestructureerde data en lokale vindbaarheid zitten in de build ingebakken, niet achteraf erop geplakt.",
-    "v2_service_4_title": "E-commerce",
-    "v2_service_4_detail": "Shopify- en headless webshops met verzending, e-mailcapture en drop-mechanieken van begin tot eind ingericht.",
-    "v2_service_5_title": "Onderhoud en performance",
-    "v2_service_5_detail": "Hosting, monitoring, snelheidsoptimalisatie en contentupdates na de lancering, zodat de site blijft opleveren.",
     "v2_work_label": "Geselecteerd werk",
     "v2_work_link": "Alle projecten",
     "v2_result_coach_luki": "Klanten boeken en betalen via de site. Lokale SEO brengt zoekers uit Berlijn binnen.",
@@ -169,12 +157,6 @@
     "v2_close_menu": "Menu sluiten",
     "v2_rights": "Alle rechten voorbehouden.",
     "v2_services_sub": "Eén pakket, zoals het hoort. Wij ontwerpen en bouwen de site, hosten hem en houden hem draaiend.",
-    "v2_group_1": "Websites en merk",
-    "v2_group_1_detail": "Ontwerp en bouw, plus de identiteit die erbij hoort.",
-    "v2_group_2": "Betaalde groei",
-    "v2_group_2_detail": "Zoek- en socialcampagnes die bezoekers sturen naar de site die wij bouwden.",
-    "v2_group_3": "AI en automatisering",
-    "v2_group_3_detail": "Agents, chat, workflows en dashboards die de backoffice draaiende houden.",
     "v2_quiz_label": "Weet je niet waar je moet beginnen?",
     "v2_quiz_title": "Ontdek waar je bedrijf klanten verliest.",
     "v2_quiz_sub": "Vijf korte vragen. We laten zien wat wij als eerste zouden aanpakken, daarna kies je een moment om te praten. Ongeveer een minuut.",
@@ -238,8 +220,6 @@
     "filter_all": "Alles",
     "filter_web": "Webdesign",
     "filter_brand": "Branding",
-    "filter_app": "App-ontwikkeling",
-    "filter_marketing": "Marketing",
     "view_project": "Bekijk project",
     "cat_web": "Webdesign",
     "cat_ecom": "E-commerce",
@@ -344,43 +324,6 @@
   "services": {
     "title": "Onze diensten",
     "subtitle": "Maatwerk webdesign en development, gebouwd om klanten te winnen, daarna gehost en draaiend gehouden.",
-    "section_ai_title": "AI en automatisering",
-    "section_creative_title": "Creatie en marketing",
-    "service_1_title": "AI-agent-ecosystemen",
-    "service_1_subtitle": "Gekoppelde sub-agents die complete workflows draaien",
-    "service_1_bullet_1": "Orkestratie van meerdere agents",
-    "service_1_bullet_2": "Van lead naar score naar e-mail naar sms naar telefoontje",
-    "service_1_bullet_3": "Autonome besluitvorming",
-    "service_1_bullet_4": "Escalatie naar een mens waar nodig",
-    "service_1_bullet_5": "24/7 in bedrijf, zonder downtime",
-    "service_2_title": "Conversationele AI",
-    "service_2_subtitle": "Chatbots en voice-agents die non-stop leads kwalificeren",
-    "service_2_bullet_1": "AI-chatwidget voor je website",
-    "service_2_bullet_2": "AI-voice-agents voor inkomende gesprekken",
-    "service_2_bullet_3": "Afspraken boeken op de automatische piloot",
-    "service_2_bullet_4": "FAQ-afhandeling en leadkwalificatie",
-    "service_2_bullet_5": "Natuurlijke taal, niet robotachtig",
-    "service_3_title": "Workflowautomatisering",
-    "service_3_subtitle": "Koppel al je tools tot één systeem dat zichzelf draaiende houdt",
-    "service_3_bullet_1": "CRM, agenda en betalingen gekoppeld",
-    "service_3_bullet_2": "Maatwerkintegraties (zonder Zapier-toeslag)",
-    "service_3_bullet_3": "AI-beslislogica in de keten",
-    "service_3_bullet_4": "Foutafhandeling en retry-flows",
-    "service_3_bullet_5": "Automatische onboarding van klanten",
-    "service_4_title": "AI-contentsystemen",
-    "service_4_subtitle": "Eén input wordt 10 stuks content",
-    "service_4_bullet_1": "Van video naar clips, ondertitels en posts",
-    "service_4_bullet_2": "Blogs uit transcripties",
-    "service_4_bullet_3": "Pipeline voor socialmediaplanning",
-    "service_4_bullet_4": "Consistente merkstem dankzij AI",
-    "service_4_bullet_5": "Hergebruik op alle platforms",
-    "service_5_title": "Klantdashboards",
-    "service_5_subtitle": "Realtime portalen zodat klanten nooit om updates hoeven te vragen",
-    "service_5_bullet_1": "Live lead- en pipelinetracking",
-    "service_5_bullet_2": "Advertentie-uitgaven en ROAS in realtime",
-    "service_5_bullet_3": "Automatische wekelijkse rapportmails",
-    "service_5_bullet_4": "Eigen KPI-widgets per klant",
-    "service_5_bullet_5": "White label in jouw huisstijl",
     "service_6_title": "Websites",
     "service_6_subtitle": "Op maat gebouwde sites gericht op conversie",
     "service_6_bullet_1": "Next.js / React-builds",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "Mobile first en responsive",
     "service_6_bullet_4": "CMS-integratie",
     "service_6_bullet_5": "Performance- en snelheidsoptimalisatie",
-    "service_7_title": "Branding",
-    "service_7_subtitle": "Gedurfde visuele identiteiten die opvallen",
-    "service_7_bullet_1": "Logo- en beeldmerkontwerp",
-    "service_7_bullet_2": "Kleurenpalet en typografie",
-    "service_7_bullet_3": "Huisstijlhandboek",
-    "service_7_bullet_4": "Socialmediatemplates",
-    "service_7_bullet_5": "Pitchdeckontwerp",
-    "service_8_title": "Google Ads",
-    "service_8_subtitle": "Zoekcampagnes voor kopers met een hoge intentie",
-    "service_8_bullet_1": "Zoekwoordonderzoek en strategie",
-    "service_8_bullet_2": "Advertentieteksten en landingspagina's",
-    "service_8_bullet_3": "Conversietracking",
-    "service_8_bullet_4": "Maandelijkse optimalisatie",
-    "service_8_bullet_5": "Concurrentieanalyse",
-    "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook en Instagram op schaal",
-    "service_9_bullet_1": "Doelgroep- en lookalike-targeting",
-    "service_9_bullet_2": "Creatief ontwerp en tekst",
-    "service_9_bullet_3": "Retargeting-funnels",
-    "service_9_bullet_4": "ROAS-rapportage",
-    "service_9_bullet_5": "A/B-testen van creatives",
     "process_title": "Ons proces",
     "step_1_title": "Verkenning",
     "step_1_desc": "We leren je doelen, doelgroep en markt kennen voordat er iets wordt ontworpen.",
@@ -667,10 +589,6 @@
     "q_services_sub": "Kies alles wat van toepassing is.",
     "q_budget_project": "Wat is je budget voor dit project?",
     "q_budget_project_sub": "Een ruwe indicatie is genoeg. Dan weten we wat we je kunnen voorstellen.",
-    "q_budget_ads": "Wat zou je maandelijks aan advertenties kunnen besteden?",
-    "q_budget_ads_sub": "Alleen het advertentiebudget. Ons beheer is 15% daarvan, plus een eenmalige setup. Een schatting is genoeg.",
-    "q_budget_monthly": "Wat is je maandbudget?",
-    "q_budget_monthly_sub": "Ongeveer wat je er maandelijks in zou steken. Een schatting is genoeg.",
     "q_timeline": "Wanneer wil je beginnen?",
     "q_contact": "Laatste stap. Hoe kunnen we je bereiken?",
     "q_contact_sub": "Daarna kies je een tijdstip. We reageren binnen een uur tijdens kantooruren.",
@@ -717,9 +635,6 @@
       "website_redesign": "Website-redesign",
       "e_commerce": "E-commerce",
       "landing_page": "Landingspagina",
-      "google_ads": "Google Ads",
-      "meta_ads": "Meta Ads",
-      "social_media": "Social media",
       "not_sure_yet": "Weet ik nog niet"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount}+",
         "hint": "E-commerce, of iets groters"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "Rond {amount} / maand",
-        "hint": "Eén kanaal, beheerd"
-      },
-      "1": {
-        "label": "{from} – {to} / maand",
-        "hint": "Eén kanaal met regelmatige video, of twee kanalen"
-      },
-      "2": {
-        "label": "{from} – {to} / maand",
-        "hint": "Twee of drie kanalen met video"
-      },
-      "3": {
-        "label": "{amount}+ / maand",
-        "hint": "Meerdere kanalen, veel video"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "Minder dan {amount} / maand advertentiebudget",
-        "hint": "Voorzichtig testen"
-      },
-      "1": {
-        "label": "{from} – {to} / maand advertentiebudget",
-        "hint": "Eén platform, goed beheerd"
-      },
-      "2": {
-        "label": "{from} – {to} / maand advertentiebudget",
-        "hint": "Beide platforms, of één opschalen"
-      },
-      "3": {
-        "label": "{amount}+ / maand advertentiebudget",
-        "hint": "Serieus volume"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "Minder dan {amount} / maand",
-        "hint": "Net begonnen"
-      },
-      "1": {
-        "label": "{from} – {to} / maand",
-        "hint": "Eén kanaal of platform, goed beheerd"
-      },
-      "2": {
-        "label": "{from} – {to} / maand",
-        "hint": "Meerdere tegelijk"
-      },
-      "3": {
-        "label": "{amount}+ / maand",
-        "hint": "Stevig opschalen"
       }
     },
     "meta_title": "Waar je bedrijf klanten verliest",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "Eén pagina, één aanbod",
         "detail": "Het snelste wat we bouwen. Eén pagina voor één doelgroep, met tracking eraan zodat je ziet wat het oplevert."
-      },
-      "search_ads": {
-        "title": "Zichtbaar op het moment dat het telt",
-        "detail": "Campagnes gebouwd en gestuurd op geboekte opdrachten, niet op klikken. In zoekopdrachten weten mensen al wat ze willen."
-      },
-      "social_ads": {
-        "title": "Als eerste in beeld",
-        "detail": "Facebook- en Instagram-campagnes die je aanbod voor de juiste mensen krijgen voordat een concurrent dat doet."
-      },
-      "social": {
-        "title": "Social dat ergens heen leidt",
-        "detail": "Clips, ondertitels en posts uit materiaal dat je al hebt, gemaakt om mensen naar de site te brengen in plaats van een feed te vullen."
       },
       "booking": {
         "title": "Boeken en betalen op de site zelf",

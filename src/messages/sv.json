@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "Du prenumererar redan",
     "newsletter_consent": "Genom att prenumerera godkänner du vår <link>Integritetspolicy</link>. Avregistrera dig när som helst.",
     "tab_all": "Alla",
-    "tab_ai": "AI och automation",
-    "tab_creative": "Kreativt och marknadsföring",
     "audit_badge": "Kostnadsfritt, 15 minuter",
     "audit_heading": "Osäker på vad ditt företag behöver?",
     "audit_subheading": "Boka ett kostnadsfritt strategisamtal. Vi går igenom din verksamhet och visar exakt var de största möjligheterna finns.",
@@ -129,16 +127,6 @@
     "v2_about_link": "Om studion",
     "v2_services_label": "Det vi gör",
     "v2_services_link": "Alla tjänster",
-    "v2_service_1_title": "Skräddarsydda Next.js-byggen",
-    "v2_service_1_detail": "Handbyggda React-gränssnitt, inga sidbyggare, inga teman. Snabbt på alla enheter och lätt att bygga vidare på.",
-    "v2_service_2_title": "Konverteringsfokuserad design",
-    "v2_service_2_detail": "Varje sida är uppbyggd kring en handling: boka, köpa eller ringa. Text, hierarki och bevis pekar åt samma håll.",
-    "v2_service_3_title": "SEO från dag ett",
-    "v2_service_3_detail": "Teknisk SEO, strukturerad data och lokal sökning inbyggt från start, inte påklistrat efter lanseringen.",
-    "v2_service_4_title": "E-handel",
-    "v2_service_4_detail": "Shopify och headless-butiker med frakt, e-postinsamling och drop-mekanik konfigurerat från början till slut.",
-    "v2_service_5_title": "Drift och prestanda",
-    "v2_service_5_detail": "Hosting, övervakning, hastighetsoptimering och innehållsuppdateringar efter lanseringen, så att sajten fortsätter leverera.",
     "v2_work_label": "Utvalda arbeten",
     "v2_work_link": "Alla projekt",
     "v2_result_coach_luki": "Kunderna bokar och betalar via sajten. Lokal SEO drar in Berlinbor som söker.",
@@ -169,12 +157,6 @@
     "v2_close_menu": "Stäng menyn",
     "v2_rights": "Alla rättigheter förbehållna.",
     "v2_services_sub": "Ett paket, ordentligt gjort. Vi designar och bygger sajten, sedan hostar vi den och håller den igång.",
-    "v2_group_1": "Webbplatser och varumärke",
-    "v2_group_1_detail": "Design och bygge, sedan identiteten som hör till.",
-    "v2_group_2": "Betald tillväxt",
-    "v2_group_2_detail": "Sök- och sociala kampanjer som matar sajten vi byggt.",
-    "v2_group_3": "AI och automation",
-    "v2_group_3_detail": "Agenter, chatt, arbetsflöden och dashboards som sköter backoffice.",
     "v2_quiz_label": "Vet du inte var du ska börja?",
     "v2_quiz_title": "Ta reda på var ditt företag tappar kunder.",
     "v2_quiz_sub": "Fem snabba frågor. Vi visar vad vi skulle åtgärda först, sedan väljer du en tid för ett samtal. Tar ungefär en minut.",
@@ -238,8 +220,6 @@
     "filter_all": "Alla",
     "filter_web": "Webbdesign",
     "filter_brand": "Varumärke",
-    "filter_app": "Apputveckling",
-    "filter_marketing": "Marknadsföring",
     "view_project": "Visa projekt",
     "cat_web": "Webbdesign",
     "cat_ecom": "E-handel",
@@ -344,43 +324,6 @@
   "services": {
     "title": "Våra tjänster",
     "subtitle": "Skräddarsydd webbdesign och utveckling, byggd för att vinna kunder, sedan hostad och i drift.",
-    "section_ai_title": "AI och automation",
-    "section_creative_title": "Kreativt och marknadsföring",
-    "service_1_title": "AI-agentekosystem",
-    "service_1_subtitle": "Sammankopplade underagenter som driver hela arbetsflöden",
-    "service_1_bullet_1": "Orkestrering av flera agenter",
-    "service_1_bullet_2": "Lead till poäng till mejl till sms till samtal",
-    "service_1_bullet_3": "Autonomt beslutsfattande",
-    "service_1_bullet_4": "Eskalering till en människa vid behov",
-    "service_1_bullet_5": "Drift dygnet runt utan avbrott",
-    "service_2_title": "Konversations-AI",
-    "service_2_subtitle": "Chattbotar och röstagenter som kvalificerar leads dygnet runt",
-    "service_2_bullet_1": "AI-chattwidget på webbplatsen",
-    "service_2_bullet_2": "AI-röstagenter för inkommande samtal",
-    "service_2_bullet_3": "Tidsbokning på autopilot",
-    "service_2_bullet_4": "Hantering av vanliga frågor och leadkvalificering",
-    "service_2_bullet_5": "Naturligt språk, inte robotaktigt",
-    "service_3_title": "Automatisering av arbetsflöden",
-    "service_3_subtitle": "Koppla ihop alla verktyg till ett system som sköter sig självt",
-    "service_3_bullet_1": "CRM, kalender och betalningar sammankopplade",
-    "service_3_bullet_2": "Skräddarsydda integrationer (ingen Zapier-skatt)",
-    "service_3_bullet_3": "AI-beslutslogik i flödet",
-    "service_3_bullet_4": "Felhantering och omförsöksflöden",
-    "service_3_bullet_5": "Automatiserad kundonboarding",
-    "service_4_title": "AI-innehållssystem",
-    "service_4_subtitle": "En input blir 10 innehållsbitar",
-    "service_4_bullet_1": "Video till klipp, undertexter och inlägg",
-    "service_4_bullet_2": "Blogginlägg genererade från transkriptioner",
-    "service_4_bullet_3": "Pipeline för schemaläggning i sociala medier",
-    "service_4_bullet_4": "Konsekvent varumärkesröst med hjälp av AI",
-    "service_4_bullet_5": "Återanvändning över plattformar",
-    "service_5_title": "Kunddashboards",
-    "service_5_subtitle": "Realtidsportaler så att kunderna aldrig behöver fråga om uppdateringar",
-    "service_5_bullet_1": "Live-spårning av leads och pipeline",
-    "service_5_bullet_2": "Annonsutgifter och ROAS i realtid",
-    "service_5_bullet_3": "Automatiska veckorapporter via mejl",
-    "service_5_bullet_4": "Anpassade KPI-widgets per kund",
-    "service_5_bullet_5": "I din egen grafiska profil, utan vårt namn",
     "service_6_title": "Webbplatser",
     "service_6_subtitle": "Skräddarsydda, konverteringsfokuserade sajter",
     "service_6_bullet_1": "Next.js- och React-byggen",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "Mobilen först, responsiv överallt",
     "service_6_bullet_4": "CMS-integration",
     "service_6_bullet_5": "Prestanda- och hastighetsoptimering",
-    "service_7_title": "Varumärke",
-    "service_7_subtitle": "Djärva visuella identiteter som sticker ut",
-    "service_7_bullet_1": "Logotyp och varumärkessymbol",
-    "service_7_bullet_2": "Färgpalett och typografi",
-    "service_7_bullet_3": "Varumärkesmanual",
-    "service_7_bullet_4": "Mallar för sociala medier",
-    "service_7_bullet_5": "Design av pitch deck",
-    "service_8_title": "Google Ads",
-    "service_8_subtitle": "Sökkampanjer för köpare med hög köpintention",
-    "service_8_bullet_1": "Sökordsanalys och strategi",
-    "service_8_bullet_2": "Annonstexter och landningssidor",
-    "service_8_bullet_3": "Konverteringsspårning",
-    "service_8_bullet_4": "Månatlig optimering",
-    "service_8_bullet_5": "Konkurrentanalys",
-    "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook och Instagram i stor skala",
-    "service_9_bullet_1": "Målgrupps- och lookalike-targeting",
-    "service_9_bullet_2": "Annonsdesign och copy",
-    "service_9_bullet_3": "Retargeting-flöden",
-    "service_9_bullet_4": "ROAS-rapportering",
-    "service_9_bullet_5": "A/B-testning av annonsmaterial",
     "process_title": "Vår process",
     "step_1_title": "Förstudie",
     "step_1_desc": "Vi lär känna dina mål, din målgrupp och din marknad innan något designas.",
@@ -667,10 +589,6 @@
     "q_services_sub": "Välj allt som passar.",
     "q_budget_project": "Vilken budget har du för det här projektet?",
     "q_budget_project_sub": "En ungefärlig siffra räcker. Den säger oss bara vad vi ska föreslå.",
-    "q_budget_ads": "Vad skulle du kunna lägga på annonser per månad?",
-    "q_budget_ads_sub": "Bara annonsbudgeten. Vårt arvode är 15 % av den, plus en engångsavgift för uppsättningen. En uppskattning räcker.",
-    "q_budget_monthly": "Vad är din månadsbudget?",
-    "q_budget_monthly_sub": "Ungefär vad du skulle lägga varje månad. En uppskattning räcker.",
     "q_timeline": "Hur snart vill du börja?",
     "q_contact": "Sista steget. Hur når vi dig?",
     "q_contact_sub": "Sedan väljer du en tid. Vi svarar inom en timme under kontorstid.",
@@ -717,9 +635,6 @@
       "website_redesign": "Omdesign av webbplats",
       "e_commerce": "E-handel",
       "landing_page": "Landningssida",
-      "google_ads": "Google Ads",
-      "meta_ads": "Meta Ads",
-      "social_media": "Sociala medier",
       "not_sure_yet": "Vet inte än"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount}+",
         "hint": "E-handel, eller något större"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "Cirka {amount} / månad",
-        "hint": "En kanal, skött"
-      },
-      "1": {
-        "label": "{from} – {to} / månad",
-        "hint": "En kanal med regelbunden video, eller två kanaler"
-      },
-      "2": {
-        "label": "{from} – {to} / månad",
-        "hint": "Två eller tre kanaler med video"
-      },
-      "3": {
-        "label": "{amount}+ / månad",
-        "hint": "Flera kanaler, videotungt"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "Mindre än {amount} / månad i annonsbudget",
-        "hint": "Första testerna"
-      },
-      "1": {
-        "label": "{from} – {to} / månad i annonsbudget",
-        "hint": "En plattform, ordentligt skött"
-      },
-      "2": {
-        "label": "{from} – {to} / månad i annonsbudget",
-        "hint": "Båda plattformarna, eller skala en"
-      },
-      "3": {
-        "label": "{amount}+ / månad i annonsbudget",
-        "hint": "Stora volymer"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "Mindre än {amount} / månad",
-        "hint": "Kommer igång"
-      },
-      "1": {
-        "label": "{from} – {to} / månad",
-        "hint": "En kanal eller plattform, ordentligt skött"
-      },
-      "2": {
-        "label": "{from} – {to} / månad",
-        "hint": "Flera parallellt"
-      },
-      "3": {
-        "label": "{amount}+ / månad",
-        "hint": "Skalar hårt"
       }
     },
     "meta_title": "Där ditt företag förlorar kunder",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "En sida, ett erbjudande",
         "detail": "Det snabbaste vi bygger. En enda sida riktad mot en målgrupp, med spårning kopplad så du ser vad den ger."
-      },
-      "search_ads": {
-        "title": "Synas i avsiktsögonblicket",
-        "detail": "Kampanjer byggda och styrda mot bokade jobb, inte klick. I sök vet folk redan vad de vill ha."
-      },
-      "social_ads": {
-        "title": "Nå dem först",
-        "detail": "Facebook- och Instagram-kampanjer som placerar erbjudandet framför rätt personer innan en konkurrent gör det."
-      },
-      "social": {
-        "title": "Sociala medier som leder någonstans",
-        "detail": "Klipp, undertexter och inlägg klippta ur material du redan har, byggda för att föra folk till sajten i stället för att bara fylla ett flöde."
       },
       "booking": {
         "title": "Bokning och betalning på sajten",

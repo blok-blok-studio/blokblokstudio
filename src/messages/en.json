@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "You are already subscribed",
     "newsletter_consent": "By subscribing, you agree to our <link>Privacy Policy</link>. Unsubscribe anytime.",
     "tab_all": "All",
-    "tab_ai": "AI & Automation",
-    "tab_creative": "Creative & Marketing",
     "audit_badge": "Free, 15 minutes",
     "audit_heading": "Not Sure What Your Business Needs?",
     "audit_subheading": "Book a free strategy call. We'll review your business and show you exactly where the biggest opportunities are.",
@@ -129,16 +127,6 @@
     "v2_about_link": "About the studio",
     "v2_services_label": "What we do",
     "v2_services_link": "All services",
-    "v2_service_1_title": "Custom Next.js builds",
-    "v2_service_1_detail": "Hand-built React front ends, no page builders, no themes. Fast on every device and easy to extend later.",
-    "v2_service_2_title": "Conversion-focused design",
-    "v2_service_2_detail": "Every page is laid out around one action: book, buy or call. Copy, hierarchy and proof all point the same way.",
-    "v2_service_3_title": "SEO from day one",
-    "v2_service_3_detail": "Technical SEO, structured data and local search baked into the build, not bolted on after launch.",
-    "v2_service_4_title": "E-commerce",
-    "v2_service_4_detail": "Shopify and headless storefronts with the shipping, email capture and drop mechanics configured end to end.",
-    "v2_service_5_title": "Care and performance",
-    "v2_service_5_detail": "Hosting, monitoring, speed tuning and content updates after launch, so the site keeps earning.",
     "v2_work_label": "Selected work",
     "v2_work_link": "All projects",
     "v2_result_coach_luki": "Clients book and pay through the site. Local SEO brings in Berlin searchers.",
@@ -169,12 +157,6 @@
     "v2_close_menu": "Close menu",
     "v2_rights": "All rights reserved.",
     "v2_services_sub": "One package, done properly. We design and build the site, then host it and keep it running.",
-    "v2_group_1": "Websites and brand",
-    "v2_group_1_detail": "Design and build, then the identity that goes with it.",
-    "v2_group_2": "Paid growth",
-    "v2_group_2_detail": "Search and social campaigns that feed the site we built.",
-    "v2_group_3": "AI and automation",
-    "v2_group_3_detail": "Agents, chat, workflows and dashboards that run the back office.",
     "v2_quiz_label": "Not sure where to start?",
     "v2_quiz_title": "Find out where your business is losing customers.",
     "v2_quiz_sub": "Five quick questions. We show you what we would fix first, then you pick a time to talk. About a minute.",
@@ -238,8 +220,6 @@
     "filter_all": "All",
     "filter_web": "Web Design",
     "filter_brand": "Branding",
-    "filter_app": "App Development",
-    "filter_marketing": "Marketing",
     "view_project": "View Project",
     "cat_web": "Web Design",
     "cat_ecom": "E-Commerce",
@@ -344,43 +324,6 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Custom website design and development, built to win customers, then hosted and kept running.",
-    "section_ai_title": "AI & Automation",
-    "section_creative_title": "Creative & Marketing",
-    "service_1_title": "AI Agent Ecosystems",
-    "service_1_subtitle": "Interconnected sub agents that run entire workflows",
-    "service_1_bullet_1": "Multi agent orchestration",
-    "service_1_bullet_2": "Lead to score to email to text to call",
-    "service_1_bullet_3": "Autonomous decision making",
-    "service_1_bullet_4": "Human in the loop escalation",
-    "service_1_bullet_5": "24/7 operation with zero downtime",
-    "service_2_title": "Conversational AI",
-    "service_2_subtitle": "Chatbots and voice agents that qualify leads nonstop",
-    "service_2_bullet_1": "Website AI chat widget",
-    "service_2_bullet_2": "AI voice agents for inbound calls",
-    "service_2_bullet_3": "Appointment booking on autopilot",
-    "service_2_bullet_4": "FAQ handling and lead qualification",
-    "service_2_bullet_5": "Natural language, not robotic",
-    "service_3_title": "Workflow Automation",
-    "service_3_subtitle": "Connect every tool into one system that runs itself",
-    "service_3_bullet_1": "CRM, calendar, and payments linked",
-    "service_3_bullet_2": "Custom integrations (no Zapier tax)",
-    "service_3_bullet_3": "AI decision logic in the loop",
-    "service_3_bullet_4": "Error handling and retry flows",
-    "service_3_bullet_5": "Client onboarding automation",
-    "service_4_title": "AI Content Systems",
-    "service_4_subtitle": "One input becomes 10 pieces of content",
-    "service_4_bullet_1": "Video to clips, captions, and posts",
-    "service_4_bullet_2": "Blog generation from transcripts",
-    "service_4_bullet_3": "Social media scheduling pipeline",
-    "service_4_bullet_4": "Brand voice consistency via AI",
-    "service_4_bullet_5": "Cross platform repurposing",
-    "service_5_title": "Client Dashboards",
-    "service_5_subtitle": "Real time portals so clients never ask for updates",
-    "service_5_bullet_1": "Live lead and pipeline tracking",
-    "service_5_bullet_2": "Ad spend and ROAS in real time",
-    "service_5_bullet_3": "Automated weekly report emails",
-    "service_5_bullet_4": "Custom KPI widgets per client",
-    "service_5_bullet_5": "White labeled to your brand",
     "service_6_title": "Websites",
     "service_6_subtitle": "Custom-built, conversion-focused sites",
     "service_6_bullet_1": "Next.js / React builds",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "Mobile-first and responsive",
     "service_6_bullet_4": "CMS integration",
     "service_6_bullet_5": "Performance and speed tuning",
-    "service_7_title": "Branding",
-    "service_7_subtitle": "Bold visual identities that stand out",
-    "service_7_bullet_1": "Logo and brand mark design",
-    "service_7_bullet_2": "Color palette and typography",
-    "service_7_bullet_3": "Brand guidelines document",
-    "service_7_bullet_4": "Social media templates",
-    "service_7_bullet_5": "Pitch deck design",
-    "service_8_title": "Google Ads",
-    "service_8_subtitle": "Search campaigns for high intent buyers",
-    "service_8_bullet_1": "Keyword research and strategy",
-    "service_8_bullet_2": "Ad copy and landing pages",
-    "service_8_bullet_3": "Conversion tracking",
-    "service_8_bullet_4": "Monthly optimization",
-    "service_8_bullet_5": "Competitor analysis",
-    "service_9_title": "Meta Ads",
-    "service_9_subtitle": "Facebook and Instagram at scale",
-    "service_9_bullet_1": "Audience and lookalike targeting",
-    "service_9_bullet_2": "Creative design and copy",
-    "service_9_bullet_3": "Retargeting funnels",
-    "service_9_bullet_4": "ROAS reporting",
-    "service_9_bullet_5": "Creative A/B testing",
     "process_title": "Our Process",
     "step_1_title": "Discovery",
     "step_1_desc": "We learn your goals, audience and market before anything is designed.",
@@ -667,10 +589,6 @@
     "q_services_sub": "Pick all that apply.",
     "q_budget_project": "What's your budget for this project?",
     "q_budget_project_sub": "A rough idea is fine. It just tells us what to suggest.",
-    "q_budget_ads": "What could you spend on ads each month?",
-    "q_budget_ads_sub": "Just the ad spend. Our management is 15% of it, plus a one-off setup. A ballpark is fine.",
-    "q_budget_monthly": "What's your monthly budget?",
-    "q_budget_monthly_sub": "Roughly what you would put behind it each month. A ballpark is fine.",
     "q_timeline": "How soon do you want to start?",
     "q_contact": "Last step. How do we reach you?",
     "q_contact_sub": "Then you pick a time. We reply within the hour during business hours.",
@@ -717,9 +635,6 @@
       "website_redesign": "Website redesign",
       "e_commerce": "E-commerce",
       "landing_page": "Landing page",
-      "google_ads": "Google Ads",
-      "meta_ads": "Meta Ads",
-      "social_media": "Social media",
       "not_sure_yet": "Not sure yet"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount}+",
         "hint": "E-commerce, or something larger"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "Around {amount} / month",
-        "hint": "One channel, managed"
-      },
-      "1": {
-        "label": "{from} – {to} / month",
-        "hint": "One channel with regular video, or two channels"
-      },
-      "2": {
-        "label": "{from} – {to} / month",
-        "hint": "Two or three channels with video"
-      },
-      "3": {
-        "label": "{amount}+ / month",
-        "hint": "Several channels, video-heavy"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "Under {amount} / month ad spend",
-        "hint": "Testing the water"
-      },
-      "1": {
-        "label": "{from} – {to} / month ad spend",
-        "hint": "One platform, run properly"
-      },
-      "2": {
-        "label": "{from} – {to} / month ad spend",
-        "hint": "Both platforms, or scaling one"
-      },
-      "3": {
-        "label": "{amount}+ / month ad spend",
-        "hint": "Serious volume"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "Under {amount} / month",
-        "hint": "Getting started"
-      },
-      "1": {
-        "label": "{from} – {to} / month",
-        "hint": "One channel or platform, run properly"
-      },
-      "2": {
-        "label": "{from} – {to} / month",
-        "hint": "Several running together"
-      },
-      "3": {
-        "label": "{amount}+ / month",
-        "hint": "Scaling hard"
       }
     },
     "meta_title": "Where Your Business Is Losing Customers",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "One page, one offer",
         "detail": "The fastest thing we build. A single page aimed at one audience, with the tracking attached so you can see what it returns."
-      },
-      "search_ads": {
-        "title": "Show up at the moment of intent",
-        "detail": "Campaigns built and managed against booked jobs, not clicks. Search is where people already know what they want."
-      },
-      "social_ads": {
-        "title": "Get in front of them first",
-        "detail": "Facebook and Instagram campaigns that put the offer in front of the right people before a competitor does."
-      },
-      "social": {
-        "title": "Social that points somewhere",
-        "detail": "Clips, captions and posts cut from footage you already have, built to move people to the site rather than just fill a feed."
       },
       "booking": {
         "title": "Booking and payment on the site",

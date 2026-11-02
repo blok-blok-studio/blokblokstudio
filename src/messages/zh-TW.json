@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "您已訂閱",
     "newsletter_consent": "訂閱即表示您同意我們的<link>隱私政策</link>。可隨時取消訂閱。",
     "tab_all": "全部",
-    "tab_ai": "AI 與自動化",
-    "tab_creative": "創意與行銷",
     "audit_badge": "免費，15 分鐘",
     "audit_heading": "不確定您的企業需要什麼？",
     "audit_subheading": "預約免費策略通話。我們會檢視您的事業，明確指出最大的機會在哪裡。",
@@ -129,16 +127,6 @@
     "v2_about_link": "認識工作室",
     "v2_services_label": "我們的服務",
     "v2_services_link": "所有服務",
-    "v2_service_1_title": "客製 Next.js 開發",
-    "v2_service_1_detail": "手工打造的 React 前端，不用頁面編輯器、不用現成主題。任何裝置都快速流暢，日後也容易擴充。",
-    "v2_service_2_title": "以轉換為核心的設計",
-    "v2_service_2_detail": "每個頁面都圍繞一個行動來設計：預約、購買或來電。文案、層次與實證全都指向同一個方向。",
-    "v2_service_3_title": "從第一天就做好 SEO",
-    "v2_service_3_detail": "技術 SEO、結構化資料與在地搜尋都內建在開發流程中，而不是上線後才補上。",
-    "v2_service_4_title": "電子商務",
-    "v2_service_4_detail": "Shopify 與無頭式商店，從物流、電子郵件名單蒐集到限量發售機制，全部完整設定。",
-    "v2_service_5_title": "維護與效能",
-    "v2_service_5_detail": "上線後的主機代管、監控、速度調校與內容更新，讓網站持續為您帶來收益。",
     "v2_work_label": "精選作品",
     "v2_work_link": "所有專案",
     "v2_result_coach_luki": "客戶直接在網站上預約付款。在地 SEO 帶來柏林的搜尋流量。",
@@ -169,12 +157,6 @@
     "v2_close_menu": "關閉選單",
     "v2_rights": "版權所有。",
     "v2_services_sub": "一個方案，做到位。我們設計並開發網站，接著負責代管與持續維運。",
-    "v2_group_1": "網站與品牌",
-    "v2_group_1_detail": "設計與開發，再加上與之相配的品牌識別。",
-    "v2_group_2": "付費成長",
-    "v2_group_2_detail": "搜尋與社群廣告，為我們打造的網站持續導入流量。",
-    "v2_group_3": "AI 與自動化",
-    "v2_group_3_detail": "代理、聊天機器人、工作流程與儀表板，幫您打理後台營運。",
     "v2_quiz_label": "不確定從哪裡開始？",
     "v2_quiz_title": "找出您的事業正在流失客戶的地方。",
     "v2_quiz_sub": "五個簡短問題。我們告訴您我們會先修正什麼，接著由您挑選通話時間。大約一分鐘。",
@@ -238,8 +220,6 @@
     "filter_all": "全部",
     "filter_web": "網頁設計",
     "filter_brand": "品牌設計",
-    "filter_app": "應用程式開發",
-    "filter_marketing": "行銷",
     "view_project": "檢視專案",
     "cat_web": "網頁設計",
     "cat_ecom": "電子商務",
@@ -344,43 +324,6 @@
   "services": {
     "title": "我們的服務",
     "subtitle": "客製化網站設計與開發，為贏得客戶而生，上線後代管與持續維運。",
-    "section_ai_title": "AI 與自動化",
-    "section_creative_title": "創意與行銷",
-    "service_1_title": "AI 代理生態系",
-    "service_1_subtitle": "相互串連的子代理，自動執行完整的工作流程",
-    "service_1_bullet_1": "多代理協同調度",
-    "service_1_bullet_2": "從名單、評分、郵件、簡訊到來電一氣呵成",
-    "service_1_bullet_3": "自主決策",
-    "service_1_bullet_4": "人工介入的升級機制",
-    "service_1_bullet_5": "全年無休，零停機",
-    "service_2_title": "對話式 AI",
-    "service_2_subtitle": "不間斷篩選潛在客戶的聊天機器人與語音客服",
-    "service_2_bullet_1": "網站 AI 聊天小工具",
-    "service_2_bullet_2": "接聽來電的 AI 語音客服",
-    "service_2_bullet_3": "全自動預約排程",
-    "service_2_bullet_4": "常見問題處理與潛在客戶篩選",
-    "service_2_bullet_5": "自然語言，不像機器人",
-    "service_3_title": "工作流程自動化",
-    "service_3_subtitle": "把所有工具串成一個能自行運轉的系統",
-    "service_3_bullet_1": "串接 CRM、行事曆與付款",
-    "service_3_bullet_2": "客製整合（不必付 Zapier 的中介費）",
-    "service_3_bullet_3": "流程中內建 AI 決策邏輯",
-    "service_3_bullet_4": "錯誤處理與重試機制",
-    "service_3_bullet_5": "客戶導入流程自動化",
-    "service_4_title": "AI 內容系統",
-    "service_4_subtitle": "一份素材，變成 10 則內容",
-    "service_4_bullet_1": "影片轉短片、字幕與貼文",
-    "service_4_bullet_2": "從逐字稿產出部落格文章",
-    "service_4_bullet_3": "社群媒體排程流程",
-    "service_4_bullet_4": "透過 AI 維持一致的品牌語調",
-    "service_4_bullet_5": "跨平台內容再利用",
-    "service_5_title": "客戶儀表板",
-    "service_5_subtitle": "即時入口，客戶再也不必追問進度",
-    "service_5_bullet_1": "即時名單與銷售管道追蹤",
-    "service_5_bullet_2": "即時掌握廣告花費與 ROAS",
-    "service_5_bullet_3": "自動寄送每週報告郵件",
-    "service_5_bullet_4": "為每位客戶客製 KPI 小工具",
-    "service_5_bullet_5": "以您的品牌白牌呈現",
     "service_6_title": "網站",
     "service_6_subtitle": "客製開發、以轉換為核心的網站",
     "service_6_bullet_1": "Next.js / React 開發",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "行動優先的響應式設計",
     "service_6_bullet_4": "CMS 整合",
     "service_6_bullet_5": "效能與速度調校",
-    "service_7_title": "品牌設計",
-    "service_7_subtitle": "鮮明搶眼的視覺識別",
-    "service_7_bullet_1": "Logo 與品牌標誌設計",
-    "service_7_bullet_2": "色彩計畫與字體",
-    "service_7_bullet_3": "品牌規範文件",
-    "service_7_bullet_4": "社群媒體模板",
-    "service_7_bullet_5": "簡報設計",
-    "service_8_title": "Google Ads",
-    "service_8_subtitle": "鎖定高購買意圖買家的搜尋廣告",
-    "service_8_bullet_1": "關鍵字研究與策略",
-    "service_8_bullet_2": "廣告文案與登陸頁",
-    "service_8_bullet_3": "轉換追蹤",
-    "service_8_bullet_4": "每月優化",
-    "service_8_bullet_5": "競爭對手分析",
-    "service_9_title": "Meta Ads",
-    "service_9_subtitle": "規模化經營 Facebook 與 Instagram",
-    "service_9_bullet_1": "受眾與類似受眾鎖定",
-    "service_9_bullet_2": "素材設計與文案",
-    "service_9_bullet_3": "再行銷漏斗",
-    "service_9_bullet_4": "ROAS 成效報告",
-    "service_9_bullet_5": "素材 A/B 測試",
     "process_title": "我們的流程",
     "step_1_title": "探索",
     "step_1_desc": "動手設計之前，先了解您的目標、受眾與市場。",
@@ -667,10 +589,6 @@
     "q_services_sub": "可複選。",
     "q_budget_project": "這個專案的預算是多少？",
     "q_budget_project_sub": "大致範圍即可，只是幫助我們判斷該提出什麼方案。",
-    "q_budget_ads": "每月可以在廣告上投入多少？",
-    "q_budget_ads_sub": "僅指廣告費。我們的管理費為其 15%，另加一次性設定費。大致數字即可。",
-    "q_budget_monthly": "您的每月預算是多少？",
-    "q_budget_monthly_sub": "大約每月願意投入的金額。估算即可。",
     "q_timeline": "您希望多快開始？",
     "q_contact": "最後一步。我們如何聯絡您？",
     "q_contact_sub": "之後您可以選擇時間。上班時間內我們會在一小時內回覆。",
@@ -717,9 +635,6 @@
       "website_redesign": "網站改版",
       "e_commerce": "電商",
       "landing_page": "登陸頁",
-      "google_ads": "Google 廣告",
-      "meta_ads": "Meta 廣告",
-      "social_media": "社群媒體",
       "not_sure_yet": "還不確定"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount} 以上",
         "hint": "電商，或更大規模的專案"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "每月約 {amount}",
-        "hint": "一個頻道，由我們代營運"
-      },
-      "1": {
-        "label": "每月 {from} 至 {to}",
-        "hint": "一個頻道含定期影片，或兩個頻道"
-      },
-      "2": {
-        "label": "每月 {from} 至 {to}",
-        "hint": "兩到三個頻道含影片"
-      },
-      "3": {
-        "label": "每月 {amount} 以上",
-        "hint": "多個頻道，以影片為主"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "每月廣告費低於 {amount}",
-        "hint": "初步測試"
-      },
-      "1": {
-        "label": "每月廣告費 {from} 至 {to}",
-        "hint": "認真經營一個平台"
-      },
-      "2": {
-        "label": "每月廣告費 {from} 至 {to}",
-        "hint": "兩個平台，或擴大其中一個"
-      },
-      "3": {
-        "label": "每月廣告費 {amount} 以上",
-        "hint": "大規模投放"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "每月低於 {amount}",
-        "hint": "剛起步"
-      },
-      "1": {
-        "label": "每月 {from} 至 {to}",
-        "hint": "認真經營一個頻道或平台"
-      },
-      "2": {
-        "label": "每月 {from} 至 {to}",
-        "hint": "多項並行"
-      },
-      "3": {
-        "label": "每月 {amount} 以上",
-        "hint": "大力擴張"
       }
     },
     "meta_title": "您的事業正在哪裡流失客戶",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "一個頁面，一個方案",
         "detail": "我們能最快做出來的東西。針對單一客群的一個頁面，接上追蹤，讓您看到回報。"
-      },
-      "search_ads": {
-        "title": "在有購買意圖的那一刻出現",
-        "detail": "以成交而非點擊為目標建置與投放的廣告。在搜尋裡，人們已經知道自己要什麼。"
-      },
-      "social_ads": {
-        "title": "搶在他們之前出現",
-        "detail": "Facebook 與 Instagram 廣告，在競爭對手之前把您的方案送到合適的人面前。"
-      },
-      "social": {
-        "title": "能帶來去處的社群內容",
-        "detail": "用您既有的素材剪出的短片、字幕與貼文，目的是把人帶到網站，而不只是填滿動態。"
       },
       "booking": {
         "title": "在網站上直接預約與付款",

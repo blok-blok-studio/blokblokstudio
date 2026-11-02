@@ -108,8 +108,6 @@
     "newsletter_already_subscribed": "您已订阅",
     "newsletter_consent": "订阅即表示您同意我们的<link>隐私政策</link>。可随时取消订阅。",
     "tab_all": "全部",
-    "tab_ai": "AI 与自动化",
-    "tab_creative": "创意与营销",
     "audit_badge": "免费，15 分钟",
     "audit_heading": "不确定您的企业需要什么？",
     "audit_subheading": "预约一次免费策略通话。我们会梳理您的业务，明确指出最大的机会在哪里。",
@@ -129,16 +127,6 @@
     "v2_about_link": "了解工作室",
     "v2_services_label": "我们的服务",
     "v2_services_link": "全部服务",
-    "v2_service_1_title": "Next.js 定制开发",
-    "v2_service_1_detail": "纯手工编写的 React 前端，不用页面搭建工具，不用现成主题。在任何设备上都快，日后也易于扩展。",
-    "v2_service_2_title": "以转化为核心的设计",
-    "v2_service_2_detail": "每个页面都围绕一个动作布局：预约、购买或致电。文案、层级与证明全部指向同一个目标。",
-    "v2_service_3_title": "从第一天起就做 SEO",
-    "v2_service_3_detail": "技术 SEO、结构化数据和本地搜索在开发阶段就已内置，而不是上线后再补。",
-    "v2_service_4_title": "电商",
-    "v2_service_4_detail": "Shopify 与无头电商店铺，物流、邮件收集和限量发售机制全部端到端配置到位。",
-    "v2_service_5_title": "维护与性能",
-    "v2_service_5_detail": "上线后的托管、监控、速度调优与内容更新，让网站持续为您创造价值。",
     "v2_work_label": "精选作品",
     "v2_work_link": "全部作品",
     "v2_result_coach_luki": "客户直接在网站预约并付款。本地 SEO 带来柏林的搜索访客。",
@@ -169,12 +157,6 @@
     "v2_close_menu": "关闭菜单",
     "v2_rights": "保留所有权利。",
     "v2_services_sub": "一套方案，认真做好。我们设计并开发网站，然后负责托管，让它持续稳定运行。",
-    "v2_group_1": "网站与品牌",
-    "v2_group_1_detail": "设计与开发，再加上与之匹配的品牌识别。",
-    "v2_group_2": "付费增长",
-    "v2_group_2_detail": "搜索与社交广告投放，为我们打造的网站持续引流。",
-    "v2_group_3": "AI 与自动化",
-    "v2_group_3_detail": "智能体、聊天机器人、工作流和仪表盘，替您打理后台运营。",
     "v2_quiz_label": "不知道从哪里开始？",
     "v2_quiz_title": "找出您的业务在哪里流失客户。",
     "v2_quiz_sub": "五个简短问题。我们告诉您最该先解决什么，然后由您挑一个时间聊聊。大约只需一分钟。",
@@ -238,8 +220,6 @@
     "filter_all": "全部",
     "filter_web": "网页设计",
     "filter_brand": "品牌设计",
-    "filter_app": "应用开发",
-    "filter_marketing": "市场营销",
     "view_project": "查看作品",
     "cat_web": "网页设计",
     "cat_ecom": "电商",
@@ -344,43 +324,6 @@
   "services": {
     "title": "我们的服务",
     "subtitle": "定制网站设计与开发，为赢得客户而生，上线后托管与维护全包。",
-    "section_ai_title": "AI 与自动化",
-    "section_creative_title": "创意与营销",
-    "service_1_title": "AI 智能体生态",
-    "service_1_subtitle": "相互协作的子智能体，跑通整条工作流",
-    "service_1_bullet_1": "多智能体编排",
-    "service_1_bullet_2": "从线索到评分、邮件、短信再到电话",
-    "service_1_bullet_3": "自主决策",
-    "service_1_bullet_4": "人工介入升级机制",
-    "service_1_bullet_5": "全天候运行，零停机",
-    "service_2_title": "对话式 AI",
-    "service_2_subtitle": "不间断筛选线索的聊天机器人与语音智能体",
-    "service_2_bullet_1": "网站 AI 聊天组件",
-    "service_2_bullet_2": "接听来电的 AI 语音智能体",
-    "service_2_bullet_3": "自动完成预约",
-    "service_2_bullet_4": "常见问题解答与线索筛选",
-    "service_2_bullet_5": "自然语言，不生硬",
-    "service_3_title": "工作流自动化",
-    "service_3_subtitle": "把每个工具连成一套自动运转的系统",
-    "service_3_bullet_1": "打通 CRM、日历与支付",
-    "service_3_bullet_2": "定制集成（不交 Zapier 的“过路费”）",
-    "service_3_bullet_3": "AI 决策逻辑嵌入流程",
-    "service_3_bullet_4": "错误处理与重试流程",
-    "service_3_bullet_5": "客户入职自动化",
-    "service_4_title": "AI 内容系统",
-    "service_4_subtitle": "一次输入，产出 10 条内容",
-    "service_4_bullet_1": "视频拆解为短片、字幕与帖子",
-    "service_4_bullet_2": "由文字稿生成博客文章",
-    "service_4_bullet_3": "社交媒体排期发布流水线",
-    "service_4_bullet_4": "用 AI 保持品牌声音一致",
-    "service_4_bullet_5": "跨平台内容再利用",
-    "service_5_title": "客户仪表盘",
-    "service_5_subtitle": "实时门户，客户再也不用追问进度",
-    "service_5_bullet_1": "线索与销售管道实时追踪",
-    "service_5_bullet_2": "广告花费与 ROAS 实时呈现",
-    "service_5_bullet_3": "自动发送周报邮件",
-    "service_5_bullet_4": "为每位客户定制 KPI 组件",
-    "service_5_bullet_5": "以您的品牌白标呈现",
     "service_6_title": "网站",
     "service_6_subtitle": "定制开发、以转化为核心的网站",
     "service_6_bullet_1": "Next.js / React 开发",
@@ -388,27 +331,6 @@
     "service_6_bullet_3": "移动优先的响应式布局",
     "service_6_bullet_4": "CMS 集成",
     "service_6_bullet_5": "性能与速度调优",
-    "service_7_title": "品牌设计",
-    "service_7_subtitle": "大胆出众的视觉识别",
-    "service_7_bullet_1": "Logo 与品牌标志设计",
-    "service_7_bullet_2": "配色方案与字体系统",
-    "service_7_bullet_3": "品牌规范文档",
-    "service_7_bullet_4": "社交媒体模板",
-    "service_7_bullet_5": "路演 PPT 设计",
-    "service_8_title": "Google 广告",
-    "service_8_subtitle": "面向高意向买家的搜索广告",
-    "service_8_bullet_1": "关键词研究与策略",
-    "service_8_bullet_2": "广告文案与落地页",
-    "service_8_bullet_3": "转化追踪",
-    "service_8_bullet_4": "每月优化",
-    "service_8_bullet_5": "竞品分析",
-    "service_9_title": "Meta 广告",
-    "service_9_subtitle": "规模化投放 Facebook 与 Instagram",
-    "service_9_bullet_1": "受众定向与类似受众",
-    "service_9_bullet_2": "创意设计与文案",
-    "service_9_bullet_3": "再营销漏斗",
-    "service_9_bullet_4": "ROAS 报告",
-    "service_9_bullet_5": "创意 A/B 测试",
     "process_title": "我们的流程",
     "step_1_title": "需求探索",
     "step_1_desc": "在动手设计之前，我们先了解您的目标、受众和市场。",
@@ -667,10 +589,6 @@
     "q_services_sub": "可多选。",
     "q_budget_project": "这个项目的预算是多少？",
     "q_budget_project_sub": "大致范围即可，只是帮我们判断该推荐什么方案。",
-    "q_budget_ads": "每月可以在广告上投入多少？",
-    "q_budget_ads_sub": "仅指广告费。我们的管理费为其 15%，另加一次性设置费。大致数字即可。",
-    "q_budget_monthly": "您的月度预算是多少？",
-    "q_budget_monthly_sub": "大约每月愿意投入的金额。估算即可。",
     "q_timeline": "您希望多快开始？",
     "q_contact": "最后一步。我们如何联系您？",
     "q_contact_sub": "之后由您挑一个时间。工作时间内我们会在一小时内回复。",
@@ -717,9 +635,6 @@
       "website_redesign": "网站改版",
       "e_commerce": "电商",
       "landing_page": "落地页",
-      "google_ads": "Google 广告",
-      "meta_ads": "Meta 广告",
-      "social_media": "社交媒体",
       "not_sure_yet": "还不确定"
     },
     "timeline": {
@@ -760,60 +675,6 @@
       "4": {
         "label": "{amount} 以上",
         "hint": "电商，或更大规模的项目"
-      }
-    },
-    "budget_social": {
-      "0": {
-        "label": "每月约 {amount}",
-        "hint": "一个渠道，由我们代运营"
-      },
-      "1": {
-        "label": "每月 {from} 至 {to}",
-        "hint": "一个渠道含定期视频，或两个渠道"
-      },
-      "2": {
-        "label": "每月 {from} 至 {to}",
-        "hint": "两到三个渠道，含视频"
-      },
-      "3": {
-        "label": "每月 {amount} 以上",
-        "hint": "多个渠道，以视频为主"
-      }
-    },
-    "budget_ads": {
-      "0": {
-        "label": "每月广告费低于 {amount}",
-        "hint": "先试水"
-      },
-      "1": {
-        "label": "每月广告费 {from} 至 {to}",
-        "hint": "认真运营一个平台"
-      },
-      "2": {
-        "label": "每月广告费 {from} 至 {to}",
-        "hint": "两个平台，或扩大其中一个"
-      },
-      "3": {
-        "label": "每月广告费 {amount} 以上",
-        "hint": "大规模投放"
-      }
-    },
-    "budget_monthly": {
-      "0": {
-        "label": "每月低于 {amount}",
-        "hint": "刚起步"
-      },
-      "1": {
-        "label": "每月 {from} 至 {to}",
-        "hint": "认真运营一个渠道或平台"
-      },
-      "2": {
-        "label": "每月 {from} 至 {to}",
-        "hint": "多项并行"
-      },
-      "3": {
-        "label": "每月 {amount} 以上",
-        "hint": "全力扩张"
       }
     },
     "meta_title": "您的业务正在哪里流失客户",
@@ -919,18 +780,6 @@
       "landing": {
         "title": "一个页面，一个主张",
         "detail": "我们能最快做出来的东西。面向单一人群的一个页面，接好转化追踪，让您看到回报。"
-      },
-      "search_ads": {
-        "title": "在有购买意图的那一刻出现",
-        "detail": "以成交而非点击为目标搭建和投放的广告。在搜索里，人们已经知道自己要什么。"
-      },
-      "social_ads": {
-        "title": "抢在他们之前出现",
-        "detail": "Facebook 与 Instagram 广告，抢在竞争对手之前把您的产品方案送到合适的人面前。"
-      },
-      "social": {
-        "title": "能带来去处的社交内容",
-        "detail": "用您已有的素材剪出的短片、字幕和帖子，目的是把人带到网站，而不只是填满信息流。"
       },
       "booking": {
         "title": "在网站上直接预约与付款",
