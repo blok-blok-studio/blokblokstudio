@@ -42,73 +42,73 @@
     "items": [
       {
         "category": "pricing",
-        "question": "How much does a custom website cost?",
-        "answer": "Custom websites at Blok Blok Studio start at $2,000 for a single landing page and scale to $9,500 for a 10-page site with a CMS, branding, and on-page SEO. Pricing depends on the number of pages, custom animations, AI integrations, and copywriting needs. Every site is built in Next.js, hosted on Vercel, and SEO-optimized from day one, never templates."
+        "question": "¿Cuánto cuesta una web a medida?",
+        "answer": "Las webs a medida de Blok Blok Studio empiezan en $2,000 por una sola landing page, $6,500 por una web de 5 páginas, $12,000 por 10 páginas con CMS y $18,000 por 15 páginas o más. El precio depende del número de páginas, las animaciones a medida, las integraciones y las necesidades de redacción. Cada web se construye en Next.js, se aloja en Vercel y se optimiza para SEO desde el primer día, nunca con plantillas."
       },
       {
         "category": "pricing",
-        "question": "How much does an AI chatbot cost to build?",
-        "answer": "An AI chatbot trained on 100+ Q&A pairs and embedded site-wide is included in our $18,000 Conversational AI suite, which also covers a voice agent, SMS automations, and a full content pipeline. As a standalone add-on to a website tier, an AI chatbot starts at $2,500. All bots integrate with your CRM and capture leads 24/7."
+        "question": "¿Cuánto cuesta construir un chatbot con IA?",
+        "answer": "Un chatbot con IA entrenado con más de 100 pares de preguntas y respuestas e integrado en toda la web está incluido en nuestra suite de IA conversacional de $18,000, que también cubre un agente de voz, automatizaciones por SMS y un sistema completo de contenido. Como complemento independiente de un plan de web, un chatbot con IA empieza en $2,500. Todos los bots se integran con tu CRM y captan leads las 24 horas."
       },
       {
         "category": "pricing",
-        "question": "How much does an AI voice agent cost per month?",
-        "answer": "Our AI voice agent setup starts at $2,500 one-time, with 500 voice minutes included for the first month. Ongoing minutes are billed at standard telephony rates and rolled into a monthly retainer. The agent answers calls, qualifies leads, books appointments, and routes urgent calls to a human, all in natural conversational language."
+        "question": "¿Cuánto cuesta al mes un agente de voz con IA?",
+        "answer": "La configuración de nuestro agente de voz con IA empieza en $2,500 como pago único, con 500 minutos de voz incluidos el primer mes. Los minutos posteriores se facturan a tarifas de telefonía estándar y se integran en un plan mensual. El agente responde llamadas, cualifica leads, reserva citas y deriva las llamadas urgentes a una persona, todo en un lenguaje natural y conversacional."
       },
       {
         "category": "pricing",
-        "question": "Do you offer monthly retainers or just project work?",
-        "answer": "Both. Project work starts at $2,000 and is billed in milestones. Retainers start at $1,500/month for site maintenance, AI monitoring, and CRM upkeep, or $3,500/month for full-service growth: Google and Meta ads management, AI-assisted content production, and 5 hours of dev work each month. Retainers require a 3 or 6 month minimum."
+        "question": "¿Ofrecéis planes mensuales o solo proyectos puntuales?",
+        "answer": "Ambos. Los proyectos empiezan en $2,000 y se facturan por hitos. Los planes mensuales empiezan en $1,500/mes para mantenimiento de la web, supervisión de la IA y cuidado del CRM, o $3,500/mes para crecimiento integral: gestión de anuncios en Google y Meta, producción de contenido asistida por IA y 5 horas de desarrollo al mes. Los planes requieren un compromiso mínimo de 3 o 6 meses."
       },
       {
         "category": "process",
-        "question": "How long does it take to build a custom website?",
-        "answer": "A single landing page typically launches in 2 to 3 weeks. A 5-page site takes 4 to 6 weeks. A 10-page site with CMS and AI integrations takes 8 to 12 weeks. Timeline depends on how quickly you provide content, brand input, and approvals. We move fast, most agencies take 2 to 3 times longer."
+        "question": "¿Cuánto se tarda en construir una web a medida?",
+        "answer": "Una sola landing page suele publicarse en 2 a 3 semanas. Una web de 5 páginas lleva de 4 a 6 semanas. Una web de 10 páginas con CMS e integraciones de IA lleva de 8 a 12 semanas. El plazo depende de la rapidez con la que nos entregues contenido, indicaciones de marca y aprobaciones. Vamos rápido: la mayoría de las agencias tardan 2 o 3 veces más."
       },
       {
         "category": "process",
-        "question": "How long does it take to deploy an AI agent?",
-        "answer": "A standard AI chatbot trained on your existing FAQs is live in 7 to 10 business days. A voice agent with a custom call script takes 10 to 14 days. A full multi-agent ecosystem with CRM, calendar, and payment integrations takes 4 to 8 weeks depending on complexity. We start with a discovery call, then a paid scoping document, then build."
+        "question": "¿Cuánto se tarda en desplegar un agente de IA?",
+        "answer": "Un chatbot con IA estándar entrenado con tus preguntas frecuentes actuales está en línea en 7 a 10 días laborables. Un agente de voz con un guion de llamada a medida lleva de 10 a 14 días. Un ecosistema multiagente completo con integraciones de CRM, calendario y pagos lleva de 4 a 8 semanas según su complejidad. Empezamos con una llamada de descubrimiento, después un documento de alcance de pago y luego el desarrollo."
       },
       {
         "category": "process",
-        "question": "What does the design and build process look like?",
-        "answer": "Five phases: Discovery (your goals and audience), Strategy (a tailored roadmap), Design (visual concepts and prototypes), Development (modern, performant code), and Launch & Optimize (deploy, monitor, refine). You get weekly updates and a Loom walkthrough at every milestone, no live status meetings unless you want one."
+        "question": "¿Cómo es el proceso de diseño y desarrollo?",
+        "answer": "Cinco fases: Descubrimiento (tus objetivos y tu audiencia), Estrategia (una hoja de ruta a medida), Diseño (conceptos visuales y prototipos), Desarrollo (código moderno y de alto rendimiento) y Lanzamiento y optimización (publicar, monitorizar, refinar). Recibes actualizaciones semanales y un recorrido en Loom en cada hito, sin reuniones de seguimiento en directo salvo que tú las quieras."
       },
       {
         "category": "capabilities",
-        "question": "What's the difference between an AI chatbot and an AI voice agent?",
-        "answer": "An AI chatbot is text-based and lives on your website or in messaging apps. It answers FAQs, books appointments, and captures leads through chat. An AI voice agent answers actual phone calls in natural spoken language. Voice agents are best for inbound sales, after-hours support, and appointment confirmations. Many businesses run both for full coverage."
+        "question": "¿Cuál es la diferencia entre un chatbot con IA y un agente de voz con IA?",
+        "answer": "Un chatbot con IA funciona por texto y vive en tu web o en aplicaciones de mensajería: responde preguntas frecuentes, reserva citas y capta leads a través del chat. Un agente de voz con IA atiende llamadas telefónicas reales en lenguaje hablado natural. Los agentes de voz son ideales para ventas entrantes, atención fuera de horario y confirmaciones de citas. Muchos negocios usan ambos para una cobertura completa."
       },
       {
         "category": "capabilities",
-        "question": "Can your AI agents integrate with HubSpot, Salesforce, or GoHighLevel?",
-        "answer": "Yes. Our AI agents and automations integrate with HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe, and Calendly natively. For CRMs and tools without an existing integration, we build a custom connector, no Zapier middleman tax. Your data stays in your systems; we just make them talk to each other."
+        "question": "¿Vuestros agentes de IA se integran con HubSpot, Salesforce o GoHighLevel?",
+        "answer": "Sí. Nuestros agentes de IA y automatizaciones se integran de forma nativa con HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe y Calendly. Para los CRM y herramientas sin integración existente construimos un conector a medida, sin pagar el peaje de intermediarios como Zapier. Tus datos se quedan en tus sistemas; nosotros solo hacemos que se comuniquen entre sí."
       },
       {
         "category": "capabilities",
-        "question": "Do you build websites in Next.js, WordPress, or Webflow?",
-        "answer": "We build exclusively in Next.js with TypeScript, Tailwind CSS, and Framer Motion. Sites are hosted on Vercel for sub-second load times and global edge delivery. We do not build in WordPress, Wix, Squarespace, or Webflow, those platforms can't deliver the performance, custom animations, or AI integrations our clients need."
+        "question": "¿Construís webs en Next.js, WordPress o Webflow?",
+        "answer": "Construimos exclusivamente en Next.js con TypeScript, Tailwind CSS y Framer Motion. Las webs se alojan en Vercel para tiempos de carga inferiores a un segundo y distribución global en el edge. No trabajamos con WordPress, Wix, Squarespace ni Webflow: esas plataformas no pueden ofrecer el rendimiento, las animaciones a medida ni las integraciones de IA que necesitan nuestros clientes."
       },
       {
         "category": "capabilities",
-        "question": "Do you write the website copy, or do I provide it?",
-        "answer": "Either works. Most clients provide raw notes or bullet points and we shape them into final copy. Full professional copywriting is included at our $18,000 tier and available as a $200/page add-on at any other tier. Ad copy for Google and Meta campaigns is always written by us when we manage the ads."
+        "question": "¿Escribís vosotros los textos de la web o los aporto yo?",
+        "answer": "Cualquiera de las dos opciones funciona. La mayoría de los clientes nos pasan notas o puntos clave en bruto y nosotros les damos forma como texto final. La redacción profesional completa está incluida en nuestro plan de $18,000 y disponible como complemento de $200 por página en cualquier otro plan. Los textos de los anuncios para campañas de Google y Meta siempre los escribimos nosotros cuando gestionamos los anuncios."
       },
       {
         "category": "trust",
-        "question": "Where is Blok Blok Studio located, and do you work internationally?",
-        "answer": "Our studio is based in Berlin, Germany. We work with clients in the United States, United Kingdom, the Netherlands, France, Spain, and across the EU. Communication is asynchronous via Loom, email, and text, we accommodate every time zone. Invoicing and contracts are available in USD or EUR depending on your preference."
+        "question": "¿Dónde está Blok Blok Studio y trabajáis a nivel internacional?",
+        "answer": "Nuestro estudio está en Berlín, Alemania. Trabajamos con clientes en Estados Unidos, Reino Unido, Países Bajos, Francia, España y toda la UE. La comunicación es asíncrona por Loom, email y mensajes, así que nos adaptamos a cualquier zona horaria. La facturación y los contratos están disponibles en USD o EUR, según prefieras."
       },
       {
         "category": "trust",
-        "question": "Do I own my website code and AI agent configurations?",
-        "answer": "Yes, completely. On project completion you receive full ownership of the code, design files, AI prompts, and automation configurations. The site is deployed to your own Vercel account under your billing. The CRM, ad accounts, and domains stay in your name from day one. We never lock clients into our systems."
+        "question": "¿Soy el propietario del código de mi web y de la configuración de mis agentes de IA?",
+        "answer": "Sí, por completo. Al finalizar el proyecto recibes la propiedad total del código, los archivos de diseño, los prompts de IA y las configuraciones de las automatizaciones. La web se despliega en tu propia cuenta de Vercel y con tu facturación. El CRM, las cuentas publicitarias y los dominios están a tu nombre desde el primer día. Nunca atamos a los clientes a nuestros sistemas."
       },
       {
         "category": "trust",
-        "question": "Will my site be mobile-responsive and SEO-optimized?",
-        "answer": "Yes, both are non-negotiable in every build. Mobile-first responsive design is tested at 375px, 768px, 1024px, and 1440px. Every page ships with meta titles, descriptions, schema markup, alt text, and a sitemap submitted to Google. We target Lighthouse scores of 90+ for performance and 95+ for accessibility before launch."
+        "question": "¿Mi web será responsive y estará optimizada para SEO?",
+        "answer": "Sí, ambas cosas son innegociables en cada desarrollo. El diseño responsive con enfoque mobile first se prueba a 375px, 768px, 1024px y 1440px. Cada página se entrega con meta títulos, descripciones, marcado schema, texto alternativo y un sitemap enviado a Google. Antes del lanzamiento buscamos puntuaciones Lighthouse de 90+ en rendimiento y 95+ en accesibilidad."
       }
     ]
   },
@@ -2325,7 +2325,7 @@
       ],
       "appBuild": [
         {
-          "name": "Launchpad",
+          "name": "Despegue",
           "price": 9500,
           "disp": "$9,500",
           "tag": "Valida tu idea",
@@ -2422,7 +2422,7 @@
           "ideal": "Equipos que lanzan un producto multiplataforma pulido a usuarios reales"
         },
         {
-          "name": "Flagship",
+          "name": "Insignia",
           "price": 62000,
           "disp": "$62,000",
           "tag": "Producto completo",
@@ -2523,7 +2523,7 @@
           "ideal": "Apps ya publicadas que deben seguir sanas, en regla y en las tiendas"
         },
         {
-          "name": "Momentum",
+          "name": "Impulso",
           "price": 4800,
           "disp": "$4,800",
           "per": "/mes",
@@ -2570,7 +2570,7 @@
           "ideal": "Apps en producción que iteran activamente según los datos de uso"
         },
         {
-          "name": "Partner",
+          "name": "Socio",
           "price": 10500,
           "disp": "$10,500",
           "per": "/mes",
@@ -2916,7 +2916,7 @@
       ],
       "brandingBuild": [
         {
-          "name": "Brand Lite",
+          "name": "Marca Esencial",
           "price": 4000,
           "disp": "$4,000",
           "tag": "Logo + paleta + tipografía",

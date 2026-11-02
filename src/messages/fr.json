@@ -1497,7 +1497,7 @@
               "l": "Revue mensuelle de la santé de votre pipeline GHL : leads bloqués, affaires dormantes et erreurs d'automatisation. 3 ajustements d'automatisation par mois (par ex. mise à jour des textes d'e-mail, modification du timing des déclencheurs, réparation de séquences cassées). Nettoyage de la liste de contacts : signalement des doublons et suppression des rebonds (500 contacts/mois max)."
             },
             {
-              "i": "Support",
+              "i": "Assistance",
               "l": "Support par message et e-mail uniquement (pas de téléphone ni d'appels en direct à ce niveau). Délai de réponse de 48 heures les jours ouvrés (du lundi au vendredi, de 9 h à 17 h). Jusqu'à 10 demandes de support par mois. Chaque demande = 1 requête précise (pas une liste de modifications). Au-delà de 10 demandes, facturation à $175/h."
             }
           ],
@@ -1619,7 +1619,7 @@
       ],
       "social": [
         {
-          "name": "Social Starter",
+          "name": "Social Essentiel",
           "price": 1500,
           "disp": "$1,500",
           "per": "/mois",
@@ -1857,7 +1857,7 @@
               "l": "Tests manuels sur Chrome, Safari, Firefox et Edge. Tests mobiles sur Safari iOS et Chrome Android. Tous les parcours utilisateurs clés testés de bout en bout. Les corrections de bugs pendant le développement sont incluses. Corrections de bugs après la mise en ligne couvertes pendant 30 jours (voir conditions de passation ci-dessous)."
             },
             {
-              "i": "Documentation",
+              "i": "Documentation technique et utilisateur",
               "l": "Documentation technique : endpoints de l'API, schéma de la base de données, guide de configuration de l'environnement et instructions de déploiement. Documentation utilisateur : guide pratique pour les administrateurs couvrant toutes les fonctionnalités clés (livré en PDF ou page Notion, jusqu'à 10 pages). Code commenté et organisé pour les futurs développeurs."
             },
             {
@@ -2080,7 +2080,7 @@
               "l": "Rapport livré avant le 5 de chaque mois couvrant : précision des réponses des agents, taux de complétion, taux d'erreur, volume d'utilisation et état des intégrations. Comprend des recommandations pour améliorer la performance. Livré en PDF ou en vidéo Loom."
             },
             {
-              "i": "Support",
+              "i": "Assistance",
               "l": "Support par message et e-mail avec délai de réponse de 48 heures (jours ouvrés). Jusqu'à 8 demandes de support par mois. Chaque demande = 1 problème ou question précis. Au-delà de 8 demandes, facturation à $200/h."
             }
           ],
@@ -2325,7 +2325,7 @@
       ],
       "appBuild": [
         {
-          "name": "Launchpad",
+          "name": "Rampe de Lancement",
           "price": 9500,
           "disp": "$9,500",
           "tag": "Validez votre idée",
@@ -2422,7 +2422,7 @@
           "ideal": "Équipes qui lancent un produit multiplateforme abouti auprès de vrais utilisateurs"
         },
         {
-          "name": "Flagship",
+          "name": "Produit Phare",
           "price": 62000,
           "disp": "$62,000",
           "tag": "Produit complet",
@@ -2523,7 +2523,7 @@
           "ideal": "Applications publiées qui doivent rester saines, conformes et présentes dans les stores"
         },
         {
-          "name": "Momentum",
+          "name": "Élan",
           "price": 4800,
           "disp": "$4,800",
           "per": "/mois",
@@ -2570,7 +2570,7 @@
           "ideal": "Applications en production qui itèrent activement à partir des données d'usage"
         },
         {
-          "name": "Partner",
+          "name": "Partenaire",
           "price": 10500,
           "disp": "$10,500",
           "per": "/mois",
@@ -2874,7 +2874,7 @@
               "l": "Meta + Google OU Meta + TikTok. Mélange de statique, carrousel et vidéo courte. 4 sont des vidéos de type UGC tournées par nos créateurs."
             },
             {
-              "i": "2 landing pages",
+              "i": "2 pages de destination",
               "l": "Page de liste d'attente pré-lancement (capture d'e-mail + compte à rebours) + page de conversion du jour J (offre complète). Les deux avec variantes A/B. Construites sur Webflow/Framer."
             },
             {
@@ -2916,7 +2916,7 @@
       ],
       "brandingBuild": [
         {
-          "name": "Brand Lite",
+          "name": "Marque Essentielle",
           "price": 4000,
           "disp": "$4,000",
           "tag": "Logo + palette + typographie",
@@ -3034,7 +3034,7 @@
               "l": "Palette étendue (principales, secondaires, teintes, nuances), hiérarchie typographique à 4 niveaux, style d'iconographie (12 icônes) et direction d'illustration ou de photographie."
             },
             {
-              "i": "Brand book (40+ pages)",
+              "i": "Livre de marque (40+ pages)",
               "l": "Stratégie, positionnement, voix, logo, couleurs, typographie, imagerie, iconographie, principes de mouvement, à faire/à éviter et exemples d'application. Livré en PDF + source Figma modifiable."
             },
             {

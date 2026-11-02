@@ -18,13 +18,24 @@ const errors = [], warns = [];
 // Proper nouns and codes that legitimately stay identical to English.
 const KEEP = /^(Blok Blok|BLOK BLOK|Blog|Studio|Journal|Team|Berlin|Virginia|Los Angeles|WhatsApp|Instagram|LinkedIn|GitHub|TikTok|Google|Meta|Stripe|Next\.js|React|Vercel|Impressum|Name|Email|E-mail|Design|Branding|Marketing|SaaS|Social Media|Coach|Bronco|Kofi|Luki|Chase|Kyle|Bridget|Yahya|Ayan|Parsons|Punjab|Virginia Commonwealth|Creative Advertising|Senior|Full Stack|Video Editor|Creative Director|https?:|\{|[\d\s.,+%$€:/·-]*$)/i;
 
+// Arrays are kept as a whole (for length checks) AND flattened per index
+// (so an English item inside an otherwise translated array is caught).
 function flat(o, p = '', out = {}) {
   for (const [k, v] of Object.entries(o)) {
     const kk = p ? `${p}.${k}` : k;
-    if (v && typeof v === 'object' && !Array.isArray(v)) flat(v, kk, out); else out[kk] = v;
+    if (Array.isArray(v)) {
+      out[kk] = v;
+      v.forEach((item, i) => {
+        if (item && typeof item === 'object') flat(item, `${kk}[${i}]`, out);
+        else out[`${kk}[${i}]`] = item;
+      });
+    } else if (v && typeof v === 'object') flat(v, kk, out);
+    else out[kk] = v;
   }
   return out;
 }
+// Machine identifiers inside arrays (faq category ids, package ids, hrefs) are not copy.
+const ID_KEY = /\.(category|id|slug|href|key|icon|value|code)$/;
 const icu = (s) => (String(s).match(/\{[a-zA-Z_]+/g) || []).sort().join(',');
 
 // ── messages ──
@@ -35,7 +46,7 @@ catch (e) { errors.push(`messages: ${e.message}`); }
 if (msgs) {
   let identical = 0;
   for (const [k, v] of Object.entries(en)) {
-    if (!(k in msgs)) { errors.push(`messages: missing key ${k}`); continue; }
+    if (!(k in msgs)) { if (!/\]$|\]\./.test(k)) errors.push(`messages: missing key ${k}`); continue; }
     const t = msgs[k];
     if (Array.isArray(v)) {
       if (!Array.isArray(t) || t.length !== v.length) errors.push(`messages: ${k} must be an array of ${v.length}`);
@@ -45,7 +56,7 @@ if (msgs) {
     if (typeof v === 'string') {
       if (typeof t !== 'string') { errors.push(`messages: ${k} must be a string`); continue; }
       if (icu(v) !== icu(t)) errors.push(`messages: ${k} placeholders differ (en ${icu(v) || 'none'} vs ${icu(t) || 'none'})`);
-      if (t === v && v.length > 3 && !KEEP.test(v) && loc !== 'en') { identical++; warns.push(`messages: ${k} still English: "${v.slice(0, 50)}"`); }
+      if (t === v && v.length > 3 && !KEEP.test(v) && !ID_KEY.test(k) && loc !== 'en') { identical++; warns.push(`messages: ${k} still English: "${v.slice(0, 50)}"`); }
       if (/—/.test(t)) warns.push(`messages: ${k} contains an em dash`);
     }
   }
@@ -68,12 +79,14 @@ if (b) {
   const eb = flat(enB), lb = flat(b);
   let same = 0;
   for (const [k, v] of Object.entries(eb)) {
-    if (!(k in lb)) { errors.push(`bundle: missing ${k}`); continue; }
+    if (!(k in lb)) { if (!/\]$|\]\./.test(k)) errors.push(`bundle: missing ${k}`); continue; }
     const t = lb[k];
     if (Array.isArray(v) && (!Array.isArray(t) || t.length !== v.length)) errors.push(`bundle: ${k} must have ${v.length} items`);
     if (typeof v === 'string') {
       if (typeof t !== 'string') { errors.push(`bundle: ${k} must be a string`); continue; }
-      if (t === v && v.length > 3 && !KEEP.test(v) && loc !== 'en') { same++; warns.push(`bundle: ${k} still English`); }
+      // en.ts carries the webdesign-berlin page in German, so identical German text is expected for de.
+      const nativeGerman = loc === 'de' && k.startsWith('specialties.webdesign-berlin.');
+      if (t === v && v.length > 3 && !KEEP.test(v) && !ID_KEY.test(k) && !nativeGerman && loc !== 'en') { same++; warns.push(`bundle: ${k} still English`); }
       if (/\.transcript$|\.content$/.test(k)) {
         const paras = (s) => s.trim().split(/\n\s*\n/).length;
         if (k.endsWith('.content')) {
