@@ -15,7 +15,14 @@
     "cookies": "Chính sách Cookie",
     "impressum": "Thông tin pháp lý",
     "data_rights": "Quyền Dữ liệu của bạn",
-    "accessibility": "Khả năng tiếp cận"
+    "accessibility": "Khả năng tiếp cận",
+    "v2_work": "Dự án",
+    "v2_studio": "Studio",
+    "v2_services": "Dịch vụ",
+    "v2_journal": "Nhật ký",
+    "v2_cta": "Bắt đầu dự án",
+    "v2_ideas": "Ý tưởng",
+    "v2_careers": "Tuyển dụng"
   },
   "faq": {
     "meta_title": "Câu hỏi thường gặp, Studio Thiết kế Web tại Berlin",
@@ -36,7 +43,7 @@
       {
         "category": "pricing",
         "question": "Một website tùy chỉnh có giá bao nhiêu?",
-        "answer": "Website tùy chỉnh tại Blok Blok Studio bắt đầu từ 2.000 USD cho một landing page đơn lẻ và lên đến 9.500 USD cho một site 10 trang có CMS, branding và SEO on-page. Giá phụ thuộc vào số trang, hiệu ứng tùy chỉnh, tích hợp AI và nhu cầu copywriting. Mọi site đều được xây bằng Next.js, host trên Vercel và tối ưu SEO từ ngày đầu, không bao giờ là template."
+        "answer": "Website tùy chỉnh tại Blok Blok Studio bắt đầu từ 2.000 USD cho một landing page đơn lẻ, 6.500 USD cho website 5 trang, 12.000 USD cho 10 trang kèm CMS và 18.000 USD cho 15 trang trở lên. Giá phụ thuộc vào số trang, hiệu ứng tùy chỉnh, các tích hợp và nhu cầu copywriting. Mọi website đều được xây bằng Next.js, host trên Vercel và tối ưu SEO từ ngày đầu, không bao giờ là template."
       },
       {
         "category": "pricing",
@@ -138,17 +145,130 @@
     "stats_projects": "Dự án đã bàn giao",
     "stats_brands": "Thương hiệu đã phục vụ",
     "stats_industries": "Lĩnh vực",
-    "stats_custom": "Thiết kế riêng, không dùng mẫu"
+    "stats_custom": "Thiết kế riêng, không dùng mẫu",
+    "v2_tagline": "Studio Thiết kế Web tại Berlin",
+    "v2_locations": "Berlin · Virginia · Los Angeles",
+    "v2_scroll": "Cuộn xuống",
+    "v2_manifesto_a": "Một studio thiết kế boutique tại Berlin. Sản phẩm cao cấp, nguyên bản cho những thương hiệu tham vọng trên toàn thế giới. Không dùng template,",
+    "v2_manifesto_em": "xây từng blok một.",
+    "v2_about_link": "Về studio",
+    "v2_services_label": "Chúng tôi làm gì",
+    "v2_services_link": "Tất cả dịch vụ",
+    "v2_service_1_title": "Website Next.js xây riêng",
+    "v2_service_1_detail": "Front end React viết tay, không page builder, không theme. Nhanh trên mọi thiết bị và dễ mở rộng về sau.",
+    "v2_service_2_title": "Thiết kế tập trung chuyển đổi",
+    "v2_service_2_detail": "Mỗi trang được bố cục quanh một hành động duy nhất: đặt lịch, mua hàng hoặc gọi điện. Nội dung, thứ bậc và bằng chứng đều hướng về cùng một đích.",
+    "v2_service_3_title": "SEO từ ngày đầu",
+    "v2_service_3_detail": "SEO kỹ thuật, dữ liệu có cấu trúc và tìm kiếm địa phương được tích hợp ngay trong quá trình xây dựng, không chắp vá sau khi ra mắt.",
+    "v2_service_4_title": "Thương mại điện tử",
+    "v2_service_4_detail": "Cửa hàng Shopify và headless với vận chuyển, thu thập email và cơ chế mở bán được cấu hình trọn vẹn từ đầu đến cuối.",
+    "v2_service_5_title": "Chăm sóc và hiệu năng",
+    "v2_service_5_detail": "Hosting, giám sát, tối ưu tốc độ và cập nhật nội dung sau khi ra mắt, để website tiếp tục sinh lời cho bạn.",
+    "v2_work_label": "Dự án tiêu biểu",
+    "v2_work_link": "Tất cả dự án",
+    "v2_result_coach_luki": "Khách hàng đặt lịch và thanh toán ngay trên website. SEO địa phương mang về người tìm kiếm tại Berlin.",
+    "v2_result_bronco_plumbing": "$50k trong 5 tháng đầu. 5.0 sao trên 52 đánh giá Google.",
+    "v2_result_coach_kofi": "Yêu cầu tư vấn tăng 200% sau khi ra mắt.",
+    "v2_result_exotic_ripz": "$191k doanh số qua 1,790 đơn hàng. Các đợt mở bán hết sạch trong vài giờ.",
+    "v2_result_kds_systems": "Câu chuyện dịch vụ rõ ràng và quy trình đặt lịch giúp tăng khách hàng tiềm năng chất lượng.",
+    "v2_proof_label": "Những con số",
+    "v2_proof_1_value": "$191k",
+    "v2_proof_1_label": "Doanh số qua một cửa hàng chúng tôi bàn giao",
+    "v2_proof_2_value": "5.0",
+    "v2_proof_2_label": "Điểm Google trên 52 đánh giá, Bronco Plumbing",
+    "v2_proof_3_value": "200%",
+    "v2_proof_3_label": "Yêu cầu tư vấn tăng thêm, Coach Kofi",
+    "v2_quotes_label": "Khách hàng",
+    "v2_clients_label": "Được tin dùng bởi",
+    "v2_talk": "Hãy trò chuyện.",
+    "v2_talk_sub": "Cho chúng tôi biết website cần làm được gì. Chúng tôi sẽ nói rõ cần những gì để đạt được điều đó.",
+    "v2_founder": "Nhà sáng lập",
+    "v2_email": "Gửi tin nhắn",
+    "v2_whatsapp": "WhatsApp",
+    "v2_book": "Đặt lịch gọi",
+    "v2_loc_label": "Studio",
+    "v2_pages_label": "Trang",
+    "v2_legal_label": "Pháp lý",
+    "v2_social_label": "Mạng xã hội",
+    "v2_open_menu": "Mở menu",
+    "v2_close_menu": "Đóng menu",
+    "v2_rights": "Bảo lưu mọi quyền.",
+    "v2_services_sub": "Một gói duy nhất, làm đến nơi đến chốn. Chúng tôi thiết kế và xây dựng website, rồi host và duy trì để nó luôn vận hành.",
+    "v2_group_1": "Website và thương hiệu",
+    "v2_group_1_detail": "Thiết kế và xây dựng, kèm bộ nhận diện đi cùng.",
+    "v2_group_2": "Tăng trưởng trả phí",
+    "v2_group_2_detail": "Chiến dịch tìm kiếm và mạng xã hội dẫn khách về website chúng tôi đã xây.",
+    "v2_group_3": "AI và tự động hóa",
+    "v2_group_3_detail": "Agent, chat, quy trình tự động và dashboard vận hành phần hậu cần cho bạn.",
+    "v2_quiz_label": "Chưa biết bắt đầu từ đâu?",
+    "v2_quiz_title": "Tìm xem doanh nghiệp của bạn đang mất khách ở đâu.",
+    "v2_quiz_sub": "Năm câu hỏi nhanh. Chúng tôi chỉ ra điều sẽ sửa trước tiên, rồi bạn chọn giờ để trao đổi. Chỉ mất khoảng một phút.",
+    "v2_quiz_cta": "Làm bài trắc nghiệm 1 phút",
+    "v2_quiz_step_1": "Loại hình doanh nghiệp",
+    "v2_quiz_step_2": "Bạn cần hỗ trợ gì",
+    "v2_quiz_step_3": "Khoảng ngân sách",
+    "v2_quiz_step_4": "Thời gian",
+    "v2_quiz_step_5": "Cách liên hệ với bạn",
+    "v2_hero_cta": "Bắt đầu dự án",
+    "v2_quiz_link": "Làm bài trắc nghiệm",
+    "v2_globe_label": "Khách hàng của chúng tôi ở đâu",
+    "v2_globe_title": "Xây dựng tại Berlin. Được tin cậy khắp châu Âu, Bắc Mỹ và châu Á.",
+    "v2_globe_sub": "{clients} thương hiệu tại {cities} thành phố trên {continents} châu lục, với đội ngũ làm việc ở bốn múi giờ. Dự án của bạn vẫn tiến triển trong lúc bạn ngủ.",
+    "v2_globe_studio": "Studio",
+    "v2_globe_clients": "Khách hàng",
+    "v2_globe_team": "Đội ngũ",
+    "v2_headline": "Xây dựng thương hiệu, từng blok một.",
+    "v2_see_work": "Xem dự án",
+    "v2_globe_client_one": "Khách hàng",
+    "v2_globe_cities": "thành phố",
+    "v2_hosting_title": "Hosting và chăm sóc",
+    "v2_hosting_subtitle": "Nhanh, được giám sát, luôn cập nhật",
+    "v2_hosting_bullet_1": "Hosting được quản lý trên Vercel với CDN toàn cầu",
+    "v2_hosting_bullet_2": "SSL, sao lưu và giám sát uptime",
+    "v2_hosting_bullet_3": "Cập nhật bảo mật và thư viện phụ thuộc",
+    "v2_hosting_bullet_4": "Tối ưu tốc độ và kiểm tra Core Web Vitals",
+    "v2_hosting_bullet_5": "Thay đổi nội dung và hỗ trợ khi bạn cần",
+    "v2_globe_hint": "Kéo để xoay, cuộn hoặc chụm để thu phóng, hoặc chọn một thành phố.",
+    "v2_proof_4_value": "$3B+",
+    "v2_proof_4_label": "Doanh thu hằng năm của khách hàng lớn nhất, Philippine Airlines",
+    "v2_result_public_affair": "Cổng xác minh tuổi cao cấp mà 95% khách truy cập hoàn tất.",
+    "v2_result_military_newschool": "Ngôi nhà số dành cho sinh viên có liên hệ với quân đội.",
+    "v2_archive": "lưu trữ",
+    "v2_globe_nowebgl": "WebGL đang tắt trong trình duyệt này. Danh sách thành phố nằm bên cạnh.",
+    "v2_quote_1_role": "Bronco Plumbing, Dallas–Fort Worth",
+    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_3_role": "Cửa hàng thẻ bài sưu tầm",
+    "v2_quote_1_text": "$50,000 doanh thu gộp trong năm tháng đầu, điểm 5.0 sao trên 52 đánh giá Google và vị trí trung bình 5.2 trên Google cho các từ khóa của anh ấy.",
+    "v2_quote_2_text": "Blok Blok Studio đã thay đổi hoàn toàn sự hiện diện trực tuyến của tôi. Thiết kế táo bạo thể hiện trọn vẹn triết lý huấn luyện của tôi và kết quả thật đáng kinh ngạc.",
+    "v2_quote_3_text": "Cửa hàng thương mại điện tử họ xây cho chúng tôi thật tuyệt vời. Các đợt mở bán booster pack hết sạch trong vài giờ và sự gắn kết của cộng đồng qua website thật ấn tượng.",
+    "v2_quote_1_kind": "Kết quả",
+    "v2_offer_title": "Website, xây dựng và host trọn gói",
+    "v2_offer_subtitle": "Xây dựng riêng, tập trung chuyển đổi, đã bao gồm hosting và chăm sóc",
+    "v2_offer_build_label": "Phần xây dựng",
+    "v2_offer_care_label": "Hosting và chăm sóc, đã bao gồm",
+    "v2_result_grant_parkhurst": "Portfolio kèm cổng khách hàng tự phục vụ, hoạt động từ tháng 9 năm 2026.",
+    "v2_next_label": "Điều gì diễn ra tiếp theo",
+    "v2_next_1_title": "Chúng tôi gọi lại cho bạn",
+    "v2_next_1_desc": "Trong vòng một ngày làm việc. Hai mươi phút bàn về điều website phải làm được cho doanh nghiệp, không gì khác.",
+    "v2_next_2_title": "Phạm vi và một mức giá cố định",
+    "v2_next_2_desc": "Kế hoạch bằng văn bản với số trang, thời gian và một con số duy nhất. Website năm trang từ {price}, không tính giờ.",
+    "v2_next_3_title": "Từ khởi động đến ra mắt",
+    "v2_next_3_desc": "Nhận cọc là bắt tay vào làm. Hầu hết website năm trang lên sóng trong bốn đến sáu tuần, đã bao gồm hosting và chăm sóc."
   },
   "projects": {
     "title": "Dự án của chúng tôi",
     "subtitle": "Khám phá portfolio trải nghiệm số, bộ nhận diện thương hiệu và giải pháp sáng tạo của chúng tôi.",
     "filter_all": "Tất cả",
     "filter_web": "Thiết kế Web",
-    "filter_brand": "Branding",
+    "filter_brand": "Thương hiệu",
     "filter_app": "Phát triển App",
     "filter_marketing": "Marketing",
-    "view_project": "Xem dự án"
+    "view_project": "Xem dự án",
+    "cat_web": "Thiết kế Web",
+    "cat_ecom": "Thương mại điện tử",
+    "cat_brand": "Thương hiệu",
+    "v2_label": "Dự án tiêu biểu",
+    "v2_count": "{count} dự án"
   },
   "about": {
     "title": "Về chúng tôi",
@@ -169,7 +289,23 @@
     "stats_projects": "Dự án hoàn thành",
     "stats_clients": "Khách hàng hài lòng",
     "stats_years": "Năm kinh nghiệm",
-    "stats_awards": "Ngành phục vụ"
+    "stats_awards": "Ngành phục vụ",
+    "v2_label": "Studio",
+    "v2_intro": "Boutique là lựa chọn có chủ đích. Chúng tôi chỉ nhận một số ít thương hiệu cùng lúc, để mỗi website đều có nhà sáng lập trực tiếp tham gia, thay vì một template và một mã số ticket.",
+    "v2_team_label": "Bạn sẽ làm việc cùng ai",
+    "v2_team_link": "Gặp đội ngũ",
+    "v2_cta": "Bắt đầu với bài trắc nghiệm",
+    "ind_fitness": "Thể hình và huấn luyện",
+    "ind_home_services": "Dịch vụ gia đình",
+    "ind_childcare": "Chăm sóc trẻ em",
+    "ind_real_estate": "Bất động sản",
+    "ind_education": "Giáo dục đại học",
+    "ind_wellness": "Sức khỏe và sự kiện",
+    "ind_photography": "Nhiếp ảnh",
+    "ind_it": "Dịch vụ CNTT",
+    "ind_cannabis": "Bán lẻ cần sa",
+    "ind_aviation": "Hàng không",
+    "ind_collectibles": "Thương mại điện tử đồ sưu tầm"
   },
   "blog": {
     "meta_title": "Blog: Góc nhìn về thiết kế web, thương hiệu & SEO",
@@ -198,6 +334,30 @@
         "title": "Vì sao bản sắc thương hiệu là khoản đầu tư tốt nhất của bạn",
         "description": "Thương hiệu của bạn không chỉ là logo. Bản sắc thương hiệu mạnh xây dựng niềm tin, giữ vững mức giá cao cấp và biến khách hàng thành người ủng hộ.",
         "category": "Thương hiệu"
+      }
+    },
+    "v2_label": "Ý tưởng",
+    "v2_tab_all": "Tất cả",
+    "v2_tab_read": "Đọc",
+    "v2_tab_watch": "Xem",
+    "v2_tab_news": "Tin tức",
+    "v2_type_read": "Bài viết",
+    "v2_type_watch": "Video",
+    "v2_type_news": "Tin tức",
+    "v2_more": "Thêm",
+    "v2_count": "{count, plural, one {# mục} other {# mục}}",
+    "news": {
+      "philippine-airlines": {
+        "title": "Blok Blok Studio đang hợp tác với Philippine Airlines",
+        "summary": "Hãng hàng không quốc gia Philippines, với doanh thu hằng năm trên 3 tỷ USD, là khách hàng lớn nhất của chúng tôi đến nay. Một studio năm người ở Berlin, được tin cậy tại Manila."
+      },
+      "brand-guidelines-v2": {
+        "title": "Hướng dẫn Thương hiệu V2: Montserrat, Inter và lockup mới",
+        "summary": "Phiên bản thứ hai của bộ nhận diện, ngày 16 tháng 10 năm 2026. Hai kiểu chữ, một lockup, và câu mở đầu website hiện nay: Xây dựng thương hiệu, từng blok một."
+      },
+      "grant-parkhurst-portal": {
+        "title": "Grant Parkhurst Photography: bàn giao portfolio và cổng khách hàng",
+        "summary": "Website lấy nhiếp ảnh làm trung tâm, không ảnh nào bị cắt xén, kèm cổng nơi nhiếp ảnh gia tải album lên và khách hàng tự tải bộ ảnh của mình."
       }
     }
   },
@@ -248,7 +408,7 @@
     "service_6_bullet_3": "Responsive mobile-first",
     "service_6_bullet_4": "Tích hợp CMS",
     "service_6_bullet_5": "Tinh chỉnh hiệu suất và tốc độ",
-    "service_7_title": "Branding",
+    "service_7_title": "Xây dựng thương hiệu",
     "service_7_subtitle": "Bộ nhận diện trực quan táo bạo nổi bật",
     "service_7_bullet_1": "Thiết kế logo và biểu tượng",
     "service_7_bullet_2": "Bảng màu và typography",
@@ -279,14 +439,39 @@
     "step_4_title": "Phát triển",
     "step_4_desc": "Chúng tôi xây dựng bằng công nghệ hiện đại đảm bảo tốc độ, khả năng mở rộng và độ tin cậy.",
     "step_5_title": "Ra mắt & Tối ưu",
-    "step_5_desc": "Chúng tôi triển khai, giám sát và liên tục tinh chỉnh để tối đa hóa hiệu suất."
+    "step_5_desc": "Chúng tôi triển khai, giám sát và liên tục tinh chỉnh để tối đa hóa hiệu suất.",
+    "v2_label": "Dịch vụ",
+    "v2_intro": "Một gói duy nhất, làm đến nơi đến chốn. Chúng tôi thiết kế và xây dựng website, rồi host và duy trì để nó luôn vận hành.",
+    "v2_process_label": "Một dự án diễn ra thế nào",
+    "v2_cta_label": "Chưa chắc mình cần gói nào?",
+    "v2_cta": "Làm bài trắc nghiệm 1 phút",
+    "v2_industries_label": "Chúng tôi xây dựng cho ai",
+    "v2_industries_more": "Xem cách làm"
   },
   "team": {
     "title": "Đội ngũ",
     "subtitle": "Gặp gỡ những bộ óc sáng tạo đứng sau Blok Blok Studio.",
     "role_founder": "Nhà sáng lập",
     "role_graphic": "Nhà thiết kế đồ họa cao cấp",
-    "role_web": "Nhà thiết kế web cao cấp"
+    "role_web": "Nhà thiết kế web cao cấp",
+    "v2_label": "Đội ngũ",
+    "v2_intro": "Năm người ở bốn múi giờ. Đủ nhỏ để bạn biết tên từng người, đủ rộng để dự án của bạn không bao giờ phải chờ trời sáng.",
+    "v2_studied": "Học vấn",
+    "v2_enjoys": "Ngoài giờ làm",
+    "v2_based": "Sống tại",
+    "role_marketing": "Chiến lược gia Marketing",
+    "role_fullstack": "Lập trình viên Full Stack",
+    "role_video": "Biên tập viên Video",
+    "role_creative": "Giám đốc Sáng tạo",
+    "chase_studied_1": "Thiết kế và Công nghệ",
+    "chase_studied_2": "Parsons School of Design",
+    "chase_enjoys": "Bảo tàng nghệ thuật · Du lịch · Sáng tạo nội dung",
+    "kyle_studied_1": "Quảng cáo Sáng tạo",
+    "kyle_studied_2": "Virginia Commonwealth University",
+    "kyle_enjoys": "Brazilian jiu jitsu · Hoạt hình · Săn đồ cũ",
+    "ayan_studied_1": "Quản trị Kinh doanh và Quản lý Chiến lược",
+    "ayan_studied_2": "University of the Punjab",
+    "ayan_enjoys": "Khởi nghiệp · Những đêm xem phim · Săn lùng ly cà phê hoàn hảo"
   },
   "contact": {
     "title": "Liên hệ",
@@ -299,7 +484,8 @@
     "submit": "Gửi tin nhắn",
     "success": "Cảm ơn bạn! Chúng tôi sẽ phản hồi sớm.",
     "info_title": "Thông tin liên hệ",
-    "info_address": "Berlin, Đức"
+    "info_address": "Berlin, Đức",
+    "consent_text": "Tôi đồng ý cho xử lý dữ liệu cá nhân của mình như mô tả trong"
   },
   "footer": {
     "tagline": "Tạo dựng trải nghiệm số truyền cảm hứng.",
@@ -376,6 +562,8 @@
     "data_item_industry": "Ngành / lĩnh vực",
     "data_item_website": "URL website (tùy chọn)",
     "data_item_problem": "Chi tiết dự án và thách thức",
+    "data_item_budget": "Khoảng ngân sách và thời gian mong muốn (khi bạn cho chúng tôi biết trên form yêu cầu)",
+    "data_item_marketing_consent": "Việc bạn có tích vào ô nhận email marketing tùy chọn hay không, và thời điểm bạn xác nhận",
     "data_item_ip": "Địa chỉ IP (chỉ để xác minh sự đồng ý)",
     "data_use_title": "Cách chúng tôi sử dụng dữ liệu",
     "data_use_intro": "Chúng tôi sử dụng thông tin thu thập để:",
@@ -400,7 +588,29 @@
     "your_rights_cta": "Thực hiện quyền của bạn tại",
     "your_rights_link": "Trang Quyền Dữ liệu",
     "contact_title": "Liên hệ",
-    "contact_content": "Nếu bạn có câu hỏi về Chính sách Bảo mật hoặc cách chúng tôi xử lý dữ liệu, hãy liên hệ:"
+    "contact_content": "Nếu bạn có câu hỏi về Chính sách Bảo mật hoặc cách chúng tôi xử lý dữ liệu, hãy liên hệ:",
+    "data_item_phone": "Số điện thoại",
+    "third_party_pixels": "Chúng tôi chỉ tải pixel quảng cáo (Meta, Google) nếu bạn chủ động chấp nhận cookie marketing trong banner đồng ý; nếu không, không có cookie theo dõi hay dịch vụ phân tích nào được sử dụng.",
+    "legal_basis_title": "Cơ sở pháp lý cho việc xử lý",
+    "legal_basis_intro": "Theo Điều 6 GDPR, chúng tôi xử lý dữ liệu cá nhân của bạn dựa trên các cơ sở pháp lý sau:",
+    "legal_basis_consent": "Sự đồng ý (Điều 6(1)(a)): Khi bạn đăng ký nhận bản tin hoặc gửi form liên hệ với sự đồng ý rõ ràng",
+    "legal_basis_contract": "Cần thiết cho hợp đồng (Điều 6(1)(b)): Khi việc xử lý là cần thiết để thực hiện thỏa thuận dịch vụ với bạn",
+    "legal_basis_interest": "Lợi ích hợp pháp (Điều 6(1)(f)): Cho phân tích nội bộ, cải thiện dịch vụ và bảo vệ an ninh website của chúng tôi",
+    "legal_basis_withdraw": "Bạn có thể rút lại sự đồng ý bất cứ lúc nào mà không ảnh hưởng đến tính hợp pháp của việc xử lý đã thực hiện trước khi rút lại.",
+    "transfers_title": "Chuyển dữ liệu quốc tế",
+    "transfers_intro": "Một số nhà cung cấp dịch vụ bên thứ ba của chúng tôi có thể xử lý dữ liệu của bạn bên ngoài Khu vực Kinh tế châu Âu (EEA). Khi điều này xảy ra, chúng tôi bảo đảm có các biện pháp bảo vệ phù hợp:",
+    "transfers_vercel": "Vercel: Nhà cung cấp hosting của chúng tôi có thể xử lý dữ liệu tại Hoa Kỳ. Vercel tuân thủ các khuôn khổ bảo vệ dữ liệu hiện hành.",
+    "transfers_resend": "Resend: Nhà cung cấp dịch vụ gửi email của chúng tôi có thể xử lý dữ liệu tại Hoa Kỳ. Việc chuyển dữ liệu được bảo đảm bằng Điều khoản Hợp đồng Tiêu chuẩn (SCC).",
+    "transfers_note": "Chúng tôi chỉ chuyển dữ liệu đến các quốc gia hoặc tổ chức có mức bảo vệ đầy đủ, hoặc nơi có biện pháp bảo vệ phù hợp (như SCC hoặc quy tắc doanh nghiệp ràng buộc).",
+    "authority_title": "Cơ quan giám sát",
+    "authority_content": "Nếu bạn cho rằng việc chúng tôi xử lý dữ liệu cá nhân của bạn vi phạm GDPR, bạn có quyền khiếu nại lên cơ quan giám sát tại quốc gia thành viên EU nơi bạn thường trú, nơi làm việc hoặc nơi xảy ra hành vi bị cho là vi phạm. Bạn cũng có thể liên hệ với chúng tôi trước để chúng tôi cố gắng giải quyết vấn đề trực tiếp.",
+    "third_party_vercel": "Vercel: hosting website và ứng dụng (Hoa Kỳ; áp dụng các khuôn khổ bảo vệ dữ liệu và SCC)",
+    "third_party_slack": "Slack: thông báo nội bộ cho đội ngũ về yêu cầu mới (giới hạn ở tên, email, số điện thoại và loại hình doanh nghiệp)",
+    "third_party_turnstile": "Cloudflare Turnstile: chống spam trên các form của chúng tôi (xử lý địa chỉ IP của bạn)",
+    "third_party_cal": "Cal.com, đặt lịch hẹn khi bạn đặt cuộc gọi với chúng tôi",
+    "third_party_meta": "Meta (Facebook/Instagram): đo lường quảng cáo, chỉ khi bạn đồng ý cookie marketing. Với sự đồng ý đó, chúng tôi cũng có thể truyền địa chỉ email và số điện thoại của bạn ở dạng băm (ẩn danh hóa) để đo lường chuyển đổi quảng cáo.",
+    "third_party_google": "Google: đo lường quảng cáo (Google Ads), chỉ khi bạn đồng ý cookie marketing",
+    "marketing_double_optin": "Email marketing sử dụng cơ chế xác nhận hai bước (double opt-in). Chỉ tích vào ô tùy chọn trên form là chưa đủ: chúng tôi gửi một email xác nhận, và bạn chỉ được thêm vào danh sách sau khi bấm vào liên kết trong đó. Trước thời điểm ấy, chúng tôi không gửi email marketing cho bạn. Bạn có thể rút lại bất cứ lúc nào bằng liên kết hủy đăng ký trong mọi email, có hiệu lực ngay lập tức."
   },
   "terms": {
     "title": "Điều khoản Dịch vụ",
@@ -419,7 +629,15 @@
     "governing_law_title": "Luật điều chỉnh",
     "governing_law_content": "Các điều khoản này được điều chỉnh theo luật hiện hành. Mọi tranh chấp sẽ được giải quyết thông qua thương lượng thiện chí trước khi theo đuổi hành động pháp lý chính thức.",
     "changes_title": "Thay đổi điều khoản",
-    "changes_content": "Chúng tôi bảo lưu quyền sửa đổi các điều khoản này bất cứ lúc nào. Các thay đổi sẽ được đăng trên trang này với ngày cập nhật. Việc tiếp tục sử dụng website sau khi thay đổi đồng nghĩa với việc chấp nhận điều khoản đã sửa đổi."
+    "changes_content": "Chúng tôi bảo lưu quyền sửa đổi các điều khoản này bất cứ lúc nào. Các thay đổi sẽ được đăng trên trang này với ngày cập nhật. Việc tiếp tục sử dụng website sau khi thay đổi đồng nghĩa với việc chấp nhận điều khoản đã sửa đổi.",
+    "dispute_title": "Giải quyết tranh chấp",
+    "dispute_intro": "Nếu phát sinh tranh chấp từ các điều khoản này, chúng tôi khuyến khích bạn liên hệ với chúng tôi trước để tìm giải pháp hòa giải. Nếu không thể đạt được giải pháp không chính thức, quy trình sau sẽ được áp dụng:",
+    "dispute_informal": "Giải quyết không chính thức: Liên hệ với chúng tôi qua hello@blokblokstudio.com. Chúng tôi sẽ cố gắng giải quyết vấn đề trong vòng 30 ngày.",
+    "dispute_formal": "Thủ tục chính thức: Nếu giải quyết không chính thức không thành, tranh chấp sẽ được giải quyết tại tòa án có thẩm quyền của Đức.",
+    "dispute_eu": "Người tiêu dùng EU: Nếu bạn là người tiêu dùng tại EU, bạn cũng có thể sử dụng nền tảng Giải quyết Tranh chấp Trực tuyến của Ủy ban châu Âu.",
+    "severability_title": "Tính độc lập của các điều khoản",
+    "severability_content": "Nếu bất kỳ điều khoản nào trong Điều khoản Dịch vụ này bị tòa án có thẩm quyền xác định là vô hiệu, bất hợp pháp hoặc không thể thi hành, các điều khoản còn lại vẫn giữ nguyên hiệu lực. Điều khoản vô hiệu hoặc không thể thi hành sẽ được sửa đổi ở mức tối thiểu cần thiết để trở nên hợp lệ và có thể thi hành, đồng thời giữ nguyên ý định ban đầu của các bên.",
+    "changes_contact": "Nếu bạn có bất kỳ câu hỏi nào về Điều khoản Dịch vụ này, vui lòng liên hệ với chúng tôi tại"
   },
   "cookies": {
     "title": "Chính sách Cookie",
@@ -434,7 +652,21 @@
     "control_title": "Quản lý cookie",
     "control_content": "Bạn có thể quản lý cookie qua cài đặt trình duyệt. Hầu hết trình duyệt cho phép chặn hoặc xóa cookie. Lưu ý xóa localStorage sẽ reset tùy chọn đồng ý cookie.",
     "updates_title": "Cập nhật chính sách",
-    "updates_content": "Nếu chúng tôi bắt đầu sử dụng công nghệ phân tích hoặc theo dõi trong tương lai, chúng tôi sẽ cập nhật chính sách và thông báo qua banner đồng ý cookie trước khi mọi việc theo dõi diễn ra."
+    "updates_content": "Nếu chúng tôi bắt đầu sử dụng công nghệ phân tích hoặc theo dõi trong tương lai, chúng tôi sẽ cập nhật chính sách và thông báo qua banner đồng ý cookie trước khi mọi việc theo dõi diễn ra.",
+    "storage_title": "Chi tiết Cookie & Lưu trữ",
+    "storage_intro": "Dưới đây là danh sách đầy đủ các cookie và mục lưu trữ cục bộ được sử dụng trên website này:",
+    "table_name": "Tên",
+    "table_type": "Loại",
+    "table_purpose": "Mục đích",
+    "table_category": "Danh mục",
+    "table_duration": "Thời hạn",
+    "storage_consent_purpose": "Lưu tùy chọn cookie của bạn (thiết yếu, phân tích, marketing)",
+    "storage_country_purpose": "Ghi nhớ quốc gia của bạn (suy ra từ khu vực IP) để cơ chế đồng ý tuân theo luật địa phương",
+    "storage_locale_purpose": "Lưu ngôn ngữ bạn đã chọn",
+    "cat_essential": "Thiết yếu",
+    "dur_persistent": "Lâu dài",
+    "dur_30d": "30 ngày",
+    "storage_note": "Bạn có thể quản lý tùy chọn cookie bất cứ lúc nào qua banner cookie. Để đặt lại tùy chọn, hãy xóa localStorage của trình duyệt."
   },
   "start": {
     "headline_a": "Nơi doanh nghiệp của bạn âm thầm mất khách hàng",
@@ -478,7 +710,7 @@
       "coaching_consulting": "Huấn luyện / Tư vấn",
       "e_commerce_online_store": "Thương mại điện tử / Cửa hàng online",
       "saas_software": "SaaS / Phần mềm",
-      "agency_marketing": "Agency / Marketing",
+      "agency_marketing": "Agency quảng cáo / Marketing",
       "real_estate": "Bất động sản",
       "healthcare_medical": "Y tế / Sức khỏe",
       "legal_law_firm": "Pháp lý / Văn phòng luật",
@@ -526,77 +758,77 @@
     },
     "budget_build": {
       "0": {
-        "label": "Dưới 5.000 €",
+        "label": "Dưới {amount}",
         "hint": "Thấp hơn mức khởi điểm của chúng tôi"
       },
       "1": {
-        "label": "Khoảng 5.000 €",
-        "hint": "Website một trang"
+        "label": "Khoảng {amount}",
+        "hint": "Website năm trang"
       },
       "2": {
-        "label": "Khoảng 10.000 €",
-        "hint": "Bốn đến năm trang"
+        "label": "Khoảng {amount}",
+        "hint": "Mười trang"
       },
       "3": {
-        "label": "Khoảng 15.000 €",
-        "hint": "Khoảng mười lăm trang"
+        "label": "Khoảng {amount}",
+        "hint": "Mười lăm trang trở lên"
       },
       "4": {
-        "label": "20.000 €+",
-        "hint": "Thương mại điện tử hoặc lớn hơn"
+        "label": "{amount}+",
+        "hint": "Thương mại điện tử, hoặc lớn hơn"
       }
     },
     "budget_social": {
       "0": {
-        "label": "Khoảng 500 € / tháng",
+        "label": "Khoảng {amount} / tháng",
         "hint": "Một kênh, có quản lý"
       },
       "1": {
-        "label": "1.000 – 2.000 € / tháng",
+        "label": "{from} – {to} / tháng",
         "hint": "Một kênh có video đều đặn, hoặc hai kênh"
       },
       "2": {
-        "label": "2.000 – 4.000 € / tháng",
+        "label": "{from} – {to} / tháng",
         "hint": "Hai đến ba kênh có video"
       },
       "3": {
-        "label": "4.000 €+ / tháng",
+        "label": "{amount}+ / tháng",
         "hint": "Nhiều kênh, tập trung video"
       }
     },
     "budget_ads": {
       "0": {
-        "label": "Dưới 1.000 € / tháng chi phí quảng cáo",
+        "label": "Dưới {amount} / tháng chi phí quảng cáo",
         "hint": "Thử nghiệm ban đầu"
       },
       "1": {
-        "label": "1.000 – 3.000 € / tháng chi phí quảng cáo",
+        "label": "{from} – {to} / tháng chi phí quảng cáo",
         "hint": "Một nền tảng, vận hành bài bản"
       },
       "2": {
-        "label": "3.000 – 10.000 € / tháng chi phí quảng cáo",
+        "label": "{from} – {to} / tháng chi phí quảng cáo",
         "hint": "Cả hai nền tảng, hoặc mở rộng một"
       },
       "3": {
-        "label": "10.000 €+ / tháng chi phí quảng cáo",
+        "label": "{amount}+ / tháng chi phí quảng cáo",
         "hint": "Quy mô lớn"
       }
     },
     "budget_monthly": {
       "0": {
-        "label": "Dưới 1.000 € / tháng",
+        "label": "Dưới {amount} / tháng",
         "hint": "Mới bắt đầu"
       },
       "1": {
-        "label": "1.000 – 3.000 € / tháng",
+        "label": "{from} – {to} / tháng",
         "hint": "Một kênh hoặc nền tảng, vận hành bài bản"
       },
       "2": {
-        "label": "3.000 – 6.000 € / tháng",
-        "hint": "Nhiều thứ song song"
+        "label": "{from} – {to} / tháng",
+        "hint": "Nhiều hạng mục chạy song song"
       },
       "3": {
-        "label": "6.000 €+ / tháng",
+        "label": "{amount}+ / tháng",
         "hint": "Mở rộng mạnh"
       }
     }
@@ -609,6 +841,49 @@
     "not_found_title": "Không tìm thấy trang",
     "not_found_message": "Trang bạn đang tìm không tồn tại hoặc đã bị di chuyển. Hãy đưa bạn trở lại đúng hướng.",
     "contact_us": "Liên hệ"
+  },
+  "accessibility": {
+    "title": "Tuyên bố về Khả năng tiếp cận",
+    "last_updated": "Cập nhật lần cuối: {date}",
+    "commitment_title": "Cam kết của chúng tôi",
+    "commitment_content": "Blok Blok Studio cam kết bảo đảm khả năng tiếp cận số cho người khuyết tật. Chúng tôi không ngừng cải thiện trải nghiệm cho mọi người dùng và áp dụng các tiêu chuẩn tiếp cận liên quan trên website của mình cũng như các website chúng tôi xây dựng cho khách hàng.",
+    "conformance_title": "Mức độ tuân thủ",
+    "conformance_intro": "Hướng dẫn Tiếp cận Nội dung Web (WCAG) đặt ra các yêu cầu cho nhà thiết kế và nhà phát triển nhằm cải thiện khả năng tiếp cận cho người khuyết tật. Hướng dẫn này xác định ba mức tuân thủ: Mức A, Mức AA và Mức AAA.",
+    "conformance_status": "<strong>blokblokstudio.com tuân thủ một phần WCAG 2.2 mức AA.</strong> “Tuân thủ một phần” nghĩa là một số phần nội dung chưa hoàn toàn đáp ứng tiêu chuẩn tiếp cận. Xem mục hạn chế đã biết bên dưới để biết chi tiết.",
+    "standards_title": "Tiêu chuẩn và luật chúng tôi tuân theo",
+    "standard_wcag": "<strong>WCAG 2.2 Mức AA</strong>, chuẩn nền tảng quốc tế về khả năng tiếp cận web do W3C duy trì.",
+    "standard_en301549": "<strong>EN 301 549</strong>, tiêu chuẩn hài hòa của châu Âu về khả năng tiếp cận CNTT-TT, nền tảng của Đạo luật Tiếp cận châu Âu.",
+    "standard_eaa": "<strong>Đạo luật Tiếp cận châu Âu của EU (Chỉ thị 2019/882)</strong>, áp dụng cho các dịch vụ số hướng tới người tiêu dùng tại EU từ ngày 28 tháng 6 năm 2025.",
+    "standard_ada": "<strong>Đạo luật Người khuyết tật Hoa Kỳ (ADA), Tiêu đề III</strong>, nghĩa vụ về khả năng tiếp cận đối với website thương mại công khai tại Hoa Kỳ.",
+    "standard_508": "<strong>Mục 508 của Đạo luật Phục hồi Hoa Kỳ</strong>, yêu cầu đối với các cơ quan liên bang và nhà thầu, mà chúng tôi coi là chuẩn nền cho các dự án liên quan đến liên bang.",
+    "measures_title": "Các biện pháp chúng tôi thực hiện",
+    "measures_intro": "Khả năng tiếp cận là một phần trong cách chúng tôi thiết kế và xây dựng, không phải một lần kiểm tra rồi thôi. Cụ thể, trên website này:",
+    "measure_landmarks": "Các landmark HTML ngữ nghĩa (<code>main</code>, <code>nav</code>, <code>header</code>, <code>footer</code>) trên mọi trang.",
+    "measure_skip_link": "Liên kết “bỏ qua đến nội dung chính” cho người dùng bàn phím.",
+    "measure_focus": "Chỉ báo focus hiển thị rõ trên mọi phần tử tương tác.",
+    "measure_alt_text": "Văn bản thay thế cho mọi hình ảnh có ý nghĩa.",
+    "measure_forms": "Form có nhãn liên kết, thông báo trường bắt buộc và thông báo lỗi nội tuyến được hiển thị qua <code>aria-describedby</code> và <code>role=“alert”</code>.",
+    "measure_dialogs": "Menu di động và hộp thoại modal có quản lý focus bàn phím và đóng bằng phím Escape.",
+    "measure_reduced_motion": "Tôn trọng thiết lập <code>prefers-reduced-motion</code> trong hệ điều hành của bạn.",
+    "measure_contrast": "Độ tương phản màu đạt hoặc vượt WCAG AA (4.5:1 cho văn bản chính).",
+    "measure_rtl": "Bố cục phải sang trái cho tiếng Ả Rập, và bộ chuyển ngôn ngữ hiển thị từng tùy chọn bằng chính ngôn ngữ và hướng viết của nó.",
+    "measure_languages": "Website có 19 ngôn ngữ để người không nói tiếng Anh có thể dùng bằng ngôn ngữ họ tư duy.",
+    "limitations_title": "Hạn chế đã biết",
+    "limitations_intro": "Dù đã nỗ lực hết sức, một số nội dung trên website này có thể chưa hoàn toàn tiếp cận được. Các vấn đề đã biết mà chúng tôi đang khắc phục:",
+    "limitation_third_party": "<strong>Nội dung nhúng của bên thứ ba</strong>, CAPTCHA Cloudflare Turnstile và iframe đặt lịch Cal.com kế thừa hành vi tiếp cận riêng từ nhà cung cấp. Chúng tôi theo dõi mức tuân thủ của họ với từng nhà cung cấp.",
+    "limitation_motion": "<strong>Chuyển động trang trí</strong>, các hiệu ứng nền được tắt khi <code>prefers-reduced-motion</code> được bật, nhưng một số ít tương tác vi mô hút theo con trỏ vẫn có thể chạy.",
+    "limitation_language": "<strong>Ngôn ngữ của tuyên bố</strong>, tuyên bố này hiện chỉ được duy trì chính thức bằng tiếng Anh. Bản thân website được bản địa hóa sang 19 ngôn ngữ.",
+    "feedback_title": "Phản hồi và liên hệ",
+    "feedback_intro": "Nếu bạn gặp rào cản tiếp cận trên blokblokstudio.com, hoặc cần thông tin từ website này ở định dạng khác, vui lòng liên hệ với chúng tôi. Chúng tôi đặt mục tiêu phản hồi các góp ý về khả năng tiếp cận trong vòng <strong>năm ngày làm việc</strong>.",
+    "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
+    "feedback_form": "<strong>Form trực tuyến:</strong> <link>Trang liên hệ</link>, vui lòng ghi “khả năng tiếp cận” trong tin nhắn của bạn.",
+    "enforcement_title": "Thủ tục thực thi",
+    "enforcement_intro": "Blok Blok Studio đăng ký hoạt động tại Đức. Nếu bạn không hài lòng với phản hồi của chúng tôi về góp ý tiếp cận, bạn có thể khiếu nại theo khuôn khổ thực thi tại địa phương của mình:",
+    "enforcement_eu": "<strong>Liên minh châu Âu</strong>, cơ quan giám sát thị trường của quốc gia thành viên EU nơi bạn cư trú. EAA chỉ định một cơ quan quốc gia tại mỗi quốc gia thành viên.",
+    "enforcement_germany": "<strong>Đức</strong>, Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
+    "enforcement_us": "<strong>Hoa Kỳ</strong>, Ban Dân quyền thuộc Bộ Tư pháp Hoa Kỳ cho khiếu nại ADA; Ủy ban Tiếp cận Hoa Kỳ (US Access Board) cho Mục 508.",
+    "preparation_title": "Tuyên bố này được chuẩn bị như thế nào",
+    "preparation_content": "Tuyên bố này được chuẩn bị vào {date} thông qua tự đánh giá website theo WCAG 2.2 AA. Việc đánh giá kết hợp rà soát tự động trên website đang chạy với rà soát thủ công mã nguồn (cấu trúc ngữ nghĩa, điều hướng bàn phím, quản lý focus, cách dùng ARIA, độ tương phản màu, xử lý chuyển động và hướng ngôn ngữ). Chúng tôi rà soát lại website sau mỗi bản phát hành quan trọng."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -727,7 +1002,56 @@
     "available": "Đang nhận dự án mới",
     "aria_business": "Loại hình kinh doanh",
     "aria_budget": "Ngân sách",
-    "aria_timeline": "Thời gian"
+    "aria_timeline": "Thời gian",
+    "proj_live_click": "Nhấp và cuộn trên website thật bên dưới",
+    "proj_live_scroll": "Cuộn qua website thật bên dưới",
+    "proj_live_hint_embed": "Nhấp vào liên kết và điều hướng như đang ở trên website thật, hoặc mở trong tab mới.",
+    "proj_live_hint_scroll": "Đây là ảnh chụp toàn trang. Cuộn bên trong khung, hoặc mở website thật trong tab mới.",
+    "proj_challenge": "Thách thức",
+    "proj_solution": "Chúng tôi đã xây gì",
+    "proj_results": "Kết quả",
+    "proj_numbers": "Qua những con số"
+  },
+  "onboard": {
+    "title": "Thiết lập khách hàng mới",
+    "sub": "Cùng chuẩn bị mọi thứ để bắt tay vào việc ngay.",
+    "loading": "Đang tải phần thiết lập của bạn...",
+    "unavailable": "Liên kết không khả dụng",
+    "done": "Xong hết rồi!",
+    "done_sub": "Bạn có muốn thiết lập phương thức thanh toán để chúng tôi bắt đầu ngay không?",
+    "pay_cta": "Thiết lập thanh toán",
+    "coming_soon": "Sắp có",
+    "submitting": "Đang gửi...",
+    "contacts": "Người liên hệ",
+    "contacts_sub": "Chúng tôi nên trao đổi với ai trong đội của bạn?",
+    "primary": "Chính",
+    "remove": "Xóa",
+    "add_contact": "Thêm người liên hệ",
+    "access": "Quyền truy cập",
+    "access_sub": "Chia sẻ thông tin đăng nhập của những nền tảng bạn muốn chúng tôi quản lý.",
+    "encrypted": "Thông tin đăng nhập của bạn được mã hóa bằng AES-256",
+    "add_account": "Thêm tài khoản",
+    "social": "Hồ sơ mạng xã hội",
+    "social_sub": "Kết nối các tài khoản mạng xã hội để chúng tôi quản lý và phát triển.",
+    "add_profile": "Thêm hồ sơ",
+    "details": "Chi tiết dự án",
+    "details_sub": "Giúp chúng tôi điều chỉnh quy trình cho phù hợp với bạn.",
+    "telegram_hint": "Nhắn cho @blokblok_bot trên Telegram để lấy ID của bạn",
+    "review": "Xem lại & gửi",
+    "review_sub": "Kiểm tra lại mọi thứ trước khi gửi. Bạn có thể quay lại sửa bất kỳ phần nào.",
+    "f_timezone": "Múi giờ:",
+    "f_telegram": "ID Telegram:",
+    "f_notes": "Ghi chú:",
+    "f_brand": "Nguyên tắc thương hiệu:",
+    "ph_phone": "Số điện thoại",
+    "ph_role": "vd. CEO, Giám đốc Marketing",
+    "ph_url": "vd. https://trang-cua-ban.com/wp-admin",
+    "ph_2fa": "vd. Đã bật 2FA, dùng ứng dụng xác thực",
+    "ph_link": "https://...",
+    "ph_timezone": "Chọn múi giờ của bạn...",
+    "ph_telegram": "vd. 123456789",
+    "ph_notes": "Bất cứ điều gì chúng tôi nên biết về dự án, sở thích hoặc cách bạn làm việc...",
+    "ph_brand": "Cách dùng logo, màu thương hiệu, phông chữ, giọng điệu, nên và không nên..."
   },
   "pricing": {
     "packages": "GÓI DỊCH VỤ",
@@ -877,7 +1201,7 @@
               "l": "1 chatbot AI được huấn luyện trên 50 cặp hỏi đáp. Bao gồm tích hợp đặt lịch hẹn (kết nối Google Calendar hoặc Calendly của bạn). Thu thập lead và tự động đưa vào CRM. Cấu hình lời chào tùy chỉnh, câu trả lời dự phòng và tin nhắn ngoài giờ. Chatbot nhúng trên 3 trang của website."
             },
             {
-              "i": "AI voice agent",
+              "i": "Agent thoại AI",
               "l": "1 AI voice agent nhận cuộc gọi đến, sàng lọc khách hàng tiềm năng và đặt lịch hẹn. Viết và cấu hình 1 kịch bản cuộc gọi tùy chỉnh. Bao gồm 500 phút gọi trong tháng đầu tiên. Bản ghi âm cuộc gọi lưu trong CRM của bạn. Bao gồm định tuyến cuộc gọi cơ bản (chuyển sang bạn nếu AI không xử lý được)."
             },
             {
@@ -2047,7 +2371,7 @@
           "ideal": "Nhà sáng lập muốn kiểm chứng ý tưởng với MVP một nền tảng tập trung"
         },
         {
-          "name": "Studio",
+          "name": "Xưởng Sản phẩm",
           "price": 24500,
           "disp": "$24,500",
           "tag": "Được chọn nhiều nhất",
@@ -2098,7 +2422,7 @@
           "ideal": "Đội ngũ ra mắt sản phẩm đa nền tảng hoàn thiện đến người dùng thật"
         },
         {
-          "name": "Flagship",
+          "name": "Chủ lực",
           "price": 62000,
           "disp": "$62,000",
           "tag": "Xây dựng sản phẩm hoàn chỉnh",
@@ -2866,48 +3190,9 @@
           "ideal": "Thương hiệu đang mở rộng xem chúng tôi như đội sáng tạo nội bộ bán thời gian trên mọi kênh"
         }
       ]
-    }
-  },
-  "onboard": {
-    "title": "Thiết lập khách hàng mới",
-    "sub": "Cùng chuẩn bị mọi thứ để bắt tay vào việc ngay.",
-    "loading": "Đang tải phần thiết lập của bạn...",
-    "unavailable": "Liên kết không khả dụng",
-    "done": "Xong hết rồi!",
-    "done_sub": "Bạn có muốn thiết lập phương thức thanh toán để chúng tôi bắt đầu ngay không?",
-    "pay_cta": "Thiết lập thanh toán",
-    "coming_soon": "Sắp có",
-    "submitting": "Đang gửi...",
-    "contacts": "Người liên hệ",
-    "contacts_sub": "Chúng tôi nên trao đổi với ai trong đội của bạn?",
-    "primary": "Chính",
-    "remove": "Xóa",
-    "add_contact": "Thêm người liên hệ",
-    "access": "Quyền truy cập",
-    "access_sub": "Chia sẻ thông tin đăng nhập của những nền tảng bạn muốn chúng tôi quản lý.",
-    "encrypted": "Thông tin đăng nhập của bạn được mã hóa bằng AES-256",
-    "add_account": "Thêm tài khoản",
-    "social": "Hồ sơ mạng xã hội",
-    "social_sub": "Kết nối các tài khoản mạng xã hội để chúng tôi quản lý và phát triển.",
-    "add_profile": "Thêm hồ sơ",
-    "details": "Chi tiết dự án",
-    "details_sub": "Giúp chúng tôi điều chỉnh quy trình cho phù hợp với bạn.",
-    "telegram_hint": "Nhắn cho @blokblok_bot trên Telegram để lấy ID của bạn",
-    "review": "Xem lại & gửi",
-    "review_sub": "Kiểm tra lại mọi thứ trước khi gửi. Bạn có thể quay lại sửa bất kỳ phần nào.",
-    "f_timezone": "Múi giờ:",
-    "f_telegram": "ID Telegram:",
-    "f_notes": "Ghi chú:",
-    "f_brand": "Nguyên tắc thương hiệu:",
-    "ph_phone": "Số điện thoại",
-    "ph_role": "vd. CEO, Giám đốc Marketing",
-    "ph_url": "vd. https://trang-cua-ban.com/wp-admin",
-    "ph_2fa": "vd. Đã bật 2FA, dùng ứng dụng xác thực",
-    "ph_link": "https://...",
-    "ph_timezone": "Chọn múi giờ của bạn...",
-    "ph_telegram": "vd. 123456789",
-    "ph_notes": "Bất cứ điều gì chúng tôi nên biết về dự án, sở thích hoặc cách bạn làm việc...",
-    "ph_brand": "Cách dùng logo, màu thương hiệu, phông chữ, giọng điệu, nên và không nên..."
+    },
+    "v2_card_cta": "Nhận báo giá riêng",
+    "v2_options": "{count, plural, one {# lựa chọn} other {# lựa chọn}}"
   },
   "a11y": {
     "skip_to_main": "Chuyển đến nội dung chính",
@@ -2917,5 +3202,31 @@
     "email_label": "Địa chỉ email",
     "cookie_dialog": "Chấp thuận cookie",
     "cookie_preferences_dialog": "Tùy chọn cookie"
+  },
+  "careers": {
+    "meta_title": "Tuyển dụng tại Blok Blok Studio",
+    "meta_description": "Studio năm người tại Berlin, Richmond, Los Angeles và Multan, xây dựng website cho khách hàng từ Dallas đến Manila. Cách chúng tôi làm việc và nơi gửi portfolio.",
+    "label": "Tuyển dụng",
+    "title": "Đội ngũ nhỏ. Khách hàng thật. Tên bạn trên sản phẩm.",
+    "intro": "Năm người ở bốn thành phố, xây dựng cho khách hàng từ một thợ sửa ống nước ở Dallas đến Philippine Airlines. Không có tầng lớp nào giữa bạn và khách hàng, và không có template nào giữa bạn và sản phẩm.",
+    "how_label": "Cách chúng tôi làm việc",
+    "how_1_title": "Làm việc từ xa có chủ đích",
+    "how_1_text": "Berlin là trụ sở. Giám đốc sáng tạo ở Virginia, marketing ở Los Angeles, video ở Pakistan. Ưu tiên bất đồng bộ, chỉ họp khi thật sự cần.",
+    "how_2_title": "Bạn làm chủ một dự án",
+    "how_2_text": "Một người điều hành dự án từ đầu đến cuối và trao đổi trực tiếp với khách hàng. Case study mang dấu ấn của bạn, không phải của một phòng ban.",
+    "how_3_title": "Xây dựng từ đầu",
+    "how_3_text": "Next.js và React, viết tay. Không page builder, không theme mua sẵn. Nếu bạn thích website nhanh và code sạch, bạn sẽ thích nơi này.",
+    "how_4_title": "Con số, không phải cảm tính",
+    "how_4_text": "Mỗi website được đánh giá bằng những gì nó mang lại cho khách hàng: lượt đặt lịch, đơn hàng, thứ hạng. Chúng tôi công bố kết quả, nên sản phẩm phải đứng vững.",
+    "where_label": "Chúng tôi ở đâu",
+    "roles_label": "Vị trí đang tuyển",
+    "roles": [],
+    "apply": "Ứng tuyển qua email",
+    "none_title": "Hiện chưa có vị trí nào đang tuyển.",
+    "none_text": "Chúng tôi tuyển khi dự án cần, thường là lập trình viên front-end và nhà thiết kế biết viết. Hãy gửi portfolio kèm hai dòng về điều bạn muốn xây dựng. Chúng tôi đọc hết và giữ lại những hồ sơ tốt.",
+    "none_subject": "Portfolio gửi Blok Blok Studio",
+    "none_cta": "Gửi portfolio",
+    "clients_note": "Bạn đang tìm làm website?",
+    "clients_link": "Bắt đầu với bài trắc nghiệm"
   }
 }
