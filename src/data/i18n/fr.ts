@@ -98,6 +98,12 @@ export const fr: LocaleBundle = {
       solution: 'Nous avons construit un site pensé d\'abord pour la photo, où aucune image n\'est recadrée, avec des cartes de prestations, des couvertures d\'albums alignées sur toute une rangée, une section zones couvertes et un parcours de réservation. Derrière, un portail client sur /portal : Grant se connecte, crée des galeries, les téléverse dans son propre espace de stockage photo et les partage ; ses clients consultent et téléchargent leurs séries.',
       results: 'Le site et le portail ont été mis en ligne en août et septembre 2026, Grant gérant lui-même ses galeries dès le premier jour. Le domaine public a depuis quitté notre hébergement, il n\'y a donc pas de lien en ligne ici ; les captures montrent le site tel que nous l\'avons livré.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Calendrier des événements, retraites et réservation d\'expériences privées pour une marque bien-être de Washington, DC.',
+      challenge: 'Mind & Body Retreats propose du Pilates, des bains sonores, des ateliers et des retraites hors de la ville, entre Washington, DC, le Maryland et la Virginia. Les réservations passaient par une appli d\'événements tierce et Instagram, la photothèque ne contenait que des photos verticales, et la fondatrice voulait un site aussi soigné que ses rencontres elles-mêmes : calme, porté par la photo et peu chargé en texte.',
+      solution: 'Nous avons construit un site de quatre pages autour d\'un calendrier des événements, avec des bandeaux retraite pleine largeur où la photo change de côté, une section expériences privées avec consultation payante et une galerie lookbook classée par atelier. Les formulaires de liste d\'attente et de demande écrivent directement dans la base de données du site. Codé à la main en Next.js, hébergé sur Vercel, avec des données structurées pour chaque événement et chaque expérience, et Google Search Console vérifiée dès la mise en ligne.',
+      results: 'Le site a été mis en ligne en août 2026 et la première retraite qui y figurait, en septembre en West Virginia, a affiché complet. Chaque atelier a sa propre section photo, les témoignages des participants défilent en carrousel plutôt qu\'en mur de citations, et de nouveaux événements sont ajoutés chaque mois avec leurs liens de réservation.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

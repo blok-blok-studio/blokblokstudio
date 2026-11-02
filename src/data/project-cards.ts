@@ -12,6 +12,7 @@ export const PROJECT_IMAGES: Record<string, string> = {
   'public-affair': '/images/projects/public-affair.webp',
   'military-newschool': '/images/projects/military-newschool.webp',
   'grant-parkhurst': '/images/projects/grantparkhurst.webp',
+  'mind-and-body-retreats': '/images/projects/mindandbody.webp',
 };
 
 export const PROJECT_RESULT_KEYS: Record<string, string> = {
@@ -23,4 +24,5 @@ export const PROJECT_RESULT_KEYS: Record<string, string> = {
   'public-affair': 'v2_result_public_affair',
   'military-newschool': 'v2_result_military_newschool',
   'grant-parkhurst': 'v2_result_grant_parkhurst',
+  'mind-and-body-retreats': 'v2_result_mind_and_body_retreats',
 };

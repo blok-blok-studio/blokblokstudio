@@ -98,6 +98,12 @@ export const nl: LocaleBundle = {
       solution: `We bouwden een site waar fotografie vooropstaat en geen enkele foto wordt bijgesneden, met dienstkaarten, albumcovers die netjes op één lijn blijven, een sectie over werkgebied en een boekingsflow. Daarachter zit een klantenportaal op /portal: Grant logt in, maakt galerijen aan, uploadt naar zijn eigen fotoarchief en deelt ze, en klanten bekijken en downloaden hun sets.`,
       results: `De site en het portaal gingen live in augustus en september 2026, waarbij Grant vanaf dag één zijn eigen galerijen beheerde. Het publieke domein is inmiddels van onze hosting verhuisd, dus er staat hier geen live link; de screenshots tonen de site zoals wij hem opleverden.`,
     },
+    'mind-and-body-retreats': {
+      desc: `Evenementenkalender, retreats en boekingen voor privésessies voor een wellnessmerk uit Washington, DC.`,
+      challenge: `Mind & Body Retreats organiseert Pilates, klankbaden, workshops en retreats op bijzondere locaties in Washington, DC, Maryland en Virginia. Boekingen liepen via een externe evenementenapp en Instagram, de fotobibliotheek bestond alleen uit staande foto's, en de oprichter wilde een site die net zo doordacht aanvoelde als de bijeenkomsten zelf: rustig, met de foto's voorop en weinig tekst.`,
+      solution: `We bouwden een site van vier pagina's rond een evenementenkalender, met paginabrede retreatbanden waarin de foto van kant wisselt, een sectie voor privésessies met een betaald adviesgesprek en een lookbookgalerij ingedeeld per workshop. De wachtlijst en het aanvraagformulier schrijven rechtstreeks naar de eigen database van de site. Met de hand gebouwd in Next.js, gehost op Vercel, met gestructureerde data voor elk evenement en elke sessie en Google Search Console geverifieerd bij de lancering.`,
+      results: `De site ging live in augustus 2026 en de eerste retreat die erop stond, in september in West Virginia, was uitverkocht. Elke workshop heeft een eigen fotosectie, reacties van gasten draaien in een carrousel in plaats van een muur van quotes, en elke maand komen er nieuwe evenementen bij met hun boekingslinks.`,
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

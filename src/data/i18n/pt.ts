@@ -98,6 +98,12 @@ export const pt: LocaleBundle = {
       solution: 'Construímos um site que coloca a fotografia em primeiro lugar, onde nenhuma foto é cortada, com cards de serviços, capas de álbum alinhadas em cada fileira, uma seção de cobertura e um fluxo de agendamento. Por trás dele há um portal de clientes em /portal: Grant faz login, cria galerias, envia para o seu próprio armazenamento de fotos e as compartilha, e os clientes visualizam e baixam os seus conjuntos.',
       results: 'O site e o portal entraram no ar em agosto e setembro de 2026, com Grant gerenciando as suas próprias galerias desde o primeiro dia. O domínio público saiu da nossa hospedagem desde então, por isso não há link ao vivo aqui; as capturas de tela mostram o site como o entregamos.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Calendário de eventos, retiros e reservas de experiências privadas para uma marca de bem-estar de Washington, DC.',
+      challenge: 'A Mind & Body Retreats oferece Pilates, banhos de som, workshops e retiros fora da cidade entre Washington, DC, Maryland e Virginia. As reservas ficavam em um app de eventos de terceiros e no Instagram, a biblioteca de fotos era toda em formato vertical, e a fundadora queria um site tão bem pensado quanto os próprios encontros: calmo, guiado pelas fotos e com pouco texto.',
+      solution: 'Construímos um site de quatro páginas em torno de um calendário de eventos, com faixas de retiros em largura total nas quais a foto alterna de lado, uma seção de experiências privadas com consulta paga e uma galeria lookbook organizada por workshop. Os formulários de lista de espera e de contato gravam direto no banco de dados do próprio site. Codificado à mão em Next.js, hospedado na Vercel, com dados estruturados para cada evento e experiência e Google Search Console verificado no lançamento.',
+      results: 'O site entrou no ar em agosto de 2026 e o primeiro retiro anunciado nele, em setembro em West Virginia, esgotou. Cada workshop tem a sua própria seção de fotos, os depoimentos dos participantes aparecem em um carrossel em vez de um muro de citações, e novos eventos entram todo mês com os seus links de reserva.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

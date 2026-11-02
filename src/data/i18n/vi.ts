@@ -98,6 +98,12 @@ export const vi: LocaleBundle = {
       solution: 'Chúng tôi xây một website lấy nhiếp ảnh làm trung tâm, không bức ảnh nào bị cắt xén, với thẻ dịch vụ, bìa album luôn thẳng hàng trên cùng một hàng, phần khu vực phục vụ và luồng đặt lịch. Phía sau là cổng khách hàng tại /portal: Grant đăng nhập, tạo album, tải ảnh lên kho lưu trữ riêng và chia sẻ, còn khách hàng xem và tải bộ ảnh của mình.',
       results: 'Website và cổng khách hàng đi vào hoạt động vào tháng 8 và tháng 9 năm 2026, với Grant tự quản lý album của mình từ ngày đầu. Tên miền công khai sau đó đã chuyển khỏi hosting của chúng tôi, nên không có liên kết trực tiếp ở đây; ảnh chụp màn hình thể hiện website đúng như lúc chúng tôi bàn giao.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Lịch sự kiện, các kỳ retreat và đặt trải nghiệm riêng tư cho một thương hiệu wellness tại Washington, DC.',
+      challenge: 'Mind & Body Retreats tổ chức các lớp Pilates, buổi tắm âm thanh, workshop và kỳ retreat tại điểm đến khắp Washington, DC, Maryland và Virginia. Việc đặt chỗ nằm rải rác trên một ứng dụng sự kiện bên thứ ba và Instagram, thư viện ảnh toàn là ảnh dọc, và nhà sáng lập muốn một website chỉn chu như chính những buổi gặp gỡ ấy: tĩnh lặng, lấy hình ảnh làm chủ đạo và ít chữ.',
+      solution: 'Chúng tôi xây một website bốn trang xoay quanh lịch sự kiện, các dải retreat tràn viền với ảnh luân phiên đổi bên, mục trải nghiệm riêng tư kèm buổi tư vấn có phí, và một lookbook sắp xếp theo từng workshop. Form danh sách chờ và form liên hệ ghi thẳng vào cơ sở dữ liệu riêng của website. Code tay bằng Next.js, lưu trữ trên Vercel, có dữ liệu có cấu trúc cho mọi sự kiện và trải nghiệm, đồng thời xác minh Google Search Console ngay khi ra mắt.',
+      results: 'Website đi vào hoạt động vào tháng 8 năm 2026 và kỳ retreat đầu tiên đăng trên đó, tháng 9 tại West Virginia, đã bán hết chỗ. Mỗi workshop có mục ảnh riêng, cảm nhận của khách chạy dưới dạng carousel thay vì một bức tường trích dẫn, và sự kiện mới được cập nhật hằng tháng kèm liên kết đặt chỗ.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

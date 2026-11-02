@@ -98,6 +98,12 @@ export const pl: LocaleBundle = {
       solution: 'Zbudowaliśmy stronę, w której fotografia jest na pierwszym miejscu i żadne zdjęcie nie jest przycinane, z kartami usług, okładkami albumów wyrównanymi w rzędzie, sekcją obszaru działania i ścieżką rezerwacji. Za nią stoi portal klienta pod adresem /portal: Grant loguje się, tworzy galerie, wgrywa zdjęcia do własnego magazynu i udostępnia je, a klienci przeglądają i pobierają swoje zestawy.',
       results: 'Strona i portal ruszyły w sierpniu i wrześniu 2026, a Grant od pierwszego dnia sam zarządza galeriami. Publiczna domena została od tego czasu przeniesiona poza nasz hosting, więc nie ma tu działającego linku; zrzuty ekranu pokazują stronę w wersji, którą oddaliśmy.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Kalendarz wydarzeń, wyjazdy i rezerwacje sesji prywatnych dla marki wellness z Washington, DC.',
+      challenge: 'Mind & Body Retreats prowadzi zajęcia Pilates, kąpiele dźwiękowe, warsztaty i wyjazdowe retreaty w Washington, DC, Maryland i Virginia. Rezerwacje działały w zewnętrznej aplikacji eventowej i na Instagramie, biblioteka zdjęć składała się wyłącznie z ujęć pionowych, a marce zależało na stronie, która będzie tak dopracowana jak same spotkania: spokojnej, opartej na zdjęciach i oszczędnej w tekście.',
+      solution: 'Zbudowaliśmy czterostronicową witrynę wokół kalendarza wydarzeń, z pełnoekranowymi pasmami retreatów, w których zdjęcie zmienia stronę, sekcją sesji prywatnych z płatną konsultacją i galerią lookbook ułożoną według warsztatów. Lista oczekujących i formularz zapytania zapisują dane prosto do własnej bazy strony. Kodowana ręcznie w Next.js, hostowana na Vercel, z danymi strukturalnymi dla każdego wydarzenia i sesji oraz Google Search Console zweryfikowanym w dniu startu.',
+      results: 'Strona ruszyła w sierpniu 2026, a pierwszy wpisany na nią wyjazd, wrześniowy retreat w West Virginia, wyprzedał się. Każdy warsztat ma własną sekcję zdjęć, opinie gości przewijają się w karuzeli zamiast ściany cytatów, a co miesiąc dochodzą nowe wydarzenia z linkami do rezerwacji.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

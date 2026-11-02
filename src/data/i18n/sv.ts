@@ -98,6 +98,12 @@ export const sv: LocaleBundle = {
       solution: 'Vi byggde en sajt där fotografiet går först och inget foto beskärs, med tjänstekort, albumomslag som ligger i linje över en rad, en sektion för täckningsområde och ett bokningsflöde. Bakom den finns en kundportal på /portal: Grant loggar in, skapar gallerier, laddar upp till sin egen bildlagring och delar dem, och kunderna tittar på och laddar ner sina bilder.',
       results: 'Sajten och portalen gick live i augusti och september 2026, med Grant som hanterade sina egna gallerier från dag ett. Den publika domänen har sedan dess flyttats bort från vår hosting, så det finns ingen live-länk här; skärmbilderna visar sajten som vi levererade den.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Evenemangskalender, retreater och bokning av privata upplevelser åt ett wellnessvarumärke i Washington, DC.',
+      challenge: 'Mind & Body Retreats håller Pilates, ljudbad, workshops och retreatresor i Washington, DC, Maryland och Virginia. Bokningarna låg i en extern evenemangsapp och på Instagram, bildbanken bestod bara av stående foton, och grundaren ville ha en sajt som kändes lika genomtänkt som träffarna själva: lugn, bildburen och sparsam med text.',
+      solution: 'Vi byggde en sajt på fyra sidor kring en evenemangskalender, med utfallande retreatband där fotot byter sida, en sektion för privata upplevelser med betald konsultation och ett lookbookgalleri sorterat per workshop. Väntelistan och förfrågningsformuläret skriver direkt till sajtens egen databas. Handkodad i Next.js, hostad på Vercel, med strukturerad data för varje evenemang och upplevelse och Google Search Console verifierad vid lanseringen.',
+      results: 'Sajten gick live i augusti 2026 och den första retreaten som listades där, i september i West Virginia, blev fullbokad. Varje workshop har sin egen bildsektion, gästernas reflektioner rullar i en karusell i stället för en vägg av citat, och nya evenemang läggs upp varje månad med sina bokningslänkar.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

@@ -98,6 +98,12 @@ export const de: LocaleBundle = {
       solution: 'Wir haben eine Website gebaut, auf der kein Foto beschnitten wird: Service-Karten, Album-Cover, die in der Reihe auf einer Linie bleiben, ein Bereich für die abgedeckten Orte und ein Buchungsablauf. Dahinter ein Kundenportal unter /portal: Grant meldet sich an, legt Galerien an, lädt in seinen eigenen Fotospeicher hoch und teilt sie; Kunden sehen und laden ihre Sets herunter.',
       results: 'Website und Portal gingen im August und September 2026 live, Grant verwaltet seine Galerien seit dem ersten Tag selbst. Die öffentliche Domain läuft inzwischen nicht mehr über unser Hosting, daher gibt es hier keinen Live-Link; die Screenshots zeigen die Seite, wie wir sie ausgeliefert haben.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Veranstaltungskalender, Retreats und Buchungen für private Erlebnisse für eine Wellness-Marke aus Washington, DC.',
+      challenge: 'Mind & Body Retreats bietet Pilates, Klangbäder, Workshops und Retreats an besonderen Orten in Washington, DC, Maryland und Virginia an. Buchungen liefen über eine externe Event-App und Instagram, die Fotobibliothek bestand nur aus Hochformaten, und die Gründerin wünschte sich eine Website, die so durchdacht wirkt wie die Treffen selbst: ruhig, von Fotos getragen und mit wenig Text.',
+      solution: 'Wir haben eine vierseitige Website um einen Veranstaltungskalender herum gebaut: randlose Retreat-Bänder, bei denen das Foto die Seite wechselt, ein Bereich für private Erlebnisse mit kostenpflichtiger Beratung und eine nach Workshops geordnete Lookbook-Galerie. Warteliste und Anfrageformulare schreiben direkt in die eigene Datenbank der Website. Von Hand in Next.js programmiert, gehostet auf Vercel, mit strukturierten Daten für jede Veranstaltung und jedes Erlebnis und beim Launch in der Google Search Console verifiziert.',
+      results: 'Die Website ging im August 2026 live, und das erste darauf gelistete Retreat, im September in West Virginia, war ausverkauft. Jeder Workshop hat seinen eigenen Fotobereich, Stimmen der Gäste laufen als Karussell statt als Zitatwand, und jeden Monat kommen neue Veranstaltungen mit ihren Buchungslinks dazu.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

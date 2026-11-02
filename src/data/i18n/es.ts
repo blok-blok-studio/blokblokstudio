@@ -98,6 +98,12 @@ export const es: LocaleBundle = {
       solution: 'Construimos una web donde manda la fotografía y ninguna imagen se recorta, con tarjetas de servicios, portadas de álbum alineadas en cada fila, una sección de cobertura y un flujo de reservas. Detrás hay un portal de clientes en /portal: Grant inicia sesión, crea galerías, las sube a su propio almacenamiento de fotos y las comparte, y los clientes ven y descargan sus series.',
       results: 'La web y el portal se publicaron en agosto y septiembre de 2026, con Grant gestionando sus propias galerías desde el primer día. El dominio público ya no está en nuestro hosting, así que aquí no hay enlace en vivo; las capturas muestran la web tal y como la entregamos.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Calendario de eventos, retiros y reservas de experiencias privadas para una marca de bienestar de Washington, DC.',
+      challenge: 'Mind & Body Retreats organiza Pilates, baños de sonido, talleres y retiros fuera de la ciudad entre Washington, DC, Maryland y Virginia. Las reservas vivían en una app de eventos externa y en Instagram, la biblioteca de fotos era toda en vertical, y la fundadora quería una web tan cuidada como sus propios encuentros: serena, con la fotografía como protagonista y poco texto.',
+      solution: 'Construimos una web de cuatro páginas en torno a un calendario de eventos, con bandas de retiros a sangre donde la foto alterna de lado, una sección de experiencias privadas con consulta de pago y una galería tipo lookbook organizada por taller. Los formularios de lista de espera y de consulta escriben directamente en la base de datos de la propia web. Programada a mano en Next.js, alojada en Vercel, con datos estructurados para cada evento y experiencia y Google Search Console verificada desde el lanzamiento.',
+      results: 'La web se publicó en agosto de 2026 y el primer retiro anunciado en ella, en septiembre en West Virginia, agotó plazas. Cada taller tiene su propia sección de fotos, las reflexiones de los asistentes van en un carrusel en lugar de un muro de citas, y cada mes se suben nuevos eventos con sus enlaces de reserva.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

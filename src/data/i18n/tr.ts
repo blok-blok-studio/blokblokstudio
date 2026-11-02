@@ -98,6 +98,12 @@ export const tr: LocaleBundle = {
       solution: 'Hiçbir fotoğrafın kırpılmadığı, fotoğraf öncelikli bir site inşa ettik: hizmet kartları, bir sırada hizalı kalan albüm kapakları, kapsama bölümü ve randevu akışı. Arkasında /portal adresinde bir müşteri portalı var: Grant giriş yapar, galeriler oluşturur, kendi fotoğraf deposuna yükler ve paylaşır; müşteriler setlerini görüntüler ve indirir.',
       results: 'Site ve portal Ağustos ve Eylül 2026\'da yayına girdi; Grant ilk günden kendi galerilerini yönetiyor. Herkese açık alan adı o zamandan beri barındırmamızdan ayrıldı, bu yüzden burada canlı bağlantı yok; ekran görüntüleri siteyi teslim ettiğimiz haliyle gösteriyor.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Washington, DC merkezli bir wellness markası için etkinlik takvimi, inziva programları ve özel deneyim rezervasyonları.',
+      challenge: 'Mind & Body Retreats; Washington, DC, Maryland ve Virginia genelinde Pilates, ses banyosu, atölye ve farklı destinasyonlarda inziva programları düzenliyor. Rezervasyonlar üçüncü taraf bir etkinlik uygulaması ile Instagram üzerinden alınıyordu, fotoğraf arşivi yalnızca dikey karelerden oluşuyordu ve kurucu, buluşmaların kendisi kadar özenli hissettiren bir site istiyordu: sakin, fotoğraf odaklı ve az metinli.',
+      solution: 'Etkinlik takvimi etrafında dört sayfalık bir site inşa ettik: fotoğrafın sırayla sağa ve sola geçtiği tam genişlikte inziva şeritleri, ücretli danışma içeren bir özel deneyimler bölümü ve atölyelere göre düzenlenmiş bir lookbook galerisi. Bekleme listesi ve başvuru formları doğrudan sitenin kendi veritabanına yazıyor. Next.js ile elle kodlandı, Vercel üzerinde barındırılıyor; her etkinlik ve deneyim için yapılandırılmış veri içeriyor ve Google Search Console lansmanda doğrulandı.',
+      results: 'Site Ağustos 2026\'da yayına girdi ve sitede listelenen ilk inziva programı, Eylül ayında West Virginia\'da, tamamen doldu. Her atölyenin kendi fotoğraf bölümü var, misafir yorumları alıntı duvarı yerine bir karuselde akıyor ve her ay rezervasyon bağlantılarıyla yeni etkinlikler ekleniyor.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

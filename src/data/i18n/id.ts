@@ -98,6 +98,12 @@ export const id: LocaleBundle = {
       solution: 'Kami membangun situs yang mengutamakan fotografi, tanpa satu pun foto yang dipotong, dengan kartu layanan, sampul album yang tetap sejajar dalam satu baris, bagian area layanan, dan alur pemesanan. Di belakangnya ada portal klien di /portal: Grant masuk, membuat galeri, mengunggah ke penyimpanan fotonya sendiri dan membagikannya, lalu klien melihat dan mengunduh set foto mereka.',
       results: 'Situs dan portal tayang pada Agustus dan September 2026, dengan Grant mengelola galerinya sendiri sejak hari pertama. Domain publiknya kemudian dipindahkan dari hosting kami, sehingga tidak ada tautan live di sini; tangkapan layar menampilkan situs sebagaimana kami meluncurkannya.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Kalender acara, retret, dan pemesanan pengalaman privat untuk merek wellness di Washington, DC.',
+      challenge: 'Mind & Body Retreats menyelenggarakan Pilates, sound bath, lokakarya, dan retret ke luar kota di Washington, DC, Maryland, dan Virginia. Pemesanan tersebar di aplikasi acara pihak ketiga dan Instagram, pustaka fotonya seluruhnya berformat potret, dan sang pendiri ingin situs yang terasa sama tertatanya dengan pertemuan yang ia adakan: tenang, mengutamakan foto, dan hemat teks.',
+      solution: 'Kami membangun situs empat halaman yang berpusat pada kalender acara, dengan panel retret selebar layar yang fotonya bergantian sisi, bagian pengalaman privat dengan konsultasi berbayar, dan galeri lookbook yang disusun per lokakarya. Formulir daftar tunggu dan pertanyaan langsung tersimpan ke database milik situs sendiri. Dikodekan manual di Next.js, di-hosting di Vercel, dengan data terstruktur untuk setiap acara dan pengalaman, serta Google Search Console yang sudah terverifikasi saat peluncuran.',
+      results: 'Situs tayang pada Agustus 2026, dan retret pertama yang tercantum di dalamnya, September di West Virginia, terjual habis. Setiap lokakarya punya bagian fotonya sendiri, kesan para tamu tampil sebagai carousel alih-alih deretan kutipan, dan acara baru ditambahkan setiap bulan lengkap dengan tautan pemesanannya.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

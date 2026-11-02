@@ -98,6 +98,12 @@ export const it: LocaleBundle = {
       solution: 'Abbiamo costruito un sito pensato prima di tutto per la fotografia, in cui nessuna foto viene ritagliata, con schede dei servizi, copertine degli album allineate su ogni riga, una sezione sulle zone coperte e un flusso di prenotazione. Dietro c\'è un portale clienti su /portal: Grant accede, crea le gallerie, carica le foto nel proprio archivio e le condivide, mentre i clienti visualizzano e scaricano i propri set.',
       results: 'Il sito e il portale sono andati online ad agosto e settembre 2026, con Grant che gestisce le proprie gallerie in autonomia dal primo giorno. Il dominio pubblico è stato poi spostato fuori dal nostro hosting, quindi qui non c\'è un link attivo; gli screenshot mostrano il sito così come lo abbiamo consegnato.',
     },
+    'mind-and-body-retreats': {
+      desc: 'Calendario eventi, ritiri e prenotazioni di esperienze private per un brand del benessere di Washington, DC.',
+      challenge: 'Mind & Body Retreats organizza Pilates, bagni sonori, workshop e ritiri fuori città tra Washington, DC, Maryland e Virginia. Le prenotazioni passavano da un\'app di eventi esterna e da Instagram, l\'archivio fotografico era tutto in verticale e la fondatrice voleva un sito curato quanto gli incontri stessi: calmo, guidato dalle foto e con poco testo.',
+      solution: 'Abbiamo costruito un sito di quattro pagine attorno a un calendario eventi, con fasce dei ritiri a tutta larghezza in cui la foto cambia lato, una sezione di esperienze private con consulenza a pagamento e una galleria lookbook organizzata per workshop. I moduli di lista d\'attesa e di richiesta scrivono direttamente nel database del sito. Scritto a mano in Next.js, ospitato su Vercel, con dati strutturati per ogni evento ed esperienza e Google Search Console verificata al lancio.',
+      results: 'Il sito è andato online ad agosto 2026 e il primo ritiro pubblicato, a settembre in West Virginia, è andato sold out. Ogni workshop ha la sua sezione fotografica, le testimonianze degli ospiti scorrono in un carosello invece di un muro di citazioni, e ogni mese vengono aggiunti nuovi eventi con i relativi link di prenotazione.',
+    },
   },
   blog: {
     'why-your-website-is-losing-customers': {

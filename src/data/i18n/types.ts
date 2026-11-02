@@ -16,7 +16,8 @@ export type ProjectSlug =
   | 'kds-systems'
   | 'public-affair'
   | 'military-newschool'
-  | 'grant-parkhurst';
+  | 'grant-parkhurst'
+  | 'mind-and-body-retreats';
 
 /** Text fields of a case study. Title, category, year, images and URLs stay in projects.ts. */
 export interface ProjectCopy {
