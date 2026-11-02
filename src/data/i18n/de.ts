@@ -1,5 +1,5 @@
 /**
- * de.ts — German. Case studies and the consent sentence were translated earlier; the rest is still the English source until translated.
+ * de.ts: German. Full translation of en.ts: case studies, blog bodies, video copy and transcripts, specialty pages, consent sentence.
  * Shape: see ./types.ts. Keep every key; translate values only.
  */
 import type { LocaleBundle } from './types';
@@ -101,216 +101,216 @@ export const de: LocaleBundle = {
   },
   blog: {
     'why-your-website-is-losing-customers': {
-      readTime: '5 min read',
-      content: `Your website loses customers for predictable reasons: it loads too slowly, it does not say what you do, it frustrates people on phones, and it gives visitors no reason to trust you. None of that is guesswork. Research from Google, the Nielsen Norman Group, and the Baymard Institute puts numbers on each one, and every one of them is fixable.
+      readTime: '5 Min. Lesezeit',
+      content: `Ihre Website verliert Kunden aus vorhersehbaren Gründen: Sie lädt zu langsam, sie sagt nicht, was Sie tun, sie frustriert Besucher auf dem Smartphone, und sie gibt niemandem einen Grund, Ihnen zu vertrauen. Nichts davon ist Spekulation. Studien von Google, der Nielsen Norman Group und dem Baymard Institute belegen jeden dieser Punkte mit Zahlen, und jeder einzelne lässt sich beheben.
 
-## 1. Slow Load Times Kill Conversions
+## 1. Langsame Ladezeiten kosten Conversions
 
-When the BBC studied its own traffic, it found it lost an additional 10% of users for every extra second the site took to load. The upside is just as real: Vodafone improved its Largest Contentful Paint by 31% and sales rose 8%, and Rakuten 24 grew revenue per visitor by 53% after passing Core Web Vitals thresholds. All three results are documented in Google's web.dev case studies (see Sources below).
+Als die BBC ihren eigenen Traffic untersuchte, stellte sie fest, dass sie mit jeder zusätzlichen Sekunde Ladezeit weitere 10 % ihrer Nutzer verlor. Die Kehrseite ist genauso real: Vodafone verbesserte seinen Largest Contentful Paint um 31 % und steigerte den Umsatz um 8 %, und Rakuten 24 erhöhte den Umsatz pro Besucher um 53 %, nachdem die Schwellenwerte der Core Web Vitals erreicht waren. Alle drei Ergebnisse sind in den web.dev-Fallstudien von Google dokumentiert (siehe Quellen unten).
 
-Google's current targets are concrete: main content visible (LCP) within 2.5 seconds, response to taps and clicks (INP) within 200 milliseconds, and layout shift (CLS) under 0.1, measured at the 75th percentile of real visits.
+Die aktuellen Zielwerte von Google sind konkret: Hauptinhalt sichtbar (LCP) innerhalb von 2,5 Sekunden, Reaktion auf Taps und Klicks (INP) innerhalb von 200 Millisekunden und eine Layout-Verschiebung (CLS) unter 0,1, gemessen am 75. Perzentil echter Besuche.
 
-**The fix:** Compress and resize images (WebP or AVIF), serve your site through a CDN, cut unused JavaScript, and lazy-load anything below the fold. A modern framework like Next.js handles most of this out of the box.
+**Die Lösung:** Bilder komprimieren und verkleinern (WebP oder AVIF), die Website über ein CDN ausliefern, ungenutztes JavaScript streichen und alles unterhalb des sichtbaren Bereichs per Lazy Loading nachladen. Ein modernes Framework wie Next.js erledigt das meiste davon von Haus aus.
 
-## 2. No Clear Value Proposition
+## 2. Kein klares Nutzenversprechen
 
-The Nielsen Norman Group, drawing on an analysis of more than 200 million page visits, found the first 10 seconds are decisive. If a page does not communicate its value in that window, most visitors leave. Those who stay past 30 seconds often stay for minutes. And a study from Google researchers found that people form a judgment of a site's visual appeal within 50 milliseconds, before they read a single word.
+Die Nielsen Norman Group hat auf Basis einer Analyse von über 200 Millionen Seitenaufrufen festgestellt, dass die ersten 10 Sekunden entscheidend sind. Vermittelt eine Seite in diesem Zeitfenster nicht ihren Nutzen, springen die meisten Besucher ab. Wer länger als 30 Sekunden bleibt, bleibt oft mehrere Minuten. Und eine Studie von Google-Forschern zeigt, dass Menschen die visuelle Attraktivität einer Website innerhalb von 50 Millisekunden beurteilen, bevor sie ein einziges Wort gelesen haben.
 
-**The fix:** Lead with a clear, benefit-driven headline. Tell visitors exactly what problem you solve and who you solve it for. Generic openers like "Welcome to Our Website" waste the only seconds that matter.
+**Die Lösung:** Beginnen Sie mit einer klaren, nutzenorientierten Überschrift. Sagen Sie Besuchern genau, welches Problem Sie lösen und für wen. Allgemeine Einstiege wie „Willkommen auf unserer Website“ verschwenden die einzigen Sekunden, die zählen.
 
-## 3. Poor Mobile Experience
+## 3. Schlechte mobile Nutzererfahrung
 
-Google uses the mobile version of your site, crawled with a smartphone agent, for indexing and ranking. Cloudflare's network data shows 43% of all web requests came from mobile devices in 2025, up from 41% the year before. If your site has tiny tap targets and unreadable text on a phone, you are failing both Google and a huge share of your audience.
+Google verwendet für Indexierung und Ranking die mobile Version Ihrer Website, gecrawlt mit einem Smartphone-Agent. Die Netzwerkdaten von Cloudflare zeigen, dass 2025 43 % aller Web-Anfragen von Mobilgeräten kamen, nach 41 % im Vorjahr. Wenn Ihre Website auf dem Smartphone winzige Schaltflächen und unlesbaren Text hat, enttäuschen Sie Google und einen großen Teil Ihrer Zielgruppe zugleich.
 
-**The fix:** Design mobile-first and test on real devices. WCAG 2.2 sets the accessibility floor for tap targets at 24 by 24 CSS pixels; treat that as a minimum and make primary buttons comfortably larger. Keep text readable without zooming and navigation reachable with a thumb.
+**Die Lösung:** Mobile-first gestalten und auf echten Geräten testen. WCAG 2.2 setzt die Untergrenze für barrierefreie Tap-Ziele bei 24 mal 24 CSS-Pixeln; betrachten Sie das als Minimum und machen Sie Hauptschaltflächen deutlich größer. Text muss ohne Zoomen lesbar sein, die Navigation mit dem Daumen erreichbar.
 
-## 4. Weak or Missing CTAs
+## 4. Schwache oder fehlende Handlungsaufforderungen
 
-If visitors can't figure out what to do next, they leave. Every page needs a clear call to action, whether that's booking a call, requesting a quote, or downloading a resource.
+Wenn Besucher nicht erkennen, was sie als Nächstes tun sollen, gehen sie. Jede Seite braucht einen klaren Call-to-Action, ob das nun ein Gesprächstermin, eine Angebotsanfrage oder ein Download ist.
 
-**The fix:** Use one primary CTA per page. Make it visually prominent with contrasting colors. Use action-oriented language ("Get Your Free Audit" beats "Submit").
+**Die Lösung:** Ein primärer CTA pro Seite. Machen Sie ihn mit kontrastreichen Farben deutlich sichtbar. Verwenden Sie handlungsorientierte Sprache („Kostenloses Audit sichern“ schlägt „Absenden“).
 
-## 5. No Trust Signals
+## 5. Keine Vertrauenssignale
 
-The Baymard Institute's meta-analysis of 50 studies puts average cart abandonment at just over 70%. Among the fixable reasons, 19% of US shoppers said they did not trust the site with their credit card information, and 17% abandoned because of website errors or crashes. Stanford's Web Credibility Project, built on research with more than 4,500 participants, found that people judge a site's credibility largely on its visual design, and recommends showing the real people behind the site, a physical address, and clear contact information.
+Die Meta-Analyse des Baymard Institute über 50 Studien beziffert die durchschnittliche Warenkorbabbruchrate auf etwas über 70 %. Unter den behebbaren Gründen gaben 19 % der US-Käufer an, der Website ihre Kreditkartendaten nicht anzuvertrauen, und 17 % brachen wegen Website-Fehlern oder Abstürzen ab. Das Web Credibility Project der Stanford University, gestützt auf Forschung mit über 4.500 Teilnehmern, fand heraus, dass Menschen die Glaubwürdigkeit einer Website vor allem am visuellen Design festmachen, und empfiehlt, die echten Menschen hinter der Website, eine physische Adresse und klare Kontaktinformationen zu zeigen.
 
-**The fix:** Add social proof throughout your site, not just on a dedicated testimonials page. Show real results, real people, and real numbers. Make your contact details easy to find.
+**Die Lösung:** Setzen Sie Social Proof auf der gesamten Website ein, nicht nur auf einer eigenen Referenzseite. Zeigen Sie echte Ergebnisse, echte Menschen und echte Zahlen. Machen Sie Ihre Kontaktdaten leicht auffindbar.
 
-## Ready to Fix Your Website?
+## Bereit, Ihre Website in Ordnung zu bringen?
 
-If any of these issues sound familiar, you're not alone. Most business websites suffer from at least two or three of these problems. The good news? They're all fixable.
+Wenn Ihnen einige dieser Punkte bekannt vorkommen, sind Sie nicht allein. Die meisten Unternehmenswebsites leiden unter mindestens zwei oder drei dieser Probleme. Die gute Nachricht: Alle lassen sich beheben.
 
-Book a free strategy call with our team and we'll show you exactly what's holding your site back and how to turn it into a growth engine.
+Buchen Sie ein kostenloses Strategiegespräch mit unserem Team. Wir zeigen Ihnen genau, was Ihre Website ausbremst und wie sie zum Wachstumsmotor wird.
 
-## Sources
+## Quellen
 
 - **Google web.dev, Why speed matters**: https://web.dev/articles/why-speed-matters
 - **Google web.dev, Core Web Vitals**: https://web.dev/articles/vitals
 - **Nielsen Norman Group, How Long Do Users Stay on Web Pages?**: https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/
-- **Tuch et al., first impressions study (Google Research)**: https://research.google/pubs/the-role-of-visual-complexity-and-prototypicality-regarding-first-impression-of-websites-working-towards-understanding-aesthetic-judgments/
+- **Tuch et al., Studie zum ersten Eindruck (Google Research)**: https://research.google/pubs/the-role-of-visual-complexity-and-prototypicality-regarding-first-impression-of-websites-working-towards-understanding-aesthetic-judgments/
 - **Cloudflare Radar 2025 Year in Review**: https://blog.cloudflare.com/radar-2025-year-in-review/
 - **W3C, WCAG 2.2 Target Size (Minimum)**: https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
 - **Baymard Institute, Cart Abandonment Rate Statistics**: https://baymard.com/lists/cart-abandonment-rate
 - **Stanford Web Credibility Project, Guidelines**: https://credibility.stanford.edu/guidelines/index.html`,
     },
     'seo-checklist-2026': {
-      readTime: '7 min read',
-      content: `Ranking in 2026 still comes down to fundamentals: a site Google can crawl, pages that load fast, structure machines can parse, and content that answers real questions. Google confirms the same foundations now decide whether you show up in AI Overviews and AI Mode too. Here's the checklist we run on every site we build.
+      readTime: '7 Min. Lesezeit',
+      content: `Gute Rankings hängen auch 2026 von den Grundlagen ab: eine Website, die Google crawlen kann, Seiten, die schnell laden, eine Struktur, die Maschinen verstehen, und Inhalte, die echte Fragen beantworten. Google bestätigt, dass dieselben Grundlagen inzwischen auch darüber entscheiden, ob Sie in AI Overviews und im AI Mode auftauchen. Hier ist die Checkliste, die wir bei jeder Website durchgehen, die wir bauen.
 
-## Technical SEO Foundations
+## Technische SEO-Grundlagen
 
-- **HTTPS everywhere**: Google has used HTTPS as a ranking signal since 2014. It's a lightweight signal, but browsers flag insecure sites and visitors notice.
-- **Fast Core Web Vitals**: LCP under 2.5 seconds, INP under 200 milliseconds, CLS under 0.1, measured at the 75th percentile of real visits. INP replaced FID as the responsiveness metric in 2024, so retire any old FID dashboards.
-- **Mobile-first indexing**: Google crawls with a smartphone agent and uses your mobile version for indexing and ranking. Your mobile site IS your site.
-- **Clean URL structure**: Use descriptive, readable URLs. Avoid query parameters where you can.
-- **XML sitemap**: Submit to Google Search Console. Keep it updated.
-- **robots.txt**: Block what shouldn't be indexed (admin pages, API routes).
+- **HTTPS überall**: Google nutzt HTTPS seit 2014 als Rankingsignal. Es ist ein leichtes Signal, aber Browser markieren unsichere Seiten, und Besucher bemerken das.
+- **Schnelle Core Web Vitals**: LCP unter 2,5 Sekunden, INP unter 200 Millisekunden, CLS unter 0,1, gemessen am 75. Perzentil echter Besuche. INP hat FID 2024 als Metrik für die Reaktionsfähigkeit abgelöst, alte FID-Dashboards können also weg.
+- **Mobile-first-Indexierung**: Google crawlt mit einem Smartphone-Agent und nutzt Ihre mobile Version für Indexierung und Ranking. Ihre mobile Website IST Ihre Website.
+- **Saubere URL-Struktur**: Verwenden Sie beschreibende, lesbare URLs. Vermeiden Sie Query-Parameter, wo es geht.
+- **XML-Sitemap**: In der Google Search Console einreichen. Aktuell halten.
+- **robots.txt**: Blockieren, was nicht indexiert werden soll (Admin-Seiten, API-Routen).
 
-## On-Page SEO
+## On-Page-SEO
 
-- **Unique title tags**: Google says there is no fixed character limit, but long titles get truncated to fit the screen. Front-load the important words, give every page distinct descriptive text, and skip boilerplate and repeated keywords.
-- **Meta descriptions**: Write a compelling summary for every page. Google truncates long snippets, so put the value in the first sentence.
-- **Heading hierarchy**: One H1 per page, logical H2 to H6 structure.
-- **Internal linking**: Connect related pages. Use descriptive anchor text.
-- **Image optimization**: Alt text, compressed formats (WebP/AVIF), lazy loading.
+- **Eindeutige Title-Tags**: Laut Google gibt es keine feste Zeichengrenze, aber lange Titel werden passend zum Bildschirm abgeschnitten. Wichtige Wörter nach vorn, jede Seite bekommt einen eigenen beschreibenden Text, und Floskeln sowie wiederholte Keywords bleiben draußen.
+- **Meta-Descriptions**: Schreiben Sie für jede Seite eine überzeugende Zusammenfassung. Google kürzt lange Snippets, also gehört der Nutzen in den ersten Satz.
+- **Überschriften-Hierarchie**: Eine H1 pro Seite, logische Struktur von H2 bis H6.
+- **Interne Verlinkung**: Verwandte Seiten verbinden. Beschreibende Linktexte verwenden.
+- **Bildoptimierung**: Alt-Texte, komprimierte Formate (WebP/AVIF), Lazy Loading.
 
-## Structured Data
+## Strukturierte Daten
 
-Structured data helps Google understand your content and can earn you rich results (FAQ dropdowns, star ratings, breadcrumbs). Google's own case studies show it moves real numbers: Rotten Tomatoes measured a 25% higher click-through rate on pages with structured data, and Nestlé measured an 82% higher click-through rate on pages that appear as rich results.
+Strukturierte Daten helfen Google, Ihre Inhalte zu verstehen, und können Ihnen Rich Results einbringen (FAQ-Ausklappungen, Sternebewertungen, Breadcrumbs). Googles eigene Fallstudien zeigen, dass sich das in echten Zahlen niederschlägt: Rotten Tomatoes maß eine um 25 % höhere Klickrate auf Seiten mit strukturierten Daten, und Nestlé maß eine um 82 % höhere Klickrate auf Seiten, die als Rich Results erscheinen.
 
-- **Organization schema**: Tell Google who you are.
-- **LocalBusiness schema**: Essential for local SEO.
-- **BreadcrumbList schema**: Helps navigation in search results.
-- **FAQPage schema**: Can earn expanded FAQ snippets in search.
-- **Article schema**: For blog posts and news content.
+- **Organization-Schema**: Sagt Google, wer Sie sind.
+- **LocalBusiness-Schema**: Unverzichtbar für lokales SEO.
+- **BreadcrumbList-Schema**: Erleichtert die Navigation in den Suchergebnissen.
+- **FAQPage-Schema**: Kann erweiterte FAQ-Snippets in der Suche einbringen.
+- **Article-Schema**: Für Blogbeiträge und News-Inhalte.
 
-## AI Search Is Still SEO
+## KI-Suche ist immer noch SEO
 
-Google is explicit that there are no additional requirements to appear in AI Overviews or AI Mode: no special files, no new markup, no separate optimization. The same crawlability, page experience, and helpful content fundamentals decide whether AI features surface and cite your pages. And if you want to limit how they use your content, the existing controls (nosnippet, max-snippet, noindex) still apply.
+Google sagt ausdrücklich, dass es keine zusätzlichen Anforderungen gibt, um in AI Overviews oder im AI Mode zu erscheinen: keine speziellen Dateien, kein neues Markup, keine separate Optimierung. Dieselben Grundlagen aus Crawlbarkeit, Page Experience und hilfreichen Inhalten entscheiden, ob KI-Funktionen Ihre Seiten anzeigen und zitieren. Und wenn Sie einschränken möchten, wie Ihre Inhalte dort verwendet werden, gelten die bestehenden Steuerungen (nosnippet, max-snippet, noindex) weiterhin.
 
-## Content Strategy
+## Content-Strategie
 
-- **Target long-tail keywords**: Less competition, higher intent.
-- **Answer real questions**: Mine "People Also Ask" and your own customer emails for content ideas.
-- **Keep content current**: Review quarterly. Update facts, screenshots, and dates so pages stay accurate.
-- **Build topical authority**: Create clusters of related content around your core topics.
+- **Long-Tail-Keywords anvisieren**: Weniger Wettbewerb, höhere Kaufabsicht.
+- **Echte Fragen beantworten**: Durchsuchen Sie „Ähnliche Fragen“ bei Google und Ihre eigenen Kunden-E-Mails nach Content-Ideen.
+- **Inhalte aktuell halten**: Vierteljährlich prüfen. Fakten, Screenshots und Datumsangaben aktualisieren, damit Seiten korrekt bleiben.
+- **Thematische Autorität aufbauen**: Erstellen Sie Cluster aus verwandten Inhalten rund um Ihre Kernthemen.
 
-## The Bottom Line
+## Unterm Strich
 
-SEO isn't a one-time project. It's an ongoing practice. But getting the fundamentals right from day one gives you a massive advantage over competitors who treat it as an afterthought.
+SEO ist kein einmaliges Projekt, sondern eine laufende Praxis. Aber wer die Grundlagen von Tag eins an richtig macht, hat einen riesigen Vorsprung vor Wettbewerbern, die das Thema als Nebensache behandeln.
 
-If you'd rather not run this checklist alone, book a free strategy call and we'll walk through exactly where your site stands and what to fix first.
+Wenn Sie diese Checkliste lieber nicht allein durchgehen möchten, buchen Sie ein kostenloses Strategiegespräch. Wir schauen gemeinsam, wo Ihre Website steht und was zuerst zu tun ist.
 
-## Sources
+## Quellen
 
 - **Google web.dev, Core Web Vitals**: https://web.dev/articles/vitals
-- **Google Search Central, HTTPS as a ranking signal**: https://developers.google.com/search/blog/2014/08/https-as-ranking-signal
-- **Google Search Central, Mobile-first indexing**: https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing
-- **Google Search Central, Title links**: https://developers.google.com/search/docs/appearance/title-link
-- **Google Search Central, Structured data introduction**: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
-- **Google Search Central, AI features and your website**: https://developers.google.com/search/docs/appearance/ai-features`,
+- **Google Search Central, HTTPS als Rankingsignal**: https://developers.google.com/search/blog/2014/08/https-as-ranking-signal
+- **Google Search Central, Mobile-first-Indexierung**: https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing
+- **Google Search Central, Title-Links**: https://developers.google.com/search/docs/appearance/title-link
+- **Google Search Central, Einführung in strukturierte Daten**: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
+- **Google Search Central, KI-Funktionen und Ihre Website**: https://developers.google.com/search/docs/appearance/ai-features`,
     },
     'brand-identity-investment': {
-      readTime: '5 min read',
-      content: `Most businesses treat branding as decoration. The numbers say otherwise. Kantar's BrandZ ranking values the world's 100 most valuable brands at a combined 13.1 trillion dollars in 2026, up 22% in a single year. Brand is an asset, and like any asset it compounds. Here's what a strong identity actually does for a business, and how to tell when yours is holding you back.
+      readTime: '5 Min. Lesezeit',
+      content: `Die meisten Unternehmen behandeln Branding als Dekoration. Die Zahlen sagen etwas anderes. Das BrandZ-Ranking von Kantar beziffert den Wert der 100 wertvollsten Marken der Welt für 2026 auf zusammen 13,1 Billionen Dollar, ein Plus von 22 % in einem einzigen Jahr. Eine Marke ist ein Vermögenswert, und wie jeder Vermögenswert wächst sie mit Zinseszins. Hier ist, was eine starke Identität für ein Unternehmen tatsächlich leistet, und woran Sie erkennen, dass Ihre Sie ausbremst.
 
-## What Brand Identity Actually Is
+## Was Markenidentität wirklich ist
 
-Brand identity is the complete visual and verbal system that represents your business. It includes your logo, color palette, typography, voice, messaging, and the feelings people associate with your name.
+Markenidentität ist das vollständige visuelle und sprachliche System, das Ihr Unternehmen repräsentiert. Dazu gehören Ihr Logo, Ihre Farbpalette, Ihre Typografie, Ihre Tonalität, Ihre Botschaften und die Gefühle, die Menschen mit Ihrem Namen verbinden.
 
-Think of the world's most valuable brands. You recognize them instantly, not just by their logo, but by their entire visual language and the way they make you feel.
+Denken Sie an die wertvollsten Marken der Welt. Sie erkennen sie sofort, nicht nur am Logo, sondern an ihrer gesamten visuellen Sprache und an dem Gefühl, das sie auslösen.
 
-## Why It Matters for Growth
+## Warum sie für Wachstum entscheidend ist
 
-**1. Trust at first sight.** Research from Google found that people form a judgment about a website's visual appeal within 50 milliseconds of seeing it. Stanford's Web Credibility Project, based on studies with more than 4,500 participants, found that people judge credibility largely on visual design. A polished, cohesive brand signals professionalism before anyone reads a word.
+**1. Vertrauen auf den ersten Blick.** Forschung von Google zeigt, dass Menschen die visuelle Attraktivität einer Website innerhalb von 50 Millisekunden beurteilen. Das Web Credibility Project der Stanford University, gestützt auf Studien mit über 4.500 Teilnehmern, fand heraus, dass Menschen Glaubwürdigkeit vor allem am visuellen Design festmachen. Eine saubere, stimmige Marke signalisiert Professionalität, bevor jemand ein Wort gelesen hat.
 
-**2. Premium pricing.** Kantar measures brand strength partly as pricing power: the ability to charge more than competitors without losing demand. That pricing power is a large part of why the value of the world's strongest brands keeps climbing while weaker competitors fight on price.
+**2. Höhere Preise.** Kantar misst Markenstärke unter anderem als Preissetzungsmacht: die Fähigkeit, mehr zu verlangen als die Konkurrenz, ohne Nachfrage zu verlieren. Diese Preissetzungsmacht ist ein großer Teil des Grundes, warum der Wert der stärksten Marken der Welt weiter steigt, während schwächere Wettbewerber über den Preis kämpfen.
 
-**3. Customer loyalty.** Harvard Business Review documented what happened when companies invested in emotional connection with customers: one bank grew product use among its target segment by 70% and new accounts by 40%, and an apparel retailer more than tripled its same-store sales growth. People don't just buy products, they buy into brands.
+**3. Kundentreue.** Die Harvard Business Review hat dokumentiert, was passierte, als Unternehmen in die emotionale Bindung zu ihren Kunden investierten: Eine Bank steigerte die Produktnutzung in ihrem Zielsegment um 70 % und die Zahl neuer Konten um 40 %, und ein Modehändler verdreifachte das Umsatzwachstum seiner bestehenden Filialen mehr als. Menschen kaufen nicht nur Produkte, sie kaufen sich in Marken ein.
 
-**4. Marketing efficiency.** When your brand is clear and consistent, every marketing dollar works harder. People remember you. They recognize you. They come back.
+**4. Effizienteres Marketing.** Wenn Ihre Marke klar und konsistent ist, arbeitet jeder Marketing-Euro härter. Menschen erinnern sich an Sie. Sie erkennen Sie wieder. Sie kommen zurück.
 
-## Signs You Need a Brand Refresh
+## Anzeichen, dass Ihre Marke eine Auffrischung braucht
 
-- Your visual identity looks dated or inconsistent across platforms
-- Customers can't articulate what makes you different
-- You're competing primarily on price rather than value
-- Your team isn't sure how to represent the brand consistently
+- Ihre visuelle Identität wirkt veraltet oder ist über die Plattformen hinweg uneinheitlich
+- Kunden können nicht benennen, was Sie unterscheidet
+- Sie konkurrieren vor allem über den Preis statt über den Wert
+- Ihr Team ist unsicher, wie die Marke einheitlich dargestellt werden soll
 
-## Where Your Brand Lives: Your Website
+## Wo Ihre Marke lebt: auf Ihrer Website
 
-You don't need a Fortune 500 budget to put this research to work. For most businesses, the place brand identity meets customers is the website. That's where the 50-millisecond first impression happens, where credibility is judged, and where an inconsistent identity quietly costs you inquiries.
+Sie brauchen kein Fortune-500-Budget, um diese Forschung für sich zu nutzen. Für die meisten Unternehmen ist die Website der Ort, an dem Markenidentität auf Kunden trifft. Dort passiert der erste Eindruck in 50 Millisekunden, dort wird Glaubwürdigkeit beurteilt, und dort kostet eine uneinheitliche Identität Sie stillschweigend Anfragen.
 
-If your current site doesn't look like the business you've actually built, book a free strategy call and we'll show you what a website that earns that trust could look like.
+Wenn Ihre aktuelle Website nicht nach dem Unternehmen aussieht, das Sie tatsächlich aufgebaut haben, buchen Sie ein kostenloses Strategiegespräch. Wir zeigen Ihnen, wie eine Website aussehen könnte, die dieses Vertrauen verdient.
 
-## Sources
+## Quellen
 
 - **Kantar BrandZ Most Valuable Global Brands**: https://www.kantar.com/campaigns/brandz/global
-- **Tuch et al., first impressions study (Google Research)**: https://research.google/pubs/the-role-of-visual-complexity-and-prototypicality-regarding-first-impression-of-websites-working-towards-understanding-aesthetic-judgments/
+- **Tuch et al., Studie zum ersten Eindruck (Google Research)**: https://research.google/pubs/the-role-of-visual-complexity-and-prototypicality-regarding-first-impression-of-websites-working-towards-understanding-aesthetic-judgments/
 - **Stanford Web Credibility Project, Guidelines**: https://credibility.stanford.edu/guidelines/index.html
 - **Harvard Business Review, The New Science of Customer Emotions**: https://hbr.org/2015/11/the-new-science-of-customer-emotions`,
     },
   },
   videos: {
     kofi: {
-      name: 'Coach Kofi on working with Blok Blok Studio',
-      description: 'Video testimonial from Coach Kofi, a Nike athlete and personal trainer in Berlin, filmed at his gym. Blok Blok Studio built coachkofi.de; consultation requests rose 200% after launch.',
-      transcript: `I've been working with Chase for my website now, and it turned out completely insane. Gave me that Apple logo, Apple design. The things pop up really nicely. The website has a smooth finish.
+      name: 'Coach Kofi über die Zusammenarbeit mit Blok Blok Studio',
+      description: 'Video-Kundenstimme von Coach Kofi, Nike-Athlet und Personal Trainer in Berlin, aufgenommen in seinem Gym. Blok Blok Studio hat coachkofi.de gebaut; die Beratungsanfragen stiegen nach dem Launch um 200 %.',
+      transcript: `Ich habe mit Chase an meiner Website gearbeitet, und sie ist komplett irre geworden. Er hat mir diesen Apple-Look gegeben, dieses Apple-Design. Die Sachen poppen richtig schön auf. Die Website hat einen ganz weichen Finish.
 
-I personally like one pages. We decided on that. Communication with him is really easy. He's a good man, man. Very determined.
+Ich persönlich mag One-Pager. Dafür haben wir uns entschieden. Die Kommunikation mit ihm ist wirklich einfach. Er ist ein guter Typ, Mann. Sehr zielstrebig.
 
-And I think you need someone to work with you on your outer layer of software. You need someone that's responsive, and knows his things, and can adapt to your needs.
+Und ich glaube, man braucht jemanden, der mit einem an der äußeren Schicht arbeitet, an der Software. Man braucht jemanden, der schnell reagiert, der sein Handwerk versteht und sich auf Ihre Bedürfnisse einstellen kann.
 
-Yeah, so I'd really recommend Chase, or Blok Blok Studio. Working with them really helped me. Yeah, man. Give them a try. They're really good.`,
+Ja, also ich kann Chase, oder Blok Blok Studio, wirklich empfehlen. Die Zusammenarbeit mit ihnen hat mir wirklich geholfen. Ja, Mann. Probieren Sie es aus. Die sind richtig gut.`,
     },
     luki: {
-      name: 'Coach Luki on working with Blok Blok Studio',
-      description: 'Video testimonial from Coach Luki, a personal trainer in Berlin. Blok Blok Studio built coachluki.com, which takes his bookings and payments directly on the site instead of through DMs and manual invoices.',
-      transcript: `I'm a personal trainer based in Berlin, and I stumbled across Chase, or Blok Blok Studio, through a friend of mine who worked with Chase before. So I hopped on a call with him and we talked about my goals, my vision for the website, and I felt like I was understood right off the bat. It was a very familiar vibe too, which made working with Chase a lot more easygoing, that's for sure.
+      name: 'Coach Luki über die Zusammenarbeit mit Blok Blok Studio',
+      description: 'Video-Kundenstimme von Coach Luki, Personal Trainer in Berlin. Blok Blok Studio hat coachluki.com gebaut, wo Buchungen und Zahlungen direkt über die Seite laufen statt über DMs und handgeschriebene Rechnungen.',
+      transcript: `Ich bin Personal Trainer in Berlin, und ich bin über einen Freund auf Chase, also Blok Blok Studio, gestoßen, der schon vorher mit Chase gearbeitet hatte. Also habe ich mit ihm telefoniert, wir haben über meine Ziele gesprochen, über meine Vision für die Website, und ich habe mich vom ersten Moment an verstanden gefühlt. Es war auch eine sehr vertraute Atmosphäre, und das hat die Zusammenarbeit mit Chase auf jeden Fall deutlich entspannter gemacht.
 
-Chase is just an overall great guy who is very patient with you. We worked together during a time where I had a lot going on personally, and he was very patient with me, making sure I was staying on track and guiding me through the whole process without making me feel overwhelmed, which was a great highlight for me.
+Chase ist einfach ein rundum großartiger Typ, der sehr geduldig mit einem ist. Wir haben in einer Zeit zusammengearbeitet, in der bei mir privat viel los war, und er war sehr geduldig mit mir, hat dafür gesorgt, dass ich auf Kurs bleibe, und mich durch den ganzen Prozess geführt, ohne dass ich mich überfordert gefühlt habe. Das war für mich ein echtes Highlight.
 
-His communication skills are great, he's very responsive, it's a big plus. I had a lot of ideas I wanted to implement into the website, and he went through these ideas, these visions I had for the website, and made sure that they fit the brand identity, and never really dismissed any ideas. So that was a great highlight of mine.
+Seine Kommunikation ist super, er antwortet sehr schnell, das ist ein großes Plus. Ich hatte viele Ideen, die ich auf der Website umsetzen wollte, und er ist diese Ideen, diese Vorstellungen, die ich für die Website hatte, alle durchgegangen, hat dafür gesorgt, dass sie zur Markenidentität passen, und hat eigentlich nie eine Idee abgetan. Das war für mich ein weiteres großes Highlight.
 
-Through the whole process I just felt seen, I felt heard, I felt like I was being involved in the whole process, and most importantly I felt genuinely taken care of. And that isn't the norm nowadays anymore, I would say.
+Während des ganzen Prozesses habe ich mich einfach gesehen gefühlt, gehört gefühlt, ich hatte das Gefühl, in den ganzen Prozess eingebunden zu sein, und vor allem habe ich mich wirklich gut aufgehoben gefühlt. Und das ist heutzutage nicht mehr die Norm, würde ich sagen.
 
-What I love most about the website is it's not just another template anyone can throw together. There's a lot of intention that went into it. We focused on the customer journey, the user experience, and made sure that the website, the brand identity, looked authentic and memorable.
+Was ich an der Website am meisten liebe: Sie ist nicht einfach noch ein Template, das jeder zusammenklicken kann. Da steckt sehr viel Absicht drin. Wir haben uns auf die Customer Journey konzentriert, auf die User Experience, und dafür gesorgt, dass die Website, die Markenidentität, authentisch und einprägsam wirkt.
 
-So if you're looking for someone who takes care of you, who focuses on the details, and who's there for you, who's responsive — you're definitely in the right place with Chase, or Blok Blok Studio in this case.`,
+Also wenn Sie jemanden suchen, der sich um Sie kümmert, der auf die Details achtet, der für Sie da ist und schnell reagiert: Bei Chase, oder in diesem Fall Blok Blok Studio, sind Sie definitiv richtig.`,
     },
     founder: {
-      name: 'A word from the founder of Blok Blok Studio',
-      description: 'Chase Haynes walks through where service businesses quietly lose customers online and how Blok Blok Studio fixes it, screen-recorded over the studio site.',
-      transcript: `My name is Chase, the founder of Blok Blok Studio. I can tell you all the case studies in the world for our business, but if you don't know me as a person, it doesn't even matter. So I'm going to introduce myself.
+      name: 'Ein Wort vom Gründer von Blok Blok Studio',
+      description: 'Chase Haynes zeigt, wo Dienstleistungsunternehmen online unbemerkt Kunden verlieren und wie Blok Blok Studio das behebt, als Bildschirmaufnahme über der Studio-Website.',
+      transcript: `Mein Name ist Chase, ich bin der Gründer von Blok Blok Studio. Ich kann Ihnen alle Fallstudien der Welt über unser Unternehmen erzählen, aber wenn Sie mich nicht als Person kennen, spielt das keine Rolle. Also stelle ich mich kurz vor.
 
-My name is Chase. I'm from San Diego, California. I grew up a lot in the U.S., ended up on the East Coast. I joined the Marine Corps, I was in for five years. Got out, moved up to New York City to Parsons School of Design. Got my degree, a Bachelor's of Fine Arts in Design and Technology. After that, founded my agency, Blok Blok Studio, in June of 2024. Then I moved out to Berlin, Germany about a year later.
+Mein Name ist Chase. Ich komme aus San Diego, Kalifornien. Ich bin an vielen Orten in den USA aufgewachsen und schließlich an der Ostküste gelandet. Ich bin zum Marine Corps gegangen, fünf Jahre lang. Danach bin ich nach New York City gezogen, an die Parsons School of Design. Dort habe ich meinen Abschluss gemacht, einen Bachelor of Fine Arts in Design and Technology. Danach habe ich im Juni 2024 meine Agentur gegründet, Blok Blok Studio. Etwa ein Jahr später bin ich nach Berlin gezogen.
 
-From there, we've just been scaling the business. It's been growing, everything is ramping up. We have a team of four people now. I've got my creative director in Virginia, my marketing strategist out in L.A., and my full stack dev here in Berlin, Germany. It's been an amazing ride, and we're here every single day kicking it.
+Seitdem bauen wir das Unternehmen Stück für Stück aus. Es wächst, alles nimmt Fahrt auf. Wir sind inzwischen ein Team von vier Leuten. Mein Creative Director sitzt in Virginia, meine Marketing-Strategin in L.A., und mein Full-Stack-Entwickler hier in Berlin. Es war eine großartige Reise, und wir sind jeden einzelnen Tag voll dabei.
 
-Would love to work with you. Below, you're going to see a bunch of case studies. You're going to see four examples of the work we've done. Go through it, check it out. If you've got questions, let me know on Instagram or email, whatever works best for you.
+Ich würde sehr gern mit Ihnen arbeiten. Weiter unten sehen Sie eine Reihe von Fallstudien. Sie sehen vier Beispiele unserer Arbeit. Gehen Sie sie durch, schauen Sie sie sich an. Wenn Sie Fragen haben, schreiben Sie mir auf Instagram oder per E-Mail, was immer Ihnen lieber ist.
 
-Below that, we've got a lead form. Just put all your information in. It comes straight to me, I'll check it out, we'll hop on a call, we'll see if it works. If it works, great. If not, it is what it is. But I'm really looking forward to meeting you, and you guys have a great day. Talk to you later.`,
+Darunter finden Sie ein Kontaktformular. Tragen Sie einfach Ihre Daten ein. Die Anfrage landet direkt bei mir, ich schaue sie mir an, wir telefonieren und sehen, ob es passt. Wenn ja, super. Wenn nicht, ist es eben so. Aber ich freue mich wirklich darauf, Sie kennenzulernen. Haben Sie einen schönen Tag. Bis bald.`,
     },
   },
   specialties: {
     'webdesign-berlin': {
       metaTitle: 'Webdesign Berlin | Blok Blok Studio',
-      metaDescription: 'Webdesign Agentur in Berlin. Individuelle Next.js Websites, die Kunden gewinnen. Keine Templates, keine Baukaesten. Kostenloses Erstgespraech.',
+      metaDescription: 'Webdesign Agentur in Berlin. Individuelle Next.js Websites, die Kunden gewinnen. Keine Templates, keine Baukästen. Kostenloses Erstgespräch.',
       kicker: 'Webdesign Agentur Berlin',
       h1: 'Webdesign aus Berlin, das Kunden bringt',
-      intro: 'Wir entwerfen und entwickeln individuelle Websites fuer Unternehmen in Berlin und weltweit. Jede Seite wird von Grund auf gebaut: schnell, suchmaschinenoptimiert und auf ein Ziel ausgerichtet, nämlich aus Besuchern Kunden zu machen.',
+      intro: 'Wir entwerfen und entwickeln individuelle Websites für Unternehmen in Berlin und weltweit. Jede Seite wird von Grund auf gebaut: schnell, suchmaschinenoptimiert und auf ein Ziel ausgerichtet, nämlich aus Besuchern Kunden zu machen.',
       stats: [
         {
           value: '15+',
           label: 'Projekte umgesetzt',
         },
         {
-          value: '100%',
+          value: '100 %',
           label: 'Individuell entwickelt, keine Templates',
         },
         {
           value: '2',
-          label: 'Berliner Coaches mit laufenden Buchungen ueber ihre Website',
+          label: 'Berliner Coaches mit laufenden Buchungen über ihre Website',
         },
       ],
       featuresHeading: 'Was Sie bekommen',
@@ -329,277 +329,277 @@ Below that, we've got a lead form. Just put all your information in. It comes st
         },
         {
           title: 'Sichtbar in der KI-Suche (AEO)',
-          desc: 'Immer mehr Kunden fragen ChatGPT, Perplexity oder die Google KI-Uebersicht statt klassisch zu googeln. Wir bauen strukturierte Daten, Antwortformate und llms.txt ein, damit Ihre Website in KI-Antworten zitiert wird.',
+          desc: 'Immer mehr Kunden fragen ChatGPT, Perplexity oder die Google KI-Übersicht statt klassisch zu googeln. Wir bauen strukturierte Daten, Antwortformate und llms.txt ein, damit Ihre Website in KI-Antworten zitiert wird.',
         },
         {
           title: 'Betreuung aus Berlin',
-          desc: 'Direkter Kontakt, schnelle Antworten, persoenliche Uebergabe. Kein Ticketsystem, keine Agentur-Warteschleife.',
+          desc: 'Direkter Kontakt, schnelle Antworten, persönliche Übergabe. Kein Ticketsystem, keine Agentur-Warteschleife.',
         },
       ],
       caseStudy: {
         heading: 'Aus der Praxis',
         name: 'Coach Luki, Personal Trainer in Berlin',
-        result: 'Buchungen und Zahlungen laufen komplett ueber die Website',
-        body: 'Luke Satterly trainiert Klienten bei Holmes Place und John Reed. Seine Website nimmt Buchungen an und wickelt Zahlungen ueber Stripe ab, ohne Direktnachrichten und ohne Rechnungen per Hand. Dazu lokale Suchmaschinenoptimierung fuer Begriffe wie "Personal Trainer Berlin".',
+        result: 'Buchungen und Zahlungen laufen komplett über die Website',
+        body: 'Luke Satterly trainiert Klienten bei Holmes Place und John Reed. Seine Website nimmt Buchungen an und wickelt Zahlungen über Stripe ab, ohne Direktnachrichten und ohne Rechnungen per Hand. Dazu lokale Suchmaschinenoptimierung für Begriffe wie „Personal Trainer Berlin“.',
         linkLabel: 'Zur Fallstudie',
       },
-      faqHeading: 'Haeufige Fragen',
+      faqHeading: 'Häufige Fragen',
       faqs: [
         {
           q: 'Was kostet eine Website bei Blok Blok Studio?',
-          a: 'Jedes Projekt wird individuell kalkuliert, abhaengig von Umfang und Funktionen. Nach einem kostenlosen Erstgespraech erhalten Sie ein Festpreisangebot mit klar definierten Leistungen. Eine Uebersicht finden Sie auf unserer Preisseite.',
+          a: 'Jedes Projekt wird individuell kalkuliert, abhängig von Umfang und Funktionen. Nach einem kostenlosen Erstgespräch erhalten Sie ein Festpreisangebot mit klar definierten Leistungen. Eine Übersicht finden Sie auf unserer Preisseite.',
         },
         {
           q: 'Wie lange dauert die Entwicklung?',
-          a: 'Eine typische Unternehmenswebsite ist in 2 bis 4 Wochen live. Groessere Projekte mit Buchungssystem oder Shop dauern entsprechend laenger. Den genauen Zeitplan legen wir vor Projektstart fest.',
+          a: 'Eine typische Unternehmenswebsite ist in 2 bis 4 Wochen live. Größere Projekte mit Buchungssystem oder Shop dauern entsprechend länger. Den genauen Zeitplan legen wir vor Projektstart fest.',
         },
         {
           q: 'Arbeiten Sie nur mit Berliner Unternehmen?',
-          a: 'Nein. Wir sitzen in Berlin und betreuen Kunden vor Ort persoenlich, arbeiten aber mit Unternehmen weltweit, unter anderem in den USA.',
+          a: 'Nein. Wir sitzen in Berlin und betreuen Kunden vor Ort persönlich, arbeiten aber mit Unternehmen weltweit, unter anderem in den USA.',
         },
         {
           q: 'Warum keine KI-Website oder ein Baukasten wie Wix?',
-          a: 'KI-Baukaesten liefern in Minuten eine Website, die aussieht wie tausend andere, langsam laedt und weder in Google noch in der KI-Suche zuverlaessig gefunden wird. Eine individuell entwickelte Website kostet mehr, gewinnt dafuer aber messbar Kunden. Unsere Fallstudien zeigen die Zahlen.',
+          a: 'KI-Baukästen liefern in Minuten eine Website, die aussieht wie tausend andere, langsam lädt und weder in Google noch in der KI-Suche zuverlässig gefunden wird. Eine individuell entwickelte Website kostet mehr, gewinnt dafür aber messbar Kunden. Unsere Fallstudien zeigen die Zahlen.',
         },
         {
           q: 'Warum Next.js statt WordPress oder Wix?',
           a: 'Next.js Websites laden schneller, sind sicherer und ranken besser, weil kein Ballast aus Plugins und Themes mitgeliefert wird. Sie bekommen genau das, was Ihr Unternehmen braucht, und nichts, was es ausbremst.',
         },
       ],
-      ctaHeading: 'Lassen Sie uns ueber Ihr Projekt sprechen',
-      ctaBody: 'Kostenloses Erstgespraech, 15 Minuten. Sie erzaehlen uns, was Sie brauchen, wir sagen Ihnen ehrlich, wie wir es umsetzen wuerden.',
-      ctaButton: 'Kostenloses Erstgespraech buchen',
+      ctaHeading: 'Lassen Sie uns über Ihr Projekt sprechen',
+      ctaBody: 'Kostenloses Erstgespräch, 15 Minuten. Sie erzählen uns, was Sie brauchen, wir sagen Ihnen ehrlich, wie wir es umsetzen würden.',
+      ctaButton: 'Kostenloses Erstgespräch buchen',
     },
     'plumber-website-design': {
-      metaTitle: 'Plumber Website Design | Blok Blok Studio',
-      metaDescription: 'Websites for plumbers and home service companies that turn Google and AI searches into booked jobs. Our first-year plumbing client generated $50k with his site.',
-      kicker: 'Trades and Home Services',
-      h1: 'Websites for plumbers that turn searches into booked jobs',
-      intro: 'When a homeowner has a burst pipe, they search, call the first trustworthy result, and never scroll back. We build websites for plumbers and home service companies that win that moment: fast, local-SEO ready, and built around the call button.',
+      metaTitle: 'Websites für Sanitärbetriebe | Blok Blok Studio',
+      metaDescription: 'Websites für Klempner und Handwerksbetriebe, die Google- und KI-Suchen in gebuchte Aufträge verwandeln. Unser Sanitärkunde im ersten Geschäftsjahr erzielte mit seiner Website 50.000 $.',
+      kicker: 'Handwerk und Haustechnik',
+      h1: 'Websites für Sanitärbetriebe, die aus Suchanfragen Aufträge machen',
+      intro: 'Wenn bei einem Hausbesitzer ein Rohr platzt, sucht er, ruft das erste vertrauenswürdige Ergebnis an und scrollt nie wieder zurück. Wir bauen Websites für Klempner und Handwerksbetriebe, die genau diesen Moment gewinnen: schnell, bereit für lokales SEO und um den Anruf-Button herum gebaut.',
       stats: [
         {
-          value: '$50k',
-          label: 'Revenue generated by our plumbing client in his first 5 months',
+          value: '50.000 $',
+          label: 'Umsatz unseres Sanitärkunden in seinen ersten 5 Monaten',
         },
         {
-          value: '5.0',
-          label: 'Star rating across 52 Google reviews, pulled live into the site',
+          value: '5,0',
+          label: 'Sterne bei 52 Google-Bewertungen, live in die Website eingebunden',
         },
         {
-          value: '8,000+',
-          label: 'Google search impressions in the first 3 months of tracking',
+          value: '8.000+',
+          label: 'Google-Suchimpressionen in den ersten 3 Monaten der Messung',
         },
       ],
-      featuresHeading: 'What a trades site needs to actually produce jobs',
+      featuresHeading: 'Was eine Handwerker-Website braucht, um wirklich Aufträge zu bringen',
       features: [
         {
-          title: 'A sticky call bar on mobile',
-          desc: 'Most emergency searches happen on a phone. The number stays on screen the whole time, so the moment a homeowner decides, they tap once and the phone rings.',
+          title: 'Eine fixierte Anrufleiste auf dem Smartphone',
+          desc: 'Die meisten Notfallsuchen passieren am Handy. Die Nummer bleibt die ganze Zeit sichtbar, und sobald sich der Hausbesitzer entscheidet, tippt er einmal und das Telefon klingelt.',
         },
         {
-          title: 'Local SEO built in from day one',
-          desc: 'Service pages per job type, city targeting, review schema, and Google Business Profile alignment. The goal is simple: show up when your area searches "plumber near me".',
+          title: 'Lokales SEO von Tag eins an',
+          desc: 'Leistungsseiten pro Auftragsart, Ausrichtung auf Ihre Städte, Bewertungs-Schema und Abstimmung mit dem Google Unternehmensprofil. Das Ziel ist simpel: auftauchen, wenn Ihre Region nach „Klempner in der Nähe“ sucht.',
         },
         {
-          title: 'Real reviews, pulled in live',
-          desc: 'Your Google reviews display automatically on the site. Fresh proof without you touching anything, and the same trust signals Google rewards.',
+          title: 'Echte Bewertungen, live eingebunden',
+          desc: 'Ihre Google-Bewertungen erscheinen automatisch auf der Website. Frische Belege, ohne dass Sie etwas anfassen müssen, und genau die Vertrauenssignale, die Google belohnt.',
         },
         {
-          title: 'Visible in AI search, not just Google',
-          desc: 'Homeowners increasingly ask ChatGPT and Google AI Overviews "who is the best plumber near me". We build the structured data and answer-first content (AEO) that gets your business cited in those AI answers.',
+          title: 'Sichtbar in der KI-Suche, nicht nur bei Google',
+          desc: 'Hausbesitzer fragen immer öfter ChatGPT und die Google KI-Übersicht: „Wer ist der beste Klempner in meiner Nähe?“ Wir bauen die strukturierten Daten und antwortorientierten Inhalte (AEO), mit denen Ihr Betrieb in diesen KI-Antworten genannt wird.',
         },
         {
-          title: 'Leads straight into your workflow',
-          desc: 'Estimate requests and contact submissions land in your inbox and your job pipeline instantly. Speed to lead wins the job in the trades.',
+          title: 'Anfragen direkt in Ihren Arbeitsablauf',
+          desc: 'Kostenvoranschlagsanfragen und Kontaktformulare landen sofort in Ihrem Postfach und Ihrer Auftragspipeline. Im Handwerk bekommt den Auftrag, wer zuerst reagiert.',
         },
       ],
       caseStudy: {
-        heading: 'Case study',
+        heading: 'Fallstudie',
         name: 'Bronco Plumbing, Dallas-Fort Worth',
-        result: '$50,000 gross revenue in the first 5 months of business',
-        body: 'Colton Staley launched Bronco Plumbing with no website and no online presence. We built a conversion-focused site around him: owner on every call, honest estimates, live Google reviews, and a sticky call bar for mid-emergency searches. The site ranks at an average position of 5.2 for its search terms.',
-        linkLabel: 'Read the full case study',
+        result: '50.000 $ Bruttoumsatz in den ersten 5 Monaten nach Gründung',
+        body: 'Colton Staley startete Bronco Plumbing ohne Website und ohne Online-Präsenz. Wir haben eine conversion-orientierte Seite rund um ihn gebaut: Inhaber bei jedem Einsatz, ehrliche Kostenvoranschläge, Google-Bewertungen live, und eine fixierte Anrufleiste für Suchen mitten im Notfall. Die Seite rangiert für ihre Suchbegriffe im Schnitt auf Position 5,2.',
+        linkLabel: 'Zur vollständigen Fallstudie',
       },
-      faqHeading: 'Common questions',
+      faqHeading: 'Häufige Fragen',
       faqs: [
         {
-          q: 'How much does a plumber website cost?',
-          a: 'Every build is quoted to scope after a free 15-minute call. You get a fixed price with defined deliverables before we start. See our pricing page for how engagements are structured.',
+          q: 'Was kostet eine Website für einen Sanitärbetrieb?',
+          a: 'Jedes Projekt wird nach einem kostenlosen 15-minütigen Gespräch individuell kalkuliert. Sie erhalten vor dem Start einen Festpreis mit klar definierten Leistungen. Wie unsere Zusammenarbeit aufgebaut ist, sehen Sie auf unserer Preisseite.',
         },
         {
-          q: 'How long until the site starts producing leads?',
-          a: 'The site itself is typically live in 2 to 4 weeks. Local SEO compounds over the following months; our plumbing client logged 8,000+ search impressions within his first 3 months of tracking.',
+          q: 'Wie lange dauert es, bis die Website Anfragen bringt?',
+          a: 'Die Website selbst ist in der Regel in 2 bis 4 Wochen live. Lokales SEO baut sich über die folgenden Monate auf; unser Sanitärkunde verzeichnete in den ersten 3 Monaten der Messung über 8.000 Suchimpressionen.',
         },
         {
-          q: 'Do you work with other trades besides plumbing?',
-          a: 'Yes. The same playbook works for electricians, HVAC, roofing, and any home service business where customers search locally and call: local SEO, live reviews, and a site built around the phone call.',
+          q: 'Arbeiten Sie auch mit anderen Gewerken als Sanitär?',
+          a: 'Ja. Dasselbe Konzept funktioniert für Elektriker, Heizung und Klima, Dachdecker und jeden Handwerksbetrieb, dessen Kunden lokal suchen und anrufen: lokales SEO, Bewertungen live und eine Website, die auf den Anruf ausgerichtet ist.',
         },
         {
-          q: 'Why not just use an AI website builder?',
-          a: 'AI builders produce a generic site in minutes, but they cannot do the things that book plumbing jobs: local SEO per service area, live Google reviews, a call-first mobile layout, and leads wired into your workflow. Our plumbing client generated $50k in 5 months with a site built for his market, not from a template.',
+          q: 'Warum nicht einfach einen KI-Website-Baukasten nutzen?',
+          a: 'KI-Baukästen liefern in Minuten eine beliebige Website, aber sie können nicht das, was Sanitäraufträge bringt: lokales SEO pro Einsatzgebiet, Google-Bewertungen live, ein mobiles Layout mit dem Anruf im Mittelpunkt und Anfragen, die direkt in Ihren Arbeitsablauf laufen. Unser Sanitärkunde erzielte 50.000 $ in 5 Monaten mit einer Website, die für seinen Markt gebaut wurde, nicht aus einem Template.',
         },
         {
-          q: 'Can you connect the site to my existing tools?',
-          a: 'Yes. Lead forms can feed your CRM, job management software, or a simple pipeline we set up for you. Our Bronco build feeds leads directly into the owner\'s job workflow.',
+          q: 'Können Sie die Website mit meinen bestehenden Tools verbinden?',
+          a: 'Ja. Anfrageformulare können Ihr CRM, Ihre Auftragssoftware oder eine einfache Pipeline speisen, die wir für Sie einrichten. Bei Bronco laufen die Anfragen direkt in den Auftragsablauf des Inhabers.',
         },
       ],
-      ctaHeading: 'Want a site that books jobs?',
-      ctaBody: 'Free 15-minute call. Tell us about your service area and we will tell you exactly what we would build.',
-      ctaButton: 'Book a free call',
+      ctaHeading: 'Sie wollen eine Website, die Aufträge bucht?',
+      ctaBody: 'Kostenloses 15-minütiges Gespräch. Erzählen Sie uns von Ihrem Einsatzgebiet, und wir sagen Ihnen genau, was wir bauen würden.',
+      ctaButton: 'Kostenloses Gespräch buchen',
     },
     'personal-trainer-website-design': {
-      metaTitle: 'Personal Trainer Website Design | Blok Blok Studio',
-      metaDescription: 'Websites for personal trainers and coaches with booking and payments built in. Our clients book and get paid directly through their sites. See real examples.',
-      kicker: 'Coaches and Trainers',
-      h1: 'Personal trainer websites that book clients while you train',
-      intro: 'Chasing leads through DMs and sending invoices by hand caps how many clients you can take. We build websites for personal trainers and coaches where visitors book sessions and pay directly on the site, so your calendar fills itself.',
+      metaTitle: 'Websites für Personal Trainer | Blok Blok Studio',
+      metaDescription: 'Websites für Personal Trainer und Coaches mit integrierter Buchung und Zahlung. Unsere Kunden werden direkt über ihre Website gebucht und bezahlt. Echte Beispiele ansehen.',
+      kicker: 'Coaches und Trainer',
+      h1: 'Personal-Trainer-Websites, die Kunden buchen, während Sie trainieren',
+      intro: 'Wer Anfragen über DMs hinterherläuft und Rechnungen von Hand schreibt, begrenzt die Zahl seiner Kunden. Wir bauen Websites für Personal Trainer und Coaches, auf denen Besucher Einheiten buchen und direkt bezahlen, damit sich Ihr Kalender von selbst füllt.',
       stats: [
         {
-          value: '200%',
-          label: 'Increase in consultation requests after launch (Coach Kofi)',
+          value: '200 %',
+          label: 'Mehr Beratungsanfragen nach dem Launch (Coach Kofi)',
         },
         {
           value: '0',
-          label: 'Invoices sent by hand since launch, payments run through Stripe (Coach Luki)',
+          label: 'Rechnungen von Hand seit dem Launch, Zahlungen laufen über Stripe (Coach Luki)',
         },
         {
           value: '2',
-          label: 'Berlin coaches whose booking runs entirely through their sites',
+          label: 'Berliner Coaches, deren Buchungen komplett über ihre Website laufen',
         },
       ],
-      featuresHeading: 'What a coaching site needs to convert',
+      featuresHeading: 'Was eine Coaching-Website braucht, um zu konvertieren',
       features: [
         {
-          title: 'Booking and payments on the site',
-          desc: 'Clients pick a slot and pay in one flow through Stripe. No DM back-and-forth, no chasing payments, no no-shows from unconfirmed bookings.',
+          title: 'Buchung und Zahlung auf der Website',
+          desc: 'Kunden wählen einen Termin und bezahlen in einem Schritt über Stripe. Kein Hin und Her per DM, kein Hinterherlaufen bei Zahlungen, keine Ausfälle durch unbestätigte Buchungen.',
         },
         {
-          title: 'A page that sells your method',
-          desc: 'Your philosophy, your results, your proof, structured so a visitor understands what you do in seconds and books before they leave.',
+          title: 'Eine Seite, die Ihre Methode verkauft',
+          desc: 'Ihre Philosophie, Ihre Ergebnisse, Ihre Belege, so strukturiert, dass ein Besucher in Sekunden versteht, was Sie tun, und bucht, bevor er die Seite verlässt.',
         },
         {
-          title: 'Local SEO for your city',
-          desc: 'When someone searches "personal trainer" plus your city, you want to be the answer. We build the local targeting in from day one.',
+          title: 'Lokales SEO für Ihre Stadt',
+          desc: 'Wenn jemand „Personal Trainer“ plus Ihre Stadt sucht, wollen Sie die Antwort sein. Wir bauen die lokale Ausrichtung von Tag eins an ein.',
         },
         {
-          title: 'Found in AI search (AEO)',
-          desc: 'Prospects now ask ChatGPT and Perplexity for trainer recommendations. Structured data, answer-first FAQs, and llms.txt make your site citable by AI search engines, not just rankable on Google.',
+          title: 'Auffindbar in der KI-Suche (AEO)',
+          desc: 'Interessenten fragen inzwischen ChatGPT und Perplexity nach Trainer-Empfehlungen. Strukturierte Daten, antwortorientierte FAQs und llms.txt machen Ihre Website für KI-Suchmaschinen zitierbar, nicht nur für Google rankbar.',
         },
         {
-          title: 'Social proof that compounds',
-          desc: 'Client counts, transformation results, video testimonials. Real numbers on the page do the selling you should not have to do in the DMs.',
+          title: 'Social Proof, der sich aufbaut',
+          desc: 'Kundenzahlen, Transformationsergebnisse, Video-Kundenstimmen. Echte Zahlen auf der Seite übernehmen das Verkaufen, das Sie nicht in den DMs erledigen sollten.',
         },
       ],
       caseStudy: {
-        heading: 'Case study',
+        heading: 'Fallstudie',
         name: 'Coach Luki, Berlin',
-        result: 'Bookings and payments run straight through the site',
-        body: '"They built my entire site from scratch and now clients book and pay directly through it. I used to waste hours on DMs and invoices." Luke Satterly trains clients at Holmes Place and John Reed in Berlin. His site handles booking, Stripe payments, and local SEO for searches like "personal trainer Berlin".',
-        linkLabel: 'Read the full case study',
+        result: 'Buchungen und Zahlungen laufen direkt über die Website',
+        body: '„Sie haben meine komplette Website von Grund auf gebaut, und jetzt buchen und bezahlen Kunden direkt darüber. Früher habe ich Stunden mit DMs und Rechnungen verschwendet.“ Luke Satterly trainiert Klienten bei Holmes Place und John Reed in Berlin. Seine Website übernimmt Buchung, Stripe-Zahlungen und lokales SEO für Suchen wie „Personal Trainer Berlin“.',
+        linkLabel: 'Zur vollständigen Fallstudie',
       },
-      faqHeading: 'Common questions',
+      faqHeading: 'Häufige Fragen',
       faqs: [
         {
-          q: 'How much does a personal trainer website cost?',
-          a: 'Every build is quoted to scope after a free 15-minute call, with a fixed price and defined deliverables before we start. See our pricing page for how engagements are structured.',
+          q: 'Was kostet eine Website für Personal Trainer?',
+          a: 'Jedes Projekt wird nach einem kostenlosen 15-minütigen Gespräch individuell kalkuliert, mit Festpreis und klar definierten Leistungen vor dem Start. Wie unsere Zusammenarbeit aufgebaut ist, sehen Sie auf unserer Preisseite.',
         },
         {
-          q: 'Can clients really pay through the site?',
-          a: 'Yes. We integrate Stripe so clients purchase session packages directly. Money lands in your account, receipts go out automatically, and you never send an invoice by hand.',
+          q: 'Können Kunden wirklich über die Website bezahlen?',
+          a: 'Ja. Wir integrieren Stripe, sodass Kunden Trainingspakete direkt kaufen. Das Geld landet auf Ihrem Konto, Belege gehen automatisch raus, und Sie schreiben nie wieder eine Rechnung von Hand.',
         },
         {
-          q: 'I get most clients from Instagram. Do I still need a website?',
-          a: 'Instagram builds attention; the website converts it. A link in bio that lands on a page with proof, pricing, and instant booking closes clients that DMs lose. Coach Kofi\'s consultation requests went up over 200% after launch.',
+          q: 'Die meisten Kunden kommen über Instagram. Brauche ich trotzdem eine Website?',
+          a: 'Instagram erzeugt Aufmerksamkeit; die Website macht daraus Kunden. Ein Link in der Bio, der auf einer Seite mit Belegen, Preisen und sofortiger Buchung landet, gewinnt Kunden, die in den DMs verloren gehen. Die Beratungsanfragen von Coach Kofi stiegen nach dem Launch um über 200 %.',
         },
         {
-          q: 'Why not just use an AI website builder?',
-          a: 'An AI builder can describe your coaching. It cannot take a booking, process a Stripe payment, or rank for "personal trainer" in your city. The site pays for itself when it books clients while you train, and that takes real engineering, not a generated template.',
+          q: 'Warum nicht einfach einen KI-Website-Baukasten nutzen?',
+          a: 'Ein KI-Baukasten kann Ihr Coaching beschreiben. Er kann keine Buchung annehmen, keine Stripe-Zahlung abwickeln und nicht für „Personal Trainer“ in Ihrer Stadt ranken. Die Website zahlt sich aus, wenn sie Kunden bucht, während Sie trainieren, und dafür braucht es echte Entwicklung, kein generiertes Template.',
         },
         {
-          q: 'Do you only work with fitness coaches?',
-          a: 'No. The same structure works for any coach or consultant who books sessions: nutrition, performance, business coaching. If your business runs on booked calls, this is the playbook.',
+          q: 'Arbeiten Sie nur mit Fitness-Coaches?',
+          a: 'Nein. Dieselbe Struktur funktioniert für jeden Coach oder Berater, der Termine bucht: Ernährung, Leistungscoaching, Business-Coaching. Wenn Ihr Geschäft von gebuchten Gesprächen lebt, ist das der richtige Ansatz.',
         },
       ],
-      ctaHeading: 'Ready to fill your calendar?',
-      ctaBody: 'Free 15-minute call. Tell us how you get clients today and we will show you what the site should do.',
-      ctaButton: 'Book a free call',
+      ctaHeading: 'Bereit, Ihren Kalender zu füllen?',
+      ctaBody: 'Kostenloses 15-minütiges Gespräch. Erzählen Sie uns, wie Sie heute Kunden gewinnen, und wir zeigen Ihnen, was die Website leisten sollte.',
+      ctaButton: 'Kostenloses Gespräch buchen',
     },
     'ecommerce-website-design': {
-      metaTitle: 'E-Commerce Website Design | Blok Blok Studio',
-      metaDescription: 'E-commerce and Shopify store design that sells. We built a trading card store that did $191k across 1,790 orders. Conversion-first, AI-search ready storefronts.',
-      kicker: 'E-Commerce and Shopify',
-      h1: 'E-commerce stores built to sell, not just to exist',
-      intro: 'A store is not a catalog. Every choice, from the product grid to the checkout to the email capture, either moves a visitor toward buying or loses them. We design and build e-commerce storefronts where the numbers prove the design.',
+      metaTitle: 'E-Commerce Webdesign | Blok Blok Studio',
+      metaDescription: 'E-Commerce- und Shopify-Shops, die verkaufen. Wir haben einen Sammelkarten-Shop gebaut, der 191.000 $ bei 1.790 Bestellungen erzielte. Conversion-orientierte Storefronts, bereit für die KI-Suche.',
+      kicker: 'E-Commerce und Shopify',
+      h1: 'Online-Shops, die verkaufen und nicht nur existieren',
+      intro: 'Ein Shop ist kein Katalog. Jede Entscheidung, vom Produktraster über den Checkout bis zur E-Mail-Erfassung, bringt einen Besucher entweder näher an den Kauf oder verliert ihn. Wir gestalten und bauen E-Commerce-Storefronts, bei denen die Zahlen das Design belegen.',
       stats: [
         {
-          value: '$191k',
-          label: 'Sales on the trading card store we built and shipped',
+          value: '191.000 $',
+          label: 'Umsatz des Sammelkarten-Shops, den wir gebaut und ausgeliefert haben',
         },
         {
-          value: '1,790',
-          label: 'Orders through that storefront',
+          value: '1.790',
+          label: 'Bestellungen über diese Storefront',
         },
         {
-          value: '400%',
-          label: 'Email list growth in the first month from smart capture',
+          value: '400 %',
+          label: 'Wachstum der E-Mail-Liste im ersten Monat durch smarte Erfassung',
         },
       ],
-      featuresHeading: 'What converts in e-commerce',
+      featuresHeading: 'Was im E-Commerce konvertiert',
       features: [
         {
-          title: 'Conversion-first storefront design',
-          desc: 'Product pages built around the buy decision: clear pricing, urgency where it is honest, and a checkout with nothing in the way.',
+          title: 'Conversion-orientiertes Storefront-Design',
+          desc: 'Produktseiten, die auf die Kaufentscheidung ausgerichtet sind: klare Preise, Dringlichkeit nur dort, wo sie ehrlich ist, und ein Checkout, dem nichts im Weg steht.',
         },
         {
-          title: 'Email capture that actually grows the list',
-          desc: 'Discount-for-email capture placed where it converts. Our client\'s list grew 400% in the first month, and email is the channel you own.',
+          title: 'E-Mail-Erfassung, die die Liste wirklich wachsen lässt',
+          desc: 'Rabatt gegen E-Mail-Adresse, platziert dort, wo es konvertiert. Die Liste unseres Kunden wuchs im ersten Monat um 400 %, und E-Mail ist der Kanal, der Ihnen gehört.',
         },
         {
-          title: 'Drops, restocks, and community',
-          desc: 'Product drops that sell out need countdowns, notify-me flows, and community integration (Discord, socials) wired into the store, not bolted on.',
+          title: 'Drops, Nachschub und Community',
+          desc: 'Produkt-Drops, die ausverkaufen, brauchen Countdowns, Benachrichtigungen bei Verfügbarkeit und eine Community-Anbindung (Discord, Social Media), die in den Shop integriert ist, nicht angeflanscht.',
         },
         {
-          title: 'AI-search and answer-engine ready',
-          desc: 'Shoppers ask AI assistants what to buy before they ever hit Google. Product schema, clean feeds, and answer-first content (AEO) make your products citable in ChatGPT, Perplexity, and Google AI Overviews.',
+          title: 'Bereit für KI-Suche und Answer Engines',
+          desc: 'Käufer fragen KI-Assistenten, was sie kaufen sollen, bevor sie überhaupt bei Google landen. Produkt-Schema, saubere Feeds und antwortorientierte Inhalte (AEO) machen Ihre Produkte in ChatGPT, Perplexity und der Google KI-Übersicht zitierbar.',
         },
         {
-          title: 'Shopify or fully custom',
-          desc: 'We build on Shopify when it fits and fully custom in Next.js when it does not. The decision comes from your catalog and margins, not our preferences.',
+          title: 'Shopify oder komplett individuell',
+          desc: 'Wir bauen auf Shopify, wenn es passt, und komplett individuell in Next.js, wenn nicht. Die Entscheidung folgt aus Ihrem Sortiment und Ihren Margen, nicht aus unseren Vorlieben.',
         },
       ],
       caseStudy: {
-        heading: 'Case study',
-        name: 'Exotic Ripz, collectible trading cards',
-        result: '$191,042 in sales across 1,790 orders',
-        body: 'A full Shopify storefront for a trading card community brand: bold animated branding, Discord and multi-platform social integration, smart product categorization, and conversion-optimized email capture. Booster pack drops consistently sold out within hours of release, and the shipping backend was configured end to end.',
-        linkLabel: 'Read the full case study',
+        heading: 'Fallstudie',
+        name: 'Exotic Ripz, Sammelkarten',
+        result: '191.042 $ Umsatz bei 1.790 Bestellungen',
+        body: 'Eine komplette Shopify-Storefront für eine Community-Marke rund um Sammelkarten: markantes animiertes Branding, Discord- und Multi-Plattform-Anbindung, smarte Produktkategorisierung und conversion-optimierte E-Mail-Erfassung. Booster-Pack-Drops waren regelmäßig innerhalb von Stunden nach Veröffentlichung ausverkauft, und das Versand-Backend wurde komplett eingerichtet.',
+        linkLabel: 'Zur vollständigen Fallstudie',
       },
-      faqHeading: 'Common questions',
+      faqHeading: 'Häufige Fragen',
       faqs: [
         {
-          q: 'Do you build on Shopify or custom?',
-          a: 'Both. Shopify is right for most product businesses; fully custom Next.js storefronts make sense for unusual catalogs, subscriptions, or when platform fees outgrow the convenience. We recommend based on your numbers.',
+          q: 'Bauen Sie auf Shopify oder individuell?',
+          a: 'Beides. Shopify ist für die meisten Produktunternehmen die richtige Wahl; komplett individuelle Next.js-Storefronts lohnen sich bei ungewöhnlichen Sortimenten, Abonnements oder wenn die Plattformgebühren den Komfort übersteigen. Wir empfehlen auf Basis Ihrer Zahlen.',
         },
         {
-          q: 'How much does an e-commerce site cost?',
-          a: 'Quoted to scope after a free 15-minute call, with a fixed price and defined deliverables before we start. Store size, integrations, and migration needs drive the number.',
+          q: 'Was kostet ein Online-Shop?',
+          a: 'Individuell kalkuliert nach einem kostenlosen 15-minütigen Gespräch, mit Festpreis und klar definierten Leistungen vor dem Start. Shop-Größe, Integrationen und Migrationsbedarf bestimmen den Preis.',
         },
         {
-          q: 'Can you migrate my existing store?',
-          a: 'Yes. Products, customers, and order history can be migrated from most platforms. We plan the migration so the store never goes dark during the switch.',
+          q: 'Können Sie meinen bestehenden Shop migrieren?',
+          a: 'Ja. Produkte, Kunden und Bestellhistorie lassen sich von den meisten Plattformen übernehmen. Wir planen die Migration so, dass der Shop während des Wechsels nie offline geht.',
         },
         {
-          q: 'Why not just use an AI store builder?',
-          a: 'Generated stores look fine and convert poorly, because conversion lives in the details: capture placement, drop mechanics, checkout friction, product schema for AI search. The $191k store we built sold out drops in hours because every one of those details was engineered, not generated.',
+          q: 'Warum nicht einfach einen KI-Shop-Baukasten nutzen?',
+          a: 'Generierte Shops sehen in Ordnung aus und konvertieren schlecht, weil Conversion in den Details steckt: Platzierung der E-Mail-Erfassung, Drop-Mechanik, Reibung im Checkout, Produkt-Schema für die KI-Suche. Der 191.000-$-Shop, den wir gebaut haben, verkaufte Drops in Stunden aus, weil jedes dieser Details entwickelt wurde, nicht generiert.',
         },
         {
-          q: 'Do you set up shipping and payments too?',
-          a: 'Yes. The Exotic Ripz build included the shipping backend configured end to end, plus payments, taxes, and the operational pieces most designers leave to you.',
+          q: 'Richten Sie auch Versand und Zahlungen ein?',
+          a: 'Ja. Beim Exotic-Ripz-Projekt gehörte das komplett eingerichtete Versand-Backend dazu, plus Zahlungen, Steuern und die operativen Teile, die die meisten Designer Ihnen überlassen.',
         },
       ],
-      ctaHeading: 'Want a store that sells?',
-      ctaBody: 'Free 15-minute call. Bring your numbers and we will tell you where the store is leaking revenue.',
-      ctaButton: 'Book a free call',
+      ctaHeading: 'Sie wollen einen Shop, der verkauft?',
+      ctaBody: 'Kostenloses 15-minütiges Gespräch. Bringen Sie Ihre Zahlen mit, und wir sagen Ihnen, wo der Shop Umsatz verliert.',
+      ctaButton: 'Kostenloses Gespräch buchen',
     },
   },
   consent: 'Ja, Blok Blok Studio darf mir praktische Wachstumstipps und gelegentliche Angebote per E-Mail senden. Wir senden eine E-Mail zur Bestätigung; erst mit dem Klick auf den Link darin sind Sie angemeldet. Jederzeit abbestellbar.',

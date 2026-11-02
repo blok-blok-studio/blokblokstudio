@@ -25,17 +25,17 @@
     "v2_careers": "Karriere"
   },
   "faq": {
-    "meta_title": "FAQ | AI Agency & Web Design Studio in Berlin",
-    "meta_description": "Answers about pricing, timelines, AI agents, custom websites, and working with Blok Blok Studio, a Berlin-based digital agency serving clients worldwide.",
+    "meta_title": "FAQ, Webdesign-Studio in Berlin",
+    "meta_description": "Antworten zu Preisen, Zeitplänen, individuellen Websites und zur Zusammenarbeit mit Blok Blok Studio, einem Webdesign-Studio aus Berlin mit Kunden weltweit.",
     "hero_eyebrow": "Häufige Fragen",
-    "hero_title": "Alles, was du schon immer fragen wolltest",
-    "hero_subtitle": "Ehrliche Antworten dazu, wie wir arbeiten, was wir berechnen und was wir bauen. Fehlt deine Frage, buch dir ein kostenloses 30-Minuten-Gespräch.",
+    "hero_title": "Alles, was Sie schon immer fragen wollten",
+    "hero_subtitle": "Ehrliche Antworten dazu, wie wir arbeiten, was wir berechnen und was wir bauen. Fehlt Ihre Frage, buchen Sie sich ein kostenloses 30-Minuten-Gespräch.",
     "category_pricing": "Preise & Investition",
     "category_process": "Ablauf & Zeitplan",
     "category_capabilities": "Leistungen & Möglichkeiten",
     "category_trust": "Zusammenarbeit mit Blok Blok Studio",
     "cta_heading": "Noch Fragen?",
-    "cta_subheading": "Buch dir ein kostenloses 30-minütiges Strategiegespräch. Kein Pitch, kein Druck, nur Antworten.",
+    "cta_subheading": "Buchen Sie sich ein kostenloses 30-minütiges Strategiegespräch. Kein Pitch, kein Druck, nur Antworten.",
     "cta_button": "Kostenloses Gespräch buchen",
     "see_all_questions": "Alle Fragen anzeigen",
     "filter_all": "Alle",
@@ -48,7 +48,7 @@
       {
         "category": "pricing",
         "question": "Was kostet ein KI-Chatbot?",
-        "answer": "Ein KI-Chatbot, trainiert auf über 100 Frage-Antwort-Paare und seitenweit eingebunden, ist in unserer Conversational-AI-Suite für 18.000 $ enthalten, zusammen mit Voice-Agent, SMS-Automatisierungen und einer kompletten Content-Pipeline. Als einzelnes Add-on zu einer Website beginnt ein KI-Chatbot bei 2.500 $. Alle Bots sind an dein CRM angebunden und erfassen Leads rund um die Uhr."
+        "answer": "Ein KI-Chatbot, trainiert auf über 100 Frage-Antwort-Paare und seitenweit eingebunden, ist in unserer Conversational-AI-Suite für 18.000 $ enthalten, zusammen mit Voice-Agent, SMS-Automatisierungen und einer kompletten Content-Pipeline. Als einzelnes Add-on zu einer Website beginnt ein KI-Chatbot bei 2.500 $. Alle Bots sind an Ihr CRM angebunden und erfassen Leads rund um die Uhr."
       },
       {
         "category": "pricing",
@@ -68,22 +68,22 @@
       {
         "category": "process",
         "question": "Wie lange dauert es, einen KI-Agenten live zu bringen?",
-        "answer": "Ein Standard-Chatbot, trainiert auf deine bestehenden FAQ, ist in sieben bis zehn Werktagen live. Ein Voice-Agent mit eigenem Gesprächsskript braucht zehn bis vierzehn Tage. Ein komplettes Multi-Agenten-System mit CRM-, Kalender- und Zahlungsanbindung dauert je nach Komplexität vier bis acht Wochen. Wir starten mit einem Kennenlerngespräch, dann folgt ein bezahltes Scoping-Dokument, dann der Bau."
+        "answer": "Ein Standard-Chatbot, trainiert auf Ihre bestehenden FAQ, ist in sieben bis zehn Werktagen live. Ein Voice-Agent mit eigenem Gesprächsskript braucht zehn bis vierzehn Tage. Ein komplettes Multi-Agenten-System mit CRM-, Kalender- und Zahlungsanbindung dauert je nach Komplexität vier bis acht Wochen. Wir starten mit einem Kennenlerngespräch, dann folgt ein bezahltes Scoping-Dokument, dann der Bau."
       },
       {
         "category": "process",
         "question": "Wie läuft Design und Entwicklung ab?",
-        "answer": "Fünf Phasen: Discovery (deine Ziele und Zielgruppe), Strategie (ein maßgeschneiderter Fahrplan), Design (visuelle Konzepte und Prototypen), Entwicklung (moderner, performanter Code) und Launch & Optimierung (live gehen, beobachten, verfeinern). Du bekommst wöchentliche Updates und zu jedem Meilenstein ein Loom-Video, keine Statusmeetings, außer du willst sie."
+        "answer": "Fünf Phasen: Discovery (Ihre Ziele und Zielgruppe), Strategie (ein maßgeschneiderter Fahrplan), Design (visuelle Konzepte und Prototypen), Entwicklung (moderner, performanter Code) und Launch & Optimierung (live gehen, beobachten, verfeinern). Sie bekommen wöchentliche Updates und zu jedem Meilenstein ein Loom-Video, keine Statusmeetings, außer Sie wünschen sie."
       },
       {
         "category": "capabilities",
         "question": "Was ist der Unterschied zwischen KI-Chatbot und KI-Voice-Agent?",
-        "answer": "Ein KI-Chatbot arbeitet textbasiert auf deiner Website oder in Messengern: Er beantwortet FAQ, bucht Termine und erfasst Leads im Chat. Ein KI-Voice-Agent nimmt echte Telefonanrufe in natürlicher gesprochener Sprache an. Voice-Agenten eignen sich für Inbound-Vertrieb, Support außerhalb der Öffnungszeiten und Terminbestätigungen. Viele Unternehmen nutzen beides für volle Abdeckung."
+        "answer": "Ein KI-Chatbot arbeitet textbasiert auf Ihrer Website oder in Messengern: Er beantwortet FAQ, bucht Termine und erfasst Leads im Chat. Ein KI-Voice-Agent nimmt echte Telefonanrufe in natürlicher gesprochener Sprache an. Voice-Agenten eignen sich für Inbound-Vertrieb, Support außerhalb der Öffnungszeiten und Terminbestätigungen. Viele Unternehmen nutzen beides für volle Abdeckung."
       },
       {
         "category": "capabilities",
-        "question": "Lassen sich eure KI-Agenten mit HubSpot, Salesforce oder GoHighLevel verbinden?",
-        "answer": "Ja. Unsere Agenten und Automatisierungen binden HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe und Calendly nativ an. Für Tools ohne fertige Integration bauen wir einen eigenen Connector, ohne Zapier-Zwischenhändler. Deine Daten bleiben in deinen Systemen, wir bringen sie nur zum Reden."
+        "question": "Lassen sich Ihre KI-Agenten mit HubSpot, Salesforce oder GoHighLevel verbinden?",
+        "answer": "Ja. Unsere Agenten und Automatisierungen binden HubSpot, Salesforce, GoHighLevel, Pipedrive, Airtable, Google Workspace, Stripe und Calendly nativ an. Für Tools ohne fertige Integration bauen wir einen eigenen Connector, ohne Zapier-Zwischenhändler. Ihre Daten bleiben in Ihren Systemen, wir bringen sie nur zum Reden."
       },
       {
         "category": "capabilities",
@@ -103,7 +103,7 @@
       {
         "category": "trust",
         "question": "Gehören mir der Code meiner Website und die KI-Konfigurationen?",
-        "answer": "Ja, vollständig. Nach Projektabschluss erhältst du das komplette Eigentum an Code, Designdateien, KI-Prompts und Automatisierungskonfigurationen. Die Seite läuft in deinem eigenen Vercel-Konto auf deine Rechnung. CRM, Werbekonten und Domains laufen von Anfang an auf deinen Namen. Wir binden niemanden an unsere Systeme."
+        "answer": "Ja, vollständig. Nach Projektabschluss erhalten Sie das komplette Eigentum an Code, Designdateien, KI-Prompts und Automatisierungskonfigurationen. Die Seite läuft in Ihrem eigenen Vercel-Konto auf Ihre Rechnung. CRM, Werbekonten und Domains laufen von Anfang an auf Ihren Namen. Wir binden niemanden an unsere Systeme."
       },
       {
         "category": "trust",
@@ -116,22 +116,22 @@
     "hero_title": "Wir Bauen Digitale Erlebnisse",
     "hero_subtitle": "Wir entwerfen und entwickeln maßgeschneiderte Next.js-Websites für ambitionierte Marken weltweit. Premium-Webdesign mit Fokus auf Conversion, niemals Templates.",
     "hero_cta": "Projekt Starten",
-    "clients_heading": "Trusted by forward-thinking brands",
+    "clients_heading": "Marken mit Weitblick vertrauen uns",
     "services_heading": "Was Wir Tun",
     "services_subheading": "Wir kombinieren Strategie, Design und Technologie, um digitale Erlebnisse zu schaffen, die Ergebnisse liefern.",
     "projects_heading": "Ausgewählte Arbeiten",
     "projects_subheading": "Eine Auswahl von Projekten, bei denen Kreativität auf Zweck trifft.",
     "projects_cta": "Alle Projekte Ansehen",
-    "testimonials_heading": "What Our Clients Say",
-    "testimonials_subtitle": "Don't just take our word for it. Hear from the brands we've helped transform.",
-    "newsletter_heading": "Get Design Insights Weekly",
-    "newsletter_subtitle": "Join 2,000+ founders and creatives getting actionable tips on design, branding, and digital growth every Thursday.",
-    "newsletter_placeholder": "Enter your email",
-    "newsletter_button": "Subscribe",
-    "newsletter_privacy": "No spam, ever. Unsubscribe anytime.",
-    "newsletter_subscribed": "Du bist angemeldet!",
-    "newsletter_already_subscribed": "Du bist bereits angemeldet",
-    "newsletter_consent": "Mit deiner Anmeldung stimmst du unserer <link>Datenschutzerklärung</link> zu. Jederzeit abbestellbar.",
+    "testimonials_heading": "Das sagen unsere Kunden",
+    "testimonials_subtitle": "Verlassen Sie sich nicht nur auf unser Wort. Hören Sie, was die Marken sagen, die wir begleitet haben.",
+    "newsletter_heading": "Jede Woche neue Design-Insights",
+    "newsletter_subtitle": "Über 2.000 Gründer und Kreative erhalten jeden Donnerstag umsetzbare Tipps zu Design, Branding und digitalem Wachstum.",
+    "newsletter_placeholder": "Ihre E-Mail-Adresse",
+    "newsletter_button": "Abonnieren",
+    "newsletter_privacy": "Kein Spam, versprochen. Jederzeit abbestellbar.",
+    "newsletter_subscribed": "Sie sind angemeldet!",
+    "newsletter_already_subscribed": "Sie sind bereits angemeldet",
+    "newsletter_consent": "Mit Ihrer Anmeldung stimmen Sie unserer <link>Datenschutzerklärung</link> zu. Jederzeit abbestellbar.",
     "tab_all": "Alle",
     "tab_ai": "KI & Automatisierung",
     "tab_creative": "Kreativ & Marketing",
@@ -181,7 +181,7 @@
     "v2_quotes_label": "Kunden",
     "v2_clients_label": "Unsere Kunden",
     "v2_talk": "Lass uns reden.",
-    "v2_talk_sub": "Sag uns, was deine Seite leisten soll. Wir sagen dir, was dafür nötig ist.",
+    "v2_talk_sub": "Sagen Sie uns, was Ihre Seite leisten soll. Wir sagen Ihnen, was dafür nötig ist.",
     "v2_founder": "Gründer",
     "v2_email": "Nachricht schreiben",
     "v2_whatsapp": "WhatsApp",
@@ -189,31 +189,31 @@
     "v2_loc_label": "Studio",
     "v2_pages_label": "Seiten",
     "v2_legal_label": "Rechtliches",
-    "v2_social_label": "Social",
+    "v2_social_label": "Social Media",
     "v2_open_menu": "Menü öffnen",
     "v2_close_menu": "Menü schließen",
     "v2_rights": "Alle Rechte vorbehalten.",
-    "v2_services_sub": "Ein Paket, richtig gemacht: Wir gestalten und bauen deine Seite, hosten sie und halten sie am Laufen.",
+    "v2_services_sub": "Ein Paket, richtig gemacht: Wir gestalten und bauen Ihre Seite, hosten sie und halten sie am Laufen.",
     "v2_group_1": "Websites und Marke",
     "v2_group_1_detail": "Design und Umsetzung, dazu die passende Identität.",
     "v2_group_2": "Bezahltes Wachstum",
     "v2_group_2_detail": "Such- und Social-Kampagnen, die Besucher auf die Seite bringen, die wir gebaut haben.",
     "v2_group_3": "KI und Automatisierung",
     "v2_group_3_detail": "Agenten, Chat, Workflows und Dashboards für das Backoffice.",
-    "v2_quiz_label": "Du weißt nicht, wo du anfangen sollst?",
-    "v2_quiz_title": "Finde heraus, wo dein Unternehmen Kunden verliert.",
-    "v2_quiz_sub": "Fünf kurze Fragen. Wir zeigen dir, was wir zuerst anpacken würden, dann suchst du dir einen Termin aus. Dauert etwa eine Minute.",
+    "v2_quiz_label": "Sie wissen nicht, wo Sie anfangen sollen?",
+    "v2_quiz_title": "Finden Sie heraus, wo Ihr Unternehmen Kunden verliert.",
+    "v2_quiz_sub": "Fünf kurze Fragen. Wir zeigen Ihnen, was wir zuerst anpacken würden, dann suchen Sie sich einen Termin aus. Dauert etwa eine Minute.",
     "v2_quiz_cta": "1-Minuten-Quiz starten",
-    "v2_quiz_step_1": "Deine Branche",
-    "v2_quiz_step_2": "Wobei du Unterstützung brauchst",
+    "v2_quiz_step_1": "Ihre Branche",
+    "v2_quiz_step_2": "Wobei Sie Unterstützung brauchen",
     "v2_quiz_step_3": "Budgetrahmen",
     "v2_quiz_step_4": "Zeitrahmen",
-    "v2_quiz_step_5": "Wie wir dich erreichen",
+    "v2_quiz_step_5": "Wie wir Sie erreichen",
     "v2_hero_cta": "Projekt starten",
     "v2_quiz_link": "Quiz starten",
     "v2_globe_label": "Wo unsere Kunden sitzen",
     "v2_globe_title": "Gebaut in Berlin. Gefragt in Europa, Nordamerika und Asien.",
-    "v2_globe_sub": "{clients} Marken in {cities} Städten auf {continents} Kontinenten, betreut von einem Team in vier Zeitzonen. Dein Projekt kommt voran, während du schläfst.",
+    "v2_globe_sub": "{clients} Marken in {cities} Städten auf {continents} Kontinenten, betreut von einem Team in vier Zeitzonen. Ihr Projekt kommt voran, während Sie schlafen.",
     "v2_globe_studio": "Studio",
     "v2_globe_clients": "Kunden",
     "v2_globe_team": "Team",
@@ -227,14 +227,14 @@
     "v2_hosting_bullet_2": "SSL, Backups und Uptime-Monitoring",
     "v2_hosting_bullet_3": "Sicherheitsupdates und aktuelle Abhängigkeiten",
     "v2_hosting_bullet_4": "Speed-Tuning und Core-Web-Vitals-Checks",
-    "v2_hosting_bullet_5": "Inhaltsänderungen und Support, wann immer du sie brauchst",
+    "v2_hosting_bullet_5": "Inhaltsänderungen und Support, wann immer Sie sie brauchen",
     "v2_globe_hint": "Ziehen zum Drehen, Scrollen oder Pinch zum Zoomen, oder eine Stadt auswählen.",
     "v2_proof_4_value": "3+ Mrd. $",
     "v2_proof_4_label": "Jahresumsatz unseres größten Kunden, Philippine Airlines",
     "v2_result_public_affair": "Ein hochwertiger Alterscheck, den 95 % der Besucher abschließen.",
     "v2_result_military_newschool": "Ein digitales Zuhause für Studierende mit Militärhintergrund.",
     "v2_archive": "Archiv",
-    "v2_globe_nowebgl": "WebGL ist in diesem Browser deaktiviert. Die Städte findest du in der Liste daneben.",
+    "v2_globe_nowebgl": "WebGL ist in diesem Browser deaktiviert. Die Städte finden Sie in der Liste daneben.",
     "v2_quote_1_role": "Bronco Plumbing, Dallas–Fort Worth",
     "v2_quote_2_role": "Coach Kofi",
     "v2_quote_3_role": "Sammelkarten-Shop",
@@ -292,7 +292,7 @@
     "stats_awards": "Bediente Branchen",
     "v2_label": "Das Studio",
     "v2_intro": "Boutique aus Überzeugung. Wir betreuen nur eine Handvoll Marken gleichzeitig, damit bei jedem Projekt ein Gründer mit am Tisch sitzt, statt Template und Ticketnummer.",
-    "v2_team_label": "Mit wem du arbeitest",
+    "v2_team_label": "Mit wem Sie arbeiten",
     "v2_team_link": "Team kennenlernen",
     "v2_cta": "Mit dem Quiz starten",
     "ind_fitness": "Fitness und Coaching",
@@ -362,8 +362,8 @@
     }
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "End-to-end AI, web, and marketing solutions that drive real business growth.",
+    "title": "Unsere Leistungen",
+    "subtitle": "Individuelles Webdesign und Entwicklung, die Ihr Unternehmen messbar wachsen lassen.",
     "section_ai_title": "KI & Automatisierung",
     "section_creative_title": "Kreativ & Marketing",
     "service_1_title": "KI-Agenten-Systeme",
@@ -400,7 +400,7 @@
     "service_5_bullet_2": "Werbeausgaben und ROAS in Echtzeit",
     "service_5_bullet_3": "Automatische Wochenberichte per E-Mail",
     "service_5_bullet_4": "Individuelle KPI-Widgets pro Kunde",
-    "service_5_bullet_5": "White-Label in deinem Branding",
+    "service_5_bullet_5": "White-Label in Ihrem Branding",
     "service_6_title": "Websites",
     "service_6_subtitle": "Individuell gebaut, auf Conversion ausgelegt",
     "service_6_bullet_1": "Entwicklung mit Next.js / React",
@@ -429,21 +429,21 @@
     "service_9_bullet_3": "Retargeting-Funnels",
     "service_9_bullet_4": "ROAS-Reporting",
     "service_9_bullet_5": "A/B-Tests der Kreation",
-    "process_title": "Our Process",
-    "step_1_title": "Discovery",
-    "step_1_desc": "Wir tauchen tief in deine Ziele, deine Zielgruppe und deinen Markt ein und legen ein solides Fundament.",
-    "step_2_title": "Strategy",
+    "process_title": "Unser Prozess",
+    "step_1_title": "Analyse",
+    "step_1_desc": "Wir tauchen tief in Ihre Ziele, Ihre Zielgruppe und Ihren Markt ein und legen ein solides Fundament.",
+    "step_2_title": "Strategie",
     "step_2_desc": "Wir entwickeln einen Fahrplan, der kreative Vision und Geschäftsziele zusammenbringt.",
     "step_3_title": "Design",
     "step_3_desc": "Wir gestalten überzeugende Visuals und intuitive Oberflächen, die Besucher fesseln.",
-    "step_4_title": "Development",
+    "step_4_title": "Entwicklung",
     "step_4_desc": "Wir bauen mit modernen Technologien, die Geschwindigkeit, Skalierbarkeit und Zuverlässigkeit sichern.",
     "step_5_title": "Launch & Optimierung",
     "step_5_desc": "Wir gehen live, beobachten und verfeinern laufend, damit die Seite ihr Maximum liefert.",
     "v2_label": "Leistungen",
-    "v2_intro": "Ein Paket, richtig gemacht: Wir gestalten und bauen deine Seite, hosten sie und halten sie am Laufen.",
+    "v2_intro": "Ein Paket, richtig gemacht: Wir gestalten und bauen Ihre Seite, hosten sie und halten sie am Laufen.",
     "v2_process_label": "So läuft ein Projekt ab",
-    "v2_cta_label": "Unsicher, was du brauchst?",
+    "v2_cta_label": "Unsicher, was Sie brauchen?",
     "v2_cta": "1-Minuten-Quiz starten",
     "v2_industries_label": "Für wen wir bauen",
     "v2_industries_more": "So geht es"
@@ -455,7 +455,7 @@
     "role_graphic": "Senior Graphic Designer",
     "role_web": "Senior Web Designer",
     "v2_label": "Das Team",
-    "v2_intro": "Fünf Leute in vier Zeitzonen. Klein genug, dass du jeden beim Namen kennst, und verteilt genug, dass dein Projekt nie auf den nächsten Morgen wartet.",
+    "v2_intro": "Fünf Leute in vier Zeitzonen. Klein genug, dass Sie jeden beim Namen kennen, und verteilt genug, dass Ihr Projekt nie auf den nächsten Morgen wartet.",
     "v2_studied": "Studium",
     "v2_enjoys": "Nach Feierabend",
     "v2_based": "Standort",
@@ -495,8 +495,8 @@
     "newsletter_placeholder": "E-Mail eingeben",
     "newsletter_button": "Abonnieren",
     "newsletter_subscribed": "Bitte bestätigen Sie per E-Mail!",
-    "newsletter_already_subscribed": "Du bist bereits angemeldet",
-    "newsletter_consent": "Mit deiner Anmeldung stimmst du unserer <link>Datenschutzerklärung</link> zu. Jederzeit abbestellbar.",
+    "newsletter_already_subscribed": "Sie sind bereits angemeldet",
+    "newsletter_consent": "Mit Ihrer Anmeldung stimmen Sie unserer <link>Datenschutzerklärung</link> zu. Jederzeit abbestellbar.",
     "back_to_top": "Nach oben",
     "copyright": "Alle Rechte vorbehalten.",
     "legal": "Rechtliches"
@@ -686,7 +686,7 @@
     "q_budget_ads": "Was könnten Sie monatlich für Werbung ausgeben?",
     "q_budget_ads_sub": "Nur das Werbebudget. Unsere Betreuung kostet 15 % davon plus eine einmalige Einrichtung. Euro-Beträge sind umgerechnete Richtwerte.",
     "q_budget_monthly": "Wie hoch ist Ihr monatliches Budget?",
-    "q_budget_monthly_sub": "Ungefähr das, was du monatlich einsetzen würdest. Euro-Beträge sind umgerechnete Richtwerte, Angebote stellen wir in USD.",
+    "q_budget_monthly_sub": "Ungefähr das, was Sie monatlich einsetzen würden. Euro-Beträge sind umgerechnete Richtwerte, Angebote stellen wir in USD.",
     "q_timeline": "Wie schnell möchten Sie starten?",
     "q_contact": "Letzter Schritt. Wie erreichen wir Sie?",
     "q_contact_sub": "Danach wählen Sie einen Termin. Wir antworten innerhalb einer Stunde zu Geschäftszeiten.",
@@ -839,7 +839,7 @@
     "try_again": "Erneut versuchen",
     "back_home": "Zurück zur Startseite",
     "not_found_title": "Seite nicht gefunden",
-    "not_found_message": "Die gesuchte Seite existiert nicht oder wurde verschoben. Lass uns dich zurück auf Kurs bringen.",
+    "not_found_message": "Die gesuchte Seite existiert nicht oder wurde verschoben. Wir bringen Sie zurück auf Kurs.",
     "contact_us": "Kontakt"
   },
   "accessibility": {
@@ -1003,7 +1003,7 @@
     "aria_business": "Branche",
     "aria_budget": "Budget",
     "aria_timeline": "Zeitrahmen",
-    "proj_live_click": "Klick dich durch die Live-Seite unten",
+    "proj_live_click": "Klicken Sie sich durch die Live-Seite unten",
     "proj_live_scroll": "Scroll durch die Live-Seite unten",
     "proj_live_hint_embed": "Klick auf Links und navigiere wie auf der echten Seite, oder öffne sie in einem neuen Tab.",
     "proj_live_hint_scroll": "Das ist ein Screenshot der ganzen Seite. Scroll im Fenster, oder öffne die Live-Seite in einem neuen Tab.",
@@ -1060,10 +1060,10 @@
     "timeline": "Zeitrahmen",
     "commitment": "Laufzeit",
     "ideal_for": "Ideal für",
-    "custom_quote": "Du willst ein individuelles Angebot?",
-    "hero_title_a": "Was du bekommst,",
+    "custom_quote": "Sie möchten ein individuelles Angebot?",
+    "hero_title_a": "Was Sie bekommen,",
     "hero_title_em": "schwarz auf weiß.",
-    "hero_sub": "KI-gestützte Websites, Apps, Automatisierungen, Ads, Branding und Social-Media-Betreuung. Jedes Projekt wird individuell auf deinen Umfang kalkuliert, mit schriftlich festgehaltenen Leistungen, damit wir beide wissen, was wir bauen.",
+    "hero_sub": "KI-gestützte Websites, Apps, Automatisierungen, Ads, Branding und Social-Media-Betreuung. Jedes Projekt wird individuell auf Ihren Umfang kalkuliert, mit schriftlich festgehaltenen Leistungen, damit wir beide wissen, was wir bauen.",
     "tabs": {
       "web": "Webentwicklung",
       "app": "App-Entwicklung",
@@ -1092,7 +1092,7 @@
     "hide": "Ausblenden",
     "view": "Ansehen",
     "not_included": "Was nicht enthalten ist",
-    "cta_sub": "Jedes Projekt wird individuell eingeschätzt und kalkuliert. Buch ein kostenloses 15-minütiges Gespräch und du bekommst innerhalb von 48 Stunden ein passendes Angebot.",
+    "cta_sub": "Jedes Projekt wird individuell eingeschätzt und kalkuliert. Buchen Sie ein kostenloses 15-minütiges Gespräch und Sie bekommen innerhalb von 48 Stunden ein passendes Angebot.",
     "cta_button": "Strategiegespräch buchen",
     "pkg": {
       "oneTime": [
@@ -1109,7 +1109,7 @@
             },
             {
               "i": "Markenidentität (Logo + Farben)",
-              "l": "2 erste Logokonzepte als Mockups. Du wählst 1 für die finale Ausarbeitung. Lieferumfang: Logodateien als PNG, SVG und PDF (farbig, weiß und schwarz). 1 primäre Farbpalette (5 Farben mit Hex-Codes) und 1 Schriftpaarung (Überschrift + Fließtext). Kein vollständiges Brand-Guidelines-Dokument in dieser Stufe."
+              "l": "2 erste Logokonzepte als Mockups. Sie wählen 1 für die finale Ausarbeitung. Lieferumfang: Logodateien als PNG, SVG und PDF (farbig, weiß und schwarz). 1 primäre Farbpalette (5 Farben mit Hex-Codes) und 1 Schriftpaarung (Überschrift + Fließtext). Kein vollständiges Brand-Guidelines-Dokument in dieser Stufe."
             },
             {
               "i": "Analytics & Tracking",
@@ -1121,7 +1121,7 @@
             },
             {
               "i": "Inhalte & Texte",
-              "l": "Du lieferst alle Texte (Überschriften, Fließtext, Bios, Leistungsbeschreibungen). Wir übernehmen Layout, Formatierung und Platzierung. Wenn du Texterstellung brauchst, kommt sie für 200 $/Seite dazu."
+              "l": "Sie liefern alle Texte (Überschriften, Fließtext, Bios, Leistungsbeschreibungen). Wir übernehmen Layout, Formatierung und Platzierung. Wenn Sie Texterstellung brauchen, kommt sie für 200 $/Seite dazu."
             }
           ],
           "ov": [
@@ -1129,8 +1129,8 @@
             "Texterstellung: 200 $/Seite",
             "Zusätzlicher Abschnitt: 250 $"
           ],
-          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit deiner Freigabe ODER nach 2 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 14 Tage Monitoring nach dem Launch (Bugfixes und kleine Anpassungen). Du brauchst mehr Seiten oder Funktionen? Mit dem Upgrade auf Starter Launch (6.500 $) bekommst du eine komplette 5-seitige Website mit KI-Chat und CRM-Setup.",
+          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Ihrer Freigabe ODER nach 2 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
+          "bridge": "Inklusive 14 Tage Monitoring nach dem Launch (Bugfixes und kleine Anpassungen). Sie brauchen mehr Seiten oder Funktionen? Mit dem Upgrade auf Starter Launch (6.500 $) bekommen Sie eine komplette 5-seitige Website mit KI-Chat und CRM-Setup.",
           "ideal": "Nebenprojekte, Personal Brands, einfache Landingpages"
         },
         {
@@ -1146,11 +1146,11 @@
             },
             {
               "i": "Markenidentität (Logo + Farben)",
-              "l": "2 erste Logokonzepte als Mockups. Du wählst 1 für die finale Ausarbeitung. Lieferumfang: Logodateien als PNG, SVG und PDF (farbig, weiß und schwarz). 1 primäre Farbpalette (5 Farben mit Hex-Codes) und 1 Schriftpaarung (Überschrift + Fließtext). Kein vollständiges Brand-Guidelines-Dokument in dieser Stufe."
+              "l": "2 erste Logokonzepte als Mockups. Sie wählen 1 für die finale Ausarbeitung. Lieferumfang: Logodateien als PNG, SVG und PDF (farbig, weiß und schwarz). 1 primäre Farbpalette (5 Farben mit Hex-Codes) und 1 Schriftpaarung (Überschrift + Fließtext). Kein vollständiges Brand-Guidelines-Dokument in dieser Stufe."
             },
             {
               "i": "KI-Chat-Widget",
-              "l": "1 KI-gestützter Chatbot, eingebettet auf deiner Website. Trainiert auf 25 Frage-Antwort-Paare, die du lieferst (z. B. Preise, Öffnungszeiten, Leistungen). Inklusive Lead-Formular, das Anfragen an dein CRM sendet. Begrüßungsnachricht und Fallback-Antwort werden eingerichtet."
+              "l": "1 KI-gestützter Chatbot, eingebettet auf Ihrer Website. Trainiert auf 25 Frage-Antwort-Paare, die Sie liefern (z. B. Preise, Öffnungszeiten, Leistungen). Inklusive Lead-Formular, das Anfragen an Ihr CRM sendet. Begrüßungsnachricht und Fallback-Antwort werden eingerichtet."
             },
             {
               "i": "CRM-Setup (GoHighLevel)",
@@ -1166,7 +1166,7 @@
             },
             {
               "i": "Inhalte & Texte",
-              "l": "Du lieferst alle Texte (Überschriften, Fließtext, Bios, Leistungsbeschreibungen). Wir übernehmen Layout, Formatierung und Platzierung. Wenn du Texterstellung brauchst, kommt sie für 200 $/Seite dazu."
+              "l": "Sie liefern alle Texte (Überschriften, Fließtext, Bios, Leistungsbeschreibungen). Wir übernehmen Layout, Formatierung und Platzierung. Wenn Sie Texterstellung brauchen, kommt sie für 200 $/Seite dazu."
             }
           ],
           "ov": [
@@ -1176,8 +1176,8 @@
             "Zusätzliche Q&A-Paare (über 25): 250 $ pro Paket",
             "Zusätzliche Automatisierung: 350 $ pro Stück"
           ],
-          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit deiner Freigabe ODER nach 2 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 30 Tage Monitoring nach dem Launch (Bugfixes, Chatbot-Checks, CRM-Gesundheit). Ab Tag 31 gehen laufende Wartung, Updates und KI-Feintuning in unseren Plan Maintain & Monitor (1.500 $/Monat) über, damit deine Systeme optimal laufen.",
+          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Ihrer Freigabe ODER nach 2 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
+          "bridge": "Inklusive 30 Tage Monitoring nach dem Launch (Bugfixes, Chatbot-Checks, CRM-Gesundheit). Ab Tag 31 gehen laufende Wartung, Updates und KI-Feintuning in unseren Plan Maintain & Monitor (1.500 $/Monat) über, damit Ihre Systeme optimal laufen.",
           "ideal": "Startups, Solo-Selbstständige, lokale Unternehmen"
         },
         {
@@ -1198,11 +1198,11 @@
             },
             {
               "i": "KI-Chatbot",
-              "l": "1 KI-gestützter Chatbot, trainiert auf 50 Q&A-Paare. Inklusive Terminbuchung (verbunden mit deinem Google Calendar oder Calendly). Lead-Erfassung mit automatischem CRM-Eintrag. Individuelle Begrüßung, Fallback-Antworten und Nachrichten außerhalb der Geschäftszeiten eingerichtet. Chatbot auf 3 Seiten eingebettet."
+              "l": "1 KI-gestützter Chatbot, trainiert auf 50 Q&A-Paare. Inklusive Terminbuchung (verbunden mit Ihrem Google Calendar oder Calendly). Lead-Erfassung mit automatischem CRM-Eintrag. Individuelle Begrüßung, Fallback-Antworten und Nachrichten außerhalb der Geschäftszeiten eingerichtet. Chatbot auf 3 Seiten eingebettet."
             },
             {
               "i": "KI-Telefonagent",
-              "l": "1 eingehender KI-Telefonagent, der Anrufe entgegennimmt, Leads qualifiziert und Termine bucht. 1 individuelles Gesprächsskript getextet und konfiguriert. 500 Sprachminuten im ersten Monat inklusive. Anrufaufzeichnungen werden in deinem CRM gespeichert. Inklusive einfacher Anrufweiterleitung (an dich, wenn die KI nicht weiterkommt)."
+              "l": "1 eingehender KI-Telefonagent, der Anrufe entgegennimmt, Leads qualifiziert und Termine bucht. 1 individuelles Gesprächsskript getextet und konfiguriert. 500 Sprachminuten im ersten Monat inklusive. Anrufaufzeichnungen werden in Ihrem CRM gespeichert. Inklusive einfacher Anrufweiterleitung (an Sie, wenn die KI nicht weiterkommt)."
             },
             {
               "i": "Workflow-Automatisierung (8 insgesamt)",
@@ -1210,7 +1210,7 @@
             },
             {
               "i": "Google-Ads-Setup",
-              "l": "1 Google-Suchkampagne mit 3 Anzeigengruppen (unterschiedliche Keyword-Themen). Keyword-Recherche und Liste auszuschließender Keywords inklusive. 6 Anzeigenvarianten getextet (2 pro Anzeigengruppe). 1 eigene Landingpage gestaltet, gebaut und mit Conversion-Tracking verbunden. Google-Ads-Conversion-Tracking und Google Tag Manager konfiguriert. Das Werbebudget wird separat abgerechnet und von dir direkt an Google gezahlt."
+              "l": "1 Google-Suchkampagne mit 3 Anzeigengruppen (unterschiedliche Keyword-Themen). Keyword-Recherche und Liste auszuschließender Keywords inklusive. 6 Anzeigenvarianten getextet (2 pro Anzeigengruppe). 1 eigene Landingpage gestaltet, gebaut und mit Conversion-Tracking verbunden. Google-Ads-Conversion-Tracking und Google Tag Manager konfiguriert. Das Werbebudget wird separat abgerechnet und von Ihnen direkt an Google gezahlt."
             },
             {
               "i": "Kunden-Dashboard",
@@ -1222,7 +1222,7 @@
             },
             {
               "i": "Inhalte & Texte",
-              "l": "Wir texten deine Startseite und Leistungsseite (insgesamt 1.500 Wörter). Alle anderen Seiteninhalte lieferst du. Das Blog-CMS wird leer übergeben, damit du oder dein Team Beiträge anlegen könnt, oder du buchst unser Content-Paket dazu."
+              "l": "Wir texten Ihre Startseite und Leistungsseite (insgesamt 1.500 Wörter). Alle anderen Seiteninhalte liefern Sie. Das Blog-CMS wird leer übergeben, damit Sie oder Ihr Team Beiträge anlegen können, oder Sie buchen unser Content-Paket dazu."
             }
           ],
           "ov": [
@@ -1235,7 +1235,7 @@
             "Texterstellung über den Umfang hinaus: 200 $/Seite"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 3 Korrekturrunden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 30 Tage nach dem Launch: Anzeigenbetreuung, KI-Monitoring und Bugfixes. Ab Tag 31 brauchen deine Ads, KI-Agenten und Automatisierungen laufende Optimierung, damit sie weiter liefern. Wir empfehlen unseren Plan Growth Engine (3.500 $/Monat), um den Schwung zu halten.",
+          "bridge": "Inklusive 30 Tage nach dem Launch: Anzeigenbetreuung, KI-Monitoring und Bugfixes. Ab Tag 31 brauchen Ihre Ads, KI-Agenten und Automatisierungen laufende Optimierung, damit sie weiter liefern. Wir empfehlen unseren Plan Growth Engine (3.500 $/Monat), um den Schwung zu halten.",
           "ideal": "Wachsende Unternehmen, die mit Systemen skalieren"
         },
         {
@@ -1255,7 +1255,7 @@
             },
             {
               "i": "KI-Agenten-Ökosystem (3 Agenten)",
-              "l": "3 vernetzte KI-Agenten, die als System zusammenarbeiten. Beispiel-Setup: Agent 1 erfasst Leads per Chatbot und bewertet sie (heiß/warm/kalt). Agent 2 sendet personalisierte E-Mail-Sequenzen je nach Bewertung. Agent 3 löst SMS-Follow-ups für heiße Leads aus. 1 individueller Entscheidungsbaum, der die komplette Lead-Journey abbildet. Alle Agenten sind mit deinem GHL-CRM verbunden, mit automatischem Kontakt-Tagging und Pipeline-Bewegung."
+              "l": "3 vernetzte KI-Agenten, die als System zusammenarbeiten. Beispiel-Setup: Agent 1 erfasst Leads per Chatbot und bewertet sie (heiß/warm/kalt). Agent 2 sendet personalisierte E-Mail-Sequenzen je nach Bewertung. Agent 3 löst SMS-Follow-ups für heiße Leads aus. 1 individueller Entscheidungsbaum, der die komplette Lead-Journey abbildet. Alle Agenten sind mit Ihrem GHL-CRM verbunden, mit automatischem Kontakt-Tagging und Pipeline-Bewegung."
             },
             {
               "i": "Conversational-AI-Suite",
@@ -1267,11 +1267,11 @@
             },
             {
               "i": "Google + Meta Ads (komplettes Setup)",
-              "l": "1 Google-Suchkampagne mit 5 Anzeigengruppen und 10 Anzeigenvarianten. Vollständige Keyword-Recherche mit Listen auszuschließender Keywords. 1 Meta-Kampagne (Facebook/Instagram) mit 3 Anzeigengruppen für unterschiedliche Zielgruppen. Retargeting-Pixel für Google und Meta auf deiner Website installiert. 2 eigene Landingpages gestaltet, gebaut und auf Conversion optimiert. Komplettes Conversion-Tracking über Google Tag Manager. Anzeigenmotive gestaltet (6 statische Bilder + 2 Karussell-Anzeigen). Werbebudget wird separat abgerechnet. Du zahlst direkt an Google und Meta."
+              "l": "1 Google-Suchkampagne mit 5 Anzeigengruppen und 10 Anzeigenvarianten. Vollständige Keyword-Recherche mit Listen auszuschließender Keywords. 1 Meta-Kampagne (Facebook/Instagram) mit 3 Anzeigengruppen für unterschiedliche Zielgruppen. Retargeting-Pixel für Google und Meta auf Ihrer Website installiert. 2 eigene Landingpages gestaltet, gebaut und auf Conversion optimiert. Komplettes Conversion-Tracking über Google Tag Manager. Anzeigenmotive gestaltet (6 statische Bilder + 2 Karussell-Anzeigen). Werbebudget wird separat abgerechnet. Sie zahlen direkt an Google und Meta."
             },
             {
               "i": "KI-Content-System",
-              "l": "Komplette Content-Pipeline eingerichtet: Video-zu-Clips-Workflow (du lädst ein langes Video hoch, die KI erstellt Social-Clips), Blogbeitrag-Vorlage mit KI-Unterstützung und Social-Media-Planung in Buffer oder Later. Erster Monat Content produziert und veröffentlicht: 4 Blogbeiträge (je bis zu 1.000 Wörter, SEO-optimiert) und 12 Social-Media-Posts (Grafiken + Captions). Content-Kalender-Vorlage für die weitere Nutzung inklusive."
+              "l": "Komplette Content-Pipeline eingerichtet: Video-zu-Clips-Workflow (Sie laden ein langes Video hoch, die KI erstellt Social-Clips), Blogbeitrag-Vorlage mit KI-Unterstützung und Social-Media-Planung in Buffer oder Later. Erster Monat Content produziert und veröffentlicht: 4 Blogbeiträge (je bis zu 1.000 Wörter, SEO-optimiert) und 12 Social-Media-Posts (Grafiken + Captions). Content-Kalender-Vorlage für die weitere Nutzung inklusive."
             },
             {
               "i": "Executive-Dashboard",
@@ -1283,7 +1283,7 @@
             },
             {
               "i": "Texterstellung",
-              "l": "Professionelle Texte für 10 Website-Seiten (Überschriften, Fließtext, CTAs, Meta-Beschreibungen). Für die übrigen Seiten lieferst du Rohmaterial, Notizen oder Stichpunkte. Anzeigentexte für alle Google- und Meta-Kampagnen sind inklusive."
+              "l": "Professionelle Texte für 10 Website-Seiten (Überschriften, Fließtext, CTAs, Meta-Beschreibungen). Für die übrigen Seiten liefern Sie Rohmaterial, Notizen oder Stichpunkte. Anzeigentexte für alle Google- und Meta-Kampagnen sind inklusive."
             }
           ],
           "ov": [
@@ -1297,7 +1297,7 @@
             "Content nach Monat 1: nur mit Betreuungsplan"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 3 Runden. Nach der Freigabe: 175 $/Std.",
-          "bridge": "Inklusive 45 Tage nach dem Launch: vollständiges Monitoring, Anzeigenbetreuung, KI-Feintuning und Bugfixes. Ab Tag 46 brauchen dein KI-Ökosystem, deine Kampagnen und Content-Systeme laufende Betreuung, damit sie Ergebnisse liefern. Wir empfehlen je nach Bedarf Full Partnership (7.500 $/Monat) oder Growth Engine (3.500 $/Monat).",
+          "bridge": "Inklusive 45 Tage nach dem Launch: vollständiges Monitoring, Anzeigenbetreuung, KI-Feintuning und Bugfixes. Ab Tag 46 brauchen Ihr KI-Ökosystem, Ihre Kampagnen und Content-Systeme laufende Betreuung, damit sie Ergebnisse liefern. Wir empfehlen je nach Bedarf Full Partnership (7.500 $/Monat) oder Growth Engine (3.500 $/Monat).",
           "ideal": "Etablierte Unternehmen, die eine komplette KI-Infrastruktur wollen"
         }
       ],
@@ -1311,31 +1311,31 @@
           "scope": [
             {
               "i": "Plattformauswahl",
-              "l": "1 Plattform deiner Wahl: Instagram, LinkedIn, Facebook, TikTok, YouTube, X (Twitter) oder Pinterest. Wir bauen das Profil neu auf oder überarbeiten dein bestehendes komplett."
+              "l": "1 Plattform Ihrer Wahl: Instagram, LinkedIn, Facebook, TikTok, YouTube, X (Twitter) oder Pinterest. Wir bauen das Profil neu auf oder überarbeiten Ihr bestehendes komplett."
             },
             {
               "i": "Profiloptimierung",
-              "l": "Bio getextet und auf die Plattform zugeschnitten (bis zu 150 Zeichen bei IG, bis zu 2.000 bei LinkedIn usw.). Profilbild skaliert und für die Plattform optimiert. Titelbild oder Banner passend zu deiner Marke gestaltet. Featured-Bereiche, Highlights oder angepinnte Beiträge eingerichtet (wo verfügbar). Kontaktdaten, Website-Link, CTA-Buttons und Kategorie-/Branchen-Tags gesetzt."
+              "l": "Bio getextet und auf die Plattform zugeschnitten (bis zu 150 Zeichen bei IG, bis zu 2.000 bei LinkedIn usw.). Profilbild skaliert und für die Plattform optimiert. Titelbild oder Banner passend zu Ihrer Marke gestaltet. Featured-Bereiche, Highlights oder angepinnte Beiträge eingerichtet (wo verfügbar). Kontaktdaten, Website-Link, CTA-Buttons und Kategorie-/Branchen-Tags gesetzt."
             },
             {
               "i": "Visuelle Assets",
-              "l": "1 individuelles Profilbild (gebrandete Initialen, Porträt mit Overlay oder Logo-Zeichen) im passenden Format. 1 individuelles Titelbild oder Banner in deinen Markenfarben und mit deiner Botschaft. Alle Dateien als PNG und in editierbarem Format (Canva oder Figma). 1 Korrekturrunde für die visuellen Assets."
+              "l": "1 individuelles Profilbild (gebrandete Initialen, Porträt mit Overlay oder Logo-Zeichen) im passenden Format. 1 individuelles Titelbild oder Banner in Ihren Markenfarben und mit Ihrer Botschaft. Alle Dateien als PNG und in editierbarem Format (Canva oder Figma). 1 Korrekturrunde für die visuellen Assets."
             },
             {
               "i": "Content-Vorlagen (3)",
-              "l": "3 gebrandete, wiederverwendbare Post-Vorlagen in Canva oder Figma. Enthalten: 1 Zitat-/Tipp-Vorlage, 1 Angebots-/Leistungs-Vorlage und 1 Engagement-Vorlage (Frage, Umfrage oder CTA). Jede Vorlage nutzt deine Markenfarben, Schriften und dein Logo. Voll editierbar, damit dein Team Texte und Bilder selbst austauschen kann."
+              "l": "3 gebrandete, wiederverwendbare Post-Vorlagen in Canva oder Figma. Enthalten: 1 Zitat-/Tipp-Vorlage, 1 Angebots-/Leistungs-Vorlage und 1 Engagement-Vorlage (Frage, Umfrage oder CTA). Jede Vorlage nutzt Ihre Markenfarben, Schriften und Ihr Logo. Voll editierbar, damit Ihr Team Texte und Bilder selbst austauschen kann."
             },
             {
               "i": "Hashtag- & Keyword-Strategie",
-              "l": "Plattformspezifische Hashtag- oder Keyword-Recherche auf Basis deiner Branche und Zielgruppe. 3 Hashtag-/Keyword-Sets (z. B. 1 Set für große Reichweite, 1 Nischen-Set, 1 Marken-Set). Jedes Set enthält 15 bis 30 Hashtags oder Keywords. Lieferung als teilbares Dokument mit Anleitung zur Nutzung."
+              "l": "Plattformspezifische Hashtag- oder Keyword-Recherche auf Basis Ihrer Branche und Zielgruppe. 3 Hashtag-/Keyword-Sets (z. B. 1 Set für große Reichweite, 1 Nischen-Set, 1 Marken-Set). Jedes Set enthält 15 bis 30 Hashtags oder Keywords. Lieferung als teilbares Dokument mit Anleitung zur Nutzung."
             },
             {
               "i": "Launch-Content (4 Posts)",
-              "l": "4 fertige Posts: statische Grafiken mit getexteten Captions. Enthalten: 1 Vorstellungs-/Willkommens-Post, 1 Leistungs- oder Produkt-Highlight, 1 Social-Proof- oder Kundenstimmen-Post und 1 CTA- oder Engagement-Post. Grafiken im passenden Format für die Plattform. Captions enthalten passende Hashtags aus deinen Strategie-Sets."
+              "l": "4 fertige Posts: statische Grafiken mit getexteten Captions. Enthalten: 1 Vorstellungs-/Willkommens-Post, 1 Leistungs- oder Produkt-Highlight, 1 Social-Proof- oder Kundenstimmen-Post und 1 CTA- oder Engagement-Post. Grafiken im passenden Format für die Plattform. Captions enthalten passende Hashtags aus Ihren Strategie-Sets."
             },
             {
               "i": "Plattform-Guide (PDF)",
-              "l": "1-seitiges PDF, zugeschnitten auf deine Plattform. Inhalt: beste Posting-Zeiten, ideale Frequenz, Content-Formate mit der besten Leistung, Tipps zur Hashtag-Nutzung und Best Practices für Engagement. Konkret und auf deine Branche bezogen."
+              "l": "1-seitiges PDF, zugeschnitten auf Ihre Plattform. Inhalt: beste Posting-Zeiten, ideale Frequenz, Content-Formate mit der besten Leistung, Tipps zur Hashtag-Nutzung und Best Practices für Engagement. Konkret und auf Ihre Branche bezogen."
             }
           ],
           "ov": [
@@ -1346,7 +1346,7 @@
             "Video-Content (Reels/Shorts): 175 $ pro Stück"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 1 Korrekturrunde. Änderungen nach der Lieferung: 175 $/Std.",
-          "bridge": "Deine Profile stehen und sind startklar. Damit sie aktiv bleiben und wachsen, buch unseren Plan Social Starter (1.500 $/Monat) dazu oder die Betreuung einzelner Plattformen ab 650 $/Monat.",
+          "bridge": "Ihre Profile stehen und sind startklar. Damit sie aktiv bleiben und wachsen, buchen Sie unseren Plan Social Starter (1.500 $/Monat) dazu oder die Betreuung einzelner Plattformen ab 650 $/Monat.",
           "ideal": "Unternehmen, die auf einer Plattform neu starten"
         },
         {
@@ -1363,19 +1363,19 @@
             },
             {
               "i": "Profiloptimierung (alle 3)",
-              "l": "Bios pro Plattform getextet und optimiert. Profilbilder und Titelbilder/Banner für jede Plattform gestaltet (in den korrekten Maßen). CTAs, Kontaktdaten, Website-Links und Kategorie-Tags eingerichtet. Highlights, Featured-Bereiche oder angepinnte Beiträge, wo verfügbar. Alle Profile untereinander und mit deiner Website verlinkt."
+              "l": "Bios pro Plattform getextet und optimiert. Profilbilder und Titelbilder/Banner für jede Plattform gestaltet (in den korrekten Maßen). CTAs, Kontaktdaten, Website-Links und Kategorie-Tags eingerichtet. Highlights, Featured-Bereiche oder angepinnte Beiträge, wo verfügbar. Alle Profile untereinander und mit Ihrer Website verlinkt."
             },
             {
               "i": "Einheitliches Erscheinungsbild",
-              "l": "Aufeinander abgestimmte Profilbilder und Banner auf allen 3 Plattformen für einen konsistenten Markenauftritt. Passend zu deiner bestehenden Marke (oder zur neuen Marke, wenn mit einem einmaligen Projekt kombiniert). Lieferung als PNG + editierbare Canva- oder Figma-Dateien. 2 Korrekturrunden für alle visuellen Assets."
+              "l": "Aufeinander abgestimmte Profilbilder und Banner auf allen 3 Plattformen für einen konsistenten Markenauftritt. Passend zu Ihrer bestehenden Marke (oder zur neuen Marke, wenn mit einem einmaligen Projekt kombiniert). Lieferung als PNG + editierbare Canva- oder Figma-Dateien. 2 Korrekturrunden für alle visuellen Assets."
             },
             {
               "i": "Content-Vorlagen (15 insgesamt)",
-              "l": "5 gebrandete, wiederverwendbare Post-Vorlagen pro Plattform (15 insgesamt). Jedes Set enthält: 1 Zitat/Tipp, 1 Angebot, 1 Kundenstimme/Social Proof, 1 Behind-the-Scenes und 1 Engagement/CTA. Alle Vorlagen in Canva oder Figma editierbar, mit deinen Markenfarben, Schriften und deinem Logo. Auf die Maße jeder Plattform angepasst (z. B. quadratisch für IG, Querformat für LinkedIn, Hochformat für TikTok)."
+              "l": "5 gebrandete, wiederverwendbare Post-Vorlagen pro Plattform (15 insgesamt). Jedes Set enthält: 1 Zitat/Tipp, 1 Angebot, 1 Kundenstimme/Social Proof, 1 Behind-the-Scenes und 1 Engagement/CTA. Alle Vorlagen in Canva oder Figma editierbar, mit Ihren Markenfarben, Schriften und Ihrem Logo. Auf die Maße jeder Plattform angepasst (z. B. quadratisch für IG, Querformat für LinkedIn, Hochformat für TikTok)."
             },
             {
               "i": "Hashtag- & Keyword-Strategie",
-              "l": "Recherche pro Plattform auf Basis deiner Branche und deines Wettbewerbs. 5 Hashtag- oder Keyword-Sets pro Plattform (15 insgesamt). Jedes Set enthält 15 bis 30 Hashtags/Keywords, sortiert nach: Reichweite, Nische, Marke, Trends und Standort. Lieferung als geteilte Tabelle oder Dokument mit Nutzungshinweisen."
+              "l": "Recherche pro Plattform auf Basis Ihrer Branche und Ihres Wettbewerbs. 5 Hashtag- oder Keyword-Sets pro Plattform (15 insgesamt). Jedes Set enthält 15 bis 30 Hashtags/Keywords, sortiert nach: Reichweite, Nische, Marke, Trends und Standort. Lieferung als geteilte Tabelle oder Dokument mit Nutzungshinweisen."
             },
             {
               "i": "Launch-Content (18 Posts insgesamt)",
@@ -1383,15 +1383,15 @@
             },
             {
               "i": "30-Tage-Content-Kalender",
-              "l": "Vollständiger Kalender mit Post-Ideen für 30 Tage: vorgeschlagener Post-Typ, Thema, Caption-Impulse, optimale Posting-Zeiten und passende Hashtag-Sets. Lieferung als Google Sheet oder Notion-Vorlage, die du jeden Monat wiederverwenden und anpassen kannst."
+              "l": "Vollständiger Kalender mit Post-Ideen für 30 Tage: vorgeschlagener Post-Typ, Thema, Caption-Impulse, optimale Posting-Zeiten und passende Hashtag-Sets. Lieferung als Google Sheet oder Notion-Vorlage, die Sie jeden Monat wiederverwenden und anpassen können."
             },
             {
               "i": "Plattform-Guides (3 PDFs)",
-              "l": "1 PDF-Guide pro Plattform mit: besten Posting-Zeiten, idealer Frequenz, Content-Formaten mit der besten Leistung, Hashtag-Tipps, Engagement-Strategien und algorithmus-spezifischen Hinweisen. Auf deine Branche zugeschnitten."
+              "l": "1 PDF-Guide pro Plattform mit: besten Posting-Zeiten, idealer Frequenz, Content-Formaten mit der besten Leistung, Hashtag-Tipps, Engagement-Strategien und algorithmus-spezifischen Hinweisen. Auf Ihre Branche zugeschnitten."
             },
             {
               "i": "Link-in-Bio-Seite",
-              "l": "1 Link-in-Bio-Seite auf Linktree, Later oder als individuell gebaute Seite. Bis zu 8 Links eingerichtet (Website, Leistungen, Buchung, Social-Profile usw.). Gestaltet in deinen Markenfarben und mit deinem Logo."
+              "l": "1 Link-in-Bio-Seite auf Linktree, Later oder als individuell gebaute Seite. Bis zu 8 Links eingerichtet (Website, Leistungen, Buchung, Social-Profile usw.). Gestaltet in Ihren Markenfarben und mit Ihrem Logo."
             }
           ],
           "ov": [
@@ -1419,7 +1419,7 @@
             },
             {
               "i": "Social-Media-Audit",
-              "l": "Detaillierte Analyse jedes bestehenden Profils: Follower-Demografie, Engagement-Raten, erfolgreichster Content, Posting-Regelmäßigkeit und Vollständigkeit des Profils. Benchmarking gegen 3 Wettbewerber deiner Wahl (oder unserer Empfehlung). Gap-Analyse zu verpassten Chancen bei Content, Hashtags, Engagement und Plattform-Features. Lieferung als schriftlicher Audit-Bericht (PDF, 3 bis 5 Seiten) mit konkreten Empfehlungen."
+              "l": "Detaillierte Analyse jedes bestehenden Profils: Follower-Demografie, Engagement-Raten, erfolgreichster Content, Posting-Regelmäßigkeit und Vollständigkeit des Profils. Benchmarking gegen 3 Wettbewerber Ihrer Wahl (oder unserer Empfehlung). Gap-Analyse zu verpassten Chancen bei Content, Hashtags, Engagement und Plattform-Features. Lieferung als schriftlicher Audit-Bericht (PDF, 3 bis 5 Seiten) mit konkreten Empfehlungen."
             },
             {
               "i": "Profilüberarbeitung (alle Plattformen)",
@@ -1427,27 +1427,27 @@
             },
             {
               "i": "Komplettes Social-Brand-Kit",
-              "l": "10 gebrandete Post-Vorlagen pro Plattform (50 insgesamt über 5 Plattformen). Vorlagentypen: Zitate, Tipps, Angebote, Kundenstimmen, Karussells, Vorher/Nachher, Behind-the-Scenes, Team-Vorstellungen, Ankündigungen und Engagement-Posts. Story-Vorlagen: 5 pro Plattform für IG, Facebook und TikTok (wo verfügbar). Highlight-Cover-Icons für Instagram (8 individuelle Icons). Alle Vorlagen in Canva oder Figma, voll editierbar mit deinen Markenfarben, Schriften und deinem Logo."
+              "l": "10 gebrandete Post-Vorlagen pro Plattform (50 insgesamt über 5 Plattformen). Vorlagentypen: Zitate, Tipps, Angebote, Kundenstimmen, Karussells, Vorher/Nachher, Behind-the-Scenes, Team-Vorstellungen, Ankündigungen und Engagement-Posts. Story-Vorlagen: 5 pro Plattform für IG, Facebook und TikTok (wo verfügbar). Highlight-Cover-Icons für Instagram (8 individuelle Icons). Alle Vorlagen in Canva oder Figma, voll editierbar mit Ihren Markenfarben, Schriften und Ihrem Logo."
             },
             {
               "i": "Hashtag- & SEO-Strategie",
-              "l": "Tiefgehende Recherche pro Plattform auf Basis deiner Nische, Zielgruppe und deines Wettbewerbs. 10 Hashtag-/Keyword-Sets pro Plattform (50 insgesamt). Sortiert nach: Reichweite, Nische, Marke, Trends, Standort und Wettbewerber-Lücken. Gap-Analyse zeigt Hashtags und Keywords, die dein Wettbewerb nutzt und du nicht. Lieferung als geteilte Tabelle mit Nutzungshinweisen und Rotationsplan."
+              "l": "Tiefgehende Recherche pro Plattform auf Basis Ihrer Nische, Zielgruppe und Ihres Wettbewerbs. 10 Hashtag-/Keyword-Sets pro Plattform (50 insgesamt). Sortiert nach: Reichweite, Nische, Marke, Trends, Standort und Wettbewerber-Lücken. Gap-Analyse zeigt Hashtags und Keywords, die Ihr Wettbewerb nutzt und Sie nicht. Lieferung als geteilte Tabelle mit Nutzungshinweisen und Rotationsplan."
             },
             {
               "i": "Launch-Content (40 Posts + 4 Videos)",
-              "l": "8 fertige Posts pro Plattform (40 insgesamt). Mix aus statischen Grafiken, Karussells und Text-Posts. Bis zu 4 Kurzvideos (Reels, Shorts oder TikToks). Wir schneiden aus deinem Material oder erstellen sie mit KI-Tools. Wir drehen nicht. Jeder Post enthält: gestaltete Grafik, getextete Caption, Hashtags und empfohlene Posting-Zeit."
+              "l": "8 fertige Posts pro Plattform (40 insgesamt). Mix aus statischen Grafiken, Karussells und Text-Posts. Bis zu 4 Kurzvideos (Reels, Shorts oder TikToks). Wir schneiden aus Ihrem Material oder erstellen sie mit KI-Tools. Wir drehen nicht. Jeder Post enthält: gestaltete Grafik, getextete Caption, Hashtags und empfohlene Posting-Zeit."
             },
             {
               "i": "60-Tage-Content-Kalender",
-              "l": "Vollständiger Kalender mit 60 Tagen Content über alle Plattformen. Enthalten: Wochenthemen/Content-Säulen, konkrete Post-Themen, Caption-Impulse, Hashtag-Sets, optimale Posting-Zeiten und Platz für Trend- und Reaktions-Content. Lieferung als Google Sheet oder Notion-Vorlage. Ein wiederverwendbares Gerüst, das du monatlich anpassen kannst."
+              "l": "Vollständiger Kalender mit 60 Tagen Content über alle Plattformen. Enthalten: Wochenthemen/Content-Säulen, konkrete Post-Themen, Caption-Impulse, Hashtag-Sets, optimale Posting-Zeiten und Platz für Trend- und Reaktions-Content. Lieferung als Google Sheet oder Notion-Vorlage. Ein wiederverwendbares Gerüst, das Sie monatlich anpassen können."
             },
             {
               "i": "Link-in-Bio-Seite",
-              "l": "1 individuell gestaltete Link-in-Bio-Seite (Linktree, Later oder eigene Seite). Bis zu 12 Links eingerichtet und passend zu deiner neuen Social-Marke gestaltet. Inklusive Analytics-Tracking, wenn die Plattform es unterstützt."
+              "l": "1 individuell gestaltete Link-in-Bio-Seite (Linktree, Later oder eigene Seite). Bis zu 12 Links eingerichtet und passend zu Ihrer neuen Social-Marke gestaltet. Inklusive Analytics-Tracking, wenn die Plattform es unterstützt."
             },
             {
               "i": "YouTube-Setup (falls enthalten)",
-              "l": "Wenn YouTube eine deiner 5 Plattformen ist: Kanalgestaltung (Banner + Profilbild). Standard-Thumbnail-Vorlage in Canva (pro Video editierbar). Bestehende Playlists sortiert und für SEO betitelt. Kanalinfo mit Keywords neu getextet. Kanal-Tags und Standard-Upload-Einstellungen für bessere Auffindbarkeit konfiguriert."
+              "l": "Wenn YouTube eine Ihrer 5 Plattformen ist: Kanalgestaltung (Banner + Profilbild). Standard-Thumbnail-Vorlage in Canva (pro Video editierbar). Bestehende Playlists sortiert und für SEO betitelt. Kanalinfo mit Keywords neu getextet. Kanal-Tags und Standard-Upload-Einstellungen für bessere Auffindbarkeit konfiguriert."
             },
             {
               "i": "Korrekturen",
@@ -1463,7 +1463,7 @@
             "YouTube-Intro/Outro-Video: 600 $"
           ],
           "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 2 Korrekturrunden. Nach der Lieferung: 175 $/Std.",
-          "bridge": "Dein kompletter Social-Auftritt ist neu aufgebaut und startklar, mit 60 Tagen Content. Um den Schwung zu halten, empfehlen wir Social Domination (4.500 $/Monat) oder Social Growth (2.500 $/Monat).",
+          "bridge": "Ihr kompletter Social-Auftritt ist neu aufgebaut und startklar, mit 60 Tagen Content. Um den Schwung zu halten, empfehlen wir Social Domination (4.500 $/Monat) oder Social Growth (2.500 $/Monat).",
           "ideal": "Etablierte Unternehmen mit veraltetem oder uneinheitlichem Social-Auftritt"
         }
       ],
@@ -1494,7 +1494,7 @@
             },
             {
               "i": "CRM-Pipeline-Pflege",
-              "l": "Monatliche Prüfung deiner GHL-Pipeline: feststeckende Leads, veraltete Deals und Automatisierungsfehler. 3 Anpassungen an Automatisierungen pro Monat (z. B. E-Mail-Texte aktualisieren, Trigger-Timing ändern, defekte Sequenzen reparieren). Kontaktlisten-Hygiene: Dubletten markieren und Bounces entfernen (max. 500 Kontakte/Monat)."
+              "l": "Monatliche Prüfung Ihrer GHL-Pipeline: feststeckende Leads, veraltete Deals und Automatisierungsfehler. 3 Anpassungen an Automatisierungen pro Monat (z. B. E-Mail-Texte aktualisieren, Trigger-Timing ändern, defekte Sequenzen reparieren). Kontaktlisten-Hygiene: Dubletten markieren und Bounces entfernen (max. 500 Kontakte/Monat)."
             },
             {
               "i": "Support",
@@ -1508,7 +1508,7 @@
             "Automatisierungen (über 3): 250 $ pro Stück",
             "Notfall/gleicher Tag: +50 %"
           ],
-          "ex": "Keine Anzeigenbetreuung, keine Content-Erstellung, keine neuen Funktionen, keine Telefonagenten, kein Social Media. Dafür brauchst du eine höhere Stufe.",
+          "ex": "Keine Anzeigenbetreuung, keine Content-Erstellung, keine neuen Funktionen, keine Telefonagenten, kein Social Media. Dafür brauchen Sie eine höhere Stufe.",
           "ideal": "Ruhe und Sicherheit nach dem Launch"
         },
         {
@@ -1526,15 +1526,15 @@
             },
             {
               "i": "Google-Ads-Betreuung",
-              "l": "2 aktive Google-Suchkampagnen betreut. Monatliche Keyword-Optimierung, Gebotsanpassungen und Pflege der auszuschließenden Keywords. 3 A/B-Tests pro Monat (Anzeigentexte, Landingpage-Elemente oder Zielgruppen). Monatliche Auswertung mit CPC, CTR, Conversion-Rate und ROAS. Werbebudget bis 5.000 $/Monat in dieser Stufe betreut. Darüber: zusätzlich 500 $/Monat pro weitere 5.000 $. Werbebudget wird separat abgerechnet. Du zahlst direkt an Google."
+              "l": "2 aktive Google-Suchkampagnen betreut. Monatliche Keyword-Optimierung, Gebotsanpassungen und Pflege der auszuschließenden Keywords. 3 A/B-Tests pro Monat (Anzeigentexte, Landingpage-Elemente oder Zielgruppen). Monatliche Auswertung mit CPC, CTR, Conversion-Rate und ROAS. Werbebudget bis 5.000 $/Monat in dieser Stufe betreut. Darüber: zusätzlich 500 $/Monat pro weitere 5.000 $. Werbebudget wird separat abgerechnet. Sie zahlen direkt an Google."
             },
             {
               "i": "Meta-Ads-Betreuung",
-              "l": "2 aktive Meta-Kampagnen (Facebook/Instagram) betreut. 1 Creative-Refresh pro Monat: 3 neue Anzeigenmotive (statische Bilder oder Karussells). 2 neue Zielgruppentests pro Monat. Pflege der Retargeting-Zielgruppen und Aktualisierung der Lookalike-Audiences. Monatliche Auswertung. Werbebudget wird separat abgerechnet. Du zahlst direkt an Meta."
+              "l": "2 aktive Meta-Kampagnen (Facebook/Instagram) betreut. 1 Creative-Refresh pro Monat: 3 neue Anzeigenmotive (statische Bilder oder Karussells). 2 neue Zielgruppentests pro Monat. Pflege der Retargeting-Zielgruppen und Aktualisierung der Lookalike-Audiences. Monatliche Auswertung. Werbebudget wird separat abgerechnet. Sie zahlen direkt an Meta."
             },
             {
               "i": "KI-gestützte Content-Produktion",
-              "l": "4 Blogbeiträge pro Monat (je bis zu 800 Wörter, SEO-optimiert mit Keywords, Meta-Beschreibungen und internen Links). 12 Social-Media-Posts pro Monat (gestaltete Grafiken + getextete Captions mit Hashtags). 1 Korrekturrunde pro Inhalt (innerhalb von 3 Werktagen nach Lieferung anzufordern). Du gibst den monatlichen Content-Kalender bis zum 5. jedes Monats frei. Späte Freigabe = verzögerte Lieferung ohne Terminzusage."
+              "l": "4 Blogbeiträge pro Monat (je bis zu 800 Wörter, SEO-optimiert mit Keywords, Meta-Beschreibungen und internen Links). 12 Social-Media-Posts pro Monat (gestaltete Grafiken + getextete Captions mit Hashtags). 1 Korrekturrunde pro Inhalt (innerhalb von 3 Werktagen nach Lieferung anzufordern). Sie geben den monatlichen Content-Kalender bis zum 5. jedes Monats frei. Späte Freigabe = verzögerte Lieferung ohne Terminzusage."
             },
             {
               "i": "KI-System-Optimierung",
@@ -1542,7 +1542,7 @@
             },
             {
               "i": "Strategie-Updates",
-              "l": "Monatliches aufgezeichnetes Loom-Video mit deiner Leistung, Empfehlungen und nächsten Schritten (10 bis 15 Min.). Du antwortest per Text, E-Mail oder Sprachnachricht. Keine Live-Calls nötig. Fragen werden innerhalb von 1 Werktag per Text oder E-Mail beantwortet. 1 optionaler Live-Call pro Monat auf Anfrage (max. 30 Min.)."
+              "l": "Monatliches aufgezeichnetes Loom-Video mit Ihrer Leistung, Empfehlungen und nächsten Schritten (10 bis 15 Min.). Sie antworten per Text, E-Mail oder Sprachnachricht. Keine Live-Calls nötig. Fragen werden innerhalb von 1 Werktag per Text oder E-Mail beantwortet. 1 optionaler Live-Call pro Monat auf Anfrage (max. 30 Min.)."
             },
             {
               "i": "Design & Entwicklung (5 Std./Monat)",
@@ -1559,7 +1559,7 @@
             "Neuer KI-Agent: 2.500 $",
             "Notfall: +50 %"
           ],
-          "ex": "Kein Fractional CMO, keine unbegrenzten Ads, kein Brand-Refresh, keine Videoproduktion, keine eigene Social-Media-Betreuung. Dafür brauchst du eine höhere Stufe oder das Social-Zusatzpaket.",
+          "ex": "Kein Fractional CMO, keine unbegrenzten Ads, kein Brand-Refresh, keine Videoproduktion, keine eigene Social-Media-Betreuung. Dafür brauchen Sie eine höhere Stufe oder das Social-Zusatzpaket.",
           "ideal": "Unternehmen, die aktiv ihren Umsatz skalieren"
         },
         {
@@ -1576,7 +1576,7 @@
             },
             {
               "i": "Fester Stratege",
-              "l": "Eine feste Ansprechperson, die dein Unternehmen, deine Ziele und deine Marke kennt. Erreichbar per Text oder E-Mail Montag bis Freitag, 9 bis 17 Uhr (deine Zeitzone). Nicht rund um die Uhr, nicht am Wochenende, nicht an Feiertagen. Steuert alle Leistungen, koordiniert das Team und bringt proaktiv Empfehlungen per Loom, E-Mail oder Text. Antwortet innerhalb von 4 Geschäftsstunden an Werktagen."
+              "l": "Eine feste Ansprechperson, die Ihr Unternehmen, Ihre Ziele und Ihre Marke kennt. Erreichbar per Text oder E-Mail Montag bis Freitag, 9 bis 17 Uhr (Ihre Zeitzone). Nicht rund um die Uhr, nicht am Wochenende, nicht an Feiertagen. Steuert alle Leistungen, koordiniert das Team und bringt proaktiv Empfehlungen per Loom, E-Mail oder Text. Antwortet innerhalb von 4 Geschäftsstunden an Werktagen."
             },
             {
               "i": "Anzeigenbetreuung (erweitert)",
@@ -1588,11 +1588,11 @@
             },
             {
               "i": "Content-System (erweitert)",
-              "l": "8 Blogbeiträge pro Monat (je bis zu 1.000 Wörter, SEO-optimiert). 20 Social-Media-Posts pro Monat (gestaltete Grafiken + getextete Captions mit Hashtags und CTAs). 4 Kurzvideo-Clips pro Monat (Reels, Shorts oder TikToks), geschnitten aus deinem Material oder mit KI-Tools erstellt. Wir schneiden, wir drehen nicht. 1 Korrekturrunde pro Inhalt. Content-Kalender bis zum 1. jedes Monats zur Freigabe."
+              "l": "8 Blogbeiträge pro Monat (je bis zu 1.000 Wörter, SEO-optimiert). 20 Social-Media-Posts pro Monat (gestaltete Grafiken + getextete Captions mit Hashtags und CTAs). 4 Kurzvideo-Clips pro Monat (Reels, Shorts oder TikToks), geschnitten aus Ihrem Material oder mit KI-Tools erstellt. Wir schneiden, wir drehen nicht. 1 Korrekturrunde pro Inhalt. Content-Kalender bis zum 1. jedes Monats zur Freigabe."
             },
             {
               "i": "Monatliches Strategie-Meeting + wöchentliche Updates",
-              "l": "1 Live-Strategie-Meeting pro Monat (max. 60 Min.). Wöchentliche Updates per Loom-Video oder schriftlicher Zusammenfassung mit: Leistungsrückblick, anstehenden Prioritäten, Kampagnenanpassungen und strategischen Empfehlungen. Du antwortest per Text, E-Mail oder Sprachnachricht. Die tägliche Kommunikation läuft komplett über Text und E-Mail. Keine spontanen Calls."
+              "l": "1 Live-Strategie-Meeting pro Monat (max. 60 Min.). Wöchentliche Updates per Loom-Video oder schriftlicher Zusammenfassung mit: Leistungsrückblick, anstehenden Prioritäten, Kampagnenanpassungen und strategischen Empfehlungen. Sie antworten per Text, E-Mail oder Sprachnachricht. Die tägliche Kommunikation läuft komplett über Text und E-Mail. Keine spontanen Calls."
             },
             {
               "i": "Design & Entwicklung (15 Std./Monat)",
@@ -1632,15 +1632,15 @@
             },
             {
               "i": "Content-Erstellung (16 Posts/Monat)",
-              "l": "8 Posts pro Plattform (16 insgesamt pro Monat). Alle als statische Grafik-Posts mit getexteten Captions und passenden Hashtags. Keine Videoproduktion in dieser Stufe. Content-Typen: Tipps, Angebote, Kundenstimmen, Zitate und Engagement-Posts. Grafiken im Stil deiner Marke mit deinen Farben, Schriften und deinem Logo."
+              "l": "8 Posts pro Plattform (16 insgesamt pro Monat). Alle als statische Grafik-Posts mit getexteten Captions und passenden Hashtags. Keine Videoproduktion in dieser Stufe. Content-Typen: Tipps, Angebote, Kundenstimmen, Zitate und Engagement-Posts. Grafiken im Stil Ihrer Marke mit Ihren Farben, Schriften und Ihrem Logo."
             },
             {
               "i": "Planung & Veröffentlichung",
-              "l": "Wir erstellen einen monatlichen Content-Kalender, planen alle Posts und veröffentlichen zu den besten Zeiten für deine Zielgruppe. Du gibst den Content-Kalender bis zum 3. jedes Monats frei. Späte Freigabe = Posts gehen möglicherweise nicht wie geplant live."
+              "l": "Wir erstellen einen monatlichen Content-Kalender, planen alle Posts und veröffentlichen zu den besten Zeiten für Ihre Zielgruppe. Sie geben den Content-Kalender bis zum 3. jedes Monats frei. Späte Freigabe = Posts gehen möglicherweise nicht wie geplant live."
             },
             {
               "i": "Basis-Engagement",
-              "l": "Bis zu 30 Minuten pro Tag (nur an Werktagen, Montag bis Freitag). Enthalten: Antworten auf Kommentare und Direktnachrichten, Liken relevanter Kommentare und Weitergabe von Problemen oder negativem Feedback zur Prüfung an dich. NICHT enthalten: proaktive Kontaktaufnahme oder Community-Aufbau."
+              "l": "Bis zu 30 Minuten pro Tag (nur an Werktagen, Montag bis Freitag). Enthalten: Antworten auf Kommentare und Direktnachrichten, Liken relevanter Kommentare und Weitergabe von Problemen oder negativem Feedback zur Prüfung an Sie. NICHT enthalten: proaktive Kontaktaufnahme oder Community-Aufbau."
             },
             {
               "i": "Monatsbericht",
@@ -1662,7 +1662,7 @@
             "Zusätzliche Korrekturrunde: 175 $",
             "Story-Erstellung: 30 $/Story"
           ],
-          "ex": "Keine Videoproduktion, keine bezahlten Social Ads, keine Influencer-Ansprache, kein Community-Aufbau über das Basis-Engagement hinaus. Dafür brauchst du Social Growth oder Zusatzpakete.",
+          "ex": "Keine Videoproduktion, keine bezahlten Social Ads, keine Influencer-Ansprache, kein Community-Aufbau über das Basis-Engagement hinaus. Dafür brauchen Sie Social Growth oder Zusatzpakete.",
           "ideal": "Unternehmen, die auf 1 bis 2 Kanälen konstant präsent sein wollen"
         },
         {
@@ -1680,23 +1680,23 @@
             },
             {
               "i": "Content-Erstellung (48 Posts + 4 Videos/Monat)",
-              "l": "12 Posts pro Plattform (48 insgesamt pro Monat). Mix aus statischen Grafiken, Karussell-Posts (bis zu 5 Folien) und Text-Posts. 4 Kurzvideos pro Monat (Reels, Shorts oder TikToks), verteilt auf deine Plattformen. Wir schneiden Videos aus deinem Material oder erstellen sie mit KI-Video-Tools. Wir drehen nicht. Alle Grafiken im Stil deiner Marke, mit getexteten Captions, Hashtags und CTAs."
+              "l": "12 Posts pro Plattform (48 insgesamt pro Monat). Mix aus statischen Grafiken, Karussell-Posts (bis zu 5 Folien) und Text-Posts. 4 Kurzvideos pro Monat (Reels, Shorts oder TikToks), verteilt auf Ihre Plattformen. Wir schneiden Videos aus Ihrem Material oder erstellen sie mit KI-Video-Tools. Wir drehen nicht. Alle Grafiken im Stil Ihrer Marke, mit getexteten Captions, Hashtags und CTAs."
             },
             {
               "i": "Planung & Veröffentlichung",
-              "l": "Monatlicher Content-Kalender mit Post-Themen, Formaten, Captions und Posting-Zeiten. Du gibst den Kalender bis zum 3. jedes Monats frei. Wir übernehmen Planung und Veröffentlichung zu den besten Zeiten je Plattform. Späte Freigabe = verzögerte Lieferung ohne Garantie für den ursprünglichen Posting-Plan."
+              "l": "Monatlicher Content-Kalender mit Post-Themen, Formaten, Captions und Posting-Zeiten. Sie geben den Kalender bis zum 3. jedes Monats frei. Wir übernehmen Planung und Veröffentlichung zu den besten Zeiten je Plattform. Späte Freigabe = verzögerte Lieferung ohne Garantie für den ursprünglichen Posting-Plan."
             },
             {
               "i": "Aktives Engagement",
-              "l": "Bis zu 1 Stunde pro Tag (Werktage, Montag bis Freitag). Enthalten: Antworten auf alle Kommentare und DMs, Liken und Beantworten von Erwähnungen sowie proaktives Engagement bei relevanten Accounts deiner Branche (30 Min./Tag für Liken, Kommentieren, Folgen). Brand-Monitoring für Erwähnungen und Tags. Negative Kommentare oder PR-Themen werden dir sofort gemeldet."
+              "l": "Bis zu 1 Stunde pro Tag (Werktage, Montag bis Freitag). Enthalten: Antworten auf alle Kommentare und DMs, Liken und Beantworten von Erwähnungen sowie proaktives Engagement bei relevanten Accounts Ihrer Branche (30 Min./Tag für Liken, Kommentieren, Folgen). Brand-Monitoring für Erwähnungen und Tags. Negative Kommentare oder PR-Themen werden Ihnen sofort gemeldet."
             },
             {
               "i": "Reporting & Strategie",
-              "l": "Monatsbericht (bis zum 5.) mit: Follower-Wachstum, Reichweite, Engagement-Rate, Top-Posts und Zielgruppen-Demografie. 1 monatliches Loom-Video mit Leistungsrückblick, Content-Empfehlungen und Trend-Chancen. Du antwortest per Text oder E-Mail. 1 optionaler Live-Call pro Monat auf Anfrage (max. 30 Min.)."
+              "l": "Monatsbericht (bis zum 5.) mit: Follower-Wachstum, Reichweite, Engagement-Rate, Top-Posts und Zielgruppen-Demografie. 1 monatliches Loom-Video mit Leistungsrückblick, Content-Empfehlungen und Trend-Chancen. Sie antworten per Text oder E-Mail. 1 optionaler Live-Call pro Monat auf Anfrage (max. 30 Min.)."
             },
             {
               "i": "Videoproduktion",
-              "l": "4 Kurzvideos pro Monat. Jedes Video: bis zu 60 Sekunden, geschnitten mit Untertiteln, Übergängen, Musik (lizenzfrei) und Markengrafiken. Wir schneiden aus deinem Rohmaterial (Handy-Clips, Bildschirmaufnahmen, Interviews) oder erstellen mit KI-Tools. Wir drehen nicht und bieten keine Produktion vor Ort."
+              "l": "4 Kurzvideos pro Monat. Jedes Video: bis zu 60 Sekunden, geschnitten mit Untertiteln, Übergängen, Musik (lizenzfrei) und Markengrafiken. Wir schneiden aus Ihrem Rohmaterial (Handy-Clips, Bildschirmaufnahmen, Interviews) oder erstellen mit KI-Tools. Wir drehen nicht und bieten keine Produktion vor Ort."
             },
             {
               "i": "Content-Korrekturen",
@@ -1729,27 +1729,27 @@
           "scope": [
             {
               "i": "Plattformen (6 inklusive)",
-              "l": "Komplette Abdeckung auf 6 Plattformen: Instagram, LinkedIn, Facebook, TikTok, YouTube und X. Content-Erstellung, Planung, Veröffentlichung, Community-Management und Strategie übernehmen wir komplett für dich."
+              "l": "Komplette Abdeckung auf 6 Plattformen: Instagram, LinkedIn, Facebook, TikTok, YouTube und X. Content-Erstellung, Planung, Veröffentlichung, Community-Management und Strategie übernehmen wir komplett für Sie."
             },
             {
               "i": "Content-Erstellung (120 Posts + 8 Videos/Monat)",
-              "l": "20 Posts pro Plattform (120 insgesamt pro Monat). Mix aus statischen Grafiken, Karussells, Stories, Text-Posts und Umfragen. 8 Kurzvideos pro Monat (Reels, Shorts, TikToks), verteilt auf die Plattformen. Alle Grafiken im Stil deiner Marke mit Captions, Hashtags und CTAs. Story-Content für Instagram, Facebook und TikTok, wo verfügbar."
+              "l": "20 Posts pro Plattform (120 insgesamt pro Monat). Mix aus statischen Grafiken, Karussells, Stories, Text-Posts und Umfragen. 8 Kurzvideos pro Monat (Reels, Shorts, TikToks), verteilt auf die Plattformen. Alle Grafiken im Stil Ihrer Marke mit Captions, Hashtags und CTAs. Story-Content für Instagram, Facebook und TikTok, wo verfügbar."
             },
             {
               "i": "YouTube-Betreuung",
-              "l": "2 lange YouTube-Videos pro Monat (nur Schnitt, aus deinem Material oder aus bestehendem Content wiederverwertet). Individuelles Thumbnail für jedes Video. SEO-optimierte Titel, Beschreibungen und Tags getextet. Playlist-Organisation und Einrichtung von Endscreens/Infokarten. Wir schneiden und optimieren. Wir schreiben keine Skripte, drehen nicht und produzieren kein Originalmaterial."
+              "l": "2 lange YouTube-Videos pro Monat (nur Schnitt, aus Ihrem Material oder aus bestehendem Content wiederverwertet). Individuelles Thumbnail für jedes Video. SEO-optimierte Titel, Beschreibungen und Tags getextet. Playlist-Organisation und Einrichtung von Endscreens/Infokarten. Wir schneiden und optimieren. Wir schreiben keine Skripte, drehen nicht und produzieren kein Originalmaterial."
             },
             {
               "i": "Komplettes Community-Management",
-              "l": "2 Stunden pro Tag, Montag bis Freitag. Enthalten: Antworten auf alle Kommentare, DMs und Erwähnungen auf allen Plattformen. Proaktive Ansprache: Interaktion mit relevanten Accounts, Branchen-Hashtags und potenziellen Kunden. Brand-Monitoring: Erwähnungen, Tags und relevante Gespräche im Blick. Stimmungs-Alarm: negatives Feedback oder PR-Themen werden sofort an dich eskaliert. Wöchentliche Engagement-Zusammenfassung im Reporting enthalten."
+              "l": "2 Stunden pro Tag, Montag bis Freitag. Enthalten: Antworten auf alle Kommentare, DMs und Erwähnungen auf allen Plattformen. Proaktive Ansprache: Interaktion mit relevanten Accounts, Branchen-Hashtags und potenziellen Kunden. Brand-Monitoring: Erwähnungen, Tags und relevante Gespräche im Blick. Stimmungs-Alarm: negatives Feedback oder PR-Themen werden sofort an Sie eskaliert. Wöchentliche Engagement-Zusammenfassung im Reporting enthalten."
             },
             {
               "i": "Reporting & Strategie",
-              "l": "Wöchentlicher Analytics-Überblick jeden Montag per E-Mail (Kernkennzahlen aller Plattformen). Monatlicher Tiefenbericht (bis zum 5.): Follower-Wachstum, Engagement-Raten, Reichweite, Impressionen, Top-Content, Zielgruppen-Demografie und Wettbewerber-Benchmarking. Monatliches Loom-Video mit: Leistungsrückblick, anstehenden Kampagnen, Content-Richtung und Wachstumschancen. Du antwortest per Text oder E-Mail. 1 optionaler Live-Call pro Monat auf Anfrage (max. 30 Min.)."
+              "l": "Wöchentlicher Analytics-Überblick jeden Montag per E-Mail (Kernkennzahlen aller Plattformen). Monatlicher Tiefenbericht (bis zum 5.): Follower-Wachstum, Engagement-Raten, Reichweite, Impressionen, Top-Content, Zielgruppen-Demografie und Wettbewerber-Benchmarking. Monatliches Loom-Video mit: Leistungsrückblick, anstehenden Kampagnen, Content-Richtung und Wachstumschancen. Sie antworten per Text oder E-Mail. 1 optionaler Live-Call pro Monat auf Anfrage (max. 30 Min.)."
             },
             {
               "i": "Videoproduktion (8 kurz + 2 lang/Monat)",
-              "l": "8 Kurzvideos (je bis zu 60 Sekunden) mit Untertiteln, Übergängen, lizenzfreier Musik und Markengrafiken. 2 lange YouTube-Videos (je bis zu 10 Minuten, aus Rohmaterial geschnitten). Wir schneiden. Wir drehen nicht. Du lieferst Rohmaterial (Handy-Clips, Interviews, Bildschirmaufnahmen, Präsentationen) oder wir erstellen mit KI-Video-Tools. Professioneller Schnitt mit gebrandeten Intros/Outros, falls vorhanden."
+              "l": "8 Kurzvideos (je bis zu 60 Sekunden) mit Untertiteln, Übergängen, lizenzfreier Musik und Markengrafiken. 2 lange YouTube-Videos (je bis zu 10 Minuten, aus Rohmaterial geschnitten). Wir schneiden. Wir drehen nicht. Sie liefern Rohmaterial (Handy-Clips, Interviews, Bildschirmaufnahmen, Präsentationen) oder wir erstellen mit KI-Video-Tools. Professioneller Schnitt mit gebrandeten Intros/Outros, falls vorhanden."
             },
             {
               "i": "Content-Korrekturen",
@@ -1761,7 +1761,7 @@
             },
             {
               "i": "Influencer-Koordination",
-              "l": "Ansprache von 5 Micro-Influencern pro Monat. Wir recherchieren, identifizieren und kontaktieren passende Partner in deiner Nische. Wir verhandeln die Konditionen (Produktgeschenk, bezahlter Post oder Content-Tausch). Du gibst jeden Deal frei, bevor etwas vereinbart wird. Wir stellen eine Briefing-Vorlage und führen die Kommunikation bis zur Vereinbarung. NICHT enthalten: Vergütung der Influencer. Diese Kosten trägst du separat zur monatlichen Betreuung."
+              "l": "Ansprache von 5 Micro-Influencern pro Monat. Wir recherchieren, identifizieren und kontaktieren passende Partner in Ihrer Nische. Wir verhandeln die Konditionen (Produktgeschenk, bezahlter Post oder Content-Tausch). Sie geben jeden Deal frei, bevor etwas vereinbart wird. Wir stellen eine Briefing-Vorlage und führen die Kommunikation bis zur Vereinbarung. NICHT enthalten: Vergütung der Influencer. Diese Kosten tragen Sie separat zur monatlichen Betreuung."
             }
           ],
           "ov": [
@@ -1788,7 +1788,7 @@
           "scope": [
             {
               "i": "Kickoff-Fragebogen + aufgezeichneter Workshop",
-              "l": "Ausführlicher Fragebogen zu: Geschäftszielen, Nutzertypen und Rollen, Kernfunktionen, Must-haves vs. Nice-to-haves, Integrationen (Zahlung, CRM, E-Mail, APIs) und Zeitplan. Wir werten deine Antworten aus und liefern ein aufgezeichnetes Loom-Video mit unserem Verständnis und Rückfragen. Du antwortest per Text, E-Mail oder Sprachnachricht. 1 optionaler Live-Call bei Bedarf (max. 60 Min.)."
+              "l": "Ausführlicher Fragebogen zu: Geschäftszielen, Nutzertypen und Rollen, Kernfunktionen, Must-haves vs. Nice-to-haves, Integrationen (Zahlung, CRM, E-Mail, APIs) und Zeitplan. Wir werten Ihre Antworten aus und liefern ein aufgezeichnetes Loom-Video mit unserem Verständnis und Rückfragen. Sie antworten per Text, E-Mail oder Sprachnachricht. 1 optionaler Live-Call bei Bedarf (max. 60 Min.)."
             },
             {
               "i": "User-Flow-Mapping",
@@ -1808,7 +1808,7 @@
             },
             {
               "i": "Festpreisangebot für den Build",
-              "l": "Auf Basis der Discovery bekommst du ein verbindliches Festpreisangebot für den kompletten Build. Keine Überraschungen durch Stundenabrechnung. Ändert sich der Umfang nach Vertragsabschluss, läuft das über Änderungsaufträge zu vorab vereinbarten Sätzen."
+              "l": "Auf Basis der Discovery bekommen Sie ein verbindliches Festpreisangebot für den kompletten Build. Keine Überraschungen durch Stundenabrechnung. Ändert sich der Umfang nach Vertragsabschluss, läuft das über Änderungsaufträge zu vorab vereinbarten Sätzen."
             }
           ],
           "ov": [
@@ -1817,7 +1817,7 @@
             "Wettbewerbsanalyse als Zusatz: 750 $ (Audit von 3 Wettbewerber-Produkten)",
             "Verlängerung der Discovery über 2 Wochen hinaus: 1.200 $/Woche"
           ],
-          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Lieferung (zahlbar innerhalb von 7 Tagen). Die Discovery-Gebühr wird auf den kompletten Build angerechnet, wenn du innerhalb von 30 Tagen nach Lieferung weitermachst. Wenn nicht, gehören alle Ergebnisse (Wireframes, SOW, Architekturdokument) dir und du kannst sie mit jedem Entwickler nutzen.",
+          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Lieferung (zahlbar innerhalb von 7 Tagen). Die Discovery-Gebühr wird auf den kompletten Build angerechnet, wenn Sie innerhalb von 30 Tagen nach Lieferung weitermachen. Wenn nicht, gehören alle Ergebnisse (Wireframes, SOW, Architekturdokument) Ihnen und Sie können sie mit jedem Entwickler nutzen.",
           "ideal": "Alle, die über einen individuellen Build nachdenken. Das ist Schritt eins."
         },
         {
@@ -1830,7 +1830,7 @@
           "scope": [
             {
               "i": "Komplettes UI/UX-Design",
-              "l": "Vollständiges Interface-Design in Figma für alle Screens (typischerweise 15 bis 30 Screens, je nach Komplexität). Enthalten: responsive Layouts für Desktop und Mobile, Komponentenbibliothek, Designsystem mit deinen Markenfarben/Schriften/Abständen und interaktiver Prototyp für die Abstimmung mit Stakeholdern. 2 Design-Korrekturrunden vor Entwicklungsbeginn."
+              "l": "Vollständiges Interface-Design in Figma für alle Screens (typischerweise 15 bis 30 Screens, je nach Komplexität). Enthalten: responsive Layouts für Desktop und Mobile, Komponentenbibliothek, Designsystem mit Ihren Markenfarben/Schriften/Abständen und interaktiver Prototyp für die Abstimmung mit Stakeholdern. 2 Design-Korrekturrunden vor Entwicklungsbeginn."
             },
             {
               "i": "Frontend-Entwicklung",
@@ -1873,8 +1873,8 @@
             "Erweitertes Reporting-/Analytics-Dashboard: 5.000 $",
             "Native Mobile-App (iOS oder Android): siehe Enterprise Build"
           ],
-          "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Inklusive 30 Tage Bugfixes nach dem Launch (nur für Funktionen aus dem ursprünglichen SOW). Danach geht der Support in eine monatliche Wartungsbetreuung über. Der gesamte Code gehört dir. Vollständige Rechte an Code, Designdateien und Dokumentation gehen bei Projektabschluss auf dich über.",
-          "bridge": "Deine Plattform ist live und stabil. Damit sie sicher läuft und weiterentwickelt wird, empfehlen wir unsere Betreuung Dev Support (1.500 $/Monat) oder eine Hourly Bank (2.500 $/Monat für 10 Std.).",
+          "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Inklusive 30 Tage Bugfixes nach dem Launch (nur für Funktionen aus dem ursprünglichen SOW). Danach geht der Support in eine monatliche Wartungsbetreuung über. Der gesamte Code gehört Ihnen. Vollständige Rechte an Code, Designdateien und Dokumentation gehen bei Projektabschluss auf Sie über.",
+          "bridge": "Ihre Plattform ist live und stabil. Damit sie sicher läuft und weiterentwickelt wird, empfehlen wir unsere Betreuung Dev Support (1.500 $/Monat) oder eine Hourly Bank (2.500 $/Monat für 10 Std.).",
           "ideal": "Portale, Dashboards, interne Tools und SaaS-MVPs"
         },
         {
@@ -1894,11 +1894,11 @@
             },
             {
               "i": "KI-gestützte Funktionen",
-              "l": "Individuelle KI-Agenten oder Automatisierungen direkt in der Plattform. Beispiele: KI-Suche, Verarbeitung natürlicher Sprache für Support-Tickets, Predictive Analytics, automatische Kategorisierung, smarte Empfehlungen oder ein KI-Chatbot, trainiert auf deinen Plattformdaten. Enthalten: Modellauswahl, Prompt Engineering, API-Integration und Tests. Nutzt OpenAI, Anthropic oder Open-Source-Modelle, je nach Anforderung."
+              "l": "Individuelle KI-Agenten oder Automatisierungen direkt in der Plattform. Beispiele: KI-Suche, Verarbeitung natürlicher Sprache für Support-Tickets, Predictive Analytics, automatische Kategorisierung, smarte Empfehlungen oder ein KI-Chatbot, trainiert auf Ihren Plattformdaten. Enthalten: Modellauswahl, Prompt Engineering, API-Integration und Tests. Nutzt OpenAI, Anthropic oder Open-Source-Modelle, je nach Anforderung."
             },
             {
               "i": "Mobile-App (falls enthalten)",
-              "l": "Plattformübergreifende Mobile-App in React Native. Gemeinsame Codebasis für iOS und Android. Push-Benachrichtigungen, Offline-Support und native Gerätefunktionen (Kamera, GPS, Biometrie). Einreichung im App Store und bei Google Play übernehmen wir (du stellst die Entwicklerkonten). Typischerweise 15 bis 25 Screens, die die Kernfunktionen der Web-App abbilden."
+              "l": "Plattformübergreifende Mobile-App in React Native. Gemeinsame Codebasis für iOS und Android. Push-Benachrichtigungen, Offline-Support und native Gerätefunktionen (Kamera, GPS, Biometrie). Einreichung im App Store und bei Google Play übernehmen wir (Sie stellen die Entwicklerkonten). Typischerweise 15 bis 25 Screens, die die Kernfunktionen der Web-App abbilden."
             },
             {
               "i": "Integrationen (6 inklusive)",
@@ -1918,7 +1918,7 @@
             },
             {
               "i": "Korrekturen & Änderungsmanagement",
-              "l": "2 Design-Korrekturrunden pro Phase. Feedback läuft über ein gemeinsames Task-Board (Linear oder GitHub Issues). Änderungsaufträge für Umfangserweiterungen: 200 $/Std. mit schriftlicher Freigabe vor Arbeitsbeginn. Wöchentliche Status-Updates per Loom-Video oder schriftlicher Zusammenfassung. Alle zwei Wochen aufgezeichnete Demo-Videos der fertigen Arbeit. Du prüfst und antwortest, wann es dir passt. 1 optionaler Live-Call pro Monat bei Bedarf."
+              "l": "2 Design-Korrekturrunden pro Phase. Feedback läuft über ein gemeinsames Task-Board (Linear oder GitHub Issues). Änderungsaufträge für Umfangserweiterungen: 200 $/Std. mit schriftlicher Freigabe vor Arbeitsbeginn. Wöchentliche Status-Updates per Loom-Video oder schriftlicher Zusammenfassung. Alle zwei Wochen aufgezeichnete Demo-Videos der fertigen Arbeit. Sie prüfen und antworten, wann es Ihnen passt. 1 optionaler Live-Call pro Monat bei Bedarf."
             }
           ],
           "ov": [
@@ -1929,8 +1929,8 @@
             "Koordination eines externen Pentests: 5.000 $",
             "White-Label-/Mandanten-Zusatz (falls nicht enthalten): 15.000 $"
           ],
-          "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Inklusive 45 Tage Bugfixes nach dem Launch pro Phase. Code, Designdateien und Dokumentation gehen bei Abschluss komplett auf dich über. Volle Rechte am Code. Nach 45 Tagen geht der Support in eine monatliche Wartungsbetreuung über.",
-          "bridge": "Komplexe Systeme brauchen laufende Entwicklung, Monitoring und Optimierung. Wir empfehlen unsere Betreuung Active Development (7.500 $/Monat), damit deine Plattform mit deinem Unternehmen mitwächst.",
+          "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Inklusive 45 Tage Bugfixes nach dem Launch pro Phase. Code, Designdateien und Dokumentation gehen bei Abschluss komplett auf Sie über. Volle Rechte am Code. Nach 45 Tagen geht der Support in eine monatliche Wartungsbetreuung über.",
+          "bridge": "Komplexe Systeme brauchen laufende Entwicklung, Monitoring und Optimierung. Wir empfehlen unsere Betreuung Active Development (7.500 $/Monat), damit Ihre Plattform mit Ihrem Unternehmen mitwächst.",
           "ideal": "SaaS-Plattformen, mandantenfähige Systeme, KI-integrierte Produkte und Enterprise-Tools"
         }
       ],
@@ -1944,23 +1944,23 @@
           "scope": [
             {
               "i": "Individueller KI-Agent (1)",
-              "l": "Ein zweckgebauter KI-Agent, für dein Unternehmen entworfen, trainiert und live geschaltet. Zur Auswahl: Telefonagent, E-Mail-Agent, Web-Scraping-Agent, PDF-Generierungs-Agent, Kundensupport-Chatbot, Lead-Qualifizierungs-Agent, Datenverarbeitungs-Agent, Terminbuchungs-Agent oder jeder individuelle Anwendungsfall. Der Agent wird auf deine Workflows, deine Markenstimme und deine Datenquellen zugeschnitten."
+              "l": "Ein zweckgebauter KI-Agent, für Ihr Unternehmen entworfen, trainiert und live geschaltet. Zur Auswahl: Telefonagent, E-Mail-Agent, Web-Scraping-Agent, PDF-Generierungs-Agent, Kundensupport-Chatbot, Lead-Qualifizierungs-Agent, Datenverarbeitungs-Agent, Terminbuchungs-Agent oder jeder individuelle Anwendungsfall. Der Agent wird auf Ihre Workflows, Ihre Markenstimme und Ihre Datenquellen zugeschnitten."
             },
             {
               "i": "Training & Konfiguration",
-              "l": "Wir konfigurieren Verhalten, Entscheidungslogik und Antwortmuster des Agenten nach deinen Anforderungen. Enthalten: bis zu 50 Trainingsdatenpunkte (Q&A-Paare, Skripte oder Beispiel-Workflows). Individuelles Fallback-Verhalten und Fehlerantworten. Integration mit 1 externen System (CRM, E-Mail, Kalender, Datenbank oder API)."
+              "l": "Wir konfigurieren Verhalten, Entscheidungslogik und Antwortmuster des Agenten nach Ihren Anforderungen. Enthalten: bis zu 50 Trainingsdatenpunkte (Q&A-Paare, Skripte oder Beispiel-Workflows). Individuelles Fallback-Verhalten und Fehlerantworten. Integration mit 1 externen System (CRM, E-Mail, Kalender, Datenbank oder API)."
             },
             {
               "i": "Tests & Deployment",
-              "l": "Vollständige End-to-End-Tests aller erwarteten Anwendungsfälle. Behandlung von Grenzfällen und Lasttests. Deployment auf deiner Infrastruktur oder in unserem Managed Hosting. Inklusive Staging-Umgebung zur Prüfung vor dem Go-live."
+              "l": "Vollständige End-to-End-Tests aller erwarteten Anwendungsfälle. Behandlung von Grenzfällen und Lasttests. Deployment auf Ihrer Infrastruktur oder in unserem Managed Hosting. Inklusive Staging-Umgebung zur Prüfung vor dem Go-live."
             },
             {
               "i": "Sicherheit der API-Schlüssel",
-              "l": "Alle API-Schlüssel und Zugangsdaten werden sicher in verschlüsselten Umgebungsvariablen gespeichert. Nie hartkodiert oder im Quellcode sichtbar. Schlüssel werden zur Laufzeit über den Secrets-Manager deines Hosting-Anbieters (Vercel, AWS usw.) eingebunden. Zugriff nur aus der Ausführungsumgebung des Agenten. Wir speichern deine API-Schlüssel nach dem Deployment nicht. Du behältst jederzeit die volle Kontrolle über alle Zugangsdaten."
+              "l": "Alle API-Schlüssel und Zugangsdaten werden sicher in verschlüsselten Umgebungsvariablen gespeichert. Nie hartkodiert oder im Quellcode sichtbar. Schlüssel werden zur Laufzeit über den Secrets-Manager Ihres Hosting-Anbieters (Vercel, AWS usw.) eingebunden. Zugriff nur aus der Ausführungsumgebung des Agenten. Wir speichern Ihre API-Schlüssel nach dem Deployment nicht. Sie behalten jederzeit die volle Kontrolle über alle Zugangsdaten."
             },
             {
               "i": "Dokumentation & Übergabe",
-              "l": "Dokumentation des Agentenverhaltens: was er tut, wie er funktioniert und wie du ihn aktualisierst. Admin-Anleitung zum Anpassen von Antworten, Aktualisieren der Trainingsdaten oder Pausieren des Agenten. Architekturdiagramm, das zeigt, wie der Agent mit deinen Systemen verbunden ist."
+              "l": "Dokumentation des Agentenverhaltens: was er tut, wie er funktioniert und wie Sie ihn aktualisieren. Admin-Anleitung zum Anpassen von Antworten, Aktualisieren der Trainingsdaten oder Pausieren des Agenten. Architekturdiagramm, das zeigt, wie der Agent mit Ihren Systemen verbunden ist."
             }
           ],
           "ov": [
@@ -1970,8 +1970,8 @@
             "Express-Lieferung (unter 1 Woche): +40 %",
             "Nachtraining des Agenten: 750 $"
           ],
-          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 2 Korrekturrunden. Der Agent geht in dein Eigentum über.",
-          "bridge": "Dein Agent ist live. Damit er überwacht, optimiert und nachtrainiert wird, buch unsere Betreuung Agent Maintenance (1.500 $/Monat) oder Agent Growth (3.500 $/Monat) dazu.",
+          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 2 Korrekturrunden. Der Agent geht in Ihr Eigentum über.",
+          "bridge": "Ihr Agent ist live. Damit er überwacht, optimiert und nachtrainiert wird, buchen Sie unsere Betreuung Agent Maintenance (1.500 $/Monat) oder Agent Growth (3.500 $/Monat) dazu.",
           "ideal": "Unternehmen, die einen konkreten Workflow automatisieren wollen"
         },
         {
@@ -1988,19 +1988,19 @@
             },
             {
               "i": "Workflow-Orchestrierung",
-              "l": "Individueller Entscheidungsbaum, der die Übergaben zwischen den Agenten abbildet. Bedingte Logik: Agenten handeln je nach Daten, Tageszeit, Lead-Bewertung oder eigenen Regeln unterschiedlich. Fehlerbehandlung: Fällt ein Agent aus, benachrichtigt dich das System und stellt die Aufgabe zur Wiederholung in die Warteschlange. Jede Kommunikation zwischen Agenten wird protokolliert und ist nachvollziehbar."
+              "l": "Individueller Entscheidungsbaum, der die Übergaben zwischen den Agenten abbildet. Bedingte Logik: Agenten handeln je nach Daten, Tageszeit, Lead-Bewertung oder eigenen Regeln unterschiedlich. Fehlerbehandlung: Fällt ein Agent aus, benachrichtigt Sie das System und stellt die Aufgabe zur Wiederholung in die Warteschlange. Jede Kommunikation zwischen Agenten wird protokolliert und ist nachvollziehbar."
             },
             {
               "i": "Integrationen (3 inklusive)",
-              "l": "3 Integrationen externer Systeme über dein Agenten-Team hinweg. Typisch: GoHighLevel, HubSpot, Salesforce, Google Workspace, Slack, Twilio, Stripe, Shopify, Zapier, Make oder jeder Dienst mit REST-API. Jede Integration umfasst: Daten-Mapping, Authentifizierung, Fehlerbehandlung und Wiederholungslogik."
+              "l": "3 Integrationen externer Systeme über Ihr Agenten-Team hinweg. Typisch: GoHighLevel, HubSpot, Salesforce, Google Workspace, Slack, Twilio, Stripe, Shopify, Zapier, Make oder jeder Dienst mit REST-API. Jede Integration umfasst: Daten-Mapping, Authentifizierung, Fehlerbehandlung und Wiederholungslogik."
             },
             {
               "i": "Sicherheit der API-Schlüssel",
-              "l": "Alle API-Schlüssel, Tokens und Zugangsdaten liegen in verschlüsselten Umgebungsvariablen und im Secrets-Manager deines Hosting-Anbieters. Nie hartkodiert, nie im Quellcode, nie in Logs. Die Zugangsdaten jedes Agenten sind isoliert, sodass kein Agent auf die Schlüssel eines anderen zugreifen kann. Wir speichern deine API-Schlüssel nach dem Deployment nicht. Du behältst jederzeit die volle Kontrolle über alle Zugangsdaten."
+              "l": "Alle API-Schlüssel, Tokens und Zugangsdaten liegen in verschlüsselten Umgebungsvariablen und im Secrets-Manager Ihres Hosting-Anbieters. Nie hartkodiert, nie im Quellcode, nie in Logs. Die Zugangsdaten jedes Agenten sind isoliert, sodass kein Agent auf die Schlüssel eines anderen zugreifen kann. Wir speichern Ihre API-Schlüssel nach dem Deployment nicht. Sie behalten jederzeit die volle Kontrolle über alle Zugangsdaten."
             },
             {
               "i": "Training & Tests",
-              "l": "Jeder Agent wird auf bis zu 75 Datenpunkte trainiert. Vollständige End-to-End-Tests des gesamten Agenten-Workflows (nicht nur der einzelnen Agenten). Lasttests für Szenarien mit hohem Volumen. Abnahmetests mit deinem Team vor dem Go-live."
+              "l": "Jeder Agent wird auf bis zu 75 Datenpunkte trainiert. Vollständige End-to-End-Tests des gesamten Agenten-Workflows (nicht nur der einzelnen Agenten). Lasttests für Szenarien mit hohem Volumen. Abnahmetests mit Ihrem Team vor dem Go-live."
             }
           ],
           "ov": [
@@ -2010,8 +2010,8 @@
             "Zusätzliche Korrekturrunde: 400 $",
             "Express-Lieferung: +40 %"
           ],
-          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 2 Korrekturrunden. Alle Agenten und der Code gehen in dein Eigentum über.",
-          "bridge": "Dein Agenten-Team ist live und koordiniert. Für laufende Optimierung, Nachtraining und neue Agenten buch unsere Betreuung Agent Growth (3.500 $/Monat) oder Agent Command Center (7.500 $/Monat) dazu.",
+          "ho": "Zahlung: 50 % Anzahlung zum Start, 50 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Abgeschlossen mit Freigabe ODER nach 2 Korrekturrunden. Alle Agenten und der Code gehen in Ihr Eigentum über.",
+          "bridge": "Ihr Agenten-Team ist live und koordiniert. Für laufende Optimierung, Nachtraining und neue Agenten buchen Sie unsere Betreuung Agent Growth (3.500 $/Monat) oder Agent Command Center (7.500 $/Monat) dazu.",
           "ideal": "Unternehmen, die mehrstufige Workflows komplett automatisieren wollen"
         },
         {
@@ -2023,7 +2023,7 @@
           "scope": [
             {
               "i": "Individuelle KI-Agenten (5+)",
-              "l": "Fünf oder mehr KI-Agenten als komplette operative Ebene für dein Unternehmen. Deckt mehrere Bereiche ab: Vertrieb, Support, Marketing, Betrieb und Daten. Jeder Agent zweckgebaut für deine Workflows. Keine Templates, keine Standard-Setups. Agententypen in beliebiger Kombination: Telefon, E-Mail, Chat, Scraping, PDF-Generierung, Datenverarbeitung, Terminplanung, Content-Erstellung, Lead-Scoring und individuelle Anwendungsfälle."
+              "l": "Fünf oder mehr KI-Agenten als komplette operative Ebene für Ihr Unternehmen. Deckt mehrere Bereiche ab: Vertrieb, Support, Marketing, Betrieb und Daten. Jeder Agent zweckgebaut für Ihre Workflows. Keine Templates, keine Standard-Setups. Agententypen in beliebiger Kombination: Telefon, E-Mail, Chat, Scraping, PDF-Generierung, Datenverarbeitung, Terminplanung, Content-Erstellung, Lead-Scoring und individuelle Anwendungsfälle."
             },
             {
               "i": "KI-Orchestrierungsebene",
@@ -2031,15 +2031,15 @@
             },
             {
               "i": "Integrationen (6 inklusive)",
-              "l": "6 externe Integrationen, die dein Agenten-Ökosystem mit deinen Business-Tools verbinden. Inklusive komplexer Integrationen: mehrstufige Workflows über CRM + E-Mail + Kalender + Zahlungssysteme. Webhook-Listener für Echtzeit-Trigger. Datensynchronisation über Plattformen hinweg mit Konfliktauflösung."
+              "l": "6 externe Integrationen, die Ihr Agenten-Ökosystem mit Ihren Business-Tools verbinden. Inklusive komplexer Integrationen: mehrstufige Workflows über CRM + E-Mail + Kalender + Zahlungssysteme. Webhook-Listener für Echtzeit-Trigger. Datensynchronisation über Plattformen hinweg mit Konfliktauflösung."
             },
             {
               "i": "Sicherheit & Compliance",
-              "l": "Alle API-Schlüssel, Tokens und Zugangsdaten liegen in verschlüsselten Umgebungsvariablen und einem Secrets-Management auf Enterprise-Niveau. Nie hartkodiert, nie im Quellcode, nie in Logs. Die Zugangsdaten jedes Agenten sind vollständig isoliert. Verschlüsselung aller Agentenkommunikation (bei der Übertragung und im Ruhezustand). Rollenbasierte Zugriffskontrolle für die Agentenverwaltung. Audit-Logging für jede Agentenaktion (wer, was, wann). Protokolle für den Umgang mit personenbezogenen Daten nach deinen Vorgaben. Aufbewahrungsrichtlinien werden automatisch durchgesetzt. Wir speichern deine API-Schlüssel nach dem Deployment nicht. Du behältst die volle Kontrolle."
+              "l": "Alle API-Schlüssel, Tokens und Zugangsdaten liegen in verschlüsselten Umgebungsvariablen und einem Secrets-Management auf Enterprise-Niveau. Nie hartkodiert, nie im Quellcode, nie in Logs. Die Zugangsdaten jedes Agenten sind vollständig isoliert. Verschlüsselung aller Agentenkommunikation (bei der Übertragung und im Ruhezustand). Rollenbasierte Zugriffskontrolle für die Agentenverwaltung. Audit-Logging für jede Agentenaktion (wer, was, wann). Protokolle für den Umgang mit personenbezogenen Daten nach Ihren Vorgaben. Aufbewahrungsrichtlinien werden automatisch durchgesetzt. Wir speichern Ihre API-Schlüssel nach dem Deployment nicht. Sie behalten die volle Kontrolle."
             },
             {
               "i": "Training & Onboarding",
-              "l": "Jeder Agent wird auf bis zu 150 Datenpunkte trainiert. Umfassende Serie aufgezeichneter Loom-Videos, die deinem Team zeigen, wie es Agenten verwaltet, überwacht und aktualisiert. Runbook-Dokumentation für jeden Agenten: was er tut, wie man ihn anpasst und wie man Probleme löst. Alle Schulungen als aufgezeichnete Videos. Dein Team schaut sie, wann es passt. Fragen werden innerhalb von 1 Werktag per Text oder E-Mail beantwortet."
+              "l": "Jeder Agent wird auf bis zu 150 Datenpunkte trainiert. Umfassende Serie aufgezeichneter Loom-Videos, die Ihrem Team zeigen, wie es Agenten verwaltet, überwacht und aktualisiert. Runbook-Dokumentation für jeden Agenten: was er tut, wie man ihn anpasst und wie man Probleme löst. Alle Schulungen als aufgezeichnete Videos. Ihr Team schaut sie, wann es passt. Fragen werden innerhalb von 1 Werktag per Text oder E-Mail beantwortet."
             }
           ],
           "ov": [
@@ -2049,8 +2049,8 @@
             "Live-Schulung: 250 $/Std.",
             "Express-Lieferung: +30 %"
           ],
-          "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Lieferung in Phasen (typischerweise 2 oder 3). Jede Phase hat definierte Leistungen und eine Freigabe. Code und Agenten gehen bei Abschluss komplett in dein Eigentum über.",
-          "bridge": "Dein KI-Ökosystem ist voll einsatzbereit. Damit es läuft, optimiert und erweitert wird, buch unsere Betreuung Agent Command Center (7.500 $/Monat) dazu.",
+          "ho": "Zahlung: 50 % Anzahlung zum Start, 25 % zum Zwischenmeilenstein, 25 % bei Fertigstellung (zahlbar innerhalb von 7 Tagen). Lieferung in Phasen (typischerweise 2 oder 3). Jede Phase hat definierte Leistungen und eine Freigabe. Code und Agenten gehen bei Abschluss komplett in Ihr Eigentum über.",
+          "bridge": "Ihr KI-Ökosystem ist voll einsatzbereit. Damit es läuft, optimiert und erweitert wird, buchen Sie unsere Betreuung Agent Command Center (7.500 $/Monat) dazu.",
           "ideal": "Unternehmen, die manuelle Prozesse im großen Stil durch intelligente Automatisierung ersetzen"
         }
       ],
@@ -2116,15 +2116,15 @@
             },
             {
               "i": "1 neuer Automatisierungs-Workflow/Monat",
-              "l": "1 neuer Automatisierungs-Workflow pro Monat (z. B. neue Lead-Nurturing-Sequenz, Upsell-Trigger, Reaktivierungskampagne oder interner Benachrichtigungs-Flow). Der Workflow wird mit deinen bestehenden Agenten und Integrationen verbunden."
+              "l": "1 neuer Automatisierungs-Workflow pro Monat (z. B. neue Lead-Nurturing-Sequenz, Upsell-Trigger, Reaktivierungskampagne oder interner Benachrichtigungs-Flow). Der Workflow wird mit Ihren bestehenden Agenten und Integrationen verbunden."
             },
             {
               "i": "Monatliches Strategie-Update",
-              "l": "Monatliches Loom-Video mit: Leistungsrückblick der Agenten, Optimierungsempfehlungen und anstehenden Prioritäten. Du antwortest per Text oder E-Mail. 1 optionaler Live-Call pro Monat auf Anfrage (max. 30 Min.)."
+              "l": "Monatliches Loom-Video mit: Leistungsrückblick der Agenten, Optimierungsempfehlungen und anstehenden Prioritäten. Sie antworten per Text oder E-Mail. 1 optionaler Live-Call pro Monat auf Anfrage (max. 30 Min.)."
             },
             {
               "i": "Sicherheit & Verwaltung der API-Schlüssel",
-              "l": "Alle API-Schlüssel und Zugangsdaten liegen in verschlüsselten Umgebungsvariablen und im Secrets-Management. Monatliche Erinnerungen zur Schlüsselrotation. Proaktives Monitoring auf offengelegte oder kompromittierte Schlüssel. Du behältst die volle Kontrolle über alle Zugangsdaten."
+              "l": "Alle API-Schlüssel und Zugangsdaten liegen in verschlüsselten Umgebungsvariablen und im Secrets-Management. Monatliche Erinnerungen zur Schlüsselrotation. Proaktives Monitoring auf offengelegte oder kompromittierte Schlüssel. Sie behalten die volle Kontrolle über alle Zugangsdaten."
             },
             {
               "i": "Priorisierter Support",
@@ -2138,7 +2138,7 @@
             "Neuer Agent: 2.500 $",
             "Notfall außerhalb der Geschäftszeiten: +50 %"
           ],
-          "ex": "Keine Enterprise-Orchestrierung, keine Compliance-Frameworks, kein fester Stratege. Für die komplette Betreuung deiner KI-Operations siehe Agent Command Center.",
+          "ex": "Keine Enterprise-Orchestrierung, keine Compliance-Frameworks, kein fester Stratege. Für die komplette Betreuung Ihrer KI-Operations siehe Agent Command Center.",
           "ideal": "Unternehmen, die ihre KI-Agenten aktiv ausbauen"
         },
         {
@@ -2167,11 +2167,11 @@
             },
             {
               "i": "Monatliches Strategie-Meeting + wöchentliche Updates",
-              "l": "1 Live-Strategie-Meeting pro Monat (max. 60 Min.). Wöchentliche Loom-Updates zu Leistung, anstehenden Prioritäten und Optimierungsempfehlungen. Du antwortest per Text oder E-Mail. Die tägliche Kommunikation läuft komplett über Text und E-Mail. Keine spontanen Calls."
+              "l": "1 Live-Strategie-Meeting pro Monat (max. 60 Min.). Wöchentliche Loom-Updates zu Leistung, anstehenden Prioritäten und Optimierungsempfehlungen. Sie antworten per Text oder E-Mail. Die tägliche Kommunikation läuft komplett über Text und E-Mail. Keine spontanen Calls."
             },
             {
               "i": "Sicherheit & Compliance auf Enterprise-Niveau",
-              "l": "Alle API-Schlüssel und Zugangsdaten werden über ein Secrets-Management auf Enterprise-Niveau verwaltet. Isolierte Zugangsdaten pro Agent. Audit-Logging für jede Agentenaktion. Monatliche Sicherheitsprüfung zu: Status der Zugangsdaten, Zugriffskontrollen, Datenverarbeitung und Compliance-Stand. Protokolle für personenbezogene Daten werden gepflegt und bei Bedarf aktualisiert. Du behältst das volle Eigentum an allen Zugangsdaten."
+              "l": "Alle API-Schlüssel und Zugangsdaten werden über ein Secrets-Management auf Enterprise-Niveau verwaltet. Isolierte Zugangsdaten pro Agent. Audit-Logging für jede Agentenaktion. Monatliche Sicherheitsprüfung zu: Status der Zugangsdaten, Zugriffskontrollen, Datenverarbeitung und Compliance-Stand. Protokolle für personenbezogene Daten werden gepflegt und bei Bedarf aktualisiert. Sie behalten das volle Eigentum an allen Zugangsdaten."
             },
             {
               "i": "Neue Agenten (1/Monat inklusive)",
@@ -2179,7 +2179,7 @@
             },
             {
               "i": "Quartalsweises KI-Audit",
-              "l": "Alle 3 Monate: umfassendes Audit deines gesamten KI-Ökosystems zu Agentenleistung, Genauigkeitstrends, Kosteneffizienz, Zustand der Integrationen und Empfehlungen für neue Automatisierungschancen. Lieferung als schriftlicher Bericht."
+              "l": "Alle 3 Monate: umfassendes Audit Ihres gesamten KI-Ökosystems zu Agentenleistung, Genauigkeitstrends, Kosteneffizienz, Zustand der Integrationen und Empfehlungen für neue Automatisierungschancen. Lieferung als schriftlicher Bericht."
             }
           ],
           "ov": [
@@ -2203,12 +2203,12 @@
           "com": "Monatlich kündbar (keine Mindestlaufzeit)",
           "scope": [
             {
-              "i": "Wähle dein Stundenkontingent",
-              "l": "Du kaufst jeden Monat ein Paket an Entwicklungsstunden. 10 Std./Monat = 2.500 $ (250 $/Std.). 20 Std./Monat = 4.500 $ (225 $/Std.). 30 Std./Monat = 6.000 $ (200 $/Std.). Über 40 Std./Monat = individueller Satz. Die Stunden decken jede Kombination ab: Bugfixes, Feature-Updates, Designänderungen, Integrationen oder Beratung."
+              "i": "Wählen Sie Ihr Stundenkontingent",
+              "l": "Sie kaufen jeden Monat ein Paket an Entwicklungsstunden. 10 Std./Monat = 2.500 $ (250 $/Std.). 20 Std./Monat = 4.500 $ (225 $/Std.). 30 Std./Monat = 6.000 $ (200 $/Std.). Über 40 Std./Monat = individueller Satz. Die Stunden decken jede Kombination ab: Bugfixes, Feature-Updates, Designänderungen, Integrationen oder Beratung."
             },
             {
               "i": "So funktioniert es",
-              "l": "Du reichst Anfragen über ein gemeinsames Task-Board ein (Linear, GitHub Issues oder E-Mail). Wir schätzen den Aufwand vor jeder Aufgabe und holen deine Freigabe ein. Die Arbeit wird erfasst und wöchentlich berichtet, mit einem Zeitprotokoll, das genau zeigt, was gemacht wurde und wie lange es gedauert hat. Ungenutzte Stunden werden NICHT in den Folgemonat übertragen."
+              "l": "Sie reichen Anfragen über ein gemeinsames Task-Board ein (Linear, GitHub Issues oder E-Mail). Wir schätzen den Aufwand vor jeder Aufgabe und holen Ihre Freigabe ein. Die Arbeit wird erfasst und wöchentlich berichtet, mit einem Zeitprotokoll, das genau zeigt, was gemacht wurde und wie lange es gedauert hat. Ungenutzte Stunden werden NICHT in den Folgemonat übertragen."
             },
             {
               "i": "Reaktionszeit",
@@ -2224,7 +2224,7 @@
             }
           ],
           "ov": [
-            "Stunden über dein Kontingent hinaus: 275 $/Std.",
+            "Stunden über Ihr Kontingent hinaus: 275 $/Std.",
             "Notfall/kritischer Fix am selben Tag: +50 % auf die genutzten Stunden",
             "Wochenendarbeit: +75 % auf die genutzten Stunden"
           ],
@@ -2241,7 +2241,7 @@
           "scope": [
             {
               "i": "Server- & Infrastruktur-Monitoring",
-              "l": "Rund-um-die-Uhr-Uptime-Monitoring mit automatischen Alarmen. Server-Checks: CPU, Arbeitsspeicher, Festplatte und Antwortzeit. Fällt deine App aus, werden wir sofort benachrichtigt und starten die Untersuchung innerhalb von 1 Stunde während der Geschäftszeiten (Montag bis Freitag, 9 bis 17 Uhr). Abstimmung mit dem Hosting-Anbieter bei Infrastrukturproblemen."
+              "l": "Rund-um-die-Uhr-Uptime-Monitoring mit automatischen Alarmen. Server-Checks: CPU, Arbeitsspeicher, Festplatte und Antwortzeit. Fällt Ihre App aus, werden wir sofort benachrichtigt und starten die Untersuchung innerhalb von 1 Stunde während der Geschäftszeiten (Montag bis Freitag, 9 bis 17 Uhr). Abstimmung mit dem Hosting-Anbieter bei Infrastrukturproblemen."
             },
             {
               "i": "Sicherheitswartung",
@@ -2249,7 +2249,7 @@
             },
             {
               "i": "Bugfixes (5 Std./Monat inklusive)",
-              "l": "5 Stunden Bugfixes und Patches pro Monat. Enthalten: defekte Funktionen, Darstellungsfehler, API-Fehler und Integrationsausfälle im Rahmen des ursprünglichen Build-Umfangs. Stunden werden erfasst und monatlich berichtet. Bugs durch Änderungen an Drittanbieter-APIs oder Probleme beim Hosting-Anbieter sind abgedeckt. Bugs durch nicht autorisierte Code-Änderungen (von dir oder anderen Entwicklern) werden berechnet."
+              "l": "5 Stunden Bugfixes und Patches pro Monat. Enthalten: defekte Funktionen, Darstellungsfehler, API-Fehler und Integrationsausfälle im Rahmen des ursprünglichen Build-Umfangs. Stunden werden erfasst und monatlich berichtet. Bugs durch Änderungen an Drittanbieter-APIs oder Probleme beim Hosting-Anbieter sind abgedeckt. Bugs durch nicht autorisierte Code-Änderungen (von Ihnen oder anderen Entwicklern) werden berechnet."
             },
             {
               "i": "Datenbankpflege",
@@ -2289,11 +2289,11 @@
             },
             {
               "i": "Feature-Entwicklung (35 Std./Monat)",
-              "l": "35 feste Entwicklungsstunden pro Monat für neue Funktionen, Verbesserung bestehender oder Ausbau deiner Plattform. Die Stunden decken ab: neue Funktionen, UI/UX-Verbesserungen, neue Integrationen, Performance-Optimierung und Architekturverbesserungen. Ungenutzte Stunden werden nur in den Folgemonat übertragen (max. 52 Stunden ansammelbar)."
+              "l": "35 feste Entwicklungsstunden pro Monat für neue Funktionen, Verbesserung bestehender oder Ausbau Ihrer Plattform. Die Stunden decken ab: neue Funktionen, UI/UX-Verbesserungen, neue Integrationen, Performance-Optimierung und Architekturverbesserungen. Ungenutzte Stunden werden nur in den Folgemonat übertragen (max. 52 Stunden ansammelbar)."
             },
             {
               "i": "Gemeinsame Produkt-Roadmap",
-              "l": "Monatlicher Roadmap-Rückblick per Loom-Video zu anstehenden Funktionen, Prioritäten und Empfehlungen. Wir pflegen ein gemeinsames Task-Board (Linear oder GitHub Issues) mit priorisierten Punkten, Statusverfolgung und Zeitschätzungen. Du setzt Prioritäten über das Board oder per Text. Wir beraten zu technischer Machbarkeit, Aufwand und Reihenfolge. 1 optionaler Live-Call pro Monat auf Anfrage (max. 60 Min.)."
+              "l": "Monatlicher Roadmap-Rückblick per Loom-Video zu anstehenden Funktionen, Prioritäten und Empfehlungen. Wir pflegen ein gemeinsames Task-Board (Linear oder GitHub Issues) mit priorisierten Punkten, Statusverfolgung und Zeitschätzungen. Sie setzen Prioritäten über das Board oder per Text. Wir beraten zu technischer Machbarkeit, Aufwand und Reihenfolge. 1 optionaler Live-Call pro Monat auf Anfrage (max. 60 Min.)."
             },
             {
               "i": "Design inklusive",
@@ -2301,7 +2301,7 @@
             },
             {
               "i": "Demo-Videos alle zwei Wochen",
-              "l": "Alle 2 Wochen nehmen wir ein Loom-Demo der fertigen Arbeit und der laufenden Funktionen auf. Du schaust es dir an, wann es dir passt, und gibst Feedback per Text, E-Mail oder über das Task-Board. Hält das Projekt in Bewegung und verhindert Missverständnisse. Keine Live-Calls nötig."
+              "l": "Alle 2 Wochen nehmen wir ein Loom-Demo der fertigen Arbeit und der laufenden Funktionen auf. Sie schauen es sich an, wann es Ihnen passt, und geben Feedback per Text, E-Mail oder über das Task-Board. Hält das Projekt in Bewegung und verhindert Missverständnisse. Keine Live-Calls nötig."
             },
             {
               "i": "Priorisierter Support",
@@ -2328,12 +2328,12 @@
           "name": "Launchpad",
           "price": 9500,
           "disp": "$9,500",
-          "tag": "Deine Idee validieren",
+          "tag": "Ihre Idee validieren",
           "tl": "4 bis 6 Wochen",
           "scope": [
             {
-              "i": "iOS oder Android (deine Wahl), React Native",
-              "l": "Mobile-App für eine Plattform in React Native. Du entscheidest beim Kickoff zwischen iOS und Android; die andere Plattform kann später als Erweiterung dazukommen."
+              "i": "iOS oder Android (Ihre Wahl), React Native",
+              "l": "Mobile-App für eine Plattform in React Native. Sie entscheiden beim Kickoff zwischen iOS und Android; die andere Plattform kann später als Erweiterung dazukommen."
             },
             {
               "i": "Bis zu 4 Screens in Figma gestaltet",
@@ -2341,7 +2341,7 @@
             },
             {
               "i": "Bis zu 3 API-Integrationen",
-              "l": "Auth-Anbieter (Apple/Google/E-Mail), 1 Drittanbieter-API deiner Wahl (Karten, Wetter, Kalender usw.) und 1 Analytics-Integration (Mixpanel oder PostHog)."
+              "l": "Auth-Anbieter (Apple/Google/E-Mail), 1 Drittanbieter-API Ihrer Wahl (Karten, Wetter, Kalender usw.) und 1 Analytics-Integration (Mixpanel oder PostHog)."
             },
             {
               "i": "Basis-Authentifizierung",
@@ -2349,7 +2349,7 @@
             },
             {
               "i": "Einreichung im App Store oder Play Store",
-              "l": "Eine Store-Einreichung komplett übernommen: Screenshots gestaltet, Beschreibung getextet, Metadaten optimiert, eingereicht über dein Entwicklerkonto."
+              "l": "Eine Store-Einreichung komplett übernommen: Screenshots gestaltet, Beschreibung getextet, Metadaten optimiert, eingereicht über Ihr Entwicklerkonto."
             },
             {
               "i": "30 Tage Garantie nach dem Launch",
@@ -2366,7 +2366,7 @@
             "Zusätzliche API-Integration: 450 $",
             "Tablet-/iPad-Layouts: +1.800 $"
           ],
-          "ex": "Kein eigenes Backend (nutzt deine bestehenden APIs oder ein No-Code-Backend wie Supabase). Keine In-App-Käufe. Keine Push-Benachrichtigungen. Kein Offline-First-Modus.",
+          "ex": "Kein eigenes Backend (nutzt Ihre bestehenden APIs oder ein No-Code-Backend wie Supabase). Keine In-App-Käufe. Keine Push-Benachrichtigungen. Kein Offline-First-Modus.",
           "bridge": "Nach den 30 Tagen Garantie geht die laufende Wartung in unseren Plan Keep Alive (1.950 $/Monat) über, damit die App mit iOS-/Android-Updates und Store-Neueinreichungen Schritt hält.",
           "ideal": "Gründer, die eine Idee mit einem fokussierten MVP für eine Plattform validieren wollen"
         },
@@ -2388,7 +2388,7 @@
             },
             {
               "i": "Bis zu 6 API-Integrationen",
-              "l": "Auth, Zahlungen (Stripe oder RevenueCat), Push-Benachrichtigungen (OneSignal oder Firebase), Analytics (Mixpanel/Amplitude) und 2 individuelle Drittanbieter-Integrationen deiner Wahl."
+              "l": "Auth, Zahlungen (Stripe oder RevenueCat), Push-Benachrichtigungen (OneSignal oder Firebase), Analytics (Mixpanel/Amplitude) und 2 individuelle Drittanbieter-Integrationen Ihrer Wahl."
             },
             {
               "i": "Nutzerkonten + Push-Benachrichtigungen",
@@ -2417,7 +2417,7 @@
             "Zusätzliche Integration: 650 $",
             "Verlängerte Garantie (+30 Tage): 1.200 $"
           ],
-          "ho": "Vollständige Code-Übergabe nach dem Launch: GitHub-Repo, EAS-/Fastlane-CI-Konfiguration, Deployment-Doku, Env-Vorlage und ein 60-minütiger aufgezeichneter Walkthrough. Dein Team übernimmt oder wir machen in der monatlichen Betreuung weiter.",
+          "ho": "Vollständige Code-Übergabe nach dem Launch: GitHub-Repo, EAS-/Fastlane-CI-Konfiguration, Deployment-Doku, Env-Vorlage und ein 60-minütiger aufgezeichneter Walkthrough. Ihr Team übernimmt oder wir machen in der monatlichen Betreuung weiter.",
           "bridge": "Inklusive 60 Tage nach dem Launch. Aktive Weiterentwicklung danach läuft über unseren Plan Momentum (4.800 $/Monat): 20 Entwicklungsstunden, Feature-Arbeit und A/B-Tests monatlich.",
           "ideal": "Teams, die ein ausgereiftes plattformübergreifendes Produkt für echte Nutzer launchen"
         },
@@ -2430,7 +2430,7 @@
           "scope": [
             {
               "i": "iOS + Android + eigenes Node-/Postgres-Backend",
-              "l": "Full-Stack-Produkt: React-Native-App auf beiden Plattformen plus eigenes Node.js-Backend mit Postgres, gehostet auf deiner Infrastruktur (AWS, Railway oder Vercel)."
+              "l": "Full-Stack-Produkt: React-Native-App auf beiden Plattformen plus eigenes Node.js-Backend mit Postgres, gehostet auf Ihrer Infrastruktur (AWS, Railway oder Vercel)."
             },
             {
               "i": "Bis zu 20 Screens mit komplettem Designsystem",
@@ -2438,15 +2438,15 @@
             },
             {
               "i": "Bis zu 12 API-/Drittanbieter-Integrationen",
-              "l": "Stripe, Twilio, Segment, Webhooks usw. 12 Drittanbieter-Integrationen deiner Wahl, eingebunden mit Wiederholungslogik und Fehlerbehandlung."
+              "l": "Stripe, Twilio, Segment, Webhooks usw. 12 Drittanbieter-Integrationen Ihrer Wahl, eingebunden mit Wiederholungslogik und Fehlerbehandlung."
             },
             {
               "i": "Admin-Dashboard (Web)",
-              "l": "Webbasierte Admin-App für Content- und Nutzerverwaltung. Rollenbasierter Zugriff, Audit-Log und Standard-CRUD-Flows für deine Datenmodelle."
+              "l": "Webbasierte Admin-App für Content- und Nutzerverwaltung. Rollenbasierter Zugriff, Audit-Log und Standard-CRUD-Flows für Ihre Datenmodelle."
             },
             {
               "i": "Echtzeit-Funktion",
-              "l": "1 Echtzeit-Funktion deiner Wahl: In-App-Chat, Live-Updates oder webhook-gesteuerte Push-Nachrichten. Gebaut auf WebSockets oder Pusher/Ably."
+              "l": "1 Echtzeit-Funktion Ihrer Wahl: In-App-Chat, Live-Updates oder webhook-gesteuerte Push-Nachrichten. Gebaut auf WebSockets oder Pusher/Ably."
             },
             {
               "i": "Zahlungen + rollenbasierte Auth",
@@ -2545,7 +2545,7 @@
             },
             {
               "i": "Analytics-Dashboards + monatliche Insights",
-              "l": "Wir bauen und pflegen deine Produkt-Analytics-Dashboards (Mixpanel oder Amplitude). Monatlicher 3-seitiger Insights-Bericht zu Nutzerverhalten, Retention und Conversion-Trends."
+              "l": "Wir bauen und pflegen Ihre Produkt-Analytics-Dashboards (Mixpanel oder Amplitude). Monatlicher 3-seitiger Insights-Bericht zu Nutzerverhalten, Retention und Conversion-Trends."
             },
             {
               "i": "A/B-Test-Setup + Reporting",
@@ -2557,7 +2557,7 @@
             },
             {
               "i": "Standup-Call alle zwei Wochen",
-              "l": "30-minütiger Video-Call alle zwei Wochen, um Fortschritt zu prüfen, Prioritäten abzustimmen und Blocker zu lösen. Aufgezeichnet und in deinem Slack-Kanal geteilt."
+              "l": "30-minütiger Video-Call alle zwei Wochen, um Fortschritt zu prüfen, Prioritäten abzustimmen und Blocker zu lösen. Aufgezeichnet und in Ihrem Slack-Kanal geteilt."
             }
           ],
           "ov": [
@@ -2579,7 +2579,7 @@
           "scope": [
             {
               "i": "Fester Entwickler (ca. 80 Std./Monat) + Designer (ca. 15 Std.)",
-              "l": "Fester Senior-Entwickler mit ca. 20 Std./Woche + anteiliger Designer mit ca. 4 Std./Woche. Jeden Monat dieselben Leute. Sie kennen deinen Code."
+              "l": "Fester Senior-Entwickler mit ca. 20 Std./Woche + anteiliger Designer mit ca. 4 Std./Woche. Jeden Monat dieselben Leute. Sie kennen Ihren Code."
             },
             {
               "i": "Alles aus Momentum",
@@ -2595,11 +2595,11 @@
             },
             {
               "i": "Backend- + Infrastruktur-Wartung",
-              "l": "Dein Backend und deine Infrastruktur sind inklusive: Patching, Skalierung, Monitoring-Alarme, Kostenoptimierung. Nicht auf das 80-Stunden-Entwicklungskontingent angerechnet."
+              "l": "Ihr Backend und Ihre Infrastruktur sind inklusive: Patching, Skalierung, Monitoring-Alarme, Kostenoptimierung. Nicht auf das 80-Stunden-Entwicklungskontingent angerechnet."
             },
             {
               "i": "Wöchentlicher Sync + gemeinsames Linear-/Jira-Board",
-              "l": "30-minütiger wöchentlicher Video-Sync + ein gemeinsamer Linear- (oder Jira-)Workspace mit voller Ticket-Transparenz. Dein Team kann Tickets direkt anlegen."
+              "l": "30-minütiger wöchentlicher Video-Sync + ein gemeinsamer Linear- (oder Jira-)Workspace mit voller Ticket-Transparenz. Ihr Team kann Tickets direkt anlegen."
             },
             {
               "i": "Antwort am selben Tag, priorisierter Slack",
@@ -2630,7 +2630,7 @@
           "scope": [
             {
               "i": "99,9 % Uptime-Monitoring",
-              "l": "StatusCake oder BetterStack überwacht deine Seite rund um die Uhr. Alarme gehen sofort an uns. Du erfährst nicht erst von einem Kunden, dass die Seite down ist."
+              "l": "StatusCake oder BetterStack überwacht Ihre Seite rund um die Uhr. Alarme gehen sofort an uns. Sie erfahren nicht erst von einem Kunden, dass die Seite down ist."
             },
             {
               "i": "Wöchentliche externe Backups",
@@ -2676,7 +2676,7 @@
             },
             {
               "i": "1 neue Seite oder neu gestalteter Abschnitt/Monat",
-              "l": "Jeden Monat liefern wir eine neue Seite (bis zu 1.000 Wörter + Standard-Design) ODER einen komplett neu gestalteten Abschnitt einer bestehenden Seite. Du entscheidest."
+              "l": "Jeden Monat liefern wir eine neue Seite (bis zu 1.000 Wörter + Standard-Design) ODER einen komplett neu gestalteten Abschnitt einer bestehenden Seite. Sie entscheiden."
             },
             {
               "i": "2 A/B-Tests pro Monat",
@@ -2725,7 +2725,7 @@
             },
             {
               "i": "Fester Entwickler (ca. 25 Std./Monat) + Designer (ca. 8 Std./Monat)",
-              "l": "Fester Entwickler und Designer. Jeden Monat dieselben Leute. Sie kennen deinen Stack und deine Marke. Die Stunden sind ein Budget; was du nicht nutzt, wird nicht übertragen."
+              "l": "Fester Entwickler und Designer. Jeden Monat dieselben Leute. Sie kennen Ihren Stack und Ihre Marke. Die Stunden sind ein Budget; was Sie nicht nutzen, wird nicht übertragen."
             },
             {
               "i": "Monatliches SEO-Audit + Umsetzung",
@@ -2733,7 +2733,7 @@
             },
             {
               "i": "CMS-Content einpflegen (bis zu 10/Monat)",
-              "l": "Bis zu 10 Blogbeiträge oder Content-Seiten pro Monat aus deinen Texten eingepflegt. Bilder formatiert, Meta-Tags getextet, interne Links vorgeschlagen. Du schreibst, wir veröffentlichen."
+              "l": "Bis zu 10 Blogbeiträge oder Content-Seiten pro Monat aus Ihren Texten eingepflegt. Bilder formatiert, Meta-Tags getextet, interne Links vorgeschlagen. Sie schreiben, wir veröffentlichen."
             },
             {
               "i": "Roadmap zur Conversion-Optimierung",
@@ -2763,7 +2763,7 @@
           "scope": [
             {
               "i": "Full-Funnel-Audit",
-              "l": "Analyse von 1 Website + bis zu 3 aktiven Kanälen (Ads, SEO, E-Mail, Social). Jede Stufe deines Funnels abgebildet, mit klar benannten Engpässen."
+              "l": "Analyse von 1 Website + bis zu 3 aktiven Kanälen (Ads, SEO, E-Mail, Social). Jede Stufe Ihres Funnels abgebildet, mit klar benannten Engpässen."
             },
             {
               "i": "Analytics- + Attributions-Check",
@@ -2779,7 +2779,7 @@
             },
             {
               "i": "Priorisierte 90-Tage-Roadmap",
-              "l": "20 bis 30 Maßnahmen, bewertet nach RICE (Reach, Impact, Confidence, Effort). Lieferung als Notion-Backlog, das dein Team umsetzen kann oder wir übernehmen."
+              "l": "20 bis 30 Maßnahmen, bewertet nach RICE (Reach, Impact, Confidence, Effort). Lieferung als Notion-Backlog, das Ihr Team umsetzen kann oder wir übernehmen."
             },
             {
               "i": "Budgetverteilungsmodell",
@@ -2787,7 +2787,7 @@
             },
             {
               "i": "1 Strategiepräsentation (aufgezeichnet)",
-              "l": "60-minütige Live-Präsentation der Ergebnisse und der Roadmap. Aufgezeichnet + mit deinem Team geteilt. Notion-Dokument am selben Tag geliefert."
+              "l": "60-minütige Live-Präsentation der Ergebnisse und der Roadmap. Aufgezeichnet + mit Ihrem Team geteilt. Notion-Dokument am selben Tag geliefert."
             },
             {
               "i": "30-minütiger Follow-up-Call",
@@ -2817,7 +2817,7 @@
             },
             {
               "i": "6 Anzeigenmotive insgesamt",
-              "l": "2 statische Grafiken + 2 Kurzvideos + 2 Hook-Varianten. Von unserem Team aus deinen Marken-Assets erstellt und geschnitten + 1 Produkt-Demo-Video, das wir bei Bedarf remote aufnehmen."
+              "l": "2 statische Grafiken + 2 Kurzvideos + 2 Hook-Varianten. Von unserem Team aus Ihren Marken-Assets erstellt und geschnitten + 1 Produkt-Demo-Video, das wir bei Bedarf remote aufnehmen."
             },
             {
               "i": "1 eigene Landingpage + A/B-Variante",
@@ -2829,7 +2829,7 @@
             },
             {
               "i": "Tracking + Dashboard-Setup",
-              "l": "GA4 + Looker-Studio-Dashboard mit täglicher Aktualisierung. 1 Wochenbericht für dich, jeden Montag per E-Mail."
+              "l": "GA4 + Looker-Studio-Dashboard mit täglicher Aktualisierung. 1 Wochenbericht für Sie, jeden Montag per E-Mail."
             },
             {
               "i": "14 Tage Soft Launch + 30 Tage Monitoring",
@@ -2867,7 +2867,7 @@
             },
             {
               "i": "Positionierung + Launch-Narrativ",
-              "l": "Hero-Botschaft, 3 unterstützende Blickwinkel, Presse-Boilerplate, FAQ und Dokument zur Einwandbehandlung. Vor der Veröffentlichung an deinem ICP getestet."
+              "l": "Hero-Botschaft, 3 unterstützende Blickwinkel, Presse-Boilerplate, FAQ und Dokument zur Einwandbehandlung. Vor der Veröffentlichung an Ihrem ICP getestet."
             },
             {
               "i": "12 Anzeigenmotive auf 2 Plattformen",
@@ -2895,7 +2895,7 @@
             },
             {
               "i": "Post-Launch-Analysebericht",
-              "l": "14 Tage nach dem Launch: Aufschlüsselung nach Kohorten, Kanälen, Motiven und Funnel. 20-seitiger Bericht mit dem, was funktioniert hat, was nicht und worauf du setzen solltest."
+              "l": "14 Tage nach dem Launch: Aufschlüsselung nach Kohorten, Kanälen, Motiven und Funnel. 20-seitiger Bericht mit dem, was funktioniert hat, was nicht und worauf Sie setzen sollten."
             },
             {
               "i": "Bis zu 30.000 $ betreutes Launch-Budget",
@@ -2928,7 +2928,7 @@
             },
             {
               "i": "Logo-Exploration (3 Konzepte)",
-              "l": "3 erste Logo-Richtungen als flache Vektor-Mockups. Du wählst 1 zur Ausarbeitung. Wortmarke ODER Icon + Wortmarke (nicht beides). 2 Korrekturrunden."
+              "l": "3 erste Logo-Richtungen als flache Vektor-Mockups. Sie wählen 1 zur Ausarbeitung. Wortmarke ODER Icon + Wortmarke (nicht beides). 2 Korrekturrunden."
             },
             {
               "i": "Finale Logodateien",
@@ -2957,7 +2957,7 @@
             "Art Direction für Markenfotografie: 800 $"
           ],
           "ex": "Kein Brand-Guidelines-Dokument. Keine Geschäftsausstattung. Keine Social-Vorlagen. Kein Naming und keine verbale Identität.",
-          "bridge": "Brand Lite in Kombination mit Brand Keeper (1.500 $/Monat) hält deine Assets konsistent, während du neuen Content produzierst.",
+          "bridge": "Brand Lite in Kombination mit Brand Keeper (1.500 $/Monat) hält Ihre Assets konsistent, während Sie neuen Content produzieren.",
           "ideal": "Solo-Selbstständige und Marken vor dem ersten Umsatz, die schnell ein sauberes, nutzbares Zeichen brauchen"
         },
         {
@@ -3067,7 +3067,7 @@
           "scope": [
             {
               "i": "Bis zu 6 Marken-Assets pro Monat",
-              "l": "Social-Grafiken, E-Mail-Header, einzelne Flyer, Event-Grafiken oder Anzeigenmotive auf Basis deines bestehenden Markensystems. Lieferung editierbar in Figma oder Canva."
+              "l": "Social-Grafiken, E-Mail-Header, einzelne Flyer, Event-Grafiken oder Anzeigenmotive auf Basis Ihres bestehenden Markensystems. Lieferung editierbar in Figma oder Canva."
             },
             {
               "i": "1 quartalsweises Marken-Audit (PDF)",
@@ -3075,7 +3075,7 @@
             },
             {
               "i": "Pflege der Marken-Asset-Bibliothek",
-              "l": "Dein Figma und Drive bleiben aufgeräumt. Neue Assets werden abgelegt, Namenskonventionen eingehalten, alte Versionen archiviert."
+              "l": "Ihr Figma und Drive bleiben aufgeräumt. Neue Assets werden abgelegt, Namenskonventionen eingehalten, alte Versionen archiviert."
             },
             {
               "i": "Asynchroner Support",
@@ -3105,7 +3105,7 @@
           "scope": [
             {
               "i": "Bis zu 15 Marken-Assets pro Monat",
-              "l": "Social-Grafiken, Karussells, Anzeigenmotive, E-Mail-Kampagnen, Landingpage-Abschnitte, Pitch-Deck-Updates. Alles in deinem Markensystem."
+              "l": "Social-Grafiken, Karussells, Anzeigenmotive, E-Mail-Kampagnen, Landingpage-Abschnitte, Pitch-Deck-Updates. Alles in Ihrem Markensystem."
             },
             {
               "i": "Monatlicher Creative-Direction-Call (60 Min.)",
@@ -3125,7 +3125,7 @@
             },
             {
               "i": "Asynchroner Zugang zum Strategen",
-              "l": "Direkter E-Mail-/Text-Kontakt zu deinem festen Strategen, Mo. bis Fr. 9 bis 17 Uhr ET. Antwort-SLA von 4 Geschäftsstunden."
+              "l": "Direkter E-Mail-/Text-Kontakt zu Ihrem festen Strategen, Mo. bis Fr. 9 bis 17 Uhr ET. Antwort-SLA von 4 Geschäftsstunden."
             },
             {
               "i": "2 Korrekturrunden pro Asset",
@@ -3170,7 +3170,7 @@
             },
             {
               "i": "Weiterentwicklung des Markensystems",
-              "l": "Kleine System-Updates, während du wächst: neue Vorlagen, angepasste Farberweiterungen, neue Submarken-Zeichen. Komplette Rebrandings werden weiterhin separat ab 20.000 $ kalkuliert."
+              "l": "Kleine System-Updates, während Sie wachsen: neue Vorlagen, angepasste Farberweiterungen, neue Submarken-Zeichen. Komplette Rebrandings werden weiterhin separat ab 20.000 $ kalkuliert."
             },
             {
               "i": "Quartalsweises Kampagnenkonzept",
