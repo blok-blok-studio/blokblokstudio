@@ -436,13 +436,13 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
           exit={{ opacity: 0, x: direction * -24 }}
           transition={{ duration: 0.22, ease: 'easeOut' }}
         >
-          <h2
+          <h3
             ref={headingRef}
             tabIndex={-1}
             className="t-h3 mb-1.5 outline-none text-balance"
           >
             {current.question}
-          </h2>
+          </h3>
           {current.sub && <p className="text-gray-500 text-sm mb-5 text-pretty">{current.sub}</p>}
           {!current.sub && <div className="mb-5" />}
 

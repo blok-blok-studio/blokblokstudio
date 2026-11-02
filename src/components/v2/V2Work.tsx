@@ -20,7 +20,7 @@ export async function V2Work() {
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
         <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 t-eyebrow text-gray-500">
-          <span>{t('v2_work_label')}</span>
+          <h2>{t('v2_work_label')}</h2>
           <Link href="/projects" className="text-gray-400 transition-colors hover:text-white">
             {t('v2_work_link')}
           </Link>
