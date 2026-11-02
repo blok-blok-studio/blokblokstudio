@@ -1,6 +1,4 @@
-import type { SiteVideoKey } from '@/data/videos';
-import { getLocale, getTranslations } from 'next-intl/server';
-import { videoTranscript } from '@/data/i18n';
+import { useTranslations } from 'next-intl';
 
 /**
  * Collapsible transcript printed under a video.
@@ -8,18 +6,22 @@ import { videoTranscript } from '@/data/i18n';
  * The JSON-LD carries the same text, but this is the copy that is actually on
  * the page: it is what a visitor who cannot or will not turn the sound on
  * reads, and it is the version an assistant quotes when it summarises the
- * page rather than the markup. Rendered server-side inside <details>, so the
- * text is in the HTML whether or not anyone opens it.
+ * page rather than the markup. Rendered inside <details>, so the text is in
+ * the HTML whether or not anyone opens it.
+ *
+ * `transcript` arrives already localized from a server component via
+ * videoTranscript() in src/data/i18n, so this file stays free of server-only
+ * imports and can sit inside client trees (the thank-you page).
  */
-export async function VideoTranscript({
-  video,
+export function VideoTranscript({
+  transcript,
   speaker,
 }: {
-  video: SiteVideoKey;
+  transcript: string;
   speaker?: string;
 }) {
-  const t = await getTranslations('ui');
-  const paragraphs = videoTranscript(video, await getLocale()).split('\n\n');
+  const t = useTranslations('ui');
+  const paragraphs = transcript.split('\n\n');
 
   return (
     <details className="group mt-4 rounded-xl border border-white/10 bg-white/[0.02]">

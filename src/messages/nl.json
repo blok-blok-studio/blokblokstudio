@@ -872,7 +872,7 @@
     "limitations_intro": "Ondanks onze inspanningen is mogelijk nog niet alle content op deze site volledig toegankelijk. Bekende punten waaraan wij werken:",
     "limitation_third_party": "<strong>Ingesloten content van derden</strong>, de Cloudflare Turnstile-CAPTCHA en de Cal.com-boekingsiframe nemen hun eigen toegankelijkheidsgedrag over van de leverancier. Wij volgen hun conformiteitsstatus bij elke leverancier.",
     "limitation_motion": "<strong>Decoratieve beweging</strong>, sfeeranimaties op de achtergrond worden uitgeschakeld wanneer <code>prefers-reduced-motion</code> is ingesteld, maar een klein aantal cursor-magnetische micro-interacties kan nog afspelen.",
-    "limitation_language": "<strong>Taal van de verklaring</strong>, deze verklaring wordt momenteel alleen in het Engels bijgehouden. De site zelf is vertaald in 19 talen.",
+    "limitation_language": "<strong>Taal van de verklaring</strong>, de Engelse versie van deze verklaring is leidend; de andere talen zijn vertalingen daarvan. De site zelf is beschikbaar in 20 talen.",
     "feedback_title": "Feedback en contact",
     "feedback_intro": "Komt u op blokblokstudio.com een toegankelijkheidsdrempel tegen, of heeft u informatie van deze site in een ander formaat nodig, neem dan contact met ons op. Wij streven ernaar binnen <strong>vijf werkdagen</strong> op toegankelijkheidsfeedback te reageren.",
     "feedback_email": "<strong>E-mail:</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Lokale vindbaarheid en reviews",
         "detail": "Scoren waar je klanten echt zoeken, met actuele Google-reviews op de pagina."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, oprichter",
+    "founder_soon": "Een woord van Chase, binnenkort.",
+    "founder_caption": "Chase Haynes, oprichter van Blok Blok Studio. Je spreekt met de persoon die je site bouwt, niet met een accountmanager."
   },
   "ui": {
     "footer_contact": "Contact",

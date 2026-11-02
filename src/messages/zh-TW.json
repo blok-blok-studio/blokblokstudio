@@ -872,7 +872,7 @@
     "limitations_intro": "儘管我們已盡最大努力，本網站的部分內容可能尚未完全無障礙。以下是我們正在解決的已知問題：",
     "limitation_third_party": "<strong>嵌入的第三方內容</strong>：Cloudflare Turnstile 驗證碼與 Cal.com 預約 iframe 繼承上游供應商自身的無障礙行為。我們會持續追蹤各供應商的符合狀態。",
     "limitation_motion": "<strong>裝飾性動態效果</strong>：設定 <code>prefers-reduced-motion</code> 時會停用環境背景動畫，但少數游標磁吸的微互動仍可能播放。",
-    "limitation_language": "<strong>聲明語言</strong>：本聲明目前僅以英文維護。網站本身已在地化為 19 種語言。",
+    "limitation_language": "<strong>聲明語言</strong>：本聲明以英文版本為準，其他語言皆為其譯文。網站本身提供 20 種語言版本。",
     "feedback_title": "意見回饋與聯絡",
     "feedback_intro": "若您在 blokblokstudio.com 遇到無障礙障礙，或需要以其他格式取得本網站的資訊，請與我們聯絡。我們的目標是在<strong>五個工作天</strong>內回覆無障礙相關的意見回饋。",
     "feedback_email": "<strong>電子郵件：</strong><link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "在地搜尋與評論",
         "detail": "在客戶真正會看的位置取得排名，並在頁面上顯示最新的 Google 評論。"
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes，創辦人",
+    "founder_soon": "Chase 的一段話，即將推出。",
+    "founder_caption": "Chase Haynes，Blok Blok Studio 創辦人。您直接與為您建站的人交流，而不是客戶經理。"
   },
   "ui": {
     "footer_contact": "聯絡我們",

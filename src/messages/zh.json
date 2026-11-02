@@ -872,7 +872,7 @@
     "limitations_intro": "尽管我们已尽最大努力，本网站的部分内容可能尚未完全实现无障碍访问。我们正在解决的已知问题：",
     "limitation_third_party": "<strong>嵌入的第三方内容</strong>，Cloudflare Turnstile 验证码和 Cal.com 预约 iframe 的无障碍表现继承自上游供应商。我们会跟踪各供应商的符合性状态。",
     "limitation_motion": "<strong>装饰性动效</strong>，当设置了 <code>prefers-reduced-motion</code> 时，背景环境动画会被关闭，但少数跟随光标的微交互仍可能播放。",
-    "limitation_language": "<strong>声明语言</strong>，本声明目前仅以英文维护。网站本身已本地化为 19 种语言。",
+    "limitation_language": "<strong>声明语言</strong>：本声明以英文版本为准，其他语言均为其译文。网站本身提供 20 种语言版本。",
     "feedback_title": "反馈与联系",
     "feedback_intro": "如果您在 blokblokstudio.com 上遇到无障碍障碍，或需要以其他格式获取本网站的信息，请联系我们。我们力争在<strong>五个工作日</strong>内回复无障碍相关反馈。",
     "feedback_email": "<strong>邮件：</strong><link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "本地搜索与评价",
         "detail": "在客户真正会看的位置获得排名，并在页面上展示最新的 Google 评价。"
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes，创始人",
+    "founder_soon": "Chase 的一段话，即将上线。",
+    "founder_caption": "Chase Haynes，Blok Blok Studio 创始人。您直接与为您建站的人交流，而不是客户经理。"
   },
   "ui": {
     "footer_contact": "联系我们",

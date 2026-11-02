@@ -872,7 +872,7 @@
     "limitations_intro": "Trotz unserer Bemühungen sind einige Inhalte dieser Website möglicherweise noch nicht vollständig barrierefrei. Bekannte Probleme, an deren Behebung wir arbeiten:",
     "limitation_third_party": "<strong>Eingebettete Inhalte von Drittanbietern</strong>, das Cloudflare-Turnstile-CAPTCHA und das Cal.com-Buchungs-iframe übernehmen ihr Barrierefreiheitsverhalten vom jeweiligen Anbieter. Wir verfolgen den Konformitätsstatus gemeinsam mit jedem Anbieter.",
     "limitation_motion": "<strong>Dekorative Animationen</strong>, Hintergrundanimationen werden deaktiviert, wenn <code>prefers-reduced-motion</code> gesetzt ist; eine kleine Zahl von Cursor-Mikrointeraktionen kann jedoch weiterhin abgespielt werden.",
-    "limitation_language": "<strong>Sprache dieser Erklärung</strong>, die maßgebliche Fassung dieser Erklärung wird derzeit auf Englisch gepflegt. Die Website selbst ist in 19 Sprachen lokalisiert.",
+    "limitation_language": "<strong>Sprache der Erklärung</strong>, die englische Fassung dieser Erklärung ist maßgeblich; die anderen Sprachen sind Übersetzungen davon. Die Website selbst ist in 20 Sprachen verfügbar.",
     "feedback_title": "Feedback und Kontakt",
     "feedback_intro": "Wenn Sie auf blokblokstudio.com auf eine Barriere stoßen oder Informationen dieser Website in einem alternativen Format benötigen, kontaktieren Sie uns bitte. Wir bemühen uns, auf Feedback zur Barrierefreiheit innerhalb von <strong>fünf Werktagen</strong> zu antworten.",
     "feedback_email": "<strong>E-Mail:</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Lokale Suche und Bewertungen",
         "detail": "Dort ranken, wo Ihre Kunden tatsächlich suchen, mit aktuellen Google-Bewertungen auf der Seite."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, Gründer",
+    "founder_soon": "Ein Wort von Chase, bald verfügbar.",
+    "founder_caption": "Chase Haynes, Gründer von Blok Blok Studio. Sie sprechen mit der Person, die Ihre Website baut, nicht mit einem Account-Manager."
   },
   "ui": {
     "footer_contact": "Kontakt",

@@ -872,7 +872,7 @@
     "limitations_intro": "Tüm çabalarımıza rağmen bu sitedeki bazı içerikler henüz tam olarak erişilebilir olmayabilir. Çözmek için çalıştığımız bilinen sorunlar:",
     "limitation_third_party": "<strong>Gömülü üçüncü taraf içerik</strong>: Cloudflare Turnstile CAPTCHA ve Cal.com randevu iframe'i kendi erişilebilirlik davranışlarını sağlayıcıdan devralır. Uyumluluk durumlarını her sağlayıcıyla birlikte takip ediyoruz.",
     "limitation_motion": "<strong>Dekoratif hareket</strong>: <code>prefers-reduced-motion</code> ayarlandığında ortam arka plan animasyonları devre dışı kalır, ancak az sayıda imleç mıknatıslı mikro etkileşim hâlâ oynatılabilir.",
-    "limitation_language": "<strong>Beyan dili</strong>: Bu beyan şu anda yalnızca İngilizce olarak güncel tutulmaktadır. Sitenin kendisi 19 dile yerelleştirilmiştir.",
+    "limitation_language": "<strong>Beyanın dili</strong>, bu beyanın İngilizce sürümü esas alınır; diğer diller onun çevirisidir. Sitenin kendisi 20 dilde sunulmaktadır.",
     "feedback_title": "Geri bildirim ve iletişim",
     "feedback_intro": "blokblokstudio.com üzerinde bir erişilebilirlik engeliyle karşılaşırsanız veya bu sitedeki bilgilere alternatif bir biçimde ihtiyaç duyarsanız lütfen bizimle iletişime geçin. Erişilebilirlik geri bildirimlerine <strong>beş iş günü</strong> içinde yanıt vermeyi hedefliyoruz.",
     "feedback_email": "<strong>E-posta:</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Yerel arama ve değerlendirmeler",
         "detail": "Müşterilerinizin gerçekten baktığı yerde görünmek, sayfada güncel Google değerlendirmeleriyle."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, kurucu",
+    "founder_soon": "Chase'den birkaç söz, çok yakında.",
+    "founder_caption": "Chase Haynes, Blok Blok Studio'nun kurucusu. Sitenizi yapan kişiyle konuşursunuz, bir müşteri temsilcisiyle değil."
   },
   "ui": {
     "footer_contact": "İletişim",

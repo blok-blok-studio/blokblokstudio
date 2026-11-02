@@ -99,7 +99,7 @@ if (b) {
       if (/—/.test(t)) warns.push(`bundle: ${k} contains an em dash`);
     }
   }
-  if (!/^[\p{L}\p{N}\s.,;:!?()'"+%$€/-]+$/u.test(b.consent) || b.consent.length < 40) warns.push('bundle: consent sentence looks off');
+  if (!/^[\p{L}\p{M}\p{N}\p{P}\s+$€%]+$/u.test(b.consent) || b.consent.length < 40) warns.push('bundle: consent sentence looks off');
   if (same > 10) errors.push(`bundle: ${same} fields are still English (limit 10)`);
 }
 

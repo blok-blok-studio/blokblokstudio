@@ -872,7 +872,7 @@
     "limitations_intro": "Meski sudah berupaya sebaik mungkin, sebagian konten di situs ini mungkin belum sepenuhnya dapat diakses. Masalah yang diketahui dan sedang kami tangani:",
     "limitation_third_party": "<strong>Konten pihak ketiga yang disematkan</strong>, CAPTCHA Cloudflare Turnstile dan iframe pemesanan Cal.com mewarisi perilaku aksesibilitasnya sendiri dari vendor masing-masing. Kami memantau status kesesuaian mereka bersama setiap vendor.",
     "limitation_motion": "<strong>Gerakan dekoratif</strong>, animasi latar belakang dinonaktifkan saat <code>prefers-reduced-motion</code> diatur, tetapi sejumlah kecil interaksi mikro yang mengikuti kursor mungkin masih berjalan.",
-    "limitation_language": "<strong>Bahasa pernyataan</strong>, pernyataan ini saat ini hanya dikelola dalam bahasa Inggris. Situs itu sendiri dilokalkan ke dalam 19 bahasa.",
+    "limitation_language": "<strong>Bahasa pernyataan</strong>, versi bahasa Inggris dari pernyataan ini adalah acuan; bahasa lain merupakan terjemahannya. Situs ini sendiri tersedia dalam 20 bahasa.",
     "feedback_title": "Masukan dan kontak",
     "feedback_intro": "Jika Anda menemui hambatan aksesibilitas di blokblokstudio.com, atau membutuhkan informasi dari situs ini dalam format alternatif, silakan hubungi kami. Kami berupaya menanggapi masukan aksesibilitas dalam <strong>lima hari kerja</strong>.",
     "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Pencarian lokal dan ulasan",
         "detail": "Muncul di tempat pelanggan Anda benar-benar mencari, dengan ulasan Google terbaru di halaman."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, pendiri",
+    "founder_soon": "Sepatah kata dari Chase, segera hadir.",
+    "founder_caption": "Chase Haynes, pendiri Blok Blok Studio. Anda berbicara langsung dengan orang yang membangun situs Anda, bukan dengan manajer akun."
   },
   "ui": {
     "footer_contact": "Kontak",

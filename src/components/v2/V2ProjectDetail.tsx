@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { getLocale, getTranslations } from 'next-intl/server';
-import { localizeProject } from '@/data/i18n';
+import { localizeProject, videoTranscript } from '@/data/i18n';
 import { videoForProject, type SiteVideoKey } from '@/data/videos';
 import { VideoTranscript } from '@/components/VideoTranscript';
 import { FullPageScreenshot, ScaledLiveIframe } from '@/components/ScaledLiveIframe';
@@ -172,7 +172,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
                 <source src={project.testimonialVideo} type="video/mp4" />
                 {videoMeta?.captions && <track kind="captions" src={videoMeta.captions} srcLang="en" label="English" default />}
               </video>
-              {videoKey && <VideoTranscript video={videoKey} speaker={project.testimonialName} />}
+              {videoKey && <VideoTranscript transcript={videoTranscript(videoKey, locale)} speaker={project.testimonialName} />}
             </div>
           </div>
         </section>

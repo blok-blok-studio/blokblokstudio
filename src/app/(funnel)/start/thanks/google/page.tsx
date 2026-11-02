@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
+import { getLocale } from 'next-intl/server';
 import { ThanksContent } from '@/components/ThanksContent';
+import { videoTranscript } from '@/data/i18n';
 
 // Google Ads conversion page. Conversion action in Google Ads:
 // page view of /start/thanks/google (or the gtag conversion event fired here
@@ -10,6 +12,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function GoThanksGooglePage() {
-  return <ThanksContent platform="google" />;
+export default async function GoThanksGooglePage() {
+  const founderTranscript = videoTranscript('founder', await getLocale());
+  return <ThanksContent platform="google" founderTranscript={founderTranscript} />;
 }

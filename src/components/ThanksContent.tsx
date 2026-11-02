@@ -64,7 +64,7 @@ function fireGoogle() {
   }
 }
 
-export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'google' | 'all' }) {
+export function ThanksContent({ platform = 'all', founderTranscript }: { platform?: 'meta' | 'google' | 'all'; founderTranscript: string }) {
   const t = useTranslations('thanks');
   const fired = useRef(false);
   const NEXT_STEPS = [
@@ -218,7 +218,7 @@ export function ThanksContent({ platform = 'all' }: { platform?: 'meta' | 'googl
             </p>
             <h2 className="text-2xl sm:text-3xl font-bold text-balance">{t('founder_title')}</h2>
           </div>
-          <FounderVideo />
+          <FounderVideo transcript={founderTranscript} />
         </AnimatedSection>
 
         <AnimatedSection delay={0.25} className="mt-16">

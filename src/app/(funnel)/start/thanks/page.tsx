@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
+import { getLocale } from 'next-intl/server';
 import { ThanksContent } from '@/components/ThanksContent';
+import { videoTranscript } from '@/data/i18n';
 
 // Conversion page for ad campaigns: Meta and Google both track this URL
 // as the Lead event. Never index, never link from the main site.
@@ -9,6 +11,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function ThanksPage() {
-  return <ThanksContent />;
+export default async function ThanksPage() {
+  const founderTranscript = videoTranscript('founder', await getLocale());
+  return <ThanksContent founderTranscript={founderTranscript} />;
 }

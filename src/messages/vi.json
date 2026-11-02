@@ -872,7 +872,7 @@
     "limitations_intro": "Dù đã nỗ lực hết sức, một số nội dung trên website này có thể chưa hoàn toàn tiếp cận được. Các vấn đề đã biết mà chúng tôi đang khắc phục:",
     "limitation_third_party": "<strong>Nội dung nhúng của bên thứ ba</strong>, CAPTCHA Cloudflare Turnstile và iframe đặt lịch Cal.com kế thừa hành vi tiếp cận riêng từ nhà cung cấp. Chúng tôi theo dõi mức tuân thủ của họ với từng nhà cung cấp.",
     "limitation_motion": "<strong>Chuyển động trang trí</strong>, các hiệu ứng nền được tắt khi <code>prefers-reduced-motion</code> được bật, nhưng một số ít tương tác vi mô hút theo con trỏ vẫn có thể chạy.",
-    "limitation_language": "<strong>Ngôn ngữ của tuyên bố</strong>, tuyên bố này hiện chỉ được duy trì chính thức bằng tiếng Anh. Bản thân website được bản địa hóa sang 19 ngôn ngữ.",
+    "limitation_language": "<strong>Ngôn ngữ của tuyên bố</strong>, bản tiếng Anh của tuyên bố này là bản tham chiếu; các ngôn ngữ khác là bản dịch của nó. Bản thân trang web có sẵn bằng 20 ngôn ngữ.",
     "feedback_title": "Phản hồi và liên hệ",
     "feedback_intro": "Nếu bạn gặp rào cản tiếp cận trên blokblokstudio.com, hoặc cần thông tin từ website này ở định dạng khác, vui lòng liên hệ với chúng tôi. Chúng tôi đặt mục tiêu phản hồi các góp ý về khả năng tiếp cận trong vòng <strong>năm ngày làm việc</strong>.",
     "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Tìm kiếm địa phương và đánh giá",
         "detail": "Hiển thị ở nơi khách hàng thực sự tìm, kèm đánh giá Google mới nhất ngay trên trang."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, nhà sáng lập",
+    "founder_soon": "Đôi lời từ Chase, sắp ra mắt.",
+    "founder_caption": "Chase Haynes, nhà sáng lập Blok Blok Studio. Bạn trao đổi trực tiếp với người xây dựng trang web của bạn, không phải với quản lý tài khoản."
   },
   "ui": {
     "footer_contact": "Liên hệ",

@@ -872,7 +872,7 @@
     "limitations_intro": "最善を尽くしていますが、本サイトの一部のコンテンツはまだ完全にはアクセシブルでない場合があります。現在解決に取り組んでいる既知の課題：",
     "limitation_third_party": "<strong>埋め込みのサードパーティコンテンツ</strong>：Cloudflare TurnstileのCAPTCHAとCal.comの予約iframeは、提供元のアクセシビリティ挙動をそのまま引き継ぎます。各提供元の適合状況を追跡しています。",
     "limitation_motion": "<strong>装飾的なモーション</strong>：<code>prefers-reduced-motion</code>が設定されている場合、背景のアンビエントアニメーションは無効になりますが、カーソルに吸着する一部のマイクロインタラクションは動作する場合があります。",
-    "limitation_language": "<strong>声明の言語</strong>：本声明は現在英語のみで管理しています。サイト自体は19言語にローカライズされています。",
+    "limitation_language": "<strong>本声明の言語</strong>：本声明は英語版を正とし、その他の言語はその翻訳です。サイト自体は20言語でご覧いただけます。",
     "feedback_title": "ご意見とお問い合わせ",
     "feedback_intro": "blokblokstudio.comでアクセシビリティ上の障壁に遭遇された場合、または本サイトの情報を別の形式で必要とされる場合は、ご連絡ください。アクセシビリティに関するご意見には<strong>5営業日以内</strong>の回答を目指しています。",
     "feedback_email": "<strong>メール：</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "ローカル検索とレビュー",
         "detail": "お客様が実際に探す場所で上位に表示し、最新のGoogleレビューをページに掲載します。"
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes、創業者",
+    "founder_soon": "Chaseからのメッセージ、近日公開。",
+    "founder_caption": "Blok Blok Studio 創業者の Chase Haynes。あなたのサイトを実際に作る本人と話せます。担当営業ではありません。"
   },
   "ui": {
     "footer_contact": "お問い合わせ",

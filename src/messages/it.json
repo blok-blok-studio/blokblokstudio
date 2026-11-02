@@ -872,7 +872,7 @@
     "limitations_intro": "Nonostante il nostro impegno, alcuni contenuti di questo sito potrebbero non essere ancora pienamente accessibili. Problemi noti su cui stiamo lavorando:",
     "limitation_third_party": "<strong>Contenuti di terze parti incorporati</strong>: il CAPTCHA di Cloudflare Turnstile e l'iframe di prenotazione di Cal.com ereditano il comportamento di accessibilità del rispettivo fornitore. Ne monitoriamo lo stato di conformità con ciascun fornitore.",
     "limitation_motion": "<strong>Animazioni decorative</strong>: le animazioni di sfondo vengono disattivate quando è impostato <code>prefers-reduced-motion</code>, ma un piccolo numero di micro-interazioni magnetiche del cursore potrebbe essere ancora attivo.",
-    "limitation_language": "<strong>Lingua della dichiarazione</strong>: la versione di riferimento di questa dichiarazione viene mantenuta in inglese e le traduzioni potrebbero non essere aggiornate alla stessa data. Il sito stesso è localizzato in 19 lingue.",
+    "limitation_language": "<strong>Lingua della dichiarazione</strong>, la versione inglese di questa dichiarazione è quella di riferimento; le altre lingue ne sono traduzioni. Il sito è disponibile in 20 lingue.",
     "feedback_title": "Feedback e contatti",
     "feedback_intro": "Se incontri una barriera di accessibilità su blokblokstudio.com, o hai bisogno di informazioni di questo sito in un formato alternativo, contattaci. Puntiamo a rispondere ai feedback sull'accessibilità entro <strong>cinque giorni lavorativi</strong>.",
     "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Ricerca locale e recensioni",
         "detail": "Posizionarti dove i tuoi clienti cercano davvero, con le recensioni Google aggiornate in pagina."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, fondatore",
+    "founder_soon": "Due parole da Chase, in arrivo.",
+    "founder_caption": "Chase Haynes, fondatore di Blok Blok Studio. Parli con la persona che costruisce il tuo sito, non con un account manager."
   },
   "ui": {
     "footer_contact": "Contatti",

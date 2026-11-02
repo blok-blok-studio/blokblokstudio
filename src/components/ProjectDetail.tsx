@@ -38,7 +38,7 @@ import Image from 'next/image';
 import { videoForProject, type SiteVideoKey } from '@/data/videos';
 import { VideoTranscript } from './VideoTranscript';
 import { projectsData } from '@/data/projects';
-import { localizeProject } from '@/data/i18n';
+import { localizeProject, videoTranscript } from '@/data/i18n';
 import { useTranslations, useLocale } from 'next-intl';
 
 /**
@@ -335,7 +335,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
               </video>
               {testimonialKey && (
                 <VideoTranscript
-                  video={testimonialKey}
+                  transcript={videoTranscript(testimonialKey, locale)}
                   speaker={project.testimonialName}
                 />
               )}

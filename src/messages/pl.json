@@ -872,7 +872,7 @@
     "limitations_intro": "Mimo naszych starań niektóre treści na tej stronie mogą nie być jeszcze w pełni dostępne. Znane problemy, nad którymi pracujemy:",
     "limitation_third_party": "<strong>Osadzone treści zewnętrzne</strong>, CAPTCHA Cloudflare Turnstile i iframe rezerwacji Cal.com dziedziczą zachowanie w zakresie dostępności od swoich dostawców. Śledzimy status zgodności u każdego z nich.",
     "limitation_motion": "<strong>Animacje dekoracyjne</strong>, animacje tła są wyłączane przy ustawieniu <code>prefers-reduced-motion</code>, ale niewielka liczba mikrointerakcji podążających za kursorem może nadal się odtwarzać.",
-    "limitation_language": "<strong>Język deklaracji</strong>, ta deklaracja jest utrzymywana w języku angielskim, a pozostałe wersje są jej tłumaczeniami. Sama strona jest zlokalizowana na 19 języków.",
+    "limitation_language": "<strong>Język oświadczenia</strong>, wersja angielska tego oświadczenia jest wersją referencyjną; pozostałe języki to jej tłumaczenia. Sama strona jest dostępna w 20 językach.",
     "feedback_title": "Opinie i kontakt",
     "feedback_intro": "Jeśli napotkasz barierę dostępności na blokblokstudio.com lub potrzebujesz informacji z tej strony w alternatywnym formacie, skontaktuj się z nami. Na zgłoszenia dotyczące dostępności staramy się odpowiadać w ciągu <strong>pięciu dni roboczych</strong>.",
     "feedback_email": "<strong>E-mail:</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Lokalne wyniki i opinie",
         "detail": "Widoczność tam, gdzie Twoi klienci naprawdę szukają, z aktualnymi opiniami Google na stronie."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, założyciel",
+    "founder_soon": "Kilka słów od Chase'a, już wkrótce.",
+    "founder_caption": "Chase Haynes, założyciel Blok Blok Studio. Rozmawiasz z osobą, która buduje Twoją stronę, a nie z opiekunem klienta."
   },
   "ui": {
     "footer_contact": "Kontakt",

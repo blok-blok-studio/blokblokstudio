@@ -872,7 +872,7 @@
     "limitations_intro": "Malgré nos efforts, certains contenus de ce site peuvent ne pas être encore pleinement accessibles. Problèmes connus sur lesquels nous travaillons :",
     "limitation_third_party": "<strong>Contenus tiers intégrés</strong>, le CAPTCHA Cloudflare Turnstile et l'iframe de réservation Cal.com héritent du comportement d'accessibilité de leur fournisseur. Nous suivons leur niveau de conformité auprès de chaque fournisseur.",
     "limitation_motion": "<strong>Animations décoratives</strong>, les animations d'arrière-plan sont désactivées lorsque <code>prefers-reduced-motion</code> est activé, mais quelques micro-interactions magnétiques liées au curseur peuvent encore se jouer.",
-    "limitation_language": "<strong>Langue de la déclaration</strong>, la version de référence de cette déclaration est rédigée en anglais ; les autres langues en sont des traductions. Le site lui-même est traduit en 19 langues.",
+    "limitation_language": "<strong>Langue de la déclaration</strong>, la version anglaise de cette déclaration fait référence ; les autres langues en sont des traductions. Le site lui-même est disponible en 20 langues.",
     "feedback_title": "Retours et contact",
     "feedback_intro": "Si vous rencontrez un obstacle d'accessibilité sur blokblokstudio.com, ou si vous avez besoin d'une information de ce site dans un autre format, contactez-nous. Nous nous efforçons de répondre aux retours sur l'accessibilité sous <strong>cinq jours ouvrés</strong>.",
     "feedback_email": "<strong>E-mail :</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Recherche locale et avis",
         "detail": "Être visible là où vos clients cherchent vraiment, avec les avis Google à jour sur la page."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, fondateur",
+    "founder_soon": "Un mot de Chase, bientôt disponible.",
+    "founder_caption": "Chase Haynes, fondateur de Blok Blok Studio. Vous parlez à la personne qui construit votre site, pas à un chargé de compte."
   },
   "ui": {
     "footer_contact": "Contact",

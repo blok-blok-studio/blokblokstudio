@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import { VideoTranscript } from './VideoTranscript';
 
 /**
@@ -13,7 +14,9 @@ import { VideoTranscript } from './VideoTranscript';
  */
 const FOUNDER_VIDEO_URL = process.env.NEXT_PUBLIC_FOUNDER_VIDEO_URL ?? '/videos/founder-v2.mp4';
 
-export function FounderVideo() {
+/** `transcript` arrives localized from the server page (src/data/i18n is server-only). */
+export function FounderVideo({ transcript }: { transcript: string }) {
+  const t = useTranslations('thanks');
   return (
     <div>
       <div className="rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-black shadow-2xl shadow-black/50">
@@ -37,14 +40,13 @@ export function FounderVideo() {
                 <path d="M8 5v14l11-7z" />
               </svg>
             </div>
-            <p className="text-gray-400 text-sm">A word from Chase, coming soon.</p>
+            <p className="text-gray-400 text-sm">{t('founder_soon')}</p>
           </div>
         )}
       </div>
-      <VideoTranscript video="founder" speaker="Chase Haynes, founder" />
+      <VideoTranscript transcript={transcript} speaker={t('founder_speaker')} />
       <p className="text-gray-500 text-sm mt-4 text-pretty">
-        Chase Haynes, founder of Blok Blok Studio. You talk to the person who builds your site, not
-        an account&nbsp;manager.
+        {t('founder_caption')}
       </p>
     </div>
   );

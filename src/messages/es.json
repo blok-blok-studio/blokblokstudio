@@ -872,7 +872,7 @@
     "limitations_intro": "A pesar de nuestros esfuerzos, es posible que parte del contenido de este sitio aún no sea totalmente accesible. Problemas conocidos en los que estamos trabajando:",
     "limitation_third_party": "<strong>Contenido de terceros incrustado</strong>: el CAPTCHA de Cloudflare Turnstile y el iframe de reservas de Cal.com heredan su propio comportamiento de accesibilidad del proveedor. Hacemos seguimiento de su estado de conformidad con cada proveedor.",
     "limitation_motion": "<strong>Movimiento decorativo</strong>: las animaciones de fondo se desactivan cuando <code>prefers-reduced-motion</code> está activado, pero algunas microinteracciones magnéticas del cursor pueden seguir reproduciéndose.",
-    "limitation_language": "<strong>Idioma de la declaración</strong>: esta declaración se mantiene actualmente solo en inglés. El sitio en sí está traducido a 19 idiomas.",
+    "limitation_language": "<strong>Idioma de la declaración</strong>, la versión en inglés de esta declaración es la de referencia; las demás son traducciones. El sitio en sí está disponible en 20 idiomas.",
     "feedback_title": "Comentarios y contacto",
     "feedback_intro": "Si encuentras una barrera de accesibilidad en blokblokstudio.com o necesitas información de este sitio en un formato alternativo, contáctanos. Nuestro objetivo es responder a los comentarios sobre accesibilidad en un plazo de <strong>cinco días laborables</strong>.",
     "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Búsqueda local y reseñas",
         "detail": "Posicionarte donde tus clientes buscan de verdad, con reseñas de Google actualizadas en la página."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, fundador",
+    "founder_soon": "Unas palabras de Chase, muy pronto.",
+    "founder_caption": "Chase Haynes, fundador de Blok Blok Studio. Hablas con la persona que construye tu web, no con un gestor de cuentas."
   },
   "ui": {
     "footer_contact": "Contacto",

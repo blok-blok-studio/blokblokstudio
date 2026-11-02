@@ -872,7 +872,7 @@
     "limitations_intro": "Despite our best efforts, some content on this site may not be fully accessible yet. Known issues we are working to resolve:",
     "limitation_third_party": "<strong>Embedded third-party content</strong>, the Cloudflare Turnstile CAPTCHA and the Cal.com booking iframe inherit their own accessibility behavior from the upstream vendor. We track their conformance status with each vendor.",
     "limitation_motion": "<strong>Decorative motion</strong>, ambient background animations are disabled when <code>prefers-reduced-motion</code> is set, but a small number of cursor-magnetic micro-interactions may still play.",
-    "limitation_language": "<strong>Statement language</strong>, this statement is currently maintained in English only. The site itself is localized into 19 languages.",
+    "limitation_language": "<strong>Statement language</strong>, the English version of this statement is the reference; other languages are translations of it. The site itself is available in 20 languages.",
     "feedback_title": "Feedback and contact",
     "feedback_intro": "If you encounter an accessibility barrier on blokblokstudio.com, or need information from this site in an alternative format, please contact us. We aim to respond to accessibility feedback within <strong>five business days</strong>.",
     "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
@@ -953,7 +953,10 @@
         "title": "Local search and reviews",
         "detail": "Rank where your customers actually look, with live Google reviews on the page."
       }
-    }
+    },
+    "founder_speaker": "Chase Haynes, founder",
+    "founder_soon": "A word from Chase, coming soon.",
+    "founder_caption": "Chase Haynes, founder of Blok Blok Studio. You talk to the person who builds your site, not an account manager."
   },
   "ui": {
     "footer_contact": "Contact",
