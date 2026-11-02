@@ -253,7 +253,9 @@
     "v2_next_2_title": "범위와 확정 금액 하나",
     "v2_next_2_desc": "페이지 구성, 일정, 단 하나의 금액이 적힌 서면 계획. 5페이지 사이트는 {price}부터, 시간당 청구는 없습니다.",
     "v2_next_3_title": "킥오프부터 런칭까지",
-    "v2_next_3_desc": "착수금이 들어오면 시작합니다. 대부분의 5페이지 사이트는 4~6주 안에 런칭되며, 호스팅과 관리가 포함됩니다."
+    "v2_next_3_desc": "착수금이 들어오면 시작합니다. 대부분의 5페이지 사이트는 4~6주 안에 런칭되며, 호스팅과 관리가 포함됩니다.",
+    "meta_keywords": "베를린 웹 디자인, 웹 디자인 베를린, 맞춤 Next.js 웹사이트, 웹 디자인 스튜디오, 독일 웹 디자인, 홈페이지 제작 업체, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio, 크리에이티브 테크 스튜디오"
   },
   "projects": {
     "title": "프로젝트",
@@ -268,7 +270,10 @@
     "cat_ecom": "이커머스",
     "cat_brand": "브랜딩",
     "v2_label": "선별된 작업",
-    "v2_count": "{count}개 프로젝트"
+    "v2_count": "{count}개 프로젝트",
+    "alt_live_preview": "{title} 라이브 미리보기",
+    "alt_mobile_preview": "{title} 모바일 미리보기",
+    "alt_gallery": "{title} 갤러리 이미지 {n}"
   },
   "about": {
     "title": "회사 소개",
@@ -446,7 +451,9 @@
     "v2_cta_label": "무엇이 필요한지 모르시겠다면?",
     "v2_cta": "1분 퀴즈 시작하기",
     "v2_industries_label": "함께 일하는 업종",
-    "v2_industries_more": "방법 보기"
+    "v2_industries_more": "방법 보기",
+    "meta_title": "서비스",
+    "meta_description": "맞춤 웹사이트 디자인 및 개발. 결과물을 명확히 정의하고 범위에 맞춰 개별 견적을 드립니다."
   },
   "team": {
     "title": "팀 소개",
@@ -547,7 +554,9 @@
     "success_message": "이메일 목록에서 성공적으로 제거되었습니다.",
     "error_title": "문제가 발생했습니다",
     "error_message": "요청을 처리할 수 없습니다. 링크가 유효하지 않거나 만료되었을 수 있습니다. blokblokstudio.com/contact으로 문의하세요.",
-    "back_home": "홈으로 돌아가기"
+    "back_home": "홈으로 돌아가기",
+    "meta_title": "구독 취소",
+    "meta_description": "이메일 수신을 취소합니다."
   },
   "privacy": {
     "title": "개인정보 보호정책",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>독일</strong>, 연방 접근성 전문기관 Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>미국</strong>, ADA 관련 민원은 미국 법무부 민권국, 제508조 관련은 미국 접근성 위원회(US Access Board).",
     "preparation_title": "이 안내문의 작성 방법",
-    "preparation_content": "이 안내문은 {date}에 WCAG 2.2 AA 기준에 따른 사이트 자체 평가를 통해 작성되었습니다. 평가는 실제 사이트에 대한 자동 검토와 코드베이스에 대한 수동 검토(시맨틱 구조, 키보드 탐색, 포커스 관리, ARIA 사용, 색상 대비, 모션 처리, 언어 방향)를 함께 진행했습니다. 주요 릴리스마다 사이트를 다시 검토합니다."
+    "preparation_content": "이 안내문은 {date}에 WCAG 2.2 AA 기준에 따른 사이트 자체 평가를 통해 작성되었습니다. 평가는 실제 사이트에 대한 자동 검토와 코드베이스에 대한 수동 검토(시맨틱 구조, 키보드 탐색, 포커스 관리, ARIA 사용, 색상 대비, 모션 처리, 언어 방향)를 함께 진행했습니다. 주요 릴리스마다 사이트를 다시 검토합니다.",
+    "meta_description": "Blok Blok Studio는 디지털 접근성에 최선을 다합니다. 당사 웹사이트는 WCAG 2.2 AA, ADA, Section 508, EU 유럽 접근성법을 충족하도록 제작되었습니다."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "시간대를 선택하세요...",
     "ph_telegram": "예: 123456789",
     "ph_notes": "프로젝트나 선호 사항, 일하시는 방식에 대해 저희가 알아야 할 내용...",
-    "ph_brand": "로고 사용법, 브랜드 컬러, 서체, 톤앤매너, 지켜야 할 것과 피할 것..."
+    "ph_brand": "로고 사용법, 브랜드 컬러, 서체, 톤앤매너, 지켜야 할 것과 피할 것...",
+    "meta_description": "온보딩을 완료하고 Blok Blok Studio와 함께 시작하세요."
   },
   "pricing": {
     "packages": "패키지",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "맞춤 견적 받기",
-    "v2_options": "{count, plural, one {#개 옵션} other {#개 옵션}}"
+    "v2_options": "{count, plural, one {#개 옵션} other {#개 옵션}}",
+    "meta_title": "서비스 및 패키지",
+    "meta_description": "맞춤 웹사이트 디자인 및 개발 패키지. 결과물을 명확히 정의하고 범위에 맞춰 개별 견적을 드립니다."
   },
   "a11y": {
     "skip_to_main": "본문으로 건너뛰기",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "파키스탄",
     "country_philippines": "필리핀",
     "country_united_states": "미국"
+  },
+  "seo": {
+    "org_description": "야심 찬 브랜드를 위해 맞춤형 전환 중심 웹사이트를 제작하는 크리에이티브 웹 디자인 스튜디오입니다.",
+    "local_description": "베를린에 기반을 두고 전 세계 야심 찬 브랜드를 위해 맞춤 Next.js 웹사이트를 제작하는 웹 디자인 스튜디오입니다.",
+    "offer_catalog": "웹 디자인 서비스",
+    "service_name": "웹사이트",
+    "service_description": "Next.js와 React로 맞춤 제작한 전환 중심 사이트로, SEO 최적화와 모바일 우선 설계를 적용합니다.",
+    "worldwide": "전 세계",
+    "knows_1": "웹 디자인",
+    "knows_2": "Next.js 개발",
+    "knows_3": "SEO",
+    "knows_4": "전환율 최적화"
   }
 }

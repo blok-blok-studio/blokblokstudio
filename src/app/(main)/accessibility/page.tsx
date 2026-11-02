@@ -1,12 +1,15 @@
 import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import { AccessibilityContent } from '@/components/AccessibilityContent';
 
-export const metadata: Metadata = {
-  title: 'Accessibility Statement',
-  description:
-    'Blok Blok Studio is committed to digital accessibility. Our site is built to meet WCAG 2.2 AA, ADA, Section 508, and the EU European Accessibility Act.',
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations('accessibility');
+  return {
+  title: t('title'),
+  description: t('meta_description'),
   alternates: { canonical: '/accessibility' },
-};
+  };
+}
 
 export default function AccessibilityPage() {
   return (

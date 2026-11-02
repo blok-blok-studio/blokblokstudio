@@ -253,7 +253,9 @@
     "v2_next_2_title": "範疇與一個固定價格",
     "v2_next_2_desc": "一份書面計畫，列出頁面、時程與一個明確的數字。五頁網站 {price} 起，不按時計費。",
     "v2_next_3_title": "從啟動到上線",
-    "v2_next_3_desc": "訂金到帳，我們就開工。多數五頁網站在四到六週內上線，含主機代管與維護。"
+    "v2_next_3_desc": "訂金到帳，我們就開工。多數五頁網站在四到六週內上線，含主機代管與維護。",
+    "meta_keywords": "柏林網頁設計, 網頁設計 柏林, 客製化 Next.js 網站, 網頁設計工作室, 德國網頁設計, 網站設計公司, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio，創意科技工作室"
   },
   "projects": {
     "title": "我們的專案",
@@ -268,7 +270,10 @@
     "cat_ecom": "電子商務",
     "cat_brand": "品牌設計",
     "v2_label": "精選作品",
-    "v2_count": "{count} 個專案"
+    "v2_count": "{count} 個專案",
+    "alt_live_preview": "{title} 線上預覽",
+    "alt_mobile_preview": "{title} 行動版預覽",
+    "alt_gallery": "{title} 圖庫圖片 {n}"
   },
   "about": {
     "title": "關於我們",
@@ -446,7 +451,9 @@
     "v2_cta_label": "不確定需要哪一種？",
     "v2_cta": "做 1 分鐘測驗",
     "v2_industries_label": "我們服務的產業",
-    "v2_industries_more": "看看怎麼做"
+    "v2_industries_more": "看看怎麼做",
+    "meta_title": "服務",
+    "meta_description": "客製化網站設計與開發。交付項目明確，依您的需求範圍個別報價。"
   },
   "team": {
     "title": "我們的團隊",
@@ -547,7 +554,9 @@
     "success_message": "您已成功從我們的郵件列表中刪除。",
     "error_title": "出了點問題",
     "error_message": "我們無法處理您的請求。連結可能無效或已過期。請通過blokblokstudio.com/contact與我們聯絡尋求幫助。",
-    "back_home": "返回首頁"
+    "back_home": "返回首頁",
+    "meta_title": "取消訂閱",
+    "meta_description": "取消訂閱我們的電子郵件。"
   },
   "privacy": {
     "title": "隱私政策",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>德國</strong>：聯邦無障礙事務處 Bundesfachstelle für Barrierefreiheit（<link>bundesfachstelle-barrierefreiheit.de</link>）。",
     "enforcement_us": "<strong>美國</strong>：ADA 申訴請洽美國司法部民權司；第 508 條請洽美國無障礙委員會（US Access Board）。",
     "preparation_title": "本聲明的編製方式",
-    "preparation_content": "本聲明於 {date} 透過對照 WCAG 2.2 AA 的自我評估編製而成。評估結合了對線上網站的自動化檢測，以及對程式碼庫的人工審查（語意結構、鍵盤導覽、焦點管理、ARIA 使用、色彩對比、動態效果處理與語言方向）。每次重大版本發布後，我們都會重新檢視網站。"
+    "preparation_content": "本聲明於 {date} 透過對照 WCAG 2.2 AA 的自我評估編製而成。評估結合了對線上網站的自動化檢測，以及對程式碼庫的人工審查（語意結構、鍵盤導覽、焦點管理、ARIA 使用、色彩對比、動態效果處理與語言方向）。每次重大版本發布後，我們都會重新檢視網站。",
+    "meta_description": "Blok Blok Studio 致力於數位無障礙。我們的網站依照 WCAG 2.2 AA、ADA、Section 508 以及歐盟無障礙法案的標準打造。"
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "選擇你的時區...",
     "ph_telegram": "例如：123456789",
     "ph_notes": "關於專案、偏好或工作方式，任何我們該知道的事...",
-    "ph_brand": "logo 用法、品牌色、字體、語氣風格、可以做與不要做的..."
+    "ph_brand": "logo 用法、品牌色、字體、語氣風格、可以做與不要做的...",
+    "meta_description": "完成客戶資料登錄，開始與 Blok Blok Studio 合作。"
   },
   "pricing": {
     "packages": "方案",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "取得專屬報價",
-    "v2_options": "{count, plural, one {# 種選項} other {# 種選項}}"
+    "v2_options": "{count, plural, one {# 種選項} other {# 種選項}}",
+    "meta_title": "服務與方案",
+    "meta_description": "客製化網站設計與開發方案。交付項目明確，依您的需求範圍個別報價。"
   },
   "a11y": {
     "skip_to_main": "跳至主要內容",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "巴基斯坦",
     "country_philippines": "菲律賓",
     "country_united_states": "美國"
+  },
+  "seo": {
+    "org_description": "一間創意網頁設計工作室，為有企圖心的品牌打造客製化、以轉換為核心的網站。",
+    "local_description": "位於柏林的網頁設計工作室，為全球有企圖心的品牌打造客製化 Next.js 網站。",
+    "offer_catalog": "網頁設計服務",
+    "service_name": "網站",
+    "service_description": "以 Next.js 與 React 客製化開發、以轉換為核心的網站，完成 SEO 最佳化並採用行動優先設計。",
+    "worldwide": "全球",
+    "knows_1": "網頁設計",
+    "knows_2": "Next.js 開發",
+    "knows_3": "SEO",
+    "knows_4": "轉換率優化"
   }
 }

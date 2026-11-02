@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       url: 'https://www.blokblokstudio.com/faq',
       siteName: 'Blok Blok Studio',
       type: 'website',
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Blok Blok Studio FAQ' }],
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: t('meta_title') }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -33,6 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function FAQPage() {
+  const nav = await getTranslations('nav');
   const t = await getTranslations('faq');
   const items = (t.raw('items') as FAQItem[]) || [];
 
@@ -40,8 +41,8 @@ export default async function FAQPage() {
     <div className="page-transition">
       <BreadcrumbSchema
         items={[
-          { name: 'Home', url: '/' },
-          { name: 'FAQ', url: '/faq' },
+          { name: nav('home'), url: '/' },
+          { name: nav('faq'), url: '/faq' },
         ]}
       />
       <FAQSchema

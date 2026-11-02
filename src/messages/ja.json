@@ -253,7 +253,9 @@
     "v2_next_2_title": "スコープと固定価格のご提示",
     "v2_next_2_desc": "ページ構成、スケジュール、ひとつの金額を記した書面の計画。5ページ構成で{price}から、時間課金はありません。",
     "v2_next_3_title": "キックオフから公開まで",
-    "v2_next_3_desc": "着手金のお支払い後、すぐに開始します。5ページ構成のサイトの多くは4〜6週間で公開。ホスティングと保守も含まれます。"
+    "v2_next_3_desc": "着手金のお支払い後、すぐに開始します。5ページ構成のサイトの多くは4〜6週間で公開。ホスティングと保守も含まれます。",
+    "meta_keywords": "ベルリン ウェブデザイン, ウェブデザイン ベルリン, Next.js ウェブサイト制作, ウェブデザインスタジオ, ドイツ ウェブ制作, ホームページ制作会社, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio、クリエイティブ・テックスタジオ"
   },
   "projects": {
     "title": "プロジェクト一覧",
@@ -268,7 +270,10 @@
     "cat_ecom": "Eコマース",
     "cat_brand": "ブランディング",
     "v2_label": "主な実績",
-    "v2_count": "{count}件のプロジェクト"
+    "v2_count": "{count}件のプロジェクト",
+    "alt_live_preview": "{title} ライブプレビュー",
+    "alt_mobile_preview": "{title} モバイルプレビュー",
+    "alt_gallery": "{title} ギャラリー画像 {n}"
   },
   "about": {
     "title": "私たちについて",
@@ -446,7 +451,9 @@
     "v2_cta_label": "どれが必要かわからないときは",
     "v2_cta": "1分診断を受ける",
     "v2_industries_label": "対応業種",
-    "v2_industries_more": "詳しく見る"
+    "v2_industries_more": "詳しく見る",
+    "meta_title": "サービス",
+    "meta_description": "カスタムウェブサイトのデザインと開発。成果物を明記し、スコープに合わせて個別にお見積もりします。"
   },
   "team": {
     "title": "チーム紹介",
@@ -547,7 +554,9 @@
     "success_message": "メールリストから正常に削除されました。",
     "error_title": "問題が発生しました",
     "error_message": "リクエストを処理できませんでした。リンクが無効または期限切れの可能性があります。blokblokstudio.com/contactまでお問い合わせください。",
-    "back_home": "ホームに戻る"
+    "back_home": "ホームに戻る",
+    "meta_title": "登録解除",
+    "meta_description": "メールの配信登録を解除します。"
   },
   "privacy": {
     "title": "プライバシーポリシー",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>ドイツ</strong>：連邦バリアフリー専門機関 Bundesfachstelle für Barrierefreiheit（<link>bundesfachstelle-barrierefreiheit.de</link>）。",
     "enforcement_us": "<strong>米国</strong>：ADAに関する申し立ては米国司法省公民権局、第508条については米国アクセス委員会（US Access Board）。",
     "preparation_title": "本声明の作成方法",
-    "preparation_content": "本声明は{date}に、WCAG 2.2 AAに照らしたサイトの自己評価に基づいて作成されました。評価では、公開中のサイトの自動レビューと、コードベースの手動レビュー（セマンティック構造、キーボード操作、フォーカス管理、ARIAの使用、色のコントラスト、モーションの扱い、ロケールの書字方向）を組み合わせました。重要なリリースのたびにサイトを再評価しています。"
+    "preparation_content": "本声明は{date}に、WCAG 2.2 AAに照らしたサイトの自己評価に基づいて作成されました。評価では、公開中のサイトの自動レビューと、コードベースの手動レビュー（セマンティック構造、キーボード操作、フォーカス管理、ARIAの使用、色のコントラスト、モーションの扱い、ロケールの書字方向）を組み合わせました。重要なリリースのたびにサイトを再評価しています。",
+    "meta_description": "Blok Blok Studioはデジタルアクセシビリティに取り組んでいます。当サイトはWCAG 2.2 AA、ADA、Section 508、およびEU 欧州アクセシビリティ法に準拠するよう構築されています。"
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "タイムゾーンを選択...",
     "ph_telegram": "例：123456789",
     "ph_notes": "プロジェクトやご希望、進め方について知っておくべきことがあればご記入ください...",
-    "ph_brand": "ロゴの使い方、ブランドカラー、フォント、トーン、してよいこと・避けたいこと..."
+    "ph_brand": "ロゴの使い方、ブランドカラー、フォント、トーン、してよいこと・避けたいこと...",
+    "meta_description": "お客様情報の登録を完了して、Blok Blok Studioとのプロジェクトを始めましょう。"
   },
   "pricing": {
     "packages": "プラン",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "個別見積もりを依頼",
-    "v2_options": "{count, plural, one {# 種類のプラン} other {# 種類のプラン}}"
+    "v2_options": "{count, plural, one {# 種類のプラン} other {# 種類のプラン}}",
+    "meta_title": "サービスとプラン",
+    "meta_description": "カスタムウェブサイトのデザイン・開発プラン。成果物を明記し、スコープに合わせて個別にお見積もりします。"
   },
   "a11y": {
     "skip_to_main": "メインコンテンツへスキップ",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "パキスタン",
     "country_philippines": "フィリピン",
     "country_united_states": "アメリカ合衆国"
+  },
+  "seo": {
+    "org_description": "意欲あるブランドのために、コンバージョンを重視したカスタムウェブサイトを制作するクリエイティブなウェブデザインスタジオです。",
+    "local_description": "ベルリンを拠点に、世界中の意欲あるブランドのためにカスタムのNext.jsウェブサイトを構築するウェブデザインスタジオです。",
+    "offer_catalog": "ウェブデザインサービス",
+    "service_name": "ウェブサイト",
+    "service_description": "Next.jsとReactで構築する、コンバージョン重視のカスタムサイト。SEO最適化とモバイルファーストで設計します。",
+    "worldwide": "全世界",
+    "knows_1": "ウェブデザイン",
+    "knows_2": "Next.js開発",
+    "knows_3": "SEO",
+    "knows_4": "コンバージョン最適化"
   }
 }

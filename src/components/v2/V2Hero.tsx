@@ -73,7 +73,7 @@ export async function V2Hero() {
         {/* Lockup with subhead: an approved variation (Guidelines 2.2). */}
         <Image
           src="/logo-wordmark-subhead.svg"
-          alt="Blok Blok Studio, creative tech studio"
+          alt={t('v2_lockup_alt')}
           width={1025}
           height={550}
           priority

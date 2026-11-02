@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: '/og-image.jpg',
           width: 1200,
           height: 630,
-          alt: 'Blok Blok Studio Team',
+          alt: `${t('title')} | Blok Blok Studio`,
         },
       ],
     },
@@ -33,12 +33,13 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function TeamPage() {
+export default async function TeamPage() {
+  const nav = await getTranslations('nav');
   return (
     <div className="page-transition">
       <BreadcrumbSchema items={[
-        { name: 'Home', url: '/' },
-        { name: 'Team', url: '/team' },
+        { name: nav('home'), url: '/' },
+        { name: nav('team'), url: '/team' },
       ]} />
       <V2TeamContent />
     </div>

@@ -253,7 +253,9 @@
     "v2_next_2_title": "Phạm vi và một mức giá cố định",
     "v2_next_2_desc": "Kế hoạch bằng văn bản với số trang, thời gian và một con số duy nhất. Website năm trang từ {price}, không tính giờ.",
     "v2_next_3_title": "Từ khởi động đến ra mắt",
-    "v2_next_3_desc": "Nhận cọc là bắt tay vào làm. Hầu hết website năm trang lên sóng trong bốn đến sáu tuần, đã bao gồm hosting và chăm sóc."
+    "v2_next_3_desc": "Nhận cọc là bắt tay vào làm. Hầu hết website năm trang lên sóng trong bốn đến sáu tuần, đã bao gồm hosting và chăm sóc.",
+    "meta_keywords": "thiết kế web Berlin, thiết kế website Berlin, website Next.js tùy chỉnh, studio thiết kế web, thiết kế web Đức, công ty thiết kế website, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio, studio công nghệ sáng tạo"
   },
   "projects": {
     "title": "Dự án của chúng tôi",
@@ -268,7 +270,10 @@
     "cat_ecom": "Thương mại điện tử",
     "cat_brand": "Thương hiệu",
     "v2_label": "Dự án tiêu biểu",
-    "v2_count": "{count} dự án"
+    "v2_count": "{count} dự án",
+    "alt_live_preview": "Bản xem trước trực tiếp của {title}",
+    "alt_mobile_preview": "Bản xem trước trên di động của {title}",
+    "alt_gallery": "Ảnh thư viện {n} của {title}"
   },
   "about": {
     "title": "Về chúng tôi",
@@ -446,7 +451,9 @@
     "v2_cta_label": "Chưa chắc mình cần gói nào?",
     "v2_cta": "Làm bài trắc nghiệm 1 phút",
     "v2_industries_label": "Chúng tôi xây dựng cho ai",
-    "v2_industries_more": "Xem cách làm"
+    "v2_industries_more": "Xem cách làm",
+    "meta_title": "Dịch vụ",
+    "meta_description": "Thiết kế và phát triển website tùy chỉnh. Hạng mục bàn giao rõ ràng, báo giá riêng theo phạm vi của bạn."
   },
   "team": {
     "title": "Đội ngũ",
@@ -547,7 +554,9 @@
     "success_message": "Bạn đã được gỡ khỏi danh sách email của chúng tôi.",
     "error_title": "Đã có lỗi xảy ra",
     "error_message": "Chúng tôi không thể xử lý yêu cầu. Liên kết có thể không hợp lệ hoặc đã hết hạn. Liên hệ blokblokstudio.com/contact để được trợ giúp.",
-    "back_home": "Về trang chủ"
+    "back_home": "Về trang chủ",
+    "meta_title": "Hủy đăng ký",
+    "meta_description": "Hủy đăng ký nhận email từ chúng tôi."
   },
   "privacy": {
     "title": "Chính sách Bảo mật",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>Đức</strong>, Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Hoa Kỳ</strong>, Ban Dân quyền thuộc Bộ Tư pháp Hoa Kỳ cho khiếu nại ADA; Ủy ban Tiếp cận Hoa Kỳ (US Access Board) cho Mục 508.",
     "preparation_title": "Tuyên bố này được chuẩn bị như thế nào",
-    "preparation_content": "Tuyên bố này được chuẩn bị vào {date} thông qua tự đánh giá website theo WCAG 2.2 AA. Việc đánh giá kết hợp rà soát tự động trên website đang chạy với rà soát thủ công mã nguồn (cấu trúc ngữ nghĩa, điều hướng bàn phím, quản lý focus, cách dùng ARIA, độ tương phản màu, xử lý chuyển động và hướng ngôn ngữ). Chúng tôi rà soát lại website sau mỗi bản phát hành quan trọng."
+    "preparation_content": "Tuyên bố này được chuẩn bị vào {date} thông qua tự đánh giá website theo WCAG 2.2 AA. Việc đánh giá kết hợp rà soát tự động trên website đang chạy với rà soát thủ công mã nguồn (cấu trúc ngữ nghĩa, điều hướng bàn phím, quản lý focus, cách dùng ARIA, độ tương phản màu, xử lý chuyển động và hướng ngôn ngữ). Chúng tôi rà soát lại website sau mỗi bản phát hành quan trọng.",
+    "meta_description": "Blok Blok Studio cam kết bảo đảm khả năng tiếp cận số. Website của chúng tôi được xây dựng để đáp ứng WCAG 2.2 AA, ADA, Section 508 và Đạo luật Tiếp cận châu Âu của EU."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "Chọn múi giờ của bạn...",
     "ph_telegram": "vd. 123456789",
     "ph_notes": "Bất cứ điều gì chúng tôi nên biết về dự án, sở thích hoặc cách bạn làm việc...",
-    "ph_brand": "Cách dùng logo, màu thương hiệu, phông chữ, giọng điệu, nên và không nên..."
+    "ph_brand": "Cách dùng logo, màu thương hiệu, phông chữ, giọng điệu, nên và không nên...",
+    "meta_description": "Hoàn tất quy trình thiết lập để bắt đầu với Blok Blok Studio."
   },
   "pricing": {
     "packages": "GÓI DỊCH VỤ",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "Nhận báo giá riêng",
-    "v2_options": "{count, plural, one {# lựa chọn} other {# lựa chọn}}"
+    "v2_options": "{count, plural, one {# lựa chọn} other {# lựa chọn}}",
+    "meta_title": "Dịch vụ & Gói dịch vụ",
+    "meta_description": "Các gói thiết kế và phát triển website tùy chỉnh. Hạng mục bàn giao rõ ràng, báo giá riêng theo phạm vi của bạn."
   },
   "a11y": {
     "skip_to_main": "Chuyển đến nội dung chính",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "Pakistan",
     "country_philippines": "Philippines",
     "country_united_states": "Hoa Kỳ"
+  },
+  "seo": {
+    "org_description": "Studio thiết kế web sáng tạo, xây dựng website tùy chỉnh tập trung vào chuyển đổi cho các thương hiệu tham vọng.",
+    "local_description": "Studio thiết kế web tại Berlin, xây dựng website Next.js tùy chỉnh cho các thương hiệu tham vọng trên toàn thế giới.",
+    "offer_catalog": "Dịch vụ thiết kế web",
+    "service_name": "Website",
+    "service_description": "Website được xây tùy chỉnh, tập trung chuyển đổi, với Next.js và React, tối ưu SEO và ưu tiên di động.",
+    "worldwide": "Toàn thế giới",
+    "knows_1": "Thiết kế web",
+    "knows_2": "Phát triển Next.js",
+    "knows_3": "SEO",
+    "knows_4": "Tối ưu hóa chuyển đổi"
   }
 }

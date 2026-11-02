@@ -253,7 +253,9 @@
     "v2_next_2_title": "Alcance y un precio fijo",
     "v2_next_2_desc": "Un plan por escrito con páginas, calendario y una sola cifra. Cinco páginas desde {price}, sin facturación por horas.",
     "v2_next_3_title": "Del arranque al lanzamiento",
-    "v2_next_3_desc": "Con el depósito recibido, empezamos. La mayoría de las webs de cinco páginas se publican en cuatro a seis semanas, con hosting y mantenimiento incluidos."
+    "v2_next_3_desc": "Con el depósito recibido, empezamos. La mayoría de las webs de cinco páginas se publican en cuatro a seis semanas, con hosting y mantenimiento incluidos.",
+    "meta_keywords": "diseño web Berlín, agencia de diseño web Berlín, páginas web a medida Next.js, estudio de diseño web, diseño web Alemania, agencia de páginas web, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio, estudio creativo y tecnológico"
   },
   "projects": {
     "title": "Nuestros Proyectos",
@@ -268,7 +270,10 @@
     "cat_ecom": "E-commerce",
     "cat_brand": "Branding",
     "v2_label": "Trabajos seleccionados",
-    "v2_count": "{count} proyectos"
+    "v2_count": "{count} proyectos",
+    "alt_live_preview": "Vista previa en vivo de {title}",
+    "alt_mobile_preview": "Vista previa móvil de {title}",
+    "alt_gallery": "Imagen {n} de la galería de {title}"
   },
   "about": {
     "title": "Sobre Nosotros",
@@ -446,7 +451,9 @@
     "v2_cta_label": "¿No sabes cuál necesitas?",
     "v2_cta": "Haz el test de 1 minuto",
     "v2_industries_label": "Para quién construimos",
-    "v2_industries_more": "Ver cómo"
+    "v2_industries_more": "Ver cómo",
+    "meta_title": "Servicios",
+    "meta_description": "Diseño y desarrollo web a medida. Entregables definidos, presupuestados a medida según tu alcance."
   },
   "team": {
     "title": "Nuestro Equipo",
@@ -547,7 +554,9 @@
     "success_message": "Has sido eliminado exitosamente de nuestra lista de correo.",
     "error_title": "Algo Salió Mal",
     "error_message": "No pudimos procesar tu solicitud. El enlace puede ser inválido o haber expirado. Contáctanos en blokblokstudio.com/contact para obtener ayuda.",
-    "back_home": "Volver al Inicio"
+    "back_home": "Volver al Inicio",
+    "meta_title": "Darse de baja",
+    "meta_description": "Date de baja de nuestros correos."
   },
   "privacy": {
     "title": "Política de Privacidad",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>Alemania</strong>: la Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Estados Unidos</strong>: la División de Derechos Civiles del Departamento de Justicia de EE. UU. para reclamaciones ADA; la US Access Board para la Sección 508.",
     "preparation_title": "Cómo se elaboró esta declaración",
-    "preparation_content": "Esta declaración se elaboró el {date} mediante una autoevaluación del sitio frente a las WCAG 2.2 AA. La evaluación combinó una revisión automatizada del sitio en producción con una revisión manual del código (estructura semántica, navegación por teclado, gestión del foco, uso de ARIA, contraste de color, tratamiento del movimiento y dirección de cada idioma). Volvemos a revisar el sitio tras cada versión importante."
+    "preparation_content": "Esta declaración se elaboró el {date} mediante una autoevaluación del sitio frente a las WCAG 2.2 AA. La evaluación combinó una revisión automatizada del sitio en producción con una revisión manual del código (estructura semántica, navegación por teclado, gestión del foco, uso de ARIA, contraste de color, tratamiento del movimiento y dirección de cada idioma). Volvemos a revisar el sitio tras cada versión importante.",
+    "meta_description": "Blok Blok Studio se compromete con la accesibilidad digital. Nuestro sitio está construido para cumplir las WCAG 2.2 AA, la ADA, la Sección 508 y la Ley Europea de Accesibilidad de la UE."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "Selecciona tu zona horaria...",
     "ph_telegram": "p. ej. 123456789",
     "ph_notes": "Cualquier cosa que debamos saber sobre tu proyecto, preferencias o forma de trabajar...",
-    "ph_brand": "Uso del logo, colores de marca, tipografías, tono de voz, lo que sí y lo que no..."
+    "ph_brand": "Uso del logo, colores de marca, tipografías, tono de voz, lo que sí y lo que no...",
+    "meta_description": "Completa tu onboarding para empezar con Blok Blok Studio."
   },
   "pricing": {
     "packages": "PAQUETES",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "Pide un presupuesto a medida",
-    "v2_options": "{count, plural, one {# opción} other {# opciones}}"
+    "v2_options": "{count, plural, one {# opción} other {# opciones}}",
+    "meta_title": "Servicios y Paquetes",
+    "meta_description": "Paquetes de diseño y desarrollo web a medida. Entregables definidos, presupuestados a medida según tu alcance."
   },
   "a11y": {
     "skip_to_main": "Saltar al contenido principal",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "Pakistán",
     "country_philippines": "Filipinas",
     "country_united_states": "Estados Unidos"
+  },
+  "seo": {
+    "org_description": "Un estudio creativo de diseño web que crea sitios web a medida y orientados a la conversión para marcas ambiciosas.",
+    "local_description": "Estudio de diseño web con sede en Berlín que construye sitios web a medida con Next.js para marcas ambiciosas de todo el mundo.",
+    "offer_catalog": "Servicios de Diseño Web",
+    "service_name": "Sitios web",
+    "service_description": "Sitios construidos a medida y orientados a la conversión con Next.js y React, optimizados para SEO y pensados primero para móvil.",
+    "worldwide": "Todo el mundo",
+    "knows_1": "Diseño Web",
+    "knows_2": "Desarrollo Next.js",
+    "knows_3": "SEO",
+    "knows_4": "Optimización de conversiones"
   }
 }

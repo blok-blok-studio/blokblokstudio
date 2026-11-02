@@ -1,15 +1,18 @@
+import { getLocale, getTranslations } from 'next-intl/server';
 import { videoUrls, type SiteVideo, type SiteVideoKey } from '@/data/videos';
 import { transcriptAsPlainText } from '@/data/video-transcripts';
 
-export function OrganizationSchema() {
+export async function OrganizationSchema() {
+  const t = await getTranslations('seo');
+  const locale = await getLocale();
   const schema = {
+    inLanguage: locale,
     '@context': 'https://schema.org',
     '@type': ['Organization', 'ProfessionalService'],
     name: 'Blok Blok Studio',
     url: 'https://www.blokblokstudio.com',
     logo: 'https://www.blokblokstudio.com/logo.png',
-    description:
-      'A creative web design studio crafting custom, conversion-focused websites for ambitious brands.',
+    description: t('org_description'),
     foundingDate: '2024-06',
     contactPoint: {
       '@type': 'ContactPoint',
@@ -28,14 +31,14 @@ export function OrganizationSchema() {
     },
     areaServed: {
       '@type': 'GeoShape',
-      name: 'Worldwide',
+      name: t('worldwide'),
     },
     priceRange: '$$',
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'Web Design Services',
+      name: t('offer_catalog'),
       itemListElement: [
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Websites' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: t('service_name') } },
       ],
     },
   };
@@ -48,11 +51,13 @@ export function OrganizationSchema() {
   );
 }
 
-export function WebsiteSchema() {
+export async function WebsiteSchema() {
+  const locale = await getLocale();
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Blok Blok Studio',
+    inLanguage: locale,
     url: 'https://www.blokblokstudio.com',
   };
 
@@ -106,13 +111,14 @@ export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }
   );
 }
 
-export function ServiceSchema() {
+export async function ServiceSchema() {
+  const t = await getTranslations('seo');
   // Live-site service list, only website design exposed publicly. The
   // remaining services remain in source history for future re-enable.
   const services = [
     {
-      name: 'Websites',
-      description: 'Custom-built, conversion-focused sites with Next.js and React, SEO-optimized and mobile-first.',
+      name: t('service_name'),
+      description: t('service_description'),
     },
   ];
 
@@ -126,7 +132,7 @@ export function ServiceSchema() {
       url: 'https://www.blokblokstudio.com',
     },
     description: service.description,
-    areaServed: 'Worldwide',
+    areaServed: t('worldwide'),
   }));
 
   return (
@@ -142,15 +148,17 @@ export function ServiceSchema() {
   );
 }
 
-export function LocalBusinessSchema() {
+export async function LocalBusinessSchema() {
+  const t = await getTranslations('seo');
+  const locale = await getLocale();
   const schema = {
+    inLanguage: locale,
     '@context': 'https://schema.org',
     '@type': ['LocalBusiness', 'ProfessionalService'],
     '@id': 'https://www.blokblokstudio.com/#organization',
     name: 'Blok Blok Studio',
     alternateName: 'BlokBlok Studio',
-    description:
-      'Berlin-based web design studio building custom Next.js websites for ambitious brands worldwide.',
+    description: t('local_description'),
     image: 'https://www.blokblokstudio.com/logo-hero.png',
     logo: 'https://www.blokblokstudio.com/logo.svg',
     url: 'https://www.blokblokstudio.com',
@@ -173,7 +181,7 @@ export function LocalBusinessSchema() {
       },
       birthPlace: { '@type': 'Place', name: 'San Diego, California' },
       homeLocation: { '@type': 'Place', name: 'Berlin, Germany' },
-      knowsAbout: ['Web Design', 'Next.js Development', 'Conversion Optimization', 'SEO'],
+      knowsAbout: [t('knows_1'), t('knows_2'), t('knows_4'), t('knows_3')],
       sameAs: [
         'https://www.linkedin.com/in/chase-haynes/',
         'https://www.instagram.com/haynes2va/',
@@ -196,14 +204,10 @@ export function LocalBusinessSchema() {
       { '@type': 'Country', name: 'United Kingdom' },
       { '@type': 'Country', name: 'Netherlands' },
       { '@type': 'Country', name: 'France' },
-      { '@type': 'Place', name: 'Worldwide' },
+      { '@type': 'Place', name: t('worldwide') },
     ],
     knowsLanguage: ['English', 'German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese', 'Polish', 'Russian', 'Swedish', 'Turkish', 'Arabic', 'Hindi', 'Indonesian', 'Japanese', 'Korean', 'Thai', 'Vietnamese', 'Chinese'],
-    knowsAbout: [
-      'Web Design',
-      'Next.js Development',
-      'SEO',
-    ],
+    knowsAbout: [t('knows_1'), t('knows_2'), t('knows_3')],
     priceRange: '$$',
     // Everything is quoted in euros. Dollar figures elsewhere on the site
     // are US clients' results, not our prices.

@@ -118,7 +118,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
               {project.embeddable ? (
                 <ScaledLiveIframe src={project.useProxy ? `/api/proxy/${slug}` : project.url} title={`${project.title} live site`} />
               ) : (
-                <FullPageScreenshot url={project.url} alt={`${project.title} live preview`} fallback={project.heroImage} />
+                <FullPageScreenshot url={project.url} alt={tp('alt_live_preview', { title: project.title })} fallback={project.heroImage} />
               )}
             </div>
 
@@ -131,7 +131,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
             >
               {project.mobileImage && (
                 <div className="relative aspect-[4/5]">
-                  <Image src={project.mobileImage} alt={`${project.title} mobile preview`} fill sizes="100vw" className="object-cover object-top" />
+                  <Image src={project.mobileImage} alt={tp('alt_mobile_preview', { title: project.title })} fill sizes="100vw" className="object-cover object-top" />
                 </div>
               )}
               <div className="flex items-center justify-between gap-4 border-t border-white/10 px-5 py-4">
@@ -186,7 +186,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
             <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {gallery.map((img, i) => (
                 <li key={img} className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-gray-950">
-                  <Image src={img} alt={`${project.title} gallery ${i + 1}`} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover object-top" />
+                  <Image src={img} alt={tp('alt_gallery', { title: project.title, n: i + 1 })} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover object-top" />
                 </li>
               ))}
             </ul>

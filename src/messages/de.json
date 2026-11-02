@@ -253,7 +253,9 @@
     "v2_next_2_title": "Umfang und ein Festpreis",
     "v2_next_2_desc": "Ein schriftlicher Plan mit Seiten, Zeitrahmen und einer einzigen Zahl. Fünf Seiten ab {price}, keine Stundenabrechnung.",
     "v2_next_3_title": "Kickoff bis Launch",
-    "v2_next_3_desc": "Anzahlung rein, wir legen los. Die meisten Fünf-Seiten-Projekte sind in vier bis sechs Wochen live, Hosting und Betreuung inklusive."
+    "v2_next_3_desc": "Anzahlung rein, wir legen los. Die meisten Fünf-Seiten-Projekte sind in vier bis sechs Wochen live, Hosting und Betreuung inklusive.",
+    "meta_keywords": "Webdesign Berlin, Webdesign Agentur Berlin, Website erstellen lassen Berlin, Next.js Agentur, Webdesign Studio, Webdesign Deutschland, Webagentur Berlin, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio, kreatives Tech-Studio"
   },
   "projects": {
     "title": "Unsere Projekte",
@@ -268,7 +270,10 @@
     "cat_ecom": "E-Commerce",
     "cat_brand": "Branding",
     "v2_label": "Ausgewählte Arbeiten",
-    "v2_count": "{count} Projekte"
+    "v2_count": "{count} Projekte",
+    "alt_live_preview": "Live-Vorschau von {title}",
+    "alt_mobile_preview": "Mobile Vorschau von {title}",
+    "alt_gallery": "Galeriebild {n} von {title}"
   },
   "about": {
     "title": "Über Uns",
@@ -446,7 +451,9 @@
     "v2_cta_label": "Unsicher, was Sie brauchen?",
     "v2_cta": "1-Minuten-Quiz starten",
     "v2_industries_label": "Für wen wir bauen",
-    "v2_industries_more": "So geht es"
+    "v2_industries_more": "So geht es",
+    "meta_title": "Leistungen",
+    "meta_description": "Individuelles Webdesign und Entwicklung. Klar definierte Leistungen, individuell auf Ihren Umfang kalkuliert."
   },
   "team": {
     "title": "Unser Team",
@@ -547,7 +554,9 @@
     "success_message": "Sie wurden erfolgreich von unserer E-Mail-Liste entfernt.",
     "error_title": "Etwas Ist Schief Gelaufen",
     "error_message": "Wir konnten Ihre Anfrage nicht bearbeiten. Der Link ist möglicherweise ungültig oder abgelaufen. Kontaktieren Sie uns unter blokblokstudio.com/contact für Hilfe.",
-    "back_home": "Zurück zur Startseite"
+    "back_home": "Zurück zur Startseite",
+    "meta_title": "Abmelden",
+    "meta_description": "Melden Sie sich von unseren E-Mails ab."
   },
   "privacy": {
     "title": "Datenschutzerklärung",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>Deutschland</strong>, die Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Vereinigte Staaten</strong>, die Civil Rights Division des US-Justizministeriums für ADA-Beschwerden; das US Access Board für Section 508.",
     "preparation_title": "Wie diese Erklärung erstellt wurde",
-    "preparation_content": "Diese Erklärung wurde am {date} auf Grundlage einer Selbstbewertung der Website anhand von WCAG 2.2 AA erstellt. Die Bewertung kombinierte eine automatisierte Prüfung der Live-Website mit einer manuellen Prüfung des Quellcodes (semantische Struktur, Tastaturnavigation, Fokusmanagement, ARIA-Verwendung, Farbkontrast, Umgang mit Animationen und Schreibrichtung der Sprachen). Nach jedem wesentlichen Release prüfen wir die Website erneut."
+    "preparation_content": "Diese Erklärung wurde am {date} auf Grundlage einer Selbstbewertung der Website anhand von WCAG 2.2 AA erstellt. Die Bewertung kombinierte eine automatisierte Prüfung der Live-Website mit einer manuellen Prüfung des Quellcodes (semantische Struktur, Tastaturnavigation, Fokusmanagement, ARIA-Verwendung, Farbkontrast, Umgang mit Animationen und Schreibrichtung der Sprachen). Nach jedem wesentlichen Release prüfen wir die Website erneut.",
+    "meta_description": "Blok Blok Studio setzt sich für digitale Barrierefreiheit ein. Unsere Website ist darauf ausgelegt, WCAG 2.2 AA, ADA, Section 508 und den EU European Accessibility Act zu erfüllen."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "Zeitzone auswählen...",
     "ph_telegram": "z. B. 123456789",
     "ph_notes": "Alles, was wir über Ihr Projekt, Ihre Vorlieben oder Ihren Ablauf wissen sollten...",
-    "ph_brand": "Logo-Verwendung, Markenfarben, Schriften, Tonalität, Do's und Don'ts..."
+    "ph_brand": "Logo-Verwendung, Markenfarben, Schriften, Tonalität, Do's und Don'ts...",
+    "meta_description": "Schließen Sie Ihr Onboarding ab, um mit Blok Blok Studio zu starten."
   },
   "pricing": {
     "packages": "PAKETE",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "Individuelles Angebot anfragen",
-    "v2_options": "{count, plural, one {# Option} other {# Optionen}}"
+    "v2_options": "{count, plural, one {# Option} other {# Optionen}}",
+    "meta_title": "Leistungen & Pakete",
+    "meta_description": "Pakete für individuelles Webdesign und Entwicklung. Klar definierte Leistungen, individuell auf Ihren Umfang kalkuliert."
   },
   "a11y": {
     "skip_to_main": "Zum Hauptinhalt springen",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "Pakistan",
     "country_philippines": "Philippinen",
     "country_united_states": "Vereinigte Staaten"
+  },
+  "seo": {
+    "org_description": "Ein kreatives Webdesign-Studio, das individuelle, conversion-orientierte Websites für ambitionierte Marken entwickelt.",
+    "local_description": "Webdesign-Studio aus Berlin, das individuelle Next.js-Websites für ambitionierte Marken weltweit baut.",
+    "offer_catalog": "Webdesign-Leistungen",
+    "service_name": "Websites",
+    "service_description": "Individuell entwickelte, conversion-orientierte Websites mit Next.js und React, SEO-optimiert und Mobile First.",
+    "worldwide": "Weltweit",
+    "knows_1": "Webdesign",
+    "knows_2": "Next.js-Entwicklung",
+    "knows_3": "SEO",
+    "knows_4": "Conversion-Optimierung"
   }
 }

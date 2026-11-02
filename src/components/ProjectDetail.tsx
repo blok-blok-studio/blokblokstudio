@@ -51,6 +51,7 @@ import { useTranslations, useLocale } from 'next-intl';
  */
 export function ProjectDetail({ slug }: { slug: string }) {
   const t = useTranslations('ui');
+  const tpj = useTranslations('projects');
   const locale = useLocale();
   const project = localizeProject(slug, locale);
   // Caption track lives in videos.ts, which is the source of truth for
@@ -221,7 +222,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={`https://api.microlink.io/?url=${encodeURIComponent(project.url)}&screenshot=true&fullPage=true&meta=false&embed=screenshot.url&type=jpeg&waitUntil=networkidle0`}
-                        alt={`${project.title} live preview`}
+                        alt={tpj('alt_live_preview', { title: project.title })}
                         className="w-full block"
                         loading="lazy"
                         onError={(e) => {
@@ -246,7 +247,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                   <div className="relative aspect-[4/5] bg-gray-950">
                     <Image
                       src={project.mobileImage}
-                      alt={`${project.title} mobile preview`}
+                      alt={tpj('alt_mobile_preview', { title: project.title })}
                       fill
                       className="object-cover object-top"
                       sizes="100vw"
@@ -359,7 +360,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
                 <div className="aspect-[4/3] rounded-2xl sm:rounded-3xl relative overflow-hidden bg-gray-900">
                   <Image
                     src={img}
-                    alt={`${project.title} gallery ${i + 1}`}
+                    alt={tpj('alt_gallery', { title: project.title, n: i + 1 })}
                     fill
                     className="object-cover object-top"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

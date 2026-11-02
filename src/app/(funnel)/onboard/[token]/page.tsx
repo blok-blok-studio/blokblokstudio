@@ -1,11 +1,15 @@
 import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import { OnboardContent } from '@/components/OnboardContent';
 
-export const metadata: Metadata = {
-  title: 'Client Onboarding | Blok Blok Studio',
-  description: 'Complete your onboarding to get started with Blok Blok Studio.',
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations('onboard');
+  return {
+  title: t('title'),
+  description: t('meta_description'),
   robots: { index: false, follow: false },
-};
+  };
+}
 
 export default async function OnboardPage({
   params,

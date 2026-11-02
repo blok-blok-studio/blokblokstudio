@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getLocale } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { SpecialtyContent } from '@/components/SpecialtyContent';
 import { BreadcrumbSchema } from '@/app/structured-data';
 import { localizeSpecialty } from '@/data/i18n';
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       url: `https://www.blokblokstudio.com/${SLUG}`,
       siteName: 'Blok Blok Studio',
       type: 'website',
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Blok Blok Studio' }],
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: data.metaTitle }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -35,6 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Page() {
+  const nav = await getTranslations('nav');
   const data = await pageData();
   // FAQPage structured data: makes the FAQ eligible for rich results and
   // gives AI search engines a clean Q&A block to quote.
@@ -56,7 +57,7 @@ export default async function Page() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Home', url: '/' },
+          { name: nav('home'), url: '/' },
           { name: data.h1, url: `/${SLUG}` },
         ]}
       />

@@ -1,37 +1,39 @@
 import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import { V2ServicesContent } from '@/components/v2/V2ServicesContent';
 import { BreadcrumbSchema } from '@/app/structured-data';
 
-export const metadata: Metadata = {
-  title: 'Services | Blok Blok Studio',
-  description:
-    'Custom website design and development. Defined deliverables, custom-quoted to your scope.',
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations('services');
+  return {
+  title: t('meta_title'),
+  description: t('meta_description'),
   alternates: { canonical: '/services' },
   openGraph: {
-    title: 'Services | Blok Blok Studio',
-    description:
-      'Custom website design and development. Defined deliverables, custom-quoted to your scope.',
+    title: `${t('meta_title')} | Blok Blok Studio`,
+    description: t('meta_description'),
     url: 'https://www.blokblokstudio.com/services',
     siteName: 'Blok Blok Studio',
     type: 'website',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Blok Blok Studio Services' }],
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: `${t('meta_title')} | Blok Blok Studio` }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Services | Blok Blok Studio',
-    description:
-      'Custom website design and development. Defined deliverables, custom-quoted to your scope.',
+    title: `${t('meta_title')} | Blok Blok Studio`,
+    description: t('meta_description'),
     images: ['/og-image.jpg'],
   },
-};
+  };
+}
 
-export default function ServicesPage() {
+export default async function ServicesPage() {
+  const nav = await getTranslations('nav');
   return (
     <div className="page-transition">
       <BreadcrumbSchema
         items={[
-          { name: 'Home', url: '/' },
-          { name: 'Services', url: '/services' },
+          { name: nav('home'), url: '/' },
+          { name: nav('services'), url: '/services' },
         ]}
       />
       <V2ServicesContent />

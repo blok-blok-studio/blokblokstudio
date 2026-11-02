@@ -253,7 +253,9 @@
     "v2_next_2_title": "Kapsam ve tek bir sabit fiyat",
     "v2_next_2_desc": "Sayfalar, zaman planı ve tek bir rakam içeren yazılı bir plan. Beş sayfa {price} fiyatından başlar, saatlik ücret yok.",
     "v2_next_3_title": "Başlangıçtan lansmana",
-    "v2_next_3_desc": "Kapora yatar, biz başlarız. Çoğu beş sayfalık site dört ila altı haftada yayına girer, barındırma ve bakım dahil."
+    "v2_next_3_desc": "Kapora yatar, biz başlarız. Çoğu beş sayfalık site dört ila altı haftada yayına girer, barındırma ve bakım dahil.",
+    "meta_keywords": "Berlin web tasarım, web tasarım Berlin, özel Next.js web sitesi, web tasarım stüdyosu, web tasarım Almanya, web sitesi tasarım ajansı, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio, yaratıcı teknoloji stüdyosu"
   },
   "projects": {
     "title": "Projelerimiz",
@@ -268,7 +270,10 @@
     "cat_ecom": "E-Ticaret",
     "cat_brand": "Marka Kimliği",
     "v2_label": "Seçilmiş işler",
-    "v2_count": "{count} proje"
+    "v2_count": "{count} proje",
+    "alt_live_preview": "{title} canlı önizleme",
+    "alt_mobile_preview": "{title} mobil önizleme",
+    "alt_gallery": "{title} galeri görseli {n}"
   },
   "about": {
     "title": "Hakkımızda",
@@ -446,7 +451,9 @@
     "v2_cta_label": "Hangisine ihtiyacınız olduğundan emin değil misiniz?",
     "v2_cta": "1 dakikalık teste başlayın",
     "v2_industries_label": "Kimler için inşa ediyoruz",
-    "v2_industries_more": "Nasıl olduğunu görün"
+    "v2_industries_more": "Nasıl olduğunu görün",
+    "meta_title": "Hizmetler",
+    "meta_description": "Özel web sitesi tasarımı ve geliştirmesi. Net teslimatlar, kapsamınıza göre özel fiyatlandırma."
   },
   "team": {
     "title": "Ekibimiz",
@@ -547,7 +554,9 @@
     "success_message": "E-posta listemizden başarıyla çıkarıldınız.",
     "error_title": "Bir Şeyler Ters Gitti",
     "error_message": "Talebinizi işleyemedik. Bağlantı geçersiz veya süresi dolmuş olabilir. Yardım için blokblokstudio.com/contact adresinden bize ulaşın.",
-    "back_home": "Ana Sayfaya Dön"
+    "back_home": "Ana Sayfaya Dön",
+    "meta_title": "Abonelikten Çık",
+    "meta_description": "E-postalarımızın aboneliğinden çıkın."
   },
   "privacy": {
     "title": "Gizlilik Politikası",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>Almanya</strong>: Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Amerika Birleşik Devletleri</strong>: ADA şikayetleri için ABD Adalet Bakanlığı Sivil Haklar Bölümü; 508. Bölüm için ABD Access Board.",
     "preparation_title": "Bu beyan nasıl hazırlandı",
-    "preparation_content": "Bu beyan, sitenin WCAG 2.2 AA'ya göre öz değerlendirmesi yoluyla {date} tarihinde hazırlanmıştır. Değerlendirme, canlı sitenin otomatik incelemesini kod tabanının manuel incelemesiyle (anlamsal yapı, klavye gezinimi, odak yönetimi, ARIA kullanımı, renk kontrastı, hareket yönetimi ve yerel ayar yönü) birleştirmiştir. Her önemli sürümden sonra siteyi yeniden gözden geçiriyoruz."
+    "preparation_content": "Bu beyan, sitenin WCAG 2.2 AA'ya göre öz değerlendirmesi yoluyla {date} tarihinde hazırlanmıştır. Değerlendirme, canlı sitenin otomatik incelemesini kod tabanının manuel incelemesiyle (anlamsal yapı, klavye gezinimi, odak yönetimi, ARIA kullanımı, renk kontrastı, hareket yönetimi ve yerel ayar yönü) birleştirmiştir. Her önemli sürümden sonra siteyi yeniden gözden geçiriyoruz.",
+    "meta_description": "Blok Blok Studio dijital erişilebilirliği taahhüt eder. Sitemiz WCAG 2.2 AA, ADA, Section 508 ve AB Avrupa Erişilebilirlik Yasası'na uygun olacak şekilde geliştirilmiştir."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "Saat diliminizi seçin...",
     "ph_telegram": "örn. 123456789",
     "ph_notes": "Projeniz, tercihleriniz veya çalışma şekliniz hakkında bilmemiz gereken her şey...",
-    "ph_brand": "Logo kullanımı, marka renkleri, yazı tipleri, ses tonu, yapılması ve yapılmaması gerekenler..."
+    "ph_brand": "Logo kullanımı, marka renkleri, yazı tipleri, ses tonu, yapılması ve yapılmaması gerekenler...",
+    "meta_description": "Blok Blok Studio ile çalışmaya başlamak için başlangıç formunuzu tamamlayın."
   },
   "pricing": {
     "packages": "PAKETLER",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "Özel teklif alın",
-    "v2_options": "{count, plural, one {# seçenek} other {# seçenek}}"
+    "v2_options": "{count, plural, one {# seçenek} other {# seçenek}}",
+    "meta_title": "Hizmetler ve Paketler",
+    "meta_description": "Özel web sitesi tasarım ve geliştirme paketleri. Net teslimatlar, kapsamınıza göre özel fiyatlandırma."
   },
   "a11y": {
     "skip_to_main": "Ana içeriğe geç",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "Pakistan",
     "country_philippines": "Filipinler",
     "country_united_states": "Amerika Birleşik Devletleri"
+  },
+  "seo": {
+    "org_description": "İddialı markalar için özel, dönüşüm odaklı web siteleri üreten yaratıcı bir web tasarım stüdyosu.",
+    "local_description": "Dünyanın her yerindeki iddialı markalar için özel Next.js web siteleri geliştiren Berlin merkezli web tasarım stüdyosu.",
+    "offer_catalog": "Web Tasarım Hizmetleri",
+    "service_name": "Web Siteleri",
+    "service_description": "Next.js ve React ile özel olarak geliştirilen, dönüşüm odaklı, SEO için optimize edilmiş ve önce mobil tasarlanan siteler.",
+    "worldwide": "Dünya geneli",
+    "knows_1": "Web Tasarımı",
+    "knows_2": "Next.js Geliştirme",
+    "knows_3": "SEO",
+    "knows_4": "Dönüşüm optimizasyonu"
   }
 }

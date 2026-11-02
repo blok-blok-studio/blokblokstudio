@@ -48,6 +48,7 @@ export default async function BlogPostPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const nav = await getTranslations('nav');
   const { slug } = await params;
   const post = getBlogPost(slug);
   if (!post) notFound();
@@ -80,8 +81,8 @@ export default async function BlogPostPage({
     <div className="page-transition">
       <BreadcrumbSchema
         items={[
-          { name: 'Home', url: '/' },
-          { name: 'Blog', url: '/blog' },
+          { name: nav('home'), url: '/' },
+          { name: nav('blog'), url: '/blog' },
           { name: title, url: `/blog/${post.slug}` },
         ]}
       />

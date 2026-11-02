@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
       url: 'https://www.blokblokstudio.com/contact',
       siteName: 'Blok Blok Studio',
       type: 'website',
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Contact Blok Blok Studio' }],
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: `${t('title')} | Blok Blok Studio` }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -26,12 +26,13 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const nav = await getTranslations('nav');
   return (
     <div className="page-transition">
       <BreadcrumbSchema items={[
-        { name: 'Home', url: '/' },
-        { name: 'Contact', url: '/contact' },
+        { name: nav('home'), url: '/' },
+        { name: nav('contact'), url: '/contact' },
       ]} />
       <ContactContent />
     </div>

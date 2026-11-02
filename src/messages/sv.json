@@ -253,7 +253,9 @@
     "v2_next_2_title": "Omfattning och ett fast pris",
     "v2_next_2_desc": "En skriftlig plan med sidor, tidsplan och en enda siffra. Fem sidor från {price}, ingen timdebitering.",
     "v2_next_3_title": "Från kickoff till lansering",
-    "v2_next_3_desc": "Depositionen betald, vi sätter igång. De flesta femsidiga sajter är live inom fyra till sex veckor, hosting och drift ingår."
+    "v2_next_3_desc": "Depositionen betald, vi sätter igång. De flesta femsidiga sajter är live inom fyra till sex veckor, hosting och drift ingår.",
+    "meta_keywords": "webbdesign Berlin, webbyrå Berlin, skräddarsydda Next.js-webbplatser, webbdesignstudio, webbdesign Tyskland, hemsida företag, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio, kreativ techstudio"
   },
   "projects": {
     "title": "Våra projekt",
@@ -268,7 +270,10 @@
     "cat_ecom": "E-handel",
     "cat_brand": "Varumärke",
     "v2_label": "Utvalda arbeten",
-    "v2_count": "{count} projekt"
+    "v2_count": "{count} projekt",
+    "alt_live_preview": "Live-förhandsvisning av {title}",
+    "alt_mobile_preview": "Mobil förhandsvisning av {title}",
+    "alt_gallery": "Galleribild {n} för {title}"
   },
   "about": {
     "title": "Om oss",
@@ -446,7 +451,9 @@
     "v2_cta_label": "Osäker på vad du behöver?",
     "v2_cta": "Gör 1-minutstestet",
     "v2_industries_label": "Vilka vi bygger för",
-    "v2_industries_more": "Se hur"
+    "v2_industries_more": "Se hur",
+    "meta_title": "Tjänster",
+    "meta_description": "Skräddarsydd webbdesign och utveckling. Tydligt definierade leveranser, offererade utifrån din omfattning."
   },
   "team": {
     "title": "Vårt team",
@@ -547,7 +554,9 @@
     "success_message": "Du har tagits bort från vår e-postlista.",
     "error_title": "Något gick fel",
     "error_message": "Vi kunde inte behandla din begäran. Länken kan vara ogiltig eller ha gått ut. Kontakta oss på blokblokstudio.com/contact för hjälp.",
-    "back_home": "Tillbaka till startsidan"
+    "back_home": "Tillbaka till startsidan",
+    "meta_title": "Avregistrera",
+    "meta_description": "Avregistrera dig från våra e-postutskick."
   },
   "privacy": {
     "title": "Integritetspolicy",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>Tyskland</strong>, Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>USA</strong>, US Department of Justice Civil Rights Division för ADA-klagomål; US Access Board för Section 508.",
     "preparation_title": "Hur den här redogörelsen togs fram",
-    "preparation_content": "Den här redogörelsen togs fram den {date} genom en självutvärdering av webbplatsen mot WCAG 2.2 AA. Utvärderingen kombinerade en automatiserad granskning av den publicerade webbplatsen med en manuell granskning av kodbasen (semantisk struktur, tangentbordsnavigering, fokushantering, användning av ARIA, färgkontrast, hantering av rörelse och skrivriktning per språk). Vi granskar webbplatsen på nytt efter varje större release."
+    "preparation_content": "Den här redogörelsen togs fram den {date} genom en självutvärdering av webbplatsen mot WCAG 2.2 AA. Utvärderingen kombinerade en automatiserad granskning av den publicerade webbplatsen med en manuell granskning av kodbasen (semantisk struktur, tangentbordsnavigering, fokushantering, användning av ARIA, färgkontrast, hantering av rörelse och skrivriktning per språk). Vi granskar webbplatsen på nytt efter varje större release.",
+    "meta_description": "Blok Blok Studio arbetar för digital tillgänglighet. Vår webbplats är byggd för att uppfylla WCAG 2.2 AA, ADA, Section 508 och EU:s tillgänglighetsdirektiv."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "Välj din tidszon...",
     "ph_telegram": "t.ex. 123456789",
     "ph_notes": "Allt vi bör veta om ert projekt, era önskemål eller hur ni jobbar...",
-    "ph_brand": "Logotypanvändning, varumärkesfärger, typsnitt, tonalitet, gör och gör inte..."
+    "ph_brand": "Logotypanvändning, varumärkesfärger, typsnitt, tonalitet, gör och gör inte...",
+    "meta_description": "Slutför din onboarding för att komma igång med Blok Blok Studio."
   },
   "pricing": {
     "packages": "PAKET",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "Få en skräddarsydd offert",
-    "v2_options": "{count, plural, one {# alternativ} other {# alternativ}}"
+    "v2_options": "{count, plural, one {# alternativ} other {# alternativ}}",
+    "meta_title": "Tjänster & paket",
+    "meta_description": "Paket för skräddarsydd webbdesign och utveckling. Tydligt definierade leveranser, offererade utifrån din omfattning."
   },
   "a11y": {
     "skip_to_main": "Hoppa till huvudinnehållet",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "Pakistan",
     "country_philippines": "Filippinerna",
     "country_united_states": "USA"
+  },
+  "seo": {
+    "org_description": "En kreativ webbdesignstudio som skapar skräddarsydda, konverteringsfokuserade webbplatser för ambitiösa varumärken.",
+    "local_description": "Berlinbaserad webbdesignstudio som bygger skräddarsydda Next.js-webbplatser för ambitiösa varumärken världen över.",
+    "offer_catalog": "Webbdesigntjänster",
+    "service_name": "Webbplatser",
+    "service_description": "Skräddarsydda, konverteringsfokuserade webbplatser byggda med Next.js och React, SEO-optimerade och mobile first.",
+    "worldwide": "Hela världen",
+    "knows_1": "Webbdesign",
+    "knows_2": "Next.js-utveckling",
+    "knows_3": "SEO",
+    "knows_4": "Konverteringsoptimering"
   }
 }

@@ -253,7 +253,9 @@
     "v2_next_2_title": "Zakres i jedna stała cena",
     "v2_next_2_desc": "Pisemny plan z podstronami, harmonogramem i jedną kwotą. Pięć podstron od {price}, bez rozliczania godzinowego.",
     "v2_next_3_title": "Od startu do premiery",
-    "v2_next_3_desc": "Zaliczka wpływa, zaczynamy. Większość stron z pięcioma podstronami startuje w cztery do sześciu tygodni, z hostingiem i opieką w cenie."
+    "v2_next_3_desc": "Zaliczka wpływa, zaczynamy. Większość stron z pięcioma podstronami startuje w cztery do sześciu tygodni, z hostingiem i opieką w cenie.",
+    "meta_keywords": "projektowanie stron Berlin, agencja webdesign Berlin, strony internetowe Next.js, studio webdesign, tworzenie stron internetowych, strony www Niemcy, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio, kreatywne studio technologiczne"
   },
   "projects": {
     "title": "Nasze projekty",
@@ -268,7 +270,10 @@
     "cat_ecom": "E-commerce",
     "cat_brand": "Branding",
     "v2_label": "Wybrane realizacje",
-    "v2_count": "{count, plural, one {# projekt} few {# projekty} many {# projektów} other {# projektu}}"
+    "v2_count": "{count, plural, one {# projekt} few {# projekty} many {# projektów} other {# projektu}}",
+    "alt_live_preview": "Podgląd na żywo: {title}",
+    "alt_mobile_preview": "Podgląd mobilny: {title}",
+    "alt_gallery": "Zdjęcie {n} z galerii: {title}"
   },
   "about": {
     "title": "O nas",
@@ -446,7 +451,9 @@
     "v2_cta_label": "Nie wiesz, czego potrzebujesz?",
     "v2_cta": "Zrób 1-minutowy quiz",
     "v2_industries_label": "Dla kogo budujemy",
-    "v2_industries_more": "Zobacz jak"
+    "v2_industries_more": "Zobacz jak",
+    "meta_title": "Usługi",
+    "meta_description": "Projektowanie i budowa stron szytych na miarę. Jasno określone rezultaty, wycena indywidualnie pod Twój zakres."
   },
   "team": {
     "title": "Nasz zespół",
@@ -547,7 +554,9 @@
     "success_message": "Twój adres został usunięty z naszej listy mailingowej.",
     "error_title": "Coś poszło nie tak",
     "error_message": "Nie udało się przetworzyć Twojej prośby. Link może być nieprawidłowy lub wygasł. Napisz do nas przez blokblokstudio.com/contact, a pomożemy.",
-    "back_home": "Wróć na stronę główną"
+    "back_home": "Wróć na stronę główną",
+    "meta_title": "Wypisz się",
+    "meta_description": "Wypisz się z naszych wiadomości e-mail."
   },
   "privacy": {
     "title": "Polityka prywatności",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>Niemcy</strong>, Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Stany Zjednoczone</strong>, Wydział Praw Obywatelskich Departamentu Sprawiedliwości USA w sprawie skarg ADA; US Access Board w sprawie Sekcji 508.",
     "preparation_title": "Jak przygotowano tę deklarację",
-    "preparation_content": "Niniejsza deklaracja została sporządzona {date} na podstawie samooceny strony względem WCAG 2.2 AA. Ocena połączyła automatyczny przegląd działającej strony z ręcznym przeglądem kodu (struktura semantyczna, nawigacja klawiaturą, zarządzanie fokusem, użycie ARIA, kontrast kolorów, obsługa animacji i kierunek tekstu dla poszczególnych języków). Stronę weryfikujemy ponownie po każdym istotnym wydaniu."
+    "preparation_content": "Niniejsza deklaracja została sporządzona {date} na podstawie samooceny strony względem WCAG 2.2 AA. Ocena połączyła automatyczny przegląd działającej strony z ręcznym przeglądem kodu (struktura semantyczna, nawigacja klawiaturą, zarządzanie fokusem, użycie ARIA, kontrast kolorów, obsługa animacji i kierunek tekstu dla poszczególnych języków). Stronę weryfikujemy ponownie po każdym istotnym wydaniu.",
+    "meta_description": "Blok Blok Studio dba o dostępność cyfrową. Nasza strona jest budowana zgodnie z WCAG 2.2 AA, ADA, Section 508 i Europejskim aktem o dostępności."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "Wybierz swoją strefę czasową...",
     "ph_telegram": "np. 123456789",
     "ph_notes": "Wszystko, co powinniśmy wiedzieć o Twoim projekcie, preferencjach lub sposobie pracy...",
-    "ph_brand": "Użycie logo, kolory marki, kroje pisma, ton komunikacji, co robić i czego unikać..."
+    "ph_brand": "Użycie logo, kolory marki, kroje pisma, ton komunikacji, co robić i czego unikać...",
+    "meta_description": "Dokończ onboarding, aby rozpocząć współpracę z Blok Blok Studio."
   },
   "pricing": {
     "packages": "PAKIETY",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "Poproś o indywidualną wycenę",
-    "v2_options": "{count, plural, one {# opcja} few {# opcje} many {# opcji} other {# opcji}}"
+    "v2_options": "{count, plural, one {# opcja} few {# opcje} many {# opcji} other {# opcji}}",
+    "meta_title": "Usługi i pakiety",
+    "meta_description": "Pakiety projektowania i budowy stron szytych na miarę. Jasno określone rezultaty, wycena indywidualnie pod Twój zakres."
   },
   "a11y": {
     "skip_to_main": "Przejdź do treści głównej",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "Pakistan",
     "country_philippines": "Filipiny",
     "country_united_states": "Stany Zjednoczone"
+  },
+  "seo": {
+    "org_description": "Kreatywne studio webdesignu tworzące szyte na miarę strony nastawione na konwersję dla ambitnych marek.",
+    "local_description": "Studio webdesignu z Berlina budujące szyte na miarę strony w Next.js dla ambitnych marek na całym świecie.",
+    "offer_catalog": "Usługi projektowania stron",
+    "service_name": "Strony internetowe",
+    "service_description": "Budowane na zamówienie strony nastawione na konwersję, w Next.js i React, zoptymalizowane pod SEO i mobile first.",
+    "worldwide": "Cały świat",
+    "knows_1": "Projektowanie stron",
+    "knows_2": "Programowanie w Next.js",
+    "knows_3": "SEO",
+    "knows_4": "Optymalizacja konwersji"
   }
 }

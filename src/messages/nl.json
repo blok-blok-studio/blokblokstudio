@@ -253,7 +253,9 @@
     "v2_next_2_title": "Scope en één vaste prijs",
     "v2_next_2_desc": "Een schriftelijk plan met pagina's, planning en één bedrag. Vijf pagina's vanaf {price}, geen uurtje-factuurtje.",
     "v2_next_3_title": "Van kick-off tot lancering",
-    "v2_next_3_desc": "Aanbetaling binnen, wij beginnen. De meeste sites van vijf pagina's gaan binnen vier tot zes weken live, hosting en onderhoud inbegrepen."
+    "v2_next_3_desc": "Aanbetaling binnen, wij beginnen. De meeste sites van vijf pagina's gaan binnen vier tot zes weken live, hosting en onderhoud inbegrepen.",
+    "meta_keywords": "webdesign Berlijn, webdesign bureau Berlijn, website laten maken, Next.js websites op maat, webdesign studio, webdesign Duitsland, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio, creatieve techstudio"
   },
   "projects": {
     "title": "Onze Projecten",
@@ -268,7 +270,10 @@
     "cat_ecom": "E-commerce",
     "cat_brand": "Branding",
     "v2_label": "Geselecteerd werk",
-    "v2_count": "{count} projecten"
+    "v2_count": "{count} projecten",
+    "alt_live_preview": "Live preview van {title}",
+    "alt_mobile_preview": "Mobiele preview van {title}",
+    "alt_gallery": "Galerijafbeelding {n} van {title}"
   },
   "about": {
     "title": "Over Ons",
@@ -446,7 +451,9 @@
     "v2_cta_label": "Weet je niet wat je nodig hebt?",
     "v2_cta": "Doe de quiz van 1 minuut",
     "v2_industries_label": "Voor wie we bouwen",
-    "v2_industries_more": "Bekijk hoe"
+    "v2_industries_more": "Bekijk hoe",
+    "meta_title": "Diensten",
+    "meta_description": "Maatwerk webdesign en development. Vaste deliverables, offerte op maat van jouw scope."
   },
   "team": {
     "title": "Ons Team",
@@ -547,7 +554,9 @@
     "success_message": "U bent succesvol verwijderd van onze e-maillijst.",
     "error_title": "Er Is Iets Misgegaan",
     "error_message": "We konden uw verzoek niet verwerken. De link is mogelijk ongeldig of verlopen. Neem contact met ons op via blokblokstudio.com/contact voor hulp.",
-    "back_home": "Terug naar Home"
+    "back_home": "Terug naar Home",
+    "meta_title": "Uitschrijven",
+    "meta_description": "Uitschrijven voor onze e-mails."
   },
   "privacy": {
     "title": "Privacyverklaring",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>Duitsland</strong>, de Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Verenigde Staten</strong>, de Civil Rights Division van het Amerikaanse ministerie van Justitie voor ADA-klachten; de US Access Board voor Section 508.",
     "preparation_title": "Hoe deze verklaring is opgesteld",
-    "preparation_content": "Deze verklaring is op {date} opgesteld na een zelfbeoordeling van de site aan de hand van WCAG 2.2 AA. De beoordeling combineerde een geautomatiseerde controle van de live site met een handmatige controle van de code (semantische structuur, toetsenbordnavigatie, focusbeheer, ARIA-gebruik, kleurcontrast, omgang met beweging en schrijfrichting per taal). Wij beoordelen de site opnieuw na elke belangrijke release."
+    "preparation_content": "Deze verklaring is op {date} opgesteld na een zelfbeoordeling van de site aan de hand van WCAG 2.2 AA. De beoordeling combineerde een geautomatiseerde controle van de live site met een handmatige controle van de code (semantische structuur, toetsenbordnavigatie, focusbeheer, ARIA-gebruik, kleurcontrast, omgang met beweging en schrijfrichting per taal). Wij beoordelen de site opnieuw na elke belangrijke release.",
+    "meta_description": "Blok Blok Studio zet zich in voor digitale toegankelijkheid. Onze site is gebouwd om te voldoen aan WCAG 2.2 AA, ADA, Section 508 en de Europese toegankelijkheidswet."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "Kies je tijdzone...",
     "ph_telegram": "bijv. 123456789",
     "ph_notes": "Alles wat we moeten weten over je project, voorkeuren of werkwijze...",
-    "ph_brand": "Logogebruik, merkkleuren, lettertypes, tone of voice, do's en don'ts..."
+    "ph_brand": "Logogebruik, merkkleuren, lettertypes, tone of voice, do's en don'ts...",
+    "meta_description": "Rond je onboarding af om aan de slag te gaan met Blok Blok Studio."
   },
   "pricing": {
     "packages": "PAKKETTEN",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "Vraag een offerte op maat aan",
-    "v2_options": "{count, plural, one {# optie} other {# opties}}"
+    "v2_options": "{count, plural, one {# optie} other {# opties}}",
+    "meta_title": "Diensten & Pakketten",
+    "meta_description": "Pakketten voor maatwerk webdesign en development. Vaste deliverables, offerte op maat van jouw scope."
   },
   "a11y": {
     "skip_to_main": "Naar hoofdinhoud",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "Pakistan",
     "country_philippines": "Filipijnen",
     "country_united_states": "Verenigde Staten"
+  },
+  "seo": {
+    "org_description": "Een creatieve webdesignstudio die maatwerk, conversiegerichte websites bouwt voor ambitieuze merken.",
+    "local_description": "Webdesignstudio in Berlijn die maatwerk Next.js-websites bouwt voor ambitieuze merken wereldwijd.",
+    "offer_catalog": "Webdesigndiensten",
+    "service_name": "Websites",
+    "service_description": "Op maat gebouwde, conversiegerichte websites met Next.js en React, SEO-geoptimaliseerd en mobile-first.",
+    "worldwide": "Wereldwijd",
+    "knows_1": "Webdesign",
+    "knows_2": "Next.js-development",
+    "knows_3": "SEO",
+    "knows_4": "Conversie-optimalisatie"
   }
 }

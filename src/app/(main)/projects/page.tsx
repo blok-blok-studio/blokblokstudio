@@ -16,7 +16,7 @@ export async function generateMetadata(): Promise<Metadata> {
       url: 'https://www.blokblokstudio.com/projects',
       siteName: 'Blok Blok Studio',
       type: 'website',
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Blok Blok Studio Projects' }],
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: `${t('title')} | Blok Blok Studio` }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -28,12 +28,13 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function ProjectsPage() {
+  const nav = await getTranslations('nav');
   const projects = localizedProjects(await getLocale());
   return (
     <div className="page-transition">
       <BreadcrumbSchema items={[
-        { name: 'Home', url: '/' },
-        { name: 'Projects', url: '/projects' },
+        { name: nav('home'), url: '/' },
+        { name: nav('projects'), url: '/projects' },
       ]} />
       <V2ProjectsContent projects={projects} />
     </div>

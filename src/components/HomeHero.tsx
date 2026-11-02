@@ -64,7 +64,7 @@ export function HomeHero() {
         <div className="hero-enter mb-6 sm:mb-8" style={{ animationDelay: '0.4s' }}>
           <Image
             src="/logo-hero.png"
-            alt="Blok Blok Studio, web design studio in Berlin"
+            alt={`Blok Blok Studio, ${t('v2_tagline')}`}
             width={600}
             height={150}
             className="mx-auto w-[280px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto"

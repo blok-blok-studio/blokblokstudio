@@ -253,7 +253,9 @@
     "v2_next_2_title": "Lingkup kerja dan satu harga tetap",
     "v2_next_2_desc": "Rencana tertulis berisi halaman, jadwal, dan satu angka. Lima halaman mulai dari {price}, tanpa tagihan per jam.",
     "v2_next_3_title": "Dari kickoff sampai peluncuran",
-    "v2_next_3_desc": "Uang muka masuk, kami mulai. Sebagian besar situs lima halaman tayang dalam empat sampai enam minggu, sudah termasuk hosting dan perawatan."
+    "v2_next_3_desc": "Uang muka masuk, kami mulai. Sebagian besar situs lima halaman tayang dalam empat sampai enam minggu, sudah termasuk hosting dan perawatan.",
+    "meta_keywords": "desain web Berlin, jasa pembuatan website Berlin, website Next.js kustom, studio desain web, desain web Jerman, agensi desain website, Blok Blok Studio",
+    "v2_lockup_alt": "Blok Blok Studio, studio teknologi kreatif"
   },
   "projects": {
     "title": "Proyek Kami",
@@ -268,7 +270,10 @@
     "cat_ecom": "E-Commerce",
     "cat_brand": "Branding",
     "v2_label": "Karya pilihan",
-    "v2_count": "{count} proyek"
+    "v2_count": "{count} proyek",
+    "alt_live_preview": "Pratinjau langsung {title}",
+    "alt_mobile_preview": "Pratinjau {title} di perangkat mobile",
+    "alt_gallery": "Gambar galeri {n} dari {title}"
   },
   "about": {
     "title": "Tentang Kami",
@@ -446,7 +451,9 @@
     "v2_cta_label": "Belum yakin mana yang Anda butuhkan?",
     "v2_cta": "Ikuti kuis 1 menit",
     "v2_industries_label": "Untuk siapa kami membangun",
-    "v2_industries_more": "Lihat caranya"
+    "v2_industries_more": "Lihat caranya",
+    "meta_title": "Layanan",
+    "meta_description": "Desain dan pengembangan situs web kustom. Hasil kerja yang jelas, ditawar khusus sesuai lingkup Anda."
   },
   "team": {
     "title": "Tim Kami",
@@ -547,7 +554,9 @@
     "success_message": "Anda telah berhasil dihapus dari daftar email kami.",
     "error_title": "Terjadi Kesalahan",
     "error_message": "Kami tidak dapat memproses permintaan Anda. Tautan mungkin tidak valid atau kedaluwarsa. Hubungi kami di blokblokstudio.com/contact untuk bantuan.",
-    "back_home": "Kembali ke beranda"
+    "back_home": "Kembali ke beranda",
+    "meta_title": "Berhenti Berlangganan",
+    "meta_description": "Berhenti berlangganan email dari kami."
   },
   "privacy": {
     "title": "Kebijakan Privasi",
@@ -885,7 +894,8 @@
     "enforcement_germany": "<strong>Jerman</strong>, Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
     "enforcement_us": "<strong>Amerika Serikat</strong>, Divisi Hak Sipil Departemen Kehakiman AS untuk keluhan ADA; US Access Board untuk Section 508.",
     "preparation_title": "Bagaimana pernyataan ini disusun",
-    "preparation_content": "Pernyataan ini disusun pada {date} melalui evaluasi mandiri situs terhadap WCAG 2.2 AA. Evaluasi menggabungkan tinjauan otomatis atas situs yang tayang dengan tinjauan manual atas basis kode (struktur semantik, navigasi keyboard, pengelolaan fokus, penggunaan ARIA, kontras warna, penanganan gerakan, dan arah bahasa). Kami meninjau ulang situs setelah setiap rilis signifikan."
+    "preparation_content": "Pernyataan ini disusun pada {date} melalui evaluasi mandiri situs terhadap WCAG 2.2 AA. Evaluasi menggabungkan tinjauan otomatis atas situs yang tayang dengan tinjauan manual atas basis kode (struktur semantik, navigasi keyboard, pengelolaan fokus, penggunaan ARIA, kontras warna, penanganan gerakan, dan arah bahasa). Kami meninjau ulang situs setelah setiap rilis signifikan.",
+    "meta_description": "Blok Blok Studio berkomitmen pada aksesibilitas digital. Situs kami dibangun untuk memenuhi WCAG 2.2 AA, ADA, Section 508, dan European Accessibility Act UE."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -1060,7 +1070,8 @@
     "ph_timezone": "Pilih zona waktu Anda...",
     "ph_telegram": "mis. 123456789",
     "ph_notes": "Apa pun yang perlu kami tahu tentang proyek, preferensi, atau cara kerja Anda...",
-    "ph_brand": "Penggunaan logo, warna merek, jenis huruf, gaya bahasa, yang boleh dan tidak boleh..."
+    "ph_brand": "Penggunaan logo, warna merek, jenis huruf, gaya bahasa, yang boleh dan tidak boleh...",
+    "meta_description": "Selesaikan onboarding Anda untuk mulai bekerja sama dengan Blok Blok Studio."
   },
   "pricing": {
     "packages": "PAKET",
@@ -3201,7 +3212,9 @@
       ]
     },
     "v2_card_cta": "Minta penawaran kustom",
-    "v2_options": "{count, plural, one {# opsi} other {# opsi}}"
+    "v2_options": "{count, plural, one {# opsi} other {# opsi}}",
+    "meta_title": "Layanan & Paket",
+    "meta_description": "Paket desain dan pengembangan situs web kustom. Hasil kerja yang jelas, ditawar khusus sesuai lingkup Anda."
   },
   "a11y": {
     "skip_to_main": "Lompat ke konten utama",
@@ -3297,5 +3310,17 @@
     "country_pakistan": "Pakistan",
     "country_philippines": "Filipina",
     "country_united_states": "Amerika Serikat"
+  },
+  "seo": {
+    "org_description": "Studio desain web kreatif yang membangun situs web kustom berfokus konversi untuk merek-merek ambisius.",
+    "local_description": "Studio desain web berbasis di Berlin yang membangun situs web Next.js kustom untuk merek ambisius di seluruh dunia.",
+    "offer_catalog": "Layanan Desain Web",
+    "service_name": "Situs Web",
+    "service_description": "Situs yang dibangun kustom dan berfokus konversi dengan Next.js dan React, teroptimasi SEO, dan mobile-first.",
+    "worldwide": "Seluruh Dunia",
+    "knows_1": "Desain Web",
+    "knows_2": "Pengembangan Next.js",
+    "knows_3": "SEO",
+    "knows_4": "Optimasi konversi"
   }
 }

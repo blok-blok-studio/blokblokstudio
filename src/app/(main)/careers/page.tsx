@@ -15,15 +15,16 @@ export async function generateMetadata(): Promise<Metadata> {
       url: 'https://www.blokblokstudio.com/careers',
       siteName: 'Blok Blok Studio',
       type: 'website',
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Blok Blok Studio' }],
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: `${t('meta_title')} | Blok Blok Studio` }],
     },
   };
 }
 
-export default function CareersPage() {
+export default async function CareersPage() {
+  const nav = await getTranslations('nav');
   return (
     <div className="page-transition">
-      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Careers', url: '/careers' }]} />
+      <BreadcrumbSchema items={[{ name: nav('home'), url: '/' }, { name: nav('v2_careers'), url: '/careers' }]} />
       <V2CareersContent />
     </div>
   );
