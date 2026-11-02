@@ -358,11 +358,11 @@ export function ContactContent() {
 
               {/* Sidebar heading, h2 keeps the heading outline contiguous
                   under the page H1 (don't skip levels). */}
-              <h2 className="font-display text-lg font-semibold text-white">{t('info_title')}</h2>
+              <h2 className="t-h3 text-white">{t('info_title')}</h2>
 
               {/* Where we are: studio cities only. Everything funnels through Blok Blok Studio. */}
               <div>
-                <p className="text-[11px] uppercase tracking-[0.2em] text-gray-500">{tu('contact_location')}</p>
+                <p className="t-eyebrow text-gray-500">{tu('contact_location')}</p>
                 <p className="mt-3 text-base text-white">Blok Blok Studio</p>
                 <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm text-gray-400">
                   {clientCities.filter((c) => c.studio).map((c, i, arr) => (

@@ -43,7 +43,7 @@ export function V2ProjectsContent({ projects }: { projects: (ProjectData & { slu
                 </button>
               ))}
             </div>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-gray-500">{t('v2_count', { count: shown.length })}</span>
+            <span className="t-eyebrow text-gray-500">{t('v2_count', { count: shown.length })}</span>
           </div>
 
           <ul className="grid gap-x-8 gap-y-16 md:grid-cols-2">
@@ -68,15 +68,15 @@ export function V2ProjectsContent({ projects }: { projects: (ProjectData & { slu
                       )}
                     </div>
                     <div className="mt-5 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-baseline">
-                      <h3 className="font-display text-xl font-semibold tracking-tight text-white sm:text-2xl">{p.title}</h3>
-                      <span className="text-[11px] uppercase tracking-[0.18em] text-gray-500">
+                      <h3 className="t-h3 text-white">{p.title}</h3>
+                      <span className="t-eyebrow text-gray-500">
                         {CAT_KEY[p.category] ? t(CAT_KEY[p.category]) : p.category} · {p.year}
                       </span>
                     </div>
                     {m && (
                       <p className="mt-4 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                        <span className="font-display text-3xl font-bold tracking-[-0.02em] text-orange-500">{m.value}</span>
-                        <span className="text-[11px] uppercase tracking-[0.18em] text-gray-500">{m.label}</span>
+                        <span className="t-h2 text-orange-500">{m.value}</span>
+                        <span className="t-eyebrow text-gray-500">{m.label}</span>
                       </p>
                     )}
                     <p className="mt-2 max-w-xl text-sm leading-relaxed text-gray-400">

@@ -56,6 +56,71 @@
 }
 
 
+/* ── TYPE SCALE (Brand Guidelines V2 §5.1, Nov 2026) ──
+   One role per text job, used everywhere instead of per-section size stacks.
+   Montserrat (font-display) carries headlines only, at 600/700, never below
+   16px. Inter (font-sans) carries everything else. Sizes are fluid between
+   the mobile and desktop values with clamp(), so no breakpoint variants are
+   needed in markup. Brand print sizes: H1 64pt, H2 39pt, H3 24pt, H4 15pt. */
+@utility t-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+@utility t-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.5rem, 1.6rem + 3.2vw, 4rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+}
+@utility t-h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+@utility t-h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+@utility t-h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+@utility t-stat {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.5rem, 2.2rem + 1vw, 3rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+@utility t-lead {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: clamp(1.125rem, 1.05rem + 0.25vw, 1.25rem);
+  line-height: 1.5;
+}
+@utility t-body {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+@utility t-caption {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
 /* ── REBRAND PALETTE SWITCH (facelift/palettes branch) ──
    Every accent on the site is a Tailwind `orange-*` utility. Instead of
    touching 20 component files, the orange tokens are remapped below to CSS

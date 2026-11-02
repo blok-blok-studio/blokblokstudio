@@ -439,7 +439,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
           <h2
             ref={headingRef}
             tabIndex={-1}
-            className="text-xl sm:text-2xl font-bold mb-1.5 outline-none text-balance"
+            className="t-h3 mb-1.5 outline-none text-balance"
           >
             {current.question}
           </h2>

@@ -21,22 +21,22 @@ export async function V2Services() {
   return (
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
-        <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 text-[11px] uppercase tracking-[0.2em] text-gray-500">
+        <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 t-eyebrow text-gray-500">
           <span>{t('v2_services_label')}</span>
           <Link href="/services" className="text-gray-400 transition-colors hover:text-white">
             {t('v2_services_link')}
           </Link>
         </div>
-        <p className="mb-12 max-w-xl text-base text-gray-400">{t('v2_services_sub')}</p>
+        <p className="mb-12 max-w-xl t-lead text-gray-400">{t('v2_services_sub')}</p>
         <div className="rounded-3xl border border-white/10 p-8 sm:p-10 lg:p-14">
-          <h3 className="font-display text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">{title}</h3>
-          <p className="mt-3 max-w-2xl text-base text-gray-400">{subtitle}</p>
+          <h2 className="t-h2 text-white">{title}</h2>
+          <p className="mt-3 max-w-2xl t-body text-gray-400">{subtitle}</p>
           <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-16">
             <div>
-              <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{buildLabel}</p>
+              <h3 className="t-eyebrow text-orange-500">{buildLabel}</h3>
               <ul className="mt-5 space-y-2.5">
                 {build.map((b) => (
-                  <li key={b} className="flex gap-3 text-sm leading-relaxed text-gray-300">
+                  <li key={b} className="flex gap-3 t-caption text-gray-300">
                     <span aria-hidden="true" className="mt-[0.6em] h-1.5 w-1.5 shrink-0 rounded-full bg-orange-500" />
                     {b}
                   </li>
@@ -44,10 +44,10 @@ export async function V2Services() {
               </ul>
             </div>
             <div>
-              <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{careLabel}</p>
+              <h3 className="t-eyebrow text-orange-500">{careLabel}</h3>
               <ul className="mt-5 space-y-2.5">
                 {care.map((b) => (
-                  <li key={b} className="flex gap-3 text-sm leading-relaxed text-gray-300">
+                  <li key={b} className="flex gap-3 t-caption text-gray-300">
                     <span aria-hidden="true" className="mt-[0.6em] h-1.5 w-1.5 shrink-0 rounded-full bg-orange-500" />
                     {b}
                   </li>

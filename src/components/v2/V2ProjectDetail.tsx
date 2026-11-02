@@ -45,7 +45,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
           <p className={`mt-10 ${LABEL}`}>
             {category} · {project.year}
           </p>
-          <h1 className="mt-5 max-w-4xl text-balance font-display text-5xl font-bold leading-[1.02] tracking-[-0.02em] text-white sm:text-6xl lg:text-7xl">
+          <h1 className="t-display mt-5 max-w-4xl text-balance text-white">
             {project.title}
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-gray-400">{project.desc}</p>
@@ -70,7 +70,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
             <dl className={`mt-8 grid gap-10 sm:grid-cols-2 ${project.metrics.length >= 4 ? 'lg:grid-cols-4' : project.metrics.length === 3 ? 'lg:grid-cols-3' : ''}`}>
               {project.metrics.map((m) => (
                 <div key={m.label}>
-                  <dd className="font-display text-[2.75rem] font-bold leading-none tracking-[-0.03em] text-orange-500 sm:text-[3.5rem]">{m.value}</dd>
+                  <dd className="t-stat text-orange-500">{m.value}</dd>
                   <dt className="mt-3 max-w-xs text-sm leading-relaxed text-gray-400">{m.label}</dt>
                 </div>
               ))}
@@ -152,8 +152,8 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
         <div className="mx-auto grid max-w-[1600px] gap-6 md:grid-cols-3">
           {sections.map((s, i) => (
             <article key={s.label} className="rounded-3xl border border-white/10 p-7 sm:p-8">
-              <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">0{i + 1}</p>
-              <h2 className="mt-3 font-display text-xl font-semibold tracking-tight text-white">{s.label}</h2>
+              <p className="t-eyebrow text-orange-500">0{i + 1}</p>
+              <h2 className="t-h3 mt-3 text-white">{s.label}</h2>
               <p className="mt-4 text-pretty text-sm leading-relaxed text-gray-400 sm:text-base">{s.text}</p>
             </article>
           ))}
@@ -204,7 +204,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
           >
             <span>
               <span className={`block ${LABEL}`}>{t('proj_next')}</span>
-              <span className="mt-3 block font-display text-2xl font-semibold tracking-tight text-white sm:text-4xl">{next.title}</span>
+              <span className="t-h2 mt-3 block text-white">{next.title}</span>
             </span>
             <span aria-hidden="true" className="text-3xl text-orange-500 transition-transform group-hover:translate-x-1">→</span>
           </Link>

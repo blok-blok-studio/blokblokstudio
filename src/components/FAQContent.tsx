@@ -65,7 +65,7 @@ export function FAQContent() {
                     className="flex w-full items-center justify-between gap-4 px-5 py-5 text-left sm:px-6"
                     aria-expanded={isOpen}
                   >
-                    <span className="font-display text-base font-semibold text-white sm:text-lg">{item.question}</span>
+                    <span className="t-h4 text-white">{item.question}</span>
                     <span
                       aria-hidden="true"
                       className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-transform duration-300 ${
@@ -99,7 +99,7 @@ export function FAQContent() {
 
           <div className="mt-20 flex flex-wrap items-center justify-between gap-6 rounded-3xl border border-white/10 p-8 sm:p-12">
             <div>
-              <p className="font-display text-2xl font-semibold text-white sm:text-3xl">{t('cta_heading')}</p>
+              <p className="t-h2 text-white">{t('cta_heading')}</p>
               <p className="mt-2 max-w-lg text-sm text-gray-400">{t('cta_subheading')}</p>
             </div>
             <Link href="/contact" className="inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400">

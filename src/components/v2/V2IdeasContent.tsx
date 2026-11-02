@@ -95,7 +95,7 @@ export function V2IdeasContent({ videos }: { videos: SiteVideo[] }) {
                 </button>
               ))}
             </div>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-gray-500">{t('v2_count', { count: shown.length })}</span>
+            <span className="t-eyebrow text-gray-500">{t('v2_count', { count: shown.length })}</span>
           </div>
 
           <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -113,18 +113,18 @@ export function V2IdeasContent({ videos }: { videos: SiteVideo[] }) {
                     </div>
                   ) : (
                     <div className="flex aspect-[16/10] items-end bg-gray-950 p-7">
-                      <span className="font-display text-5xl font-bold leading-none tracking-[-0.03em] text-orange-500">{fmt(i.date).split(' ')[0]}</span>
+                      <span className="t-stat text-orange-500">{fmt(i.date).split(' ')[0]}</span>
                     </div>
                   )}
                   <div className="flex flex-1 flex-col p-6 sm:p-7">
-                    <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] uppercase tracking-[0.18em] text-gray-500">
+                    <p className="t-eyebrow flex flex-wrap items-center gap-x-3 gap-y-1 text-gray-500">
                       <span className="text-orange-500">{t(`v2_type_${i.kind}`)}</span>
                       <time dateTime={i.date}>{fmt(i.date)}</time>
                       {i.meta && <span>{i.meta}</span>}
                     </p>
-                    <h2 className="mt-4 text-balance font-display text-xl font-semibold leading-snug tracking-tight text-white">{i.title}</h2>
+                    <h2 className="t-h3 mt-4 text-balance text-white">{i.title}</h2>
                     <p className="mt-3 flex-1 text-pretty text-sm leading-relaxed text-gray-400">{i.summary}</p>
-                    <p className="mt-6 flex items-center justify-between gap-4 text-[11px] uppercase tracking-[0.18em] text-gray-500">
+                    <p className="t-eyebrow mt-6 flex items-center justify-between gap-4 text-gray-500">
                       <span>{i.by}</span>
                       <span className="text-gray-300 transition-colors group-hover:text-white">
                         {t('v2_more')} <span aria-hidden="true">→</span>

@@ -15,7 +15,7 @@ export function V2NextSteps({ compact = false }: { compact?: boolean }) {
   return (
     <section className={compact ? 'mt-20' : 'px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44'}>
       <div className={compact ? '' : 'mx-auto max-w-[1600px]'}>
-        <div className="mb-10 border-b border-white/10 pb-4 text-[11px] uppercase tracking-[0.2em] text-gray-500">{t('v2_next_label')}</div>
+        <h2 className="mb-10 border-b border-white/10 pb-4 t-eyebrow text-gray-500">{t('v2_next_label')}</h2>
         <ol className="relative grid gap-10 md:grid-cols-3 md:gap-8">
           <span
             aria-hidden="true"
@@ -24,9 +24,9 @@ export function V2NextSteps({ compact = false }: { compact?: boolean }) {
           {STEPS.map((n) => (
             <li key={n} className="relative pl-8 md:pl-0 md:text-center">
               <span aria-hidden="true" className="absolute left-0 top-1 h-[15px] w-[15px] rounded-full border-2 border-black bg-orange-500 md:static md:mx-auto md:block" />
-              <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500 md:mt-5">0{n}</p>
-              <h3 className="mt-2 font-display text-lg font-semibold text-white">{t(`v2_next_${n}_title`)}</h3>
-              <p className="mt-2 text-pretty text-sm leading-relaxed text-gray-400 md:mx-auto md:max-w-[18rem]">{t(`v2_next_${n}_desc`, { price })}</p>
+              <p className="t-eyebrow text-orange-500 md:mt-5">0{n}</p>
+              <h3 className="mt-2 t-h3 text-white">{t(`v2_next_${n}_title`)}</h3>
+              <p className="mt-2 text-pretty t-caption text-gray-400 md:mx-auto md:max-w-[18rem]">{t(`v2_next_${n}_desc`, { price })}</p>
             </li>
           ))}
         </ol>

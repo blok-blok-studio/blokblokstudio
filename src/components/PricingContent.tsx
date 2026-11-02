@@ -77,7 +77,7 @@ export function PricingContent() {
           {activeTab.sections.map((section) => (
             <div key={section.dataKey} className="mb-16 last:mb-0">
               <div className={`mb-8 flex items-baseline justify-between gap-4 border-b border-white/10 pb-4 ${LABEL}`}>
-                <h2 className="font-display text-lg font-semibold normal-case tracking-tight text-white">{section.label}</h2>
+                <h2 className="t-h3 normal-case text-white">{section.label}</h2>
                 <span>{t('v2_options', { count: pkgData[section.dataKey].length })}</span>
               </div>
               <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
@@ -90,12 +90,12 @@ export function PricingContent() {
                       className={`relative flex flex-col rounded-3xl border p-7 sm:p-8 ${pk.pop ? 'border-orange-500' : 'border-white/10'}`}
                     >
                       {pk.pop && (
-                        <span className="absolute -top-3 left-7 rounded-full bg-orange-500 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-(--bb-on-primary)">
+                        <span className="t-eyebrow absolute -top-3 left-7 rounded-full bg-orange-500 px-3 py-1 text-(--bb-on-primary)">
                           {t('popular')}
                         </span>
                       )}
-                      <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{pk.tag}</p>
-                      <h3 className="mt-3 font-display text-2xl font-semibold tracking-tight text-white">{pk.name}</h3>
+                      <p className="t-eyebrow text-orange-500">{pk.tag}</p>
+                      <h3 className="t-h2 mt-3 text-white">{pk.name}</h3>
 
                       <ul className="mt-6 flex-1 space-y-3 border-t border-white/10 pt-6">
                         {pk.scope.map((s, j) => (
@@ -115,7 +115,7 @@ export function PricingContent() {
                             type="button"
                             onClick={() => setExp(isE ? null : cardId)}
                             aria-expanded={isE}
-                            className="text-[11px] uppercase tracking-[0.18em] text-gray-400 transition-colors hover:text-white"
+                            className="t-eyebrow text-gray-400 transition-colors hover:text-white"
                           >
                             {isE ? t('hide') : t('view')} · {t('not_included')}
                           </button>
@@ -164,7 +164,7 @@ export function PricingContent() {
 
           <div className="mt-20 flex flex-wrap items-center justify-between gap-6 rounded-3xl border border-white/10 p-8 sm:p-12">
             <div>
-              <p className="font-display text-2xl font-semibold text-white sm:text-3xl">{t('custom_quote')}</p>
+              <p className="t-h2 text-white">{t('custom_quote')}</p>
               <p className="mt-2 max-w-lg text-sm text-gray-400">{t('cta_sub')}</p>
             </div>
             <Link

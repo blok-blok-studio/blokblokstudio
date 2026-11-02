@@ -30,7 +30,7 @@ function initials(name: string) {
 export async function V2TeamContent() {
   const t = await getTranslations('team');
   const tp = await getTranslations('places');
-  const label = 'text-[10px] uppercase tracking-[0.2em] text-gray-500';
+  const label = 't-eyebrow text-gray-500';
   return (
     <>
       <V2PageHero label={t('v2_label')} title={t('title')} intro={t('v2_intro')} />
@@ -47,7 +47,7 @@ export async function V2TeamContent() {
                   </span>
                 )}
                 <div>
-                  <h2 className="font-display text-xl font-semibold text-white">{m.name}</h2>
+                  <h2 className="t-h3 text-white">{m.name}</h2>
                   <p className="text-sm text-gray-400">{t(m.roleKey)}</p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export async function V2TeamContent() {
                 )}
               </dl>
               {m.socials && (
-                <div className="mt-auto flex gap-4 pt-8 text-[11px] uppercase tracking-[0.18em]">
+                <div className="t-eyebrow mt-auto flex gap-4 pt-8">
                   {Object.entries(m.socials).map(([k, href]) => (
                     <a key={k} href={href} target="_blank" rel="noopener noreferrer" className="text-gray-400 transition-colors hover:text-white">
                       {k}

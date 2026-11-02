@@ -56,7 +56,7 @@ export async function V2Clients() {
   return (
     <section aria-label={t('v2_clients_label')} className="px-5 pt-20 sm:px-8 lg:px-12 lg:pt-28">
       <div className="mx-auto max-w-[1600px] border-y border-white/10 py-8 md:grid md:grid-cols-[12rem_1fr] md:items-center">
-        <p className="mb-6 text-[11px] uppercase tracking-[0.2em] text-gray-500 md:mb-0">{t('v2_clients_label')}</p>
+        <h2 className="mb-6 t-eyebrow text-gray-500 md:mb-0">{t('v2_clients_label')}</h2>
         <ul className="flex flex-wrap items-center gap-x-10 gap-y-6">
           {names.map((n) => {
             const logo = LOGOS[n];
@@ -74,10 +74,10 @@ export async function V2Clients() {
                       decoding="async"
                       className={`w-auto max-w-[11rem] object-contain ${MODE_CLASS[logo.mode]}`}
                     />
-                    {logo.withName && <span className="font-display text-base font-semibold tracking-tight text-white">{n}</span>}
+                    {logo.withName && <span className="t-h4 text-white">{n}</span>}
                   </>
                 ) : (
-                  <span className="font-display text-base font-semibold tracking-tight text-white sm:text-lg">{n}</span>
+                  <span className="t-h4 text-white">{n}</span>
                 )}
               </li>
             );

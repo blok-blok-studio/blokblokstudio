@@ -16,14 +16,14 @@ export async function V2AboutContent() {
     { value: String(industries.length), label: t('stats_awards') },
   ];
   const values = [1, 2, 3, 4] as const;
-  const label = 'text-[11px] uppercase tracking-[0.2em] text-gray-500';
+  const label = 't-eyebrow text-gray-500';
   return (
     <>
       <V2PageHero label={t('v2_label')} title={t('title')} intro={t('subtitle')} />
 
       <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
         <div className="mx-auto max-w-[1600px]">
-          <p className="max-w-3xl text-balance font-display text-2xl font-semibold leading-snug text-white sm:text-3xl md:text-[2.5rem] md:leading-[1.2]">
+          <p className="t-h2 max-w-3xl text-balance text-white">
             {t('v2_intro')}
           </p>
         </div>
@@ -36,8 +36,8 @@ export async function V2AboutContent() {
             { title: t('vision_title'), text: t('vision_text'), n: '02' },
           ].map((c) => (
             <div key={c.n} className="rounded-3xl border border-white/10 p-8 sm:p-10">
-              <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{c.n}</p>
-              <h2 className="mt-4 font-display text-2xl font-semibold tracking-tight text-white sm:text-3xl">{c.title}</h2>
+              <p className="t-eyebrow text-orange-500">{c.n}</p>
+              <h2 className="t-h2 mt-4 text-white">{c.title}</h2>
               <p className="mt-4 text-base leading-relaxed text-gray-400">{c.text}</p>
             </div>
           ))}
@@ -50,7 +50,7 @@ export async function V2AboutContent() {
           <ul className="grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((n) => (
               <li key={n} className="">
-                <h3 className="font-display text-lg font-semibold text-white">{t(`value_${n}_title`)}</h3>
+                <h3 className="t-h3 text-white">{t(`value_${n}_title`)}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-gray-400">{t(`value_${n}_text`)}</p>
               </li>
             ))}
@@ -63,7 +63,7 @@ export async function V2AboutContent() {
           <dl className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((s) => (
               <div key={s.label}>
-                <dd className="font-display text-[3rem] font-bold leading-none tracking-[-0.03em] text-orange-500 sm:text-[4rem]">{s.value}</dd>
+                <dd className="t-stat text-orange-500">{s.value}</dd>
                 <dt className="mt-3 text-sm text-gray-400">{s.label}</dt>
               </div>
             ))}
@@ -84,7 +84,7 @@ export async function V2AboutContent() {
         <div className="mx-auto flex max-w-[1600px] flex-wrap items-center justify-between gap-6 rounded-3xl border border-white/10 p-8 sm:p-12">
           <div>
             <p className={label}>{t('v2_team_label')}</p>
-            <Link href="/team" className="mt-3 inline-block font-display text-2xl font-semibold text-white transition-colors hover:text-orange-400 sm:text-3xl">
+            <Link href="/team" className="t-h2 mt-3 inline-block text-white transition-colors hover:text-orange-400">
               {t('v2_team_link')}
             </Link>
           </div>

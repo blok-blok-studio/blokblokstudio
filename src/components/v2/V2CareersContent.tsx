@@ -18,7 +18,7 @@ export async function V2CareersContent() {
   const tp = await getTranslations('places');
   const roles = (t.raw('roles') as { title: string; location: string; summary: string }[]) ?? [];
   const studios = clientCities.filter((c) => c.studio);
-  const label = 'text-[11px] uppercase tracking-[0.2em] text-gray-500';
+  const label = 't-eyebrow text-gray-500';
   return (
     <>
       <V2PageHero label={t('label')} title={t('title')} intro={t('intro')} />
@@ -29,8 +29,8 @@ export async function V2CareersContent() {
           <ul className="grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
             {HOW.map((n) => (
               <li key={n}>
-                <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">0{n}</p>
-                <h2 className="mt-3 font-display text-lg font-semibold text-white">{t(`how_${n}_title`)}</h2>
+                <p className="t-eyebrow text-orange-500">0{n}</p>
+                <h2 className="t-h3 mt-3 text-white">{t(`how_${n}_title`)}</h2>
                 <p className="mt-2 text-pretty text-sm leading-relaxed text-gray-400">{t(`how_${n}_text`)}</p>
               </li>
             ))}
@@ -44,9 +44,9 @@ export async function V2CareersContent() {
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {studios.map((c) => (
               <li key={c.city} className="rounded-3xl border border-white/10 p-7">
-                <p className="font-display text-2xl font-semibold tracking-tight text-white">
+                <p className="t-h2 text-white">
                   {tp(placeKey('city', c.city))}
-                  {c.tag && <span className="ml-2 align-middle text-[11px] uppercase tracking-[0.2em] text-orange-500">{c.tag}</span>}
+                  {c.tag && <span className="t-eyebrow ml-2 align-middle text-orange-500">{c.tag}</span>}
                 </p>
                 <p className="mt-1 text-sm text-gray-500">{c.region ? `${tp(placeKey('region', c.region))}, ${tp(placeKey('country', c.country))}` : tp(placeKey('country', c.country))}</p>
                 <ul className="mt-5 space-y-1 text-sm text-gray-400">
@@ -69,8 +69,8 @@ export async function V2CareersContent() {
             <ul className="grid gap-6 md:grid-cols-2">
               {roles.map((r) => (
                 <li key={r.title} className="rounded-3xl border border-white/10 p-7 sm:p-8">
-                  <p className="text-[11px] uppercase tracking-[0.2em] text-orange-500">{r.location}</p>
-                  <h2 className="mt-3 font-display text-2xl font-semibold tracking-tight text-white">{r.title}</h2>
+                  <p className="t-eyebrow text-orange-500">{r.location}</p>
+                  <h2 className="t-h2 mt-3 text-white">{r.title}</h2>
                   <p className="mt-3 text-pretty text-sm leading-relaxed text-gray-400">{r.summary}</p>
                   <a href={`mailto:${EMAIL}?subject=${encodeURIComponent(r.title)}`} className="mt-6 inline-flex items-center gap-2 text-sm text-white underline underline-offset-4 decoration-white/30 hover:decoration-white">
                     {t('apply')} <span aria-hidden="true">→</span>
@@ -81,7 +81,7 @@ export async function V2CareersContent() {
           ) : (
             <div className="flex flex-wrap items-center justify-between gap-6 rounded-3xl border border-white/10 p-8 sm:p-12">
               <div>
-                <p className="font-display text-2xl font-semibold text-white sm:text-3xl">{t('none_title')}</p>
+                <p className="t-h2 text-white">{t('none_title')}</p>
                 <p className="mt-2 max-w-lg text-pretty text-sm text-gray-400">{t('none_text')}</p>
               </div>
               <a href={`mailto:${EMAIL}?subject=${encodeURIComponent(t('none_subject'))}`} className="inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400">

@@ -19,7 +19,7 @@ export async function V2Work() {
   return (
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
-        <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 text-[11px] uppercase tracking-[0.2em] text-gray-500">
+        <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 t-eyebrow text-gray-500">
           <span>{t('v2_work_label')}</span>
           <Link href="/projects" className="text-gray-400 transition-colors hover:text-white">
             {t('v2_work_link')}
@@ -47,18 +47,18 @@ export async function V2Work() {
                     )}
                   </div>
                   <div className="mt-5 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-baseline">
-                    <h3 className="font-display text-xl font-semibold tracking-tight text-white sm:text-2xl">{p.title}</h3>
-                    <span className="text-[11px] uppercase tracking-[0.18em] text-gray-500">
+                    <h3 className="t-h3 text-white">{p.title}</h3>
+                    <span className="t-eyebrow text-gray-500">
                       {CAT_KEY[p.category] ? tp(CAT_KEY[p.category]) : p.category} · {p.year}
                     </span>
                   </div>
                   {m && (
                     <p className="mt-4 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                      <span className="font-display text-3xl font-bold tracking-[-0.02em] text-orange-500">{m.value}</span>
-                      <span className="text-[11px] uppercase tracking-[0.18em] text-gray-500">{m.label}</span>
+                      <span className="t-h2 text-orange-500">{m.value}</span>
+                      <span className="t-eyebrow text-gray-500">{m.label}</span>
                     </p>
                   )}
-                  <p className="mt-2 max-w-xl text-sm leading-relaxed text-gray-400">
+                  <p className="mt-2 max-w-xl t-caption text-gray-400">
                     {PROJECT_RESULT_KEYS[slug] ? t(PROJECT_RESULT_KEYS[slug] as 'v2_result_coach_luki') : p.desc}
                   </p>
                 </Link>

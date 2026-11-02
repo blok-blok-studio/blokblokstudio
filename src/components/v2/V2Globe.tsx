@@ -363,23 +363,23 @@ export function V2Globe() {
   return (
     <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
-        <div className="mb-10 border-b border-white/10 pb-4 text-[11px] uppercase tracking-[0.2em] text-gray-500">
+        <p className="mb-10 border-b border-white/10 pb-4 t-eyebrow text-gray-500">
           {t('v2_globe_label')}
-        </div>
+        </p>
         <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16">
           <div className="order-2 lg:order-1">
-            <h2 className="max-w-xl text-3xl font-display font-bold leading-[1.05] tracking-[-0.02em] text-white sm:text-4xl lg:text-5xl">
+            <h2 className="max-w-xl t-h2 text-white">
               {t('v2_globe_title')}
             </h2>
-            <p className="mt-5 max-w-lg text-base text-gray-300">
+            <p className="mt-5 max-w-lg t-lead text-gray-300">
               {t('v2_globe_sub', {
                 clients: clientCities.reduce((n, c) => n + c.clients.length, 0),
                 cities: clientCities.filter((c) => c.clients.length).length,
                 continents: new Set(clientCities.filter((c) => c.clients.length).map((c) => CONTINENT[c.country] ?? c.country)).size,
               })}
             </p>
-            <p className="mt-3 text-sm text-gray-500">{t('v2_globe_hint')}</p>
-            <div className="mt-6 flex items-center gap-6 text-[11px] uppercase tracking-[0.18em] text-gray-400">
+            <p className="mt-3 t-caption text-gray-500">{t('v2_globe_hint')}</p>
+            <div className="mt-6 flex items-center gap-6 t-eyebrow text-gray-400">
               <span className="flex items-center gap-2">
                 <span className="h-2.5 w-2.5 rounded-full" style={{ background: 'var(--bb-team)' }} />
                 {t('v2_globe_team')}
@@ -408,8 +408,8 @@ export function V2Globe() {
                       className="group flex w-full items-center gap-4 py-5 text-left"
                     >
                       <span aria-hidden="true" className="h-2.5 w-2.5 rounded-full" style={{ background: g.color }} />
-                      <span className="text-lg text-white">{g.label}</span>
-                      <span className="text-[11px] uppercase tracking-[0.16em] text-gray-500">
+                      <span className="t-h4 text-white">{g.label}</span>
+                      <span className="t-eyebrow text-gray-500">
                         {count} · {g.cities.length} {t('v2_globe_cities')}
                       </span>
                       <span aria-hidden="true" className={`ml-auto text-gray-500 transition-transform duration-300 ${open ? 'rotate-180 text-white' : ''}`}>
@@ -434,9 +434,9 @@ export function V2Globe() {
                                   <span className={`block text-base leading-snug ${on ? 'text-white' : 'text-gray-200 group-hover/city:text-white'}`}>
                                     {cityName(c)}
                                     {c.region ? <span className="text-gray-400">, {regionName(c)}</span> : null}
-                                    <span className="ml-2 text-[11px] uppercase tracking-[0.16em] text-gray-500">{countryName(c)}</span>
+                                    <span className="ml-2 t-eyebrow text-gray-500">{countryName(c)}</span>
                                     {c.tag && (
-                                      <span className="ml-2 rounded px-1.5 py-0.5 align-middle text-[9px] font-semibold uppercase tracking-[0.12em] text-black" style={{ background: 'var(--bb-primary)' }}>
+                                      <span className="t-eyebrow ml-2 rounded px-1.5 py-0.5 align-middle text-black" style={{ background: 'var(--bb-primary)' }}>
                                         {c.tag}
                                       </span>
                                     )}
@@ -466,7 +466,7 @@ export function V2Globe() {
                                           ) : (
                                             cl.name
                                           )}
-                                          {cl.archived && <span className="text-[10px] uppercase tracking-[0.12em] text-gray-500">{t('v2_archive')}</span>}
+                                          {cl.archived && <span className="t-eyebrow text-gray-500">{t('v2_archive')}</span>}
                                           {j < c.clients.length - 1 && <span className="text-gray-600">·</span>}
                                         </span>
                                       ))}
@@ -504,7 +504,7 @@ export function V2Globe() {
               }`}
             />
             {webgl === false && (
-              <div className="absolute inset-0 flex items-center justify-center p-10 text-center text-[11px] uppercase tracking-[0.2em] text-gray-500">
+              <div className="absolute inset-0 flex items-center justify-center p-10 text-center t-eyebrow text-gray-500">
                 {t('v2_globe_nowebgl')}
               </div>
             )}

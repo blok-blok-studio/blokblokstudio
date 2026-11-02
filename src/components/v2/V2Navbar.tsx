@@ -126,9 +126,9 @@ export function V2Navbar() {
             <li key={l.href}>
               <Link
                 href={l.href}
-                className="flex items-baseline gap-4 py-2 font-display text-3xl font-bold tracking-[-0.02em] text-white sm:text-5xl"
+                className="flex items-baseline gap-4 py-2 t-h2 text-white"
               >
-                <span className="text-xs text-gray-500">0{i + 1}</span>
+                <span className="t-eyebrow text-gray-500">0{i + 1}</span>
                 {l.label}
               </Link>
             </li>
