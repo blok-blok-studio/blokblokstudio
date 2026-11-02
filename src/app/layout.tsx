@@ -27,7 +27,7 @@
 
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getLocale, getMessages } from 'next-intl/server';
+import { getLocale, getMessages, getTranslations } from 'next-intl/server';
 import './globals.css';
 import { OrganizationSchema, WebsiteSchema, LocalBusinessSchema, ServiceSchema } from './structured-data';
 import { Inter, Montserrat } from 'next/font/google';
@@ -38,14 +38,28 @@ import { PaletteSwitcher, PALETTE_BOOT_SCRIPT } from '@/components/PaletteSwitch
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
 const montserrat = Montserrat({ subsets: ['latin'], display: 'swap', weight: ['600', '700'], variable: '--font-montserrat' });
 
-export const metadata: Metadata = {
+// Open Graph wants a locale in the ll_CC form. Every other locale we ship
+// maps cleanly from its language tag; the two Chinese variants are explicit.
+function ogLocale(locale: string): string {
+  const special: Record<string, string> = { en: 'en_US', zh: 'zh_CN', 'zh-TW': 'zh_TW', ja: 'ja_JP', ko: 'ko_KR', vi: 'vi_VN', hi: 'hi_IN', ar: 'ar_AR', sv: 'sv_SE', pt: 'pt_PT' };
+  return special[locale] ?? `${locale}_${locale.toUpperCase()}`;
+}
+
+// The site title, description and social-share copy follow the visitor's
+// language, same as the page body. Translations live in messages/<locale>.json
+// under `home`.
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const t = await getTranslations('home');
+  const siteTitle = `Blok Blok Studio | ${t('v2_tagline')}`;
+  const description = t('hero_subtitle');
+  return {
   metadataBase: new URL('https://www.blokblokstudio.com'),
   title: {
-    default: 'Blok Blok Studio | Web Design Studio in Berlin',
+    default: siteTitle,
     template: '%s | Blok Blok Studio',
   },
-  description:
-    'Blok Blok Studio is a Berlin-based web design studio building custom Next.js websites for ambitious brands worldwide. Premium, conversion-focused web design, never templates.',
+  description,
   keywords: [
     'Berlin web design',
     'web design Berlin',
@@ -66,26 +80,24 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'en_US',
+    locale: ogLocale(locale),
     url: 'https://www.blokblokstudio.com',
     siteName: 'Blok Blok Studio',
-    title: 'Blok Blok Studio | Web Design Studio in Berlin',
-    description:
-      'Berlin-based web design studio building custom Next.js websites for clients worldwide.',
+    title: siteTitle,
+    description,
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Blok Blok Studio, web design studio in Berlin',
+        alt: siteTitle,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blok Blok Studio | Web Design Studio in Berlin',
-    description:
-      'Berlin-based web design studio building custom Next.js websites for clients worldwide.',
+    title: siteTitle,
+    description,
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -119,7 +131,8 @@ export const metadata: Metadata = {
     'geo.position': '52.5200;13.4050',
     ICBM: '52.5200, 13.4050',
   },
-};
+  };
+}
 
 /**
  * Root layout, minimal shell shared by ALL routes.
