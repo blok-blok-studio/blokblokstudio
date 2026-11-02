@@ -2,13 +2,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getLocale, getTranslations } from 'next-intl/server';
 import type { BlogPost } from '@/data/blog';
+import { localizeBlogPost } from '@/data/i18n';
 import { MarkdownRenderer } from '@/components/Markdown';
 import { V2NextSteps } from './V2NextSteps';
 
 /** V2BlogPost — article page in the redesign system. */
-export async function V2BlogPost({ post }: { post: BlogPost }) {
+export async function V2BlogPost({ post: base }: { post: BlogPost }) {
   const t = await getTranslations('blog');
   const locale = await getLocale();
+  const post = localizeBlogPost(base.slug, locale) ?? base;
   const title = t(`posts.${post.slug}.title` as 'posts');
   const description = t(`posts.${post.slug}.description` as 'posts');
   const category = t(`posts.${post.slug}.category` as 'posts');

@@ -70,6 +70,8 @@ function parseAcceptLanguage(acceptLanguage: string): SupportedLocale {
 
   // For each preference, try the full tag (zh-tw) before the base (zh)
   for (const { tag } of languages) {
+    // Traditional-script tags (zh-Hant, zh-HK, zh-MO) belong with Taiwan, not Simplified.
+    if (/^zh-(hant|hk|mo)/.test(tag)) return 'zh-TW';
     const matched = isSupported(tag) ?? isSupported(tag.split('-')[0]);
     if (matched) return matched;
   }

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { getLocale, getTranslations } from 'next-intl/server';
-import { localizeProject } from '@/data/projects';
+import { localizeProject } from '@/data/i18n';
 import { videoForProject, type SiteVideoKey } from '@/data/videos';
 import { VideoTranscript } from '@/components/VideoTranscript';
 import { FullPageScreenshot, ScaledLiveIframe } from '@/components/ScaledLiveIframe';

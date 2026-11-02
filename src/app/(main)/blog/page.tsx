@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
+import { localizedVideos } from '@/data/i18n';
 import { V2IdeasContent } from '@/components/v2/V2IdeasContent';
 import { BreadcrumbSchema } from '@/app/structured-data';
 
@@ -30,6 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function BlogPage() {
   const nav = await getTranslations('nav');
+  const videos = localizedVideos(await getLocale());
   return (
     <div className="page-transition">
       <BreadcrumbSchema
@@ -38,7 +40,7 @@ export default async function BlogPage() {
           { name: nav('blog'), url: '/blog' },
         ]}
       />
-      <V2IdeasContent />
+      <V2IdeasContent videos={videos} />
     </div>
   );
 }

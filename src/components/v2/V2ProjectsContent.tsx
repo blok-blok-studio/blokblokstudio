@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslations, useLocale } from 'next-intl';
-import { projectsData, localizeProject } from '@/data/projects';
+import { useTranslations } from 'next-intl';
+import type { ProjectData } from '@/data/projects';
 import { V2PageHero } from './V2PageHero';
 import { PROJECT_IMAGES as IMAGES, PROJECT_RESULT_KEYS as RESULT_KEY } from '@/data/project-cards';
 
@@ -16,12 +16,12 @@ const CATS = [
   { id: 'Branding', key: 'cat_brand' },
 ] as const;
 
-export function V2ProjectsContent() {
+/** `projects` arrives already localized from the server page (src/data/i18n is server-only). */
+export function V2ProjectsContent({ projects }: { projects: (ProjectData & { slug: string })[] }) {
   const t = useTranslations('projects');
   const th = useTranslations('home');
-  const locale = useLocale();
   const [cat, setCat] = useState<string>('all');
-  const slugs = Object.keys(projectsData).filter((s) => cat === 'all' || projectsData[s].category === cat);
+  const shown = projects.filter((p) => cat === 'all' || p.category === cat);
 
   return (
     <>
@@ -44,12 +44,12 @@ export function V2ProjectsContent() {
                 </button>
               ))}
             </div>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-gray-500">{t('v2_count', { count: slugs.length })}</span>
+            <span className="text-[11px] uppercase tracking-[0.2em] text-gray-500">{t('v2_count', { count: shown.length })}</span>
           </div>
 
           <ul className="grid gap-x-8 gap-y-16 md:grid-cols-2">
-            {slugs.map((slug, i) => {
-              const p = localizeProject(slug, locale) ?? projectsData[slug];
+            {shown.map((p, i) => {
+              const slug = p.slug;
               const wide = i === 0 && cat === 'all';
               const img = IMAGES[slug] ?? p.heroImage;
               const m = p.metrics?.[0];

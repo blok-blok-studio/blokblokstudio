@@ -37,7 +37,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { videoForProject, type SiteVideoKey } from '@/data/videos';
 import { VideoTranscript } from './VideoTranscript';
-import { projectsData, localizeProject } from '@/data/projects';
+import { projectsData } from '@/data/projects';
+import { localizeProject } from '@/data/i18n';
 import { useTranslations, useLocale } from 'next-intl';
 
 /**

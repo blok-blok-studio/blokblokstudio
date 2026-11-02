@@ -1,6 +1,6 @@
-import { VIDEO_TRANSCRIPTS } from '@/data/video-transcripts';
 import type { SiteVideoKey } from '@/data/videos';
-import { useTranslations } from 'next-intl';
+import { getLocale, getTranslations } from 'next-intl/server';
+import { videoTranscript } from '@/data/i18n';
 
 /**
  * Collapsible transcript printed under a video.
@@ -11,15 +11,15 @@ import { useTranslations } from 'next-intl';
  * page rather than the markup. Rendered server-side inside <details>, so the
  * text is in the HTML whether or not anyone opens it.
  */
-export function VideoTranscript({
+export async function VideoTranscript({
   video,
   speaker,
 }: {
   video: SiteVideoKey;
   speaker?: string;
 }) {
-  const t = useTranslations('ui');
-  const paragraphs = VIDEO_TRANSCRIPTS[video].split('\n\n');
+  const t = await getTranslations('ui');
+  const paragraphs = videoTranscript(video, await getLocale()).split('\n\n');
 
   return (
     <details className="group mt-4 rounded-xl border border-white/10 bg-white/[0.02]">

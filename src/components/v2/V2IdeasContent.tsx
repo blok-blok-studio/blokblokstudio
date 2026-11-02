@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { blogPosts } from '@/data/blog';
-import { INDEXED_VIDEOS } from '@/data/videos';
+import type { SiteVideo } from '@/data/videos';
 import { newsItems } from '@/data/news';
 import { V2PageHero } from './V2PageHero';
 
@@ -30,7 +30,8 @@ interface Item {
   meta?: string;
 }
 
-export function V2IdeasContent() {
+/** `videos` carries localized name/description from the server page (src/data/i18n is server-only). */
+export function V2IdeasContent({ videos }: { videos: SiteVideo[] }) {
   const t = useTranslations('blog');
   const locale = useLocale();
   const [tab, setTab] = useState<Tab>('all');
@@ -47,7 +48,7 @@ export function V2IdeasContent() {
       image: p.image,
       meta: t('read_time', { minutes: parseInt(p.readTime, 10) || 5 }),
     })),
-    ...INDEXED_VIDEOS.map((v) => ({
+    ...videos.map((v) => ({
       kind: 'watch' as const,
       key: v.id,
       href: v.page,

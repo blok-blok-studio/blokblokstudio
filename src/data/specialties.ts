@@ -24,7 +24,7 @@ export interface SpecialtyFaq {
 export interface SpecialtyData {
   slug: string;
   /** BCP 47 language of the page content */
-  lang: 'en' | 'de';
+  lang: string;
   metaTitle: string;
   metaDescription: string;
   kicker: string;

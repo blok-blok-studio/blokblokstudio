@@ -22,10 +22,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { V2ProjectDetail } from '@/components/v2/V2ProjectDetail';
-import { projectsData, getAllProjectSlugs, localizeProject } from '@/data/projects';
+import { projectsData, getAllProjectSlugs } from '@/data/projects';
+import { localizeProject, localizeVideo } from '@/data/i18n';
 import { getLocale } from 'next-intl/server';
 import { VideoSchema } from '@/app/structured-data';
-import { videoForProject } from '@/data/videos';
+import { videoForProject, type SiteVideoKey } from '@/data/videos';
 
 /**
  * Generate static paths for all projects at build time.
@@ -76,10 +77,11 @@ export default async function ProjectPage({
   // that video's canonical home, so the VideoObject markup lives here rather
   // than on the homepage grid that also plays it.
   const video = videoForProject(slug);
+  const locale = await getLocale();
 
   return (
     <div className="page-transition">
-      {video && <VideoSchema videos={[video]} />}
+      {video && <VideoSchema videos={[localizeVideo(video.id as SiteVideoKey, locale)]} />}
       <V2ProjectDetail slug={slug} />
     </div>
   );

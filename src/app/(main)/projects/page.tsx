@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
+import { localizedProjects } from '@/data/i18n';
 import { V2ProjectsContent } from '@/components/v2/V2ProjectsContent';
 import { BreadcrumbSchema } from '@/app/structured-data';
 
@@ -26,14 +27,15 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
+  const projects = localizedProjects(await getLocale());
   return (
     <div className="page-transition">
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
         { name: 'Projects', url: '/projects' },
       ]} />
-      <V2ProjectsContent />
+      <V2ProjectsContent projects={projects} />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { V2PageHero } from './V2PageHero';
-import { specialties } from '@/data/specialties';
+import { localizedSpecialties } from '@/data/i18n';
 
 type Bullet = 1 | 2 | 3 | 4 | 5;
 const BULLETS: Bullet[] = [1, 2, 3, 4, 5];
@@ -17,7 +17,7 @@ export async function V2ServicesContent() {
   const care = BULLETS.map((b) => th(`v2_hosting_bullet_${b}`));
   const steps = BULLETS.map((n) => ({ n, title: ts(`step_${n}_title`), desc: ts(`step_${n}_desc`) }));
   const label = 'text-[11px] uppercase tracking-[0.2em] text-gray-500';
-  const industries = Object.values(specialties);
+  const industries = localizedSpecialties(await getLocale());
   return (
     <>
       <V2PageHero label={ts('v2_label')} title={ts('title')} intro={ts('v2_intro')} />

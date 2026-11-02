@@ -215,12 +215,4 @@ export function getAllProjectSlugs(): string[] {
   return Object.keys(projectsData);
 }
 
-import { projectsDe } from './projects.de';
 
-/** Project data with text fields swapped for the locale when a translation exists. */
-export function localizeProject(slug: string, locale: string): ProjectData | undefined {
-  const base = projectsData[slug];
-  if (!base) return undefined;
-  if (locale.toLowerCase().startsWith('de') && projectsDe[slug]) return { ...base, ...projectsDe[slug] };
-  return base;
-}

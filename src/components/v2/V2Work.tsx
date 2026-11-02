@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { getLocale, getTranslations } from 'next-intl/server';
-import { localizeProject, projectsData } from '@/data/projects';
+import { projectsData } from '@/data/projects';
+import { localizeProject } from '@/data/i18n';
 import { PROJECT_IMAGES, PROJECT_RESULT_KEYS } from '@/data/project-cards';
 
 /**
