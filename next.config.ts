@@ -50,6 +50,21 @@ const nextConfig: NextConfig = {
           { key: 'Cache-Control', value: 'public, max-age=2592000' },
         ],
       },
+      {
+        // Client logos get swapped in place now and then, so a week is the
+        // longest a stale one may linger.
+        source: '/images/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=604800' },
+        ],
+      },
+      {
+        // The globe's country geometry never changes in place: a year.
+        source: '/data/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+        ],
+      },
     ];
   },
 

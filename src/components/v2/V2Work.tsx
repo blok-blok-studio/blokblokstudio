@@ -40,9 +40,9 @@ export async function V2Work() {
                         src={img}
                         alt={p.title}
                         fill
-                        sizes={wide ? '100vw' : '(min-width: 768px) 50vw, 100vw'}
+                        sizes={wide ? '(min-width: 1536px) 1400px, 100vw' : '(min-width: 768px) 50vw, 100vw'}
                         className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-                        priority={wide}
+                        loading="lazy"
                       />
                     )}
                   </div>

@@ -14,7 +14,7 @@ import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
 import { placeKey } from '@/lib/places';
 import type { GlobeMethods } from 'react-globe.gl';
-import { MeshPhongMaterial } from 'three';
+import type { MeshPhongMaterial } from 'three';
 import { clientCities, type ClientCity, type ClientLink, type TeamMember } from '@/data/client-locations';
 
 const Globe = dynamic(() => import('react-globe.gl'), { ssr: false });
@@ -77,6 +77,11 @@ export function V2Globe() {
   const compact = size > 0 && size < 520; // phone-sized globe: labels only for the focused city
   const [webgl, setWebgl] = useState<boolean | null>(null);
   const [countries, setCountries] = useState<Feature[]>([]);
+  // The globe chunk (globe.gl + three, about 2 MB raw) and the country
+  // geometry only load once the section is within 400px of the viewport.
+  const [near, setNear] = useState(false);
+  const [material, setMaterial] = useState<MeshPhongMaterial | null>(null);
+  const [reducedMotion, setReducedMotion] = useState(false);
   const [colors, setColors] = useState({ team: 'rgb(255, 255, 255)', client: 'rgb(37, 97, 216)', accent: 'rgb(37, 97, 216)' });
   const [active, setActive] = useState<number | null>(null);
   const [openGroup, setOpenGroup] = useState<'team' | 'clients' | null>('team');
@@ -90,27 +95,46 @@ export function V2Globe() {
     setColors(readPalette());
     const obs = new MutationObserver(() => setColors(readPalette()));
     obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-palette'] });
+    setReducedMotion(window.matchMedia('(prefers-reduced-motion: reduce)').matches);
     const box = boxRef.current;
     const ro = new ResizeObserver(([e]) => setSize(Math.round(e.contentRect.width)));
     if (box) ro.observe(box);
+    let io: IntersectionObserver | undefined;
+    if (box && 'IntersectionObserver' in window) {
+      io = new IntersectionObserver(
+        (entries) => {
+          if (entries.some((e) => e.isIntersecting)) {
+            setNear(true);
+            io?.disconnect();
+          }
+        },
+        { rootMargin: '400px 0px' },
+      );
+      io.observe(box);
+    } else {
+      setNear(true);
+    }
     return () => {
       obs.disconnect();
       ro.disconnect();
+      io?.disconnect();
     };
   }, []);
 
   useEffect(() => {
+    if (!near) return;
+    let cancelled = false;
     fetch('/data/countries-110m.geojson')
       .then((r) => r.json())
-      .then((d) => setCountries(d.features ?? []))
-      .catch(() => setCountries([]));
-  }, []);
-
-  // Dark matte sphere, no texture.
-  const material = useMemo(
-    () => new MeshPhongMaterial({ color: '#000000', emissive: '#000000', specular: '#050505', shininess: 2 }),
-    [],
-  );
+      .then((d) => { if (!cancelled) setCountries(d.features ?? []); })
+      .catch(() => { if (!cancelled) setCountries([]); });
+    // Dark matte sphere, no texture. three is imported here, not at module
+    // level, so it stays out of the homepage's initial bundle.
+    import('three').then(({ MeshPhongMaterial }) => {
+      if (!cancelled) setMaterial(new MeshPhongMaterial({ color: '#000000', emissive: '#000000', specular: '#050505', shininess: 2 }));
+    });
+    return () => { cancelled = true; };
+  }, [near]);
 
   const berlin = clientCities.find((c) => c.city === 'Berlin') ?? clientCities[0];
   const arcs = useMemo(
@@ -262,7 +286,7 @@ export function V2Globe() {
   // ref, or not at all with waitForGlobeReady off), so configuration does
   // not depend on it. Once the Globe is rendered, poll for the ref and set
   // up controls and camera the moment it exists.
-  const mounted = webgl === true && size > 0;
+  const mounted = webgl === true && size > 0 && near && material !== null;
   useEffect(() => {
     if (!mounted) return;
     let tries = 0;
@@ -272,7 +296,7 @@ export function V2Globe() {
       if (g) {
         window.clearInterval(id);
         const controls = g.controls();
-        controls.autoRotate = true;
+        controls.autoRotate = !reducedMotion;
         controls.autoRotateSpeed = 0.55;
         // Zoom with wheel or pinch, kept between a city-level close-up and
         // the default framing. Globe radius is 100 in globe.gl units.
@@ -340,11 +364,11 @@ export function V2Globe() {
       }
     }, 50);
     return () => window.clearInterval(id);
-  }, [mounted]);
+  }, [mounted, reducedMotion]);
 
   const resume = () => {
     const g = globeRef.current;
-    if (g && active === null) g.controls().autoRotate = true;
+    if (g && active === null && !reducedMotion) g.controls().autoRotate = true;
   };
   const pause = () => {
     const g = globeRef.current;
@@ -486,6 +510,7 @@ export function V2Globe() {
 
           <div
             ref={boxRef}
+            aria-hidden="true"
             onMouseEnter={pause}
             onMouseLeave={resume}
             className="order-1 relative mx-auto aspect-square w-full max-w-[720px] overflow-hidden lg:order-2"
@@ -507,7 +532,7 @@ export function V2Globe() {
                 {t('v2_globe_nowebgl')}
               </div>
             )}
-            {webgl && size > 0 && (
+            {mounted && material && (
               <div>
                 <Globe
                   ref={globeRef}
@@ -522,7 +547,7 @@ export function V2Globe() {
                   atmosphereColor={colors.accent}
                   atmosphereAltitude={0.16}
                   hexPolygonsData={countries}
-                  hexPolygonResolution={3}
+                  hexPolygonResolution={compact ? 2 : 3}
                   hexPolygonMargin={0.62}
                   hexPolygonUseDots
                   hexPolygonColor={hexColor}
