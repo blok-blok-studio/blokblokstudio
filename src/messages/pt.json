@@ -1282,7 +1282,7 @@
               "l": "3 rodadas de revisão por entregável em todos os ativos. Uma \"rodada\" = 1 conjunto consolidado de feedback enviado em até 5 dias úteis."
             },
             {
-              "i": "Copywriting",
+              "i": "Redação de textos",
               "l": "Copywriting profissional completo para 10 páginas do site (títulos, textos, CTAs, meta descrições). O cliente fornece material bruto, anotações ou tópicos para as demais páginas. Textos dos anúncios de todas as campanhas Google e Meta redigidos e inclusos."
             }
           ],
@@ -2325,7 +2325,7 @@
       ],
       "appBuild": [
         {
-          "name": "Launchpad",
+          "name": "Decolagem",
           "price": 9500,
           "disp": "$9,500",
           "tag": "Valide sua ideia",
@@ -2367,7 +2367,7 @@
             "Layouts para tablet/iPad: +$1,800"
           ],
           "ex": "Sem backend personalizado (usa suas APIs existentes ou um backend no-code como o Supabase). Sem compras no app. Sem notificações push. Sem modo offline-first.",
-          "bridge": "Após a garantia de 30 dias, a manutenção contínua passa para o nosso plano Keep Alive ($1,950/mês) para acompanhar as atualizações de iOS/Android e as reenvios às lojas.",
+          "bridge": "Após a garantia de 30 dias, a manutenção contínua passa para o nosso plano Sempre no Ar ($1,950/mês) para acompanhar as atualizações de iOS/Android e as reenvios às lojas.",
           "ideal": "Fundadores validando uma ideia com um MVP focado em uma única plataforma"
         },
         {
@@ -2418,11 +2418,11 @@
             "Garantia estendida (+30 dias): $1,200"
           ],
           "ho": "Entrega completa do código após o lançamento: repositório no GitHub, configuração de CI EAS/Fastlane, documentação de implantação, template de variáveis de ambiente e um vídeo explicativo gravado de 60 min. Sua equipe assume ou seguimos em plano mensal.",
-          "bridge": "Inclui 60 dias pós-lançamento. Depois disso, a iteração ativa segue no nosso plano Momentum ($4,800/mês): 20 horas de engenharia, novas funcionalidades e testes A/B por mês.",
+          "bridge": "Inclui 60 dias pós-lançamento. Depois disso, a iteração ativa segue no nosso plano Impulso ($4,800/mês): 20 horas de engenharia, novas funcionalidades e testes A/B por mês.",
           "ideal": "Equipes lançando um produto multiplataforma refinado para usuários reais"
         },
         {
-          "name": "Flagship",
+          "name": "Carro-chefe",
           "price": 62000,
           "disp": "$62,000",
           "tag": "Produto completo",
@@ -2472,13 +2472,13 @@
             "Workshop de descoberta extra: $1,800"
           ],
           "ho": "Entrega completa: monorepo no GitHub, configuração de CI/CD, infraestrutura como código (Terraform ou Pulumi, se solicitado), runbook de implantações e rollbacks e um vídeo explicativo de 90 min com as equipes mobile e backend.",
-          "bridge": "Inclui 90 dias pós-lançamento. Depois disso, a parceria integrada segue no nosso plano Partner ($10,500/mês), com engenheiro dedicado e designer fracionado.",
+          "bridge": "Inclui 90 dias pós-lançamento. Depois disso, a parceria integrada segue no nosso plano Parceiro ($10,500/mês), com engenheiro dedicado e designer fracionado.",
           "ideal": "Startups com investimento e marcas lançando um produto completo com backend personalizado"
         }
       ],
       "appSupport": [
         {
-          "name": "Keep Alive",
+          "name": "Sempre no Ar",
           "price": 1950,
           "disp": "$1,950",
           "per": "/mês",
@@ -2523,7 +2523,7 @@
           "ideal": "Apps publicados que precisam se manter saudáveis, em conformidade e nas lojas"
         },
         {
-          "name": "Momentum",
+          "name": "Impulso",
           "price": 4800,
           "disp": "$4,800",
           "per": "/mês",
@@ -2533,10 +2533,10 @@
           "scope": [
             {
               "i": "Até 20 horas de engenharia por mês",
-              "l": "20 horas para iteração ativa: novas funcionalidades, otimizações, testes A/B, analytics. Tudo do Keep Alive está incluso dentro deste orçamento."
+              "l": "20 horas para iteração ativa: novas funcionalidades, otimizações, testes A/B, analytics. Tudo do Sempre no Ar está incluso dentro deste orçamento."
             },
             {
-              "i": "Tudo do Keep Alive",
+              "i": "Tudo do Sempre no Ar",
               "l": "Correção de bugs, atualizações de sistema, reenvios às lojas, monitoramento do Crashlytics, patches de dependências. Mesmos limites, descontados do banco de 20 h."
             },
             {
@@ -2570,7 +2570,7 @@
           "ideal": "Apps no ar iterando ativamente com base em dados de usuários"
         },
         {
-          "name": "Partner",
+          "name": "Parceiro",
           "price": 10500,
           "disp": "$10,500",
           "per": "/mês",
@@ -2582,8 +2582,8 @@
               "l": "Engenheiro sênior nomeado com ~20 h/semana + designer fracionado com ~4 h/semana. As mesmas pessoas todo mês. Elas conhecem o seu código."
             },
             {
-              "i": "Tudo do Momentum",
-              "l": "Todo o trabalho do Momentum continua (bugs, funcionalidades, testes A/B, analytics) dentro do orçamento ampliado. Sem cobrança separada."
+              "i": "Tudo do Impulso",
+              "l": "Todo o trabalho do Impulso continua (bugs, funcionalidades, testes A/B, analytics) dentro do orçamento ampliado. Sem cobrança separada."
             },
             {
               "i": "Entrega contínua do roadmap",
@@ -2874,7 +2874,7 @@
               "l": "Meta + Google OU Meta + TikTok. Mistura de estáticos, carrosséis e vídeos curtos. 4 são vídeos no estilo UGC gravados pelos nossos criadores."
             },
             {
-              "i": "2 landing pages",
+              "i": "2 páginas de destino",
               "l": "Página de lista de espera pré-lançamento (captação de e-mail + contagem regressiva) + página de conversão do dia do lançamento (oferta completa). Ambas com variantes A/B. Construídas no Webflow/Framer."
             },
             {
@@ -2916,7 +2916,7 @@
       ],
       "brandingBuild": [
         {
-          "name": "Brand Lite",
+          "name": "Marca Essencial",
           "price": 4000,
           "disp": "$4,000",
           "tag": "Logo + paleta + tipografia",
@@ -2957,7 +2957,7 @@
             "Direção de fotografia de marca: $800"
           ],
           "ex": "Sem manual de marca. Sem papelaria. Sem templates sociais. Sem naming ou identidade verbal.",
-          "bridge": "O Brand Lite combinado com o Guardião da Marca ($1,500/mês) mantém seus ativos consistentes enquanto você produz novos conteúdos.",
+          "bridge": "A Marca Essencial combinada com o Guardião da Marca ($1,500/mês) mantém seus ativos consistentes enquanto você produz novos conteúdos.",
           "ideal": "Empreendedores solo e marcas em fase pré-receita que precisam de uma marca limpa e funcional, rápido"
         },
         {
