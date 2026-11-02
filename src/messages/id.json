@@ -15,7 +15,14 @@
     "cookies": "Kebijakan Cookie",
     "impressum": "Pemberitahuan hukum",
     "data_rights": "Hak Data Anda",
-    "accessibility": "Aksesibilitas"
+    "accessibility": "Aksesibilitas",
+    "v2_work": "Karya",
+    "v2_studio": "Studio",
+    "v2_services": "Layanan",
+    "v2_journal": "Jurnal",
+    "v2_cta": "Mulai proyek",
+    "v2_ideas": "Ide",
+    "v2_careers": "Karier"
   },
   "faq": {
     "meta_title": "FAQ, Studio Desain Web di Berlin",
@@ -36,7 +43,7 @@
       {
         "category": "pricing",
         "question": "Berapa biaya situs web kustom?",
-        "answer": "Situs web kustom di Blok Blok Studio mulai dari $2.000 untuk satu landing page dan naik hingga $9.500 untuk situs 10 halaman dengan CMS, branding, dan SEO on-page. Harga bergantung pada jumlah halaman, animasi kustom, integrasi AI, dan kebutuhan copywriting. Setiap situs dibangun di Next.js, di-host di Vercel, dan dioptimalkan SEO sejak hari pertama, tidak pernah template."
+        "answer": "Situs web kustom di Blok Blok Studio mulai dari $2.000 untuk satu landing page, $6.500 untuk situs 5 halaman, $12.000 untuk 10 halaman dengan CMS, dan $18.000 untuk 15 halaman atau lebih. Harga bergantung pada jumlah halaman, animasi kustom, integrasi, dan kebutuhan copywriting. Setiap situs dibangun di Next.js, di-host di Vercel, dan dioptimalkan SEO sejak hari pertama, bukan template."
       },
       {
         "category": "pricing",
@@ -138,7 +145,115 @@
     "stats_projects": "Proyek yang diselesaikan",
     "stats_brands": "Merek yang dilayani",
     "stats_industries": "Industri",
-    "stats_custom": "Kustom, tanpa template"
+    "stats_custom": "Kustom, tanpa template",
+    "v2_tagline": "Studio Desain Web di Berlin",
+    "v2_locations": "Berlin · Virginia · Los Angeles",
+    "v2_scroll": "Gulir",
+    "v2_manifesto_a": "Studio desain butik di Berlin. Karya premium dan orisinal untuk merek ambisius di seluruh dunia. Tanpa template,",
+    "v2_manifesto_em": "dibangun blok demi blok.",
+    "v2_about_link": "Tentang studio",
+    "v2_services_label": "Apa yang kami kerjakan",
+    "v2_services_link": "Semua layanan",
+    "v2_service_1_title": "Build Next.js kustom",
+    "v2_service_1_detail": "Front end React yang dibangun manual, tanpa page builder, tanpa tema. Cepat di setiap perangkat dan mudah dikembangkan nanti.",
+    "v2_service_2_title": "Desain berfokus konversi",
+    "v2_service_2_detail": "Setiap halaman disusun di sekitar satu tindakan: pesan, beli, atau telepon. Naskah, hierarki, dan bukti semuanya mengarah ke tujuan yang sama.",
+    "v2_service_3_title": "SEO sejak hari pertama",
+    "v2_service_3_detail": "SEO teknis, data terstruktur, dan pencarian lokal tertanam dalam build, bukan ditambahkan setelah peluncuran.",
+    "v2_service_4_title": "E-commerce",
+    "v2_service_4_detail": "Toko Shopify dan headless dengan pengiriman, penangkapan email, dan mekanisme drop yang dikonfigurasi dari awal sampai akhir.",
+    "v2_service_5_title": "Perawatan dan performa",
+    "v2_service_5_detail": "Hosting, pemantauan, penyetelan kecepatan, dan pembaruan konten setelah peluncuran, agar situs terus menghasilkan.",
+    "v2_work_label": "Karya pilihan",
+    "v2_work_link": "Semua proyek",
+    "v2_result_coach_luki": "Klien memesan dan membayar lewat situs. SEO lokal mendatangkan pencari dari Berlin.",
+    "v2_result_bronco_plumbing": "$50k dalam 5 bulan pertama. Rating 5.0 dari 52 ulasan Google.",
+    "v2_result_coach_kofi": "Permintaan konsultasi naik 200% setelah peluncuran.",
+    "v2_result_exotic_ripz": "Penjualan $191k dari 1.790 pesanan. Drop ludes dalam hitungan jam.",
+    "v2_result_kds_systems": "Cerita layanan yang jelas dan alur pemesanan yang menaikkan jumlah prospek berkualitas.",
+    "v2_proof_label": "Angka bicara",
+    "v2_proof_1_value": "$191k",
+    "v2_proof_1_label": "Penjualan lewat satu toko yang kami luncurkan",
+    "v2_proof_2_value": "5.0",
+    "v2_proof_2_label": "Rating Google dari 52 ulasan, Bronco Plumbing",
+    "v2_proof_3_value": "200%",
+    "v2_proof_3_label": "Lebih banyak permintaan konsultasi, Coach Kofi",
+    "v2_quotes_label": "Klien",
+    "v2_clients_label": "Dipercaya oleh",
+    "v2_talk": "Mari bicara.",
+    "v2_talk_sub": "Ceritakan apa yang harus dilakukan situs Anda. Kami akan jelaskan apa yang dibutuhkan.",
+    "v2_founder": "Pendiri",
+    "v2_email": "Kirim pesan",
+    "v2_whatsapp": "WhatsApp",
+    "v2_book": "Jadwalkan panggilan",
+    "v2_loc_label": "Studio",
+    "v2_pages_label": "Halaman",
+    "v2_legal_label": "Hukum",
+    "v2_social_label": "Media sosial",
+    "v2_open_menu": "Buka menu",
+    "v2_close_menu": "Tutup menu",
+    "v2_rights": "Hak cipta dilindungi.",
+    "v2_services_sub": "Satu paket, dikerjakan dengan benar. Kami mendesain dan membangun situs, lalu meng-host dan menjaganya tetap berjalan.",
+    "v2_group_1": "Situs web dan merek",
+    "v2_group_1_detail": "Desain dan build, lalu identitas yang menyertainya.",
+    "v2_group_2": "Pertumbuhan berbayar",
+    "v2_group_2_detail": "Kampanye pencarian dan media sosial yang mengalirkan pengunjung ke situs yang kami bangun.",
+    "v2_group_3": "AI dan otomatisasi",
+    "v2_group_3_detail": "Agen, chat, alur kerja, dan dasbor yang menjalankan back office Anda.",
+    "v2_quiz_label": "Belum tahu harus mulai dari mana?",
+    "v2_quiz_title": "Cari tahu di mana bisnis Anda kehilangan pelanggan.",
+    "v2_quiz_sub": "Lima pertanyaan singkat. Kami tunjukkan apa yang akan kami perbaiki lebih dulu, lalu Anda pilih waktu untuk bicara. Sekitar satu menit.",
+    "v2_quiz_cta": "Ikuti kuis 1 menit",
+    "v2_quiz_step_1": "Jenis bisnis Anda",
+    "v2_quiz_step_2": "Bantuan yang Anda butuhkan",
+    "v2_quiz_step_3": "Kisaran anggaran",
+    "v2_quiz_step_4": "Jadwal",
+    "v2_quiz_step_5": "Cara menghubungi Anda",
+    "v2_hero_cta": "Mulai proyek",
+    "v2_quiz_link": "Ikuti kuis",
+    "v2_globe_label": "Di mana klien kami berada",
+    "v2_globe_title": "Dibangun di Berlin. Dipercaya di Eropa, Amerika Utara, dan Asia.",
+    "v2_globe_sub": "{clients} merek di {cities} kota di {continents} benua, dengan tim yang bekerja di empat zona waktu. Proyek Anda terus berjalan saat Anda tidur.",
+    "v2_globe_studio": "Studio",
+    "v2_globe_clients": "Klien",
+    "v2_globe_team": "Tim",
+    "v2_headline": "Membangun merek, blok demi blok.",
+    "v2_see_work": "Lihat karya kami",
+    "v2_globe_client_one": "Klien",
+    "v2_globe_cities": "kota",
+    "v2_hosting_title": "Hosting dan perawatan",
+    "v2_hosting_subtitle": "Cepat, terpantau, selalu diperbarui",
+    "v2_hosting_bullet_1": "Managed hosting di Vercel dengan CDN global",
+    "v2_hosting_bullet_2": "SSL, backup, dan pemantauan uptime",
+    "v2_hosting_bullet_3": "Pembaruan keamanan dan dependensi",
+    "v2_hosting_bullet_4": "Penyetelan kecepatan dan pengecekan Core Web Vitals",
+    "v2_hosting_bullet_5": "Perubahan konten dan dukungan saat Anda membutuhkannya",
+    "v2_globe_hint": "Seret untuk memutar, gulir atau cubit untuk memperbesar, atau pilih sebuah kota.",
+    "v2_proof_4_value": "$3B+",
+    "v2_proof_4_label": "Pendapatan tahunan klien terbesar kami, Philippine Airlines",
+    "v2_result_public_affair": "Gerbang verifikasi usia premium yang diselesaikan 95% pengunjung.",
+    "v2_result_military_newschool": "Rumah digital yang berbicara kepada mahasiswa berlatar belakang militer.",
+    "v2_archive": "arsip",
+    "v2_globe_nowebgl": "WebGL dinonaktifkan di browser ini. Daftar kota tersedia di samping.",
+    "v2_quote_1_role": "Bronco Plumbing, Dallas-Fort Worth",
+    "v2_quote_2_role": "Coach Kofi",
+    "v2_quote_3_role": "Toko kartu koleksi",
+    "v2_quote_1_text": "Pendapatan kotor $50.000 dalam lima bulan pertama, rating 5.0 dari 52 ulasan Google, dan posisi rata-rata 5.2 di Google untuk kata kunci pencariannya.",
+    "v2_quote_2_text": "Blok Blok Studio mengubah kehadiran online saya sepenuhnya. Desainnya yang berani menangkap filosofi coaching saya dengan sempurna, dan hasilnya luar biasa.",
+    "v2_quote_3_text": "Toko e-commerce yang mereka bangun untuk kami luar biasa. Drop booster pack kami ludes dalam hitungan jam, dan keterlibatan komunitas lewat situs ini sangat mengesankan.",
+    "v2_quote_1_kind": "Hasil",
+    "v2_offer_title": "Situs web, dibangun dan di-host",
+    "v2_offer_subtitle": "Build kustom, fokus konversi, sudah termasuk hosting dan perawatan",
+    "v2_offer_build_label": "Pengerjaan situs",
+    "v2_offer_care_label": "Hosting dan perawatan, sudah termasuk",
+    "v2_result_grant_parkhurst": "Portofolio plus portal klien swalayan, tayang sejak September 2026.",
+    "v2_next_label": "Langkah selanjutnya",
+    "v2_next_1_title": "Kami menghubungi Anda kembali",
+    "v2_next_1_desc": "Dalam satu hari kerja. Dua puluh menit membahas apa yang harus dilakukan situs untuk bisnis Anda, tidak lebih.",
+    "v2_next_2_title": "Lingkup kerja dan satu harga tetap",
+    "v2_next_2_desc": "Rencana tertulis berisi halaman, jadwal, dan satu angka. Lima halaman mulai dari {price}, tanpa tagihan per jam.",
+    "v2_next_3_title": "Dari kickoff sampai peluncuran",
+    "v2_next_3_desc": "Uang muka masuk, kami mulai. Sebagian besar situs lima halaman tayang dalam empat sampai enam minggu, sudah termasuk hosting dan perawatan."
   },
   "projects": {
     "title": "Proyek Kami",
@@ -148,7 +263,12 @@
     "filter_brand": "Branding",
     "filter_app": "Pengembangan Aplikasi",
     "filter_marketing": "Pemasaran",
-    "view_project": "Lihat Proyek"
+    "view_project": "Lihat Proyek",
+    "cat_web": "Desain Web",
+    "cat_ecom": "E-Commerce",
+    "cat_brand": "Branding",
+    "v2_label": "Karya pilihan",
+    "v2_count": "{count} proyek"
   },
   "about": {
     "title": "Tentang Kami",
@@ -169,7 +289,23 @@
     "stats_projects": "Proyek Diselesaikan",
     "stats_clients": "Klien Puas",
     "stats_years": "Tahun Pengalaman",
-    "stats_awards": "Industri Dilayani"
+    "stats_awards": "Industri Dilayani",
+    "v2_label": "Studio kami",
+    "v2_intro": "Butik karena pilihan. Kami hanya menangani segelintir merek sekaligus, sehingga setiap situs dikerjakan langsung bersama pendiri, bukan lewat template dan nomor tiket.",
+    "v2_team_label": "Dengan siapa Anda bekerja",
+    "v2_team_link": "Kenali tim kami",
+    "v2_cta": "Mulai dengan kuis",
+    "ind_fitness": "Kebugaran dan coaching",
+    "ind_home_services": "Jasa perbaikan rumah",
+    "ind_childcare": "Penitipan anak",
+    "ind_real_estate": "Properti",
+    "ind_education": "Pendidikan tinggi",
+    "ind_wellness": "Wellness dan acara",
+    "ind_photography": "Fotografi",
+    "ind_it": "Layanan IT",
+    "ind_cannabis": "Ritel cannabis",
+    "ind_aviation": "Penerbangan",
+    "ind_collectibles": "E-commerce barang koleksi"
   },
   "blog": {
     "meta_title": "Blog: Wawasan Desain Web, Branding & SEO",
@@ -198,6 +334,30 @@
         "title": "Mengapa Identitas Merek Adalah Investasi Terbaik Anda",
         "description": "Merek Anda lebih dari sekadar logo. Identitas merek yang kuat membangun kepercayaan, mendukung harga premium, dan mengubah pelanggan menjadi pendukung setia.",
         "category": "Branding"
+      }
+    },
+    "v2_label": "Ide",
+    "v2_tab_all": "Semua",
+    "v2_tab_read": "Baca",
+    "v2_tab_watch": "Tonton",
+    "v2_tab_news": "Berita",
+    "v2_type_read": "Baca",
+    "v2_type_watch": "Tonton",
+    "v2_type_news": "Berita",
+    "v2_more": "Lainnya",
+    "v2_count": "{count, plural, one {# item} other {# item}}",
+    "news": {
+      "philippine-airlines": {
+        "title": "Blok Blok Studio bekerja sama dengan Philippine Airlines",
+        "summary": "Maskapai nasional Filipina, dengan pendapatan tahunan di atas $3 miliar, adalah klien terbesar kami sejauh ini. Studio beranggotakan lima orang di Berlin, dipercaya di Manila."
+      },
+      "brand-guidelines-v2": {
+        "title": "Brand Guidelines V2: Montserrat, Inter, dan lockup baru",
+        "summary": "Versi kedua identitas kami, tertanggal 16 Oktober 2026. Dua jenis huruf, satu lockup, dan kalimat yang kini membuka situs kami: Membangun merek, blok demi blok."
+      },
+      "grant-parkhurst-portal": {
+        "title": "Grant Parkhurst Photography: portofolio dan portal klien diluncurkan",
+        "summary": "Situs yang mengutamakan fotografi, tanpa satu pun gambar yang dipotong, plus portal tempat fotografer mengunggah galeri dan klien mengunduh set foto mereka sendiri."
       }
     }
   },
@@ -279,14 +439,39 @@
     "step_4_title": "Pengembangan",
     "step_4_desc": "Kami membangun dengan teknologi modern yang memastikan kecepatan, skalabilitas, dan keandalan.",
     "step_5_title": "Peluncuran & Optimasi",
-    "step_5_desc": "Kami menerapkan, memantau, dan terus memperhalus untuk memaksimalkan kinerja."
+    "step_5_desc": "Kami menerapkan, memantau, dan terus memperhalus untuk memaksimalkan kinerja.",
+    "v2_label": "Layanan",
+    "v2_intro": "Satu paket, dikerjakan dengan benar. Kami mendesain dan membangun situs, lalu meng-host dan menjaganya tetap berjalan.",
+    "v2_process_label": "Bagaimana proyek berjalan",
+    "v2_cta_label": "Belum yakin mana yang Anda butuhkan?",
+    "v2_cta": "Ikuti kuis 1 menit",
+    "v2_industries_label": "Untuk siapa kami membangun",
+    "v2_industries_more": "Lihat caranya"
   },
   "team": {
     "title": "Tim Kami",
     "subtitle": "Temui pikiran-pikiran kreatif di balik Blok Blok Studio.",
     "role_founder": "Pendiri",
     "role_graphic": "Desainer Grafis Senior",
-    "role_web": "Desainer Web Senior"
+    "role_web": "Desainer Web Senior",
+    "v2_label": "Tim kami",
+    "v2_intro": "Lima orang di empat zona waktu. Cukup kecil sehingga Anda mengenal semua orang dengan nama, cukup tersebar sehingga proyek Anda tidak pernah menunggu pagi tiba.",
+    "v2_studied": "Pendidikan",
+    "v2_enjoys": "Di luar jam kerja",
+    "v2_based": "Berbasis di",
+    "role_marketing": "Ahli Strategi Pemasaran",
+    "role_fullstack": "Pengembang Full Stack",
+    "role_video": "Editor Video",
+    "role_creative": "Direktur Kreatif",
+    "chase_studied_1": "Desain dan Teknologi",
+    "chase_studied_2": "Parsons School of Design",
+    "chase_enjoys": "Museum seni · Traveling · Pembuatan konten",
+    "kyle_studied_1": "Periklanan Kreatif",
+    "kyle_studied_2": "Virginia Commonwealth University",
+    "kyle_enjoys": "Brazilian jiu jitsu · Animasi · Berburu barang thrift",
+    "ayan_studied_1": "Administrasi Bisnis dan Manajemen Strategis",
+    "ayan_studied_2": "University of the Punjab",
+    "ayan_enjoys": "Membangun usaha · Malam nonton film · Berburu kopi sempurna"
   },
   "contact": {
     "title": "Hubungi Kami",
@@ -299,7 +484,8 @@
     "submit": "Kirim Pesan",
     "success": "Terima kasih! Kami akan segera menghubungi Anda.",
     "info_title": "Info Kontak",
-    "info_address": "Berlin, Jerman"
+    "info_address": "Berlin, Jerman",
+    "consent_text": "Saya menyetujui pemrosesan data pribadi saya sebagaimana dijelaskan dalam"
   },
   "footer": {
     "tagline": "Menciptakan pengalaman digital yang menginspirasi.",
@@ -366,7 +552,7 @@
   "privacy": {
     "title": "Kebijakan Privasi",
     "description": "Bagaimana Blok Blok Studio mengumpulkan, menggunakan, dan melindungi data pribadi Anda",
-    "last_updated": "Terakhir Diperbarui: Februari 2026",
+    "last_updated": "Terakhir Diperbarui: 16 Juli 2026",
     "intro_title": "Pendahuluan",
     "intro_content": "Di Blok Blok Studio, kami menganggap serius privasi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan melindungi informasi Anda saat Anda mengunjungi situs web kami atau menggunakan layanan kami.",
     "data_collection_title": "Data Apa yang Kami Kumpulkan",
@@ -376,6 +562,8 @@
     "data_item_industry": "Industri / bidang kerja",
     "data_item_website": "URL situs web (opsional)",
     "data_item_problem": "Detail proyek dan tantangan",
+    "data_item_budget": "Kisaran anggaran dan jadwal yang diinginkan (saat Anda mengisinya di formulir permintaan)",
+    "data_item_marketing_consent": "Apakah Anda mencentang kotak opsional email pemasaran, dan kapan Anda mengonfirmasinya",
     "data_item_ip": "Alamat IP (hanya untuk verifikasi persetujuan)",
     "data_use_title": "Bagaimana Kami Menggunakan Data Anda",
     "data_use_intro": "Kami menggunakan informasi yang kami kumpulkan untuk:",
@@ -400,12 +588,34 @@
     "your_rights_cta": "Gunakan hak Anda di",
     "your_rights_link": "Halaman Hak Data",
     "contact_title": "Hubungi Kami",
-    "contact_content": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini atau bagaimana kami menangani data Anda, hubungi kami di:"
+    "contact_content": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini atau bagaimana kami menangani data Anda, hubungi kami di:",
+    "data_item_phone": "Nomor telepon",
+    "third_party_pixels": "Kami hanya memuat piksel iklan (Meta, Google) jika Anda secara eksplisit menerima cookie pemasaran di banner persetujuan kami; jika tidak, tidak ada cookie pelacakan atau layanan analitik yang digunakan.",
+    "legal_basis_title": "Dasar Hukum Pemrosesan",
+    "legal_basis_intro": "Berdasarkan Pasal 6 GDPR, kami memproses data pribadi Anda atas dasar hukum berikut:",
+    "legal_basis_consent": "Persetujuan (Pasal 6(1)(a)): Saat Anda berlangganan newsletter kami atau mengirim formulir kontak dengan persetujuan eksplisit",
+    "legal_basis_contract": "Kebutuhan Kontraktual (Pasal 6(1)(b)): Saat pemrosesan diperlukan untuk memenuhi perjanjian layanan dengan Anda",
+    "legal_basis_interest": "Kepentingan Sah (Pasal 6(1)(f)): Untuk analitik internal, peningkatan layanan kami, dan perlindungan keamanan situs web kami",
+    "legal_basis_withdraw": "Anda dapat menarik persetujuan Anda kapan saja tanpa memengaruhi keabsahan pemrosesan yang dilakukan sebelum penarikan.",
+    "transfers_title": "Transfer Data Internasional",
+    "transfers_intro": "Beberapa penyedia layanan pihak ketiga kami dapat memproses data Anda di luar Wilayah Ekonomi Eropa (EEA). Jika ini terjadi, kami memastikan adanya perlindungan yang memadai:",
+    "transfers_vercel": "Vercel: Penyedia hosting kami dapat memproses data di Amerika Serikat. Vercel mematuhi kerangka perlindungan data yang berlaku.",
+    "transfers_resend": "Resend: Penyedia pengiriman email kami dapat memproses data di Amerika Serikat. Transfer dilindungi oleh Klausul Kontrak Standar (SCC).",
+    "transfers_note": "Kami hanya mentransfer data ke negara atau organisasi yang memberikan tingkat perlindungan memadai atau yang memiliki perlindungan yang sesuai (seperti SCC atau aturan korporat yang mengikat).",
+    "authority_title": "Otoritas Pengawas",
+    "authority_content": "Jika Anda yakin pemrosesan data pribadi Anda oleh kami melanggar GDPR, Anda berhak mengajukan keluhan kepada otoritas pengawas di negara anggota UE tempat tinggal Anda, tempat kerja Anda, atau tempat dugaan pelanggaran terjadi. Anda juga dapat menghubungi kami terlebih dahulu agar kami bisa mencoba menyelesaikan masalah tersebut secara langsung.",
+    "third_party_vercel": "Vercel: hosting situs web dan aplikasi (AS; kerangka perlindungan data dan SCC berlaku)",
+    "third_party_slack": "Slack: notifikasi internal tentang permintaan baru kepada tim kami (terbatas pada nama, email, telepon, dan jenis bisnis)",
+    "third_party_turnstile": "Cloudflare Turnstile: perlindungan spam pada formulir kami (memproses alamat IP Anda)",
+    "third_party_cal": "Cal.com, penjadwalan janji saat Anda memesan panggilan dengan kami",
+    "third_party_meta": "Meta (Facebook/Instagram): pengukuran iklan, hanya dengan persetujuan cookie pemasaran Anda. Dengan persetujuan tersebut, kami juga dapat mengirimkan alamat email dan nomor telepon Anda dalam bentuk hash (tersamarkan) untuk mengukur konversi iklan.",
+    "third_party_google": "Google: pengukuran iklan (Google Ads), hanya dengan persetujuan cookie pemasaran Anda",
+    "marketing_double_optin": "Email pemasaran menggunakan double opt-in. Mencentang kotak opsional pada formulir saja tidak cukup: kami mengirim email konfirmasi, dan Anda baru ditambahkan ke daftar setelah mengklik tautan di dalamnya. Sebelum itu, kami tidak mengirimkan materi pemasaran kepada Anda. Anda dapat berhenti kapan saja lewat tautan berhenti berlangganan di setiap email, dan itu berlaku seketika."
   },
   "terms": {
     "title": "Ketentuan Layanan",
     "description": "Syarat dan ketentuan untuk menggunakan layanan Blok Blok Studio",
-    "last_updated": "Terakhir Diperbarui: Februari 2026",
+    "last_updated": "Terakhir Diperbarui: 16 Juli 2026",
     "acceptance_title": "Penerimaan Ketentuan",
     "acceptance_content": "Dengan mengakses dan menggunakan situs web ini, Anda menerima dan setuju untuk terikat oleh Ketentuan Layanan ini. Jika Anda tidak setuju dengan ketentuan ini, harap jangan menggunakan situs web atau layanan kami.",
     "services_title": "Layanan",
@@ -419,12 +629,20 @@
     "governing_law_title": "Hukum yang Berlaku",
     "governing_law_content": "Ketentuan-ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum yang berlaku. Setiap perselisihan akan diselesaikan melalui negosiasi itikad baik sebelum mengambil tindakan hukum formal.",
     "changes_title": "Perubahan Ketentuan",
-    "changes_content": "Kami berhak untuk mengubah ketentuan ini kapan saja. Perubahan akan diposting di halaman ini dengan tanggal yang diperbarui. Penggunaan berkelanjutan atas situs web kami setelah perubahan merupakan penerimaan atas ketentuan yang direvisi."
+    "changes_content": "Kami berhak untuk mengubah ketentuan ini kapan saja. Perubahan akan diposting di halaman ini dengan tanggal yang diperbarui. Penggunaan berkelanjutan atas situs web kami setelah perubahan merupakan penerimaan atas ketentuan yang direvisi.",
+    "dispute_title": "Penyelesaian Sengketa",
+    "dispute_intro": "Jika terjadi sengketa yang timbul dari ketentuan ini, kami mendorong Anda untuk menghubungi kami terlebih dahulu guna mencari penyelesaian secara damai. Jika penyelesaian tidak tercapai secara informal, proses berikut berlaku:",
+    "dispute_informal": "Penyelesaian Informal: Hubungi kami di hello@blokblokstudio.com. Kami akan berupaya menyelesaikan masalah dalam 30 hari.",
+    "dispute_formal": "Proses Formal: Jika penyelesaian informal gagal, sengketa akan diselesaikan melalui pengadilan yang berwenang di Jerman.",
+    "dispute_eu": "Konsumen UE: Jika Anda konsumen di UE, Anda juga dapat menggunakan platform Penyelesaian Sengketa Daring Komisi Eropa.",
+    "severability_title": "Keterpisahan",
+    "severability_content": "Jika ada ketentuan dalam Ketentuan Layanan ini yang dinyatakan tidak sah, melanggar hukum, atau tidak dapat ditegakkan oleh pengadilan yang berwenang, ketentuan lainnya tetap berlaku sepenuhnya. Ketentuan yang tidak sah atau tidak dapat ditegakkan akan diubah seminimal mungkin agar menjadi sah dan dapat ditegakkan, dengan tetap mempertahankan maksud awal para pihak.",
+    "changes_contact": "Jika Anda memiliki pertanyaan tentang Ketentuan Layanan ini, silakan hubungi kami di"
   },
   "cookies": {
     "title": "Kebijakan Cookie",
     "description": "Bagaimana Blok Blok Studio menggunakan cookie dan teknologi serupa",
-    "last_updated": "Terakhir Diperbarui: Februari 2026",
+    "last_updated": "Terakhir Diperbarui: 16 Juli 2026",
     "intro_title": "Apa itu Cookie",
     "intro_content": "Cookie adalah file teks kecil yang disimpan di perangkat Anda saat Anda mengunjungi situs web. Mereka membantu situs web mengingat preferensi Anda dan meningkatkan pengalaman browsing Anda.",
     "our_use_title": "Penggunaan Cookie Kami",
@@ -434,7 +652,21 @@
     "control_title": "Mengelola Cookie",
     "control_content": "Anda dapat mengontrol cookie melalui pengaturan browser Anda. Kebanyakan browser memungkinkan Anda memblokir atau menghapus cookie. Perhatikan bahwa menghapus localStorage akan mereset preferensi persetujuan cookie Anda.",
     "updates_title": "Pembaruan Kebijakan",
-    "updates_content": "Jika kami mulai menggunakan teknologi analitik atau pelacakan di masa depan, kami akan memperbarui kebijakan ini dan memberi tahu Anda melalui banner persetujuan cookie kami sebelum pelacakan apa pun terjadi."
+    "updates_content": "Jika kami mulai menggunakan teknologi analitik atau pelacakan di masa depan, kami akan memperbarui kebijakan ini dan memberi tahu Anda melalui banner persetujuan cookie kami sebelum pelacakan apa pun terjadi.",
+    "storage_title": "Detail Cookie & Penyimpanan",
+    "storage_intro": "Berikut daftar lengkap cookie dan item penyimpanan lokal yang digunakan di situs web ini:",
+    "table_name": "Nama",
+    "table_type": "Jenis",
+    "table_purpose": "Tujuan",
+    "table_category": "Kategori",
+    "table_duration": "Durasi",
+    "storage_consent_purpose": "Menyimpan preferensi cookie Anda (esensial, analitik, pemasaran)",
+    "storage_country_purpose": "Mengingat negara Anda (berdasarkan wilayah IP) agar perilaku persetujuan mengikuti hukum setempat",
+    "storage_locale_purpose": "Menyimpan bahasa pilihan Anda",
+    "cat_essential": "Esensial",
+    "dur_persistent": "Persisten",
+    "dur_30d": "30 hari",
+    "storage_note": "Anda dapat mengelola preferensi cookie kapan saja melalui banner cookie. Untuk mengatur ulang preferensi, hapus localStorage browser Anda."
   },
   "start": {
     "headline_a": "Di mana bisnis Anda diam-diam kehilangan pelanggan",
@@ -499,8 +731,8 @@
     "services": {
       "new_website": "Website baru",
       "website_redesign": "Desain ulang website",
-      "e_commerce": "E-commerce",
-      "landing_page": "Landing page",
+      "e_commerce": "Toko online (e-commerce)",
+      "landing_page": "Halaman landing",
       "google_ads": "Google Ads",
       "meta_ads": "Meta Ads",
       "social_media": "Media sosial",
@@ -526,77 +758,77 @@
     },
     "budget_build": {
       "0": {
-        "label": "Di bawah €5.000",
-        "hint": "Di bawah titik awal kami"
+        "label": "Di bawah {amount}",
+        "hint": "Di bawah titik awal build kami"
       },
       "1": {
-        "label": "Sekitar €5.000",
-        "hint": "Situs satu halaman"
+        "label": "Sekitar {amount}",
+        "hint": "Situs lima halaman"
       },
       "2": {
-        "label": "Sekitar €10.000",
-        "hint": "Empat sampai lima halaman"
+        "label": "Sekitar {amount}",
+        "hint": "Sepuluh halaman"
       },
       "3": {
-        "label": "Sekitar €15.000",
-        "hint": "Sekitar lima belas halaman"
+        "label": "Sekitar {amount}",
+        "hint": "Lima belas halaman atau lebih"
       },
       "4": {
-        "label": "€20.000+",
-        "hint": "E-commerce atau lebih besar"
+        "label": "{amount}+",
+        "hint": "E-commerce, atau yang lebih besar"
       }
     },
     "budget_social": {
       "0": {
-        "label": "Sekitar €500 / bulan",
+        "label": "Sekitar {amount} / bulan",
         "hint": "Satu kanal, dikelola"
       },
       "1": {
-        "label": "€1.000 – €2.000 / bulan",
+        "label": "{from} – {to} / bulan",
         "hint": "Satu kanal dengan video rutin, atau dua kanal"
       },
       "2": {
-        "label": "€2.000 – €4.000 / bulan",
+        "label": "{from} – {to} / bulan",
         "hint": "Dua atau tiga kanal dengan video"
       },
       "3": {
-        "label": "€4.000+ / bulan",
+        "label": "{amount}+ / bulan",
         "hint": "Beberapa kanal, banyak video"
       }
     },
     "budget_ads": {
       "0": {
-        "label": "Di bawah €1.000 / bulan biaya iklan",
+        "label": "Di bawah {amount} / bulan biaya iklan",
         "hint": "Uji coba awal"
       },
       "1": {
-        "label": "€1.000 – €3.000 / bulan biaya iklan",
+        "label": "{from} – {to} / bulan biaya iklan",
         "hint": "Satu platform, dikelola dengan benar"
       },
       "2": {
-        "label": "€3.000 – €10.000 / bulan biaya iklan",
+        "label": "{from} – {to} / bulan biaya iklan",
         "hint": "Kedua platform, atau menskalakan satu"
       },
       "3": {
-        "label": "€10.000+ / bulan biaya iklan",
+        "label": "{amount}+ / bulan biaya iklan",
         "hint": "Volume besar"
       }
     },
     "budget_monthly": {
       "0": {
-        "label": "Di bawah €1.000 / bulan",
+        "label": "Di bawah {amount} / bulan",
         "hint": "Baru mulai"
       },
       "1": {
-        "label": "€1.000 – €3.000 / bulan",
+        "label": "{from} – {to} / bulan",
         "hint": "Satu kanal atau platform, dikelola dengan benar"
       },
       "2": {
-        "label": "€3.000 – €6.000 / bulan",
+        "label": "{from} – {to} / bulan",
         "hint": "Beberapa berjalan bersamaan"
       },
       "3": {
-        "label": "€6.000+ / bulan",
+        "label": "{amount}+ / bulan",
         "hint": "Menskalakan besar-besaran"
       }
     }
@@ -609,6 +841,49 @@
     "not_found_title": "Halaman tidak ditemukan",
     "not_found_message": "Halaman yang Anda cari tidak ada atau telah dipindahkan. Mari kembali ke jalur yang benar.",
     "contact_us": "Hubungi kami"
+  },
+  "accessibility": {
+    "title": "Pernyataan Aksesibilitas",
+    "last_updated": "Terakhir diperbarui: {date}",
+    "commitment_title": "Komitmen kami",
+    "commitment_content": "Blok Blok Studio berkomitmen memastikan aksesibilitas digital bagi penyandang disabilitas. Kami terus meningkatkan pengalaman pengguna untuk semua orang dan menerapkan standar aksesibilitas yang relevan di situs web kami maupun situs web yang kami bangun untuk klien.",
+    "conformance_title": "Status kesesuaian",
+    "conformance_intro": "Web Content Accessibility Guidelines (WCAG) menetapkan persyaratan bagi desainer dan pengembang untuk meningkatkan aksesibilitas bagi penyandang disabilitas. Pedoman ini mendefinisikan tiga tingkat kesesuaian: Level A, Level AA, dan Level AAA.",
+    "conformance_status": "<strong>blokblokstudio.com sebagian sesuai dengan WCAG 2.2 level AA.</strong> “Sebagian sesuai” berarti beberapa bagian konten belum sepenuhnya memenuhi standar aksesibilitas. Lihat bagian keterbatasan yang diketahui di bawah untuk detailnya.",
+    "standards_title": "Standar dan hukum yang kami ikuti",
+    "standard_wcag": "<strong>WCAG 2.2 Level AA</strong>, standar dasar internasional untuk aksesibilitas web yang dikelola oleh W3C.",
+    "standard_en301549": "<strong>EN 301 549</strong>, standar harmonisasi Eropa untuk aksesibilitas TIK yang menjadi landasan European Accessibility Act.",
+    "standard_eaa": "<strong>European Accessibility Act UE (Direktif 2019/882)</strong>, berlaku untuk layanan digital yang menghadap konsumen di UE sejak 28 Juni 2025.",
+    "standard_ada": "<strong>Americans with Disabilities Act (ADA) AS, Title III</strong>, kewajiban aksesibilitas untuk situs web komersial publik di Amerika Serikat.",
+    "standard_508": "<strong>Section 508 dari US Rehabilitation Act</strong>, persyaratan bagi lembaga dan kontraktor federal, yang kami jadikan acuan dasar untuk pekerjaan terkait pemerintah federal.",
+    "measures_title": "Langkah yang kami ambil",
+    "measures_intro": "Aksesibilitas adalah bagian dari cara kami mendesain dan membangun, bukan audit sekali jalan. Secara spesifik, di situs ini:",
+    "measure_landmarks": "Landmark HTML semantik (<code>main</code>, <code>nav</code>, <code>header</code>, <code>footer</code>) di setiap halaman.",
+    "measure_skip_link": "Tautan “lompat ke konten utama” untuk pengguna keyboard.",
+    "measure_focus": "Indikator fokus yang terlihat pada setiap elemen interaktif.",
+    "measure_alt_text": "Teks alternatif pada semua gambar yang bermakna.",
+    "measure_forms": "Formulir dengan label terkait, pemberitahuan kolom wajib, dan pesan kesalahan inline yang diekspos melalui <code>aria-describedby</code> dan <code>role=“alert”</code>.",
+    "measure_dialogs": "Menu mobile dan dialog modal dengan pengelolaan fokus keyboard dan perilaku tutup dengan tombol Escape.",
+    "measure_reduced_motion": "Menghormati pengaturan <code>prefers-reduced-motion</code> di sistem operasi Anda.",
+    "measure_contrast": "Kontras warna yang memenuhi atau melampaui WCAG AA (4.5:1 untuk teks isi).",
+    "measure_rtl": "Tata letak kanan-ke-kiri untuk bahasa Arab, dan pengalih bahasa yang mengumumkan setiap opsi dalam bahasa dan arah aslinya.",
+    "measure_languages": "Situs tersedia dalam 19 bahasa sehingga penutur non-Inggris dapat menggunakannya dalam bahasa yang mereka pikirkan.",
+    "limitations_title": "Keterbatasan yang diketahui",
+    "limitations_intro": "Meski sudah berupaya sebaik mungkin, sebagian konten di situs ini mungkin belum sepenuhnya dapat diakses. Masalah yang diketahui dan sedang kami tangani:",
+    "limitation_third_party": "<strong>Konten pihak ketiga yang disematkan</strong>, CAPTCHA Cloudflare Turnstile dan iframe pemesanan Cal.com mewarisi perilaku aksesibilitasnya sendiri dari vendor masing-masing. Kami memantau status kesesuaian mereka bersama setiap vendor.",
+    "limitation_motion": "<strong>Gerakan dekoratif</strong>, animasi latar belakang dinonaktifkan saat <code>prefers-reduced-motion</code> diatur, tetapi sejumlah kecil interaksi mikro yang mengikuti kursor mungkin masih berjalan.",
+    "limitation_language": "<strong>Bahasa pernyataan</strong>, pernyataan ini saat ini hanya dikelola dalam bahasa Inggris. Situs itu sendiri dilokalkan ke dalam 19 bahasa.",
+    "feedback_title": "Masukan dan kontak",
+    "feedback_intro": "Jika Anda menemui hambatan aksesibilitas di blokblokstudio.com, atau membutuhkan informasi dari situs ini dalam format alternatif, silakan hubungi kami. Kami berupaya menanggapi masukan aksesibilitas dalam <strong>lima hari kerja</strong>.",
+    "feedback_email": "<strong>Email:</strong> <link>blokblokstudio.com/contact</link>",
+    "feedback_form": "<strong>Formulir web:</strong> <link>Halaman kontak</link>, mohon sebutkan “aksesibilitas” dalam pesan Anda.",
+    "enforcement_title": "Prosedur penegakan",
+    "enforcement_intro": "Blok Blok Studio terdaftar di Jerman. Jika Anda tidak puas dengan tanggapan kami atas masukan aksesibilitas Anda, Anda dapat mengeskalasinya melalui kerangka penegakan setempat:",
+    "enforcement_eu": "<strong>Uni Eropa</strong>, otoritas pengawasan pasar di negara anggota UE tempat Anda berada. EAA menunjuk otoritas nasional di setiap negara anggota.",
+    "enforcement_germany": "<strong>Jerman</strong>, Bundesfachstelle für Barrierefreiheit (<link>bundesfachstelle-barrierefreiheit.de</link>).",
+    "enforcement_us": "<strong>Amerika Serikat</strong>, Divisi Hak Sipil Departemen Kehakiman AS untuk keluhan ADA; US Access Board untuk Section 508.",
+    "preparation_title": "Bagaimana pernyataan ini disusun",
+    "preparation_content": "Pernyataan ini disusun pada {date} melalui evaluasi mandiri situs terhadap WCAG 2.2 AA. Evaluasi menggabungkan tinjauan otomatis atas situs yang tayang dengan tinjauan manual atas basis kode (struktur semantik, navigasi keyboard, pengelolaan fokus, penggunaan ARIA, kontras warna, penanganan gerakan, dan arah bahasa). Kami meninjau ulang situs setelah setiap rilis signifikan."
   },
   "thanks": {
     "brand": "BLOK BLOK",
@@ -727,7 +1002,56 @@
     "available": "Tersedia untuk proyek baru",
     "aria_business": "Jenis bisnis",
     "aria_budget": "Anggaran",
-    "aria_timeline": "Jangka waktu"
+    "aria_timeline": "Jangka waktu",
+    "proj_live_click": "Klik dan gulir situs live di bawah",
+    "proj_live_scroll": "Gulir situs live di bawah",
+    "proj_live_hint_embed": "Klik tautan dan jelajahi seolah Anda berada di situs aslinya, atau buka di tab baru.",
+    "proj_live_hint_scroll": "Ini adalah snapshot halaman penuh. Gulir di dalam jendela, atau buka situs live di tab baru.",
+    "proj_challenge": "Tantangan",
+    "proj_solution": "Yang kami bangun",
+    "proj_results": "Hasil",
+    "proj_numbers": "Dalam angka"
+  },
+  "onboard": {
+    "title": "Onboarding klien",
+    "sub": "Mari siapkan semuanya supaya kita bisa langsung jalan.",
+    "loading": "Memuat onboarding Anda...",
+    "unavailable": "Tautan tidak tersedia",
+    "done": "Semua sudah siap!",
+    "done_sub": "Mau sekalian atur metode pembayaran supaya kita bisa mulai sekarang?",
+    "pay_cta": "Atur metode pembayaran",
+    "coming_soon": "Segera hadir",
+    "submitting": "Mengirim...",
+    "contacts": "Kontak tim",
+    "contacts_sub": "Siapa yang sebaiknya kami hubungi di tim Anda?",
+    "primary": "Utama",
+    "remove": "Hapus",
+    "add_contact": "Tambah kontak lain",
+    "access": "Akses akun",
+    "access_sub": "Bagikan kredensial platform yang ingin kami kelola.",
+    "encrypted": "Kredensial Anda dienkripsi dengan AES-256",
+    "add_account": "Tambah akun lain",
+    "social": "Profil sosial",
+    "social_sub": "Hubungkan akun media sosial Anda agar bisa kami kelola dan kembangkan.",
+    "add_profile": "Tambah profil lain",
+    "details": "Detail proyek",
+    "details_sub": "Bantu kami menyesuaikan alur kerja kami dengan Anda.",
+    "telegram_hint": "Kirim pesan ke @blokblok_bot di Telegram untuk mendapatkan ID Anda",
+    "review": "Tinjau & kirim",
+    "review_sub": "Periksa semuanya sebelum mengirim. Anda bisa kembali untuk mengubah bagian mana pun.",
+    "f_timezone": "Zona waktu:",
+    "f_telegram": "ID Telegram:",
+    "f_notes": "Catatan:",
+    "f_brand": "Panduan merek:",
+    "ph_phone": "Nomor telepon",
+    "ph_role": "mis. CEO, Direktur Pemasaran",
+    "ph_url": "mis. https://situs-anda.com/wp-admin",
+    "ph_2fa": "mis. 2FA aktif, gunakan aplikasi autentikator",
+    "ph_link": "https://...",
+    "ph_timezone": "Pilih zona waktu Anda...",
+    "ph_telegram": "mis. 123456789",
+    "ph_notes": "Apa pun yang perlu kami tahu tentang proyek, preferensi, atau cara kerja Anda...",
+    "ph_brand": "Penggunaan logo, warna merek, jenis huruf, gaya bahasa, yang boleh dan tidak boleh..."
   },
   "pricing": {
     "packages": "PAKET",
@@ -958,7 +1282,7 @@
               "l": "3 putaran revisi per hasil kerja untuk semua aset. Satu 'putaran' = 1 rangkaian masukan yang dikonsolidasikan dan dikirim dalam 5 hari kerja."
             },
             {
-              "i": "Copywriting",
+              "i": "Penulisan naskah (copywriting)",
               "l": "Copywriting profesional lengkap untuk 10 halaman situs (judul, isi, CTA, deskripsi meta). Klien menyediakan bahan mentah, catatan, atau poin-poin untuk halaman lainnya. Naskah iklan untuk semua kampanye Google dan Meta ditulis dan sudah termasuk."
             }
           ],
@@ -1295,7 +1619,7 @@
       ],
       "social": [
         {
-          "name": "Social Starter",
+          "name": "Sosial Pemula",
           "price": 1500,
           "disp": "$1,500",
           "per": "/bulan",
@@ -1342,7 +1666,7 @@
           "ideal": "Bisnis yang butuh kehadiran konsisten di 1 sampai 2 kanal"
         },
         {
-          "name": "Social Growth",
+          "name": "Sosial Bertumbuh",
           "price": 2500,
           "disp": "$2,500",
           "per": "/bulan",
@@ -1396,7 +1720,7 @@
           "ideal": "Bisnis yang serius menumbuhkan audiens dan interaksi"
         },
         {
-          "name": "Social Domination",
+          "name": "Dominasi Sosial",
           "price": 4500,
           "disp": "$4,500",
           "per": "/bulan",
@@ -1456,7 +1780,7 @@
       ],
       "customBuild": [
         {
-          "name": "Discovery & Scoping",
+          "name": "Penemuan & Penentuan Lingkup",
           "price": 2500,
           "disp": "$2,500",
           "tag": "Langkah pertama yang wajib",
@@ -1497,7 +1821,7 @@
           "ideal": "Siapa pun yang mempertimbangkan pembangunan kustom. Ini langkah pertama."
         },
         {
-          "name": "Standard Build",
+          "name": "Build Standar",
           "price": 25000,
           "disp": "$25,000",
           "tag": "Paling umum",
@@ -1525,7 +1849,7 @@
               "l": "3 integrasi dengan layanan eksternal. Contoh umum: Stripe (pembayaran), Twilio (SMS/suara), SendGrid (email), Google Maps, Calendly, QuickBooks, Zapier, atau layanan apa pun dengan REST API terdokumentasi. Setiap integrasi mencakup: pengaturan, pemetaan data, penanganan error, dan pengujian. Integrasi kompleks (misalnya ERP kustom, sistem lama tanpa API modern) ditawar terpisah."
             },
             {
-              "i": "Hosting & deployment",
+              "i": "Hosting & penerapan",
               "l": "Di-deploy ke produksi di Vercel (frontend) dan Railway, Render, atau AWS (backend). Pipeline CI/CD dikonfigurasi untuk deployment otomatis dari GitHub. Sertifikat SSL, pengaturan domain kustom, dan konfigurasi DNS. Pengelolaan environment variable dan secret. Lingkungan staging termasuk untuk pengujian sebelum rilis produksi."
             },
             {
@@ -1554,7 +1878,7 @@
           "ideal": "Portal, dasbor, alat internal, dan MVP SaaS"
         },
         {
-          "name": "Enterprise Build",
+          "name": "Build Enterprise",
           "price": 75000,
           "disp": "$75,000+",
           "tag": "Sistem kompleks",
@@ -1908,7 +2232,7 @@
           "ideal": "Aplikasi kecil, alat, atau proyek pasca peluncuran yang butuh pembaruan sesekali"
         },
         {
-          "name": "Dev Support",
+          "name": "Dukungan Dev",
           "price": 1500,
           "disp": "$1,500",
           "per": "/bulan",
@@ -2001,7 +2325,7 @@
       ],
       "appBuild": [
         {
-          "name": "Launchpad",
+          "name": "Landasan Peluncuran",
           "price": 9500,
           "disp": "$9,500",
           "tag": "Validasi ide Anda",
@@ -2098,7 +2422,7 @@
           "ideal": "Tim yang meluncurkan produk lintas platform yang matang ke pengguna nyata"
         },
         {
-          "name": "Flagship",
+          "name": "Unggulan",
           "price": 62000,
           "disp": "$62,000",
           "tag": "Pembangunan produk penuh",
@@ -2154,7 +2478,7 @@
       ],
       "appSupport": [
         {
-          "name": "Keep Alive",
+          "name": "Tetap Hidup",
           "price": 1950,
           "disp": "$1,950",
           "per": "/bulan",
@@ -2246,7 +2570,7 @@
           "ideal": "Aplikasi live yang aktif beriterasi berdasarkan data pengguna"
         },
         {
-          "name": "Partner",
+          "name": "Mitra",
           "price": 10500,
           "disp": "$10,500",
           "per": "/bulan",
@@ -2297,7 +2621,7 @@
       ],
       "webSupport": [
         {
-          "name": "Site Care",
+          "name": "Perawatan Situs",
           "price": 550,
           "disp": "$550",
           "per": "/bulan",
@@ -2338,7 +2662,7 @@
           "ideal": "Situs yang sudah rilis dan butuh perawatan andal serta ketenangan pikiran"
         },
         {
-          "name": "Site Growth",
+          "name": "Pertumbuhan Situs",
           "price": 1600,
           "disp": "$1,600",
           "per": "/bulan",
@@ -2384,7 +2708,7 @@
           "ideal": "Tim yang ingin situsnya terus membaik setiap bulan"
         },
         {
-          "name": "Site Partnership",
+          "name": "Kemitraan Situs",
           "price": 3800,
           "disp": "$3,800",
           "per": "/bulan",
@@ -2480,7 +2804,7 @@
           "ideal": "Founder yang curiga pemasarannya membuang uang tetapi tidak tahu persis di mana"
         },
         {
-          "name": "Campaign Launchpad",
+          "name": "Landasan Peluncuran Kampanye",
           "price": 8500,
           "disp": "$8,500",
           "tag": "Paling Populer",
@@ -2592,7 +2916,7 @@
       ],
       "brandingBuild": [
         {
-          "name": "Brand Lite",
+          "name": "Merek Ringkas",
           "price": 4000,
           "disp": "$4,000",
           "tag": "Logo + palet + tipografi",
@@ -2637,7 +2961,7 @@
           "ideal": "Solopreneur dan merek pra-pendapatan yang butuh logo bersih dan siap pakai dengan cepat"
         },
         {
-          "name": "Brand System",
+          "name": "Sistem Merek",
           "price": 12000,
           "disp": "$12,000",
           "tag": "Paling Populer",
@@ -2866,48 +3190,9 @@
           "ideal": "Merek yang naik skala dan menjadikan kami tim kreatif in-house fraksional mereka di setiap kanal"
         }
       ]
-    }
-  },
-  "onboard": {
-    "title": "Onboarding klien",
-    "sub": "Mari siapkan semuanya supaya kita bisa langsung jalan.",
-    "loading": "Memuat onboarding Anda...",
-    "unavailable": "Tautan tidak tersedia",
-    "done": "Semua sudah siap!",
-    "done_sub": "Mau sekalian atur metode pembayaran supaya kita bisa mulai sekarang?",
-    "pay_cta": "Atur metode pembayaran",
-    "coming_soon": "Segera hadir",
-    "submitting": "Mengirim...",
-    "contacts": "Kontak tim",
-    "contacts_sub": "Siapa yang sebaiknya kami hubungi di tim Anda?",
-    "primary": "Utama",
-    "remove": "Hapus",
-    "add_contact": "Tambah kontak lain",
-    "access": "Akses akun",
-    "access_sub": "Bagikan kredensial platform yang ingin kami kelola.",
-    "encrypted": "Kredensial Anda dienkripsi dengan AES-256",
-    "add_account": "Tambah akun lain",
-    "social": "Profil sosial",
-    "social_sub": "Hubungkan akun media sosial Anda agar bisa kami kelola dan kembangkan.",
-    "add_profile": "Tambah profil lain",
-    "details": "Detail proyek",
-    "details_sub": "Bantu kami menyesuaikan alur kerja kami dengan Anda.",
-    "telegram_hint": "Kirim pesan ke @blokblok_bot di Telegram untuk mendapatkan ID Anda",
-    "review": "Tinjau & kirim",
-    "review_sub": "Periksa semuanya sebelum mengirim. Anda bisa kembali untuk mengubah bagian mana pun.",
-    "f_timezone": "Zona waktu:",
-    "f_telegram": "ID Telegram:",
-    "f_notes": "Catatan:",
-    "f_brand": "Panduan merek:",
-    "ph_phone": "Nomor telepon",
-    "ph_role": "mis. CEO, Direktur Pemasaran",
-    "ph_url": "mis. https://situs-anda.com/wp-admin",
-    "ph_2fa": "mis. 2FA aktif, gunakan aplikasi autentikator",
-    "ph_link": "https://...",
-    "ph_timezone": "Pilih zona waktu Anda...",
-    "ph_telegram": "mis. 123456789",
-    "ph_notes": "Apa pun yang perlu kami tahu tentang proyek, preferensi, atau cara kerja Anda...",
-    "ph_brand": "Penggunaan logo, warna merek, jenis huruf, gaya bahasa, yang boleh dan tidak boleh..."
+    },
+    "v2_card_cta": "Minta penawaran kustom",
+    "v2_options": "{count, plural, one {# opsi} other {# opsi}}"
   },
   "a11y": {
     "skip_to_main": "Lompat ke konten utama",
@@ -2917,5 +3202,31 @@
     "email_label": "Alamat email",
     "cookie_dialog": "Persetujuan cookie",
     "cookie_preferences_dialog": "Preferensi cookie"
+  },
+  "careers": {
+    "meta_title": "Karier di Blok Blok Studio",
+    "meta_description": "Studio lima orang di Berlin, Richmond, Los Angeles, dan Multan yang membangun situs web untuk klien dari Dallas hingga Manila. Cara kami bekerja dan ke mana mengirim portofolio.",
+    "label": "Karier",
+    "title": "Tim kecil. Klien nyata. Nama Anda pada karyanya.",
+    "intro": "Lima orang di empat kota, membangun untuk klien mulai dari tukang ledeng di Dallas hingga Philippine Airlines. Tidak ada lapisan antara Anda dan klien, dan tidak ada template antara Anda dan karya.",
+    "how_label": "Cara kami bekerja",
+    "how_1_title": "Remote sejak awal",
+    "how_1_text": "Berlin adalah kantor pusat. Direktur kreatif di Virginia, pemasaran di Los Angeles, video di Pakistan. Asinkron lebih dulu, panggilan hanya saat memang diperlukan.",
+    "how_2_title": "Anda memegang proyek",
+    "how_2_text": "Satu orang menjalankan build dari awal sampai akhir dan berbicara langsung dengan klien. Studi kasusnya memuat karya Anda, bukan sebuah departemen.",
+    "how_3_title": "Dibangun dari nol",
+    "how_3_text": "Next.js dan React, dibangun manual. Tanpa page builder, tanpa tema beli jadi. Jika Anda menyukai situs cepat dan kode bersih, Anda akan betah di sini.",
+    "how_4_title": "Angka, bukan kesan",
+    "how_4_text": "Setiap situs dinilai dari apa yang dihasilkannya untuk klien: pemesanan, pesanan, peringkat. Kami memublikasikan hasilnya, jadi karyanya harus benar-benar teruji.",
+    "where_label": "Di mana kami berada",
+    "roles_label": "Posisi terbuka",
+    "roles": [],
+    "apply": "Lamar lewat email",
+    "none_title": "Belum ada posisi terbuka saat ini.",
+    "none_text": "Kami merekrut saat proyek membutuhkannya, biasanya pengembang front-end dan desainer yang juga bisa menulis. Kirim portofolio dan dua baris tentang apa yang ingin Anda bangun. Kami membaca semuanya dan menyimpan yang bagus.",
+    "none_subject": "Portofolio untuk Blok Blok Studio",
+    "none_cta": "Kirim portofolio",
+    "clients_note": "Mencari situs web untuk bisnis Anda?",
+    "clients_link": "Mulai dengan kuis"
   }
 }
