@@ -283,6 +283,12 @@ html[data-palette="green"] .blob-2 {
   padding: 4.5rem 1.5rem;
   box-shadow: 0 25px 60px -15px rgb(0 0 0 / 0.45);
 }
+/* Phones: a bordered card inside the panel is a box in a box, so the
+   panel and the card both slim their padding to give the text room. */
+@media (max-width: 639.98px) {
+  .band-light { padding: 3.5rem 1.25rem; }
+  .band-light .rounded-3xl.border { padding: 1.5rem 1.25rem; }
+}
 @media (min-width: 640px) {
   .band-light { width: calc(100% - 3rem); padding: 6rem 2.5rem; }
 }
