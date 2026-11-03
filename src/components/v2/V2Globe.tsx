@@ -94,7 +94,7 @@ export function V2Globe() {
     setWebgl(hasWebGL());
     setColors(readPalette());
     const obs = new MutationObserver(() => setColors(readPalette()));
-    obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-palette'] });
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-palette', 'style'] });
     setReducedMotion(window.matchMedia('(prefers-reduced-motion: reduce)').matches);
     const box = boxRef.current;
     const ro = new ResizeObserver(([e]) => setSize(Math.round(e.contentRect.width)));
