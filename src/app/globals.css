@@ -247,61 +247,88 @@ html[data-palette="green"] .blob-2 {
 }
 
 /* ── SECTION BANDS ──
-   Coach Luki's section rhythm: the page stays dark and every other section
-   is an inset cream panel, so each section has a visible edge. Add
-   `band-light` to a <section>. Inside it the colour tokens are flipped
-   (white <-> black, gray-50 <-> gray-950 ...), so the existing text-white,
-   text-gray-400, border-white/10 and bg-white CTA classes all read
-   correctly on cream without touching each component. Unlayered, so the
-   spacing here wins over the section's own px/pb utilities. */
-.band-light {
-  --color-white: #0f0f0f;
-  --color-black: #f7f5f0;
-  --color-gray-50: #0a0a0a;
-  --color-gray-100: #171717;
-  --color-gray-200: #262626;
-  --color-gray-300: #404040;
-  --bb-gray-300: #404040;
-  --color-gray-400: #525252;
-  --color-gray-500: #6b6b6b;
-  --color-gray-600: #8a8a8a;
-  --color-gray-700: #c4c4c4;
-  --color-gray-800: #e0ddd5;
-  --color-gray-900: #ebe8e1;
-  --color-gray-950: #f1eee8;
-  /* Accent tints are mixed toward white for dark pages; on cream they need
-     to go the other way to stay readable. */
-  --bb-tint-400: color-mix(in srgb, var(--bb-primary) 80%, black);
-  --bb-tint-300: color-mix(in srgb, var(--bb-primary) 70%, black);
-  --bb-team: #0f0f0f;
-  background-color: #f7f5f0;
-  color: #0f0f0f;
+   Coach Luki's section rhythm, in our palette: the page stays black and
+   sections alternate with inset rounded panels so each one has a visible
+   edge. Two panel types, both driven by the active palette:
+     band-light : palette Gray (Blue board #DDDDDD) with white cards
+     band-brand : palette deep colour (Blue 2 #020887) with white type
+   Inside band-light the colour tokens are flipped (white <-> black, the
+   gray scale reversed) so existing text-white / text-gray-400 /
+   border-white/10 / bg-white CTA classes read correctly on a light panel
+   without touching each component. Unlayered, so the spacing here wins
+   over the section's own px/pb utilities. */
+:root,
+html[data-palette="blue"] { --bb-panel: #dddddd; }      /* Blue board: Gray */
+html[data-palette="green"] { --bb-panel: #ffffff; }     /* Green board: White */
+html[data-palette="current"] { --bb-panel: #d4d4d4; }
+
+.band-light,
+.band-brand {
   width: calc(100% - 2rem);
   max-width: 88rem;
   margin: 2rem auto;
   border-radius: 1.25rem;
   padding: 4.5rem 1.5rem;
-  box-shadow: 0 25px 60px -15px rgb(0 0 0 / 0.45);
+}
+.band-light {
+  --color-white: #0f0f0f;
+  --color-black: #ffffff;
+  --color-gray-50: #0a0a0a;
+  --color-gray-100: #171717;
+  --color-gray-200: #262626;
+  --color-gray-300: #333333;
+  --bb-gray-300: #333333;
+  --color-gray-400: #3d3d3d;
+  --color-gray-500: #4f4f4f;
+  --color-gray-600: #6e6e6e;
+  --color-gray-700: #a8a8a8;
+  --color-gray-800: #c2c2c2;
+  --color-gray-900: #cfcfcf;
+  --color-gray-950: #d6d6d6;
+  /* Accent tints are mixed toward white for black pages; on a light
+     panel they lean toward the palette's deep colour instead. */
+  --bb-tint-400: color-mix(in srgb, var(--bb-primary) 70%, var(--bb-deep));
+  --bb-tint-300: color-mix(in srgb, var(--bb-primary) 60%, var(--bb-deep));
+  --bb-team: #0f0f0f;
+  background-color: var(--bb-panel);
+  color: #0f0f0f;
+}
+.band-brand {
+  /* White type on the deep brand colour; the accent becomes white too,
+     because Blue 1 on Blue 2 has no contrast. */
+  --bb-primary: #ffffff;
+  --bb-tint-400: #ffffff;
+  --bb-tint-300: #ffffff;
+  --color-gray-400: color-mix(in srgb, #ffffff 80%, var(--bb-deep));
+  --color-gray-500: color-mix(in srgb, #ffffff 68%, var(--bb-deep));
+  background-color: var(--bb-deep);
+  color: #ffffff;
+}
+/* Green board: Turf is the deep colour and Lime still reads on it. */
+html[data-palette="green"] .band-brand {
+  --bb-primary: #a5cf4f;
+  --bb-tint-400: #a5cf4f;
+  --bb-tint-300: #a5cf4f;
 }
 /* Phones: a bordered card inside the panel is a box in a box, so the
    panel and the card both slim their padding to give the text room. */
 @media (max-width: 639.98px) {
-  .band-light { padding: 3.5rem 1.25rem; }
-  .band-light .rounded-3xl.border { padding: 1.5rem 1.25rem; }
+  .band-light, .band-brand { padding: 3.5rem 1.25rem; }
+  :is(.band-light, .band-brand) .rounded-3xl.border { padding: 1.5rem 1.25rem; }
 }
 @media (min-width: 640px) {
-  .band-light { width: calc(100% - 3rem); padding: 6rem 2.5rem; }
+  .band-light, .band-brand { width: calc(100% - 3rem); padding: 6rem 2.5rem; }
 }
 @media (min-width: 1024px) {
-  .band-light { border-radius: 2rem; margin: 3rem auto; padding: 7rem 4rem; }
+  .band-light, .band-brand { border-radius: 2rem; margin: 3rem auto; padding: 7rem 4rem; }
 }
 /* A dark section right after a panel needs top breathing room, because the
    open dark sections only pad their bottom. */
-.band-light + section:not(.band-light) {
+:is(.band-light, .band-brand) + section:not(.band-light, .band-brand) {
   padding-top: 5rem;
 }
 @media (min-width: 1024px) {
-  .band-light + section:not(.band-light) { padding-top: 7rem; }
+  :is(.band-light, .band-brand) + section:not(.band-light, .band-brand) { padding-top: 7rem; }
 }
 .band-light ::selection {
   color: #0f0f0f;
@@ -310,9 +337,10 @@ html[data-palette="green"] .blob-2 {
 /* ── FILLED CARDS ──
    Outline-only cards (border-white/10, no background) read as empty boxes
    on the flat page. Like Coach Luki, cards get a raised fill: a lighter
-   charcoal on dark sections, white on the cream panels. Matches cards that
-   carry no bg-* class of their own (hover:bg-* is fine) and the near-
-   invisible bg-white/[0.03] ones. Form inputs and image frames keep theirs. */
+   charcoal on black, white on the light panels, a translucent white on the
+   brand panels. Matches cards that carry no bg-* class of their own
+   (hover:bg-* is fine) and the near-invisible bg-white/[0.03] ones. Form
+   inputs and image frames keep theirs. */
 main :is(div, article, a, li, form).border.border-white\/10:is(.rounded-2xl, .rounded-3xl):not([class^="bg-"]):not([class*=" bg-"]),
 main :is(div, article, a, li, form).border:is(.rounded-2xl, .rounded-3xl)[class*="bg-white/[0.03]"] {
   background-color: #1a1a1a;
@@ -321,8 +349,15 @@ main :is(div, article, a, li, form).border:is(.rounded-2xl, .rounded-3xl)[class*
 .band-light :is(div, article, a, li, form).border.border-white\/10:is(.rounded-2xl, .rounded-3xl):not([class^="bg-"]):not([class*=" bg-"]),
 .band-light :is(div, article, a, li, form).border:is(.rounded-2xl, .rounded-3xl)[class*="bg-white/[0.03]"] {
   background-color: #ffffff;
-  border-color: #e6e2d9;
-  box-shadow: 0 1px 2px rgb(15 15 15 / 0.04), 0 8px 24px -12px rgb(15 15 15 / 0.12);
+  border-color: rgb(15 15 15 / 0.08);
+  box-shadow: 0 1px 2px rgb(15 15 15 / 0.05), 0 10px 28px -14px rgb(15 15 15 / 0.18);
+}
+html[data-palette="green"] .band-light :is(div, article, a, li, form).border.border-white\/10:is(.rounded-2xl, .rounded-3xl):not([class^="bg-"]):not([class*=" bg-"]) {
+  background-color: #f4f4f4;   /* white panel: cards step down a shade */
+}
+.band-brand :is(div, article, a, li, form).border.border-white\/10:is(.rounded-2xl, .rounded-3xl):not([class^="bg-"]):not([class*=" bg-"]) {
+  background-color: rgb(255 255 255 / 0.07);
+  border-color: rgb(255 255 255 / 0.16);
 }
 
 /* ── SECTION GLOW ──

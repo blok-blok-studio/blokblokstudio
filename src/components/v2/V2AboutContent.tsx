@@ -58,7 +58,7 @@ export async function V2AboutContent() {
         </div>
       </section>
 
-      <section className="band-light px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+      <section className="band-brand px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
         <div className="mx-auto max-w-[1600px]">
           <dl className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((s) => (

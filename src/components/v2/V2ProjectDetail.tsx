@@ -64,7 +64,7 @@ export async function V2ProjectDetail({ slug }: { slug: string }) {
 
       {/* Numbers */}
       {project.metrics && project.metrics.length > 0 && (
-        <section className="band-light px-5 pb-20 sm:px-8 lg:px-12 lg:pb-28">
+        <section className="band-brand px-5 pb-20 sm:px-8 lg:px-12 lg:pb-28">
           <div className="mx-auto max-w-[1600px] rounded-3xl border border-white/10 p-8 sm:p-10 lg:p-14">
             <p className={LABEL}>{t('proj_numbers')}</p>
             <dl className={`mt-8 grid gap-10 sm:grid-cols-2 ${project.metrics.length >= 4 ? 'lg:grid-cols-4' : project.metrics.length === 3 ? 'lg:grid-cols-3' : ''}`}>

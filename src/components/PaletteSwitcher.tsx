@@ -45,7 +45,7 @@ export const PALETTES: Record<PaletteId, { label: string; swatches: Swatch[] }> 
         hex: '#020887',
         vars: (h) => ({ '--bb-deep': h, '--bb-primary-hover': h, '--bb-dark-950': mix(h, 55, 'black') }),
       },
-      { name: 'Gray', hex: '#DDDDDD', vars: (h) => ({ '--bb-gray-300': h }) },
+      { name: 'Gray', hex: '#DDDDDD', vars: (h) => ({ '--bb-gray-300': h, '--bb-panel': h }) },
       BLACK,
       WHITE,
     ],

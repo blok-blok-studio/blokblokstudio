@@ -10,7 +10,7 @@ export async function V2Proof() {
   // (stockanalysis.com/quote/pse/PAL, PitchBook TTM USD 3.14B as of Jun 2025).
   const stats = [4, 1, 3, 2] as const; // most impressive first: $3B+, $191k, 200%, 5.0
   return (
-    <section className="band-light px-5 pt-24 pb-32 sm:px-8 lg:px-12 lg:pt-32 lg:pb-44">
+    <section className="band-brand px-5 pt-24 pb-32 sm:px-8 lg:px-12 lg:pt-32 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
         <h2 className="mb-10 border-b border-white/10 pb-4 t-eyebrow text-gray-500">
           {t('v2_proof_label')}
