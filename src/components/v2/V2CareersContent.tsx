@@ -23,7 +23,7 @@ export async function V2CareersContent() {
     <>
       <V2PageHero label={t('label')} title={t('title')} intro={t('intro')} />
 
-      <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+      <section className="band-light px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
         <div className="mx-auto max-w-[1600px]">
           <div className={`mb-10 border-b border-white/10 pb-4 ${label}`}>{t('how_label')}</div>
           <ul className="grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
@@ -62,7 +62,7 @@ export async function V2CareersContent() {
         </div>
       </section>
 
-      <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+      <section className="band-light px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
         <div className="mx-auto max-w-[1600px]">
           <div className={`mb-10 border-b border-white/10 pb-4 ${label}`}>{t('roles_label')}</div>
           {roles.length > 0 ? (

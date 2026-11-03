@@ -22,7 +22,7 @@ export async function V2ServicesContent() {
     <>
       <V2PageHero label={ts('v2_label')} title={ts('title')} intro={ts('v2_intro')} />
 
-      <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+      <section className="band-light px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
         <div className="mx-auto max-w-[1600px]">
         <div className="rounded-3xl border border-white/10 p-8 sm:p-10 lg:p-14">
             <h2 className="t-h2 text-white">{title}</h2>
@@ -79,7 +79,7 @@ export async function V2ServicesContent() {
         </div>
       </section>
 
-      <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+      <section className="band-light px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
         <div className="mx-auto max-w-[1600px]">
           <div className={`mb-10 border-b border-white/10 pb-4 ${label}`}>{ts('v2_industries_label')}</div>
           <ul className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">

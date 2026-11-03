@@ -45,7 +45,7 @@ export async function V2BlogPost({ post: base }: { post: BlogPost }) {
         </div>
       </section>
 
-      <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+      <section className="band-light px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
         <article className="mx-auto max-w-3xl text-base sm:text-lg">
           <MarkdownRenderer content={post.content} />
         </article>

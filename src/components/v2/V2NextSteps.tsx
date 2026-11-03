@@ -13,7 +13,7 @@ export function V2NextSteps({ compact = false }: { compact?: boolean }) {
   const locale = useLocale();
   const price = formatMoney(SITE_TIERS[0].usd, locale);
   return (
-    <section className={compact ? 'mt-20' : 'px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44'}>
+    <section className={compact ? 'mt-20' : 'band-light px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44'}>
       <div className={compact ? '' : 'mx-auto max-w-[1600px]'}>
         <h2 className="mb-10 border-b border-white/10 pb-4 t-eyebrow text-gray-500">{t('v2_next_label')}</h2>
         <ol className="relative grid gap-10 md:grid-cols-3 md:gap-8">

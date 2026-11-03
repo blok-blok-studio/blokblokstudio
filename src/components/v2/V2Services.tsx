@@ -19,7 +19,7 @@ export async function V2Services() {
   const care = BULLETS.map((b) => t(`v2_hosting_bullet_${b}`));
 
   return (
-    <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+    <section className="band-light px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
         <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-4 t-eyebrow text-gray-500">
           <span>{t('v2_services_label')}</span>
