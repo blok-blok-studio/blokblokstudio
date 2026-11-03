@@ -176,6 +176,7 @@ export const projectsData: Record<string, ProjectData> = {
     url: 'https://public-affair.com',
     mobileImage: '/images/projects/public-affair-mobile.webp',
     embeddable: true,
+    useProxy: true,
   },
   'military-newschool': {
     title: 'The New School: Military Center',
