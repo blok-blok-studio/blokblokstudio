@@ -242,15 +242,14 @@ export function PaletteSwitcher() {
             <p className="text-[11px] uppercase tracking-widest text-gray-500">
               {active.label} palette{edited ? ' (edited)' : ''}
             </p>
-            {edited && (
-              <button
-                type="button"
-                onClick={resetPalette}
-                className="text-[11px] text-gray-400 underline underline-offset-2 hover:text-white"
-              >
-                Reset
-              </button>
-            )}
+            <button
+              type="button"
+              onClick={resetPalette}
+              disabled={!edited && Object.keys(drafts).length === 0}
+              className="text-[11px] text-gray-400 underline underline-offset-2 hover:text-white disabled:cursor-default disabled:no-underline disabled:opacity-40 disabled:hover:text-gray-400"
+            >
+              Reset {active.label}
+            </button>
           </div>
           <ul className="space-y-2">
             {active.swatches.map((s) => {
