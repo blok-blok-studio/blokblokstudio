@@ -33,7 +33,7 @@
    These map to Tailwind classes like text-gray-400, bg-gray-900, etc.
    To change the color scheme, edit the hex values below. */
 @theme {
-  --color-black: #000000;
+  --color-black: #0f0f0f;
   --color-white: #ffffff;
   --color-gray-50: #fafafa;
   --color-gray-100: #f5f5f5;
@@ -315,7 +315,7 @@ a:focus-visible {
 }
 
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: #0f0f0f;
 }
 
 ::-webkit-scrollbar-thumb {

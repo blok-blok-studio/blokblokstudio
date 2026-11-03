@@ -23,7 +23,7 @@ type Swatch = {
 
 const mix = (hex: string, pct: number, to: 'white' | 'black') =>
   `color-mix(in srgb, ${hex} ${pct}%, ${to})`;
-const BLACK: Swatch = { name: 'Black', hex: '#000000', vars: (h) => ({ '--color-black': h }) };
+const BLACK: Swatch = { name: 'Black', hex: '#0F0F0F', vars: (h) => ({ '--color-black': h }) };
 const WHITE: Swatch = { name: 'White', hex: '#FFFFFF', vars: (h) => ({ '--color-white': h, '--bb-team': h }) };
 
 export const PALETTES: Record<PaletteId, { label: string; swatches: Swatch[] }> = {
