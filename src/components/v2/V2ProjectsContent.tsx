@@ -22,10 +22,51 @@ export function V2ProjectsContent({ projects }: { projects: (ProjectData & { slu
   const [cat, setCat] = useState<string>('all');
   const shown = projects.filter((p) => cat === 'all' || p.category === cat);
 
+  const card = (p: ProjectData & { slug: string }, wide: boolean) => {
+    const slug = p.slug;
+    const img = IMAGES[slug] ?? p.heroImage;
+    const m = p.metrics?.[0];
+    return (
+      <li key={slug}>
+        <Link href={`/projects/${slug}`} className="group block">
+          <div className={`relative overflow-hidden rounded-2xl bg-gray-950 ${wide ? 'aspect-[16/9]' : 'aspect-[4/3]'}`}>
+            {img && (
+              <Image
+                src={img}
+                alt={p.title}
+                fill
+                sizes={wide ? '100vw' : '(min-width: 768px) 50vw, 100vw'}
+                className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+                priority={wide}
+              />
+            )}
+          </div>
+          <div className="mt-5 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-baseline">
+            <h2 className="t-h3 text-white">{p.title}</h2>
+            <span className="t-eyebrow text-gray-500">
+              {CAT_KEY[p.category] ? t(CAT_KEY[p.category]) : p.category} · {p.year}
+            </span>
+          </div>
+          {m && (
+            <p className="mt-4 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+              <span className="t-h2 text-orange-500">{m.value}</span>
+              <span className="t-eyebrow text-gray-500">{m.label}</span>
+            </p>
+          )}
+          <p className="mt-2 max-w-xl text-sm leading-relaxed text-gray-400">
+            {RESULT_KEY[slug] ? th(RESULT_KEY[slug] as 'v2_result_coach_luki') : p.desc}
+          </p>
+        </Link>
+      </li>
+    );
+  };
+  const featured = cat === 'all' ? shown[0] : undefined;
+  const rest = featured ? shown.slice(1) : shown;
+
   return (
     <>
       <V2PageHero label={t('v2_label')} title={t('title')} intro={t('subtitle')} />
-      <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+      <section className="px-5 pb-8 sm:px-8 lg:px-12 lg:pb-12">
         <div className="mx-auto max-w-[1600px]">
           <div className="mb-12 flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-5">
             <div className="flex flex-wrap gap-2">
@@ -46,49 +87,17 @@ export function V2ProjectsContent({ projects }: { projects: (ProjectData & { slu
             <span className="t-eyebrow text-gray-500">{t('v2_count', { count: shown.length })}</span>
           </div>
 
-          <ul className="grid gap-x-8 gap-y-16 md:grid-cols-2">
-            {shown.map((p, i) => {
-              const slug = p.slug;
-              const wide = i === 0 && cat === 'all';
-              const img = IMAGES[slug] ?? p.heroImage;
-              const m = p.metrics?.[0];
-              return (
-                <li key={slug} className={wide ? 'md:col-span-2' : ''}>
-                  <Link href={`/projects/${slug}`} className="group block">
-                    <div className={`relative overflow-hidden rounded-2xl bg-gray-950 ${wide ? 'aspect-[16/9]' : 'aspect-[4/3]'}`}>
-                      {img && (
-                        <Image
-                          src={img}
-                          alt={p.title}
-                          fill
-                          sizes={wide ? '100vw' : '(min-width: 768px) 50vw, 100vw'}
-                          className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-                          priority={wide}
-                        />
-                      )}
-                    </div>
-                    <div className="mt-5 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-baseline">
-                      <h2 className="t-h3 text-white">{p.title}</h2>
-                      <span className="t-eyebrow text-gray-500">
-                        {CAT_KEY[p.category] ? t(CAT_KEY[p.category]) : p.category} · {p.year}
-                      </span>
-                    </div>
-                    {m && (
-                      <p className="mt-4 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                        <span className="t-h2 text-orange-500">{m.value}</span>
-                        <span className="t-eyebrow text-gray-500">{m.label}</span>
-                      </p>
-                    )}
-                    <p className="mt-2 max-w-xl text-sm leading-relaxed text-gray-400">
-                      {RESULT_KEY[slug] ? th(RESULT_KEY[slug] as 'v2_result_coach_luki') : p.desc}
-                    </p>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+          {featured && <ul>{card(featured, true)}</ul>}
         </div>
       </section>
+
+      {rest.length > 0 && (
+        <section className="band-light px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+          <ul className="mx-auto grid max-w-[1600px] gap-x-8 gap-y-16 md:grid-cols-2">
+            {rest.map((p) => card(p, false))}
+          </ul>
+        </section>
+      )}
     </>
   );
 }

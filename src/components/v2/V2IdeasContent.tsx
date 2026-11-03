@@ -77,7 +77,7 @@ export function V2IdeasContent({ videos }: { videos: SiteVideo[] }) {
   return (
     <>
       <V2PageHero label={t('v2_label')} title={t('list_title')} intro={t('list_subtitle')} />
-      <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+      <section className="band-light px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
         <div className="mx-auto max-w-[1600px]">
           <div className="mb-12 flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-5">
             <div className="flex flex-wrap gap-2">

@@ -16,7 +16,7 @@ export async function V2TeamContent() {
   return (
     <>
       <V2PageHero label={t('v2_label')} title={t('title')} intro={t('v2_intro')} />
-      <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+      <section className="band-light px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
         <ul className="mx-auto grid max-w-[1600px] gap-6 md:grid-cols-2 xl:grid-cols-3">
           {MEMBERS.map((m) => (
             <li key={m.name} className="flex flex-col rounded-3xl border border-white/10 p-8">
