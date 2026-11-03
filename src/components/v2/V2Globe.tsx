@@ -385,7 +385,7 @@ export function V2Globe() {
   };
 
   return (
-    <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+    <section className="band-glow px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px]">
         <p className="mb-10 border-b border-white/10 pb-4 t-eyebrow text-gray-500">
           {t('v2_globe_label')}

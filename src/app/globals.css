@@ -307,6 +307,36 @@ html[data-palette="green"] .blob-2 {
   color: #0f0f0f;
 }
 
+/* ── FILLED CARDS ──
+   Outline-only cards (border-white/10, no background) read as empty boxes
+   on the flat page. Like Coach Luki, cards get a raised fill: a lighter
+   charcoal on dark sections, white on the cream panels. Matches cards that
+   carry no bg-* class of their own (hover:bg-* is fine) and the near-
+   invisible bg-white/[0.03] ones. Form inputs and image frames keep theirs. */
+main :is(div, article, a, li, form).border.border-white\/10:is(.rounded-2xl, .rounded-3xl):not([class^="bg-"]):not([class*=" bg-"]),
+main :is(div, article, a, li, form).border:is(.rounded-2xl, .rounded-3xl)[class*="bg-white/[0.03]"] {
+  background-color: #1a1a1a;
+  border-color: rgb(255 255 255 / 0.07);
+}
+.band-light :is(div, article, a, li, form).border.border-white\/10:is(.rounded-2xl, .rounded-3xl):not([class^="bg-"]):not([class*=" bg-"]),
+.band-light :is(div, article, a, li, form).border:is(.rounded-2xl, .rounded-3xl)[class*="bg-white/[0.03]"] {
+  background-color: #ffffff;
+  border-color: #e6e2d9;
+  box-shadow: 0 1px 2px rgb(15 15 15 / 0.04), 0 8px 24px -12px rgb(15 15 15 / 0.12);
+}
+
+/* ── SECTION GLOW ──
+   Dark sections that sit next to another dark section get a faint wash of
+   the brand colour from the top edge, so they still read as their own
+   section (Coach Luki's radial-glow). Add `band-glow` to a <section>. */
+.band-glow {
+  background-image: radial-gradient(ellipse 65% 45% at 50% 40%, color-mix(in srgb, var(--bb-primary) 12%, transparent), transparent 72%);
+  padding-top: 5rem;
+}
+@media (min-width: 1024px) {
+  .band-glow { padding-top: 7rem; }
+}
+
 /* ── NO ORPHANS, SITE-WIDE ──
    Headings balance their line breaks; body copy and list items use
    text-wrap: pretty, which keeps a single word from being stranded on the

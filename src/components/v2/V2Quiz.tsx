@@ -10,7 +10,7 @@ import { QuizLeadForm } from '@/components/QuizLeadForm';
 export async function V2Quiz() {
   const t = await getTranslations('home');
   return (
-    <section className="px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
+    <section className="band-glow px-5 pb-32 sm:px-8 lg:px-12 lg:pb-44">
       <div className="mx-auto max-w-[1600px] rounded-3xl border border-white/10 p-6 sm:p-12 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,40rem)] lg:gap-16 lg:p-16">
         <div>
           <p className="t-eyebrow text-orange-500">{t('v2_quiz_label')}</p>
