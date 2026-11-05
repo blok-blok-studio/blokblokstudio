@@ -580,7 +580,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
                 whileTap={{ scale: canSubmit ? 0.98 : 1 }}
                 className={`w-full py-4 rounded-full font-semibold text-sm transition-all duration-300 ${
                   canSubmit
-                    ? 'bg-gradient-to-r from-orange-500 to-amber-400 text-black shadow-lg shadow-orange-500/40 hover:shadow-orange-500/60'
+                    ? 'bg-orange-500 text-white hover:bg-orange-600'
                     : 'bg-white/10 text-gray-500 cursor-not-allowed'
                 }`}
               >
@@ -596,7 +596,7 @@ export function QuizLeadForm({ fieldTag = 'Start Lead' }: { fieldTag?: string })
                 onClick={() => go(step + 1)}
                 className={`mt-6 w-full py-3.5 rounded-full font-semibold text-sm transition-all duration-300 ${
                   current.canAdvance
-                    ? 'bg-gradient-to-r from-orange-500 to-amber-400 text-black shadow-lg shadow-orange-500/40'
+                    ? 'bg-orange-500 text-white'
                     : 'bg-white/10 text-gray-500 cursor-not-allowed'
                 }`}
               >

@@ -205,7 +205,7 @@ export function V2Globe() {
     if (c.tag) {
       const badge = document.createElement('span');
       badge.textContent = c.tag;
-      badge.style.cssText = 'margin-left:6px;padding:2px 5px;border-radius:4px;font-size:9px;font-weight:600;letter-spacing:.12em;vertical-align:1px;color:#000;background:var(--bb-primary);';
+      badge.style.cssText = 'margin-left:6px;padding:2px 5px;border-radius:4px;font-size:9px;font-weight:600;letter-spacing:.12em;vertical-align:1px;color:#fff;background:var(--bb-primary);';
       title.appendChild(badge);
     }
     if (!c.expanded) inner.appendChild(title);

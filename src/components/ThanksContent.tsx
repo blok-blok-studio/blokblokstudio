@@ -116,7 +116,7 @@ export function ThanksContent({ platform = 'all', founderTranscript }: { platfor
   }, [platform]);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
+    <div className="min-h-screen bg-black text-white">
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[500px] rounded-full bg-orange-500/[0.07] blur-3xl" />
       </div>
@@ -247,7 +247,7 @@ export function ThanksContent({ platform = 'all', founderTranscript }: { platfor
             </p>
             <a
               href="/"
-              className="inline-block rounded-full bg-gradient-to-r from-orange-500 to-amber-400 px-7 py-3.5 text-sm font-semibold text-black shadow-lg shadow-orange-500/40 transition-shadow hover:shadow-orange-500/60"
+              className="inline-block rounded-full bg-orange-500 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-orange-600"
             >
               {t('cta_button')}
             </a>

@@ -24,7 +24,7 @@ export function StartContent() {
   const t = useTranslations('start');
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
+    <div className="min-h-screen bg-black text-white">
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[500px] rounded-full bg-orange-500/[0.07] blur-3xl" />
       </div>
@@ -41,7 +41,7 @@ export function StartContent() {
         <AnimatedSection>
           <h1 className="text-2xl sm:text-4xl font-bold leading-tight mb-3 text-balance">
             {t('headline_a')}{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300">
+            <span className="text-orange-400">
               {t('headline_b')}
             </span>
           </h1>
