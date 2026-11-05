@@ -215,7 +215,8 @@
     "v2_count": "{count}件のプロジェクト",
     "alt_live_preview": "{title} ライブプレビュー",
     "alt_mobile_preview": "{title} モバイルプレビュー",
-    "alt_gallery": "{title} ギャラリー画像 {n}"
+    "alt_gallery": "{title} ギャラリー画像 {n}",
+    "meta_description": "米国、ドイツ、フィリピンのクライアントのために制作したサイトと、その成果。ストア売上19.1万ドル、Google評価5.0、相談依頼200%増。"
   },
   "about": {
     "title": "私たちについて",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "ブラジリアン柔術 · アニメーション · 古着探し",
     "ayan_studied_1": "経営学・戦略マネジメント",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "事業づくり · 映画の夜 · 理想の一杯のコーヒー探し"
+    "ayan_enjoys": "事業づくり · 映画の夜 · 理想の一杯のコーヒー探し",
+    "meta_description": "Blok Blok Studioの5人を紹介します。ベルリン、リッチモンド、ロサンゼルス、ムルタンを拠点に、あなたのサイトをデザイン・制作・運用しています。"
   },
   "contact": {
     "title": "お問い合わせ",

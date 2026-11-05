@@ -215,7 +215,8 @@
     "v2_count": "{count, plural, one {# Projekt} other {# Projekte}}",
     "alt_live_preview": "Live-Vorschau von {title}",
     "alt_mobile_preview": "Mobile Vorschau von {title}",
-    "alt_gallery": "Galeriebild {n} von {title}"
+    "alt_gallery": "Galeriebild {n} von {title}",
+    "meta_description": "Websites, die wir für Kunden in den USA, Deutschland und den Philippinen gebaut haben, mit Ergebnissen: 191.000 $ Shop-Umsatz, 5,0 bei Google, 200 % mehr Anfragen."
   },
   "about": {
     "title": "Über uns",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Brazilian Jiu-Jitsu · Animation · Secondhand-Shopping",
     "ayan_studied_1": "Betriebswirtschaft und strategisches Management",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Unternehmen aufbauen · Kinoabende · Auf der Suche nach dem perfekten Kaffee"
+    "ayan_enjoys": "Unternehmen aufbauen · Kinoabende · Auf der Suche nach dem perfekten Kaffee",
+    "meta_description": "Das Team hinter Blok Blok Studio: fünf Menschen in Berlin, Richmond, Los Angeles und Multan, die Ihre Website gestalten, bauen und betreuen."
   },
   "contact": {
     "title": "Kontakt aufnehmen",

@@ -215,7 +215,8 @@
     "v2_count": "{count, plural, one {# proyecto} other {# proyectos}}",
     "alt_live_preview": "Vista previa en vivo de {title}",
     "alt_mobile_preview": "Vista previa móvil de {title}",
-    "alt_gallery": "Imagen {n} de la galería de {title}"
+    "alt_gallery": "Imagen {n} de la galería de {title}",
+    "meta_description": "Webs que diseñamos y desarrollamos para clientes en EE. UU., Alemania y Filipinas, con resultados: 191.000 $ en ventas, 5,0 en Google y un 200 % más de consultas."
   },
   "about": {
     "title": "Sobre nosotros",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Jiu jitsu brasileño · Animación · Tiendas de segunda mano",
     "ayan_studied_1": "Administración de Empresas y Gestión Estratégica",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Crear negocios · Noches de cine · Buscar el café perfecto"
+    "ayan_enjoys": "Crear negocios · Noches de cine · Buscar el café perfecto",
+    "meta_description": "Conoce a las cinco personas detrás de Blok Blok Studio, en Berlín, Richmond, Los Ángeles y Multan, que diseñan, crean y alojan tu web."
   },
   "contact": {
     "title": "Contáctanos",

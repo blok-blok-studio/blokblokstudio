@@ -25,11 +25,11 @@
  * ============================================================
  */
 
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages, getTranslations } from 'next-intl/server';
 import './globals.css';
-import { OrganizationSchema, WebsiteSchema, LocalBusinessSchema, ServiceSchema } from './structured-data';
+import { WebsiteSchema, LocalBusinessSchema, ServiceSchema } from './structured-data';
 import { Inter, Montserrat } from 'next/font/google';
 import { CookieConsent } from '@/components/CookieConsent';
 import { AdsPixels } from '@/components/AdsPixels';
@@ -49,6 +49,9 @@ function ogLocale(locale: string): string {
 // The site title, description and social-share copy follow the visitor's
 // language, same as the page body. Translations live in messages/<locale>.json
 // under `home`.
+// Browser chrome colour (mobile address bar, PWA title bar): brand Black.
+export const viewport: Viewport = { themeColor: '#0f0f0f' };
+
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations('home');
@@ -164,7 +167,6 @@ export default async function RootLayout({
         <link rel="llms" href="/llms.txt" type="text/plain" title="LLM Content" />
       </head>
       <body className={`${inter.variable} ${montserrat.variable} bg-black text-white antialiased font-sans noise-overlay`}>
-        <OrganizationSchema />
         <WebsiteSchema />
         <LocalBusinessSchema />
         <ServiceSchema />

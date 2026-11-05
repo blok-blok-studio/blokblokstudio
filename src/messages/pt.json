@@ -215,7 +215,8 @@
     "v2_count": "{count, plural, one {# projeto} other {# projetos}}",
     "alt_live_preview": "Prévia do site de {title}",
     "alt_mobile_preview": "Prévia mobile de {title}",
-    "alt_gallery": "Imagem {n} da galeria de {title}"
+    "alt_gallery": "Imagem {n} da galeria de {title}",
+    "meta_description": "Sites que criámos para clientes nos EUA, na Alemanha e nas Filipinas, com os resultados: 191 mil dólares em vendas, 5,0 no Google e 200% mais pedidos de consulta."
   },
   "about": {
     "title": "Sobre Nós",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Jiu-jitsu brasileiro · Animação · Brechós",
     "ayan_studied_1": "Administração de Empresas e Gestão Estratégica",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Criar negócios · Noites de cinema · A busca pelo café perfeito"
+    "ayan_enjoys": "Criar negócios · Noites de cinema · A busca pelo café perfeito",
+    "meta_description": "Conheça as cinco pessoas por trás do Blok Blok Studio, em Berlim, Richmond, Los Angeles e Multan, que desenham, criam e alojam o seu site."
   },
   "contact": {
     "title": "Entre em Contato",

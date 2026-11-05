@@ -215,7 +215,8 @@
     "v2_count": "{count} proyek",
     "alt_live_preview": "Pratinjau langsung {title}",
     "alt_mobile_preview": "Pratinjau {title} di perangkat mobile",
-    "alt_gallery": "Gambar galeri {n} dari {title}"
+    "alt_gallery": "Gambar galeri {n} dari {title}",
+    "meta_description": "Situs yang kami rancang untuk klien di AS, Jerman, dan Filipina, beserta hasilnya: penjualan $191 ribu, rating 5,0 di Google, dan 200% lebih banyak permintaan konsultasi."
   },
   "about": {
     "title": "Tentang Kami",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Brazilian jiu jitsu · Animasi · Thrifting",
     "ayan_studied_1": "Administrasi Bisnis dan Manajemen Strategis",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Membangun usaha · Malam nonton film · Berburu kopi sempurna"
+    "ayan_enjoys": "Membangun usaha · Malam nonton film · Berburu kopi sempurna",
+    "meta_description": "Kenali lima orang di balik Blok Blok Studio, di Berlin, Richmond, Los Angeles, dan Multan, yang merancang, membangun, dan meng-hosting situs Anda."
   },
   "contact": {
     "title": "Hubungi Kami",

@@ -2,54 +2,6 @@ import { getLocale, getTranslations } from 'next-intl/server';
 import { videoUrls, type SiteVideo, type SiteVideoKey } from '@/data/videos';
 import { transcriptAsPlainText } from '@/data/video-transcripts';
 
-export async function OrganizationSchema() {
-  const t = await getTranslations('seo');
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': ['Organization', 'ProfessionalService'],
-    '@id': 'https://www.blokblokstudio.com/#organization',
-    name: 'Blok Blok Studio',
-    url: 'https://www.blokblokstudio.com',
-    logo: 'https://www.blokblokstudio.com/logo.png',
-    description: t('org_description'),
-    foundingDate: '2024-06',
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'customer service',
-      url: 'https://www.blokblokstudio.com/contact',
-      availableLanguage: ['English', 'German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese', 'Polish', 'Russian', 'Swedish', 'Turkish', 'Arabic', 'Hindi', 'Indonesian', 'Japanese', 'Korean', 'Thai', 'Vietnamese', 'Chinese'],
-    },
-    sameAs: [
-      'https://www.instagram.com/blokblokstudio/',
-      'https://www.linkedin.com/company/blok-blok-studio/',
-    ],
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Berlin',
-      addressCountry: 'DE',
-    },
-    areaServed: {
-      '@type': 'GeoShape',
-      name: t('worldwide'),
-    },
-    priceRange: '$$',
-    hasOfferCatalog: {
-      '@type': 'OfferCatalog',
-      name: t('offer_catalog'),
-      itemListElement: [
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: t('service_name') } },
-      ],
-    },
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
-}
-
 export async function WebsiteSchema() {
   const locale = await getLocale();
   const schema = {
@@ -200,7 +152,10 @@ export async function LocalBusinessSchema() {
     alternateName: 'BlokBlok Studio',
     description: t('local_description'),
     image: 'https://www.blokblokstudio.com/logo-hero.png',
-    logo: 'https://www.blokblokstudio.com/logo.svg',
+    // Raster logo: Google's logo guidelines want a crawlable bitmap, and this
+    // node is the site's only #organization entity (it used to be split in
+    // two with conflicting logos and descriptions).
+    logo: 'https://www.blokblokstudio.com/logo.png',
     url: 'https://www.blokblokstudio.com',
     foundingDate: '2024-06',
     // Detail from the founder video's transcript (src/data/video-transcripts.ts).
@@ -259,6 +214,19 @@ export async function LocalBusinessSchema() {
     // Five: founder, creative director (Richmond), marketing (Los Angeles),
     // full stack dev (Berlin), video (Multan). Matches the team page.
     numberOfEmployees: { '@type': 'QuantitativeValue', value: 5 },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer service',
+      url: 'https://www.blokblokstudio.com/contact',
+      availableLanguage: ['English', 'German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese', 'Polish', 'Russian', 'Swedish', 'Turkish', 'Arabic', 'Hindi', 'Indonesian', 'Japanese', 'Korean', 'Thai', 'Vietnamese', 'Chinese'],
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: t('offer_catalog'),
+      itemListElement: [
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: t('service_name') } },
+      ],
+    },
     sameAs: [
       'https://www.instagram.com/blokblokstudio/',
       'https://www.linkedin.com/company/blok-blok-studio/',

@@ -8,11 +8,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('team');
   return {
     title: t('title'),
-    description: t('subtitle'),
+    description: t('meta_description'),
     alternates: { canonical: '/team' },
     openGraph: {
       title: `${t('title')} | Blok Blok Studio`,
-      description: t('subtitle'),
+      description: t('meta_description'),
       url: 'https://www.blokblokstudio.com/team',
       siteName: 'Blok Blok Studio',
       type: 'website',
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
     twitter: {
       card: 'summary_large_image',
       title: `${t('title')} | Blok Blok Studio`,
-      description: t('subtitle'),
+      description: t('meta_description'),
       images: ['/og-image.jpg'],
     },
   };

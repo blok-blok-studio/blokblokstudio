@@ -215,7 +215,8 @@
     "v2_count": "{count} dự án",
     "alt_live_preview": "Bản xem trước trực tiếp của {title}",
     "alt_mobile_preview": "Bản xem trước trên di động của {title}",
-    "alt_gallery": "Ảnh thư viện {n} của {title}"
+    "alt_gallery": "Ảnh thư viện {n} của {title}",
+    "meta_description": "Các website chúng tôi thiết kế cho khách hàng tại Mỹ, Đức và Philippines, cùng kết quả: 191 nghìn USD doanh số, 5,0 trên Google, tăng 200% yêu cầu tư vấn."
   },
   "about": {
     "title": "Về chúng tôi",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Brazilian jiu jitsu · Hoạt hình · Săn đồ cũ",
     "ayan_studied_1": "Quản trị Kinh doanh và Quản lý Chiến lược",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Khởi nghiệp · Những đêm xem phim · Săn lùng ly cà phê hoàn hảo"
+    "ayan_enjoys": "Khởi nghiệp · Những đêm xem phim · Săn lùng ly cà phê hoàn hảo",
+    "meta_description": "Gặp gỡ năm người đứng sau Blok Blok Studio tại Berlin, Richmond, Los Angeles và Multan, những người thiết kế, xây dựng và vận hành website của bạn."
   },
   "contact": {
     "title": "Liên hệ",

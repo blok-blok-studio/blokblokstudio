@@ -215,7 +215,8 @@
     "v2_count": "{count} 個專案",
     "alt_live_preview": "{title} 線上預覽",
     "alt_mobile_preview": "{title} 行動版預覽",
-    "alt_gallery": "{title} 圖庫圖片 {n}"
+    "alt_gallery": "{title} 圖庫圖片 {n}",
+    "meta_description": "我們為美國、德國和菲律賓客戶設計開發的網站與成果：商店銷售額 19.1 萬美元，Google 評分 5.0，諮詢請求成長 200%。"
   },
   "about": {
     "title": "關於我們",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "巴西柔術 · 動畫 · 逛二手店",
     "ayan_studied_1": "企業管理與策略管理",
     "ayan_studied_2": "旁遮普大學",
-    "ayan_enjoys": "創業 · 電影之夜 · 尋找完美的一杯咖啡"
+    "ayan_enjoys": "創業 · 電影之夜 · 尋找完美的一杯咖啡",
+    "meta_description": "認識 Blok Blok Studio 的五位成員：分布在柏林、里奇蒙、洛杉磯和木爾坦，負責設計、打造並代管你的網站。"
   },
   "contact": {
     "title": "聯絡我們",

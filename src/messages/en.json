@@ -215,7 +215,8 @@
     "v2_count": "{count, plural, one {# project} other {# projects}}",
     "alt_live_preview": "{title} live preview",
     "alt_mobile_preview": "{title} mobile preview",
-    "alt_gallery": "{title} gallery image {n}"
+    "alt_gallery": "{title} gallery image {n}",
+    "meta_description": "Sites we built for clients in the US, Germany and the Philippines, and what they did: $191k in store sales, 5.0 on Google, 200% more consultation requests."
   },
   "about": {
     "title": "About Us",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Brazilian jiu-jitsu · Animation · Thrifting",
     "ayan_studied_1": "Business Administration and Strategic Management",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Building ventures · Cinema nights · Chasing the perfect coffee"
+    "ayan_enjoys": "Building ventures · Cinema nights · Chasing the perfect coffee",
+    "meta_description": "Meet the five people behind Blok Blok Studio, based in Berlin, Richmond, Los Angeles and Multan, who design, build and host your website."
   },
   "contact": {
     "title": "Get in touch",

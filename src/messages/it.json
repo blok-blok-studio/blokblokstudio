@@ -215,7 +215,8 @@
     "v2_count": "{count, plural, one {# progetto} other {# progetti}}",
     "alt_live_preview": "Anteprima dal vivo di {title}",
     "alt_mobile_preview": "Anteprima mobile di {title}",
-    "alt_gallery": "Immagine {n} della galleria di {title}"
+    "alt_gallery": "Immagine {n} della galleria di {title}",
+    "meta_description": "Siti che abbiamo progettato per clienti negli Stati Uniti, in Germania e nelle Filippine, con i risultati: 191.000 $ di vendite, 5,0 su Google, il 200% di richieste in più."
   },
   "about": {
     "title": "Chi siamo",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Jiu jitsu brasiliano · Animazione · Mercatini dell'usato",
     "ayan_studied_1": "Amministrazione aziendale e gestione strategica",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Avviare nuove imprese · Serate al cinema · La ricerca del caffè perfetto"
+    "ayan_enjoys": "Avviare nuove imprese · Serate al cinema · La ricerca del caffè perfetto",
+    "meta_description": "Le cinque persone dietro Blok Blok Studio, tra Berlino, Richmond, Los Angeles e Multan, che progettano, costruiscono e ospitano il tuo sito."
   },
   "contact": {
     "title": "Contattaci",

@@ -215,7 +215,8 @@
     "v2_count": "{count} 个作品",
     "alt_live_preview": "{title} 线上预览",
     "alt_mobile_preview": "{title} 移动端预览",
-    "alt_gallery": "{title} 图库图片 {n}"
+    "alt_gallery": "{title} 图库图片 {n}",
+    "meta_description": "我们为美国、德国和菲律宾客户设计开发的网站及其成果：店铺销售额 19.1 万美元，Google 评分 5.0，咨询请求增长 200%。"
   },
   "about": {
     "title": "关于我们",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "巴西柔术 · 动画 · 淘二手好物",
     "ayan_studied_1": "工商管理与战略管理",
     "ayan_studied_2": "旁遮普大学（University of the Punjab）",
-    "ayan_enjoys": "创业折腾 · 电影之夜 · 寻找一杯完美的咖啡"
+    "ayan_enjoys": "创业折腾 · 电影之夜 · 寻找一杯完美的咖啡",
+    "meta_description": "认识 Blok Blok Studio 的五位成员：分布在柏林、里士满、洛杉矶和木尔坦，负责设计、搭建并托管你的网站。"
   },
   "contact": {
     "title": "联系我们",

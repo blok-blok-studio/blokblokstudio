@@ -215,7 +215,8 @@
     "v2_count": "{count, plural, one {# project} other {# projecten}}",
     "alt_live_preview": "Live preview van {title}",
     "alt_mobile_preview": "Mobiele preview van {title}",
-    "alt_gallery": "Galerijafbeelding {n} van {title}"
+    "alt_gallery": "Galerijafbeelding {n} van {title}",
+    "meta_description": "Websites die we bouwden voor klanten in de VS, Duitsland en de Filipijnen, en wat ze opleverden: $191k aan omzet, 5,0 op Google, 200% meer aanvragen."
   },
   "about": {
     "title": "Over ons",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Braziliaans jiu-jitsu · Animatie · Tweedehands shoppen",
     "ayan_studied_1": "Bedrijfskunde en strategisch management",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Ondernemingen opbouwen · Filmavonden · Op zoek naar de perfecte koffie"
+    "ayan_enjoys": "Ondernemingen opbouwen · Filmavonden · Op zoek naar de perfecte koffie",
+    "meta_description": "Maak kennis met de vijf mensen achter Blok Blok Studio, in Berlijn, Richmond, Los Angeles en Multan, die je website ontwerpen, bouwen en hosten."
   },
   "contact": {
     "title": "Neem contact op",

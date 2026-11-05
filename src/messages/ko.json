@@ -215,7 +215,8 @@
     "v2_count": "{count}개 프로젝트",
     "alt_live_preview": "{title} 라이브 미리보기",
     "alt_mobile_preview": "{title} 모바일 미리보기",
-    "alt_gallery": "{title} 갤러리 이미지 {n}"
+    "alt_gallery": "{title} 갤러리 이미지 {n}",
+    "meta_description": "미국, 독일, 필리핀 클라이언트를 위해 만든 웹사이트와 그 성과: 스토어 매출 19.1만 달러, Google 평점 5.0, 상담 문의 200% 증가."
   },
   "about": {
     "title": "회사 소개",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "브라질리언 주짓수 · 애니메이션 · 빈티지 쇼핑",
     "ayan_studied_1": "경영학 및 전략 경영",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "창업 · 영화 보는 밤 · 완벽한 커피 찾기"
+    "ayan_enjoys": "창업 · 영화 보는 밤 · 완벽한 커피 찾기",
+    "meta_description": "Blok Blok Studio의 다섯 명을 소개합니다. 베를린, 리치먼드, 로스앤젤레스, 물탄에서 웹사이트를 디자인하고 만들고 호스팅합니다."
   },
   "contact": {
     "title": "문의하기",

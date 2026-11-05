@@ -215,7 +215,8 @@
     "v2_count": "{count, plural, one {# projekt} other {# projekt}}",
     "alt_live_preview": "Live-förhandsvisning av {title}",
     "alt_mobile_preview": "Mobil förhandsvisning av {title}",
-    "alt_gallery": "Galleribild {n} för {title}"
+    "alt_gallery": "Galleribild {n} för {title}",
+    "meta_description": "Webbplatser vi har byggt åt kunder i USA, Tyskland och Filippinerna, och vad de gav: 191 000 $ i försäljning, 5,0 på Google, 200 % fler förfrågningar."
   },
   "about": {
     "title": "Om oss",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Brasiliansk jiu-jitsu · Animation · Secondhandfynd",
     "ayan_studied_1": "Företagsekonomi och strategisk ledning",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Bygga företag · Biokvällar · Jakten på den perfekta kaffekoppen"
+    "ayan_enjoys": "Bygga företag · Biokvällar · Jakten på den perfekta kaffekoppen",
+    "meta_description": "Möt de fem personerna bakom Blok Blok Studio, i Berlin, Richmond, Los Angeles och Multan, som designar, bygger och driftar din webbplats."
   },
   "contact": {
     "title": "Hör av dig",

@@ -215,7 +215,8 @@
     "v2_count": "{count, plural, one {# projekt} few {# projekty} many {# projektów} other {# projektu}}",
     "alt_live_preview": "Podgląd na żywo: {title}",
     "alt_mobile_preview": "Podgląd mobilny: {title}",
-    "alt_gallery": "Zdjęcie {n} z galerii: {title}"
+    "alt_gallery": "Zdjęcie {n} z galerii: {title}",
+    "meta_description": "Strony, które zaprojektowaliśmy dla klientów w USA, Niemczech i na Filipinach, oraz ich wyniki: 191 tys. $ sprzedaży, 5,0 w Google, o 200% więcej zapytań."
   },
   "about": {
     "title": "O nas",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Brazylijskie jiu-jitsu · Animacja · Zakupy w second-handach",
     "ayan_studied_1": "Administracja biznesowa i zarządzanie strategiczne",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Budowanie biznesów · Wieczory filmowe · Pogoń za idealną kawą"
+    "ayan_enjoys": "Budowanie biznesów · Wieczory filmowe · Pogoń za idealną kawą",
+    "meta_description": "Poznaj pięć osób stojących za Blok Blok Studio, z Berlina, Richmond, Los Angeles i Multanu, które projektują, budują i hostują Twoją stronę."
   },
   "contact": {
     "title": "Skontaktuj się",

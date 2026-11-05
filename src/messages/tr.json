@@ -215,7 +215,8 @@
     "v2_count": "{count} proje",
     "alt_live_preview": "{title} canlı önizleme",
     "alt_mobile_preview": "{title} mobil önizleme",
-    "alt_gallery": "{title} galeri görseli {n}"
+    "alt_gallery": "{title} galeri görseli {n}",
+    "meta_description": "ABD, Almanya ve Filipinler'deki müşteriler için tasarladığımız siteler ve sonuçları: 191 bin $ satış, Google'da 5,0 puan, %200 daha fazla danışma talebi."
   },
   "about": {
     "title": "Hakkımızda",
@@ -364,7 +365,8 @@
     "kyle_enjoys": "Brezilya jiu jitsu · Animasyon · İkinci el alışveriş",
     "ayan_studied_1": "İşletme ve Stratejik Yönetim",
     "ayan_studied_2": "University of the Punjab",
-    "ayan_enjoys": "Girişim kurmak · Sinema geceleri · Mükemmel kahvenin peşinde"
+    "ayan_enjoys": "Girişim kurmak · Sinema geceleri · Mükemmel kahvenin peşinde",
+    "meta_description": "Blok Blok Studio'nun arkasındaki beş kişi: Berlin, Richmond, Los Angeles ve Multan'dan sitenizi tasarlıyor, kuruyor ve barındırıyoruz."
   },
   "contact": {
     "title": "İletişime Geçin",
