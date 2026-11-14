@@ -33,12 +33,7 @@ import { WebsiteSchema, LocalBusinessSchema, ServiceSchema } from './structured-
 import { Inter, Montserrat } from 'next/font/google';
 import { CookieConsent } from '@/components/CookieConsent';
 import { AdsPixels } from '@/components/AdsPixels';
-
-// Blok Blok's own cookieless visit statistics (Command Center > Analytics).
-// The script stores nothing on the visitor's device. Both values can be
-// overridden per environment; they are public, not secrets.
-const BB_ANALYTICS_URL = process.env.NEXT_PUBLIC_BB_ANALYTICS_URL || 'https://app.blokblokstudio.com';
-const BB_ANALYTICS_SITE = process.env.NEXT_PUBLIC_BB_ANALYTICS_SITE || 'abddb090a1b5';
+import { SiteAnalytics } from '@/components/SiteAnalytics';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
 // Variable font: no weight array, so next/font issues one request (the two-weight
@@ -180,8 +175,8 @@ export default async function RootLayout({
           {children}
           <CookieConsent />
           <AdsPixels />
+          <SiteAnalytics />
         </NextIntlClientProvider>
-        <script defer src={`${BB_ANALYTICS_URL}/bb.js`} data-site={BB_ANALYTICS_SITE} />
       </body>
     </html>
   );

@@ -449,7 +449,7 @@
   "privacy": {
     "title": "Gizlilik Politikası",
     "description": "Blok Blok Studio kişisel verilerinizi nasıl toplar, kullanır ve korur",
-    "last_updated": "Son Güncelleme: 16 Temmuz 2026",
+    "last_updated": "Son Güncelleme: 14 Kasım 2026",
     "intro_title": "Giriş",
     "intro_content": "Blok Blok Studio olarak gizliliğinizi ciddiye alıyoruz. Bu Gizlilik Politikası, web sitemizi ziyaret ettiğinizde veya hizmetlerimizi kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, paylaştığımızı ve koruduğumuzu açıklar.",
     "data_collection_title": "Hangi Verileri Topluyoruz",
@@ -487,7 +487,7 @@
     "contact_title": "Bize Ulaşın",
     "contact_content": "Bu Gizlilik Politikası veya verilerinizi nasıl işlediğimiz hakkında sorularınız varsa bize şuradan ulaşın:",
     "data_item_phone": "Telefon numarası",
-    "third_party_pixels": "Reklam piksellerini (Meta, Google) yalnızca onay bannerımızda pazarlama çerezlerini açıkça kabul etmeniz halinde yükleriz; aksi takdirde hiçbir takip çerezi veya analiz hizmeti kullanılmaz.",
+    "third_party_pixels": "Reklam piksellerini (Meta, Google) yalnızca onay bannerımızda pazarlama çerezlerini açıkça kabul etmeniz halinde yükleriz; aksi takdirde hiçbir takip çerezi veya üçüncü taraf analiz hizmeti kullanılmaz.",
     "legal_basis_title": "İşlemenin Hukuki Dayanağı",
     "legal_basis_intro": "GDPR'nin 6. maddesi uyarınca kişisel verilerinizi aşağıdaki hukuki dayanaklara göre işleriz:",
     "legal_basis_consent": "Onay (Md. 6(1)(a)): Bültenimize abone olduğunuzda veya açık onayla bir iletişim formu gönderdiğinizde",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar: bizimle görüşme ayarladığınızda randevu planlama",
     "third_party_meta": "Meta (Facebook/Instagram): reklam ölçümü, yalnızca pazarlama çerezi onayınızla. Bu onayla birlikte, reklam dönüşümlerini ölçmek için e-posta adresinizi ve telefon numaranızı hashlenmiş (takma adlı) biçimde de iletebiliriz.",
     "third_party_google": "Google: reklam ölçümü (Google Ads), yalnızca pazarlama çerezi onayınızla",
-    "marketing_double_optin": "Pazarlama e-postaları çift onay (double opt-in) yöntemiyle gönderilir. Bir formdaki isteğe bağlı kutuyu işaretlemek tek başına yeterli değildir: size bir onay e-postası göndeririz ve yalnızca içindeki bağlantıya tıkladığınızda listeye eklenirsiniz. O ana kadar size pazarlama e-postası göndermeyiz. Herhangi bir e-postadaki abonelikten çıkma bağlantısını kullanarak istediğiniz zaman vazgeçebilirsiniz; bu anında geçerli olur."
+    "marketing_double_optin": "Pazarlama e-postaları çift onay (double opt-in) yöntemiyle gönderilir. Bir formdaki isteğe bağlı kutuyu işaretlemek tek başına yeterli değildir: size bir onay e-postası göndeririz ve yalnızca içindeki bağlantıya tıkladığınızda listeye eklenirsiniz. O ana kadar size pazarlama e-postası göndermeyiz. Herhangi bir e-postadaki abonelikten çıkma bağlantısını kullanarak istediğiniz zaman vazgeçebilirsiniz; bu anında geçerli olur.",
+    "own_statistics": "Ziyaret istatistikleri: harici bir analiz şirketi olmadan, kendi istatistik aracımızı kullanıyoruz. Bu araç çerez yerleştirmez ve cihazınıza hiçbir şey kaydetmez. Görüntülenen sayfaları, yönlendiren web sitesini, cihaz türünü, ülkeyi, tıklamaları ve kaydırma derinliğini kaydeder. IP adresiniz saklanmaz. Yalnızca her gün değişen bir kod oluşturmak için kullanılır; bu nedenle ziyaretler günler veya web siteleri arasında ilişkilendirilemez. AB, Birleşik Krallık ve İsviçre’de araç yalnızca çerez bannerımızda “Analiz” seçeneğini kabul etmeniz halinde çalışır. Diğer ülkelerde, “Analiz” seçeneğini orada kapatmadığınız sürece çalışır."
   },
   "terms": {
     "title": "Hizmet Şartları",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Çerez Politikası",
     "description": "Blok Blok Studio çerezleri ve benzer teknolojileri nasıl kullanır",
-    "last_updated": "Son Güncelleme: 16 Temmuz 2026",
+    "last_updated": "Son Güncelleme: 14 Kasım 2026",
     "intro_title": "Çerez Nedir",
     "intro_content": "Çerezler, bir web sitesini ziyaret ettiğinizde cihazınızda saklanan küçük metin dosyalarıdır. Web sitelerinin tercihlerinizi hatırlamasına ve gezinme deneyiminizi iyileştirmesine yardımcı olurlar.",
     "our_use_title": "Çerezleri Nasıl Kullanıyoruz",
@@ -549,7 +550,7 @@
     "control_title": "Çerezleri Yönetme",
     "control_content": "Çerezleri tarayıcı ayarlarınızdan kontrol edebilirsiniz. Çoğu tarayıcı çerezleri engellemenize veya silmenize izin verir. localStorage'ı temizlemenin çerez onayı tercihinizi sıfırlayacağını unutmayın.",
     "updates_title": "Politika Güncellemeleri",
-    "updates_content": "İleride analiz veya takip teknolojileri kullanmaya başlarsak, herhangi bir takip başlamadan önce bu politikayı güncelleyecek ve çerez onay bannerımız üzerinden sizi bilgilendireceğiz.",
+    "updates_content": "Kasım 2026’dan itibaren ziyaretleri, Gizlilik Politikamızda açıklanan, çerez kullanmayan kendi istatistik aracımızla ölçüyoruz. AB, Birleşik Krallık ve İsviçre’de yalnızca çerez bannerımızda “Analiz” seçeneğini kabul etmenizden sonra çalışır. Başka analiz veya takip teknolojileri eklersek bu politikayı günceller ve önce banner üzerinden size sorarız.",
     "storage_title": "Çerez ve Depolama Ayrıntıları",
     "storage_intro": "Aşağıda bu web sitesinde kullanılan çerezlerin ve yerel depolama öğelerinin tam listesi yer alır:",
     "table_name": "Ad",

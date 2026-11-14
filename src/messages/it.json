@@ -449,7 +449,7 @@
   "privacy": {
     "title": "Informativa sulla privacy",
     "description": "Come Blok Blok Studio raccoglie, utilizza e protegge i tuoi dati personali",
-    "last_updated": "Ultimo aggiornamento: 16 luglio 2026",
+    "last_updated": "Ultimo aggiornamento: 14 novembre 2026",
     "intro_title": "Introduzione",
     "intro_content": "In Blok Blok Studio prendiamo sul serio la tua privacy. Questa Informativa sulla privacy spiega come raccogliamo, utilizziamo, comunichiamo e proteggiamo le tue informazioni quando visiti il nostro sito web o utilizzi i nostri servizi.",
     "data_collection_title": "Quali dati raccogliamo",
@@ -487,7 +487,7 @@
     "contact_title": "Contattaci",
     "contact_content": "Se hai domande su questa Informativa sulla privacy o su come gestiamo i tuoi dati, contattaci all'indirizzo:",
     "data_item_phone": "Numero di telefono",
-    "third_party_pixels": "Carichiamo pixel pubblicitari (Meta, Google) solo se accetti esplicitamente i cookie di marketing nel nostro banner di consenso; in caso contrario non vengono utilizzati cookie di tracciamento né servizi di analisi.",
+    "third_party_pixels": "Carichiamo pixel pubblicitari (Meta, Google) solo se accetti esplicitamente i cookie di marketing nel nostro banner di consenso; in caso contrario non vengono utilizzati cookie di tracciamento né servizi di analisi di terze parti.",
     "legal_basis_title": "Base giuridica del trattamento",
     "legal_basis_intro": "Ai sensi dell'articolo 6 del GDPR, trattiamo i tuoi dati personali sulla base dei seguenti fondamenti giuridici:",
     "legal_basis_consent": "Consenso (art. 6, par. 1, lett. a): quando ti iscrivi alla nostra newsletter o invii un modulo di contatto con consenso esplicito",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar: pianificazione degli appuntamenti quando prenoti una call con noi",
     "third_party_meta": "Meta (Facebook/Instagram): misurazione pubblicitaria, solo con il tuo consenso ai cookie di marketing. Con tale consenso possiamo anche trasmettere il tuo indirizzo email e il tuo numero di telefono in forma hash (pseudonimizzata) per misurare le conversioni delle inserzioni.",
     "third_party_google": "Google: misurazione pubblicitaria (Google Ads), solo con il tuo consenso ai cookie di marketing",
-    "marketing_double_optin": "Le email di marketing utilizzano il double opt-in. Spuntare la casella facoltativa in un modulo non basta da solo: ti inviamo un'email di conferma e vieni aggiunto alla lista solo dopo aver cliccato il link al suo interno. Fino ad allora non ti inviamo comunicazioni di marketing. Puoi revocare il consenso in qualsiasi momento tramite il link di disiscrizione presente in ogni email, con effetto immediato."
+    "marketing_double_optin": "Le email di marketing utilizzano il double opt-in. Spuntare la casella facoltativa in un modulo non basta da solo: ti inviamo un'email di conferma e vieni aggiunto alla lista solo dopo aver cliccato il link al suo interno. Fino ad allora non ti inviamo comunicazioni di marketing. Puoi revocare il consenso in qualsiasi momento tramite il link di disiscrizione presente in ogni email, con effetto immediato.",
+    "own_statistics": "Statistiche delle visite: usiamo un nostro strumento di statistiche, senza alcuna società di analisi esterna. Non imposta cookie e non salva nulla sul tuo dispositivo. Registra le pagine visitate, il sito di provenienza, il tipo di dispositivo, il paese, i clic e la profondità di scorrimento. Il tuo indirizzo IP non viene conservato. Serve solo a creare un codice che cambia ogni giorno, così le visite non possono essere collegate tra giorni diversi né tra siti diversi. Nell'UE, nel Regno Unito e in Svizzera funziona solo se accetti «Analisi» nel nostro banner dei cookie. Altrove funziona finché non disattivi «Analisi» nel banner."
   },
   "terms": {
     "title": "Termini di servizio",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Informativa sui cookie",
     "description": "Come Blok Blok Studio utilizza i cookie e tecnologie simili",
-    "last_updated": "Ultimo aggiornamento: 16 luglio 2026",
+    "last_updated": "Ultimo aggiornamento: 14 novembre 2026",
     "intro_title": "Cosa sono i cookie",
     "intro_content": "I cookie sono piccoli file di testo memorizzati sul tuo dispositivo quando visiti un sito web. Aiutano i siti web a ricordare le tue preferenze e migliorare la tua esperienza di navigazione.",
     "our_use_title": "Come utilizziamo i cookie",
@@ -549,7 +550,7 @@
     "control_title": "Gestione dei cookie",
     "control_content": "Puoi controllare i cookie dalle impostazioni del tuo browser. La maggior parte dei browser ti consente di bloccare o eliminare i cookie. Tieni presente che cancellare il localStorage reimposta la tua preferenza sul consenso ai cookie.",
     "updates_title": "Aggiornamenti dell'informativa",
-    "updates_content": "Se in futuro inizieremo a utilizzare tecnologie di analisi o di tracciamento, aggiorneremo questa informativa e ti avviseremo tramite il nostro banner di consenso ai cookie prima che qualsiasi tracciamento abbia inizio.",
+    "updates_content": "Da novembre 2026 misuriamo le visite con un nostro strumento di statistiche senza cookie, descritto nella nostra Informativa sulla privacy. Nell'UE, nel Regno Unito e in Svizzera funziona solo dopo che hai accettato «Analisi» nel nostro banner dei cookie. Se aggiungeremo altre tecnologie di analisi o tracciamento, aggiorneremo questa policy e te lo chiederemo prima tramite il banner.",
     "storage_title": "Dettagli su cookie e archiviazione",
     "storage_intro": "Di seguito l'elenco completo dei cookie e degli elementi di archiviazione locale utilizzati su questo sito web:",
     "table_name": "Nome",

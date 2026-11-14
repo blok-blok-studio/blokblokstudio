@@ -99,6 +99,7 @@ export function PrivacyContent() {
             />
             <p className="text-gray-400 leading-relaxed mt-4">{t('third_parties_note')}</p>
             <p className="text-gray-400 leading-relaxed mt-4">{t('third_party_pixels')}</p>
+            <p className="text-gray-400 leading-relaxed mt-4">{t('own_statistics')}</p>
           </Card>
         </AnimatedSection>
 

@@ -449,7 +449,7 @@
   "privacy": {
     "title": "隱私政策",
     "description": "Blok Blok Studio 如何蒐集、使用及保護您的個人資料",
-    "last_updated": "最後更新：2026 年 7 月 16 日",
+    "last_updated": "最後更新：2026 年 11 月 14 日",
     "intro_title": "簡介",
     "intro_content": "Blok Blok Studio 非常重視您的隱私。本隱私政策說明當您造訪我們的網站或使用我們的服務時，我們如何蒐集、使用、揭露及保護您的資訊。",
     "data_collection_title": "我們蒐集哪些資料",
@@ -487,7 +487,7 @@
     "contact_title": "聯絡我們",
     "contact_content": "若您對本隱私政策或我們處理資料的方式有任何疑問，請透過以下方式與我們聯絡：",
     "data_item_phone": "電話號碼",
-    "third_party_pixels": "只有在您於同意橫幅中明確接受行銷 Cookie 時，我們才會載入廣告像素（Meta、Google）；否則不會使用任何追蹤 Cookie 或分析服務。",
+    "third_party_pixels": "只有在您於同意橫幅中明確接受行銷 Cookie 時，我們才會載入廣告像素（Meta、Google）；否則不會使用任何追蹤 Cookie 或第三方分析服務。",
     "legal_basis_title": "處理的法律依據",
     "legal_basis_intro": "根據 GDPR 第 6 條，我們基於以下法律依據處理您的個人資料：",
     "legal_basis_consent": "同意（第 6(1)(a) 條）：當您訂閱電子報，或在明確同意下提交聯絡表單時",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar：當您與我們預約通話時用於排程",
     "third_party_meta": "Meta（Facebook/Instagram）：廣告成效衡量，僅在您同意行銷 Cookie 時啟用。在該同意下，我們也可能以雜湊（假名化）形式傳送您的電子郵件地址與電話號碼，用於衡量廣告轉換。",
     "third_party_google": "Google：廣告成效衡量（Google Ads），僅在您同意行銷 Cookie 時啟用",
-    "marketing_double_optin": "行銷郵件採用雙重確認機制。僅在表單上勾選選填的選項並不足夠：我們會寄送一封確認郵件，只有在您點擊郵件中的連結後，才會將您加入名單。在此之前，我們不會寄送任何行銷內容。您可以隨時透過任何郵件中的取消訂閱連結撤回同意，並立即生效。"
+    "marketing_double_optin": "行銷郵件採用雙重確認機制。僅在表單上勾選選填的選項並不足夠：我們會寄送一封確認郵件，只有在您點擊郵件中的連結後，才會將您加入名單。在此之前，我們不會寄送任何行銷內容。您可以隨時透過任何郵件中的取消訂閱連結撤回同意，並立即生效。",
+    "own_statistics": "造訪統計：我們使用自有的統計工具，不涉及任何外部分析公司。該工具不會設定 Cookie，也不會在您的裝置上儲存任何內容。它會記錄瀏覽的頁面、來源網站、裝置類型、國家/地區、點擊和捲動深度。我們不會儲存您的 IP 位址，它僅用於產生一組每天更換的代碼，因此無法跨日期或跨網站關聯造訪紀錄。在歐盟、英國和瑞士，只有當您在同意橫幅中接受「分析」後，該工具才會運作。在其他地區，除非您在橫幅中關閉「分析」，否則它會運作。"
   },
   "terms": {
     "title": "服務條款",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Cookie 政策",
     "description": "Blok Blok Studio 如何使用 Cookie 與類似技術",
-    "last_updated": "最後更新：2026 年 7 月 16 日",
+    "last_updated": "最後更新：2026 年 11 月 14 日",
     "intro_title": "什麼是 Cookie",
     "intro_content": "Cookie 是您造訪網站時儲存在您裝置上的小型文字檔案，能協助網站記住您的偏好並改善瀏覽體驗。",
     "our_use_title": "我們如何使用 Cookie",
@@ -549,7 +550,7 @@
     "control_title": "管理 Cookie",
     "control_content": "您可以透過瀏覽器設定控制 Cookie。多數瀏覽器都允許您封鎖或刪除 Cookie。請注意，清除 localStorage 會重設您的 Cookie 同意偏好。",
     "updates_title": "政策更新",
-    "updates_content": "若我們日後開始使用分析或追蹤技術，我們會更新本政策，並在任何追蹤發生之前，透過 Cookie 同意橫幅通知您。",
+    "updates_content": "自 2026 年 11 月起，我們使用隱私權政策中所述的自有無 Cookie 統計工具來統計造訪量。在歐盟、英國和瑞士，只有在您於同意橫幅中接受「分析」之後，該工具才會運作。如果我們新增其他分析或追蹤技術，我們將更新本政策，並事先透過橫幅徵求您的同意。",
     "storage_title": "Cookie 與儲存項目明細",
     "storage_intro": "以下是本網站使用的所有 Cookie 與本機儲存項目的完整清單：",
     "table_name": "名稱",

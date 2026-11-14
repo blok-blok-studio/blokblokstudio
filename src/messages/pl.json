@@ -449,7 +449,7 @@
   "privacy": {
     "title": "Polityka prywatności",
     "description": "Jak Blok Blok Studio zbiera, wykorzystuje i chroni Twoje dane osobowe",
-    "last_updated": "Ostatnia aktualizacja: 16 lipca 2026",
+    "last_updated": "Ostatnia aktualizacja: 14 listopada 2026",
     "intro_title": "Wprowadzenie",
     "intro_content": "W Blok Blok Studio poważnie traktujemy Twoją prywatność. Ta Polityka prywatności wyjaśnia, jak zbieramy, wykorzystujemy, ujawniamy i chronimy Twoje informacje, gdy odwiedzasz naszą stronę lub korzystasz z naszych usług.",
     "data_collection_title": "Jakie dane zbieramy",
@@ -487,7 +487,7 @@
     "contact_title": "Kontakt",
     "contact_content": "Jeśli masz pytania dotyczące tej Polityki prywatności lub sposobu, w jaki przetwarzamy Twoje dane, napisz do nas:",
     "data_item_phone": "Numer telefonu",
-    "third_party_pixels": "Piksele reklamowe (Meta, Google) ładujemy tylko wtedy, gdy wyraźnie zaakceptujesz marketingowe pliki cookie w naszym banerze zgody; w przeciwnym razie nie używamy żadnych cookies śledzących ani usług analitycznych.",
+    "third_party_pixels": "Piksele reklamowe (Meta, Google) ładujemy tylko wtedy, gdy wyraźnie zaakceptujesz marketingowe pliki cookie w naszym banerze zgody; w przeciwnym razie nie używamy żadnych cookies śledzących ani zewnętrznych usług analitycznych.",
     "legal_basis_title": "Podstawa prawna przetwarzania",
     "legal_basis_intro": "Zgodnie z art. 6 RODO przetwarzamy Twoje dane osobowe na następujących podstawach prawnych:",
     "legal_basis_consent": "Zgoda (art. 6 ust. 1 lit. a): gdy zapisujesz się do newslettera lub wysyłasz formularz kontaktowy z wyraźną zgodą",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar: umawianie spotkań, gdy rezerwujesz z nami rozmowę",
     "third_party_meta": "Meta (Facebook/Instagram): pomiar skuteczności reklam, wyłącznie za Twoją zgodą na marketingowe pliki cookie. Przy tej zgodzie możemy też przekazywać Twój adres e-mail i numer telefonu w formie zahaszowanej (pseudonimizowanej) w celu pomiaru konwersji reklamowych.",
     "third_party_google": "Google: pomiar skuteczności reklam (Google Ads), wyłącznie za Twoją zgodą na marketingowe pliki cookie",
-    "marketing_double_optin": "E-maile marketingowe wysyłamy w modelu double opt-in. Samo zaznaczenie opcjonalnego pola w formularzu nie wystarczy: wysyłamy e-mail z potwierdzeniem, a na listę trafiasz dopiero po kliknięciu zawartego w nim linku. Do tego czasu nie wysyłamy Ci treści marketingowych. Zgodę możesz wycofać w każdej chwili przez link rezygnacji w dowolnym e-mailu, ze skutkiem natychmiastowym."
+    "marketing_double_optin": "E-maile marketingowe wysyłamy w modelu double opt-in. Samo zaznaczenie opcjonalnego pola w formularzu nie wystarczy: wysyłamy e-mail z potwierdzeniem, a na listę trafiasz dopiero po kliknięciu zawartego w nim linku. Do tego czasu nie wysyłamy Ci treści marketingowych. Zgodę możesz wycofać w każdej chwili przez link rezygnacji w dowolnym e-mailu, ze skutkiem natychmiastowym.",
+    "own_statistics": "Statystyki odwiedzin: korzystamy z własnego narzędzia statystycznego, bez udziału zewnętrznej firmy analitycznej. Nie zapisuje ono plików cookie ani niczego na Twoim urządzeniu. Rejestruje oglądane strony, witrynę odsyłającą, typ urządzenia, kraj, kliknięcia i głębokość przewijania. Twój adres IP nie jest przechowywany. Służy wyłącznie do utworzenia kodu, który zmienia się każdego dnia, dlatego wizyt nie da się powiązać między dniami ani między witrynami. W UE, Wielkiej Brytanii i Szwajcarii narzędzie działa tylko wtedy, gdy zaakceptujesz opcję „Analityka” w naszym banerze cookie. W pozostałych krajach działa, o ile nie wyłączysz tam opcji „Analityka”."
   },
   "terms": {
     "title": "Regulamin",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Polityka cookies",
     "description": "Jak Blok Blok Studio używa plików cookie i podobnych technologii",
-    "last_updated": "Ostatnia aktualizacja: 16 lipca 2026",
+    "last_updated": "Ostatnia aktualizacja: 14 listopada 2026",
     "intro_title": "Czym są pliki cookie",
     "intro_content": "Pliki cookie to małe pliki tekstowe zapisywane na Twoim urządzeniu podczas odwiedzania strony internetowej. Pomagają stronom zapamiętywać Twoje preferencje i poprawiają komfort przeglądania.",
     "our_use_title": "Jak używamy plików cookie",
@@ -549,7 +550,7 @@
     "control_title": "Zarządzanie plikami cookie",
     "control_content": "Plikami cookie możesz zarządzać w ustawieniach przeglądarki. Większość przeglądarek pozwala je blokować lub usuwać. Pamiętaj, że wyczyszczenie localStorage zresetuje Twoje preferencje dotyczące zgody na cookies.",
     "updates_title": "Aktualizacje polityki",
-    "updates_content": "Jeśli w przyszłości zaczniemy korzystać z technologii analitycznych lub śledzących, zaktualizujemy tę politykę i poinformujemy Cię o tym w banerze zgody na cookies, zanim rozpocznie się jakiekolwiek śledzenie.",
+    "updates_content": "Od listopada 2026 mierzymy odwiedziny własnym narzędziem statystycznym bez plików cookie, opisanym w naszej Polityce prywatności. W UE, Wielkiej Brytanii i Szwajcarii działa ono dopiero po zaakceptowaniu przez Ciebie opcji „Analityka” w naszym banerze cookie. Jeśli wprowadzimy inne technologie analityczne lub śledzące, zaktualizujemy tę politykę i najpierw zapytamy Cię o zgodę w banerze.",
     "storage_title": "Szczegóły plików cookie i pamięci lokalnej",
     "storage_intro": "Poniżej znajduje się pełna lista plików cookie i elementów pamięci lokalnej używanych na tej stronie:",
     "table_name": "Nazwa",

@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { CONSENT_VERSION } from '@/components/SiteAnalytics';
 
 interface CookiePreferences {
   essential: boolean;
@@ -45,7 +46,9 @@ export function CookieConsent() {
   }, []);
 
   const saveAndClose = (prefs: CookiePreferences) => {
-    localStorage.setItem('cookie-consent', JSON.stringify(prefs));
+    // v marks a choice made on the banner that offers the Analytics option.
+    // Older saved choices carry no version and never count as analytics consent in Europe.
+    localStorage.setItem('cookie-consent', JSON.stringify({ ...prefs, v: CONSENT_VERSION }));
     window.dispatchEvent(new CustomEvent('cookie-consent-changed', { detail: prefs }));
     setShowBanner(false);
   };
@@ -140,7 +143,24 @@ export function CookieConsent() {
                       </button>
                     </div>
 
-                    {/* No analytics category: the site runs no analytics, so there is nothing to opt into. */}
+                    {/* Analytics: our own cookieless visit statistics (SiteAnalytics.tsx) */}
+                    <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">
+                      <div>
+                        <p id="cookie-analytics-label" className="text-white text-sm font-medium">{t('analytics_title')}</p>
+                        <p id="cookie-analytics-desc" className="text-gray-400 text-xs mt-0.5">{t('analytics_desc')}</p>
+                      </div>
+                      <button
+                        type="button"
+                        role="switch"
+                        aria-checked={preferences.analytics}
+                        aria-labelledby="cookie-analytics-label"
+                        aria-describedby="cookie-analytics-desc"
+                        onClick={() => setPreferences(p => ({ ...p, analytics: !p.analytics }))}
+                        className={`w-10 h-6 rounded-full relative transition-colors ${preferences.analytics ? 'bg-white/30' : 'bg-white/10'}`}
+                      >
+                        <span className={`absolute top-1 w-4 h-4 rounded-full transition-all ${preferences.analytics ? 'right-1 bg-white' : 'left-1 bg-gray-400'}`} />
+                      </button>
+                    </div>
 
                     {/* Marketing */}
                     <div className="flex items-center justify-between p-3 rounded-xl bg-white/5">

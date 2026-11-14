@@ -449,7 +449,7 @@
   "privacy": {
     "title": "Privacyverklaring",
     "description": "Hoe Blok Blok Studio je persoonsgegevens verzamelt, gebruikt en beschermt",
-    "last_updated": "Laatst bijgewerkt: 16 juli 2026",
+    "last_updated": "Laatst bijgewerkt: 14 november 2026",
     "intro_title": "Inleiding",
     "intro_content": "Bij Blok Blok Studio nemen we je privacy serieus. Deze privacyverklaring legt uit hoe we je gegevens verzamelen, gebruiken, delen en beschermen wanneer je onze website bezoekt of onze diensten gebruikt.",
     "data_collection_title": "Welke gegevens we verzamelen",
@@ -487,7 +487,7 @@
     "contact_title": "Contact",
     "contact_content": "Heb je vragen over deze privacyverklaring of over hoe we met je gegevens omgaan, neem dan contact met ons op via:",
     "data_item_phone": "Telefoonnummer",
-    "third_party_pixels": "We laden advertentiepixels (Meta, Google) alleen als je marketingcookies uitdrukkelijk accepteert in onze cookiebanner; anders gebruiken we geen trackingcookies of analysediensten.",
+    "third_party_pixels": "We laden advertentiepixels (Meta, Google) alleen als je marketingcookies uitdrukkelijk accepteert in onze cookiebanner; anders gebruiken we geen trackingcookies of analysediensten van derden.",
     "legal_basis_title": "Rechtsgrondslag voor de verwerking",
     "legal_basis_intro": "Op grond van artikel 6 van de AVG verwerken we je persoonsgegevens op basis van de volgende rechtsgronden:",
     "legal_basis_consent": "Toestemming (art. 6 lid 1 sub a): wanneer je je inschrijft voor onze nieuwsbrief of een contactformulier verstuurt met uitdrukkelijke toestemming",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar: afspraakplanning wanneer je een gesprek met ons inplant",
     "third_party_meta": "Meta (Facebook/Instagram): advertentiemeting, uitsluitend met jouw toestemming voor marketingcookies. Met die toestemming kunnen we ook je e-mailadres en telefoonnummer in gehashte (gepseudonimiseerde) vorm doorgeven om advertentieconversies te meten.",
     "third_party_google": "Google: advertentiemeting (Google Ads), uitsluitend met jouw toestemming voor marketingcookies",
-    "marketing_double_optin": "Voor marketingmails gebruiken we double opt-in. Het aanvinken van het optionele vakje op een formulier is op zichzelf niet genoeg: we sturen een bevestigingsmail en je wordt pas aan de lijst toegevoegd zodra je op de link daarin klikt. Tot die tijd sturen we je geen marketing. Je kunt je op elk moment uitschrijven via de uitschrijflink in elke e-mail; dat gaat direct in."
+    "marketing_double_optin": "Voor marketingmails gebruiken we double opt-in. Het aanvinken van het optionele vakje op een formulier is op zichzelf niet genoeg: we sturen een bevestigingsmail en je wordt pas aan de lijst toegevoegd zodra je op de link daarin klikt. Tot die tijd sturen we je geen marketing. Je kunt je op elk moment uitschrijven via de uitschrijflink in elke e-mail; dat gaat direct in.",
+    "own_statistics": "Bezoekstatistieken: we gebruiken een eigen statistiektool, zonder extern analysebedrijf. De tool plaatst geen cookies en slaat niets op je apparaat op. Hij registreert de bekeken pagina’s, de verwijzende website, het type apparaat, het land, klikken en scrolldiepte. Je IP-adres wordt niet opgeslagen. Het wordt alleen gebruikt om een code te maken die elke dag verandert, zodat bezoeken niet over meerdere dagen of websites aan elkaar gekoppeld kunnen worden. In de EU, het Verenigd Koninkrijk en Zwitserland werkt de tool alleen als je ‘Analyse’ accepteert in onze cookiebanner. Elders werkt hij tenzij je ‘Analyse’ daar uitzet."
   },
   "terms": {
     "title": "Servicevoorwaarden",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Cookiebeleid",
     "description": "Hoe Blok Blok Studio cookies en vergelijkbare technologieën gebruikt",
-    "last_updated": "Laatst bijgewerkt: 16 juli 2026",
+    "last_updated": "Laatst bijgewerkt: 14 november 2026",
     "intro_title": "Wat zijn cookies",
     "intro_content": "Cookies zijn kleine tekstbestanden die op je apparaat worden opgeslagen wanneer je een website bezoekt. Ze helpen websites je voorkeuren te onthouden en je surfervaring te verbeteren.",
     "our_use_title": "Hoe wij cookies gebruiken",
@@ -549,7 +550,7 @@
     "control_title": "Cookies beheren",
     "control_content": "Je kunt cookies beheren via je browserinstellingen. In de meeste browsers kun je cookies blokkeren of verwijderen. Let op: als je localStorage wist, wordt je cookievoorkeur gereset.",
     "updates_title": "Beleidsupdates",
-    "updates_content": "Als we in de toekomst analyse- of trackingtechnologieën gaan gebruiken, werken we dit beleid bij en laten we je dat via onze cookiebanner weten voordat er tracking plaatsvindt.",
+    "updates_content": "Sinds november 2026 meten we bezoeken met een eigen statistiektool zonder cookies, beschreven in ons Privacybeleid. In de EU, het Verenigd Koninkrijk en Zwitserland werkt die pas nadat je ‘Analyse’ hebt geaccepteerd in onze cookiebanner. Als we andere analyse- of trackingtechnologieën toevoegen, werken we dit beleid bij en vragen we het je eerst via de banner.",
     "storage_title": "Cookie- en opslagdetails",
     "storage_intro": "Hieronder vind je een volledig overzicht van de cookies en localStorage-items die op deze website worden gebruikt:",
     "table_name": "Naam",

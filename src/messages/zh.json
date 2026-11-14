@@ -449,7 +449,7 @@
   "privacy": {
     "title": "隐私政策",
     "description": "Blok Blok Studio 如何收集、使用和保护您的个人数据",
-    "last_updated": "最后更新：2026 年 7 月 16 日",
+    "last_updated": "最后更新：2026 年 11 月 14 日",
     "intro_title": "简介",
     "intro_content": "Blok Blok Studio 非常重视您的隐私。本隐私政策说明当您访问我们的网站或使用我们的服务时，我们如何收集、使用、披露和保护您的信息。",
     "data_collection_title": "我们收集哪些数据",
@@ -487,7 +487,7 @@
     "contact_title": "联系我们",
     "contact_content": "如您对本隐私政策或我们处理数据的方式有任何疑问，请通过以下方式联系我们：",
     "data_item_phone": "电话号码",
-    "third_party_pixels": "只有在您于同意横幅中明确接受营销 Cookie 后，我们才会加载广告像素（Meta、Google）；否则不会使用任何追踪 Cookie 或分析服务。",
+    "third_party_pixels": "只有在您于同意横幅中明确接受营销 Cookie 后，我们才会加载广告像素（Meta、Google）；否则不会使用任何追踪 Cookie 或第三方分析服务。",
     "legal_basis_title": "数据处理的法律依据",
     "legal_basis_intro": "根据《通用数据保护条例》（GDPR）第 6 条，我们基于以下法律依据处理您的个人数据：",
     "legal_basis_consent": "同意（第 6 条第 1 款 a 项）：当您订阅我们的通讯，或在明确同意的情况下提交联系表单时",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar：当您与我们预约通话时用于安排时间",
     "third_party_meta": "Meta（Facebook/Instagram）：广告效果衡量，仅在您同意营销 Cookie 后启用。在您同意的前提下，我们还可能以哈希（假名化）形式传输您的邮箱和电话号码，用于衡量广告转化。",
     "third_party_google": "Google：广告效果衡量（Google Ads），仅在您同意营销 Cookie 后启用",
-    "marketing_double_optin": "营销邮件采用双重确认机制。仅在表单上勾选可选项并不足以完成订阅：我们会发送一封确认邮件，只有当您点击其中的链接后才会被加入名单。在此之前，我们不会向您发送任何营销内容。您可以随时通过任意邮件中的退订链接撤回同意，立即生效。"
+    "marketing_double_optin": "营销邮件采用双重确认机制。仅在表单上勾选可选项并不足以完成订阅：我们会发送一封确认邮件，只有当您点击其中的链接后才会被加入名单。在此之前，我们不会向您发送任何营销内容。您可以随时通过任意邮件中的退订链接撤回同意，立即生效。",
+    "own_statistics": "访问统计：我们使用自有的统计工具，不涉及任何外部分析公司。该工具不设置 Cookie，也不在您的设备上存储任何内容。它会记录浏览的页面、来源网站、设备类型、国家/地区、点击和滚动深度。我们不会存储您的 IP 地址，它仅用于生成一个每天更换的代码，因此无法跨日期或跨网站关联访问记录。在欧盟、英国和瑞士，只有当您在同意横幅中接受“分析”后，该工具才会运行。在其他地区，除非您在横幅中关闭“分析”，否则它会运行。"
   },
   "terms": {
     "title": "服务条款",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Cookie 政策",
     "description": "Blok Blok Studio 如何使用 Cookie 及类似技术",
-    "last_updated": "最后更新：2026 年 7 月 16 日",
+    "last_updated": "最后更新：2026 年 11 月 14 日",
     "intro_title": "什么是 Cookie",
     "intro_content": "Cookie 是您访问网站时存储在设备上的小型文本文件，用于帮助网站记住您的偏好并改善浏览体验。",
     "our_use_title": "我们如何使用 Cookie",
@@ -549,7 +550,7 @@
     "control_title": "管理 Cookie",
     "control_content": "您可以通过浏览器设置控制 Cookie。大多数浏览器允许您阻止或删除 Cookie。请注意，清除 localStorage 会重置您的 Cookie 同意偏好。",
     "updates_title": "政策更新",
-    "updates_content": "如果我们将来开始使用分析或追踪技术，我们会更新本政策，并在任何追踪开始之前通过 Cookie 同意横幅通知您。",
+    "updates_content": "自 2026 年 11 月起，我们使用隐私政策中所述的自有无 Cookie 统计工具来统计访问量。在欧盟、英国和瑞士，只有在您于同意横幅中接受“分析”之后，该工具才会运行。如果我们增加其他分析或追踪技术，我们将更新本政策，并事先通过横幅征求您的同意。",
     "storage_title": "Cookie 与存储详情",
     "storage_intro": "以下是本网站使用的全部 Cookie 和本地存储项：",
     "table_name": "名称",

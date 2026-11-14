@@ -449,7 +449,7 @@
   "privacy": {
     "title": "Integritetspolicy",
     "description": "Hur Blok Blok Studio samlar in, använder och skyddar dina personuppgifter",
-    "last_updated": "Senast uppdaterad: 16 juli 2026",
+    "last_updated": "Senast uppdaterad: 14 november 2026",
     "intro_title": "Inledning",
     "intro_content": "På Blok Blok Studio tar vi din integritet på allvar. Den här integritetspolicyn förklarar hur vi samlar in, använder, delar och skyddar dina uppgifter när du besöker vår webbplats eller använder våra tjänster.",
     "data_collection_title": "Vilka uppgifter vi samlar in",
@@ -487,7 +487,7 @@
     "contact_title": "Kontakta oss",
     "contact_content": "Om du har frågor om den här integritetspolicyn eller hur vi hanterar dina uppgifter, kontakta oss på:",
     "data_item_phone": "Telefonnummer",
-    "third_party_pixels": "Vi laddar endast annonspixlar (Meta, Google) om du uttryckligen accepterar marknadsföringscookies i vår samtyckesbanner; i annat fall används inga spårningscookies eller analystjänster.",
+    "third_party_pixels": "Vi laddar endast annonspixlar (Meta, Google) om du uttryckligen accepterar marknadsföringscookies i vår samtyckesbanner; i annat fall används inga spårningscookies eller analystjänster från tredje part.",
     "legal_basis_title": "Rättslig grund för behandlingen",
     "legal_basis_intro": "Enligt artikel 6 i GDPR behandlar vi dina personuppgifter med stöd av följande rättsliga grunder:",
     "legal_basis_consent": "Samtycke (art. 6.1 a): När du prenumererar på vårt nyhetsbrev eller skickar ett kontaktformulär med uttryckligt samtycke",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar: tidsbokning när du bokar ett samtal med oss",
     "third_party_meta": "Meta (Facebook/Instagram): mätning av annonser, endast med ditt samtycke till marknadsföringscookies. Med det samtycket kan vi också överföra din e-postadress och ditt telefonnummer i hashad (pseudonymiserad) form för att mäta annonskonverteringar.",
     "third_party_google": "Google: mätning av annonser (Google Ads), endast med ditt samtycke till marknadsföringscookies",
-    "marketing_double_optin": "Marknadsföringsmejl använder dubbel bekräftelse (double opt-in). Att kryssa i den valfria rutan i ett formulär räcker inte i sig: vi skickar ett bekräftelsemejl, och du läggs till på listan först när du klickar på länken i det. Fram till dess skickar vi ingen marknadsföring till dig. Du kan när som helst avsluta via avregistreringslänken i varje mejl, vilket gäller omedelbart."
+    "marketing_double_optin": "Marknadsföringsmejl använder dubbel bekräftelse (double opt-in). Att kryssa i den valfria rutan i ett formulär räcker inte i sig: vi skickar ett bekräftelsemejl, och du läggs till på listan först när du klickar på länken i det. Fram till dess skickar vi ingen marknadsföring till dig. Du kan när som helst avsluta via avregistreringslänken i varje mejl, vilket gäller omedelbart.",
+    "own_statistics": "Besöksstatistik: vi använder ett eget statistikverktyg, utan något externt analysföretag. Det sätter inga cookies och sparar ingenting på din enhet. Det registrerar visade sidor, hänvisande webbplats, enhetstyp, land, klick och scrolldjup. Din IP-adress sparas inte. Den används bara för att skapa en kod som byts varje dag, så besök kan inte kopplas ihop mellan dagar eller mellan webbplatser. I EU, Storbritannien och Schweiz körs verktyget bara om du accepterar ”Analys” i vår cookiebanner. På andra platser körs det om du inte stänger av ”Analys” där."
   },
   "terms": {
     "title": "Användarvillkor",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Cookiepolicy",
     "description": "Hur Blok Blok Studio använder cookies och liknande tekniker",
-    "last_updated": "Senast uppdaterad: 16 juli 2026",
+    "last_updated": "Senast uppdaterad: 14 november 2026",
     "intro_title": "Vad är cookies",
     "intro_content": "Cookies är små textfiler som lagras på din enhet när du besöker en webbplats. De hjälper webbplatser att komma ihåg dina inställningar och förbättra din upplevelse.",
     "our_use_title": "Så använder vi cookies",
@@ -549,7 +550,7 @@
     "control_title": "Hantera cookies",
     "control_content": "Du kan styra cookies via inställningarna i din webbläsare. De flesta webbläsare låter dig blockera eller radera cookies. Observera att om du rensar localStorage återställs ditt val om cookiesamtycke.",
     "updates_title": "Uppdateringar av policyn",
-    "updates_content": "Om vi i framtiden börjar använda analys- eller spårningstekniker uppdaterar vi den här policyn och informerar dig via vår cookiebanner innan någon spårning sker.",
+    "updates_content": "Sedan november 2026 mäter vi besök med ett eget statistikverktyg utan cookies, som beskrivs i vår integritetspolicy. I EU, Storbritannien och Schweiz körs det först när du har accepterat ”Analys” i vår cookiebanner. Om vi lägger till andra analys- eller spårningstekniker uppdaterar vi den här policyn och frågar dig först via bannern.",
     "storage_title": "Detaljer om cookies och lagring",
     "storage_intro": "Nedan följer en fullständig lista över cookies och localStorage-poster som används på den här webbplatsen:",
     "table_name": "Namn",

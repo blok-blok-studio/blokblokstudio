@@ -449,7 +449,7 @@
   "privacy": {
     "title": "Privacy Policy",
     "description": "How Blok Blok Studio collects, uses, and protects your personal data",
-    "last_updated": "Last Updated: July 16, 2026",
+    "last_updated": "Last Updated: November 14, 2026",
     "intro_title": "Introduction",
     "intro_content": "At Blok Blok Studio, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.",
     "data_collection_title": "What Data We Collect",
@@ -487,7 +487,7 @@
     "contact_title": "Contact Us",
     "contact_content": "If you have questions about this Privacy Policy or how we handle your data, contact us at:",
     "data_item_phone": "Phone number",
-    "third_party_pixels": "We only load advertising pixels (Meta, Google) if you explicitly accept marketing cookies in our consent banner; otherwise no tracking cookies or analytics services are used.",
+    "third_party_pixels": "We only load advertising pixels (Meta, Google) if you explicitly accept marketing cookies in our consent banner; otherwise no tracking cookies or third-party analytics services are used.",
     "legal_basis_title": "Legal Basis for Processing",
     "legal_basis_intro": "Under Article 6 of the GDPR, we process your personal data based on the following legal grounds:",
     "legal_basis_consent": "Consent (Art. 6(1)(a)): When you subscribe to our newsletter or submit a contact form with explicit consent",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar: appointment scheduling when you book a call with us",
     "third_party_meta": "Meta (Facebook/Instagram): advertising measurement, only with your marketing-cookie consent. With that consent we may also transmit your email address and phone number in hashed (pseudonymized) form to measure ad conversions.",
     "third_party_google": "Google: advertising measurement (Google Ads), only with your marketing-cookie consent",
-    "marketing_double_optin": "Marketing emails use double opt-in. Ticking the optional box on a form is not enough on its own: we send a confirmation email, and you are only added to the list once you click the link in it. Until then we do not send you marketing. You can withdraw at any time using the unsubscribe link in any email, which takes effect immediately."
+    "marketing_double_optin": "Marketing emails use double opt-in. Ticking the optional box on a form is not enough on its own: we send a confirmation email, and you are only added to the list once you click the link in it. Until then we do not send you marketing. You can withdraw at any time using the unsubscribe link in any email, which takes effect immediately.",
+    "own_statistics": "Visit statistics: we run our own statistics tool with no outside analytics company involved. It sets no cookies and stores nothing on your device. It records the pages viewed, the referring website, device type, country, clicks and scroll depth. Your IP address is not stored. It is only used to form a code that changes every day, so visits cannot be linked across days or across websites. In the EU, the UK and Switzerland it only runs if you accept \"Analytics\" in our cookie banner. Elsewhere it runs unless you switch \"Analytics\" off there."
   },
   "terms": {
     "title": "Terms of Service",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Cookie Policy",
     "description": "How Blok Blok Studio uses cookies and similar technologies",
-    "last_updated": "Last Updated: July 16, 2026",
+    "last_updated": "Last Updated: November 14, 2026",
     "intro_title": "What Are Cookies",
     "intro_content": "Cookies are small text files stored on your device when you visit a website. They help websites remember your preferences and improve your browsing experience.",
     "our_use_title": "Our Use of Cookies",
@@ -549,7 +550,7 @@
     "control_title": "Managing Cookies",
     "control_content": "You can control cookies through your browser settings. Most browsers allow you to block or delete cookies. Note that clearing localStorage will reset your cookie consent preference.",
     "updates_title": "Policy Updates",
-    "updates_content": "If we begin using analytics or tracking technologies in the future, we will update this policy and notify you through our cookie consent banner before any tracking occurs.",
+    "updates_content": "Since November 2026 we measure visits with our own cookieless statistics tool, described in our Privacy Policy. In the EU, the UK and Switzerland it only runs after you accept \"Analytics\" in our cookie banner. If we add other analytics or tracking technologies, we will update this policy and ask you through the banner first.",
     "storage_title": "Cookie & Storage Details",
     "storage_intro": "Below is a complete list of cookies and local storage items used on this website:",
     "table_name": "Name",

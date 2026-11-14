@@ -449,7 +449,7 @@
   "privacy": {
     "title": "Politique de confidentialité",
     "description": "Comment Blok Blok Studio collecte, utilise et protège vos données personnelles",
-    "last_updated": "Dernière mise à jour : 16 juillet 2026",
+    "last_updated": "Dernière mise à jour : 14 novembre 2026",
     "intro_title": "Introduction",
     "intro_content": "Chez Blok Blok Studio, nous prenons votre vie privée au sérieux. Cette Politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web ou utilisez nos services.",
     "data_collection_title": "Les données que nous collectons",
@@ -487,7 +487,7 @@
     "contact_title": "Nous contacter",
     "contact_content": "Si vous avez des questions sur cette Politique de confidentialité ou sur la manière dont nous traitons vos données, contactez-nous à :",
     "data_item_phone": "Numéro de téléphone",
-    "third_party_pixels": "Nous ne chargeons les pixels publicitaires (Meta, Google) que si vous acceptez explicitement les cookies marketing dans notre bandeau de consentement ; sinon, aucun cookie de suivi ni service d'analyse n'est utilisé.",
+    "third_party_pixels": "Nous ne chargeons les pixels publicitaires (Meta, Google) que si vous acceptez explicitement les cookies marketing dans notre bandeau de consentement ; sinon, aucun cookie de suivi ni service d'analyse tiers n'est utilisé.",
     "legal_basis_title": "Base légale du traitement",
     "legal_basis_intro": "Conformément à l'article 6 du RGPD, nous traitons vos données personnelles sur les fondements juridiques suivants :",
     "legal_basis_consent": "Consentement (art. 6, par. 1, point a) : lorsque vous vous abonnez à notre newsletter ou envoyez un formulaire de contact avec un consentement explicite",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar : prise de rendez-vous lorsque vous réservez un appel avec nous",
     "third_party_meta": "Meta (Facebook/Instagram) : mesure publicitaire, uniquement avec votre consentement aux cookies marketing. Avec ce consentement, nous pouvons également transmettre votre adresse e-mail et votre numéro de téléphone sous forme hachée (pseudonymisée) pour mesurer les conversions publicitaires.",
     "third_party_google": "Google : mesure publicitaire (Google Ads), uniquement avec votre consentement aux cookies marketing",
-    "marketing_double_optin": "Les e-mails marketing fonctionnent en double opt-in. Cocher la case facultative d'un formulaire ne suffit pas à elle seule : nous vous envoyons un e-mail de confirmation, et vous n'êtes ajouté à la liste qu'après avoir cliqué sur le lien qu'il contient. D'ici là, nous ne vous envoyons aucun message marketing. Vous pouvez vous désinscrire à tout moment via le lien de désabonnement présent dans chaque e-mail, avec effet immédiat."
+    "marketing_double_optin": "Les e-mails marketing fonctionnent en double opt-in. Cocher la case facultative d'un formulaire ne suffit pas à elle seule : nous vous envoyons un e-mail de confirmation, et vous n'êtes ajouté à la liste qu'après avoir cliqué sur le lien qu'il contient. D'ici là, nous ne vous envoyons aucun message marketing. Vous pouvez vous désinscrire à tout moment via le lien de désabonnement présent dans chaque e-mail, avec effet immédiat.",
+    "own_statistics": "Statistiques de visite : nous utilisons notre propre outil de statistiques, sans aucun prestataire d'analyse externe. Il ne dépose aucun cookie et n'enregistre rien sur votre appareil. Il relève les pages consultées, le site de provenance, le type d'appareil, le pays, les clics et la profondeur de défilement. Votre adresse IP n'est pas conservée. Elle sert uniquement à former un code qui change chaque jour, de sorte que les visites ne peuvent pas être reliées d'un jour à l'autre ni d'un site à l'autre. Dans l'UE, au Royaume-Uni et en Suisse, l'outil ne fonctionne que si vous acceptez « Statistiques » dans notre bandeau cookies. Ailleurs, il fonctionne tant que vous n'y désactivez pas « Statistiques »."
   },
   "terms": {
     "title": "Conditions d'utilisation",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Politique de cookies",
     "description": "Comment Blok Blok Studio utilise les cookies et technologies similaires",
-    "last_updated": "Dernière mise à jour : 16 juillet 2026",
+    "last_updated": "Dernière mise à jour : 14 novembre 2026",
     "intro_title": "Que sont les cookies",
     "intro_content": "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez un site web. Ils aident les sites web à mémoriser vos préférences et à améliorer votre expérience de navigation.",
     "our_use_title": "Notre utilisation des cookies",
@@ -549,7 +550,7 @@
     "control_title": "Gestion des cookies",
     "control_content": "Vous pouvez contrôler les cookies via les paramètres de votre navigateur. La plupart des navigateurs vous permettent de bloquer ou de supprimer les cookies. Notez que l'effacement de localStorage réinitialisera votre préférence de consentement aux cookies.",
     "updates_title": "Mises à jour de la politique",
-    "updates_content": "Si nous commençons à utiliser des outils d'analyse ou de suivi à l'avenir, nous mettrons à jour cette politique et vous en informerons via notre bandeau de consentement aux cookies avant tout suivi.",
+    "updates_content": "Depuis novembre 2026, nous mesurons les visites avec notre propre outil de statistiques sans cookies, décrit dans notre Politique de confidentialité. Dans l'UE, au Royaume-Uni et en Suisse, il ne fonctionne qu'après votre acceptation de « Statistiques » dans notre bandeau cookies. Si nous ajoutons d'autres technologies d'analyse ou de suivi, nous mettrons cette politique à jour et vous demanderons d'abord votre accord via le bandeau.",
     "storage_title": "Détail des cookies et du stockage",
     "storage_intro": "Voici la liste complète des cookies et éléments de stockage local utilisés sur ce site :",
     "table_name": "Nom",

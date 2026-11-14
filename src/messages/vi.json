@@ -449,7 +449,7 @@
   "privacy": {
     "title": "Chính sách Bảo mật",
     "description": "Cách Blok Blok Studio thu thập, sử dụng và bảo vệ dữ liệu cá nhân của bạn",
-    "last_updated": "Cập nhật lần cuối: 16 tháng 7 năm 2026",
+    "last_updated": "Cập nhật lần cuối: 14 tháng 11 năm 2026",
     "intro_title": "Giới thiệu",
     "intro_content": "Tại Blok Blok Studio, chúng tôi coi trọng quyền riêng tư của bạn. Chính sách này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn truy cập website hoặc sử dụng dịch vụ.",
     "data_collection_title": "Dữ liệu chúng tôi thu thập",
@@ -487,7 +487,7 @@
     "contact_title": "Liên hệ",
     "contact_content": "Nếu bạn có câu hỏi về Chính sách Bảo mật hoặc cách chúng tôi xử lý dữ liệu, hãy liên hệ:",
     "data_item_phone": "Số điện thoại",
-    "third_party_pixels": "Chúng tôi chỉ tải pixel quảng cáo (Meta, Google) nếu bạn chủ động chấp nhận cookie marketing trong banner đồng ý; nếu không, không có cookie theo dõi hay dịch vụ phân tích nào được sử dụng.",
+    "third_party_pixels": "Chúng tôi chỉ tải pixel quảng cáo (Meta, Google) nếu bạn chủ động chấp nhận cookie marketing trong banner đồng ý; nếu không, không có cookie theo dõi hay dịch vụ phân tích bên thứ ba nào được sử dụng.",
     "legal_basis_title": "Cơ sở pháp lý cho việc xử lý",
     "legal_basis_intro": "Theo Điều 6 GDPR, chúng tôi xử lý dữ liệu cá nhân của bạn dựa trên các cơ sở pháp lý sau:",
     "legal_basis_consent": "Sự đồng ý (Điều 6(1)(a)): Khi bạn đăng ký nhận bản tin hoặc gửi form liên hệ với sự đồng ý rõ ràng",
@@ -507,7 +507,8 @@
     "third_party_cal": "Google Calendar: đặt lịch hẹn khi bạn đặt cuộc gọi với chúng tôi",
     "third_party_meta": "Meta (Facebook/Instagram): đo lường quảng cáo, chỉ khi bạn đồng ý cookie marketing. Với sự đồng ý đó, chúng tôi cũng có thể truyền địa chỉ email và số điện thoại của bạn ở dạng băm (ẩn danh hóa) để đo lường chuyển đổi quảng cáo.",
     "third_party_google": "Google: đo lường quảng cáo (Google Ads), chỉ khi bạn đồng ý cookie marketing",
-    "marketing_double_optin": "Email marketing sử dụng cơ chế xác nhận hai bước (double opt-in). Chỉ tích vào ô tùy chọn trên form là chưa đủ: chúng tôi gửi một email xác nhận, và bạn chỉ được thêm vào danh sách sau khi bấm vào liên kết trong đó. Trước thời điểm ấy, chúng tôi không gửi email marketing cho bạn. Bạn có thể rút lại bất cứ lúc nào bằng liên kết hủy đăng ký trong mọi email, có hiệu lực ngay lập tức."
+    "marketing_double_optin": "Email marketing sử dụng cơ chế xác nhận hai bước (double opt-in). Chỉ tích vào ô tùy chọn trên form là chưa đủ: chúng tôi gửi một email xác nhận, và bạn chỉ được thêm vào danh sách sau khi bấm vào liên kết trong đó. Trước thời điểm ấy, chúng tôi không gửi email marketing cho bạn. Bạn có thể rút lại bất cứ lúc nào bằng liên kết hủy đăng ký trong mọi email, có hiệu lực ngay lập tức.",
+    "own_statistics": "Thống kê lượt truy cập: chúng tôi dùng công cụ thống kê của riêng mình, không có công ty phân tích bên ngoài nào tham gia. Công cụ này không đặt cookie và không lưu gì trên thiết bị của bạn. Nó ghi lại các trang đã xem, trang web giới thiệu, loại thiết bị, quốc gia, lượt nhấp và độ sâu cuộn trang. Địa chỉ IP của bạn không được lưu. Địa chỉ này chỉ được dùng để tạo một mã thay đổi mỗi ngày, nên không thể liên kết các lượt truy cập giữa các ngày hay giữa các trang web. Tại EU, Vương quốc Anh và Thụy Sĩ, công cụ chỉ chạy nếu bạn chấp nhận “Phân tích” trong banner cookie của chúng tôi. Ở những nơi khác, công cụ chạy trừ khi bạn tắt “Phân tích” tại đó."
   },
   "terms": {
     "title": "Điều khoản Dịch vụ",
@@ -539,7 +540,7 @@
   "cookies": {
     "title": "Chính sách Cookie",
     "description": "Cách Blok Blok Studio sử dụng cookie và các công nghệ tương tự",
-    "last_updated": "Cập nhật lần cuối: 16 tháng 7 năm 2026",
+    "last_updated": "Cập nhật lần cuối: 14 tháng 11 năm 2026",
     "intro_title": "Cookie là gì",
     "intro_content": "Cookie là các tệp văn bản nhỏ được lưu trên thiết bị khi bạn truy cập website. Chúng giúp website ghi nhớ tùy chọn của bạn và cải thiện trải nghiệm duyệt web.",
     "our_use_title": "Cách chúng tôi sử dụng cookie",
@@ -549,7 +550,7 @@
     "control_title": "Quản lý cookie",
     "control_content": "Bạn có thể quản lý cookie qua cài đặt trình duyệt. Hầu hết trình duyệt cho phép chặn hoặc xóa cookie. Lưu ý xóa localStorage sẽ đặt lại tùy chọn đồng ý cookie.",
     "updates_title": "Cập nhật chính sách",
-    "updates_content": "Nếu chúng tôi bắt đầu sử dụng công nghệ phân tích hoặc theo dõi trong tương lai, chúng tôi sẽ cập nhật chính sách và thông báo qua banner đồng ý cookie trước khi mọi việc theo dõi diễn ra.",
+    "updates_content": "Từ tháng 11 năm 2026, chúng tôi đo lượt truy cập bằng công cụ thống kê của riêng mình, không dùng cookie, được mô tả trong Chính sách Quyền riêng tư. Tại EU, Vương quốc Anh và Thụy Sĩ, công cụ chỉ chạy sau khi bạn chấp nhận “Phân tích” trong banner cookie của chúng tôi. Nếu bổ sung công nghệ phân tích hoặc theo dõi khác, chúng tôi sẽ cập nhật chính sách này và hỏi ý kiến bạn trước qua banner.",
     "storage_title": "Chi tiết Cookie & Lưu trữ",
     "storage_intro": "Dưới đây là danh sách đầy đủ các cookie và mục lưu trữ cục bộ được sử dụng trên website này:",
     "table_name": "Tên",
