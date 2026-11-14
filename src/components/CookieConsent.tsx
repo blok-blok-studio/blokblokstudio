@@ -29,6 +29,19 @@ export function CookieConsent() {
     const consent = localStorage.getItem('cookie-consent');
     if (!consent) {
       setShowBanner(true);
+    } else {
+      // A choice saved before the banner offered Analytics is out of date:
+      // ask once more, with the earlier marketing answer filled in. Marketing keeps
+      // working as chosen until the visitor saves again.
+      try {
+        const saved = JSON.parse(consent);
+        if ((saved.v ?? 1) < CONSENT_VERSION) {
+          setPreferences({ essential: true, analytics: false, marketing: saved.marketing === true }); // Analytics is never pre-ticked
+          setShowBanner(true);
+        }
+      } catch {
+        setShowBanner(true);
+      }
     }
     // GDPR Art. 7(3): withdrawing consent must be as easy as giving it —
     // footer "Cookie Settings" links reopen this banner in preferences view
