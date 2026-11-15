@@ -94,6 +94,7 @@ export async function V2Hero() {
         <div className="hero-enter mt-9 flex flex-wrap items-center justify-center gap-3" style={{ animationDelay: '0.45s' }}>
           <Link
             href="/quiz" target="_blank" rel="noopener noreferrer"
+            data-bb-event="Quiz started (hero)"
             className="inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400"
           >
             {t('v2_hero_cta')}
@@ -101,6 +102,7 @@ export async function V2Hero() {
           </Link>
           <Link
             href="/projects"
+            data-bb-event="See our work (hero)"
             className="inline-flex items-center rounded-full border border-white/60 px-7 py-3.5 text-sm text-white transition-colors hover:border-white hover:bg-white/10"
           >
             {t('v2_see_work')}

@@ -18,7 +18,7 @@ import { useEffect } from 'react';
  */
 
 const API = process.env.NEXT_PUBLIC_BB_ANALYTICS_URL || 'https://app.blokblokstudio.com';
-const SITE = process.env.NEXT_PUBLIC_BB_ANALYTICS_SITE || 'abddb090a1b5';
+const SITE = process.env.NEXT_PUBLIC_BB_ANALYTICS_SITE || '660131dee4b4';
 
 /** Consent saved before the banner offered an Analytics option has no version. */
 export const CONSENT_VERSION = 2;
@@ -26,6 +26,8 @@ export const CONSENT_VERSION = 2;
 declare global {
   interface Window {
     __bbOff?: boolean;
+    bbConsent?: (ok: boolean) => void;
+    bb?: (name: string, props?: Record<string, string | number | boolean>) => void;
   }
 }
 
@@ -80,6 +82,7 @@ export function SiteAnalytics() {
     const apply = () => {
       const ok = mayCount();
       window.__bbOff = !ok; // stops a tracker that is already running
+      window.bbConsent?.(ok);
       if (ok) load();
     };
     apply();

@@ -88,6 +88,7 @@ export function V2Navbar() {
             </div>
             <Link
               href="/quiz" target="_blank" rel="noopener noreferrer"
+              data-bb-event="Quiz started (menu)"
               className="hidden rounded-full bg-orange-500 px-5 py-2.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400 md:inline-flex"
             >
               {t('v2_cta')}

@@ -20,6 +20,7 @@ export async function V2Quiz() {
           <p className="mt-6 max-w-lg t-lead text-gray-400">{t('v2_quiz_sub')}</p>
           <Link
             href="/quiz" target="_blank" rel="noopener noreferrer"
+            data-bb-event="Quiz started (quiz section)"
             className="mt-10 inline-flex items-center gap-3 rounded-full bg-orange-500 px-7 py-3.5 text-sm text-(--bb-on-primary) transition-colors hover:bg-orange-400"
           >
             {t('v2_quiz_cta')}
